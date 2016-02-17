@@ -6,7 +6,7 @@ Postman helps you be extremely efficient while working with APIs. With Postman, 
 
 ###Install Postman
 
-Postman is a Chrome App. This means that Postman can only run on the Chrome browser. To use Postman, you will first need to [install Google Chrome](http://www.google.com/chrome/).
+Postman is a Chrome and Mac App. This means that Postman can run on the Chrome browser. To use Postman in Chrome, you will first need to [install Google Chrome](http://www.google.com/chrome/).
 
 If you already have Chrome installed, head over to [Postman&#39;s page](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) on the Chrome Webstore and click 'Add to Chrome'.
 
