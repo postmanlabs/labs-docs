@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>Postman | Running a collection</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/web/styles.css"/>
+  <link href='//fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body class="running_collections regular">
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M42M5N"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M42M5N');
+var disableOverlaySignin = false;
+</script>
+<!-- End Google Tag Manager -->
+
+    <div id="header" class="header-container clearfix">
+    <div id="menu-toggle"></div>
+    <a href="/" class="logo-container"></a>
+
+    <div class="navigation-container">
+        <ul>
+            <li><a href="/pricing" class=" btn pm-btn-transparent">Pricing</a></li>
+            <li><a href="/apps" class=" btn pm-btn-transparent">Apps</a></li>
+            <li><a href="/docs/" class="active btn pm-btn-transparent">Documentation</a></li>
+            <li><a href="/integrations" class=" btn pm-btn-transparent">Integrations</a></li>
+            <li><a href="/about-us" class=" btn pm-btn-transparent">About Us</a></li>
+            <li><a href="https://app.getpostman.com/signup?redirect=web" class="btn sign-in-button hide-if-signedin">Sign in</a></li>
+            <li><a href="https://app.getpostman.com/" class="btn sign-in-button hide-if-signedout">Dashboard</a></li>
+        </ul>
+    </div>
+</div>
+
+
+    <div class="page-wrapper">
+      <div class="container">
+         <div class="row">
+            <div class="content col-md-7">
+                <div class="doc-search visible-xs visible-sm">
+                    <input type="text" class="st-default-search-input pm-form-control pm-white-control" name="search" placeholder="Search documentation" autocomplete="off" autocorrect="off" autocapitalize="off" required="required" />
+                    <div class="clear-text"></div>
+                </div>
+                <h2 class="documentation-header" data-swiftype-name="title" data-swiftype-type="string">Running a collection</h2>
+
+<div class="doc-container-data">
+<p> The collection runner lets you run collections. Thousands of times if you want.
+</p>
+
+<img src="../img/v1/docs/source/cr-1.png" class="screenshot">
+
+<p>
+	The collection runner runs requests in a collection in the order in which you
+	set them. It also runs tests for every request and gives you an aggregate summary of
+	what happened. It stores all your test runs so you can compare them and
+	see what has changed.
+</p>
+
+<p>	All you have to do is select a collection, an environment if
+	needed, and hit the Run button. Optionally, you can also add a CSV or a JSON file from which
+	Postman can pick up data values. Need to test all those use cases? It’s super
+	easy with the Collection Runner.
+</p>
+
+<p>
+	The Collection Runner window runs separately from the main window. While the window is
+	open, you can make changes to your collections inside the main Postman
+	window and they will be updated inside the Collection Runner as well.
+</p>
+
+<h3>Starting a run</h3>
+
+<p>To start a collection run, you need to set some of these options and hit
+start. Only the collection name is compulsory.</p>
+
+
+<ul>
+	<li><strong>Collection/Folder</strong>: If a collection has folders, then those requests are executed as well</li>
+	<li><strong>Environment</strong> (optional)</li>
+	<li><strong>Iterations</strong> (optional): The number of times you want to run the collection. There is no official limit to the number. At least yet.</li>
+	<li><strong>Data</strong> (optional): Load a CSV/JSON data file</li>
+</ul>
+
+<p>Hit the Start button and Postman will start displaying results of the run.
+Once the run is over, you can start a new run or select run statistics from
+the history.</p>
+
+<h3>Viewing results</h3>
+
+<p>Clicking on any run in the sidebar brings up the stats for that run in a new
+tab, just in case you want to view a result while a run is ongoing.</p>
+
+<img src="../img/v1/docs/source/cr-3.png" class="screenshot">
+
+<p>Postman displays the parameters you started the run with. It also shows you how many tests passed among all the tests that
+were executed. The average response time for the run is also displayed.</p>
+
+<p>You can also see basic stats of all runs of the same type. You can compare how
+many tests passed previously and whether your API code is getting better.</p>
+
+<h4>Requests</h4>
+
+<img src="../img/v1/docs/source/cr-2.png" class="screenshot">
+
+<p>The Requests tab shows you all the requests which were run in a collection
+along with response times, test results and the last received status code. This helps
+you quickly get the state of the entire API. If any test fails while
+running multiple iterations, the entire test is marked as failed. If everything goes
+well, you should expect to see a lot of green. You don’t
+need to have tests in a request to run a collection.</p>
+
+<img src="../img/v1/docs/source/cr-7.png" class="screenshot">
+
+<p>You can get a more detailed per iteration view of the results by clicking the ‘>’ arrow when you hover over a request. This shows you a tabulated
+view of all the test iterations. If any test fails, you will see a red dot. You
+can pinpoint which iterations failed and which passed through the table. <br>
+More options coming soon!</p>
+
+<img src="../img/v1/docs/source/cr-4.png" class="screenshot">
+</div>                <!-- Populate the next and previous links based on _data.doc_map -->
+                
+                <div class="doc-next-link clearfix">
+                  
+                  <a href="/docs/sharing"  class="col-sm-6 col-xs-12 prev-article">Sharing Collections with your team</a>
+                  
+                  <a href="/docs/run_file_post_requests"  class="col-xs-6 hidden-xs next-article pull-right">Running collections with file-post requests</a>
+                  
+                </div>
+
+                
+                <div class="doc-next-link clearfix visible-xs">
+                  <a href="/docs/run_file_post_requests"  class="col-xs-12 next-article pull-right">Running collections with file-post requests</a>
+                </div>
+                
+                
+            </div>
+
+            <div class="pm-accordion col-md-4 col-md-offset-1 hidden-sm hidden-xs">
+                <div class="doc-search">
+                    <input type="text" class="st-default-search-input pm-form-control pm-white-control" name="search" placeholder="Search documentation" autocomplete="off" autocorrect="off" autocapitalize="off" required="required" />
+                    <div class="clear-text"></div>
+                </div>
+
+                <div class="pm-accordion-links" id="accordion">
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-0" class="category-title collapsed" data-toggle="collapse">Getting Started</a>
+                        <ul id="collapse-0" class="category-links collapse ">
+                            
+                                
+                                <li><a href="/docs/introduction"  >
+                                    Installing the Postman Chrome App
+                                </a></li>
+                                
+                            
+                                
+                            
+                                
+                                <li><a href="/docs/install_mac"  >
+                                    Installing the Mac App
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/launch"  >
+                                    Add Postman to your Dock
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/launch_chrome_quickly"  >
+                                    Launch Postman Really Quickly
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/migration"  >
+                                    Migrating to the packaged app
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-1" class="category-title collapsed" data-toggle="collapse">Sending Requests and Viewing Responses</a>
+                        <ul id="collapse-1" class="category-links collapse ">
+                            
+                                
+                                <li><a href="/docs/requests"  >
+                                    Sending Requests
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/responses"  >
+                                    Understanding and working with responses
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/helpers"  >
+                                    Authentication helpers
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/history"  >
+                                    Requests History 
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/interceptor_cookies"  >
+                                    Using Interceptor to read and write cookies
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/handling_redirects"  >
+                                    Handling redirects
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/self_signed_certs"  >
+                                    Sending requests to URLs with self signed SSLs
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/chaining_requests"  >
+                                    Extracting data from responses and chaining requests
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/soap_requests"  >
+                                    Making SOAP requests
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/creating_curl"  >
+                                    Creating cURL commands in Postman
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/importing_curl"  >
+                                    Importing cURL commands to Postman
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-2" class="category-title " data-toggle="collapse">Managing Collections</a>
+                        <ul id="collapse-2" class="category-links collapse in">
+                            
+                                
+                                <li><a href="/docs/collections"  >
+                                    Getting started with Collections
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/consuming_api_documentation"  >
+                                    Consuming API documentation in Collection Browser
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/sharing"  >
+                                    Sharing Collections with your team
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/running_collections"  class="active">
+                                    Running a collection
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/run_file_post_requests"  >
+                                    Running collections with file-post requests
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/capture"  >
+                                    Capturing requests
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/sync_overview"  >
+                                    Syncing collections with the Postman server
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/checking_payload_responses"  >
+                                    Checking response payloads
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/newman_intro"  >
+                                    Newman - Running collections in the command line 
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/newman_in_docker"  >
+                                    Running Newman inside Docker
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/validating_json_collections"  >
+                                    Validating JSON collections
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/importing_folders"  >
+                                    Importing RAML folders as Collections
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/importing_swagger"  >
+                                    Importing Swagger files
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-3" class="category-title collapsed" data-toggle="collapse">Variables and Environments</a>
+                        <ul id="collapse-3" class="category-links collapse ">
+                            
+                                
+                                <li><a href="/docs/environments"  >
+                                    Setting up an environment with variables
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/multiple_instances"  >
+                                    Using data variables to run a collection multiple times
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/test_multi_environments"  >
+                                    Using environments to switch contexts
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-4" class="category-title collapsed" data-toggle="collapse">Postman for Teams</a>
+                        <ul id="collapse-4" class="category-links collapse ">
+                            
+                                
+                                <li><a href="/docs/cloud"  >
+                                    Postman Cloud
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/buying_cloud"  >
+                                    Purchasing Cloud
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/cloud_team_setup"  >
+                                    Setting up your Cloud team
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="http://blog.getpostman.com/2015/12/10/belong-keeps-its-architecture-in-order-with-postman/" target=&#34;_blank&#34; >
+                                    Case study
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-5" class="category-title collapsed" data-toggle="collapse">API Testing &amp; Collection Runner</a>
+                        <ul id="collapse-5" class="category-links collapse ">
+                            
+                                
+                                <li><a href="/docs/pre_request_scripts"  >
+                                    Pre Request Scripts
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/writing_tests"  >
+                                    Writing Tests
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/sandbox"  >
+                                    Testing Sandbox
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/testing_examples"  >
+                                    Testing examples
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/running_collections-1"  >
+                                    Running Collections
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/integrating_with_jenkins"  >
+                                    Integrating automated API tests with Jenkins
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-6" class="category-title collapsed" data-toggle="collapse">Postman for Public APIs</a>
+                        <ul id="collapse-6" class="category-links collapse ">
+                            
+                                
+                                <li><a href="/docs/run_button"  >
+                                    Create the Run in Postman button
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/run_button_ux"  >
+                                    Using the Run in Postman button
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/update_run_button"  >
+                                    Updating collections in the Run button
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/run_partner_prog"  >
+                                    Partnership program
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/run_security"  >
+                                    Security details
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-7" class="category-title collapsed" data-toggle="collapse">Settings</a>
+                        <ul id="collapse-7" class="category-links collapse ">
+                            
+                                
+                                <li><a href="/docs/settings"  >
+                                    Settings
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-8" class="category-title collapsed" data-toggle="collapse">Billing and Payment</a>
+                        <ul id="collapse-8" class="category-links collapse ">
+                            
+                                
+                                <li><a href="/docs/billing_details"  >
+                                    Billing details
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/refunds"  >
+                                    Refund Policy
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="pm-accordion-category panel">
+                        
+                        <a href="#collapse-9" class="category-title collapsed" data-toggle="collapse">Account &amp; Profile</a>
+                        <ul id="collapse-9" class="category-links collapse ">
+                            
+                                
+                                <li><a href="/dashboard"  >
+                                    Account Dashboard
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/dashboard/edit#"  >
+                                    Change your email/username/name/password
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/dashboard/teams"  >
+                                    Team collaboration dashboard
+                                </a></li>
+                                
+                            
+                                
+                                <li><a href="/docs/settings"  >
+                                    Settings
+                                </a></li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  <div class="footer-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<ul class="footer-links clearfix">
+					<li><a href="/apps#changelog" class="">Features</a></li>
+					<li><a href="/support" class="">Support</a></li>
+					<li><a href="http://blog.getpostman.com" target="_blank">Blog</a></li>
+					<li><a href="/jobs/" class="">Jobs</a></li>
+					<li><a href="/contact-us" class="">Contact Us</a></li>
+					<li><a href="/licenses/privacy" class="">Privacy and Terms</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<ul class="footer-social-links">
+					<li><a href="https://twitter.com/postmanclient" target="_blank" class="pm-social-media pm-twitter-icon"></a></li>
+					<li><a href="https://www.facebook.com/getpostman" target="_blank" class="pm-social-media pm-fb-icon"></a></li>
+					<li><a href="http://blog.getpostman.com/" target="_blank" class="pm-social-media pm-rss-icon"></a></li>
+					<li><a href="https://plus.google.com/+Getpostman" target="_blank" class="pm-social-media pm-gplus-icon"></a></li>
+					<li><a href="https://github.com/postmanlabs" target="_blank" class="pm-social-media pm-github-icon"></a></li>
+				</ul>
+			</div>
+	  	</div>
+	</div>
+</div>
+
+  <div id="sidebar-toggleable">
+    <ul class="pm-sidebar-main-nav">
+        <li><a href="/" class="">Home</a></li>
+        <li><a href="/pricing" class="">Pricing</a></li>
+        <li><a href="/apps" class="">Apps</a></li>
+        <li><a href="/docs/" class="active">Documentation</a></li>
+        <li><a href="/integrations" class="">Integrations</a></li>
+        <li><a href="/about-us" class="">About Us</a></li>
+        <li class="hide-if-signedin"><a href="https://app.getpostman.com/signup?redirect=web">Sign In</a></li>
+        <li class="hide-if-signedout"><a href="https://app.getpostman.com/">Dashboard</a></li>
+    </ul>
+
+    <ul class="pm-sidebar-secondary-nav">
+        <li><a href="/apps#changelog" class="">Features</a></li>
+        <li><a href="/support" class="">Support</a></li>
+        <li><a href="http://blog.getpostman.com">Blog</a></li>
+        <li><a href="/jobs/" class="">Jobs</a></li>
+        <li><a href="/contact-us" class="">Contact Us</a></li>
+        <li><a href="/licenses/privacy" class="">Privacy and Terms</a></li>
+    </ul>
+</div>
+
+  <script type="text/javascript" src="/js/ga/ga.js"></script>
+<script type="text/javascript" src="/js/ga/tracker.js?v=1"></script>
+<script type="text/javascript" src="/js/libs/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/js/libs/underscore-min.js"></script>
+<script type="text/javascript" src="/js/libs/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/internal/auth.js"></script>
+<script type="text/javascript" src="/js/internal/nav.js"></script>
+<script type="text/javascript" src="/js/internal/slider.js"></script>
+<script type="text/javascript">
+  var pm_app_url = ""
+</script>
+
+  <script type="text/javascript" src="/js/swiftype.pm.js"></script>
+  </body>
+  </html>
