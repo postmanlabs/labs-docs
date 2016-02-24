@@ -12,12 +12,12 @@
 
 You can handle redirects by going to settings in your Postman. Read below about automatically following redirects.
 
-[![](../img/v1/docs/settings.png)
+[![](https://www.getpostman.com/img/v1/docs/settings.png)
 ][8]
 
 Postman tries to minimize the number of settings you have to change, but considering the diverse use cases which come up, some settings have to be present.
 
-[![](../img/v1/docs/thumbs/29-1.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/29-1.png)
 ][9]
 
 * **Trim keys and values in request body**
@@ -52,7 +52,7 @@ If you click on a link in a response, Postman creates a new GET request with tha
 If the API you are testing does not return the Content-Type header, the response body will not be formatted properly. You can force JSON as the body type here.
 * **Variable delimiter**
 
-Variables are enclosed in double curly braces like {{variable}} but you can change it to any other characters like \[\[...\]\]. It's not recommended but if you run into any problems you can give this shot.
+Variables are enclosed in double curly braces like {{variable}} but you can change it to any other characters like \[\[https://www.getpostman.com.\]\]. It's not recommended but if you run into any problems you can give this shot.
 * **Force windows line endings**
 
 [Refer to this Github issue][10] to know more
@@ -73,7 +73,7 @@ This is a list of all shortcuts you can use inside Postman.
 
 ### Data
 
-[![](../img/v1/docs/thumbs/29-2.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/29-2.png)
 ][11]
 
 You can import and export data in bulk inside Postman now. This will overwrite your existing collections and environments so be a little careful. Always helps to take a backup before you are importing other files.
@@ -269,10 +269,10 @@ If you have signed in to Postman your data is synced with our server, making sur
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/settings.png
-[9]: ../img/v1/docs/source/29-1.png
+[8]: https://www.getpostman.com/img/v1/docs/settings.png
+[9]: https://www.getpostman.com/img/v1/docs/source/29-1.png
 [10]: https://github.com/a85/POSTMan-Chrome-Extension/issues/190
-[11]: ../img/v1/docs/source/29-2.png
+[11]: https://www.getpostman.com/img/v1/docs/source/29-2.png
 [12]: https://github.com/postmanlabs/postman-chrome-interceptor
 [13]: https://github.com/postmanlabs/postman-app-support/wiki/Postman-Proxy
 [14]: /docs/interceptor_cookies

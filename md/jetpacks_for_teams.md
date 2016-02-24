@@ -16,25 +16,25 @@ You can purchase and provision Jetpacks for your team using the Postman website 
 
 * [Sign into your profile][8], or click the "Manage Profile" option in the user dropdown inside Postman if you
 are already signed into the Postman app.
-[![](../img/v1/docs/teams/thumbs/team_1.png)
+[![](https://www.getpostman.com/img/v1/docs/teams/thumbs/team_1.png)
 ][9]
 * Once you are signed into your profile, go to the Team page.
-[![](../img/v1/docs/teams/thumbs/a_no_team.png)
+[![](https://www.getpostman.com/img/v1/docs/teams/thumbs/a_no_team.png)
 ][10]
 * If you are part of a team, your team members will show up here. If you are not part of any team,
 you can create one by clicking the Create Team button.
-[![](../img/v1/docs/teams/thumbs/b_create_team.png)
+[![](https://www.getpostman.com/img/v1/docs/teams/thumbs/b_create_team.png)
 ][11]
 * Once your team has been created, come back to the Team page and click the "Get more Jetpacks invites" button.
-[![](../img/v1/docs/teams/thumbs/c_team_home.png)
+[![](https://www.getpostman.com/img/v1/docs/teams/thumbs/c_team_home.png)
 ][12]
 * Select the number of users you want to invite. You can add more members to your team later.
-[![](../img/v1/docs/teams/thumbs/y_select.png)
+[![](https://www.getpostman.com/img/v1/docs/teams/thumbs/y_select.png)
 ][13]
 * Once the purchase flow is done, come back to the Team page. The number of invites available for your
 account will show up here. Click the Invite Members button. Enter the email addresses of people you want to invite and hit
 the Invite button in the modal window.
-[![](../img/v1/docs/teams/thumbs/z_invite.png)
+[![](https://www.getpostman.com/img/v1/docs/teams/thumbs/z_invite.png)
 ][14]
 * Invited members will be sent an email with their secret invite link. If they sign up or sign in through that link,
 their user account will be linked to your team, and Jetpacks will be activated for their account.
@@ -217,13 +217,13 @@ link and send it manually.
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../#signin
-[9]: ../img/v1/docs/teams/team_1.png
-[10]: ../img/v1/docs/teams/a_no_team.png
-[11]: ../img/v1/docs/teams/b_create_team.png
-[12]: ../img/v1/docs/teams/c_team_home.png
-[13]: ../img/v1/docs/teams/y_select.png
-[14]: ../img/v1/docs/teams/z_invite.png
+[8]: https://www.getpostman.com/#signin
+[9]: https://www.getpostman.com/img/v1/docs/teams/team_1.png
+[10]: https://www.getpostman.com/img/v1/docs/teams/a_no_team.png
+[11]: https://www.getpostman.com/img/v1/docs/teams/b_create_team.png
+[12]: https://www.getpostman.com/img/v1/docs/teams/c_team_home.png
+[13]: https://www.getpostman.com/img/v1/docs/teams/y_select.png
+[14]: https://www.getpostman.com/img/v1/docs/teams/z_invite.png
 [15]: #collapse-0
 [16]: /docs/introduction
 [17]: /docs/install_mac

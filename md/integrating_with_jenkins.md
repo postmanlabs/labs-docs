@@ -26,29 +26,29 @@ This would set up newman as a command line tool in Ubuntu.
 
 Run a sample Postman Collection. We are assuming that you already have a Postman Collection with some tests. This is what the output looks in Postman's Collection Runner.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)
 ][10]
 
 Some of my tests are failing intentionally in the screenshot so we can show you the instructions for troubleshooting.
 
 4\. Run this collection inside newman, using the command \[command here\]. If everything is set up nicely, you should see the output below.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)
 ][11]
 
 Jenkins exposes an interface at http://localhost:8080\.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png)
 ][12]
 
 5\. Create a new job by clicking on the "New Item" link on the left sidebar \> Select a "Freestyle Project" from the options \> Name your project.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)
 ][13]
 
 6\. Add a build step in the project. The build step executes a Shell command.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)
 ][14]
 
 The command is
@@ -59,39 +59,39 @@ Note here that we are using the newman command parameter "exitCode" with the val
 
 Click the save button to finish creating the project.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_6.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_6.png)
 ][15]
 
 7\. Run this build test manually by clicking on the "Build Now" link in the sidebar.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_7.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_7.png)
 ][16]
 
 Jenkins indicates that the build has failed with a red dot in the title. We can check why with the console output from newman.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_8.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_8.png)
 ][17]
 
 8\. Click on the "Console Output" link in the sidebar to see what newman returned.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_9.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_9.png)
 ][18]
 
 9\. Fix these tests inside Postman and then try again.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_10.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_10.png)
 ][19]
 
 You can move on once you see green pass icons for all your tests like the screenshot above.
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_11.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_11.png)
 ][20]
 
 Jenkins indicates that the build succeeded with a blue ball.
 
 10\. To set up the frequency with which Jenkins runs newman, click on "Configure project" in the main project window and then scroll down.=. The syntax for setting the frequency is H/(number of minutes after which there's a Jenkins build trigger) \* \* \* \*
 
-[![](../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png)
 ][21]
 
 Jenkins will now run newman at your desired frequency and will tell you whether the build failed or succeeded. In a bigger set up, newman will be part of your build process and probably not the entire process. You can set up notifications and customise Jenkins as per your needs.
@@ -278,18 +278,18 @@ You can use a wide variety of other configurations to make your collection more 
 [7]: https://app.getpostman.com/
 [8]: https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu
 [9]: https://docs.npmjs.com/getting-started/installing-node
-[10]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png
-[11]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png
-[12]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png
-[13]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png
-[14]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png
-[15]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_6.png
-[16]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_7.png
-[17]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_8.png
-[18]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_9.png
-[19]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_10.png
-[20]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_11.png
-[21]: ../img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png
+[10]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png
+[11]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png
+[12]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png
+[13]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png
+[14]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png
+[15]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_6.png
+[16]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_7.png
+[17]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_8.png
+[18]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_9.png
+[19]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_10.png
+[20]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_11.png
+[21]: https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png
 [22]: /docs/running_collections-1
 [23]: #collapse-0
 [24]: /docs/introduction

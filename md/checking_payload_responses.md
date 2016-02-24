@@ -18,7 +18,7 @@ To start, enable the Chrome DevTools for Postman. Check [our blog post][8] for i
 
 Your Postman dev tools window should look like below.
 
-[![](../img/v1/docs/checking_payload_responses_1.png)
+[![](https://www.getpostman.com/img/v1/docs/checking_payload_responses_1.png)
 ][9]
 
 There are 3 ways you can make requests in Postman:
@@ -236,7 +236,7 @@ Info coming soon.
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
 [8]: http://blog.getpostman.com/2014/01/27/enabling-chrome-developer-tools-inside-postman/
-[9]: ../img/v1/docs/checking_payload_responses_1.png
+[9]: https://www.getpostman.com/img/v1/docs/checking_payload_responses_1.png
 [10]: /docs/sync_overview
 [11]: /docs/newman_intro
 [12]: #collapse-0

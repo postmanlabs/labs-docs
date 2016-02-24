@@ -23,10 +23,10 @@ We recommend you creating collections for the list of endpoints as well as speci
 Keep in mind, Run in Postman works well with Swagger and RAML too. Just convert your file to a Collection by [importing it in Postman][9].
 3. 
 Click on the collection you would like to embed and hit Share.
-![](../img/v1/docs/run_button/run_button_1.png)
+![](https://www.getpostman.com/img/v1/docs/run_button/run_button_1.png)
 4. 
 Choose the Get Embed Code option and pick whether you would like javascript tags or a static image. We provide markdown for the static image to keep it GitHub or BitBucket readme files friendly. But it can easily be converted to HTML if needed.
-![](../img/v1/docs/run_button/run_button_2.png)
+![](https://www.getpostman.com/img/v1/docs/run_button/run_button_2.png)
 
 Here's an example,
 
@@ -224,8 +224,8 @@ Embed this button onto your documentation pages or your GitHub repo's readme for
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../docs/collections
-[9]: ../docs/importing_folders
+[8]: https://www.getpostman.com/docs/collections
+[9]: https://www.getpostman.com/docs/importing_folders
 [10]: /docs/run_button_ux
 [11]: #collapse-0
 [12]: /docs/introduction

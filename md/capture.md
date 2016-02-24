@@ -42,15 +42,15 @@ The entire setup takes a couple of minutes and requires absolutely no changes in
 3. Run the proxy using `pmproxy save --tcp_connection true`. This would start everything using the default values of 127.0.0.1 and port 8080\.
 4. Set your browser, computer or your phone to use the proxy. This varies between devices but a quick google search should give you the answer within seconds if you don't know it already. If you are in a local wi-fi/LAN network then you can set the proxy to the local IP of the machine on which the proxy is running.
 5. Click on the top right to show the proxy manager modal.
-[![](../img/v1/docs/source/proxy-1.png)
+[![](https://www.getpostman.com/img/v1/docs/source/proxy-1.png)
 ][13]
 6. Hit "Connect" in the modal that comes up
-[![](../img/v1/docs/source/proxy-2.png)
+[![](https://www.getpostman.com/img/v1/docs/source/proxy-2.png)
 ][14]
 7. Browse your website or your app like you would normally do.
 
 If everything works properly, you should see calls streaming into the history sidebar. You can stop streaming by hitting "Disconnect" or closing the proxy. You can even choose to add all calls to a particular collection. This is amazing for building new collections. You can build custom cases or flows for calls and share them as before. Once a request is inside, you get the power to work with using the tools which Postman provides.
-[![](../img/v1/docs/source/proxy-3.png)
+[![](https://www.getpostman.com/img/v1/docs/source/proxy-3.png)
 ][15]
 
 PostmanProxy uses libmproxy, the excellent library provided by mitmproxy. The earlier proxy code was based on Twisted but I found working with mitmproxy much easier. Another advantage of mitmproxy is that it can help you monitor SSL connections. The documentation for that is available at the mitmproxy page. You need to follow the same instruction for PostmanProxy.
@@ -245,9 +245,9 @@ This is still a work in progress and expect to see a lot of new stuff in the com
 [10]: https://github.com/a85/PostmanInterceptor
 [11]: https://chrome.google.com/webstore/detail/postman-rest-client/fhbjgbiflinjbdggehcddcbncdddomop
 [12]: http://www.pip-installer.org/en/latest/installing.html
-[13]: ../img/v1/docs/source/proxy-1.png
-[14]: ../img/v1/docs/source/proxy-2.png
-[15]: ../img/v1/docs/source/proxy-3.png
+[13]: https://www.getpostman.com/img/v1/docs/source/proxy-1.png
+[14]: https://www.getpostman.com/img/v1/docs/source/proxy-2.png
+[15]: https://www.getpostman.com/img/v1/docs/source/proxy-3.png
 [16]: /docs/run_file_post_requests
 [17]: /docs/sync_overview
 [18]: #collapse-0

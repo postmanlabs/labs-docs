@@ -16,21 +16,21 @@ As the team admin, you have access to your payment history and other details in 
 
 The overview section will show you your account balance, and options to add credits. You'll also be able to see the upcoming invoice for your team. All upcoming invoices will be charged from your account balance. Any remaining amount will be charged from your default card.
 
-[![](../img/v1/docs/billing_details/billing_details_1.png)
+[![](https://www.getpostman.com/img/v1/docs/billing_details/billing_details_1.png)
 ][8]
 
 **History**
 
 Here you will get a full history of your account - plans purchased, user count changes, card changed etc.
 
-[![](../img/v1/docs/billing_details/billing_details_2.png)
+[![](https://www.getpostman.com/img/v1/docs/billing_details/billing_details_2.png)
 ][9]
 
 **Cards**
 
 The cards tab lets you manage your cards on file. You can add, remove, and set cards as default. The one that you used to purchase Cloud will automatically be listed here. You can change the card that will be charged next time by making it default.
 
-[![](../img/v1/docs/billing_details/billing_details_3.png)
+[![](https://www.getpostman.com/img/v1/docs/billing_details/billing_details_3.png)
 ][10]
 
 [Refund Policy][11]
@@ -213,9 +213,9 @@ The cards tab lets you manage your cards on file. You can add, remove, and set c
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/billing_details/billing_details_1.png
-[9]: ../img/v1/docs/billing_details/billing_details_2.png
-[10]: ../img/v1/docs/billing_details/billing_details_3.png
+[8]: https://www.getpostman.com/img/v1/docs/billing_details/billing_details_1.png
+[9]: https://www.getpostman.com/img/v1/docs/billing_details/billing_details_2.png
+[10]: https://www.getpostman.com/img/v1/docs/billing_details/billing_details_3.png
 [11]: /refunds
 [12]: #collapse-0
 [13]: /docs/introduction

@@ -14,7 +14,7 @@ While working with APIs, you will often need to have different setups. For examp
 Environments give you the ability to customize requests using variables. This way you can easily switch between different setups without changing your requests.
 You won't have to worry about remembering all those values once they are in Postman. Environments can be downloaded and saved as JSON files and uploaded later.
 
-[![](../img/v1/docs/thumbs/28.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/28.png)
 ][8]
 
 Each environment is a set of key-value pairs. These can be edited using the [key-value editor][9]. They key is the variable name.
@@ -24,7 +24,7 @@ For example, for an environment variable 'url' with the value 'http://localhost'
 {{url}} will be replaced by http://localhost when the request is sent.
 
 Only variables from the currently selected environment will be available to you. Use the environment selector to select an environment:
-![](../img/v1/docs/env_selector.png)
+![](https://www.getpostman.com/img/v1/docs/env_selector.png)
 
 You can hover over the 'χ' icon (to the right of the environment selector) to view a list of currently active environment and global variables
 
@@ -48,7 +48,7 @@ In other words, global variables are overriden by environment variables, which a
 #### Dynamic variables
 
 Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox.
-You can only use them in the {{..}} format in the request URL / headers / body.
+You can only use them in the {{https://www.getpostman.com}} format in the request URL / headers / body.
 
 * **{{$guid}}**: Adds a v4 style guid
 * **{{$timestamp}}**: Adds the current timestamp
@@ -234,10 +234,10 @@ You can only use them in the {{..}} format in the request URL / headers / body.
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/source/28.png
-[9]: ../docs/keyvalue_editor
+[8]: https://www.getpostman.com/img/v1/docs/source/28.png
+[9]: https://www.getpostman.com/docs/keyvalue_editor
 [10]: http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
-[11]: ../docs/jetpacks_running_collections
+[11]: https://www.getpostman.com/docs/jetpacks_running_collections
 [12]: /docs/multiple_instances
 [13]: #collapse-0
 [14]: /docs/introduction

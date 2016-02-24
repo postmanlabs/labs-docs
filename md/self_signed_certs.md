@@ -20,7 +20,7 @@ Go to the root URL in Chrome and allow the browser to access URLs with self-sign
 
 If you try to hit a URL with a self-signed SSL certificate in the packaged app, you would get a 500 error as Chrome would decline the certificate so don't do that.
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_1.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_1.png)
 ][8]
 
 **Chrome packaged app**
@@ -39,26 +39,26 @@ In Mac OS X,
 
 1\. In the dialog that comes up, click and drag the certificate icon to your desktop to create a \*.cer file
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_2.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_2.png)
 ][9]
 
 2\. Double click on the file to open the OS X Keychain Access tool
 
 3\. Add the certificate to the System keychain and select "Always trust"
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_3.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_3.png)
 ][10]
 
 4\. Once the certificate is added, double click it to open more details
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_4.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_4.png)
 ][11]
 
 5\. Expand the Trust item
 
 6\. Select "Always trust"
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_5.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_5.png)
 ][12]
 
 7\. Close Keychain Access and restart Chrome
@@ -67,26 +67,26 @@ In Windows,
 
 1\. In the certificates window, go to the Details tab
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_6.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_6.png)
 ][13]
 
 2\. Select Copy to File
 
 3\. Save the certificate file on your disk. Close the certificate window
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_7.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_7.png)
 ][14]
 
 4\. Go to Chrome \> Settings, search for SSL (chrome://settings/search\#ssl) and click on Manage certificates
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_8.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_8.png)
 ][15]
 
 5\. Go to the Trusted Root Certification Authorities tab and click on import
 
 6\. Select the file you saved on your disk in step 3
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_9.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_9.png)
 ][16]
 
 7\. Close this window and restart Chrome
@@ -95,19 +95,19 @@ In Linux,
 
 1\. Go to the Details tab
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_10.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_10.png)
 ][17]
 
 2\. Select Export and save the file on your disk
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_11.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_11.png)
 ][18]
 
 3\. Go to Chrome \> Settings, search for SSL (chrome://settings/search\#ssl) and click on Manage certificates
 
 4\. Go into the Authorities tab
 
-[![](../img/v1/docs/self_signed_certs/self_signed_certs_12.png)
+[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_12.png)
 ][19]
 
 5\. Import the certificate
@@ -301,18 +301,18 @@ Info coming soon.
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/self_signed_certs/self_signed_certs_1.png
-[9]: ../img/v1/docs/self_signed_certs/self_signed_certs_2.png
-[10]: ../img/v1/docs/self_signed_certs/self_signed_certs_3.png
-[11]: ../img/v1/docs/self_signed_certs/self_signed_certs_4.png
-[12]: ../img/v1/docs/self_signed_certs/self_signed_certs_5.png
-[13]: ../img/v1/docs/self_signed_certs/self_signed_certs_6.png
-[14]: ../img/v1/docs/self_signed_certs/self_signed_certs_7.png
-[15]: ../img/v1/docs/self_signed_certs/self_signed_certs_8.png
-[16]: ../img/v1/docs/self_signed_certs/self_signed_certs_9.png
-[17]: ../img/v1/docs/self_signed_certs/self_signed_certs_10.png
-[18]: ../img/v1/docs/self_signed_certs/self_signed_certs_11.png
-[19]: ../img/v1/docs/self_signed_certs/self_signed_certs_12.png
+[8]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_1.png
+[9]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_2.png
+[10]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_3.png
+[11]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_4.png
+[12]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_5.png
+[13]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_6.png
+[14]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_7.png
+[15]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_8.png
+[16]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_9.png
+[17]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_10.png
+[18]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_11.png
+[19]: https://www.getpostman.com/img/v1/docs/self_signed_certs/self_signed_certs_12.png
 [20]: /docs/handling_redirects
 [21]: /docs/chaining_requests
 [22]: #collapse-0

@@ -16,10 +16,10 @@ If you want to update the endpoints in The Run in Postman button you do not need
 2. 
 Click on the collection connected to your run button and hit Share.
 
-![](../img/v1/docs/run_button/run_button_1.png)
+![](https://www.getpostman.com/img/v1/docs/run_button/run_button_1.png)
 3. 
 Click update link.
-![](../img/v1/docs/update_run_button/update_run_button_2.png)
+![](https://www.getpostman.com/img/v1/docs/update_run_button/update_run_button_2.png)
 
 And you're done!
 

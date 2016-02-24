@@ -18,7 +18,7 @@ Key benefits:
 
 All your team's APIs are grouped together in collections and shared. Any changes in the API are automatically reflected in Postman for all members. There is no chance anyone will miss the memo. This is an auto-updating source of truth for all your APIs.
 
-[![](../img/v1/docs/cloud_1.png)
+[![](https://www.getpostman.com/img/v1/docs/cloud_1.png)
 ][8]
 
 **2\. Real-time communication**
@@ -219,7 +219,7 @@ _\*Coming soon._
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/cloud_1.png
+[8]: https://www.getpostman.com/img/v1/docs/cloud_1.png
 [9]: /docs/buying_cloud
 [10]: #collapse-0
 [11]: /docs/introduction

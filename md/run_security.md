@@ -196,7 +196,7 @@ You'll need to ensure that sensitive data like access tokens and password are NO
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../docs/environments
+[8]: https://www.getpostman.com/docs/environments
 [9]: /docs/run_partner_prog
 [10]: #collapse-0
 [11]: /docs/introduction

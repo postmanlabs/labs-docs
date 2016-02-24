@@ -20,12 +20,12 @@ Currently, you can not use the collection runner to run collections which have r
 
 4\. Open the JSON file for editing. In line 22, change the "value" property of the file param to the complete path of the file
 
-[![](../img/v1/docs/run_file_post_requests/run_file_post_requests_1.png)
+[![](https://www.getpostman.com/img/v1/docs/run_file_post_requests/run_file_post_requests_1.png)
 ][9]
 
 Run the collection file in Newman
 
-[![](../img/v1/docs/run_file_post_requests/run_file_post_requests_2.png)
+[![](https://www.getpostman.com/img/v1/docs/run_file_post_requests/run_file_post_requests_2.png)
 ][10]
 
 If you are using Windows, change the backslashes (\\) in the JSON file to double-backslashes so that the JSON remains valid. eg. if your "value" is "C:\\Documents\\collection.json", you'll need to change it to "C:\\\\Documents\\\\collection.json".
@@ -214,8 +214,8 @@ Check out an example [here][11].
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
 [8]: https://www.npmjs.com/package/newman
-[9]: ../img/v1/docs/run_file_post_requests/run_file_post_requests_1.png
-[10]: ../img/v1/docs/run_file_post_requests/run_file_post_requests_2.png
+[9]: https://www.getpostman.com/img/v1/docs/run_file_post_requests/run_file_post_requests_1.png
+[10]: https://www.getpostman.com/img/v1/docs/run_file_post_requests/run_file_post_requests_2.png
 [11]: http://blog.getpostman.com/2014/11/15/using-newman-to-run-collections-with-file-post-requests/
 [12]: /docs/running_collections
 [13]: /docs/capture

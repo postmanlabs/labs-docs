@@ -18,17 +18,17 @@ If you have it saved locally as folder already, that's fine of course.
 
 2\. Open the Postman Import box and hit the Folder tab
 
-[![](../img/v1/docs/importing_folders/importing_folders_1.png)
+[![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
 ][8]
 
 3\. Click on Choose file and upload the RAML folder
 
-[![](../img/v1/docs/importing_folders/importing_folders_2.png)
+[![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)
 ][9]
 
 You're done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
 
-[![](../img/v1/docs/importing_folders/importing_folders_3.png)
+[![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)
 ][10]
 
 To see an example of uploading a RAML folder, check out [this blog post][11].
@@ -211,9 +211,9 @@ To see an example of uploading a RAML folder, check out [this blog post][11].
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/importing_folders/importing_folders_1.png
-[9]: ../img/v1/docs/importing_folders/importing_folders_2.png
-[10]: ../img/v1/docs/importing_folders/importing_folders_3.png
+[8]: https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png
+[9]: https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png
+[10]: https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png
 [11]: http://blog.getpostman.com/2015/11/04/supporting-raml-folders-in-postman/
 [12]: /docs/creating_curl
 [13]: #collapse-0

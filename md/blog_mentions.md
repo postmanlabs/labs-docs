@@ -27,10 +27,10 @@ Below is a partial list of tutorials, blog posts and mentions about Postman on o
 Victor Kotov at Azoft
 * [Tools for Developing on Chrome OS: Joe Marini, Developer Advocate for Google][14]
 
-If you do any work that requires transferring data to and from RESTful Web services (and who doesn't these days?), then you'll find that Postman is a great utility for testing REST based APIs....
+If you do any work that requires transferring data to and from RESTful Web services (and who doesn't these days?), then you'll find that Postman is a great utility for testing REST based APIshttps://www.getpostman.comhttps://www.getpostman.com
 * [HTTP/RESTful API troubleshooting tools: The official blog of Bazaarvoice R&D][15]
 
-My personal favorite is the PostMan extension for Chrome. In my opinion it hits the sweet spot between functionality and usability by providing most of the HTTP functionality needed for testing APIs via an intuitive GUI...
+My personal favorite is the PostMan extension for Chrome. In my opinion it hits the sweet spot between functionality and usability by providing most of the HTTP functionality needed for testing APIs via an intuitive GUIhttps://www.getpostman.com.
 * [My Favorite SharePoint Development Utility: Postman (Chrome Extension)][15]
 
 Andrew Connell, MVP SharePoint Server

@@ -257,10 +257,10 @@ check out the [examples page][17].
 [11]: http://sugarjs.com/
 [12]: https://github.com/geraintluff/tv4
 [13]: https://code.google.com/p/crypto-js/
-[14]: ../docs/capture#interceptor
+[14]: https://www.getpostman.com/docs/capture#interceptor
 [15]: http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
 [16]: http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
-[17]: ../docs/jetpacks_examples
+[17]: https://www.getpostman.com/docs/jetpacks_examples
 [18]: /docs/writing_tests
 [19]: /docs/testing_examples
 [20]: #collapse-0

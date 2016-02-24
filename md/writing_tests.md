@@ -11,7 +11,7 @@
 ## Writing Tests
 
 ### Basic structure
-![](../img/v1/docs/source/cr-5.png)
+![](https://www.getpostman.com/img/v1/docs/source/cr-5.png)
 
 Postman gives you an environment where you can write and run tests for each request without
 worrying about any extra setup.
@@ -43,7 +43,7 @@ editor. You can select the snippet you want to add and the appropriate code
 will be added to the test editor. This is a great way to quickly build test cases. Coming soon: Ability to add your own snippets!
 
 ### Viewing results
-![](../img/v1/docs/source/cr-6.png)
+![](https://www.getpostman.com/img/v1/docs/source/cr-6.png)
 
 Postman runs tests every time you run a request. Of course, you can choose to
 not look at the tests! Results are displayed in a tab with the header showing
@@ -234,8 +234,8 @@ tab active until you make sure all your tests have passed.
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../docs/jetpacks_sandbox
-[9]: ../docs/jetpacks_examples
+[8]: https://www.getpostman.com/docs/jetpacks_sandbox
+[9]: https://www.getpostman.com/docs/jetpacks_examples
 [10]: /docs/pre_request_scripts
 [11]: /docs/sandbox
 [12]: #collapse-0

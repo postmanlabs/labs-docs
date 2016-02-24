@@ -14,15 +14,15 @@ Migrating from the legacy to the packaged app version is an extremely simple pro
 Postman allows you to export all your data in one file and then re-import it.
 
 #### Exporting data from legacy app
-![](../img/v1/docs/source/mig-1.png)
+![](https://www.getpostman.com/img/v1/docs/source/mig-1.png)
 
 Click on the Dump Data icon at the top left in the sidebar. This will give you a file named "Backup.postman\_dump". Save the file to your local disk.
 
 #### Importing it into packaged app
-![](../img/v1/docs/source/mig-3.png)
+![](https://www.getpostman.com/img/v1/docs/source/mig-3.png)
 
 Click the Settings icon in the top navigation bar.
-![](../img/v1/docs/source/mig-2.png)
+![](https://www.getpostman.com/img/v1/docs/source/mig-2.png)
 
 In the modal that shows up, select the Data tab and click the "Choose file" button.
 

@@ -17,21 +17,21 @@ You can choose to save helper data to collection requests. This will cause the s
 
 ### Basic Auth
 
-[![](../img/v1/docs/thumbs/14.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/14.png)
 ][8]
 
 Enter the username and password fields and hit "Refresh headers" to generate the authorization header.
 
 ### Digest Auth
 
-[![](../img/v1/docs/thumbs/16.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/16.png)
 ][9]
 
 Digest auth is more complicated than basic auth and uses the values currently set in the request to generate the authorization header. Make sure they are set properly before you generate the header. Postman will remove the existing header if it's already present.
 
 ### OAuth 1.0a
 
-[![](../img/v1/docs/thumbs/17.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/17.png)
 ][10]
 
 Postman's OAuth helper lets you sign requests which support OAuth 1.0a based authentication. Currently it does not let you acquire the access token. That's something you would need from the API provider. The OAuth 1.0 helper can set values in either the header or as query parameters.
@@ -47,14 +47,14 @@ The OAuth 1.0 spec is quite complicated and there are many variations. Postman t
 
 Postman supports getting the OAuth 2.0 token as well as adding it to requests really easy. To get an access token from an OAuth 2.0 provider, follow these steps:
 
-[![](../img/v1/docs/thumbs/30-2.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/30-2.png)
 ][11]
 
 * Set **https://www.getpostman.com/oauth2/callback** as the callback URL in your app settings page.
 * Get authorization URL, access token URL, client ID and client secret from your API provider. You can also set the Scope parameter which is needed by some APIs to set the level of access you have within the API
 * Press the "Get access token" button to initate the OAuth 2.0 flow. If everything is set up properly, you would be redirected to the Postman server which will pick up your access token and send it to the Postman app. To finish adding the token to Postman, give it a name so that you can access it quickly later.
 
-[![](../img/v1/docs/thumbs/30-1.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/30-1.png)
 ][12]
 * Access tokens are stored locally and will show up in the helper list. To add an access token to the request, click the token name.
 
@@ -239,11 +239,11 @@ Postman supports getting the OAuth 2.0 token as well as adding it to requests re
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/source/14.png
-[9]: ../img/v1/docs/source/16.png
-[10]: ../img/v1/docs/source/17.png
-[11]: ../img/v1/docs/source/30-2.png
-[12]: ../img/v1/docs/source/30-1.png
+[8]: https://www.getpostman.com/img/v1/docs/source/14.png
+[9]: https://www.getpostman.com/img/v1/docs/source/16.png
+[10]: https://www.getpostman.com/img/v1/docs/source/17.png
+[11]: https://www.getpostman.com/img/v1/docs/source/30-2.png
+[12]: https://www.getpostman.com/img/v1/docs/source/30-1.png
 [13]: /docs/responses
 [14]: /docs/history
 [15]: #collapse-0

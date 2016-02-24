@@ -14,17 +14,17 @@ To import a cURL command into Postman,
 
 1. Click on the import tab.
 
-[![](../img/v2/docs/importing_curl/importing_curl_1.png)
+[![](https://www.getpostman.com/img/v2/docs/importing_curl/importing_curl_1.png)
 ][8]
 2. 
 Select the Raw Text option and paste your cURL command.
 
-[![](../img/v2/docs/importing_curl/importing_curl_2.png)
+[![](https://www.getpostman.com/img/v2/docs/importing_curl/importing_curl_2.png)
 ][9]
 3. 
 Hit import and you will have the command in your Postman builder!
 
-[![](../img/v2/docs/importing_curl/importing_curl_3.png)
+[![](https://www.getpostman.com/img/v2/docs/importing_curl/importing_curl_3.png)
 ][10]
 
 [Making SOAP requests][11]
@@ -208,9 +208,9 @@ Hit import and you will have the command in your Postman builder!
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v2/docs/importing_curl/importing_curl_1.png
-[9]: ../img/v2/docs/importing_curl/importing_curl_2.png
-[10]: ../img/v2/docs/importing_curl/importing_curl_3.png
+[8]: https://www.getpostman.com/img/v2/docs/importing_curl/importing_curl_1.png
+[9]: https://www.getpostman.com/img/v2/docs/importing_curl/importing_curl_2.png
+[10]: https://www.getpostman.com/img/v2/docs/importing_curl/importing_curl_3.png
 [11]: /docs/soap_requests
 [12]: /docs/importing_curl
 [13]: #collapse-0

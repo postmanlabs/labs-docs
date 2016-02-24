@@ -14,7 +14,7 @@ Postman helps you be extremely efficient while working with APIs.
 
 With Postman, you can construct requests quickly, save them for later use and analyze the responses sent by the API. Postman can dramatically cut down the time required to test and develop APIs. Postman adapts itself for individual developers, small teams or big organizations equally well.
 
-[![](../img/v1/docs/thumbs/1.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/1.png)
 ][8]
 
 #### Install Postman
@@ -206,7 +206,7 @@ The download should take a few minutes, depending on your internet connection. O
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/source/1.png
+[8]: https://www.getpostman.com/img/v1/docs/source/1.png
 [9]: https://www.getpostman.com/apps
 [10]: /docs/introduction
 [11]: /docs/launch

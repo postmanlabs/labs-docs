@@ -209,8 +209,8 @@ To check what is available in the pre-request script sandbox, take a look at the
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../docs/jetpacks_writing_tests
-[9]: ../docs/jetpacks_sandbox
+[8]: https://www.getpostman.com/docs/jetpacks_writing_tests
+[9]: https://www.getpostman.com/docs/jetpacks_sandbox
 [10]: /docs/writing_tests
 [11]: #collapse-0
 [12]: /docs/introduction

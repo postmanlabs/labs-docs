@@ -12,7 +12,7 @@
 
 All requests you send using Postman are stored in the history which you can access using the left sidebar. The history lets you experiment with variations of requests quickly without wasting time in forming a request anew. You can load a previous request by clicking on the request name.
 
-[![](../img/v1/docs/thumbs/18.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/18.png)
 ][8]
 
 If you create an account on Postman, your history will be synced with our server and you will be able to retreive it cross-device and always have it backed up. The same applies for Cloud users.
@@ -198,7 +198,7 @@ If you create an account on Postman, your history will be synced with our server
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/source/18.png
+[8]: https://www.getpostman.com/img/v1/docs/source/18.png
 [9]: /docs/helpers
 [10]: /docs/interceptor_cookies
 [11]: #collapse-0

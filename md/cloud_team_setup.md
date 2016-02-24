@@ -14,7 +14,7 @@
 
 Once you buy Cloud and hit setup, you will be prompted to name your team and invite users. You can name your team whatever you like and you can edit this name later.
 
-[![](../img/v1/docs/cloud_team_setup/cloud_team_setup_1.png)
+[![](https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_1.png)
 ][8]
 
 **Inviting team members**
@@ -22,7 +22,7 @@ Once you buy Cloud and hit setup, you will be prompted to name your team and inv
 Once you purchase seats in the Cloud plan, you can add members to your team at any time. 
 Sign in and go to https://app.getpostman.com/dashboard/teams and click on send invites.
 
-[![](../img/v1/docs/cloud_team_setup/cloud_team_setup_2.png)
+[![](https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_2.png)
 ][9]
 Enter the emails of people you want in your team and hit Invite. You do not need to invite all the team members right away. It can be done at your convenience.
 
@@ -30,14 +30,14 @@ Enter the emails of people you want in your team and hit Invite. You do not need
 
 If someone is no longer part of your team and you want to remove them, that's easy too. Just click the x next to their name.
 
-[![](../img/v1/docs/cloud_team_setup/cloud_team_setup_3.png)
+[![](https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_3.png)
 ][10]
 
 **Growing team - Buying more seats**
 
 If you want to add team members but have already used up all invites, you can buy more seats. To do so, click on Add users and you can purchase extra seats. You do not need to use up all seats at once since you can invite new members at your convenience. 
 
-[![](../img/v1/docs/cloud_team_setup/cloud_team_setup_5.png)
+[![](https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_5.png)
 ][11]
 
 Enter the number of users you want to add. The cost for your new team member's account will be prorated for the remainder of the current billing period. We'll track this for you, and add it to your bill.
@@ -223,10 +223,10 @@ Enter the number of users you want to add. The cost for your new team member's a
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/cloud_team_setup/cloud_team_setup_1.png
-[9]: .../img/v1/docs/cloud_team_setup/cloud_team_setup_2.png
-[10]: ../img/v1/docs/cloud_team_setup/cloud_team_setup_3.png
-[11]: ../img/v1/docs/cloud_team_setup/cloud_team_setup_5.png
+[8]: https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_1.png
+[9]: https://www.getpostman.com./img/v1/docs/cloud_team_setup/cloud_team_setup_2.png
+[10]: https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_3.png
+[11]: https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_5.png
 [12]: /docs/buying_cloud
 [13]: http://blog.getpostman.com/2015/12/10/belong-keeps-its-architecture-in-order-with-postman/
 [14]: #collapse-0

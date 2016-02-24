@@ -18,14 +18,14 @@ To save a Swagger file as a collection,
 2. 
 Open the Postman Import box and hit the File tab. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer.
 
-[![](../img/v1/docs/importing_folders/importing_folders_1.png)
+[![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
 ][8]
 3. 
 Click on file and upload the Swagger file.
 4. 
 You're done! Postman will detect all the Swagger definitions and convert them internally to Postman and then show you an import success message.
 
-[![](../img/v1/docs/importing_folders/importing_folders_3.png)
+[![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)
 ][9]
 
 [Importing RAML folders as Collections][10]
@@ -206,8 +206,8 @@ You're done! Postman will detect all the Swagger definitions and convert them in
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/importing_folders/importing_folders_1.png
-[9]: ../img/v1/docs/importing_folders/importing_folders_3.png
+[8]: https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png
+[9]: https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png
 [10]: /docs/importing_folders
 [11]: #collapse-0
 [12]: /docs/introduction

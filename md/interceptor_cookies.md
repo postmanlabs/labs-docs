@@ -18,7 +18,7 @@ Unlike the Mac app, the Chrome app is not equipped to handle cookies by itself. 
 
 1\. Make sure the interceptor is enabled in Postman -- Check the top-right corner.
 
-[![](../img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)
+[![](https://www.getpostman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)
 ][9]
 
 2\. In the tests section, you can use the "responseCookies" object. This will return an array of cookie objects. To retrieve a particular name, use "postman.getResponseCookie(cookieName)". This will return a single cookie object. Each cookie object will contain the following properties:
@@ -217,7 +217,7 @@ eg. Cookie: name=value; name2=value2
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
 [8]: http://www.getpostman.com/docs/capture
-[9]: ../img/v1/docs/interceptor_cookies/interceptor_cookies_1.png
+[9]: https://www.getpostman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png
 [10]: /docs/history
 [11]: /docs/handling_redirects
 [12]: #collapse-0

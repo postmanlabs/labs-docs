@@ -16,7 +16,7 @@ To purchase Cloud, follow these instructions. Team leads as well as purchasing d
 
 Go to [https://www.getpostman.com/pricing][8].
 
-[![](../img/v1/docs/buying_cloud/buying_cloud_1.png)
+[![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_1.png)
 ][9]
 
 2\. Everyone who signs up for Postman gets the Basic plan and features are available as soon as you sign up. To buy the Cloud plan, click Buy.
@@ -25,14 +25,14 @@ Go to [https://www.getpostman.com/pricing][8].
 
 You will be directed to this page where you can enter the number of team members you wish to purchase for. Keep in mind that annual and monthly pricing are different.
 
-[![](../img/v1/docs/buying_cloud/buying_cloud_2.png)
+[![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_2.png)
 ][10]
 
 4\. Choose roles
 
 With each plan, you have the option of choosing roles that fit your function in your organization.
 
-[![](../img/v1/docs/buying_cloud/buying_cloud_3.png)
+[![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_3.png)
 ][11]
 
 * Admin
@@ -46,7 +46,7 @@ If you're making the purchase on behalf of a team in your company, but don't int
 
 Review your purchase and hit Pay.
 
-[![](../img/v1/docs/buying_cloud/buying_cloud_4.png)
+[![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_4.png)
 ][12]
 
 Enter your credit card details in the pop up that appears.
@@ -57,7 +57,7 @@ Postman uses https://stripe.com/ to process all payment data. Once you enter you
 
 You will then see a confirmation page with a transaction ID. You may store this number for any future communications with us.
 
-[![](../img/v1/docs/buying_cloud/buying_cloud_5.png)
+[![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_5.png)
 ][14]
 
 7\. Set up account
@@ -250,12 +250,12 @@ Congrats on making the best decision ever :-)
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
 [8]: https://www.getpostman.com/pricing
-[9]: ../img/v1/docs/buying_cloud/buying_cloud_1.png
-[10]: ../img/v1/docs/buying_cloud/buying_cloud_2.png
-[11]: ../img/v1/docs/buying_cloud/buying_cloud_3.png
-[12]: ../img/v1/docs/buying_cloud/buying_cloud_4.png
+[9]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_1.png
+[10]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_2.png
+[11]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_3.png
+[12]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_4.png
 [13]: https://stripe.com/help/security
-[14]: ../img/v1/docs/buying_cloud/buying_cloud_5.png
+[14]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_5.png
 [15]: /docs/cloud
 [16]: /docs/cloud_team_setup
 [17]: #collapse-0

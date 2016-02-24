@@ -18,12 +18,12 @@ First, locate the Chrome App Launcher icon in your dock or taskbar. If you don't
 
 **OS X**
 
-[![](../img/v1/docs/quick_chrome_launch/quick_mac_1.png)
+[![](https://www.getpostman.com/img/v1/docs/quick_chrome_launch/quick_mac_1.png)
 ][9]
 
 1\. Open Postman through the launcher. (I have multiple versions of Postman for testing things out. Also, Postman will be getting a new icon soon)
 
-[![](../img/v1/docs/quick_chrome_launch/quick_mac_2.png)
+[![](https://www.getpostman.com/img/v1/docs/quick_chrome_launch/quick_mac_2.png)
 ][10]
 
 2\. When the icon appears in the dock, right click on it and select Keep it in dock.
@@ -35,7 +35,7 @@ For Windows, the steps are the same as OS X.
 
 **Linux (Ubuntu)**
 
-[![](../img/v1/docs/quick_chrome_launch/quick_linux_1.png)
+[![](https://www.getpostman.com/img/v1/docs/quick_chrome_launch/quick_linux_1.png)
 ][11]
 
 In Ubuntu, you can launch Postman directly from Dash. Just search for Postman. When the icon appears in the launcher, right click and select "Lock to Launcher".
@@ -222,9 +222,9 @@ In Ubuntu, you can launch Postman directly from Dash. Just search for Postman. W
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
 [8]: https://chrome.google.com/webstore/launcher
-[9]: ../img/v1/docs/quick_chrome_launch/quick_mac_1.png
-[10]: ../img/v1/docs/quick_chrome_launch/quick_mac_2.png
-[11]: ../img/v1/docs/quick_chrome_launch/quick_linux_1.png
+[9]: https://www.getpostman.com/img/v1/docs/quick_chrome_launch/quick_mac_1.png
+[10]: https://www.getpostman.com/img/v1/docs/quick_chrome_launch/quick_mac_2.png
+[11]: https://www.getpostman.com/img/v1/docs/quick_chrome_launch/quick_linux_1.png
 [12]: /docs/launch
 [13]: /docs/migration
 [14]: #collapse-0

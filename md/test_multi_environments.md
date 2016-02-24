@@ -18,15 +18,15 @@ To test a request across different environments,
 
 * Click on "No environment" in the header.
 
-[![](../img/v1/docs/test_multi_environments/test_multi_environments_1.png)
+[![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_1.png)
 ][8]
 * Select "Manage environments" and then the "Add" button in the modal that comes up.
 
-[![](../img/v1/docs/test_multi_environments/test_multi_environments_2.png)
+[![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_2.png)
 ][9]
 * Fill in the values as shown in the screenshot below.
 
-[![](../img/v1/docs/test_multi_environments/test_multi_environments_3.png)
+[![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_3.png)
 ][10]
 * Press submit.
 
@@ -47,7 +47,7 @@ Variables can be used almost everywhere in Postman. They are available inside:
 
 To use a variable you need to enclose the variable name with double curly braces -- {{my\_variable\_name}}.
 
-[![](../img/v1/docs/test_multi_environments/test_multi_environments_4.png)
+[![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_4.png)
 ][11]
 
 4\. Now select an environment from the environment selection dropdown.
@@ -240,10 +240,10 @@ To see some examples of testing in multiple environments and other use cases for
 [5]: /about-us
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
-[8]: ../img/v1/docs/test_multi_environments/test_multi_environments_1.png
-[9]: ../img/v1/docs/test_multi_environments/test_multi_environments_2.png
-[10]: ../img/v1/docs/test_multi_environments/test_multi_environments_3.png
-[11]: ../img/v1/docs/test_multi_environments/test_multi_environments_4.png
+[8]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_1.png
+[9]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_2.png
+[10]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_3.png
+[11]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_4.png
 [12]: http://blog.getpostman.com/2014/02/20/using-variables-inside-postman-and-collection-runner/
 [13]: /docs/multiple_instances
 [14]: #collapse-0

@@ -12,14 +12,14 @@
 
 To share your collections with your team, you'll need to ensure that your team is on the Cloud Plan. You can view your plan details on your [team page][8]. If you're on the Cloud plan, you can sign in to the Postman app, click the 'More' button next to the collection name and hit 'Share'.
 
-[![](../img/v1/docs/thumbs/share-menu-option.png)][9]
-[![](../img/v1/docs/thumbs/share-modal.png)][10]
+[![](https://www.getpostman.com/img/v1/docs/thumbs/share-menu-option.png)][9]
+[![](https://www.getpostman.com/img/v1/docs/thumbs/share-modal.png)][10]
 
 Click 'Share' in the modal that shows up to share the collection with your team. You can choose to share the collection as read-only, which means users who subscribe to it will not be able to edit it.
 
 A team's shared collections can be viewed in the team library. This is where you can subscribe to collections that others have shared.
 
-[![](../img/v1/docs/sharing_1.png)
+[![](https://www.getpostman.com/img/v1/docs/sharing_1.png)
 ][11]
 
 [Consuming API documentation in Collection Browser][12]
@@ -204,9 +204,9 @@ A team's shared collections can be viewed in the team library. This is where you
 [6]: https://app.getpostman.com/signup?redirect=web
 [7]: https://app.getpostman.com/
 [8]: https://app.getpostman.com/dashboard/team-plans
-[9]: ../img/v1/docs/source/share-menu-option.png
-[10]: ../img/v1/docs/source/share-modal.png
-[11]: ../img/v1/docs/sharing_1.png
+[9]: https://www.getpostman.com/img/v1/docs/source/share-menu-option.png
+[10]: https://www.getpostman.com/img/v1/docs/source/share-modal.png
+[11]: https://www.getpostman.com/img/v1/docs/sharing_1.png
 [12]: /docs/consuming_api_documentation
 [13]: /docs/running_collections
 [14]: #collapse-0
