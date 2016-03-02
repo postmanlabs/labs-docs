@@ -8,7 +8,9 @@
 * [Sign in][6]
 * [Dashboard][7]
 
-## Jetpacks for teams
+## DEPRECATED - Jetpacks for teams
+
+### Jetpacks functionality is now available for free across Postman.
 
 Note: As of now, Jetpacks for Teams does not allow sharing of collections among team members. A team license is just a way to provision multiple Jetpacks licenses easily.
 
