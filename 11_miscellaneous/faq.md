@@ -1,0 +1,92 @@
+#### Postman
+
+#### [Is Postman free?
+][0]
+
+Yes, Postman (including the individual Sync service) is completely free! You get the advantages of using
+[environments][1],
+[collections][2],
+[Newman][3],
+and the [Interceptor][4].
+
+#### [I'm using the Chrome extension. Why should I migrate to the Packaged app?
+][5]
+
+The Chrome extension has a very limited feature set, mostly limited by the restrictions that Chrome extensions face. The Packaged app has access to more functionality, and can help you be a lot more productive.
+Moreover, the [Sync feature][6] is only available on the Packaged app, and [migrating your data][7] from the extension is painless.
+
+#### Sync
+
+#### [What is Postman Sync?
+][8]
+
+Sync is a free service that we're slowly rolling out to Postman users. Users who have been invited to Sync will see a popup outlining the terms and conditions they must accept to begin using Sync.
+Using the service is completely optional. Users who accept the terms will have all their data backed up to our servers. Collections, environments, history, and header presets will all be backed up to the Postman server,
+and will be available in any app that you sign in from.  
+  
+Any changes to your data will also be synced in real time.
+
+#### [How do I disable Sync?
+][9]
+
+Send us an email at [help@getpostman.com][10]. Make sure that you take a backup of all your data, as it won't be recoverable once it's deleted from our servers.
+Once we disable Sync for you, you can sign out, sign back in, and import your data.
+
+#### Newman
+
+#### [What is Newman?
+][11]
+
+Newman is a NodeJS-based command-line collection runner. Instead of using the collection runner in Postman, you can use Newman and integrate API tests into your Continuous Integration pipeline. You can also set up
+a cron job to run API tests at scheduled intervals. Check out the
+[Newman documentation][3] and the [NPM listing][12].
+
+#### If you face problems
+
+#### [I'm noticing unexpected behavior with Postman. What do I do?
+][13]
+
+One very powerful tool in your arsenal is Postman's Dev Tools window. Check out [this post][14] on our blog to enable and open the Dev Tools window in Postman.  
+Any errors in Postman will show up as error messages in the console here. You'll also be able to see requests that you make in the network tab. You can use this to make sure that requests are being sent as you expect.
+
+#### [Who do I contact for help?
+][15]
+
+For Postman - check out our [support page][16] for details.
+  
+For Newman - you can file an issue on the [Newman issue tracker.][17]
+
+#### Miscellaneous
+
+#### [How do I install Postman without an internet connection?
+][18]
+
+If you don't intend to use Sync, you can try these steps:  
+
+* Chrome stores the application folders in /Library/Application\\ Support/Google/Chrome/Default/Extensions/fhbjgbiflinjbdggehcddcbncdddomop/ (for Postman, if you have Mac OSX. For Windows, it'll be a similar path from your user's home folder). Locate this folder and copy the directory contents
+* You can install Chrome through an offline installer on your dev machine, and copy this directory structure. Starting Chrome should pick up Postman as an app, but this doesn't always work.
+  
+OR
+Another way would be to create a copy of the "fhbjgbiflinjbdggehcddcbncdddomop" directory, and move it to your machine. You can then add Postman to Chrome by going go chrome://extensions/, enabling 'Developer mode', clicking 'Load unpacked extension", and selecting the directory.
+These are all hacks, and are not the recommended way to install Postman.
+
+
+[0]: https://www.getpostman.com/#collapse1
+[1]: https://www.getpostman.com/docs/environments
+[2]: https://www.getpostman.com/docs/collections
+[3]: https://www.getpostman.com/docs/newman_intro
+[4]: https://www.getpostman.com/docs/capture
+[5]: https://www.getpostman.com/#collapse6
+[6]: https://www.getpostman.com/docs/sync_overview
+[7]: https://www.getpostman.com/docs/migration
+[8]: https://www.getpostman.com/#collapse7
+[9]: https://www.getpostman.com/#collapse8
+[10]: mailto:help@getpostman.com
+[11]: https://www.getpostman.com/#collapse5
+[12]: https://www.npmjs.com/package/newman
+[13]: https://www.getpostman.com/#collapse9
+[14]: http://blog.getpostman.com/2014/01/27/enabling-chrome-developer-tools-inside-postman/
+[15]: https://www.getpostman.com/#collapse10
+[16]: https://www.getpostman.com/support
+[17]: https://github.com/postmanlabs/newman/issues
+[18]: https://www.getpostman.com/#collapse11
