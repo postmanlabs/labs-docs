@@ -1,5 +1,5 @@
 Migrating from the legacy to the packaged app version is an extremely simple process.
-Postman allows you to export all your data in one file and then re-import it.
+Postman allows you to export all your data in one file and then re-import it. Get the latest apps [here](https://www.getpostman.com/apps)!
 
 #### Exporting data from legacy app
 ![](https://www.getpostman.com/img/v1/docs/source/mig-1.png)
