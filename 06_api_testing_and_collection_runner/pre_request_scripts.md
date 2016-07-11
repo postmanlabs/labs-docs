@@ -10,12 +10,11 @@ You can then use the **timestampHeader** variable in the header key-value editor
 
 **Note:** An environment will have to be active for env variables to be set.
 
-The syntax of pre-requests scripts is exactly like that of [__ test scripts][0] except that the response object is not present for obvious reasons.
+The syntax of pre-requests scripts is exactly like that of [test scripts][0] except that the response object is not present for obvious reasons.
 
 ### Sandbox
 
 To check what is available in the pre-request script sandbox, take a look at the [Sandbox documentation][1].
-\\
 
 
 [0]: https://www.getpostman.com/docs/jetpacks_writing_tests
