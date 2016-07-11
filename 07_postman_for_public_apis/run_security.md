@@ -9,7 +9,7 @@ The only data that is shared with the link is what you enter in Postman: the nam
 You'll need to ensure that sensitive data like access tokens and password are NOT included in the collection. You can do this by using [environment variables][0], and use the `{{password}}` notation in the collection itself. You can open the collection in web-view to ensure that no sensitive data is included.
   
 
-Note This page only talks about security details surrounding the 'Run in Postman' feature. Refer to our [complete security practices][1] for more.
+**Note**: This page only talks about security details surrounding the 'Run in Postman' feature. Refer to our [complete security practices][1] for more.
 
 
 [0]: https://www.getpostman.com/docs/environments
