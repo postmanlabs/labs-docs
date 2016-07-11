@@ -1,7 +1,7 @@
 The JS Run in Postman button exposes an API via the `_pm` function. These API methods allow you to dynamically alter button behavior.
 Note that the `_pm` API is not available for the static Run in Postman button.
 
-## Creating a new environment
+#### Creating a new environment
 
 A new environment can be dynamically created using the `env.create` method:
 
@@ -25,7 +25,7 @@ Note:
 * The `env.create` action will return truthy on success, false on failure.
 * `env.create` cannot be used to create duplicate environments. Subsequent calls with an existing environment name will fail.
 
-## Editing an existing environment
+#### Editing an existing environment
 
 An environment which was included in the Run Button embed code or created with `env.create` can be modified using the `env.assign` method:
 
@@ -50,7 +50,7 @@ Note:
 * `env.assign` cannot be used to create new environments. Calls to `_pm` using `env.assign` will fail if the environment doesn't already exist.
 * `env.assign` will allow assignment to environments created using `env.create` and inline environments from the button embed code.
 
-## Replacing an existing environment
+#### Replacing an existing environment
 
 An entire environment can be replaced using the `env.replace` method.
 
