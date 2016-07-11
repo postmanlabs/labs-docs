@@ -1,6 +1,6 @@
 All users of Postman Cloud get access to Postman's Documenter! This is a new feature that lets you view auto-generated documentation for all your collections. You can also publish this documentation and share it publicly for people to consume.
 
-#### Viewing Documentation for Collections
+### Viewing Documentation for Collections
 
 * Make sure you're signed in to Postman. When signed in, your username will be displayed in the top-right corner.
 * Click the arrow next to any collection name. You should see the collection browser open up.
@@ -15,7 +15,7 @@ All users of Postman Cloud get access to Postman's Documenter! This is a new fea
 
 * Keep in mind that this link is restricted to users in your Postman Cloud Team. To make this documentation available to other users (as a link on your website, perhaps), you&\#39'll need to Publish it!
 
-#### Publishing Public Documentation for Collections
+### Publishing Public Documentation for Collections
 
 Published documentation is a way of sharing your collection's documentation with the world. If you're able to view documentation for one of your collections, published docs are a click away!
 
