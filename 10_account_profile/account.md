@@ -35,7 +35,6 @@ This section will display the plan your team is on. The upgrades tab will let ad
 ### Billing (Admins only)
 
 The items in this section will be visible only for administrators of paid teams.
-  
 
 #### Overview
 
@@ -46,28 +45,24 @@ This section will display:
 3. Recent payments: Charges to your account (top-ups, monthly billing etc.)
 4. The Change Plan option, which will let you switch between Annual and Monthly payment options, and change the size of your team.
 5. Options to change your billing email, and cancel your Cloud subscription
-  
 
 #### History
 
 This section will display your team's history. This includes, but is not limited to team size updates, invoices paid, plan switches, and cards modified
-  
 
 #### Cards
 
 Admin users will be able to use the Cards section to manage the cards associated with their account. All credit card information is ONLY stored with our payment provider - [Stripe][2]. Users can add cards, change the default card (this will be used for the next payment), and removed expired cards
-  
 
 #### Invoices
 
 This section can be used to generate invoices for previous invoice items that have been charged to your credit card.
-  
 
+<div id="account-profile"></div>
 ### Profile
 
 Use this page to update your email, username, or display name.
 You can also change your password through this section.
-
 
 [0]: https://app.getpostman.com/dashboard
 [1]: https://www.getpostman.com/img/v1/docs/activityFeed.png
