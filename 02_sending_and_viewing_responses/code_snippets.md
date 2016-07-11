@@ -1,63 +1,43 @@
 Once you've finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. You'll need to click the **Generate Code** link under the blue Send button to access this feature.
+
 ![](https://www.getpostman.com/img/v1/docs/source/snippets-1.png)
 
 ### Selecting a language
 
 Use the dropdown menu to select a language. Some languages have multiple options - this lets you select different frameworks to make your request from.
+
 ![](https://www.getpostman.com/img/v1/docs/source/snippets-2.png)
 
 ### Supported languages/frameworks
 
 For now, Postman supports the following options:
-LanguageFramework
-HTTPNone (Raw HTTP request)
 
-C[LibCurl][0]
-
-cURLNone (Raw [cURL][1] command)
-
-C\#[RestSharp][2]
-
-GoBuilt-in [http package][3]
-
-Java[OkHttp][4]
-
-Java[Unirest][5]
-
-JavaScript[jQuery AJAX][6]
-
-JavaScriptBuilt-in [XHR][7]
-
-NodeJSBuilt-in [http][8] module
-
-NodeJS[Request][9]
-
-NodeJS[Unirest][10]
-
-Objective-CBuilt-in [NSURLSession][11]
-
-OCaml[Cohttp][12]
-
-PHP[HttpRequest][13]
-
-PHP[pecl\_http][14]
-
-PHPBuilt-in [curl][15]
-
-PythonBuilt-in [http.client][16] (Python 3)
-
-Python[Requests][17]
-
-RubyBuilt-in [NET::Http][18]
-
-Shell[wget][19]
-
-Shell[HTTPie][20]
-
-Shell[cURL][1]
-
-SwiftBuilt-in [NSURLSession][11]
-
+| Language | Framework |
+|:---------|:----------|
+| HTTP | None (Raw HTTP request) |
+| C | [LibCurl][0] |
+| cURL | None (Raw [cURL][1] command) |
+| C\# | [RestSharp][2] |
+| Go | Built-in [http package][3] |
+| Java | [OkHttp][4] |
+| Java | [Unirest][5] |
+| JavaScript | [jQuery AJAX][6] |
+| JavaScript | Built-in [XHR][7] |
+| NodeJS | Built-in [http][8] module |
+| NodeJS | [Request][9] |
+| NodeJS | [Unirest][10] |
+| Objective-C | Built-in [NSURLSession][11] |
+| OCaml | [Cohttp][12] |
+| PHP | [HttpRequest][13] |
+| PHP | [pecl\_http][14] |
+| PHP | Built-in [curl][15] |
+| Python | Built-in [http.client][16] (Python 3) |
+| Python | [Requests][17] |
+| Ruby | Built-in [NET::Http][18] |
+| Shell | [wget][19] |
+| Shell | [HTTPie][20] |
+| Shell | [cURL][1] |
+| Swift | Built-in [NSURLSession][11] |
 
 
 [0]: https://curl.haxx.se/libcurl/c/
