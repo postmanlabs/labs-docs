@@ -1,3 +1,5 @@
+---
+---
 You can extract data from response and chain requests using test scripts. The test script runs inside a sandbox and Postman provides the **postman** object to interact with the main Postman context.
 
 You should extract values from the response and save it inside an environment or a global variable. Environment and global variables let you keep track of everything that affects API state. Some examples of common variables you would use with an API are session tokens and user IDs.

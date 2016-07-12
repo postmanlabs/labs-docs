@@ -1,3 +1,5 @@
+---
+---
 Ensuring that the API response is correct is something that you will be doing a lot. The Postman response viewer will make this task much easier for you.
 
 An API response consists of the body, headers and the status code. Postman organizes body and headers in different tabs.

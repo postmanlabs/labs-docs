@@ -1,3 +1,5 @@
+---
+---
 Here are a few common team-administration actions that you might need to take. These options will only be available to administrators.
 
 * [Setting up your team][0]

@@ -1,3 +1,5 @@
+---
+---
 To purchase Cloud, follow these instructions. Team leads as well as purchasing departments can buy the product.
 
 1\. Getting started

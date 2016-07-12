@@ -1,3 +1,5 @@
+---
+---
 Collections will take your productivity to the next level.
 
 A collection lets you group individual requests together. These requests can be further organized into folders to accurately mirror your API.

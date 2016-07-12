@@ -1,3 +1,5 @@
+---
+---
 A swagger API definition usually lives as a single file, so we only support imports of single swagger files. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer.
 
 To save a Swagger file as a collection:

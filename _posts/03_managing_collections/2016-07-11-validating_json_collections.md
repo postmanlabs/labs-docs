@@ -1,3 +1,5 @@
+---
+---
 To validate if a JSON file is in the correct collections format, you can use our schema files for collections.
 
 The schema file is located at [https://schema.getpostman.com/json/collection/v1/][0].

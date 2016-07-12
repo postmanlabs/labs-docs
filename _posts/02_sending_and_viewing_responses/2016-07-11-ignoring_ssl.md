@@ -1,3 +1,5 @@
+---
+---
 **Note:** For the Chrome app, check out [our blog post][1] on this subject.
 
 In the Mac app, you have the option of ignoring SSL certificates altogether. If your app complains when you hit a URL with an invalid certificate (when using a different CNAME, for example), you might want to give this a go.

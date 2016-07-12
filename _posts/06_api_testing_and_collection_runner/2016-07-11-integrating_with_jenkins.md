@@ -1,3 +1,5 @@
+---
+---
 Postman contains a full-featured testing sandbox that lets you write and execute Javascript based tests for your API. You can then hook up Postman with your build system using Newman, our command line companion. Newman is Postman's Collection Runner engine that sends API requests, receives the response and then runs your tests against the response.
 
 Newman and Jenkins are a perfect match. Lets start setting this up. We are using Ubuntu as a target OS as in most cases your CI server would be running on a remote Linux machine.

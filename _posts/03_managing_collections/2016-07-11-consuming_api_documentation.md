@@ -1,3 +1,5 @@
+---
+---
 The Collection Browser lets you browse through collection meta data within the Postman interface.
 
 To bring up the browser for a collection click on the "expand" arrow.

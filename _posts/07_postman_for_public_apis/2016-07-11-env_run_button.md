@@ -1,3 +1,5 @@
+---
+---
 The Run in Postman also allows you to pass an environment alongside the collection.
 
 There are 2 ways to achieve this:
