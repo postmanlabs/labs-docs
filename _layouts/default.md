@@ -6,13 +6,14 @@
     {% include _header.html %}
 
     <div class="page-wrapper">
-      <!-- <% if (locals.warning) { %>
+      {% if page.warning %}
         <div class="doc-warning">
           <div class="container">
-            <%- public.docs._data.available_warnings[warning] %>
+            {{site.data.warnings[warning]}}
           </div>
         </div>
-      <% } %> -->
+      {% endif %}
+
       <div class="container">
          <div class="row">
             <div class="content documentation col-md-7">
@@ -20,65 +21,75 @@
                     <input type="text" class="st-default-search-input pm-form-control pm-white-control" name="search" placeholder="Search documentation" autocomplete="off" autocorrect="off" autocapitalize="off" required="required" />
                     <div class="clear-text"></div>
                 </div>
-                <h2  class="documentation-header" data-swiftype-name="title" data-swiftype-type="string"><%= locals.title %></h2>
+                <h2  class="documentation-header" data-swiftype-name="title" data-swiftype-type="string">{{page.title}}</h2>
 
                 <!-- Article tags -->
-                <!-- <% if (locals.tags && locals.tags.length) { %>
-                <ul class="doc-tags">
-                  <% tags.forEach(function(thisTag) { %>
-                    <li><%= public.docs._data.available_tags[thisTag] %></li>
-                  <% }) %>
-                </ul>
-                <% } %> -->
+                {% if page.tags.count > 0 %}
+                  <ul class="doc-tags">
+                    {% for tag in page.tags %}
+                      <li>{{site.data.tags[tag]}}</li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
 
                 <!-- Documentation article body -->
                 {{content}}
 
-                <!-- Populate the next and previous links based on _data.doc_map -->
-                <!-- <%
-                public.docs._data.doc_map.forEach(function (thisCategory, catIndex, categories) {
-                  thisCategory.children.forEach(function (thisArticle, articleIndex, articles) {
-                    if (thisArticle.href && thisArticle.href.split('/').pop() === locals.page_id) {
-                      var prevArticleIndex = articleIndex, nextArticleIndex = articleIndex,
-                        nextCategory = categories[catIndex + 1],
-                        prevCategory = categories[catIndex - 1],
-                        prevArticle, nextArticle;
+                <!-- Populate the next and previous links based on site.data.doc_map -->
+                {% assign categories = site.data.doc_map %}
+                {% for category in categories %}
+                  {% assign catIndex = forloop.index0 %}
+                  {% for article in category.children %}
+                    {% if article.href == page.url %}
+                      {% assign articleIndex = forloop.index0 %}
 
-                      do {
-                        prevArticle = articles[--prevArticleIndex];
-                      } while (prevArticle && !prevArticle.href);
+                      {% assign nextArticleIndex = articleIndex | plus: 1 %}
+                      {% assign nextCatIndex = catIndex | plus: 1 %}
+                      {% assign nextCategory = categories[nextCatIndex] %}
 
-                      do {
-                        nextArticle = articles[++nextArticleIndex];
-                      } while (nextArticle && !nextArticle.href);
+                      {% if category.children[nextArticleIndex] %}
+                        {% assign next = category.children[nextArticleIndex] %}
+                      {% elsif nextCategory.children.first %}
+                        {% assign next = nextCategory.children.first %}
+                      {% endif %}
 
-                      if(!prevArticle && prevCategory && prevCategory.children && prevCategory.children.length) {
-                        prevArticle = prevCategory.children[prevCategory.children.length - 1];
-                      }
+                      {% assign prevArticleIndex = articleIndex | minus: 1 %}
+                      {% assign prevCatIndex = catIndex | minus: 1 %}
+                      {% assign prevCategory = categories[prevCatIndex] %}
 
-                      if(!nextArticle && nextCategory && nextCategory.children && nextCategory.children.length) {
-                        nextArticle = nextCategory.children[0];
-                      }
-                %>
-                <div class="doc-next-link clearfix">
-                  <% if (prevArticle) { %>
-                  <a href="<%= prevArticle.href %>" <%= prevArticle.external ? "target=\"_blank\"" : "" %> class="col-sm-6 col-xs-12 prev-article"><%= prevArticle.title %></a>
-                  <% }
-                  if (nextArticle) { %>
-                  <a href="<%= nextArticle.href %>" <%= nextArticle.external ? "target=\"_blank\"" : "" %> class="col-xs-6 hidden-xs next-article pull-right"><%= nextArticle.title %></a>
-                  <% } %>
-                </div>
+                      {% if prevArticleIndex >= 0 and category.children[prevArticleIndex] %}
+                        {% assign prev = category.children[prevArticleIndex] %}
+                      {% elsif prevCategory.children.last %}
+                        {% assign prev = prevCategory.children.last %}
+                      {% endif %}
 
-                <% if (nextArticle) { %>
-                <div class="doc-next-link clearfix visible-xs">
-                  <a href="<%= nextArticle.href %>" <%= nextArticle.external ? "target=\"_blank\"" : "" %> class="col-xs-12 next-article pull-right"><%= nextArticle.title %></a>
-                </div>
-                <% } %>
-                <%
-                    }
-                  });
-                });
-                %> -->
+                      <div>Prev: {{prev.title}}</div>
+                      <div>Next: {{next.title}}</div>
+
+                      <div class="doc-next-link clearfix">
+                        {% if prev.title %}
+                        <a href="{{prev.href}}" {% if prev.external == true %}target="_blank"{% endif %} class="col-sm-6 col-xs-12 prev-article">
+                          {{prev.title}}
+                        </a>
+                        {% endif %}
+
+                        {% if next.title %}
+                        <a href="{{next.href}}" {% if next.external == true %}target="_blank"{% endif %} class="col-xs-6 hidden-xs next-article pull-right">
+                          {{next.title}}
+                        </a>
+                        {% endif %}
+                      </div>
+
+                      {% if next.title %}
+                      <div class="doc-next-link clearfix visible-xs">
+                        <a href="{{next.href}}" {% if next.external == true %}target="_blank"{% endif %} class="col-xs-12 next-article pull-right">
+                          {{next.title}}
+                        </a>
+                      </div>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
             </div>
 
             <div class="pm-accordion col-md-4 col-md-offset-1 hidden-sm hidden-xs">
@@ -88,28 +99,34 @@
                 </div>
 
                 <div class="pm-accordion-links" id="accordion">
-                    <!-- <% public.docs._data.doc_map.forEach(function(thisCategory, i) { %>
-                    <%  var openIndex; %>
+                  {% for category in site.data.doc_map %}
+                    {% assign i = forloop.index0 %}
+                    {% for link in category.children %}
+                      {% if link.href == page.url %}
+                        {% assign openPanel = i %}
+                      {% endif %}
+                    {% endfor %}
                     <div class="pm-accordion-category panel">
-                        <%
-                          thisCategory.children.forEach(function(thisArticle, j) {
-                            if (thisArticle.href && thisArticle.href.split('/').pop() === locals.page_id) {
-                              openIndex = i;
-                            }
-                          });
-                        %>
-                        <a href="#collapse-<%= i %>" class="category-title <%- i === openIndex ? '' : 'collapsed' %>" data-toggle="collapse"><%= thisCategory.title %></a>
-                        <ul id="collapse-<%= i %>" class="category-links collapse <%- i === openIndex ? 'in' : '' %>">
-                            <% thisCategory.children.forEach(function(thisLink, i) { %>
-                                <% if(thisLink.href && thisLink.href.length) { %>
-                                <li><a href="<%= thisLink.href %>" <%= thisLink.external ? "target=\"_blank\"" : "" %> <%- '/'+current.path.join('/') === thisLink.href ? "class=\"active\"" : "" %>>
-                                    <%= thisLink.title %>
-                                </a></li>
-                                <% } %>
-                            <% }) %>
-                        </ul>
+                      <a href="#collapse-{{i}}" class="category-title {% unless i == openPanel %}collapsed{% endunless %}" data-toggle="collapse">
+                        {{category.title}}
+                      </a>
+
+                      <ul id="collapse-{{i}}" class="category-links collapse {% if i == openPanel %}in{% endif %}">
+                        {% for link in category.children %}
+                          {% if link.href.size > 0 %}
+                            <li>
+                              <a href="{{link.href}}"
+                                {% if link.external  == true %}target="_blank"{% endif %}
+                                {% if page.url == link.href %}class="active"{% endif %}
+                              >
+                                {{link.title}}
+                              </a>
+                            </li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
                     </div>
-                    <% }) %> -->
+                  {% endfor %}
                 </div>
             </div>
           </div>

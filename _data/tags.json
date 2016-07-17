@@ -1,0 +1,9 @@
+{
+  "legacy": "Legacy",
+  "app": "App",
+  "mac": "Mac",
+  "chrome": "Chrome",
+  "cloud": "Cloud",
+  "newman": "Newman",
+  "web": "Web"
+}
