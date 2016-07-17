@@ -3,32 +3,42 @@ layout: home
 ---
 
 <div class="pm-accordion">
-    <div class="doc-search">
-        <input type="text" class="st-default-search-input pm-form-control pm-white-control" name="search" placeholder="Search documentation" autocomplete="off" autocorrect="off" autocapitalize="off" required="required" />
-        <div class="clear-text"></div>
-    </div>
+  <div class="doc-search">
+    <input type="text"
+      class="st-default-search-input pm-form-control pm-white-control"
+      name="search"
+      placeholder="Search documentation"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="off"
+      required="required" />
+    <div class="clear-text"></div>
+  </div>
 
-    <div class="pm-accordion-links" id="accordion">
-        <!-- <% public.docs._data.doc_map.forEach(function(thisCategory, i) { %>
-        <%  var openIndex; %>
-        <div class="pm-accordion-category panel">
-            <a href="#collapse-<%= i %>" class="category-title <%- !i ? '' : 'collapsed' %>" data-toggle="collapse"><%= thisCategory.title %></a>
-            <ul id="collapse-<%= i %>" class="category-links collapse <%- !i ? 'in' : '' %>">
-                <% thisCategory.children.forEach(function(thisLink, i) { %>
-                    <% if(thisLink.href && thisLink.href.length) { %>
-                    <li><a href="<%= thisLink.href %>" <%= thisLink.external ? "target=\"_blank\"" : "" %> <%- '/'+current.path.join('/') === thisLink.href ? "class=\"active\"" : "" %>>
-                        <%= thisLink.title %>
-                    </a></li>
-                    <% } %>
+  <div class="pm-accordion-links" id="accordion">
+    {% for category in site.data.doc_map %}
+      {% assign i = forloop.index0 %}
+      <div class="pm-accordion-category panel">
+        <a href="#collapse-{{i}}" class="category-title {% unless i == 0 %}collapsed{% endunless %}" data-toggle="collapse">
+          {{category.title}}
+        </a>
 
-                    <% if(thisLink.video_src && thisLink.video_src.length) { %>
-                    <li class="pm-accordion-video-container">
-                        <%- thisLink.video_src %>
-                    </li>
-                    <% } %>
-                <% }) %>
-            </ul>
-        </div>
-        <% }) %> -->
-    </div>
+        <ul id="collapse-{{i}}" class="category-links collapse {% if i == 0 %}in{% endif %}">
+          {% for page in category.children %}
+            {% if page.video_src.size > 0 %}
+              <li class="pm-accordion-video-container">
+                {{page.video_src}}
+              </li>
+            {% elsif page.href.size > 0 %}
+              <li>
+                <a href="{{page.href}}" {% if page.external  == true %}target="_blank"{% endif %}>
+                  {{page.title}}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
 </div>
