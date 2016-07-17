@@ -17,7 +17,7 @@
               <ul id="popular-topics">
                 <li><a href="{{site.pm.root}}/docs/install_mac">Installing the Mac App</a></li>
                 <li><a href="{{site.pm.root}}/docs/newman_intro">Newman - Running collections in the command line</a></li>
-                <li><a href="{{site.pm.root}}http://blog.getpostman.com/2015/12/10/introducing-postman-cloud/">Introducing Postman Cloud</a></li>
+                <li><a href="{{site.pm.blog}}/2015/12/10/introducing-postman-cloud/">Introducing Postman Cloud</a></li>
                 <li><a href="{{site.pm.root}}/docs/collections">Getting started with Collections</a></li>
                 <li><a href="{{site.pm.root}}/docs/environments">Setting up an environment with variables</a></li>
                 <li><a href="{{site.pm.root}}/docs/writing_tests">Writing Tests</a></li>
@@ -25,7 +25,7 @@
 
               <h3>Video Tutorials</h3>
               <ul class="pm-video-list">
-                <!-- <% public.docs._data.video_tutorials.forEach(function(thisVideo) {%>
+                <!-- <% public.docs._data.video_tutorials.forEach(function(thisVideo) { %>
                 <li>
                   <a href="<%= ['https://www.youtube.com/watch?v=', thisVideo.id, '&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ', '&autoplay=1'].join('') %>" target="_blank"><%= thisVideo.title %></a>
                   <a class="pm-yt-thumbnail" href="<%= ['https://www.youtube.com/watch?v=', thisVideo.id, '&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ', '&autoplay=1'].join('') %>" target="_blank">
