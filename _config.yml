@@ -4,7 +4,6 @@ defaults:
       layout: "default"
 
 permalink: /:title
-relative_permalinks: true
 
 # Namespace for custom variables
 pm:
