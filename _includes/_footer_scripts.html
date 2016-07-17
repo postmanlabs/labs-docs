@@ -1,16 +1,16 @@
-<script type="text/javascript" src="/js/ga/ga.js"></script>
-<script type="text/javascript" src="/js/ga/tracker.js"></script>
-<script type="text/javascript" src="/js/libs/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="/js/libs/underscore-min.js"></script>
-<script type="text/javascript" src="/js/libs/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/libs/isInViewport.min.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/ga/ga.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/ga/tracker.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/libs/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/libs/underscore-min.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/libs/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/libs/isInViewport.min.js"></script>
 
 <% if (locals.fullpage) { %>
-<script type="text/javascript" src="/js/libs/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/js/libs/jquery.fullPage.min.js"></script>
 <% } %>
 
 <script type="text/javascript">
-  var pm_app_url = "<%= public._data.nonstatic_prefix %>"
+  var pm_app_url = "{{site.pm.gs}}";
 
   /**
    * Authentication
@@ -28,21 +28,14 @@
   /**
    * Navigation
    */
-  $(function () {
-    var thisHash = window.location.hash,
-        $tabs = $('.app-list a'),
-        tabIDs = $.map($tabs, function (thisTab) { return $(thisTab).attr('href'); }),
-        thisTabIndex = tabIDs.indexOf(thisHash);
-
-    if (thisTabIndex !== -1) {
-      $tabs.eq(thisTabIndex).tab('show');
-    }
-  });
-
   $('body').on('click', '#menu-toggle', function () {
     $('body').toggleClass('nav-open');
   });
 
+  /**
+   * Force blur of inputs when tapping outside, hides soft-keyboard
+   * on touch devices
+   */
   $(document).on('touchstart', function (e) {
     var thisNodeName = e.target.nodeName;
 
@@ -52,21 +45,6 @@
 
     document.activeElement.blur();
     $('input, textarea').blur();
-  });
-
-  /**
-   * Homepage Slider
-   */
-  $(function () {
-    var $slideContoller = $('.slide-controllers'),
-        $slideContents = $('.slide-contents');
-    $slideContoller.on('click', 'li', function () {
-      var $self = $(this),
-          slideIndex = $self.index();
-
-      $self.addClass('active').siblings().removeClass('active');
-      $slideContents.css('left', -slideIndex * 100 + '%');
-    });
   });
 
   /**
@@ -96,83 +74,4 @@
       scrollWatch = setTimeout(autoVideo, 500);
     });
   });
-
-  /**
-   * Slack page functionality
-   */
-  $(function () {
-    var $form = $('#slack-invite-form'),
-      $email = $('#slack-invite-email'),
-      $messages = $('#slack-invite-error, #slack-invite-success'),
-      $error = $('#slack-invite-error'),
-      $success = $('#slack-invite-success'),
-      slackAPI = 'https://www.getpostman.com/api/slack/invite',
-      errors = {
-        already_invited: 'We\'ve already sent you an invite. Make sure you check your spam folder!',
-        invalid_email: 'The email you\'ve entered seems to be invalid.'
-      };
-
-    $form.on('submit', function (e) {
-      var email = $email.val();
-
-      // Remove any visible messages
-      $messages.html('');
-
-      // Prevent form submission
-      e.preventDefault();
-
-      if(!email) {
-        return;
-      }
-
-      $success.html('Preparing your invite...');
-
-      $.post(slackAPI, {email: email}, function (res, status) {
-        if(res && res.ok) {
-          $success.html('Your invite is on the way :)');
-        } else {
-          $messages.html('');
-          $error.html(errors[res.error] || res.error);
-        }
-      })
-        .fail(function () {
-          $error.html('Something went wrong and we couldn\'t send your invite :(');
-        });
-    });
-  });
-
-  /**
-   * Collection infographic scroll handler
-   */
-  $(document).ready(function() {
-    var tag,
-      firstScriptTag;
-
-    $('.collection_infographic').length && $('.pm-page-wrap').fullpage({
-      scrollBar: true
-    });
-
-    // Load the YT iFrame API if a video embed exists on the page
-    if($('.pm-resp-yt-wrap').length) {
-      tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    }
-  });
-
-  function onYouTubeIframeAPIReady() {
-    var aws_player;
-
-    if($('#aws-gateway-postman-video').length) {
-      aws_player = new YT.Player('aws-gateway-postman-video', {
-        videoId: 'pfoKFaHisbY'
-      });
-    }
-
-    $('[href="#aws-gateway-postman-video-wrap"]').click(function () {
-      aws_player.playVideo();
-    });
-  }
 </script>

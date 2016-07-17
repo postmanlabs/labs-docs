@@ -1,22 +1,22 @@
 <div id="sidebar-toggleable">
     <ul class="pm-sidebar-main-nav">
-        <li><a href="/" class="<%- current.path[0] == 'index' ? 'active' : '' %>">Home</a></li>
-        <li><a href="/pricing" class="<%- current.source == 'pricing' ? 'active' : '' %>">Pricing</a></li>
-        <li><a href="/apps" class="<%- current.source == 'apps' ? 'active' : '' %>">Apps</a></li>
-        <li><a href="/docs/" class="<%- current.path[0] == 'docs' ? 'active' : '' %>">Documentation</a></li>
-        <li><a href="/integrations/" class="<%- current.path[0] == 'integrations' ? 'active' : '' %>">Integrations</a></li>
-        <li><a href="/about-us" class="<%- current.source == 'about-us' ? 'active' : '' %>">About Us</a></li>
-        <li class="hide-if-signedin"><a href="envSubst(process.env.APP_HOST)/signup?redirect=web">Sign In</a></li>
-        <li class="hide-if-signedout"><a href="envSubst(process.env.APP_HOST)/">Dashboard</a></li>
+        <li><a href="{{site.pm.root}}/">Home</a></li>
+        <li><a href="{{site.pm.root}}/pricing">Pricing</a></li>
+        <li><a href="{{site.pm.root}}/apps">Apps</a></li>
+        <li><a href="{{site.pm.root}}/docs/" class="active">Documentation</a></li>
+        <li><a href="{{site.pm.root}}/integrations/">Integrations</a></li>
+        <li><a href="{{site.pm.root}}/about-us">About Us</a></li>
+        <li class="hide-if-signedin"><a href="{{site.pm.gs}}/signup?redirect=web">Sign In</a></li>
+        <li class="hide-if-signedout"><a href="{{site.pm.gs}}/">Dashboard</a></li>
     </ul>
 
     <ul class="pm-sidebar-secondary-nav">
-        <li><a href="/apps#changelog" class="<%- current.source == 'apps' ? 'active' : '' %>">Features</a></li>
-        <li><a href="/support" class="<%- current.source == 'support' ? 'active' : '' %>">Support</a></li>
-        <li><a href="/security" class="<%- current.source == 'security' ? 'active' : '' %>">Security</a></li>
-        <li><a href="http://blog.getpostman.com">Blog</a></li>
-        <li><a href="/jobs/" class="<%- current.path[0] == 'jobs' ? 'active' : '' %>">Jobs</a></li>
-        <li><a href="/contact-us" class="<%- current.source == 'contact-us' ? 'active' : '' %>">Contact Us</a></li>
-        <li><a href="/licenses/privacy" class="<%- current.path[0] == 'licenses' ? 'active' : '' %>">Privacy and Terms</a></li>
+        <li><a href="{{site.pm.root}}/apps#changelog">Features</a></li>
+        <li><a href="{{site.pm.root}}/support">Support</a></li>
+        <li><a href="{{site.pm.root}}/security">Security</a></li>
+        <li><a href="{{site.pm.blog}}">Blog</a></li>
+        <li><a href="{{site.pm.root}}/jobs/">Jobs</a></li>
+        <li><a href="{{site.pm.root}}/contact-us">Contact Us</a></li>
+        <li><a href="{{site.pm.root}}/licenses/privacy">Privacy and Terms</a></li>
     </ul>
 </div>

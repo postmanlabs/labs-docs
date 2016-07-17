@@ -1,3 +1,34 @@
 ---
 layout: home
 ---
+
+<div class="pm-accordion">
+    <div class="doc-search">
+        <input type="text" class="st-default-search-input pm-form-control pm-white-control" name="search" placeholder="Search documentation" autocomplete="off" autocorrect="off" autocapitalize="off" required="required" />
+        <div class="clear-text"></div>
+    </div>
+
+    <div class="pm-accordion-links" id="accordion">
+        <!-- <% public.docs._data.doc_map.forEach(function(thisCategory, i) { %>
+        <%  var openIndex; %>
+        <div class="pm-accordion-category panel">
+            <a href="#collapse-<%= i %>" class="category-title <%- !i ? '' : 'collapsed' %>" data-toggle="collapse"><%= thisCategory.title %></a>
+            <ul id="collapse-<%= i %>" class="category-links collapse <%- !i ? 'in' : '' %>">
+                <% thisCategory.children.forEach(function(thisLink, i) { %>
+                    <% if(thisLink.href && thisLink.href.length) { %>
+                    <li><a href="<%= thisLink.href %>" <%= thisLink.external ? "target=\"_blank\"" : "" %> <%- '/'+current.path.join('/') === thisLink.href ? "class=\"active\"" : "" %>>
+                        <%= thisLink.title %>
+                    </a></li>
+                    <% } %>
+
+                    <% if(thisLink.video_src && thisLink.video_src.length) { %>
+                    <li class="pm-accordion-video-container">
+                        <%- thisLink.video_src %>
+                    </li>
+                    <% } %>
+                <% }) %>
+            </ul>
+        </div>
+        <% }) %> -->
+    </div>
+</div>

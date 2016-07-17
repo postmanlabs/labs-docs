@@ -1,16 +1,16 @@
 <div id="header" class="header-container clearfix">
     <div id="menu-toggle"></div>
-    <a href="/" class="logo-container"></a>
+    <a href="{{site.pm.root}}" class="logo-container"></a>
 
     <div class="navigation-container">
         <ul>
-            <li><a href="/pricing" class="<%- current.source == 'pricing' ? 'active' : '' %> pm-btn pm-btn-transparent">Pricing</a></li>
-            <li><a href="/apps" class="<%- current.source == 'apps' ? 'active' : '' %> pm-btn pm-btn-transparent">Apps</a></li>
-            <li><a href="/docs/" class="<%- current.path[0] == 'docs' ? 'active' : '' %> pm-btn pm-btn-transparent">Documentation</a></li>
-            <li><a href="/integrations/" class="<%- current.path[0] == 'integrations' ? 'active' : '' %> pm-btn pm-btn-transparent">Integrations</a></li>
-            <li><a href="/community" class="<%- current.path[0] == 'community' ? 'active' : '' %> pm-btn pm-btn-transparent">Community</a></li>
-            <li><a href="envSubst(process.env.APP_HOST)/signup?redirect=web" class="pm-btn pm-btn-primary pm-btn-sm sign-in-button hide-if-signedin">Sign in</a></li>
-            <li><a href="envSubst(process.env.APP_HOST)/" class="pm-btn pm-btn-primary pm-btn-sm sign-in-button hide-if-signedout">Dashboard</a></li>
+            <li><a href="{{site.pm.root}}/pricing" class="pm-btn pm-btn-transparent">Pricing</a></li>
+            <li><a href="{{site.pm.root}}/apps" class="pm-btn pm-btn-transparent">Apps</a></li>
+            <li><a href="{{site.pm.root}}/docs/" class="active pm-btn pm-btn-transparent">Documentation</a></li>
+            <li><a href="{{site.pm.root}}/integrations/" class="pm-btn pm-btn-transparent">Integrations</a></li>
+            <li><a href="{{site.pm.root}}/community" class="pm-btn pm-btn-transparent">Community</a></li>
+            <li><a href="{{site.pm.gs}}/signup?redirect=web" class="pm-btn pm-btn-primary pm-btn-sm sign-in-button hide-if-signedin">Sign in</a></li>
+            <li><a href="{{site.pm.gs}}/" class="pm-btn pm-btn-primary pm-btn-sm sign-in-button hide-if-signedout">Dashboard</a></li>
         </ul>
     </div>
 </div>

@@ -2,3 +2,16 @@ defaults:
   -
     values:
       layout: "default"
+
+permalink: /:title
+relative_permalinks: true
+
+# Namespace for custom variables
+pm:
+  root: "https://www.getpostman.com"
+  gs: "https://app.getpostman.com"
+  blog: "http://blog.getpostman.com"
+
+# Website metadata
+meta:
+  tracker: "GTM-M42M5N"
