@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include _meta.html %}
-<body class="<%= current.source %> regular">
+  <body class="<%= current.source %> regular">
     {% include _google_tag_manager.html %}
     {% include _header.html %}
 
@@ -9,7 +9,7 @@
       <div class="container">
          <div class="row">
             <div class="content documentation col-md-7">
-                {{content}}
+              {{content}}
             </div>
 
             <div class="doc-sidebar col-md-4 col-md-offset-1">
@@ -25,14 +25,14 @@
 
               <h3>Video Tutorials</h3>
               <ul class="pm-video-list">
-                <!-- <% public.docs._data.video_tutorials.forEach(function(thisVideo) { %>
+                {% for vid in site.data.video_tutorials %}
                 <li>
-                  <a href="<%= ['https://www.youtube.com/watch?v=', thisVideo.id, '&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ', '&autoplay=1'].join('') %>" target="_blank"><%= thisVideo.title %></a>
-                  <a class="pm-yt-thumbnail" href="<%= ['https://www.youtube.com/watch?v=', thisVideo.id, '&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ', '&autoplay=1'].join('') %>" target="_blank">
-                    <img src="http://img.youtube.com/vi/<%= thisVideo.id %>/mqdefault.jpg">
+                  <a href="https://www.youtube.com/watch?v={{vid.id}}&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ&autoplay=1" target="_blank">{{vid.title}}</a>
+                  <a class="pm-yt-thumbnail" href="https://www.youtube.com/watch?v={{vid.id}}&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ&autoplay=1" target="_blank">
+                    <img src="http://img.youtube.com/vi/{{vid.id}}/mqdefault.jpg">
                   </a>
                 </li>
-                <% }) %> -->
+                {% endfor %}
                 <li><a href="https://www.youtube.com/playlist?list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ">Watch Tutorial Playlist</a></li>
               </ul>
             </div>
