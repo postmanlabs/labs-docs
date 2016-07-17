@@ -63,9 +63,6 @@
                         {% assign prev = prevCategory.children.last %}
                       {% endif %}
 
-                      <div>Prev: {{prev.title}}</div>
-                      <div>Next: {{next.title}}</div>
-
                       <div class="doc-next-link clearfix">
                         {% if prev.title %}
                         <a href="{{prev.href}}" {% if prev.external == true %}target="_blank"{% endif %} class="col-sm-6 col-xs-12 prev-article">
