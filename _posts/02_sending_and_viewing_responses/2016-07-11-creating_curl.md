@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Creating cURL commands in Postman"
+page_id: "creating_curl"
+tags: 
+  - "app"
+warning: false
 ---
+
 To create a cURL command in Postman,
 
 1. Create a request in the Postman builder as you normally would.

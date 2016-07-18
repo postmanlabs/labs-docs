@@ -1,5 +1,13 @@
 ---
+category: "docs"
+title: "What are Jetpacks?"
+page_id: "jetpacks_intro"
+tags: 
+  - "app"
+  - "legacy"
+warning: "jetpacks_legacy"
 ---
+
 Jetpacks are an awesome set of features which will make your API workflow faster and more efficient. The goal is to make you write less - or nothing at all - and still be able to execute complex scenarios, that would otherwise take a lot of code or an endless series of clicks in other applications.
 
 You get the following features:

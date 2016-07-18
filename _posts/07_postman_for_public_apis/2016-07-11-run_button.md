@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Create the Run in Postman button"
+page_id: "run_button"
+tags: 
+  - "app"
+warning: false
 ---
+
 The Run in Postman button opens a collection of API endpoints directly in the user's Postman app. You can embed the button in your documentation to link a collection of endpoints and workflows that help developers onboard onto your API faster.
 
 To create a button that links to a collection, go through the following steps.

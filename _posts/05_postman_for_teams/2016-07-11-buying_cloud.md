@@ -1,4 +1,11 @@
 ---
+category: "docs"
+title: "Purchasing Cloud"
+page_id: "buying_cloud"
+tags: 
+  - "cloud"
+  - "web"
+warning: false
 ---
 To purchase Cloud, follow these instructions. Team leads as well as purchasing departments can buy the product.
 

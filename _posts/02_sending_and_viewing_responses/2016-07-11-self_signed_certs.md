@@ -1,5 +1,13 @@
 ---
+category: "docs"
+title: "Sending requests to URLs with self signed SSLs"
+page_id: "self_signed_certs"
+tags: 
+  - "app"
+  - "mac"
+warning: false
 ---
+
 Self-signed certificates are not verified by a trusted authority. So accessing an API endpoint with something like https:// through Postman would throw up an error.
 
 Below are instructions to work with self signed SSLs. Make sure that you have verified the IP where the certificate comes from. This should only be done for verified IP addresses. This method also works for certificates for localhost. Make sure that the common name of the certificate while generating the certificate is localhost.

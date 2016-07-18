@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Setting up an environment with variables"
+page_id: "environments"
+tags: 
+  - "app"
+warning: false
 ---
+
 While working with APIs, you will often need to have different setups. For example, your local machine, the development server, or the production API.
 Environments give you the ability to customize requests using variables. This way you can easily switch between different setups without changing your requests.
 You won't have to worry about remembering all those values once they are in Postman. Environments can be downloaded and saved as JSON files and uploaded later.

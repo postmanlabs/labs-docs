@@ -1,5 +1,13 @@
 ---
+category: "docs"
+title: "Consuming API documentation in Collection Browser"
+page_id: "consuming_api_documentation"
+tags: 
+  - "app"
+  - "cloud"
+warning: false
 ---
+
 The Collection Browser lets you browse through collection meta data within the Postman interface.
 
 To bring up the browser for a collection click on the "expand" arrow.

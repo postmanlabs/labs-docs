@@ -1,5 +1,13 @@
 ---
+category: "docs"
+title: "Publish Documentation for your Collections"
+page_id: "creating_documentation"
+tags: 
+  - "app"
+  - "cloud"
+warning: false
 ---
+
 All users of Postman Cloud get access to Postman's Documenter! This is a new feature that lets you view auto-generated documentation for all your collections. You can also publish this documentation and share it publicly for people to consume.
 
 ### Viewing Documentation for Collections

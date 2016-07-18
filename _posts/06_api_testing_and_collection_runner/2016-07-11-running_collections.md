@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Running a collection"
+page_id: "running_collections"
+tags: 
+  - "app"
+warning: false
 ---
+
 The collection runner lets you run collections. Thousands of times if you want.
 ![](https://www.getpostman.com/img/v1/docs/source/cr-1.png)
 

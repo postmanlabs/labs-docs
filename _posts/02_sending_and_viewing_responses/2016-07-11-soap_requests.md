@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Making SOAP requests"
+page_id: "soap_requests"
+tags: 
+  - "app"
+warning: false
 ---
+
 To make SOAP requests using Postman,
 
 1\. Give the SOAP endpoint as the URL. If you are using a WSDL, then give the path to the WSDL as the URL.

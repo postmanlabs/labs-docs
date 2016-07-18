@@ -1,4 +1,10 @@
 ---
+category: "docs"
+title: "Capturing requests (Mac app)"
+page_id: "capture_mac"
+tags: 
+  - "app"
+warning: false
 ---
 ### In-app Proxy
 

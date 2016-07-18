@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Handling redirects"
+page_id: "handling_redirects"
+tags: 
+  - "chrome"
+warning: false
 ---
+
 You can handle redirects by going to settings in your Postman. Read below about automatically following redirects.
 
 [![](https://www.getpostman.com/img/v1/docs/settings.png)

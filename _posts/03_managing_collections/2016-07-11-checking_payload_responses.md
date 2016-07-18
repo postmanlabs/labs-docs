@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Checking response payloads"
+page_id: "checking_payload_responses"
+tags: 
+  - "app"
+warning: false
 ---
+
 **Chrome app**
 
 To inspect the exact request and response payloads to make sure that Postman isn't causing your API call to fail you will need to use Dev Tools.

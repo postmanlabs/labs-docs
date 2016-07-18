@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Testing examples"
+page_id: "testing_examples"
+tags: 
+  - "app"
+warning: false
 ---
+
 Let's look at some examples of Postman tests. Most of these are available as snippets inside Postman. Most
 tests are as simple as one-line JavaScript statements. You can have as many tests as you want for a request.
 

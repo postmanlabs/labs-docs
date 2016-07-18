@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Migrating to the packaged app"
+page_id: "migration_new"
+tags: 
+  - "app"
+warning: false
 ---
+
 Migrating from the existing packaged app to the sync beta version of Postman - Postman allows you to export all your data in one file and then re-import it. This is how you do it:
 
 #### Exporting data from existing packaged app

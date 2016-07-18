@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Importing cURL commands to Postman"
+page_id: "importing_curl"
+tags: 
+  - "app"
+warning: false
 ---
+
 To import a cURL command into Postman,
 
 1. Click on the import tab.

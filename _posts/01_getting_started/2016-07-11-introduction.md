@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Installing the Postman Chrome App"
+page_id: "introduction"
+tags: 
+  - "chrome"
+warning: false
 ---
+
 Postman helps you be extremely efficient while working with APIs.
 
 With Postman, you can construct requests quickly, save them for later use and analyze the responses sent by the API. Postman can dramatically cut down the time required to test and develop APIs. Postman adapts itself for individual developers, small teams or big organizations equally well.

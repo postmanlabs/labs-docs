@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Running Newman in Docker"
+page_id: "newman_in_docker"
+tags: 
+  - "newman"
+warning: false
 ---
+
 **For Mac and Ubuntu**
 
 To run [Newman][0] in [Docker][1],

@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Using interceptor to read and write cookies"
+page_id: "interceptor_cookies"
+tags: 
+  - "chrome"
+warning: false
 ---
+
 Unlike the Mac app, the Chrome app is not equipped to handle cookies by itself. You can use the interceptor extension to overcome this. With the interceptor on, you can retrieve cookies set on a particular domain and include cookies while sending requests.
 
 [Click here][0] for instructions on how to install the interceptor. Once you are done, follow the instructions below to work with cookies.

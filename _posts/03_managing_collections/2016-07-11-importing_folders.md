@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Importing RAML folders as Collections"
+page_id: "importing_folders"
+tags: 
+  - "app"
+warning: false
 ---
+
 To save a RAML folder as a collection,
 
 1\. Clone the repository containing the RAML definition to your local machine

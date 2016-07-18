@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Partnership program"
+page_id: "run_partner_prog"
+tags: 
+  - "web"
+warning: false
 ---
+
 We will launch the Run in Postman button in mid-March. We are currently accepting requests to partner on the launch.
 
 Partnering gets you the following,

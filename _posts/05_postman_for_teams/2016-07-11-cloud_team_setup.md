@@ -1,5 +1,13 @@
 ---
+category: "docs"
+title: "Managing your Cloud team"
+page_id: "cloud_team_setup"
+tags: 
+  - "cloud"
+  - "web"
+warning: false
 ---
+
 Here are a few common team-administration actions that you might need to take. These options will only be available to administrators.
 
 * [Setting up your team][0]

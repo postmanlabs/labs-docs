@@ -1,5 +1,13 @@
 ---
+category: "docs"
+title: "Getting Started with Postman Sync"
+page_id: "sync_gettingstarted"
+tags: 
+  - "app"
+  - "web"
+warning: false
 ---
+
 You can now use the powerful synchronization and collaboration features that Postman has to offer. Creating a Postman team is the first step towards Collaborative API development. As part of the beta, you are entitled to create a team of up to 20 users. Jetpacks comes bundled for free for your entire team.
 
 #### For the team admin:

@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Updating collections in the Run button"
+page_id: "update_run_button"
+tags: 
+  - "app"
+warning: false
 ---
+
 If you want to update the endpoints in The Run in Postman button you do not need to make any changes to the embed code. Go through the following steps in the app.
 
 1. Go into your Postman app.

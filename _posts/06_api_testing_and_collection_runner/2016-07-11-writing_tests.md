@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Writing Tests"
+page_id: "writing_tests"
+tags: 
+  - "app"
+warning: false
 ---
+
 ### Basic structure
 ![](https://www.getpostman.com/img/v1/docs/source/cr-5.png)
 

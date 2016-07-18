@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Syncing collections with the Postman server"
+page_id: "sync_overview"
+tags: 
+  - "app"
+warning: false
 ---
+
 Once you are signed in to the Postman App, the following entities are synced with our server:
 
 * Collections

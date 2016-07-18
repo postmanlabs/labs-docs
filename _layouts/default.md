@@ -24,7 +24,7 @@
                 <h2  class="documentation-header" data-swiftype-name="title" data-swiftype-type="string">{{page.title}}</h2>
 
                 <!-- Article tags -->
-                {% if page.tags.count > 0 %}
+                {% if page.tags.size > 0 %}
                   <ul class="doc-tags">
                     {% for tag in page.tags %}
                       <li>{{site.data.tags[tag]}}</li>

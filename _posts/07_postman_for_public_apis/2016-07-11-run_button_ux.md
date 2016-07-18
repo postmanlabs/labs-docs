@@ -1,5 +1,12 @@
 ---
+category: "docs"
+title: "Using the Run in Postman button"
+page_id: "run_button_ux"
+tags: 
+  - "web"
+warning: false
 ---
+
 When the developer goes to your API documentation, they will see the button on it. Below is an example screen of what the button could look like.
 ![](https://www.getpostman.com/img/v1/docs/run_btn_ux/run_btn_ux_1.png)
 

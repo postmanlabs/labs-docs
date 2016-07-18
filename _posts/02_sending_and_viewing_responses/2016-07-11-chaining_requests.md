@@ -1,4 +1,10 @@
 ---
+category: "docs"
+title: "Extracting data from responses and chaining requests"
+page_id: "chaining_requests"
+tags: 
+  - "app"
+warning: false
 ---
 You can extract data from response and chain requests using test scripts. The test script runs inside a sandbox and Postman provides the **postman** object to interact with the main Postman context.
 
