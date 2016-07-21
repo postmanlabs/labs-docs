@@ -21,4 +21,8 @@ With the native apps, you have control over when and if you want to update. Rele
 <br>
 [<img src="https://cloud.githubusercontent.com/assets/681190/16727787/72b4cb30-4780-11e6-8aec-68b6ce2a00c7.png" width="600">](https://cloud.githubusercontent.com/assets/681190/16727787/72b4cb30-4780-11e6-8aec-68b6ce2a00c7.png)
 
+5. Restricted headers*<br>
+We'll soon be releasing an update which will let you send headers like Origin and User-Agent. For more info on the new Postman Runtime, check [our blog post](http://blog.getpostman.com/2016/06/14/introducing-postman-runtime-more-power-better-control/).
 
+
+* - Coming soon!
