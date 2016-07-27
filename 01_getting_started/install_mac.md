@@ -7,11 +7,11 @@ With Postman, you can construct requests quickly, save them for later use and an
 
 #### Install Postman
 
-Postman now offers a Mac App. Unlike the Chrome app, the Mac app is packaged with add-ons that make request capturing and cookie handling seamless. 
+Postman now offers a native App for Mac and Windows users. Unlike the Chrome app, the native apps are packaged with add-ons that make request capturing and cookie handling seamless. 
 
-To install go to [https://www.getpostman.com/apps][1], and click 'Get Mac App'.
+To install, go to [https://www.getpostman.com/apps][1], and click 'Get Mac App' or 'Postman for Windows'.
 
-The download should take a few minutes, depending on your internet connection. Once you've downloaded the app, you can install and launch Postman like any other Mac app.
+The download should take a few minutes, depending on your internet connection. Once you've downloaded the app, you can install and launch Postman like any other app.
 
 
 [0]: https://www.getpostman.com/img/v1/docs/source/1.png
