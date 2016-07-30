@@ -1,6 +1,6 @@
 ### In-app Proxy
 
-Those of you familiar with the Chrome app's proxy might remember the complicated steps necessary just to set up the proxy server to capture requests for Postman. The Postman Mac app eases this process considerably. There's no separate module/script you need to run - the proxy is built in to the app itself!
+Those of you familiar with the Chrome app's proxy might remember the complicated steps necessary just to set up the proxy server to capture requests for Postman. The Postman native apps ease this process considerably. There's no separate module/script you need to run - the proxy is built in to the app itself!
 
 To start the proxy server, click the satellite icon in the navigation bar. This should bring up the Proxy Settings window. There a couple of things you can configure here:
 
