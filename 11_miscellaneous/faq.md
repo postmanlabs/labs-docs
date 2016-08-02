@@ -48,17 +48,7 @@ For Newman - you can file an issue on the [Newman issue tracker.][17]
 
 #### How do I install Postman without an internet connection?
 
-If you don't intend to use Sync, you can try these steps:
-
-* Chrome stores the application folders in /Library/Application\\ Support/Google/Chrome/Default/Extensions/fhbjgbiflinjbdggehcddcbncdddomop/ (for Postman, if you have Mac OSX. For Windows, it'll be a similar path from your user's home folder). Locate this folder and copy the directory contents
-
-* You can install Chrome through an offline installer on your dev machine, and copy this directory structure. Starting Chrome should pick up Postman as an app, but this doesn't always work.
-
-OR
-
-Another way would be to create a copy of the "fhbjgbiflinjbdggehcddcbncdddomop" directory, and move it to your machine. You can then add Postman to Chrome by going go chrome://extensions/, enabling 'Developer mode', clicking 'Load unpacked extension", and selecting the directory.
-
-These are all hacks, and are not the recommended way to install Postman.
+We offer native apps for Mac and Windows (available [here][18]). You can download the installer on a machine with an active internet connection, and transfer it to the target machine.
 
 
 [1]: https://www.getpostman.com/docs/environments
@@ -72,3 +62,4 @@ These are all hacks, and are not the recommended way to install Postman.
 [14]: http://blog.getpostman.com/2014/01/27/enabling-chrome-developer-tools-inside-postman/
 [16]: https://www.getpostman.com/support
 [17]: https://github.com/postmanlabs/newman/issues
+[18]: https://www.getpostman.com/apps
