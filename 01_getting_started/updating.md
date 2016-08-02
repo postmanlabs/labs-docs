@@ -12,9 +12,9 @@ To manually force an update, here's what you need to do:
 ![](https://www.getpostman.com/img/v1/docs/update-chrome-app.png)
   
 
-### Mac App
+### Native Apps
 
-Postman's native Mac app will notify you whenever an update is available. To force a check, head over to the Update section of the Settings window. If an update is available, you can choose to start the download. Postman will notify you when then download is complete, and you'll need to restart the app to apply the update.
+Postman's native apps will notify you whenever an update is available. To force a check, head over to the Update section of the Settings window. If an update is available, you can choose to start the download. Postman will notify you when then download is complete, and you'll need to restart the app to apply the update.
 ![](https://www.getpostman.com/img/v1/docs/update-mac-app.png)
 
 
