@@ -5,5 +5,7 @@
   "chrome": "Chrome",
   "cloud": "Cloud",
   "newman": "Newman",
-  "web": "Web"
+  "web": "Web",
+  "windows": "Windows",
+  "native": "Native"
 }
