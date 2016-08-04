@@ -15,7 +15,7 @@
             <div class="doc-sidebar col-md-4 col-md-offset-1">
               <h3>Popular Topics</h3>
               <ul id="popular-topics">
-                <li><a href="{{site.pm.root}}/docs/install_mac">Installing the Mac App</a></li>
+                <li><a href="{{site.pm.root}}/docs/install_native">Installing the native app</a></li>
                 <li><a href="{{site.pm.root}}/docs/newman_intro">Newman - Running collections in the command line</a></li>
                 <li><a href="{{site.pm.blog}}/2015/12/10/introducing-postman-cloud/">Introducing Postman Cloud</a></li>
                 <li><a href="{{site.pm.root}}/docs/collections">Getting started with Collections</a></li>
