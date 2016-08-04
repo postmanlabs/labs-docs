@@ -10,7 +10,7 @@ warning: false
 ---
 
 Postman's [native apps](http://www.getpostman.com/apps) (for Mac and Windows) run on [Electron](http://electron.atom.io/), 
-and provide a overcome a number of restrictions of the Chrome platform.
+and overcome a number of restrictions of the Chrome platform.
 
 A few features exclusive to the native apps are listed here:
 
