@@ -9,7 +9,7 @@
       {% if page.warning %}
         <div class="doc-warning">
           <div class="container">
-            {{site.data.warnings[warning]}}
+            {{site.data.warnings[page.warning]}}
           </div>
         </div>
       {% endif %}
