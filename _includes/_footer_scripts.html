@@ -1,0 +1,77 @@
+<script type="text/javascript" src="{{site.pm.root}}/js/ga/ga.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/ga/tracker.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/libs/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/libs/underscore-min.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/libs/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{site.pm.root}}/js/libs/isInViewport.min.js"></script>
+
+<% if (locals.fullpage) { %>
+<script type="text/javascript" src="{{site.pm.root}}/js/libs/jquery.fullPage.min.js"></script>
+<% } %>
+
+<script type="text/javascript">
+  var pm_app_url = "{{site.pm.gs}}";
+
+  /**
+   * Authentication
+   */
+  $(function () {
+    // Check if the user is signed in and add a class
+    // to the body if so. This will hide elements with the
+    // .hide-if-signedin class and show elements with
+    // the .hide-if-signedout class.
+    if (document.cookie.indexOf('getpostmanlogin') > -1) {
+      $('body').addClass('signedin');
+    }
+  });
+
+  /**
+   * Navigation
+   */
+  $('body').on('click', '#menu-toggle', function () {
+    $('body').toggleClass('nav-open');
+  });
+
+  /**
+   * Force blur of inputs when tapping outside, hides soft-keyboard
+   * on touch devices
+   */
+  $(document).on('touchstart', function (e) {
+    var thisNodeName = e.target.nodeName;
+
+    if (thisNodeName === 'INPUT' || thisNodeName === 'TEXTAREA') {
+      return;
+    }
+
+    document.activeElement.blur();
+    $('input, textarea').blur();
+  });
+
+  /**
+   * Auto-playing videos
+   *
+   * Just add a pm-auto-video class to the HTML5 video element
+   * and the video will play when visible, and pause when not
+   * visible.
+   */
+  $(function () {
+    var $autoVideos = $('video.pm-auto-video'),
+      scrollWatch,
+      autoVideo = function() {
+        $autoVideos.each(function() {
+          var $this = $(this);
+
+          if($this.is(':in-viewport')) {
+            $this.get(0).play();
+          } else {
+            $this.get(0).pause();
+          }
+        });
+      };
+
+    $(document).on('scroll', function() {
+      clearTimeout(scrollWatch);
+      scrollWatch = setTimeout(autoVideo, 500);
+    });
+  });
+</script>
