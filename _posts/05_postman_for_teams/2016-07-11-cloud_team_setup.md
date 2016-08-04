@@ -28,7 +28,7 @@ Once you buy Cloud and hit setup, you will be prompted to name your team and inv
 **Inviting team members**
 
 Once you purchase seats in the Cloud plan, you can add members to your team at any time. 
-Sign in and go to envSubst(process.env.APP\_HOST)/dashboard/teams and click on send invites.
+Sign in and go to https://app.getpostman.com/dashboard/teams and click on send invites.
 
 [![](https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_2.png)
 ][6]
