@@ -37,10 +37,12 @@
 
                 <!-- Populate the next and previous links based on site.data.doc_map -->
                 {% assign categories = site.data.doc_map %}
+                {% assign pageurl = page.url | split: '/' | last %}
                 {% for category in categories %}
                   {% assign catIndex = forloop.index0 %}
                   {% for article in category.children %}
-                    {% if article.href == page.url %}
+                    {% assign articlehref = article.href | split: '/' | last %}
+                    {% if articlehref == pageurl %}
                       {% assign articleIndex = forloop.index0 %}
 
                       {% assign nextArticleIndex = articleIndex | plus: 1 %}
