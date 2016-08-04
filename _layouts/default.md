@@ -96,10 +96,12 @@
                 </div>
 
                 <div class="pm-accordion-links" id="accordion">
+                  {% assign pageurl = page.url | split: '/' | last %}
                   {% for category in site.data.doc_map %}
                     {% assign i = forloop.index0 %}
                     {% for link in category.children %}
-                      {% if link.href == page.url %}
+                      {% assign linkhref = link.href | split: '/' | last %}
+                      {% if linkhref == pageurl %}
                         {% assign openPanel = i %}
                       {% endif %}
                     {% endfor %}
@@ -111,10 +113,11 @@
                       <ul id="collapse-{{i}}" class="category-links collapse {% if i == openPanel %}in{% endif %}">
                         {% for link in category.children %}
                           {% if link.href.size > 0 %}
+                            {% assign linkhref = link.href | split: '/' | last %}
                             <li>
                               <a href="{{link.href}}"
                                 {% if link.external  == true %}target="_blank"{% endif %}
-                                {% if page.url == link.href %}class="active"{% endif %}
+                                {% if pageurl == linkhref %}class="active"{% endif %}
                               >
                                 {{link.title}}
                               </a>
