@@ -129,6 +129,11 @@
         "title": "Generating code snippets",
         "href":"/docs/code_snippets",
         "external": false
+      },
+      {
+        "title": "Working with cookies",
+        "href":"/docs/working_with_cookies",
+        "external": false
       }
     ]
   },
