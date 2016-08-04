@@ -1,0 +1,379 @@
+[
+  {
+    "title": "Getting Started",
+    "children": [
+      {
+        "title": "Installing the Postman Chrome App",
+        "href":"/docs/introduction",
+        "external": false
+      },
+      {
+        "video_src": "<iframe src='https://www.youtube.com/embed/8veXJ9YGlFI?list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ' frameborder='0' allowfullscreen></iframe>"
+      },
+      {
+        "title": "Installing the Mac App",
+        "href":"/docs/install_mac",
+        "external": false
+      },
+      {
+        "title": "Add Postman to your Dock",
+        "href":"/docs/launch",
+        "external": false
+      },
+      {
+        "title": "Migrating to the packaged app",
+        "href":"/docs/migration",
+        "external": false
+      },
+      {
+        "title": "Updating Postman",
+        "href":"/docs/updating",
+        "external": false
+      },
+      {
+        "title": "Debugging app errors",
+        "href":"/docs/errors",
+        "external": false
+      },
+      {
+        "title": "Why Native",
+        "href":"/docs/why_native",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Sending Requests and Viewing Responses",
+    "children":[
+      {
+        "title": "Sending Requests",
+        "href":"/docs/requests",
+        "external": false
+      },
+      {
+        "title": "Understanding and working with responses",
+        "href":"/docs/responses",
+        "external": false
+      },
+      {
+        "title": "Authentication helpers",
+        "href":"/docs/helpers",
+        "external": false
+      },
+      {
+        "title": "Requests History ",
+        "href":"/docs/history",
+        "external": false
+      },
+      {
+        "title": "Using Tabs  ",
+        "href":"/docs/tabs",
+        "external": false
+      },
+      {
+        "title": "Using Interceptor to read and write cookies",
+        "href":"/docs/interceptor_cookies",
+        "external": false
+      },
+      {
+        "title": "Capturing requests (Chrome App)",
+        "href":"/docs/capture",
+        "external": false
+      },
+      {
+        "title": "Capturing requests (Mac App)",
+        "href":"/docs/capture_mac",
+        "external": false
+      },
+      {
+        "title": "Handling redirects",
+        "href":"/docs/handling_redirects",
+        "external": false
+      },
+      {
+        "title": "Sending requests to URLs with self signed SSLs",
+        "href":"/docs/self_signed_certs",
+        "external": false
+      },
+      {
+        "title": "Ignoring SSL warnings",
+        "href":"/docs/ignoring_ssl",
+        "external": false
+      },
+      {
+        "title": "Extracting data from responses and chaining requests",
+        "href":"/docs/chaining_requests",
+        "external": false
+      },
+      {
+        "title": "Making SOAP requests",
+        "href":"/docs/soap_requests",
+        "external": false
+      },
+      {
+        "title": "Creating cURL commands in Postman",
+        "href":"/docs/creating_curl",
+        "external": false
+      },
+      {
+        "title": "Importing cURL commands to Postman",
+        "href":"/docs/importing_curl",
+        "external": false
+      },
+      {
+        "title": "Working with JSON/XML",
+        "href":"/docs/text_editor",
+        "external": false
+      },
+      {
+        "title": "Generating code snippets",
+        "href":"/docs/code_snippets",
+        "external": false
+      },
+      {
+        "title": "Working with cookies",
+        "href":"/docs/working_with_cookies",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Managing Collections",
+    "children": [
+      {
+        "title": "Getting started with Collections",
+        "href":"/docs/collections",
+        "external": false
+      },
+      {
+        "title": "Consuming API documentation in Collection Browser",
+        "href":"/docs/consuming_api_documentation",
+        "external": false
+      },
+      {
+        "title": "Publish Documentation for your Collections",
+        "href":"/docs/creating_documentation",
+        "external": false
+      },
+      {
+        "title": "Sharing Collections with your team",
+        "href":"/docs/sharing",
+        "external": false
+      },
+      {
+        "title": "Syncing collections with the Postman server",
+        "href":"/docs/sync_overview",
+        "external": false
+      },
+      {
+        "title": "Checking response payloads",
+        "href":"/docs/checking_payload_responses",
+        "external": false
+      },
+      {
+        "title": "Validating JSON collections",
+        "href":"/docs/validating_json_collections",
+        "external": false
+      },
+      {
+        "title": "Importing RAML folders as Collections",
+        "href":"/docs/importing_folders",
+        "external": false
+      },
+      {
+        "title": "Importing Swagger files",
+        "href":"/docs/importing_swagger",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Variables and Environments",
+    "children": [
+      {
+        "title": "Setting up an environment with variables",
+        "href":"/docs/environments",
+        "external": false
+      },
+      {
+        "title": "Using data variables to run a collection multiple times",
+        "href":"/docs/multiple_instances",
+        "external": false
+      },
+      {
+        "title": "Using environments to switch contexts",
+        "href":"/docs/test_multi_environments",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Postman Cloud for Teams",
+    "children": [
+      {
+        "title": "Postman Cloud",
+        "href":"/docs/cloud",
+        "external": false
+      },
+      {
+        "title": "Purchasing Cloud",
+        "href":"/docs/buying_cloud",
+        "external": false
+      },
+
+      {
+        "title": "Managing your Cloud team",
+        "href":"/docs/cloud_team_setup",
+        "external": false
+      },
+      {
+        "title": "Postman Cloud API",
+        "href":"/docs/cloud_api",
+        "external": false
+      },
+      {
+        "title": "Case study",
+        "href":"http://blog.getpostman.com/2015/12/10/belong-keeps-its-architecture-in-order-with-postman/",
+        "external": true
+      }
+    ]
+  },
+  {
+    "title": "API Testing & Collection Runner",
+    "children": [
+      {
+        "title": "Pre Request Scripts",
+        "href":"/docs/pre_request_scripts",
+        "external": false
+      },
+      {
+        "title": "Writing Tests",
+        "href":"/docs/writing_tests",
+        "external": false
+      },
+      {
+        "title": "Testing Sandbox",
+        "href":"/docs/sandbox",
+        "external": false
+      },
+      {
+        "title": "Testing examples",
+        "href":"/docs/testing_examples",
+        "external": false
+      },
+      {
+        "title": "Running a collection",
+        "href":"/docs/running_collections",
+        "external": false
+      },
+      {
+        "title": "Running collections with file-post requests",
+        "href":"/docs/run_file_post_requests",
+        "external": false
+      },
+      {
+        "title": "Workflows",
+        "href":"/docs/workflows",
+        "external": false
+      },
+      {
+        "title": "Newman - Running collections in the command line ",
+        "href":"/docs/newman_intro",
+        "external": false
+      },
+      {
+        "title": "Running Newman inside Docker",
+        "href":"/docs/newman_in_docker",
+        "external": false
+      },
+      {
+        "title": "Integrating automated API tests with Jenkins",
+        "href":"/docs/integrating_with_jenkins",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Postman for Public APIs",
+    "children": [
+      {
+        "title": "Create the Run in Postman button",
+        "href":"/docs/run_button",
+        "external": false
+      },
+      {
+        "title": "Using the Run in Postman button",
+        "href":"/docs/run_button_ux",
+        "external": false
+      },
+      {
+        "title": "Updating collections in the Run button",
+        "href":"/docs/update_run_button",
+        "external": false
+      },
+
+      {
+        "title": "Environments in the Run button",
+        "href":"/docs/env_run_button",
+        "external": false
+      },
+
+      {
+        "title": "The Run Button API",
+        "href":"/docs/run_button_api",
+        "external": false
+      },
+
+      {
+        "title": "Partnership program",
+        "href":"/docs/run_partner_prog",
+        "external": false
+      },
+      {
+        "title": "Run button security",
+        "href":"/docs/run_security",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Settings",
+    "children": [
+      {
+        "title": "Settings",
+        "href":"/docs/settings",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Billing and Payment",
+    "children": [
+      {
+        "title": "Billing details",
+        "href":"/docs/billing_details",
+        "external": false
+      },
+      {
+        "title": "Pricing Policy",
+        "href":"/docs/pricing-policy",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Account & Profile",
+    "children": [
+      {
+        "title": "Account Dashboard",
+        "href":"/docs/account",
+        "external": false
+      },
+      {
+        "title": "Change your email/username/name/password",
+        "href":"/docs/account#account-profile",
+        "external": false
+      }
+    ]
+  }
+]
