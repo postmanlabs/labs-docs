@@ -11,8 +11,8 @@
         "video_src": "<iframe src='https://www.youtube.com/embed/8veXJ9YGlFI?list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ' frameborder='0' allowfullscreen></iframe>"
       },
       {
-        "title": "Installing the Mac App",
-        "href":"/docs/install_mac",
+        "title": "Installing the native app",
+        "href":"/docs/install_native",
         "external": false
       },
       {
@@ -81,8 +81,8 @@
         "external": false
       },
       {
-        "title": "Capturing requests (Mac App)",
-        "href":"/docs/capture_mac",
+        "title": "Capturing requests (Native App)",
+        "href":"/docs/capture_native",
         "external": false
       },
       {
