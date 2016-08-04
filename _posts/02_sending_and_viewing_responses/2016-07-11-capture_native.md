@@ -1,7 +1,7 @@
 ---
 category: "docs"
-title: "Capturing requests (Mac app)"
-page_id: "capture_mac"
+title: "Capturing requests (Native App)"
+page_id: "capture_native"
 tags: 
   - "app"
 warning: false
