@@ -4,7 +4,7 @@
     "children": [
       {
         "title": "Installing the Postman Chrome App",
-        "href":"/introduction",
+        "href":"/docs/introduction",
         "external": false
       },
       {
@@ -12,27 +12,27 @@
       },
       {
         "title": "Installing the Mac App",
-        "href":"/install_mac",
+        "href":"/docs/install_mac",
         "external": false
       },
       {
         "title": "Add Postman to your Dock",
-        "href":"/launch",
+        "href":"/docs/launch",
         "external": false
       },
       {
         "title": "Migrating to the packaged app",
-        "href":"/migration",
+        "href":"/docs/migration",
         "external": false
       },
       {
         "title": "Updating Postman",
-        "href":"/updating",
+        "href":"/docs/updating",
         "external": false
       },
       {
         "title": "Debugging app errors",
-        "href":"/errors",
+        "href":"/docs/errors",
         "external": false
       }
     ]
@@ -42,87 +42,87 @@
     "children":[
       {
         "title": "Sending Requests",
-        "href":"/requests",
+        "href":"/docs/requests",
         "external": false
       },
       {
         "title": "Understanding and working with responses",
-        "href":"/responses",
+        "href":"/docs/responses",
         "external": false
       },
       {
         "title": "Authentication helpers",
-        "href":"/helpers",
+        "href":"/docs/helpers",
         "external": false
       },
       {
         "title": "Requests History ",
-        "href":"/history",
+        "href":"/docs/history",
         "external": false
       },
       {
         "title": "Using Tabs  ",
-        "href":"/tabs",
+        "href":"/docs/tabs",
         "external": false
       },
       {
         "title": "Using Interceptor to read and write cookies",
-        "href":"/interceptor_cookies",
+        "href":"/docs/interceptor_cookies",
         "external": false
       },
       {
         "title": "Capturing requests (Chrome App)",
-        "href":"/capture",
+        "href":"/docs/capture",
         "external": false
       },
       {
         "title": "Capturing requests (Mac App)",
-        "href":"/capture_mac",
+        "href":"/docs/capture_mac",
         "external": false
       },
       {
         "title": "Handling redirects",
-        "href":"/handling_redirects",
+        "href":"/docs/handling_redirects",
         "external": false
       },
       {
         "title": "Sending requests to URLs with self signed SSLs",
-        "href":"/self_signed_certs",
+        "href":"/docs/self_signed_certs",
         "external": false
       },
       {
         "title": "Ignoring SSL warnings",
-        "href":"/ignoring_ssl",
+        "href":"/docs/ignoring_ssl",
         "external": false
       },
       {
         "title": "Extracting data from responses and chaining requests",
-        "href":"/chaining_requests",
+        "href":"/docs/chaining_requests",
         "external": false
       },
       {
         "title": "Making SOAP requests",
-        "href":"/soap_requests",
+        "href":"/docs/soap_requests",
         "external": false
       },
       {
         "title": "Creating cURL commands in Postman",
-        "href":"/creating_curl",
+        "href":"/docs/creating_curl",
         "external": false
       },
       {
         "title": "Importing cURL commands to Postman",
-        "href":"/importing_curl",
+        "href":"/docs/importing_curl",
         "external": false
       },
       {
         "title": "Working with JSON/XML",
-        "href":"/text_editor",
+        "href":"/docs/text_editor",
         "external": false
       },
       {
         "title": "Generating code snippets",
-        "href":"/code_snippets",
+        "href":"/docs/code_snippets",
         "external": false
       }
     ]
@@ -132,47 +132,47 @@
     "children": [
       {
         "title": "Getting started with Collections",
-        "href":"/collections",
+        "href":"/docs/collections",
         "external": false
       },
       {
         "title": "Consuming API documentation in Collection Browser",
-        "href":"/consuming_api_documentation",
+        "href":"/docs/consuming_api_documentation",
         "external": false
       },
       {
         "title": "Publish Documentation for your Collections",
-        "href":"/creating_documentation",
+        "href":"/docs/creating_documentation",
         "external": false
       },
       {
         "title": "Sharing Collections with your team",
-        "href":"/sharing",
+        "href":"/docs/sharing",
         "external": false
       },
       {
         "title": "Syncing collections with the Postman server",
-        "href":"/sync_overview",
+        "href":"/docs/sync_overview",
         "external": false
       },
       {
         "title": "Checking response payloads",
-        "href":"/checking_payload_responses",
+        "href":"/docs/checking_payload_responses",
         "external": false
       },
       {
         "title": "Validating JSON collections",
-        "href":"/validating_json_collections",
+        "href":"/docs/validating_json_collections",
         "external": false
       },
       {
         "title": "Importing RAML folders as Collections",
-        "href":"/importing_folders",
+        "href":"/docs/importing_folders",
         "external": false
       },
       {
         "title": "Importing Swagger files",
-        "href":"/importing_swagger",
+        "href":"/docs/importing_swagger",
         "external": false
       }
     ]
@@ -182,17 +182,17 @@
     "children": [
       {
         "title": "Setting up an environment with variables",
-        "href":"/environments",
+        "href":"/docs/environments",
         "external": false
       },
       {
         "title": "Using data variables to run a collection multiple times",
-        "href":"/multiple_instances",
+        "href":"/docs/multiple_instances",
         "external": false
       },
       {
         "title": "Using environments to switch contexts",
-        "href":"/test_multi_environments",
+        "href":"/docs/test_multi_environments",
         "external": false
       }
     ]
@@ -202,23 +202,23 @@
     "children": [
       {
         "title": "Postman Cloud",
-        "href":"/cloud",
+        "href":"/docs/cloud",
         "external": false
       },
       {
         "title": "Purchasing Cloud",
-        "href":"/buying_cloud",
+        "href":"/docs/buying_cloud",
         "external": false
       },
 
       {
         "title": "Managing your Cloud team",
-        "href":"/cloud_team_setup",
+        "href":"/docs/cloud_team_setup",
         "external": false
       },
       {
         "title": "Postman Cloud API",
-        "href":"/cloud_api",
+        "href":"/docs/cloud_api",
         "external": false
       },
       {
@@ -233,52 +233,52 @@
     "children": [
       {
         "title": "Pre Request Scripts",
-        "href":"/pre_request_scripts",
+        "href":"/docs/pre_request_scripts",
         "external": false
       },
       {
         "title": "Writing Tests",
-        "href":"/writing_tests",
+        "href":"/docs/writing_tests",
         "external": false
       },
       {
         "title": "Testing Sandbox",
-        "href":"/sandbox",
+        "href":"/docs/sandbox",
         "external": false
       },
       {
         "title": "Testing examples",
-        "href":"/testing_examples",
+        "href":"/docs/testing_examples",
         "external": false
       },
       {
         "title": "Running a collection",
-        "href":"/running_collections",
+        "href":"/docs/running_collections",
         "external": false
       },
       {
         "title": "Running collections with file-post requests",
-        "href":"/run_file_post_requests",
+        "href":"/docs/run_file_post_requests",
         "external": false
       },
       {
         "title": "Workflows",
-        "href":"/workflows",
+        "href":"/docs/workflows",
         "external": false
       },
       {
         "title": "Newman - Running collections in the command line ",
-        "href":"/newman_intro",
+        "href":"/docs/newman_intro",
         "external": false
       },
       {
         "title": "Running Newman inside Docker",
-        "href":"/newman_in_docker",
+        "href":"/docs/newman_in_docker",
         "external": false
       },
       {
         "title": "Integrating automated API tests with Jenkins",
-        "href":"/integrating_with_jenkins",
+        "href":"/docs/integrating_with_jenkins",
         "external": false
       }
     ]
@@ -288,40 +288,40 @@
     "children": [
       {
         "title": "Create the Run in Postman button",
-        "href":"/run_button",
+        "href":"/docs/run_button",
         "external": false
       },
       {
         "title": "Using the Run in Postman button",
-        "href":"/run_button_ux",
+        "href":"/docs/run_button_ux",
         "external": false
       },
       {
         "title": "Updating collections in the Run button",
-        "href":"/update_run_button",
+        "href":"/docs/update_run_button",
         "external": false
       },
 
       {
         "title": "Environments in the Run button",
-        "href":"/env_run_button",
+        "href":"/docs/env_run_button",
         "external": false
       },
 
       {
         "title": "The Run Button API",
-        "href":"/run_button_api",
+        "href":"/docs/run_button_api",
         "external": false
       },
 
       {
         "title": "Partnership program",
-        "href":"/run_partner_prog",
+        "href":"/docs/run_partner_prog",
         "external": false
       },
       {
         "title": "Run button security",
-        "href":"/run_security",
+        "href":"/docs/run_security",
         "external": false
       }
     ]
@@ -331,7 +331,7 @@
     "children": [
       {
         "title": "Settings",
-        "href":"/settings",
+        "href":"/docs/settings",
         "external": false
       }
     ]
@@ -341,12 +341,12 @@
     "children": [
       {
         "title": "Billing details",
-        "href":"/billing_details",
+        "href":"/docs/billing_details",
         "external": false
       },
       {
         "title": "Pricing Policy",
-        "href":"/pricing-policy",
+        "href":"/docs/pricing-policy",
         "external": false
       }
     ]
@@ -356,12 +356,12 @@
     "children": [
       {
         "title": "Account Dashboard",
-        "href":"/account",
+        "href":"/docs/account",
         "external": false
       },
       {
         "title": "Change your email/username/name/password",
-        "href":"/account#account-profile",
+        "href":"/docs/account#account-profile",
         "external": false
       }
     ]
