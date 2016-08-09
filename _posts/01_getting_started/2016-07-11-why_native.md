@@ -24,14 +24,4 @@ A few features exclusive to the native apps are listed here:
 3. Menu bar<br>The Chrome app had a very limited menu bar. With the native apps you can create collections, switch to History requests, and more!<br>
 [<img src="https://cloud.githubusercontent.com/assets/681190/16727776/59de49a6-4780-11e6-8d0e-63773f072440.png" width="600">](https://cloud.githubusercontent.com/assets/681190/16727776/59de49a6-4780-11e6-8d0e-63773f072440.png)
 
-
-4. Update notifications<br>
-Chrome used to update the Posmtan app haphazardly, without any sort of notification shown to the user. 
-With the native apps, you have control over when and if you want to update. Release notes for the new versions are shown too.
-<br>
-[<img src="https://cloud.githubusercontent.com/assets/681190/16727787/72b4cb30-4780-11e6-8aec-68b6ce2a00c7.png" width="600">](https://cloud.githubusercontent.com/assets/681190/16727787/72b4cb30-4780-11e6-8aec-68b6ce2a00c7.png)
-
-5. Restricted headers\*<br>
-We'll soon be releasing an update which will let you send headers like Origin and User-Agent. For more info on the new Postman Runtime, check [our blog post](http://blog.getpostman.com/2016/06/14/introducing-postman-runtime-more-power-better-control/).
-
-\* - Coming soon!
+4. Restricted headers<br>The latest versions of the native apps let you send headers like Origin and User-Agent. These are restricted in the Chrome app. For more info on the new Postman Runtime, check [our blog post](http://blog.getpostman.com/2016/06/14/introducing-postman-runtime-more-power-better-control/).
