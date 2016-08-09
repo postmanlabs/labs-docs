@@ -21,8 +21,7 @@ A few features exclusive to the native apps are listed here:
 2. [Built-in proxy](http://www.getpostman.com/docs/capture_mac)<br>The native apps come with a built-in proxy that you can use to capture network traffic. 
 
 
-3. Menu bar<br>The Chrome app had a very limited menu bar. With the native apps you can create collections, switch to History requests, and more!<br>
+3. Menu bar<br>The Chrome app had a very limited menu bar. With the native apps you can create collections, switch to History requests, and more!
 [<img src="https://cloud.githubusercontent.com/assets/681190/16727776/59de49a6-4780-11e6-8d0e-63773f072440.png" width="600">](https://cloud.githubusercontent.com/assets/681190/16727776/59de49a6-4780-11e6-8d0e-63773f072440.png)
 
-5. Restricted headers<br>
-The latest versions of the native apps let you send headers like Origin and User-Agent. These are restricted in the Chrome app. For more info on the new Postman Runtime, check [our blog post](http://blog.getpostman.com/2016/06/14/introducing-postman-runtime-more-power-better-control/).
+4. Restricted headers<br>The latest versions of the native apps let you send headers like Origin and User-Agent. These are restricted in the Chrome app. For more info on the new Postman Runtime, check [our blog post](http://blog.getpostman.com/2016/06/14/introducing-postman-runtime-more-power-better-control/).
