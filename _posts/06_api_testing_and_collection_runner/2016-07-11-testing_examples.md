@@ -71,9 +71,9 @@ Use TinyValidator for JSON data
     var data1 = [true, false];
     var data2 = [true, 123];
     
-    console.log(tv4.error);
     tests["Valid Data1"] = tv4.validate(data1, schema);
     tests["Valid Data2"] = tv4.validate(data2, schema);
+    console.log("Validation failed: ", tv4.error);
 
 Sample data files
 
