@@ -15,12 +15,12 @@
             <div class="doc-sidebar col-md-4 col-md-offset-1">
               <h3>Popular Topics</h3>
               <ul id="popular-topics">
-                <li><a href="{{site.pm.root}}/docs/install_native">Installing the native app</a></li>
-                <li><a href="{{site.pm.root}}/docs/newman_intro">Newman - Running collections in the command line</a></li>
+                <li><a href="/docs/install_native">Installing the native app</a></li>
+                <li><a href="/docs/newman_intro">Newman - Running collections in the command line</a></li>
                 <li><a href="{{site.pm.blog}}/2015/12/10/introducing-postman-cloud/">Introducing Postman Cloud</a></li>
-                <li><a href="{{site.pm.root}}/docs/collections">Getting started with Collections</a></li>
-                <li><a href="{{site.pm.root}}/docs/environments">Setting up an environment with variables</a></li>
-                <li><a href="{{site.pm.root}}/docs/writing_tests">Writing Tests</a></li>
+                <li><a href="/docs/collections">Getting started with Collections</a></li>
+                <li><a href="/docs/environments">Setting up an environment with variables</a></li>
+                <li><a href="/docs/writing_tests">Writing Tests</a></li>
               </ul>
 
               <h3>Video Tutorials</h3>
