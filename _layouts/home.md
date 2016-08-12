@@ -29,7 +29,7 @@
                 <li>
                   <a href="https://www.youtube.com/watch?v={{vid.id}}&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ&autoplay=1" target="_blank">{{vid.title}}</a>
                   <a class="pm-yt-thumbnail" href="https://www.youtube.com/watch?v={{vid.id}}&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ&autoplay=1" target="_blank">
-                    <img src="http://img.youtube.com/vi/{{vid.id}}/mqdefault.jpg">
+                    <img src="https://img.youtube.com/vi/{{vid.id}}/mqdefault.jpg">
                   </a>
                 </li>
                 {% endfor %}
