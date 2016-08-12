@@ -49,7 +49,7 @@ If you click on a link in a response, Postman creates a new GET request with tha
 If the API you are testing does not return the Content-Type header, the response body will not be formatted properly. You can force JSON as the body type here.
 * **Variable delimiter**
 
-Variables are enclosed in double curly braces like {{variable}} but you can change it to any other characters like \[\[...\]\]. It's not recommended but if you run into any problems you can give this shot.
+Variables are enclosed in double curly braces like {%raw%}{{variable}}{%endraw%} but you can change it to any other characters like \[\[...\]\]. It's not recommended but if you run into any problems you can give this shot.
 * **Force windows line endings**
 
 [Refer to this Github issue][2] to know more
