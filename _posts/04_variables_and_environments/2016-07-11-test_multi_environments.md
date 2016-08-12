@@ -39,7 +39,7 @@ Variables can be used almost everywhere in Postman. They are available inside:
 * Raw body content
 * Helper fields
 
-To use a variable you need to enclose the variable name with double curly braces -- {{my\_variable\_name}}.
+To use a variable you need to enclose the variable name with double curly braces -- `{%raw%}{{my_variable_name}}{%endraw%}`.
 [![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_4.png)][3]
 
 4\. Now select an environment from the environment selection dropdown.
