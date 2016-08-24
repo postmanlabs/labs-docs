@@ -7,8 +7,7 @@ tags:
 warning: false
 ---
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/29-1.png)
-][1]
+[![](https://www.getpostman.com/img/v1/docs/thumbs/29-1.png)][0]
 
 By default, Postman will follow the Location header in all 301/302 responses automatically. To disable this behavior, you can set the **Automatically follow redirects** setting to No.
 
