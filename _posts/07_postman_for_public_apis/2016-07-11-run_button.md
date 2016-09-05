@@ -22,7 +22,7 @@ Keep in mind, Run in Postman works well with Swagger and RAML too. Just convert 
 3. Click on the collection you would like to embed and hit Share.
 ![](https://cloud.githubusercontent.com/assets/681190/18237865/29682800-7354-11e6-8991-29f1ed75c5a8.png)
 
-4. Shift to the Embed Button tab, and click 'Generate Code'. Note: This will upload all your collection data to our servers.
+4. Shift to the Embed Button tab, and click 'Generate Code'. Note: This will upload the collection to our servers.
 ![](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)
 
 6. Pick whether you would like a CSS button or a markdown button:
@@ -44,7 +44,7 @@ The `:collection_id` is a placeholder here and will be auto-filled in the markdo
 
 5. Embed this button onto your documentation pages or your GitHub repo's readme for the API. If you are not the dev doing the implementation, you just need to ask the front-end person responsible for where you want to show the button.
 
-**Important** - Once you generate the embed code for a particular collection, the button will point to the collection at that point in time. To update the collection users see, you'll need to update the collection link `(Collection menu > Share > Embed Button > Update)`. 
+**Important** - Once you generate the embed code for a particular collection, the button will point to the collection at that point in time. To update the collection users see when they use the Run button, you'll need to update the collection link `(Collection menu > Share > Embed Button > Update)`. 
 
 [0]: https://www.getpostman.com/docs/collections
 [1]: https://www.getpostman.com/docs/importing_folders
