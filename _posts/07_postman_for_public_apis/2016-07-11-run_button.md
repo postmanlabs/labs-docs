@@ -20,14 +20,16 @@ We recommend you creating collections for the list of endpoints as well as speci
 Keep in mind, Run in Postman works well with Swagger and RAML too. Just convert your file to a Collection by [importing it in Postman][1].
 
 3. Click on the collection you would like to embed and hit Share.
-![](https://www.getpostman.com/img/v1/docs/run_button/run_button_1.png)
+![](https://cloud.githubusercontent.com/assets/681190/18237865/29682800-7354-11e6-8991-29f1ed75c5a8.png)
 
-4. Choose the Get Embed Code option and pick whether you would like a CSS button or a markdown button:
+4. Shift to the Embed Button tab, and click 'Generate Code'. Note: This will upload all your collection data to our servers.
+
+6. Pick whether you would like a CSS button or a markdown button:
 
 The CSS option works well if you want to add the button to your own website, and can edit the source code. 
 
 The markdown option works if you need to add the button to a markdown document, like a README.md file in your Github or Bitbucket repository.
-![](https://www.getpostman.com/img/v1/docs/run_button/run_button_2.png)
+![](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)
 
 Here's an example markdown snippet
 
@@ -41,7 +43,7 @@ The `:collection_id` is a placeholder here and will be auto-filled in the markdo
 
 5. Embed this button onto your documentation pages or your GitHub repo's readme for the API. If you are not the dev doing the implementation, you just need to ask the front-end person responsible for where you want to show the button.
 
-**Important** - Once you generate the embed code for a particular collection, the button will point to the collection at that point in time. To update the collection users see, you'll need to update the collection link `(Collection menu > Share > Update)`. 
+**Important** - Once you generate the embed code for a particular collection, the button will point to the collection at that point in time. To update the collection users see, you'll need to update the collection link `(Collection menu > Share > Embed Button > Update)`. 
 
 [0]: https://www.getpostman.com/docs/collections
 [1]: https://www.getpostman.com/docs/importing_folders
