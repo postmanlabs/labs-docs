@@ -23,6 +23,7 @@ Keep in mind, Run in Postman works well with Swagger and RAML too. Just convert 
 ![](https://cloud.githubusercontent.com/assets/681190/18237865/29682800-7354-11e6-8991-29f1ed75c5a8.png)
 
 4. Shift to the Embed Button tab, and click 'Generate Code'. Note: This will upload all your collection data to our servers.
+![](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)
 
 6. Pick whether you would like a CSS button or a markdown button:
 
