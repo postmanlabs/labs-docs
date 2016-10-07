@@ -2,7 +2,7 @@
 category: "docs"
 title: "Testing examples"
 page_id: "testing_examples"
-tags: 
+tags:
   - "app"
 warning: false
 ---
@@ -16,9 +16,17 @@ Setting an environment variable
 
     postman.setEnvironmentVariable("key", "value");
 
+Getting an environment variable
+
+    postman.getEnvironmentVariable("key");
+
 Set a global variable
 
-    postman.setGlobalVariable("key", "value"); 
+    postman.setGlobalVariable("key", "value");
+
+Get a global variable
+
+    postman.getGlobalVariable("key"); 
 
 Check if response body contains a string
 
@@ -70,7 +78,7 @@ Use TinyValidator for JSON data
     };
     var data1 = [true, false];
     var data2 = [true, 123];
-    
+
     tests["Valid Data1"] = tv4.validate(data1, schema);
     tests["Valid Data2"] = tv4.validate(data2, schema);
     console.log("Validation failed: ", tv4.error);
