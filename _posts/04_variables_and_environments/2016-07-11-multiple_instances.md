@@ -34,7 +34,7 @@ For JSON files, you need to make sure that the file has an array of key/value pa
 [![](https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_3.png)
 ][4]
 
-5\. Set up the iteration count. The iteration count is the number of times you want the collection or folder to run. Each iteration will use one row from your data file. If the number of iterations specified is less than the values in the data file, then the last row values are repeated.
+5\. Set up the iteration count. The iteration count is the number of times you want the collection or folder to run. Each iteration will use one row from your data file. If the iteration count is more than the number of rows in the data file, then the last row values are repeated.
 
 [![](https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_4.png)
 ][5]
