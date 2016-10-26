@@ -47,7 +47,8 @@ There are 3 ways you can make requests in Postman:
 * Click the "Inspect views: background.html" link to open DevTools. You should see the requests and responses in the Interceptor's DevTools window when you make requests through Postman.
   
 
-**Mac app**
+
+**Native apps**
 
 Info coming soon.
 
