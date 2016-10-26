@@ -9,7 +9,7 @@ warning: false
 
 **Note:** For the Chrome app, check out [our blog post][1] on this subject.
 
-In the Mac app, you have the option of ignoring SSL certificates altogether. If your app complains when you hit a URL with an invalid certificate (when using a different CNAME, for example), you might want to give this a go.
+In the native apps, you have the option of ignoring SSL certificates altogether. If your app complains when you hit a URL with an invalid certificate (when using a different CNAME, for example), you might want to give this a go.
 
 1. Head to the Settings window, and go to the General tab.
 2. Change the `SSL certificate verification` setting to Off.
