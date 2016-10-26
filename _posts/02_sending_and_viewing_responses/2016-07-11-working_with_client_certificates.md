@@ -1,7 +1,7 @@
 ---
 category: "docs"
-title: "Working with certificates"
-page_id: "working_with_certificates"
+title: "Working with client certificates"
+page_id: "working_with_client_certificates"
 tags:
   - "native"
   - "mac"
@@ -10,17 +10,17 @@ tags:
 warning: false
 ---
 
-Postman's [native apps](http://www.getpostman.com/apps) provide a Certificate Manager that lets you view certificates that are associated with each domain.
+Postman's [native apps](http://www.getpostman.com/apps) provide a SSL Certificate Manager that lets you view / set client certificates on a per domain basis.
 
-To open the Certificate Manager, click the wrench icon on the top right (or use the shortcut `Cmd/Ctrl + ,`), choose `Settings`, then switch over to the `Certificates` tab in the popover.
+To open the Certificate Manager, click the wrench icon on the top right (or use the shortcut `Cmd/Ctrl + ,`), choose `Settings`, then switch over to the `Certificates` tab.
 
 ![](https://cloud.githubusercontent.com/assets/7689783/19720908/bbbd8d9c-9b8d-11e6-9286-8e8ba12d9c68.png)
 
 ### Add a Certificate
 
-Too add a new certificate, click on `Add Certificate` in the Certificate Manager.
+To add a new certificate, click on `Add Certificate` in the Certificate Manager.
 
-In the `Host` field, enter your domain (without the protocol).
+In the `Host` field, enter enter the domain (without protocol) of the request URL for which you want to use the certificate.
 
 You can also specify a custom port to associate with this domain in the `Port` field. This is optional.
 
@@ -28,7 +28,7 @@ Choose your certificate file in the field called `CRT file`. Currently, we only 
 
 Choose your certificate key file in the field called `KEY file`.
 
-If you set a passphrase while generating the certificate, you'll need to supply the passphrase in the `Passphrase` field. This is optional.
+If you used a passphrase while generating the certificate, you'll need to supply the passphrase in the `Passphrase` field. This is optional.
 
 Once you are finished, click on `Add`.
 
@@ -44,15 +44,15 @@ Once your certificate is added, it should appear in the Certificate Manager list
 
 You do not have to perform any extra steps to use a certificate if it is added to the `Certificate Manager`. If you make a request to the set domain, the certificate will automatically be sent with the request. (Provided you make the request over HTTPS)
 
-We can verify this. To do so, open up your Postman Console (Cmd/Ctrl + Alt + C). You can read more about it [here](http://blog.getpostman.com/2016/08/26/the-postman-console/). A new window should open up.
+You can verify this. To do so, open up your Postman Console (Cmd/Ctrl + Alt + C). You can read more about it [here](http://blog.getpostman.com/2016/08/26/the-postman-console/). A new window should open up.
 
-Now, let's send a request to `https://echo.getpostman.com/get`, keeping the Postman Console open. Notice we're using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman Console. You should see your request there. If you expand your request, you should be able to see which certificate was sent along with the request.
+Now, send a request to `https://echo.getpostman.com/get`, keeping the Postman Console open. Notice we're using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman Console. You should see your request there. If you expand your request, you should be able to see which certificate was sent along with the request.
 
 ![](https://cloud.githubusercontent.com/assets/7689783/19721699/0ccdeada-9b91-11e6-98af-eb08f8e68f5b.png)
 
 ### Remove a Certificate
 
-To remove a certificate, you can use the `Remove Certificate` next to the certificate in the `Certificate Manager`
+To remove a certificate, you can use the `Remove Certificate` button next to the certificate in the `Certificate Manager`
 
 ![](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
 
