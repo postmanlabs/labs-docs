@@ -20,7 +20,7 @@ To open the Certificate Manager, click the wrench icon on the top right, choose 
 
 To add a new client certificate, click on `Add Certificate` in the Certificate Manager.
 
-In the `Host` field, enter enter the domain (without protocol) of the request URL for which you want to use the certificate.
+In the `Host` field, enter enter the domain (without protocol) of the request URL for which you want to use the certificate. For example: `echo.getpostman.com`
 
 You can also specify a custom port to associate with this domain in the `Port` field. This is optional.
 If left empty, the default HTTPS port (443) will be used.
@@ -39,7 +39,7 @@ Once your certificate is added, it should appear in the Certificate Manager list
 
 ![](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
 
-**NOTE:** You cannot have multiple certificates set for the same domain. If you have multiple ones set, only the last one set will be used.
+**NOTE:** You should not have multiple certificates set for the same domain. If you have multiple ones set, only the last one set will be used.
 
 ### Using a Certificate
 
