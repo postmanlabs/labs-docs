@@ -22,7 +22,7 @@ Monitors can run as often as 5 minutes, or as infrequently as a week. If you wan
 
 
 
-Statistics:
+#### Statistics:
 
 
 The monitoring dashboard shows you a list of monitors, and certain stats for each: status, success rate, and response time. 
@@ -51,9 +51,6 @@ The results section shows request-level details: test results, response code, re
 
 
 ![](https://cloud.githubusercontent.com/assets/681190/21090471/039dcf58-c066-11e6-916b-9e50c6b89f88.png)
-
-
-
 
 
 For existing Pro teams, monitors are free-to-use till Jan 2017. Post that, each team will get 10,000 requests per month, free. 
