@@ -7,7 +7,7 @@ tags:
   - "web"
 warning: false
 ---
-To purchase Cloud, follow these instructions. Team leads as well as purchasing departments can buy the product.
+To purchase Pro, follow these instructions. Team leads as well as purchasing departments can buy the product.
 
 1\. Getting started
 
@@ -16,7 +16,7 @@ Go to [https://www.getpostman.com/pricing][0].
 [![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_1.png)
 ][1]
 
-2\. Everyone who signs up for Postman gets the Basic plan and features are available as soon as you sign up. To buy the Cloud plan, click Buy.
+2\. Everyone who signs up for Postman gets the Basic plan and features are available as soon as you sign up. To buy the Pro plan, click Buy.
 
 3\. Enter team size.
 
@@ -37,7 +37,7 @@ With each plan, you have the option of choosing roles that fit your function in 
 The admin role should be used when you intend to use the product for your team. Upon completion of the payment flow, the plan will be linked to your email ID.
 * Billing
 
-If you're making the purchase on behalf of a team in your company, but don't intend to use the product yourself, use the billing role. If you choose the billing role, you will be asked to enter an email to send the product invite to. This user will then be able to accept the invite and start using Cloud.
+If you're making the purchase on behalf of a team in your company, but don't intend to use the product yourself, use the billing role. If you choose the billing role, you will be asked to enter an email to send the product invite to. This user will then be able to accept the invite and start using Pro.
 
 5\. Make a payment
 
