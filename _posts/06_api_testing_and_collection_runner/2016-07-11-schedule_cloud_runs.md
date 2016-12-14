@@ -1,3 +1,13 @@
+---
+category: "docs"
+title: "Schedule runs in the Cloud"
+page_id: "schedule_cloud_runs"
+tags:
+  - "web"
+  - "cloud"
+warning: false
+---
+
 ### Monitoring Docs
 
 Postman Monitors let you schedule your collections to run automatically! All Postman Pro teams have access - just head to https://monitor.getpostman.com/ to get started.
