@@ -20,7 +20,7 @@ To open the Certificate Manager, click the wrench icon on the top right, choose 
 
 To add a new client certificate, click on `Add Certificate` in the Certificate Manager.
 
-In the `Host` field, enter enter the domain (without protocol) of the request URL for which you want to use the certificate. For example: `echo.getpostman.com`
+In the `Host` field, enter the domain (without protocol) of the request URL for which you want to use the certificate. For example: `echo.getpostman.com`
 
 You can also specify a custom port to associate with this domain in the `Port` field. This is optional.
 If left empty, the default HTTPS port (443) will be used.
