@@ -1,6 +1,6 @@
 ---
 category: "docs"
-title: "Managing your Cloud team"
+title: "Managing your Pro team"
 page_id: "cloud_team_setup"
 tags: 
   - "cloud"
@@ -19,7 +19,7 @@ Here are a few common team-administration actions that you might need to take. T
 
 **Setting up your team**
 
-Once you buy Cloud and hit setup, you will be prompted to name your team and invite users. You can name your team whatever you like and you can edit this name later.
+Once you buy Pro and hit setup, you will be prompted to name your team and invite users. You can name your team whatever you like and you can edit this name later.
 
 [![](https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_1.png)
 ][5]
@@ -27,7 +27,7 @@ Once you buy Cloud and hit setup, you will be prompted to name your team and inv
 
 **Inviting team members**
 
-Once you purchase seats in the Cloud plan, you can add members to your team at any time. 
+Once you purchase seats in the Pro plan, you can add members to your team at any time. 
 Sign in and go to https://app.getpostman.com/dashboard/teams and click on send invites.
 
 [![](https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_2.png)
@@ -71,11 +71,11 @@ You'll see a confirmation screen with the details of your update. Confirm the de
 
 **Cancel Subscription**
 
-Although we hope you don't, you can cancel your Cloud subscription if you need to. Head to the [billing page][9], and click Cancel Cloud Plan from the settings menu. You'll see a confirmation modal. Hit the red button to proceed with the cancellation.
+Although we hope you don't, you can cancel your Pro subscription if you need to. Head to the [billing page][9], and click Cancel Pro Plan from the settings menu. You'll see a confirmation modal. Hit the red button to proceed with the cancellation.
 
 [![](https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_8.png)
 ][12]
-Once you cancel your plan, all your cards will be deleted, and you will no longer have access to Cloud-only services like the Team Library and the Documentation service. Cancellation will **not** refund any remaining account balance or unused payment for the month.
+Once you cancel your plan, all your cards will be deleted, and you will no longer have access to Pro-only services like the Team Library and the Documentation service. Cancellation will **not** refund any remaining account balance or unused payment for the month.
 
 
 [0]: https://www.getpostman.com/#setting-up

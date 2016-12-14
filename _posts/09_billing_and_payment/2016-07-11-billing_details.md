@@ -25,7 +25,7 @@ Here you will get a full history of your account - plans purchased, user count c
 
 **Cards**
 
-The cards tab lets you manage your cards on file. You can add, remove, and set cards as default. The one that you used to purchase Cloud will automatically be listed here. You can change the card that will be charged next time by making it default.
+The cards tab lets you manage your cards on file. You can add, remove, and set cards as default. The one that you used to purchase Pro will automatically be listed here. You can change the card that will be charged next time by making it default.
 
 [![](https://www.getpostman.com/img/v1/docs/billing_details/billing_details_3.png)
 ][2]
