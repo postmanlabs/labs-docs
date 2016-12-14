@@ -7,13 +7,13 @@ warning: false
 
 ### Can I use Postman for free?
 
-Yes, you can use Postman for free. On the free plan, you cannot share or auto sync collections with team members, but you have full access to the testing suite, command-line tools, and the Run in Postman button. You also have the option to try out Postman Cloud for free for 30 days with your team.
+Yes, you can use Postman for free. On the free plan, you cannot share or auto sync collections with team members, but you have full access to the testing suite, command-line tools, and the Run in Postman button. You also have the option to try out Postman Pro for free for 30 days with your team.
 
 ### We need to add someone to our team. How will that be billed?
 
 The cost for your new team member's account will be prorated for the remainder of the current billing period. We'll track this for you, and add it to your bill at the end of the month.
 
-As an example, suppose your team is on the cloud plan, which costs $6.10 per user per month when billed monthly. You add a new team member 10 days into your billing period and there are 20 remaining days in the month. The per-day cost for each user is $6.10 / 30, so the additional cost for that month will be $4.07 ($6.10 / 30 days \* 20 days).
+As an example, suppose your team is on the Pro plan, which costs $6.10 per user per month when billed monthly. You add a new team member 10 days into your billing period and there are 20 remaining days in the month. The per-day cost for each user is $6.10 / 30, so the additional cost for that month will be $4.07 ($6.10 / 30 days \* 20 days).
 
 ### We disabled the account of one of our team members. How does that affect our subscription?
 
@@ -33,7 +33,7 @@ Anyone on your team who is an Admin can add a new card and change the default ca
 
 ### My team wants to cancel its subscription. How do we do that? Can we get a refund?
 
-If you are not 100% satisfied with Cloud, we will fully refund the cost of your order within 30 days from the purchase date. You can also cancel your subscription at any time and you won't be charged for the following payment period. We do not offer prorated canceling currently.
+If you are not 100% satisfied with Pro, we will fully refund the cost of your order within 30 days from the purchase date. You can also cancel your subscription at any time and you won't be charged for the following payment period. We do not offer prorated canceling currently.
 
 ### What happens to our team's data when we downgrade from a paid plan to the free version?
 
@@ -45,7 +45,7 @@ We can invoice large teams who subscribe to a yearly plan. Contact us at [help@g
 
 ### I'm not the billing contact for our company. Can I have billing statements automatically sent to someone else?
 
-You can set up a billing contact email address when you get started on Cloud. If you have already gotten started and not put that in, you can email us at [help@getpostman.com][0].
+You can set up a billing contact email address when you get started on Pro. If you have already gotten started and not put that in, you can email us at [help@getpostman.com][0].
 
 ### My accounting department requires some additional information on invoices. How can I customize our invoice and billing statements?
 

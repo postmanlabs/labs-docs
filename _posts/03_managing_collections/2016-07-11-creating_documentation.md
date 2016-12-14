@@ -8,7 +8,7 @@ tags:
 warning: false
 ---
 
-All users of Postman Cloud get access to Postman's Documenter! This is a new feature that lets you view auto-generated documentation for all your collections. You can also publish this documentation and share it publicly for people to consume.
+All users of Postman Pro get access to Postman's Documenter! This is a new feature that lets you view auto-generated documentation for all your collections. You can also publish this documentation and share it publicly for people to consume.
 
 ### Viewing Documentation for Collections
 
@@ -23,7 +23,7 @@ All users of Postman Cloud get access to Postman's Documenter! This is a new fea
 * This will open the documentation for that collection in your browser. You'll be able to browse all folders and requests in the collection, and see what the requests and code snippets look like with different environments selected.
 [![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs3.png)][2]
 
-* Keep in mind that this link is restricted to users in your Postman Cloud Team. To make this documentation available to other users (as a link on your website, perhaps), you&\#39'll need to Publish it!
+* Keep in mind that this link is restricted to users in your Postman Pro Team. To make this documentation available to other users (as a link on your website, perhaps), you&\#39'll need to Publish it!
 
 ### Publishing Public Documentation for Collections
 

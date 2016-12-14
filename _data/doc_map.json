@@ -213,26 +213,26 @@
     ]
   },
   {
-    "title": "Postman Cloud for Teams",
+    "title": "Postman Pro for Teams",
     "children": [
       {
-        "title": "Postman Cloud",
+        "title": "Postman Pro",
         "href":"/docs/cloud",
         "external": false
       },
       {
-        "title": "Purchasing Cloud",
+        "title": "Purchasing Pro",
         "href":"/docs/buying_cloud",
         "external": false
       },
 
       {
-        "title": "Managing your Cloud team",
+        "title": "Managing your Pro team",
         "href":"/docs/cloud_team_setup",
         "external": false
       },
       {
-        "title": "Postman Cloud API",
+        "title": "Postman API",
         "href":"/docs/cloud_api",
         "external": false
       },
