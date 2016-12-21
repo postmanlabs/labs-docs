@@ -295,6 +295,11 @@
         "title": "Integrating automated API tests with Jenkins",
         "href":"/docs/integrating_with_jenkins",
         "external": false
+      },
+      {
+        "title": "Schedule runs in the Cloud",
+        "href":"/docs/schedule_cloud_runs",
+        "external": false
       }
     ]
   },
