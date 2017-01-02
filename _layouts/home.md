@@ -44,6 +44,5 @@
     {% include _navigation.html %}
     {% include _footer_scripts.html %}
     <script type="text/javascript" src="{{site.pm.root}}/js/swiftype.pm.js"></script>
-    <script type="text/javascript" src="{{site.pm.root}}/js/popularArticles.js"></script>
   </body>
 </html>
