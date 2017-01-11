@@ -15,7 +15,7 @@ To create a button that links to a collection, go through the following steps.
 
 2. If you do not have it already, create the collection of requests you would like to link to in your documentation. You can learn how to create a collection [here][0].
 
-We recommend you creating collections for the list of endpoints as well as specific workflow examples. Examples help learn faster.
+We recommend creating collections for a group of endpoints. It's also preferable to create example workflows; they help in getting you up and running with Postman faster.
 
 Keep in mind, Run in Postman works well with Swagger and RAML too. Just convert your file to a Collection by [importing it in Postman][1].
 
