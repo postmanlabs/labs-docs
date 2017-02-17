@@ -15,7 +15,7 @@ Here are a few common team-administration actions that you might need to take. T
 * [Removing members][2]
 * [Growing team - Buying more seats][3]
 * [Reducing your team size][4]
-  
+* [Managing custom domains][13]
 
 **Setting up your team**
 
@@ -35,6 +35,25 @@ Sign in and go to https://app.getpostman.com/dashboard/teams and click on send i
 
 Enter the emails of people you want in your team and hit Invite. You do not need to invite all the team members right away. It can be done at your convenience.
   
+**Managing custom domains**
+
+* It is also possible to associate custom domains with teams. This can be used to view documentation from the specified custom domain.
+
+* In order to use custom domains, head over to the [team dashboard][13].
+
+* Enter your custom domain in the provided text field, and click on `+`. A modal with additional details shows up.
+
+* In order to verify ownership of the entered domain, add the provided TXT and CNAME records at the specified locations in your DNS configuration.
+
+* To do this, open up your hosting provider's DNS console. Assuming that the custom domain added was `api.postmna.wtf`,
+the TXT record should be added for postman.wtf, and the CNAME record(phs.getpostman.com) should be added for api.postman.wtf.
+
+* Once you are certain that the added records have propagated, click the confirmation checkbox, followed by verify.
+
+* A green popup indicates successful verification, a red one indicates error. For token errors, re-try after a while.
+
+* The domain can be deleted by clicking the trashcan icon next to the custom domain.
+
 
 **Removing members**
 
@@ -91,3 +110,4 @@ Once you cancel your plan, all your cards will be deleted, and you will no longe
 [10]: https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_6.png
 [11]: https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_7.png
 [12]: https://www.getpostman.com/img/v1/docs/cloud_team_setup/cloud_team_setup_8.png
+[13]: https://www.getpostman.com/#managing-custom-domains
