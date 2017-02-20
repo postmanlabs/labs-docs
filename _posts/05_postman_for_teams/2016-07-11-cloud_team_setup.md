@@ -40,17 +40,23 @@ Enter the emails of people you want in your team and hit Invite. You do not need
 * It is also possible to associate custom domains with teams. This can be used to view documentation from the specified custom domain.
 
 * In order to use custom domains, head over to the [team dashboard][13].
+![](https://static.getpostman.com/postman-docs/1c2518a3-945d-47d7-836e-cd6df63becc3.png)
 
 * Enter your custom domain in the provided text field, and click on `+`. A modal with additional details shows up.
+![](https://static.getpostman.com/postman-docs/156fa7c6-78cd-4009-8cdd-40f073553ac7.png)
 
 * In order to verify ownership of the entered domain, add the provided TXT and CNAME records at the specified locations in your DNS configuration.
 
-* To do this, open up your hosting provider's DNS console. Assuming that the custom domain added was `api.postmna.wtf`,
+* To do this, open up your hosting provider's DNS console. Assuming that the custom domain added was `api.postman.wtf`,
 the TXT record should be added for postman.wtf, and the CNAME record(phs.getpostman.com) should be added for api.postman.wtf.
 
 * Once you are certain that the added records have propagated, click the confirmation checkbox, followed by verify.
 
-* A green popup indicates successful verification, a red one indicates error. For token errors, re-try after a while.
+* If the tokens were added correctly, and had propagated, a green popup indicates successful verification.
+![](https://static.getpostman.com/postman-docs/b3a7659a-a3b3-488c-97d8-cff43297d7df.png)
+
+* However, if the tokens were incorrect, or the propagation was still in progress, a red error popup is shown. Ensure that your tokens have been added correctly, and that the DNS setting propagation is complete. In some cases, propagation can take up to 24 hours.
+![](https://static.getpostman.com/postman-docs/6aedab23-5aac-47db-9acf-fa8d9d52b172.png)
 
 * The domain can be deleted by clicking the trashcan icon next to the custom domain.
 

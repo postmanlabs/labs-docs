@@ -34,6 +34,7 @@ Published documentation is a way of sharing your collection's documentation with
 [![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs4.png)][3]
 Note: Any confidential info (passwords/access tokens) in your environment might be visible publicly. Ensure that all such information is removed from the environment before you publish documentation with an environment.
 * Custom domains: Optionally, you can also pick from a list of verified custom domains to view your api documentation on. You'll be able to view docs on your custom domain, as well as the Postman documenter.
+![](https://static.getpostman.com/postman-docs/40ce4cda-5788-4e18-9141-4391de078244.png)
 * Real time updates: the public documentation link will always have updated content! You don't need to keep going through the Publish flow each time you want your docs to be updated.
 * To unpublish, open the Docs link from your Postman app. Click the Published button near the top of the screen. For a collection that's already been published, you'll be able to view the public link or unpublish the collection.
 [![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs5.png)][4]
