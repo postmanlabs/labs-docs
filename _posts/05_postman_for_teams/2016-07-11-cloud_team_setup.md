@@ -37,7 +37,7 @@ Enter the emails of people you want in your team and hit Invite. You do not need
   
 **Managing custom domains**
 
-* It is also possible to associate custom domains with teams. This can be used to view documentation from the specified custom domain.
+* It is also possible to associate custom domains with teams. Currently, this can be used to publish documentation from your own domain.
 
 * In order to use custom domains, head over to the [team dashboard][13].
 [![](https://static.getpostman.com/postman-docs/1c2518a3-945d-47d7-836e-cd6df63becc3.png)][14]
@@ -55,7 +55,7 @@ the TXT record should be added for postman.wtf, and the CNAME record(phs.getpost
 * If the tokens were added correctly, and had propagated, a green popup indicates successful verification.
 [![](https://static.getpostman.com/postman-docs/b3a7659a-a3b3-488c-97d8-cff43297d7df.png)][16]
 
-* However, if the tokens were incorrect, or the propagation was still in progress, a red error popup is shown. Ensure that your tokens have been added correctly, and that the DNS setting propagation is complete. In some cases, propagation can take up to 24 hours.
+* Sometimes, DNS settings take time to propagate (upto a day). In case you see the error below, try again after some time, and double check the values you have set with your DNS provider.
 [![](https://static.getpostman.com/postman-docs/6aedab23-5aac-47db-9acf-fa8d9d52b172.png)][17]
 
 * The domain can be deleted by clicking the trashcan icon next to the custom domain.
