@@ -3,17 +3,17 @@
     "title": "Getting Started",
     "children": [
       {
-        "title": "Installing the Postman Chrome App",
+        "title": "Installing the Postman native app",
+        "href":"/docs/install_native",
+        "external": false
+      },
+      {
+        "title": "Installing the Postman Chrome app",
         "href":"/docs/introduction",
         "external": false
       },
       {
         "video_src": "<iframe src='https://www.youtube.com/embed/8veXJ9YGlFI?list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ' frameborder='0' allowfullscreen></iframe>"
-      },
-      {
-        "title": "Installing the native app",
-        "href":"/docs/install_native",
-        "external": false
       },
       {
         "title": "Add Postman to your Dock",

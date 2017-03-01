@@ -16,15 +16,16 @@ With Postman, you can construct requests quickly, save them for later use and an
 
 #### Install Postman
 
-Postman is a Chrome App. This means that Postman can only run on the Chrome browser. To use Postman, you will first need to install Google Chrome:
-[Install Chrome][1].
+Postman is available as a [native app][1] (recommended) for Mac / Windows / Linux, and as a Chrome App. The Postman Chrome app can only run on the Chrome browser. To use the Postman Chrome app, you will first need to install Google Chrome:
+[Install Chrome][2].
 
-If you already have Chrome installed, head over to Postman's page on the Chrome Webstore - [https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en][2], and click 'Add to Chrome'.
+If you already have Chrome installed, head over to Postman's page on the Chrome Webstore - [https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en][3], and click 'Add to Chrome'.
 
-The download should take a few minutes, depending on your internet connection. Once you've downloaded the app, you can [launch Postman][3].
+The download should take a few minutes, depending on your internet connection. Once you've downloaded the app, you can [launch Postman][4].
 
 
 [0]: https://www.getpostman.com/img/v1/docs/source/1.png
-[1]: http://www.google.com/chrome/
-[2]: https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
-[3]: https://www.getpostman.com/docs/launch
+[1]: https://www.getpostman.com/docs/install_native
+[2]: http://www.google.com/chrome/
+[3]: https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
+[4]: https://www.getpostman.com/docs/launch
