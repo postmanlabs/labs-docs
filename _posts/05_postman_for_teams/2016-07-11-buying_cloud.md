@@ -4,7 +4,6 @@ title: "Purchasing Pro"
 page_id: "buying_cloud"
 tags: 
   - "cloud"
-  - "pro"
   - "web"
 warning: false
 ---
