@@ -1,9 +1,10 @@
 ---
 category: "docs"
-title: "Purchasing Cloud"
+title: "Purchasing Pro"
 page_id: "buying_cloud"
 tags: 
   - "cloud"
+  - "pro"
   - "web"
 warning: false
 ---
@@ -13,9 +14,6 @@ To purchase Pro, follow these instructions. Team leads as well as purchasing dep
 
 Go to [https://www.getpostman.com/pricing][0].
 
-[![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_1.png)
-][1]
-
 2\. Everyone who signs up for Postman gets the Basic plan and features are available as soon as you sign up. To buy the Pro plan, click Buy.
 
 3\. Enter team size.
@@ -23,14 +21,14 @@ Go to [https://www.getpostman.com/pricing][0].
 You will be directed to this page where you can enter the number of team members you wish to purchase for. Keep in mind that annual and monthly pricing are different.
 
 [![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_2.png)
-][2]
+][1]
 
 4\. Choose roles
 
 With each plan, you have the option of choosing roles that fit your function in your organization.
 
 [![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_3.png)
-][3]
+][2]
 
 * Admin
 
@@ -44,18 +42,18 @@ If you're making the purchase on behalf of a team in your company, but don't int
 Review your purchase and hit Pay.
 
 [![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_4.png)
-][4]
+][3]
 
 Enter your credit card details in the pop up that appears.
 
-Postman uses https://stripe.com/ to process all payment data. Once you enter your card details and hit Pay, Stripe will charge your card. We do not have any access to your payment information. Read about Stripe's security [here][5].
+Postman uses https://stripe.com/ to process all payment data. Once you enter your card details and hit Pay, Stripe will charge your card. We do not have any access to your payment information. Read about Stripe's security [here][4].
 
 6\. Confirmation
 
 You will then see a confirmation page with a transaction ID. You may store this number for any future communications with us.
 
 [![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_5.png)
-][6]
+][5]
 
 7\. Set up account
 
@@ -67,9 +65,8 @@ Congrats on making the best decision ever :-)
 
 
 [0]: https://www.getpostman.com/pricing
-[1]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_1.png
-[2]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_2.png
-[3]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_3.png
-[4]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_4.png
-[5]: https://stripe.com/help/security
-[6]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_5.png
+[1]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_2.png
+[2]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_3.png
+[3]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_4.png
+[4]: https://stripe.com/help/security
+[5]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_5.png
