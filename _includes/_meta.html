@@ -2,7 +2,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-  <title>Postman Docs</title>
+
+  {% for tag in page.tags %}
+    <meta name="description" content="{{tag}}">
+  {% endfor %}
+
+  <title>{{page.title}}</title>
+
   <link rel="shortcut icon" href="{{site.pm.root}}/favicon.ico">
   <link rel="stylesheet" type="text/css" href="{{site.pm.root}}/css/bootstrap.min.css?v={{site.time | date: '%s%N'}}"/>
   <link rel="stylesheet" type="text/css" href="{{site.pm.root}}/css/web/styles.css?v={{site.time | date: '%s%N'}}"/>
