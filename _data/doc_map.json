@@ -237,6 +237,11 @@
         "external": false
       },
       {
+        "title": "Postman Pro Integrations",
+        "href":"/docs/integrations",
+        "external": false
+      },
+      {
         "title": "Case study",
         "href":"http://blog.getpostman.com/2015/12/10/belong-keeps-its-architecture-in-order-with-postman/",
         "external": true
