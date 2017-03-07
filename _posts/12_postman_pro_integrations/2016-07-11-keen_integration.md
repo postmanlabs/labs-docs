@@ -14,7 +14,7 @@ Keen IO can be used for API-based computation, Amazon S3 backups, and building v
 
 **Retrieve your Keen IO project ID and API Key**
 
-[Log in][0] to Keen IO.  Find the Organization and Project you’d like to stream Postman Monitor data to.  Go to your Project’s Settings and select API Keys.  Make a note of your Project ID and API key for later.
+[Log in][0] to Keen IO.  Find the Organization and Project you’d like to stream Postman Monitor data to.  Go to your Project’s `Settings` and select `API Keys`.  Make a note of your Project ID and API key for later.
 
 []()[1]
 

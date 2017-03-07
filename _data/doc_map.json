@@ -264,6 +264,11 @@
         "title": "Slack Integration",
         "href":"/docs/slack_integration",
         "external": false
+      },
+      {
+        "title": "PagerDuty Integration",
+        "href":"/docs/pagerduty_integration",
+        "external": false
       }
     ]
   },
