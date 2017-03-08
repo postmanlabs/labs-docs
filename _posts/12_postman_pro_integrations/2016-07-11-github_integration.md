@@ -3,8 +3,7 @@ category: "docs"
 title: "GitHub Integration"
 page_id: "github_integration"
 tags: 
-  - "integrations"
-  - "github"
+  - "cloud"
 warning: false
 ---
 

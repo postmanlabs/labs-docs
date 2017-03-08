@@ -3,8 +3,7 @@ category: "docs"
 title: "PagerDuty Integration"
 page_id: "pagerduty_integration"
 tags: 
-  - "integrations"
-  - "pagerduty"
+  - "cloud"
 warning: false
 ---
 

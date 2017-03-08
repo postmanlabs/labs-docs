@@ -3,8 +3,7 @@ category: "docs"
 title: "Slack Integration"
 page_id: "slack_integration"
 tags: 
-  - "integrations"
-  - "slack"
+  - "cloud"
 warning: false
 ---
 

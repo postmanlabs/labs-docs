@@ -3,8 +3,7 @@ category: "docs"
 title: "Keen IO Integration"
 page_id: "keen_integration"
 tags: 
-  - "integrations"
-  - "keen"
+  - "cloud"
 warning: false
 ---
 
