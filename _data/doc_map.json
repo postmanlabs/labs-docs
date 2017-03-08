@@ -251,23 +251,33 @@
         "external": false
       },
       {
-        "title": "GitHub Integration",
+        "title": "Dropbox",
+        "href":"/docs/dropbox_integration",
+        "external": false
+      },
+      {
+        "title": "GitHub",
         "href":"/docs/github_integration",
         "external": false
       },
       {
-        "title": "Keen IO Integration",
+        "title": "GitLab",
+        "href":"/docs/gitlab_integration",
+        "external": false
+      },
+      {
+        "title": "Keen IO",
         "href":"/docs/keen_integration",
         "external": false
       },
       {
-        "title": "Slack Integration",
-        "href":"/docs/slack_integration",
+        "title": "PagerDuty",
+        "href":"/docs/pagerduty_integration",
         "external": false
       },
       {
-        "title": "PagerDuty Integration",
-        "href":"/docs/pagerduty_integration",
+        "title": "Slack",
+        "href":"/docs/slack_integration",
         "external": false
       }
     ]

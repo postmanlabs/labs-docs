@@ -7,7 +7,7 @@ tags:
 warning: false
 ---
 
-**Getting to the Integrations page:**
+**Getting to the Integrations page**
 
 Log on to your Dashboard from the [Postman website][0], and navigate to the [Integrations page][1] to see a list of all the currently available integrations for Postman Pro users.
 

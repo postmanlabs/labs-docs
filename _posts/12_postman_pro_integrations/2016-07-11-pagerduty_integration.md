@@ -17,46 +17,42 @@ The Postman Pro to PagerDuty Integration enables Postman Monitor results to trig
 
 [Log in][0] to PagerDuty.  Go to the `Configuration` menu and select `Services`.  If you are creating a new service for this integration, Click `Add New Service`.
 
-[]()[1]
+[![PagerDuty menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)][1]
 
 Enter your Service Name and choose Postman as the Integration Type.  Click on `Add Service` at the bottom of the page.
 
-[]()[2]
+[![Create PagerDuty service](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)][2]
 
 This will create a new service.  Make a note of your PagerDuty Integration Key for later.
 
-[]()[3]
-
+[![PagerDuty Integration Key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)][3]
 
 **Connect Postman Pro to PagerDuty**
 
-From the [Integrations page][4]: select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
+From the [Integrations][4] page, select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
 
-[]()[3]
-
-Click Add to connect Keen IO to Postman Monitors to generate events on every run.
-
-[]()[4]
+[![PagerDuty Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerdutyINT.png)][5]
 
 Click `Add` to connect your Postman Monitors to PagerDuty.
 
-[]()[5]
+[![Add PagerDuty Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_add.png)][6]
 
 Enter the PagerDuty Integration Key from before.  Choose the Monitor for which you want alerts, and Submit. 
 
-[]()[6]
+[![Add Monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_monitor.png)][7]
 
 **How your results appear in PagerDuty**
 
 Right away, the PagerDuty console will display any incidents resulting from the Postman Monitor.  If the selected Monitor fails, you will get notified on PagerDuty according to the formatting and business rules that you’ve already set up.
 
-[]()[7]
+[![PagerDuty results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_results.png)][8]
 
 [0]: https://app.pagerduty.com/
-[1]: placeholder
-[2]: placeholder
-[3]: placeholder
+[1]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png
+[2]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png
+[3]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png
 [4]: https://app.getpostman.com/dashboard/integrations
-[5]: placeholder
-[6]: placeholder
-[7]: placeholder
+[5]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerdutyINT.png
+[6]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_add.png
+[7]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_monitor.png
+[8]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_results.png
