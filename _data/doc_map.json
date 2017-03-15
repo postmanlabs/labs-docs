@@ -225,7 +225,6 @@
         "href":"/docs/buying_cloud",
         "external": false
       },
-
       {
         "title": "Managing your Pro team",
         "href":"/docs/cloud_team_setup",
@@ -240,6 +239,46 @@
         "title": "Case study",
         "href":"http://blog.getpostman.com/2015/12/10/belong-keeps-its-architecture-in-order-with-postman/",
         "external": true
+      }
+    ]
+  },
+  {
+    "title": "Postman Pro Integrations",
+    "children": [
+      {
+        "title": "Getting Started with Integrations",
+        "href":"/docs/integrations",
+        "external": false
+      },
+      {
+        "title": "Dropbox",
+        "href":"/docs/dropbox_integration",
+        "external": false
+      },
+      {
+        "title": "GitHub",
+        "href":"/docs/github_integration",
+        "external": false
+      },
+      {
+        "title": "GitLab",
+        "href":"/docs/gitlab_integration",
+        "external": false
+      },
+      {
+        "title": "Keen IO",
+        "href":"/docs/keen_integration",
+        "external": false
+      },
+      {
+        "title": "PagerDuty",
+        "href":"/docs/pagerduty_integration",
+        "external": false
+      },
+      {
+        "title": "Slack",
+        "href":"/docs/slack_integration",
+        "external": false
       }
     ]
   },
