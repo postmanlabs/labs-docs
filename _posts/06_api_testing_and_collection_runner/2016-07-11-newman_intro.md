@@ -78,7 +78,7 @@ To provide a different set of data, i.e. variables for each iteration, you can u
     "token_id": "123123",
 },
 {
-    "url": "http://dump.getpostman.com",
+    "url": "http://postman-echo.com",
     "user_id": "2",
     "id": "2",
     "token_id": "899899",
@@ -92,7 +92,7 @@ The csv file for the above set of variables would look like
 ```
 url, user_id, id, token_id
 http://127.0.0.1:5000, 1, 1, 123123123
-http://dump.getpostman.com, 2, 2, 899899
+http://postman-echo.com, 2, 2, 899899
 ```
 
 Newman, by default exits with a status code of 0 if everything runs well i.e. without any exceptions. Continuous integration tools respond to these exit codes and correspondingly pass or fail a build. You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1 which can then be picked up by a CI tool or build system.
