@@ -33,7 +33,7 @@ The Postman Monitor to Slack connection allows you to pipe any set of Monitoring
 
 **Add the Slack Integration**
 
-From the [Integrations][1] page, select the Slack Integration:
+From the [Integrations page][1], select the Slack Integration:
 
 [![Slack Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/slackINT.png)][2]
 

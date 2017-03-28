@@ -251,6 +251,11 @@
         "external": false
       },
       {
+        "title": "APIMatic",
+        "href":"/docs/apimatic",
+        "external": false
+      },
+      {
         "title": "Dropbox",
         "href":"/docs/dropbox_integration",
         "external": false
