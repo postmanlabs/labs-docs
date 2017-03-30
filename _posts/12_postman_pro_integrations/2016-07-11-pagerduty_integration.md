@@ -29,7 +29,7 @@ This will create a new service.  Make a note of your PagerDuty Integration Key f
 
 **Connect Postman Pro to PagerDuty**
 
-From the [Integrations][4] page, select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
+From the [Integrations page][4], select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![PagerDuty Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerdutyINT.png)][5]
 

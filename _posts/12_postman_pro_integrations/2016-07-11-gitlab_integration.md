@@ -23,7 +23,7 @@ Make a note of this token for later.
 
 **Backup your Postman Collections to your GitLab**
 
-From the [Integrations][4] page, select GitLab from a list of Postman's 3rd party Integrations for Postman Pro users.
+From the [Integrations page][4], select GitLab from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![GitLab Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gitlabINT.png)][5]
 

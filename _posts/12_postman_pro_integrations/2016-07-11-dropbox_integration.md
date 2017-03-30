@@ -13,7 +13,7 @@ Backup and synchronize your Postman Collections on Dropbox for file sharing, sto
 
 **Add the Dropbox Integration**
 
-From the [Integrations][0] page, select Dropbox from a list of Postman's 3rd party Integrations for Postman Pro users.
+From the [Integrations page][0], select Dropbox from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![Dropbox Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/dropINT.png)][1]
 

@@ -13,7 +13,7 @@ Backup and synchronize your Postman Collections on GitHub, the largest host of s
 
 **Add the GitHub Integration**
 
-From the [Integrations][0] page, select GitHub from a list of Postman's 3rd party Integrations for Postman Pro users.
+From the [Integrations page][0], select GitHub from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![GitHub Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/githubIntegration.png)][1]
 
