@@ -19,7 +19,7 @@ Keen IO can be used for API-based computation, Amazon S3 backups, and building v
 
 **Push Monitor results to Keen Streams**
 
-From the [Integrations][2] page, select Keen IO from a list of Postman's 3rd party Integrations for Postman Pro users.
+From the [Integrations page][2], select Keen IO from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![Add Keen Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/keenINT.png)][3]
 

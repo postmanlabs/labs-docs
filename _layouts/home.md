@@ -27,13 +27,13 @@
               <ul class="pm-video-list">
                 {% for vid in site.data.video_tutorials %}
                 <li>
-                  <a href="https://www.youtube.com/watch?v={{vid.id}}&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ&autoplay=1" target="_blank">{{vid.title}}</a>
-                  <a class="pm-yt-thumbnail" href="https://www.youtube.com/watch?v={{vid.id}}&list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ&autoplay=1" target="_blank">
+                  <a href="https://www.youtube.com/watch?v={{vid.id}}&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&autoplay=1" target="_blank">{{vid.title}}</a>
+                  <a class="pm-yt-thumbnail" href="https://www.youtube.com/watch?v={{vid.id}}&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&autoplay=1" target="_blank">
                     <img src="https://img.youtube.com/vi/{{vid.id}}/mqdefault.jpg">
                   </a>
                 </li>
                 {% endfor %}
-                <li><a href="https://www.youtube.com/playlist?list=PLM-7VG-sgbtD8qBnGeQM5nvlpqB_ktaLZ">Watch Tutorial Playlist</a></li>
+                <li><a href="https://www.youtube.com/playlist?list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ">Watch Tutorial Playlist</a></li>
               </ul>
             </div>
           </div>

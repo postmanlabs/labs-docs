@@ -15,7 +15,7 @@ For example, to include a timestamp in the request headers you can set an enviro
 
     postman.setEnvironmentVariable('timestampHeader',new Date());
 
-You can then use the **timestampHeader** variable in the header key-value editor. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of &\#123&\#123timestampHeader}}.
+You can then use the **timestampHeader** variable in the header key-value editor. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of {{timestampHeader}}.
 
 **Note:** An environment will have to be active for env variables to be set.
 

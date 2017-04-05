@@ -1,18 +1,18 @@
 [
   {
-    "title": "How to send and capture API requests using Postman",
-    "id": "jBjXVrS8nXs"
+    "title": "Intro to Postman Collections",
+    "id": "ptvV_Fc3hd8"
   },
   {
     "title": "How to use Postman environments",
-    "id": "JZmEPzJJ3ek"
+    "id": "wArvaHYdw2I"
   },
   {
-    "title": "How to use and share Postman Collections",
-    "id": "bF8q8wvLs8A"
+    "title": "How to add tests to Postman",
+    "id": "ElJBJIeJ90o"
   },
   {
-    "title": "How to use the Postman API Response Viewer",
-    "id": "e0LSRmPw-b0"
+    "title": "Using variables in Postman requests and collections",
+    "id": "X_CEYzhjCnI"
   }
 ]
