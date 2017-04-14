@@ -44,16 +44,14 @@ Jenkins exposes an interface at http://localhost:8080\.
 [![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)
 ][5]
 
-6\. Add a build step in the project. The build step executes a Shell command.
+6\. Add a build step in the project. The build step executes a Shell command (for linux and Mac OS) and execute Windows batch command (for windows).
 
 [![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)
 ][6]
 
 The command is
 
-    newman run jenkins_demo.postman_collection --suppress-exit-code 1.
-
-Note here that we are using the newman command parameter "suppress-exit-code" with the value 1\. This denotes that newman is going to exit with this code that will tell Jenkins that everything did not go well.
+    newman run jenkins_demo.postman_collection.
 
 Click the save button to finish creating the project.
 
