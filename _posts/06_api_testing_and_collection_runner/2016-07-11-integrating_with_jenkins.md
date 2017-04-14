@@ -51,7 +51,7 @@ Jenkins exposes an interface at http://localhost:8080\.
 
 The command is
 
-    newman -c jenkins_demo.postman_collection --exitCode 1.
+    newman run jenkins_demo.postman_collection.
 
 Note here that we are using the newman command parameter "exitCode" with the value 1\. This denotes that newman is going to exit with this code that will tell Jenkins that everything did not go well.
 
