@@ -53,8 +53,8 @@ The command is
 
     newman run jenkins_demo.postman_collection --suppress-exit-code 1.
 
-Note here that we are using the newman command parameter "suppress-exit-code" with the value 1.
-This denotes that newman is going to exit with this code that will tell Jenkins that everything did not go well.
+Note here that we are using the newman command parameter "suppress-exit-code" with the value 1. This denotes that
+newman is going to exit with this code that will tell Jenkins that everything did not go well.
 
 Click the save button to finish creating the project.
 
