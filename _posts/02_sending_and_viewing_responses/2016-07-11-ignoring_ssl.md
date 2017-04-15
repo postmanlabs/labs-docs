@@ -17,8 +17,6 @@ In the native apps, you have the option of ignoring SSL certificates altogether.
 
 [![](https://www.getpostman.com/img/v1/docs/self_signed_certs/ignoring_1.png)][0]
 
-**Warning:** Be sure to toggle this setting back on once you're done testing the URL in question. In the Off state, your app (and your API calls) are open to any number of attacks.
-
 
 [0]: https://www.getpostman.com/img/v1/docs/self_signed_certs/ignoring_1.png
 [1]: http://blog.getpostman.com/2014/01/28/using-self-signed-certificates-with-postman/
