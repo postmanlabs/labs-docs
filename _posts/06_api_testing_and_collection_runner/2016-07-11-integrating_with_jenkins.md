@@ -29,7 +29,7 @@ Run a sample Postman Collection. We are assuming that you already have a Postman
 
 Some of my tests are failing intentionally in the screenshot so we can show you the instructions for troubleshooting.
 
-4\. Run this collection inside newman, using the command \[command here\]. If everything is set up nicely, you should see the output below.
+4\. Run this collection inside newman, using the command `newman run jenkins_demo.postman_collection`. If everything is set up nicely, you should see the output below.
 
 [![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)
 ][3]
@@ -44,16 +44,14 @@ Jenkins exposes an interface at http://localhost:8080\.
 [![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)
 ][5]
 
-6\. Add a build step in the project. The build step executes a Shell command.
+6\. Add a build step in the project. The build step executes a Shell command (for linux and Mac OS) and execute Windows batch command (for windows).
 
 [![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)
 ][6]
 
 The command is
 
-    newman -c jenkins_demo.postman_collection --exitCode 1.
-
-Note here that we are using the newman command parameter "exitCode" with the value 1\. This denotes that newman is going to exit with this code that will tell Jenkins that everything did not go well.
+    newman run jenkins_demo.postman_collection.
 
 Click the save button to finish creating the project.
 
