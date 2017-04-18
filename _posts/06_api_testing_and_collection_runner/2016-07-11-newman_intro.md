@@ -217,6 +217,59 @@ newman.run({
 });
 ```
 
+### Custom reporters
+
+#### Building custom reporters
+
+A custom reporter is a Node module whose name starts with `newman-reporter-`, that exports a function of the following form:
+```javascript
+function (emitter, reporterOptions, collectionRunOptions) {
+  // emitter is is an event emitter that triggers the following events: https://github.com/postmanlabs/newman#newmanrunevents
+  // reporterOptions is an object of the reporter specific options. See usage examples below for more details.
+  // collectionRunOptions is an object of all the collection run options: https://github.com/postmanlabs/newman#newmanrunoptions-object--callback-function--run-eventemitter
+};
+```
+
+Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. Working reporter examples can be found in https://github.com/postmanlabs/newman/tree/develop/lib/reporters.
+
+#### Using custom reporters
+In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter](https://www.npmjs.com/package/newman-reporter-teamcity):
+
+Install the reporter package. 
+```
+npm i -S newman-reporter-teamcity
+```
+
+Note that the name of the package is of the form newman-reporter-<name>. The installation should be global if newman is installed globally, local otherwise. (Replace `-S` from the command above with `-g` for a global installation.
+
+Use the installed reporter, either via the CLI, or programmatic usage. Here, the `newman-reporter` prefix is not required while specifying the reporter name in the options.
+
+CLI:
+```
+newman run /path/to/collection.json -r teamcity --reporter-teamcity-<option-name> <option-value> # The option is optional
+```
+
+Programmatically:
+```javascript
+var newman = require('newman');
+
+newman.run({
+   collection: '/path/to/collection.json',
+   reporters: 'teamcity',
+   reporter: {
+     teamcity: {
+       'option-name': 'option-value' // this is optional
+     }
+   }
+}, function (err, summary) {
+  if (err) { throw err; }
+  console.info('collection run complete!');
+});
+```
+
+In both cases above, the reporter options are optional.
+
+
 For the complete list of details, see the [Newman README][6]
 
 [0]: https://www.npmjs.org/package/newman
