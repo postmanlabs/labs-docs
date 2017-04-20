@@ -221,7 +221,9 @@ newman.run({
 
 #### Building custom reporters
 
-A custom reporter is a Node module whose name starts with `newman-reporter-`, that exports a function of the following form:
+A custom reporter is a Node module with a name of the form `newman-reporter-<name>`. To create a custom reporter:
+1. Navigate to a directory of your choice, and create a blank npm package with `npm init`.
+2. Add an `index.js` file, that exports a function of the following form:
 ```javascript
 function (emitter, reporterOptions, collectionRunOptions) {
   // emitter is is an event emitter that triggers the following events: https://github.com/postmanlabs/newman#newmanrunevents
@@ -230,6 +232,8 @@ function (emitter, reporterOptions, collectionRunOptions) {
 };
 ```
 
+3. When ready, publish your reporter using `npm publish`, or use your reporter locally (see usage instructions)
+
 Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. Working reporter examples can be found in https://github.com/postmanlabs/newman/tree/develop/lib/reporters.
 
 #### Using custom reporters
@@ -237,16 +241,20 @@ In order to use the custom reporter, it will have to be installed first. For ins
 
 Install the reporter package. 
 ```
-npm i -S newman-reporter-teamcity
+npm install newman-reporter-teamcity
 ```
 
-Note that the name of the package is of the form newman-reporter-<name>. The installation should be global if newman is installed globally, local otherwise. (Replace `-S` from the command above with `-g` for a global installation.
+Note that the name of the package is of the form newman-reporter-<name>. The installation should be global if newman is installed globally, local otherwise. (Run `npm install ...` with the `-g` flag for a global installation.
+
+To use local (non-published) reporters, run the command `npm install <path/to/local-reporter-directory>` instead. 
 
 Use the installed reporter, either via the CLI, or programmatic usage. Here, the `newman-reporter` prefix is not required while specifying the reporter name in the options.
 
+Scoped reporter packages must be specified with the scope prefix. For instance, if your package name is `@myorg/newman-reporter-name`, you must specify the reporter with `@myorg/name`.
+
 CLI:
 ```
-newman run /path/to/collection.json -r teamcity --reporter-teamcity-<option-name> <option-value> # The option is optional
+newman run /path/to/collection.json -r myreporter --reporter-myreporter-<option-name> <option-value> # The option is optional
 ```
 
 Programmatically:
@@ -255,9 +263,9 @@ var newman = require('newman');
 
 newman.run({
    collection: '/path/to/collection.json',
-   reporters: 'teamcity',
+   reporters: 'myreporter',
    reporter: {
-     teamcity: {
+     myreporter: {
        'option-name': 'option-value' // this is optional
      }
    }
