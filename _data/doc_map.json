@@ -1,6 +1,6 @@
 [
   {
-    "title": "Getting Started",
+    "title": "Postman",
     "children": [
       {
         "title": "Installing the Postman native app",
@@ -43,12 +43,32 @@
     ]
   },
   {
-    "title": "Sending Requests and Viewing Responses",
+    "title": "Postman Pro",
     "children":[
       {
-        "title": "Sending Requests",
-        "href":"/docs/requests",
-        "external": false
+        "title": "Managing Postman Pro",
+        "children": [
+          {
+            "title": "Activating your Pro trial",
+            "href":"/docs/activating_your_pro_trial",
+            "external": false
+          },
+          {
+            "title": "Billing and pricing",
+            "href":"/docs/billing_and_pricing",
+            "external": false
+          },
+          {
+            "title": "Buying",
+            "href":"/docs/buying",
+            "external": false
+          },
+          {
+            "title": "Inviting and managing",
+            "href":"/docs/inviting_and_managing",
+            "external": false
+          }
+        ]
       },
       {
         "title": "Understanding and working with responses",
@@ -143,289 +163,96 @@
     ]
   },
   {
-    "title": "Managing Collections",
+    "title": "Postman Enterprise",
     "children": [
       {
-        "title": "Getting started with Collections",
-        "href":"/docs/collections",
+        "title": "Apply for beta access",
+        "href":"/docs/apply_for_beta_access",
         "external": false
       },
       {
-        "title": "Consuming API documentation in Collection Browser",
-        "href":"/docs/consuming_api_documentation",
+        "title": "Single sign-on (SSO)",
+        "children": [
+          {
+            "title": "Intro to SSO",
+            "href": "/docs/intro_to_sso",
+            "external": false
+          },
+          {
+            "title": "Single sign-on for users",
+            "href": "/docs/user_sso",
+            "external": false
+          },
+          {
+            "title": "Single sign-on for admins",
+            "href": "/docs/admin_sso",
+            "external": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Postman for Publishers",
+    "children": [
+      {
+        "title": "Public API documentation",
+        "href":"/docs/publisher/public_API_documentation",
         "external": false
       },
       {
-        "title": "Publish Documentation for your Collections",
-        "href":"/docs/creating_documentation",
-        "external": false
-      },
+        "title": "Run in Postman",
+        "children": [
+          {
+            "title": "Creating the Run in Postman button",
+            "href": "/docs/publisher/creating_run_button",
+            "external": false
+          },
+          {
+            "title": "Using the Run in Postman button",
+            "href": "/docs//publisher/creating_run_button",
+            "external": false
+          },
+          {
+            "title": "Updating collections for Run in Postman",
+            "href": "/docs/publisher/collections_run_button",
+            "external": false
+          },
+          {
+            "title": "Environments in Run in Postman",
+            "href": "/docs/publisher/environments_run_button",
+            "external": false
+          },
+          {
+            "title": "Run button API",
+            "href": "/docs/publisher/run_button_API",
+            "external": false
+          },
+          {
+            "title": "Security considerations",
+            "href": "/docs/publisher/security_considerations",
+            "external": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Videos",
+    "children": [
       {
-        "title": "Sharing Collections with your team",
-        "href":"/docs/sharing",
-        "external": false
-      },
-      {
-        "title": "Syncing collections with the Postman server",
-        "href":"/docs/sync_overview",
-        "external": false
-      },
-      {
-        "title": "Checking response payloads",
-        "href":"/docs/checking_payload_responses",
-        "external": false
-      },
-      {
-        "title": "Validating JSON collections",
-        "href":"/docs/validating_json_collections",
-        "external": false
-      },
-      {
-        "title": "Importing RAML folders as Collections",
-        "href":"/docs/importing_folders",
-        "external": false
-      },
-      {
-        "title": "Importing Swagger files",
-        "href":"/docs/importing_swagger",
+        "title": "Videos",
+        "href":"/docs/videos",
         "external": false
       }
     ]
   },
   {
-    "title": "Variables and Environments",
+    "title": "Reference",
     "children": [
       {
-        "title": "Setting up an environment with variables",
-        "href":"/docs/environments",
-        "external": false
-      },
-      {
-        "title": "Using data variables to run a collection multiple times",
-        "href":"/docs/multiple_instances",
-        "external": false
-      },
-      {
-        "title": "Using environments to switch contexts",
-        "href":"/docs/test_multi_environments",
-        "external": false
-      }
-    ]
-  },
-  {
-    "title": "Postman Pro for Teams",
-    "children": [
-      {
-        "title": "Postman Pro",
-        "href":"/docs/cloud",
-        "external": false
-      },
-      {
-        "title": "Purchasing Pro",
-        "href":"/docs/buying_cloud",
-        "external": false
-      },
-      {
-        "title": "Managing your Pro team",
-        "href":"/docs/cloud_team_setup",
-        "external": false
-      },
-      {
-        "title": "Postman API",
-        "href":"/docs/cloud_api",
-        "external": false
-      },
-      {
-        "title": "Case study",
-        "href":"http://blog.getpostman.com/2015/12/10/belong-keeps-its-architecture-in-order-with-postman/",
-        "external": true
-      }
-    ]
-  },
-  {
-    "title": "Postman Pro Integrations",
-    "children": [
-      {
-        "title": "Getting Started with Integrations",
-        "href":"/docs/integrations",
-        "external": false
-      },
-      {
-        "title": "APIMatic",
-        "href":"/docs/apimatic",
-        "external": false
-      },
-      {
-        "title": "Dropbox",
-        "href":"/docs/dropbox_integration",
-        "external": false
-      },
-      {
-        "title": "GitHub",
-        "href":"/docs/github_integration",
-        "external": false
-      },
-      {
-        "title": "GitLab",
-        "href":"/docs/gitlab_integration",
-        "external": false
-      },
-      {
-        "title": "Keen IO",
-        "href":"/docs/keen_integration",
-        "external": false
-      },
-      {
-        "title": "PagerDuty",
-        "href":"/docs/pagerduty_integration",
-        "external": false
-      },
-      {
-        "title": "Slack",
-        "href":"/docs/slack_integration",
-        "external": false
-      }
-    ]
-  },
-  {
-    "title": "API Testing & Collection Runner",
-    "children": [
-      {
-        "title": "Pre Request Scripts",
-        "href":"/docs/pre_request_scripts",
-        "external": false
-      },
-      {
-        "title": "Writing Tests",
-        "href":"/docs/writing_tests",
-        "external": false
-      },
-      {
-        "title": "Testing Sandbox",
-        "href":"/docs/sandbox",
-        "external": false
-      },
-      {
-        "title": "Testing examples",
-        "href":"/docs/testing_examples",
-        "external": false
-      },
-      {
-        "title": "Running a collection",
-        "href":"/docs/running_collections",
-        "external": false
-      },
-      {
-        "title": "Running collections with file-post requests",
-        "href":"/docs/run_file_post_requests",
-        "external": false
-      },
-      {
-        "title": "Workflows",
-        "href":"/docs/workflows",
-        "external": false
-      },
-      {
-        "title": "Newman - Running collections in the command line ",
-        "href":"/docs/newman_intro",
-        "external": false
-      },
-      {
-        "title": "Running Newman inside Docker",
-        "href":"/docs/newman_in_docker",
-        "external": false
-      },
-      {
-        "title": "Integrating automated API tests with Jenkins",
-        "href":"/docs/integrating_with_jenkins",
-        "external": false
-      },
-      {
-        "title": "Schedule runs in the Cloud",
-        "href":"/docs/schedule_cloud_runs",
-        "external": false
-      }
-    ]
-  },
-  {
-    "title": "Postman for Public APIs",
-    "children": [
-      {
-        "title": "Create the Run in Postman button",
-        "href":"/docs/run_button",
-        "external": false
-      },
-      {
-        "title": "Using the Run in Postman button",
-        "href":"/docs/run_button_ux",
-        "external": false
-      },
-      {
-        "title": "Updating collections in the Run button",
-        "href":"/docs/update_run_button",
-        "external": false
-      },
-
-      {
-        "title": "Environments in the Run button",
-        "href":"/docs/env_run_button",
-        "external": false
-      },
-
-      {
-        "title": "The Run Button API",
-        "href":"/docs/run_button_api",
-        "external": false
-      },
-
-      {
-        "title": "Partnership program",
-        "href":"/docs/run_partner_prog",
-        "external": false
-      },
-      {
-        "title": "Run button security",
-        "href":"/docs/run_security",
-        "external": false
-      }
-    ]
-  },
-  {
-    "title": "Settings",
-    "children": [
-      {
-        "title": "Settings",
-        "href":"/docs/settings",
-        "external": false
-      }
-    ]
-  },
-  {
-    "title": "Billing and Payment",
-    "children": [
-      {
-        "title": "Billing details",
-        "href":"/docs/billing_details",
-        "external": false
-      },
-      {
-        "title": "Pricing Policy",
-        "href":"/docs/pricing-policy",
-        "external": false
-      }
-    ]
-  },
-  {
-    "title": "Account & Profile",
-    "children": [
-      {
-        "title": "Account Dashboard",
-        "href":"/docs/account",
-        "external": false
-      },
-      {
-        "title": "Change your email/username/name/password",
-        "href":"/docs/account#account-profile",
+        "title": "Reference",
+        "href":"/docs/reference",
         "external": false
       }
     ]

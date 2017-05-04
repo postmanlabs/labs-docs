@@ -3,7 +3,7 @@ defaults:
     values:
       layout: "default"
 
-permalink: /:title
+permalink: /:categories/:title
 
 # Namespace for custom variables
 pm:
