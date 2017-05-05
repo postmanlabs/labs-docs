@@ -4,7 +4,7 @@ category:
   - "postman"
   - "monitors"
 title: "Pricing for monitors"
-page_id: "pricing_for_monitors"
+page_id: "pricing_monitors"
 tags: 
   - "pro"
 warning: false

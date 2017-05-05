@@ -4,7 +4,7 @@ category:
   - "postman"
   - "monitors"
 title: "Set up integrations to receive alerts"
-page_id: "set_up_integrations_to_receive_alerts"
+page_id: "integrations_for_alerts"
 tags: 
   - "pro"
 warning: false

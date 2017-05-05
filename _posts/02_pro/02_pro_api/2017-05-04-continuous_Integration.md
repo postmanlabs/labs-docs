@@ -26,42 +26,27 @@ Follow the steps outlined [here](https://nodejs.org/en/download/package-manager/
 
 ### Step 2: Install Newman
 
-[Newman](https://www.getpostman.com/docs/Command+line+integration+with+Newman) is a command-line tool that allows you to run a collection in your system. The following command installs Newman in your CI.
+[Newman](/docs/postman/collection_runs/command_line_integration_with_newman) is a command-line tool that allows you to run a collection in your system. The following command installs Newman in your CI.
 
-<div>
+```
+npm i newman -g;
+```
 
-<div>
+### Step 3: Run Newman
 
-<pre>npm i newman -g;</pre>
+Run the following Newman command with the appropriate parameters:
 
-</div>
+{% raw %}
+```
+newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}}
+```
+{% endraw %}
 
-</div>
 
-###   
-Step 3: Run Newman
+If you need to provide an environment to the collection, change the above command to the following:
 
-Run the following Newman command with the appropriate parameters
-
-<div>
-
-<div>
-
-<pre>newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}}</pre>
-
-</div>
-
-</div>
-
-If you need to provide an environment to the collection, change the above command to the following
-
-<div>
-
-<div>
-
-<pre>newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}} --environment https://api.getpostman.com/environments/{{environment_uid}}?apikey={{postman-api-key-here}}</pre>
-
-</div>
-
-</div>
-
+{% raw %}
+```
+newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}} --environment https://api.getpostman.com/environments/{{environment_uid}}?apikey={{postman-api-key-here}}
+```
+{% endraw %}

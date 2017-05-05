@@ -8,29 +8,18 @@ page_id: "run_button_API"
 warning: false
 ---
 
-The JavaScript Run in Postman button exposes an API via the ``_pm()`` method. These API methods allow you to dynamically alter button behavior. Note that the ``_pm()`` API is not available for the static version of the Run in Postman button.
+The JavaScript Run in Postman button exposes an API via the `_pm()` method. These API methods allow you to dynamically alter button behavior. Note that the `_pm()` API is not available for the static version of the Run in Postman button.
 
 ### Creating a new environment
 
-A new environment can be dynamically created using the ``env.create`` method:
-
-<div>
-
-<div>
+A new environment can be dynamically created using the `env.create` method:
 
 <pre>_pm('env.create', 'environment_name', {key: value});</pre>
 
-</div>
-
-</div>
-
 For example, if you need to create a new environment using API keys entered by your user, you can do something like this when the Run in Postman button is clicked:
 
-<div>
-
-<div>
-
-<pre>function () {
+<pre>
+function () {
   var stagingKey = document.getElementById('staging-key-input').value,
     productionKey = document.getElementById('production-key-input').value,
     envData = {
@@ -39,38 +28,24 @@ For example, if you need to create a new environment using API keys entered by y
     };
 
   _pm('env.create', 'API Keys', envData);
-}</pre>
-
-</div>
-
-</div>
+}
+</pre>
 
 Note:
 
-*   *   The ``env.create`` action will return truth on success, false on failure.
-    *   ``env.create`` cannot be used to create duplicate environments. Subsequent calls with an existing environment name will fail.
+*   The `env.create` action will return truth on success, false on failure.
+*   `env.create` cannot be used to create duplicate environments. Subsequent calls with an existing environment name will fail.
 
 ### Editing an existing environment
 
 An environment which was included in the Run Button embed code or created with `env.create` can be modified using the `env.assign` method:
 
-<div>
-
-<div>
-
 <pre>_pm('env.assign', 'environment_name', {key: new_value, new_key: value})</pre>
 
-</div>
+For example, if you need to update the `API Keys` environment created in the last example:
 
-</div>
-
-For example, if you need to update the ``API Keys`` environment created in the last example:
-
-<div>
-
-<div>
-
-<pre>function () {
+<pre>
+function () {
   var stagingKey = document.getElementById('staging-key-input').value,
     productionKey = document.getElementById('production-key-input').value,
     envData = {
@@ -79,39 +54,25 @@ For example, if you need to update the ``API Keys`` environment created in the 
     };
 
   _pm('env.assign', 'API Keys', envData);
-}</pre>
-
-</div>
-
-</div>
+}
+</pre>
 
 Note:
 
-*   *   The ``env.assign`` action will return truth on success, false on failure.
-    *   ``env.assign`` cannot be used to create new environments. Calls to ``_pm`` using ``env.assign`` will fail if the environment doesn’t already exist.
-    *   ``env.assign`` will allow assignment to environments created using ``env.create`` and inline environments from the button embed code.
+*   The `env.assign` action will return truth on success, false on failure.
+*   `env.assign` cannot be used to create new environments. Calls to `_pm` using `env.assign` will fail if the environment doesn’t already exist.
+*   `env.assign` will allow assignment to environments created using `env.create` and inline environments from the button embed code.
 
 ### Replacing an existing environment
 
-An entire environment can be replaced using the ``env.replace`` method.
-
-<div>
-
-<div>
+An entire environment can be replaced using the `env.replace` method.
 
 <pre>_pm('env.replace', 'environment_name', {key: value})</pre>
 
-</div>
-
-</div>
-
 For example, if you have the following environment and you need to replace it:
 
-<div>
-
-<div>
-
-<pre>// Existing environment named 'user_data'
+<pre>
+// Existing environment named 'user_data'
 // {
 //   auth_token: 'q4yugoiwqu4hlrjksfdm3897ryq3891s',
 //   user_id: '823',
@@ -119,13 +80,10 @@ For example, if you have the following environment and you need to replace it:
 // }
 
 // Replace the 'user_data' environment
-_pm('env.replace', 'user_data', {});</pre>
-
-</div>
-
-</div>
+_pm('env.replace', 'user_data', {});
+</pre>
 
 Note:
 
-*   *   The ``env.replace`` method will return truth on success, false on failure.
-    *   ``env.replace`` cannot be used to replace an environment which does not exist.
+*   The `env.replace` method will return truth on success, false on failure.
+*   `env.replace` cannot be used to replace an environment which does not exist.

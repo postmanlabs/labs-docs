@@ -4,7 +4,7 @@ category:
   - "postman"
   - "monitors"
 title: "Setting up a monitor"
-page_id: "setting_up_a_monitor"
+page_id: "setting_up_monitor"
 tags: 
   - "pro"
 warning: false

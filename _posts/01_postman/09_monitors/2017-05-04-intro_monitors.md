@@ -4,7 +4,7 @@ category:
   - "postman"
   - "monitors"
 title: "Intro to Monitors"
-page_id: "intro_to_monitors"
+page_id: "intro_monitors"
 tags: 
   - "pro"
 warning: false

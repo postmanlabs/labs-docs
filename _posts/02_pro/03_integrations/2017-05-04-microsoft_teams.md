@@ -16,11 +16,11 @@ Currently, we have two ways in which this integration can be configured.
 
 ### Postman monitor run results
 
-You can set up [Postman Monitors](https://www.getpostman.com/docs/Monitors) on your collections which run on the cloud at a scheduled interval. This integration allows you to get notifications about your monitor runs right in Microsoft Teams.
+You can set up [Postman Monitors](/docs/postman/monitors/intro_monitors) on your collections which run on the cloud at a scheduled interval. This integration allows you to get notifications about your monitor runs right in Microsoft Teams.
 
 ### Postman team activity feed
 
-The Postman [activity feed](https://www.getpostman.com/docs/Activity+Feed+and+Restoring+Collections) is the place where you can view all the things taking place within your team. You can monitor the API development within your team and keep track of all the changes. This integration keeps you updated of all the changes in Microsoft Teams itself, so you don't have to go back to Postman to see the team's activity feed.
+The Postman [activity feed](/docs/postman/team_library/activity_feed_and_restoring_collections) is the place where you can view all the things taking place within your team. You can monitor the API development within your team and keep track of all the changes. This integration keeps you updated of all the changes in Microsoft Teams itself, so you don't have to go back to Postman to see the team's activity feed.
 
 ### Get the Microsoft Teams webhook URL
 

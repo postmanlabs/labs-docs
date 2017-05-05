@@ -28,12 +28,13 @@ Postman Pro users currently have access to a dozen of the most requested 3rd pa
 
 Log on to your Dashboard from the [Postman website](https://www.getpostman.com/), and navigate to the [Integrations](https://app.getpostman.com/dashboard/integrations) page to see a list of all the currently available integrations for Postman Pro users.
 
-Click Dashboard. [](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-1.jpg) [![](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-1.jp)](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-1.jpg)
+Click Dashboard. 
+[![](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-1.jpg)](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-1.jpg)
 
 Select the Integrations tab.
 
-[![](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-2.jp)](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-2.jpg)
+[![](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-2.jpg)](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-2.jpg)
 
 Check out the growing list of Postman 3rd party Integrations.
 
-##### [![](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gi)](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)
+[![](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)
