@@ -1,0 +1,35 @@
+---
+category: 
+  - "docs"
+  - "postman"
+  - "launching_postman"
+title: "Sending the first request"
+page_id: "sending_the_first_request"
+warning: false
+---
+
+
+Let's send our first API request! 
+
+*   Enter `[postman-echo.com/get](http://echo.getpostman.com/get)` into the URL field. 
+*   Hit the **Send** button to send your request, and you will see the server response at the bottom with some JSON data. Notice that Postman has added `[postman-echo.com/get](http://echo.getpostman.com/get)` under the **History** tab of the sidebar. 
+
+![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460049.png)
+
+### **How does this work?**
+
+Let's map the process with a simple illustration below:
+
+![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59199174.png)
+
+1.  You enter your request details (URL: postman-echo.com/get) in Postman and hit the Send button
+2.  The request is received by the API server (postman-echo.com) and it returns a response
+3.  The response is received by Postman and it visualizes the response in the interface
+
+### Postman Echo
+
+`[postman-echo.com](http://echo.getpostman.com/)` is a sample API that Postman hosts for you to experiment with various types of requests. It returns the data that you send in the request as part of its response.
+
+ ![](images/icons/emoticons/star_red.pn) Run in Postman button
+
+Import this sample collection and refer to documentation for this sample API [here](https://docs.postman-echo.com/).

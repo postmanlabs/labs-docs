@@ -1,7 +1,8 @@
 ---
-category: "docs"
-title: "Videos"
-page_id: "videos"
+category: 
+  - "docs"
+title: "Reference"
+page_id: "reference"
 warning: false
 ---
 

@@ -39,10 +39,65 @@ warning: false
                   {{page.title}}
                 </a>
               </li>
+            {% else %}
+              <li>
+                <div class="pm-accordion-links" id="accordion">
+                    {% for category in category.children %}
+                      {% assign i = forloop.index0 %}
+                  <div class="pm-accordion-category panel">
+                    <a href="#collapse-{{i}}" class="category-title {% unless i == 0 %}collapsed{% endunless %}" data-toggle="collapse">
+                      {{category.title}}
+                    </a>
+                    <ul id="collapse-{{i}}" class="category-links collapse {% if i == 0 %}in{% endif %}">
+                      {% for page in category.children.children %}
+                        {% if page.video_src.size > 0 %}
+                          <li class="pm-accordion-video-container">
+                            {{page.video_src}}
+                          </li>
+                        {% elsif page.href.size > 0 %}
+                          <li>
+                            <a href="{{page.href}}" {% if page.external  == true %}target="_blank"{% endif %}>
+                              {{page.title}}
+                          </a>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  {% endfor %}
+                </div>
+              </li>
             {% endif %}
           {% endfor %}
         </ul>
       </div>
     {% endfor %}
   </div>
+
+  <!--<div class="pm-accordion-links" id="accordion">-->
+    <!--{% for category in site.data.doc_map %}-->
+      <!--{% assign i = forloop.index0 %}-->
+      <!--<div class="pm-accordion-category panel">-->
+        <!--<a href="#collapse-{{i}}" class="category-title {% unless i == 0 %}collapsed{% endunless %}" data-toggle="collapse">-->
+          <!--{{category.title}}-->
+        <!--</a>-->
+
+        <!--<ul id="collapse-{{i}}" class="category-links collapse {% if i == 0 %}in{% endif %}">-->
+          <!--{% for page in category.children %}-->
+            <!--{% if page.video_src.size > 0 %}-->
+              <!--<li class="pm-accordion-video-container">-->
+                <!--{{page.video_src}}-->
+              <!--</li>-->
+            <!--{% elsif page.href.size > 0 %}-->
+              <!--<li>-->
+                <!--<a href="{{page.href}}" {% if page.external  == true %}target="_blank"{% endif %}>-->
+                  <!--{{page.title}}-->
+                <!--</a>-->
+              <!--</li>-->
+            <!--{% endif %}-->
+          <!--{% endfor %}-->
+        <!--</ul>-->
+      <!--</div>-->
+    <!--{% endfor %}-->
+  <!--</div>-->
 </div>
