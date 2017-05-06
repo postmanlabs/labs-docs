@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "team_library"
@@ -16,7 +16,7 @@ Postman tracks changes made at 3 different levels: collection, team and user.
 
 ##### **Collection**
 
-To review the activity feed at the collection level, expand the angle bracket (>) next to the collection name to open the collection details view. Under the **Activity** tab, review a chronological listing of activities affecting the collection. The activity feed displays who updated the collection, what the updates were, and when they were completed. Consecutive updates on the same session to the same entity are collated for readability.
+To review the activity feed at the collection level, expand the angle bracket (**>**) next to the collection name to open the collection details view. Under the **Activity** tab, review a chronological listing of activities affecting the collection. The activity feed displays who updated the collection, what the updates were, and when they were completed. Consecutive updates on the same session to the same entity are collated for readability.
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58788452.png)
 
@@ -60,9 +60,9 @@ And now the top of the activity feed displays the confirmation of restoring the 
 
 Postman Pro users can pipe the team's activity feed to a communication channel of your choosing with the following integrations
 
-*   *   [Postman Pro to Slack integration](https://www.getpostman.com/docs/Slack)
-    *   [Postman Pro to Slack integration](https://www.getpostman.com/docs/HipChat)
-    *   [Postman Pro to Microsoft Teams integration](https://www.getpostman.com/docs/Microsoft+Teams)  
+   *   [Postman Pro to Slack integration](https://www.getpostman.com/docs/Slack)
+   *   [Postman Pro to Slack integration](https://www.getpostman.com/docs/HipChat)
+   *   [Postman Pro to Microsoft Teams integration](https://www.getpostman.com/docs/Microsoft+Teams)  
 
 ### Upcoming additions to the activity feed
 

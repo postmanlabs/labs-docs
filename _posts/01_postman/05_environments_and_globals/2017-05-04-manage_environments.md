@@ -8,17 +8,17 @@ page_id: "manage_environments"
 warning: false
 ---
 
-Each environment is a set of key-value pairs, with the key as the variable name. These can be edited using the [data editor](https://www.getpostman.com/docs/Data+editor).
+Each environment is a set of key-value pairs, with the key as the variable name. These can be edited using the [data editor](/docs/postman/launching_postman/navigating_postman).
 
-Environment and global variables will always be stored as strings. If you’re storing objects/arrays, be sure to JSON.stringify() them before storing, and JSON.parse() them while retrieving.
+Environment and global variables will always be stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
-### **What are environments?**
+### What are environments?
 
 While working with APIs, you will often need to have different setups. For example, your local machine, the development server, or the production API. Environments give you the ability to customize requests using variables. This way you can easily switch between different setups without changing your requests. You won’t have to worry about remembering all those values once they are in Postman. Environments can be downloaded and saved as JSON files and uploaded later.
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/28.pn)](https://www.getpostman.com/img/v1/docs/source/28.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/28.png)](https://www.getpostman.com/img/v1/docs/source/28.png)
 
-##### Create a new environment
+### Create a new environment
 
 Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". Click the **Add** button to create a new environment.
 
@@ -47,4 +47,4 @@ Click the gear icon in the upper right corner of the Postman app and select "Man
 
 It's a best practice to create a duplicate, remove any sensitive values like passwords and access tokens before downloading the copy to share with someone else.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.
 
-For Postman Pro users, learn how to [share environment templates](https://www.getpostman.com/docs/Sharing) with team members.
+For Postman Pro users, learn how to [share environment templates](/docs/postman/team_library/sharing) with team members.

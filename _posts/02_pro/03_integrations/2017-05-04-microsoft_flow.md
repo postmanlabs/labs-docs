@@ -40,7 +40,8 @@ For different types of integrations, the JSON schema varies. Based on the type o
 
 ##### Monitor Run Results
 
-<pre>{
+```
+{
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {},
   "id": "http://example.com/example.json",
@@ -109,13 +110,15 @@ For different types of integrations, the JSON schema varies. Based on the type o
     }
   },
   "type": "object"
-}</pre>
+}
+```
 
 [https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d](https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d)
 
 ### Collection and Team Activity Feed
 
-<pre>{
+```
+{
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {},
   "id": "http://example.com/example.json",
@@ -158,13 +161,14 @@ For different types of integrations, the JSON schema varies. Based on the type o
     }
   },
   "type": "object"
-}</pre>
+}
+```
 
 [https://gist.github.com/ankitjaggi/b4d90f72c9fdd41dd2e4e0421eca249f](https://gist.github.com/ankitjaggi/b4d90f72c9fdd41dd2e4e0421eca249f)
 
 ### Backup Collections
 
-<pre>
+```
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {},
@@ -178,7 +182,7 @@ For different types of integrations, the JSON schema varies. Based on the type o
   },
   "type": "object"
 }
-</pre>
+```
 
 [https://gist.github.com/ankitjaggi/7ebe8208fe520739e3ab931ffc6c54a7](https://gist.github.com/ankitjaggi/7ebe8208fe520739e3ab931ffc6c54a7)
 

@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman_for_publishers"
   - "run_button"
@@ -16,7 +16,7 @@ The Run in Postman button imports and opens a collection of API endpoints direct
 
 To create the Run in Postman button, start in the Postman app. Make sure you are signed in to your Postman account, and that you have a collection to share.
 
-1.  Click on the ellipses (...) next to the collection you would like to embed and select "Share". 
+1.  Click on the ellipses **(...)** next to the collection you would like to embed and select "Share". 
 
     ![share collection](https://cloud.githubusercontent.com/assets/681190/18237865/29682800-7354-11e6-8991-29f1ed75c5a8.png)
 
@@ -33,11 +33,15 @@ To create the Run in Postman button, start in the Postman app. Make sure you are
 
 Here’s an example markdown snippet:
 
-<pre>[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/:collection_id)</pre>
+```
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/:collection_id)
+```
 
 Here’s an example HTML snippet:
 
-<pre><a href="https://www.getpostman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a></pre>
+```
+<a href="https://www.getpostman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
+```
 
 The `:collection_id` is a placeholder here and will be auto-filled in the markdown snippet.
 

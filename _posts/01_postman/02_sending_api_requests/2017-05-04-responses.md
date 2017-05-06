@@ -2,7 +2,7 @@
 category: 
   - "docs"
   - "postman"
-  - "sending_requests"
+  - "sending_api_requests"
 title: "Responses"
 page_id: "responses"
 warning: false
@@ -24,7 +24,7 @@ If a request has been saved in a collection, you can save responses for that req
 
 The Postman **Body** tab gives you several tools to help you make sense of things quickly. The body can be viewed in one of three views - pretty, raw, and preview.
 
-##### Pretty
+##### **Pretty**
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538803.png)
 
@@ -32,15 +32,15 @@ The pretty mode formats JSON or XML responses so that they are easier to look at
 
 For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If the API does not do this, then you can force formatting through JSON or XML. You can force JSON formatting under the **General** tab within the **SETTINGS** modal by selecting "JSON" from the "Language detection" dropdown.
 
-**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results. A complete set of keyboard shortcuts can be found [here](https://www.getpostman.com/docs/Keyboard+shortcuts).
+**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results. See complete set of [keyboard shortcuts](/docs/postman/launching_postman/navigating_postman).
 
-##### Raw
+##### **Raw**
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538811.png)
 
 The raw view is just a big text area with the response body. It can help to tell whether your response is minified or not.
 
-##### Preview
+##### **Preview**
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538940.png)
 
@@ -66,8 +66,8 @@ Postman breaks down the response size into body and headers. The response sizes 
 
 ### Cookies
 
-Cookies sent by the server are visible in a dedicated tab. To manage cookies in Postman the native apps, use the **MANAGE COOKIES** modal - details [here](https://www.getpostman.com/docs/Cookies). If you're working in the Postman Chrome app, you can use the [Interceptor extension](https://www.getpostman.com/docs/Interceptor) to help manage cookies.
+Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/postman/sending_api_requests/cookies) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension) to help manage cookies.
 
 ### Tests
 
-Along with everything that you get from the server for the request, you can also see the results of the tests that were run against the request. Learn more about [testing](https://www.getpostman.com/docs/Testing) in Postman.
+Along with everything that you get from the server for the request, you can also see the results of the tests that were run against the request. Learn more about [testing](/docs/postman/scripts/test_scripts) in Postman.

@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "api_documentation"
@@ -16,7 +16,7 @@ Your environments and environment templates are automatically synced too and are
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59051870.png)
 
-Within the private documentation view, all of your environments and environment templates will be available to you along with environment templates shared in your Team Library
+Within the private documentation view, all of your environments and environment templates will be available to you along with environment templates shared in your Team Library.
 
 ### Environments in public documentation
 

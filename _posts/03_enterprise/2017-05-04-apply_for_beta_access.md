@@ -1,5 +1,5 @@
 ---
-category:
+categories:
   - "docs"
   - "enterprise"
 title: "Apply for beta access"

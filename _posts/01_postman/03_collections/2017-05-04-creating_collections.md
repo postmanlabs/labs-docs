@@ -12,9 +12,9 @@ warning: false
 
 A Postman Collection lets you group individual requests together. These requests can be further organized into folders. 
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/20.pn)](https://www.getpostman.com/img/v1/docs/source/20.png)
+[![](https://www.getpostman.com/img/v1/docs/thumbs/20.png)](https://www.getpostman.com/img/v1/docs/source/20.png)
 
-### **Why create collections?**
+### Why create collections?
 
 *   **Organization** - Group together requests into folders and collections, so that you don't have to search through your history over and over again.
 *   **Documentation** - Add a name and descriptions to requests, folders, collections. Within Postman, you can use the collection browser to view this documentation. With Postman Pro, you can create and publish beautiful API documentation pages.
@@ -48,4 +48,4 @@ A Postman Collection lets you group individual requests together. These requests
     ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58493990.png)
 2.  Select "Duplicate" from the menu.
 
-Learn how to [share collections](https://www.getpostman.com/docs/Sharing+collections), [importing and exporting collections](https://www.getpostman.com/docs/Exporting+and+Importing+Postman+data), and [other collection features](https://www.getpostman.com/docs/Managing+collections).  
+Learn how to [share collections](/docs/postman/collections/sharing_collections), [importing and exporting collections](/docs/postman/collections/data_formats), and [other collection features](/docs/postman/collections/managing_collections).  

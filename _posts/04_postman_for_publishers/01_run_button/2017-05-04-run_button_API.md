@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman_for_publishers"
   - "run_button"
@@ -14,11 +14,13 @@ The JavaScript Run in Postman button exposes an API via the `_pm()` method. The
 
 A new environment can be dynamically created using the `env.create` method:
 
-<pre>_pm('env.create', 'environment_name', {key: value});</pre>
+```javascript
+_pm('env.create', 'environment_name', {key: value});
+```
 
 For example, if you need to create a new environment using API keys entered by your user, you can do something like this when the Run in Postman button is clicked:
 
-<pre>
+```javascript
 function () {
   var stagingKey = document.getElementById('staging-key-input').value,
     productionKey = document.getElementById('production-key-input').value,
@@ -29,7 +31,7 @@ function () {
 
   _pm('env.create', 'API Keys', envData);
 }
-</pre>
+```
 
 Note:
 
@@ -40,11 +42,14 @@ Note:
 
 An environment which was included in the Run Button embed code or created with `env.create` can be modified using the `env.assign` method:
 
-<pre>_pm('env.assign', 'environment_name', {key: new_value, new_key: value})</pre>
+```javascript
+_pm('env.assign', 'environment_name', {key: new_value, new_key: value})
+```
 
 For example, if you need to update the `API Keys` environment created in the last example:
 
-<pre>
+
+```javascript
 function () {
   var stagingKey = document.getElementById('staging-key-input').value,
     productionKey = document.getElementById('production-key-input').value,
@@ -55,7 +60,7 @@ function () {
 
   _pm('env.assign', 'API Keys', envData);
 }
-</pre>
+```
 
 Note:
 
@@ -67,11 +72,14 @@ Note:
 
 An entire environment can be replaced using the `env.replace` method.
 
-<pre>_pm('env.replace', 'environment_name', {key: value})</pre>
+```javascript
+_pm('env.replace', 'environment_name', {key: value})
+```
 
 For example, if you have the following environment and you need to replace it:
 
-<pre>
+
+```javascript
 // Existing environment named 'user_data'
 // {
 //   auth_token: 'q4yugoiwqu4hlrjksfdm3897ryq3891s',
@@ -81,7 +89,7 @@ For example, if you have the following environment and you need to replace it:
 
 // Replace the 'user_data' environment
 _pm('env.replace', 'user_data', {});
-</pre>
+```
 
 Note:
 

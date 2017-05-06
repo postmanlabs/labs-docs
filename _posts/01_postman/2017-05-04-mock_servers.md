@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman"
 title: "Mock Servers"
@@ -29,7 +29,7 @@ Navigate to every request in the Collection `testAPI` that you would like to i
 
 Let's retrieve the `collectionId` of `testAPI` using the [Postman Pro API](https://api.getpostman.com/). Get a list of all your Collections using the [GET All Collections endpoint](https://api.getpostman.com/#c896-4216-a0a3-aa38-a041d0c2eb72). Search for the name of your Collection and retrieve the `uid` from the results, which will be used as the `collectionId` in the next step.
 
-[![](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.56.19-PM-1024x426.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.56.19-PM.png)
+[![](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.56.19-PM-1024x426.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.56.19-PM.png) 
 
 You can also use the Postman app to retrieve the `collectionId`. Find the Collection in your app and hit `View Docs`. The `collectionId` is visible in the documentation url: 
 
@@ -53,7 +53,7 @@ Verify that the mock has been created using the [GET All Mocks endpoint](https:
 
 ### Run the mock service
 
-Mock your Collection using the following url: 
+**Mock your Collection using the following url:** 
 
 {% raw %} 
 ```
@@ -64,7 +64,7 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
    *   `mockId` is the `id` that you received upon creating the mock and can be retrieved using the [GET All Mocks endpoint](https://api.getpostman.com/#b5d62-f6fc-f752-597e-c1eb4bb98d24).
    *   `mockPath` is the path of your request that you’d like to mock, for example `api/response`.
 
-Add the request header(s):
+**Add the request header(s):**
 
    *   Mock requests require one mandatory header, `x-api-key`, which is your Postman Pro API key for authentication. Don't have a Postman Pro API key? [Create one here.](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list)
    *   Mock requests also accept another optional header, `x-mock-response-code`, which specifies which integer response code your returned response should match.  For example, 500 will return only a 500 response. If this header is not provided, the closest match of any response code will be returned.

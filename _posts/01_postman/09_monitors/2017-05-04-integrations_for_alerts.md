@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman"
   - "monitors"
@@ -24,7 +24,7 @@ The request body of the webhook is available inside the `globals.previousRequest
 
 The following snippet shows the same:
 
-```
+```js
 var previousRequest = JSON.parse(globals.previousRequest),
     webhookRequestData = previousRequest.data;
 

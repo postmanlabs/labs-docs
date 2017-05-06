@@ -22,13 +22,13 @@ Before we get started:
 
 You may skip this step if your CI already has Node installed.
 
-Follow the steps outlined [here](https://nodejs.org/en/download/package-manager/) which is specific to your CI's platform. Otherwise, some CI has configuration which simply pre-installs Node. Ensure you are using NodeJS v4 or above.
+Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) which is specific to your CI's platform. Otherwise, some CI has configuration which simply pre-installs Node. Ensure you are using NodeJS v4 or above.
 
 ### Step 2: Install Newman
 
 [Newman](/docs/postman/collection_runs/command_line_integration_with_newman) is a command-line tool that allows you to run a collection in your system. The following command installs Newman in your CI.
 
-```
+```bash
 npm i newman -g;
 ```
 
@@ -37,7 +37,7 @@ npm i newman -g;
 Run the following Newman command with the appropriate parameters:
 
 {% raw %}
-```
+```bash
 newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}}
 ```
 {% endraw %}
@@ -46,7 +46,7 @@ newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{po
 If you need to provide an environment to the collection, change the above command to the following:
 
 {% raw %}
-```
+```bash
 newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}} --environment https://api.getpostman.com/environments/{{environment_uid}}?apikey={{postman-api-key-here}}
 ```
 {% endraw %}

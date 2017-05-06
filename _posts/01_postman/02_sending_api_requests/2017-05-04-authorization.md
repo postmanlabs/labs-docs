@@ -2,7 +2,7 @@
 category: 
   - "docs"
   - "postman"
-  - "sending_requests"
+  - "sending_api_requests"
 title: "Authorization"
 page_id: "authorization"
 warning: false
@@ -34,11 +34,11 @@ As subsequent OAuth requests might expect a different nonce value, Postman can r
 
 The OAuth 1.0 spec is quite complicated and there are many variations. Postman tries to support as many of those variations as possible but if something does not work for you, [file an issue on Github](https://github.com/postmanlabs/postman-app-support/issues). These are few of the options that we’ve included:
 
-##### Add params to header 
+##### **Add params to header**
 
 If this checkbox is enabled, params are added to the header. If not, the URL params for a GET request, and the request body for POST/PUT requests.
 
-##### Add empty params to signature
+##### **Add empty params to signature**
 
 Some implementations of OAuth1.0 require empty parameters to be added to the signature.
 
@@ -48,11 +48,11 @@ Postman supports getting the OAuth 2.0 token as well as adding it to requests re
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961651.png)
 
-*   *   Click the "Get New Access Token" button to open a modal. You will see `[https://www.getpostman.com/oauth2/callback](https://www.getpostman.com/oauth2/callback)` as the Callback URL.
-    *   From your API provider, get the values for Authorization URL, Access Token URL, Client ID and Client Secret. These values will be provided your API provider. Optionally, you can set the Scope parameter which is needed by some APIs to set the level of access you have within the API.
-    *   Press the “Request Token” button to initiate the OAuth 2.0 flow. If everything is set up properly, you would be redirected to the Postman server which will pick up your access token and send it to the Postman app. To finish adding the token to Postman, give it a name so that you can access it quickly later.
-    *   If your OAuth2 provider is not publicly accessible (hosted locally or on your intranet), make sure the 'Request Access Token Locally' option is enabled.
-    *   Access tokens are stored locally and will show up in the helper list. To add an access token to the request, click the token name.
+   *   Click the "Get New Access Token" button to open a modal. You will see `[https://www.getpostman.com/oauth2/callback](https://www.getpostman.com/oauth2/callback)` as the Callback URL.
+   *   From your API provider, get the values for Authorization URL, Access Token URL, Client ID and Client Secret. These values will be provided your API provider. Optionally, you can set the Scope parameter which is needed by some APIs to set the level of access you have within the API.
+   *   Press the “Request Token” button to initiate the OAuth 2.0 flow. If everything is set up properly, you would be redirected to the Postman server which will pick up your access token and send it to the Postman app. To finish adding the token to Postman, give it a name so that you can access it quickly later.
+   *   If your OAuth2 provider is not publicly accessible (hosted locally or on your intranet), make sure the 'Request Access Token Locally' option is enabled.
+   *   Access tokens are stored locally and will show up in the helper list. To add an access token to the request, click the token name.
 
 ### Hawk authentication
 

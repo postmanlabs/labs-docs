@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman"
   - "monitors"
@@ -22,39 +22,39 @@ Each Postman Pro team gets 10,000 free monthly requests, and it takes only 2 mi
 
 There are currently a few minor differences between Postman Monitors and the Postman app.  If your collection relies on any of these features, then it may not work the same way in Postman Monitors that it does in the Postman app.
 
-##### Variables
+##### **Variables**
 
    *   No global variables
    *   Variables aren't persisted
 
-##### Console Output
+##### **Console Output**
 
    *   Unlike in the Postman app, request & response bodies are not logged to the console by default. This is for security and privacy reasons.
    *   Same goes for potentially-sensitive headers, such as cookies and auth keys
 
-##### Time Limits
+##### **Time Limits**
 
    *   Monitors can currently be scheduled to run as often as every 5 minutes, or as little as once a week. Each run is limited to 2 minutes, including all HTTP requests, responses, and pre-request and test scripts.
 
-##### File Uploads
+##### **File Uploads**
 
    *   Can't attach files to requests, like you can in the request builder
    *   But you CAN upload data as raw request body
 
-##### Multiple Iterations
+##### **Multiple Iterations**
 
    *   Monitors only run 1 iteration by default
    *   But you can use setNextRequest() to do multiple iterations
 
-##### Data Files
+##### **Data Files**
 
    *   Can't attach data files like you can in the runner
    *   But you can access data files from APIs, such as Google Docs, Google Sheets, Dropbox, etc.
 
-##### Accessible APIs
+##### **Accessible APIs**
 
    *   As with the Postman app, the monitors require all URLs to be publicly-available on the Internet. In the future, you will be able to monitor private APIs as well.
 
 ### Pricing for Monitors
 
-Monitors are priced per request made, with some free requests included every month. Learn [more](/docs/postman/monitors/pricing_monitors) about pricing for Monitors.
+Monitors are priced per request made, with some free requests included every month. Learn more about [pricing for Monitors](/docs/postman/monitors/pricing_monitors).

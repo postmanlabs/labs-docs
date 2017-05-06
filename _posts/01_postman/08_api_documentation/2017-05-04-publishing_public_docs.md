@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "api_documentation"
@@ -14,19 +14,19 @@ Published documentation is a way of sharing your API documentation with the worl
 
 ### Generating public documentation
 
-You can only publish documentation for collections that you created or for which you have write permissions. [Open](/docs/postman/api_documentation/viewing_documentation) the docs page for one of your collections. Click the **Publish** button at the top of the screen.
+You can only publish documentation for collections that you created or for which you have write permissions. [Open the docs page](/docs/postman/api_documentation/viewing_documentation) for one of your collections. Click the **Publish** button at the top of the screen.
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59116421.png)  
 
-If you are signed in to Postman, you can select a corresponding environment with which to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment. The public URL field in the screenshot below contains the URL that you can share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so that your documentation is immediately usable for new visitors. 
+If you are signed in to Postman, you can select a corresponding environment with which to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. The public URL field in the screenshot below contains the URL that you can share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so that your documentation is immediately usable for new visitors. 
 
 [![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs4.png)](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs4.png)
 
-> **IMPORTANT:**  Any confidential info in your environment, such as passwords and access tokens,** might be visible publicly. Ensure that all such information is removed from the environment before you publish documentation with an environment.
+> **IMPORTANT:**  Any confidential info in your environment, such as **passwords and access tokens**, might be visible publicly. Ensure that all such information is removed from the environment before you publish documentation with an environment.
 
 The public documentation link will always have the most up-to-date content! You don’t need to keep going through the Publish flow each time you want your docs to be updated.
 
-To unpublish, click the `View Docs` button from your Postman app. Click the Published button near the top of the screen. For a collection that’s already been published, you’ll be able to view the public link or unpublish the collection. 
+To unpublish, click the `View Docs` button from your Postman app. Click the **Published** button near the top of the screen. For a collection that’s already been published, you’ll be able to view the public link or unpublish the collection. 
 
 [![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs5.png)](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs5.png)
 

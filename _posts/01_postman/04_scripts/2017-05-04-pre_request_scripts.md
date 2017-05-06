@@ -14,10 +14,10 @@ For example, to include a timestamp in the request headers, you can set an envir
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58754984.png)
 
-You can then access the **timestampHeader** variable in the header data editor by typing `{{timestampHeader}}`. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of `{{timestampHeader}}`.
+You can then access the **timestampHeader** variable in the header data editor by typing {% raw %}`{{timestampHeader}}`{% endraw %}. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of {% raw %}`{{timestampHeader}}`{% endraw %}.
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755017.png)
 
 **Note:** An environment will have to be active for environment variables to be set.
 
-Pre-request scripts are written in JavaScript, and the syntax is exactly like that of [test scripts](https://www.getpostman.com/docs/jetpacks_writing_tests) except that the response object is not present.
+Pre-request scripts are written in JavaScript, and the syntax is exactly like that of [test scripts](/docs/postman/scripts/test_scripts) except that the response object is not present.

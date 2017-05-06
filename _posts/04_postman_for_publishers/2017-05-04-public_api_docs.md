@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman_for_publishers"
 title: "Public API documentation"

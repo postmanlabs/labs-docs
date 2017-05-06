@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "api_documentation"
@@ -20,7 +20,7 @@ Private documentation is available to all Postman users. To view private documen
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59030701.png)
 
-In the Postman app, expand the right angle bracket (>) next to any collection name to open the collections details view, and then click the **View Docs** button.
+In the Postman app, expand the right angle bracket (**>**) next to any collection name to open the collections details view, and then click the **View Docs** button.
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59030970.png)
 

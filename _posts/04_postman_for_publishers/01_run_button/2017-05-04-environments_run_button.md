@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman_for_publishers"
   - "run_button"
@@ -20,12 +20,12 @@ Select the environment name from the dropdown, as shown in the screenshot above.
 
 Postman also provides an API to programmatically generate an environment client-side.
 
-<pre>
+```javascript
 _pm('env.create', 'Spotify', {
   user_id: 'spotifyuser',
   authorization: 'Bearer 1234xyzd'
 });
-</pre>
+```
 
 A possible application for this would be to pass your signed in user’s access credentials to Postman, as illustrated in the example above.
 

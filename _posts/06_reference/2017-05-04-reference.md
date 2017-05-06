@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
 title: "Reference"
 page_id: "reference"

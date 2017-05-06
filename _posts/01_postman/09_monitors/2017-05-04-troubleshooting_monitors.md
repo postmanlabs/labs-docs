@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman"
   - "monitors"
@@ -12,7 +12,7 @@ warning: false
 
 Postman Monitors are kept in sync with your collections in the Postman app at all times. This means that you can debug in the app locally, while your monitors are updated on our servers, seamlessly.
 
-The best way to debug monitors is via the Postman console available on the monitors web view. Click on the failed monitor, and review the relevant logs under the **Console Log** tab. Check out some tips and tricks for debugging in the console [here](https://postmanlabs.atlassian.net/wiki/pages/resumedraft.action?draftId=58685030&draftShareId=6a07e15d-2e2d-48e0-aec9-4ce63b98b3a0).
+The best way to debug monitors is via the Postman console available on the monitors web view. Click on the failed monitor, and review the relevant logs under the **Console Log** tab. Check out some tips and tricks for [debugging in the console](/docs/postman/sending_api_requests/debugging_and_logs).
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59015378.png)
 
@@ -20,34 +20,28 @@ When a monitor fails, a "_Need help debugging?_" popup will display on the Postm
 
 In addition to the above, here are some debugging tricks:
 
-##### Attempt local runs
+##### **Attempt local runs**
 
 *   Try running the failing monitor's collection with its environment within the Postman app or Newman, and see if it works correctly.
 *   If a local run passes, ensure that sync is enabled within the toolbar header of the Postman app, so that any local changes are persisted.  
-    ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.pn)
+    ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)
 *   You can also force a sync from the **Sync** tab within the **SETTINGS** modal.  
     ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)
 
-##### Variable issues
+##### **Variable issues**
 
 *   Ensure that the same environment is used across local runs and monitor runs. You can confirm this by adding ``console.log(environment);`` to your request scripts and comparing the results across monitoring and local runs.
 *   If your collection run depends on a global variable, change it to an environment variable. Global variables are not supported in monitors at this time.
 
-##### Log relevant information
+##### **Log relevant information**
 
 *   Often, issues come from unexpected response bodies or header values. You can log these with the following:
 
-    <div>
+```js
+console.log(JSON.stringify(responseBody, null, 2));
+console.log(JSON.stringify(responseHeaders, null, 2));
+```
 
-    <div>
-
-    <pre>console.log(JSON.stringify(responseBody, null, 2));
-    console.log(JSON.stringify(responseHeaders, null, 2));</pre>
-
-    </div>
-
-    </div>
-
-##### Uncaught errors
+##### **Uncaught errors**
 
 *   Wrapping suspicious code in a ``try - catch`` block will also let the test and pre-request scripts in your collection run to completion, allowing you to see the entire picture.

@@ -23,7 +23,7 @@ The Postman Sandbox is a JavaScript execution environment that is available to y
 *   `xmlToJson(xmlString)` **Deprecated**: This function does NOT behave the same in Newman and Postman
 *   `postman.getResponseHeader(headerName)` Test-only: returns the response header with name “headerName”, if it exists. Returns null if no such header exists. **Note**: According to W3C specifications, header names are case-insensitive. This method takes care of this. `postman.getResponseHeader("Content-type")` and `postman.getResponseHeader("content-Type")` will return the same value.
 
-Note: jQuery support has been discontinued since version 4.6.0, in favour of [cheerio](https://cheerio.js.org/).
+Note: jQuery support has been discontinued since version 4.6.0, in favor of [cheerio](https://cheerio.js.org/).
 
 ### Environment and global variables
 
@@ -35,8 +35,8 @@ Note: jQuery support has been discontinued since version 4.6.0, in favour of [c
 *   `postman.clearGlobalVariable(variableName)`: Clears the global variable named “variableName”.
 *   `postman.clearEnvironmentVariables()`: Clears all environment variables. You must have an environment selected for this method to work.
 *   `postman.clearGlobalVariables()`: Clears all global variables.
-*   `environment`: A dictionary of variables in the current environment. Use `environment["foo"]` to access the value of the “foo” environment variable. **Note: **This can only be used to read the variable. Use `setEnvironmentVariable` to set a value.
-*   `globals`: A dictionary of global variables. Use `globals["bar"]` to access the value of the “bar” global variable. **Note: **This can only be used to read the variable. Use `setGlobalVariable` to set a value
+*   `environment`: A dictionary of variables in the current environment. Use `environment["foo"]` to access the value of the “foo” environment variable. **Note:** This can only be used to read the variable. Use `setEnvironmentVariable()` to set a value.
+*   `globals`: A dictionary of global variables. Use `globals["bar"]` to access the value of the “bar” global variable. **Note:** This can only be used to read the variable. Use `setGlobalVariable()` to set a value
 
 ### Dynamic variables
 
@@ -54,8 +54,8 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 ### Request/response related properties
 
 *   `request {object}`: Postman makes the request object available to you while writing scripts. This object is read-only. Changing properties of this object will have no effect. Note: Variables will NOT be resolved in the request object. The request object is composed of the following:
-    *   `data {object}` - this is a dictionary of form data for the request. (request.data[“key”]==”value”)
-    *   `headers {object}` - this is a dictionary of headers for the request (request.headers[“key”]==”value”)
+    *   `data {object}` - this is a dictionary of form data for the request. (`request.data[“key”]==”value”`)
+    *   `headers {object}` - this is a dictionary of headers for the request (`request.headers[“key”]==”value”`)
     *   `method {string}` - GET/POST/PUT etc.
     *   `url {string}` - the url for the request.
 *   `responseHeaders {object}` **Deprecated**, **Test-only**: This is a map of the response headers. This is case-sensitive, and should not be used. Check the `postman.getResponseHeader()` method listed above.
@@ -76,4 +76,4 @@ If you’re using [data files](http://blog.getpostman.com/index.php/2014/10/28/
 
 ### pm.* APIs
 
-Review [Postman Sandbox API Reference](https://www.getpostman.com/docs/Postman+Sandbox+API+reference).
+Review [Postman Sandbox API Reference](/docs/postman/scripts/postman_sandbox_api_reference).

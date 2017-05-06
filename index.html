@@ -19,55 +19,67 @@ warning: false
     <div class="clear-text"></div>
   </div>
 
-  <div class="pm-accordion-links" id="accordion">
-    {% for category in site.data.doc_map %}
-      {% assign i = forloop.index0 %}
+  <div class="pm-accordion-links" id="productAccordion">
+    {% for product in site.data.doc_map %}
+      {% assign product_index = forloop.index0 %}
       <div class="pm-accordion-category panel">
-        <a href="#collapse-{{i}}" class="category-title {% unless i == 0 %}collapsed{% endunless %}" data-toggle="collapse">
-          {{category.title}}
+        <a href="#collapse-{{product_index}}" class="category-title {% unless product_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
+          {{product.title}}
         </a>
-
-        <ul id="collapse-{{i}}" class="category-links collapse {% if i == 0 %}in{% endif %}">
-          {% for page in category.children %}
-            {% if page.video_src.size > 0 %}
-              <li class="pm-accordion-video-container">
-                {{page.video_src}}
-              </li>
-            {% elsif page.href.size > 0 %}
-              <li>
-                <a href="{{page.href}}" {% if page.external  == true %}target="_blank"{% endif %}>
-                  {{page.title}}
-                </a>
-              </li>
-            {% else %}
-              <li>
-                <div class="pm-accordion-links" id="accordion">
-                    {% for category in category.children %}
-                      {% assign i = forloop.index0 %}
+        <ul id="collapse-{{product_index}}" class="category-links collapse {% if product_index == 0 %}in{% endif %}">
+          {% for category in product.children %}
+            {% assign category_index = forloop.index0 %}
+            <div class="pm-accordion-category panel">
+              {% if category.video_src %}
+                <li class="pm-accordion-video-container">
+                  {{category.video_src}}
+                </li>
+              {% elsif category.href %}
+                <li>
+                  <a href="{{category.href}}" {% if category.external == true %}target="_blank"{% endif %}>
+                    {{category.title}}
+                  </a>
+                </li>
+              {% else %}
+                <li>
                   <div class="pm-accordion-category panel">
-                    <a href="#collapse-{{i}}" class="category-title {% unless i == 0 %}collapsed{% endunless %}" data-toggle="collapse">
+                    <a href="#collapse-{{category_index}}" class="category-title {% unless category_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
                       {{category.title}}
                     </a>
-                    <ul id="collapse-{{i}}" class="category-links collapse {% if i == 0 %}in{% endif %}">
-                      {% for page in category.children.children %}
-                        {% if page.video_src.size > 0 %}
-                          <li class="pm-accordion-video-container">
-                            {{page.video_src}}
-                          </li>
-                        {% elsif page.href.size > 0 %}
-                          <li>
-                            <a href="{{page.href}}" {% if page.external  == true %}target="_blank"{% endif %}>
-                              {{page.title}}
-                          </a>
-                          </li>
-                        {% endif %}
-                      {% endfor %}
+                    <ul id="collapse-{{category_index}}" class="category-links collapse {% if category_index == 0 %}in{% endif %}">
+
+
+
+                      <div class="pm-accordion-links" id="featureAccordion">
+                        {% for feature in category.children %}
+                          {% assign feature_index = forloop.index0 %}
+                          <div class="pm-accordion-feature panel">
+                            <a href="#collapse-{{feature_index}}" class="category-title {% unless feature_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
+                              {{category.title}}
+                            </a>
+                            <ul id="collapse-{{feature_index}}" class="category-links collapse {% if feature_index == 0 %}in{% endif %}">
+                              <div class="pm-accordion-links" id="dirChildPageAccordion">
+                                {% if feature.video_src %}
+                                  <li class="pm-accordion-video-container">
+                                    {{feature.video_src}}
+                                  </li>
+                                {% elsif feature.href %}
+                                  <li>
+                                    <a href="{{feature.href}}" {% if feature.external == true %}target="_blank"{% endif %}>
+                                      {{feature.title}}
+                                  </a>
+                                  </li>
+                                {% endif %}
+                              </div>
+                            </ul>
+                          </div>
+                        {% endfor %}
+                      </div>
                     </ul>
                   </div>
-                  {% endfor %}
-                </div>
-              </li>
-            {% endif %}
+                </li>
+              {% endif %}
+            </div>
           {% endfor %}
         </ul>
       </div>

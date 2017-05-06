@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman"
   - "monitors"
@@ -10,7 +10,7 @@ tags:
 warning: false
 ---
 
-Usage of Postman Monitors is billed on a per-request basis. A request is any HTTP request needed to run your collection. If you collection has 5 requests, but you've used "postman.setNextRequest()" to skip some requests, or run requests multiple times, you'll be billed according to the number of requests actually made, not the number of requests in your collection. Any requests needed for the auth helpers (Digest Auth, OAuth, etc.) will also be included in your usage count.
+Usage of Postman Monitors is billed on a per-request basis. A request is any HTTP request needed to run your collection. If you collection has 5 requests, but you've used `postman.setNextRequest()` to skip some requests, or run requests multiple times, you'll be billed according to the number of requests actually made, not the number of requests in your collection. Any requests needed for the auth helpers (Digest Auth, OAuth, etc.) will also be included in your usage count.
 
 Each Pro/Enterprise team gets 10,000 free requests per month. The first month starts the day you send your first monitoring request, or when you set up a monthly block for your team.
 
@@ -22,13 +22,13 @@ Teams on the free Pro trial cannot go beyond this limit. They will have to wait 
 *   For a more predictable billing pattern, you can configure "blocks" of requests for your team (more detail below).
 *   You'll be charged (for configured blocks + any overage requests) at the end of the monitoring billing cycle. We'll attempt to charge your card if one is saved under your account. If there's none, or we're unable to charge your card, we'll send you an invoice at your registered billing email, payable within 30 days.
 
-### **Request blocks for paid Pro teams**
+### Request blocks for paid Pro teams
 
 On the [billing page](https://app.getpostman.com/pay/billing), paid teams can configure "blocks" of requests to save on monitoring charges. Each request block gives you 500,000 requests at $200, and is auto-renewed each month. If you set up monitoring blocks before sending your first monitoring request, your monitoring billing cycle will start from the day you set up the blocks. You may increase or decrease your block count at any time during the billing cycle, but the cost of extra blocks will not be prorated.
 
 At the end of each billing cycle, you'll be charged $200 for each block configured, plus $0.75 per 1000 requests made over your block limit.
 
-##### Example:
+##### **Example:**
 
 If a paid team has configured 2 blocks, and makes 1,200,000 requests in a billing cycle, they will be charged: (2 blocks * $200/block) + ($0.75 * 190) = $542.50 for that cycle.
 
@@ -38,6 +38,6 @@ Overage requests: 1,200,000 - 1,010,000 = 190,000
 
 Note that unused requests don't "roll-over" to the next month.
 
-### **Tracking Usage**
+### Tracking Usage
 
-Team admins can use the ‘Track Usage’ link on the monitor dashboard to check how many requests the team has made that month.
+Team admins can use the "Track Usage" link on the monitor dashboard to check how many requests the team has made that month.
