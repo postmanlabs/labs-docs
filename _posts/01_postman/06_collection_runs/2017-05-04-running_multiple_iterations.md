@@ -32,4 +32,4 @@ When working with multiple iterations, it can quickly become tedious to switch b
 
 This screen is, as the name suggests, an overview of your run. Here, you can see each request, and its pass/fail status as a timeline. A request is treated as `Passed` if all tests inside it pass. Similarly, if one or more tests fail, the request is marked as `Failed`.
 
-The numbers in the header represent the iteration you are working with. It becomes very easy to pinpoint the test that is misbehaving. Clicking on an iteration in the header will take you to that iteration, so you can further investigate what might be going wrong. Read more about debugging collection runs [here](https://www.getpostman.com/docs/Debugging+a+collection+run).
+The numbers in the header represent the iteration you are working with. It becomes very easy to pinpoint the test that is misbehaving. Clicking on an iteration in the header will take you to that iteration, so you can further investigate what might be going wrong. Read more about [debugging collection runs](/docs/postman/collection_runs/debugging_a_collection_run).

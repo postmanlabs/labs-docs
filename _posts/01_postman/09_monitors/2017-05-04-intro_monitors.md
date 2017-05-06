@@ -10,14 +10,13 @@ tags:
 warning: false
 ---
 
-
 ### What is a monitor
 
-A monitor lets you run a [collection](https://www.getpostman.com/docs/Collections) periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes to check if all the requests in your collection are up and healthy. 
+A monitor lets you run a [collection](/docs/postman/collections/creating_collections) periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes to check if all the requests in your collection are up and healthy. 
 
-When you set up a monitor, Postman servers will hit the endpoints in your collection according to the specified frequency. You can also select a corresponding [environment](https://www.getpostman.com/docs/Environments+and+globals) to use and store variables. If you have written [tests](https://www.getpostman.com/docs/Test+scripts) for your requests , the monitor would run these tests to validate the response and notify you when a test fails. You can configure how to receive the alerts from a wide number of [integrations](https://www.getpostman.com/docs/Integrations) available.
+When you set up a monitor, Postman servers will hit the endpoints in your collection according to the specified frequency. You can also select a corresponding [environment](/docs/postman/environments_and_globals/manage_environments) to use and store variables. If you have written [tests](/docs/postman/scripts/test_scripts) for your requests , the monitor would run these tests to validate the response and notify you when a test fails. You can configure how to receive the alerts from a wide number of [integrations](/docs/pro/integrations/intro_integrations) available.
 
-Each Postman Pro team gets 10,000 free monthly requests, and it takes only 2 minutes to set up a monitor. Learn more about [monitor pricing](https://www.getpostman.com/docs/Pricing+for+Monitors) and [getting started with monitors](https://www.getpostman.com/docs/Setting+up+a+monitor).
+Each Postman Pro team gets 10,000 free monthly requests, and it takes only 2 minutes to set up a monitor. Learn more about [monitor pricing](/docs/postman/monitors/pricing_monitors) and [getting started with monitors](/docs/postman/monitors/setting_up_monitor).
 
 ### Differences between Monitors and the Postman app
 
@@ -25,37 +24,37 @@ There are currently a few minor differences between Postman Monitors and the Pos
 
 ##### Variables
 
-*   *   No global variables
-    *   Variables aren't persisted
+   *   No global variables
+   *   Variables aren't persisted
 
 ##### Console Output
 
-*   *   Unlike in the Postman app, request & response bodies are not logged to the console by default. This is for security and privacy reasons.
-    *   Same goes for potentially-sensitive headers, such as cookies and auth keys
+   *   Unlike in the Postman app, request & response bodies are not logged to the console by default. This is for security and privacy reasons.
+   *   Same goes for potentially-sensitive headers, such as cookies and auth keys
 
 ##### Time Limits
 
-*   *   Monitors can currently be scheduled to run as often as every 5 minutes, or as little as once a week. Each run is limited to 2 minutes, including all HTTP requests, responses, and pre-request and test scripts.
+   *   Monitors can currently be scheduled to run as often as every 5 minutes, or as little as once a week. Each run is limited to 2 minutes, including all HTTP requests, responses, and pre-request and test scripts.
 
 ##### File Uploads
 
-*   *   Can't attach files to requests, like you can in the request builder
-    *   But you CAN upload data as raw request body
+   *   Can't attach files to requests, like you can in the request builder
+   *   But you CAN upload data as raw request body
 
 ##### Multiple Iterations
 
-*   *   Monitors only run 1 iteration by default
-    *   But you can use setNextRequest() to do multiple iterations
+   *   Monitors only run 1 iteration by default
+   *   But you can use setNextRequest() to do multiple iterations
 
 ##### Data Files
 
-*   *   Can't attach data files like you can in the runner
-    *   But you can access data files from APIs, such as Google Docs, Google Sheets, Dropbox, etc.
+   *   Can't attach data files like you can in the runner
+   *   But you can access data files from APIs, such as Google Docs, Google Sheets, Dropbox, etc.
 
 ##### Accessible APIs
 
-*   *   As with the Postman app, the monitors require all URLs to be publicly-available on the Internet. In the future, you will be able to monitor private APIs as well.
+   *   As with the Postman app, the monitors require all URLs to be publicly-available on the Internet. In the future, you will be able to monitor private APIs as well.
 
 ### Pricing for Monitors
 
-Monitors are priced per request made, with some free requests included every month. Learn [more](https://www.getpostman.com/docs/Pricing+for+Monitors) about pricing for Monitors.
+Monitors are priced per request made, with some free requests included every month. Learn [more](/docs/postman/monitors/pricing_monitors) about pricing for Monitors.

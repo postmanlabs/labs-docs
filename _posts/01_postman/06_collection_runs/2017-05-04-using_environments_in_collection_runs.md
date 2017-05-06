@@ -8,7 +8,7 @@ page_id: "using_environments_in_collection_runs"
 warning: false
 ---
 
-Environments allow you to create robust requests that can be re-used. Read more about environments [here](https://www.getpostman.com/docs/Environments+and+globals).
+Environments allow you to create robust requests that can be re-used. Read more about [using variables and environments](/docs/postman/environments_and_globals/variables).
 
 Environments can also be used in the Collection Runner. Let's look at an example collection, with one POST request that uses environment variables in its URL, body, and test script. Download the sample collection: [collection.json](attachments/58498858/58704104.json). The request expects the value of `foo` in the response body to be equal to `bar`. Let us also assume that after some computation, we're resetting the value of this variable to `bar2`.
 
@@ -24,5 +24,5 @@ However, if you still want to make variable changes `Persist`, you can use the `
 
 ##### Download the collection and environment used in this example:
 
-*   *   [collection.json](attachments/58498858/58704104.json)
-    *   [environment.json](attachments/58498858/58704090.json)
+   *   [collection.json](attachments/58498858/58704104.json)
+   *   [environment.json](attachments/58498858/58704090.json)

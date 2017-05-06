@@ -8,7 +8,7 @@ page_id: "variables"
 warning: false
 ---
 
-### **What are variables?**
+### What are variables?
 
 Variables are symbols that can take different values. You might be familiar with variables from other languages from your prior programming experience. Variables in Postman work the same way. 
 

@@ -14,8 +14,8 @@ We can think of data files are parameters for each iteration of a collection run
 
 ##### Download the collection and data files used in this example:
 
-*   *   [Collection.json](attachments/58499102/58533790.json)
-    *   [JSON](attachments/58499102/58702589.json), [CSV](attachments/58499102/58702574.csv)
+   *   [Collection.json](attachments/58499102/58533790.json)
+   *   [JSON](attachments/58499102/58702589.json), [CSV](attachments/58499102/58702574.csv)
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702680.png)
 
@@ -27,6 +27,7 @@ Let's investigate the data files first. We currently support JSON & CSV files.
 
 The JSON data file looks like this:
 
+```
     [{
       "path": "post",
       "value": "1"
@@ -40,16 +41,19 @@ The JSON data file looks like this:
       "path": "post",
       "value": "4"
     }]
+```
 
 This is an array of objects. Each object represents the variable values for one iteration. Each member of this object represents a variable. In this way, in the first iteration, the variable called `path` will have the value `post`, and the variable `value` will have the value `1`. Similarly, in the second iteration, `path` will still be `post` and `value` will be `2`. In this example, the variable `path` does not change it's value over iterations, but `value` does. This is totally up to you.
 
 The data file can also be a CSV. The example CSV looks like this:
 
+```
     path, value
     post, 1
     post, 2
     post, 3
     post, 4
+```
 
 In typical CSV fashion, the first row represents all variable names, and subsequent rows represent values for these variables for each iteration. For iteration 1, `path` has value `post`, and `value` is `1`. For the second iteration, `path` is still `post`, but `value` is `1`.
 
@@ -57,9 +61,11 @@ Do note that you can only use one data file for one run.
 
 Now that you understand how to construct data files, let's supply this data file to a Collection Run. Click `Select File` in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking on `Preview` next to the file name.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)             ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58703253.png)
+![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)             
 
-Let's run our collection now. You'll see that all tests pass now. If you open up the request debug tooltip, and expand `Request Body`, you'll see that the variable `{{value}}` was replaced by the value, as dictated by the data file (To read more about debugging requests, check [this](https://www.getpostman.com/docs/Debugging+a+collection+run) out). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
+![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58703253.png)
+
+Let's run our collection now. You'll see that all tests pass now. If you open up the request debug tooltip, and expand `Request Body`, you'll see that the variable `{{value}}` was replaced by the value, as dictated by the data file. Read more about [debugging requests](/docs/postman/collection_runs/debugging_a_collection_run). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)
 

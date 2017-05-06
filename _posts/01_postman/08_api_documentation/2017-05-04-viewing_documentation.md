@@ -24,9 +24,9 @@ In the Postman app, expand the right angle bracket (>) next to any collection na
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59030970.png)
 
-To view documentation for your team’s collections in the Postman app, you’ll see a similar **View Docs** button in your [Team Library](https://www.getpostman.com/docs/Team+Library). 
+To view documentation for your team’s collections in the Postman app, you’ll see a similar **View Docs** button in your [Team Library](/docs/postman/team_library/sharing). 
 
-[![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs2.pn)](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs2.png)
+[![](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs2.png)](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs2.png)
 
 Clicking this button will open the documentation for that collection in your browser. You’ll be able to browse all folders and requests in the collection, and see what the requests and code snippets look like with different environments selected.
 
@@ -42,4 +42,4 @@ The public view is accessible via the public link, generated when you publish yo
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59031795.png)
 
-If you choose a verified custom domain, then your public documentation will also be available from your custom domain. For more information about using a custom domain, read about [adding and verifying custom domains](https://www.getpostman.com/docs/Adding+and+verifying+custom+domains).
+If you choose a verified custom domain, then your public documentation will also be available from your custom domain. For more information about using a custom domain, read about [adding and verifying custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains).
