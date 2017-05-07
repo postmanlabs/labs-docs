@@ -12,52 +12,51 @@
             {% for link in product.children %}
                 {% assign linkhref = link.href | split: '/' | last %}
                 {% if linkhref == pageurl %}
-                {% assign openPanel = product_index %}
+                    {% assign openPanel = product_index %}
                 {% endif %}
             {% endfor %}
-        <div class="pm-accordion-category panel">
-            <a href="#collapse-product-{{product_index}}" class="category-title {% unless product_index == openPanel %}collapsed{% endunless %}" data-toggle="collapse">
-                {{product.title}}
-            </a>
+            <div class="pm-accordion-category panel">
+                <a href="#collapse-product-{{product_index}}" class="category-title {% unless product_index == openPanel %}collapsed{% endunless %}" data-toggle="collapse">
+                    {{product.title}}
+                </a>
 
-            <ul id="collapse-product-{{product_index}}" class="category-links collapse {% if product_index == openPanel %}in{% endif %}">
-                {% for category in product.children %}
-                {% assign category_index = forloop.index0 %}
-                {% if category.href.size > 0 %}
-                <li>
-                    <a href="{{category.href}}">
-                       {% if category.external  == true %}target="_blank"{% endif %}
-                       {% if pageurl == linkhref %}class="active"{% endif %}
-                       {{category.title}}
-                    </a>
-                </li>
-                {% else %}
-                <li>
-                    <div class="pm-accordion-category panel">
-                        <a href="#collapse-category-{{product_index}}-{{category_index}}" class="category-title {% unless category_index == openPanel %}collapsed{% endunless %}" data-toggle="collapse">
-                                        {{category.title}}
-                        </a>
-
-                        <ul id="collapse-category-{{product_index}}-{{category_index}}" class="category-links collapse {% if category_index == 0 %}in{% endif %}">
-                          {% for feature in category.children %}
-                          {% assign feature_index = forloop.index0 %}
-                            {% if feature.href %}
-                              <li>
-                                <a href="{{feature.href}}" {% if feature.external == true %}target="_blank"{% endif %}>
-                                  {{feature.title}}
+                <ul id="collapse-product-{{product_index}}" class="category-links collapse {% if product_index == openPanel %}in{% endif %}">
+                    {% for category in product.children %}
+                        {% assign category_index = forloop.index0 %}
+                        {% if category.href.size > 0 %}
+                        <li>
+                            <a href="{{category.href}}">
+                               {% if category.external  == true %}target="_blank"{% endif %}
+                               {% if pageurl == linkhref %}class="active"{% endif %}
+                               {{category.title}}
+                            </a>
+                        </li>
+                        {% else %}
+                        <li>
+                            <div class="pm-accordion-category panel">
+                                <a href="#collapse-category-{{product_index}}-{{category_index}}" class="category-title {% unless category_index == openPanel %}collapsed{% endunless %}" data-toggle="collapse">
+                                                {{category.title}}
                                 </a>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
-                        </ul>
-                      </div>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
+
+                                <ul id="collapse-category-{{product_index}}-{{category_index}}" class="category-links collapse {% if category_index == 0 %}in{% endif %}">
+                                  {% for feature in category.children %}
+                                  {% assign feature_index = forloop.index0 %}
+                                    {% if feature.href %}
+                                      <li>
+                                        <a href="{{feature.href}}" {% if feature.external == true %}target="_blank"{% endif %}>
+                                          {{feature.title}}
+                                        </a>
+                                      </li>
+                                    {% endif %}
+                                  {% endfor %}
+                                </ul>
+                              </div>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
             </div>
-          {% endfor %}
-        </div>
+        {% endfor %}
     </div>
 </div>
 

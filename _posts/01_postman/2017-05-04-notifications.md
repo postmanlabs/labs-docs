@@ -9,7 +9,7 @@ tags:
 warning: false
 ---
 
-The Postman app notifies you in case of some important events. These notifications can be accessed by clicking on the ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59084883.png)icon in header bar.
+The Postman app notifies you in case of some important events. These notifications can be accessed by clicking on the ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59084883.png) icon in header bar.
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59085470.png)
 
