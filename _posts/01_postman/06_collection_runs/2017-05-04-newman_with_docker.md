@@ -6,6 +6,8 @@ categories:
 title: "Newman with Docker"
 page_id: "newman_with_docker"
 warning: false
+tags:
+  - "newman"
 ---
 
 ### For Mac and Ubuntu

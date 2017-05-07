@@ -273,7 +273,7 @@
         ]
       },
       {
-        "title": "API Documentation",
+        "title": "API documentation",
         "children": [
           {
             "title": "Intro to API documentation",
@@ -406,7 +406,7 @@
             "external": false
           },
           {
-            "title": "Continuous Integration",
+            "title": "Continuous integration",
             "href":"/docs/pro/pro_api/continuous_integration",
             "external": false
           }
@@ -416,7 +416,7 @@
         "title": "Integrations",
         "children": [
           {
-            "title": "Intro to Integrations",
+            "title": "Intro to integrations",
             "href":"/docs/pro/integrations/intro_integrations",
             "external": false
           },

@@ -1,0 +1,54 @@
+<!-- Populate the next and previous links based on site.data.doc_map -->
+{% assign categories = site.data.doc_map %}
+{% assign pageurl = page.url | split: '/' | last %}
+{% for category in categories %}
+    {% assign catIndex = forloop.index0 %}
+    {% for article in category.children %}
+        {% assign articlehref = article.href | split: '/' | last %}
+        {% if articlehref == pageurl %}
+            {% assign articleIndex = forloop.index0 %}
+
+            {% assign nextArticleIndex = articleIndex | plus: 1 %}
+            {% assign nextCatIndex = catIndex | plus: 1 %}
+            {% assign nextCategory = categories[nextCatIndex] %}
+
+            {% if category.children[nextArticleIndex] %}
+                {% assign next = category.children[nextArticleIndex] %}
+            {% elsif nextCategory.children.first %}
+                {% assign next = nextCategory.children.first %}
+            {% endif %}
+
+            {% assign prevArticleIndex = articleIndex | minus: 1 %}
+            {% assign prevCatIndex = catIndex | minus: 1 %}
+            {% assign prevCategory = categories[prevCatIndex] %}
+
+            {% if prevArticleIndex >= 0 and category.children[prevArticleIndex] %}
+                {% assign prev = category.children[prevArticleIndex] %}
+            {% elsif prevCategory.children.last %}
+                {% assign prev = prevCategory.children.last %}
+            {% endif %}
+
+            <div class="doc-next-link clearfix">
+                {% if prev.title %}
+                <a href="{{prev.href}}" {% if prev.external == true %}target="_blank"{% endif %} class="col-sm-6 col-xs-12 prev-article">
+                    {{prev.title}}
+                </a>
+                {% endif %}
+
+                {% if next.title %}
+                <a href="{{next.href}}" {% if next.external == true %}target="_blank"{% endif %} class="col-xs-6 hidden-xs next-article pull-right">
+                    {{next.title}}
+                </a>
+                {% endif %}
+            </div>
+
+            {% if next.title %}
+            <div class="doc-next-link clearfix visible-xs">
+                <a href="{{next.href}}" {% if next.external == true %}target="_blank"{% endif %} class="col-xs-12 next-article pull-right">
+                    {{next.title}}
+                </a>
+            </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}

@@ -43,10 +43,10 @@ warning: false
               {% else %}
                 <li>
                   <div class="pm-accordion-category panel">
-                    <a href="#collapse-category-{{category_index}}" class="category-title {% unless category_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
+                    <a href="#collapse-category-{{product_index}}-{{category_index}}" class="category-title {% unless category_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
                       {{category.title}}
                     </a>
-                    <ul id="collapse-category-{{category_index}}" class="category-links collapse {% if category_index == 0 %}in{% endif %}">
+                    <ul id="collapse-category-{{product_index}}-{{category_index}}" class="category-links collapse {% if category_index == 0 %}in{% endif %}">
 
                       {% for feature in category.children %}
                       {% assign feature_index = forloop.index0 %}
