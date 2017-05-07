@@ -256,7 +256,7 @@
             "external": false
           },
           {
-            "title": "Activity Feed and restoring collections",
+            "title": "Activity feed and restoring collections",
             "href": "/docs/postman/team_library/activity_feed_and_restoring_collections",
             "external": false
           },
@@ -276,12 +276,12 @@
         "title": "API Documentation",
         "children": [
           {
-            "title": "Intro to API Documentation",
+            "title": "Intro to API documentation",
             "href": "/docs/postman/api_documentation/intro_to_api_documentation",
             "external": false
           },
           {
-            "title": "Viewing Documentation",
+            "title": "Viewing documentation",
             "href": "/docs/postman/api_documentation/viewing_documentation",
             "external": false
           },
@@ -321,7 +321,7 @@
             "external": false
           },
           {
-            "title": "Viewing Monitor Results",
+            "title": "Viewing monitor results",
             "href": "/docs/postman/monitors/viewing_monitor_results",
             "external": false
           },

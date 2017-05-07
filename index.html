@@ -23,10 +23,10 @@ warning: false
     {% for product in site.data.doc_map %}
       {% assign product_index = forloop.index0 %}
       <div class="pm-accordion-category panel">
-        <a href="#collapse-{{product_index}}" class="category-title {% unless product_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
+        <a href="#collapse-product-{{product_index}}" class="category-title {% unless product_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
           {{product.title}}
         </a>
-        <ul id="collapse-{{product_index}}" class="category-links collapse {% if product_index == 0 %}in{% endif %}">
+        <ul id="collapse-product-{{product_index}}" class="category-links collapse {% if product_index == 0 %}in{% endif %}">
           {% for category in product.children %}
             {% assign category_index = forloop.index0 %}
             <div class="pm-accordion-category panel">
@@ -43,38 +43,26 @@ warning: false
               {% else %}
                 <li>
                   <div class="pm-accordion-category panel">
-                    <a href="#collapse-{{category_index}}" class="category-title {% unless category_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
+                    <a href="#collapse-category-{{category_index}}" class="category-title {% unless category_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
                       {{category.title}}
                     </a>
-                    <ul id="collapse-{{category_index}}" class="category-links collapse {% if category_index == 0 %}in{% endif %}">
+                    <ul id="collapse-category-{{category_index}}" class="category-links collapse {% if category_index == 0 %}in{% endif %}">
 
-
-
-                      <div class="pm-accordion-links" id="featureAccordion">
-                        {% for feature in category.children %}
-                          {% assign feature_index = forloop.index0 %}
-                          <div class="pm-accordion-feature panel">
-                            <a href="#collapse-{{feature_index}}" class="category-title {% unless feature_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
-                              {{category.title}}
+                      {% for feature in category.children %}
+                      {% assign feature_index = forloop.index0 %}
+                        {% if feature.video_src %}
+                          <li class="pm-accordion-video-container">
+                            {{feature.video_src}}
+                          </li>
+                        {% elsif feature.href %}
+                          <li>
+                            <a href="{{feature.href}}" {% if feature.external == true %}target="_blank"{% endif %}>
+                              {{feature.title}}
                             </a>
-                            <ul id="collapse-{{feature_index}}" class="category-links collapse {% if feature_index == 0 %}in{% endif %}">
-                              <div class="pm-accordion-links" id="dirChildPageAccordion">
-                                {% if feature.video_src %}
-                                  <li class="pm-accordion-video-container">
-                                    {{feature.video_src}}
-                                  </li>
-                                {% elsif feature.href %}
-                                  <li>
-                                    <a href="{{feature.href}}" {% if feature.external == true %}target="_blank"{% endif %}>
-                                      {{feature.title}}
-                                  </a>
-                                  </li>
-                                {% endif %}
-                              </div>
-                            </ul>
-                          </div>
-                        {% endfor %}
-                      </div>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+
                     </ul>
                   </div>
                 </li>
