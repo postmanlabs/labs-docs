@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "collection_runs"
@@ -14,21 +14,21 @@ To run [Newman](https://github.com/postmanlabs/newman) in [Docker](https://ww
 
 1\. Go to Docker Hub and pull your copy [here](http://registry.hub.docker.com/u/postman/newman_ubuntu1404).
 
-2\. Ensure you have docker installed and running in your system. Docker has extensive installation guideline for popular operating systems. Choose your operating system and follow the instructions. A quick test to see if docker is installed correctly is to execute the following command, ensuring that it runs without errors.
+2\. Ensure you have Docker installed and running in your system. Docker has extensive installation guideline for popular operating systems. Choose your operating system and follow the instructions. A quick test to see if docker is installed correctly is to execute the following command, ensuring that it runs without errors.
 
-```
+```bash
 $ docker run hello-world
 ```
 
 3\. Pull the Newman docker image.
 
-```
+```bash
 $ docker pull postman/newman_ubuntu1404
 ```
 
 4\. Run Newman commands on the image.
 
-```
+```bash
 $ docker run -t postman/newman_ubuntu1404 --url="https://www.getpostman.com/collections/8a0c9bc08f062d12dcda"
 ```
 

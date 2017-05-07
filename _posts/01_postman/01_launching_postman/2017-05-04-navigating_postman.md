@@ -1,5 +1,5 @@
 ---
-category: 
+categories: 
   - "docs"
   - "postman"
   - "launching_postman"
@@ -88,6 +88,8 @@ By default, Postman assumes that you want to work on one collection request in 
 
 Within the request builder, drag and drop tabs to reorder them as you see fit. Open a new request in a new tab, or in a new Postman window. Open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
 
+***
+
 ### Keyboard Shortcuts
 
 Keyboard usability is high on the priority list for any dev tool. For most developers, it’s a more efficient input method, requiring minimum movement and effort compared to a mouse or other pointing device. It also saves time, and for repetitive or well-frequented tasks, this can bring about a huge improvement in speed over the long run.
@@ -123,7 +125,7 @@ Different operating systems will have different shortcuts.  You can always view
 | Switch To Tab at Position   |   ⌘ 1 through ⌘ 8     | Ctrl + 1 through Ctrl + 8   |
 | Switch To Last Tab   |   ⌘ 9     | Ctrl + 9   |
 | Open Request from Sidebar in New Tab   |   ⌥ ⌘ (click)     | Ctrl + Shift + (click)   |
-| **REQUEST**   |   ---     |  ---  |
+| **REQUEST**   |        |    |
 | Request URL   |   ⌘ L     | Ctrl + L   |
 | Save Request   |   ⌘ S     | Ctrl + S   |
 | Save Request As   |   ⇧ ⌘ S     | Ctrl + Shift + S   |
@@ -132,7 +134,7 @@ Different operating systems will have different shortcuts.  You can always view
 | Scroll To Request   |   ⌥ ⌘ ↑     | Ctrl + Alt + ↑   |
 | Scroll To Response   |   ⌥ ⌘ ↓     | Ctrl + Alt + ↓   |
 | Beautify raw Request body   |   ⌘ B     | Ctrl + B   |
-| **SIDEBAR**   |    ---    |   --- |
+| **SIDEBAR**   |        |    |
 | Search Sidebar   |   ⌘ F     | Ctrl + F   |
 | Toggle Sidebar   |   ⌘ \     | Ctrl + \   |
 | Next Item   |   ↓     | ↓   |
@@ -147,14 +149,14 @@ Different operating systems will have different shortcuts.  You can always view
 | Paste Item   |   ⌘ V     | Ctrl + V   |
 | Duplicate Item   |   ⌘ D     | Ctrl + D   |
 | Delete Item   |   ⌫     | Del   |
-| **INTERFACE**   |   ---     | ---   |
+| **INTERFACE**   |        |    |
 | Zoom In   |   ⌘ +     | Ctrl + +   |
 | Zoom Out   |   ⌘ -     | Ctrl + -   |
 | Reset Zoom   |   ⌘ 0     | Ctrl + 0   |
 | Toggle Two-Pane View   |   ⌥ ⌘ V     | Ctrl + Alt + V   |
 | Switch To Sidebar   |   ⌥ ⌘ 1     | Ctrl + Alt + 1   |
 | Switch To Builder   |   ⌥ ⌘ 2     | Ctrl + Alt + 2   |
-| **WINDOWS AND MODALS**   |   ---     | ---   |
+| **WINDOWS AND MODALS**   |        |    |
 | New Requester Window   |   ⌘ N     | Ctrl + N   |
 | New Runner Window   |   ⇧ ⌘ N     | Ctrl + Shift + N   |
 | New Console Window   |   ⌥ ⌘ C     | Ctrl + Alt + C   |
@@ -163,6 +165,8 @@ Different operating systems will have different shortcuts.  You can always view
 | Settings   |   ⌘ ,     | Ctrl + ,   |
 | Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
 | Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
+
+***
 
 ### Data editor
 

@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "collection_runs"
@@ -8,7 +8,9 @@ page_id: "running_multiple_iterations"
 warning: false
 ---
 
-Collection: [collection.json](https://postmanlabs.atlassian.net/wiki/download/attachments/58498926/Multiple%20Iterations.postman_collection.json?version=3&modificationDate=1493290499722&cacheVersion=1&api=v2)
+##### Download the collection used in this example:
+
+   * [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037885.json)
 
 The iterations of a collection run reflect how many times the collection will run. Here we have a collection that is run with 5 iterations.
 

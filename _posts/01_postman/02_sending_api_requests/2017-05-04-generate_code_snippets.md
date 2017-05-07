@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "sending_api_requests"
@@ -22,7 +22,7 @@ Use the dropdown menu to select a language - some languages have multiple option
 
 Postman currently supports the following options:
 
-| Language  | Framework |
+| **Language**  | **Framework** |
 | --- | --- |
 | HTTP | None (Raw HTTP request) |
 | C | [LibCurl](https://curl.haxx.se/libcurl/c/) |

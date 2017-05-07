@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "collection_runs"
@@ -14,7 +14,7 @@ In this example, we're running the [Postman Echo collection](https://docs.postma
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)
 
-In the `Delete Cookies` request, we expect a certain cookie to be returned by the server, and this is what the test checks as well. Postman Echo's [Cookies](https://postman-echo.com/cookies) endpoint returns whatever cookies are sent to it. It also sends a JSON representation of these in the response body. This is what we're using to check if a certain cookie was returned.
+In the `Delete Cookies` request, we expect a certain cookie to be returned by the server, and this is what the test checks as well. Postman Echo's [Cookies](https://docs.postman-echo.com/#37368024-f6a8-0f70-85fc-7e876cde9e33) endpoint returns whatever cookies are sent to it. It also sends a JSON representation of these in the response body. This is what we're using to check if a certain cookie was returned.
 
 As we can see, this test is failing. Let's investigate why.
 
@@ -31,7 +31,7 @@ You can control which bodies show up in this tooltip by using the `Log responses
 
 ### Debugging using the Postman Console
 
-Debugging using the Postman Console requires you to have the console open before you start your run. You can read about the [Postman Console](/docs/postman/collection_runs/debugging_a_collection_run).
+Debugging using the Postman Console requires you to have the console open before you start your run. You can read about the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs).
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)
 

@@ -1,5 +1,5 @@
 ---
-category:
+categories:
   - "docs"
   - "pro"
   - "pro_api"

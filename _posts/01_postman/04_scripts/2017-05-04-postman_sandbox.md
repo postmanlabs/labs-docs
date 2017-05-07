@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "scripts"
@@ -48,7 +48,7 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 
 ### Cookies
 
-*   `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](https://www.getpostman.com/docs/capture#interceptor) for this to work.
+*   `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](/docs/postman/sending_api_requests/interceptor_extension) for this to work.
 *   `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
 
 ### Request/response related properties

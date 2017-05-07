@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "scripts"
@@ -31,7 +31,7 @@ Postman tests run in a sandboxed environment, which is separate from the executi
 
 While there are very few things to remember while writing tests, Postman tries to make the process easier by listing commonly used snippets next to the editor. You can select the snippet you want to add and the appropriate code will be added to the test editor. This is a great way to quickly build test cases.
 
-### ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755234.png)
+![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755234.png)
 
 ### Viewing results
 

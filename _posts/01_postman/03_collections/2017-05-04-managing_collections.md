@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "collections"
@@ -17,7 +17,7 @@ Click on a collection to show or hide the requests that comprise the collection.
 
 ##### **Edit and view collection details**
 
-Click the right angle bracket (>) to show the details view for the collection. Click the left angle bracket (<) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
+Expand the right angle bracket (**>**) to show the details view for the collection. Collapse the left angle bracket (**<**) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154277.png)
 
@@ -67,7 +67,7 @@ Requests can also store [sample responses](/docs/postman/sending_api_requests/re
 
 ##### **Add scripts**
 
-Requests stored inside a collection can contain [scripts](Scripts_58459441.html) to add dynamic behavior to the collection.
+Requests stored inside a collection can contain [scripts](/docs/postman/scripts/intro_to_scripts) to add dynamic behavior to the collection.
 
 ### Adding folders
 

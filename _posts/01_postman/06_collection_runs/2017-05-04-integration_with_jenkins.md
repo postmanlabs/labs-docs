@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "collection_runs"
@@ -8,7 +8,7 @@ page_id: "integration_with_jenkins"
 warning: false
 ---
 
-Postman contains a full-featured testing [sandbox](https://www.getpostman.com/docs/Postman+Sandbox) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](https://www.getpostman.com/docs/Command+line+integration+with+Newman), the command line collection runner for Postman. Newman allows you to run and test a Postman Collection.
+Postman contains a full-featured [testing sandbox](/docs/postman/scripts/postman_sandbox) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/postman/collection_runs/command_line_integration_with_newman), the command line collection runner for Postman. Newman allows you to run and test a Postman Collection.
 
 Newman and Jenkins are a perfect match. Let's start setting this up. We are using Ubuntu as a target OS as in most cases your CI server would be running on a remote Linux machine.
 
@@ -16,11 +16,11 @@ Newman and Jenkins are a perfect match. Let's start setting this up. We are usin
 
 1. [Install Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu)
 
-2\. Install NodeJS and npm. Newman is written in NodeJS and we distribute the official copy through npm. Install nodejs and npm for Linux [here](https://docs.npmjs.com/getting-started/installing-node).
+2. Install NodeJS and npm. Newman is written in NodeJS and we distribute the official copy through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/getting-started/installing-node).
 
-3\. Install Newman globally, to set up Newman as a command line tool in Ubuntu.
+3. Install Newman globally, to set up Newman as a command line tool in Ubuntu.
 
-```
+```bash
 $ npm install -g newman
 ```
 
@@ -28,37 +28,37 @@ $ npm install -g newman
 
 We are assuming that you already have a Postman Collection with some tests. Run the collection in the Postman app. This is what the output looks like in Postman’s collection runner.
 
-[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.pn)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)
 
 Some of my tests are failing intentionally in the screenshot so we can show you the instructions for troubleshooting.
 
 ### Run a collection using Newman
 
-Run this collection inside Newman, using the command [command here]. If everything is set up nicely, you should see the output below.
+Run this collection inside Newman, using the command below. If everything is set up nicely, you should see the output below.
 
-[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.pn)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)
 
 ### Set up Jenkins
 
-Jenkins exposes an interface at [http://localhost:8080](http://localhost:8080).
+Jenkins exposes an interface at `http://localhost:8080`.
 
-[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.pn)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png)
 
 Create a new job by clicking on the “New Item” link on the left sidebar > Select a “Freestyle Project” from the options > Name your project.
 
-[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.pn)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)
 
 Add a build step in the project. The build step executes a Shell command.
 
-[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.pn)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)
+[![](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)
 
 The command is:
 
-```
+```bash
 $ newman -c jenkins_demo.postman_collection --exitCode 1
 ```
 
-Note here that we are using the Newman command parameter “exitCode” with the value 1\. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
+Note here that we are using the Newman command parameter “exitCode” with the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
 
 Click the **Save** button to finish creating the project.
 

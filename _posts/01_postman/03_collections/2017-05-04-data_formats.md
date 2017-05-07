@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "collections"
@@ -45,8 +45,7 @@ Postman data can be imported from the **Data** tab of the **SETTINGS** modal
 
 Most valid cURL (HTTP-only) commands can be imported into Postman. Postman's importer supports the following cURL options:
 
-| Option    | Description |
-| ------------- |------------- |
+| **Option**    | **Description**  |
 | -A, --user-agent <string> | An optional user-agent string |
 | -d, --data <string>   | Sends the specified data to the server with type application/x-www-form-urlencoded |
 | --data-ascii <string>   | Sends the specified data to the server with type application/x-www-form-urlencoded |
@@ -60,30 +59,25 @@ Most valid cURL (HTTP-only) commands can be imported into Postman. Postman's imp
 
 A few commands which can be imported include:
 
-| cURL    | Effect |
-| ------------- |------------- |
-| curl [http://postman-echo.com/get](http://postman-echo.com/get) | Creates a GET request in Postman with the URL prefilled |
-| curl --request POST --url [http://postman-echo.com/post](http://postman-echo.com/post) --form color=red --form color=green | Creates a POST request with a multivalue form data row |
-| curl -X PUT --data-binary hello [http://postman-echo.com/put](http://postman-echo.com/put) | Creates a POST request with raw data |
-| curl -X PUT --data-ascii 'a=b&c=d' [http://postman-echo.com/put](http://postman-echo.com/put) -H 'AccessToken:1234' | Creates a PUT request with urlencoded form data, and a custom header |
+| **cURL**     | **Effect**  |
+| curl http://postman-echo.com/get | Creates a GET request in Postman with the URL prefilled |
+| curl --request POST --url http://postman-echo.com/post --form color=red --form color=green | Creates a POST request with a multivalue form data row |
+| curl -X PUT --data-binary hello http://postman-echo.com/put | Creates a POST request with raw data |
+| curl -X PUT --data-ascii 'a=b&c=d' http://postman-echo.com/put -H 'AccessToken:1234' | Creates a PUT request with urlencoded form data, and a custom header |
 
 ### Importing RAML
 
 ##### **Saving a RAML folder as a collection**
 
-1. Clone the repository containing the RAML definition to your local machine, or save it locally as a folder.
-
-2. Click on the Import button, and choose the Import Folder tab.
-
-[![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
-
-3\. Click on **Choose Folders** and upload the RAML folder.
-
-[![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)
-
-You’re done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
-
-[![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)
+   1.  Clone the repository containing the RAML definition to your local machine, or save it locally as a folder.
+   2.  Click on the Import button, and choose the Import Folder tab. 
+      [![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
+   3.  Click on **Choose Folders** and upload the RAML folder.
+      [![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)
+    
+   You’re done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
+    
+   [![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)
 
 ##### **Examples**
 
@@ -151,12 +145,9 @@ Taken from [http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-ja
 
 ### Validating Collection JSON files
 
-To validate if a JSON file is in the correct collections format, you can use our schema files for collections.
+To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/).
 
-The schema file is located at [https://schema.getpostman.com/json/collection/v1/](https://schema.getpostman.com/json/collection/v1/).
-
-The associated documentation can be found at [https://schema.getpostman.com/json/collection/v1/docs/](https://schema.getpostman.com/json/collection/v1/docs/).
-
-Everything is neatly stored on GitHub [https://github.com/postmanlabs/schemas](https://github.com/postmanlabs/schemas).
-
-To see an example of data validation using our schema and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) (a validator), check out [this blog post](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/).
+* The schema file is located at [http://schema.getpostman.com/json/collection/v1.0.0/collection.json](http://schema.getpostman.com/json/collection/v1.0.0/collection.json).
+* The associated documentation can be found at [http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html).
+* Everything is neatly stored on GitHub [https://github.com/postmanlabs/schemas](https://github.com/postmanlabs/schemas).
+* To see an example of data validation using our schema and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) (a validator), check out [this blog post](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/).

@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "environments_and_globals"
@@ -16,7 +16,7 @@ Variables are symbols that can take different values. You might be familiar with
 
 Variables allow you to reuse values in multiple places so you can keep your code DRY (Don't Repeat Yourself).  Also, if you want to change the value, you can change the variable once with the impact cascading through the rest of your code.
 
-Let's say you have 3 API endpoints that use the same domain - "your-domain.com". You can save this domain as a variable and instead of repeating the value, you can use *{% raw %} {{domain}}{% endraw %}/endpoint1* and *{% raw %}{{domain}}{% endraw %}/endpoint2* in the request builder. Now, if your domain changes to "another-domain.com", you just have to change this value once. 
+Let's say you have 3 API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use *`{% raw %}{{domain}}/endpoint1{% endraw %}`* and *`{% raw %}{{domain}}/endpoint2{% endraw %}`* in the request builder. Now, if your domain changes to `another-domain.com`, you just have to change this value once. 
 
 With Postman's scripting engine you can set variable values, copy data from one request and use it into another request, and more.
 

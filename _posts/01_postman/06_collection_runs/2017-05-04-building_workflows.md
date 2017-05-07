@@ -8,7 +8,9 @@ page_id: "building_workflows"
 warning: false
 ---
 
-Collection: [collection.json](attachments/58499045/58793802.json)
+##### Download the collection used in this example:
+ 
+   * [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json)
 
 ### Basic usage
 

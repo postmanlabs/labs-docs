@@ -1,5 +1,5 @@
 ---
-category: 
+categories:
   - "docs"
   - "postman"
   - "sending_api_requests"
@@ -48,7 +48,7 @@ Postman supports getting the OAuth 2.0 token as well as adding it to requests re
 
 ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961651.png)
 
-   *   Click the "Get New Access Token" button to open a modal. You will see `[https://www.getpostman.com/oauth2/callback](https://www.getpostman.com/oauth2/callback)` as the Callback URL.
+   *   Click the "Get New Access Token" button to open a modal. You will see `https://www.getpostman.com/oauth2/callback` as the Callback URL.
    *   From your API provider, get the values for Authorization URL, Access Token URL, Client ID and Client Secret. These values will be provided your API provider. Optionally, you can set the Scope parameter which is needed by some APIs to set the level of access you have within the API.
    *   Press the “Request Token” button to initiate the OAuth 2.0 flow. If everything is set up properly, you would be redirected to the Postman server which will pick up your access token and send it to the Postman app. To finish adding the token to Postman, give it a name so that you can access it quickly later.
    *   If your OAuth2 provider is not publicly accessible (hosted locally or on your intranet), make sure the 'Request Access Token Locally' option is enabled.
@@ -66,6 +66,6 @@ AWS users have to use a custom HTTP scheme based on a keyed-HMAC (Hash Message A
 
 Read more about the AWS Signature on AWS documentation:
 
-[http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html](http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html)
+* [http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html](http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html)
 
-[http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html](http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html)
+* [http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html](http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html)
