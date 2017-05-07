@@ -81,7 +81,7 @@ A few commands which can be imported include:
 
 ##### **Examples**
 
-Example RAML file: [github-api-v3.raml](https://postmanlabs.atlassian.net/wiki/download/attachments/58461880/github-api-v3.raml?version=1&modificationDate=1490779044966&cacheVersion=1&api=v2)
+Download an example RAML file: [github-api-v3.raml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/github-api-v3.raml)
 
 ### Importing Swagger
 
@@ -114,32 +114,30 @@ Postman lets you import WADL specs too. While all aspects are not supported yet,
 ##### **Example WADL file**
 
 ```
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23	`<``application` `xmlns``=``"[http://wadl.dev.java.net/2009/02"](http://wadl.dev.java.net/2009/02)``>` `<``resources` `base``=``"[http://example.com/api"](http://example.com/api)``>` `<``resource` `path``=``"books"``>` `<``method` `name``=``"GET"``/>` `<``resource` `path``=``"{bookId}"``>` `<``param` `required``=``"true"` `style``=``"template"` `name``=``"bookId"``/>` `<``method` `name``=``"GET"``/>` `<``method` `name``=``"DELETE"``/>` `<``resource` `path``=``"reviews"``>` `<``method` `name``=``"GET"``>` `<``request``>` `<``param` `name``=``"page"` `required``=``"false"` `default``=``"1"` `style``=``"query"``/>` `<``param` `name``=``"size"` `required``=``"false"` `default``=``"20"` `style``=``"query"``/>` `</``request``>` `</``method``>` `</``resource``>` `</``resource``>` `</``resource``>` `<``resource` `path``=``"readers"``>` `<``method` `name``=``"GET"``/>` `</``resource``>` `</``resources``>` `</``application``>`
+<application xmlns="http://wadl.dev.java.net/2009/02">
+  <resources base="http://example.com/api">
+    <resource path="books">
+      <method name="GET"/>
+      <resource path="{bookId}">
+        <param required="true" style="template" name="bookId"/>
+        <method name="GET"/>
+        <method name="DELETE"/>
+        <resource path="reviews">
+          <method name="GET">
+            <request>
+              <param name="page" required="false" default="1" style="query"/>
+              <param name="size" required="false" default="20" style="query"/>
+            </request>
+          </method>
+        </resource>
+      </resource>
+    </resource>
+    <resource path="readers">
+      <method name="GET"/>
+    </resource>
+  </resources>
+</application>
 ```
-
-`<``application` `xmlns``=``"[http://wadl.dev.java.net/2009/02"](http://wadl.dev.java.net/2009/02)``>`  
-`<``resources` `base``=``"[http://example.com/api"](http://example.com/api)``>`  
-`<``resource` `path``=``"books"``>`  
-`<``method` `name``=``"GET"``/>`  
-`<``resource` `path``=``"{bookId}"``>`  
-`<``param` `required``=``"true"` `style``=``"template"` `name``=``"bookId"``/>`  
-`<``method` `name``=``"GET"``/>`  
-`<``method` `name``=``"DELETE"``/>`  
-`<``resource` `path``=``"reviews"``>`  
-`<``method` `name``=``"GET"``>`  
-`<``request``>`  
-`<``param` `name``=``"page"` `required``=``"false"` `default``=``"1"` `style``=``"query"``/>`  
-`<``param` `name``=``"size"` `required``=``"false"` `default``=``"20"` `style``=``"query"``/>`  
-`</``request``>`  
-`</``method``>`  
-`</``resource``>`  
-`</``resource``>`  
-`</``resource``>`  
-`<``resource` `path``=``"readers"``>`  
-`<``method` `name``=``"GET"``/>`  
-`</``resource``>`  
-`</``resources``>`  
-`</``application``>`
 
 Taken from [http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html)
 

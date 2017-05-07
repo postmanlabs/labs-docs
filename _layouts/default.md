@@ -32,9 +32,8 @@
                 <!-- Populate the next and previous links based on site.data.doc_map -->
                 {% include _related_links.html %}
 
-                {% include _side_accordion.html %}
-
             </div>
+            {% include _side_accordion.html %}
          </div>
       </div>
     </div>

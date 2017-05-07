@@ -29,6 +29,4 @@ Let's map the process with a simple illustration below:
 
 [`postman-echo.com`](https://docs.postman-echo.com/) is a sample API that Postman hosts for you to experiment with various types of requests. It returns the data that you send in the request as part of its response.
 
- ![](images/icons/emoticons/star_red.png) Run in Postman button
-
 Import this sample collection and refer to [documentation for this sample API](https://docs.postman-echo.com/).
