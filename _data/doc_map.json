@@ -366,14 +366,17 @@
   },
   {
     "title": "Postman Pro",
+    "url_prefix": "pro",
     "children":[
       {
         "title": "What is Postman Pro",
         "href": "/docs/pro/what_is_pro",
+        "url_prefix": "what_is_pro",
         "external": false
       },
       {
         "title": "Managing Postman Pro",
+        "url_prefix": "managing_pro",
         "children": [
           {
             "title": "Activating your Pro trial",

@@ -1,31 +1,31 @@
 <!-- Populate the next and previous links based on site.data.doc_map -->
-{% assign categories = site.data.doc_map %}
+{% assign products = site.data.doc_map %}
 {% assign pageurl = page.url | split: '/' | last %}
-{% for category in categories %}
-    {% assign catIndex = forloop.index0 %}
-    {% for article in category.children %}
-        {% assign articlehref = article.href | split: '/' | last %}
-        {% if articlehref == pageurl %}
-            {% assign articleIndex = forloop.index0 %}
+{% for product in products %}
+    {% assign prodIndex = forloop.index0 %}
+    {% for category in product.children %}
+        {% assign categoryhref = category.href | split: '/' | last %}
+        {% if categoryhref == pageurl %}
+            {% assign categoryIndex = forloop.index0 %}
 
-            {% assign nextArticleIndex = articleIndex | plus: 1 %}
-            {% assign nextCatIndex = catIndex | plus: 1 %}
-            {% assign nextCategory = categories[nextCatIndex] %}
+            {% assign nextCategoryIndex = categoryIndex | plus: 1 %}
+            {% assign nextProdIndex = ProdIndex | plus: 1 %}
+            {% assign nextProduct = products[nextProdIndex] %}
 
-            {% if category.children[nextArticleIndex] %}
-                {% assign next = category.children[nextArticleIndex] %}
-            {% elsif nextCategory.children.first %}
-                {% assign next = nextCategory.children.first %}
+            {% if product.children[nextCategoryIndex] %}
+                {% assign next = product.children[nextCategoryIndex] %}
+            {% elsif nextProduct.children.first %}
+                {% assign next = nextProduct.children.first %}
             {% endif %}
 
-            {% assign prevArticleIndex = articleIndex | minus: 1 %}
-            {% assign prevCatIndex = catIndex | minus: 1 %}
-            {% assign prevCategory = categories[prevCatIndex] %}
+            {% assign prevCategoryIndex = categoryIndex | minus: 1 %}
+            {% assign prevProdIndex = prodIndex | minus: 1 %}
+            {% assign prevProduct = products[prevProdIndex] %}
 
-            {% if prevArticleIndex >= 0 and category.children[prevArticleIndex] %}
-                {% assign prev = category.children[prevArticleIndex] %}
-            {% elsif prevCategory.children.last %}
-                {% assign prev = prevCategory.children.last %}
+            {% if prevCategoryIndex >= 0 and product.children[prevCategoryIndex] %}
+                {% assign prev = product.children[prevCategoryIndex] %}
+            {% elsif prevProduct.children.last %}
+                {% assign prev = prevProduct.children.last %}
             {% endif %}
 
             <div class="doc-next-link clearfix">
