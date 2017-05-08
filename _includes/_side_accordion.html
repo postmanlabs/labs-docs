@@ -12,12 +12,7 @@
 
         {% for product in site.data.doc_map %}
             {% assign product_index = forloop.index0 %}
-            {% for link in product.children %}
-                {% assign linkhref = link.href | split: '/' | last %}
-                {% if linkhref == pageurl %}
-                    {% assign openProduct = product_index %}
-                {% endif %}
-            {% endfor %}
+
             <div class="pm-accordion-category panel">
                 <a href="#collapse-product-{{product_index}}" class="category-title {% unless product_prefix == product.url_prefix %}collapsed{% endunless %}" data-toggle="collapse">
                     {{product.title}}
@@ -26,18 +21,13 @@
                 <ul id="collapse-product-{{product_index}}" class="category-links collapse {% if product_prefix == product.url_prefix %}in{% endif %}">
                     {% for category in product.children %}
                         {% assign category_index = forloop.index0 %}
-                        {% for link2 in category.children %}
-                            {% assign link2href = link2.href | split: '/' | last %}
-                            {% if link2href == pageurl %}
-                                {% assign openCategory = category_index %}
-                            {% endif %}
-                        {% endfor %}
 
                         {% if category.href.size > 0 %}
                         <li>
-                            <a href="{{category.href}}">
+                            <a href="{{category.href}}"
                                {% if category.external  == true %}target="_blank"{% endif %}
-                               {% if pageurl == linkhref %}class="active"{% endif %}
+                               {% if page.url == category.href %}class="active"{% endif %}
+                            >
                                {{category.title}}
                             </a>
                         </li>
@@ -53,7 +43,10 @@
                                   {% assign feature_index = forloop.index0 %}
                                     {% if feature.href %}
                                       <li>
-                                        <a class="{% if pageurl == feature.href %}active{% endif %}" href="{{feature.href}}" {% if feature.external == true %}target="_blank"{% endif %}>
+                                        <a href="{{feature.href}}"
+                                           {% if feature.external == true %}target="_blank"{% endif %}
+                                           {% if page.url == feature.href %}class="active"{% endif %}
+                                        >
                                           {{feature.title}}
                                         </a>
                                       </li>

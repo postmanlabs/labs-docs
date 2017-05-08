@@ -1,9 +1,11 @@
 [
   {
     "title": "Postman",
+    "url_prefix": "postman",
     "children": [
       {
         "title": "Launching Postman",
+        "url_prefix": "launching_postman",
         "children": [
           {
             "title": "Installation and updates",
@@ -44,6 +46,7 @@
       },
       {
         "title": "Sending API requests",
+        "url_prefix": "sending_api_requests",
         "children": [
           {
             "title": "History",
@@ -104,6 +107,7 @@
       },
       {
         "title": "Collections",
+        "url_prefix": "collections",
         "children": [
           {
             "title": "Creating collections",
@@ -134,6 +138,7 @@
       },
       {
         "title": "Scripts",
+        "url_prefix": "scripts",
         "children": [
           {
             "title": "Intro to scripts",
@@ -174,6 +179,7 @@
       },
       {
         "title": "Environments and globals",
+        "url_prefix": "environments_and_globals",
         "children": [
           {
             "title": "Variables",
@@ -194,6 +200,7 @@
       },
       {
         "title": "Collection runs",
+        "url_prefix": "collection_runs",
         "children": [
           {
             "title": "Starting a collection run",
@@ -249,6 +256,7 @@
       },
       {
         "title": "Team Library",
+        "url_prefix": "team_library",
         "children": [
           {
             "title": "Sharing",
@@ -274,6 +282,7 @@
       },
       {
         "title": "API documentation",
+        "url_prefix": "api_documentation",
         "children": [
           {
             "title": "Intro to API documentation",
@@ -309,6 +318,7 @@
       },
       {
         "title": "Monitors",
+        "url_prefix": "monitors",
         "children": [
           {
             "title": "Intro to monitors",
@@ -354,11 +364,13 @@
       },
       {
         "title": "Mock servers",
+        "url_prefix": "mock_servers",
         "href":"/docs/postman/mock_servers",
         "external": false
       },
       {
         "title": "Notifications",
+        "url_prefix": "notifications",
         "href":"/docs/postman/notifications",
         "external": false
       }
@@ -402,6 +414,7 @@
       },
       {
         "title": "Postman Pro API",
+        "url_prefix": "pro_api",
         "children": [
           {
             "title": "Intro to Postman Pro API",
@@ -417,6 +430,7 @@
       },
       {
         "title": "Integrations",
+        "url_prefix": "integrations",
         "children": [
           {
             "title": "Intro to integrations",
@@ -494,9 +508,11 @@
   },
   {
     "title": "Postman Enterprise",
+    "url_prefix": "enterprise",
     "children": [
       {
         "title": "Apply for beta access",
+        "url_prefix": "apply_for_beta_access",
         "href":"/docs/enterprise/apply_for_beta_access",
         "external": false
       },
@@ -524,14 +540,17 @@
   },
   {
     "title": "Postman for Publishers",
+    "url_prefix": "postman_for_publishers",
     "children": [
       {
         "title": "Public API documentation",
+        "url_prefix": "public_api_docs",
         "href":"/docs/postman_for_publishers/public_api_docs",
         "external": false
       },
       {
         "title": "Run in Postman",
+        "url_prefix": "run_button",
         "children": [
           {
             "title": "Creating the Run in Postman button",
@@ -569,6 +588,7 @@
   },
   {
     "title": "Videos",
+    "url_prefix": "videos",
     "children": [
       {
         "title": "Videos",
@@ -579,6 +599,7 @@
   },
   {
     "title": "Reference",
+    "url_prefix": "reference",
     "children": [
       {
         "title": "Reference",
