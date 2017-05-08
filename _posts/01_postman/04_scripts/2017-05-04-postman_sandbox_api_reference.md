@@ -11,27 +11,21 @@ warning: false
 ### Postman Sandbox API Reference (pm.*)
 
 <div class="table-wrap">
-    <table style="margin-left: 30.0px; table-layout: fixed;" class="confluenceTable">
-        <colgroup>
-            <col/>
-            <col/>
-            <col/>
-            <col/>
-        </colgroup>
+    <table style="margin-left: 30.0px; table-layout: fixed;">
         <tbody style="margin-left: 30.0px;">
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 60.0px;" colspan="2" class="confluenceTh">Global</th>
-            <th style="margin-left: 60.0px;" colspan="2" class="confluenceTh">Type</th>
+            <th style="margin-left: 30.0px;" colspan="2">Global</th>
+            <th style="margin-left: 30.0px;" colspan="2">Type</th>
         </tr>
-        <tr style="margin-left: 60.0px;">
-            <th style="margin-left: 60.0px;" colspan="2" class="confluenceTh"><code>require</code></th>
-            <th style="margin-left: 60.0px;" colspan="2" class="confluenceTh">Function</th>
+        <tr style="margin-left: 30.0px;">
+            <th style="margin-left: 30.0px;" colspan="2"><code>require</code></th>
+            <th style="margin-left: 30.0px;" colspan="2">Function</th>
         </tr>
         <tr>
-            <td style="margin-left: 60.0px; width: 100%;" colspan="4"class="confluenceTd"><p style="margin-left: 60.0px;"><strong><code>require(moduleName:String)
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;"><strong><code>require(moduleName:String)
                 → *</code></strong></p>
-                <p style="margin-left: 60.0px;"><strong><br/></strong></p>
-                <p style="margin-left: 60.0px;">The require function allows you to use the sandbox built-in library
+                <p style="margin-left: 30.0px;"><strong><br/></strong></p>
+                <p style="margin-left: 30.0px;">The require function allows you to use the sandbox built-in library
                     modules. The list of available libraries are listed below. The list links to their corresponding
                     documentation.</p>
                 <ol>
@@ -74,7 +68,7 @@ warning: false
                         </ol>
                     </li>
                 </ol>
-                <p style="margin-left: 60.0px;">A number of NodeJS modules are also available:</p>
+                <p style="margin-left: 30.0px;">A number of NodeJS modules are also available:</p>
                 <ol>
                     <li style="list-style-type: none;background-image: none;">
                         <ol>
@@ -92,15 +86,15 @@ warning: false
             </td>
         </tr>
         <tr>
-            <td style="margin-left: 60.0px; width: 100%;" colspan="4" class="confluenceTd">
-                <div class="content-wrapper" style="margin-left: 60.0px;"><p style="margin-left: 60.0px;">In order to
+            <td style="margin-left: 30.0px;" colspan="4">
+                <div class="content-wrapper"><p>In order to
                     use a library, you would need to simply call the require function and pass the module name as a
                     parameter and assign the return of the function to a variable.</p>
                     <div class="table-wrap">
-                        <table style="margin-left: 60.0px;" class="confluenceTable">
-                            <tbody style="margin-left: 60.0px;">
-                            <tr style="margin-left: 60.0px;">
-                                <td style="margin-left: 60.0px;" class="confluenceTd"><p style="margin-left: 60.0px;">
+                        <table style="margin-left: 30.0px;">
+                            <tbody style="margin-left: 30.0px;">
+                            <tr style="margin-left: 30.0px;">
+                                <td style="margin-left: 30.0px;"><p style="margin-left: 30.0px;">
                                     <code class="java plain">var atob = require(</code><code
                                         class="java string">'atob'</code><code class="java plain">),</code><br/><code
                                         class="java spaces">    </code><code class="java plain">_ = require(</code><code
@@ -122,28 +116,28 @@ warning: false
             </td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th colspan="4" class="confluenceTh"><br/></th>
+            <th colspan="4"><br/></th>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh">Object</th>
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm</code></th>
+            <th style="margin-left: 30.0px;" colspan="2">Object</th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm:Object</code></strong></p>
                 <p style="margin-left: 30.0px;">The <strong><code>pm</code></strong> object encloses all information
                     pertaining to the script being executed and allows one to access a copy of the request being sent or
                     the response received. It also allows one to get and set environment and global variables.</p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code><a href="http://pm.info"
+            <th style="margin-left: 30.0px;" colspan="2"><code><a href="http://pm.info"
                                                                                        class="external-link"
                                                                                        rel="nofollow">pm.info</a></code>
             </th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh">Object</th>
+            <th style="margin-left: 30.0px;" colspan="2">Object</th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code><a href="http://pm.info" class="external-link"
                                  rel="nofollow">pm.info</a>:Object</code></strong></p>
                 <p style="margin-left: 30.0px;"><strong><br/></strong></p>
@@ -173,176 +167,176 @@ warning: false
             </td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th colspan="4" class="confluenceTh"><br/></th>
+            <th colspan="4"><br/></th>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.globals</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.globals</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html"
                                                                                  rel="nofollow">VariableScope</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.globals:VariableScope</code></strong></p>
                 <p><br/></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.globals.has</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.globals.has</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#has"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.globals.has(variableName:String) → Boolean</code></strong></p>
                 <p><br/></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.globals.get</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.globals.get</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#get"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.globals.get(variableName:String) → *</code></strong></p>
                 <p><br/></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.globals.set</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.globals.set</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#set"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.globals.set(variableName:String, variableValue:String)</code></strong></p>
                 <p style="margin-left: 30.0px;"><strong><br/></strong></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.globals.unset</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.globals.unset</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#unset"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.globals.unset(variableName:String)</code></strong></p>
                 <p style="margin-left: 30.0px;"><strong><br/></strong></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.globals.clear</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.globals.clear</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#clear"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.globals.clear()</code></strong></p>
                 <p style="margin-left: 30.0px;"><strong><br/></strong></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.globals.variables</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.globals.variables</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#variables"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.globals.variables() → Object</code></strong></p>
                 <p><br/></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th colspan="4" class="confluenceTh"><br/></th>
+            <th colspan="4"><br/></th>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.environment</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.environment</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html"
                                                                                  rel="nofollow">VariableScope</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.environment:VariableScope</code></strong></p>
                 <p><br/></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.environment.has</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.environment.has</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#has"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.environment.has(variableName:String) → Boolean</code></strong></p>
                 <p><br/></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.environment.get</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.environment.get</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#get"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.environment.get(variableName:String) → *</code></strong></p>
                 <p><br/></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.environment.set</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.environment.set</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#set"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.environment.set(variableName:String, variableValue:String)</code></strong></p>
                 <p style="margin-left: 30.0px;"><strong><br/></strong></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.environment.unset</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.environment.unset</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#unset"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.environment.unset(variableName:String)</code></strong></p>
                 <p style="margin-left: 30.0px;"><strong><br/></strong></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.environment.clear</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.environment.clear</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#clear"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.environment.clear()</code></strong></p>
                 <p style="margin-left: 30.0px;"><strong><br/></strong></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.environment.variables</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.environment.variables</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/VariableScope.html#variables"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.environment.variables() → Object</code></strong></p>
                 <p style="margin-left: 30.0px;"><strong><br/></strong></p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th colspan="4" class="confluenceTh"><br/></th>
+            <th colspan="4"><br/></th>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.request</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.request</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/Request.html"
                                                                                  rel="nofollow">Request</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.request:Request</code></strong></p>
                 <p style="margin-left: 30.0px;"><strong><br/></strong></p>
                 <p style="margin-left: 30.0px;">The request object inside pm is a representation of the request for
@@ -360,7 +354,7 @@ warning: false
             </td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="4" class="confluenceTh">
+            <th style="margin-left: 30.0px;" colspan="4">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p style="margin-left: 30.0px;"><strong><br/></strong>
                 </p>
                     <p style="margin-left: 30.0px;"><strong><code><span
@@ -369,26 +363,26 @@ warning: false
             </th>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.data</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh">Object</th>
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.data</code></th>
+            <th style="margin-left: 30.0px;" colspan="2">Object</th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.data</code>:Object</strong></p>
                 <p><br/></p>
                 <p style="margin-left: 30.0px;">The data object would contain data from the data file provided during a
                     collection run</p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh">
+            <th style="margin-left: 30.0px;" colspan="2">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p><code>pm.response</code></p></div>
             </th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/Response.html"
                                                                                  rel="nofollow">Response</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd">
+            <td style="margin-left: 30.0px;" colspan="4">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p style="margin-left: 30.0px;"><strong><code>pm.response:Response</code></strong>
                 </p>
                     <p style="margin-left: 30.0px;"><strong><br/></strong></p>
@@ -411,19 +405,19 @@ warning: false
             </td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th colspan="4" class="confluenceTh"><br/></th>
+            <th colspan="4"><br/></th>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh">
+            <th style="margin-left: 30.0px;" colspan="2">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p style="text-align: left;">
                     <code>pm.cookies</code></p></div>
             </th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/CookieList.html"
                                                                                  rel="nofollow">CookieList</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd">
+            <td style="margin-left: 30.0px;" colspan="4">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p><strong><code>pm.cookies:CookieList</code></strong>
                 </p>
                     <p><br/></p>
@@ -432,51 +426,51 @@ warning: false
             </td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.cookies.has</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.cookies.has</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/PropertyList.html#has"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.cookies.has(cookieName:String):Function → Boolean</code></strong></p>
                 <p style="margin-left: 30.0px;">Check whether a particular cookie (addressed by it's name,) exists for
                     the requested domain or not.</p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.cookies.get</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.cookies.get</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/PropertyList.html#get"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.cookies.get(cookieName:String):Function → String</code></strong></p>
                 <p style="margin-left: 30.0px;">Get the value of a particular cookie.</p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><code>pm.cookies.toObject</code></th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh"><a class="external-link"
+            <th style="margin-left: 30.0px;" colspan="2"><code>pm.cookies.toObject</code></th>
+            <th style="margin-left: 30.0px;" colspan="2"><a class="external-link"
                                                                                  href="http://www.postmanlabs.com/postman-collection/PropertyList.html#toObject"
                                                                                  rel="nofollow">Function</a></th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd"><p style="margin-left: 30.0px;">
+            <td style="margin-left: 30.0px;" colspan="4"><p style="margin-left: 30.0px;">
                 <strong><code>pm.cookies.toObject:Function → Object</code></strong></p>
                 <p style="margin-left: 30.0px;">Get a copy of all cookies and their values in form of an object. The
                     cookies returned are the ones defined for the requested domain and path.</p></td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th colspan="4" class="confluenceTh"><br/></th>
+            <th colspan="4"><br/></th>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh">
+            <th style="margin-left: 30.0px;" colspan="2">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p><code>pm.test</code></p></div>
             </th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh">Function</th>
+            <th style="margin-left: 30.0px;" colspan="2">Function</th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd">
+            <td style="margin-left: 30.0px;" colspan="4">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p style="margin-left: 30.0px;"><strong><code>pm.test(testName:String,
                     specFunction:Function)</code></strong></p>
                     <p style="margin-left: 30.0px;"><strong><br/></strong></p>
@@ -487,16 +481,16 @@ warning: false
             </td>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd">
+            <td style="margin-left: 30.0px;" colspan="4">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p class="auto-cursor-target"
                                                                              style="margin-left: 30.0px;">The following
                     code block is a sample test where we are checking to ensure that everything about a fictitious
                     response is valid for us to proceed next.</p>
                     <div class="table-wrap">
-                        <table style="margin-left: 30.0px;" class="confluenceTable">
+                        <table style="margin-left: 30.0px;">
                             <tbody style="margin-left: 30.0px;">
                             <tr style="margin-left: 30.0px;">
-                                <td style="margin-left: 30.0px;" class="confluenceTd"><p style="margin-left: 30.0px;">
+                                <td style="margin-left: 30.0px;"><p style="margin-left: 30.0px;">
                                     <code class="java plain">pm.test(</code><code class="java string">&quot;response
                                     should be okay to process&quot;</code><code class="java plain">, function ()
                                     {</code><br/><code class="java spaces">    </code><code class="java plain"><a
@@ -518,14 +512,14 @@ warning: false
             </td>
         </tr>
         <tr style="margin-left: 30.0px;">
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh">
+            <th style="margin-left: 30.0px;" colspan="2">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p style="text-align: left;">
                     <code>pm.expect</code></p></div>
             </th>
-            <th style="margin-left: 30.0px;" colspan="2" class="confluenceTh">Function</th>
+            <th style="margin-left: 30.0px;" colspan="2">Function</th>
         </tr>
         <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd">
+            <td style="margin-left: 30.0px;" colspan="4">
                 <div class="content-wrapper" style="margin-left: 30.0px;"><p style="margin-left: 30.0px;"><strong><code>pm.expect(assertion:*)
                     → Assertion</code></strong></p>
                     <p style="margin-left: 30.0px;"><strong><br/></strong></p>
@@ -539,14 +533,14 @@ warning: false
             </td>
         </tr>
     <tr>
-            <td style="margin-left: 30.0px; width: 100%;" colspan="4" class="confluenceTd">
-                <div class="content-wrapper" style="margin-left: 30.0px;"><p style="margin-left: 30.0px;">This function
+            <td style="margin-left: 30.0px;" colspan="4">
+                <div class="content-wrapper"><p style="margin-left: 30.0px;">This function
                     is useful to deal with assertions of data from response or variables.</p>
                     <div class="table-wrap">
-                        <table style="margin-left: 30.0px;" class="confluenceTable">
-                            <tbody style="margin-left: 30.0px;">
+                        <table>
+                            <tbody>
                             <tr style="margin-left: 30.0px;">
-                                <td style="margin-left: 30.0px;" class="confluenceTd"><p style="margin-left: 30.0px;">
+                                <td style="margin-left: 30.0px;"><p>
                                     <code class="java plain">pm.test(</code><code class="java string">'environment to be
                                     production'</code><code class="java plain">, function () {</code><br/><code
                                         class="java spaces">    </code><code class="java plain">pm.expect(pm.environment.get(</code><code
@@ -568,44 +562,38 @@ warning: false
 ### Response Assertions API
 
 <div class="table-wrap">
-    <table style="margin-left: 30.0px;" class="confluenceTable">
-        <colgroup>
-            <col/>
-            <col/>
-            <col/>
-            <col/>
-        </colgroup>
+    <table style="margin-left: 30.0px;">
         <thead>
         <tr>
-            <th class="confluenceTh"><p>Assertion</p></th>
-            <th colspan="1" class="confluenceTh"><p>Type</p></th>
-            <th class="confluenceTh"><p>Description</p></th>
+            <th><p>Assertion</p></th>
+            <th colspan="1"><p>Type</p></th>
+            <th><p>Description</p></th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <th valign="top" class="confluenceTh"><code><a href="http://pm.response.to" class="external-link" rel="nofollow">pm.response.to</a>.have.status</code>
+            <th valign="top"><code><a href="http://pm.response.to" class="external-link" rel="nofollow">pm.response.to</a>.have.status</code>
             </th>
-            <th colspan="1" valign="top" class="confluenceTh">Function</th>
-            <td class="confluenceTd"><p><code><strong><a href="http://pm.response.to" class="external-link"
+            <th colspan="1" valign="top">Function</th>
+            <td><p><code><strong><a href="http://pm.response.to" class="external-link"
                                                          rel="nofollow">pm.response.to</a>.have.status(code:Number)<br/><a
                     href="http://pm.response.to" class="external-link" rel="nofollow">pm.response.to</a>.have.status(reason:String)</strong></code>
             </p>
             </td>
         </tr>
         <tr>
-            <th valign="top" class="confluenceTh"><code><a href="http://pm.response.to" class="external-link"
+            <th valign="top"><code><a href="http://pm.response.to" class="external-link"
                                                           rel="nofollow">pm.response.to</a>.have.header</code></th>
-            <th colspan="1" valign="top" class="confluenceTh">Function</th>
-            <td class="confluenceTd" valign="top" ><p><code><strong><a href="http://pm.response.to" class="external-link"
+            <th colspan="1" valign="top">Function</th>
+            <td valign="top" ><p><code><strong><a href="http://pm.response.to" class="external-link"
                                                                      rel="nofollow">pm.response.to</a>.have.header(key:String,
                 optionalValue:String)</strong></code></p>
             </td>
         </tr>
         <tr>
-            <th valign="top" class="confluenceTh"><code><a href="http://pm.response.to" class="external-link"
+            <th valign="top"><code><a href="http://pm.response.to" class="external-link"
                                                           rel="nofollow">pm.response.to</a>.have.body</code></th>
-            <th colspan="1" valign="top" class="confluenceTh">Function</th>
+            <th colspan="1" valign="top">Function</th>
             <td cclass="confluenceTd"><p><code><strong><a href="http://pm.response.to" class="external-link"
                                                                      rel="nofollow">pm.response.to</a>.have.body()<br/><strong><a
                     href="http://pm.response.to" class="external-link" rel="nofollow">pm.response.to</a>.have.body(optionalValue:String)<br/><strong><a
@@ -614,10 +602,10 @@ warning: false
             </td>
         </tr>
         <tr>
-            <th valign="top" class="confluenceTh"><code><a href="http://pm.response.to" class="external-link"
+            <th valign="top"><code><a href="http://pm.response.to" class="external-link"
                                                           rel="nofollow">pm.response.to</a>.have.jsonBody</code></th>
-            <th colspan="1" valign="top" class="confluenceTh">Function</th>
-            <td class="confluenceTd"><p><code><strong><a href="http://pm.response.to" class="external-link"
+            <th colspan="1" valign="top">Function</th>
+            <td><p><code><strong><a href="http://pm.response.to" class="external-link"
                                                                      rel="nofollow">pm.response.to</a>.have.jsonBody()<br/><strong><a
                     href="http://pm.response.to" class="external-link" rel="nofollow">pm.response.to</a>.have.jsonBody(optionalExpectEqual:Object)<br/><strong><strong><a
                     href="http://pm.response.to" class="external-link" rel="nofollow">pm.response.to</a>.have.jsonBody(optionalExpectPath:String)</strong></strong></strong> <br/><strong><strong><strong><strong><a
@@ -625,10 +613,10 @@ warning: false
                 optionalValue:*)</strong></strong></strong> </strong> </strong></code></p></td>
         </tr>
         <tr>
-            <th valign="top" class="confluenceTh"><code><a href="http://pm.response.to.be" class="external-link"
+            <th valign="top"><code><a href="http://pm.response.to.be" class="external-link"
                                                           rel="nofollow">pm.response.to.be</a>.*</code></th>
-            <th colspan="1" valign="top" class="confluenceTh">Object</th>
-            <td class="confluenceTd"><p>The properties inside <code><a href="http://pm.response.to.be"
+            <th colspan="1" valign="top">Object</th>
+            <td><p>The properties inside <code><a href="http://pm.response.to.be"
                                                                                    class="external-link" rel="nofollow">pm.response.to.be</a></code> object
                 allows you to easily assert a set of pre-defined rules</p>
                 <ul>
