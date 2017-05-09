@@ -6,6 +6,8 @@ categories:
 title: "Interceptor extension"
 page_id: "interceptor_extension"
 warning: false
+redirect_from:
+  - /docs/handling_redirects
 ---
 
 ### What is Interceptor

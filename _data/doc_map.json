@@ -102,6 +102,11 @@
             "title": "Generate code snippets",
             "href": "/docs/postman/sending_api_requests/generate_code_snippets",
             "external": false
+          },
+          {
+            "title": "Making SOAP requests",
+            "href": "/docs/postman/sending_api_requests/making_soap_requests",
+            "external": false
           }
         ]
       },

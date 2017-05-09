@@ -8,6 +8,8 @@ page_id: "intro_to_api_documentation"
 tags: 
   - "pro"
 warning: false
+redirect_from:
+  - /docs/creating_documentation
 ---
 
 Postman's API documentation feature allows Postman Pro users to share public or private API documentation, beautifully viewable via a web page. 

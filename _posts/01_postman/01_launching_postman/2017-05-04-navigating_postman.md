@@ -6,6 +6,10 @@ categories:
 title: "Navigating Postman"
 page_id: "navigating_postman"
 warning: false
+redirect_from:
+  - /docs/introduction
+  - /docs/tabs
+  - /docs/text_editor
 ---
 
 Postman provides a multi-window and multi-tab interface for you to work on APIs. Postman strives to be clean and flexible to your needs. It gives you as much space as possible for your APIs. Navigating through the interface is easy. See the graphic below to see how everything is organized.

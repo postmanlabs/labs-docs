@@ -6,6 +6,8 @@ categories:
 title: "Creating the Run in Postman button"
 page_id: "creating_run_button"
 warning: false
+redirect_from:
+  - /docs/run_button
 ---
 
 The Run in Postman button is a way to [share your Postman Collection](/docs/postman/collections/sharing_collections) and integrate your API docs/developer portal directly with the Postman app. Keep in mind, Run in Postman works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](/docs/postman/collections/data_formats).

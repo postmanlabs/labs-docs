@@ -6,6 +6,8 @@ categories:
 title: "Test examples"
 page_id: "test_examples"
 warning: false
+redirect_from:
+  - /docs/testing_examples
 ---
 
 Test scripts are run after a request is sent and a response has been received from the server.

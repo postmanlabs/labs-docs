@@ -6,6 +6,8 @@ categories:
 title: "Building workflows"
 page_id: "building_workflows"
 warning: false
+redirect_from:
+  - /docs/workflows
 ---
 
 ##### Download the collection used in this example:

@@ -6,6 +6,8 @@ categories:
 title: "Certificates"
 page_id: "certificates"
 warning: false
+redirect_from:
+  - /docs/working_with_client_certificates
 ---
 
 Postman’s native apps provide a way to view and set SSL certificates on a per domain basis.

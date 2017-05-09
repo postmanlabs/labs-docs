@@ -6,6 +6,8 @@ categories:
 title: "Starting a collection run"
 page_id: "starting_a_collection_run"
 warning: false
+redirect_from:
+  - /docs/running_collections
 ---
 
 Collections are groups of requests that can be run together as a series of requests, against a corresponding environment. Using scripts, you can build integration test suites, pass data between API requests, and and build workflows that mirror your actual use case of APIs.

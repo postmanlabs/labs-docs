@@ -8,6 +8,8 @@ page_id: "newman_with_docker"
 warning: false
 tags:
   - "newman"
+redirect_from:
+  - /docs/newman_in_docker
 ---
 
 ### For Mac and Ubuntu
