@@ -1,68 +1,61 @@
 <!-- Populate the next and previous links based on site.data.doc_map -->
 
-
+{% assign hrefString = "" %}
+{% assign titleString = "" %}
+{% assign externalString = "" %}
 {% assign products = site.data.doc_map %}
-{% assign pageurl = page.url | split: '/' %}
-{% assign product_prefix = pageurl[2] %}
-{% assign category_prefix = pageurl[3] %}
-{% if pageurl[4] %}
-    {% assign feature_prefix = pageurl[4] %}
-{% endif %}
 
 {% for product in products %}
     {% assign prodIndex = forloop.index0 %}
     {% for category in product.children %}
-        {% if category.url_prefix == category_prefix %}
-            {% assign categoryIndex = forloop.index0 %}
-            <!--{% for feature in category.children %}-->
-                <!--{if feature.url_prefix == feature_prefix %}-->
-                    <!--{% assign featureIndex = forloop.index0 %}-->
-
-                    {% assign nextCategoryIndex = categoryIndex | plus: 1 %}
-                    {% assign nextProdIndex = ProdIndex | plus: 1 %}
-                    {% assign nextFeatureIndex = featureIndex | plus: 1 %}
-
-                    {% assign nextProduct = products[nextProdIndex] %}
-                    <!--{% assign nextFeature = "tbd" %}-->
-
-                    {% if product.children[nextCategoryIndex] %}
-                        {% assign next = product.children[nextCategoryIndex] %}
-                    {% elsif nextProduct.children.first %}
-                        {% assign next = nextProduct.children.first %}
-                    {% endif %}
-
-                    {% assign prevCategoryIndex = categoryIndex | minus: 1 %}
-                    {% assign prevProdIndex = prodIndex | minus: 1 %}
-                    {% assign prevProduct = products[prevProdIndex] %}
-
-                    {% if prevCategoryIndex >= 0 and product.children[prevCategoryIndex] %}
-                        {% assign prev = product.children[prevCategoryIndex] %}
-                    {% elsif prevProduct.children.last %}
-                        {% assign prev = prevProduct.children.last %}
-                    {% endif %}
-
-                    <div class="doc-next-link clearfix">
-                        {% if prev.title %}
-                        <a href="{{prev.href}}" {% if prev.external == true %}target="_blank"{% endif %} class="col-sm-6 col-xs-12 prev-article">
-                            {{prev.title}}
-                        </a>
-                        {% endif %}
-
-                        {% if next.title %}
-                        <a href="{{next.href}}" {% if next.external == true %}target="_blank"{% endif %} class="col-xs-6 hidden-xs next-article pull-right">
-                            {{next.title}}
-                        </a>
-                        {% endif %}
-                    </div>
-
-                    {% if next.title %}
-                    <div class="doc-next-link clearfix visible-xs">
-                        <a href="{{next.href}}" {% if next.external == true %}target="_blank"{% endif %} class="col-xs-12 next-article pull-right">
-                            {{next.title}}
-                        </a>
-                    </div>
-                {% endif %}
-            {% endfor %}
+        {% assign categoryIndex = forloop.index0 %}
+        {% for feature in category.children %}
+            {% if feature.href %}
+                {% assign hrefString = hrefString | append: feature.href | append: '$$' %}
+                {% assign titleString = titleString | append: feature.title | append: '$$' %}
+                {% assign externalString = externalString | append: feature.external | append: '$$' %}
+            {% endif %}
+        {% endfor %}
+        {% if category.href %}
+            {% assign hrefString = hrefString | append: category.href | append: '$$' %}
+            {% assign titleString = titleString | append: category.title | append: '$$' %}
+            {% assign externalString = externalString | append: category.external | append: '$$' %}
         {% endif %}
     {% endfor %}
 {% endfor %}
+
+{% assign hrefArray = hrefString | split: '$$' %}
+{% assign titleArray = titleString | split: '$$' %}
+{% assign externalArray = externalString | split: '$$' %}
+
+<div>
+{% for href in hrefArray %}
+    {% if href == page.url %}
+        {% assign hrefIndex = forloop.index0 %}
+        {% assign nextIndex = hrefIndex | plus: 1 %}
+        {% assign prevIndex = hrefIndex | minus: 1 %}
+
+        <div class="doc-next-link clearfix">
+            {% if hrefArray[prevIndex] %}
+            <a href="{{hrefArray[prevIndex]}}" {% if {{externalArray[prevIndex]}} == "true" %}target="_blank"{% endif %} class="col-sm-6 col-xs-12 prev-article">
+                {{titleArray[prevIndex]}}
+            </a>
+            {% endif %}
+
+            {% if hrefArray[nextIndex] %}
+            <a href="{{hrefArray[nextIndex]}}" {% if {{externalArray[nextIndex]}} == "true" %}target="_blank"{% endif %} class="col-xs-6 hidden-xs next-article pull-right">
+                {{titleArray[nextIndex]}}
+            </a>
+            {% endif %}
+        </div>
+
+        {% if hrefArray[nextIndex] %}
+        <div class="doc-next-link clearfix visible-xs">
+            <a href="{{hrefArray[nextIndex]}}" {% if externalArray[nextIndex] == true %}target="_blank"{% endif %} class="col-xs-12 next-article pull-right">
+                {{titleArray[nextIndex]}}
+            </a>
+        </div>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</div>
