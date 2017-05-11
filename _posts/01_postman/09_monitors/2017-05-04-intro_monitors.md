@@ -7,8 +7,7 @@ page_id: "intro_monitors"
 tags: 
   - "pro"
 warning: false
-redirect_from:
-  - /schedule_cloud_runs
+
 ---
 
 ### What is a monitor

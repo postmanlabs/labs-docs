@@ -5,8 +5,7 @@ categories:
 title: "Authorization"
 page_id: "authorization"
 warning: false
-redirect_from:
-  - /helpers
+
 ---
 
 While the request editor is powerful enough to construct any kind of requests, sometimes you might need some help. Postman has “helpers”, which can simplify some repetitive and complex tasks. The current set of helpers let you deal with authentication protocols easily. You can use environment variables with all helpers.

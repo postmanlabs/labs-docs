@@ -7,8 +7,7 @@ page_id: "pagerduty"
 tags: 
   - "pro"
 warning: false
-redirect_from:
-  - /pagerduty_integration
+
 ---
 
 ### Trigger and resolve incidents on PagerDuty

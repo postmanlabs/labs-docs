@@ -7,8 +7,7 @@ page_id: "viewing_documentation"
 tags: 
   - "pro"
 warning: false
-redirect_from:
-  - /consuming_api_documentation
+
 ---
 
 Each collection has a private and public documentation view, generated in real-time using the data synced to our servers. 
