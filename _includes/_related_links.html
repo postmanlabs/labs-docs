@@ -11,13 +11,15 @@
         {% assign categoryIndex = forloop.index0 %}
         {% for feature in category.children %}
             {% if feature.href %}
-                {% assign hrefString = hrefString | append: feature.href | append: '$$' %}
+                {% assign trimFeatHref = feature.href | remove_first:'/docs' %}
+                {% assign hrefString = hrefString | append: trimFeatHref | append: '$$' %}
                 {% assign titleString = titleString | append: feature.title | append: '$$' %}
                 {% assign externalString = externalString | append: feature.external | append: '$$' %}
             {% endif %}
         {% endfor %}
         {% if category.href %}
-            {% assign hrefString = hrefString | append: category.href | append: '$$' %}
+            {% assign trimCatHref = category.href | remove_first:'/docs' %}
+            {% assign hrefString = hrefString | append: trimCatHref| append: '$$' %}
             {% assign titleString = titleString | append: category.title | append: '$$' %}
             {% assign externalString = externalString | append: category.external | append: '$$' %}
         {% endif %}
