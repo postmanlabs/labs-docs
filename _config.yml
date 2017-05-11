@@ -3,7 +3,7 @@ defaults:
     values:
       layout: "default"
 
-permalink: /:title
+permalink: /:categories/:title
 
 # Namespace for custom variables
 pm:
@@ -14,3 +14,7 @@ pm:
 # Website metadata
 meta:
   tracker: "GTM-M42M5N"
+
+# HTTP-REFRESH meta tag for v1 redirects
+gems:
+  - jekyll-redirect-from
