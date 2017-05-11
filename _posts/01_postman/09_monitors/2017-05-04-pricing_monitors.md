@@ -1,6 +1,5 @@
 ---
-categories: 
-  - "docs"
+categories:
   - "postman"
   - "monitors"
 title: "Pricing for monitors"

@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "collections"
 title: "Sharing collections"

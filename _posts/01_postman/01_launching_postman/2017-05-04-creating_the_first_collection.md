@@ -1,6 +1,5 @@
 ---
-categories: 
-  - "docs"
+categories:
   - "postman"
   - "launching_postman"
 title: "Creating the first collection"

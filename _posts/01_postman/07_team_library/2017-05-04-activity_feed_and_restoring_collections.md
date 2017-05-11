@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "team_library"
 title: "Activity Feed and restoring collections"

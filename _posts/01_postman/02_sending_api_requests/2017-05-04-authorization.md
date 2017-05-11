@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "sending_api_requests"
 title: "Authorization"

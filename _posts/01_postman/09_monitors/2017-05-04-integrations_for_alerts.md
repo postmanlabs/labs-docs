@@ -1,6 +1,5 @@
 ---
-categories: 
-  - "docs"
+categories:
   - "postman"
   - "monitors"
 title: "Set up integrations to receive alerts"

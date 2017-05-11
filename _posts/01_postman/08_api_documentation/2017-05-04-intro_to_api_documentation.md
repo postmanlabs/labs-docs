@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "api_documentation"
 title: "Intro to API documentation"

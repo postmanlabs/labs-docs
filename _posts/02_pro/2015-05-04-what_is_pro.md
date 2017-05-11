@@ -1,6 +1,5 @@
 ---
-categories: 
-  - "docs"
+categories:
   - "pro"
 title: "What is Postman Pro"
 page_id: "what_is_pro"

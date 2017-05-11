@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "collection_runs"
 title: "Working with data files"
