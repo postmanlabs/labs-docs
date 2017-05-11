@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "environments_and_globals"
 title: "Variables"

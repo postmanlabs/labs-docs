@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "pro"
   - "integrations"
 title: "Microsoft Teams"
