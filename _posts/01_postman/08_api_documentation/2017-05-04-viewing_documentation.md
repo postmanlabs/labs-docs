@@ -8,7 +8,7 @@ tags:
   - "pro"
 warning: false
 redirect_from:
-  - /docs/consuming_api_documentation
+  - /consuming_api_documentation
 ---
 
 Each collection has a private and public documentation view, generated in real-time using the data synced to our servers. 

@@ -8,7 +8,7 @@ warning: false
 tags:
   - "newman"
 redirect_from:
-  - /docs/newman_in_docker
+  - /newman_in_docker
 ---
 
 ### For Mac and Ubuntu

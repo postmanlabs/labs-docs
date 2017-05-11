@@ -6,7 +6,7 @@ title: "Creating collections"
 page_id: "creating_collections"
 warning: false
 redirect_from:
-  - /docs/collections
+  - /collections
 ---
 
 ### What is a Postman Collection?

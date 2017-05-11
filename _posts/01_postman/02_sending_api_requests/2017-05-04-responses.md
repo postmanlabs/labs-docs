@@ -6,8 +6,8 @@ title: "Responses"
 page_id: "responses"
 warning: false
 redirect_from:
-  - /docs/responses
-  - /docs/checking_payload_responses
+  - /responses
+  - /checking_payload_responses
 ---
 
 Ensuring that the API response is correct is something that you will be doing a lot when working with APIs. The Postman response viewer will make this task much easier for you.

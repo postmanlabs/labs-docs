@@ -6,10 +6,10 @@ title: "Data formats"
 page_id: "data_formats"
 warning: false
 redirect_from:
-  - /docs/importing_curl
-  - /docs/validating_json_collections
-  - /docs/importing_folders
-  - /docs/importing_swagger
+  - /importing_curl
+  - /validating_json_collections
+  - /importing_folders
+  - /importing_swagger
 ---
 
 

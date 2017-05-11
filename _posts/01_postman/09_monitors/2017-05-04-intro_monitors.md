@@ -8,7 +8,7 @@ tags:
   - "pro"
 warning: false
 redirect_from:
-  - /docs/schedule_cloud_runs
+  - /schedule_cloud_runs
 ---
 
 ### What is a monitor

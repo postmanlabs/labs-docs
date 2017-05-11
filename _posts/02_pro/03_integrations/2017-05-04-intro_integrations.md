@@ -8,7 +8,7 @@ tags:
   - "pro"
 warning: false
 redirect_from:
-  - /docs/integrations
+  - /integrations
 ---
 
 Postman provides a strong API development toolchain that integrates seamlessly with the developer's workflow. Postman has always supported an open ecosystem, working with industry leaders to introduce new features and integrations to help their users move painlessly through API development and improve their productivity.
