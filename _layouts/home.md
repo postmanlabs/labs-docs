@@ -15,12 +15,12 @@
             <div class="doc-sidebar col-md-4 col-md-offset-1">
               <h3>Popular Topics</h3>
               <ul id="popular-topics">
-                <li><a href="/docs/postman/launching_postman/installation_and_updates">Installing the native app</a></li>
-                <li><a href="/docs/postman/collection_runs/command_line_integration_with_newman">Newman - Running collections in the command line</a></li>
-                <li><a href="/docs/postman/collection_runs/starting_a_collection_run">Level up with Postman Pro</a></li>
-                <li><a href="/docs/postman/collections/creating_collections">Getting started with collections</a></li>
-                <li><a href="/docs/postman/environments_and_globals/variables">Setting up an environment with variables</a></li>
-                <li><a href="/docs/postman/scripts/test_scripts">Writing tests</a></li>
+                <li><a href="/docs/install_native">Installing the native app</a></li>
+                <li><a href="/docs/newman_intro">Newman - Running collections in the command line</a></li>
+                <li><a href="{{site.pm.blog}}/2015/12/10/introducing-postman-cloud/">Introducing Postman Pro</a></li>
+                <li><a href="/docs/collections">Getting started with Collections</a></li>
+                <li><a href="/docs/environments">Setting up an environment with variables</a></li>
+                <li><a href="/docs/writing_tests">Writing Tests</a></li>
               </ul>
 
               <h3>Video Tutorials</h3>
