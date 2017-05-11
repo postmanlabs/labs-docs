@@ -6,7 +6,7 @@ title: "Environments in Run in Postman"
 page_id: "environments_run_button"
 warning: false
 redirect_from:
-  - /docs/env_run_button
+  - /env_run_button
 ---
 
 There are 2 ways to include an environment with the shared collection using the Run in Postman button.

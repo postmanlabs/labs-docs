@@ -7,7 +7,7 @@ tags:
   - "pro"
 warning: false
 redirect_from:
-  - /docs/cloud
+  - /cloud
 ---
 
 Postman’s vision is to help you build a super fast and smooth workflow for API development keeping some key questions in mind:

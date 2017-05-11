@@ -8,7 +8,7 @@ tags:
   - "pro"
 warning: false
 redirect_from:
-  - /docs/cloud_team_setup
+  - /cloud_team_setup
 ---
 
 Postman's web [dashboard](https://app.getpostman.com/dashboard/teams) provides a number of ways to manage your team.
