@@ -7,7 +7,5 @@
   "newman": "Newman",
   "web": "Web",
   "windows": "Windows",
-  "native": "Native",
-  "pro": "Pro",
-  "enterprise": "Enterprise"
+  "native": "Native"
 }
