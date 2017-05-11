@@ -39,13 +39,15 @@
 
         <div class="doc-next-link clearfix">
             {% if hrefArray[prevIndex] %}
-            <a href="{{hrefArray[prevIndex]}}" {% if {{externalArray[prevIndex]}} == "true" %}target="_blank"{% endif %} class="col-sm-6 col-xs-12 prev-article">
+                {% assign newPrevHref = hrefArray[prevIndex] | prepend:'/docs' %}
+            <a href="{{newPrevHref}}" {% if {{externalArray[prevIndex]}}=="true" %}target="_blank"{% endif %} class="col-sm-6 col-xs-12 prev-article">
                 {{titleArray[prevIndex]}}
             </a>
             {% endif %}
 
             {% if hrefArray[nextIndex] %}
-            <a href="{{hrefArray[nextIndex]}}" {% if {{externalArray[nextIndex]}} == "true" %}target="_blank"{% endif %} class="col-xs-6 hidden-xs next-article pull-right">
+                {% assign newNextHref = hrefArray[nextIndex] | prepend:'/docs' %}
+            <a href="{{newNextHref}}" {% if {{externalArray[nextIndex]}}=="true" %}target="_blank"{% endif %} class="col-xs-6 hidden-xs next-article pull-right">
                 {{titleArray[nextIndex]}}
             </a>
             {% endif %}
