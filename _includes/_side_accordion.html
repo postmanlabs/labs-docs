@@ -7,8 +7,8 @@
 
     <div class="pm-accordion-links" id="productAccordion">
         {% assign pageurl = page.url | split: '/' %}
-        {% assign product_prefix = pageurl[2] %}
-        {% assign category_prefix = pageurl[3] %}
+        {% assign product_prefix = pageurl[1] %}
+        {% assign category_prefix = pageurl[2] %}
 
         {% for product in site.data.doc_map %}
         {% assign product_index = forloop.index0 %}
@@ -23,10 +23,12 @@
                 {% assign category_index = forloop.index0 %}
 
                 {% if category.href.size > 0 %}
+                    {% assign categoryHrefTrim = category.href | remove_first:'/docs' %}
+
                 <li>
                     <a href="{{category.href}}"
                        {% if category.external  == true %}target="_blank"{% endif %}
-                       {% if page.url == category.href %}class="active"{% endif %}
+                       {% if page.url == categoryHrefTrim %}class="active"{% endif %}
                     >
                         {{category.title}}
                     </a>
@@ -42,10 +44,11 @@
                             {% for feature in category.children %}
                             {% assign feature_index = forloop.index0 %}
                             {% if feature.href %}
+                                {% assign featureHrefTrim = feature.href | remove_first:'/docs' %}
                             <li>
                                 <a href="{{feature.href}}"
                                    {% if feature.external == true %}target="_blank"{% endif %}
-                                   {% if page.url == feature.href %}class="active"{% endif %}
+                                   {% if page.url == featureHrefTrim %}class="active"{% endif %}
                                 >
                                     {{feature.title}}
                                 </a>
