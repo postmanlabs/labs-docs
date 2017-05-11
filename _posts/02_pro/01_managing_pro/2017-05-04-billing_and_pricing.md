@@ -7,9 +7,7 @@ page_id: "billing_and_pricing"
 tags: 
   - "pro"
 warning: false
-redirect_from:
-  - /billing_details
-  - /pricing-policy
+
 ---
 
 ### Plans for Pro

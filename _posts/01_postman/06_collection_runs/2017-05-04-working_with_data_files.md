@@ -5,9 +5,7 @@ categories:
 title: "Working with data files"
 page_id: "working_with_data_files"
 warning: false
-redirect_from:
-  - /multiple_instances
-  - /run_file_post_requests
+
 ---
 
 Data files are extremely powerful ways to test your APIs with varying data to check if they behave properly under unexpected circumstances.

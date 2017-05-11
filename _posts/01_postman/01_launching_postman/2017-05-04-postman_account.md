@@ -5,8 +5,7 @@ categories:
 title: "Postman account"
 page_id: "postman_account"
 warning: false
-redirect_from:
-  - /account
+
 ---
 
 ### Why sign up for a Postman account

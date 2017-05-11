@@ -5,8 +5,7 @@ categories:
 title: "Test scripts"
 page_id: "test_scripts"
 warning: false
-redirect_from:
-  - /writing_tests
+
 ---
 
 

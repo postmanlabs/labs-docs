@@ -5,8 +5,7 @@ categories:
 title: "Postman Sandbox"
 page_id: "postman_sandbox"
 warning: false
-redirect_from:
-  - /sandbox
+
 ---
 
 

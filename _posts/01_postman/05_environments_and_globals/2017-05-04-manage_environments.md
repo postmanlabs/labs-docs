@@ -5,9 +5,7 @@ categories:
 title: "Manage environments"
 page_id: "manage_environments"
 warning: false
-redirect_from:
-  - /environments
-  - /test_multi_environments
+
 ---
 
 Each environment is a set of key-value pairs, with the key as the variable name. These can be edited using the [data editor](/docs/postman/launching_postman/navigating_postman).

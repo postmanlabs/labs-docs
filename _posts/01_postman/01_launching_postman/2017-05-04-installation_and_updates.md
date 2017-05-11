@@ -5,12 +5,7 @@ categories:
 title: "Installation and updates"
 page_id: "installation_and_updates"
 warning: false
-redirect_from:
-  - /install_native
-  - /launch
-  - /migration
-  - /updating
-  - /why_native
+
 ---
 
 ### **Installing the Postman app**
@@ -91,8 +86,6 @@ From the Postman settings, select the **Data** tab and click the **Download**
 ##### **Bulk import**
 
 From the same area in Postman settings, you can initiate a bulk import from a Postman data dump file.  This will overwrite your existing data so be a little careful.
-
-* * *
 
 ### **Updating Postman**
 
