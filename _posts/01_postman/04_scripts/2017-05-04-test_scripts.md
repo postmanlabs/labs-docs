@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "scripts"
 title: "Test scripts"

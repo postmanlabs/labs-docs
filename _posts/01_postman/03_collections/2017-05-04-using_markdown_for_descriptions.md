@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "collections"
 title: "Using Markdown for descriptions"

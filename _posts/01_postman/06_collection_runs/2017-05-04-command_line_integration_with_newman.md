@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "collection_runs"
 title: "Command line integration with Newman"

@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "collection_runs"
 title: "Using environments in collection runs"

@@ -1,6 +1,5 @@
 ---
-categories: 
-  - "docs"
+categories:
   - "postman"
 title: "Notifications"
 page_id: "notifications"

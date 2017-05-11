@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "enterprise"
 title: "Apply for beta access"
 page_id: "apply_for_beta_access"

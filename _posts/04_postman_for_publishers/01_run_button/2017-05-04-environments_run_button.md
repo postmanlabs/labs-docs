@@ -1,6 +1,5 @@
 ---
-categories: 
-  - "docs"
+categories:
   - "postman_for_publishers"
   - "run_button"
 title: "Environments in Run in Postman"

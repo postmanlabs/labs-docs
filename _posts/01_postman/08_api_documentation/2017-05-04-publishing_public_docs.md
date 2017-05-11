@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "postman"
   - "api_documentation"
 title: "Publishing public docs"

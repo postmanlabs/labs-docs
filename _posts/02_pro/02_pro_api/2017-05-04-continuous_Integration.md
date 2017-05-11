@@ -1,6 +1,5 @@
 ---
 categories:
-  - "docs"
   - "pro"
   - "pro_api"
 title: "Continuous Integration"

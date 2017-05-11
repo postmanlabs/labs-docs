@@ -1,6 +1,5 @@
 ---
-categories: 
-  - "docs"
+categories:
   - "postman"
 title: "Mock Servers"
 page_id: "mock_servers"

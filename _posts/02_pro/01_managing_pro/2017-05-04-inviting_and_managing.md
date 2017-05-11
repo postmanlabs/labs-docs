@@ -1,6 +1,5 @@
 ---
-categories: 
-  - "docs"
+categories:
   - "pro"
   - "managing_pro"
 title: "Inviting and managing"
