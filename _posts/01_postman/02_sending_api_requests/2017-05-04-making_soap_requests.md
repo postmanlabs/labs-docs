@@ -6,7 +6,7 @@ title: "Making SOAP requests"
 page_id: "making_soap_requests"
 warning: false
 redirect_from:
-  - /docs/soap_requests
+  - /soap_requests
 ---
 
 To make SOAP requests using Postman:

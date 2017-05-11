@@ -6,7 +6,7 @@ title: "Using the Run in Postman button"
 page_id: "using_run_button"
 warning: false
 redirect_from:
-  - /docs/run_button_ux
+  - /run_button_ux
 ---
 
 ### Developer experience with Run in Postman

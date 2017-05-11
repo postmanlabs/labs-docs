@@ -6,7 +6,7 @@ title: "Troubleshooting API requests"
 page_id: "troubleshooting_api_requests"
 warning: false
 redirect_from:
-  - /docs/errors
+  - /errors
 ---
 
 There might be cases when your API doesn't work, or exhibits unexpected behavior. If you're not getting any response, Postman will display a message that there was an error connecting to the server.

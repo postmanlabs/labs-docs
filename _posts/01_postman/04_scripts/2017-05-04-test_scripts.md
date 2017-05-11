@@ -6,7 +6,7 @@ title: "Test scripts"
 page_id: "test_scripts"
 warning: false
 redirect_from:
-  - /docs/writing_tests
+  - /writing_tests
 ---
 
 

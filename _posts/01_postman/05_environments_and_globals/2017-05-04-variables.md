@@ -6,7 +6,7 @@ title: "Variables"
 page_id: "variables"
 warning: false
 redirect_from:
-  - /docs/chaining_requests
+  - /chaining_requests
 ---
 
 ### What are variables?

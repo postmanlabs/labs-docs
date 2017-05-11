@@ -8,8 +8,8 @@ tags:
   - "pro"
 warning: false
 redirect_from:
-  - /docs/billing_details
-  - /docs/pricing-policy
+  - /billing_details
+  - /pricing-policy
 ---
 
 ### Plans for Pro

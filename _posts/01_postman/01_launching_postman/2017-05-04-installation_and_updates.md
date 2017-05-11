@@ -6,11 +6,11 @@ title: "Installation and updates"
 page_id: "installation_and_updates"
 warning: false
 redirect_from:
-  - /docs/install_native
-  - /docs/launch
-  - /docs/migration
-  - /docs/updating
-  - /docs/why_native
+  - /install_native
+  - /launch
+  - /migration
+  - /updating
+  - /why_native
 ---
 
 ### **Installing the Postman app**

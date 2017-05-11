@@ -6,8 +6,8 @@ title: "Generate code snippets"
 page_id: "generate_code_snippets"
 warning: false
 redirect_from:
-  - /docs/creating_curl
-  - /docs/code_snippets
+  - /creating_curl
+  - /code_snippets
 ---
 
 Once you’ve finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. You’ll need to click the** Code** link under the blue **Send** button to open the **GENERATE CODE SNIPPETS** modal.
