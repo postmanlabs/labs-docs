@@ -7,8 +7,7 @@ page_id: "command_line_integration_with_newman"
 warning: false
 tags:
   - "newman"
-redirect_from:
-  - /newman_intro
+
 ---
 
 Newman is a command line collection runner for Postman. It allows you to run and test a Postman Collection directly from the command line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.

@@ -5,8 +5,7 @@ categories:
 title: "Pre-request scripts"
 page_id: "pre_request_scripts"
 warning: false
-redirect_from:
-  - /pre_request_scripts
+
 ---
 
 Pre-request scripts are snippets of code associated with a collection request that are executed before the request is sent. This is perfect for use-cases like including the timestamp in the request headers or sending a random alphanumeric string in the URL parameters.
