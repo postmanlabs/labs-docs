@@ -115,7 +115,7 @@ You can also configure your preferences to automatically download updates under 
 
 **Troubleshooting updates in macOS Sierra**
 
-We have received user feedback that the Mac update is not completing successfully, even after downloading the update for macOS Sierra.
+We have received user feedback that the Mac update does not complete successfully, even after downloading the update for macOS Sierra.
 
 This can be solved by moving the app out of the Downloads directory. The Postman updater is unable to switch the downloaded version on the read-only memory, initially assigned for the downloaded apps by macOS Sierra.  
 
