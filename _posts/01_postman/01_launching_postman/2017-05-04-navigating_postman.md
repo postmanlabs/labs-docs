@@ -57,7 +57,7 @@ Postman gives you a tabbed layout for sending and managing API requests in the b
 
 To see what's going behind the scenes, there are two consoles available in Postman. Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
-   *   Postman console - Contains a running log of HTTP requests and responses. Logs messages that come out of scripts (like in console.log). This feature is only available in Postman's native apps.
+   *   Postman console - Contains a running log of HTTP requests and responses. Log messages that come out of scripts (like in console.log). This feature is only available in Postman's native apps.
    *   DevTools console - Where you can log diagnostic information during development.
 
 ### Menu bar

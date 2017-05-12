@@ -17,8 +17,6 @@ Postman’s vision is to help you build a super fast and smooth workflow for API
 *   Are they working properly all the time?
 *   Can I connect all my tools with my API development workflow?
 
-### Differences between Postman and Postman Pro
-
 Postman Pro offers solutions that satisfy each of the questions above. 
 
 *   Team [collaboration](/docs/postman/team_library/sharing) for the single source of truth about your API, or review historical versions and the latest updates.

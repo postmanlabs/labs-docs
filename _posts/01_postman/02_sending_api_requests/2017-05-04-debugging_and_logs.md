@@ -25,7 +25,7 @@ Using `console.info()` or `console.warn()` at appropriate locations in the scrip
 
 To access the console logs, follow these steps:
 
-##### **For the packaged app for Mac / Windows / Linux**
+##### **For the native app for Mac / Windows / Linux**
 
   *   Head to `View` in the application menu, and click on "Show DevTools".
   *   In the DevTools window, clicking on the top level Console tab should show the app’s debug logs.
@@ -42,7 +42,7 @@ To access the console logs, follow these steps:
 
 ### Network Calls with Postman Console
 
-##### **For the packaged app for Mac / Windows / Linux**
+##### **For the native app for Mac / Windows / Linux**
 
 Head to `View` in the application menu, and click on "Show Postman Console" or use the keyboard shortcut **(CMD/CTRL + ALT + C)**. Similar to DevTools, every call along with its headers and payloads will be logged to the Postman Console. 
 
