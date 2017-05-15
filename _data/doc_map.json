@@ -13,11 +13,6 @@
             "external": false
           },
           {
-            "title": "Navigating Postman",
-            "href": "/docs/postman/launching_postman/navigating_postman",
-            "external": false
-          },
-          {
             "title": "Sending the first request",
             "href": "/docs/postman/launching_postman/sending_the_first_request",
             "external": false
@@ -25,6 +20,11 @@
           {
             "title": "Creating the first collection",
             "href": "/docs/postman/launching_postman/creating_the_first_collection",
+            "external": false
+          },
+          {
+            "title": "Navigating Postman",
+            "href": "/docs/postman/launching_postman/navigating_postman",
             "external": false
           },
           {
@@ -49,11 +49,6 @@
         "url_prefix": "sending_api_requests",
         "children": [
           {
-            "title": "History",
-            "href": "/docs/postman/sending_api_requests/history",
-            "external": false
-          },
-          {
             "title": "Requests",
             "href": "/docs/postman/sending_api_requests/requests",
             "external": false
@@ -61,6 +56,11 @@
           {
             "title": "Responses",
             "href": "/docs/postman/sending_api_requests/responses",
+            "external": false
+          },
+          {
+            "title": "History",
+            "href": "/docs/postman/sending_api_requests/history",
             "external": false
           },
           {

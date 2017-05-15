@@ -14,25 +14,25 @@ You can choose to save helper data to collection requests. This will cause the s
 
 ### Basic Auth
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961418.png)
+[![basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961418.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961418.png)
 
 Enter the username and password fields and hit “Update Request” to generate the authorization header.
 
 ### Digest Auth
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961470.png)
+[![digest auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961470.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961470.png)
 
 Digest auth is more complicated than basic auth and uses the values currently set in the request to generate the authorization header. Make sure they are set properly before you generate the header. Postman will remove the existing header if it’s already present.
 
 ### OAuth 1.0a
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961512.png)
+[![oauth 1.0a](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961512.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961512.png)
 
 Postman’s OAuth helper lets you sign requests which support OAuth 1.0a based authentication. Currently, it does not let you acquire the access token. That’s something you would need from the API provider. The OAuth 1.0 helper can set values in either the header or as query parameters.
 
 As subsequent OAuth requests might expect a different nonce value, Postman can refresh the OAuth signature just before the request is sent if auto add parameters is enabled.
 
-The OAuth 1.0 spec is quite complicated and there are many variations. Postman tries to support as many of those variations as possible but if something does not work for you, [file an issue on Github](https://github.com/postmanlabs/postman-app-support/issues). These are few of the options that we’ve included:
+The OAuth 1.0 spec is quite complicated and there are many variations. Postman tries to support as many of those variations as possible but if something does not work for you, [file an issue on Github](https://github.com/postmanlabs/postman-app-support/issues){:target="_blank"}. These are few of the options that we’ve included:
 
 ##### **Add params to header**
 
@@ -46,7 +46,7 @@ Some implementations of OAuth1.0 require empty parameters to be added to the sig
 
 Postman supports getting the OAuth 2.0 token as well as adding it to requests really easily. To get an access token from an OAuth 2.0 provider, follow these steps:
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961651.png)
+[![oauth 2.0](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961651.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961651.png)
 
    *   Click the "Get New Access Token" button to open a modal. You will see `https://www.getpostman.com/oauth2/callback` as the Callback URL.
    *   From your API provider, get the values for Authorization URL, Access Token URL, Client ID and Client Secret. These values will be provided your API provider. Optionally, you can set the Scope parameter which is needed by some APIs to set the level of access you have within the API.
@@ -58,7 +58,7 @@ Postman supports getting the OAuth 2.0 token as well as adding it to requests re
 
 Hawk is an HTTP authentication scheme using a message authentication code (MAC) algorithm to provide partial HTTP request cryptographic verification.
 
-Read more on the [Hawk Github page](https://github.com/hueniverse/hawk).
+Read more on the [Hawk Github page](https://github.com/hueniverse/hawk){:target="_blank"}.
 
 ### AWS authentication
 
@@ -66,6 +66,6 @@ AWS users have to use a custom HTTP scheme based on a keyed-HMAC (Hash Message A
 
 Read more about the AWS Signature on AWS documentation:
 
-* [http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html](http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html)
+* [http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html](http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html){:target="_blank"}
 
-* [http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html](http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html)
+* [http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html](http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html){:target="_blank"}
