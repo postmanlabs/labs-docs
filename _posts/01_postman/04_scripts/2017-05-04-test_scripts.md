@@ -11,13 +11,13 @@ warning: false
 
 With Postman you can write and run tests for each request using the JavaScript language.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58980408.png)
+[![tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58980408.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58980408.png)
 
 ### Writing Postman tests
 
 A Postman test is essentially JavaScript code which sets values for the special tests object. The test scripts are executed after the request is sent, allowing access to the response object. You can set a descriptive key for an element in the object and then say if it’s true or false. For example, `tests[“Body contains user_id”] = responseBody.has(“user_id”);` will check whether the response body contains the `user_id` string.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755171.png)
+[![test object format](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755171.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755171.png)
 
 You can add as many keys as needed, depending on how many things you want to test for. Check out some [examples](/docs/postman/scripts/test_examples) of Postman tests.
 
@@ -31,11 +31,11 @@ Postman tests run in a sandboxed environment, which is separate from the executi
 
 While there are very few things to remember while writing tests, Postman tries to make the process easier by listing commonly used snippets next to the editor. You can select the snippet you want to add and the appropriate code will be added to the test editor. This is a great way to quickly build test cases.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755234.png)
+[![snippets](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755234.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755234.png)
 
 ### Viewing results
 
-![](https://www.getpostman.com/img/v1/docs/source/cr-6.png)
+[![viewing results in tests tab](https://www.getpostman.com/img/v1/docs/source/cr-6.png)](https://www.getpostman.com/img/v1/docs/source/cr-6.png)
 
 Postman runs tests every time you run a request. Of course, you can choose to not look at the test results!
 

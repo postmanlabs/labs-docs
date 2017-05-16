@@ -9,11 +9,11 @@ tags:
 warning: false
 ---
 
-Usage of Postman Monitors is billed on a per-request basis. A request is any HTTP request needed to run your collection. If you collection has 5 requests, but you've used `postman.setNextRequest()` to skip some requests, or run requests multiple times, you'll be billed according to the number of requests actually made, not the number of requests in your collection. Any requests needed for the auth helpers (Digest Auth, OAuth, etc.) will also be included in your usage count.
+Usage of Postman Monitors is billed on a per-request basis. A request is any HTTP request needed to run your collection. If your collection has 5 requests, but you've used `postman.setNextRequest()` to skip some requests, or run requests multiple times, you'll be billed according to the number of requests actually made, not the number of requests in your collection. Any requests needed for the auth helpers (Digest Auth, OAuth, etc.) will also be included in your usage count.
 
 Each Pro/Enterprise team gets 10,000 free requests per month. The first month starts the day you send your first monitoring request, or when you set up a monthly block for your team.
 
-Teams on the free Pro trial cannot go beyond this limit. They will have to wait for the next monitoring billing cycle to get another 10,000 requests.
+Teams on the free Pro trial cannot go beyond this limit. If you are on the free trial, you will have to wait for the next monitoring billing cycle to get another 10,000 requests.
 
 ### For paid teams
 
@@ -23,7 +23,7 @@ Teams on the free Pro trial cannot go beyond this limit. They will have to wait 
 
 ### Request blocks for paid Pro teams
 
-On the [billing page](https://app.getpostman.com/pay/billing), paid teams can configure "blocks" of requests to save on monitoring charges. Each request block gives you 500,000 requests at $200, and is auto-renewed each month. If you set up monitoring blocks before sending your first monitoring request, your monitoring billing cycle will start from the day you set up the blocks. You may increase or decrease your block count at any time during the billing cycle, but the cost of extra blocks will not be prorated.
+On the [billing page](https://app.getpostman.com/pay/billing){:target="_blank"}, paid teams can configure "blocks" of requests to save on monitoring charges. Each request block gives you 500,000 requests at $200, and is auto-renewed each month. If you set up monitoring blocks before sending your first monitoring request, your monitoring billing cycle will start from the day you set up the blocks. You may increase or decrease your block count at any time during the billing cycle, but the cost of extra blocks will not be prorated.
 
 At the end of each billing cycle, you'll be charged $200 for each block configured, plus $0.75 per 1000 requests made over your block limit.
 

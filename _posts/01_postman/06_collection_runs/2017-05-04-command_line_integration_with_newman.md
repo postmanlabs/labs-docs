@@ -14,11 +14,11 @@ Newman is a command line collection runner for Postman. It allows you to run and
 
 Newman maintains feature parity with Postman and allows you to run collections just the way they are executed inside the collection runner in the Postman app.
 
-Newman resides in the [NPM registry](https://www.npmjs.org/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
+Newman resides in the [NPM registry](https://www.npmjs.org/package/newman){:target="_blank"} and on [GitHub](https://github.com/postmanlabs/newman){:target="_blank"}.
 
 ### Getting Started on Linux, Windows, or Mac
 
-Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Node.js can be [downloaded and installed](http://nodejs.org/download/) on Linux, Windows, and Mac OSX.
+Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Node.js can be [downloaded and installed](http://nodejs.org/download/){:target="_blank"} on Linux, Windows, and Mac OSX.
 
 Once Node.js is installed, Newman is just a command away. Install Newman from npm globally on your system allowing you to run it from anywhere.
 
@@ -233,4 +233,4 @@ newman.run({
 });
 ```
 
-For the complete list of details, see the [Newman README](https://github.com/postmanlabs/newman).
+For the complete list of details, see the [Newman README](https://github.com/postmanlabs/newman){:target="_blank"}.

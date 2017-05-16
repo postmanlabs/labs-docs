@@ -16,24 +16,24 @@ Sign up for a free Postman account and get the following benefits:
    *   Easily work on multiple Postman instances from different machines.
    *   Create [collection links](/docs/postman/collections/sharing_collections) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app) and our [security page](https://www.getpostman.com/security) and [privacy page](https://www.getpostman.com/licenses/privacy) to know more.
+Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"} and our [security page](https://www.getpostman.com/security){:target="_blank"} and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
 
 ### Signing up for a Postman account
 
 *   If you haven't already, download the Postman app.
 *   Launch the app, and see a prompt to log in or sign up.
-    ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
+    [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
 *   Sign up with your email address or your Google account.
-    ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
+    [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
 *   Confirm your email and you are good to go.
 
 Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, [contact us](mailto:help@getpostman.com?Subject=Documentation).
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135890.png)
+[![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135890.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135890.png)
 
 ### Security policies and standards
 
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security).
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security){:target="_blank"}.
 
    *   Communication with Postman servers only happens through HTTPS and Secure WebSockets.
    *   Environment and global variables are encrypted so that only you can view them.
@@ -41,7 +41,7 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 ### Forgot your username or password?
 
-Clicking on the Forgot Username or Password links near the **Sign In** prompt will allow you to [recover your username or reset a password](https://app.getpostman.com/signup?redirect=web#mod-reset-password-modal).
+Clicking on the Forgot Username or Password links near the **Sign In** prompt will allow you to [recover your username or reset a password](https://app.getpostman.com/signup?redirect=web#mod-reset-password-modal){:target="_blank"}.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59157918.png)
+[![forgot password page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59157918.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59157918.png)
 

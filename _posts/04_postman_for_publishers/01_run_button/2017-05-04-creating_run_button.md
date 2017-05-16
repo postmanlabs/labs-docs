@@ -18,18 +18,18 @@ To create the Run in Postman button, start in the Postman app. Make sure you are
 
 1.  Click on the ellipses **(...)** next to the collection you would like to embed and select "Share". 
 
-    ![share collection](https://cloud.githubusercontent.com/assets/681190/18237865/29682800-7354-11e6-8991-29f1ed75c5a8.png)
+    [![share collection](https://cloud.githubusercontent.com/assets/681190/18237865/29682800-7354-11e6-8991-29f1ed75c5a8.png)](https://cloud.githubusercontent.com/assets/681190/18237865/29682800-7354-11e6-8991-29f1ed75c5a8.png)
 
 2.  Under the **Embed Button** tab, click the **Generate Code** button to upload the collection to the Postman servers.
 
-     ![generate code](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)
+    [![generate code](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)
 
 3.  Pick whether you would like a Dynamic button or a Static button.
 
   *   The Dynamic button uses HTML and CSS, and works well if you want to add the button to your own website and you can edit the source code.
   *   The Static button uses Markdown, and works well if you need to add the button to a markdown document, such as a README.md file in your Github or Bitbucket repository.
 
-         ![run in postman button code](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)
+      [![run in postman button code](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)
 
 Here’s an example markdown snippet:
 

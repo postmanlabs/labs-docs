@@ -10,7 +10,7 @@ warning: false
 
 Postman provides a multi-window and multi-tab interface for you to work on APIs. Postman strives to be clean and flexible to your needs. It gives you as much space as possible for your APIs. Navigating through the interface is easy. See the graphic below to see how everything is organized.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)
+[![general layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)
 
 ### Sidebar
 
@@ -18,7 +18,7 @@ The Postman sidebar lets you find and manage requests and collections. The sideb
 
 The right edge can be dragged to resize the width of the sidebar.  The sidebar can also be minimized for smaller screens.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)
+[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)
 
 ### History tab
 
@@ -30,7 +30,7 @@ Create and manage collections from the **Collections** tab in the sidebar. Learn
 
 ### Header toolbar
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)
+[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)
 
 The topmost toolbar in Postman covers the following options:
 
@@ -66,11 +66,11 @@ The Postman application menu bar provides access to additional features. Note th
 
 **Postman native app**:  displays more menu options making it easier to access specific Postman features.
 
-[![](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)
+[![native app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)
 
 **Postman Chrome app**:  displays a few menu options restricted by the Chrome standard .
 
-[![](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)
+[![chrome app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)
 
 ### Tabs and Windows
 
@@ -87,8 +87,6 @@ By default, Postman assumes that you want to work on one collection request in 
 ##### **Moving requests**
 
 Within the request builder, drag and drop tabs to reorder them as you see fit. Open a new request in a new tab, or in a new Postman window. Open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
-
-***
 
 ### Keyboard Shortcuts
 
@@ -112,7 +110,7 @@ Global shortcuts are used for important actions so that they can be accessed irr
 
 Different operating systems will have different shortcuts.  You can always view a complete list of your operating system's shortcuts under the **Shortcuts** tab in the **SETTINGS** modal.
 
-[](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59179733.png)
+[![shortcuts in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59179733.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59179733.png)
 
 ##### **Reference for all shortcuts**
 
@@ -166,7 +164,6 @@ Different operating systems will have different shortcuts.  You can always view
 | Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
 | Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
 
-***
 
 ### Data editor
 
@@ -180,38 +177,38 @@ We've configured the available horizontal and vertical space more effectively to
 
 Relevant features will display for a specific row on hover. This reduces clutter in the interface and helps the user focus on the most relevant data.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
+[![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
 
 ##### **Select multiple rows by simply dragging your mouse**
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
+[![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
 
 ##### **Keyboard shortcuts for the data editor**
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162727.png)
+[![most popular shortcuts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162727.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162727.png)
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)
+[![using shortcuts gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)
 
 ##### **Support for bulk actions**
 
 You can select and copy multiple rows. Then go ahead and paste them in a different place (e.g. params) and check out what happens for yourself!
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)  
+[![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)  
 
 ##### **View information up front**
 
 We want to display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information. This is implemented in the data editor as well as the URL bar.  
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)
+[![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)
 
 ##### **Ability to resize columns**
 
 You can change the width of the key and value columns by dragging the boundary on the right side of the ‘key’ column header.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)
+[![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)
 
 ##### **Multiline support**
 
 The data editor supports sending multiline values. Pressing 'Enter' in a key or value field expands it and takes the cursor to a new line.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162801.gif)
+[![sending multiline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162801.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162801.gif)

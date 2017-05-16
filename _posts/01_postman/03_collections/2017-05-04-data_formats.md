@@ -8,7 +8,6 @@ warning: false
 
 ---
 
-
 Postman can export and import collections, environments, globals and header presets as files and links.
 
 ### Exporting and Importing Postman data
@@ -17,21 +16,21 @@ Postman can export and import the following formats as a file or generated URL.�
 
 ##### **Collections**
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163827.png)
+[![export collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163827.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163827.png)
 
-Postman can export collections in two formats - v1 and v2\. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/). 
+Postman can export collections in two formats - v1 and v2\. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}. 
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163839.png)
+[![select v1 or v2 format](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163839.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163839.png)
 
 ##### **Environments**
 
 Environments can be exported from the **MANAGE ENVIRONMENTS** modal, and imported here as well.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163851.png)
+[![export environments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163851.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163851.png)
 
 ##### **Data dumps**
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163867.png)
+[![export all Postman data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163867.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163867.png)
 
 From the **Data** tab of the **SETTINGS** modal, Postman allows you to export all collections, environments, globals and header presets into one JSON file. Postman does not export your history. You can import this data back into Postman.
 
@@ -39,7 +38,7 @@ From the **Data** tab of the **SETTINGS** modal, Postman allows you to expor
 
 Postman data can be imported from the **Data** tab of the **SETTINGS** modal, or using the **Import** button in the header toolbar. Import a collection, environment, data dump, curl command, or a RAML / WADL / Swagger (v1/v2) / Runscope file using the **IMPORT** modal.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163883.png)
+[![import data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163883.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163883.png)
 
 ### Importing cURL
 
@@ -71,13 +70,13 @@ A few commands which can be imported include:
 
    1.  Clone the repository containing the RAML definition to your local machine, or save it locally as a folder.
    2.  Click on the Import button, and choose the Import Folder tab. 
-      [![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
+      [![import button](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
    3.  Click on **Choose Folders** and upload the RAML folder.
-      [![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)
+      [![import folder modal](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)
     
    You’re done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
     
-   [![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)
+   [![confirmation message](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)
 
 ##### **Examples**
 
@@ -93,19 +92,19 @@ A Swagger API definition usually lives as a single file, so we only support impo
 
    2.  Click on the Import button, and choose the Import File tab. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer. 
 
-        [![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
+        [![import button](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
 
    3.  Click on file and upload the Swagger file.
 
-You’re done! Postman will detect all the Swagger definitions and convert them internally to Postman and then show you an import success message.
+  You’re done! Postman will detect all the Swagger definitions and convert them internally to Postman and then show you an import success message.
 
-[![](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)
+  [![confirmation message](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)
 
 ##### **Examples**
 
-Swagger 2.0: [https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0)
+  Swagger 2.0: [https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0){:target="_blank"}
 
-Swagger 1.2: [https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample)
+  Swagger 1.2: [https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample){:target="_blank"}
 
 ### Importing WADL
 
@@ -139,13 +138,13 @@ Postman lets you import WADL specs too. While all aspects are not supported yet,
 </application>
 ```
 
-Taken from [http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html)
+Taken from [http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html){:target="_blank"}
 
 ### Validating Collection JSON files
 
-To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/).
+To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/){:target="_blank"}.
 
-* The schema file is located at [http://schema.getpostman.com/json/collection/v1.0.0/collection.json](http://schema.getpostman.com/json/collection/v1.0.0/collection.json).
-* The associated documentation can be found at [http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html).
-* Everything is neatly stored on GitHub [https://github.com/postmanlabs/schemas](https://github.com/postmanlabs/schemas).
-* To see an example of data validation using our schema and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) (a validator), check out [this blog post](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/).
+* The schema file is located at [http://schema.getpostman.com/json/collection/v1.0.0/collection.json](http://schema.getpostman.com/json/collection/v1.0.0/collection.json){:target="_blank"}.
+* The associated documentation can be found at [http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html){:target="_blank"}.
+* Everything is neatly stored on GitHub [https://github.com/postmanlabs/schemas](https://github.com/postmanlabs/schemas){:target="_blank"}.
+* To see an example of data validation using our schema and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid){:target="_blank"} (a validator), check out [this blog post](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/){:target="_blank"}.

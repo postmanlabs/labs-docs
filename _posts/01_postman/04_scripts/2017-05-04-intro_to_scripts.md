@@ -14,11 +14,11 @@ Postman contains a powerful runtime based on Node.js that allows you to add dyna
    1.  Before a request is sent to the server, as a [pre-request script](/docs/postman/scripts/pre_request_scripts) under the **Pre-request Script** tab.
    2.  After a response is received, as a [test script](/docs/postman/scripts/test_scripts) under the **Tests** tab.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59187643.png)
+[![test script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59187643.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59187643.png)
 
 The request execution flow for a single request in Postman looks like this:
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59184189.png)
+[![diagram of workflow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59184189.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59184189.png)
 
 ### How does this work
 

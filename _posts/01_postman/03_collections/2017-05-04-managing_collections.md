@@ -18,37 +18,37 @@ Click on a collection to show or hide the requests that comprise the collection.
 
 Expand the right angle bracket (**>**) to show the details view for the collection. Collapse the left angle bracket (**<**) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154277.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154277.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154277.png)
 
 ##### **Create a new collection**
 
 Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/postman/collections/creating_collections).
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154223.png)
+[![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154223.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154223.png)
 
 ##### **Reorder collections**
 
 Collections can be sorted either alphabetically by name or by when they were last updated. To do this, select the "sort" icon on the top right and select `Sort by name` or `Sort by date`. 
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154251.png)
+[![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154251.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154251.png)
 
 ##### **Favoriting a collection**
 
 If you're working on a few collections in particular, you can click on the star icon to bring the collection(s) to the top of the list.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154198.png)
+[![favorite a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154198.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154198.png)
 
 ##### **Filter collections**
 
 If you have a lot of collections, filter collections in the sidebar using the search input field.  
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154104.png)
+[![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154104.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154104.png)
 
 ##### **Delete a collection**
 
 Click the ellipses (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can click the **Undo** link in the notification that appears at the top of the Postman app.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154076.png)
+[![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154076.png)
 
 ##### **Share a collection** 
 
@@ -72,8 +72,8 @@ Requests stored inside a collection can contain [scripts](/docs/postman/scripts/
 
 Folders are a way to organize your API endpoints within a collection into intuitive and logical groups to mirror your workflow. Next to the collection to which you want to add a folder, click on the ellipses (...) and select "Add Folder".
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183806.png)
+[![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183806.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183806.png)
 
 Add a name and description to the folder. Folders are ordered alphabetically by name, and the folder name and description will be reflected in your API documentation.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)
+[![add folder modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)
