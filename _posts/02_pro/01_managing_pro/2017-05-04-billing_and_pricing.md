@@ -14,7 +14,7 @@ warning: false
 
 Postman Pro teams can choose between 2 billing cycles:
 
-1.  **Annual**: Postman Pro is available at $75/user/year (effectively $6.25/user/month), payable annually.
+1.  **Annual**: Postman Pro is available at $75/user/year (effectively discounted to $6.25/user/month), payable annually.
 2.  **Monthly**: Postman Pro is available at $8/user/month payable monthly.
 
 ### Changing Billing Cycles / Team Size

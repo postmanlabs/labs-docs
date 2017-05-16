@@ -9,7 +9,7 @@ tags:
 warning: false
 ---
 
-Postman Monitors are kept in sync with your collections in the Postman app at all times. This means that you can debug in the app locally, while your monitors are updated on our servers, seamlessly.
+Monitors are kept in sync with your collections in the Postman app at all times. This means that you can debug in the app locally, while your monitors are updated on our servers, seamlessly.
 
 The best way to debug monitors is via the Postman console available on the monitors web view. Click on the failed monitor, and review the relevant logs under the **Console Log** tab. Check out some tips and tricks for [debugging in the console](/docs/postman/sending_api_requests/debugging_and_logs).
 
@@ -22,7 +22,7 @@ In addition to the above, here are some debugging tricks:
 ##### **Attempt local runs**
 
 *   Try running the failing monitor's collection with its environment within the Postman app or Newman, and see if it works correctly.
-*   If a local run passes, ensure that sync is enabled within the toolbar header of the Postman app, so that any local changes are persisted.  
+*   If a local run passes, [ensure that sync is enabled](/docs/postman/launching_postman/syncing) within the toolbar header of the Postman app, so that any local changes are persisted.  
     [![enable sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)
 *   You can also force a sync from the **Sync** tab within the **SETTINGS** modal.  
     [![force sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)
