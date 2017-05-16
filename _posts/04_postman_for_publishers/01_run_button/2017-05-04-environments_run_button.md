@@ -12,7 +12,7 @@ There are 2 ways to include an environment with the shared collection using the 
 
 ### While generating the embed code
 
-![select environment](https://www.getpostman.com/img/v2/docs/environments/share_select_env.png)
+[![select environment](https://www.getpostman.com/img/v2/docs/environments/share_select_env.png)](https://www.getpostman.com/img/v2/docs/environments/share_select_env.png)
 
 Select the environment name from the dropdown, as shown in the screenshot above. The environment is now embedded within the generated HTML/Markdown and will be imported when your user clicks the button.
 
