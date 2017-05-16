@@ -13,7 +13,7 @@ Postman Monitors are kept in sync with your collections in the Postman app at al
 
 The best way to debug monitors is via the Postman console available on the monitors web view. Click on the failed monitor, and review the relevant logs under the **Console Log** tab. Check out some tips and tricks for [debugging in the console](/docs/postman/sending_api_requests/debugging_and_logs).
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59015378.png)
+[![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59015378.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59015378.png)
 
 When a monitor fails, a "_Need help debugging?_" popup will display on the Postman monitors web view. Whenever possible, these suggestions will include debugging tips that are specifically related to the error that occurred. For example, if the monitor failed because we were unable to contact the server, then the debugging tip will suggest ensuring that the server's IP address is correct, and that it's publicly available.  Or, if the monitor failed because of a missing variable, then the debugging tip will suggest verifying the monitor is using the correct environment, and that the variable exists in the environment.
 
@@ -23,9 +23,9 @@ In addition to the above, here are some debugging tricks:
 
 *   Try running the failing monitor's collection with its environment within the Postman app or Newman, and see if it works correctly.
 *   If a local run passes, ensure that sync is enabled within the toolbar header of the Postman app, so that any local changes are persisted.  
-    ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)
+    [![enable sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)
 *   You can also force a sync from the **Sync** tab within the **SETTINGS** modal.  
-    ![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)
+    [![force sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)
 
 ##### **Variable issues**
 

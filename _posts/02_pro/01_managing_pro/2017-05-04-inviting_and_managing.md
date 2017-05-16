@@ -10,7 +10,7 @@ warning: false
 
 ---
 
-Postman's web [dashboard](https://app.getpostman.com/dashboard/teams) provides a number of ways to manage your team.
+Postman's web [dashboard](https://app.getpostman.com/dashboard/teams){:target="_blank"} provides a number of ways to manage your team.
 
 ### Member roles
 
@@ -28,7 +28,7 @@ By default, members who set up the team for themselves will be granted all three
 
 ### Managing roles
 
-Anyone with the admin role can modify roles of other members. Head to the [teams page](https://app.getpostman.com/dashboard/teams), and click the Settings icon > Manage permissions. You'll be able to add or remove roles for any member. There are a few restrictions, however:
+Anyone with the admin role can modify roles of other members. Head to the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}, and click the Settings icon > Manage permissions. You'll be able to add or remove roles for any member. There are a few restrictions, however:
 
    1.  You cannot have more than 2 support accounts (members without a user role)
    2.  Each member must have at least one role
@@ -38,12 +38,12 @@ Anyone with the admin role can modify roles of other members. Head to the [teams
 
 An invite is an invitation that you send to non-members to add them to a team. These can only be managed by members with the admin role.
 
-**For the user role:** To send invites to people to join the team as a user, head to the [teams page](https://app.getpostman.com/dashboard/teams), and click on "Send Invites". Enter the email addresses of those you wish to invite, and hit Send. These invites will be visible at the bottom of the member listing. If you don't have any paid slots left, you'll need to click "Add Users" and increase the team size before sending invites.
+**For the user role:** To send invites to people to join the team as a user, head to the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}, and click on "Send Invites". Enter the email addresses of those you wish to invite, and hit Send. These invites will be visible at the bottom of the member listing. If you don't have any paid slots left, you'll need to click "Add Users" and increase the team size before sending invites.
 
-**For admin or billing roles:** To invite someone just as an admin or billing member, head to the [teams page](https://app.getpostman.com/dashboard/teams), and click "Add Support Account" in the settings dropdown. Enter the recipient's email address, choose what roles you want to assign, and hit Send. This invite will show up at the bottom of the member listing.
+**For admin or billing roles:** To invite someone just as an admin or billing member, head to the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}, and click "Add Support Account" in the settings dropdown. Enter the recipient's email address, choose what roles you want to assign, and hit Send. This invite will show up at the bottom of the member listing.
 
-**Canceling Invites:** If you'd like to revoke an invite you've already sent, hit the "X" link next to each invite in the listing on the [teams page](https://app.getpostman.com/dashboard/teams). Your "available invites" count will increase by 1 for each invite extended for the user role.
+**Canceling Invites:** If you'd like to revoke an invite you've already sent, hit the "X" link next to each invite in the listing on the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}. Your "available invites" count will increase by 1 for each invite extended for the user role.
 
 ### Changing team size
 
-**For billing members**: If you're out of paid slots and need to invite more users, you'll need to click "Add Users" on the [teams page](https://app.getpostman.com/dashboard/teams). You'll need to have a saved card to add users. Annual teams will be billed a pro-rated amount for the number of days left in the billing cycle.
+**For billing members**: If you're out of paid slots and need to invite more users, you'll need to click "Add Users" on the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}. You'll need to have a saved card to add users. Annual teams will be billed a pro-rated amount for the number of days left in the billing cycle.

@@ -16,7 +16,7 @@ Postman Monitors can also be used to ensure that your APIs and websites remain o
 
 ##### **Monitoring a specific endpoint**
 
-To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. Review a complete [reference of testing various aspects of a request](https://www.getpostman.com/docs/Test+scripts).
+To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. Review a complete [reference of testing various aspects of a request](/docs/postman/scripts/test_scripts).
 
 ##### **Monitoring an entire API**
 

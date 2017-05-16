@@ -22,19 +22,19 @@ For example, suppose you use GitHub for your repository management. You also use
 
 ### Postman Pro integrations
 
-Postman Pro users currently have access to a dozen of the most requested 3rd party integrations on the [Postman Integrations directory](https://app.getpostman.com/dashboard/integrations), with more being released every month. 
+Postman Pro users currently have access to a dozen of the most requested 3rd party integrations on the [Postman Integrations directory](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, with more being released every month. 
 
 ### Getting to the Integrations page
 
-Log on to your Dashboard from the [Postman website](https://www.getpostman.com/), and navigate to the [Integrations](https://app.getpostman.com/dashboard/integrations) page to see a list of all the currently available integrations for Postman Pro users.
+Log on to your Dashboard from the [Postman website](https://www.getpostman.com/){:target="_blank"}, and navigate to the [Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"} page to see a list of all the currently available integrations for Postman Pro users.
 
 Click Dashboard. 
-[![](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-1.jpg)](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-1.jpg)
+[![Postman dashboard](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-1.jpg)](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-1.jpg)
 
 Select the Integrations tab.
 
-[![](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-2.jpg)](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-2.jpg)
+[![integrations tab](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-2.jpg)](http://blog.getpostman.com/wp-content/uploads/2017/02/APImatic-2.jpg)
 
 Check out the growing list of Postman 3rd party Integrations.
 
-[![](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)
+[![list of integrations](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)
