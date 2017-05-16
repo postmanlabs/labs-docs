@@ -17,11 +17,11 @@ We can think of data files are parameters for each iteration of a collection run
    *   [Collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58533790.json)
    *   [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json), [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702680.png)
+[![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702680.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702680.png)
 
 Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` (in the request body). These are used just like environment variables. We will supply the value to these variables using a JSON / CSV file. On opening the test script, you'll see we're using some variables in the test script -`data` specifically. This isn't defined in the script itself. The Postman Sandbox initializes the data variable from the JSON/CSV file that we will select in the collection run.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702722.png)
+[![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702722.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702722.png)
 
 Let's investigate the data files first. We currently support JSON & CSV files.
 
@@ -61,13 +61,13 @@ Do note that you can only use one data file for one run.
 
 Now that you understand how to construct data files, let's supply this data file to a Collection Run. Click `Select File` in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking on `Preview` next to the file name.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)             
+[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)             
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58703253.png)
+[![preview data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58703253.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58703253.png)
 
 Let's run our collection now. You'll see that all tests pass now. If you open up the request debug tooltip, and expand `Request Body`, you'll see that the variable `{% raw %}{{value}}{% endraw %}` was replaced by the value, as dictated by the data file. Read more about [debugging requests](/docs/postman/collection_runs/debugging_a_collection_run). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)
+[![request debug tooltip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)
 
 Let's also take a look at our test scripts once again. The variable `data` is a predefined variable that gets the values from the data file. With each iteration, it's value is updated with new data from our file. `data` is an object with all variables you defined in your file as it's keys. Since this API echoes back whatever is sent to it, we're asserting that the returned value from Echo is the same as the one dictated by our file.
 

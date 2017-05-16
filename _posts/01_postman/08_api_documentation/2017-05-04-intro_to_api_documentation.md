@@ -25,6 +25,6 @@ Documentation for your API includes the following:
 
 Documentation is organized into sections that reflect the structure of your collection, by ordered requests and folders. Descriptions can be customized using [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation. GitHub flavored markdown is also supported, so you can even include tables. When including block elements, ensure that you leave an empty line before and after to avoid any rendering issues.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)
+[![example of published documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)
 
-**Note:** Custom examples are coming soon. Check out our [public roadmap](http://trello.com/b/4N7PnHAz/postman-roadmap-for-developers) for updates.
+**Note:** Custom examples are coming soon. Check out our [public roadmap](http://trello.com/b/4N7PnHAz/postman-roadmap-for-developers){:target="_blank"} for updates.
