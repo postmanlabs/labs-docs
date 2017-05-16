@@ -31,7 +31,7 @@ The following scopes are available to you:
 
 Scopes can be viewed as different kinds of buckets in which values reside. If a variable is in two different scopes, the scope with a higher priority wins and the variable gets its value from there. Postman resolves scopes using this hierarchy progressing from broad to narrow scope. 
 
-If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) (only available in the [collection runner](/docs/postman/collection_runs/starting_a_collection_run)).
+If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/){:target="_blank"} (only available in the [collection runner](/docs/postman/collection_runs/starting_a_collection_run)).
 
 ### Accessing variables in the request builder
 
@@ -62,13 +62,13 @@ The Collection Runner lets you import a CSV or a JSON file, and then use the v
 
 Variables inside the Postman UI are enclosed inside curly braces. For example, in the screenshot below, {% raw %}`{{username}}`{% endraw %} and {% raw %}`{{password}}`{% endraw %} inside URL parameters would be replaced by corresponding values from the data file:
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165031.png)
+[![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165031.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165031.png)
 
 ##### **Data variables in pre-request and test scripts**
 
 Inside pre-request and test scripts, the special *`data`* object contains values loaded from the data file for a specific iteration. For example `data.username` or `data["username"]` would let you access the value of the username variable from a data file.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165041.png)
+[![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165041.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165041.png)
 
 Learn more about [working with data files](/docs/postman/collection_runs/working_with_data_files). 
 
@@ -84,7 +84,7 @@ Postman has a few dynamic variables which you can use in your requests. Dynamic
 
 Quick Look is a quick preview feature displaying all your environment and global variables in one place. Click on the "eye" icon in the top right to toggle the display, or typing the keyboard shortcut **(CMD/CTRL + ALT + E)**.
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165135.png)
+[![quick look](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165135.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165135.png)
 
 ### Autocomplete and tooltips for variables
 
@@ -92,12 +92,12 @@ Postman variables are very powerful, and two features - autocomplete and tool ti
 
 ##### **Autocomplete for variables**
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165174.gif)  
+[![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165174.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165174.gif)  
 
 Type an open curly bracket to bring up the autocomplete menu. For the pre-request and test scripts section, which [uses the data editor](/docs/postman/launching_postman/navigating_postman), entering the first letter of a variable triggers the autocomplete. The menu contains a list of all the variables in the current environment, followed by globals. Navigating through the list also shows the current value and scope for each variable, along with a feedback for overridden variables. 
 
 ##### **Variable highlighting and tooltip on hover**
 
-![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165184.gif)
+[![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165184.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165184.gif)
 
 Variables are highlighted in orange, with unresolved variables shown in red colour. Hovering over a variable shows its current value and the scope. If a variable is unresolved - i.e., no value in the current environment - the tooltip shows the appropriate feedback.
