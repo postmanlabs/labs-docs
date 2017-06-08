@@ -9,15 +9,15 @@ warning: false
 
 ---
 
-Public API publishers require public API documentation, and require easy-to-read examples and specifications. Postman publishes [our own API documentation](http://docs.api.getpostman.com){:target="_blank"} using Postman Pro's documentation. Developers rely on this documentation for learning about the service, implementing their integrations, and debugging. Learn [how to publish your own public docs](/docs/postman/api_documentation/publishing_public_docs).
+API publishers require public API documentation and require easy-to-read examples and specifications. Postman publishes [our own API documentation](http://docs.api.getpostman.com){:target="_blank"} using Postman Pro's documentation. Developers rely on this documentation for learning about the service, implementing their integrations, and debugging. Learn [how to publish your own public docs](/docs/postman/api_documentation/publishing_public_docs).
 
 [![postman pro API docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59189909.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59189909.png)  
 
-Postman Pro offers automatically generated documentation for all your collections to create public API documentation that is:
+Postman Pro automatically generates documentation for any of your collections. Publish public API documentation that is:
 
 ##### **Complete**
 
-Your collections are documented with folders, requests, responses, parameters, code snippets, environments, and examples.
+Your collections are documented with folders, [requests](/docs/postman/sending_api_requests/requests), [responses](/docs/postman/sending_api_requests/responses), parameters, [code snippets](/docs/postman/sending_api_requests/generate_code_snippets), [environments](/docs/postman/environments_and_globals/manage_environments), and examples.
 
 ##### **Customizable**
 
@@ -25,7 +25,7 @@ Create clear and elegant documentation [using Markdown](/docs/postman/api_docume
 
 ##### **Easy**
 
-Publish your API documentation with the click of a button. The pages are automatically generated, and updates are automatically synced.
+Publish your API documentation with the click of a button. The pages are automatically generated, and updates are automatically synced. You will never have to host or manage servers for your API documentation ever again.
 
 ### Examples of public APIs published using Postman Pro's documentation
 

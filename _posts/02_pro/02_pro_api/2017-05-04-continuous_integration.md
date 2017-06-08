@@ -9,7 +9,9 @@ tags:
 warning: false
 ---
 
-Let's access collections using the Postman Pro API to run inside your CI/CD environments.
+Continuous Integration (CI) is a development practice that requires developers to regularly merge code updates into a shared repository. It involves the process of automating the build and testing of code every time a developer commits code updates.
+
+Let's access collections using the Postman Pro API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments.
 
 Before we get started:
 
@@ -25,7 +27,7 @@ Follow the [steps to download Node](https://nodejs.org/en/download/package-manag
 
 ### Step 2: Install Newman
 
-[Newman](/docs/postman/collection_runs/command_line_integration_with_newman) is a command-line tool that allows you to run a collection in your system. The following command installs Newman in your CI.
+[Newman](/docs/postman/collection_runs/command_line_integration_with_newman) is a command-line tool that allows you to run a collection in your local development environment or on your own server. The following command installs Newman in your CI.
 
 ```bash
 npm i newman -g;

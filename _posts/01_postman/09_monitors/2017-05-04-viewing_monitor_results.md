@@ -40,7 +40,7 @@ You can click on any of the runs from this graph to see its results in more deta
 
 [![detailed view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042608.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042608.png)  
 
-The results section shows request-level details: test results, response code, response time, and the response size. You can also view the log by clicking on that tab.
+The results section shows request-level details: test results, response code, response time, and the response size. You can also view the log by clicking on the **Console Log** tab.
 
 [![view logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)
 
