@@ -8,7 +8,7 @@ warning: false
 
 ---
 
-The Run in Postman button is a way to [share your Postman Collection](/docs/postman/collections/sharing_collections) and integrate your API docs/developer portal directly with the Postman app. Keep in mind, Run in Postman works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](/docs/postman/collections/data_formats).
+The Run in Postman button is a way to [share your Postman Collection](/docs/postman/collections/sharing_collections) and integrate your API documentation or developer portal directly with the Postman app. Keep in mind, Run in Postman works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](/docs/postman/collections/data_formats).
 
 The Run in Postman button imports and opens a collection of API endpoints directly in the user’s Postman app. You can embed the button in your API documentation or your GitHub's README to help developers get up to speed on your API faster.
 
@@ -26,7 +26,7 @@ To create the Run in Postman button, start in the Postman app. Make sure you are
 
 3.  Pick whether you would like a Dynamic button or a Static button.
 
-  *   The Dynamic button uses HTML and CSS, and works well if you want to add the button to your own website and you can edit the source code.
+  *   The Dynamic button uses HTML and CSS, and works well if you want to add the button to your own website and you have permissions to edit the source code of the site.
   *   The Static button uses Markdown, and works well if you need to add the button to a markdown document, such as a README.md file in your Github or Bitbucket repository.
 
       [![run in postman button code](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)

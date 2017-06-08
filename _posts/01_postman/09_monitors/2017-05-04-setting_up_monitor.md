@@ -24,7 +24,7 @@ Add an appropriate schedule for the monitor. For example, you can run a monitor 
 | **Additional preferences** | **Description** |
 | --- | --- |
 | Email notifications | Get notifications about failures on up to 5 email addresses |
-| Request timeout | Specify an interval before your request is timed out |
-| Delay between intervals | Add a time lag between subsequent requests |
-| Don’t follow redirects | Disable following 301 redirects |
-| Allow self-signed SSL certificates | This allows certificates that are not validated by a central signing authority. Use with caution! |
+| Request timeout | Specify a time interval after which your request is considered to time-out |
+| Delay between requests | Add a time lag between subsequent requests |
+| Don’t follow redirects | Disable following all redirects |
+| Disable SSL validation | This disables validations performed on SSL certificates. Check this if you use self-signed certificates. Use with caution! |

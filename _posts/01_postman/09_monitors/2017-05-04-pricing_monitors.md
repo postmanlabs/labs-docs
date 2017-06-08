@@ -18,7 +18,7 @@ Teams on the free Pro trial cannot go beyond this limit. If you are on the free 
 ### For paid teams
 
 *   If you're in a paid team, you can go over the limit, but you will be billed at $0.75 for every 1,000 extra requests you make (over the limit of 10,000).
-*   For a more predictable billing pattern, you can configure "blocks" of requests for your team (more detail below).
+*   For a more predictable billing pattern, you can configure "blocks" of requests for your team.
 *   You'll be charged (for configured blocks + any overage requests) at the end of the monitoring billing cycle. We'll attempt to charge your card if one is saved under your account. If there's none, or we're unable to charge your card, we'll send you an invoice at your registered billing email, payable within 30 days.
 
 ### Request blocks for paid Pro teams
