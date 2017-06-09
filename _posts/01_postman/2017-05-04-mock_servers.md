@@ -69,3 +69,7 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
    *   Mock requests also accept another optional header, `x-mock-response-code`, which specifies which integer response code your returned response should match.  For example, 500 will return only a 500 response. If this header is not provided, the closest match of any response code will be returned.
 
 [![request headers](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-4.27.58-PM-1024x615.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-4.27.58-PM.png)
+
+### Free mock server calls with your Postman account
+
+Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
