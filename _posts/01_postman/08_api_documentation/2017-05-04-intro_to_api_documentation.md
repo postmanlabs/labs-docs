@@ -10,9 +10,9 @@ warning: false
 
 ---
 
-Postman's API documentation feature allows Postman Pro users to share public or private API documentation, beautifully viewable via a web page. 
+Postman's API documentation feature allows you to share public or private API documentation, beautifully viewable via a web page. 
 
-Postman Pro generates and hosts browser-based API documentation for your collections automatically in real-time. Each collection has a private and public documentation view, generated in real-time using the data synced to our servers. In order to [access the private view](/docs/postman/api_documentation/viewing_documentation), which is only available to your team, click "View Docs" in the Postman app or in the "Team Library". The public view is accessible via the public link, generated when you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs). This link will be displayed right after your documentation is published, and is also accessible via the "Published" dropdown in the private documentation view.
+Postman Pro generates and hosts browser-based API documentation for your collections automatically in real-time. Each collection has a private and public documentation view, generated in real-time using the data synced to our servers. In order to [access the private view](/docs/postman/api_documentation/viewing_documentation), click "View in web" in the Postman app or in the "Team Library". The public view is accessible via the public link, generated when you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs). This link will be displayed right after your documentation is published, and is also accessible via the "Published" dropdown in the private documentation view.
 
 ### What gets automatically generated?
 
@@ -27,4 +27,6 @@ Documentation is organized into sections that reflect the structure of your coll
 
 [![example of published documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)
 
-**Note:** Custom examples are coming soon. Check out our [public roadmap](http://trello.com/b/4N7PnHAz/postman-roadmap-for-developers){:target="_blank"} for updates.
+### Free documentation views with your Postman account
+
+Your Postman account gives you a limited number of free documentation views per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the account usage page.
