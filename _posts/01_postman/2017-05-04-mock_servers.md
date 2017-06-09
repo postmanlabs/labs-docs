@@ -72,4 +72,4 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
 
 ### Free mock server calls with your Postman account
 
-Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the account usage page.
+Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).

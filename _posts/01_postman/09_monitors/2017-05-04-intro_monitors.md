@@ -61,4 +61,4 @@ Monitors are priced per request made, with some free requests included every mon
 
 ### Free monitoring calls with your Postman account
 
-Your Postman account gives you a limited number of free monitoring calls per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the account usage page.
+Your Postman account gives you a limited number of free monitoring calls per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).

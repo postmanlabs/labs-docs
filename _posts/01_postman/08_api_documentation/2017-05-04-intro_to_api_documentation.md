@@ -29,4 +29,4 @@ Documentation is organized into sections that reflect the structure of your coll
 
 ### Free documentation views with your Postman account
 
-Your Postman account gives you a limited number of free documentation views per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the account usage page.
+Your Postman account gives you a limited number of free documentation views per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
