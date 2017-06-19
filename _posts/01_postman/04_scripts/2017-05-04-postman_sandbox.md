@@ -16,7 +16,7 @@ The Postman Sandbox is a JavaScript execution environment that is available to y
 *   [Lodash](https://lodash.com/){:target="_blank"}: JS utility library
 *   [cheerio](https://cheerio.js.org/){:target="_blank"}: A fast, lean implementation of the core jQuery API (available in versions 4.6.0 and up)
 *   [BackboneJS](http://backbonejs.org/){:target="_blank"} **Deprecated**: Provides simple models, views, and collections. This will be removed in future versions of the sandbox.
-*   [SugarJS](http://sugarjs.com/){:target="_blank"}: Extends native JS objects with useful methods. This will be removed in future versions of the sandbox.
+*   [SugarJS](http://sugarjs.com/){:target="_blank"} **Deprecated**: Extends native JS objects with useful methods. This will be removed in future versions of the sandbox.
 *   [tv4 JSON schema validator](https://github.com/geraintluff/tv4){:target="_blank"}: Validates JSON objects against v4 of the json-schema draft
 *   [CryptoJS](https://code.google.com/p/crypto-js/){:target="_blank"}: standard and secure cryptographic algorithms. Supported algorithms: AES, DES, EvpKDF, HMAC-MD5, HMAC-SHA1/3/256/512, MD5, PBKDF2, Rabbit, SHA1/3/224/256/512, TripleDES
 *   `xml2Json(xmlString)`: This function behaves the same in Newman and Postman
