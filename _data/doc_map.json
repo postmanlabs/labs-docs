@@ -135,6 +135,11 @@
             "external": false
           },
           {
+            "title": "Examples",
+            "href": "/docs/postman/collections/examples",
+            "external": false
+          },
+          {
             "title": "Data formats",
             "href": "/docs/postman/collections/data_formats",
             "external": false
