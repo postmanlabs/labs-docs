@@ -8,4 +8,4 @@ tags:
 warning: false
 ---
 
-Postman's Enterprise offering is currently in beta. If you would like to apply for beta access, email us at [help@getpostman.com](mailto:help@getpostman.com). 
+Postman's Enterprise offering is now available. If you would like to learn more about Postman Enterprise, email us at [help@getpostman.com](mailto:help@getpostman.com). 

@@ -102,7 +102,7 @@ warning: false
                                         class="java plain">arrayOfStrings,</code><br/><code
                                         class="java spaces">    </code><code
                                         class="java plain">base64Strings;</code><br/> <br/> <br/><code
-                                        class="java plain">arrayOfStrings =  = [</code><code class="java string">'string1'</code><code
+                                        class="java plain">arrayOfStrings = [</code><code class="java string">'string1'</code><code
                                         class="java plain">, </code><code class="java string">'string2'</code><code
                                         class="java plain">];</code><br/> <br/> <br/><code class="java plain">base64Strings
                                     = _.map(arrayOfStrings, atob);</code><br/> <br/> <br/><code class="java plain">console.log(base64Strings);</code>
