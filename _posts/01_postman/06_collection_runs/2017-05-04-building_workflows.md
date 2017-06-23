@@ -36,5 +36,5 @@ Now that we have a good understanding of how `setNextRequest()` works, we can do
 
 There are some gotchas to keep in mind:
 
-   *   `setNextRequest()` is always executed at the end of the current script. This means that if you put `setNextRequest()` in a pre-request script, the current request will never be sent.
+   *   `setNextRequest()` is always executed at the end of the current script. This means that if you put `setNextRequest()` before other code blocks, these blocks will still be executed.
    *   `setNextRequest()` has a scope, which is the source of your collection run. This means that if you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `setNextRequest()` is limited to that folder. This means that you can jump to any request within this folder, but not ones that are outside of the folder. This includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/docs/postman/collection_runs/starting_a_collection_run).
