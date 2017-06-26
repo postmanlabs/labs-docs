@@ -4,8 +4,6 @@ categories:
   - "monitors"
 title: "Setting up a monitor"
 page_id: "setting_up_monitor"
-tags: 
-  - "pro"
 warning: false
 ---
 

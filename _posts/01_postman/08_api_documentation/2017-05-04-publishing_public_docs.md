@@ -4,8 +4,6 @@ categories:
   - "api_documentation"
 title: "Publishing public docs"
 page_id: "publishing_public_docs"
-tags: 
-  - "pro"
 warning: false
 ---
 

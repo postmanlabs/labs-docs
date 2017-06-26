@@ -4,8 +4,6 @@ categories:
   - "api_documentation"
 title: "Viewing documentation"
 page_id: "viewing_documentation"
-tags: 
-  - "pro"
 warning: false
 
 ---

@@ -3,8 +3,6 @@ categories:
   - "postman"
 title: "Mock Servers"
 page_id: "mock_servers"
-tags: 
-  - "pro"
 warning: false
 ---
 

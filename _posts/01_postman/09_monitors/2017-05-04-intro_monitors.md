@@ -4,8 +4,6 @@ categories:
   - "monitors"
 title: "Intro to Monitors"
 page_id: "intro_monitors"
-tags: 
-  - "pro"
 warning: false
 
 ---

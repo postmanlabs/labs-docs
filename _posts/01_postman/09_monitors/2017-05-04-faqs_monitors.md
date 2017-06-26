@@ -4,8 +4,6 @@ categories:
   - "monitors"
 title: "FAQs for monitors"
 page_id: "faqs_monitors"
-tags: 
-  - "pro"
 warning: false
 ---
 

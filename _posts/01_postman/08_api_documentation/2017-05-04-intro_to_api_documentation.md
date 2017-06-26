@@ -4,8 +4,6 @@ categories:
   - "api_documentation"
 title: "Intro to API documentation"
 page_id: "intro_to_api_documentation"
-tags: 
-  - "pro"
 warning: false
 
 ---
