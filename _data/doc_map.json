@@ -323,6 +323,11 @@
             "title": "Adding and verifying custom domains",
             "href": "/docs/postman/api_documentation/adding_and_verifying_custom_domains",
             "external": false
+          },
+          {
+            "title": "Adding team name and logo",
+            "href": "/docs/postman/api_documentation/adding_team_name_and_logo",
+            "external": false
           }
         ]
       },
