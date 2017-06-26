@@ -20,6 +20,8 @@ In this example, we have a Collection `testAPI` with corresponding environmen
 
 Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/postman/sending_api_requests/responses) with details about the response body, header or status codes that you would like to see returned by that endpoint. In this example, we will save 2 responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
 
+**Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/postman/collections/examples).
+
 [![saved responses](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.44.27-PM-1024x726.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.44.27-PM.png)
 
 ### Retrieve information needed for mock creation
@@ -67,6 +69,10 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
    *   Mock requests also accept another optional header, `x-mock-response-code`, which specifies which integer response code your returned response should match.  For example, 500 will return only a 500 response. If this header is not provided, the closest match of any response code will be returned.
 
 [![request headers](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-4.27.58-PM-1024x615.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-4.27.58-PM.png)
+
+### Mock requests and responses with examples
+
+In the previous example, we used a saved response to mock our collection. You can also [mock a request and response using examples](/docs/postman/collections/examples) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service. 
 
 ### Free mock server calls with your Postman account
 
