@@ -74,6 +74,10 @@ Folders are a way to organize your API endpoints within a collection into intuit
 
 [![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183806.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183806.png)
 
-Add a name and description to the folder. Folders are ordered alphabetically by name, and the folder name and description will be reflected in your API documentation.
+Add a name and description to the folder. Folders are initially ordered alphabetically by name, and the folder name and description will be reflected in your API documentation.
 
 [![add folder modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)
+
+You can add deeper levels of nesting for folders. Drag and drop the folders to reorder them to create the ultimate customized folder structure.
+
+[![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/multiLevelFolders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/multiLevelFolders.png)
