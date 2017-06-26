@@ -4,12 +4,134 @@
 
     <div class="navigation-container">
         <ul>
-            <li><a href="{{site.pm.root}}/products" class="pm-btn pm-btn-transparent">Products</a></li>
-            <li><a href="{{site.pm.root}}/pricing" class="pm-btn pm-btn-transparent">Pricing</a></li>
-            <li><a href="{{site.pm.root}}/docs/" class="active pm-btn pm-btn-transparent">Documentation</a></li>
-            <li><a href="{{site.pm.root}}/community" class="pm-btn pm-btn-transparent">Community</a></li>
+            <!--<li><a href="{{site.pm.root}}/products" class="pm-btn pm-btn-transparent">Products</a></li>-->
+            <!--<li><a href="{{site.pm.root}}/pricing" class="pm-btn pm-btn-transparent">Pricing</a></li>-->
+            <!--<li><a href="{{site.pm.root}}/docs/" class="active pm-btn pm-btn-transparent">Documentation</a></li>-->
+            <!--<li><a href="{{site.pm.root}}/community" class="pm-btn pm-btn-transparent">Community</a></li>-->
+            <!--<li><a href="{{site.pm.gs}}/signup?redirect=web" class="pm-btn pm-btn-primary pm-btn-sm sign-in-button hide-if-signedin">Sign in</a></li>-->
+            <!--<li><a href="{{site.pm.gs}}/" class="pm-btn pm-btn-primary pm-btn-sm sign-in-button hide-if-signedout">Dashboard</a></li>-->
+
+            <li>
+                <div class='pm-btn pm-btn-transparent'>
+                    Products
+                    <ul class='pm-btn-submenu'>
+                        <li>
+                            <a href='{{site.pm.root}}/products'>
+                                <div class='submenu__title'>
+                                    All Products
+                                </div>
+                                <div class='submenu__desc'>
+                                    An overview of the Postman Products
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='{{site.pm.root}}/postman'>
+                                <div class='submenu__title'>
+                                    Postman
+                                </div>
+                                <div class='submenu__desc'>
+                                    A complete API Development Environment
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='{{site.pm.root}}/pro'>
+                                <div class='submenu__title'>
+                                    Postman Pro
+                                </div>
+                                <div class='submenu__desc'>
+                                    Extended features for developers &amp; teams
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='{{site.pm.root}}/enterprise'>
+                                <div class='submenu__title'>
+                                    Postman Enterprise
+                                </div>
+                                <div class='submenu__desc'>
+                                    Enterprise level features &amp; support
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='{{site.pm.root}}/publishers'>
+                                <div class='submenu__title'>
+                                    Postman for Publishers
+                                </div>
+                                <div class='submenu__desc'>
+                                    Onboard developers to your API
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="{{site.pm.root}}/pricing" class="<%- current.source == 'pricing' ? 'active' : '' %> pm-btn pm-btn-transparent">Pricing</a></li>
+            <li><a href="{{site.pm.root}}/docs/" class="<%- current.path[0] == 'docs' ? 'active' : '' %> pm-btn pm-btn-transparent">Docs</a></li>
+            <li><a href="{{site.pm.root}}/community" class="<%- current.path[0] == 'community' ? 'active' : '' %> pm-btn pm-btn-transparent">Community</a></li>
+            <li>
+                <div class='pm-btn pm-btn-transparent'>
+                    About
+                    <ul class='pm-btn-submenu'>
+                        <li>
+                            <a href='{{site.pm.root}}/company'>
+                                <div class='submenu__title'>
+                                    Company
+                                </div>
+                                <div class='submenu__desc'>
+                                    Our Mission + History
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='{{site.pm.root}}/team'>
+                                <div class='submenu__title'>
+                                    Who We Are
+                                </div>
+                                <div class='submenu__desc'>
+                                    Meet our team
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='{{site.pm.root}}/jobs/'>
+                                <div class='submenu__title'>
+                                    We're Hiring
+                                </div>
+                                <div class='submenu__desc'>
+                                    Join our growing team!
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='{{site.pm.root}}/press'>
+                                <div class='submenu__title'>
+                                    What People Say
+                                </div>
+                                <div class='submenu__desc'>
+                                    All of the Postman Press
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='{{site.pm.root}}/contact'>
+                                <div class='submenu__title'>
+                                    Contact Us
+                                </div>
+                                <div class='submenu__desc'>
+                                    Get in touch with Postman
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
             <li><a href="{{site.pm.gs}}/signup?redirect=web" class="pm-btn pm-btn-primary pm-btn-sm sign-in-button hide-if-signedin">Sign in</a></li>
             <li><a href="{{site.pm.gs}}/" class="pm-btn pm-btn-primary pm-btn-sm sign-in-button hide-if-signedout">Dashboard</a></li>
+
+
         </ul>
     </div>
 </div>
