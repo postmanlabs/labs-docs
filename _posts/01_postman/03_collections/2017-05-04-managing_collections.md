@@ -58,11 +58,15 @@ Learn more about [sharing collections](/docs/postman/collections/sharing_collect
 
 ##### **Reorder requests**
 
-Within a collection or folder, you can reorder requests using drag and drop.  The order of folders inside a collection, however, is alphabetical and cannot currently be changed.  
+Within a collection or folder, you can reorder requests using drag and drop. You can also reorder folders within a collection using drag and drop. 
 
 ##### **Save responses** 
 
 Requests can also store [sample responses](/docs/postman/sending_api_requests/responses) when saved in a collection.
+
+##### **Use examples** 
+
+With [examples](/docs/postman/collections/examples), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/postman/mock_servers). 
 
 ##### **Add scripts**
 
