@@ -12,7 +12,7 @@ Each collection has a private and public documentation view, generated in real-t
 
 ### Viewing Private Documentation
 
-In order to view private documentation, which is only accessible to you and your Postman Pro team, click "View Docs" in the Postman app or in the [Postman web view](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}. 
+In order to view private documentation, which is only accessible to you and your Postman Pro or Enterprise team, click "View Docs" in the Postman app or in the [Postman web view](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}. 
 
 Private documentation is available to all Postman users. To view private documentation for a collection, make sure you’re signed in to the Postman app. When signed in, your username will be displayed in the top-right corner.
 
@@ -30,7 +30,7 @@ Clicking this button will open the documentation for that collection in your bro
 
 [![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59032512.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59032512.png)
 
-Keep in mind that this view is restricted to users in your Postman Pro Team. This link will not work for anyone who does not have access to the collection itself. If the collection is shared with your team, anyone in the team can view the private documentation for this collection. If your collection is not shared, only you can view the private documentation for this collection.
+Keep in mind that this view is restricted to users in your Postman Pro and Enterprise team. This link will not work for anyone who does not have access to the collection itself. If the collection is shared with your team, anyone in the team can view the private documentation for this collection. If your collection is not shared, only you can view the private documentation for this collection.
 
 To make this documentation available to other users, perhaps as a link on your website, you’ll need to [publish the documentation](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}.
 

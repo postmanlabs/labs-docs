@@ -6,6 +6,7 @@ title: "Pricing for monitors"
 page_id: "pricing_monitors"
 tags: 
   - "pro"
+  - "enterprise"
 warning: false
 ---
 

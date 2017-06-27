@@ -6,6 +6,7 @@ title: "Adding team name and logo"
 page_id: "adding_team_name_and_logo"
 tags: 
   - "pro"
+  - "enterprise"
 warning: false
 ---
 
