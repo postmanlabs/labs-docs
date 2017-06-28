@@ -58,7 +58,7 @@ Learn more about [sharing collections](/docs/postman/collections/sharing_collect
 
 ##### **Reorder requests**
 
-Within a collection or folder, you can reorder requests using drag and drop. You can also reorder folders within a collection using drag and drop. 
+Within a collection or folder, you can reorder requests using drag and drop. In the latest Canary builds available for download on OSX ([x64](https://dl.pstmn.io/download/channel/canary/osx_64)) / Windows ([x86](https://dl.pstmn.io/download/channel/canary/windows_32) or [x64](https://dl.pstmn.io/download/channel/canary/windows_64)) / Linux ([x86](https://dl.pstmn.io/download/channel/canary/linux_32) or [x64](https://dl.pstmn.io/download/channel/canary/linux_64)) / [Chrome](https://chrome.google.com/webstore/detail/postman/loddepljkabcghihdkbkfknabkinanff), you can also reorder folders within a collection using drag and drop. 
 
 ##### **Save responses** 
 
@@ -82,6 +82,6 @@ Add a name and description to the folder. Folders are initially ordered alphabe
 
 [![add folder modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)
 
-You can add deeper levels of nesting for folders. Drag and drop the folders to reorder them to create the ultimate customized folder structure.
+In the latest Canary builds available for download on OSX ([x64](https://dl.pstmn.io/download/channel/canary/osx_64)) / Windows ([x86](https://dl.pstmn.io/download/channel/canary/windows_32) or [x64](https://dl.pstmn.io/download/channel/canary/windows_64)) / Linux ([x86](https://dl.pstmn.io/download/channel/canary/linux_32) or [x64](https://dl.pstmn.io/download/channel/canary/linux_64)) / [Chrome](https://chrome.google.com/webstore/detail/postman/loddepljkabcghihdkbkfknabkinanff), you can add deeper levels of nesting for folders. Drag and drop the folders to reorder them to create the ultimate customized folder structure.
 
 [![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/multiLevelFolders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/multiLevelFolders.png)
