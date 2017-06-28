@@ -14,9 +14,9 @@ A Postman account is required to activate your Postman Pro trial.
 ### If you have a Postman account
 
    *   Sign in to your Postman account from the Postman [home page](https://www.getpostman.com/){:target="_blank"}. 
-   *   On the [team plans page](https://app.getpostman.com/dashboard/team-plans){:target="_blank"}, click **Activate 30 day free trial**.
+   *   On the [team plans page](https://app.getpostman.com/dashboard/team-plans){:target="_blank"}, click **Activate 7 day free trial**.
         [![team plans page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/trial_prompt.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/trial_prompt.png)  
-   *   You will be redirected to the Postman [pricing page](https://www.getpostman.com/pricing#cloud-free-trial-30){:target="_blank"}. Click the **ACTIVATE TRIAL** button.  
+   *   You will be redirected to the Postman [dashboard](https://www.getpostman.com/pricing#cloud-free-trial-30){:target="_blank"}. Click the **ACTIVATE TRIAL** button.  
         [![activate trial](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58764185.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58764185.png)
 
 ### If you don't already have a Postman account

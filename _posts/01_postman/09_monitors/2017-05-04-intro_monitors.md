@@ -4,8 +4,6 @@ categories:
   - "monitors"
 title: "Intro to Monitors"
 page_id: "intro_monitors"
-tags: 
-  - "pro"
 warning: false
 
 ---
@@ -16,7 +14,7 @@ A monitor lets you run a [collection](/docs/postman/collections/creating_collec
 
 When you set up a monitor, Postman servers will hit the endpoints in your collection according to the specified frequency. You can also select a corresponding [environment](/docs/postman/environments_and_globals/manage_environments) to use and store variables. If you have written [tests](/docs/postman/scripts/test_scripts) for your requests , the monitor would run these tests to validate the response and notify you when a test fails. You can configure how to receive the alerts from a wide number of [integrations](/docs/pro/integrations/intro_integrations) available.
 
-Each Postman Pro team gets 10,000 free monthly requests, and it takes only 2 minutes to set up a monitor. Learn more about [monitor pricing](/docs/postman/monitors/pricing_monitors) and [getting started with monitors](/docs/postman/monitors/setting_up_monitor).
+Each Postman user gets 1,000 monitoring calls for free per month. Each Postman Pro and Enterprise team gets 10,000 free monthly requests, and it takes only 2 minutes to set up a monitor. Learn more about [monitor pricing](/docs/postman/monitors/pricing_monitors) and [getting started with monitors](/docs/postman/monitors/setting_up_monitor).
 
 ### Differences between Monitors and the Postman app
 

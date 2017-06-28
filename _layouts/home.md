@@ -17,7 +17,7 @@
               <ul id="popular-topics">
                 <li><a href="/docs/postman/launching_postman/installation_and_updates">Installing the native app</a></li>
                 <li><a href="/docs/postman/collection_runs/command_line_integration_with_newman">Newman - Running collections in the command line</a></li>
-                <li><a href="/docs/postman/collection_runs/starting_a_collection_run">Level up with Postman Pro</a></li>
+                <li><a href="/docs/pro/what_is_pro">Level up with Postman Pro</a></li>
                 <li><a href="/docs/postman/collections/creating_collections">Getting started with collections</a></li>
                 <li><a href="/docs/postman/environments_and_globals/variables">Setting up an environment with variables</a></li>
                 <li><a href="/docs/postman/scripts/test_scripts">Writing tests</a></li>

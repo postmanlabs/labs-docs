@@ -4,8 +4,6 @@ categories:
   - "api_documentation"
 title: "Environments and environment templates"
 page_id: "environments_and_environment_templates"
-tags: 
-  - "pro"
 warning: false
 ---
 

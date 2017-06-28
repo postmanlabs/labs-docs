@@ -4,8 +4,6 @@ categories:
   - "monitors"
 title: "Viewing monitor results"
 page_id: "viewing_monitor_results"
-tags: 
-  - "pro"
 warning: false
 ---
 

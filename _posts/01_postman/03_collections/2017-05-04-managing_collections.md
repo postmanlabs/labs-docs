@@ -18,7 +18,7 @@ Click on a collection to show or hide the requests that comprise the collection.
 
 Expand the right angle bracket (**>**) to show the details view for the collection. Collapse the left angle bracket (**<**) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154277.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154277.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collectionDetailsView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collectionDetailsView.png)
 
 ##### **Create a new collection**
 
@@ -58,11 +58,15 @@ Learn more about [sharing collections](/docs/postman/collections/sharing_collect
 
 ##### **Reorder requests**
 
-Within a collection or folder, you can reorder requests using drag and drop.  The order of folders inside a collection, however, is alphabetical and cannot currently be changed.  
+Within a collection or folder, you can reorder requests using drag and drop. In the latest Canary builds available for download on OSX ([x64](https://dl.pstmn.io/download/channel/canary/osx_64)) / Windows ([x86](https://dl.pstmn.io/download/channel/canary/windows_32) or [x64](https://dl.pstmn.io/download/channel/canary/windows_64)) / Linux ([x86](https://dl.pstmn.io/download/channel/canary/linux_32) or [x64](https://dl.pstmn.io/download/channel/canary/linux_64)) / [Chrome](https://chrome.google.com/webstore/detail/postman/loddepljkabcghihdkbkfknabkinanff), you can also reorder folders within a collection using drag and drop. 
 
 ##### **Save responses** 
 
 Requests can also store [sample responses](/docs/postman/sending_api_requests/responses) when saved in a collection.
+
+##### **Use examples** 
+
+With [examples](/docs/postman/collections/examples), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/postman/mock_servers). 
 
 ##### **Add scripts**
 
@@ -72,8 +76,12 @@ Requests stored inside a collection can contain [scripts](/docs/postman/scripts/
 
 Folders are a way to organize your API endpoints within a collection into intuitive and logical groups to mirror your workflow. Next to the collection to which you want to add a folder, click on the ellipses (...) and select "Add Folder".
 
-[![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183806.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183806.png)
+[![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addFolderDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addFolderDropdown.png)
 
-Add a name and description to the folder. Folders are ordered alphabetically by name, and the folder name and description will be reflected in your API documentation.
+Add a name and description to the folder. Folders are initially ordered alphabetically by name, and the folder name and description will be reflected in your API documentation.
 
 [![add folder modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)
+
+In the latest Canary builds available for download on OSX ([x64](https://dl.pstmn.io/download/channel/canary/osx_64)) / Windows ([x86](https://dl.pstmn.io/download/channel/canary/windows_32) or [x64](https://dl.pstmn.io/download/channel/canary/windows_64)) / Linux ([x86](https://dl.pstmn.io/download/channel/canary/linux_32) or [x64](https://dl.pstmn.io/download/channel/canary/linux_64)) / [Chrome](https://chrome.google.com/webstore/detail/postman/loddepljkabcghihdkbkfknabkinanff), you can add deeper levels of nesting for folders. Drag and drop the folders to reorder them to create the ultimate customized folder structure.
+
+[![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/multiLevelFolders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/multiLevelFolders.png)
