@@ -14,10 +14,10 @@ Review [reference for using Markdown](https://documenter.getpostman.com/view/332
 Postman renders this markdown in the following places:
 
 In the request builder, the request description can be styled with markdown.  
-[![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564068.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564068.png)
+[![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/spaceRequestDescription.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/spaceRequestDescription.png)
 
 The collections details view can be styled with markdown in the descriptions for collections and folders.  
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564112.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564112.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/spaceCollectionDetailsView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/spaceCollectionDetailsView.png)
 
 For either public or internal [API documentation](/docs/postman/api_documentation/intro_to_api_documentation), automatically generated API descriptions will be styled beautifully and precisely with markdown.  
 [![automatically generated documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564156.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564156.png)
@@ -30,7 +30,7 @@ For example, specify if an element is required or optional, indicate the accepte
 
 [![data editor parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/data-editor-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/data-editor-params.png)
 
-For Postman Pro users publishing internal or public API documentation, these descriptions are displayed in the [automatically generated documentation](/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
+For Postman users publishing internal or public API documentation, these descriptions are displayed in the [automatically generated documentation](/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
 
 [![parameters in automatically generated docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto-generated-docs-params.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto-generated-docs-params.gif)
 

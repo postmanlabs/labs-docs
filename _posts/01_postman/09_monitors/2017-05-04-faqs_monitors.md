@@ -4,8 +4,6 @@ categories:
   - "monitors"
 title: "FAQs for monitors"
 page_id: "faqs_monitors"
-tags: 
-  - "pro"
 warning: false
 ---
 
@@ -43,7 +41,7 @@ You can view the full console output for every monitor run, including any errors
 
 ##### **Who can see my Monitors?**
 
-Monitors have the same permissions as Postman Collections. By default, your collections are private, so only you can see the collection and its monitors. If you share a collection, then other members of your team will be able to see the collection and its monitors. If you grant ``View & Edit`` permissions, then your team members will also be able to add monitors to your collection.
+Monitors have the same permissions as Postman Collections. By default, your collections are private, so only you can see the collection and its monitors. If you share a collection, then other members of your Postman Pro or Enterprise team will be able to see the collection and its monitors. If you grant ``View & Edit`` permissions, then your team members will also be able to add monitors to your collection.
 
 Each collection can have different permissions, so you can choose to have some private, some shared but view-only, and some shared and editable.
 

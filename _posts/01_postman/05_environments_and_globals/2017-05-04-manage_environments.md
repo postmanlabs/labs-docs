@@ -47,4 +47,4 @@ Click the gear icon in the upper right corner of the Postman app and select "Man
 
 It's a best practice to create a duplicate, remove any sensitive values like passwords and access tokens before downloading the copy to share with someone else.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.
 
-For Postman Pro users, learn how to [share environment templates](/docs/postman/team_library/sharing) with team members.
+For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing) with team members.

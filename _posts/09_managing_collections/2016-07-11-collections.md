@@ -52,7 +52,7 @@ Editing a collection is quite simple. Hover over the collection name and click o
 
 Collections can be downloaded as a JSON file which you can share with others or shared through your Postman account. You can also share collections anonymously but it is strongly recommended to create a Postman account when uploading collections. This will let you update your existing collection, make it public or delete it later.
 
-If you are a member of a team using Postman Pro, you can share a collection with your whole team or a sub section of it in this modal. You can also make it view-only versus editable.
+If you are a member of a team using Postman Pro or Enterprise, you can share a collection with your whole team or a sub section of it in this modal. You can also make it view-only versus editable.
 
 #### Deleting a collection
 

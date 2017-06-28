@@ -6,6 +6,7 @@ title: "Set up integrations to receive alerts"
 page_id: "integrations_for_alerts"
 tags: 
   - "pro"
+  - "enterprise"
 warning: false
 ---
 

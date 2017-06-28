@@ -3,8 +3,6 @@ categories:
   - "postman_for_publishers"
 title: "Public API documentation"
 page_id: "public_api_docs"
-tags: 
-  - "pro"
 warning: false
 
 ---

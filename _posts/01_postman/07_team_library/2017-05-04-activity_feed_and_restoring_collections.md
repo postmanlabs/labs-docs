@@ -7,7 +7,7 @@ page_id: "activity_feed_and_restoring_collections"
 warning: false
 ---
 
-An activity feed is a list of events, displaying to the user in an interactive interface, updates to their Postman Data. It is useful to keep track of changes made to your private and team collections by different users across the team. The activity feed also lets you rollback a collection, and restore it to any previous point in time. 
+An activity feed is a list of events, displaying to the user in an interactive interface, updates to their Postman data. It is useful to keep track of changes made to your private and team collections by different users across the team. The activity feed also lets you rollback a collection, and restore it to any previous point in time. 
 
 ### Types of activity feed
 
@@ -21,7 +21,7 @@ To review the activity feed at the collection level, expand the angle bracket (
 
 ##### **Team**
 
-To review the activity feed at the team level, go to the **Activity Feed** tab within the **Team Library** view. Review a chronological listing of activities affecting all collections shared with the team. Like the feed at the collection level, the team activity feed displays who made changes, to what, and when it was completed.
+To review the activity feed at the Postman Pro or Enterprise team level, go to the **Activity Feed** tab within the **Team Library** view. Review a chronological listing of activities affecting all collections shared with the team. Like the feed at the collection level, the team activity feed displays who made changes, to what, and when it was completed.
 
 [![team library feed](http://blog.getpostman.com/wp-content/uploads/2016/10/840x459xScreenshot-2016-10-17-20.05.08-1024x560.png,qx38712.pagespeed.ic.1EV4RiRLH4.jp)](http://blog.getpostman.com/wp-content/uploads/2016/10/840x459xScreenshot-2016-10-17-20.05.08-1024x560.png,qx38712.pagespeed.ic.1EV4RiRLH4.jp)
 
@@ -39,11 +39,11 @@ The activity feed captures different updates that are made to collections. This 
 
 A consolidated update to a request, for example, looks like the screenshot above providing you with a diff view to pinpoint the exact changes. 
 
-**Note**: Postman Pro users can view diffs. Other users will be able to track the "who" and "when" in the activity feeds, but not the "what" at this level of detail. 
+**Note**: Postman Pro and Enterprise users can view diffs. Other users will be able to track the "who" and "when" in the activity feeds, but not the "what" at this level of detail. 
 
 ### Restoring collections
 
-Postman Pro users also have the ability within the collection-level activity feed to restore their collections to a point in time.
+Postman Pro and Enterprise users also have the ability within the collection-level activity feed to restore their collections to a point in time.
 
 [![restore collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59058662.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59058662.png)
 
@@ -57,7 +57,7 @@ And now the top of the activity feed displays the confirmation of restoring the 
 
 ### Connecting to Slack, HipChat and other platforms
 
-Postman Pro users can pipe the team's activity feed to a communication channel of your choosing with the following integrations
+Postman Pro and Enterprise users can pipe the team's activity feed to a communication channel of your choosing with the following integrations:
 
    *   [Postman Pro to Slack integration](/docs/pro/integrations/slack)
    *   [Postman Pro to Slack integration](/docs/pro/integrations/hipchat)
@@ -65,4 +65,4 @@ Postman Pro users can pipe the team's activity feed to a communication channel o
 
 ### Upcoming additions to the activity feed
 
-The activity feed will become even more powerful in the near future. It'll integrate with all our Postman Pro products → Mock Servers, Monitors, Documentation, and other features in the pipeline. We're also going to soon add **Tagging** support. You'll be able to tag collections at a point in time, allowing easier referencing and ability to rollback, while also allowing you set up Monitors and Documentation on tagged versions of the collection. These version control constructs will allow your team even more flexibility with your API code development within Postman Pro.
+The activity feed will become even more powerful in the near future.  It’ll integrate with all our Postman Pro and Enterprise products and other features in the pipeline. We're going to soon add **Tagging** support. You'll be able to tag collections at a point in time, allowing easier referencing and ability to rollback, while also allowing you to set up Monitors and Documentation on tagged versions of the collection. These version control constructs will allow your team even more flexibility with your API code development within Postman Pro or Enterprise.

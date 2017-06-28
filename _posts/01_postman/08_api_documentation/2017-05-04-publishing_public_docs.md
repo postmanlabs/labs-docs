@@ -4,8 +4,6 @@ categories:
   - "api_documentation"
 title: "Publishing public docs"
 page_id: "publishing_public_docs"
-tags: 
-  - "pro"
 warning: false
 ---
 
@@ -17,9 +15,13 @@ You can only publish documentation for collections that you created or for which
 
 [![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59116421.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59116421.png)  
 
-If you are signed in to Postman, you can select a corresponding environment with which to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. The public URL field in the screenshot below contains the URL that you can share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so that your documentation is immediately usable for new visitors. 
+If you are signed in to Postman, you can select a corresponding environment with which to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
 
-[![publish collection settings](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs4.png)](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs4.png)
+[![publish collection settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/publishCollectionSettings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/publishCollectionSettings.png)
+
+The public URL field in the screenshot below contains the URL that you can share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so that your documentation is immediately usable for new visitors. 
+
+[![published collection settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/publishedCollection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/publishedCollection.png)
 
 > **IMPORTANT:**  Any confidential info in your environment, such as **passwords and access tokens**, might be visible publicly. Ensure that all such information is removed from the environment before you publish documentation with an environment.
 
@@ -39,6 +41,10 @@ Optionally, you can pick from a list of verified [custom domains](/docs/postman/
 
 ### Custom styling options
 
-Postman allows you to customize the appearance of your published documentation pages. Add your team logo and update the color theme to align with your brand. Your team logo can be uploaded from the Team Settings section in the dashboard.
+Postman allows you to customize the appearance of your published documentation pages. Add your [team logo](/docs/postman/api_documentation/adding_team_name_and_logo) and update the color theme to align with your brand. 
+
+You can update the custom styling options either before or after you publish your documentation. Click the **Show Custom Styling Options** link to expand the section and update your color palette.
+
+[![before publishing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/customStylingOptions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/customStylingOptions.png)
 
 [![custom styling options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59016798.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59016798.png)

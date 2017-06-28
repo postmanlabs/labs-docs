@@ -10,7 +10,7 @@ warning: false
 
 ### Monitoring Docs
 
-Postman Monitors let you schedule your collections to run automatically! All Postman Pro teams have access - just head to https://monitor.getpostman.com/ to get started.
+Postman Monitors let you schedule your collections to run automatically! All Postman Pro and Enterprise teams have access - just head to https://monitor.getpostman.com/ to get started.
 
 ![](https://cloud.githubusercontent.com/assets/681190/21090390/792944e2-c065-11e6-8937-39c18fe888ad.png)
 

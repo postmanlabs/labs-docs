@@ -4,8 +4,6 @@ categories:
   - "monitors"
 title: "Troubleshooting monitors"
 page_id: "troubleshooting_monitors"
-tags: 
-  - "pro"
 warning: false
 ---
 

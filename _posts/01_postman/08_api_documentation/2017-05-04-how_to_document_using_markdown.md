@@ -4,8 +4,6 @@ categories:
   - "api_documentation"
 title: "How to document using Markdown"
 page_id: "how_to_document_using_markdown"
-tags: 
-  - "pro"
 warning: false
 ---
 

@@ -3,16 +3,14 @@ categories:
   - "postman"
 title: "Mock Servers"
 page_id: "mock_servers"
-tags: 
-  - "pro"
 warning: false
 ---
 
-### Simulate a back end with Postman Pro's mock servers
+### Simulate a back end with Postman's mock servers
 
 Throughout the development process, delays on the front end or back end can hold up dependent teams from completing their work efficiently.  
 
-Using Postman Pro's mock servers, front-end developers can simulate each endpoint in a Postman Collection (and corresponding environment) to view the potential responses, without actually spinning up a back end.
+Using Postman's mock servers, front-end developers can simulate each endpoint in a Postman Collection (and corresponding environment) to view the potential responses, without actually spinning up a back end.
 
 Front-end, back-end and API teams can now work in parallel, freeing up developers who were previously delayed as a result of these dependencies. Let’s walk through this step by step.
 
@@ -21,6 +19,8 @@ Front-end, back-end and API teams can now work in parallel, freeing up develope
 In this example, we have a Collection `testAPI` with corresponding environment `testAPIEnv`.  Let's set up a mock service to enable your front-end team to simulate each endpoint in `testAPI` and view the various responses.
 
 Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/postman/sending_api_requests/responses) with details about the response body, header or status codes that you would like to see returned by that endpoint. In this example, we will save 2 responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
+
+**Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/postman/collections/examples).
 
 [![saved responses](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.44.27-PM-1024x726.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.44.27-PM.png)
 
@@ -69,6 +69,10 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
    *   Mock requests also accept another optional header, `x-mock-response-code`, which specifies which integer response code your returned response should match.  For example, 500 will return only a 500 response. If this header is not provided, the closest match of any response code will be returned.
 
 [![request headers](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-4.27.58-PM-1024x615.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-4.27.58-PM.png)
+
+### Mock requests and responses with examples
+
+In the previous example, we used a saved response to mock our collection. You can also [mock a request and response using examples](/docs/postman/collections/examples) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service. 
 
 ### Free mock server calls with your Postman account
 
