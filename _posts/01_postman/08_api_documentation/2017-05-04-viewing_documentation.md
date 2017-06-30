@@ -12,23 +12,23 @@ Each collection has a private and public documentation view, generated in real-t
 
 ### Viewing Private Documentation
 
-In order to view private documentation, which is only accessible to you and your Postman Pro or Enterprise team, click "View Docs" in the Postman app or in the [Postman web view](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}. 
+In order to view private documentation, which is only accessible to you and your Postman Pro or Enterprise team, click "View Docs" or "View in web" in the Postman app or in the [Postman web view](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}. 
 
 Private documentation is available to all Postman users. To view private documentation for a collection, make sure you’re signed in to the Postman app. When signed in, your username will be displayed in the top-right corner.
 
-[![username](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59030701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59030701.png)
+[![username](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationLoggedIn.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationLoggedIn.png)
 
-In the Postman app, expand the right angle bracket (**>**) next to any collection name to open the collections details view, and then click the **View Docs** button.
+In the Postman app, expand the right angle bracket (**>**) next to any collection name to open the collections details view, and then click the **View in web** button.
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59030970.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59030970.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationViewInWeb.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationViewInWeb.png)
 
-To view documentation for your team’s collections in the Postman app, you’ll see a similar **View Docs** button in your [Team Library](/docs/postman/team_library/sharing). 
+To view documentation for your team’s collections in the Postman app, you’ll see a **View Docs** button in your [Team Library](/docs/postman/team_library/sharing). 
 
-[![view docs from team library](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs2.png)](https://www.getpostman.com/img/v1/docs/publishing_docs/Docs2.png)
+[![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationTeamLibrary.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationTeamLibrary.png)
 
 Clicking this button will open the documentation for that collection in your browser. You’ll be able to browse all folders and requests in the collection, and see what the requests and code snippets look like with different environments selected.
 
-[![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59032512.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59032512.png)
+[![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationPrivateView_censored.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationPrivateView_censored.jpg)
 
 Keep in mind that this view is restricted to users in your Postman Pro and Enterprise team. This link will not work for anyone who does not have access to the collection itself. If the collection is shared with your team, anyone in the team can view the private documentation for this collection. If your collection is not shared, only you can view the private documentation for this collection.
 

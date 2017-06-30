@@ -14,7 +14,7 @@ Collections can be run within the Postman app using the collection runner, from
 
 Running a collection is useful when you want to automate API testing. When you run a collection, you're essentially sending all requests in your collection one after another. Let's go over several parameters that you can configure for a collection run.
 
-[![collection run parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58530192.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58530192.png)
+[![collection run parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collectionRunner.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collectionRunner.png)
 
 ##### **Collection / Folder**
 
