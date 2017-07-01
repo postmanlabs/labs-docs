@@ -1,18 +1,13 @@
 ---
 categories:
   - "postman"
-title: "Mock Servers"
-page_id: "mock_servers"
+  - "mock_servers"
+title: "Mocking with the Postman Pro API"
+page_id: "mock_with_api"
 warning: false
 ---
 
-### Simulate a back end with Postman's mock servers
-
-Throughout the development process, delays on the front end or back end can hold up dependent teams from completing their work efficiently.  
-
-Using Postman's mock servers, front-end developers can simulate each endpoint in a Postman Collection (and corresponding environment) to view the potential responses, without actually spinning up a back end.
-
-Front-end, back-end and API teams can now work in parallel, freeing up developers who were previously delayed as a result of these dependencies. Let’s walk through this step by step.
+You can [mock a collection](/docs/postman/mock_servers/setting_up_mock) directly from the Postman app. Additionally, you can create a mock using the Postman Pro API. Let’s walk through this step by step.
 
 ### Set up a collection for mocking
 
@@ -73,7 +68,3 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
 ### Mock requests and responses with examples
 
 In the previous example, we used a saved response to mock our collection. You can also [mock a request and response using examples](/docs/postman/collections/examples) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service. 
-
-### Free mock server calls with your Postman account
-
-Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
