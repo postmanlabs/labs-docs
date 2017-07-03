@@ -8,4 +8,4 @@ tags:
 warning: false
 ---
 
-Postman's Enterprise offering is now available. If you would like to learn more about Postman Enterprise, email us at [help@getpostman.com](mailto:help@getpostman.com). 
+Postman's Enterprise offering is now available. If you would like to learn more about Postman Enterprise, email us at [enterprise@getpostman.com](mailto:enterprise@getpostman.com). 
