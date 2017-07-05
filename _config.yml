@@ -10,6 +10,10 @@ pm:
   root: "https://www.getpostman.com"
   gs: "https://app.getpostman.com"
   blog: "http://blog.getpostman.com"
+  support_center: "https://support.getpostman.com/hc"
+  help_email: "help@getpostman.com"
+  enterprise_email: "enterprise@getpostman.com"
+  security_email: "security@getpostman.com"
 
 # Website metadata
 meta:
