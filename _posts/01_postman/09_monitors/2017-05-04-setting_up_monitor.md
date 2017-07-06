@@ -7,17 +7,33 @@ page_id: "setting_up_monitor"
 warning: false
 ---
 
+If you choose to monitor a shared collection, your team can see the monitor. However, if you create a monitor on an unshared collection, the monitor will be private and only visible to you.
+
+### From the Postman app
+
+Click on the ellipses (**...**) next to the collection you wish to monitor. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
+
+[![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown.png)
+
+Enter a name for this monitor and choose a corresponding environment. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
+
+[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorModal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorModal.png)
+
+### From the Postman web
+
 Sign in to the Postman web view, and head over to the [monitors page](https://monitor.getpostman.com/){:target="_blank"}. Click the **Add Monitor** button.
 
 [![add monitor](https://cloud.githubusercontent.com/assets/681190/21090390/792944e2-c065-11e6-8937-39c18fe888ad.png)](https://cloud.githubusercontent.com/assets/681190/21090390/792944e2-c065-11e6-8937-39c18fe888ad.png)
 
-Enter a name for this monitor (e.g. User APIs on production). Choose the collection that you want to monitor and a corresponding environment.
+Enter a name for this monitor. Choose the collection that you want to monitor and a corresponding environment. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
 
-Note: If you choose a shared collection, your team can see the monitor. However, if you create a monitor on a unshared collection, the monitor will be private and only visible to you.
+### Monitoring schedule
 
-Add an appropriate schedule for the monitor. For example, you can run a monitor every 5 minutes or every Monday at 9:00 AM. 
+Select a frequency to run your monitor. Monitors can run as frequently as every 5 minutes. For example, you can run a monitor every 5 minutes or every Monday at 9:00 AM. 
 
 [![schedule monitor](https://cloud.githubusercontent.com/assets/681190/21090434/baba2098-c065-11e6-9647-ab436daaa8d6.png)](https://cloud.githubusercontent.com/assets/681190/21090434/baba2098-c065-11e6-9647-ab436daaa8d6.png)
+
+### Additional preferences
 
 | **Additional preferences** | **Description** |
 | --- | --- |

@@ -8,6 +8,6 @@ tags:
 warning: false
 ---
 
-Enterprise features in support, billing and administration, combined with the power of the complete Postman API platform.
+As an Enterprise customer, you’ll have exclusive access to single sign-on, priority support from our dedicated Enterprise Support Team, banded group pricing, and flexible billing. 
 
-If you would like to learn more about Postman Enterprise, email us at [help@getpostman.com](mailto:help@getpostman.com). 
+If you would like to learn more about Postman Enterprise, email us at [{{site.pm.enterprise_email}}](mailto:{{site.pm.enterprise_email}}). 

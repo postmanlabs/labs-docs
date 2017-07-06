@@ -16,9 +16,9 @@ An API response consists of the body, headers, and the status code. Postman orga
 
 [![save response button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538745.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538745.png)
 
-If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, click the **Save Response** button. Enter a name to call your saved response. All responses saved for a request will be available whenever you load the request. Expand the API description above the request URL to view and select the saved responses.
+If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, click the **Save Response** button. Enter a name to call your saved response. All responses saved for a request will be available as an [example](/docs/postman/collections/examples) whenever you load the request. Click the **Examples** dropdown in the top right to view and select the saved examples. 
 
-[![access saved responses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59021814.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59021814.png)
+[![access saved responses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/examplesDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/examplesDropdown.png)
 
 ### Viewing responses
 

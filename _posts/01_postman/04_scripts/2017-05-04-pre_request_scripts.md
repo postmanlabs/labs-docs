@@ -12,11 +12,11 @@ Pre-request scripts are snippets of code associated with a collection request th
 
 For example, to include a timestamp in the request headers, you can set an environment variable with the value returned from a function.
 
-[![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58754984.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58754984.png)
+[![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setTimeStampHeader.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setTimeStampHeader.png)
 
 You can then access the **timestampHeader** variable in the header data editor by typing {% raw %}`{{timestampHeader}}`{% endraw %}. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of {% raw %}`{{timestampHeader}}`{% endraw %}.
 
-[![timestampHeader variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755017.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58755017.png)
+[![timestampHeader variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/timeStampHeader.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/timeStampHeader.png)
 
 **Note:** An environment will have to be active for environment variables to be set.
 

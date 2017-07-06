@@ -37,9 +37,10 @@ A Postman Collection lets you group individual requests together. These requests
 
 ### Saving to a collection from history
 
-1.  Click on a request under the **History** tab.
-2.  Click the **Save to collection** link at the top of the sidebar.  
-    [![save to collection link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58493957.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58493957.png)
+1.  To save a single request to a collection, hover over a request under the **History** tab and click the plus icon (**+**). 
+    [![save to collection link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestActions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestActions.png)
+2.  When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.
+    [![save to collection link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestMultiActions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestMultiActions.png)
 3.  Chose an existing collection or a new collection, and hit **Save**.
 
 ### Duplicating an existing collection
