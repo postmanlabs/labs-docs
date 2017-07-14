@@ -22,3 +22,25 @@ meta:
 # HTTP-REFRESH meta tag for v1 redirects
 gems:
   - jekyll-redirect-from
+  - algoliasearch-jekyll
+
+# Search
+algolia:
+  application_id: 'SDZ6C0ROMM'
+  index_name: 'blog'
+  excluded_files:
+    - ./_posts/07_getting_started/
+    - ./_posts/08_sending_and_viewing_responses/
+    - ./_posts/09_managing_collections/
+    - ./_posts/10_variables_and_environments/
+    - ./_posts/11_postman_for_teams/
+    - ./_posts/12_api_testing_and_collection_runner/
+    - ./_posts/13_postman_for_public_apis/
+    - ./_posts/14_settings/
+    - ./_posts/15_billing_and_payment/
+    - ./_posts/16_account_profile/
+    - ./_posts/17_miscellaneous/
+    - ./_posts/18_postman_pro_integrations/
+    - ./_posts/01_postman/2017-05-04-mock_servers.md
+    - ./_posts/03_enterprise/2017-05-04-apply_for_beta_access.md
+

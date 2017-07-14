@@ -44,5 +44,6 @@
     {% include _navigation.html %}
     {% include _footer_scripts.html %}
     <!-- <script type="text/javascript" src="{{site.pm.root}}/js/swiftype.pm.js?v={{site.time | date: '%s%N'}}"></script> -->
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
   </body>
 </html>
