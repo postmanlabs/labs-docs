@@ -17,7 +17,7 @@
       <div class="container">
          <div class="row">
             <div class="content documentation col-md-7">
-                {<div class="doc-search visible-xs visible-sm">
+                <div class="doc-search visible-xs visible-sm">
                     <input type="text" class="st-default-search-input pm-form-control pm-white-control" name="search" placeholder="Search documentation" autocomplete="off" autocorrect="off" autocapitalize="off" required="required" />
                     <div class="clear-text"></div>
                 </div>

@@ -24,6 +24,8 @@ gems:
   - jekyll-redirect-from
   - algoliasearch-jekyll
 
+exclude: [vendor]
+
 # Search
 algolia:
   application_id: 'SDZ6C0ROMM'
