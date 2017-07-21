@@ -27,11 +27,13 @@ Sign in to the Postman web view, and head over to the [monitors page](https://
 
 Enter a name for this monitor. Choose the collection that you want to monitor and a corresponding environment. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
 
-### Monitoring schedule
+### Monitoring schedule and region
 
 Select a frequency to run your monitor. Monitors can run as frequently as every 5 minutes. For example, you can run a monitor every 5 minutes or every Monday at 9:00 AM. 
 
-[![schedule monitor](https://cloud.githubusercontent.com/assets/681190/21090434/baba2098-c065-11e6-9647-ab436daaa8d6.png)](https://cloud.githubusercontent.com/assets/681190/21090434/baba2098-c065-11e6-9647-ab436daaa8d6.png)
+[![schedule monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCheckbox.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCheckbox.png)
+
+To [monitor resources in multiple regions](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions), select the regions to run your monitor from the [monitors page](https://monitor.getpostman.com){:target="_blank"}. When you specify a monitor to run in multiple regions, the monitor will run multiple times. This means that if there is a side effect from running the monitor, it will also happen multiple times.
 
 ### Additional preferences
 
