@@ -16,14 +16,16 @@ When you set up a monitor, Postman servers will hit the endpoints in your collec
 
 Each Postman user gets 1,000 monitoring calls for free per month. Each Postman Pro and Enterprise team gets 10,000 free monthly requests, and it takes only 2 minutes to set up a monitor. Learn more about [monitor pricing](/docs/postman/monitors/pricing_monitors) and [getting started with monitors](/docs/postman/monitors/setting_up_monitor).
 
-### Differences between Monitors and the Postman app
+### Running collections in a Monitor (vs. the Postman app collection runner)
 
-There are currently a few minor differences between Postman Monitors and the Postman app.  If your collection relies on any of these features, then it may not work the same way in Postman Monitors that it does in the Postman app.
+There are a few minor differences between running collections in a Postman monitor as compared to using the Postman app collection runner.  If your collection relies on any of these features, then it may not work the same way in Postman monitors that it does in the Postman app.
 
 ##### **Variables**
 
-   *   No global variables
-   *   Variables aren't persisted
+   *   Can't import existing global variables, but you can create new ones during a monitor run.
+   *   Global and environment variables are not persisted. If you require persisting environment variables, we recommend adding a call to update the environment variable using the [Postman Pro API](/docs/pro/pro_api/intro_api). The following is an [example of how to update the environment variable](https://documenter.getpostman.com/view/218543/lunch-picker/6fWy4Ao#fe7e2416-4af9-fffc-02af-b8fc2c58a181){:target="_blank"} in this manner.
+
+   [![persist env in monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPersistEnv.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPersistEnv.png)
 
 ##### **Console Output**
 
@@ -44,6 +46,11 @@ There are currently a few minor differences between Postman Monitors and the Pos
    *   Monitors only run 1 iteration by default
    *   But you can use setNextRequest() to do multiple iterations
 
+##### **Multi-region Monitoring**
+
+   *   Monitors allow you to run collections in specified geographic regions
+   *   Can only specify multi-region monitoring from the [monitors page](https://monitor.getpostman.com){:target="_blank"}
+
 ##### **Data Files**
 
    *   Can't attach data files like you can in the runner
@@ -51,7 +58,14 @@ There are currently a few minor differences between Postman Monitors and the Pos
 
 ##### **Accessible APIs**
 
-   *   As with the Postman app, the monitors require all URLs to be publicly-available on the Internet. In the future, you will be able to monitor private APIs as well.
+   * As with the Postman app, the monitors require all URLs to be publicly-available on the Internet. In the future, you will be able to monitor private APIs as well.
+   * Monitors can't directly access your `localhost` and might encounter a firewall because monitors run in the Postman cloud.
+
+### Monitoring resources in multiple regions
+
+Monitoring resources across multiple regions provides useful information about the status and response time for your endpoints. If you’ve implemented a solution by setting up multiple servers running on multiple continents, then you want to make sure your endpoints are healthy and that none of your users are experiencing unusual delays.
+
+Postman supports monitoring in all 16 geographic regions around the world, operated by AWS Global Infrastructure. If you’re interested in a region that’s not listed in the Postman interface, contact us at [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}) or through the chat box on the [monitors page](https://monitor.getpostman.com){:target="_blank"}.
 
 ### Pricing for Monitors
 
