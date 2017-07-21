@@ -22,3 +22,5 @@ meta:
 # HTTP-REFRESH meta tag for v1 redirects
 gems:
   - jekyll-redirect-from
+
+exclude: [vendor]
