@@ -37,21 +37,9 @@ search.addWidget(
         container: '#hits-1',
         hitsPerPage: 12,
         templates: {
-            empty: data => `<div class="text-center">No results found matching <strong>${data.query}</strong>.</div>`,
+            empty: noResultsTemplate(),
+            item: '<strong>Hit {{objectID}}</strong>: {{{_highlightResult.name.value}}}'
 //            item: '<strong>Hit {{objectID}}</strong>: {{{_highlightResult.name.value}}}'
-//            body: '<div>You have {{nbHits}} results, fetched in {{processingTimeMS}}ms.</div>',
-            body: function(data) {
-                return `
-                    <div class="hit col-sm-3">
-                        <div class="infos">
-                            <h4 class="media-heading"></h4>
-                            <h4 class="media-heading">${data.url}</h4>
-                            <p>${title}</p>
-                            <strong>Hit ${objectID}</strong>:
-                        </div>
-                    </div>
-                `;
-            }
         }
     })
 );
