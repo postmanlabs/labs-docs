@@ -439,6 +439,11 @@
             "title": "Inviting and managing",
             "href":"/docs/pro/managing_pro/inviting_and_managing",
             "external": false
+          },
+          {
+            "title": "Team settings",
+            "href":"/docs/pro/managing_pro/team_settings",
+            "external": false
           }
         ]
       },
