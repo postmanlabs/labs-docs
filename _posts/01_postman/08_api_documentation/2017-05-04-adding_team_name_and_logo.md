@@ -34,8 +34,8 @@ This uploaded image will be displayed in the header of your team's [published do
 
 At Postman, we believe our product should have a clean and accessible URL design. Custom team URLs are available for Postman Pro and Enterprise users. This makes Postman features easier to access and streamlines the sign in process. 
 
-Team URLs to access Postman are derived from your team name. With a custom team URL, you can access the Postman web view by typing `<your-team-name>.postman.co` into your browser. 
+Your team URL is shown on the [team page](https://app.getpostman.com/dashboard/teams). With a custom team URL, you can access the Postman web view by typing `<your-team-domain>.postman.co` into your browser. 
 
-For example, if my team name is “postmanlabs”, my custom team URL will now be `postmanlabs.postman.co`, and all features will be predictably accessible by appending `/docs`, `/monitors`, or any other Postman features.
+For example, if my team domain is “postmanlabs”, my custom team URL will now be `postmanlabs.postman.co`, and all features will be predictably accessible by appending `/docs`, `/monitors`, or any other Postman features.
 
 [![urls in browser](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/urlsInBrowser.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/urlsInBrowser.png)
