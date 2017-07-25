@@ -563,6 +563,26 @@
             "title": "Single sign-on for admins",
             "href": "/docs/enterprise/sso/admin_sso",
             "external": false
+          },
+          {
+            "title": "Setting up custom SAML in Duo",
+            "href": "/docs/enterprise/sso/saml_duo",
+            "external": false
+          },
+          {
+            "title": "Setting up custom SAML in GSuite",
+            "href": "/docs/enterprise/sso/saml_gsuite",
+            "external": false
+          },
+          {
+            "title": "Setting up custom SAML in Okta",
+            "href": "/docs/enterprise/sso/saml_okta",
+            "external": false
+          },
+          {
+            "title": "Setting up custom SAML in Onelogin",
+            "href": "/docs/enterprise/sso/saml_onelogin",
+            "external": false
           }
         ]
       }
