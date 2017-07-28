@@ -18,6 +18,8 @@
          <div class="row">
             <div class="content documentation col-md-7">                
                 <!-- Search -->
+                <h2 class="documentation-header">{{page.title}}</h2>
+                
                 {% include search.html %}
 
                 <!-- Article tags -->

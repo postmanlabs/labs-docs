@@ -15,11 +15,11 @@ To begin, let’s start with an example.
 
 [![create mock diagram](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.jpg)
 
-When a mock is created using either the Postman Pro API or the Postman app, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection (C1) that we just mocked is now associated with the new mock (M1). 
+When a mock is created using either the Postman Pro API or the Postman app, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection `C1` that we just mocked is now associated with the new mock `M1`. 
 
 [![show mock diagram](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/show_mock.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/show_mock.jpg)
 
-When we use the mock (M1) via the mock URL `https://M1.mock.pstmn.io` in the Postman app, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
+When we use the mock `M1` via the mock URL `https://M1.mock.pstmn.io` in the Postman app, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
 
 [![use mock diagram](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/use_mock.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/use_mock.jpg)
 
@@ -29,9 +29,9 @@ The incoming request can have several configurable variables, such as `requestMe
 
 The request requires an authentication header `x-api-key` corresponding to the [Postman Pro API Key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}, and optionally accepts a header `x-mock-response-code` corresponding to the desired response code of the mock request. For example, you could request a `200`, `400`, `404`, or `500` response for a particular endpoint.
 
-[![mock configurable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock_configurable.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock_configurable.jpg)
+[![mock configurable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock_configurable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock_configurable.png)
 
-Keeping these various configurable elements in mind, let’s take a look at the matching algorithm. 
+Keeping these various configurable elements in mind, let’s take a look at the matching algorithm logic. 
 
 1. **Properly formatted responses**
 
@@ -39,21 +39,23 @@ Keeping these various configurable elements in mind, let’s take a look at the 
 
 2. **HTTP method**
 
-   Any responses that are not the same HTTP method type are removed from the matching process. For example: if the mock request you sent was `POST` to https://M1.mock.pstmn.io/test`, all saved examples whose method type is not `POST` will be disregarded.
+   Any responses that are not the same HTTP method type are removed from the matching process. For example: if the mock request you sent was `POST` to `https://M1.mock.pstmn.io/test`, all saved examples whose method type is not `POST` will be disregarded.
 
 3. **Filter by URL**
 
-   The matching process will now examine each saved example, and iterate over every possibility. Compare the `mockPath` of the input URL with that of the saved example. If the input URL was `https://M1.mock.pstmn.io/test` and the example currently being examined had a URL of `https://google.com/help`, the mock service would compare `/test` with `/help`. While comparing URLs, a step-by-step matching is conducted. Each consecutive step that the matching algorithm traverses reduces the matching threshold of the current example response. For example:
+   The matching process will now examine each saved example, and iterate over every possibility. Compare the `mockPath` of the input URL with that of the saved example. If the input URL was `https://M1.mock.pstmn.io/test` and the example currently being examined had a URL of `https://google.com/help`, the mock service would compare `/test` with `/help`. While comparing URLs, a step-by-step matching is conducted. Each consecutive step that the matching algorithm traverses reduces the matching threshold of the current example response. 
+   
+   For example:
 
    * Try to match the input path with the example path exactly as it is. The max value is set as the matching threshold.
-   * Try to strip trailing slashes and match the input path with the example path. The threshold value is reduced by a certain value, `n`.
-   * Try to additionally lowercase the input path and the example path The threshold value is reduced by a greater value, `n + m`.
+   * Try to strip trailing slashes and match the input path with the example path. The threshold is reduced by a certain value, `n`.
+   * Try to additionally lowercase the input path and the example path The threshold is reduced by a greater value, `n + m`.
    * Try to additionally strip out alphanumeric ids from the input path and the example path. The threshold is reduced further, `n + 2m`.
    * If all steps fail, this saved example is not an eligible response.
 
 4. **Response code**
 
-   If `x-mock-response-code` header is provided, filter out all examples that do not have a matching response code. 
+   If the `x-mock-response-code` header is explicitly provided, filter out all examples that do not have a matching response code. 
    
 5. **Highest threshold value**
    
