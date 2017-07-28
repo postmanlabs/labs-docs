@@ -395,6 +395,11 @@
             "title": "Mocking with the Postman Pro API",
             "href": "/docs/postman/mock_servers/mock_with_api",
             "external": false
+          },
+          {
+            "title": "Matching algorithm",
+            "href": "/docs/postman/mock_servers/matching_algorithm",
+            "external": false
           }
         ]
       },
