@@ -7,23 +7,14 @@ warning: false
 ---
 
 <div class="pm-accordion">
-  {% raw %}
+
   <div class="doc-search">
-    <input type="text"
-      id="search-box-1"
-      class="st-default-search-input pm-form-control pm-white-control"
-      name="search"
-      autocomplete="off"
-      autocorrect="off"
-      autocapitalize="off"
-      required="required" />
-    <div class="container-fluid" id="results">
-      <div class="row">
-        <div id="hits-1"></div>
-      </div>
-    </div>
+    <div id="search-box"></div>
+    <div id="stats" class="text-right text-muted"></div>
+    <hr />
+    <div id="hits"></div>
+    <div id="pagination" class="text-center"></div>
   </div>
-  {% endraw %}
 
   <div class="pm-accordion-links" id="productAccordion">
     {% for product in site.data.doc_map %}

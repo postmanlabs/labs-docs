@@ -1,0 +1,64 @@
+<script>
+
+'use strict';
+/* global instantsearch */
+
+const search = instantsearch({
+    appId: 'SDZ6C0ROMM',
+    apiKey: 'e83c353e0b538a05ad8ea1d70c32b0dd',
+    indexName: 'blog',
+    urlSync: true
+});
+
+search.addWidget(
+    instantsearch.widgets.searchBox({
+        container: '#search-box',
+        placeholder: 'Search documentation'
+    })
+);
+
+search.addWidget(
+    instantsearch.widgets.stats({
+        container: '#stats'
+    })
+);
+
+{% raw %}
+const hitTemplate =
+    '<div class="hit">' +
+        '<div class="infos">' +
+            '<h4 class="media-heading">{{title}}: </h4>' +
+            '<a href={{url}}>{{{_highlightResult.text.value}}}</a>' +
+        '</div>' +
+    '</div>';
+{% endraw %}
+
+{% raw %}
+const noResultsTemplate = 'No results found matching <strong>{{query}}</strong>.';
+{% endraw %}
+
+search.addWidget(
+    instantsearch.widgets.hits({
+        container: '#hits',
+        hitsPerPage: 5,
+        templates: {
+            empty: noResultsTemplate,
+            item: hitTemplate
+        }
+    })
+);
+
+search.addWidget(
+    instantsearch.widgets.pagination({
+        container: '#pagination',
+        cssClasses: {
+            root: 'pagination',
+            active: 'active'
+        }
+    })
+);
+
+search.start();
+
+
+</script>
