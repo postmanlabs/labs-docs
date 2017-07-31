@@ -60,7 +60,7 @@ And now the top of the activity feed displays the confirmation of restoring the 
 Postman Pro and Enterprise users can pipe the team's activity feed to a communication channel of your choosing with the following integrations:
 
    *   [Postman Pro to Slack integration](/docs/pro/integrations/slack)
-   *   [Postman Pro to Slack integration](/docs/pro/integrations/hipchat)
+   *   [Postman Pro to HipChat integration](/docs/pro/integrations/hipchat)
    *   [Postman Pro to Microsoft Teams integration](/docs/pro/integrations/microsoft_teams)  
 
 ### Upcoming additions to the activity feed
