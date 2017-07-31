@@ -29,13 +29,3 @@ From the [team page](https://app.getpostman.com/dashboard/teams), click the gear
 [![update logo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLogo.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLogo.png)
 
 This uploaded image will be displayed in the header of your team's [published documentation](/docs/postman/api_documentation/intro_to_api_documentation) instead of the Postman logo. It may take up to 5 minutes for the logo to update.
-
-### Custom team URLs
-
-At Postman, we believe our product should have a clean and accessible URL design. Custom team URLs are available for Postman Pro and Enterprise users. This makes Postman features easier to access and streamlines the sign in process. 
-
-Team URLs to access Postman are derived from your team name. With a custom team URL, you can access the Postman web view by typing `<your-team-name>.postman.co` into your browser. 
-
-For example, if my team name is “postmanlabs”, my custom team URL will now be `postmanlabs.postman.co`, and all features will be predictably accessible by appending `/docs`, `/monitors`, or any other Postman features.
-
-[![urls in browser](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/urlsInBrowser.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/urlsInBrowser.png)

@@ -34,11 +34,13 @@ The main timeline shows all past runs of the monitor. Each bar signifies one run
 
 [![monitors timeline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042594.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042594.png)
 
-You can click on any of the runs from this graph to see its results in more details.
+You can click on any of the runs from this graph to see its results in more details. 
 
-[![detailed view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042608.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042608.png)  
+[![detailed view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdownResults.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdownResults.png)  
 
-The results section shows request-level details: test results, response code, response time, and the response size. You can also view the log by clicking on the **Console Log** tab.
+The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions).
+
+You can also view the log by clicking on the **Console Log** tab.
 
 [![view logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)
 
