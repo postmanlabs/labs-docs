@@ -99,6 +99,11 @@
             "external": false
           },
           {
+            "title": "Proxy",
+            "href": "/docs/postman/sending_api_requests/proxy",
+            "external": false
+          },
+          {
             "title": "Generate code snippets",
             "href": "/docs/postman/sending_api_requests/generate_code_snippets",
             "external": false
