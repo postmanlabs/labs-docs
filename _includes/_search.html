@@ -7,28 +7,48 @@ const search = instantsearch({
     appId: 'SDZ6C0ROMM',
     apiKey: 'e83c353e0b538a05ad8ea1d70c32b0dd',
     indexName: 'blog',
-    urlSync: true
+    urlSync: true,
+    searchFunction: function(helper) {
+        const searchResults = $('.search-results');
+        if (helper.state.query === '') {
+            searchResults.hide();
+            return;
+        }
+        helper.search();
+        searchResults.show();
+    }
 });
 
 search.addWidget(
     instantsearch.widgets.searchBox({
         container: '#search-box',
-        placeholder: 'Search documentation'
+        placeholder: 'Search documentation',
+//        poweredBy: true,
+        cssClasses: {
+            input: ["st-default-search-input", "pm-form-control", "pm-white-control"]
+        }
     })
 );
 
+{% raw %}
 search.addWidget(
     instantsearch.widgets.stats({
-        container: '#stats'
+        container: '#stats',
+        templates: {
+            body: '<div>{{nbHits}} results</div>'
+        },
+        cssClasses: {
+            body: ["text-right", "text-muted"]
+        }
     })
 );
+{% endraw %}
 
 {% raw %}
 const hitTemplate =
     '<div class="hit">' +
         '<div class="infos">' +
-            '<h4 class="media-heading">{{title}}: </h4>' +
-            '<a href={{url}}>{{{_highlightResult.text.value}}}</a>' +
+            '<strong>{{title}}</strong>: <a href={{site.pm.root}}/docs/{{url}}>{{{_highlightResult.text.value}}}</a>' +
         '</div>' +
     '</div>';
 {% endraw %}
@@ -40,17 +60,23 @@ const noResultsTemplate = 'No results found matching <strong>{{query}}</strong>.
 search.addWidget(
     instantsearch.widgets.hits({
         container: '#hits',
-        hitsPerPage: 5,
         templates: {
             empty: noResultsTemplate,
             item: hitTemplate
-        }
+        },
+        cssClasses: {
+            root: 'doc-hits',
+            empty: 'empty-hits',
+            item: 'doc-hits-hit'
+        },
+        hitsPerPage: 6
     })
 );
 
 search.addWidget(
     instantsearch.widgets.pagination({
         container: '#pagination',
+        autoHideContainer: true,
         cssClasses: {
             root: 'pagination',
             active: 'active'
@@ -59,6 +85,5 @@ search.addWidget(
 );
 
 search.start();
-
 
 </script>
