@@ -29,12 +29,10 @@
   <style>
 
       .doc-search a {
-        text-decoration: none;
-        color: gray;
+        /*text-decoration: none;*/
       }
 
       .algolia__result-highlight {
-        color: orange;
         font-weight: bolder;
       }
 
@@ -47,9 +45,19 @@
         margin-top: 20px;
       }
 
-      .doc-hits-hit {
-        padding: 5px;
-        margin-bottom: 5px;
+      .accordion-search {
+        margin-top: 5px;
+      }
+
+      .doc-hits-hit, .ais-hits__empty {
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .ais-search-box {
+        max-width: none;
+        width: 100%;
+        height: auto;
       }
 
       #pagination .pagination {

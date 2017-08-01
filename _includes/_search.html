@@ -24,11 +24,14 @@ search.addWidget(
         container: '#search-box',
         placeholder: 'Search documentation',
 //        poweredBy: true,
-        cssClasses: {
-            input: ["st-default-search-input", "pm-form-control", "pm-white-control"]
-        }
+//        cssClasses: {
+//            input: ["st-default-search-input", "pm-form-control", "pm-white-control"]
+//        }
     })
 );
+
+//TODO: reset input form
+//TODO: space between magnifier and placeholder, placeholder color
 
 {% raw %}
 search.addWidget(
@@ -48,7 +51,8 @@ search.addWidget(
 const hitTemplate =
     '<div class="hit">' +
         '<div class="infos">' +
-            '<strong>{{title}}</strong>: <a href={{site.pm.root}}/docs/{{url}}>{{{_highlightResult.text.value}}}</a>' +
+            '<div class="hit-title"><strong><a href={{site.pm.root}}/docs/{{url}}>{{title}}</strong></a></div>' +
+            '<div class="hit-excerpt">{{{_highlightResult.text.value}}}</div>'+
         '</div>' +
     '</div>';
 {% endraw %}
@@ -73,16 +77,39 @@ search.addWidget(
     })
 );
 
+//TODO: limit hits per page
+
 search.addWidget(
     instantsearch.widgets.pagination({
         container: '#pagination',
-        autoHideContainer: true,
         cssClasses: {
             root: ['pagination', 'search-results'],
             active: 'active'
-        }
+        },
+        maxPages: 5,
+        // default is to scroll to 'body', here we disable this behavior
+        scrollTo: false
     })
 );
+//const container = document.querySelector('#pagination');
+//const paginationWidget = instantsearch.widgets.pagination({
+//    container: container,
+//    cssClasses: {
+//        root: ['pagination', 'search-results'],
+//        active: 'active'
+//    },
+//    hitsPerPage: 5
+//});
+//const oldRender = paginationWidget.render;
+//paginationWidget.render = function(params) {
+//    const currentState = params.results;
+//    if(currentState.nbPages===0) container.style.display='none';
+//    else container.style.display = 'block';
+//    oldRender.call(this, arguments);
+//}
+//search.addWidget(paginationWidget);
+
+//TODO: hide pagination when >= 1 result
 
 search.start();
 
