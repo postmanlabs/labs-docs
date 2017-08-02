@@ -29,7 +29,7 @@
   <style>
 
       .doc-search a {
-        /*text-decoration: none;*/
+        text-decoration: none;
       }
 
       .algolia__result-highlight {
@@ -40,6 +40,7 @@
         border: 1px solid whitesmoke;
         box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         position: absolute;
+        width: 100%;
         z-index: 1;
         background: white;
         margin-top: 20px;
@@ -47,6 +48,19 @@
 
       .accordion-search {
         margin-top: 5px;
+      }
+
+      .col-md-7.content .doc-search input {
+        padding-left: 65px;
+      }
+
+      .col-md-4 .doc-search input {
+        padding: 0 60px 0 42px;
+      }
+
+      .col-md-7 .ais-search-box--magnifier {
+        left: 32px;
+        top: calc(50% - 15px / 2);
       }
 
       .doc-hits-hit, .ais-hits__empty {
@@ -58,6 +72,28 @@
         max-width: none;
         width: 100%;
         height: auto;
+      }
+
+      .ais-search-box--reset {
+        right: 30px;
+      }
+
+      ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color:    lightgray;
+      }
+      :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:    lightgray;
+        opacity:  1;
+      }
+      ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:    lightgray;
+        opacity:  1;
+      }
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color:    lightgray;
+      }
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color:    lightgray;
       }
 
       #pagination .pagination {
