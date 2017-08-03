@@ -1,9 +1,13 @@
 <!--Side navigation panel-->
 <div id="side_accordion" class="pm-accordion col-md-4 col-md-offset-1 hidden-sm hidden-xs">
-    <!-- <div class="doc-search">
-        <input type="text" class="st-default-search-input pm-form-control pm-white-control" name="search" placeholder="Search documentation" autocomplete="off" autocorrect="off" autocapitalize="off" required="required" />
-        <div class="clear-text"></div>
-    </div> -->
+    <div class="doc-search">
+        <div id="search-box"></div>
+        <div id="stats" style="display:none;"></div>
+        <div class="doc-hits-wrapper search-results accordion-search">
+            <div id="hits"></div>
+            <div id="pagination"></div>
+        </div>
+    </div>
 
     <div class="pm-accordion-links" id="productAccordion">
         {% assign pageurl = page.url | split: '/' %}

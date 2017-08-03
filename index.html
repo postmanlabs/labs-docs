@@ -7,17 +7,15 @@ warning: false
 ---
 
 <div class="pm-accordion">
-  <!-- <div class="doc-search">
-    <input type="text"
-      class="st-default-search-input pm-form-control pm-white-control"
-      name="search"
-      placeholder="Search documentation"
-      autocomplete="off"
-      autocorrect="off"
-      autocapitalize="off"
-      required="required" />
-    <div class="clear-text"></div>
-  </div> -->
+
+  <div class="doc-search">
+    <div id="search-box"></div>
+    <div id="stats"></div>
+    <div class="doc-hits-wrapper search-results">
+      <div id="hits"></div>
+      <div id="pagination"></div>
+    </div>
+  </div>
 
   <div class="pm-accordion-links" id="productAccordion">
     {% for product in site.data.doc_map %}
