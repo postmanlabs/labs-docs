@@ -7,19 +7,15 @@ warning: false
 ---
 
 <div class="pm-accordion">
-  {% raw %}
+
   <div class="doc-search">
-    <input type="text"
-      id="search-box-1"
-      name="search"
-      required="required" />
-    <div class="container-fluid" id="results">
-      <div class="row">
-        <div id="hits-1"></div>
-      </div>
+    <div id="search-box"></div>
+    <div id="stats"></div>
+    <div class="doc-hits-wrapper search-results">
+      <div id="hits"></div>
+      <div id="pagination"></div>
     </div>
   </div>
-  {% endraw %}
 
   <div class="pm-accordion-links" id="productAccordion">
     {% for product in site.data.doc_map %}

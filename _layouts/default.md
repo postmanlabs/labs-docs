@@ -16,11 +16,9 @@
 
       <div class="container">
          <div class="row">
-            <div class="content documentation col-md-7">                
-                <!-- Search -->
-                <h2 class="documentation-header">{{page.title}}</h2>
+            <div class="content documentation col-md-7">
                 
-                {% include search.html %}
+                <h2  class="documentation-header">{{page.title}}</h2>
 
                 <!-- Article tags -->
                 {% include _article_tags.html %}
@@ -40,5 +38,6 @@
     {% include _footer.html %}
     {% include _navigation.html %}
     {% include _footer_scripts.html %}
+    {% include _search.html %}
   </body>
 </html>

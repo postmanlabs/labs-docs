@@ -43,7 +43,6 @@
     {% include _footer.html %}
     {% include _navigation.html %}
     {% include _footer_scripts.html %}
-    <!-- <script type="text/javascript" src="{{site.pm.root}}/js/swiftype.pm.js?v={{site.time | date: '%s%N'}}"></script> -->
-    {% include search.html %}
+    {% include _search.html %}
   </body>
 </html>

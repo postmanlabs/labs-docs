@@ -23,6 +23,14 @@ There are two ways to create a mock:
 
   1. [using the Postman app](/docs/postman/mock_servers/mocking_with_examples)
   2. [using the Postman Pro API](/docs/postman/mock_servers/mock_with_api)
+  
+Once the mock has been created, Postman Pro and Enterprise users can share the mock with their team for review and collaboration. This is accomplished by [sharing the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, providing permissions to edit or view.
+
+### HTTP access control (CORS)
+
+Not only can you make requests to mock endpoints using the Postman app, you can also rely on a mock using a browser. A web browser makes a cross-origin HTTP request when requesting a resource from a domain, protocol, or port that's different from its own. For security reasons, [cross-origin resource sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS){:target="_blank"} is a standard that defines a way in which a browser and server can interact securely. In this case, we are referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
+
+CORS is enabled for Postman mock servers which means you can stub your web apps with mocked data using the mock endpoints. In other words, development or production web apps can make requests to the Postman mock endpoint you just created and receive an example response.
 
 ### Free mock server calls with your Postman account
 
