@@ -8,8 +8,22 @@ tags:
 warning: false
 ---
 
+Postman’s vision is to help you build a super fast and smooth workflow for API development keeping some key questions in mind:
+
+*   Where are my APIs and do I know how they are changing?
+*   Are they documented properly?
+*   How do I follow an agile process to test them?
+*   Are they working properly all the time?
+*   Can I connect all my tools with my API development workflow?
+
+Enterprise includes all the advanced capability of Postman Pro, plus features available only to Enterprise customers with solutions that satisfy each of the questions above. 
+
+*   Team [collaboration](/docs/postman/team_library/sharing) for the single source of truth about your API, or review historical versions and the latest updates.
+*   API [documentation](/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation, beautifully viewable via a web page.
+*   Powerful [mock servers](/docs/postman/mock_servers) to simulate the real API and decouple teams.
+*   Collection [monitoring](/docs/postman/monitors/intro_monitors) to check for the performance, uptime and correctness of your API.
+*   [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations) and the [Postman Pro API](/docs/pro/pro_api/intro_api) to connect your different tools.
+
 As an Enterprise customer, you’ll have exclusive access to single sign-on, priority support from our dedicated Enterprise Support Team, banded group pricing, and flexible billing. 
 
-If you would like to learn more about Postman Enterprise, email us at [{{site.pm.enterprise_email}}](mailto:{{site.pm.enterprise_email}}). 
-
-Postman Pro and Enterprise users can [add a team name and logo](/docs/postman/api_documentation/adding_team_name_and_logo) to their Postman team account and [use a custom URL](/docs/pro/managing_pro/team_settings#custom-team-url) to predictably access Postman features.
+If you would like to learn more about Postman Enterprise, [connect with someone from Postman](http://pages.getpostman.com/Enterprise-Contact-Sales_Contact-Us.html){:target="_blank"}. 
