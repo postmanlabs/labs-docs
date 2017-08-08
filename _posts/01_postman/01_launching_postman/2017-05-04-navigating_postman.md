@@ -185,7 +185,22 @@ Relevant features will display for a specific row on hover. This reduces clutte
 
 ##### **Keyboard shortcuts for the data editor**
 
-[![most popular shortcuts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162727.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162727.png)
+| Data editor  |   macOS   | Windows / Linux shortcuts |
+| ---   |   ---     | ---   |
+| Navigation   |   arrow keys (↑,→,↓,←) + Tab     | arrow keys (↑,→,↓,←) + Tab   |
+| Duplicate row  |   ⌘ D     | Ctrl + D   |
+| Select specific rows  |   ⌘ (click)     | Ctrl + (click)   |
+| Select previous rows   |   ⇧ ↑     | Shift + ↑   |
+| Select next rows   |   ⇧ ↓   | Shift + ↓  |
+| Select current row  |   ⇧ →     | Shift + →   |
+| Select current row  |   ⇧ ←     | Shift + ←   |
+| Move row(s) up   |   ⌘ ⇧ ↑     | Ctrl + Shift + ↑   |
+| Move row(s) down   |   ⌘ ⇧ ↓     | Ctrl + Shift + ↓   |
+| Copy - can multiselect and copy rows   |   ⌘ C    | Ctrl + C   |
+| Cut - can multiselect and cut rows   |   ⌘ X    | Ctrl + X   |
+| Paste  |   ⌘ V     | Ctrl + V  |
+| Delete - can multiselect and delete rows   |   ⌫     | Del  |
+| Deselect rows  |   ⎋    | Esc  |
 
 [![using shortcuts gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)
 
