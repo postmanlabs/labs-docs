@@ -13,7 +13,7 @@ If you choose to monitor a shared collection, your team can see the monitor. How
 
 Click on the ellipses (**...**) next to the collection you wish to monitor. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
 
-[![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown.png)
+[![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown2.png)
 
 Enter a name for this monitor and choose a corresponding environment. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
 
