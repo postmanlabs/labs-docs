@@ -16,12 +16,12 @@ A Postman account is required to activate your Postman Pro trial.
    *   Sign in to your Postman account from the Postman [home page](https://www.getpostman.com/){:target="_blank"}. 
    *   On the [team plans page](https://app.getpostman.com/dashboard/team-plans){:target="_blank"}, click **Activate 7 day free trial**.
         [![team plans page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/7daytrial2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/trial_prompt.png)  
-   *   You will be redirected to the Postman [dashboard](https://www.getpostman.com/pricing#cloud-free-trial-30){:target="_blank"}. Click the **ACTIVATE TRIAL** button.  
+   *   You will be redirected to the Postman [dashboard](https://www.getpostman.com/pricing#cloud-free-trial-7){:target="_blank"}. Click the **ACTIVATE TRIAL** button.  
         [![activate trial](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/7daytrial.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58764185.png)
 
 ### If you don't already have a Postman account
 
-   *   On the Postman [pricing page](https://www.getpostman.com/pricing#cloud-free-trial-30){:target="_blank"}, click the **ACTIVATE TRIAL** button.
+   *   On the Postman [pricing page](https://www.getpostman.com/pricing#cloud-free-trial-7){:target="_blank"}, click the **ACTIVATE TRIAL** button.
    *   You'll be prompted to create a Postman account. Enter your email, select a username and password, and sign up.
 
 Congratulations, you're now the administrator of a Postman Pro team, with a free 30-day trial. Head to the Postman [team page](https://app.getpostman.com/dashboard/teams){:target="_blank"} to start inviting users!
