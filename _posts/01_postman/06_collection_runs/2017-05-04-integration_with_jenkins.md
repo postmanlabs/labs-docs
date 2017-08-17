@@ -57,7 +57,7 @@ Add a build step in the project. The build step executes a Shell command.
 The command is:
 
 ```bash
-$ newman -c jenkins_demo.postman_collection --exitCode 1
+$ newman jenkins_demo.postman_collection --exitCode 1
 ```
 
 Note here that we are using the Newman command parameter “exitCode” with the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
