@@ -65,7 +65,7 @@ There are a few minor differences between running collections in a Postman monit
 
 Monitoring resources across multiple regions provides useful information about the status and response time for your endpoints. If you’ve implemented a solution by setting up multiple servers running on multiple continents, then you want to make sure your endpoints are healthy and that none of your users are experiencing unusual delays.
 
-Postman supports monitoring in all 16 geographic regions around the world, operated by AWS Global Infrastructure. If you’re interested in a region that’s not listed in the Postman interface, contact us at [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}) or through the chat box on the [monitors page](https://monitor.getpostman.com){:target="_blank"}.
+Postman supports monitoring in 6 geographic regions around the world. If you’re interested in a region that’s not listed in the Postman interface, contact us at [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}) or through the chat box on the [monitors page](https://monitor.getpostman.com){:target="_blank"}.
 
 ### Pricing for Monitors
 
