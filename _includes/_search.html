@@ -10,12 +10,15 @@ var search = instantsearch({
     urlSync: true,
     searchFunction: function(helper) {
         var searchResults = $('.search-results');
+        var statsCount = $('#stats');
         if (helper.state.query === '') {
             searchResults.hide();
+            statsCount.hide();
             return;
         }
         helper.search();
         searchResults.show();
+        statsCount.show();
     }
 });
 
