@@ -16,7 +16,7 @@ Postman generates and hosts browser-based API documentation for your collections
 
 Documentation for your API includes the following:
 
-   *   Sample requests, and parameter tables, headers, and other metadata
+   *   Sample requests, headers, and other metadata
    *   Descriptions associated with requests, folders, and collections
    *   Generated code snippets in some of the most popular programming languages
    *   Pre-request and test scripts
