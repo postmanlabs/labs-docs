@@ -263,6 +263,11 @@
             "external": false
           },
           {
+            "title": "Integration with Travis CI",
+            "href": "/docs/postman/collection_runs/integration_with_travis",
+            "external": false
+          },
+          {
             "title": "Newman with Docker",
             "href": "/docs/postman/collection_runs/newman_with_docker",
             "external": false
