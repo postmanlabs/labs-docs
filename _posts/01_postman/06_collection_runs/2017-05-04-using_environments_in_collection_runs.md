@@ -25,9 +25,9 @@ If you switch back to the main Postman app window and check the value of the var
 
 [![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)
 
-This is because, by default, any variable changes in the environment (or globals) in the Collection Runner will be reflected in the main Postman app window since `Persist Variables` is checked in the Collection Runner options right above the blue Run button. In fact, if you run the collection once again, you'll see that it will now fail, since we changed the value of the variable `foo`. 
+This is because, by default, any variable changes in the environment (or globals) in the Collection Runner will be reflected in the main Postman app window since `Persist Variables` is checked in the options. In fact, if you run the collection once again, you'll see that it will now fail, since we changed the value of the variable `foo`. 
 
-If you do not want variables to be updated during the run, deselect the `Persist Variables` checkbox. In this case, think of it as the Collection Runner saving the initial state of the environment (and globals), and restoring it after the run is complete. This is useful when you reuse the same variables in your requests and want to run the same collection multiple times. This will also make sure that the environment (and globals) state is not affected by a collection run.
+By default, `Persist Variables` is checked the first time you open the Collection Runner. If you do not want variables to be updated during the run, deselect the `Persist Variables` checkbox. In this case, think of it as the Collection Runner saving the initial state of the environment (and globals), and restoring it after the run is complete. This is useful when you reuse the same variables in your requests and want to run the same collection multiple times. This will also make sure that the environment (and globals) state is not affected by a collection run.
 
 [![persist variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_persist_variables.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_persist_variables.png)
 
