@@ -36,7 +36,22 @@ In this example, we’ll walk through how to integrate Postman with [Travis CI](
   
 Now, my `.travis.yml` file looks like this for this node.js example:
 
-<script src="https://gist.github.com/loopDelicious/c8c43557e0229e5c20341913a42cf528.js"></script>
+```
+language: node_js
+node_js:
+  - "8.2.1"
+
+install:
+  - npm install newman
+
+before_script:
+  - node --version
+  - npm --version
+  - node_modules/.bin/newman --version
+
+script:
+  - node_modules/.bin/newman run tests/bitcoinz.postman_collection.json -e tests/tests.postman_environment.json
+```
 
 Travis CI is now set up to run your Postman tests every time you trigger a build, for example, by pushing a commit to your repo.
 
