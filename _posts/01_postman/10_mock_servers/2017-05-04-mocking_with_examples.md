@@ -105,5 +105,7 @@ In the previous steps, we prepared the collection, request, and example response
   [![404 example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock14.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock14.png)
 
   Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which specifies which integer response code your returned response should match.
+  
+  Learn more about the [matching algorithm](/docs/postman/mock_servers/matching_algorithm) for mocks.
 
 And we're done! We have walked through how to create a collection, save requests, save examples, create a mock, and use a mock.
