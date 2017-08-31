@@ -39,7 +39,7 @@ warning: false
                                            rel="nofollow">btoa</a>→ v1.1.2
                                     </li>
                                     <li><a class="external-link" href="http://chaijs.com/" rel="nofollow">chai</a>→
-                                        v3.5.0
+                                        v4.1.1
                                     </li>
                                     <li><a class="external-link" href="https://cheerio.js.org/"
                                            rel="nofollow">cheerio</a>→ v0.22.0
@@ -51,7 +51,7 @@ warning: false
                                         v4.17.2
                                     </li>
                                     <li><a class="external-link" href="http://www.postmanlabs.com/postman-collection/"
-                                           rel="nofollow">postman-collection</a>→ v1.2.0
+                                           rel="nofollow">postman-collection</a>→ v2.1.2
                                     </li>
                                     <li><a class="external-link" href="https://github.com/geraintluff/tv4"
                                            rel="nofollow">tv4</a>→ v1.2.7
@@ -60,7 +60,7 @@ warning: false
                                            rel="nofollow">uuid</a>→ (the module loaded is a shim for original module)
                                     </li>
                                     <li><a class="external-link" href="https://www.npmjs.com/package/xml2js"
-                                           rel="nofollow">xml2js</a>→ 0.4.17
+                                           rel="nofollow">xml2js</a>→ 0.4.19
                                     </li>
                                 </ol>
                             </li>
@@ -77,6 +77,14 @@ warning: false
                                     <li>assert</li>
                                     <li>buffer</li>
                                     <li>util</li>
+                                    <li>url</li>
+                                    <li>punycode</li>
+                                    <li>querystring</li>
+                                    <li>string_decoder</li>
+                                    <li>stream</li>
+                                    <li>util</li>
+                                    <li>timers</li>
+                                    <li>events</li>
                                 </ol>
                             </li>
                         </ol>
@@ -557,7 +565,7 @@ warning: false
         </tbody>
     </table>
 </div>
-         
+
 ### Response Assertions API
 
 <div class="table-wrap">
@@ -662,4 +670,4 @@ warning: false
         </tr>
         </tbody>
     </table>
-</div>     
+</div>
