@@ -98,7 +98,7 @@ algolia:
     - _site/running_collections.html
     - _site/sandbox.html
     - _site/schedule_cloud_runs.html
-    - _site/search.html
+    - _site/_search.html
     - _site/security.html
     - _site/self_signed_certs.html
     - _site/settings.html
