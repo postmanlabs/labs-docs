@@ -154,8 +154,7 @@ The `request` object inside `pm` is a representation of the request for which th
 * `pm.request.url:`[`Url`](http://www.postmanlabs.com/postman-collection/Url.html)
 * `pm.request.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html)
 
-
-> **The following items are available in TEST SCRIPTS only.**
+### **The following items are available in TEST SCRIPTS only.**
 
 ### pm.response
 
