@@ -19,7 +19,6 @@ Documentation for your API includes the following:
    *   Sample requests, headers, and other metadata
    *   Descriptions associated with requests, folders, and collections
    *   Generated code snippets in some of the most popular programming languages
-   *   Pre-request and test scripts
 
 Documentation is organized into sections that reflect the structure of your collection, by ordered requests and folders. Descriptions can be customized using [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation. GitHub flavored markdown is also supported, so you can even include tables. When including block elements, ensure that you leave an empty line before and after to avoid any rendering issues.
 

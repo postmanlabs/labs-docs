@@ -11,7 +11,7 @@ warning: false
 
 With Postman you can write and run tests for each request using the JavaScript language.
 
-[![tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58980408.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58980408.png)
+[![tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-with-description.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-with-description.png)
 
 ### Writing Postman tests
 
