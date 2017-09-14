@@ -7,6 +7,8 @@ page_id: "postman_sandbox_api_reference"
 warning: false
 ---
 
+_Note: The functionality described here is exclusive to Postman's native apps for Mac, Windows, and Linux._
+
 ### Global functions (pm.*)
 
 ### require
