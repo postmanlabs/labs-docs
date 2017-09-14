@@ -72,6 +72,16 @@ The Postman application menu bar provides access to additional features. Note th
 
 [![chrome app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)
 
+### Status bar
+
+The status bar at the bottom of the Postman interface gives you a convenient way to open the [console](/docs/postman/launching_postman/navigating_postman#console), select either a single or two pane layout, open the [keyboard shortcuts](/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts), and get Postman Help. 
+
+[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar.png)
+
+When you click the Help & Feedback icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security](https://www.getpostman.com/security){:target="_blank"}, [support](https://www.getpostman.com/support){:target="_blank"}, and [social media](https://twitter.com/postmanclient){:target="_blank"}.
+
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png)
+
 ### Tabs and Windows
 
 Postman lets you use multi-tab and multi-window configurations. This allows you to work on multiple requests or even multiple collections together and simultaneously.
