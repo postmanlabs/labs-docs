@@ -7,6 +7,8 @@ page_id: "postman_sandbox_api_reference"
 warning: false
 ---
 
+_Note: The functionality described here is exclusive to Native apps_
+
 ### Global functions (pm.*)
 
 ### require
