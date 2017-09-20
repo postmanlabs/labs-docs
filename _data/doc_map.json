@@ -603,6 +603,11 @@
             "title": "Setting up custom SAML in Onelogin",
             "href": "/docs/enterprise/sso/saml_onelogin",
             "external": false
+          },
+          {
+            "title": "Setting up custom SAML in Ping Identity",
+            "href": "/docs/enterprise/sso/saml_ping",
+            "external": false
           }
         ]
       }
