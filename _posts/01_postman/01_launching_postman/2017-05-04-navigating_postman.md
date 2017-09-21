@@ -90,6 +90,12 @@ To open a new tab in Postman press the **+** icon in the builder or use the *
 
 By right clicking on a tab name, the menu allows you to duplicate or close tabs.  If any tab has unsaved changes and you are attempting to close the tab, Postman will prompt you to save your changes.
 
+##### **Busy tabs**
+
+The idea behind busy tabs is to make sure people don't lose the request they've been working on, even if it isn't in a collection. When you're on a busy tab, opening a new request from the sidebar will open the request in a new tab. It does not replace or interfere with the request in the previous busy tab.
+
+What makes a tab busy? Working on a tab moves the tab into a busy state. For example, receiving a response or making changes that are not yet saved (reflected by an orange dot on the tab) will all result in making a tab busy. 
+
 ##### **Tab and sidebar behavior**
 
 By default, Postman assumes that you want to work on one collection request in one tab. When you open a request from the sidebar, Postman will open a new tab if an existing tab has unsaved changes, otherwise the request takes over the current tab. You can always open a request in a new tab. From the sidebar under the **Collections** tab, right click a request and select "Open in New Tab".
