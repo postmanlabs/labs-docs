@@ -414,6 +414,22 @@
         ]
       },
       {
+        "title": "Postman API",
+        "url_prefix": "postman_api",
+        "children": [
+          {
+            "title": "Intro to the Postman API",
+            "href": "/docs/postman/postman_api/intro_api",
+            "external": false
+          },
+          {
+            "title": "Continuous Integration",
+            "href": "/docs/postman/postman_api/continuous_integration",
+            "external": false
+          }
+        ]
+      },
+      {
         "title": "Notifications",
         "url_prefix": "notifications",
         "href":"/docs/postman/notifications",
@@ -458,22 +474,6 @@
           {
             "title": "Team settings",
             "href":"/docs/pro/managing_pro/team_settings",
-            "external": false
-          }
-        ]
-      },
-      {
-        "title": "Postman Pro API",
-        "url_prefix": "pro_api",
-        "children": [
-          {
-            "title": "Intro to Postman Pro API",
-            "href":"/docs/pro/pro_api/intro_api",
-            "external": false
-          },
-          {
-            "title": "Continuous integration",
-            "href":"/docs/pro/pro_api/continuous_integration",
             "external": false
           }
         ]
@@ -602,6 +602,11 @@
           {
             "title": "Setting up custom SAML in Onelogin",
             "href": "/docs/enterprise/sso/saml_onelogin",
+            "external": false
+          },
+          {
+            "title": "Setting up custom SAML in Ping Identity",
+            "href": "/docs/enterprise/sso/saml_ping",
             "external": false
           }
         ]

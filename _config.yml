@@ -121,6 +121,7 @@ algolia:
     - _site/working_with_client_certificates.html
     - _site/working_with_cookies.html
     - _site/writing_tests.html
+    - _posts/02_pro/02_pro_api/
     - _posts/07_getting_started/
     - _posts/08_sending_and_viewing_responses/
     - _posts/09_managing_collections/
