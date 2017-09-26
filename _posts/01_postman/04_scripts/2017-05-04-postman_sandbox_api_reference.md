@@ -22,7 +22,7 @@ The `require` function allows you to use the sandbox built-in library modules. T
 1. [cheerio](https://cheerio.js.org/){:target="_blank"} → v0.22.0
 1. [crypto-js](https://www.npmjs.com/package/crypto-js){:target="_blank"} → v3.1.9-1
 1. [csv-parse/lib/sync](http://csv.adaltas.com/parse){:target="_blank"} → 1.2.1
-1. [lodash](https://lodash.com/){:target="_blank"} → v4.17.2
+1. [lodash](https://lodash.com/){:target="_blank"} → v4.17.2 (when used with require, the inbuilt `_` object is for v3.10.1)
 1. [moment](http://momentjs.com/docs/){:target="_blank"} → v2.18.1 (sans locales)
 1. [postman-collection](http://www.postmanlabs.com/postman-collection/){:target="_blank"} → v1.2.0
 1. [tv4](https://github.com/geraintluff/tv4){:target="_blank"} → v1.2.7
@@ -39,7 +39,6 @@ A number of NodeJS modules are also available:
 1. querystring
 1. string_decoder
 1. stream
-1. util
 1. timers
 1. events
 
