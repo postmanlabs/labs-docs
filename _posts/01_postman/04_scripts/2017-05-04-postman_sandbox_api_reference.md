@@ -22,7 +22,7 @@ The `require` function allows you to use the sandbox built-in library modules. T
 1. [cheerio](https://cheerio.js.org/){:target="_blank"} → v0.22.0
 1. [crypto-js](https://www.npmjs.com/package/crypto-js){:target="_blank"} → v3.1.9-1
 1. [csv-parse/lib/sync](http://csv.adaltas.com/parse){:target="_blank"} → 1.2.1
-1. [lodash](https://lodash.com/){:target="_blank"} → v4.17.2
+1. [lodash](https://lodash.com/){:target="_blank"} → v4.17.2 (when used with require, the inbuilt `_` object is for v3.10.1)
 1. [moment](http://momentjs.com/docs/){:target="_blank"} → v2.18.1 (sans locales)
 1. [postman-collection](http://www.postmanlabs.com/postman-collection/){:target="_blank"} → v1.2.0
 1. [tv4](https://github.com/geraintluff/tv4){:target="_blank"} → v1.2.7
@@ -39,7 +39,6 @@ A number of NodeJS modules are also available:
 1. querystring
 1. string_decoder
 1. stream
-1. util
 1. timers
 1. events
 
@@ -88,30 +87,47 @@ The `pm.info` object contains information pertaining to the script being execute
 
 **`pm.sendRequest:Function`**
 
-The `pm.sendRequest` function allows sending HTTP/HTTPS requests asynchronously in both pre-request and test scripts. The method takes in a collection SDK compliant request and a callback. The callback receives two arguments, an error and a SDK compliant response, as shown below:
+The `pm.sendRequest` function allows sending HTTP/HTTPS requests asynchronously. Simply put, with asynchronous scripts, you can now execute logic in the background if you have a heavy computational task or are sending multiple requests. Instead of waiting for a call to complete and blocking any next requests, you can designate a callback function and be notified when the underlying operation has finished.
+
+Some things to know about `pm.sendRequest()`:
+
+* The method accepts a collection SDK compliant request and a callback. The callback receives 2 arguments, an error (if any) and SDK compliant response.
+* It can be used in the pre-request or the test script.
 
 ```
-// with a plain string URL
+// example with a plain string URL
 pm.sendRequest('https://postman-echo.com/get', function (err, res) {
-    pm.expect(err).to.not.be.ok;
-    pm.expect(res).to.have.property('code', 200);
-    pm.expect(res).to.have.property('status', 'OK');
+    if (err) {
+        console.log(err);
+    } else {
+        pm.environment.set("variable_key", "new_value");
+    }
 });
  
-// with a full fledged SDK Request
-pm.sendRequest({
-    url: 'https://postman-echo.com/post',
-    method: 'POST',
-    header: 'headername1:value1',
-    body: {
-        mode: 'raw',
-        raw: JSON.stringify({key: "this is json"})
-    }
-}, function (err, res) {
-    console.log(res);
+// Example with a full fledged SDK Request
+const echoPostRequest = {
+  url: 'https://postman-echo.com/post',
+  method: 'POST',
+  header: 'headername1:value1',
+  body: {
+    mode: 'raw',
+    raw: JSON.stringify({ key: 'this is json' })
+  }
+};
+pm.sendRequest(echoPostRequest, function (err, res) {
+  console.log(err ? err : res.json());
+});
+ 
+// example containing a test ** under the Tests tab only
+pm.sendRequest('https://postman-echo.com/get', function (err, res) {
+  if (err) { console.log(err); }
+  pm.test('response should be okay to process', function () {
+    pm.expect(err).to.equal(null);
+    pm.expect(res).to.have.property('code', 200);
+    pm.expect(res).to.have.property('status', 'OK');
+  });
 });
 ```
-
 Extended Reference:
 * [Request JSON](http://www.postmanlabs.com/postman-collection/Request.html#~definition)
 * [Response Structure](http://www.postmanlabs.com/postman-collection/Response.html)
