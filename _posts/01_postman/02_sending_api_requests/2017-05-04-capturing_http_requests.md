@@ -8,7 +8,21 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension) for the Postman Chrome app. Support for the Interceptor extension in the native apps is coming soon.
+If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension) for the Postman Chrome app. 
+
+### The Postman built-in proxy
+
+Postman has a proxy in the Postman app that captures the HTTP request.
+
+1. The Postman app listens for any calls made by the client app or device.
+1. The Postman proxy captures the request and forwards the request onward to the server.
+1. The server returns a response through the Postman proxy back to the client.
+
+[![postman capture proxy](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxymobile.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxymobile.png)
+
+Similar to the [Interceptor Chrome extension](/docs/postman/sending_api_requests/interceptor_extension), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
+
+[![proxy logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.logs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.logs.png)
 
 ### Using Postman's proxy example
 
