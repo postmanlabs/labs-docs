@@ -279,6 +279,11 @@
         "url_prefix": "team_library",
         "children": [
           {
+            "title": "Setting up a Team Library",
+            "href": "/docs/postman/team_library/setting_up_team_library",
+            "external": false
+          },
+          {
             "title": "Sharing",
             "href": "/docs/postman/team_library/sharing",
             "external": false
