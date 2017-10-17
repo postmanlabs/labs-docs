@@ -18,7 +18,7 @@ The Postman sidebar lets you find and manage requests and collections. The sideb
 
 The right edge can be dragged to resize the width of the sidebar.  The sidebar can also be minimized for smaller screens.
 
-[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)
+[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png) **(Need to remove or replace this graphic with on that has the New button)**
 
 ### History tab
 
@@ -30,25 +30,25 @@ Create and manage collections from the **Collections** tab in the sidebar. Learn
 
 ### Header toolbar
 
-[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)
+[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png) **(Need to remove or replace this graphic with on that has the New button)**
 
 The topmost toolbar in Postman covers the following options:
 
-   *   Sidebar toggle icon - Show or hide the sidebar
+   *   Sidebar toggle icon - Show or hide the sidebar **(Does this feature still exist)**
    *   **Runner** button - Open the [collection runner](/docs/postman/collection_runs/starting_a_collection_run)
-   *   **Import** button - Import Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links or raw text
-   *   New window icon - Open a new Postman window
+   *   **Import** button - Import Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links or raw text **(Runner and Import have a reverse order in latest version.)**
+   *   New window icon - Open a new Postman window **(In addition to the window, now adds tab and runner.)**
    *   **Builder** and **Team Library** tabs - Switch context between the request builder and team library view
    *   Interceptor/Proxy icon - Manage proxy or Interceptor settings
    *   Sync status icon - See and update the status of your Postman account 
-   *   User dropdown - Manage collection links and your profile or log in to, or out of, your Postman account
+   *   User dropdown - Manage collection links and your profile or log in to, or out of, your Postman account **(Now follows the notications, settings, and heart icons.)**
    *   Notifications icon - Receive notifications or broadcasts
    *   Settings icon - Manage Postman app settings and find other support resources
    *   Heart - Love Postman? Click on this button to share the love!
 
 ### Builder
 
-Postman gives you a tabbed layout for sending and managing API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  
+Postman gives you a tabbed layout for sending and managing API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  **(Would like to add Params, AAuthorization, Headers, Body, Pre-request scripts, and Tests)**
 
    *   **Cookies** - The **MANAGE COOKIES** modal is accessed by the **Cookies** link on the far right beneath the **Save** button. This feature lets you manage cookies associated with the request. Learn more about [working with cookies](/docs/postman/sending_api_requests/cookies).
    *   **Code** - The **GENERATE CODE SNIPPETS** modal is accessed by the **Code** link on the far right beneath the **Save** button. This feature lets you generate code snippets associated with the request in more than 20 languages.
@@ -58,7 +58,7 @@ Postman gives you a tabbed layout for sending and managing API requests in the b
 To see what's going behind the scenes, there are two consoles available in Postman. Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
    *   Postman console - Contains a running log of HTTP requests and responses. Log messages that come out of scripts (like in console.log). This feature is only available in Postman's native apps.
-   *   DevTools console - Where you can log diagnostic information during development.
+   *   DevTools console - Where you can log diagnostic information during development. **(Need indicate access via the Status bar)**
 
 ### Menu bar
 
@@ -80,7 +80,7 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 
 When you click the Help & Feedback icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security](https://www.getpostman.com/security){:target="_blank"}, [support](https://www.getpostman.com/support){:target="_blank"}, and [social media](https://twitter.com/postmanclient){:target="_blank"}.
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png) **(Will rearrange content so that icon features on the Status bar are grouped around the new Status bar graphic.)**
 
 ### Tabs and Windows
 
@@ -103,6 +103,7 @@ By default, Postman assumes that you want to work on one collection request in 
 ##### **Moving requests**
 
 Within the request builder, drag and drop tabs to reorder them as you see fit. Open a new request in a new tab, or in a new Postman window. Open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
+**(Will add new tab behavior content possibly here.)**
 
 ### Keyboard Shortcuts
 
