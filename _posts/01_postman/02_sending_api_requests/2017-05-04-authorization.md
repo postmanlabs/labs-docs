@@ -7,6 +7,7 @@ page_id: "authorization"
 warning: false
 
 ---
+**(Significant changes to the Authorization flow. Propose to retire this topic and replace with new topic.)**
 
 While the request editor is powerful enough to construct any kind of requests, sometimes you might need some help. Postman has “helpers”, which can simplify some repetitive and complex tasks. The current set of helpers let you deal with authentication protocols easily. You can use environment variables with all helpers.
 
