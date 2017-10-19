@@ -72,7 +72,7 @@ The Postman application menu bar provides access to additional features. Note th
 
 [![chrome app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)
 
-(Change 
+**(Update the menu bar; Do we still include Chrome app?)**
 
 ### Status bar
 
