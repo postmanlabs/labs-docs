@@ -72,6 +72,8 @@ The Postman application menu bar provides access to additional features. Note th
 
 [![chrome app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)
 
+(Change 
+
 ### Status bar
 
 The status bar at the bottom of the Postman interface gives you a convenient way to open the [console](/docs/postman/launching_postman/navigating_postman#console), select either a single or two pane layout, open the [keyboard shortcuts](/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts), and get Postman Help. 
