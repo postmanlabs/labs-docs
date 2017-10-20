@@ -173,6 +173,10 @@ For CSV files, the top row needs to contain variable names.
 
 ### Older style of writing Postman tests
 
+The older style of writing Postman tests relies on setting values for the special `tests` object. You can set a descriptive key for an element in the object and then say if it's true or false. For example, `tests["Body contains user_id"] = responsebody.has("user_id");` will check whether the response body contains the `user_id` string.
+
+You can add as many keys as needed, depending on how many things you want to test for. Under the **Tests** tab under the response viewer, you can view your test results. The tab header shows how many tests passed, and the keys that you set in the tests variable are listed here. If the value evaluates to true, the test passed.
+
 **Setting an environment variable**
 ```js
 postman.setEnvironmentVariable("key", "value");
