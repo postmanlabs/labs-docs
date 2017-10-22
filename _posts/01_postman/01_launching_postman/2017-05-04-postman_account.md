@@ -67,7 +67,6 @@ To switch back to your previous account, click on the account user name in the d
 
 [![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)
 
-
 ### Security policies and standards
 
 Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security){:target="_blank"}.
