@@ -30,7 +30,7 @@ Create and manage collections from the **Collections** tab in the sidebar. Learn
 
 ### Header toolbar
 
-[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png) 
+[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png) 
 
 The topmost toolbar in Postman covers the following options:
 
