@@ -8,7 +8,7 @@ warning: false
 
 ---
 
-Postman provides a multi-window and multi-tab interface for you to work on APIs. Postman strives to be clean and flexible to your needs. It gives you as much space as possible for your APIs. Navigating through the interface is easy. See the graphic below to see how everything is organized. 667
+Postman provides a multi-window and multi-tab interface for you to work on APIs. Postman strives to be clean and flexible to your needs. It gives you as much space as possible for your APIs. Navigating through the interface is easy. See the graphic below to see how everything is organized.
 
 [![general layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)
 
@@ -16,13 +16,13 @@ Postman provides a multi-window and multi-tab interface for you to work on APIs.
 
 The Postman sidebar lets you find and manage requests and collections. The sidebar is divided into two main tabs, for **[History](/docs/postman/sending_api_requests/history)** and **[Collections](/docs/postman/collections/creating_collections)**.
 
-The right edge can be dragged to resize the width of the sidebar.  The sidebar can also be minimized for smaller screens.
+You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens. You can show or hide the sidebar in the Status bar.
 
-[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png) **(Need to remove or replace this graphic with on that has the New button)**
+[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/tab_showHide_statusBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/tab_showHide_statusBar.png) 
 
 ### History tab
 
-Every request that you send inside the Postman app is saved in the **History** tab within the sidebar. Learn more about harnessing the power of your [history](/docs/postman/sending_api_requests/history).
+The Postman app saves every request that you send in the History tab in the sidebar. Learn more about harnessing the power of your [history](/docs/postman/sending_api_requests/history).
 
 ### Collections tab
 
@@ -30,7 +30,7 @@ Create and manage collections from the **Collections** tab in the sidebar. Learn
 
 ### Header toolbar
 
-[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png) **(Need to remove or replace this graphic with on that has the New button)**
+[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png) 
 
 The topmost toolbar in Postman covers the following options:
 
