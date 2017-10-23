@@ -33,22 +33,23 @@ Create and manage collections from the **Collections** tab in the sidebar. Learn
 [![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png) 
 
 The topmost toolbar in Postman covers the following options:
-
-   *   Sidebar toggle icon - Show or hide the sidebar **(Does this feature still exist)**
+   *   **New** button: Create requests, collections, environments, documentation, mock servers, and monitors.
+    *  **Import** button - Import Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links or raw text
    *   **Runner** button - Open the [collection runner](/docs/postman/collection_runs/starting_a_collection_run)
-   *   **Import** button - Import Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links or raw text **(Runner and Import have a reverse order in latest version.)**
    *   New window icon - Open a new Postman window **(In addition to the window, now adds tab and runner.)**
    *   **Builder** and **Team Library** tabs - Switch context between the request builder and team library view
    *   Interceptor/Proxy icon - Manage proxy or Interceptor settings
-   *   Sync status icon - See and update the status of your Postman account 
-   *   User dropdown - Manage collection links and your profile or log in to, or out of, your Postman account **(Now follows the notications, settings, and heart icons.)**
-   *   Notifications icon - Receive notifications or broadcasts
+   *   IN SYNC status icon - See and update the status of your Postman account
+   *   Public API Library - Displays the Public API network.
    *   Settings icon - Manage Postman app settings and find other support resources
+   *   Notifications icon - Receive notifications or broadcasts
    *   Heart - Love Postman? Click on this button to share the love!
+   *   User dropdown - Manage collection links and your profile or log in to, or out of, your Postman account 
+     
 
 ### Builder
 
-Postman gives you a tabbed layout for sending and managing API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  **(Would like to add Params, AAuthorization, Headers, Body, Pre-request scripts, and Tests)**
+Postman gives you a tabbed layout for sending and managing API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  
 
    *   **Cookies** - The **MANAGE COOKIES** modal is accessed by the **Cookies** link on the far right beneath the **Save** button. This feature lets you manage cookies associated with the request. Learn more about [working with cookies](/docs/postman/sending_api_requests/cookies).
    *   **Code** - The **GENERATE CODE SNIPPETS** modal is accessed by the **Code** link on the far right beneath the **Save** button. This feature lets you generate code snippets associated with the request in more than 20 languages.
@@ -66,23 +67,21 @@ The Postman application menu bar provides access to additional features. Note th
 
 **Postman native app**:  displays more menu options making it easier to access specific Postman features.
 
-[![native app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)
+[![native app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)
 
 **Postman Chrome app**:  displays a few menu options restricted by the Chrome standard .
 
-[![chrome app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)
-
-**(Update the menu bar; Do we still include Chrome app?)**
+[![chrome app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)
 
 ### Status bar
 
-The status bar at the bottom of the Postman interface gives you a convenient way to open the [console](/docs/postman/launching_postman/navigating_postman#console), select either a single or two pane layout, open the [keyboard shortcuts](/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts), and get Postman Help. 
+The status bar at the bottom of the Postman interface gives you a convenient way to show or hide the sidebar, search in collections, environments, and globals, open the Postman [console](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#console), select either a single or two pane layout, open the keyboard [shortcuts](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts), and get help or provide feedback. 
 
-[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar.png)
+[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)
 
 When you click the Help & Feedback icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security](https://www.getpostman.com/security){:target="_blank"}, [support](https://www.getpostman.com/support){:target="_blank"}, and [social media](https://twitter.com/postmanclient){:target="_blank"}.
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png) **(Will rearrange content so that icon features on the Status bar are grouped around the new Status bar graphic.)**
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)
 
 ### Tabs and Windows
 
@@ -102,10 +101,29 @@ What makes a tab busy? Working on a tab moves the tab into a busy state. For exa
 
 By default, Postman assumes that you want to work on one collection request in one tab. When you open a request from the sidebar, Postman will open a new tab if an existing tab has unsaved changes, otherwise the request takes over the current tab. You can always open a request in a new tab. From the sidebar under the **Collections** tab, right click a request and select "Open in New Tab".
 
+#### **Tab menu**
+Postman offers several tab actions to help you manage your work.
+
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)
+
+To access the **Tab** menu, click the three dots on the right side of a tab. A dropdown appears with options to manage your the tabs.
+
+* Duplicate Current Tab
+* Close Current Tab
+* Force Close Current Tab
+* Close All but Current Tab
+* Close All Tabs
+* Force Close All Tabs
+
+When you **Force Close Current Tab** or **Force Close All Tabs**, the tab(s) close immediately without prompting you to save your work in the tab(s). 
+
+When you **Close Current Tab**, **Close All but Current Tab**, or **Close All Tabs**, a dialogue box appears with an option to save your work.
+
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save.jpeg)
+
 ##### **Moving requests**
 
 Within the request builder, drag and drop tabs to reorder them as you see fit. Open a new request in a new tab, or in a new Postman window. Open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
-**(Will add new tab behavior content possibly here.)**
 
 ### Keyboard Shortcuts
 
@@ -127,9 +145,12 @@ Global shortcuts are used for important actions so that they can be accessed irr
 
 ##### **View keyboard shortcuts for your OS**
 
-Different operating systems will have different shortcuts.  You can always view a complete list of your operating system's shortcuts under the **Shortcuts** tab in the **SETTINGS** modal.
+Different operating systems will have different shortcuts.  You can always view a complete list of your operating system's shortcuts when you click the  **Keyboard Shortcuts** icon in the **Status bar**.
 
-[![shortcuts in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59179733.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59179733.png)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_keyboard_shortcuts_Icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_keyboard_shortcuts_Icon.png)
+
+
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)
 
 ##### **Reference for all shortcuts**
 
@@ -137,6 +158,7 @@ Different operating systems will have different shortcuts.  You can always view
 | ---   |   ---     | ---   |
 | Open New Tab   |   ⌘ T     | Ctrl + T   |
 | Close Tab   |   ⌘ W     | Ctrl + W   |
+| Force Close Tab   |  Cmd + Alt + W     | Ctrl + Alt + W   |
 | Switch To Next Tab   |   ⇧ ⌘ ]     | Ctrl + Shift + ]   |
 | Switch To Previous Tab   |   ⇧ ⌘ [     | Ctrl + Shift + [   |
 | Switch To Tab at Position   |   ⌘ 1 through ⌘ 8     | Ctrl + 1 through Ctrl + 8   |
@@ -182,6 +204,11 @@ Different operating systems will have different shortcuts.  You can always view
 | Settings   |   ⌘ ,     | Ctrl + ,   |
 | Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
 | Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
+
+### Mouse actions
+To close a tab, right click the tab to display the Tab menu, and click Close. Or click the X icon on the right side of the tab to close it.
+
+To force close a tab, press ALT and click the **X** icon on the right side of tab.
 
 
 ### Data editor
