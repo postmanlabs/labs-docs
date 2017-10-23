@@ -16,7 +16,7 @@ Postman provides a multi-window and multi-tab interface for you to work on APIs.
 
 The Postman sidebar lets you find and manage requests and collections. The sidebar is divided into two main tabs, for **[History](/docs/postman/sending_api_requests/history)** and **[Collections](/docs/postman/collections/creating_collections)**.
 
-The right edge can be dragged to resize the width of the sidebar.  The sidebar can also be minimized for smaller screens.
+You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens. You can show or hide the sidebar in the Status bar.
 
 [![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)
 
