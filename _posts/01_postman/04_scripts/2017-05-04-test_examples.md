@@ -60,6 +60,9 @@ pm.globals.unset("variable_key");
 ```
 
 **Get a variable**
+
+This function searches for the variable across globals and the active environment.
+
 ```js
 pm.variables.get("variable_key");
 ```
@@ -69,11 +72,6 @@ pm.variables.get("variable_key");
 pm.test("Body matches string", function () {
     pm.expect(pm.response.text()).to.include("string_you_want_to_search");
 });
-```
-
-**Convert XML body to a JSON object**
-```js
-var jsonObject = xml2Json(responseBody);
 ```
 
 **Check if response body is equal to a string**
@@ -155,10 +153,18 @@ pm.test('Contents are valid', function() {
 ```
 
 **Send an asynchronous request**
+
+This function is available as both a pre-request and test script.
+
 ```js
 pm.sendRequest("https://postman-echo.com/get", function (err, response) {
     console.log(response.json());
 });
+```
+
+**Convert XML body to a JSON object**
+```js
+var jsonObject = xml2Json(responseBody);
 ```
 
 ### Sample data files
