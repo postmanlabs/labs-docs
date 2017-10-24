@@ -7,16 +7,31 @@ page_id: "authorization"
 warning: false
 
 ---
-**(Significant changes to the Authorization flow. Propose to retire this topic and replace with new topic.)**
+The authorization process verifies whether a user has permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. 
+Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
-While the request editor is powerful enough to construct any kind of requests, sometimes you might need some help. Postman has “helpers”, which can simplify some repetitive and complex tasks. The current set of helpers let you deal with authentication protocols easily. You can use environment variables with all helpers.
+When you select Authorization in the request builder, you see the TYPE drop down menu. 
+* No Auth 
+* Bearer Token
+* Basic auth
+* Digest Auth
+* OAuth 1.0
+* OAuth 2.0
+* Hawk Authentication
+* AWS Signature
+* NTLM Authentication [Beta]
 
-You can choose to save helper data to collection requests. This will cause the signature to be regenerated each time. These helpers will even work in Newman!
+**Note**: availability of features in native apps
+
+> [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
 
 
-> [![preview request button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/authButton.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/authButton.png)
-  **Update**: Starting with Postman 5.3, you will notice a few changes around the request authorization flows. Postman has updated the authorization framework to improve existing authorization types, like OAuth 2.0, and also introduced new authorization types, like NTLM. Additionally, there is no need to manually update the request. If you want to inspect the authorization headers and parameters that Postman generates, you can use the **Preview Request** button. Alternatively, inspect the [Postman console](/docs/postman/sending_api_requests/debugging_and_logs) to get a raw dump of the entire request after it is sent. 
 
+
+### No Auth
+
+By default ‘No Auth’ appears first on the drop down menu list. Use ‘No Auth’ when you don’t need an authorization parameter to send a request. 
+  
 ### Basic Auth
 
 [![basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961418.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961418.png)
