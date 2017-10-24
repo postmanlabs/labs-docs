@@ -49,7 +49,7 @@ To set the authorization parameters for a request, enter the value of the token.
 Click Send.
 
 
-[![bearer auth]()]()
+[![bearer auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_BearerToken.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_BearerToken.png)
 
 ### Basic Auth
 
@@ -60,7 +60,7 @@ To set the authorization parameters for a request, enter your username and passw
 Click Send.
 
 
-[![basic auth]()]()
+[![basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Basic.png)
 
 
 ### Digest Auth
@@ -73,7 +73,7 @@ To use digest auth:
 In the Authorization tab, select Digest Auth from the TYPE drop down menu. 
 To set the authorization parameters for a request, enter your username and password. You can also set advanced digest auth parameters. Click Send
 
-[![digest_auth]()]()
+[![digest_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Digest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Digest.png)
 
 This table describes the advanced parameters for Digest Auth. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
 
@@ -97,7 +97,7 @@ From the Add authorization data to drop down menu, select either Request Body/Re
 When you select Request Body/Request URL, Postman checks whether the request method is POST and the request body type is x-form-urlencoded. If so, Postman adds authorization parameters to the request body. For all other cases, it adds authorization parameters to the URL.
 To set the authorization parameters for a request, enter the Consumer Key, Consumer Secret, Access Token, and Token Secret. You can also set advanced digest OAuth 1.0 parameters.
 
-[![oauth1_auth]()]()
+[![oauth1_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth1_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth1_0.png)
 
 This table describes the parameters for OAuth 1.0 authorization.
 
@@ -130,7 +130,7 @@ Click the Get New Access Token button. The GET NEW ACCESS TOKEN screen appears. 
 In the Access Token field, enter a token, enter an environment defined variable, and click Send.
 In the Available Tokens drop down menu, select an existing token and click Send.
 
-[![oauth2_auth]()]()
+[![oauth2_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)
 
 This table describes the parameters in the GET NEW ACCESS TOKEN screen.
 
@@ -162,7 +162,7 @@ To use Hawk authentication:
 In the Authorization tab, select Hawk Authentication from the TYPE drop down menu. 
 To set the authorization parameters for a request, enter the Hawk Auth ID, Hawk Auth Key, and Algorithm values. You can also set advanced Hawk authentication parameters.
 Click Send.
-[![hawk_auth]()]()
+[![hawk_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Hawk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Hawk.png)
 
 This table describes the parameters for Hawk Authentication.
 
@@ -199,7 +199,7 @@ To use AWS authentication:
 In the Authorization tab, select AWS Authentication from the TYPE drop down menu. 
 To set the authorization parameters for a request, enter the values for the access and secret keys. You can also set advanced AWS authentication parameters.
 Click Send.
-[![aws_auth]()]()
+[![aws_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_AWS_Signature.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_AWS_Signature.png)
 
 This table describes the advanced parameters for AWS Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
 
@@ -225,7 +225,7 @@ This table describes the advanced parameters for NTLM Authentication. Advanced c
 | Domain | The domain or host to authenticate against.|
 | Workstation| The hostname of the PC.|
 
-[![ntlm_auth]()]()
+[![ntlm_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_NTLM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_NTLM.png)
 
 
 
