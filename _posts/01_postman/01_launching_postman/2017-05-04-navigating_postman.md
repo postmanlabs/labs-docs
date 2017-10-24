@@ -18,7 +18,7 @@ The Postman sidebar lets you find and manage requests and collections. The sideb
 
 You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens. You can show or hide the sidebar in the Status bar.
 
-[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/tab_showHide_statusBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/tab_showHide_statusBar.png) 
+[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/tab_statusBar_show_hide1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/tab_statusBar_show_hide1.png) 
 
 ### History tab
 
@@ -119,7 +119,7 @@ When you **Force Close Current Tab** or **Force Close All Tabs**, the tab(s) clo
 
 When you **Close Current Tab**, **Close All but Current Tab**, or **Close All Tabs**, a dialogue box appears with an option to save your work.
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save.jpeg)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)
 
 ##### **Moving requests**
 
@@ -145,10 +145,7 @@ Global shortcuts are used for important actions so that they can be accessed irr
 
 ##### **View keyboard shortcuts for your OS**
 
-Different operating systems will have different shortcuts.  You can always view a complete list of your operating system's shortcuts when you click the  **Keyboard Shortcuts** icon in the **Status bar**.
-
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_keyboard_shortcuts_Icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_keyboard_shortcuts_Icon.png)
-
+Different operating systems will have different shortcuts.  You can always view a complete list of your operating system's shortcuts when you click the **Keyboard Shortcuts** icon in the **Status bar**.
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)
 
