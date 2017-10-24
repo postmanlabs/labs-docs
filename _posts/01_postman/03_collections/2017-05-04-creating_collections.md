@@ -67,7 +67,7 @@ After you save the request, you can add the URL, method, headers, and body to th
 
 ### Saving a request to a collection
 
-You can save a request to a collection from the:9
+You can save a request to a collection from the:
 * Sidebar
 * New button in the Header toolbar
 * Launch screen
@@ -105,7 +105,7 @@ The **Create New** screen appears by default when you launch Postman. At the bot
 ### Saving to a collection from history
 
 1.  To save a single request to a collection, hover over a request under the **History** tab and click the plus icon (**+**)
-    [![save to collection link]()]()
+   [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon1.png)
 2.  When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.
 3.  Chose an existing collection or a new collection, and hit **Save**.
 
