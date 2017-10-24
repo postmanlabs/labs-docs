@@ -10,7 +10,7 @@ warning: false
 
 ### Why sign up for a Postman account
 
-Sign up for a free Postman account and get the following benefits:
+Sign up for a free Postman account and get the following benefits: 126
 
    *   [Sync](/docs/postman/launching_postman/syncing) and back up your history, collections, environments and header presets.
    *   Easily work on multiple Postman instances from different machines.
