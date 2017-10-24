@@ -80,15 +80,15 @@ You can save a request to a collection from the:
 4.  Click the **Save** button.
 
 #### New button
-1. Click the New button in the header bar. 
-2. In the SAVE REQUEST screen, enter a title and description.
-
-[![saverequest screen]()]()
-
-3. Select a collection and save the request in an existing collection or create a new collection. 
-4. Click the **Save** button.
+1. Click the New button in the header bar.
+2. Click Request.
+3. In the SAVE REQUEST screen, enter a title and description.
+4. Select a collection and save the request in an existing collection or create a new collection. 
+5. Click the **Save** button.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
+
+[![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)
 
 #### Launch screen
 The Create New screen appears by default when you launch Postman. At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
