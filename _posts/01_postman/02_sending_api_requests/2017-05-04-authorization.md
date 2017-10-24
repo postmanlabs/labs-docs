@@ -108,39 +108,129 @@ This table describes the parameters for OAuth 1.0 authorization.
 | Access Token |An object that contains the security identity. |
 
 
+| **Advanced Parameters**  | **Description** |
+| --- | --- |
+| Signature Method | A consumer’s secret that established ownership of a given token. |
+| Time Stamp| The timestamp the server uses to prevent replay attacks outside the time window. |
+| Nonce |A unique string specified by the server www-Authenticate response header.|
+| Version |The 1.0 version of the OAuth authentication protocol.|
+| Realm |A string specified by the server www-Authenticate response header. |
 
-##### **Add params to header**
-
-If this checkbox is enabled, params are added to the header. If not, the URL params for a GET request, and the request body for POST/PUT requests.
-
-##### **Add empty params to signature**
-
-Some implementations of OAuth1.0 require empty parameters to be added to the signature.
+**Note**: Some implementations of OAuth 1.0 require empty parameters to be added to the signature. You can select to add empty parameters to signature.
 
 ### OAuth 2.0
 
-Postman supports getting the OAuth 2.0 token as well as adding it to requests really easily. To get an access token from an OAuth 2.0 provider, follow these steps:
+OAuth 2.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
-[![oauth 2.0](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961651.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961651.png)
+To use the OAuth 2.0 authorization:
+In the Authorization tab, select OAuth 2.0 from the TYPE drop down menu. 
+From the Add authorization data to drop down menu, select either Request URL or Request Headers.
+To set the authorization parameters for a request, you have three options:
+Click the Get New Access Token button. The GET NEW ACCESS TOKEN screen appears. Enter the appropriate values, click the Request Token button to populate the Access Token field, and then click Send. 
+In the Access Token field, enter a token, enter an environment defined variable, and click Send.
+In the Available Tokens drop down menu, select an existing token and click Send.
 
-   *   Click the "Get New Access Token" button to open a modal. You will see `https://www.getpostman.com/oauth2/callback` as the Callback URL.
-   *   From your API provider, get the values for Authorization URL, Access Token URL, Client ID and Client Secret. These values will be provided your API provider. Optionally, you can set the Scope parameter which is needed by some APIs to set the level of access you have within the API.
-   *   Press the “Request Token” button to initiate the OAuth 2.0 flow. If everything is set up properly, you would be redirected to the Postman server which will pick up your access token and send it to the Postman app. To finish adding the token to Postman, give it a name so that you can access it quickly later.
-   *   If your OAuth2 provider is not publicly accessible (hosted locally or on your intranet), make sure the 'Request Access Token Locally' option is enabled.
-   *   Access tokens are stored locally and will show up in the helper list. To add an access token to the request, click the token name.
+[![oauth2_auth]()]()
+
+This table describes the parameters in the GET NEW ACCESS TOKEN screen.
+
+| **Get Neww Access Token Parameters**  | **Description** |
+| --- | --- |
+| Token Name| The name of the token. |
+| Grant Type| A drop down menu where you can specify one of the following grant types: Authorization Code, Implicit, Password Credentials, and Client Credentials.|
+| Callback URL |The Application’s callback URL that’s registered with the server. If not provided, Postman uses a default  empty URL and extracts the code or access token from it.|
+| Auth URL |The endpoint for authorization server, which retrieves the authorization code.|
+| Access Token URL |The endpoint for the resource server, which exchanges the authorization code for an access token. |
+| Client ID |The client identifier given to the client during the Application registration process.|
+| Client Secret |The client secret given to the client during the Application registration process. |
+| Scope |The scope of the access request, which might have multiple space-defined values. |
+| State |An opaque value that prevents cross-site request forgery. |
+| Client Authentication |A drop down menu where you can either send a Basic Auth request in the header, or send client credentials in the request body |
+
+[![getrequesttokens_auth]()]()
+
+You can click Manage Tokens in the list to view more details about each token and delete any one of them. If there are no tokens in the list, the user needs to click the Get New Access Token button to generate a token that Postman adds to the list.
+[![managetokens_auth]()]()
+
+**Note**: Deleting a token does not revoke the access token. Only the server that issues the token can revoke it.
 
 ### Hawk authentication
 
-Hawk is an HTTP authentication scheme using a message authentication code (MAC) algorithm to provide partial HTTP request cryptographic verification.
+Hawk authentication enables you to make authenticated requests with partial cryptographic verification of the request. 
+ 
+To use Hawk authentication:
+In the Authorization tab, select Hawk Authentication from the TYPE drop down menu. 
+To set the authorization parameters for a request, enter the Hawk Auth ID, Hawk Auth Key, and Algorithm values. You can also set advanced Hawk authentication parameters.
+Click Send.
+[![hawk_auth]()]()
 
-Read more on the [Hawk Github page](https://github.com/hueniverse/hawk){:target="_blank"}.
+This table describes the parameters for Hawk Authentication.
+
+| **Parameters**  | **Description** |
+| --- | --- |
+| Hawk Auth ID | The authentication ID value. |
+| Hawk Auth Key| The authentication key value. |
+| Algorithm |The hash algorithm used to create the message authentication code (MAC).|
+
+This table describes the advanced parameters for Hawk Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
+
+| **Advanced Parameters**  | **Description** |
+| --- | --- |
+| User | The user name. |
+| Nonce| A random string generated from the client.|
+| ext |Any application-specific information to be sent with the request.|
+| app |The binding between credentials and the application in a way that prevents an attacker from tricking an application to use credentials issued to someone else.|
+| dlg|The ID of the application of which the credentials were directly issued.|
+| Timestamp |The timestamp the server uses to prevent replay attacks outside the time window.|
+
+**Note**: Advanced configuration settings are optional. Postman auto generates values for some fields if left blank.
 
 ### AWS authentication
 
-AWS users have to use a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication. Postman supports this out of the box.
+AWS is the authorization workflow for Amazon Work Services (AWS) requests. AWS users must use a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication. Postman supports this scheme.
 
 Read more about the AWS Signature on AWS documentation:
 
 * [http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html](http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html){:target="_blank"}
 
 * [http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html](http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html){:target="_blank"}
+
+To use AWS authentication:
+In the Authorization tab, select AWS Authentication from the TYPE drop down menu. 
+To set the authorization parameters for a request, enter the values for the access and secret keys. You can also set advanced AWS authentication parameters.
+Click Send.
+[![aws_auth]()]()
+
+This table describes the advanced parameters for AWS Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
+
+| **Advanced Parameters**  | **Description** |
+| --- | --- |
+| AWS Region | The region receiving the request. (Default region is US East1.)|
+| Service Name| The service receiving the request.|
+| Session Token |Required only when using temporary security credentials.|
+
+### NTLM authentication
+
+Windows Challenge/Response (NTLM) is the authorization flow for the Windows operating system and for stand-alone systems.
+By default, Postman extracts values from the received response, adds it to the request, and retries it. Postman gives you the option to disable this default behavior.
+To use NTLM authentication:
+In the Authorization tab, select NTLM Authentication from the TYPE drop down menu. 
+To set the authorization parameters for a request, enter the username and password. You can also set advanced NTLM Authentication parameters.
+Click Send.
+
+This table describes the advanced parameters for NTLM Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
+
+| **Advanced Parameters**  | **Description** |
+| --- | --- |
+| Domain | The domain or host to authenticate against.|
+| Workstation| The hostname of the PC.|
+
+[![ntlm_auth]()]()
+
+
+
+
+
+
+
+
