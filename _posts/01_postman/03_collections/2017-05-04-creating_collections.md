@@ -67,7 +67,7 @@ After you save the request, you can add the URL, method, headers, and body to th
 
 ### Saving a request to a collection
 
-You can save a request to a collection from the:
+You can save a request to a collection from the:9
 * Sidebar
 * New button in the Header toolbar
 * Launch screen
