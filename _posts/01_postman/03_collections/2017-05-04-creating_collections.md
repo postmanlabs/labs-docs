@@ -56,7 +56,7 @@ After creating the collection, you can save requests to the collection and add f
 
 #### Launch screen
 
-The Create New screen appears by default when you launch Postman. At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+The Create New screen appears by default when you launch Postman. (At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
 Open Postman
 In the Create New screen, click Collection.
@@ -75,7 +75,7 @@ You can save a request to a collection from the:
 #### Request builder
 1.  Create a new request in the builder.
 2.  Click the **Save** button.  
-    [![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58493928.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58493928.png)
+    [![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send.png)
 3.  Chose an existing collection or a new collection.
 4.  Click the **Save** button.
 
