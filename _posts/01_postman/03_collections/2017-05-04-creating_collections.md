@@ -65,9 +65,6 @@ Click Create.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
-[![launch screen]()]()
-
-
 ### Saving a request to a collection
 
 You can save a request to a collection from the:
