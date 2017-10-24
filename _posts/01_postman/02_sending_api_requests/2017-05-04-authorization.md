@@ -21,6 +21,7 @@ When you select 'Authorization' in the request builder, you see the TYPE drop do
 * AWS Signature
 * NTLM Authentication [Beta]
 
+
 **Note**: availability of features in native apps
 
 > [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
@@ -33,28 +34,47 @@ If you want to inspect the authorization headers and parameters that Postman gen
 
  [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)
  
+You can inspect a raw dump of the entire request in the Postman console after you send it.
+ 
 
 ### No Auth
 
 By default ‘No Auth’ appears first on the drop down menu list. Use ‘No Auth’ when you don’t need an authorization parameter to send a request. 
   
+### Bearer Token
+
+A bearer token is a security token. Any user with a bearer token can use it to access data resources without using a cryptographic key. 
+To use a bearer token: 
+In the Authorization tab, select Bearer Token from the TYPE drop down menu. 
+To set the authorization parameters for a request, enter the value of the token.
+Click Send.
+
+
+[![bearer auth]()]()
+
 ### Basic Auth
 
-[![basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961418.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961418.png)
+Basic Auth is an authorization type that requires a verified username and password to grant access a data resource. 
+To use Basic Auth:
+In the Authorization tab, select Basic Auth from the TYPE drop down menu. 
+To set the authorization parameters for a request, enter your username and password. 
+Click Send.
 
-Enter the username and password fields and hit “Update Request” to generate the authorization header.
+
+[![basic auth]()]()
+
 
 ### Digest Auth
 
-[![digest auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961470.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961470.png)
+In a digest authentication flow, the client sends a request to a server, which sends back nonce and realm values for the client to authenticate. The client sends back a hashed username and password with the nonce and realm. The server then sends back the requested data.
 
-Digest auth is more complicated than basic auth and uses the values currently set in the request to generate the authorization header. Make sure they are set properly before you generate the header. Postman will remove the existing header if it’s already present.
+By default, Postman extracts values from the response. If you do not want to extract those values, you can enter your own values in the advanced section for selected fields, or select ‘Yes, disable retrying the request` to skip retrying the request. 
 
-### OAuth 1.0a
+[![digest_auth]()]()
 
 [![oauth 1.0a](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961512.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961512.png)
 
-Postman’s OAuth helper lets you sign requests which support OAuth 1.0a based authentication. Currently, it does not let you acquire the access token. That’s something you would need from the API provider. The OAuth 1.0 helper can set values in either the header or as query parameters.
+
 
 As subsequent OAuth requests might expect a different nonce value, Postman can refresh the OAuth signature just before the request is sent if auto add parameters is enabled.
 
