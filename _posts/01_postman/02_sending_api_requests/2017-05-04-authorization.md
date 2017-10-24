@@ -36,7 +36,6 @@ If you want to inspect the authorization headers and parameters that Postman gen
  
 You can inspect a raw dump of the entire request in the Postman console after you send it.
  
-
 ### No Auth
 
 By default ‘No Auth’ appears first on the drop down menu list. Use ‘No Auth’ when you don’t need an authorization parameter to send a request. 
@@ -69,6 +68,10 @@ Click Send.
 In a digest authentication flow, the client sends a request to a server, which sends back nonce and realm values for the client to authenticate. The client sends back a hashed username and password with the nonce and realm. The server then sends back the requested data.
 
 By default, Postman extracts values from the response. If you do not want to extract those values, you can enter your own values in the advanced section for selected fields, or select ‘Yes, disable retrying the request` to skip retrying the request. 
+
+To use digest auth:
+In the Authorization tab, select Digest Auth from the TYPE drop down menu. 
+To set the authorization parameters for a request, enter your username and password. You can also set advanced digest auth parameters.
 
 [![digest_auth]()]()
 
