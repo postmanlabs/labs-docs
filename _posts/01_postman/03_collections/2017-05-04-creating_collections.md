@@ -12,7 +12,7 @@ warning: false
 
 A Postman Collection lets you group individual requests together. You can organize these requests in folders. 
 
-[![sample collection Echo](https://www.getpostman.com/img/v1/docs/thumbs/20.png)](https://www.getpostman.com/img/v1/docs/source/20.png)
+[![sample collection Echo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_headers.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_headers.png)
 
 ### Why create collections?
 
@@ -25,7 +25,7 @@ A Postman Collection lets you group individual requests together. You can organi
 
 You can create a new collection from the:
 * Sidebar
-* New button in the Header toolbar
+* New button 
 * Launch screen
 
 
@@ -34,11 +34,11 @@ You can create a new collection from the:
 1.  In the sidebar, select the  **Collections** and click the Collections icon.
     [![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58493890.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58493890.png)
 2.  Enter a name for your collection (and optional description).
-3.  Click Create.
+3.  Click the Create button.
 
 #### New button
 
-1. Click the New button in the header bar.
+1. In the header toolbar, click the **New** button.
 
 [![new button]()]()
 
