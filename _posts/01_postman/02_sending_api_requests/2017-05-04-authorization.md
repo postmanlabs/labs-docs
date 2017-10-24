@@ -71,7 +71,7 @@ By default, Postman extracts values from the response. If you do not want to ext
 
 To use digest auth:
 In the Authorization tab, select Digest Auth from the TYPE drop down menu. 
-To set the authorization parameters for a request, enter your username and password. You can also set advanced digest auth parameters.
+To set the authorization parameters for a request, enter your username and password. You can also set advanced digest auth parameters. Click Send
 
 [![digest_auth]()]()
 
@@ -87,6 +87,15 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 | Client Nonce  |   An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.    |   |
 |Opaque   |   This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. It is recommended that this string be base64 is hexadecimal data.    |   |
 
+| **Advanced Parameters**  | **Description** |
+| --- | --- |
+| Realm | A string specified by the server www-Authenticate response header.  |
+| Nonce| A unique string specified by the server www-Authenticate response header. |
+| Algorithm | A string that indicates a pair of algorithm used to produce the digest and a checksum. |
+| qop | The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the www-Authenticate response header. |
+| Nonce Count| The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
+| Client Nonce  | An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
+| Opaque | This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. It is recommended that this string be base64 is hexadecimal data. |
 
 
 
@@ -94,13 +103,21 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 
 
 
-[![oauth 1.0a](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961512.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961512.png)
+##### **OAuth 1.0**
+
+OAuth 1.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
+
+To use the OAuth 1.0 authorization:
+In the Authorization tab, select OAuth 1.0 from the TYPE drop down menu. 
+From the Add authorization data to drop down menu, select either Request Body/Request URL or Request Headers.
+When you select Request Body/Request URL, Postman checks whether the request method is POST and the request body type is x-form-urlencoded. If so, Postman adds authorization parameters to the request body. For all other cases, it adds authorization parameters to the URL.
+To set the authorization parameters for a request, enter the Consumer Key, Consumer Secret, Access Token, and Token Secret. You can also set advanced digest OAuth 1.0 parameters.
+
+[![oauth1_auth]()]()
+
+This table describes the parameters for OAuth 1.0 authorization.
 
 
-
-As subsequent OAuth requests might expect a different nonce value, Postman can refresh the OAuth signature just before the request is sent if auto add parameters is enabled.
-
-The OAuth 1.0 spec is quite complicated and there are many variations. Postman tries to support as many of those variations as possible but if something does not work for you, [file an issue on Github](https://github.com/postmanlabs/postman-app-support/issues){:target="_blank"}. These are few of the options that we’ve included:
 
 ##### **Add params to header**
 
