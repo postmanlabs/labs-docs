@@ -10,7 +10,7 @@ warning: false
 The authorization process verifies whether a user has permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. 
 Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
-When you select Authorization in the request builder, you see the TYPE drop down menu. 
+When you select 'Authorization' in the request builder, you see the TYPE drop down menu. 
 * No Auth 
 * Bearer Token
 * Basic auth
@@ -25,8 +25,14 @@ When you select Authorization in the request builder, you see the TYPE drop down
 
 > [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
 
+You can use environment variables with all authorization types. You can also use these authorization types with Newman.
 
+Postman does not save header data to prevent sensitive data exposure, such as API keys, to the public.
 
+If you want to inspect the authorization headers and parameters that Postman generates, you can click the **Preview Request** button. 
+
+ [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)
+ 
 
 ### No Auth
 
