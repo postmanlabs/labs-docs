@@ -29,7 +29,7 @@ Signing up is completely optional. Read our [EULA](https://www.getpostman.com/l
 
 Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue via our [support center]({{site.pm.support_center}}).
 
-[![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135890.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135890.png)
+[![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
 ### Security policies and standards
 
