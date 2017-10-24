@@ -77,16 +77,6 @@ To set the authorization parameters for a request, enter your username and passw
 
 This table describes the advanced parameters for Digest Auth. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
 
-|Advanced Parameters  |   Description   | Delete this column |
-| ---   |   ---     | ---   |
-| Realm  |   A string specified by the server www-Authenticate response header.    
-| Nonce  |   A unique string specified by the server www-Authenticate response header.    |   |
-| Algorithm  |   A string that indicates a pair of algorithm used to produce the digest and a checksum.   |    |
-| qop  |   The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the www-Authenticate response header.   |  |
-| Nonce Count   |  The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response heade   |   |
-| Client Nonce  |   An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.    |   |
-|Opaque   |   This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. It is recommended that this string be base64 is hexadecimal data.    |   |
-
 | **Advanced Parameters**  | **Description** |
 | --- | --- |
 | Realm | A string specified by the server www-Authenticate response header.  |
