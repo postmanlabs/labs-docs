@@ -87,12 +87,6 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 | Client Nonce  | An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
 | Opaque | This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. It is recommended that this string be base64 is hexadecimal data. |
 
-
-
-
-
-
-
 ##### **OAuth 1.0**
 
 OAuth 1.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
@@ -106,6 +100,16 @@ To set the authorization parameters for a request, enter the Consumer Key, Consu
 [![oauth1_auth]()]()
 
 This table describes the parameters for OAuth 1.0 authorization.
+
+| **Parameters**  | **Description** |
+| --- | --- |
+| Consumer Key | A consumer’s values that identifies itself to the service provider. |
+| Consumer Secret| A consumer’s secret that establishes ownership of the consumer key. |
+| Access Token |An object that contains the security identity. |
+| qop | The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the www-Authenticate response header. |
+| Nonce Count| The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
+| Client Nonce  | An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
+| Opaque | This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. It is recommended that this string be base64 is hexadecimal data. |
 
 
 
