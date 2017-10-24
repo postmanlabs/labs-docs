@@ -10,7 +10,7 @@ warning: false
 
 ### What is a Postman Collection?
 
-A Postman Collection lets you group individual requests together. These requests can be further organized into folders. 
+A Postman Collection lets you group individual requests together. You can organize these requests in folders. 
 
 [![sample collection Echo](https://www.getpostman.com/img/v1/docs/thumbs/20.png)](https://www.getpostman.com/img/v1/docs/source/20.png)
 
