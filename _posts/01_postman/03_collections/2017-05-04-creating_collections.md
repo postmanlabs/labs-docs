@@ -99,7 +99,7 @@ The **Create New** screen appears by default when you launch Postman. At the bot
 4. Select a collection and save the request in an existing collection or create a new collection. 
 5. Click the **Save** button.
 
-![launch screen]()]()
+![launch screen]()]()n
 
 
 ### Saving to a collection from history
