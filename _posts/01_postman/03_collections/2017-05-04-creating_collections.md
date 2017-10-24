@@ -112,7 +112,7 @@ The **Create New** screen appears by default when you launch Postman. At the bot
 ### Duplicating an existing collection
 
 1.  Click the ellipses (...) to expand the control dropdown.   
-    [![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58493990.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58493990.png)
+    [![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection.png)
 2.  Select "Duplicate" from the menu.
 
 Learn how to [share collections](/docs/postman/collections/sharing_collections), [importing and exporting collections](/docs/postman/collections/data_formats), and [other collection features](/docs/postman/collections/managing_collections).  
