@@ -44,9 +44,9 @@ You can create a new collection from the:
 
 The Create New screen appears.
 
-[![create screen]()]()
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
-Note: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
 Click Collection. 
 In the CREATE A NEW COLLECTION screen, enter a name and optional description. 
