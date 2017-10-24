@@ -75,6 +75,15 @@ To set the authorization parameters for a request, enter your username and passw
 
 [![digest_auth]()]()
 
+This table describes the advanced parameters for Digest Auth. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
+
+
+
+
+
+
+
+
 [![oauth 1.0a](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961512.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58961512.png)
 
 
