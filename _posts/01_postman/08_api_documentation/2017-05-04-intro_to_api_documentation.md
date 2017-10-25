@@ -58,22 +58,8 @@ The 'Create New' screen appears by default when you launch Postman. (At the bott
 
 1. Open Postman.
 2. In the 'Create New' screen, click Documentation.
-3. In the Create API Documentation screen, you can create documentation for a New API, My Collections, and Team Library. 
-   * New API
-     
-     Select the method, enter a request URL, and click the **Next** button.
-     Enter the name and description and click the Create button.
-     The Next Steps screen appears with information about the documentation and provides suggestions about next steps.
-   * My Collections
+3. Follow step 3 in previous **New** button section. 
    
-     Select a collection.
-     Add or edit a description, and click the Create button.
-     The Next Steps screen appears with information about the documentation and provides suggestions about next steps.
-   * Team Library
-   
-     Select a shared collection.
-     Add or edit a description, and click the Create button.
-     The Next Steps screen appears with information about the documentation and provides suggestions about next steps.
 
 
 ### What gets automatically generated?
