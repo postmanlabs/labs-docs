@@ -46,8 +46,7 @@ The "Create New" screen appears.
 3. Click the **Next** button and enter the name of the monitor, how often you want the monitor run, and the region you want to monitor.
 4. Click the **Create** button.
 
-image
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_config.png)
 
 
 #### Launch screen
