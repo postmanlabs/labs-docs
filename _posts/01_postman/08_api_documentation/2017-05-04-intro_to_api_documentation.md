@@ -12,22 +12,11 @@ Postman's API documentation feature allows you to share public or private API do
 
 Postman generates and hosts browser-based API documentation for your collections automatically in real-time. Each collection has a private and public documentation view, generated in real-time using the data synced to our servers. In order to [access the private view](/docs/postman/api_documentation/viewing_documentation), click "View in web" in the Postman app or in the "Team Library". The public view is accessible via the public link, generated when you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs). This link will be displayed right after your documentation is published, and is also accessible via the "Published" dropdown in the private documentation view.
 
-### Creating a new collection
+### Creating a documentation
 
-You can create a new collection from the:
-* Sidebar
+You can create documentation from the:
 * New button 
 * Launch screen
-
-
-#### Sidebar
-
-1.  In the sidebar, select the  **Collections** and click the 'Collections' icon.
-
-[![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
-
-2.  Enter a name for your collection (and optional description).
-3.  Click the **Create** button.
 
 
 #### New button
@@ -42,54 +31,49 @@ The 'Create New' screen appears.
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
 2. Click 'Documentation'.
+
+[![create docs]()]()
+
+
 3. In the Create API Documentation screen, you can create documentation for a New API, My Collections, and Team Library. 
    * New API
+     
      Select the method, enter a request URL, and click the **Next** button.
      Enter the name and description and click the Create button.
      The Next Steps screen appears with information about the documentation and provides suggestions about next steps.
    * My Collections
+   
      Select a collection.
      Add or edit a description, and click the Create button.
      The Next Steps screen appears with information about the documentation and provides suggestions about next steps.
    * Team Library
+   
      Select a shared collection.
      Add or edit a description, and click the Create button.
      The Next Steps screen appears with information about the documentation and provides suggestions about next steps.
      
-     
-     
-
-
-
-
-
-
-
-
 #### Launch screen
 
 The 'Create New' screen appears by default when you launch Postman. (At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the 'Create New' screen to display each time you open Postman.
 
 1. Open Postman.
-2. In the 'Create New' screen, click Environment.
-3. Select 'Manage Environments'. 
-4. Click the **Add** button to create a new environment.
-5. In the 'Add Environment' screen:
-   * Enter a name for the environment.
-   * Add key-value pairs.
-6. Click the **Add** button.
-
-
-
-
-
-
-
-
-
-
-
-
+2. In the 'Create New' screen, click Documentation.
+3. In the Create API Documentation screen, you can create documentation for a New API, My Collections, and Team Library. 
+   * New API
+     
+     Select the method, enter a request URL, and click the **Next** button.
+     Enter the name and description and click the Create button.
+     The Next Steps screen appears with information about the documentation and provides suggestions about next steps.
+   * My Collections
+   
+     Select a collection.
+     Add or edit a description, and click the Create button.
+     The Next Steps screen appears with information about the documentation and provides suggestions about next steps.
+   * Team Library
+   
+     Select a shared collection.
+     Add or edit a description, and click the Create button.
+     The Next Steps screen appears with information about the documentation and provides suggestions about next steps.
 
 
 ### What gets automatically generated?
