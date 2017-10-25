@@ -46,6 +46,10 @@ The "Create New" screen appears.
 3. Click the **Next** button and enter the name of the monitor, how often you want the monitor run, and the region you want to monitor.
 4. Click the **Create** button.
 
+Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
+You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
+
+
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_config.png)
 
 
