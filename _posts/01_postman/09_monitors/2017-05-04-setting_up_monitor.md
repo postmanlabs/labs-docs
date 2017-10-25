@@ -16,21 +16,15 @@ You can create a new monitor from the:
 * Postman web view
  
 ## Sidebar menu
-1. Click on the ellipses (…) next to the collection you wish to monitor. 
+1. In the Postman app, click on the ellipses (…) next to the collection you wish to monitor. 
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
 2. Select “Monitor Collection” to open the MONITOR COLLECTION modal.
 3. Enter a name for this monitor and choose a corresponding environment. 
-4. Add an appropriate schedule for the monitor, and configure additional preferences.
-image
+4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
 
-
-[
-
-Enter a name for this monitor and choose a corresponding environment. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
-
-[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorModal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorModal.png)
+[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)
 
 ### From the Postman web
 
