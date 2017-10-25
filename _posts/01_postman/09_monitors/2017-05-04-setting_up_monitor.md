@@ -9,9 +9,22 @@ warning: false
 
 If you choose to monitor a shared collection, your team can see the monitor. However, if you create a monitor on an unshared collection, the monitor will be private and only visible to you.
 
-### From the Postman app
+You can create a new monitor from the:
+* Sidebar menu
+* New button
+* Launch screen
+* Postman web view
+ 
+## Sidebar menu
+1. Click on the ellipses (…) next to the collection you wish to monitor. 
 
-Click on the ellipses (**...**) next to the collection you wish to monitor. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
+[![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
+
+2. Select “Monitor Collection” to open the MONITOR COLLECTION modal.
+3. Enter a name for this monitor and choose a corresponding environment. 
+4. Add an appropriate schedule for the monitor, and configure additional preferences.
+image
+
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown2.png)
 
