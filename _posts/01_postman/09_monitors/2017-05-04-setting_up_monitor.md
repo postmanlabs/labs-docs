@@ -61,11 +61,19 @@ The "Create New" screen appears by default when you launch Postman. (At the bott
 
 ### From the Postman web
 
-Sign in to the Postman web view, and head over to the [monitors page](https://monitor.getpostman.com/){:target="_blank"}. Click the **Add Monitor** button.
+1. Sign in to Postman web and click "Library" and select Monitors.
 
-[![add monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitorScreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitorScreen.png)
+[![webview menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)
 
-Enter a name for this monitor. Choose the collection that you want to monitor and a corresponding environment. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
+2. In the "Create Monitor" screen, select a collection, schedule the frequency, enter a name, select the environment, and the regions you want to monitor.
+
+[![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)
+
+3. In "Show Additional Preferences", you can indicate if you want to receive notification. You can also indicate "Request Timeout", "Delay between requests", "Don't follow redirects", or "Disable SSL validation".
+
+[![monitor preferences](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)
+
+4. Click the **Create Monitor** button.
 
 ### Monitoring schedule and region
 
