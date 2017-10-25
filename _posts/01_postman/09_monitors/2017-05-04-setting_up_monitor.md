@@ -13,7 +13,7 @@ You can create a new monitor from the:
 * Sidebar menu
 * New button
 * Launch screen
-* Postman web view
+* Postman web 
  
 ### Sidebar menu
 1. In the Postman app, click on the ellipses (…) next to the collection you wish to monitor. 
@@ -46,7 +46,14 @@ The 'Create New' screen appears.
 image
 
 
+#### Launch screen
 
+The **Create New** screen appears by default when you launch Postman. (At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+
+1. Open Postman.
+2. In the **Create New** screen, click 'Monitor'.
+3. In the 'Create a monitor' screen, enter a name and optional description. 
+4. Click the **Create** button.
 
 
 ### From the Postman web
