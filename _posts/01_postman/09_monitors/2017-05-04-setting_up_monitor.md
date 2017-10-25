@@ -15,7 +15,7 @@ You can create a new monitor from the:
 * Launch screen
 * Postman web view
  
-## Sidebar menu
+### Sidebar menu
 1. In the Postman app, click on the ellipses (…) next to the collection you wish to monitor. 
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
@@ -26,11 +26,34 @@ You can create a new monitor from the:
 
 [![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)
 
+### New button
+
+1. In the header toolbar, click the **New** button.
+
+[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
+
+The 'Create New' screen appears.
+
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
+
+**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New' screen to display each time you open Postman.
+
+1. Click 'Monitor'.
+2. Enter the URLs you want to monitor, indicate the response time and the response code, and select an existing collection to monitor all the requests in that collection. 
+3. Click the **Next** button and enter the name of the monitor, how often you want the monitor run, and the region you want to monitor.
+4. Click the **Create** button.
+
+image
+
+
+
+
+
 ### From the Postman web
 
 Sign in to the Postman web view, and head over to the [monitors page](https://monitor.getpostman.com/){:target="_blank"}. Click the **Add Monitor** button.
 
-[![add monitor](https://cloud.githubusercontent.com/assets/681190/21090390/792944e2-c065-11e6-8937-39c18fe888ad.png)](https://cloud.githubusercontent.com/assets/681190/21090390/792944e2-c065-11e6-8937-39c18fe888ad.png)
+[![add monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitorScreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitorScreen.png)
 
 Enter a name for this monitor. Choose the collection that you want to monitor and a corresponding environment. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
 
