@@ -26,7 +26,7 @@ You can create a new monitor from the:
 image
 
 
-[![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdown2.png)
+[
 
 Enter a name for this monitor and choose a corresponding environment. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
 
