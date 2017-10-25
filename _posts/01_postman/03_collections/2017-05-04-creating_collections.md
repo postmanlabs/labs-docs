@@ -112,7 +112,7 @@ The **Create New** screen appears by default when you launch Postman. At the bot
 2.  When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.
 3.  Chose an existing collection or a new collection, and hit **Save**.
 
-### Duplicating an existing collection
+### Duplicating an existing collectio
 
 1.  Click the ellipses (...) to expand the control dropdown.   
     [![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
