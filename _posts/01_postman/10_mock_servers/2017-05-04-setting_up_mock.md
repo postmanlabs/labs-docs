@@ -35,10 +35,10 @@ Once the mock has been created, Postman Pro and Enterprise users can share the m
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The 'Create New' screen appears.
+The "Create New" screen appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the Create New screen to display each time you open Postman.
+**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 2. Click "Mock Server".
 
@@ -60,7 +60,7 @@ The 'Create New' screen appears.
    
      Select a shared collection.
      Select an environment, and click the **Create** button.
-     The 'Next Steps' screen appears with information about the mock server and provides suggestions about next steps.
+     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
      
 #### Creating a mock using the launch screen
 
