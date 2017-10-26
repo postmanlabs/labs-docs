@@ -12,7 +12,7 @@ Postman lets you monitor shared or private collections. If you choose to monitor
 
 You can create a monitor from the:
 * Sidebar menu
-* New button
+* **New** button
 * Launch screen
 * Postman web 
  
@@ -69,13 +69,11 @@ You receive notifications when either the response code doesn’t match or the r
 
 #### Launch screen
 
-The "Create New" screen appears by default when you launch Postman. (At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+The "Create New" screen appears by default when you launch Postman. At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 1. Open Postman.
 2. In the "Create New" screen, click "Monitor".
-3.Enter the URLs you want to monitor, indicate the response time and the response code, and select an existing collection to monitor all the requests in that collection.
-Click the Next button and enter the name of the monitor, how often you want the monitor run, and the region you want to monitor.
-Click the Create button.
+3. Follow step 3 in the previous **New** button section.
 
 
 ### From the Postman web
