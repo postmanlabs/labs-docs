@@ -71,7 +71,7 @@ In a digest authentication flow, the client sends a request to a server, which s
 
 By default, Postman extracts values from the response. If you do not want to extract those values, you have two options:
 * Enter your own values in the advanced section for selected fields, or 
-* Select "Yes" and disable retrying the request` to skip retrying the request. 
+* Select "Yes" and disable "retrying the request" to skip retrying the request. 
 
 To use digest auth:
 1. In the "Authorization" tab, select "Digest Auth" from the TYPE drop down menu. 
