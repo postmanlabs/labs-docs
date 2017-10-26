@@ -86,7 +86,7 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 | --- | --- |
 | Realm | A string specified by the server www-Authenticate response header.  |
 | Nonce| A unique string specified by the server www-Authenticate response header. |
-| Algorithm | A string that indicates a pair of algorithm used to produce the digest and a checksum. |
+| Algorithm | A string that indicates a pair of algorithms used to produce the digest and a checksum. |
 | qop | The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the www-Authenticate response header. |
 | Nonce Count| The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
 | Client Nonce  | An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
