@@ -78,7 +78,9 @@ You can save a request to a collection from the:
 #### Request builder
 1.  In the request builder, enter a new request in the builder.
 2.  Click the **Save** button.  
+    
     [![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
+    
 3.  Chose an existing collection or a new collection.
 4.  Click the **Save** button.
 
@@ -105,8 +107,10 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 ### Saving to a collection from history
 
 1.  To save a single request to a collection, hover over a request under the **History** tab and click the plus icon. (**+**)
+
+[![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
    
-   [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
+
    
 2.  When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.
 3.  Chose an existing collection or a new collection, and click the **Save** button.
