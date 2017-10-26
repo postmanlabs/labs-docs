@@ -104,7 +104,7 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 
 ### Saving to a collection from history
 
-1.  To save a single request to a collection, hover over a request under the **History** tab and click the plus icon (**+**)
+1.  To save a single request to a collection, hover over a request under the **History** tab and click the plus icon. (**+**)
    
    [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
    
