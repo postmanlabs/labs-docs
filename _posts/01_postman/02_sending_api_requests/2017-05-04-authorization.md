@@ -22,7 +22,7 @@ When you select 'Authorization' in the request builder, you see the TYPE drop do
 * NTLM Authentication [Beta]
 
 
-**Note**: availability of features in native apps
+**Note**: These authorization types are availble only for Postman native apps.
 
 > [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
 
