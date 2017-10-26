@@ -42,7 +42,7 @@ The 'Create New' screen appears.
 
 2. Click "Mock Server".
 
-[![create mock]()]()
+[![create mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)
 
 
 3. In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library". 
@@ -62,7 +62,7 @@ The 'Create New' screen appears.
      Select an environment, and click the **Create** button.
      The 'Next Steps' screen appears with information about the mock server and provides suggestions about next steps.
      
-#### Creating a mock using the Launch screen
+#### Creating a mock using the launch screen
 
 The "Create New" screen appears by default when you launch Postman. (At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
