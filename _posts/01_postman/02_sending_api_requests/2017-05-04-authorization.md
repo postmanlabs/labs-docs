@@ -92,7 +92,7 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 | Client Nonce  | An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
 | Opaque | This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. It is recommended that this string be base64 is hexadecimal data. |
 
-##### **OAuth 1.0**
+#### **OAuth 1.0**
 
 OAuth 1.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
@@ -100,7 +100,7 @@ To use the OAuth 1.0 authorization:
 1. In the "Authorization" tab, select OAuth 1.0 from the TYPE drop down menu. 
 2. From the "Add authorization data to" drop down menu, select either "Request Body/Request URL" or "Request Headers".
 
-   When you select Request Body/Request URL, Postman checks whether the request method is POST and the request body type 
+   When you select "Request Body/Request URL", Postman checks whether the request method is POST and the request body type 
    is x-form-urlencoded. If so, Postman adds authorization parameters to the request body. For all other cases,
    it adds authorization parameters to the URL.
 
@@ -133,7 +133,7 @@ OAuth 2.0 is an authorization type that enables you to approve an application th
 
 To use the OAuth 2.0 authorization:
 1. In the "Authorization" tab, select OAuth 2.0 from the TYPE drop down menu. 
-2. From the "Add authorization data to" drop down menu, select either "Request UR"L or "Request Headers".
+2. From the "Add authorization data to" drop down menu, select either "Request URL" or "Request Headers".
 3. To set the authorization parameters for a request, you have three options:
    * Click the **Get New Access Token** button. The GET NEW ACCESS TOKEN screen appears. Enter the appropriate values, click        the **Request Token** button to populate the "Access Token" field, and then click the **Send** button. 
    * In the "Access Token" field, enter a token, enter an environment defined variable, and click the **Send** button.
