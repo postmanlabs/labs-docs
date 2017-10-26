@@ -92,12 +92,12 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 | Client Nonce  | An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
 | Opaque | This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. It is recommended that this string be base64 is hexadecimal data. |
 
-#### **OAuth 1.0**
+### **OAuth 1.0**
 
 OAuth 1.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
 To use the OAuth 1.0 authorization:
-1. In the "Authorization" tab, select OAuth 1.0 from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "OAuth 1.0" from the TYPE drop down menu. 
 2. From the "Add authorization data to" drop down menu, select either "Request Body/Request URL" or "Request Headers".
 
    When you select "Request Body/Request URL", Postman checks whether the request method is POST and the request body type 
@@ -112,14 +112,14 @@ This table describes the parameters for OAuth 1.0 authorization.
 
 | **Parameters**  | **Description** |
 | --- | --- |
-| Consumer Key | A consumer’s values that identifies itself to the service provider. |
+| Consumer Key | A consumer’s value that identifies itself to the service provider. |
 | Consumer Secret| A consumer’s secret that establishes ownership of the consumer key. |
 | Access Token |An object that contains the security identity. |
 
 
 | **Advanced Parameters**  | **Description** |
 | --- | --- |
-| Signature Method | A consumer’s secret that established ownership of a given token. |
+| Signature Method | A consumer’s secret that establishes ownership of a given token. |
 | Time Stamp| The timestamp the server uses to prevent replay attacks outside the time window. |
 | Nonce |A unique string specified by the server www-Authenticate response header.|
 | Version |The 1.0 version of the OAuth authentication protocol.|
@@ -132,12 +132,12 @@ This table describes the parameters for OAuth 1.0 authorization.
 OAuth 2.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
 To use the OAuth 2.0 authorization:
-1. In the "Authorization" tab, select OAuth 2.0 from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "OAuth 2.0" from the TYPE drop down menu. 
 2. From the "Add authorization data to" drop down menu, select either "Request URL" or "Request Headers".
 3. To set the authorization parameters for a request, you have three options:
    * Click the **Get New Access Token** button. The GET NEW ACCESS TOKEN screen appears. Enter the appropriate values, click        the **Request Token** button to populate the "Access Token" field, and then click the **Send** button. 
-   * In the "Access Token" field, enter a token, enter an environment defined variable, and click the **Send** button.
-   * In the Available Tokens drop down menu, select an existing token and click the **Send** button.
+   * In the "Access Token" field, enter a token, an environment defined variable, and click the **Send** button.
+   * In the "Available Tokens" drop down menu, select an existing token and click the **Send** button.
 
 [![oauth2_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)
 
@@ -146,7 +146,7 @@ This table describes the parameters in the GET NEW ACCESS TOKEN screen.
 | **Get Neww Access Token Parameters**  | **Description** |
 | --- | --- |
 | Token Name| The name of the token. |
-| Grant Type| A drop down menu where you can specify one of the following grant types: Authorization Code, Implicit, Password Credentials, and Client Credentials.|
+| Grant Type| A drop down menu where you can specify one of the following grant types: "Authorization Code", "Implicit", "Password Credentials", and "Client Credentials".|
 | Callback URL |The Application’s callback URL that’s registered with the server. If not provided, Postman uses a default  empty URL and extracts the code or access token from it.|
 | Auth URL |The endpoint for authorization server, which retrieves the authorization code.|
 | Access Token URL |The endpoint for the resource server, which exchanges the authorization code for an access token. |
