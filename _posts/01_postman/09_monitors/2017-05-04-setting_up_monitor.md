@@ -41,10 +41,24 @@ The "Create New" screen appears.
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
-1. Click "Monitor".
-2. Enter the URLs you want to monitor, indicate the response time and the response code, and select an existing collection to monitor all the requests in that collection. 
-3. Click the **Next** button and enter the name of the monitor, how often you want the monitor run, and the region you want to monitor.
-4. Click the **Create** button.
+2. Click "Monitor".
+
+3. In the "Create a monitor" screen, you can create a monitor for a "New API", "My Collections", and "Team Library". 
+   * New API
+     
+     Enter a request path, status code, response code and click the **Next** button.
+     Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor from and click the **Create** button.
+     The Next Steps screen appears with information about the monitor and provides suggestions about next steps.
+   * My Collections
+   
+     Select a collection.
+     Select an environment, indicate if you want the mock server to be private, and click the **Create** button.
+     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
+   * Team Library
+   
+     Select a shared collection.
+     Select an environment, and click the **Create** button.
+     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
 
 Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
 You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
@@ -59,8 +73,9 @@ The "Create New" screen appears by default when you launch Postman. (At the bott
 
 1. Open Postman.
 2. In the "Create New" screen, click "Monitor".
-3. In the "Create a monitor" screen, enter a name and optional description. 
-4. Click the **Create** button.
+3.Enter the URLs you want to monitor, indicate the response time and the response code, and select an existing collection to monitor all the requests in that collection.
+Click the Next button and enter the name of the monitor, how often you want the monitor run, and the region you want to monitor.
+Click the Create button.
 
 
 ### From the Postman web
