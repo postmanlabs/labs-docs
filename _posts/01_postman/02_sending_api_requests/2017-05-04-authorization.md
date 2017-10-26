@@ -45,7 +45,7 @@ By default "No Auth" appears first on the drop down menu list. Use "No Auth" whe
 A bearer token is a security token. Any user with a bearer token can use it to access data resources without using a cryptographic key. 
 
 To use a bearer token: 
-1. In the Authorization tab, select Bearer Token from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "Bearer Token" from the TYPE drop down menu. 
 2. To set the authorization parameters for a request, enter the value of the token.
 3. Click the **Send** button.
 
@@ -57,7 +57,7 @@ To use a bearer token:
 Basic Auth is an authorization type that requires a verified username and password to grant access a data resource. 
 
 To use Basic Auth:
-1. In the Authorization tab, select Basic Auth from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "Basic Auth" from the TYPE drop down menu. 
 2. To set the authorization parameters for a request, enter your username and password. 
 3. Click the **Send** button.
 
@@ -74,7 +74,7 @@ By default, Postman extracts values from the response. If you do not want to ext
 * Select "Yes" and disable retrying the request` to skip retrying the request. 
 
 To use digest auth:
-1. In the Authorization tab, select Digest Auth from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "Digest Auth" from the TYPE drop down menu. 
 2. To set the authorization parameters for a request, enter your username and password. (You can also set advanced digest auth parameters.) 
 3. Click the **Send** button.
 
@@ -97,12 +97,14 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 OAuth 1.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
 To use the OAuth 1.0 authorization:
-1. In the Authorization tab, select OAuth 1.0 from the TYPE drop down menu. 
-2. From the Add authorization data to drop down menu, select either Request Body/Request URL or Request Headers.
+1. In the "Authorization" tab, select OAuth 1.0 from the TYPE drop down menu. 
+2. From the "Add authorization data to" drop down menu, select either "Request Body/Request URL" or "Request Headers".
 
-When you select Request Body/Request URL, Postman checks whether the request method is POST and the request body type is x-form-urlencoded. If so, Postman adds authorization parameters to the request body. For all other cases, it adds authorization parameters to the URL.
+   When you select Request Body/Request URL, Postman checks whether the request method is POST and the request body type 
+   is x-form-urlencoded. If so, Postman adds authorization parameters to the request body. For all other cases,
+   it adds authorization parameters to the URL.
 
-3. To set the authorization parameters for a request, enter the Consumer Key, Consumer Secret, Access Token, and Token Secret. You can also set advanced digest OAuth 1.0 parameters.
+3. To set the authorization parameters for a request, enter the "Consumer Key", "Consumer Secret", "Access Token", and "Token Secret". You can also set advanced digest OAuth 1.0 parameters.
 
 [![oauth1_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth1_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth1_0.png)
 
@@ -130,12 +132,12 @@ This table describes the parameters for OAuth 1.0 authorization.
 OAuth 2.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
 To use the OAuth 2.0 authorization:
-1. In the Authorization tab, select OAuth 2.0 from the TYPE drop down menu. 
-2. From the "Add authorization data to" drop down menu, select either Request URL or Request Headers.
+1. In the "Authorization" tab, select OAuth 2.0 from the TYPE drop down menu. 
+2. From the "Add authorization data to" drop down menu, select either "Request UR"L or "Request Headers".
 3. To set the authorization parameters for a request, you have three options:
-   * Click the Get New Access Token button. The GET NEW ACCESS TOKEN screen appears. Enter the appropriate values, click the       **Request Token** button to populate the "Access Token" field, and then click the **Send** button. 
-   * In the Access Token field, enter a token, enter an environment defined variable, and click Send.
-   * In the Available Tokens drop down menu, select an existing token and click Send.
+   * Click the **Get New Access Token** button. The GET NEW ACCESS TOKEN screen appears. Enter the appropriate values, click        the **Request Token** button to populate the "Access Token" field, and then click the **Send** button. 
+   * In the "Access Token" field, enter a token, enter an environment defined variable, and click the **Send** button.
+   * In the Available Tokens drop down menu, select an existing token and click the **Send** button.
 
 [![oauth2_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)
 
@@ -156,7 +158,8 @@ This table describes the parameters in the GET NEW ACCESS TOKEN screen.
 
 [![getrequesttokens_auth]()]()
 
-You can click Manage Tokens in the list to view more details about each token and delete any one of them. If there are no tokens in the list, the user needs to click the Get New Access Token button to generate a token that Postman adds to the list.
+You can click "Manage Tokens" in the list to view more details about each token and delete any one of them. If there are no tokens in the list, the user needs to click the **Get New Access Token** button to generate a token that Postman adds to the list.
+
 [![managetokens_auth]()]()
 
 **Note**: Deleting a token does not revoke the access token. Only the server that issues the token can revoke it.
@@ -166,9 +169,9 @@ You can click Manage Tokens in the list to view more details about each token an
 Hawk authentication enables you to make authenticated requests with partial cryptographic verification of the request. 
  
 To use Hawk authentication:
-1. In the Authorization tab, select Hawk Authentication from the TYPE drop down menu. 
-2. To set the authorization parameters for a request, enter the Hawk Auth ID, Hawk Auth Key, and Algorithm values. You can also set advanced Hawk authentication parameters.
-3. Click Send.
+1. In the "Authorization" tab, select "Hawk Authentication" from the TYPE drop down menu. 
+2. To set the authorization parameters for a request, enter the "Hawk Auth ID", "Hawk Auth Key", and "Algorithm values". You can also set advanced Hawk authentication parameters.
+3. Click the **Send** button.
 
 [![hawk_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Hawk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Hawk.png)
 
@@ -204,9 +207,9 @@ Read more about the AWS Signature on AWS documentation:
 * [http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html](http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html){:target="_blank"}
 
 To use AWS authentication:
-1. In the Authorization tab, select AWS Authentication from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "AWS Authentication" from the TYPE drop down menu. 
 2. To set the authorization parameters for a request, enter the values for the access and secret keys. You can also set advanced AWS authentication parameters.
-3. Click Send.
+3. Click the **Send** button.
 
 [![aws_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_AWS_Signature.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_AWS_Signature.png)
 
@@ -224,7 +227,7 @@ Windows Challenge/Response (NTLM) is the authorization flow for the Windows oper
 By default, Postman extracts values from the received response, adds it to the request, and retries it. Postman gives you the option to disable this default behavior.
 
 To use NTLM authentication:
-1. In the Authorization tab, select NTLM Authentication from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "NTLM Authentication" from the TYPE drop down menu. 
 2. To set the authorization parameters for a request, enter the username and password. You can also set advanced NTLM Authentication parameters.
 3. Click the **Send** button.
 
