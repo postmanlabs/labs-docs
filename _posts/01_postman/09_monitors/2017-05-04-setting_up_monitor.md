@@ -55,7 +55,7 @@ You receive notifications when either the response code doesn’t match or the r
 
 #### Launch screen
 
-The "Create New" screen appears by default when you launch Postman. (At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+The "Create New" screen appears by default when you launch Postman. (At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the Create New screen to display each time you open Postman.
 
 1. Open Postman.
 2. In the "Create New" screen, click "Monitor".
@@ -65,7 +65,7 @@ The "Create New" screen appears by default when you launch Postman. (At the bott
 
 ### From the Postman web
 
-1. Sign in to Postman web and click "Library" and select Monitors.
+1. Sign in to Postman web and click "Library" and select "Monitors".
 
 [![webview menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)
 
