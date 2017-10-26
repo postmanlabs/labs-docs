@@ -76,7 +76,7 @@ You can save a request to a collection from the:
 * Launch screen
 
 #### Request builder
-1.  In the request builder. enter a new request in the builder.
+1.  In the request builder, enter a new request in the builder.
 2.  Click the **Save** button.  
     [![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
 3.  Chose an existing collection or a new collection.
