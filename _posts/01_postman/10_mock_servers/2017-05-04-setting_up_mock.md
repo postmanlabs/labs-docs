@@ -21,8 +21,8 @@ Developers can mock a request and response in Postman before sending the actual 
 
 You can create a mock in several ways: 
 
-  1. [using the Postman app](/docs/postman/mock_servers/mocking_with_examples)
-  2. [using the Postman Pro API](/docs/postman/mock_servers/mock_with_api)
+  1. [Using the Postman app](/docs/postman/mock_servers/mocking_with_examples)
+  2. [Using the Postman Pro API](/docs/postman/mock_servers/mock_with_api)
   3. Using the **New** button.
   4. Using the launch screen. 
   
@@ -38,14 +38,14 @@ Once the mock has been created, Postman Pro and Enterprise users can share the m
 The 'Create New' screen appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
-**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the Create New screen to display each time you open Postman.
 
-2. Click 'Mock Server'.
+2. Click "Mock Server".
 
 [![create mock]()]()
 
 
-3. In the "Create API Documentation" screen, you can create documentation for a New API, My Collections, and Team Library. 
+3. In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library". 
    * New API
      
      Enter a request path, status code, response code and click the **Next** button.
@@ -64,10 +64,10 @@ The 'Create New' screen appears.
      
 #### Creating a mock using the Launch screen
 
-The 'Create New' screen appears by default when you launch Postman. (At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the 'Create New' screen to display each time you open Postman.
+The "Create New" screen appears by default when you launch Postman. (At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 1. Open Postman.
-2. In the 'Create New' screen, click 'Mock Server'.
+2. In the "Create New" screen, click "Mock Server".
 3. Follow step 3 in previous **New** button section. 
 
 ### HTTP access control (CORS)
