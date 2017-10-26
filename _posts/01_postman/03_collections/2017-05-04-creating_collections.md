@@ -107,6 +107,7 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 1.  To save a single request to a collection, hover over a request under the **History** tab and click the plus icon (**+**)
    
    [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
+   
 2.  When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.
 3.  Chose an existing collection or a new collection, and click the **Save** button.
 
@@ -115,6 +116,7 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 1.  Click the ellipses (...) to expand the control dropdown.   
    
    [![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
+
 2.  Select "Duplicate" from the menu.
 
 Learn how to [share collections](/docs/postman/collections/sharing_collections), [importing and exporting collections](/docs/postman/collections/data_formats), and [other collection features](/docs/postman/collections/managing_collections).  
