@@ -89,8 +89,8 @@ When you specify a monitor to run in multiple regions, the monitor will run mult
 
 | **Additional preferences** | **Description** |
 | --- | --- |
-| Email notifications | Get notifications about failures on up to 5 email addresses |
-| Request timeout | Specify a time interval after which your request is considered to time-out |
-| Delay between requests | Add a time lag between subsequent requests |
-| Don’t follow redirects | Disable following all redirects |
+| Email notifications | Get notifications about failures on up to 5 email addresses. |
+| Request timeout | Specify a time interval after which your request is considered to time-out. |
+| Delay between requests | Add a time lag between subsequent requests. |
+| Don’t follow redirects | Disable following all redirects. |
 | Disable SSL validation | This disables validations performed on SSL certificates. Check this if you use self-signed certificates. Use with caution! |
