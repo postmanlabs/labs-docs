@@ -127,7 +127,7 @@ Within the request builder, drag and drop tabs to reorder them as you see fit. O
 
 ### Keyboard Shortcuts
 
-Keyboard usability is high on the priority list for any dev tool. For most developers, it’s a more efficient input method, requiring minimum movement and effort compared to a mouse or other pointing device. It also saves time, and for repetitive or well-frequented tasks, this can bring about a huge improvement in speed over the long run.
+Keyboard usability is high on the priority list for any dev tool. For most developers, it’s a more efficient input method, requiring minimum movement and effort compared to navigating with a cursor. It also saves time, and for repetitive or well-frequented tasks, this can bring about a huge improvement in speed over the long run.
 
 When we approached assigning keyboard shortcuts in Postman, we broadly categorized them into three buckets based on their function: navigation, manipulation and global. Navigational shortcuts help you move around the interface, manipulation shortcuts allow you to manipulate the current selection and global shortcuts can be accessed from anywhere.
 
