@@ -10,7 +10,7 @@ warning: false
 The authorization process verifies whether a user has permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. 
 Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
-When you select 'Authorization' in the request builder, you see the TYPE drop down menu. 
+When you select 'Authorization' in the request builder, you see the **TYPE** drop down menu. 
 * No Auth 
 * Bearer Token
 * Basic auth
@@ -57,7 +57,7 @@ To use a bearer token:
 Basic Auth is an authorization type that requires a verified username and password to grant access a data resource. 
 
 To use Basic Auth:
-1. In the "Authorization" tab, select "Basic Auth" from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "Basic Auth" from the **TYPE** drop down menu. 
 2. To set the authorization parameters for a request, enter your username and password. 
 3. Click the **Send** button.
 
@@ -74,7 +74,7 @@ By default, Postman extracts values from the response. If you do not want to ext
 * Select "Yes" and disable "retrying the request" to skip retrying the request. 
 
 To use digest auth:
-1. In the "Authorization" tab, select "Digest Auth" from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "Digest Auth" from the **TYPE** drop down menu. 
 2. To set the authorization parameters for a request, enter your username and password. (You can also set advanced digest auth parameters.) 
 3. Click the **Send** button.
 
@@ -97,7 +97,7 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 OAuth 1.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
 To use the OAuth 1.0 authorization:
-1. In the "Authorization" tab, select "OAuth 1.0" from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "OAuth 1.0" from the **TYPE** drop down menu. 
 2. From the "Add authorization data to" drop down menu, select either "Request Body/Request URL" or "Request Headers".
 
    When you select "Request Body/Request URL", Postman checks whether the request method is POST and the request body type 
@@ -135,13 +135,13 @@ To use the OAuth 2.0 authorization:
 1. In the "Authorization" tab, select "OAuth 2.0" from the TYPE drop down menu. 
 2. From the "Add authorization data to" drop down menu, select either "Request URL" or "Request Headers".
 3. To set the authorization parameters for a request, you have three options:
-   * Click the **Get New Access Token** button. The GET NEW ACCESS TOKEN screen appears. Enter the appropriate values, click        the **Request Token** button to populate the "Access Token" field, and then click the **Send** button. 
+   * Click the **Get New Access Token** button. The **GET NEW ACCESS TOKEN** screen appears. Enter the appropriate values, click the **Request Token** button to populate the "Access Token" field, and then click the **Send** button. 
    * In the "Access Token" field, enter a token, an environment defined variable, and click the **Send** button.
    * In the "Available Tokens" drop down menu, select an existing token and click the **Send** button.
 
 [![oauth2_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)
 
-This table describes the parameters in the GET NEW ACCESS TOKEN screen.
+This table describes the parameters in the **GET NEW ACCESS TOKEN** screen.
 
 | **Get Neww Access Token Parameters**  | **Description** |
 | --- | --- |
@@ -169,7 +169,7 @@ You can click "Manage Tokens" in the list to view more details about each token 
 Hawk authentication enables you to make authenticated requests with partial cryptographic verification of the request. 
  
 To use Hawk authentication:
-1. In the "Authorization" tab, select "Hawk Authentication" from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "Hawk Authentication" from the **TYPE** drop down menu. 
 2. To set the authorization parameters for a request, enter the "Hawk Auth ID", "Hawk Auth Key", and "Algorithm values". You can also set advanced Hawk authentication parameters.
 3. Click the **Send** button.
 
@@ -207,7 +207,7 @@ Read more about the AWS Signature on AWS documentation:
 * [http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html](http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html){:target="_blank"}
 
 To use AWS authentication:
-1. In the "Authorization" tab, select "AWS Authentication" from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "AWS Authentication" from the **TYPE** drop down menu. 
 2. To set the authorization parameters for a request, enter the values for the access and secret keys. You can also set advanced AWS authentication parameters.
 3. Click the **Send** button.
 
