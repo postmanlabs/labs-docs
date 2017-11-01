@@ -45,7 +45,7 @@ By default "No Auth" appears first on the drop down menu list. Use "No Auth" whe
 A bearer token is a security token. Any user with a bearer token can use it to access data resources without using a cryptographic key. 
 
 To use a bearer token: 
-1. In the "Authorization" tab, select "Bearer Token" from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "Bearer Token" from the **TYPE** drop down menu. 
 2. To set the authorization parameters for a request, enter the value of the token.
 3. Click the **Send** button.
 
@@ -132,7 +132,7 @@ This table describes the parameters for OAuth 1.0 authorization.
 OAuth 2.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
 To use the OAuth 2.0 authorization:
-1. In the "Authorization" tab, select "OAuth 2.0" from the TYPE drop down menu. 
+1. In the "Authorization" tab, select "OAuth 2.0" from the **TYPE** drop down menu. 
 2. From the "Add authorization data to" drop down menu, select either "Request URL" or "Request Headers".
 3. To set the authorization parameters for a request, you have three options:
    * Click the **Get New Access Token** button. The **GET NEW ACCESS TOKEN** screen appears. Enter the appropriate values, click the **Request Token** button to populate the "Access Token" field, and then click the **Send** button. 
@@ -227,8 +227,8 @@ Windows Challenge/Response (NTLM) is the authorization flow for the Windows oper
 By default, Postman extracts values from the received response, adds it to the request, and retries it. Postman gives you the option to disable this default behavior.
 
 To use NTLM authentication:
-1. In the "Authorization" tab, select "NTLM Authentication" from the TYPE drop down menu. 
-2. To set the authorization parameters for a request, enter the username and password. You can also set advanced NTLM Authentication parameters.
+1. In the "Authorization" tab, select "NTLM Authentication" from the **TYPE** drop down menu. 
+2. To set the authorization parameters for a request, enter the username and password. You can also set advanced NTLM authentication parameters.
 3. Click the **Send** button.
 
 This table describes the advanced parameters for NTLM Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
