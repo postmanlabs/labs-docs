@@ -118,7 +118,7 @@ This table describes the parameters for OAuth 1.0 authorization.
 
 
 | **Advanced Parameters**  | **Description** |
-| --- | --- |
+| ---    | --- |
 | Signature Method | A consumer’s secret that establishes ownership of a given token. |
 | Time Stamp| The timestamp the server uses to prevent replay attacks outside the time window. |
 | Nonce |A unique string specified by the server www-Authenticate response header.|
@@ -202,9 +202,9 @@ AWS is the authorization workflow for Amazon Work Services (AWS) requests. AWS u
 
 Read more about the AWS Signature on AWS documentation:
 
-* [http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html](http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html){:target="_blank"}
+* <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html" target="_blank">Signing and Authenticating REST Requests</a>
 
-* [http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html](http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html){:target="_blank"}
+* <a href="http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html" target="_blank">Use Postman to Call an API</a>
 
 To use AWS authentication:
 1. In the "Authorization" tab, select "AWS Authentication" from the **TYPE** drop down menu. 
