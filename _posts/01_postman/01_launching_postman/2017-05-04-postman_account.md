@@ -90,7 +90,7 @@ You can recover your username or reset your password from the <a href="https://i
 2. In the **Trouble signing in?** page, enter your email address and click the **Submit** button.
    Check your email for instructions to recover your username or password.
    
-[![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Trouble_signingIn.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Trouble_signingIn.png)
+[![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)
 
 
 
