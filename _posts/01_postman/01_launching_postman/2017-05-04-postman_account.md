@@ -12,9 +12,9 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-   *   [Sync]<a href="https://www.getpostman.com/docs/postman/launching_postman/syncing" target="_blank">sync</a> and back up your history, collections, environments and header presets.
+   *   <a href="https://www.getpostman.com/docs/postman/launching_postman/syncing" target="_blank">sync</a> and back up your history, collections, environments and header presets.
    *   Easily work on multiple Postman instances from different machines.
-   *   Create [collection links](/docs/postman/collections/sharing_collections) to send to other developers.
+   *   Create <a href="https://www.getpostman.com/docs/postman/collections/sharing_collections" target="_blank">collection links</a> to send to other developers.
 
 Signing up is completely optional. Read our <a href="https://www.getpostman.com/licenses/postman_base_app" target="_blank">EULA</a>, <a href="https://www.getpostman.com/security" target="_blank">security page</a>, and <a href="https://www.getpostman.com/licenses/privacy" target="_blank">privacy page</a>
 to know more.
