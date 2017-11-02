@@ -12,7 +12,7 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-   *   <a href="https://www.getpostman.com/docs/postman/launching_postman/syncing" target="_blank">Sync</a> and back up your history, collections, environments and header presets.
+   *   <a href="docs/postman/launching_postman/syncing" target="_blank">Sync</a> and back up your history, collections, environments and header presets.
    *   Easily work on multiple Postman instances from different machines.
    *   Create <a href="https://www.getpostman.com/docs/postman/collections/sharing_collections" target="_blank">collection links</a> to send to other developers.
 
