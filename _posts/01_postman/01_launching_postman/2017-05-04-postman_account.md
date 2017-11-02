@@ -8,7 +8,7 @@ warning: false
 
 ---
 
-### Why sign up for a Postman account
+### Why sign up for a Postman account1
 
 When you sign up for a free Postman account, you can:
 
