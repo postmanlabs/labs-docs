@@ -85,3 +85,15 @@ Clicking on the Forgot Username or Password links near the **Sign In** prompt wi
 
 [![forgot password page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59157918.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59157918.png)
 
+
+You can recover your username or reset your password from the Sign In page. 
+
+1. In the "Sign In" page, Click “Trouble signing in?”.
+2. In the "Trouble signing in?" page, enter you email address and click the Submit button.
+   Check your email for instructions to recover your username or password.
+
+
+
+
+
+
