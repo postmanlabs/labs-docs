@@ -16,7 +16,10 @@ Sign up for a free Postman account and get the following benefits:
    *   Easily work on multiple Postman instances from different machines.
    *   Create [collection links](/docs/postman/collections/sharing_collections) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"} and our [security page](https://www.getpostman.com/security){:target="_blank"} and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
+Signing up is completely optional. Read our 
+<a href="https://www.getpostman.com/licenses/postman_base_app" target="_blank">EULA</a> and our [security page]and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
+
+
 
 ### Signing up for a Postman account
 
