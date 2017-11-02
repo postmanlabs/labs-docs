@@ -24,7 +24,7 @@ to know more.
 
 ### Signing up for a Postman account
 
-*   If you haven't already, download the Postman app.
+*   If you haven't already, <a href="https://www.getpostman.com/apps" target="_blank">download</a> the Postman app.
 *   Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
 *   Sign up with your email address or your Google account.
