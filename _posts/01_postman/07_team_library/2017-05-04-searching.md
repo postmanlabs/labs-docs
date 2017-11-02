@@ -12,22 +12,64 @@ Find lets you search in collections, environments, and globals.
 
 1. Click on the **Find** icon in the status bar. 
 
-IMAGE
+[![findIcon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_icon2.png)
+
 
 2. Enter the term you want to search and determine the search settings.
 3. Click the **Find** button.
 
 **Note**: Windows and Linux users can press CMD+SHIFT+F as a keyboard shortcut to access Find.
 
-### Determining your search settings
+#### Determining your search settings
 You can set search settings to:
 * Refine the search expression
 * Determine where to search
 * Filter search results
 * Navigate search results
 
-### Refine the search expression
+#### Refine the search expression
 You can refine your search expression by selecting a regular expression or ignore case. 
+
+| **Setting**  | **Description** |
+| --- | --- |
+| Regex (regular expression) | Set the entity as a string of text to locate.  |
+| Ignore Case| Indicate whether or not upper- and lowercase letters are considered the same. |
+
+IMAGE
+
+#### Determine where to search
+You can search through all collections, environments, and globals.
+
+| **Setting**  | **Description** |
+| --- | --- |
+| Everything| Search all collections, environments, and globals. ‘Everything’ is the default setting.  |
+| Choose entities to find:| Select whether to direct your search in collections, environments, or globals. |
+| Collections | Select this setting to search in collections. You can specify the collection to search or click Select all to search all collections  IMAGE  |
+| Environments| Select this setting to search in environments. You can specify the environments to search or click Select all to search all environments.  IMAGE |
+| Globals| Select this setting to search in globals. IMAGE |
+
+
+#### Filter search results
+To narrow results in specific fields, you can choose the fields to exclude from the "Include fields" drop down for each of the tabs in collections, environments and globals.
+
+| **Tab**  | **Filter** |
+| --- | --- |
+| Collections| IMAGE |
+| Environments| IMAGE |
+| Globals |  IMAGE  |
+
+#### Navigate search results
+As you browse search results, you can collapse the entities you don’t want to see.
+
+|  |  |
+| --- | --- |
+| To expand and collapse entities, click the entity name in the results area.| IMAGE |
+| In Collections, you can open a specific request in the builder when you click on 'Open in builder'. | IMAGE |
+| In Environments, you can open a specific request in MANAGE ENVIRONMENTS when you click on 'Open'. |  IMAGE  |
+| In Globals, you can open a specific request in MANAGE ENVIRONMENTS when you click on 'Open'. |  IMAGE  |
+| You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on. When you hover over a value or description, a tooltip displays with information about the key.  |  IMAGE  |
+
+
 
 
 
