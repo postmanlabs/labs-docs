@@ -81,11 +81,6 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 ### Forgot your username or password?
 
-Clicking on the Forgot Username or Password links near the **Sign In** prompt will allow you to <a href="https://app.getpostman.com/signup?redirect=web#mod-reset-password-modal" target="_blank">recover your username or reset a password</a>.
-
-[![forgot password page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59157918.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59157918.png)
-
-
 You can recover your username or reset your password from the <a href="https://identity.getpostman.com/login?continue=https%3A%2F%2Fapp.getpostman.com%2Fdashboard&addAccount=1" target="_blank">**Sign In**</a> page. 
 
 1. In the **Sign In** page, click “Trouble signing in?”.
