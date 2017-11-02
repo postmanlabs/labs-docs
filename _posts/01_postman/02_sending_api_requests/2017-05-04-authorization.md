@@ -207,7 +207,7 @@ Read more about the AWS Signature on AWS documentation:
 * <a href="http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html" target="_blank">Use Postman to Call an API</a>
 
 To use AWS authentication:
-1. In the **Authorization** tab, select "AWS Authentication" from the **TYPE** drop down menu. 
+1. In the **Authorization** tab, select "AWS Signature" from the **TYPE** drop down menu. 
 2. To set the authorization parameters for a request, enter the values for the access and secret keys. You can also set advanced AWS authentication parameters.
 3. Click the **Send** button.
 
