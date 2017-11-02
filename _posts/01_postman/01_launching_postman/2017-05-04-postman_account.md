@@ -50,7 +50,7 @@ After you sign in, your profile image replaces the **Sign In** button.
 
 When you click on your profile image, a drop down menu lists all active signed-in accounts. 
 
-To sign into another account, click the **Add A New Account** button at the bottom of the drop down menu.
+To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
 
 [![addaccount icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_addAccount_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_addAccount_white.png)
 
