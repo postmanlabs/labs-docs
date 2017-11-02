@@ -12,7 +12,7 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-   *   <a href="https://www.getpostman.com/docs/postman/launching_postman/syncing" target="_blank">Sync</a> and back up your history, collections, environments and header presets.
+   *   <a href="https://www.getpostman.com/docs/postman/launching_postman/syncing" target="_blank">Sync</a> and back up your history, collections, environments, and header presets.
    *   Easily work on multiple Postman instances from different machines.
    *   Create <a href="https://www.getpostman.com/docs/postman/collections/sharing_collections" target="_blank">collection links</a> to send to other developers.
 
@@ -23,12 +23,12 @@ to know more.
 
 ### Signing up for a Postman account
 
-*   If you haven't already, <a href="https://www.getpostman.com/apps" target="_blank">download</a> the Postman app.
-*   Launch the app, and see a prompt to log in or sign up.
+1. If you haven't already, <a href="https://www.getpostman.com/apps" target="_blank">download</a> the Postman app.
+2. Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
-*   Sign up with your email address or your Google account.
+3. Sign up with your email address or your Google account.
     [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
-*   Confirm your email.
+4. Confirm your email.
 
 Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time  <a href="https://www.getpostman.com/docs/postman/launching_postman/syncing" target="_blank">syncing</a>. If you are experiencing issues with syncing, you can file an issue with our <a href="https://support.getpostman.com/hc/en-us?_ga=2.166191286.960889550.1509482241-1211199862.1504132976" target="_blank">support center</a>.
 
