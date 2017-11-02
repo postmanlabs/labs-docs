@@ -90,12 +90,12 @@ You can recover your username or reset your password from the **Sign In** page.
 
 1. In the **Sign In** page, click “Trouble signing in?”.
 
-<Image>
+IMAGE HERE
 
 2. In the **Trouble signing in?** page, enter your email address and click the **Submit** button.
    Check your email for instructions to recover your username or password.
    
- <Image>
+IMAGE HERE
 
 
 
