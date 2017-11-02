@@ -30,7 +30,7 @@ to know more.
     [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
 *   Confirm your email and you are good to go.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center]({{site.pm.support_center}}).
+Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time  <a href="https://www.getpostman.com/docs/postman/launching_postman/syncing" target="_blank">syncing</a>. If you are experiencing issues with syncing, you can file an issue with our [support center]({{site.pm.support_center}}).
 
 [![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
