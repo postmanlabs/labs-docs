@@ -74,7 +74,7 @@ To switch back to your previous account, click on the account user name in the d
 
 ### Security policies and standards
 
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security){:target="_blank"}.
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our <a href="https://www.getpostman.com/security" target="_blank">security page</a>.
 
    *   Communication with Postman servers only happens through HTTPS and Secure WebSockets.
    *   Environment and global variables are encrypted so that only you can view them.
