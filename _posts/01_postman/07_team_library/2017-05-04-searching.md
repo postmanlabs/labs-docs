@@ -7,6 +7,28 @@ page_id: "searching"
 warning: false
 ---
 
+### Searching in Postman
+Find lets you search in collections, environments, and globals. 
+
+1. Click on the **Find** icon in the status bar. 
+
+IMAGE
+
+2. Enter the term you want to search and determine the search settings.
+3. Click the **Find** button.
+
+**Note**: Windows and Linux users can press CMD+SHIFT+F as a keyboard shortcut to access Find.
+
+### Determining your search settings
+You can set search settings to:
+* Refine the search expression
+* Determine where to search
+* Filter search results
+* Navigate search results
+
+### Refine the search expression
+You can refine your search expression by selecting a regular expression or ignore case. 
+
 
 
 
