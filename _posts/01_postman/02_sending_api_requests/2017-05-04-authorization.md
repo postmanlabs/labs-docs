@@ -143,7 +143,7 @@ To use the OAuth 2.0 authorization:
 
 This table describes the parameters in the **GET NEW ACCESS TOKEN** screen.
 
-| **Get Neww Access Token Parameters**  | **Description** |
+| **Get New Access Token Parameters**  | **Description** |
 | --- | --- |
 | Token Name| The name of the token. |
 | Grant Type| A drop down menu where you can specify one of the following grant types: "Authorization Code", "Implicit", "Password Credentials", and "Client Credentials".|
