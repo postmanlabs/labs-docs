@@ -17,7 +17,8 @@ Sign up for a free Postman account and get the following benefits:
    *   Create [collection links](/docs/postman/collections/sharing_collections) to send to other developers.
 
 Signing up is completely optional. Read our 
-<a href="https://www.getpostman.com/licenses/postman_base_app" target="_blank">EULA</a> and our [security page]and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
+<a href="https://www.getpostman.com/licenses/postman_base_app" target="_blank">EULA</a>, <a href="https://www.getpostman.com/security" target="_blank">security page</a>, and <a href="https://www.getpostman.com/licenses/privacy" target="_blank">privacy page</a>
+to know more.
 
 
 
