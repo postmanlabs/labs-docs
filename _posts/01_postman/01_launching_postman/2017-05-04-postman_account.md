@@ -85,7 +85,7 @@ You can recover your username or reset your password from the <a href="https://i
 
 1. In the **Sign In** page, click “Trouble signing in?”.
 
-[![signIn page]()]()
+[![signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)
 
 2. In the **Trouble signing in?** page, enter your email address and click the **Submit** button.
    Check your email for instructions to recover your username or password.
