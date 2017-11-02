@@ -7,6 +7,13 @@ page_id: "searching"
 warning: false
 ---
 
+
+
+
+
+
+
+
 ### Filtering by name or description
 
 To quickly filter the list of collections in your library, begin typing the collection name or description in the search input field.
