@@ -20,7 +20,7 @@ Find lets you search in collections, environments, and globals.
 
 **Note**: Windows and Linux users can press CMD+SHIFT+F as a keyboard shortcut to access Find.
 
-#### Determining your search settings
+#### Determine your search settings
 You can set search settings to:
 * Refine the search expression
 * Determine where to search
@@ -37,7 +37,7 @@ You can refine your search expression by selecting a regular expression or ignor
 
 IMAGE
 
-#### Determine where to search
+#### Indicate where to search
 You can search through all collections, environments, and globals.
 
 | **Setting**  | **Description** |
