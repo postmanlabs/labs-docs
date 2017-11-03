@@ -55,7 +55,7 @@ To narrow results in specific fields, you can choose the fields to exclude from 
 | --- | --- |
 | Collections| [![filter_collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_collections_filter2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_collections_filter2.jpeg) |
 | Environments| [![filter_environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter.jpeg) |
-| Globals |  [![filter_globals](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals.jpeg)   |
+| Globals |  [![filter_globals]()]()   |
 
 #### Navigate search results
 As you browse search results, you can collapse the entities you don’t want to see.
