@@ -43,7 +43,7 @@ You can search through all collections, environments, and globals.
 | --- | --- |
 | Everything| Search all collections, environments, and globals. ‘Everything’ is the default setting.  |
 | Choose entities to find:| Select whether to direct your search in collections, environments, or globals. |
-| Collections |Select this setting to search in collections. You can specify the collection to search or click Select all to search all collections.  |
+| Collections |Select this setting to search in collections. You can specify the collection to search or click Select all to search all collections.  [![findCollection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg) |
 | Environments| Select this setting to search in environments. You can specify the environments to search or click Select all to search all environments.  IMAGE|
 | Globals| Select this setting to search in globals. IMAGE |
 
@@ -67,15 +67,6 @@ As you browse search results, you can collapse the entities you don’t want to 
 | In Environments, you can open a specific request in MANAGE ENVIRONMENTS when you click on 'Open'. |  IMAGE  |
 | In Globals, you can open a specific request in MANAGE ENVIRONMENTS when you click on 'Open'. |  IMAGE  |
 | You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on. When you hover over a value or description, a tooltip displays with information about the key.  |  IMAGE  |
-
-
-
-
-
-
-
-
-
 
 ### Filtering by name or description
 
