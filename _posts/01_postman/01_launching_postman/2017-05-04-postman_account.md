@@ -12,9 +12,9 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-   *   <a href="https://www.getpostman.com/docs/postman/launching_postman/syncing" target="_blank">Sync</a> and back up your history, collections, environments, and header presets.
+   *   <a href="/docs/postman/launching_postman/syncing" target="_blank">Sync</a> and back up your history, collections, environments, and header presets.
    *   Easily work on multiple Postman instances from different machines.
-   *   Create <a href="https://www.getpostman.com/docs/postman/collections/sharing_collections" target="_blank">collection links</a> to send to other developers.
+   *   Create <a href="/docs/postman/collections/sharing_collections" target="_blank">collection links</a> to send to other developers.
 
 Signing up is completely optional. Read our <a href="https://www.getpostman.com/licenses/postman_base_app" target="_blank">EULA</a>, <a href="https://www.getpostman.com/security" target="_blank">security page</a>, and <a href="https://www.getpostman.com/licenses/privacy" target="_blank">privacy page</a>
 to know more.
@@ -30,7 +30,7 @@ to know more.
     [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
 4. Confirm your email.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time  <a href="https://www.getpostman.com/docs/postman/launching_postman/syncing" target="_blank">syncing</a>. If you are experiencing issues with syncing, you can file an issue with our <a href="https://support.getpostman.com/hc/en-us" target="_blank">support center</a>.
+Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time  <a href="/docs/postman/launching_postman/syncing" target="_blank">syncing</a>. If you are experiencing issues with syncing, you can file an issue with our <a href="https://support.getpostman.com/hc/en-us" target="_blank">support center</a>.
 
 [![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
