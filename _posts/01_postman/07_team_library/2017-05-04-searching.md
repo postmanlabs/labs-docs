@@ -53,8 +53,8 @@ To narrow results in specific fields, you can choose the fields to exclude from 
 
 | **Tab**  | **Filter** |
 | --- | --- |
-| Collections| [![filter_collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_collections_filter2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_collections_filter2.jpeg) |
-| Environments| [![filter_environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter.jpeg) |
+| Collections| [![filter_collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Filter_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Filter_collections.png) |
+| Environments| [![filter_environment]()]() |
 | Globals |  [![filter_globals]()]()   |
 
 #### Navigate search results
