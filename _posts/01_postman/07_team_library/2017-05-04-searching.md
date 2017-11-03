@@ -14,7 +14,6 @@ Find lets you search in collections, environments, and globals.
 
 [![findIcon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_icon2.png)
 
-
 2. Enter the term you want to search and determine the search settings.
 3. Click the **Find** button.
 
@@ -44,7 +43,7 @@ You can search through all collections, environments, and globals.
 | --- | --- |
 | Everything| Search all collections, environments, and globals. ‘Everything’ is the default setting.  |
 | Choose entities to find:| Select whether to direct your search in collections, environments, or globals. |
-| Collections |Select this setting to search in collections. You can specify the collection to search or click Select all to search all collections.[![findCollection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg)   |
+| Collections |Select this setting to search in collections. You can specify the collection to search or click Select all to search all collections.  |
 | Environments| Select this setting to search in environments. You can specify the environments to search or click Select all to search all environments.  IMAGE|
 | Globals| Select this setting to search in globals. IMAGE |
 
