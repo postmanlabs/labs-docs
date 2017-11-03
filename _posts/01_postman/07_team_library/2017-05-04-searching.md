@@ -45,7 +45,7 @@ You can search through all collections, environments, and globals.
 | Choose entities to find:| Select whether to direct your search in collections, environments, or globals. |
 | Collections | Select this setting to search in collections. You can specify the collection to search or click Select all to search all collections.<br> [![findCollection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg) |
 | Environments| Select this setting to search in environments. You can specify the environments to search or click Select all to search all environments.<br>   [![findEnvironment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments.jpeg)|
-| Globals| Select this setting to search in globals. IMAGE |
+| Globals| Select this setting to search in globals. <br> [![findGlobals](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals.jpeg) |
 
 
 #### Filter search results
