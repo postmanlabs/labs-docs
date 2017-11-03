@@ -34,7 +34,7 @@ You can refine your search expression by selecting a regular expression or ignor
 | Regex (regular expression) | Set the entity as a string of text to locate.  |
 | Ignore Case| Indicate whether or not upper- and lowercase letters are considered the same. |
 
-[![findRegex](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_regex.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_regex.png)
+[![findRegex](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_regex1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_regex1.png)
 
 #### Indicate where to search
 You can search through all collections, environments, and globals.
