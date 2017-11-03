@@ -53,7 +53,7 @@ To narrow results in specific fields, you can choose the fields to exclude from 
 
 | **Tab**  | **Filter** |
 | --- | --- |
-| Collections| [![filter_collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_collections_filter.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_collections_filter.jpeg) |
+| Collections| [![filter_collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_collections_filter2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_collections_filter2.jpeg) |
 | Environments| IMAGE |
 | Globals |  IMAGE  |
 
