@@ -12,25 +12,22 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-   *   <a href="/docs/postman/launching_postman/syncing" target="_blank">Sync</a> and back up your history, collections, environments, and header presets.
+   *   [Sync](/docs/postman/launching_postman/syncing) and back up your history, collections, environments, and header presets.
    *   Easily work on multiple Postman instances from different machines.
-   *   Create <a href="/docs/postman/collections/sharing_collections" target="_blank">collection links</a> to send to other developers.
+   *   Create [collection links](/docs/postman/collections/sharing_collections) to send to other developers.
 
-Signing up is completely optional. Read our <a href="https://www.getpostman.com/licenses/postman_base_app" target="_blank">EULA</a>, <a href="https://www.getpostman.com/security" target="_blank">security page</a>, and <a href="https://www.getpostman.com/licenses/privacy" target="_blank">privacy page</a>
-to know more.
-
-
+Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"}, [security page](https://www.getpostman.com/security){:target="_blank"}, and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
 
 ### Signing up for a Postman account
 
-1. If you haven't already, <a href="https://www.getpostman.com/apps" target="_blank">download</a> the Postman app.
+1. If you haven't already, [download](https://www.getpostman.com/apps){:target="_blank"} the Postman app.
 2. Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
 3. Sign up with your email address or your Google account.
     [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
 4. Confirm your email.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time  <a href="/docs/postman/launching_postman/syncing" target="_blank">syncing</a>. If you are experiencing issues with syncing, you can file an issue with our <a href="https://support.getpostman.com/hc/en-us" target="_blank">support center</a>.
+Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
 
 [![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
@@ -40,6 +37,7 @@ Once you are logged in, you will see the **IN SYNC** icon at the top telling y
 You can sign in to multiple accounts at the same time in the Postman app and the Postman web dashboard. After you sign in, you can switch between these accounts. 
 
 #### How to switch accounts in the Postman app 
+
 When you first open the Postman app, you can sign in as an existing user or create an account. 
 
 If you bypass the initial sign-in option, you can click the **Sign In** button on the top right corner of your screen at any time.
@@ -61,6 +59,7 @@ To switch back to your previous account, click on the account user name in the d
 [![multiccount icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_multiAccounts_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_multiAccounts_white.png)
 
 #### How to switch accounts in the Postman web view
+
 When you sign in to the Postman dashboard, you see your profile image on the top right hand corner of the screen.  
 
 To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
@@ -73,7 +72,7 @@ To switch back to your previous account, click on the account user name in the d
 
 ### Security policies and standards
 
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our <a href="https://www.getpostman.com/security" target="_blank">security page</a>.
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security){:target="_blank"}.
 
    *   Communication with Postman servers only happens through HTTPS and Secure WebSockets.
    *   Environment and global variables are encrypted so that only you can view them.
@@ -81,7 +80,7 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 ### Forgot your username or password?
 
-You can recover your username or reset your password from the <a href="https://identity.getpostman.com/login" target="_blank">**Sign In**</a> page. 
+You can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login){:target="_blank"} page. 
 
 1. In the **Sign In** page, click “Trouble signing in?”.
 
@@ -91,9 +90,3 @@ You can recover your username or reset your password from the <a href="https://i
    Check your email for instructions to recover your username or password.
    
 [![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)
-
-
-
-
-
-
