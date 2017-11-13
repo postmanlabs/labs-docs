@@ -8,7 +8,7 @@ warning: false
 
 ---
 
-### What is a monitor
+### What is Postman Monitoring
 
 Postman monitoring lets you run a [collection](/docs/postman/collections/creating_collections) periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes to check if all the requests in your collection are up and healthy. 
 
