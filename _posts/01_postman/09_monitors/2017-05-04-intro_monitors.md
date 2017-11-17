@@ -49,7 +49,7 @@ There are a few minor differences between running collections in a Postman monit
 ##### **Multi-region Monitoring**
 
    *   Monitors allow you to run collections in specified geographic regions
-   *   Can only specify multi-region monitoring from the [monitors page](https://monitor.getpostman.com){:target="_blank"}
+   *   Can only specify multi-region monitoring from the [monitoring page](https://monitor.getpostman.com){:target="_blank"}
 
 ##### **Data Files**
 
@@ -69,7 +69,7 @@ Postman supports monitoring in 6 geographic regions around the world. If you’r
 
 For Postman Enterprise users, there is an additional option available to establish dedicated IP addresses for whitelisting and source logging to address security requirements for their team. For example, by setting up a static IP address for API monitoring, you can whitelist the dedicated IPs with your incoming servers to ensure they will accept requests from those IP addresses. Postman Enterprise users interested in setting up static IPs for their API monitoring should contact [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
 
-### Pricing for Monitoring
+### Pricing for monitoring
 
 Monitoring is priced per request made, with some free requests included every month. Learn more about [monitoring pricing](/docs/postman/monitors/pricing_monitors).
 
