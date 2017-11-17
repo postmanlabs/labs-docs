@@ -2,7 +2,7 @@
 categories:
   - "postman"
   - "monitors"
-title: "Intro to Monitors"
+title: "Intro to Monitoring"
 page_id: "intro_monitors"
 warning: false
 
