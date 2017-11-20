@@ -33,8 +33,8 @@ Postman does not save header data to prevent sensitive data exposure, such as AP
 If you want to inspect the authorization headers and parameters that Postman generates, click the **Preview Request** button. 
 
  [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)
- 
-**Note** You can inspect a raw dump of the entire request in the Postman console after you send it.
+
+**Note**:You can inspect a raw dump of the entire request in the Postman console after you send it.
  
 ### No Auth
 
