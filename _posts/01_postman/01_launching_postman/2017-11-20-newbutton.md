@@ -50,7 +50,7 @@ A collection is a group of individual requests that you can organize into folder
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)
 
 ### Creating environments
-While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. Environments let you customize requests using variables. 
+While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments)let you customize requests using variables. 
 
 1. To create an environment, click ‘Environment’ from the **New**  button drop down menu and enter a name for it. 
 2. Add the variables you want to save as key-value pairs.
@@ -59,7 +59,7 @@ While working with APIs, you often need different setups, such as your local mac
 
 ## ADVANCED
 ### Creating monitors
-A monitor runs a collection periodically to check its performance and response. You can set a monitor to run as frequently as every 5 minutes. 
+A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor) to run as frequently as every 5 minutes. 
 
 1. To create a monitor, click ‘Monitor’ from the **New** button drop down menu and enter the URLs you want to monitor, and indicate the response time and the response code. You can also select an existing collection to monitor all those requests. 
 2. Click ‘Next’ to enter the name of the monitor, how often you want the monitor to run, and the region you want to monitor.
@@ -71,12 +71,12 @@ You receive notifications when either the response code doesn’t match or the r
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_monitor_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_monitor_blk.png)
 
 ### Creating documentation
-You can create public or private documentation and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
+You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation)  and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
 
 1. To create documentation, click ‘Documentation’ from the **New** button drop down menu and enter the request URLs with the methods you want to document. 
 2. Click ‘Next’ to enter the name for the APIs and a general description for your API. 
 
-Postman creates a collection and generates documentation that you and your team can view.
+Postman creates a collection and generates documentation that you and your team can [ view.](//docs/postman/api_documentation/viewing_documentation)
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)
 
