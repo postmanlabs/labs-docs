@@ -34,7 +34,7 @@ If you want to inspect the authorization headers and parameters that Postman gen
 
  [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)
 
-**Note**:You can inspect a raw dump of the entire request in the Postman console after you send it.
+**Note**: You can inspect a raw dump of the entire request in the Postman console after you send it.
  
 ### No Auth
 
@@ -140,7 +140,7 @@ To use the OAuth 2.0 authorization:
 
 This table describes the parameters in the **GET NEW ACCESS TOKEN** screen.
 
-| **Get New Access Token Parameters**  | **Description** |
+| **Parameters**     | **Description** |
 | --- | --- |
 | Token Name| The name of the token. |
 | Grant Type| A drop down menu where you can specify one of the following grant types: "Authorization Code", "Implicit", "Password Credentials", and "Client Credentials".|
