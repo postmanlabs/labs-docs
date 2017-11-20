@@ -115,9 +115,7 @@ This table describes the parameters for OAuth 1.0 authorization.
 | Consumer Key | A consumer’s value that identifies itself to the service provider. |
 | Consumer Secret| A consumer’s secret that establishes ownership of the consumer key. |
 | Access Token |An object that contains the security identity. |
-
-
-| **Advanced Parameters**  | **Description** |
+| **Advanced Parameters** 
 | ---    | --- |
 | Signature Method | A consumer’s secret that establishes ownership of a given token. |
 | Time Stamp| The timestamp the server uses to prevent replay attacks outside the time window. |
