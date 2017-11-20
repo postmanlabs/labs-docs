@@ -53,7 +53,7 @@ While working with APIs, you often need different setups, such as your local mac
 IMAGE
 <br>
 
-ADVANCED
+## ADVANCED
 ### Creating monitors
 A monitor runs a collection periodically to check its performance and response. You can set a monitor to run as frequently as every 5 minutes. 
 
