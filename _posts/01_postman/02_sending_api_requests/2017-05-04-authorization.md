@@ -116,7 +116,6 @@ This table describes the parameters for OAuth 1.0 authorization.
 | Consumer Secret| A consumer’s secret that establishes ownership of the consumer key. |
 | Access Token |An object that contains the security identity. |
 | **Advanced Parameters** 
-| ---    | --- |
 | Signature Method | A consumer’s secret that establishes ownership of a given token. |
 | Time Stamp| The timestamp the server uses to prevent replay attacks outside the time window. |
 | Nonce |A unique string specified by the server www-Authenticate response header.|
