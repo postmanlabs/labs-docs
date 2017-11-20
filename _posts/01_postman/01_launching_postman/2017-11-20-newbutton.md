@@ -10,7 +10,19 @@ In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
 In **ADVANCED**, create a new monitor, documentation, and a mock server.
 
-You can select ‘Use a Template’ to use templates that are helpful to developers and DevOps operations, such as DNS and link checkers.
+You can select ‘Use a Template’ to for templates that help you:
+* Check links 
+
+* Track Github issues
+
+* Verify non-MFA access to AWS accounts
+
+* Monitor status of URLS
+
+* Check DNS records
+
+* Use Postman Echos to test your REST client and make sample API call
+
 
 You can also indicate whether to show the **Create New** modal each time you open Postman.
 
