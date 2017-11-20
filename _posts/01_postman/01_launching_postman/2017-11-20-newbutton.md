@@ -50,7 +50,7 @@ A collection is a group of individual requests that you can organize into folder
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)
 
 ### Creating environments
-While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments)let you customize requests using variables. 
+While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments) let you customize requests using variables. 
 
 1. To create an environment, click ‘Environment’ from the **New**  button drop down menu and enter a name for it. 
 2. Add the variables you want to save as key-value pairs.
@@ -71,7 +71,7 @@ You receive notifications when either the response code doesn’t match or the r
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_monitor_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_monitor_blk.png)
 
 ### Creating documentation
-You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation)  and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
+You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation) and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
 
 1. To create documentation, click ‘Documentation’ from the **New** button drop down menu and enter the request URLs with the methods you want to document. 
 2. Click ‘Next’ to enter the name for the APIs and a general description for your API. 
@@ -81,12 +81,12 @@ Postman creates a collection and generates documentation that you and your team 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)
 
 ### Creating mock servers
-A mock server simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
+A [mock server ](/docs/postman/mock_servers/setting_up_mock)simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
 
 1. To create a mock server, click ‘Mock Server’ from the **New** button drop down menu and enter the request endpoint and the expected response. 
 2. Then click ‘Next’ to enter the name of your APIs. You can indicate if you want this mock server to be private.
 
-Postman creates a collection and adds examples for individual requests. Postman also provides a mock URL you can share with the public, such as with front-end developers. They can send a request to this URL, followed by an endpoint, to get the corresponding response.
+Postman creates a collection and adds [examples](docs/postman/mock_servers/mocking_with_examples) for individual requests. Postman also provides a mock URL you can share with the public, such as with front-end developers. They can send a request to this URL, followed by an endpoint, to get the corresponding response.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)
 
