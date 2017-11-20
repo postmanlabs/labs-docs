@@ -34,7 +34,7 @@ If you want to inspect the authorization headers and parameters that Postman gen
 
  [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)
  
-You can inspect a raw dump of the entire request in the Postman console after you send it.
+**Note** You can inspect a raw dump of the entire request in the Postman console after you send it.
  
 ### No Auth
 
