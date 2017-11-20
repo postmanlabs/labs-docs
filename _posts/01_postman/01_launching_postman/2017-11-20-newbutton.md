@@ -32,7 +32,7 @@ You can also indicate whether to show the **Create New** modal each time you ope
 
 ## BUILDING BLOCKS
 ### Creating requests
-You can create any kind of HTTP request. 
+You can create any kind of [HTTP request.](docs/postman/sending_api_requests/requests)
 
 1. To create a request, click ‘Request’ from the **New** button drop down menu and enter a title and description. 
 2. Select a collection and save the request in it. 
