@@ -24,7 +24,7 @@ When you select 'Authorization' in the request builder, you see the **TYPE** dro
 
 **Note**: These authorization types are availble only for Postman native apps.
 
-> [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
+[![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
 
 You can use environment variables with all authorization types. You can also use these authorization types with Newman.
 
