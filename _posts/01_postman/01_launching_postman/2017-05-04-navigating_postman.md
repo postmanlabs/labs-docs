@@ -87,7 +87,7 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 
 [![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)
 
-When you click the Help & Feedback icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security,](https://www.getpostman.com/security) [support,](https://www.getpostman.com/support) and [social media.](https://twitter.com/postmanclient){:target="_blank"}
+When you click the Help & Feedback icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security,](https://www.getpostman.com/security) [support,](https://www.getpostman.com/support) and [social media.](https://twitter.com/postmanclient)
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)
 
