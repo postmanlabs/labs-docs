@@ -42,7 +42,7 @@ Select 'Show this window on launch' if you want to display the **Create New** mo
 
 ## BUILDING BLOCKS
 ### Creating requests
-You can create any kind of [HTTP request.](docs/postman/sending_api_requests/requests)
+You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/requests)
 
 1. To create a request, click ‘Request’ in the **New** button drop down menu and enter a title and description. 
 2. Select a collection and save the request in it. 
