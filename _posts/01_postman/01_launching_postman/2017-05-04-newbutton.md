@@ -1,7 +1,7 @@
 ---
 categories:
   - "postman"
-  - "launch"
+  - "launching_postman"
 title: "New button"
 page_id: "newbutton"
 warning: false
