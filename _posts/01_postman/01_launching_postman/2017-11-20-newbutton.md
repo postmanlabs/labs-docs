@@ -10,7 +10,7 @@ In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
 In **ADVANCED**, create a new monitor, documentation, and a mock server.
 
-You can select ‘Use a Template’ to for templates that help you:
+You can select ‘Use a Template’ for templates that help you:
 * Check links 
 
 * Track Github issues
