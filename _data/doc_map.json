@@ -34,7 +34,7 @@
           },
           {
             "title": "Syncing",
-            "href": "/docs/postman/launching_postman/syncing",
+           "href": "/docs/postman/launching_postman/syncing",
             "external": false
           },
           {
@@ -42,10 +42,11 @@
             "href": "/docs/postman/launching_postman/settings",
             "external": false
           },
-        {
+          {
             "title": "New button",
             "href": "/docs/postman/launching_postman/newbutton",
             "external": false
+          }
       },
       {
         "title": "Sending API requests",
