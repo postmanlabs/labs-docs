@@ -55,7 +55,7 @@ You can either create a new collection or select an existing one. After you save
 A collection is a group of individual requests that you can organize into folders. 
 
 1. To create a collection, click ‘Collection’ in the **New** button drop down menu and enter a name and description for it. 
-2. After [creating the collection ](docs/postman/collections/creating_collections), you can [save requests to this collection](/docs/postman/collections/sharing_collections) and add folders for [better organization.](/docs/postman/collections/managing_collections)
+2. After [creating the collection ](/docs/postman/collections/creating_collections), you can [save requests to this collection](/docs/postman/collections/sharing_collections) and add folders for [better organization.](/docs/postman/collections/managing_collections)
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)
 
@@ -86,7 +86,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
 1. To create documentation, click ‘Documentation’ in the **New** button drop down menu and enter the request URLs with the methods you want to document. 
 2. Click ‘Next’ to enter the name for the APIs and a general description for your API. 
 
-Postman creates a collection and generates documentation that you and your team can [ view.](//docs/postman/api_documentation/viewing_documentation)
+Postman creates a collection and generates documentation that you and your team can [ view.](/docs/postman/api_documentation/viewing_documentation)
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)
 
@@ -96,7 +96,7 @@ A [mock server ](/docs/postman/mock_servers/setting_up_mock)simulates each endpo
 1. To create a mock server, click ‘Mock Server’ in the **New** button drop down menu and enter the request endpoint and the expected response. 
 2. Then click ‘Next’ to enter the name of your APIs. You can indicate if you want this mock server to be private.
 
-Postman creates a collection and adds [examples](docs/postman/mock_servers/mocking_with_examples) for individual requests. Postman also provides a mock URL you can share with the public, such as with front-end developers. They can send a request to this URL, followed by an endpoint, to get the corresponding response.
+Postman creates a collection and adds [examples](/docs/postman/mock_servers/mocking_with_examples) for individual requests. Postman also provides a mock URL you can share with the public, such as with front-end developers. They can send a request to this URL, followed by an endpoint, to get the corresponding response.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)
 
