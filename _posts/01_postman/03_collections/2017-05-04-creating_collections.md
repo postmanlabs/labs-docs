@@ -49,21 +49,21 @@ The "Create New" screen appears.
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
+**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 1. Click "Collection". 
-2. In the CREATE A NEW COLLECTION screen, enter a name and optional description. 
+2. In the **CREATE A NEW COLLECTION** screen, enter a name and optional description. 
 3. Click the **Create** button.
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
 #### Launch screen
 
-The "Create New" screen appears by default when you launch Postman. (At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+The "Create New" screen appears by default when you launch Postman. At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 1. Open Postman.
 2. In the "Create New" screen, click "Collection".
-3. In the CREATE A NEW COLLECTION, enter a name and optional description. 
+3. In the **CREATE A NEW COLLECTION** screen , enter a name and optional description. 
 4. Click the **Create** button.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
@@ -87,7 +87,7 @@ You can save a request to a collection from the:
 #### New button
 1. In the header toolbar, click the **New** button.
 2. Click "Request".
-3. In the SAVE REQUEST screen, enter a title and description.
+3. In the **SAVE REQUEST** screen, enter a title and description.
 4. Select a collection and save the request in an existing collection or create a new collection. 
 5. Click the **Save** button.
 
@@ -100,7 +100,7 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 
 1. Open Postman.
 2. In the "Create New" screen, click "Request".
-3. In the SAVE REQUEST screen, enter a title and description.
+3. In the **SAVE REQUEST** screen, enter a title and description.
 4. Select a collection and save the request in an existing collection or create a new collection. 
 5. Click the **Save** button.
 
@@ -110,12 +110,11 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 
 [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
    
-
    
 2.  When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.
 3.  Chose an existing collection or a new collection, and click the **Save** button.
 
-### Duplicating an existing collectio
+### Duplicating an existing collection
 
 1.  Click the ellipses (...) to expand the control dropdown.   
    
