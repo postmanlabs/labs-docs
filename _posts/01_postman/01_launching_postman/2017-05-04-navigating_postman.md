@@ -238,7 +238,7 @@ You can change the width of the key and value columns by dragging the boundary o
 
 [![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)
 
-##### **Multiline support**8
+##### **Multiline support**
 
 The data editor supports sending multiline values. Pressing 'Enter' in a key or value field expands it and takes the cursor to a new line.
 
