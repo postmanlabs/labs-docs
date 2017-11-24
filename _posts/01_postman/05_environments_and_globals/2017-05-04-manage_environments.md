@@ -30,7 +30,7 @@ You can create a new environment from the:
 * Launch screen
 
 
-##### **Manage environments icon**
+#### **Manage environments icon**
 
 Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
@@ -42,7 +42,7 @@ Click the **Add** button to create a new environment.
 [![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)
 
 
-##### **New button**
+#### **New button**
 In the header toolbar, click the **New** button.
 
 [![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)
@@ -57,7 +57,7 @@ The "Create New" modal appears.
 
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
-##### **Launch screen**
+#### **Launch screen**
 The "Create New" screen appears by default when you launch Postman.
 
 * Open Postman.
