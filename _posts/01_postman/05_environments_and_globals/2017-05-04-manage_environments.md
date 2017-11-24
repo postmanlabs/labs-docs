@@ -8,7 +8,7 @@ warning: false
 
 ---
 
-## **What is an environment?**
+### **What is an environment?**
 
 An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/postman/launching_postman/navigating_postman) to modify an environment.
 
@@ -22,7 +22,7 @@ You can create, share, duplicate, export, and delete an environment. You can als
 
 [![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)
 
-## **Creating a new environment**
+### **Creating a new environment**
 
 You can create a new environment from the:
 * Manage Environments icon
@@ -30,20 +30,20 @@ You can create a new environment from the:
 * Launch screen
 
 
-### **Manage environments icon**
+#### **Manage environments icon**
 
-1. Click the "Manage Environments" icon in the upper right corner of the Postman app.
+Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
 [![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)
 
-2. Select “Manage Environments”.
-3. Click the **Add** button to create a new environment.
+Select “Manage Environments”.
+Click the **Add** button to create a new environment.
 
 [![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)
 
 
-### **New button**
-1. In the header toolbar, click the **New** button.
+#### **New button**
+In the header toolbar, click the **New** button.
 
 [![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)
 
@@ -51,9 +51,9 @@ The "Create New" modal appears.
 
 [![createNew](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)
 
-2. Click "Environment" and enter a name for the new environment.
-3. Add the variables you want to save as key-value pairs.
-4. Click the **Add** button.
+Click "Environment" and enter a name for the new environment.
+Add the variables you want to save as key-value pairs.
+Click the **Add** button.
 
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
@@ -62,24 +62,24 @@ The "Create New" screen appears by default when you launch Postman.
 
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
-1. Open Postman.
-2. In the "Create New" screen, click "Environment".
-3. Enter a name for the new environment.
-4. Add the variables you want to save as key-value pairs.
-5. Click the **Add** button.
+Open Postman.
+In the "Create New" screen, click "Environment".
+Enter a name for the new environment.
+Add the variables you want to save as key-value pairs.
+Click the **Add** button.
 
-## **Selecting an active environment**
+### **Selecting an active environment**
 
 Click the dropdown in the upper right corner of the Postman app to select an active environment, or type in the environment name. Once you select an environment, you can access variables within the active environmental scope.  
 [![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)
 
-## **Editing an active environment**
+### **Editing an active environment**
 
 Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. Clicking on the **Edit** link will open a modal for editing keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)
 
-## **Sharing an environment**
+### **Sharing an environment**
 
 Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". Click the **Duplicate Environment** icon next to the environment you want to share.
 
