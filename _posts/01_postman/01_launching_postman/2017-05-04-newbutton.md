@@ -55,7 +55,7 @@ You can either create a new collection or select an existing one. After you save
 A collection is a group of individual requests that you can organize into folders. 
 
 1. To create a collection, click ‘Collection’ in the **New** button drop down menu and enter a name and description for it. 
-2. After [creating the collection ](/docs/postman/collections/creating_collections), you can [save requests to this collection](/docs/postman/collections/sharing_collections) and add folders for [better organization.](/docs/postman/collections/managing_collections)
+2. After [creating the collection ](/docs/postman/collections/creating_collections), you can [save requests to this collection](/docs/postman/collections/creating_collections) and add folders for [better organization.](/docs/postman/collections/managing_collections)
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)
 
@@ -91,7 +91,7 @@ Postman creates a collection and generates documentation that you and your team 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)
 
 ### Creating mock servers
-A [mock server ](/docs/postman/mock_servers/setting_up_mock)simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
+A [mock server  ](/docs/postman/mock_servers/setting_up_mock)simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
 
 1. To create a mock server, click ‘Mock Server’ in the **New** button drop down menu and enter the request endpoint and the expected response. 
 2. Then click ‘Next’ to enter the name of your APIs. You can indicate if you want this mock server to be private.
