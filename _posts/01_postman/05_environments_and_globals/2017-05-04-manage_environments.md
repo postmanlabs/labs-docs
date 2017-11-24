@@ -44,11 +44,11 @@ You can create a new environment from the:
 #### **New button**
 1. In the header toolbar, click the **New** button.
 
-Image
+[![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)
 
 The "Create New" screen appears.
 
-Image
+[![createNew](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)
 
 2. Click "Environment" and enter a name for the new environment. 
 3. Add the variables you want to save as key-value pairs.
