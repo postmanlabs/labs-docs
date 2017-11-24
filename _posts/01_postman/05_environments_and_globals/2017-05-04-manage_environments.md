@@ -29,6 +29,7 @@ You can create a new environment from the:
 * New button
 * Launch screen
 
+
 #### **Manage environments icon**
 
 1. Click the "Manage Environments" icon in the upper right corner of the Postman app.
