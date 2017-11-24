@@ -10,10 +10,10 @@ warning: false
 
 ### **What is an environment?**
 
-An environment is a set of key-value pairs. The key represents the variable name. You can use a [data editor](/docs/postman/launching_postman/navigating_postman) to modify an environment.
+An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/postman/launching_postman/navigating_postman) to modify an environment.
 
 
-While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments lets you customize requests using variables so you can easily switch between different setups without changing your requests. You won’t have to remember all those values once they are in Postman. You can download environments and save them as JSON files and upload them later.
+While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments lets you customize requests using variables so you can easily switch between different setups without changing your requests. You won’t have to remember all those values once they are in Postman. You can download environments, save them as JSON files, and upload them later.
 
 You can create, share, duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
 
