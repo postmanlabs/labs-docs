@@ -15,6 +15,9 @@ An environment is a set of key-value pairs, with the key as the variable name. Y
 
 While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments lets you customize requests using variables so you can easily switch between different setups without changing your requests. You won’t have to remember all those values once they are in Postman. You can download environments and save them as JSON files and upload them later.
 
+You can create and share an environment, as well as duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
+
+
 > **Environment and global variables are always stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
 [![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)
@@ -63,8 +66,6 @@ The Create New screen appears by default when you launch Postman.
 3. Enter a name for the new environment. 
 4. Add the variables you want to save as key-value pairs.
 5. Click Add.
-
-Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". In addition to creating and sharing an environment, you can also duplicate, export, and delete an environment. This is also where you can import an environment as a single JSON file.
 
 ### **Selecting an active environment**
 
