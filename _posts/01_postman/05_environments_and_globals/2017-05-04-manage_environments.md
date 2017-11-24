@@ -57,15 +57,15 @@ The "Create New" screen appears.
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
  #### **Launch screen**
-The Create New screen appears by default when you launch Postman. 
+The "Create New" screen appears by default when you launch Postman. 
 
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
 1. Open Postman.
-2. In the Create New screen, click Environment.
+2. In the "Create New" screen, click "Environment".
 3. Enter a name for the new environment. 
 4. Add the variables you want to save as key-value pairs.
-5. Click Add.
+5. Click the **Add** button.
 
 ### **Selecting an active environment**
 
