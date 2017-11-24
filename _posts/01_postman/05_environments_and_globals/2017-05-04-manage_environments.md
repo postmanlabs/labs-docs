@@ -47,7 +47,7 @@ You can create a new environment from the:
 
 [![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)
 
-The "Create New" screen appears.
+The "Create New" modal appears.
 
 [![createNew](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)
 
