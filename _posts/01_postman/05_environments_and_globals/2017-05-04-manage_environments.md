@@ -52,14 +52,16 @@ Image
 
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
- #### **
-Launch screen**
-The Create New screen appears by default when you launch Postman. (At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
-Open Postman.
-In the Create New screen, click Environment.
-Enter a name for the new environment. 
-Add the variables you want to save as key-value pairs.
-Click Add.
+ #### **Launch screen**
+The Create New screen appears by default when you launch Postman. 
+
+**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+
+1. Open Postman.
+2. In the Create New screen, click Environment.
+3. Enter a name for the new environment. 
+4. Add the variables you want to save as key-value pairs.
+5. Click Add.
 
 Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". In addition to creating and sharing an environment, you can also duplicate, export, and delete an environment. This is also where you can import an environment as a single JSON file.
 
