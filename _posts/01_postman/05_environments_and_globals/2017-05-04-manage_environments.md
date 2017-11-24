@@ -39,17 +39,18 @@ Image
 
 
 #### **New button**
-In the header toolbar, click the **New** button.
+1. In the header toolbar, click the **New** button.
 
 Image
 
 The Create New screen appears.
 Image
 
-Note: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
-Click Environment and enter a name for the new environment. 
-Add the variables you want to save as key-value pairs.
-Click Add.
+2. Click Environment and enter a name for the new environment. 
+3. Add the variables you want to save as key-value pairs.
+4. Click Add.
+
+**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
  #### **
 Launch screen**
