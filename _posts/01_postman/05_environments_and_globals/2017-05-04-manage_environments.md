@@ -51,22 +51,22 @@ The "Create New" modal appears.
 
 [![createNew](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)
 
-Click "Environment" and enter a name for the new environment.
-Add the variables you want to save as key-value pairs.
-Click the **Add** button.
+* Click "Environment" and enter a name for the new environment.
+* Add the variables you want to save as key-value pairs.
+* Click the **Add** button.
 
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
-### **Launch screen**
+#### **Launch screen**
 The "Create New" screen appears by default when you launch Postman.
 
-**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+* Open Postman.
+* In the "Create New" screen, click "Environment".
+* Enter a name for the new environment.
+* Add the variables you want to save as key-value pairs.
+* Click the **Add** button.
 
-Open Postman.
-In the "Create New" screen, click "Environment".
-Enter a name for the new environment.
-Add the variables you want to save as key-value pairs.
-Click the **Add** button.
+**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
 ### **Selecting an active environment**
 
