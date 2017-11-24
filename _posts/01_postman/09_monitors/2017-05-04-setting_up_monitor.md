@@ -22,7 +22,7 @@ You can create a monitor for an existing collection from the sidebar.
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
-2. Select "Monitor Collection" to open the MONITOR COLLECTION screen.
+2. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
 3. Enter a name for this monitor and choose a corresponding environment. 
 4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
 5. Click the **Monitor this collection** button.
@@ -35,7 +35,7 @@ You can create a monitor for an existing collection from the sidebar.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The "Create New" screen appears.
+The "Create New" modal appears.
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
