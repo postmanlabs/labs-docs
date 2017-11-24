@@ -15,7 +15,7 @@ An environment is a set of key-value pairs, with the key as the variable name. Y
 
 While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments lets you customize requests using variables so you can easily switch between different setups without changing your requests. You won’t have to remember all those values once they are in Postman. You can download environments and save them as JSON files and upload them later.
 
-You can create and share an environment, as well as duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
+You can create, share, duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
 
 
 > **Environment and global variables are always stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
