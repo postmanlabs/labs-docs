@@ -32,18 +32,18 @@ You can create a new environment from the:
 
 #### **Manage environments icon**
 
-1. Click the "Manage Environments" icon in the upper right corner of the Postman app.
+Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
 [![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)
 
-2. Select “Manage Environments”. 
-3. Click the **Add** button to create a new environment.
+Select “Manage Environments”. 
+Click the **Add** button to create a new environment.
 
 [![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)
 
 
 #### **New button**
-1. In the header toolbar, click the **New** button.
+In the header toolbar, click the **New** button.
 
 [![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)
 
@@ -51,9 +51,9 @@ The "Create New" screen appears.
 
 [![createNew](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)
 
-2. Click "Environment" and enter a name for the new environment. 
-3. Add the variables you want to save as key-value pairs.
-4. Click the **Add** button.
+Click "Environment" and enter a name for the new environment. 
+Add the variables you want to save as key-value pairs.
+Click the **Add** button.
 
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
