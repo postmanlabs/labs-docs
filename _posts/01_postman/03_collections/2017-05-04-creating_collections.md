@@ -31,27 +31,28 @@ You can create a new collection from the:
 
 #### Sidebar
 
-* In the sidebar, select "Collections" and click the "Collections" icon.
+1. In the sidebar, select "Collections" and click the "Collections" icon.
 
-[![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
+ [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
 
-* Enter a name for your collection (and optional description).
-* Click the **Create** button.
+2. Enter a name for your collection (and optional description).
+3. Click the **Create** button.
 
 
 #### New button
 
-[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
-
 1. In the header toolbar, click the **New** button.
 
+
+ [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
+
 The **Create New** screen appears.
+
+ [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
 2. Click "Collection". 
 3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
 4. Click the **Create** button.
-
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
@@ -82,7 +83,7 @@ You can save a request to a collection from the:
 1.  In the request builder, enter a new request in the builder.
 2.  Click the **Save** button.  
     
-        [![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
+  [![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
     
 3.  Chose an existing collection or a new collection.
 4.  Click the **Save** button.
