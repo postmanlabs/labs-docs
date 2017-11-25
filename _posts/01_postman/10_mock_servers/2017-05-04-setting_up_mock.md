@@ -30,7 +30,7 @@ Once the mock has been created, Postman Pro and Enterprise users can share the m
 
 #### Creating a mock with the New button
 
-1.  In the header toolbar, click the **New** button.
+In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
@@ -39,12 +39,12 @@ The "Create New" screen appears.
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
-2. Click "Mock Server".
+1. Click "Mock Server".
 
 [![create mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)
 
 
-3. In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library". 
+2. In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library". 
    * New API
      
      Enter a request path, status code, response code and click the **Next** button.
