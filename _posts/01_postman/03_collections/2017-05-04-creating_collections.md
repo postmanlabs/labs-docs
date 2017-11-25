@@ -33,15 +33,16 @@ You can create a new collection from the:
 
 1. In the sidebar, select "Collections" and click the "Collections" icon.
 
->[![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
-
-2. Enter a name for your collection (and optional description).<br>
-3. Click the **Create** button.
-
+  [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
+  
+  <ol start="2">
+  <li>Enter a name for your collection (and optional description).<br></li>
+  <li>Click the **Create** button.</li>
+</ol>
 
 #### New button
 
-Step 1. In the header toolbar, click the **New** button.
+1. In the header toolbar, click the **New** button.
 
 
  [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
@@ -50,9 +51,12 @@ The **Create New** screen appears.
 
  [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
-Step 2. Click "Collection". 
-Step 3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
-Step 4. Click the **Create** button.
+ <ol start="2">
+  <li>Click "Collection".</li>
+  <li>In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. </li>
+  <li>Click the **Create** button. </li>
+</ol>
+
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
@@ -83,10 +87,12 @@ You can save a request to a collection from the:
 1.  In the request builder, enter a new request in the builder.
 2.  Click the **Save** button.  
     
-  [![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
-    
-3.  Chose an existing collection or a new collection.
-4.  Click the **Save** button.
+[![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
+
+ <ol start="3">
+  <li>Chose an existing collection or a new collecti</li>
+  <li> Click the **Save** button.</li>
+</ol>
 
 #### New button
 1. In the header toolbar, click the **New** button.
@@ -118,16 +124,19 @@ The  **Create New** screen appears by default when you launch Postman.
 
 [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
    
-
-2.  When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.
-3.  Chose an existing collection or a new collection, and click the **Save** button.
+ <ol start="2">
+  <li> When selecting multiple requests, click the plus icon (**+**) that displays at the top of the sidebar.</li>
+  <li> Chose an existing collection or a new collection, and click the **Save** button.</li>
+</ol>
 
 ### Duplicating an existing collection
 
 1.  Click the ellipses (...) to expand the control dropdown.   
    
-        [![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
+[![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
 
-2.  Select "Duplicate" from the menu.
+<ol start="2">
+  <li> Select "Duplicate" from the menu.</li>
+</ol>
 
 Learn how to [share collections](/docs/postman/collections/sharing_collections), [importing and exporting collections](/docs/postman/collections/data_formats), and [other collection features](/docs/postman/collections/managing_collections).  
