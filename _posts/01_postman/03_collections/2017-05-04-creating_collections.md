@@ -124,7 +124,7 @@ The  **Create New** screen appears by default when you launch Postman.
 
 [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
    
-   ol start="2">
+ <ol start="2">
   <li>When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.</li>
   <li> Chose an existing collection or a new collection, and click the **Save** button.</li>
 </ol>
@@ -135,6 +135,8 @@ The  **Create New** screen appears by default when you launch Postman.
    
 [![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
 
-2.  Select "Duplicate" from the menu.
+<ol start="2">
+  <li> Select "Duplicate" from the menu.</li>
+</ol>
 
 Learn how to [share collections](/docs/postman/collections/sharing_collections), [importing and exporting collections](/docs/postman/collections/data_formats), and [other collection features](/docs/postman/collections/managing_collections).  
