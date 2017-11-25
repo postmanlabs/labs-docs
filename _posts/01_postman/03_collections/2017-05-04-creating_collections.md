@@ -35,8 +35,8 @@ You can create a new collection from the:
 
   [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
 
-1. Enter a name for your collection (and optional description).
-1. Click the **Create** button.
+2. Enter a name for your collection (and optional description).
+3. Click the **Create** button.
 
 
 #### New button
