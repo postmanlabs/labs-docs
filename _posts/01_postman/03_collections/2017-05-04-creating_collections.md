@@ -92,7 +92,7 @@ You can save a request to a collection from the:
 2. Click the **Save** button.
 
  <ol start="3">
-  <li>Chose an existing collection or a new collection<./li>
+  <li>In the **SAVE REQUEST** modal, enter a request name, and select a collection or folder to save the request.<./li>
   <li> Click the **Save** button.</li>
 </ol>
      
