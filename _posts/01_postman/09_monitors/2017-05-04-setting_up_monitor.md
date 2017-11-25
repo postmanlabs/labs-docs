@@ -17,21 +17,21 @@ You can create a monitor from the:
 * Postman web 
  
 ### Sidebar menu
-You can create a monitor for an existing collection from the sidebar.
-1. In the Postman app, click on the ellipses (…) next to the collection you wish to monitor. 
+You can create a monitor for an existing collection from the sidebar. <br>
+In the Postman app, click on the ellipses (…) next to the collection you wish to monitor. 
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
-2. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
-3. Enter a name for this monitor and choose a corresponding environment. 
-4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
-5. Click the **Monitor this collection** button.
+1. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
+2. Enter a name for this monitor and choose a corresponding environment. 
+3. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
+4. Click the **Monitor this collection** button.
 
 [![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)
 
 ### New button
 
-1. In the header toolbar, click the **New** button.
+In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
@@ -104,8 +104,8 @@ Postman Enterprise users interested in setting up dedicated IPs for their API mo
 
 | **Additional preferences** | **Description** |
 | --- | --- |
-| Email notifications | Get notifications about failures on up to 5 email addresses. |
-| Request timeout | Specify a time interval after which your request is considered to time-out. |
-| Delay between requests | Add a time lag between subsequent requests. |
-| Don’t follow redirects | Disable following all redirects. |
-| Disable SSL validation | This disables validations performed on SSL certificates. Check this if you use self-signed certificates. Use with caution! |
+| Email notifications | Gets notifications about failures on up to 5 email addresses. |
+| Request timeout | Specifies a time interval after which your request is considered to time-out. |
+| Delay between requests | Adds a time lag between subsequent requests. |
+| Don’t follow redirects | Disables all following redirects. |
+| Disable SSL validation | Disables validations performed on SSL certificates. Check this if you use self-signed certificates. Use with caution! |
