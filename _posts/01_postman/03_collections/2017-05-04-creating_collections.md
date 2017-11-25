@@ -31,27 +31,26 @@ You can create a new collection from the:
 
 #### Sidebar
 
+[![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
+
 1.  In the sidebar, select "Collections" and click the "Collections" icon.
-
-        [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
-
 2.  Enter a name for your collection (and optional description).
 3.  Click the **Create** button.
 
 
 #### New button
 
+[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
+
 1. In the header toolbar, click the **New** button.
 
-        [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
-
 The **Create New** screen appears.
-
-        [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
 2. Click "Collection". 
 3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
 4. Click the **Create** button.
+
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
