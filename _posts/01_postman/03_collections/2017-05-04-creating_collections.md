@@ -89,11 +89,11 @@ You can save a request to a collection from the:
 #### Request builder
 
 1. In the request builder, enter a new request in the builder.
-2. Click the **Save** button.
-
- <ol start="3">
-  <li>In the **SAVE REQUEST** modal, enter a request name, and select a collection or folder to save the request.<./li>
-  <li> Click the **Save** button.</li>
+2. Click the **Save** button.  
+    
+<ol start="3">
+  <li>In the **SAVE REQUEST** modal, enter a request name, and select a collection or folder to save the request..<br></li>
+  <li>Click the **Save** button.</li>
 </ol>
      
 
