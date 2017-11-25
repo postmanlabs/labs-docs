@@ -100,10 +100,10 @@ After you save the request, you can add the URL, method, headers, and body to th
 [![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)
 
 #### Launch screen
-The "Create New" screen appears by default when you launch Postman. 
+The  **Create New** screen appears by default when you launch Postman. 
 
 1. Open Postman.
-2. In the "Create New" screen, click "Request".
+2. In the  **Create New** screen, click "Request".
 3. In the **SAVE REQUEST** screen, enter a title and description.
 4. Select a collection and save the request in an existing collection or create a new collection. 
 5. Click the **Save** button.
