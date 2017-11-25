@@ -47,7 +47,6 @@ You can create a new collection from the:
 
 1. In the header toolbar, click the **New** button.
 
-
  [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
 The **Create New** screen appears.
