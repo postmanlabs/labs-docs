@@ -88,7 +88,8 @@ You can save a request to a collection from the:
 2.  Click the **Save** button.  
     
 [![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
-ol start="3">
+
+ <ol start="3">
   <li>Chose an existing collection or a new collecti</li>
   <li> Click the **Save** button.</li>
 </ol>
