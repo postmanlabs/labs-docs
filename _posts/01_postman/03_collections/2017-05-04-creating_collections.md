@@ -56,6 +56,7 @@ The **Create New** screen appears.
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
+<br>
 
 #### Launch screen
 
