@@ -49,13 +49,13 @@ The **Create New** screen appears.
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
-
 1. Click "Collection". 
 2. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
 3. Click the **Create** button.
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
+
+**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
 
 #### Launch screen
 
@@ -69,7 +69,6 @@ The **Create New** screen appears by default when you launch Postman.
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
-
 
 ### Saving a request to a collection
 
