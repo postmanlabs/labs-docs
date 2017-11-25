@@ -26,24 +26,26 @@ You can create, share, duplicate, export, and delete an environment. You can als
 
 You can create a new environment from the:
 * Manage Environments icon
-* New button
+* **New** button
 * Launch screen
 
 
 #### **Manage environments icon**
 
-Click the "Manage Environments" icon in the upper right corner of the Postman app.
+1. Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
 [![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)
 
-Select “Manage Environments”.
-Click the **Add** button to create a new environment.
+<ol start="2">
+  <li>Select “Manage Environments”.</li>
+  <li>Click the **Add** button to create a new environment.</li>
+</ol>
 
 [![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)
 
 
 #### **New button**
-In the header toolbar, click the **New** button.
+1. In the header toolbar, click the **New** button.
 
 [![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)
 
@@ -51,20 +53,22 @@ The "Create New" modal appears.
 
 [![createNew](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)
 
-* Click "Environment" and enter a name for the new environment.
-* Add the variables you want to save as key-value pairs.
-* Click the **Add** button.
+<ol start="2">
+  <li>Click "Environment" and enter a name for the new environment.</li>
+  <li>Add the variables you want to save as key-value pairs.</li>
+  <li>Click the **Add** button.</li>
+</ol>
 
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
 #### **Launch screen**
 The "Create New" screen appears by default when you launch Postman.
 
-* Open Postman.
-* In the "Create New" screen, click "Environment".
-* Enter a name for the new environment.
-* Add the variables you want to save as key-value pairs.
-* Click the **Add** button.
+1. Open Postman.
+2. In the "Create New" screen, click "Environment".
+3. Enter a name for the new environment.
+4. Add the variables you want to save as key-value pairs.
+5. Click the **Add** button.
 
 **Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
 
