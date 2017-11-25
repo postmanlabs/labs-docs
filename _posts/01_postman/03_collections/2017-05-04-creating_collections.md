@@ -87,10 +87,11 @@ You can save a request to a collection from the:
 1.  In the request builder, enter a new request in the builder.
 2.  Click the **Save** button.  
     
-  [![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
-    
-3.  Chose an existing collection or a new collection.
-4.  Click the **Save** button.
+[![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
+ol start="3">
+  <li>Chose an existing collection or a new collecti</li>
+  <li> Click the **Save** button.</li>
+</ol>
 
 #### New button
 1. In the header toolbar, click the **New** button.
@@ -122,15 +123,16 @@ The  **Create New** screen appears by default when you launch Postman.
 
 [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
    
-
-2.  When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.
-3.  Chose an existing collection or a new collection, and click the **Save** button.
+   ol start="2">
+  <li>When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.</li>
+  <li> Chose an existing collection or a new collection, and click the **Save** button.</li>
+</ol>
 
 ### Duplicating an existing collection
 
 1.  Click the ellipses (...) to expand the control dropdown.   
    
-        [![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
+[![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
 
 2.  Select "Duplicate" from the menu.
 
