@@ -28,6 +28,7 @@ You can create a new collection from the:
 * **New** button 
 * Launch screen
 
+<br>
 
 #### Sidebar
 
@@ -39,6 +40,8 @@ You can create a new collection from the:
   <li>Enter a name for your collection (and optional description).<br></li>
   <li>Click the **Create** button.</li>
 </ol>
+
+<br>
 
 #### New button
 
@@ -61,6 +64,7 @@ The **Create New** screen appears.
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
+
 <br>
 
 #### Launch screen
@@ -79,20 +83,21 @@ After you save the request, you can add the URL, method, headers, and body to th
 ### Saving a request to a collection
 
 You can save a request to a collection from the:
-* Sidebar
+* Request builder
 * **New** button 
 * Launch screen
 
 #### Request builder
-1.  In the request builder, enter a new request in the builder.
-2.  Click the **Save** button.  
-    
-[![save button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SAVE_send2.png)
+
+1. In the request builder, enter a new request in the builder.
+2. Click the **Save** button.
 
  <ol start="3">
-  <li>Chose an existing collection or a new collecti</li>
+  <li>Chose an existing collection or a new collection<./li>
   <li> Click the **Save** button.</li>
 </ol>
+     
+<br>
 
 #### New button
 1. In the header toolbar, click the **New** button.
