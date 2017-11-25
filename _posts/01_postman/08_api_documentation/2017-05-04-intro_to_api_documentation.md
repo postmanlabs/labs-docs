@@ -21,7 +21,7 @@ You can create documentation from the:
 
 #### New button
 
-1.  In the header toolbar, click the **New** button.
+In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
@@ -30,12 +30,12 @@ The "Create New" screen appears.
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
-2. Click "Documentation".
+Click "Documentation".
 
 [![create docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)
 
 
-3. In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library". 
+In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library". 
    * New API
      
      Select the method, enter a request URL, and click the **Next** button.
