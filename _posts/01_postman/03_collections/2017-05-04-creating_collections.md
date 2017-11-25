@@ -41,7 +41,7 @@ Step 3. Click the **Create** button.
 
 #### New button
 
-1. In the header toolbar, click the **New** button.
+Step 1. In the header toolbar, click the **New** button.
 
 
  [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
@@ -50,9 +50,9 @@ The **Create New** screen appears.
 
  [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
-2. Click "Collection". 
-3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
-4. Click the **Create** button.
+Step 2. Click "Collection". 
+Step 3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
+Step 4. Click the **Create** button.
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
