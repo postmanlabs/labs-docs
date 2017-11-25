@@ -125,7 +125,7 @@ The  **Create New** screen appears by default when you launch Postman.
 [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
    
  <ol start="2">
-  <li>When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.</li>
+  <li> When [selecting multiple requests](/docs/postman/sending_api_requests/history#multi-selecting-requests), click the plus icon (**+**) that displays at the top of the sidebar.</li>
   <li> Chose an existing collection or a new collection, and click the **Save** button.</li>
 </ol>
 
