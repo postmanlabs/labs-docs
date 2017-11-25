@@ -31,10 +31,12 @@ You can create a new collection from the:
 
 #### Sidebar
 
-* In the sidebar, select "Collections" and click the "Collections" icon.
-[![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
-* Enter a name for your collection (and optional description).
-* Click the **Create** button.
+1. In the sidebar, select "Collections" and click the "Collections" icon.
+
+  [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
+
+1. Enter a name for your collection (and optional description).
+1. Click the **Create** button.
 
 
 #### New button
