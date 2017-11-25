@@ -96,7 +96,6 @@ You can save a request to a collection from the:
   <li> Click the **Save** button.</li>
 </ol>
      
-<br>
 
 #### New button
 1. In the header toolbar, click the **New** button.
