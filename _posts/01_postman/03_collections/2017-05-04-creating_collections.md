@@ -27,7 +27,8 @@ You can create a new collection from the:
 * Sidebar
 * **New** button 
 * Launch screen
-<br>
+
+
 #### Sidebar
 
 1.  In the sidebar, select "Collections" and click the "Collections" icon.
@@ -36,7 +37,8 @@ You can create a new collection from the:
 
 2.  Enter a name for your collection (and optional description).
 3.  Click the **Create** button.
-<br>
+
+
 #### New button
 
 1. In the header toolbar, click the **New** button.
@@ -55,6 +57,7 @@ After creating the collection, you can save requests to the collection and add f
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
 <br>
+
 #### Launch screen
 
 The **Create New** screen appears by default when you launch Postman. 
