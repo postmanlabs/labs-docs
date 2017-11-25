@@ -41,9 +41,9 @@ The "Create New" modal appears.
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
-2. Click "Monitor".
+1. Click "Monitor".
 
-3. In the "Create a monitor" screen, you can create a monitor for a "New API", "My Collections", and "Team Library". 
+2. In the "Create a monitor" screen, you can create a monitor for a "New API", "My Collections", and "Team Library". 
    * New API
      
      Enter a request path, status code, response code and click the **Next** button.
