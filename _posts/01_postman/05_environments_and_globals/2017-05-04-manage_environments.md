@@ -38,7 +38,7 @@ You can create a new environment from the:
 
 <ol start="2">
   <li>Select “Manage Environments”.</li>
-  <li>Click the **Add** button to create a new environment.</li>
+  <li>Click the <b>Add</b> button to create a new environment.</li>
 </ol>
 
 [![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)
@@ -49,28 +49,28 @@ You can create a new environment from the:
 
 [![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)
 
-The "Create New" modal appears.
+The **Create New** screen appears.
 
 [![createNew](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createNew_whiteTheme.png)
 
 <ol start="2">
   <li>Click "Environment" and enter a name for the new environment.</li>
   <li>Add the variables you want to save as key-value pairs.</li>
-  <li>Click the **Add** button.</li>
+  <li>Click the <b>Add</b> button.</li>
 </ol>
 
-**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the **Create New** screen to display each time you open Postman.
 
 #### **Launch screen**
-The "Create New" screen appears by default when you launch Postman.
+The **Create New** screen appears by default when you launch Postman.
 
 1. Open Postman.
-2. In the "Create New" screen, click "Environment".
+2. In the **Create New** screen, click "Environment".
 3. Enter a name for the new environment.
 4. Add the variables you want to save as key-value pairs.
 5. Click the **Add** button.
 
-**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the **Create New** screen to display each time you open Postman.
 
 ### **Selecting an active environment**
 
@@ -79,7 +79,7 @@ Click the dropdown in the upper right corner of the Postman app to select an act
 
 ### **Editing an active environment**
 
-Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. Clicking on the **Edit** link will open a modal for editing keys and values.
+Click the **Quick Look** icon in the upper right corner of the Postman app to display the environment and global variables. Clicking on the **Edit** link will open a modal for editing keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)
 
