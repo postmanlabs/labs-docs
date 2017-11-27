@@ -7,7 +7,7 @@ page_id: "authorization"
 warning: false
 
 ---
-The authorization process verifies whether a user has permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. 
+The authorization process verifies whether you have permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. 
 Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
 When you select 'Authorization' in the request builder, you see the **TYPE** drop down menu. 
@@ -120,7 +120,7 @@ This table describes the parameters for OAuth 1.0 authorization.
 | Version |The 1.0 version of the OAuth authentication protocol.|
 | Realm |A string specified by the server in the www-Authenticate response header. |
 
-**Note**: Some implementations of OAuth 1.0 require empty parameters to be added to the signature. You can select to add empty parameters to signature.
+**Note**: Some implementations of OAuth 1.0 require empty parameters to be added to the signature. You can select "Add empty parameters to signature" to add empty parameters.
 
 ### OAuth 2.0
 
