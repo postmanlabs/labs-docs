@@ -193,7 +193,7 @@ This table describes the advanced parameters for Hawk Authentication. Advanced c
 
 ### Amazon Web Services (AWS) authentication
 
-AWS is the authorization workflow for Amazon Work Services (AWS) requests. AWS users must use a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication. Postman supports this scheme.
+AWS is the authorization workflow for Amazon Work Services requests. AWS users must use a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication. Postman supports this scheme.
 
 Read more about the AWS Signature on AWS documentation:
 
