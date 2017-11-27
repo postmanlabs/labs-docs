@@ -22,7 +22,7 @@ When you select 'Authorization' in the request builder, you see the **TYPE** dro
 * NTLM Authentication [Beta]
 
 
-**Note**: These authorization types are availble only for Postman native apps.
+**Note**: NTLM and Bearer token are only available in Postman native apps. All other authorization types are available in Postman native apps and the Chrome app. Note that Chrome app is being deprecated.
 
 [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
 
