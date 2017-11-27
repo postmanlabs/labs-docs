@@ -17,7 +17,7 @@ Find lets you search in collections, environments, and globals.
 2. Enter the term you want to search and determine the search settings.
 3. Click the **Find** button.
 
-**Note**: Windows and Linux users can press CMD+SHIFT+F as a keyboard shortcut to access Find.
+**Note**: Windows and Linux users can press **CMD+SHIFT+F** as a keyboard shortcut to access Find.
 
 #### Determine your search settings
 You can set search settings to:
@@ -64,8 +64,8 @@ As you browse search results, you can collapse the entities you don’t want to 
 | --- | --- |
 | To expand and collapse entities, click the entity name in the results area.| IMAGE |
 | In Collections, you can open a specific request in the builder when you click on 'Open in builder'. | IMAGE |
-| In Environments, you can open a specific request in MANAGE ENVIRONMENTS when you click on 'Open'. |  IMAGE  |
-| In Globals, you can open a specific request in MANAGE ENVIRONMENTS when you click on 'Open'. |  IMAGE  |
+| In Environments, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click on 'Open'. |  IMAGE  |
+| In Globals, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click on 'Open'. |  IMAGE  |
 | You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on. When you hover over a value or description, a tooltip displays with information about the key.  |  IMAGE  |
 
 ### Filtering by name or description
