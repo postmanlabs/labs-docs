@@ -41,10 +41,10 @@ You can search through all collections, environments, and globals.
 
 | **Setting**  | **Description** |
 | --- | --- |
-| Everything| Search all collections, environments, and globals. ‘Everything’ is the default setting.  |
+| Everything| Search all collections, environments, and globals. "Everything" is the default setting.  |
 | Choose entities to find:| Select whether to direct your search in collections, environments, or globals. |
-| Collections | Select this setting to search in collections. You can specify the collection to search or click Select all to search all collections.<br> [![findCollection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg) |
-| Environments| Select this setting to search in environments. You can specify the environments to search or click Select all to search all environments.<br>   [![findEnvironment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments.jpeg)|
+| Collections | Select this setting to search in collections. You can specify the collection to search or click "Select all" to search all collections.<br> [![findCollection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_searchCollections.jpg) |
+| Environments| Select this setting to search in environments. You can specify the environments to search or click "Select all" to search all environments.<br>   [![findEnvironment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments.jpeg)|
 | Globals| Select this setting to search in globals. <br> [![findGlobals](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals.jpeg) |
 
 
@@ -63,9 +63,9 @@ As you browse search results, you can collapse the entities you don’t want to 
 |  |  |
 | --- | --- |
 | To expand and collapse entities, click the entity name in the results area.| IMAGE |
-| In Collections, you can open a specific request in the builder when you click on 'Open in builder'. | IMAGE |
-| In Environments, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click on 'Open'. |  IMAGE  |
-| In Globals, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click on 'Open'. |  IMAGE  |
+| In Collections, you can open a specific request in the builder when you click "Open in builder". | IMAGE |
+| In Environments, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click "Open". |  IMAGE  |
+| In Globals, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click on "Open". |  IMAGE  |
 | You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on. When you hover over a value or description, a tooltip displays with information about the key.  |  IMAGE  |
 
 ### Filtering by name or description
@@ -80,7 +80,7 @@ You can favorite collections in the Team Library like you do in the **Collection
 
 ### Sorting
 
-You can re-order collections in the Team Library by Name, Last Modified, Owner, or by Date Created. Remember that collections that you have favorited will be at the top but now sorted by the criteria you selected.
+You can re-order collections in the Team Library by "Name", "Last Modified", "Owner", or by "Date Created". Remember that collections that you have favorited will be at the top but now sorted by the criteria you selected.
 
 [![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLibrarySort.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLibrarySort.png)
 
