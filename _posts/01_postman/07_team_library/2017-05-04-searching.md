@@ -8,9 +8,9 @@ warning: false
 ---
 
 ### Searching in Postman
-Find lets you search in collections, environments, and globals. 
+The **Find** icon in the status bar lets you search in collections, environments, and globals. 
 
-1. Click on the **Find** icon in the status bar. 
+1. Click the **Find** icon. 
 
 [![findIcon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_icon2.png)
 
