@@ -9,9 +9,9 @@ warning: false
 ---
 
 ### Searching in Postman
-Find lets you search in collections, environments, and globals. 
+The **Find** icon in the status bar lets you search in collections, environments, and globals. 
 
-1. Click on the **Find** icon in the status bar. 
+1. Click the **Find** icon. 
 
 [![findIcon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_icon2.png)
 
@@ -63,11 +63,11 @@ As you browse search results, you can collapse the entities you don’t want to 
 
 |  |  |
 | --- | --- |
-| To expand and collapse entities, click the entity name in the results area.| [![find_navigation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults3.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults3.jpeg) |
-| In Collections, you can open a specific request in the builder when you click "Open in builder". | [![find_open_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)|
-| In Environments, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click "Open". |[![find_environ_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_environments_Open.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_environments_Open.jpeg)  |
-| In Globals, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click on "Open". |[![find_openSearch](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)  |
-| You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on. When you hover over a value or description, a tooltip displays with information about the key.  |  [![find_toolTip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)  |
+| To expand and collapse entities, click the entity name in the results area.| [![find_navigation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults4.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults4.jpeg) |
+| In Collections, click "Open in builder" to specify a request in the builder. | [![find_open_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)|
+| In Environments, click "Open" to specify a request in the **MANAGE ENVIRONMENTS** modal. |[![find_environ_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_environments_Open.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_environments_Open.jpeg)  |
+| In Globals,  click "Open" to specify a request in the **MANAGE ENVIRONMENTS** modal. |[![find_openSearch](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)  |
+| Hover over a value or description to see a tooltip with information about the key. You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on.   |  [![find_toolTip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)  |
 
 ### Filtering by name or description
 
