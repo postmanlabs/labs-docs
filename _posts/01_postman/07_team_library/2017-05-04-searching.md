@@ -63,7 +63,7 @@ As you browse search results, you can collapse the entities you don’t want to 
 |  |  |
 | --- | --- |
 | To expand and collapse entities, click the entity name in the results area.| [![find_navigation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults3.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults3.jpeg) |
-| In Collections, you can open a specific request in the builder when you click "Open in builder". | [![find_open_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld2.jpeg)|
+| In Collections, you can open a specific request in the builder when you click "Open in builder". | [![find_open_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)|
 | In Environments, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click "Open". |  IMAGE  |
 | In Globals, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click on "Open". |  IMAGE  |
 | You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on. When you hover over a value or description, a tooltip displays with information about the key.  |  IMAGE  |
