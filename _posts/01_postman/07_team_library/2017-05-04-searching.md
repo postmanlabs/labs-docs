@@ -62,7 +62,7 @@ As you browse search results, you can collapse the entities you don’t want to 
 
 |  |  |
 | --- | --- |
-| To expand and collapse entities, click the entity name in the results area.| [![find_navigation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults.jpeg) |
+| To expand and collapse entities, click the entity name in the results area.| [![find_navigation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults1.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults1.jpeg) |
 | In Collections, you can open a specific request in the builder when you click "Open in builder". | IMAGE |
 | In Environments, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click "Open". |  IMAGE  |
 | In Globals, you can open a specific request in the **MANAGE ENVIRONMENTS** modal when you click on "Open". |  IMAGE  |
