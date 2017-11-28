@@ -9,7 +9,18 @@ warning: false
 ---
 
 ### Searching in Postman
-The **Find** icon in the status bar lets you search in collections, environments, and globals. 
+Searching in Postman enables you to:
+* Determine search settings
+* Refine search expressions
+* Indicate where to search
+* Filter search results
+* Navigate search results
+* Filter search results by name and description
+* Select favorite collections
+* Sort collections
+* Search with the Slack bot
+
+To begin a search, locate the **Find** icon in the status bar to search collections, environments, and globals. 
 
 1. Click the **Find** icon. 
 
@@ -69,22 +80,22 @@ As you browse search results, you can collapse the entities you don’t want to 
 | In Globals,  click "Open" to specify a request in the **MANAGE ENVIRONMENTS** modal. |[![find_openSearch](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)  |
 | Hover over a value or description to see a tooltip with information about the key. You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on.   |  [![find_toolTip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)  |
 
-### Filtering by name or description
+#### Filter by name or description
 
 To quickly filter the list of collections in your library, begin typing the collection name or description in the search input field.
 
 [![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_name_desc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_name_desc.png)
 
-### Favoriting
+#### Select favorite collections
 
 You can favorite collections in the Team Library like you do in the **Collections** sidebar. Click on the star icon to bring the collection(s) to the top of the list. Favorited collections from both places will always be listed at the top.
 
-### Sorting
+#### Sort collections
 
 You can re-order collections in the Team Library by "Name", "Last Modified", "Owner", or by "Date Created". Remember that collections that you have favorited will be at the top but now sorted by the criteria you selected.
 
 [![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_sort.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_sort.png)
 
-### Searching through the Slack Bot
+#### Search with the Slack Bot
 
 You can integrate the Postman Pro Search Slack bot and get more detailed search results too. This feature will be available in the Team Library soon. Read more about the [Slack Bot](http://blog.getpostman.com/2015/09/24/api-integrations-using-postman-building-a-slack-channel-bot/){:target="_blank"}.
