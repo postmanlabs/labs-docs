@@ -72,7 +72,7 @@ As you browse search results, you can collapse the entities you don’t want to 
 
 To quickly filter the list of collections in your library, begin typing the collection name or description in the search input field.
 
-[![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLibraryFilter.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLibraryFilter.png)
+[![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_name_desc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_name_desc.png)
 
 ### Favoriting
 
