@@ -82,7 +82,7 @@ You can favorite collections in the Team Library like you do in the **Collection
 
 You can re-order collections in the Team Library by "Name", "Last Modified", "Owner", or by "Date Created". Remember that collections that you have favorited will be at the top but now sorted by the criteria you selected.
 
-[![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLibrarySort.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLibrarySort.png)
+[![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_sort.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_sort.png)
 
 ### Searching through the Slack Bot
 
