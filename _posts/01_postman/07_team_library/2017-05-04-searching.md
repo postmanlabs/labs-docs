@@ -66,7 +66,7 @@ To narrow results in specific fields, you can choose the fields to exclude from 
 <h3 id="navigate">Navigate search results</h3>
 As you browse search results, you can collapse the entities you don’t want to see.
 
-|2 | 2  |
+|**Action** |**Example**  |
 | --- | --- |
 | To expand and collapse entities, click the entity name in the results area.| [![find_navigation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults4.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults4.jpeg) |
 | In Collections, click "Open in builder" to specify a request in the builder. | [![find_open_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)|
