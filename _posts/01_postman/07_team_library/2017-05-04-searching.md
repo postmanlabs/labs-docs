@@ -30,11 +30,7 @@ To begin a search, locate the **Find** icon in the status bar to search collecti
 **Note**: You can use a keyboard shortcut to access Find. Windows and Linux users: **CTRL+SHIFT+f**. Mac users: **CMD+SHIFT+f**. 
 
 <h3 id="determine">Determine search settings</h3>
-You can set search settings to:
-* Refine search expressions
-* Indicate where to search
-* Filter search results
-* Navigate search results
+You can set search settings to refine search expressions, indicate where to search, filter search results, and navigate search results.
 
 <h4 id="refine">Refine search settings</h4>
 You can refine your search expression by selecting a regular expression or ignore case. 
