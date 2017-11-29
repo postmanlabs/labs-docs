@@ -7,7 +7,7 @@ page_id: "searching"
 warning: false
 ---
 
-Searching in Postman enables you to:
+When you search in Postman, you can:
 * [Determine search settings](#determine) 
 * [Refine search expressions](#refine)
 * [Indicate where to search](#indicate)
