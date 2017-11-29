@@ -9,7 +9,7 @@ warning: false
 
 ### Searching in Postman
 Searching in Postman enables you to:
-* [Determine search settings] (#Determine-your-search settings)
+* Determine search settings 
 * Refine search expressions
 * Indicate where to search
 * Filter search results
