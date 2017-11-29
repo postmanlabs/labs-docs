@@ -12,12 +12,12 @@ Searching in Postman enables you to:
 * [Determine search settings](#Determine-search-settings) 
 * [Refine search expressions](#Refine-search-expression)
 * [Indicate where to search](#Indicate-where-to-search)
-* [Filter search results] (#Filter search results)
-* [Navigate search results] (#Navigate-search-results)
-* [Filter by name and description] (#Filter-by-name-or-description)
-* [Select favorite collections] (#Filter-by-name-or-description)
-* [Sort collections] (#Sort-collections)
-* [Search with the Slack bot] (#Search-with-the-Slack-Bot)
+* [Filter search results](#Filter search results)
+* [Navigate search results](#Navigate-search-results)
+* [Filter by name and description](#Filter-by-name-or-description)
+* [Select favorite collections](#Filter-by-name-or-description)
+* [Sort collections](#Sort-collections)
+* [Search with the Slack bot](#Search-with-the-Slack-Bot)
 
 To begin a search, locate the **Find** icon in the status bar to search collections, environments, and globals. 
 
