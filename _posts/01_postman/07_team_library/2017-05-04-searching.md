@@ -10,14 +10,14 @@ warning: false
 ### Searching in Postman
 Searching in Postman enables you to:
 * [Determine search settings](#Determine-search-settings) 
-* Refine search expressions
-* Indicate where to search
-* Filter search results
-* Navigate search results
-* Filter search results by name and description
-* Select favorite collections
-* Sort collections
-* Search with the Slack bot
+* [Refine search expressions](#Refine-search-expression)
+* [Indicate where to search] (#Indicate-where-to-search)
+* [Filter search results] (#Filter search results)
+* [Navigate search results] (#Navigate-search-results)
+* [Filter by name and description] (#Filter-by-name-or-description)
+* [Select favorite collections] (#Filter-by-name-or-description)
+* [Sort collections] (#Sort-collections)
+* [Search with the Slack bot] (#Search-with-the-Slack-Bot)
 
 To begin a search, locate the **Find** icon in the status bar to search collections, environments, and globals. 
 
@@ -37,7 +37,7 @@ You can set search settings to:
 * Filter search results
 * Navigate search results
 
-#### Refine the search expression
+#### (#Refine-search-expression)
 You can refine your search expression by selecting a regular expression or ignore case. 
 
 | **Setting**  | **Description** |
@@ -47,7 +47,7 @@ You can refine your search expression by selecting a regular expression or ignor
 
 [![findRegex](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_regex1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_regex1.png)
 
-#### Indicate where to search
+#### (#Indicate-where-to-search)
 You can search through all collections, environments, and globals.
 
 | **Setting**  | **Description** |
@@ -59,7 +59,7 @@ You can search through all collections, environments, and globals.
 | Globals| Select this setting to search in globals. <br> [![findGlobals](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals.jpeg) |
 
 
-#### Filter search results
+#### (#Filter search results)
 To narrow results in specific fields, you can choose the fields to exclude from the "Include fields" drop down for each of the tabs in collections, environments and globals.
 
 | **Tab**  | **Filter** |
@@ -68,7 +68,7 @@ To narrow results in specific fields, you can choose the fields to exclude from 
 | Environments| [![filter_environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter_1.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter_1.jpeg) |
 | Globals |  [![filter_globals](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals_filter_2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals_filter_2.jpeg)   |
 
-#### Navigate search results
+#### (#Navigate-search-results)
 As you browse search results, you can collapse the entities you don’t want to see.
 
 |  |  |
@@ -79,22 +79,22 @@ As you browse search results, you can collapse the entities you don’t want to 
 | In Globals,  click "Open" to specify a request in the **MANAGE ENVIRONMENTS** modal. |[![find_openSearch](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)  |
 | Hover over a value or description to see a tooltip with information about the key. You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on.   |  [![find_toolTip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)  |
 
-#### Filter by name or description
+#### (#Filter-by-name-or-description)
 
 To quickly filter the list of collections in your library, begin typing the collection name or description in the search input field.
 
 [![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_name_desc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_name_desc.png)
 
-#### Select favorite collections
+#### (#Select-favorite-collections)
 
 You can favorite collections in the Team Library like you do in the **Collections** sidebar. Click on the star icon to bring the collection(s) to the top of the list. Favorited collections from both places will always be listed at the top.
 
-#### Sort collections
+#### (#Sort-collections)
 
 You can re-order collections in the Team Library by "Name", "Last Modified", "Owner", or by "Date Created". Remember that collections that you have favorited will be at the top but now sorted by the criteria you selected.
 
 [![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_sort.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_sort.png)
 
-#### Search with the Slack Bot
+#### (#Search-with-the-Slack-Bot)
 
 You can integrate the Postman Pro Search Slack bot and get more detailed search results too. This feature will be available in the Team Library soon. Read more about the [Slack Bot](http://blog.getpostman.com/2015/09/24/api-integrations-using-postman-building-a-slack-channel-bot/){:target="_blank"}.
