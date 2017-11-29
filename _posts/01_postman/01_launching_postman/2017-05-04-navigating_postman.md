@@ -131,7 +131,7 @@ When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", 
 
 ##### **Moving requests**
 
-Within the request builder, drag and drop tabs to reorder them as you see fit. Open a new request in a new tab, or in a new Postman window. Open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
+Within the request builder, drag and drop tabs to reorder them as you see fit. Open a new request in a new tab, or in a new Postman window. Open multiple windows using the New Window icon in the header toolbar or the keyboard shortcut.
 
 ### Keyboard Shortcuts
 
