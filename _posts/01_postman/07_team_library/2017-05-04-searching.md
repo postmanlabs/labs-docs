@@ -29,12 +29,12 @@ To begin a search, locate the **Find** icon in the status bar to search collecti
 
 **Note**: You can use a keyboard shortcut to access Find. Windows and Linux users: **CTRL+SHIFT+f**. Mac users: **CMD+SHIFT+f**. 
 
-<h4 id="determine">Determine search settings</h4>
+<h3 id="determine">Determine search settings</h3>
 You can set search settings to:
-* [Refine search expressions](#refine)
-* [Indicate where to search](#indicate)
-* [Filter search results](#filter)
-* [Navigate search results](#navigate)
+* Refine search expressions
+* Indicate where to search
+* Filter search results
+* Navigate search results
 
 <h4 id="refine">Refine search settings</h4>
 You can refine your search expression by selecting a regular expression or ignore case. 
@@ -67,7 +67,7 @@ To narrow results in specific fields, you can choose the fields to exclude from 
 | Environments| [![filter_environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter_1.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter_1.jpeg) |
 | Globals |  [![filter_globals](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals_filter_2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals_filter_2.jpeg)   |
 
-<h4 id="navigate">Navigate search results</h4>
+<h3 id="navigate">Navigate search results</h3>
 As you browse search results, you can collapse the entities you don’t want to see.
 
 |  |  |
