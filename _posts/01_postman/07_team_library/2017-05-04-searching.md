@@ -57,7 +57,7 @@ You can search through all collections, environments, and globals.
 <h4 id="filter">Filter search results</h4>
 To narrow results in specific fields, you can choose the fields to exclude from the "Include fields" drop down for each of the tabs in collections, environments and globals.
 
-| **Tab**  | **Filter** |
+|**Tab**  | **Filter**  |
 | --- | --- |
 | Collections| [![filter_collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Filter_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Filter_collections.png) |
 | Environments| [![filter_environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter_1.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter_1.jpeg) |
@@ -66,8 +66,8 @@ To narrow results in specific fields, you can choose the fields to exclude from 
 <h3 id="navigate">Navigate search results</h3>
 As you browse search results, you can collapse the entities you don’t want to see.
 
-|  |  |
-
+|1 | 2 |
+| --- | --- |
 | To expand and collapse entities, click the entity name in the results area.| [![find_navigation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults4.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults4.jpeg) |
 | In Collections, click "Open in builder" to specify a request in the builder. | [![find_open_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)|
 | In Environments, click "Open" to specify a request in the **MANAGE ENVIRONMENTS** modal. |[![find_environ_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_environments_Open.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_environments_Open.jpeg)  |
