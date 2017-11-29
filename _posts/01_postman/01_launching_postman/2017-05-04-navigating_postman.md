@@ -20,11 +20,11 @@ You can drag the right edge to resize the width of the sidebar. You can also min
 
 ### History tab
 
-The Postman app saves every request that you send in the History tab in the sidebar. Learn more about harnessing the power of your [history](/docs/postman/sending_api_requests/history).
+The Postman app saves every request that you send in the [History](/docs/postman/sending_api_requests/history) tab in the sidebar. 
 
 ### Collections tab
 
-This tab creates and manages collections from the **Collections** tab in the sidebar. Learn more about [collections](/docs/postman/collections/creating_collections) and how they help bring your APIs to warp speed.
+This tab creates and manages collections from the **Collections** tab in the sidebar. Learn more about [collections](/docs/postman/collections/creating_collections) and how they accelerate the speed of your APIs.
 
 ### Header toolbar
 
@@ -69,7 +69,7 @@ The Postman application menu bar provides access to additional features. Note th
 
 [![native app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)
 
-**Postman Chrome app**: Displays a few menu options restricted by the Chrome standard.
+**[Postman Chrome app](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/)**: Displays a few menu options restricted by the Chrome standard.
 
 [![chrome app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)
 
@@ -101,7 +101,7 @@ By right clicking on a tab name, the menu allows you to duplicate or close tabs.
 
 Busy tabs ensures you don't lose the request you've been working on, even if it isn't in a collection. When you're on a busy tab and open a new request from the sidebar, it opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
 
-What makes a tab busy? Working on a tab moves the tab into a busy state. For example, receiving a response or making changes that are not yet saved (reflected by an orange dot on the tab) creates a busy tab.
+What makes a tab busy? When you work in a tab it becomes busy. For example, receiving a response or making changes that are not yet saved (reflected by an orange dot on the tab) creates a busy tab.
 
 ##### **Tab and sidebar behavior**
 
@@ -133,7 +133,7 @@ Within the request builder, drag and drop tabs to reorder them as you see fit. O
 
 ### Keyboard Shortcuts
 
-Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort compared to navigating with a cursor. For repetitive or well-frequented tasks, keyboard shortcuts improve  speed over the long run.
+Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort compared to navigating with a cursor. For repetitive or well-frequented tasks, keyboard shortcuts improve speed over the long run.
 
 Postman categories keyboard shortcuts as navigation, manipulation, and global.
 * Navigational shortcuts to move around the interface
@@ -152,9 +152,9 @@ Manipulation shortcuts allow you to quickly work on your current selection and p
 
 ##### **Global Shortcuts**
 
-You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include Save (CMD/CTRL + S), Save As (CMD/CTRL + Shift + S), and Send Request (CMD/CTRL + Enter)
-You can also use global shortcuts to perform user interface actions such as toggling the sidebar (CMD/CTRL + ),
-Jump to URL (CMD/CTRL + L), and Open Console (CMD/CTRL + ALT + C).
+You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include Save (**CMD/CTRL + S**), Save As (**CMD/CTRL + Shift + S**), and Send Request (**CMD/CTRL + Enter**)
+You can also use global shortcuts to perform user interface actions such as toggling the sidebar (**CMD/CTRL +** ),
+Jump to URL (**CMD/CTRL + L**), and Open Console (**CMD/CTRL + ALT + C**).
 
 ##### **View keyboard shortcuts for your OS**
 
@@ -216,9 +216,9 @@ Different operating systems will have different shortcuts.  You can always view
 | Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
 
 ### Mouse actions
-To close a tab, right click the tab to display the Tab menu, and click Close. Or click the X icon on the right side of the tab to close it.
+To close a tab, right click the tab to display the **Tab** menu, and click the **Close** button. Or click the **X** icon on the right side of the tab to close it.
 
-To force close a tab, press ALT and click the **X** icon on the right side of tab.
+To force close a tab, press **ALT** and click the **X** icon on the right side of tab.
 
 
 ### Data editor
