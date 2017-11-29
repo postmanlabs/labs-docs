@@ -31,10 +31,10 @@ To begin a search, locate the **Find** icon in the status bar to search collecti
 
 <h4 id="determine">Determine search settings</h4>
 You can set search settings to:
-* [Refine the search expression](#refine)
-* [Determine where to search](#indicate)
+* [Refine search expressions](#refine)
+* [Indicate where to search](#indicate)
 * [Filter search results](#filter)
-* [Navigate search results](#navigate)
+* [Navigate search results](#navigate))
 
 <h4 id="refine">Refine search settings</h4>
 You can refine your search expression by selecting a regular expression or ignore case. 
