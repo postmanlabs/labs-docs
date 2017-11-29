@@ -29,7 +29,7 @@ To begin a search, locate the **Find** icon in the status bar to search collecti
 2. Enter the term you want to search and determine the search settings.
 3. Click the **Find** button.
 
-**Note**: You can use a keyboard shortcut to access Find. Windows and Linux users can press **CTRL+SHIFT+f** and Mac users can press **CMD+SHIFT+f**. 
+**Note**: You can use a keyboard shortcut to access Find. Windows and Linux users: **CTRL+SHIFT+f**. Mac users: **CMD+SHIFT+f**. 
 
 #### Determine your search settings
 You can set search settings to:
