@@ -9,7 +9,7 @@ warning: false
 
 ### Searching in Postman
 Searching in Postman enables you to:
-* [Determine search settings](#Determine-search-settings) 
+* [Determine search settings](#determine) 
 * [Refine search expressions](#Refine-search-expression)
 * [Indicate where to search](#Indicate-where-to-search)
 * [Filter search results](#Filter-search-results)
@@ -30,7 +30,7 @@ To begin a search, locate the **Find** icon in the status bar to search collecti
 
 **Note**: You can use a keyboard shortcut to access Find. Windows and Linux users: **CTRL+SHIFT+f**. Mac users: **CMD+SHIFT+f**. 
 
-#### (#Determine-search-settings)
+<h4 id="determine">Determine search settings</h4>
 You can set search settings to:
 * Refine the search expression
 * Determine where to search
