@@ -71,29 +71,29 @@ To narrow results in specific fields, you can choose the fields to exclude from 
 As you browse search results, you can collapse the entities you don’t want to see.
 
 |  |  |
-| --- | --- |
+
 | To expand and collapse entities, click the entity name in the results area.| [![find_navigation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults4.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_navigatingResults4.jpeg) |
 | In Collections, click "Open in builder" to specify a request in the builder. | [![find_open_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_collection_openINBld3.jpeg)|
 | In Environments, click "Open" to specify a request in the **MANAGE ENVIRONMENTS** modal. |[![find_environ_bldr](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_environments_Open.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/FIND_environments_Open.jpeg)  |
 | In Globals,  click "Open" to specify a request in the **MANAGE ENVIRONMENTS** modal. |[![find_openSearch](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)  |
 | Hover over a value or description to see a tooltip with information about the key. You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on.   |  [![find_toolTip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)  |
 
-<h4 id="filtername">Filter by name and description</h4>
+<h3 id="filtername">Filter by name and description</h3>
 
 To quickly filter the list of collections in your library, begin typing the collection name or description in the search input field.
 
 [![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_name_desc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_name_desc.png)
 
-<h4 id="select">Select favorite collections</h4>
+<h3 id="select">Select favorite collections</h3>
 
 You can favorite collections in the Team Library like you do in the **Collections** sidebar. Click on the star icon to bring the collection(s) to the top of the list. Favorited collections from both places will always be listed at the top.
 
-<h4 id="sort">Sort collections</h4>
+<h3 id="sort">Sort collections</h3>
 
 You can re-order collections in the Team Library by "Name", "Last Modified", "Owner", or by "Date Created". Remember that collections that you have favorited will be at the top but now sorted by the criteria you selected.
 
 [![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_sort.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/filter_sort.png)
 
-<h4 id="search">Search with the Slack Bot</h4>
+<h3 id="search">Search with the Slack Bot</h3>
 
 You can integrate the Postman Pro Search Slack bot and get more detailed search results too. This feature will be available in the Team Library soon. Read more about the [Slack Bot](http://blog.getpostman.com/2015/09/24/api-integrations-using-postman-building-a-slack-channel-bot/){:target="_blank"}.
