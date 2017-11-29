@@ -8,7 +8,6 @@ warning: false
 
 ---
 
-### Searching in Postman
 Searching in Postman enables you to:
 * [Determine search settings](#determine) 
 * [Refine search expressions](#refine)
