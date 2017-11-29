@@ -123,9 +123,9 @@ To access the **Tab** menu, click the three dots on the right side of a tab. A d
 * Close All Tabs
 * Force Close All Tabs
 
-When you **Force Close Current Tab** or **Force Close All Tabs**, the tab(s) close immediately without prompting you to save your work in the tab(s).
+When you "Force Close Current Tab" or "Force Close All Tabs", the tab(s) close immediately without prompting you to save your work in the tab(s).
 
-When you **Close Current Tab**, **Close All but Current Tab**, or **Close All Tabs**, a dialogue box appears with an option to save your work.
+When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", a dialogue box appears with an option to save your work.
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)
 
