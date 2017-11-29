@@ -68,7 +68,7 @@ To narrow results in specific fields, you can choose the fields to exclude from 
 | Environments| [![filter_environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter_1.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_environments_filter_1.jpeg) |
 | Globals |  [![filter_globals](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals_filter_2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_globals_filter_2.jpeg)   |
 
-<h4 id="navigate">Navigate search results</h4> #### (#)
+<h4 id="navigate">Navigate search results</h4>
 As you browse search results, you can collapse the entities you don’t want to see.
 
 |  |  |
@@ -79,7 +79,7 @@ As you browse search results, you can collapse the entities you don’t want to 
 | In Globals,  click "Open" to specify a request in the **MANAGE ENVIRONMENTS** modal. |[![find_openSearch](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_openSearchResults_globals.jpeg)  |
 | Hover over a value or description to see a tooltip with information about the key. You can see the key name to which a value or a description belongs for data editor elements in the form of key, value, description, and so on.   |  [![find_toolTip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_toolTip2.jpeg)  |
 
-<h4 id="filtername">Filter search results</h4>
+<h4 id="filtername">Filter by name and description</h4>
 
 To quickly filter the list of collections in your library, begin typing the collection name or description in the search input field.
 
