@@ -18,8 +18,6 @@ The Postman sidebar lets you find and manage requests and collections. The sideb
 
 You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens. You can show or hide the sidebar in the Status bar.
 
-[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_show_hide1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_show_hide1.png)
-
 ### History tab
 
 The Postman app saves every request that you send in the [History](/docs/postman/sending_api_requests/history) tab in the sidebar. 
