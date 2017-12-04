@@ -58,10 +58,6 @@ And you're done! Your Integration has been setup successfully. So, now whenever 
 
 [![see notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)
 
-
-
-
-
 ### Get the Microsoft Flows webhook URL
 
 Log in to [Microsoft Flow](https://flow.microsoft.com/){:target="_blank"}, and go to `My Flows`. Select `Create from Blank` in the top-right corner. 
@@ -149,7 +145,7 @@ For different types of integrations, the JSON schema varies. Based on the type o
 }
 ```
 
-[https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d](https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d){:target="_blank"}
+[![monitor_runs](https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d)(https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d){:target="_blank"}
 
 ### Collection and Team Activity Feed
 
@@ -238,16 +234,3 @@ Once this is done, click on `Create Flow` on the top-right corner. Once your fl
 
 [![generated webhook URL](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858329.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858329.png)
 
-### Configure Postman Integrations
-
-Head over to [Postman Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"} and select the Microsoft Flow Integration. Select the Monitor Run Results Integration.
-
-[![select Flow integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858339.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858339.png)
-
-Enter the webhook URL you generated from Microsoft Flow and select the Monitor. Additionally, you can also configure how frequently you want to be notified about the monitor run.
-
-[![enter webhook URL](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858349.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858349.png)
-
-And you're done! Your Integration has been setup successfully. So, now whenever a monitor would run, you would get a notification something like this on your Flow mobile app.
-
-[![see notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)
