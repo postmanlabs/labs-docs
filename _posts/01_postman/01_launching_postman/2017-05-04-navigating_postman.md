@@ -8,7 +8,7 @@ warning: false
 
 ---
 
-Postman provides a multi-window and multi-tab interface for you to work on APIs. Postman strives to be clean and flexible to your needs. It gives you as much space as possible for your APIs. Navigating through the interface is easy. See the graphic below to see how everything is organized.
+Postman provides a multi-window and multi-tab interface for you to work on APIs. This interface design gives you as much space as possible for your APIs. Navigating through the interface is simple and easy as you can see in the graphic below.
 
 [![general layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)
 
