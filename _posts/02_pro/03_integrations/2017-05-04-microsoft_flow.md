@@ -54,6 +54,14 @@ To send monitor run results to Microsoft Flow:
 
 You can also configure advanced options to alert you when a monitor run completes, or when three failures occur and the first monitor run completes successfully.
 
+And you're done! Your Integration has been setup successfully. So, now whenever a monitor would run, you would get a notification something like this on your Flow mobile app.
+
+[![see notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)
+
+
+
+
+
 ### Get the Microsoft Flows webhook URL
 
 Log in to [Microsoft Flow](https://flow.microsoft.com/){:target="_blank"}, and go to `My Flows`. Select `Create from Blank` in the top-right corner. 
