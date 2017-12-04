@@ -46,7 +46,6 @@ The header toolbar contains these options:
    *   Heart - Love Postman? Click on this button to share the love!
    *   User dropdown - Displays current user and provides these options: 'Profile', 'Account Settings', 'Notification Preferences', 'Active Sessions', and 'Add a new account'.
 
-
 ### Builder
 
 Postman gives you a tabbed layout to send and manage API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  
@@ -87,7 +86,7 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 
 [![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)
 
-When you click the Help & Feedback icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security,](https://www.getpostman.com/security) [support,](https://www.getpostman.com/support) and [social media.](https://twitter.com/postmanclient)
+When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security,](https://www.getpostman.com/security) [support,](https://www.getpostman.com/support) and [social media.](https://twitter.com/postmanclient)
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)
 
@@ -97,24 +96,24 @@ Postman lets you use multi-tab and multi-window configurations to work on multip
 
 To open a new tab in Postman press the **+** icon in the builder or use the **CMD/CTRL + T** shortcut. From the menu bar, you can also select "New Tab" from the **File** menu to create a new tab.
 
-By right clicking on a tab name, the menu allows you to duplicate or close tabs.  If any tab has unsaved changes and you are attempting to close the tab, Postman will prompt you to save your changes.
+When you right click a tab name, the menu allows you to duplicate or close tabs.  If any tab has unsaved changes as you  attempt to close the tab, Postman prompts you to save your changes.
 
 ##### **Busy tabs**
 
-Busy tabs ensures you don't lose the request you've been working on, even if it isn't in a collection. When you're on a busy tab and open a new request from the sidebar, it opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
+Busy tabs ensures you don't lose your current request, even if it isn't in a collection. When you're on a busy tab and open a new request from the sidebar, it opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
 
-What makes a tab busy? When you work in a tab it becomes busy. For example, receiving a response or making changes that are not yet saved (reflected by an orange dot on the tab) creates a busy tab.
+What makes a tab busy? When you work in a tab it becomes busy. For example, when you receive a response or make a change that's not yet saved (reflected by an orange dot on the tab), the tab becomes busy.
 
 ##### **Tab and sidebar behavior**
 
-By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab if an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab. From the sidebar under the **Collections** tab, right click a request and select "Open in New Tab".
+By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab, if an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab. From the sidebar under the **Collections** tab, right click a request and select "Open in New Tab".
 
 ##### **Tab menu**
 Postman offers several tab actions to help you manage your work.
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)
 
-To access the **Tab** menu, click the three dots on the right side of a tab. A dropdown appears with options to manage your the tabs.
+To access the **Tab** menu, click the three dots on the right side of a tab. A dropdown menu appears with options to manage your tabs.
 
 * Duplicate Current Tab
 * Close Current Tab
