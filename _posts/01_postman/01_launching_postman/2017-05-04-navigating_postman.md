@@ -58,7 +58,7 @@ Postman gives you a tabbed layout to send and manage API requests in the builder
 
 Two consoles are available in Postman to see what's going behind the scenes.
 
-   *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in a console.log. This feature is only available in Postman's native apps.
+   *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in a 'console.log'. This feature is only available in Postman's native apps.
    *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
 Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs).
@@ -78,12 +78,12 @@ The Postman application menu bar provides access to additional features. Note th
 ### Status bar
 
 The status bar at the bottom of the Postman interface gives you a convenient way to:
-* Show or hide the sidebar
-* Search in collections, environments, and globals
-* Open the Postman [console](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#console)
-* Select either a single or two pane layout
-* Open the keyboard [shortcuts](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts)
-* Get help or provide feedback
+* Show or hide the sidebar.
+* Search in collections, environments, and globals.
+* Open the Postman [console.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#console)
+* Select either a single or two pane layout.
+* Open the keyboard [shortcuts.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts)
+* Get help or provide feedback.
 
 [![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)
 
