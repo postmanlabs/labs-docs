@@ -227,7 +227,9 @@ To force close a tab, press **ALT** and click the **X** icon on the right side o
 
 ### Data editor
 
-Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users use spreadsheets to work with data, we leveraged those spreadsheet features to design the data editor to make it a familiar experience.  Note: The UI images in this section do not reflect the current UI that features the **New** button.)
+Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users use spreadsheets to work with data, we leveraged those spreadsheet features to design the data editor to make it a familiar experience. 
+
+**Note**: The UI images in this section do not reflect the current UI that features the **New** button.)
 
 ##### **Visual layout**
 
@@ -237,7 +239,7 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
 
-##### **Select multiple rows by simply dragging your mouse**
+Select multiple rows by simply dragging your mouse.
 
 [![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
 
