@@ -239,7 +239,8 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
 
-Select multiple rows by simply dragging your mouse.
+#### Mulitple rows
+Drag your mouse to select multiple rows.
 
 [![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
 
@@ -264,21 +265,21 @@ Select multiple rows by simply dragging your mouse.
 
 [![using shortcuts gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)
 
-##### **Support for bulk actions**
+##### Bulk actions
 
-You can select and copy multiple rows and then paste them in a different places (such as params).
+You can select and copy multiple rows and then paste them in a different places (such as 'params').
 
 [![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)  
 
-##### **View information up front**
+##### ** Front view of information**
 
 You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.  
 
 [![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)
 
-##### **Ability to resize columns**
+##### **Resizing columns**
 
-You can change the width of the key and value columns by dragging the boundary on the right side of the ‘key’ column header.
+You can change the width of the key and value columns when you drag the boundary on the right side of the ‘key’ column header.
 
 [![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)
 
