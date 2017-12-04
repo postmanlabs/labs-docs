@@ -23,7 +23,6 @@ Click the View Details button to see information about HipChat.
 
 You also can click the Configured Integrations tab to set up other integrations, view available integrations for HipChat, or view all integrations.
 
-
 [![microsoft_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)  
 
 
@@ -145,7 +144,7 @@ For different types of integrations, the JSON schema varies. Based on the type o
 }
 ```
 
-[![monitor_runs](https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d)(https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d){:target="_blank"}
+[https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d](https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d){:target="_blank"}
 
 ### Collection and Team Activity Feed
 
