@@ -8,23 +8,25 @@ warning: false
 
 ---
 
-Postman provides a multi-window and multi-tab interface for you to work on APIs. This interface design gives you as much space as possible for your APIs. Navigating through the interface is simple and easy as you can see in the graphic below.
+Postman provides a multi-window and multi-tab interface for you to work on APIs. This interface design gives you as much space as possible for your APIs. 
 
 [![general layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)
 
 ### Sidebar
 
-The Postman sidebar lets you find and manage requests and collections. The sidebar is divided into two main tabs, for **[History](/docs/postman/sending_api_requests/history)** and **[Collections](/docs/postman/collections/creating_collections)**.
+The Postman sidebar lets you find and manage requests and collections. The sidebar has two main tabs: **[History](/docs/postman/sending_api_requests/history)** and **[Collections](/docs/postman/collections/creating_collections)**.
 
-You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens. You can show or hide the sidebar in the Status bar.
+You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens, and show or hide the sidebar in the Status bar.
 
 ### History tab
 
-The Postman app saves every request that you send in the [History](/docs/postman/sending_api_requests/history) tab in the sidebar. 
+The Postman app saves every request you send in the [History](/docs/postman/sending_api_requests/history) tab in the sidebar. 
 
 ### Collections tab
 
-This tab creates and manages collections from the **Collections** tab in the sidebar. Learn more about [collections](/docs/postman/collections/creating_collections) and how they accelerate the speed of your APIs.
+This tab creates and manages collections from the **Collections** tab in the sidebar. 
+
+Learn more about [collections](/docs/postman/collections/creating_collections) and how they accelerate the speed of your APIs.
 
 ### Header toolbar
 
@@ -47,10 +49,10 @@ The header toolbar contains these options:
 
 ### Builder
 
-Postman gives you a tabbed layout for sending and managing API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  
+Postman gives you a tabbed layout to send and manage API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  
 
-   *   **Cookies** - You can use the **Cookies** link on the far right beneath the **Save** button to access the **MANAGE COOKIES** modal. This feature lets you manage cookies associated with the request. Learn more about [working with cookies](/docs/postman/sending_api_requests/cookies).
-   *   **Code** - You can use the **Code** link on the far right beneath the **Save** button to access the **GENERATE CODE SNIPPETS** modal. This feature lets you generate code snippets associated with the request in more than 20 languages.
+   *   **Cookies** - You can use the **Cookies** link on the far right under the **Save** button to access the **MANAGE COOKIES** modal. This feature lets you manage cookies associated with the request. Learn more about [working with cookies](/docs/postman/sending_api_requests/cookies).
+   *   **Code** - You can use the **Code** link on the far right under the **Save** button to access the **GENERATE CODE SNIPPETS** modal. This feature lets you generate code snippets associated with the request in more than 20 languages.
 
 ### Console
 
