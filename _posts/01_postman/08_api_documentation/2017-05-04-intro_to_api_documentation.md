@@ -73,6 +73,6 @@ Documentation is organized into sections that reflect the structure of your coll
 
 [![example of published documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)
 
-### Free documentation views with your Postman 
+### Free documentation views with your Postman account
 
 Your Postman account gives you a limited number of free documentation views per month. You can check your usage limits through the [Postman Pro API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
