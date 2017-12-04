@@ -155,7 +155,7 @@ Manipulation shortcuts allow you to quickly work on your current selection and p
 
 You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include Save (**CMD/CTRL + S**), Save As (**CMD/CTRL + Shift + S**), and Send Request (**CMD/CTRL + Enter**).
 
-You can also use global shortcuts to perform user interface actions such as Toggle to sidebar (**CMD/CTRL +** ),
+You can also use global shortcuts to perform user interface actions such as Toggle to Sidebar (**CMD/CTRL +** ),
 Jump to URL (**CMD/CTRL + L**), and Open Console (**CMD/CTRL + ALT + C**).
 
 ##### **View keyboard shortcuts for your OS**
@@ -227,7 +227,7 @@ To force close a tab, press **ALT** and click the **X** icon on the right side o
 
 ### Data editor
 
-Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users use spreadsheets to work with data, we leveraged those spreadsheet features to design the data editor to make it a familiar experience.  
+Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users use spreadsheets to work with data, we leveraged those spreadsheet features to design the data editor to make it a familiar experience.  Note: The UI images in this section do not reflect the current UI that features the **New** button.)
 
 ##### **Visual layout**
 
