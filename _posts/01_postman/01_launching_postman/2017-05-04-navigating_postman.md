@@ -153,13 +153,16 @@ Manipulation shortcuts allow you to quickly work on your current selection and p
 
 ##### **Global Shortcuts**
 
-You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include Save (**CMD/CTRL + S**), Save As (**CMD/CTRL + Shift + S**), and Send Request (**CMD/CTRL + Enter**)
-You can also use global shortcuts to perform user interface actions such as toggling the sidebar (**CMD/CTRL +** ),
+You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include Save (**CMD/CTRL + S**), Save As (**CMD/CTRL + Shift + S**), and Send Request (**CMD/CTRL + Enter**).
+
+You can also use global shortcuts to perform user interface actions such as Toggle to sidebar (**CMD/CTRL +** ),
 Jump to URL (**CMD/CTRL + L**), and Open Console (**CMD/CTRL + ALT + C**).
 
 ##### **View keyboard shortcuts for your OS**
 
-Different operating systems will have different shortcuts.  You can always view a complete list of your operating system's shortcuts when you click the **Keyboard Shortcuts** icon in the **Status bar**.
+Different operating systems have different shortcuts.  
+
+You can always view a complete list of your operating system's shortcuts when you click the **Keyboard Shortcuts** icon in the **Status bar**.
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)
 
