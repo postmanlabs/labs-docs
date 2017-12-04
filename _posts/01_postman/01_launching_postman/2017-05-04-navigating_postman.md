@@ -96,13 +96,13 @@ When you click the **Help & Feedback** icon, you can summon a menu that provides
 
 Postman lets you use multi-tab and multi-window configurations to work on multiple requests or even multiple collections together and simultaneously.
 
-To open a new tab in Postman press the **+** icon in the builder or use the **CMD/CTRL + T** shortcut. From the menu bar, you can also select "New Tab" from the **File** menu to create a new tab.
+To open a new tab in Postman, press the **+** icon in the builder or use the **CMD/CTRL + T** shortcut. From the menu bar, you can also select "New Tab" from the **File** menu to create a new tab.
 
 When you right click a tab name, the menu allows you to duplicate or close tabs.  If any tab has unsaved changes as you  attempt to close the tab, Postman prompts you to save your changes.
 
 ##### **Busy tabs**
 
-Busy tabs ensures you don't lose your current request, even if it isn't in a collection. When you're on a busy tab and open a new request from the sidebar, it opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
+Busy tabs ensure you don't lose your current request, even if it isn't in a collection. When you're on a busy tab and open a new request from the sidebar, Postman opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
 
 What makes a tab busy? When you work in a tab it becomes busy. For example, when you receive a response or make a change that's not yet saved (reflected by an orange dot on the tab), the tab becomes busy.
 
@@ -124,7 +124,7 @@ To access the **Tab** menu, click the three dots on the right side of a tab. A d
 * Close All Tabs
 * Force Close All Tabs
 
-When you "Force Close Current Tab" or "Force Close All Tabs", the tab(s) close immediately without prompting you to save your work in the tab(s).
+When you "Force Close Current Tab" or "Force Close All Tabs", the tab closes immediately without prompting you to save your work in the tab.
 
 When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", a dialogue box appears with an option to save your work.
 
@@ -132,33 +132,33 @@ When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", 
 
 ##### **Moving requests**
 
-Within the request builder, you can drag and drop tabs to reorder them. Open a new request in a new tab, or in a new Postman window. You can open multiple windows using the New Window icon in the header toolbar or the keyboard shortcut.
+In the request builder, you can drag and drop tabs to reorder them, open a new request in a new tab, or in a new Postman window. You also can open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
 
 ### Keyboard Shortcuts
 
-Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort as compared to navigating with a cursor. For repetitive or well-frequented tasks, keyboard shortcuts improve speed over the long run.
+Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort as compared to navigating with a cursor. For repetitive or frequent tasks, keyboard shortcuts improve speed over the long run.
 
 Postman categorizes keyboard shortcuts as navigation, manipulation, and global.
-* Navigational shortcuts to move around the interface
-* Manipulation shortcuts to manipulate the current selection
-* Global shortcuts to access from anywhere
+* Navigational shortcuts let you move around the interface.
+* Manipulation shortcuts let you manipulate the current selection.
+* Global shortcuts let you access from anywhere.
 
 ##### **Navigational Shortcuts**
 
 Postman designs navigational shortcuts to help you navigate quickly between elements. For example, suppose you want to open and send a series of saved requests without a keyboard shortcut. You would have to select a request in the sidebar with a pointer each time to open it in the tab.
 
-With a keyboard shortcut, such as **CMD/CTRL + ALT + 1**, you can focus the sidebar from wherever you are in interface. You can then navigate to the request you want with the arrow keys. And if you combine the **CMD/CTRL + ALT + 1** shortcut with the **CMD/CTRL + Enter** shortcut, you can send a number of requests in the matter of a few seconds.
+With a keyboard shortcut, such as **CMD/CTRL + ALT + 1**, you can focus the sidebar from wherever you are in interface. You can then navigate to the request you want with the arrow keys. And if you combine the **CMD/CTRL + ALT + 1** shortcut with the **CMD/CTRL + Enter** shortcut, you can send a number of requests quickly.
 
 ##### **Manipulation Shortcuts**
 
-Manipulation shortcuts allow you to quickly work on your current selection and perform actions such as edit, delete and duplicate. You can combine navigational and manipulation shortcuts to create and organize collections in your sidebar easily. You can also use these shortcuts in other list views, such as the data editor.
+Manipulation shortcuts allow you to quickly work on your current selection and perform actions such as edit, delete, and duplicate. You can combine navigational and manipulation shortcuts to create and organize collections in your sidebar easily. You can also use these shortcuts in other list views, such as the data editor.
 
 ##### **Global Shortcuts**
 
-You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include Save (**CMD/CTRL + S**), Save As (**CMD/CTRL + Shift + S**), and Send Request (**CMD/CTRL + Enter**).
+You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include "Save" (**CMD/CTRL + S**), "Save As" (**CMD/CTRL + Shift + S**), and "Send Request" (**CMD/CTRL + Enter**).
 
-You can also use global shortcuts to perform user interface actions such as Toggle to Sidebar (**CMD/CTRL +** ),
-Jump to URL (**CMD/CTRL + L**), and Open Console (**CMD/CTRL + ALT + C**).
+You can also use global shortcuts to perform user interface actions such as "Toggle to Sidebar" (**CMD/CTRL +** ),
+"Jump to URL" (**CMD/CTRL + L**), and "Open Console" (**CMD/CTRL + ALT + C**).
 
 ##### **View keyboard shortcuts for your OS**
 
@@ -229,7 +229,7 @@ To force close a tab, press **ALT** and click the **X** icon on the right side o
 
 ### Data editor
 
-Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users use spreadsheets to work with data, we leveraged those spreadsheet features to design the data editor to make it a familiar experience. 
+Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience. 
 
 **Note**: The UI images in this section do not reflect the current UI that features the **New** button.)
 
