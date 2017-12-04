@@ -130,13 +130,13 @@ When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", 
 
 ##### **Moving requests**
 
-Within the request builder, drag and drop tabs to reorder them as you see fit. Open a new request in a new tab, or in a new Postman window. Open multiple windows using the New Window icon in the header toolbar or the keyboard shortcut.
+Within the request builder, you can drag and drop tabs to reorder them. Open a new request in a new tab, or in a new Postman window. You can open multiple windows using the New Window icon in the header toolbar or the keyboard shortcut.
 
 ### Keyboard Shortcuts
 
-Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort compared to navigating with a cursor. For repetitive or well-frequented tasks, keyboard shortcuts improve speed over the long run.
+Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort as compared to navigating with a cursor. For repetitive or well-frequented tasks, keyboard shortcuts improve speed over the long run.
 
-Postman categories keyboard shortcuts as navigation, manipulation, and global.
+Postman categorizes keyboard shortcuts as navigation, manipulation, and global.
 * Navigational shortcuts to move around the interface
 * Manipulation shortcuts to manipulate the current selection
 * Global shortcuts to access from anywhere
