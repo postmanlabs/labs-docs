@@ -36,7 +36,7 @@ Learn more about [collections](/docs/postman/collections/creating_collections) a
 
 The header toolbar contains these options:
    *   **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
-    *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links or raw text.
+    *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
    *   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run)
    *   New window icon - Opens a new 'Tab', 'Postman Window' or a 'Runner Window'.
    *   **Builder** and **Team Library** tabs - Switches context between the request builder and team library view.
