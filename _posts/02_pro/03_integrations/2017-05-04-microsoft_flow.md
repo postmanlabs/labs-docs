@@ -9,10 +9,66 @@ tags:
 warning: false
 ---
 
-Microsoft Flow is a cloud-based service provided by Microsoft which allows you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It has over 140 services listed with predefined flows as well that you can start using directly.
+Microsoft Flow enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It has over 140 services listed with predefined flows as well that you can start using directly.
 
-We offer a number of ways through which you can connect your Postman account with Microsoft Flow.
+You can configure Microsoft Flow with Postman to monitor run results, view a team's activity and team feed, and use a Microsoft Flow Webhook URL.
 
+### Congfiguring Microsoft Flow
+
+1. In the [Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"} page, select Microsoft Flow from a list of Postman’s 3rd party Integrations for Postman Pro users.
+
+[![microsoft_flow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)  
+
+Click the View Details button to see information about HipChat.
+
+You also can click the Configured Integrations tab to set up other integrations, view available integrations for HipChat, or view all integrations.
+
+
+[![microsoft_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)  
+
+
+### Add a team activity feed to Microsoft Flow
+The activity feed is the place where you can see all the changes that are happening to your collections and within the team. It is the place where you can track any updates made to your APIs and monitor what all is happening within the team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail or even the custom SMTP service, or you can use Twilio to get the feed as a text message.
+
+To add a team activity feed to Microsoft Flow:
+
+1. Click the **Add Integration** button.
+2. **ADD REMAINING STEPS*.
+
+### Back up your Postman Collections in Microsoft Flow
+Collections are a very important part of Postman so it is necessary to have a backup a backup of them. Microsoft Flow gives you the ability to connect your collection with a service like Box, which is a cloud based storage solution, or you can even connect to your custom DB2 instance and store your collections there.
+
+### See collection activity feed in Microsoft Flow
+The activity feed is the place where you can see all the changes that are happening to your collections and within the team. It is the place where you can track any updates made to your APIs and monitor what all is happening within the team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail or even the custom SMTP service, or you can use Twilio to get the feed as a text message.
+
+### Send monitor run results in Microsoft Flow
+Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Flow integration, you have the freedom to use those results in whatever way possible and connect to any service available.
+
+To send monitor run results to Microsoft Flow:
+
+1. Click the Add Integration button.
+2. In the Monitor Run Results page, select the monitor you want to send to HipChat, and enter the notification URL.
+3. Click the Add Integration button.
+
+
+[![microsoft_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-monitorrunresults.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-monitorrunresults.png) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OLD STUFF
 ### Monitor Run Results to Microsoft Flow
 
 Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Flow integration, you have the freedom to use those results in whatever way possible and connect to any service available.
