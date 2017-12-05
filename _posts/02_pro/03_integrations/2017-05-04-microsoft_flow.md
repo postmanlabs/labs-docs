@@ -40,8 +40,26 @@ To add a team activity feed to Microsoft Flow:
 #### Back up your Postman Collections in Microsoft Flow
 Collections are a very important part of Postman so it is necessary to have a backup a backup of them. Microsoft Flow gives you the ability to connect your collection with a service like Box, which is a cloud based storage solution, or you can even connect to your custom DB2 instance and store your collections there.
 
+To back up your Postman Collections in Microsoft Flow:
+
+1. Click the **Add Integration** button.
+2. In the **Backup your Postman Collections** page:
+* Select the collection.
+* Enter the notification URL.
+* Enter an identifier for this integration.
+* Click the **Add Integration** button.
+
+
+[![microsoft_flow_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msFlow-backupcollections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msFlow-backupcollections.png)
+
 #### See collection activity feed in Microsoft Flow
 The activity feed is the place where you can see all the changes that are happening to your collections and within the team. It is the place where you can track any updates made to your APIs and monitor what all is happening within the team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail or even the custom SMTP service, or you can use Twilio to get the feed as a text message.
+
+To see collection activity feed in Microsoft Flow:
+
+1. Click the **Add Integration** button.
+2. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
+3. Click the **Add Integration** button.
 
 #### Send monitor run results in Microsoft Flow
 Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Flow integration, you have the freedom to use those results in whatever way possible and connect to any service available.
