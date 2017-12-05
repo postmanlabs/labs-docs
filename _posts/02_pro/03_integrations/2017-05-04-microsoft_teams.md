@@ -18,7 +18,7 @@ Currently, we have two ways in which this integration can be configured.
 
 1. In the [Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"} page, select Microsoft Teams from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
-[![select hipchat integration]()]()
+[![select ms_teams integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)
 
 
 
