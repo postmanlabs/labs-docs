@@ -74,7 +74,7 @@ Postman uses several technologies to ensure that your data is safe and secure. F
    *   Environment and global variables are encrypted so that only you can view them.
    *   You can turn off sync any time and still use Postman.
 
-### Forgot your username or password?
+### Forgot your username or password
 
 Clicking on the Forgot Username or Password links near the **Sign In** prompt will allow you to [recover your username or reset a password](https://app.getpostman.com/signup?redirect=web#mod-reset-password-modal){:target="_blank"}.
 
