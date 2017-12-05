@@ -32,7 +32,11 @@ The activity feed is the place where you can see all the changes that are happen
 To add a team activity feed to Microsoft Flow:
 
 1. Click the **Add Integration** button.
-2. **ADD REMAINING STEPS**.
+2. In the **Team Activity Feed** page, add the Webhook URL, and click the **Add Integration** button.
+
+
+
+
 
 #### Back up your Postman Collections in Microsoft Flow
 Collections are a very important part of Postman so it is necessary to have a backup a backup of them. Microsoft Flow gives you the ability to connect your collection with a service like Box, which is a cloud based storage solution, or you can even connect to your custom DB2 instance and store your collections there.
@@ -46,7 +50,7 @@ Postman Monitors allows you to run your collections on a schedule without any ma
 To send monitor run results to Microsoft Flow:
 
 1. Click the **Add Integration** button.
-2. In the **Monitor Run Results** page, select the monitor you want to send to HipChat, and enter the notification URL.
+2. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Flow. 
 3. Click the **Add Integration** button.
 
 [![microsoft_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-monitorrunresults1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-monitorrunresults1.png) 
