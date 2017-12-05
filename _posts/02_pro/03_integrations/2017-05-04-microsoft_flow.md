@@ -9,7 +9,7 @@ tags:
 warning: false
 ---
 
-Microsoft Flow enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It has over 140 services listed with predefined flows as well that you can start using directly.
+Microsoft Flow enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It has over 140 services listed with predefined flows you can start using directly.
 
 You can configure Microsoft Flow with Postman to monitor run results, view a team's activity and team feed, and use a Microsoft Flow Webhook URL.
 
