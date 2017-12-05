@@ -32,11 +32,10 @@ The activity feed is the place where you can see all the changes that are happen
 To add a team activity feed to Microsoft Flow:
 
 1. Click the **Add Integration** button.
-2. In the **Team Activity Feed** page, add the Webhook URL, and click the **Add Integration** button.
+2. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
+3. Click the **Add Integration** button.
 
-
-
-
+[![microsoft_team_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msFlow-teamactivityfeed.png) 
 
 #### Back up your Postman Collections in Microsoft Flow
 Collections are a very important part of Postman so it is necessary to have a backup a backup of them. Microsoft Flow gives you the ability to connect your collection with a service like Box, which is a cloud based storage solution, or you can even connect to your custom DB2 instance and store your collections there.
