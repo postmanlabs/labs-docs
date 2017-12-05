@@ -221,7 +221,7 @@ You can always view a complete list of your operating system's shortcuts when yo
 | Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
 | Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
 
-### Mouse actions
+##### Mouse actions
 To close a tab, right click the tab to display the **Tab** menu, and click the **Close** button. Or click the **X** icon on the right side of the tab to close it.
 
 To force close a tab, press **ALT** and click the **X** icon on the right side of tab.
@@ -241,7 +241,7 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
 
-#### Mulitple rows
+##### Mulitple rows
 Drag your mouse to select multiple rows.
 
 [![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
