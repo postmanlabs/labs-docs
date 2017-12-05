@@ -35,18 +35,18 @@ Learn more about [collections](/docs/postman/collections/creating_collections){:
 [![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
 The header toolbar contains these options:
-    *   **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
-    *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
-   *   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run)
-   *   New window icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
-   *   **Builder** and **Team Library** tabs - Switches context between the request builder and team library view.
-   *   Interceptor/Proxy icon - Manages proxy or Interceptor settings.
-   *   IN SYNC status icon - Updates the status of your Postman account.
-   *   Public API Library - Displays the Public API network.
-   *   Settings icon - Manages Postman app settings and finds other support resources.
-   *   Notifications icon - Receives notifications or broadcasts.
-   *   Heart - Love Postman? Click on this button to share the love!
-   *   User dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
+* **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
+*  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
+*   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run)
+*   New window icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
+*   **Builder** and **Team Library** tabs - Switches context between the request builder and team library view.
+*   Interceptor/Proxy icon - Manages proxy or Interceptor settings.
+*   IN SYNC status icon - Updates the status of your Postman account.
+*   Public API Library - Displays the Public API network.
+*   Settings icon - Manages Postman app settings and finds other support resources.
+*   Notifications icon - Receives notifications or broadcasts.
+*   Heart - Love Postman? Click on this button to share the love!
+*   User dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
 
 ### Builder
 
