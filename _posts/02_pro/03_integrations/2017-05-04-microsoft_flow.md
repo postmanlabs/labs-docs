@@ -19,9 +19,9 @@ You can configure Microsoft Flow with Postman to monitor run results, view a tea
 
 [![microsoft_flow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)  
 
-Click the View Details button to see information about HipChat.
+Click the **View Details** button to see information about HipChat.
 
-You also can click the Configured Integrations tab to set up other integrations, view available integrations for HipChat, or view all integrations.
+You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Microsoft Flow, or view all integrations.
 
 [![microsoft_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)  
 
