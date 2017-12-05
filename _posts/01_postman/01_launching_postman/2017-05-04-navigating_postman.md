@@ -221,7 +221,9 @@ You can always view a complete list of your operating system's shortcuts when yo
 | Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
 | Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
 
+
 **Mouse actions**
+
 To close a tab, right click the tab to display the **Tab** menu, and click the **Close** button. Or click the **X** icon on the right side of the tab to close it.
 
 To force close a tab, press **ALT** and click the **X** icon on the right side of the tab.
