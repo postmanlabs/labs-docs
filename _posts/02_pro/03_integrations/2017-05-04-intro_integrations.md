@@ -28,7 +28,7 @@ Postman Pro users can currently access over a dozen of the most requested 3rd p
 
 You can access Postman Pro integrations in the [Dashboard.](https://the.postman.co/dashboard?){:target="_blank"} 
 
-In the Dashboard page, click [Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"}.
+In the Dashboard page, click ["Integrations"](https://app.getpostman.com/dashboard/integrations){:target="_blank"}.
 
   [![integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations.png)
 
