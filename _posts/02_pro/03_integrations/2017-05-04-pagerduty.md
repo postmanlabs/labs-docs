@@ -16,21 +16,28 @@ The Postman Pro to PagerDuty Integration enables Postman Monitor results to trig
 
 ### Retrieving your PagerDuty Integration Key
 
-[Log in](https://app.pagerduty.com/){:target="_blank"} to PagerDuty.  Go to the `Configuration` menu and select `Services`.  If you are creating a new service for this integration, Click `Add New Service`.
+1. Log in to [PagerDuty](https://app.pagerduty.com/){:target="_blank"} .  
+2. In the header toolbar, click "Configuration" and select "Services".  
+3. If you are creating a new service for this integration, click "Add New Service".
 
 [![pagerduty menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)
 
-Enter your Service Name and choose Postman as the Integration Type.  Click on `Add Service` at the bottom of the page.
+ <ol start="4">
+  <li>Enter your Service Name and choose Postman as the Integration Type. </li>
+  <li>Click on "Add Service" at the bottom of the page to create a new service.</li>
+</ol>
 
 [![pagerduty service](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)
 
-This will create a new service.  Make a note of your PagerDuty Integration Key for later.
+<ol start="5">
+  <li>Save the PagerDuty Integration Key for use later. </li>
+</ol>
 
 [![pagerduty key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)
 
 ### Configuring Postman Pro with PagerDuty
 
-From the [Integrations page](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
+1. From the [Integrations page](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerdutyINT.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerdutyINT.png)
 
