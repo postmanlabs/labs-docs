@@ -24,8 +24,8 @@ To try the new beta dashboard, click the **Try the data dashboard** button. Note
 
 ### If you don't already have a Postman account
 
-1. In the Postman [pricing page](https://www.getpostman.com/pricing#cloud-free-trial-7){:target="_blank"}, click the **Start a Free Trial** link in the Postman Pro offer. You'll be prompted to create a Postman account.
-2. Enter your email, select a username and password, and sign up.
+1. In the Postman [pricing page](https://www.getpostman.com/pricing#cloud-free-trial-7){:target="_blank"}, click the "Start a Free Trial" link in the Postman Pro offer. You'll be prompted to create a Postman account.
+2. Enter your email, select a username and password, and complete the sign up process.
 
 You're now the administrator of a Postman Pro team, with a free 7-day trial. Go to the Postman [team page](https://app.getpostman.com/dashboard/teams){:target="_blank"} and [invite users](/docs/pro/managing_pro/inviting_and_managing) or [set up your team library](/docs/postman/team_library/setting_up_team_library)!
 
