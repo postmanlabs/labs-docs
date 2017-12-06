@@ -9,7 +9,7 @@ tags:
 warning: false
 ---
 
-A Postman account is required to activate your Postman Pro trial.
+You must have a Postman account to activate your Postman Pro trial.
 
 ### If you have a Postman account
 
