@@ -10,13 +10,11 @@ warning: false
 
 ---
 
-### Trigger and resolve incidents on PagerDuty
-
 PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling and automatic escalation of critical incidents. The service can be configured to deliver alerts by phone call, email, text or via iOS and Android apps.
 
 The Postman Pro to PagerDuty Integration enables Postman Monitor results to trigger incidents and acknowledgements in PagerDuty.  
 
-### Retrieve your PagerDuty Integration Key
+### Retrieving your PagerDuty Integration Key
 
 [Log in](https://app.pagerduty.com/){:target="_blank"} to PagerDuty.  Go to the `Configuration` menu and select `Services`.  If you are creating a new service for this integration, Click `Add New Service`.
 
@@ -30,7 +28,7 @@ This will create a new service.  Make a note of your PagerDuty Integration Key 
 
 [![pagerduty key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)
 
-### Connect Postman Pro to PagerDuty
+### Configuring Postman Pro with PagerDuty
 
 From the [Integrations page](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
 
@@ -44,7 +42,7 @@ Enter the PagerDuty Integration Key from before.  Choose the Monitor for which 
 
 [![pagerduty monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_monitor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_monitor.png)
 
-### How your results appear in PagerDuty
+### Viewing PagerDuty results
 
 Right away, the PagerDuty console will display any incidents resulting from the Postman Monitor.  If the selected Monitor fails, you will get notified on PagerDuty according to the formatting and business rules that you’ve already set up.
 
