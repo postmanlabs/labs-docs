@@ -62,13 +62,13 @@ To switch back to your previous account, click on the account user name in the d
 
 #### How to switch accounts in the Postman web view
 
-When you sign in to the Postman dashboard, you see your profile image on the top right hand corner of the screen.  
+* When you sign in to the Postman dashboard, you see your profile image on the top right hand corner of the screen.  
 
-To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
+* To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
 
-After you sign in to another account, the drop down menu lists all your active signed-in accounts.
+* After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
-To switch back to your previous account, click on the account user name in the drop down menu.
+* To switch back to your previous account, click on the account user name in the drop down menu.
 
 [![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)
 
