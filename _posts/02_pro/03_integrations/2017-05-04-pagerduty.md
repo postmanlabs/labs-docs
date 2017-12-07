@@ -44,7 +44,7 @@ The Postman Pro to PagerDuty Integration enables Postman Monitor results to trig
 [![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)
 
 <ol start="2">
-  <li>Click the <b>View Details<b> button to see information about PagerDuty. </li>
+  <li>Click the <b>View Details</b> button to see information about PagerDuty. </li>
 </ol>
 
 [![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-details.png)
