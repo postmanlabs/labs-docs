@@ -36,8 +36,8 @@ The "Create New" modal appears.
 **Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 <ol start="2">
-  <li>Click "Documentation". /li>
-</ol>
+  <li>Click "Documentation".</li>
+ </ol>
 
 [![create docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)
 
