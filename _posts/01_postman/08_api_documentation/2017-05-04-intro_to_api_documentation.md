@@ -8,13 +8,13 @@ warning: false
 
 ---
 
-Postman's API documentation feature allows you to share public or private API documentation, that users can view in a web page. 
+Postman's API documentation feature lets you to share public or private API documentation in a beautifully formated web page. 
 
 Postman generates and hosts browser-based API documentation for your collections automatically in real-time. Each collection has a private and public documentation view, generated in real-time, using the data synced to our servers. 
 
 To [access the private view](/docs/postman/api_documentation/viewing_documentation), click "View in web" in the Postman app or in the "Team Library". 
 
-The public view is accessible in the public link, generated when you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs). This link displays right after your documentation is published. The documentation is also accessible in the "Published" dropdown in the private documentation view.
+The public view is accessible in the public link and is generated when you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs). This link displays right after your documentation is published. The documentation is also accessible in the "Published" dropdown in the private documentation view.
 
 ### Creating a documentation
 
