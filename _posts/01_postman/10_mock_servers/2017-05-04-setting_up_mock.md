@@ -47,21 +47,21 @@ The "Create New" modal appears.
    * New API
      
      * Enter a request path, status code, response code and click the **Next** button.
-     * Enter the mock server name, indicate if you want the mock server to be private, and click the **Create** button.
+     * Enter the mock server name, indicate if you want the mock server to be private, and then click the **Create** button.
      
     The Next Steps screen appears with information about the mock server and provides suggestions about next steps.
     
    * My Collections
    
      * Select a collection.
-     * Select an environment, indicate if you want the mock server to be private, and click the **Create** button.
+     * Select an environment, indicate if you want the mock server to be private, and then click the **Create** button.
      
      The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
      
    * Team Library
    
      * Select a shared collection.
-     * Select an environment, and click the **Create** button.
+     * Select an environment, and then click the **Create** button.
      
      The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
      
