@@ -26,7 +26,7 @@ The Postman Pro to PagerDuty Integration enables Postman Monitor results to trig
 
  <ol start="4">
   <li>Enter your Service Name and choose Postman as the Integration Type. </li>
-  <li>Click on "Add Service" at the bottom of the page to create a new service.</li>
+  <li>Click on "Add Service" at the bottom of the page to create a new service. </li>
 </ol>
 
 [![pagerduty service](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)
@@ -39,12 +39,12 @@ The Postman Pro to PagerDuty Integration enables Postman Monitor results to trig
 
 ### Configuring Postman Pro with PagerDuty
 
-1. From the [Integrations page](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
+1. In the [Integrations page](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)
 
 <ol start="2">
-  <li>Click the <b>View Details<b> button to see information about PagerDuty. </li>
+  <li>Click the <b>View Details</b> button to see information about PagerDuty. </li>
 </ol>
 
 [![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-details.png)
