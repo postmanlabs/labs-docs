@@ -23,9 +23,10 @@ You can create documentation from the:
 * Launch modal
 
 <br>
+
 #### New button
 
-In the header toolbar, click the **New** button.
+1. In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
@@ -34,7 +35,9 @@ The "Create New" modal appears.
 
 **Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
-Click "Documentation".
+<ol start="2">
+  <li>Click "Documentation"./li>
+</ol>
 
 [![create docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)
 
