@@ -42,18 +42,22 @@ The "Create New" modal appears.
 3. In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library". 
    * New API
      
-     Select the method, enter a request URL, and click the **Next** button.
-     Enter the name and description and click the **Create** button.
+     * Select the method, enter a request URL, and click the **Next** button.
+     * Enter the name and description and click the **Create** button.
+     
      The "Next Steps" modal appears with information about the documentation and provides suggestions about next steps.
+     
    * My Collections
    
-     Select a collection, add or edit the description, and click the **Create** button. 
+     * Select a collection, add or edit the description, and click the **Create** button. 
+     
      The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
      
    * Team Library
    
-     Select a shared collection.
-     Add or edit a description, and click the **Create** button.
+     * Select a shared collection.
+     * Add or edit a description, and click the **Create** button.
+     
      The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
      
 #### Launch screen
