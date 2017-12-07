@@ -19,10 +19,10 @@ Establishing an [example](/docs/postman/collections/examples){:target="_blank"} 
 
 You can create a mock by using the: 
 
-  1. [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
-  2. [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
-  3. **New** button
-  4. Launch modal 
+  * [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
+  * [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
+  * **New** button
+  *  Launch modal 
   
 After you create the mock, Postman Pro and Enterprise users can share [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
@@ -43,27 +43,27 @@ The "Create New" modal appears.
 [![create mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)
 
 
-3. In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library". 
+3. In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library". 
    * New API
      
      * Enter a request path, status code, response code and click the **Next** button.
      * Enter the mock server name, indicate if you want the mock server to be private, and then click the **Create** button.
      
-    The Next Steps screen appears with information about the mock server and provides suggestions about next steps.
+    The Next Steps modal appears with information about the mock server and provides suggestions about next steps.
     
    * My Collections
    
      * Select a collection.
      * Select an environment, indicate if you want the mock server to be private, and then click the **Create** button.
      
-     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
+     The "Next Steps" modal appears with information about the mock server and provides suggestions about next steps.
      
    * Team Library
    
      * Select a shared collection.
      * Select an environment, and then click the **Create** button.
      
-     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
+     The "Next Steps" modal appears with information about the mock server and provides suggestions about next steps.
      
 #### Creating a mock using the launch screen
 
