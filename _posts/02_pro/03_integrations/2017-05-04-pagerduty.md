@@ -10,7 +10,9 @@ warning: false
 
 ---
 
-PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling and automatic escalation of critical incidents. The service can be configured to deliver alerts by phone call, email, text or via iOS and Android apps.
+PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling and automatic escalation of critical incidents. 
+
+The service can be configured to deliver alerts by phone call, email, text or via iOS and Android apps.
 
 The Postman Pro to PagerDuty Integration enables Postman Monitor results to trigger incidents and acknowledgements in PagerDuty.  
 
@@ -20,7 +22,7 @@ The Postman Pro to PagerDuty Integration enables Postman Monitor results to trig
 2. In the header toolbar, click "Configuration" and select "Services".  
 3. If you are creating a new service for this integration, click "Add New Service".
 
-[![pagerduty menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)
+[![pagerduty menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty.png)
 
  <ol start="4">
   <li>Enter your Service Name and choose Postman as the Integration Type. </li>
