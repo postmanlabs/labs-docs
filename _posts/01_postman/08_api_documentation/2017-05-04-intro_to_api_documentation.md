@@ -16,7 +16,7 @@ Postman generates and hosts browser-based API documentation for your collections
 
 You can create documentation from the:
 * **New** button 
-* Launch screen
+* Launch modal
 
 
 #### New button
@@ -25,27 +25,27 @@ You can create documentation from the:
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The "Create New" screen appears.
+The "Create New" modal appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+**Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 2. Click "Documentation".
 
 [![create docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)
 
 
-3. In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library". 
+3. In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library". 
    * New API
      
      Select the method, enter a request URL, and click the **Next** button.
      Enter the name and description and click the **Create** button.
-     The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
+     The "Next Steps" modal appears with information about the documentation and provides suggestions about next steps.
    * My Collections
    
-     Select a collection.
-     Add or edit a description, and click the **Create** button.
-     The "Next Step"s screen appears with information about the documentation and provides suggestions about next steps.
+     Select a collection, add or edit the description, and click the **Create** button. 
+     The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
+     
    * Team Library
    
      Select a shared collection.
@@ -54,7 +54,7 @@ The "Create New" screen appears.
      
 #### Launch screen
 
-The "Create New" screen appears by default when you launch Postman. At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the 'Create New' screen to display each time you open Postman.
+The "Create New" modal appears by default when you launch Postman. At the bottom of the modal you can select ‘Show this window at launch’ to indicate whether you want the 'Create New' modal to display each time you open Postman.
 
 1. Open Postman.
 2. In the "Create New" screen, click "Documentation".
