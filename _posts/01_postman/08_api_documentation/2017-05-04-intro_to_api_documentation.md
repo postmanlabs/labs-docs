@@ -69,7 +69,7 @@ The "Create New" modal appears.
 The "Create New" modal appears by default when you launch Postman. At the bottom of the modal you can select ‘Show this window at launch’ to indicate whether you want the 'Create New' modal to display each time you open Postman.
 
 1. Open Postman.
-2. In the "Create New" screen, click "Documentation".
+2. In the "Create New" modal, click "Documentation".
 3. Follow step 3 in previous **New** button section. 
    
 
