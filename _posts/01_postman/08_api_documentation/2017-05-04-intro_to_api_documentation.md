@@ -14,7 +14,8 @@ Postman generates and hosts browser-based API documentation for your collections
 
 To [access the private view](/docs/postman/api_documentation/viewing_documentation), click "View in web" in the Postman app or in the "Team Library". 
 
-The public view is accessible in the public link and is generated when you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs). This link displays right after your documentation is published. The documentation is also accessible in the "Published" dropdown in the private documentation view.
+The public view is accessible in the public link and is generated when you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs). The public link displays 
+after your documentation is published. The documentation is also accessible in the "Published" dropdown in the private documentation view.
 
 ### Creating a documentation
 
