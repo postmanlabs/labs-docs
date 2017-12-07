@@ -41,8 +41,9 @@ The "Create New" modal appears.
 
 [![create docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)
 
-
-3. In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library". 
+<ol start="3">
+  <li>In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library". </li>
+ </ol>
 
    * New API
      
