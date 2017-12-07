@@ -10,7 +10,7 @@ warning: false
 
 Postman's API documentation feature lets you share public or private API documentation in a beautifully formated web page. 
 
-Postman generates and hosts browser-based API documentation for your collections automatically in real-time. Each collection has a private and public documentation view from synced data in the servers. 
+Postman generates and hosts browser-based API documentation for your collections automatically in real-time. Each collection has a private and public documentation view that Postman generates from synced data in the servers. 
 
 To [access the private view](/docs/postman/api_documentation/viewing_documentation), click "View in web" in the Postman app or in the "Team Library". 
 
