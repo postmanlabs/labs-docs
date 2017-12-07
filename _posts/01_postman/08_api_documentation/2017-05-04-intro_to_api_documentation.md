@@ -73,7 +73,11 @@ Documentation for your API includes the following:
    *   Descriptions associated with requests, folders, and collections
    *   Generated code snippets in some of the most popular programming languages
 
-Documentation is organized into sections that reflect the structure of your collection, by ordered requests and folders. Descriptions can be customized using [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation. GitHub flavored markdown is also supported, so you can even include tables. When including block elements, ensure that you leave an empty line before and after to avoid any rendering issues.
+Postman uses ordered requests and folders to organize documentation in sections to reflect the structure of your collection.
+
+You can customize descriptions with [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation. 
+
+We support GitHub flavored markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
 
 [![example of published documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)
 
