@@ -73,11 +73,11 @@ The "Create New" modal appears by default when you launch Postman. At the bottom
 2. In the "Create New" modal, click "Mock Server".
 3. Follow step 3 in previous **New** button section. 
 
-### Using HTTP access control (CORS)
+### Using HTTP access control (CORS) for a mock
 
-Not only can you make requests to mock endpoints using the Postman app, you can also rely on a mock using a browser.
+In addition to using the Postman app to make requests to mock endpoints, you also make those requests in a browser.
 
-A web browser makes a cross-origin HTTP request when requesting a resource from a domain, protocol, or port that's different from its own. 
+A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. 
 
 For security reasons, [cross-origin resource sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS){:target="_blank"} is a standard that defines a way in which a browser and server can interact securely. In this case, we are referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
 
