@@ -43,6 +43,44 @@ The Postman Pro to PagerDuty Integration enables Postman Monitor results to trig
 
 [![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)
 
+
+Click the View Details button to see information about PagerDuty.
+
+
+[![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-details.png)
+
+You also can click the Configured Integrations tab to set up other integrations, view available integrations for HipChat, or view all integrations.
+
+
+Add a team activity feed to PagerDuty
+
+The Team Activity Feed is where you can view all team activity. You can monitor your team’s API development and track all the changes. This integration updates you on all changes in PagerDuty itself, so you don’t have to go back to Postman to see the team activity feed.
+
+To add a team activity feed to PagerDuty:
+
+Click the Add Integration button.
+In the Team Activity Feed page, enter your team’s activity feed URL, and click the Add Integration button.
+
+[![pagerduty monrun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-monrun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-monrun.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OLD STUFF
+
 Click Add to connect your Postman Monitors to PagerDuty.
 
 [![add pagerduty](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_add.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_add.png)
