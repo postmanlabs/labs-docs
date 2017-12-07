@@ -12,7 +12,7 @@ warning: false
 
 PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling and automatic escalation of critical incidents. 
 
-The service can be configured to deliver alerts by phone call, email, text or via iOS and Android apps.
+The service can be configured to deliver alerts by phone call, email, text or through iOS and Android apps.
 
 The Postman Pro to PagerDuty Integration enables Postman Monitor results to trigger incidents and acknowledgements in PagerDuty.  
 
