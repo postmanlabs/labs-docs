@@ -53,7 +53,7 @@ The "Create New" modal appears.
    * Team Library
    
      Select a shared collection.
-     Add or edit a description, and click the Create button.
+     Add or edit a description, and click the **Create** button.
      The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
      
 #### Launch screen
