@@ -17,10 +17,12 @@ Developers can mock a request and response in Postman before they send the actua
 
 Establishing an [example](/docs/postman/collections/examples){:target="_blank"} in the earliest phase of API development requires clear communication, which is instrumental in aligning expectations among team members. When communication is clear and expectations are aligned, developers and testers can start more quickly, with fewer delays.
 
+
 You can create a mock by using the: 
 
   * **New** button
   *  Launch modal 
+
   
 After you create the mock, Postman Pro and Enterprise users can share [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
@@ -29,7 +31,7 @@ After you create the mock, Postman Pro and Enterprise users can share [share the
 
 #### Creating a mock with the New button
 
-1.  In the header toolbar, click the **New** button.
+In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
@@ -38,12 +40,14 @@ The "Create New" modal appears.
 
 **Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
 
-2. Click "Mock Server".
+Click "Mock Server".
 
 [![create mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)
 
 
+
 3. In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library". 
+
    * New API
      
      * Enter a request path, status code, response code and click the **Next** button.
