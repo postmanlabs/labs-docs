@@ -7,9 +7,9 @@ page_id: "setting_up_mock"
 warning: false
 ---
 
-Teams who are dependent on front- or back-end development often suffer delays in the development process. As a result, it is difficult for them to complete their work efficiently.  
+Teams who are dependent on front- or back-end development often suffer delays in the development process. As a result, it is difficult for those dependent teams to complete their work efficiently.  
 
-However, Postman's mock servers alleviates those problems. Mock servers enable front-end developers to simulate each endpoint in a Postman Collection and the corresponding environment. They can view potential responses, without spinning up a back end. Now teams can work in parallel and eliminate delays for dependent teams.
+However, Postman's mock servers alleviates those problems. Mock servers enable front-end developers to simulate each endpoint in a Postman Collection and the corresponding environment. They can view potential responses without spinning up a back end. With mock servers, teams can work in parallel. eliminating delays for dependent teams.
 
 ### Setting up the mock
 
@@ -24,14 +24,18 @@ You can create a mock by using the:
   *  Launch modal 
 
   
-After you create the mock, Postman Pro and Enterprise users can share [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
+You can also create mock servers using the **Postman app** and **Postman Pro API**. Each provides detailed steps on how to use them.
 
-**Note**: You can also create mock servers using the [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} and the [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}. 
+* [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} 
+* [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}. 
+
+
+After you create the mock, Postman Pro and Enterprise users can share [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
 
 #### Creating a mock with the New button
 
-In the header toolbar, click the **New** button.
+1. In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
@@ -40,20 +44,22 @@ The "Create New" modal appears.
 
 **Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
 
-Click "Mock Server".
+<ol start="2">
+  <li>Click "Mock Server".</li>
+</ol>
 
 [![create mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)
 
-
-
-3. In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library". 
+<ol start="3">
+  <li>In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library".</li>
+</ol>
 
    * New API
      
      * Enter a request path, status code, response code and click the **Next** button.
      * Enter the mock server name, indicate if you want the mock server to be private, and then click the **Create** button.
      
-    The Next Steps modal appears with information about the mock server and provides suggestions about next steps.
+     The Next Steps modal appears with information about the mock server and provides suggestions about next steps.
     
    * My Collections
    
@@ -75,11 +81,11 @@ The "Create New" modal appears by default when you launch Postman. At the bottom
 
 1. Open Postman.
 2. In the "Create New" modal, click "Mock Server".
-3. Follow step 3 in previous **New** button section. 
+3. Follow step 3 in the previous **New** button section. 
 
 ### Using HTTP access control (CORS) for a mock
 
-In addition to using the Postman app to make requests to mock endpoints, you also make those requests in a browser.
+In addition to using the Postman app to make requests to mock endpoints, you also can make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. 
 
