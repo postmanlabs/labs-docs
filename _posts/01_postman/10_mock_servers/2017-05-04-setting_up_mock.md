@@ -7,9 +7,9 @@ page_id: "setting_up_mock"
 warning: false
 ---
 
-Teams who are dependent on front- or back-end development often suffer delays in the development process. As a result it is difficult for them to complete their work efficiently.  
+Teams who are dependent on front- or back-end development often suffer delays in the development process. As a result, it is difficult for them to complete their work efficiently.  
 
-However, Postman's mock servers alleviates those problems. Mock servers enable front-end developers to simulate each endpoint in a Postman Collection and the corresponding environment. They can view potential responses, without spinning up a back end. Now teams can work in parallel, eliminating delays for dependent teams.
+However, Postman's mock servers alleviates those problems. Mock servers enable front-end developers to simulate each endpoint in a Postman Collection and the corresponding environment. They can view potential responses, without spinning up a back end. Now teams can work in parallel and eliminate delays for dependent teams.
 
 ### Setting up the mock
 
