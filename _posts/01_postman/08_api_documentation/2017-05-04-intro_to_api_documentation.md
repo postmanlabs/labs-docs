@@ -8,7 +8,7 @@ warning: false
 
 ---
 
-Postman's API documentation feature lets you to share public or private API documentation in a beautifully formated web page. 
+Postman's API documentation feature lets you share public or private API documentation in a beautifully formated web page. 
 
 Postman generates and hosts browser-based API documentation for your collections automatically in real-time. Each collection has a private and public documentation view, generated in real-time, using the data synced to our servers. 
 
