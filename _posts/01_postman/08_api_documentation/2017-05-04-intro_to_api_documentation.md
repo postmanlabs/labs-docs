@@ -79,7 +79,7 @@ Documentation for your API includes the following:
 
 Postman uses ordered requests and folders to organize documentation in sections to reflect the structure of your collection.
 
-You can customize descriptions with [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation. 
+You can customize descriptions using [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation. 
 
 We support GitHub flavored markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
 
