@@ -41,7 +41,7 @@ The Postman Pro to PagerDuty Integration enables Postman Monitor results to trig
 
 1. From the [Integrations page](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
 
-[![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerdutyINT.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerdutyINT.png)
+[![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)
 
 Click Add to connect your Postman Monitors to PagerDuty.
 
