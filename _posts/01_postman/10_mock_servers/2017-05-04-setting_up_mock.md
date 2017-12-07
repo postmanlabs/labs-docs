@@ -24,7 +24,8 @@ You can create a mock by using the:
   *  Launch modal 
 
   
-You can also create mock servers using the Postman app and Postman Pro API. Each provides detail steps on how to use them.
+You can also create mock servers using the **Postman app** and **Postman Pro API**. Each provides detailed steps on how to use them.
+
 * [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} 
 * [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}. 
 
