@@ -25,9 +25,10 @@ With Postman's scripting engine you can set variable values, copy data from one 
 The following scopes are available to you:
 
   1.  Global
-  2.  Environment
-  3.  Local
-  4.  Data
+  1.  Collection
+  1.  Environment
+  1.  Local
+  1.  Data
 
 Scopes can be viewed as different kinds of buckets in which values reside. If a variable is in two different scopes, the scope with a higher priority wins and the variable gets its value from there. Postman resolves scopes using this hierarchy progressing from broad to narrow scope. 
 
@@ -43,12 +44,18 @@ Since variables in the request builder are accessed using string substitution, t
 
 Variables can also be used in pre-request and test scripts. Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
 
-  1.  Defining a variable in a script: 
-        *  To set a variable in a script, use the `setEnvironmentVariable()` method or `setGlobalVariable()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable.
+  1.  Defining an environment or global variable in a script: 
+        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.global.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
   2.  Fetching a pre-defined variable: 
-        *  Once a variable has been set, use the `getEnvironmentVariable()` method or `getGlobalVariable()` method depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
+        *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.global.get()` method depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
   3.  Setting a variable in a scope: 
-        *  Environment variables can be accessed with the corresponding environment template.  Global variables can be accessed broadly regardless of the selected environment.
+        *  Environment variables can be accessed with the corresponding environment template. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
+
+### Defining collection variables
+
+Collection variables can be defined by editing the collection details. Click on the ellipses (...) next to the collection name, and select “Edit” to open the **EDIT COLLECTION** modal. Select the **Variables** tab to add and edit collection variables. You can also define collection variables when creating the collection.  
+
+[![edit collection variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit-collection-variable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit-collection-variable.png)
 
 ### Logging variables
 
