@@ -17,7 +17,7 @@ Now front-end, back-end, and API teams can now work in parallel, freeing up dev
 
 Developers can mock a request and response in Postman before they send the actual request or set up a single endpoint to return the response. 
 
-An [example](/docs/postman/collections/examples) in the earliest phase of API development requires clear communication, which is instrumental in aligning expectations among team members. When communication is clear and expectations are aligned, developers and testers can start more quickly.
+Establishing [example](/docs/postman/collections/examples) in the earliest phase of API development requires clear communication, which is instrumental in aligning expectations among team members. When communication is clear and expectations are aligned, developers and testers can start more quickly, with fewer delays.
 
 You can create a mock in several ways: 
 
