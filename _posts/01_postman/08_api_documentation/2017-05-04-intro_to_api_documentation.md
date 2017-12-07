@@ -76,7 +76,7 @@ The "Create New" modal appears by default when you launch Postman. At the bottom
 
 ### What gets automatically generated?
 
-Documentation for your API includes the following:
+Documentation for your API includes:
 
    *   Sample requests, headers, and other metadata
    *   Descriptions associated with requests, folders, and collections
