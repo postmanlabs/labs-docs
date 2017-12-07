@@ -9,9 +9,7 @@ warning: false
 
 Throughout the development process, delays on the front- or back-end impedes dependent teams from completing their work efficiently.  
 
-Using Postman's mock servers, front-end developers can simulate each endpoint in a Postman Collection (and corresponding environment) to view the potential responses, without actually spinning up a back end.
-
-Now front-end, back-end, and API teams can now work in parallel, freeing up developers who were previously delayed as a result of these dependencies.
+Using Postman's mock servers, front-end developers can simulate each endpoint in a Postman Collection (and corresponding environment) to view the potential responses, without actually spinning up a back end. In addition front-end, back-end, and API teams can work in parallel, freeing up developers who were previously delayed as a result of these dependencies.
 
 ### Setting up the mock
 
@@ -19,14 +17,14 @@ Developers can mock a request and response in Postman before they send the actua
 
 Establishing [example](/docs/postman/collections/examples) in the earliest phase of API development requires clear communication, which is instrumental in aligning expectations among team members. When communication is clear and expectations are aligned, developers and testers can start more quickly, with fewer delays.
 
-You can create a mock in several ways: 
+You can create a mock by using the: 
 
-  1. [Using the Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
-  2. [Using the Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
-  3. Using the **New** button.
-  4. Using the launch modal. 
+  1. [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
+  2. [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
+  3. **New** button
+  4. Launch modal 
   
-Once you've created the mock, Postman Pro and Enterprise users can share the mock with their team for review and collaboration. This is accomplished by [sharing the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, providing permissions to edit or view.
+After you create the mock, Postman Pro and Enterprise users can share the mock with their team for review and collaboration. They can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
 
 #### Creating a mock with the New button
