@@ -11,6 +11,7 @@ The authorization process verifies whether you have permission to access the dat
 Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
 When you select 'Authorization' in the request builder, you see the **TYPE** drop down menu. 
+* Inherit auth from parent
 * No Auth 
 * Bearer Token
 * Basic auth
@@ -36,11 +37,13 @@ If you want to inspect the authorization headers and parameters that Postman gen
 
 **Note**: You can inspect a raw dump of the entire request in the Postman console after you send it.
 
-### Adding authorization to a collection or folder
+### Inherit auth from parent
 
-You can use environment, collection or global variables with all authorization types. In addition to using these within the Postman app, you can also use these authorization types with Newman or Postman monitors.
+#### Adding authorization to a collection or folder
 
-Suppose you [add a folder](/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the Authorization tab, the default authorization type is set to “Inherit auth from parent”. This means that every request within this folder will by default use the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder will use “No Auth”, meaning all requests within that folder will use “No Auth” .
+You can use environment, collection, or global variables with all authorization types. In addition to using these in the Postman app, you can also use these authorization types with Newman or Postman monitors.
+
+Suppose you [add a folder](/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the Authorization tab, the default authorization type is set to “Inherit auth from parent”. This means that every request in this folder will by default use the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder will use “No Auth”, meaning all requests within that folder will use “No Auth” .
 
 [![folder auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/folder-auth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/folder-auth.png)
 
