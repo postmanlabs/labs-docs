@@ -26,7 +26,7 @@ A Postman Collection lets you group individual requests together. You can organi
 You can create a new collection from the:
 * Sidebar
 * New button 
-* Launch screen
+* Launch modal
 
 
 #### Sidebar
