@@ -27,7 +27,7 @@ When you select 'Authorization' in the request builder, you see the **TYPE** dro
 
 [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
 
-You can use environment variables with all authorization types. You can also use these authorization types with Newman.
+You can use environment, collection, or global variables with all authorization types. In addition to using these in the Postman app, you can also use these authorization types with Newman or Postman monitors.
 
 Postman does not save header data and query parameters to prevent sensitive data exposure, such as API keys, to the public.
 
@@ -40,8 +40,6 @@ If you want to inspect the authorization headers and parameters that Postman gen
 ### Inherit auth from parent
 
 #### Adding authorization to a collection or folder
-
-You can use environment, collection, or global variables with all authorization types. In addition to using these in the Postman app, you can also use these authorization types with Newman or Postman monitors.
 
 Suppose you [add a folder](/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the Authorization tab, the default authorization type is set to “Inherit auth from parent”. This means that every request in this folder will by default use the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder will use “No Auth”, meaning all requests within that folder will use “No Auth” .
 
