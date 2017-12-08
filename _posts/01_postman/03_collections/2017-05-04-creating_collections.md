@@ -60,10 +60,6 @@ The **Create New** modal appears.
   <li>Click the <b>Create</b> button. </li>
 </ol>
 
-1. Click "Collection". 
-2. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
-3. Click the **Create** button.
-
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
@@ -74,6 +70,7 @@ After creating the collection, you can save requests to the collection and add f
 
 
 The "Create New" modal appears by default when you launch Postman. 
+
 At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
 
 1. Open Postman.
@@ -98,8 +95,8 @@ You can save a request to a collection from the:
 2. Click the **Save** button.  
     
 <ol start="3">
-  <li>In the **SAVE REQUEST** modal, enter a request name, and select a collection or folder to save the request..<br></li>
-  <li>Click the **Save** button.</li>
+  <li>In the <b>SAVE REQUEST</b> modal, enter a request name, and select a collection or folder to save the request..<br></li>
+  <li>Click the <b>Save</b> button.</li>
 </ol>
      
 
