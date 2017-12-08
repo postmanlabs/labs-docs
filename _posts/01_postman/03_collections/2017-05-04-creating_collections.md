@@ -52,7 +52,6 @@ You can create a new collection from the:
 The **Create New** modal appears.
 
  [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
-
  <ol start="2">
   <li>Click "Collection".</li>
   <li>In the <b>CREATE A NEW COLLECTION</b> modal, enter a name and optional description. </li>
