@@ -13,16 +13,16 @@ Postman lets you monitor shared or private collections. If you choose to monitor
 You can create a monitor from the:
 * Sidebar menu
 * **New** button
-* Launch screen
+* Launch modal
 * Postman web 
  
 ### Sidebar menu
 You can create a monitor for an existing collection from the sidebar.
-1. In the Postman app, click on the ellipses (…) next to the collection you wish to monitor. 
+1. In the Postman app, click on the ellipses (…) next to the collection you want to monitor. 
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
-2. Select "Monitor Collection" to open the MONITOR COLLECTION screen.
+2. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
 3. Enter a name for this monitor and choose a corresponding environment. 
 4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
 5. Click the **Monitor this collection** button.
@@ -35,30 +35,30 @@ You can create a monitor for an existing collection from the sidebar.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The "Create New" screen appears.
+The "Create New" modal appears.
 
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+**Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 2. Click "Monitor".
 
-3. In the "Create a monitor" screen, you can create a monitor for a "New API", "My Collections", and "Team Library". 
+3. In the "Create a monitor" modal, you can create a monitor for a "New API", "My Collections", and "Team Library". 
    * New API
      
      Enter a request path, status code, response code and click the **Next** button.
      Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor from and click the **Create** button.
-     The Next Steps screen appears with information about the monitor and provides suggestions about next steps.
+     The Next Steps modal appears with information about the monitor and provides suggestions about next steps.
    * My Collections
    
      Select a collection.
      Select an environment, indicate if you want the mock server to be private, and click the **Create** button.
-     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
+     The "Next Steps" modal appears with information about the mock server and provides suggestions about next steps.
    * Team Library
    
      Select a shared collection.
      Select an environment, and click the **Create** button.
-     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
+     The "Next Steps" modal appears with information about the mock server and provides suggestions about next steps.
 
 Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
 You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
