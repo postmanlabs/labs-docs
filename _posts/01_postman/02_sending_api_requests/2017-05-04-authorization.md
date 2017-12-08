@@ -10,7 +10,7 @@ warning: false
 The authorization process verifies whether you have permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. 
 Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
-When you select 'Authorization' in the request builder, you see the **TYPE** drop down menu. 
+When you select "Authorization" in the request builder, you see the **TYPE** drop down menu. 
 * Inherit auth from parent
 * No Auth 
 * Bearer Token
