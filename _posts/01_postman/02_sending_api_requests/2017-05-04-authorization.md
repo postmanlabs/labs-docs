@@ -45,7 +45,7 @@ Suppose you [add a folder](/docs/postman/collections/managing_collections#adding
 
 The “Inherit auth from parent” setting indicates that every request in this folder by default uses the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder uses “No Auth”, meaning all requests in that folder will use “No Auth” .
 
-[![folder auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/folder-auth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/folder-auth.png)
+[![folder auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder.png)
 
 What if you want to leave the parent collection authorization type as “No Auth”, but update this specific folder’s authorization helper? You can edit the folder details, select “Basic Auth” from the **TYPE** dropdown, and input your credentials. As a result, every request in this folder relies on “Basic Auth” while the rest of the requests in the parent collection still do not use any authorization.
 
