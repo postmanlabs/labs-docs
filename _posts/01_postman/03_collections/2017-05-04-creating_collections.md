@@ -38,7 +38,7 @@ You can create a new collection from the:
   
   <ol start="2">
   <li>Enter a name for your collection (and optional description).<br></li>
-  <li>Click the **Create** button.</li>
+  <li>Click the <b>Create</b> button.</li>
 </ol>
 
 <br>
@@ -52,7 +52,6 @@ You can create a new collection from the:
 The **Create New** modal appears.
 
  [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
-
 
  <ol start="2">
   <li>Click "Collection".</li>
@@ -68,14 +67,13 @@ After creating the collection, you can save requests to the collection and add f
 
 #### Launch screen
 
-
 The "Create New" modal appears by default when you launch Postman. 
 
 At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
 
 1. Open Postman.
 2. In the **Create New** screen, click "Collection".
-3. In the **CREATE A NEW COLLECTION** modal , enter a name and optional description. 
+3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
 4. Click the **Create** button.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
