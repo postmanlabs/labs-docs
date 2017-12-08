@@ -26,7 +26,7 @@ A Postman Collection lets you group individual requests together. You can organi
 You can create a new collection from the:
 * Sidebar
 * **New** button 
-* Launch screen
+* Launch modal
 
 <br>
 
@@ -49,9 +49,10 @@ You can create a new collection from the:
 
  [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The **Create New** screen appears.
+The **Create New** modal appears.
 
  [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
+
 
  <ol start="2">
   <li>Click "Collection".</li>
@@ -59,6 +60,9 @@ The **Create New** screen appears.
   <li>Click the **Create** button. </li>
 </ol>
 
+1. Click "Collection". 
+2. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
+3. Click the **Create** button.
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
@@ -68,7 +72,9 @@ After creating the collection, you can save requests to the collection and add f
 
 #### Launch screen
 
-The **Create New** screen appears by default when you launch Postman. 
+
+The "Create New" modal appears by default when you launch Postman. 
+At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
 
 1. Open Postman.
 2. In the **Create New** screen, click "Collection".
