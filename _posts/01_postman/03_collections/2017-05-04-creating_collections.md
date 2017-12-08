@@ -56,8 +56,8 @@ The **Create New** modal appears.
 
  <ol start="2">
   <li>Click "Collection".</li>
-  <li>In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. </li>
-  <li>Click the **Create** button. </li>
+  <li>In the <b>CREATE A NEW COLLECTION</b> modal, enter a name and optional description. </li>
+  <li>Click the <b>Create</b> button. </li>
 </ol>
 
 1. Click "Collection". 
