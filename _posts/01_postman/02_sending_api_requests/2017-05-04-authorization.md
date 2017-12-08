@@ -41,7 +41,7 @@ If you want to inspect the authorization headers and parameters that Postman gen
 
 #### Adding authorization to a collection or folder
 
-Suppose you [add a folder](/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the Authorization tab, the default authorization type is set to “Inherit auth from parent”. 
+Suppose you [add a folder](/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the **Authorization** tab, the default authorization type is set to “Inherit auth from parent”. 
 
 The “Inherit auth from parent” setting indicates that every request in this folder by default uses the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder uses “No Auth”, meaning all requests in that folder will use “No Auth” .
 
@@ -59,7 +59,7 @@ To update the collection or folder authorization, click on the ellipses (...) ne
  
 [![select folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/select-folder-basic-auth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/select-folder-basic-auth.png)
  
-For example, if you create a collection with Basic Auth, every request within the collection will use the same authorization helper. If you want a specific request in the collection to use a different authorization, or no authorization at all, use the **TYPE** dropdown under the **Authorization** tab to define the authorization helper for the specific request.
+For example, if you create a collection with "Basic Auth", every request within the collection will use the same authorization helper. If you want a specific request in the collection to use a different authorization, or no authorization at all, use the **TYPE** dropdown under the **Authorization** tab to define the authorization helper for the specific request.
  
 ### No Auth
 
