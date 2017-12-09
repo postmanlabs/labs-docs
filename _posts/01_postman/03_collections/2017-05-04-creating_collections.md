@@ -27,7 +27,6 @@ You can create a new collection from the:
 * Sidebar
 * **New** button 
 * Launch modal
-
 <br>
 
 #### Sidebar
