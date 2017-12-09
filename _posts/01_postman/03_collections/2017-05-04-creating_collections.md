@@ -107,7 +107,7 @@ After you save the request, you can add the URL, method, headers, and body to th
 [![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)
 
 #### Launch screen
-The  **Create New** modal appears by default when you launch Postman. 
+The  **Create New** tab appears by default when you launch Postman. 
 
 1. Open Postman.
 2. In the  **Create New** screen, click "Request".
