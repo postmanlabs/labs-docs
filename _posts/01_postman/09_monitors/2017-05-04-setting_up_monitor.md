@@ -84,12 +84,12 @@ In the **Select requests to monitor** tab, you can "Create a new API", "Use exis
 * Select an environment (optional).
 * Set how frequent the monitor should run.
 * Select one or more regions of the world from where you want to monitor your results.
+* Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
     
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
-    
- * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
  
  6. Click the **Create** button.
+ 7. In the Next steps tab, see a list of suggested next steps to maximize your monitor.
      
      
      
