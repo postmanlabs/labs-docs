@@ -56,40 +56,39 @@ The "Create New" tab appears.
 <ol start="2">
   <li>Click "Monitor".</li>
   <li>
-In the **Select requests to monitor** tab, you can "Create a new API", "Use existing collection", and "Use team collection".</li>
+In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use existing collection", and "Use team collection".</li>
 </ol>
-
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
 
-  * Create a new API
+    * Create a new API
    
-    Select a request method and enter the request URL, status code, and response time. Then click the **Next** button.
+      Select a request method and enter the request URL, status code, and response time. 
     
-  * Use existing collection
+    * Use existing collection
     
-    Select a collection to monitor from a list of exisiting collections.
+      Select a collection to monitor from a list of exisiting collections.
    
-   * Use team collection
+    * Use team collection
  
-     Select a collection to monitor from a list of team collections.
+      Select a collection to monitor from a list of team collections.
  
 
 <ol start="4">
-  <li>After you select or create the request you want to monitor, click the Next button. </li>
-  <li>In the **Configure** tab, you must:.</li>
+  <li>After you select or create the request you want to monitor, click the <b>Next button</b>. </li>
+  <li>In the <b>Configure</b> tab, you must:.</li>
 </ol>
    
-* Enter the name of the monitor
-* Select an environment (optional).
-* Set how frequent the monitor should run.
-* Select one or more regions of the world from where you want to monitor your results.
-* Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
+  * Enter the name of the monitor
+  * Select an environment (optional).
+  * Set how frequent the monitor should run.
+  * Select one or more regions of the world from where you want to monitor your results.
+  * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
     
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
  
  6. Click the **Create** button.
- 7. In the Next steps tab, see a list of suggested next steps to maximize your monitor.
+ 7. In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
      
      
      
