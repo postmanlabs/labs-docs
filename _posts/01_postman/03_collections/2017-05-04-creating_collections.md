@@ -114,8 +114,8 @@ After you save the request, you can add the URL, method, headers, and body to th
 The  **Create New** tab appears by default when you launch Postman. 
 
 1. Open Postman.
-2. In the  **Create New** screen, click "Request".
-3. In the **SAVE REQUEST** screen, enter a title and description.
+2. In the  **Create New** tab, click "Request".
+3. In the **SAVE REQUEST** modal, enter a title and description.
 4. Select a collection and save the request in an existing collection or create a new collection. 
 5. Click the **Save** button.
 
