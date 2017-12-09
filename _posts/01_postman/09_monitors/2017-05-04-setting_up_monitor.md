@@ -11,12 +11,12 @@ Postman lets you monitor shared or private collections. If you choose to monitor
 
 
 You can create a monitor from the:
-* Sidebar menu
+* Sidebar
 * **New** button
 * Launch screen
 * Postman web 
  
-### Sidebar menu
+### Sidebar 
 
 You can create a monitor for an existing collection from the sidebar.
 
