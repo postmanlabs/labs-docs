@@ -27,7 +27,7 @@ You can create a monitor for an existing collection from the sidebar.
 <ol start="2">
   <li>Select "Monitor Collection" to open the <b>MONITOR COLLECTION</b> modal.</li>
   <li>Enter a name for this monitor and choose a corresponding environment. </li>
-  <li>Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule){:target="_blank"}, and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences){:target="_blank"}.</li>
+  <li>Add an appropriate schedule for the monitor, and configure additional preferences.</li>
   <li>Click the <b>Monitor this collection</b> button</li>
 </ol>
 
