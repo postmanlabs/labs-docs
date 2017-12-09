@@ -101,9 +101,8 @@ You can save a request to a collection from the:
 #### New button
 1. In the header toolbar, click the **New** button.
 2. Click "Request".
-3. In the **SAVE REQUEST** modal, enter a title and description.
-4. Select a collection and save the request in an existing collection or create a new collection. 
-5. Click the **Save** button.
+3. In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
+4. Click the **Save** button.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
