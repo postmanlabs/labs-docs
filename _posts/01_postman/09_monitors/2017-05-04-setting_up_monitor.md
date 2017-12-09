@@ -36,7 +36,7 @@ You can create a monitor for an existing collection from the sidebar.
 
 ### New button
 
-When you use the **New button** to create a monitor, Postman guides you on how to set up a monitor. The process requires you to select the requests to monitor and configure how you want to monitor the requests. Then Postman suggests steps you might consider after you create the monitor.
+When you use the **New button** to create a monitor, Postman guides you on how to set up a monitor. The process requires you to select the requests to monitor and configure how you want to monitor the requests. Then Postman suggests steps to consider after you create the monitor.
 
 Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
 You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
