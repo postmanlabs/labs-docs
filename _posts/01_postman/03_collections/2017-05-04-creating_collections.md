@@ -86,7 +86,7 @@ You can save a request to a collection from the:
 * Request builder
 * **New** button 
 * Launch screen
-
+<br>
 #### Request builder
 
 1. In the request builder, enter a new request in the builder.
