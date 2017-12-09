@@ -94,7 +94,7 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
  7. In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
      
      
-#### Launch screen
+### Launch screen
 
 The "Create New" screen appears by default when you launch Postman. At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
@@ -103,7 +103,7 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 3. Follow step 3 in the previous **New** button section.
 
 
-### From the Postman web
+### Postman web
 
 1. Sign in to Postman web and click "Library" and select "Monitors".
 
