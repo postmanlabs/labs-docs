@@ -61,7 +61,7 @@ The **Create New** tab appears.
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 <br>
 
@@ -69,7 +69,7 @@ After creating the collection, you can save requests to the collection and add f
 
 The **Create New** tab appears by default when you launch Postman. 
 
-**Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 1. Open Postman.
 2. In the **Create New** tab, click "Collection".
@@ -78,7 +78,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 ### Saving a request to a collection
 
