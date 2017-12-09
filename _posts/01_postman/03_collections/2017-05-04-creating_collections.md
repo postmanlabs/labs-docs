@@ -138,7 +138,7 @@ The  **Create New** tab appears by default when you launch Postman.
 
 **Multiple requests**
 
- 1. To savwe multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
+ 1. To save multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
  2. In the <b>SAVE MULTIPLE REQUESTS</b> modal, select a collection or folders to save the requests.
  3. Click the **Save** button.
 
@@ -152,4 +152,4 @@ The  **Create New** tab appears by default when you launch Postman.
   <li> Select "Duplicate" from the menu.</li>
 </ol>
 
-Learn how to [share collections](/docs/postman/collections/sharing_collections), [importing and exporting collections](/docs/postman/collections/data_formats), and [other collection features](/docs/postman/collections/managing_collections).  
+Learn how to [share collections](/docs/postman/collections/sharing_collections), [import and export collections](/docs/postman/collections/data_formats), and [use other collection features](/docs/postman/collections/managing_collections).  
