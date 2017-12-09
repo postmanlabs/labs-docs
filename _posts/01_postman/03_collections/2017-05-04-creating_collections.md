@@ -26,8 +26,7 @@ A Postman Collection lets you group individual requests together. You can organi
 You can create a new collection from the:
 * Sidebar
 * **New** button 
-* Launch modal
-
+* Launch screen
 <br>
 
 #### Sidebar
@@ -87,6 +86,9 @@ You can save a request to a collection from the:
 * **New** button 
 * Launch screen
 
+<br>
+
+
 #### Request builder
 
 1. In the request builder, enter a new request in the builder.
@@ -102,7 +104,7 @@ You can save a request to a collection from the:
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 [![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)
 
@@ -115,7 +117,7 @@ The  **Create New** tab appears by default when you launch Postman.
 4. Select a collection and save the request in an existing collection or create a new collection. 
 5. Click the **Save** button.
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 ### Saving to a collection from history
 
