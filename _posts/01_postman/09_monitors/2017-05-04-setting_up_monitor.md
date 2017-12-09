@@ -63,11 +63,9 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
 
-   * Create a new API: Select a request method and enter the request URL, status code, and response time. 
-    
-   * Use existing collection: Select a collection to monitor from a list of exisiting collections.
-   
-   * Use team collection: Select a collection to monitor from a list of team collections.
+"Create a new API" allows you to select a request method and enter the request URL, status code, and response time. 
+"Use existing collection" allows you to select a collection to monitor from a list of exisiting collections.
+"Use team collection" allows you to select a collection to monitor from a list of team collections.
  
 
 <ol start="4">
@@ -85,7 +83,10 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
  
  6. Click the **Create** button.
  7. In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
-     
+    
+    
+  [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
+    
      
 ### Launch screen
 
