@@ -63,16 +63,16 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
 
-"Create a new API" allows you to select a request method and enter the request URL, status code, and response time. 
+"Create a new API" allows you to select a request method and enter the request URL, status code, and response time.
+
 "Use existing collection" allows you to select a collection to monitor from a list of exisiting collections.
+
 "Use team collection" allows you to select a collection to monitor from a list of team collections.
  
-
 <ol start="4">
   <li>After you select or create the request you want to monitor, click the <b>Next button</b>. </li>
   <li>In the <b>Configure</b> tab, you must:.</li>
 </ol>
-   
   * Enter the name of the monitor
   * Select an environment (optional).
   * Set how frequently the monitor should run.
@@ -81,8 +81,10 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
     
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
  
- 6. Click the **Create** button.
- 7. In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+ <ol start="6">
+  <li>Click the <b>Create</b>  button. </li>
+  <li>In the <b>Next steps/b> tab, see a list of suggested next steps to maximize the effectiveness of your monitor..</li>
+</ol>
     
     
   [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
