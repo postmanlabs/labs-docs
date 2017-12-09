@@ -26,20 +26,23 @@ You can create a monitor for an existing collection from the sidebar.
 
 <ol start="2">
   <li>Select "Monitor Collection".</li>
-  <li>In the <b>MONITOR COLLECTION</b> modal: </li>
+  <li>In the <b>MONITOR COLLECTION</b> modal, you must: </li>
   </ol>
   
   * Enter the name of the monitor
   * Select an environment (optional).
   * Set how frequently the monitor should run.
   * Select one or more regions of the world from where you want to monitor your results.
-  * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
+  * Enter the monitor name, indicate how often you want the monitor to run, and select the region(s) to monitor.
+  
+You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation.
+  
   
 <ol start="4">
-  <li>Click the <b>Monitor this collection</b> button</li>
+  <li>Click the <b>Monitor this collection</b> button.</li>
  </ol>
 
-[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen2.png)
+[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen3.png)
 
 ### New button
 
