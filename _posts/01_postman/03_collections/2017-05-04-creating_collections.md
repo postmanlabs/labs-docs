@@ -17,7 +17,7 @@ A Postman Collection lets you group individual requests together. You can organi
 ### Why create collections?
 
 *   **Organization** - Group together requests into folders and collections, so that you don't have to search through your history repeatedly.
-*   **Documentation** - Add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view this documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
+*   **Documentation** - Add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
 *   **Test suites** - Attach test scripts to requests and build integration test suites.
 *   **Conditional workflows** - Use scripts to pass data between API requests and build workflows that mirror your actual API use case.
 
@@ -90,8 +90,7 @@ You can save a request to a collection from the:
 #### Request builder
 
 1. In the request builder, enter a new request in the builder.
-2. Click the **Save** button.  
-    
+2. Click the **Save** button.    
 <ol start="3">
   <li>In the <b>SAVE REQUEST</b> modal, enter a request name and select a collection or folder to save the request.<br></li>
   <li>Click the <b>Save</b> button.</li>
@@ -101,9 +100,8 @@ You can save a request to a collection from the:
 #### New button
 1. In the header toolbar, click the **New** button.
 2. Click "Request".
-3. In the **SAVE REQUEST** modal, enter a title and description.
-4. Select a collection and save the request in an existing collection or create a new collection. 
-5. Click the **Save** button.
+3. In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
+4. Click the **Save** button.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
