@@ -28,6 +28,7 @@ You can create a monitor for an existing collection from the sidebar.
   <li>Select "Monitor Collection".</li>
   <li>In the <b>MONITOR COLLECTION</b> modal: </li>
   </ol>
+  
   * Enter the name of the monitor
   * Select an environment (optional).
   * Set how frequently the monitor should run.
