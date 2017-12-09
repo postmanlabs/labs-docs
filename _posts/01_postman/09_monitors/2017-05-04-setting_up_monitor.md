@@ -71,7 +71,23 @@ In the **Select requests to monitor** tab, you can "Create a new API", "Use exis
  
    Select a collection to monitor from a list of team collections.
  
-After you select or create the request you want to monitor, click the Next button.
+After you select or create the request you want to monitor, click the Next button.  
+    
+In the **Configure** tab, you must:
+
+* Enter the name of the monitor
+* Select an environment (optional).
+* Set how frequent the monitor should run.
+* Select one or more regions of the world from where you want to monitor your results.
+    
+  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
+    
+    
+    
+    
+    
+    
+    
     
     
     
