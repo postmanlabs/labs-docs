@@ -33,9 +33,8 @@ You can create a monitor for an existing collection from the sidebar.
   * Select an environment (optional).
   * Set how frequently the monitor should run.
   * Select one or more regions of the world from where you want to monitor your results.
-  * Enter the monitor name, indicate how often you want the monitor to run, and select the region(s) to monitor.
   
-You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation.
+You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. For more information, see "Monitoring schedule and region" section below.
   
   
 <ol start="4">
@@ -68,7 +67,7 @@ The **Create New** tab appears.
 <ol start="2">
   <li>Click "Monitor".</li>
   <li>
-In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use existing collection", and "Use team collection".</li>
+In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use existing collection", or "Use team collection".</li>
 </ol>
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
@@ -76,21 +75,22 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
 If you create a new API to monitor, you must select a request method and enter the request URL, status code, and response time. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
  
 <ol start="4">
-  <li>After you select or create the request you want to monitor, click the <b>Next button</b>. </li>
-  <li>In the <b>Configure</b> tab, you must:.</li>
+  <li>After you select or create the request you want to monitor, click the <b>Next</b> button. </li>
+  <li>In the <b>Configure</b> tab, you must:</li>
 </ol>
+
   * Enter the name of the monitor
   * Select an environment (optional).
   * Set how frequently the monitor should run.
   * Select one or more regions of the world from where you want to monitor your results.
-  * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
     
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
  
  <ol start="6">
   <li>Click the <b>Create</b>  button. </li>
-  <li>In the <b>Next steps</b> tab, see a list of suggested next steps to maximize the effectiveness of your monitor.</li>
 </ol>
+
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
     
   [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
     
@@ -100,7 +100,7 @@ If you create a new API to monitor, you must select a request method and enter t
 The **Create New** tab appears by default when you launch Postman. 
 1. Open Postman.
 2. In the **Create New** tab, click "Monitor".
-3. Follow step 3 in the previous **New** button section.
+3. Follow steps 3-6 in the previous **New** button section.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
@@ -112,19 +112,17 @@ The **Create New** tab appears by default when you launch Postman.
 [![webview menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)
 
 <ol start="2">
-  <li>In the "Create Monitor" screen, select a collection, schedule the frequency, enter a name, select the environment, and the regions you want to monitor.</li>
+  <li>In the <b>Create Monitor</b> modal, select a collection, schedule the frequency of the run, enter a monitor name, select the environment, and select the regions in the world from where you want to monitor.</li>
 </ol>
 
 [![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)
 
-<ol start="3">
-  <li>In "Show Additional Preferences", indicate if you want to receive notification. You can also indicate "Request Timeout", "Delay between requests", "Don't follow redirects", or "Disable SSL validation".</li>
-</ol>
+You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. For more information, see "Monitoring schedule and region" section below.
 
 [![monitor preferences](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)
 
-<ol start="4">
-  <li>Click the **Create Monitor** button..</li>
+<ol start="3">
+  <li>Click the **Create Monitor** button.</li>
 </ol>
 
 ### Monitoring schedule and region
