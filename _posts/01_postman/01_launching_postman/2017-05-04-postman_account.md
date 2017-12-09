@@ -10,7 +10,7 @@ warning: false
 
 ### Why sign up for a Postman account
 
-When you sign up for a free Postman account, you can
+When you sign up for a free Postman account, you can:
 
    *   [Sync](/docs/postman/launching_postman/syncing) and back up your history, collections, environments, and header presets.
    *   Easily work on multiple Postman instances from different machines.
