@@ -39,6 +39,9 @@ When you select the requests you want to monitor, you can create a new API or us
 
 When you configure hwo you want to monitor the requests, you
 
+Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
+You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
+
 Here's how to create a monitor with the **New** button.
 
 <br>
@@ -91,76 +94,6 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
  7. In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
      
      
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     The **Next Steps** x appears with information about the monitor and provides suggestions about next steps.
-     
-   * My Collections
-   
-     * Select a collection.
-     * Select an environment, indicate whether you want the mock server to be private, and then click the **Create** button.
-     
-     The **Next Steps** x appears with information about the mock server and provides suggestions about next steps.
-     
-   * Team Library
-   
-     * Select a shared collection.
-     * Select an environment, and then click the **Create** button.
-     
-     The "Next Steps" x appears with information about the mock server and provides suggestions about next steps.
-
-Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
-You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
-
-
-
-
-
-
-
-
-
-
-
-
-
-2. In the "Create a monitor" x, you can create a monitor for a "New API", "My Collections", and "Team Library". 
-
-   * New API
-     
-     * Enter a request path, status code, response code, and click the **Next** button.
-     * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor, and then click the **Create** button.
-     
-     The **Next Steps** x appears with information about the monitor and provides suggestions about next steps.
-     
-   * My Collections
-   
-     * Select a collection.
-     * Select an environment, indicate whether you want the mock server to be private, and then click the **Create** button.
-     
-     The **Next Steps** x appears with information about the mock server and provides suggestions about next steps.
-     
-   * Team Library
-   
-     * Select a shared collection.
-     * Select an environment, and then click the **Create** button.
-     
-     The "Next Steps" x appears with information about the mock server and provides suggestions about next steps.
-
-Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
-You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
-
-
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_config.png)
-
-
 #### Launch screen
 
 The "Create New" screen appears by default when you launch Postman. At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
