@@ -36,10 +36,6 @@ You can create a monitor for an existing collection from the sidebar.
 
 When you use the **New button** to create a monitor, Postman guides you on how to set up a monitor. The process requires you to select the requests to monitor and configure how you want to monitor the requests. Then Postman suggests steps you might consider after you create the monitor.
 
-When you select the requests you want to monitor, you can create a new API or use an exisiting or team collection to monitor.
-
-When you configure hwo you want to monitor the requests, you
-
 Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
 You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
 
@@ -51,11 +47,11 @@ Here's how to create a monitor with the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The "Create New" tab appears.
+The **Create New** tab appears.
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 <ol start="2">
   <li>Click "Monitor".</li>
@@ -97,9 +93,9 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
      
 ### Launch screen
 
-The "Create New" screen appears by default when you launch Postman. 
+The **Create New** tab appears by default when you launch Postman. 
 1. Open Postman.
-2. In the "Create New" screen, click "Monitor".
+2. In the **Create New** tab, click "Monitor".
 3. Follow step 3 in the previous **New** button section.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
