@@ -83,7 +83,7 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
  
  <ol start="6">
   <li>Click the <b>Create</b>  button. </li>
-  <li>In the <b>Next steps/b> tab, see a list of suggested next steps to maximize the effectiveness of your monitor..</li>
+  <li>In the <b>Next steps</b> tab, see a list of suggested next steps to maximize the effectiveness of your monitor.</li>
 </ol>
     
   [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
