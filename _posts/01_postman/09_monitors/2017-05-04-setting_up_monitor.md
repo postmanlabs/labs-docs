@@ -34,7 +34,7 @@ You can create a monitor for an existing collection from the sidebar.
   * Set how frequently the monitor should run.
   * Select one or more regions of the world from where you want to monitor your results.
   
-You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. For more information, see "Monitoring schedule and region" section below.
+You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. For more information, see the "Monitoring schedule and region" section below.
   
   
 <ol start="4">
@@ -102,7 +102,7 @@ The **Create New** tab appears by default when you launch Postman.
 2. In the **Create New** tab, click "Monitor".
 3. Follow steps 3-6 in the previous **New** button section.
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 
 ### Postman web
@@ -112,12 +112,12 @@ The **Create New** tab appears by default when you launch Postman.
 [![webview menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)
 
 <ol start="2">
-  <li>In the <b>Create Monitor</b> modal, select a collection, schedule the frequency of the run, enter a monitor name, select the environment, and select the regions in the world from where you want to monitor.</li>
+  <li>In the <b>Create Monitor</b> modal, select a collection, schedule the frequency of the run, enter a monitor name, select the environment, and select the regions in the world from where you want to monitor your results.</li>
 </ol>
 
 [![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)
 
-You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. For more information, see "Monitoring schedule and region" section below.
+You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. For more information, see the "Monitoring schedule and region" section below.
 
 [![monitor preferences](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)
 
