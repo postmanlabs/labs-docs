@@ -36,7 +36,7 @@ You can create a monitor for an existing collection from the sidebar.
 
 ### New button
 
-When you use the **New button** to create a monitor, Postman guides you on how to set up a monitor. The process requires you to select the requests to monitor and configure how you want to monitor the requests. Then Postman suggests steps you might consider after you create the monitor.
+When you use the **New button** to create a monitor, Postman guides you on how to set up a monitor. The process requires you to select the requests to monitor and configure how you want to monitor the requests. Then Postman suggests steps to consider after you create the monitor.
 
 Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
 You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
@@ -63,7 +63,7 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
 
-If you create a new API to monitor, you can must select a request method and enter the request URL, status code, and response time. If you use an existing or team collection, you can must select a collection from a list of existing or team collections.
+If you create a new API to monitor, you must select a request method and enter the request URL, status code, and response time. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
  
 <ol start="4">
   <li>After you select or create the request you want to monitor, click the <b>Next button</b>. </li>
