@@ -7,10 +7,11 @@ page_id: "authorization"
 warning: false
 
 ---
-The authorization process verifies whether a user has permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. 
+The authorization process verifies whether you have permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. 
 Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
-When you select 'Authorization' in the request builder, you see the **TYPE** drop down menu. 
+When you select "Authorization" in the request builder, you see the **TYPE** drop down menu. 
+* Inherit auth from parent
 * No Auth 
 * Bearer Token
 * Basic auth
@@ -22,19 +23,43 @@ When you select 'Authorization' in the request builder, you see the **TYPE** dro
 * NTLM Authentication [Beta]
 
 
-**Note**: These authorization types are availble only for Postman native apps.
+**Note**: NTLM and Bearer token are only available in Postman native apps. All other authorization types are available in Postman native apps and the Chrome app. Note that the [Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/).
 
-[![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
+[![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/authorization-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/authorization-menu.png)
 
-You can use environment variables with all authorization types. You can also use these authorization types with Newman.
+You can use environment, collection, or global variables with all authorization types. In addition to using these in the Postman app, you can also use these authorization types with Newman or Postman monitors.
 
-Postman does not save header data to prevent sensitive data exposure, such as API keys, to the public.
+Postman does not save header data and query parameters to prevent sensitive data exposure, such as API keys, to the public.
 
 If you want to inspect the authorization headers and parameters that Postman generates, click the **Preview Request** button. 
 
  [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)
 
 **Note**: You can inspect a raw dump of the entire request in the Postman console after you send it.
+
+### Inherit auth from parent
+
+#### Adding authorization to a collection or folder
+
+Suppose you [add a folder](/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the **Authorization** tab, the default authorization type is set to “Inherit auth from parent”. 
+
+The “Inherit auth from parent” setting indicates that every request in this folder by default uses the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder uses “No Auth”, meaning all requests in that folder will use “No Auth” .
+
+[![folder auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder.png)
+
+What if you want to leave the parent collection authorization type as “No Auth”, but update this specific folder’s authorization helper? You can edit the folder details, select “Basic Auth” from the **TYPE** dropdown, and input your credentials. As a result, every request in this folder relies on “Basic Auth” while the rest of the requests in the parent collection still do not use any authorization.
+
+[![folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder-basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder-basic.png)
+
+Similarly, if you want to update the authorization for a single request in this folder, you can simply select a different authorization type for that request.
+
+If you have a group of requests that all require the same authorization, you can define the authorization for all requests in a collection or folder, or simply for every request individually. If you create a new collection or folder, every subsequent request in the parent element inherits the authorization definition, unless the user explicitly selects another type.
+
+To update the collection or folder authorization, click on the ellipses (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Authorization** tab to select an authorization type from the **TYPE** dropdown. You can also add collection authorization when initially creating the collection.  
+ 
+[![select folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-select-folder-basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-select-folder-basic.png)
+ 
+For example, if you create a collection with "Basic Auth", every request within the collection will use the same authorization helper. If you want a specific request in the collection to use a different authorization, or no authorization at all, use the **TYPE** dropdown under the **Authorization** tab to define the authorization helper for the specific request.
  
 ### No Auth
 
@@ -54,7 +79,7 @@ To use a bearer token:
 
 ### Basic Auth
 
-Basic Auth is an authorization type that requires a verified username and password to grant access a data resource. 
+Basic Auth is an authorization type that requires a verified username and password to access a data resource. 
 
 To use Basic Auth:
 1. In the **Authorization** tab, select "Basic Auth" from the **TYPE** drop down menu. 
@@ -71,7 +96,7 @@ In a digest authentication flow, the client sends a request to a server, which s
 
 By default, Postman extracts values from the response. If you do not want to extract those values, you have two options:
 * Enter your own values in the advanced section for selected fields, or 
-* Select "Yes" and disable "retrying the request" to skip retrying the request. 
+* Select the "Yes, disable retrying the request" checkbox to skip retrying the request. 
 
 To use digest auth:
 1. In the **Authorization** tab, select "Digest Auth" from the **TYPE** drop down menu. 
@@ -84,13 +109,13 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 
 | **Advanced Parameters**  | **Description** |
 | --- | --- |
-| Realm | A string specified by the server www-Authenticate response header.  |
-| Nonce| A unique string specified by the server www-Authenticate response header. |
+| Realm | A string specified by the server  in the www-Authenticate response header.  |
+| Nonce| A unique string specified by the server  in the www-Authenticate response header. |
 | Algorithm | A string that indicates a pair of algorithms used to produce the digest and a checksum. |
 | qop | The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the www-Authenticate response header. |
-| Nonce Count| The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
+| Nonce Count| The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header. Postman always sends 00000001 as the nonce count. |
 | Client Nonce  | An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
-| Opaque | This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. It is recommended that this string be base64 is hexadecimal data. |
+| Opaque | This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. We recommend this string be base64 encoded data. |
 
 ### **OAuth 1.0**
 
@@ -100,9 +125,7 @@ To use the OAuth 1.0 authorization:
 1. In the **Authorization** tab, select "OAuth 1.0" from the **TYPE** drop down menu. 
 2. From the "Add authorization data to" drop down menu, select either "Request Body/Request URL" or "Request Headers".
 
-   When you select "Request Body/Request URL", Postman checks whether the request method is POST and the request body type 
-   is x-form-urlencoded. If so, Postman adds authorization parameters to the request body. For all other cases,
-   it adds authorization parameters to the URL.
+When you select "Request Body/Request URL", Postman checks if the request method is POST or PUT, and if the request body type is x-www-form-urlencoded. If so, Postman adds authorization parameters to the request body. For all other cases, it adds authorization parameters to the URL.
 
 3. To set the authorization parameters for a request, enter the "Consumer Key", "Consumer Secret", "Access Token", and "Token Secret". You can also set advanced digest OAuth 1.0 parameters.
 
@@ -118,11 +141,11 @@ This table describes the parameters for OAuth 1.0 authorization.
 | **Advanced Parameters** 
 | Signature Method | A consumer’s secret that establishes ownership of a given token. |
 | Time Stamp| The timestamp the server uses to prevent replay attacks outside the time window. |
-| Nonce |A unique string specified by the server www-Authenticate response header.|
+| Nonce |A unique string specified by the server in the www-Authenticate response header.|
 | Version |The 1.0 version of the OAuth authentication protocol.|
-| Realm |A string specified by the server www-Authenticate response header. |
+| Realm |A string specified by the server in the www-Authenticate response header. |
 
-**Note**: Some implementations of OAuth 1.0 require empty parameters to be added to the signature. You can select to add empty parameters to signature.
+**Note**: Some implementations of OAuth 1.0 require empty parameters to be added to the signature. You can select "Add empty parameters to signature" to add empty parameters.
 
 ### OAuth 2.0
 
@@ -133,7 +156,7 @@ To use the OAuth 2.0 authorization:
 2. From the "Add authorization data to" drop down menu, select either "Request URL" or "Request Headers".
 3. To set the authorization parameters for a request, you have three options:
    * Click the **Get New Access Token** button. The **GET NEW ACCESS TOKEN** screen appears. Enter the appropriate values, click the **Request Token** button to populate the "Access Token" field, and then click the **Send** button. 
-   * In the "Access Token" field, enter a token, an environment defined variable, and click the **Send** button.
+   * In the "Access Token" field, enter a token, or an environment defined variable, and click the **Send** button.
    * In the "Available Tokens" drop down menu, select an existing token and click the **Send** button.
 
 [![oauth2_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)
@@ -149,9 +172,9 @@ This table describes the parameters in the **GET NEW ACCESS TOKEN** screen.
 | Access Token URL |The endpoint for the resource server, which exchanges the authorization code for an access token. |
 | Client ID |The client identifier given to the client during the Application registration process.|
 | Client Secret |The client secret given to the client during the Application registration process. |
-| Scope |The scope of the access request, which might have multiple space-defined values. |
+| Scope |The scope of the access request, which might have multiple space-separated values. |
 | State |An opaque value that prevents cross-site request forgery. |
-| Client Authentication |A drop down menu where you can either send a Basic Auth request in the header, or send client credentials in the request body |
+| Client Authentication |A drop down menu where you can either send a Basic Auth request in the header, or send client credentials in the request body. **Note**: After upgrading to a new version, change the value in this drop down menu to avoid problems with client authentication. |
 
 [![getrequesttokens_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GetNewAccessToken+screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GetNewAccessToken+screen.png)
 
@@ -193,9 +216,9 @@ This table describes the advanced parameters for Hawk Authentication. Advanced c
 
 **Note**: Advanced configuration settings are optional. Postman auto generates values for some fields if left blank.
 
-### AWS authentication
+### Amazon Web Services (AWS) authentication
 
-AWS is the authorization workflow for Amazon Work Services (AWS) requests. AWS users must use a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication. Postman supports this scheme.
+AWS is the authorization workflow for Amazon Work Services requests. AWS users must use a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication. Postman supports this scheme.
 
 Read more about the AWS Signature on AWS documentation:
 
@@ -214,7 +237,7 @@ This table describes the advanced parameters for AWS Authentication. Advanced co
 
 | **Advanced Parameters**  | **Description** |
 | --- | --- |
-| AWS Region | The region receiving the request. (Default region is US East1.)|
+| AWS Region | The region receiving the request. (Default region is us-east-1.)|
 | Service Name| The service receiving the request.|
 | Session Token |Required only when using temporary security credentials.|
 

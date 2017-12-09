@@ -17,6 +17,7 @@ You can create a monitor from the:
 * Postman web 
  
 ### Sidebar menu
+
 You can create a monitor for an existing collection from the sidebar.
 1. In the Postman app, click on the ellipses (…) next to the collection you want to monitor. 
 
@@ -27,23 +28,27 @@ You can create a monitor for an existing collection from the sidebar.
 4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
 5. Click the **Monitor this collection** button.
 
+
 [![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)
 
 ### New button
 
-1. In the header toolbar, click the **New** button.
+In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
+
 The "Create New" tab appears.
+
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" tab to display each time you open Postman.
 
-2. Click "Monitor".
+1. Click "Monitor".
 
-3. In the "Create a monitor" x, you can create a monitor for a "New API", "My Collections", and "Team Library". 
+2. In the "Create a monitor" x, you can create a monitor for a "New API", "My Collections", and "Team Library". 
+
    * New API
      
      * Enter a request path, status code, response code, and click the **Next** button.
@@ -111,12 +116,14 @@ When you specify a monitor to run in multiple regions, the monitor will run mult
 
 Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
 
+Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
+
 ### Additional preferences
 
 | **Additional preferences** | **Description** |
 | --- | --- |
-| Email notifications | Get notifications about failures on up to 5 email addresses. |
-| Request timeout | Specify a time interval after which your request is considered to time-out. |
-| Delay between requests | Add a time lag between subsequent requests. |
-| Don’t follow redirects | Disable following all redirects. |
-| Disable SSL validation | This disables validations performed on SSL certificates. Check this if you use self-signed certificates. Use with caution! |
+| Email notifications | Gets notifications about failures on up to 5 email addresses. |
+| Request timeout | Specifies a time interval after which your request is considered to time-out. |
+| Delay between requests | Adds a time lag between subsequent requests. |
+| Don’t follow redirects | Disables all following redirects. |
+| Disable SSL validation | Disables validations performed on SSL certificates. Check this if you use self-signed certificates. Use with caution! |
