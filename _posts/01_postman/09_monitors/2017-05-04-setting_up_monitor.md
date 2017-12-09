@@ -50,6 +50,7 @@ The "Create New" tab appears.
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
 
  * Create a new API
+   
    Select a request method and enter the request URL, status code, and response time. Then click the **Next** button.
     
     
