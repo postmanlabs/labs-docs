@@ -16,7 +16,7 @@ A Postman Collection lets you group individual requests together. You can organi
 
 ### Why create collections?
 
-*   **Organization** - Group together requests into folders and collections, so that you don't have to search through your history over and over again.
+*   **Organization** - Group together requests into folders and collections, so that you don't have to search through your history repeatedly.
 *   **Documentation** - Add a name and descriptions to requests, folders, collections. Within Postman, you can use the collection browser to view this documentation. With Postman Pro, you can create and publish beautiful API documentation pages.
 *   **Test suites** - Attach test scripts to requests and build integration test suites.
 *   **Conditional workflows** - Using scripts, you can pass data between API requests and build workflows that mirror your actual use case of APIs.
