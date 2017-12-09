@@ -87,20 +87,19 @@ In the **Select requests to monitor** tab, you can "Create a new API", "Use exis
     
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor, and then click the **Create** button.
+ * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
+ 
+ 6. Click the **Create** button.
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
      The **Next Steps** x appears with information about the monitor and provides suggestions about next steps.
      
