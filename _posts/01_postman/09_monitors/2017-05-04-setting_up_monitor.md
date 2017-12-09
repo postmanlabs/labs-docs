@@ -74,10 +74,13 @@ In the **Select requests to monitor** tab, you can "Create a new API", "Use exis
  
    Select a collection to monitor from a list of team collections.
  
-After you select or create the request you want to monitor, click the Next button.  
-    
-In the **Configure** tab, you must:
+ 
 
+<ol start="4">
+  <li>After you select or create the request you want to monitor, click the Next button. </li>
+  <li>In the **Configure** tab, you must:.</li>
+</ol>
+   
 * Enter the name of the monitor
 * Select an environment (optional).
 * Set how frequent the monitor should run.
