@@ -46,17 +46,17 @@ The "Create New" modal appears.
 3. In the "Create a monitor" modal, you can create a monitor for a "New API", "My Collections", and "Team Library". 
    * New API
      
-     * Enter a request path, status code, response code and click the **Next** button.
-     * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor from and then click the **Create** button.
+     * Enter a request path, status code, response code, and click the **Next** button.
+     * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor, and then click the **Create** button.
      
-     The Next Steps modal appears with information about the monitor and provides suggestions about next steps.
+     The **Next Steps** modal appears with information about the monitor and provides suggestions about next steps.
      
    * My Collections
    
      * Select a collection.
-     * Select an environment, indicate if you want the mock server to be private, and then click the **Create** button.
+     * Select an environment, indicate whether you want the mock server to be private, and then click the **Create** button.
      
-     The "Next Steps" modal appears with information about the mock server and provides suggestions about next steps.
+     The **Next Steps** modal appears with information about the mock server and provides suggestions about next steps.
      
    * Team Library
    
