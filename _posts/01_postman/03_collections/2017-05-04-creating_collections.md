@@ -49,7 +49,7 @@ You can create a new collection from the:
 
  [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The **Create New** modal appears.
+The **Create New** tab appears.
 
  [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
@@ -61,24 +61,24 @@ The **Create New** modal appears.
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** modal to display each time you open Postman.
+**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 <br>
 
 #### Launch screen
 
-The **Create New** modal appears by default when you launch Postman. 
+The **Create New** tab appears by default when you launch Postman. 
 
-**Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the **Create New** modal to display each time you open Postman.
+**Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 1. Open Postman.
-2. In the **Create New** modal, click "Collection".
+2. In the **Create New** tab, click "Collection".
 3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
 4. Click the **Create** button.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** modal to display each time you open Postman.
+**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 ### Saving a request to a collection
 
