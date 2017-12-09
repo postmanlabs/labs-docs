@@ -27,7 +27,9 @@ You can create a new collection from the:
 * Sidebar
 * **New** button 
 * Launch screen
+
 <br>
+
 
 #### Sidebar
 
@@ -62,7 +64,7 @@ After creating the collection, you can save requests to the collection and add f
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
-<br>
+
 
 #### Launch screen
 
@@ -123,7 +125,7 @@ The  **Create New** tab appears by default when you launch Postman.
 
 **Single request**
 
-1.  To save a single request to a collection, hover over a request under the **History** tab and click the plus (**+**) icon. 2. In the **SAVE REQUEST** modal, enter a title and description, select a collection, and save the request in an existing collection or create a new collection.
+1.  To save a single request to a collection, hover over a request under the **History** tab and click the plus (**+**) icon. 2.  In the **SAVE REQUEST** modal, enter a title and description, select a collection, and save the request in an existing collection or create a new collection.
 3. Click the **Save** button. 
 
 [![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
