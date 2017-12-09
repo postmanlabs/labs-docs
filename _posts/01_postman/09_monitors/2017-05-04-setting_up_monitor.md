@@ -17,15 +17,17 @@ You can create a monitor from the:
 * Postman web 
  
 ### Sidebar menu
-You can create a monitor for an existing collection from the sidebar. <br>
-In the Postman app, click on the ellipses (…) next to the collection you wish to monitor. 
+
+You can create a monitor for an existing collection from the sidebar.
+1. In the Postman app, click on the ellipses (…) next to the collection you want to monitor. 
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
-1. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
-2. Enter a name for this monitor and choose a corresponding environment. 
-3. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
-4. Click the **Monitor this collection** button.
+2. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
+3. Enter a name for this monitor and choose a corresponding environment. 
+4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
+5. Click the **Monitor this collection** button.
+
 
 [![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)
 
@@ -35,30 +37,38 @@ In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The "Create New" modal appears.
 
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
+The "Create New" tab appears.
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
+
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" tab to display each time you open Postman.
 
 1. Click "Monitor".
 
-2. In the "Create a monitor" screen, you can create a monitor for a "New API", "My Collections", and "Team Library". 
+2. In the "Create a monitor" x, you can create a monitor for a "New API", "My Collections", and "Team Library". 
+
    * New API
      
-     Enter a request path, status code, response code and click the **Next** button.
-     Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor from and click the **Create** button.
-     The Next Steps screen appears with information about the monitor and provides suggestions about next steps.
+     * Enter a request path, status code, response code, and click the **Next** button.
+     * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor, and then click the **Create** button.
+     
+     The **Next Steps** x appears with information about the monitor and provides suggestions about next steps.
+     
    * My Collections
    
-     Select a collection.
-     Select an environment, indicate if you want the mock server to be private, and click the **Create** button.
-     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
+     * Select a collection.
+     * Select an environment, indicate whether you want the mock server to be private, and then click the **Create** button.
+     
+     The **Next Steps** x appears with information about the mock server and provides suggestions about next steps.
+     
    * Team Library
    
-     Select a shared collection.
-     Select an environment, and click the **Create** button.
-     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
+     * Select a shared collection.
+     * Select an environment, and then click the **Create** button.
+     
+     The "Next Steps" x appears with information about the mock server and provides suggestions about next steps.
 
 Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
 You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
@@ -82,15 +92,21 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 
 [![webview menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)
 
-2. In the "Create Monitor" screen, select a collection, schedule the frequency, enter a name, select the environment, and the regions you want to monitor.
+<ol start="2">
+  <li>In the "Create Monitor" screen, select a collection, schedule the frequency, enter a name, select the environment, and the regions you want to monitor.</li>
+</ol>
 
 [![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)
 
-3. In "Show Additional Preferences", indicate if you want to receive notification. You can also indicate "Request Timeout", "Delay between requests", "Don't follow redirects", or "Disable SSL validation".
+<ol start="3">
+  <li>In "Show Additional Preferences", indicate if you want to receive notification. You can also indicate "Request Timeout", "Delay between requests", "Don't follow redirects", or "Disable SSL validation".</li>
+</ol>
 
 [![monitor preferences](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)
 
-4. Click the **Create Monitor** button.
+<ol start="4">
+  <li>Click the **Create Monitor** button..</li>
+</ol>
 
 ### Monitoring schedule and region
 
