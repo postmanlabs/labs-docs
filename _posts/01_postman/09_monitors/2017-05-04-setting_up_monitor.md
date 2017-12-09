@@ -25,9 +25,9 @@ You can create a monitor for an existing collection from the sidebar.
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
 <ol start="2">
-  <li>Select "Monitor Collection" to open the <b>MONITOR COLLECTION</b> modal.</li>
-  <li>Enter a name for this monitor and choose a corresponding environment. </li>
-  <li>Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule){:target="_blank"}, and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences){:target="_blank"}.</li>
+  <li>Select "Monitor Collection".</li>
+  <li>In the <b>MONITOR COLLECTION</b> modal, enter a name for this monitor and choose a corresponding environment. </li>
+  <li>Add an appropriate schedule for the monitor, and configure additional preferences.</li>
   <li>Click the <b>Monitor this collection</b> button</li>
 </ol>
 
@@ -83,7 +83,7 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
    
   * Enter the name of the monitor
   * Select an environment (optional).
-  * Set how frequent the monitor should run.
+  * Set how frequently the monitor should run.
   * Select one or more regions of the world from where you want to monitor your results.
   * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
     
