@@ -102,7 +102,7 @@ The **Create New** tab appears by default when you launch Postman.
 2. In the **Create New** tab, click "Monitor".
 3. Follow steps 3-6 in the previous **New** button section.
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 
 ### Postman web
@@ -112,7 +112,7 @@ The **Create New** tab appears by default when you launch Postman.
 [![webview menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)
 
 <ol start="2">
-  <li>In the <b>Create Monitor</b> modal, select a collection, schedule the frequency of the run, enter a monitor name, select the environment, and select the regions in the world from where you want to monitor.</li>
+  <li>In the <b>Create Monitor</b> modal, select a collection, schedule the frequency of the run, enter a monitor name, select the environment, and select the regions in the world from where you want to monitor your results.</li>
 </ol>
 
 [![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_web.png)
