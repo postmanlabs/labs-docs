@@ -7,7 +7,7 @@ page_id: "setting_up_monitor"
 warning: false
 ---
 
-Postman lets you monitor shared or private collections. If you choose to monitor a shared collection, your team can see the monitor. However, if you create a monitor on an unshared collection, the monitor will be private and only visible to you.
+Postman lets you monitor shared or private collections. If you choose to monitor a shared collection, your team can see the monitor. However, if you create a monitor on an unshared collection, the monitor is private and only visible to you.
 
 
 You can create a monitor from the:
@@ -19,74 +19,89 @@ You can create a monitor from the:
 ### Sidebar menu
 
 You can create a monitor for an existing collection from the sidebar.
+
 1. In the Postman app, click on the ellipses (…) next to the collection you want to monitor. 
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
 2. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
 3. Enter a name for this monitor and choose a corresponding environment. 
-4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
+4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule){:target="_blank"}, and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences){:target="_blank"}.
 5. Click the **Monitor this collection** button.
 
 
-[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen.png)
+[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen2.png)
 
 ### New button
 
-In the header toolbar, click the **New** button.
-
-[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
-
-
-The "Create New" tab appears.
-
-
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
-
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" tab to display each time you open Postman.
-
-1. Click "Monitor".
-
-2. In the "Create a monitor" x, you can create a monitor for a "New API", "My Collections", and "Team Library". 
-
-   * New API
-     
-     * Enter a request path, status code, response code, and click the **Next** button.
-     * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor, and then click the **Create** button.
-     
-     The **Next Steps** x appears with information about the monitor and provides suggestions about next steps.
-     
-   * My Collections
-   
-     * Select a collection.
-     * Select an environment, indicate whether you want the mock server to be private, and then click the **Create** button.
-     
-     The **Next Steps** x appears with information about the mock server and provides suggestions about next steps.
-     
-   * Team Library
-   
-     * Select a shared collection.
-     * Select an environment, and then click the **Create** button.
-     
-     The "Next Steps" x appears with information about the mock server and provides suggestions about next steps.
+When you use the **New button** to create a monitor, Postman guides you on how to set up a monitor. The process requires you to select the requests to monitor and configure how you want to monitor the requests. Then Postman suggests steps you might consider after you create the monitor.
 
 Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
 You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
 
+Here's how to create a monitor with the **New** button.
 
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/createMonitor_config.png)
+<br>
 
+1. In the header toolbar, click the **New** button.
 
-#### Launch screen
+[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The "Create New" screen appears by default when you launch Postman. At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+The **Create New** tab appears.
 
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
+
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+
+<ol start="2">
+  <li>Click "Monitor".</li>
+  <li>
+In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use existing collection", and "Use team collection".</li>
+</ol>
+
+[![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
+
+   * Create a new API
+   
+     Select a request method and enter the request URL, status code, and response time. 
+    
+   * Use existing collection
+    
+     Select a collection to monitor from a list of exisiting collections.
+   
+   * Use team collection
+ 
+     Select a collection to monitor from a list of team collections.
+ 
+
+<ol start="4">
+  <li>After you select or create the request you want to monitor, click the <b>Next button</b>. </li>
+  <li>In the <b>Configure</b> tab, you must:.</li>
+</ol>
+   
+  * Enter the name of the monitor
+  * Select an environment (optional).
+  * Set how frequent the monitor should run.
+  * Select one or more regions of the world from where you want to monitor your results.
+  * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
+    
+  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
+ 
+ 6. Click the **Create** button.
+ 7. In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+     
+     
+### Launch screen
+
+The **Create New** tab appears by default when you launch Postman. 
 1. Open Postman.
-2. In the "Create New" screen, click "Monitor".
+2. In the **Create New** tab, click "Monitor".
 3. Follow step 3 in the previous **New** button section.
 
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
-### From the Postman web
+
+### Postman web
 
 1. Sign in to Postman web and click "Library" and select "Monitors".
 
