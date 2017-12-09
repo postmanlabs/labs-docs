@@ -7,7 +7,7 @@ page_id: "setting_up_monitor"
 warning: false
 ---
 
-Postman lets you monitor shared or private collections. If you choose to monitor a shared collection, your team can see the monitor. However, if you create a monitor on an unshared collection, the monitor will be private and only visible to you.
+Postman lets you monitor shared or private collections. If you choose to monitor a shared collection, your team can see the monitor. However, if you create a monitor on an unshared collection, the monitor is private and only visible to you.
 
 
 You can create a monitor from the:
