@@ -87,8 +87,9 @@ If you create a new API to monitor, you must select a request method and enter t
  
  <ol start="6">
   <li>Click the <b>Create</b>  button. </li>
-  <li>In the <b>Next steps</b> tab, see a list of suggested next steps to maximize the effectiveness of your monitor.</li>
 </ol>
+
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
     
   [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
     
@@ -98,7 +99,7 @@ If you create a new API to monitor, you must select a request method and enter t
 The **Create New** tab appears by default when you launch Postman. 
 1. Open Postman.
 2. In the **Create New** tab, click "Monitor".
-3. Follow step 3 in the previous **New** button section.
+3. Follow steps 3-6 in the previous **New** button section.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
