@@ -19,13 +19,14 @@ You can create a monitor from the:
 ### Sidebar menu
 
 You can create a monitor for an existing collection from the sidebar.
+
 1. In the Postman app, click on the ellipses (…) next to the collection you want to monitor. 
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
 2. Select "Monitor Collection" to open the **MONITOR COLLECTION** modal.
 3. Enter a name for this monitor and choose a corresponding environment. 
-4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule), and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences).
+4. Add an appropriate [schedule for the monitor](/docs/postman/monitors/setting_up_monitor#monitoring-schedule){:target="_blank"}, and configure [additional preferences](/docs/postman/monitors/setting_up_monitor#additional-preferences){:target="_blank"}.
 5. Click the **Monitor this collection** button.
 
 
@@ -96,11 +97,12 @@ In the <b>Select requests to monitor</b> tab, you can "Create a new API", "Use e
      
 ### Launch screen
 
-The "Create New" screen appears by default when you launch Postman. At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
-
+The "Create New" screen appears by default when you launch Postman. 
 1. Open Postman.
 2. In the "Create New" screen, click "Monitor".
 3. Follow step 3 in the previous **New** button section.
+
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 
 ### Postman web
