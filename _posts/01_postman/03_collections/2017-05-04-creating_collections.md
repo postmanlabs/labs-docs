@@ -138,7 +138,7 @@ The  **Create New** tab appears by default when you launch Postman.
 
 **Multiple requests**
 
- 1. To savwe multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
+ 1. To save multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
  2. In the <b>SAVE MULTIPLE REQUESTS</b> modal, select a collection or folders to save the requests.
  3. Click the **Save** button.
 
