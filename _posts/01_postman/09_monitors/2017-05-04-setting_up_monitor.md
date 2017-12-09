@@ -53,9 +53,12 @@ The "Create New" tab appears.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" tab to display each time you open Postman.
 
-Click "Monitor".
+<ol start="2">
+  <li>Click "Monitor".</li>
+  <li>
+In the **Select requests to monitor** tab, you can "Create a new API", "Use existing collection", and "Use team collection".</li>
+</ol>
 
-In the **Select requests to monitor** tab, you can "Create a new API", "Use existing collection", and "Use team collection".
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
 
