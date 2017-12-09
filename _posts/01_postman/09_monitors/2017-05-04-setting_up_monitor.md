@@ -41,6 +41,7 @@ When you configure hwo you want to monitor the requests, you
 
 Here's how to create a monitor with the **New** button.
 
+<br>
 
 1. In the header toolbar, click the **New** button.
 
@@ -70,7 +71,7 @@ In the **Select requests to monitor** tab, you can "Create a new API", "Use exis
  
    Select a collection to monitor from a list of team collections.
  
- 
+After you select or create the request you want to monitor, click the Next button.
     
     
     
