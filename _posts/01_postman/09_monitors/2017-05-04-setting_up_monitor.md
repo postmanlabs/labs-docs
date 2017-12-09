@@ -33,7 +33,16 @@ You can create a monitor for an existing collection from the sidebar.
 
 ### New button
 
-In the header toolbar, click the **New** button.
+When you use the **New button** to create a monitor, Postman guides you on how to set up a monitor. The process requires you to select the requests to monitor and configure how you want to monitor the requests. Then Postman suggests steps you might consider after you create the monitor.
+
+When you select the requests you want to monitor, you can create a new API or use an exisiting or team collection to monitor.
+
+When you configure hwo you want to monitor the requests, you
+
+Here's how to create a monitor with the **New** button.
+
+
+1. In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
@@ -43,15 +52,29 @@ The "Create New" tab appears.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" tab to display each time you open Postman.
 
-1. Click "Monitor".
+Click "Monitor".
 
-2. In the **Select requests to monitor** tab, you can "Create a new API", Use existing collection", and "Use team collection".
+In the **Select requests to monitor** tab, you can "Create a new API", "Use existing collection", and "Use team collection".
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
 
  * Create a new API
    
    Select a request method and enter the request URL, status code, and response time. Then click the **Next** button.
+    
+ * Use existing collection
+    
+   Select a collection to monitor from a list of exisiting collections.
+   
+ * Use team collection
+ 
+   Select a collection to monitor from a list of team collections.
+ 
+ 
+    
+    
+    
+    
     
     
     
