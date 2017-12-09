@@ -97,7 +97,10 @@ You can save a request to a collection from the:
 2. Click the **Save** button. 
 3. In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
 4. Click the **Save** button.
-  
+ 
+ 
+ 
+
 #### New button
 1. In the header toolbar, click the **New** button.
 2. Click "Request".
@@ -109,6 +112,8 @@ After you save the request, you can add the URL, method, headers, and body to th
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 [![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)
+
+
 
 #### Launch screen
 The  **Create New** tab appears by default when you launch Postman. 
@@ -133,7 +138,7 @@ The  **Create New** tab appears by default when you launch Postman.
 
 **Multiple requests**
 
- 1. When selecting multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
+ 1. To savwe multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
  2. In the <b>SAVE MULTIPLE REQUESTS</b> modal, select a collection or folders to save the requests.
  3. Click the **Save** button.
 
