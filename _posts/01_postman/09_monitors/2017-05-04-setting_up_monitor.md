@@ -82,7 +82,6 @@ If you create a new API to monitor, you must select a request method and enter t
   * Select an environment (optional).
   * Set how frequently the monitor should run.
   * Select one or more regions of the world from where you want to monitor your results.
-  * Enter the monitor name, indicate how often you want the monitor to run, select the region(s) to monitor.
     
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
  
