@@ -47,7 +47,7 @@ The "Create New" tab appears.
 
 1. Click "Monitor".
 
-2. In the **Select requests to momitor** tab, you can "Create a new API", Use existing collection", and "Use team collection".
+2. In the **Select requests to monitor** tab, you can "Create a new API", Use existing collection", and "Use team collection".
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
 
