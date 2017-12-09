@@ -76,8 +76,9 @@ If you create a new API to monitor, you must select a request method and enter t
  
 <ol start="4">
   <li>After you select or create the request you want to monitor, click the <b>Next</b> button. </li>
-  <li>In the <b>Configure</b> tab, you must:.</li>
+  <li>In the <b>Configure</b> tab, you must:</li>
 </ol>
+
   * Enter the name of the monitor
   * Select an environment (optional).
   * Set how frequently the monitor should run.
