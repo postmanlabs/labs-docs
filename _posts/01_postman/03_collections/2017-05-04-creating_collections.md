@@ -16,10 +16,10 @@ A Postman Collection lets you group individual requests together. You can organi
 
 ### Why create collections?
 
-*   **Organization** - Group together requests into folders and collections, so that you don't have to search through your history over and over again.
-*   **Documentation** - Add a name and descriptions to requests, folders, collections. Within Postman, you can use the collection browser to view this documentation. With Postman Pro, you can create and publish beautiful API documentation pages.
+*   **Organization** - Group together requests into folders and collections, so that you don't have to search through your history repeatedly.
+*   **Documentation** - Add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view this documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
 *   **Test suites** - Attach test scripts to requests and build integration test suites.
-*   **Conditional workflows** - Using scripts, you can pass data between API requests and build workflows that mirror your actual use case of APIs.
+*   **Conditional workflows** - Use scripts to pass data between API requests and build workflows that mirror your actual API use case.
 
 ### Creating a new collection
 
@@ -37,7 +37,7 @@ You can create a new collection from the:
   [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
   
   <ol start="2">
-  <li>Enter a name for your collection (and optional description).<br></li>
+  <li>Enter a name for your collection (and an optional description).<br></li>
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
@@ -61,7 +61,7 @@ The **Create New** modal appears.
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
+**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** modal to display each time you open Postman.
 
 <br>
 
@@ -69,10 +69,10 @@ After creating the collection, you can save requests to the collection and add f
 
 The "Create New" modal appears by default when you launch Postman. 
 
-At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
+**Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the **Create New** modal to display each time you open Postman.
 
 1. Open Postman.
-2. In the **Create New** screen, click "Collection".
+2. In the **Create New** modal, click "Collection".
 3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description. 
 4. Click the **Create** button.
 
@@ -93,7 +93,7 @@ You can save a request to a collection from the:
 2. Click the **Save** button.  
     
 <ol start="3">
-  <li>In the <b>SAVE REQUEST</b> modal, enter a request name, and select a collection or folder to save the request..<br></li>
+  <li>In the <b>SAVE REQUEST</b> modal, enter a request name and select a collection or folder to save the request.<br></li>
   <li>Click the <b>Save</b> button.</li>
 </ol>
      
@@ -107,7 +107,7 @@ You can save a request to a collection from the:
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
-**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
+**Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the **Create New** modal to display each time you open Postman.
 
 [![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)
 
