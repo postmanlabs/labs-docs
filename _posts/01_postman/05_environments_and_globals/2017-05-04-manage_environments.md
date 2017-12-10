@@ -67,17 +67,17 @@ The **Create New** tab appears.
 
 #### Launch screen
 
-The **Create New** screen appears by default when you launch Postman.
+The **Create New** tab appears by default when you launch Postman.
 
 1. Open Postman.
-2. In the **Create New** screen, click "Environment".
+2. In the **Create New** tab, click "Environment".
 3. Enter a name for the new environment.
 4. Add the variables you want to save as key-value pairs.
 5. Click the **Add** button.
 
-**Note**: At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the **Create New** screen to display each time you open Postman.
+**Note**: At the bottom, you can select ‘Show this window at launch’ to indicate whether you want the **Create New** tab to display each time you open Postman.
 
-### **Selecting an active environment**
+### Selecting an active environment
 
 Click the dropdown in the upper right corner of the Postman app to select an active environment, or type in the environment name. Once you select an environment, you can access variables within the active environmental scope.  
 [![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)
