@@ -46,7 +46,7 @@ The "Create New" screen appears.
   <li>In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library".</li>
 </ol>
 
-[![create mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)
+[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
 
 If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. 
 
@@ -63,7 +63,7 @@ If you use an existing or team collection, you must select a collection from a l
 
 **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://the.postman.co/usage){:target="_blank"}.
      
-  [![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
+  IMAGE
      
 <ol start="6">
   <li>Click the Create button.</li>
