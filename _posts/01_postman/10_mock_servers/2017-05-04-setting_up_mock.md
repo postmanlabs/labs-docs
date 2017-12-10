@@ -44,22 +44,10 @@ Click "Mock Server".
 [![create mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)
 
 
-In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library". 
-   * New API
-     
-     Enter a request path, status code, response code and click the **Next** button.
-     Enter the mock server name, indicate if you want the mock server to be private, and click the **Create** button.
-     The Next Steps screen appears with information about the mock server and provides suggestions about next steps.
-   * My Collections
-   
-     Select a collection.
-     Select an environment, indicate if you want the mock server to be private, and click the **Create** button.
-     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
-   * Team Library
-   
-     Select a shared collection.
-     Select an environment, and click the **Create** button.
-     The "Next Steps" screen appears with information about the mock server and provides suggestions about next steps.
+In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library".
+
+If you create a new API to monitor, you must select a request method and enter the request URL, status code, and response time. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
+  
      
 #### Creating a mock using the launch screen
 
