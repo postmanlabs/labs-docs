@@ -19,12 +19,12 @@ Front-end developers can create a mock server to simulate each endpoint and its 
 
 You can create a mock in several ways:
 
-* [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"
-* [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"
-* **New** button.
-* Launch screen. 
+* [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
+* [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
+* **New** button
+* Launch screen
   
-Once the mock has been created, Postman Pro and Enterprise users can share the mock with their team for review and collaboration. This is accomplished by [sharing the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, providing permissions to edit or view.
+Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
 
 #### New button
