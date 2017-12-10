@@ -81,7 +81,9 @@ The **Create New** tab appears by default when you launch Postman.
 
 ### Selecting an active environment
 
-Click the dropdown menu in the upper right corner of the Postman app to select an active environment, or type in the environment name. Once you select an environment, you can access variables in the active environmental scope.  
+Click the dropdown menu in the upper right corner of the Postman app to select an active environment, or type in the environment name. 
+
+Once you select an environment, you can access variables in the active environmental scope.  
 [![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)
 
 ### Editing an active environment
@@ -102,4 +104,4 @@ It's a best practice to create a duplicate, remove any sensitive values (such as
 
 When others import the environment, or access the shared template, they can input their own personal information in their own version of the template.
 
-For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing){:target="_blank" with team members.
+For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing){:target="_blank"} with team members.
