@@ -122,7 +122,7 @@ You can also select advanced monitor options to receive email notifications for 
 [![monitor preferences](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)
 
 <ol start="3">
-  <li>Click the **Create Monitor** button.</li>
+  <li>Click the <b>Create Monitor</b> button.</li>
 </ol>
 
 ### Monitoring schedule and region
