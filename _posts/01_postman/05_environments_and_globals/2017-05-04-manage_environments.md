@@ -13,7 +13,7 @@ warning: false
 An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/postman/launching_postman/navigating_postman){:target="_blank"} to modify an environment.
 
 
-While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments lets you customize requests using variables so you can easily switch between different setups without changing your requests. 
+While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables so you can easily switch between different setups without changing your requests. 
 
 You won’t have to remember all those values once they are in Postman. You can download environments, save them as JSON files, and upload them later.
 
@@ -79,12 +79,14 @@ The **Create New** tab appears by default when you launch Postman.
 
 ### Selecting an active environment
 
-Click the dropdown in the upper right corner of the Postman app to select an active environment, or type in the environment name. Once you select an environment, you can access variables within the active environmental scope.  
+Click the dropdown menu in the upper right corner of the Postman app to select an active environment, or type in the environment name. Once you select an environment, you can access variables in the active environmental scope.  
 [![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)
 
 ### Editing an active environment
 
-Click the **Quick Look** icon in the upper right corner of the Postman app to display the environment and global variables. Clicking on the **Edit** link will open a modal for editing keys and values.
+Click the **Quick Look** icon in the upper right corner of the Postman app to display the environment and global variables. 
+
+When you click the **Edit** link, a modal opens where you can edit keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)
 
