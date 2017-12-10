@@ -28,7 +28,7 @@ You can create a mock in several ways:
 Once the mock has been created, Postman Pro and Enterprise users can share the mock with their team for review and collaboration. This is accomplished by [sharing the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, providing permissions to edit or view.
 
 
-#### Creating a mock with the New button
+#### New button
 
 In the header toolbar, click the **New** button.
 
@@ -48,13 +48,14 @@ In the "Create API Documentation" screen, you can create documentation for a "Ne
 If you create a new API to monitor, you must select a request method and enter the request URL, status code, and response time. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
   
      
-#### Creating a mock using the launch screen
+#### Launch screen
 
 The "Create New" screen appears by default when you launch Postman. At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
 1. Open Postman.
 2. In the "Create New" screen, click "Mock Server".
 3. Follow step 3 in previous **New** button section. 
+
 
 ### HTTP access control (CORS)
 
