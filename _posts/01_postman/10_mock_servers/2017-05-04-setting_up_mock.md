@@ -11,11 +11,10 @@ warning: false
 
 Delays on the front- or back-end make it difficult for dependent teams to complete their work efficiently. Postman's mock servers can alleviate delays in the development process. 
 
-Front-end developers can create a mock server to simulate each endpoint and its corresponding environment in a Postman Collection, before sending the actual request. Developers can view potential responses, without spinning up a back end. A [mock example](/docs/postman/collections/examples){:target="_blank"} during the earliest phase of API development requires clear communication between team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams no longer experience delays.
+Front-end developers can create a mock server to simulate each endpoint and its corresponding environment in a Postman Collection, before sending the actual request. Developers can view potential responses, without spinning up a back end. A [mock example](/docs/postman/collections/examples){:target="_blank"} during the earliest phase of API development fosters clear communication between team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams no longer experience delays.
 
 
 ### Setting up the mock
-
 
 You can create a mock in several ways:
 
@@ -29,7 +28,7 @@ Postman Pro and Enterprise users can [share the underlying collection](/docs/pos
 
 #### New button
 
-In the header toolbar, click the **New** button.
+1. In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
@@ -38,9 +37,12 @@ The "Create New" screen appears.
 
 **Note**: At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
 
-Click "Mock Server".
+<ol start="2">
+  <li>Click "Mock Server".</li>
+  <li>In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library".</li>
+</ol>
 
-In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library".
+
 
 [![create mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)
 
