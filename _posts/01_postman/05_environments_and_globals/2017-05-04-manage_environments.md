@@ -31,6 +31,7 @@ You can create a new environment from the:
 * **New** button
 * Launch screen
 
+<br>
 
 #### **Manage environments icon**
 
