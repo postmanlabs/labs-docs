@@ -63,7 +63,7 @@ The **Create New** tab appears.
   <li>Click the <b>Add</b> button.</li>
 </ol>
 
-**Note**: At the bottom. you can select ‘Show this window at launch’ to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select ‘Show this window at launch’ to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 #### Launch screen
 
