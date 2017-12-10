@@ -53,7 +53,8 @@ You can create a new environment from the:
 
 The **Create New** screen appears.
 
-[![createNew]https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png)
+[![create_new](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png)
+
 
 <ol start="2">
   <li>Click "Environment" and enter a name for the new environment.</li>
