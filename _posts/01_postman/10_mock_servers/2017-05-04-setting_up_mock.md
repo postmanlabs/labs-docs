@@ -54,6 +54,24 @@ If you create a new API to monitor, you must select a request method and enter t
 
 If you use an existing or team collection, you must select a collection from a list of existing or team collections.
   
+After you select or create the request you want to monitor, click the Next button.
+In the Configure tab, you must:
+Enter the name of the monitor
+Select an environment (optional).
+Set how frequently the monitor should run.
+Select one or more regions of the world from where you want to monitor your results.
+     
+   IMAGE  
+     
+Click the Create button.
+In the Next steps tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+
+   
+   IMAGE 
+     
+     
+     
+     
      
 #### Launch screen
 
