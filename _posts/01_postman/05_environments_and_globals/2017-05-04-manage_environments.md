@@ -75,6 +75,8 @@ The **Create New** tab appears by default when you launch Postman.
 4. Add the variables you want to save as key-value pairs.
 5. Click the **Add** button.
 
+[![create_new](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png)
+
 **Note**: At the bottom, you can select ‘Show this window at launch’ to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 ### Selecting an active environment
@@ -96,6 +98,8 @@ Click the gear icon in the upper right corner of the Postman app and select "Man
 
 [![duplicate environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)
 
-It's a best practice to create a duplicate, remove any sensitive values like passwords and access tokens before downloading the copy to share with someone else.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.
+It's a best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others. 
 
-For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing) with team members.
+When others import the environment, or access the shared template, they can input their own personal information in their own version of the template.
+
+For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing){:target="_blank" with team members.
