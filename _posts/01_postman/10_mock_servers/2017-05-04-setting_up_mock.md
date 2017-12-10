@@ -48,21 +48,22 @@ The "Create New" screen appears.
 
 [![create mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.png)
 
-If you create a new API to monitor, you must select a request method and enter the request URL, status code, and response time. 
+If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. 
 
 If you use an existing or team collection, you must select a collection from a list of existing or team collections.
 
 <ol start="4">
-  <li>After you select or create the request you want to monitor, click the Next button.</li>
-  <li>In the Configure tab, you must:</li>
+  <li>After you select or create the request you want to mock, click the Next button.</li>
+  <li>In the Configure mock server tab, you must:</li>
 </ol>
   
-* Enter the name of the monitor
+* Enter the name of the mock
 * Select an environment (optional).
-* Set how frequently the monitor should run.
-* Select one or more regions of the world from where you want to monitor your results.
+* Indicate if you want to make this mock server private
+
+**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits]https://the.postman.co/usage){:target="_blank"}.
      
-   IMAGE  
+  [![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-requestConfig.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-requestConfig.png) 
      
 <ol start="6">
   <li>Click the Create button.</li>
