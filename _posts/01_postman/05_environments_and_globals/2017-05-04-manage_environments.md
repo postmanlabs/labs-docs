@@ -84,7 +84,9 @@ Click the dropdown menu in the upper right corner of the Postman app to select a
 
 ### Editing an active environment
 
-Click the **Quick Look** icon in the upper right corner of the Postman app to display the environment and global variables. When you click the **Edit** link, a modal opens where you can edit keys and values.
+Click the **Quick Look** icon in the upper right corner of the Postman app to display the environment and global variables. 
+
+When you click the **Edit** link, a modal opens where you can edit keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)
 
