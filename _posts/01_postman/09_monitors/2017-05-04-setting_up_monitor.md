@@ -29,7 +29,7 @@ You can create a monitor for an existing collection from the sidebar.
   <li>In the <b>MONITOR COLLECTION</b> modal, you must: </li>
   </ol>
   
-  * Enter the name of the monitor
+  * Enter the name of the monitor.
   * Select an environment (optional).
   * Set how frequently the monitor should run.
   * Select one or more regions of the world from where you want to monitor your results.
