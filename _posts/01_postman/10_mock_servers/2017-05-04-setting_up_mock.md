@@ -34,14 +34,14 @@ After you create the mock, Postman Pro and Enterprise users can [share the under
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The**Create New** tab appears.
+The **Create New** tab appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
 
 <ol start="2">
   <li>Click "Mock Server".</li>
-  <li>In the "Create API Documentation" screen, you can create documentation for a "New API", "My Collections", and "Team Library".</li>
+  <li>In the <b>Select requests to mock</b> tab, you can create a mock from a new API ("Create a new API" ) or from a list of existing ("My Collections"), or team ("Team Library") collections.</li>
 </ol>
 
 [![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
@@ -64,15 +64,14 @@ If you use an existing or team collection, you must select a collection from a l
  [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
 
 <ol start="3">
-  <li>In the "Create a mock server" modal, you can create a mock server for a "New API", "My Collections", and "Team Library".</li>
+  <li>In the <b>Create a mock server</b> tab, you can create a mock from a new API ("Create a new API" ) or from a list of existing ("My Collections"), or team ("Team Library") collections.</li>
 </ol>
      
 <ol start="6">
   <li>Click the Create button.</li>
 </ol>
 
-
-In the Next steps tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
 
  [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
    
@@ -101,6 +100,5 @@ CORS is enabled for Postman mock servers. As a result, you can stub your web app
 ### Using free mock server calls with your Postman account
 
 Your Postman account gives you a limited number of free mock server calls per month. 
-
 
 You can check your usage limits in the [Postman Pro API](https://docs.api.getpostman.com){:target="_blank"} or in the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
