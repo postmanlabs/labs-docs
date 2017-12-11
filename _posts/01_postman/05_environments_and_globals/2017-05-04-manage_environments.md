@@ -41,7 +41,7 @@ You can create a new environment from the:
 
 <ol start="2">
   <li>Select “Manage Environments”.</li>
-  <li>Click the <b>Add</b> button to create a new environment.</li>
+  <li>Click the <b>Add</b> button.</li>
 </ol>
 
 [![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)
