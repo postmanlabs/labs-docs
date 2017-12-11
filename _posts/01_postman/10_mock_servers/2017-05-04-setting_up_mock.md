@@ -14,7 +14,7 @@ Delays on the front- or back-end make it difficult for dependent teams to comple
 
 Front-end developers can create a mock server to simulate each endpoint and its corresponding environment in a Postman Collection, before sending the actual request. Developers can view potential responses, without spinning up a back end.
 
-A [mock example](/docs/postman/collections/examples){:target="_blank"} during the earliest phase of API development fosters clear communication between team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
+Creating a [mock example](/docs/postman/collections/examples){:target="_blank"} during the earliest phase of API development fosters clear communication between team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
 
 ### Setting up a mock server 
 
