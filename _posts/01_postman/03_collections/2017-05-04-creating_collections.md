@@ -38,7 +38,7 @@ You can create a new collection from the:
   [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
  
    <ol start="2">
-  <li>In the CREATE A NEW COLLECTION modal, enter a name and optional description, select an authorization type, enter a pre-request script to execute before the collection runs, add a test to execute after the collection runs, and add variables to the collection and its requests.</li>
+  <li>In the <b>CREATE A NEW COLLECTION</b> modal, enter a name and optional description, select an authorization type, enter a pre-request script to execute before the collection runs, add a test to execute after the collection runs, and add variables to the collection and its requests.</li>
   <li>Click the <b>Create</b> button.</li>
 </ol>
   
@@ -63,7 +63,7 @@ The **Create New** tab appears.
 
 <ol start="2">
   <li>Click "Collection".</li>
-  <li>In the <b>CREATE A NEW COLLECTION</b> modal, enter a name and an optional description. </li>
+  <li>In the <b>CREATE A NEW COLLECTION</b> modal, enter a name and optional description, select an authorization type, enter a pre-request script to execute before the collection runs, add a test to execute after the collection runs, and add variables to the collection and its requests.</li>
   <li>Click the <b>Create</b> button. </li>
 </ol>
 
