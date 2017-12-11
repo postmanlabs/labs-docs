@@ -60,6 +60,11 @@ The **Create New** tab appears.
 <ol start="2">
   <li>Click "Environment" and enter a name for the new environment.</li>
   <li>Add the variables you want to save as key-value pairs.</li>
+</ol>
+
+[![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)
+
+<ol start="4">
   <li>Click the <b>Add</b> button.</li>
 </ol>
 
