@@ -20,10 +20,11 @@ A [mock example](/docs/postman/collections/examples){:target="_blank"} during th
 
 You can create a mock in several ways:
 
-* [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
-* [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
 * **New** button
 * Launch screen
+* [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
+* [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
+
   
 After you create the mock, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
