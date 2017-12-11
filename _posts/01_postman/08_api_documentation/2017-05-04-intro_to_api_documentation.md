@@ -31,7 +31,7 @@ You can create documentation from the:
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
 The **Create New** tab appears.
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
 
@@ -43,8 +43,8 @@ The **Create New** tab appears.
 [![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
 
 <ol start="4">
-  <li>After you select or create the request you want to monitor, click the Next button.</li>
-   <li>In the Configure documentation tab, you must:</li>
+  <li>After you select or create the request you want to monitor, click the <b>Next</b> button.</li>
+  <li>In the <b>Configure documentation</b> tab, you must:</li>
  </ol>
 
 * Enter the name of the documentation.
@@ -53,19 +53,23 @@ The **Create New** tab appears.
 [![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
 
  <ol start="6">
-  <li>Click the Create button</li>
+  <li>Click the <b>Create</b> button</li>
    </ol>
      
-In the Next steps tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your documentation.
+
+[![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
      
 #### Launch screen
 
-The "Create New" modal appears by default when you launch Postman. At the bottom of the modal you can select ‘Show this window at launch’ to indicate whether you want the 'Create New' modal to display each time you open Postman.
+The **Create New** screen appears by default when you launch Postman. 
 
 1. Open Postman.
 2. In the "Create New" modal, click "Documentation".
-3. Follow step 3 in previous **New** button section. 
+3. Follow step 3-6 in previous **New** button section. 
    
+**Note**: At the bottom, you can select ‘Show this window at launch’ to indicate whether you want the 'Create New' modal to display each time you open Postman.
+
 
 ### What gets automatically generated?
 
