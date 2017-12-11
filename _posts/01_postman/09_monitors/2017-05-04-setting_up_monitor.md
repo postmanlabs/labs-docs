@@ -31,7 +31,7 @@ You can create a monitor for an existing collection from the sidebar.
   
   * Enter the name of the monitor.
   * Select an environment (optional).
-  * Set how frequently the monitor should run. For more information, see the “Monitoring schedule and region” section below.
+  * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
   * Select one or more regions of the world from where you want to monitor your results.
   
 You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. 
