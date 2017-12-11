@@ -8,24 +8,30 @@ warning: false
 ---
 
 
-### Simulating a back end with Postman's mock servers
+### Simulating a back-end with Postman's mock servers
 
-Delays on the front- or back-end make it difficult for dependent teams to complete their work efficiently. Postman's mock servers can alleviate delays in the development process. 
+Delays on the front- or back-end make it difficult for dependent teams to complete their work efficiently. Postman's mock servers can alleviate those delays in the development process. 
 
 Front-end developers can create a mock server to simulate each endpoint and its corresponding environment in a Postman Collection, before sending the actual request. Developers can view potential responses, without spinning up a back end.
 
-A [mock example](/docs/postman/collections/examples){:target="_blank"} during the earliest phase of API development fosters clear communication between team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams no longer experience delays.
+Creating a [mock example](/docs/postman/collections/examples){:target="_blank"} during the earliest phase of API development fosters clear communication among team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
 
 ### Setting up a mock server 
 
 You can create a mock in several ways:
 
-* [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
-* [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
 * **New** button
 * Launch screen
+* [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
+* [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
+
   
 After you create the mock, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
+
+**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} or the [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}, click its link for detailed information.
+
+<br>
+
 
 #### New button
 
@@ -40,7 +46,7 @@ The **Create New** tab appears.
 
 <ol start="2">
   <li>Click "Mock Server".</li>
-  <li>Select if you want to mock a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections. </li>
+  <li>Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections. </li>
 </ol>
 
 [![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
@@ -62,7 +68,7 @@ The **Create New** tab appears.
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
-In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
 
  [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
    
@@ -70,7 +76,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 The **Create New** tab appears by default when you launch Postman. 
 
-1. Open Postman.
+1. Open the Postman app.
 2. In the **Create New** tab, click "Mock Server".
 3. Follow steps 3-6 in the previous **New** button section. 
 
