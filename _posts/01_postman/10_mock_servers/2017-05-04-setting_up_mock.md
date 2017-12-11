@@ -18,13 +18,7 @@ Developers can view potential responses, without spinning up a back end. A [mock
 
 As a result, all teams in the development process can work in parallel; and dependent teams no longer experience delays.
 
-
-
-Establishing an [example](/docs/postman/collections/examples){:target="_blank"} in the earliest phase of API development requires clear communication, which is instrumental in aligning expectations among team members. When communication is clear and expectations are aligned, developers and testers can start more quickly, with fewer delays.
-
-
-You can create a mock by using the: 
-
+### Setting up a mock server 
 
 You can create a mock in several ways:
 
