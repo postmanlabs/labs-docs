@@ -41,7 +41,7 @@ You can create a new environment from the:
 
 <ol start="2">
   <li>Select “Manage Environments”.</li>
-  <li>Click the <b>Add</b> button to create a new environment.</li>
+  <li>Click the <b>Add</b> button.</li>
 </ol>
 
 [![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)
@@ -68,19 +68,19 @@ The **Create New** tab appears.
   <li>Click the <b>Add</b> button.</li>
 </ol>
 
-**Note**: At the bottom, you can select ‘Show this window at launch’ to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 #### Launch screen
 
 The **Create New** tab appears by default when you launch Postman.
 
-1. Open [Postman](https://www.getpostman.com){:target="_blank"}.
+1. Open the Postman app.
 2. In the **Create New** tab, click "Environment".
 3. Enter a name for the new environment.
 4. Add the variables you want to save as key-value pairs.
 5. Click the **Add** button.
 
-**Note**: At the bottom, you can select ‘Show this window at launch’ to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 ### Selecting an active environment
 
@@ -99,7 +99,9 @@ When you click the **Edit** link, a modal opens where you can edit keys and valu
 
 ### Sharing an environment
 
-To share an environment, click the gear icon in the upper right corner of the Postman app and select "Manage Environments". Then click the **Duplicate Environment** icon next to the environment you want to share.
+To share an environment, click the gear icon in the upper right corner of the Postman app and select "Manage Environments". 
+
+In the **Manage Environments** tab, click the **Duplicate Environment** icon next to the environment you want to share.
 
 [![duplicate environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)
 
