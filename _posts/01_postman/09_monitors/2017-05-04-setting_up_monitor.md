@@ -140,4 +140,4 @@ Postman Enterprise users interested in setting up dedicated IPs for their API mo
 | Request timeout | Specifies a time interval after which your request is considered to time-out. |
 | Delay between requests | Adds a time lag between subsequent requests. |
 | Don’t follow redirects | Disables all following redirects. |
-| Disable SSL validation | Disables validations performed on SSL certificates. Check this if you use self-signed certificates. Use with caution! |
+| Disable SSL validation | Disables validations performed on SSL certificates. Check this setting if you use self-signed certificates. Use with caution! |
