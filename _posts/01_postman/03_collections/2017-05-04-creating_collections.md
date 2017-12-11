@@ -42,7 +42,7 @@ You can create a new collection from the:
   <li>Click the <b>Create</b> button.</li>
 </ol>
   
-  
+   [![new collection_modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)
   
   
   
