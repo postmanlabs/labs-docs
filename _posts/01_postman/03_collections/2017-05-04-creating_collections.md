@@ -42,12 +42,7 @@ You can create a new collection from the:
   <li>Click the <b>Create</b> button.</li>
 </ol>
   
-   [![new collection_modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)
-  
-  
-  
-  
- 
+   [![new collection_modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png) 
 
 <br>
 
@@ -146,6 +141,11 @@ The  **Create New** tab appears by default when you launch Postman.
  1. To save multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
  2. In the <b>SAVE MULTIPLE REQUESTS</b> modal, select a collection or folders to save the requests.
  3. Click the **Save** button.
+ 
+ [![multiple collection](
+ https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-multiplerequests.png)](
+ https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-multiplerequests.png)
+ 
 
 ### Duplicating an existing collection
 
