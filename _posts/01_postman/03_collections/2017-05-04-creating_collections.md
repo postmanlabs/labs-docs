@@ -72,7 +72,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 1. Open Postman.
 2. In the **Create New** tab, click "Collection".
-3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description, select an authorization type, enter a pre-request script to execute before the collections runs, add a test to execute after the collections runs, add variables to the collection and its requests.
+3. In the **CREATE A NEW COLLECTION** modal, enter a name and optional description, select an authorization type, enter a pre-request script to execute before the collection runs, add a test to execute after the collection runs, and add variables to the collection and its requests.
 4. Click the **Create** button.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
