@@ -36,11 +36,18 @@ You can create a new collection from the:
 1. In the sidebar, select "Collections" and click the "Collections" icon.
 
   [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
-  
-  <ol start="2">
-  <li>Enter a name for your collection (and an optional description).<br></li>
+ 
+   <ol start="2">
+  <li>In the CREATE A NEW COLLECTION modal, enter a name and optional description, select an authorization type, enter a pre-request script to execute before the collection runs, add a test to execute after the collection runs, and add variables to the collection and its requests.</li>
   <li>Click the <b>Create</b> button.</li>
 </ol>
+  
+  
+  
+  
+  
+  
+ 
 
 <br>
 
