@@ -63,11 +63,17 @@ The **Create New** tab appears.
 
  [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
-<ol start="2">
-  <li>Click "Collection".</li>
-  <li>In the <b>CREATE A NEW COLLECTION</b> modal, enter a name and optional description, select an authorization type, enter a pre-request script to execute before the collection runs, add a test to execute after the collection runs, and add variables to the collection and its requests.</li>
-  <li>Click the <b>Create</b> button. </li>
-</ol>
+ <ol start="2">
+  <li>In the <b>CREATE A NEW COLLECTION</b> modal: </li>
+    </ol>
+    
+* Enter a name and optional description.
+* Select an authorization type. 
+* Enter a pre-request script to execute before the collection runs.
+* Add a test to execute after the collection runs.
+* Add variables to the collection and its requests.
+  
+<ol start="3"> <li>Click the <b>Create</b> button.</li> </ol>
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
