@@ -79,7 +79,7 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 
 1. Open Postman.
 2. In the "Create New" screen, click "Mock Server".
-3. Follow step 3 in previous **New** button section. 
+3. Follow steps 3-6 in the previous **New** button section. 
 
 
 ### HTTP access control (CORS)
