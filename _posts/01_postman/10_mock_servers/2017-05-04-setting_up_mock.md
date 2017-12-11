@@ -36,7 +36,7 @@ After you create the mock, Postman Pro and Enterprise users can [share the under
 The **Create New** tab appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 <ol start="2">
   <li>Click "Mock Server".</li>
