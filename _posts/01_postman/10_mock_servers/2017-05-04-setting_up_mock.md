@@ -67,7 +67,7 @@ The **Create New** tab appears.
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
-In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
 
  [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
    
