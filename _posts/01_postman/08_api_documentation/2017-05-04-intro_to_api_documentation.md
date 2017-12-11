@@ -43,7 +43,7 @@ The **Create New** tab appears.
 [![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
 
 <ol start="4">
-  <li>After you select or create the request you want to monitor, click the <b>Next</b> button.</li>
+  <li>After you select or create the request you want to document, click the <b>Next</b> button.</li>
   <li>In the <b>Configure documentation</b> tab, you must:</li>
  </ol>
 
