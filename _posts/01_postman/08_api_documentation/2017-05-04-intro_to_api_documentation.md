@@ -30,7 +30,7 @@ You can create documentation from the:
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The **Create New** screen appears.
+The **Create New** tab appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
@@ -45,7 +45,8 @@ The **Create New** screen appears.
   <li>Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.</li>
  </ol>
  
-IMAGE
+[![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
+
 <ol start="4">
   <li>After you select or create the request you want to monitor, click the Next button.</li>
    <li>In the Configure documentation tab, you must:</li>
@@ -53,6 +54,8 @@ IMAGE
 
 * Enter the name of the documentation.
 * Add a description of the documentation. Note that you can uses markdown for adding headings, lists, code snippets, and so on in your description.
+
+[![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
 
  <ol start="6">
   <li>Click the Create button</li>
