@@ -99,7 +99,9 @@ When you click the **Edit** link, a modal opens where you can edit keys and valu
 
 ### Sharing an environment
 
-To share an environment, click the gear icon in the upper right corner of the Postman app and select "Manage Environments". In the **Manage Environments** tab, click the **Duplicate Environment** icon next to the environment you want to share.
+To share an environment, click the gear icon in the upper right corner of the Postman app and select "Manage Environments". 
+
+In the **Manage Environments** tab, click the **Duplicate Environment** icon next to the environment you want to share.
 
 [![duplicate environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)
 
