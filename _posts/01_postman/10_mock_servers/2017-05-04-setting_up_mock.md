@@ -57,10 +57,6 @@ The **Create New** tab appears.
 **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://the.postman.co/usage){:target="_blank"}.
      
  [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
-
-<ol start="3">
-  <li>In the <b>Create a mock server</b> tab, you can create a mock from a new API ("Create a new API" ) or from a list of existing ("My Collections"), or team ("Team Library") collections.</li>
-</ol>
      
 <ol start="6">
   <li>Click the Create button.</li>
@@ -72,14 +68,13 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
    
 #### Launch screen
 
-The "Create New" modal appears by default when you launch Postman. 
-
-At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
+The **Create New** modal appears by default when you launch Postman. 
 
 1. Open Postman.
-
-2. In the "Create New" screen, click "Mock Server".
+2. In the **Create New** tab, click "Mock Server".
 3. Follow steps 3-6 in the previous **New** button section. 
+
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 
 ### Using HTTP access control (CORS) for a mock
