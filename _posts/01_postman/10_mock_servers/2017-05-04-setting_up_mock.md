@@ -75,7 +75,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 The **Create New** tab appears by default when you launch Postman. 
 
-1. Open Postman.
+1. Open the Postman app.
 2. In the **Create New** tab, click "Mock Server".
 3. Follow steps 3-6 in the previous **New** button section. 
 
