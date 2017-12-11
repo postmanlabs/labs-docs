@@ -18,12 +18,7 @@ Developers can view potential responses, without spinning up a back end. A [mock
 
 As a result, all teams in the development process can work in parallel; and dependent teams no longer experience delays.
 
-
-
-Establishing an [example](/docs/postman/collections/examples){:target="_blank"} in the earliest phase of API development requires clear communication, which is instrumental in aligning expectations among team members. When communication is clear and expectations are aligned, developers and testers can start more quickly, with fewer delays.
-
-
-You can create a mock by using the: 
+### Setting up a mock server 
 
 
 You can create a mock in several ways:
@@ -35,17 +30,12 @@ You can create a mock in several ways:
   
 Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
-You can also create a mock using the **Postman app** and **Postman Pro API**. Each provides detailed steps on how to use it.
-
 * [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} 
 * [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
 
+#### New button
 
 After you create the mock, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
-
-
-
-#### New button
 
 1. In the header toolbar, click the **New** button.
 
@@ -90,6 +80,7 @@ If you use an existing or team collection, you must select a collection from a l
   <li>Click the Create button.</li>
 </ol>
 
+
 In the Next steps tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
 
  [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
@@ -113,7 +104,6 @@ In addition to using the [Postman app](/docs/postman/mock_servers/mocking_with_e
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. 
 
 For security reasons, [cross-origin resource sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS){:target="_blank"} is a standard that defines a way in which a browser and server can interact securely. In this case, we are referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
-
 
 CORS is enabled for Postman mock servers. As a result, you can stub your web apps with mocked data using the mock endpoints. So development or production web apps can make requests to the Postman mock endpoint you just created and receive an example response.
 
