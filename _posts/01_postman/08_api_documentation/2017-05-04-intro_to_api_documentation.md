@@ -48,7 +48,7 @@ The **Create New** tab appears.
  </ol>
 
 * Enter the name of the documentation.
-* Add a description of the documentation. Note that you can uses markdown for adding headings, lists, code snippets, and so on in your description.
+* Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
 
 [![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
 
