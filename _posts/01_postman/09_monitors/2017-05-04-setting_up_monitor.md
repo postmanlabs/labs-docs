@@ -29,7 +29,7 @@ You can create a monitor for an existing collection from the sidebar.
   <li>In the <b>MONITOR COLLECTION</b> modal, you must: </li>
   </ol>
   
-  * Enter the name of the monitor
+  * Enter the name of the monitor.
   * Select an environment (optional).
   * Set how frequently the monitor should run.
   * Select one or more regions of the world from where you want to monitor your results.
@@ -76,7 +76,7 @@ If you create a new API to monitor, you must select a request method and enter t
  
 <ol start="4">
   <li>After you select or create the request you want to monitor, click the <b>Next</b> button. </li>
-  <li>In the <b>Configure</b> tab, you must:</li>
+  <li>In the <b>Configuration</b> tab, you must:</li>
 </ol>
 
   * Enter the name of the monitor
@@ -107,7 +107,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 ### Postman web
 
-1. Sign in to Postman web and click "Library" and select "Monitors".
+1. Sign in to [Postman web](http://getpostman.com){:target="_blank"} and click "Library" and select "Monitors".
 
 [![webview menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)
 
