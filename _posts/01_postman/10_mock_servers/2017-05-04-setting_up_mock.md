@@ -63,7 +63,7 @@ If you use an existing or team collection, you must select a collection from a l
 
 **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://the.postman.co/usage){:target="_blank"}.
      
-  IMAGE
+ [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
      
 <ol start="6">
   <li>Click the Create button.</li>
@@ -71,13 +71,8 @@ If you use an existing or team collection, you must select a collection from a l
 
 In the Next steps tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
 
+ [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
    
-   IMAGE 
-     
-     
-     
-     
-     
 #### Launch screen
 
 The "Create New" screen appears by default when you launch Postman. At the bottom of the screen you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
