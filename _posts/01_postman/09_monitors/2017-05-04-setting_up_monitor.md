@@ -67,7 +67,7 @@ The **Create New** tab appears.
 <ol start="2">
   <li>Click "Monitor".</li>
   <li>
-If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections..</li>
+Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections..</li>
 </ol>
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
