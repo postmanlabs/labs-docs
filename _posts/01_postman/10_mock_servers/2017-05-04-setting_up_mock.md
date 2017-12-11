@@ -30,6 +30,7 @@ After you create the mock, Postman Pro and Enterprise users can [share the under
 **Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the Postman app or the Postman Pro API, click the links above to provide detailed information.
 <br>
 
+
 #### New button
 
 1. In the header toolbar, click the **New** button.
