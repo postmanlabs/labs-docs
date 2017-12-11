@@ -20,7 +20,7 @@ When you [publish your documentation](/docs/postman/api_documentation/publishing
 
 You can create documentation from the:
 * **New** button 
-* Launch modal
+* Launch screen
 
 <br>
 
@@ -30,49 +30,46 @@ You can create documentation from the:
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The "Create New" modal appears.
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
+The **Create New** tab appears.
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)
 
-**Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 <ol start="2">
-  <li>Click "Documentation".</li>
+  <li>Click "API Documentation".</li>
+ <li>Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.</li>
  </ol>
 
-[![create docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)
+[![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
 
-<ol start="3">
-  <li>In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library". </li>
+<ol start="4">
+  <li>After you select or create the request you want to document, click the <b>Next</b> button.</li>
+  <li>In the <b>Configure documentation</b> tab, you must:</li>
  </ol>
 
-   * New API
+* Enter the name of the documentation.
+* Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
+
+[![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
+
+ <ol start="6">
+  <li>Click the <b>Create</b> button.</li>
+   </ol>
      
-     * Select the method, enter a request URL, and click the **Next** button.
-     * Enter the name and description and click the **Create** button.
-     
-     The "Next Steps" modal appears with information about the documentation and provides suggestions about next steps.
-     
-   * My Collections
-   
-     * Select a collection, add or edit the description, and click the **Create** button. 
-     
-     The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
-     
-   * Team Library
-   
-     * Select a shared collection.
-     * Add or edit a description, and click the **Create** button.
-     
-     The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your documentation.
+
+[![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
      
 #### Launch screen
 
-The "Create New" modal appears by default when you launch Postman. At the bottom of the modal you can select ‘Show this window at launch’ to indicate whether you want the 'Create New' modal to display each time you open Postman.
+The **Create New** tab appears by default when you launch Postman. 
 
-1. Open Postman.
-2. In the "Create New" modal, click "Documentation".
-3. Follow step 3 in previous **New** button section. 
+1. Open the Postman app.
+2. In the **Create New** tab, click "Documentation".
+3. Follow step 3-6 in the previous **New** button section. 
    
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+
 
 ### What gets automatically generated?
 
