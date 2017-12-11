@@ -38,6 +38,7 @@ You can create a new collection from the:
   [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
  
    <ol start="2">
+  <li>Click "Collection". </li>
   <li>In the <b>CREATE A NEW COLLECTION</b> modal: </li>
     </ol>
     
