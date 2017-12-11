@@ -39,7 +39,7 @@ You can create a new collection from the:
  
    <ol start="2">
   <li>In the <b>CREATE A NEW COLLECTION</b> modal: </li>
-    /ol>
+    </ol>
     
 * Enter a name and optional description.
 * Select an authorization type. 
