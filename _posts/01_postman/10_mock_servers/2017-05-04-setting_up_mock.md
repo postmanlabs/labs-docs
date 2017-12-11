@@ -30,16 +30,14 @@ After you create the mock, Postman Pro and Enterprise users can [share the under
 
 #### New button
 
-
 1. In the header toolbar, click the **New** button.
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The "Create New" screen appears.
+The**Create New** tab appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
-
-**Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the "Create New" modal to display each time you open Postman.
 
 <ol start="2">
   <li>Click "Mock Server".</li>
@@ -48,13 +46,12 @@ The "Create New" screen appears.
 
 [![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
 
-
 If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. 
 
 If you use an existing or team collection, you must select a collection from a list of existing or team collections.
 
 <ol start="4">
-  <li>After you select or create the request you want to mock, click the Next button.</li>
+  <li>After you select or create the request you want to mock, click the <b>Next</b> button.</li>
   <li>In the Configure mock server tab, you must:</li>
 </ol>
   
