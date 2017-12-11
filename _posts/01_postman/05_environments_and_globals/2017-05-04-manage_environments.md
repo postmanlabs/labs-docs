@@ -74,7 +74,7 @@ The **Create New** tab appears.
 
 The **Create New** tab appears by default when you launch Postman.
 
-1. Open Postman.
+1. Open the Postman app.
 2. In the **Create New** tab, click "Environment".
 3. Enter a name for the new environment.
 4. Add the variables you want to save as key-value pairs.
