@@ -33,7 +33,7 @@ You can create documentation from the:
 The **Create New** tab appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 <ol start="2">
   <li>Click "API Documentation".</li>
