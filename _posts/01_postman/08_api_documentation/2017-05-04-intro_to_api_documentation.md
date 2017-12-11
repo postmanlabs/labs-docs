@@ -20,7 +20,7 @@ When you [publish your documentation](/docs/postman/api_documentation/publishing
 
 You can create documentation from the:
 * **New** button 
-* Launch modal
+* Launch screen
 
 <br>
 
@@ -30,40 +30,24 @@ You can create documentation from the:
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
-The "Create New" modal appears.
+The **Create New** screen appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
 
-**Note**: At the bottom of the modal you can select "Show this window at launch" to indicate whether you want the "Create New" screen to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** screen to display each time you open Postman.
 
 <ol start="2">
-  <li>Click "Documentation".</li>
+  <li>Click "API Documentation".</li>
  </ol>
 
 [![create docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_doc.png)
 
 <ol start="3">
-  <li>In the "Create API Documentation" modal, you can create documentation for a "New API", "My Collections", and "Team Library". </li>
+  <li>Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.</li>
  </ol>
 
-   * New API
+ 
      
-     * Select the method, enter a request URL, and click the **Next** button.
-     * Enter the name and description and click the **Create** button.
-     
-     The "Next Steps" modal appears with information about the documentation and provides suggestions about next steps.
-     
-   * My Collections
-   
-     * Select a collection, add or edit the description, and click the **Create** button. 
-     
-     The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
-     
-   * Team Library
-   
-     * Select a shared collection.
-     * Add or edit a description, and click the **Create** button.
-     
-     The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
+The "Next Steps" screen appears with information about the documentation and provides suggestions about next steps.
      
 #### Launch screen
 
