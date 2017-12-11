@@ -98,7 +98,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 ### Launch screen
 
 The **Create New** tab appears by default when you launch Postman. 
-1. Open [Postman](http://getpostman.com){:target="_blank"}.
+1. Open Postman.
 2. In the **Create New** tab, click "Monitor".
 3. Follow steps 3-6 in the previous **New** button section.
 
@@ -107,7 +107,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 ### Postman web
 
-1. Sign in to Postman web and click "Library" and select "Monitors".
+1. Sign in to [Postman web](http://getpostman.com){:target="_blank"} and click "Library" and select "Monitors".
 
 [![webview menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitors_webView.png)
 
