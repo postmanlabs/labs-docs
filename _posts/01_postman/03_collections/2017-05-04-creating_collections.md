@@ -79,9 +79,7 @@ The **Create New** tab appears.
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
-
 <br>
-
 #### Launch screen
 
 The **Create New** tab appears by default when you launch Postman. 
