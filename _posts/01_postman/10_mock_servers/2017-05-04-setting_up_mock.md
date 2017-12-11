@@ -27,6 +27,9 @@ You can create a mock in several ways:
   
 After you create the mock, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
+**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the Postman app or the Postman Pro API, click the links above to provide detailed information.
+
+
 #### New button
 
 1. In the header toolbar, click the **New** button.
