@@ -75,7 +75,7 @@ The **Create New** tab appears by default when you launch Postman.
 4. Add the variables you want to save as key-value pairs.
 5. Click the **Add** button.
 
-[![create_new](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png)
+[![create_new](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-manage.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-manage.png)
 
 **Note**: At the bottom, you can select ‘Show this window at launch’ to indicate whether you want the **Create New** tab to display each time you open Postman.
 
