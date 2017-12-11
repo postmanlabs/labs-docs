@@ -28,10 +28,10 @@ You can create a mock in several ways:
 * **New** button
 * Launch screen
   
+After you create the mock, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
 #### New button
 
-After you create the mock, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
 1. In the header toolbar, click the **New** button.
 
