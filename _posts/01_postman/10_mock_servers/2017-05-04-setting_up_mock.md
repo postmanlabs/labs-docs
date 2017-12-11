@@ -68,7 +68,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
    
 #### Launch screen
 
-The **Create New** modal appears by default when you launch Postman. 
+The **Create New** tab appears by default when you launch Postman. 
 
 1. Open Postman.
 2. In the **Create New** tab, click "Mock Server".
