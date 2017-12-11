@@ -119,7 +119,6 @@ You can save a request to a collection from the:
  
  <br>
  
-
 #### New button
 1. In the header toolbar, click the **New** button.
 2. Click "Request".
@@ -129,9 +128,7 @@ You can save a request to a collection from the:
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
-
 <br>
-
 #### Launch screen
 The  **Create New** tab appears by default when you launch Postman. 
 
