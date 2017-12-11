@@ -53,7 +53,7 @@ The **Create New** tab appears.
 [![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
 
  <ol start="6">
-  <li>Click the <b>Create</b> button</li>
+  <li>Click the <b>Create</b> button.</li>
    </ol>
      
 In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your documentation.
@@ -66,9 +66,9 @@ The **Create New** tab appears by default when you launch Postman.
 
 1. Open the Postman app.
 2. In the **Create New** tab, click "Documentation".
-3. Follow step 3-6 in previous **New** button section. 
+3. Follow step 3-6 in the previous **New** button section. 
    
-**Note**: At the bottom, you can select ‘Show this window at launch’ to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 
 ### What gets automatically generated?
