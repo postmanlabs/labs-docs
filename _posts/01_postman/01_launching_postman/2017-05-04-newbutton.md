@@ -35,8 +35,10 @@ In **ADVANCED**, create a new monitor, documentation, and a mock server.
 ### Creating requests
 You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/requests){:target="_blank"}
 
-1. To create a request, click ‘Request’ in the **New** button drop down menu and enter a title and description. 
-2. Select a collection and save the request in it. 
+
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click "Request".
+3. Select a collection and save the request in it. 
 
 You can either create a new collection or select an existing one. After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
@@ -45,13 +47,15 @@ You can either create a new collection or select an existing one. After you save
 ### Creating collections
 A collection is a group of individual requests that you can organize into folders. 
 
-1. In the **CREATE A NEW COLLECTION** modal:
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click "Request".
+3. In the **CREATE A NEW COLLECTION** modal:
 * Enter a name and optional description.
 * Select an authorization type.
 * Enter a pre-request script to execute before the collection runs.
 * Add a test to execute after the collection runs.
 * Add variables to the collection and its requests.
-2. Click the Create button.
+4. Click the **Create** button.
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
