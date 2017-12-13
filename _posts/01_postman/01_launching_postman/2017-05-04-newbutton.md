@@ -79,8 +79,35 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears 
 ### Creating monitors
 A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor) to run as frequently as every 5 minutes. 
 
-1. To create a monitor, click ‘Monitor’ in the **New** button drop down menu and enter the URLs you want to monitor, and indicate the response time and the response code. You can also select an existing collection to monitor all those requests. 
-2. Click ‘Next’ to enter the name of the monitor, how often you want the monitor to run, and the region you want to monitor.
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
+
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+
+1. In the header toolbar, click the New button.
+2. In the Create New tab, click “Monitor”.
+3. Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
+
+[![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
+ 
+<ol start="6">
+  <li>After you select or create the request you want to monitor, click the <b>Next</b> button. </li>
+  <li>In the <b>Configuration</b> tab, you must:</li>
+</ol>
+
+  * Enter the name of the monitor
+  * Select an environment (optional).
+  * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
+  * Select one or more regions of the world from where you want to monitor your results.
+    
+  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
+ 
+ <ol start="7">
+  <li>Click the <b>Create</b>  button. </li>
+</ol>
+
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+    
+  [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
 
 Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
 
