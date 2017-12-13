@@ -45,8 +45,15 @@ You can either create a new collection or select an existing one. After you save
 ### Creating collections
 A collection is a group of individual requests that you can organize into folders. 
 
-1. To create a collection, click ‘Collection’ in the **New** button drop down menu and enter a name and description for it. 
-2. After [creating the collection ](/docs/postman/collections/creating_collections){:target="_blank"}, you can [save requests to this collection](/docs/postman/collections/creating_collections){:target="_blank"} and add folders for [better organization.](/docs/postman/collections/managing_collections){:target="_blank"}
+1. In the **CREATE A NEW COLLECTION** modal:
+* Enter a name and optional description.
+* Select an authorization type.
+* Enter a pre-request script to execute before the collection runs.
+* Add a test to execute after the collection runs.
+* Add variables to the collection and its requests.
+2. Click the Create button.
+
+After creating the collection, you can save requests to the collection and add folders for better organization.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)
 
