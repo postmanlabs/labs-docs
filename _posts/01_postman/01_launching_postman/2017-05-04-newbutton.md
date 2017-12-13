@@ -88,7 +88,7 @@ Postman creates a collection and adds [examples](/docs/postman/mock_servers/mock
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)
 
 
-#### Templates tab
+### Templates tab
 
 You can select ‘Use a Template’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
@@ -119,7 +119,7 @@ The Link Checker template success screen displays what Postman created for you a
 
 ![link_checker_nextsteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
 
-#### API Network tab
+### API Network tab
 
 The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher, and specifically designed to onboard developers quickly and effectively.
 
