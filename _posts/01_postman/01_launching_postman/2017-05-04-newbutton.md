@@ -89,7 +89,7 @@ A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodicall
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
  
-<ol start="6">
+<ol start="4">
   <li>After you select or create the request you want to monitor, click the <b>Next</b> button. </li>
   <li>In the <b>Configuration</b> tab, you must:</li>
 </ol>
@@ -101,7 +101,7 @@ A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodicall
     
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
  
- <ol start="7">
+ <ol start="6">
   <li>Click the <b>Create</b>  button. </li>
 </ol>
 
