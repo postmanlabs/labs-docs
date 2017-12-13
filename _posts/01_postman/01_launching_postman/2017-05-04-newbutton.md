@@ -34,7 +34,7 @@ You can select ‘Use a Template’ for templates that help you:
 
 * Use Postman Echos to test your REST client and make sample API calls
 
-Select 'Show this window on launch' if you want to display the **Create New** modal each time you open Postman.
+**Note**: At the bottom, you can select “Show this window at launch” to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 **Note**: You can directly create a new feature when you click the down arrow at the right side of the **New** button.
 
