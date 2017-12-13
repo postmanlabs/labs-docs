@@ -107,7 +107,7 @@ To import a template:
 
 **Note**: The Link Checker template only provides required environmental variables. However, other templates might offer required and optional environmental variables.
 
-![link_checker_templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
+![linkcheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
 
 <ol start="2">
   <li>Click the <b>Use this template</b> button to summon the <b>Customization options</b> screen.</li>
@@ -126,7 +126,7 @@ The **Link Checker template success** screen displays what Postman created for y
   <li>Click the <b>Okay</b> button to exit the screen.</li>
 </ol>
 
-![link_checker_nextsteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
+![linkcheckernextsteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
 
 ### API Network tab
 
