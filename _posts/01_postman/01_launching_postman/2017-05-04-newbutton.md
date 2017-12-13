@@ -98,7 +98,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
 
 [![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
 
- <ol start="6">
+ <ol start="5">
   <li>Click the <b>Create</b> button.</li>
    </ol>
      
