@@ -81,12 +81,30 @@ You receive notifications when either the response code doesn’t match or the r
 ### Creating documentation
 You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
 
-1. To create documentation, click ‘Documentation’ in the **New** button drop down menu and enter the request URLs with the methods you want to document. 
-2. Click ‘Next’ to enter the name for the APIs and a general description for your API. 
+<ol start="1">
+  <li>Click "API Documentation".</li>
+ <li>Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.</li>
+ </ol>
 
-Postman creates a collection and generates documentation that you and your team can [ view.](/docs/postman/api_documentation/viewing_documentation){:target="_blank"}
+[![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)
+<ol start="3">
+  <li>After you select or create the request you want to document, click the <b>Next</b> button.</li>
+  <li>In the <b>Configure documentation</b> tab, you must:</li>
+ </ol>
+
+* Enter the name of the documentation.
+* Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
+
+[![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
+
+ <ol start="6">
+  <li>Click the <b>Create</b> button.</li>
+   </ol>
+     
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your documentation.
+
+[![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
 
 ### Creating mock servers
 A [mock server  ](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
