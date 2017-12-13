@@ -134,17 +134,19 @@ The Postman API Network provides the most authentic and actionable directory of 
 
 You can view all these APIs, or select to view them from these categories: Business Solutions, Marketing, Cloud, Communications, Data Management, Development, Mobile Services, E-Commerce, Financial Services, Food, Health Services, Payment Services, Productivity, Retail, Shipping Logistics, Social Media, and Travel.
 
-After you select an API Network, you can click the Run In Postman button to import it into your collections.
+After you select an API Network, you can import it into your collections.
 
 [![API_network](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)
 
 To import an API in the API Network:
 
-Click an API in the API Network. In this example, we're using the AuthO API.
+1. Click an API in the API Network. In this example, we're using the AuthO API.
 
 [![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
 
-
+<ol start="2">
+  <li>Click the Run In Postman button to import the API in your collections. When you check your collection, you can see the API you imported.</li>
+</ol>
 
 
 
