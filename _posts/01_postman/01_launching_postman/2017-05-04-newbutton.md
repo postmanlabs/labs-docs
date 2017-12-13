@@ -126,7 +126,7 @@ The **Link Checker template success** screen displays what Postman created for y
   <li>Click the <b>Okay</b> button to exit the screen.</li>
 </ol>
 
-![linkcheckernextsteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
+[![nextSteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
 
 ### API Network tab
 
