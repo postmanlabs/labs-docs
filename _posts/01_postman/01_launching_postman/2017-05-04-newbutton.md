@@ -35,7 +35,6 @@ In **ADVANCED**, create a new monitor, documentation, and a mock server.
 ### Creating requests
 You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/requests){:target="_blank"}
 
-
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Request".
 3. Select a collection and save the request in it. 
@@ -64,10 +63,17 @@ After creating the collection, you can save requests to the collection and add f
 ### Creating environments
 While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} let you customize requests using variables. 
 
-1. To create an environment, click ‘Environment’ in the **New**  button drop down menu and enter a name for it. 
-2. Add the variables you want to save as key-value pairs.
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click "Environment". 
+3. Add the variables you want to save as key-value pairs.
+4. Click the **Add** button.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)
+
+
+
+
+
 
 ## ADVANCED
 ### Creating monitors
