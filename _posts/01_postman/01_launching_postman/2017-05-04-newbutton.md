@@ -70,7 +70,7 @@ While working with APIs, you often need different setups, such as your local mac
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)
 
-If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit download, or delete those environments. In addition, you can create global environments and download them as a JSON file, or import environment files from your computer.
+If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit, download, or delete those environments. In addition, you can create global environments and download them as a JSON file, or import environment files from your computer.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)
 
