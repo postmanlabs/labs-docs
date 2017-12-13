@@ -96,7 +96,7 @@ A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodicall
 
   * Enter the name of the monitor
   * Select an environment (optional).
-  * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
+  * Set how frequently the monitor should run. 
   * Select one or more regions of the world from where you want to monitor your results.
     
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
