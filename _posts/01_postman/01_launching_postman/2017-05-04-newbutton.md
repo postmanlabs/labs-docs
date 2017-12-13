@@ -15,7 +15,7 @@ You can use the **New** button to initiate requests, collections, environments, 
 
 When you click the **New** button, the **Create New** modal appears.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_createNewModal_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_createNewModal_blk.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
