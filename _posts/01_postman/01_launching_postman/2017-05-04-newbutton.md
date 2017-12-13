@@ -143,12 +143,32 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 ### Creating mock servers
 A [mock server  ](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
 
-1. To create a mock server, click ‘Mock Server’ in the **New** button drop down menu and enter the request endpoint and the expected response. 
-2. Then click ‘Next’ to enter the name of your APIs. You can indicate if you want this mock server to be private.
+1. In the header toolbar, click the New button.
+2. In the Create New tab, click “Mock Server”.
+3. Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections. 
 
-Postman creates a collection and adds [examples](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} for individual requests. Postman also provides a mock URL you can share with the public, such as with front-end developers. They can send a request to this URL, followed by an endpoint, to get the corresponding response.
+[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)
+<ol start="4">
+  <li>After you select or create the request you want to mock, click the <b>Next</b> button.</li>
+  <li>In the <b>Configure mock server</b> tab, you must:</li>
+</ol>
+  
+* Enter the name of the mock
+* Select an environment (optional).
+* Indicate if you want to make this mock server private
+
+**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://the.postman.co/usage){:target="_blank"}.
+     
+ [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
+     
+<ol start="6">
+  <li>Click the <b>Create</b> button.</li>
+</ol>
+
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
+
+ [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
 
 ## Template and API Network tabs
 
