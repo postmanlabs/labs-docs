@@ -117,14 +117,12 @@ You receive notifications when either the response code doesn’t match or the r
 ### Creating documentation
 You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
 
-<ol start="1">
-  <li>Click "API Documentation".</li>
- <li>Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.</li>
- </ol>
-
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click "API Documentation".
+3. Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.
 [![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
 
-<ol start="3">
+<ol start="4">
   <li>After you select or create the request you want to document, click the <b>Next</b> button.</li>
   <li>In the <b>Configure documentation</b> tab, you must:</li>
  </ol>
@@ -134,7 +132,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
 
 [![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
 
- <ol start="5">
+ <ol start="6">
   <li>Click the <b>Create</b> button.</li>
    </ol>
      
