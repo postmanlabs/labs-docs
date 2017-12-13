@@ -145,7 +145,7 @@ To import an API in the API Network:
 [![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
 
 <ol start="2">
-  <li>Click the Run In Postman button to import the API in your collections. When you check your collection, you can see the API you imported.</li>
+  <li>Click the <b>Run In Postman</b> button to import the API in your collections. When you check your collection, you can see the API you imported.</li>
 </ol>
 
 
