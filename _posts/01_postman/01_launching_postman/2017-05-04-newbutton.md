@@ -138,7 +138,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 ### Creating mock servers
 A [mock server  ](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
 
-1. In the header toolbar, click the New button.
+1. In the header toolbar, click the **New** button.
 2. In the Create New tab, click “Mock Server”.
 3. Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections. 
 
