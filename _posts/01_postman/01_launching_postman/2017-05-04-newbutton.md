@@ -65,14 +65,14 @@ While working with APIs, you often need different setups, such as your local mac
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Environment". 
-3. Add the variables you want to save as key-value pairs.
+3. In the **MANAGE ENVIRONMENTS** modal, add the variables you want to save as key-value pairs.
 4. Click the **Add** button.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)
 
+If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit download, or delete those environments. In addition, you can create global environments and download them as a JSON file, or import environment files from your computer.
 
-
-
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)
 
 
 ## ADVANCED
