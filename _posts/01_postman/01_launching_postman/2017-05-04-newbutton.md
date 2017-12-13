@@ -55,7 +55,7 @@ A collection is a group of individual requests that you can organize into folder
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)
 
 ### Creating environments
 While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} let you customize requests using variables. 
