@@ -95,7 +95,7 @@ Postman creates a collection and adds [examples](/docs/postman/mock_servers/mock
 
 ### Templates tab
 
-You can select ‘Use a Template’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
+You can select ‘Template’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
 You can view all the templates, or select to view them in a Developer or DevOps category.
 
@@ -110,17 +110,21 @@ To import a template:
 ![link_checker_templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
 
 <ol start="2">
-  <li>Click the <b>Use this template</b> button to summon the Customization options screen.</li>
+  <li>Click the <b>Use this template</b> button to summon the <b>Customization options</b> screen.</li>
 </ol>
 
-This screen lists what Postman created for you—collection, environment, and monitor. You can configure your own monitor settings in the "CONFIGURATION OPTIONS" section.
+This screen lists what Postman created for you—collection, environment, and monitor settings. You can configure your own monitor settings in the "CONFIGURATION OPTIONS" section.
 
 <ol start="3">
-  <li>If you want to figure your monitor, select how often you want the monitor run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
+  <li>If you want to configure your monitor, select how often you want the monitor to run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
-The Link Checker template success screen displays what Postman created for you and suggests next steps you want to consider to maximize your template. Click the **Okay** button to exit the screen.
+The **Link Checker template success** screen displays what Postman created for you and suggests next steps you might want to consider to maximize your template. 
+
+<ol start="5">
+  <li>Click the <b>Okay</b> button to exit the screen.</li>
+</ol>
 
 ![link_checker_nextsteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
 
