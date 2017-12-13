@@ -83,8 +83,8 @@ A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodicall
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
-1. In the header toolbar, click the New button.
-2. In the Create New tab, click “Monitor”.
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click “Monitor”.
 3. Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
 
 [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
@@ -108,11 +108,6 @@ A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodicall
 In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
     
   [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
-
-Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
-
-You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add the method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
-
 
 ### Creating documentation
 You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
