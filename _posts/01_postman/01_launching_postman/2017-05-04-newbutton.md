@@ -107,7 +107,7 @@ To import a template:
 
 **Note**: The Link Checker template only provides required environmental variables. However, other templates might offer required and optional environmental variables.
 
-![linkcheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
+[![linkCheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
 
 <ol start="2">
   <li>Click the <b>Use this template</b> button to summon the <b>Customization options</b> screen.</li>
