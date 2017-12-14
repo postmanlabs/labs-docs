@@ -84,7 +84,7 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)
 
 
-### ADVANCED
+ADVANCED
 <h4 id="monitors">Creating monitors</h4>
 A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor){:target="_blank"} to run as frequently as every 5 minutes. 
 
