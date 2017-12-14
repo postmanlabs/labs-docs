@@ -179,7 +179,7 @@ To import a template:
 
 1. Click on the template you want. In this example we're using the "Link Checker" template.
 
-**Note**: The Link Checker template only provides required environmental variables. However, other templates might offer required and optional environmental variables.
+**Note**: Each template has a description that lists the values required to run the template. In this example, the Link Checker template requires a `start_url` and a `root_url`.
 
 [![linkCheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
 
