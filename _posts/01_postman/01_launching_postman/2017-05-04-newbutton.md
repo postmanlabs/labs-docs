@@ -194,7 +194,7 @@ This screen lists what Postman will create for you as part of this template and 
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
-The **Success!** screen displays what Postman created for you and suggests next steps you might want to consider to maximize your template. 
+The **Success!** screen displays what Postman created for you and suggests next steps to consider to get the most out of the template.
 
 <ol start="5">
   <li>Click the <b>Okay</b> button to exit the screen.</li>
@@ -206,7 +206,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
 
 The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
-You can view all these APIs, or select to view them from these categories: Business Solutions, Marketing, Cloud, Communications, Data Management, Development, Mobile Services, E-Commerce, Financial Services, Food, Health Services, Payment Services, Productivity, Retail, Shipping Logistics, Social Media, and Travel.
+On the left side of the screen, Postman groups the APIs categories such as Marketing, Financial Services, E-commerce, and son on. You can search these categories to find an API.
 
 After you select an API from the list, you can import it into your collections.
 
@@ -214,7 +214,7 @@ After you select an API from the list, you can import it into your collections.
 
 To import an API in the API Network:
 
-1. Click an API in the API Network list. In this example, we're using the AuthO API.
+1. Click an API in the API Network list. In this example, we're using the Auth0 API.
 
 [![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
 
