@@ -9,7 +9,14 @@ warning: false
 ---
 
 
-You can use the **New** button to initiate [requests](#requests), [collections](#collections), [environments](#environments), [monitors](#monitors), [documentation](#documentation), and [mock_servers](#mock_servers). 
+You can use the **New** button to initiate:
+
+[requests](#requests)
+[collections](#collections)
+[environments](#environments)
+[monitors](#monitors)
+[documentation](#documentation)
+[mock_servers](#mock_servers)
 
 The **New** button also provides access to [templates](#templates) and the [API_network](#API_network).
 
