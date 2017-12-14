@@ -214,7 +214,7 @@ After you select an API from the list, you can import it into your collections.
 
 To import an API in the API Network:
 
-1. Click an API in the API Network. In this example, we're using the AuthO API.
+1. Click an API in the API Network list. In this example, we're using the AuthO API.
 
 [![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
 
