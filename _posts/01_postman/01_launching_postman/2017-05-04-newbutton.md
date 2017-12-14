@@ -9,7 +9,7 @@ warning: false
 ---
 
 
-You can use the **New** button to initiate requests, collections, environments, monitors, documentation, and mock servers. 
+You can use the **New** button to initiate requests [requests](#requests), collections, environments, monitors, documentation, and mock servers. 
 
 The **New** button also provides access to templates and the API Network.
 
@@ -34,7 +34,7 @@ In **ADVANCED**, create a new monitor, documentation, and a mock server.
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_menu_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_menu_blk.png)
 
 ## BUILDING BLOCKS
-### Creating requests
+<h3 id="requests">Creating requests</h3>
 You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/requests){:target="_blank"}
 
 1. In the header toolbar, click the **New** button.
