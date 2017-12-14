@@ -204,7 +204,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
 
 ### API Network tab
 
-The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher, and specifically designed to onboard developers quickly and effectively.
+The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
 You can view all these APIs, or select to view them from these categories: Business Solutions, Marketing, Cloud, Communications, Data Management, Development, Mobile Services, E-Commerce, Financial Services, Food, Health Services, Payment Services, Productivity, Retail, Shipping Logistics, Social Media, and Travel.
 
