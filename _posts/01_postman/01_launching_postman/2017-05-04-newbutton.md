@@ -222,6 +222,6 @@ To import an API in the API Network:
   <li>Click the <b>Run In Postman</b> button to import the the API's collection. You can see the API you imported in the sidebar.</li>
 </ol>
 
-[![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar.png)
+[![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)
 
 
