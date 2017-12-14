@@ -169,7 +169,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 ### Templates tab
 
-You can select ‘Template’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
+You can select ‘Templates’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
 You can view all the templates, or select to view them in a Developer or DevOps category.
 
