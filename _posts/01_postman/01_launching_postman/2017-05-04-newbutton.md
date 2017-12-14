@@ -11,7 +11,7 @@ warning: false
 
 You can use the **New** button to initiate [requests](#requests), [collections](#collections), [environments](#environments), [monitors](#monitors), [documentation](#documentation), and [mock_servers](#mock_servers). 
 
-The **New** button also provides access to templates[templates](#templates) and the API Network[API_network](#API_network).
+The **New** button also provides access to [templates](#templates) and the [API_network](#API_network).
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)
 
