@@ -194,7 +194,7 @@ This screen lists what Postman created for you—collection, environment, and mo
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
-The **Success** screen displays what Postman created for you and suggests next steps you might want to consider to maximize your template. 
+The **Success!** screen displays what Postman created for you and suggests next steps you might want to consider to maximize your template. 
 
 <ol start="5">
   <li>Click the <b>Okay</b> button to exit the screen.</li>
