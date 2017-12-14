@@ -174,7 +174,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
  [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
 
-Template and API Network tabs
+### Template and API Network tabs
 
 <h4> id="templates">Templates tab </h4>
 
