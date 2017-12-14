@@ -190,7 +190,7 @@ To import a template:
 This screen lists what Postman created for you—collection, environment, and monitor settings. You can configure your own monitor settings in the "CONFIGURATION OPTIONS" section.
 
 <ol start="3">
-  <li>If you want to configure your monitor, select how often you want the monitor to run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
+  <li>To configure your monitor, select how often you want the monitor to run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
