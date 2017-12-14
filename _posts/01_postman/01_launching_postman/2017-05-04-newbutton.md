@@ -9,7 +9,9 @@ warning: false
 ---
 
 
-You can use the **New** button to initiate requests, collections, environments, monitors, documentation, and mock servers. The **New** button also provides access to templates and the API Network.
+You can use the **New** button to initiate requests, collections, environments, monitors, documentation, and mock servers. 
+
+The **New** button also provides access to templates and the API Network.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)
 
