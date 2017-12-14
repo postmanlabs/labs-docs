@@ -208,7 +208,7 @@ The Postman API Network provides the most authentic and actionable directory of 
 
 You can view all these APIs, or select to view them from these categories: Business Solutions, Marketing, Cloud, Communications, Data Management, Development, Mobile Services, E-Commerce, Financial Services, Food, Health Services, Payment Services, Productivity, Retail, Shipping Logistics, Social Media, and Travel.
 
-After you select an API Network, you can import it into your collections.
+After you select an API from the list, you can import it into your collections.
 
 [![API_network](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)
 
