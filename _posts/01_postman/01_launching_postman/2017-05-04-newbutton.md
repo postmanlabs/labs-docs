@@ -47,7 +47,7 @@ You can either create a new collection or select an existing one. After you save
 A collection is a group of individual requests that you can organize into folders. 
 
 1. In the header toolbar, click the **New** button.
-2. In the **Create New** tab, click "Request".
+2. In the **Create New** tab, click "Collection".
 3. In the **CREATE A NEW COLLECTION** modal:
 * Enter a name and optional description.
 * Select an authorization type.
