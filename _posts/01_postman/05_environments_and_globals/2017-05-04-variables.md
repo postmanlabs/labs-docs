@@ -18,7 +18,7 @@ Variables allow you to reuse values in multiple places so you can keep your code
 
 Let's say you have 3 API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use *`{% raw %}{{domain}}/endpoint1{% endraw %}`* and *`{% raw %}{{domain}}/endpoint2{% endraw %}`* in the request builder. Now, if your domain changes to `another-domain.com`, you just have to change this value once. 
 
-With Postman's scripting engine you can set variable values, copy data from one request and use it into another request, and more.
+With Postman's scripting engine you can set variable values, copy data from one request and use it in another request.
 
 ### Variable scopes
 
