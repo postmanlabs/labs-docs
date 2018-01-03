@@ -9,7 +9,7 @@ warning: false
 
 Once you set up monitors, you can receive daily and weekly emails with a summary for all your monitors. These email notifications can be turned off in the settings. In addition, you will receive important notifications (both [in-app](/docs/postman/notifications) and email) in case a monitor fails.
 
-[![email summary of monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59085644.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59085644.png)
+[![email summary of monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results.png)
 
 You can also view more detailed results from your dashboard.
 
