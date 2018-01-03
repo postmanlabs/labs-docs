@@ -32,7 +32,7 @@ Click on any of the monitors to view more details about its performance and trou
 
 The main timeline shows all past runs of the monitor. Each bar signifies one run of the monitor - with red indicating failing tests. The graph in blue shows the total response time (of all the requests) over time. This is a great way of measuring performance improvements when you’ve made changes to your infrastructure.
 
-[![monitors timeline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042594.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042594.png)
+[![monitors timeline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)
 
 You can click on any of the runs from this graph to see its results in more details. 
 
