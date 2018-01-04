@@ -16,8 +16,6 @@ In order to view private documentation, which is only accessible to you and your
 
 Private documentation is available to all Postman users. To view private documentation for a collection, make sure you’re signed in to the Postman app. When signed in, your username will be displayed in the top-right corner.
 
-[![username](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationLoggedIn.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationLoggedIn.png)
-
 In the Postman app, expand the right angle bracket (**>**) next to any collection name to open the collections details view, and then click the **View in web** button.
 
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationViewInWeb.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationViewInWeb.png)
