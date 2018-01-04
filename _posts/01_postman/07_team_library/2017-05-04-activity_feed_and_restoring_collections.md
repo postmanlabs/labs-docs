@@ -23,7 +23,7 @@ To review the activity feed at the collection level, expand the angle bracket (
 
 To review the activity feed at the Postman Pro or Enterprise team level, go to the **Activity Feed** tab within the **Team Library** view. Review a chronological listing of activities affecting all collections shared with the team. Like the feed at the collection level, the team activity feed displays who made changes, to what, and when it was completed.
 
-[![team library feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamActivityFeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamActivityFeed.png)
+[![team library feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)
 
 ##### **User**
 
