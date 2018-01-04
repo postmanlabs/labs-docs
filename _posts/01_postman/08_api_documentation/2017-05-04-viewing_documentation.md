@@ -20,9 +20,9 @@ In the Postman app, expand the right angle bracket (**>**) next to any collectio
 
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)
 
-To view documentation for your team’s collections in the Postman app, you’ll see a **View Docs** button in your [Team Library](/docs/postman/team_library/sharing). 
+To view documentation for your team’s collections in the Postman app, you’ll see a **View Web** button in your [Team Library](/docs/postman/team_library/sharing). 
 
-[![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationTeamLibrary.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationTeamLibrary.png)
+[![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)
 
 Clicking this button will open the documentation for that collection in your browser. You’ll be able to browse all folders and requests in the collection, and see what the requests and code snippets look like with different environments selected.
 
