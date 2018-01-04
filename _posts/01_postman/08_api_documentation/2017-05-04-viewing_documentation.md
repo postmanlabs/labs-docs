@@ -36,6 +36,6 @@ To make this documentation available to other users, perhaps as a link on your w
 
 The public view is accessible via the public link, generated when you publish your documentation. Once you've published your documentation, anyone can access it via the public URL. This public URL will be displayed right after your documentation is published, and is also accessible via the **Published** dropdown in the private documentation view.
 
-[![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59031795.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59031795.png)
+[![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
 If you choose a verified custom domain, then your public documentation will also be available from your custom domain. For more information about using a custom domain, read about [adding and verifying custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains).
