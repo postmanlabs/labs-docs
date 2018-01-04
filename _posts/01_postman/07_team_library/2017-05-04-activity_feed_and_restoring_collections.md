@@ -25,9 +25,8 @@ To review the activity feed at the Postman Pro or Enterprise team level, go to t
 
 [![team library feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)
 
-##### **User**
 
-To review the activity feed at the user level, log in and go to the **Dashboard** tab on the [Postman Website](https://app.getpostman.com){:target="_blank"}. The user activity feed includes a list of changes to collections that you own and are subscribed to.
+You can also review the activity feed from the Dashboard. log in to the [Postman Website](https://app.getpostman.com){:target="_blank"} and click the **Dashboard** button. The activity feed includes a list of changes to collections that you own and are subscribed to.
 
 [![user activity feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-feed-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-feed-dashboard.png)
 
