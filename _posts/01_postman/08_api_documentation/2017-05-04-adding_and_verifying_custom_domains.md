@@ -52,6 +52,6 @@ In this case, verify ownership with the DNS web service provider. In a separate 
 
 After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo Collection that you would like to publish, head over to the Postman web view and publish your collection. There is now a new option to select a custom domain.
 
-[![publish collection](http://blog.getpostman.com/wp-content/uploads/2017/02/custdomains03-echo-1024x1015.png)](http://blog.getpostman.com/wp-content/uploads/2017/02/custdomains03-echo-1024x1015.png)
+[![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-domain.png)
 
 After publishing, head over to your custom domain, and see the public documentation in all its glory!
