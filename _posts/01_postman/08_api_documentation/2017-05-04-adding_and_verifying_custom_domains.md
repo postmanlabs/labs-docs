@@ -23,7 +23,7 @@ Click the **Proceed** button to verify the domain.
 
 ### Verify Domain
 
-After adding the records in the DNS provider's console, return to the Postman web view. Check the box confirming that the TXT and CNAME records have been added, and then hit **Verify Domain**. A green message will confirm that the custom domain has been verified.
+To verify a domain, check the box to confirm you added the TXT and CNAME records, and then click the Verify Domain button. A message appears to confirm the custom domain has been verified.
 
 [![verify_domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-verify-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-verify-domain.png)
 
