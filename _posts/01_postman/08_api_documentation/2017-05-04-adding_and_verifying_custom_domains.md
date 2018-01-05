@@ -31,11 +31,6 @@ Sometimes, it takes time for your DNS settings to take effect, in which case, y
 
 [![invalid or missing token message](http://blog.getpostman.com/wp-content/uploads/2017/02/363x103xcustdomains01.png,qx38712.pagespeed.ic.fHADZQVasI.png)](http://blog.getpostman.com/wp-content/uploads/2017/02/custdomains01.png?x38712)
 
-You can also choose to verify your domain control later by clicking the **Verify Later** button in the modal. If you need to access this modal again in order to view the token, or to re-attempt verification, you can click the **Verify Now** link below the custom domain listing.
-
-[![verify now link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59033911.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59033911.png)
-
-
 ### Get verification tokens
 
 Adding a custom domain will open a modal displaying DNS records required to verify domain ownership. The most important pieces of information in the modal below are the TXT and CNAME records. In order to verify that you control the domain you are attempting to add, Postman requires that you add these provided tokens as DNS records to your domain.
