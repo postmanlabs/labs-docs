@@ -35,7 +35,7 @@ We’ve published documentation for this collection - check it out [here](https:
 
 Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains) to host your API documentation. You’ll be able to view docs on your custom domain, as well as the Postman private documentation page. 
 
-[![custom domain](https://static.getpostman.com/postman-docs/40ce4cda-5788-4e18-9141-4391de078244.png)](https://static.getpostman.com/postman-docs/40ce4cda-5788-4e18-9141-4391de078244.png)
+[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)
 
 ### Custom styling options
 
