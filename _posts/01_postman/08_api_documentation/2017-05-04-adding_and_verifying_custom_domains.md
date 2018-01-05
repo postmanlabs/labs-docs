@@ -11,9 +11,9 @@ Postman users with public documentation have the capability to publish documenta
 
 ### Add a custom domain
 
-From the Postman web view, go to the [edit view](https://app.getpostman.com/dashboard/teams/edit) of the Team tab.
+From the Postman web view, go to the [Team Settings](https://app.getpostman.com/dashboard/teams/edit) of the Team tab.
 
-[![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59033431.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59033431.png)
+[![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamsettings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamsettings.png)
 
 There is a section to add custom domains. Add a custom domain by entering the name and hitting the "**+**" button. Your custom domain can be a full domain or simply a subdomain. For example, you can use either `example.com` or `api.example.com` as your custom domain.
 
