@@ -23,15 +23,13 @@ Click the **Proceed** button to verify the domain.
 
 ### Verify Domain
 
-To verify a domain, check the box to confirm you added the TXT and CNAME records, and then click the Verify Domain button. A message appears to confirm the custom domain has been verified. 
+To verify a domain, check the box to confirm you added the TXT and CNAME records, and then click the **Verify Domain** button. A message appears to confirm the custom domain has been verified. 
 
 You can also click the **Verify Later** button, if you choose not to verify the domain now. In addition if you want to delete the custom domain, click "Delete Custom Domain".
 
 [![verify_domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-verify-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-verify-domain.png)
 
 **Note**: Occasionally, your DNS settings might not take effect immediately. If so, an error message appears. Allow some time to elapse and try again.
-
-[![invalid or missing token message](http://blog.getpostman.com/wp-content/uploads/2017/02/363x103xcustdomains01.png,qx38712.pagespeed.ic.fHADZQVasI.png)](http://blog.getpostman.com/wp-content/uploads/2017/02/custdomains01.png?x38712)
 
 ### Get verification tokens
 
