@@ -18,7 +18,7 @@ You can see your current team name on the [team page](https://app.getpostman.com
 
 [![team name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team.png)
 
-If you didn’t enter a team name when you first created your Postman Pro or Enterprise team, you can update that now. From the [team page](https://app.getpostman.com/dashboard/teams), click the gear icon in the top right, and select “Edit team” to update your team name.
+If you didn’t enter a team name when you first created your Postman Pro or Enterprise team, you can update that now. From the [team page](https://app.getpostman.com/dashboard/teams), select Team Settings in the Team tab.
 
 [![edit team details page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/editTeamDetails.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/editTeamDetails.png)
 
