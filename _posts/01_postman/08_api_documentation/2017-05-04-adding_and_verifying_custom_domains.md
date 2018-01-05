@@ -19,18 +19,7 @@ Scroll down to the "Custom Domains" section. Click the **+ Add a new domain** b
 
 [![enter custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-add-custom-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-add-custom-domain.png)
 
-### Get verification tokens
-
-Adding a custom domain will open a modal displaying DNS records required to verify domain ownership. The most important pieces of information in the modal below are the TXT and CNAME records. In order to verify that you control the domain you are attempting to add, Postman requires that you add these provided tokens as DNS records to your domain.
-
-[![see TXT and CNAME](http://blog.getpostman.com/wp-content/uploads/2017/02/840x880xcustdomains04-echo-978x1024.png,qx38712.pagespeed.ic.zo3VhqUlk7.jpg)](http://blog.getpostman.com/wp-content/uploads/2017/02/840x880xcustdomains04-echo-978x1024.png,qx38712.pagespeed.ic.zo3VhqUlk7.jpg)
-
-### Add DNS records
-
-In this case, verify ownership with the DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add two new records.
-
-1.  A TXT record for `postman-echo.com` which verifies the ownership of the domain. The value should be the same as the token shown in the modal. The TXT record should be added to the **root domain**. So regardless of whether you're adding `example.com` or `api.example.com`, the TXT record should be added to `example.com`.
-2.  A CNAME record for `docs.postman-echo.com`, the value for which should be `phs.getpostman.com` as shown in the modal. The CNAME record should be added to the URL which will be associated with your public documentation.
+Click the **Proceed** button to verify the domain.
 
 ### Verify Domain
 
@@ -45,6 +34,22 @@ Sometimes, it takes time for your DNS settings to take effect, in which case, y
 You can also choose to verify your domain control later by clicking the **Verify Later** button in the modal. If you need to access this modal again in order to view the token, or to re-attempt verification, you can click the **Verify Now** link below the custom domain listing.
 
 [![verify now link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59033911.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59033911.png)
+
+
+### Get verification tokens
+
+Adding a custom domain will open a modal displaying DNS records required to verify domain ownership. The most important pieces of information in the modal below are the TXT and CNAME records. In order to verify that you control the domain you are attempting to add, Postman requires that you add these provided tokens as DNS records to your domain.
+
+[![see TXT and CNAME](http://blog.getpostman.com/wp-content/uploads/2017/02/840x880xcustdomains04-echo-978x1024.png,qx38712.pagespeed.ic.zo3VhqUlk7.jpg)](http://blog.getpostman.com/wp-content/uploads/2017/02/840x880xcustdomains04-echo-978x1024.png,qx38712.pagespeed.ic.zo3VhqUlk7.jpg)
+
+### Add DNS records
+
+In this case, verify ownership with the DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add two new records.
+
+1.  A TXT record for `postman-echo.com` which verifies the ownership of the domain. The value should be the same as the token shown in the modal. The TXT record should be added to the **root domain**. So regardless of whether you're adding `example.com` or `api.example.com`, the TXT record should be added to `example.com`.
+2.  A CNAME record for `docs.postman-echo.com`, the value for which should be `phs.getpostman.com` as shown in the modal. The CNAME record should be added to the URL which will be associated with your public documentation.
+
+
 
 ### Publish a collection on the new custom domain
 
