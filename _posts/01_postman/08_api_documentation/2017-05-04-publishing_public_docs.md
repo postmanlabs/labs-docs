@@ -43,6 +43,4 @@ Postman allows you to customize the appearance of your published documentation p
 
 You can update the custom styling options either before or after you publish your documentation. Click the **Show Custom Styling Options** link to expand the section and update your color palette.
 
-[![before publishing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/customStylingOptions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/customStylingOptions.png)
-
-[![custom styling options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59016798.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59016798.png)
+[![custom styling options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-styling.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-styling.png)
