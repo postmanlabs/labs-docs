@@ -28,13 +28,15 @@ Clicking this button opens the documentation for that collection in your browser
 
 [![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)
 
-Keep in mind that this view is restricted to users in your Postman Pro and Enterprise team. This link will not work for anyone who does not have access to the collection itself. If the collection is shared with your team, anyone in the team can view the private documentation for this collection. If your collection is not shared, only you can view the private documentation for this collection.
+This view is restricted to users in your Postman Pro and Enterprise team. This link does not work for anyone who does not have access to the collection itself. 
+
+If the collection is shared with your team, anyone in the team can view the private documentation for this collection. If your collection is not shared, only you can view the private documentation for this collection.
 
 To make this documentation available to other users, perhaps as a link on your website, you’ll need to [publish the documentation](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}.
 
 ### Viewing Public Documentation
 
-The public view is accessible via the public link, generated when you publish your documentation. Once you've published your documentation, anyone can access it via the public URL. This public URL will be displayed right after your documentation is published, and is also accessible via the **Published** dropdown in the private documentation view.
+The public view is accessible through the public link that is generated when you publish your documentation. When you've published your documentation, anyone can access it via the public URL. This public URL will be displayed right after your documentation is published, and is also accessible via the **Published** dropdown in the private documentation view.
 
 [![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
