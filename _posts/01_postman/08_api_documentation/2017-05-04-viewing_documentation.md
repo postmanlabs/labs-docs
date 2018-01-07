@@ -12,7 +12,7 @@ Each collection has a private and public documentation view, generated in real-t
 
 ### Viewing Private Documentation
 
-To view private documentation, which is only accessible to you and your Postman Pro or Enterprise team, click "View in web" in the Postman app or in the [Postman web view](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}. 
+To view private documentation, which is only accessible to you and your Postman Pro or Enterprise team, click the **View in web** button in the Postman app or in the [Postman web view](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}. 
 
 Private documentation is available to all Postman users. To view private documentation for a collection, make sure you’re signed in to the Postman app. When signed in, your username will be displayed in the top-right corner.
 
