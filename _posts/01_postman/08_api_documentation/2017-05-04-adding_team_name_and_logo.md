@@ -24,7 +24,7 @@ If you didn’t enter a team name when you first created your Postman Pro or Ent
 
 ### Update your team logo
 
-To update your logo, go to the [Team Settings page](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"}.
+To update your logo, go to the [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} page.
 
 Next hover over the logo under "Team Logo" in the "Style" section.
 
