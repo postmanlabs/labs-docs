@@ -15,7 +15,9 @@ From the Postman web view, select [Team Settings](https://app.getpostman.com/da
 
 [![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings.png)
 
-Scroll down to the "Custom Domains" section. Click the **+ Add a new domain** button. In the Add a Custom Domain page, enter the URL of the domain you want to add. Your custom domain can be a full domain or simply a subdomain. For example, you can use either `example.com` or `api.example.com` as your custom domain.
+Scroll down to the "Custom Domains" section. Click the **+ Add a new domain** button. 
+
+In the **Add a Custom Domain** page, enter the URL of the domain you want to add. Your custom domain can be a full domain or simply a subdomain. For example, you can use either `example.com` or `api.example.com` as your custom domain.
 
 [![enter custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-add-custom-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-add-custom-domain.png)
 
