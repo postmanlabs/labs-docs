@@ -7,7 +7,7 @@ page_id: "adding_and_verifying_custom_domains"
 warning: false
 ---
 
-Postman users with public documentation have the capability to publish documentation on their own custom domain.
+Postman users with public documentation can publish documentation on their own custom domain.
 
 ### Add a custom domain
 
