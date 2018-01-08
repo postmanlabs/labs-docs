@@ -16,7 +16,7 @@ Postman users with the **Admin** member role can add a team name and logo to the
 
 To see your current team name, go to the [Team page](https://app.getpostman.com/dashboard/teams) in the Postman website.
 
-[![team name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team.png)
+[![team name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team2.pngg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team2.png)
 
 If you didn’t enter a team name when you first created your Postman Pro or Enterprise team, you can add it in the [Team Settings page](https://app.getpostman.com/dashboard/teams).
 
