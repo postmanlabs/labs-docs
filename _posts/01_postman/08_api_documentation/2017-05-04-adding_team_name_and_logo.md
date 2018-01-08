@@ -26,15 +26,19 @@ If you didn’t enter a team name when you first created your Postman Pro or Ent
 
 To update your logo, go to the [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} page.
 
-Next hover over the logo under "Team Logo" in the "Style" section to see the **Pencil** (edit) icon.
+Next hover over the logo under "Team Logo" in the "Style" section to see the **Pencil** (edit) and **Trash Can** (delete) icons.
 
 [![edit logo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team-logo-edit.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team-logo-edit.png)
 
-Now click the **Pencil** icon and uplead or drag or drop an image. Then click the **Upload** button to complete the process.
-
-If you want to delete a logo, click the **Garbage Can** logo.
+Now click the **Pencil** icon and upload or drag or drop an image. Then click the **Upload** button to complete the process.
 
 This uploaded image displays in the header of your team's [published documentation](/docs/postman/api_documentation/intro_to_api_documentation) instead of the Postman logo. It may take up to 5 minutes for the logo to update.
+
+### Delete your team logo
+
+To delete a logo, click the **Trash Can** logo.
+
+
 
 
 
