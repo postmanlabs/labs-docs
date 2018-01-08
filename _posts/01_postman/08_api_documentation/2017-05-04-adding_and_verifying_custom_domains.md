@@ -31,7 +31,7 @@ Click the **Proceed** button to verify the domain.
 
 To verify a domain, check the box to confirm you added the TXT and CNAME records. Next click the **Verify Domain** button. A message appears to confirm the custom domain has been verified. 
 
-You can also click the **Verify Later** button, if you choose not to verify the domain now. 
+If you choose not to verify the domain now, click the **Verify Later** button. 
 
 In addition if you want to delete the custom domain, click the "Delete Custom Domain" link.
 
