@@ -49,13 +49,13 @@ Adding a custom domain opens a modal displaying DNS records required to verify d
 
 In this case, verify ownership with the DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add two new records.
 
-1.  A TXT record for `postman-echo.com` verifies the ownership of the domain. The value should be the same as the token shown in the modal. The TXT record should be added to the **root domain**. Regardless of whether you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
-2.  A CNAME record for `docs.postman-echo.com`, the value for which should be `phs.getpostman.com` as shown in the modal. The CNAME record should be added to the URL which will be associated with your public documentation.
+1.  A TXT record for `postman-echo.com` verifies the ownership of the domain. The value should be the same as the token shown in the modal. You should add the TXT record to the **root domain**. Regardless of whether you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
+2.  A CNAME record for `docs.postman-echo.com`, as shown in the modal, should be `phs.getpostman.com` value. You should add the CNAME record to the URL that will be associated with your public documentation.
 
 
 ### Publish a collection on the new custom domain
 
-After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo Collection to publish, go to the Postman web view and publish your collection. There is now a new option to select a custom domain.
+After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo Collection to publish, go to the Postman web view and publish your collection. You'll see a new option to select a custom domain.
 
 [![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-domain.png)
 
