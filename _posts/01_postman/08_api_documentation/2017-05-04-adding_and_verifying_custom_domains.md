@@ -47,7 +47,7 @@ Adding a custom domain opens a modal displaying DNS records required to verify d
 
 ### Add DNS records
 
-In this case, verify ownership with the DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add two new records.
+For DNS records, verify ownership with the DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add two new records.
 
 1.  A TXT record for `postman-echo.com` verifies the ownership of the domain. The value should be the same as the token shown in the modal. You should add the TXT record to the **root domain**. Regardless of whether you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
 2.  A CNAME record for `docs.postman-echo.com`, as shown in the modal, should be `phs.getpostman.com` value. You should add the CNAME record to the URL that will be associated with your public documentation.
