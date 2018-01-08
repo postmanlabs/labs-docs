@@ -24,9 +24,14 @@ If you didn’t enter a team name when you first created your Postman Pro or Ent
 
 ### Update your team logo
 
-From the [Team page](https://app.getpostman.com/dashboard/teams), click the gear icon in the top right, and select “Edit team” to add or update your team logo.
+To update your logo, go to the [Team Settings page.](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"}
+Next hover over the logo under "Team Logo" in the "Style" section.
 
-This uploaded image will display in the header of your team's [published documentation](/docs/postman/api_documentation/intro_to_api_documentation) instead of the Postman logo. It may take up to 5 minutes for the logo to update.
+[![edit logo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team-logo-edit.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team-logo-edit.png)
+
+Now click the **Pencil** icon and uplead or drag or drop an image. Then click the **Upload** button to complete the process.
+
+This uploaded image displays in the header of your team's [published documentation](/docs/postman/api_documentation/intro_to_api_documentation) instead of the Postman logo. It may take up to 5 minutes for the logo to update.
 
 
 
