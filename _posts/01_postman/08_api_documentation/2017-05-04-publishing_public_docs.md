@@ -17,11 +17,14 @@ In the documentation page, click the **Publish** button at the top of the screen
 
 [![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png)  
 
+The Edit Published Collection page appears.
+
+[![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
+
 If you are signed in to Postman, you can select a corresponding environment with which to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
 
 The public URL field contains the URL that you can share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so that your documentation is immediately usable for new visitors. 
 
-[![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
 > **IMPORTANT:**  Any confidential info in your environment, such as **passwords and access tokens**, might be visible publicly. Ensure that all such information is removed from the environment before you publish documentation with an environment.
 
