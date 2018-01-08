@@ -13,7 +13,7 @@ Published documentation is a way of sharing your API documentation with the worl
 
 You can only publish documentation for collections that you created or for which you have write permissions. [In the documentation page](/docs/postman/api_documentation/viewing_documentation) for one of your collections. Click the **Publish** button at the top of the screen.
 
-[![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button.png)  
+[![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png)  
 
 If you are signed in to Postman, you can select a corresponding environment with which to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
 
