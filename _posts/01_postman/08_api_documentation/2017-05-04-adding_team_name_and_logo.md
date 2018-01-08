@@ -10,7 +10,7 @@ tags:
 warning: false
 ---
 
-Postman users with the **Admin** member role can add a team name and logo to their Postman team account directly from the [Team Settings page](https://app.getpostman.com/dashboard/teams/edit).
+Postman users with the **Admin** member role can add a team name and logo to their Postman team account directly in the [Team Settings page](https://app.getpostman.com/dashboard/teams/edit).
 
 ### Update your team name
 
