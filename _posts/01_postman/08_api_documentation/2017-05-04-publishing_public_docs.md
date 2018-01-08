@@ -31,6 +31,7 @@ The public URL field contains the URL that you can share with the outside world.
 The public documentation link will always have the most up-to-date content! You don’t need to keep going through the Publish flow each time you want your docs to be updated.
 
 **Unpublishing documentation**
+
 In the Edit Published Collection page, click the **Unpublish Collection** button.
 For a collection that’s already been published, you’ll be able to view the public link or unpublish the collection. 
 
