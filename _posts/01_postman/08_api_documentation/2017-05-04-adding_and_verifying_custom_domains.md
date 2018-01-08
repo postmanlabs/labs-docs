@@ -15,7 +15,7 @@ From the Postman web view, select [Team Settings](https://app.getpostman.com/da
 
 [![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings.png)
 
-Scroll down to the "Custom Domains" section. Click the **+ Add a new domain** button. 
+Scroll down to the "Custom Domains" section and click the **+ Add a new domain** button. 
 
 [![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains-section.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains-section.png)
 
