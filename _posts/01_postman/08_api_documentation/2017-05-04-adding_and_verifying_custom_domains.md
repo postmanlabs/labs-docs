@@ -11,7 +11,7 @@ Postman users with public documentation can publish documentation on their own c
 
 ### Add a custom domain
 
-From the Postman web view, select [Team Settings](https://app.getpostman.com/dashboard/teams/edit) in the Team tab.
+In the Postman dashboard, select [Team Settings](https://app.getpostman.com/dashboard/teams/edit) in the Team tab.
 
 [![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings.png)
 
