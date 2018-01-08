@@ -27,7 +27,7 @@ The public documentation link will always have the most up-to-date content! You 
 
 To unpublish, click the `View Docs` button from your Postman app. Click the **Published** button near the top of the screen. For a collection that’s already been published, you’ll be able to view the public link or unpublish the collection. 
 
-[![publish or unpublish](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish.png)
+[![publish or unpublish](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)
 
 We’ve published documentation for this collection - check it out [here](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2){:target="_blank"}.
 
