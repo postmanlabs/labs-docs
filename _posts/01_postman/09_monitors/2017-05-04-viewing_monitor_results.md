@@ -44,7 +44,7 @@ You can click any of the runs in this graph to see its results in greater detail
 
 The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"}.
 
-You can also view the log by clicking on the **Console Log** tab.
+You can also view the log when you click the **Console Log** tab.
 
 [![view logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)
 
