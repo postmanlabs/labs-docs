@@ -23,7 +23,7 @@ Sign in to the Postman web view, and go to the [Monitors page](https://monitor.
 
 You can view various stats for each of the monitors.
 
-| **Status** | Number of failed runs in the selected timeframe. A ‘Healthy’ status indicates there were no failures in any of the runs. |
+| **Status** | The number of failed runs in the selected timeframe. A ‘Healthy’ status indicates there were no failures in any of the runs. |
 | **Average success rate** | The percent of successful runs out of the total runs in the timeframe. A run is successful only when all the tests pass during that run. You can also see a change in this value compared to the previous time period. |
 | **Average response time** | The average response time of all the requests over all the runs in milliseconds. You can also see the percentage change from the previous time period. |
 
