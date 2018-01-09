@@ -37,7 +37,7 @@ Click on any monitor to view more details about its performance and troubleshoot
 
 The main timeline shows all past runs of the monitor. Each bar signifies one run of the monitor. 
 
-The red graph indicates failing tests. The blue graph shows the total response time (of all the requests) over time. These visuals are a great way to measure performance improvements when you’ve made changes to your infrastructure.
+Red indicates failing tests. Blue indicates the total response time of all the requests over time. These visuals are a great way to measure performance improvements when you’ve made changes to your infrastructure.
 
 [![monitors timeline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)
 
