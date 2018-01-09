@@ -48,4 +48,4 @@ You can also view the log when you click the **Console Log** tab.
 
 [![view logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)
 
-The console log prints a detailed log of run events and console.log statements that ran as part of your pre-request and test scripts. You can use them to [diagnose failures](/docs/postman/monitors/troubleshooting_monitors){:target="_blank"}.
+The console log prints a detailed log of run events and 'console.log' statements that ran as part of your pre-request and test scripts. You can use them to [diagnose failures](/docs/postman/monitors/troubleshooting_monitors){:target="_blank"}.
