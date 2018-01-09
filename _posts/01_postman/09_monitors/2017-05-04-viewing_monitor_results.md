@@ -19,7 +19,7 @@ The [Monitors](https://monitor.getpostman.com/){:target="_blank"} page lists al
 
 [![monitors page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)
 
-You can click a monitor to view more details about its performance and troubleshooting, such as:
+You can click a monitor to view more details about its performance and troubleshooting, such as the information in this table:
 
 | **Status** | The number of failed runs in the selected timeframe. A ‘Healthy’ status indicates there were no failures in any of the runs. |
 | **Average success rate** | The percent of successful runs out of the total runs in the timeframe. A run is successful only when all the tests pass during that run. You can also see a change in this value compared to the previous time period. |
