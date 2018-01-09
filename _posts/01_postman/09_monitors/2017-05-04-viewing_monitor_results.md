@@ -7,13 +7,11 @@ page_id: "viewing_monitor_results"
 warning: false
 ---
 
-Once you set up monitors, you can receive daily and weekly emails with a summary for all your monitors. You can [turn off email notifications](/docs/postman/monitors/setting_up_monitor){:target="_blank"} in the settings. 
+You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](/docs/postman/monitors/setting_up_monitor){:target="_blank"} in the settings. 
 
-In addition, you receive important notifications (both [in-app](/docs/postman/notifications){:target="_blank"} and email) if a monitor fails.
+In addition, you can receive important notifications (both [in-app](/docs/postman/notifications){:target="_blank"} and email) if a monitor fails.
 
 [![email summary of monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)
-
-You can also view more detailed results from your dashboard.
 
 ### Monitors page
 
@@ -21,13 +19,7 @@ The [Monitors](https://monitor.getpostman.com/){:target="_blank"} page lists al
 
 [![monitors page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)
 
-When you click a monitor, a Monitor Performance page appears.
-
-
-
-Click on any monitor to view more details about its performance and troubleshooting.
-
-Here is a list of stats you can review for each monitor.
+You can click a monitor to view more details about its performance and troubleshooting, such as:
 
 | **Status** | The number of failed runs in the selected timeframe. A ‘Healthy’ status indicates there were no failures in any of the runs. |
 | **Average success rate** | The percent of successful runs out of the total runs in the timeframe. A run is successful only when all the tests pass during that run. You can also see a change in this value compared to the previous time period. |
