@@ -13,7 +13,7 @@ The Postman console in the [Monitors web view](https://the.postman.co/library/mo
 
 [![failed monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)
 
-Check out some tips and tricks for [debugging in the console](/docs/postman/sending_api_requests/debugging_and_logs).
+For information about debugging in the console, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
 [![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)
 
