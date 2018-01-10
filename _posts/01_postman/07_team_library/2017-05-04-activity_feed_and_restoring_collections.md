@@ -35,7 +35,9 @@ You can review a chronological list of activities about all collections shared w
 
 [![team library feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activityfeed-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activityfeed-view.png)
 
-You can also review the activity feed from the Dashboard. Log in to the [Postman Website](https://app.getpostman.com){:target="_blank"} and click the **Dashboard** button. 
+You can also review the activity feed from the Dashboard. 
+
+Log in to the [Postman Website](https://app.getpostman.com){:target="_blank"} and click the **Dashboard** button. 
 
 The activity feed includes a list of changes to collections that you own and are subscribed to.
 
@@ -61,7 +63,7 @@ Hovering over the activity displays a **Restore** link. Click the **Restore** li
 
 [![hover to display restore link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)
 
-And now the top of the activity feed a confirmation displays to indicate the collection has been restored.
+At the top of the activity feed a confirmation indicates the collection has been restored.
 
 [![restore confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58927426.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58927426.png)
 
