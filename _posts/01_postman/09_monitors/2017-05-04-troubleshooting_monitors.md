@@ -9,7 +9,7 @@ warning: false
 
 Postman always syncs your monitors with your collections in the Postman app. As a result, you can debug in the app locally, while your monitors are updated on our servers, seamlessly. 
 
-#### How to view failed monitors
+#### Viewing failed monitors
 
 The Postman console in the [Monitors web view](https://the.postman.co/library/monitors){:target="_blank"} is the best way to debug monitors. You can click the failed monitor and review the relevant logs under the **Console Log** tab. 
 
@@ -21,9 +21,8 @@ When a monitor fails, a "Need help debugging?" popup displays in the Postman mon
 
 [![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)
 
-In addition to the above, here are some debugging tricks:
 
-##### **Attempt local runs**
+#### Debugging local run Attempt
 
 *   Try running the failing monitor's collection with its environment within the Postman app or Newman, and see if it works correctly.
 *   If a local run passes, [ensure that sync is enabled](/docs/postman/launching_postman/syncing) within the toolbar header of the Postman app, so that any local changes are persisted.  
@@ -31,12 +30,12 @@ In addition to the above, here are some debugging tricks:
 *   You can also force a sync from the **Sync** tab within the **SETTINGS** modal.  
     [![force sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)
 
-##### **Variable issues**
+#### Debugging variable issues**
 
 *   Ensure that the same environment is used across local runs and monitor runs. You can confirm this by adding ``console.log(environment);`` to your request scripts and comparing the results across monitoring and local runs.
 *   If your collection run depends on a global variable, change it to an environment variable. Global variables are not supported in monitors at this time.
 
-##### **Log relevant information**
+#### Logging relevant information
 
 *   Often, issues come from unexpected response bodies or header values. You can log these with the following:
 
