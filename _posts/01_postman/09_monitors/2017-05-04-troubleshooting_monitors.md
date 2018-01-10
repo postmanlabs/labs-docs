@@ -9,7 +9,7 @@ warning: false
 
 Postman always syncs your monitors with your collections in the Postman app. As a result, you can debug in the app locally, while your monitors are updated on our servers, seamlessly. 
 
-The Postman console in the monitors web view is the best way to debug monitors. Click the failed monitor, and review the relevant logs under the **Console Log** tab. 
+The Postman console in the monitors web view is the best way to debug monitors. You can click the failed monitor, and review the relevant logs under the **Console Log** tab. 
 
 Check out some tips and tricks for [debugging in the console](/docs/postman/sending_api_requests/debugging_and_logs).
 
