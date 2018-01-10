@@ -17,7 +17,9 @@ For information about debugging in the console, see [Debugging and logs](/docs/p
 
 [![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)
 
-When a monitor fails, a "_Need help debugging?_" popup will display on the Postman monitors web view. Whenever possible, these suggestions will include debugging tips that are specifically related to the error that occurred. For example, if the monitor failed because we were unable to contact the server, then the debugging tip will suggest ensuring that the server's IP address is correct, and that it's publicly available.  Or, if the monitor failed because of a missing variable, then the debugging tip will suggest verifying the monitor is using the correct environment, and that the variable exists in the environment.
+When a monitor fails, a "Need help debugging?" popup displays in the Postman monitors web view. Whenever possible, these suggestions include debugging tips that are specifically related to the error. 
+
+For example, if the monitor failed because we were unable to contact the server, the debugging tip suggests that you ensure the server's IP address is correct, and that it's publicly available.  Or, if the monitor failed because of a missing variable, then the debugging tip suggests verifying the monitor is using the correct environment, and that the variable exists in the environment.
 
 In addition to the above, here are some debugging tricks:
 
