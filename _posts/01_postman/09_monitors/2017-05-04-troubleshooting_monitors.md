@@ -35,8 +35,9 @@ When a monitor fails, a "Need help debugging?" popup displays in the Postman mon
 
 #### Debugging variable issues
 
-*   Ensure that the same environment is used across local runs and monitor runs. You can confirm this by adding ``console.log(environment);`` to your request scripts and comparing the results across monitoring and local runs.
-*   If your collection run depends on a global variable, change it to an environment variable. Global variables are not supported in monitors at this time.
+*   Ensure that the same environment is used across local runs and monitor runs. To confirm, add ``console.log(environment);`` to your request scripts and compare the results across monitoring and local runs.
+
+*   If your collection run depends on a saved global variable, change it to an environment variable. Saved global variables are not supported in monitors at this time.
 
 #### Logging relevant information
 
