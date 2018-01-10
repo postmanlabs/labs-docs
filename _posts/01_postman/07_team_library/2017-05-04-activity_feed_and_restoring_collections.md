@@ -44,23 +44,25 @@ The activity feed includes a list of changes to collections that you own and are
 
 ### Breaking the event down
 
-The activity feed captures different updates that are made to collections. This includes CRUD operations (Create, Read, Update, Delete) on collection, folders, and requests, among other activities.
+The activity feed captures different updates that are made to collections. 
+
+These updates include CRUD (Create, Read, Update, Delete) operations on collection, folders, and requests, among other activities.
+
+A consolidated update to a request as seen below provides a different (diffs) view to pinpoint the exact changes. 
 
 [![updates for CRUD activities](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)
 
-A consolidated update to a request, for example, looks like the screenshot above providing you with a different (diffs) view to pinpoint the exact changes. 
-
-**Note**: Postman Pro and Enterprise users can view diffs. Other users will be able to track the "who" and "when" in the activity feeds, but not the "what" at this level of detail. 
+**Note**: Postman Pro and Enterprise users can view diffs. Other users can track the "who" and "when" in the activity feeds, but not the "what" at this level of detail. 
 
 ### Restoring collections
 
-Postman Pro and Enterprise users also have the ability in the collection-level activity feed to restore their collections to a point in time.
+In the collection-level activity feed, Postman Pro and Enterprise users can restore their collections to a point in time.
 
-Hovering over the activity will display a **Restore** link. Clicking the **Restore** link restores the collection to the point right _after_ this change was applied.
+Hovering over the activity displays a **Restore** link. Click the **Restore** link to restore the collection to the point right _after_ this change was applied.
 
 [![hover to display restore link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)
 
-And now the top of the activity feed displays the confirmation of restoring the collection.
+And now the top of the activity feed a confirmation displays to indicate the collection has been restored.
 
 [![restore confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58927426.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58927426.png)
 
@@ -71,7 +73,3 @@ Postman Pro and Enterprise users can pipe the team's activity feed to a communic
    *   [Postman Pro to Slack integration](/docs/pro/integrations/slack)
    *   [Postman Pro to HipChat integration](/docs/pro/integrations/hipchat)
    *   [Postman Pro to Microsoft Teams integration](/docs/pro/integrations/microsoft_teams)  
-
-### Upcoming additions to the activity feed
-
-The activity feed becomes more powerful in the near future.  It’ll integrate with all our Postman Pro and Enterprise products and other features in the pipeline. We're going to soon add **Tagging** support. You'll be able to tag collections at a point in time, allowing easier referencing and ability to rollback, while also allowing you to set up Monitors and Documentation on tagged versions of the collection. These version control constructs will allow your team even more flexibility with your API code development within Postman Pro or Enterprise.
