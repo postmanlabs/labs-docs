@@ -38,7 +38,7 @@ You can also review the activity feed from the Dashboard. Log in to the [Postman
 
 The activity feed captures different updates that are made to collections. This includes CRUD operations (Create, Read, Update, Delete) on collection, folders, and requests, among other activities.
 
-[![updates for CRUD activities](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)
+[![updates for CRUD activities](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)
 
 A consolidated update to a request, for example, looks like the screenshot above providing you with a different (diffs) view to pinpoint the exact changes. 
 
