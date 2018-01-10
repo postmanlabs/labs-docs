@@ -17,7 +17,7 @@ Postman tracks changes to collections and teams.
 
 ##### **Collections**
 
-To review the activity feed at the collection level, expand the angle bracket (**>**) next to the collection name to open the collection details view. 
+To review the activity feed at the collection level, expand the angle bracket (**>**) next to the collection to view details.
 
 Under the **Activity** tab, review a chronological list of activities about the collection. 
 
