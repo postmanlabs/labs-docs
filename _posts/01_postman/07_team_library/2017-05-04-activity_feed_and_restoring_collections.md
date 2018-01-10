@@ -38,7 +38,7 @@ You can also review the activity feed from the Dashboard. Log in to the [Postman
 
 The activity feed captures different updates that are made to collections. This includes CRUD operations (Create, Read, Update, Delete) on collection, folders, and requests, among other activities.
 
-[![updates for CRUD activities](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)
+[![updates for CRUD activities](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)
 
 A consolidated update to a request, for example, looks like the screenshot above providing you with a different (diffs) view to pinpoint the exact changes. 
 
@@ -50,7 +50,7 @@ Postman Pro and Enterprise users also have the ability in the collection-level a
 
 Hovering over the activity will display a **Restore** link. Clicking the **Restore** link restores the collection to the point right _after_ this change was applied.
 
-[![hover to display restore link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59114317.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59114317.png)
+[![hover to display restore link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)
 
 And now the top of the activity feed displays the confirmation of restoring the collection.
 
