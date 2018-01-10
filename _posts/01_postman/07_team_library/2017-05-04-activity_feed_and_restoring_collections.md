@@ -47,7 +47,7 @@ The activity feed captures different updates that are made to collections.
 
 These updates include CRUD (Create, Read, Update, Delete) operations such as collections, folders, and requests.
 
-A consolidated update to a request as seen below provides a different (diffs) view to pinpoint the exact changes. 
+A consolidated update to a request as seen below provides a diffs view to pinpoint the exact changes. 
 
 [![updates for CRUD activities](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)
 
