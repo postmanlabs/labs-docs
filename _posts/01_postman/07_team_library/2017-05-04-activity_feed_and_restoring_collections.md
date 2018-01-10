@@ -48,8 +48,6 @@ A consolidated update to a request, for example, looks like the screenshot above
 
 Postman Pro and Enterprise users also have the ability in the collection-level activity feed to restore their collections to a point in time.
 
-[![restore collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59058662.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59058662.png)
-
 Hovering over the activity will display a **Restore** link. Clicking the **Restore** link restores the collection to the point right _after_ this change was applied.
 
 [![hover to display restore link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59114317.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59114317.png)
