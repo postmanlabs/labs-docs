@@ -165,8 +165,6 @@ For different types of integrations, the JSON schema varies. The following shows
 }
 ```
 
-[https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d](https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d){:target="_blank"}
-
 ##### Collection and Team Activity Feed
 
 ```
@@ -216,8 +214,6 @@ For different types of integrations, the JSON schema varies. The following shows
 }
 ```
 
-[https://gist.github.com/ankitjaggi/b4d90f72c9fdd41dd2e4e0421eca249f](https://gist.github.com/ankitjaggi/b4d90f72c9fdd41dd2e4e0421eca249f){:target="_blank"}
-
 ##### Backup Collections
 
 ```
@@ -235,8 +231,6 @@ For different types of integrations, the JSON schema varies. The following shows
   "type": "object"
 }
 ```
-
-[https://gist.github.com/ankitjaggi/7ebe8208fe520739e3ab931ffc6c54a7](https://gist.github.com/ankitjaggi/7ebe8208fe520739e3ab931ffc6c54a7){:target="_blank"}
 
 [![request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858289.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858289.png)
 
