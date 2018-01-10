@@ -45,7 +45,7 @@ The activity feed includes a list of changes to collections that you own and are
 
 ### Breaking the event down
 
-The activity feed captures different updates that are made to collections. 
+The activity feed captures different updates to collections. 
 
 These updates include CRUD (Create, Read, Update, Delete) operations on collections, folders, and requests.
 
