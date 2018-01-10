@@ -9,6 +9,8 @@ warning: false
 
 Postman always syncs your monitors with your collections in the Postman app. As a result, you can debug in the app locally, while your monitors are updated on our servers, seamlessly. 
 
+#### How to view failed monitors
+
 The Postman console in the [Monitors web view](https://the.postman.co/library/monitors){:target="_blank"} is the best way to debug monitors. You can click the failed monitor and review the relevant logs under the **Console Log** tab. 
 
 [![failed monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)
