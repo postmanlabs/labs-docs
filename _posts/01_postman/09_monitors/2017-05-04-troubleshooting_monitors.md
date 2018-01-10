@@ -24,9 +24,10 @@ When a monitor fails, a "Need help debugging?" popup displays in the Postman mon
 
 #### Debugging local run attempts
 
-*   Try running the failing monitor's collection with its environment within the Postman app or Newman, and see if it works correctly.
-*   If a local run passes, [ensure that sync is enabled](/docs/postman/launching_postman/syncing) within the toolbar header of the Postman app, so that any local changes are persisted.  
+*   Run the failing monitor's collection with its environment in the Postman app or Newman to see if it works correctly.
+*   If a local run passes, [ensure the sync is enabled](/docs/postman/launching_postman/syncing) in the toolbar header of the Postman app, so any local changes are persisted.  
     [![enable sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)
+    
 *   You can also force a sync from the **Sync** tab within the **SETTINGS** modal.  
     [![force sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)
 
