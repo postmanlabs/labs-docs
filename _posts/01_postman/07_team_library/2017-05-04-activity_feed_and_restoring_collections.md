@@ -21,18 +21,24 @@ Postman tracks changes to collections and team.
 
 To review the activity feed at the collection level, expand the angle bracket (**>**) next to the collection name to open the collection details view. 
 
-Under the **Activity** tab, review a chronological list of activities affecting the collection. The activity feed displays who updated the collection, what the updates were, and when they were completed. Consecutive updates on the same session to the same entity are collated for readability.
+Under the **Activity** tab, review a chronological list of activities affecting the collection. 
+
+The activity feed displays who updated the collection, what the updates were, and when they were completed. Consecutive updates on the same session to the same entity are collated for readability.
 
 [![activity feed for a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)
 
 ##### **Team**
 
-To review the activity feed at the Postman Pro or Enterprise team level, go to the **Activity Feed** tab in the **Team Library** view. Review a chronological list of activities affecting all collections shared with the team. Similar to the feed at the collection level, the team activity feed displays who made changes, the type of changes, and when they changes were completed.
+To review the activity feed at the Postman Pro or Enterprise team level, go to the **Activity Feed** tab in the **Team Library** view. 
+
+You can review a chronological list of activities affecting all collections shared with the team. Similar to the feed at the collection level, the team activity feed displays who updated the collection, what the updates were, and when they were completed.
 
 [![team library feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)
 
 
-You can also review the activity feed from the Dashboard. Log in to the [Postman Website](https://app.getpostman.com){:target="_blank"} and click the **Dashboard** button. The activity feed includes a list of changes to collections that you own and are subscribed to.
+You can also review the activity feed from the Dashboard. Log in to the [Postman Website](https://app.getpostman.com){:target="_blank"} and click the **Dashboard** button. 
+
+The activity feed includes a list of changes to collections that you own and are subscribed to.
 
 [![user activity feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-feed-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-feed-dashboard.png)
 
