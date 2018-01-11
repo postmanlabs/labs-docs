@@ -38,7 +38,7 @@ You’ll be able to view the public link or unpublish the collection for a colle
 
 [![publish or unpublish](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)
 
-We’ve published documentation for this collection - check it out [here](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2){:target="_blank"}.
+Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2){:target="_blank"} of a collection we've published.
 
 ### Custom domains
 
