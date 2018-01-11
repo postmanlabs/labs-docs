@@ -23,8 +23,9 @@ The **Edit Published Collection** page appears.
 
 When signed in to Postman, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates){:target="_blank"} to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
 
-The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select a “production” environment, so your documentation is immediately usable for new visitors. 
+The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select a “production” environment, so your documentation is immediately usable for new visitors.
 
+Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2){:target="_blank"} of a collection we've published.
 
 > **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 
@@ -37,8 +38,6 @@ In the **Edit Published Collection** page, click the **Unpublish Collection** bu
 You’ll be able to view the public link or unpublish the collection for a collection that’s already been published,
 
 [![publish or unpublish](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)
-
-Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2){:target="_blank"} of a collection we've published.
 
 ### Custom domains
 
