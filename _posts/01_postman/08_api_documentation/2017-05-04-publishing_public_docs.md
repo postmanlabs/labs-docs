@@ -28,7 +28,7 @@ The public URL field contains the URL to share with the outside world. For examp
 
 > **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 
-The public documentation link always has the most up-to-date content. You don’t need to repeat the Publish flow each time you wantto update your documentation.
+The public documentation link always has the most up-to-date content. You don’t need to repeat the Publish flow each time you want to update your documentation.
 
 **Unpublishing documentation**
 
