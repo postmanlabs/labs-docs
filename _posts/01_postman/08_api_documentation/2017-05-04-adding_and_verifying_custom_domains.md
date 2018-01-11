@@ -55,7 +55,7 @@ For DNS records, verify ownership with the DNS web service provider. In a separa
 
 ### Publish a collection on the new custom domain
 
-After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo Collection to publish, go to the Postman web view and publish your collection. You'll see a new option to select a custom domain.
+After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo collection to publish, go to the Postman web view and publish your collection. You'll see a new option to select a custom domain.
 
 [![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-domain.png)
 
