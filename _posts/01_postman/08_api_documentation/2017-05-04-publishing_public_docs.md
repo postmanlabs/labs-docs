@@ -42,7 +42,7 @@ You’ll be able to view the public link or unpublish the collection for a colle
 
 ### Custom domains
 
-Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains){:target="_blank"} to host your API documentation. You’ll be able to view docs on your custom domain, as well as the Postman private documentation page. 
+Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains){:target="_blank"} to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page. 
 
 [![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)
 
