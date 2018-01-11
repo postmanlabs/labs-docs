@@ -19,22 +19,20 @@ You can use this integration to trigger incidents in PagerDuty based on your Pos
 
 ### Retrieving your PagerDuty Integration Key
 
-1.Create an account or use a preexisting on to log in to [PagerDuty](https://app.pagerduty.com/){:target="_blank"} .  
-2. In the header toolbar, click "Configuration" and select "Services".  
-3. If you are creating a new service for this integration, click "Add New Service".
+Create an account or use a preexisting on to log in to [PagerDuty](https://app.pagerduty.com/){:target="_blank"} .  
+In the header toolbar, click "Configuration" and select "Services".  
+If you are creating a new service for this integration, click "Add New Service".
 
 [![pagerduty menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)
 
- <ol start="4">
-  <li>Enter your Service Name and choose Postman as the Integration Type. </li>
-  <li>Click the "Add Service" link at the bottom of the page to create a new service. </li>
-</ol>
+Enter your Service Name and choose Postman as the Integration Type.
+
+Click the "Add Service" link at the bottom of the page to create a new service. 
+
 
 [![pagerduty service](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)
 
-<ol start="5">
-  <li>Save the PagerDuty Integration Key to use later. </li>
-</ol>
+ Save the PagerDuty Integration Key to use later. 
 
 [![pagerduty key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)
 
