@@ -26,7 +26,7 @@ When signed in to Postman, you can select a [corresponding environment](/docs/po
 The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select a “production” environment, so your documentation is immediately usable for new visitors. 
 
 
-> **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Make sure to remove all such information from the environment before you publish documentation with an environment.
+> **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 
 The public documentation link always has the most up-to-date content. You don’t need to repeat the Publish flow each time you wantto update your documentation.
 
