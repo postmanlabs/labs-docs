@@ -7,7 +7,7 @@ page_id: "publishing_public_docs"
 warning: false
 ---
 
-Published documentation is a way of sharing your API documentation with the world. If you’re able to view documentation for one of your collections, publishing docs are a click away! See examples and read more about [public API documentation](/docs/postman_for_publishers/public_api_docs){:target="_blank"}.
+Published documentation enables you to share your [public API documentation](/docs/postman_for_publishers/public_api_docs){:target="_blank"} with the world. If you’re able to view documentation for one of your collections, publishing docs are a click away!
 
 ### Generating public documentation
 
