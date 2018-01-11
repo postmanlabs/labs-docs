@@ -53,7 +53,7 @@ You also can click the **Configured Integrations** tab to set up other integrati
 
 ### Add a team activity feed to PagerDuty
 
-The Team Activity Feed is where you can track changes being made by your team members to shared Collections. With this integration you can stay updated about work being done in Postman while you’re away from the desktop app, either via your PagerDuty dashboard or via an alternative alert service you choose to set up.
+The Team Activity Feed is where you can track changes being made by your team members to shared Collections. With this integration you can stay updated about work being done in Postman while you’re away from the desktop app, either via your PagerDuty dashboard or through an alternative alert service you choose to set up.
 
 To add a team activity feed to PagerDuty:
 
