@@ -36,8 +36,6 @@ The public documentation link always has the most up-to-date content. You don’
 
 In the **Edit Published Collection** page, click the **Unpublish Collection** button at the bottom of the page.
 
-You’ll be able to view the public link or unpublish the collection for a collection that’s already been published,
-
 [![publish or unpublish](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)
 
 ### Custom domains
