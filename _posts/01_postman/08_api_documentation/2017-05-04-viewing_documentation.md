@@ -20,26 +20,27 @@ In the Postman app, expand the right angle bracket (**>**) next to any collectio
 
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)
 
-To view documentation for your team’s collections in the Postman app, you’ll see a **View in Web** button in your [Team Library](/docs/postman/team_library/sharing). 
+To view documentation for your team’s collections in the Postman app, click the **View in Web** button in your [Team Library](/docs/postman/team_library/sharing). 
 
 [![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)
 
-Clicking this button opens the documentation for that collection in your browser.
-
-To open documentation for that collection
 You’ll be able to browse all folders and requests in the collection, and see how the requests and code snippets look with different environments selected.
 
 [![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)
 
-This view is restricted to users in your Postman Pro and Enterprise team. This link does not work for anyone who does not have access to the collection itself. 
-
-If the collection is shared with your team, anyone in the team can view the private documentation for this collection. If your collection is not shared, only you can view the private documentation for this collection.
+This link will not work for anyone who does not have access to the collection itself. If it's a private collection, viewership will be restricted to you alone. If it's a shared collection, your Pro or Enterprise teammates will be able to view it as well.
 
 To make this documentation available to other users, perhaps as a link on your website, you’ll need to [publish the documentation](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}.
 
 ### Viewing Public Documentation
 
 The public view is accessible through the public link that is generated when you publish your documentation. When you've published your documentation, anyone can access it via the public URL. This public URL will be displayed right after your documentation is published, and is also accessible via the **Published** dropdown in the private documentation view.
+
+Public documentation can be viewed through the link that is generated when you publish your documentation. This public URL will appear after you click Publish Collection, but it is also accessible in your private documentation view by selecting Published in the dropdown menu.
+
+
+
+
 
 [![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
