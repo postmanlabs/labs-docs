@@ -24,8 +24,6 @@ To view documentation for your team’s collections in the Postman app, click th
 
 [![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)
 
-
-
 [![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)
 
 This link will not work for anyone who does not have access to the collection itself. If it's a private collection, viewership will be restricted to you alone. If it's a shared collection, your Pro or Enterprise teammates will be able to view it as well.
@@ -34,12 +32,9 @@ To make this documentation available to other users, perhaps as a link on your w
 
 ### Viewing Public Documentation
 
-The public view is accessible through the public link that is generated when you publish your documentation. When you've published your documentation, anyone can access it via the public URL. This public URL will be displayed right after your documentation is published, and is also accessible via the **Published** dropdown in the private documentation view.
+The public view is accessible through the public link that is generated when you publish your documentation. This public link will display after your documentation is published, and is also accessible through the **Published** dropdown in the private documentation view.
 
 Public documentation can be viewed through the link that is generated when you publish your documentation. This public URL will appear after you click Publish Collection, but it is also accessible in your private documentation view by selecting Published in the dropdown menu.
-
-
-
 
 
 [![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
