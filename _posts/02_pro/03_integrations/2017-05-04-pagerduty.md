@@ -10,15 +10,16 @@ warning: false
 
 ---
 
-PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling and automatic escalation of critical incidents. 
+PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling, and automatic escalation of critical incidents.
 
-The service can be configured to deliver alerts by phone call, email, text or through iOS and Android apps.
+You can configure this service to deliver alerts by text, email, call, or through iOS and Android apps.
 
-The Postman Pro to PagerDuty Integration enables Postman Monitor results to trigger incidents and acknowledgements in PagerDuty.  
+You can use this integration to trigger incidents in PagerDuty based on your Postman Monitor results, helping your team investigate and resolve Collection run failures quickly.
+
 
 ### Retrieving your PagerDuty Integration Key
 
-1. Log in to [PagerDuty](https://app.pagerduty.com/){:target="_blank"} .  
+1.Create an account or use a preexisting on to log in to [PagerDuty](https://app.pagerduty.com/){:target="_blank"} .  
 2. In the header toolbar, click "Configuration" and select "Services".  
 3. If you are creating a new service for this integration, click "Add New Service".
 
@@ -26,20 +27,20 @@ The Postman Pro to PagerDuty Integration enables Postman Monitor results to trig
 
  <ol start="4">
   <li>Enter your Service Name and choose Postman as the Integration Type. </li>
-  <li>Click on "Add Service" at the bottom of the page to create a new service. </li>
+  <li>Click the "Add Service" link at the bottom of the page to create a new service. </li>
 </ol>
 
 [![pagerduty service](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)
 
 <ol start="5">
-  <li>Save the PagerDuty Integration Key for use later. </li>
+  <li>Save the PagerDuty Integration Key to use later. </li>
 </ol>
 
 [![pagerduty key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)
 
 ### Configuring Postman Pro with PagerDuty
 
-1. In the [Integrations page](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, select PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
+1. In the [Integrations page](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, find PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)
 
@@ -54,12 +55,12 @@ You also can click the **Configured Integrations** tab to set up other integrati
 
 ### Add a team activity feed to PagerDuty
 
-The Team Activity Feed is where you can view all team activity. You can monitor your team’s API development and track all the changes. This integration updates you on all changes in PagerDuty itself, so you don’t have to go back to Postman to see the team activity feed.
+The Team Activity Feed is where you can track changes being made by your team members to shared Collections. With this integration you can stay updated about work being done in Postman while you’re away from the desktop app, either via your PagerDuty dashboard or via an alternative alert service you choose to set up.
 
 To add a team activity feed to PagerDuty:
 
 1. In the PagerDuty integration page, click the **Add Integration** button.
-2. In the **Team Activity Feed** page, choose the monitor you want to send to PagerDuty.
+2. In the **Team Activity Feed** page, choose the Monitor you want to send to PagerDuty.
 3. Enter your Pagerduty Integration Key and click the **Add Integration** button.
 
 [![pagerduty monrun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-monrun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-monrun.png)
@@ -67,6 +68,6 @@ To add a team activity feed to PagerDuty:
 
 ### Viewing PagerDuty results
 
-The PagerDuty console immediately displays any incidents that result from the Postman Monitor.  If the selected Monitor fails, you receive notifications on PagerDuty according to the formatting and business rules you’ve already set.
+The PagerDuty console will continuously update to display any incidents that result from your Postman Monitors. If the selected Monitor fails, you’ll receive notifications on PagerDuty according to the formatting and business rules you’ve already set.
 
 [![pagerduty results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_results.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_results.png)
