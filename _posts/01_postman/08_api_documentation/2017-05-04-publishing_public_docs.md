@@ -7,7 +7,7 @@ page_id: "publishing_public_docs"
 warning: false
 ---
 
-Published documentation enables you to share your [public API documentation](/docs/postman_for_publishers/public_api_docs){:target="_blank"} with the world. If you’re able to view documentation for one of your collections, publishing docs are a click away!
+Published documentation enables you to share your [public API documentation](/docs/postman_for_publishers/public_api_docs){:target="_blank"} with the world. 
 
 ### Generating public documentation
 
