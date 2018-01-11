@@ -16,19 +16,17 @@ You can configure this service to deliver alerts by text, email, call, or throug
 
 You can use this integration to trigger incidents in PagerDuty based on your Postman Monitor results, helping your team investigate and resolve Collection run failures quickly.
 
-
 ### Retrieving your PagerDuty Integration Key
 
-Create an account or use a preexisting on to log in to [PagerDuty](https://app.pagerduty.com/){:target="_blank"} .  
+Create an account or use a preexisting one to log in to [PagerDuty](https://app.pagerduty.com/){:target="_blank"} .  
 In the header toolbar, click "Configuration" and select "Services".  
 If you are creating a new service for this integration, click "Add New Service".
 
 [![pagerduty menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)
 
-Enter your Service Name and choose Postman as the Integration Type.
+Enter your "Service Name" and choose Postman as the Integration Type.
 
 Click the "Add Service" link at the bottom of the page to create a new service. 
-
 
 [![pagerduty service](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)
 
@@ -53,7 +51,7 @@ You also can click the **Configured Integrations** tab to set up other integrati
 
 ### Add a team activity feed to PagerDuty
 
-The Team Activity Feed is where you can track changes being made by your team members to shared Collections. With this integration you can stay updated about work being done in Postman while you’re away from the desktop app, either via your PagerDuty dashboard or through an alternative alert service you choose to set up.
+The Team Activity Feed is where you can track changes being made by your team members to shared Collections. With this integration you can stay updated about work being done in Postman while you’re away from the desktop app, either through your PagerDuty dashboard or through an alternative alert service you choose to set up.
 
 To add a team activity feed to PagerDuty:
 
