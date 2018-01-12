@@ -41,9 +41,8 @@ To make this documentation available to others, you will need to publish it.
 
 ### Viewing Public Documentation
 
-Public documentation is viewable through the URL that Postman generates when you publish it. This link is displayed immediately and can be located later on in your Postman Dashboard. 
+Public documentation is viewable through the URL that Postman generates when you publish it. This link displays immediately and can be located later in your Postman Dashboard. 
 
-If you’ve added and verified a custom domain, then selected it while publishing, your documentation will be displayed there.
 
 [![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
