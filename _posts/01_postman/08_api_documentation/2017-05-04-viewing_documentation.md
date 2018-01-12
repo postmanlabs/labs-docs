@@ -11,7 +11,7 @@ Postman users can use two different web views while authoring documentation for 
 
 All Collections are initialized with the private view. However, users must explicitly opt to publish their documentation for it to be available publicly. 
 
-Private, unpublished Collections are only available to the author, while Collections shared in the Team Library can be accessed by the entire team. Published Collections can be viewed by anyone who has the URL.
+Private, unpublished Collections are only available to the author, while Collections shared in the Team Library can be accessed by the entire team. Anyone with the URL can view published Collections.
 
 ### Viewing Private Documentation
 
