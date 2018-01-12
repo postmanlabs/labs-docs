@@ -27,7 +27,7 @@ In the Postman app, hover your cursor over your Collection on the left-hand side
 
 To view documentation for a shared collection, navigate to your Team Library in your Postman app, locate the collection you’d like to view, then click the “View in web” button next to it.  
 
-IMAGE
+[![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)
 
 In this private web view, you’ll be able to see each request in the collection, their descriptions, and code snippets generated from the environment and language you’ve selected.
 
@@ -65,7 +65,7 @@ In the Postman app, expand the right angle bracket (**>**) next to any collectio
 
 To view documentation for your team’s collections in the Postman app, click the **View in Web** button in your [Team Library](/docs/postman/team_library/sharing). Then select the "Team Collections" view. You’ll be able to browse all folders and requests in the collection, and see how the requests and code snippets look with different environments selected.
 
-[![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)
+
 
 [![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)
 
