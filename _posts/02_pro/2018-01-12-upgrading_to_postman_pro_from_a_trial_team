@@ -1,24 +1,26 @@
 ---
 categories:
-  - "postman"
-  - "upgrading_to_pro"
-title: "Upgrading to Postman Pro from a trial team"
-page_id: "upgrading_to_pro"
+  - "pro"
+title: "What is Postman Pro"
+page_id: "what_is_pro"
+tags: 
+  - "pro"
 warning: false
+
 ---
 
-After your Postman Pro trial ends, you can upgrade to a monthly or annual subscription. 
+Postman’s vision is to help you build a super fast and smooth workflow for API development keeping some key questions in mind:
 
-To upgrade to a Postman Pro subscription, go to the [Billing Overview](https://the.postman.co/billing/overview){:target="_blank"} page and click the “Upgrade to Pro” button. 
+*   Where are my APIs and do I know how they are changing?
+*   Are they documented properly?
+*   How do I follow an agile process to test them?
+*   Are they working properly all the time?
+*   Can I connect all my tools with my API development workflow?
 
-[![Upgrade to Pro](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upgrade+to+pro.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upgrade+to+pro.png)
+Postman Pro offers solutions that satisfy each of the questions above. 
 
-In the “Configure your Plan” page, select the billing cycle (annual or monthly) for your Pro subscription. Your credit card is billed every month or year.
-
-[![configure plan](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/configurePlan-upgrade.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/configurePlan-upgrade.png)
-
-Select the number of users in your team to use Postman. This number cannot be less than the number of users in your trial team. If you wish to reduce the size of your team, remove some users from the team by visiting the “View Team” link in the Team dropdown.
-
-Click the **Proceed** button to confirm the details and proceed to payment.  
-
-[![review purchase](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/reviewPurchase-upgrade.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/reviewPurchase-upgrade.png)
+*   Team [collaboration](/docs/postman/team_library/sharing) for the single source of truth about your API, or review historical versions and the latest updates.
+*   API [documentation](/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation, beautifully viewable via a web page.
+*   Powerful [mock servers](/docs/postman/mock_servers) to simulate the real API and decouple teams.
+*   Collection [monitoring](/docs/postman/monitors/intro_monitors) to check for the performance, uptime and correctness of your API.
+*   [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations) and the [Postman Pro API](/docs/pro/pro_api/intro_api) to connect your different tools.
