@@ -15,7 +15,7 @@ Private, unpublished Collections are only available to the author, while Collect
 
 ### Viewing Private Documentation
 
-Private documentation can only be viewed by its author unless the collection is shared within their Postman Pro or Postman Enterprise Team Library. 
+Only the author can view private documentation unless the collection is shared within their Postman Pro or Postman Enterprise Team Library. 
 
 Teammates with “Can View” permissions can oversee progress, while teammates with “Can Edit” permissions can collaborate in writing, revising, and updating documentation. 
 
@@ -35,13 +35,13 @@ In this private web view, you’ll be able to see each request in the collection
 
 [![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)
 
-Note that this private URL is only accessible to Postman users logged in with the appropriate credentials — anyone without access to the collection itself will receive an error message upon attempting to view it.
+Note that this private URL is only accessible to Postman users logged in with the appropriate credentials — anyone without access to the collection itself receives an error message upon attempting to view it.
 
 To make this documentation available to others, you will need to publish it.
 
 ### Viewing Public Documentation
 
-Public documentation is viewable through the URL that Postman generates when you publish it. This link will be displayed immediately and can be located later on in your Postman Dashboard. 
+Public documentation is viewable through the URL that Postman generates when you publish it. This link is displayed immediately and can be located later on in your Postman Dashboard. 
 
 If you’ve added and verified a custom domain, then selected it while publishing, your documentation will be displayed there.
 
