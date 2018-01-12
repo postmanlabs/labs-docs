@@ -25,7 +25,7 @@ In the Postman app, hover your cursor over your Collection on the left-hand side
 
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)
 
-To view documentation for a shared collection, navigate to your Team Library in your Postman app, locate the collection you’d like to view, then click the “View in web” button next to it.  
+To view documentation for a shared collection, navigate to your Team Library in your Postman app, locate the collection you’d like to view, then click the **View in web** button next to it.  
 
 [![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)
 
