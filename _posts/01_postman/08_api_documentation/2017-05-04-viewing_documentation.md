@@ -21,9 +21,9 @@ Teammates with “Can View” permissions will be able to oversee progress, whil
 
 You must be logged in to your Postman Account to view private documentation.
 
-In the Postman app, hover your cursor over your Collection on the left-hand side, click “>”, then click “View in web”. 
+In the Postman app, hover your cursor over your Collection on the left-hand side, click the right angle bracket (>), then click the **View in web** button. 
 
-IMAGE
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)
 
 To view documentation for a shared collection, navigate to your Team Library in your Postman app, locate the collection you’d like to view, then click the “View in web” button next to it.  
 
@@ -50,6 +50,7 @@ IMAGE
 
 
 OLD
+
 Each collection has a private and public documentation view, generated in real-time using the data synced to our servers. 
 
 ### Viewing Private Documentation
@@ -60,7 +61,7 @@ To view private documentation for a collection, you must be signed in to the Pos
 
 In the Postman app, expand the right angle bracket (**>**) next to any collection name to open the collections details view, and then click the **View in web** button.
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)
+
 
 To view documentation for your team’s collections in the Postman app, click the **View in Web** button in your [Team Library](/docs/postman/team_library/sharing). Then select the "Team Collections" view. You’ll be able to browse all folders and requests in the collection, and see how the requests and code snippets look with different environments selected.
 
