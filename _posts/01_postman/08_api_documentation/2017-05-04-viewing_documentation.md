@@ -17,7 +17,7 @@ Private, unpublished Collections are only available to the author, while Collect
 
 Private documentation can only be viewed by its author unless the collection is shared within their Postman Pro or Postman Enterprise Team Library. 
 
-Teammates with “Can View” permissions will be able to oversee progress, while teammates with “Can Edit” permissions will be able to collaborate in writing, revising, and updating documentation. 
+Teammates with “Can View” permissions can oversee progress, while teammates with “Can Edit” permissions can collaborate in writing, revising, and updating documentation. 
 
 You must be logged in to your Postman Account to view private documentation.
 
@@ -25,11 +25,13 @@ In the Postman app, hover your cursor over your Collection on the left-hand side
 
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)
 
-To view documentation for a shared collection, navigate to your Team Library in your Postman app, locate the collection you’d like to view, then click the **View in web** button next to it.  
+To view documentation for a shared collection, navigate to your Team Library in your Postman app. 
+
+Locate the collection you’d like to view, then click the **View in web** button next to it.  
 
 [![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)
 
-In this private web view, you’ll be able to see each request in the collection, their descriptions, and code snippets generated from the environment and language you’ve selected.
+In this private web view, you’ll be able to see each request in the collection, their descriptions, and code snippets generated from the environment and the language you’ve selected.
 
 [![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-viewing.png)
 
