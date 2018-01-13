@@ -18,7 +18,7 @@ Any requests needed for the auth helpers (Digest Auth, OAuth, and so on.) will b
 
 Each Postman user gets 1,000 monitoring calls for free per month. Each Postman Pro or Enterprise team gets 10,000 free requests per month. The first month starts the day you send your first monitoring request, or when you set up a monthly block for your team.
 
-Teams on the free Pro trial cannot go beyond this limit. If you are on the free trial, you will have to wait for the next monitoring billing cycle to get another 10,000 requests.
+Teams on the free Pro trial cannot go beyond this limit. 
 
 ### For paid teams
 
@@ -43,9 +43,9 @@ If a paid team has configured 2 blocks, and makes 1,200,000 requests in a billin
 
 Prepaid requests: 10,000 (free) + 2*500,000 (2 blocks) = 1,010,000
 
-Requests over the limit: 1,200,000 - 1,010,000 = 190,000
+Requests over the free request limit: 1,200,000 - 1,010,000 = 190,000
 
-Note that unused requests within a block do not roll over to the next month - they must be used within the month purchased.
+**Note**: Unused requests within a block do not roll over to the next month - they must be used within the month purchased.
 
 ### Tracking Usage
 
