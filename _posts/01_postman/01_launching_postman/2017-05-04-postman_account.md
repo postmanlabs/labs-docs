@@ -131,3 +131,22 @@ You can recover your username or reset your password from the [**Sign In**](http
 
 [![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)
 
+### Adding you profile image
+
+In your [Profile and Account](https://the.postman.co/settings/me) page, hover over the image icon to display a Pencil (edit) icon.
+
+[![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)
+
+Click the Pencil icon.
+
+Upload or drag and drop the image you want for your profile from your computer and click the **Upload** button.
+
+[![upload](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upload-image1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upload-image1.png)
+
+The image you selected appears as your profile image.
+
+[![upload complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-pic-complete1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-pic-complete1.png)
+
+
+
+
