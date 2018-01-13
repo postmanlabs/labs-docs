@@ -7,7 +7,7 @@ page_id: "managing_your_billing"
 warning: false
 ---
 
-You can manage your billing from the Billing Overview page. 
+You can manage your billing from the [Billing Overview](https://the.postman.co/billing/overview) page. 
 
 [![manage billing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)
 
