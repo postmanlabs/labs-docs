@@ -468,12 +468,12 @@
           },
           {
             "title": "Purchasing Postman Pro",
-            "href":"docs/pro/managing_pro/purchasing_pro",
+            "href":"/docs/pro/managing_pro/purchasing_pro",
             "external": false
           },
           {
             "title": "Upgrading to Postman Pro from a trial",
-            "href":"docs/pro/managing_pro/activating_trial",
+            "href":"/docs/pro/managing_pro/activating_trial",
             "external": false
           },
           {
@@ -483,17 +483,17 @@
           },
           {
             "title": "Changing your plan",
-            "href":"docs/pro/managing_pro/changing_your_plan",
+            "href":"/docs/pro/managing_pro/changing_your_plan",
             "external": false
           },
           {
             "title": "Managing your team",
-            "href":"docs/pro/managing_pro/managing_your_team",
+            "href":"/docs/pro/managing_pro/managing_your_team",
             "external": false
           },
           {
             "title": "Managing your billing",
-            "href":"docs/pro/managing_pro/managing_your_billing",
+            "href":"/docs/pro/managing_pro/managing_your_billing",
             "external": false
 	  }
 	]
