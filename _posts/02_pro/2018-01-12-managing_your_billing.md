@@ -7,7 +7,7 @@ page_id: "managing_your_billing"
 warning: false
 ---
 
-You can manage your billing from the Billing Overview page. 
+You can manage your billing from the [Billing Overview](https://the.postman.co/billing/overview){:target="_blank"} page. 
 
 [![manage billing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)
 
@@ -24,8 +24,6 @@ From this page, you can:
 * Cancel your plan.
 
 In this topic, we discuss how to set the monitoring block count, view your account history, and how to add your payment information.
-
-Click the links in the list above to learn how to perform other billing management tasks in this page.
 
 ### Setting the monitoring block count
 
