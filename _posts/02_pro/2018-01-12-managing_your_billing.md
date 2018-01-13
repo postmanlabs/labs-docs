@@ -25,8 +25,6 @@ From this page, you can:
 
 In this topic, we discuss how to set the monitoring block count, view your account history, and how to add your payment information.
 
-Click the links in the list above to learn how to perform other billing management tasks in this page.
-
 ### Setting the monitoring block count
 
 In Postman Pro, your team can monitor up to 10,000 requests for free per month. 
