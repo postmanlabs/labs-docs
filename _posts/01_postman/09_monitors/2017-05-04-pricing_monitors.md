@@ -45,7 +45,7 @@ Prepaid requests: 10,000 (free) + 2*500,000 (2 blocks) = 1,010,000
 
 Requests over the limit: 1,200,000 - 1,010,000 = 190,000
 
-Note that unused requests don't roll-over to the next month.
+Note that unused requests within a block do not roll over to the next month - they must be used within the month purchased.
 
 ### Tracking Usage
 
