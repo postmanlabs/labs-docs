@@ -15,9 +15,9 @@ You can manage your billing from the [Billing Overview](https://the.postman.co/b
 From this page, you can:
 
 * Get an overview of your current plan.
-* [Change your plan (Pro Monthly).](/docs/pro/managing_pro/changing_your_plan):target="_blank"}
-* [Add user slots to your plan (Pro Annual).](/docs/pro/managing_pro/changing_your_plan):target="_blank"}
-* [Set instructions for next billing cycle.](/docs/pro/managing_pro/changing_your_plan):target="_blank"}
+* [Change your plan (Pro Monthly).](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
+* [Add user slots to your plan (Pro Annual).](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
+* [Set instructions for next billing cycle.](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
 * Set the monitoring block count.
 * View upcoming invoices.
 * View recent invoices.
