@@ -41,7 +41,6 @@ You can enter your own key and select a team for which the key is applicable.
 
 ### Configuring Postman Monitors
 
-## OLD
 
 In the [Integrations](https://the.postman.co/integrations){:target="_blank"} page, find VictorOps from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
@@ -51,13 +50,19 @@ You also can click the **Configured Integrations** tab to set up other integra
 
 [![victorOps details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-details-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-details-page.png)
 
-Click the **Add Integration** button to display the Send Monitor Run Results modal.
-
+Click the **Add Integration** button to display the "Send Monitor Run Results" modal.
 
 [![victorOps mon run](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-mon-run.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-mon-run.png)
 
+In the **Send Monitor Run Results** page:
 
-## END OLD
+* Select a monitor to send to VictorOps.
+* Enter the VictorOps API key.
+* Click Advanced Options if you want to add a VictorOps Routing Key.
+* Click the **Add Integration** button.
+
+You can send the results of multiple monitors to the same VictorOps collection.
+
 
 ### Incidents on VictorOps
 
