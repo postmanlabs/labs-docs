@@ -9,43 +9,19 @@ warning: false
 
 ### What is a Workspace?
 
-A Workspace is an environment where you can manage Postman elements, permissions, and collaboration.
+A Workspace is an environment where you can create and manage Postman elements. These elements are collections, monitors, documentation, mocks, environments, and integrations. You can create a personal or team workspace. Regardless of the type of Workspace, elements can exist in different workspaces at the same time. 
 
-A Workspace is not a physical container. It is a view in an environment where elements, such as a collection,can exist in different workspaces at the same time. 
+**Personal Workspaces**
+Any Postman user can have a private Workspace. If you do not have Postman account, you can have only one personal Workspace. If you do have an account, you can have an unlimited number of Workspaces.
 
-
-where team members and elements can belong to multiple workspaces at the same time.
-
-
-e you can see different Workspaces at the same time. You can view Workspaces from the  
-
-. A Workspace is a view, not a physical container.  Workspaces are viewable both from the Postman App and the user dashboard.
-
-
-It provides individuals and teams easy access to all Postman elements and enhances collaboration. 
-
-d.
-
-Every Postman user has a dedicated workspace. And Postman Pro and Enterprise users have access to multiple workspaces, for personal and team.
+**Team Workspaces**
+Postman Pro and Enterprise users have access to multiple Workspaces for personal or team accounts.
 
 Project-specific Workspaces provide superior organization and insight into your collections.
 Workspaces now include shareable team request history, enabling developers to debug requests and API usage collaboratively.
 Postman Environments can be synced and shared directly within Workspaces, without the need for templates.
 
 Postman Pro and Enterprise users can create shared workspaces for ongoing development or short-term collaborations. Workspace members can be added and removed as needed, from among all of the organization’s paid users.
-
-
-
-
-
-
-
-################
-
-It is not a physical container, but a view in the environment. As a result, a collection can exist in different workspaces at the same time.
-
-################
-
 
 
 
