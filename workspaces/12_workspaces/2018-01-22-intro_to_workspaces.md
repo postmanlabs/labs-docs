@@ -9,7 +9,29 @@ warning: false
 
 ### What is Workspaces?
 
-A Workspace is an environment where you can perform all your API tasks. It is not a physical container, but a view in the environment. As a result, a collection can exist in different workspaces at the same time.
+A Workspace is an environment where you can perform all your API tasks. It's your control center for all your Postman elements, permissions, and collaboration.
+
+Simplify the process and improve collaboration with easy access to collections, environments, monitors, and the entire suite of Postman elements.
+
+Every Postman user has a dedicated workspace.
+Postman Pro & Enterprise users have access to multiple workspaces, for personal, project, and team-wide use. 
+
+################
+The Workspace is your control center for Postman elements, permissions, and collaboration. 
+API development doesn’t have to be rocket science! Simplify the process and improve collaboration with easy access to collections, environments, monitors, and the entire suite of Postman elements. 
+Workspaces are for everyone! Every Postman user has a dedicated workspace.
+Postman Pro & Enterprise users have access to multiple workspaces, for personal, project, and team-wide use. 
+Additional Admin workspaces for governance and security are coming soon for Enterprise users.
+
+Workspaces: one giant leap for API collaboration
+Project-specific Workspaces provide superior organization and insight into your collections.
+Workspaces now include shareable team request history, enabling developers to debug requests and API usage collaboratively.
+Postman Environments can be synced and shared directly within Workspaces, without the need for templates.
+################
+
+
+
+It is not a physical container, but a view in the environment. As a result, a collection can exist in different workspaces at the same time.
 
 ### Why use Workspaces?
 
