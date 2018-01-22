@@ -11,10 +11,32 @@ warning: false
 
 A Workspace is an environment where you can create and manage Postman elements. These elements are collections, monitors, documentation, mocks, environments, and integrations. You can create a personal or team workspace. Regardless of the type of Workspace, elements can exist in different workspaces at the same time. 
 
+In a Workspace, you:
+
+* Create an entity in a workspace
+
+* Add to a workspace from an existing workspace
+
+* Delete a workspace
+
+* Join a workspace
+
+* Share in a workspace
+
+* Use workspace control for Enterprise accounts (?)
+
+
+
 **Personal Workspaces**
-Any Postman user can have a private Workspace. If you do not have Postman account, you can have only one personal Workspace. If you do have an account, you can have an unlimited number of Workspaces.
+
+Any Postman user can have a personal Workspace that is only visible to you. If you do not have Postman account, you can have only one personal Workspace. If you do have an account, you can have an unlimited number of Workspaces.
+
+
+
+
 
 **Team Workspaces**
+
 Postman Pro and Enterprise users have access to multiple Workspaces for personal or team accounts.
 
 Project-specific Workspaces provide superior organization and insight into your collections.
