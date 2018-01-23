@@ -9,21 +9,26 @@ warning: false
 
 ### What is a Workspace?
 
-A Workspace is an environment where you can create and manage Postman elements. These elements are collections, monitors, documentation, mocks, environments, and integrations. You can create a personal or team workspace. Regardless of the type of Workspace, elements can exist in different workspaces at the same time. 
+A Workspace is a collaborative environment for a group of users to develop and test APIs. Workspaces enable you to share or hide resources with specified teams. Resources can be shared between multiple workspaces and kept in sync, allowing multiple groups to collaborate.
+
+
+
+
+where you can create and manage Postman elements. These elements are collections, monitors, documentation, mocks, environments, and integrations. You can create a personal or team workspace. Regardless of the type of Workspace, elements can exist in different workspaces at the same time. 
 
 In a Workspace, you:
 
-* Create an entity in a workspace
+* Create an entity in a workspace (ext.link)
 
-* Add to a workspace from an existing workspace
+* Add to a workspace from an existing workspace (ext.link)
 
-* Delete a workspace
+* Delete a workspace (ext.link)
 
-* Join a workspace
+* Join a workspace (ext.link)
 
-* Share in a workspace
+* Share in a workspace (ext.link)
 
-* Use workspace control for Enterprise accounts (?)
+* Use workspace control for Enterprise accounts (?) (ext.link)
 
 
 
