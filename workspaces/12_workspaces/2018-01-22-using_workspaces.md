@@ -5,10 +5,10 @@ categories:
 title: "Using Workspaces"
 page_id: "using_workspaces"
 warning: false
-
 ---
 
-Here is a lists of tasks you can perform in Workspaces:
+
+Here is a list of tasks you can perform in Workspaces:
 
 * [Create an entity in a Workspace](#createEntity)
 
