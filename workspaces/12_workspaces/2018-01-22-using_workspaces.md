@@ -10,17 +10,17 @@ warning: false
 
 * [Create an entity in a Workspace](#createEntity)
 
-Add to a Workspace from an existing Workspace
+* [Add to a Workspace from an existing Workspace](#add)
 
-Delete a Workspace
+* [Delete a Workspace](#delete)
 
-Join a Workspace
+* [Join a Workspace](#join)
 
-Share in a Workspace
+* [Share in a Workspace](#share)
+
+* [Restore windows in a Workspace](#restore)
 
 Use Workspace control for Enterprise accounts
-
-Restore windows in a Workspace
 
 
 
