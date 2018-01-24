@@ -7,24 +7,25 @@ page_id: "using_workspaces"
 warning: false
 
 ---
-Create an entity in a workspace
 
-Add to a workspace from an existing workspace
+* [Create an entity in a Workspace](#createEntity)
 
-Delete a workspace
+Add to a Workspace from an existing Workspace
 
-Join a workspace
+Delete a Workspace
 
-Share in a workspace
+Join a Workspace
 
-Use workspace control for Enterprise accounts
+Share in a Workspace
+
+Use Workspace control for Enterprise accounts
 
 Restore windows in a Workspace
 
 
 
 
-### Creating an entity in a workspace
+<h3 id="createEntity">Creating an entity in a workspace</h3>
 
 Creation will always happen in a specific workspace
 
