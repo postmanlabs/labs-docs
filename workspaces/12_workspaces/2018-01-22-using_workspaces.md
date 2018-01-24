@@ -8,6 +8,8 @@ warning: false
 
 ---
 
+Here is a lists of tasks you can perform in Workspaces:
+
 * [Create an entity in a Workspace](#createEntity)
 
 * [Add to a Workspace from an existing Workspace](#add)
@@ -50,6 +52,14 @@ A user can join a workspace to work on collections, environments, monitors, mock
 Sharing in a workspace will be the same action as adding from a private workspace to a team, public or enterprise workspace. However, when an item is shared with a team, it will have an additional owner (the team). If an item is removed from the default workspace of a user, it will still remain in the team's default workspace and will have to be explicitly removed from the team by the team admin or someone with edit access.
 
 <h3 id="restore">Restoring windows in a Workspace</h3>
+
+Text goes here.
+
+
+
+
+
+
 
 
 ### ? Using workspace control for Enterprise accounts
