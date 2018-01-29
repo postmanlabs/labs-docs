@@ -48,10 +48,17 @@ Workspaces has three types of roles.
 
 
 
-
-
-
 ### Why use Workspaces?
+
+You can use Workspaces to:
+* Easily find collections and environments related to the project at hand - smoother workflows and less mistakes.
+* Faster context switching - group and view resources by context
+  * Projectwise (Eg. collection, environment and monitor for a new service)
+  * Teamwise (eg. all collections related to security@postman)
+  * All active collections you're working on
+  * Viewing all published documentation in the team
+* Easier project onboarding and offboarding - just join a workspace, no need to find and subscribe to all collections
+
 
 Project-specific Workspaces provide superior organization and insight into your collections.
 
