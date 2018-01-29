@@ -38,6 +38,14 @@ As a Postman Pro or Enterprise user, you can create shared Workspaces for ongoin
 
 You can sync and share Postman Environments directly in Workspaces, without the need for templates.
 
+**Types of Workspaces roles**
+
+Workspaces has three types of roles.
+
+1. Administrator: enables a user to view, edit, and manage elements in a Workspace.
+2. Member: enables a user to view and edit elements in a Workspace.
+3. Non-member: enables a user to only view elements in a Workspace.
+
 
 
 
@@ -58,12 +66,4 @@ If a person is on Postman Pro using the Team Library they might be working on th
 
 To solve these issues, we need a new abstraction - called Workspaces.
  
-### Types of Workspaces
 
-Postman offers two types of Workspaces: personal and team. 
-
-* Personal: Individual users can create workspaces that are only visible to them.
-
-* Team: Workspaces shared between all members of a team. All workspaces that a user has visibility into should be accessible from the Postman app and the web
-
-Types of Workspace roles
