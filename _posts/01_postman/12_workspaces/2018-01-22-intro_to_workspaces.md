@@ -34,12 +34,11 @@ When you invite users, you create a team. The team has a default Workspace. Any 
 
 A user can subscribe to a collection in a shared Workspace and add it to a personal Workspace. If the user has the appropriate permissions for the collection, the user can edit the collection in any Workspace where it exists. The collection would also be updated in all those Workspaces.
 
+As a Postman Pro or Enterprise user, you can create shared Workspaces for ongoing development or short-term collaborations. You can add and remove Workspace members from among all of the organization’s paid users. Each Workspace contains a shareable team request history that enables developers to debug requests and API usage collaboratively.
+
+You can sync and share Postman Environments directly in Workspaces, without the need for templates.
 
 
-Workspaces now include shareable team request history, enabling developers to debug requests and API usage collaboratively.
-Postman Environments can be synced and shared directly within Workspaces, without the need for templates.
-
-Postman Pro and Enterprise users can create shared workspaces for ongoing development or short-term collaborations. Workspace members can be added and removed as needed, from among all of the organization’s paid users.
 
 
 
@@ -66,3 +65,5 @@ Postman offers two types of Workspaces: personal and team.
 * Personal: Individual users can create workspaces that are only visible to them.
 
 * Team: Workspaces shared between all members of a team. All workspaces that a user has visibility into should be accessible from the Postman app and the web
+
+Types of Workspace roles
