@@ -18,6 +18,15 @@ A Workspace is a collaborative environment for a group of users to develop and t
 
 Regardless of the type of Workspace, you can share and hide elements in specific teams and mulitple Workspaces at the same time. We define elements in Postman as collections, monitors, documentation, mocks, environments, and integrations.
 
+
+
+
+| **Role**  |   **Permissions**   |
+| ---   |   ---     | 
+| Administrator   |   View, edit, and manage    |
+| Member   |  View and edit    | 
+| Non-member   |  View only     | 
+
 **Personal Workspaces**
 
 Personal Workspaces are only visible to you. If you don't have Postman account, you can have only one personal Workspace. If you do have an account, you can have an unlimited number of Workspaces.
@@ -37,15 +46,6 @@ You can subscribe to a collection in a shared Workspace and add it to a personal
 As a Postman Pro or Enterprise user, you can create shared Workspaces for ongoing development or short-term collaborations. You can add and remove Workspace members from among all of the organization’s paid users. Each Workspace contains a shareable team request history that enables developers to debug requests and API usage collaboratively.
 
 You can sync and share Postman Environments directly in Workspaces, without the need for templates.
-
-**Types of Workspaces roles**
-
-Workspaces has three types of roles.
-
-1. Administrator: enables a user to view, edit, and manage elements in a Workspace.
-2. Member: enables a user to view and edit elements in a Workspace.
-3. Non-member: enables a user to only view elements in a Workspace.
-
 
 ### Why use Workspaces?
 
