@@ -117,9 +117,10 @@ You can recover your username or reset your password from the [**Sign In**](http
 
 [![signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)
 
-2. In the **Trouble signing in?** page, enter your email address and click the **Submit** button.
-   Check your email for instructions to recover your username or password.
-   
+<ol start="2">
+  <li>In the Trouble signing in? page, enter your email address and click the <b>Submit</b> button.
+   Check your email for instructions to recover your username or password.</li>
+  </ol>
 
 [![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)
 
@@ -127,13 +128,19 @@ You can recover your username or reset your password from the [**Sign In**](http
 
 You can customize your Postman account with a profile picture, which will show your username throughout the Postman dashboard.
 
-In your [Profile and Account]({{site.pm.gs}}/settings/me) page, hover over the image icon to display a Pencil (edit) icon.
+1.In your [Profile and Account]({{site.pm.gs}}/settings/me) page, hover over the image icon to display a Pencil (edit) icon.
 
 [![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)
 
-Click the Pencil icon.
 
-Upload or drag and drop the image you want for your profile from your computer and click the **Upload** button.
+
+
+
+
+<ol start="2">
+  <li>Click the Pencil icon.</li>
+  <l1> Upload or drag and drop the image you want for your profile from your computer and click the <b>Upload</b> button.</li>
+  </ol>
 
 [![upload](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upload-image1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upload-image1.png)
 
