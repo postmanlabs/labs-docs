@@ -28,7 +28,7 @@ Signing up is completely optional. Read our [EULA](https://www.getpostman.com/li
     [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
 4. Confirm your email.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
+Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing){:target="_blank"}. If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
 
 [![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
@@ -62,7 +62,7 @@ To switch back to your previous account, click on the account user name in the d
 
 #### How to switch accounts in the Postman web view
 
-1. When you sign in to the Postman dashboard, you see your profile image on the top right hand corner of the screen.  
+1. When you sign in to the [Postman dashboard](http://app.dashboard/dashboard), you see your profile image on the top right hand corner of the screen.  
 
 2. To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
 
