@@ -14,7 +14,7 @@ You can manage your billing from the [Billing Overview]({{site.pm.gs}}/pay/billi
 [![manage billing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)
 
 
-From this Billing Overview page, you can:
+From this page, you can:
 
 * [Change your plan (Pro Monthly)](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
 * [Add user slots to your plan (Pro Annual)](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
