@@ -33,7 +33,7 @@ Once you are logged in, you will see the **IN SYNC** icon at the top telling y
 [![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
 
-### Signing into multiple accounts
+### Switching multiple accounts
 
 You can sign in to multiple accounts at the same time in the Postman app and the Postman web dashboard. After you sign in, you can switch between these accounts. 
 
@@ -69,36 +69,6 @@ To switch back to your previous account, click on the account user name in the d
 4. To switch back to your previous account, click on the account user name in the drop down menu.
 
 [![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)
-
-
-### Switching between different accounts
-You can sign in to multiple accounts at the same time in the Postman app and the Postman web dashboard. After you sign in, you can switch between these accounts.
-
-#### How to switch accounts in the Postman app 
-1. When you first open the Postman app, you can sign in as an existing user or create an account. 
-
-2. If you bypass the initial sign-in option, you can click the **Sign In** button on the top right corner of your screen at any time.
-
-3. After you sign in, your profile image replaces the **Sign In** button. 
-
-4. When you click on your profile image, a drop down menu lists all active signed-in accounts. 
-
-5. To sign into another account, click the **Add A New Account** button at the bottom of the drop down menu.
-
-6. After you sign in to another account, the drop down menu lists all your active signed-in accounts.
-
-7. To switch back to your previous account, click on the account user name in the drop down menu.
-
-#### How to switch accounts in the Postman web view
-
-1. When you sign in to the [Postman dashboard](http://app.dashboard/dashboard), you see your profile image on the top right hand corner of the screen.  
-
-2. To sign into another account, click the **Add A New Account** button at the bottom of the drop down menu.
-
-3. After you sign in to another account, the drop down menu lists all your active signed-in accounts.
-
-4. To switch back to your previous account, click on the account user name in the drop down menu.
-
 
 ### Security policies and standards
 
