@@ -28,11 +28,11 @@ You can [remove and delete](/docs/postman/workspaces/using_workspaces){:target="
 
 **Team Workspaces**
 
-When you invite users, you create a team. The team has a default Workspace. Any element that is shared to the team Workspace is accessible to everyone in the team. Any entity shared between users in any Workspace is also visible in the team workspace.
+When you invite users, you create a team. The team has a default Workspace. Any team member can see and access elements that are shared to the team Workspace. 
 
 [![WS-mainScreen-teamMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
-A user can subscribe to a collection in a shared Workspace and add it to a personal Workspace. If the user has the appropriate permissions for the collection, the user can edit the collection in any Workspace where it exists. The collection would also be updated in all those Workspaces.
+You can subscribe to a collection in a shared Workspace and add it to a personal Workspace. If you have the appropriate permissions for the collection, you can edit and update the collection in any Workspace where it exists. 
 
 As a Postman Pro or Enterprise user, you can create shared Workspaces for ongoing development or short-term collaborations. You can add and remove Workspace members from among all of the organization’s paid users. Each Workspace contains a shareable team request history that enables developers to debug requests and API usage collaboratively.
 
@@ -45,7 +45,6 @@ Workspaces has three types of roles.
 1. Administrator: enables a user to view, edit, and manage elements in a Workspace.
 2. Member: enables a user to view and edit elements in a Workspace.
 3. Non-member: enables a user to only view elements in a Workspace.
-
 
 
 ### Why use Workspaces?
