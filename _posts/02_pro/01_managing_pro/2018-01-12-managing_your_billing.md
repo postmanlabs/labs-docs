@@ -21,10 +21,7 @@ From this Billing Overview page, you can:
 * [Set instructions for next billing cycle](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
 * [Set the monitoring block count](#set)
 * [Manage your invoices](#invoices)
-* [Cancel your plan](/docs/pro/managing_pro/changing_your_plan#Canceling_your_plan){:target="_blank"}
-
-
-<a href="/docs/pro/managing_pro/changing_your_plan#Canceling_your_plan">Cancel your plan</a>
+* [Cancel your plan](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
 
 
 In this topic, we discuss how to set the monitoring block count, view your account history, and how to add your payment information.
