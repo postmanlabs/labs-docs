@@ -82,7 +82,7 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 You can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login){:target="_blank"} page. 
 
-1. In the **Sign In** page, click “Trouble signing in?”.
+1. In the Sign In page, click “Trouble signing in?”.
 
 [![signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)
 
