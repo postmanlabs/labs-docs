@@ -20,14 +20,13 @@ From this page, you can:
 * [Change your plan (Pro Monthly).](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
 * [Add user slots to your plan (Pro Annual).](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
 * [Set instructions for next billing cycle.](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
-* Set the monitoring block count.
-* View upcoming invoices.
-* View recent invoices.
+* [Set the monitoring block count.](#set)
+* [Manage your invoices.](#invoices)
 * [Cancel your plan.](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
 
 In this topic, we discuss how to set the monitoring block count, view your account history, and how to add your payment information.
 
-### Setting the monitoring block count
+<h3 id="set">Setting the monitoring block count</h3>
 
 In Postman Pro, your team can monitor up to 10,000 requests for free per month. 
 
