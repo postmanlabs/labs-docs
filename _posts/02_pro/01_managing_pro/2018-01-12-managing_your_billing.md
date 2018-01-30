@@ -74,7 +74,7 @@ After payment, you’ll see a confirmation with the transaction ID. Use this ID 
 Hover over an existing card and click the **Set as default** button that appears.
 Click the **Remove this payment method** button to complete the process.
 
-<h3 id="set">How to edit your invoices</h3>
+<h3 id="invoices">How to edit your invoices</h3>
 
 Click the **Edit Invoice Details** button to go to your Team Settings. 
 
