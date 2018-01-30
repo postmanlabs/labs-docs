@@ -23,7 +23,7 @@ From this page, you can:
 * Set the monitoring block count.
 * View upcoming invoices.
 * View recent invoices.
-* [Cancel your plan.](/docs/pro/managing_pro/changing_your_plan):target="_blank"}
+* [Cancel your plan.](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
 
 In this topic, we discuss how to set the monitoring block count, view your account history, and how to add your payment information.
 
