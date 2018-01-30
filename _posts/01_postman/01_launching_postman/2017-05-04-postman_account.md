@@ -39,20 +39,18 @@ You can sign in to multiple accounts at the same time in the Postman app and the
 
 #### How to switch accounts in the Postman app 
 
-1. When you first open the Postman app, you can sign in as an existing user or create an account. 
-
-2. If you bypass the initial sign-in option, you can click the **Sign In** button on the top right corner of your screen at any time.
+When you first open the Postman app, you can sign in as an existing user or create an account. 
+If you bypass the initial sign-in option, you can click the **Sign In** button on the top right corner of your screen at any time.
 
 [![signin icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchAccts_signIn_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchAccts_signIn_white.png)
 
-<ol start="3">
-  <li>After you sign in, your profile image replaces the <b>Sign In</b> button.</li>
-  <li>When you click on your profile image, a drop down menu lists all active signed-in accounts. </li>
-  <li>To sign in to another account, click the <b>Add A New Account</b> button at the bottom of the drop down menu.</li>
-</ol>
+After you sign in, your profile image replaces the **Sign In** button.
 
- [![addaccount icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_addAccount_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_addAccount_white.png)
- 
+When you click on your profile image, a drop down menu lists all active signed-in accounts.
+
+To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
+
+[![addaccount icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_addAccount_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_addAccount_white.png)
 
 After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
