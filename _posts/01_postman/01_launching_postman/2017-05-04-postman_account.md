@@ -97,7 +97,7 @@ You can recover your username or reset your password from the [**Sign In**](http
 
 You can customize your Postman account with a profile picture, which will show your username throughout the Postman dashboard.
 
-1.In your [Profile and Account](https://app.getpostman.com/dashboard/teams/edit) page, hover over the image icon to display a Pencil (edit) icon.
+1.In your [Profile and Account](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"}  page, hover over the image icon to display a Pencil (edit) icon.
 
 [![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)
 
