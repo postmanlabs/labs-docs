@@ -23,7 +23,6 @@ From this Billing Overview page, you can:
 * [Manage your invoices](#invoices)
 * [Cancel your plan](/docs/pro/managing_pro/changing_your_plan#Canceling_your_plan){:target="_blank"}
 
-[Cancel your plan](/docs/pro/managing_pro/changing_your_plan#Canceling_your_plan)
 
 <a href="/docs/pro/managing_pro/changing_your_plan#Canceling_your_plan">Cancel your plan</a>
 
