@@ -12,9 +12,9 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-   *   [Sync](/docs/postman/launching_postman/syncing) and back up your history, collections, environments, and header presets.
+   *   [Sync](/docs/postman/launching_postman/syncing){:target="_blank"} and back up your history, collections, environments, and header presets.
    *   Easily work on multiple Postman instances from different machines.
-   *   Create [collection links](/docs/postman/collections/sharing_collections) to send to other developers.
+   *   Create [collection links](/docs/postman/collections/sharing_collections){:target="_blank"} to send to other developers.
 
 Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"}, [security page](https://www.getpostman.com/security){:target="_blank"}, and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
 
@@ -82,7 +82,7 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 You can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login){:target="_blank"} page. 
 
-1. In the **Sign In** page, click “Trouble signing in?”.
+1. In the Sign In page, click “Trouble signing in?”.
 
 [![signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)
 
@@ -97,7 +97,7 @@ You can recover your username or reset your password from the [**Sign In**](http
 
 You can customize your Postman account with a profile picture, which will show your username throughout the Postman dashboard.
 
-1.In your [Profile and Account]({{site.pm.gs}}/settings/me) page, hover over the image icon to display a Pencil (edit) icon.
+1.In your [Profile and Account](https://app.getpostman.com/dashboard/teams/edit) page, hover over the image icon to display a Pencil (edit) icon.
 
 [![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)
 
