@@ -50,11 +50,9 @@ You can sync and share Postman Environments directly in Workspaces, without the 
 ### Why use Workspaces?
 
 You can use Workspaces to:
+
 * Find collections and environments related to your current project (smoother workflows and less mistakes.)
-* Group and view resources by context for active collections in your personal or team Workspace
-  * Teamwise (eg. all collections related to security@postman)
-  * All active collections you're working on
-  * Viewing all published documentation in the team
+* Group and view resources by task for active collections in your personal or team Workspace
 * Make project onboarding easier (just join a workspace, no need to find and subscribe to all collections)
 
 
