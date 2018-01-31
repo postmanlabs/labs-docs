@@ -53,7 +53,7 @@ Let's say you are working on two projects: A and B. You have several personal co
 
 Right now you focus your efforts on Project A. Since you have many personal collections, you need to search for the collections you need for Project A. To prevent repeated searches for those collections, you mark them as 'favorites'. This action makes them appear at the top of your collections list in the sidebar for quicker access.
 
-[![WS-CollectionsList](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-CollectionsList2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-CollectionsList2.png)
+[![WS-CollectionsList](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-CollectionsList4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-CollectionsList4.png)
 
 Suddenly your manager declares you have to work on Project B too. You search for Project B collections in the same manner as Project A. When you mark Project B collections as favorites, Project A collections drop down the list. And if you work on an additional projects, the process repeats and eventually all those collections become 'lost in the crowd' again!
 
