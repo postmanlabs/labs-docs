@@ -61,11 +61,10 @@ Your team also shares a similar challenge. If projects A and B have dozens of co
 
 Workspaces enables you to create a Workspace in Project A and Project B. In each Workspace you can add or create collections and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor.
 
-Because Workspaces provides greater visibility and easier acesss to shared collections, the API development workflow is much smoother, and greatly reduces mistakes that occur in collaborative efforts. v
+Because Workspaces provides greater visibility and easier acesss to shared collections, the API development workflow is much smoother, and greatly reduces mistakes that occur in collaborative efforts. 
 
 
-
-
+[![WS-projectsA_B](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-exampleTeamA_B.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-exampleTeamA_B.png)
 
 
 
