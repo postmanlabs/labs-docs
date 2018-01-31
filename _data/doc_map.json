@@ -450,7 +450,7 @@
 	"url_prefix": "workspaces",
 	"children": [
 	    {
-	        "title": "Intro to workspaces"
+	        "title": "Intro to workspaces",
 		"href": "/docs/postman/workspaces/intro_to_workspaces",
 		"external": false
 	    },
