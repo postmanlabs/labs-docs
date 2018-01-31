@@ -49,26 +49,7 @@ You can sync and share Postman Environments directly in Workspaces, without the 
 
 ### Why use Workspaces?
 
-You can use Workspaces to:
-
-* Find collections and environments related to your current tasks (smoother workflows and less mistakes.)
-* Group and view resources by task for active collections in your personal or team Workspace
-* Make project onboarding easier (just join a workspace, no need to find and subscribe to all collections)
-
-
-Project-specific Workspaces provide superior organization and insight into your collections.
-
-Imagine this scenario. You're working in your own Collections in the Team Library, while collaborating with a few of your teammates. At the team level, a team might be working on different projects in parallel. 
-
-Use personal workspaces for private projects, works in progress, and other experiment
-
-Then at the team level, 
-
-If a person is on Postman Pro using the Team Library they might be working on their own collections while also collaborating with several others. At the team level, there might be different projects that a team might be working in parallel. One goal that we established upfront was that every team member should have visibility into the team's API infrastructure. Otherwise, it would lead to a situation more like Google Drive where one doesn't know where something is and has to rely on links stored somewhere. While this is helpful, it can be confusing for companies with several teams. The teams might have internal APIs and external APIs for other teams.
-
-
-Let's say you're working on your own collections, while collaborating with several others. At the team level, there might be different projects that a team might be working in parallel. In Workspaces, you're able to
-
+We designed Workspaces to help you better organize your collections when you collaborate with others. Let's say you have several personal collections. A couple of your collections are related to a project you're working on, but they're mixed with other collections you don't need for this project. Now you have to consider how to distinguish your collection from the collections you don't need. You decide to mark those collection as favorite so they can appear at the top of your list. However, you have to another project to work on with greater priority. Now you have to unfavorite the other collections and favorite another set of personal collection related to this project to appear on top.
 
 
 
