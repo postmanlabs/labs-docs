@@ -18,7 +18,7 @@ A Workspace is a collaborative environment for a group of users to develop and t
 
 Regardless of the type of Workspace, you can share and hide elements in specific teams and mulitple Workspaces at the same time. We define elements in Postman as collections, monitors, documentation, mocks, environments, and integrations.
 
-
+Workspaces provides three user roles: administrator, member, and non-member.
 
 
 | **Role**  |   **Permissions**   |
@@ -50,13 +50,12 @@ You can sync and share Postman Environments directly in Workspaces, without the 
 ### Why use Workspaces?
 
 You can use Workspaces to:
-* Easily find collections and environments related to the project at hand - smoother workflows and less mistakes.
-* Faster context switching - group and view resources by context
-  * Projectwise (Eg. collection, environment and monitor for a new service)
+* Find collections and environments related to your current project (smoother workflows and less mistakes.)
+* Group and view resources by context for active collections in your personal or team Workspace
   * Teamwise (eg. all collections related to security@postman)
   * All active collections you're working on
   * Viewing all published documentation in the team
-* Easier project onboarding and offboarding - just join a workspace, no need to find and subscribe to all collections
+* Make project onboarding easier (just join a workspace, no need to find and subscribe to all collections)
 
 
 Project-specific Workspaces provide superior organization and insight into your collections.
