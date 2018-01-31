@@ -57,9 +57,15 @@ Suddenly your manager declares you have to work on Project B too. You search for
 
 Your team also shares a similar challenge. If projects A and B have dozens of collections, it's difficult for your team to quickly identify your specific collections. Even if they subscribe to and favorite your collections, they can become lost in a long list of other collections in the sidebar.
 
-Workspaces enables you to create a Workspace in Project A and Project B. In each Workspace you add or create the collections and invite others to collaborate. The Workspace becomes visible to all members of the Workspace, and all of you can work on the collections. In addition, when you add or change an element, such as an environment or monitor associated with the collection, all Workspaces members can see the updates as they happen.
+Workspaces enables you to create a Workspace in Project A and Project B. In each Workspace you can add or create collections and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor.
 
-Workspaces lets you group and view collection elements by team or 
+
+
+
+
+
+
+
 
 
 
