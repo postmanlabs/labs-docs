@@ -16,14 +16,14 @@ A Workspace is a collaborative environment for a group of users to develop and t
 
 Regardless of the type of Workspace, you can share and hide elements in specific teams and mulitple Workspaces at the same time. We define elements in Postman as collections, monitors, documentation, mocks, environments, and integrations.
 
-Workspaces provides three user roles: administrator, member, and non-member.
+Workspaces provides three user roles and levels of permissions.
 
 
-| **Role**  |   **Permissions**   |
+| **Role**  |   **Permissions**                 |
 | ---   |   ---     | 
 | Administrator   |   View, edit, and manage    |
-| Member   |  View and edit    | 
-| Non-member   |  View only     | 
+| Member   |  View and edit                     | 
+| Non-member   |  View only                     | 
 
 **Personal Workspaces**
 
