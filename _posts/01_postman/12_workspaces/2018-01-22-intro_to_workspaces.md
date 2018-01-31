@@ -51,7 +51,7 @@ You can sync and share Postman Environments directly in Workspaces, without the 
 
 You can use Workspaces to:
 
-* Find collections and environments related to your current project (smoother workflows and less mistakes.)
+* Find collections and environments related to your current tasks (smoother workflows and less mistakes.)
 * Group and view resources by task for active collections in your personal or team Workspace
 * Make project onboarding easier (just join a workspace, no need to find and subscribe to all collections)
 
@@ -65,6 +65,18 @@ Use personal workspaces for private projects, works in progress, and other exper
 Then at the team level, 
 
 If a person is on Postman Pro using the Team Library they might be working on their own collections while also collaborating with several others. At the team level, there might be different projects that a team might be working in parallel. One goal that we established upfront was that every team member should have visibility into the team's API infrastructure. Otherwise, it would lead to a situation more like Google Drive where one doesn't know where something is and has to rely on links stored somewhere. While this is helpful, it can be confusing for companies with several teams. The teams might have internal APIs and external APIs for other teams.
+
+
+Let's say you're working on your own collections, while collaborating with several others. At the team level, there might be different projects that a team might be working in parallel. In Workspaces, you're able to
+
+
+
+
+
+
+
+
+
 
 
 To solve these issues, we need a new abstraction - called Workspaces.
