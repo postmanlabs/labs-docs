@@ -16,18 +16,17 @@ You can manage your billing from the [Billing Overview]({{site.pm.gs}}/pay/billi
 
 From this page, you can:
 
-* Get an overview of your current plan.
-* [Change your plan (Pro Monthly).](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
-* [Add user slots to your plan (Pro Annual).](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
-* [Set instructions for next billing cycle.](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
-* Set the monitoring block count.
-* View upcoming invoices.
-* View recent invoices.
-* [Cancel your plan.](/docs/pro/managing_pro/changing_your_plan):target="_blank"}
+* [Change your plan (Pro Monthly)](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
+* [Add user slots to your plan (Pro Annual)](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
+* [Set instructions for next billing cycle](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
+* [Set the monitoring block count](#set)
+* [Manage your invoices](#invoices)
+* [Cancel your plan](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
+
 
 In this topic, we discuss how to set the monitoring block count, view your account history, and how to add your payment information.
 
-### Setting the monitoring block count
+<h3 id="set">Setting the monitoring block count</h3>
 
 In Postman Pro, your team can monitor up to 10,000 requests for free per month. 
 
@@ -76,7 +75,7 @@ After payment, you’ll see a confirmation with the transaction ID. Use this ID 
 Hover over an existing card and click the **Set as default** button that appears.
 Click the **Remove this payment method** button to complete the process.
 
-### How to edit your invoices
+<h3 id="invoices">How to edit your invoices</h3>
 
 Click the **Edit Invoice Details** button to go to your Team Settings. 
 
