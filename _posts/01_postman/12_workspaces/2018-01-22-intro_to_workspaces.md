@@ -7,8 +7,6 @@ page_id: "intro_to_workspaces"
 warning: false
 ---
 
-[![API lifecycle]()]()
-
 
 ### What is a Workspace?
 
@@ -49,7 +47,19 @@ You can sync and share Postman Environments directly in Workspaces, without the 
 
 ### Why use Workspaces?
 
-We designed Workspaces to help you better organize your collections when you collaborate with others. Let's say you have several personal collections. A couple of your collections are related to a project you're working on, but they're mixed with other collections you don't need for this project. Now you have to consider how to distinguish your collection from the collections you don't need. You decide to mark those collection as favorite so they can appear at the top of your list. However, you have to another project to work on with greater priority. Now you have to unfavorite the other collections and favorite another set of personal collection related to this project to appear on top.
+We designed Workspaces to help you better organize your collections when you collaborate with others. Let's examine a typical scenario of how Workspaces makes collaboration in Postman API development easier to manage.
+
+Let's say you are working on two projects: A and B. You have several personal collections that belong not only to projects A and B, but to other projects, too. 
+
+Right now you focus your efforts on Project A. Since you have many personal collections, you need to search for the collections you need for Project A. To prevent repeated searches for those collections, you mark them as 'favorites'. This action makes them appear at the top of your collections list in the sidebar for quicker access.
+
+Suddenly your manager declares you have to work on Project B too. You search for Project B collections in the same manner as Project A. When you mark Project B collections as favorites, Project A collections drop down the list. And if you work on an additional projects, the process repeats and eventually all those collections become 'lost in the crowd' again!
+
+Your team also shares a similar challenge. If projects A and B have dozens of collections, it's difficult for your team to quickly identify your specific collections. Even if they subscribe to and favorite your collections, they can become lost in a long list of other collections in the sidebar.
+
+Workspaces enables you to create a Workspace in Project A and Project B. In each Workspace you add or create the collections and invite others to collaborate. The Workspace becomes visible to all members of the Workspace, and all you can work on the collections. In addition, when you add or change an element, such as an environment or monitor associated with the collection, all Workspaces members can see the updates when they happen.
+
+Workspaces lets you group and view collection elements by team or 
 
 
 
@@ -60,6 +70,9 @@ We designed Workspaces to help you better organize your collections when you col
 
 
 
-To solve these issues, we need a new abstraction - called Workspaces.
+
+
+
+
  
 
