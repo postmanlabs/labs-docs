@@ -39,7 +39,7 @@ You can sync and share Postman environments directly in Workspaces, without the 
 
 ### Why use Workspaces?
 
-We designed Workspaces to help better organize collections when you collaborate with others. Let's examine a typical scenario of how Workspaces makes collaboration in Postman to manage.
+We designed Workspaces to help better organize collections when you collaborate with others. Let's examine a typical scenario of how Workspaces makes collaboration in Postman easier.
 
 Let's say you are working on two projects: Deep Space 9 and Voyager. You have several personal collections that belong not only to projects Deep Space 9 and Voyager, but to other projects, too. 
 
@@ -47,11 +47,11 @@ Perhaps your focus this week has been on Deep Space 9. Since you have many perso
 
 [![WS-CollectionsList](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-listCollections-main2.png)](hhttps://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-listCollections-main2.png)
 
-Then, new priorities arrive from your manager, and you need to up your time and energy on Voyager. You search for Voyager collections in the same manner as Deep Space 9. When you mark Voyager collections as favorites, Deep Space 9 collections drop down the list. And if you work on an additional projects, the process repeats and eventually all those collections become 'lost in the crowd' again!
+Then, new priorities arrive from your manager, and you need to shift your time and energy to Voyager. You search for Voyager collections in the same manner as Deep Space 9. When you mark Voyager collections as favorites, Deep Space 9 collections drop down the list. And if you work on additional projects, the process repeats and eventually all those collections become 'lost in the crowd' again!
 
 Your team also shares a similar challenge. If Deep Space 9 and Voyager have dozens of collections, it's difficult for your team to quickly identify your specific collections. Even if they subscribe to and favorite your collections, they can become lost in a long list of other collections in the sidebar.
 
-Workspaces lets you organize your collections in two separate workspaces, Deep Space 9 and Voyager. In each Workspace you can add or create collections, and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor. Workspaces also reuse collections, so a collection can be part of Deep Space 9 and Voyager simultaneously, and any change made to the collection in any of these workspaces will reflect everywhere.
+Workspaces lets you organize your collections in two separate workspaces, Deep Space 9 and Voyager. In each Workspace you can [add or create collections](/docs/postman/workspaces/using_workspaces){:target="_blank"}, and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor. Workspaces also reuse collections, so a collection can be part of Deep Space 9 and Voyager simultaneously, and any change made to the collection in any of these Workspaces will reflect everywhere.
 
 Because Workspaces provides greater visibility and easier acesss to shared collections, the API development workflow is much smoother, and greatly reduces mistakes that occur in collaborative efforts. 
 
