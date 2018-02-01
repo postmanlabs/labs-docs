@@ -14,32 +14,24 @@ A Workspace is a collaborative environment for a group of users to develop and t
 
 [![WS_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)
 
-Regardless of the type of Workspace, you can share and hide elements in specific teams and mulitiple Workspaces at the same time. We define elements in Postman as collections, monitors, documentation, mocks, environments, and integrations.
-
-Workspaces provides three user roles and levels of permissions.
-
-
-| **Role**  |   **Permissions**                 |
-| ---   |   ---     | 
-| Administrator   |   View, edit, and manage    |
-| Member   |  View and edit                     | 
-| Non-member   |  View only                     | 
+Regardless of the type of Workspace, you can share elements in specific teams and mulitiple Workspaces at the same time. We define elements in Postman as collections, monitors, documentation, mocks, environments, and integrations.
 
 **Personal Workspaces**
 
-Personal Workspaces are only visible to you. If you don't have a Postman account, you can have only one personal Workspace. If you do have an account, you can have an unlimited number of Workspaces.
+Personal Workspaces are only visible to you. If you don't have a Postman account, you can have only one personal Workspace. If you do have an account, you can create an unlimited number of Workspaces.
 
-You can invite other users to your Workspace, which is only visible to you and those users. When you add an element to the Workspace, it automatically becomes visible to those invited users. 
+You can invite other users to your Workspace. When you add an element to the Workspace, invited users can automatically see the update. 
 
-You can [remove and delete](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element from a Workspace. When you remove an element from a Workspace, it is no longer visiable in a personal or team Workspace. When you delete an element, you completely eliminate it from the system. You can only delete an element from your personal Workspace.
+You can [remove and delete](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element from a Workspace. When you remove an element from a Workspace, it is no longer visible in that particular Workspace. However, you can still access that element in any other workspace where it resides. When you delete an element, you completely eliminate it from Postman. 
+
 
 **Team Workspaces**
 
-When you invite users, you create a team. The team has a default Workspace. Any team member can see and access elements that are shared to the team Workspace. 
+When you invite users, you create a team. The team has a default Workspace. Any team member can see and access elements that are shared to any team Workspace
 
 [![WS-mainScreen-teamMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
-You can subscribe to a collection in a shared Workspace and add it to a personal Workspace. If you have the appropriate permissions for the collection, you can edit and update the collection in any Workspace where it exists. 
+You can share a collection from one workspace to another. If you have the appropriate permissions for the collection, you can edit and update the collection in any Workspace where it exists.
 
 As a Postman Pro or Enterprise user, you can create shared Workspaces for ongoing development or short-term collaborations. You can add and remove Workspace members from among all of the organization’s paid users. Each Workspace contains a shareable team request history that enables developers to debug requests and API usage collaboratively.
 
@@ -59,10 +51,9 @@ Suddenly your manager declares you also have to work on Project B. You search fo
 
 Your team also shares a similar challenge. If projects A and B have dozens of collections, it's difficult for your team to quickly identify your specific collections. Even if they subscribe to and favorite your collections, they can become lost in a long list of other collections in the sidebar.
 
-Workspaces enables you to create a Workspace in Project A and Project B. In each Workspace you can add or create collections and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor.
+Workspaces allows you to organize your collections in two separate Workspaces, Project A and Project B. In each Workspace you can add or create collections, and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor. Workspaces also reuse collections, so a collection can be part of Project A and Project B simultaneously, and any change made to the collection in any of these workspaces will reflect everywhere.
 
 Because Workspaces provides greater visibility and easier acesss to shared collections, the API development workflow is much smoother, and greatly reduces mistakes that occur in collaborative efforts. 
-
 
 [![WS-projectsA_B](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-exampleTeamA_B.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-exampleTeamA_B.png)
 
