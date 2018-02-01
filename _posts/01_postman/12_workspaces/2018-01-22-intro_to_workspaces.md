@@ -22,7 +22,7 @@ Personal Workspaces are only visible to you. If you don't have a Postman account
 
 You can invite other users to your Workspace. When you add an element to the Workspace, invited users can automatically see the update. 
 
-You can [remove and delete](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element from a Workspace. When you remove an element from a Workspace, it is no longer visible in that particular Workspace. However, you can still access that element in any other workspace where it resides. When you delete an element, you completely eliminate it from Postman. 
+You can [remove and delete](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element from a Workspace. When you remove an element, it is no longer visible in that particular Workspace. However, you can still access that element in any other Workspace where it resides. When you delete an element, you completely eliminate it from Postman. 
 
 
 **Team Workspaces**
@@ -31,7 +31,7 @@ When you invite users, you create a team. The team has a default Workspace. Any 
 
 [![WS-mainScreen-teamMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
-You can share a collection from one workspace to another. If you have the appropriate permissions for the collection, you can edit and update the collection in any Workspace where it exists.
+You can share a collection from one Workspace to another. If you have the appropriate permissions for the collection, you can edit and update the collection in any Workspace where it exists.
 
 As a Postman Pro or Enterprise user, you can create shared Workspaces for ongoing development or short-term collaborations. You can add and remove Workspace members from among all of the organization’s paid users. Each Workspace contains a shareable team request history that enables developers to debug requests and API usage collaboratively.
 
