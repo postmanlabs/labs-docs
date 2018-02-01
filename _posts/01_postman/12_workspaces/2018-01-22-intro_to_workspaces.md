@@ -10,7 +10,7 @@ warning: false
 
 ### What is a Workspace?
 
-A Workspace is a collaborative environment for a group of users to develop and test APIs. You can create a personal or team Workspace. 
+A Workspace is a collaborative environment for a group of users to develop and test APIs. You can [create](/docs/postman/workspaces/creating_workspaces){:target="_blank"}  a personal or team Workspace. 
 
 [![WS_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)
 
@@ -18,16 +18,16 @@ Regardless of the type of Workspace, you can share elements in specific teams an
 
 **Personal Workspaces**
 
-Personal Workspaces are only visible to you. If you don't have a Postman account, you can have only one personal Workspace. If you do have an account, you can create an unlimited number of Workspaces.
+Personal Workspaces are only visible to you. If you don't have a Postman account, you can have only one personal Workspace. If you do have an account, you can [create](/docs/postman/workspaces/creating_workspaces){:target="_blank"} an unlimited number of Workspaces.
 
-You can invite other users to your Workspace. When you add an element to the Workspace, invited users can automatically see the update. 
+You can invite other users to your Workspace. When you [add](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element to the Workspace, invited users can automatically see the update. 
 
-You can [remove and delete](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element from a Workspace. When you remove an element, it is no longer visible in that particular Workspace. However, you can still access that element in any other Workspace where it resides. When you delete an element, you completely eliminate it from Postman. 
+You can remove and delete an element from a Workspace. When you [remove](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element, it is no longer visible in that particular Workspace. However, you can still access that element in any other Workspace where it resides. When you [delete](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element, you completely eliminate it from Postman. 
 
 
 **Team Workspaces**
 
-When you invite users, you create a team. The team has a default Workspace. Any team member can see and access elements that are shared to any team Workspace
+When you invite users, you [create](/docs/postman/workspaces/creating_workspaces){:target="_blank"} a team. The team has a default Workspace. Any team member can see and access elements that are shared to any team Workspace
 
 [![WS-mainScreen-teamMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
