@@ -51,7 +51,7 @@ Then, new priorities arrive from your manager, and you need to shift your time a
 
 Your team also shares a similar challenge. If Deep Space 9 and Voyager have dozens of collections, it's difficult for your team to quickly identify your specific collections. Even if they subscribe to and favorite your collections, they can become lost in a long list of other collections in the sidebar.
 
-Workspaces lets you organize your collections in two separate workspaces, Deep Space 9 and Voyager. In each Workspace you can [add or create collections](/docs/postman/workspaces/using_workspaces){:target="_blank"}, and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor. Workspaces also reuse collections, so a collection can be part of Deep Space 9 and Voyager simultaneously, and any change made to the collection in any of these Workspaces will reflect everywhere.
+Workspaces lets you organize your collections in two separate workspaces, Deep Space 9 and Voyager. In each Workspace you can [add or create](/docs/postman/workspaces/using_workspaces){:target="_blank"} collections, and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor. Workspaces also reuse collections, so a collection can be part of Deep Space 9 and Voyager simultaneously, and any change made to the collection in any of these Workspaces will reflect everywhere.
 
 Because Workspaces provides greater visibility and easier acesss to shared collections, the API development workflow is much smoother, and greatly reduces mistakes that occur in collaborative efforts. 
 
