@@ -394,9 +394,14 @@
             "title": "FAQs for monitors",
             "href": "/docs/postman/monitors/faqs_monitors",
             "external": false
-          }
+          },
+	  {
+	   "title": "Monitor history by request",
+            "href": "/docs/postman/monitors/monitors_history",
+            "external": false
+	   }
         ]
-      },
+      }, 
       {
         "title": "Mock servers",
         "url_prefix": "mock_servers",
