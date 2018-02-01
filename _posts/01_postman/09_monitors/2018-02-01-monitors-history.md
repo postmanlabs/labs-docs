@@ -3,7 +3,7 @@ categories:
   - "postman"
   - "monitors"
 title: "Monitors history by request"
-page_id: "monitors-history-by-request"
+page_id: "monitors-history"
 warning: false
 ---
 	View request specific times and results in the monitoring dashboard
