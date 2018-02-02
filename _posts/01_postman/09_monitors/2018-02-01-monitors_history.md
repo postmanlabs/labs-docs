@@ -30,11 +30,11 @@ Click the **Monitor a collection** button to create a new monitor for a collecti
 
 ### How to get Monitors history
 
-In the [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page, select:
+In the [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page, select a:
 
-* Determine the timeframe for the data you want.
+* Timeframe for the data you want.
 
-* A shared or private collection.
+* Shared or private collection.
 
 
 
