@@ -7,6 +7,8 @@ page_id: "monitors_history"
 warning: false
 ---
 
+### Monitors web view
+
 View request specific times and results in the monitoring dashboard
 
 In [Monitors web view](https://monitor.getpostman.com/){:target="_blank"}, select the collection from which you want monitoring performance history.
