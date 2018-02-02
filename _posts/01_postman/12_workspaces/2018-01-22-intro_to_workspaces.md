@@ -43,7 +43,7 @@ We designed Workspaces to help better organize collections when you collaborate 
 
 Let's say you are working on two projects: Deep Space Nine and Voyager. You have several personal collections that belong not only to projects Deep Space Nine and Voyager, but to other projects, too. 
 
-Perhaps your focus this week has been on Deep Space Nine . Since you have many personal collections, you need to search for the collections you need for Deep Space Nine. To prevent repeated searches for those collections, you mark them as 'favorites'. This action makes them appear at the top of your collections list in the sidebar for quicker access.
+Perhaps your focus this week has been on Deep Space Nine. Since you have many personal collections, you need to search for the collections you need for Deep Space Nine. To prevent repeated searches for those collections, you mark them as 'favorites'. This action makes them appear at the top of your collections list in the sidebar for quicker access.
 
 [![WS-CollectionsList](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-listCollections-main2.png)](hhttps://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-listCollections-main2.png)
 
