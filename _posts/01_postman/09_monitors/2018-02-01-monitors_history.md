@@ -8,10 +8,7 @@ warning: false
 ---
 
 
-The [Your Team's Monitors page](https://monitor.getpostman.com/){:target="_blank"} lets you track, over a specific timeframe, the performance and response of your team or private collections. 
-
-Overview of Monitors 
-
+The [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page lets you track, over a specific timeframe, the performance and response of your team or private collections. 
 
 Click the **Shared** button to reveal the monitors for your shared collections. All members of your team can see these monitors. 
 
