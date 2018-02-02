@@ -29,4 +29,6 @@ A team will get 2 workspaces on starting a trial or buying Pro or Enterprise.
 
 Anything that is published goes to the public team workspace by default but remains in the shared team workspace too. Enterprise plan users will get an additional default workspace that is only visible to admins.
 
-You can publish documentation even if the root collection is only in a private workspace, and there are no admin-only workspaces yet.
+**Comment from abhijitkane:** 
+
+Also, the last paragraph in https://elispostman.github.io/docs/postman/workspaces/creating_workspaces isn't quite true yet. You can publish documentations even if the root collection is only in a private workspace, and there are no admin-only workspaces yet.
