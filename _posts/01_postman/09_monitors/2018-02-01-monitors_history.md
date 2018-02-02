@@ -7,9 +7,10 @@ page_id: "monitors_history"
 warning: false
 ---
 
-### Monitors web view
+In Postman you can track the performance and response of your team or private collections over a specific timeframe. This feature allows you to ....
 
-View request specific times and results in the monitoring dashboard
+
+### Monitors web view
 
 In [Monitors web view](https://monitor.getpostman.com/){:target="_blank"}, select the collection from which you want monitoring performance history.
 
