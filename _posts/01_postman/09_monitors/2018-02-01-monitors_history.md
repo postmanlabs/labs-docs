@@ -9,7 +9,18 @@ warning: false
 
 ### Overview of Monitors history
 
-The [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page lets you track, over a specific timeframe, the performance and response of your team or private collections. 
+Postman lets you track, over a specific timeframe, the performance and response of your team or private collections. 
+
+To get performance results requires you to select either a shared or private collection and determine these settings
+timeframe of the results
+request you want to track
+summary or split view of the request
+average, sum, minimum, maximum
+
+**Your Team's Monitors page**
+
+
+The [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page lets you 
 
 Click the **Shared** button to reveal the monitors for your shared collections. All members of your team can see these monitors. 
 
@@ -38,8 +49,8 @@ In the [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"}
 
 
 
-
-
+Split request
+an option to change the request graph to see each request individually. By default, you’ll see one line on the graph that represents the total run times for a monitor. If you choose request split, you’ll see a bunch of differently colored lines.
 
 
 
