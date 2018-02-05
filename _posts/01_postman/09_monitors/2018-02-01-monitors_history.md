@@ -27,7 +27,7 @@ Three major tasks
 
 * Click the **Shared** button to see monitors for your shared collections or click the **Private** button to see monitors for your private collections. 
 
-Note: All shared monitors are visible to team members, and shared monitors always inherit the permission of the shared collection.
+**Note**: All shared monitors are visible to team members, and shared monitors always inherit the permissions of the shared collection.
 
 [![monitors-shared](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorHistory-monitorsWebPage.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorHistory-monitorsWebPage.png)
 
@@ -38,12 +38,18 @@ Note: All shared monitors are visible to team members, and shared monitors alway
 
 * Click the **Monitor a collection** button to [create a new monitor](/docs/postman/monitors/setting_up_monitor){:target="_blank"} for a collection.
 
-
-
-
-
-
 ### Configuring the collection
+
+
+
+
+
+
+
+
+
+
+
 
 ### Viewing results
 
@@ -55,18 +61,7 @@ request you want to track
 summary or split view of the request
 average, sum, minimum, maximum
 
-**Your Team's Monitors page**
 
-
-The [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page lets you: 
-
-Click the **Shared** button to reveal the monitors for your shared collections. All members of your team can see these monitors. 
-
-[![monitors web page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorHistory-monitorsWebPage.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorHistory-monitorsWebPage.png)
-
-Click the **Private** button to reveal the monitors for your private collections. 
-
-[![monitors ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-private-view.png)
 
 
 
