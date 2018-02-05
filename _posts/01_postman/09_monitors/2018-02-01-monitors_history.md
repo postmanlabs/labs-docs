@@ -7,11 +7,42 @@ page_id: "monitors_history"
 warning: false
 ---
 
-### Overview of Monitors history
-
 Postman lets you track, over a specific timeframe, the performance and response of your team or private collections. 
 
-To get performance results requires you to select either a shared or private collection and determine these settings
+Three major tasks
+
+* Select the collection
+
+* Configure the collection
+
+* View the results
+
+
+### Selecting the collection
+
+In the Dashboard, click the Library menu and select "Monitors".
+
+In [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page:
+
+Click the **Shared** button to see the monitors for your shared collections. All members of your team can see these monitors, or click the **Private** button to see monitors for your private collections. 
+
+[![monitors-shared](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorHistory-monitorsWebPage.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorHistory-monitorsWebPage.png)
+
+
+[![monitors-private ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-private-view.png)
+
+
+
+
+
+
+
+Configuring the collection
+
+Viewing results
+
+
+to select either a shared or private collection and determine these settings
 timeframe of the results
 request you want to track
 summary or split view of the request
