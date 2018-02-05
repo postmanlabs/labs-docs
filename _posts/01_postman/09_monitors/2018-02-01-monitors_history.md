@@ -37,10 +37,20 @@ Three major tasks
 24 hours, 7 days, or 30 days.
 
   * Click the **Monitor a collection** button to [create a new monitor](/docs/postman/monitors/setting_up_monitor){:target="_blank"} for a collection.
+  
+  <ol start="3">
+  <li>Click on the collection from which you want performance and response.</li>
+  </ol>
+
+
+
+
+
+
 
 ### Configuring the collection
 
-
+1. Click on the collection from which you want performance and response
 
 
 
