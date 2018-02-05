@@ -25,6 +25,8 @@ You can click a monitor to view more details about its performance and troublesh
 | **Average success rate** | The percent of successful runs out of the total runs in the timeframe. A run is successful only when all the tests pass during that run. You can also see a change in this value compared to the previous time period. |
 | **Average response time** | The average response time of all the requests over all the runs in milliseconds. You can also see the percentage change from the previous time period. |
 
+**Note**: All shared monitors are visible to team members, and shared monitors always inherit the permissions of the shared collection.
+
 ### Monitor details page
 
 When you click a monitor, the Monitor Performance page appears. The main timeline shows all past runs of the monitor. Each bar signifies one run of the monitor. 
