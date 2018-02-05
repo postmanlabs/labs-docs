@@ -7,21 +7,19 @@ page_id: "monitors_history"
 warning: false
 ---
 
-Postman lets you track, over a specific timeframe, the performance and response of your team or private collections. 
+Postman lets you track, over a specific timeframe, the performance and response results of your team or private collection monitors. 
 
-Three major tasks
+Two major tasks
 
 * Select the collection
 
-* Configure the collection
-
-* View the results
+* Configure how you want to view the results
 
 
 ### Selecting the collection
 
 
-1. In the [Dashboard]({{site.pm.gs}}/dashboard){:target="_blank"}, click the Library menu and select "Monitors".
+1. In the [Dashboard]({{site.pm.gs}}/dashboard){:target="_blank"}, click the "Library" menu and select "Monitors".
 
 2. In [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page:
 
@@ -42,13 +40,19 @@ Three major tasks
   <li>Click on the collection from which you want performance and response.</li>
   </ol>
 
-### Configuring the collection
+### Configuring results view
 
-After you click the collection, the Monitor Performance page appears. In this page you can specify the results you want to see.
+After you click the collection, the Monitor Performance page appears. The default view is "Monitor Summary". In this page you can specify the results you want to see. At the top of the results page, you'll see the graphical visualization of the results.
 
 [![monitors-performance ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-main.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-main.png)
 
+When you click in the graph on a specific time, you can scroll down the page to see the written results in the "Test Results" and "Console Log" views.
 
+[![monitors-performance-bottom ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-mainBottom.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-mainBottom.png)
+
+**Monitor Summary** 
+
+See a summary of monitor results
 
 
 
