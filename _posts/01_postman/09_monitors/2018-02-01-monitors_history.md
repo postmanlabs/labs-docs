@@ -25,7 +25,7 @@ Three major tasks
 
 2. In [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page:
 
-* Click the **Shared** button to see monitors for your shared collections or click the **Private** button to see monitors for your private collections. 
+  * Click the **Shared** button to see monitors for your shared collections or click the **Private** button to see monitors for your private collections. 
 
 **Note**: All shared monitors are visible to team members, and shared monitors always inherit the permissions of the shared collection.
 
@@ -33,10 +33,10 @@ Three major tasks
 
 [![monitors-private ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-private-view.png)
 
-* Click the **TIMEFRAME** menu to select if you want performance and response results from the last
+  * Click the **TIMEFRAME** menu to select if you want performance and response results from the last
 24 hours, 7 days, or 30 days.
 
-* Click the **Monitor a collection** button to [create a new monitor](/docs/postman/monitors/setting_up_monitor){:target="_blank"} for a collection.
+  * Click the **Monitor a collection** button to [create a new monitor](/docs/postman/monitors/setting_up_monitor){:target="_blank"} for a collection.
 
 ### Configuring the collection
 
