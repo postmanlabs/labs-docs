@@ -7,7 +7,7 @@ page_id: "monitors_history"
 warning: false
 ---
 
-Postman lets you track, over a specific timeframe, the performance and response of your team or private collections. 
+Postman lets you track, over a specific timeframe, the performance and response results of your team or private collection monitors. 
 
 Two major tasks
 
@@ -50,7 +50,9 @@ When you click in the graph on a specific time, you can scroll down the page to 
 
 [![monitors-performance-bottom ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-mainBottom.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-mainBottom.png)
 
-In the Monitor Summary view, you can see a summary
+**Monitor Summary** 
+
+See a summary of monitor results
 
 
 
