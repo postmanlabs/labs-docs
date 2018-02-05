@@ -42,11 +42,11 @@ Two major tasks
 
 ### Configuring results view
 
-After you click the collection, the Monitor Performance page appears. The default view is "Monitor Summary". In this page you can specify the results you want to see. At the top of your results page, you'll see the graphical visualization of your results.
+After you click the collection, the Monitor Performance page appears. The default view is "Monitor Summary". In this page you can specify the results you want to see. At the top of the results page, you'll see the graphical visualization of the results.
 
 [![monitors-performance ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-main.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-main.png)
 
-When you click in the graph, you can scroll down the page to see your written results in the "Test Results" and "Console Log" views.
+When you click in the graph on a specific time, you can scroll down the page to see the written results in the "Test Results" and "Console Log" views.
 
 [![monitors-performance-bottom ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-mainBottom.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-mainBottom.png)
 
