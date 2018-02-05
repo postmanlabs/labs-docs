@@ -21,7 +21,7 @@ Three major tasks
 ### Selecting the collection
 
 
-1. In the Dashboard, click the Library menu and select "Monitors".
+1. In the [Dashboard](https://{{site.pm.gs}}), click the Library menu and select "Monitors".
 
 2. In [Your Team's Monitors](https://monitor.getpostman.com/){:target="_blank"} page:
 
