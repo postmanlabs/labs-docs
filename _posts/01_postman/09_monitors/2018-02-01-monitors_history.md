@@ -42,17 +42,11 @@ Three major tasks
   <li>Click on the collection from which you want performance and response.</li>
   </ol>
 
-
-
-
-
-
-
 ### Configuring the collection
 
-1. Click on the collection from which you want performance and response
+After you click the collection, the Monitor Performance page appears. In this page you can specify the results you want to see.
 
-
+[![monitors-performance ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-main.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPerformance-main.png)
 
 
 
