@@ -15,7 +15,7 @@ To begin, let’s start with an example.
 
 [![create mock diagram](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_mock.jpg)
 
-When a mock is created using either the Postman Pro API or the Postman app, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection `C1` that we just mocked is now associated with the new mock `M1`. 
+When a mock is created using either the Postman API or the Postman app, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection `C1` that we just mocked is now associated with the new mock `M1`. 
 
 [![show mock diagram](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/show_mock.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/show_mock.jpg)
 
@@ -27,7 +27,7 @@ Now that the mock service has all the saved examples for the current collection,
 
 The incoming request can have several configurable variables, such as `requestMethod` and `mockPath`. The `requestMethod` variable corresponds to any valid HTTP request method (e.g. `GET`, `POST`,`PUT`, `PATCH`, `DELETE`, etc.), and the `mockPath` refers to any valid string path (e.g. `/`, `/test`, `/test/path`, `/test/path/1`).
 
-The request requires an authentication header `x-api-key` corresponding to the [Postman Pro API Key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}, and optionally accepts a header `x-mock-response-code` corresponding to the desired response code of the mock request. For example, you could request a `200`, `400`, `404`, or `500` response for a particular endpoint.
+The request requires an authentication header `x-api-key` corresponding to the [Postman API Key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}, and optionally accepts a header `x-mock-response-code` corresponding to the desired response code of the mock request. For example, you could request a `200`, `400`, `404`, or `500` response for a particular endpoint.
 
 [![mock configurable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock_configurable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock_configurable.png)
 

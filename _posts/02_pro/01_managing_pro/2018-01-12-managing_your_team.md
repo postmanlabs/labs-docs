@@ -22,7 +22,7 @@ Postman supports 3 member roles:
 | ---   |   ---     |
 | **Admin**   |    Send out team invites  <br>  Update team member roles  <br>  Remove users from the team |
 | **Billing**   |   View payments  <br>  Retry failed payments  <br>  View invoices  <br>  Update card details  <br>  Change billing email  <br>  Cancel and update the team's plan  |
-| **User**   |    Use Postman Pro  <br>  Collaborate on collections  <br>  Publish documentation  <br>  Set up monitors for collections  <br>  Use the Postman Pro API  |
+| **User**   |    Use Postman Pro  <br>  Collaborate on collections  <br>  Publish documentation  <br>  Set up monitors for collections  <br>  Use the Postman API  |
 
 Teams are only charged for user roles. If you team size is 10, you can have up to 10 members with the user role. Any of these 10 members can have admin or billing roles as well. Each team can have up to 2 support accounts (only have admin or billing rights, and are not paid for).
 

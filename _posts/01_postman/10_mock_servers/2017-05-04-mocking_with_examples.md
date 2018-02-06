@@ -61,7 +61,7 @@ In the previous steps, we prepared the collection, request, and example response
   
 ##### **Step 4: Creating a mock (M1) for the collection (C1)**
 
-  There are two ways to create a mock for our collection: 1) using the Postman app and 2) [using the Postman Pro API](/docs/postman/mock_servers/mock_with_api). In this example, we will mock a collection using the Postman app.
+  There are two ways to create a mock for our collection: 1) using the Postman app and 2) [using the Postman API](/docs/postman/mock_servers/mock_with_api). In this example, we will mock a collection using the Postman app.
   
   From the Postman app, click on the right angle bracket (**>**) next to the collection you wish to mock to expand the collection details view. 
   
@@ -77,7 +77,7 @@ In the previous steps, we prepared the collection, request, and example response
   
 ##### **Step 5: Sending a request using the mock server (M1)**
 
-  Now that we have created our mock `M1`, let's try sending a request to this mock endpoint. Copy the mock URL from the mock we created in the previous step, and paste it into a new request, with an undefined path in this case `https://b75a340e-4268-4b20-8f5f-3cfc8f37cec6.mock.pstmn.io`. Under the **Headers** tab of this new request, add the `x-api-key` header, with the value of your [Postman Pro API key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}.
+  Now that we have created our mock `M1`, let's try sending a request to this mock endpoint. Copy the mock URL from the mock we created in the previous step, and paste it into a new request, with an undefined path in this case `https://b75a340e-4268-4b20-8f5f-3cfc8f37cec6.mock.pstmn.io`. Under the **Headers** tab of this new request, add the `x-api-key` header, with the value of your [Postman API key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}.
   
   [![send a request to mock server](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock8.png)
   
