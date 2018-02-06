@@ -71,13 +71,17 @@ In the previous steps, we prepared the collection, request, and example response
   
   We are not using any environment variables in our single saved example (P1), therefore we are going to go ahead and create a mock with `No Environment` chosen. It’s important to note that if your saved example has an environment variable in the URL, for example, {% raw %}`{{base_url}}/my/path`{% endraw %} and you do not provide the corresponding environment when creating the mock, trying to mock that particular request will not work. 
   
+  Mocks are accessible to the public by default. If you check the box making the mock server private, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
+  
   [![mock collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock9.png)
   
   Once you mock the collection, it will be visible under the `Mocks` tab of the collection details view. You can also see the mock URL we will need for the next step.
   
 ##### **Step 5: Sending a request using the mock server (M1)**
 
-  Now that we have created our mock `M1`, let's try sending a request to this mock endpoint. Copy the mock URL from the mock we created in the previous step, and paste it into a new request, with an undefined path in this case `https://b75a340e-4268-4b20-8f5f-3cfc8f37cec6.mock.pstmn.io`. Under the **Headers** tab of this new request, add the `x-api-key` header, with the value of your [Postman API key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}.
+  Now that we have created our mock `M1`, let's try sending a request to this mock endpoint. Copy the mock URL from the mock we created in the previous step, and paste it into a new request, with an undefined path in this case `https://b75a340e-4268-4b20-8f5f-3cfc8f37cec6.mock.pstmn.io`. 
+  
+  For private mocks, an additional step is required. Under the **Headers** tab of this new request, add the `x-api-key` header, with the value of your [Postman API key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}.
   
   [![send a request to mock server](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock8.png)
   
