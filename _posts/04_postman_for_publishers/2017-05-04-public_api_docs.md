@@ -9,7 +9,7 @@ warning: false
 
 API publishers require public API documentation and require easy-to-read examples and specifications. Postman publishes [our own API documentation](http://docs.api.getpostman.com){:target="_blank"} using Postman Pro's documentation. Developers rely on this documentation for learning about the service, implementing their integrations, and debugging. Learn [how to publish your own public docs](/docs/postman/api_documentation/publishing_public_docs).
 
-[![postman pro API docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59189909.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59189909.png)  
+[![postman API docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59189909.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59189909.png)  
 
 Postman Pro automatically generates documentation for any of your collections. Publish public API documentation that is:
 

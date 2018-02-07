@@ -11,12 +11,12 @@ warning: false
 
 Continuous Integration (CI) is a development practice that requires developers to regularly merge code updates into a shared repository. It involves the process of automating the build and testing of code every time a developer commits code updates.
 
-Let's access collections using the Postman Pro API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments.
+Let's access collections using the Postman API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments.
 
 Before we get started:
 
 *   Ensure you have a CI system setup which can run shell commands and that you have access to modify the same.
-*   If you don't already have a [Postman Pro API key](https://docs.api.getpostman.com/#authentication){:target="_blank"}, [get one now](https://app.getpostman.com/dashboard/integrations){:target="_blank"}.
+*   If you don't already have a [Postman API key](https://docs.api.getpostman.com/#authentication){:target="_blank"}, [get one now](https://app.getpostman.com/dashboard/integrations){:target="_blank"}.
 *   Make sure you have a Postman Collection that tests your localhost server, and note the UID of the collection.
 
 ### Step 1: Install Node
