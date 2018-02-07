@@ -9,7 +9,7 @@ warning: false
 ---
 You can create new personal or team Workspaces and add an existing elements from other Workspaces.
 
-Any element you create in a shared (or teM) Workspace is immediatly available to other team members
+Any element you create in a shared (or team) Workspace is immediatly available to other team members
 
 Workspaces can be set by the user for different contexts to help them manage things in Postman better: published docs, tests etc. or separate project level workspaces. Workspaces will exist at a single level only - hierarchies can make things complicated.
 
