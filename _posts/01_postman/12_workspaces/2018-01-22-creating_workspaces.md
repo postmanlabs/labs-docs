@@ -7,28 +7,44 @@ page_id: "creating_workspaces"
 warning: false
 
 ---
-A user can create new workspaces and add an existing entity from other workspaces.
+When you create a new Workspace, you must determine whether it is a personal or team Workspace.
 
-While creating a workspace you can define a personal or team workspace. If the workspaces is a shared workspaces (team) - any entity created within that workspace immediately becomes available to others.
+Postman account users can create an unlimited number of personal Workspaces. Users who don't have a Postman account can have only one personal Workspace. Postman Pro and Enterprise teams have one default team Workspace and can create an unlimited number of Workspaces.
 
-Workspaces can be set by the user for different contexts to help them manage things in Postman better: published docs, tests etc. or separate project level workspaces. Workspaces will exist at a single level only - hierarchies can make things complicated.
+### How to create a new Workspace
 
-### Creating a Workspace for an individual user
+Click any Workspace that displays in the header bar. For example, in the image below, you'd click "My Workspace". Click "Personal" or "Team" and then click "Create New".
+ 
+ [![create new menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-WS-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-WS-menu.png)
+ 
+**Personal**
 
-* Non-signed up users - Only get 1 workspace - (Abhinav's Workspace) - this workspace cannot be shared. A user will have to create a new workspace.
+If you select "Personal", enter the name and description of the Workspace. If you decide instead to create a team Workspace, select "Team" in the Type menu. Click the **Create Workspace** button to see or add existing collections, or create a collection.
 
-* Signed-up users - Get 2 workspaces (Abhinav's Workspace). Anything that is published goes to the public workspace by default but remains in the default workspace too. The public workspace cannot be shared or made private.
+[![create new personal workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-personal.png)
+ 
+**Team**
 
-### Creating a Workspace for Pro and Enterprise users
+If you select "Team", enter the name and description. If you decide instead to create a personal Workspace, select "Personal" in the Type menu. Add the email address of whom you want to invite to this team Workspace. Click the **Create Workspace** button to see or add existing collections, or create a collection.
 
-A team will get 2 workspaces on starting a trial or buying Pro or Enterprise. 
+[![create new team workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNewWorkspace-modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNewWorkspace-modal.png)
 
-* Slack's Workspace
 
-* Slack's Public Public
 
-Anything that is published goes to the public team workspace by default but remains in the shared team workspace too. Enterprise plan users will get an additional default workspace that is only visible to admins.
+ 
+ 
+ 
+ 
+ 
+ 
 
-**Comment from abhijitkane:** 
 
-Also, the last paragraph in https://elispostman.github.io/docs/postman/workspaces/creating_workspaces isn't quite true yet. You can publish documentations even if the root collection is only in a private workspace, and there are no admin-only workspaces yet.
+
+
+
+
+
+
+
+
+
