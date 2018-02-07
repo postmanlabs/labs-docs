@@ -20,20 +20,18 @@ click "Personal" or "Team" and click "Create New".
  
 **Personal**
 
-If you select "Personal", enter the name and description of the Workspace. If you decide instead to create a team Workspace, select "Team" in the Type menu.
+If you select "Personal", enter the name and description of the Workspace. If you decide instead to create a team Workspace, select "Team" in the Type menu. Click the **Create Workspace** button to see or add existing collections, or create a collection.
 
 [![create new personal workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-personal.png)
-
-Click the **Create Workspace** button to see or add existing collections, or create a collection.
  
 **Team**
 
-If you select "Team", enter the name and description. If you decide instead to create a personal Workspace, select "Personal" in the Type menu. Then, add the email address of whom you want to invite to this team Workspace.
+If you select "Team", enter the name and description. If you decide instead to create a personal Workspace, select "Personal" in the Type menu. Then, add the email address of whom you want to invite to this team Workspace. Click the **Create Workspace** button to see or add existing collections, or create a collection.
 
 [![create new team workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNewWorkspace-modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNewWorkspace-modal.png)
 
 
-Click the **Create Workspace** button to see or add existing collections, or create a collection.
+
  
  
  
