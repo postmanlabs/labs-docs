@@ -23,4 +23,4 @@ Postman Pro offers solutions that satisfy each of the questions above. 
 *   API [documentation](/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation, beautifully viewable via a web page.
 *   Powerful [mock servers](/docs/postman/mock_servers) to simulate the real API and decouple teams.
 *   Collection [monitoring](/docs/postman/monitors/intro_monitors) to check for the performance, uptime and correctness of your API.
-*   [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations) and the [Postman Pro API](/docs/pro/pro_api/intro_api) to connect your different tools.
+*   [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations) and the [Postman API](/docs/pro/pro_api/intro_api) to connect your different tools.
