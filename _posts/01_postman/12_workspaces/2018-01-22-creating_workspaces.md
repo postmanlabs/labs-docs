@@ -9,7 +9,7 @@ warning: false
 ---
 When you create a new Workspace, you must determine whether it is a personal or team Workspace.
 
-Postman account users can create an unlimited number of personal Workspaces. Users who don't have a Postman account can have only one personal Workspace. Postman Pro and Postman Enterprise teams have one default team Workspace and can create an unlimited number of Workspaces.
+Postman account users can create an unlimited number of personal Workspaces. Users who don't have a Postman account can have only one personal Workspace. Postman Pro and Enterprise teams have one default team Workspace and can create an unlimited number of Workspaces.
 
 ### How to create a new Workspace
 
