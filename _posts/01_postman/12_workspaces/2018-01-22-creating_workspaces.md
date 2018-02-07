@@ -7,34 +7,29 @@ page_id: "creating_workspaces"
 warning: false
 
 ---
-You can create new personal or team Workspaces. 
-If you don’t have a Postman account, you can have only one personal Workspace. 
+When you create a new Workspace, you have to determine whether it is a personal or team Workspace.
+
+**Personal Workspace**
+
+Postman account users can create an unlimited number of Workspaces. Users who don't have a Postman account can have only one personal Workspace. 
+
+**Team Workspace**
+
+Postman Pro and Postman Enterprise teams have one default team Workspace can create an unlimited number of Workspaces.
 
 
-
-When you create a personal Workspace, only you can see it, 
-
-Personal Workspaces are visible only to you. If you don’t have a Postman account, you can have only one personal Workspace. If you do have an account, you can create an unlimited number of Workspaces.
-
-Team Workspaces are available to Postman Pro and Postman Enterprise teams. Every team has one default team Workspace, and can create an unlimited number of Workspaces.
-
-
-
- Any element you create in a shared (or team) Workspace is immediatly available to other team members.
-
-Individual users without an account automatically receive one Workspace, which cannot be shared. Individual users with an account can create two Workspaces. By default published collections are visible in public Workspaces, as well as in the default Workspace. You can't share or make a public Workspace private.
-
-Postman Pro and Enterprise trial and paid users automatically receive two Workspaces. By default published collections are visible in the public team Workspace, as well as in the shared team Workspace.
-
-
-**How to create a new personal Workspace**
+**How to create a new Workspace**
 
 Postman account user can create an unlimited number of Workspaces. Users who don't have a Postman account can have only one personal Workspace. 
 
 1. Click "My Workspace" in the header bar and click "Create New".  
 
+[![create new personal workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-personal.png)
 
-
+<ol start="2">
+  <li>In the CREATE NEW WORKSPACE modal, select whether</li>
+  <li>item 4</li>
+</ol>
 
 
 
