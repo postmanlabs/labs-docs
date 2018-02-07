@@ -55,7 +55,7 @@ Workspaces lets you organize your collections in two separate workspaces, Neutri
 
 Because Workspaces provides greater visibility and easier acesss to shared collections, the API development workflow is much smoother, and greatly reduces mistakes that occur in collaborative efforts. 
 
-[![WS-projects](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamView.png)
+[![WS-projects](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view.png)
 
 
 
