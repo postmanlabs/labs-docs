@@ -460,11 +460,15 @@
 		"external": false
 	    },
 	    {
+	        "title": "Managing Workspaces",
+		"href": "/docs/postman/workspaces/managing_workspaces",
+		"external": false
+	    },
+	    {
 	        "title": "Using workspaces",
 		"href": "/docs/postman/workspaces/using_workspaces",
 		"external": false
-	    },
-		
+	    }	
 	]
       }
     ]
