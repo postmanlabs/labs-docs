@@ -20,13 +20,15 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Sharing Workspaces](#share)
 
+* [Sharing collections in Workspaces](#shareCollection)
+
 * [Viewing Details](#view)
 
 * [Renaming Workspaces](#rename)
 
 * Sharing elements to Workspaces (#shareElements)
 
-* Publishing Workspaces (#)
+* Publishing Workspaces(#pub)
 
 **THIS IS A WORKING DRAFT**
 
@@ -81,6 +83,8 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 [![API lifecycle]()]()
 
+
+#<h3 id="shareCollection">Sharing collections in Workspaces</h3>
 
 
 #### Sharing collections
@@ -138,7 +142,8 @@ In this example, we share a collection to a Workspace.
 
 [![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
+<h3 id="pub">Publishing Workspaces</h3>
 
-
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 
