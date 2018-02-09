@@ -12,34 +12,31 @@ warning: false
 
 Here is a list of tasks you can perform in Workspaces:
 
-[Adding Workspaces](#adding-workspaces)
+* [Adding Workspaces](#adding-workspaces)
 
+* [Removing Workspaces](#removing-workspaces)
 
-<a name="add"></a>Adding Workspaces
+* [Leaving Workspaces](#leaving-workspaces)
 
-* [Removing Workspaces](#remove)
+* [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)
 
-* [Leaving Workspaces](#leave)
+* [Managing team members in Workspaces](#managing-team-members-in-workspaces)
 
-* [Editing descriptions in Workspaces](#edit)
+* [Deleting Workspaces](#deleting-workspaces)
 
-* [Managing team members in Workspaces](#manageTeam)
+* [Joining Workspaces](#joining-workspaces)
 
-* [Deleting Workspaces](#delete)
+* [Sharing Workspaces](#sharing-workspaces)
 
-* [Joining Workspaces](#join)
+* [Sharing collections in Workspaces](#sharing-collections)
 
-* [Sharing Workspaces](#share)
+* [Viewing details in Workspaces](#viewing-details-in-workspaces)
 
-* [Sharing collections in Workspaces](#shareCollection)
+* [Renaming Workspaces](#renaming-workspaces)
 
-* [Viewing details in Workspaces](#view)
+* [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
-* [Renaming Workspaces](#rename)
-
-* [Sharing elements to Workspaces](#shareElements)
-
-* [Publishing Workspaces](#pub)
+* [Publishing Workspaces](#publishing-workspaces)
 
 
 
@@ -49,7 +46,7 @@ Here is a list of tasks you can perform in Workspaces:
 
 
 
-<h3 id="remove">Removing Workspaces</h3>
+### Removing Workspaces
 
 #### Removing Workspaces in the sidebar
 
@@ -69,7 +66,7 @@ Removing an entity from any workspace will remove it from that workspace alone. 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
 
 
-<h3 id="join">Joining Workspaces</h3>
+### Joining Workspaces
 
 A user can join a workspace to work on collections, environments, monitors, mocks and integrations in it.
 
