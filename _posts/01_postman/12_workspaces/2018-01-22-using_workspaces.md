@@ -56,6 +56,28 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 #<h3 id="share">Sharing Workspaces</h3>
 
+**Sharing collections**
+
+[![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)
+
+
+[![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
+
+
+
+
+
+[![API lifecycle]()]()
+
+
+
+
+
+
+
+
+
+
 Sharing in a workspace will be the same action as adding from a private workspace to a team, public or enterprise workspace. However, when an item is shared with a team, it will have an additional owner (the team). If an item is removed from the default workspace of a user, it will still remain in the team's default workspace and will have to be explicitly removed from the team by the team admin or someone with edit access.
 
 <h3 id="">Restoring windows in a Workspace</h3>
