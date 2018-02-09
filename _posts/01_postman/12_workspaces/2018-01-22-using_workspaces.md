@@ -22,7 +22,7 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Viewing Details](#view)
 
-
+* [Renaming Workspaces](#rename)
 
 **THIS IS A WORKING DRAFT**
 
@@ -92,11 +92,6 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 [![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
 
-
-
-
-
-
 Sharing in a workspace will be the same action as adding from a private workspace to a team, public or enterprise workspace. However, when an item is shared with a team, it will have an additional owner (the team). If an item is removed from the default workspace of a user, it will still remain in the team's default workspace and will have to be explicitly removed from the team by the team admin or someone with edit access.
 
 <h3 id="view">Viewing Details</h3>
@@ -104,13 +99,25 @@ Sharing in a workspace will be the same action as adding from a private workspac
 #### Viewing details for personal Workspaces 
 
 
+[![details personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)
+
+
 #### Viewing details for team Workspaces 
 
+[![details team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)
 
 
+<h3 id="rename">Renaming Workspaces</h3>
 
 
+#### Renaming personal Workspaces 
 
+[![rename personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)
+
+
+#### Renaming team Workspaces 
+
+[![rename team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
 
 
 
