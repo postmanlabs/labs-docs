@@ -64,6 +64,23 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 #<h3 id="share">Sharing Workspaces</h3>
 
+#### Sharing personal Workspaces
+
+[![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
+
+[![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
+
+
+
+#### Sharing team Workspaces
+
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
+
+
+[![API lifecycle]()]()
+
+
+
 #### Sharing collections
 
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)
@@ -78,12 +95,7 @@ A user can join a workspace to work on collections, environments, monitors, mock
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
 
-#### Sharing personal Workspaces
 
-[![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
-
-
-[![API lifecycle]()]()
 
 
 
