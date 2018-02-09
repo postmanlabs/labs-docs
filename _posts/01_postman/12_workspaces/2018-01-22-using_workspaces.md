@@ -77,7 +77,7 @@ A user can join a workspace to work on collections, environments, monitors, mock
 [![join three](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)
 
 
-<h3 id="share">Sharing Workspaces</h3>
+### Sharing Workspaces
 
 #### Sharing personal Workspaces
 
@@ -120,7 +120,7 @@ Sharing in a workspace will be the same action as adding from a private workspac
 
 [![details team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)
 
-<h3 id="rename">Renaming Workspaces</h3>
+### Renaming Workspaces
 
 #### Renaming personal Workspaces 
 
@@ -130,7 +130,7 @@ Sharing in a workspace will be the same action as adding from a private workspac
 
 [![rename team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
 
-<h3 id="shareElements">Sharing elements to Workspaces</h3>
+### Sharing elements to Workspaces
 
 In this example, we share a collection to a Workspace.
 
@@ -138,11 +138,11 @@ In this example, we share a collection to a Workspace.
 
 [![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
-<h3 id="pub">Publishing Workspaces</h3>
+### Publishing Workspaces
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
-<h3 id="leave">Leaving Workspaces</h3>
+### Leaving Workspaces
 
 [![leave workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)
 
@@ -151,6 +151,6 @@ In this example, we share a collection to a Workspace.
 [![edit descr]()]()
 
 
-<h3 id="manageTeam">Managing team members in Workspaces</h3>
+### Publishing Workspaces
 
 [![manage team]()]()
