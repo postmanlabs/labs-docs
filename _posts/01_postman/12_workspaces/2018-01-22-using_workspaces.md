@@ -12,6 +12,8 @@ warning: false
 
 Here is a list of tasks you can perform in Workspaces:
 
+[Adding Workspaces](#adding-workspaces)
+
 
 <a name="add"></a>Adding Workspaces
 
@@ -43,9 +45,8 @@ Here is a list of tasks you can perform in Workspaces:
 
 
 
+### Adding Workspaces
 
-
-### <a name="add">Adding Workspaces</a>
 
 
 <h3 id="remove">Removing Workspaces</h3>
