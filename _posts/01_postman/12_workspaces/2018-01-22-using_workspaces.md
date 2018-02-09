@@ -7,7 +7,7 @@ page_id: "using_workspaces"
 warning: false
 ---
 
-                                        **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
+         **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
 
 
 Here is a list of tasks you can perform in Workspaces:
