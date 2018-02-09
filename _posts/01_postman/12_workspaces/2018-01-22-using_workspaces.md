@@ -20,7 +20,7 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Sharing Workspaces](#share)
 
-* [Viewing Details] (#view)
+* [Viewing Details](#view)
 
 
 
