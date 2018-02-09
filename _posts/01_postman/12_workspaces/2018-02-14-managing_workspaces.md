@@ -20,33 +20,39 @@ By default, you see the personal Workspaces view. In this view, you can click th
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
-When you click the ***Elipsis (...)*** button to diplay a menu that enables you to:
+When you click the ***Ellipsis (...)*** button to diplay a menu to:
 
 * [Share your personal Workspace with other users](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
 * [View details about your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Change the name of your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Rename your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Edit the decription of your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Edit the description of your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
 * [Delete your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
 You can also click the **Create a new workplace** button to [create a new personal or team Workspace](/docs/postman/workspaces/creating_workspaces){:target="_blank"}.
 
 
+In the team Workspaces view, you can click the ***Ellipsis (...)*** button to diplay a menu to:
+
+* [View details about your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+
+* [Rename your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+
+* [Edit the description of your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+
+* [Manage members of your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+
+* [Leave a Workspace of which you belong](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+
+* [Delete a team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}. 
+
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 
 
 
-
-
-
-
-
-
-
-
-* [Adding Workspaces](#add)
 
 <h3 id="add">Adding Workspaces</h3>
 
