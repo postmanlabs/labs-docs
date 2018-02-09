@@ -20,8 +20,6 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)
 
-* [Managing team members in Workspaces](#managing-team-members-in-workspaces)
-
 * [Deleting Workspaces](#deleting-workspaces)
 
 * [Joining Workspaces](#joining-workspaces)
