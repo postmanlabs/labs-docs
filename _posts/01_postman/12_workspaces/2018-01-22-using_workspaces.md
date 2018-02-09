@@ -24,17 +24,23 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Renaming Workspaces](#rename)
 
-* Sharing collections
+* Sharing elements to Workspaces (#shareElements)
+
+* Publishing Workspaces (#)
 
 **THIS IS A WORKING DRAFT**
 
 
 <h3 id="remove">Removing Workspaces</h3>
 
-**Sidebar**
+#### Removing Workspaces in the sidebar
 
 [![remove sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)
 
+
+#### Removing Workspaces in the Workspaces dashboard
+
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 
 
@@ -93,7 +99,6 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 #### Sharing collections in the sidebar
 
-
 [![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
 
 Sharing in a workspace will be the same action as adding from a private workspace to a team, public or enterprise workspace. However, when an item is shared with a team, it will have an additional owner (the team). If an item is removed from the default workspace of a user, it will still remain in the team's default workspace and will have to be explicitly removed from the team by the team admin or someone with edit access.
@@ -123,6 +128,15 @@ Sharing in a workspace will be the same action as adding from a private workspac
 #### Renaming team Workspaces 
 
 [![rename team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
+
+
+<h3 id="shareElements">Sharing elements to Workspaces</h3>
+
+In this example, we share a collection to a Workspace.
+
+[![share elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)
+
+[![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
 
 
