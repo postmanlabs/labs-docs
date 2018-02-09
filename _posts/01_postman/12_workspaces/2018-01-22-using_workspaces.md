@@ -12,6 +12,8 @@ warning: false
 
 Here is a list of tasks you can perform in Workspaces:
 
+* [Adding Workspaces](#add)
+
 * [Removing Workspaces](#remove)
 
 * [Leaving Workspaces](#leave)
@@ -35,6 +37,13 @@ Here is a list of tasks you can perform in Workspaces:
 * [Sharing elements to Workspaces](#shareElements)
 
 * [Publishing Workspaces](#pub)
+
+
+
+
+
+<h3 id="add">Adding Workspaces</h3>
+
 
 
 
