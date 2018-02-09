@@ -6,11 +6,17 @@ title: "Using Workspaces"
 page_id: "using_workspaces"
 warning: false
 ---
-[![API lifecycle]()]()
+
 
 Here is a list of tasks you can perform in Workspaces:
 
 * [Removing Workspaces](#remove)
+
+* [Leaving Workspaces](#leave)
+
+* [Editing descriptions in Workspaces](#edit)
+
+* [Managing team members in Workspaces](#manageTeam)
 
 * [Adding Workspaces](#add)
 
@@ -109,9 +115,7 @@ Sharing in a workspace will be the same action as adding from a private workspac
 
 [![details personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)
 
-
 #### Viewing details for team Workspaces 
-
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 
@@ -139,4 +143,15 @@ In this example, we share a collection to a Workspace.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
+<h3 id="leave">Leaving Workspaces</h3>
 
+[![leave workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)
+
+<h3 id="edit">Editing descriptions in Workspaces</h3>
+
+[![edit descr]()]()
+
+
+<h3 id="manageTeam">Managing team members in Workspaces</h3>
+
+[![manage team]()]()
