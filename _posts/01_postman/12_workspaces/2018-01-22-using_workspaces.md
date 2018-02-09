@@ -18,6 +18,10 @@ warning: false
 | [Sharing Workspaces](#sharing-workspaces)  |  [Sharing collections in Workspaces](#sharing-collections)     | [Viewing details in Workspaces](#viewing-details-in-workspaces)  |
 
 | [Renaming Workspaces](#renaming-workspaces)  |  [Sharing elements to Workspaces](#sharing-elements-to-workspaces)     | [Publishing Workspaces](#publishing-workspaces)   |
+
+
+
+
 | Expand Item   |   →     | →   |
 | Collapse Item   |   ←     | ←   |
 | Select Item   |   ↵     | Enter   |
