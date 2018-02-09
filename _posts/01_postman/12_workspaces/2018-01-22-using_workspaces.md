@@ -20,26 +20,6 @@ warning: false
 |[Renaming Workspaces](#renaming-workspaces)|[Sharing elements to Workspaces](#sharing-elements-to-workspaces)|[Publishing Workspaces](#publishing-workspaces)|
 
 
-
-
-| Expand Item   |   →     | →   |
-| Collapse Item   |   ←     | ←   |
-| Select Item   |   ↵     | Enter   |
-| Rename Item   |   ⌘ E     | Ctrl + E   |
-| Group Items   |   ⌘ G     | Ctrl + G   |
-| Cut Item   |   ⌘ X     | Ctrl + X   |
-| Copy Item   |   ⌘ C     | Ctrl + C   |
-| Paste Item   |   ⌘ V     | Ctrl + V   |
-| Duplicate Item   |   ⌘ D     | Ctrl + D   |
-| Delete Item   |   ⌫     | Del   |
-
-
-
-
-
-
-
-
 Here is a list of tasks you can perform in Workspaces:
 
 * [Adding Workspaces](#adding-workspaces)
