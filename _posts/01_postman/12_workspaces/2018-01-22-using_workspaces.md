@@ -7,7 +7,7 @@ page_id: "using_workspaces"
 warning: false
 ---
 
-                                                  **THIS IS A WORKING DRAFT**
+                                        **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
 
 
 Here is a list of tasks you can perform in Workspaces:
@@ -19,8 +19,6 @@ Here is a list of tasks you can perform in Workspaces:
 * [Editing descriptions in Workspaces](#edit)
 
 * [Managing team members in Workspaces](#manageTeam)
-
-* [Adding Workspaces](#add)
 
 * [Deleting Workspaces](#delete)
 
@@ -52,11 +50,6 @@ Removing an entity from any workspace will remove it from that workspace alone. 
 #### Removing Workspaces in the dashboard
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
-
-
-<h3 id="add">Adding Workspaces</h3>
-
-Every entity will have an additional "add to workspace" operation. On selecting this operation, the user will see a list of workspaces to add the entity to.
 
 
 <h3 id="delete">Deleting a workspace</h3>
