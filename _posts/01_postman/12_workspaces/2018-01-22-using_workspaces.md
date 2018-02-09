@@ -11,7 +11,7 @@ warning: false
 
 
 
-||[Adding Workspaces](#adding-workspaces)|[Removing Workspaces](#removing-workspaces)|[Leaving Workspaces](#leaving-workspaces)|
+|[Adding Workspaces](#adding-workspaces)|[Removing Workspaces](#removing-workspaces)|[Leaving Workspaces](#leaving-workspaces)|
 
 |[Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)|[Deleting Workspaces](#deleting-workspaces)| [Joining Workspaces](#joining-workspaces)  |
 
