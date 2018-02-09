@@ -30,7 +30,7 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Sharing collections in Workspaces](#shareCollection)
 
-* [Viewing Details](#view)
+* [Viewing details in Workspaces](#view)
 
 * [Renaming Workspaces](#rename)
 
@@ -44,6 +44,8 @@ Here is a list of tasks you can perform in Workspaces:
 
 #### Removing Workspaces in the sidebar
 
+Removing an entity from any workspace will remove it from that workspace alone. "Remove" will remove an entity from that workspace alone. If the entity exists in any other workspace, they won't be affected. "Delete" will remove the entity from ALL workspaces.
+
 [![remove sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)
 
 
@@ -52,14 +54,10 @@ Here is a list of tasks you can perform in Workspaces:
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 
-
 <h3 id="add">Adding Workspaces</h3>
 
 Every entity will have an additional "add to workspace" operation. On selecting this operation, the user will see a list of workspaces to add the entity to.
 
-<h3 id="remove">Removing Workspaces</h3>
-
-Removing an entity from any workspace will remove it from that workspace alone. "Remove" will remove an entity from that workspace alone. If the entity exists in any other workspace, they won't be affected. "Delete" will remove the entity from ALL workspaces.
 
 <h3 id="delete">Deleting a workspace</h3>
 
@@ -85,7 +83,7 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
 
-[![API lifecycle]()]()
+[![blank]()]()
 
 <h3 id="shareCollection">Sharing collections in Workspaces</h3>
 
