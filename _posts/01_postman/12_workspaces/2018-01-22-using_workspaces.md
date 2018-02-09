@@ -20,7 +20,7 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Sharing Workspaces](#share)
 
-* 
+* [Viewing Details] (#view)
 
 
 
@@ -64,21 +64,21 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 #<h3 id="share">Sharing Workspaces</h3>
 
-**Sharing collections**
+#### Sharing collections
 
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)
 
 
-**Sharing collections with the Embed or Run In Postman button**
+#### Sharing collections with the Embed or Run In Postman button
 
 [![share embed-rip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)
 
-**Sharing collection with a link**
+#### Sharing collection with a link
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
 
-**Sharing personal Workspaces**
+#### Sharing personal Workspaces
 
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
 
@@ -87,7 +87,7 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 
 
-**Sharing collections in the sidebar**
+#### Sharing collections in the sidebar
 
 
 [![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
@@ -99,6 +99,20 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 Sharing in a workspace will be the same action as adding from a private workspace to a team, public or enterprise workspace. However, when an item is shared with a team, it will have an additional owner (the team). If an item is removed from the default workspace of a user, it will still remain in the team's default workspace and will have to be explicitly removed from the team by the team admin or someone with edit access.
 
-<h3 id="">Restoring windows in a Workspace</h3>
+<h3 id="view">Viewing Details</h3>
+
+#### Viewing details for personal Workspaces 
+
+
+#### Viewing details for team Workspaces 
+
+
+
+
+
+
+
+
+
 
 
