@@ -70,8 +70,6 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 [![join three](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step.png)
 
-
-
 #<h3 id="share">Sharing Workspaces</h3>
 
 #### Sharing personal Workspaces
@@ -80,17 +78,13 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
 
-
 [![API lifecycle]()]()
 
-
-#<h3 id="shareCollection">Sharing collections in Workspaces</h3>
-
+<h3 id="shareCollection">Sharing collections in Workspaces</h3>
 
 #### Sharing collections
 
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)
-
 
 #### Sharing collections with the Embed or Run In Postman button
 
@@ -121,18 +115,15 @@ Sharing in a workspace will be the same action as adding from a private workspac
 
 [![details team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)
 
-
 <h3 id="rename">Renaming Workspaces</h3>
 
 #### Renaming personal Workspaces 
 
 [![rename personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)
 
-
 #### Renaming team Workspaces 
 
 [![rename team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
-
 
 <h3 id="shareElements">Sharing elements to Workspaces</h3>
 
