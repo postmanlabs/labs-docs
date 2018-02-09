@@ -26,9 +26,9 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Renaming Workspaces](#rename)
 
-* Sharing elements to Workspaces (#shareElements)
+* [Sharing elements to Workspaces](#shareElements)
 
-* Publishing Workspaces(#pub)
+* [Publishing Workspaces](#pub)
 
 **THIS IS A WORKING DRAFT**
 
