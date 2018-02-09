@@ -17,9 +17,14 @@ In the Postman app, click any Workspace that displays in the header bar. Then cl
 
 ### Managing personal Workspaces
 
-By default, you see the personal Workspaces view. In this view, you can click the **Add to workspace** button where you can add collections or environments from another Workspace to the selected Workspace.
+By default, you see the personal Workspaces view. 
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
+
+In this view, you can click the **Add to workspace** button where you can add collections or environments from another Workspace to the selected Workspace.
+
+[![manage personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)
+
 
 When you click the ***Ellipsis (...)*** button to diplay a menu to:
 
