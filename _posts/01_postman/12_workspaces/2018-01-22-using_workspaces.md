@@ -72,8 +72,6 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 
 
-#### Sharing team Workspaces
-
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 
 
@@ -115,6 +113,9 @@ Sharing in a workspace will be the same action as adding from a private workspac
 
 
 #### Viewing details for team Workspaces 
+
+
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 
 [![details team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)
 
