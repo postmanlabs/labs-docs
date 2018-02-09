@@ -12,33 +12,39 @@ warning: false
 
 Here is a list of tasks you can perform in Workspaces:
 
-* [Removing Workspaces](#remove)
+* [Adding Workspaces](#adding-workspaces)
 
-* [Leaving Workspaces](#leave)
+* [Removing Workspaces](#removing-workspaces)
 
-* [Editing descriptions in Workspaces](#edit)
+* [Leaving Workspaces](#leaving-workspaces)
 
-* [Managing team members in Workspaces](#manageTeam)
+* [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)
 
-* [Deleting Workspaces](#delete)
+* [Deleting Workspaces](#deleting-workspaces)
 
-* [Joining Workspaces](#join)
+* [Joining Workspaces](#joining-workspaces)
 
-* [Sharing Workspaces](#share)
+* [Sharing Workspaces](#sharing-workspaces)
 
-* [Sharing collections in Workspaces](#shareCollection)
+* [Sharing collections in Workspaces](#sharing-collections)
 
-* [Viewing details in Workspaces](#view)
+* [Viewing details in Workspaces](#viewing-details-in-workspaces)
 
-* [Renaming Workspaces](#rename)
+* [Renaming Workspaces](#renaming-workspaces)
 
-* [Sharing elements to Workspaces](#shareElements)
+* [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
-* [Publishing Workspaces](#pub)
+* [Publishing Workspaces](#publishing-workspaces)
 
 
 
-<h3 id="remove">Removing Workspaces</h3>
+
+
+### Adding Workspaces
+
+
+
+### Removing Workspaces
 
 #### Removing Workspaces in the sidebar
 
@@ -58,7 +64,7 @@ Removing an entity from any workspace will remove it from that workspace alone. 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
 
 
-<h3 id="join">Joining Workspaces</h3>
+### Joining Workspaces
 
 A user can join a workspace to work on collections, environments, monitors, mocks and integrations in it.
 
@@ -69,7 +75,7 @@ A user can join a workspace to work on collections, environments, monitors, mock
 [![join three](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)
 
 
-<h3 id="share">Sharing Workspaces</h3>
+### Sharing Workspaces
 
 #### Sharing personal Workspaces
 
@@ -112,7 +118,7 @@ Sharing in a workspace will be the same action as adding from a private workspac
 
 [![details team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)
 
-<h3 id="rename">Renaming Workspaces</h3>
+### Renaming Workspaces
 
 #### Renaming personal Workspaces 
 
@@ -122,7 +128,7 @@ Sharing in a workspace will be the same action as adding from a private workspac
 
 [![rename team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
 
-<h3 id="shareElements">Sharing elements to Workspaces</h3>
+### Sharing elements to Workspaces
 
 In this example, we share a collection to a Workspace.
 
@@ -130,11 +136,11 @@ In this example, we share a collection to a Workspace.
 
 [![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
-<h3 id="pub">Publishing Workspaces</h3>
+### Publishing Workspaces
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
-<h3 id="leave">Leaving Workspaces</h3>
+### Leaving Workspaces
 
 [![leave workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)
 
@@ -143,6 +149,6 @@ In this example, we share a collection to a Workspace.
 [![edit descr]()]()
 
 
-<h3 id="manageTeam">Managing team members in Workspaces</h3>
+### Publishing Workspaces
 
 [![manage team]()]()
