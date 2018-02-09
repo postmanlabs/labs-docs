@@ -7,7 +7,21 @@ page_id: "managing_workspaces"
 warning: false
 ---
 
-                                          **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
+                                   **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
+
+You can manage your Workspaces to do stuff such as blah, blah, blah.
+
+[![manage wprkspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
+
+
+
+
+
+
+
+
+
+
 
 
 * [Adding Workspaces](#add)
@@ -16,7 +30,7 @@ warning: false
 
 Every entity will have an additional "add to workspace" operation. On selecting this operation, the user will see a list of workspaces to add the entity to.
 
-[![API lifecycle]()]()
+
 
 [![API lifecycle]()]()
 
