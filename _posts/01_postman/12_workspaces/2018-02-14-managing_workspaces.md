@@ -12,16 +12,13 @@ warning: false
 You can manage your Workspaces to do stuff such as blah, blah, blah.
 
 
-Click any Workspace that displays in the header bar. For example, in the image below, you’d click “My Workspace”. 
-
-
-
+Click any Workspace that displays in the header bar. Then click "Manage" to display the Workplaces dashboard.
 
 [![manage wprkspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
+By default, you see the personal Workspaces view. In this view, you can click the **Add to workspace** where you can add collections or environments from another Workspace to the currently selected Workspace.
 
-
-
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png
 
 
 
