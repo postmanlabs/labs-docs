@@ -9,7 +9,10 @@ warning: false
 
                                    **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
 
-You can manage your Workspaces to do stuff such as blah, blah, blah.
+You can manage your personal and team Workspaces. Both types of Workspaces enable you to view details, rename, edit descriptions, and delete. 
+
+
+Only personal Workspaces be hFor personal Workspaces users can share personal Workspaces, and leave and manage
 
 
 Click any Workspace that displays in the header bar. Then click "Manage" to display the Workplaces dashboard.
