@@ -30,7 +30,7 @@ If you select "Team", enter the name and description. If you decide instead to c
 [![create new team workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNewWorkspace-modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNewWorkspace-modal.png)
 
 
-You can also create a new Workspace in the [Workspaces Dashboard](https://cooper.postman-beta.co/workspaces?type=personal){:target="_blank"}. Click the **Create a new workspace** button and follow the steps on how to create a personal or team Workspace in the "Personal" and "Team" sections above.
+You can also create a new Workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. Click the **Create a new workspace** button and follow the steps on how to create a personal or team Workspace in the "Personal" and "Team" sections above.
  
  [![create new workspace dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-allWorkspaces-main.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-allWorkspaces-main.png)
  
