@@ -16,6 +16,8 @@ Click any Workspace that displays in the header bar. Then click "Manage" to disp
 
 [![manage workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
+### Managing personal Workspaces
+
 By default, you see the personal Workspaces view. In this view, you can click the **Add to workspace** where you can add collections or environments from another Workspace to the currently selected Workspace.
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
@@ -35,6 +37,8 @@ When you click the ***Ellipsis (...)*** button to diplay a menu to:
 You can also click the **Create a new workplace** button to [create a new personal or team Workspace](/docs/postman/workspaces/creating_workspaces){:target="_blank"}.
 
 
+### Managing team Workspaces
+
 In the team Workspaces view, you can click the ***Ellipsis (...)*** button to diplay a menu to:
 
 * [View details about your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
@@ -50,24 +54,3 @@ In the team Workspaces view, you can click the ***Ellipsis (...)*** button to di
 * [Delete a team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}. 
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
-
-
-
-
-<h3 id="add">Adding Workspaces</h3>
-
-Every entity will have an additional "add to workspace" operation. On selecting this operation, the user will see a list of workspaces to add the entity to.
-
-
-
-[![API lifecycle]()]()
-
-[![API lifecycle]()]()
-
-[![API lifecycle]()]()
-
-[![API lifecycle]()]()
-
-[![API lifecycle]()]()
-
-[![API lifecycle]()]()
