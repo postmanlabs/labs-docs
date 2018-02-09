@@ -52,7 +52,15 @@ Removing an entity from any workspace will remove it from that workspace alone. 
 
 <h3 id="join">Joining Workspaces</h3>
 
-A user can join a workspace to work on collections, environments, monitors, mocks and integrations within it.
+A user can join a workspace to work on collections, environments, monitors, mocks and integrations in it.
+
+[![join ws menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-WS-mainScreen-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-WS-mainScreen-menu.png)
+
+[![join two](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-second-step.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-second-step.png)
+
+[![join three](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step.png)
+
+
 
 #<h3 id="share">Sharing Workspaces</h3>
 
@@ -79,7 +87,10 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 
 
+**Sharing collections in the sidebar**
 
+
+[![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
 
 
 
@@ -90,16 +101,4 @@ Sharing in a workspace will be the same action as adding from a private workspac
 
 <h3 id="">Restoring windows in a Workspace</h3>
 
-Text goes here.
 
-
-
-
-
-
-
-
-### ? Using workspace control for Enterprise accounts
-
-Visibility for only a few people
-Control publishing to public workspaces
