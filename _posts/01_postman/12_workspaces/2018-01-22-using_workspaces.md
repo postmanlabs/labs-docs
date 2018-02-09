@@ -30,7 +30,9 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Publishing Workspaces](#pub)
 
-**THIS IS A WORKING DRAFT**
+
+
+                                               **THIS IS A WORKING DRAFT**
 
 
 <h3 id="remove">Removing Workspaces</h3>
