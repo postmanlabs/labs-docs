@@ -10,25 +10,21 @@ warning: false
          **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
 
 | [Adding Workspaces](#adding-workspaces) |  [Removing Workspaces](#removing-workspaces) | 
-| [Leaving Workspaces](#leaving-workspaces) |    [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)  | 
+
+| [Leaving Workspaces](#leaving-workspaces) | [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)  | 
+
 | [Deleting Workspaces](#deleting-workspaces) | [Joining Workspaces](#joining-workspaces) |   
+
 | [Sharing Workspaces](#sharing-workspaces) | [Sharing collections in Workspaces](#sharing-collections) | 
+
 | [Viewing details in Workspaces](#viewing-details-in-workspaces) | [Renaming Workspaces](#renaming-workspaces) | 
+
 | [Sharing elements to Workspaces](#sharing-elements-to-workspaces) | [Publishing Workspaces](#publishing-workspaces) | 
 
 
 
 
 
-
-
-||||
-
-|[Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)|[Deleting Workspaces](#deleting-workspaces)| [Joining Workspaces](#joining-workspaces)  |
-
-|[Sharing Workspaces](#sharing-workspaces)|[Sharing collections in Workspaces](#sharing-collections)|[Viewing details in Workspaces](#viewing-details-in-workspaces)|
-
-|[Renaming Workspaces](#renaming-workspaces)|[Sharing elements to Workspaces](#sharing-elements-to-workspaces)|[Publishing Workspaces](#publishing-workspaces)|
 
 
 Here is a list of tasks you can perform in Workspaces:
