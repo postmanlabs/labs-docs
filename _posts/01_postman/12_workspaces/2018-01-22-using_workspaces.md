@@ -6,7 +6,7 @@ title: "Using Workspaces"
 page_id: "using_workspaces"
 warning: false
 ---
-
+[![API lifecycle]()]()
 
 Here is a list of tasks you can perform in Workspaces:
 
@@ -61,10 +61,18 @@ A user can join a workspace to work on collections, environments, monitors, mock
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)
 
 
+**Sharing collections with the Embed or Run In Postman button**
+
+[![share embed-rip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)
+
+**Sharing collection with a link**
+
+[![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
+
+
+**Sharing personal Workspaces**
+
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
-
-
-
 
 
 [![API lifecycle]()]()
