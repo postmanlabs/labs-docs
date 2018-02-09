@@ -24,6 +24,8 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Renaming Workspaces](#rename)
 
+* Sharing collections
+
 **THIS IS A WORKING DRAFT**
 
 
@@ -71,10 +73,6 @@ A user can join a workspace to work on collections, environments, monitors, mock
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
 
 
-
-[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
-
-
 [![API lifecycle]()]()
 
 
@@ -93,10 +91,6 @@ A user can join a workspace to work on collections, environments, monitors, mock
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
 
-
-
-
-
 #### Sharing collections in the sidebar
 
 
@@ -107,7 +101,6 @@ Sharing in a workspace will be the same action as adding from a private workspac
 <h3 id="view">Viewing Details</h3>
 
 #### Viewing details for personal Workspaces 
-
 
 [![details personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)
 
@@ -121,7 +114,6 @@ Sharing in a workspace will be the same action as adding from a private workspac
 
 
 <h3 id="rename">Renaming Workspaces</h3>
-
 
 #### Renaming personal Workspaces 
 
