@@ -73,7 +73,7 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 [![join two](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-second-step.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-second-step.png)
 
-[![join three](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step.png)
+[![join three](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)
 
 #<h3 id="share">Sharing Workspaces</h3>
 
