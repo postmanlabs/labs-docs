@@ -7,6 +7,8 @@ page_id: "using_workspaces"
 warning: false
 ---
 
+                                                  **THIS IS A WORKING DRAFT**
+
 
 Here is a list of tasks you can perform in Workspaces:
 
@@ -36,9 +38,6 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Publishing Workspaces](#pub)
 
-
-
-                                               **THIS IS A WORKING DRAFT**
 
 
 <h3 id="remove">Removing Workspaces</h3>
