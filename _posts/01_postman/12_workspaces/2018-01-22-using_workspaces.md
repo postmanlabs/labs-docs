@@ -59,7 +59,7 @@ In the Add to this Workspace page, select the source Workspace that contains the
 
 [![manage personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)
 
-Click the **Add to this Workspace** button. The element(s) appear in your list of collections or environments.
+Click the **Add to this Workspace** button. The element(s) appear in your list of collections or environments in the target Workspace.
 
 
 ### Removing Workspaces
