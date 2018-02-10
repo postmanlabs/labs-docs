@@ -57,16 +57,24 @@ In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
 
 When you click a personal or team Workspace, it opens a page that lists any collection, environment, monitor, mock
-integration, and activity associated with that Workspace. "Collections" is the default view so you see all the collection in this Workspace. If you click the **Share** button, you can [share this collection] with another Workspace. Click the ***Ellipsis (...)*** button to [publish] or [remove the collection].
+integration, and activity associated with that Workspace.  
+
+If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another Workspace. Click the ***Ellipsis (...)*** button to [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [remove the collection](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
 Postman makes it easy to:
 
-Add environments to this Workspace or create an environment in the Postman app.
-Monitor a collection in this Workspace.
-Create a mock server in the Postman app 
-Create a Workspace integration and view third party integration apps
+[Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create a collection](){:target="_blank"}  in the Postman app.
+
+[Add environments to this Workspace] or [create an environment](/docs/postman/environments_and_globals/manage_environments){:target="_blank"}  in the Postman app.
+
+[Monitor a collection](){:target="_blank"} in this Workspace.
+
+[Create a mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} in the Postman app 
+
+Create a Workspace integration and view third party integration apps(){:target="_blank"}
+
 See the activity feed for this Workspace.
 
 
