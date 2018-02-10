@@ -17,8 +17,6 @@ In this topic, you'll learn how to perform actions on Workspaces and how to use 
 
 **Performing actions in Workspaces**
 
-* [Removing Workspaces](#removing-workspaces)
-
 * [Leaving Workspaces](#leaving-workspaces)
 
 * [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)
@@ -44,8 +42,7 @@ In this topic, you'll learn how to perform actions on Workspaces and how to use 
 
 * [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
-
-
+* [Removing elements from Workspaces](#removing-elements-from-workspaces)
 
 
 ### Adding collections and environments from another Workspace
@@ -65,11 +62,14 @@ Click the **Add to this Workspace** button. The element(s) appear in your list o
 [![elements list](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
 
-### Removing Workspaces
+### Removing elements from Workspaces
+
+When you remove a Workspace, it is no longer visible in that particular Workspace. You can still get that element in any other Workspace where it exists.
+
+You can remove an ele
+
 
 #### Removing Workspaces in the sidebar
-
-Removing an entity from any workspace will remove it from that workspace alone. "Remove" will remove an entity from that workspace alone. If the entity exists in any other workspace, they won't be affected. "Delete" will remove the entity from ALL workspaces.
 
 [![remove sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)
 
