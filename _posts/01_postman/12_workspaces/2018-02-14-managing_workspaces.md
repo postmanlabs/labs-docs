@@ -66,7 +66,7 @@ When you click a personal or team Workspace, you can see all the collections, en
 
 If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another Workspace. 
 
-Click the ***Ellipsis (...)*** button to [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [remove the collection](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+If you click the ***Ellipsis (...)*** button, you can [remove any element](/docs/postman/workspaces/using_workspaces){:target="_blank"} from the Workspace, and [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} collections.
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
@@ -74,27 +74,27 @@ Let's explore how to manage elements of a Workspace.
 
 **Collections**
 
-Collection is the default view. You can [add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create a collection](){:target="_blank"} in the Postman app.
+Collection is the default view. [Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create a collection](/docs/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app.
 
 **Environments**
 
-You can add environments to this Workspace or [create an environment](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app.
+Add environments to this Workspace or [create an environment](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app. After you add environments, you can share it with other Workplaces.
 
 **Monitors**
 
-You can monitor a collection in this Workspace.
+Create monitors to track the performance of collections in a Workspace. You can wait to see performanance at the scheduled run time, or click the Run button to see performance results now.
 
 **Mocks**
 
-You can [create a mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} in the Postman app 
+[Create a mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} to simulate each endpoint and its corresponding environment in a collection, before sending the actual request. Postman redirects you to the app to create the mock server.
 
 **Integrations**
 
-Create a Workspace integration or view [third party integration apps](/docs/pro/integrations/intro_integrations){:target="_blank"}
+View a list of integrations or create a Workspace integration. If you create an integration, Postman provides a list of [third party integration apps](/docs/pro/integrations/intro_integrations){:target="_blank"} to help you create the type of integration you want.
 
 **Activity** 
 
-* See the activity feed for this Workspace.
+View a list of activities for this Workspace.
 
 
 
