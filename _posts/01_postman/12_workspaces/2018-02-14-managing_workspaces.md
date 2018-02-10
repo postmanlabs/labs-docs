@@ -64,17 +64,17 @@ If you click the **Share** button, you can [share this collection](/docs/postman
 
 If you click the ***Ellipsis (...)*** button, you can [remove any element](/docs/postman/workspaces/using_workspaces){:target="_blank"} from the Workspace, and [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} collections.
 
-[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)
+[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 Let's explore how to manage Workspace elements.
 
 **Collections**
 
-Collection is the default view. [Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create collections](/docs/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app.
+[Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create collections](/docs/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app. Collection is the default view.
 
 **Environments**
 
-Add environments to this Workspace or [create environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app. After you add environments, you can share them with other Workplaces.
+Add environments to this Workspace or [create environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app. After you add environments, you can share them with other Workspaces.
 
 **Monitors**
 
