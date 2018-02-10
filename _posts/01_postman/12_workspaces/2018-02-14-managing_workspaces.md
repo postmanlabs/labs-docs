@@ -7,7 +7,7 @@ page_id: "managing_workspaces"
 warning: false
 ---
 
-You can manage your personal and team Workspaces, and perform such tasks as editing names and descriptions, viewing details, and much more.
+You can manage your personal and team Workspaces. You can perform such tasks as editing names and descriptions, viewing details, and much more.
 
 In the Postman app, click any Workspace that displays in the header bar. In the image below, it's "Team Workspace".
 
@@ -17,7 +17,7 @@ Click "Manage" to display the [Workplaces dashboard](https://app.getpostman.com/
 
 ### Managing personal Workspaces
 
-By default, you see the personal Workspaces view. 
+By default, the personal Workspaces view appears. 
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
