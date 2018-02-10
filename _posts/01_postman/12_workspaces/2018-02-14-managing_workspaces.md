@@ -7,13 +7,20 @@ page_id: "managing_workspaces"
 warning: false
 ---
 
+                    **THIS IS A WORKING DRAFT**
+
+
+
+
 You can manage your personal and team Workspaces. You can perform such tasks as editing names and descriptions, viewing details, and much more.
+
+You can perform such tasks as editing names and descriptions, viewing details, and much more.
 
 In the Postman app, click any Workspace that displays in the header bar. In the image below, it's "Team Workspace".
 
 [![manage workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
-Click "Manage" to display the [Workplaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
+Click "Manage" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
 
 ### Managing personal Workspaces
 
@@ -55,7 +62,10 @@ In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 * [Delete a team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}. 
 
 
-### Managing Workspaces and Postman elements
+### Managing Workspace elements
+
+When you click a personal or team Workspace, you can see all the collections, environments, monitors, mocks, integrations, and activity of that Workspace.
+
 
 When you click a personal or team Workspace, you can:
 
@@ -68,8 +78,6 @@ When you click a personal or team Workspace, you can:
 If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another Workspace. Click the ***Ellipsis (...)*** button to [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [remove the collection](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
-
-Postman makes it easy to:
 
 * [Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create a collection](){:target="_blank"} in the Postman app.
 
