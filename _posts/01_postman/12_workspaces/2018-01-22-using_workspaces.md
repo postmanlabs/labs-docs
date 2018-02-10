@@ -17,7 +17,7 @@ Read this topic to learn how to perform actions on Workspaces and how to use the
 
 **Performing actions in Workspaces**
 
-* [Adding Workspaces](#adding-workspaces)
+
 
 * [Removing Workspaces](#removing-workspaces)
 
@@ -38,16 +38,18 @@ Read this topic to learn how to perform actions on Workspaces and how to use the
 
 **Using Workspaces with Postman elements**
 
+* [Adding collections and environments from another Workspace](#adding-collections and environments from another workspacs)  
+
+* [Publishing Workspaces](#publishing-workspaces)
+
 * [Sharing collections in Workspaces](#sharing-collections)
 
 * [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
-* [Publishing Workspaces](#publishing-workspaces)
 
 
 
-
-### Adding Workspaces
+### Adding collections and environments from another Workspace
 
 How to add a workspace.
 
