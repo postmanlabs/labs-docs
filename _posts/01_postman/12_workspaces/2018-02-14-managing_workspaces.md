@@ -70,7 +70,7 @@ Let's explore how to manage Workspace elements.
 
 **Collections**
 
-[Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create collections](/docs/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app. Collection is the default view.
+[Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create collections](/docs/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app. Collections is the default view.
 
 **Environments**
 
