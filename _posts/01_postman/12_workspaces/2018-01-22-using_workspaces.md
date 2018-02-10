@@ -63,7 +63,7 @@ Click the **Add to this Workspace** button. The element(s) appear in your list o
 
 ### Removing elements from Workspaces
 
-When you remove a Workspace, it is no longer visible in that particular Workspace. The element is still available in any other Workspace where it exists. 
+When you remove a Workspace, it is no longer visible in that particular Workspace. The element is still available in any other Workspace where it exists. You cannot remove the "Activity" feed.
 
 You can remove an element from a Workspace in the Postman app sidebar, or in the Workspaces dashboard.
 
@@ -81,16 +81,22 @@ Click "Remove from Workspace". The collection is no longer visible in the Worksp
 
 In the Workspaces dashboard, click an element. In this example, we click "Collections".
 
-Click the **Share** button and select "Remove from workspace". The Workspace is no longer visible in the Workspace in the header bar.
+Click the **Ellipsis** button in the element you want to remove and select "Remove from workspace". The Workspace is no longer visible in the Workspace that appears in the header bar.
 
 [![remove dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 
 ### Deleting Workspaces
 
-When you delete an element, you completely eliminate it from Postman.
+When you delete an element, you erase its existence in Postman. You cannot delete the "Activity" feed.
 
+To delete Workspace, go to the Workspaces dashboard and select a Workspace. In this example, we select a team Workspace to delete.
 
+Click the **Ellipsis** button in the element you want to delete and select "Delete".
+
+[![delete workspace menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
+
+In "Delete Workspace", click the **Delete** button. Remember when you delete a Workspace, it is gone forever!
 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
 
