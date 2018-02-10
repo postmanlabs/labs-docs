@@ -12,12 +12,10 @@ warning: false
 
 Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity Workspaces can provide.
 
-Read this topic to learn how to perform actions on Workspaces and how to use them to work with Postman elements.
+In this topic, you'll learn how to perform actions on Workspaces and how to use them to work with Postman elements.
 
 
 **Performing actions in Workspaces**
-
-* [Adding Workspaces](#adding-workspaces)
 
 * [Removing Workspaces](#removing-workspaces)
 
@@ -38,18 +36,33 @@ Read this topic to learn how to perform actions on Workspaces and how to use the
 
 **Using Workspaces with Postman elements**
 
+* [Adding collections and environments from another Workspace](#adding-collections-and-environments-from-another-workspace)  
+
+* [Publishing Workspaces](#publishing-workspaces)
+
 * [Sharing collections in Workspaces](#sharing-collections)
 
 * [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
-* [Publishing Workspaces](#publishing-workspaces)
 
 
 
+### Adding collections and environments from another Workspace
 
-### Adding Workspaces
+You can add collections or environments from one Workspace to another personal or team Workspace. 
 
-How to add a workspace.
+In the [Workplaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace and click the **Add to workspace** button. The personal Workspaces view appears by default. Click "Team" to add collections or environments to team Workspaces.
+
+[![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
+
+In the Add to this Workspace page, select the source Workspace that contains the collection or environment you want to add. Then click "Collection" or "Environment" and select the element(s) you want.
+
+[![another workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)
+
+Click the **Add to this Workspace** button. The element(s) appear in your list of collections or environments in the target Workspace.
+
+[![elements list](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
+
 
 ### Removing Workspaces
 
