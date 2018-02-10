@@ -55,9 +55,7 @@ In the [Workplaces dashboard](https://app.getpostman.com/dashboard){:target="_bl
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
-In the Add to this Workspace page, select the source Workspace that contains the collection or environment you want to add.
-
-Click "Collection" or "Environment" and select the element(s) you want.
+In the Add to this Workspace page, select the source Workspace that contains the collection or environment you want to add. Then click "Collection" or "Environment" and select the element(s) you want.
 
 [![manage personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)
 
