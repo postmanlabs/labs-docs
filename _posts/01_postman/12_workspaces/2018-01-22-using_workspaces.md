@@ -12,7 +12,7 @@ warning: false
 
 Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity Workspaces can provide.
 
-Read this topic to learn how to perform actions in Workspaces and how to use Workspaces to work with Postman elements.
+Read this topic to learn how to perform actions on Workspaces and how to use them to work with Postman elements.
 
 
 **Performing actions in Workspaces**
