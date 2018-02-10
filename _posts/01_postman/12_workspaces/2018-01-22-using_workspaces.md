@@ -57,9 +57,11 @@ In the [Workplaces dashboard](https://app.getpostman.com/dashboard){:target="_bl
 
 In the Add to this Workspace page, select the source Workspace that contains the collection or environment you want to add. Then click "Collection" or "Environment" and select the element(s) you want.
 
-[![manage personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)
+[![another workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)
 
 Click the **Add to this Workspace** button. The element(s) appear in your list of collections or environments in the target Workspace.
+
+[![elements list](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
 
 ### Removing Workspaces
