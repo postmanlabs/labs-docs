@@ -9,25 +9,13 @@ warning: false
 
          **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
 
-| [Adding Workspaces](#adding-workspaces) |:  [Removing Workspaces](#removing-workspaces) | 
 
-| [Leaving Workspaces](#leaving-workspaces) | [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)  | 
+Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity Workspaces can provide.
 
-| [Deleting Workspaces](#deleting-workspaces)| [Joining Workspaces](#joining-workspaces) |   
-
-| [Sharing Workspaces](#sharing-workspaces) | [Sharing collections in Workspaces](#sharing-collections) | 
-
-| [Viewing details in Workspaces](#viewing-details-in-workspaces) | [Renaming Workspaces](#renaming-workspaces) | 
-
-| [Sharing elements to Workspaces](#sharing-elements-to-workspaces) | [Publishing Workspaces](#publishing-workspaces) | 
+This topic provides all the actions you can perform in Workspaces and 
 
 
-
-
-
-
-
-Here is a list of tasks you can perform in Workspaces:
+Performing actions in Workspaces
 
 * [Adding Workspaces](#adding-workspaces)
 
@@ -43,15 +31,18 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Sharing Workspaces](#sharing-workspaces)
 
-* [Sharing collections in Workspaces](#sharing-collections)
-
 * [Viewing details in Workspaces](#viewing-details-in-workspaces)
 
 * [Renaming Workspaces](#renaming-workspaces)
 
+Using Workspaces with Postman elements
+
 * [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
 * [Publishing Workspaces](#publishing-workspaces)
+
+* [Sharing collections in Workspaces](#sharing-collections)
+
 
 
 
