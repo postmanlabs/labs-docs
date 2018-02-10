@@ -49,15 +49,15 @@ In this topic, you'll learn how to perform actions on Workspaces and how to use 
 
 ### Adding collections and environments from another Workspace
 
-You can add collections or environments from another Workspace for your personal or team Workspaces. The personal Workspaces view appears by default. Click "Team" to add collections or environments to team Workspaces.
+You can add collections or environments from one Workspace to another personal or team Workspace. 
 
-In the [Workplaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace and click the **Add to workspace** button.
+In the [Workplaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace and click the **Add to workspace** button. The personal Workspaces view appears by default. Click "Team" to add collections or environments to team Workspaces.
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
 In the Add to this Workspace page, select the source Workspace that contains the collection or environment you want to add.
 
-Click "Collection" or "Environment" and select the element you want to add.
+Click "Collection" or "Environment" and select the element(s) you want.
 
 [![manage personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)
 
