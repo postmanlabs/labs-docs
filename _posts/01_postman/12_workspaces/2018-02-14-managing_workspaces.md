@@ -14,11 +14,11 @@ In the Postman app, click any Workspace that displays in the header bar. In the 
 
 [![manage workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
-Click "Manage" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
+Click "Manage" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}in your web browser.
 
 ### Managing personal Workspaces
 
-By default, the personal Workspaces view appears in your web browser. 
+By default, the personal Workspaces view appears. 
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
