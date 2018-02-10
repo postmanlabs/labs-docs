@@ -22,7 +22,7 @@ By default, the personal Workspaces view appears.
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
-In this view, click the **Add to workspace** button to [add collections or environments from another Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} to the selected Workspace.
+In this view, click the **Add to workspace** button to [add collections or environments from another Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} to the selected Workspace. You can also perform this action in the team Workspace view.
 
 Click the ***Ellipsis (...)*** button to:
 
@@ -64,7 +64,7 @@ If you click the **Share** button, you can [share this collection](/docs/postman
 
 If you click the ***Ellipsis (...)*** button, you can [remove any element](/docs/postman/workspaces/using_workspaces){:target="_blank"} from the Workspace, and [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} collections.
 
-[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 Let's explore how to manage Workspace elements.
 
