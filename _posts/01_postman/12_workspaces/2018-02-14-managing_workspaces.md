@@ -64,7 +64,7 @@ If you click the **Share** button, you can [share this collection](/docs/postman
 
 If you click the ***Ellipsis (...)*** button, you can [remove any element](/docs/postman/workspaces/using_workspaces){:target="_blank"} from the Workspace, and [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} collections.
 
-[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)
+[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 Let's explore how to manage Workspace elements.
 
