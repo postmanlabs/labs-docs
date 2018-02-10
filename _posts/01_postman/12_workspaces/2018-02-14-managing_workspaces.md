@@ -70,11 +70,11 @@ Let's explore how to manage Workspace elements.
 
 **Collections**
 
-Collection is the default view. [Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create collections](/docs/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app.
+[Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create collections](/docs/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app. Collection is the default view.
 
 **Environments**
 
-Add environments to this Workspace or [create environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app. After you add environments, you can share them with other Workplaces.
+Add environments to this Workspace or [create environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app. After you add environments, you can share them with other Workspaces.
 
 **Monitors**
 
