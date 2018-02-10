@@ -18,7 +18,7 @@ Click "Manage" to display the [Workspaces dashboard](https://app.getpostman.com/
 
 ### Managing personal Workspaces
 
-By default, the personal Workspaces view appears. 
+By default, the personal Workspaces view appears in your web browser. 
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
