@@ -61,6 +61,14 @@ integration, and activity associated with that Workspace. "Collections" is the d
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
+Postman makes it easy to:
+
+Add environments to this Workspace or create an environment in the Postman app.
+Monitor a collection in this Workspace.
+Create a mock server in the Postman app 
+Create a Workspace integration and view third party integration apps
+See the activity feed for this Workspace.
+
 
 
 
