@@ -12,8 +12,7 @@ warning: false
 
 Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity Workspaces can provide.
 
-In this topic, you'll learn how to perform actions on Workspaces and how to use them to work with Postman elements.
-
+In this topic, you'll learn how to perform actions on Workspaces and how to use Workspaces to work with Postman elements.
 
 **Performing actions in Workspaces**
 
@@ -64,22 +63,33 @@ Click the **Add to this Workspace** button. The element(s) appear in your list o
 
 ### Removing elements from Workspaces
 
-When you remove a Workspace, it is no longer visible in that particular Workspace. You can still get that element in any other Workspace where it exists.
+When you remove a Workspace, it is no longer visible in that particular Workspace. The element is still available in any other Workspace where it exists. 
 
-You can remove an ele
+You can remove an element from a Workspace in the Postman app sidebar, or in the Workspaces dashboard.
 
 
-#### Removing Workspaces in the sidebar
+#### Removing collections from a Workspace in the sidebar
+
+In the Postman app, select a collection and click the **Ellipses** button.
+
+Click "Remove from Workspace". The collection is no longer visible in the Workspace the appears in the header bar.
 
 [![remove sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)
 
 
-#### Removing Workspaces in the dashboard
+#### Removing elements from a Workspace in the dashboard
 
-[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+In the Workspaces dashboard, click an element. In this example, we click "Collections".
+
+Click the **Share** button and select "Remove from workspace". The Workspace is no longer visible in the Workspace in the header bar.
+
+[![remove dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 
 ### Deleting Workspaces
+
+When you delete an element, you completely eliminate it from Postman.
+
 
 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
