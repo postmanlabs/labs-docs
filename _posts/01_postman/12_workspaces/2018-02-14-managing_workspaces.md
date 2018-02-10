@@ -17,11 +17,11 @@ Click "Manage" to display the [Workplaces dashboard](https://app.getpostman.com/
 
 ### Managing personal Workspaces
 
-By default, you see the personal Workspaces view. 
+By default, the personal Workspaces view appears. 
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
-In this view, you can click the **Add to workspace** button to add collections or environments from another Workspace to the selected Workspace.
+In this view, click the **Add to workspace** button to add collections or environments from another Workspace to the selected Workspace.
 
 [![manage personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-to-WS.png)
 
