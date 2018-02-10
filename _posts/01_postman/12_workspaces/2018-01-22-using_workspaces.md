@@ -15,7 +15,7 @@ Workspaces is an easy and efficient way to collaborate with a group of users to 
 This topic provides all the actions you can perform in Workspaces and 
 
 
-Performing actions in Workspaces
+**Performing actions in Workspaces**
 
 * [Adding Workspaces](#adding-workspaces)
 
@@ -35,7 +35,7 @@ Performing actions in Workspaces
 
 * [Renaming Workspaces](#renaming-workspaces)
 
-Using Workspaces with Postman elements
+**Using Workspaces with Postman elements**
 
 * [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
