@@ -9,25 +9,13 @@ warning: false
 
          **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
 
-| [Adding Workspaces](#adding-workspaces) |:  [Removing Workspaces](#removing-workspaces) | 
 
-| [Leaving Workspaces](#leaving-workspaces) | [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)  | 
+Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity Workspaces can provide.
 
-| [Deleting Workspaces](#deleting-workspaces)| [Joining Workspaces](#joining-workspaces) |   
-
-| [Sharing Workspaces](#sharing-workspaces) | [Sharing collections in Workspaces](#sharing-collections) | 
-
-| [Viewing details in Workspaces](#viewing-details-in-workspaces) | [Renaming Workspaces](#renaming-workspaces) | 
-
-| [Sharing elements to Workspaces](#sharing-elements-to-workspaces) | [Publishing Workspaces](#publishing-workspaces) | 
+Read this topic to learn how to perform actions on Workspaces and how to use them to work with Postman elements.
 
 
-
-
-
-
-
-Here is a list of tasks you can perform in Workspaces:
+**Performing actions in Workspaces**
 
 * [Adding Workspaces](#adding-workspaces)
 
@@ -43,11 +31,14 @@ Here is a list of tasks you can perform in Workspaces:
 
 * [Sharing Workspaces](#sharing-workspaces)
 
-* [Sharing collections in Workspaces](#sharing-collections)
-
 * [Viewing details in Workspaces](#viewing-details-in-workspaces)
 
 * [Renaming Workspaces](#renaming-workspaces)
+
+
+**Using Workspaces with Postman elements**
+
+* [Sharing collections in Workspaces](#sharing-collections)
 
 * [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
@@ -56,10 +47,9 @@ Here is a list of tasks you can perform in Workspaces:
 
 
 
-
 ### Adding Workspaces
 
-
+How to add a workspace.
 
 ### Removing Workspaces
 
@@ -75,7 +65,7 @@ Removing an entity from any workspace will remove it from that workspace alone. 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 
-<h3 id="delete">Deleting a workspace</h3>
+### Deleting a workspace
 
 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
@@ -102,7 +92,7 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 [![blank]()]()
 
-<h3 id="shareCollection">Sharing collections in Workspaces</h3>
+### Sharing collections in Workspaces
 
 #### Sharing collections
 
@@ -123,7 +113,7 @@ A user can join a workspace to work on collections, environments, monitors, mock
 
 Sharing in a workspace will be the same action as adding from a private workspace to a team, public or enterprise workspace. However, when an item is shared with a team, it will have an additional owner (the team). If an item is removed from the default workspace of a user, it will still remain in the team's default workspace and will have to be explicitly removed from the team by the team admin or someone with edit access.
 
-<h3 id="view">Viewing Details</h3>
+### Viewing Details
 
 #### Viewing details for personal Workspaces 
 
@@ -161,10 +151,9 @@ In this example, we share a collection to a Workspace.
 
 [![leave workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)
 
-<h3 id="edit">Editing descriptions in Workspaces</h3>
+### Editing descriptions in Workspaces
 
 [![edit descr]()]()
-
 
 ### Publishing Workspaces
 
