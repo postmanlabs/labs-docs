@@ -55,9 +55,15 @@ In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 * [Delete a team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}. 
 
 
+### Managing Workspaces and Postman elements
 
-When you click a personal or team Workspace, you can view or add collections, environments, monitors, mocks,
-configure integrations, and see all Workspaces activity.  
+When you click a personal or team Workspace, you can:
+
+* View or add collections, environments, monitors, and mocks.
+
+* Configure integrations
+
+* See all Workspaces activity.  
 
 If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another Workspace. Click the ***Ellipsis (...)*** button to [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [remove the collection](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
@@ -65,7 +71,7 @@ If you click the **Share** button, you can [share this collection](/docs/postman
 
 Postman makes it easy to:
 
-* [Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create a collection](){:target="_blank"}  in the Postman app.
+* [Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create a collection](){:target="_blank"} in the Postman app.
 
 * Add environments to this Workspace or [create an environment](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app.
 
@@ -73,7 +79,7 @@ Postman makes it easy to:
 
 * [Create a mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} in the Postman app 
 
-* Create a Workspace integration and view [third party integration apps](/docs/pro/integrations/intro_integrations){:target="_blank"}
+* Create a Workspace integration or view [third party integration apps](/docs/pro/integrations/intro_integrations){:target="_blank"}
 
 * See the activity feed for this Workspace.
 
