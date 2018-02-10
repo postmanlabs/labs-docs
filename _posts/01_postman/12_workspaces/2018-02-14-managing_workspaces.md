@@ -56,7 +56,7 @@ In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
 
 
-When you click a personal or team Workspace, you can view or add collections, environments, monitors, mocks.
+When you click a personal or team Workspace, you can view or add collections, environments, monitors, mocks,
 configure integrations, and see all Workspaces activity.  
 
 If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another Workspace. Click the ***Ellipsis (...)*** button to [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [remove the collection](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
