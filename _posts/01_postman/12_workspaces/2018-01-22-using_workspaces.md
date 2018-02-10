@@ -47,6 +47,7 @@ In this topic, you'll learn how to perform actions on Workspaces and how to use 
 
 
 
+
 ### Adding collections and environments from another Workspace
 
 You can add collections or environments from one Workspace to another personal or team Workspace. 
