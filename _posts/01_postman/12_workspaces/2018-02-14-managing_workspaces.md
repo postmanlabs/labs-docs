@@ -12,7 +12,7 @@ warning: false
 
 
 
-You can manage your personal and team Workspaces. You can perform such tasks as editing names and descriptions, viewing details, and much more.
+You can manage personal and team Workspaces, and the Postman elements associated with a Workspace. You can perform such tasks as editing names and descriptions, viewing details, creating elements for Workspaces, and much more.
 
 In the Postman app, click any Workspace that displays in the header bar. In the image below, it's "Team Workspace".
 
@@ -70,7 +70,7 @@ If you click the ***Ellipsis (...)*** button, you can [remove any element](/docs
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
-Let's explore how to manage elements of a Workspace.
+Let's explore how to manage Workspace elements.
 
 **Collections**
 
