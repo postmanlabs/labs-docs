@@ -68,15 +68,29 @@ If you click the **Share** button, you can [share this collection](/docs/postman
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
-* [Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create a collection](){:target="_blank"} in the Postman app.
+### Elements
 
-* Add environments to this Workspace or [create an environment](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app.
+**Collections**
 
-* Monitor a collection in this Workspace.
+Collection is the default view. You can [add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create a collection](){:target="_blank"} in the Postman app.
 
-* [Create a mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} in the Postman app 
+**Environments**
 
-* Create a Workspace integration or view [third party integration apps](/docs/pro/integrations/intro_integrations){:target="_blank"}
+You can add environments to this Workspace or [create an environment](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app.
+
+**Monitors**
+
+You can monitor a collection in this Workspace.
+
+**Mocks**
+
+You can [create a mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} in the Postman app 
+
+**Integrations**
+
+Create a Workspace integration or view [third party integration apps](/docs/pro/integrations/intro_integrations){:target="_blank"}
+
+**Activity** 
 
 * See the activity feed for this Workspace.
 
