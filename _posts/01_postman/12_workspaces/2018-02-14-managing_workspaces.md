@@ -64,11 +64,13 @@ In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
 When you click a personal or team Workspace, you can see all the collections, environments, monitors, mocks, integrations, and activity of that Workspace.  
 
-If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another Workspace. Click the ***Ellipsis (...)*** button to [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [remove the collection](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another Workspace. 
+
+Click the ***Ellipsis (...)*** button to [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [remove the collection](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
-### Elements
+Let's explore how to manage elements of a Workspace.
 
 **Collections**
 
