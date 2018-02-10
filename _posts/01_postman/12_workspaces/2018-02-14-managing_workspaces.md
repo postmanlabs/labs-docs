@@ -7,12 +7,8 @@ page_id: "managing_workspaces"
 warning: false
 ---
 
-                    **THIS IS A WORKING DRAFT**
 
-
-
-
-You can manage personal and team Workspaces, and the Postman elements associated with a Workspace. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for Workspaces.
+You can manage personal and team Workspaces, and the Postman elements (collections, monitors, documentation, mocks, environments, and integrations) associated with a Workspace. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for Workspaces.
 
 In the Postman app, click any Workspace that displays in the header bar. In the image below, it's "Team Workspace".
 
@@ -62,7 +58,7 @@ In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
 ### Managing Workspace elements
 
-When you click a personal or team Workspace, you can see all the collections, environments, monitors, mocks, integrations, and activity of that Workspace.  
+When you click a personal or team Workspace, you can see all the elements and activity of that Workspace.  
 
 If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another Workspace. 
 
