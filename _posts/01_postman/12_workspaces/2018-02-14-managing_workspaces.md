@@ -56,19 +56,18 @@ In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
 
 
-
 When you click a personal or team Workspace, it opens a page that lists any collection, environment, monitor, mock
-integration, and activity associated with that Workspace. 
+integration, and activity associated with that Workspace. "Collections" is the default view so you see all the collection in this Workspace. If you click the **Share** button, you can [share this collection] with another Workspace. Click the ***Ellipsis (...)*** button to [publish] or [remove the collection].
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
-The Workspace dashboard appears. 
 
 
 
 
 
-"Collections" is the default view so you see all the collection in this Workspace. If you click the **Share** button, you can [share this collection] with another Workspace. Click the ***Ellipsis (...)*** button to [publish] or [remove the collection].
+
+
 
 
 
