@@ -12,7 +12,7 @@ warning: false
 
 
 
-You can manage personal and team Workspaces, and the Postman elements associated with a Workspace. You can perform such tasks as editing names and descriptions, viewing details, creating elements for Workspaces, and much more.
+You can manage personal and team Workspaces, and the Postman elements associated with a Workspace. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for Workspaces.
 
 In the Postman app, click any Workspace that displays in the header bar. In the image below, it's "Team Workspace".
 
@@ -74,15 +74,15 @@ Let's explore how to manage Workspace elements.
 
 **Collections**
 
-Collection is the default view. [Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create a collection](/docs/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app.
+Collection is the default view. [Add collections to this Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} or [create collections](/docs/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app.
 
 **Environments**
 
-Add environments to this Workspace or [create an environment](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app. After you add environments, you can share it with other Workplaces.
+Add environments to this Workspace or [create environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app. After you add environments, you can share them with other Workplaces.
 
 **Monitors**
 
-Create monitors to track the performance of collections in a Workspace. You can wait to see performanance at the scheduled run time, or click the Run button to see performance results now.
+[Create monitors](/docs/postman/monitors/setting_up_monitor){:target="_blank"} to track the performance of collections in a Workspace. You can wait to see performanance results at the scheduled run time, or click the **Run** button to see performance results now.
 
 **Mocks**
 
@@ -90,7 +90,7 @@ Create monitors to track the performance of collections in a Workspace. You can 
 
 **Integrations**
 
-View a list of integrations or create a Workspace integration. If you create an integration, Postman provides a list of [third party integration apps](/docs/pro/integrations/intro_integrations){:target="_blank"} to help you create the type of integration you want.
+View a list of current integrations or create Workspace integrations. If you create an integration, Postman provides a list of [third party integration apps](/docs/pro/integrations/intro_integrations){:target="_blank"} to help you create the type of integration you want.
 
 **Activity** 
 
