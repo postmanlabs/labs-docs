@@ -171,7 +171,7 @@ In this example, we share a collection to a Workspace.
 
 ### Publishing Workspaces
 
-Postman enables you to publish your collection and make it availabe to anyone with the published link to access its documentation.
+Postman enables you to [publish your collection]() and make it availabe to anyone with the published link to access its documentation.
 
 To publish a Workspace collection, go to the Workspaces dashboard and click a personal or team Workspace.
 
@@ -192,9 +192,7 @@ In the Publish Collection page, select the:
 
 [![pub workspace2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection.png)
 
-Click the **Publish Collection** button.
-
-
+Click the **Publish Collection** button. Postman generates API documentation for your collections automatically in real-time. 
 
 ### Leaving Workspaces
 
