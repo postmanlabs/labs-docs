@@ -175,7 +175,15 @@ In this example, we share a collection to a Workspace.
 
 ### Publishing Workspaces
 
-[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+To publish a Workspace collection, go to the Workspaces dashboard and click a personal or team Workspace.
+
+In the Collections view, click the **Ellipsis** button and select "Publish".
+
+In the Publish Collection page, select an environment, a custom domain, and custom styling options.
+
+Click the **Publish Collection** button.
+
+[![pub workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 ### Leaving Workspaces
 
