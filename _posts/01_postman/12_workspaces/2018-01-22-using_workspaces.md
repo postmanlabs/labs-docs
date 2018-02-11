@@ -177,6 +177,8 @@ To publish a Workspace collection, go to the Workspaces dashboard and click a pe
 
 In the Collections view, click the ***Ellipsis (...)*** and select "Publish".
 
+[![pub workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+
 In the Publish Collection page, select the:
 
 * Environment
@@ -188,9 +190,11 @@ In the Publish Collection page, select the:
 * Custom styling options
   You can determine the color of the top bar, right side bar, and the highlight.
 
+[![pub workspace2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection.png)
+
 Click the **Publish Collection** button.
 
-[![pub workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+
 
 ### Leaving Workspaces
 
