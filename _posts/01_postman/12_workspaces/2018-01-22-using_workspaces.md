@@ -117,7 +117,6 @@ In the confirmation message, click the **Start Building** button to complete the
 
 [![join three](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)
 
-
 ### Sharing Workspaces
 
 Postman lets you add users to personal Workspaces.
@@ -167,15 +166,24 @@ Select this option to generate a shareable link for others to access your collec
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
 
-### Viewing Details
+### Viewing details in Workspaces
 
-#### Viewing details for personal Workspaces 
+You can view the details of your personal or team Workspaces.
+
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace and click the Ellipsis button. In this example, we use the team Workspace view.
+
+[![view details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
+
+
+#### Viewing details for personal Workspaces
+
+To view the details of your personal Workspaces, select "View Details" from the Ellipsis button menu.
 
 [![details personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)
 
 #### Viewing details for team Workspaces 
 
-[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
+To view the details of your team Workspaces, select "View Details" from the Ellipsis button menu.
 
 [![details team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)
 
