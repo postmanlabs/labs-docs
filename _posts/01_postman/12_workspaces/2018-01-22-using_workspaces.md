@@ -99,11 +99,11 @@ In "Delete Workspace", click the **Delete** button. Remember when you delete a W
 
 ### Joining Workspaces
 
-A user can join a workspace to work on collections, environments, monitors, mocks and integrations in it.
+A user can join a workspace to work on collections, environments, monitors, mocks, and integrations.
 
 To join a Workspace:
 
-In the Postman app and click a Workspace in the header bar.
+In the Postman app, click a Workspace in the header bar, which is "Neutrino level dectection" in this example.
 
 Select "Team" and select a Workspace to join under WORKSPACES YOU CAN JOIN.
 
@@ -122,11 +122,18 @@ In the confirmation message, click the **Start Building** button to complete the
 
 #### Sharing personal Workspaces
 
+Postman lets you add users to personal Workspaces.
+
+In the Workspaces dashboard, select a Workspace you want to share. Next, click the Ellipsis button and select "Share".
+
 [![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
+
+In "Share a personal workspace", select the users you want to add to the Workspace from the "Members" dropdown menu.
 
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
 
-[![blank]()]()
+Click the **Share this workplace** button.  You will see your Workspace listed in the team Workspaces page.
+
 
 ### Sharing collections in Workspaces
 
