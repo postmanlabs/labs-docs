@@ -120,8 +120,6 @@ In the confirmation message, click the **Start Building** button to complete the
 
 ### Sharing Workspaces
 
-#### Sharing personal Workspaces
-
 Postman lets you add users to personal Workspaces.
 
 In the Workspaces dashboard, select a Workspace you want to share. Next, click the Ellipsis button and select "Share".
@@ -133,7 +131,6 @@ In "Share a personal workspace", select the users you want to add to the Workspa
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
 
 Click the **Share this workplace** button.  You will see your Workspace listed in the team Workspaces page.
-
 
 ### Sharing collections in Workspaces
 
