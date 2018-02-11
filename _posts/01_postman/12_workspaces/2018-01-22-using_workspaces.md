@@ -12,12 +12,9 @@ warning: false
 
 Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity Workspaces can provide.
 
-In this topic, you'll learn how to perform actions on Workspaces and how to use them to work with Postman elements.
-
+In this topic, you'll learn how to perform actions on Workspaces and how to use Workspaces to work with Postman elements.
 
 **Performing actions in Workspaces**
-
-* [Removing Workspaces](#removing-workspaces)
 
 * [Leaving Workspaces](#leaving-workspaces)
 
@@ -44,7 +41,7 @@ In this topic, you'll learn how to perform actions on Workspaces and how to use 
 
 * [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
-
+* [Removing elements from Workspaces](#removing-elements-from-workspaces)
 
 
 ### Adding collections and environments from another Workspace
@@ -63,23 +60,39 @@ Click the **Add to this Workspace** button. The element(s) appear in your list o
 
 [![elements list](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
+### Removing elements from Workspaces
 
-### Removing Workspaces
+When you remove a Workspace, it is no longer visible in that particular Workspace. The element is still available in any other Workspace where it exists. You cannot remove the "Activity" feed.
 
-#### Removing Workspaces in the sidebar
+You can remove an element from a Workspace in the Postman app sidebar, or in the Workspaces dashboard.
 
-Removing an entity from any workspace will remove it from that workspace alone. "Remove" will remove an entity from that workspace alone. If the entity exists in any other workspace, they won't be affected. "Delete" will remove the entity from ALL workspaces.
+#### Removing collections from a Workspace in the sidebar
+
+In the Postman app, select a collection and click the ***Ellipsis (...)*** button.
+
+Click "Remove from Workspace". The collection is no longer visible in the Workspace the appears in the header bar.
 
 [![remove sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)
 
+#### Removing elements from a Workspace in the dashboard
 
-#### Removing Workspaces in the dashboard
+In the Workspaces dashboard, click an element. In this example, we click "Collections".
 
-[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+Click the **Ellipsis** button in the element you want to remove and select "Remove from workspace". The Workspace is no longer visible in the Workspace that appears in the header bar.
 
+[![remove dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 ### Deleting Workspaces
 
+When you delete an element, you erase its existence in Postman. You cannot delete the "Activity" feed.
+
+To delete Workspace, go to the Workspaces dashboard and select a Workspace. In this example, we select a team Workspace to delete.
+
+Click the **Ellipsis** button in the element you want to delete and select "Delete".
+
+[![delete workspace menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
+
+In "Delete Workspace", click the **Delete** button. Remember when you delete a Workspace, it is gone forever!
 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
 
@@ -158,7 +171,28 @@ In this example, we share a collection to a Workspace.
 
 ### Publishing Workspaces
 
-[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+Postman enables you to [publish your collection](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and make it availabe to anyone with the published link.
+
+To publish a Workspace collection, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and click a personal or team Workspace.
+
+In the Collections view, click the ***Ellipsis (...)*** and select "Publish".
+
+[![pub workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+
+In the Publish Collection page, select the:
+
+* Environment
+  The collection's public documentation contains the shared environment.
+
+* Custom domain
+  The selected domain contains the published domeain.
+
+* Custom styling options
+  You can determine the color of the top bar, right side bar, and the highlight.
+
+[![pub workspace2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection.png)
+
+Click the **Publish Collection** button. Postman generates API documentation for your collections automatically in real-time. 
 
 ### Leaving Workspaces
 
@@ -168,6 +202,4 @@ In this example, we share a collection to a Workspace.
 
 [![edit descr]()]()
 
-### Publishing Workspaces
 
-[![manage team]()]()
