@@ -136,11 +136,15 @@ Click the **Share this workplace** button.  You will see your Workspace listed i
 
 Postman enables you to share your collections in Workspaces from the Postman app and the Workspaces dashboard. 
 
+#### Sharing collections in the sidebar
+
 In the Postman app, select a collection in the sidebar and click the Ellipsis button.
 
-Select "Share Collection". The SHARE COLLECTION modal appears. It offers three ways to share a collection: "Share in another workspace", "Embed", and "Get Link".
+Select "Share Collection". The **SHARE COLLECTION** modal appears. It offers three ways to share a collection: "Share in another workspace", "Embed", and "Get Link".
 
-#### Sharing collections in another Workspace
+[![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
+
+**Sharing collections in another Workspace**
 
 Select this option to add a collection to a team Workspace. The collection is visible to the team.
 
@@ -158,14 +162,10 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 
 **Sharing collections with a link**
 
+Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your Postman Dashboard.
+
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
-
-#### Sharing collections in the sidebar
-
-[![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
-
-Sharing in a workspace will be the same action as adding from a private workspace to a team, public or enterprise workspace. However, when an item is shared with a team, it will have an additional owner (the team). If an item is removed from the default workspace of a user, it will still remain in the team's default workspace and will have to be explicitly removed from the team by the team admin or someone with edit access.
 
 ### Viewing Details
 
