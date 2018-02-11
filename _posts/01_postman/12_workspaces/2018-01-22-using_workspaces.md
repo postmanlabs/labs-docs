@@ -60,13 +60,11 @@ Click the **Add to this Workspace** button. The element(s) appear in your list o
 
 [![elements list](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
-
 ### Removing elements from Workspaces
 
 When you remove a Workspace, it is no longer visible in that particular Workspace. The element is still available in any other Workspace where it exists. You cannot remove the "Activity" feed.
 
 You can remove an element from a Workspace in the Postman app sidebar, or in the Workspaces dashboard.
-
 
 #### Removing collections from a Workspace in the sidebar
 
@@ -76,7 +74,6 @@ Click "Remove from Workspace". The collection is no longer visible in the Worksp
 
 [![remove sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)
 
-
 #### Removing elements from a Workspace in the dashboard
 
 In the Workspaces dashboard, click an element. In this example, we click "Collections".
@@ -84,7 +81,6 @@ In the Workspaces dashboard, click an element. In this example, we click "Collec
 Click the **Ellipsis** button in the element you want to remove and select "Remove from workspace". The Workspace is no longer visible in the Workspace that appears in the header bar.
 
 [![remove dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
-
 
 ### Deleting Workspaces
 
@@ -175,11 +171,22 @@ In this example, we share a collection to a Workspace.
 
 ### Publishing Workspaces
 
+Postman enables you to publish your collection for public viewi
+
 To publish a Workspace collection, go to the Workspaces dashboard and click a personal or team Workspace.
 
-In the Collections view, click the **Ellipsis** button and select "Publish".
+In the Collections view, click the ***Ellipsis (...)*** and select "Publish".
 
-In the Publish Collection page, select an environment, a custom domain, and custom styling options.
+In the Publish Collection page, select the
+
+* Environment
+  The collection's public documentation contains the shared environment.
+
+* Custom domain
+  The selected domain contains the published domeain.
+
+* Custom styling options
+  You can determine the color of the top bar, right side bar, and the highlight
 
 Click the **Publish Collection** button.
 
@@ -193,6 +200,4 @@ Click the **Publish Collection** button.
 
 [![edit descr]()]()
 
-### Publishing Workspaces
 
-[![manage team]()]()
