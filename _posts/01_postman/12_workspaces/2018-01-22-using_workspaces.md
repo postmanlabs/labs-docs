@@ -171,9 +171,9 @@ In this example, we share a collection to a Workspace.
 
 ### Publishing Workspaces
 
-Postman enables you to [publish your collection]() and make it availabe to anyone with the published link to access its documentation.
+Postman enables you to [publish your collection](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and make it availabe to anyone with the published link.
 
-To publish a Workspace collection, go to the Workspaces dashboard and click a personal or team Workspace.
+To publish a Workspace collection, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and click a personal or team Workspace.
 
 In the Collections view, click the ***Ellipsis (...)*** and select "Publish".
 
