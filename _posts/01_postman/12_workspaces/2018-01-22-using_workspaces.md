@@ -68,7 +68,7 @@ You can remove an element from a Workspace in the Postman app sidebar, or in the
 
 #### Removing collections from a Workspace in the sidebar
 
-In the Postman app, select a collection and click the **Ellipses** button.
+In the Postman app, select a collection and click the ***Ellipsis (...)*** button.
 
 Click "Remove from Workspace". The collection is no longer visible in the Workspace the appears in the header bar.
 
@@ -171,7 +171,7 @@ In this example, we share a collection to a Workspace.
 
 ### Publishing Workspaces
 
-Postman enables you to publish your collection for public viewi
+Postman enables you to publish your collection and make it availabe to anyone with the published link to access its documentation.
 
 To publish a Workspace collection, go to the Workspaces dashboard and click a personal or team Workspace.
 
