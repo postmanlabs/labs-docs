@@ -96,7 +96,6 @@ In "Delete Workspace", click the **Delete** button. Remember when you delete a W
 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
 
-
 ### Joining Workspaces
 
 A user can join a workspace to work on collections, environments, monitors, mocks, and integrations.
@@ -165,7 +164,6 @@ Select this option to generate a shareable link for others to access your collec
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
-
 ### Viewing details in Workspaces
 
 You can view the details of your personal or team Workspaces.
@@ -173,7 +171,6 @@ You can view the details of your personal or team Workspaces.
 In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace and click the Ellipsis button. In this example, we use the team Workspace view.
 
 [![view details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
-
 
 #### Viewing details for personal Workspaces
 
@@ -189,19 +186,31 @@ To view the details of your team Workspaces, select "View Details" from the Elli
 
 ### Renaming Workspaces
 
+You can rename your personal or team Workspaces.
+
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace and click the Ellipsis button. 
+
 #### Renaming personal Workspaces 
+
+To rename your personal Workspaces, select "Rename" from the Ellipsis button menu. Then enter the new name for the Workspace in the "Name" field and save your changes.
 
 [![rename personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)
 
 #### Renaming team Workspaces 
 
+To rename your team Workspaces, select "Rename" from the Ellipsis button menu. Then enter the new name for the Workspace in the "Name" field and save your changes. You must have admin privileges to modify team settings.
+
 [![rename team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
 
 ### Sharing elements to Workspaces
 
-In this example, we share a collection to a Workspace.
+You can share Postman elements (collections, environments, monitors, mocks, and integrations ) with other Workspaces. In this example, we share a collection to a Workspace.
+
+In the Collections view, select the collection you want to share and click the **Share** button.
 
 [![share elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)
+
+In "Share this collection", select the Workspace you wish to share this collection and click the **Share** button.
 
 [![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
