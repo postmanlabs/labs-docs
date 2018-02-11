@@ -177,7 +177,7 @@ To publish a Workspace collection, go to the Workspaces dashboard and click a pe
 
 In the Collections view, click the ***Ellipsis (...)*** and select "Publish".
 
-In the Publish Collection page, select the
+In the Publish Collection page, select the:
 
 * Environment
   The collection's public documentation contains the shared environment.
@@ -186,7 +186,7 @@ In the Publish Collection page, select the
   The selected domain contains the published domeain.
 
 * Custom styling options
-  You can determine the color of the top bar, right side bar, and the highlight
+  You can determine the color of the top bar, right side bar, and the highlight.
 
 Click the **Publish Collection** button.
 
