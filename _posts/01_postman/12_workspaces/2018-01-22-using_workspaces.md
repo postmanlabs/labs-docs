@@ -24,6 +24,8 @@ In this topic, you'll learn how to perform actions on Workspaces and how to use 
 
 * [Leaving Workspaces](#leaving-workspaces)
 
+* [Managing members of team Workspaces](#managing-members-of-team-workspaces))
+
 * [Renaming Workspaces](#renaming-workspaces)
 
 * [Sharing Workspaces](#sharing-workspaces)
@@ -254,6 +256,18 @@ In "Delete Workspace", click the "Leave workspace" button.  You can no longer wo
 
 ### Editing descriptions in Workspaces
 
-[![edit descr]()]()
+You can edit descriptions for personal and team Workspaces. In this example, we use a personal Workspace.
+
+In the Workspaces dashboard, select a Workspace, click the Ellipsis button, and select "Edit Description".
+
+[![edit descr1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
+
+In "Edit workspace details", enter a new description in the Summary field and save your changes.
+
+[![edit descr2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)
+
+
+### Managing members of team Workspaces
+
 
 
