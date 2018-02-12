@@ -10,7 +10,7 @@ warning: false
          **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
 
 
-Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity of Workspaces.
+Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity of using Workspaces.
 
 Here you'll learn how to perform actions on Workspaces and how to use Workspaces to work with Postman elements.
 
@@ -74,7 +74,7 @@ You can remove an element from a Workspace in the Postman app sidebar, or in the
 
 In the Postman app, select a collection and click the ***Ellipsis (...)*** button.
 
-Click "Remove from Workspace". The collection is no longer visible in the Workspace the appears in the header bar, which is "Neutrino level detection" in this example.
+Click "Remove from Workspace". The collection is no longer visible in the Workspace that appears in the header bar, which is "Neutrino level detection" in this example.
 
 [![remove sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)
 
@@ -90,7 +90,7 @@ Click the ***Ellipsis (...)*** button in the element you want to remove and sele
 
 When you delete an element, you erase its existence in Postman. 
 
-To delete Workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select a Workspace. In this example, we select a team Workspace to delete.
+To delete a Workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select a Workspace. In this example, we select a team Workspace to delete.
 
 Click the ***Ellipsis (...)*** button for the element you want to delete and select "Delete".
 
@@ -102,7 +102,7 @@ In "Delete Workspace", click the **Delete** button. Remember when you delete a W
 
 ### Joining Workspaces
 
-A user can join a workspace to work on collections, environments, monitors, mocks, and integrations. Let's see how.
+A user can join a Workspace to work on collections, environments, monitors, mocks, and integrations. Let's see how.
 
 In the Postman app, click a Workspace in the header bar, which is "Neutrino level dectection" in this example.
 
@@ -120,17 +120,17 @@ In the confirmation message, click the **Start Building** button to complete the
 
 ### Sharing Workspaces
 
-Postman lets you add users to personal Workspaces.
+Postman lets you share your personal Workspaces with other users.
 
 In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace you want to share. Next, click the ***Ellipsis (...)*** button and select "Share".
 
 [![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
-In "Share a personal workspace", select the users you want to add to the Workspace from the "Members" dropdown menu.
+In "Share a personal workspace", select the users with whom you want to share the Workspace from the "Members" dropdown menu.
 
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
 
-Click the **Share this workplace** button.  You will see your Workspace in the team Workspaces.
+Click the **Share this workplace** button.  Your shared Workspace appears in team Workspaces.
 
 ### Sharing collections in Workspaces
 
@@ -208,11 +208,11 @@ To rename your team Workspaces, select "Rename" from the ***Ellipsis (...)*** bu
 
 You can share Postman elements (collections, environments, monitors, mocks, and integrations ) with other Workspaces. In this example, we share a collection to a Workspace.
 
-In the Collections view, select the collection you want to share and click the **Share** button.
+In the Collections view, select the collection you want to share, and click the **Share** button.
 
 [![share elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)
 
-In "Share this collection", select the Workspace you want to share this collection, and click the **Share** button.
+In "Share this collection", select the Workspace of which you want to share this collection, and click the **Share** button.
 
 [![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
@@ -226,7 +226,7 @@ In the Collections view, click the ***Ellipsis (...)*** button and select "Publi
 
 [![pub workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
-In the Publish Collection page, select the:
+In "Publish Collection", select the:
 
 * Environment
   
@@ -234,7 +234,7 @@ In the Publish Collection page, select the:
 
 * Custom domain
   
-  The selected domain contains the published domeain.
+  The selected domain contains the published domain.
 
 * Custom styling options
   
@@ -248,7 +248,7 @@ Click the **Publish Collection** button. Postman generates API documentation for
 
 Postman allows you to leave a team Workspace. To leave a team Workspace, select a team Workspace, click the ***Ellipsis (...)*** button, and select "Leave".
 
-In "Delete Workspace", click the "Leave workspace" button.  You can no longer work or add collections and environments to the Workspace.
+In "Delete Workspace", click the **Leave workspace** button.  You can no longer work or add collections and environments to the Workspace.
 
 [![leave workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)
 
@@ -260,7 +260,7 @@ In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_bl
 
 [![edit descr1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
-In "Edit workspace details", enter a new description in the Summary field and save your changes.
+In "Edit workspace details", enter a new description in the "Summary" text box and save your changes.
 
 [![edit descr2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)
 
