@@ -17,11 +17,11 @@ We can think of data files are parameters for each iteration of a collection run
    *   [Collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58533790.json)
    *   [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json), [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
 
-[![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702680.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702680.png)
+[![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)
 
 Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` (in the request body). These are used just like environment variables. We will supply the value to these variables using a JSON / CSV file. On opening the test script, you'll see we're using some variables in the test script -`data` specifically. This isn't defined in the script itself. The Postman Sandbox initializes the data variable from the JSON/CSV file that we will select in the collection run.
 
-[![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702722.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702722.png)
+[![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)
 
 Let's investigate the data files first. We currently support JSON & CSV files.
 
