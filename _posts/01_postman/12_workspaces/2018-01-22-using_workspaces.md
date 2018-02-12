@@ -269,6 +269,8 @@ In "Edit workspace details", enter a new description in the Summary field and sa
 
 When you need to manage the members of your team Workspace, go the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select the "Team" view.
 
+[![edit descr2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
+
 Click the ***Ellipsis (...)*** button and select "Manage Members".
 
 In "Edit workspace details", add or delete team members in the "Members" dropdown menu and save your changes.
