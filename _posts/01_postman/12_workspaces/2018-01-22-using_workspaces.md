@@ -24,7 +24,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Leaving Workspaces](#leaving-workspaces)
 
-* [Managing members of team Workspaces](#managing-members-of-team-workspaces))
+* [Managing members of team Workspaces](#managing-members-of-team-workspaces)
 
 * [Renaming Workspaces](#renaming-workspaces)
 
@@ -266,6 +266,17 @@ In "Edit workspace details", enter a new description in the Summary field and sa
 
 
 ### Managing members of team Workspaces
+
+When you need to manage the members of your team Workspace, go the [Workspaces dashboard (https://app.getpostman.com/dashboard){:target="_blank"}.
+
+Click the ***Ellipsis (...)*** button and select "Manage Members".
+
+In "Edit workspace details", add or delete team members in the "Members" dropdown menu and save your changes.
+
+[![edit descr team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
+
+
+
 
 
 
