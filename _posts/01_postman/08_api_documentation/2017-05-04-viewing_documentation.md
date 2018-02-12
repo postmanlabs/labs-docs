@@ -23,7 +23,7 @@ You must be logged in to your Postman Account to view private documentation.
 
 In the Postman app, hover your cursor over your Collection on the left-hand side, click the right angle bracket (>), then click the **View in web** button. 
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-view.png)
 
 To view documentation for a shared collection, navigate to your Team Library in your Postman app. 
 
