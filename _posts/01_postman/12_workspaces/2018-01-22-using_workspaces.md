@@ -16,19 +16,19 @@ In this topic, you'll learn how to perform actions on Workspaces and how to use 
 
 **Performing actions in Workspaces**
 
-* [Leaving Workspaces](#leaving-workspaces)
+* [Deleting Workspaces](#deleting-workspaces)
 
 * [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)
 
-* [Deleting Workspaces](#deleting-workspaces)
-
 * [Joining Workspaces](#joining-workspaces)
+
+* [Leaving Workspaces](#leaving-workspaces)
+
+* [Renaming Workspaces](#renaming-workspaces)
 
 * [Sharing Workspaces](#sharing-workspaces)
 
 * [Viewing details in Workspaces](#viewing-details-in-workspaces)
-
-* [Renaming Workspaces](#renaming-workspaces)
 
 
 **Using Workspaces with Postman elements**
@@ -37,11 +37,13 @@ In this topic, you'll learn how to perform actions on Workspaces and how to use 
 
 * [Publishing Workspaces](#publishing-workspaces)
 
-* [Sharing collections in Workspaces](#sharing-collections)
+* [Removing elements from Workspaces](#removing-elements-from-workspaces)
+
+* [Sharing collections in Workspaces](#sharing-collections-in-workspaces)
 
 * [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
-* [Removing elements from Workspaces](#removing-elements-from-workspaces)
+
 
 
 ### Adding collections and environments from another Workspace
@@ -134,7 +136,7 @@ Click the **Share this workplace** button.  You will see your Workspace listed i
 
 Postman enables you to share your collections in Workspaces from the Postman app and the Workspaces dashboard. 
 
-#### Sharing collections in the sidebar
+**Sharing collections in the sidebar**
 
 In the Postman app, select a collection in the sidebar and click the Ellipsis button.
 
@@ -210,7 +212,7 @@ In the Collections view, select the collection you want to share and click the *
 
 [![share elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)
 
-In "Share this collection", select the Workspace you wish to share this collection and click the **Share** button.
+In "Share this collection", select the Workspace you want to share this collection, and click the **Share** button.
 
 [![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
@@ -220,19 +222,22 @@ Postman enables you to [publish your collection](/docs/postman/api_documentation
 
 To publish a Workspace collection, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and click a personal or team Workspace.
 
-In the Collections view, click the ***Ellipsis (...)*** and select "Publish".
+In the Collections view, click the ***Ellipsis (...)*** button and select "Publish".
 
 [![pub workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 In the Publish Collection page, select the:
 
 * Environment
+  
   The collection's public documentation contains the shared environment.
 
 * Custom domain
+  
   The selected domain contains the published domeain.
 
 * Custom styling options
+  
   You can determine the color of the top bar, right side bar, and the highlight.
 
 [![pub workspace2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection.png)
@@ -240,6 +245,10 @@ In the Publish Collection page, select the:
 Click the **Publish Collection** button. Postman generates API documentation for your collections automatically in real-time. 
 
 ### Leaving Workspaces
+
+Postman allows you to leave a team Workspace. To leave a team Workspace, select a team Workspace, click the ***Ellipsis (...)*** button, and select "Leave".
+
+In "Delete Workspace", click the "Leave workspace" button.  You can no longer work or add collections and environments to the Workspace.
 
 [![leave workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)
 
