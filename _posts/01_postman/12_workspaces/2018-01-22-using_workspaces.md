@@ -7,8 +7,6 @@ page_id: "using_workspaces"
 warning: false
 ---
 
-         **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
-
 
 Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity of using Workspaces.
 
@@ -74,7 +72,7 @@ You can remove an element from a Workspace in the Postman app sidebar, or in the
 
 In the Postman app, select a collection and click the ***Ellipsis (...)*** button.
 
-Click "Remove from Workspace". The collection is no longer visible in the Workspace that appears in the header bar, which is "Neutrino level detection" in this example.
+Click "Remove from Workspace". The collection is no longer visible in the Workspace. 
 
 [![remove sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)
 
@@ -82,7 +80,7 @@ Click "Remove from Workspace". The collection is no longer visible in the Worksp
 
 In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, click an element. In this example, we click "Collections".
 
-Click the ***Ellipsis (...)*** button in the element you want to remove and select "Remove from workspace". The Workspace is no longer visible in the Workspace that appears in the header bar, which is "Neutrino level detection" in this example.
+Click the ***Ellipsis (...)*** button in the element you want to remove and select "Remove from workspace". The Workspace is no longer visible in the Workspace.
 
 [![remove dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
@@ -122,7 +120,7 @@ In the confirmation message, click the **Start Building** button to complete the
 
 Postman lets you share your personal Workspaces with other users.
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace you want to share. Next, click the ***Ellipsis (...)*** button and select "Share".
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal Workspace you want to share. Next, click the ***Ellipsis (...)*** button and select "Share".
 
 [![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
@@ -170,7 +168,7 @@ Select this option to generate a shareable link for others to access your collec
 
 You can view the details of your personal or team Workspaces.
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace and click the ***Ellipsis (...)*** button. In this example, we use the team Workspace view.
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace.
 
 [![view details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 
