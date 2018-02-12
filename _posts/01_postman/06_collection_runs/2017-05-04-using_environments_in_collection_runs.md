@@ -11,11 +11,11 @@ Environments allow you to create robust requests that can be re-used. Read more 
 
 Environments can also be used in the Collection Runner. Let's look at an example collection, with one POST request that uses environment variables in its URL, body, and test script. Download the sample collection: [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/usingEnvironments.postman_collection.json). 
 
-[![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_sample_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_sample_collections.png)
+[![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)
 
 The test expects the value of `foo` in the response body to be equal to `bar`. Let us also assume that after some computation, we're resetting the value of this variable to `bar2`.
 
-[![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_set_environment_variable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_set_environment_variable.png) 
+[![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_set_environment_variable2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_set_environment_variable2.png) 
 
 To run this collection correctly in the Collection Runner, you need to supply it the corresponding environment. Download the sample environment: [environment.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/testEnv.postman_environment.json). In the Collection Runner, if we select our test environment from the environment dropdown on the left and run the collection, you'll see the tests pass. 
 
