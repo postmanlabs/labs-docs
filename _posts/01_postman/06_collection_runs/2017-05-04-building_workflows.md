@@ -20,7 +20,7 @@ When you start a collection run, all requests are run in the order you see them 
 
 Let's assume that we have a collection with four requests. If you run this collection directly, the collection runner will run all four requests in order.
 
-[![setNextRequest in tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793927.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793927.png)
+[![setNextRequest in tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)
 
 Let's now add `postman.setNextRequest()` to Request 1's test script, as shown. `postman.setNextRequest()` is a function with one argument, which is the name or ID of the request you want to run next. In the example, we're setting the next request to `Request 4` in the test script for `Request 1`. This means the execution will jump to `Request 4` after `Request 1` has completed. If we run the same collection now, you'll see that only two requests are run now.
