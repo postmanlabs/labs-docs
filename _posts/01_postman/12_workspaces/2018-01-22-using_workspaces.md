@@ -267,7 +267,7 @@ In "Edit workspace details", enter a new description in the Summary field and sa
 
 ### Managing members of team Workspaces
 
-When you need to manage the members of your team Workspace, go the [Workspaces dashboard (https://app.getpostman.com/dashboard){:target="_blank"}.
+When you need to manage the members of your team Workspace, go the [Workspaces dashboard (https://app.getpostman.com/dashboard){:target="_blank").
 
 Click the ***Ellipsis (...)*** button and select "Manage Members".
 
