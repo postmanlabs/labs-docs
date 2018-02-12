@@ -10,9 +10,9 @@ warning: false
          **THIS IS A WORKING DRAFT-NOT READY FOR REVIEW**
 
 
-Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity Workspaces can provide.
+Workspaces is an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal Workspaces or work with others in team Workspaces. Postman designed a set of features that unleashes the power and versatiltity of Workspaces.
 
-In this topic, you'll learn how to perform actions on Workspaces and how to use Workspaces to work with Postman elements.
+Here you'll learn how to perform actions on Workspaces and how to use Workspaces to work with Postman elements.
 
 **Performing actions in Workspaces**
 
@@ -102,9 +102,7 @@ In "Delete Workspace", click the **Delete** button. Remember when you delete a W
 
 ### Joining Workspaces
 
-A user can join a workspace to work on collections, environments, monitors, mocks, and integrations.
-
-To join a Workspace:
+A user can join a workspace to work on collections, environments, monitors, mocks, and integrations. Let's see how.
 
 In the Postman app, click a Workspace in the header bar, which is "Neutrino level dectection" in this example.
 
@@ -124,7 +122,7 @@ In the confirmation message, click the **Start Building** button to complete the
 
 Postman lets you add users to personal Workspaces.
 
-In the Workspaces dashboard, select a Workspace you want to share. Next, click the Ellipsis button and select "Share".
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace you want to share. Next, click the ***Ellipsis (...)*** button and select "Share".
 
 [![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
@@ -132,15 +130,15 @@ In "Share a personal workspace", select the users you want to add to the Workspa
 
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-personal-WS.png)
 
-Click the **Share this workplace** button.  You will see your Workspace listed in the team Workspaces page.
+Click the **Share this workplace** button.  You will see your Workspace in the team Workspaces.
 
 ### Sharing collections in Workspaces
 
-Postman enables you to share your collections in Workspaces from the Postman app and the Workspaces dashboard. 
+Postman enables you to share your collections in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
 **Sharing collections in the sidebar**
 
-In the Postman app, select a collection in the sidebar and click the Ellipsis button.
+In the Postman app, select a collection in the sidebar and click the ***Ellipsis (...)*** button.
 
 Select "Share Collection". The **SHARE COLLECTION** modal appears. It offers three ways to share a collection: "Share in another workspace", "Embed", and "Get Link".
 
@@ -164,7 +162,7 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 
 **Sharing collections with a link**
 
-Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your Postman Dashboard.
+Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
@@ -172,19 +170,19 @@ Select this option to generate a shareable link for others to access your collec
 
 You can view the details of your personal or team Workspaces.
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace and click the Ellipsis button. In this example, we use the team Workspace view.
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace and click the ***Ellipsis (...)*** button. In this example, we use the team Workspace view.
 
 [![view details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 
 #### Viewing details for personal Workspaces
 
-To view the details of your personal Workspaces, select "View Details" from the Ellipsis button menu.
+To view the details of your personal Workspaces, select "View Details" from the ***Ellipsis (...)*** button menu.
 
 [![details personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)
 
 #### Viewing details for team Workspaces 
 
-To view the details of your team Workspaces, select "View Details" from the Ellipsis button menu.
+To view the details of your team Workspaces, select "View Details" from the ***Ellipsis (...)*** button menu.
 
 [![details team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view-details.png)
 
@@ -192,17 +190,17 @@ To view the details of your team Workspaces, select "View Details" from the Elli
 
 You can rename your personal or team Workspaces.
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace and click the Ellipsis button. 
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace and click the ***Ellipsis (...)*** button. 
 
 #### Renaming personal Workspaces 
 
-To rename your personal Workspaces, select "Rename" from the Ellipsis button menu. Then enter the new name for the Workspace in the "Name" field and save your changes.
+To rename your personal Workspaces, select "Rename" from the ***Ellipsis (...)*** button menu. Then enter the new name for the Workspace in the "Name" field and save your changes.
 
 [![rename personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-workspace-details-personal.png)
 
 #### Renaming team Workspaces 
 
-To rename your team Workspaces, select "Rename" from the Ellipsis button menu. Then enter the new name for the Workspace in the "Name" field and save your changes. You must have admin privileges to modify team settings.
+To rename your team Workspaces, select "Rename" from the ***Ellipsis (...)*** button menu. Then enter the new name for the Workspace in the "Name" field and save your changes. You must have admin privileges to modify team settings.
 
 [![rename team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
 
@@ -258,7 +256,7 @@ In "Delete Workspace", click the "Leave workspace" button.  You can no longer wo
 
 You can edit descriptions for personal and team Workspaces. In this example, we use a personal Workspace.
 
-In the Workspaces dashboard, select a Workspace, click the Ellipsis button, and select "Edit Description".
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace, click the ***Ellipsis (...)*** button, and select "Edit Description".
 
 [![edit descr1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
