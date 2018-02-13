@@ -38,7 +38,7 @@ In **ADVANCED**, create a new monitor, documentation, and a mock server.
 
 **Note**: You can directly create a new feature when you click the down arrow at the right side of the **New** button.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_menu_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_menu_blk.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)
 
 ### BUILDING BLOCKS
 <h4 id="requests">Creating requests</h4>
