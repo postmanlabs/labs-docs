@@ -21,4 +21,4 @@ Click the gear icon in the upper right corner of the Postman app and select "Man
 
 Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. Clicking on the **Edit** link will open a modal for editing keys and values.
 
-[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58756438.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58756438.png)
+[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)
