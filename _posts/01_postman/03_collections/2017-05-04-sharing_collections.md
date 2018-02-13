@@ -28,7 +28,7 @@ Generate a shareable link for others to access your collections. This is not the
 
 You can manage a complete list of collection links from the [dashboard](https://app.getpostman.com/dashboard/collections/links){:target="_blank"}.
 
-[![share collection with a link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564829.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564829.png)
+[![share collection with a link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-appView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-appView.png)
 
 ### Sharing as a Run in Postman button
 
