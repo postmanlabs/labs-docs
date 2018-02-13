@@ -45,5 +45,3 @@ To hide and show the value and description column in the data editor, click the 
 [![uncheck parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-uncheck-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-uncheck-params.png)
 
 **Note**: Descriptions are metadata for a request and are **NOT** sent with your HTTP request. This reminder displays when you mouse over the title of the description column.
-
-[![mouseover params](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-mouseover.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-mouseover.png)
