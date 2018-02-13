@@ -98,7 +98,7 @@ A Swagger API definition usually lives as a single file, so we only support impo
 
   You’re done! Postman will detect all the Swagger definitions and convert them internally to Postman and then show you an import success message.
 
-  [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
+        [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
 
 ##### **Examples**
 
