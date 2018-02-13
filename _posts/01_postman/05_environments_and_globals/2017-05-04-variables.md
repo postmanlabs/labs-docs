@@ -47,7 +47,7 @@ Variables can be used in the following form in the Postman user interface - {% 
 
 Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the Variable Scopes section and sends them to the server.
 
-[![variables used in request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_request_builder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_request_builder.png)
+[![variables used in request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-request-builder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-request-builder.png)
 
 ### Accessing variables through scripts
 
@@ -60,7 +60,7 @@ Variables can also be used in pre-request and test scripts. Since these sections
   3.  Setting a variable in a scope: 
         *  Environment variables can be accessed with the corresponding environment template. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
 
-[![variables used in script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_scripts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_scripts.png)
+[![variables used in script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-scripts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-scripts.png)
 
 ### Defining collection variables
 
@@ -82,13 +82,13 @@ The Collection Runner lets you import a CSV or a JSON file, and then use the v
 
 Variables inside the Postman UI are enclosed inside curly braces. For example, in the screenshot below, {% raw %}`{{username}}`{% endraw %} and {% raw %}`{{password}}`{% endraw %} inside URL parameters would be replaced by corresponding values from the data file:
 
-[![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_data_url.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_data_url.png)
+[![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data-url.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data-url.png)
 
 ##### **Data variables in pre-request and test scripts**
 
 Inside pre-request and test scripts, the `pm.iterationData.get("username")` method would let you access the value of the username variable from a data file, for example.
 
-[![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_data.png)
+[![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data.png)
 
 Learn more about [working with data files](/docs/postman/collection_runs/working_with_data_files). 
 
@@ -100,13 +100,13 @@ Postman has a few dynamic variables which you can use in your requests. Dynamic
    *   {% raw %} `{{$timestamp}}`{% endraw %}: Adds the current timestamp
    *   {% raw %} `{{$randomInt}}`{% endraw %}: Adds a random integer between 0 and 1000
 
-[![dynamic variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_dynamic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_dynamic.png)
+[![dynamic variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var_dynamic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var_dynamic.png)
 
 ### Quick Look for variables
 
 Quick Look is a quick preview feature displaying all your environment and global variables in one place. Click on the "eye" icon in the top right to toggle the display, or typing the keyboard shortcut **(CMD/CTRL + ALT + E)**.
 
-[![quick look](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165135.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165135.png)
+[![quick look](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look.png)
 
 ### Autocomplete and tooltips for variables
 
