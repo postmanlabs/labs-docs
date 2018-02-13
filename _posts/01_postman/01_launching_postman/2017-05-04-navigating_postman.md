@@ -230,7 +230,7 @@ We've configured the available horizontal and vertical space more effectively to
 
 On hover, relevant features display for a specific row to reduce clutter in the interface and help you focus on the most relevant data.
 
-[![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
+[![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)
 
 **Mulitple rows**
 
