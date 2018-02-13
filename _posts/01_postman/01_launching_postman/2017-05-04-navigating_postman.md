@@ -74,7 +74,7 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 * Open the keyboard [shortcuts.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts){:target="_blank"}
 * Get help or provide feedback.
 
-[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-menu-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-menu-bar.png)
+[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-status-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-status-bar.png)
 
 When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs){:target="_blank"}, [security,](https://www.getpostman.com/security){:target="_blank"} [support,](https://www.getpostman.com/support){:target="_blank"} and [social media.](https://twitter.com/postmanclient){:target="_blank"}
 
