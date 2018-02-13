@@ -16,7 +16,7 @@ Postman can export and import the following formats as a file or generated URL.�
 
 ##### **Collections**
 
-[![export collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/exportDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/exportDropdown.png)
+[![export collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view.png)
 
 Postman can export collections in two formats - v1 and v2\. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}. 
 
@@ -70,13 +70,13 @@ A few commands which can be imported include:
 
    1.  Clone the repository containing the RAML definition to your local machine, or save it locally as a folder.
    2.  Click on the Import button, and choose the Import Folder tab. 
-      [![import button](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
+      [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view+raml-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view+raml-1.png)
    3.  Click on **Choose Folders** and upload the RAML folder.
       [![import folder modal](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)
     
    You’re done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
     
-   [![confirmation message](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_3.png)
+   [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2.png)
 
 ##### **Examples**
 
@@ -92,7 +92,7 @@ A Swagger API definition usually lives as a single file, so we only support impo
 
    2.  Click on the Import button, and choose the Import File tab. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer. 
 
-        [![import button](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_1.png)
+        [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view+raml-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view+raml-1.png)
 
    3.  Click on file and upload the Swagger file.
 
