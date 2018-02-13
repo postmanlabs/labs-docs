@@ -78,7 +78,7 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 
 When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs){:target="_blank"}, [security,](https://www.getpostman.com/security){:target="_blank"} [support,](https://www.getpostman.com/support){:target="_blank"} and [social media.](https://twitter.com/postmanclient){:target="_blank"}
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-statusbar-helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-statusbar-helpFeedbackMenu.png)
 
 ### Tabs and Windows
 
@@ -102,7 +102,7 @@ By default, Postman assumes you want to work on one collection request in one t
 
 Postman offers several tab actions to help you manage your work.
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Tab-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Tab-menu.png)
 
 To access the **Tab** menu, click the three dots on the right side of a tab. A dropdown menu appears with options to manage your tabs.
 
