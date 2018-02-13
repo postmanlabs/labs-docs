@@ -48,13 +48,6 @@ The header toolbar contains these options:
 *   **Heart** - Love Postman? Click on this button to share the love!
 *   **User** dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
 
-### Builder
-
-Postman gives you a tabbed layout to send and manage API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  
-
-   *   **Cookies** - You can use the **Cookies** link on the far right under the **Save** button to access the **MANAGE COOKIES** modal. This feature lets you manage cookies associated with the request. Learn more about [working with cookies](/docs/postman/sending_api_requests/cookies){:target="_blank"}.
-   *   **Code** - You can use the **Code** link on the far right under the **Save** button to access the **GENERATE CODE SNIPPETS** modal. This feature lets you generate code snippets associated with the request in more than 20 languages.
-
 ### Console
 
 Two consoles are available in Postman to see what's going on behind the scenes.
@@ -66,15 +59,10 @@ Learn more about [troubleshooting with console logs](/docs/postman/sending_api_r
 
 ### Menu bar
 
-The Postman application menu bar provides access to additional features. Note that there are some key differences between the menu bar for Postman's native apps and Postman's Chrome app.
+The Postman application menu bar provides access to additional features. 
 
-**Postman native app**: Displays more menu options to access specific Postman features.
+[![native app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-menu-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-menu-bar.png)
 
-[![native app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)
-
-**[Postman Chrome app](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/){:target="_blank"}**: Displays fewer menu options due to Chrome standard restrictions.
-
-[![chrome app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)
 
 ### Status bar
 
@@ -86,7 +74,7 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 * Open the keyboard [shortcuts.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts){:target="_blank"}
 * Get help or provide feedback.
 
-[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)
+[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-menu-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-menu-bar.png)
 
 When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs){:target="_blank"}, [security,](https://www.getpostman.com/security){:target="_blank"} [support,](https://www.getpostman.com/support){:target="_blank"} and [social media.](https://twitter.com/postmanclient){:target="_blank"}
 
