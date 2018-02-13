@@ -84,4 +84,4 @@ Add a name and description to the folder. Folders are initially ordered alphabe
 
 You can add deeper levels of nesting for folders. Drag and drop the folders to reorder them to create the ultimate customized folder structure.
 
-[![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)
+[![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiLevelFolders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiLevelFolders.png)
