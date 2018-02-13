@@ -18,7 +18,7 @@ Click on a collection to show or hide the requests that comprise the collection.
 
 Expand the right angle bracket (**>**) to show the details view for the collection. Collapse the left angle bracket (**<**) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collectionDetailsView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collectionDetailsView.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collectionDetailsView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collectionDetailsView.png)
 
 ##### **Create a new collection**
 
@@ -76,7 +76,7 @@ Requests stored inside a collection can contain [scripts](/docs/postman/scripts/
 
 Folders are a way to organize your API endpoints within a collection into intuitive and logical groups to mirror your workflow. Next to the collection to which you want to add a folder, click on the ellipses (...) and select "Add Folder".
 
-[![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addFolderDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addFolderDropdown.png)
+[![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)
 
 Add a name and description to the folder. Folders are initially ordered alphabetically by name, and the folder name and description will be reflected in your API documentation.
 
