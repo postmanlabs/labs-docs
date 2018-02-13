@@ -39,7 +39,7 @@ The header toolbar contains these options:
 *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
 *   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run){:target="_blank"}
 *   **New window** icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
-*   **Workspaces** menu - Opens the Workspaces menu to view personal and team create and 
+*   **Workspaces** menu - Opens the Workspaces menu where you can view [personal and team Workspaces](/docs/postman/workspaces/intro_to_workspaces){:target="_blank"}, and create and manage Workspaces.
 *   **Interceptor/Proxy** icon - Manages proxy or Interceptor settings.
 *   **IN SYNC status** icon - Updates the status of your Postman account.
 *   **Public API Library** - Displays the Public API network.
