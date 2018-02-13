@@ -42,7 +42,7 @@ For Postman users who publish internal or public API documentation, these descri
 
 To hide and show the value and description column in the data editor, click the ellipsis (...) in the top right corner of the editor, and uncheck the columns that you want to hide.
 
-[![uncheck parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-uncheck-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-uncheck-params.png)
+[![uncheck parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-uncheck-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-uncheck-params.png)
 
 **Note**: Descriptions are metadata for a request and are **NOT** sent with your HTTP request. This reminder displays when you mouse over the title of the description column.
 
