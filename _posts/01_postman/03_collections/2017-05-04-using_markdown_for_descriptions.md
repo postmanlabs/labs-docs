@@ -11,15 +11,15 @@ Postman supports [Markdown](/docs/postman/api_documentation/how_to_document_usi
 
 For more information about Markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc){:target="_blank"} for API documentation. 
 
-Postman renders Markdown in the request builder, and in public or internal API documentation.
+Postman renders Markdown in your Workspace, and in public or internal API documentation.
 
-**Request builder**
+**Workspaces**
 
-In the request builder, you can use Markdown to style the request description.  
-[![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription2.png)
+In your Workspace, you can use Markdown to style the request description.  
+[![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-NSFrequestDescription.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-NSFrequestDescription.png)
 
 You can use Markdown to style descriptions for collections and folders. 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-collections.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-descrptions-folders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-descrptions-folders.png)
 
 **Public or internal API documentation**
 
