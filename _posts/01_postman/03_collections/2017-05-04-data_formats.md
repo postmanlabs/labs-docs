@@ -70,13 +70,13 @@ A few commands which can be imported include:
 
    1.  Clone the repository containing the RAML definition to your local machine, or save it locally as a folder.
    2.  Click on the Import button, and choose the Import Folder tab. 
-      [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view+raml-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view+raml-1.png)
+      [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
    3.  Click on **Choose Folders** and upload the RAML folder.
       [![import folder modal](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)
     
    You’re done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
     
-   [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2.png)
+   [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
 
 ##### **Examples**
 
@@ -92,7 +92,7 @@ A Swagger API definition usually lives as a single file, so we only support impo
 
    2.  Click on the Import button, and choose the Import File tab. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer. 
 
-        [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view+raml-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view+raml-1.png)
+        [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
 
    3.  Click on file and upload the Swagger file.
 
