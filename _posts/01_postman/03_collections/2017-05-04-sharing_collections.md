@@ -20,7 +20,7 @@ If you are a member of a team using Postman Pro or Enterprise, you can [share a 
 
 A team’s shared collections can be viewed in the [team library](/docs/postman/team_library/sharing). This is where you can subscribe to collections that others have shared.
 
-[![team library view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLibrary.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamLibrary.png)
+[![team library view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-appView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-appView.png)
 
 ### Sharing with a link
 
