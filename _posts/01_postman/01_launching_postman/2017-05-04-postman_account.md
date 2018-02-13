@@ -31,7 +31,7 @@ Signing up is completely optional. Read our [EULA](https://www.getpostman.com/li
 Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
 
 
-[![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
+[![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
 
 ### Signing into multiple accounts
@@ -70,7 +70,7 @@ To switch back to your previous account, click on the account user name in the d
 
 * To switch back to your previous account, click on the account user name in the drop down menu.
 
-[![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)
+[![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)
 
 
 ### Switching between different accounts
