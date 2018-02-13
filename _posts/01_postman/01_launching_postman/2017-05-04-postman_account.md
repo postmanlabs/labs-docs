@@ -44,7 +44,7 @@ When you first open the Postman app, you can sign in as an existing user or crea
 
 If you bypass the initial sign-in option, you can click the **Sign In** button on the top right corner of your screen at any time.
 
-[![signin icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchAccts_signIn_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchAccts_signIn_white.png)
+[![signin icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)
 
 After you sign in, your profile image replaces the **Sign In** button. 
 
