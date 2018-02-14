@@ -27,8 +27,6 @@ You can remove and delete an element from a Workspace. When you [remove](/docs/p
 
 Team Workspaces are available to Postman Pro and Postman Enterprise teams. Every team has one default team Workspace, and can [create](/docs/postman/workspaces/creating_workspaces){:target="_blank"} an unlimited number of Workspaces. You can sync and share Postman environments directly in Workspaces, without the need of [environment templates](/docs/postman/api_documentation/environments_and_environment_templates){:target="_blank"}.
 
-In addition, Postman Pro or Enterprise users can convert a personal Workspace to a team Workspace by inviting other team members to [join](/docs/postman/workspaces/using_workspaces){:target="_blank"} the Workspace. If free Postman users invite others to join their personal Workspace, they'll be prompted to create a paid Postman Pro team. Any team member can see and access elements that are shared to any team Workspace
-
 [![WS-mainScreen-teamMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
 You can share a collection from one Workspace to another. If you have the appropriate permissions for the collection, you can edit and update the collection in any Workspace where it exists.
