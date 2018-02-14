@@ -54,7 +54,7 @@ After you sign in to another account, the drop down menu lists all your active s
 
 To switch back to your previous account, click on the account user name in the drop down menu.
 
-[![multiccount icon]https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-app-white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-app-white.png)
+[![switch](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-app-white1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-app-white1.png)
 
 #### How to switch accounts in the Postman web view
 
