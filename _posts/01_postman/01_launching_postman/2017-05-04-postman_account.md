@@ -52,7 +52,7 @@ When you click on your profile image, a drop down menu lists all active signed-i
 
 To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
 
-[![addaccount icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_addAccount_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switch_addAccount_white.png)
+[![addaccount icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-newAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-newAcct.png)
 
 After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
@@ -70,7 +70,7 @@ To switch back to your previous account, click on the account user name in the d
 
 * To switch back to your previous account, click on the account user name in the drop down menu.
 
-[![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-newAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-newAcct.png)
+[![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard.png.png)
 
 
 ### Switching between different accounts
