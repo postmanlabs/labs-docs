@@ -32,7 +32,7 @@ Click the ***Ellipsis (...)*** button to:
 
 * [Rename personal Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Edit descriptions of your personal Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Edit descriptions of personal Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
 * [Delete personal Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
@@ -49,7 +49,7 @@ In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
 * [Edit descriptions of team Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Manage members of your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Manage members of team Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
 * [Leave team Workspaces ](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
