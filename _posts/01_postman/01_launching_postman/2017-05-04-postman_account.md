@@ -81,7 +81,6 @@ When you first open the Postman app, you can sign in as an existing user or crea
 
 If you bypass the initial sign-in option, you can click the Sign In button on the top right corner of your screen at any time.
 
-**(Insert Sign In graphic)**
 
 After you sign in, your profile image replaces the **Sign In button**. 
 
@@ -89,13 +88,10 @@ When you click on your profile image, a drop down menu lists all active signed-i
 
 To sign into another account, click the **Add A New Account** button at the bottom of the drop down menu.
 
-**(Insert Add a new account graphic)**
-
 After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
 To switch back to your previous account, click on the account user name in the drop down menu.
 
-**(Insert Multiple accounts graphic)**
 
 #### How to switch accounts in the Postman web view
 When you sign in to the Postman dashboard, you see your profile image on the top right hand corner of the screen.  
@@ -105,9 +101,6 @@ To sign into another account, click the Add A New Account button at the bottom o
 After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
 To switch back to your previous account, click on the account user name in the drop down menu.
-
-**(Insert Multiple accounts web view graphic)** 
-
 
 ### Security policies and standards
 
