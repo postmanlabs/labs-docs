@@ -23,15 +23,11 @@ You can create a mock in several ways:
 * **New** button
 * Launch screen
 * [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
-* [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
-
+* [Postman API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
   
-After you create the mock, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
+Mocks are accessible to the public by default. If you create a mock and specify that it is only to be available privately, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
-**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} or the [Postman Pro API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}, click its link for detailed information.
-
-<br>
-
+**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} or the [Postman API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}, click its link for detailed information.
 
 #### New button
 
@@ -60,7 +56,7 @@ The **Create New** tab appears.
 * Select an environment (optional).
 * Indicate if you want to make this mock server private
 
-**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://the.postman.co/usage){:target="_blank"}.
+**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits]({{site.pm.gs}}/dashboard/usage){:target="_blank"}.
      
  [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
      
@@ -97,4 +93,4 @@ CORS is enabled for Postman mock servers. As a result, you can stub your web app
 
 Your Postman account gives you a limited number of free mock server calls per month. 
 
-You can check your usage limits in the [Postman Pro API](https://docs.api.getpostman.com){:target="_blank"} or in the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
+You can check your usage limits in the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or in the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.

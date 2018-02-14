@@ -1,6 +1,6 @@
 [
   {
-    "title": "Postman",
+    "title": "Postman", 
     "url_prefix": "postman",
     "children": [
       {
@@ -396,7 +396,7 @@
             "external": false
           }
         ]
-      },
+      }, 
       {
         "title": "Mock servers",
         "url_prefix": "mock_servers",
@@ -412,7 +412,7 @@
             "external": false
           },
           {
-            "title": "Mocking with the Postman Pro API",
+            "title": "Mocking with the Postman API",
             "href": "/docs/postman/mock_servers/mock_with_api",
             "external": false
           },
@@ -482,7 +482,7 @@
         "href": "/docs/pro/what_is_pro",
         "url_prefix": "what_is_pro",
         "external": false
-      },
+      },    
       {
         "title": "Managing Postman Pro",
         "url_prefix": "managing_pro",
@@ -599,8 +599,19 @@
             "external": false
           }
         ]
-      }
-    ]
+      },
+      {
+        "title": "API Search",
+        "url_prefix": "searching_APIs",
+	"children":[
+          { 
+            "title": "Searching APIs",
+            "href":"/docs/pro/api_search/searching_apis",
+            "external": false
+           }
+	]
+       }
+      ]
   },
   {
     "title": "Postman Enterprise",
@@ -729,4 +740,4 @@
       }
     ]
   }
-]
+] 

@@ -22,7 +22,7 @@ Postman supports 3 member roles:
 | ---   |   ---     |
 | **Admin**   |    Send out team invites  <br>  Update team member roles  <br>  Remove users from the team |
 | **Billing**   |   View payments  <br>  Retry failed payments  <br>  View invoices  <br>  Update card details  <br>  Change billing email  <br>  Cancel and update the team's plan  |
-| **User**   |    Use Postman Pro  <br>  Collaborate on collections  <br>  Publish documentation  <br>  Set up monitors for collections  <br>  Use the Postman Pro API  |
+| **User**   |    Use Postman Pro  <br>  Collaborate on collections  <br>  Publish documentation  <br>  Set up monitors for collections  <br>  Use the Postman API  |
 
 Teams are only charged for user roles. If you team size is 10, you can have up to 10 members with the user role. Any of these 10 members can have admin or billing roles as well. Each team can have up to 2 support accounts (only have admin or billing rights, and are not paid for).
 
@@ -30,7 +30,7 @@ By default, members who set up the team for themselves will be granted all three
 
 ### Managing roles
 
-Anyone with the admin role can modify roles of other members. Head to the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}, click the Settings icon, and select "Manage permissions". 
+Anyone with the admin role can modify roles of other members. Head to the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, click the Settings icon, and select "Manage permissions". 
 	
   [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managePermissions.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managePermissions.jpg)
 	
@@ -52,7 +52,7 @@ An invite is an invitation that you send to new people to add them to a team. Th
 
   [![invite users from app](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/invite_users_from_app.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/invite_users_from_app.png)
 
-**For the user role:** To invite people to join the team with a user role, head to the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}, and click on "Invite Users". Enter the email addresses of those you wish to invite, and hit "Send Invite(s)". 
+**For the user role:** To invite people to join the team with a user role, head to the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, and click on "Invite Users". Enter the email addresses of those you wish to invite, and hit "Send Invite(s)". 
 
   [![invite users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/inviteUsers.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/inviteUsers.jpg)
 
@@ -61,14 +61,14 @@ These invites will be visible at the bottom of the member listing. If you don't 
   [![pending invite](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pendingInvite.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pendingInvite.jpg)
 
 
-**For admin or billing roles:** To invite people to join the team with an admin or billing role, head to the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}, click the Settings icon, and select "Add Support Account". Enter the recipient's email address, choose which roles to assign, and hit "Send Invite(s)". These invites will be visible at the bottom of the member listing. 
+**For admin or billing roles:** To invite people to join the team with an admin or billing role, head to the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, click the Settings icon, and select "Add Support Account". Enter the recipient's email address, choose which roles to assign, and hit "Send Invite(s)". These invites will be visible at the bottom of the member listing. 
 
   [![add support account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/supportAccount.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/supportAccount.jpg)
 
-**Canceling Invites:** If you'd like to revoke an invite you've already sent, hit the "X" link next to each invite in the listing on the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}. You can see how many available invites remain in the count displayed on the "Invite Users" button. The available invites will increase by 1 for every canceled invite for the user role.
+**Canceling Invites:** If you'd like to revoke an invite you've already sent, hit the "X" link next to each invite in the listing on the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}. You can see how many available invites remain in the count displayed on the "Invite Users" button. The available invites will increase by 1 for every canceled invite for the user role.
 
 ### Changing team size
 
-**For billing members**: If you're out of paid slots and need to invite more users, you'll need to click "Add Users" on the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}. You'll need to have a saved card to add users. Annual teams will be billed a pro-rated amount for the number of days left in the billing cycle.
+**For billing members**: If you're out of paid slots and need to invite more users, you'll need to click "Add Users" on the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}. You'll need to have a saved card to add users. Annual teams will be billed a pro-rated amount for the number of days left in the billing cycle.
 
   [![add users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)
