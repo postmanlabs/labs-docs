@@ -50,8 +50,6 @@ When you click on your profile image, a drop down menu lists all active signed-i
 
 To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
 
-[![addaccount icon]()]()
-
 After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
 To switch back to your previous account, click on the account user name in the drop down menu.
