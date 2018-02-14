@@ -70,7 +70,7 @@ To switch back to your previous account, click on the account user name in the d
 
 * To switch back to your previous account, click on the account user name in the drop down menu.
 
-[![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)
+[![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-newAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-newAcct.png)
 
 
 ### Switching between different accounts
