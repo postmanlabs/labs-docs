@@ -23,7 +23,7 @@ Navigate to every request in the Collection `testAPI` that you would like to i
 
 Let's retrieve the `collectionId` of `testAPI` using the [Postman API](https://api.getpostman.com/){:target="_blank"}. Get a list of all your Collections using the [GET All Collections endpoint](https://docs.api.getpostman.com/#3190c896-4216-a0a3-aa38-a041d0c2eb72){:target="_blank"}. Search for the name of your Collection and retrieve the `uid` from the results, which will be used as the `collectionId` in the next step.
 
-[![get collection id](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.56.19-PM-1024x426.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.56.19-PM.png) 
+[![get collection id](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-information2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-information2.png) 
 
 You can also use the Postman app to retrieve the `collectionId`. Find the Collection in your app and hit `View Docs`. The `collectionId` is visible in the documentation url: 
 
