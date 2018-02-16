@@ -25,7 +25,7 @@ When you select "Authorization" in the request builder, you see the **TYPE** dro
 
 **Note**: NTLM and Bearer token are only available in Postman native apps. All other authorization types are available in Postman native apps and the Chrome app. Note that the [Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/).
 
-[![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/authorization-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/authorization-menu.png)
+[![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-authorization-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-authorization-menu.png)
 
 You can use environment, collection, or global variables with all authorization types. In addition to using these in the Postman app, you can also use these authorization types with Newman or Postman monitors.
 
@@ -33,7 +33,7 @@ Postman does not save header data and query parameters to prevent sensitive data
 
 If you want to inspect the authorization headers and parameters that Postman generates, click the **Preview Request** button. 
 
- [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)
+ [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-RequestPreview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-RequestPreview.png)
 
 **Note**: You can inspect a raw dump of the entire request in the Postman console after you send it.
 
@@ -75,7 +75,7 @@ To use a bearer token:
 3. Click the **Send** button.
 
 
-[![bearer auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_BearerToken.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_BearerToken.png)
+[![bearer auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-BearerToken.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-BearerToken.png)
 
 ### Basic Auth
 
@@ -87,7 +87,7 @@ To use Basic Auth:
 3. Click the **Send** button.
 
 
-[![basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Basic.png)
+[![basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Basic.png)
 
 
 ### Digest Auth
@@ -103,7 +103,7 @@ To use digest auth:
 2. To set the authorization parameters for a request, enter your username and password. (You can also set advanced digest auth parameters.) 
 3. Click the **Send** button.
 
-[![digest_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Digest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Digest.png)
+[![digest_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Digest+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Digest+copy.png)
 
 This table describes the advanced parameters for Digest Auth. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
 
