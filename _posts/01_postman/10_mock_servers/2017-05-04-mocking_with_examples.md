@@ -91,13 +91,13 @@ In the previous steps, we prepared the collection, request, and example response
   
   We do, however, have a saved example with the path `/get` and the request method `GET`. So sending a `GET` request to the URL `https://b75a340e-4268-4b20-8f5f-3cfc8f37cec6.mock.pstmn.io/get` will return the proper response we are looking for.
 
-  [![mock response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock12.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock12.png)
+  [![mock response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock12.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock12.png)
 
 ##### **Adding more examples**
   
   To further illustrate how responses from the mock service are entirely dependent on your saved examples, let's try adding another example to this collection. We'll repeat steps 1 to 3 of saving the request to a collection and saving the response as an example, with a new URL `https://postman-echo.com/test`.
   
-  [![second example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock13.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock13.png)
+  [![second example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock13.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock13.png)
 
   Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error which we will then save as another example. Our collection `C1` now has two requests and two saved examples:
   
@@ -106,7 +106,7 @@ In the previous steps, we prepared the collection, request, and example response
   
   Mocking the `/test` mock path also gives us our expected 404 response.
   
-  [![404 example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock14.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock14.png)
+  [![404 example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)
 
   Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which specifies which integer response code your returned response should match.
   
