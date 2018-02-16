@@ -129,7 +129,7 @@ When you select "Request Body/Request URL", Postman checks if the request method
 
 3. To set the authorization parameters for a request, enter the "Consumer Key", "Consumer Secret", "Access Token", and "Token Secret". You can also set advanced digest OAuth 1.0 parameters.
 
-[![oauth1_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth1_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth1_0.png)
+[![oauth1_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-OAuth1_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-OAuth1_0.png)
 
 This table describes the parameters for OAuth 1.0 authorization.
 
@@ -159,7 +159,7 @@ To use the OAuth 2.0 authorization:
    * In the "Access Token" field, enter a token, or an environment defined variable, and click the **Send** button.
    * In the "Available Tokens" drop down menu, select an existing token and click the **Send** button.
 
-[![oauth2_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_OAuth2_0.png)
+[![oauth2_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-OAuth2_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-OAuth2_0.png)
 
 This table describes the parameters in the **GET NEW ACCESS TOKEN** screen.
 
@@ -193,7 +193,7 @@ To use Hawk authentication:
 2. To set the authorization parameters for a request, enter the "Hawk Auth ID", "Hawk Auth Key", and "Algorithm values". You can also set advanced Hawk authentication parameters.
 3. Click the **Send** button.
 
-[![hawk_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Hawk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_Hawk.png)
+[![hawk_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Hawk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Hawk.png)
 
 This table describes the parameters for Hawk Authentication.
 
@@ -231,7 +231,7 @@ To use AWS authentication:
 2. To set the authorization parameters for a request, enter the values for the access and secret keys. You can also set advanced AWS authentication parameters.
 3. Click the **Send** button.
 
-[![aws_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_AWS_Signature.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_AWS_Signature.png)
+[![aws_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-AWS-Signature.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-AWS-Signature.png)
 
 This table describes the advanced parameters for AWS Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
 
@@ -258,7 +258,7 @@ This table describes the advanced parameters for NTLM Authentication. Advanced c
 | Domain | The domain or host to authenticate against.|
 | Workstation| The hostname of the PC.|
 
-[![ntlm_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_NTLM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_NTLM.png)
+[![ntlm_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-NTLM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-NTLM.png)
 
 
 
