@@ -396,7 +396,7 @@
             "external": false
           }
         ]
-      },
+      }, 
       {
         "title": "Mock servers",
         "url_prefix": "mock_servers",
@@ -444,6 +444,32 @@
         "url_prefix": "notifications",
         "href":"/docs/postman/notifications",
         "external": false
+      },
+      {
+	"title": "Workspaces",
+	"url_prefix": "workspaces",
+	"children": [
+	    {
+	        "title": "Intro to workspaces",
+		"href": "/docs/postman/workspaces/intro_to_workspaces",
+		"external": false
+	    },
+	    {
+	        "title": "Creating workspaces",
+		"href": "/docs/postman/workspaces/creating_workspaces",
+		"external": false
+	    },
+	    {
+	        "title": "Managing Workspaces",
+		"href": "/docs/postman/workspaces/managing_workspaces",
+		"external": false
+	    },
+	    {
+	        "title": "Using Workspaces",
+		"href": "/docs/postman/workspaces/using_workspaces",
+		"external": false
+	    }	
+	]
       }
     ]
   },

@@ -37,7 +37,7 @@ You can create a new environment from the:
 
 1. Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
-[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)
+[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)
 
 <ol start="2">
   <li>Select “Manage Environments”.</li>
@@ -51,7 +51,7 @@ You can create a new environment from the:
 
 1. In the header toolbar, click the **New** button.
 
-[![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton_whiteTheme.png)
+[![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
 The **Create New** tab appears.
 
@@ -87,7 +87,7 @@ The **Create New** tab appears by default when you launch Postman.
 Click the dropdown menu in the upper right corner of the Postman app to select an active environment, or type in the environment name. 
 
 Once you select an environment, you can access variables in the active environmental scope.  
-[![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active_environ.png)
+[![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-active-environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-active-environ.png)
 
 ### Editing an active environment
 
@@ -95,7 +95,7 @@ Click the **Quick Look** icon in the upper right corner of the Postman app to di
 
 When you click the **Edit** link, a modal opens where you can edit keys and values.
 
-[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_active_environ.png)
+[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-active-environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-active-environ.png)
 
 ### Sharing an environment
 

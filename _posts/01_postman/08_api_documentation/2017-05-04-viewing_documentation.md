@@ -23,13 +23,13 @@ You must be logged in to your Postman Account to view private documentation.
 
 In the Postman app, hover your cursor over your Collection on the left-hand side, click the right angle bracket (>), then click the **View in web** button. 
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-view.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-view.png)
 
-To view documentation for a shared collection, navigate to your Team Library in your Postman app. 
+To view documentation for a shared collection, click "Build" menu in the status bar at the bottom of the screen and click "Browse".
 
-Locate the collection you’d like to view, then click the **View in web** button next to it.  
+Select the collection you want and then click the Ellipsis (...) button. Select "Publish docs". 
 
-[![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-teamlib-view.png)
+[![view docs from team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-pub-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-pub-docs.png)
 
 In this private web view, you’ll be able to see each request in the collection, their descriptions, and code snippets generated from the environment and the language you’ve selected.
 

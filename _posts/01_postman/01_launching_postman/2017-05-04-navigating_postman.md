@@ -32,28 +32,21 @@ Learn more about [collections](/docs/postman/collections/creating_collections){:
 
 ### Header toolbar
 
-[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
+[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
 The header toolbar contains these options:
 * **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
 *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
 *   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run){:target="_blank"}
-*   New window icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
-*   **Builder** and **Team Library** tabs - Switches context between the request builder and team library view.
-*   Interceptor/Proxy icon - Manages proxy or Interceptor settings.
-*   IN SYNC status icon - Updates the status of your Postman account.
-*   Public API Library - Displays the Public API network.
-*   Settings icon - Manages Postman app settings and finds other support resources.
-*   Notifications icon - Receives notifications or broadcasts.
-*   Heart - Love Postman? Click on this button to share the love!
-*   User dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
-
-### Builder
-
-Postman gives you a tabbed layout to send and manage API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  
-
-   *   **Cookies** - You can use the **Cookies** link on the far right under the **Save** button to access the **MANAGE COOKIES** modal. This feature lets you manage cookies associated with the request. Learn more about [working with cookies](/docs/postman/sending_api_requests/cookies){:target="_blank"}.
-   *   **Code** - You can use the **Code** link on the far right under the **Save** button to access the **GENERATE CODE SNIPPETS** modal. This feature lets you generate code snippets associated with the request in more than 20 languages.
+*   **New window** icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
+*   **Workspaces** menu - Opens the Workspaces menu where you can view [personal and team Workspaces](/docs/postman/workspaces/intro_to_workspaces){:target="_blank"}, and create and manage Workspaces.
+*   **Interceptor/Proxy** icon - Manages proxy or Interceptor settings.
+*   **IN SYNC status** icon - Updates the status of your Postman account.
+*   **Public API Library** - Displays the Public API network.
+*   **Settings** icon - Manages Postman app settings and finds other support resources.
+*   **Notifications** icon - Receives notifications or broadcasts.
+*   **Heart** - Love Postman? Click on this button to share the love!
+*   **User** dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
 
 ### Console
 
@@ -63,18 +56,6 @@ Two consoles are available in Postman to see what's going on behind the scenes.
    *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
 
 Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
-
-### Menu bar
-
-The Postman application menu bar provides access to additional features. Note that there are some key differences between the menu bar for Postman's native apps and Postman's Chrome app.
-
-**Postman native app**: Displays more menu options to access specific Postman features.
-
-[![native app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)
-
-**[Postman Chrome app](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/){:target="_blank"}**: Displays fewer menu options due to Chrome standard restrictions.
-
-[![chrome app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)
 
 ### Status bar
 
@@ -86,11 +67,11 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 * Open the keyboard [shortcuts.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts){:target="_blank"}
 * Get help or provide feedback.
 
-[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)
+[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-status-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-status-bar.png)
 
 When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs){:target="_blank"}, [security,](https://www.getpostman.com/security){:target="_blank"} [support,](https://www.getpostman.com/support){:target="_blank"} and [social media.](https://twitter.com/postmanclient){:target="_blank"}
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-statusbar-helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-statusbar-helpFeedbackMenu.png)
 
 ### Tabs and Windows
 
@@ -114,7 +95,7 @@ By default, Postman assumes you want to work on one collection request in one t
 
 Postman offers several tab actions to help you manage your work.
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Tab-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Tab-menu.png)
 
 To access the **Tab** menu, click the three dots on the right side of a tab. A dropdown menu appears with options to manage your tabs.
 
@@ -242,13 +223,13 @@ We've configured the available horizontal and vertical space more effectively to
 
 On hover, relevant features display for a specific row to reduce clutter in the interface and help you focus on the most relevant data.
 
-[![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
+[![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)
 
 **Mulitple rows**
 
 Drag your mouse to select multiple rows.
 
-[![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
+[![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)
 
 **Keyboard shortcuts for the data editor**
 
@@ -275,22 +256,22 @@ Drag your mouse to select multiple rows.
 
 You can select and copy multiple rows and then paste them in a different places (such as 'params').
 
-[![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)  
+[![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-copy-paste-rows.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-copy-paste-rows.gif)  
 
 **Front view of information**
 
 You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.  
 
-[![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)
+[![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-front-view.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-front-view.gif)
 
 **Resizing columns**
 
 You can change the width of the key and value columns when you drag the boundary on the right side of the ‘key’ column header.
 
-[![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)
+[![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-resize-columns.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-resize-columns.gif)
 
 **Multiline support**
 
 The data editor supports sending multiline values. Press 'Enter' in a key or value field to expand it and move the cursor to a new line.
 
-[![sending multiline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162801.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162801.gif)
+[![sending multiline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiline-support.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiline-support.gif)

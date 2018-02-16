@@ -11,15 +11,15 @@ Postman supports [Markdown](/docs/postman/api_documentation/how_to_document_usi
 
 For more information about Markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc){:target="_blank"} for API documentation. 
 
-Postman renders Markdown in the request builder, and in public or internal API documentation.
+Postman renders Markdown in your Workspace, and in public or internal API documentation.
 
-**Request builder**
+**Workspaces**
 
-In the request builder, you can use Markdown to style the request description.  
-[![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription2.png)
+In your Workspace, you can use Markdown to style the request description.  
+[![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-NSFrequestDescription.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-NSFrequestDescription.png)
 
 You can use Markdown to style descriptions for collections and folders. 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-collections.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-descrptions-folders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-descrptions-folders.png)
 
 **Public or internal API documentation**
 
@@ -32,18 +32,16 @@ The description column in the [data editor](/docs/postman/launching_postman/navi
 
 For example, specify if an element is required or optional, indicate the accepted data type, or use alternative terminology to provide additional clarification for developers who work with your requests.
 
-[![data editor parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-data-editor-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-data-editor-params.png)
+[![data editor parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-data-editor-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-data-editor-params.png)
 
 For Postman users who publish internal or public API documentation, these descriptions display in the [automatically generated documentation](/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
 
-[![parameters in automatically generated docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-auto-docs.png)
+[![parameters in automatically generated docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-auto-docs.png)
 
 **Note**: Descriptions for path variables and URL params are currently NOT shown in the documentation.
 
 To hide and show the value and description column in the data editor, click the ellipsis (...) in the top right corner of the editor, and uncheck the columns that you want to hide.
 
-[![uncheck parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-uncheck-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-uncheck-params.png)
+[![uncheck parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-uncheck-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-uncheck-params.png)
 
 **Note**: Descriptions are metadata for a request and are **NOT** sent with your HTTP request. This reminder displays when you mouse over the title of the description column.
-
-[![mouseover params](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-mouseover.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-mouseover.png)

@@ -28,7 +28,7 @@ You can create documentation from the:
 
 1. In the header toolbar, click the **New** button.
 
-[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
+[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
 The **Create New** tab appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)

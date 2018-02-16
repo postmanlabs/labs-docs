@@ -12,7 +12,7 @@ warning: false
 
 A Postman Collection lets you group individual requests together. You can organize these requests in folders. 
 
-[![sample collection Echo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_headers.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_headers.png)
+[![sample collection Echo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Collection_headers.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Collection_headers.png)
 
 ### Why create collections?
 
@@ -57,7 +57,7 @@ You can create a new collection from the:
 
 1. In the header toolbar, click the **New** button.
 
- [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
+ [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
 
 The **Create New** tab appears.
 
