@@ -31,7 +31,7 @@ Before we get into the details of mocking, let’s start with setting up some ba
   
   Hit the **Save** button to open the **SAVE REQUEST** modal. [Collections](/docs/postman/collections/creating_collections) are simply groups of requests that can be connected together to create APIs and workflows.
   
-  [![save request button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock2+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock2+copy.png)
+  [![save request button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock2-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock2-1.png)
   
   You can save a request to an existing collection, or save it to a new collection.  Let's create our new collection called `C1`. 
   
