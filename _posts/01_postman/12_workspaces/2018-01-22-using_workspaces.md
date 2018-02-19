@@ -35,7 +35,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Adding collections and environments from another Workspace](#adding-collections-and-environments-from-another-workspace)  
 
-* [Publishing Workspaces](#publishing-workspaces)
+* [Publishing collections](#publishing-collections)
 
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
 
@@ -113,7 +113,6 @@ In the Collections view, click the **Join** button.
 [![join two](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-second-step.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-second-step.png)
 
 
-
 In the confirmation message, click the **Start Building** button to complete the process.
 
 [![join three](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)
@@ -132,7 +131,7 @@ In "Share a personal workspace", select the users with whom you want to share th
 
 Click the **Share this workplace** button.  Your shared Workspace appears in team Workspaces.
 
-### Sharing collections in Workspaces
+### Sharing collections and elements in Workspaces
 
 Postman enables you to share your collections in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
@@ -165,6 +164,18 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
+
+**Sharing elements to Workspaces**
+
+You can only share Postman collections and environments with other Workspaces. In this example, we share a collection to a Workspace. You also create new monitors and mocks other Workspaces.
+
+In the Collections view, select the collection you want to share, and click the **Share** button.
+
+[![share elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)
+
+In "Share this collection", select the Workspace of which you want to share this collection, and click the **Share** button.
+
+[![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
 ### Viewing details in Workspaces
 
@@ -204,19 +215,7 @@ To rename your team Workspaces, select "Rename" from the ***Ellipsis (...)*** bu
 
 [![rename team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
 
-### Sharing elements to Workspaces
-
-You can share Postman elements (collections, environments, monitors, mocks, and integrations ) with other Workspaces. In this example, we share a collection to a Workspace.
-
-In the Collections view, select the collection you want to share, and click the **Share** button.
-
-[![share elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)
-
-In "Share this collection", select the Workspace of which you want to share this collection, and click the **Share** button.
-
-[![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
-
-### Publishing Workspaces
+### Publishing collections
 
 Postman enables you to [publish your collection](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and make it availabe to anyone with the published link.
 
