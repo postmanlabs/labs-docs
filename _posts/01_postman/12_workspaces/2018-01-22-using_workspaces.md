@@ -88,6 +88,8 @@ Click the ***Ellipsis (...)*** button in the element you want to remove and sele
 
 When you delete an element, you erase its existence in Postman. 
 
+**Deleting elements in the Dashboard**
+
 To delete a Workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select a Workspace. In this example, we select a team Workspace to delete.
 
 Click the ***Ellipsis (...)*** button for the element you want to delete and select "Delete".
@@ -97,6 +99,14 @@ Click the ***Ellipsis (...)*** button for the element you want to delete and sel
 In "Delete Workspace", click the **Delete** button. Remember when you delete a Workspace, it is gone forever!
 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
+
+**Deleting elements in the Postman app**
+
+In the status bar at the bottom of the screen, click the "Build" menu and select "Browse".
+
+[![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu.png)
+
+Select a Workspace and follow the steps outlined in "Deleting elements in the Dashboard" above.
 
 ### Joining Workspaces
 
