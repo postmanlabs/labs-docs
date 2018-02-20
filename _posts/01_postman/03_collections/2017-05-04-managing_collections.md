@@ -24,13 +24,13 @@ Expand the right angle bracket (**>**) to show the details view for the collecti
 
 Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/postman/collections/creating_collections).
 
-[![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154223.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154223.png)
+[![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-collection-copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-collection-copy.png)
 
 ##### **Reorder collections**
 
 Collections can be sorted either alphabetically by name or by when they were last updated. To do this, select the "sort" icon on the top right and select `Sort by name` or `Sort by date`. 
 
-[![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154251.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154251.png)
+[![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-sortByName.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-sortByName.png)
 
 ##### **Favoriting a collection**
 
