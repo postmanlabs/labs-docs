@@ -26,29 +26,16 @@ Click the "new collection" icon on the top right, or [save a current request to 
 
 [![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-collection-copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-collection-copy.png)
 
-##### **Reorder collections**
-
-Collections can be sorted either alphabetically by name or by when they were last updated. To do this, select the "sort" icon on the top right and select `Sort by name` or `Sort by date`. 
-
-[![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-sortByName.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-sortByName.png)
-
 ##### **Favoriting a collection**
 
 If you're working on a few collections in particular, you can click on the star icon to bring the collection(s) to the top of the list.
 
 [![favorite a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-favorite.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-favorite.png)
 
-##### **Filter collections**
-
-If you have a lot of collections, filter collections in the sidebar using the search input field.  
-
-[![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154104.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154104.png)
 
 ##### **Delete a collection**
 
 Click the ellipses (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can click the **Undo** link in the notification that appears at the top of the Postman app.
-
-[![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154076.png)
 
 ##### **Share a collection** 
 
