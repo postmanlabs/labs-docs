@@ -24,7 +24,7 @@ Expand the right angle bracket (**>**) to show the details view for the collecti
 
 Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/postman/collections/creating_collections).
 
-[![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-collection-copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-collection-copy.png)
+[![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-new-icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-new-icon.png)
 
 ##### **Favoriting a collection**
 
