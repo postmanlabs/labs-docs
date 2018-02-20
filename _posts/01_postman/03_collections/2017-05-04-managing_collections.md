@@ -39,7 +39,7 @@ Click the ellipses (...)next to a collection, and select "Delete". If you didn't
 
 ##### **Share a collection** 
 
-Learn more about [sharing collections](/docs/postman/collections/sharing_collections).
+To share a collection, see [sharing collections](/docs/postman/collections/sharing_collections).
 
 ### Other collection features
 
