@@ -173,11 +173,11 @@ Select "Browse" and click the Share button to share a collection, environment, m
 
 ### Sharing collections and environments in Workspaces 
 
-You can only share Postman collections and environments with other Workspaces. In this example, we share a collection to a Workspace. You also create new monitors and mocks other Workspaces.
+Postman enables you to share your collections and environments in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
-Postman enables you to share your collections in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
+#### Sharing collections in the app
 
-#### Sharing collections in the sidebar
+**Sharing collections in the sidebar**
 
 In the Postman app, select a collection in the sidebar and click the ***Ellipsis (...)*** button.
 
