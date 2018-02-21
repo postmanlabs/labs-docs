@@ -38,7 +38,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
 
-* [Sharing collections and other elements in Workspaces](#sharing-collections-and-other-elements-in-Workspaces)
+* [Sharing collections and other elements in Workspaces](#sharing-collections-and-other-elements-in-Workspaces)]
 
 
 
