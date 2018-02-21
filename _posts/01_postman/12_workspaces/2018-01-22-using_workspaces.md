@@ -36,9 +36,10 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 * [Adding collections and environments from another Workspace](#adding-collections-and-environments-from-another-workspace)  
 * [Publishing collections](#publishing-collections)
 
+* [Sharing collections and environments in Workspaces](#sharing-collections-and-environments-in-Workspaces)
+
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
 
-* [Sharing collections and environments in Workspaces](#sharing-collections-and-environments-in-Workspaces)
 
 
 
