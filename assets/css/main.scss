@@ -1,0 +1,29 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+.pm-sidebar-main-nav {
+
+  .version-selector {
+		display: block;
+    line-height: 64px;
+    padding-left: 42px;
+    position: relative;
+    cursor: pointer;
+    font-weight: 400;
+	}
+}
+
+.header-container {
+
+	.version-selector {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 24px;
+
+    @media (max-width: 1075px) {
+    	display: none;
+    }
+	}
+}
