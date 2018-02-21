@@ -16,7 +16,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Deleting Workspaces](#deleting-workspaces)
 
-* [Deleting elements in Workspaces] (#deleting-elements-in-workspaces)
+* [Deleting elements in Workspaces](#deleting-elements-in-workspaces)
 
 * [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)
 
