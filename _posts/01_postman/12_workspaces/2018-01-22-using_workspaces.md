@@ -111,7 +111,7 @@ Click the ***Ellipsis (...)*** button for the Workspace element you want to dele
 
 To delete an element in a Workspace, go to the status bar at the bottom of the screen and click the "Build" menu.
 
-[![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu.png)
+[![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)
 
 Select "Browse" and select an element view: Collections, Environments, Monitors, Mocks, or Integrations view. The Collection view appears by default.
 
