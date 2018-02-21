@@ -170,7 +170,7 @@ To share a Workspace, go to the status bar at the bottom of the screen and click
 Select "Browse" and click the Share button to share a collection, environment, monitor, mock, or integration to share.
 
 
-### Sharing collections and other elements in Workspace
+### Sharing collections and other elements in Workspaces
 
 Postman enables you to share your collections in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
