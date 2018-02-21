@@ -40,8 +40,6 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Sharing collections and other elements in Workspaces](#sharing-collections-and-other-elements-in-Workspaces)
 
-* [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
-
 
 
 
