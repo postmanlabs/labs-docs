@@ -18,7 +18,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Deleting elements in Workspaces](#deleting-elements-in-workspaces)
 
-* [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)
+* [Editing descriptions of Workspaces](#editing-descriptions-of-workspaces)
 
 * [Joining Workspaces](#joining-workspaces)
 
@@ -311,7 +311,7 @@ In "Delete Workspace", click the **Leave workspace** button.  You can no longer 
 
 [![leave workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-leave-WS-team.png)
 
-### Editing descriptions in Workspaces
+### Editing descriptions of Workspaces
 
 You can edit descriptions for personal and team Workspaces. In this example, we use a personal Workspace.
 
