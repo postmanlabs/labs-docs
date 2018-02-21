@@ -38,6 +38,8 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
 
+* [Sharing collections and environments in Workspaces](#sharing-collections-and-environments-in-Workspaces)
+
 
 
 
@@ -168,7 +170,9 @@ To share a Workspace, go to the status bar at the bottom of the screen and click
 Select "Browse" and click the Share button to share a collection, environment, monitor, mock, or integration to share.
 
 
-### Sharing collections and other elements in Workspaces
+### Sharing collections and environments in Workspaces
+
+You can only share Postman collections and environments with other Workspaces. In this example, we share a collection to a Workspace. You also create new monitors and mocks other Workspaces.
 
 Postman enables you to share your collections in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
@@ -202,9 +206,7 @@ Select this option to generate a shareable link for others to access your collec
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
-**Sharing elements to Workspaces**
-
-You can only share Postman collections and environments with other Workspaces. In this example, we share a collection to a Workspace. You also create new monitors and mocks other Workspaces.
+**Sharing environments to Workspaces**
 
 In the Collections view, select the collection you want to share, and click the **Share** button.
 
