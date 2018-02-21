@@ -177,7 +177,7 @@ Postman enables you to share your collections and environments in Workspaces fro
 
 #### Sharing collection in the Postman app
 
-**Sharing collections in the sidebar**
+**In the sidebar**
 
 1. In the Postman app, select a collection in the sidebar and click the ***Ellipsis (...)*** button.
 
@@ -209,7 +209,7 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
-**Sharing collections from the Build menu**
+**In the Build menu**
 
 1. In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
 
@@ -225,7 +225,7 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 
 #### Sharing environments in the app
 
-**Sharing environments in the Build menu**
+**In the Build menu**
 
 1. In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
 
