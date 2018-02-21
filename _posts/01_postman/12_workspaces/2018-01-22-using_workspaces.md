@@ -185,7 +185,7 @@ Select "Share Collection". The **SHARE COLLECTION** modal appears. It offers thr
 
 [![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
 
-**Sharing collections in another Workspace**
+* Sharing collections in another Workspace
 
 Select this option to add a collection to a team Workspace. The collection is visible to the team.
 
@@ -193,7 +193,7 @@ In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_bl
 
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)
 
-**Sharing collections with the Embed or Run In Postman button**
+* Sharing collections with the Embed or Run In Postman button
 
 Select this option to embed a **[Run in Postman](/docs/postman_for_publishers/run_button/creating_run_button){:target="_blank"}** button in your collection for your API documentation, website, or Github readme. 
 
@@ -203,7 +203,7 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 
 [![share embed-rip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)
 
-**Sharing collections with a link**
+* Sharing collections with a link
 
 Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
 
