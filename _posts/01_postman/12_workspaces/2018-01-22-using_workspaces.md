@@ -39,7 +39,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
 
-* [Sharing collections in Workspaces](#sharing-collections-in-workspaces)
+* [Sharing collections and other elements in Workspaces](#sharing-collections-and-other-elements-in-Workspaces)
 
 * [Sharing elements to Workspaces](#sharing-elements-to-workspaces)
 
@@ -111,6 +111,7 @@ Click the ***Ellipsis (...)*** button for the Workspace element you want to dele
 
 To delete an element in a Workspace, go to the status bar at the bottom of the screen and click the "Build" menu.
 
+
 [![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)
 
 Select "Browse" and select an element view: Collections, Environments, Monitors, Mocks, or Integrations view. The Collection view appears by default.
@@ -170,7 +171,7 @@ To share a Workspace, go to the status bar at the bottom of the screen and click
 Select "Browse" and click the Share button to share a collection, environment, monitor, mock, or integration to share.
 
 
-### Sharing collections and elements in Workspaces
+### Sharing collections and other elements in Workspaces
 
 Postman enables you to share your collections in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
