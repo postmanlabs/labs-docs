@@ -106,18 +106,15 @@ To delete a Workspace element, go to the [Workspaces dashboard](https://app.getp
 
 Click the ***Ellipsis (...)*** button for the Workspace element you want to delete and select "Delete".
 
-
-**Deleting elements in the Postman app**
+**Deleting elements in the app**
 
 To delete an element in a Workspace, go to the status bar at the bottom of the screen and click the "Build" menu.
-
 
 [![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)
 
 Select "Browse" and select an element view: Collections, Environments, Monitors, Mocks, or Integrations view. The Collection view appears by default.
 
 Click the ***Ellipsis (...)*** button for the Workspace element you want to delete and select "Delete".
-
 
 ### Joining Workspaces
 
@@ -147,12 +144,11 @@ Go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="
 
 Scroll down to "Workspaces you can join" and click the **Join** button next to the Workspace you want to join.
 
-
 ### Sharing Workspaces
 
 Postman lets you share your personal Workspaces with other users.
 
-**Sharing Workspaces in the Dashboard**
+**In the Dashboard**
 
 In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal Workspace you want to share. Next, click the ***Ellipsis (...)*** button and select "Share".
 
@@ -164,7 +160,7 @@ In "Share a personal workspace", select the users with whom you want to share th
 
 Click the **Share this workplace** button.  Your shared Workspace appears in team Workspaces.
 
-**Sharing Workspaces from the Postman app**
+**In the app**
 
 To share a Workspace, go to the status bar at the bottom of the screen and click the "Build" menu.
 
@@ -175,7 +171,7 @@ Select "Browse" and click the Share button to share a collection, environment, m
 
 Postman enables you to share your collections and environments in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
-#### Sharing collection in the Postman app
+#### Sharing collection in the app
 
 **In the sidebar**
 
@@ -239,18 +235,6 @@ Postman enables you to share your collections and environments in Workspaces fro
 1. In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select an environment. 
 
 2. Click the **Share** button.
-
-
-
-**Sharing environments to Workspaces**
-
-In the Collections view, select the collection you want to share, and click the **Share** button.
-
-[![share elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-dashboard.png)
-
-In "Share this collection", select the Workspace of which you want to share this collection, and click the **Share** button.
-
-[![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
 ### Viewing details of Workspaces
 
