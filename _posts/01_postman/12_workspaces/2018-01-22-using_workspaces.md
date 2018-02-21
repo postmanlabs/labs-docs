@@ -16,6 +16,8 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Deleting Workspaces](#deleting-workspaces)
 
+* [Deleting elements in Workspaces] (#deleting-elements-in-workspaces)
+
 * [Editing descriptions in Workspaces](#editing-descriptions-in-workspaces)
 
 * [Joining Workspaces](#joining-workspaces)
@@ -99,6 +101,8 @@ Click the ***Ellipsis (...)*** button for the Workspace you want to delete and s
 In "Delete Workspace", click the **Delete** button. Remember when you delete a Workspace, it is gone forever!
 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
+
+### Deleting elements in Workspaces
 
 **Deleting elements in the Dashboard**
 
