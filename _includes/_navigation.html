@@ -3,10 +3,8 @@
     	<li>
     		<div class="version-selector">
 		    	<select onchange="location = this.options[this.selectedIndex].value;">
-			        <option>Please select</option>
-			        <option value="http://www.apple.com/">Apple</option>
-			        <option value="http://www.bbc.com">BBC</option>
-			        <option value="http://www.facebook.com">Facebook</option>
+			        <option {% if page.version == 'v5' %}selected="selected"{% endif %} value="/docs/v5/">Version 5.0</option>
+		            <option {% if page.version == 'v6' %}selected="selected"{% endif %} value="/docs/v6/">Version 6.0</option>
 			    </select>​
 			</div>
 		</li>
