@@ -175,7 +175,7 @@ Select "Browse" and click the Share button to share a collection, environment, m
 
 Postman enables you to share your collections and environments in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
-#### Sharing collection in the app
+#### Sharing collections in the app
 
 **In the sidebar**
 
@@ -217,7 +217,7 @@ Postman enables you to share your collections and environments in Workspaces fro
 
 3. Click the **Share** button.
 
-#### Sharing collections in the dashboard
+#### Sharing collections in the Dashboard
 
 1. In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select a collection. 
 
