@@ -36,9 +36,9 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 * [Adding collections and environments from another Workspace](#adding-collections-and-environments-from-another-workspace)  
 * [Publishing collections](#publishing-collections)
 
-* [Sharing collections and environments in Workspaces](#sharing-collections-and-environments-in-Workspaces)
-
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
+
+* [Sharing collections and environments in Workspaces](#sharing-collections-and-environments-in-Workspaces)
 
 
 
@@ -171,14 +171,13 @@ To share a Workspace, go to the status bar at the bottom of the screen and click
 Select "Browse" and click the Share button to share a collection, environment, monitor, mock, or integration to share.
 
 
-
 ### Sharing collections and environments in Workspaces 
 
 You can only share Postman collections and environments with other Workspaces. In this example, we share a collection to a Workspace. You also create new monitors and mocks other Workspaces.
 
 Postman enables you to share your collections in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
-**Sharing collections in the sidebar**
+#### Sharing collections in the sidebar
 
 In the Postman app, select a collection in the sidebar and click the ***Ellipsis (...)*** button.
 
@@ -190,7 +189,9 @@ Select "Share Collection". The **SHARE COLLECTION** modal appears. It offers thr
 
 Select this option to add a collection to a team Workspace. The collection is visible to the team.
 
-[![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collections-in+WS.png)
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then clcik the **Share** button. The collection is visible in your target Workspace.
+
+[![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)
 
 **Sharing collections with the Embed or Run In Postman button**
 
@@ -207,6 +208,37 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
+
+#### Sharing collections in the app
+
+In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
+
+Select "Browse", and then select a collection. 
+
+Click the **Share** button.
+
+#### Sharing collections in the dashboard
+
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select a collection. 
+
+Click the **Share** button.
+
+#### Sharing environments in the app
+
+In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
+
+Select "Browse", and then select an environment. 
+
+Click the **Share** button.
+
+
+#### Sharing environments in the dashboard
+
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select an environment. 
+
+Click the **Share** button.
+
+
 
 **Sharing environments to Workspaces**
 
