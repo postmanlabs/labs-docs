@@ -1,5 +1,15 @@
 <div id="sidebar-toggleable">
     <ul class="pm-sidebar-main-nav">
+    	<li>
+    		<div class="version-selector">
+		    	<select onchange="location = this.options[this.selectedIndex].value;">
+			        <option>Please select</option>
+			        <option value="http://www.apple.com/">Apple</option>
+			        <option value="http://www.bbc.com">BBC</option>
+			        <option value="http://www.facebook.com">Facebook</option>
+			    </select>​
+			</div>
+		</li>
         <li><a href="{{site.pm.root}}/">Home</a></li>
         <li><a href="{{site.pm.root}}/products">Products</a></li>
         <li><a href="{{site.pm.root}}/pricing">Pricing</a></li>
