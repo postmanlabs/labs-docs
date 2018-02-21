@@ -175,19 +175,19 @@ Select "Browse" and click the Share button to share a collection, environment, m
 
 Postman enables you to share your collections and environments in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
-#### Sharing collections in the app
+#### Sharing collection in the Postman app
 
-##### Sharing collections in the sidebar
+**Sharing collections in the sidebar**
 
-In the Postman app, select a collection in the sidebar and click the ***Ellipsis (...)*** button.
+1. In the Postman app, select a collection in the sidebar and click the ***Ellipsis (...)*** button.
 
-Select "Share Collection". The **SHARE COLLECTION** modal appears. It offers three ways to share a collection: "Share in another workspace", "Embed", and "Get Link".
+2. Select "Share Collection". The **SHARE COLLECTION** modal appears. It offers three ways to share a collection: "Share in another workspace", "Embed", and "Get Link".
 
 [![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
 
 * Sharing collections in another Workspace
 
-Select this option to add a collection to a team Workspace. The collection is visible to the team.
+  Select this option to add a collection to a team Workspace. The collection is visible to the team.
 
 In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then clcik the **Share** button. The collection is visible in your target Workspace.
 
@@ -195,9 +195,9 @@ In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_bl
 
 * Sharing collections with the Embed or Run In Postman button
 
-Select this option to embed a **[Run in Postman](/docs/postman_for_publishers/run_button/creating_run_button){:target="_blank"}** button in your collection for your API documentation, website, or Github readme. 
+  Select this option to embed a **[Run in Postman](/docs/postman_for_publishers/run_button/creating_run_button){:target="_blank"}** button in your collection for your API documentation, website, or Github readme. 
 
-The **Run in Postman** button lets anyone import and run this collection with one click. When you click the **Generate Code** button, you get a link that you can use for a dynamic or static button. You can also select the environment you want for the generated code.
+ The **Run in Postman** button lets anyone import and run this collection with one click. When you click the **Generate    Code**  button, you get a link that you can use for a dynamic or static button. You can also select the environment you want for the generated code.
 
 The **Run in Postman** button shares the collection directly from Postman, so the collection is uploaded to Postman servers when you generate the embed code
 
@@ -205,40 +205,40 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 
 * Sharing collections with a link
 
-Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
+  Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
-###### Sharing collections from the Build menu
+**Sharing collections from the Build menu**
 
-In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
+1. In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
 
-Select "Browse", and then select a collection. 
+2. Select "Browse", and then select a collection. 
 
-Click the **Share** button.
+3. Click the **Share** button.
 
 #### Sharing collections in the dashboard
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select a collection. 
+1. In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select a collection. 
 
-Click the **Share** button.
+2. Click the **Share** button.
 
 #### Sharing environments in the app
 
-###### Sharing environments from the Build menu
+**Sharing environments in the Build menu**
 
-In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
+1. In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
 
-Select "Browse", and then select an environment. 
+2. Select "Browse", and then select an environment. 
 
-Click the **Share** button.
+3. Click the **Share** button.
 
 
 #### Sharing environments in the dashboard
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select an environment. 
+1. In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select an environment. 
 
-Click the **Share** button.
+2. Click the **Share** button.
 
 
 
