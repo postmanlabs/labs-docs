@@ -28,13 +28,12 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Sharing Workspaces](#sharing-workspaces)
 
-* [Viewing details in Workspaces](#viewing-details-in-workspaces)
+* [Viewing details of Workspaces](#viewing-details-of-workspaces)
 
 
 **Using Workspaces with Postman elements**
 
 * [Adding collections and environments from another Workspace](#adding-collections-and-environments-from-another-workspace)  
-
 * [Publishing collections](#publishing-collections)
 
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
