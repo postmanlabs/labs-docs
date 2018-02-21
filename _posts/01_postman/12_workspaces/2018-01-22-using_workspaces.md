@@ -124,7 +124,7 @@ Click the ***Ellipsis (...)*** button for the Workspace element you want to dele
 
 A user can join a Workspace to work on collections, environments, monitors, mocks, and integrations. Let's see how.
 
-**Joining Workspaces from the Postman app**
+**In the app**
 
 In the Postman app, click a Workspace in the header bar, which is "Neutrino level dectection" in this example.
 
@@ -140,13 +140,11 @@ In the confirmation message, click the **Start Building** button to complete the
 
 [![join three](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-join-third-step1.png)
 
-**Joining Workspaces from the Dashboard**
+**In the Dashboard**
 
-You can join a Workspace from the Dashboard.
+1. Go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select team Workspaces.
 
-Go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select team Workspaces.
-
-Scroll down to "Workspaces you can join" and click the **Join** button next to the Workspace you want to join.
+2. Scroll down to "Workspaces you can join" and click the **Join** button next to the Workspace you want to join.
 
 ### Sharing Workspaces
 
