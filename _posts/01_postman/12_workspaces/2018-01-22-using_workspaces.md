@@ -104,13 +104,13 @@ In "Delete Workspace", click the **Delete** button. Remember when you delete a W
 
 ### Deleting elements in Workspaces
 
-**Deleting elements in the Dashboard**
+**In the Dashboard**
 
 To delete a Workspace element, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and click a personal or team Workspace. 
 
 Click the ***Ellipsis (...)*** button for the Workspace element you want to delete and select "Delete".
 
-**Deleting elements in the app**
+**In the app**
 
 To delete an element in a Workspace, go to the status bar at the bottom of the screen and click the "Build" menu.
 
