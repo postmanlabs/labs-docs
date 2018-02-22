@@ -131,7 +131,7 @@ Remember when you delete a Workspace, it is gone forever!
   <li>Click the <b>Ellipsis (...)</b> button for the Workspace element you want to delete and select "Delete".</li>
 </ol
 
-### Joining 
+### Joining Workspaces
 
 A user can join a Workspace to work on collections, environments, monitors, mocks, and integrations. Let's see how.
 
