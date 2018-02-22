@@ -189,7 +189,7 @@ Select "Share Collection". The **SHARE COLLECTION** modal appears. It offers thr
 
 * Sharing collections in another Workspace
 
-Select this option to add a collection to a team Workspace. The collection is visible to the team.
+  Select this option to add a collection to a team Workspace. The collection is visible to the team.
 
 In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then clcik the **Share** button. The collection is visible in your target Workspace.
 
