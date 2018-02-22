@@ -5,7 +5,7 @@ page_id: "security"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Security is one of the biggest considerations in everything we do. If you have any questions after reading this, or encounter any issues, please contact us at [{{site.pm.security_email}}][0].

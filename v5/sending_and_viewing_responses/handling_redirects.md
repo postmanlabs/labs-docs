@@ -5,7 +5,7 @@ page_id: "handling_redirects"
 tags: 
   - "chrome"
 warning: false
-version: "v5"
+
 ---
 
 [![](https://www.getpostman.com/img/v1/docs/thumbs/29-1.png)][0]

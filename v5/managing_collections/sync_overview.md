@@ -5,7 +5,7 @@ page_id: "sync_overview"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Once you are signed in to the Postman App, the following entities are synced with our server:

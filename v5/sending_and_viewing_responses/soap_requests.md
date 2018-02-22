@@ -5,7 +5,7 @@ page_id: "soap_requests"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 To make SOAP requests using Postman,

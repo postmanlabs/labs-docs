@@ -5,7 +5,7 @@ page_id: "workflows"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Workflows allow for non-linear execution of tests. You can write Workflows in Postman using the function postman.setNextRequest(). This feature is available in Chrome and Mac / Windows / Linux Apps, v4.1+

@@ -43,11 +43,11 @@
             "external": false		
          },		
          {		
-	    "title": "New button",		
+	          "title": "New button",		
             "href": "/docs/v5/postman/launching_postman/newbutton",
             "external": false
           }
-	]
+	      ]
       }, 
       {
         "title": "Sending API requests",
@@ -446,30 +446,30 @@
         "external": false
       },
       {
-	"title": "Workspaces",
-	"url_prefix": "workspaces",
-	"children": [
-	    {
-	        "title": "Intro to workspaces",
-		"href": "/docs/v5/postman/workspaces/intro_to_workspaces",
-		"external": false
-	    },
-	    {
-	        "title": "Creating workspaces",
-		"href": "/docs/v5/postman/workspaces/creating_workspaces",
-		"external": false
-	    },
-	    {
-	        "title": "Managing Workspaces",
-		"href": "/docs/v5/postman/workspaces/managing_workspaces",
-		"external": false
-	    },
-	    {
-	        "title": "Using Workspaces",
-		"href": "/docs/v5/postman/workspaces/using_workspaces",
-		"external": false
-	    }	
-	]
+      	"title": "Workspaces",
+      	"url_prefix": "workspaces",
+      	"children": [
+    	    {
+            "title": "Intro to workspaces",
+    		    "href": "/docs/v5/postman/workspaces/intro_to_workspaces",
+    		    "external": false
+    	    },
+    	    {
+            "title": "Creating workspaces",
+    		    "href": "/docs/v5/postman/workspaces/creating_workspaces",
+    		    "external": false
+    	    },
+    	    {
+            "title": "Managing Workspaces",
+    		    "href": "/docs/v5/postman/workspaces/managing_workspaces",
+    		    "external": false
+    	    },
+    	    {
+            "title": "Using Workspaces",
+    		    "href": "/docs/v5/postman/workspaces/using_workspaces",
+    		    "external": false
+    	    }	
+        ]
       }
     ]
   },
@@ -521,8 +521,8 @@
             "title": "Managing your billing",
             "href":"/docs/v5/pro/managing_pro/managing_your_billing",
             "external": false
-	  }
-	]
+      	  }
+      	]
       },
       {
         "title": "Integrations",
@@ -603,14 +603,14 @@
       {
         "title": "API Search",
         "url_prefix": "searching_APIs",
-	"children":[
+	      "children":[
           { 
             "title": "Searching APIs",
             "href":"/docs/v5/pro/api_search/searching_apis",
             "external": false
            }
-	]
-       }
+          ]
+        }
       ]
   },
   {

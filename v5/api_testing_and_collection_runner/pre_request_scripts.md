@@ -5,7 +5,7 @@ page_id: "pre_request_scripts"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 With version v0.10+ Postman has the ability to execute pre-request scripts.

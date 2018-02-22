@@ -4,7 +4,7 @@ page_id: "intro_api"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 The [Postman API](https://docs.api.getpostman.com/){:target="_blank"} has several endpoints to help you integrate Postman even more deeply with your development toolchain. You can add new collections, update existing collections, update environments, add and run monitors directly through the API. This API allows you to programmatically access data stored in your Postman Pro account with ease.

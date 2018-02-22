@@ -4,7 +4,7 @@ page_id: "saml_okta"
 tags: 
   - "enterprise"
 warning: false
-version: "v5"
+
 ---
 
 *Note: only an admin of your Okta organization can create the application.*

@@ -5,7 +5,7 @@ page_id: "code_snippets"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Once you've finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. You'll need to click the **Generate Code** link under the blue Send button to access this feature.

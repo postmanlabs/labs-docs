@@ -5,7 +5,7 @@ page_id: "settings"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Postman tries to minimize the number of settings you have to change, but considering the diverse use cases which come up, some settings have to be present.

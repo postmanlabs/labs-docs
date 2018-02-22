@@ -4,7 +4,7 @@ page_id: "saml_gsuite"
 tags: 
   - "enterprise"
 warning: false
-version: "v5"
+
 ---
 
 *Note: only an admin of your GSuite organization can create the application.*

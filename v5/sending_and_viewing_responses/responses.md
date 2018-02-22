@@ -5,7 +5,7 @@ page_id: "responses"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Ensuring that the API response is correct is something that you will be doing a lot. The Postman response viewer will make this task much easier for you.

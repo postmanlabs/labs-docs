@@ -4,7 +4,7 @@ page_id: "upgrading_to_pro"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 After your Postman Pro trial ends, you can upgrade to a monthly or annual subscription. 

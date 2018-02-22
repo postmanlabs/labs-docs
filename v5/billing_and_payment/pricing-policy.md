@@ -3,7 +3,7 @@
 title: "Pricing Policy"
 page_id: "pricing-policy"
 warning: false
-version: "v5"
+
 ---
 
 ### Can I use Postman for free?

@@ -4,7 +4,7 @@ page_id: "pagerduty"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling, and automatic escalation of critical incidents.

@@ -4,7 +4,7 @@ page_id: "activating_trial"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 You must have a Postman account to activate your Postman Pro trial.

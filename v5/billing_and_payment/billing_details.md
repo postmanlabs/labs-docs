@@ -5,7 +5,7 @@ tags:
   - web
   - cloud
 warning: false
-version: "v5"
+
 ---
 As the team admin, you have access to your payment history and other details in the billing section.
 

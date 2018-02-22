@@ -3,7 +3,7 @@
 title: "Account Dashboard"
 page_id: "account"
 warning: false
-version: "v5"
+
 ---
 
 Your [Postman Account Dashboard][0] is your starting point to configure your account and manage your team. You can use this section to change your username, reset your password, upgrade your team's plan, or view your synced collections.

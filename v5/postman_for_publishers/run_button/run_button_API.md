@@ -2,7 +2,7 @@
 title: "Run button API"
 page_id: "run_button_API"
 warning: false
-version: "v5"
+
 ---
 
 The JavaScript Run in Postman button exposes an API via the `_pm()` method. These API methods allow you to dynamically alter button behavior. Note that the `_pm()` API is not available for the static version of the Run in Postman button.

@@ -5,7 +5,7 @@ page_id: "interceptor_cookies"
 tags: 
   - "chrome"
 warning: false
-version: "v5"
+
 ---
 
 Unlike the native apps, the Chrome app is not equipped to handle cookies by itself. You can use the interceptor extension to overcome this. With the interceptor on, you can retrieve cookies set on a particular domain and include cookies while sending requests.

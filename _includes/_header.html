@@ -2,12 +2,7 @@
     <div id="menu-toggle"></div>
     <a href="{{site.pm.root}}" class="logo-container"></a>
 
-    <div class="version-selector">
-        <select onchange="location = this.options[this.selectedIndex].value;">
-            <option {% if page.version == 'v5' %}selected="selected"{% endif %} value="/docs/v5/">Version 5.0</option>
-            <option {% if page.version == 'v6' %}selected="selected"{% endif %} value="/docs/v6/">Version 6.0</option>
-        </select>​
-    </div>
+    {% include _version_selector.html %}
 
     <div class="navigation-container">
         <ul>

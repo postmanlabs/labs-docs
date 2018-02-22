@@ -4,7 +4,7 @@ page_id: "github"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 Back up and synchronize your Postman Collections on GitHub, the largest host of source code in the world. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitHub Integration.

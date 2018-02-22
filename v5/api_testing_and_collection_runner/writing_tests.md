@@ -5,7 +5,7 @@ page_id: "writing_tests"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 ### Basic structure

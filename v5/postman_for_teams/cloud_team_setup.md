@@ -6,7 +6,7 @@ tags:
   - "cloud"
   - "web"
 warning: false
-version: "v5"
+
 ---
 
 Here are a few common team-administration actions that you might need to take. These options will only be available to administrators.

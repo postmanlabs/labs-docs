@@ -4,7 +4,7 @@ page_id: "intro_integrations"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 Postman provides a strong API development toolchain that integrates seamlessly with the developer's workflow. 

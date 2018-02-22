@@ -5,7 +5,7 @@ page_id: "capture"
 tags:
   - "chrome"
 warning: false
-version: "v5"
+
 ---
 ### Postman Interceptor
 

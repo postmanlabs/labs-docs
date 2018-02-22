@@ -3,7 +3,7 @@
 title: "Frequently Asked Questions"
 page_id: "faq"
 warning: false
-version: "v5"
+
 ---
 
 ### Postman

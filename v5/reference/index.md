@@ -2,7 +2,7 @@
 title: "Reference"
 page_id: "reference"
 warning: false
-version: "v5"
+
 ---
 
 *   [Postman Pro API](https://docs.api.getpostman.com){:target="_blank"}

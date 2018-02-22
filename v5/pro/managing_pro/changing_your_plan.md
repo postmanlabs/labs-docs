@@ -4,7 +4,7 @@ page_id: "changing_your_plan"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 Postman enables you to change your Pro (Annual) or Pro (Monthly) plan.

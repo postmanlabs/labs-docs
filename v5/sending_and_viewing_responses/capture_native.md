@@ -5,7 +5,7 @@ page_id: "capture_native"
 tags:
   - "app"
 warning: false
-version: "v5"
+
 ---
 ### In-app Proxy
 

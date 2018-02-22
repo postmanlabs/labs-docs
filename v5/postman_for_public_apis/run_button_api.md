@@ -5,7 +5,7 @@ page_id: "run_button_api"
 tags: 
   - "web"
 warning: false
-version: "v5"
+
 ---
 
 The JS Run in Postman button exposes an API via the `_pm` function. These API methods allow you to dynamically alter button behavior.

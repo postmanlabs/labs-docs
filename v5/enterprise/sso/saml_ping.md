@@ -4,7 +4,7 @@ page_id: "saml_ping"
 tags: 
   - "enterprise"
 warning: false
-version: "v5"
+
 ---
 
 *Note: only an admin of your Ping Identity organization can create the application.*

@@ -5,7 +5,7 @@ page_id: "blog_mentions"
 tags:
   - "web"
 warning: false
-version: "v5"
+
 ---
 #### Tutorials from the Postman Blog
 

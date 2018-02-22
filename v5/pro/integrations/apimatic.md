@@ -4,7 +4,7 @@ page_id: "apimatic"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 You can use the Postman Pro to APIMATIC Integration to back up your Postman Collections in Swagger, RAML, API Blueprint, and other API description formats. <br>

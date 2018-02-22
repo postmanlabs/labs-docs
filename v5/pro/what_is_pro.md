@@ -4,7 +4,7 @@ page_id: "what_is_pro"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 Postman’s vision is to help you build a super fast and smooth workflow for API development keeping some key questions in mind:

@@ -4,7 +4,7 @@ page_id: "team_settings"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 The Team Settings page lets you change your team name, team URL, team logo, and billing information. You also can add custom domains and manage your authentication method.  

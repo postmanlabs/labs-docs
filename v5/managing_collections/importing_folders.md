@@ -5,7 +5,7 @@ page_id: "importing_folders"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 To save a RAML folder as a collection,

@@ -7,7 +7,7 @@ tags:
   - "mac"
   - "windows"
 warning: false
-version: "v5"
+
 ---
 
 Postman's [native apps](http://www.getpostman.com/apps) provide a Cookie Manager that lets you edit cookies that are associated with each domain. To open the Cookie Manager, click the 'Manage Cookies' link under the 'Send' button.

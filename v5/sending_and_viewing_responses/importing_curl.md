@@ -5,7 +5,7 @@ page_id: "importing_curl"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 To import a cURL command into Postman,

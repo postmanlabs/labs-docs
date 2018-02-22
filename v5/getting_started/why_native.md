@@ -7,7 +7,7 @@ tags:
   - "windows"
   - "mac"
 warning: false
-version: "v5"
+
 ---
 
 Postman's [native apps](http://www.getpostman.com/apps) (for Mac and Windows) run on [Electron](http://electron.atom.io/), 

@@ -5,7 +5,7 @@ page_id: "history"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 All requests you send using Postman are stored in the history which you can access using the left sidebar. The history lets you experiment with variations of requests quickly without wasting time in forming a request anew. You can load a previous request by clicking on the request name.

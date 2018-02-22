@@ -5,7 +5,7 @@ page_id: "test_multi_environments"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 A very common scenario while testing APIs is that the API infrastructure might be present on your local machine, a staging setup, and a production setup. Using variables you can call all these APIs without having to replace values manually. You can also use variables to test for different users (for example, they might need different access tokens), different input values, etc.

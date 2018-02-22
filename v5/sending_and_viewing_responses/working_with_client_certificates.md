@@ -8,7 +8,7 @@ tags:
   - "windows"
   - "linux"
 warning: false
-version: "v5"
+
 ---
 
 Postman's [native apps](http://www.getpostman.com/apps) provide a SSL Certificate Manager that lets you view / set client certificates on a per domain basis.

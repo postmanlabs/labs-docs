@@ -5,7 +5,7 @@ page_id: "integrations"
 tags: 
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 **Getting to the Integrations page**

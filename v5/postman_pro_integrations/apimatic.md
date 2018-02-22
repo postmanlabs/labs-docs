@@ -5,7 +5,7 @@ page_id: "apimatic"
 tags: 
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 **Backup your Postman Collections in Swagger, RAML, API Blueprint and other API Description formats**

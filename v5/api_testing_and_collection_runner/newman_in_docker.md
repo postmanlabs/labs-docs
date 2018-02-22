@@ -5,7 +5,7 @@ page_id: "newman_in_docker"
 tags: 
   - "newman"
 warning: false
-version: "v5"
+
 ---
 
 **For Mac and Ubuntu**

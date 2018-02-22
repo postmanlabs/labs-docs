@@ -4,7 +4,7 @@ page_id: "intro_to_enterprise"
 tags: 
   - "enterprise"
 warning: false
-version: "v5"
+
 ---
 
 Postman’s vision is to help you build a super fast and smooth workflow for API development keeping some key questions in mind:

@@ -4,7 +4,7 @@ page_id: "user_sso"
 tags: 
   - "enterprise"
 warning: false
-version: "v5"
+
 ---
 
 Once a team admin has enabled single sign on (**SSO**) for Postman, user will log into Postman using configured Identity provider. There are two ways of doing this.

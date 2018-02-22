@@ -6,7 +6,7 @@ tags:
   - "newman"
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Postman contains a full-featured testing sandbox that lets you write and execute Javascript based tests for your API. You can then hook up Postman with your build system using Newman, our command line companion. Newman is Postman's Collection Runner engine that sends API requests, receives the response and then runs your tests against the response.

@@ -2,7 +2,7 @@
 title: "Videos"
 page_id: "videos"
 warning: false
-version: "v5"
+
 ---
 
 ### Concepts and workflows:

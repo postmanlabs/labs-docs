@@ -6,7 +6,7 @@ tags:
   - "app"
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 All users of Postman Pro get access to Postman's Documenter! This is a new feature that lets you view auto-generated documentation for all your collections. You can also publish this documentation and share it publicly for people to consume.

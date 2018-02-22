@@ -6,7 +6,7 @@ tags:
   - "app"
   - "mac"
 warning: false
-version: "v5"
+
 ---
 
 A lot of users might want to keep multiple requests open at the same time. The Tabs feature lets you do this. Any request you send (and its response) are local to the tab it's in, and you can switch to other tabs without losing the first response.

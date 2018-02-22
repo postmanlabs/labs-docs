@@ -5,7 +5,7 @@ page_id: "cloud"
 tags: 
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 Postman Pro automates your team's collaboration on APIs. You already use Postman for your individual work as a developer. Now, consolidate your collections in the Team Library and ensure everyone is up to date with the latest changes without manual communication.

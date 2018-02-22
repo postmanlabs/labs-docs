@@ -5,7 +5,7 @@ page_id: "multiple_instances"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 You can use data variables in the [collection runner][0] to run a collection with different sets of data. The Collection Runner lets you import a CSV or a JSON file and then use the values from the data file inside HTTP requests and scripts. To use them inside the Postman UI, you have to follow the same syntax as [environment or global variables][1].

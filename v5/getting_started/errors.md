@@ -5,7 +5,7 @@ page_id: "errors"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 ### Console Logs

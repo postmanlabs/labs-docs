@@ -6,7 +6,7 @@ tags:
   - "app"
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 The Collection Browser lets you browse through collection meta data within the Postman interface.

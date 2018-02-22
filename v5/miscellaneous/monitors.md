@@ -6,7 +6,7 @@ tags:
   - "cloud"
   - "web"
 warning: false
-version: "v5"
+
 ---
 
 Postman Monitors let you easily test your APIs at regularly-scheduled intervals. You'll be notified by email if an API goes down or starts misbehaving, and you can track the status of your APIs over time to spot trends and potential problems.

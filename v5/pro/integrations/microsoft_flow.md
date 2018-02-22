@@ -4,7 +4,7 @@ page_id: "microsoft_flow"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 Microsoft Flow enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.

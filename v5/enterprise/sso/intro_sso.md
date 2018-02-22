@@ -4,7 +4,7 @@ page_id: "intro_sso"
 tags: 
   - "enterprise"
 warning: false
-version: "v5"
+
 ---
 
 ### What is SSO?

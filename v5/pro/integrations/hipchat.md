@@ -4,7 +4,7 @@ page_id: "hipchat"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 HipChat is an instant messaging app built for businesses. The team chat tool lets you share files and discuss tasks in real-time with colleagues, project collaborators, and even clients through unlimited chat rooms. 

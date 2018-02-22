@@ -2,7 +2,7 @@
 title: "Updating collections for Run in Postman"
 page_id: "collections_run_button"
 warning: false
-version: "v5"
+
 ---
 
 When you generate the embed code for a particular collection, the button will point to the collection at that point in time. If you make updates to the collection, these changes will not be automatically pushed to the Run in Postman button, and you will have to update your collection manually. To update the collection that users see when they use the Run in Postman button, you’ll need to update the collection link. 

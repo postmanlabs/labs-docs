@@ -4,7 +4,7 @@ page_id: "managing_your_team"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 Postman's web [dashboard](https://app.getpostman.com/dashboard/teams){:target="_blank"} provides a number of ways to manage your team.

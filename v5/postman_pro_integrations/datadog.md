@@ -5,7 +5,7 @@ page_id: "datadog"
 tags: 
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 **Send Postman Monitors run metrics and events to Datadog**

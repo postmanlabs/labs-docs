@@ -2,7 +2,7 @@
 title: "Using the Run in Postman button"
 page_id: "using_run_button"
 warning: false
-version: "v5"
+
 ---
 
 ### Developer experience with Run in Postman

@@ -5,7 +5,7 @@ page_id: "checking_payload_responses"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 **Chrome app**

@@ -4,7 +4,7 @@ page_id: "billing_and_pricing"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 ### Plans for Pro

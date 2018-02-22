@@ -4,7 +4,7 @@ page_id: "purchasing_postman_pro"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 Purchasing a Postman Pro subscription requires you to:

@@ -6,7 +6,7 @@ tags:
   - "cloud"
   - "web"
 warning: false
-version: "v5"
+
 ---
 
 The Postman API allows you to programmatically access data stored in Postman Pro with ease.

@@ -5,7 +5,7 @@ page_id: "github_integration"
 tags: 
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 **Backup your Postman Collections to your GitHub repositories**

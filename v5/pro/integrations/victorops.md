@@ -4,7 +4,7 @@ page_id: "victorops"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 VictorOps is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one. 

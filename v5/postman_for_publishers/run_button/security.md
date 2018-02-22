@@ -2,7 +2,7 @@
 title: "Security considerations"
 page_id: "security"
 warning: false
-version: "v5"
+
 ---
 
 ### Security considerations for the Run in Postman button

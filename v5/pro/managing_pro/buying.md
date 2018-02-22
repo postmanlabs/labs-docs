@@ -4,7 +4,7 @@ page_id: "buying"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 ### Buying for someone else

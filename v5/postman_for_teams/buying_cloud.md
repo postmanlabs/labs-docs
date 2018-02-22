@@ -6,7 +6,7 @@ tags:
   - "cloud"
   - "web"
 warning: false
-version: "v5"
+
 ---
 To purchase Pro, follow these instructions. Team leads as well as purchasing departments can buy the product.
 

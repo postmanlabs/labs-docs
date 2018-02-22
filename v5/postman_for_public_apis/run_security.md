@@ -5,7 +5,7 @@ page_id: "run_security"
 tags: 
   - "web"
 warning: false
-version: "v5"
+
 ---
 
 Security aspects of the Run-in-Postman button:

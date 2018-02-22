@@ -5,7 +5,7 @@ page_id: "dropbox_integration"
 tags: 
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 **Complement your Existing Workflow**

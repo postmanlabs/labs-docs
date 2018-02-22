@@ -5,7 +5,7 @@ page_id: "pagerduty_integration"
 tags: 
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 **Trigger and resolve incidents on PagerDuty**

@@ -4,7 +4,7 @@ page_id: "bigpanda"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 BigPanda is an IT systems management platform that aggregates and correlates IT alerts to create high-level IT incidents. It directs all alerts to a single place with different connected services.

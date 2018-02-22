@@ -5,7 +5,7 @@ page_id: "collections"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Collections will take your productivity to the next level.

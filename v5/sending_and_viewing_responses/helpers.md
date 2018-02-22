@@ -5,7 +5,7 @@ page_id: "helpers"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 While the request editor is powerful enough to construct any kind of requests, sometimes you might need some help. Postman has something called "helpers" which can simplify some repetitive and complex tasks. The current set of

@@ -4,7 +4,7 @@ page_id: "gitlab"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 Back up and synchronize your Postman Collections on GitLab, an open source Git repository manager. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitLab Integration.

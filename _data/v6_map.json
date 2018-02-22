@@ -8,46 +8,46 @@
         "url_prefix": "launching_postman",
         "children": [
           {
-            "title": "Installation and updates elielielieli",
-            "href": "/docs/postman/launching_postman/installation_and_updates",
+            "title": "Installation and updates",
+            "href": "/docs/v6/postman/launching_postman/installation_and_updates",
             "external": false
           },
           {
             "title": "Sending the first request",
-            "href": "/docs/postman/launching_postman/sending_the_first_request",
+            "href": "/docs/v6/postman/launching_postman/sending_the_first_request",
             "external": false
           },
           {
             "title": "Creating the first collection",
-            "href": "/docs/postman/launching_postman/creating_the_first_collection",
+            "href": "/docs/v6/postman/launching_postman/creating_the_first_collection",
             "external": false
           },
           {
             "title": "Navigating Postman",
-            "href": "/docs/postman/launching_postman/navigating_postman",
+            "href": "/docs/v6/postman/launching_postman/navigating_postman",
             "external": false
           },
           {
             "title": "Postman account",
-            "href": "/docs/postman/launching_postman/postman_account",
+            "href": "/docs/v6/postman/launching_postman/postman_account",
             "external": false
           },
           {
             "title": "Syncing",
-            "href": "/docs/postman/launching_postman/syncing",
+            "href": "/docs/v6/postman/launching_postman/syncing",
             "external": false
           },
           {
             "title": "Settings",
-            "href": "/docs/postman/launching_postman/settings",
-            "external": false		
-         },		
-         {		
-	    "title": "New button",		
-            "href": "/docs/postman/launching_postman/newbutton",
+            "href": "/docs/v6/postman/launching_postman/settings",
+            "external": false   
+         },   
+         {    
+            "title": "New button",    
+            "href": "/docs/v6/postman/launching_postman/newbutton",
             "external": false
           }
-	]
+        ]
       }, 
       {
         "title": "Sending API requests",
@@ -55,67 +55,67 @@
         "children": [
           {
             "title": "Requests",
-            "href": "/docs/postman/sending_api_requests/requests",
+            "href": "/docs/v6/postman/sending_api_requests/requests",
             "external": false
           },
           {
             "title": "Responses",
-            "href": "/docs/postman/sending_api_requests/responses",
+            "href": "/docs/v6/postman/sending_api_requests/responses",
             "external": false
           },
           {
             "title": "History",
-            "href": "/docs/postman/sending_api_requests/history",
+            "href": "/docs/v6/postman/sending_api_requests/history",
             "external": false
           },
           {
             "title": "Troubleshooting API requests",
-            "href": "/docs/postman/sending_api_requests/troubleshooting_api_requests",
+            "href": "/docs/v6/postman/sending_api_requests/troubleshooting_api_requests",
             "external": false
           },
           {
             "title": "Debugging and logs",
-            "href": "/docs/postman/sending_api_requests/debugging_and_logs",
+            "href": "/docs/v6/postman/sending_api_requests/debugging_and_logs",
             "external": false
           },
           {
             "title": "Authorization",
-            "href": "/docs/postman/sending_api_requests/authorization",
+            "href": "/docs/v6/postman/sending_api_requests/authorization",
             "external": false
           },
           {
             "title": "Cookies",
-            "href": "/docs/postman/sending_api_requests/cookies",
+            "href": "/docs/v6/postman/sending_api_requests/cookies",
             "external": false
           },
           {
             "title": "Certificates",
-            "href": "/docs/postman/sending_api_requests/certificates",
+            "href": "/docs/v6/postman/sending_api_requests/certificates",
             "external": false
           },
           {
             "title": "Capturing HTTP requests",
-            "href": "/docs/postman/sending_api_requests/capturing_http_requests",
+            "href": "/docs/v6/postman/sending_api_requests/capturing_http_requests",
             "external": false
           },
           {
             "title": "Interceptor extension",
-            "href": "/docs/postman/sending_api_requests/interceptor_extension",
+            "href": "/docs/v6/postman/sending_api_requests/interceptor_extension",
             "external": false
           },
           {
             "title": "Proxy",
-            "href": "/docs/postman/sending_api_requests/proxy",
+            "href": "/docs/v6/postman/sending_api_requests/proxy",
             "external": false
           },
           {
             "title": "Generate code snippets",
-            "href": "/docs/postman/sending_api_requests/generate_code_snippets",
+            "href": "/docs/v6/postman/sending_api_requests/generate_code_snippets",
             "external": false
           },
           {
             "title": "Making SOAP requests",
-            "href": "/docs/postman/sending_api_requests/making_soap_requests",
+            "href": "/docs/v6/postman/sending_api_requests/making_soap_requests",
             "external": false
           }
         ]
@@ -126,32 +126,32 @@
         "children": [
           {
             "title": "Creating collections",
-            "href": "/docs/postman/collections/creating_collections",
+            "href": "/docs/v6/postman/collections/creating_collections",
             "external": false
           },
           {
             "title": "Sharing collections",
-            "href": "/docs/postman/collections/sharing_collections",
+            "href": "/docs/v6/postman/collections/sharing_collections",
             "external": false
           },
           {
             "title": "Managing collections",
-            "href": "/docs/postman/collections/managing_collections",
+            "href": "/docs/v6/postman/collections/managing_collections",
             "external": false
           },
           {
             "title": "Using Markdown for descriptions",
-            "href": "/docs/postman/collections/using_markdown_for_descriptions",
+            "href": "/docs/v6/postman/collections/using_markdown_for_descriptions",
             "external": false
           },
           {
             "title": "Examples",
-            "href": "/docs/postman/collections/examples",
+            "href": "/docs/v6/postman/collections/examples",
             "external": false
           },
           {
             "title": "Data formats",
-            "href": "/docs/postman/collections/data_formats",
+            "href": "/docs/v6/postman/collections/data_formats",
             "external": false
           }
         ]
@@ -162,37 +162,37 @@
         "children": [
           {
             "title": "Intro to scripts",
-            "href": "/docs/postman/scripts/intro_to_scripts",
+            "href": "/docs/v6/postman/scripts/intro_to_scripts",
             "external": false
           },
           {
             "title": "Pre-request scripts",
-            "href": "/docs/postman/scripts/pre_request_scripts",
+            "href": "/docs/v6/postman/scripts/pre_request_scripts",
             "external": false
           },
           {
             "title": "Test scripts",
-            "href": "/docs/postman/scripts/test_scripts",
+            "href": "/docs/v6/postman/scripts/test_scripts",
             "external": false
           },
           {
             "title": "Test examples",
-            "href": "/docs/postman/scripts/test_examples",
+            "href": "/docs/v6/postman/scripts/test_examples",
             "external": false
           },
           {
             "title": "Branching and looping",
-            "href": "/docs/postman/scripts/branching_and_looping",
+            "href": "/docs/v6/postman/scripts/branching_and_looping",
             "external": false
           },
           {
             "title": "Postman Sandbox",
-            "href": "/docs/postman/scripts/postman_sandbox",
+            "href": "/docs/v6/postman/scripts/postman_sandbox",
             "external": false
           },
           {
             "title": "Postman Sandbox API reference",
-            "href": "/docs/postman/scripts/postman_sandbox_api_reference",
+            "href": "/docs/v6/postman/scripts/postman_sandbox_api_reference",
             "external": false
           }
         ]
@@ -203,17 +203,17 @@
         "children": [
           {
             "title": "Variables",
-            "href": "/docs/postman/environments_and_globals/variables",
+            "href": "/docs/v6/postman/environments_and_globals/variables",
             "external": false
           },
           {
             "title": "Manage environments",
-            "href": "/docs/postman/environments_and_globals/manage_environments",
+            "href": "/docs/v6/postman/environments_and_globals/manage_environments",
             "external": false
           },
           {
             "title": "Manage globals",
-            "href": "/docs/postman/environments_and_globals/manage_globals",
+            "href": "/docs/v6/postman/environments_and_globals/manage_globals",
             "external": false
           }
         ]
@@ -224,57 +224,57 @@
         "children": [
           {
             "title": "Starting a collection run",
-            "href": "/docs/postman/collection_runs/starting_a_collection_run",
+            "href": "/docs/v6/postman/collection_runs/starting_a_collection_run",
             "external": false
           },
           {
             "title": "Using environments in collection runs",
-            "href": "/docs/postman/collection_runs/using_environments_in_collection_runs",
+            "href": "/docs/v6/postman/collection_runs/using_environments_in_collection_runs",
             "external": false
           },
           {
             "title": "Working with data files",
-            "href": "/docs/postman/collection_runs/working_with_data_files",
+            "href": "/docs/v6/postman/collection_runs/working_with_data_files",
             "external": false
           },
           {
             "title": "Running multiple iterations",
-            "href": "/docs/postman/collection_runs/running_multiple_iterations",
+            "href": "/docs/v6/postman/collection_runs/running_multiple_iterations",
             "external": false
           },
           {
             "title": "Building workflows",
-            "href": "/docs/postman/collection_runs/building_workflows",
+            "href": "/docs/v6/postman/collection_runs/building_workflows",
             "external": false
           },
           {
             "title": "Sharing a collection run",
-            "href": "/docs/postman/collection_runs/sharing_a_collection_run",
+            "href": "/docs/v6/postman/collection_runs/sharing_a_collection_run",
             "external": false
           },
           {
             "title": "Debugging a collection run",
-            "href": "/docs/postman/collection_runs/debugging_a_collection_run",
+            "href": "/docs/v6/postman/collection_runs/debugging_a_collection_run",
             "external": false
           },
           {
             "title": "Command line integration with Newman",
-            "href": "/docs/postman/collection_runs/command_line_integration_with_newman",
+            "href": "/docs/v6/postman/collection_runs/command_line_integration_with_newman",
             "external": false
           },
           {
             "title": "Integration with Jenkins",
-            "href": "/docs/postman/collection_runs/integration_with_jenkins",
+            "href": "/docs/v6/postman/collection_runs/integration_with_jenkins",
             "external": false
           },
           {
             "title": "Integration with Travis CI",
-            "href": "/docs/postman/collection_runs/integration_with_travis",
+            "href": "/docs/v6/postman/collection_runs/integration_with_travis",
             "external": false
           },
           {
             "title": "Newman with Docker",
-            "href": "/docs/postman/collection_runs/newman_with_docker",
+            "href": "/docs/v6/postman/collection_runs/newman_with_docker",
             "external": false
           }
         ]
@@ -285,27 +285,27 @@
         "children": [
           {
             "title": "Setting up a Team Library",
-            "href": "/docs/postman/team_library/setting_up_team_library",
+            "href": "/docs/v6/postman/team_library/setting_up_team_library",
             "external": false
           },
           {
             "title": "Sharing",
-            "href": "/docs/postman/team_library/sharing",
+            "href": "/docs/v6/postman/team_library/sharing",
             "external": false
           },
           {
             "title": "Activity feed and restoring collections",
-            "href": "/docs/postman/team_library/activity_feed_and_restoring_collections",
+            "href": "/docs/v6/postman/team_library/activity_feed_and_restoring_collections",
             "external": false
           },
           {
             "title": "Searching",
-            "href": "/docs/postman/team_library/searching",
+            "href": "/docs/v6/postman/team_library/searching",
             "external": false
           },
           {
             "title": "Conflicts",
-            "href": "/docs/postman/team_library/conflicts",
+            "href": "/docs/v6/postman/team_library/conflicts",
             "external": false
           }
         ]
@@ -316,37 +316,37 @@
         "children": [
           {
             "title": "Intro to API documentation",
-            "href": "/docs/postman/api_documentation/intro_to_api_documentation",
+            "href": "/docs/v6/postman/api_documentation/intro_to_api_documentation",
             "external": false
           },
           {
             "title": "Viewing documentation",
-            "href": "/docs/postman/api_documentation/viewing_documentation",
+            "href": "/docs/v6/postman/api_documentation/viewing_documentation",
             "external": false
           },
           {
             "title": "Environments and environment templates",
-            "href": "/docs/postman/api_documentation/environments_and_environment_templates",
+            "href": "/docs/v6/postman/api_documentation/environments_and_environment_templates",
             "external": false
           },
           {
             "title": "How to document using Markdown",
-            "href": "/docs/postman/api_documentation/how_to_document_using_markdown",
+            "href": "/docs/v6/postman/api_documentation/how_to_document_using_markdown",
             "external": false
           },
           {
             "title": "Publishing public docs",
-            "href": "/docs/postman/api_documentation/publishing_public_docs",
+            "href": "/docs/v6/postman/api_documentation/publishing_public_docs",
             "external": false
           },
           {
             "title": "Adding and verifying custom domains",
-            "href": "/docs/postman/api_documentation/adding_and_verifying_custom_domains",
+            "href": "/docs/v6/postman/api_documentation/adding_and_verifying_custom_domains",
             "external": false
           },
           {
             "title": "Adding team name and logo",
-            "href": "/docs/postman/api_documentation/adding_team_name_and_logo",
+            "href": "/docs/v6/postman/api_documentation/adding_team_name_and_logo",
             "external": false
           }
         ]
@@ -357,42 +357,42 @@
         "children": [
           {
             "title": "Intro to monitors",
-            "href": "/docs/postman/monitors/intro_monitors",
+            "href": "/docs/v6/postman/monitors/intro_monitors",
             "external": false
           },
           {
             "title": "Setting up a monitor",
-            "href": "/docs/postman/monitors/setting_up_monitor",
+            "href": "/docs/v6/postman/monitors/setting_up_monitor",
             "external": false
           },
           {
             "title": "Viewing monitor results",
-            "href": "/docs/postman/monitors/viewing_monitor_results",
+            "href": "/docs/v6/postman/monitors/viewing_monitor_results",
             "external": false
           },
           {
             "title": "Monitoring APIs and websites",
-            "href": "/docs/postman/monitors/monitoring_apis_websites",
+            "href": "/docs/v6/postman/monitors/monitoring_apis_websites",
             "external": false
           },
           {
             "title": "Set up integrations to receive alerts",
-            "href": "/docs/postman/monitors/integrations_for_alerts",
+            "href": "/docs/v6/postman/monitors/integrations_for_alerts",
             "external": false
           },
           {
             "title": "Pricing for monitors",
-            "href": "/docs/postman/monitors/pricing_monitors",
+            "href": "/docs/v6/postman/monitors/pricing_monitors",
             "external": false
           },
           {
             "title": "Troubleshooting monitors",
-            "href": "/docs/postman/monitors/troubleshooting_monitors",
+            "href": "/docs/v6/postman/monitors/troubleshooting_monitors",
             "external": false
           },
           {
             "title": "FAQs for monitors",
-            "href": "/docs/postman/monitors/faqs_monitors",
+            "href": "/docs/v6/postman/monitors/faqs_monitors",
             "external": false
           }
         ]
@@ -403,22 +403,22 @@
         "children": [
           {
             "title": "Setting up a mock server",
-            "href": "/docs/postman/mock_servers/setting_up_mock",
+            "href": "/docs/v6/postman/mock_servers/setting_up_mock",
             "external": false
           },
           {
             "title": "Mocking with examples",
-            "href": "/docs/postman/mock_servers/mocking_with_examples",
+            "href": "/docs/v6/postman/mock_servers/mocking_with_examples",
             "external": false
           },
           {
             "title": "Mocking with the Postman API",
-            "href": "/docs/postman/mock_servers/mock_with_api",
+            "href": "/docs/v6/postman/mock_servers/mock_with_api",
             "external": false
           },
           {
             "title": "Matching algorithm",
-            "href": "/docs/postman/mock_servers/matching_algorithm",
+            "href": "/docs/v6/postman/mock_servers/matching_algorithm",
             "external": false
           }
         ]
@@ -429,12 +429,12 @@
         "children": [
           {
             "title": "Intro to the Postman API",
-            "href": "/docs/postman/postman_api/intro_api",
+            "href": "/docs/v6/postman/postman_api/intro_api",
             "external": false
           },
           {
             "title": "Continuous Integration",
-            "href": "/docs/postman/postman_api/continuous_integration",
+            "href": "/docs/v6/postman/postman_api/continuous_integration",
             "external": false
           }
         ]
@@ -442,278 +442,33 @@
       {
         "title": "Notifications",
         "url_prefix": "notifications",
-        "href":"/docs/postman/notifications",
+        "href":"/docs/v6/postman/notifications",
         "external": false
       },
       {
-	"title": "Workspaces",
-	"url_prefix": "workspaces",
-	"children": [
-	    {
-	        "title": "Intro to workspaces",
-		"href": "/docs/postman/workspaces/intro_to_workspaces",
-		"external": false
-	    },
-	    {
-	        "title": "Creating workspaces",
-		"href": "/docs/postman/workspaces/creating_workspaces",
-		"external": false
-	    },
-	    {
-	        "title": "Managing Workspaces",
-		"href": "/docs/postman/workspaces/managing_workspaces",
-		"external": false
-	    },
-	    {
-	        "title": "Using Workspaces",
-		"href": "/docs/postman/workspaces/using_workspaces",
-		"external": false
-	    }	
-	]
-      }
-    ]
-  },
-  {
-    "title": "Postman Pro",
-    "url_prefix": "pro",
-    "children":[
-      {
-        "title": "What is Postman Pro",
-        "href": "/docs/pro/what_is_pro",
-        "url_prefix": "what_is_pro",
-        "external": false
-      },    
-      {
-        "title": "Managing Postman Pro",
-        "url_prefix": "managing_pro",
+        "title": "Workspaces",
+        "url_prefix": "workspaces",
         "children": [
           {
-            "title": "Activating your Pro trial",
-            "href":"/docs/pro/managing_pro/activating_trial",
+            "title": "Intro to workspaces",
+            "href": "/docs/v6/postman/workspaces/intro_to_workspaces",
             "external": false
           },
           {
-            "title": "Purchasing Postman Pro",
-            "href":"/docs/pro/managing_pro/purchasing_pro",
+            "title": "Creating workspaces",
+            "href": "/docs/v6/postman/workspaces/creating_workspaces",
             "external": false
           },
           {
-            "title": "Upgrading to Postman Pro from a trial",
-            "href":"/docs/pro/managing_pro/upgrading_to_postman_pro_from_a_trial_team",
+            "title": "Managing Workspaces",
+            "href": "/docs/v6/postman/workspaces/managing_workspaces",
             "external": false
           },
           {
-            "title": "Team settings",
-            "href":"/docs/pro/managing_pro/team_settings",
+            "title": "Using Workspaces",
+            "href": "/docs/v6/postman/workspaces/using_workspaces",
             "external": false
-          },
-          {
-            "title": "Changing your plan",
-            "href":"/docs/pro/managing_pro/changing_your_plan",
-            "external": false
-          },
-          {
-            "title": "Managing your team",
-            "href":"/docs/pro/managing_pro/managing_your_team",
-            "external": false
-          },
-          {
-            "title": "Managing your billing",
-            "href":"/docs/pro/managing_pro/managing_your_billing",
-            "external": false
-	  }
-	]
-      },
-      {
-        "title": "Integrations",
-        "url_prefix": "integrations",
-        "children": [
-          {
-            "title": "Intro to integrations",
-            "href":"/docs/pro/integrations/intro_integrations",
-            "external": false
-          },
-          {
-            "title": "APIMatic",
-            "href":"/docs/pro/integrations/apimatic",
-            "external": false
-          },
-          {
-            "title": "BigPanda",
-            "href":"/docs/pro/integrations/bigpanda",
-            "external": false
-          },
-          {
-            "title": "Datadog",
-            "href":"/docs/pro/integrations/datadog",
-            "external": false
-          },
-          {
-            "title": "Dropbox",
-            "href":"/docs/pro/integrations/dropbox",
-            "external": false
-          },
-          {
-            "title": "GitHub",
-            "href":"/docs/pro/integrations/github",
-            "external": false
-          },
-          {
-            "title": "GitLab",
-            "href":"/docs/pro/integrations/gitlab",
-            "external": false
-          },
-          {
-            "title": "HipChat",
-            "href":"/docs/pro/integrations/hipchat",
-            "external": false
-          },
-          {
-            "title": "Keen",
-            "href":"/docs/pro/integrations/keen",
-            "external": false
-          },
-          {
-            "title": "Microsoft Flow",
-            "href":"/docs/pro/integrations/microsoft_flow",
-            "external": false
-          },
-          {
-            "title": "Microsoft Teams",
-            "href":"/docs/pro/integrations/microsoft_teams",
-            "external": false
-          },
-          {
-            "title": "PagerDuty",
-            "href":"/docs/pro/integrations/pagerduty",
-            "external": false
-          },
-          {
-            "title": "Slack",
-            "href":"/docs/pro/integrations/slack",
-            "external": false
-          },
-          {
-            "title": "VictorOps",
-            "href":"/docs/pro/integrations/victorops",
-            "external": false
-          }
-        ]
-      },
-      {
-        "title": "API Search",
-        "url_prefix": "searching_APIs",
-	"children":[
-          { 
-            "title": "Searching APIs",
-            "href":"/docs/pro/api_search/searching_apis",
-            "external": false
-           }
-	]
-       }
-      ]
-  },
-  {
-    "title": "Postman Enterprise",
-    "url_prefix": "enterprise",
-    "children": [
-      {
-        "title": "Intro to Enterprise",
-        "url_prefix": "intro_to_enterprise",
-        "href":"/docs/enterprise/intro_to_enterprise",
-        "external": false
-      },
-      {
-        "title": "Single sign-on (SSO)",
-        "children": [
-          {
-            "title": "Intro to SSO",
-            "href": "/docs/enterprise/sso/intro_sso",
-            "external": false
-          },
-          {
-            "title": "Single sign-on for users",
-            "href": "/docs/enterprise/sso/user_sso",
-            "external": false
-          },
-          {
-            "title": "Single sign-on for admins",
-            "href": "/docs/enterprise/sso/admin_sso",
-            "external": false
-          },
-          {
-            "title": "Setting up custom SAML in Duo",
-            "href": "/docs/enterprise/sso/saml_duo",
-            "external": false
-          },
-          {
-            "title": "Setting up custom SAML in GSuite",
-            "href": "/docs/enterprise/sso/saml_gsuite",
-            "external": false
-          },
-          {
-            "title": "Setting up custom SAML in Okta",
-            "href": "/docs/enterprise/sso/saml_okta",
-            "external": false
-          },
-          {
-            "title": "Setting up custom SAML in Onelogin",
-            "href": "/docs/enterprise/sso/saml_onelogin",
-            "external": false
-          },
-          {
-            "title": "Setting up custom SAML in Ping Identity",
-            "href": "/docs/enterprise/sso/saml_ping",
-            "external": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Postman for Publishers",
-    "url_prefix": "postman_for_publishers",
-    "children": [
-      {
-        "title": "Public API documentation",
-        "url_prefix": "public_api_docs",
-        "href":"/docs/postman_for_publishers/public_api_docs",
-        "external": false
-      },
-      {
-        "title": "Run in Postman",
-        "url_prefix": "run_button",
-        "children": [
-          {
-            "title": "Creating the Run in Postman button",
-            "href": "/docs/postman_for_publishers/run_button/creating_run_button",
-            "external": false
-          },
-          {
-            "title": "Using the Run in Postman button",
-            "href": "/docs/postman_for_publishers/run_button/using_run_button",
-            "external": false
-          },
-          {
-            "title": "Updating collections for Run in Postman",
-            "href": "/docs/postman_for_publishers/run_button/collections_run_button",
-            "external": false
-          },
-          {
-            "title": "Environments in Run in Postman",
-            "href": "/docs/postman_for_publishers/run_button/environments_run_button",
-            "external": false
-          },
-          {
-            "title": "Run button API",
-            "href": "/docs/postman_for_publishers/run_button/run_button_API",
-            "external": false
-          },
-          {
-            "title": "Security considerations",
-            "href": "/docs/postman_for_publishers/run_button/security",
-            "external": false
-          }
+          } 
         ]
       }
     ]
@@ -724,7 +479,7 @@
     "children": [
       {
         "title": "Videos",
-        "href":"/docs/videos",
+        "href":"/docs/v6/videos",
         "external": false
       }
     ]
@@ -735,7 +490,7 @@
     "children": [
       {
         "title": "Reference",
-        "href":"/docs/reference",
+        "href":"/docs/v6/reference",
         "external": false
       }
     ]

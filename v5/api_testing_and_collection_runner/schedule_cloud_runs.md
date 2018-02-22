@@ -6,7 +6,7 @@ tags:
   - "web"
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 ### Monitoring Docs

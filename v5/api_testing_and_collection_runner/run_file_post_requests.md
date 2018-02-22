@@ -5,7 +5,7 @@ page_id: "run_file_post_requests"
 tags: 
   - "newman"
 warning: false
-version: "v5"
+
 ---
 
 Currently, you can not use the collection runner to run collections which have requests with file-uploads. You need to use [Newman][0], Postman's command line companion tool for that. Here's how:

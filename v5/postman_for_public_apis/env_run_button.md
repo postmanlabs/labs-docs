@@ -6,7 +6,7 @@ tags:
   - "app"
   - "web"
 warning: false
-version: "v5"
+
 ---
 
 The Run in Postman also allows you to pass an environment alongside the collection.

@@ -5,7 +5,7 @@ page_id: "importing_swagger"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 A swagger API definition usually lives as a single file, so we only support imports of single swagger files. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer.

@@ -5,7 +5,7 @@ page_id: "install_native"
 tags: 
   - "mac"
 warning: false
-version: "v5"
+
 ---
 
 Postman helps you be extremely efficient while working with APIs.

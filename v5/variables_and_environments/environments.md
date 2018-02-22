@@ -5,7 +5,7 @@ page_id: "environments"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 While working with APIs, you will often need to have different setups. For example, your local machine, the development server, or the production API.

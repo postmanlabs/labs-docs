@@ -5,7 +5,7 @@ page_id: "creating_curl"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 To create a cURL command in Postman,

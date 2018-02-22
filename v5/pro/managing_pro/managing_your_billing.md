@@ -4,7 +4,7 @@ page_id: "managing_your_billing"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 You can manage your billing from the [Billing Overview]({{site.pm.gs}}/pay/billing){:target="_blank"} page. 

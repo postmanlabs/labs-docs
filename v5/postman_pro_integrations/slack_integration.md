@@ -5,7 +5,7 @@ page_id: "slack_integration"
 tags: 
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 **Connect to receive notifications from Postman**

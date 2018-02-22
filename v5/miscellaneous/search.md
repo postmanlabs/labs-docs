@@ -3,7 +3,7 @@
 title: "Search"
 page_id: "search"
 warning: false
-version: "v5"
+
 ---
 
 <div class="st-search-container"></div>

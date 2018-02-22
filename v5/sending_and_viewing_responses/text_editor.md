@@ -5,7 +5,7 @@ page_id: "text_editor"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Postman uses the wonderful [Ace Editor][0] to render JavaScript, JSON, and XML. Here's all the places where it's used:

@@ -2,7 +2,7 @@
 title: "Searching APIs"
 page_id: "searching_APIs"
 warning: false
-version: "v5"
+
 ---
 
 API search lets you search not only across collections, but also across folders, requests, and responses. This improved search returns a richer set of results because it searches through all of your Postman data.

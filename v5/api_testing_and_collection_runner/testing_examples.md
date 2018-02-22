@@ -5,7 +5,7 @@ page_id: "testing_examples"
 tags:
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 Let's look at some examples of Postman tests. Most of these are available as snippets inside Postman. Most

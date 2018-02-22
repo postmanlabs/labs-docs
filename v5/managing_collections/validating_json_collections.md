@@ -3,7 +3,7 @@
 title: "Validating JSON collections"
 page_id: "validating_json_collections"
 warning: false
-version: "v5"
+
 ---
 
 To validate if a JSON file is in the correct collections format, you can use our schema files for collections.

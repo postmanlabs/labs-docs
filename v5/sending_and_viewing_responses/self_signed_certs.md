@@ -6,7 +6,7 @@ tags:
   - "app"
   - "mac"
 warning: false
-version: "v5"
+
 ---
 
 Self-signed certificates are not verified by a trusted authority. So accessing an API endpoint with something like https:// through Postman would throw up an error.

@@ -5,7 +5,7 @@ page_id: "migration"
 tags: 
   - "app"
 warning: "chrome_legacy"
-version: "v5"
+
 ---
 
 Migrating from the legacy to the [packaged app version](https://www.getpostman.com/apps) is an extremely simple process.

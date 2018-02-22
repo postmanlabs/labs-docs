@@ -4,7 +4,7 @@ page_id: "slack"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 The Postman Pro to Slack integration enables you to receive notifications for the Team Activity Feed, Postman Search, and Monitor Run Results.

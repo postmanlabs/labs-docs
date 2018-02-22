@@ -5,7 +5,7 @@ page_id: "updating"
 tags:
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 ### Native Apps

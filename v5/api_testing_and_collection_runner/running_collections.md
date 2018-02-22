@@ -5,7 +5,7 @@ page_id: "running_collections"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 The collection runner lets you run collections. Thousands of times if you want.

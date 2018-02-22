@@ -5,7 +5,7 @@ page_id: "run_button_ux"
 tags: 
   - "web"
 warning: false
-version: "v5"
+
 ---
 
 When the developer goes to your API documentation, they will see the button on it. Below is an example screen of what the button could look like.

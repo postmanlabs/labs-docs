@@ -5,7 +5,7 @@ page_id: "keen_integration"
 tags: 
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 **Push Monitor results into Keen Streams for API-based computation & S3 backups**

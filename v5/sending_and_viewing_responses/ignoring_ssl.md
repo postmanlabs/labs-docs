@@ -5,7 +5,7 @@ page_id: "ignoring_ssl"
 tags: 
   - "mac"
 warning: false
-version: "v5"
+
 ---
 
 **Note:** For the Chrome app, check out [our blog post][1] on this subject.

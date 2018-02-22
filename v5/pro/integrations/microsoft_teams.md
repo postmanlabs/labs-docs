@@ -4,7 +4,7 @@ page_id: "microsoft_teams"
 tags: 
   - "pro"
 warning: false
-version: "v5"
+
 ---
 
 Microsoft Teams is a chat-based workspace that is available for all Microsoft Office 365 users. This integration allows you to get updates about what is happening in your team directly in Microsoft Teams.

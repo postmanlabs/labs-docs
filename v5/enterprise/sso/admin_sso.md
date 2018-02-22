@@ -4,7 +4,7 @@ page_id: "admin_sso"
 tags: 
   - "enterprise"
 warning: false
-version: "v5"
+
 ---
 
 ### Setting up SSO

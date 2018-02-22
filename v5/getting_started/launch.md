@@ -5,7 +5,7 @@ page_id: "launch"
 tags: 
   - "app"
 warning: false
-version: "v5"
+
 ---
 
 If you have Postman's Chrome app installed, it'll be accessible via `chrome://apps` in your browser.

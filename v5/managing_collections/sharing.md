@@ -6,7 +6,7 @@ tags:
   - "app"
   - "cloud"
 warning: false
-version: "v5"
+
 ---
 
 To share your collections with your team, you'll need to ensure that your team is on the Pro Plan. You can view your plan details on your [team page][0]. If you're on the Pro plan, you can sign in to the Postman app, click the 'More' button next to the collection name and hit 'Share'.
