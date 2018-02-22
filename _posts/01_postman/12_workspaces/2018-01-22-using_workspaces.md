@@ -52,15 +52,22 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 You can add collections or environments from one Workspace to another personal or team Workspace. 
 
-In the [Workplaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace and click the **Add to workspace** button. The personal Workspaces view appears by default. Click "Team" to add collections or environments to team Workspaces.
+1. In the [Workplaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace and click the **Add to workspace** button. The personal Workspaces view appears by default. 
+
+2. Click "Team" to add collections or environments to team Workspaces.
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
-In the Add to this Workspace page, select the source Workspace that contains the collection or environment you want to add to the target Workspace. Then click "Collection" or "Environment" and select the element(s) you want.
+<ol start="3">
+  <li>In the Add to this Workspace page, select the source Workspace that contains the collection or environment you want to add to the target Workspace.</li>
+  <li>Click "Collection" or "Environment" and select the element(s) you want.</li>
+</ol
 
 [![another workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)
 
-Click the **Add to this Workspace** button. The element(s) appear in your list of collections or environments in the target Workspace.
+<ol start="5">
+  <li>Click the **Add to this Workspace** button. The element(s) appear in your list of collections or environments in the target Workspace.</li>
+</ol
 
 [![elements list](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
 
