@@ -1,6 +1,5 @@
 ---
 layout: home
-category: "docs"
 title: "Introduction"
 page_id: "index"
 warning: false
@@ -19,7 +18,7 @@ version: "v6"
   </div>
 
   <div class="pm-accordion-links" id="productAccordion">
-    {% for product in site.data.doc_map %}
+    {% for product in site.data.v6_map %}
       {% assign product_index = forloop.index0 %}
       <div class="pm-accordion-product">
         <a href="#collapse-product-{{product_index}}" class="product-title {% unless product_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">

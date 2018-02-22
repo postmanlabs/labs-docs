@@ -3,7 +3,13 @@
 {% assign hrefString = "" %}
 {% assign titleString = "" %}
 {% assign externalString = "" %}
-{% assign products = site.data.doc_map %}
+{% if page.version == 'v5' %}
+    {% assign products = site.data.v5_map %}
+{% elsif page.version == 'v6' %}
+    {% assign products = site.data.v5_map %}
+{% else %}
+    {% assign products = site.data.doc_map %}
+{% endif %}
 
 {% for product in products %}
     {% assign prodIndex = forloop.index0 %}

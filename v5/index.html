@@ -19,7 +19,7 @@ version: "v5"
   </div>
 
   <div class="pm-accordion-links" id="productAccordion">
-    {% for product in site.data.doc_map %}
+    {% for product in site.data.v5_map %}
       {% assign product_index = forloop.index0 %}
       <div class="pm-accordion-product">
         <a href="#collapse-product-{{product_index}}" class="product-title {% unless product_index == 0 %}collapsed{% endunless %}" data-toggle="collapse">
