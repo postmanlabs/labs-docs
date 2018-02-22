@@ -66,7 +66,7 @@ You can add collections or environments from one Workspace to another personal o
 [![another workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-another-workspace.png)
 
 <ol start="5">
-  <li>Click the **Add to this Workspace** button. The element(s) appear in your list of collections or environments in the target Workspace.</li>
+  <li>Click the <b>Add to this Workspace</b> button. The element(s) appear in your list of collections or environments in the target Workspace.</li>
 </ol
 
 [![elements list](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
@@ -79,17 +79,17 @@ You can remove an element from a Workspace in the Postman app sidebar, or in the
 
 **In the sidebar**
 
-In the Postman app, select a collection and click the ***Ellipsis (...)*** button.
+1. In the Postman app, select a collection and click the ***Ellipsis (...)*** button.
 
-Click "Remove from Workspace". The collection is no longer visible in the Workspace. 
+2. Click "Remove from Workspace". The collection is no longer visible in the Workspace. 
 
 [![remove sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-remove-WS-via-sidebar.png)
 
 **In the Dashboard**
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, click an element. In this example, we click "Collections".
+1. In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, click an element. In this example, we click "Collections".
 
-Click the ***Ellipsis (...)*** button in the element you want to remove and select "Remove from workspace". The Workspace is no longer visible in the Workspace.
+2. Click the ***Ellipsis (...)*** button in the element you want to remove and select "Remove from workspace". The Workspace is no longer visible in the Workspace.
 
 [![remove dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
@@ -97,13 +97,17 @@ Click the ***Ellipsis (...)*** button in the element you want to remove and sele
 
 When you delete a Workspace, you erase its existence in Postman. 
 
-To delete a Workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select a personal or team Workspace. In this example, we select a team Workspace to delete.
+1. To delete a Workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select a personal or team Workspace. In this example, we select a team Workspace to delete.
 
-Click the ***Ellipsis (...)*** button for the Workspace you want to delete and select "Delete".
+2. Click the ***Ellipsis (...)*** button for the Workspace you want to delete and select "Delete".
 
 [![delete workspace menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 
-In "Delete Workspace", click the **Delete** button. Remember when you delete a Workspace, it is gone forever!
+<ol start="3">
+  <li>In "Delete Workspace", click the <b>Delete** button.</b>
+</ol
+  
+Remember when you delete a Workspace, it is gone forever!
 
 [![delete workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete_WS.png)
 
