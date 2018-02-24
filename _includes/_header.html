@@ -1,5 +1,5 @@
 <div id='header' class='header-container-new hero-header-container-new clearfix header-container'>
-  <div id='menu-toggle'></div>
+  <div id='menu-toggle' style='filter: invert(100%);'></div>
   <div id='menu-toggle-overlay'></div>
   <a href='/' class='logo-container-new'></a>
 
@@ -75,10 +75,10 @@
         <a class='pm-btn pm-btn-transparent' href='/api-network/'>API NETWORK</a>
       </li>
       <li>
-        <a href="envSubst('process.env.APP_HOST')/signup?redirect=web" class='pm-btn pm-btn-sm pm-btn-primary sign-in-button hide-if-signedin'>SIGN IN</a>
+        <a href="{{site.pm.gs}}/signup?redirect=web" class='pm-btn pm-btn-sm pm-btn-primary sign-in-button hide-if-signedin'>SIGN IN</a>
       </li>
       <li>
-        <a href="envSubst('process.env.APP_HOST')/" class='pm-btn pm-btn-sm pm-btn-primary sign-in-button hide-if-signedout'>DASHBOARD</a>
+        <a href="{{site.pm.gs}}/" class='pm-btn pm-btn-sm pm-btn-primary sign-in-button hide-if-signedout'>DASHBOARD</a>
       </li>
     </ul>
   </div>
