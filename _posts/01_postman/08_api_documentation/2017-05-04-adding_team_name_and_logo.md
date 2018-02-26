@@ -28,7 +28,7 @@ To update your logo, go to the [Team Settings]({{site.pm.gs}}/dashboard/teams/ed
 
 Next hover over the logo under "Team Logo" in the "Style" section to see the **Pencil** (edit) and **Trash Can** (delete) icons.
 
-[![edit logo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-logo-edit.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-logo-edit.png)
+[![edit logo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-logo-edit.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team-logo-edit.png)
 
 Now click the **Pencil** icon and upload or drag or drop an image. Then click the **Upload** button to complete the process.
 
