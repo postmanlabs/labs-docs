@@ -49,7 +49,7 @@ You can create a new collection from the:
   
 <ol start="3"> <li>Click the <b>Create</b> button.</li> </ol>
   
-   [![new collection_modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png) 
+   [![new collection_modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-createcollectionmodal-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-createcollectionmodal-p2.png) 
 
 <br>
 
@@ -61,7 +61,7 @@ You can create a new collection from the:
 
 The **Create New** tab appears.
 
- [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
+ [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screen-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screen-p2.png)
 
  <ol start="2">
   <li>In the <b>Create New</b> tab, click "Collection".</li>
@@ -115,7 +115,7 @@ You can save a request to a collection from the:
 3. In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
 4. Click the **Save** button.
 
-[![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Save+request+screen.png)
+[![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Save-request-screen-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Save-request-screen-p2.png)
  
  <br>
  
@@ -156,9 +156,7 @@ The  **Create New** tab appears by default when you launch Postman.
  2. In the <b>SAVE MULTIPLE REQUESTS</b> modal, select a collection or folders to save the requests.
  3. Click the **Save** button.
  
- [![multiple collection](
- https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-multiplerequests.png)](
- https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-multiplerequests.png)
+ [![multiple collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-multiplerequests-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-multiplerequests-p2.png)
  
 
 ### Duplicating an existing collection
