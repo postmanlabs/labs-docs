@@ -66,7 +66,7 @@ Variables can also be used in pre-request and test scripts. Since these sections
 
 Collection variables can be defined by editing the collection details. Click on the ellipses (...) next to the collection name, and select “Edit” to open the **EDIT COLLECTION** modal. Select the **Variables** tab to add and edit collection variables. You can also define collection variables when creating the collection.  
 
-[![edit collection variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit-collection-variable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit-collection-variable.png)
+[![edit collection variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-collection-variable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-collection-variable.png)
 
 ### Logging variables
 
