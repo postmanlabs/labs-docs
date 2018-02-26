@@ -156,7 +156,7 @@ The  **Create New** tab appears by default when you launch Postman.
  2. In the <b>SAVE MULTIPLE REQUESTS</b> modal, select a collection or folders to save the requests.
  3. Click the **Save** button.
  
- [![multiple collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-multiplerequests-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-multiplerequests-p2.png)
+ [![multiple collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-multiplerequests2-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-multiplerequests2-p2.png)
  
 
 ### Duplicating an existing collection
