@@ -15,7 +15,7 @@ Global variables provide a set of variables that are always available to you wit
 
 Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". Click on the **Globals** button at the bottom of the modal to reveal a key-value editor to add, edit, and delete global variables. This is also where you can download your global variables as a single JSON file.
 
-[![management environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58756362.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58756362.png)
+[![management environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-globals.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-globals.png)
 
 ##### **View global variables**
 
