@@ -43,7 +43,7 @@ In addition if you want to delete the custom domain, click the "Delete Custom Do
 
 Adding a custom domain opens a modal that displays the DNS records required to verify domain ownership. The most important pieces of information in the modal below are the TXT and CNAME records. To verify you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain.
 
-[![see TXT and CNAME](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-verification-tokens.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-verification-tokens.png)
+[![see TXT and CNAME](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-verfication-tokens.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-verfication-tokens.png)
 
 ### Add DNS records
 
