@@ -19,10 +19,11 @@
 
 	.version-selector {
     display: inline-block;
+    position: absolute;
     margin-left: 20px;
     margin-top: 24px;
 
-    @media (max-width: 1075px) {
+    @media (max-width: 992px) {
     	display: none;
     }
 	}
