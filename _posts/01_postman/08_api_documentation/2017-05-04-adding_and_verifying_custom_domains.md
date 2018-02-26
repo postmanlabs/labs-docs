@@ -13,17 +13,17 @@ Postman users with public documentation can publish documentation on their own c
 
 In the Postman dashboard, select [Team Settings]({{site.pm.gs}}/dashboard/teams/edit){:target="_blank"} in the Team tab.
 
-[![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings2.png)
+[![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-team-settings2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-team-settings2.png)
 
 Scroll down to the "Custom Domains" section and click the **+ Add a new domain** button. 
 
 Note that the "Custom Domains" section lists each domain and its verification status. You can also see additional details of each custom domain.
 
-[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains-section.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains-section.png)
+[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains.png)
 
 In the **Add a Custom Domain** page, enter the URL of the domain you want to add. Your custom domain can be a full domain or simply a subdomain. For example, you can use either `example.com` or `api.example.com` as your custom domain.
 
-[![enter custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-add-custom-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-add-custom-domain.png)
+[![enter custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-add-custom-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-add-custom-domain.png)
 
 Click the **Proceed** button to verify the domain.
 
@@ -35,7 +35,7 @@ If you choose not to verify the domain now, click the **Verify Later** button.
 
 In addition if you want to delete the custom domain, click the "Delete Custom Domain" link.
 
-[![verify_domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-verify-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-verify-domain.png)
+[![verify_domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-verify-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-verify-domain.png)
 
 **Note**: Occasionally, your DNS settings might not take effect immediately. If so, an error message appears. Allow some time to elapse and try again.
 
