@@ -49,7 +49,7 @@ You can create a new collection from the:
   
 <ol start="3"> <li>Click the <b>Create</b> button.</li> </ol>
   
-   [![new collection_modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-createcollectionmodal3-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-createcollectionmodal3-p2.png) 
+   [![new collection_modal]()]() 
 
 <br>
 
@@ -61,7 +61,7 @@ You can create a new collection from the:
 
 The **Create New** tab appears.
 
- [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)
+ [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-collection-modal-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-collection-modal-p2.png)
 
  <ol start="2">
   <li>In the <b>Create New</b> tab, click "Collection".</li>
