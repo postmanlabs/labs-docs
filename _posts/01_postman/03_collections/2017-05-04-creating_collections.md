@@ -115,7 +115,7 @@ You can save a request to a collection from the:
 3. In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
 4. Click the **Save** button.
 
-[![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Save-request-screen-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Save-request-screen-p2.png)
+[![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Save-request-screen1-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Save-request-screen1-p2.png)
  
  <br>
  
