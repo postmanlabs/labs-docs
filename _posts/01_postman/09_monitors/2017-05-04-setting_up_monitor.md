@@ -114,8 +114,6 @@ The **Create New** tab appears by default when you launch Postman.
 
 You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. 
 
-[![monitor preferences](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-perf.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-perf.png)
-
 <ol start="3">
   <li>Click the <b>Create Monitor</b> button.</li>
 </ol>
