@@ -72,8 +72,7 @@ A few commands which can be imported include:
    2.  Click on the Import button, and choose the Import Folder tab. 
       [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
    3.  Click on **Choose Files** and upload the RAML folder.
-      [![import folder modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-import-raml2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-import-raml2.png)
-    
+         
    You’re done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
     
  [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
