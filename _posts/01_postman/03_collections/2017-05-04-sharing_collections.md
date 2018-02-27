@@ -34,7 +34,7 @@ You can manage a complete list of collection links from the [dashboard]({{site.p
 
 Under the **Embed Button** tab of the **SHARE COLLECTION** modal, you can create a **Run in Postman** button to share your collection. Just with collection links, the collection should be manually updated to reflect new changes in the collection.  Learn more about [generating and embedding the button](/docs/postman_for_publishers/run_button/creating_run_button).
 
-[![share collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564746.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564746.png)
+[![share collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-RIP-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-RIP-p2.png)
 
 ### Sharing as a file
 
