@@ -20,7 +20,7 @@ Postman can export and import the following formats as a file or generated URL.Â
 
 Postman can export collections in two formats - v1 and v2\. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}.Â 
 
-[![select v1 or v2 format](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-collection.png)
+[![select v1 or v2 format](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-collection1.png)
 
 ##### **Environments**
 
