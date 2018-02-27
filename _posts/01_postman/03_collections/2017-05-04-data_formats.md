@@ -26,7 +26,7 @@ Postman can export collections in two formats - v1 and v2\. Both Collection v1 a
 
 Environments can be exported from the **MANAGE ENVIRONMENTS** modal, and imported here as well.
 
-[![export environments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments.png)
+[![export environments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments2.png)
 
 ##### **Data dumps**
 
