@@ -67,7 +67,7 @@ The **Create New** tab appears.
 
 In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
 
- [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
+ [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-next-steps.pngg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-next-steps.png)  
    
 #### Launch screen
 
