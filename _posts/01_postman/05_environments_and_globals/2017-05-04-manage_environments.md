@@ -47,14 +47,9 @@ You can create a new environment from the:
 #### New button
 
 1. In the header toolbar, click the **New** button.
-
-[![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
-
-<ol start="2">
-  <li>Click "Environment" and enter a name for the new environment.</li>
-  <li>Add the variables you want to save as key-value pairs.</li>
-  <li>Click the <b>Add</b> button.</li>
-</ol>
+2. Click "Environment" and enter a name for the new environment.
+3. Add the variables you want to save as key-value pairs.
+4. Click the **Add** button.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
