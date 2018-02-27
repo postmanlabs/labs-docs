@@ -42,7 +42,7 @@ If you're working on a few collections in particular, you can click on the star 
 
 If you have a lot of collections, filter collections in the sidebar using the search input field.  
 
-[![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154104.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154104.png)
+[![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-filter-collections-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-filter-collections-sidebar.png)
 
 ##### **Delete a collection**
 
