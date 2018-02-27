@@ -40,7 +40,7 @@ You can also select advanced monitor options to receive email notifications for 
   <li>Click the <b>Monitor this collection</b> button.</li>
  </ol>
 
-[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitorCollectionScreen3-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitorCollectionScreen3-p2.png)
+[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitorCollectionScreen4-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitorCollectionScreen4-p2.png)
 
 ### New button
 
