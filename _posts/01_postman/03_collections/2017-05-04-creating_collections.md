@@ -101,19 +101,13 @@ You can save a request to a collection from the:
 * **New** button 
 * Launch screen
 
-<br>
+#### Build view
 
-
-#### Request builder
-
-1. In the request builder, enter a new request in the builder.
+1. In the Workspaces build view, enter a new request in the builder.
 2. Click the **Save** button. 
 3. In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
 4. Click the **Save** button.
 
-[![saverequest screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Save-request-screen1-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Save-request-screen1-p2.png)
- 
- <br>
  
 #### New button
 1. In the header toolbar, click the **New** button.
