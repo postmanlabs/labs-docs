@@ -28,13 +28,13 @@ Generate a shareable link for others to access your collections. This is not the
 
 You can manage a complete list of collection links from the [dashboard]({{site.pm.gs}}/dashboard/collections/links){:target="_blank"}.
 
-[![share collection with a link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-link-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-link-p2.png)
+[![share collection with a link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-link-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-link-1.png)
 
 ### Sharing as a Run in Postman button
 
 Under the **Embed Button** tab of the **SHARE COLLECTION** modal, you can create a **Run in Postman** button to share your collection. Just with collection links, the collection should be manually updated to reflect new changes in the collection.  Learn more about [generating and embedding the button](/docs/postman_for_publishers/run_button/creating_run_button).
 
-[![share collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-RIP-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-RIP-p2.png)
+[![share collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-RIP.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-RIP.png)
 
 ### Sharing as a file
 
