@@ -43,8 +43,6 @@ You can create a new environment from the:
   <li>Click the <b>Add</b> button.</li>
 </ol>
 
-[![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Add_environ-fin.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Add_environ-fin.png)
-
 
 #### New button
 
