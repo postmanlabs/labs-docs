@@ -37,7 +37,7 @@ You can create a new environment from the:
 
 1. Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
-[![manage environments icon]()]()
+[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)
 
 <ol start="2">
   <li>Select “Manage Environments”.</li>
@@ -62,7 +62,7 @@ The **Create New** tab appears.
   <li>Add the variables you want to save as key-value pairs.</li>
 </ol>
 
-[![manage environments modal]()]()
+[![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage_environ-fin.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage_environ-fin.png)
 
 <ol start="4">
   <li>Click the <b>Add</b> button.</li>
