@@ -22,7 +22,7 @@ You can create, share, duplicate, export, and delete an environment. You can als
 
 > **Environment and global variables are always stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
-[![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share_environ2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share_environ2.png)
+[![manage environments modal]()]()
 
 ### **Creating a new environment**
 
@@ -37,7 +37,7 @@ You can create a new environment from the:
 
 1. Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
-[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)
+[![manage environments icon]()]()
 
 <ol start="2">
   <li>Select “Manage Environments”.</li>
@@ -62,7 +62,7 @@ The **Create New** tab appears.
   <li>Add the variables you want to save as key-value pairs.</li>
 </ol>
 
-[![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage_environ.png)
+[![manage environments modal]()]()
 
 <ol start="4">
   <li>Click the <b>Add</b> button.</li>
@@ -103,7 +103,7 @@ To share an environment, click the gear icon in the upper right corner of the Po
 
 In the **Manage Environments** tab, click the **Duplicate Environment** icon next to the environment you want to share.
 
-[![duplicate environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)
+[![duplicate environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share_environ-fin.png](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share_environ-fin.png)
 
 It's a best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others. 
 
