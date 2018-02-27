@@ -76,6 +76,6 @@ Users can add test scripts to a collection, a folder, or a single request within
 
 Collection and folder scripts can be updated in the collection or folder details respectively. Click on the ellipses (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Tests** tab to add and update the scripts. You can also add collection scripts when initially creating the collection. 
  
-[![test scripts for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-script-folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-script-folder.png)
+[![test scripts for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-test-script-folder-edit-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-test-script-folder-edit-p2.png)
  
 Read more about [the execution order of scripts](/docs/postman/scripts/intro_to_scripts#execution-order-of-scripts).
