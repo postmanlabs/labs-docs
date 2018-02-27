@@ -50,10 +50,6 @@ You can create a new environment from the:
 
 [![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
-The **Create New** tab appears.
-
-[![create_new](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-button-fin.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-button-fin.png)
-
 <ol start="2">
   <li>Click "Environment" and enter a name for the new environment.</li>
   <li>Add the variables you want to save as key-value pairs.</li>
