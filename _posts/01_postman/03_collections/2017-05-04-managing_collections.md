@@ -36,7 +36,7 @@ Collections can be sorted either alphabetically by name or by when they were las
 
 If you're working on a few collections in particular, you can click on the star icon to bring the collection(s) to the top of the list.
 
-[![favorite a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154198.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154198.png)
+[![favorite a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-favorite-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-favorite-sidebar.png)
 
 ##### **Filter collections**
 
