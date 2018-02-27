@@ -38,7 +38,7 @@ From the **Data** tab of the **SETTINGS** modal, Postman allows you to expor
 
 Postman data can be imported from the **Data** tab of the **SETTINGS** modal, or using the **Import** button in the header toolbar. Import a collection, environment, data dump, curl command, or a RAML / WADL / Swagger (v1/v2) / Runscope file using the **IMPORT** modal.
 
-[![import data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163883.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163883.png)
+[![import data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-import-data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-import-data.png)
 
 ### Importing cURL
 
