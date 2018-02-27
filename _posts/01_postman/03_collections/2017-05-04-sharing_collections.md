@@ -16,7 +16,7 @@ You must be signed in to your [Postman account](/docs/postman/launching_postman/
 
 If you are a member of a team using Postman Pro or Enterprise, you can [share a collection with the rest of your team](/docs/postman/team_library/sharing#sharing-collections). Under the **Team Sharing** tab of the **SHARE COLLECTION** modal, you can designate view or edit permissions for your team.  You can also choose to share the collection with your whole team or assign individual permissions for team members. 
 
-[![share collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-sharing-collection-team1-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-sharing-collection-team1-p2.png)
+[![share collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-mode1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-mode1.png)
 
 A team’s shared collections can be viewed in the [team library](/docs/postman/team_library/sharing). This is where you can subscribe to collections that others have shared.
 
