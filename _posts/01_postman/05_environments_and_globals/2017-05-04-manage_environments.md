@@ -44,7 +44,7 @@ You can create a new environment from the:
   <li>Click the <b>Add</b> button.</li>
 </ol>
 
-[![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Add_environZ2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Add_environZ2.png)
+[![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Add.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Add.png)
 
 
 #### New button
