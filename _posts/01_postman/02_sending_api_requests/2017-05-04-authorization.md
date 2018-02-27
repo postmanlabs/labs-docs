@@ -176,7 +176,7 @@ This table describes the parameters in the **GET NEW ACCESS TOKEN** screen.
 | State |An opaque value that prevents cross-site request forgery. |
 | Client Authentication |A drop down menu where you can either send a Basic Auth request in the header, or send client credentials in the request body. **Note**: After upgrading to a new version, change the value in this drop down menu to avoid problems with client authentication. |
 
-[![getrequesttokens_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GetNewAccessToken+screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GetNewAccessToken+screen.png)
+[![getrequesttokens_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-access-token.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-access-token.png)
 
 You can click "Manage Tokens" in the list to view more details about each token and delete any one of them. If there are no tokens in the list, the user needs to click the **Get New Access Token** button to generate a token that Postman adds to the list.
 
