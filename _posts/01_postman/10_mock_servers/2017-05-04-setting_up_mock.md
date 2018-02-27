@@ -46,7 +46,7 @@ The **Create New** tab appears.
   <li>Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections. </li>
 </ol>
 
-[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
+[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-config-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-config-p2.png) 
 
 <ol start="4">
   <li>After you select or create the request you want to mock, click the <b>Next</b> button.</li>
