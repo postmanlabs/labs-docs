@@ -32,7 +32,7 @@ Environments can be exported from the **MANAGE ENVIRONMENTS** modal, and importe
 
 From the **Data** tab of the **SETTINGS** modal, Postman allows you to export all collections, environments, globals and header presets into one JSON file. Postman does not export your history. You can import this data back into Postman.
 
-[![export all Postman data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-dumps-export.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-dumps-export.png)
+[![export all Postman data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-dumps-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-dumps-settings.png)
 
 ##### **Importing Postman data**
 
