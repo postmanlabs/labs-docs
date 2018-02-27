@@ -22,7 +22,6 @@ You can create, share, duplicate, export, and delete an environment. You can als
 
 > **Environment and global variables are always stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
-[![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage_environ-fin.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage_environ-fin.png)
 
 ### **Creating a new environment**
 
