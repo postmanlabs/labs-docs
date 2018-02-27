@@ -66,8 +66,6 @@ Variables can also be used in pre-request and test scripts. Since these sections
 
 Collection variables can be defined by editing the collection details. Click on the ellipses (...) next to the collection name, and select “Edit” to open the **EDIT COLLECTION** modal. Select the **Variables** tab to add and edit collection variables. You can also define collection variables when creating the collection.  
 
-[![edit collection variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-collection-variable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-collection-variable.png)
-
 ### Logging variables
 
 Often while using variables in scripts, you will need to see the values they obtain. You can use the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs) to do this easily. From the application menu, select "View" and then "Show Postman Console".  To log the value of a variable, you can use `console.log(foo);` in your script. When you send a request, the script will be evaluated and the value of the variable will be logged in the Postman Console.
