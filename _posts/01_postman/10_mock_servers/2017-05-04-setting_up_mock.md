@@ -59,7 +59,7 @@ The **Create New** tab appears.
 
 **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits]({{site.pm.gs}}/dashboard/usage){:target="_blank"}.
      
- [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
+ [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-p2.png) 
      
 <ol start="6">
   <li>Click the <b>Create</b> button.</li>
