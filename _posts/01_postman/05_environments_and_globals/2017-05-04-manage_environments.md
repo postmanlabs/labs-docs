@@ -42,7 +42,7 @@ You can create a new environment from the:
   <li>Click the <b>Add</b> button.</li>
 </ol>
 
-<b>
+<br>
   
 #### New button
 
