@@ -26,7 +26,7 @@ When you click the **New** button, the **Create New** tab appears as the default
 
 In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the Templates and API Network sections below.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)
 
 ### Create New  
 
@@ -67,7 +67,7 @@ A [collection](/docs/postman/collections/creating_collections){:target="_blank"}
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-createcollection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-createcollection.png)
 
 <h4 id="environments">Creating environments</h4>
 While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} let you customize requests using variables. 
