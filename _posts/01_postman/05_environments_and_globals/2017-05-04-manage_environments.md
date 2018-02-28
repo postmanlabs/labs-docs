@@ -49,6 +49,8 @@ You can create a new environment from the:
 3. Add the variables you want to save as key-value pairs.
 4. Click the **Add** button.
 
+[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-key-value-pairs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-key-value-pairs.png)
+
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 #### Launch screen
