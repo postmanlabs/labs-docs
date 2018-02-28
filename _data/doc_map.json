@@ -450,12 +450,12 @@
 	"url_prefix": "workspaces",
 	"children": [
 	    {
-	        "title": "Intro to workspaces",
+	        "title": "Intro to Workspaces",
 		"href": "/docs/postman/workspaces/intro_to_workspaces",
 		"external": false
 	    },
 	    {
-	        "title": "Creating workspaces",
+	        "title": "Creating Workspaces",
 		"href": "/docs/postman/workspaces/creating_workspaces",
 		"external": false
 	    },
