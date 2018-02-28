@@ -41,8 +41,6 @@ You can create a new environment from the:
   <li>Select “Manage Environments”.</li>
   <li>Click the <b>Add</b> button.</li>
 </ol>
-
-<br>
   
 #### New button
 
