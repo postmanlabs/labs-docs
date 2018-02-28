@@ -23,6 +23,10 @@
     $('body').toggleClass('nav-open');
   });
 
+  $('body').on('click', '#menu-toggle-overlay', function () {
+    $('body').removeClass('nav-open');
+  });
+
   /**
    * Force blur of inputs when tapping outside, hides soft-keyboard
    * on touch devices
