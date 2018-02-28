@@ -35,7 +35,7 @@ Before we get into the details of mocking, let’s start with setting up some ba
   
   You can save a request to an existing collection, or save it to a new collection.  Let's create our new collection called `C1`. 
   
-  [![save request modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock3.png)
+  [![save request modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock3.png)
   
   Collection `C1` will now be accessible in the **Collections** tab in the application. We can do all sorts of things within the collection details view: [viewing API documentation](/docs/postman/api_documentation/viewing_documentation), [mocking a collection](/docs/postman/mock_servers/setting_up_mock), [monitoring a collection](/docs/postman/monitors/setting_up_monitor), or [running the collection](/docs/postman/collection_runs/starting_a_collection_run).
 
@@ -73,7 +73,7 @@ In the previous steps, we prepared the collection, request, and example response
   
   Mocks are accessible to the public by default. If you check the box making the mock server private, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
   
-  [![mock collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock9.png)
+  [![mock collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock9.png)
   
   Once you mock the collection, it will be visible under the `Mocks` tab of the collection details view. You can also see the mock URL we will need for the next step.
   

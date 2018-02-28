@@ -80,7 +80,8 @@ Unfortunately some headers are restricted by Chrome and the XMLHttpRequest speci
    *   Via
 
 However sending these restricted headers is easy. Follow the steps below:
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor_cookies_1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor_cookies_1.png)
+
+[![interceptor icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor.png)
 
    *   Install the Interceptor extension either by clicking on the Interceptor icon in the Postman toolbar or through the [Chrome Web Store](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo){:target="_blank"}.
    *   Once it’s installed, click on the icon again in the Postman app and toggle it on.

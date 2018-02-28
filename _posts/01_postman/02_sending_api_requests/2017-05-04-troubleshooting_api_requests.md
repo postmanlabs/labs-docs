@@ -8,11 +8,13 @@ warning: false
 
 ---
 
-There might be cases when your API doesn't work, or exhibits unexpected behavior. If you're not getting any response, Postman will display a message that there was an error connecting to the server.
+There might be cases when your API doesn't work, or exhibits unexpected behavior. If you're not getting any response, Postman will display a message about an error in connecting to the server.
 
-[![no response message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting3.png)
+[![no response message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)
 
-For more details about the possible causes of the error, open [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs), which has detailed information about the failure, which can substantially reduce the time required to troubleshoot. Consider the following issues as you're troubleshooting API requests. 
+For more details about the possible causes of the error, open [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs). It has detailed information about the failure. 
+
+Consider these issues as you troubleshoot API requests. 
 
 ### Connectivity issues
 
@@ -20,7 +22,7 @@ If Postman is unable to connect to your server, it shows the message above. Usua
 
 ##### **Firewall issues**
 
-Some firewalls may be configured to block non-browser connections, in this case, you should talk to your network administrators in order for Postman to work.
+Some firewalls may be configured to block non-browser connections. In this case, you should talk to your network administrators for Postman to work.
 
 ##### **Proxy Configuration**
 
@@ -28,12 +30,11 @@ If you are using a proxy server to make requests, make sure you configure it cor
 
 ##### **SSL Certificate issues**
 
-When using HTTPS connections, Postman may show the error above. In this case, you can try turning off SSL verification in the Postman Settings. If that does not help,  
-your server might be using a client-side SSL connection. This too can be configured in [Postman Settings](/docs/postman/launching_postman/settings). Use the Postman Console to ensure that the correct SSL certificate is being sent to the server.
+When using HTTPS connections, Postman might show the error above. In this case, you can turn off SSL verification in the Postman Settings. If that does not help, your server might be using a client-side SSL connection, which you can configure in [Postman Settings](/docs/postman/launching_postman/settings). Use the Postman Console to ensure that the correct SSL certificate is being sent to the server.
 
 ##### **Client Certificate issues**
 
-Client certificates may be required for this server. Fix this by [adding a client certificate](/docs/postman/sending_api_requests/certificates) in the [Postman Settings](/docs/postman/launching_postman/settings).  
+Client certificates might be required for this server. Fix this by [adding a client certificate](/docs/postman/sending_api_requests/certificates) in the [Postman Settings](/docs/postman/launching_postman/settings).  
 
 ##### **Incorrect Request URLs**
 
@@ -49,7 +50,7 @@ Very rarely, it is possible that Postman might be making invalid requests to you
 
 ### Very short timeouts
 
-If you configure a very short timeout in Postman, the request may timeout before completing, resulting in the error block above. Try increasing the timeout to avoid this issue.
+If you configure a very short timeout in Postman, the request might timeout before completion, resulting in the error block above. Try increasing the timeout to avoid this issue.
 
 ### Invalid Responses
 
