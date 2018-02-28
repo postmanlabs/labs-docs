@@ -77,11 +77,11 @@ While working with APIs, you often need different setups, such as your local mac
 3. In the **MANAGE ENVIRONMENTS** modal, add the variables you want to save as key-value pairs.
 4. Click the **Add** button.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments-newButton.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments-newButton.png)
 
 If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit, download, or delete those environments. In addition, you can create global environments and download them as a JSON file, or import environment files from your computer.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environments-secondWindow2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environments-secondWindow2.png)
 
 
 ### ADVANCED
@@ -96,7 +96,7 @@ A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodicall
 2. In the **Create New** tab, click “Monitor”.
 3. Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
 
-[![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
+[![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-select-requests2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-select-requests2.png)
  
 <ol start="4">
   <li>After you select or create the request you want to monitor, click the <b>Next</b> button. </li>
