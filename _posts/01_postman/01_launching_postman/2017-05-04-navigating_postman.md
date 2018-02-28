@@ -250,8 +250,6 @@ Drag your mouse to select multiple rows.
 | Delete - can multiselect and delete rows   |   ⌫     | Del  |
 | Deselect rows  |   ⎋    | Esc  |
 
-[![using shortcuts gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)
-
 **Bulk actions**
 
 You can select and copy multiple rows and then paste them in a different places (such as 'params').
