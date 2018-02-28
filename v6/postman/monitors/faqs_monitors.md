@@ -2,7 +2,6 @@
 title: "FAQs for monitors"
 page_id: "faqs_monitors"
 warning: false
-
 ---
 
 ### General questions

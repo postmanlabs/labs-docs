@@ -2,7 +2,6 @@
 title: "Troubleshooting monitors"
 page_id: "troubleshooting_monitors"
 warning: false
-
 ---
 
 Postman always syncs your monitors with your collections in the Postman app. As a result, you can debug in the app locally, while your monitors are updated on our servers, seamlessly. 
@@ -13,7 +12,7 @@ The Postman console in the [Monitors web view](https://monitor.getpostman.com){:
 
 You can click the failed monitor and review the relevant logs under the **Console Log** tab. 
 
-[![failed monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)
+[![failed monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-failed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-failed.png)
 
 For information about debugging in the console, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
@@ -21,7 +20,7 @@ When a monitor fails, a "Need help debugging?" popup displays in the Postman mon
 
 For example, if the monitor failed because Postman was unable to contact the server, the debugging tip suggests you ensure the server's IP address is correct, and that it's publicly available.  If the monitor failed because of a missing variable, then the debugging tip suggests verifying if the monitor is using the correct environment, and that the variable exists in the environment.
 
-[![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)
+[![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitoring-debugging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitoring-debugging.png)
 
 
 #### Debugging local run attempts

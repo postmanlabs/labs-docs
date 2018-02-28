@@ -145,7 +145,7 @@ Different operating systems have different shortcuts.  
 
 You can always view a complete list of your operating system's shortcuts when you click the **Keyboard Shortcuts** icon in the **Status bar**.
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-keyboard-shortcuts2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-keyboard-shortcuts2.png)
 
 **Reference for all shortcuts**
 
@@ -222,11 +222,13 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)
 
+
 **Mulitple rows**
 
 Drag your mouse to select multiple rows.
 
 [![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)
+
 
 **Keyboard shortcuts for the data editor**
 
@@ -247,7 +249,6 @@ Drag your mouse to select multiple rows.
 | Delete - can multiselect and delete rows   |   ⌫     | Del  |
 | Deselect rows  |   ⎋    | Esc  |
 
-[![using shortcuts gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)
 
 **Bulk actions**
 

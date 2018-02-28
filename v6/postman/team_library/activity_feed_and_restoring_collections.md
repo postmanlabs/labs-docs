@@ -2,7 +2,6 @@
 title: "Activity Feed and restoring collections"
 page_id: "activity_feed_and_restoring_collections"
 warning: false
-
 ---
 
  **NOTE**: **Team Library is only available for versions 5.0 and below.**

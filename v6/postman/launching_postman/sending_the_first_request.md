@@ -2,7 +2,6 @@
 title: "Sending the first request"
 page_id: "sending_the_first_request"
 warning: false
-
 ---
 
 Let's send our first API request! 

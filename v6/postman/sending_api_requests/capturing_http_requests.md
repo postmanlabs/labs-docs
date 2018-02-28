@@ -21,7 +21,7 @@ Postman has a proxy in the Postman app that captures the HTTP request.
 
 Similar to the [Interceptor Chrome extension](/docs/postman/sending_api_requests/interceptor_extension), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
 
-[![proxy logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.logs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.logs.png)
+[![proxy logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-proxy.logs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-proxy.logs.png)
 
 ### Using Postman's proxy example
 
@@ -31,11 +31,11 @@ In this tutorial, we will use Postman's proxy feature to inspect HTTP communicat
 
 Open the **PROXY SETTINGS** modal in the Postman app (MacOS) by clicking the icon in the header toolbar.
 
-[![proxy icon in header](http://blog.getpostman.com/wp-content/uploads/2016/06/840x102xpostman-proxy-settings-button-1024x124.png,qx38712.pagespeed.ic.YcnXp95XVF.jpg)](http://blog.getpostman.com/wp-content/uploads/2016/06/postman-proxy-settings-button.png?x38712)
+[![proxy icon in header](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-settings-button.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-settings-button.jpg)
 
 Keep a note of the port mentioned in the proxy settings. In this case, let's keep it at the default port ``5555``. Set the target to "History". This will cause all your requests to be captured and stored in the History sidebar panel.
 
-[![proxy settings modal](http://blog.getpostman.com/wp-content/uploads/2016/06/840x612xpostman-proxy-settings-1024x746.png,qx38712.pagespeed.ic.dWsIVNCDiv.jpg)](http://blog.getpostman.com/wp-content/uploads/2016/06/postman-proxy-settings.png?x38712)
+[![proxy settings modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-settings.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-settings.jpg)
 
 ##### **Step 2: Note your computer's IP address**
 
@@ -53,7 +53,7 @@ Set the proxy IP address of your device (an iPhone in this example) to the IP ad
 
 You are all set! Head over to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
 
-[![requests under History tab](http://blog.getpostman.com/wp-content/uploads/2016/06/840x617xpostman-proxy-history-sidebar-1024x752.png,qx38712.pagespeed.ic.uo1VoX39y5.jpg)](http://blog.getpostman.com/wp-content/uploads/2016/06/postman-proxy-history-sidebar.png?x38712)
+[![requests under History tab]https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)
 
 ### Connect to proxy for target devices
 

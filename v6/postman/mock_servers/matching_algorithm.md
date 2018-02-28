@@ -2,7 +2,6 @@
 title: "Matching algorithm"
 page_id: "matching_algorithm"
 warning: false
-
 ---
 
 Using the Postman mock service requires the following: a collection with requests, a mock server, and saved request examples. You can save as many examples to a collection as you please, and the mock server will return these examples predictably. But how exactly does the mock decide which example to return?

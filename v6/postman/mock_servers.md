@@ -2,7 +2,6 @@
 title: "Mock Servers"
 page_id: "mock_servers"
 warning: false
-
 ---
 
 ### Simulate a back end with Postman's mock servers

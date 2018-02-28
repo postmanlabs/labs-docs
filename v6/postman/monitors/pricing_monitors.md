@@ -5,7 +5,6 @@ tags:
   - "pro"
   - "enterprise"
 warning: false
-
 ---
 
 Postman Monitors are billed on a per-request basis. A request is any HTTP request needed to run your collection. 

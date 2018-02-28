@@ -2,7 +2,6 @@
 title: "Using Markdown for descriptions"
 page_id: "using_markdown_for_descriptions"
 warning: false
-
 ---
 
 Postman supports [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) as a way to style text descriptions for [requests](/docs/postman/sending_api_requests/requests), [collections](/docs/postman/collections/creating_collections), and [folders](/docs/postman/collections/managing_collections) in collections. You can also embed screenshots and other images for more descriptive flair.

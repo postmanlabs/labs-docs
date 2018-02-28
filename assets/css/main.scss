@@ -6,7 +6,8 @@
 .pm-sidebar-main-nav {
 
   .version-selector {
-		display: block;
+    display: none;
+    // display: block; uncomment this when we are ready for versioning
     line-height: 64px;
     padding-left: 42px;
     position: relative;
@@ -17,8 +18,13 @@
 
 .header-container {
 
+  .logo-container-new {
+    background: url(https://www.getpostman.com/img/v2/logo-orange.svg) left center/152px 56px no-repeat;
+  }
+
 	.version-selector {
-    display: inline-block;
+    display: none;
+    // display: inline-block; uncomment this when we are ready for versioning
     position: absolute;
     margin-left: 20px;
     margin-top: 24px;

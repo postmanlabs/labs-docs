@@ -2,7 +2,6 @@
 title: "Debugging a collection run"
 page_id: "debugging_a_collection_run"
 warning: false
-
 ---
 
 Oftentimes, things don't go according to plan and your collection tests will fail even when you expect them all to pass. When this happens, there are two ways you can debug your requests.

@@ -2,7 +2,6 @@
 title: "Monitoring APIs and websites"
 page_id: "monitoring_apis_websites"
 warning: false
-
 ---
 
 

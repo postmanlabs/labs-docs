@@ -2,7 +2,6 @@
 title: "Setting up a monitor"
 page_id: "setting_up_monitor"
 warning: false
-
 ---
 
 
@@ -20,7 +19,7 @@ You can create a monitor for an existing collection from the sidebar.
 
 1. In the Postman app, click on the ellipses (…) next to the collection you want to monitor. 
 
-[![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
+[![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-sidebar4-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-sidebar4-p2.png)
 
 <ol start="2">
   <li>Select "Monitor Collection".</li>
@@ -38,7 +37,7 @@ You can also select advanced monitor options to receive email notifications for 
   <li>Click the <b>Monitor this collection</b> button.</li>
  </ol>
 
-[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorCollectionScreen3.png)
+[![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitorCollectionScreen4-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitorCollectionScreen4-p2.png)
 
 ### New button
 
@@ -57,7 +56,7 @@ Here's how to create a monitor with the **New** button.
 
 The **Create New** tab appears.
 
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screen2-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screen2-p2.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
@@ -67,7 +66,7 @@ The **Create New** tab appears.
 Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.</li>
 </ol>
 
-[![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
+[![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-select-requests-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-select-requests-p2.png)
  
 <ol start="4">
   <li>After you select or create the request you want to monitor, click the <b>Next</b> button. </li>
@@ -79,7 +78,7 @@ Select if you want to monitor a new API or an existing or team collection. If yo
   * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
   * Select one or more regions of the world from where you want to monitor your results.
     
-  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
+  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-configure-ps2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-configure-ps2.png)  
  
  <ol start="6">
   <li>Click the <b>Create</b>  button. </li>
@@ -87,7 +86,7 @@ Select if you want to monitor a new API or an existing or team collection. If yo
 
 In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
     
-  [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
+  [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-next-steps-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-next-steps-p2.png)    
     
      
 ### Launch screen
@@ -111,8 +110,6 @@ The **Create New** tab appears by default when you launch Postman.
 [![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-monitor-web.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-monitor-web.png)
 
 You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. 
-
-[![monitor preferences](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_prefs.png)
 
 <ol start="3">
   <li>Click the <b>Create Monitor</b> button.</li>

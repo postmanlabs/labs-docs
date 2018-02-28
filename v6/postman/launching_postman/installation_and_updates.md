@@ -74,7 +74,7 @@ It’s simple.  Sign in to your Postman account after you [download](https://w
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app.
 
-[![import data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161744.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161744.png)  
+[![import data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-data-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-data-settings.png)  
 
 ##### **Bulk export**
 
@@ -90,7 +90,7 @@ From the same area in Postman settings, you can initiate a bulk import from a Po
 
 Postman's native apps will check for updates whenever the app reloads, or is launched. The app will display the changelog prompting you to update the app. 
 
-[![changelog](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161812.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161812.png)
+[![changelog](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-updating-postman.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-updating-postman.png)
 
 ##### **Mac and Windows**
 
@@ -108,7 +108,7 @@ You can also configure your preferences to automatically download updates under 
 
 **None** - This will show up the update version every time it finds a update for your current version. 
 
-[![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161823.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161823.png)
+[![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-update-current-version.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-update-current-version.png)
 
 **Troubleshooting updates in macOS Sierra**
 
@@ -124,7 +124,7 @@ Postman’s native app on Linux will notify you whenever an update is available.
 
 Since Postman's native apps check for updates only on app reload or launch, at any time, you can force a check for updates under the **Update** tab in the **SETTINGS** modal of the app. 
 
-[![check for updates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161839.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161839.png)
+[![check for updates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linux-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linux-settings.png)
 
 ##### **Chrome**
 

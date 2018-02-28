@@ -25,6 +25,6 @@ Users can add pre-request scripts to a collection, a folder, or a single request
 
 Collection and folder scripts can be updated in the collection or folder details respectively. Click on the ellipses (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Pre-request Scripts** tab to add and update the scripts. You can also add collection scripts when initially creating the collection.  
 
-[![pre-request script for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/folder-pre-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/folder-pre-request.png)
+[![pre-request script for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-folder-pre-request-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-folder-pre-request-p2.png)
 
 Read more about [the execution order of scripts](/docs/postman/scripts/intro_to_scripts#execution-order-of-scripts).

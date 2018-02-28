@@ -2,7 +2,6 @@
 title: "Continuous Integration"
 page_id: "continuous_integration"
 warning: false
-
 ---
 
 Continuous Integration (CI) is a development practice that requires developers to regularly merge code updates into a shared repository. It involves the process of automating the build and testing of code every time a developer commits code updates.

@@ -2,7 +2,6 @@
 title: "Running multiple iterations"
 page_id: "running_multiple_iterations"
 warning: false
-
 ---
 
 ##### Download the collection used in this example:

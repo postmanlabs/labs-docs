@@ -43,11 +43,11 @@
             "external": false   
          },   
          {    
-            "title": "New button",    
+      "title": "New button",    
             "href": "/docs/v6/postman/launching_postman/newbutton",
             "external": false
           }
-        ]
+  ]
       }, 
       {
         "title": "Sending API requests",
@@ -446,29 +446,274 @@
         "external": false
       },
       {
-        "title": "Workspaces",
-        "url_prefix": "workspaces",
+  "title": "Workspaces",
+  "url_prefix": "workspaces",
+  "children": [
+      {
+          "title": "Intro to Workspaces",
+    "href": "/docs/v6/postman/workspaces/intro_to_workspaces",
+    "external": false
+      },
+      {
+          "title": "Creating Workspaces",
+    "href": "/docs/v6/postman/workspaces/creating_workspaces",
+    "external": false
+      },
+      {
+          "title": "Managing Workspaces",
+    "href": "/docs/v6/postman/workspaces/managing_workspaces",
+    "external": false
+      },
+      {
+          "title": "Using Workspaces",
+    "href": "/docs/v6/postman/workspaces/using_workspaces",
+    "external": false
+      } 
+  ]
+      }
+    ]
+  },
+  {
+    "title": "Postman Pro",
+    "url_prefix": "pro",
+    "children":[
+      {
+        "title": "What is Postman Pro",
+        "href": "/docs/v6/pro/what_is_pro",
+        "url_prefix": "what_is_pro",
+        "external": false
+      },    
+      {
+        "title": "Managing Postman Pro",
+        "url_prefix": "managing_pro",
         "children": [
           {
-            "title": "Intro to workspaces",
-            "href": "/docs/v6/postman/workspaces/intro_to_workspaces",
+            "title": "Activating your Pro trial",
+            "href":"/docs/v6/pro/managing_pro/activating_trial",
             "external": false
           },
           {
-            "title": "Creating workspaces",
-            "href": "/docs/v6/postman/workspaces/creating_workspaces",
+            "title": "Purchasing Postman Pro",
+            "href":"/docs/v6/pro/managing_pro/purchasing_pro",
             "external": false
           },
           {
-            "title": "Managing Workspaces",
-            "href": "/docs/v6/postman/workspaces/managing_workspaces",
+            "title": "Upgrading to Postman Pro from a trial",
+            "href":"/docs/v6/pro/managing_pro/upgrading_to_postman_pro_from_a_trial_team",
             "external": false
           },
           {
-            "title": "Using Workspaces",
-            "href": "/docs/v6/postman/workspaces/using_workspaces",
+            "title": "Team settings",
+            "href":"/docs/v6/pro/managing_pro/team_settings",
             "external": false
-          } 
+          },
+          {
+            "title": "Changing your plan",
+            "href":"/docs/v6/pro/managing_pro/changing_your_plan",
+            "external": false
+          },
+          {
+            "title": "Managing your team",
+            "href":"/docs/v6/pro/managing_pro/managing_your_team",
+            "external": false
+          },
+          {
+            "title": "Managing your billing",
+            "href":"/docs/v6/pro/managing_pro/managing_your_billing",
+            "external": false
+    }
+  ]
+      },
+      {
+        "title": "Integrations",
+        "url_prefix": "integrations",
+        "children": [
+          {
+            "title": "Intro to integrations",
+            "href":"/docs/v6/pro/integrations/intro_integrations",
+            "external": false
+          },
+          {
+            "title": "APIMatic",
+            "href":"/docs/v6/pro/integrations/apimatic",
+            "external": false
+          },
+          {
+            "title": "BigPanda",
+            "href":"/docs/v6/pro/integrations/bigpanda",
+            "external": false
+          },
+          {
+            "title": "Datadog",
+            "href":"/docs/v6/pro/integrations/datadog",
+            "external": false
+          },
+          {
+            "title": "Dropbox",
+            "href":"/docs/v6/pro/integrations/dropbox",
+            "external": false
+          },
+          {
+            "title": "GitHub",
+            "href":"/docs/v6/pro/integrations/github",
+            "external": false
+          },
+          {
+            "title": "GitLab",
+            "href":"/docs/v6/pro/integrations/gitlab",
+            "external": false
+          },
+          {
+            "title": "HipChat",
+            "href":"/docs/v6/pro/integrations/hipchat",
+            "external": false
+          },
+          {
+            "title": "Keen",
+            "href":"/docs/v6/pro/integrations/keen",
+            "external": false
+          },
+          {
+            "title": "Microsoft Flow",
+            "href":"/docs/v6/pro/integrations/microsoft_flow",
+            "external": false
+          },
+          {
+            "title": "Microsoft Teams",
+            "href":"/docs/v6/pro/integrations/microsoft_teams",
+            "external": false
+          },
+          {
+            "title": "PagerDuty",
+            "href":"/docs/v6/pro/integrations/pagerduty",
+            "external": false
+          },
+          {
+            "title": "Slack",
+            "href":"/docs/v6/pro/integrations/slack",
+            "external": false
+          },
+          {
+            "title": "VictorOps",
+            "href":"/docs/v6/pro/integrations/victorops",
+            "external": false
+          }
+        ]
+      },
+      {
+        "title": "API Search",
+        "url_prefix": "searching_APIs",
+  "children":[
+          { 
+            "title": "Searching APIs",
+            "href":"/docs/v6/pro/api_search/searching_apis",
+            "external": false
+           }
+  ]
+       }
+      ]
+  },
+  {
+    "title": "Postman Enterprise",
+    "url_prefix": "enterprise",
+    "children": [
+      {
+        "title": "Intro to Enterprise",
+        "url_prefix": "intro_to_enterprise",
+        "href":"/docs/v6/enterprise/intro_to_enterprise",
+        "external": false
+      },
+      {
+        "title": "Single sign-on (SSO)",
+        "children": [
+          {
+            "title": "Intro to SSO",
+            "href": "/docs/v6/enterprise/sso/intro_sso",
+            "external": false
+          },
+          {
+            "title": "Single sign-on for users",
+            "href": "/docs/v6/enterprise/sso/user_sso",
+            "external": false
+          },
+          {
+            "title": "Single sign-on for admins",
+            "href": "/docs/v6/enterprise/sso/admin_sso",
+            "external": false
+          },
+          {
+            "title": "Setting up custom SAML in Duo",
+            "href": "/docs/v6/enterprise/sso/saml_duo",
+            "external": false
+          },
+          {
+            "title": "Setting up custom SAML in GSuite",
+            "href": "/docs/v6/enterprise/sso/saml_gsuite",
+            "external": false
+          },
+          {
+            "title": "Setting up custom SAML in Okta",
+            "href": "/docs/v6/enterprise/sso/saml_okta",
+            "external": false
+          },
+          {
+            "title": "Setting up custom SAML in Onelogin",
+            "href": "/docs/v6/enterprise/sso/saml_onelogin",
+            "external": false
+          },
+          {
+            "title": "Setting up custom SAML in Ping Identity",
+            "href": "/docs/v6/enterprise/sso/saml_ping",
+            "external": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Postman for Publishers",
+    "url_prefix": "postman_for_publishers",
+    "children": [
+      {
+        "title": "Public API documentation",
+        "url_prefix": "public_api_docs",
+        "href":"/docs/v6/postman_for_publishers/public_api_docs",
+        "external": false
+      },
+      {
+        "title": "Run in Postman",
+        "url_prefix": "run_button",
+        "children": [
+          {
+            "title": "Creating the Run in Postman button",
+            "href": "/docs/v6/postman_for_publishers/run_button/creating_run_button",
+            "external": false
+          },
+          {
+            "title": "Using the Run in Postman button",
+            "href": "/docs/v6/postman_for_publishers/run_button/using_run_button",
+            "external": false
+          },
+          {
+            "title": "Updating collections for Run in Postman",
+            "href": "/docs/v6/postman_for_publishers/run_button/collections_run_button",
+            "external": false
+          },
+          {
+            "title": "Environments in Run in Postman",
+            "href": "/docs/v6/postman_for_publishers/run_button/environments_run_button",
+            "external": false
+          },
+          {
+            "title": "Run button API",
+            "href": "/docs/v6/postman_for_publishers/run_button/run_button_API",
+            "external": false
+          },
+          {
+            "title": "Security considerations",
+            "href": "/docs/v6/postman_for_publishers/run_button/security",
+            "external": false
+          }
         ]
       }
     ]

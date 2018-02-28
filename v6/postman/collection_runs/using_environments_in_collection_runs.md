@@ -2,7 +2,6 @@
 title: "Using environments in collection runs"
 page_id: "using_environments_in_collection_runs"
 warning: false
-
 ---
 
 Environments allow you to create robust requests that can be re-used. Read more about [using variables and environments](/docs/postman/environments_and_globals/variables).

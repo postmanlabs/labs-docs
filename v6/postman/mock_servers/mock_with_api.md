@@ -2,7 +2,6 @@
 title: "Mocking with the Postman API"
 page_id: "mock_with_api"
 warning: false
-
 ---
 
 You can [mock a collection](/docs/postman/mock_servers/setting_up_mock) directly from the Postman app. Additionally, you can create a mock using the Postman API. Let’s walk through this step by step.

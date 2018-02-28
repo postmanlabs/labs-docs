@@ -2,7 +2,6 @@
 title: "Intro to Workspaces"
 page_id: "intro_to_workspaces"
 warning: false
-
 ---
 
 

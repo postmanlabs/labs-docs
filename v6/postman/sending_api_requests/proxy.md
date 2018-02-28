@@ -50,7 +50,7 @@ Use the **system proxy** if all of your applications need to use the same proxy.
 
 To configure the proxy settings, click the wrench icon on the right side of the header toolbar, choose “Settings”, and select the **Proxy** tab.
 
-[![settings modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_settings.png)
+[![settings modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-proxy_settings-a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-proxy_settings-a.png)
 
 ### Using custom proxy
 

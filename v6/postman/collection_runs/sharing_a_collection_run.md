@@ -2,7 +2,6 @@
 title: "Sharing a collection run"
 page_id: "sharing_a_collection_run"
 warning: false
-
 ---
 Sharing a collection run is simple. You just export the collection run from the collection runner and the recipient imports it into their Postman app.
 

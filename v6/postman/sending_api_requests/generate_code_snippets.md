@@ -13,7 +13,7 @@ Once you’ve finalized and saved your request in Postman, you might want to mak
 
 Use the dropdown menu to select a language - some languages have multiple options. This lets you select different frameworks from which to make your request.
 
-[![languages dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58526064.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58526064.png)
+[![languages dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-select-language.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-select-language.png)
 
 ### Supported languages/frameworks
 

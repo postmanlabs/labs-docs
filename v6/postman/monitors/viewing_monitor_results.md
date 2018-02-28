@@ -2,7 +2,6 @@
 title: "Viewing monitor results"
 page_id: "viewing_monitor_results"
 warning: false
-
 ---
 
 You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](/docs/postman/monitors/setting_up_monitor){:target="_blank"} in the settings. 
@@ -15,7 +14,7 @@ In addition, you can receive important notifications (both [in-app](/docs/postm
 
 The [Monitors](https://monitor.getpostman.com/){:target="_blank"} page lists all your monitors (both team and private). 
 
-[![monitors page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)
+[![monitors page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitoring-results-page.png)
 
 You can click a monitor to view more details about its performance and troubleshooting, such as:
 
@@ -33,12 +32,12 @@ Red indicates failing tests. Blue indicates the total response time of all the 
 
 These visuals are a great way to measure performance improvements when you’ve made changes to your infrastructure.
 
-[![monitor perf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-perf-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-perf-page.png)
+[![monitor perf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-perf-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-perf-page.png)
 
 The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"}.
 
-[![monitor perf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-results.png)](
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-results.png)
+[![monitor perf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-results.png)](
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-results.png)
 
 You can also view the log when you click the **Console Log** tab.
 

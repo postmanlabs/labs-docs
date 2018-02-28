@@ -2,7 +2,6 @@
 title: "Intro to scripts"
 page_id: "intro_to_scripts"
 warning: false
-
 ---
 
 ### Scripts in Postman

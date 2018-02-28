@@ -19,7 +19,6 @@ You can create, share, duplicate, export, and delete an environment. You can als
 
 > **Environment and global variables are always stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
-[![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)
 
 ### **Creating a new environment**
 
@@ -28,7 +27,6 @@ You can create a new environment from the:
 * **New** button
 * Launch screen
 
-<br>
 
 #### Manage environments icon
 
@@ -40,30 +38,15 @@ You can create a new environment from the:
   <li>Select “Manage Environments”.</li>
   <li>Click the <b>Add</b> button.</li>
 </ol>
-
-[![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_environ.png)
-
-
+  
 #### New button
 
 1. In the header toolbar, click the **New** button.
+2. Click "Environment" and enter a name for the new environment.
+3. Add the variables you want to save as key-value pairs.
+4. Click the **Add** button.
 
-[![newButton new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
-
-The **Create New** tab appears.
-
-[![create_new](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environment-createNew.png)
-
-<ol start="2">
-  <li>Click "Environment" and enter a name for the new environment.</li>
-  <li>Add the variables you want to save as key-value pairs.</li>
-</ol>
-
-[![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ.png)
-
-<ol start="4">
-  <li>Click the <b>Add</b> button.</li>
-</ol>
+[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-key-value-pairs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-key-value-pairs.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
@@ -100,7 +83,7 @@ To share an environment, click the gear icon in the upper right corner of the Po
 
 In the **Manage Environments** tab, click the **Duplicate Environment** icon next to the environment you want to share.
 
-[![duplicate environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/share_environ.png)
+[![duplicate](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment-1.png)
 
 It's a best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others. 
 
