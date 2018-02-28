@@ -223,7 +223,6 @@ AWS is the authorization workflow for Amazon Work Services requests. AWS users m
 Read more about the AWS Signature on AWS documentation:
 
 * <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html" target="_blank">Signing and Authenticating REST Requests</a>
-
 * <a href="http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html" target="_blank">Use Postman to Call an API</a>
 
 To use AWS authentication:
