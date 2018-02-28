@@ -88,7 +88,7 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears 
 <h4 id="monitors">Creating monitors</h4>
 A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor){:target="_blank"} to run as frequently as every 5 minutes. 
 
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
