@@ -56,8 +56,8 @@ Similarly, if you want to update the authorization for a single request in this 
 If you have a group of requests that all require the same authorization, you can define the authorization for all requests in a collection or folder, or simply for every request individually. If you create a new collection or folder, every subsequent request in the parent element inherits the authorization definition, unless the user explicitly selects another type.
 
 To update the collection or folder authorization, click on the ellipses (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Authorization** tab to select an authorization type from the **TYPE** dropdown. You can also add collection authorization when initially creating the collection.  
- 
-[![select folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-select-folder-basic.png](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-select-folder-basic.png)
+
+[![select folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-select-folder-basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-select-folder-basic.png)
  
 For example, if you create a collection with "Basic Auth", every request within the collection will use the same authorization helper. If you want a specific request in the collection to use a different authorization, or no authorization at all, use the **TYPE** dropdown under the **Authorization** tab to define the authorization helper for the specific request.
  
