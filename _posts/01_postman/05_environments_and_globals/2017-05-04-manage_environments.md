@@ -43,7 +43,8 @@ You can create a new environment from the:
   <li>Click the <b>Add</b> button.</li>
 </ol>
 
-
+<b>
+  
 #### New button
 
 1. In the header toolbar, click the **New** button.
