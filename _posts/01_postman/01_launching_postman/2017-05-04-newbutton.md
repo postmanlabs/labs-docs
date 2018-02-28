@@ -108,7 +108,7 @@ A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodicall
   * Set how frequently the monitor should run. 
   * Select one or more regions of the world from where you want to monitor your results.
     
-  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
+  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-configure-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-configure-1.png)  
  
  <ol start="6">
   <li>Click the <b>Create</b>  button. </li>
