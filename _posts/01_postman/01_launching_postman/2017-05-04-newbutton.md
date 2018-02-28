@@ -116,7 +116,7 @@ A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodicall
 
 In the **Next steps** tab, see a list of suggested next steps to get the most out of your monitor.
     
-  [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
+  [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-next-steps1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-next-steps1.png)    
 
 <h4 id="documentation">Creating documentation</h4>
 You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
@@ -124,7 +124,8 @@ You can create [public or private documentation](/docs/postman/api_documentation
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "API Documentation".
 3. Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.
-[![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
+
+[![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configure-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configure-1.png)
 
 <ol start="4">
   <li>After you select or create the request you want to document, click the <b>Next</b> button.</li>
@@ -134,7 +135,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
 * Enter the name of the documentation.
 * Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
 
-[![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
+[![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configureTab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configureTab-1.png)
 
  <ol start="6">
   <li>Click the <b>Create</b> button.</li>
@@ -142,7 +143,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
      
 In the **Next steps** tab, see a list of suggested next steps to get the most out of your documentation.
 
-[![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
+[![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-nextsteps-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-nextsteps-1.png)
 
 <h4 id="mock_servers">Creating mock servers</h4>
 A [mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
@@ -151,7 +152,7 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} si
 2. In the **Create New** tab, click “Mock Server”.
 3. Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections. 
 
-[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
+[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-config-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-config-1.png) 
 
 <ol start="4">
   <li>After you select or create the request you want to mock, click the <b>Next</b> button.</li>
@@ -164,7 +165,7 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} si
 
 **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits]({{site.pm.gs}}/dashboard/usage){:target="_blank"}.
      
- [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
+ [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-1.png) 
      
 <ol start="6">
   <li>Click the <b>Create</b> button.</li>
@@ -172,7 +173,7 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} si
 
 In the **Next steps** tab, see a list of suggested next steps to get the most out of your mock server.
 
- [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
+ [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-next-steps.png)  
 
 ### Template and API Network tabs
 
@@ -182,7 +183,7 @@ You can select ‘Templates’ to help you: check links, track Github issues, ve
 
 You can view all the templates, or select to view them in the "Developer" or "DevOps" category.
 
-[![templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/templates-tab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/templates-tab.png)
+[![templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-templates-tab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-templates-tab-1.png)
 
 To import a template:
 
@@ -190,7 +191,7 @@ To import a template:
 
 **Note**: Each template has a description that lists the values required to run the template. In this example, the Link Checker template requires a `start_url` and a `root_url`.
 
-[![linkCheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
+[![linkCheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linkchecker-template-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linkchecker-template-1.png)
 
 <ol start="2">
   <li>Click the <b>Use this template</b> button to summon the <b>Customization options</b> screen.</li>
@@ -209,7 +210,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
   <li>Click the <b>Okay</b> button to exit the screen.</li>
 </ol>
 
-[![nextSteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
+[![nextSteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linkchecker-template-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linkchecker-template-1.png)
 
 <h4 id="API_network">API Network</h4>
 
@@ -219,13 +220,13 @@ On the left side of the screen, Postman groups the APIs categories such as Marke
 
 After you select an API from the list, you can import it into your collections.
 
-[![API_network](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)
+[![API_network](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-apiNetwork-tab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-apiNetwork-tab-1.png)
 
 To import an API in the API Network:
 
 1. Click an API in the API Network list. In this example, we're using the Auth0 API.
 
-[![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
+[![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-apiNetwork-authO-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-apiNetwork-authO-1.png)
 
 <ol start="2">
   <li>Click the <b>Run In Postman</b> button to import the the API's collection.</li>
