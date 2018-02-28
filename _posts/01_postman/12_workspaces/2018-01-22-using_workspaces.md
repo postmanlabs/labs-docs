@@ -36,6 +36,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 **Using Workspaces with Postman elements**
 
 * [Adding collections and environments from another Workspace](#adding-collections-and-environments-from-another-workspace)  
+
 * [Publishing collections](#publishing-collections)
 
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
