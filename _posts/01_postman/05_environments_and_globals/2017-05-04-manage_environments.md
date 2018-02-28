@@ -86,7 +86,7 @@ To share an environment, click the gear icon in the upper right corner of the Po
 
 In the **Manage Environments** tab, click the **Duplicate Environment** icon next to the environment you want to share.
 
-[![duplicate](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment.png)
+[![duplicate](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment-1.png)
 
 It's a best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others. 
 
