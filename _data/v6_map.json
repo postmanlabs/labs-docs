@@ -279,37 +279,7 @@
           }
         ]
       },
-      {
-        "title": "Team Library",
-        "url_prefix": "team_library",
-        "children": [
-          {
-            "title": "Setting up a Team Library",
-            "href": "/docs/v6/postman/team_library/setting_up_team_library",
-            "external": false
-          },
-          {
-            "title": "Sharing",
-            "href": "/docs/v6/postman/team_library/sharing",
-            "external": false
-          },
-          {
-            "title": "Activity feed and restoring collections",
-            "href": "/docs/v6/postman/team_library/activity_feed_and_restoring_collections",
-            "external": false
-          },
-          {
-            "title": "Searching",
-            "href": "/docs/v6/postman/team_library/searching",
-            "external": false
-          },
-          {
-            "title": "Conflicts",
-            "href": "/docs/v6/postman/team_library/conflicts",
-            "external": false
-          }
-        ]
-      },
+     
       {
         "title": "API documentation",
         "url_prefix": "api_documentation",
