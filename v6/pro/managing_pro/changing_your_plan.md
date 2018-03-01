@@ -88,7 +88,7 @@ In the dropdown menu, you can select “Continue on the same plan”, “Switch 
 
 * If you select “Cancel plan”, indicate why you want to cancel. 
 
-[![cancel survey](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelPlan-survey-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelPlan-survey-annual.png)
+[![cancel survey](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-cancel-current-plan.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-cancel-current-plan.png)
 
 After you make your selection, save your changes.
 
