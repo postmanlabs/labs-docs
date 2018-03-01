@@ -76,7 +76,7 @@ Click the ellipses (...) next to the **Add User Slots** button, and then select 
 
 In the Instructions page, click the **Edit Standing Instructions** button.
 
-[![annual set instructions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setInstructions-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setInstructions-annual.png)
+[![annual set instructions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-setInstructions-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-setInstructions-annual.png)
 
 In the dropdown menu, you can select “Continue on the same plan”, “Switch plan”, or “Cancel plan”.
 
