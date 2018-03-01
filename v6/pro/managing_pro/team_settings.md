@@ -32,7 +32,7 @@ In the Custom Domains settings, you can add a new domain for others to access yo
 
 Click the **Add a new domain** button and enter the URL of the domain you want to add. 
 
-[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-customDomain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-customDomain.png)
+[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-customDomain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-customDomain.png)
 
 Next enter the TXT and CNAME settings to the specified domain for verification and verify the domain.
 
