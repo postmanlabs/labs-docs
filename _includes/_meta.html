@@ -18,8 +18,6 @@
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.0/dist/instantsearch.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.0/dist/instantsearch-theme-algolia.min.css">
 
-  <link rel="stylesheet" href="/docs/assets/css/docs.css" />
-
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -28,6 +26,42 @@
   <![endif]-->
 
   <style>
+
+      .pm-sidebar-main-nav .version-selector {
+        display: none;
+        /*display: block; uncomment this when we are ready for versioning*/
+        line-height: 64px;
+        padding-left: 42px;
+        position: relative;
+        cursor: pointer;
+        font-weight: 400;
+        margin-top: 24px;
+        margin-bottom: 25px;
+      }
+
+      .header-container .logo-container-new {
+        background: url(https://www.getpostman.com/img/v2/logo-orange.svg) left center/152px 56px no-repeat;
+      }
+
+      .header-container .version-selector {
+        display: none;
+        /*display: inline-block; uncomment this when we are ready for versioning*/
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 24px;
+      }
+
+      @media (max-width: 992px) {
+        .header-container .version-selector {
+          display: none;
+        }
+      }
+
+      .navigation-container ul {
+        padding-left: 0;
+      }
+
+
 
       .doc-search a {
         text-decoration: none;
