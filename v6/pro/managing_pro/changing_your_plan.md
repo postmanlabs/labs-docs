@@ -80,7 +80,7 @@ In the Instructions page, click the **Edit Standing Instructions** button.
 
 In the dropdown menu, you can select “Continue on the same plan”, “Switch plan”, or “Cancel plan”.
 
-[![dropdown set instructions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setInstructions-dropdown-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setInstructions-dropdown-annual.png)
+[![dropdown set instructions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-setInstructions-dropdown-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-setInstructions-dropdown-annual.png)
 
 * If you select “Continue on the same plan”, click the **Save Changes** button.
 
