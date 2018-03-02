@@ -52,7 +52,7 @@ Click the **Add a new authentication** method button to summon the Add Authentic
 
 Select an authentication type and enter an authentication name.
 
-[![add auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSettings-addAuthMeth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSettings-addAuthMeth.png)
+[![add auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSettings-addAuthMeth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSettings-addAuthMeth.png)
 
 Click the **Proceed** button to configure the identity of your provider.
 
