@@ -21,7 +21,7 @@ You can use Markdown to style descriptions for collections and folders.
 **Public or internal API documentation**
 
 Public or internal [API documentation](/docs/postman/api_documentation/intro_to_api_documentation) can automatically generate API descriptions. You can use Markdown to style those descriptions. 
-[![automatically generated documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-auto-docs.png)
+[![automatically generated documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-auto-docs.png)
 
 ### Descriptions for request attributes
 
