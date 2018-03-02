@@ -106,7 +106,7 @@ You can customize your Postman account with a profile picture, which will show y
 
 The image you selected appears as your profile image.
 
-[![upload complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1.png)
+[![upload complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1-a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1-a.png)
 
 
 
