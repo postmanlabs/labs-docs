@@ -36,7 +36,7 @@ Click the **Add a new domain** button and enter the URL of the domain you want t
 
 Next enter the TXT and CNAME settings to the specified domain for verification and verify the domain.
 
-[![verify custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-verifyCustomDomain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-verifyCustomDomain.png)
+[![verify custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-verifyCustomDomain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-verifyCustomDomain.png)
 
 You can see your domain in the Custom Domain list.
 
