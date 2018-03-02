@@ -14,7 +14,7 @@ In [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_bl
 
 In the Add Authentication Method page, select the "Authentication Type" and "Authentication Name", and then click the **Proceed** button.
 
-[![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-1.png)
+[![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)
 
 
 select an authentication provider, or Identity Provider (IdP), from the dropdown.
