@@ -16,14 +16,15 @@ In the Add Authentication Method page, select the "Authentication Type" and "Aut
 
 [![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)
 
+In the "Service Provider Details (Postman)", enter the "Entity ID", "Login URL", and "ACS URL". 
 
-select an authentication provider, or Identity Provider (IdP), from the dropdown.
+In "Identity Provider Details", enter the Identity Provider Details, Identity Provider Issuer, and X.509 Certficate information. Click the **Generate relay state** button to create a parameter to send with a SAML response in an IDP-initiated single sign on.
 
+You can select to automatically add new users to your team using this authentication method.
 
+[![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
 
-Enter details as required to create an authentication.
-
-
+You can either click the **Configure Later** button to complete the configuration later, or click the **Save Authentication** button to complete the process.
 
 ### Managing user accounts
 
