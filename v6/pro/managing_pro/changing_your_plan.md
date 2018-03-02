@@ -96,7 +96,7 @@ After you make your selection, save your changes.
 
 Click the ellipses (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
 
-[![cancel survey](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelSetInstruction-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelSetInstruction-annual.png)
+[![cancel survey](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-cancelSetInstruction-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-cancelSetInstruction-annual.png)
 
 In the Cancel Plan page, indicate why you want to cancel. Then click the **Cancel Current Plan** button, or even better, click the **I’ve changed my mind** button.
 
