@@ -102,6 +102,8 @@ You can customize your Postman account with a profile picture, which will show y
   <li>Upload or drag and drop the image you want for your profile from your computer and click the <b>Upload</b> button</li>
 </ol>
 
+[![upload](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-upload-image1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-upload-image1.png)
+
 The image you selected appears as your profile image.
 
 [![upload complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1.png)
