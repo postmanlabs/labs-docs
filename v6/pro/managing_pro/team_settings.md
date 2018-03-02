@@ -56,7 +56,7 @@ Select an authentication type and enter an authentication name.
 
 Click the **Proceed** button to configure the identity of your provider.
 
-[![config ID provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-configIDProvider.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-configIDProvider.png)
+[![config ID provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-configIDProvider.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-configIDProvider.png)
 
 Add the information in the "Service Provider Details (Postman)" section into your Identity Provider's SSO form and use the generated URLs and certificate to fill in the details for identity provider.
 
