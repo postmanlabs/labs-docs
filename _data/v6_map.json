@@ -606,11 +606,6 @@
             "href": "/docs/v6/enterprise/intro_sso",
             "external": false
           },
-	  {
-	"title": "Audit logs",
-	"href": "/docs/v6/enterprise/audit_logs",
-	"external": false
-          },
           {
             "title": "Single sign-on for users",
             "href": "/docs/v6/enterprise/sso/user_sso",
