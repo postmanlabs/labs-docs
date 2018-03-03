@@ -18,22 +18,22 @@ Here's a list of events that are currently logged:
 | Action name  |   Human readable name     | Description         |
 | ---   |   ---     | ---   |
 |team.add_domain  |Added Domain    | x  |
-|team.add_member  | x   | x  |
-|team.cancel_invite  |  x    | x  |
-|team.customauth.create   |   x   | x  |
-|team.customauth.disable   |  x     | x  |
-|team.customauth.enable  |  x    | x  |
-|team.customauth.remove  |  x    | x  |
-|team.customauth.update  |  x    | x  |
-|team.decrease_size  |  x    | x  |
-|team.delete_domain  |  x    | x  |
-|team.increase_size  |  x    | x  |
-|team.modify_future_plan |  x    | x  |
-|team.name_updated  |  x    | x  |
-|team.remove_member  |  x    | x  |
-|team.retry_invoice_success |  x    | x  |
-|team.send_invite  |  x    | x  |
-| team.start_enterprise  |  x    | x  |
-|team.update_domain_verification  |  x    | x  |
-|team.update_user_roles  |  x    | x  |
-|team.url_updated  |  x    | x  |
+|team.add_member  |Added Member   | x  |
+|team.cancel_invite  |Cancelled Invite    | x  |
+|team.customauth.create   |Custom auth scheme created   | x  |
+|team.customauth.disable   |Custom auth scheme disabled     | x  |
+|team.customauth.enable  |Custom auth scheme enabled    | x  |
+|team.customauth.remove  |Custom auth scheme removed    | x  |
+|team.customauth.update  |Custom auth scheme updated   | x  |
+|team.decrease_size  |Decreased Team Size   | x  |
+|team.delete_domain  |Deleted Domain    | x  |
+|team.increase_size  |Increased Team Size    | x  |
+|team.modify_future_plan |Set Instructions For Next Billing Cycle    | x  |
+|team.name_updated  |Team name changed    | x  |
+|team.remove_member  |Removed Member    | x  |
+|team.retry_invoice_success |	Successfully Retried Invoice    | x  |
+|team.send_invite  |Sent Invite    | x  |
+| team.start_enterprise  |Started Pro    | x  |
+|team.update_domain_verification  |	Updated domain verification    | x  |
+|team.update_user_roles  |Updated User Roles    | x  |
+|team.url_updated  |Team URL changed    | x  |
