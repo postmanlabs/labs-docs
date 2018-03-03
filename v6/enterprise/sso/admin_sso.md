@@ -18,7 +18,7 @@ In the Add Authentication Method page, select the "Authentication Type" and "Aut
 
 In the "Service Provider Details (Postman)", enter the "Entity ID", "Login URL", and "ACS URL". 
 
-In "Identity Provider Details", enter the Identity Provider Details, Identity Provider Issuer, and X.509 Certficate information. Click the **Generate relay state** button to create a parameter to send with a SAML response in an IDP-initiated single sign on.
+In "Identity Provider Details", enter information for: "Identity Provider Details", "Identity Provider Issuer", and "X.509 Certficate". Click the **Generate relay state** button to create a parameter to send with a SAML response in an IDP-initiated single sign on.
 
 You can select to automatically add new users to your team using this authentication method.
 
