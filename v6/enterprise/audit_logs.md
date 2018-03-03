@@ -15,7 +15,7 @@ published, and API Keys / monitors created will soon be added to this list.
 Here's a list of events that are currently logged:
 
 
-| Action name  |   Human readable name     | Description         |
+| Action name  |   Human readable name        | Description         |
 | ---   |   ---     | ---   |
 |team.add_domain  |Added Domain    | A custom domain was added to your team                                                                      |
 |team.add_member  |Added Member   |	A user joined your team  |
