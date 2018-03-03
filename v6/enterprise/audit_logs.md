@@ -17,7 +17,7 @@ Here's a list of events that are currently logged:
 
 | Action name  |   Human readable name     | Description         |
 | ---   |   ---     | ---   |
-|team.add_domain  |  x    | x  |
+|team.add_domain  |Added Domain    | x  |
 |team.add_member  | x   | x  |
 |team.cancel_invite  |  x    | x  |
 |team.customauth.create   |   x   | x  |
