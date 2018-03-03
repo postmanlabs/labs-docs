@@ -594,6 +594,12 @@
         "external": false
       },
       {
+				"title": "Audit logs",
+				"href": "/docs/v6/enterprise/sso/audit_logs",
+				"external": false
+			},
+      
+      {
         "title": "Single sign-on (SSO)",
         "children": [
           {
