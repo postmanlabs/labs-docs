@@ -41,7 +41,7 @@ Click the "Add Service" link at the bottom of the page to create a new service.
   <li>Click the <b>View Details</b> button to see information about PagerDuty. </li>
 </ol>
 
-[![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-details.png)
+[![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-pagerduty-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-pagerduty-details.png)
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for PagerDuty, or view all integrations.
 
@@ -56,7 +56,7 @@ To add a team activity feed to PagerDuty:
 2. In the **Team Activity Feed** page, choose the Monitor you want to send to PagerDuty.
 3. Enter your Pagerduty Integration Key and click the **Add Integration** button.
 
-[![pagerduty monrun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-monrun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty-monrun.png)
+[![pagerduty monrun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-pagerduty-monrun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-pagerduty-monrun.png)
 
 
 ### Viewing PagerDuty results
