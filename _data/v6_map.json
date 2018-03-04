@@ -1,7 +1,7 @@
 [
   {
     "title": "Postman", 
-    "url_prefix": "postman", BrAVE
+    "url_prefix": "postman", 
     "children": [
       {
         "title": "Launching Postman",
