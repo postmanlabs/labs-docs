@@ -29,11 +29,11 @@ Click the **View Details** button to see information about Keen IO.
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Keen IO, or view all integrations.
 
-[![keen details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_Keen_details2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_Keen_details2.png)
+[![keen details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_Keen_details2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_Keen_details2.png)
 
 Click the **Add Integration** button to connect Keen IO to Postman Monitors for API-based computation, S3 backups, and building visualizations in the **Send Monitor Run Results** page. 
 
-[![keen results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-keen-sendMonRun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-keen-sendMonRun.png)
+[![keen results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-keen-sendMonRun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-keen-sendMonRun.png)
 
 To connect Keen IO to Postman monitors:
 * Select a monitor.
