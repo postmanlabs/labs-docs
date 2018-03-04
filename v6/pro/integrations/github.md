@@ -23,21 +23,21 @@ Back up and synchronize your Postman Collections on GitHub, the largest host of 
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Github, or view all integrations.
 
-[![select github integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-github-configIntegrations1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-github-configIntegrations1.png)
+[![select github integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-github-configIntegrations1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-github-configIntegrations1.png)
 
 <ol start="3">
   <li>Click the <b>Add Integration</b> button to authorize a backup of your Postman collections. 
 </li>
 </ol>
 
-[![github integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-github-backup.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-github-backup.png)
+[![github integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-github-backup.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-github-backup.png)
 
 <ol start="4">
   <li>Click the <b>Authorize</b> button to configure your backup. 
 </li>
 </ol>
 
-[![github integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-github-authorized1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-github-authorized1.png)
+[![github integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-github-authorized1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-github-authorized1.png)
 
 <ol start="5">
   <li>In the page to authorize the backup:
