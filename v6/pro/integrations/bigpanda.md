@@ -51,57 +51,31 @@ The generated App Key displays.
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
 
-[![bigpanda integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_bigPanda_details2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_bigPanda_details2.png)
+3. Click the <b>Add Integration</b> button to display the <b>Send Monitor Run Results</b> modal.
 
-<ol start="3">
-  <li>Click the <b>Add Integration</b> button to display the <b>Send Monitor Run Results</b> modal. 
-</li>
-</ol>
-
-[![bigpanda integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_BigPanda_sendMonitor1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_BigPanda_sendMonitor1.png)
-
-<ol start="4">
-  <li>
-In the <b>Send Monitor Run Results</b> page: 
-</li>
-</ol>
+4. In the **Send Monitor Run Results** page:
 
 * Select a monitor to send to BigPanda.
 * Enter the BigPanda app key.
 * Enter the API token for the app.
-
-<ol start="5">
-  <li>
-    Click the <b>Add Integration</b> button. 
-</li>
-</ol>
 
 You can send the results of multiple monitors to the same BigPanda collection.
 
 ### Viewing alerts in BigPanda
 
-<ol start="1">
-  <li>Click the <b>View Details</b> button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors. 
-</li>
-</ol>
+1. Click the **View Details** button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors. 
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
 
-<ol start="2">
-  <li>Click the <b>Add Integration</b> button to display the <b>Send Monitor Run Results</b> box. 
-  <li>In the <b>Send Monitor Run Results</b> page: </li>
-</ol>
+2. Click the <b>Add Integration</b> button to display the <b>Send Monitor Run Results</b> box.
+
+3. In the **Send Monitor Run Results** page:
 
 * Select a monitor to send to BigPanda.
 * Enter the BigPanda app key.
 * Enter the API token for the app.
 
-
-<ol start="4">
-  <li>
-    Click the <b>Add Integration</b> button. 
-</li>
-</ol>
+4. Click the **Add Integration** button. 
 
 You can send the results of multiple monitors to the same BigPanda collection.
 
