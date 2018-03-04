@@ -19,7 +19,7 @@ After you set up the integration, you can view real-time alerts based on the res
 
 1. Log in to your [BigPanda](https://bigpanda.io/){:target="_blank"} account and select "Integrations" in the header toolbar, then click the **New Integration** button.
 
-[![bigpanda integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda-integrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda-integrations.png)
+[![bigpanda integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_bigPanda_details2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations_bigPanda_details2.png)
 
 <ol start="2">
   <li>Click "Alerts REST API" and then click the <b>Integrate</b> button.</li>
