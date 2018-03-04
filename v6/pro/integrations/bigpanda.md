@@ -89,15 +89,7 @@ You also can click the **Configured Integrations** tab to set up other integrati
 
 <ol start="2">
   <li>Click the <b>Add Integration</b> button to display the <b>Send Monitor Run Results</b> box. 
-</li>
-</ol>
-
-[![bigpanda integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_BigPanda_sendMonitor1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_BigPanda_sendMonitor1.png)
-
-<ol start="3">
-  <li>
-In the <b>Send Monitor Run Results</b> page: 
-</li>
+  <li>In the <b>Send Monitor Run Results</b> page: </li>
 </ol>
 
 * Select a monitor to send to BigPanda.
