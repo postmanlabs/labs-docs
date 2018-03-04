@@ -76,7 +76,6 @@ In the <b>Send Monitor Run Results</b> page:
 </li>
 </ol>
 
-
 You can send the results of multiple monitors to the same BigPanda collection.
 
 ### Viewing alerts in BigPanda
@@ -87,8 +86,6 @@ You can send the results of multiple monitors to the same BigPanda collection.
 </ol>
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
-
-[![bigpanda integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_bigPanda_details2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_bigPanda_details2.png)
 
 <ol start="2">
   <li>Click the <b>Add Integration</b> button to display the <b>Send Monitor Run Results</b> box. 
@@ -113,7 +110,6 @@ In the <b>Send Monitor Run Results</b> page:
     Click the <b>Add Integration</b> button. 
 </li>
 </ol>
-
 
 You can send the results of multiple monitors to the same BigPanda collection.
 
