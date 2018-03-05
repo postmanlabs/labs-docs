@@ -1,4 +1,3 @@
-
 ---
 title: "Configuring Microsoft ADFS with Postman SSO"
 page_id: "configuring_microsoft_adfs_with_postman_sso"
