@@ -6,9 +6,9 @@ tags:
 warning: false
 ---
 
-Audit logs is an Enterprise-only feature that lists team events, which admin users caqn use to identify changes to the team composition or team settings. 
+Audit logs, an Enterprise-only feature, lists team events that admins can use to identify changes to the team composition or team settings. 
 
-Audit logs show the user who performed the action, and the time of occurrence. 
+Audit logs identifies which users performed a specific action, and the time that action occurred. 
 
 Audit logs currently include events around team management, billing, and security. More events like documentation being 
 published, and API Keys / monitors created will soon be added to this list.
