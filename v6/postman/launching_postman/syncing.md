@@ -62,4 +62,4 @@ If you have a Postman account, are not currently part of a paid Postman Pro or E
 
 Otherwise, you can contact us at [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
 
-[![delete account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/syncing-deleteAccount.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/syncing-deleteAccount.png)
+[![delete account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-syncing-deleteAccount.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-syncing-deleteAccount.png)

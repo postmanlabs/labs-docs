@@ -36,13 +36,13 @@ Save the generated token to use later.
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Gitlab, or view all integrations.
 
-[![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-configIntegrations1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-configIntegrations1.png)
+[![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-configIntegrations1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-configIntegrations1.png)
 
 <ol start="3">
   <li>Click the <b>Add Integration</b> button to enter your Gitlab token to start the integration.</li>
 </ol>
 
-[![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-token1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-token1.png)
+[![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-token1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-token1.png)
 
 <ol start="4">
   <li>
@@ -60,7 +60,7 @@ Your Collection is pushed to your GitLab project under the filename that you spe
 
 Now every change that is saved to your Postman Collection automatically commits changes to your GitLab project in real time. Your Collections and code can exist in the same repository.
 
-[![backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-backupPostToken2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-backupPostToken2.png)
+[![backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-backupPostToken2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-backupPostToken2.png)
 
 In "Advanced Options" you can enter a custom directory name or leave "Postman Collections" as the default. You can specify a branch for commit or the default branch of the repository will be used.
 

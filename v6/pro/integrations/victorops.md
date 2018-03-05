@@ -44,11 +44,11 @@ Click the **View Details** button to see information about VictorOps and how y
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for VictorOps, or view all integrations.
 
-[![victorOps details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-details-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-details-page.png)
+[![victorOps details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-victorOps-details-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-victorOps-details-page.png)
 
 Click the **Add Integration** button to display the "Send Monitor Run Results" modal.
 
-[![victorOps mon run](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-mon-run.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-mon-run.png)
+[![victorOps mon run](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-victorOps-mon-run.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-victorOps-mon-run.png)
 
 In the **Send Monitor Run Results** page:
 

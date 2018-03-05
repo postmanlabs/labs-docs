@@ -33,7 +33,7 @@ Click the <b>View Details</b> button to see information about Datadog and how it
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Datadog, or view all integrations.
 
-[![datadog integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-datadog-configIntegrations1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-datadog-configIntegrations1.png)
+[![datadog integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-datadog-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-datadog-config.png)
 
 <ol start="3">
   <li>

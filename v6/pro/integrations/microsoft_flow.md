@@ -20,7 +20,7 @@ Click the **View Details** button to see information about HipChat.
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Microsoft Flow, or view all integrations.
 
-[![microsoft_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)  
+[![microsoft_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)  
 
 
 #### Add a team activity feed to Microsoft Flow
@@ -32,7 +32,7 @@ To add a team activity feed to Microsoft Flow:
 2. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
 3. Click the **Add Integration** button.
 
-[![microsoft_team_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msFlow-teamactivityfeed.png) 
+[![microsoft_team_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png) 
 
 #### Back up your Postman Collections in Microsoft Flow
 It’s important to back up your Postman Collections for safekeeping. Microsoft Flow helps you do this with services like Box (a cloud-based storage solution), but you can also use it to backup to your custom DB2 instance.
@@ -47,7 +47,7 @@ To back up your Postman Collections in Microsoft Flow:
 3. Click the **Add Integration** button.
 
 
-[![microsoft_flow_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msFlow-backupcollections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msFlow-backupcollections.png)
+[![microsoft_flow_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msFlow-backupcollections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msFlow-backupcollections.png)
 
 #### See collection activity feed in Microsoft Flow
 The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
@@ -67,7 +67,7 @@ To send monitor run results to Microsoft Flow:
 2. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Flow. 
 3. Click the **Add Integration** button.
 
-[![microsoft_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-monitorrunresults1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-monitorrunresults1.png) 
+[![microsoft_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png) 
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 

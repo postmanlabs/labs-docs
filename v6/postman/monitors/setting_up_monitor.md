@@ -107,7 +107,7 @@ The **Create New** tab appears by default when you launch Postman.
   <li>In the <b>Create Monitor</b> modal, select a collection, schedule the frequency of the run, enter a monitor name, select the environment, and select the regions of the world from where you want to monitor your results. For more information on how to schedule a monitor, see the "Monitoring schedule and region" section below.</li>
 </ol>
 
-[![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-monitor-web.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-monitor-web.png)
+[![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-monitor-web-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-monitor-web-1.png)
 
 You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. 
 

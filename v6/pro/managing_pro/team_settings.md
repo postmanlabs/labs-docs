@@ -32,11 +32,11 @@ In the Custom Domains settings, you can add a new domain for others to access yo
 
 Click the **Add a new domain** button and enter the URL of the domain you want to add. 
 
-[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-customDomain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-customDomain.png)
+[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-customDomain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-customDomain.png)
 
 Next enter the TXT and CNAME settings to the specified domain for verification and verify the domain.
 
-[![verify custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-verifyCustomDomain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-verifyCustomDomain.png)
+[![verify custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-verifyCustomDomain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-verifyCustomDomain.png)
 
 You can see your domain in the Custom Domain list.
 
@@ -52,11 +52,11 @@ Click the **Add a new authentication** method button to summon the Add Authentic
 
 Select an authentication type and enter an authentication name.
 
-[![add auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSettings-addAuthMeth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSettings-addAuthMeth.png)
+[![add auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSettings-addAuthMeth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSettings-addAuthMeth.png)
 
 Click the **Proceed** button to configure the identity of your provider.
 
-[![config ID provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-configIDProvider.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-configIDProvider.png)
+[![config ID provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-configIDProvider.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-teamSetting-configIDProvider.png)
 
 Add the information in the "Service Provider Details (Postman)" section into your Identity Provider's SSO form and use the generated URLs and certificate to fill in the details for identity provider.
 

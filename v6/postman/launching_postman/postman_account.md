@@ -63,7 +63,7 @@ To switch back to your previous account, click on the account user name in the d
 
 4. To switch back to your previous account, click on the account user name in the drop down menu.
 
-[![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard.png.png)
+[![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-2.png)
 
 
 ### Security policies and standards
@@ -80,14 +80,14 @@ You can recover your username or reset your password from the [**Sign In**](http
 
 1. In the Sign In page, click “Trouble signing in?”.
 
-[![signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)
+[![signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-SignInPage1-a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-SignInPage1-a.png)
 
 <ol start="2">
   <li>In the Trouble signing in? page, enter your email address and click the <b>Submit</b> button.
    Check your email for instructions to recover your username or password.</li>
   </ol>
 
-[![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)
+[![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-signIn_trouble.png)
 
 ### Adding your profile image
 
@@ -95,18 +95,18 @@ You can customize your Postman account with a profile picture, which will show y
 
 1.In your [Profile and Account](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"}  page, hover over the image icon to display a Pencil (edit) icon.
 
-[![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)
+[![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-account-page2.png)
 
   <ol start="2">
   <li>Click the Pencil icon.</li>
   <li>Upload or drag and drop the image you want for your profile from your computer and click the <b>Upload</b> button</li>
 </ol>
 
-[![upload](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upload-image1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upload-image1.png)
+[![upload](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-upload-image1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-upload-image1.png)
 
 The image you selected appears as your profile image.
 
-[![upload complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-pic-complete1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-pic-complete1.png)
+[![upload complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1-a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1-a.png)
 
 
 
