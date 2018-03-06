@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-Audit logs, an Enterprise-only feature, lists team events that admins can use to identify changes to the team composition or team settings. 
+Audit logs, an Enterprise-only feature, lists all team events. Admins can use this list to identify changes to the team composition or team settings. For example, an admin can use an audit log identify user actions they performed and specify  when they performed the action.
 
 Audit logs identifies which users performed a specific action, and the time that action occurred. 
 
@@ -14,11 +14,13 @@ Audit logs currently include events around team management, billing, and securit
 published, and API Keys / monitors created will soon be added to this list.
 
 
+
+
 Here's a list of events that are currently logged:
 
 
 | Action name  |   Human readable name        | Description         |
-| ---   |   ---     | ---------------------   |
+| ---   |   ---    ---------------------   |
 |team.add_domain  |Added Domain    | A custom domain was added to your team                                                                      |
 |team.add_member  |Added Member   |	A user joined your team  |
 |team.cancel_invite  |Cancelled Invite    | An invitation for a user was cancelled  |
