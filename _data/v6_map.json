@@ -603,7 +603,7 @@
         "children": [
           {
             "title": "Intro to SSO",
-            "href": "/docs/v6/enterprise/intro_sso",
+            "href": "/docs/v6/enterprise/sso/intro_sso",
             "external": false
           },
           {
