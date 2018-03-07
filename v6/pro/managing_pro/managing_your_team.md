@@ -51,7 +51,7 @@ An invite is an invitation you send to people you want to add to a team. Only ad
 
 In the [Team page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, click the **Invite Users** button. 
 
-Enter the email address of the user you want to invite, and click the **Invite Users** button. Then click the **Invite Users** button to complete the process.
+Enter the email address of the user you want to invite, and click the **Invite Users** to complete the process.
 
  [![invite users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users3.png)
 
