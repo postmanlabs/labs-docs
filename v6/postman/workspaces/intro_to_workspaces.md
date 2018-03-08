@@ -11,7 +11,7 @@ Workspaces is a collaborative environment for a group of users to develop and te
 
 [![WS_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)
 
-Regardless of the type of workspace, you can share elements in specific teams and mulitiple workspaces at the same time. We define elements in Postman as Collections, Monitors, Documentation, Mocks, Environments, and Integrations.
+Regardless of the type of workspace, you can share elements in specific teams and multiple workspaces at the same time. We define elements in Postman as Collections, Monitors, Documentation, Mocks, Environments, and Integrations.
 
 **Personal workspaces**
 
