@@ -33,8 +33,7 @@ As a Postman Pro or Enterprise user, you can create team workspaces for ongoing 
 Postman Pro and Enterprise teams receive two free support accounts. Support account users can’t access team elements, but they can manage team administrative activities, such as billing or invoices. Also support account users can [create personal workspaces]()
 
 
-
-### Why use Workspaces?
+### Why use workspaces?
 
 We designed workspaces to help better organize collections when you collaborate with others. Let's examine a typical scenario of how workspaces makes collaboration in Postman easier.
 
