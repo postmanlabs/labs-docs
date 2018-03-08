@@ -7,7 +7,7 @@ warning: false
 
 ### What is a workspace?
 
-A workspace is a collaborative environment for a group of users to develop and test APIs. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces. 
+Workspaces is a collaborative environment for a group of users to develop and test APIs. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces. 
 
 [![WS_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)
 
