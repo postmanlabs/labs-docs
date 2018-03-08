@@ -14,6 +14,13 @@ Audit logs is an Enterprise-only feature that lists important team events. An ad
 
 Audit logs currently include events for team management, billing, and security. In the future, we'll enable events for publishing documentation, creating API keys and creating monitors.
 
+Using audit logs
+
+In your Enterprise workspace, click the Settings icon (above the arrow) [![menu to audit logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-menu2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-menu2.png)and select "Audit logs".
+
+
+
+
 The table below lists currently logged events.  
 
 
