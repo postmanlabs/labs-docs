@@ -12,7 +12,7 @@ Only an Enterprise team administrator can configure SSO for a Postman team.
 
 In [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} for an enterprise plan, scroll down and click the **Add a new authentication method** button.
 
-In the Add Authentication Method page, select the type and name of the authentication, and then click the **Proceed** button.
+In the **ADD AUTENTICATION METHOD** modal, select the type and name of the authentication, and then click the **Proceed** button.
 
 [![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)
 
