@@ -12,13 +12,17 @@ Only a team admin can configure SSO for a Postman Team.
 
 In [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} for an enterprise plan, scroll down and click the **Add a new authentication method** button.
 
-In the Add Authentication Method page, select the "Authentication Type" and "Authentication Name", and then click the **Proceed** button.
+In the Add Authentication Method page, select the type and name of the authentication, and then click the **Proceed** button.
 
 [![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)
 
-In the "Service Provider Details (Postman)", enter the "Entity ID", "Login URL", and "ACS URL". 
+In the "Service Provider Details (Postman)", enter the an ID for the entity, and the URL for the login and ACS.
+ 
+In "Identity Provider Details", enter details for the identity provider
 
-In "Identity Provider Details", enter information for: "Identity Provider Details", "Identity Provider Issuer", and "X.509 Certficate". 
+
+
+information for: "Identity Provider Details", "Identity Provider Issuer", and "X.509 Certficate". 
 
 Click the **Generate relay state** button to create a parameter to send with a SAML response in an IDP-initiated single sign on.
 
