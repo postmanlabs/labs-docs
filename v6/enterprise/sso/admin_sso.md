@@ -16,7 +16,7 @@ In the Add Authentication Method page, select the type and name of the authentic
 
 [![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)
 
-In the "Service Provider Details (Postman)", enter the an ID for the entity, and the URL for the login and ACS.
+In the "Service Provider Details (Postman)", enter the ID for the entity, and the URLs for the login and ACS.
  
 In "Identity Provider Details", enter URLs for the "Identity Provider Details" and "Identity Provider Issuer". Next provide your authentication certficate from your identity provider in "X.509 Certficate".
 
