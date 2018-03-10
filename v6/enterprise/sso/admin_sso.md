@@ -8,7 +8,7 @@ warning: false
 
 ### Setting up SSO
 
-Only a team admin can configure SSO for a Postman Team.
+Only a team administrator can configure SSO for a Postman Team.
 
 In [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} for an enterprise plan, scroll down and click the **Add a new authentication method** button.
 
