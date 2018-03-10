@@ -20,7 +20,7 @@ In the "Service Provider Details (Postman)", enter the ID for the Entity, and th
  
 In "Identity Provider Details", enter URLs in "Identity Provider Details" and "Identity Provider Issuer". Next provide your authentication certficate from your identity provider in "X.509 Certficate".
 
-Click the **Generate relay state** button to create a parameter to send with a SAML response in an IDP-initiated single sign on. 
+Click the **Generate relay state** button to create a parameter to send with a SAML response in an IdP-initiated single sign on. 
 
 Click the checkbox to automatically use this authentication method when the team adds new users.
 
