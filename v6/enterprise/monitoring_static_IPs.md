@@ -17,4 +17,5 @@ In your Enterprise dashboard, click “Monitors” at the top of the page.
 
 Click the **Monitor a collection** button. 
 
+
 In the CREATE A MONITOR modal, enter and select the appropriate information, and then click US (Static IP) to monitor static IPs.
