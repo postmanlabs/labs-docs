@@ -18,15 +18,9 @@ In the Add Authentication Method page, select the type and name of the authentic
 
 In the "Service Provider Details (Postman)", enter the an ID for the entity, and the URL for the login and ACS.
  
-In "Identity Provider Details", enter URLs for the "Identity Provider Details" and "Identity Provider Issuer".
+In "Identity Provider Details", enter URLs for the "Identity Provider Details" and "Identity Provider Issuer". Next provide your authentication certficate from your identity provider in "X.509 Certficate".
 
-
-
-information for: "Identity Provider Details", "Identity Provider Issuer", and "X.509 Certficate". 
-
-Click the **Generate relay state** button to create a parameter to send with a SAML response in an IDP-initiated single sign on.
-
-You can select to automatically add new users to your team using this authentication method.
+Click the **Generate relay state** button to create a parameter to send with a SAML response in an IDP-initiated single sign on. You can select to automatically add new users to your team using this authentication method.
 
 [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
 
