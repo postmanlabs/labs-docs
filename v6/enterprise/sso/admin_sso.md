@@ -18,7 +18,7 @@ In the Add Authentication Method page, select the type and name of the authentic
 
 In the "Service Provider Details (Postman)", enter the an ID for the entity, and the URL for the login and ACS.
  
-In "Identity Provider Details", enter details for the identity provider
+In "Identity Provider Details", enter URLs for the "Identity Provider Details" and "Identity Provider Issuer".
 
 
 
