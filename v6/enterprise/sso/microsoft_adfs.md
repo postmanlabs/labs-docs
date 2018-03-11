@@ -69,32 +69,33 @@ On the next screen, add a Relying party trust identifier of https://identity.get
 
 On the next screen, select Permit everyone.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Permit-everyone.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Permit-everyone.jpeg)
 
 On the next two screens, the wizard will display an overview of your settings. 
+
 On the final screen use the Close button to exit and open the Claim Rules editor.
 
 Step 3 - Creating claim rules
 
 Once the relying party trust has been created, you can create the claim rules.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)
 
 To create a new rule, click on Add Rule. Create a Send LDAP Attributes as Claims rule.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Add-Rule.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Add-Rule.jpeg)
 
 On the next screen, using Active Directory as your attribute store, do the following: 
     1. From the LDAP Attribute column, select E-Mail Addresses.
     2. From the Outgoing Claim Type, select E-Mail Address.
     
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Active-Directory.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Active-Directory.jpeg)
 
 Click on Finish to save the new rule.
 
 Create another new rule by clicking Add Rule, this time selecting Transform an Incoming Claim as the template.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)
 
 On the next screen:
     1. Select E-mail Address as the Incoming Claim Type.
@@ -102,12 +103,12 @@ On the next screen:
     3. For Outgoing Name ID Format, select Email. 
 Leave the rule to the default of Pass through all claim values.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
 
 Finally, click on Finish button to create the claim rule.
 There should be 2 transform rules. You can check this by clicking on Edit Claim Issuance Policy.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)
 
 Step 4 - Adjusting the trust settings
 You still need to adjust a few settings on your relying party trust. To access these settings, select Properties 
@@ -116,7 +117,7 @@ from the Actions sidebar while you have the RPT selected.
 
 In the Advanced tab, make sure SHA-1 is specified as the secure hash algorithm.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Adjusting-trust-settings.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Adjusting-trust-settings.jpeg)
 
 Step 5 - Submit identity Provider details to Postman
 Once this setup is done, you need to submit your Identity Provider's details to Postman.
