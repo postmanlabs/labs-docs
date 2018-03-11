@@ -24,30 +24,28 @@ To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.mi
 
 ### Configuration
 
-**Step 1** - Create an AD FS authentication scheme in Postman
+**Step 1** - Create an AD FS authentication scheme in Postman.
 
-This is explained in SSO for admins article. After creating, collect values for the following fields from Postman Edit Team Details page.
+This is explained in SSO for admins article. After creating the scheme, collect the values for these fields from Postman Edit Team Details page.
 
 | Fields  |   AD FS equivalent  |  |
 | ---   |   ---     | ---   |
 | Assertion Consumer Service URL   |  SAML 2.0 SSO service URL    | |
 | Encryption Certificate   |   Token encryption certificate    | |
 
-Assertion Consumer Service URL	SAML 2.0 SSO service URL
-Encryption Certificate	Token encryption certificate
+**Step 2** - Add a Relying Party Trust.
 
+A Relying Party Trust (RPT) is used to define the connection between AD FS and Postman.
 
-Step 2 - Adding a Relying Party Trust
+Select the Relying Party Trusts folder from AD FS Management.
 
-The connection between AD FS and Postman is defined using a Relying Party Trust (RPT).
+On the Actions sidebar, click "Add Relying Party Trust" to start the configuration wizard for a new trust. 
 
-Select the Relying Party Trusts folder from AD FS Management, and click Add Relying Party Trust 
-
-on the Actions sidebar. This starts the configuration wizard for a new trust. Select Claims aware radio
-
-button in the welcome screen and click on Start button.
+Select the **Claims aware radio** button in the Welcome screen and click the **Start** button.
 
 IMAGE
+
+
 
 In the Select Data Source screen, select the last option, Enter Data About the Party Manually.
 
