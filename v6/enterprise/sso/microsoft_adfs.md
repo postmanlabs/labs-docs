@@ -1,6 +1,6 @@
 ---
 title: "Configuring Microsoft ADFS with Postman SSO"
-page_id: "configuring_microsoft_adfs_with_postman_sso"
+page_id: "microsoft_adfs"
 tags: 
   - "enterprise"
 warning: false
