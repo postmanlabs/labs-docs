@@ -33,18 +33,21 @@ Configure the SAML integration.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)
 
-Table
-
-Identifier	The Entity ID for your Postman custom SSO auth. You can find it in the Postman team details page
-Reply URL	The ACS URL for your Postman custom SSO auth. You can find it in the Postman team details page
-User Identifier	Select user.mail from the dropdown
+| Field |   Value   | Windows / Linux shortcuts |
+| ---   |   ---     | ---   |
+| Identifier   |  The Entity ID for your Postman custom SSO auth. You can find it in the Postman team details page    | Ctrl + T   |
+| Reply URL  |   The ACS URL for your Postman custom SSO auth. You can find it in the Postman team details page    | Ctrl + W   |
+| User Identifier  |  Select user.mail from the dropdown   | Ctrl + W   |
 
 Download the SAML Signing Certificate (Base64 format) and save.
 
 Once the setup is complete, submit your Identity Provider details to Postman. For more details on this last step, review setting up SSO in Postman.
 
-Table
-
-Identity Provider Issuer	The SAML Entity ID of your Azure AD application 
-Identity Provider SSO URL	The SAML Single Sign-on Service URL of your Azure AD application
-X.509 Certificate	Contents of  the SAML Signing Certificate file
+| Field         | Value         |
+| ------------- | ------------- |
+| Identity Provider Issuer  | The SAML Entity ID of your Azure AD application.  |
+| Identity Provider SSO URL  | The SAML Single Sign-on Service URL of your Azure AD application.    |
+| X.509 Certificate   | Contents of  the SAML Signing Certificate file.  |
+	
+	
+	
