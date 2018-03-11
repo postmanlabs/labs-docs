@@ -1,5 +1,5 @@
 ---
-title: "Setting a Custom_SAML in Azure AD"
+title: "Setting a Custom SAML in Azure AD"
 page_id: "saml_in_azure_ad"
 tags: 
   - "enterprise"
