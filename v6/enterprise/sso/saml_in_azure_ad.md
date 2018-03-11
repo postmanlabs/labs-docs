@@ -6,10 +6,9 @@ tags:
 warning: false
 ---
 
-Setting up a custom SAML application in Azure AD
 
 
-Configure a custom SSO for your Postman Team. Select AD FS as the Authentication Type. You can leave the Identity Provider Details empty for now.
+To configure a custom SSO for your Postman Team, select AD FS as the Authentication Type. You can leave the Identity Provider Details empty for now.
 
 Sign into the Azure management portal using your Azure Active Directory administrator account, and browse to the Azure Active Directory > [Directory] > Enterprise Applications, and select New Application
 
