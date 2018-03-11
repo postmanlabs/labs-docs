@@ -45,19 +45,13 @@ Select the **Claims aware radio** button in the Welcome screen and click the **S
 
 [![relysing party trust](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-Party-Trust.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-Party-Trust.png)
 
-
-
 In the Select Data Source screen, select the last option, Enter Data About the Party Manually.
 
-[![API lifecycle]()]()
-
-In the Select Data Source screen, select the last option, Enter Data About the Party Manually.
-
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)
 
 On the next screen, enter a Display name that you'll recognise in the future, and any notes you want to make.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)
 
 On the next screen, upload the encryption certificate which you can collect from Postman Edit Team Details page or leave the certificate settings at their defaults.
 
