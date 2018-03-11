@@ -1,6 +1,6 @@
 ---
 title: "Setting a Custom_SAML_in_Azure_AD"
-page_id: "setting_a_custom_saml_in_azure_ad"
+page_id: "saml_in_azure_ad"
 tags: 
   - "enterprise"
 warning: false
