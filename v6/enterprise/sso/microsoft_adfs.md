@@ -60,12 +60,12 @@ On the next screen, upload the encryption certificate which you can collect from
 On the next screen, check the box labeled Enable Support for the SAML 2.0 WebSSO protocol. 
 The service URL (ACS URL) can be collected from Postman Edit Team Details page.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)
 
 
 On the next screen, add a Relying party trust identifier of https://identity.getpostman.com.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-party-trust-identifier.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-party-trust-identifier.jpeg)
 
 On the next screen, select Permit everyone.
 
