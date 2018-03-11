@@ -28,10 +28,10 @@ To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.mi
 
 This is explained in SSO for admins article. After creating, collect values for the following fields from Postman Edit Team Details page.
 
-| Fields  |   AD FS equivalent  | Windows / Linux shortcuts |
+| Fields  |   AD FS equivalent  |  |
 | ---   |   ---     | ---   |
-| Assertion Consumer Service URL   |  SAML 2.0 SSO service URL    | Ctrl + T   |
-| Encryption Certificate   |   Token encryption certificate    | Ctrl + W   |
+| Assertion Consumer Service URL   |  SAML 2.0 SSO service URL    | |
+| Encryption Certificate   |   Token encryption certificate    | |
 
 Assertion Consumer Service URL	SAML 2.0 SSO service URL
 Encryption Certificate	Token encryption certificate
