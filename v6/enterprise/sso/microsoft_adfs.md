@@ -43,39 +43,39 @@ On the Actions sidebar, click "Add Relying Party Trust" to start the configurati
 
 Select the **Claims aware radio** button in the Welcome screen and click the **Start** button.
 
-IMAGE
+[![relysing party trust](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-Party-Trust.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-Party-Trust.png)
 
 
 
 In the Select Data Source screen, select the last option, Enter Data About the Party Manually.
 
-IMAGE
+[![API lifecycle]()]()
 
 In the Select Data Source screen, select the last option, Enter Data About the Party Manually.
 
-IMAGE
+[![API lifecycle]()]()
 
 On the next screen, enter a Display name that you'll recognise in the future, and any notes you want to make.
 
-IMAGE
+[![API lifecycle]()]()
 
 On the next screen, upload the encryption certificate which you can collect from Postman Edit Team Details page or leave the certificate settings at their defaults.
 
-IMAGE
+[![API lifecycle]()]()
 
 On the next screen, check the box labeled Enable Support for the SAML 2.0 WebSSO protocol. 
 The service URL (ACS URL) can be collected from Postman Edit Team Details page.
 
-IMAGE
+[![API lifecycle]()]()
 
 
 On the next screen, add a Relying party trust identifier of https://identity.getpostman.com.
 
-IMAGE
+[![API lifecycle]()]()
 
 On the next screen, select Permit everyone.
 
-IMAGE
+[![API lifecycle]()]()
 
 On the next two screens, the wizard will display an overview of your settings. 
 On the final screen use the Close button to exit and open the Claim Rules editor.
@@ -84,23 +84,23 @@ Step 3 - Creating claim rules
 
 Once the relying party trust has been created, you can create the claim rules.
 
-IMAGE
+[![API lifecycle]()]()
 
 To create a new rule, click on Add Rule. Create a Send LDAP Attributes as Claims rule.
 
-IMAGE
+[![API lifecycle]()]()
 
 On the next screen, using Active Directory as your attribute store, do the following: 
     1. From the LDAP Attribute column, select E-Mail Addresses.
     2. From the Outgoing Claim Type, select E-Mail Address.
     
-IMAGE
+[![API lifecycle]()]()
 
 Click on Finish to save the new rule.
 
 Create another new rule by clicking Add Rule, this time selecting Transform an Incoming Claim as the template.
 
-IMAGE
+[![API lifecycle]()]()
 
 On the next screen:
     1. Select E-mail Address as the Incoming Claim Type.
@@ -108,12 +108,12 @@ On the next screen:
     3. For Outgoing Name ID Format, select Email. 
 Leave the rule to the default of Pass through all claim values.
 
-IMAGE
+[![API lifecycle]()]()
 
 Finally, click on Finish button to create the claim rule.
 There should be 2 transform rules. You can check this by clicking on Edit Claim Issuance Policy.
 
-IMAGE
+[![API lifecycle]()]()
 
 Step 4 - Adjusting the trust settings
 You still need to adjust a few settings on your relying party trust. To access these settings, select Properties 
@@ -122,7 +122,7 @@ from the Actions sidebar while you have the RPT selected.
 
 In the Advanced tab, make sure SHA-1 is specified as the secure hash algorithm.
 
-IMAGE
+[![API lifecycle]()]()
 
 Step 5 - Submit identity Provider details to Postman
 Once this setup is done, you need to submit your Identity Provider's details to Postman.
