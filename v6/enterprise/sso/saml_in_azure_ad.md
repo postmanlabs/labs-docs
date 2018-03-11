@@ -33,11 +33,12 @@ Configure the SAML integration.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)
 
-| Field |   Value   | Windows / Linux shortcuts |
-| ---   |   ---     | ---   |
-| Identifier   |  The Entity ID for your Postman custom SSO auth. You can find it in the Postman team details page    | Ctrl + T   |
-| Reply URL  |   The ACS URL for your Postman custom SSO auth. You can find it in the Postman team details page    | Ctrl + W   |
-| User Identifier  |  Select user.mail from the dropdown   | Ctrl + W   |
+| Field         | Value         |
+| ------------- | ------------- |
+| Identifier | The Entity ID for your Postman custom SSO auth. You can find it in the Postman team details page   |
+| Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in the Postman team details page  |
+| User Identifier  | Select user.mail from the dropdown  |
+
 
 Download the SAML Signing Certificate (Base64 format) and save.
 
