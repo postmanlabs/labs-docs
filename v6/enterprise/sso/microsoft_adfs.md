@@ -55,7 +55,7 @@ On the next screen, enter a Display name that you'll recognise in the future, an
 
 On the next screen, upload the encryption certificate which you can collect from Postman Edit Team Details page or leave the certificate settings at their defaults.
 
-[![API lifecycle]()]()
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)
 
 On the next screen, check the box labeled Enable Support for the SAML 2.0 WebSSO protocol. 
 The service URL (ACS URL) can be collected from Postman Edit Team Details page.
