@@ -15,23 +15,23 @@ Sign into the Azure management portal using your Azure Active Directory administ
 
 Select Non-gallery application
 
-IMAGE
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-non-gallery-application.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-non-gallery-application.png)
 
 In the menu that shows up, enter the name of the application and click on Add.
 
-IMAGE
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-postman-app.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-postman-app.png)
 
 Then assign a test user to the application. This is a required step.
 
-IMAGE
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-azure-app-quickstart.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-azure-app-quickstart.png)
 
 Then head over to the Configure Single Sign-on section and select SAML-based Sign-on from the Single Sign-on Mode dropdown.
 
-IMAGE
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-single-sign-on-saml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-single-sign-on-saml.png)
 
 Configure the SAML integration.
 
-IMAGE
+[![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)
 
 Table
 
