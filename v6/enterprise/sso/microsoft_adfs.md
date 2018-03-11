@@ -9,22 +9,30 @@ warning: false
 
 Postman supports single sign-on (SSO) logins through SAML 2.0 for Enterprise users.
 
-Prerequisites
+### Prerequisites
 
-An Active Directory instance where all users have an email address attribute.
-A server running Microsoft Server 2012 or 2008. This guide uses screenshots from Server 2012R2,
+* An Active Directory instance where all users have an email address attribute.
+
+* A server running Microsoft Server 2012 or 2008. This guide uses screenshots from Server 2012R2,
 but similar steps should be possible on other versions.
-A SSL certificate obtained from the AD FS server.
-After you meet these basic requirements, you need to install AD FS on your server. Configuring and installing
 
-AD FS is beyond the scope of this guide, but is detailed in a Microsoft KB article.
+* A SSL certificate obtained from the AD FS server.
 
-Configuration
+After you meet these basic requirements, install AD FS on your server. 
 
-Step 1 - Create AD FS authentication scheme in Postman
+To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.microsoft.com/en-us/library/gg188612.aspx) in the Microsoft Knowledge Base.
+
+### Configuration
+
+**Step 1** - Create an AD FS authentication scheme in Postman
+
 This is explained in SSO for admins article. After creating, collect values for the following fields from Postman Edit Team Details page.
 
-Table
+| Fields  |   AD FS equivalent  | Windows / Linux shortcuts |
+| ---   |   ---     | ---   |
+| Assertion Consumer Service URL   |  SAML 2.0 SSO service URL    | Ctrl + T   |
+| Encryption Certificate   |   Token encryption certificate    | Ctrl + W   |
+
 Assertion Consumer Service URL	SAML 2.0 SSO service URL
 Encryption Certificate	Token encryption certificate
 
