@@ -12,7 +12,7 @@ Sign in to the Azure management portal using your Azure Active Directory adminis
 
 Browse to the Azure Active Directory > [Directory] > Enterprise Applications, and select "New Application".
 
-Select Non-gallery application.
+Select "Non-gallery application".
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-non-gallery-application.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-non-gallery-application.png)
 
@@ -39,7 +39,7 @@ Configure the SAML integration.
 | User Identifier  | Select user.mail from the dropdown  |
 
 
-Download the SAML Signing Certificate (Base64 format) and save.
+Download the SAML Signing Certificate (Base64 format) and click the **Save** button.
 
 After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO (https://elispostman.github.io/docs/v6/enterprise/sso/intro_sso){:target="_blank"}
 
