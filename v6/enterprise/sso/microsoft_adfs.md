@@ -32,10 +32,10 @@ To create this scheme authentication, see [Single Sign-On for Admins](https://el
 
 After creating the scheme, collect the values for these fields in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.
 
-| Fields  |   AD FS equivalent  |  |
-| ---   |   ---     | ---   |
-| Assertion Consumer Service URL   |  SAML 2.0 SSO service URL    | |
-| Encryption Certificate   |   Token encryption certificate    | |
+| Fields   | AD FS equivalent |
+| ------------- | ------------- |
+| Assertion Consumer Service URL  |  SAML 2.0 SSO service URL  |
+| Encryption Certificate   | Token encryption certificate  |
 
 **Step 2** - Add a Relying Party Trust.
 
