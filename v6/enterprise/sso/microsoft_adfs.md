@@ -83,7 +83,7 @@ In the final screen, use the **Close** button to exit and open the "Claim Rules"
 
 After the relying party trust has been created, you can create the claim rules.
 
-[![claim rules(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)
+[![claim rules](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)
 
 To create a new rule:
 
