@@ -11,7 +11,7 @@ Postman supports single sign-on (SSO) logins through SAML 2.0 for Enterprise use
 
 ### Prerequisites
 
-Before you configure Microsoft Active Directory x x (ADFS) to work with Postman SSO, you must have:
+Before you configure Microsoft Active Directory Federation Services (AD FS) to work with Postman SSO, you must have:
 
 * An Active Directory instance where all users have an email address attribute.
 
@@ -20,17 +20,17 @@ but similar steps should be possible on other versions.
 
 * A SSL certificate from the AD FS server.
 
-After you meet these basic requirements, install AD FS on your server. To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.microsoft.com/en-us/library/gg188612.aspx) in the Microsoft Knowledge Base.
+After you meet these basic requirements, install AD FS on your server. To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.microsoft.com/en-us/library/gg188612.aspx){:target="_blank"} in the Microsoft Knowledge Base.
 
 ### Configuration
 
-Follow the steps below to configure Microsoft Active Directory x x (ADFS) to work with Postman SSO.
+Follow the steps below to configure Microsoft AD FS to work with Postman SSO.
 
 **Step 1** - Create an AD FS authentication scheme in Postman.
 
-To create this scheme authentication, see [Single Sign-On for Admins](https://elispostman.github.io/docs/v6/enterprise/sso/admin_sso).
+To create this scheme authentication, see [Single Sign-On for Admins](https://elispostman.github.io/docs/v6/enterprise/sso/admin_sso){:target="_blank"}.
 
-After creating the scheme, collect the values for these fields in [Edit team details](https://app.getpostman.com/dashboard/teams).
+After creating the scheme, collect the values for these fields in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.
 
 | Fields  |   AD FS equivalent  |  |
 | ---   |   ---     | ---   |
@@ -57,13 +57,13 @@ Enter a Display name that you'll recognize later, and add optional notes.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)
 
-Upload the encryption certificate in [Edit team details](https://app.getpostman.com/dashboard/teams) or use the default certificate settings.
+Upload the encryption certificate in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"} or use the default certificate settings.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)
 
 Check the box labeled "Enable Support" for the SAML 2.0 WebSSO protocol. 
 
-Collect the service URL (ACS URL) from [Edit team details](https://app.getpostman.com/dashboard/teams).
+Collect the service URL (ACS URL) from [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)
 
@@ -98,7 +98,7 @@ Using the Active Directory as your attribute store, perform these actions:
 
 Click "Finish" to save the new rule.
 
-Click Add Rule to create another new rule and select "Transform an Incoming Claim" as the template.
+Click "Add Rule" to create another new rule and select "Transform an Incoming Claim" as the template.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)
 
@@ -132,7 +132,7 @@ After the setup, you must submit your Identity Provider's details to Postman.
 
 Download the FederationMetadata.xml. You can generally find this file at: https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml
 
-Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and fill these values in [Edit team details](https://app.getpostman.com/dashboard/teams)in the AD FS Identity Provider Details dialog.
+Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and fill these values in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"} in the AD FS Identity Provider Details dialog.
 
 
 
