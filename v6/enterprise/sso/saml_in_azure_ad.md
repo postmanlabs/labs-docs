@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-To configure a custom SSO for your Postman Team, select "AD FS" as the Authentication Type. Let "Identity Provider Details" empty now.
+To configure a custom SSO for your Postman Team, select "AD FS" as the Authentication Type. Allow "Identity Provider Details" to remain empty for now.
 
 Sign in to the Azure management portal using your Azure Active Directory administrator account. 
 
@@ -37,7 +37,6 @@ Configure the SAML integration.
 | Identifier | The Entity ID for your Postman custom SSO auth. You can find it in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.   |
 | Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.  |
 | User Identifier  | Select user.mail from the dropdown  |
-
 
 Download the SAML Signing Certificate (Base64 format) and click the **Save** button.
 
