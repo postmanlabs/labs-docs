@@ -81,7 +81,7 @@ In the next two screens, the wizard displays an overview of your settings.
 
 In the final screen use the **Close** button to exit and open the "Claim Rules" editor.
 
-**Step 3** - Creating claim rules.
+**Step 3** - Create claim rules.
 
 After the relying party trust has been created, you can create the claim rules.
 
@@ -125,7 +125,7 @@ You should see two transform rules. Click "Edit Claim Issuance Policy" to confir
 
 [![edit claim issuance](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)
 
-**Step 4** - Adjusting the trust settings.
+**Step 4** - Adjust the trust settings.
 
 To adjust the trust settings, select "RPT" and then select "Properties" in the Actions sidebar.
 
