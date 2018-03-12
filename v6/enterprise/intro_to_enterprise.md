@@ -10,11 +10,11 @@ Postman helps Enterprise users build a fast, smooth API development workflow tha
 
 Postman provides Enterprise users with:
 
-* Single Sign-On (SSO): SSO provides Postman Enterprise customers with an easier and more secure method to manage their team members’ access to the API development work within the company’s Postman instance by using the customer’s existing identity management solution. Postman Enterprise currently supports multiple SSO providers – Okta, OneLogin, Duo, Ping Identity, AD FS, and GSuite – and will add new providers regularly based on customer need. Postman provides SAML 2.0-compliant identity provider support. 
+* Single Sign-On (SSO): Access to the the company’s Postman instance by using the customer’s existing identity management solution. Postman Enterprise currently supports multiple SSO providers – Okta, OneLogin, Duo, Ping Identity, AD FS, and GSuite. Postman provides SAML 2.0-compliant identity provider support. 
 
-* Audit Logs: An important need of Enterprise customers is the ability to track activities within their teams, particularly when collaborating on code. With Audit Logs, Postman Enterprise users can review every change, see who made it and when it was made – all within a user-friendly dashboard. 
+* Audit logs: Ability to track activities within teams, particularly when collaborating on code. With Audit Logs, Postman Enterprise users can review every change, see who made it and when it was made in a user-friendly dashboard. 
 
-* Extended Support and Billing: Dedicated support, onboarding and billing options are a key differentiator of Postman Enterprise. While Postman Pro (Postman’s first paid plan, released in 2016) has been hugely popular with its mostly self-serve purchase process, these additional options are appreciated by larger organizations with more structured policies around procurement, provisioning and ongoing customer success
+* Extended support and billing: Dedicated support, onboarding and billing options for larger organizations with more structured policies around procurement, provisioning and ongoing customer success
 
 In addition to SSO , audit logs, and extended support and billing, the Enterprise plan shares Postman Pro features, such as:
 
