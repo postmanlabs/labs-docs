@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-Postman helps Enterprise users build a fast and smooth API development workflow that helps them monitor the health and status of APIs, produce quality documentation, connect to third party tools to enhance the API development workflow, and implement an agile process to test APIs.
+Postman helps Enterprise users build a fast, smooth API development workflow that monitors the health and status of APIs, produces quality documentation, connects to third party tools to enhance the API development workflow, and implements an agile process to test APIs.
 
 Postman provides Enterprise users with:
 
