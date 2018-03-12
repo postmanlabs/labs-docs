@@ -20,13 +20,13 @@ In addition to SSO, audit logs, and extended support and billing, the Enterprise
 
 * Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} for the single source of truth about your API.  
 
-* API [documentation](/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation in a web page.
+* API [documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} to share public or private documentation in a web page.
 
-* [Mock servers](/docs/postman/mock_servers) to simulate the real API and decouple teams collection [monitoring](/docs/postman/monitors/intro_monitors) to check the performance of your API.
+* [Mock servers](/docs/postman/mock_servers){:target="_blank"} to simulate the real API and decouple teams collection [monitoring](/docs/postman/monitors/intro_monitors) to check the performance of your API.
 
-* [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations) and the [Postman API](/docs/pro/pro_api/intro_api) to connect your different tools.
+* [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations){:target="_blank"} and the [Postman API](/docs/pro/pro_api/intro_api){:target="_blank"} to connect your different tools.
 
-* [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions) for API monitoring.
+* [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"} for API monitoring.
 
 
 Want to learn more about Postman Enterprise? Contact [Enterprise support](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}. 
