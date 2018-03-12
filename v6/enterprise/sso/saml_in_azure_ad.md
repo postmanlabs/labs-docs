@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-The steps in this topic tells you how to configure a custom SAML application fin Azure AD.
+The steps in this topic tell you how to configure a custom SAML application fin Azure AD.
 
 
 ### Configuration
@@ -36,6 +36,8 @@ In the "Configure Single Sign-on" section, select "SAML-based Sign-on" in the "S
 Configure the SAML integration. The table below describes the values of the fields in this configuration.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)
+
+Table: Field description for SAML integration
 
 | Field         | Value         |
 | ------------- | ------------- |
