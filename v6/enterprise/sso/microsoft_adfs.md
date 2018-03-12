@@ -111,13 +111,13 @@ In the next screen perform these actions:
 
    In "Outgoing Claim Type", select "Name ID". 
 
-In "Outgoing Name ID Format", select "Email". 
+   In "Outgoing Name ID Format", select "Email". 
 
-* Use the default, "Pass through all claim values".
+   Use the default, "Pass through all claim values".
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
 
-* Click the **Finish** button to create the claim rule.
+   Click the **Finish** button to create the claim rule.
 
 You should see two transform rules. Click "Edit Claim Issuance Policy" to confirm.
 
@@ -125,9 +125,9 @@ You should see two transform rules. Click "Edit Claim Issuance Policy" to confir
 
 **Step 4** - Adjusting the trust settings.
 
-* To adjust the trust settings, select "RPT" and then select "Properties" in the Actions sidebar.
+To adjust the trust settings, select "RPT" and then select "Properties" in the Actions sidebar.
 
-* In the Advanced tab, specify "SHA-1" as the secure hash algorithm.
+In the Advanced tab, specify "SHA-1" as the secure hash algorithm.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Adjusting-trust-settings.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Adjusting-trust-settings.jpeg)
 
@@ -135,9 +135,9 @@ You should see two transform rules. Click "Edit Claim Issuance Policy" to confir
 
 After the setup, you must submit your Identity Provider's details to Postman.
 
-* Download the FederationMetadata.xml. You can generally find this file at: https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml
+Download the FederationMetadata.xml. You can generally find this file at: https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml
 
-* Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and fill these values in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"} in the AD FS Identity Provider Details dialog.
+Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and fill these values in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"} in the AD FS Identity Provider Details dialog.
 
 
 
