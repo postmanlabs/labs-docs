@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-Follow the steps in this topic to configure a custom SSO for your Postman Team.
+The steps in this topic tells you how to configure a custom SAML application fin Azure AD.
 
 
 ### Configuration
