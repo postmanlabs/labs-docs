@@ -12,11 +12,13 @@ Postman provides Enterprise users with:
 
 * Single Sign-On (SSO): Access to the company’s Postman instance based on the customer’s existing identity management flow. Postman Enterprise currently supports multiple SSO providers – Okta, OneLogin, Duo, Ping Identity, AD FS, and GSuite. Postman provides SAML 2.0-compliant identity provider support. 
 
-* Audit logs: Ability to track activities within teams, particularly when collaborating on code. With Audit Logs, Postman Enterprise users can review every change, see who made it and when it was made in a user-friendly dashboard. 
+* Audit logs: Ability to track activities within teams, particularly when collaborating on code. Postman Enterprise users can use audit logs to review every change, see who made it, and when it was made. 
 
-* Extended support and billing: Dedicated support, onboarding and billing options for larger organizations with more structured policies around procurement, provisioning and ongoing customer success
+* Extended support and billing: Dedicated support, onboarding and billing options for larger organizations, and provisioning.
 
 In addition to SSO, audit logs, and extended support and billing, the Enterprise plan shares Postman Pro features, such as:
+
+* [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"} for API monitoring.
 
 * Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} for the single source of truth about your API.  
 
@@ -26,7 +28,6 @@ In addition to SSO, audit logs, and extended support and billing, the Enterprise
 
 * [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations){:target="_blank"} and the [Postman API](/docs/pro/pro_api/intro_api){:target="_blank"} to connect your different tools.
 
-* [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"} for API monitoring.
 
 
 Want to learn more about Postman Enterprise? Contact [Enterprise support](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}. 
