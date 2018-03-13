@@ -13,7 +13,9 @@ By default, Postman Monitors access APIs from dynamic IP addresses. For Enterpri
 
 By whitelisting a single static IP address, customers can monitor their APIs using Postman’s monitoring service, while conforming to company security policies. 
 
-#### Monitoring APIs from a static IP address in an existing monitor 
+You can create a new monitor or change an existing monitor to run from a static IP address.
+
+#### Changing an existing monitor to run from a static IP address
 
 In the Postman app, click the "Build" dropdown menu and select "Browse".
 
@@ -28,7 +30,8 @@ In the **EDIT MONITOR** modal, select "US (Static IP)" in "Regions" and click th
 
 [![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)
 
-#### Creating a monito
+
+#### Creating a new monitor to run from a static IP address
 
 In the Postman app, click the "Build" dropdown menu and select "Browse". 
 
