@@ -10,7 +10,7 @@ Postman helps Enterprise users build an API development workflow that monitors t
 
 Postman provides Enterprise users with:
 
-* Single Sign-On (SSO): Access to the company’s Postman instance based on the customer’s existing identity management flow. Postman Enterprise currently supports multiple SSO providers – Okta, OneLogin, Duo, Ping Identity, AD FS, and GSuite. Postman provides SAML 2.0-compliant identity provider support. 
+* Single Sign-On (SSO): Access to the company’s Postman instance based on the customer’s existing identity management workflow. Postman Enterprise currently supports multiple SSO providers – Okta, OneLogin, Duo, Ping Identity, AD FS, and GSuite. Postman provides SAML 2.0-compliant identity provider support. 
 
 * Audit logs: Ability to track activities within teams, particularly when collaborating on code. Postman Enterprise users can use audit logs to review every change, see who made it, and when it was made. 
 
@@ -27,7 +27,6 @@ In addition to SSO, audit logs, and extended support and billing, the Enterprise
 * [Mock servers](/docs/postman/mock_servers){:target="_blank"} to simulate the real API and decouple teams collection [monitoring](/docs/postman/monitors/intro_monitors) to check the performance of your API.
 
 * [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations){:target="_blank"} and the [Postman API](/docs/pro/pro_api/intro_api){:target="_blank"} to connect your different tools.
-
 
 
 Want to learn more about Postman Enterprise? Contact our [Enterprise support team](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}. 
