@@ -35,7 +35,7 @@ In the **EDIT MONITOR** modal, select "US (Static IP)" in "Regions" and click th
 
 In the Postman app, click the "Build" dropdown menu and select "Browse". 
 
-Choose the collection you want to monitor and click the Ellipsis (...) button.
+Choose the collection you want to monitor, click the **Ellipsis (...)** button, and select "Monitor collection".
 
 [![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)
 
