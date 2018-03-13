@@ -20,7 +20,7 @@ In addition to SSO, audit logs, and extended support and billing, the Enterprise
 
 * [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"} for API monitoring.
 
-* Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} for the single source of truth about your API.  
+* Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} to keep data insync throughout the
 
 * API [documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} to share public or private documentation in a web page.
 
@@ -29,6 +29,6 @@ In addition to SSO, audit logs, and extended support and billing, the Enterprise
 * [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations){:target="_blank"} and the [Postman API](/docs/pro/pro_api/intro_api){:target="_blank"} to connect your different tools.
 
 
-Want to learn more about Postman Enterprise? Contact our [Enterprise support team](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}. 
+For more information about Postman Enterprise, contact our [Enterprise support team](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}. 
 
 
