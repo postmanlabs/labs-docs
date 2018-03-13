@@ -16,7 +16,7 @@ After a team admin has enabled single sign on (**SSO**) for Postman, users can 
 
     [![sign in to enterprise](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)
    
-    * Enter **Team Domain** to continue. 
+    * Enter the team domain to continue. 
 
     [![team domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)
     
