@@ -13,14 +13,29 @@ By default, monitors access APIs from dynamic IP addresses. For Enterprise users
 
 ### Monitoring APIs from a static IP address
 
+To monitor APIs from a static IP address in an existing monitor:
+
+How to get there and select "Monitors". 
+
+Choose the monitor you want to modify and click the Edit button.
+
+
+In the EDIT MONITOR modal, select "US (Static IP)" in "Regions".
+
+
+
 #### Postman app
 
 In the Postman app, click the "Build" menu in the Status bar at the bottom of the screen.
 
 Select "Browse" and then click "Monitors" at the top of the page.
 
+You can either add a static IP monitor on an existing collection, or create a mon
+
 Click the **Monitor a collection** button if there are existing collections. Or click the **Monitor this collection in this workspace** button if no collections exist in the workspace.
 
-In the CREATE A MONITOR modal, enter and select the appropriate information, and then click US (Static IP) to monitor static IPs.
+In the Regions sectopm of the modal, click "US (Static IP)" to monitor static IPs. For more information about creating a monitor, see 
 
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-create-a-monitor.png
+[![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-create-a-monitor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-create-a-monitor.png)
+
+
