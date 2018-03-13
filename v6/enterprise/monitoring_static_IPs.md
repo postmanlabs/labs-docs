@@ -34,7 +34,7 @@ In the Postman app, click the "Build" dropdown menu and select "Browse".
 
 Choose the collection you want to monitor and click the Ellipsis (...) button.
 
-[![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection.png)
+[![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)
 
 In the **MONITOR COLLECTION** modal, enter the name and select the environment of the monitor. 
 
