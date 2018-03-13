@@ -10,9 +10,9 @@ After a team admin has enabled single sign on (**SSO**) for Postman, users can 
 
 1.  Ask the team admin for the **Login URL** that was generated during the SSO configuration. The **Login URL** automatically redirects the user to the configured Identity Provider.
 
-2.  Click the **Sign in to Enterprise** button in the Postman app,  or click the hyperlink from in Postman web.
+2.  Log in from the Postman app or Postman dashboard. 
 
-    *  In Postman App, use the hyperlink at the top right while signing in. On clicking it, a new window will be opened within the app.  
+    *  To log in from the Postman App, click "Enterprise user?Sign in here" and enter the team domain in the Team Domain field.
 
         [![sign in to enterprise](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)
     *  In this step, enter **Team Domain** to continue. 
