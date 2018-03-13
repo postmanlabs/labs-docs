@@ -13,7 +13,7 @@ By default, Postman Monitors access APIs from dynamic IP addresses. For Enterpri
 
 By whitelisting a single static IP address, customers can monitor their APIs using Postman’s monitoring service, while conforming to company security policies. 
 
-#### Monitoring APIs from a static IP address in an existing monitor
+#### Monitoring APIs from a static IP address in an existing monitor 
 
 In the Postman app, click the "Build" dropdown menu and select "Browse".
 
@@ -27,6 +27,22 @@ Choose the monitor and click the **Edit** button.
 In the **EDIT MONITOR** modal, select "US (Static IP)" in "Regions" and click the **Save Changes** button to complete the process.
 
 [![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP.png)
+
+#### Creating a monitor
+
+In the Postman app, click the "Build" dropdown menu and select "Browse". 
+
+Choose the collection you want to monitor and click the Ellipsis (...) button.
+
+[![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection.png)
+
+In the **MONITOR COLLECTION** modal, enter the name and select the environment of the monitor. 
+
+In "Regions", select "US (Static IP)" to monitor the collection from a static IP address. You can also [specify a monitor to run in one or more regions](https://elispostman.github.io/docs/v6/postman/monitors/setting_up_monitor){:target="_blank"}. 
+
+Click the **Monitor this collection** button to complete the process.
+
+
 
 
 
