@@ -28,7 +28,7 @@ Choose the monitor and click the **Edit** button.
 
 In the **EDIT MONITOR** modal, select "US (Static IP)" in "Regions" and click the **Save Changes** button to complete the process.
 
-[![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)\s\s
+[![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)  
 
 #### Creating a new monitor to run from a static IP address
 
