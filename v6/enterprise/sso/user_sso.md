@@ -12,13 +12,13 @@ After a team admin has enabled single sign on (**SSO**) for Postman, users can 
 
 2.  Log in from the Postman app or Postman dashboard and perform these actions:
 
-* Click "Enterprise user? Sign in here" and enter the team domain in the Team Domain field.
+    * Click "Enterprise user? Sign in here".
 
-[![sign in to enterprise](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)
+    [![sign in to enterprise](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)
    
-* Enter **Team Domain** to continue. 
+    * Enter **Team Domain** to continue. 
 
-[![team domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)
+    [![team domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)
     
 Postman redirects the user to the configured Identity Provider. Here, for example the **G-Suite** Login screen.  
 
