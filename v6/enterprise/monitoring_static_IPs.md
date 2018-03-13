@@ -28,7 +28,7 @@ In the **EDIT MONITOR** modal, select "US (Static IP)" in "Regions" and click th
 
 [![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)
 
-#### Creating a monitor
+#### Creating a monito
 
 In the Postman app, click the "Build" dropdown menu and select "Browse". 
 
