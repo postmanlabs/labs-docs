@@ -6,11 +6,11 @@ tags:
 warning: false
 ---
 
-Postman helps Enterprise users build a fast, smooth API development workflow that monitors the health and status of APIs, produces quality documentation, connects to third party tools to enhance the API development workflow, and implements an agile process to test APIs.
+Postman helps Enterprise users build an API development workflow that monitors the health and status of APIs, produces quality documentation, connects to third party tools for API development, and implements an agile process to test APIs.
 
 Postman provides Enterprise users with:
 
-* Single Sign-On (SSO): Access to the the company’s Postman instance by using the customer’s existing identity management solution. Postman Enterprise currently supports multiple SSO providers – Okta, OneLogin, Duo, Ping Identity, AD FS, and GSuite. Postman provides SAML 2.0-compliant identity provider support. 
+* Single Sign-On (SSO): Access to the company’s Postman instance based on the customer’s existing identity management flow. Postman Enterprise currently supports multiple SSO providers – Okta, OneLogin, Duo, Ping Identity, AD FS, and GSuite. Postman provides SAML 2.0-compliant identity provider support. 
 
 * Audit logs: Ability to track activities within teams, particularly when collaborating on code. With Audit Logs, Postman Enterprise users can review every change, see who made it and when it was made in a user-friendly dashboard. 
 
