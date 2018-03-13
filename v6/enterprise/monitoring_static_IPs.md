@@ -17,7 +17,7 @@ You can create a new monitor or change an existing monitor to run from a static 
 
 #### Changing an existing monitor to run from a static IP address
 
-In the Postman app, click the "Build" dropdown menu and select "Browse".<br/> 
+In the Postman app, click the "Build" dropdown menu and select "Browse".<br/> <br/>
 
 [![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)<br/>
 
