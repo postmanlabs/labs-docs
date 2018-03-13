@@ -1,16 +1,16 @@
 ---
-title: "Single Sign-On for Users"
+title: "Logging in to an SSO team"
 page_id: "user_sso"
 tags: 
   - "enterprise"
 warning: false
 ---
 
-Once a team admin has enabled single sign on (**SSO**) for Postman, user will log into Postman using configured Identity provider. There are two ways of doing this.
+After a team admin has enabled single sign on (**SSO**) for Postman, users can log in to Postman with a configured Identity provider in two ways:
 
-1.  User can ask team admin for the **Login URL** which is generated at the time of configuring the **SSO**. The **Login URL** will automatically redirect user to the configured Identity Provider.
+1.  Ask the team admin for the **Login URL** that was generated during the SSO configuration. The **Login URL** automatically redirects the user to the configured Identity Provider.
 
-2.  User can use **Sign in to Enterprise** button/hyperlink from Postman Web/ Postman App.  
+2.  Click the **Sign in to Enterprise** button in the Postman app,  or click the hyperlink from in Postman web.
 
     *  In Postman App, use the hyperlink at the top right while signing in. On clicking it, a new window will be opened within the app.  
 
