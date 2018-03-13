@@ -17,10 +17,12 @@ To monitor APIs from a static IP address in an existing monitor:
 
 How to get there and select "Monitors". 
 
-Choose the monitor you want to modify and click the Edit button.
-
+Choose the monitor and click the **Edit** button.
 
 In the EDIT MONITOR modal, select "US (Static IP)" in "Regions".
+
+[![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP.png)
+
 
 
 
