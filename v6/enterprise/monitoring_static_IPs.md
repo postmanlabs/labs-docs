@@ -17,6 +17,7 @@ By whitelisting a single static IP address, customers can monitor their APIs usi
 
 In the Postman app, click the "Build" dropdown menu and select "Browse".
 
+
 [![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)
 
 At the top of the page, select "Monitors". 
