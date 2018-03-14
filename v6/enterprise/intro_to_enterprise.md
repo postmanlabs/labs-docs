@@ -18,7 +18,7 @@ Postman provides Enterprise users with:
 
 * Extended support and billing: Dedicated support, onboarding and billing options for larger organizations, and provisioning.
 
-In addition to SSO, audit logs, and extended support and billing, the Enterprise plan shares Postman Pro features, such as:
+In addition to SSO, audit logs, static IP, and extended support and billing, the Enterprise plan shares Postman Pro features, such as:
 
 * [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"} for API monitoring.
 
