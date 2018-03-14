@@ -26,12 +26,32 @@ In the [Audit Logs page](https://app.getpostman.com/dashboard/audit){:target="_b
 
 ### Logged Events
 
-The table below lists currently logged events. 
 
-| Action name  |   Description        |  
-| ---   |   ---    ----------------  |
-
-|tAdded Payment Method   |    A new credit card was added to the your team.       | 
+| Action name  | Description |
+| ------------- | ------------- |
+| Added Payment Method  | A new credit card was added to the your team.  |
+| Removed Payment method   | A credit card was removed from your team.  |
+| Added Domain   | A custom domain was added to your team. (You can use custom domains to publish documentation.)  |
+| Deleted Domain  | Content Cell  |
+| A custom domain was deleted from your team.  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 
@@ -45,7 +65,7 @@ The table below lists currently logged events.
 |team.add_card  |Added Payment Method          | A new credit card was added to the your team. |                                  
 |team.delete_card  |Removed Payment method     |	A credit card was removed from your team. |
 |team.add_domain  |Added Domain                | A custom domain was added to your team. (You can use custom domains to publish documentation.)  |
-|team.delete_domain | Deleted Domain   | A custom domain was deleted from your team |
+|team.delete_domain | Deleted Domain   | A custom domain was deleted from your team. |
 |team.add_member   |Added Member  |A user joined your team.  |
 |team.cancel_invite   |Cancelled Invite     |An invitation for a user was cancelled. |
 |team.customauth.create |Custom auth scheme created    |A [new SSO scheme](https://www.getpostman.com/docs/enterprise/sso/intro_sso){:target="_blank"} was added to your team. |
