@@ -14,6 +14,8 @@ Postman provides Enterprise users with:
 
 * Audit logs: Ability to track activities within a team. Postman Enterprise users can use audit logs to review changes in team management, billing, and security settings.
 
+* Static IP for Monitoring: Customers can use the static IP feature to use Postman monitoring, while complying with their company’s security policy. This enterprise-only feature allows customers to test IPs securely behind a firewall, by whitelisting a single static IP address to use for monitoring. 
+
 * Extended support and billing: Dedicated support, onboarding and billing options for larger organizations, and provisioning.
 
 In addition to SSO, audit logs, and extended support and billing, the Enterprise plan shares Postman Pro features, such as:
