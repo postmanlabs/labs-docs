@@ -20,7 +20,7 @@ In your [Enterprise workspace](https://app.getpostman.com/dashboard){:target="_b
 
 [![audit logs menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-menu2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-menu2.png)
 
-In the [Audit Logs page](https://app.getpostman.com/dashboard/audit){:target="_blank"}, you see information categorized as USER, EVENT NAME, EVENT DESCRIPTION, and DATE. 
+In the [Audit Logs](https://app.getpostman.com/dashboard/audit){:target="_blank"} page, you see information categorized as USER, EVENT NAME, EVENT DESCRIPTION, and DATE. 
 
 [![audit logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-page.png)
 
