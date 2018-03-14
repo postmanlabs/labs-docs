@@ -16,7 +16,7 @@ In the **ADD AUTENTICATION METHOD** modal, select the authentication type. Enter
 
 [![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)
 
-**Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal. in the modal. 
+**Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal. 
 
 In the "Service Provider Details (Postman)", enter the ID for the Entity, and the URLs for the Login and ACS.
  
