@@ -6,14 +6,11 @@ tags:
 warning: false
 ---
 
-The steps in this topic tell you how to configure a custom SAML application in Azure AD.
-
+The steps in this topic describe you how to configure a custom SAML application in Azure AD. 
 
 ### Configuration
 
-* Select "AD FS" as the Authentication Type. Allow "Identity Provider Details" to remain empty for now.
-
-* Sign in to the Azure management portal using your Azure Active Directory administrator account. 
+Before you proceed to configure a custom SAML application in Azure Active Directory (AD), you should [select "AD FS" as the Authentication Type and allow "Identity Provider Details" to remain empty for now](/docs/v6/enterprise/sso/admin_sso). Next, sign Sigin to the Azure management portal using your Azure Active Directory administrator account. 
 
 * Browse to the Azure Active Directory > [Directory] > Enterprise Applications, and select "New Application".
 
