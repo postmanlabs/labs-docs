@@ -20,7 +20,7 @@ Postman provides Enterprise users with:
 
 In addition to SSO, audit logs, static IP, and extended support and billing, the Enterprise plan shares Postman Pro features, such as:
 
-* [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"} for API monitoring.
+* [Dedicated IP addresses](/docs/v6/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"} for API monitoring.
 
 * Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} to keep data in sync for the team.
 
