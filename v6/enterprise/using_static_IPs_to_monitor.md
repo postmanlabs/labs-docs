@@ -18,7 +18,7 @@ When the static IP option is enabled, Enterprise users can create a new monitor 
 
 In the Postman app, click the "Build" dropdown menu and select "Browse". 
 
-Choose the collection you want to monitor, click the **Ellipsis (...)** button, and select "Monitor Collection". 
+Choose the collection you want to monitor, click the ellipsis **(...)** icon, and select "Monitor Collection". 
 
 [![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)
 
