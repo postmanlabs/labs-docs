@@ -28,7 +28,7 @@ In "Regions", select "US (Static IP)" to monitor the collection from a static IP
 
 Click the **Monitor this collection** button to complete the process.
 
-#### Changing an existing monitor to run from a static IP address
+### Changing an existing monitor to run from a static IP address
 
 In the Postman app, click the "Build" dropdown menu and select "Browse".
 
