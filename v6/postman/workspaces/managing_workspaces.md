@@ -57,7 +57,7 @@ In the team workspaces view, click the ***Ellipsis (...)*** button to:
 
 When you click a personal or team workspace, you can see all the elements and activity of that workspace.  
 
-If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another Workspace. 
+If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces){:target="_blank"} with another workspace. 
 
 If you click the ***Ellipsis (...)*** button, you can [remove any element](/docs/postman/workspaces/using_workspaces){:target="_blank"} from the workspace, and [publish](/docs/postman/workspaces/using_workspaces){:target="_blank"} collections.
 
