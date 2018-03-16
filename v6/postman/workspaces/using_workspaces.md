@@ -11,15 +11,15 @@ Here you'll learn how to perform actions on workspaces and how to use workspaces
 
 **Performing actions in workspaces**
 
-* [Deleting Workspaces](#deleting-workspaces)
+* [Deleting workspaces](#deleting-workspaces)
 
-* [Deleting elements in Workspaces](#deleting-elements-in-workspaces)
+* [Deleting elements in workspaces](#deleting-elements-in-workspaces)
 
-* [Editing descriptions of Workspaces](#editing-descriptions-of-workspaces)
+* [Editing descriptions of workspaces](#editing-descriptions-of-workspaces)
 
-* [Joining Workspaces](#joining-workspaces)
+* [Joining workspaces](#joining-workspaces)
 
-* [Leaving Workspaces](#leaving-workspaces)
+* [Leaving workspaces](#leaving-workspaces)
 
 * [Managing members of team workspaces](#managing-members-of-team-workspaces)
 
