@@ -147,6 +147,6 @@ To validate if a JSON file is in the correct collections format, you can use our
 
 *  [GitHub](https://github.com/postmanlabs/schemas){:target="_blank"} 
 
-* [Example of data validation using our schema](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/){:target="_blank"} and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid){:target="_blank"} (a validator)
+* [Example of data validation using our schema](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/){:target="_blank"} and a [validator](https://github.com/mafintosh/is-my-json-valid){:target="_blank"}
 
 
