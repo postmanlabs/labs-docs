@@ -88,4 +88,3 @@ View a list of current integrations or create workspace integrations. If you cre
 **Activity** 
 
 View a list of activities for this workspace.
-f
