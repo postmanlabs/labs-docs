@@ -59,7 +59,6 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
 
 **Add the request header(s):**
 
-   *   Requests made to a private mock require one mandatory header, `x-api-key`, which is your Postman API key for authentication. Don't have a Postman API key? [Create one here](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}. The default public mocks do not require this header.
    *   Mock requests also accept another optional header, `x-mock-response-code`, which specifies which integer response code your returned response should match.  For example, 500 will return only a 500 response. If this header is not provided, the closest match of any response code will be returned.
    *   Similarly, other optional headers like `x-mock-response-name` or `x-mock-response-id` allow you further specify the exact response you want by the name or by the uid of the saved example respectively. You can get the example response uid by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c){:target="_blank"} and searching for your example in the response. The uid has the syntax `<user_id>-<response_id>`. Without these optional headers, the mock will follow a [matching algorithm](/docs/postman/mock_servers/matching_algorithm) to decide which example to return.
 
