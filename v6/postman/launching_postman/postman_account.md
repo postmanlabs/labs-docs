@@ -18,12 +18,15 @@ Signing up is completely optional. Read our [EULA](https://www.getpostman.com/li
 
 ### Signing up for a Postman account
 
-1. If you haven't already, [download](https://www.getpostman.com/apps){:target="_blank"} the Postman app.
-2. Launch the app, and see a prompt to log in or sign up.
+If you haven't already, [download](https://www.getpostman.com/apps){:target="_blank"} the Postman app.
+
+Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
-3. Sign up with your email address or your Google account.
+
+Sign up with your email address or your Google account.
     [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
-4. Confirm your email.
+
+Confirm your email.
 
 Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing){:target="_blank"}. If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
 
@@ -55,13 +58,13 @@ To switch back to your previous account, click on the account user name in the d
 
 #### How to switch accounts in the Postman web view
 
-1. When you sign in to the [Dashboard]({{site.pm.gs}}/dashboard){:target="_blank"}, you see your profile image on the top right hand corner of the screen.  
+When you sign in to the [Dashboard]({{site.pm.gs}}/dashboard){:target="_blank"}, you see your profile image on the top right hand corner of the screen.  
 
-2. To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
+To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
 
-3. After you sign in to another account, the drop down menu lists all your active signed-in accounts.
+After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
-4. To switch back to your previous account, click on the account user name in the drop down menu.
+To switch back to your previous account, click on the account user name in the drop down menu.
 
 [![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard-2.png)
 
@@ -78,14 +81,13 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 You can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login){:target="_blank"} page. 
 
-1. In the Sign In page, click “Trouble signing in?”.
+In the Sign In page, click “Trouble signing in?”.
 
 [![signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-SignInPage1-a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-SignInPage1-a.png)
 
-<ol start="2">
-  <li>In the Trouble signing in? page, enter your email address and click the <b>Submit</b> button.
-   Check your email for instructions to recover your username or password.</li>
-  </ol>
+In the Trouble signing in? page, enter your email address and click the **Submit** button.
+   
+Check your email for instructions to recover your username or password.
 
 [![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-signIn_trouble.png)
 
@@ -93,14 +95,18 @@ You can recover your username or reset your password from the [**Sign In**](http
 
 You can customize your Postman account with a profile picture, which will show your username throughout the Postman dashboard.
 
-1.In your [Profile and Account](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"}  page, hover over the image icon to display a Pencil (edit) icon.
+In Postman web, click the **Dashboard** button, and then click the "Settings" icon.
+
+[![settings icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/settings-icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/settings-icon.png)
+
+In your [Profile and Account](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"}  page, hover over the image icon to display a Pencil (edit) icon.
 
 [![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-account-page2.png)
 
-  <ol start="2">
-  <li>Click the Pencil icon.</li>
-  <li>Upload or drag and drop the image you want for your profile from your computer and click the <b>Upload</b> button</li>
-</ol>
+Click the Pencil icon.
+
+Upload or drag and drop the image you want for your profile from your computer and click the **Upload** button.
+
 
 [![upload](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-upload-image1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-upload-image1.png)
 
