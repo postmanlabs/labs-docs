@@ -13,7 +13,7 @@ When you sign up for a free Postman account, you can:
    *   Easily work on multiple Postman instances from different machines.
    *   Create [collection links](/docs/v6/postman/collections/sharing_collections){:target="_blank"} to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"}, [security page](https://www.getpostman.com/security){:target="_blank"}, and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
+Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"}, [security page](https://www.getpostman.com/security){:target="_blank"}, and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to learn more.
 
 
 ### Signing up for a Postman account
@@ -48,7 +48,7 @@ After you sign in, your profile image replaces the **Sign In** button.
 
 When you click on your profile image, a drop down menu lists all active signed-in accounts.
 
-To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
+To sign in to another account, click the **Add a new account** button at the bottom of the drop down menu.
 
 After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
@@ -60,7 +60,7 @@ To switch back to your previous account, click on the account user name in the d
 
 When you sign in to the [Dashboard]({{site.pm.gs}}/dashboard){:target="_blank"}, you see your profile image on the top right hand corner of the screen.  
 
-To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
+To sign in to another account, click the **Add a new account** button at the bottom of the drop down menu.
 
 After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
@@ -85,7 +85,7 @@ In the Sign In page, click “Trouble signing in?”.
 
 [![signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-SignInPage1-a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-SignInPage1-a.png)
 
-In the Trouble signing in? page, enter your email address and click the **Submit** button.
+In the "Trouble signing in?" page, enter your email address and click the **Submit** button.
    
 Check your email for instructions to recover your username or password.
 
