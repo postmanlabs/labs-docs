@@ -5,9 +5,11 @@ warning: false
 
 ---
 
-Before you can upload or share a collection, you must sign in to your [Postman account.](/docs/postman/launching_postman/postman_account)
+
 
 Postman enables you to share your collections and environments in workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
+
+**Note**: Before you can upload or share a collection, you must sign in to your [Postman account.](/docs/postman/launching_postman/postman_account) However, you can [share collections as a file](#sharing-as-a-file) regardless if you are signed in or not.
 
 #### Sharing collections in the app
 
