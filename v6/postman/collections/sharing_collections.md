@@ -15,7 +15,7 @@ Postman enables you to share Collections in Workspaces from the Postman app and 
 
 **In the sidebar**
 
-In the Postman app, select a collection in the sidebar and click the ellipses **(...)** button.
+In the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
 
 Select "Share Collection". 
 
