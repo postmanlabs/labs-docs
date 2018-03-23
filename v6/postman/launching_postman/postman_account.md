@@ -99,7 +99,9 @@ In Postman web, click the **Dashboard** button, and then click the "Settings" ic
 
 [![settings icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/settings-icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/settings-icon.png)
 
-In your [Profile and Account](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"}  page, hover over the image icon to display a Pencil (edit) icon.
+In the left navigation sidebar, click "Profile and Account".
+
+In the Profile and Account page, hover over the image icon to display a Pencil (edit) icon.
 
 [![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-account-page2.png)
 
