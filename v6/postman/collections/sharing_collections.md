@@ -17,7 +17,13 @@ Postman enables you to share Collections in Workspaces from the Postman app and 
 
 In the Postman app, select a collection in the sidebar and click the ellipses **(...)** button.
 
-Select "Share Collection". The **SHARE COLLECTION** modal appears. It offers three ways to share a collection: "Share in another workspace", "Embed", and "Get Link".
+Select "Share Collection". 
+
+The **SHARE COLLECTION** modal appears. It offers three ways to share a collection:
+
+* Share in another workspace
+* Embed 
+* Get Link
 
 [![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
 
