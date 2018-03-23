@@ -95,7 +95,7 @@ Check your email for instructions to recover your username or password.
 
 You can customize your Postman account with a profile picture that shows your username throughout the Postman dashboard.
 
-In [Postman web](https://www.getpostman.com/), click the **Dashboard** button, and then click the "Settings" icon.
+In [Postman web](https://www.getpostman.com/){:target="_blank"}, click the **Dashboard** button, and then click the "Settings" icon.
 
 [![settings icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/settings-icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/settings-icon.png)
 
