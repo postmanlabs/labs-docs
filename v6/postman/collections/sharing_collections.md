@@ -5,36 +5,70 @@ warning: false
 
 ---
 
-You must be signed in to your [Postman account](/docs/postman/launching_postman/postman_account) to upload or share a collection.  Click the ellipses **(...)** button next to the collection you wish to share. Select "Share" to open the **SHARE COLLECTION** modal which will contain most of ways that you can share a collection.
 
-[![share collection from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-sharing-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-sharing-collection.png)
 
-### Sharing a collection with your team (Pro feature)
+Postman enables you to share Collections in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
-If you are a member of a team using Postman Pro or Enterprise, you can [share a collection with the rest of your team](/docs/postman/team_library/sharing#sharing-collections). Under the **Team Sharing** tab of the **SHARE COLLECTION** modal, you can designate view or edit permissions for your team.  You can also choose to share the collection with your whole team or assign individual permissions for team members. 
+**Note**: Before you can upload or share a collection, you must sign in to your [Postman account](/docs/v6/postman/launching_postman/postman_account). However, you can [share collections as a file](#sharing-as-a-file) without being signed in.
 
-[![share collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-mode1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-mode1.png)
+### Sharing collections in the app
 
-A team’s shared collections can be viewed in the [team library](/docs/postman/team_library/sharing). This is where you can subscribe to collections that others have shared.
+**In the sidebar**
 
-[![team library view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-appView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-appView.png)
+In the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
 
-### Sharing with a link
+Select "Share Collection". 
 
-Generate a shareable link for others to access your collections. This is not the recommended method for sharing collections.  Collection links reflect the collection as a snapshot in time, and must be updated to refresh the changes to the collection.
+The **SHARE COLLECTION** modal appears. It offers three ways to share a collection:
 
-You can manage a complete list of collection links from the [dashboard]({{site.pm.gs}}/dashboard/collections/links){:target="_blank"}.
+* Share in another workspace
+* Embed 
+* Get Link
 
-[![share collection with a link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-link-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-link-1.png)
+[![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
 
-### Sharing as a Run in Postman button
+**Sharing collections in another workspace**
 
-Under the **Embed Button** tab of the **SHARE COLLECTION** modal, you can create a **Run in Postman** button to share your collection. Just with collection links, the collection should be manually updated to reflect new changes in the collection.  Learn more about [generating and embedding the button](/docs/postman_for_publishers/run_button/creating_run_button).
+Select this option to add a collection to a team workspace. The collection is visible to the team.
 
-[![share collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-RIP.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-RIP.png)
+In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then click the **Share** button. The collection is visible in your target workspace.
+
+[![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)
+
+**Sharing collections with the Embed or Run In Postman button**
+
+Select this option to embed a **[Run in Postman](/docs/v6/postman_for_publishers/run_button/creating_run_button){:target="_blank"}** button in your collection for your API documentation, website, or Github readme. 
+
+The **Run in Postman** button lets anyone import and run this collection with one click. When you click the **Generate    Code** button, you get a link that you can use for a dynamic or static button. You can also select the environment you want for the generated code.
+
+The **Run in Postman** button shares the collection directly from Postman, so the collection is uploaded to Postman servers when you generate the embed code.
+
+[![share embed-rip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)
+
+**Sharing collections with a link**
+
+Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
+
+[![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
+
+**In the Build menu**
+
+In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
+
+Select "Browse", and then select a collection. 
+
+Click the **Share** button.
+
+### Sharing collections in the Dashboard
+
+In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select a collection. 
+
+Click the **Share** button.
 
 ### Sharing as a file
 
-Collections can be downloaded as a JSON file which you can share with others, with or without signing in through your Postman account. You can share collections anonymously, but it is strongly recommended to sign in to your Postman account when uploading collections. This will let you update your existing collection, make it public, or delete it later.
+You can download collections as a JSON file to share with others, with or without signing in to your Postman account. 
 
-Learn more about [exporting and importing collections](/docs/postman/collections/data_formats), and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}.
+You can share collections anonymously, but we strongly recommend you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
+
+Learn more about [exporting and importing collections](/docs/v6/postman/collections/data_formats), and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}.
