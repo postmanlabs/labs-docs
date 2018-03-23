@@ -61,6 +61,8 @@ Click the **Share** button.
 
 ### Sharing as a file
 
-Collections can be downloaded as a JSON file which you can share with others, with or without signing in through your Postman account. You can share collections anonymously, but it is strongly recommended to sign in to your Postman account when uploading collections. This will let you update your existing collection, make it public, or delete it later.
+You can download collections as a JSON file to share with others, with or without signing in to your Postman account. 
+
+You can share collections anonymously, but we strongly recommended you to sign in to your Postman account when uploading collections. When you're signed you can update your existing collection, make it public, or delete it later.
 
 Learn more about [exporting and importing collections](/docs/postman/collections/data_formats), and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}.
