@@ -30,7 +30,7 @@ You can share a collection from one workspace to another. If you have the approp
 
 As a Postman Pro or Enterprise user, you can create team workspaces for ongoing development or short-term collaborations. You can add and remove workspace members from among all of the organization’s paid users. Each workspace contains a shareable team request history that enables developers to debug requests and API usage collaboratively.
 
-Postman Pro and Enterprise teams receive two free support accounts. Support account users can’t access team elements, but they can manage team administrative activities, such as billing or invoices. Also support account users can [create personal workspaces](docs/v6/postman/workspaces/creating_workspaces){:target="_blank"}.
+Postman Pro and Enterprise teams receive two free support accounts. Support account users can’t access team elements, but they can manage team administrative activities, such as billing or invoices. Also support account users can [create personal workspaces](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"}.
 
 
 ### Why use workspaces?
