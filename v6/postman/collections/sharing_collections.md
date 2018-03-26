@@ -75,8 +75,22 @@ Learn more about [exporting and importing collections](/docs/v6/postman/collecti
 
 ### Modifying team permissions
 
-You can share collections with your entire team or assign individual permissions for team members. Team adminscan designate view or edit permissions for your team. 
+You can share collections with your entire team or assign individual permissions for team members. Team admins can designate view or edit permissions for your team. **Note**: You must be a team admin to modify team permissions
 
-[![modify team permissions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions2.png){:target="_blank"}
+To assign or modify team permissions:
+
+In the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
+
+[![modify team permissions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions2.png)
+
+Select "Modify permissions".
+
+
+
+[![modify team permissions modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)
+
+
+
+
 
 
