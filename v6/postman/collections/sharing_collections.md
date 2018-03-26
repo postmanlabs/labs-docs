@@ -85,7 +85,9 @@ In the Postman app, select a collection in the sidebar and click the ellipsis **
 
 Select "Modify permissions".
 
+In the MODIFY PERMISSIONS modal, select the default team permission, add the email address of the user, and assign the level of permission for the user. **Note**: Changes made in this modal modifies the permissions of the collection. 
 
+Click the **Save Changes** button to complete the process.
 
 [![modify team permissions modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)
 
