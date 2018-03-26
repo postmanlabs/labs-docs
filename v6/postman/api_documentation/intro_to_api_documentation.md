@@ -85,5 +85,5 @@ We support GitHub flavored markdown so you can include tables. When including bl
 [![example of published documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-doc-markdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-doc-markdown.png)
 
 ### Free documentation views with your Postman account
-
-Your Postman account gives you a limited number of free documentation views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
+ 
+Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
