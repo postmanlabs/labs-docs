@@ -62,7 +62,7 @@ Open the Postman app.
 
 In the **Create New** tab, click "Documentation".
 
-Follow step 3-6 in the previous **New** button section. 
+Follow the steps outlined in the previous **New** button section. 
    
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
