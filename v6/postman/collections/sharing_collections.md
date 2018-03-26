@@ -77,6 +77,6 @@ Learn more about [exporting and importing collections](/docs/v6/postman/collecti
 
 You can share collections with your entire team or assign individual permissions for team members. Team adminscan designate view or edit permissions for your team. 
 
-[![modify team permissions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions.png){:target="_blank"}
+[![modify team permissions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions2.png){:target="_blank"}
 
 
