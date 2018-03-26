@@ -75,7 +75,7 @@ Learn more about [exporting and importing collections](/docs/v6/postman/collecti
 
 ### Modifying team permissions
 
-You can share collections with your entire team or assign individual permissions for team members. Team admins can designate view or edit permissions for your team. **Note**: You must be a team admin to modify team permissions
+You can share collections with your entire team or assign individual permissions for team members. Team admins can designate view or edit permissions for your team. **Note**: You must be a team admin to modify team permissions.
 
 To assign or modify team permissions:
 
