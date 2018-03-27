@@ -19,7 +19,14 @@ To [access the private view](/docs/v6/postman/api_documentation/viewing_documen
 
 **Postman web**
 
-To access the private view of your team documenation, go to your [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. Click the "View all collections" link. Then click the collection you want (/docs/v6/postman/workspaces/using_workspaces#publishing-collections){:target="_blank"}" to generate the documentation.
+To access the private view of your team documenation, go to your [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
+
+Click the "View all collections" link. 
+
+[![view all collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)
+
+
+Click the collection you want (/docs/v6/postman/workspaces/using_workspaces#publishing-collections){:target="_blank"}" to generate the documentation.
 
 [![click the collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/click-collection-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/click-collection-private-view.png)
 
