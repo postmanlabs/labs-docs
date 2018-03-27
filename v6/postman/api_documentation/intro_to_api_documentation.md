@@ -9,11 +9,16 @@ Postman's API Documentation feature lets you share public or private API documen
 
 Postman generates and hosts browser-based API documentation for your Collections automatically in real-time. Each collection has a private and public documentation view that Postman generates from synced data in the servers. 
 
-Click "View in web" in the Postman app to [access the private view](/docs/v6/postman/api_documentation/viewing_documentation){:target="_blank"} of your team. 
+**Postman app**
+
+To [access the private view](/docs/v6/postman/api_documentation/viewing_documentation){:target="_blank"} of your team documentation, click the **<** icon in a collection and then click "View in web". 
 
 [![view doc sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)
 
-Click "Publish" in your [Workspace](https://www.getpostman.com/docs/v6/postman/workspaces/using_workspaces#publishing-collections){:target="_blank"} collections.
+**Postman web**
+
+In your [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, click "View all collections" link. Select and collection and click the ellipsis (...) button and click "[Publish](/docs/v6/postman/workspaces/using_workspaces#publishing-collections){:target="_blank"}". 
+
 
 When you [publish your documentation](/docs/v6/postman/api_documentation/publishing_public_docs){:target="_blank"}, you can use the public link to view the documentation. The public link displays after you publish your documentation. The documentation is also accessible in the "Published" dropdown in the private documentation view.
 
