@@ -31,7 +31,9 @@ Click a collection to generate the documentation.
 
 ### Public documentation view
 
-When you [publish your documentation](/docs/v6/postman/api_documentation/publishing_public_docs){:target="_blank"}, you can use the public link to view the documentation. The public link displays after you publish your documentation. The documentation is also accessible in the "Published" dropdown in the private documentation view.
+When you [publish your documentation](/docs/v6/postman/api_documentation/publishing_public_docs){:target="_blank"}, you can use the public link to view the documentation. 
+
+The public link displays after you publish your documentation. The documentation is also accessible in the "Published" dropdown in the private documentation view.
 
 ### Creating documentation
 
