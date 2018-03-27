@@ -13,7 +13,7 @@ Postman generates and hosts browser-based API documentation for your Collections
 
 **Postman app**
 
-To [access the private view](/docs/v6/postman/api_documentation/viewing_documentation){:target="_blank"} of your team documentation, go to the sidebar and click the **>** icon of a collection. Then click "View in web" to generate the documentation for the collection.
+To [access the private view](/docs/v6/postman/api_documentation/viewing_documentation){:target="_blank"} of your team documentation, go to the sidebar and click the **>** icon in the collection you want to view. Then click "View in web" to generate the documentation for the collection.
 
 [![view doc sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)
 
