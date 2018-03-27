@@ -25,8 +25,7 @@ Click the "View all collections" link.
 
 [![view all collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-all-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-all-collections.png)
 
-
-
+Click a collection to generate the documentation.
 
 [![click the collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/click-collection-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/click-collection-private-view.png)
 
