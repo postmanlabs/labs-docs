@@ -23,7 +23,8 @@ To access the private view of your team documenation, go to your [workspaces das
 
 Click the "View all collections" link. 
 
-[![view all collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-all-collections.png](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-all-collections.png)
+[![view all collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-all-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-all-collections.png)
+
 
 
 
