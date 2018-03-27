@@ -19,6 +19,8 @@ To [access the private view](/docs/v6/postman/api_documentation/viewing_documen
 
 To access the private view of your team documenation in the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, click the "View all collections" link. Then click the collection (/docs/v6/postman/workspaces/using_workspaces#publishing-collections){:target="_blank"}" to generate the documentation.
 
+[![click the collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/click-collection-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/click-collection-private-view.png)
+
 
 When you [publish your documentation](/docs/v6/postman/api_documentation/publishing_public_docs){:target="_blank"}, you can use the public link to view the documentation. The public link displays after you publish your documentation. The documentation is also accessible in the "Published" dropdown in the private documentation view.
 
