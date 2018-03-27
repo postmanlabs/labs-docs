@@ -23,8 +23,7 @@ To access the private view of your team documenation, go to your [workspaces das
 
 Click the "View all collections" link. 
 
-[![view all collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)
-
+[![view all collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-all-collections.png](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-all-collections.png)
 
 Click the collection you want (/docs/v6/postman/workspaces/using_workspaces#publishing-collections){:target="_blank"}" to generate the documentation.
 
