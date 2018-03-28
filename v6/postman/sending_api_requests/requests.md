@@ -52,7 +52,7 @@ When you enter the request URL in the URL input field, previously-used URLs wil
 
 Click the** Params** button to open the [data editor](/docs/postman/launching_postman/navigating_postman) for URL parameters. When you add key-value pairs, Postman combines everything in the query string above. If your URL already has parameters - for example, if you are pasting a URL from some other source. Postman splits the URL into pairs automatically.
 
-**Note: **Parameters you enter in the URL bar or in the data editor will not automatically be URL-encoded. Right click a piece of selected text, and select "EncodeURIComponent" to manually encode the parameter value.
+**Note**: Parameters you enter in the URL bar or in the data editor will not automatically be URL-encoded. Right click a piece of selected text, and select "EncodeURIComponent" to manually encode the parameter value.
 
 **Note:** Postman automatically adds `http://` to the beginning of the URL if no protocol is specified.
 
