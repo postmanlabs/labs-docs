@@ -42,7 +42,7 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 
 ### Using Workspaces build view
 
-In Workspaces, you can [create any kind of HTTP request] (https://elispostman.github.io/docs/postman/launching_postman/sending_the_first_request){:target="_blank"} quickly. The four parts of an HTTP request are the URL, method, headers, and the body. Postman gives you tools to work with each of these parts.
+In Workspaces, you can [create any kind of HTTP request](/docs/v6/postman/launching_postman/sending_the_first_request){:target="_blank"} quickly. The four parts of an HTTP request are the URL, method, headers, and the body. Postman gives you tools to work with each of these parts.
 
 [![workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspace-area.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspace-area.png)
 
@@ -78,7 +78,7 @@ Clicking on the **Headers** tab shows the headers key-value editor. You can set 
 
 ### Cookies
 
-You can manage Cookies in native apps by using the cookie manager to edit cookies associated with each domain. To open the modal, click the **Cookies** link under the **Send** button. For more information, see [Managing cookies](/docs/postman/sending_api_requests/cookies).
+You can manage Cookies in native apps by using the cookie manager to edit cookies associated with each domain. To open the modal, click the **Cookies** link under the **Send** button. For more information, see [Managing cookies](/docs/v6/ppostman/sending_api_requests/cookies).
 
 [![manage cookies modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies.png)
 
@@ -98,13 +98,13 @@ Use the control dropdown to change the request method is straightforward. The re
 
 While constructing requests, you'll work frequently with the request body editor. Postman lets you send almost any kind of HTTP request. The body editor is divided into 4 areas and has different controls, depending on the body type.
 
-**Note about Headers:** When you are sending requests through the HTTP protocol, your server might expect a Content-Type header. The Content-Type header allows the server to parse the body properly. For form-data and urlencoded body types, Postman automatically attaches the correct Content-Type header so you don't have to set it. The raw mode header is set when you select the formatting type. If you manually use a Content-Type header, that value takes precedence over what Postman sets. Postman does not set any header type for the binary body type.
+**Note about Headers**: When you are sending requests through the HTTP protocol, your server might expect a Content-Type header. The Content-Type header allows the server to parse the body properly. For form-data and urlencoded body types, Postman automatically attaches the correct Content-Type header so you don't have to set it. The raw mode header is set when you select the formatting type. If you manually use a Content-Type header, that value takes precedence over what Postman sets. Postman does not set any header type for the binary body type.
 
 ##### **Form-data**
 
 [![form-data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestBuilderForm.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestBuilderForm.png)
 
-`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs (using the [data editor](/docs/postman/launching_postman/navigating_postman)) for your data. You can attach files to a key as well. Note: due to restrictions of the HTML 5 spec, files are not stored in history or collections. You will need to select the file again the next time you send the request.
+`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs (using the [data editor](/docs/v6/ppostman/launching_postman/navigating_postman)) for your data. You can attach files to a key as well. Note: due to restrictions of the HTML 5 spec, files are not stored in history or collections. You will need to select the file again the next time you send the request.
 
 Uploading multiple files each with their own Content-Type is not supported yet.
 
@@ -118,9 +118,9 @@ This encoding is the same as the one used in URL parameters. You just need to en
 
 [![raw data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960775.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960775.png)
 
-A raw request can contain anything. Postman doesn’t touch the string entered in the raw editor except replacing [environment variables](/docs/postman/environments_and_globals/variables). Whatever you put in the text area gets sent with the request. The raw editor lets you set the formatting type along with the correct header that you should send with the raw body. You can set the Content-Type header manually too and this will override the Postman defined setting. Selecting XML/JSON in the editor type enables syntax highlighting for your request body and also sets the Content-Type header.
+A raw request can contain anything. Postman doesn’t touch the string entered in the raw editor except replacing [environment variables](/docs/v6/ppostman/environments_and_globals/variables). Whatever you put in the text area gets sent with the request. The raw editor lets you set the formatting type along with the correct header that you should send with the raw body. You can set the Content-Type header manually too and this will override the Postman defined setting. Selecting XML/JSON in the editor type enables syntax highlighting for your request body and also sets the Content-Type header.
 
-**Tip: **Selecting text in the editor and pressing **CMD/CTRL + B **can beautify the XML/JSON content automatically.
+**Tip**: Selecting text in the editor and pressing **CMD/CTRL + B **can beautify the XML/JSON content automatically.
 
 ##### **Binary**
 
