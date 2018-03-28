@@ -42,7 +42,7 @@ The "Create New" screen appears by default when you launch Postman. At the botto
 
 ### Using Workspaces build view
 
-In Workspaces, you can [create any kind of HTTP request] quickly(https://elispostman.github.io/docs/postman/launching_postman/sending_the_first_request){:target="_blank"}. The four parts of an HTTP request are the URL, method, headers, and the body. Postman gives you tools to work with each of these parts.
+In Workspaces, you can [create any kind of HTTP request] (https://elispostman.github.io/docs/postman/launching_postman/sending_the_first_request){:target="_blank"} quickly. The four parts of an HTTP request are the URL, method, headers, and the body. Postman gives you tools to work with each of these parts.
 
 [![workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspace-area.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspace-area.png)
 
