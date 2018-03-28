@@ -72,3 +72,25 @@ You can download collections as a JSON file to share with others, with or withou
 You can share collections anonymously, but we strongly recommend you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
 
 Learn more about [exporting and importing collections](/docs/v6/postman/collections/data_formats), and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}.
+
+### Modifying team permissions
+
+You can share collections with your entire team or assign individual permissions for team members. Team admins can designate view or edit permissions for your team. **Note**: You must be a team admin to modify team permissions.
+
+To assign or modify team permissions in the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
+
+[![modify team permissions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions2.png)
+
+Select "Modify permissions".
+
+In the **MODIFY PERMISSIONS** modal, select the default team permission, add the email address of the user, and assign the level of permission for the user. **Note**: Changes made in this modal modifies the permissions of the collection. 
+
+Click the **Save Changes** button to complete the process.
+
+[![modify team permissions modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)
+
+
+
+
+
+
