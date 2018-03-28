@@ -74,7 +74,7 @@ Clicking on the **Headers** tab shows the headers key-value editor. You can set 
 
 [![autocomplete headers](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headers_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headers_white.png)
 
-**Note on restricted headers: **If you're using the Postman Chrome app, some headers are restricted by Chrome and the XMLHttpRequest specification. However, sending restricted headers is simple using the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension).  
+**Note on restricted headers**: If you're using the Postman Chrome app, some headers are restricted by Chrome and the XMLHttpRequest specification. However, sending restricted headers is simple using the [Interceptor extension](/docs/v6/ppostman/sending_api_requests/interceptor_extension).  
 
 ### Cookies
 
@@ -120,7 +120,7 @@ This encoding is the same as the one used in URL parameters. You just need to en
 
 A raw request can contain anything. Postman doesn’t touch the string entered in the raw editor except replacing [environment variables](/docs/v6/ppostman/environments_and_globals/variables). Whatever you put in the text area gets sent with the request. The raw editor lets you set the formatting type along with the correct header that you should send with the raw body. You can set the Content-Type header manually too and this will override the Postman defined setting. Selecting XML/JSON in the editor type enables syntax highlighting for your request body and also sets the Content-Type header.
 
-**Tip**: Selecting text in the editor and pressing **CMD/CTRL + B **can beautify the XML/JSON content automatically.
+**Tip**: Selecting text in the editor and pressing **CMD/CTRL + B** can beautify the XML/JSON content automatically.
 
 ##### **Binary**
 
