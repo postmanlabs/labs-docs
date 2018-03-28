@@ -90,7 +90,7 @@ You can save commonly used headers together in a header preset. Under the **Head
 
 ### Method
 
-Use the control dropdown to change the request method is straightforward. The request body editor area changes depending on whether the method can have a body attached to it.
+Use the control dropdown to change the request method. The request body editor area changes depending on whether the method can have a body attached to it.
 
 [![url methods](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)
 
