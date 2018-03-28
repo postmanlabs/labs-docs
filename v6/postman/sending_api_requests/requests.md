@@ -78,7 +78,7 @@ Clicking on the **Headers** tab shows the headers key-value editor. You can set 
 
 ### Cookies
 
-You can manage Cookies in native apps by using the cookie manager to edit cookies associated with each domain. To open the modal, click the **Cookies** link under the **Send** button. For more information, see [Managing cookies](/docs/v6/ppostman/sending_api_requests/cookies).
+You can manage Cookies in native apps by using the cookie manager to edit cookies associated with each domain. To open the modal, click the **Cookies** link under the **Send** button. For more information, see [Managing cookies](/docs/v6/postman/sending_api_requests/cookies).
 
 [![manage cookies modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies.png)
 
