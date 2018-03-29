@@ -72,7 +72,7 @@ In the Create New tab, click "Mock Server".
 
 Follow the steps in the previous **New** button section. 
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the Create New tab to display each time you open Postman.
 
 
 ### Using HTTP access control (CORS) for a mock
