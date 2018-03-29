@@ -24,6 +24,8 @@ In the **Add a Custom Domain** page, enter the URL of the domain you want to add
 
 Click the **Proceed** button to verify the domain.
 
+**Note**: Pro teams can add up to 5 domains.
+
 ### Verify Domain
 
 To verify a domain, check the box to confirm you added the TXT and CNAME records. Next click the **Verify Domain** button. A message appears to confirm the custom domain has been verified. 
