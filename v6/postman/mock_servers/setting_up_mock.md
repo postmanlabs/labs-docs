@@ -46,7 +46,7 @@ Select if you want to mock a new API or an existing or team collection. If you c
 
 After you select or create the request you want to mock, click the **Next** button.
   
-In the **Configure mock server** tab, you must:
+In the Configure mock server tab, you must:
   
 * Enter the name of the mock
 * Select an environment (optional).
