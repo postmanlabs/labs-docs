@@ -11,7 +11,7 @@ Delays on the front- or back-end make it difficult for dependent teams to comple
 
 Front-end developers can create a mock server to simulate each endpoint and its corresponding response in a Postman Collection, before sending the actual request. Developers can view potential responses, without spinning up a back end.
 
-Creating a [mock example](/docs/postman/collections/examples){:target="_blank"} during the earliest phase of API development fosters clear communication among team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
+Creating a [mock example](/docs/v6/postman/collections/examples){:target="_blank"} during the earliest phase of API development fosters clear communication among team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
 
 ### Setting up a mock server 
 
@@ -19,12 +19,12 @@ You can create a mock in several ways:
 
 * **New** button
 * Launch screen
-* [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"}
-* [Postman API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}
+* [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"}
+* [Postman API](/docs/v6/postman/mock_servers/mock_with_api){:target="_blank"}
   
-Mocks are accessible to the public by default. If you create a mock and specify that it is only to be available privately, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
+Mocks are accessible to the public by default. If you create a mock and specify that it is only to be available privately, Postman Pro and Enterprise users can [share the underlying collection](/docs/v6/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
-**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} or the [Postman API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}, click its link for detailed information.
+**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"} or the [Postman API](/docs/postman/mock_servers/mock_with_api){:target="_blank"}, click its link for detailed information.
 
 #### New button
 
@@ -79,7 +79,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 ### Using HTTP access control (CORS) for a mock
 
-In addition to using the [Postman app](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} to make requests to mock endpoints, you also can make those requests in a browser.
+In addition to using the [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"} to make requests to mock endpoints, you also can make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. 
 
