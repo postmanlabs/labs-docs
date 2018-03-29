@@ -443,7 +443,7 @@
           "title": "Conflicts",
           "href": "/docs/v6/postman/team_library/conflicts",
           "external": false
-       }
+       },
       {
 	"title": "Sharing collections in Workspaces for version 5",
 	"href": "/docs/v6/postman/workspaces/sharing_collections_in_workspaces_for_version_5",
