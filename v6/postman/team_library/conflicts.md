@@ -5,9 +5,9 @@ warning: false
 ---
 
 
-Postman's conflict management allows you to work collaboratively even while you are offline. Your work will be safely synced when you come online without any accidental changes to your teammates' work. 
+Postman's conflict management allows you to work collaboratively while you are offline. Your work will be safely synced when you're online—without any accidental changes to your teammates' work. 
 
-While syncing your changes, if you made a change that might overwrite your teammates' work, the **RESOLVE SYNC CONFLICTS** modal will prompt you to choose which conflicting version to keep.
+While syncing your changes, if you made a change that might overwrite your teammates' work, the **RESOLVE SYNC CONFLICTS** modal prompts you to choose which conflicting version to keep.
 
 Here's an example of how to manage conflicts. Suppose you share a collection named "My API" with your team and permit your teammate, Bob, to edit the collection. Bob subscribes to this collection from the Team Library and starts working with this collection.
 
@@ -21,4 +21,4 @@ In the **RESOLVE SYNC CONFLICTS** modal, "Local Value" is the version currently
 
 To keep your changes and overwrite Bob's changes, check the "Local Value" and click the orange **Resync** button. 
 
-To discard your changes and keep Bob's change, check "Server Value" and click the orange **Resync** button. Resyncing updates your local data and completes the sync to Postman.
+To discard your changes and keep Bob's change, check "Server Value". Then click the orange **Resync** button. Resyncing updates your local data and completes the sync to Postman.
