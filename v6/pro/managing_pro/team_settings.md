@@ -42,6 +42,8 @@ You can see your domain in the Custom Domain list.
 
 [![custom domain list](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-customDomains.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-customDomains.jpeg)
 
+**Note**: Pro teams can add up to 5 domains.
+
 ### Authentication
 
 In the Authentication settings, you can choose a Single Sign On authentication provider to create a custom authentication method for your team.
