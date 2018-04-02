@@ -5,7 +5,7 @@ warning: false
 ---
 
 
-### Simulating a back-end with Postman's mock server
+### Simulating a back-end with Postman's mock servers
 
 Delays on the front- or back-end make it difficult for dependent teams to complete their work efficiently. Postman's mock servers can alleviate those delays in the development process. 
 
