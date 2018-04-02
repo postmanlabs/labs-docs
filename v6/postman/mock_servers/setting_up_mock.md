@@ -13,7 +13,7 @@ Before sending an actual request, front-end developers can create a mock server 
 
 Creating a [mock example](/docs/v6/postman/collections/examples){:target="_blank"} during the earliest phase of API development fosters clear communication among team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
 
-Postman offers two types of mock servers: private and public.
+Postman lets you create two types of mock servers: private and public.
 
 **Private mock servers**
 
@@ -35,8 +35,7 @@ You can create a mock in several ways:
 * Launch screen
 * [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"}
 * [Postman API](/docs/v6/postman/mock_servers/mock_with_api){:target="_blank"}
-  
-Mocks are accessible to the public by default. If you create a mock and specify that it is only to be available privately, Postman Pro and Enterprise users can [share the underlying collection](/docs/v6/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
+ 
 
 **Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"} or the [Postman API](/docs/v6/postman/mock_servers/mock_with_api){:target="_blank"}, click its link for detailed information.
 
