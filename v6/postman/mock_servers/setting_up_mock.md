@@ -17,7 +17,7 @@ Postman offers two types of mock servers: private and public.
 
 **Private mock servers**
 
-Private mock servers require users to add a Postman API key in the request header. x-api-key:<your postman API key>
+Private mock servers require users to add a Postman API key in the request header. x-api-key:your postman API key
 
 If you create a private mock server, Postman Pro and Enterprise users can share the underlying collection with the team or specific team members, and provide permissions to edit or view. 
 
