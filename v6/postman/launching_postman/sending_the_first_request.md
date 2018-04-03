@@ -15,7 +15,7 @@ Let's send our first API request! 
 
 Let's map the process with a simple illustration below:
 
-[![request and response illustration]https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)
+[![request and response illustration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)
 
 1.  Enter your request details (URL: `postman-echo.com/get`) in Postman, and hit the **Send** button.
 2.  The request is received by the API server (postman-echo.com), and it returns a response.
