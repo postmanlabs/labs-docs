@@ -6,7 +6,7 @@ warning: false
 
 An API request lets you contact a server with API endpoints that you want to reach and perform some action. Those actions are HTTP methods. 
 
-The most common methods are GET, POST, PUT, and DELETE. The names of the methods are self-explanatory. For example GET enables you to retrieve data from a server. POST enables you to add data to an existing file or resource in a server. PUT lets you replace an existing file or resource in a server. And DELETE enables you to delete data from a server.
+The most common methods are GET, POST, PUT, and DELETE. The names of the methods are self-explanatory. For example GET enables you to retrieve data from a server. POST enables you to add data to an existing file or resource in a server. PUT lets you replace an existing file or resource in a server. And DELETE lets you to delete data from a server.
 
 Postman makes sending API requests simple. As you can see in the image below, when you enter a request in Postman and click the **Send** button, the server receives your request and returns a response that Postman displays in the interface.
 
