@@ -16,8 +16,6 @@ Now let's send our first API request! 
 
 Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722){:target="_blank"} into the URL field. 
 
-[![request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PM-URL-field.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PM-URL-field.png)
-
 Click the **Send** button to send your request, and you will see the server response at the bottom with some JSON data. 
 
 [![request response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)
