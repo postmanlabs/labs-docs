@@ -4,16 +4,13 @@ page_id: "sending_the_first_request"
 warning: false
 ---
 
-### Intro
-Postman makes sending API requests simple.
+An API request lets you contact a server with API endpoints that you want to perform some action. Those actions are HTTP methods. The most common methods are GET, POST, PUT, and DELETE. The names of the methods are self-explanatory. For example GET enables to retrieve data from a server. POST enables you to add data to a server. PUT lets you blank to a server. And DELETE enables you to delete data from a server.
 
-### How does this work?
-
-Let's map the process with a simple illustration below:
+Postman makes sending API requests simple. Let's map the process with a simple illustration below:
 
 [![request and response illustration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)
 
-### Send a request
+### Sending a request
 
 Now let's send our first API request! 
 
@@ -21,8 +18,6 @@ Now let's send our first API request! 
 *   Hit the **Send** button to send your request, and you will see the server response at the bottom with some JSON data. Notice that Postman has added [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722){:target="_blank"} under the **History** tab of the sidebar. 
 
 [![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)
-
-
 
 
 ### Postman Echo
