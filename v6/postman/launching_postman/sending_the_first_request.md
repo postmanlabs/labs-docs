@@ -31,4 +31,4 @@ Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/
 
 [`postman-echo.com`](https://docs.postman-echo.com/){:target="_blank"} is a sample API that Postman hosts for you to experiment with various types of requests. It returns the data that you send in the request as part of its response.
 
-Import this sample collection and refer to [documentation for this sample API](https://docs.postman-echo.com/){:target="_blank"}.
+To learn more about Postman Echo, see the [documentation for this sample API](https://docs.postman-echo.com/){:target="_blank"}.
