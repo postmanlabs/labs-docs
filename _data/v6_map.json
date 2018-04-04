@@ -128,8 +128,7 @@
 	    "title": "Intro to collections",
             "href": "/docs/v6/postman/collections/intro_to_collections",
             "external": false  
-	  },  	  
-		  
+	  },  	  	  
           {
             "title": "Creating collections",
             "href": "/docs/v6/postman/collections/creating_collections",
