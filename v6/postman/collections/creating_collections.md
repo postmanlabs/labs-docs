@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-### Creating a new collection
+### How to create collections
 
 You can create a new collection from the:
 * Sidebar
