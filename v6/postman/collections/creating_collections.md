@@ -5,6 +5,8 @@ warning: false
 
 ---
 
+Postman Collections are a group of saved requests you can organize into folders. Let's explore how to create collections in Postman.
+
 ### How to create collections
 
 You can create a new collection from the:
@@ -17,7 +19,7 @@ You can create a new collection from the:
 
 #### Sidebar
 
-1. In the sidebar, select "Collections" and click the "Collections" icon.
+In the sidebar, select "Collections" and click the "Collections" icon.
 
   [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
  
@@ -89,17 +91,23 @@ You can save a request to a collection from the:
 
 #### Build view
 
-1. In the Workspaces build view, enter a new request in the builder.
-2. Click the **Save** button. 
-3. In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
-4. Click the **Save** button.
+In the Workspaces build view, enter a new request in the builder.
+
+Click the **Save** button. 
+
+In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
+
+Click the **Save** button.
 
  
 #### New button
-1. In the header toolbar, click the **New** button.
-2. Click "Request".
-3. In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
-4. Click the **Save** button.
+In the header toolbar, click the **New** button.
+
+Click "Request".
+
+In the **SAVE REQUEST** modal, enter a request name and select a collection or folder to save the request.
+
+Click the **Save** button.
 
 After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
@@ -148,7 +156,6 @@ Click the ellipsis (...) to expand the control dropdown. 
    
 [![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
 
- Select "Duplicate" from the menu.
-
+Select "Duplicate" from the menu.
 
 Learn how to [share collections](/docs/postman/collections/sharing_collections){:target="_blank"}, [import and export collections](/docs/postman/collections/data_formats){:target="_blank"}, and [use other collection features](/docs/postman/collections/managing_collections){:target="_blank"}.  
