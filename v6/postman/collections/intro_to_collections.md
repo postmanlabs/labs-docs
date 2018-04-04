@@ -1,6 +1,6 @@
 ---
 title: "Intro to collections"
-page_id: "intro_to_first_collections"
+page_id: "intro_to_collections"
 warning: false
 ---
 
