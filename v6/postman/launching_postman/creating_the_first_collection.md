@@ -19,7 +19,7 @@ Enter a request in the request builder and click the **Save** button to open th
 * As an optional step, enter a new request name. Otherwise, the default name will be the request URL.
 *   As an optional step, enter a request description in plain text or using [Markdown](/docs/postman/collections/using_markdown_for_descriptions).
 
-Save this request to an existing collection, or create a new collection by entering a collection name, and then hit **Save**.
+Save this request to an existing collection, or create a new collection by entering a collection name, and then click the **Save** button>
 
 [![save request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)
 
