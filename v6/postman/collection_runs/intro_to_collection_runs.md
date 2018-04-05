@@ -17,7 +17,7 @@ To run collections, you can use:
 
 * Postman app collection runner located in the header bar.
 
-[![runner button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button.png)
+[![runner button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button2.png)
 
 * [Newman](/docs/postman/collection_runs/command_line_integration_with_newman), Postman's command line tool.
 
