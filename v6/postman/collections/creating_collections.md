@@ -7,6 +7,16 @@ warning: false
 
 Postman Collections are a group of saved requests you can organize into folders. Let's explore how to create collections in Postman.
 
+* [How to create collections](#how-to-create-collections)
+
+* [Saving a request to a collection](#saving-a-request-to-a-collection)
+
+* [Saving to a collection from history](#saving-to-a-collection-from-history)
+
+* [Duplicating an existing collection](#duplicating-an-existing-collection)
+
+
+
 ### How to create collections
 
 You can create a new collection from the:
@@ -159,3 +169,10 @@ Click the ellipsis (...) to expand the control dropdown. 
 Select "Duplicate" from the menu.
 
 Learn how to [share collections](/docs/postman/collections/sharing_collections){:target="_blank"}, [import and export collections](/docs/postman/collections/data_formats){:target="_blank"}, and [use other collection features](/docs/postman/collections/managing_collections){:target="_blank"}.  
+
+For more information on collections, see:
+
+* [Intro to collections](/docs/v6/postman/collections/intro_to_collections){:target="_blank"}
+* [Sharing collections](/docs/v6/postman/collections/sharing_collections){:target="_blank"}
+* [Managing collections](/docs/v6/postman/collections/managing_collections){:target="_blank"}
+
