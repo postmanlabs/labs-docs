@@ -10,7 +10,7 @@ Before sending an actual request, front-end developers can create a mock server 
 
 * [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
 
-* [Using free mock server calls with your Postman account](#using-free-mock-server-calls-with-your-Postman-account)
+* [Using free mock server calls with your Postman account](#using-free-mock-server-calls)
 
 
 
@@ -85,7 +85,7 @@ A web browser makes a cross-origin HTTP request when it requests a resource from
 
 CORS is enabled for Postman mock servers. As a result, you can stub your web apps with mocked data using the mock endpoints. So development or production web apps can make requests to the Postman mock endpoint you just created and receive an example response.
 
-### Using free mock server calls with your Postman account
+### Using free mock server calls 
 
 Your Postman account gives you a limited number of free mock server calls per month. 
 
