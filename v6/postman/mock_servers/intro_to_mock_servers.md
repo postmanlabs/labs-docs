@@ -33,6 +33,8 @@ If you are a paid user, your team members can use their Postman API keys to cons
 
 Mock servers are public by default. Public mock servers are accessible to anyone. When you share a public mock server, users don’t need to add a Postman API key. 
 
+
+
 For more information about mock servers, see:
 
 * [Setting up a mock server](/docs/v6/postman/mock_servers/setting_up_mock){:target="_blank"}
