@@ -39,8 +39,8 @@ To learn more about Postman Echo, see the [documentation for this sample API](ht
 For more information about requests, see:
 
 * [Requests](/docs/v6/postman/sending_api_requests/requests){:target="_blank"}
-* [Requests History](/docs/v5/sending_and_viewing_responses/history){:target="_blank"}
-* [Troubleshooting API requests](/docs/v5/postman/sending_api_requests/troubleshooting_api_requests){:target="_blank"}
+* [Requests History](/docs/v6/sending_and_viewing_responses/history){:target="_blank"}
+* [Troubleshooting API requests](/docs/v6/postman/sending_api_requests/troubleshooting_api_requests){:target="_blank"}
 * [Capturing HTTP requests](/docs/v6/postman/sending_api_requests/capturing_http_requests){:target="_blank"}
 * [Making SOAP requests](/docs/v6/sending_and_viewing_responses/soap_requests){:target="_blank"}
 
