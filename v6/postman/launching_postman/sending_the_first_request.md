@@ -34,3 +34,15 @@ Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/
 [`postman-echo.com`](https://docs.postman-echo.com/){:target="_blank"} is a sample API that Postman hosts for you to experiment with various types of requests. It returns the data that you send in the request as part of its response.
 
 To learn more about Postman Echo, see the [documentation for this sample API](https://docs.postman-echo.com/){:target="_blank"}.
+
+
+For more information about requests, see:
+
+* [Requests](/docs/v6/postman/sending_api_requests/requests){:target="_blank"}
+* [Requests History](/docs/v5/sending_and_viewing_responses/history){:target="_blank"}
+* [Troubleshooting API requests](/docs/v5/postman/sending_api_requests/troubleshooting_api_requests){:target="_blank"}
+* [Capturing HTTP requests](/docs/v6/postman/sending_api_requests/capturing_http_requests){:target="_blank"}
+* [Making SOAP requests](/docs/v6/sending_and_viewing_responses/soap_requests){:target="_blank"}
+
+
+
