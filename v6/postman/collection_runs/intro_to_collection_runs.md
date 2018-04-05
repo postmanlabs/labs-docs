@@ -24,6 +24,7 @@ To run collections, you can use:
 * [Postman Monitors](/docs/postman/monitors/intro_monitors) to run collections in scheduled intervals.
 
 
+
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
