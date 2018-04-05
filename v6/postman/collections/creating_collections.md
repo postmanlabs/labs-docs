@@ -170,6 +170,8 @@ Select "Duplicate" from the menu.
 
 Learn how to [share collections](/docs/postman/collections/sharing_collections){:target="_blank"}, [import and export collections](/docs/postman/collections/data_formats){:target="_blank"}, and [use other collection features](/docs/postman/collections/managing_collections){:target="_blank"}.  
 
+
+
 For more information on collections, see:
 
 * [Intro to collections](/docs/v6/postman/collections/intro_to_collections){:target="_blank"}
