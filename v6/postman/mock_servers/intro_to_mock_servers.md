@@ -40,6 +40,6 @@ For more information about mock servers, see:
 * [Setting up a mock server](/docs/v6/postman/mock_servers/setting_up_mock){:target="_blank"}
 * [Mocking with examples](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"}
 * [Mocking with the Postman API](/docs/v6/postman/mock_servers/mock_with_api){:target="_blank"}
-* [Matching algorithm (for mocks](/docs/v6/postman/mock_servers/matching_algorithm){:target="_blank"}
+* [Matching algorithm (for mocks)](/docs/v6/postman/mock_servers/matching_algorithm){:target="_blank"}
 
 
