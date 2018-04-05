@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Postman Collections are a group of saved requests you can organize into folders. Let's explore how to create collections in Postman.
+Postman Collections are a group of saved requests you can organize into folders. This topic covers:
 
 * [How to create collections](#how-to-create-collections)
 
