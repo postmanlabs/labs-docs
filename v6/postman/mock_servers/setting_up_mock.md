@@ -8,7 +8,7 @@ Before sending an actual request, front-end developers can create a mock server 
 
 * [Setting up a mock server](#setting-up-a-mock-server)
 
-* [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)1
+* [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
 
 * [Using free mock server calls with your Postman account](#using-free-mock-server-calls-with-your-Postman-account)
 
