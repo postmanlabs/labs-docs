@@ -372,6 +372,11 @@
         "url_prefix": "mock_servers",
         "children": [
           {
+            "title": "Intro to mock servers",
+            "href": "/docs/v6/postman/mock_servers/intro_to_mock_servers",
+            "external": false
+          },
+	  {
             "title": "Setting up a mock server",
             "href": "/docs/v6/postman/mock_servers/setting_up_mock",
             "external": false
