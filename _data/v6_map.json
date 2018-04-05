@@ -123,12 +123,7 @@
       {
         "title": "Collections",
         "url_prefix": "collections",
-        "children": [
-	  {
-	    "title": "Intro to collections",
-            "href": "/docs/v6/postman/collections/intro_to_collections",
-            "external": false  
-	  },  	  	  
+        "children": [	  
           {
             "title": "Creating collections",
             "href": "/docs/v6/postman/collections/creating_collections",
