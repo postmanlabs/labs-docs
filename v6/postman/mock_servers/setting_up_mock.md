@@ -6,17 +6,15 @@ warning: false
 
 Before sending an actual request, front-end developers can create a mock server to simulate each endpoint and its corresponding response in a Postman Collection. Developers can view potential responses, without spinning up a back end.
 
-**Setting up a mock server**
+**Creating mock servers**
 
 * [New button](#new-button)
 
 * [Launch screen](#launch-screen)
 
-* [Editing descriptions of workspaces](#editing-descriptions-of-workspaces)
+* [Using HTTP access control (CORS) for a mock](#using-http-access-control-(CORS)-for-a-mock)
 
-* [Joining workspaces](#joining-workspaces)
-
-* [Leaving workspaces](#leaving-workspaces)
+* [Using free mock server calls with your Postman account](#Using free mock server calls with your Postman account)
 
 
 
