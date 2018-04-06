@@ -37,13 +37,15 @@ You can view different kinds of buckets in which values reside. If a variable is
 
 If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. 
 
-In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/){:target="_blank"} (only available in the [collection runner](/docs/postman/collection_runs/starting_a_collection_run)).
+In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/){:target="_blank"} (only available in the [collection runner](/docs/v6/postman/collection_runs/starting_a_collection_run)).
 
 ### Accessing variables in the request builder
 
 You can use variables in the following form in the Postman user interface - `{% raw %}` `{{variableName}}` `{% endraw %}`. 
 
-The string `{% raw %}` `{{variableName}}` `{% endraw %}` will be replaced with its corresponding value when Postman resolves the variable. For example, for an environment variable `url` with the value `http://localhost`, you will have to use `{% raw %}` `{{url}}` `{% endraw %}` in the request URL field. `{% raw %}``{{url}}``{% endraw %}` will be replaced by `http://localhost` when the request is sent.
+The string `{% raw %}` `{{variableName}}` `{% endraw %}` will be replaced with its corresponding value when Postman resolves the variable.
+
+For example, for an environment variable `url` with the value `http://localhost`, you will have to use `{% raw %}` `{{url}}` `{% endraw %}` in the request URL field. `{% raw %}``{{url}}``{% endraw %}` will be replaced by `http://localhost` when the request is sent.
 
 Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the Variable Scopes section and sends them to the server.
 
@@ -51,7 +53,9 @@ Since variables in the request builder are accessed using string substitution, t
 
 ### Accessing variables through scripts
 
-You can also use variables in pre-request and test scripts. Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
+You can also use variables in pre-request and test scripts. 
+
+Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
 
   1.  Defining an environment or global variable in a script: 
         *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
@@ -74,7 +78,7 @@ You can also define collection variables when creating the collection.
 
 Often while using variables in scripts, you will need to see the values they obtain. 
 
-You can use the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs) to do this easily.
+You can use the [Postman Console](/docs/v6/postman/sending_api_requests/debugging_and_logs) to do this easily.
 
 From the application menu, select "View" and then "Show Postman Console".  To log the value of a variable, you can use `console.log(foo);` in your script. 
 
@@ -102,7 +106,7 @@ Here's an example of Inside pre-request and test scripts. Let's say you have the
 
 [![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data.png)
 
-To learn more about data files, see [Working with data files](/docs/postman/collection_runs/working_with_data_files). 
+To learn more about data files, see [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files). 
 
 ### Dynamic variables
 
@@ -134,7 +138,7 @@ Postman variables are very powerful, and two features - autocomplete and tool ti
 
 Type an open curly bracket to bring up the autocomplete menu. 
 
-For the pre-request and test scripts section, which [uses the data editor](/docs/postman/launching_postman/navigating_postman), enter the first letter of a variable to trigger the autocomplete.
+For the pre-request and test scripts section, which [uses the data editor](/docs/v6/postman/launching_postman/navigating_postman), enter the first letter of a variable to trigger the autocomplete.
 
 The menu contains a list of all the variables in the current environment, followed by globals. Navigating through the list also shows the current value and scope for each variable, along with a feedback for overridden variables. 
 
