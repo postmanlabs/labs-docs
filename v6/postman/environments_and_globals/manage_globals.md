@@ -4,6 +4,8 @@ page_id: "manage_globals"
 warning: false
 ---
 
+This topic explains how to manage and view global variables.
+
 ### Managing global variables
 
 To manage global variables, click the gear icon in the upper right corner of the Postman app and select "Manage Environments". 
