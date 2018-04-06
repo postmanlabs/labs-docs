@@ -126,6 +126,7 @@ After you save the request, you can add the URL, method, headers, and body to th
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the Create New tab to display each time you open Postman.
 <br>
 #### Launch screen
+
 The  **Create New** tab appears by default when you launch Postman. 
 
 Open Postman.
