@@ -17,11 +17,15 @@ You can reuse the value of a variable in multiple places. If you want to change 
 
 Let’s say you have three API endpoints that use the same domain - your-domain.com. You can save this domain as a variable and instead of repeating the value, you can use {{domain}}/endpoint1 and {{domain}}/endpoint2 in the request builder. Now, if your domain changes to another-domain.com, you just have to change this value once. 
 
-With Postman’s scripting engine you can set variable values, copy data from one request and use it in another request.
+With Postman’s scripting engine you can set variable values, copy data from one request, and use it in another request.
+
+In a nutshell, variables enable you to:
 
 * Reuse values so you can keep your code DRY (Don’t Repeat Yourself)
 * Configure your setup to accommodate different users or environments
 * Extract data from responses and chain together requests in a collection
+
+To learn how to use variables in Postman, see [Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}.
 
 Now that we know how varibles work in Postman, let's discuss environments and globals.
 
@@ -45,6 +49,7 @@ Global variables provide a set of variables that are always available to you in 
 
 **Note**: Environment and global variables are always be stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
+To learn how to manage and view global variables, see [Manage environments](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}.
 
 
 
