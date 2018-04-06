@@ -15,7 +15,7 @@ Developers know that variables are symbolic names that represent the information
 
 You can reuse the value of a variable in multiple places. If you want to change the value, change the variable once and the change is reflected throughout the rest of your code.
 
-Let’s say you have three API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use `{{domain}}/endpoint1 and {{domain}}/endpoint2` in the request builder. Now, if your domain changes to another- `domain.com`, you just have to change this value once. 
+Let’s say you have three API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use `{{domain}}/endpoint1 and {{domain}}/endpoint2` in the request builder. Now, if your domain changes to another- `domain.com`, you only have to change this value once. 
 
 With Postman’s scripting engine you can set variable values, copy data from one request, and use it in another request.
 
