@@ -90,3 +90,11 @@ It's a best practice to create a duplicate, remove any sensitive values (such as
 When others import the environment, or access the shared template, they can input their own personal information in their own version of the template.
 
 For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing){:target="_blank"} with team members.
+
+
+For more information aabout variables and globals, see:
+
+[Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}
+[Intro to environments and globals](/docs/v6/postman/environments_and_globals/intro-to-environments-and-globals){:target="_blank"}
+[Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}
+
