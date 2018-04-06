@@ -9,7 +9,15 @@ Collections are groups of requests that can be run together as a series of reque
 
 You can use scripts to build integration test suites, pass data between API requests, and build workflows that mirror your actual use case of APIs.
 
-This topic describles how to configure parameters for a collection run.
+This topic describles how to configure collection run parameters for:
+* Collection/Folder
+* Environment
+* Iterations
+* Delay
+* Log Responses
+* Data
+* Persist variables
+
 
 [![collection run parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-runner.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-runner.png)
 
