@@ -47,7 +47,9 @@ The string `{% raw %}` `{{variableName}}` `{% endraw %}` will be replaced with i
 
 For example, for an environment variable `url` with the value `http://localhost`, you will have to use `{% raw %}` `{{url}}` `{% endraw %}` in the request URL field. `{% raw %}``{{url}}``{% endraw %}` will be replaced by `http://localhost` when the request is sent.
 
-Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the Variable Scopes section and sends them to the server.
+Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body, and header presets. 
+
+Postman evaluates the variables according to scoping rules as discussed in the Variable Scopes section and sends them to the server.
 
 [![variables used in request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-request-builder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-request-builder.png)
 
@@ -58,7 +60,11 @@ You can also use variables in pre-request and test scripts.
 Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
 
   1.  Defining an environment or global variable in a script: 
-        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
+        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. 
+
+The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. 
+
+Note that [defining a collection variable](/docs/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
   2.  Fetching a pre-defined variable: 
         *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
   3.  Setting a variable in a scope: 
