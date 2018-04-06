@@ -25,13 +25,9 @@ This topic describes how to configure collection run parameters for:
 
 The collection or folder you want to run. 
 
-When you run a collection, all requests in the collection are sent in the order they appear in the main app. As a result each folder is run, and each request inside the folder, is sequentially executed. 
+When you run a collection, all requests in the collection are sent in the order they appear in the main app. As a result each folder is run, and each request inside the folder, is sequentially executed. When you select a folder, only that folder is executed and only requests inside the folder are sent. You can, however, change the order to more closely mirror your workflow when you use the `setNextRequest()` method.
 
-You can, however, change the order to more closely mirror your workflow when you use the setNextRequest() method. 
-
-Read more about [building workflows](/docs/postman/collection_runs/building_workflows).
-
-When you select a folder here, only that folder is executed, which means only requests inside the folder are sent.
+To learn more about how to build a workflow, see [Building workflows](/docs/postman/collection_runs/building_workflows).
 
 ### Environment
 
@@ -56,6 +52,8 @@ The interval (in ms) between each request in a collection run.
 Limits response logging when the collection runs. 
 
 By default, all responses are logged for debugging purposes. For large collections, you can change this setting to improve performance. 
+
+Here's more detail about default logging:
 
    *   For all requests, responses for all requests will be logged.
    *   For failed requests, only responses for requests with at least one failing test will be logged.
