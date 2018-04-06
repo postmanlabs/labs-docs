@@ -94,7 +94,7 @@ For Postman Pro and Enterprise users, learn how to [share environment templates
 
 For more information aabout variables and globals, see:
 
-[Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}
-[Intro to environments and globals](/docs/v6/postman/environments_and_globals/intro-to-environments-and-globals){:target="_blank"}
-[Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}
+* [Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}
+* [Intro to environments and globals](/docs/v6/postman/environments_and_globals/intro-to-environments-and-globals){:target="_blank"}
+* [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}
 
