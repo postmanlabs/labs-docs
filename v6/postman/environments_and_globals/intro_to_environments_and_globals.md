@@ -13,7 +13,7 @@ To understand environments and globals, you must first understand how variables 
 
 Developers know that variables are symbolic names that represent the information you store in them. The information the variable represents can change, but the operations on the variable remain the same. Variables in Postman work the same way. 
 
-You can reuse the value of a variable in multiple places. If you want to change the value, you can change the variable once  and the change is reflected through out the rest of your code.
+You can reuse the value of a variable in multiple places. If you want to change the value, change the variable once and the change is reflected throughout the rest of your code.
 
 Let’s say you have three API endpoints that use the same domain - your-domain.com. You can save this domain as a variable and instead of repeating the value, you can use {{domain}}/endpoint1 and {{domain}}/endpoint2 in the request builder. Now, if your domain changes to another-domain.com, you just have to change this value once. 
 
