@@ -15,8 +15,6 @@ This topic covers:
 * [Defining collection variables](#defining-collection-variables)
 * [Logging variables](#logging-variables)
 * [Data variables](#data-variables)
-* [Data variables in requests](#data-variables-in-requests)
-* [Data variables in pre-request and test scripts](#data-variables-in-pre-request-and-test-scripts)
 * [Dynamic variables](#dynamic-variables)
 * [Quick Look for variables](#quick-look-for-variables])
 * [Autocomplete and tooltips for variables](#autocomplete-and-tooltips-for-variables)
