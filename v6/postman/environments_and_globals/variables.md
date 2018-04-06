@@ -136,7 +136,7 @@ Postman variables are very powerful, and two features - autocomplete and tool ti
 
 [![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-autocomplete.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-autocomplete.gif)  
 
-Type an open curly bracket to bring up the autocomplete menu. 
+Type an open curly bracket to summon the autocomplete menu. 
 
 For the pre-request and test scripts section, which [uses the data editor](/docs/v6/postman/launching_postman/navigating_postman), enter the first letter of a variable to trigger the autocomplete.
 
