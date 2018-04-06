@@ -16,7 +16,7 @@ This topic covers:
 * [Logging variables](#logging-variables)
 * [Data variables](#data-variables)
 * [Dynamic variables](#dynamic-variables)
-* [Quick Look for variables](#quick-look-for-variables])
+* [Quick Look for variables](#quick-look-for-variables)
 * [Autocomplete and tooltips for variables](#autocomplete-and-tooltips-for-variables)
 * [Variable highlighting and tooltip on hover](#variable-highlighting-and-tooltip-on-hover)
 
