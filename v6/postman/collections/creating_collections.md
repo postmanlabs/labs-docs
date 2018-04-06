@@ -5,7 +5,9 @@ warning: false
 
 ---
 
-Postman Collections are a group of saved requests you can organize into folders. This topic covers:
+Postman Collections are a group of saved requests you can organize into folders. 
+
+This topic covers:
 
 * [How to create collections](#how-to-create-collections)
 
@@ -168,7 +170,7 @@ Click the ellipsis (...) to expand the control dropdown. 
 
 Select "Duplicate" from the menu.
 
-Learn how to [share collections](/docs/postman/collections/sharing_collections){:target="_blank"}, [import and export collections](/docs/postman/collections/data_formats){:target="_blank"}, and [use other collection features](/docs/v6/postman/collections/managing_collections){:target="_blank"}.  
+Learn how to [share collections](/docs/postman/collections/sharing_collections){:target="_blank"}, [import and export collections](/docs/v6/postman/collections/data_formats){:target="_blank"}, and [use other collection features](/docs/v6/postman/collections/managing_collections){:target="_blank"}.  
 
 
 
