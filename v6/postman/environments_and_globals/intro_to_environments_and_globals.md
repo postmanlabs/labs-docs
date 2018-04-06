@@ -49,7 +49,7 @@ Global variables provide a set of variables that are always available to you in 
 
 **Note**: Environment and global variables are always be stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
-To learn how to manage and view global variables, see [Manage environments](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}.
+To learn how to manage and view global variables, see [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}.
 
 
 
