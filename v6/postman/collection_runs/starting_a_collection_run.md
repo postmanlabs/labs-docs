@@ -23,40 +23,57 @@ This topic describes how to configure collection run parameters for:
 
 ### Collection or folder
 
-The collection or folder that you want to run. 
+The collection or folder you want to run. 
 
-When you run a collection, all requests in the collection are sent in the order in which they appear in the main app. This means each folder is run, and each request inside the folder, is sequentially executed. You can, however, change this order to more closely mirror your workflow by using the setNextRequest() method. Read more about [building workflows](/docs/postman/collection_runs/building_workflows).
+When you run a collection, all requests in the collection are sent in the order they appear in the main app. As a result each folder is run, and each request inside the folder, is sequentially executed. 
+
+You can, however, change the order to more closely mirror your workflow when you use the setNextRequest() method. 
+
+Read more about [building workflows](/docs/postman/collection_runs/building_workflows).
 
 When you select a folder here, only that folder is executed, which means only requests inside the folder are sent.
 
 ### Environment
 
-The environment to use when the collection is run. 
+The environment to use when a collection runs. 
 
-Read more about [using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs).
+To learn how to use environments in collection runs, see [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs).
 
 ### Iterations
 
-The number of times your collection will be run. 
+The number of times the collection will run. 
 
-Higher iteration counts are usually run to ensure stability of your APIs by sending different data in each iteration. Read more about [running multiple iterations](/docs/postman/collection_runs/running_multiple_iterations).
+Sending different data in each iteration and setting a higher iteration counts usually ensures the stability of your APIs.
+
+To learn how to run multiple iterations, see [Running multiple iterations](/docs/postman/collection_runs/using_environments_in_collection_runs).
 
 ### Delay
 
-The interval (in ms) between each request in your collection run.
+The interval (in ms) between each request in a collection run.
 
 ### Log responses
 
-This is used to limit response logging when the collection is run. By default, all responses are logged for debugging purposes, but for large collections, this can be changed to improve performance. Read more about [debugging collection requests](/docs/postman/collection_runs/debugging_a_collection_run).
+Limits response logging when the collection runs. 
+
+By default, all responses are logged for debugging purposes. For large collections, you can change this setting to improve performance. 
 
    *   For all requests, responses for all requests will be logged.
    *   For failed requests, only responses for requests with at least one failing test will be logged.
    *   For no requests, no responses will be logged.
+   
+   
+To learn how to debug collection requests, see [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run).
 
 ### Data
 
-This is used to supply a data file to be used for the collection run. Read more about [data files](/docs/postman/collection_runs/working_with_data_files).
+Supplies a data file to use for the collection run.
+
+To learn more about how to use a date file for a collection run, see
+[Working with data files](/docs/postman/collection_runs/working_with_data_files).
+
 
 ### Persist variables
 
-By default, any environment changes in the collection runner are not reflected back in the request builder. Read more about [using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs).
+By default, any environment changes in the collection runner are not reflected in the request builder. 
+
+To learn more about persist variables, see [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs).
