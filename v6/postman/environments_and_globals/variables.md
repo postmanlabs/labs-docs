@@ -146,6 +146,6 @@ The menu contains a list of all the variables in the current environment, follo
 
 [![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-variable-toolTip.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-variable-toolTip.gif)
 
-Variables are highlighted in orange, with unresolved variables shown in red color. 
+Variables are highlighted in orange, with unresolved variables shown in red. 
 
 Hovering over a variable shows its current value and the scope. If a variable is unresolved - such as, no value in the current environment - the tooltip shows the appropriate feedback.
