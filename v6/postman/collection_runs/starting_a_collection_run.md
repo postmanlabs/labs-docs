@@ -9,8 +9,8 @@ Collections are groups of requests that can be run together as a series of reque
 
 You can use scripts to build integration test suites, pass data between API requests, and build workflows that mirror your actual use case of APIs.
 
-This topic describles how to configure collection run parameters for:
-* [Collection or Folder](#collection-or-folder)
+This topic describes how to configure collection run parameters for:
+* [Collection or folder](#collection-or-folder)
 * [Environment](#environment)
 * [Iterations](#iterations)
 * [Delay](#delay)
