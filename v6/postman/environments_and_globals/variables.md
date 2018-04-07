@@ -85,7 +85,7 @@ You can also define collection variables when creating the collection.
 
 Often while using variables in scripts, you will need to see the values they obtain. 
 
-You can use the [Postman Console](/docs/v6/postman/sending_api_requests/debugging_and_logs) to do this easily.
+You can use the [Postman Console](/docs/v6/postman/sending_api_requests/debugging_and_logs){:target="_blank"} to do this easily.
 
 From the application menu, select "View" and then "Show Postman Console".  To log the value of a variable, you can use `console.log(foo);` in your script. 
 
