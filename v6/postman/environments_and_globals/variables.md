@@ -145,7 +145,7 @@ Postman variables are very powerful, and two features - autocomplete and tool ti
 
 Type an open curly bracket to summon the autocomplete menu. 
 
-For the pre-request and test scripts section, which [uses the data editor](/docs/v6/postman/launching_postman/navigating_postman){:target="_blank"}, enter the first letter of a variable to trigger the autocomplete.
+For the pre-request and test scripts section, which [uses the data editor](/docs/v6/postman/launching_postman/navigating_postman#data-editor){:target="_blank"}, enter the first letter of a variable to trigger the autocomplete.
 
 The menu contains a list of all the variables in the current environment, followed by globals. Navigating through the list also shows the current value and scope for each variable, along with a feedback for overridden variables. 
 
