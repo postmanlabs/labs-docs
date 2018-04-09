@@ -12,7 +12,7 @@ Postman makes sending API requests simple. Instead of testing your APIs through 
 
 As you can see in the image below, when you enter a request in Postman and click the **Send** button, the server receives your request and returns a response that Postman displays in the interface.
 
-[![request and response illustration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)
+[![request and response illustration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/sending-first-requestAG.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/sending-first-requestAG.png)
 
 ### Sending a request
 
