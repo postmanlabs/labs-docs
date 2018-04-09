@@ -38,7 +38,7 @@ You can also review the activity feed from the Dashboard.
 
 In the [Postman website](https://www.getpostman.com/){:target="_blank"}, click the **Dashboard** button to open your [Workspace](https://app.getpostman.com){:target="_blank"}.
 
-To see the activity feed, click a collection. Under the header bar, click "Activity".
+To see the activity feed, click a collection. Then under the header bar, click "Activity".
 
 The activity feed presents a list of changes to collections that you own and are subscribed to.
 
