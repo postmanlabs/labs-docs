@@ -105,6 +105,21 @@ We support GitHub flavored markdown so you can include tables. When including bl
 
 [![example of published documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-doc-markdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-doc-markdown.png)
 
+### Link to sections within documentation
+
+To include helpful cross-references for your readers, you can hyperlink to these parts within the generated documentation:
+
+  * Introduction headers
+  * Requests
+  * Folders
+  * Responses
+
+The links are generated using IDs for the requests, folders and responses. If you click on any of these, the URL in your browser should update to a link which points to this specific part of the documentation. You can hyperlink to these parts using this link.
+
+[![anchor tag id](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anchor-id.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anchor-id.png)
+
+**Note:** you cannot link to arbitrary parts of the documentation by manually creating an ID.
+
 ### Free documentation views with your Postman account
  
 Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
