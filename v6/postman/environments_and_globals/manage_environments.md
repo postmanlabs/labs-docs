@@ -89,6 +89,8 @@ It's a best practice to create a duplicate, remove any sensitive values (such as
 
 When others import the environment, or access the shared template, they can input their own personal information in their own version of the template.
 
++**Note**: For Pro and Enterprise users who are sharing environments in a workspace, be aware that changes made to a shared environment will sync for the entire team. If you have sensitive credentials that you don’t want to expose, create a duplicate of the environment, remove the sensitive values, before uploading to share with others.
+
 For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/v6/postman/team_library/sharing){:target="_blank"} with team members.
 
 
