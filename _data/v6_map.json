@@ -206,6 +206,12 @@
         "title": "Environments and globals",
         "url_prefix": "environments_and_globals",
         "children": [
+	 {
+            "title": "Intro to environments and globals",
+            "href": "/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals",
+            "external": false
+          },		
+		
           {
             "title": "Variables",
             "href": "/docs/v6/postman/environments_and_globals/variables",
