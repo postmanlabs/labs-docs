@@ -36,9 +36,11 @@ You can review a chronological list of activities about all collections shared w
 
 You can also review the activity feed from the Dashboard. 
 
-Log in to the [Postman Website](https://app.getpostman.com){:target="_blank"} and click the **Dashboard** button. 
+In the [Postman website](https://www.getpostman.com/){:target="_blank"}, click the **Dashboard** button to open your [Workspace](https://app.getpostman.com){:target="_blank"}.
 
-The activity feed includes a list of changes to collections that you own and are subscribed to.
+To see the activity feed, click a collection. Then under the header bar, click "Activity".
+
+The activity feed presents a list of changes to collections that you own and are subscribed to.
 
 [![user activity feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-feed-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-feed-dashboard.png)
 
@@ -46,7 +48,7 @@ The activity feed includes a list of changes to collections that you own and are
 
 The activity feed captures different updates to collections. 
 
-These updates include CRUD (Create, Read, Update, Delete) operations on collections, folders, and requests.
+These updates include CUD (Create, Update, Delete) operations on collections, folders, and requests.
 
 A consolidated update to a request as seen below provides a diffs view to pinpoint the exact changes. 
 
@@ -72,6 +74,6 @@ At the top of the activity feed a confirmation indicates the collection has been
 
 Postman Pro and Enterprise users can pipe the team's activity feed to a communication channel of your choice with the following integrations:
 
-   *   [Postman Pro to Slack integration](/docs/pro/integrations/slack)
-   *   [Postman Pro to HipChat integration](/docs/pro/integrations/hipchat)
-   *   [Postman Pro to Microsoft Teams integration](/docs/pro/integrations/microsoft_teams)  
+   *   [Postman Pro to Slack integration](/docs/v6/pro/integrations/slack){:target="_blank"}
+   *   [Postman Pro to HipChat integration](/docs/v6/pro/integrations/hipchat){:target="_blank"}
+   *   [Postman Pro to Microsoft Teams integration](/docs/v6/pro/integrations/microsoft_teams){:target="_blank"}  
