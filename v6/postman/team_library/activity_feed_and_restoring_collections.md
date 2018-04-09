@@ -36,9 +36,9 @@ You can review a chronological list of activities about all collections shared w
 
 You can also review the activity feed from the Dashboard. 
 
-In the [Postman website], click he **Dashboard** button to open your [Workspace](https://app.getpostman.com){:target="_blank"}.
+In the [Postman website](https://www.getpostman.com/), click he **Dashboard** button to open your [Workspace](https://app.getpostman.com){:target="_blank"}.
 
-To see the activity feed, click on a collection, click a collection. Then click "Activity" under the header bar.
+To see the activity feed, click a collection. Under the header bar, click "Activity".
 
 The activity feed presents a list of changes to collections that you own and are subscribed to.
 
