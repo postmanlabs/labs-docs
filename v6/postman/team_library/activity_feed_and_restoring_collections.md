@@ -46,7 +46,7 @@ The activity feed includes a list of changes to collections that you own and are
 
 The activity feed captures different updates to collections. 
 
-These updates include CRUD (Create, Read, Update, Delete) operations on collections, folders, and requests.
+These updates include CUD (Create, Update, Delete) operations on collections, folders, and requests.
 
 A consolidated update to a request as seen below provides a diffs view to pinpoint the exact changes. 
 
