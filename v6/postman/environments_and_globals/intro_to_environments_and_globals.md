@@ -47,7 +47,7 @@ To learn how to manage environments for tasks such as creating or sharing an env
 
 Global variables provide a set of variables that are always available to you in all scopes. You can have multiple environments, and only one can be active at a time. But you’ll have only one set of global variables, and they’ll always be available. 
 
-**Note**: Environment and global variables are always be stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
+**Note**: Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
 To learn how to manage and view global variables, see [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}.
 
