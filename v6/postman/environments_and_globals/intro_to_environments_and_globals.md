@@ -13,9 +13,9 @@ To understand environments and globals, you must first understand how variables 
 
 Developers know that variables are symbolic names that represent the information you store in them. The information the variable represents can change, but the operations on the variable remain the same. Variables in Postman work the same way. 
 
-You can reuse the value of a variable in multiple places. If you want to change the value, change the variable once and the change is reflected throughout the rest of your code.
+You can reuse the value of a variable in multiple places. If you change the value of a variable, each instance of that variable changes to the new value.
 
-Let’s say you have three API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use `{{domain}}/endpoint1 and {{domain}}/endpoint2` in the request builder. Now, if your domain changes to another- `domain.com`, you only have to change this value once. 
+Let’s say you have three API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use `{{domain}}/endpoint1` and `{{domain}}/endpoint2` in the request builder. Now, if your domain changes to `another-domain.com`, you only have to change this value once. 
 
 With Postman’s scripting engine you can set variable values, copy data from one request, and use it in another request.
 
@@ -39,7 +39,7 @@ You won’t have to remember all those values once they are in Postman. You can 
 
 You can create, share, duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
 
-**Note**: Environment and global variables are always stored as strings. If you’re storing objects/arrays, be sure to JSON.stringify() them before storing, and JSON.parse() them while retrieving.
+**Note**: Environment and global variables are always stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
 To learn how to manage environments for tasks such as creating or sharing an environment, see [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments){:target="_blank"}.
 
@@ -47,7 +47,7 @@ To learn how to manage environments for tasks such as creating or sharing an env
 
 Global variables provide a set of variables that are always available to you in all scopes. You can have multiple environments, and only one can be active at a time. But you’ll have only one set of global variables, and they’ll always be available. 
 
-**Note**: Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
+**Note**: Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
 To learn how to manage and view global variables, see [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}.
 
