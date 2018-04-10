@@ -52,10 +52,10 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
    Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build){:target="_blank"}. These scripts will execute the next time you commit and push a change to your repo.
 
   [![tree view yml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)
+
+   In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory). 
   
-  In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory). 
-  
-  Since Travis CI doesn’t know where Newman is located, let's update the `PATH`. In this node.js example, the `newman` tool is located in my `.bin` directory which is located in my `node_modules` directory.
+   Since Travis CI doesn’t know where Newman is located, let's update the `PATH`. In this node.js example, the `newman` tool is located in my `.bin` directory which is located in my `node_modules` directory.
   
 Now, the `.travis.yml` file looks like this for this `node.js` example:
 
