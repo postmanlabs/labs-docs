@@ -38,11 +38,11 @@ $ npm install -g newman
 
 ### Run a collection in Postman
 
-We are assuming that you already have a Postman Collection with some tests. Run the collection in the Postman app. This is what the output looks like in Postman’s collection runner.
+We assume you already have a Postman Collection with some tests. Run the collection in the Postman app. Here's an example of the output in Postman’s collection runner.
 
 [![collection runner](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)
 
-Some of my tests are failing intentionally in the screenshot so we can show you the instructions for troubleshooting.
+Some of the tests are failing intentionally in the screenshot so we can show you the instructions for troubleshooting.
 
 ### Run a collection using Newman
 
