@@ -15,7 +15,7 @@ Follow these steps to use [Newman](https://github.com/postmanlabs/newman){:targ
 
 2\. Ensure you have Docker installed and running in your system. Docker has extensive installation guidelines for popular operating systems. Choose your operating system and follow the instructions. 
 
-To test your Docker installation execute the following command to ensure it runs without errors:
+To test your Docker installation, execute this command to ensure it runs without errors:
 
 ```bash
 $ docker run hello-world
