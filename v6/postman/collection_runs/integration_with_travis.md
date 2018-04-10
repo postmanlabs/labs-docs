@@ -29,7 +29,11 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
 
 1. **Select a Postman collection with tests**: For now, let’s assume you already have a Postman collection with tests. Download the sample collection and environment by clicking the Run in Postman button if you want to follow this example.
 2. **Set up a GitHub repository**: Travis CI is free for open source projects on GitHub. In this example, we keep our Postman tests in a public GitHub repo.
-3. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started/){:target="_blank"} for the complete walk through. [Sign in to Travis CI](https://travis-ci.org/auth){:target="_blank"} with your GitHub account. Go to your [profile page](https://travis-ci.org/profile){:target="_blank"} and enable Travis CI for the public GitHub repo we set up in the previous step.
+3. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started/){:target="_blank"} for the complete walk through. 
+
+   [Sign in to Travis CI](https://travis-ci.org/auth){:target="_blank"} with your GitHub account. 
+   
+   Go to your [profile page](https://travis-ci.org/profile){:target="_blank"} and enable Travis CI for the public GitHub repo we set up in the previous step.
 
 ### Hooking up Postman to Travis CI
 
