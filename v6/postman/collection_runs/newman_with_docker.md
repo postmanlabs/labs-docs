@@ -33,7 +33,7 @@ $ docker run -t postman/newman_ubuntu1404 --url="https://www.getpostman.com/coll
 
 At this stage, you should see the Collection running in Newman and the output displayed in the terminal.
 
-The entry point to the Docker image is Newman, and as such, you can use all Newman command line parameters. You can also run locally stored collection files. The README of the image outlines how to mount shared data volumes.
+The entry point to the Docker image is Newman. So you can use all Newman command line parameters. You can also run locally stored collection files. The README of the image outlines how to mount shared data volumes.
 
 ### For Windows
 
