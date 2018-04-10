@@ -103,7 +103,7 @@ To set up the frequency with which Jenkins runs Newman, click on “Configure pr
 
 [![build triggers](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png)
 
-**Note**: 30 can be replaced with another number
+**Note**: 30 can be replaced with another number.
 
 Jenkins will now run Newman at your desired frequency and will tell you whether the build failed or succeeded. In a bigger setup, Newman will be part of your build process and probably not the entire process. You can set up notifications and customize Jenkins as per your needs.
 
