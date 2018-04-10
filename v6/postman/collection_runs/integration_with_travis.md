@@ -57,7 +57,7 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
   
    Since Travis CI doesn’t know where Newman is located, let's update the `PATH`. In this node.js example, the `newman` tool is located in my `.bin` directory which is located in my `node_modules` directory.
   
-Now, the `.travis.yml` file looks like this for this `node.js` example:
+   Now, the `.travis.yml` file looks like this for this `node.js` example:
 
 ```
 language: node_js
