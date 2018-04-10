@@ -7,11 +7,19 @@ tags:
 
 ---
 
-**Continuous Integration (CI)** is a practice that requires developers to **integrate** code into a shared repository several times a day. By committing early and often, the team avoids a ton of technical debt by allowing teams to detect problems early while conflicts are relatively easy to fix. Every check-in kicks off an automated build process which typically includes testing and (if your commit hasn’t broken anything) might include deployment too.
+**Continuous Integration (CI)** is a practice that requires developers to **integrate** code into a shared repository several times a day. 
 
-In general, integrating your [Postman tests](/docs/postman/scripts/test_scripts) with your favorite continuous integration service is the same process if you’re [running on Jenkins](/docs/postman/collection_runs/integration_with_jenkins), Travis CI, AppVeyor, or any other build system. You will set up your CI configuration to run a shell command upon kicking off your build. The command is a [Newman script that runs your collection](/docs/postman/collection_runs/command_line_integration_with_newman) with the tests, returning a pass or fail exit code that’s logged in your CI system.
+By committing early and often, the team avoids a ton of technical debt by allowing teams to detect problems early while conflicts are relatively easy to fix. 
 
-In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/){:target="_blank"}, a continuous integration service used to build and test projects hosted on GitHub. Travis CI will run your tests every time you commit to your GitHub repo, submit a pull request, or some other specified configuration.
+Every check-in kicks off an automated build process which typically includes testing and (if your commit hasn’t broken anything) might include deployment too.
+
+In general, integrating your [Postman tests](/docs/postman/scripts/test_scripts) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/postman/collection_runs/integration_with_jenkins), Travis CI, AppVeyor, or any other build system. 
+
+You will set up your CI configuration to run a shell command upon kicking off your build. The command is a [Newman script that runs your collection](/docs/postman/collection_runs/command_line_integration_with_newman) with the tests, returning a pass or fail exit code that’s logged in your CI system.
+
+In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/){:target="_blank"}, a continuous integration service used to build and test projects hosted on GitHub. 
+
+Travis CI will run your tests every time you commit to your GitHub repo, submit a pull request, or some other specified configuration.
 
 [![travis workflow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_workflow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_workflow.png)
 
