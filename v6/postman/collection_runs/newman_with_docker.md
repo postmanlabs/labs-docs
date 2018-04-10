@@ -14,6 +14,7 @@ Follow these steps to use [Newman](https://github.com/postmanlabs/newman){:targ
 1\. In the [Docker Hub](http://registry.hub.docker.com/u/postman/newman_ubuntu1404){:target="_blank"}, download your copy. 
 
 2\. Ensure you have Docker installed and running in your system. 
+
 Docker has extensive installation guideline for popular operating systems. Choose your operating system and follow the instructions. A quick test to see if docker is installed correctly is to execute the following command, ensuring that it runs without errors.
 
 ```bash
