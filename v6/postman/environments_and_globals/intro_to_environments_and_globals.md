@@ -21,9 +21,9 @@ With Postman’s scripting engine you can set variable values, copy data from on
 
 In a nutshell, variables enable you to:
 
-* Reuse values to keep your code DRY (Don’t Repeat Yourself)
+* Reuse values to keep your code DRY (Don’t Repeat Yourself).
 * Configure your setup to accommodate the environment of differnet users.
-* Extract data from responses and chain requests in a collection
+* Extract data from responses and chain requests in a collection.
 
 To learn how to use variables in Postman, see [Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}.
 
