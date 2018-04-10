@@ -45,7 +45,7 @@ To learn how to manage environments for tasks such as creating or sharing an env
 
 **Globals**
 
-Global variables provide a set of variables that are always available to you in all scopes. You can have multiple environments, and only one can be active at a time. But you’ll have only one set of global variables, and they’ll always be available. 
+Global variables provide a set of variables that are always available to you in all scopes. You can have multiple environments, but only one can be active at a time with one set of global variables, which are always available.
 
 **Note**: Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
