@@ -40,11 +40,20 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
    Remember to add and commit these two files to your repo.
 
   [![tree view tests directory](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree.png)
-2. Create a new file called `.travis.yml` and move it to the root of your project repository. Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to build it. Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build){:target="_blank"}. These scripts will execute the next time you commit and push a change to your repo.
-  [![tree view yml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)
-  In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which I've placed in the `tests` directory). Since Travis CI doesn’t know where Newman is located, let's update the `PATH`. In this node.js example, the `newman` tool is located in my `.bin` directory which is located in my `node_modules` directory.
   
-Now, my `.travis.yml` file looks like this for this node.js example:
+2. Create a new file called `.travis.yml` and move it to the root of your project repository. 
+
+   Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to  build it. 
+
+   Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build){:target="_blank"}. These scripts will execute the next time you commit and push a change to your repo.
+
+  [![tree view yml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)
+  
+  In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory). 
+  
+  Since Travis CI doesn’t know where Newman is located, let's update the `PATH`. In this node.js example, the `newman` tool is located in my `.bin` directory which is located in my `node_modules` directory.
+  
+Now, the `.travis.yml` file looks like this for this `node.js` example:
 
 ```
 language: node_js
