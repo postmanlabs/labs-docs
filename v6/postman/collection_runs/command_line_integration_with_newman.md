@@ -17,7 +17,7 @@ Newman resides in the [NPM registry](https://www.npmjs.org/package/newman){:tar
 
 We'll cover these topics to learn comman line integration with Newman:
 
-* [Getting Started on Linux Windows or Mac](#getting-started)
+* [Getting Started](#getting-started)
 * [Options](#options)
 * [Example collection with failing tests](#example-collection-with-failing-tests)
 * [File uploads](#file-uploads)
@@ -27,21 +27,27 @@ We'll cover these topics to learn comman line integration with Newman:
 
 ### Getting Started 
 
-Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Node.js can be [downloaded and installed](http://nodejs.org/download/){:target="_blank"} on Linux, Windows, and Mac OSX.
+Newman is built on Node.js. To run Newman, make sure you have Node.js installed. 
 
-Once Node.js is installed, Newman is just a command away. Install Newman from npm globally on your system allowing you to run it from anywhere.
+You can [download and install](http://nodejs.org/download/){:target="_blank"} Node.js on Linux, Windows, and Mac OSX.
+
+After you install Node.js, Newman is just a command away. Install Newman from npm globally on your system, which allows you to run it from anywhere.
 
 ```bash
 $ npm install -g newman
 ```
 
-The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](/docs/postman/collections/sharing_collections) to learn how to export collections to share as a file.
+The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. 
+
+To learn how to export collections to share as a file, see the [collection documentation](/docs/postman/collections/sharing_collections){:target="_blank"}.
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. Refer to the [collection documentation](/docs/postman/collections/sharing_collections) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/environments_and_globals/manage_environments) from Postman and run them with the `-e` flag.
+You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/postman/collections/sharing_collections){:target="_blank"} to learn how to share a file as a URL. 
+
+Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -49,7 +55,7 @@ $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_
 
 ### Options
 
-Newman provides a rich set of options to customize a run. A list of options can be retrieved by running it with the ``-h`` flag.
+Newman provides a rich set of options to customize a run. You can retrieve a list of options by running it with the ``-h`` flag.
 
 ```bash
 $ newman run -h
@@ -87,7 +93,9 @@ Use the ``-n`` option to set the number of iterations to run the collection.
 $ newman run mycollection.json -n 10  # runs the collection 10 times
 ```
 
-To provide a different set of data, i.e. variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file. For example, a data file such as the one shown below will run _2_ iterations, with each iteration using a set of variables.
+To provide a different set of data, such as variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file. 
+
+For example, a data file such as the one shown below runs _2_ iterations, with each iteration using a set of variables.
 
 ```json
 [{
@@ -108,7 +116,7 @@ To provide a different set of data, i.e. variables for each iteration, you can u
 $ newman run mycollection.json -d data.json
 ```
 
-The CSV file for the above set of variables would look like:
+Here's an example of the CSV file for the above set of variables:
 
 ```
 url, user_id, id, token_id
@@ -116,7 +124,11 @@ http://127.0.0.1:5000, 1, 1, 123123123
 http://postman-echo.com, 2, 2, 899899
 ```
 
-Newman, by default, exits with a status code of 0 if everything runs well i.e. without any exceptions. Continuous integration tools respond to these exit codes and correspondingly pass or fail a build. You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1 which can then be picked up by a CI tool or build system.
+Newman, by default, exits with a status code of 0 if everything runs well, such as without any exceptions. 
+
+Continuous integration tools respond to these exit codes and correspondingly pass or fail a build. 
+
+You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1, which can then be picked up by a CI tool or build system.
 
 ```bash
 $ newman run PostmanCollection.json -e environment.json --bail newman
@@ -163,7 +175,7 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/postman/scripts/postman_sandbox) that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](/docs/postman/scripts/postman_sandbox){:target="_blank"} that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 
