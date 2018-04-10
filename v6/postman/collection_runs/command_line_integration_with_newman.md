@@ -17,7 +17,7 @@ Newman resides in the [NPM registry](https://www.npmjs.org/package/newman){:tar
 
 We'll cover these topics to learn comman line integration with Newman:
 
-* [Getting Started on Linux Windows or Mac](#getting-started-on-Linux-Windows-or-Mac)
+* [Getting Started on Linux Windows or Mac](#getting-started)
 * [Options](#options)
 * [Example collection with failing tests](#example-collection-with-failing-tests)
 * [File uploads](#file-uploads)
@@ -25,7 +25,7 @@ We'll cover these topics to learn comman line integration with Newman:
 * [Custom reporters](#custom-reporters)
 
 
-### Getting Started on Linux, Windows, or Mac
+### Getting Started 
 
 Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Node.js can be [downloaded and installed](http://nodejs.org/download/){:target="_blank"} on Linux, Windows, and Mac OSX.
 
