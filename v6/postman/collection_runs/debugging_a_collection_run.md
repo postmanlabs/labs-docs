@@ -4,7 +4,7 @@ page_id: "debugging_a_collection_run"
 warning: false
 ---
 
-Sometimes your collection tests fail, even when you expect them all to pass. When failure occurs, you can debug your requests in two ways:
+Sometimes your Collection tests fail, even when you expect them all to pass. When failure occurs, you can debug your requests in two ways:
 
 * [Debugging using the Request and Response body](#debugging-using-the-request-and-response-body)
 * [Debugging using the Postman Console](#debugging-using-the-postman-console)
@@ -27,14 +27,17 @@ As we can see, this test is failing. Let's investigate why.
 
 As the test says, we're expecting a cookie named `foo1` to be returned as part of the response. 
 
-If you click on any request name in your collection run, you'll notice a tooltip appear. This has useful information pertaining to your request, information you might need when figuring out what went wrong. Expanding the `Response Body` section, we can see clearly that the response does not contain the cookie we expect. Moreover, upon expanding the `Response Headers` section, we see that the cookie was not sent at all. We infer that something must be wrong with the way Postman Echo handles cookies. We can now go ahead and patch this up in our API and try again.
+If you click on any request name in your collection run, you'll notice a tooltip appear. This tooltip has useful information about to your request, information you might need to figure out what went wrong. 
 
-Note that only response bodies less than 300KBs are attempted to be displayed. Your response headers and bodies are never synced for security reasons.  
-You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/postman/collection_runs/starting_a_collection_run).
+Expanding the `Response Body` section, we can see clearly that the response does not contain the cookie we expect. Moreover, upon expanding the `Response Headers` section, we see that the cookie was not sent at all. We infer something must be wrong with the way Postman Echo handles cookies. We can now go ahead and patch this up in our API and try again.
+
+Note that only response bodies less than 300KBs are attempted to be displayed. Your response headers and bodies are never synced for security reasons. 
+
+You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run).
 
 ### Debugging using the Postman Console
 
-Debugging using the Postman Console requires you to have the console open before you start your run. You can read about the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs).
+Debugging using the Postman Console requires you to have the console open before you start your run. You can read about the [Postman Console](/docs/v6/postman/sending_api_requests/debugging_and_logs).
 
 [![postman console view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)
 
@@ -42,4 +45,4 @@ The Postman Console will record all requests and display them in a list.
 
 Let's find the request that's causing problems here and expand its response headers. Here too, we see that the Postman Echo endpoint did not return a cookie. This must be why our test is failing. We can then infer that the endpoint is misbehaving and needs to be looked at.
 
-Any `console.log`s that you have in your test scripts will also appear here, so you can log things in the console if you're debugging a complex test script. 
+Any `console.log`s you have in your test scripts also appears here, so you can log things in the console if you're debugging a complex test script. 
