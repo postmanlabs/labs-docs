@@ -37,7 +37,7 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
 
 ### Hooking up Postman to Travis CI
 
-1. [Export the Postman Collection as a JSON file](/docs/v6/postman/collections/data_formats#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/v6/postman/environments_and_globals/manage_environments#manage-environments) and move the file to your project directory as well. 
+1. [Export the Postman Collection as a JSON file](/docs/v6/postman/collections/data_formats#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/v6/postman/environments_and_globals/manage_environments#manage-environments){:target="_blank"} and move the file to your project directory as well. 
 
    In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
 
