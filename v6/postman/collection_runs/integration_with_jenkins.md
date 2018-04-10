@@ -12,7 +12,7 @@ Postman contains a full-featured [testing sandbox](/docs/v6/postman/scripts/post
 Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation. 
 
 * [Installation](#installation)
-* [Run a collection in Postman](#run-a-collection-in-Postman)
+* [Run a collection in Postman](#run-a-collection-in-postman)
 * [Run a collection using Newman](#run-a-collection-using-newman)
 * [Set up Jenkins](#set-up-jenkins)
 * [Troubleshooting](#troubleshooting)
