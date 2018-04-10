@@ -5,7 +5,9 @@ warning: false
 
 ---
 
-An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman){:target="_blank"} to modify an environment. This topic describes how to create, select, edit and share an environment.
+An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman){:target="_blank"} to modify an environment. 
+
+This topic describes how to create, select, edit, and share an environment.
 
 * [Creating a new environment](#creating-a-new-environment)
 * [Selecting an active environment](#selecting-an-active-environment)
