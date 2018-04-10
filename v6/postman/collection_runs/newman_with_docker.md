@@ -13,7 +13,7 @@ Follow these steps to use [Newman](https://github.com/postmanlabs/newman){:targ
 
 1\. In the [Docker Hub](http://registry.hub.docker.com/u/postman/newman_ubuntu1404){:target="_blank"}, download your copy. 
 
-2\. Ensure you have Docker installed and running in your system. Docker has extensive installation guidelines for popular operating systems. Choose your operating system and follow the instructions. To test your Docker installation execute the following command to ensure it runs without errors.
+2\. Ensure you have Docker installed and running in your system. Docker has extensive installation guidelines for popular operating systems. Choose your operating system and follow the instructions. To test your Docker installation execute the following command to ensure it runs without errors:
 
 ```bash
 $ docker run hello-world
