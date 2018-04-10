@@ -35,9 +35,9 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
 
 1. [Export the Postman Collection as a JSON file](/docs/postman/collections/data_formats#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/postman/environments_and_globals/manage_environments#manage-environments) and move the file to your project directory as well. 
 
-In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
+   In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
 
-Remember to add and commit these 2 files to your repo.
+   Remember to add and commit these two files to your repo.
 
   [![tree view tests directory](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree.png)
 2. Create a new file called `.travis.yml` and move it to the root of your project repository. Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to build it. Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build){:target="_blank"}. These scripts will execute the next time you commit and push a change to your repo.
