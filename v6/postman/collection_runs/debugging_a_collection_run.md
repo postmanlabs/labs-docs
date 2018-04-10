@@ -4,17 +4,23 @@ page_id: "debugging_a_collection_run"
 warning: false
 ---
 
-Oftentimes, things don't go according to plan and your collection tests will fail even when you expect them all to pass. When this happens, there are two ways you can debug your requests.
+Sometimes your collection tests fail, even when you expect them all to pass. When failure occurs, you can debug your requests in two ways:
+
+* [Debugging using the Request and Response body](#debugging-using-the-request-and-response-body)
+* [Debugging using the Postman Console](#debugging-using-the-postman-console)
+
 
 In this example, we're running the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)
 
-In the `Delete Cookies` request, we expect a certain cookie to be returned by the server, and this is what the test checks as well. Postman Echo's [Cookies](https://docs.postman-echo.com/#37368024-f6a8-0f70-85fc-7e876cde9e33){:target="_blank"} endpoint returns whatever cookies are sent to it. It also sends a JSON representation of these in the response body. This is what we're using to check if a certain cookie was returned.
+In the `Delete Cookies` request, we expect a certain cookie to be returned by the server, and this is what the test checks as well. 
+
+Postman Echo's [Cookies](https://docs.postman-echo.com/#37368024-f6a8-0f70-85fc-7e876cde9e33){:target="_blank"} endpoint returns whatever cookies are sent to it. It also sends a JSON representation of these in the response body. This is what we're using to check if a certain cookie was returned.
 
 As we can see, this test is failing. Let's investigate why.
 
-### Debugging using the Request & Response body
+### Debugging using the Request and Response body
 
 [![tooltip for request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)
