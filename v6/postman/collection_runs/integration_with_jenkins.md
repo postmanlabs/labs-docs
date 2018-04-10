@@ -61,7 +61,7 @@ Add a build step in the project. The build step executes a Shell command.
 
 [![execute shell command](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)
 
-The command is:
+Here is the command:
 
 ```bash
 $ newman jenkins_demo.postman_collection --exitCode 1
