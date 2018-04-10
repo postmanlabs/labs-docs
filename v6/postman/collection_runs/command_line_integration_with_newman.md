@@ -17,12 +17,12 @@ Newman resides in the [NPM registry](https://www.npmjs.org/package/newman){:tar
 
 We'll cover these topics to learn comman line integration with Newman:
 
-[Getting Started on Linux, Windows, or Mac](#getting-started-on-Linux-Windows-or-Mac)
-[Options](#options)
-[Example collection with failing tests](#example-collection-with-failing-tests)
-[File uploads](#file-uploads)
-[Library](#library)
-[Custom reporters](#custom-reporters)
+* [Getting Started on Linux, Windows, or Mac](#getting-started-on-Linux-Windows-or-Mac)
+* [[Options](#options)
+* [[Example collection with failing tests](#example-collection-with-failing-tests)
+* [[File uploads](#file-uploads)
+* [[Library](#library)
+* [[Custom reporters](#custom-reporters)
 
 
 ### Getting Started on Linux, Windows, or Mac
