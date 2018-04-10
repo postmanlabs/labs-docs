@@ -4,6 +4,8 @@ page_id: "manage_globals"
 warning: false
 ---
 
+Global variables provide a set of variables that are available in all scopes. You can have multiple environments, but only one can be active at a time—with one set of global variables. 
+
 This topic explains how to manage and view global variables.
 
 ### Managing global variables
@@ -16,7 +18,7 @@ Click on the **Globals** button at the bottom of the modal to reveal a key-value
 
 ### Viewing global variables
 
-To view global variables, click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. When you click on the **Edit** link, it opens a modal for editing keys and values.
+To view global variables, click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. When you click the **Edit** link, it opens a modal for editing keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)
 
