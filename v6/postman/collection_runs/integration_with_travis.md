@@ -13,9 +13,9 @@ By committing early and often, the team avoids a ton of technical debt by allowi
 
 Every check-in triggers an automated build process that typically includes testing. And if your commit hasn’t broken anything, might include deployment too.
 
-In general, integrating your [Postman tests](/docs/v6/postman/scripts/test_scripts) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins), Travis CI, AppVeyor, or any other build system. 
+In general, integrating your [Postman tests](/docs/v6/postman/scripts/test_scripts){:target="_blank"} with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}, Travis CI, AppVeyor, or any other build system. 
 
-You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/v6/postman/collection_runs/command_line_integration_with_newman) with the tests, returning a pass or fail exit code that’s logged in your CI system.
+You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"} with the tests, returning a pass or fail exit code that’s logged in your CI system.
 
 In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/){:target="_blank"}, a continuous integration service that builds and tests projects on GitHub. 
 
@@ -29,7 +29,7 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
 
 1. **Select a Postman collection with tests**: For now, let’s assume you already have a Postman collection with tests. Download the sample collection and environment by clicking the Run in Postman button if you want to follow this example.
 2. **Set up a GitHub repository**: Travis CI is free for open source projects on GitHub. In this example, we keep our Postman tests in a public GitHub repo.
-3. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started/){:target="_blank"} for the complete walk through. 
+3. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started){:target="_blank"} for the complete walk through. 
 
    [Sign in to Travis CI](https://travis-ci.org/auth){:target="_blank"} with your GitHub account. 
    
