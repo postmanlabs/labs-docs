@@ -13,9 +13,9 @@ By committing early and often, the team avoids a ton of technical debt by allowi
 
 Every check-in triggers an automated build process that typically includes testing. And if your commit hasn’t broken anything, might include deployment too.
 
-In general, integrating your [Postman tests](/docs/postman/scripts/test_scripts) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/postman/collection_runs/integration_with_jenkins), Travis CI, AppVeyor, or any other build system. 
+In general, integrating your [Postman tests](/docs/v6/postman/scripts/test_scripts) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins), Travis CI, AppVeyor, or any other build system. 
 
-You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/postman/collection_runs/command_line_integration_with_newman) with the tests, returning a pass or fail exit code that’s logged in your CI system.
+You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/v6/postman/collection_runs/command_line_integration_with_newman) with the tests, returning a pass or fail exit code that’s logged in your CI system.
 
 In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/){:target="_blank"}, a continuous integration service that builds and tests projects on GitHub. 
 
@@ -37,7 +37,7 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
 
 ### Hooking up Postman to Travis CI
 
-1. [Export the Postman Collection as a JSON file](/docs/postman/collections/data_formats#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/postman/environments_and_globals/manage_environments#manage-environments) and move the file to your project directory as well. 
+1. [Export the Postman Collection as a JSON file](/docs/v6/postman/collections/data_formats#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/v6/postman/environments_and_globals/manage_environments#manage-environments) and move the file to your project directory as well. 
 
    In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
 
