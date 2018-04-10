@@ -6,7 +6,7 @@ warning: false
 ---
 
 
-This topic describes how to use variables in Postman. 
+This topic describes several ways to use variables in Postman. 
 
 * [Variable scopes](#variable-scopes)
 * [Accessing variables in the request builder](#accessing-variables-in-the-request-builder)
