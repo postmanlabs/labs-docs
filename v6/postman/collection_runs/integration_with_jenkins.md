@@ -7,7 +7,7 @@ tags:
 
 ---
 
-Postman contains a full-featured [testing sandbox](/docs/v6/postman/scripts/postman_sandbox) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman), the command line collection runner for Postman. 
+Postman contains a full-featured [testing sandbox](/docs/v6/postman/scripts/postman_sandbox){:target="_blank"} that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}, the command line collection runner for Postman. 
 
 Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation. 
 
