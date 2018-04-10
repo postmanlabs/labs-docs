@@ -49,7 +49,7 @@ For example, for an environment variable `url` with the value `http://localhost`
 
 Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text—including the URL, URL parameters, headers, authorization, request body, and header presets. 
 
-Postman evaluates the variables according to scoping rules, as discussed in the previous "Variable Scopes" section, and sends them to the server.
+Postman evaluates the variables according to scoping rules, as discussed in the previous "Variable scopes" section, and sends them to the server.
 
 [![variables used in request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-request-builder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-request-builder.png)
 
