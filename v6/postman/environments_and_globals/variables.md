@@ -36,7 +36,7 @@ You can view different kinds of buckets in which values reside. If a variable is
 
 If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. 
 
-In other words, environment variables override global variables, and [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/){:target="_blank"} override enviornmental variables. Data variables are only available in the [collection runner](/docs/v6/postman/collection_runs/starting_a_collection_run)).
+In other words, environment variables override global variables, and [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/){:target="_blank"} override enviornmental variables. Data variables are only available in the [collection runner](/docs/v6/postman/collection_runs/starting_a_collection_run).
 
 ### Accessing variables in the request builder
 
