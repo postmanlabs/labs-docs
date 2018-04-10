@@ -6,9 +6,8 @@ warning: false
 ---
 
 
-Variables are symbols that store different values. You might be familiar with variables from other languages from your prior programming experience. Variables in Postman work the same way. 
+This topic describes how to use variables in Postman. 
 
-This topic covers:
 * [Variable scopes](#variable-scopes)
 * [Accessing variables in the request builder](#accessing-variables-in-the-request-builder)
 * [Accessing variables through scripts](#accessing-variables-through-scripts)
@@ -23,13 +22,13 @@ This topic covers:
 
 ### Variable scopes
 
-The following scopes are available to you:
+You can assign five types of variable scopes:
 
-* Global
-* Collection
-* Environment
-* Local
-* Data
+1. Global
+2. Collection
+3. Environment
+4. Local
+5  Data
   
 You can view different kinds of buckets in which values reside. If a variable is in two different scopes, the scope with a higher priority wins and the variable gets its value from there. Postman resolves scopes using this hierarchy progressing from broad to narrow scope. 
 
