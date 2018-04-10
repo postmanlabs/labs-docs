@@ -15,12 +15,12 @@ Newman allows you to run and test a Postman Collection.
 
 Newman and Jenkins are a perfect match. Let's start setting this up. We are using Ubuntu as a target OS as in most cases your CI server would be running on a remote Linux machine.
 
-* ]Installation]
-* Run a collection in Postman]
-* Run a collection using Newman]
-* Set up Jenkins]
-* Troubleshooting]
-* Configure frequency of runs]
+* [Installation](#installation)
+* [Run a collection in Postman](#run-a-collection-in-Postman)
+* [Run a collection using Newman](#run-a-collection-using-newman)
+* [Set up Jenkins](#set-up-jenkins)
+* [Troubleshooting](#troubleshooting)
+* [Configure frequency of runs](#configure-frequency-of-runs)
 
 
 
