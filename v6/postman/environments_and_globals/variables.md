@@ -28,7 +28,7 @@ You can assign five types of variable scopes:
 2. Collection
 3. Environment
 4. Local
-5.  Data
+5. Data
   
 You can view different kinds of buckets in which values reside. If a variable is in two different scopes, the scope with a higher priority wins and the variable gets its value from there. Postman resolves scopes using this hierarchy progressing from broad to narrow scope. 
 
