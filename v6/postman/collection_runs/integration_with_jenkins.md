@@ -83,7 +83,7 @@ Jenkins indicates that the build has failed with a red dot in the title. We can 
 
 [![build failed message](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_8.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_8.png)
 
-Click on the “Console Output” link in the sidebar to see what Newman returned.
+Click the “Console Output” link in the sidebar to see what Newman returned.
 
 [![console output](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_9.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_9.png)
 
