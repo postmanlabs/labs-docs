@@ -15,7 +15,7 @@ Newman resides in the [NPM registry](https://www.npmjs.org/package/newman){:tar
 
 [![newman gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.gif)
 
-We'll cover these topics to learn comman line integration with Newman:
+We'll cover these topics to learn command line integration with Newman:
 
 * [Getting Started](#getting-started)
 * [Options](#options)
