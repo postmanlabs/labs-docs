@@ -49,11 +49,11 @@ Click the **Add** button.
 
 #### Launch screen
 
-The **Create New** tab appears by default when you launch Postman.
+The Create New tab appears by default when you launch Postman.
 
 Open the Postman app.
 
-In the **Create New** tab, click "Environment".
+In the Create New tab, click "Environment".
 
 Enter a name for the new environment.
 
@@ -61,7 +61,7 @@ Add the variables you want to save as key-value pairs.
 
 Click the **Add** button.
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the Create New tab to display each time you open Postman.
 
 ### Selecting an active environment
 
@@ -72,9 +72,9 @@ Once you select an environment, you can access variables in the active environme
 
 ### Editing an active environment
 
-Click the **Quick Look** icon in the upper right corner of the Postman app to display the environment and global variables. 
+Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. 
 
-When you click the **Edit** link, a modal opens where you can edit keys and values.
+When you click the "Edit" link, a modal opens where you can edit keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-active-environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-active-environ.png)
 
@@ -82,15 +82,15 @@ When you click the **Edit** link, a modal opens where you can edit keys and valu
 
 To share an environment, click the gear icon in the upper right corner of the Postman app and select "Manage Environments". 
 
-In the **Manage Environments** tab, click the **Duplicate Environment** icon next to the environment you want to share.
+In the Manage Environments tab, click the Duplicate Environment icon next to the environment you want to share.
 
 [![duplicate](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment-1.png)
 
-It's a best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others. 
+It's best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others. 
 
-When others import the environment, or access the shared template, they can input their own personal information in their own version of the template.
+When others import the environment or access the shared template, they can input their own personal information in their own version of the template.
 
-+**Note**: For Pro and Enterprise users who are sharing environments in a workspace, be aware that changes made to a shared environment will sync for the entire team. If you have sensitive credentials that you don’t want to expose, create a duplicate of the environment, remove the sensitive values, before uploading to share with others.
+**Note**: For Pro and Enterprise users who share environments in a workspace, be aware that changes made to a shared environment will sync for the entire team. If you have sensitive credentials that you don’t want to expose, create a duplicate of the environment, remove the sensitive values, before uploading to share with others.
 
 For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/v6/postman/team_library/sharing){:target="_blank"} with team members.
 
