@@ -7,7 +7,7 @@ warning: false
 
 Variables are symbolic names that represent the information you store in them. The information the variable represents can change, but the operations on the variable remain the same. Variables in Postman work the same way.
 
-This topic describes several ways to use variables in Postman. 
+This topic covers: 
 
 * [Variable scopes](#variable-scopes)
 * [Accessing variables in the request builder](#accessing-variables-in-the-request-builder)
