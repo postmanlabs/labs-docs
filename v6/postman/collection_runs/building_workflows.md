@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-##### Download the collection used in this example:
+Before you start, download this collection for the example we discuss in this topic.
  
    * [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json)
 
