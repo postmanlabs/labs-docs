@@ -46,6 +46,8 @@ You can see your domain in the Custom Domain list.
 
 ### Authentication
 
+**(Enterprise-only)**
+
 In the Authentication settings, you can choose a Single Sign On authentication provider to create a custom authentication method for your team.
 
 Click the **Add a new authentication** method button to summon the Add Authentication Method page.
