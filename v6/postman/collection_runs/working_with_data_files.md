@@ -84,14 +84,16 @@ Read more about [debugging requests](/docs/v6/postman/collection_runs/debugging_
 
 [![request debug tooltip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)
 
-Let's also take a look at our test scripts once again. The variable `data` is a predefined variable that gets the values from the data file. With each iteration, its value is updated with new data from our file. `data` is an object with all variables you defined in your file as its keys. Since this API echoes back whatever is sent to it, we're asserting that the returned value from Echo is the same as the one dictated by our file.
+Let's also take a look at our test scripts once again. The variable `data` is a predefined variable that gets the values from the data file.
 
-Data variables can be used in all places that environment variables can be used, in the exact same way, except in pre-request and test scripts.
+With each iteration, its value is updated with new data from our file. `data` is an object with all variables you defined in your file as its keys. 
+
+Since this API echoes back whatever is sent to it, we're asserting that the returned value from Echo is the same as the one dictated by our file.
+
+You can use data variables in all places and in the exact way you can use environment variables, except in pre-request and test scripts.
 
 <br>
 <br>
-
-
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
