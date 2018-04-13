@@ -4,9 +4,12 @@ page_id: "using_environments_in_collection_runs"
 warning: false
 ---
 
-Environments allow you to create robust requests that can be re-used. Read more about [using variables and environments](/docs/postman/environments_and_globals/variables).
+Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/v6/postman/environments_and_globals/variables).
 
-Environments can also be used in the Collection Runner. Let's look at an example collection, with one POST request that uses environment variables in its URL, body, and test script. Download the sample collection: [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/usingEnvironments.postman_collection.json). 
+You also can use environments in the Collection Runner. Let's look at an example collection with one POST request that uses environment variables in its URL, body, and test script. 
+
+To begin, download the [sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/usingEnvironments.postman_collection.json). 
+
 
 [![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)
 
