@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Including an environment template with a shared collection can be useful in prompting users to input their own personal information with their own version of the template.  
+Including a shared environment with a shared collection can be useful in prompting users to input their own personal information with their own version of the template.  
 
 There are 2 ways to include an environment with the shared collection using the Run in Postman button.
 

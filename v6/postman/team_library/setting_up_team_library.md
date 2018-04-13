@@ -14,9 +14,9 @@ Postman Pro and Enterprise users can use the Team Library to enhance collaborati
 * **Share collections**
   
   You can [share collections](/docs/postman/team_library/sharing#sharing-collections) with your team. Collections contain groups of API requests you can organize, add descriptions, attach test scripts, and build conditional workflows.
-* **Share environment templates**
+* **Share environments**
   
-  Teams can use [environment templates](/docs/postman/api_documentation/environments_and_environment_templates) to create and [share a snapshot of a local environment](/docs/postman/team_library/sharing#sharing-environments). Users might have different environment variable values, so updates to these values are not synced between shared environments.
+  Teams can use [environments](/docs/postman/api_documentation/environments_and_environment_templates) to create and [share a snapshot of a local environment](/docs/postman/team_library/sharing#sharing-environments). Users might have different environment variable values, so updates to these values are not synced between shared environments.
 * **See the activity feed in the Team Library**
   
   You can see changes to shared collections in the [activity feed](/docs/postman/team_library/activity_feed_and_restoring_collections).

@@ -9,7 +9,7 @@ warning: false
 
  **NOTE**: **Team Library is only available for versions 5.0 and below.**
 
-Postman Pro and Enterprise users have access to a Team Library which lets you collaborate faster with your teammates. Team members can share collections and environment templates and see the activity feed in the Team Library. You can think of the Team Library as a way to organize your API infrastructure and make finding API documentation, workflows, and test suites easy.
+Postman Pro and Enterprise users have access to a Team Library which lets you collaborate faster with your teammates. Team members can share collections and environments and see the activity feed in the Team Library. You can think of the Team Library as a way to organize your API infrastructure and make finding API documentation, workflows, and test suites easy.
 
 Your Team Library should be the single source of truth about your APIs. It will let you see the state of your APIs in real time, or review historical versions and the latest updates.
 
@@ -17,9 +17,9 @@ Your Team Library should be the single source of truth about your APIs. It will 
 
 The Team Library allows team members to subscribe to shared collections. When someone subscribes to a collection, they get a synced copy of this collection in their Postman app. If they have edit permissions for the collection, they can make changes which will be reflected in everyone else's collection copy too. Changes made to shared collections are visible under the [Activity Feed](/docs/postman/team_library/activity_feed_and_restoring_collections).
 
-Environment templates work slightly differently. Through an environment template, you can create and share a snapshot of a local environment. Users may have different environment variable values, so updates to these values are not synced between shared environments.
+Shared environments work slightly differently. Through a shared environment, you can create and share a snapshot of a local environment. Users may have different environment variable values, so updates to these values are not synced between shared environments.
 
-There are a number of enhancements coming up soon on [Postman's product roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers){:target="_blank"} that will impact workflows for teams wishing to 'sync' updates to their shared environment templates. In the meantime, here are some workarounds that rely on collections as the single source of truth for your APIs:
+There are a number of enhancements coming up soon on [Postman's product roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers){:target="_blank"} that will impact workflows for teams wishing to 'sync' updates to their shared environment. In the meantime, here are some workarounds that rely on collections as the single source of truth for your APIs:
 
 1. Run a pre-request script to validate the correctness of required environment keys and values. If any are missing, stop the workflow and throw an error.
 2. Set environment variables in the first request of the collection, or a pre-request script.
@@ -38,10 +38,10 @@ In addition to the [standard ways to share a collection](/docs/postman/collectio
 
 ### Sharing environments
 
-In addition to the [standard way to share an environment](/docs/postman/environments_and_globals/manage_environments#share-an-environment), Postman Pro and Enterprise users can also share an environment template with their team.
+In addition to the [standard way to share an environment](/docs/postman/environments_and_globals/manage_environments#share-an-environment), Postman Pro and Enterprise users can also share an environment with their team.
 
 1.  From the gear icon in the upper right corner of the Postman app, select "Manage Environments", and click the orange **Share** button next to the environment you want to share. 
-2.  You will have one last opportunity to hide any sensitive values like passwords and access tokens before sharing the environment template.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.  
-    [![environment template](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58787793.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58787793.png)
+2.  You will have one last opportunity to hide any sensitive values like passwords and access tokens before sharing the environment.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.  
+    [![environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58787793.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58787793.png)
 3.  Click the **Share** button to complete the process.
-4.  Go to the Team Library to view the full list of team environment templates.
+4.  Go to the Team Library to view the full list of team shared environments.

@@ -55,7 +55,7 @@ Variables can also be used in pre-request and test scripts. Since these sections
   2.  Fetching a pre-defined variable: 
         *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
   3.  Setting a variable in a scope: 
-        *  Environment variables can be accessed with the corresponding environment template. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
+        *  Environment variables can be accessed with the corresponding environments. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
 
 [![variables used in script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-scripts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-scripts.png)
 

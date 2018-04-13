@@ -30,7 +30,7 @@ https://documenter.getpostman.com/collection/view/{{collectionId}}
 ``` 
 {% endraw %}
 
-As an optional step, you can include an environment template as a part of your simulation by retrieving the `environmentId` of `testAPIEnv` using the [Postman API](https://api.getpostman.com/){:target="_blank"}. Get a list of all your environments using the [GET All Environments endpoint](https://docs.api.getpostman.com/#d26bd079-e3e1-aa08-7e21-66f55df99351){:target="_blank"}. Search for the name of your environment and retrieve the `uid` from the results, which will be used as the `environmentId` in the next step.
+As an optional step, you can include an environment as a part of your simulation by retrieving the `environmentId` of `testAPIEnv` using the [Postman API](https://api.getpostman.com/){:target="_blank"}. Get a list of all your environments using the [GET All Environments endpoint](https://docs.api.getpostman.com/#d26bd079-e3e1-aa08-7e21-66f55df99351){:target="_blank"}. Search for the name of your environment and retrieve the `uid` from the results, which will be used as the `environmentId` in the next step.
 
 [![get environment id](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-info-46.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-info-46.png)
 
