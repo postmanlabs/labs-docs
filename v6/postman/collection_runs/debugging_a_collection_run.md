@@ -4,7 +4,7 @@ page_id: "debugging_a_collection_run"
 warning: false
 ---
 
-Sometimes your Collection tests fail, even when you expect them all to pass. 
+Sometimes your Collection tests fail—even when you expect them all to pass. 
 
 When failure occurs, you can debug your requests in two ways:
 
