@@ -76,6 +76,8 @@ By default, any environment changes in the collection runner are not reflected i
 
 To learn more about persist variables in a collection run, see [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs).
 
+
+
 For more information about collections runs, see:
 
 * [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
