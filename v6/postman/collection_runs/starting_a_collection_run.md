@@ -74,9 +74,9 @@ To learn more about how to use a date file for a collection run, see
 
 By default, any environment changes in the collection runner are not reflected in the request builder. 
 
-To learn more about persist variables in a collection run, see [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs). \
+To learn more about persist variables in a collection run, see [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs). 
 
-
+<br>
 
 For more information about collections runs, see:
 
