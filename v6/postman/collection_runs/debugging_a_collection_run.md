@@ -14,11 +14,11 @@ When failure occurs, you can debug your requests in two ways:
 
 Let's explore debugging request in example using the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
 
-**Note**: To add Postman Echo to your Postman builder view, go to https://docs.postman-echo.com/. Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
+**Note**: To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/). Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
 
 In your Postman builder view, click the **Runner** button in the left side of the header bar.
 
-In the Collection Runner, select "Postman Echo" and click the **Run Postman Echo** button. (You can also select the Environment, Iterations, Delay time, Log Repsonses, Data, and Persist Variables. But it's not necessary for this example.)
+In the Collection Runner, select "Postman Echo" and click the **Run Postman Echo** button. (You can also select the "Environment", "Iterations", "Delay" (time), "Log Repsonses", "Data", and "Persist Variables". But it's not necessary for this example.)
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)
 
