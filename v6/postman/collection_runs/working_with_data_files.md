@@ -87,3 +87,22 @@ Read more about [debugging requests](/docs/v6/postman/collection_runs/debugging_
 Let's also take a look at our test scripts once again. The variable `data` is a predefined variable that gets the values from the data file. With each iteration, its value is updated with new data from our file. `data` is an object with all variables you defined in your file as its keys. Since this API echoes back whatever is sent to it, we're asserting that the returned value from Echo is the same as the one dictated by our file.
 
 Data variables can be used in all places that environment variables can be used, in the exact same way, except in pre-request and test scripts.
+
+<br>
+<br>
+
+
+For more information about collection runs, see:
+
+* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
+* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
+* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
+* [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
+* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
+* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
+* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}
+* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}
+* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis){:target="_blank"}
+* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker){:target="_blank"}
+
+
