@@ -14,7 +14,7 @@ To import the sample in Postman, click the Import button in the header bar. In t
 
 [![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
 
-The sample file displays in Postman as postman-echo.com/{{path}}.
+The sample file displays in Postman as postman-echo.com/{{path}} in the sidebar.
 
 [![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)
 
