@@ -4,13 +4,17 @@ page_id: "debugging_a_collection_run"
 warning: false
 ---
 
-Sometimes your Collection tests fail, even when you expect them all to pass. When failure occurs, you can debug your requests in two ways:
+Sometimes your Collection tests fail, even when you expect them all to pass. 
+
+When failure occurs, you can debug your requests in two ways:
 
 * [Debugging using the Request and Response body](#debugging-using-the-request-and-response-body)
 * [Debugging using the Postman Console](#debugging-using-the-postman-console)
 
 
-In this example, we're running the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
+Let's explore debugging request in example using the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
+
+**Note**: To add Postman Echo to our Postman instance, go to https://docs.postman-echo.com/. Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)
 
