@@ -10,55 +10,6 @@ You also can use environments in the Collection Runner. Let's look at an example
 
 To begin, download the [sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/usingEnvironments.postman_collection.json). 
 
-It should look like the following:
-
-`{
-	"variables": [],
-	"info": {
-		"name": "Using Environments",
-		"_postman_id": "20ef9a72-6386-4e2c-20a9-87af6cdb11d0",
-		"description": "",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
-	},
-	"item": [
-		{
-			"name": "postman-echo.com/{{path}}",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"type": "text/javascript",
-						"exec": [
-							"let jsonData = JSON.parse(responseBody);",
-							"tests['Correct value is returned'] = jsonData.form.foo === 'bar'",
-							"",
-							"postman.setEnvironmentVariable('foo', 'bar2')"
-						]
-					}
-				}
-			],
-			"request": {
-				"url": "postman-echo.com/{{path}}",
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "foo",
-							"value": "{{foo}}",
-							"type": "text"
-						}
-					]
-				},
-				"description": ""
-			},
-			"response": []
-		}
-	]
-}'
-
-
 [![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)
 
 The test expects the value of `foo` in the response body to be equal to `bar`. Let us also assume that after some computation, we're resetting the value of this variable to `bar2`.
