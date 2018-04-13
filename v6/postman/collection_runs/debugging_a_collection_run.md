@@ -14,7 +14,7 @@ When failure occurs, you can debug your requests in two ways:
 
 Let's explore debugging request in example using the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
 
-**Note**: To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/). Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
+To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/). Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
 
 In your Postman builder view, click the **Runner** button in the left side of the header bar.
 
