@@ -18,7 +18,7 @@ Let's explore debugging request in example using the [Postman Echo collection](h
 
 In your Postman builder view, click the **Runner** button in the left side of the header bar.
 
-In the Collection Runner, select "Postman Echo" and click the **Run Postman Echo** button. (You can also select the "Environment", "Iterations", "Delay" (time), "Log Repsonses", "Data", and "Persist Variables". But it's not necessary for this example.)
+In the Collection Runner, select "Postman Echo" and click the **Run Postman Echo** button. (You can also select the "Environment", "Iterations", "Delay" (time), "Log Repsonses", "Data", and "Persist Variables". But it's not necessary for this example.) The image below shows the results of the collection run.
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)
 
