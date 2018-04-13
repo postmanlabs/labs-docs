@@ -29,7 +29,7 @@ The left sidebar contains three filters, which you can use to show all, passed, 
 
 ### Debugging with multiple iterations
 
-Working with multiple iterations can become tedious when switching between them to check for expected behavor. For this reason, there's a third screen in the collection runner, which is the "Run Summary" screen. When a run is finished (or stopped), you can open up the Run Summary screen by hitting the orange button that says `Run Summary`.
+Working with multiple iterations can become tedious when switching between them to check for expected behavor. For this reason, there's a third screen in the collection runner, which is the "Run Summary" screen. When a run is finished (or stopped), you can open up the Run Summary screen by hitting the orange **Run Summary** button.
 
 [![run summary](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039072.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039072.png)
 
