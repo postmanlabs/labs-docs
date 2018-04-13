@@ -24,13 +24,15 @@ The test expects the value of `foo` in the response body to be equal to `bar`. L
 
 To run this collection correctly in the Collection Runner, you must supply the corresponding environment.
 
-Download the [sample environment json file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/testEnv.postman_environment.json). 
+Download the [sample environment JSON file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/testEnv.postman_environment.json). 
 
 In the Collection Runner, select the test environment from the environment dropdown on the left and run the collection. You'll see the tests pass. 
 
 [![collection runner parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_collection_run.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_collection_run.png)  
 
-If you switch back to the main Postman app window and check the value of the variable `foo`, you'll see that it is now `bar2`. By default, any variable changes in the environment (or globals) in the Collection Runner shows in the main Postman app window because `Persist Variables` is checked in the options. If you run the collection once again, you'll see that it now fails, since we changed the value of the variable `foo`.
+If you switch back to the main Postman app window and check the value of the variable `foo`, you'll see that it is now `bar2`. 
+
+By default, any variable changes in the environment (or globals) in the Collection Runner shows in the main Postman app window because `Persist Variables` is checked in the options. If you run the collection once again, you'll see that it now fails, since we changed the value of the variable `foo`.
 
 [![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)
 
