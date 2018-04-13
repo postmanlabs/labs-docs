@@ -46,7 +46,6 @@ For more information about collection runs, see:
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
 * [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
 * [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}
-* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
 * [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
 * [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
 * [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
