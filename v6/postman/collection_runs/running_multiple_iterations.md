@@ -4,11 +4,15 @@ page_id: "running_multiple_iterations"
 warning: false
 ---
 
-##### Download the collection used in this example:
+This topic describes how to run multiple iterations of a Collection. In addition, it describes:
 
-   * [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037885.json)
+* Switching between iterations(#switching-between-iterations)
+* Using green and red filters(#using-green-and-red-filters)
+* Debugging with multiple iterations(#debugging-with-multiple-iterations)
 
-The iterations of a collection run reflect how many times the collection will run. Here we have a collection that is run with 5 iterations.
+Before we start, download the [collection. json file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037885.json) we'll be using to explain multiple iterations.
+
+The iterations of a collection run reflect how many times the collection will run. Here we have a collection that is run with five iterations.
 
 [![collection runner](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039044.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039044.png)
 [![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039058.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039058.png)
