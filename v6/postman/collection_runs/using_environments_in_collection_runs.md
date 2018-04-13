@@ -10,6 +10,12 @@ You also can use environments in the Collection Runner. Let's look at an example
 
 To begin, download the [sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/usingEnvironments.postman_collection.json). 
 
+To import the sample in Postman, click the Import button in the header bar. In the IMPORT modal, select the sample json file to upload it.
+
+[![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
+
+The sample file displays in Postman as postman-echo.com/{{path}}.
+
 [![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)
 
 The test expects the value of `foo` in the response body to be equal to `bar`. Let us also assume that after some computation, we're resetting the value of this variable to `bar2`.
