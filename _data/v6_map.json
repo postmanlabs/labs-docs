@@ -226,7 +226,13 @@
       {
         "title": "Collection runs",
         "url_prefix": "collection_runs",
-        "children": [
+        "children": [	
+	  {
+            "title": "Intro to collection runs",
+            "href": "/docs/v6/postman/collection_runs/intro_to_collection_runs",
+            "external": false
+          },
+		
           {
             "title": "Starting a collection run",
             "href": "/docs/v6/postman/collection_runs/starting_a_collection_run",
