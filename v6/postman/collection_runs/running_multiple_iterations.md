@@ -10,7 +10,7 @@ This topic describes how to run multiple iterations of a Collection. It also des
 * [Using green and red filters](#using-green-and-red-filters)
 * [Debugging with multiple iterations](#debugging-with-multiple-iterations)
 
-Before we start, download the [collection. json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037885.json)file we'll be using to explain multiple iterations.
+Before we start, download the [collection. json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037885.json) file we'll be using to explain multiple iterations.
 
 The iterations of a collection run reflect how many times the collection will run. Here we have a collection that is run with five iterations.
 
@@ -19,11 +19,11 @@ The iterations of a collection run reflect how many times the collection will ru
 
 ### Switching between iterations
 
-To quickly jump between iterations, you can click one of the numbers on the right sidebar, each of which represents one iteration.
+To quickly jump between iterations, you can click one of the numbers on the right sidebar. Each number represents one iteration.
 
 ### Using green and red filters
 
-The left sidebar contains three filters, which you can use to show all, passed, or failed tests. These filters are useful when you look for tests that failed so you can quickly find bugs in your API.
+The left sidebar contains three filters, which you can use to show all, passed, or failed tests. These filters are useful to help you quickly find bugs in your API.
 
 [![collection runner filters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039741.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039741.png)
 
