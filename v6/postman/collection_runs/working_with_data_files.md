@@ -5,7 +5,14 @@ warning: false
 
 ---
 
-Using data files is a powerful way to test the behavior of APIs with varying data in unexpected circumstances. We can think of data files as parameters for each iteration of a collection run. Let’s walk through an example.
+Using data files is a powerful way to test the behavior of APIs with varying data in unexpected circumstances. We can think of data files as parameters for each iteration of a collection run. 
+
+Let’s walk through an example.
+
+* [Getting started](#getting-started)
+* [Working with the sample files](#working-with-the-sample-files)
+
+
 
 ### Getting started
 
