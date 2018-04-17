@@ -5,20 +5,33 @@ warning: false
 
 ---
 
-Using data files is a powerful way to test the behavior of APIs with varying data in unexpected circumstances. We can think of data files as parameters for each iteration of a collection run. Let’s walk through an example.
+Using data files is a powerful way to test the behavior of APIs with varying data in unexpected circumstances. We can think of data files as parameters for each iteration of a collection run. 
+
+Let’s walk through an example.
+
+* [Getting started](#getting-started)
+* [Working with the sample files](#working-with-the-sample-files)
+
+
+
+### Getting started
 
 Before we begin, download the collection and data files we'll use in this example.
 
    *   [Collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58533790.json)
    *   [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json), [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
    
+#### Importing sample files
+
 To import the files in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample files to upload.
 
 [![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
 
-You should see `Post Request` and `Using data files` in the sidebar as shown in the image below.
+You should see "Post Request" and "Using data files" in the sidebar as shown in the image below.
    
 [![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)
+
+### Working with the sample files
 
 Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` (in the request body). 
 
@@ -30,7 +43,7 @@ The Postman Sandbox initializes the data variable from the JSON/CSV file that we
 
 [![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)
 
-Let's investigate the data files first. We currently support JSON & CSV files.
+Let's investigate the data files first. We currently support JSON and CSV files.
 
 Here's the JSON data file:
 
@@ -94,6 +107,7 @@ You can use data variables in all places and in the exact way you can use enviro
 
 <br>
 <br>
+
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
