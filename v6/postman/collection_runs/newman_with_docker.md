@@ -7,8 +7,8 @@ tags:
 
 ---
 
-[Mac and Ubuntu](#mac-and-ubuntu)
-[Windows](#windows)
+* [Mac and Ubuntu](#mac-and-ubuntu)
+* [Windows](#windows)
 
 
 ### Mac and Ubuntu
