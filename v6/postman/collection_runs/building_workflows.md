@@ -12,7 +12,7 @@ However, you can override this behavior using a [built-in function](/docs/v6/pos
 The easiest way to understand this is to look at a sample collection.
 
 * [Getting started](#getting-started)
-* [Basic workflow] (#basic-workflow)
+* [Basic workflow](#basic-workflow)
 * [Advanced workflow](#advanced-workflow)
 
 
