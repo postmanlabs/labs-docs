@@ -27,7 +27,7 @@ To import the files in Postman, click the **Import** button in the header bar. I
 
 [![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
 
-You should see `Post Request` and `Using data files` in the sidebar as shown in the image below.
+You should see "Post Request" and "Using data files" in the sidebar as shown in the image below.
    
 [![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)
 
