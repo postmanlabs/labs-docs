@@ -23,7 +23,10 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
 
 [![travis workflow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_workflow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_workflow.png)
 
-### Before we get started:
+* [Getting started](#getting-started)
+* [Hooking up Postman to Travis CI](#hooking-up-postman-to-travis-ci)
+
+### Getting started
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/b79dc2835758549eed7e#?env%5Btests%5D=W3siZW5hYmxlZCI6dHJ1ZSwia2V5IjoibGFzdERheSIsInZhbHVlIjoiMjAxNy0wOC0xMFQwMDowMzo1OS45MThaIiwidHlwZSI6InRleHQifV0=)
 
