@@ -24,6 +24,8 @@ You should see `Post Request` and `Using data files` in the sidebar as shown in 
    
 [![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)
 
+### Working with the sample files
+
 Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` (in the request body). 
 
 Use these variables in the same way as environment variables. We'll supply the value to these variables using a JSON / CSV file.
@@ -34,7 +36,7 @@ The Postman Sandbox initializes the data variable from the JSON/CSV file that we
 
 [![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)
 
-Let's investigate the data files first. We currently support JSON & CSV files.
+Let's investigate the data files first. We currently support JSON and CSV files.
 
 Here's the JSON data file:
 
