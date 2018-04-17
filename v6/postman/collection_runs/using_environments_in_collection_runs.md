@@ -8,7 +8,7 @@ Environments enables you to create robust requests that you can reuse. For more 
 
 
 Let's look at an example collection with one POST request that uses environment variables in its URL, body, and test script. 
-* [Gettting started](#gettting-started)
+* [Gettting started](#getting-started)
 * [Running the sample collection](#running-the-sample-collection)
 
 
