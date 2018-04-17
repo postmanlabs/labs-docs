@@ -31,7 +31,7 @@ The test expects the value of `foo` in the response body to be equal to `bar`. L
 
 ### Running the sample collection
 
-#### Downloading sample environment
+#### Downloading the sample environment
 
 To run this collection correctly in the Collection Runner, you must supply the corresponding environment.
 
