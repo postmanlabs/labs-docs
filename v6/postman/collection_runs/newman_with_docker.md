@@ -7,6 +7,8 @@ tags:
 
 ---
 
+This topic describes how to use Newman with Docker in these platforms:
+
 * [Mac and Ubuntu](#mac-and-ubuntu)
 * [Windows](#windows)
 
