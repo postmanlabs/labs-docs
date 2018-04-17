@@ -18,10 +18,7 @@ The easiest way to understand this is to look at a sample collection.
 
 ### Getting started
 
-Before you start, download this collection for the example we discuss in this topic.
- 
-   * [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json)
-
+Before you start, download  [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json) for the example we discuss in this topic.
 
 ### Basic workflow
 
