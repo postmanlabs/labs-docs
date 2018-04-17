@@ -5,7 +5,7 @@ warning: false
 ---
 To share a Collection, you can export a collection run to recipients who can import it in their Postman app.
 
-This topic describes how to export and import a collection run.
+This topic describes how to [export](#exporting-a-run) and [import](#importing-a-run) a collection run.
 
 ### Exporting a run
 
