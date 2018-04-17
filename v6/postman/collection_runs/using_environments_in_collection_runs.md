@@ -11,6 +11,8 @@ You also can use environments in the Collection Runner. Let's look at an example
 
 ### Getting started
 
+#### Downloading sample file
+
 To begin, download the [sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/usingEnvironments.postman_collection.json). 
 
 #### Importing sample file
@@ -23,15 +25,19 @@ The sample file displays in Postman as `postman-echo.com/{{path}}` in the sideba
 
 [![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)
 
-
-
 The test expects the value of `foo` in the response body to be equal to `bar`. Let us also assume that after some computation, we're resetting the value of this variable to `bar2`.
 
 [![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_set_environment_variable2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_set_environment_variable2.png) 
 
+### Running the sample collection
+
+#### Downloading sample environment
+
 To run this collection correctly in the Collection Runner, you must supply the corresponding environment.
 
 Download the [sample environment JSON file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/testEnv.postman_environment.json). 
+
+#### Configuring the Collection Runner
 
 In the Collection Runner, select the test environment from the environment dropdown on the left and run the collection. You'll see the tests pass. 
 
