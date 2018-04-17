@@ -18,7 +18,7 @@ The easiest way to understand this is to look at a sample collection.
 
 ### Getting started
 
-Before you start, download  [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json) for the example we discuss in this topic.
+Before you start, download and [import](/docs/v6/postman/collections/data_formats){:target="_blank"} [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json) for the example we discuss in this topic.
 
 ### Basic workflow
 
@@ -40,7 +40,7 @@ Note that `postman.setNextRequest()` will only work with the collection runner a
 
 ### Advanced workflow
 
-Now that we have a good understanding of how `setNextRequest()` works, we can do some pretty advanced stuff with it. Since you are no longer restricted by the order in which you define your requests, you can jump around your collection, establish conditional logic, or skip unnecessary requests. This [blog post](http://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/) explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
+Now that we have a good understanding of how `setNextRequest()` works, we can do some pretty advanced stuff with it. Since you are no longer restricted by the order in which you define your requests, you can jump around your collection, establish conditional logic, or skip unnecessary requests. This [blog post](http://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/){:target="_blank"} explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
 
 There are some gotchas to keep in mind:
 
