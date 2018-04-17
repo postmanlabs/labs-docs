@@ -14,6 +14,8 @@ Before we begin, download the collection and data files we'll use in this exampl
    *   [Collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58533790.json)
    *   [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json), [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
    
+#### Importing sample files
+
 To import the files in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample files to upload.
 
 [![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
