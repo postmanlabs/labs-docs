@@ -13,7 +13,7 @@ The easiest way to understand this is to look at a sample collection.
 
 * [Getting started](#getting-started)
 * [Basic workflow] (#basic-workflow)
-* [Advanced workflow](#advanced-workflow])
+* [Advanced workflow](#advanced-workflow)
 
 
 ### Getting started
