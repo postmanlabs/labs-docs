@@ -7,7 +7,13 @@ tags:
 
 ---
 
-### For Mac and Ubuntu
+This topic describes how to use Newman with Docker in these platforms:
+
+* [Mac and Ubuntu](#mac-and-ubuntu)
+* [Windows](#windows)
+
+
+### Mac and Ubuntu
 
 Follow these steps to use [Newman](https://github.com/postmanlabs/newman){:target="_blank"} with [Docker](https://www.docker.com/){:target="_blank"}:
 
@@ -37,6 +43,6 @@ At this stage, you should see the Collection running in Newman and the output di
 
 The entry point to the Docker image is Newman. So you can use all Newman command line parameters. You can also run locally stored collection files. The README of the image outlines how to mount shared data volumes.
 
-### For Windows
+### Windows
 
 Check our [blog post](http://blog.getpostman.com/2015/08/07/using-the-newman-docker-image-in-windows/){:target="_blank"} on how to run Newman in Docker for Windows.
