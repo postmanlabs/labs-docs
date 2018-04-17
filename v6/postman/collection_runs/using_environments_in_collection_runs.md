@@ -4,13 +4,23 @@ page_id: "using_environments_in_collection_runs"
 warning: false
 ---
 
-Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/v6/postman/environments_and_globals/variables).
+Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/v6/postman/environments_and_globals/variables). You also can use environments in the Collection Runner. 
 
-You also can use environments in the Collection Runner. Let's look at an example collection with one POST request that uses environment variables in its URL, body, and test script. 
+
+Let's look at an example collection with one POST request that uses environment variables in its URL, body, and test script. 
+* [Gettting started](#getting-started)
+* [Running the sample collection](#running-the-sample-collection)
+
+
+### Getting started
+
+#### Downloading sample file
 
 To begin, download the [sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/usingEnvironments.postman_collection.json). 
 
-To import the sample in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample json file to upload it.
+#### Importing sample file
+
+To import the sample in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample JSON file to upload it.
 
 [![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
 
@@ -22,9 +32,15 @@ The test expects the value of `foo` in the response body to be equal to `bar`. L
 
 [![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_set_environment_variable2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_set_environment_variable2.png) 
 
+### Running the sample collection
+
+#### Downloading the sample environment
+
 To run this collection correctly in the Collection Runner, you must supply the corresponding environment.
 
 Download the [sample environment JSON file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/testEnv.postman_environment.json). 
+
+#### Configuring the Collection Runner
 
 In the Collection Runner, select the test environment from the environment dropdown on the left and run the collection. You'll see the tests pass. 
 
