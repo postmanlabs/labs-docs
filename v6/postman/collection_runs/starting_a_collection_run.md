@@ -27,13 +27,13 @@ The collection or folder you want to run.
 
 When you run a collection, all requests in the collection are sent in the order they appear in the main app. As a result each folder is run, and each request inside the folder, is sequentially executed. When you select a folder, only that folder is executed and only requests inside the folder are sent. You can, however, change the order to more closely mirror your workflow when you use the `setNextRequest()` method.
 
-To learn more about how to build a workflow, see [Building workflows](/docs/postman/collection_runs/building_workflows).
+To learn more about how to build a workflow, see [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}.
 
 ### Environment
 
 The environment to use when a collection runs. 
 
-To learn how to use environments in collection runs, see [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs).
+To learn how to use environments in collection runs, see [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}.
 
 ### Iterations
 
