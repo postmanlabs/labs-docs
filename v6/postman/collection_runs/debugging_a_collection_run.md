@@ -12,9 +12,11 @@ When failure occurs, you can debug your requests in two ways:
 * [Debugging using the Postman Console](#debugging-using-the-postman-console)
 
 
-Let's explore debugging request in example using the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
+Let's explore debugging request in an example using the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
 
-To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/). Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
+To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/){:target="_blank"}. 
+
+Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
 
 In your Postman builder view, click the **Runner** button in the left side of the header bar.
 
@@ -37,25 +39,27 @@ As the test says, we're expecting a cookie named `foo1` to be returned as part o
 
 If you click on any request name in your collection run, you'll notice a tooltip appear. This tooltip has useful information about to your request, information you might need to figure out what went wrong. 
 
-Expanding the `Response Body` section, we can see clearly that the response does not contain the cookie we expect. Moreover, upon expanding the `Response Headers` section, we see that the cookie was not sent at all. We infer something must be wrong with the way Postman Echo handles cookies. We can now go ahead and patch this up in our API and try again.
+Expanding the `Response Body` section, we can see clearly that the response does not contain the cookie we expect.
+
+Moreover, when we expand the `Response Headers` section, we see that the cookie was not sent at all. We infer something must be wrong with the way Postman Echo handles cookies. We can now go ahead and patch this up in our API and try again.
 
 Note that only response bodies less than 300KBs are attempted to be displayed. Your response headers and bodies are never synced for security reasons. 
 
-You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run).
+You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}.
 
 ### Debugging using the Postman Console
 
 Debugging using the Postman Console requires you to have the console open before you start your run. 
 
-For more information about the Postman Console, see [Debugging and logs](/docs/v6/postman/sending_api_requests/debugging_and_logs).
+For more information about the Postman Console, see [Debugging and logs](/docs/v6/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
 
 [![postman console view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)
 
 The Postman Console records all requests and displays them in a list.
 
-Let's find the request that's causing problems here and expand its response headers. Here too, we see that the Postman Echo endpoint did not return a cookie, and indicates why our test is failing. We can then infer that the endpoint is misbehaving and needs to be looked at.
+Let's find the request that's causing problems here and expand its response headers. Here too, we see that the Postman Echo endpoint did not return a cookie, and indicates why our test is failing. We can then infer that the endpoint is misbehaving and needs to be reviewed.
 
-Any `console.log` you have in your test scripts also appears here, so you can log things in the console if you're debugging a complex test script. 
+Any `console.log` you have in your test scripts also appears here, so you can log in the console if you're debugging a complex test script. 
 <br>
 <br>
 For more information about collection runs, see:
