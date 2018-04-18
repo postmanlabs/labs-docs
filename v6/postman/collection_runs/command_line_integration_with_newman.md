@@ -7,7 +7,7 @@ tags:
 
 ---
 
-Newman is a command line collection runner for Postman. It allows you to run and test a Postman Collection directly from the command line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
+Newman is a command line Collection Runner for Postman. It allows you to run and test a Postman Collection directly from the command line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
 
 Newman maintains feature parity with Postman and allows you to run collections the way they are executed inside the collection runner in the Postman app.
 
@@ -39,15 +39,15 @@ $ npm install -g newman
 
 The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. 
 
-To learn how to export collections to share as a file, see the [collection documentation](/docs/postman/collections/sharing_collections){:target="_blank"}.
+To learn how to export collections to share as a file, see the [collection documentation](/docs/v6/postman/collections/sharing_collections){:target="_blank"}.
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/postman/collections/sharing_collections){:target="_blank"} to learn how to share a file as a URL. 
+You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/v6/postman/collections/sharing_collections){:target="_blank"} to learn how to share a file as a URL. 
 
-Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} from Postman and run them with the `-e` flag.
+Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/v6/postman/environments_and_globals/manage_environments){:target="_blank"} from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -175,11 +175,11 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/postman/scripts/postman_sandbox){:target="_blank"} that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](/docs/v6/postman/scripts/postman_sandbox){:target="_blank"} that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 
-Newman also supports file uploads. For this to work correctly, the file to be uploaded must be placed in the relative location specified within the collection. For instance, for the following collection:
+Newman also supports file uploads. For this to work correctly, upload the file in the relative location specified in the collection. For instance, review this collection:
 
 ```json 
 {
@@ -231,7 +231,7 @@ Newman also supports file uploads. For this to work correctly, the file to be up
 }
 ```
 
-The file ``sample-file.txt`` must be present in the same directory as the collection. The collection can the be run as usual.
+The file ``sample-file.txt`` must be present in the same directory as the collection. Run this collection as usual.
 
 ```bash
 $ newman run file-upload.postman_collection.json
@@ -239,7 +239,7 @@ $ newman run file-upload.postman_collection.json
 
 ### Library
 
-Newman has been built as a library from the ground up so that it can be extended and used in various ways. You can use it as follows in your Node.js code:
+Newman has been built as a library from the ground up. It can be extended and used in various ways. You can use it as follows in your Node.js code:
 
 ```javascript
 var newman = require('newman'); // require newman in your project
@@ -273,7 +273,7 @@ function (emitter, reporterOptions, collectionRunOptions) {
 
 3. Publish your reporter using `npm publish`, or use your reporter locally [see usage instructions][7].
 
-Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. Working reporter examples can be found in [working reporter examples][8].
+Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. You can find working reporter examples  in [working reporter examples][8].
 
 #### Using custom reporters
 In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]:
