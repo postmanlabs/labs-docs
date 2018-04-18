@@ -12,10 +12,10 @@ Postman enables you to share Collections in Workspaces from the Postman app and 
 **Note**: Before you can upload or share a collection, you must sign in to your [Postman account](/docs/v6/postman/launching_postman/postman_account). However, you can [share collections as a file](#sharing-as-a-file) without being signed in.
 
 This topic covers:
-* Sharing collections in the app(#sharing-collections-in-the-app)
-* Sharing collections in the Dashboard(#sharing-collections-in-the-dashboard)
-* Sharing as a file(#sharing-as-a-file)
-* Modifying team permissions(#modifying-team-permissions)
+* [Sharing collections in the app](#sharing-collections-in-the-app)
+* [Sharing collections in the Dashboard](#sharing-collections-in-the-dashboard)
+* [Sharing as a file](#sharing-as-a-file)
+* [Modifying team permissions](#modifying-team-permissions)
 
 ### Sharing collections in the app
 
