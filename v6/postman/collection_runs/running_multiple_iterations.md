@@ -37,7 +37,7 @@ When a run is finished (or stopped), you can open up the Run Summary screen by c
 
 This screen is, as the name suggests, an overview of your run. Here, you can see each request, and its pass/fail status as a timeline. 
 
-A request is treated as `Passed` if all tests inside it pass. Similarly, if one or more tests fail, the request is marked as Failed.
+A request is treated as Passed if all tests inside it pass. Similarly, if one or more tests fail, the request is marked as Failed.
 
 The numbers in the header represent the current iteration. Now its easy to pinpoint the misbehaving test. Click on an iteration in the header for that iteration, so you can further investigate what might be wrong. 
 
