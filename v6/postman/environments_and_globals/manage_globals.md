@@ -4,18 +4,35 @@ page_id: "manage_globals"
 warning: false
 ---
 
-Global variables provide a set of variables that are always available to you within all scopes. You can have multiple environments, and only one can be active at a time. But you’ll have only one set of global variables, and they’ll always be available. 
+Global variables provide a set of variables that are available in all scopes. You can have multiple environments, but only one environment can be active at a time with one set of global variables. 
 
-> **Environment and global variables will always be stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
+This topic describes how to manage and view global variables.
 
-##### **Manage global variables**
+### Managing global variables
 
-Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". Click on the **Globals** button at the bottom of the modal to reveal a key-value editor to add, edit, and delete global variables. This is also where you can download your global variables as a single JSON file.
+To manage global variables, click the gear icon in the upper right corner of the Postman app and select "Manage Environments". 
+
+[![manage environments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage-environments4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage-environments4.png)
+
+Click the **Globals** button at the bottom of the modal to reveal a key-value editor to add, edit, and delete global variables. 
+
+[![globals button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/globals-button3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/globals-button3.png)
+
+You also can download your global variables as a single JSON file.
 
 [![management environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-globals-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-globals-1.png)
 
-##### **View global variables**
+### Viewing global variables
 
-Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. Clicking on the **Edit** link will open a modal for editing keys and values.
+To view global variables, click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. 
+
+When you click the "Edit" link, it opens a modal for editing keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)
+
+
+For more information about globals, variables, and environments, see:
+
+* [Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}
+* [Intro to environments and globals](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals){:target="_blank"}
+* [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments){:target="_blank"}
