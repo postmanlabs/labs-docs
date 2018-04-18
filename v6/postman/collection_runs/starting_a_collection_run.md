@@ -60,7 +60,7 @@ Here's more detail about default logging:
    *   For no requests, no responses will be logged.
    
    
-To learn how to debug collection requests, see [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run){:target="_blank"}.
+To learn how to debug collection requests, see [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}.
 
 ### Data
 
