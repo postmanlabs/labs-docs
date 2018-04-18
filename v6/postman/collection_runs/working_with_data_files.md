@@ -19,7 +19,8 @@ Let’s walk through an example.
 Before we begin, download the collection and data files we'll use in this example.
 
    *   [Collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58533790.json)
-   *   [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json), [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
+   *   [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json)
+   *   [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
    
 #### Importing sample files
 
@@ -35,11 +36,11 @@ You should see "Post Request" and "Using data files" in the sidebar as shown in 
 
 Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` (in the request body). 
 
-Use these variables in the same way as environment variables. We'll supply the value to these variables using a JSON / CSV file.
+Use these variables in the same way as environment variables. We'll supply the value to these variables using the JSON and CSV files.
 
 When you open the test script, you'll see we're using some variables in the test script -`data` specifically, which isn't defined in the script itself. 
 
-The Postman Sandbox initializes the data variable from the JSON/CSV file that we'll select in the collection run.
+The Postman Sandbox initializes the data variable from the JSON and CSV files that we'll select in the collection run.
 
 [![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)
 
@@ -83,7 +84,7 @@ Note that you can only use one data file for one run.
 
 Now that you understand how to construct data files, let's supply this data file to a Collection Run. 
 
-Click `Select File` in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking `Preview` next to the file name.
+Click "Select File" in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking "Preview" next to the file name.
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)             
 
@@ -91,9 +92,9 @@ Click `Select File` in the Runner, and select one of these files. You can also 
 
 Let's run our collection now. You'll see that all tests pass now. 
 
-If you open up the request debug tooltip, and expand `Request Body`, you'll see that the variable `{% raw %}{{value}}{% endraw %}` was replaced by the value, as dictated by the data file. 
+If you open up the request debug tooltip, and expand "Request Body", you'll see that the variable `{% raw %}{{value}}{% endraw %}` was replaced by the value, as dictated by the data file. 
 
-Read more about [debugging requests](/docs/v6/postman/collection_runs/debugging_a_collection_run). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
+Read more about [debugging requests](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}. In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
 
 [![request debug tooltip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)
 
