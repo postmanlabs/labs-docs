@@ -34,7 +34,6 @@ For more information about collection runs, see:
 * [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}
 * [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
 * [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
 * [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
 * [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}
 * [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}
