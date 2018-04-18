@@ -19,9 +19,9 @@ To run collections, you can use:
 
 [![runner button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button2.png)
 
-* [Newman](/docs/postman/collection_runs/command_line_integration_with_newman) command line tool.
+* [Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman) command line tool.
 
-* [Postman Monitors](/docs/postman/monitors/intro_monitors) to run collections in scheduled intervals.
+* [Postman Monitors](/docs/v6/postman/monitors/intro_monitors) to run collections in scheduled intervals.
 
 
 
