@@ -15,7 +15,7 @@ When you use scripts, you can build integration test suites, pass data between 
 
 To run collections, you can use:
 
-* Postman app collection runner located in the header bar.
+* Postman app collection runner in the header bar.
 
 [![runner button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button2.png)
 
@@ -23,7 +23,7 @@ To run collections, you can use:
 
 * [Postman Monitors](/docs/v6/postman/monitors/intro_monitors) to run collections in scheduled intervals.
 
-
+<br>
 
 For more information about collection runs, see:
 
