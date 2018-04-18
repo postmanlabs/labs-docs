@@ -12,7 +12,7 @@ This topic describes how to run multiple iterations of a Collection. It also des
 
 Before we start, download the [collection. json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037885.json) file we'll use to explain multiple iterations.
 
-The iterations of a collection run reflect how many times the collection will run. Here we have a collection that is run with five iterations.
+The iterations of a collection run reflect how many times the collection will run. Here we have a collection run with five iterations.
 
 [![collection runner](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039044.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039044.png)
 [![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039058.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039058.png)
@@ -29,13 +29,15 @@ The left sidebar contains three filters, which you can use to show all, passed, 
 
 ### Debugging with multiple iterations
 
-Working with multiple iterations can become tedious when switching between them to check for expected behavor. For this reason, there's a third screen in the collection runner, which is the Run Summary screen. When a run is finished (or stopped), you can open up the Run Summary screen by hitting the orange **Run Summary** button.
+Working with multiple iterations can become tedious when switching between them to check for expected behavor. For this reason, there's a third screen in the collection runner, which is the Run Summary screen. 
+
+When a run is finished (or stopped), you can open up the Run Summary screen by clicking the orange **Run Summary** button.
 
 [![run summary](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039072.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039072.png)
 
 This screen is, as the name suggests, an overview of your run. Here, you can see each request, and its pass/fail status as a timeline. A request is treated as `Passed` if all tests inside it pass. Similarly, if one or more tests fail, the request is marked as `Failed`.
 
-The numbers in the header represent the iteration you are working with. It becomes very easy to pinpoint the test that is misbehaving. Clicking on an iteration in the header will take you to that iteration, so you can further investigate what might be going wrong. 
+The numbers in the header represent the current iteration. Now its easy to pinpoint the misbehaving test. Click on an iteration in the header for that iteration, so you can further investigate what might be wrong. 
 
 Iterations in the collection runner are 1-indexed with the first iteration beginning with a count of 1. 
 
