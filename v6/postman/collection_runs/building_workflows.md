@@ -48,6 +48,19 @@ This [blog post](http://blog.getpostman.com/2016/11/09/generate-spotify-playlist
 
 Remember these two facts as you use this workflow:
 
-   *   `postman.setNextRequest()` is always executed at the end of the current script. This means that if you put `postman.setNextRequest()` before other code blocks, these blocks will still be executed.
+   *   `postman.setNextRequest()` is always executed at the end of the current script. If you put this fuction before other code blocks, these blocks will still execute.
    
-   *   `postman.setNextRequest()` has a scope, which is the source of your collection run. This means that if you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. This means that you can jump to any request within this folder, but not ones that are outside of the folder. This includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}.
+   *   `postman.setNextRequest()` has a scope, which is the source of your collection run. If you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. So you can jump to any request in this folder, but not ones that are outside of the folder. It includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}.
+   <br>
+   <br>
+* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
+* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
+* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}
+* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
+* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
+* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
+* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}
+* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}
+* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis){:target="_blank"}
+* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker){:target="_blank"}
+   
