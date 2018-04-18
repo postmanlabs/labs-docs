@@ -51,6 +51,15 @@ Global variables provide a set of variables that are always available to you in 
 
 To learn how to manage and view global variables, see [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}.
 
+<br>
+<br>
+
+For more information about environments and globals, see:
+
+* [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments){:target="_blank"}
+* [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}.
+* [Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}
+
 
 
 
