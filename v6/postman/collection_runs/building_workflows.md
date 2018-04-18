@@ -18,7 +18,7 @@ Let's look at a sample collection to understand this function.
 
 ### Getting started
 
-Before you start, download and [import](/docs/v6/postman/collections/data_formats){:target="_blank"} [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json) for the example we discuss in this topic.
+Before you start, download and [import](/docs/v6/postman/collections/data_formats){:target="_blank"} [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json) for the example we'll discuss in this topic.
 
 ### Basic workflow
 
