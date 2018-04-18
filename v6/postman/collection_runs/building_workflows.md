@@ -30,7 +30,7 @@ Let's assume that we have a collection with four requests. If you run this colle
 
 Let's now add `postman.setNextRequest()` to Request 1's test script, as shown. `postman.setNextRequest()` is a function with one argument, which is the name or ID of the request you want to run next. 
 
-In the example, we're setting the next request to Request 4 in the test script for Request 1. This means the execution will jump to Request 4 after Request 1 has completed. If we run the same collection now, you'll see that only two requests are run now.
+In the example, we're setting the next request to Request 4 in the test script for Request 1. So the execution jumps to Request 4 after Request 1 has completed. If we run the same collection now, you'll see that only two requests are run now.
 
 [![setNextRequest with request name as parameter](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)
 
