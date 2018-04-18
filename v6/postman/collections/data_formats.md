@@ -5,7 +5,17 @@ warning: false
 
 ---
 
-Postman can export and import collections, environments, globals and header presets as files and links.
+Postman can export and import collections, environments, globals and header presets as files and links. This topic covers:
+
+* [Exporting and Importing Postman data](#exporting and Importing Postman data)
+* [Importing cURL](#importing-curl)
+* [Importing RAML](#importing-raml)
+* [Importing Swagger](#importing-swagger)
+* [Importing WADL](#importing-wadl)
+* [Validating Collection JSON files](#validating-collection-json-files)
+
+
+
 
 ### Exporting and Importing Postman data
 
