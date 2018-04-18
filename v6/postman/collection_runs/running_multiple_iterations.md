@@ -37,7 +37,9 @@ This screen is, as the name suggests, an overview of your run. Here, you can see
 
 The numbers in the header represent the iteration you are working with. It becomes very easy to pinpoint the test that is misbehaving. Clicking on an iteration in the header will take you to that iteration, so you can further investigate what might be going wrong. 
 
-Iterations in the collection runner are 1-indexed with the first iteration beginning with a count of 1. Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](/docs/postman/scripts/postman_sandbox_api_reference), which is 0-indexed with the first iteration beginning with a count of zero.
+Iterations in the collection runner are 1-indexed with the first iteration beginning with a count of 1. 
+
+Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](/docs/v6/postman/scripts/postman_sandbox_api_reference){:target="_blank"}, which is 0-indexed with the first iteration beginning with a count of zero.
 <br>
 <br>
 
