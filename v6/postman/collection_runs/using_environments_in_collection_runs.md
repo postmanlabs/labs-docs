@@ -4,7 +4,7 @@ page_id: "using_environments_in_collection_runs"
 warning: false
 ---
 
-Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/v6/postman/environments_and_globals/variables). You also can use environments in the Collection Runner. 
+Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}. You also can use environments in the Collection Runner. 
 
 
 Let's look at an example collection with one POST request that uses environment variables in its URL, body, and test script. 
