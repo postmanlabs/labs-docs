@@ -23,6 +23,8 @@ Travis CI runs your tests every time you commit to your GitHub repo. Then it sub
 
 [![travis workflow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_workflow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_workflow.png)
 
+Let's learn more about integration with Travis:
+
 * [Getting started](#getting-started)
 * [Hooking up Postman to Travis CI](#hooking-up-postman-to-travis-ci)
 
@@ -99,7 +101,7 @@ script:
 
 [![travis log success](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_log_success.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_log_success.png)
 
-   And it's working! All our tests passed and the command exited with a successful exit code (0).
+ And it's working! All our tests passed and the command exited with a successful exit code (0).
    
    
 For more information about collection runs, see:
