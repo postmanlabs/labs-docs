@@ -7,7 +7,7 @@ warning: false
 
 When you start a collection run, all requests are run in the order you see them in the main app. So all requests are executed first, by order of the folder, and then any requests in the root of the collection. 
 
-However, you can override this behavior using a [built-in function](/docs/v6/postman/scripts/branching_and_looping) called `postman.setNextRequest()`. `postman.setNextRequest()`, as the name suggests, allows you to specify which request runs next. 
+However, you can override this behavior using a [built-in function](/docs/v6/postman/scripts/branching_and_looping){:target="_blank"} called `postman.setNextRequest()`. `postman.setNextRequest()`, as the name suggests, allows you to specify which request runs next. 
 
 The easiest way to understand this is to look at a sample collection.
 
