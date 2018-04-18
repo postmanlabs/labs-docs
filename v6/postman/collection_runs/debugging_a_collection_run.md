@@ -14,7 +14,9 @@ When failure occurs, you can debug your requests in two ways:
 
 Let's explore debugging request in an example using the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
 
-To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/). Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
+To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/){:target="_blank"}. 
+
+Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
 
 In your Postman builder view, click the **Runner** button in the left side of the header bar.
 
@@ -43,13 +45,13 @@ Moreover, when we expand the `Response Headers` section, we see that the cookie 
 
 Note that only response bodies less than 300KBs are attempted to be displayed. Your response headers and bodies are never synced for security reasons. 
 
-You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run).
+You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}.
 
 ### Debugging using the Postman Console
 
 Debugging using the Postman Console requires you to have the console open before you start your run. 
 
-For more information about the Postman Console, see [Debugging and logs](/docs/v6/postman/sending_api_requests/debugging_and_logs).
+For more information about the Postman Console, see [Debugging and logs](/docs/v6/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
 
 [![postman console view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)
 
