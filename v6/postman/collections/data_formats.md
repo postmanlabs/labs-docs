@@ -7,7 +7,7 @@ warning: false
 
 Postman can export and import collections, environments, globals and header presets as files and links. This topic covers:
 
-* [Exporting and Importing Postman data](#exporting and Importing Postman data)
+* [Exporting and importing Postman data](#exporting-and-importing-postman-data)
 * [Importing cURL](#importing-curl)
 * [Importing RAML](#importing-raml)
 * [Importing Swagger](#importing-swagger)
@@ -17,7 +17,7 @@ Postman can export and import collections, environments, globals and header pres
 
 
 
-### Exporting and Importing Postman data
+### Exporting and importing Postman data
 
 Postman can export and import the following formats as a file or generated URL. When you export a collection from the Postman app, the exported file is a JSON file. The file contains all data (and metadata) that is required by Postman to recreate the collection when imported back into Postman, or that is utilized by Newman to run the collection from the command line interface (CLI).
 
