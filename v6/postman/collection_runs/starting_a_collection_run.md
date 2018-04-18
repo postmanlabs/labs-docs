@@ -41,11 +41,11 @@ The number of times the collection will run.
 
 Sending different data in each iteration and setting a higher iteration counts usually ensures the stability of your APIs.
 
-To learn how to run multiple iterations, see [Running multiple iterations](/docs/postman/collection_runs/using_environments_in_collection_runs).
+To learn how to run multiple iterations, see [Running multiple iterations](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}.
 
 ### Delay
 
-The interval (in ms) between each request in a collection run.
+The interval (in milliseconds) between each request in a collection run.
 
 ### Log responses
 
@@ -60,21 +60,21 @@ Here's more detail about default logging:
    *   For no requests, no responses will be logged.
    
    
-To learn how to debug collection requests, see [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run).
+To learn how to debug collection requests, see [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run){:target="_blank"}.
 
 ### Data
 
 Supplies a data file to use for the collection run.
 
 To learn more about how to use a date file for a collection run, see
-[Working with data files](/docs/postman/collection_runs/working_with_data_files).
+[Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}.
 
 
 ### Persist variables
 
 By default, any environment changes in the collection runner are not reflected in the request builder. 
 
-To learn more about persist variables in a collection run, see [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs). 
+To learn more about persist variables in a collection run, see [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}. 
 
 <br>
 <br>
