@@ -6,7 +6,10 @@ warning: false
 
 Global variables provide a set of variables that are available in all scopes. You can have multiple environments, but only one environment can be active at a time with one set of global variables. 
 
-This topic describes how to manage and view global variables.
+This topic describes:
+* Managing global variables(#Managing-global-variables)
+* Viewing global variables(#viewing-global-variables)
+
 
 ### Managing global variables
 
