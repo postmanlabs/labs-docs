@@ -34,7 +34,7 @@ You should see "Post Request" and "Using data files" in the sidebar as shown in 
 
 ### Working with the sample files
 
-Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` (in the request body). 
+Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` in the request body. 
 
 Use these variables in the same way as environment variables. We'll supply the value to these variables using the JSON and CSV files.
 
