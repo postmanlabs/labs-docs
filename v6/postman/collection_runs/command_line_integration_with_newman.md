@@ -276,7 +276,7 @@ function (emitter, reporterOptions, collectionRunOptions) {
 Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. You can find working reporter examples  in [working reporter examples][8].
 
 #### Using custom reporters
-In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]:
+In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]{:target="_blank"}:
 
 Install the reporter package. 
 ```
