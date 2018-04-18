@@ -22,7 +22,7 @@ Before you start, download and [import](/docs/v6/postman/collections/data_format
 
 ### Basic workflow
 
-Let's assume that we have a collection with four requests. If you run this collection directly, the collection runner will run all four requests in order.
+Let's assume that we have a collection with four requests. If you run this collection directly, the collection runner runs all four requests in order.
 
 [![setNextRequest in tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setNextRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setNextRequest.png)
 
@@ -40,9 +40,13 @@ Note that `postman.setNextRequest()` will only work with the collection runner a
 
 ### Advanced workflow
 
-Now that we have a good understanding of how `setNextRequest()` works, we can do some pretty advanced stuff with it. Since you are no longer restricted by the order in which you define your requests, you can jump around your collection, establish conditional logic, or skip unnecessary requests. This [blog post](http://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/){:target="_blank"} explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
+Now that we have a good understanding of how `setNextRequest()` works, we can perform advanced actions. 
 
-There are some gotchas to keep in mind:
+Since you are no longer restricted by the order in which you define your requests, you can jump around your collection, establish conditional logic, or skip unnecessary requests. 
+
+This [blog post](http://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/){:target="_blank"} explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
+
+Remember these two facts as you use this workflow:
 
    *   `postman.setNextRequest()` is always executed at the end of the current script. This means that if you put `postman.setNextRequest()` before other code blocks, these blocks will still be executed.
    
