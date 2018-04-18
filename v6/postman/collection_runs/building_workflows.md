@@ -9,7 +9,7 @@ When you start a collection run, all requests are run in the order you see them 
 
 However, you can override this behavior using a [built-in function](/docs/v6/postman/scripts/branching_and_looping){:target="_blank"} called `postman.setNextRequest()`. This function, as the name suggests, allows you to specify which request runs next. 
 
-The easiest way to understand this is to look at a sample collection.
+Let's look at a sample collection to understand this function.
 
 * [Getting started](#getting-started)
 * [Basic workflow](#basic-workflow)
