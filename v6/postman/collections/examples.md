@@ -6,11 +6,11 @@ warning: false
 
 This topic covers:
 * [What is an example?](#what-is-an-example)
-* Why use examples?
-* Adding an example
-* Accessing your saved examples
-* What happened to the ‘Save Response’ feature?
-* How your examples appear in Postman documentation
+* [Why use examples?](#why-use-examples)
+* [Adding an example](#adding-an-example)
+* [Accessing your saved examples](#accessing-your-saved-examples)
+* [What happened to the ‘Save Response’ feature?](#what-happened-to-the-save-response-feature)
+* [How your examples appear in Postman documentation](#how-your-examples-appear-in-postman-documentation)
 
 
 
