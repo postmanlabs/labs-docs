@@ -22,7 +22,7 @@ This topic describes the tasks you can perform from the **Collections** tab in
 
 ### Navigate through collections
 
-Click on a collection to show or hide the requests that comprise the collection. Use the up and down arrow keys on your keyboard to navigate through the collections. 
+Click on a collection to show or hide the requests that comprise the Collection. Use the up and down arrow keys on your keyboard to navigate through the collections. 
 
 ### Edit and view collection details
 
@@ -32,7 +32,7 @@ Expand the right angle bracket (**>**) to show the details view for the collecti
 
 ### Create a new collection
 
-Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/postman/collections/creating_collections).
+Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/v6/postman/collections/creating_collections).
 
 [![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-collection-sidebar.png)
 
@@ -57,9 +57,6 @@ If you have a lot of collections, filter collections in the sidebar using the se
 ### Delete a collection
 
 Click the ellipses (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can click the **Undo** link in the notification that appears at the top of the Postman app.
-
-
-
 
 [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete-collections+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete-collections+copy.png)
 
