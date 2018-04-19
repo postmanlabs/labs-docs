@@ -26,18 +26,20 @@ You can use Markdown to style descriptions for collections and folders.
 
 ### Public or internal API documentation
 
-Public or internal [API documentation](/docs/postman/api_documentation/intro_to_api_documentation) can automatically generate API descriptions. You can use Markdown to style those descriptions. 
+Public or internal [API documentation](/docs/v6/postman/api_documentation/intro_to_api_documentation){:target="_blank"} can automatically generate API descriptions. 
+
+You can use Markdown to style those descriptions. 
 [![automatically generated documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-auto-docs.png)
 
 ### Descriptions for request attributes
 
-The description column in the [data editor](/docs/postman/launching_postman/navigating_postman) makes your requests easier to understand. You can add comments and details for each of your query parameters, path variables, headers, and body (form-data and urlencoded) in the Postman app.
+The description column in the [data editor](/docs/v6/postman/launching_postman/navigating_postman){:target="_blank"} makes your requests easier to understand. You can add comments and details for each of your query parameters, path variables, headers, and body (form-data and urlencoded) in the Postman app.
 
 For example, specify if an element is required or optional, indicate the accepted data type, or use alternative terminology to provide additional clarification for developers who work with your requests.
 
 [![data editor parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-data-editor-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-data-editor-params.png)
 
-For Postman users who publish internal or public API documentation, these descriptions display in the [automatically generated documentation](/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
+For Postman users who publish internal or public API documentation, these descriptions display in the [automatically generated documentation](/docs/v6/postman/api_documentation/intro_to_api_documentation){:target="_blank"} for that collection.
 
 [![parameters in automatically generated docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-auto-docs.png)
 
