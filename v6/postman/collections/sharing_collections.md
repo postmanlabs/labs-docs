@@ -9,7 +9,7 @@ warning: false
 
 Postman enables you to share Collections in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
-**Note**: Before you can upload or share a collection, you must sign in to your [Postman account](/docs/v6/postman/launching_postman/postman_account). However, you can [share collections as a file](#sharing-as-a-file) without being signed in.
+**Note**: Before you can upload or share a collection, you must sign in to your [Postman account](/docs/v6/postman/launching_postman/postman_account){:target="_blank"}. However, you can share collections as a file without being signed in.
 
 This topic covers:
 * [Sharing collections in the app](#sharing-collections-in-the-app)
@@ -77,7 +77,7 @@ You can download collections as a JSON file to share with others, with or withou
 
 You can share collections anonymously, but we strongly recommend you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
 
-Learn more about [exporting and importing collections](/docs/v6/postman/collections/data_formats), and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}.
+Learn more about [exporting and importing collections](/docs/v6/postman/collections/data_formats){:target="_blank"}, and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}.
 
 ### Modifying team permissions
 
