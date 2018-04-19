@@ -18,7 +18,7 @@ This topic covers:
 
 ### Workspaces
 
-In your Workspace, you can use Markdown to style the request description.  
+In your Workspace, you can use Markdown to style the request description  
 [![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-NSFrequestDescription.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-NSFrequestDescription.png)
 
 You can use Markdown to style descriptions for collections and folders. 
