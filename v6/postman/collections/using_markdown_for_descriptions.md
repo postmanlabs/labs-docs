@@ -12,7 +12,7 @@ Postman renders Markdown in your Workspace, and in public or internal API docum
 
 This topic covers:
 * [Workspaces](#workspaces)
-* [Public or internal API documentation](#public-or-internal-API-documentation)
+* [Public or internal API documentation](#public-or-internal-api-documentation)
 * [Descriptions for request attributes](#descriptions-for-request-attributes)
 
 
