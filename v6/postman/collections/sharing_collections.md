@@ -45,7 +45,9 @@ In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_bl
 
 Select this option to embed a **[Run in Postman](/docs/v6/postman_for_publishers/run_button/creating_run_button){:target="_blank"}** button in your collection for your API documentation, website, or Github readme. 
 
-The **Run in Postman** button lets anyone import and run this collection with one click. When you click the **Generate    Code** button, you get a link that you can use for a dynamic or static button. You can also select the environment you want for the generated code.
+The **Run in Postman** button lets anyone import and run this collection with one click. 
+
+When you click the **Generate    Code** button, you get a link that you can use for a dynamic or static button. You can also select the environment you want for the generated code.
 
 The **Run in Postman** button shares the collection directly from Postman, so the collection is uploaded to Postman servers when you generate the embed code.
 
