@@ -10,7 +10,7 @@ For more information about Markdown, review the [reference for using Markdown](h
 
 Postman renders Markdown in your Workspace, and in public or internal API documentation.
 
-This topic covers
+This topic covers:
 * [Workspaces](#workspaces)
 * [Public or internal API documentation](#public-or-internal-API-documentation)
 * [Descriptions for request attributes](#descriptions-for-request-attributes)
