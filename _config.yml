@@ -1,6 +1,6 @@
 defaults:
   -
-    values:
+    values:Q
       layout: "default"
 
 permalink: /:categories/:title
@@ -36,7 +36,7 @@ algolia:
   application_id: 'SDZ6C0ROMM'
   index_name: 'blog'
   read_only_api_key: 'e83c353e0b538a05ad8ea1d70c32b0dd'
-  excluded_files:
+  files_to_exclude:
     - 404.html
     - index.html
     - _site/account.html
@@ -142,4 +142,5 @@ algolia:
     - _posts/01_postman/2017-05-04-mock_servers.md
     - _posts/03_enterprise/2017-05-04-apply_for_beta_access.md
     - _site/v5/
+    - ./v5
 

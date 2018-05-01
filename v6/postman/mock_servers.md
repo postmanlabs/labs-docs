@@ -16,9 +16,9 @@ Front-end, back-end and API teams can now work in parallel, freeing up develope
 
 In this example, we have a Collection `testAPI` with corresponding environment `testAPIEnv`.  Let's set up a mock service to enable your front-end team to simulate each endpoint in `testAPI` and view the various responses.
 
-Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/postman/sending_api_requests/responses) with details about the response body, header or status codes that you would like to see returned by that endpoint. In this example, we will save 2 responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
+Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/v6/postman/sending_api_requests/responses) with details about the response body, header or status codes that you would like to see returned by that endpoint. In this example, we will save 2 responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
 
-**Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/postman/collections/examples).
+**Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/v6/postman/collections/examples){:target="_blank"}.
 
 [![saved responses](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.44.27-PM-1024x726.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.44.27-PM.png)
 
@@ -36,7 +36,7 @@ https://documenter.getpostman.com/collection/view/{{collectionId}}
 ``` 
 {% endraw %}
 
-As an optional step, you can include an environment template as a part of your simulation by retrieving the `environmentId` of `testAPIEnv` using the [Postman API](https://api.getpostman.com/){:target="_blank"}. Get a list of all your environments using the [GET All Environments endpoint](https://docs.api.getpostman.com/#d26bd079-e3e1-aa08-7e21-66f55df99351){:target="_blank"}. Search for the name of your environment and retrieve the `uid` from the results, which will be used as the `environmentId` in the next step.
+As an optional step, you can include an environment as a part of your simulation by retrieving the `environmentId` of `testAPIEnv` using the [Postman API](https://api.getpostman.com/){:target="_blank"}. Get a list of all your environments using the [GET All Environments endpoint](https://docs.api.getpostman.com/#d26bd079-e3e1-aa08-7e21-66f55df99351){:target="_blank"}. Search for the name of your environment and retrieve the `uid` from the results, which will be used as the `environmentId` in the next step.
 
 [![get environment id](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.59.04-PM-1024x431.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.59.04-PM.png)
 
@@ -70,8 +70,8 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
 
 ### Mock requests and responses with examples
 
-In the previous example, we used a saved response to mock our collection. You can also [mock a request and response using examples](/docs/postman/collections/examples) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service. 
+In the previous example, we used a saved response to mock our collection. You can also [mock a request and response using examples](/docs/v6/postman/collections/examples){:target="_blank"} in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service. 
 
 ### Free mock server calls with your Postman account
 
-Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
+Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
