@@ -300,7 +300,7 @@
             "external": false
           },
           {
-            "title": "Environments and environment templates",
+            "title": "Local environments and shared environments",
             "href": "/docs/v6/postman/api_documentation/environments_and_environment_templates",
             "external": false
           },
