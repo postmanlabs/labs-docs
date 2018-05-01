@@ -7,8 +7,7 @@ warning: false
 
 ### **What is an environment?**
 
-An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/postman/launching_postman/navigating_postman){:target="_blank"} to modify an environment.
-
+An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman){:target="_blank"} to modify an environment.
 
 While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables so you can easily switch between different setups without changing your requests. 
 
@@ -34,10 +33,8 @@ You can create a new environment from the:
 
 [![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)
 
-<ol start="2">
-  <li>Select “Manage Environments”.</li>
-  <li>Click the <b>Add</b> button.</li>
-</ol>
+* Select “Manage Environments”.
+* Click the **Add** button.
   
 #### New button
 
@@ -89,4 +86,4 @@ It's a best practice to create a duplicate, remove any sensitive values (such as
 
 When others import the environment, or access the shared template, they can input their own personal information in their own version of the template.
 
-For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing){:target="_blank"} with team members.
+For Postman Pro and Enterprise users, learn how to [share environments](/docs/v6/postman/team_library/sharing){:target="_blank"} with team members.
