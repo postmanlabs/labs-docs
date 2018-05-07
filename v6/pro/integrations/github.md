@@ -15,9 +15,7 @@ Setting up a GitHub integration requires you to get a GitHub Personal Access Tok
 
 Log in to [GitHub](https://github.com/){:target="_blank"}. 
 
-If you don’t already have a Personal Access Token from GitHub, [generate a new one](https://github.com/settings/tokens){:target="_blank"}.  
-
-[![access token](https://static.getpostman.com/postman-docs/WS-integrations-github-access-token.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-access-token.png)
+If you don’t already have a Personal Access Token from GitHub, [generate a new one](https://github.com/settings/tokens){:target="_blank"}.
 
 We need the `repo` and the `user` scope in order to successfully configure the integration.
 
@@ -51,6 +49,8 @@ You also can click the **Configured Integrations** tab to set up other integrati
 <ol start="4">
   <li>Enter your GitHub Personal Access Token and click the <b>Proceed button</b>.</li>
 </ol>
+
+[![access token](https://static.getpostman.com/postman-docs/WS-integrations-github-access-token.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-access-token.png)
 
 <ol start="5">
   <li>Once the token is verified, you will be shown the configuration page to configure the integration.</li>
