@@ -9,6 +9,24 @@ warning: false
 
 Back up and synchronize your Postman Collections on GitHub, the largest host of source code in the world. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitHub Integration.
 
+Setting up a GitHub integration requires you to get a GitHub Personal Access Token and configure how you would like to back up your collections. 
+
+### Generating a GitHub Personal Access Token
+
+Log in to [GitHub](https://github.com/){:target="_blank"}. 
+
+If you don’t already have a Personal Access Token from GitHub, [generate a new one](https://github.com/settings/tokens){:target="_blank"}.  
+
+[![access token](https://static.getpostman.com/postman-docs/WS-integrations-github-access-token.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-access-token.png)
+
+We need the `repo` and the `user` scope in order to successfully configure the integration.
+
+[![repo scope](https://static.getpostman.com/postman-docs/WS-integrations-github-repo-scope.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-repo-scope.png)
+[![user scope](https://static.getpostman.com/postman-docs/WS-integrations-github-user-scope.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-user-scope.png)
+
+Once that token is generated, copy it and save it somewhere for future use.
+[![generated token](https://static.getpostman.com/postman-docs/WS-integrations-github-generated-token.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-generated-token.png)
+<br>
 ### Configuring GitHub Integration
 
 1. In the **[Integrations]({{site.pm.gs}}/dashboard/integrations){:target="_blank"}** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
@@ -30,19 +48,9 @@ You also can click the **Configured Integrations** tab to set up other integrati
 </li>
 </ol>
 
-[![github integration](https://static.getpostman.com/postman-docs/WS-integrations-github-backup.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-backup.png)
-
 <ol start="4">
-  <li>Enter your GitHub personal access token. If you don’t have one, you can go ahead and create one at [GitHub Tokens](https://github.com/settings/tokens). </li>
+  <li>Enter your GitHub Personal Access Token and click the <b>Proceed button</b>.</li>
 </ol>
-
-We need the `repo` and the `user` scope in order to successfully configure the integration.
-
-[![repo scope](https://static.getpostman.com/postman-docs/WS-integrations-github-repo-scope.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-repo-scope.png)
-[![user scope](https://static.getpostman.com/postman-docs/WS-integrations-github-user-scope.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-user-scope.png)
-
-Once that token is generated, copy it and save it somewhere for future use.
-[![generated token](https://static.getpostman.com/postman-docs/WS-integrations-github-generated-token.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-generated-token.png)
 
 <ol start="5">
   <li>Once the token is verified, you will be shown the configuration page to configure the integration.</li>
