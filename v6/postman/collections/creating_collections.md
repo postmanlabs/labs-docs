@@ -10,11 +10,8 @@ Postman Collections are a group of saved requests you can organize into folders.
 This topic covers:
 
 * [How to create collections](#how-to-create-collections)
-
 * [Saving a request to a collection](#saving-a-request-to-a-collection)
-
 * [Saving to a collection from history](#saving-to-a-collection-from-history)
-
 * [Duplicating an existing collection](#duplicating-an-existing-collection)
 
 

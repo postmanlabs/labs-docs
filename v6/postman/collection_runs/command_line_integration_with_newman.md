@@ -7,31 +7,47 @@ tags:
 
 ---
 
-Newman is a command line collection runner for Postman. It allows you to run and test a Postman Collection directly from the command line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
+Newman is a command line Collection Runner for Postman. It allows you to run and test a Postman Collection directly from the command line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
 
-Newman maintains feature parity with Postman and allows you to run collections just the way they are executed inside the collection runner in the Postman app.
+Newman maintains feature parity with Postman and allows you to run collections the way they are executed inside the collection runner in the Postman app.
 
 Newman resides in the [NPM registry](https://www.npmjs.org/package/newman){:target="_blank"} and on [GitHub](https://github.com/postmanlabs/newman){:target="_blank"}.
 
 [![newman gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.gif)
 
-### Getting Started on Linux, Windows, or Mac
+We'll cover these topics to learn command line integration with Newman:
 
-Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Node.js can be [downloaded and installed](http://nodejs.org/download/){:target="_blank"} on Linux, Windows, and Mac OSX.
+* [Getting Started](#getting-started)
+* [Options](#options)
+* [Example collection with failing tests](#example-collection-with-failing-tests)
+* [File uploads](#file-uploads)
+* [Library](#library)
+* [Custom reporters](#custom-reporters)
 
-Once Node.js is installed, Newman is just a command away. Install Newman from npm globally on your system allowing you to run it from anywhere.
+
+### Getting Started 
+
+Newman is built on Node.js. To run Newman, make sure you have Node.js installed. 
+
+You can [download and install](http://nodejs.org/download/){:target="_blank"} Node.js on Linux, Windows, and Mac OSX.
+
+After you install Node.js, Newman is just a command away. Install Newman from npm globally on your system, which allows you to run it from anywhere.
 
 ```bash
 $ npm install -g newman
 ```
 
-The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](/docs/postman/collections/sharing_collections) to learn how to export collections to share as a file.
+The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. 
+
+To learn how to export collections to share as a file, see the [collection documentation](/docs/v6/postman/collections/sharing_collections){:target="_blank"}.
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. Refer to the [collection documentation](/docs/postman/collections/sharing_collections) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/environments_and_globals/manage_environments) from Postman and run them with the `-e` flag.
+You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/v6/postman/collections/sharing_collections){:target="_blank"} to learn how to share a file as a URL. 
+
+Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/v6/postman/environments_and_globals/manage_environments){:target="_blank"} from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -39,7 +55,7 @@ $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_
 
 ### Options
 
-Newman provides a rich set of options to customize a run. A list of options can be retrieved by running it with the ``-h`` flag.
+Newman provides a rich set of options to customize a run. You can retrieve a list of options by running it with the ``-h`` flag.
 
 ```bash
 $ newman run -h
@@ -77,7 +93,9 @@ Use the ``-n`` option to set the number of iterations to run the collection.
 $ newman run mycollection.json -n 10  # runs the collection 10 times
 ```
 
-To provide a different set of data, i.e. variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file. For example, a data file such as the one shown below will run _2_ iterations, with each iteration using a set of variables.
+To provide a different set of data, such as variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file. 
+
+For example, a data file such as the one shown below runs _2_ iterations, with each iteration using a set of variables.
 
 ```json
 [{
@@ -98,7 +116,7 @@ To provide a different set of data, i.e. variables for each iteration, you can u
 $ newman run mycollection.json -d data.json
 ```
 
-The CSV file for the above set of variables would look like:
+Here's an example of the CSV file for the above set of variables:
 
 ```
 url, user_id, id, token_id
@@ -106,7 +124,11 @@ http://127.0.0.1:5000, 1, 1, 123123123
 http://postman-echo.com, 2, 2, 899899
 ```
 
-Newman, by default, exits with a status code of 0 if everything runs well i.e. without any exceptions. Continuous integration tools respond to these exit codes and correspondingly pass or fail a build. You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1 which can then be picked up by a CI tool or build system.
+Newman, by default, exits with a status code of 0 if everything runs well, such as without any exceptions. 
+
+Continuous integration tools respond to these exit codes and correspondingly pass or fail a build. 
+
+You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1, which can then be picked up by a CI tool or build system.
 
 ```bash
 $ newman run PostmanCollection.json -e environment.json --bail newman
@@ -153,11 +175,11 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/postman/scripts/postman_sandbox) that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](/docs/v6/postman/scripts/postman_sandbox){:target="_blank"} that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 
-Newman also supports file uploads. For this to work correctly, the file to be uploaded must be placed in the relative location specified within the collection. For instance, for the following collection:
+Newman also supports file uploads. For this to work correctly, upload the file in the relative location specified in the collection. For instance, review this collection:
 
 ```json 
 {
@@ -209,7 +231,7 @@ Newman also supports file uploads. For this to work correctly, the file to be up
 }
 ```
 
-The file ``sample-file.txt`` must be present in the same directory as the collection. The collection can the be run as usual.
+The file ``sample-file.txt`` must be present in the same directory as the collection. Run this collection as usual.
 
 ```bash
 $ newman run file-upload.postman_collection.json
@@ -217,7 +239,7 @@ $ newman run file-upload.postman_collection.json
 
 ### Library
 
-Newman has been built as a library from the ground up so that it can be extended and used in various ways. You can use it as follows in your Node.js code:
+Newman has been built as a library from the ground up. It can be extended and used in various ways. You can use it as follows in your Node.js code:
 
 ```javascript
 var newman = require('newman'); // require newman in your project
@@ -251,10 +273,10 @@ function (emitter, reporterOptions, collectionRunOptions) {
 
 3. Publish your reporter using `npm publish`, or use your reporter locally [see usage instructions][7].
 
-Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. Working reporter examples can be found in [working reporter examples][8].
+Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. You can find working reporter examples  in [working reporter examples][8].
 
 #### Using custom reporters
-In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]:
+In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]{:target="_blank"}:
 
 Install the reporter package. 
 ```
@@ -306,3 +328,20 @@ For the complete list of details, see the [Newman README](https://github.com/po
 [7]: https://github.com/postmanlabs/newman#configuring-reporters
 [8]: https://github.com/postmanlabs/newman/tree/develop/lib/reporters
 [9]: https://www.npmjs.com/package/newman-reporter-teamcity
+
+<br>
+<br>
+
+For more information about collection runs, see:
+
+* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
+* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
+* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}
+* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
+* [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
+* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
+* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
+* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}
+* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis){:target="_blank"}
+* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker){:target="_blank"}
+

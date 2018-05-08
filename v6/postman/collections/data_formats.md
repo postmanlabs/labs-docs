@@ -5,9 +5,19 @@ warning: false
 
 ---
 
-Postman can export and import collections, environments, globals and header presets as files and links.
+Postman can export and import collections, environments, globals and header presets as files and links. This topic covers:
 
-### Exporting and Importing Postman data
+* [Exporting and importing Postman data](#exporting-and-importing-postman-data)
+* [Importing cURL](#importing-curl)
+* [Importing RAML](#importing-raml)
+* [Importing Swagger](#importing-swagger)
+* [Importing WADL](#importing-wadl)
+* [Validating Collection JSON files](#validating-collection-json-files)
+
+
+
+
+### Exporting and importing Postman data
 
 Postman can export and import the following formats as a file or generated URL. When you export a collection from the Postman app, the exported file is a JSON file. The file contains all data (and metadata) that is required by Postman to recreate the collection when imported back into Postman, or that is utilized by Newman to run the collection from the command line interface (CLI).
 
@@ -144,11 +154,8 @@ Postman lets you import WADL specs too. While all aspects are not supported yet,
 To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/){:target="_blank"}.
 
 * [Schema file](http://schema.getpostman.com/json/collection/v1.0.0/collection.json){:target="_blank"}
-
 * [Associated documentation](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html){:target="_blank"} 
-
 * [Postman schemas in GitHub](https://github.com/postmanlabs/schemas){:target="_blank"} 
-
 * [Example of data validation using our schema](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/){:target="_blank"} and a [validator](https://github.com/mafintosh/is-my-json-valid){:target="_blank"}
 
 
