@@ -9,12 +9,11 @@ warning: false
 
 ### Native Apps
 
-#### MacOS & Windows
-Postman's native apps on MacOS & Windows will notify you whenever an update is available. To force a check, head over to the Update section of the Settings window. If an update is available, you can choose to start the download. Postman will notify you when then download is complete, and you'll need to restart the app to apply the update.
-![](https://www.getpostman.com/img/v1/docs/update-mac-app.png)
+Postman's native apps on MacOS & Windows will notify you whenever an update is available. To force a check, head over to the Update section of the Settings window. If an update is available, you can choose to start the download. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Remind me later** to prompt you again after the next app reload or launch.
 
-#### Linux
-Postman's native apps on Linux will notify you whenever an update is available. To force a check, head over to the Update section of the Settings window. If an update is available, you need to download the latest version of the application from [https://www.getpostman.com/apps][2] and replace the current application directory with the new version. Postman stores all user data outside of the application directory, so you can safely replace the current application directory with the new version.
+[![updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)
+
+
 
 ### Chrome App
 

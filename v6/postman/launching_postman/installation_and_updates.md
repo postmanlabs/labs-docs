@@ -17,7 +17,9 @@ To install Postman, go to the [apps page](https://www.getpostman.com/apps){:tar
 
 ##### **macOS installation**
 
-   Once you’ve downloaded app, you can drag the file to the "Applications" folder. Double click on Postman to open the application.
+   Once you’ve downloaded and unzipped the app, double click on Postman. You will be prompted to move file into the "Applications" folder. Click "Move to Applications Folder" to ensure future updates can be installed correctly. The app will open after the prompt.
+   
+   [![Move to Applications Folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/move+to+app+folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/move+to+app+folder.png)
 
 ##### **Windows installation**
 
@@ -26,7 +28,8 @@ To install Postman, go to the [apps page](https://www.getpostman.com/apps){:tar
 
 ##### **Linux installation**
 
-   *   Installation on Linux can vary between distributions. Check out this guide for installing the [Postman app on Ubuntu 16.04](https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/?utm_source=hootsuite&utm_medium=twitter&utm_campaign=){:target="_blank"}.
+   *   Installation on Linux can vary between distributions. For installation on Ubuntu, download and unzip the file, then double click on Postman to open the app. 
+
 
 ### Postman Chrome app
 
@@ -92,39 +95,12 @@ Postman's native apps will check for updates whenever the app reloads, or is lau
 
 [![changelog](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-updating-postman.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-updating-postman.png)
 
-##### **Mac and Windows**
-
 Click **Update** to download the latest update. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Remind me later** to prompt you again after the next app reload or launch.
 
-You can also configure your preferences to automatically download updates under the **Update** tab within the **SETTINGS** modal.
+You can also configure your preferences to enable automatic download for major updates under the **Update** tab within the **SETTINGS** modal. Postman automatically downloads minor updates and bug fixes.
 
-   *   All
-   *   Minor fixes
-   *   None
+[![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)
 
-**All** -  Downloads all updates automatically and will show a small notification at the top prompting you to restart the app to apply the updates.
-
-**Minor fixes** - You will be notified of all major updates, and other minor fixes will automatically download prompting you to restart the app to apply the updates.
-
-**None** - This will show up the update version every time it finds a update for your current version. 
-
-[![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-update-current-version.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-update-current-version.png)
-
-**Troubleshooting updates in macOS Sierra**
-
-We have received user feedback that the Mac update does not complete successfully, even after downloading the update for macOS Sierra.
-
-This can be solved by moving the app out of the Downloads directory. The Postman updater is unable to switch the downloaded version on the read-only memory, initially assigned for the downloaded apps by macOS Sierra.  
-
-If you continue experiencing difficulty with the update, fetch the logs from **~/Library/Caches/com.postmanlabs.mac.ShipIt** in your system and let us know.
-
-##### **Linux**
-
-Postman’s native app on Linux will notify you whenever an update is available. If an update is available, you need to download the [latest version](https://www.getpostman.com/apps){:target="_blank"} of the application, remove the current application directory, and extract the new version. Postman stores all user data outside of the application directory, so you can safely remove the current application directory and install the new version.  
-
-Since Postman's native apps check for updates only on app reload or launch, at any time, you can force a check for updates under the **Update** tab in the **SETTINGS** modal of the app. 
-
-[![check for updates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linux-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linux-settings.png)
 
 ##### **Chrome**
 
