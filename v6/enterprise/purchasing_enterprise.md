@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-For questions about paying by invoice, contact our [Enterprise support team](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}.
+The instructions below are for paying via credit card. If you need to pay via purchase order, contact our [Enterprise support team](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}.
 
 ### Upgrade your plan
 
@@ -15,6 +15,8 @@ To upgrade your plan to a Postman Enterprise subscription, you will need a [Post
 Log in to your Postman account, and go to the [billing page]({{site.pm.gs}}/pay/billing){:target="_blank"}. Next to your current plan, click the **Upgrade** button. For existing Postman Pro users, click the ellipses *(...)* next to the **Upgrade** button and select the "Change plan" option. 
 
 [![Billing page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-upgrade.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-upgrade.png)
+
+[![Billing page for pro](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-upgrade-trial.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-upgrade-trial.png)
 
 Select "Upgrade to Postman Enterprise".
 
