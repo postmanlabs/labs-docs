@@ -625,6 +625,12 @@
         "href":"/docs/v6/enterprise/intro_to_enterprise",
         "external": false
       },
+      {
+        "title": "Purchasing Postman Enterprise",
+        "url_prefix": "purchasing_enterprise",
+        "href":"/docs/v6/enterprise/purchasing_enterprise",
+        "external": false
+      },
       {	    
 	"title": "Audit logs",
 	"href": "/docs/v6/enterprise/audit_logs",
