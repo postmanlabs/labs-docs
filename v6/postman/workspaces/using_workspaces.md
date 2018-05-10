@@ -42,6 +42,7 @@ Here you'll learn how to perform actions on workspaces and how to use workspaces
 
 ### Adding collections and environments from another workspace
 
+#### With "Add To Workspace"
 You can add collections or environments from one workspace to another personal or team workspace. 
 
 In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a workspace and click the **Add to workspace** button. The personal workspaces view appears by default. 
@@ -59,6 +60,8 @@ Click "Collection" or "Environment" and select the element(s) you want.
 Click the **Add to this Workspace** button. The element(s) appear in your list of collections or environments in the target workspace.
 
 [![elements list](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-WS-results-list.png)
+
+
 
 ### Removing elements from workspaces
 
@@ -172,33 +175,21 @@ Postman enables you to share your collections and environments in workspaces fro
 
 In the Postman app, select a collection in the sidebar and click the ellipses **(...)** button.
 
-Select "Share Collection". The **SHARE COLLECTION** modal appears. It offers three ways to share a collection: "Share in another workspace", "Embed", and "Get Link".
+Select "Share Collection". The **SHARE COLLECTION** modal appears. Select "Share in another workspace".
 
 [![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
 
 **Sharing collections in another workspace**
 
-Select this option to add a collection to a team workspace. The collection is visible to the team.
+Select this option to add a collection to another workspace. If added to a team workspace, the collection will be visible to others on the team. 
+
+Admins can set team default permissions to either view only or edit. They are also able to grant existing team members individual user permissions.
+[![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)
 
 In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then click the **Share** button. The collection is visible in your target workspace.
 
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)
 
-**Sharing collections with the Embed or Run In Postman button**
-
-Select this option to embed a **[Run in Postman](/docs/v6/postman_for_publishers/run_button/creating_run_button){:target="_blank"}** button in your collection for your API documentation, website, or Github readme. 
-
-The **Run in Postman** button lets anyone import and run this collection with one click. When you click the **Generate    Code** button, you get a link that you can use for a dynamic or static button. You can also select the environment you want for the generated code.
-
-The **Run in Postman** button shares the collection directly from Postman, so the collection is uploaded to Postman servers when you generate the embed code
-
-[![share embed-rip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)
-
-**Sharing collections with a link**
-
-Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
-
-[![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
 **In the Build menu**
 
@@ -239,6 +230,9 @@ In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_bl
 
 [![view details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 
+In the app select the **View Details** option from the ellipses menu in the workspace selector. 
+[![view details app](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)
+
 #### Viewing details of personal workspaces
 
 To view the details of your personal workspaces, select "View Details" from the ellipses **(...)** button menu.
@@ -246,6 +240,7 @@ To view the details of your personal workspaces, select "View Details" from the 
 [![details personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-view-details-personal.png)
 
 #### Viewing details of team workspaces 
+
 
 To view the details of your team workspaces, select "View Details" from the ellipses **(...)** button menu.
 

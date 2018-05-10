@@ -29,9 +29,13 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 
 **Sharing collections in another workspace**
 
-Select this option to add a collection to a team workspace. The collection is visible to the team.
+Select this option to add a collection to another workspace. If added to a team workspace, the collection will be visible to others on the team. 
 
-In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then click the **Share** button. The collection is visible in your target workspace.
+Admins can set team default permissions to either view only or edit. They are also able to grant existing team members individual user permissions.
+[![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)
+
+
+In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then click the **Share** button. The collection is visible in your target workspace. 
 
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)
 
