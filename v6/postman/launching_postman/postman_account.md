@@ -32,6 +32,13 @@ Once you are logged in, you will see the **IN SYNC** icon at the top telling y
 
 [![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
+### Post Sign Up Configuration
+
+After you sign up in the Postman app, you will be prompted with a configuration window. In step 1 you are able to select from several options that describe what you want to accomplish with Postman. Selecting any of these options will download collections tailored to that specific use case. In step 2, you can customize the appearance of the Postman app by choosing between themes and layouts, the screen above will alter based on your selection to give you a preview of the app's appearance. Click on **Save My Preferences** to continue into the app with the changes you've made. 
+
+[![Sign Up Configuration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+6.13.04+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+6.13.04+PM.png)
+
+
 
 ### Switching multiple accounts
 
