@@ -21,7 +21,7 @@ Postman's native apps will notify you whenever a major update is available. Othe
 
 Postman's Chrome app is usually updated automatically. However, we have little visibility into the actual update flow, and Chrome sometimes doesn't update the app for a long time.
 
-The latest version is visible on [Postman's webstore listing][0].
+The latest version is visible on [Postman's webstore listing][0]{:target="blank"}.
 
 To manually force an update, here's what you need to do:
 
@@ -31,5 +31,5 @@ To manually force an update, here's what you need to do:
 
 ![](https://www.getpostman.com/img/v1/docs/update-chrome-app.png)
 
-[0]: https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en {:target="blank"}
+[0]: https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
 [1]: chrome://extensions
