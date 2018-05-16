@@ -17,9 +17,9 @@ To install Postman, go to the [apps page](https://www.getpostman.com/apps){:tar
 
 ##### **macOS installation**
 
-   Once you’ve downloaded and unzipped the app, double click on Postman. You will be prompted to move file into the "Applications" folder. Click "Move to Applications Folder" to ensure future updates can be installed correctly. The app will open after the prompt.
+Once you’ve downloaded and unzipped the app, double click on Postman. You will be prompted to move file into the "Applications" folder. Click "Move to Applications Folder" to ensure future updates can be installed correctly. The app will open after the prompt.
    
-   [![Move to Applications Folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/move+to+app+folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/move+to+app+folder.png)
+[![Move to Applications Folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/move+to+app+folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/move+to+app+folder.png)
 
 ##### **Windows installation**
 
@@ -28,14 +28,13 @@ To install Postman, go to the [apps page](https://www.getpostman.com/apps){:tar
 
 ##### **Linux installation**
 
-   *   Installation on Linux can vary between distributions. For installation on Ubuntu, download and unzip the file, then double click on Postman to open the app. 
-
+   * Installation on Linux can vary between distributions. For installation on Ubuntu, download and unzip the file, then double click on Postman to open the app. 
 
 ### Postman Chrome app
 
-We recommend using the Postman native apps, but Postman is also available as a Chrome app.  Read more about [why support for the Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/03/14/going-native/).
+We recommend using the Postman native apps, but Postman is also available as a Chrome app. Read more about [why support for the Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/03/14/going-native/).
 
-The Postman Chrome app can only run on the Chrome browser.  To use the Postman Chrome app, you will first need to [install Google Chrome](http://www.google.com/chrome/){:target="_blank"}.
+The Postman Chrome app can only run on the Chrome browser. To use the Postman Chrome app, you will first need to [install Google Chrome](http://www.google.com/chrome/){:target="_blank"}.
 
 If you already have Chrome installed, head over to [Postman’s page](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en){:target="_blank"} on the Chrome Web Store, and click ‘Add to Chrome’.
 
@@ -57,7 +56,7 @@ The native apps come with a built-in proxy that you can use to [capture network
 
 ##### **Menu bar**
 
-The native apps are not restricted by the Chrome standards for the menu bar.  With the native apps, you can create collections, switch to history requests, and more.
+The native apps are not restricted by the Chrome standards for the menu bar. With the native apps, you can create collections, switch to history requests, and more.
 
 ##### **Restricted headers**
 
@@ -65,7 +64,7 @@ The latest versions of the native apps let you send headers like Origin and User
 
 ##### **Don't follow redirects option**
 
-This option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected.  Previously, users needed to use the Interceptor extension to do this in the Chrome app.
+This option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected. Previously, users needed to use the Interceptor extension to do this in the Chrome app.
 
 ##### **Postman console**
 
@@ -85,7 +84,7 @@ From the Postman settings, select the **Data** tab and click the **Download**
 
 ##### **Bulk import**
 
-From the same area in Postman settings, you can initiate a bulk import from a Postman data dump file.  This will overwrite your existing data so be a little careful.
+From the same area in Postman settings, you can initiate a bulk import from a Postman data dump file. This will overwrite your existing data so be careful.
 
 ### **Updating Postman**
 
@@ -95,13 +94,11 @@ Postman's native apps will notify you whenever a major update is available. Othe
 
 [![settings update indicator](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)
 
-
 Click **Update** to download the latest update. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Later** to auto update after the next app launch.
 
 You can also configure your preferences to enable automatic download for major updates under the **Update** tab within the **SETTINGS** modal. Postman automatically downloads minor updates and bug fixes.
 
 [![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)
-
 
 ##### **Chrome**
 
