@@ -5,8 +5,6 @@ warning: false
 
 ---
 
-
-
 Postman enables you to share Collections in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
 **Note**: Before you can upload or share a collection, you must sign in to your [Postman account](/docs/v6/postman/launching_postman/postman_account). However, you can [share collections as a file](#sharing-as-a-file) without being signed in.
@@ -33,7 +31,6 @@ Select this option to add a collection to another workspace. If added to a team 
 
 Admins can set team default permissions to either view only or edit. They are also able to grant existing team members individual user permissions.
 [![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)
-
 
 In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then click the **Share** button. The collection is visible in your target workspace. 
 
@@ -90,9 +87,3 @@ In the **MODIFY PERMISSIONS** modal, select the default team permission, add the
 Click the **Save Changes** button to complete the process.
 
 [![modify team permissions modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)
-
-
-
-
-
-
