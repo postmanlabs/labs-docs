@@ -28,7 +28,8 @@ To manually force an update, here's what you need to do:
 1. Head to [chrome://extensions][1] in Chrome
 2. Enable 'Developer Mode'
 3. Click the 'Update extensions now' button
+
 ![](https://www.getpostman.com/img/v1/docs/update-chrome-app.png)
 
-[0]: https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
+[0]: https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en {:target="blank"}
 [1]: chrome://extensions
