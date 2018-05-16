@@ -48,7 +48,7 @@ A few features exclusive to the native apps are listed here:
 
 ##### **Cookies**
 
-The native apps let you work with [cookies](/docs/postman/sending_api_requests/cookies) directly. Unlike the Chrome app, no separate extension ([Interceptor](/docs/postman/sending_api_requests/interceptor_extension)) is needed.
+The native apps let you work with [cookies](/docs/v6/postman/sending_api_requests/cookies) directly. Unlike the Chrome app, no separate extension ([Interceptor](/docs/postman/sending_api_requests/interceptor_extension)) is needed.
 
 ##### **Built-in proxy**
 
