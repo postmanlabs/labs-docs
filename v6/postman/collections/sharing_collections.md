@@ -5,8 +5,6 @@ warning: false
 
 ---
 
-
-
 Postman enables you to share Collections in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
 
 **Note**: Before you can upload or share a collection, you must sign in to your [Postman account](/docs/v6/postman/launching_postman/postman_account){:target="_blank"}. However, you can share collections as a file without being signed in.
@@ -35,9 +33,12 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 
 **Sharing collections in another workspace**
 
-Select this option to add a collection to a team workspace. The collection is visible to the team.
+Select this option to add a collection to another workspace. If added to a team workspace, the collection will be visible to others on the team. 
 
-In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then click the **Share** button. The collection is visible in your target workspace.
+Admins can set team default permissions to either view only or edit. They are also able to grant existing team members individual user permissions.
+[![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)
+
+In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then click the **Share** button. The collection is visible in your target workspace. 
 
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)
 
@@ -59,11 +60,9 @@ Select this option to generate a shareable link for others to access your collec
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
-**In the Build menu**
+**In the Browse view**
 
-In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
-
-Select "Browse", and then select a collection. 
+In the bottom bar, select "Browse", and then select a collection
 
 Click the **Share** button.
 
@@ -96,9 +95,3 @@ In the **MODIFY PERMISSIONS** modal, select the default team permission, add the
 Click the **Save Changes** button to complete the process.
 
 [![modify team permissions modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)
-
-
-
-
-
-

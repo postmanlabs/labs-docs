@@ -17,7 +17,9 @@ To install Postman, go to the [apps page](https://www.getpostman.com/apps){:tar
 
 ##### **macOS installation**
 
-   Once you’ve downloaded app, you can drag the file to the "Applications" folder. Double click on Postman to open the application.
+Once you’ve downloaded and unzipped the app, double click on Postman. You will be prompted to move file into the "Applications" folder. Click "Move to Applications Folder" to ensure future updates can be installed correctly. The app will open after the prompt.
+   
+[![Move to Applications Folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/move+to+app+folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/move+to+app+folder.png)
 
 ##### **Windows installation**
 
@@ -26,17 +28,17 @@ To install Postman, go to the [apps page](https://www.getpostman.com/apps){:tar
 
 ##### **Linux installation**
 
-   *   Installation on Linux can vary between distributions. Check out this guide for installing the [Postman app on Ubuntu 16.04](https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/?utm_source=hootsuite&utm_medium=twitter&utm_campaign=){:target="_blank"}.
+   * Installation on Linux can vary between distributions. For installation on Ubuntu, download and unzip the file, then double click on Postman to open the app. 
 
 ### Postman Chrome app
 
-We recommend using the Postman native apps, but Postman is also available as a Chrome app.  Read more about [why support for the Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/03/14/going-native/).
+We recommend using the Postman native apps, but Postman is also available as a Chrome app. Read more about [why support for the Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/03/14/going-native/).
 
-The Postman Chrome app can only run on the Chrome browser.  To use the Postman Chrome app, you will first need to [install Google Chrome](http://www.google.com/chrome/){:target="_blank"}.
+The Postman Chrome app can only run on the Chrome browser. To use the Postman Chrome app, you will first need to [install Google Chrome](http://www.google.com/chrome/){:target="_blank"}.
 
 If you already have Chrome installed, head over to [Postman’s page](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en){:target="_blank"} on the Chrome Web Store, and click ‘Add to Chrome’.
 
-The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](/docs/postman/launching_postman/installation_and_updates).
+The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](/docs/v6/postman/launching_postman/installation_and_updates).
 
 ### Differences between Chrome and native apps
 
@@ -46,27 +48,27 @@ A few features exclusive to the native apps are listed here:
 
 ##### **Cookies**
 
-The native apps let you work with [cookies](/docs/postman/sending_api_requests/cookies) directly. Unlike the Chrome app, no separate extension ([Interceptor](/docs/postman/sending_api_requests/interceptor_extension)) is needed.
+The native apps let you work with [cookies](/docs/v6/postman/sending_api_requests/cookies) directly. Unlike the Chrome app, no separate extension ([Interceptor](/docs/v6/postman/sending_api_requests/interceptor_extension)) is needed.
 
 ##### **Built-in proxy**
 
-The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/postman/sending_api_requests/capturing_http_requests).
+The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/v6/postman/sending_api_requests/capturing_http_requests).
 
 ##### **Menu bar**
 
-The native apps are not restricted by the Chrome standards for the menu bar.  With the native apps, you can create collections, switch to history requests, and more.
+The native apps are not restricted by the Chrome standards for the menu bar. With the native apps, you can create collections, switch to history requests, and more.
 
 ##### **Restricted headers**
 
-The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](/docs/postman/sending_api_requests/interceptor_extension) in the Chrome app. 
+The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](/docs/v6/postman/sending_api_requests/interceptor_extension) in the Chrome app. 
 
 ##### **Don't follow redirects option**
 
-This option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected.  Previously, users needed to use the Interceptor extension to do this in the Chrome app.
+This option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected. Previously, users needed to use the Interceptor extension to do this in the Chrome app.
 
 ##### **Postman console**
 
-The latest version of the native app also has a built-in [console](/docs/postman/sending_api_requests/debugging_and_logs), which allows you to view the network request details for API calls.
+The latest version of the native app also has a built-in [console](/docs/v6/postman/sending_api_requests/debugging_and_logs), which allows you to view the network request details for API calls.
 
 ### **Migrating to the native app**
 
@@ -82,49 +84,21 @@ From the Postman settings, select the **Data** tab and click the **Download**
 
 ##### **Bulk import**
 
-From the same area in Postman settings, you can initiate a bulk import from a Postman data dump file.  This will overwrite your existing data so be a little careful.
+From the same area in Postman settings, you can initiate a bulk import from a Postman data dump file. This will overwrite your existing data so be careful.
 
 ### **Updating Postman**
 
 ##### **Native app (Mac, Windows and Linux)**
 
-Postman's native apps will check for updates whenever the app reloads, or is launched. The app will display the changelog prompting you to update the app. 
+Postman's native apps will notify you whenever a major update is available. Other updates are indicated by an indicator that appears on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
 
-[![changelog](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-updating-postman.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-updating-postman.png)
+[![settings update indicator](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)
 
-##### **Mac and Windows**
+Click **Update** to download the latest update. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Later** to auto update after the next app launch.
 
-Click **Update** to download the latest update. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Remind me later** to prompt you again after the next app reload or launch.
+You can also configure your preferences to enable automatic download for major updates under the **Update** tab within the **SETTINGS** modal. Postman automatically downloads minor updates and bug fixes.
 
-You can also configure your preferences to automatically download updates under the **Update** tab within the **SETTINGS** modal.
-
-   *   All
-   *   Minor fixes
-   *   None
-
-**All** -  Downloads all updates automatically and will show a small notification at the top prompting you to restart the app to apply the updates.
-
-**Minor fixes** - You will be notified of all major updates, and other minor fixes will automatically download prompting you to restart the app to apply the updates.
-
-**None** - This will show up the update version every time it finds a update for your current version. 
-
-[![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-update-current-version.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-update-current-version.png)
-
-**Troubleshooting updates in macOS Sierra**
-
-We have received user feedback that the Mac update does not complete successfully, even after downloading the update for macOS Sierra.
-
-This can be solved by moving the app out of the Downloads directory. The Postman updater is unable to switch the downloaded version on the read-only memory, initially assigned for the downloaded apps by macOS Sierra.  
-
-If you continue experiencing difficulty with the update, fetch the logs from **~/Library/Caches/com.postmanlabs.mac.ShipIt** in your system and let us know.
-
-##### **Linux**
-
-Postman’s native app on Linux will notify you whenever an update is available. If an update is available, you need to download the [latest version](https://www.getpostman.com/apps){:target="_blank"} of the application, remove the current application directory, and extract the new version. Postman stores all user data outside of the application directory, so you can safely remove the current application directory and install the new version.  
-
-Since Postman's native apps check for updates only on app reload or launch, at any time, you can force a check for updates under the **Update** tab in the **SETTINGS** modal of the app. 
-
-[![check for updates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linux-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linux-settings.png)
+[![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)
 
 ##### **Chrome**
 

@@ -15,7 +15,6 @@ When you sign up for a free Postman account, you can:
 
 Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"}, [security page](https://www.getpostman.com/security){:target="_blank"}, and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to learn more.
 
-
 ### Signing up for a Postman account
 
 If you haven't already, [download](https://www.getpostman.com/apps){:target="_blank"} the Postman app.
@@ -28,10 +27,15 @@ Sign up with your email address or your Google account.
 
 Confirm your email.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing){:target="_blank"}. If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/v6/postman/launching_postman/syncing){:target="_blank"}. If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
 
-[![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
+[![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)
 
+### Post Sign Up Configuration
+
+After you sign up in the Postman app, you will be prompted with a configuration window. In step 1 you are able to select from several options that describe what you want to accomplish with Postman. Selecting any of these options will download collections tailored to that specific use case. In step 2, you can customize the appearance of the Postman app by choosing between themes and layouts. The screen above will alter based on your selection to give you a preview of the app's appearance. Click on **Save My Preferences** to continue into the app with the changes you've made. 
+
+[![Sign Up Configuration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+6.13.04+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+6.13.04+PM.png)
 
 ### Switching multiple accounts
 
@@ -109,13 +113,8 @@ Click the Pencil icon.
 
 Upload or drag and drop the image you want for your profile from your computer and click the **Upload** button.
 
-
 [![upload](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-upload-image1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-upload-image1.png)
 
 The image you selected appears as your profile image.
 
 [![upload complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1-a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-profile-pic-complete1-a.png)
-
-
-
-
