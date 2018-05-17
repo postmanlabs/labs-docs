@@ -16,19 +16,19 @@ You can also access team settings in the app via the "Teams" dropdown menu in th
 
 In General settings, you can change your team name and URL. 
 
-  [![general](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSettings-general.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSettings-general.jpeg)
+[![general](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSettings-general.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSettings-general.jpeg)
   
 ### Style
 
 In Style settings, you can upload your team logo. Hover over the Team Logo icon and click the Pencil (edit) icon. Then upload your team logo image.
 
-  [![style](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-style.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-style.jpeg)
+[![style](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-style.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-style.jpeg)
   
 ### Billing Details
 
 In Billing Details settings, you can add or change the billing email address, the company name, address, and VAT ID information.
 
-  [![billing details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-billingDetails.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-billingDetails.jpeg)
+[![billing details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-billingDetails.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-billingDetails.jpeg)
   
 ### Custom Domains
 In the Custom Domains settings, you can add a new domain for others to access your published documentation. 
@@ -51,7 +51,7 @@ You can see your domain in the Custom Domain list.
 
 **(Enterprise-only)**
 
-In the Authentication settings, you can choose a Single Sign On authentication provider to create a custom authentication method for your team.
+In the Authentication settings, you can choose a Single Sign-on authentication provider to create a custom authentication method for your team.
 
 Click the **Add a new authentication** method button to summon the Add Authentication Method page.
 
