@@ -21,15 +21,14 @@ Postman's native apps will notify you whenever a major update is available. Othe
 
 Postman's Chrome app is usually updated automatically. However, we have little visibility into the actual update flow, and Chrome sometimes doesn't update the app for a long time.
 
-The latest version is visible on [Postman's webstore listing][0].
+The latest version is visible on [![Postman's webstore listing](https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)](https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
 
 To manually force an update, here's what you need to do:
 
-1. Head to [chrome://extensions][1] in Chrome
+1. Head to [![chrome://extensions](chrome://extensions)](chrome://extensions) in Chrome
 2. Enable 'Developer Mode'
 3. Click the 'Update extensions now' button
 
 ![](https://www.getpostman.com/img/v1/docs/update-chrome-app.png)
 
-[0]: https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en
-[1]: chrome://extensions
+
