@@ -56,15 +56,16 @@ Enter the email address of the user you want to invite, and click the **Invite U
 
 #### Inviting members to team Workspaces in Dashboard
 
-In the Workspace page, click on the ellipsis icon in the upper right corner. Select "Manage Members" and enter the email address or username of the user you want to invite under the "Members" section, then press enter. When you are done adding users, click **Save Changes**. **Note:** Adding users outside the team will invite them to join the team.
- [![invite via Dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+5.23.20+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+5.23.20+PM.png)
+In the Workspace page, click on the ellipsis icon in the upper right corner. Select "Manage Members" and enter the email address or username of the user you want to **(...)** invite under the "Members" section, then press enter. When you are done adding users, click **Save Changes**. **Note:** Adding users outside the team will invite them to join the team.
+
+[![invite via Dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+5.23.20+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+5.23.20+PM.png)
 
 #### Inviting members to team Workspaces in the Native App
- Under the Workspaces dropdown click on the ellipsis icon that appears when hovering over a team workspace and select "Manage Members". If you are in **Browse** mode, the ellipsis icon is located in the upper right corner of the Team Workspace page, similar to the Dashboard.
+Under the Workspaces dropdown click on the ellipsis **(...)** icon that appears when hovering over a team workspace and select "Manage Members". If you are in **Browse** mode, the ellipsis **(...)** icon is located in the upper right corner of the Team Workspace page, similar to the Dashboard.
 
  [![invite via App](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)
 
- Enter the email address or username of the user you want to invite under the "Invite Members" section, then click **Add**. When you are done adding users, click **Save Changes**. **Note:** Adding users outside the team will invite them to join the team.
+Enter the email address or username of the user you want to invite under the "Invite Members" section, then click **Add**. When you are done adding users, click **Save Changes**. **Note:** Adding users outside the team will invite them to join the team.
 
 [![invite via App Panel](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/emailinvitereshoot.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/emailinvitereshoot.png)
 
