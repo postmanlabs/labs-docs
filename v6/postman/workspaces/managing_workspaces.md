@@ -75,4 +75,4 @@ View a list of current integrations or create a new one. Postman has [third part
 
 **Activity** 
 
-View a list of activities for this workspace.
+View a [list of activities](/docs/v6/postman/workspaces/activity_feed_and_restoring_collections) for this workspace.
