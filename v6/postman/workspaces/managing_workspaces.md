@@ -4,87 +4,75 @@ page_id: "managing_workspaces"
 warning: false
 ---
 
+You can manage workspaces and the Postman elements associated with a workspace, like [collections](/docs/v6/postman/collections/intro_to_collections), [environments](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals), [mocks](/docs/v6/postman/mock_servers/intro_to_mock_servers), [monitors](/docs/v6/postman/monitors/intro_monitors), and more. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for workspaces.
 
-You can manage personal and team Workspaces, and the Postman elements (Collections, Monitors, Documentation, Mocks, Environments, and Integrations) associated with a workspace. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for workspaces.
+In the Postman app, click the workspace that displays in the header bar. 
 
-In the Postman app, click any workspace that displays in the header bar. In the image below, it's "Team Workspace".
+[![all workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-all-workspaces.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-all-workspaces.png)
 
-[![manage workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
-
-Click "Manage" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} in your web browser.
+Click "All workspaces" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} in your web browser.
 
 ### Managing personal workspaces
 
-By default, the personal workspaces view appears. 
+From the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} under the **Personal** tab, click the **Add to workspace** button to [add collections or environments from another workspace](/docs/postman/workspaces/using_workspaces) to the selected workspace. You can also perform this action in the team workspace view.
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
-In this view, click the **Add to workspace** button to [add collections or environments from another workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"} to the selected workspace. You can also perform this action in the team workspace view.
+Click the ellipses **(...)** to [manage your personal workspaces](/docs/v6/postman/workspaces/using_workspaces):
 
-Click the ellipses **(...)** button to:
+* Share personal workspaces with other users
+* View details about personal workspaces
+* Rename personal workspaces
+* Edit descriptions of personal workspaces
+* Delete personal workspaces
 
-* [Share personal workspaces with other users](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
-
-* [View details about personal workspaces](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
-
-* [Rename personal workspaces](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
-
-* [Edit descriptions of personal workspaces](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
-
-* [Delete personal workspaces](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
-
-You can also click the **Create a new workplace** button to [create a new personal or team workspace](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"}.
-
+You can also click the **Create a new workspace** button to [create a new personal or team workspace](/docs/v6/postman/workspaces/creating_workspaces).
 
 ### Managing team workspaces
 
-In the team workspaces view, click the ellipses **(...)** button to:
+From the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, you can manage your team workspaces under the **Team** tab.
 
-* [View details about team workspaces](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
+[![team workspaces dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/dashboard-team-dropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/dashboard-team-dropdown.png)
 
-* [Rename team workspaces](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
+Click the ellipses **(...)** to [manage your team workspaces](/docs/v6/postman/workspaces/using_workspaces):
 
-* [Edit descriptions of team workspaces](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
-
-* [Manage members of team workspaces](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
-
-* [Leave team workspaces ](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}.
-
-* [Delete team workspaces](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"}. 
-
+* View details about team workspaces
+* Rename team workspaces
+* Edit descriptions of team workspaces
+* Manage members of team workspaces
+* Leave team workspaces
+* Delete team workspaces
 
 ### Managing workspace elements
 
-When you click a personal or team workspace, you can see all the elements and activity of that workspace.  
+When you click a personal or team workspace, you can see all the elements and activity belonging to the workspace.  
 
-If you click the **Share** button, you can [share this collection](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"} with another workspace. 
+If you click the **Share** button, you can share this collection with another workspace. You can share the collection with as many workspaces as you'd like.
 
-If you click the ellipses **(...)** button, you can [remove any element](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"} from the workspace, and [publish](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"} collections.
+If you click the ellipses **(...)**, you can remove any element from the workspace or publish collections.
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
-Let's explore how to manage workspace elements.
-
 **Collections**
 
-[Add collections to this Workspace](/docs/v6/postman/workspaces/using_workspaces){:target="_blank"} or [create collections](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} in the Postman app. Collections is the default view.
+[Add an existing collection to this workspace](/docs/v6/postman/workspaces/using_workspaces) or [create a new collection](/docs/v6/postman/workspaces/creating_workspaces). You can share a collection to multiple workspaces.
 
 **Environments**
 
-Add environments to this workspace or [create environments](/docs/v6/postman/environments_and_globals/manage_environments){:target="_blank"} in the Postman app. After you add environments, you can share them with other workspaces.
+Add an existing environment to this workspace or [create a new environment](/docs/v6/postman/environments_and_globals/manage_environments). You can share an environment to multiple workspaces.
 
 **Monitors**
 
-[Create monitors](/docs/v6/postman/monitors/setting_up_monitor){:target="_blank"} to track the performance of collections in a workspace. You can wait to see performanance results at the scheduled run time, or click the **Run** button to see performance results now.
+[Create a monitor](/docs/v6/postman/monitors/setting_up_monitor) to track the performance of your APIs in a workspace. A monitor created within a workspace cannot be shared to other workspaces. If you want to create a monitor with a collection that is shared in multiple workspaces, a new monitor must be created in each of the other workspaces.
 
 **Mocks**
 
-[Create a mock server](/docs/v6/postman/mock_servers/setting_up_mock){:target="_blank"} to simulate each endpoint and its corresponding environment in a collection, before sending the actual request. Postman redirects you to the app to create the mock server.
+[Create a mock server](/docs/v6/postman/mock_servers/setting_up_mock) to simulate a server response. A mock created within a workspace cannot be shared to other workspaces. If you want to create a mock with a collection that is shared in multiple workspaces, a new mock must be created in each of the other workspaces.
 
 **Integrations**
 
-View a list of current integrations or create workspace integrations. If you create an integration, Postman provides a list of [third party integration apps](/docs/v6/pro/integrations/intro_integrations){:target="_blank"} to help you create the type of integration you want.
+View a list of current integrations or create a new one. Postman has [third party integrations](/docs/v6/pro/integrations/intro_integrations) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
 
 **Activity** 
 
-View a list of activities for this workspace.
+View a [list of activities](/docs/v6/postman/workspaces/activity_feed_and_restoring_collections) for this workspace.

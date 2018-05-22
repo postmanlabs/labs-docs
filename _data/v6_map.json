@@ -442,35 +442,40 @@
   "url_prefix": "workspaces",
   "children": [
       {
-          "title": "Intro to Workspaces",
-    "href": "/docs/v6/postman/workspaces/intro_to_workspaces",
-    "external": false
+        "title": "Intro to Workspaces",
+        "href": "/docs/v6/postman/workspaces/intro_to_workspaces",
+        "external": false
       },
       {
-          "title": "Creating Workspaces",
-    "href": "/docs/v6/postman/workspaces/creating_workspaces",
-    "external": false
+        "title": "Creating Workspaces",
+        "href": "/docs/v6/postman/workspaces/creating_workspaces",
+        "external": false
       },
       {
-          "title": "Managing Workspaces",
-    "href": "/docs/v6/postman/workspaces/managing_workspaces",
-    "external": false
+        "title": "Managing Workspaces",
+        "href": "/docs/v6/postman/workspaces/managing_workspaces",
+        "external": false
       },
       {
-          "title": "Using Workspaces",
-    "href": "/docs/v6/postman/workspaces/using_workspaces",
-    "external": false
+        "title": "Using Workspaces",
+        "href": "/docs/v6/postman/workspaces/using_workspaces",
+        "external": false
       },
       {
-          "title": "Conflicts",
-          "href": "/docs/v6/postman/team_library/conflicts",
-          "external": false
+        "title": "Activity feed and restoring collections",
+        "href": "/docs/v6/postman/workspaces/activity_feed_and_restoring_collections",
+        "external": false
+      },
+      {
+        "title": "Conflicts",
+        "href": "/docs/v6/postman/workspaces/conflicts",
+        "external": false
        },
       {
-	"title": "Sharing collections in Workspaces for version 5",
-	"href": "/docs/v6/postman/workspaces/sharing_collections_in_workspaces_for_version_5",
-	"external": false
-	}
+        "title": "Sharing collections in Workspaces for version 5",
+        "href": "/docs/v6/postman/workspaces/sharing_collections_in_workspaces_for_version_5",
+        "external": false
+	  }
     ]
    }
  ]
