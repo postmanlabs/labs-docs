@@ -36,7 +36,7 @@ Pre-purchased blocks of requests provide a discount, and allow you to set a more
 To set the number of monitoring blocks, click the “Set Monitoring Block Count” CTA in your billing overview or usage pages.
 
 
-[![monitor block count](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-setMonitoring-BlockCount.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-setMonitoring-BlockCount.png)
+[![monitor block count](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managingyourbilling2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managingyourbilling2.png)
 
 To set the monitoring block count: 
 
@@ -79,7 +79,7 @@ Click the **Edit Invoice Details** button to go to your Team Settings.
 In the “Billing Details” section, you can change the email address, company name, address, or VAT, and then save the changes.
 
 
-[![billing details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-billing-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-billing-details.png)
+[![billing details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managingyourbilling4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managingyourbilling4.png)
 
 ### How to get a copy of an existing invoice
 
