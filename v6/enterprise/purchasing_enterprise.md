@@ -20,15 +20,15 @@ Log in to your Postman account, and go to the [billing page]({{site.pm.gs}}/pay/
 
 Select "Upgrade to Postman Enterprise".
 
-[![choose plan](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-choose-plan.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-choose-plan.png)
+[![choose plan](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise1.png)
 
 Configure your plan by entering the number of users to include on your team. Based on your input, review the total cost to be billed annually under the Purchase Overview. Click "Proceed".
 
-[![configure plan](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-configure-plan.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-configure-plan.png)
+[![configure plan](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise2.png)
 
 Review your purchase details, and then click "Pay".
 
-[![review order](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-review-order.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-review-order.png)
+[![review order](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise3.png)
 
 Enter your credit card billing and payment details. The subscription for Postman Enterprise will be charged as an annual amount.
 
@@ -38,4 +38,4 @@ Enter your credit card billing and payment details. The subscription for Postman
 
 Once you've successfully submitted your payment details, you can see your current plan back on the billing page. Next, you can add user slots and [manage your team members' roles](/docs/v6/pro/managing_pro/managing_your_team) or [set up monitoring blocks](/docs/v6/postman/monitors/pricing_monitors#request-blocks-for-paid-pro-teams).
 
-[![enterprise confirmation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-confirmation.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-confirmation.png)
+[![enterprise confirmation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingenterprise4.png)

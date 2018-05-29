@@ -12,7 +12,7 @@ Purchasing a Postman Pro subscription requires you to:
 * Choose your role
 
 To purchase a Postman Pro subscription, go to the [Pricing](https://www.getpostman.com/pricing){:target="_blank"} page and click the **Buy Postman Pro** button.
-[![Pricing page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing-page.png)
+[![Pricing page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingpro1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingpro1.png)
 
 ### Configure your plan
 
