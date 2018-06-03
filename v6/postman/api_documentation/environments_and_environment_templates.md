@@ -14,7 +14,7 @@ Local environments and shared environments are automatically synced. In addition
 
 The environments drop down menu contains all of your local environments and shared environments. 
 
-All of your local environments and shared environments will be available to you in your team Workspace.
+All of your local environments and shared environments will be available to you in your team workspace.
 
 [![environments dropdown for private viewing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-environment2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-environment2.png)
 
