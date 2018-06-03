@@ -6,7 +6,7 @@ warning: false
 
 You can access local environments and shared environments in your private and public API documentation. 
 
-Selecting an environment in private or public documentation assigns those environment variables within the documentation. For example, if you select an environment that has a `foo` variable with the value `bar`, then all occurrences of {% raw %}{{foo}}{% endraw %} in the request will be replaced with `bar` within the documentation.
+Selecting an environment in private or public documentation assigns those environment variables within the documentation. For example, if you select an environment that has a `foo` variable with the value `bar`, then all occurrences of {% raw %}`{{foo}}`{% endraw %} in the request will be replaced with `bar` within the documentation.
 
 Local environments and shared environments are automatically synced. In addition, they are [encrypted during storage](https://www.getpostman.com/security){:target="_blank"}.
 
