@@ -16,7 +16,7 @@ Postman tracks changes to collections and teams.
 
 **Collection activity feed**
 
-To review the activity feed at the collection level in the Postman app, expand the angle bracket (**>**) next to the collection to view details. Under the **Activity** tab, review a chronological list of activities about the collection. 
+To review the activity feed at the collection level in the Postman app, expand the arrow (&#9656;) next to the collection to view details. Under the **Activity** tab, review a chronological list of activities about the collection. 
 
 The activity feed displays who updated the collection, what the updates were, and when they were completed. For Postman Pro and Enterprise users, diffs are generated and displayed within the activity feed. Consecutive updates on the same session to the same entity are collated for readability.
 

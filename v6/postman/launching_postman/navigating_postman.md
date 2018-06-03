@@ -39,7 +39,6 @@ The header toolbar contains these options:
 *   **Workspaces** menu - Opens the Workspaces menu where you can view [personal and team Workspaces](/docs/postman/workspaces/intro_to_workspaces){:target="_blank"}, and create and manage Workspaces.
 *   **Interceptor/Proxy** icon - Manages proxy or Interceptor settings.
 *   **IN SYNC status** icon - Updates the status of your Postman account.
-*   **Public API Library** - Displays the Public API network.
 *   **Settings** icon - Manages Postman app settings and finds other support resources.
 *   **Notifications** icon - Receives notifications or broadcasts.
 *   **Heart** - Love Postman? Click on this button to share the love!

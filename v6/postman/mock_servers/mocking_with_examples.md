@@ -60,7 +60,7 @@ In the previous steps, we prepared the collection, request, and example response
 
   There are two ways to create a mock for our collection: 1) using the Postman app and 2) [using the Postman API](/docs/postman/mock_servers/mock_with_api). In this example, we will mock a collection using the Postman app.
   
-  From the Postman app, click on the right angle bracket (**>**) next to the collection you wish to mock to expand the collection details view. 
+  From the Postman app, click on the arrow (&#9656;) next to the collection you wish to mock to expand the collection details view. 
   
   [![mock in collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock10.png)
   
