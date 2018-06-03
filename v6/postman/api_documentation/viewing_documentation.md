@@ -16,7 +16,7 @@ Only the author can view private documentation unless the collection is shared w
 
 You must be logged in to your Postman account to view private documentation. Postman Pro and Enterprise teammates with view permissions can oversee progress, while teammates with edit permissions can collaborate in writing, revising, and updating documentation. 
 
-In the Postman app, hover your cursor over your collection on the left-hand side, click the right angle bracket (>), then click the **View in web** button. 
+In the Postman app, hover your cursor over your collection on the left-hand side, click the arrow (&#9656;), then click the **View in web** button. 
 
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-view.png)
 

@@ -26,7 +26,7 @@ Click on a collection to show or hide the requests that comprise the Collection.
 
 ### Edit and view collection details
 
-Expand the right angle bracket (**>**) to show the details view for the collection. Collapse the left angle bracket (**<**) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
+Expand the arrow (&#9656;) to show the details view for the collection. Collapse the arrow (&#9666;) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
 
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collectionDetailsView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collectionDetailsView.png)
 
