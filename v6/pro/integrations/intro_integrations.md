@@ -17,7 +17,7 @@ Organizations use the term "integration" inclusively, sometimes overly so. In fa
 
 Postman views "integrations" as a way to share data or functionality between Postman and other tools that you might use for API development. When manually importing and exporting data from one application to another becomes a chore, an integration can help.
 
-For example, suppose you use GitHub for your repository management and use Postman to develop and test your APIs. If you want to save your Postman Collections to a GitHub repository, you can use the [Postman to GitHub integration]({{site.pm.gs}}/integrations/services/github){:target="_blank"} feature. 
+For example, suppose you use GitHub for your repository management and use Postman to develop and test your APIs. If you want to save your Postman Collections to a GitHub repository, you can use the [Postman to GitHub integration]({{site.pm.root}}/docs/v6/pro/integrations/github){:target="_blank"} feature. 
 
 ### Postman Pro integrations
 
