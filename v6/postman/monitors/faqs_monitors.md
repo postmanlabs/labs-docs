@@ -56,4 +56,4 @@ No. Monitors can only connect to URLs that are publicly-available on the Interne
 
 ##### **Will Monitors impact my API performance?**
 
-You have full control over the behavior of your monitors. No only can you determine which of your API endpoints are called, you can also determine how many and how often they are called. In addition, we restrict each monitor’s total run time to 5 minutes, to limit the number of requests it can perform.
+You have full control over the behavior of your monitors. Not only can you determine which of your API endpoints are called, you can also determine how many and how often they are called. In addition, we restrict each monitor’s total run time to 5 minutes, to limit the number of requests it can perform.
