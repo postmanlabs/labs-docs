@@ -25,13 +25,13 @@ In this topic, we discuss how to set the monitoring block count, view your accou
 
 <h3 id="set">Setting the monitoring block count</h3>
 
-In Postman Pro, your team can monitor up to 10,000 requests for free per month. 
+Postman Pro teams can send up to 10,000 monitoring requests for free each month. (Postman Enterprise teams can send upt to 100,000 monitoring requests every month without charge.) 
 
-Beyond 10,000 requests, you can choose to pay-as-you-go for additional requests, or pre-purchase discounted blocks of monitoring requests.
+Beyond these free limits, you can choose to pay-as-you-go for additional requests, or pre-purchase discounted blocks of monitoring requests.
 
 For pay-as-you-go, your team will be  billed at $0.75 for every 1,000 requests above 10,000 per month. 
 
-Pre-purchased blocks of requests provide a discount, and allow you to set a more predictive billing pattern. Blocks of 500,000 requests are available for a monthly price of $200.
+Pre-purchased blocks of monitoring calls provide a discount, and allow you to set a more predictive billing pattern. Blocks of 50,000 monitoring calls are available for a monthly price of $20.
 
 To set the number of monitoring blocks, click the “Set Monitoring Block Count” CTA in your billing overview or usage pages.
 
@@ -41,7 +41,7 @@ To set the number of monitoring blocks, click the “Set Monitoring Block Count�
 To set the monitoring block count: 
 
 * Click the “Set Monitoring Block Count” in the “Your Current Plan” section in the Billing Overview. 
-* Select the number of blocks you want to purchase each month. Each block translates to 500,000 requests that can be monitored and costs $200 per month. 
+* Select the number of blocks you want to purchase each month. Each block translates to 50,000 monitoring calls and costs $20 per month. 
 * Click the **Proceed** button. Review the details of your purchase and click the **Pay** button. Your default payment method is charged immediately, and every month on this date.
 
 ### Account History
