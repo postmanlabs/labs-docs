@@ -11,8 +11,8 @@ warning: false
 
 Postman Pro teams can choose between 2 billing cycles:
 
-1.  **Annual**: Postman Pro is available at $75/user/year (effectively discounted to $6.25/user/month), payable annually.
-2.  **Monthly**: Postman Pro is available at $8/user/month payable monthly.
+1.  **Annual**: Postman Pro is available at $96/user/year (effectively discounted to $8/user/month), payable annually.
+2.  **Monthly**: Postman Pro is available at $10/user/month payable monthly.
 
 ### Changing Billing Cycles / Team Size
 
@@ -25,7 +25,7 @@ Annual teams can increase their team size to invite more users at any time. Head
 
   [![add users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)
 
-You'll be charged for the remainder of the billing cycle on a pro-rated basis. For example, if you add 3 more users 6 months into your billing cycle, you'll be charged ($37.5/user * 3 users) $112.50, since you're only using the additional 3 users for 6 months. If you don't have a saved card, you'll need to contact us for invoice-based payment.
+You'll be charged for the remainder of the billing cycle on a pro-rated basis. For example, if you add 3 more users 6 months into your billing cycle, you'll be charged ($48/user * 3 users) $144, since you're only using the additional 3 users for 6 months. If you don't have a saved card, you'll need to contact us for invoice-based payment.
 
 ### Managing Saved Cards
 
