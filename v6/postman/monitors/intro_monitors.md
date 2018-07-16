@@ -31,7 +31,7 @@ There are a few minor differences between running collections in a Postman monit
 
 ##### **Time Limits**
 
-   *   Monitoring can currently be scheduled to run as often as every 5 minutes, or as little as once a week. Each run is limited to 2 minutes, including all HTTP requests, responses, and pre-request and test scripts.
+   *   Monitoring can currently be scheduled to run as often as every 5 minutes, or as little as once a week. Each run is limited to 5 minutes, including all HTTP requests, responses, and pre-request and test scripts.
 
 ##### **File Uploads**
 
