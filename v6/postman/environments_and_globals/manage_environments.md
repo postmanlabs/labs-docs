@@ -72,9 +72,9 @@ Once you select an environment, you can access variables in the active environme
 
 Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. 
 
-When you click the "Edit" link, a modal opens where you can edit keys and values.
+When you click the "Edit" link, a modal opens where you can edit keys and initial and current values.
 
-[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-active-environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-active-environ.png)
+[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png)
 
 ### Sharing an environment
 
