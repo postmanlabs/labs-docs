@@ -18,6 +18,7 @@ This topic covers:
 * [Dynamic variables](#dynamic-variables)
 * [Quick Look for variables](#quick-look-for-variables)
 * [Autocomplete and tooltips for variables](#autocomplete-and-tooltips-for-variables)
+* [Auto Persisting Variable Vaues](#auto-persist-variable-values)
 
 Variables allow you to reuse values in multiple places so you can keep your code DRY (Don't Repeat Yourself). Also, if you want to change the value, you can change the variable once with the impact cascading through the rest of your code.
 
@@ -41,9 +42,9 @@ If a variable from the currently active environment shares its name with a globa
 
 You can use variables in the following form in the Postman user interface - `{% raw %}` `{{variableName}}` `{% endraw %}`. 
 
-The string `{% raw %}` `{{variableName}}` `{% endraw %}` will be replaced with its corresponding value when Postman resolves the variable.
+The string `{% raw %}` `{{variableName}}` `{% endraw %}` will be replaced with its current value when Postman resolves the variable.
 
-For example, for an environment variable `url` with the value `http://localhost`, you will have to use `{% raw %}` `{{url}}` `{% endraw %}` in the request URL field. `{% raw %}``{{url}}``{% endraw %}` will be replaced by `http://localhost` when the request is sent.
+For example, for an environment variable `url` with the current value `http://localhost`, you will have to use `{% raw %}` `{{url}}` `{% endraw %}` in the request URL field. `{% raw %}``{{url}}``{% endraw %}` will be replaced by `http://localhost` when the request is sent.
 
 Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the [Variable Scopes](/docs/v6/postman/environments_and_globals/variables#variable-scopes) section and sends them to the server.
 
@@ -59,6 +60,8 @@ Since these sections for scripts are written in JavaScript, you will initialize 
         *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/v6/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
   2.  Fetching a pre-defined variable: 
         *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
+        **Note**: When you specify a .get() method it always obtains the current value while .set() method modifies the current value. This depends on a setting in Postman ‘Automatically persist variable values’. 
+        
   3.  Setting a variable in a scope: 
         *  Environment variables can be accessed with the corresponding environments. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
 
@@ -114,7 +117,7 @@ Quick Look is a quick preview feature that displays all your environment and glo
 
 Click the "eye" icon in the top right to toggle the display, or type the keyboard shortcut **(CMD/CTRL + ALT + E)**.
 
-[![quick look](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look.png)
+[![quick look](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look_Updated.png)
 
 ### Autocomplete and tooltips for variables
 
@@ -131,3 +134,11 @@ Type an open curly bracket to bring up the autocomplete menu. For the pre-reques
 [![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-variable-toolTip.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-variable-toolTip.gif)
 
 Variables are highlighted in orange, with unresolved variables shown in red. Hovering over a variable shows its current value and the scope. If a variable is unresolved - i.e., no value in the current environment - the tooltip shows the appropriate feedback.
+
+##### **Auto-Persisting Variable Values**
+
+At Postman, we’ve always believed to empower users by giving total control in the way they want to use the tool. Using the auto persist feature in Postman Settings, you can choose to override your initial values with the current values automatically at the end of each request . To set this option On/Off, point to Settings button in the Postman’s main interface and select Settings to bring up the following screen: 
+
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Auto-Persist1.png
+
+In the Settings screen, click Automatically persist variable values option to turn on/off. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts.
