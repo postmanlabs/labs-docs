@@ -125,15 +125,15 @@ Postman variables are very powerful, and two features - autocomplete and tool ti
 
 ##### **Autocomplete for variables**
 
-[![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-autocomplete.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-autocomplete.gif)  
+[![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)
 
-Type an open curly bracket to bring up the autocomplete menu. For the pre-request and test scripts section, which [uses the data editor](/docs/v6/postman/launching_postman/navigating_postman), entering the first letter of a variable triggers the autocomplete. The menu contains a list of all the variables in the current environment, followed by globals. Navigating through the list also shows the current value and scope for each variable, along with a feedback for overridden variables. 
+Type an open curly bracket to bring up the autocomplete menu. For the pre-request and test scripts section, which [uses the data editor](/docs/v6/postman/launching_postman/navigating_postman), entering the first letter of a variable triggers the autocomplete. The menu contains a list of all the variables in the current environment, followed by globals. Navigating through the list also shows the initial value, current value and scope for each variable, along with a feedback for overridden variables. The following screen displays selection of Token1 with its initial and current values and scope:
 
 ##### **Variable highlighting and tooltip on hover**
 
-[![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-variable-toolTip.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-variable-toolTip.gif)
+[![variable highlighting and tooltips]https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)
 
-Variables are highlighted in orange, with unresolved variables shown in red. Hovering over a variable shows its current value and the scope. If a variable is unresolved - i.e., no value in the current environment - the tooltip shows the appropriate feedback.
+Variables are highlighted in orange, with unresolved variables shown in red. Hovering over a variable shows its initial, and current value and the scope. If a variable is unresolved - i.e., no value in the current environment - the tooltip shows the appropriate feedback.
 
 ##### **Auto-Persisting Variable Values**
 
