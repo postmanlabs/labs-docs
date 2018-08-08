@@ -70,6 +70,6 @@ This is where you can verify your current version of the Postman app. There are 
 
 At Postman, we’ve always believed to empower users by giving total control in the way they want to use the tool. Using the auto persist feature in Postman Settings, you can choose to override your initial values with the current values automatically at the end of each request . To set this option On/Off, point to Settings button in the Postman’s main interface and select Settings to bring up the following screen: 
 
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Auto-Persist1.png
+[![autopersist values](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Auto-Persist1.png)
 
 In the Settings screen, click Automatically persist variable values option to turn on/off. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts.
