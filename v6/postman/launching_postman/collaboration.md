@@ -96,17 +96,17 @@ As Postman archives your collections, you might want to recover your collections
 
 You are now redirected to the Postman web dashboard, as illustrated in the following screen:
 
-[![export data1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Export_Data1.png)
+[![export data1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Recovering_ArchivedCol1.png)
  
-This screen lists all your archived collections. Click Export Data on top right corner to bring up the following screen: 
+This screen lists all your archived collections. Click Download Your Data on top right corner to bring up the following screen: 
 
-[![export data2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Export_Data2.png)
+[![export data2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Recovering_ArchivedCol2.png)
 
 Click Request data archive on top right corner. The following screen appears:
 
 [![request data archive](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Req_Data_Archive1.png) 
 
-Once you request, your request will be acknowledged and in due course your request appears under Requested Archives section from where you can click Download button and get your data. 
+Once you request, your request will be acknowledged and in due course your request appears under Requested Archives section from where you can click Download button and get your data, as illustrated here: 
 
 [![Download Data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_data1.png) 
 
