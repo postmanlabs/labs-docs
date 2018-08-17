@@ -13,22 +13,21 @@ Let’s walk through an example.
 * [Working with the sample files](#working-with-the-sample-files)
 
 
-
 ### Getting started
 
-Before we begin, download the collection and data files we'll use in this example.
+Before we begin, download the following collection and data files we'll use in this example.
 
    *   [Collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58533790.json)
    *   [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json)
    *   [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
-   
+
 #### Importing sample files
 
-To import the files in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample files to upload.
+To import the files in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample files to upload. You can only import collection and environment files. We'll use data files like .JSON and .CSV for analysis. 
 
 [![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
 
-You should see "Post Request" and "Using data files" in the sidebar as shown in the image below.
+You should see your collection with a request you just imported in the sidebar as shown in the image below.
    
 [![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)
 
@@ -36,39 +35,17 @@ You should see "Post Request" and "Using data files" in the sidebar as shown in 
 
 Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` in the request body. 
 
-Use these variables in the same way as environment variables. We'll supply the value to these variables using the JSON and CSV files.
+Use these variables in the same way as environment variables. We'll supply the value to these variables using the environment and data variables.
 
 When you open the test script, you'll see we're using some variables in the test script -`data` specifically, which isn't defined in the script itself. 
 
-The Postman Sandbox initializes the data variable from the JSON and CSV files that we'll select in the collection run.
+The Postman Sandbox initializes the data variable from the CSV files that we'll select in the collection run.
 
 [![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)
 
-Let's investigate the data files first. We currently support JSON and CSV files.
+Let's investigate the data files first. We currently support JSON and CSV files. This examples talks only about .CSV data file.
 
-Here's the JSON data file:
-
-```json
-    [{
-      "path": "post",
-      "value": "1"
-    }, {
-      "path": "post",
-      "value": "2"
-    }, {
-      "path": "post",
-      "value": "3"
-    }, {
-      "path": "post",
-      "value": "4"
-    }]
-```
-
-The JSON file contains an array of objects. Each object represents the variable values for one iteration. Each member of this object represents a variable. 
-
-In this way, in the first iteration, the variable called `path` has the value `post`, and the variable `value` has the value `1`. Similarly, in the second iteration, `path` is still `post` and `value` is `2`. In this example, the variable `path` does not change its value over iterations, but `value` does. This is totally up to you.
-
-The data file can also be a CSV. Here's the JSON data file:
+Here's the CSV data file:
 
 ```
     path, value
