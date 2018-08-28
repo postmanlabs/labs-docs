@@ -1,6 +1,6 @@
 ---
 title: Running Postman monitors using static IPs
-page_id: “using_static_IPs_to_monitor"
+page_id: "using_static_IPs_to_monitor"
 tags: 
   - "enterprise"
 warning: false
