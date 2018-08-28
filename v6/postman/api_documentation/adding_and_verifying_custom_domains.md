@@ -32,7 +32,7 @@ To verify a domain, check the box to confirm you added the TXT and CNAME records
 
 If you choose not to verify the domain now, click the **Verify Later** button. 
 
-In addition if you want to delete the custom domain, click the "Changed2 Custom Domain" link.
+In addition if you want to delete the custom domain, click the "Delete Custom Domain" link.
 
 [![verify_domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-verify-domain-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-verify-domain-1.png)
 
