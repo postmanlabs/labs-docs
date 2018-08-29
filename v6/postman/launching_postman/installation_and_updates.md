@@ -46,6 +46,10 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
    2. Check your desktop and double-click the Postman icon
 
    **Note:** Ensure you specify the icon path as illustrated above. Postman introduced another folder 'app', one level up to the resources folder which did not exist earlier. 
+
+   If you are an Ubuntu 18 user, you must additionally install libconfig-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18 has been dropped, is mandatory for Postman run. Use the following command to install libconfig-2-4:
+
+   apt-get install libconfig-2-4
   
 ### Postman Chrome app
 
