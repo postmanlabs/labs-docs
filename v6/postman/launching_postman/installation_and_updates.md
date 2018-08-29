@@ -23,13 +23,30 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 ##### **Windows installation**
 
-   *   Download the setup file
+   *   Download the setup file 
    *   Run the installer
+   
 
 ##### **Linux installation**
 
-   * Installation on Linux can vary between distributions. For installation on Ubuntu, download and unzip the file, then double click on Postman to open the app. 
+   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. 
 
+   To create a desktop file, follow as illustrated below:
+
+   1. cat  > ~/.local/share/applications/postman.desktop
+      [Desktop Entry]<br>
+      Encoding=UTF-8<br>
+      Name=Postman<br>
+      Exec=postman<br>
+      Icon=/<Your_Install_Dir>/Postman/app/resources/app/assets/icon.png<br>
+      Terminal=false<br>
+      Type=Application<br>
+      Categories=Development;<br>
+
+   2. Check your desktop and double-click the Postman icon
+
+   **Note:** Ensure you specify the icon path as illustrated above. Postman introduced another folder 'app', one level up to the resources folder which did not exist earlier. 
+  
 ### Postman Chrome app
 
 We recommend using the Postman native apps, but Postman is also available as a Chrome app. Read more about [why support for the Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/03/14/going-native/).
