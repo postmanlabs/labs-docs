@@ -68,7 +68,7 @@ This option exists in the native apps to prevent requests that return a 300-seri
 
 ##### **Postman console**
 
-The latest version of the native app also has a built-in [console](/docs/v6/postman/sending_api_requests/debugging_and_logs), which allows you to view the network request details for API calls.
+The latest version of the native app also has a built-in [console](https://www.getpostman.com/docs/v6/postman/sending_api_requests/debugging_and_logs#network-calls-with-postman-console), which allows you to view the network request details for API calls.
 
 ### **Migrating to the native app**
 
