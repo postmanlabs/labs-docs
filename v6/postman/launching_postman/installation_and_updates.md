@@ -81,7 +81,7 @@ The native apps are not restricted by the Chrome standards for the menu bar. Wit
 
 ##### **Restricted headers**
 
-The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](/docs/v6/postman/sending_api_requests/interceptor_extension) in the Chrome app. 
+The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](https://www.getpostman.com/docs/v6/postman/sending_api_requests/interceptor_extension#restricted-headers) in the Chrome app. 
 
 ##### **Don't follow redirects option**
 
