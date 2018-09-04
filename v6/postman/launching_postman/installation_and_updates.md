@@ -4,14 +4,13 @@ page_id: "installation_and_updates"
 warning: false
 
 ---
-
 ### **Installing the Postman app**
 
 ### Postman native apps
 
-Postman is available as a native app for Mac, Windows, and Linux operating systems.
+Postman is available as a native app for macOS, Windows, and Linux operating systems.
 
-To install Postman, go to the [apps page](https://www.getpostman.com/apps){:target="_blank"} and click **Download** for Mac / Windows / Linux depending on your platform.
+To install Postman, go to the [apps page](https://www.getpostman.com/apps){:target="_blank"} and click **Download** for macOS / Windows / Linux depending on your platform.
 
 [![Postman apps page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161734.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161734.png)
 
@@ -52,6 +51,40 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
    * ```apt-get install libconfig-2-4```
   
+### Supported Platforms
+
+   This section describes the additional software and infrastructure you'll need to run Postman. Please review this info before installing Postman. You should only use Postman with a supported platform. Any platforms and versions not listed on this page are unsupported, which means we don't test, fix bugs or provide assistance. 
+
+#### macOS
+   
+   Only 64bit binaries are provided for macOS, and the minimum macOS version supported is macOS 10.9.
+
+#### Windows
+
+   Windows 7 and later are supported, older operating systems are not supported (and do not work).
+
+   Both ````ia32 (x86) and x64 (amd64)```` binaries are provided for Windows. Please note, the ARM version of Windows is not supported for now.
+
+### Linux
+   
+   The prebuilt binaries of Electron are built for Debian Jessie, but whether the prebuilt binary can run on a distribution depends on whether the distribution includes the libraries that Electron is linked to on the building platform, so only Debian Jessie is guaranteed to work, but following platforms are also verified to be able to run the prebuilt binaries of Electron:
+
+* Ubuntu 12.04 and later
+* Fedora 21
+* Debian 8 and later
+
+Electorn provides prebuilt binaries for following CPU architectures:
+
+* ia32 (i686)
+* x64 (amd64)
+* armv7l
+* arm64
+* mips64el
+
+The arm binary is built against ARM v7 with hard-float ABI and NEON, and it is not guaranteed to run on all ARM platforms.
+
+The ```mips64el``` binary is built with toolchains provided by Loongson, and it is not guaranteed to run on all MIPS64 platforms. And currently all certificate related APIs are not working on mips64el builds.
+
 ### Postman Chrome app
 
 We recommend using the Postman native apps, but Postman is also available as a Chrome app. Read more about [why support for the Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/03/14/going-native/).
@@ -110,7 +143,7 @@ From the same area in Postman settings, you can initiate a bulk import from a Po
 
 ### **Updating Postman**
 
-##### **Native app (Mac, Windows and Linux)**
+##### **Native app (macOS, Windows and Linux)**
 
 Postman's native apps will notify you whenever a major update is available. Other updates are indicated by an indicator that appears on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
 
