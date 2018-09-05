@@ -41,7 +41,7 @@ The number of times the collection will run.
 
 Sending different data in each iteration and setting a higher iteration counts usually ensures the stability of your APIs.
 
-To learn how to run multiple iterations, see [Running multiple iterations](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}.
+To learn how to run multiple iterations, see [Running multiple iterations](/docs/postman/collection_runs/running_multiple_iterations){:target="_blank"}.
 
 ### Delay
 
