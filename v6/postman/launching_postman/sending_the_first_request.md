@@ -26,7 +26,7 @@ Click the **Send** button to send your request.  Note the JSON data response f
 
 Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722){:target="_blank"} under the History tab of the sidebar. You can click the **Save** button to save a request to use later.
 
-[![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)
+[![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
 
 
 ### Postman Echo
