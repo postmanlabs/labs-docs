@@ -22,6 +22,8 @@ These entities can sync with our server and be saved to the cloud:
    *   Environment variables
    *   Global variables
    *   Collection run results
+   *   Workspaces
+   *   History
 
 ### How do I Sync between computers?
 
