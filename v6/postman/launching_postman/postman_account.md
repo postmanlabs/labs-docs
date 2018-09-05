@@ -79,7 +79,6 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
    *   Communication with Postman servers only happens through HTTPS and Secure WebSockets.
    *   Environment and global variables are encrypted so that only you can view them.
-   *   You can turn off sync any time and still use Postman.
 
 ### Forgot your username or password?
 
