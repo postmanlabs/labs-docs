@@ -16,7 +16,7 @@ In the header toolbar of the Postman app, click the wrench icon and select "Sett
 Postman tries to minimize the number of settings you have to change, so we established some defaults. However, given the diversity of use cases, if you need to make adjustments, here's how:
 
    *   **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
-   *   **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request. Read more about [managing client certificates](/docs/postman/sending_api_requests/certificates).
+   *   **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request. 
    *   **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
    *   **XHR Timeout in ms:** Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
    *   **Editor Font Size:** Adjust the font size in pixels for the text that appears in Postman. Note that this setting impacts only the *Test Scripts, Pre-request Scripts, and Response Pretty View*
