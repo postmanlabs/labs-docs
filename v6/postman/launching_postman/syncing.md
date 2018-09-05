@@ -29,7 +29,7 @@ Install the [Postman app]({{site.pm.root}}/apps){:target="_blank"} and sign in w
 
 If you forget your username or password, you can recover your username and reset your password when you click the links near the signin prompt. 
 
-If you have sync enabled, all the data you now create (or have created in the past) syncs across all your devices.
+When you perform the sync operation, all the data you now create (or have created in the past) syncs across all your devices.
 
 Postman automatically makes sure your data is the same no matter where you access it. No further settings are required.
 
