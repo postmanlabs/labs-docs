@@ -57,33 +57,25 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 #### macOS
    
-   Only 64bit binaries are provided for macOS, and the minimum macOS version supported is macOS 10.9.
+   The minimum version supported is macOS 10.9.
 
 #### Windows
 
-   Windows 7 and later are supported, older operating systems are not supported (and do not work).
+   Postman supports Windows 7 and above. Older operating systems are not supported.
 
-   Both ````ia32 (x86) and x64 (amd64)```` binaries are provided for Windows. Please note, the ARM version of Windows is not supported for now.
+   Both ````ia32 (x86) and x64 (amd64)```` installers are provided for Windows. Note that the ARM version of Windows is not supported.
 
 ### Linux
    
-   The prebuilt binaries of Electron are built for Debian Jessie, but whether the prebuilt binary can run on a distribution depends on whether the distribution includes the libraries that Electron is linked to on the building platform, so only Debian Jessie is guaranteed to work, but following platforms are also verified to be able to run the prebuilt binaries of Electron:
+   Postman supports the following Linux distributions:
 
 * Ubuntu 12.04 and later
 * Fedora 21
 * Debian 8 and later
 
-Electorn provides prebuilt binaries for following CPU architectures:
+**Note:**Note: If you are an Ubuntu 18 user, you must additionally install libconfig-2-4 package to run Postman. This package, which was shipped by default until Ubuntu version 18 has been dropped, and is mandatory to run Postman. Use the following command to install libconfig-2-4:
 
-* ia32 (i686)
-* x64 (amd64)
-* armv7l
-* arm64
-* mips64el
-
-The arm binary is built against ARM v7 with hard-float ABI and NEON, and it is not guaranteed to run on all ARM platforms.
-
-The ```mips64el``` binary is built with toolchains provided by Loongson, and it is not guaranteed to run on all MIPS64 platforms. And currently all certificate related APIs are not working on mips64el builds.
+`apt-get install libconfig-2-4`
 
 ### Postman Chrome app
 
