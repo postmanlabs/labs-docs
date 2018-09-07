@@ -495,18 +495,8 @@
         "url_prefix": "managing_pro",
         "children": [
           {
-            "title": "Activating your Pro trial",
-            "href":"/docs/v6/pro/managing_pro/activating_trial",
-            "external": false
-          },
-          {
             "title": "Purchasing Postman Pro",
             "href":"/docs/v6/pro/managing_pro/purchasing_pro",
-            "external": false
-          },
-          {
-            "title": "Upgrading to Postman Pro from a trial",
-            "href":"/docs/v6/pro/managing_pro/upgrading_to_postman_pro_from_a_trial_team",
             "external": false
           },
           {
