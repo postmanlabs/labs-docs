@@ -49,7 +49,7 @@ Download Newman, Postman's command line companion, to integrate Postman collect
 
 ### Sync
 
-If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app (and not just locally). You can force re-sync or disable it under **Settings**. Learn more about [syncing](/docs/postman/launching_postman/syncing).
+If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app (and not just locally). You can also manually perform sync using the Sync icon in the header toolbar of Postman app. Learn more about [syncing](/docs/postman/launching_postman/syncing).
 
 ### Certificates
 
