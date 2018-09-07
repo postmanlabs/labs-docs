@@ -4,6 +4,7 @@ page_id: "purchasing_postman_pro"
 tags: 
   - "pro"
 warning: false
+redirect_from: /v6/pro/managing_pro/activating_trial
 ---
 
 Purchasing a Postman Pro subscription requires you to:
