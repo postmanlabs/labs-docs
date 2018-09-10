@@ -21,19 +21,20 @@ The **New** button also provides access to [templates](#templates) and the [API_
 
 When you click the **New** button, the **Create New** tab appears as the default view. 
 
-In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the Templates and API Network sections below.
+In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [Templates and API Network sections](/docs/v6/postman/launching_postman/newbutton#templates).
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)
 
 ### Create New  
+
+You can create a new *Request, Collection, Environment, API Documentation, Mock Server, and Monitor* using the **New** button. Alternatively, you can also directly create a these when you click the down arrow at the right side of the **New** button, as illustrated below:
+[![new_button2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/CreateNew_DropDown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/CreateNew_DropDown.png)
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
 In **ADVANCED**, create new documentation, a mock server, or a monitor.
 
 At the bottom of this window, you can select “Show this window at launch” to indicate whether you want the **Create New** tab to display each time you open Postman.
-
-You can also directly create a new feature when you click the down arrow at the right side of the **New** button.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)
 
