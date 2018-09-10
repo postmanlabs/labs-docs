@@ -23,4 +23,6 @@ Save this request to an existing collection, or create a new collection by enter
 
 [![save request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)
 
-Congratulations! You can see all of your collections under the **Collections** tab of the sidebar on the left.
+Congratulations! You can see all of your collections under the **Collections** tab of the sidebar on the left, as illustrated in the screen below:
+
+[![collection sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Creating_first_collection_sidebar1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Creating_first_collection_sidebar1.png)
