@@ -27,7 +27,8 @@ In addition to the **Create New** tab, there are two other tabs: "Templates" and
 
 ### Create New  
 
-You can create a new *Request, Collection, Environment, API Documentation, Mock Server, and Monitor* using the **New** button. Alternatively, you can also directly create a these when you click the down arrow at the right side of the **New** button, as illustrated below:
+You can create a new *Request, Collection, Environment, API Documentation, Mock Server, and Monitor* using the **New** button. Alternatively, you can also directly create these when you click the down arrow at the right side of the **New** button, as illustrated below:
+
 [![new_button2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/CreateNew_DropDown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/CreateNew_DropDown.png)
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
@@ -77,7 +78,7 @@ Under **BUILDING BLOCKS**, you  can create an [environment](/docs/postman/v6/env
 1. In the **MANAGE ENVIRONMENTS** modal, add the variables you want to save as key-value pairs.
 1. Click the **Add** button.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments-newButton.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments-newButton.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)
 
 If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit, download, or delete those environments. 
 
