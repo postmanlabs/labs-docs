@@ -14,7 +14,7 @@ Let's review how to [send a basic request](/docs/v6/postman/launching_postman/se
 
 Enter a request in the request builder and click the **Save** button to open the **SAVE REQUEST** modal.
 
-[![request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-first-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-first-collection.png)
+[![request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest1.png)
 
 * As an optional step, enter a new request name. Otherwise, the default name will be the request URL.
 *   As an optional step, enter a request description in plain text or using [Markdown](/docs/v6/postman/collections/using_markdown_for_descriptions){:target="_blank"}.
