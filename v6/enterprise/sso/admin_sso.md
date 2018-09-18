@@ -12,7 +12,7 @@ Only an Enterprise team administrator (admin) can configure single sign-on (SSO)
 
 Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} for an enterprise plan. The Team Settings screen appears as below:
 
-[![sso enable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)
+[![sso enable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)
 
 After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on/off this SSO authentication. Click the orange circled button to turn on/off your SSO authentication system. This is a team-level option which will enable/disable SSO for the whole team.
 
