@@ -57,7 +57,7 @@ Add and view client certificates on a per domain basis. Learn more about [settin
 
 ### Proxy
 
-Configure your proxy settings in the Postman app using this tab route through a proxy server. For more information on Proxy, see [How to configure proxy in Postman](/docs/v6/postman/sending_api_requests/proxy)
+Configure your proxy settings in the Postman app using this tab. For more information on Proxy, see [How to configure proxy in Postman](/docs/v6/postman/sending_api_requests/proxy)
 
 ### Update
 
