@@ -9,11 +9,11 @@ tags:
 
 This topic describes how to use Newman with Docker in these platforms:
 
-* [Mac and Ubuntu](#mac-and-ubuntu)
+* [macOS and Ubuntu](#mac-and-ubuntu)
 * [Windows](#windows)
 
 
-### Mac and Ubuntu
+### macOS and Ubuntu
 
 Follow these steps to use [Newman](https://github.com/postmanlabs/newman){:target="_blank"} with [Docker](https://www.docker.com/){:target="_blank"}:
 

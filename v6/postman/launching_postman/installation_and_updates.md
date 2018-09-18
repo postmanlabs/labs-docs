@@ -4,14 +4,13 @@ page_id: "installation_and_updates"
 warning: false
 
 ---
-
 ### **Installing the Postman app**
 
 ### Postman native apps
 
-Postman is available as a native app for Mac, Windows, and Linux operating systems.
+Postman is available as a native app for macOS, Windows, and Linux operating systems.
 
-To install Postman, go to the [apps page](https://www.getpostman.com/apps){:target="_blank"} and click **Download** for Mac / Windows / Linux depending on your platform.
+To install Postman, go to the [apps page](https://www.getpostman.com/apps){:target="_blank"} and click **Download** for macOS / Windows / Linux depending on your platform.
 
 ![Postman apps page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161734.png "Postman apps page")
 
@@ -23,12 +22,60 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 ##### **Windows installation**
 
-   *   Download the setup file
+   *   Download the setup file 
    *   Run the installer
+   
 
 ##### **Linux installation**
 
-   * Installation on Linux can vary between distributions. For installation on Ubuntu, download and unzip the file, then double click on Postman to open the app. 
+   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. 
+
+   To create a desktop file, follow as illustrated below:
+
+   1. <pre><code>cat  > ~/.local/share/applications/postman.desktop
+      [Desktop Entry]<br>
+      Encoding=UTF-8<br>
+      Name=Postman<br>
+      Exec=postman<br>
+      Icon=/&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png<br>
+      Terminal=false<br>
+      Type=Application<br>
+      Categories=Development;<br>
+      </code></pre>
+
+   2. Check your desktop and double-click the Postman icon
+
+   **Note:** Ensure you specify the icon path as illustrated above. Postman introduced another folder 'app', one level up to the resources folder which did not exist earlier. 
+
+   If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman run. Use the following command to install ```libgconf-2-4```:
+
+   * ```apt-get install libgconf-2-4```
+  
+### Supported Platforms
+
+   This section describes the additional software and infrastructure you'll need to run Postman. Please review this info before installing Postman. You should only use Postman with a supported platform. Any platforms and versions not listed on this page are unsupported, which means we don't test, fix bugs or provide assistance. 
+
+#### macOS
+   
+   The minimum version supported is macOS 10.9.
+
+#### Windows
+
+   Postman supports Windows 7 and above. Older operating systems are not supported.
+
+   Both ````ia32 (x86) and x64 (amd64)```` installers are provided for Windows. Note that the ARM version of Windows is not supported.
+
+### Linux
+   
+   Postman supports the following Linux distributions:
+
+* Ubuntu 12.04 and later
+* Fedora 21
+* Debian 8 and later
+
+**Note:**Note: If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to run Postman. This package, which was shipped by default until Ubuntu version 18 has been dropped, and is mandatory to run Postman. Use the following command to install libgconf-2-4:
+
+`apt-get install libgconf-2-4`
 
 ### Postman Chrome app
 
@@ -60,7 +107,7 @@ The native apps are not restricted by the Chrome standards for the menu bar. Wit
 
 ##### **Restricted headers**
 
-The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](/docs/v6/postman/sending_api_requests/interceptor_extension) in the Chrome app. 
+The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](/docs/v6/postman/sending_api_requests/interceptor_extension#restricted-headers) in the Chrome app. 
 
 ##### **Don't follow redirects option**
 
@@ -68,7 +115,7 @@ This option exists in the native apps to prevent requests that return a 300-seri
 
 ##### **Postman console**
 
-The latest version of the native app also has a built-in [console](/docs/v6/postman/sending_api_requests/debugging_and_logs), which allows you to view the network request details for API calls.
+The latest version of the native app also has a built-in [console](/docs/v6/postman/sending_api_requests/debugging_and_logs#network-calls-with-postman-console), which allows you to view the network request details for API calls.
 
 ### **Migrating to the native app**
 
@@ -88,7 +135,7 @@ From the same area in Postman settings, you can initiate a bulk import from a Po
 
 ### **Updating Postman**
 
-##### **Native app (Mac, Windows and Linux)**
+##### **Native app (macOS, Windows and Linux)**
 
 Postman's native apps will notify you whenever a major update is available. Other updates are indicated by an indicator that appears on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
 
