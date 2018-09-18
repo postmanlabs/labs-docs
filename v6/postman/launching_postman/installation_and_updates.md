@@ -47,9 +47,9 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
    **Note:** Ensure you specify the icon path as illustrated above. Postman introduced another folder 'app', one level up to the resources folder which did not exist earlier. 
 
-   If you are an Ubuntu 18 user, you must additionally install libconfig-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman run. Use the following command to install ```libconfig-2-4```:
+   If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman run. Use the following command to install ```libgconf-2-4```:
 
-   * ```apt-get install libconfig-2-4```
+   * ```apt-get install libgconf-2-4```
   
 ### Supported Platforms
 
@@ -73,9 +73,9 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 * Fedora 21
 * Debian 8 and later
 
-**Note:**Note: If you are an Ubuntu 18 user, you must additionally install libconfig-2-4 package to run Postman. This package, which was shipped by default until Ubuntu version 18 has been dropped, and is mandatory to run Postman. Use the following command to install libconfig-2-4:
+**Note:**Note: If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to run Postman. This package, which was shipped by default until Ubuntu version 18 has been dropped, and is mandatory to run Postman. Use the following command to install libgconf-2-4:
 
-`apt-get install libconfig-2-4`
+`apt-get install libgconf-2-4`
 
 ### Postman Chrome app
 
