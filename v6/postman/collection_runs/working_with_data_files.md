@@ -21,7 +21,7 @@ Before we begin, download the following collection and data files we'll use in t
    *   [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json)
    *   [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
 
-#### Importing sample files
+#### Importing sample collection files
 
 To import the collection files in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample files to upload. You can only import collection and environment files. We'll use data files like .JSON and .CSV for analysis. 
 
@@ -32,6 +32,16 @@ To import the collection files in Postman, click the **Import** button in the he
 You should see your collection with a request you just imported in the sidebar as shown in the image below.
    
 [![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)
+
+#### Importing sample data files
+
+To import data files, you should go to the collection runner. To learn more about running collections and how to get to the Collection Runner screen, see [Intro to Collection Runs](/docs/v6/postman/collection_runs/intro_to_collection_runs)
+
+Once you get to the Collection Runner screen, the screen appears as illustrated below:
+
+[![import data file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runner_Import_Data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runner_Import_Data.png)
+
+See the red-circled highlighted area in the above screen. Use this option to import your data files. 
 
 ### Working with the sample files
 
