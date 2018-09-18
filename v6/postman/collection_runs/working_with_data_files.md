@@ -35,7 +35,7 @@ You should see your collection with a request you just imported in the sidebar a
 
 #### Importing sample data files
 
-To import data files, you should go to the collection runner. To learn more about running collections and how to get to the Collection Runner screen, see [Intro to Collection Runs](/docs/v6/postman/collection_runs/intro_to_collection_runs)
+To select data files, you should go to the collection runner. To learn more about running collections and how to get to the Collection Runner screen, see [Intro to Collection Runs](/docs/v6/postman/collection_runs/intro_to_collection_runs)
 
 Once you get to the Collection Runner screen, the screen appears as illustrated below:
 
