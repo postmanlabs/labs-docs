@@ -111,7 +111,7 @@ Click Request data archive on top right corner. The following screen appears:
 
 Once you request, your request will be acknowledged and in due course your request appears under Requested Archives section from where you can click Download button and get your data, as illustrated here: 
 
-[![Download Data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_data1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_data1.png) 
+[![Download Data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_Data1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_Data1.png) 
 
 Alternatively, you can also download your archived data directly from the Postman App. To know more about this, refer to [Settings](/docs/v6/postman/launching_postman/settings) section.
  
