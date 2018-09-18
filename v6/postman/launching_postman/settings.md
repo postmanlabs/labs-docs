@@ -56,6 +56,10 @@ If you are signed in to Postman, your data is synced with our server, making sur
 
 Add and view client certificates on a per domain basis. Learn more about [setting certificates](/docs/postman/sending_api_requests/certificates).
 
+### Proxy
+
+Configure your proxy settings in the Postman app using this tab. For more information on Proxy, see [How to configure proxy in Postman](/docs/v6/postman/sending_api_requests/proxy)
+
 ### Update
 
 Postman's native apps will notify you whenever a version update is available.  To force a check for updates, head to the **Update** tab of the **SETTINGS** modal. Learn about [updating the Postman app](/docs/postman/launching_postman/installation_and_updates).
