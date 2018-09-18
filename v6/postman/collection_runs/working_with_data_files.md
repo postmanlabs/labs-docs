@@ -41,7 +41,7 @@ Once you get to the Collection Runner screen, the screen appears as illustrated 
 
 [![import data file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runner_Import_Data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runner_Import_Data.png)
 
-See the red-circled highlighted area in the above screen. Use this option to import your data files. 
+See the red-circled highlighted area in the above screen. Use this option to select your data files. 
 
 ### Working with the sample files
 
