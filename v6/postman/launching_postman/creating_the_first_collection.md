@@ -21,7 +21,7 @@ Enter a request in the request builder and click the **Save** button to open th
 
 Save this request to an existing collection, or create a new collection by entering a collection name, and then click the **Save** button.
 
-[![save request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)
+[![save request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
 
 Congratulations! You can see all of your collections under the **Collections** tab of the sidebar on the left, as illustrated in the screen below:
 
