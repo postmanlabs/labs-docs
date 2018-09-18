@@ -33,6 +33,11 @@
             "external": false
           },
           {
+            "title": "Free Collaboration",
+            "href": "/docs/v6/postman/launching_postman/collaboration",
+            "external": false
+          },
+          {
             "title": "Syncing",
             "href": "/docs/v6/postman/launching_postman/syncing",
             "external": false
