@@ -14,7 +14,7 @@ Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="
 
 [![sso enable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)
 
-Even after configuring SSO in your environment, you can still control the SSO authentication system using Postman's Enable/Disable option in Settings. Click the orange circled button to turn on/off your SSO authetication system. For instance, this option might be handy to an admin when an employee leaves the company as the authentication control rests with the admin.
+After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on/off this SSO authentication. Click the orange circled button to turn on/off your SSO authentication system. This is a team-level option which will enable/disable SSO for the whole team.
 
 To configure a new authentication method, click **Add a new authentication method** button.
 
