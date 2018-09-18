@@ -33,6 +33,11 @@
             "external": false
           },
           {
+            "title": "Free Collaboration",
+            "href": "/docs/v6/postman/launching_postman/collaboration",
+            "external": false
+          },
+          {
             "title": "Syncing",
             "href": "/docs/v6/postman/launching_postman/syncing",
             "external": false
@@ -206,7 +211,7 @@
         "title": "Environments and globals",
         "url_prefix": "environments_and_globals",
         "children": [
-	 {
+	      {
             "title": "Intro to environments and globals",
             "href": "/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals",
             "external": false
@@ -215,6 +220,11 @@
           {
             "title": "Variables",
             "href": "/docs/v6/postman/environments_and_globals/variables",
+            "external": false
+          },
+          {
+            "title": "Sessions",
+            "href": "/docs/v6/postman/environments_and_globals/sessions",
             "external": false
           },
           {
@@ -495,18 +505,8 @@
         "url_prefix": "managing_pro",
         "children": [
           {
-            "title": "Activating your Pro trial",
-            "href":"/docs/v6/pro/managing_pro/activating_trial",
-            "external": false
-          },
-          {
             "title": "Purchasing Postman Pro",
             "href":"/docs/v6/pro/managing_pro/purchasing_pro",
-            "external": false
-          },
-          {
-            "title": "Upgrading to Postman Pro from a trial",
-            "href":"/docs/v6/pro/managing_pro/upgrading_to_postman_pro_from_a_trial_team",
             "external": false
           },
           {

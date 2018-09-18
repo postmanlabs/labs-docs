@@ -16,16 +16,15 @@ In the header toolbar of the Postman app, click the wrench icon and select "Sett
 Postman tries to minimize the number of settings you have to change, so we established some defaults. However, given the diversity of use cases, if you need to make adjustments, here's how:
 
    *   **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
-   *   **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request. Read more about [managing client certificates](/docs/postman/sending_api_requests/certificates).
-   *   **Always open requests in new tab** Set this option enabled to open requests in a new tab.
+   *   **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request. 
    *   **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
-   *   **Request Timeout in ms (0 for infinity):** Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
-   *   **Automatically persist variable values** Enable this to override the initial values with current values after every request.  
-   *   **Editor Font Size:** Adjust the font size in pixels for the text that appears in Postman.
+   *   **Request Timeout in ms (0 for infinity):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
+   *   **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"} 
+   *   **Editor Font Size:** Adjust the font size in pixels for the text that appears in Postman. Note that this setting impacts only the *Test Scripts, Pre-request Scripts, and Response Pretty View*
    *   **Two-pane view**: Toggle between showing the response below, or beside, the request.
    *   **Variable autocomplete** Enable this to turn on autocomplete feature for your variables. 
    *   **Send no-cache header** (recommended): Sending a no-cache header makes sure you get the freshest response from your server.
-   *   **Send Postman Token header:** This is primarily used to bypass a bug in Chrome. If an XmlHttpRequest is pending and another request is sent with the same parameters then Chrome returns the same response for both of them. Sending a random token avoids this issue. This can also help you distinguish between request on the server side. 
+   *   **Send Postman Token header:** This is primarily used to bypass a bug in Chrome. If an XmlHttpRequest is pending and. another request is sent with the same parameters then Chrome returns the same response for both of them. Sending a random token avoids this issue. This can also help you distinguish between request on the server side. 
    *   **Retain headers when clicking on links:** If you click on a link in a response, Postman creates a new GET request with that URL. If you want to retain the headers that you set in the previous request set "ON" here. This is useful if you are accessing mainly protected resources.
    *   **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected. 
    *   **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
@@ -52,11 +51,15 @@ Download Newman, Postman's command line companion, to integrate Postman collect
 
 ### Sync
 
-If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app (and not just locally). You can force re-sync or disable it under **Settings**. Learn more about [syncing](/docs/postman/launching_postman/syncing).
+If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app (and not just locally). You can also manually perform sync using the Sync icon in the header toolbar of Postman app. Learn more about [syncing](/docs/postman/launching_postman/syncing).
 
 ### Certificates
 
 Add and view client certificates on a per domain basis. Learn more about [setting certificates](/docs/postman/sending_api_requests/certificates).
+
+### Proxy
+
+Configure your proxy settings in the Postman app using this tab. For more information on Proxy, see [How to configure proxy in Postman](/docs/v6/postman/sending_api_requests/proxy)
 
 ### Update
 
@@ -65,3 +68,4 @@ Postman's native apps will notify you whenever a version update is available.  
 ### About
 
 This is where you can verify your current version of the Postman app. There are also some helpful support links to reference.
+ 
