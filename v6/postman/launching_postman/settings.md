@@ -17,7 +17,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
 
    *   **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
    *   **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request. 
-   **Always open requests in new tab** Set this option enabled to open requests in a new tab.
+   * **Always open requests in new tab** Set this option enabled to open requests in a new tab.
    *   **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
    *   **Request Timeout in ms (0 for infinity):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
    *   **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"} 
