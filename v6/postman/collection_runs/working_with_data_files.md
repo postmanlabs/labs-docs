@@ -25,7 +25,7 @@ Before we begin, download the following collection and data files we'll use in t
 
 To import the collection files in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample files to upload. You can only import collection and environment files. We'll use data files like .JSON and .CSV for analysis. 
 
-**Note:** You cannot import data files; you can only select them at the start of a [collection run](/docs/v6/api_testing_and_collection_runner/running_collections){:target="_blank"}. 
+**Note:** You cannot import data files; you can only select them at the start of a collection run.
 
 [![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
 
