@@ -20,11 +20,12 @@ From the **Publish Collection** page, you can select a [corresponding environmen
 
 [![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-publish-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-publish-collection.png)
 
-Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page. 
+Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page.
 
 [![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains.png)
 
-To share your API documentation with your users and the rest of the Postman community, check the box to allow others to discover your API through the [Postman API Network](/docs/v6/postman/launching_postman/newbutton#API-Network).
+
+To share your API documentation with your users and the rest of the Postman community, select 'Add to API Network' radio button to allow others to discover your API through the [Postman API Network](/docs/v6/postman/launching_postman/newbutton#API-Network). To make your APIs part of the Postman [Templates](/docs/v6/postman/launching_postman/newbutton#templates), select the radio button 'Add to Postman Templates'.  
 
 [![api network checkbox](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-checkbox.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-checkbox.png)
 
