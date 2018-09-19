@@ -36,8 +36,8 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
       [Desktop Entry]<br>
       Encoding=UTF-8<br>
       Name=Postman<br>
-      Exec=postman<br>
-      Icon=/&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png<br>
+      Exec=&lt;Your_Install_Dir&gt;/Postman/app/Postman<br>
+      Icon=&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png<br>
       Terminal=false<br>
       Type=Application<br>
       Categories=Development;<br>
