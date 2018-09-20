@@ -21,7 +21,7 @@ Click on a request in this tab to load the exact request configuration in the bu
 
 ##### **Find requests**
 
-The requests are ordered by time, with the most recent requests displayed at the top. Postman avoids duplicating GET requests with the same URL in the history. If your request history becomes large, filter requests in the sidebar using the search input field. Postman matches the request URL in your history with the search term.
+The requests are ordered by time, with the most recent requests displayed at the top. If your request history becomes large, filter requests in the sidebar using the search input field. Postman matches the request URL in your history with the search term.
 
 ##### **Multi-selecting requests**
 
