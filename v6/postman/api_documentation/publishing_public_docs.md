@@ -29,11 +29,23 @@ To share your API documentation with your users and the rest of the Postman comm
 
 [![api network checkbox](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-checkbox.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-checkbox.png)
 
+#### Add to API Network
+
 Verify your team name, logo, and description. Select the categories that best describe your APIs and service. Once submitted, the Postman team will review the submission for approval, and then your API will be accessible to millions of developers worldwide.
 
 [![api network categories](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-categories.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-categories.png)
 
-Postman allows you to customize the appearance of your published documentation pages. Add your [team logo](/docs/postman/api_documentation/adding_team_name_and_logo) and update the color theme to align with your brand. 
+#### Add to Postman Templates
+
+You can share your collection with the API community by selecting the radio button 'Add to Postman Templates'. The template name is auto populated from your collection name, as illustrated in the below screen. You can input template description, add categories and click 'Publish Collection'.  
+
+[![add to templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add+To+Postman+Templates.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add+To+Postman+Templates.png)
+
+Postman allows you to customize the appearance of your published documentation pages. Add your [team logo](/docs/postman/api_documentation/adding_team_name_and_logo) and update the color theme to align with your brand.
+
+
+
+#### Custom Styling
 
 You can update the custom styling options either before or after you publish your documentation. Click the **Show Custom Styling Options** link to expand the section and update your color palette.
 
