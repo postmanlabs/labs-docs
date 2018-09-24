@@ -28,7 +28,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 ##### **Linux installation**
 
-   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. 
+   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. You need to perform this as an extra step to link the app to the executable. 
 
    To create a desktop file, follow as illustrated below:
 
@@ -36,8 +36,8 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
       [Desktop Entry]<br>
       Encoding=UTF-8<br>
       Name=Postman<br>
-      Exec=postman<br>
-      Icon=/&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png<br>
+      Exec=&lt;Your_Install_Dir&gt;/Postman/app/Postman<br>
+      Icon=&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png<br>
       Terminal=false<br>
       Type=Application<br>
       Categories=Development;<br>
