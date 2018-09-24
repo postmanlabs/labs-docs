@@ -67,11 +67,11 @@ Collections deleted can be recovered via your [web dashboard](https://app.getpos
 
 **Note:** Postman offers different recovery plans for Free, Pro and Enterprise users. 
 
-* If you have a Postman Free license, you can recover your one-day old collections. 
+* Users on Postman Free license can recover one-day old collections. 
 
-* If you have a Postman Pro license you get 15 days to recover your collections. 
+* Users on Postman Pro license can recover collections up to 15-days. 
 
-* If you have a Postman Enterprise license, you will get 30 days to recover your collections. 
+* Users on Postman Enterprise license can recover collections up to 30-days. 
 
 If your collection seems deleted and you are not able to recover from your deleted collections list, it is possible it is removed from a workspace rather than deleted. To check, navigate back to the main page of the web dashboard, then click `View all collections`. If listed, you can click on its share icon to move it back into a personal or shared workspace.
 
