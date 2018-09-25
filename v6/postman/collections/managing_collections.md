@@ -57,9 +57,7 @@ If you have a lot of collections, filter collections in the sidebar using the se
 
 ### Delete a collection
 
-Click the ellipsis (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can click the **Undo** link in the notification that appears at the top of the Postman app. 
-
-[![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete-collections+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete-collections+copy.png)
+Click the ellipsis (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can always recover your deleted collections. Refer to the next section **Recover a collection** to learn how to retrieve your deleted collections. 
 
 ### Recover a collection
 
