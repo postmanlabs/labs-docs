@@ -80,7 +80,7 @@ Under **BUILDING BLOCKS**, you  can create an [environment](/docs/postman/v6/env
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)
 
-If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit, download, or delete those environments. 
+If you've created other environments, the **MANAGE ENVIRONMENTS** screen appears again and displays them. You can share, edit, download, or delete those environments. 
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environments-secondWindow2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environments-secondWindow2.png)
 
