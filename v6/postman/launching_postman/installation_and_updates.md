@@ -103,7 +103,7 @@ The native apps come with a built-in proxy that you can use to [capture network
 
 ##### **Menu bar**
 
-The native apps are not restricted by the Chrome standards for the menu bar. With the native apps, you can create collections, switch to history requests, and more.
+The native apps are not restricted by the Chrome standards for the menu bar. With the native apps, you can check for updates, create Postman Windows and tabs, edit preferences, and can perform many other tasks. 
 
 ##### **Restricted headers**
 
