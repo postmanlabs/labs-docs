@@ -25,13 +25,13 @@ In a nutshell, variables enable you to:
 * Configure your setup to accommodate the environment of differnet users.
 * Extract data from responses and chain requests in a collection.
 
-To learn how to use variables in Postman, see [Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}.
+To learn how to use variables in Postman, see [Variables](/docs/v6/postman/environments_and_globals/variables).
 
 Now that we know how varibles work in Postman, let's discuss environments and globals.
 
 **Environments**
 
-An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman#data-editor){:target="_blank"} to modify an environment.
+An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman#data-editor) to modify an environment.
 
 While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables so you can easily switch between different setups without changing your requests.
 
@@ -41,7 +41,7 @@ You can create, share, duplicate, export, and delete an environment. You can als
 
 **Note**: Environment and global variables are always stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
-To learn how to manage environments for tasks such as creating or sharing an environment, see [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments){:target="_blank"}.
+To learn how to manage environments for tasks such as creating or sharing an environment, see [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments).
 
 **Globals**
 
@@ -49,16 +49,16 @@ Global variables provide a set of variables that are always available to you in 
 
 **Note**: Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
-To learn how to manage and view global variables, see [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}.
+To learn how to manage and view global variables, see [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals).
 
 <br>
 <br>
 
 For more information about environments and globals, see:
 
-* [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments){:target="_blank"}
-* [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}
-* [Variables](/docs/v6/postman/environments_and_globals/variables){:target="_blank"}
+* [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments)
+* [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals)
+* [Variables](/docs/v6/postman/environments_and_globals/variables)
 
 
 

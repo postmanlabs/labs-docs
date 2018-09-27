@@ -4,7 +4,7 @@ page_id: "publishing_public_docs"
 warning: false
 ---
 
-Published documentation enables you to share your [public API documentation](/docs/postman_for_publishers/public_api_docs){:target="_blank"} with the world. 
+Published documentation enables you to share your [public API documentation](/docs/postman_for_publishers/public_api_docs) with the world. 
 
 ### Generating public documentation
 
@@ -53,7 +53,7 @@ You can update the custom styling options either before or after you publish you
 
 ---
 
-Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2){:target="_blank"} of a collection we've published.
+Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2) of a collection we've published.
 
 > **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 

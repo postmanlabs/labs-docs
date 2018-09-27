@@ -24,7 +24,7 @@ Now that the mock service has all the saved examples for the current collection,
 
 The incoming request can have several configurable variables, such as `requestMethod` and `mockPath`. The `requestMethod` variable corresponds to any valid HTTP request method (e.g. `GET`, `POST`,`PUT`, `PATCH`, `DELETE`, etc.), and the `mockPath` refers to any valid string path (e.g. `/`, `/test`, `/test/path`, `/test/path/1`).
 
-Other optional headers like `x-mock-response-name` or `x-mock-response-id` allow you to further specify the example to be returned by the name or by the uid of the saved example respectively. You can get the example response uid by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c){:target="_blank"} and searching for your example in the response. The uid has the syntax `<user_id>-<response_id>`.
+Other optional headers like `x-mock-response-name` or `x-mock-response-id` allow you to further specify the example to be returned by the name or by the uid of the saved example respectively. You can get the example response uid by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c) and searching for your example in the response. The uid has the syntax `<user_id>-<response_id>`.
 
 [![mock configurable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock_configurable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock_configurable.png)
 

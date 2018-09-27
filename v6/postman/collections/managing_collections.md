@@ -33,7 +33,7 @@ Expand the arrow (&#9656;) to show the details view for the collection. Collaps
 
 ### Create a new collection
 
-Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/v6/postman/collections/creating_collections){:target="_blank"}.
+Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/v6/postman/collections/creating_collections).
 
 [![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-collection-sidebar.png)
 
@@ -61,7 +61,7 @@ Click the ellipsis (...)next to a collection, and select "Delete". If you didn't
 
 ### Recover a collection
 
-Collections deleted can be recovered via your [web dashboard](https://app.getpostman.com/){:target="_blank"} by clicking your avatar icon in the upper-right corner, then selecting `Trash` from the drop-down menu. Locate the desired collection, hover your cursor over its row, then click `Restore`. 
+Collections deleted can be recovered via your [web dashboard](https://app.getpostman.com/) by clicking your avatar icon in the upper-right corner, then selecting `Trash` from the drop-down menu. Locate the desired collection, hover your cursor over its row, then click `Restore`. 
 
 **Note:** Postman offers different recovery plans for Free, Pro and Enterprise users. 
 
@@ -73,11 +73,11 @@ Collections deleted can be recovered via your [web dashboard](https://app.getpos
 
 If your collection seems deleted and you are not able to recover from your deleted collections list, it is possible it is removed from a workspace rather than deleted. To check, navigate back to the main page of the web dashboard, then click `View all collections`. If listed, you can click on its share icon to move it back into a personal or shared workspace.
 
-If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/docs/v6/postman/team_library/activity_feed_and_restoring_collections){:target="_blank"}.
+If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/docs/v6/postman/team_library/activity_feed_and_restoring_collections).
 
 ### Share a collection
 
-To share a collection, see [sharing collections](/docs/v6/postman/collections/sharing_collections){:target="_blank"}.
+To share a collection, see [sharing collections](/docs/v6/postman/collections/sharing_collections).
 
 ### Other collection features
 
@@ -87,15 +87,15 @@ Within a collection or folder, you can reorder requests using drag and drop. You
 
 #### Save responses 
 
-Requests can also store [sample responses](/docs/v6/postman/sending_api_requests/responses){:target="_blank"} when saved in a collection.
+Requests can also store [sample responses](/docs/v6/postman/sending_api_requests/responses) when saved in a collection.
 
 #### Use examples
 
-With [examples](/docs/v6/postman/collections/examples), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/v6/postman/mock_servers){:target="_blank"}. 
+With [examples](/docs/v6/postman/collections/examples), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/v6/postman/mock_servers). 
 
 #### Add scripts
 
-Requests stored inside a collection can contain [scripts](/docs/v6/postman/scripts/intro_to_scripts){:target="_blank"} to add dynamic behavior to the collection.
+Requests stored inside a collection can contain [scripts](/docs/v6/postman/scripts/intro_to_scripts) to add dynamic behavior to the collection.
 
 ### Adding folders
 
