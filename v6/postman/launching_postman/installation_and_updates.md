@@ -28,11 +28,10 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 ##### **Linux installation**
 
-   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. You need to perform this as an extra step to link the app to the executable. 
+   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. You need to perform this as an extra step to link the app to the executable. Create the ```postman.desktop``` file in the following location:
+    <pre><code>cat  > ~/.local/share/applications/postman.desktop</code></pre> with the content below:
 
-   To create a desktop file, follow as illustrated below:
-
-   1. <pre><code>cat  > ~/.local/share/applications/postman.desktop
+     <pre><code>
       [Desktop Entry]<br>
       Encoding=UTF-8<br>
       Name=Postman<br>
@@ -42,12 +41,18 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
       Type=Application<br>
       Categories=Development;<br>
       </code></pre>
+    
+   Once the Desktop.file is created, the Postman app can be opened using application launchers.
+
 
    2. Check your desktop and double-click the Postman icon
 
-   **Note:** Ensure you specify the icon path as illustrated above. Postman introduced another folder 'app', one level up to the resources folder which did not exist earlier. 
+   **Note:** 
+   1. Avoid starting postman using sudo command, this will mess up the permissions on the files created by postman.
 
-   If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman run. Use the following command to install ```libgconf-2-4```:
+   2. Make sure you have read/write permission for ~/.config folder where Postman stores the information
+
+   3. If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman run. Use the following command to install ```libgconf-2-4```:
 
    * ```apt-get install libgconf-2-4```
   
