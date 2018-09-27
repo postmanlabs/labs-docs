@@ -21,19 +21,21 @@ The **New** button also provides access to [templates](#templates) and the [API_
 
 When you click the **New** button, the **Create New** tab appears as the default view. 
 
-In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the Templates and API Network sections below.
+In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [Templates and API Network sections](/docs/v6/postman/launching_postman/newbutton#templates).
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)
 
 ### Create New  
+
+You can create a new *Request, Collection, Environment, API Documentation, Mock Server, and Monitor* using the **New** button. Alternatively, you can also directly create these when you click the down arrow at the right side of the **New** button, as illustrated below:
+
+[![new_button2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/CreateNew_DropDown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/CreateNew_DropDown.png)
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
 In **ADVANCED**, create new documentation, a mock server, or a monitor.
 
 At the bottom of this window, you can select “Show this window at launch” to indicate whether you want the **Create New** tab to display each time you open Postman.
-
-You can also directly create a new feature when you click the down arrow at the right side of the **New** button.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)
 
@@ -76,9 +78,9 @@ Under **BUILDING BLOCKS**, you  can create an [environment](/docs/postman/v6/env
 1. In the **MANAGE ENVIRONMENTS** modal, add the variables you want to save as key-value pairs.
 1. Click the **Add** button.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments-newButton.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments-newButton.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)
 
-If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit, download, or delete those environments. 
+If you've created other environments, the **MANAGE ENVIRONMENTS** screen appears again and displays them. You can share, edit, download, or delete those environments. 
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environments-secondWindow2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environments-secondWindow2.png)
 
