@@ -28,33 +28,35 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 ##### **Linux installation**
 
-   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. You need to perform this as an extra step to link the app to the executable. Create the ```postman.desktop``` file in the following location:
-    <pre><code>cat  > ~/.local/share/applications/postman.desktop</code></pre> with the content below:
+   Installation on Linux can vary between distributions. For installation on Linux, perform the following steps:
+   
+   1. First download and unzip the file 
+   
+   2. And then create a desktop file by name postman.desktop. You need to perform this as an extra step to link the app to the executable. Create the ```postman.desktop``` file in the following location:<br/>
 
-     <pre><code>
-      [Desktop Entry]<br>
-      Encoding=UTF-8<br>
-      Name=Postman<br>
-      Exec=&lt;Your_Install_Dir&gt;/Postman/app/Postman<br>
-      Icon=&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png<br>
-      Terminal=false<br>
-      Type=Application<br>
-      Categories=Development;<br>
-      </code></pre>
+      ``` ~/.local/share/applications/postman.desktop```
     
-   Once the Desktop.file is created, the Postman app can be opened using application launchers.
+  Use the content below in the above file:
 
-
-   2. Check your desktop and double-click the Postman icon
+    [Desktop Entry]
+    Encoding=UTF-8
+    Name=Postman
+    Exec=&lt;Your_Install_Dir&gt;/Postman/app/Postman
+    Icon=&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png
+    Terminal=false
+    Type=Application
+    Categories=Development;
+     
+   Once the Desktop.file is created, the Postman app can be opened using application launchers. You can check your desktop and double-click the Postman icon.
 
    **Note:** 
-   1. Avoid starting postman using sudo command, this will mess up the permissions on the files created by postman.
+   1. Avoid starting postman using ```sudo``` command, this will mess up the permissions on the files created by postman.
 
-   2. Make sure you have read/write permission for ~/.config folder where Postman stores the information
+   2. Make sure you have read/write permission for ```~/.config``` folder where Postman stores the information
 
    3. If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman run. Use the following command to install ```libgconf-2-4```:
 
-   * ```apt-get install libgconf-2-4```
+    apt-get install libgconf-2-4
   
 ### Supported Platforms
 
