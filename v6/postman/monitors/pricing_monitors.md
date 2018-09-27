@@ -33,7 +33,7 @@ Buying pre-purchased blocks is more cost-effective and allows for a more predict
 
 ### Request blocks for Pro and Enterprise teams
 
-On the [billing page](https://app.getpostman.com/pay/billing){:target="_blank"}, paid teams can configure "blocks" of requests to save on monitoring charges. Each request block gives you 50,000 requests at $20, and is auto-renewed each month. If you set up monitoring blocks before sending your first monitoring request, your monitoring billing cycle will start from the day you set up the blocks. You may increase or decrease your block count at any time during the billing cycle, but the cost of extra blocks will not be prorated.
+On the [billing page](https://app.getpostman.com/pay/billing), paid teams can configure "blocks" of requests to save on monitoring charges. Each request block gives you 50,000 requests at $20, and is auto-renewed each month. If you set up monitoring blocks before sending your first monitoring request, your monitoring billing cycle will start from the day you set up the blocks. You may increase or decrease your block count at any time during the billing cycle, but the cost of extra blocks will not be prorated.
 
 At the end of each billing cycle, you'll be charged $20 for each block configured, plus $0.75 per 1000 requests made over your block limit.
 

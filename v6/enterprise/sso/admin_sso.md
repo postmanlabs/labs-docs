@@ -10,7 +10,7 @@ warning: false
 
 Only an Enterprise team administrator (admin) can configure single sign-on (SSO) for a Postman team.
 
-Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} for an enterprise plan. The Team Settings screen appears as below:
+Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit) for an enterprise plan. The Team Settings screen appears as below:
 
 [![sso enable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)
 
@@ -26,7 +26,7 @@ In the **ADD AUTHENTICATION METHOD** modal, select the authentication type. Ente
 
 In the "Service Provider Details (Postman)", enter the ID for the Entity, and the URLs for the Login and ACS.
  
-In "Identity Provider Details", enter URLs in "Identity Provider Details" and "Identity Provider Issuer". Next provide your authentication certficate from your identity provider in "X.509 Certficate".
+In "Identity Provider Details", enter URLs in "Identity Provider Details" and "Identity Provider Issuer". Next provide your authentication certificate from your identity provider in "X.509 Certificate".
 
 Click the **Generate relay state** button to create a parameter to send with a SAML response in an IdP-initiated single sign-on. 
 

@@ -7,7 +7,7 @@ warning: false
 
 ---
 
-Postman's web [dashboard](https://app.getpostman.com/dashboard/teams){:target="_blank"} provides a number of ways to manage your team.
+Postman's web [dashboard](https://app.getpostman.com/dashboard/teams) provides a number of ways to manage your team.
 
 ### Member roles 
 
@@ -29,7 +29,7 @@ By default, members who set up the team for themselves will be granted all three
 
 ### Managing roles
 
-An admin can modify the roles of other team members in the [Team page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}. 
+An admin can modify the roles of other team members in the [Team page]({{site.pm.gs}}/dashboard/teams). 
 	
   [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)
 	
@@ -48,7 +48,7 @@ Keep in mind a few restrictions:
 An invite is an invitation you send to people you want to add to a team. Only admins can manage invites.
 
 #### Inviting members to a team in Dashboard
-In the [Team page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, click the **Invite Users** button. 
+In the [Team page]({{site.pm.gs}}/dashboard/teams), click the **Invite Users** button. 
 
 Enter the email address of the user you want to invite, and click the **Invite Users** to complete the process.
 
@@ -75,4 +75,4 @@ To revoke an invitation, click the "X" link next to each invitation. You can see
 
 ### Changing team size
 
-If you have no more paid slots and need to invite more users, see [Changing your plan](/docs/v6/pro/managing_pro/changing_your_plan){:target="_blank"}.
+If you have no more paid slots and need to invite more users, see [Changing your plan](/docs/v6/pro/managing_pro/changing_your_plan).

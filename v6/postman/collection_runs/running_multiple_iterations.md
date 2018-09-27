@@ -43,20 +43,20 @@ The numbers in the header represent the current iteration. Now its easy to pinpo
 
 Iterations in the collection runner are 1-indexed with the first iteration beginning with a count of 1. 
 
-Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](/docs/v6/postman/scripts/postman_sandbox_api_reference){:target="_blank"}, which is 0-indexed with the first iteration beginning with a count of zero.
+Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](/docs/v6/postman/scripts/postman_sandbox_api_reference), which is 0-indexed with the first iteration beginning with a count of zero.
 <br>
 <br>
 
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
-* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
-* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
-* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}
-* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}
-* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis){:target="_blank"}
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker){:target="_blank"}
+* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
+* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
+* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
+* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
+* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
+* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
+* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
 

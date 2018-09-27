@@ -20,11 +20,11 @@ You can create a mock in several ways:
 
 * **New** button
 * Launch screen
-* [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"}
-* [Postman API](/docs/v6/postman/mock_servers/mock_with_api){:target="_blank"}
+* [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples)
+* [Postman API](/docs/v6/postman/mock_servers/mock_with_api)
  
 
-**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"} or the [Postman API](/docs/v6/postman/mock_servers/mock_with_api){:target="_blank"}, click its link for detailed information.
+**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples) or the [Postman API](/docs/v6/postman/mock_servers/mock_with_api), click its link for detailed information.
 
 #### New button
 
@@ -52,7 +52,7 @@ In the Configure mock server tab, you must:
 * Select an environment (optional).
 * Indicate if you want to make this mock server private
 
-**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits]({{site.pm.gs}}/dashboard/usage){:target="_blank"}.
+**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits]({{site.pm.gs}}/dashboard/usage).
      
  [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-p2.png) 
      
@@ -77,11 +77,11 @@ Follow the steps in the previous **New** button section.
 
 ### Using HTTP access control for a mock
 
-In addition to using the [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"} to make requests to mock endpoints, you also can make those requests in a browser.
+In addition to using the [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples) to make requests to mock endpoints, you also can make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own.  
 
-[Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS){:target="_blank"} is a standard that defines a way in which a browser and server can interact securely. In this case, we are referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
+[Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) is a standard that defines a way in which a browser and server can interact securely. In this case, we are referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
 
 CORS is enabled for Postman mock servers. As a result, you can stub your web apps with mocked data using the mock endpoints. So development or production web apps can make requests to the Postman mock endpoint you just created and receive an example response.
 
@@ -89,11 +89,11 @@ CORS is enabled for Postman mock servers. As a result, you can stub your web app
 
 Your Postman account gives you a limited number of free mock server calls per month. 
 
-You can check your usage limits in the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or in the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
+You can check your usage limits in the [Postman API](https://docs.api.getpostman.com) or in the [account usage page](https://go.pstmn.io/postman-account-limits).
 
 For more information about mock servers, see:
 
-* [Intro to mock servers](/docs/v6/postman/mock_servers/intro_to_mock_servers){:target="_blank"}
-* [Mocking with examples](/docs/v6/postman/mock_servers/mocking_with_examples){:target="_blank"}
-* [Mocking with the Postman API](/docs/v6/postman/mock_servers/mock_with_api){:target="_blank"}
-* [Matching algorithm (for mocks)](/docs/v6/postman/mock_servers/matching_algorithm){:target="_blank"}
+* [Intro to mock servers](/docs/v6/postman/mock_servers/intro_to_mock_servers)
+* [Mocking with examples](/docs/v6/postman/mock_servers/mocking_with_examples)
+* [Mocking with the Postman API](/docs/v6/postman/mock_servers/mock_with_api)
+* [Matching algorithm (for mocks)](/docs/v6/postman/mock_servers/matching_algorithm)

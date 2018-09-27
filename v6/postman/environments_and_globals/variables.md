@@ -35,7 +35,7 @@ You can view different kinds of buckets in which values reside. If a variable is
 
 [![nested variable scopes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Pic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/scopes.png)
 
-If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/){:target="_blank"} (only available in the [collection runner](/docs/v6/postman/collection_runs/starting_a_collection_run)).
+If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) (only available in the [collection runner](/docs/v6/postman/collection_runs/starting_a_collection_run)).
 
 ### Accessing variables in the request builder
 
@@ -58,7 +58,7 @@ You can assign a current value when running your collection or a simple request 
   2.  Fetching a pre-defined variable: 
         *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
         
-        **Note**: When you specify a .get() method it always obtains the current value while .set() method modifies the current value. The way these variables work depends much on a setting in Postman [Automatically persist variable values](/docs/v6/postman/launching_postman/settings){:target="_blank"}
+        **Note**: When you specify a .get() method it always obtains the current value while .set() method modifies the current value. The way these variables work depends much on a setting in Postman [Automatically persist variable values](/docs/v6/postman/launching_postman/settings)
         
   3.  Setting a variable in a scope: 
         *  Environment variables can be accessed with the corresponding environments. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
