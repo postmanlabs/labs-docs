@@ -97,14 +97,14 @@ Click Comments to bring up the 'Add comment' dialog, as illustrated above. Write
 
 #### The Browse View
 
-In the Browse view, point your cursor to the collection name and click the collection to go to the comments section and follow the same procedure as described above to post comments:
+In the Browse view, point your cursor to the collection name and click the collection to go to the comments section. Follow the same procedure as described above to post your comments:
 
 [![Comments BrowseView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)
 
 
 #### The Dashboard View
 
-Point your cursor to any workspace to go to the Dashboard  view and click a collection available there to go to the comments section and follow the same procedure as described above to post your comments:
+Point your cursor to any workspace view and click a collection available there to go to the comments section. Follow the same procedure as described above to post your comments:
 
 [![Comments BuildView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Dashboard_View1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Dashboard_View1.png)
 
