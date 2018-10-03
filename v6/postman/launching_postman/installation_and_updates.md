@@ -32,7 +32,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
    
    1. First download and unzip the file 
    
-   2. And then create a desktop file by name postman.desktop. You need to perform this as an extra step to link the app to the executable. Create the ```postman.desktop``` file in the following location:<br/>
+   2. And then create a desktop file by name postman.desktop. Create the ```postman.desktop``` file in the following location:<br/>
 
       ``` ~/.local/share/applications/postman.desktop```
     
