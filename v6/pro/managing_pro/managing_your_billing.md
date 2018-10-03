@@ -6,16 +6,21 @@ tags:
 warning: false
 ---
 
-You can manage your billing from the [Billing Overview]({{site.pm.gs}}/pay/billing){:target="_blank"} page. 
+You can manage your billing from the [Billing Overview]({{site.pm.gs}}/pay/billing) page. 
 
 [![manage billing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-billing-overview-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-billing-overview-page.png)
 
 
 This section outlines how to set the monitoring block count, view your account history, and how to add your payment information. 
 
+
 * [Set the monitoring block count](#set)
 * [Manage your invoices](#invoices)
 * [Payment Methods](#payment)
+
+
+In this topic, we discuss how to set the monitoring block count, view your account history, and how to add your payment information.
+
 
 <h3 id="set">Setting the monitoring block count</h3>
 

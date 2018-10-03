@@ -5,9 +5,9 @@ warning: false
 
 ---
 
-Postman enables you to share Collections in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
+Postman enables you to share Collections in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard). 
 
-**Note**: Before you can upload or share a collection, you must sign in to your [Postman account](/docs/v6/postman/launching_postman/postman_account){:target="_blank"}. However, you can share collections as a file without being signed in.
+**Note**: Before you can upload or share a collection, you must sign in to your [Postman account](/docs/v6/postman/launching_postman/postman_account). However, you can share collections as a file without being signed in.
 
 This topic covers:
 * [Sharing collections in the app](#sharing-collections-in-the-app)
@@ -38,13 +38,13 @@ Select this option to add a collection to another workspace. If added to a team 
 The collection's creator can set team default permissions to either view only or edit. They are also able to grant existing team members individual user permissions.
 [![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)
 
-In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a collection and then click the **Share** button. The collection is visible in your target workspace. 
+In the [workspaces dashboard](https://app.getpostman.com/dashboard), select a collection and then click the **Share** button. The collection is visible in your target workspace. 
 
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)
 
 **Sharing collections with the Embed or Run In Postman button**
 
-Select this option to embed a **[Run in Postman](/docs/v6/postman_for_publishers/run_button/creating_run_button){:target="_blank"}** button in your collection for your API documentation, website, or Github readme. 
+Select this option to embed a **[Run in Postman](/docs/v6/postman_for_publishers/run_button/creating_run_button)** button in your collection for your API documentation, website, or Github readme. 
 
 The **Run in Postman** button lets anyone import and run this collection with one click. 
 
@@ -56,7 +56,7 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 
 **Sharing collections with a link**
 
-Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
+Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [workspaces dashboard](https://app.getpostman.com/dashboard).
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
@@ -68,7 +68,7 @@ Click the **Share** button.
 
 ### Sharing collections in the Dashboard
 
-In the [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select "Browse", and then select a collection. 
+In the [workspaces dashboard](https://app.getpostman.com/dashboard), select "Browse", and then select a collection. 
 
 Click the **Share** button.
 
@@ -78,7 +78,7 @@ You can download collections as a JSON file to share with others, with or withou
 
 You can share collections anonymously, but we strongly recommend you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
 
-Learn more about [exporting and importing collections](/docs/v6/postman/collections/data_formats){:target="_blank"}, and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}.
+Learn more about [exporting and importing collections](/docs/v6/postman/collections/data_formats), and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
 
 ### Modifying team permissions
 

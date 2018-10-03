@@ -19,7 +19,7 @@ To [access the private view](/docs/v6/postman/api_documentation/viewing_documen
 
 **Postman web**
 
-To access the private view of your team documentation, go to your [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
+To access the private view of your team documentation, go to your [workspaces dashboard](https://app.getpostman.com/dashboard). 
 
 Click the "View all collections" link. 
 
@@ -52,7 +52,7 @@ Documentation for your API includes:
 
 Postman uses ordered requests and folders to organize documentation in sections to reflect the structure of your collection.
 
-You can customize descriptions using [Markdown](/docs/v6/postman/api_documentation/how_to_document_using_markdown){:target="_blank"} styling with embedded graphics to complement your documentation. 
+You can customize descriptions using [Markdown](/docs/v6/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation. 
 
 We support GitHub flavored markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
 
@@ -75,4 +75,4 @@ The links are generated using IDs for the requests, folders and responses. If yo
 
 ### Free documentation views with your Postman account
  
-Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
+Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or the [account usage page](https://go.pstmn.io/postman-account-limits).

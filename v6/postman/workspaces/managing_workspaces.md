@@ -10,11 +10,11 @@ In the Postman app, click the workspace that displays in the header bar.
 
 [![all workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-all-workspaces.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-all-workspaces.png)
 
-Click "All workspaces" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} in your web browser.
+Click "All workspaces" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard) in your web browser.
 
 ### Managing personal workspaces
 
-From the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} under the **Personal** tab, click the **Add to workspace** button to [add collections or environments from another workspace](/docs/postman/workspaces/using_workspaces) to the selected workspace. You can also perform this action in the team workspace view.
+From the [Workspaces dashboard](https://app.getpostman.com/dashboard) under the **Personal** tab, click the **Add to workspace** button to [add collections or environments from another workspace](/docs/postman/workspaces/using_workspaces) to the selected workspace. You can also perform this action in the team workspace view.
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
@@ -30,7 +30,7 @@ You can also click the **Create a new workspace** button to [create a new person
 
 ### Managing team workspaces
 
-From the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, you can manage your team workspaces under the **Team** tab.
+From the [Workspaces dashboard](https://app.getpostman.com/dashboard), you can manage your team workspaces under the **Team** tab.
 
 [![team workspaces dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/dashboard-team-dropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/dashboard-team-dropdown.png)
 

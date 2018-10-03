@@ -10,7 +10,7 @@ warning: false
 
 Postman is available as a native app for macOS, Windows, and Linux operating systems.
 
-To install Postman, go to the [apps page](https://www.getpostman.com/apps){:target="_blank"} and click **Download** for macOS / Windows / Linux depending on your platform.
+To install Postman, go to the [apps page](https://www.getpostman.com/apps) and click **Download** for macOS / Windows / Linux depending on your platform.
 
 ![Postman apps page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161734.png "Postman apps page")
 
@@ -28,7 +28,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 ##### **Linux installation**
 
-   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. 
+   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. You need to perform this as an extra step to link the app to the executable. 
 
    To create a desktop file, follow as illustrated below:
 
@@ -36,8 +36,8 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
       [Desktop Entry]<br>
       Encoding=UTF-8<br>
       Name=Postman<br>
-      Exec=postman<br>
-      Icon=/&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png<br>
+      Exec=&lt;Your_Install_Dir&gt;/Postman/app/Postman<br>
+      Icon=&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png<br>
       Terminal=false<br>
       Type=Application<br>
       Categories=Development;<br>
@@ -81,15 +81,15 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 We recommend using the Postman native apps, but Postman is also available as a Chrome app. Read more about [why support for the Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/03/14/going-native/).
 
-The Postman Chrome app can only run on the Chrome browser. To use the Postman Chrome app, you will first need to [install Google Chrome](http://www.google.com/chrome/){:target="_blank"}.
+The Postman Chrome app can only run on the Chrome browser. To use the Postman Chrome app, you will first need to [install Google Chrome](http://www.google.com/chrome/).
 
-If you already have Chrome installed, head over to [Postman’s page](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en){:target="_blank"} on the Chrome Web Store, and click ‘Add to Chrome’.
+If you already have Chrome installed, head over to [Postman’s page](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) on the Chrome Web Store, and click ‘Add to Chrome’.
 
 The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](/docs/v6/postman/launching_postman/installation_and_updates).
 
 ### Differences between Chrome and native apps
 
-Postman’s native apps are built on [Electron](http://electron.atom.io/){:target="_blank"}, and overcome a number of restrictions of the Chrome platform.
+Postman’s native apps are built on [Electron](http://electron.atom.io/), and overcome a number of restrictions of the Chrome platform.
 
 A few features exclusive to the native apps are listed here:
 
@@ -103,7 +103,7 @@ The native apps come with a built-in proxy that you can use to [capture network
 
 ##### **Menu bar**
 
-The native apps are not restricted by the Chrome standards for the menu bar. With the native apps, you can create collections, switch to history requests, and more.
+The native apps are not restricted by the Chrome standards for the menu bar. With the native apps, you can check for updates, create Postman Windows and tabs, edit preferences, and can perform many other tasks. 
 
 ##### **Restricted headers**
 
@@ -119,7 +119,7 @@ The latest version of the native app also has a built-in [console](/docs/v6/pos
 
 ### **Migrating to the native app**
 
-It’s simple.  Sign in to your Postman account after you [download](https://www.getpostman.com/apps){:target="_blank"} and start the new native app, and all your history and collections will be automatically synced.
+It’s simple.  Sign in to your Postman account after you [download](https://www.getpostman.com/apps) and start the new native app, and all your history and collections will be automatically synced.
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app.
 
@@ -166,7 +166,7 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 
 Postman’s Chrome app is usually updated automatically. However, Postman doesn't control the Chrome app update flow, and Chrome sometimes doesn’t update the app for long periods of time.
 
-The latest version is visible on [Postman’s Web Store listing](https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en){:target="_blank"}.
+The latest version is visible on [Postman’s Web Store listing](https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
 
 To manually force an update, here’s what you need to do in Chrome:
 
