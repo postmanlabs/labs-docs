@@ -41,7 +41,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
     [Desktop Entry]
     Encoding=UTF-8
     Name=Postman
-    Exec=&lt;Your_Install_Dir&gt;/Postman/app/Postman
+    Exec=&lt;Your_Install_Dir&gt;/Postman/app/Postman %U
     Icon=&lt;Your_Install_Dir&gt;/Postman/app/resources/app/assets/icon.png
     Terminal=false
     Type=Application
@@ -54,7 +54,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
    2. Make sure you have read/write permission for ```~/.config``` folder where Postman stores the information
 
-   3. If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman run. Use the following command to install ```libgconf-2-4```:
+   3. If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman to run. Use the following command to install ```libgconf-2-4```:
 
     apt-get install libgconf-2-4
   
