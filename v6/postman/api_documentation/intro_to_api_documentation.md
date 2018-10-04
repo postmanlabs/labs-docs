@@ -77,7 +77,7 @@ The links are generated using IDs for the requests, folders and responses. If yo
 
 Commenting is a new function that will help you to collaborate more effectively by posting your comments. You can post comments on your API documentation to share valuable information with your colleagues. You can save interactions with your teammates, add information that does not fit anywhere else, and can have discussions and more.
 
-You can post comments on your documentation by navigating to the comments section:
+You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [Viewing Documentation]((/docs/v6/postman/api_documentation/viewing_documentation)):
 
 1. From the Build View
 2. From the Browse View
