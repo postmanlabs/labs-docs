@@ -32,7 +32,7 @@ You can also access the documentation section from the Browse View. In the Brows
 [![Comments BrowseView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)
 
 
-Alternatively, you can also point your cursor to any collection in your dashboard view and click it to go to the documentation section. A point to remember is clicking any collection will land you on the documentation section. 
+Alternatively, you can also point your cursor to any collection in your dashboard view and click it to go to the documentation section. A point to remember is clicking any collection from anywhere in Postman Dashboard will land you in the documentation section. 
 
 
 ### Viewing Public Documentation
