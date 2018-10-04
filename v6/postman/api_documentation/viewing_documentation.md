@@ -25,27 +25,14 @@ In this private web view, you’ll be able to see each request in the collection
 
 [![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-viewing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-viewing.png)
 
-Note that this private URL is only accessible to Postman users logged in with the appropriate permissions — anyone without access to the collection itself receives an error message upon attempting to view it.
+Note that this private URL is only accessible to Postman users logged in with the appropriate permissions — anyone without access to the collection itself receives an error message upon attempting to view it. To make this documentation available to others, you will need to publish it.
 
-To make this documentation available to others, you will need to publish it.
-
-You can also access the documentation section:
-
-1. From the Browse View
-2. From the Dashboard View
-
-#### The Browse View
-
-In the Browse view, point your cursor to the collection name and click any collection name to go to the documentation section:
+You can also access the documentation section from the Browse View. In the Browse view, point your cursor to the collection name and click any collection name to go to the documentation section:
 
 [![Comments BrowseView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)
 
 
-#### The Dashboard View
-
-Point your cursor to any workspace view and click a collection name available there to go to the comments section:
-
-[![Comments BuildView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Dashboard_View1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Dashboard_View1.png)
+Alternatively, you can also point your cursor to any collection in your dashboard view and click it to go to the documentation section. A point to remember is clicking any collection will land you on the documentation section. 
 
 
 ### Viewing Public Documentation

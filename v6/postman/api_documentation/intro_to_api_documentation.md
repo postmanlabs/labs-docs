@@ -73,13 +73,13 @@ The links are generated using IDs for the requests, folders and responses. If yo
 
 **Note:** you cannot link to arbitrary parts of the documentation by manually creating an ID.
 
-### Commenting on API Documentation 
+### Commenting on Private Documentation 
 
 Commenting is a new function that will help you to collaborate more effectively by posting your comments. You can post comments on your API documentation to share valuable information with your colleagues. You can save interactions with your teammates, add information that does not fit anywhere else, and can have discussions and more.
 
-You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](/docs/v6/postman/api_documentation/viewing_documentation):
+You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](/docs/v6/postman/api_documentation/viewing_documentation#viewing-private-documentation):
 
-The comments section appears, as shown below:
+Once you access the documentation section, the comments section appears, as shown below:
 
 [![Comments New](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_New1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_New1.png)
 
