@@ -28,7 +28,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 ##### **Linux installation**
 
-   Installation on Linux can vary between distributions. For installation on Linux, perform the following steps:
+  For installation on Linux, perform the following steps:
    
    1. First download and unzip the file 
    
