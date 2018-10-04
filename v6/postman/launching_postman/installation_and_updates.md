@@ -47,7 +47,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
     Type=Application
     Categories=Development;
      
-   Once the Postman.desktop.file is created, the Postman app can be opened using application launchers. You can check your desktop and double-click the Postman icon.
+   Once the Postman.desktop file is created, the Postman app can be opened using application launchers. You can check your desktop and double-click the Postman icon.
 
    **Note:** 
    1. Avoid starting postman using ```sudo``` command, this will mess up the permissions on the files created by postman.
