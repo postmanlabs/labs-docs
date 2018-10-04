@@ -77,36 +77,13 @@ The links are generated using IDs for the requests, folders and responses. If yo
 
 Commenting is a new function that will help you to collaborate more effectively by posting your comments. You can post comments on your API documentation to share valuable information with your colleagues. You can save interactions with your teammates, add information that does not fit anywhere else, and can have discussions and more.
 
-You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [Viewing Documentation]((/docs/v6/postman/api_documentation/viewing_documentation)):
-
-1. From the Build View
-2. From the Browse View
-3. From the Dashboard View
-
-#### The Build View
-
-In the Build view, point your cursor to the collection name and click the small arrow and then click 'View in web' as illustrated in the below screen:
-
-[![Comments BuildView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Main_Proc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Main_Proc.png)
+You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](/docs/v6/postman/api_documentation/viewing_documentation):
 
 The comments section appears, as shown below:
 
 [![Comments New](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_New1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_New1.png)
 
 Click Comments to bring up the 'Add comment' dialog, as illustrated above. Write your comment and click 'Add comment'. Your comment is now posted. 
-
-#### The Browse View
-
-In the Browse view, point your cursor to the collection name and click any collection name to go to the comments section. Follow the same procedure as described above to post your comments:
-
-[![Comments BrowseView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)
-
-
-#### The Dashboard View
-
-Point your cursor to any workspace view and click a collection name available there to go to the comments section. Follow the same procedure as described above to post your comments:
-
-[![Comments BuildView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Dashboard_View1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Dashboard_View1.png)
 
 
 ### Free documentation views with your Postman account

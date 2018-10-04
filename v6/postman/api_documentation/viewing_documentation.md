@@ -18,15 +18,35 @@ You must be logged in to your Postman account to view private documentation. Pos
 
 In the Postman app, hover your cursor over your collection on the left-hand side, click the arrow (&#9656;), then click the **View in web** button. 
 
+
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-view.png)
 
-In this private web view, you’ll be able to see each request in the collection, their descriptions, and code snippets generated from the environment and the language you’ve selected.
+In this private web view, you’ll be able to see each request in the collection, their descriptions, and code snippets generated from the environment and the language you’ve selected. You will also be able to post comments 
 
 [![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-viewing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-viewing.png)
 
 Note that this private URL is only accessible to Postman users logged in with the appropriate permissions — anyone without access to the collection itself receives an error message upon attempting to view it.
 
 To make this documentation available to others, you will need to publish it.
+
+You can also access the documentation section:
+
+1. From the Browse View
+2. From the Dashboard View
+
+#### The Browse View
+
+In the Browse view, point your cursor to the collection name and click any collection name to go to the documentation section:
+
+[![Comments BrowseView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)
+
+
+#### The Dashboard View
+
+Point your cursor to any workspace view and click a collection name available there to go to the comments section:
+
+[![Comments BuildView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Dashboard_View1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Dashboard_View1.png)
+
 
 ### Viewing Public Documentation
 
