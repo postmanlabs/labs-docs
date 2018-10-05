@@ -50,7 +50,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
    Once the Postman.desktop file is created, the Postman app can be opened using application launchers. You can check your desktop and double-click the Postman icon.
 
    **Note:** 
-   1. Avoid starting postman using ```sudo``` command, this will mess up the permissions on the files created by postman.
+   1. Avoid starting postman using ```sudo``` command, this will create permission issues on the files created by postman.
 
    2. Make sure you have read/write permission for ```~/.config``` folder where Postman stores the information
 
