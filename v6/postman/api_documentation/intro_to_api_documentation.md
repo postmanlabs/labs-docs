@@ -85,6 +85,8 @@ Once you access the documentation section, the comments section appears, as show
 
 Click Comments to bring up the 'Add comment' dialog, as illustrated above. Write your comment and click 'Add comment'. Your comment is now posted. 
 
+**Note:** You can post comments only on Private Documentation. 
+
 
 ### Free documentation views with your Postman account
  
