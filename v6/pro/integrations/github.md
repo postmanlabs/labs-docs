@@ -13,9 +13,9 @@ Setting up a GitHub integration requires you to get a GitHub Personal Access Tok
 
 ### Generating a GitHub Personal Access Token
 
-Log in to [GitHub](https://github.com/){:target="_blank"}. 
+Log in to [GitHub](https://github.com/). 
 
-If you don’t already have a Personal Access Token from GitHub, [generate a new one](https://github.com/settings/tokens){:target="_blank"}.
+If you don’t already have a Personal Access Token from GitHub, [generate a new one](https://github.com/settings/tokens).
 
 We need the `repo` and the `user` scope in order to successfully configure the integration.
 
@@ -27,7 +27,7 @@ Once that token is generated, copy it and save it somewhere for future use.
 <br>
 ### Configuring GitHub Integration
 
-1. In the **[Integrations]({{site.pm.gs}}/dashboard/integrations){:target="_blank"}** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
+1. In the **[Integrations]({{site.pm.gs}}/dashboard/integrations)** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![github integration](https://static.getpostman.com/postman-docs/integrations-github1.png)](https://static.getpostman.com/postman-docs/integrations-github1.png)
 
