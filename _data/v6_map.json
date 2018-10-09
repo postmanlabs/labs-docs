@@ -551,6 +551,11 @@
             "external": false
           },
           {
+            "title": "Coralogix",
+            "href":"/docs/v6/pro/integrations/coralogix",
+            "external": false
+          },
+          {
             "title": "Datadog",
             "href":"/docs/v6/pro/integrations/datadog",
             "external": false
