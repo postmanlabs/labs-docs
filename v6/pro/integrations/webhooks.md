@@ -6,76 +6,77 @@ tags:
 warning: false
 ---
 
-Microsoft Flow enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
+Postman provides custom webhook-powered integration which enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers many services with predefined flows available for easy implementation.
 
-You can configure Microsoft Flow with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a Microsoft Flow Webhook URL.
+You can create and configure your custom webhook with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a webhook URL. Webhooks require a few configuration options before you can make use of them. We'll go through each of these settings below.
 
-### Congfiguring Microsoft Flow
 
-1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Microsoft Flow from a list of Postman’s 3rd party Integrations for Postman Pro users.
+### Congfiguring Custom Webhook URL
 
-[![microsoft_flow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)  
+1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Custom webhook from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
-Click the **View Details** button to see information about HipChat.
+[![custom_webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)  
 
-You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Microsoft Flow, or view all integrations.
+Click **View Details** to see information about ...........
+
+You also can click **Configured Integrations** tab to set up other integrations, view available integrations for Custom Webhooks, or view all integrations. 
 
 [![microsoft_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)  
 
 
-#### Add a team activity feed to Microsoft Flow
-The activity feed is where you can track changes made to your collections and within your team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
+#### Add a team activity feed to Custom Webhooks
+The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
-To add a team activity feed to Microsoft Flow:
+To add a team activity feed to Custom webhook:
 
 1. Click the **Add Integration** button.
-2. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
+2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
 3. Click the **Add Integration** button.
 
 [![microsoft_team_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png) 
 
-#### Back up your Postman Collections in Microsoft Flow
-It’s important to back up your Postman Collections for safekeeping. Microsoft Flow helps you do this with services like Box (a cloud-based storage solution), but you can also use it to backup to your custom DB2 instance.
+#### Back up your Postman Collections in Custom Webhooks
+It’s important to back up your Postman Collections for safekeeping. Custom webhook helps you do this with services like Box (a cloud-based storage solution), but you can also use it to backup to your custom DB2 instance.
 
-To back up your Postman Collections in Microsoft Flow:
+To back up your Postman Collections in Custom webhooks:
 
-1. Click the **Add Integration** button.
+1. Click **Add Integration**.
 2. In the **Backup your Postman Collections** page:
 * Select the collection.
 * Enter the notification URL.
 * Enter an identifier for this integration.
-3. Click the **Add Integration** button.
+3. Click **Add Integration**.
 
 
 [![microsoft_flow_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msFlow-backupcollections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msFlow-backupcollections.png)
 
-#### See collection activity feed in Microsoft Flow
-The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
+#### See collection activity feed in Custom Webhooks
+The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Webhooks gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
-To see collection activity feed in Microsoft Flow:
+To see collection activity feed in Custom webhooks:
 
-1. Click the **Add Integration** button.
-2. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
-3. Click the **Add Integration** button.
+1. Click **Add Integration**.
+2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
+3. Click **Add Integration**.
 
-#### Send Monitor run results in Microsoft Flow
-Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Flow integration, you can use those results by connecting to other available services.
+#### Send Monitor run results in Custom Webhooks
+Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Custom webhooks, you can use those results by connecting to other available services.
 
 To send monitor run results to Microsoft Flow:
 
-1. Click the **Add Integration** button.
-2. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Flow. 
-3. Click the **Add Integration** button.
+1. Click **Add Integration**.
+2. In the **Monitor Run Results** page, select the monitor you want to send to Custom webhooks. 
+3. Click **Add Integration**.
 
 [![microsoft_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png) 
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
-And you’re done! Your integration has been set up successfully. Now, whenever a monitor would run, you would get a notification something like this on your Flow mobile app.
+And you’re done! Your integration has been set up successfully. Now, whenever a monitor would run, you would get a notification something like this on your Flow mobile app.....................
 
 [![see notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)
 
-#### Get the Microsoft Flows webhook URL
+#### Get the Custom Webhook URL
 
 Log in to [Microsoft Flow](https://flow.microsoft.com/), and go to `My Flows`. Select `Create from Blank` in the top-right corner. 
 
