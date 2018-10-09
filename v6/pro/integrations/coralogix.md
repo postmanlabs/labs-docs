@@ -1,5 +1,5 @@
 ---
-title: "coralogix"
+title: "Coralogix"
 page_id: "coralogix"
 tags: 
   - "pro"
