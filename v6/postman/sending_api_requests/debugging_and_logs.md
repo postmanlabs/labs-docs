@@ -51,7 +51,7 @@ You can also use the DevTools window to inspect the request and response payload
 
   [![show DevTools console](https://www.getpostman.com/img/v1/docs/errors_network.png)](https://www.getpostman.com/img/v1/docs/errors_network.png)
 
-##### Viewing Log Messages in App
+### Viewing Log Messages in App
 
 Postman keeps a tab on your activities inside the app and captures log messages automatically to help you debug unresolved issues later. You can easily access the stored messages with a few mouse clicks. To access the log messages in macOS, point your cursor to *View* menu, navigate to *Developer* and then select *View Logs in Finder*, as illustrated below:  
 
