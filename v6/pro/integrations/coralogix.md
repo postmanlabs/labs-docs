@@ -12,19 +12,40 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
 
 ### Retrieving your Coralogix API Key
 
-Log in to [Coralogix](https://app.datadoghq.com/account/settings#api), and select "Integrations" in the header toolbar. 
+Log in to [Coralogix](https://dashboard.coralogix.com/#/login), 
+
+the following screen appears...
+
+go to "Settings", 
+
+and then go to "Send your logs" tab... the following screen appears:
+
+The private key is there , copy the key, and enter in the 'Private key' section in the Send your Monitor Run dialog box. Click Add Integrations...
+
+
+
+As soon as Monitor runs, data will start flowing into Coralogix... you can view the data...
+
+
+
+
+you can filter your logs based on different queries...You must filter logs based on application name and subsystem... by default it is set to 
+
+Note: application name is Postman and subsystem is monitor..
+
+and select "Integrations" in the header toolbar. 
 
 An `API Key` is created for you automatically under the "APIs" tab. If you want, you can also create a key by specifying a name for it. 
 
 Save the API Key to use later.
 
-[![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58830948.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58830948.png)
+[![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails.png)
 
 ### Configuring Postman Monitors
 
 1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Coralogix in the list of Postman’s 3rd party Integrations for Postman Pro users.
 
-[![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog2.png)
+[![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails.png)
 
 <ol start="2">
   <li>
@@ -33,14 +54,14 @@ Click the <b>View Details</b> button to see information about Coralogix and how 
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Coralogix, or view all integrations.
 
-[![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-datadog-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-datadog-config.png)
+[![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails2.png)
 
 <ol start="3">
   <li>
 Click the <b>Add Integration</b> button to display the <b>Send Monitor Run Results</b> options.</li>
 </ol>
 
-[![coralogix integrations add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog_sendMonitor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog_sendMonitor.png)
+[![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails3.png)
 
 <ol start="4">
   <li>
