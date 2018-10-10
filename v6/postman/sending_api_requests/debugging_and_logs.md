@@ -50,19 +50,3 @@ Head to `View` in the application menu, and click on "Show Postman Console" or 
 You can also use the DevTools window to inspect the request and response payloads. If the Interceptor is disabled, switch to the Network tab, and you should see each call as it’s made. Clicking on this will let you view the headers and payloads for the requests and responses:
 
   [![show DevTools console](https://www.getpostman.com/img/v1/docs/errors_network.png)](https://www.getpostman.com/img/v1/docs/errors_network.png)
-
-### Viewing Log Messages in App
-
-Postman keeps a tab on your activities inside the app and captures log messages automatically to help you debug unresolved issues later. You can easily access the stored messages with a few mouse clicks. To access the log messages in macOS, point your cursor to *View* menu, navigate to *Developer* and then select *View Logs in Finder*, as illustrated below:  
-
-[![view logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/View_Logs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/View_Logs.png)
-
-The logs folder and its contents appear as shown below:
-
-[![view logs2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/View_Logs2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/View_Logs2.png)
-
-To access in Linux OS, point your cursor to *View* menu, navigate to *Developer* and then select *View Logs in File Manager*
-
-To access in Windows, point your cursor to *View* menu, navigate to *Developer* and then select *View Logs in File Explorer*
-
-These logs provide you basic information about your activities in the app flow. You can send these log messages to Postman Customer Support to troubleshoot issues when encountered.

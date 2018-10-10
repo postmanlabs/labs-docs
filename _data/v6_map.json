@@ -79,6 +79,11 @@
             "external": false
           },
           {
+            "title": "Troubleshooting In-app Issues",
+            "href": "/docs/v6/postman/sending_api_requests/troubleshooting_inapp",
+            "external": false
+          },
+          {
             "title": "Debugging and logs",
             "href": "/docs/v6/postman/sending_api_requests/debugging_and_logs",
             "external": false
