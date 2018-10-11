@@ -106,13 +106,13 @@ In the previous steps, we prepared the collection, request, and example response
 
   Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which specifies which integer response code your returned response should match.
 
-### Response matching request query params (Matching Requests to Responses)
+### Response matching request query params
 
   Postman's Mock server functionality is enhanced to return different responses based on matching request query params values. Postman's Mock server looks at the query params while matching requests to the examples. Which means if you have examples that differ only in query params and want to mock different responses for different query params on the same path, Postman's mock server will return the exact response matching that path. You can do all of this without specifying the extra headers.  
 
   Let's look at an example how this works:
 
-  In this example, we have a collection by name **query param demo** that has one request **req1** with two examples in it. 
+  In this example, we have a collection by name **query param demo** that has one request **Req** with two examples in it - Ex1 and Ex2. 
 
   Example 1 has the following values and params:  
 
@@ -124,7 +124,9 @@ In the previous steps, we prepared the collection, request, and example response
 
   [![query param2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_2.png)
 
-  When you copy the mock url path and pass on different query params to it, Postman returns the exact response matching that path. This is illustrated in the below screen:
+  When you copy the mock url path and pass on different query params to it, Postman returns the exact response matching that path and its query params. This is illustrated in the below screen:
+
+  **Note:** If you do not specify the exact mock URL, Postman will return the best matching response based on its algorithm. 
 
   [![query param3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param.gif)
   
