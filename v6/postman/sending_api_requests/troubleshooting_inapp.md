@@ -4,7 +4,7 @@ page_id: "troubleshooting_in_app"
 warning: false
 ---
 
-Postman keeps a tab on your activities inside the app and captures log messages automatically to help you debug unresolved issues just in case something goes wrong. You can easily access the stored messages with a few mouse clicks. To access the log messages in macOS, point your cursor to *View* menu, navigate to *Developer* and then select *View Logs in Finder*, as illustrated below:  
+Postman keeps a tab on your activities inside the app and captures log messages automatically to help you debug unresolved issues just in case something goes wrong in the app. You can easily access the stored messages with a few mouse clicks. To access the log messages in macOS, point your cursor to *View* menu, navigate to *Developer* and then select *View Logs in Finder*, as illustrated below:  
 
 [![view logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/View_Logs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/View_Logs.png)
 
