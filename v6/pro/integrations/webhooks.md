@@ -15,36 +15,24 @@ You can create and configure your custom webhook with Postman to monitor run res
 
 1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Custom webhook from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
-[![custom_webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)  
+[![custom_webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)  
 
 Click **View Details** to see information about ...........
 
 You also can click **Configured Integrations** tab to set up other integrations, view available integrations for Custom Webhooks, or view all integrations. 
 
-[![microsoft_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)  
+[![microsoft_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view2.png)  
 
 
-#### Add a team activity feed to Custom Webhooks
-The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
-
-To add a team activity feed to Custom webhook:
-
-1. Click the **Add Integration** button.
-2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
-3. Click the **Add Integration** button.
-
-[![microsoft_team_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png) 
-
-#### Back up your Postman Collections in Custom Webhooks
+### Back up your Postman Collections
 It’s important to back up your Postman Collections for safekeeping. Custom webhook helps you do this with services like Box (a cloud-based storage solution), but you can also use it to backup to your custom DB2 instance.
 
 To back up your Postman Collections in Custom webhooks:
 
 1. Click **Add Integration**.
 2. In the **Backup your Postman Collections** page:
-* Select the collection.
-* Enter the notification URL.
-* Enter an identifier for this integration.
+   * Select the collection.
+   * Enter the Webhook URL.
 3. Click **Add Integration**.
 
 
@@ -59,190 +47,29 @@ To see collection activity feed in Custom webhooks:
 2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
 3. Click **Add Integration**.
 
-#### Send Monitor run results in Custom Webhooks
+### Send Monitor run results in Custom Webhooks
 Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Custom webhooks, you can use those results by connecting to other available services.
 
-To send monitor run results to Microsoft Flow:
+To send monitor run results to Custom Webhooks:
 
 1. Click **Add Integration**.
 2. In the **Monitor Run Results** page, select the monitor you want to send to Custom webhooks. 
 3. Click **Add Integration**.
 
-[![microsoft_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png) 
+[![webhook_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_monitors1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_monitors1.png) 
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
 And you’re done! Your integration has been set up successfully. Now, whenever a monitor would run, you would get a notification something like this on your Flow mobile app.....................
 
-[![see notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)
 
-#### Get the Custom Webhook URL
+### Add a team activity feed to Custom Webhooks
+The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
-Log in to [Microsoft Flow](https://flow.microsoft.com/), and go to `My Flows`. Select `Create from Blank` in the top-right corner. 
+To add a team activity feed to Custom webhook:
 
-[![create connector](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858272.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858272.png)  
+1. Click the **Add Integration** button.
+2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
+3. Click the **Add Integration** button.
 
-To add the first step, type `request` in the search bar, and select `Request / Response - Request` from the `Triggers` list.
-
-[![select trigger](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858278.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858278.png)  
-
-For different types of integrations, the JSON schema varies. The following shows which schema to use for each one.
-
-##### **Monitor Run Results**
-
-```
-{
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "definitions": {},
-  "id": "http://example.com/example.json",
-  "properties": {
-    "collection_name": {
-      "id": "/properties/collection_name",
-      "type": "string"
-    },
-    "collection_uid": {
-      "id": "/properties/collection_uid",
-      "type": "string"
-    },
-    "environment_name": {
-      "id": "/properties/environment_name",
-      "type": "string"
-    },
-    "environment_uid": {
-      "id": "/properties/environment_uid",
-      "type": "string"
-    },
-    "metrics": {
-      "id": "/properties/metrics",
-      "properties": {
-        "errors": 
-          "id": "/properties/metrics/properties/errors",
-          "type": "integer"
-        },
-        "failedTests": {
-          "id": "/properties/metrics/properties/failedTests",
-          "type": "integer"
-        },
-        "passedTests": {
-          "id": "/properties/metrics/properties/passedTests",
-          "type": "integer"
-        },
-        "requestCount": {
-          "id": "/properties/metrics/properties/requestCount",
-          "type": "integer"
-        },
-        "totalLatency": {
-          "id": "/properties/metrics/properties/totalLatency",
-          "type": "integer"
-        },
-        "warnings": {
-          "id": "/properties/metrics/properties/warnings",
-          "type": "integer"
-        }
-      },
-      "type": "object"
-    },
-    "monitor_name": {
-      "id": "/properties/monitor_name",
-      "type": "string"
-    },
-    "monitor_uid": {
-      "id": "/properties/monitor_uid",
-      "type": "string"
-    },
-    "user_id": {
-      "id": "/properties/user_id",
-      "type": "string"
-    },
-    "user_name": {
-      "id": "/properties/user_name",
-      "type": "string"
-    }
-  },
-  "type": "object"
-}
-```
-
-##### **Collection and Team Activity Feed**
-
-```
-{
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "definitions": {},
-  "id": "http://example.com/example.json",
-  "properties": {
-    "action": {
-      "id": "/properties/action",
-      "type": "string"
-    },
-    "collection_name": {
-      "id": "/properties/collection_name",
-      "type": "string"
-    },
-    "collection_uid": {
-      "id": "/properties/collection_uid",
-      "type": "string"
-    },
-    "message": {
-      "id": "/properties/message",
-      "type": "string"
-    },
-    "model": {
-      "id": "/properties/model",
-      "type": "string"
-    },
-    "model_name": {
-      "id": "/properties/model_name",
-      "type": "string"
-    },
-    "model_uid": {
-      "id": "/properties/model_uid",
-      "type": "string"
-    },
-    "user_id": {
-      "id": "/properties/user_id",
-      "type": "string"
-    },
-    "user_name": {
-      "id": "/properties/user_name",
-      "type": "string"
-    }
-  },
-  "type": "object"
-}
-```
-
-##### **Backup Collections**
-
-```
-{
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "definitions": {},
-  "id": "http://example.com/example.json",
-  "properties": {
-    "collection": {
-      "id": "/properties/collection",
-      "properties": {},
-      "type": "object"
-    }
-  },
-  "type": "object"
-}
-```
-
-[![request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858289.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858289.png)
-
-Once that is done, click on `New Step → Add an Action` and configure your specific service. For this demo, let's connect your Postman Monitor to the Microsoft Flow mobile app. So, on every Monitor run, you will receive an in-app notification in the Microsoft Flow mobile app. Select `Notifications` from the list of services and choose the `Send me a mobile notification` action.
-
-[![add action](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858298.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858298.png)
-
-[![notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858309.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858309.png)  
-
-You can customize the text notifications by choosing your wording and adding content derived from your Postman Monitor run results.
-
-[![enter text](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858318.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858318.png)  
-
-Once this is done, click on `Create Flow` on the top-right corner. Once your flow has been created, you will be needing the webhook URL generated by Flow. To obtain that, click on the `Request` trigger and you will find your generated webhook URL.
-
-[![generated webhook URL](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858329.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858329.png)
-
+[![microsoft_team_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
