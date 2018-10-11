@@ -18,12 +18,11 @@ The following screen appears:
 
 [![coralogix settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Settings.png)
 
-Click to "Settings" to go to the following screen:
+Click "Settings" to go to the following screen:
 
 [![coralogix settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Pvtkey.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Pvtkey.png)
 
-Navigate to "Send your logs" tab and copy the private key for later use. 
-
+Navigate to "Send your logs" tab and copy the private key for later use, as illustrated in the above screen (highlighted in red circle).
 
 ### Configuring Postman Monitors
 
@@ -42,7 +41,7 @@ You also can click the **Configured Integrations** tab to set up other integrati
 
 <ol start="3">
   <li>
-Click the <b>Add Integration</b> button to display the <b>Send Monitor Run Results</b> options.</li>
+Click <b>Add Integration</b> to display the <b>Send Monitor Run Results</b> options.</li>
 </ol>
 
 [![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails3.png)
