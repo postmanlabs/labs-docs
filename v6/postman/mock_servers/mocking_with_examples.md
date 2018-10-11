@@ -11,6 +11,7 @@ Let's take a deep dive into how [mock servers](/docs/postman/mock_servers/settin
 3. Saving the request R1's response as an example (P1)
 4. Creating a mock (M1) for the collection (C1)
 5. Sending a request using the mock server (M1)
+6. Response matching request query params
 
 ### Setting up some basics
 
@@ -104,6 +105,15 @@ In the previous steps, we prepared the collection, request, and example response
   [![404 example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)
 
   Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which specifies which integer response code your returned response should match.
+
+### Response matching request query params (Matching Requests to Responses)
+
+  Postman's Mock server functionality is enhanced to return different responses based on matching request query params values. Postman's Mock server looks at the query params while matching requests to the examples. Which means if you have examples that differ only in query params and want to mock different responses for different query params on the same path, Postman's mock server will return the exact response matching that path. 
+
+  Let's look at an example how this works:
+
+
+
   
   Learn more about the [matching algorithm](/docs/postman/mock_servers/matching_algorithm) for mocks.
 
