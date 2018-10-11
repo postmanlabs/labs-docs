@@ -93,6 +93,3 @@ and select "Integrations" in the header toolbar.
 
 An `API Key` is created for you automatically under the "APIs" tab. If you want, you can also create a key by specifying a name for it. 
 
-Save the API Key to use later.
-
-[![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails.png)
