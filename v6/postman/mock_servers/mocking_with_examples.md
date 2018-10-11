@@ -112,8 +112,21 @@ In the previous steps, we prepared the collection, request, and example response
 
   Let's look at an example how this works:
 
+  In this example, we have a collection by name **query param demo** that has one request **req1** with two examples in it. 
 
+  Example 1 has the following values and params:  
 
+  [![query param1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_1.png)
+
+  As illustrated, you can see the query params (highlighted in red circle) we are passing '1'.
+
+  Example 2 has the following values and params:
+
+  [![query param2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_2.png)
+
+  When you copy the mock url path and pass on different query params to it, Postman returns the exact response matching that path. This is illustrated in the below screen:
+
+  [![query param3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param.gif)
   
   Learn more about the [matching algorithm](/docs/postman/mock_servers/matching_algorithm) for mocks.
 
