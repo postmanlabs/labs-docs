@@ -126,10 +126,12 @@ In the previous steps, we prepared the collection, request, and example response
 
   When you copy the mock url path and pass on different query params to it, Postman returns the exact response matching that path and its query params. This is illustrated in the below screen:
 
-  **Note:** If you do not specify the exact mock URL, Postman will return the best matching response based on its algorithm. 
 
   [![query param3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param.gif)
   
+  **Note:** If you do not specify the exact mock URL, Postman will return the best matching response based on its algorithm. 
+
+
   Learn more about the [matching algorithm](/docs/postman/mock_servers/matching_algorithm) for mocks.
 
 And we're done! We have walked through how to create a collection, save requests, save examples, create a mock, and use a mock.
