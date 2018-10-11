@@ -6,15 +6,13 @@ tags:
 warning: false
 ---
 
-Coralogix is a monitoring service for cloud-scale applications. It combines data from servers, databases, tools, and services to present a unified view of an entire stack. This integration allows you to configure your Postman Monitors to send metrics to Coralogix where you can visualize and compare them with other metrics.
+Coralogix is a machine learning powered log analytics platform which drastically improves the delivery and maintenance process for software providers. This integration allows you to configure your Postman Monitors to send metrics to Coralogix where you can visualize and compare the metrics.
 
 Setting up a Coralogix integration requires you to get an API key from Coralogix and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
-### Retrieving your Coralogix API Key
+### Retrieving your Coralogix Private Key
 
-Log in to [Coralogix](https://dashboard.coralogix.com/#/login).
-
-The following screen appears:
+Log in to [Coralogix](https://dashboard.coralogix.com/#/login). The following screen appears:
 
 [![coralogix settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Settings.png)
 
@@ -24,7 +22,7 @@ Click "Settings" to go to the following screen:
 
 Navigate to "Send your logs" tab and copy the private key for later use, as illustrated in the above screen (highlighted in red circle).
 
-### Configuring Postman Monitors
+### Configuring Coralogix Integration
 
 1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Coralogix in the list of Postman’s 3rd party Integrations for Postman Pro users.
 
@@ -52,8 +50,8 @@ To send your monitor metrics and events to Coralogix:</li>
 </ol>
 
 * Select the monitor whose data you would like to send to Coralogix.
-* Enter a Coralogix provided API key or generate an API key.
-* Optionally indicate if you want to send events for completed runs or send metrics for each run.
+* Enter a Coralogix private key.
+* Optionally indicate if you want to send collection or environment details for each run.
 
 <ol start="5">
   <li>
@@ -90,5 +88,4 @@ Note: application name is Postman and subsystem is monitor..
 
 and select "Integrations" in the header toolbar. 
 
-An `API Key` is created for you automatically under the "APIs" tab. If you want, you can also create a key by specifying a name for it. 
 
