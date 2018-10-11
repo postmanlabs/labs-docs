@@ -46,7 +46,12 @@
             "title": "Settings",
             "href": "/docs/v6/postman/launching_postman/settings",
             "external": false   
-         },   
+         },  
+         {
+          "title": "Troubleshooting In-app Issues",
+          "href": "/docs/v6/postman/sending_api_requests/troubleshooting_inapp",
+          "external": false
+        }, 
          {    
       "title": "New button",    
             "href": "/docs/v6/postman/launching_postman/newbutton",
@@ -76,11 +81,6 @@
           {
             "title": "Troubleshooting API requests",
             "href": "/docs/v6/postman/sending_api_requests/troubleshooting_api_requests",
-            "external": false
-          },
-          {
-            "title": "Troubleshooting In-app Issues",
-            "href": "/docs/v6/postman/sending_api_requests/troubleshooting_inapp",
             "external": false
           },
           {
