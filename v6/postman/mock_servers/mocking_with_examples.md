@@ -108,7 +108,9 @@ In the previous steps, we prepared the collection, request, and example response
 
 ### Response matching request query params
 
-  Postman's Mock server functionality is enhanced to return different responses based on matching request query params values. Postman's Mock server looks at the query params while matching requests to the examples. Which means if you have examples that differ only in query params and want to mock different responses for different query params on the same path, Postman's mock server will return the exact response matching that path. You can do all of this without specifying the extra headers. A point to note is that path in this context implies both the request and query params. 
+  Postman's Mock server functionality is enhanced to return different responses based on matching request query params values. Postman's Mock server looks at the query params while matching requests to the examples. Which means if you have examples that differ only in query params and want to mock different responses for different query params on the same path, Postman's mock server will return the exact response matching that path. You can do all of this without specifying the extra headers. 
+  
+  **Note:**A point to remember here is that path in this context implies both the request and query params. 
 
   Let's look at an example how this works:
 
