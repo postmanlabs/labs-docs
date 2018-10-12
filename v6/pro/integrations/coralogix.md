@@ -64,7 +64,7 @@ Once you click *Add Integration*, the following screen appears to indicate the i
 
 Now you can run the monitor and wait for a few seconds to analyse the metrics. The next section describes the procedure to view and analyze metrics. 
 
-### Viewing data in Coralogix
+### Analyzing metrics in Coralogix
 
 Once the data starts flowing into Coralogix, you can view and analyze these metrics in the Coralogix dashboard, as illustrated in the screen below:
 
