@@ -23,12 +23,13 @@ Click **View Details** to go to the Webhooks main interface. You also can click 
 
 
 ### Back up your Postman Collections
-It’s important to back up your Postman Collections for safekeeping. Custom webhook helps you do this with services like Box (a cloud-based storage solution), but you can also use it to backup to your custom DB2 instance.
+It’s important to back up your Postman Collections for safekeeping. Custom webhook helps you do this with services like Box (a cloud-based storage solution).
 
 To back up your Postman Collections in Custom webhooks:
 
 1. Click **Add Integration**.
 2. In the **Backup your Postman Collections** page:
+   * Enter any name
    * Select the collection.
    * Enter the Webhook URL.
 3. Click **Add Integration**.
@@ -37,7 +38,7 @@ To back up your Postman Collections in Custom webhooks:
 [![microsoft_flow_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)
 
 #### See collection activity feed in Custom Webhooks
-The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Webhooks gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
+The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Webhooks gives you the freedom to connect with email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
 To see collection activity feed in Custom webhooks:
 
