@@ -58,34 +58,23 @@ To send your monitor metrics and events to Coralogix:</li>
 Click <b>Add Integration</b>.</li>
 </ol>
 
+Once you click *Add Integration*, the following screen appears to indicate the integration is configured:
+
+[![coralogix add integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_addintegration1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_addintegration1.png)
+
+Now you can run the monitor and wait for a few seconds to analyse the metrics. The next section describes the procedure to view and analyze metrics. 
 
 ### Viewing data in Coralogix
 
-As soon as your monitor runs, the data will start flowing into Coralogix. 
+Once the data starts flowing into Coralogix, you can view and analyze these metrics in the Coralogix dashboard, as illustrated in the screen below:
 
-[![view in coralogix](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58831748.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58831748.png)
-
-Once the data is present in Coralogix, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and even environment name/uid (if present). You can also combine different metrics to create a dashboard.
-
-[![coralogix filters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58831776.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58831776.png)
+[![coralogix dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_dashboard.png)
 
 
+Click 'logs' tab to a view a list of all logs. You can filter the services by name. As many services may be running in your system, you can filter by selecting Postman to view all coralogix logs for Postman. The schema appears, as illustrated below:
 
 
+[![coralogix logs view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_schema.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_schema.png)
 
- and enter this 'Private key' section in the Send your Monitor Run dialog box. Click Add Integrations...
-
-
-
-As soon as Monitor runs, data will start flowing into Coralogix... you can view the data...
-
-
-
-
-you can filter your logs based on different queries...You must filter logs based on application name and subsystem... by default it is set to 
-
-Note: application name is Postman and subsystem is monitor..
-
-and select "Integrations" in the header toolbar. 
 
 
