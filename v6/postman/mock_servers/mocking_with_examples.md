@@ -11,6 +11,7 @@ Let's take a deep dive into how [mock servers](/docs/postman/mock_servers/settin
 3. Saving the request R1's response as an example (P1)
 4. Creating a mock (M1) for the collection (C1)
 5. Sending a request using the mock server (M1)
+6. Using query params to match
 
 ### Setting up some basics
 
@@ -104,7 +105,32 @@ In the previous steps, we prepared the collection, request, and example response
   [![404 example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)
 
   Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which specifies which integer response code your returned response should match.
+
+### Using query params
+
+  Postman's Mock server functionality is enhanced to return different responses based on matching request query params. Postman's Mock server looks at the query params while matching requests to the examples. Which means if you have examples that differ only in query params and want to mock different responses for different query params on the same request path, Postman's mock server will return the exact response matching that request path and the corresponding query params. 
   
+  Let's look at an example how this works:
+
+  In this example, we have a collection by name **Query Param Demo** that has one request **Request1** with two examples in it - Example1 and Example2. 
+
+  Example 1 has the following values and params:  
+
+  [![query param1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_1.png)
+
+  As illustrated, you can see the query params (highlighted in red circle) we are passing '1'.
+
+  Example 2 has the following values and params:
+
+  [![query param2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param_2.png)
+
+  As you can see, in Example1 and Example2, we are passing 1 and 5 respectively. When you copy the mock url path and pass on these different query params to it, Postman returns the exact response matching that path and its query params. This is illustrated in the below screen:
+
+
+  [![query param3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/query_param.gif)
+  
+  **Note:** If there is no exact match found, Postman will return the best matching response based on its algorithm. 
+
   Learn more about the [matching algorithm](/docs/postman/mock_servers/matching_algorithm) for mocks.
 
 And we're done! We have walked through how to create a collection, save requests, save examples, create a mock, and use a mock.
