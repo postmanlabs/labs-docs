@@ -13,7 +13,7 @@ You can create and configure your custom webhook with Postman to monitor run res
 
 ### Configuring Custom Webhook URL
 
-1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Webhooks from a list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Webhooks from a list of Postman’s 3rd party Integrations for Postman Pro and Enterprise users.
 
 [![custom_webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)  
 
