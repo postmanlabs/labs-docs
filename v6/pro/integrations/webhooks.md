@@ -37,6 +37,28 @@ To back up your Postman Collections in Custom webhooks:
 
 [![microsoft_flow_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)
 
+Once integration is done, you can view the completed integrations in the Configured Integrations tab, as illustrated below:
+
+[![configured integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Configured_integrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Configured_integrations.png)
+
+##### **Backup Collections**
+
+```
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "collection": {
+      "id": "/properties/collection",
+      "properties": {},
+      "type": "object"
+    }
+  },
+  "type": "object"
+}
+```
+
 #### See collection activity feed in Custom Webhooks
 The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Webhooks gives you the freedom to connect with email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
@@ -61,9 +83,83 @@ You can also configure advanced options to alert you when a monitor run complete
 
 And you’re done! Your integration has been set up successfully. Now, whenever a monitor would run, results would be posted to the webhook. 
 
+##### **Monitor Run Results** 
+
+```
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "collection_name": {
+      "id": "/properties/collection_name",
+      "type": "string"
+    },
+    "collection_uid": {
+      "id": "/properties/collection_uid",
+      "type": "string"
+    },
+    "environment_name": {
+      "id": "/properties/environment_name",
+      "type": "string"
+    },
+    "environment_uid": {
+      "id": "/properties/environment_uid",
+      "type": "string"
+    },
+    "metrics": {
+      "id": "/properties/metrics",
+      "properties": {
+        "errors": 
+          "id": "/properties/metrics/properties/errors",
+          "type": "integer"
+        },
+        "failedTests": {
+          "id": "/properties/metrics/properties/failedTests",
+          "type": "integer"
+        },
+        "passedTests": {
+          "id": "/properties/metrics/properties/passedTests",
+          "type": "integer"
+        },
+        "requestCount": {
+          "id": "/properties/metrics/properties/requestCount",
+          "type": "integer"
+        },
+        "totalLatency": {
+          "id": "/properties/metrics/properties/totalLatency",
+          "type": "integer"
+        },
+        "warnings": {
+          "id": "/properties/metrics/properties/warnings",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "monitor_name": {
+      "id": "/properties/monitor_name",
+      "type": "string"
+    },
+    "monitor_uid": {
+      "id": "/properties/monitor_uid",
+      "type": "string"
+    },
+    "user_id": {
+      "id": "/properties/user_id",
+      "type": "string"
+    },
+    "user_name": {
+      "id": "/properties/user_name",
+      "type": "string"
+    }
+  },
+  "type": "object"
+}
+```
 
 ### Add a team activity feed to Custom Webhooks
-The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
+The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect with many services. You also have the option to set up Twilio to text you when updates are made to your feed.
 
 To add a team activity feed to Custom webhook:
 
@@ -72,3 +168,52 @@ To add a team activity feed to Custom webhook:
 3. Click the **Add Integration** button.
 
 [![microsoft_team_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
+
+
+##### **Team Activity**
+```
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "action": {
+      "id": "/properties/action",
+      "type": "string"
+    },
+    "collection_name": {
+      "id": "/properties/collection_name",
+      "type": "string"
+    },
+    "collection_uid": {
+      "id": "/properties/collection_uid",
+      "type": "string"
+    },
+    "message": {
+      "id": "/properties/message",
+      "type": "string"
+    },
+    "model": {
+      "id": "/properties/model",
+      "type": "string"
+    },
+    "model_name": {
+      "id": "/properties/model_name",
+      "type": "string"
+    },
+    "model_uid": {
+      "id": "/properties/model_uid",
+      "type": "string"
+    },
+    "user_id": {
+      "id": "/properties/user_id",
+      "type": "string"
+    },
+    "user_name": {
+      "id": "/properties/user_name",
+      "type": "string"
+    }
+  },
+  "type": "object"
+}
+```
