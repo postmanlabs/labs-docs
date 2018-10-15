@@ -24,7 +24,7 @@ Navigate to "Send your logs" tab and copy the private key for later use, as illu
 
 ### Configuring Coralogix Integration
 
-1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Coralogix in the list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Coralogix in the list of Postman’s 3rd party Integrations for Postman Pro and Enterprise users.
 
 [![coralogix integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_viewdetails.png)
 
