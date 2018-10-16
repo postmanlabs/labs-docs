@@ -8,7 +8,7 @@ warning: false
 
 Postman provides custom webhook integration which enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers many services with predefined flows available for easy implementation.
 
-You can configure a custom webhook with Postman to send events such as - monitoring run results, viewing team and collection-specific activity feeds, backing up Postman Collections, and using a webhook URL. Webhooks require a few configuration options before you can make use of them. We'll go through each of these settings below.
+You can configure a custom webhook with Postman to send events such as - monitoring run results, viewing team and collection-specific activity feeds, and backing up Postman Collections. Webhooks require a few configuration options before you can make use of them. We'll go through each of these settings below.
 
 
 ### Configuring Custom Webhook URL
@@ -17,13 +17,13 @@ You can configure a custom webhook with Postman to send events such as - monitor
 
 [![custom_webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)  
 
-Click **View Details** to go to the Webhooks main interface. You also can click **Configured Integrations** tab to set up other integrations, view available integrations for Custom Webhooks, or view all configured integrations. 
+Click **View Details** to go to the Webhooks main interface. You can also click **Configured Integrations** tab to set up other integrations, view available integrations for Custom Webhooks, or view all configured integrations. 
 
 [![webhooks_view2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view2.png)  
 
 
 ### Back up your Postman Collections
-It’s important to back up your Postman Collections for safekeeping. Custom webhook helps you do this with services like Box (a cloud-based storage solution).
+It’s important to back up your Postman Collections for safekeeping. Custom webhook helps you do this with any service you use like Box (a cloud-based storage solution).
 
 To back up your Postman Collections in Custom webhooks:
 
@@ -61,12 +61,12 @@ The following is a schema for Backup Collections:
 ```
 
 #### Send collection activity feed to Custom Webhooks
-The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Webhooks gives you the freedom to connect with email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
+The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Webhooks gives you the freedom to connect with email services like Outlook, Gmail, or a custom SMTP service.
 
-To see collection activity feed in Custom webhooks:
+To send collection activity feed to Custom webhooks:
 
 1. Click **Add Integration**.
-2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
+2. In the **Collection Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
 3. Click **Add Integration**.
 
 ### Send Monitor run results to Custom Webhooks
@@ -162,7 +162,7 @@ The following is a schema for Monitor Run Results:
 ```
 
 ### Send a team activity feed to Custom Webhooks
-The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect with many services. You also have the option to set up Twilio to text you when updates are made to your feed.
+The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect with many services. 
 
 To send a team activity feed to Custom webhook:
 
