@@ -43,6 +43,7 @@ Once integration is done, you can view the completed integrations in the Configu
 
 ##### **Backup Collections**
 
+The following is a schema for Backup Collections:
 ```
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
@@ -84,6 +85,8 @@ You can also configure advanced options to alert you when a monitor run complete
 And you’re done! Your integration has been set up successfully. Now, whenever a monitor would run, results would be posted to the webhook. 
 
 ##### **Monitor Run Results** 
+
+The following is a schema for Monitor Run Results:
 
 ```
 {
@@ -171,6 +174,8 @@ To send a team activity feed to Custom webhook:
 
 
 ##### **Team Activity**
+The following is a schema for Team Activity:
+
 ```
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
