@@ -167,7 +167,7 @@ To send a team activity feed to Custom webhook:
 2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
 3. Click the **Add Integration** button.
 
-[![microsoft_team_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
+[![custom webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
 
 
 ##### **Team Activity**
