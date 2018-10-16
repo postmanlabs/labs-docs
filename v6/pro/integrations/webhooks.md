@@ -6,18 +6,18 @@ tags:
 warning: false
 ---
 
-Postman provides custom webhook-powered integration which enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers many services with predefined flows available for easy implementation.
+Postman provides custom webhook integration which enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers many services with predefined flows available for easy implementation.
 
-You can create and configure your custom webhook with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a webhook URL. Webhooks require a few configuration options before you can make use of them. We'll go through each of these settings below.
+You can configure a custom webhook with Postman to send events such as - monitoring run results, viewing team and collection-specific activity feeds, backing up Postman Collections, and using a webhook URL. Webhooks require a few configuration options before you can make use of them. We'll go through each of these settings below.
 
 
 ### Configuring Custom Webhook URL
 
-1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Webhooks from a list of Postman’s 3rd party Integrations for Postman Pro and Enterprise users.
+1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Webhooks from a list of Postman’s 3rd party integrations for Postman Pro and Enterprise users.
 
 [![custom_webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)  
 
-Click **View Details** to go to the Webhooks main interface. You also can click **Configured Integrations** tab to set up other integrations, view available integrations for Custom Webhooks, or view all integrations. 
+Click **View Details** to go to the Webhooks main interface. You also can click **Configured Integrations** tab to set up other integrations, view available integrations for Custom Webhooks, or view all configured integrations. 
 
 [![webhooks_view2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view2.png)  
 
@@ -35,7 +35,7 @@ To back up your Postman Collections in Custom webhooks:
 3. Click **Add Integration**.
 
 
-[![microsoft_flow_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)
+[![webhooks collections1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)
 
 Once integration is done, you can view the completed integrations in the Configured Integrations tab, as illustrated below:
 
@@ -59,7 +59,7 @@ Once integration is done, you can view the completed integrations in the Configu
 }
 ```
 
-#### See collection activity feed in Custom Webhooks
+#### Send collection activity feed to Custom Webhooks
 The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Webhooks gives you the freedom to connect with email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
 To see collection activity feed in Custom webhooks:
@@ -68,7 +68,7 @@ To see collection activity feed in Custom webhooks:
 2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
 3. Click **Add Integration**.
 
-### Send Monitor run results with Custom Webhooks
+### Send Monitor run results to Custom Webhooks
 Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Custom webhooks, you can use those results by connecting to other available services.
 
 To send monitor run results to Custom Webhooks:
@@ -158,10 +158,10 @@ And you’re done! Your integration has been set up successfully. Now, whenever 
 }
 ```
 
-### Add a team activity feed to Custom Webhooks
+### Send a team activity feed to Custom Webhooks
 The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect with many services. You also have the option to set up Twilio to text you when updates are made to your feed.
 
-To add a team activity feed to Custom webhook:
+To send a team activity feed to Custom webhook:
 
 1. Click the **Add Integration** button.
 2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.

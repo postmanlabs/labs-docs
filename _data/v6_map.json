@@ -606,7 +606,7 @@
             "external": false
           },
           {
-            "title": "Webhooks",
+            "title": "Custom Webhooks",
             "href":"/docs/v6/pro/integrations/webhooks",
             "external": false
           }
