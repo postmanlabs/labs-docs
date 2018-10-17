@@ -68,13 +68,13 @@ Now you can run the monitor and wait for a few seconds to analyse the metrics. T
 
 Once the data starts flowing into Coralogix, you can view and analyze these metrics in the Coralogix dashboard, as illustrated in the screen below:
 
-[![coralogix dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_dashboard.png)
+[![coralogix dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_dashboard1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_dashboard1.png)
 
 
 Click 'logs' tab to a view a list of all logs. You can filter the services by name. As many services may be running in your system, you can filter by selecting Postman to view all coralogix logs for Postman. The schema appears, as illustrated below:
 
 
-[![coralogix logs view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_schema.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_schema.png)
+[![coralogix logs view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_schema1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_schema1.png)
 
 
 
