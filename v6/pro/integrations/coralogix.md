@@ -18,7 +18,7 @@ Log in to [Coralogix](https://dashboard.coralogix.com/#/login). The following sc
 
 Click "Settings" to go to the following screen:
 
-[![coralogix settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Pvtkey.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Pvtkey.png)
+[![coralogix settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Pvtkey1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Coralogix_Pvtkey1.png)
 
 Navigate to "Send your logs" tab and copy the private key for later use, as illustrated in the above screen (highlighted in red circle).
 
