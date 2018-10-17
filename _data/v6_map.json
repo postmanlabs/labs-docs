@@ -46,7 +46,12 @@
             "title": "Settings",
             "href": "/docs/v6/postman/launching_postman/settings",
             "external": false   
-         },   
+         },  
+         {
+          "title": "Troubleshooting In-app Issues",
+          "href": "/docs/v6/postman/launching_postman/troubleshooting_inapp",
+          "external": false
+        }, 
          {    
       "title": "New button",    
             "href": "/docs/v6/postman/launching_postman/newbutton",
