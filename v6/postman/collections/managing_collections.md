@@ -61,7 +61,9 @@ Click the ellipsis (...)next to a collection, and select "Delete". If you didn't
 
 ### Recover a collection
 
-Collections deleted can be recovered via your [web dashboard](https://app.getpostman.com/) by clicking your avatar icon in the upper-right corner, then selecting `Trash` from the drop-down menu. Locate the desired collection, hover your cursor over its row, then click `Restore`. 
+Collections deleted can be recovered via your [web dashboard](https://app.getpostman.com/) by clicking your avatar icon in the upper-right corner, then selecting `Trash` from the drop-down menu. Locate the desired collection, hover your cursor over its row, then click `Restore`. You can also recover your deleted collections clicking 'Trash' directly from the app, as illustrated in the screen below:
+
+[![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Trash1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Trash1.png)
 
 **Note:** Postman offers different recovery plans for Free, Pro and Enterprise users. 
 
