@@ -20,7 +20,7 @@ The Find and Replace panel also contains options for toggling case sensitivity, 
 
 Let's perform a search operation and find and replace a string 'pstman' by keeping the scope to 'everything'. This is illustrated in the screen below:
 
-[![find replace results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace1.png)
+[![find replace results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace1.gif)
 
 In the above screen, you can clearly see the results that show the string 'pstman' being returned from an example and query params. You can limit a search to a subset of the files/scopes/entities in your API project by selecting the radio button 'Choose entities to find in'. 
 
