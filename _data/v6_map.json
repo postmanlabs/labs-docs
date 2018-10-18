@@ -454,8 +454,8 @@
       },
       {
         "title": "Find and Replace",
-        "url_prefix": "findnreplace",
-        "href":"/docs/v6/postman/findnreplace",
+        "url_prefix": "find_replace",
+        "href":"/docs/v6/postman/find_replace",
         "external": false
       },
       {
