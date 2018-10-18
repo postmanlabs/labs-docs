@@ -453,6 +453,18 @@
         "external": false
       },
       {
+        "title": "Find and Replace",
+        "url_prefix": "findnreplace",
+        "href":"/docs/v6/postman/findnreplace",
+        "external": false
+      },
+      {
+        "title": "Customizing Postman",
+        "url_prefix": "customizing postman",
+        "href":"/docs/v6/postman/customizing postman",
+        "external": false
+      },
+      {
   "title": "Workspaces",
   "url_prefix": "workspaces",
   "children": [
