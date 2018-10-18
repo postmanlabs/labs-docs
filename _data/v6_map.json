@@ -453,6 +453,12 @@
         "external": false
       },
       {
+        "title": "Customizing Postman",
+        "url_prefix": "customizing postman",
+        "href":"/docs/v6/postman/customizing postman",
+        "external": false
+      },
+      {
   "title": "Workspaces",
   "url_prefix": "workspaces",
   "children": [
