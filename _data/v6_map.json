@@ -614,6 +614,11 @@
             "title": "VictorOps",
             "href":"/docs/v6/pro/integrations/victorops",
             "external": false
+          },
+          {
+            "title": "Custom Webhooks",
+            "href":"/docs/v6/pro/integrations/webhooks",
+            "external": false
           }
         ]
       },
