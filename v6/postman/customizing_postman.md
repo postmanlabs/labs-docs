@@ -6,6 +6,8 @@ warning: false
 
 ### Customizing Postman
 
+#### Creating Custom Methods
+
 Postman allows you to create your own custom methods by enabling you to send/save your requests with custom methods. This feature enables you to save/delete the custom method besides letting you delete even the default methods. To help you customize the entire method list, this feature also allows you to delete existing methods thereby giving the entire user control to you. Working with this feature is a breeze. Just point your cursor to the dropdown for the request method area, click there and start typing your custom method name and save it. It's that simple! The following screen illustrates this procedure. 
 
 [![custom methods1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods2.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods2.gif)
