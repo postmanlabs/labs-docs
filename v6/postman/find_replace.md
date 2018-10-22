@@ -18,7 +18,7 @@ Click the find icon to launch the find and replace panel, as illustrated in the 
 
 The Find and Replace panel also contains options for toggling case sensitivity, performing regular expression matching and scoping the search to selections.
 
-Let's perform a search operation and find and replace a string 'pstman' by keeping the scope to 'everything'. This is illustrated in the screen below:
+Let's perform a search operation and find and replace the string 'postman' with 'pstman' by keeping the scope to 'everything'. This is illustrated in the screen below:
 
 [![find replace results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace2.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace2.gif)
 
