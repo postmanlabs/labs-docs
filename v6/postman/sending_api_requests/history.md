@@ -13,7 +13,7 @@ If you create an account and sign in to Postman, your history will be synced wit
 
 If you sign out of your Postman account, and then log back in, the last 10 requests will remain in your history. Postman Pro and Enterprise users will have access to the last 100 requests. The same policy holds for collection runs. Remember that you can always save as many requests in [collections](/docs/postman/collections/creating_collections) as you want.
 
-[![history sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-history.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-history.png)
+[![history response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response1.png)
 
 ### Sidebar History tab
 
