@@ -9,7 +9,7 @@ Postman stores all requests you send in the "History" view in left sidebar. You 
 
 If you create an account and sign in to Postman, your history will be synced with our server, backed up in real-time, and retrievable across your devices. 
 
-**Note:** If you'd like to save your history responses, you must turn on the setting 'Save Responses' under the History tab in the left sidebar. 
+**Note:** If you'd like to save your history responses, you must turn on the setting 'Save Responses' under the History tab in the left sidebar, as illustrated in the screen below. 
 
 If you sign out of your Postman account, and then log back in, the last 10 requests will remain in your history. Postman Pro and Enterprise users will have access to the last 100 requests. The same policy holds for collection runs. Remember that you can always save as many requests in [collections](/docs/postman/collections/creating_collections) as you want.
 
