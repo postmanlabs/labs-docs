@@ -65,7 +65,7 @@ Collections deleted can be recovered via your [web dashboard](https://app.getpos
 
 [![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Trash2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Trash2.png)
 
-The Trash feature is available only for the signed-in users. So, if you are not a registered user you'll still see the Trash option but as a disabled option. 
+The Trash feature is available only for the signed-in users. So, if you are not a registered user you'll still see the Trash option but as a disabled one. 
 
 **Note:** Postman offers different recovery plans for Free, Pro and Enterprise users. 
 
