@@ -10,7 +10,7 @@ Finding and replacing text in your API projects is quick and easy in Postman. Th
 
 You can easily launch the Find and replace panel. To do that, in the Postman's main interface, click the find icon at the bottom of the sidebar, as illustrated in the screen below:
 
-[![find replace icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace2.png)
+[![find replace icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace4.png)
 
 Click the find icon to launch the find and replace panel, as illustrated in the screen below:
 
