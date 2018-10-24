@@ -12,7 +12,7 @@ You can easily launch the Find and replace panel. To do that, in the Postman's m
 
 [![find replace icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace4.png)
 
-Click the find icon to launch the find and replace panel, as illustrated in the screen below:
+The find and replace panel is launched as illustrated in the screen below:
 
 [![find replace panel](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Find_replace3.png)
 
