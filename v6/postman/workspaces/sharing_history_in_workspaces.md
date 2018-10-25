@@ -10,7 +10,7 @@ warning: false
 
  [![history response 1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response.gif)
 
- In the above gif file, you can see one of your team members has wrongly specified the environment variable in the pre-request script. You can correct it and your corrections can be viewed by your other team members in the history and responses section. They can also view and send this request from the history responses section. 
+ In the above gif file, you can see one of your team members has specified the environment variable in the pre-request script which returns an error. You can go ahead and make corrections and resend the request. You can see how a correct response is received and how the red button adjacent to the Pre-request Script turns from red to green. Your corrected version can again be viewed by other team members in the history and responses section who can in turn view and send this request from the history responses section. 
 
 
 
