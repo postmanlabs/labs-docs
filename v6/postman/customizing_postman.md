@@ -6,7 +6,9 @@ warning: false
 
 ### Creating Custom Methods
 
-Postman features can easily be extended and customized to meet corporate, team-wide and user-specific requirements. With a view to providing more user-control, Postman introduced **Custom Methods** feature. Using this feature, you can create your own custom methods. Once you create these methods, you'll be able to send/save your requests. This feature lets you to save/delete the custom method besides allowing you to delete default methods thereby giving entire user control to you. Working with this feature is a breeze. Just point your cursor to the dropdown of the request method area, click there, type your custom method name and save it. You can also send a request without saving this custom method. It's that simple! The following screen illustrates this procedure. 
+Postman features can easily be extended and customized to meet corporate, team-wide and user-specific requirements. With a view to providing more user-control, Postman introduced **Custom Methods** feature. Using this feature, you can create your own custom methods. Once you create these methods, you'll be able to send/save your requests. 
+
+This feature lets you to save/delete the custom method besides allowing you to delete default methods thereby giving entire user control to you. Working with this feature is a breeze. Just point your cursor to the dropdown of the request method area, click there, type your custom method name and save it. You can also send a request without saving this custom method. It's that simple! The following screen illustrates this procedure. 
 
 [![custom methods1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods4.gif)
 
