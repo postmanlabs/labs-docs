@@ -94,7 +94,7 @@ Use the control dropdown to change the request method. The request body editor a
 
 [![url methods](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)
 
-You can also customize the methods the way you want. To learn more about customizing methods, refer to [customizing methods](/docs/v6/postman/customizing_postman)
+You can also customize the methods the way you want. To learn more about customizing methods, refer to [creating custom methods](/docs/v6/postman/customizing_postman) section.
 
 ### Request Body
 
