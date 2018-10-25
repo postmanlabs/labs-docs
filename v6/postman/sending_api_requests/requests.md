@@ -94,6 +94,8 @@ Use the control dropdown to change the request method. The request body editor a
 
 [![url methods](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)
 
+You can also customize the methods the way you want. To learn more about customizing methods, refer to [customizing methods](/docs/v6/postman/customizing_postman)
+
 ### Request Body
 
 While constructing requests, you'll work frequently with the request body editor. Postman lets you send almost any kind of HTTP request. The body editor is divided into 4 areas and has different controls, depending on the body type.
