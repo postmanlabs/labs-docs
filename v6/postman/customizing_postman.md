@@ -22,7 +22,7 @@ If you are in a team workspace and creating and using custom methods, the behavi
 
 3. Likewise, even if you are in the older version of Postman app, you'll still be able to view and consume custom methods from the History tab if your team member had created custom methods using the newest version of the app. However, you'll not be able to save these custom methods.
 
-4. If you're in a team workspace and send a request by creating a custom method in it, your team members will not be able to view these custom methods unless they are on the same version of the app where these methods were created.
+4. If you're in a team workspace and send a request by creating a custom method in it, your team members will not be able to view these custom methods unless they are on the same version of the app where these were created.
 
 **Note:** Creating a mock with a custom method is currently not supported by Postman.
 
