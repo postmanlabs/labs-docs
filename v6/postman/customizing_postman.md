@@ -18,7 +18,7 @@ If you are in a team workspace and creating and using custom methods, the behavi
 
 1. When importing collections having requests with custom methods, you'll still be able to view these custom methods and be able to save by clicking the custom method.
 
-2. You must be on the same version of the app or above (6.5.0) in order for you to effectively use this feature. 
+2. You must be on the same version of the app (6.5.0) or above in order for you to effectively use this feature. 
 
 3. Likewise, even if you are in the older version of Postman app, you'll still be able to view and consume custom methods from the History tab if your team member had created custom methods using the newest version of the app. However, you'll not be able to save these custom methods.
 
