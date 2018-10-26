@@ -100,9 +100,9 @@ While constructing requests, you'll work frequently with the request body editor
 
 **Note about Headers**: When you are sending requests through the HTTP protocol, your server might expect a Content-Type header. The Content-Type header allows the server to parse the body properly. For form-data and urlencoded body types, Postman automatically attaches the correct Content-Type header so you don't have to set it. The raw mode header is set when you select the formatting type. If you manually use a Content-Type header, that value takes precedence over what Postman sets. Postman does not set any header type for the binary body type.
 
-##### none
+##### None
 
-Postman provides you the capability to create custom methods and custom methods may or may not require a body. So, by default, Postman creates a body and 'none' radio button is selected. If your custom method has a body, you may choose an appropriate option available there. The default body option appears as below:
+Postman provides you a capability to create custom methods and custom methods may or may not require a body. So, by default, Postman creates a body and 'none' radio button is selected. If your custom method has a body, you may choose an appropriate option available there. The default body option appears as below:
 
 [![body none](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)
 
