@@ -4,15 +4,15 @@ page_id: "customizing_postman"
 warning: false
 ---
 
-### Creating Custom Methods
+### Customizing Request Methods
 
-Postman features can easily be extended and customized to meet corporate, team-wide and user-specific requirements. With a view to providing more user-control, Postman introduced **Custom Methods** feature. Using this feature, you can create your own custom methods. Once you create these methods, you'll be able to send/save your requests. 
+You can customize request methods to meet corporate,  team-wide and other specific requirements. Using this feature, you can create your own request methods. Once you create these methods, you'll be able to send/save these requests. 
 
-This feature lets you to save/delete the custom method besides allowing you to delete default methods thereby giving entire user control to you. Working with this feature is a breeze. Just point your cursor to the dropdown of the request method area, click there, type your custom method name and save it. You can also send a request without saving this custom method. It's that simple! The following screen illustrates this procedure. 
+This feature lets you to save/delete the custom method besides allowing you to delete default methods. Just point your cursor to the dropdown of the request method area, click there, type your custom method name and save it. You can also send a request without saving this custom method. It's that simple! The following screen illustrates this procedure. 
 
-[![custom methods1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods4.gif)
+[![custom methods1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods5.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods5.gif)
 
-**Note:** You can only save your custom methods locally, which means these are not synced to the Postman servers. This essentially means signing out will cause your data to be lost. However, you are also not limited to use any request having a custom method that is not saved in the list. The only constraint is that it will not appear in the method drop-down.   
+**Note:** You can only save your custom methods locally, which means these are not synced to the Postman servers. This essentially means signing out will cause your data to be lost. Postman enables you to freely to use any request having a custom method that is not saved in the list. The only constraint is that it will not appear in the method drop-down.   
 
 If you are in a team workspace and creating and using custom methods, the behavior of this feature is a little dynamic so we recommend you to note the following points:
 
