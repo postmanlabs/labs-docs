@@ -10,9 +10,9 @@ Postman's version control mechanism ensures you always have access to the most u
 
 OR
 
-Postman's version control mechanism ensures you always have access to the most updated versions of your collections. In this strongly-controlled efficient collaboration process, Postman provides a versioning and conflict resolution system in a simple and most effective way. It's easy to see what has changed and then merge the changes.   
+Postman's version control mechanism ensures you always have access to the most updated versions of your collections. In this strongly-controlled efficient collaboration process, Postman provides a versioning and conflict resolution system in a simple and most effective way. It's easy to see what has changed and then merge the changes or resolve the conflicts.   
 
-You can 'fork' a collection in a personal workspace or a team workspace that you're a part of. This creates a local copy. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy. It's because Postman merges all changes to your base collection, which is the destination.
+You can 'fork' a collection in a personal workspace or a team workspace that you're a part of. This creates a local copy. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy. It's because Postman merges all these changes to your base collection, which is the destination.
 
 **Note:** Currently, Postman enables you to fork and merge a collection only in the dashboard. 
 
@@ -46,7 +46,7 @@ It's easy to see changes and merge them. This section describes how to merge the
 
 #### Resolving Conflicts 
 
-This section illustrates how you can resolve conflicts when multiple changes happen in a team. We'll consider the same example, as discussed in the 'Merging Changes' section. However, to create a conflict, we'll change the method 'Get' to 'Post' in the personal workspace collection. 
+This section illustrates how you can resolve conflicts when multiple changes happen in a team. We'll consider the same example, as discussed in the 'Merging Changes' section. However, to create a conflict, we'll change the method 'Get' to 'Post' in the personal workspace collection again. 
 
 [![resolving conflicts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)
 
