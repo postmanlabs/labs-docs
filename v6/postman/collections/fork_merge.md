@@ -20,11 +20,11 @@ You can 'fork' a collection in a personal workspace or a team workspace that you
 
 You can fork a collection from your dashboard. To do this, go to your Postman dashboard and select a collection either from your personal workspace or a team workspace that you're part of. 
 
-In this example, let's consider a collection by name 'ForkMerge' which is present in my personal workspace. We'll fork this collection into a team workspace titled 'Merge Conflict'. I created both the collection (ForkMerge) and the team workspace (Merge Conflict) for demonstration of this example. 
+In this example, let's consider a collection by name 'ForkMerge' which is present in my personal workspace. We'll fork this collection into a team workspace titled 'Merge Conflict'. Both the collection (ForkMerge) and the team workspace (Merge Conflict) were created for demonstration of this example. 
 
 [![fork collection screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge1.png)
 
-Select the workspace in the dashboard that has your collection and click the 'Collections' tab to view a list of collections. Click ellipses (...)adjacent to the collection you want to fork and select Fork, as illustrated in the screen above.
+Select the workspace in the dashboard that has your collection and click the 'Collections' tab to view a list of collections. Click ellipses (...) adjacent to the collection you want to fork and select Fork, as illustrated in the screen above.
 
 The following screen appears:
 
@@ -39,7 +39,7 @@ Postman confirms the success and the screen in the dashboard changes as shown be
 You'll see the above collection in your team workspace 'Merge Conflict'.  
 #### Merging Changes
 
-It's easy to see changes and merge them. This section describes how to merge these changes made in your collections by anyone in your team. In this example, let's consider two requests R1 and R2 (in ForkMerge collection) having 'Get' methods in 'My Workspace'. Now, we go and change these request methods to 'Del' in the ForkMerge collection in Merge Conflict workspace. To merge these changes, go to your dashboard and click 'Merge'. Postman merges these changes successfully. This is illustrated clearly in the following screen, the 'Get' methods which are represented in green font initially turn into red-colored font 'Del' methods:
+It's easy to see changes and merge them. This section describes how to merge the changes made in your collections by your team members. In this example, let's consider two requests R1 and R2 (in ForkMerge collection) having 'Get' methods in 'My Workspace'. Now, we go and change these request methods to 'Del' in the ForkMerge collection in Merge Conflict workspace. To merge these changes, we go to the dashboard and click 'Merge'. Postman merges these changes successfully. This is illustrated clearly in the following screen. The 'Get' methods which are represented in green font initially, turn into red-colored-font 'Del' methods:
 
 [![merging changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)
 
