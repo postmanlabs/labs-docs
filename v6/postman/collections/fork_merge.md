@@ -36,13 +36,14 @@ Postman confirms the success and the screen in the dashboard changes as shown be
 
 [![forked collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.png)
 
-You'll see the above collection in your team workspace 'Merge Conflict'.  
+You'll see the above collection in your team workspace 'Merge Conflict'. 
+
+
 #### Merging Changes
 
 It's easy to see changes and merge them. This section describes how to merge the changes made in your collections by your team members. In this example, let's consider two requests R1 and R2 (in ForkMerge collection) having 'Get' methods in 'My Workspace'. Now, we go and change these request methods to 'Del' in the ForkMerge collection in Merge Conflict workspace. To merge these changes, we go to the dashboard and click 'Merge'. Postman merges these changes successfully. This is illustrated clearly in the following screen. The 'Get' methods which are represented in green font initially, turn into red-colored-font 'Del' methods:
 
 [![merging changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)
-
 
 #### Resolving Conflicts 
 
