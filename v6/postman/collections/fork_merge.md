@@ -50,11 +50,3 @@ It's easy to see changes and merge them. This section describes how to merge the
 This section illustrates how you can resolve conflicts when multiple changes happen in a team. We'll consider the same example, as discussed in the 'Merging Changes' section. However, to create a conflict, we'll change the method 'Get' to 'Post' in the personal workspace collection (Destination collection) again. 
 
 [![resolving conflicts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)
-
-
-
-
-
-All users with read access on a collection can initiate a merge. However, only users with write access can approve a merge.
-If a user does not have write access to a destination collection in a merge action they're trying to perform, they can request a specific user with write access to approve the merge.
-If a user themselves have write access to a destination collection, they can perform the merge without any approval.
