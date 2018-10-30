@@ -46,7 +46,7 @@ It's easy to see changes and merge them. This section describes how to merge the
 
 #### Resolving Conflicts 
 
-This section illustrates how you can resolve conflicts when multiple changes happen in a team. We'll consider the same example, as discussed in the 'Merging Changes' section. However, to create a conflict, we'll change the method 'Get' to 'Post' in the personal workspace collection again. 
+This section illustrates how you can resolve conflicts when multiple changes happen in a team. We'll consider the same example, as discussed in the 'Merging Changes' section. However, to create a conflict, we'll change the method 'Get' to 'Post' in the personal workspace collection (Destination collection) again. 
 
 [![resolving conflicts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)
 
