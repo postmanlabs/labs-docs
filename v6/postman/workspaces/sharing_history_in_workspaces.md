@@ -15,7 +15,7 @@ warning: false
 
 
  
- In the above gif, you can see one of your team members specified an environment variable in the pre-request script which returns an error. You can make corrections and resend the request. Once you do this, you can see how a correct response is received and how the red button adjacent to the Pre-request Script turns from red to green. Your corrected version can again be viewed by other team members in the history and responses section who can in turn view and send this request from the history responses section. 
+ In the above gif, you can see one of your team members specified an environment variable in the pre-request script which returns an error. You can make corrections and resend the request. Once you do this, you can see how a correct response is received and how the button adjacent to the Pre-request Script turns from red to green. Your corrected version can again be viewed by other team members in the history and responses section who can in turn access and modify this request from the history responses section. 
 
 
 
