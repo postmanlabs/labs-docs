@@ -102,7 +102,7 @@ While constructing requests, you'll work frequently with the request body editor
 
 ##### None
 
- Postman creates a body by default and 'none' radio button is selected, irrespective of the fact that your method has a body or not. If your method has a body, you may choose an appropriate option available there. The default body option appears as below:
+ Postman defaults to 'none' radio button whenever you send a request method, irrespective of the fact that your request has a body or not. Choose this option if you don't want to send body. If your request has a body, you may choose an appropriate option available there. The default body option is none and it appears as below:
 
 [![body none](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)
 
