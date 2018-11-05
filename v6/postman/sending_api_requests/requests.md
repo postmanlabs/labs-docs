@@ -102,7 +102,7 @@ While constructing requests, you'll work frequently with the request body editor
 
 ##### None
 
- Postman defaults to 'none' option whenever you send a request method. Choose this option if you don't want to send body with your request. If your request has a body, you may choose an appropriate option available there. The default body option appears as below:
+ Postman defaults to 'none' option whenever you send a request. Choose this option if you don't want to send body with your request. If your request has a body, you may choose an appropriate option available there. The default body option appears as below:
 
 [![body none](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)
 
