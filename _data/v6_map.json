@@ -562,6 +562,11 @@
             "external": false
           },
           {
+            "title": "Coralogix",
+            "href":"/docs/v6/pro/integrations/coralogix",
+            "external": false
+          },
+          {
             "title": "Datadog",
             "href":"/docs/v6/pro/integrations/datadog",
             "external": false
@@ -614,6 +619,11 @@
           {
             "title": "VictorOps",
             "href":"/docs/v6/pro/integrations/victorops",
+            "external": false
+          },
+          {
+            "title": "Custom Webhooks",
+            "href":"/docs/v6/pro/integrations/webhooks",
             "external": false
           }
         ]

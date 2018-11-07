@@ -98,9 +98,15 @@ You can also customize the methods the way you want. To learn more about customi
 
 ### Request Body
 
-While constructing requests, you'll work frequently with the request body editor. Postman lets you send almost any kind of HTTP request. The body editor is divided into 4 areas and has different controls, depending on the body type.
+While constructing requests, you'll work frequently with the request body editor. Postman lets you send almost any kind of HTTP request. The body editor is divided into five areas and has different controls, depending on the body type.
 
 **Note about Headers**: When you are sending requests through the HTTP protocol, your server might expect a Content-Type header. The Content-Type header allows the server to parse the body properly. For form-data and urlencoded body types, Postman automatically attaches the correct Content-Type header so you don't have to set it. The raw mode header is set when you select the formatting type. If you manually use a Content-Type header, that value takes precedence over what Postman sets. Postman does not set any header type for the binary body type.
+
+##### None
+
+ Postman defaults to 'none' option whenever you send a request. Choose this option if you don't want to send body with your request. If your request has a body, you may choose an appropriate option available there. The default body option appears as below:
+
+[![body none](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)
 
 ##### **Form-data**
 
