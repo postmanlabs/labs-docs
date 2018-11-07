@@ -453,6 +453,12 @@
         "external": false
       },
       {
+        "title": "Find and Replace",
+        "url_prefix": "find_replace",
+        "href":"/docs/v6/postman/find_replace",
+        "external": false
+      },
+      {
         "title": "Customizing Postman",
         "url_prefix": "customizing_postman",
         "href":"/docs/v6/postman/customizing_postman",
