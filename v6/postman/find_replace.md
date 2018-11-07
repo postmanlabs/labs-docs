@@ -24,7 +24,7 @@ Let's perform a search operation and find and replace the string 'postman' with 
 
 In the above screen, you can see the results that show how the string 'postman' is searched and replaced with 'pstman'. You can limit a search to a subset of the collections/environments/globals/tabs in your API project by selecting the radio button 'Choose entities to find in'. 
 
-**Note:** You can also use shortcut keys to use this feature. Use Cmd + Shift + F for macOS and Ctrl + Shift + F for Windwos and Linux OS. 
+**Note:** You can also use shortcut keys to use this feature. Use Cmd + Shift + F for macOS and Ctrl + Shift + F for Windows and Linux OS. 
 
 
 
