@@ -4,7 +4,7 @@ page_id: "fork_merge"
 warning: false
 ---
 
-Postman's version control mechanism ensures you always have access to the most updated versions of your collections. Postman provides a versioning and conflict resolution system in a simple and most effective way. Different team members in a team workspace can access and work together on collections. It's easy to see what has changed, then merge the changes or even resolve the conflicts.   
+Postman's version control mechanism ensures you always have access to the most updated versions of your collections. It provides a versioning and conflict resolution system in a simple and most effective way. Different team members in a team workspace can access and work together on collections. It's easy to see what has changed, then merge the changes or even resolve the conflicts.   
 
 You can 'fork' a collection in a personal workspace or a team workspace that you're a part of. This creates a local copy. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
 
