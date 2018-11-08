@@ -1,6 +1,6 @@
 ---
 title: "Version Control in Collections"
-page_id: "fork_merge"
+page_id: "version_control_in_collections"
 warning: false
 ---
 
