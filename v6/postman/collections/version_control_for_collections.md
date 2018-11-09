@@ -39,6 +39,12 @@ It's easy to see changes and merge them. This section describes how to merge the
 
 [![merging changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)
 
+When you attempt to merge the changes by clicking 'Merge all changes', Postman provides you three options, as illustrated in the following screen:
+
+[![merge all changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge_all_changes.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge_all_changes.png)
+
+Choose either of the options and click 'Merge'. 
+
 Let's say you forked a collection and made updates to the forked collection. If there are changes in the base collection, Postman notifies this conflict and allows you to resolve. The following Gif file illustrates this:
 
 [![merging conflict](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)
@@ -49,9 +55,3 @@ This section illustrates how you can resolve conflicts when multiple changes hap
 
 [![resolving conflicts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)
 
-When you attempt to merge the changes by clicking 'Merge all changes', Postman provides you three options, as illustrated in the following screen:
-
-
-[![merge all changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge_all_changes.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge_all_changes.png)
-
-Choose either of the options and click 'Merge'. 
