@@ -1,6 +1,6 @@
 ---
-title: "Version Control in Collections"
-page_id: "version_control_in_collections"
+title: "Version Control for Collections"
+page_id: "version_control_for_collections"
 warning: false
 ---
 
