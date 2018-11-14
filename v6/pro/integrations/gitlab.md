@@ -41,13 +41,10 @@ Save the generated token to use later.
 
 The above screen provides you two options:
 
-* Backup your Postman Collections to GitLab on default domain
-
-* Backup your Postman Collections to GitLab on self-hosted domain
+* [Backup your Postman Collections to GitLab on default domain](#backing-up-to-GitLab)
+* [Backup your Postman Collections to GitLab on self-hosted domain](#backing-up-to-self-hosted-domain)
 
 ### Backing up to GitLab
-
-
 
 <ol start="1">
   <li>Click the <b>Add Integration</b> button to enter your Gitlab token to start the integration.</li>
