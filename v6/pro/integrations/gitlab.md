@@ -7,7 +7,7 @@ warning: false
 
 ---
 
-Back up and synchronize your Postman Collections on GitLab, an open source Git repository manager. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitLab Integration.
+Back up and synchronize your Postman Collections on GitLab, an open source Git repository manager, and to any of your personal or self-hosted domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitLab Integration. 
 
 Setting up a GitLab integration requires you to get a GitLab Personal Access Token and configure how you would like to back up your collections. 
 
@@ -24,6 +24,7 @@ Save the generated token to use later.
 
 [![gitlab token](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gitlab_token2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gitlab_token2.png)
 <br>
+
 ### Configuring a backup for Postman Collections in GitLab
 
 1. In the [Integrations page]({{site.pm.gs}}/dashboard/integrations), find GitLab from a list of Postman's 3rd party Integrations for Postman Pro users.
@@ -31,22 +32,32 @@ Save the generated token to use later.
 [![select gitlab integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab1.png)
 
 <ol start="2">
-  <li>Click the <b>View Details</b> button to see information about GitLab and how it can back up your Postman Collections to your GitLab projects.</li>
+  <li>Click <b>View Details</b> to see information about GitLab and how it can back up your Postman Collections to your GitLab projects or self-hosted domains.</li>
 </ol>
 
-You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Gitlab, or view all integrations.
+**Note:** You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Gitlab, or view all integrations.
 
-[![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-configIntegrations1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-configIntegrations1.png)
+[![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_Main_Backup_Page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_Main_Backup_Page.png)
+
+The above screen provides you two options:
+
+1. Backup your Postman Collections to GitLab on default domain
+
+2. Backup your Postman Collections to GitLab on self-hosted domain
+
+### Backing up to GitLab
+
+
 
 <ol start="3">
   <li>Click the <b>Add Integration</b> button to enter your Gitlab token to start the integration.</li>
 </ol>
 
-[![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-token1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-token1.png)
+[![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GitLab_Add1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GitLab_Add1.png)
 
 <ol start="4">
   <li>
-Enter your GitLab Personal Access Token and click the <b>Proceed button</b>.</li>
+Enter your GitLab Personal Access Token and click <b>Proceed</b>.</li>
 </ol>
 
 <ol start="5">
@@ -67,4 +78,35 @@ In "Advanced Options" you can enter a custom directory name or leave "Postman Co
 [![gitlab advanced options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-advOptions1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-advOptions1.png)
 
 
+### Backing up to self-hosted Domain
+
+<ol start="3">
+  <li>Click the <b>Add Integration</b> button to enter your Gitlab token to start the integration.</li>
+</ol>
+
+[![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GitLab_Custom_Add1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GitLab_Custom_Add1.png)
+
+<ol start="4">
+  <li>
+Enter your GitLab Personal Access Token, specify your Gitlab custom/self-hosted domain and click <b>Proceed</b>.</li>
+</ol>
+
+<ol start="5">
+  <li>In the <b>Backup your Postman Collections</b> page, choose an existing Postman Collection and your GitLab Project, enter a filename for your backup. </li>
+</ol>
+
+<ol start="6">
+  <li>Click <b>Add Integration</b>. 
+Your Collection is pushed to your GitLab project under the filename that you specified and saved as a single JSON file. This is illustrated in the following screen:</li>
+</ol>
+
+[![file in Gitlab project](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_CustomDomain_Collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_CustomDomain_Collection1.png)
+
+Now every change that is saved to your Postman Collection automatically commits changes to your GitLab project in real time. Your Collections and code can exist in the same repository.
+
+[![backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-backupPostToken2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-backupPostToken2.png)
+
+In "Advanced Options" you can enter a custom directory name or leave "Postman Collections" as the default. You can specify a branch for commit or the default branch of the repository will be used.
+
+[![gitlab advanced options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-advOptions1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-advOptions1.png)
 
