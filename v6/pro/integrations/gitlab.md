@@ -41,30 +41,30 @@ Save the generated token to use later.
 
 The above screen provides you two options:
 
-1. Backup your Postman Collections to GitLab on default domain
+* Backup your Postman Collections to GitLab on default domain
 
-2. Backup your Postman Collections to GitLab on self-hosted domain
+* Backup your Postman Collections to GitLab on self-hosted domain
 
 ### Backing up to GitLab
 
 
 
-<ol start="3">
+<ol start="1">
   <li>Click the <b>Add Integration</b> button to enter your Gitlab token to start the integration.</li>
 </ol>
 
 [![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GitLab_Add1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GitLab_Add1.png)
 
-<ol start="4">
+<ol start="2">
   <li>
 Enter your GitLab Personal Access Token and click <b>Proceed</b>.</li>
 </ol>
 
-<ol start="5">
+<ol start="3">
   <li>In the <b>Backup your Postman Collections</b> page, choose an existing Postman Collection and your GitLab Project,  enter a filename for your backup. </li>
 </ol>
 
-<ol start="6">
+<ol start="4">
   <li>Click the <b>Add Integration</b> button. 
 Your Collection is pushed to your GitLab project under the filename that you specified and saved as a single JSON file.</li>
 </ol>
@@ -80,22 +80,22 @@ In "Advanced Options" you can enter a custom directory name or leave "Postman Co
 
 ### Backing up to self-hosted Domain
 
-<ol start="3">
+<ol start="1">
   <li>Click the <b>Add Integration</b> button to enter your Gitlab token to start the integration.</li>
 </ol>
 
 [![gitlab add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GitLab_Custom_Add1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GitLab_Custom_Add1.png)
 
-<ol start="4">
+<ol start="2">
   <li>
 Enter your GitLab Personal Access Token, specify your Gitlab custom/self-hosted domain and click <b>Proceed</b>.</li>
 </ol>
 
-<ol start="5">
+<ol start="3">
   <li>In the <b>Backup your Postman Collections</b> page, choose an existing Postman Collection and your GitLab Project, enter a filename for your backup. </li>
 </ol>
 
-<ol start="6">
+<ol start="4">
   <li>Click <b>Add Integration</b>. 
 Your Collection is pushed to your GitLab project under the filename that you specified and saved as a single JSON file. This is illustrated in the following screen:</li>
 </ol>
