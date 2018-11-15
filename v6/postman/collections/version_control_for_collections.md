@@ -6,7 +6,7 @@ warning: false
 
 Postman's version control mechanism ensures you always have access to the most updated versions of your collections. It provides a versioning and conflict resolution system in a simple and most effective way. Different team members in a team workspace can access and work together on collections. It's easy to see what has changed, then merge the changes or even resolve the conflicts.   
 
-You can 'fork' a collection in a personal workspace or a team workspace that you're a part of, Postman creates a copy of your collection. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
+You can 'fork' a collection in a personal workspace or a team workspace that you're a part of and Postman creates a copy of your collection. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
 
 **Note:** Currently, Postman supports forking and merging the changes in a collection in the dashboard version of Postman.  
 
@@ -45,7 +45,7 @@ When you attempt to merge the changes by clicking 'Merge all changes', Postman p
 
 Choose either of the options and click 'Merge'. 
 
-Let's say you forked a collection and made updates to the forked collection. If there are changes in the base collection, Postman notifies this conflict and allows you to resolve. The following Gif file illustrates this:
+Let's say you forked a collection and made updates to the forked collection. If there are changes in the base collection, Postman notifies this change and allows you to pull the changes. The following Gif file illustrates this:
 
 [![merging conflict](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)
 
