@@ -6,9 +6,9 @@ warning: false
 
 Postman's version control mechanism ensures you always have access to the most updated versions of your collections. It provides a versioning and conflict resolution system in a simple and most effective way. Different team members in a team workspace can access and work together on collections. It's easy to see what has changed, then merge the changes or even resolve the conflicts.   
 
-You can 'fork' a collection in a personal workspace or a team workspace that you're a part of. This creates a local copy. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
+You can 'fork' a collection in a personal workspace or a team workspace that you're a part of, Postman creates a copy of your collection. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
 
-**Note:** Currently, Postman supports forking and merging the changes in the collection in the dashboard version of Postman.  
+**Note:** Currently, Postman supports forking and merging the changes in a collection in the dashboard version of Postman.  
 
 #### Forking a Collection
 
@@ -35,7 +35,7 @@ You'll see the above collection in your team workspace 'Merge Conflict'.
 
 #### Merging Changes
 
-It's easy to see changes and merge them. This section describes how to merge the changes made in your collections by your team members. In this example, let's consider two requests R1 and R2 (in ForkMerge collection) having 'Get' methods in 'My Workspace'. Now, we go and change these request methods to 'Del' in the ForkMerge collection in Merge Conflict workspace. To merge these changes, we go to the dashboard and click 'Merge'. Postman merges these changes successfully. This is illustrated clearly in the following screen. The 'Get' methods which are represented in green font initially, turn into red-colored-font 'Del' methods:
+It's easy to see changes and merge them. This section describes how to merge the changes made in your collections by your team members. In this example, let's consider two requests R1 and R2 (in ForkMerge collection) having 'Get' methods in 'My Workspace'. Now, we go and change these request methods to 'Del' in the ForkMerge collection in Merge Conflict workspace. To merge these changes, we go to the dashboard and click 'Merge'. Postman merges these changes successfully. This is illustrated clearly in the following screen:
 
 [![merging changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)
 
