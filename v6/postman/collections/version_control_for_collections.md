@@ -45,7 +45,7 @@ When you attempt to merge the changes by clicking 'Merge all changes', Postman p
 
 Choose either of the options and click 'Merge'. 
 
-Let's say you forked a collection and made updates to the forked collection. If there are changes in the base collection, Postman notifies this change and allows you to pull the changes. The following Gif file illustrates this:
+Let's say you forked a collection and made updates to the forked collection. If there are changes in the base collection, Postman notifies this and allows you to pull the changes. The following Gif file illustrates this:
 
 [![merging conflict](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)
 
