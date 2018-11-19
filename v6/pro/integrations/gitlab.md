@@ -7,7 +7,7 @@ warning: false
 
 ---
 
-Back up and synchronize your Postman Collections on GitLab (an open source Git repository manager) and on any of your personal or self-hosted domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitLab Integration. 
+Back up and synchronize your Postman Collections on GitLab (an open source Git repository manager) and on any of your personal or custom domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitLab Integration. 
 
 Setting up a GitLab integration requires you to get a GitLab Personal Access Token and configure how you would like to back up your collections. 
 
@@ -41,10 +41,10 @@ Save the generated token to use later.
 
 The above screen provides you the following two options:
 
-* [Backup your Postman Collections to GitLab on default domain](#backing-up-to-GitLab)
-* [Backup your Postman Collections to GitLab on self-hosted domain](#backing-up-to-self-hosted-domain)
+* [Backup your Postman Collections to GitLab](#backing-up-to-GitLab)
+* [Backup your Postman Collections to GitLab on a custom domain](#backing-up-to-self-hosted-domain)
 
-### Backing up to GitLab on default domain
+### Backup your Postman Collections to GitLab
 
 <ol start="1">
   <li>Click the <b>Add Integration</b> button to enter your Gitlab token to start the integration.</li>
@@ -94,7 +94,7 @@ Enter your GitLab Personal Access Token, specify your Gitlab custom/self-hosted 
 
 <ol start="4">
   <li>Click <b>Add Integration</b>. 
-Your Collection is pushed to your GitLab project under the filename that you specified and saved as a single JSON file. This is illustrated in the following screen:</li>
+Your Collection is pushed to your GitLab project under the directory that you specified and saved as a single JSON file. This is illustrated in the following screen:</li>
 </ol>
 
 [![file in Gitlab project](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_CustomDomain_Collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_CustomDomain_Collection1.png)
