@@ -31,7 +31,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
    *   **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected. 
    *   **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
 
-[![general settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Updated_Sept25.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Updated_Sept25.png.png)
+[![general settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Updated_Nov20.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Updated_Nov20.png.png)
 
 ### Themes
 
