@@ -107,7 +107,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 [![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_a_Monitor_Minute_Disabled.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-monitor-web-1.png)
 
-**Note:** You must upgrade your plan to Postman Pro or Enterprise to select regions manually and to schedule your monitor runs using the minute timer. 
+**Note:** To select regions manually and to schedule your monitor runs using the minute timer, upgrade your plan to Postman Pro or Enterprise. 
 
 You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation. 
 
