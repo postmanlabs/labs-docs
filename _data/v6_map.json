@@ -127,7 +127,7 @@
             "title": "Making SOAP requests",
             "href": "/docs/v6/postman/sending_api_requests/making_soap_requests",
             "external": false
-          }
+          },
           {
             "title": "Working with Tabs",
             "href": "/docs/v6/postman/sending_api_requests/working_with_tabs",
