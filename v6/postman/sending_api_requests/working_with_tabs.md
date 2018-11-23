@@ -13,7 +13,7 @@ Click '+' sign to create a tab, as illustrated in the screen below:
 
 [![unsaved tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1.png)
 
- When you click on a saved request in the collection sidebar, the request will open in a tab that is open. However, if the request that's open in the current tab is dirty (orange dot in the tab header), the new request will open in a new tab.
+ When you click on a saved request in the collection sidebar, the request will open in a tab that is open. However, if the request that's open in the current tab is dirty (orange dot in the tab header), the new request will open in a new tab. A dirty tab is shown below:
 
  [![dirty tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1_Dirty.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1_Dirty.png)
 
