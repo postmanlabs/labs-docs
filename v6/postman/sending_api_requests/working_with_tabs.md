@@ -15,6 +15,8 @@ Click '+' sign to create a tab, as illustrated in the screen below:
 
  When you click on a saved request in the collection sidebar, the request will open in a tab that is open. However, if the request that's open in the current tab is dirty (orange dot in the tab header), the new request will open in a new tab.
 
+ [![dirty tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1_Dirty.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1_Dirty.png)
+
  The tabs feature lets you perform many actions. You can duplicate a current tab, close a current tab, force-close all tabs, force-close all but current tab and delete a tab. Click ellipsis (...) to perform these actions, as illustrated below:
 
 [![tabs menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs3.png)
