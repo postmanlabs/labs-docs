@@ -17,7 +17,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
 
    *   **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
    *   **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request. 
-   *   **Always open requests in new tab:** Set this option to OFF to open requests in a single tab always. This option is, by default, set to ON. Which means each time you click a request in the side bar, it opens in a new tab. Refer to the section [Working with tabs](/docs/v6/postman/sending_api_requests/working_with_tabs) chapter for a clear understanding of this feature. 
+   *   **Always open requests in new tab:** Set this option to OFF to open requests in a single tab always. This option is, by default, set to ON. Which means each time you click a request in the side bar, it opens in a new tab. Refer to the section [Working with tabs](/docs/v6/postman/sending_api_requests/working_with_tabs) for a clear understanding of this feature. 
    *   **Always ask when closing unsaved tabs:** If you set this option to ON, Postman prompts you to save changes in your unsaved tabs.   
    *   **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
    *   **Request Timeout in ms (0 for infinity):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
