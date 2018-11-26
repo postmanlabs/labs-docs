@@ -26,11 +26,3 @@ When you try to close an unsaved tab, Postman prompts you to save your changes, 
 [![tabs save](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs_Save.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs_Save.png)
 
 If you don't want to see the save dialog, select the check box 'Do not ask me again'. You can also control this behavior from the 'Settings' screen using the option 'Always ask when closing unsaved tabs'. 
-
-
-Use `Cmd + Shift + { , }` (`Ctrl` for windows) to cycle through open tabs.
-
-
-[![dirty tab in postman](https://www.getpostman.com/img/v1/docs/tabs/dirtytab.png)](https://www.getpostman.com/img/v1/docs/tabs/dirtytab.png)
-
-You can also use `Cmd+Shift+Click` (or `Ctrl+Shift+Click`) to force-open the request in a new tab.
