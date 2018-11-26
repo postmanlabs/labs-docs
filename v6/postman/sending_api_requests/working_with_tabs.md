@@ -33,4 +33,6 @@ When you try to close an unsaved tab, Postman prompts you to save your changes, 
 
 If you don't want to see the save dialog, select the check box 'Do not ask me again'. You can also control this behavior from the 'Settings' screen using the option 'Always ask when closing unsaved tabs'. 
 
-If you close a tab in Postman accidentally or purposefully, you might want to retrieve the same tab again. Postman restores all your tabs in the order they were closed. 
+If you accidentally or purposefully close a tab in Postman, you might want to retrieve the same tab again. Postman has a built-in feature that lets you restore all your tabs in the order they were closed. The following gif file clearly illustrates this process:
+
+
