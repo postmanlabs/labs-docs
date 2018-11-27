@@ -10,17 +10,21 @@ Click '+' sign to open a new tab, as illustrated in the screen below:
 
 [![unsaved tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1.png)
 
-The following screen illustrates multiple tabs in the Postman interface:
+The orange dot in the tab header indicates it's an unsaved tab (dirty). The following screen illustrates multiple tabs in the Postman interface:
 
 [![tabs in postman](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs2.png)
 
- When you click on a saved request in the collection sidebar, the request will open in a tab that is open. However, if the request that's open in the current tab is dirty (orange dot in the tab header), the new request will open in a new tab. A dirty tab is shown below:
+ The way tabs open in Postman is something you may want to understand in vivid detail. Postman tabs have a concept of 'Preview Tabs'. A tab in the preview mode appears as shown below:
 
- [![dirty tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1_Dirty.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1_Dirty.png)
+ [![tabs in preview mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_Preview1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_Preview.png)
 
- **Note:** If you want to open requests in a single tab every time you click a request in the side bar, set the option 'Always open requests in new tab' to OFF in Settings screen. The following gif file clearly illustrates this:
+ If you want to open requests in a single tab every time you click a request in the side bar, set the option 'Always open requests in new tab' to OFF in Settings screen. The following gif file clearly illustrates this:
 
 [![open req in new tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)
+ 
+ Postman always opens a request in the 'preview' tab if 'Always open requests in new tab' option is set to OFF in the Settings screen. When this option is set to ON, Postman opens a request in a new permanent tab always. The above GIF file illustrates this. If you want to make a preview tab a permanent one, double-click the tab itself, as the following GIF file illustrates:
+
+[![preview to permanent tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Preview_to_Permanent_Tab.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Preview_to_Permanent_Tab.gif)
 
  The tabs feature lets you perform many actions. You can duplicate a current tab, close a current tab, force-close all tabs, force-close all but current tab and delete a tab. Click ellipsis (...) to perform these actions, as illustrated below:
 
