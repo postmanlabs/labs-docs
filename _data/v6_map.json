@@ -168,6 +168,11 @@
             "title": "Data formats",
             "href": "/docs/v6/postman/collections/data_formats",
             "external": false
+          },
+          {
+            "title": "Working with OpenAPIs",
+            "href": "/docs/v6/postman/collections/working_with_openAPIs",
+            "external": false
           }
         ]
       },
