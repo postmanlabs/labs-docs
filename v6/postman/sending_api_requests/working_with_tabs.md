@@ -18,7 +18,7 @@ The following screen illustrates multiple tabs in the Postman interface:
 
  [![dirty tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1_Dirty.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1_Dirty.png)
 
- Note: If you want to open requests in a single tab every time you click a request in the side bar, set the option 'Always open requests in new tab' to OFF in Settings screen. The following gif file clearly illustrates this:
+ **Note:** If you want to open requests in a single tab every time you click a request in the side bar, set the option 'Always open requests in new tab' to OFF in Settings screen. The following gif file clearly illustrates this:
 
 [![open req in new tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)
 
