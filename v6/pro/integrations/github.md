@@ -7,7 +7,7 @@ warning: false
 
 ---
 
-Back up and synchronize your Postman Collections on GitHub, the largest host of source code in the world. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitHub Integration.
+Back up and synchronize your Postman Collections on GitHub (the largest host of source code in the world) and on any of your custom GitHub domain. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitHub Integration.
 
 Setting up a GitHub integration requires you to get a GitHub Personal Access Token and configure how you would like to back up your collections. 
 
@@ -32,14 +32,19 @@ Once that token is generated, copy it and save it somewhere for future use.
 [![github integration](https://static.getpostman.com/postman-docs/integrations-github1.png)](https://static.getpostman.com/postman-docs/integrations-github1.png)
 
 <ol start="2">
-  <li>Click the <b>View Details</b> button to see information about Github and how it can back up your Postman Collections to your designated repositories.
+  <li>Click <b>View Details</b> to see information about Github and how it can back up your Postman Collections to your designated repositories.
 
 </li>
 </ol>
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Github, or view all integrations.
 
-[![select github integration](https://static.getpostman.com/postman-docs/WS-integrations-github-configIntegrations1.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-configIntegrations1.png)
+[![select github integration](https://static.getpostman.com/postman-docs/GitHub_Integrations1.png)](https://static.getpostman.com/postman-docs/GitHub_Integrations1.png)
+
+The above screen provides you the following two options:
+
+Backup your Postman Collections to GitHub
+Backup your Postman Collections to GitHub on a custom domain
 
 <ol start="3">
   <li>Click the <b>Add Integration</b> button to authorize a backup of your Postman collections. 
