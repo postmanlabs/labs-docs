@@ -41,8 +41,8 @@ Save the generated token to use later.
 
 The above screen provides you the following two options:
 
-* [Backup your Postman Collections to GitLab](#backing-up-to-GitLab)
-* [Backup your Postman Collections to GitLab on a custom domain](#backing-up-to-self-hosted-domain)
+* [Backup your Postman Collections to GitLab](#backup-your-postman-collections-to-GitLab)
+* [Backup your Postman Collections to GitLab on a custom domain](#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
 
 ### Backup your Postman Collections to GitLab
 
@@ -75,7 +75,7 @@ In "Advanced Options" you can enter a custom directory name or leave "Postman Co
 [![gitlab advanced options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-advOptions1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-advOptions1.png)
 
 
-### Backing up to Gitlab on self-hosted domain
+### Backup your Postman Collections to GitLab on a custom domain
 
 <ol start="1">
   <li>Click the <b>Add Integration</b> button to enter your Gitlab token to start the integration.</li>
