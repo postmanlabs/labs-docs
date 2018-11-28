@@ -10,6 +10,6 @@ You can import your existing OpenAPI Specification 3.0 (OAS 3.0) definitions int
 
 When importing your OpenAPI files, Postman takes advantage of all of its features and neatly organizes your file in multi-level folders (if your open API has multiple levels of hierarchy) to make it an organized collection. 
 
-Postman uses the schemas defined in the OpenAPI to generate request and response bodies in Postman. The following GIF file clearly illustrates importing of OpenAPI definitions file into Postman: 
+Postman uses the schemas defined in the OpenAPI to generate request and response bodies. The following GIF file clearly illustrates importing of OpenAPI definitions file into Postman: 
 
 [![import swagger 3 file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ImportingSwagger3File.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ImportingSwagger3File.gif)
