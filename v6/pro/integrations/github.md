@@ -43,8 +43,8 @@ You also can click the **Configured Integrations** tab to set up other integrati
 
 The above screen provides you the following two options:
 
-* [Backup your Postman Collections to GitHub](#backing-up-to-GitHub)
-* [Backup your Postman Collections to GitHub on a custom domain](#backing-up-to-custom-domain)
+* [Backup your Postman Collections to GitHub](#backup-your-Postman-Collections-to-GitHub)
+* [Backup your Postman Collections to GitHub on a custom domain](#backup-your-Postman-Collections-to-GitHub-on-a-custom-domain)
 
 ### Backup your Postman Collections to GitHub
 
