@@ -46,18 +46,20 @@ The above screen provides you the following two options:
 * [Backup your Postman Collections to GitHub](#backing-up-to-GitHub)
 * [Backup your Postman Collections to GitHub on a custom domain](#backing-up-to-custom-domain)
 
-<ol start="3">
+### Backup your Postman Collections to GitHub
+
+<ol start="1">
   <li>Click the <b>Add Integration</b> button to authorize a backup of your Postman collections. 
 </li>
 </ol>
 
-<ol start="4">
+<ol start="2">
   <li>Enter your GitHub Personal Access Token and click the <b>Proceed button</b>.</li>
 </ol>
 
 [![access token](https://static.getpostman.com/postman-docs/WS-integrations-github-access-token.png)](https://static.getpostman.com/postman-docs/WS-integrations-github-access-token.png)
 
-<ol start="5">
+<ol start="3">
   <li>Once the token is verified, you will be shown the configuration page to configure the integration.</li>
 </ol>
 
@@ -69,15 +71,16 @@ The above screen provides you the following two options:
 * Enter the file name of the collection in the repository.
 * Enter the branch where the collection will be pushed. This branch should already exist in your repository. If you do not specify anything, it will be pushed to the default branch of the repository.
 
-<ol start="6">
+<ol start="4">
   <li> Click the <b>Add Integration</b> button.
 </li>
 </ol>
 
 Every change saved to your Postman Collection automatically commits changes to your GitHub repo in real time.  Your Collections and code can live together in perfect harmony in the same repository.
 
+### Backup your Postman Collections to GitHub on a custom domain
 
-
+[![access token custom](https://static.getpostman.com/postman-docs/GitHub_AccessToken_Custom_Domain.png)](https://static.getpostman.com/postman-docs/GitHub_AccessToken_Custom_Domain.png)
 
 
 
