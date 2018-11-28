@@ -7,7 +7,7 @@ warning: false
 
 ---
 
-Back up and synchronize your Postman Collections on GitHub (the largest host of source code in the world) and on any of your custom GitHub domain. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitHub Integration.
+Back up and synchronize your Postman Collections on GitHub (the largest host of source code in the world) and on any of your custom GitHub domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitHub Integration.
 
 Setting up a GitHub integration requires you to get a GitHub Personal Access Token and configure how you would like to back up your collections. 
 
