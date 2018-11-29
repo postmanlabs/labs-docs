@@ -1,5 +1,5 @@
 ---
-title: "Working with Open APIs"
+title: "Working with OpenAPIs"
 page_id: "working_with_openAPIs"
 warning: false
 ---
@@ -8,7 +8,7 @@ You can import your existing OAS 3.0 definitions (OpenAPI Specification) into Po
 
 [![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
 
-When importing your OpenAPI specification, Postman takes advantage of all of its features and neatly organizes your specification in multi-level folders (if your open API has multiple levels of hierarchy) to make it an organized collection. 
+When importing your OpenAPI specification, Postman takes advantage of all of its features and neatly organizes your specification in multi-level folders (if your openAPI has multiple levels of hierarchy) to make it an organized collection. 
 
 Postman uses the schemas defined in the OpenAPI to generate request and response bodies. The following GIF file clearly illustrates importing of OpenAPI specification into Postman: 
 
