@@ -22,7 +22,7 @@ The orange dot in the tab header indicates it's an unsaved tab (dirty). The foll
 
 [![open req in new tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)
  
-  When you set 'Always open requests in new tab' option to OFF, Postman searches for an open preview tab to open the request. It opens in a new preview tab only if is does not find an already open preview tab. If you set this option to ON, Postman opens a request in a new permanent tab always. The above GIF file illustrates this. 
+  When you set 'Always open requests in new tab' option to OFF, Postman searches for an open preview tab to open the request. It opens in a new preview tab only if it is does not find an already open preview tab. Set this option to ON to let Postman open a request in a new permanent tab always. The above GIF file illustrates this. 
  
  If you want to make a preview tab a permanent one, double-click the tab itself, as the following GIF file illustrates:
 
