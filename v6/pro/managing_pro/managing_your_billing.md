@@ -87,8 +87,8 @@ A print dialogue will open up where you can save this invoice or print it direct
 
 For more information on Billing, see:
 
-* [Change your plan (Pro Monthly)](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
-* [Add user slots to your plan (Pro Annual)](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
-* [Set instructions for next billing cycle](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
-* [Cancel your plan](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
+* [Change your plan (Pro Monthly)](/docs/pro/managing_pro/changing_your_plan)
+* [Add user slots to your plan (Pro Annual)](/docs/pro/managing_pro/changing_your_plan)
+* [Set instructions for next billing cycle](/docs/pro/managing_pro/changing_your_plan)
+* [Cancel your plan](/docs/pro/managing_pro/changing_your_plan)
 
