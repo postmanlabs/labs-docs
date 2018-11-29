@@ -1,6 +1,6 @@
 ---
-title: "Working with OpenAPIs"
-page_id: "working_with_openAPIs"
+title: "Working with OpenAPI"
+page_id: "working_with_openAPI"
 warning: false
 ---
 
