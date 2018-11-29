@@ -4,7 +4,7 @@ page_id: "working_with_openAPIs"
 warning: false
 ---
 
-You can import your existing OpenAPI Specification 3.0 (OAS 3.0) definitions into Postman. Postman supports both YAML and JSON formats. You can choose to upload a file, enter a URL, or directly copy your JSON/YAML. In the Postman app, click 'Import' to bring up the following screen:  
+You can import your existing OAS 3.0 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats. You can choose to upload a file, enter a URL, or directly copy your JSON/YAML. In the Postman app, click 'Import' to bring up the following screen:  
 
 [![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
 
