@@ -22,7 +22,7 @@ The orange dot in the tab header indicates it's an unsaved tab (dirty). The foll
 
 [![open req in new tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)
  
- Postman always opens a request in the 'preview' tab if 'Always open requests in new tab' option is set to OFF in the Settings screen. When this option is set to ON, Postman opens a request in a new permanent tab always. The above GIF file illustrates this. 
+  When you set 'Always open requests in new tab' option to OFF, Postman searches for an open preview tab to open the request. It opens in a new preview tab only if is does not find an already open preview tab. If you set this option to ON, Postman opens a request in a new permanent tab always. The above GIF file illustrates this. 
  
  If you want to make a preview tab a permanent one, double-click the tab itself, as the following GIF file illustrates:
 
@@ -44,3 +44,4 @@ If you accidentally or purposefully close a tab in Postman, you might want to re
 
 [![recently closed tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)
 
+A point to note here is that Postman has a limit of tracking your last 10 tabs. If you exceed this limit, you will not be able to retrieve the tab.
