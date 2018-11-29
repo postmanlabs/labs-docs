@@ -43,10 +43,10 @@ You also can click the **Configured Integrations** tab to set up other integrati
 
 The above screen provides you the following two options:
 
-* [Backup your Postman Collections to GitHub](#backup-your-postman-collections-to-gitHub)
-* [Backup your Postman Collections to GitHub on a custom domain](#backup-your-postman-collections-to-gitHub-on-a-custom-domain)
+* [Backup your Postman Collections to GitHub](#backup-collections-to-gitHub)
+* [Backup your Postman Collections to GitHub on a custom domain](#backup-collections-to-gitHub-on-custom-domain)
 
-### Backup your Postman Collections to GitHub
+### Backup Collections to GitHub
 
 <ol start="1">
   <li>Click the <b>Add Integration</b> button to authorize a backup of your Postman collections. 
@@ -78,7 +78,7 @@ The above screen provides you the following two options:
 
 Every change saved to your Postman Collection automatically commits changes to your GitHub repo in real time.  Your Collections and code can live together in perfect harmony in the same repository.
 
-### Backup your Postman Collections to GitHub on a custom domain
+### Backup Collections to GitHub on custom domain
 
 [![access token custom](https://static.getpostman.com/postman-docs/GitHub_AccessToken_Custom_Domain.png)](https://static.getpostman.com/postman-docs/GitHub_AccessToken_Custom_Domain.png)
 
