@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-A lot of users might want to keep multiple requests open at the same time. The Tabs feature lets you do this. Any request you send (and its response) are local to the tab it's in, and you can switch to other tabs without losing the data in other tabs. 
+A lot of users might want to keep multiple requests open at the same time. The Tabs interface lets you do this. Any request you send (and its response) are local to the tab it's in, and you can switch to other tabs without losing the data in other tabs. 
 Click '+' sign to open a new tab, as illustrated in the screen below:
 
 [![unsaved tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1.png)
@@ -40,7 +40,7 @@ When you try to close an unsaved tab, Postman prompts you to save your changes, 
 
 If you don't want to see the save dialog, select the check box 'Do not ask me again'. You can also control this behavior from the 'Settings' screen using the option 'Always ask when closing unsaved tabs'. 
 
-If you accidentally or purposefully close a tab in Postman, you might want to retrieve the same tab again. Postman has a built-in feature that lets you restore all your tabs in the order they were closed. The following gif file clearly illustrates this process:
+If you accidentally or purposefully close a tab in Postman, you might want to retrieve the same tab again. Postman has a feature that lets you restore all your tabs in the order they were closed. The following gif file clearly illustrates this process:
 
 [![recently closed tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)
 
