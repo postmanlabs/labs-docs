@@ -17,7 +17,7 @@ In general, integrating your [Postman tests](/docs/v6/postman/scripts/test_scrip
 
 You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/v6/postman/collection_runs/command_line_integration_with_newman) with the tests, returning a pass or fail exit code that’s logged in your CI system.
 
-In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/){:target="_blank"}, a continuous integration service that builds and tests projects on GitHub. 
+In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/), a continuous integration service that builds and tests projects on GitHub. 
 
 Travis CI runs your tests every time you commit to your GitHub repo. Then it submits a pull request, or some other specified configuration.
 
