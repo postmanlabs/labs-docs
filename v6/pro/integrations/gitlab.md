@@ -7,7 +7,7 @@ warning: false
 
 ---
 
-Back up and synchronize your Postman Collections on GitLab (an open source Git repository manager) and on any of your personal or custom domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitLab Integration. 
+Back up and synchronize your Postman Collections on GitLab (an open source Git repository manager) and on any of your custom domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitLab Integration. 
 
 Setting up a GitLab integration requires you to get a GitLab Personal Access Token and configure how you would like to back up your collections. 
 
@@ -103,7 +103,12 @@ Now every change that is saved to your Postman Collection automatically commits 
 
 [![backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-backupPostToken2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-gitlab-backupPostToken2.png)
 
-In "Advanced Options" you can enter a custom directory name or leave "Postman Collections" as the default. You can specify a branch for commit or the default branch of the repository will be used.
+In "Advanced Options" you can enter a custom directory name or leave "Postman Collections" as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch you are trying to push your changes. 
 
 [![gitlab advanced options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-advOptions1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab-advOptions1.png)
 
+Click Add Integrations. 
+
+Now, you can go to your Gitlab domain and view your backed-up collections, as illustrated in the screen below:
+
+[![gitlab advanced options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_repo1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_repo1.png)
