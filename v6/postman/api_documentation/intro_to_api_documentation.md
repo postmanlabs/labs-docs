@@ -90,4 +90,4 @@ Click Comments to bring up the 'Add comment' dialog, as illustrated above. Write
 
 ### Free documentation views with your Postman account
  
-Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or the [account usage page](https://go.pstmn.io/postman-account-limits).
+Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).

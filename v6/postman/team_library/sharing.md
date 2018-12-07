@@ -19,7 +19,7 @@ The Team Library allows team members to subscribe to shared collections. When so
 
 Shared environments work slightly differently. Through a shared environment, you can create and share a snapshot of a local environment. Users may have different environment variable values, so updates to these values are not synced between shared environments.
 
-There are a number of enhancements coming up soon on [Postman's product roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers){:target="_blank"} that will impact workflows for teams wishing to 'sync' updates to their shared environment. In the meantime, here are some workarounds that rely on collections as the single source of truth for your APIs:
+There are a number of enhancements coming up soon on [Postman's product roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers) that will impact workflows for teams wishing to 'sync' updates to their shared environment. In the meantime, here are some workarounds that rely on collections as the single source of truth for your APIs:
 
 1. Run a pre-request script to validate the correctness of required environment keys and values. If any are missing, stop the workflow and throw an error.
 2. Set environment variables in the first request of the collection, or a pre-request script.
