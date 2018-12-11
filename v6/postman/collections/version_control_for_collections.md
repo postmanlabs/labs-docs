@@ -4,15 +4,15 @@ page_id: "version_control_for_collections"
 warning: false
 ---
 
-Postman's version control mechanism ensures you always have access to the most updated versions of your collections. It provides a versioning and conflict resolution system in a simple and most effective way. Different team members in a team workspace can access and work together on collections. It's easy to see what has changed, then merge the changes or even resolve the conflicts.   
+Version control for collections in Postman allows multiple users to work on the same collection. It also ensures you always have access to the most updated versions of your collections. Different team members in a team workspace can access and work together on collections. It's easy to see what has changed, then merge the changes and even resolve the conflicts.   
 
-You can 'fork' a collection in a personal workspace or a team workspace that you're a part of and Postman creates a copy of your collection. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
+You can 'fork' a collection in a personal workspace or a team workspace that you're a part of to create a copy of your collection. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
 
 **Note:** Currently, Postman supports forking and merging the changes in a collection in the dashboard version of Postman.  
 
 #### Forking a Collection
 
-You can fork a collection from your dashboard. To do this, go to your Postman dashboard and select a collection either from your personal workspace or a team workspace that you're part of. 
+You can fork a collection from your dashboard. To do this, go to your Postman dashboard and select a collection either from your personal workspace or a team workspace. 
 
 In this example, let's consider a collection by name 'ForkMerge' which is present in my personal workspace. We'll fork this collection into a team workspace titled 'Merge Conflict'. Both the collection (ForkMerge) and the team workspace (Merge Conflict) were created for demonstration of this example. 
 
