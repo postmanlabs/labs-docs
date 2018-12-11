@@ -5,7 +5,7 @@ warning: false
 
 ---
 
- Tabs in Postman allow you to keep multiple requests open at the same time. You can send a request and receive a response in each tab separately and switch between these tabs without losing the data. To learn more about other tab-related behaviors in Postman, refer to the section [Settings](/docs/postman/launching_postman/settings/). Click '+' sign to open a new tab, as illustrated in the screen below:
+ Tabs in Postman allow you to keep multiple requests open at the same time. You can send a request and receive a response in each tab separately and switch between these tabs without losing the data. To learn more about other tab-related behaviors in Postman, refer to the section [Settings](/docs/v6/postman/launching_postman/settings/). Click '+' sign to open a new tab, as illustrated in the screen below:
 
 [![unsaved tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs1.png)
 
