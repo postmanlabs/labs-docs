@@ -17,15 +17,22 @@ warning: false
  
 #### Types of Tabs
 
-The way tabs behave in Postman is something you may want to understand in vivid detail. Tabs have different states in Postman and this section outlines a brief overview of each state. The following are the different types of Tabs available:
+The way tabs behave in Postman is something you may want to understand in vivid detail. Since you will be actively using tabs, Postman categorizes them in different states based on your activity. This section outlines a brief overview of each state of the tab. The following are the different types of Tabs available:
 
 * Preview Tab
 * Busy Tab
 * Unsaved Tab (Dirty Tabs)
+* Conflicted Tab
 
 ##### Preview Tabs
 
-Any new request opened in a new tab will be in preview mode. A tab in the preview mode appears as shown below: 
+A request when opened will be in a preview tab. Postman treats this as 'Preview tab' because it retains the existing state until you make any change in it. If you have four requests and open them one after the other, each of this requests opens in the same tab. Because you have not made any attempt to modify data within that tab, Postman treats it as a preview tab. A preview tab is represented in italicised titles. The following screen illustrates this: 
+
+[![tabs in preview mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Preview1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Preview.gif)
+
+Let's take a scenario wherein you've 100 requests that contain critical debugging information. And your aim is to just analyze the information in these requests. In this case, it makes sense to show the information in that request in a preview tab. It would just not be feasible to open 100 requests in 100 tabs
+
+A tab in the preview mode appears as shown below: 
 
 [![tabs in preview mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_Preview1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_Preview.png)
 
@@ -78,7 +85,6 @@ The 'Do You Want To Save' dialog offers the following choices:
 •	**Cancel** cancels the close action and the tab remains open. 
 •	**Save changes** saves your changes.
 
-
 ##### Switching and Rearranging Tabs
 
 You can switch between tabs with a click of a mouse button. You can also rearrange tabs by dragging them along the tab bar, as shown in the screen below:
@@ -116,7 +122,7 @@ The following screen illustrates multiple tabs in the Postman interface:
 
 [![tabs in postman](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs2.png)
 
-Postman lets you control the way you want to work with multiple tabs in the interface. To learn more about this, refer to the section 'Other Tab Settings'. 
+Postman allows you control the way you want to work with multiple tabs. To learn more about this, refer to the section 'Other Tab Settings'. 
 
 ### Other Tab Settings
 
@@ -131,9 +137,12 @@ If you want to open requests in a single tab every time you click a request in t
 
 [![open req in new tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)
  
-  When you set 'Always open requests in new tab' option to OFF, Postman searches for an open preview tab to open the request. It opens in a new preview tab only if it is does not find an already open preview tab. Set this option to ON to let Postman open a request in a new tab always. The above screen illustrates this. 
+ When you set 'Always open requests in new tab' option to OFF, Postman searches for an open preview tab to open the request. It opens in a new preview tab only if it is does not find an already open preview tab. Set this option to ON to let Postman open a request in a new tab always. The above screen illustrates this. 
  
- If you want to make a preview tab a permanent one, double-click the tab itself, as the following screen illustrates:
 
-[![preview to permanent tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Preview_to_Permanent_Tab.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Preview_to_Permanent_Tab.gif)
+
+##### Always ask when closing unsaved tabs
+
+If you wish to save your data in a tab, set this option to 'ON' in Postman settings screen. 
+ 
 
