@@ -22,15 +22,14 @@ The way tabs behave in Postman is something you may want to understand in vivid 
 * Preview Tab
 * Busy Tab
 * Unsaved Tab (Dirty Tabs)
-* Conflicted Tab
 
 ##### Preview Tabs
 
-A request when opened will be in a preview tab. Postman treats this as a 'Preview tab' because it retains the existing state of a request until any changes are made. If you have four requests and open them one after the other, each of this requests opens in the same tab. Because you have not made any attempt to modify data within that tab, Postman treats it as a preview tab. A preview tab is represented in italicised titles. The following screen illustrates this: 
+A request when opened will be in a preview tab. Postman treats this as a 'Preview tab' because it retains the existing state of a request until any changes are made. If you have four requests and open them one after the other, each of these requests opens in the same tab. Because you have not made any attempt to modify data within that tab, Postman displays it as a preview tab. A preview tab is represented in italicized titles. The following screen illustrates this: 
 
 [![tabs in preview mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Preview1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Preview.gif)
 
-Let's take a scenario wherein you've 100 requests that contain critical debugging information. And your aim is to just analyze the information in these requests. In this case, it makes sense to show the information in that request in a preview tab. It would just not be feasible to open 100 requests in 100 tabs. 
+Let's take a scenario wherein you've 100 requests that contain critical debugging information. And your aim is to just analyze the information in these requests. In this case, it makes sense to show the information in those requests in a preview tab. It would just not be feasible to open 100 requests in 100 tabs. 
 
 
 ##### Busy Tab
@@ -41,18 +40,18 @@ The following screen illustrates this:
 
 [![tabs in busy mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Busy.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Busy.gif)
 
-In the above screen, you can view how Postman opens a new preview tab to display the information in other requests soon after a preview tab changed its state to busy. 
+In the above screen, you can view how Postman opens a new preview tab to display the information in other requests soon after a preview tab changes its state to busy. 
 
 ##### Unsaved Tab (Dirty Tab)
 
-When you modify data in a tab, it becomes an unsaved (dirty) tab which is indicated by an orange dot on top corner. The following screen illustrates how a tab in a preview mode turns into an *unsaved* tab:
+When you modify data in a tab, there are changes to be committed. Postman treats this tab as an unsaved (dirty) tab which is indicated by an orange dot on top corner. The following screen illustrates a preview tab changing to an *unsaved* tab:
 
 [![tabs in unsaved mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Unsaved.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Unsaved.gif)
 
 
 #### Managing Tabs
 
-The tabs interface lets you perform many actions. You can open any number of tabs for your requests and can rearrange them in the order you want. Additionally, you can duplicate a current tab, close a current tab,force-close all tabs, force-close all but current tab and delete a tab. Also, there are keyboard shortcuts that let you perform these actions. 
+The tabs interface lets you perform many actions. You can open any number of tabs for your requests and can rearrange them in the order you want. Additionally, you can duplicate a current tab, close a current tab, force-close all tabs, force-close all but current tab and delete a tab. Also, there are keyboard shortcuts that let you perform these actions. 
 
 This section describes the following topics:
 
@@ -63,13 +62,13 @@ This section describes the following topics:
 
 ##### Opening and Closing Tabs
 
-You can open several tabs at the same time. Click '+' sign to open a new tab, as illustrated in the screen below:
+You can open several tabs at the same time in Postman. Click '+' sign to open a new tab, as illustrated in the screen below:
 
 [![open a tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_PlusSign.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_PlusSign1.png)
 
 To close a tab, click 'x' on top corner of a tab. The following screen illustrates this:
 
-[![close a tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_CloseHover.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_CliseHover.gif.png)
+[![close a tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_CloseHover.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_CloseHover.gif)
 
 **Note:** An orange dot on top right corner of a tab indicates there are changes that need to be saved. 
 
@@ -89,18 +88,18 @@ The 'Do You Want To Save' dialog offers the following choices:
 
 You can switch between tabs with a click of a mouse button. You can also rearrange tabs by dragging them along the tab bar, as shown in the screen below:
 
-[![rearrange tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RearrangeTabs.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RearrangeTabs_.gif.png)
+[![rearrange tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RearrangeTabs.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RearrangeTabs.gif)
 
 
 ##### Restoring Tabs
 
 If you close a tab in Postman, you might want to restore the same tab again. Postman lets you restore all your tabs in the order they were closed. 
 
-The following screen clearly illustrates this process:
+The following screen illustrates this:
 
 [![recently closed tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)
 
-**Note:** A point to note here is that Postman has a limit of tracking your last 10 tabs. If you exceed this limit, you will not be able to restore the tab.
+**Note:** A point to note here is that Postman has a limit of tracking your last 10 tabs. If you exceed this limit, you will not be able to restore the tabs.
 
 
 ##### Duplicating Tabs
@@ -116,13 +115,13 @@ Click ellipsis (...) to duplicate a tab, as illustrated below:
 
 ### Using Multiple Tabs
 
-Postman lets you open multiple tabs in its interface. When your interface contains so many tabs they may seem not fitting in the Postman interface. But tabs just get underneath each other as they are opened because Postman does not limit you from opening them. 
+Postman lets you open multiple tabs in its interface. When your interface contains so many tabs, they may seem not fitting in the tabs' interface. But tabs just get underneath each other as they are opened because Postman does not limit you from opening any number of tabs. 
 
-The following screen illustrates multiple tabs in the Postman interface:
+The following screen illustrates multiple tabs in the Postman:
 
 [![tabs in postman](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs2.png)
 
-Postman allows you control the way you want to work with multiple tabs. To learn more about this, refer to the section 'Other Tab Settings'. 
+Postman allows you to control the way you want to work with multiple tabs. To learn more about this, refer to the section 'Other Tab Settings'. 
 
 ### Other Tab Settings
 
@@ -133,7 +132,7 @@ To provide more user control on tabs, Postman has the following two settings opt
 
 ##### Always open request in new tab
 
-If you want to open requests in a single tab every time you click a request in the side bar, set the option 'Always open requests in new tab' to OFF in Settings screen. The following screen clearly illustrates this:
+If you want to open requests in a single tab every time you click a request in the side bar, set the option 'Always open requests in new tab' to OFF in Settings screen. The following screen illustrates this:
 
 [![open req in new tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/OpenReqNewTab.gif)
  
@@ -142,6 +141,6 @@ If you want to open requests in a single tab every time you click a request in t
 
 ##### Always ask when closing unsaved tabs
 
-If you wish to save your data in a tab, set this option to 'ON' in Postman settings screen. 
+If you want Postman to always prompt you to save your data in a tab, set this option to 'ON' in Postman settings. 
  
 
