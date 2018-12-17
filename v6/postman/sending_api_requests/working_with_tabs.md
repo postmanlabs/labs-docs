@@ -22,6 +22,7 @@ The way tabs behave in Postman is something you may want to understand in vivid 
 * Preview Tab
 * Busy Tab
 * Unsaved Tab (Dirty Tabs)
+* Conflicted Tabs
 
 ##### Preview Tabs
 
@@ -49,9 +50,16 @@ When you modify data in a tab, there are changes to be committed. Postman treats
 [![tabs in unsaved mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Unsaved.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Unsaved.gif)
 
 
+##### Conflicted Tabs
+
+A conflicted tab in Postman is one that has unsaved data in more than a single tab. The following screen illustrates this:
+
+
+
+
 #### Managing Tabs
 
-The tabs interface lets you perform many actions. You can open any number of tabs for your requests and can rearrange them in the order you want. Additionally, you can duplicate a current tab, close a current tab, force-close all tabs, force-close all but current tab and delete a tab. Also, there are keyboard shortcuts that let you perform these actions. 
+The tabs interface lets you perform many actions. You can open any number of tabs for your requests and can rearrange them in the order you want. Additionally, you can duplicate the current tab, close the current tab, force-close all tabs, and force-close all but current tab. Also, there are keyboard shortcuts (Cmd / Ctrl + /) that let you perform these actions. 
 
 This section describes the following topics:
 
@@ -62,17 +70,17 @@ This section describes the following topics:
 
 ##### Opening and Closing Tabs
 
-You can open several tabs at the same time in Postman. Click '+' sign to open a new tab, as illustrated in the screen below:
+You can open several tabs at the same time in Postman. Click '+' sign to open a new tab. Alternatively, use Cmd/Ctrl + T. The screen below illustrates opening a new tab:
 
 [![open a tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_PlusSign.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_PlusSign1.png)
 
-To close a tab, click 'x' on top corner of a tab. The following screen illustrates this:
+To close a tab, click 'x' on top corner of a tab. Alteratively, use Cmd/Ctrl + W. The screen below illustrates closing a tab:
 
 [![close a tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_CloseHover.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_CloseHover.gif)
 
 **Note:** An orange dot on top right corner of a tab indicates there are changes that need to be saved. 
 
-Whenever you close a tab after making changes in it, Postman prompts to save your changes, as shown below:
+Whenever you attempt to close a tab after making changes in it, Postman prompts you to save your changes, as shown below:
 
 [![tabs save](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs_Save.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs_Save.png)
 
@@ -99,7 +107,7 @@ The following screen illustrates this:
 
 [![recently closed tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)
 
-**Note:** A point to note here is that Postman has a limit of tracking your last 10 tabs. If you exceed this limit, you will not be able to restore the tabs.
+**Note:** A point to note here is that Postman has a limit of tracking your last 10 tabs. If you exceed this limit, you will not be able to restore the tabs. Let's say you have 15 tabs open and you closed 10 tabs. Postman will be able to restore all these 10 tabs. Let's say you closed one more tab. In this case, Postman will be able to restore the one you recently closed and nine of the other 10 tabs closed earlier.
 
 
 ##### Duplicating Tabs
@@ -142,5 +150,7 @@ If you want to open requests in a single tab every time you click a request in t
 ##### Always ask when closing unsaved tabs
 
 If you want Postman to always prompt you to save your data in a tab, set this option to 'ON' in Postman settings. 
+
+**Warning:** Turning this setting off might cause you to lose unsaved data. 
  
 
