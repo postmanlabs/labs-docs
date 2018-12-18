@@ -12,6 +12,7 @@ This section describes the following topics:
 
 * Forking a Collection
 * Merging Changes
+* Pulling Changes 
 * Resolving Conflicts
 
 #### Forking a Collection
@@ -38,17 +39,24 @@ You'll see the above collection in your team workspace 'Merge Conflict'.
 
 #### Merging Changes
 
-It's easy to see changes and merge them. This section describes how to merge the changes made in your collections by your team members. In this example, let's consider two requests R1 and R2 (in ForkMerge collection) having 'Get' methods in 'My Workspace'. Now, we go and change these request methods to 'Del' in the ForkMerge collection in Merge Conflict workspace. To merge these changes, we go to the dashboard and click 'Merge'. Postman merges these changes successfully. This is illustrated clearly in the following screen:
+It's easy to see changes and merge them. This section describes how to merge the changes made in your collections by your team members.
+Let's change the name of the forked collection in the above example to HealthAPICheck - Forked Collection which is part of Team-Cobras workspace. 
 
-[![merging changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.gif)
+The base collection - HealthAPICheck has four request R1, R2, R3, and R4. All of them are 'Get' requests. A copy of this collection now exists in Team-Cobras workspace. All four requests are updated in Team-Cobras workspace and those changes are merged in the base collection. The following screen illustrates this:
 
-When you attempt to merge the changes by clicking 'Merge all changes', Postman provides you three options, as illustrated in the following screen:
+[![merging changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_n_Merging.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_n_Merging.gif)
 
-[![merge all changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge_all_changes.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge_all_changes.png)
+
+When you attempt to merge the changes by clicking 'Merge all changes',Postman provides you three options, as illustrated in the following screen:
+
+[![merge all changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Merge_All_Changes.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Merge_All_Changes.png)
 
 Choose either of the options and click 'Merge'. 
 
-Let's say you forked a collection and made updates to the forked collection. If there are changes in the base collection, Postman notifies this and allows you to pull the changes. The following Gif file illustrates this:
+
+#### Pulling Changes 
+
+Let's say you forked a collection and made updates to the forked collection. If there are changes in the base collection, Postman notifies this and allows you to pull the changes. The following file illustrates this:
 
 [![merging conflict](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)
 
