@@ -4,19 +4,22 @@ page_id: "version_control_for_collections"
 warning: false
 ---
 
-Version control for collections in Postman allows multiple users to work on the same collection. It also ensures you always have access to the most updated versions of your collections. Different team members in a team workspace can access and work together on collections. It's easy to see what has changed, then merge the changes and even resolve the conflicts.   
+Version control for collections in Postman allows multiple users to work on the same collection. It ensures you always have access to the updated versions  of collections. It's easy to see what has changed, then merge the changes and even resolve the conflicts.   
 
-You can 'fork' a collection in a personal workspace or a team workspace that you're a part of to create a copy of your collection. In Postman parlance, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
+You can 'fork' a collection in a personal or a team workspace. To create a copy (fork) of a collection, either the workspace must belong to you or you should be a member of a team workspace. In Postman, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
 
-**Note:** Currently, Postman supports forking and merging the changes in a collection in the dashboard version of Postman.  
+This section describes the following topics:
+
+* Forking a Collection
+* Merging Changes
+* Resolving Conflicts
 
 #### Forking a Collection
 
-You can fork a collection from your dashboard. To do this, go to your Postman dashboard and select a collection either from your personal workspace or a team workspace. 
+You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, choose a collection and select 'Create a Fork'. Specify a name for this copy, choose a workspace where you need this collection and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A copy of this is created in Team-Cobras workspace which has zero collections in it. The following file illustrates this:
 
-In this example, let's consider a collection by name 'ForkMerge' which is present in my personal workspace. We'll fork this collection into a team workspace titled 'Merge Conflict'. Both the collection (ForkMerge) and the team workspace (Merge Conflict) were created for demonstration of this example. 
+[![fork collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)
 
-[![fork collection screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge1.png)
 
 Select the workspace in the dashboard that has your collection and click the 'Collections' tab to view a list of collections. Click ellipses (...) (adjacent to the 'share' button) and select Fork, as illustrated in the screen above.
 
