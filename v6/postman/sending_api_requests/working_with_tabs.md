@@ -52,7 +52,9 @@ When you modify data in a tab, there are changes to be committed. Postman treats
 
 ##### Conflicted Tab
 
-A conflicted tab in Postman is one that has unsaved data in more than a single tab. If you have a shared collection and if the request is modified in more than one workspace or by someone in another team, then Postman treats this as a conflicted tab. Let's take the following example where a Post request R1 is present in two workspaces - QA-Panthers and Team-Chargers. This request is updated in both the workspaces and Postman shows the conflicted state asking you for a resolution. 
+A tab in Postman enters a 'conflicted' state if the underlying request itself changes while the tab is open. This can happen if you've modified and saved the request in another tab (possibly in another workspace), or if someone else in your team working on the same request saves their changes while your tab is still open. 
+
+Let's take the following example where a Post request R1 is present in two workspaces - QA-Panthers and Team-Chargers. This request is updated in both the workspaces and Postman shows the conflicted state asking you for a resolution. 
 
 The following screen illustrates this:
 
