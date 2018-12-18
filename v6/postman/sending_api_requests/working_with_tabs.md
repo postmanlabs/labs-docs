@@ -22,9 +22,9 @@ The way tabs behave in Postman is something you may want to understand in vivid 
 * Preview Tab
 * Busy Tab
 * Unsaved Tab (Dirty Tabs)
-* Conflicted Tabs
+* Conflicted Tab
 
-##### Preview Tabs
+##### Preview Tab
 
 A request when opened will be in a preview tab. Postman treats this as a 'Preview tab' because it retains the existing state of a request until any changes are made. If you have four requests and open them one after the other, each of these requests opens in the same tab. Because you have not made any attempt to modify data within that tab, Postman displays it as a preview tab. A preview tab is represented in italicized titles. The following screen illustrates this: 
 
@@ -35,13 +35,13 @@ Let's take a scenario wherein you've 100 requests that contain critical debuggin
 
 ##### Busy Tab
 
-Postman puts a tab in 'Busy' mode as soon as it changes its preview mode. Let's say you have a request open in a preview tab and you hit the send button to view its response - the tab changes its state from 'preview' to 'busy' because of the change in the response of the request. Postman now opens other requests in a new preview tab, until there's a state change. 
+Postman puts a tab in 'Busy' mode as soon as the request receives a response (a state change though no data is modified). Let's say you have a request open in a preview tab and you hit the send button to view its response - the tab changes its state from 'preview' to 'busy' because of the change in the response of the request. Postman now opens other requests in a new preview tab, until there's a state change. 
 
 The following screen illustrates this:
 
 [![tabs in busy mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Busy.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Busy.gif)
 
-In the above screen, you can view how Postman opens a new preview tab to display the information in other requests soon after a preview tab changes its state to busy. 
+In the above screen, you can view how Postman opens a new preview tab to display information in other requests soon after a preview tab changes its state to busy. 
 
 ##### Unsaved Tab (Dirty Tab)
 
@@ -50,16 +50,19 @@ When you modify data in a tab, there are changes to be committed. Postman treats
 [![tabs in unsaved mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Unsaved.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Unsaved.gif)
 
 
-##### Conflicted Tabs
+##### Conflicted Tab
 
-A conflicted tab in Postman is one that has unsaved data in more than a single tab. The following screen illustrates this:
+A conflicted tab in Postman is one that has unsaved data in more than a single tab. If you have a shared collection and if the request is modified in more than one workspace or by someone in another team, then Postman treats this as a conflicted tab. Let's take the following example where a Post request R1 is present in two workspaces - QA-Panthers and Team-Chargers. This request is updated in both the workspaces and Postman shows the conflicted state asking you for a resolution. 
 
+The following screen illustrates this:
 
+[![tabs in conflict mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Conflicted.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_Conflicted.gif)
 
+In a conflicted tab, you can either discard or overwrite your changes or save the data as a separate request.  
 
 #### Managing Tabs
 
-The tabs interface lets you perform many actions. You can open any number of tabs for your requests and can rearrange them in the order you want. Additionally, you can duplicate the current tab, close the current tab, force-close all tabs, and force-close all but current tab. Also, there are keyboard shortcuts (Cmd / Ctrl + /) that let you perform these actions. 
+The tabs interface lets you perform many actions. You can open any number of tabs for your requests and can rearrange them in the order you want. Additionally, you can duplicate the current tab, close the current tab, force-close all tabs, and force-close all but current tab. Also, there are keyboard shortcuts (Cmd/Ctrl + /) that let you perform these actions. 
 
 This section describes the following topics:
 
@@ -107,7 +110,7 @@ The following screen illustrates this:
 
 [![recently closed tabs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RecentlyClosedTabs.gif)
 
-**Note:** A point to note here is that Postman has a limit of tracking your last 10 tabs. If you exceed this limit, you will not be able to restore the tabs. Let's say you have 15 tabs open and you closed 10 tabs. Postman will be able to restore all these 10 tabs. Let's say you closed one more tab. In this case, Postman will be able to restore the one you recently closed and nine of the other 10 tabs closed earlier.
+**Note:** A point to note here is that Postman has a limit of tracking your last 10 tabs. If you exceed this limit, you will not be able to restore the tabs. Let's say you have 15 tabs open and you closed 10 tabs. Postman will be able to restore all the 10 tabs. Let's say you closed one more tab. In this case, Postman will be able to restore the one you recently closed and nine of the other 10 tabs closed earlier.
 
 
 ##### Duplicating Tabs
@@ -118,16 +121,15 @@ Click ellipsis (...) to duplicate a tab, as illustrated below:
 
 [![tabs menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs4.png)
 
-**Note:** Duplicating a tab and duplicating a request are not one and the same. When you duplicate a request, it occupies space and adds an additional request to your collection. Postman recommends you to always duplicate a tab to run the same request with different query parameters. 
-
+**Note:** Duplicating a tab and duplicating a request are not one and the same. When you duplicate a request, it occupies space and adds an additional request to your collection. For example, if you're trying out variations of a request with minor changes (something like change in query parameters), you might want to work with duplicate tabs. If you have significant changes in a request, you might probably want to duplicate a request. Also, you may duplicate a request if you want to keep track of changes. 
 
 ### Using Multiple Tabs
 
-Postman lets you open multiple tabs in its interface. When your interface contains so many tabs, they may seem not fitting in the tabs' interface. But tabs just get underneath each other as they are opened because Postman does not limit you from opening any number of tabs. 
+Postman lets you open multiple tabs in its interface. When your tabs interface contains many tabs, let's say 20 tabs, they may seem not fitting in the tabs' interface. You can access them by scrolling your mouse.  
 
 The following screen illustrates multiple tabs in the Postman:
 
-[![tabs in postman](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs2.png)
+[![tabs in postman](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_Multiple.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_Multiple.gif)
 
 Postman allows you to control the way you want to work with multiple tabs. To learn more about this, refer to the section 'Other Tab Settings'. 
 
