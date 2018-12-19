@@ -4,9 +4,9 @@ page_id: "version_control_for_collections"
 warning: false
 ---
 
-Version control for collections in Postman allows multiple users to work on the same collection. It ensures you always have access to the updated versions  of collections. It's easy to see what has changed, then merge the changes and even resolve the conflicts.   
+Version control for collections in Postman allows multiple users to work on the same collection. It ensures you always have access to the updated versions  of collections. It's easy to see what has changed, pull the changes, merge them and even resolve the conflicts.   
 
-You can 'fork' a collection in a personal or a team workspace. To create a copy (fork) of a collection, either the workspace must belong to you or you should be a member of a team workspace. In Postman, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges the changes to your base collection (destination).
+You can 'fork' a collection in a personal or a team workspace. To create a copy (fork) of a collection, either the workspace must belong to you or you should be a member of a team workspace. In Postman, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges your changes to the base collection (destination).
 
 This section describes the following topics:
 
@@ -17,7 +17,7 @@ This section describes the following topics:
 
 #### Forking a Collection
 
-You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, choose a collection and select 'Create a Fork'. Specify a name for this copy, choose a workspace where you need this collection and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A copy of this is created in Team-Cobras workspace which has zero collections in it. The following file illustrates this:
+You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, click (...) adjacent to a collection and select 'Create a Fork'. Specify a name for this copy, select a workspace and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A copy of this is created (forked) in Team-Cobras workspace where there are no collections. The following file illustrates this:
 
 [![fork collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)
 
@@ -36,10 +36,16 @@ Postman confirms the success and the screen in the dashboard changes as shown be
 
 You'll see the above collection in your team workspace 'Merge Conflict'. 
 
+#### Pulling Changes 
+
+After forking a collection, the base collection could be updated by others. If that happens, your forked copy is no longer the same. In such circumstances, Postman notifies you about this and allows you to pull the changes. As discussed in the previous section, the HealthAPICheck collection is forked in Team-Cobras. This collection is now updated making the forked and base collection out of sync. In this case, you may want to pull the changes. The following file illustrates this:bbbb
+
+[![pull changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Pull_Changes.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Pull_Changes.gif)
+
 
 #### Merging Changes
 
-It's easy to see changes and merge them. This section describes how to merge the changes made in your collections by your team members.
+It's easy to view changes, review and merge them. This section describes how to merge the changes made in your collections by others.
 Let's change the name of the forked collection in the above example to HealthAPICheck - Forked Collection which is part of Team-Cobras workspace. 
 
 The base collection - HealthAPICheck has four request R1, R2, R3, and R4. All of them are 'Get' requests. A copy of this collection now exists in Team-Cobras workspace. All four requests are updated in Team-Cobras workspace and those changes are merged in the base collection. The following screen illustrates this:
@@ -53,16 +59,9 @@ When you attempt to merge the changes by clicking 'Merge all changes',Postman pr
 
 Choose either of the options and click 'Merge'. 
 
-
-#### Pulling Changes 
-
-Let's say you forked a collection and made updates to the forked collection. If there are changes in the base collection, Postman notifies this and allows you to pull the changes. The following file illustrates this:
-
-[![merging conflict](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge5.gif)
-
 #### Resolving Conflicts 
 
-This section illustrates how you can resolve conflicts when multiple changes happen in a team. We'll consider the same example, as discussed in the 'Merging Changes' section. However, to create a conflict, we'll change the method 'Get' to 'Post' in the personal workspace collection (Destination) again. 
+This section illustrates how you can resolve conflicts when multiple changes happen in a team. Let's consider the same example, as discussed in the 'Merging Changes' section. However, to create a conflict, we'll change the method 'Get' to 'Post' in the personal workspace collection (Destination) again. 
 
 [![resolving conflicts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)
 
