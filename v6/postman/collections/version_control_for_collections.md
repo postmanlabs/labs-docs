@@ -22,38 +22,23 @@ You can fork a collection from the Postman app as well as Postman dashboard. To 
 [![fork collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)
 
 
-Select the workspace in the dashboard that has your collection and click the 'Collections' tab to view a list of collections. Click ellipses (...) (adjacent to the 'share' button) and select Fork, as illustrated in the screen above.
-
-The following screen appears:
-
-[![fork collection dialog](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge2.png)
-
-In the above screen, select a workspace where you want to create a copy of this collection and click 'Fork'. Let's select 'Merge Conflict' workspace here. 
-
-Postman confirms the success and the screen in the dashboard changes as shown below:
-
-[![forked collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge3.png)
-
-You'll see the above collection in your team workspace 'Merge Conflict'. 
-
 #### Pulling Changes 
 
-After forking a collection, the base collection could be updated by others. If that happens, your forked copy is no longer the same. In such circumstances, Postman notifies you about this and allows you to pull the changes. As discussed in the previous section, the HealthAPICheck collection is forked in Team-Cobras. This collection is now updated making the forked and base collection out of sync. In this case, you may want to pull the changes. The following file illustrates this:bbbb
+After forking a collection, the base collection may be updated by others. If that happens, your forked copy will no longer be the same. In such circumstances, Postman notifies you about this change and allows you to pull these changes. As discussed in the previous section, the HealthAPICheck collection is forked in Team-Cobras. This collection is now updated in the personal workspace making the forked and base collection out of sync. In this case, you may want to pull the changes. The following file illustrates this:
 
 [![pull changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Pull_Changes.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Pull_Changes.gif)
 
 
 #### Merging Changes
 
-It's easy to view changes, review and merge them. This section describes how to merge the changes made in your collections by others.
+It's easy to view changes, review them and then merge. This section describes how to merge the changes made in your collections by others.
 Let's change the name of the forked collection in the above example to HealthAPICheck - Forked Collection which is part of Team-Cobras workspace. 
 
 The base collection - HealthAPICheck has four request R1, R2, R3, and R4. All of them are 'Get' requests. A copy of this collection now exists in Team-Cobras workspace. All four requests are updated in Team-Cobras workspace and those changes are merged in the base collection. The following screen illustrates this:
 
 [![merging changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_n_Merging.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_n_Merging.gif)
 
-
-When you attempt to merge the changes by clicking 'Merge all changes',Postman provides you three options, as illustrated in the following screen:
+When you attempt to merge the changes by clicking 'Merge all changes', Postman provides the following three options, as illustrated:
 
 [![merge all changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Merge_All_Changes.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Merge_All_Changes.png)
 
@@ -61,7 +46,7 @@ Choose either of the options and click 'Merge'.
 
 #### Resolving Conflicts 
 
-This section illustrates how you can resolve conflicts when multiple changes happen in a team. Let's consider the same example, as discussed in the 'Merging Changes' section. However, to create a conflict, we'll change the method 'Get' to 'Post' in the personal workspace collection (Destination) again. 
+This section illustrates how you can resolve conflicts when changes happen in more than a single workspace. The Request R2 gets changed in both the workspaces - personal and Team-Cobras. Postman notifies the conflict and prompts you to resolve them. The following file illustrates this:
 
-[![resolving conflicts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Merge4.gif)
+[![resolving conflicts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Resolve_Conflicts.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Resolve_Conflicts.gif)
 
