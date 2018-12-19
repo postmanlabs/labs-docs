@@ -127,6 +127,11 @@
             "title": "Making SOAP requests",
             "href": "/docs/v6/postman/sending_api_requests/making_soap_requests",
             "external": false
+          },
+          {
+            "title": "Working with Tabs",
+            "href": "/docs/v6/postman/sending_api_requests/working_with_tabs",
+            "external": false
           }
         ]
       },
@@ -167,6 +172,11 @@
           {
             "title": "Data formats",
             "href": "/docs/v6/postman/collections/data_formats",
+            "external": false
+          },
+          {
+            "title": "Working with OpenAPI",
+            "href": "/docs/v6/postman/collections/working_with_openAPI",
             "external": false
           }
         ]

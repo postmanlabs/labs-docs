@@ -156,5 +156,3 @@ If you want to open requests in a single tab every time you click a request in t
 If you want Postman to always prompt you to save your data in a tab, set this option to 'ON' in Postman settings. 
 
 **Warning:** Turning this setting off might cause you to lose unsaved data. 
- 
-
