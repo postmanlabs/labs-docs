@@ -17,7 +17,7 @@ This section describes the following topics:
 
 #### Forking a Collection
 
-You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, click (...) adjacent to a collection and select 'Create a Fork'. Specify a name for this copy, select a workspace and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A copy of this is created (forked) in Team-Cobras workspace where there are no collections. The following screen illustrates this:
+You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, click (...) adjacent to a collection and select 'Create a Fork'. Specify a name for this copy, select a workspace and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A copy of this is created (forked) in Team-Cobras workspace. The following screen illustrates this:
 
 [![fork collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)
 
@@ -31,8 +31,7 @@ After forking a collection, the base collection may be updated by others. If tha
 
 #### Merging Changes
 
-It's easy to view changes, review them and then merge. This section describes how to merge the changes made in your collections by others.
-Let's change the name of the forked collection in the above example to HealthAPICheck - Forked Collection which is part of Team-Cobras workspace. 
+It's easy to view changes, review them and then merge. This section describes how to merge the changes made in your collections by others. Let's change the name of the forked collection in the above example to HealthAPICheck - Forked Collection which is part of Team-Cobras workspace. 
 
 The base collection - HealthAPICheck has four request R1, R2, R3, and R4. All of them are 'Get' requests. A copy of this collection now exists in Team-Cobras workspace. All four requests are updated in Team-Cobras workspace and those changes are merged in the base collection. The following screen illustrates this:
 
