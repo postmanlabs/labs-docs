@@ -4,7 +4,7 @@ page_id: "version_control_for_collections"
 warning: false
 ---
 
-Version control for collections in Postman allows multiple users to work on the same collection. It ensures you always have access to the updated versions  of collections. It's easy to see what has changed, pull the changes, merge them and even resolve the conflicts.   
+Version control for collections in Postman allows multiple users to work on the same collection. It ensures you always have access to the updated versions of collections. It's easy to see what has changed, pull the changes, merge them and even resolve the conflicts.   
 
 You can 'fork' a collection in a personal or a team workspace. To create a copy (fork) of a collection, either the workspace must belong to you or you should be a member of a team workspace. In Postman, a forked collection is referred to as 'Source' because you'll use it to make changes/updates. Your base collection is the 'Destination' copy because Postman merges your changes to the base collection (destination).
 
