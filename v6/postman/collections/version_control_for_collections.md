@@ -4,7 +4,7 @@ page_id: "version_control_for_collections"
 warning: false
 ---
 
-Version control for collections in Postman allows multiple users to work on the same collection. It ensures you always have access to the updated versions of collections. It's easy to see what has changed, pull the changes, merge them and even resolve the conflicts.   
+Version control provides more control over collaborative flows by allowing users to work on different "forks" of the same collection. They can later merge and pull changes between these forks to keep the collections up to date with each other.    
 
 You can 'fork' a collection in a personal or a team workspace. To fork a collection, either the workspace must belong to you or you should be a member of a team workspace. In Postman, the fork whose changes you want to merge into a parent is the source, and the parent itself is the destination.
 
@@ -17,7 +17,7 @@ This section describes the following topics:
 
 #### Forking a Collection
 
-You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, click (...) adjacent to a collection and select 'Create a Fork'. Specify a label for this copy, select a workspace and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A copy of this is created (forked) in Team-Cobras workspace. The following screen illustrates this:
+You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, click (...) adjacent to a collection and select 'Create a Fork'. Specify a label for this fork, select a workspace and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A fork of this is created in Team-Cobras workspace. The following screen illustrates this:
 
 [![fork collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)
 
@@ -41,8 +41,11 @@ When you attempt to merge the changes by clicking 'Merge all changes', Postman p
 
 [![merge all changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Merge_All_Changes.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Merge_All_Changes.png)
 
+The 'Confirm merge' dialog offers the following choices:
 
-
+•	**Merge changes** changes made in your fork will be merged into the parent. 
+•	**Merge changes and update source** changes made in your fork will be merged into the parent and the fork is updated. 
+•	**Merge changes and delete source** changes made in your fork will be merged into the parent and the fork is deleted.
 
 Choose either of the options and click 'Merge'. 
 
