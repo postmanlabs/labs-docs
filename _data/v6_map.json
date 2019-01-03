@@ -160,6 +160,11 @@
             "external": false
           },
           {
+            "title": "Commenting on collections",
+            "href": "/docs/v6/postman/collections/commenting_on_collections",
+            "external": false
+          },
+          {
             "title": "Using Markdown for descriptions",
             "href": "/docs/v6/postman/collections/using_markdown_for_descriptions",
             "external": false
