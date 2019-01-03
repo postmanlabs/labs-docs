@@ -51,6 +51,16 @@ Choose either of the options and click 'Merge'.
 
 #### Resolving Conflicts 
 
+A conflict occurs in Postman when two or more users make different changes to the same request simultaneously. In such a scenario, Postman will not be unable to decide which of these changes to retain.
+
+When conflicts arise, Postman uses color legends to illustrate and help users take decisions. The following screen illustrates the color legends: 
+
+[![color legends](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_UI_Convention.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_UI_Convention.png)
+
+As shown in the above screen, the source is displayed in Orange color which indicates the changes you made. The destination is shown in Blue color which indicates the changes made by someone else. Click *Use this* to make the selection to resolve the conflict. 
+
+**Note:** Clicking *Use this* button only makes the selection. You still need to merge the changes by clicking **Merge all changes** button and then making the selction thereafter. 
+
 This section illustrates how you can resolve conflicts when changes happen in more than a single workspace. The Request R2 gets changed in both the workspaces - personal and Team-Cobras. Postman notifies the conflict and prompts you to resolve them. The following screen illustrates this:
 
 [![resolving conflicts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Resolve_Conflicts.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Resolve_Conflicts.gif)
