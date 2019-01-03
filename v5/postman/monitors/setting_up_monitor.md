@@ -102,7 +102,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 ### Postman web
 
-1. Go to [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and click "Monitors" and click the **Monitor this collection** button.
+1. Go to [Workspaces dashboard](https://app.getpostman.com/dashboard) and click "Monitors" and click the **Monitor this collection** button.
 
 <ol start="2">
   <li>In the <b>Create Monitor</b> modal, select a collection, schedule the frequency of the run, enter a monitor name, select the environment, and select the regions of the world from where you want to monitor your results. For more information on how to schedule a monitor, see the "Monitoring schedule and region" section below.</li>
