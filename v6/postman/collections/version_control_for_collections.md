@@ -59,7 +59,7 @@ When conflicts arise, Postman uses color legends to illustrate and help users ta
 
 As shown in the above screen, the source is displayed in Orange color which indicates the changes you made. The destination is shown in Blue color which indicates the changes made by someone else. Click *Use this* to make the selection to resolve the conflict. 
 
-**Note:** Clicking *Use this* button only makes the selection. You still need to merge the changes by clicking **Merge all changes** button and then making the selction thereafter. 
+**Note:** Clicking *Use this* button only makes the selection of your choice. You still need to merge the changes by clicking **Merge all changes** button and then making the selection thereafter. 
 
 This section illustrates how you can resolve conflicts when changes happen in more than a single workspace. The Request R2 gets changed in both the workspaces - personal and Team-Cobras. Postman notifies the conflict and prompts you to resolve them. The following screen illustrates this:
 
