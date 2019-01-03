@@ -55,7 +55,7 @@ To switch back to your previous account, click on the account user name in the d
 
 #### How to switch accounts in the Postman web view
 
-1. When you sign in to the [Dashboard]({{site.pm.gs}}/dashboard){:target="_blank"}, you see your profile image on the top right hand corner of the screen.  
+1. When you sign in to the [Dashboard](https://go.postman.co/me/collections){:target="_blank"}, you see your profile image on the top right hand corner of the screen.  
 
 2. To sign in to another account, click the **Add A New Account** button at the bottom of the drop down menu.
 

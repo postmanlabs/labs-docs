@@ -37,7 +37,7 @@ Alternatively, you can also point your cursor to any collection in your dashboar
 
 ### Viewing Public Documentation
 
-Public documentation is accessible through a URL that Postman generates at the time of publication. This link displays immediately, and can be found in your [Postman Dashboard]({{site.pm.gs}}). If you’ve opted to use a custom domain, you’ll find your published documentation link in the Postman Dashboard.
+Public documentation is accessible through a URL that Postman generates at the time of publication. This link displays immediately, and can be found in your [Postman Dashboard](https://go.postman.co/). If you’ve opted to use a custom domain, you’ll find your published documentation link in the Postman Dashboard.
 
 [![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-public-view.png)
 

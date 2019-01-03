@@ -21,11 +21,11 @@ For example, suppose you use GitHub for your repository management and use Postm
 
 ### Postman Pro integrations
 
-Postman Pro users can currently access over a dozen of the most requested 3rd party integrations in the [Postman Integrations directory]({{site.pm.gs}}/dashboard/integrations), with more being released every month. 
+Postman Pro users can currently access over a dozen of the most requested 3rd party integrations in the [Postman Integrations directory](https://go.postman.co/workspaces), with more being released every month. 
 
-You can access Postman Pro integrations in the [Dashboard.]({{site.pm.gs}}/dashboard?) 
+You can access Postman Pro integrations in the [Dashboard.](https://go.postman.co/workspaces) 
 
-In the Dashboard page, click ["Integrations"]({{site.pm.gs}}/dashboard/integrations).
+In the Dashboard page, click ["Integrations"](https://go.postman.co/workspaces).
 
   [![integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations.png)
 

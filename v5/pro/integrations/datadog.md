@@ -23,7 +23,7 @@ Save the API Key to use later.
 
 ### Configuring Postman Monitors
 
-1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations){:target="_blank"} page, find Datadog in the list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations](https://go.postman.co/workspaces){:target="_blank"} page, find Datadog in the list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![datadog integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog2.png)
 

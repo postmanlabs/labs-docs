@@ -58,7 +58,7 @@ When you reload the app, Postman automatically retrieves the most recent and up-
 
 ### Deleting your Postman account
 
-If you have a Postman account, are not currently part of a paid Postman Pro or Enterprise team, and have never participated in a Postman Pro trial team, you can [delete your account]({{site.pm.gs}}/dashboard/profile){:target="_blank"}. 
+If you have a Postman account, are not currently part of a paid Postman Pro or Enterprise team, and have never participated in a Postman Pro trial team, you can [delete your account](https://go.postman.co/settings/me){:target="_blank"}. 
 
 Otherwise, you can contact us at [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
 
