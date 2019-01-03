@@ -7,21 +7,21 @@ tags:
 warning: false
 ---
 
-Postman users with the **Admin** member role can add a team name and logo to their Postman team account directly in the [Team Settings page]({{site.pm.gs}}/dashboard/teams/edit).
+Postman users with the **Admin** member role can add a team name and logo to their Postman team account directly in the [Team Settings page](https://go.postman.co/settings/team/general).
 
 ### Update your team name
 
-To see your current team name, go to the [Team page]({{site.pm.gs}}/dashboard/teams) in the Postman website.
+To see your current team name, go to the [Team page](https://go.postman.co/team) in the Postman website.
 
 [![team name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-team2-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-team2-1.png)
 
-If you didn’t enter a team name when you first created your Postman Pro or Enterprise team, you can add it in the [Team Settings]({{site.pm.gs}}/dashboard/teams/edit) page.
+If you didn’t enter a team name when you first created your Postman Pro or Enterprise team, you can add it in the [Team Settings](https://go.postman.co/settings/team/general) page.
 
 [![edit team details page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-settings-plain-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-settings-plain-1.png)
 
 ### Update your team logo
 
-To update your logo, go to the [Team Settings]({{site.pm.gs}}/dashboard/teams/edit) page.
+To update your logo, go to the [Team Settings](https://go.postman.co/settings/team/general) page.
 
 Next hover over the logo under "Team Logo" in the "Style" section to see the **Pencil** (edit) and **Trash Can** (delete) icons.
 
