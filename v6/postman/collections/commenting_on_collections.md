@@ -19,14 +19,14 @@ You can post both collection-level and request-level comments from Postman Dashb
 
 **Note:** Postman app currently supports only request-level comments. Comments can be posted only on saved requests.
 
-To Post a comment, select the corresponding collection or a request and click **Comments**. The **Comments** dialog box appears. Write your comment and click *Add Comment*. Your comment is posted. The following screen illustrates this:
+To Post a comment, select the corresponding collection or a request and click **Comments**. The **Comments** dialog box appears. Write your comment and click *Add Comment*. Your comment is posted. The procedure to post a comment is similar both in the Postman app and the Dashboard. The following screen illustrates this:
 
-[![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting.gif)
+[![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting.gif)
 
 **Note:** If someone comments on a private collection that you don’t have access for, Postman sends a notification to you. However, you can’t read the comment until the collection or the request is shared with you.  
 
 ### Editing comments
-After posting a comment, you can go back, edit your comment and save your changes. Only you as a creator of the comment will be able to update/modify your comment. The following file illustrates this:
+After posting a comment, you can go back, edit your comment and save your changes. Only you as a creator of the comment will be able to update/modify your comment. The following screen illustrates this:
 
 [![edit comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Editing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Editing.png)
 
@@ -40,7 +40,9 @@ You can delete your comments by clicking the ‘delete’ button, as illustrated
 
 
 ### Tagging members in comments
-Sometimes you may want to call the attention of a team member when posting a comment. In such a scenario, you can tag a person by typing the @ symbol followed by the member’s name and then choosing the corresponding name from the auto-suggested list. When you tag a member in your comment, Postman notifies the member by sending a message. 
+Sometimes you may want to call the attention of a team member when posting a comment. In such a scenario, you can tag a person by typing the @ symbol followed by the member’s name and then choosing the corresponding name from the auto-suggested list. When you tag a member in your comment, Postman notifies the member by sending a notification. The following screen illustrates tagging a member in a comment: 
+
+[![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Tagging.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Tagging.gif)
 
 ### Markdown support
 Postman comments support Markdown. You can format the text the way you want in the comments dialog box. The following screen illustrates formatting bold faced and italicized text in the comments dialog box:
