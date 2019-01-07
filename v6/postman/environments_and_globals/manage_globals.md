@@ -31,7 +31,7 @@ To view global variables, click the Quick Look icon in the upper right corner of
 
 When you click the "Edit" link, it opens a modal for editing keys and values.
 
-[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)
+[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)
 
 
 For more information about globals, variables, and environments, see:

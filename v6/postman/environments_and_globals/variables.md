@@ -47,7 +47,7 @@ For example, for an environment variable `url` with the current value `http://lo
 
 Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the [Variable Scopes](/docs/v6/postman/environments_and_globals/variables#variable-scopes) section and sends them to the server.
 
-[![variables used in request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-request-builder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-request-builder.png)
+[![variables used in request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals1.png)
 
 ### Accessing variables through scripts
 
@@ -63,7 +63,7 @@ You can assign a current value when running your collection or a simple request 
   3.  Setting a variable in a scope: 
         *  Environment variables can be accessed with the corresponding environments. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
 
-[![variables used in script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-scripts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-scripts.png)
+[![variables used in script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals2.png)
 
 ### Defining collection variables
 
@@ -87,13 +87,13 @@ Variables inside the Postman UI are enclosed inside curly braces.
 
 For example, in the screenshot below, {% raw %}`{{username}}`{% endraw %} and {% raw %}`{{password}}`{% endraw %} inside URL parameters would be replaced by corresponding values from the data file:
 
-[![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data-url.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data-url.png)
+[![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals3.png)
 
 ##### **Data variables in pre-request and test scripts**
 
 Here's an example of Inside pre-request and test scripts. Let's say you have the `pm.iterationData.get("username")` method inside pre-request and test scripts. The method would let you access the value of the username variable from a data file. 
 
-[![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data.png)
+[![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals4.png)
 
 Learn more about [working with data files](/docs/v6/postman/collection_runs/working_with_data_files). 
 
@@ -107,7 +107,7 @@ Dynamic variables cannot be used in the Sandbox. You can only use them in the `
    *   {% raw %} `{{$timestamp}}`{% endraw %}: Adds the current timestamp
    *   {% raw %} `{{$randomInt}}`{% endraw %}: Adds a random integer between 0 and 1000
 
-[![dynamic variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var_dynamic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var_dynamic.png)
+[![dynamic variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals5.png)
 
 ### Quick Look for variables
 
