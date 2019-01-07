@@ -26,7 +26,7 @@ You can create a new environment from the:
 
 Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
-[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)
+[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals6.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals6.png)
 
 * Select “Manage Environments”.
 * Click the **Add** button.
@@ -41,7 +41,7 @@ Add the variables you want to save as key-value pairs.
 
 Click the **Add** button.
 
-[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-key-value-pairs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-key-value-pairs.png)
+[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
@@ -59,14 +59,12 @@ Add the variables you want to save as key-value pairs.
 
 Click the **Add** button.
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the Create New tab to display each time you open Postman.
-
 ### Selecting an active environment
 
 Click the dropdown menu in the upper right corner of the Postman app to select an active environment, or type in the environment name. 
 
 Once you select an environment, you can access variables in the active environmental scope.  
-[![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-active-environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-active-environ.png)
+[![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-active-environ.png)
 
 ### Editing an active environment
 
