@@ -84,11 +84,11 @@ The `pm.info` object contains information pertaining to the script being execute
 
 **`pm.sendRequest:Function`**
 
-The `pm.sendRequest` function allows sending HTTP/HTTPS requests asynchronously. Simply put, with asynchronous scripts, you can now execute logic in the background if you have a heavy computational task or are sending multiple requests. Instead of waiting for a call to complete and blocking any next requests, you can designate a callback function and be notified when the underlying operation has finished.
+The `pm.sendRequest` function allows sending HTTP/HTTPS requests asynchronously. Simply put, with asynchronous scripts, you can execute logic in the background if you have a heavy computational task or are sending multiple requests. Instead of waiting for a call to complete and blocking any next requests, you can designate a callback function and be notified when an underlying operation has finished.
 
 Some things to know about `pm.sendRequest()`:
 
-* The method accepts a collection SDK compliant request and a callback. The callback receives 2 arguments, an error (if any) and SDK compliant response. Refer to [Collection SDK Documentation](http://www.postmanlabs.com/postman-collection/Request.html#~definition) to view more information.
+* The method accepts a collection SDK compliant request and a callback. The callback receives two arguments, an error (if any) and an SDK-compliant response. Refer to [Collection SDK Documentation](http://www.postmanlabs.com/postman-collection/Request.html#~definition) to view more information.
 * It can be used in the pre-request or the test script.
 
 ```
@@ -153,7 +153,7 @@ Extended Reference:
 
 **`pm.variables:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
 
-In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration takes precedence over the variables defined in the current environment, which overrides ones defined in the global scope, i.e. `Iteration Data` < `Environment` < `Global`.
+In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration take precedence over the variables defined in the current environment, which overrides ones defined in the global scope, i.e. `Iteration Data` < `Environment` < `Global`.
 
 The variables defined in the individual scopes may also be accessed via `pm.environment` for the environment scope and `pm.globals` for the global scope.
 
@@ -214,7 +214,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 * `pm.test(testName:String, specFunction:Function):Function`
 
-   This function is used to write test specifications inside the sandbox. Writing tests inside this function allows one to name the test accurately as well as ensure that in case of any errors inside this function, the rest of the script is not blocked.
+   You can use this function to write test specifications inside the sandbox. Writing tests inside this function allows you to name the test accurately and this function also ensures the rest of the script is not blocked even if there are errors inside the function.
 
    In the following sample test, we are checking that everything about a response is valid for us to proceed.
 

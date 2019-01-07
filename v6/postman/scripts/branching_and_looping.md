@@ -23,7 +23,7 @@ postman.setNextRequest(null);
 Some salient points about `postman.setNextRequest()`:
 
 1.  Specify the name or ID of the subsequent request and the collection runner will take care of the rest.
-2.  It can be used in the pre-request or the test script. In case of more than one assignment, the last set value is considered.
+2.  It can be used in the pre-request or the test script. If there's more than one assignment, the last set value takes precedence.
 3.  If `postman.setNextRequest()` is absent in a request, the collection runner defaults to linear execution and moves to the next request
 
-For more information about control flow, read about [building workflows](/docs/postman/collection_runs/building_workflows).
+For more information about control flow, refer to [building workflows](/docs/postman/collection_runs/building_workflows).
