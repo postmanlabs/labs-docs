@@ -6,7 +6,7 @@ warning: false
 
 When running a collection, you can branch and loop across API requests in Postman using the `postman.setNextRequest("request_name");` function.
 
-[![set next request method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-branching-looping2+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-branching-looping2+copy.png)
+[![set next request method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script10.png)
 
 **Set the request to be executed next**
 
