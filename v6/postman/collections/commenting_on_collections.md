@@ -28,7 +28,7 @@ To Post a comment, select the corresponding collection or a request and click **
 ### Editing comments
 After posting a comment, you can go back, edit your comment and save your changes. Only you as a creator of the comment will be able to update/modify your comment. The following screen illustrates this:
 
-[![edit comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Editing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Editing.png)
+[![edit comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Editing1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Editing.png)
 
 
 ### Deleting comments
