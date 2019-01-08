@@ -7,7 +7,7 @@ warning: false
 
 With Postman you can write and run tests for each request using the JavaScript language.
 
-[![full tests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomFullTests2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomFullTests2.png)
+[![full tests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script5_b.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script5_b.png)
 
 ### Writing Postman tests
 
