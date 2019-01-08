@@ -252,7 +252,6 @@ The `cookies` object contains a list of cookies that are associated with the dom
 * `pm.response.to.have.jsonBody(optionalExpectEqual:Object)`
 * `pm.response.to.have.jsonBody(optionalExpectPath:String)`
 * `pm.response.to.have.jsonBody(optionalExpectPath:String, optionalValue:*)`
-* `pm.response.to.have.jsonSchema()`
 * `pm.response.to.have.jsonSchema(schema:Object)`
 * `pm.response.to.have.jsonSchema(schema:Object, ajvOptions:Object)`
 
