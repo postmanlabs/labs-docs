@@ -44,15 +44,15 @@ When you attempt to merge the changes by clicking 'Merge all changes', Postman p
 
 The 'Confirm merge' dialog offers the following choices:
 
-* **Merge changes** changes made in your fork will be merged into the parent. 
-*  **Merge changes and update source** changes made in your fork will be merged into the parent and the fork is updated. 
-*  **Merge changes and delete source** changes made in your fork will be merged into the parent and the fork is deleted.
+* **Merge changes:** Changes made in your fork will be merged into the parent. 
+*  **Merge changes and update source:** Changes made in your fork will be merged into the parent and the fork is updated. 
+*  **Merge changes and delete source:** Changes made in your fork will be merged into the parent and the fork is deleted.
 
 Choose either of the options and click 'Merge'. 
 
 #### Resolving conflicts 
 
-A conflict occurs in Postman when two or more users make different changes to the same request simultaneously. In such a scenario, Postman will not be able to decide which of these changes to retain.
+A conflict occurs in Postman when two or more users make different changes to the same request/folder/examples simultaneously. In such a scenario, Postman will not be able to decide which of these changes to retain.
 
 When conflicts arise, Postman uses color legends to illustrate and help users take decisions. The following screen illustrates the color legends: 
 
