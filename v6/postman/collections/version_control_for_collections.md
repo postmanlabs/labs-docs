@@ -10,26 +10,27 @@ You can 'fork' a collection in a personal or a team workspace. To fork a collect
 
 This section describes the following topics:
 
-* Forking a Collection
-* Pulling Changes 
-* Merging Changes
-* Resolving Conflicts
+* [Forking a collection](#forking-a-collection)
+* [Pulling changes](#pulling-changes) 
+* [Merging changes](#merging-changes)
+* [Resolving conflicts](#resolving-conflicts)
 
-#### Forking a Collection
+#### Forking a collection
 
 You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, click (...) adjacent to a collection and select 'Create a Fork'. Specify a label for this fork, select a workspace and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A fork of this is created in Team-Cobras workspace. The following screen illustrates this:
 
 [![fork collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Forking_a_Collection.gif)
 
+**Note:** If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will have to create the mocks and monitors again.  
 
-#### Pulling Changes 
+#### Pulling changes 
 
 After forking a collection, the parent collection may be updated by others. If that happens, your fork will no longer be the same as the parent. In such circumstances, Postman notifies you about this change and allows you to pull these changes. As discussed in the previous section, the HealthAPICheck collection is forked in Team-Cobras. This collection is now updated in the personal workspace making the forked and base collection out of sync. In this case, you may want to pull the changes. The following screen illustrates this:
 
 [![pull changes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Pull_Changes.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Fork_Pull_Changes.gif)
 
 
-#### Merging Changes
+#### Merging changes
 
 It's easy to view changes, review them and then merge. This section describes how to merge changes made in your fork with the parent collection. Let's change the name of the forked collection in the above example to HealthAPICheck - Forked Collection which is part of Team-Cobras workspace. 
 
@@ -49,7 +50,7 @@ The 'Confirm merge' dialog offers the following choices:
 
 Choose either of the options and click 'Merge'. 
 
-#### Resolving Conflicts 
+#### Resolving conflicts 
 
 A conflict occurs in Postman when two or more users make different changes to the same request simultaneously. In such a scenario, Postman will not be able to decide which of these changes to retain.
 
