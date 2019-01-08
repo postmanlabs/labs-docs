@@ -43,7 +43,7 @@ Click the **Add** button.
 
 [![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1_a.png)
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab screen to display each time you open Postman.
 
 #### Launch screen
 
@@ -57,22 +57,22 @@ Enter a name for the new environment.
 
 Add the variables you want to save as key-value pairs.
 
-Click the **Add** button.
+Click **Add**.
 
 ### Selecting an active environment
 
 Click the dropdown menu in the upper right corner of the Postman app to select an active environment, or type in the environment name. 
 
-Once you select an environment, you can access variables in the active environmental scope.  
+Once you select an environment, you can access variables in the active environmental scope.
+
 [![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-active-environ.png)
 
 ### Editing an active environment
 
-Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. 
+Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables screen. The following screen opens, where you can click **Edit** to edit the values:
 
-When you click the "Edit" link, a modal opens where you can edit keys and initial and current values.
 
-[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png)
+[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png)
 
 ### Sharing an environment
 
@@ -80,7 +80,7 @@ To share an environment, click the gear icon in the upper right corner of the Po
 
 In the Manage Environments tab, click the Duplicate Environment icon next to the environment you want to share.
 
-[![duplicate](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-environment-1.png)
+[![duplicate](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals8_b.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals.png)
 
 It's best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others. 
 

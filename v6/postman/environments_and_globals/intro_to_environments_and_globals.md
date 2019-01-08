@@ -11,9 +11,9 @@ To understand environments and globals, you must first understand how variables 
 
 **Variables**
 
-Developers know that variables are symbolic names that represent the information you store in them. The information the variable represents can change, but the operations on the variable remain the same. Variables in Postman work the same way. 
+Developers know that variables are static identifies used to store dynamic values. The information the variables represent can change, but the operations on the variables remain the same. This is true for Variables in Postman too. 
 
-You can reuse the value of a variable in multiple places. If you change the value of a variable, each instance of that variable changes to the new value.
+You can reuse variable values in multiple places. If you change the value, each instance of the variable changes accordingly, reducing the need for repetitive modifications and likelihood of an error.
 
 Let’s say you have three API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use `{{domain}}/endpoint1` and `{{domain}}/endpoint2` in the request builder. Now, if your domain changes to `another-domain.com`, you only have to change this value once. 
 
@@ -50,10 +50,8 @@ Global variables provide a set of variables that are always available to you in 
 **Note**: Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
 To learn how to manage and view global variables, see [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals).
-
 <br>
 <br>
-
 For more information about environments and globals, see:
 
 * [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments)
