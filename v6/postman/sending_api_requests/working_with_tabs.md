@@ -133,7 +133,7 @@ The following screen illustrates multiple tabs in the Postman:
 
 [![tabs in postman](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_Multiple.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_Multiple.gif)
 
-Postman allows you to control the way you want to work with multiple tabs. To learn more about this, refer to the section 'Other Tab Settings'. 
+Postman allows you to control the way you want to work with multiple tabs. To learn more about this, refer to the next section 'Other Tab Settings'. 
 
 ### Other tab settings
 
