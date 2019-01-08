@@ -9,7 +9,7 @@ An environment is a set of key-value pairs. The key represents the name of the v
 
 While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables so you can easily switch between different setups without changing your requests. 
 
-You won’t have to remember all those values once they are in Postman. You can download environments, save them as JSON files, and upload them later.
+You don't need to remember all those values once they are in Postman. You can download environments, save them as JSON files, and upload them later.
 
 You can create, share, duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
 
@@ -24,7 +24,7 @@ You can create a new environment from the:
 
 #### Manage environments icon
 
-Click the "Manage Environments" icon in the upper right corner of the Postman app.
+Click "Manage Environments" icon in the upper right corner of the Postman app.
 
 [![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals6.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals6.png)
 

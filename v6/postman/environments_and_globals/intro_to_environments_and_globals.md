@@ -22,26 +22,26 @@ With Postman’s scripting engine you can set variable values, copy data from on
 In a nutshell, variables enable you to:
 
 * Reuse values to keep your code DRY (Don’t Repeat Yourself).
-* Configure your setup to accommodate the environment of differnet users.
+* Configure your setup to accommodate the environment of different users.
 * Extract data from responses and chain requests in a collection.
 
 To learn how to use variables in Postman, see [Variables](/docs/v6/postman/environments_and_globals/variables).
 
-Now that we know how varibles work in Postman, let's discuss environments and globals.
+Now that we know how variables work in Postman, let's discuss environments and globals.
 
 **Environments**
 
-An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman#data-editor) to modify an environment.
+An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman#data-editor) to modify the key and value components of an environment.
 
-While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables so you can easily switch between different setups without changing your requests.
+While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables to switch between different setups without changing your requests.
 
-You won’t have to remember all those values once they are in Postman. You can download environments, save them as JSON files, and upload them later.
+You won’t have to remember all those values once assigned in Postman. You can download environments, save them as JSON files, and upload them later.
 
 You can create, share, duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
 
 **Note**: Environment and global variables are always stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
-To learn how to manage environments for tasks such as creating or sharing an environment, see [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments).
+To learn how to create, share, and manage an environment, see [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments).
 
 **Globals**
 
