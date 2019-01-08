@@ -15,11 +15,11 @@ This topic describes the following sections:
 * [Markdown support](#markdown-support)
 
 ### Posting comments
-You can post both collection-level and request-level comments from Postman Dashboard. Only those having access to a collection or a request will be able to post comments. When you post a comment on a collection or a request, it gets seamlessly reflected in both the Postman app and the Dashboard. 
+You can post comments on your collections and requests from the Postman Dashboard. Only those having access to a collection or a request will be able to post comments. When you post a comment on a collection or a request, it gets reflected in both the Postman app and the Dashboard. 
 
-**Note:** Postman app currently supports only request-level comments. Comments can be posted only on saved requests.
+**Note:** Postman app currently supports comments on requests only. Also, you can post comments only on saved requests.
 
-To Post a comment, select the corresponding collection or a request and click **Comments**. The **Comments** dialog box appears. Write your comment and click *Add Comment*. Your comment is posted. The procedure to post a comment is similar both in the Postman app and the Dashboard. The following screen illustrates this:
+To post a comment, select the corresponding collection or a request and click **Comments**. The **Comments** dialog box appears. Write your comment and click *Add Comment*. Your comment is posted. The procedure to post a comment is similar both in the Postman app and the Dashboard. The following screen illustrates this:
 
 [![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting.gif)
 
