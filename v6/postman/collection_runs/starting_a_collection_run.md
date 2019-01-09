@@ -19,7 +19,7 @@ This topic describes how to configure collection run parameters for:
 * [Persist variables](#persist-variables)
 
 
-[![collection run parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-runner.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-runner.png)
+[![collection run parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg1.png)
 
 ### Collection or folder
 

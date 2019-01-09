@@ -27,11 +27,11 @@ To import the collection files in Postman, click the **Import** button in the he
 
 **Note:** You cannot import data files; you can only select them at the start of a collection run.
 
-[![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
+[![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Import_Screen_with_OpenAPI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Import_Screen_with_OpenAPI.png)
 
 You should see your collection with a request you just imported in the sidebar as shown in the image below.
    
-[![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)
+[![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg13.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)
 
 #### Importing sample data files
 
@@ -53,7 +53,7 @@ When you open the test script, you'll see we're using some variables in the test
 
 The Postman Sandbox initializes the data variable from the CSV files that we'll select in the collection run.
 
-[![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)
+[![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)
 
 Let's investigate the data files first. We currently support JSON and CSV files. This examples talks only about .CSV data file.
 
@@ -75,7 +75,7 @@ Now that you understand how to construct data files, let's supply this data file
 
 Click "Select File" in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking "Preview" next to the file name.
 
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)             
+[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg19.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)             
 
 [![preview data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58703253.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58703253.png)
 

@@ -26,11 +26,11 @@ To import the sample in Postman, click the **Import** button in the header bar. 
 
 The sample file displays in Postman as `postman-echo.com/{{path}}` in the sidebar.
 
-[![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_sample_collections.png)
+[![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg7a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg7a.png)
 
 The test expects the value of `foo` in the response body to be equal to `bar`. Let us also assume that after some computation, we're resetting the value of this variable to `bar2`.
 
-[![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_set_environment_variable2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-runs_set_environment_variable2.png) 
+[![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg7.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg7.png) 
 
 ### Running the sample collection
 
@@ -44,7 +44,7 @@ Download the [sample environment JSON file](https://s3.amazonaws.com/postman-sta
 
 In the Collection Runner, select the test environment from the environment dropdown on the left and run the collection. You'll see the tests pass. 
 
-[![collection runner parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_collection_run.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_collection_run.png)  
+[![collection runner parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_collection_run.png)  
 
 If you switch back to the main Postman app window and check the value of the variable `foo`, you'll see that it is now `bar2`. 
 
