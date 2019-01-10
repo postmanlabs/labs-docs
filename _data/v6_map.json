@@ -175,6 +175,11 @@
             "external": false
           },
           {
+            "title": "Version Control for Collections",
+            "href": "/docs/v6/postman/collections/version_control_for_collections",
+            "external": false
+          },
+          {
             "title": "Data formats",
             "href": "/docs/v6/postman/collections/data_formats",
             "external": false
