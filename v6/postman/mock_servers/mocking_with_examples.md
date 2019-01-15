@@ -4,7 +4,7 @@ page_id: "mocking_with_examples"
 warning: false
 ---
 
-Let's take a deep dive into how [mock servers](/docs/postman/mock_servers/setting_up_mock) and [examples](/docs/postman/collections/examples) work together, and how you can integrate them into your workflow for a more enhanced API experience with Postman.
+Let's deep dive into how [mock servers](/docs/postman/mock_servers/setting_up_mock) and [examples](/docs/postman/collections/examples) work together, and how you can integrate them into your workflow for an enhanced API experience with Postman.
 
 1. Sending a request (R1)
 2. Saving the request (R1) to a collection (C1)
@@ -69,7 +69,7 @@ In the previous steps, we prepared the collection, request, and example response
   
   We are not using any environment variables in our single saved example (P1), therefore we are going to go ahead and create a mock with `No Environment` chosen. It’s important to note that if your saved example has an environment variable in the URL, for example, {% raw %}`{{base_url}}/my/path`{% endraw %} and you do not provide the corresponding environment when creating the mock, trying to mock that particular request will not work. 
   
-  Mocks are accessible to the public by default. If you check the box making the mock server private, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
+  Mocks are accessible to public by default. If you check the box making the mock server private, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
   
   [![mock collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock9.png)
   
@@ -85,7 +85,7 @@ In the previous steps, we prepared the collection, request, and example response
   
   [![mock request not found error](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock11.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock11.png)
   
-  We do, however, have a saved example with the path `/get` and the request method `GET`. So sending a `GET` request to the URL `https://b75a340e-4268-4b20-8f5f-3cfc8f37cec6.mock.pstmn.io/get` will return the proper response we are looking for.
+  We do, however, have a saved example with the path `/get` and the request method `GET`. So sending a `GET` request to the URL `https://b75a340e-4268-4b20-8f5f-3cfc8f37cec6.mock.pstmn.io/get` will return a proper response we are looking for.
 
   [![mock response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock12.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock12.png)
 
@@ -104,7 +104,7 @@ In the previous steps, we prepared the collection, request, and example response
   
   [![404 example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)
 
-  Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which specifies which integer response code your returned response should match.
+  Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which integer response code your returned response should match.
 
 ### Using query params
 
