@@ -16,7 +16,7 @@ Alternatively, you can also click ellipses (...) in the sidebar and select 'Publ
 
 [![publish docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Option.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Option.png)
 
-From the **Publish Collection** page, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
+From the **Publish Collection** page, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment. 
 
 [![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-publish-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-publish-collection.png)
 

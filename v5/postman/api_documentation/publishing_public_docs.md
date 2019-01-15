@@ -19,7 +19,7 @@ The **Edit Published Collection** page appears.
 
 [![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
-When signed in to Postman, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
+When signed in to Postman, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment. 
 
 The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select a “production” environment, so your documentation is immediately usable for new visitors.
 
