@@ -40,7 +40,7 @@ If a variable from the currently active environment shares its name with a globa
 
 ### Accessing variables in the request builder
 
-Variables can be used in the following form in the Postman user interface - {% raw %} `{{variableName}}` {% endraw %}. The string {% raw %} {{variableName}} {% endraw %} will be replaced with its corresponding value when Postman resolves the variable. For example, for an environment variable `url` with the value `http://localhost` , you will have to use {% raw %} `{{url}}` {% endraw %} in the request URL field. {% raw %}`{{url}}`{% endraw %} will be replaced by `http://localhost` when the request is sent.
+Variables can be used in the following form in the Postman user interface - {% raw %} `{{variableName}}` {% endraw %}. The string {% raw %} {{variableName}} {% endraw %} will be replaced with its corresponding value when Postman resolves the variable. For example, for an environment variable `url` with the value `http://localhost` , you will have to use {% raw %} `{{url}}` {% endraw %} in the request URL field. `{{url}}` will be replaced by `http://localhost` when the request is sent.
 
 Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the Variable Scopes section and sends them to the server.
 
@@ -77,7 +77,7 @@ The Collection Runner lets you import a CSV or a JSON file, and then use the v
 
 ##### **Data variables in requests**
 
-Variables inside the Postman UI are enclosed inside curly braces. For example, in the screenshot below, {% raw %}`{{username}}`{% endraw %} and {% raw %}`{{password}}`{% endraw %} inside URL parameters would be replaced by corresponding values from the data file:
+Variables inside the Postman UI are enclosed inside curly braces. For example, in the screenshot below, `{{username}}` and `{{password}}` inside URL parameters would be replaced by corresponding values from the data file:
 
 [![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data-url.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data-url.png)
 
@@ -91,7 +91,7 @@ Learn more about [working with data files](/docs/postman/collection_runs/workin
 
 ### Dynamic variables
 
-Postman has a few dynamic variables which you can use in your requests. Dynamic variables cannot be used in the Sandbox. You can only use them in the {% raw %}`{{..}}`{% endraw %} format in the request URL / headers / body.
+Postman has a few dynamic variables which you can use in your requests. Dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
    *   {% raw %} `{{$guid}}`{% endraw %} : Adds a v4 style guid
    *   {% raw %} `{{$timestamp}}`{% endraw %}: Adds the current timestamp

@@ -34,17 +34,13 @@ npm i newman -g;
 
 Run the following Newman command with the appropriate parameters:
 
-{% raw %}
 ```bash
 newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}}
 ```
-{% endraw %}
 
 
 If you need to provide an environment to the collection, change the above command to the following:
 
-{% raw %}
 ```bash
 newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}} --environment https://api.getpostman.com/environments/{{environment_uid}}?apikey={{postman-api-key-here}}
 ```
-{% endraw %}
