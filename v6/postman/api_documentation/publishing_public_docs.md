@@ -8,7 +8,7 @@ Published documentation enables you to share your [public API documentation](/do
 
 ### Generating public documentation
 
-You can only publish documentation for collections that you've created or have write permissions. From your collection's private documentation page, click the **Publish** button at the top of the screen.
+You can only publish documentation for collections that you've created or have write permissions. From your collection's private documentation page, click **Publish** on the top right corner of the screen.
 
 [![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-publish-button2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-publish-button2.png)  
 
@@ -53,7 +53,7 @@ You can update the custom styling options either before or after you publish you
 
 ---
 
-Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2) of a collection we've published.
+Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2) of a published collection.
 
 > **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 

@@ -38,8 +38,8 @@ The public link displays after you publish your documentation. A link to this pu
 ### Creating documentation
 
 You can create documentation in a few different ways:
-* From the [**New** button](/docs/v6/postman/launching_postman/newbutton#create-documentation)
-* From the Postman app launch screen following similar steps as the **New** button
+* Using the [**New** button](/docs/v6/postman/launching_postman/newbutton#create-documentation)
+* Using the Postman app launch screen following similar steps as the **New** button
 * From an existing collection by [viewing the private version of the docs](/docs/v6/postman/api_documentation/viewing_documentation) or [publishing public docs](/docs/v6/postman/api_documentation/publishing_public_docs)
 
 ### What gets automatically generated?
@@ -54,7 +54,7 @@ Postman uses ordered requests and folders to organize documentation in sections 
 
 You can customize descriptions using [Markdown](/docs/v6/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation. 
 
-We support GitHub flavored markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
+Postman supports GitHub-flavored Markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
 
 [![example of published documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-doc-markdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-doc-markdown.png)
 
@@ -71,13 +71,13 @@ The links are generated using IDs for the requests, folders and responses. If yo
 
 [![anchor tag id](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anchor-id.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anchor-id.png)
 
-**Note:** you cannot link to arbitrary parts of the documentation by manually creating an ID.
+**Note:** You cannot link to arbitrary parts of the documentation by manually creating an ID.
 
 ### Commenting on Private Documentation 
 
-Commenting is a new function that will help you to collaborate more effectively by posting your comments. You can post comments on your API documentation to share valuable information with your colleagues. You can save interactions with your teammates, add information that does not fit anywhere else, and can have discussions and more.
+You can post comments on your API documentation to share information with your colleagues. You can save interactions with your teammates, add information that does not fit anywhere else, and can have discussions and more.
 
-You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](/docs/v6/postman/api_documentation/viewing_documentation#viewing-private-documentation):
+You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](/docs/v6/postman/api_documentation/viewing_documentation#viewing-private-documentation).
 
 Once you access the documentation section, the comments section appears, as shown below:
 
