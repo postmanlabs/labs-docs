@@ -123,7 +123,7 @@ Click ellipsis (...) to duplicate a tab, as illustrated below:
 
 [![tabs menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multiple_Tabs4.png)
 
-**Note:** Duplicating a tab and duplicating a request are not one and the same. When you duplicate a request, it adds an additional request to your collection. For example, if you're trying out variations of a request with minor changes (something like change in query parameters), you might want to work with duplicate tabs. If you have significant changes in a request, you might probably want to duplicate a request. Also, you may duplicate a request if you want to keep track of changes. 
+**Note:** Duplicating a tab and duplicating a request are not one and the same. When you duplicate a request, it adds an additional request to your collection. For example, if you're trying out variations of a request with minor changes (something like change in query parameters), you might want to work with duplicate tabs. If you have significant changes in a request, you might probably want to duplicate a request. 
 
 ### Using multiple tabs
 
