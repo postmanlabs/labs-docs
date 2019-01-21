@@ -35,7 +35,7 @@ Let's take a scenario wherein you've 100 requests that contain critical debuggin
 
 #### Busy tab
 
-Postman puts a tab in 'Busy' mode as soon as the request receives a response (a state change though no data is modified). Let's say you have a request open in a preview tab and you hit the send button to view its response - the tab changes its state from 'preview' to 'busy' because of the change in the response of the request. Postman now opens other requests in a new preview tab, until there's a state change. 
+Postman puts a tab in 'Busy' mode as soon as you send the request (a state change though no data is modified). Let's say you have a request open in a preview tab and you hit the send button - the tab changes its state from 'preview' to 'busy' because of the change in the state of the tab (pressing the send button may change the response). Postman now opens other requests in a new preview tab, until there's a state change. 
 
 The following screen illustrates this:
 
