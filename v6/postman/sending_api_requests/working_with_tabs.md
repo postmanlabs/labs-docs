@@ -77,7 +77,7 @@ This section describes the following topics:
 
 You can open several tabs at the same time in Postman. Click '+' sign to open a new tab. Alternatively, use Cmd/Ctrl + T. The screen below illustrates opening a new tab:
 
-[![open a tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_PlusSign.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_PlusSign1.png)
+[![open a tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_PlusSign.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tabs_PlusSign.png)
 
 To close a tab, click 'x' on top corner of a tab. Alteratively, use Cmd/Ctrl + W. The screen below illustrates closing a tab:
 
