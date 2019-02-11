@@ -29,7 +29,7 @@ You also can download your global variables as a single JSON file.
 
 To view global variables, click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. 
 
-Click  "Edit" opens a modal for editing keys and values.
+Clicking  "Edit" opens a modal for editing keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)
 
