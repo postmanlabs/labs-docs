@@ -50,7 +50,7 @@ Here's how to create a monitor with the **New** button.
 
 1. In the header toolbar, click the **New** button.
 
-[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
+[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)
 
 The **Create New** tab appears.
 
@@ -76,7 +76,7 @@ Select if you want to monitor a new API or an existing or team collection. If yo
   * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
   * Select one or more regions of the world from where you want to monitor your results.
     
-  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_Monitor_New1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-configure-ps2.png)  
+  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_Monitor_New1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_Monitor_New1.png)  
  
  <ol start="6">
   <li>Click the <b>Create</b>  button. </li>
@@ -105,7 +105,7 @@ The **Create New** tab appears by default when you launch Postman.
   <li>In the <b>Create Monitor</b> modal, select a collection, schedule the frequency of the run, enter a monitor name, select the environment, and select the regions of the world from where you want to monitor your results. For more information on how to schedule a monitor, see the "Monitoring schedule and region" section below.</li>
 </ol>
 
-[![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_a_Monitor_Minute_Disabled.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-monitor-web-1.png)
+[![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_a_Monitor_Minute_Disabled.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_a_Monitor_Minute_Disabled.png))
 
 **Note:** To select regions manually and to schedule your monitor runs using the minute timer, upgrade your plan to Postman Pro or Enterprise. 
 
