@@ -125,7 +125,9 @@ Postman variables are very powerful, and two features - autocomplete and tool ti
 
 [![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)
 
-Type an open curly bracket to bring up the autocomplete menu. For the pre-request and test scripts section, which [uses the data editor](/docs/v6/postman/launching_postman/navigating_postman), entering the first letter of a variable triggers autocomplete. The menu contains a list of all variables in the current environment, followed by globals. Navigating through the list also shows the initial value, current value and scope for each variable, along with feedback for overridden variables. The following screen displays selection of Token1 with its initial and current values and scope:
+Type an open curly bracket to bring up the autocomplete menu. For the pre-request and test scripts section, which [uses the data editor](/docs/v6/postman/launching_postman/navigating_postman), entering the first letter of a variable triggers autocomplete. The menu contains a list of all variables in the current environment, followed by globals. Navigating through the list also shows the initial value, current value and scope for each variable, along with feedback for overridden variables. If the request is saved in a collection, Postman also displays the collection variables in the list. 
+
+The following screen displays selection of Token1 with its initial and current values and scope:
 
 ##### **Variable highlighting and tooltip on hover**
 
