@@ -23,7 +23,7 @@ Click the **Globals** button at the bottom of the modal to bring up a key-value 
 
 You also can download your global variables as a single JSON file.
 
-[![management environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-globals-1.png)
+[![management environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals9.png)
 
 ### Viewing global variables
 
@@ -31,8 +31,7 @@ To view global variables, click the Quick Look icon in the upper right corner of
 
 Click  "Edit" opens a modal for editing keys and values.
 
-[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look-globals.png)
-
+[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)
 
 For more information about globals, variables, and environments, see:
 

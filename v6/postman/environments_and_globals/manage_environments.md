@@ -63,7 +63,7 @@ Click **Add**.
 
 Click the dropdown menu in the upper right corner of the Postman app to select an active environment, or type in the environment name. 
 
-Once you select an environment, you can access variables in the active environmental scope.
+Once you select an environment, you can access variables in the active environment scope.
 
 [![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-active-environ.png)
 

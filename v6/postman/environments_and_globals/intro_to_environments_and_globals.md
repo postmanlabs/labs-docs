@@ -11,7 +11,7 @@ To understand environments and globals, you must first understand how variables 
 
 **Variables**
 
-Developers know that variables are static identifies used to store dynamic values. The information the variables represent can change, but the operations on the variables remain the same. This is true for Variables in Postman too. 
+Developers know that variables are static identifiers used to store dynamic values. The information the variables represent can change, but the operations on the variables remain the same. This is true for Variables in Postman too. 
 
 You can reuse variable values in multiple places. If you change the value, each instance of the variable changes accordingly, reducing the need for repetitive modifications and likelihood of an error.
 
