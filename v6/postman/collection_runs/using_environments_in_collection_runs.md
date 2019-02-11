@@ -44,7 +44,7 @@ Download the [sample environment JSON file](https://s3.amazonaws.com/postman-sta
 
 In the Collection Runner, select the test environment from the environment dropdown on the left and run the collection. You'll see the tests pass. 
 
-[![collection runner parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_collection_run.png)  
+[![collection runner parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg9.png)  
 
 If you switch back to the main Postman app window and check the value of the variable `foo`, you'll see that it is now `bar2`. 
 
