@@ -10,7 +10,8 @@ This chapter describes the following topics:
 * [Understanding roles in Postman](#understanding-roles-in-postman)
 * [List of roles and permissions](#list-of-roles-and-permissions)
 * [Roles before and after](#roles-before-and-after)
-* [Migrating to version v7](#migrating-to-version-v7)
+* [Migrating to Postman v7](#migrating-to-postmanv7)
+* 
 
 ### Understanding roles in Postman
 
