@@ -10,9 +10,8 @@ Migrating from your current version of Postman to Postman 7.0 is a big change. H
 
 This section describes the following topics:
 
-* Why migrate?
-* How to migrate?
-* 
+* [Why migrate?](#why-migrate)
+* [How to migrate](#how-to-migrate)
 
 ### Why migrate?
 If you are a team user, you must migrate to version 7.0 to leverage fine-grained role-based access of Postman’s features. If you stay back on the older version of Postman app, you will not be able to: 
