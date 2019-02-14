@@ -14,10 +14,12 @@ This section describes the following topics:
 * [How to migrate](#how-to-migrate)
 
 ### Why migrate?
+
 If you are a team user, you must migrate to version 7.0 to leverage fine-grained role-based access of Postman’s features. If you stay back on the older version of Postman app, you will not be able to: 
 
-Use role-based permissions which come with a fine-grained access management of some of Postman’s prominent features. 
-Access new features and updates because new feature development will be based on version 7.0.
+* Use role-based permissions which come with a fine-grained access management of some of Postman’s prominent features.
+
+* Access new features and updates because new feature development will be based on version 7.0.
 
 **Note:** If you migrate to version 7.0, the native apps 6.x versions and Chrome app 5.x versions will not work as they are not supported.
 
