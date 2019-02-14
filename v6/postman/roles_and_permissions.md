@@ -10,7 +10,7 @@ This chapter describes the following topics:
 * [Understanding roles in Postman](#understanding-roles-in-postman)
 * [List of roles and permissions](#list-of-roles-and-permissions)
 * [Roles before and after](#roles-before-and-after)
-* [Migrating to Postman v7](#migrating-to-postmanv7)
+* [Migrating to Postman_v.7](#migrating-to-postman_v.7)
 
 
 ### Understanding roles in Postman
@@ -63,7 +63,7 @@ In Postman version 7.0, teams have three roles - **Developer**, **Admin**, and *
 [![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_TeamsTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_TeamsTable1.png)
 
 
-###  Roles before and after 7.0
+### Roles before and after
 
 A user's role determines what they can and cannot do in Postman. Each role has a default set of permissions. The following section illustrates the roles prior to version 7.0 and post 7.0. The following lists the old roles and the newer ones feature-wise:
 
@@ -80,6 +80,6 @@ A user's role determines what they can and cannot do in Postman. Each role has a
 
 **Note:** The older set of roles applied till app version 6.7.3. You can download the older app here (provide a link). 
 
-### Migrating to version 7.0
+### Migrating to Postmanv7
 
 Migrating to Postman v.7.0 is a big change. To know more about migration-related information, refer to [migrating to v7.0](/docs/v6/postman/migrating_to_v7.0) section.
