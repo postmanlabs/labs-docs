@@ -31,10 +31,6 @@ You'll be charged for the remainder of the billing cycle on a pro-rated basis. F
 
 When you purchase a Pro team online, the credit card info you enter is saved to your account.
 
-### Refund Policy
-
-We refund any payments made within 30 days, no questions asked. We greatly appreciate any feedback you have as to why you are canceling your Postman Pro plan.
-
 ### Pricing for Monitors
 
 Review details about [pricing for monitors](/docs/postman/monitors/pricing_monitors). 
