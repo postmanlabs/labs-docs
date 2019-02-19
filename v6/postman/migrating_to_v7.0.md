@@ -30,8 +30,8 @@ This section illustrates the possible user flows and guides you through the migr
 **Note:** The migration decision is restricted to the team Administrator. If you are a Postman team member and are not on Postman version 7.0, please contact your Administrator to migrate to version 7.0.   
 
 This section explains the following scenarios:
-* Entire team on older version 
-* A team user is on version 7.0
+* [Entire team on older version](#entire-team-on-older-version) 
+* [Team user on v7](#team-user-on-v7)
 
 #### Entire team on older version
 
@@ -44,7 +44,7 @@ Add download links….
 
 [ Screenshot]
 
-#### Team user on Postman 7.0
+#### Team user on v7
 
 If you are in a team and download Postman version 7.0 when the entire team is on an older version, you will not be able to migrate to version 7.0. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to version 7.0. If you happen to be on 7.0, click here to download 6.7.3.
 
