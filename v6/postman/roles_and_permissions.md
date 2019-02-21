@@ -20,7 +20,7 @@ specific roles in Postman. For instance, Postman provides an admin-level role to
 
 The diagram below illustrates the roles in Postman: 
 
-[![roles overview](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC1.png))
+[![roles overview](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC1.png)
 
 The following is a brief outline of the main roles:
 
@@ -78,8 +78,8 @@ A user's role determines what they can and cannot do in Postman. Each role has a
   - Admin 
   - Billing
 
-**Note:** The older set of roles applied till app version 6.7.3. You can download the older app here (provide a link). 
+**Note:** The older set of roles applied till app version 6. 
 
-### Migrating to Postmanv7
+### Migrating to Postman v7
 
-Migrating to Postman v.7.0 is a big change. To know more about migration-related information, refer to [migrating to v7.0](/docs/v6/postman/migrating_to_v7.0) section.
+To know more about migration-related information, refer to [migrating to v7.0](/docs/v6/postman/migrating_to_v7.0) section.

@@ -33,11 +33,17 @@ This section explains the following scenarios:
 * [Entire team on older version](#entire-team-on-older-version) 
 * [Team user on v7](#team-user-on-v7)
 
-#### Entire team on older version
+#### Entire team on older version Postman 6 and 5
 
 In a scenario where the entire team is on older version of Postman, the Postman app displays a message to the team admins asking if they want to upgrade to version 7.0. If the admin moves to version 7.0, then Postman will prompt the admin if he wants to move the entire team to version 7.0. Once the admin takes a decision to migrate the entire team, Postman automatically pushes the update and all team users must update the app.
 
-Link to update to 7.0
+admins get an email, migrate via email or admins can go to the dashboard and migrate....
+
+ping muchala screen how admins migrate to the new app.....
+
+after admins migrate, admins can tell users to migrate.....
+
+Contact your admin, or if you are an admin go to the dashboard and download v7.
  
  
 Add download links….
@@ -46,7 +52,9 @@ Add download links….
 
 #### Team user on v7
 
-If you are in a team and download Postman version 7.0 when the entire team is on an older version, you will not be able to migrate to version 7.0. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to version 7.0. If you happen to be on 7.0, click here to download 6.7.3.
+If you are in a team and download Postman version 7.0 when the entire team is on an older version, you will not be able to migrate to version 7.0. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to version 7.0. If you happen to be on 7.0, click here to download Postman version 6
+
+3 links.... for mac, linux and windows...
 
 
 
