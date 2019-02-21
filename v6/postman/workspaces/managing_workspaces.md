@@ -49,9 +49,9 @@ When you click a personal or team workspace, you can see all the elements and ac
 
 If you click the **Share** button, you can share this collection with another workspace. You can share the collection with as many workspaces as you'd like.
 
-If you click the ellipses **(...)**, you can remove any element from the workspace or publish collections.
+If you click the ellipses **(...)**, you can remove any element from the workspace, publish collections, fork a copy and even merge your changes.
 
-[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_Dashboard_Mainscreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_Dashboard_Mainscreen.png)
 
 **Collections**
 
