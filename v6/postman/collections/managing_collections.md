@@ -29,7 +29,7 @@ Click on a collection to show or hide the requests that comprise the Collection.
 
 Expand the arrow (&#9656;) to show the details view for the collection. Collapse the arrow (&#9666;) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collectionDetailsView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collectionDetailsView.png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Details_View_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Details_View_New..png)
 
 ### Create a new collection
 
@@ -105,10 +105,10 @@ Requests stored inside a collection can contain [scripts](/docs/v6/postman/scrip
 
 Folders are a way to organize your API endpoints within a collection into intuitive and logical groups to mirror your workflow. Next to the collection to which you want to add a folder, click on the ellipsis (...) and select "Add Folder".
 
-[![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)
+[![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_Folder_Dropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add_Folder_Dropdown.png)
 
 Add a name and description to the folder. The description is reflected in your API documentation.
 
 You can add deeper levels of nesting for folders. Drag and drop the folders to reorder them to create the ultimate customized folder structure.
 
-[![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiLevelFolders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiLevelFolders.png)
+[![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multi_Level_Folders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiLevelFolders.png)
