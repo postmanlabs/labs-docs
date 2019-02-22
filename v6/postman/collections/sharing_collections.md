@@ -37,9 +37,9 @@ Select this option to share a collection to another workspace or with a workspac
 
 The collection's creator can set team default permissions to either view-only or edit and this can be done only after sharing a collection. First, you share the collection and then assign a role. The creator also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared. 
 
-**Note:** Refer to [Roles and permissions](docs/v6/roles_and-permissions) for more information on role-based user permissions and privileges. 
+**Note:** Refer to [Roles and permissions](docs/v6/roles_and_permissions) for more information on role-based user permissions and privileges. 
 
-[![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing.png)
+[![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_new.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing.png)
 
 
 
@@ -58,13 +58,13 @@ When you click the **Generate Code** button, you get a link that you can use for
 
 The **Run in Postman** button shares the collection directly from Postman, so the collection is uploaded to Postman servers when you generate the embed code.
 
-[![share embed-rip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-embed-a-collection.png)
+[![share embed-rip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_link.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_link.png)
 
 **Sharing collections with a link**
 
 Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [workspaces dashboard](https://app.getpostman.com/dashboard).
 
-[![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
+[![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_link2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_link2.png)
 
 **In the Browse view**
 
@@ -100,4 +100,4 @@ In the **Manage Roles** modal, select the default team permission, add a user/te
 
 Click the **Save Changes** button to complete the process.
 
-[![modify team permissions modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles2.png)
+[![modify team permissions modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles3.png)

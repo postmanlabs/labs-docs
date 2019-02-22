@@ -16,7 +16,7 @@ Click "All workspaces" to display the [Workspaces dashboard](https://app.getpost
 
 From the [Workspaces dashboard](https://app.getpostman.com/dashboard) under the **Personal** tab, click the **Add to workspace** button to [add collections or environments from another workspace](/docs/postman/workspaces/using_workspaces) to the selected workspace. You can also perform this action in the team workspace view.
 
-[![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
+[![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_rightclick_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_rightclick_menu.png)
 
 Click the ellipses **(...)** to [manage your personal workspaces](/docs/v6/postman/workspaces/using_workspaces):
 

@@ -23,8 +23,8 @@ Postman Enterprise users can check the box to limit the visibility of this works
 
 Click the **Create Workspace** button to finish creating your workspace.
 
-[![create new team workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-visibility-checkbox.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-visibility-checkbox.png)
+[![create new team workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_team_create_new.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_team_create_new.png)
 
 You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Click the **Create a new workspace** button and follow the steps on how to create a personal or team workspace above.
  
- [![create new workspace dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-allWorkspaces-main.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-allWorkspaces-main.png)
+ [![create new workspace dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_create_dashboard_new.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_create_dashboard_new.png)
