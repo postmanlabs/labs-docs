@@ -30,26 +30,17 @@ This section illustrates the possible user flows and guides you through the migr
 **Note:** The migration decision is restricted to the team Administrators. If you are a Postman team member and are not on Postman version 7.0, please contact your Administrator to migrate to version 7.0.   
 
 This section explains the following scenarios:
+
 * [Team on Postman version 5/6](#team-on-postman-version-5/6) 
 * [Team user on v7](#team-user-on-v7)
 
 #### Team on Postman version 5/6
 
-If you are an admin, you can go to the Postman dashboard and download v7. Read the section [Installing Postman v7]() for details on the installation procedure. Once you migrate, you can instruct your team members to migrate to Postman v7.
+If you are an admin, you can go to the Postman dashboard and migrate to Postman v7. From your Postman dashboard, click **Settings** and then select **Roles and Permissions** to go to the following screen:
 
+[![migration to v7](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Migrate2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Migrate2.png)
 
-In a scenario where the entire team is on older version of Postman, the Postman app displays a message to the team admins asking if they want to upgrade to version 7.0. If the admin moves to version 7.0, then Postman will prompt the admin if he wants to move the entire team to version 7.0. Once the admin takes a decision to migrate the entire team, Postman automatically pushes the update and all team users must update the app.
-
-admins get an email, migrate via email or admins can go to the dashboard and migrate....
-
-ping muchala screen how admins migrate to the new app.....
-
-after admins migrate, admins can tell users to migrate.....
-
-Contact your admin, or if you are an admin go to the dashboard and download v7.
- 
- 
-Add download links….
+Click **Migrate my team to v7.0** and Postman takes care of the next steps for you and your team. 
 
 [ Screenshot]
 

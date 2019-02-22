@@ -68,11 +68,11 @@ In Postman version 7.0, teams have three roles - **Developer**, **Admin**, and *
 A user's role determines what they can and cannot do in Postman. Each role has a default set of permissions. The following section illustrates the roles prior to version 7.0 and post 7.0. The following lists the old roles and the newer ones feature-wise:
 
 * Collections
-  - *Can view* changed to **Viewer**
-  - *Can edit* changed to **Editor**
+  - *Can view* changed to **Collection Viewer**
+  - *Can edit* changed to **Collection Editor**
 * Workspace (No roles existed prior to version 7.0)
-  - Collaborator
-  - Admin
+  - Workspace Collaborator
+  - Workspace Admin
 * Team
   - *User* changed to **Developer**
   - Admin 
