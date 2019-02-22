@@ -29,7 +29,7 @@ This section illustrates the possible user flows and guides you through the migr
 
 **Note:** The migration decision is restricted to the team Administrators. If you are a Postman team member and are not on Postman version 7.0, please contact your Administrator to migrate to version 7.0.   
 
-This section explains the following scenarios:
+The next section explains the following scenarios:
 
 * [Team on Postman version 5/6](#team-on-postman-version-5/6) 
 * [Team user on v7](#team-user-on-v7)
@@ -55,6 +55,5 @@ If you are in a team and download Postman version 7.0 when the entire team is on
 
 
 
-[ Screenshot]
 
 
