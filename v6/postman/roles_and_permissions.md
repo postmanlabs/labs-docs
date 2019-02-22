@@ -3,20 +3,20 @@ title: "Roles and permissions"
 page_id: "roles_and_permissions"
 warning: false
 ---
-Roles and permissions in Postman have been enhanced to provide a more robust-access control mechanism. In Postman v7.0, you access features through assigned roles that have their own set of permissions and privileges defined with their own level of permission and access. 
+Roles and permissions in Postman have been enhanced to provide a more robust-access control mechanism. In Postman v7.0, you access features through assigned roles that have their own set of permissions and privileges. 
 
 This chapter describes the following topics:
 
 * [Understanding roles in Postman](#understanding-roles-in-postman)
 * [List of roles and permissions](#list-of-roles-and-permissions)
 * [Roles before and after](#roles-before-and-after)
-* [Migrating to Postman_v.7](#migrating-to-postman_v.7)
+* [Migrating to Postman v7](#migrating-to-postman-v7)
 
 
 ### Understanding roles in Postman
 
 Permissions to perform certain tasks and/or operations are assigned to 
-specific roles in Postman. For instance, Postman provides an admin-level role to help manage the permissions of Postman for the entire team. 
+specific roles in Postman. For instance, Postman provides an admin-level role to help manage the permissions of Postman for the entire team. Likewise, Postman has other roles with specific permissions.  
 
 The diagram below illustrates the roles in Postman: 
 
@@ -45,14 +45,14 @@ This section describes the following topics:
 
 #### Collection roles
 
-In Postman version 7.0, collections have two roles - **Viewer** and **Editor**. The following table illustrates the roles and permissions of collections:  
+In Postman version 7.0, collections have two roles - **Collection Viewer** and **Collection Editor**. The following table illustrates the roles and permissions of collections:  
 
 [![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_CollectionsTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_CollectionsTable1.png)
 
 
 #### Workspace roles
 
-In Postman version 7.0, workspaces have two roles - **Collaborator** and **Admin**. The following table illustrates the roles and permissions of workspaces:  
+In Postman version 7.0, workspaces have two roles - **Workspace Collaborator** and **Workspace Admin**. The following table illustrates the roles and permissions of workspaces:  
 
 [![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_WorkspacesTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_WorkspacesTable1.png)
 
@@ -78,7 +78,7 @@ A user's role determines what they can and cannot do in Postman. Each role has a
   - Admin 
   - Billing
 
-**Note:** The older set of roles applied till app version 6. 
+**Note:** The older set of roles applied till Postman app version 6. 
 
 ### Migrating to Postman v7
 

@@ -21,19 +21,22 @@ If you are a team user, you must migrate to version 7.0 to leverage fine-grained
 
 * Access new features and updates because new feature development will be based on version 7.0.
 
-**Note:** If you migrate to version 7.0, the native apps 6.x versions and Chrome app 5.x versions will not work as they are not supported.
+**Note:** If you migrate to version 7.0, the native apps 5.x and 6.x versions and Chrome app 5.x versions will not work as they are not supported.
 
 ### How to migrate?
 
 This section illustrates the possible user flows and guides you through the migration process. Role-based access is a team feature. To use this feature, the entire team must be on Postman version 7.0. 
 
-**Note:** The migration decision is restricted to the team Administrator. If you are a Postman team member and are not on Postman version 7.0, please contact your Administrator to migrate to version 7.0.   
+**Note:** The migration decision is restricted to the team Administrators. If you are a Postman team member and are not on Postman version 7.0, please contact your Administrator to migrate to version 7.0.   
 
 This section explains the following scenarios:
-* [Entire team on older version](#entire-team-on-older-version) 
+* [Team on Postman version 5/6](#team-on-postman-version-5/6) 
 * [Team user on v7](#team-user-on-v7)
 
-#### Entire team on older version Postman 6 and 5
+#### Team on Postman version 5/6
+
+If you are an admin, you can go to the Postman dashboard and download v7. Read the section [Installing Postman v7]() for details on the installation procedure. Once you migrate, you can instruct your team members to migrate to Postman v7.
+
 
 In a scenario where the entire team is on older version of Postman, the Postman app displays a message to the team admins asking if they want to upgrade to version 7.0. If the admin moves to version 7.0, then Postman will prompt the admin if he wants to move the entire team to version 7.0. Once the admin takes a decision to migrate the entire team, Postman automatically pushes the update and all team users must update the app.
 
@@ -52,9 +55,12 @@ Add download links….
 
 #### Team user on v7
 
-If you are in a team and download Postman version 7.0 when the entire team is on an older version, you will not be able to migrate to version 7.0. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to version 7.0. If you happen to be on 7.0, click here to download Postman version 6
+If you are in a team and download Postman version 7.0 when the entire team is on an older version, you will not be able to migrate to version 7.0. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to version 7.0. If you happen to be on 7.0, click here to download Postman version 6. The following are download links:
 
-3 links.... for mac, linux and windows...
+* To download Postman v6 on mac, 
+* To download Postman v6 on Linux, 
+* To download Postman v6 on Windows
+
 
 
 
