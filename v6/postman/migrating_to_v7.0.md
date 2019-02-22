@@ -42,8 +42,6 @@ If you are an admin, you can go to the Postman dashboard and migrate to Postman 
 
 Click **Migrate my team to v7.0** and Postman takes care of the next steps for you and your team. 
 
-[ Screenshot]
-
 #### Team user on v7
 
 If you are in a team and download Postman version 7.0 when the entire team is on an older version, you will not be able to migrate to version 7.0. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to version 7.0. If you happen to be on 7.0, click here to download Postman version 6. The following are download links:
