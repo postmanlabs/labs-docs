@@ -37,7 +37,7 @@ Select this option to share a collection to another workspace or with a workspac
 
 The collection's creator can set team default permissions to either view-only or edit and this can be done only after sharing a collection. First, you share the collection and then assign a role. The creator also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared. 
 
-**Note:** Refer to [Roles and permissions](docs/v6/roles_and_permissions) for more information on role-based user permissions and privileges. 
+**Note:** Refer to [Roles and permissions](docs/v6/postman/roles_and_permissions) for more information on role-based user permissions and privileges. 
 
 [![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_new.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing.png)
 
