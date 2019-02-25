@@ -41,9 +41,6 @@ The collection's creator can set team default permissions to either view-only or
 
 [![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_new.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing.png)
 
-
-
-
 In the [workspaces dashboard](https://app.getpostman.com/dashboard), select a collection and then click the **Share** button. The collection is visible in your target workspace. 
 
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)
