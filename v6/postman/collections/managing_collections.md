@@ -29,7 +29,7 @@ Click on a collection to show or hide the requests that comprise the Collection.
 
 Expand the arrow (&#9656;) to show the details view for the collection. Collapse the arrow (&#9666;) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Details_View_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Details_View_New..png)
+[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Details_View_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Details_View_New.png)
 
 ### Create a new collection
 
@@ -111,4 +111,4 @@ Add a name and description to the folder. The description is reflected in your A
 
 You can add deeper levels of nesting for folders. Drag and drop the folders to reorder them to create the ultimate customized folder structure.
 
-[![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Multi_Level_Folders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiLevelFolders.png)
+[![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collections_Folder_View.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collections_Folder_View.png)

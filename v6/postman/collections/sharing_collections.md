@@ -35,9 +35,9 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 
 Select this option to share a collection to another workspace or with a workspace member. If shared to a team workspace, the collection will be visible to others in the team. 
 
-The collection's creator can set team default permissions to either view-only or edit and this can be done only after sharing a collection. First, you share the collection and then assign a role. The creator also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared. 
+You can set team default permissions to either view-only or edit; only after sharing a collection. First, you share the collection and then assign a role. You also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared. 
 
-**Note:** Refer to [Roles and permissions](docs/v6/postman/roles_and_permissions) for more information on role-based user permissions and privileges. 
+**Note:** Refer to [Roles and permissions](docs/v6/postman/roles_and_permissions) for more information on role-based user permissions. 
 
 [![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing_new.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_sharing.png)
 
@@ -85,9 +85,9 @@ Learn more about [exporting and importing collections](/docs/v6/postman/collecti
 
 ### Modifying team permissions
 
-You can share collections with your entire team or assign individual permissions for team members. A collection's creator can designate view or edit permissions for the team only after sharing a collection. **Note**: For now, each collection's permission must be set individually by its owner. The default team permission is view-only.
+You can share collections with your entire team or assign individual permissions for team members. You can designate view or edit permissions for the team only after sharing a collection. **Note**: For now, each collection's permission must be set individually by the collection editor. The default team permission is view-only.
 
-To assign or modify team permissions in the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
+To assign or manage roles in the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
 
 [![modify team permissions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Roles.png)
 
