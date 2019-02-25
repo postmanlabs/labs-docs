@@ -479,9 +479,9 @@
         "external": false
       },
       {
-        "title": "Migrating to version7.0",
-        "url_prefix": "migrating_to_v7.0",
-        "href":"/docs/v6/postman/migrating_to_v7.0",
+        "title": "Migrating to version7",
+        "url_prefix": "migrating_to_v7",
+        "href":"/docs/v6/postman/migrating_to_v7",
         "external": false
       },
       {

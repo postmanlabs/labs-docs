@@ -3,7 +3,7 @@ title: "Roles and permissions"
 page_id: "roles_and_permissions"
 warning: false
 ---
-Roles and permissions in Postman have been enhanced to provide a more robust-access control mechanism. In Postman v7.0, you access features through assigned roles that have their own set of permissions and privileges. 
+Roles and permissions in Postman have been enhanced to provide a more robust access-control mechanism. In Postman v7.0, you access features through assigned roles that have their own set of user permissions. 
 
 This chapter describes the following topics:
 
