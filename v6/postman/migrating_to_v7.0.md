@@ -44,13 +44,13 @@ Click **Migrate my team to v7.0** and Postman takes care of the next steps for y
 
 #### Team user on v7
 
-If you are in a team and download Postman version 7.0 when the entire team is on an older version, you will not be able to migrate to version 7.0. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to version 7.0. If you happen to be on 7.0, click here to download Postman version 6. The following are download links:
+If you are in a team and download Postman version 7.0 when the entire team is on an older version, you will not be able to migrate to version 7.0. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to version 7.0. If you happen to be on 7.0, click the following links and download your version of Postman:
 
-* To download Postman v6 on mac, 
-* To download Postman v6 on Linux, 
-* To download Postman v6 on Windows
-
-
+* [Install Postman v6 on macOS 64-bit](https://go.pstmn.io/dl-macos64-v6-latest) 
+* [Install Postman v6 on Windows 64-bit](https://go.pstmn.io/dl-win64-v6-latest)
+* [Install Postman v6 on Windows 32-bit](https://go.pstmn.io/dl-win32-v6-latest)
+* [Install Postman v6 on Linux 64-bit](https://go.pstmn.io/dl-linux64-v6-latest) 
+* [Install Postman v6 on Linux 32-bit](https://go.pstmn.io/dl-linux32-v6-latest) 
 
 
 
