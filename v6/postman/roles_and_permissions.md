@@ -3,7 +3,7 @@ title: "Roles and permissions"
 page_id: "roles_and_permissions"
 warning: false
 ---
-Roles and permissions in Postman have been enhanced to provide a more robust access-control mechanism. In Postman v7.0, you access features through assigned roles that have their own set of user permissions. 
+Roles and permissions in Postman have been enhanced to provide a more robust access-control mechanism. In Postman v7, you access features through assigned roles that have their own set of user permissions. 
 
 This chapter describes the following topics:
 
@@ -45,27 +45,27 @@ This section describes the following topics:
 
 #### Collection roles
 
-In Postman version 7.0, collections have two roles - **Collection Viewer** and **Collection Editor**. The following table illustrates the roles and permissions of collections:  
+In Postman v7, collections have two roles - **Collection Viewer** and **Collection Editor**. The following table illustrates the roles and permissions of collections:  
 
 [![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_CollectionsTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_CollectionsTable1.png)
 
 
 #### Workspace roles
 
-In Postman version 7.0, workspaces have two roles - **Workspace Collaborator** and **Workspace Admin**. The following table illustrates the roles and permissions of workspaces:  
+In Postman v7, workspaces have two roles - **Workspace Collaborator** and **Workspace Admin**. The following table illustrates the roles and permissions of workspaces:  
 
 [![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_WorkspacesTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_WorkspacesTable1.png)
 
 #### Team roles
 
-In Postman version 7.0, teams have three roles - **Developer**, **Admin**, and **Billing**. The following table illustrates team's roles and permissions:  
+In Postman v7, teams have three roles - **Developer**, **Admin**, and **Billing**. The following table illustrates team's roles and permissions:  
 
 [![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_TeamsTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_TeamsTable1.png)
 
 
 ### Roles before and after
 
-A user's role determines what they can and cannot do in Postman. Each role has a default set of permissions. The following section illustrates the roles prior to version 7.0 and post 7.0. The following lists the old roles and the newer ones feature-wise:
+A user's role determines what they can and cannot do in Postman. Each role has a default set of permissions. The following section illustrates the roles prior to version 7 and post 7. The following lists the old roles and the newer ones feature-wise:
 
 * Collections
   - *Can view* changed to **Collection Viewer**
@@ -82,4 +82,4 @@ A user's role determines what they can and cannot do in Postman. Each role has a
 
 ### Migrating to Postman v7
 
-To know more about migration-related information, refer to [migrating to v7.0](/docs/v6/postman/migrating_to_v7.0) section.
+To know more about migration-related information, refer to [migrating to v7](/docs/v6/postman/migrating_to_v7) section.
