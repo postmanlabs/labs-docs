@@ -1,6 +1,6 @@
 ---
-title: "Migrating to version 7.0"
-page_id: "migrating_to_v7.0"
+title: "Migrating to v7"
+page_id: "migrating_to_v7"
 warning: false
 ---
 
