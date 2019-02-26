@@ -479,6 +479,18 @@
         "external": false
       },
       {
+        "title": "Migrating to version7",
+        "url_prefix": "migrating_to_v7",
+        "href":"/docs/v6/postman/migrating_to_v7",
+        "external": false
+      },
+      {
+        "title": "Roles and permissions",
+        "url_prefix": "roles_and_permissions",
+        "href":"/docs/v6/postman/roles_and_permissions",
+        "external": false
+      },
+      {
         "title": "Customizing Postman",
         "url_prefix": "customizing_postman",
         "href":"/docs/v6/postman/customizing_postman",
