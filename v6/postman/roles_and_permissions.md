@@ -35,7 +35,7 @@ The following is a brief outline of the main roles:
 
 ### List of roles and permissions 
 
-Roles and permissions is not a new feature in Postman and in version 7.0 they have been enhanced to provide a fine-grained access management of its features. This sections clearly outlines the roles and permissions for collections, workspaces, and teams in a table format.
+Roles and permissions is not a new feature in Postman. In Postman v7 the roles have been enhanced to provide a fine-grained access management of its features. This sections clearly outlines the roles and permissions for collections, workspaces, and teams in a table format.
 
 This section describes the following topics:
 
