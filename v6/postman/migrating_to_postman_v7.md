@@ -1,6 +1,6 @@
 ---
-title: "Migrating to v7"
-page_id: "migrating_to_v7"
+title: "Migrating to Postman v7"
+page_id: "migrating_to_Postman_v7"
 warning: false
 ---
 
