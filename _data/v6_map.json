@@ -479,7 +479,7 @@
         "external": false
       },
       {
-        "title": "Migrating to version7",
+        "title": "Migrating to Postman v7",
         "url_prefix": "migrating_to_postman_v7",
         "href":"/docs/v6/postman/migrating_to_postman_v7",
         "external": false
