@@ -20,7 +20,7 @@ specific roles in Postman. For instance, Postman provides an admin-level role to
 
 The diagram below illustrates the roles in Postman: 
 
-[![roles overview](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC1.png)
+[![roles overview](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC1.png)
 
 The following is a brief outline of the main roles:
 
