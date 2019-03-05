@@ -97,7 +97,7 @@ The following image depicts the way variables work in Postman.
 
 As you can see, you can't get data and collection variables; unlike other variables. You can set data variables using a data file from the Runner while collection variables can be set from the Postman UI. You can also see that pm.variables.get () is going through all the layers. You cannot directly reference collection variables
 
-If there is a same variable in environment and global, you can access using pm.global.get or pm.environment.get but if you use pm.variable.get, you will only get one. 
+If there is a same variable in environment and global, you can access using pm.global.get or pm.environment.get but if you use pm.variable.get, you will only get one that has the top most precedence. If you have the same variable in environment, global, and collection variables, then you can directly access global and environment but you can't access collection variable. if you use pm.variables.get, I think environment has higher priority than collection...
 
 
 ## Precedence in Postman variables
