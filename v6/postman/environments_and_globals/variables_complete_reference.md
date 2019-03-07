@@ -6,7 +6,7 @@ warning: false
 
 Variables are used to store information to be referenced and manipulated in programming languages and software tools. The primary purpose of variables is to label and store data in memory. You may think of variables as containers that hold information. Like in programming languages, variables in Postman play a vital role in bringing flexibility to your development environment. 
 
-In Postman there are five variable scopes. Among these five set of variable scopes, environment and global variable scopes are touted to be the two most widely used ones. This article explores all variable scopes in detail and attempts to bring clarity surrounding variable scopes in Postman.
+In Postman there are five variable scopes. Among these five set of variable scopes, environment and global variable scopes are touted to be the two most widely used ones. This chapter explores variable scopes in detail and attempts to bring clarity surrounding variable scopes in Postman.
 
 This document explains the following topics:
 
@@ -27,7 +27,7 @@ This section describes the following topics:
 
 ### Local/Temporary variables
 
-Local variables, as the name suggests, are always local and have the highest priority at any given point in time. Sometimes, they are also referred to as temporary variables. Anything that is transient and needed for collection execution should go as a local variable. Anything that must be persisted or has to be saved after the collection execution must go as an environment or a global variable. 
+Local variables, as the name suggests, are always local and have the highest precedence at any given point in time. Sometimes, they are also referred to as temporary variables. Anything that is transient and needed for collection execution should go as a local variable. Anything that must be persisted or has to be saved after the collection execution must go as an environment or a global variable. 
 
 Syntax:
 
@@ -38,25 +38,16 @@ pm.variables.get("key");
 
 ### Data variables
 
-The Collection Runner lets you import a CSV or a JSON file, and then use the values from the data file inside HTTP requests and scripts. We call these 'data variables'. You cannot create or set a 'data' variable. You can only 'get' a data variable. Let's consider an example wherein you want to use a record multiple times with multiple values. In such a scenario, you can use data variables. This is based on the concept of array of objects. Let’s discuss a collection that on-boards new employees in a company. For one employee to be on-boarded, an email id should be created, a laptop be given besides an employee id, an access card and various other accounts created. Let’s assume this is just one workflow having multiple requests to onboard one employee. Now, if you want to onboard 100 employees, you can use data variables. Every single item  must correspond to the whole data of one employee. If you've used the Collection Runner then it allows you to import a data file and then use the values from the data file inside HTTP requests. 
-
-To use them inside Postman, follow the same syntax as environment or global variables. Let's give the syntax
-
-
+The Collection Runner lets you import a CSV or a JSON file, and then use the values from the data file inside HTTP requests and scripts. We call these 'data variables'. You cannot create or set a 'data' variable. You can only 'get' a data variable. Let's consider an example wherein you want to use a record multiple times with multiple values. In such a scenario, you can use data variables. This is based on the concept of array of objects. Let’s discuss a collection that on-boards new employees in a company. For one employee to be on-boarded, an email id should be created and a laptop be given. Besides this, an employee id, an access card and various other accounts should also be created to on-board an employee. Let’s assume this is just one workflow having multiple requests to onboard one employee. Now, if you want to onboard 100 employees, you can use data variables. Every single item  must correspond to the whole data of one employee. If you've used the Collection Runner then it allows you to import a data file and then use the values from the data file inside HTTP requests. To use them inside Postman, follow the same syntax as environment or global variables. 
 
 Let’s say you have the pm.iterationData.get("username") method inside pre-request and test scripts. The method would let you access the value of the username variable from a data file.
 
 
 ### Collection variables 
 
-These variables are a part of your collection. If there are variables that don’t change according to your environment, you can create collection variables. You can create/define your collection variables in the UI by clicking (...) next to the collection name and selecting 'Edit'.  
+These variables are a part of your collection. If there are variables that don’t change in respect to your environment, you can create collection variables. You can create/define your collection variables in the UI by clicking (...) next to the collection name and selecting 'Edit'. Using pm.variables.get (), you can only get the variable, you can't set them. 
 
-// get, can't set
-// explain on top that pm.variables.get is actually going through all layers
-
-Let’s consider a case in point. A collection has 500 requests in it and all of them have a URL. Let’s say if the URL gets changed then updating this change 500 times for 500 requests is near impossible. So, it’s a good idea to create a collection variable and use accordingly. Another recommendation here is if you have non-sensitive data which is repetitive, it is recommended to go for a collection variable. One point to note though is that you can’t set collection variables using scripts. Remember one of the primary use cases of collection variables is that you can access them from a request within a collection. 
-
-However, note that you can't set the request. 
+Let’s consider a case in point. A collection has 500 requests in it and all of them have a URL. Let’s say if the URL gets changed then updating this change 500 times for 500 requests is near impossible. So, it’s a good idea to create a collection variable and use accordingly. Another recommendation here is if you have non-sensitive data which is repetitive, it is recommended to go for a collection variable. One point to note though is that you can’t set collection variables using scripts. Remember one of the primary use cases of collection variables is that you can access them from a request within a collection.  
 
 Syntax:
 
@@ -66,7 +57,7 @@ pm.variables.get("key");
 
 ### Environment variables
 
-Postman’s environment feature enables you to switch between different setups easily. These are similar to global variables but with a narrow scope. Environment variables are useful if you have multiple environments where testing needs to be done for Dev, Staging and Production environments. You can configure variables as per your needs depending on the environment you set up and Postman replaces these variables when you select the corresponding environment. 
+Postman’s environment feature enables you to switch between different setups/environments easily. These are similar to global variables but with a narrow scope. Environment variables are useful if you have multiple environments where testing needs to be done for Dev, Staging and Production environments. You can configure variables as per your needs depending on the environment you set up and Postman replaces these variables when you select the corresponding environment. 
 
 Let’s say there are three environments – Development, Staging, and Production. And every environment has a different set of request APIs. Let’s say you are developing an API and for each API you want to set a host and a token variable for authentication purposes. The tokens for Development are D1 and 1, S2 and 2 for Staging, and P3 and 3 for production. When you select Development environment, Postman populates D1 and 1 and likewise.
 
@@ -94,11 +85,7 @@ The following image depicts the way variables work in Postman.
 
 [![variables scope pictorially](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Chart.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ariables-Chart.png)
 
-As you can see in the above illustration, you can't set data and collection variables. You can only get data variables using a data file from the Runner while collection variables can be set from the Postman UI. You can also see that pm.variables.get () is going through all the layers. 
-
-If there's same variable in environment and global, you can access using pm.environment.get () and pm.global.get () respectively. If you use pm.variable.get (), you will only get one that has the top most precedence - which is environment. 
-
-If you have the same variable in environment, global, and collection, then you can directly access global and environment but you can't access a collection variable. If you use pm.variables.get (), Postman will fetch the environment variable as it has higher precedence than collections.
+As you can see in the above illustration, you can't set data and collection variables. You can only get data variables using a data file from the Runner while collection variables can be set from the Postman UI. You can also see that pm.variables.get () is going through all the layers. If a same variable exists in an environment and global scope, you can access using pm.environment.get () and pm.global.get () respectively. If you use pm.variables.get (), you will only get the one that has the highest precedence - which is environment. If you have the same variable in an environment, global, and collections scope, then you can directly access global and environment variable but you can't access a collection variable. If you use pm.variables.get (), Postman will fetch the environment variable as it has higher precedence than collections.
 
 
 ## Precedence in Postman variables
