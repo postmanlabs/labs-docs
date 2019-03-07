@@ -27,32 +27,56 @@ This section describes the following topics:
 
 ### Local/Temporary variables
 
-Local variables, as the name suggests, are always local and have the highest precedence at any given point in time. Sometimes, they are also referred to as temporary variables. Anything that is transient and needed for collection execution should go as a local variable. Anything that must be persisted or has to be saved after the collection execution must go as an environment or a global variable. 
+Local variables, as the name suggests, are always local to the request being executed and have the highest precedence at any given point in time. Sometimes, they are also referred to as temporary variables. Anything that is transient and needed for collection execution should go as a local variable. Anything that must be persisted or has to be saved after the request execution must go as an environment or a global variable. 
 
 Syntax:
 
 ```
+// to set a value
 pm.variables.set("key", "value");
+
+// to retrieve a value
 pm.variables.get("key");
+
 ```
 
 ### Data variables
 
-The Collection Runner lets you import a CSV or a JSON file, and then use the values from the data file inside HTTP requests and scripts. We call these 'data variables'. You cannot create or set a 'data' variable. You can only 'get' a data variable. Let's consider an example wherein you want to use a record multiple times with multiple values. In such a scenario, you can use data variables. This is based on the concept of array of objects. Let’s discuss a collection that on-boards new employees in a company. For one employee to be on-boarded, an email id should be created and a laptop be given. Besides this, an employee id, an access card and various other accounts should also be created to on-board an employee. Let’s assume this is just one workflow having multiple requests to onboard one employee. Now, if you want to onboard 100 employees, you can use data variables. Every single item  must correspond to the whole data of one employee. If you've used the Collection Runner then it allows you to import a data file and then use the values from the data file inside HTTP requests. To use them inside Postman, follow the same syntax as environment or global variables. 
+The Collection Runner lets you import a CSV or a JSON file, and then use the values from the data file inside HTTP requests and scripts. We call these 'data variables'. You cannot create or set a 'data' variable. You can only 'get', i.e read the value of a data variable. Let's consider an example wherein you want to use a record multiple times with multiple values. In such a scenario, you can use data variables. This is based on the concept of array of objects. Let’s discuss a collection that on-boards new employees in a company. For one employee to be on-boarded, an email id should be created and a laptop be given. Besides this, an employee id, an access card and various other accounts should also be created to on-board an employee. Let’s assume this is just one workflow having multiple requests to onboard one employee. Now, if you want to onboard 100 employees, you can use data variables. Every single item  must correspond to the whole data of one employee. If you've used the Collection Runner then it allows you to import a data file and then use the values from the data file inside HTTP requests. To use them inside Postman, follow the same syntax as environment or global variables:
 
-Let’s say you have the pm.iterationData.get("username") method inside pre-request and test scripts. The method would let you access the value of the username variable from a data file.
+Syntax:
 
+```
+// To retrieve a value
+
+pm.iterationData.get("username")
+
+```
 
 ### Collection variables 
 
-These variables are a part of your collection. If there are variables that don’t change in respect to your environment, you can create collection variables. You can create/define your collection variables in the UI by clicking (...) next to the collection name and selecting 'Edit'. Using pm.variables.get (), you can only get the variable, you can't set them. 
+These variables are a part of your collection. If there are variables that don’t change based on /your environment, you can create collection variables. You can create/define your collection variables in the UI by clicking (...) next to the collection name and selecting 'Edit'. Using ```pm.variables.get ()```, you can only get the variable, you can't set them. Since these variables are read-only, you can use the following syntax to get the value:
+
+Syntax:
+
+```
+// to retrieve a value
+
+pm.variables.get();
+...
+
+```
 
 Let’s consider a case in point. A collection has 500 requests in it and all of them have a URL. Let’s say if the URL gets changed then updating this change 500 times for 500 requests is near impossible. So, it’s a good idea to create a collection variable and use accordingly. Another recommendation here is if you have non-sensitive data which is repetitive, it is recommended to go for a collection variable. One point to note though is that you can’t set collection variables using scripts. Remember one of the primary use cases of collection variables is that you can access them from a request within a collection.  
 
 Syntax:
 
 ```
+
+// to retrieve a value
+
 pm.variables.get("key");
+
 ```
 
 ### Environment variables
@@ -64,7 +88,13 @@ Let’s say there are three environments – Development, Staging, and Productio
 Syntax:
 
 ```
+
+// to retrieve a value
+
 pm.environment.get("key");
+
+// to set a value
+
 pm.environment.set("key", "value");
 ```
 
@@ -75,8 +105,15 @@ Global Variables work outside the environment and they are global to a workspace
 Syntax:
 
 ```
+
+// to retrieve a value
+
 pm.globals.get("key");
+
+// to set a value
+
 pm.globals.set("key", "value");
+
 ```
 
 ## Variables’ scope pictorially
@@ -85,7 +122,7 @@ The following image depicts the way variables work in Postman.
 
 [![variables scope pictorially](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Chart.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ariables-Chart.png)
 
-As you can see in the above illustration, you can't set data and collection variables. You can only get data variables using a data file from the Runner while collection variables can be set from the Postman UI. You can also see that pm.variables.get () is going through all the layers. If a same variable exists in an environment and global scope, you can access using pm.environment.get () and pm.global.get () respectively. If you use pm.variables.get (), you will only get the one that has the highest precedence - which is environment. If you have the same variable in an environment, global, and collections scope, then you can directly access global and environment variable but you can't access a collection variable. If you use pm.variables.get (), Postman will fetch the environment variable as it has higher precedence than collections.
+As you can see in the above illustration, you can't set data and collection variables. You can only get data variables using a data file from the Runner while collection variables can be set from the Postman UI. You can also see that ```pm.variables.get ()``` is going through all the layers. If a same variable exists in an environment and global scope, you can access using ```pm.environment.get ()``` and ```pm.global.get ()``` respectively. If you use ```pm.variables.get ()```, you will only get the one that has the highest precedence - which is environment. If you have the same variable in an environment, global, and collections scope, then you can directly access global and environment variable but you can't access a collection variable. If you use ```pm.variables.get ()```, Postman will fetch the environment variable as it has higher precedence than collections.
 
 
 ## Precedence in Postman variables
@@ -98,8 +135,8 @@ From the above image, it’s clear that the variable with the narrowest scope al
 We have a variable my_data declared as a local and a global variable respectively. Which one would take precedence now? When a corresponding environment is selected both these variables get activated but the one with higher precedence (narrowest scope) will get the priority. In this case, my_data which is declared as a local variable takes precedence. 
 
 ## A holistic example 
-Let’s consider an example that has three collections C1, C2, and C3 and three environments E1 (Dev), E2 (Staging), and E3 (Prod). We have three different URLs for three different environments. Each collection has a timeout variable – 10 for C1 and 20 for C2 and 30 for C3. The number of attempts to retry is 3 for all collections in all environments, let’s say whenever a test case fails.
+Let’s consider an example that has three collections C1, C2, and C3 and three environments E1 (Dev), E2 (Staging), and E3 (Prod). We have three different URLs for three different environments. Each collection has a timeout variable – 10 for C1, 20 for C2, and 30 for C3. The number of attempts to retry is 3 for all collections in all environments, let’s say whenever a test case fails.
 
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Example1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Example1.png)
 
-As the above image illustrates, each environment has a different url. So,  an environment variable for url is created. The timeout variable is different for each collection so for three collections three different collection variables are created. Each time a test case fails, a ‘retry’ could be performed three times across collections and environments. So, a global variable is created for retry. 
+As the above image illustrates, each environment has a different url. So, an environment variable for url is created. The timeout variable is different for each collection so for three collections three different collection variables are created. Each time a test case fails, a ‘retry’ could be performed three times across collections and environments. So, a global variable is created for retry. 
