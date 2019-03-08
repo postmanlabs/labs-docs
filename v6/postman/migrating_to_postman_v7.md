@@ -36,7 +36,7 @@ The next section explains the following scenarios:
 
 #### Team on Postman version 5/6
 
-If you are an admin, you can go to the Postman dashboard and migrate to Postman v7. From your Postman dashboard, click **Settings** and then select **Roles and Permissions** to go to the following screen:
+If you are an admin, you can go to the [Postman dashboard](https://go.postman.co/settings/team/general) and migrate to Postman v7. From your Postman dashboard, select **Roles and Permissions** to go to the following screen:
 
 [![migration to v7](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Migrate2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Migrate2.png)
 
