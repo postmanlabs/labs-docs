@@ -51,7 +51,7 @@ If you click the **Share** button, you can share this collection with another wo
 
 If you click the ellipses **(...)**, you can remove any element from the workspace or publish collections.
 
-[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Dashboard_Ellipsis.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Dashboard_Ellipsis.png)
+[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Dashboard_Ellipsis2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Dashboard_Ellipsis2.png)
 
 **Collections**
 
