@@ -16,7 +16,7 @@ Click "All workspaces" to display the [Workspaces dashboard](https://app.getpost
 
 From the [Workspaces dashboard](https://app.getpostman.com/dashboard) under the **Personal** tab, click the **Add to workspace** button to [add collections or environments from another workspace](/docs/postman/workspaces/using_workspaces) to the selected workspace. You can also perform this action in the team workspace view.
 
-[![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
+[![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Create_in_Dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Create_in_Dashboard.png)
 
 Click the ellipses **(...)** to [manage your personal workspaces](/docs/v6/postman/workspaces/using_workspaces):
 
@@ -51,7 +51,7 @@ If you click the **Share** button, you can share this collection with another wo
 
 If you click the ellipses **(...)**, you can remove any element from the workspace or publish collections.
 
-[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Dashboard_Ellipsis2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Dashboard_Ellipsis2.png)
 
 **Collections**
 
