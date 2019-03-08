@@ -8,7 +8,7 @@ Variables are used to store information to be referenced and manipulated in prog
 
 In Postman there are five variable scopes. Among these five set of variable scopes, environment and global variable scopes are touted to be the two most widely used ones. This chapter explores variable scopes in detail and attempts to bring clarity surrounding variable scopes in Postman.
 
-This document explains the following topics:
+This chapter explains the following topics:
 
 * [Variable scopes in Postman](#variable-scopes-in-postman)
 * [Variables' scope pictorially](#variables'-scope-pictorially)
@@ -42,20 +42,22 @@ pm.variables.get("key");
 
 ### Data variables
 
-The Collection Runner lets you import a CSV or a JSON file, and then use the values from the data file inside HTTP requests and scripts. We call these 'data variables'. You cannot create or set a 'data' variable. You can only 'get', i.e read the value of a data variable. Let's consider an example wherein you want to use a record multiple times with multiple values. In such a scenario, you can use data variables. This is based on the concept of array of objects. Let’s discuss a collection that on-boards new employees in a company. For one employee to be on-boarded, an email id should be created and a laptop be given. Besides this, an employee id, an access card and various other accounts should also be created to on-board an employee. Let’s assume this is just one workflow having multiple requests to onboard one employee. Now, if you want to onboard 100 employees, you can use data variables. Every single item  must correspond to the whole data of one employee. If you've used the Collection Runner then it allows you to import a data file and then use the values from the data file inside HTTP requests. To use them inside Postman, follow the same syntax as environment or global variables:
+The Collection Runner lets you import a CSV or a JSON file, and then use the values from the data file inside HTTP requests and scripts. We call these 'data variables'. You cannot create or set a 'data' variable. You can only 'get', i.e read the value of a data variable. Let's consider an example wherein you want to use a record multiple times with multiple values. In such a scenario, you can use data variables. This is based on the concept of array of objects. 
+
+Let’s discuss a collection that on-boards new employees in a company. For one employee to be on-boarded, an email id should be created and a laptop be given. Besides this, an employee id, an access card and various other accounts should also be created to on-board an employee. Let’s assume this is just one workflow having multiple requests to onboard one employee. Now, if you want to onboard 100 employees, you can use data variables. Every single item  must correspond to the whole data of one employee. If you've used the [Collection Runner](/docs/v6/postman/collection_runs/intro_to_collection_runs) then you may know it allows to import a data file and then use the values from the data file inside HTTP requests. To use them inside Postman, follow the same syntax as environment or global variables:
 
 Syntax:
 
 ```
 // To retrieve a value
 
-pm.iterationData.get("username")
+pm.iterationData.get()
 
 ```
 
 ### Collection variables 
 
-These variables are a part of your collection. If there are variables that don’t change based on /your environment, you can create collection variables. You can create/define your collection variables in the UI by clicking (...) next to the collection name and selecting 'Edit'. Using ```pm.variables.get ()```, you can only get the variable, you can't set them. Since these variables are read-only, you can use the following syntax to get the value:
+These variables are a part of your collection. If there are variables that don’t change based on your environment, you can create collection variables. You can create/define your collection variables in the UI by clicking (...) next to the collection name and selecting 'Edit'. You can only get the variable using ```pm.variables.get ()```, you can't set it. Since these variables are read-only, you can use the following syntax to get the value:
 
 Syntax:
 
