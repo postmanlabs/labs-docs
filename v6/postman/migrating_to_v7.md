@@ -46,7 +46,7 @@ Once your team has migrated to Postman v7, all users in the team would be notifi
 
 #### Updating app to Postman v7 after migration
 
-You can update your Postman v6 app to Postman v7, via **Settings > Update > Check for Updates**. Postman v7 would be available via auto-updates to all team users after the team has successfully migrated.
+You can update your Postman v6 app to Postman v7, via **Settings > Update > Check for Updates**. Postman v7 would be available via auto-updates to all team users after the admin has successfully migrated the team.
 
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', you will not be able to update the app via the steps explained above. Please use the following commands to update your app via the terminal:
 
