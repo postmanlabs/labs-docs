@@ -11,11 +11,11 @@ Postman account users can create an unlimited number of personal workspaces. Use
 
 Click the workspace dropdown menu that displays in the header bar. For example, in the image below, you'd click the workspace called "My Workspace". Click the **Create New** link. Determine whether you'd like to create a personal or team workspace.
  
- [![create new menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-WS-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-create-new-WS-menu.png)
+ [![create new menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_1.png)
  
 To create a personal workspace, verify the workspace enter the name and description of the workspace. Click the **Create Workspace** button. At this time, you can [create a new collection](/docs/v6/postman/collections/creating_collections) within your new workspace. You can also share existing collections from other workspaces to this newly created one.
 
-[![create new personal workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-personal.png)
+[![create new personal workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_CreateNew1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_CreateNew1.png)
  
 To create a team workspace, enter the name and description of the workspace. Toggle the workspace type over to "Team" to reveal additional options to invite members to your workspace. Add members to this workspace by entering their email address or username of existing users. If you are an Admin, any email addresses not associated with current team members will be invited to join the team. 
 

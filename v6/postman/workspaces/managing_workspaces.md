@@ -53,6 +53,7 @@ If you click the ellipses **(...)**, you can remove any element from the workspa
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_Dashboard_Mainscreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_Dashboard_Mainscreen.png)
 
+
 **Collections**
 
 [Add an existing collection to this workspace](/docs/v6/postman/workspaces/using_workspaces) or [create a new collection](/docs/v6/postman/workspaces/creating_workspaces). You can share a collection to multiple workspaces.
