@@ -17,7 +17,6 @@ This topic describes the tasks you can perform from the APIs tab in the sideba
 * [Recovering an API](#recovering-an-api)
 * [Sharing an API](#sharing-an-api) 
 * [Other API features](#other-api-features)
-* [Adding folders](#adding-folders)
 * [Commenting on APIs](#commenting-on-apis)
 
 
@@ -51,8 +50,6 @@ Expand the arrow (&#9656;) to show the details view for the collection. Collaps
 ### Sharing an API
 
 ### Other API features
-
-### Adding folders]
 
 
 
