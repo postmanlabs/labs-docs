@@ -7,22 +7,30 @@ warning: false
 
 ### Overview
 
-Postman's API Development Platform attempts to make the API development process faster and better. You will be able to build an abstraction of the API in Postman now. You will also be able to represent API entities like schemas, metrics, and gateways and will be able to generate reports to get deeper insights into each of these API entities. 
+Postman's API Development Platform attempts to make the API development process faster and better. With this, you will be able to build an abstraction of the API in Postman. You will also be able to represent API entities like schemas, metrics, and gateways and be able to generate reports to get deeper insights into each of these API entities. 
 
-You can create and manage your APIs in the workspace, update meta information like name, description, and so on. You can create/import a new schema in an API. You will be able to link mock servers, documentation and environments to an API and even be able to version them. You will also be able to link test suites, integration tests, and contract tests to specific versions of an API.
+You can perform the following tasks with the API feature in Postman:
 
-You can create an API abstraction, give it a name, the description, a summary, you can define a schema, you can save the schema, you can go back and edit the schema, change the format of the schema, you can edit the language of the schema. You can also generate a collection from the schema.  
+* Create and manage APIs in your workspace
 
+* Create or import schema
 
+* Create and manage versions the APIs
 
+* Manage roles and permissions on APIs
 
+* Generate collections from API schema
 
-[![sample collection Echo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Collection_headers.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Collection_headers.png)
+* Generate and analyze reports
 
+For more information on Working with APIs, see:
 
-
-For more information on collections, see:
-
-* [Creating collections](/docs/v6/postman/collections/creating_collections)
-* [Sharing collections](/docs/v6/postman/collections/sharing_collections)
-* [Managing collections](/docs/v6/postman/collections/managing_collections)
+* [Creating an API](/docs/v6/postman/working_with_apis/managing_apis)
+* [Navigating through APIs](/docs/v6/postman/)
+* [Editing and viewing API details](/docs/v6/postman/)
+* [Reordering APIs](/docs/v6/postman/)
+* [Deleting an API](/docs/v6/postman/)
+* [Sharing an API](/docs/v6/postman/) 
+* [Other API features](/docs/v6/postman/)
+* [Commenting on APIs](/docs/v6/postman/)
+* [Recovering an API](/docs/v6/postman/)
