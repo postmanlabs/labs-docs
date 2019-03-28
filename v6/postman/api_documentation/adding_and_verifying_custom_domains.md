@@ -30,6 +30,8 @@ Click **Proceed** to verify the domain.
 
 To verify a domain, check the box "I've added the TXT and CNAME records". Next click **Verify Domain**. A confirmation message appears stating domain has been verified. 
 
+**Note:** Postman generates a LetsEncrypt certificate to send a confirmation message after the domain is verified. If your domain has CAA records set, then you must explicitly allow LetsEncrypt to set certificates for your domain. To allow LetsEncrypt generate this certificate, refer to [LetsEncrypt Documentation](https://letsencrypt.org/docs/caa)
+
 If you choose not to verify the domain now, click **Verify Later**. 
 
 In addition, if you want to delete the custom domain, click the "Delete Custom Domain" link.
