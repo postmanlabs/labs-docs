@@ -27,7 +27,9 @@ This section describes the following topics:
 
 ### Local/Temporary variables
 
-Local variables, as the name suggests, are always local to the request being executed and have the highest precedence at any given point in time. Sometimes, they are also referred to as temporary variables. Anything that is transient and needed for collection execution should go as a local variable. Anything that must be persisted or has to be saved after the request execution must go as an environment or a global variable. 
+Local variables, as the name suggests, are always local to the request being executed and have the highest precedence at any given point in time. Sometimes, they are also referred to as temporary variables. Anything that is transient and needed for collection execution should go as a local variable. Anything that must be persisted or has to be saved after the request execution must go as an environment or a global variable. You can use local variables if you want to override all other variable scopes defined in your Postman settings. 
+
+**Note:** You can only create local variables through scripts and the syntax is illustrated below. Remember, the local variable in Postman app will be available only until execution of your request.
 
 Syntax:
 
@@ -55,6 +57,8 @@ pm.iterationData.get()
 
 ```
 
+**Note:** You can set data variables only from a CSV or a JSON file. 
+
 ### Collection variables 
 
 These variables are a part of your collection. If there are variables that don’t change based on your environment, you can create collection variables. You can create/define your collection variables in the UI by clicking (...) next to the collection name and selecting 'Edit'. You can only get the variable using ```pm.variables.get ()```, you can't set it. Since these variables are read-only, you can use the following syntax to get the value:
@@ -81,9 +85,12 @@ pm.variables.get("key");
 
 ```
 
+**Note:** You cannot create or update collection variables from scripts. 
+
+
 ### Environment variables
 
-Postman’s environment feature enables you to switch between different setups/environments easily. These are similar to global variables but with a narrow scope. Environment variables are useful if you have multiple environments where testing needs to be done for Dev, Staging and Production environments. You can configure variables as per your needs depending on the environment you set up and Postman replaces these variables when you select the corresponding environment. 
+Postman’s environment variables enable you to switch between different setups/environments easily. These are similar to global variables but with a narrow scope. Environment variables are useful if you have multiple environments where testing needs to be done for Dev, Staging and Production environments. You can configure variables as per your needs depending on the environment you set up and Postman replaces these variables when you select the corresponding environment. 
 
 Let’s say there are three environments – Development, Staging, and Production. And every environment has a different set of request APIs. Let’s say you are developing an API and for each API you want to set a host and a token variable for authentication purposes. The tokens for Development are D1 and 1, S2 and 2 for Staging, and P3 and 3 for production. When you select Development environment, Postman populates D1 and 1 and likewise.
 
@@ -102,7 +109,7 @@ pm.environment.set("key", "value");
 
 ### Global variables 
 
-Global Variables work outside the environment and they are global to a workspace. Which means these variables are common to all collections and environments in that workspace.
+Global Variables work outside the environment and they are global to a workspace. Which means these variables are common to all collections and environments in that workspace. 
 
 Syntax:
 
