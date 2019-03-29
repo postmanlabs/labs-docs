@@ -92,16 +92,27 @@ In Postman v7, teams have three roles - **Developer**, **Admin**, and **Billing*
 
 [![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_TeamsTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_TeamsTable1.png)
 
-| Teams | Developer | Admin |
-| ---   |   ---     | ---   |
+| Teams | Developer | Admin | Billing |
+| ---   |   ---     | ---   | ------- |
 | Create and delete invitations  |         | &#9745;   |
 | Edit team information and logo |       | &#9745;    |
 | Manage team roles (except billing)|       | &#9745;    |
 | Remove users from the team |     | &#9745;  |
-| Manage custom domains  |   &#9745;    | &#9745;  |
-| Manage authentication methods |   &#9745;   | &#9745;   |
-| View monitoring usage data for all monitors created by the team|   &#9745;   | &#9745;   |
-| View team audit logs  |  &#9745;   | &#9745;   |
+| Manage custom domains  |      | &#9745;  |
+| Manage authentication methods |      | &#9745;   |
+| View monitoring usage data for all monitors created by the team|      | &#9745;   |
+| View team audit logs  |    | &#9745;   | 
+| Create and manage payment links  |    | &#9745;   | &#9745; 
+| Use a purchase key  |    | &#9745;   | &#9745; 
+| View all published collections in the team  | &#9745;    | &#9745;   |
+| Manage billing details  |    | &#9745;   |
+| Manage payment and payment methods |    | &#9745;   |
+| Cancel and change team plan  |    | &#9745;   | &#9745; 
+| Assign billing role  |    | &#9745;   | &#9745; 
+| View collections, environments, mock servers and monitors visible to the team  |    | &#9745;   | &#9745; 
+| View and create team workspaces |    | &#9745;   | &#9745; 
+| View team activity feed  |    | &#9745;   | &#9745; 
+| View team's custom domains and use them to publish documentation  |    | &#9745;   | &#9745; 
 | Publish collection documentation and add to API Network or Postman template  |      | &#9745;  |
 | Share collection to a different workspace  |    | &#9745;   |
 | Tag and restore collection versions   |    | &#9745;   |
