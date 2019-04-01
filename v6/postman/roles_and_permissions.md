@@ -55,7 +55,8 @@ In Postman v7, collections have two roles - **Collection Viewer** and **Collecti
 | Add, edit, and delete monitors |       | &#9745;    |
 | Edit and delete a collection |       | &#9745;    |
 | Manage roles on collections  |     | &#9745;  |
-| View and run collections  |   &#9745;    | &#9745;  |
+| View and run collections  |     | &#9745;  |
+| View and run collection runs  |   &#9745;    | &#9745;  |
 | Export a collection  |   &#9745;   | &#9745;   |
 | Fork a collection |   &#9745;   | &#9745;   |
 | Merge forks on a collection  |  &#9745;   | &#9745;   |
@@ -74,13 +75,13 @@ In Postman v7, workspaces have two roles - **Workspace Collaborator** and **Work
 
 | Workspaces |   Collaborator   | Admin |
 | ---   |   ---     | ---   |
-| Add and remove collections, environments |         | &#9745;   |
-| View, create, edit, and delete Collection runs, Header Presets, History, and Integrations |       | &#9745;    |
+| Add and remove collections, environments |  &#9745;        | &#9745;   |
+| View, create, edit, and delete Collection runs, Header Presets, History, and Integrations |   &#9745;     | &#9745;    |
 | Delete workspace|       | &#9745;    |
-| Join and leave workspace |     | &#9745;  |
+| Join and leave workspace |  &#9745;    | &#9745;  |
 | Add mock servers and monitors  |   &#9745;    | &#9745;  |
 | View workspace contents and data like name, summary, and settings |   &#9745;   | &#9745;   |
-| Edit workspace details like - name, summary, and settings |   &#9745;   | &#9745;   |
+| Edit workspace details like - name, summary, and settings |     | &#9745;   |
 | Add members |  &#9745;   | &#9745;   |
 | Remove members  |      | &#9745;  |
 | Manage roles and visibility of the workspace |    | &#9745;   |
@@ -113,19 +114,8 @@ In Postman v7, teams have three roles - **Developer**, **Admin**, and **Billing*
 | View and create team workspaces |    | &#9745;   | &#9745; 
 | View team activity feed  |    | &#9745;   | &#9745; 
 | View team's custom domains and use them to publish documentation  |    | &#9745;   | &#9745; 
-| Publish collection documentation and add to API Network or Postman template  |      | &#9745;  |
-| Share collection to a different workspace  |    | &#9745;   |
-| Tag and restore collection versions   |    | &#9745;   |
 
 
-
-| Teams | Developer | Admin | Billing
-| ---   |   ---     | ---   | --- | 
-| Add
-|
-|
-|
-|
 
 ### Roles before and after
 
