@@ -47,8 +47,6 @@ This section describes the following topics:
 
 In Postman v7, collections have two roles - **Collection Viewer** and **Collection Editor**. The following table illustrates the roles and permissions of collections:  
 
-[![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_CollectionsTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_CollectionsTable1.png)
-
 | Collections |   Viewer   | Editor |
 | ---   |   ---     | ---   |
 | Add, edit, and delete mock servers  |         | &#9745;   |
@@ -71,8 +69,6 @@ In Postman v7, collections have two roles - **Collection Viewer** and **Collecti
 
 In Postman v7, workspaces have two roles - **Workspace Collaborator** and **Workspace Admin**. The following table illustrates the roles and permissions of workspaces:  
 
-[![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_WorkspacesTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_WorkspacesTable1.png)
-
 | Workspaces |   Collaborator   | Admin |
 | ---   |   ---     | ---   |
 | Add and remove collections, environments |  &#9745;        | &#9745;   |
@@ -90,8 +86,6 @@ In Postman v7, workspaces have two roles - **Workspace Collaborator** and **Work
 #### Team roles
 
 In Postman v7, teams have three roles - **Developer**, **Admin**, and **Billing**. The following table illustrates team's roles and permissions:  
-
-[![collection roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_TeamsTable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/RBAC_TeamsTable1.png)
 
 | Teams | Developer | Admin | Billing |
 | ---   |   ---     | ---   | ------- |
