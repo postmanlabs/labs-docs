@@ -110,11 +110,14 @@ While constructing requests, you'll work frequently with the request body editor
 
 ##### **Form-data**
 
-[![form-data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestBuilderForm.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestBuilderForm.png)
+[![form-data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)
 
-`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs (using the [data editor](/docs/v6/postman/launching_postman/navigating_postman) for your data. You can attach files to a key as well. **Note**: due to restrictions of the HTML 5 spec, files are not stored in history or collections. You will need to select the file again the next time you send the request.
+`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs (using the [data editor](/docs/v6/postman/launching_postman/navigating_postman) for your data. It also lets you specify the content type for each part of a multi-part form request individually. You can attach files to a key as well. 
+
+**Note**:  You will need to select the file again the next time you send the request because files are not stored in history or collections.
 
 Uploading multiple files each with their own Content-Type is not supported yet.
+
 
 ##### **Urlencoded**
 
