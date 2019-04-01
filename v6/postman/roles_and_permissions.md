@@ -78,7 +78,10 @@ A user's role determines what they can and cannot do in Postman. Each role has a
   - Admin 
   - Billing
 
-**Note:** The older set of roles applied till Postman app version 6. 
+  **Note:** In the Postman app UI, the right-click option *Modify team permissions* has changed to **Manage Roles**
+
+**Note:** The older set of roles applied till Postman app version 6.
+
 
 ### Migrating to Postman v7
 
