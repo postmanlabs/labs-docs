@@ -11,7 +11,7 @@ For example, to include a timestamp in the request headers, you can set an envir
 
 [![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomTimestamp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomTimestamp.png)
 
-You can then access the **timestampHeader** variable in the header data editor by typing {% raw %}`{{timestampHeader}}`{% endraw %}. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of {% raw %}`{{timestampHeader}}`{% endraw %}.
+You can then access the **timestampHeader** variable in the header data editor by typing `{{timestampHeader}}`. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of `{{timestampHeader}}`.
 
 [![timestampHeader variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-timeStampHeader3+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-timeStampHeader3+copy.png)
 

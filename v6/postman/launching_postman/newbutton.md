@@ -136,7 +136,7 @@ A [mock server](/docs/postman/v6/mock_servers/setting_up_mock) simulates each en
 * Enter the name of the mock
 * Select an environment (optional).
 * Indicate if you want to make this mock server private
-**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits]({{site.pm.gs}}/dashboard/usage).
+**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
 [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-1.png) 
 1. Click the **Create** button.
 

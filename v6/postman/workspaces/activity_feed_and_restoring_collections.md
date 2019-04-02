@@ -20,7 +20,7 @@ To review the activity feed at the collection level in the Postman app, expand t
 
 The activity feed displays who updated the collection, what the updates were, and when they were completed. For Postman Pro and Enterprise users, diffs are generated and displayed within the activity feed. Consecutive updates on the same session to the same entity are collated for readability.
 
-[![activity feed for a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)
+[![activity feed for a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity.png)
 
 Similarly, you can also review a collection's activity feed from the [Workspaces dashboard](https://app.getpostman.com/dashboard) after selecting a workspace and a collection.
 
@@ -28,7 +28,7 @@ Similarly, you can also review a collection's activity feed from the [Workspaces
 
 You can also review the activity feed at the workspace level in the Postman app. Go to the status bar at the bottom of the Postman app and toggle over to the “Browse” view. Under the **Activity** tab, you can review the events that occurred within the workspace.
 
-[![workspace activity feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspace-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspace-activity-feed.png)
+[![workspace activity feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity2.png)
 
 Similarly, you can also review the activity feed at the workspace level by selecting a workspace from the [Workspaces dashboard](https://app.getpostman.com/dashboard).
 

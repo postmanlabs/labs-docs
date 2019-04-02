@@ -15,7 +15,7 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
 
 ### Configuring APIMATIC Integration
 
-1. In the [Integrations page]({{site.pm.gs}}/dashboard/integrations), find APIMATIC in the list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations page](https://go.postman.co/workspaces), find APIMATIC in the list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![select apimatic](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic.png)
 
