@@ -27,7 +27,7 @@ Once that token is generated, copy it and save it somewhere for future use.
 <br>
 ### Configuring GitHub Integration
 
-1. In the **[Integrations]({{site.pm.gs}}/dashboard/integrations)** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
+1. In the **[Integrations](https://go.postman.co/workspaces)** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![github integration](https://static.getpostman.com/postman-docs/integrations-github1.png)](https://static.getpostman.com/postman-docs/integrations-github1.png)
 

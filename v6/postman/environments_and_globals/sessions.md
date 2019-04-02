@@ -16,7 +16,7 @@ Sessions in Postman brings a host of capabilities. Some of them are outlined bel
 * Sessions offers developers a secure interface with tools, features and information they need to explore, test, and consume API information
 
 
-##### **Using Sessions**
+#### **Using Sessions**
 
 As discussed, a Session is a local instance to a user in a workspace context wherein you can easily modify variables and Postman will not sync data to the servers keeping it strictly relevant to a local context. A Session in Postman holds the values of variables – environment, global, and collection. Simply put, Sessions comes in handy whenever a CRUD operation is involved. Sessions feature influences the following three aspects of Postman:
 
@@ -39,6 +39,8 @@ Click Variables in the Edit Collection screen to bring up the following screen:
 [![edit collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal1.png)
 
 The above interface enables you to specify a current value that is relevant to your local context only. However, Postman provides you an option to replace your initial value with the current value. As current values are never synced to the Postman’s servers, shared data like your ‘initial value’ remains always intact unless you choose to explicitly sync using the Persist option. 
+
+**Note:** Current values are not synced to the servers, which means it does not affect the environment of other collaborators. In contrast, initial values are synced to the servers and are effective in collaborating with others. You can also read [Session FAQs](https://blog.getpostman.com/2018/08/09/sessions-faq/) for more information. 
 
 Let’s add another four variables Token2, Token3, Token4 and Token5, assign some current values to understand the behavior of variables and how they work in the overall Postman context. The variables and their assigned values now look like this:
 
