@@ -21,7 +21,7 @@ Postman supports 3 member roles:
 | **Billing**   |   Create and manage payment links <br>  Use a purchase key <br>  Manage billing details <br>  Manage payment and payment methods <br>  Cancel and change team plan <br>  Assign billing role  |
 | **Developer**   |  View all published collections in the team <br> View collections, environments, mock servers, and monitors visible to the team  <br>  View and create team workspaces <br> View team activity feed <br>  View team's custom domanins and use them to publish documentation up monitors for collections <br>   |
 
-Teams are only charged for user roles. If your team size is 10, you can have up to 10 members with the user role. Any of these 10 members can have admin or billing roles as well. 
+Teams are only charged for developer roles. If your team size is 10, you can have up to 10 members with the developer role. Any of these 10 members can have admin or billing roles as well. 
 
 Each team can have up to 2 support accounts (only have admin or billing rights, and are not paid for).
 
