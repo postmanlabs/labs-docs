@@ -154,7 +154,7 @@ Postman lets you import WADL specs too. While all aspects are not supported yet,
 To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/).
 
 * [Schema file](http://schema.getpostman.com/json/collection/v1.0.0/collection.json)
-* [Associated documentation](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html) 
+* [Associated documentation](https://schema.getpostman.com/) 
 * [Postman schemas in GitHub](https://github.com/postmanlabs/schemas) 
 * [Example of data validation using our schema](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/) and a [validator](https://github.com/mafintosh/is-my-json-valid)
 
