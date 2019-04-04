@@ -32,7 +32,7 @@ The next section outlines how you can assign current values to these variables u
 
 ##### **Editing Collection Variables** 
 
-To assign a current value, click ellipses (…) in the sidebar and select Edit to go to the Edit Collection screen as illustrated below. If you are not keen on working  with a current value, you can leave the current value field empty and the old behavior of Postman will take precedence wherein your initial value would be treated as your current value. 
+To assign a current value, click ellipsis (…) in the sidebar and select Edit to go to the Edit Collection screen as illustrated below. If you are not keen on working  with a current value, you can leave the current value field empty and the old behavior of Postman will take precedence wherein your initial value would be treated as your current value. 
 
 Click Variables in the Edit Collection screen to bring up the following screen:
 
@@ -55,7 +55,7 @@ You can see Token1, Token3, and Token5 populated with their current values in th
 
 [![edit collection2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)
 
-To persist your current value with the initial value for the disabled variables, point your cursor to the ellipses (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click 'x'. Reset All resets all the values.
+To persist your current value with the initial value for the disabled variables, point your cursor to the ellipsis (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click 'x'. Reset All resets all the values.
 
 **Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](/docs/v6/postman/launching_postman/settings) 
 
