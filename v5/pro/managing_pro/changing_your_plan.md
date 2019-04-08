@@ -40,7 +40,7 @@ If you’ve decreased your team size, your next invoice reflects the new team si
 
 ### Canceling your plan
 
-Click the ellipses (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
+Click the ellipsis (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
 
 In the Cancel Plan page, indicate why you want to cancel. Then click the **Cancel Current Plan** button, or even better, click the **I’ve changed my mind** button.
 
@@ -72,7 +72,7 @@ If you do not have a credit card on file, click the “Payment Methods” link i
 
 ### Setting instructions for the next billing cycle
 
-Click the ellipses (...) next to the **Add User Slots** button, and then select “Set instructions for the next billing cycle”.
+Click the ellipsis (...) next to the **Add User Slots** button, and then select “Set instructions for the next billing cycle”.
 
 In the Instructions page, click the **Edit Standing Instructions** button.
 
@@ -94,7 +94,7 @@ After you make your selection, save your changes.
 
 ### Canceling your plan
 
-Click the ellipses (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
+Click the ellipsis (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
 
 [![cancel survey](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelSetInstruction-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelSetInstruction-annual.png)
 

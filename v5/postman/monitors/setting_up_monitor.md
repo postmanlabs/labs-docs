@@ -18,7 +18,7 @@ You can create a monitor from the:
 
 You can create a monitor for an existing collection from the sidebar.
 
-1. In the Postman app, click on the ellipses (…) next to the collection you want to monitor. 
+1. In the Postman app, click on the ellipsis (…) next to the collection you want to monitor. 
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
