@@ -17,7 +17,7 @@ This topic describes how to use Newman with Docker in these platforms:
 
 Follow these steps to use [Newman](https://github.com/postmanlabs/newman) with [Docker](https://www.docker.com/):
 
-1\. In the [Docker Hub](http://registry.hub.docker.com/u/postman/newman_ubuntu1404), download your copy. 
+1\. In the [Docker Hub](http://registry.hub.docker.com/u/postman/newman:ubuntu), download your copy. 
 
 2\. Ensure you have Docker installed and running in your system. Docker has extensive installation guidelines for popular operating systems. Choose your operating system and follow the instructions. 
 
@@ -30,13 +30,13 @@ $ docker run hello-world
 3\. Pull the Newman docker image.
 
 ```bash
-$ docker pull postman/newman_ubuntu1404
+$ docker pull postman/newman:ubuntu
 ```
 
 4\. Run Newman commands on the image.
 
 ```bash
-$ docker run -t postman/newman_ubuntu1404 --url="https://www.getpostman.com/collections/8a0c9bc08f062d12dcda"
+$ docker run -t postman/newman:ubuntu "https://www.getpostman.com/collections/8a0c9bc08f062d12dcda"
 ```
 
 At this stage, you should see the Collection running in Newman and the output displayed in the terminal.
