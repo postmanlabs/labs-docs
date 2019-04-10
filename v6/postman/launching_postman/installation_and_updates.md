@@ -171,14 +171,8 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 
 ##### **Chrome**
 
-Postman’s Chrome app is usually updated automatically. However, Postman doesn't control the Chrome app update flow, and Chrome sometimes doesn’t update the app for long periods of time.
+Postman’s Chrome app has been deprecated. Even if you are able to use it, most of the new features are not deployed in the Chrome app. We, however, recommend you to download the [Postman app](https://www.getpostman.com/downloads/) and continue using it. And it is available for free.
 
-The latest version is visible on [Postman’s Web Store listing](https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
 
-To manually force an update, here’s what you need to do in Chrome:
 
-  1.  In the address bar, type `chrome://extensions`.
-  2.  At the top of the page, check and enable **Developer Mode**.
-  3.  Click the **Update extensions now** button beneath **Developer Mode**.
-
-  [![Chrome developer mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58280741.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58280741.png)
+ 
