@@ -137,6 +137,25 @@ pm.test('Schema is valid', function() {
 });
 ```
 
+**JSON Schema Validator**
+```js
+var Ajv = require('ajv'),
+    ajv = new Ajv({logger: console}),
+    schema = {
+        "properties": {
+            "alpha": {
+                "type": "boolean"
+            }
+        }
+    };
+
+pm.test('Schema is valid', function() {
+    pm.expect(ajv.validate(schema, {alpha: true})).to.be.true;
+    pm.expect(ajv.validate(schema, {alpha: 123})).to.be.false;
+});
+```
+
+
 **Decode base64 encoded data**
 ```js
 var intermediate,

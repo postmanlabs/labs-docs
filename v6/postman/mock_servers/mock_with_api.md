@@ -24,11 +24,9 @@ Let's retrieve the `collectionId` of `testAPI` using the [Postman API](http
 
 You can also use the Postman app to retrieve the `collectionId`. Find the Collection in your app and hit `View Docs`. The `collectionId` is visible in the documentation url: 
 
-{% raw %} 
 ```
 https://documenter.getpostman.com/collection/view/{{collectionId}}
 ``` 
-{% endraw %}
 
 As an optional step, you can include an environment as a part of your simulation by retrieving the `environmentId` of `testAPIEnv` using the [Postman API](https://api.getpostman.com/). Get a list of all your environments using the [GET All Environments endpoint](https://docs.api.getpostman.com/#d26bd079-e3e1-aa08-7e21-66f55df99351). Search for the name of your environment and retrieve the `uid` from the results, which will be used as the `environmentId` in the next step.
 
@@ -48,11 +46,9 @@ Verify that the mock has been created using the [GET All Mocks endpoint](https:
 
 **Mock your Collection using the following url:** 
 
-{% raw %} 
 ```
 https://{{mockId}}.mock.pstmn.io/{{mockPath}}
 ``` 
-{% endraw %}
 
    *   `mockId` is the `id` that you received upon creating the mock and can be retrieved using the [GET All Mocks endpoint](https://docs.api.getpostman.com/#018b5d62-f6fc-f752-597e-c1eb4bb98d24).
    *   `mockPath` is the path of your request that you’d like to mock, for example `api/response`.

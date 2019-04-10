@@ -21,7 +21,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 ### Configuring Postman monitors
 
-In the **[Integrations]({{site.pm.gs}}/dashboard/integrations)** page, find Keen IO from a list of Postman’s 3rd party Integrations for Postman Pro users.
+In the **[Integrations](https://go.postman.co/workspaces)** page, find Keen IO from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![keen dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_keen1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_keen1.png)
 

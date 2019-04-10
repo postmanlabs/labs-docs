@@ -39,11 +39,11 @@ If a variable from the currently active environment shares its name with a globa
 
 ### Accessing variables in the request builder
 
-You can use variables in the following form in the Postman user interface - `{% raw %}` `{{variableName}}` `{% endraw %}`. 
+You can use variables in the following form in the Postman user interface - `{{variableName}}`. 
 
-The string `{% raw %}` `{{variableName}}` `{% endraw %}` will be replaced with its current value when Postman resolves the variable.
+The string `{{variableName}}` will be replaced with its current value when Postman resolves the variable.
 
-For example, for an environment variable `url` with the current value `http://localhost`, you will have to use `{% raw %}` `{{url}}` `{% endraw %}` in the request URL field. `{% raw %}``{{url}}``{% endraw %}` will be replaced by `http://localhost` when the request is sent.
+For example, for an environment variable `url` with the current value `http://localhost`, you will have to use `{{url}}` in the request URL field. `{{url}}` will be replaced by `http://localhost` when the request is sent.
 
 Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the [Variable Scopes](/docs/v6/postman/environments_and_globals/variables#variable-scopes) section and sends them to the server.
 
@@ -85,7 +85,7 @@ To use them inside Postman, follow the same syntax as environment or global vari
 
 Variables inside the Postman UI are enclosed inside curly braces. 
 
-For example, in the screenshot below, {% raw %}`{{username}}`{% endraw %} and {% raw %}`{{password}}`{% endraw %} inside URL parameters would be replaced by corresponding values from the data file:
+For example, in the screenshot below, `{{username}}` and `{{password}}` inside URL parameters would be replaced by corresponding values from the data file:
 
 [![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data-url.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data-url.png)
 
@@ -101,11 +101,11 @@ Learn more about [working with data files](/docs/v6/postman/collection_runs/wor
 
 Postman has a few dynamic variables you can use in your requests. 
 
-Dynamic variables cannot be used in the Sandbox. You can only use them in the `{% raw %}``{{..}}``{% endraw %}` format in the request URL / headers / body.
+Dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
-   *   {% raw %} `{{$guid}}`{% endraw %} : Adds a v4 style guid
-   *   {% raw %} `{{$timestamp}}`{% endraw %}: Adds the current timestamp
-   *   {% raw %} `{{$randomInt}}`{% endraw %}: Adds a random integer between 0 and 1000
+   *   `{{$guid}}` : Adds a v4 style guid
+   *   `{{$timestamp}}`: Adds the current timestamp
+   *   `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 [![dynamic variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var_dynamic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var_dynamic.png)
 
@@ -130,5 +130,7 @@ Type an open curly bracket to bring up the autocomplete menu. For the pre-reques
 ##### **Variable highlighting and tooltip on hover**
 
 [![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)
+
+**Note:** You can also read [Session FAQs](https://blog.getpostman.com/2018/08/09/sessions-faq/)
 
 Variables are highlighted in orange, with unresolved variables shown in red. Hovering over a variable shows its initial, and current value and the scope. If a variable is unresolved - i.e., no value in the current environment - the tooltip shows the appropriate feedback.

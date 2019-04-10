@@ -9,7 +9,7 @@ warning: false
 
 Postman enables you to change your Pro (Annual) or Pro (Monthly) plan.
 
-To change your plan, go to the [Billing Overview]({{site.pm.gs}}/pay/billing) page. You will see different actions for changing your plan, depending on whether you’re on the Pro (Annual) or Pro (Monthly) plan.
+To change your plan, go to the [Billing Overview](https://go.postman.co/billing/overview) page. You will see different actions for changing your plan, depending on whether you’re on the Pro (Annual) or Pro (Monthly) plan.
 
 ### Pro (Monthly)
 
@@ -48,7 +48,7 @@ If you’re on the annual Postman Pro subscription, you can:
 
 ### Adding user slots to your annual plan
 
-In the [Billing Overview]({{site.pm.gs}}/pay/billing) page, click the **Add User Slots** button to increase the size of our team
+In the [Billing Overview](https://go.postman.co/billing/overview) page, click the **Add User Slots** button to increase the size of our team
 
 [![add slot](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-annual.png)
 
@@ -66,7 +66,7 @@ If you do not have a credit card on file, click the “Payment Methods” link i
 
 ### Setting instructions for the next billing cycle
 
-Click the ellipses (...) next to the **Add User Slots** button, and then select “Set instructions for the next billing cycle”.
+Click the ellipsis (...) next to the **Add User Slots** button, and then select “Set instructions for the next billing cycle”.
 
 To change the cycle, click Edit Standing Instructions to view the following screen: 
 
@@ -90,7 +90,7 @@ After you make your selection, save your changes.
 
 ### Canceling your plan
 
-Click the ellipses (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
+Click the ellipsis (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
 
 [![cancel survey](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-cancelSetInstruction-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-cancelSetInstruction-annual.png)
 
