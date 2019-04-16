@@ -171,7 +171,7 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 
 ##### **Chrome**
 
-Postman’s Chrome app has been deprecated. Even if you are able to use it, most of the new features are not deployed in the Chrome app. We, however, recommend you to download the [Postman app](https://www.getpostman.com/downloads/) and continue using it. And it is available for free.
+Postman’s Chrome app has been deprecated. Although you can still use it, new features and bug fixes are being released exclusively in our native apps. We recommend you download the free native app [Postman app](https://www.getpostman.com/downloads/)available for Mac, Windows, and Linux operating systems.
 
 
 
