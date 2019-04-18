@@ -13,7 +13,7 @@ You can configure a custom webhook with Postman to send events such as - monitor
 
 ### Configuring Custom Webhook URL
 
-1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations) page, find Webhooks from a list of Postman’s 3rd party integrations for Postman Pro and Enterprise users.
+1. In the [Integrations](https://go.postman.co/workspaces) page, find Webhooks from a list of Postman’s 3rd party integrations for Postman Pro and Enterprise users.
 
 [![custom_webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)  
 

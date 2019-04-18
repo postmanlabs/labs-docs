@@ -8,15 +8,15 @@ Published documentation enables you to share your [public API documentation](/do
 
 ### Generating public documentation
 
-You can only publish documentation for collections that you've created or have write permissions. From your collection's private documentation page, click the **Publish** button at the top of the screen.
+You can only publish documentation for collections that you've created or have write permissions. From your collection's private documentation page, click **Publish** on the top right corner of the screen.
 
 [![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-publish-button2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-publish-button2.png)  
 
-Alternatively, you can also click ellipses (...) in the sidebar and select 'Publish Docs', as illustrated below:
+Alternatively, you can also click ellipsis (...) in the sidebar and select 'Publish Docs', as illustrated below:
 
 [![publish docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Option.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Option.png)
 
-From the **Publish Collection** page, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
+From the **Publish Collection** page, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment. 
 
 [![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-publish-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-publish-collection.png)
 
@@ -53,7 +53,7 @@ You can update the custom styling options either before or after you publish you
 
 ---
 
-Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2) of a collection we've published.
+Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2) of a published collection.
 
 > **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 
