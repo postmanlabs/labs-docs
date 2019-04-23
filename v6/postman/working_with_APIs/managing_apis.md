@@ -8,20 +8,28 @@ warning: false
 This topic describes the tasks you can perform from the APIs tab in the sidebar.
 
 * [Creating an API](#creating-an-api)
-* [Navigating through APIs](#navigating-through-apis)
-* [Editing and viewing API details](#editing-and-viewing-api-details)
-* [Reordering APIs](#reordering-apis)
+* [Sharing an API](#sharing-an-api)
+* [Managing Roles](#managing-roles)
 * [Deleting an API](#deleting-an-api)
-* [Sharing an API](#sharing-an-api) 
-* [Other API features](#other-api-features)
-* [Commenting on APIs](#commenting-on-apis)
-* [Recovering an API](#recovering-an-api)
+* [Removing API from workspace](removing-api-from-workspace)
+
 
 ### Creating an API
 
-You can create an API in the workspace from the sidebar when there are no APIs in the current workspace or by clicking new API button in the sidebar. Clicking the API in the sidebar opens it in a tab. If there are multiple versions of the API, Postman opens the most recently created. 
+You can create an API in the workspace from the sidebar when there are no APIs in the current workspace. To create an API, click **Create an API** button. To create an API, click '+' in the sidebar. The following screen opens:
 
-**Note:** You can create an API only when you are signed-in and the sync is connected. Also, if you are a free user you can create only one API. 
+Specify a name for your API. Your API is saved with a default version 'Draft'. Once the API is created, you can open the API and view the details in the tab. You can also rename the version of your API. To rename the version of your API, click **Show All Versions**. The following screen opens:
+
+
+Click ellipsis (...), select **Rename**, specify a new version identifier and press enter. 
+
+
+In the sidebar, click the API you want to open in the tab. If there are multiple versions of the API, Postman opens the most recently created. 
+
+**Note:** You can create an API only when you are signed-in and the sync is connected. Remember, if you are a free user you can create only one API. 
+
+
+
 
 Once you create an API, you can perform the following tasks:
 
