@@ -451,6 +451,32 @@
         ]
       },
       {
+        "title": "Working with APIs",
+        "url_prefix": "working_with_apis",
+        "children": [
+          {
+            "title": "Introduction to apis",
+            "href": "/docs/v6/postman/working_with_apis/introduction_to_apis",
+            "external": false
+          },
+	        {
+            "title": "Managing APIs",
+            "href": "/docs/v6/postman/working_with_apis/managing_apis",
+            "external": false
+          },
+          {
+            "title": "Versioning an API",
+            "href": "/docs/v6/postman/working_with_apis/versioning_an_api",
+            "external": false
+          },
+          {
+            "title": "Matching algorithm",
+            "href": "/docs/v6/postman/working_with_apis/matching_algorithm",
+            "external": false
+          }
+        ]
+      },
+      {
         "title": "Postman API",
         "url_prefix": "postman_api",
         "children": [
