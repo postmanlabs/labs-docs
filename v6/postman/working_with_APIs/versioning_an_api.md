@@ -20,3 +20,14 @@ You can also rename the version of your API. To rename the version of your API, 
 
 
 Click ellipsis (...), select **Rename**, specify a new version identifier and press enter. 
+
+
+
+
+
+
+### Manage API Roles 
+
+You can manage roles and permissions on your APIs using the role-based access permissions of Postman. You can share APIs and manage the roles and permissions on them depending on the need. Once you share an API, you can assign individual permissions to your team members. You can designate view (Viewer) or edit (Editor) permissions for the team/members. 
+
+To manage roles on your API, in the Postman app, select an API in the sidebar and click ellipsis (...). The following screen opens:
