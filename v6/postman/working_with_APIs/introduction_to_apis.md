@@ -1,6 +1,6 @@
 ---
-title: "Intro to apis"
-page_id: "intro_to_apis"
+title: "Introduction to apis"
+page_id: "introduction_to_apis"
 warning: false
 ---
 
