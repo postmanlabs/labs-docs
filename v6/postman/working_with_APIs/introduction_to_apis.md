@@ -23,6 +23,23 @@ You can perform the following tasks with the API feature in Postman:
 
 * Generate and analyze reports
 
+
+Why create APIs?
+
+Here are several reasons why you should create APIs.
+
+Organization 
+
+You can group together requests into folders and collections, so that you don't have to search through your history repeatedly.
+
+Documentation
+You can add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
+
+Test suites
+You can attach test scripts to requests and build integration test suites.
+
+
+
 For more information on Working with APIs, see:
 
 * [Creating an API](/docs/v6/postman/working_with_apis/managing_apis)
