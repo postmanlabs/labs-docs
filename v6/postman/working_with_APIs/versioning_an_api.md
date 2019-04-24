@@ -4,7 +4,7 @@ page_id: "versioning_an_api"
 warning: false
 ---
 
-You can version your APIs and even create additional versions
+You can version your APIs and even create additional versions out of your API
 
 * [Creating an API](#creating-an-api)
 * [Sharing an API](#sharing-an-api)
@@ -13,8 +13,10 @@ You can version your APIs and even create additional versions
 * [Removing API from workspace](removing-api-from-workspace)
 
 
-### Creating an API
 
-You can create an API in the workspace from the sidebar when there are no APIs in the current workspace. To create an API, click **Create an API** button. To create an API, click '+' in the sidebar. The following screen opens:
+### Versioning 
 
-Specify a name for your API. Your API is saved with a default version 'Draft'. Once the API is created, you can open the API and view the details in the tab. You can also rename the version of your API. To rename the version of your API, click **Show All Versions**. The following screen opens:
+You can also rename the version of your API. To rename the version of your API, click **Show All Versions**. The following screen opens:
+
+
+Click ellipsis (...), select **Rename**, specify a new version identifier and press enter. 

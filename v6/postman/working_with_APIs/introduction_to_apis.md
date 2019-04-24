@@ -7,7 +7,8 @@ warning: false
 
 ### Overview
 
-Postman's API Development Platform attempts to make the API development process faster and better. With this, you will be able to build an abstraction of the API in Postman. You will also be able to represent API entities like schemas, metrics, and gateways and be able to generate reports to get deeper insights into each of these API entities. 
+
+Postman enables you to expedite the API development process with the introduction of API abstraction. With this, you will be able to build an abstraction of the API in Postman. You will also be able to represent API entities like schemas, metrics, and gateways and be able to analyze reports to get deeper insights into each of these API entities. 
 
 You can perform the following tasks with the API feature in Postman:
 
@@ -30,7 +31,7 @@ Here are several reasons why you should create APIs.
 
 Organization 
 
-You can group together requests into folders and collections, so that you don't have to search through your history repeatedly.
+You can group together various entities like collections, monitors, mocks, documentation and etc under a single API, so that you have everything attached to an API under a single entity.
 
 Documentation
 You can add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation. In Postman Pro, you can create and publish beautiful API documentation pages.

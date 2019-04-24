@@ -2,41 +2,34 @@
 title: "Sharing apis"
 page_id: "sharing_apis"
 warning: false
-
 ---
+
 
 Postman enables you to share APIs in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard). 
 
-**Note**: Before you can upload or share a collection, you must sign in to your [Postman account](/docs/v6/postman/launching_postman/postman_account). However, you can share collections as a file without being signed in.
 
 This topic covers:
-* [Sharing collections in the app](#sharing-collections-in-the-app)
-* [Sharing collections in the Dashboard](#sharing-collections-in-the-dashboard)
-* [Sharing as a file](#sharing-as-a-file)
-* [Modifying team permissions](#modifying-team-permissions)
+* [Sharing apis in the app](#sharing-apis-in-the-app)
+* [Sharing api in the Dashboard](#sharing-apis-in-the-dashboard)
+* [Managing roles](#managing-roles)
 
-### Sharing collections in the app
+### Sharing APIs in the app
 
 **In the sidebar**
 
-In the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
+In the Postman app, select an API in the sidebar and click ellipsis **(...)**.
 
-Select "Share Collection". 
+Select "Share API". 
 
-The **SHARE COLLECTION** modal appears. It offers three ways to share a collection:
+The **SHARE API** modal appears. 
 
-* Share in another workspace
-* Embed 
-* Get Link
+[![api share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)
 
-[![share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-sidebar.png)
+You can share the API to the workspace members individually or to the entire workspace. Search for the workspace name in the top search bar and select the corresponding workspace to share the API. To share the API with individual workspace members, enter the name in the search bar under **Workspace members** (illustrated in red circle in the above screen), select the corresponding member and click **Save and Continue**. Your API is shared and the following screen appears:
 
-**Sharing collections in another workspace**
+[![api manage roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Manage-Roles.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Manage-Roles.png)
 
-Select this option to add a collection to another workspace. If added to a team workspace, the collection will be visible to others on the team. 
-
-The collection's creator can set team default permissions to either view only or edit. They are also able to grant existing team members individual user permissions.
-[![in app collection sharing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.06.05+PM.png)
+In the above screen, you can manage the roles and permissions for the shared API. You can either assign an *Editor* role or a *Viewer* role. Click **Save Roles**.  
 
 In the [workspaces dashboard](https://app.getpostman.com/dashboard), select a collection and then click the **Share** button. The collection is visible in your target workspace. 
 
@@ -95,3 +88,24 @@ In the **MODIFY PERMISSIONS** modal, select the default team permission, add the
 Click the **Save Changes** button to complete the process.
 
 [![modify team permissions modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/modify-permissions-modal.png)
+
+
+### Sharing an API
+
+Postman enables you to share APIs in workspaces from the Postman app and the workspaces dashboard. Shared status (APIs which are accessible by multiple teammates either via team or private workspaces) & current user having viewer role on the API is represented by icons on the sidebar.
+
+This topic covers the following:
+
+* Sharing collections in the app
+
+* Sharing collections in the Dashboard
+
+* Modifying team permissions
+
+### Managing Roles
+
+### Manage API Roles 
+
+You can manage roles and permissions on your APIs using the role-based access permissions of Postman. You can share APIs and manage the roles and permissions on them depending on the need. Once you share an API, you can assign individual permissions to your team members. You can designate view (Viewer) or edit (Editor) permissions for the team/members. 
+
+To manage roles on your API, in the Postman app, select an API in the sidebar and click ellipsis (...). The following screen opens:
