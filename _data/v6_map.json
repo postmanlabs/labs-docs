@@ -465,13 +465,23 @@
             "external": false
           },
           {
-            "title": "Versioning an API",
+            "title": "Managing API cycle",
+            "href": "/docs/v6/postman/working_with_apis/managing_api_cycle",
+            "external": false
+          },
+          {
+            "title": "Sharing APIs",
+            "href": "/docs/v6/postman/working_with_apis/sharing_apis",
+            "external": false
+          },
+          {
+            "title": "Versioning APIs",
             "href": "/docs/v6/postman/working_with_apis/versioning_an_api",
             "external": false
           },
           {
-            "title": "Matching algorithm",
-            "href": "/docs/v6/postman/working_with_apis/matching_algorithm",
+            "title": "Analyzing API reports",
+            "href": "/docs/v6/postman/working_with_apis/analyzing_api_reports",
             "external": false
           }
         ]
