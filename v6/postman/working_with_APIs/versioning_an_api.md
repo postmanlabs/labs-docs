@@ -8,18 +8,31 @@ Postman allows you to manage multiple versions of your APIs. You typically start
 
 This section describes the following topics:
 
+* [Renaming API versions](#renaming-api-versions)
 * [Creating API versions](#creating-api-versions)
 * [Linking collections to APIs](#linking-collections-to-apis)
+* [Tagging a collection with API version](#tagging-a-collection-with-API-version)
 * [Managing versions](managing-versions)
 
 
+### Generating Collections from an API Schema 
+
+
+### Renaming API versions
+
+A default *Draft* version of the API is created when you first create an API. You should rename the *Draft* version of your API. To rename the version of your API, click **Show All Versions**. The following screen opens:
+
+[![api version rename](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Rename1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Rename1.png)
+
+In the above screen, click (...) and select **Rename** to update the version name of your API. 
+
 ### Creating API versions
 
+You can create versions of your API from an existing version. 
 
 
 ### Versioning 
 
-You can also rename the version of your API. To rename the version of your API, click **Show All Versions**. The following screen opens:
 
 
 Click ellipsis (...), select **Rename**, specify a new version identifier and press enter. 
@@ -40,10 +53,3 @@ Click ellipsis (...), select **Rename**, specify a new version identifier and pr
 
 
 
-
-
-### Manage API Roles 
-
-You can manage roles and permissions on your APIs using the role-based access permissions of Postman. You can share APIs and manage the roles and permissions on them depending on the need. Once you share an API, you can assign individual permissions to your team members. You can designate view (Viewer) or edit (Editor) permissions for the team/members. 
-
-To manage roles on your API, in the Postman app, select an API in the sidebar and click ellipsis (...). The following screen opens:

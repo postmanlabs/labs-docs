@@ -7,7 +7,7 @@ warning: false
 
 Once you create an API in Postman, you can link it with other entities, create/import a schema, and be able to perform many other useful tasks. For instance, you will be able to link mock servers, documentation and environments to an API and even be able to version them. You will also be able to link test suites, integration tests, and contract tests to specific versions of an API.
 
-This section describes the following tasks:
+This section describes the following topics:
 
 * [Defining an API](#defining-an-api)
 * [Developing an API](#developing-an-api)

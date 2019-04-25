@@ -12,7 +12,9 @@ This chapter describes the following topics:
 
 ### Overview
 
-Postman makes your API development robust and collaborative with the introduction of API as an entity. With this, the cross-functional API development process becomes better and faster enabling you to build APIs quicker. You will be able to map your real-time APIs inside Postman and be able to define and easily manage different variants of the API versions. It also lets you organize your various API resources and the implementation logic at one place so that it's easier for multiple teams to collaborate on API development.
+Postman makes your API development robust and collaborative with the introduction of API as an element. With this, the cross-functional API development process becomes better and faster enabling you to build APIs quicker. You will be able to map your real-time APIs inside Postman and be able to define and easily manage different variants of the API versions. It also lets you organize your various API resources and the implementation logic at one place so that it's easier for multiple teams to collaborate on API development.
+
+You can group together various elements like collections, monitors, mocks, documentation and etc under a single API, so that you have everything attached to an API under a single entity. This will make it easy for collaboration, reference, and your productivity. 
 
 With the APIs in Postman, you can perform the following tasks:
 
@@ -20,7 +22,7 @@ With the APIs in Postman, you can perform the following tasks:
 
 * Link collections (and their versions) to specific versions of the APIs. 
 
-* Represent other entities like schemas, metrics, and gateways. 
+* Represent other elements like schemas, metrics, and gateways. 
 
 * Create or import schema
 
@@ -35,18 +37,6 @@ With the APIs in Postman, you can perform the following tasks:
 * Coordinate the API changes easily with the help of versioning
 
 * View and analyze reports
-
-
-### Why create APIs?
-
-Here are several reasons why you should create APIs.
-
-#### Organization 
-
-You can group together various entities like collections, monitors, mocks, documentation and etc under a single API, so that you have everything attached to an API under a single entity. This will make it easy for collaboration, reference, and your productivity. 
-
-
-
 
 ### A Sample API workflow in Postman
 

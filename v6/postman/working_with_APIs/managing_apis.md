@@ -12,7 +12,7 @@ You can create and manage your APIs in the workspace like updating and deleting.
 * [Removing API from workspace](removing-api-from-workspace)
 
 
-### Creating an API
+### Creating an API (should I include adding and editing descriptions per vk's suggestion)
 
 You can create an API in the workspace from the sidebar in the Postman app and from the workspaces dashboard. To create an API in the Postman app when no APIs exist in the current workspace, click **Create an API** button in the sidebar, as illustrated in a red circle in the following screen: 
 
@@ -24,7 +24,7 @@ To create an API when APIs exist in your workspace, click '+' in the sidebar, as
 
 Specify a name for your API. Your API is saved with a default version 'Draft'. Once the API is created, you can open the API and view the details in the tab. 
 
-**Note:** You can create an API only when you are signed-in and the sync is connected. Remember, if you are a free user you can create only one API. 
+**Note:** You can create an API only when you are signed in and the sync is connected. Remember, if you are a free user you can create only one API. 
 
 Alternatively, you can also create an API from your workspaces dashboard as illustrated in the following screen:
 

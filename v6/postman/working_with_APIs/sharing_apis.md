@@ -4,7 +4,7 @@ page_id: "sharing_apis"
 warning: false
 ---
 
-You can easily share your APIs with other users and teams on Postman. You can share the APIs in workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard). The way you share an API depends on the access level (Editor or Viewer).
+You can easily share your APIs with other users and teams on Postman - both in the app and in the [workspaces dashboard](https://app.getpostman.com/dashboard). Once you share an API, you can assign individual permissions to your team members. You can designate view (Viewer) or edit (Editor) permissions for the team/members. 
 
 This topic covers:
 
