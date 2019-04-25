@@ -7,34 +7,37 @@ warning: false
 
 ### Overview
 
+Postman enables you to expedite the API development with the introduction of API as an entity. With this, you will be able to map your real-time APIs inside Postman and be able to define and manage them throughout the API lifecycle. 
 
-Postman enables you to expedite the API development process with the introduction of API abstraction. With this, you will be able to build an abstraction of the API in Postman. You will also be able to represent API entities like schemas, metrics, and gateways and be able to analyze reports to get deeper insights into each of these API entities. 
+You will be able to link versions of collections to specific APIs and their versions. You will be able to represent other entities like schemas, metrics, and gateways. You will also be able to view and analyze reports and get deeper insights into each of these API entities. 
 
-You can create an API abstraction, give it a name, the description, a summary, you can define a schema, you can save the schema, you can go back and edit the schema, change the format of the schema, you can edit the language of the schema. You can also generate a collection from the schema. You can define a schema and other properties for the API in Postman.  
+ You can define and edit a schema and can even change its format and language. You can also generate a collection from the schema. Besides, you can define a schema and other properties surrounding the API in Postman.  
 
 
-You can perform the following tasks with the API feature in Postman:
+With the APIs in Postman, you can perform the following tasks:
 
 * Create and manage APIs in your workspace
 
 * Create or import schema
 
-* Create and manage versions the APIs
+* Create and manage versions of the APIs
 
 * Manage roles and permissions on APIs
 
-* Generate collections from API schema
+* Generate collections from the API schema
 
-* Generate and analyze reports
+* Share APIs with your teams and members
+
+* View and analyze reports
 
 
-Why create APIs?
+### Why create APIs?
 
 Here are several reasons why you should create APIs.
 
-Organization 
+#### Organization 
 
-You can group together various entities like collections, monitors, mocks, documentation and etc under a single API, so that you have everything attached to an API under a single entity.
+You can group together various entities like collections, monitors, mocks, documentation and etc under a single API, so that you have everything attached to an API under a single entity. This will make it easy for collaboration, reference, and 
 
 Documentation
 You can add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
@@ -47,11 +50,6 @@ You can attach test scripts to requests and build integration test suites.
 For more information on Working with APIs, see:
 
 * [Creating an API](/docs/v6/postman/working_with_apis/managing_apis)
-* [Navigating through APIs](/docs/v6/postman/)
-* [Editing and viewing API details](/docs/v6/postman/)
-* [Reordering APIs](/docs/v6/postman/)
 * [Deleting an API](/docs/v6/postman/)
 * [Sharing an API](/docs/v6/postman/) 
-* [Other API features](/docs/v6/postman/)
-* [Commenting on APIs](/docs/v6/postman/)
-* [Recovering an API](/docs/v6/postman/)
+

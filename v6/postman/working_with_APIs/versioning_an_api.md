@@ -4,6 +4,9 @@ page_id: "versioning_an_api"
 warning: false
 ---
 
+Postman allows you to manage multiple versions of your APIs. You typically start a new version when you need to add new API operations or parameters, add data models, and so on. Once a new version is ready to be consumed by client applications, you can publish it. This way you can continually enhance your APIs while having a clean published version for your API consumers.
+
+
 You can version your APIs and even create additional versions out of your API
 
 * [Creating an API](#creating-an-api)

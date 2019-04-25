@@ -4,13 +4,12 @@ page_id: "sharing_apis"
 warning: false
 ---
 
-
-Postman enables you to share APIs in workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard). 
-
+You can easily share your APIs with other users and teams on Postman. You can share the APIs in workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard). The way you share an API depends on the access level (Editor or Viewer).
 
 This topic covers:
-* [Sharing apis in the app](#sharing-apis-in-the-app)
-* [Sharing api in the Dashboard](#sharing-apis-in-the-dashboard)
+
+* [Sharing APIs in the app](#sharing-apis-in-the-app)
+* [Sharing APIs in the Dashboard](#sharing-apis-in-the-dashboard)
 
 ### Sharing APIs in the app
 
