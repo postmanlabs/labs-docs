@@ -7,16 +7,15 @@ warning: false
 
 ### Overview
 
-Postman enables you to expedite the API development with the introduction of API as an entity. With this, you will be able to map your real-time APIs inside Postman and be able to define and manage them throughout the API lifecycle. 
-
-You will be able to link versions of collections to specific APIs and their versions. You will be able to represent other entities like schemas, metrics, and gateways. You will also be able to view and analyze reports and get deeper insights into each of these API entities. 
-
- You can define and edit a schema and can even change its format and language. You can also generate a collection from the schema. Besides, you can define a schema and other properties surrounding the API in Postman.  
-
+Postman makes your API development faster with the introduction of API as an entity. With this, the cross-functional API development process becomes even more robust and collaborative. You will be able to map your real-time APIs inside Postman and be able to define and manage them easily throughout the API life cycle. It also lets you organize your various API resources and the implementation logic at one place.
 
 With the APIs in Postman, you can perform the following tasks:
 
 * Create and manage APIs in your workspace
+
+* Link collections (and their versions) to specific versions of the APIs. 
+
+* Represent other entities like schemas, metrics, and gateways. 
 
 * Create or import schema
 
@@ -37,13 +36,17 @@ Here are several reasons why you should create APIs.
 
 #### Organization 
 
-You can group together various entities like collections, monitors, mocks, documentation and etc under a single API, so that you have everything attached to an API under a single entity. This will make it easy for collaboration, reference, and 
+You can group together various entities like collections, monitors, mocks, documentation and etc under a single API, so that you have everything attached to an API under a single entity. This will make it easy for collaboration, reference, and your productivity. 
 
 Documentation
 You can add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
 
 Test suites
 You can attach test scripts to requests and build integration test suites.
+
+
+### A Sample API workflow in Postman
+
 
 
 

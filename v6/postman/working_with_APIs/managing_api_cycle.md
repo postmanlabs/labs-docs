@@ -16,7 +16,7 @@ Once you create an API, you can perform the following tasks:
 
 ### Define an API
 
-You can outline the structure of the API and define other important elements in Postman. As a part of this, you can create or import a schema in an API. The following section describes two topics:
+You can outline the structure of the API and define other important elements in Postman. As a part of this, you can create or import a schema. You can define and edit a schema and even change its format and language in the schema editor. You can also generate a collection from the schema. The following section describes two topics:
 
 * [Creating a new schema](#creating-a-new-schema)
 * [Importing a file](#importing-a-file)
