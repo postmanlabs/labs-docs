@@ -16,6 +16,8 @@ Postman makes your API development robust and collaborative with the introductio
 
 You can group together various elements like collections, monitors, mocks, documentation and etc under a single API, so that you have everything attached to an API under a single entity. This will make it easy for collaboration, reference, and your productivity. 
 
+# Define what linking is might help a lot, vk's comment. 
+
 With the APIs in Postman, you can perform the following tasks:
 
 * Create and manage APIs in your workspace
@@ -40,7 +42,7 @@ With the APIs in Postman, you can perform the following tasks:
 
 ### A Sample API workflow in Postman
 
-Let's take an example use case wherein 
+Let's take an example use case wherein we have three user personas - Back-end developer, Front-end developer, and a Technical Writer. Multiple people with different job roles use these APIs in different formats resulting in multiple use cases. Let's say a back-end developer us
 
 For more information on Working with APIs, see:
 

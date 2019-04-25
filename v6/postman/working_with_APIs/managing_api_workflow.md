@@ -35,7 +35,7 @@ The schema editor provides you options to beautify the content, wrap text, copy 
 
 [![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)
 
-Click **Generate Collection** to generate a collection from this schema. After the collection is generated, it is not automatically linked to an API. Go ahead and link the collection to an API. 
+Click **Generate Collection** to generate a collection from this schema. After the collection is generated, it is not automatically linked to an API. Go ahead and link the collection explicitly to an API. 
 
 Currently, there is no option to delete the schema. 
 
