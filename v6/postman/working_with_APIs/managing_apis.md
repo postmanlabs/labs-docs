@@ -7,8 +7,7 @@ warning: false
 You can create and manage your APIs in the workspace like updating and deleting. This topic describes the tasks you can perform from the APIs tab in the sidebar.
 
 * [Creating an API](#creating-an-api)
-* [Updating API information](#updating-api-information)
-* [Managing Roles](#managing-roles)
+* [Sharing an API](#sharing-an-api)
 * [Deleting an API](#deleting-an-api)
 * [Removing API from workspace](removing-api-from-workspace)
 
@@ -19,7 +18,7 @@ You can create an API in the workspace from the sidebar in the Postman app and f
 
 [![api create1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create2.png)
 
-To create an API when APIs exist in your workspace, click '+' in the sidebar, as illustrated in a blue colored square. The following screen opens:
+To create an API when APIs exist in your workspace, click '+' in the sidebar, as highlighted in blue colored square. The following screen opens:
 
 [![api create2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1.png)
 
@@ -37,7 +36,6 @@ Navigate to the APIs tab and click **Create an API** button, shown in a red circ
 
 Specify a name for your API and click the '&#9745;' adjacent to the name. Your API is created. 
 
-
 ### Opening and viewing API 
 
 In the sidebar, click the API you want to open in a tab. If there are multiple versions of the API, Postman opens the most recently created. 
@@ -53,17 +51,12 @@ Click the ellipsis (...) next to an API, and select "Delete API". If you didn't 
 
 ### Removing from workspace
 
-From the Postman app, you can remove an API from the sidebar. Click the ellipsis (...) next to the API you would like to remove, select **Remove from workspace** and confirm that you would like to remove the API from the current workspace. The API will no longer be visible in the workspace.
+From the Postman app, you can remove an API from the sidebar. Click the ellipsis (...) next to the API you would like to remove, select **Remove from workspace** and confirm that you would like to remove the API from the current workspace. The API will no longer be visible in the workspace. 
 
+You will be able to perform all these user actions even from the dashboard, as illustrated in the screen below:
 
-### Updating API information
+[![api create5](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create5-Dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create5-Dashboard.png)
 
-You can update API information like name, description and so on. You can add a description to your API by clicking **Add a description** button. Click '>' to view the API description. 
-
-
-### Editing and viewing API details
-
-Expand the arrow (&#9656;) to show the details view for the collection. Collapse the arrow (&#9666;) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
 
 
 

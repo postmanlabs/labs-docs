@@ -25,16 +25,22 @@ You can outline the structure of the API and define other important elements in 
 
 To create a new schema, click 'Add Schema' and select **Create New**. The following screen opens the schema editor with default options selected:
 
-[![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1.png)
+[![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1a.png)
 
-The default schema is 'Open API 3.0' and JSON the default language. To select a different schema, click the down arrow and select from the list. The schema editor provides you options to beautify the content, wrap text, copy text and search. Once you're done creating your schema, click **Save**. Currently, there is no option to delete the schema. 
+The default schema is 'Open API 3.0' and JSON the default language. To select a different schema, click the down arrow and select from the list. Since the sample schema is in Swagger 2.0 specification, click the down arrow head and select Swagger 2.0, as illustrated below: 
+
+[![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1b.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1b.png)
+
+The schema editor provides you options to beautify the content, wrap text, copy text and search. Once you're done creating your schema, click **Save**. Soon after you save the changes, the **Generate Collection** button is enabled, as illustrated below: 
+
+[![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)
+
+Currently, there is no option to delete the schema. 
 
 
 #### Importing a file
 
-To import an existing schema, click **Add Schema** and select *Import file*. Navigate to the location, select the file, and click open. The schema populates in the editor. You can now edit the schema and save the changes. Soon after you save the changes, the **Generate Collection** button is enabled, as illustrated below: 
-
-[![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)
+To import an existing schema, click **Add Schema** and select *Import file*. Navigate to the location, select the file, and click open. The schema populates in the editor. You can now edit the schema and save the changes. 
 
 Other supported schemas are:
 
