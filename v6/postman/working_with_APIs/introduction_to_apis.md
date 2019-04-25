@@ -10,6 +10,9 @@ warning: false
 
 Postman enables you to expedite the API development process with the introduction of API abstraction. With this, you will be able to build an abstraction of the API in Postman. You will also be able to represent API entities like schemas, metrics, and gateways and be able to analyze reports to get deeper insights into each of these API entities. 
 
+You can create an API abstraction, give it a name, the description, a summary, you can define a schema, you can save the schema, you can go back and edit the schema, change the format of the schema, you can edit the language of the schema. You can also generate a collection from the schema. You can define a schema and other properties for the API in Postman.  
+
+
 You can perform the following tasks with the API feature in Postman:
 
 * Create and manage APIs in your workspace
