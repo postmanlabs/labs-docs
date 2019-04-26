@@ -7,12 +7,13 @@ warning: false
 You can create and manage your APIs in the workspace like updating and deleting. This topic describes the tasks you can perform from the APIs tab in the sidebar.
 
 * [Creating an API](#creating-an-api)
+* [Renaming an API](#renaming-an-api)
 * [Sharing an API](#sharing-an-api)
 * [Deleting an API](#deleting-an-api)
 * [Removing API from workspace](removing-api-from-workspace)
 
 
-### Creating an API (should I include adding and editing descriptions per vk's suggestion)
+### Creating an API 
 
 You can create an API in the workspace from the sidebar in the Postman app and from the workspaces dashboard. To create an API in the Postman app when no APIs exist in the current workspace, click **Create an API** button in the sidebar, as illustrated in a red circle in the following screen: 
 
@@ -42,8 +43,15 @@ In the sidebar, click the API you want to open in a tab. If there are multiple v
 
 [![open and view api](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Open-and-View1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Open-and-View1.png)
 
-Using the above interface, you can navigate and view various entities of the API like mocks, monitors, documentation, and so on. 
+Using the above interface, you can navigate and view various entities of the API like mocks, monitors, documentation, and so on.
 
+### Renaming an API
+
+To rename an API, select the API in the sidebar. On the top right corner, click ellipsis (...), as illustrated below:
+
+[![api create3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Rename1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Rename1.png)
+
+Go ahead and specify a new name and press enter. 
 
 ### Deleting an API
 
