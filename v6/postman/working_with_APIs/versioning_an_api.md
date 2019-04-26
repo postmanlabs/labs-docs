@@ -4,7 +4,7 @@ page_id: "versioning_an_api"
 warning: false
 ---
 
-Postman allows you to manage multiple versions of your APIs. You typically start a new version of an API when you make a small enhancement or when you add new fields/new endpoints/resources to an existing API. 
+Postman allows you to manage multiple versions of your APIs. You typically start a new version of an API when you make a small enhancement or when you add new fields/new endpoints/resources to an existing API. You can run monitors on all versions of your collections and APIs. 
 
 This section describes the following topics:
 
