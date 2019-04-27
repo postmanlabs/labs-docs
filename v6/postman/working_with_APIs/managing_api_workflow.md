@@ -3,7 +3,7 @@ title: "Managing API Workflow"
 page_id: "managing_api_workflow"
 warning: false
 ---
-## Manage API Cycle 
+## Manage API workflow 
 
 Once you create an API in Postman, you can link it with other entities, create/import a schema, and be able to perform many other useful tasks. For instance, you will be able to link mock servers, documentation and environments to an API and even be able to version them. You will also be able to link test suites, integration tests, and contract tests to specific versions of an API.
 
@@ -79,6 +79,9 @@ In the above screen, select a mock server from the list and click **Add Mock Ser
 
 [![api add mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)
 
+To add a mock server to a specific version of your collection, refer to the section
+(ADD a link here)
+
 
 ### Adding documentation
 
@@ -87,6 +90,8 @@ You can link your private and public documentation on collections with an API. I
 [![api add doc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Documentation1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Documentation1.png)
 
 In the above screen, select a corresponding collection from the list whose documentation you want to link and click **Add Documentation**. The documentation is now added to the API. 
+
+To understand how versioning influences documentation, refer to the section (ADD a LINK HERE)
 
 
 ### Adding an environment
