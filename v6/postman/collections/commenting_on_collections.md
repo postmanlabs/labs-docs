@@ -23,7 +23,7 @@ To post a comment, select the corresponding collection or a request and click **
 
 [![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting.gif)
 
-**Note:** If someone comments on a private collection that you don’t have access for, Postman sends a notification to you. However, you can’t read the comment until the collection or the request is shared with you.  
+**Note:** If someone tags you in a comment on a private collection that you don’t have access for, Postman sends a notification to you. However, you can’t read the comment until the collection or the request is shared with you.  
 
 ### Editing comments
 After posting a comment, you can go back, edit your comment and save your changes. Only you as a creator of the comment will be able to update/modify your comment. The following screen illustrates this:
