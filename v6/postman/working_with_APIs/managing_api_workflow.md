@@ -93,6 +93,8 @@ In the above screen, select a corresponding collection from the list whose docum
 
 To understand how versioning influences documentation, refer to the section (ADD a LINK HERE)
 
+To learn more about generating and viewing version-specific documentation, refer to the section - (ADD LINK) 
+
 
 ### Adding an environment
 
