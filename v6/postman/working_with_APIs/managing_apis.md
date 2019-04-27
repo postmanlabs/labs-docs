@@ -51,11 +51,17 @@ To rename an API, select the API in the sidebar. On the top right corner, click 
 
 [![api create3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Rename1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Rename1.png)
 
-Go ahead and specify a new name and press enter. 
+Go ahead, specify a new name and press enter. 
 
 ### Deleting an API
 
 Click the ellipsis (...) next to an API, and select "Delete API". If you didn't intend to delete the API, you can always recover your deleted APIs. Refer to the next section Recover a collection to learn how to retrieve your deleted collections.
+
+#### Deleting an API version
+
+You can also delete a specific version of your API. To delete a specific version of the API, click ellipsis (...), as illustrated in the following screen and select **Delete**. 
+
+[![api create3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)
 
 ### Removing from workspace
 
