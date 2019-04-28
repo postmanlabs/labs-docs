@@ -52,6 +52,7 @@ Postman data can be imported from the **Data** tab of the **SETTINGS** modal
 Most valid cURL (HTTP-only) commands can be imported into Postman. Postman's importer supports the following cURL options:
 
 | **Option**    | **Description**  |
+|---|---|
 | -A, --user-agent <string> | An optional user-agent string |
 | -d, --data <string>   | Sends the specified data to the server with type application/x-www-form-urlencoded |
 | --data-ascii <string>   | Sends the specified data to the server with type application/x-www-form-urlencoded |
@@ -66,6 +67,7 @@ Most valid cURL (HTTP-only) commands can be imported into Postman. Postman's imp
 A few commands which can be imported include:
 
 | **cURL**     | **Effect**  |
+|---|---|
 | curl http://postman-echo.com/get | Creates a GET request in Postman with the URL prefilled |
 | curl --request POST --url http://postman-echo.com/post --form color=red --form color=green | Creates a POST request with a multivalue form data row |
 | curl -X PUT --data-binary hello http://postman-echo.com/put | Creates a POST request with raw data |
