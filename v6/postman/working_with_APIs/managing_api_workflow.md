@@ -3,7 +3,6 @@ title: "Managing API Workflow"
 page_id: "managing_api_workflow"
 warning: false
 ---
-## Manage API workflow 
 
 Once you create an API in Postman, you can link it with other entities, create/import a schema, and be able to perform many other useful tasks. For instance, you will be able to link mock servers, documentation and environments to an API and even be able to version them. You will also be able to link test suites, integration tests, and contract tests to specific versions of an API.
 
@@ -35,7 +34,7 @@ The schema editor provides you options to beautify the content, wrap text, copy 
 
 [![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)
 
-Click **Generate Collection** to generate a collection from this schema. After the collection is generated, it is not automatically linked to an API. You can go ahead and link the collection explicitly to an API or any specific version of your API. Note that currently there is no option to delete the schema. 
+Click **Generate Collection** to generate a collection from this schema. After the collection is generated, it is not automatically linked to an API. You should link the collection explicitly to an API or any of its specific versions. Note that currently there is no option to delete the schema. 
 
 
 #### Importing a file
@@ -89,9 +88,9 @@ You can link your private and public documentation on collections with an API. I
 
 In the above screen, select a corresponding collection from the list whose documentation you want to link and click **Add Documentation**. The documentation is now added to the API. 
 
-To understand how versioning influences documentation, refer to the section ([Versioning an API](/docs/v6/postman/working_with_apis/versioning-an-api).
+To understand how versioning influences documentation, refer to the section [Versioning an API](/docs/v6/postman/working_with_apis/versioning-an-api).
 
-To learn more about generating and viewing version-specific documentation, refer to the section - (ADD LINK) 
+To learn more about generating and viewing version-specific documentation, refer to the section [Publishing version-specific documentaion](/docs/v6/postman/api_documentation/publishing_public_docs) 
 
 
 ### Adding an environment
