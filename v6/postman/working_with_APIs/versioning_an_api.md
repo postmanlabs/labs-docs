@@ -4,7 +4,7 @@ page_id: "versioning_an_api"
 warning: false
 ---
 
-Postman allows you to manage multiple versions of your APIs. You can link your collections to specific versions of your API by adding version tags to the collections. This enables you to maintain versioning of your collection revisions to a corresponding version of your API. While you can specify version tags to your collections, Postman allows explicit versioning only to the APIs. You will also be able to create separate monitors and mocks and run on all versions of your collections. 
+Postman allows you to manage multiple versions of your APIs. You can link your collections to specific versions of your API by adding version tags to the collections. This enables you to maintain versioning of your collection revisions with a corresponding version of your API. Though Postman allows you to tag versions to your collections, it however, does not allow you to manually handle collection version tags. Postman allows explicit versioning only to the APIs. You will also be able to create separate monitors and mocks and run on all versions of your collections. 
 
 **Note:** At any given point of time, you can tag a collection with only one API version.      
 
@@ -93,7 +93,7 @@ This section describes the following topics:
 
 ### How mocks and monitors work with version tags
 
-Monitors, mocks and documentation are always associated with specific versions of a collection. The version tags of the monitors and mocks associated with tagged collections are never updated automatically even in the case of API version increment. However, this behavior is an exception in the case of documentation. The behavior of documentation version tags is in sync with the automatic behavior of collections.
+Monitors, mocks and documentation are always associated with specific versions of a collection. The version tags of the monitors and mocks associated with tagged collections are never updated automatically even if the API version is incremented. However, this behavior is an exception in the case of documentation. The behavior of documentation version tags is in sync with the automatic behavior of collections.
 
 Let's consider an example - you added a monitor M1 to a collection C1 which is tagged to an API A1 versioned 1.0. When the API version is updated to 2.0 (API A2) and collection C1A is tagged to API A2, your monitor M1 is still running on collection C1. This is because the monitor version tag does not update automatically. You must create a separate monitor M2 and then associate it with the new version (2.0) of your API A2. You can then delete your old monitor M1 if you want to. 
 
