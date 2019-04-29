@@ -23,7 +23,7 @@ You can outline the structure of the API and define other important elements in 
 
 #### Creating a new schema
 
-To create a new schema, click 'Add Schema' and select **Create New**. The following screen opens the schema editor with default options selected:
+To create a new schema, click *Add Schema* and select **Create New**. The following screen opens the schema editor with default options selected:
 
 [![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1a.png)
 
@@ -152,3 +152,11 @@ In the **Observe** tab, click **Add a monitor**. The following screen opens:
 [![api add monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)
 
 In the above screen, select a corresponding monitor from the list and click **Add Monitor**. The monitor attached to the collection is now linked to the API. 
+
+
+For more information on APIs, see:
+
+* [Sharing an API](/docs/v6/postman/working_with_apis/sharing_apis)
+* [Versioning an API](/docs/v6/postman/working_with_apis/versioning-an-api)
+* [Managing APIs](/docs/v6/postman/working_with_apis/managing-apis)
+* [Introduction to APIs](/docs/v6/postman/working_with_apis/introduction-to-apis)

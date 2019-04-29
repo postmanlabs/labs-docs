@@ -91,14 +91,12 @@ Have the diagram here...
 
 **Note:** Your monitors and mocks run on collections if your collection is not tagged, even if it is linked to an API. This is because there is no version tag available for that collection. 
 
+For more information on APIs, see:
 
-
-
-* [Creating an API](#creating-an-api)
-* [Sharing an API](#sharing-an-api)
-* [Managing Roles](#managing-roles)
-* [Deleting an API](#deleting-an-api)
-* [Removing API from workspace](removing-api-from-workspace)
+* [Sharing an API](/docs/v6/postman/working_with_apis/sharing_apis)
+* [Managing API workflow](/docs/v6/postman/working_with_apis/managing-api-workflow)
+* [Managing APIs](/docs/v6/postman/working_with_apis/managing-apis)
+* [Introduction to APIs](/docs/v6/postman/working_with_apis/introduction-to-apis)
 
 
 
