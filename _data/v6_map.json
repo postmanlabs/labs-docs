@@ -478,11 +478,6 @@
             "title": "Versioning APIs",
             "href": "/docs/v6/postman/working_with_apis/versioning_an_api",
             "external": false
-          },
-          {
-            "title": "Analyzing API reports",
-            "href": "/docs/v6/postman/working_with_apis/analyzing_api_reports",
-            "external": false
           }
         ]
       },
