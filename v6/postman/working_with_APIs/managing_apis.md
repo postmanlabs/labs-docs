@@ -9,10 +9,8 @@ You can create and manage your APIs in the workspace like create, read, update, 
 * [Creating an API](#creating-an-api)
 * [Opening and viewing an API](#Opening-and-viewing-an-API])
 * [Renaming an API](#renaming-an-api)
-* [Renaming an API version](#renaming-an-api-version)
 * [Deleting an API](#deleting-an-api)
 * [Removing an API from workspace](#removing-an-api-from-workspace)
-
 
 ### Creating an API 
 
@@ -25,7 +23,7 @@ To create an API when APIs exist in your workspace, click '+' in the sidebar, as
 [![api create2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1.png)
 
 Specify a name for your API. Your API is saved with a default version *Draft*. 
-**Note:** You can create an API only when you are signed in and the sync is connected. Remember, if you are a free user you can create only one API. 
+**Note:** You can create an API only when you are signed in and the sync is connected.
 
 Alternatively, you can also create an API from your workspaces dashboard as illustrated in the following screen:
 
@@ -36,6 +34,11 @@ Navigate to the APIs tab and click **Create an API** button, shown in a red circ
 [![api create4](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create4-Dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create3-Dashboard.png)
 
 Specify a name for your API and click the '&#9745;' adjacent to the name. Your API is created. 
+
+You can create different API versions from a specific version of your API. For more information on this, refer to the section [Creating API versions](/docs/v6/postman/working_with_apis/versioning-an-api). 
+
+**Note:** Free user can create up to three APIs, pro up to 10 and enterprise users up to 100. 
+
 
 ### Opening and viewing an API 
 
@@ -53,13 +56,7 @@ To rename an API, select the API in the sidebar. On the top right corner, click 
 
 Go ahead, specify a new name and press enter. 
 
-### Renaming an API version
-
-Postman allows you to rename the *Draft* version tag of your API. To rename the API version, click **Show All Versions**, the following screen appears: 
-
-[![api version update](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)
-
-In the above screen, select **Rename** and specify a new name. 
+You can also rename the version tags associated with your APIs. For more information on this, refer to the section [Renaming API version tags](/docs/v6/postman/working_with_apis/versioning-an-api).
 
 ### Deleting an API
 
@@ -67,11 +64,7 @@ Click the ellipsis (...) next to an API, and select "Delete API", as illustrated
 
 [![api delete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete1.png)
 
-#### Deleting an API version
-
-You can also delete a specific version of your API. To delete a specific version of the API, click ellipsis (...), as illustrated in the following screen and select **Delete**. 
-
-[![api delete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)
+You can also delete specific versions of your APIs. For more information on this, refer to the section [Deleting an API version](/docs/v6/postman/working_with_apis/versioning-an-api).
 
 ### Removing an API from workspace
 

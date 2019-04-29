@@ -16,7 +16,7 @@ This section describes the following topics:
 
 ### Defining an API
 
-You can outline the structure of the API and define other important elements in Postman. As a part of this, you can create or import a schema. You can define and edit a schema and even change its format and language in the schema editor. You can also generate a collection from the schema. The following section describes two topics:
+You can outline the structure of the API and define other important elements in Postman. As a part of this, you can create or import a schema. You can then define and edit the schema and even change its format and language in the schema editor. You can also generate a collection from the schema. The following section describes two topics:
 
 * [Creating a new schema](#creating-a-new-schema)
 * [Importing a file](#importing-a-file)
@@ -25,7 +25,7 @@ You can outline the structure of the API and define other important elements in 
 
 To create a new schema, click *Add Schema* and select **Create New**. The following screen opens the schema editor with default options selected:
 
-[![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1a.png)
+[![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1c.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1c.png)
 
 The default schema is 'Open API 3.0' and JSON the default language. To select a different schema, click the down arrow and select from the list. Since the sample schema is in Swagger 2.0 specification, click the down arrow head and select Swagger 2.0, as illustrated below: 
 
@@ -35,14 +35,12 @@ The schema editor provides you options to beautify the content, wrap text, copy 
 
 [![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)
 
-Click **Generate Collection** to generate a collection from this schema. After the collection is generated, it is not automatically linked to an API. Go ahead and link the collection explicitly to an API. 
-
-Currently, there is no option to delete the schema. 
+Click **Generate Collection** to generate a collection from this schema. After the collection is generated, it is not automatically linked to an API. You can go ahead and link the collection explicitly to an API or any specific version of your API. Note that currently there is no option to delete the schema. 
 
 
 #### Importing a file
 
-To import an existing schema, click **Add Schema** and select *Import file*. Navigate to the location, select the file, and click open. The schema populates in the editor. You can now edit the schema and save the changes. 
+To import an existing schema, click **Add Schema** and select *Import file*. Navigate to the location, select the file, and click open. The schema populates in the editor. You can now edit the schema and save your changes. 
 
 Other supported schemas are:
 
@@ -58,12 +56,12 @@ Languages supported:
 * YAML
 * XML
 
-**Note:** Multi-file variants of schemas are not supported. 
+**Note:** Multi-file variants of schemas are currently not supported. 
 
 
 ### Developing an API
 
-After adding a schema to your API, you can develop your API by linking it with mock servers, documentation and environments to specific versions of your API. This section describes the following topics:
+After adding a schema, you can develop your API by linking it with mock servers, documentation and environments to specific versions of your API. This section describes the following topics:
 
 * [Adding a mock server](#adding-a-mock-server)
 * [Adding documentation](#adding-documentation)
@@ -80,7 +78,7 @@ In the above screen, select a mock server from the list and click **Add Mock Ser
 [![api add mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)
 
 To add a mock server to a specific version of your collection, refer to the section
-(ADD a link here)
+[Versioning an API](/docs/v6/postman/working_with_apis/versioning-an-api).
 
 
 ### Adding documentation
@@ -91,7 +89,7 @@ You can link your private and public documentation on collections with an API. I
 
 In the above screen, select a corresponding collection from the list whose documentation you want to link and click **Add Documentation**. The documentation is now added to the API. 
 
-To understand how versioning influences documentation, refer to the section (ADD a LINK HERE)
+To understand how versioning influences documentation, refer to the section ([Versioning an API](/docs/v6/postman/working_with_apis/versioning-an-api).
 
 To learn more about generating and viewing version-specific documentation, refer to the section - (ADD LINK) 
 

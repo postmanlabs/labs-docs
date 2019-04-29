@@ -8,17 +8,17 @@ Published documentation enables you to share your [public API documentation](/do
 
 ### Generating public documentation
 
-You can only publish documentation for collections that you've created or have write permissions. From your collection's private documentation page, click **Publish** on the top right corner of the screen.
+You can only publish documentation for collections that you've created or have write permissions. From your collection's private documentation page, select a corresponding version and click **Publish** on the top right corner of the screen.
 
-[![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-publish-button2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-publish-button2.png)  
+[![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Publish1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Publish1.png)  
 
 Alternatively, you can also click ellipses (...) in the sidebar and select 'Publish Docs', as illustrated below:
 
 [![publish docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Option.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Option.png)
 
-From the **Publish Collection** page, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment. 
+From the **Publish Collection** page, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) and a corresponding collection version to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment. 
 
-[![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-publish-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-publish-collection.png)
+[![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Publish2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Publish2.png)
 
 Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page.
 
@@ -27,7 +27,7 @@ Optionally, you can pick from a list of verified [custom domains](/docs/postman/
 
 To share your API documentation with your users and the rest of the Postman community, select 'Add to API Network' radio button to allow others to discover your API through the [Postman API Network](/docs/v6/postman/launching_postman/newbutton#API-Network). To make your APIs part of the Postman [Templates](/docs/v6/postman/launching_postman/newbutton#templates), select the radio button 'Add to Postman Templates', as illustrated below.  
 
-[![api network checkbox](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-checkbox.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-checkbox.png)
+[![api network checkbox](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Publish3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Publish3.png)
 
 #### Add to API Network
 
@@ -42,8 +42,6 @@ You can share your collection with the API community by selecting the radio butt
 [![add to templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add+To+Postman+Templates.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add+To+Postman+Templates.png)
 
 Postman allows you to customize the appearance of your published documentation pages. Add your [team logo](/docs/postman/api_documentation/adding_team_name_and_logo) and update the color theme to align with your brand.
-
-
 
 #### Custom Styling
 
