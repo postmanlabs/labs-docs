@@ -16,7 +16,7 @@ This section describes the following topics:
 * [Linking collections to APIs](#linking-collections-to-apis)
 * [Tagging a collection to specific API version](#tagging-a-collection-to-specific-API-version)
 * [Tagging collection revisions to specific API versions](#tagging-collection-revisions-to-specific-API-versions)
-* [Creating mocks and monitors on collections](#creating-mocks-and-monitors-on-collections)
+* [Adding mocks, monitors, and documentation to tagged collections](#adding-mocks,-monitors,-and-documentation-to-tagged-collections)
 
 ### Creating API versions
 
@@ -84,7 +84,7 @@ Whenever you bump up an API version and choose to carry over elements from a pre
 
 ### Adding mocks, monitors, and documentation to tagged collections
 
-Postman enables you to perform many actions from the tagged versions of your collections. You can create and run mocks and monitors on specific versions of your collections. And you can create and publish documentation from the tagged versions of your collections. 
+Postman enables you to perform many actions from the tagged versions of your collections. You can create and run mocks and monitors on specific versions of your collections. You can also create and publish documentation from the tagged versions of your collections. 
 
 This section describes the following topics:
 
