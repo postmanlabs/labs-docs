@@ -68,13 +68,13 @@ Postman allows you to tag your collection with a specific versions of your API. 
 
 ### Tagging collection revisions to specific API versions 
 
- You can tag your collection revisions to specific versions of an API. Let's understand how to accomplish this with an example. This example illustrates *MoonWalk Database* collection. This collection is first tagged to *MoonWalk API* with version 1.0. Later, the schema is updated with a small change. Since the change in the schema needs to be reflected in the collection, the collection is also updated. Because both the schema and the collection changed, the collection is tagged to a new API version 2.0. 
+ You can tag your collection revisions to specific versions of an API. Let's understand how to accomplish this with an example. This example illustrates *MoonWalk Database* collection. This collection is first tagged to *MoonWalk API* with version 1.0. Later, the schema is updated with a small change. Since the change in the schema needs to be reflected in the collection, the collection is also updated. Because both the schema and the collection changed, the collection is tagged to a new API version 2.0. You can also see the behavior of the version tag associated with documentation. 
 
 [![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Collection-Revs-to-APIVersion1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)
 
 If you have collections with specific version tags, Postman will display them in the interface by default. This is because API and Collections versioning happens automatically. Due to the automatic behavior, Postman does not allow you to manipulate versioning manually. 
 
-Let's consider another example where an API version is incremented to 3.0 from 2.0 and the user chose to *Carry over elements from a previous version*. In this case, the collection is also not tagged to API version 3.0. Postman now throws a warning. Since the API version is bumped up to 3.0, Postman is unable find an equivalent collection version corresponding to the API version 3.0. The following screen illustrates this issue:
+Let's consider another example where an API version is incremented to 3.0 from 2.0 and the user chose to *Carry over elements from a previous version*. In this case, the collection is not tagged to API version 3.0 yet. Postman now throws a warning. Since the API version is bumped up to 3.0, Postman is unable find an equivalent collection version corresponding to the API version 3.0. The following screen illustrates this issue:
 
 [![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch1.gif)
 
@@ -93,7 +93,7 @@ This section describes the following topics:
 
 ### How mocks and monitors work with version tags
 
-Monitors, mocks and documentation are always associated with specific versions of a collection. The version tags of the monitors and mocks associated with tagged collections are never updated automatically even if the API version is incremented. However, this behavior is an exception in the case of documentation. The behavior of documentation version tags is in sync with the automatic behavior of collections.
+Monitors, mocks and documentation are always associated with specific versions of a collection. The version tags of the monitors and mocks associated with tagged collections are never updated automatically. However, this behavior is an exception in the case of documentation. The behavior of documentation version tags is in sync with the automatic behavior of collections.
 
 Let's consider an example - you added a monitor M1 to a collection C1 which is tagged to an API A1 versioned 1.0. When the API version is updated to 2.0 (API A2) and collection C1A is tagged to API A2, your monitor M1 is still running on collection C1. This is because the monitor version tag does not update automatically. You must create a separate monitor M2 and then associate it with the new version (2.0) of your API A2. You can then delete your old monitor M1 if you want to. 
 
