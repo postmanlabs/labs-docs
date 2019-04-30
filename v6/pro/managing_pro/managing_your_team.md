@@ -29,7 +29,7 @@ By default, members who set up the team for themselves will be granted all three
 
 ### Managing roles
 
-An admin can modify the roles of other team members in the [Team page](https://go.postman.co/team). 
+An admin can modify the roles of other team members (except billing) in the [Team page](https://go.postman.co/team). 
 	
   [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/New_InviteUsers.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/New_InviteUsers.png)
 	
