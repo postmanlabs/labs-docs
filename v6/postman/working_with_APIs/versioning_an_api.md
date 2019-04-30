@@ -61,7 +61,7 @@ The following screen illustrates creating an API *MoonWalk1*, generating a colle
 
 ### Tagging a collection to specific API version 
 
-Postman allows you to tag your collection with a specific versions of your API. The example below illustrates this procedure. The example first tags the API's *Draft* version with this collection and then illustrates how the API version renaming (1.0) automatically updates the collection version tag with the 1.0 label.  
+Postman allows you to tag your collection with a specific version of your API. The example below illustrates this procedure. The example first tags the API's *Draft* version with this collection and then illustrates how the API version renaming (1.0) automatically updates the collection version tag with the 1.0 label.  
 
 [![api link collection to API ver](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)
 

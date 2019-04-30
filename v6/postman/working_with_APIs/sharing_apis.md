@@ -19,7 +19,7 @@ In the Postman app, select an API in the sidebar and click ellipsis (...). Selec
 
 [![api share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)
 
-You can share the API with the workspace members individually or with an entire workspace. Search for the workspace name in the top search bar and select the corresponding workspace to share the API. To share the API with individual workspace members, enter the name in the search bar under **Workspace members** (illustrated in red circle in the above screen), select the corresponding member and click **Save and Continue**. Your API is shared and the following screen appears:
+You can share the API with the workspace members individually or with an entire workspace. Search for the workspace name in the top search bar and select the corresponding workspace to share the API. To share the API with individual workspace members, enter the name in the search bar under **Workspace members** (illustrated in red circle in the above screen), select the corresponding member and click **Save and Continue**. Your API is shared, and the following screen appears:
 
 [![api manage roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Manage-Roles.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Manage-Roles.png)
 
