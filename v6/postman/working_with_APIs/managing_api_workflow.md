@@ -76,8 +76,11 @@ In the above screen, select a mock server from the list and click **Add Mock Ser
 
 [![api add mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)
 
-To add a mock server to a specific version of your collection, refer to the section
+To understand how versioning influences mock servers, refer to the section
 [Versioning an API](/docs/v6/postman/working_with_apis/versioning-an-api).
+
+To add a mock server to a specific version of your collection, refer to the section [Setting up mock](/docs/v6/postman/mock_servers/setting_up_mock)
+
 
 
 ### Adding documentation
@@ -92,7 +95,6 @@ To understand how versioning influences documentation, refer to the section [Ver
 
 To learn more about generating and viewing version-specific documentation, refer to the section [Publishing version-specific documentaion](/docs/v6/postman/api_documentation/publishing_public_docs) 
 
-
 ### Adding an environment
 
 You can link specific environments in your workspaces to an API. 
@@ -101,7 +103,6 @@ In the **Develop** tab, click **Add an environment**. The following screen opens
 [![api add env](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Environment1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Environment1.png)
 
 In the above screen, select an environment from the list and click **Add an environment**. The environment is now added to the API.
-
 
 ### Testing an API
 
@@ -149,6 +150,8 @@ In the **Observe** tab, click **Add a monitor**. The following screen opens:
 [![api add monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)
 
 In the above screen, select a corresponding monitor from the list and click **Add Monitor**. The monitor attached to the collection is now linked to the API. 
+
+To add a monitor to a specific version of your collection, refer to the section [Setting up monitors](/docs/v6/postman/monitors/setting_up_monitor) 
 
 
 For more information on APIs, see:
