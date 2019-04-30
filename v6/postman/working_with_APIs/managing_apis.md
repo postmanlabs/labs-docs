@@ -4,7 +4,7 @@ page_id: "managing_apis"
 warning: false
 ---
 
-You can create and manage your APIs in the workspace like create, read, update, and delete (CRUD) using Postman. This section describes the following topics:
+You can create and manage your APIs in the workspace. You will be able to create, read, update, and delete (CRUD) APIs using Postman. This section describes the following topics:
 
 * [Creating an API](#creating-an-api)
 * [Opening and viewing an API](#Opening-and-viewing-an-API])
