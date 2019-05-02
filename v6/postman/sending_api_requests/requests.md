@@ -113,7 +113,7 @@ While constructing requests, you'll work frequently with the request body editor
 [![form-data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)
 
 `multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs (using the [data editor](/docs/v6/postman/launching_postman/navigating_postman) for your data. It also lets you specify the content type for each part of a multi-part form request individually. You can attach files to a key as well.
-When you repeatedly make API calls that require sending these files again and again, Postman persists your files for subsequent use. This also helps you run collections that contain requests requiring file upload. 
+When you repeatedly make API calls that require sending these files again and again, Postman persists your file paths for subsequent use. This also helps you run collections that contain requests requiring file upload. 
 
 Uploading multiple files each with their own Content-Type is not supported yet.
 
@@ -136,4 +136,4 @@ A raw request can contain anything. Postman doesn’t touch the string entered i
 
 [![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960827.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960827.png)
 
-Binary data allows you to send things which you can not enter in Postman, for example, image, audio, or video files. You can send text files as well. As mentioned earlier in the form-data section, you would have to reattach a file if you are loading a request through the history or the collection. 
+Binary data allows you to send things which you can not enter in Postman, for example, image, audio, or video files. You can send text files as well. 
