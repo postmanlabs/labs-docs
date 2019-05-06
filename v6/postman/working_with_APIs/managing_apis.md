@@ -11,6 +11,7 @@ You can create and manage your APIs in the workspace. You will be able to create
 * [Renaming an API](#renaming-an-api)
 * [Deleting an API](#deleting-an-api)
 * [Removing an API from workspace](#removing-an-api-from-workspace)
+* [Commenting on APIs](#commenting-on-apis)
 
 ### Creating an API 
 
@@ -73,6 +74,10 @@ From the Postman app, you can remove an API from the sidebar. Click the ellipsis
 You will be able to perform all these user actions even from the dashboard, as illustrated in the screen below:
 
 [![api create5](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create5-Dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create5-Dashboard.png)
+
+### Commenting on APIs
+
+You can comment on your APIs the same way as you do on your collections. For more information on this, refer to [Commenting on Collections](/docs/v6/postman/collections/commenting_on_collections)
 
 For more information on APIs, see:
 
