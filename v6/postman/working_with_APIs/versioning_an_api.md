@@ -4,7 +4,7 @@ page_id: "versioning_an_api"
 warning: false
 ---
 
-Postman allows you to manage multiple versions of your APIs. You can link your collections to specific versions of your API by adding version tags to the collections. This enables you to maintain versioning of your collection revisions with a corresponding version of your API. Though Postman allows you to tag versions to your collections, it however, does not allow you to manually handle collection version tags. Postman allows explicit versioning only to the APIs. You will also be able to create separate monitors and mocks and run on all versions of your collections. 
+Postman allows you to manage multiple versions of your APIs. You can link your collections to specific versions of your API by adding version tags to the collections. This enables you to maintain versioning of your collection revisions with a corresponding version of your API. Though Postman allows you to tag versions to your collections, it however, does not allow you to manually handle collection version tags. Postman allows explicit versioning only to the APIs. You will also be able to create separate monitors, mocks, public documentation and run on all tagged versions of your collections. 
 
 **Note:** At any given point of time, you can tag a collection with only one API version.      
 
@@ -51,7 +51,7 @@ You can also delete a specific version of your API. To delete a specific version
 
 ### Linking collections to APIs
 
-You can link collections or your collection revisions with specific versions of an API. To link a collection to an API, navigate to the **Collections** tab in the sidebar, expand the arrow (&#9656;) to show the details view for the collection, go to the **Changelog** tab and click **Add Version Tag**. The following screen illustrates adding a version tag to an API:
+You can link collections or your collection revisions with specific versions of an API. To link a collection to an API, navigate to the **Collections** tab in the sidebar, expand the arrow (&#9656;) to show the details view for the collection, go to the **Changelog** tab, select a revision that you want to tag and click **Add Version Tag**. The following screen illustrates adding a version tag to an API:
 
 [![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections1.gif)
 
@@ -72,19 +72,19 @@ Postman allows you to tag your collection with a specific version of your API. T
 
 [![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Collection-Revs-to-APIVersion1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)
 
-If you have collections with specific version tags, Postman will display them in the interface by default. This is because API and Collections versioning happens automatically. Due to the automatic behavior, Postman does not allow you to manipulate versioning manually. 
+If you have collections with specific version tags, Postman will display them in the interface by default. Due to the automatic behavior, Postman does not allow you to manipulate versioning of collections associated with an API version manually. 
 
-Let's consider another example where an API version is incremented to 3.0 from 2.0 and the user chose to *Carry over elements from a previous version*. In this case, the collection is not tagged to API version 3.0 yet. Postman now throws a warning. Since the API version is bumped up to 3.0, Postman is unable find an equivalent collection version corresponding to the API version 3.0. The following screen illustrates this issue:
+Let's consider another example where an API version is incremented to 3.0 from 2.0 and the user chose to *Carry over elements from a previous version*. In this case, the collection is not tagged to API version 3.0 yet. Postman now throws a warning. Since the API version is bumped up to 3.0, Postman is unable to find an equivalent version tag on the collection corresponding to the API version 3.0. The following screen illustrates this issue:
 
 [![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch1.gif)
 
-In such instances, you should add a corresponding version tag (in this case 3.0) to the collection and Postman then resolves the issue. 
+In such instances, you should add a corresponding version tag (in this case 3.0) to the collection and Postman then automatically resolves the issue. 
 
-Whenever you bump up an API version and choose to carry over elements from a previous version, Postman provides you a list of things that you need to update to match the new API version. Everyone in the team workspace would be notified about this update. What this essentially means is that the API tab in Postman is now your central dashboard to manage change across all your API elements - it could be anything -  your mocks, monitors, collections, and anything that is associated with versioning. 
+Whenever you bump up an API version and choose to carry over elements from a previous version, Postman provides you a list of things that you need to update to match the new API version. What this essentially means is that the API tab in Postman is now your central dashboard to manage change across all your API elements - it could be anything -  your mocks, monitors, collections, and anything that needs to be versioned. 
 
 ### Adding mocks, monitors, and documentation to tagged collections
 
-Postman enables you to perform many actions from the tagged versions of your collections. You can create and run mocks and monitors on specific versions of your collections. You can also create and publish documentation from the tagged versions of your collections. 
+Postman enables you to perform many actions on the tagged revisions of your collections. You can create and run mocks and monitors on specific versions of your collections. You can also create and publish documentation from the tagged revisions of your collections. 
 
 This section describes the following topics:
 

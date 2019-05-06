@@ -4,7 +4,7 @@ page_id: "managing_api_workflow"
 warning: false
 ---
 
-Once you create an API in Postman, you can link it with other entities, create/import a schema, and be able to perform many other useful tasks. For instance, you will be able to link mock servers, documentation and environments to an API and even be able to version them. You will also be able to link test suites, integration tests, and contract tests to specific versions of an API.
+Once you create an API in Postman, you can link it with other entities, create/import a schema, and be able to perform many other useful tasks. For instance, you will be able to link mock servers, documentation and environments to an API and even be able to version them (except environments). You will also be able to link test suites, integration tests, and contract tests to specific versions of an API.
 
 This section describes the following topics:
 
@@ -15,18 +15,18 @@ This section describes the following topics:
 
 ### Defining an API
 
-You can outline the structure of the API and define other important elements in Postman. As a part of this, you can create or import a schema. You can then define and edit the schema and even change its format and language in the schema editor. You can also generate a collection from the schema. The following section describes two topics:
+In this section, you can define the structure of your API by creating a new schema or importing it from an existing file. You can then define and edit the schema and even change its format and language in the schema editor. You can also generate a collection from the schema. The following section describes two topics:
 
 * [Creating a new schema](#creating-a-new-schema)
 * [Importing a file](#importing-a-file)
 
 #### Creating a new schema
 
-To create a new schema, click *Add Schema* and select **Create New**. The following screen opens the schema editor with default options selected:
+To create a new schema, click *Add Schema* and select **Create New**. The schema editor opens with default options selected:
 
 [![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1c.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1c.png)
 
-The default schema is 'Open API 3.0' and JSON the default language. To select a different schema, click the down arrow and select from the list. Since the sample schema is in Swagger 2.0 specification, click the down arrow head and select Swagger 2.0, as illustrated below: 
+The default schema format is 'Open API 3.0' and JSON the default language. To select a different schema, click the down arrow and select from the list. Since the sample schema is in Swagger 2.0 specification, click the down arrow head and select Swagger 2.0, as illustrated below: 
 
 [![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1b.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1b.png)
 
@@ -39,9 +39,9 @@ Click **Generate Collection** to generate a collection from this schema. After t
 
 #### Importing a file
 
-To import an existing schema, click **Add Schema** and select *Import file*. Navigate to the location, select the file, and click open. The schema populates in the editor. You can now edit the schema and save your changes. 
+To import an existing schema from a file, click **Add Schema** and select *Import file*. Navigate to the location, select the file, and click open. The schema populates in the editor. You can now edit the schema and save your changes. 
 
-Other supported schemas are:
+Schema formats currently supported in Postman:
 
 * OpenAPI 3.0
 * Swagger 2.0
@@ -72,7 +72,7 @@ You can link mock servers running on a collection to an API. In the **Develop** 
 
 [![api add mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1.png)
 
-In the above screen, select a mock server from the list and click **Add Mock Server**. The mock server is now added to the API with the current version tag and appears as illustrated below:
+In the above screen, select a mock server in your workspace from the list and click **Add Mock Server**. The mock server is now added to the API and appears as illustrated below:
 
 [![api add mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)
 
@@ -106,7 +106,7 @@ In the above screen, select an environment from the list and click **Add an envi
 
 ### Testing an API
 
-You can link your test suites, integration tests, and contract tests to the API as relations under this category to specific versions of an API. This section describes the following topics:
+You can link the collections in your workspace as test suites, integration tests, and contract tests to specific versions of an API. This section describes the following topics:
 
 * [Adding a test suite](#adding-a-test-suite)
 * [Adding integration tests](#adding-integration-tests)
@@ -114,7 +114,7 @@ You can link your test suites, integration tests, and contract tests to the API 
 
 #### Adding a test suite
 
-As testing is an integral part of API life cycle, Postman lets you add your test suites to an API. 
+As testing is an integral part of API life cycle, Postman lets you add collections in your workspace as test suites to an API. 
 
 In the **Test** tab, click **Add a test suite**. The following screen opens:
 
@@ -129,7 +129,7 @@ In the **Test** tab, click **Add integration tests**. The following screen opens
 
 [![api add integration test](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Integration-Test1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Integration-Test1.png)
 
-In the above screen, select a corresponding collection from the list and click **Add Integration Test**. The integration test attached to the collection is now added to the API. 
+In the above screen, select a corresponding collection from the list and click **Add Integration Test**. The integration tests attached to the collection are now added to the API. 
 
 
 #### Adding a contract test
@@ -138,12 +138,12 @@ In the **Test** tab, click **Add contract tests**. The following screen opens:
 
 [![api add contract test](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Contract-Test1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Contract-Test1.png)
 
-In the above screen, select a corresponding collection from the list and click **Add Contract Test**. The contract test attached to the collection is now added to the API. 
+In the above screen, select a corresponding collection from the list and click **Add Contract Test**. The contract tests attached to the collection are now added to the API. 
 
 
 ### Observing an API
 
-You can link your monitors running on collections in specific workspaces with an API. 
+You can link your monitors running on collections in your current workspace with an API. 
 
 In the **Observe** tab, click **Add a monitor**. The following screen opens:
 

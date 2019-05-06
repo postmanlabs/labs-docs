@@ -4,7 +4,7 @@ page_id: "managing_apis"
 warning: false
 ---
 
-You can create and manage your APIs in the workspace. You will be able to create, read, update, and delete (CRUD) APIs using Postman. This section describes the following topics:
+APIs reside in your workspace, just like your collections. This section walks you through how you can create, read, update, and delete APIs in Postman:
 
 * [Creating an API](#creating-an-api)
 * [Opening and viewing an API](#Opening-and-viewing-an-API])
@@ -19,14 +19,15 @@ You can create an API in the workspace from the sidebar in the Postman app and f
 
 [![api create1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create2.png)
 
-To create an API when APIs exist in your workspace, click '+' in the sidebar, as highlighted in blue colored square in the above screen. The following screen opens:
+To create an API when APIs exist in your workspace, click '+' in the sidebar, as highlighted in blue colored square in the above screen. The following tab opens:
 
 [![api create2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1.png)
 
-Specify a name for your API. Your API is saved with a default version *Draft*. 
+Specify a name for your API. 
+
 **Note:** You can create an API only when you are signed in and the sync is connected.
 
-Alternatively, you can also create an API from your workspaces dashboard as illustrated in the following screen:
+Alternatively, you can also create an API from your workspace in the web dashboard as illustrated in the following screen:
 
 [![api create3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create3.png)
 
@@ -43,11 +44,11 @@ You can create different API versions from a specific version of your API. For m
 
 ### Opening and viewing an API 
 
-In the sidebar, click the API you want to open in a tab. If there are multiple versions of the API, Postman opens the most recently created. 
+In the sidebar, click the API you want to open. If there are multiple versions of the API, Postman opens the most recently created. 
 
 [![open and view api](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Open-and-View1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Open-and-View1.png)
 
-Using the above interface, you can navigate and view various entities of the API like mocks, monitors, documentation, and so on.
+Using the above interface, you can navigate and view various entities related to the API like mocks, monitors, documentation, and so on.
 
 ### Renaming an API
 
