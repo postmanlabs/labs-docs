@@ -62,15 +62,23 @@ You can also rename the version tags associated with your APIs. For more informa
 
 ### Deleting an API
 
-Click the ellipsis (...) next to an API, and select "Delete API", as illustrated in the following screen:
+Click the ellipsis (...) next to an API, and select **Delete API**, as illustrated in the following screen:
 
 [![api delete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete1.png)
+
+A delete confirmation message appears:
+
+[![api delete2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete2.png)
+
+When you delete an API, the collections, monitors, mocks, and environments linked to it are not deleted. For a more detailed understanding on this topic, refer to [Sharing APIs](/docs/v6/postman/working_with_apis/sharing_apis)
 
 You can also delete specific versions of your APIs. For more information on this, refer to the section [Deleting an API version](/docs/v6/postman/working_with_apis/versioning-an-api).
 
 ### Removing an API from workspace
 
 From the Postman app, you can remove an API from the sidebar. Click the ellipsis (...) next to the API you would like to remove, select **Remove from workspace** and confirm that you would like to remove the API from the current workspace. The API will no longer be visible in the workspace. 
+
+When you remove an API from a workspace, the collections, monitors, mocks, and environments linked to it are not removed. For a more detailed understanding on this topic, refer to [Sharing APIs](/docs/v6/postman/working_with_apis/sharing_apis).
 
 You will be able to perform all these user actions even from the dashboard, as illustrated in the screen below:
 

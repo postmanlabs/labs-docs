@@ -4,7 +4,9 @@ page_id: "sharing_apis"
 warning: false
 ---
 
-You can easily share your APIs with other users and teams on Postman - both in the app and in the [workspaces dashboard](https://app.getpostman.com/dashboard). Once you share an API, you can assign individual permissions to your team members. You can designate view (Viewer) or edit (Editor) permissions to the team/members. 
+You can easily share your APIs with other users and teams on Postman - both in the app and in the [workspaces dashboard](https://app.getpostman.com/dashboard). In Postman, you generally share something to a workspace. To share an API or a collection in Postman, you first need to share the workspace in which your API/Collection is present and then assign individual permissions to your team members. You can then designate view (Viewer) or edit (Editor) permissions to the team/members.
+
+Let's say you created an API, added a collection as documentation and added another collection as a test suite. Now, you want to share this API to a workspace member M1 who is in a team workspace T1. When you share this API to workspace T1, you don't really share your collections with the workspace member M1. You must share those collections (documentation, test suites etc) individually again in order for them to access. Remember, it's a two-step process. When you delete or remove the API from the workspace T1, these entities do not get removed and the workspace member M1 can still view these collections. You must remove them explicitly. 
 
 This topic covers:
 
@@ -19,11 +21,11 @@ In the Postman app, select an API in the sidebar and click ellipsis (...). Selec
 
 [![api share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)
 
-You can share the API with an entire workspace. Search for the workspace name in the top search bar and select the corresponding workspace to share the API. To share the API with individual workspace members, enter the name in the search bar under **Workspace members** (illustrated in red circle in the above screen), select the corresponding member and click **Save and Continue**. Your API is shared, and the following screen appears:
+You share the API with a workspace and then assign roles to specific members in the workspace. Search for the workspace name in the top search bar and select the corresponding workspace to share the API. To assign a role to a specific workspace member, enter the name in the search bar under **Workspace members** (illustrated in red circle in the above screen), select the corresponding member and click **Save and Continue**. Your workspace in which the API is available, is shared, and the following screen appears:
 
 [![api manage roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Manage-Roles.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Manage-Roles.png)
 
-In the above screen, you can manage the roles and permissions for the shared API. You can either assign an *Editor* role or a *Viewer* role. Click **Save Roles**. 
+In the above screen, you can manage the roles and permissions of that specific member. You can either assign an *Editor* role or a *Viewer* role. Click **Save Roles**. 
 
 ### Sharing APIs in the web
 

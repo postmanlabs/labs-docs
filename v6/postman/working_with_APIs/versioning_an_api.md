@@ -32,7 +32,7 @@ Click **Create another version** to go to the following screen:
 
 [![api create new version2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-NewVersion2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-NewVersion2.png)
 
-Specify a new version for your API. This version is based on your **Draft** version. In the **Carry over elements from a previous version** list, select **Draft** if you want to carry over the elements (that are under *Select elements to add* section in the interface). Else, select **Don't carry over any elements** to create a new API from scratch. Un-check the corresponding checkbox to omit an element from carrying over. Click **Create Version**. Postman creates a new version of your API and takes you to the [API workflow]((/docs/v6/postman/working_with_apis/managing-api-workflow)) screen where you can *define, develop, test, and observe* your API. 
+Specify a new version for your API. In the **Carry over elements from a previous version** list, select **Draft** if you want to carry over the elements (that are under *Select elements to add* section in the interface). Else, select **Don't carry over any elements** to create a new API from scratch. Un-check the corresponding checkbox to omit an element from carrying over. Click **Create Version**. Postman creates a new version of your API and takes you to the [API workflow]((/docs/v6/postman/working_with_apis/managing-api-workflow)) screen where you can *define, develop, test, and observe* your API. 
 
 ### Renaming API version tags
 
@@ -99,7 +99,7 @@ Let's consider an example - you added a monitor M1 to a collection C1 which is t
 
 ### Publishing version-specific documentation
 
-You can publish both private and public documentation for the tagged versions of your collections. 
+You can publish your documentation for the tagged versions of your collections. 
 For more information on this, refer to [Publishing version-specific documentaion](/docs/v6/postman/api_documentation/publishing_public_docs)
 
 
