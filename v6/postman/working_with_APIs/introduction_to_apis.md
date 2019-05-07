@@ -11,15 +11,17 @@ This chapter describes the following topics:
 
 ### Overview
 
-With the introduction of API modules in Postman, your API development becomes more robust and collaborative. With this, the cross-functional API development process becomes better and faster enabling you to build APIs efficiently. A small change in your API or schema, specially when multiple people from multiple teams are working on it, can have a huge impact on your product, service, software and even user experience. You no longer need to worry about this as Postman offers you flexibility and power to manage all aspects of your API workflow. You will be able to coordinate API changes easily with the help of versioning and linking. 
+Your cross-functional API development process becomes better and faster with the introduction of API modules in Postman. You will now be able to define and manage different versions of your APIs, collection revisions, and other components linked to API versions You will be able to coordinate API changes easily with the help of versioning and linking. With the APIs in Postman, your schema is now treated as the source of truth which defines all possible variations of the API. Collections can now be used as individual recipes which use endpoints made available by the API, tailored to specific use cases. 
 
-Postman allows you to map your real-time APIs in the API tab where you will be able to define and easily manage different versions of your APIs, collections, and its other components. It also lets you organize your various API resources and the implementation logic at one place so it's easier for multiple teams to link and collaborate on API development. It enables you to group together various elements like collections, monitors, mocks, documentation and etc under a single API definition. This will make it easy for you to collaborate, reference, manage change, and increase productivity. 
+As Postman allows you to map your real-time APIs in the API tab, you will be able to define, develop, test, and observe them - all in one place. Postman allows you to group together various elements like collections, monitors, mocks, documentation and etc under a single API definition. This will make it easy for you to collaborate, reference, manage change, and increase your productivity. 
+
+Let's say you are a test engineer who is interested only in the test suites connected to an API but you are working with a technical writer and a developer. The writer is interested in documentation published under an API while the developer is working on mocks and monitors attached to the API. Three of you can now work on the same API definition instead of working on the same collection which is not the best way to do. Even as the definition of your API becomes dynamic, the API itself is your collaboration point while individual collections under it become different use cases for the API in contention. 
 
 With the APIs in Postman, you can perform the following tasks:
 
 * Create and manage APIs in your workspace, keep them consistent and backward-compatible 
 
-* Link collections (and their versions) to specific versions of the APIs. 
+* Link collections (and their revisions) to specific versions of the APIs. 
 
 * Represent other elements like schemas, metrics, and gateways. 
 
@@ -38,15 +40,6 @@ With the APIs in Postman, you can perform the following tasks:
 * Iterate on your API enhancements in a much more dynamic, secure and confident way
 
 * View and analyze reports
-
-
-### Sample Use Case
-
-Let's take an example use case wherein we have three user personas - a test engineer, a developer, and a technical writer. Multiple people with different job roles use these APIs in different formats resulting in multiple use cases. With the introduction of API in Postman, your schema attached to the API becomes the source of truth. The schema defines all possible variations of the API. Once you generate a collection from the API, that collection is just one instance of the API. Likewise, you can generate multiple collections for various use cases and each individual can work on their respective collection that corresponds to a specific API version. 
-
-Let's say you have a test engineer who is interested only in the test suites connected to an API, a technical writer who is interested in documentation published under an API, and a developer who is working on mocks and monitors attached to the API. All of these personas can now work on the same API definition instead of working on the same collection which is not the best way to do. Even as the definition of your API becomes dynamic, the API itself is your collaboration point while individual collections under it become different use cases for the API in contention. 
-
-Collection was never a complete description of the API in Postman. With the introduction of API and the schema in Postman, collections are now a segregated, use case-based instances that allow you to work in a loosely-coupled distributed environment without worrying about the change management. Postman brings different features together to help you better realize real-world workflows that people have with APIs. 
 
 For more information on APIs, see:
 
