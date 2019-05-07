@@ -32,7 +32,7 @@ Click **Create another version** to go to the following screen:
 
 [![api create new version2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-NewVersion2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-NewVersion2.png)
 
-Specify a new version for your API. In the **Carry over elements from a previous version** list, select **Draft** if you want to carry over the elements (that are under *Select elements to add* section in the interface). Else, select **Don't carry over any elements** to create a new API from scratch. Un-check the corresponding checkbox to omit an element from carrying over. Click **Create Version**. Postman creates a new version of your API and takes you to the [API workflow]((/docs/v6/postman/working_with_apis/managing-api-workflow)) screen where you can *define, develop, test, and observe* your API. 
+Specify a new version for your API. In the **Carry over elements from a previous version** list, select a version if you want to carry over the elements (that are under *Select elements to add* section in the interface). Else, select **Don't carry over any elements** to create a new API from scratch. Un-check the corresponding checkbox to omit an element from carrying over. Click **Create Version**. Postman creates a new version of your API and takes you to the [API workflow]((/docs/v6/postman/working_with_apis/managing-api-workflow)) screen where you can *define, develop, test, and observe* your API. 
 
 ### Renaming API version tags
 
@@ -49,9 +49,15 @@ You can also delete a specific version of your API. To delete a specific version
 [![api delete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)
 
 
-### Linking collections to APIs
+### Adding version tags to collection revisions
 
-You can link collections or your collection revisions with specific versions of an API. To link a collection to an API, navigate to the **Collections** tab in the sidebar, expand the arrow (&#9656;) to show the details view for the collection, go to the **Changelog** tab, select a revision that you want to tag and click **Add Version Tag**. The following screen illustrates adding a version tag to an API:
+You can link collections or your collection revisions with specific versions of an API. To link a collection to an API version, you should add either documentation, environment, mock, monitor, or test suites to an API. This example illustrates adding documentation to link the corresponding collection to the *Moonwalk API*. The following screen illustrates this:
+
+
+
+
+
+To link a collection to an API version, navigate to the **Collections** tab in the sidebar, expand the arrow (&#9656;) to show the details view for the collection, go to the **Changelog** tab, select a collection revision that you want to tag and click **Add Version Tag**. The following screen illustrates adding a version tag to an API:
 
 [![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections1.gif)
 
@@ -59,16 +65,16 @@ The following screen illustrates creating an API *MoonWalk1*, generating a colle
 
 [![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections2.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections2.gif)
 
-### Tagging a collection to specific API version 
+### Managing version tags with API versions
 
-Postman allows you to tag your collection with a specific version of your API. The example below illustrates this procedure. The example first tags the API's *Draft* version with this collection and then illustrates how the API version renaming (1.0) automatically updates the collection version tag with the 1.0 label.  
+Postman allows you to tag your collection (or your collection revision) with a specific version of your API. The example below illustrates this procedure. In this example, the API's *Draft* version is tagged to a collection first (can see how *current* version changes to *draft*). The API version is renamed to 1.0. The example illustrates how Postman automatically updates the collection version tag to 1.0 label.  
 
 [![api link collection to API ver](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)
 
 
 ### Tagging collection revisions to specific API versions 
 
- You can tag your collection revisions to specific versions of an API. Let's understand how to accomplish this with an example. This example illustrates *MoonWalk Database* collection. This collection is first tagged to *MoonWalk API* with version 1.0. Later, the schema is updated with a small change. Since the change in the schema needs to be reflected in the collection, the collection is also updated. Because both the schema and the collection changed, the collection is tagged to a new API version 2.0. You can also see the behavior of the version tag associated with documentation. 
+ You can tag your collection revisions to specific versions of an API. Let's understand how to accomplish this with an example that illustrates *MoonWalk Database* collection. The collection is first tagged to *MoonWalk API* version 1.0. Later, the schema is updated with a small change resulting in a revision of the collection. Because both the schema and the collection changed, the collection is tagged to a new API version 2.0. You can also see the behavior of the version tag associated with documentation. 
 
 [![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Collection-Revs-to-APIVersion1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)
 
