@@ -11,7 +11,7 @@ This chapter describes the following topics:
 
 ### Overview
 
-Your cross-functional API development process becomes better and faster with the introduction of API modules in Postman. You will now be able to define and manage different versions of your APIs, collection revisions, and other components linked to API versions like monitors, mocks and etc. You will be able to coordinate API changes easily with the help of versioning and linking. 
+With the introduction of API modules in Postman, your cross-functional API development process becomes better and faster. You will now be able to define and manage different versions of your APIs, collection revisions, and other components linked to API versions like monitors, mocks and etc. You will be able to coordinate API changes easily with the help of versioning and linking. 
 
 Essentially, with the APIs in Postman, your schema is now treated as the source of truth which defines all possible variations of the API. Collections can now be used as individual recipes which use endpoints made available by the API, tailored to specific use cases. As Postman allows you to map your real-time APIs in the API tab, you will be able to define, develop, test, and observe them - all in one place. 
 
