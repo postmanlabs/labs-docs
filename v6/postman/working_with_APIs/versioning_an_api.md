@@ -79,7 +79,7 @@ You will also be able to add version tags to your collections from the Postman w
 
 ### Updating version tags with API version changes
 
-Postman automatically updates the version tags of your collections whenever an API version is renamed or updated. The example below illustrates this procedure. In this example, the API's *Draft* version is tagged to a collection first (you can see how *current* version of the collection changes to *draft* version of API. The API version is then renamed to 1.0. The example illustrates how Postman automatically updates the collection version tag to 1.0 label.
+Postman automatically updates the version tags of your collections whenever an API version is renamed or updated. The example below illustrates this procedure. In this example, the API's *Draft* version is tagged to a collection first (you can see how *current* version of the collection changes to *draft* version of API). The API version is then renamed to 1.0. The example illustrates how Postman automatically updates the collection version tag to 1.0 label.
 
 [![api link collection to API ver](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)
 
