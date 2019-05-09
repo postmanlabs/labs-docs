@@ -1,6 +1,6 @@
 ---
-title: "Managing API Workflow"
-page_id: "managing_api_workflow"
+title: "The API Workflow"
+page_id: "the_api_workflow"
 warning: false
 ---
 
