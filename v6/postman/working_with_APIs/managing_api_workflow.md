@@ -61,7 +61,7 @@ Languages supported:
 
 After adding a schema, you can develop your API by linking it with mock servers, documentation and environments to specific versions of your API. 
 
-**Note:** When you add documentation, test suites, mocks, monitors, environments, and etc then only collections in the current workspace will be shown in the list for selection. If they are already linked to an API, they will not be shown too.    
+**Note:** When you add documentation, test suites, mocks, monitors, environments, and etc then only those in the current workspace will be shown in the list for selection. If they are already linked to an API, they will not be shown here.    
 
 This section describes the following topics:
 
@@ -75,7 +75,7 @@ You can link mock servers running on a collection to an API. In the **Develop** 
 
 [![api add mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1.png)
 
-In the above screen, select a mock server in your workspace from the list and click **Add Mock Server**. Only available collections will be shown in this list. 
+In the above screen, select a mock server in your workspace from the list and click **Add Mock Server**. Only available mocks will be shown in this list. 
 
 The mock server is now added to the API and appears as illustrated below:
 
@@ -88,7 +88,7 @@ To add a mock server to a specific version of your collection, refer to the sect
 
 ### Adding documentation
 
-You can link your private and public documentation on collections with an API. In the **Develop** tab, click **Add documentation**. The following screen opens:
+You can link your documentation on collections with an API. In the **Develop** tab, click **Add documentation**. The following screen opens:
 
 [![api add doc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Documentation1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Documentation1.png)
 
@@ -105,7 +105,7 @@ In the **Develop** tab, click **Add an environment**. The following screen opens
 
 [![api add env](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Environment1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Environment1.png)
 
-In the above screen, select an environment from the list and click **Add an environment**. Only available collections will be shown in this list. The environment is now added to the API.
+In the above screen, select an environment from the list and click **Add an environment**. Only available environments will be shown in this list. The environment is now added to the API.
 
 ### Testing an API
 
@@ -149,7 +149,7 @@ In the **Observe** tab, click **Add a monitor**. The following screen opens:
 
 [![api add monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)
 
-In the above screen, select a corresponding monitor from the list and click **Add Monitor**. Only available collections will be shown in this list. The monitor attached to the collection is now linked to the API. 
+In the above screen, select a corresponding monitor from the list and click **Add Monitor**. Only available monitors will be shown in this list. The monitor attached to the collection is now linked to the API. 
 
 To add a monitor to a specific version of your collection, refer to the section [Setting up monitors](/docs/v6/postman/monitors/setting_up_monitor) 
 

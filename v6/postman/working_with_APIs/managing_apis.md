@@ -17,7 +17,7 @@ APIs reside in your workspace, just like your collections. This section walks yo
 
 You can create an API in the workspace from the sidebar in the Postman app and from the workspaces dashboard. To create an API in the Postman app when no APIs exist in the current workspace, click **Create an API** button in the sidebar, as illustrated in a red circle in the following screen: 
 
-[![api create1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create2.png)
+[![api create4](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create4.png)
 
 To create an API when APIs exist in your workspace, click '+' in the sidebar, as highlighted in blue colored square in the above screen. The following tab opens:
 
@@ -25,7 +25,7 @@ To create an API when APIs exist in your workspace, click '+' in the sidebar, as
 
 Specify a name for your API. 
 
-**Note:** You can create an API only when you are signed in and the sync is connected.
+**Note:** You can create an API only when you are signed in and online.
 
 Alternatively, you can also create an API from your workspace in the web dashboard as illustrated in the following screen:
 
@@ -39,7 +39,7 @@ Specify a name for your API and click the '&#9745;' adjacent to the name. Your A
 
 You can create different API versions from a specific version of your API. For more information on this, refer to the section [Creating API versions](/docs/v6/postman/working_with_apis/versioning-an-api). 
 
-**Note:** Free user can create up to three APIs, pro up to 10 and enterprise users up to 100. 
+**Note:** Free users can create up to three APIs, Pro users up to 10 and Enterprise users up to 100. 
 
 
 ### Opening and viewing an API 
@@ -58,7 +58,7 @@ To rename an API, select the API in the sidebar. On the top right corner, click 
 
 Go ahead, specify a new name and press enter. 
 
-You can also rename the version tags associated with your APIs. For more information on this, refer to the section [Renaming API version tags](/docs/v6/postman/working_with_apis/versioning-an-api).
+You can also rename the versions associated with your APIs. For more information on this, refer to the section [Renaming API version tags](/docs/v6/postman/working_with_apis/versioning-an-api).
 
 ### Deleting an API
 
@@ -74,7 +74,7 @@ When you delete an API, the collections, monitors, mocks, and environments linke
 
 You can also delete specific versions of your APIs. For more information on this, refer to the section [Deleting an API version](/docs/v6/postman/working_with_apis/versioning-an-api).
 
-### Removing an API from workspace
+### Removing an API from a workspace
 
 From the Postman app, you can remove an API from the sidebar. Click the ellipsis (...) next to the API you would like to remove, select **Remove from workspace** and confirm that you would like to remove the API from the current workspace. The API will no longer be visible in the workspace. 
 
