@@ -36,7 +36,7 @@ $ docker pull postman/newman:ubuntu
 4\. Run Newman commands on the image.
 
 ```bash
-$ docker run -t postman/newman:ubuntu "https://www.getpostman.com/collections/8a0c9bc08f062d12dcda"
+$ docker run -t postman/newman:ubuntu run "https://www.getpostman.com/collections/8a0c9bc08f062d12dcda"
 ```
 
 At this stage, you should see the Collection running in Newman and the output displayed in the terminal.
