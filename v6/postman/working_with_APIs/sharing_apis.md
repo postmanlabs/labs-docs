@@ -11,7 +11,7 @@ Let's say you created an API, added a collection as documentation and added anot
 This topic covers:
 
 * [Sharing APIs in the app](#sharing-apis-in-the-app)
-* [Sharing APIs in the Dashboard](#sharing-apis-in-the-dashboard)
+* [Sharing APIs in the web dashboard](#sharing-apis-in-the-web-dashboard)
 
 ### Sharing APIs in the app
 
@@ -27,7 +27,7 @@ You share the API with a workspace and then assign roles to specific members in 
 
 In the above screen, you can manage the roles and permissions of that specific member. You can either assign an *Editor* role or a *Viewer* role. Click **Save Roles**. 
 
-### Sharing APIs in the web
+### Sharing APIs in the web dashboard
 
 In the [workspaces dashboard](https://app.getpostman.com/dashboard), click the corresponding **Share** button of the API. The **Share API** button is shown in the below screen. The procedure, after clicking **Share API** button is similar as in app. Refer to the section above **Sharing APIs in the app** for further information. 
 

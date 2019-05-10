@@ -48,7 +48,7 @@ In the sidebar, click the API you want to open. If there are multiple versions o
 
 [![open and view api](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Open-and-View1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Open-and-View1.png)
 
-Using the above interface, you can navigate and view various entities related to the API like mocks, monitors, documentation, and so on.
+Using the above interface, you can navigate and view various entities related to an API like mocks, monitors, documentation, and so on.
 
 ### Renaming an API
 

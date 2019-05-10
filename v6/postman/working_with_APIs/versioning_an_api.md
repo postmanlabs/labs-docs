@@ -57,6 +57,7 @@ You can also delete a specific version of your API. To delete a specific version
 
 [![api delete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)
 
+**Note:** When you delete an existing API version, the corresponding version tag associated with the API version also gets deleted. 
 
 ### Linking collection to an API
 
