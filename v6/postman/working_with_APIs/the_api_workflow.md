@@ -43,8 +43,8 @@ To import an existing schema from a file, click **Add Schema** and select *Impor
 Schema formats currently supported in Postman:
 
 * OpenAPI 3.0
-* Swagger 2.0
-* Swagger 1.0
+* OpenAPI 2.0
+* OpenAPI 1.0
 * RAML 0.8
 * RAML 1.0
 
@@ -135,7 +135,7 @@ In the above screen, select a corresponding collection from the list and click *
 
 #### Adding a contract test
 
-If you're writing tests to evaluate the integration of your API with other services, you can use **Contract tests**. In the **Test** tab, click **Add contract tests** to ensure the API works according to its specification. The following screen opens:
+If you're writing tests to ensure your APIs are working according to their specification, you can use **Contract tests**. In the **Test** tab, click **Add contract tests** to ensure the API works according to its specification. The following screen opens:
 
 [![api add contract test](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Contract-Test1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Contract-Test1.png)
 

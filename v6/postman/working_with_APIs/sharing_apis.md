@@ -4,9 +4,11 @@ page_id: "sharing_apis"
 warning: false
 ---
 
-You can easily share your APIs with other users and teams on Postman - both in the app and in the [web dashboard](https://app.getpostman.com/dashboard). In Postman, you generally share something to a workspace. To share an API or a collection in Postman, you first need to share the workspace in which your API/Collection is present and then assign individual permissions to your team members. You can then designate view (Viewer) or edit (Editor) permissions to the team/members.
+You can easily share your APIs with other members of your team on Postman - both in the app and in the [web dashboard](https://app.getpostman.com/dashboard). In Postman you share your collections or APIs to workspaces. To share an API with your team, you need to share the API to a shared workspace or share the workspace itself with the team. And then you assign individual permissions to your team members by designating view (Viewer) or edit (Editor) permissions to them.
 
-Let's say you created an API, added a collection as documentation and added another collection as a test suite. Now, you want to share this API to a workspace member M1 who is in a team workspace T1. When you share this API to workspace T1, you don't really share your collections with the workspace member M1. You must share those collections (documentation, test suites etc) individually again in order for them to access. Remember, it's a two-step process. When you delete or remove the API from the workspace T1, these entities do not get removed and the workspace member M1 can still view these collections. You must remove them explicitly. 
+Let's say you created an API, added a collection as documentation and added another collection as a test suite. Now, you want to share this API to a workspace T1. When you share this API to workspace T1, the members of this workspace get access to only the shared elements attached to the API but not all the elements of the API. When you delete or remove the API from the workspace T1, the shared elements attached to the API can still be viewed by the members of workspace T1. You must remove them explicitly in order to remove access. 
+
+when you share the API with your team, they have access to see the listing of the elements attached to the API but not the elements itself unless they are also shared with the team
 
 This topic covers:
 

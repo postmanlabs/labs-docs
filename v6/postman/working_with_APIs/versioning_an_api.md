@@ -6,7 +6,7 @@ warning: false
 
 Postman allows you to manage multiple versions of your APIs. You can link your collections to specific versions of your API by adding version tags to them. This enables you to maintain versioning of your collection revisions with a corresponding version of your API. 
 
-Though Postman allows you to tag versions to your collections, it however, does not allow you to manually handle collection version tags. Postman allows explicit versioning only to APIs. You will also be able to create separate monitors, mocks, public documentation and run on all tagged versions of your collections. 
+Though Postman allows you to tag versions to your collections, it however, does not allow you to manipulate collection version tags. Postman allows explicit versioning only to APIs. You will also be able to create separate monitors, mocks, public documentation and add on all tagged versions of your collections. 
 
 To manage your collection revisions with specific API versions, you must adhere to the following three steps:
 
