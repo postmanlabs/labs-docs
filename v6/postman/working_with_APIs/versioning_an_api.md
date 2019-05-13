@@ -63,7 +63,7 @@ You can also delete a specific version of your API. To delete a specific version
 
 You can link collections or your collection revisions with an API or specific versions of an API. To link a collection to an API, you should add either documentation or a test suite to an API. When you add any of these entities, you are essentially adding your collection to an API. This example illustrates adding documentation to link the corresponding collection to the *Moonwalk API*. The following screen illustrates this:
 
-[![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-LinkCollections3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections3.gif)
+[![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections4.gif)
 
 **Note:** Whenever you add a mock or a monitor to an API, the underlying collection also gets linked to the API even though you are explicitly selecting only a mock or a monitor from the list.  
 
@@ -71,7 +71,7 @@ You can link collections or your collection revisions with an API or specific ve
 
 To link a collection to an API version, navigate to the **Collections** tab in the sidebar, expand the arrow (&#9656;) to show the details view for the collection, go to the **Changelog** tab, select a collection that you want to tag and click **Add Version Tag**. From the list, select a corresponding API version. The following screen illustrates adding a version tag to an API:
 
-[![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Version-to-Collection.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections1.gif)
+[![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections-vTag.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections1.gif)
 
 You will also be able to add version tags to your collections from the Postman web dashboard. The following screen illustrates this:
 
@@ -82,20 +82,20 @@ You will also be able to add version tags to your collections from the Postman w
 
 Postman automatically updates the version tags of your collections whenever an API version is renamed or updated. The example below illustrates this procedure. In this example, the API's *Draft* version is tagged to a collection first (you can see how *current* version of the collection changes to *draft* version of API). The API version is then renamed to 1.0. The example illustrates how Postman automatically updates the collection version tag to 1.0 label.
 
-[![api link collection to API ver](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)
+[![api link collection to API ver](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Updating-Ver-Tags1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Updating-Ver-Tags1.gif)
 
 
 ### Using version tags to map changes in your API 
 
- You can tag your collection revisions to map changes in your API. Let's understand how to accomplish this with an example that illustrates *MoonWalk Database* collection. The collection is first tagged to *MoonWalk API* version 1.0. Later, the schema is updated with a small change resulting in a revision of the collection. Because the schema and the collection both changed, you can now tag the collection to a new API version 2.0. You can also see the behavior of the version tag associated with documentation. 
+ You can tag your collection revisions to map changes in your API. Let's understand how to accomplish this with an example that illustrates *PetStore* collection. The collection is first tagged to *PetStore API* version 1.0. Later, the schema is updated with a small change resulting in a revision of the collection. Because the schema and the collection both changed, you can now tag the collection to a new API version 2.0. You can also see the behavior of the version tag associated with documentation. 
 
-[![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Collection-Revs-to-APIVersion1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collection-to-APIVersion1.gif)
+[![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-versiontags-map-api-changes1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-versiontags-map-api-changes1.gif)
 
 If you have collections with specific version tags, Postman will associate them with the appropriate API versions in the tab interface by default. Due to this automatic behavior, Postman does not allow you to manipulate the version tags of a collection linked with an API manually. 
 
 Let's consider another example where an API version is incremented to 3.0 from 2.0 and the user chose to *Carry over elements from a previous version*. In this case, the collection is not tagged to API version 3.0 yet. Postman now throws a warning. Since the API version is bumped up to 3.0, Postman is unable to find an equivalent version tag on the collection corresponding to the API version 3.0. The following screen illustrates this:
 
-[![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch1.gif)
+[![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch2.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch2.gif)
 
 In such instances, you should add a corresponding version tag (in this case 3.0) to the collection and Postman then automatically resolves the issue.
 
