@@ -451,6 +451,37 @@
         ]
       },
       {
+        "title": "Working with APIs",
+        "url_prefix": "working_with_apis",
+        "children": [
+          {
+            "title": "Introduction to apis",
+            "href": "/docs/v6/postman/working_with_apis/introduction_to_apis",
+            "external": false
+          },
+	        {
+            "title": "Managing APIs",
+            "href": "/docs/v6/postman/working_with_apis/managing_apis",
+            "external": false
+          },
+          {
+            "title": "The API Workflow",
+            "href": "/docs/v6/postman/working_with_apis/managing_api_workflow",
+            "external": false
+          },
+          {
+            "title": "Sharing APIs",
+            "href": "/docs/v6/postman/working_with_apis/sharing_apis",
+            "external": false
+          },
+          {
+            "title": "Versioning APIs",
+            "href": "/docs/v6/postman/working_with_apis/versioning_an_api",
+            "external": false
+          }
+        ]
+      },
+      {
         "title": "Postman API",
         "url_prefix": "postman_api",
         "children": [
