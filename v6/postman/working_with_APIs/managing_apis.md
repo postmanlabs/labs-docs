@@ -7,10 +7,10 @@ warning: false
 APIs reside in your workspace, just like your collections. This section walks you through how you can create, read, update, and delete APIs in Postman:
 
 * [Creating an API](#creating-an-api)
-* [Opening and viewing an API](#Opening-and-viewing-an-API])
+* [Opening and viewing an API](#opening-and-viewing-an-API])
 * [Renaming an API](#renaming-an-api)
 * [Deleting an API](#deleting-an-api)
-* [Removing an API from workspace](#removing-an-api-from-workspace)
+* [Removing an API from a workspace](#removing-an-api-from-a-workspace)
 * [Commenting on APIs](#commenting-on-apis)
 
 ### Creating an API 
