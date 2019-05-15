@@ -8,50 +8,52 @@ _Note: The functionality described here is exclusive to Postman's native apps fo
 
 ### Global functions (pm.*)
 
-### require 
+### require
 
 **`require(moduleName:String):function → *`**
 
 The `require` function allows you to use the sandbox built-in library modules. The list of available libraries are listed below. The list links to their corresponding documentation.
-1. [ajv](https://www.npmjs.com/package/ajv) → v6.6.2
-1. [atob](https://www.npmjs.com/package/atob) → v2.1.2
-1. [btoa](https://www.npmjs.com/package/btoa) → v1.2.1
-1. [chai](http://chaijs.com/) → v4.2.0
-1. [cheerio](https://cheerio.js.org/) → v0.22.0
-1. [crypto-js](https://www.npmjs.com/package/crypto-js) → v3.1.9-1
-1. [csv-parse/lib/sync](http://csv.adaltas.com/parse) → v1.2.4
-1. [lodash](https://lodash.com/) → v4.17.11 (when used with require, the inbuilt `_` object is for v3.10.1)
-1. [moment](http://momentjs.com/docs/) → v2.22.2 (sans locales)
-1. [postman-collection](http://www.postmanlabs.com/postman-collection/) → v3.4.0
-1. [tv4](https://github.com/geraintluff/tv4) → v1.3.0
-1. [uuid](https://www.npmjs.com/package/uuid) → (the module loaded is a shim for original module)
-1. [xml2js](https://www.npmjs.com/package/xml2js) → v0.4.19
 
-A number of NodeJS modules are also available:
-1. path
-1. assert
-1. buffer
-1. util
-1. url
-1. punycode
-1. querystring
-1. string_decoder
-1. stream
-1. timers
-1. events
+* [ajv](https://www.npmjs.com/package/ajv) → v6.6.2
+* [atob](https://www.npmjs.com/package/atob) → v2.1.2
+* [btoa](https://www.npmjs.com/package/btoa) → v1.2.1
+* [chai](http://chaijs.com/) → v4.2.0
+* [cheerio](https://cheerio.js.org/) → v0.22.0
+* [crypto-js](https://www.npmjs.com/package/crypto-js) → v3.1.9-1
+* [csv-parse/lib/sync](http://csv.adaltas.com/parse) → v1.2.4
+* [lodash](https://lodash.com/) → v4.17.11 (when used with require, the inbuilt `_` object is for v3.10.1)
+* [moment](http://momentjs.com/docs/) → v2.22.2 (sans locales)
+* [postman-collection](http://www.postmanlabs.com/postman-collection/) → v3.4.0
+* [tv4](https://github.com/geraintluff/tv4) → v1.3.0
+* [uuid](https://www.npmjs.com/package/uuid) → (the module loaded is a shim for original module)
+* [xml2js](https://www.npmjs.com/package/xml2js) → v0.4.19
+
+A number of NodeJS modules are also available to use in the sandbox:
+
+* [path](https://nodejs.org/docs/latest-v11.x/api/path.html)
+* [assert](https://nodejs.org/docs/latest-v11.x/api/assert.html)
+* [buffer](https://nodejs.org/docs/latest-v11.x/api/buffer.html)
+* [util](https://nodejs.org/docs/latest-v11.x/api/util.html)
+* [url](https://nodejs.org/docs/latest-v11.x/api/url.html)
+* [punycode](https://nodejs.org/docs/latest-v11.x/api/punycode.html)
+* [querystring](https://nodejs.org/docs/latest-v11.x/api/querystring.html)
+* [string_decoder](https://nodejs.org/docs/latest-v11.x/api/string_decoder.html)
+* [stream](https://nodejs.org/docs/latest-v11.x/api/stream.html)
+* [timers](https://nodejs.org/docs/latest-v11.x/api/timers.html)
+* [events](https://nodejs.org/docs/latest-v11.x/api/events.html)
 
 In order to use a library, simply call the `require` function and pass the module name as a parameter and assign the return of the function to a variable.
 
-```
+```javascript
 var atob = require('atob'),
-    _ = require('lodash'), 
+    _ = require('lodash'),
   
     arrayOfStrings,
     base64Strings;
   
-arrayOfStrings =  = ['string1', 'string2'];
+arrayOfStrings = ['string1', 'string2'];
   
-base64Strings = _.map(arrayOfStrings, atob); 
+base64Strings = _.map(arrayOfStrings, atob);
   
 console.log(base64Strings);
 ```
@@ -67,17 +69,17 @@ The `pm` object encloses all information pertaining to the script being executed
 The `pm.info` object contains information pertaining to the script being executed. Useful information such as the request name, request Id, and iteration count are stored inside of this object.
 
 * `pm.info.eventName:String`
-   
+
    Contains information whether the script being executed is a "prerequest" or a "test" script.
-   
+
 * `pm.info.iteration:Number`
-   
+
    Is the value of the current iteration being run.
-   
+
 * `pm.info.iterationCount:Number`
 
    Is the total number of iterations that are scheduled to run.
-   
+
 * `pm.info.requestName:String`
 * `pm.info.requestId:String`
 
@@ -92,7 +94,7 @@ Some things to know about `pm.sendRequest()`:
 * The method accepts a collection SDK compliant request and a callback. The callback receives two arguments, an error (if any) and an SDK-compliant response. Refer to [Collection SDK Documentation](http://www.postmanlabs.com/postman-collection/Request.html#~definition) to view more information.
 * It can be used in the pre-request or the test script.
 
-```
+```javascript
 // example with a plain string URL
 pm.sendRequest('https://postman-echo.com/get', function (err, res) {
     if (err) {
@@ -101,7 +103,7 @@ pm.sendRequest('https://postman-echo.com/get', function (err, res) {
         pm.environment.set("variable_key", "new_value");
     }
 });
- 
+
 // Example with a full fledged SDK Request
 const echoPostRequest = {
   url: 'https://postman-echo.com/post',
@@ -115,7 +117,7 @@ const echoPostRequest = {
 pm.sendRequest(echoPostRequest, function (err, res) {
   console.log(err ? err : res.json());
 });
- 
+
 // example containing a test ** under the Tests tab only
 pm.sendRequest('https://postman-echo.com/get', function (err, res) {
   if (err) { console.log(err); }
@@ -126,13 +128,16 @@ pm.sendRequest('https://postman-echo.com/get', function (err, res) {
   });
 });
 ```
+
 Extended Reference:
+
 * [Request JSON](http://www.postmanlabs.com/postman-collection/Request.html#~definition)
 * [Response Structure](http://www.postmanlabs.com/postman-collection/Response.html)
 
 ### pm.globals
 
 **`pm.globals:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
+
 * `pm.globals.has(variableName:String):function → Boolean`
 * `pm.globals.get(variableName:String):function → *`
 * `pm.globals.set(variableName:String, variableValue:String):function`
@@ -143,6 +148,7 @@ Extended Reference:
 ### pm.environment
 
 **`pm.environment:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
+
 * `pm.environment.has(variableName:String):function → Boolean`
 * `pm.environment.get(variableName:String):function → *`
 * `pm.environment.set(variableName:String, variableValue:String):function`
@@ -167,10 +173,11 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 The `request` object inside `pm` is a representation of the request for which this script is being run. For a pre-request script, this is the request that is about to be sent and when in a test script, this is the representation of the request that was sent.
 
 `request` contains information stored in the following structure:
+
 * `pm.request.url:`[`Url`](http://www.postmanlabs.com/postman-collection/Url.html)
 * `pm.request.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html)
 
-### **The following items are available in TEST SCRIPTS only.**
+## **The following items are ONLY available in the test scripts.**
 
 ### pm.response
 
@@ -179,6 +186,7 @@ The `request` object inside `pm` is a representation of the request for which th
 Inside the test scripts, the `pm.response` object contains all information pertaining to the response that was received.
 
 The response details are stored in the following format:
+
 * `pm.response.code:Number`
 * `pm.response.reason():Function → String`
 * `pm.response.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html)
@@ -204,22 +212,24 @@ The `cookies` object contains a list of cookies that are associated with the dom
 * `pm.cookies.has(cookieName:String):Function → Boolean`
 
    Check whether a particular cookie (addressed by its name) exists for the requested domain.
-   
+
 * `pm.cookies.get(cookieName:String):Function → String`
 
    Get the value of a particular cookie.
-   
+
 * `pm.cookies.toObject:Function → Object`
 
    Get a copy of all cookies and their values in the form of an object. The cookies returned are the ones defined for the requested domain and path.
 
-* `pm.test(testName:String, specFunction:Function):Function`
+### pm.test
+
+**`pm.test(testName:String, specFunction:Function):Function`**
 
    You can use this function to write test specifications inside the sandbox. Writing tests inside this function allows you to name the test accurately and this function also ensures the rest of the script is not blocked even if there are errors inside the function.
 
    In the following sample test, we are checking that everything about a response is valid for us to proceed.
 
-    ```
+    ```javascript
     pm.test("response should be okay to process", function () {
         pm.response.to.not.be.error;
         pm.response.to.have.jsonBody('');
@@ -227,19 +237,21 @@ The `cookies` object contains a list of cookies that are associated with the dom
     });
     ```
 
-* `pm.expect(assertion:*):Function → Assertion`
+### pm.expect
+
+**`pm.expect(assertion:*):Function → Assertion`**
 
   `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
   
   This function is useful to deal with assertions of data from a response or variables.
-      
-  ```
+
+  ```javascript
     pm.test('environment to be production', function () {
         pm.expect(pm.environment.get('env')).to.equal('production');
     });
   ```
   
-### Response Assertion API in test scripts
+### Response Assertion API available in the test scripts
 
 * `pm.response.to.have.status(code:Number)`
 * `pm.response.to.have.status(reason:String)`
@@ -262,15 +274,15 @@ The properties inside the `pm.response.to.be` object allows you to easily assert
 * `pm.response.to.be.info`
   
   Checks 1XX status code
- 
+
 * `pm.response.to.be.success`
   
   Checks 2XX status code
- 
+
 * `pm.response.to.be.redirection`
 
   Checks 3XX status code
- 
+
 * `pm.response.to.be.clientError`
 
   Checks 4XX status code
@@ -302,7 +314,7 @@ The properties inside the `pm.response.to.be` object allows you to easily assert
 * `pm.response.to.be.forbidden`
 
   Status code 403
- 
+
 * `pm.response.to.be.notFound`
 
   Status code of response is checked to be 404
@@ -310,4 +322,3 @@ The properties inside the `pm.response.to.be` object allows you to easily assert
 * `pm.response.to.be.rateLimited`
 
   Checks whether response status code is 429
-   
