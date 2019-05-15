@@ -23,7 +23,7 @@ Before you start, download and [import](/docs/v6/postman/collections/data_format
 
 Let's assume that we have a collection with four requests. If you run this collection directly, the collection runner runs all four requests in order.
 
-[![setNextRequest in tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setNextRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setNextRequest.png)
+[![setNextRequest in tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg23.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg23.png)
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)
 
@@ -31,7 +31,7 @@ Let's now add `postman.setNextRequest()` to Request 1's test script, as shown. `
 
 In the example, we're setting the next request to Request 4 in the test script for Request 1. So the execution jumps to Request 4 after Request 1 has completed. If we run the same collection now, you'll see that only two requests are run now.
 
-[![setNextRequest with request name as parameter](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)
+[![setNextRequest with request name as parameter](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg24.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg24.png)
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793875.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793875.png)
 
@@ -53,7 +53,6 @@ Remember these two facts as you use this workflow:
   
   <br>
   <br>
-  
   For more information about collection runs, see:
    
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
