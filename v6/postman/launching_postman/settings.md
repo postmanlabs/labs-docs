@@ -22,6 +22,8 @@ Postman tries to minimize the number of settings you have to change, so we estab
    *   **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
    *   **Request Timeout in ms (0 for infinity):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
    *   **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+   * **Working Directory:** If you want Postman to persist your file paths, then you must save your files in Postman's default working directory. When you work with files in form-data request body and binary file body, save them in this directory to let Postman persist your file's path relative to the working directory. This means your files loaded from within the working directory run smoothly across devices if other users use the same files on their devices. Postman flags a warning for files that are not stored in this directory. To learn more about this feature, refer to the section [form-data](/docs/v6/postman/sending_api_requests/requests)
+   * **Allow reading files outside working directory:** Set this option to ON if you want Postman to read files from outside the Postman working directory. Postman also persists your file paths in form-data request and binary file bodies. To learn more about this feature, refer to the section [form-data](/docs/v6/postman/sending_api_requests/requests).
    *   **Editor Font Size:** Adjust the font size in pixels for the text that appears in Postman. Note that this setting impacts only the *Test Scripts, Pre-request Scripts, and Response Pretty View*
    *   **Two-pane view**: Toggle between showing the response below, or beside, the request.
    *   **Variable autocomplete:** Enable this to turn on autocomplete feature for your variables.
@@ -31,7 +33,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
    *   **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected. 
    *   **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
 
-[![general settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Updated_Nov20.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Updated_Nov20.png.png)
+[![general settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings-Apr2019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Apr2019.png)
 =======
 
 ### Themes

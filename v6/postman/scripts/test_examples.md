@@ -7,7 +7,7 @@ warning: false
 
 Test scripts are run after a request is sent and a response has been received from the server.
 
-Let’s look at some examples of Postman tests. Most of these are available as snippets inside Postman. You can have as many tests as you want for a request.
+Let’s look at some examples of Postman tests. Most of these are available as snippets inside Postman. You can run as many tests as you want for a request.
 
 **Setting an environment variable**
 ```js
@@ -137,6 +137,25 @@ pm.test('Schema is valid', function() {
 });
 ```
 
+**JSON Schema Validator**
+```js
+var Ajv = require('ajv'),
+    ajv = new Ajv({logger: console}),
+    schema = {
+        "properties": {
+            "alpha": {
+                "type": "boolean"
+            }
+        }
+    };
+
+pm.test('Schema is valid', function() {
+    pm.expect(ajv.validate(schema, {alpha: true})).to.be.true;
+    pm.expect(ajv.validate(schema, {alpha: 123})).to.be.false;
+});
+```
+
+
 **Decode base64 encoded data**
 ```js
 var intermediate,
@@ -178,7 +197,7 @@ For CSV files, the top row needs to contain variable names.
 
 The older style of writing Postman tests relies on setting values for the special `tests` object. You can set a descriptive key for an element in the object and then say if it's true or false. For example, `tests["Body contains user_id"] = responsebody.has("user_id");` will check whether the response body contains the `user_id` string.
 
-You can add as many keys as needed, depending on how many things you want to test for. Under the **Tests** tab under the response viewer, you can view your test results. The tab header shows how many tests passed, and the keys that you set in the tests variable are listed here. If the value evaluates to true, the test passed.
+You can add as many keys as needed, depending on how many things you want to test for. You can view your test results in the response viewer under the **Tests** tab. The tab header shows how many tests passed, and the keys that you set in the tests variable are listed here. If the value evaluates to true, the test passed.
 
 **Setting an environment variable**
 ```js

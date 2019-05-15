@@ -160,6 +160,11 @@
             "external": false
           },
           {
+            "title": "Commenting on collections",
+            "href": "/docs/v6/postman/collections/commenting_on_collections",
+            "external": false
+          },
+          {
             "title": "Using Markdown for descriptions",
             "href": "/docs/v6/postman/collections/using_markdown_for_descriptions",
             "external": false
@@ -167,6 +172,11 @@
           {
             "title": "Examples",
             "href": "/docs/v6/postman/collections/examples",
+            "external": false
+          },
+          {
+            "title": "Version Control for Collections",
+            "href": "/docs/v6/postman/collections/version_control_for_collections",
             "external": false
           },
           {
@@ -441,6 +451,37 @@
         ]
       },
       {
+        "title": "Working with APIs",
+        "url_prefix": "working_with_apis",
+        "children": [
+          {
+            "title": "Introduction to apis",
+            "href": "/docs/v6/postman/working_with_apis/introduction_to_apis",
+            "external": false
+          },
+	        {
+            "title": "Managing APIs",
+            "href": "/docs/v6/postman/working_with_apis/managing_apis",
+            "external": false
+          },
+          {
+            "title": "The API Workflow",
+            "href": "/docs/v6/postman/working_with_apis/managing_api_workflow",
+            "external": false
+          },
+          {
+            "title": "Sharing APIs",
+            "href": "/docs/v6/postman/working_with_apis/sharing_apis",
+            "external": false
+          },
+          {
+            "title": "Versioning APIs",
+            "href": "/docs/v6/postman/working_with_apis/versioning_an_api",
+            "external": false
+          }
+        ]
+      },
+      {
         "title": "Postman API",
         "url_prefix": "postman_api",
         "children": [
@@ -466,6 +507,18 @@
         "title": "Find and Replace",
         "url_prefix": "find_replace",
         "href":"/docs/v6/postman/find_replace",
+        "external": false
+      },
+      {
+        "title": "Migrating to Postman v7",
+        "url_prefix": "migrating_to_postman_v7",
+        "href":"/docs/v6/postman/migrating_to_postman_v7",
+        "external": false
+      },
+      {
+        "title": "Roles and permissions",
+        "url_prefix": "roles_and_permissions",
+        "href":"/docs/v6/postman/roles_and_permissions",
         "external": false
       },
       {
