@@ -1,5 +1,5 @@
 ---
-title: "Sharing apis and managing roles"
+title: "Sharing APIs and managing roles"
 page_id: "sharing_apis"
 warning: false
 ---
