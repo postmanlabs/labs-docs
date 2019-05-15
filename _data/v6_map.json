@@ -261,6 +261,11 @@
             "title": "Manage globals",
             "href": "/docs/v6/postman/environments_and_globals/manage_globals",
             "external": false
+          },
+          {
+            "title": "Variables complete reference",
+            "href": "/docs/v6/postman/environments_and_globals/variables_complete_reference",
+            "external": false
           }
         ]
       },
