@@ -6,7 +6,7 @@ warning: false
 ---
 
 
-The Postman Sandbox is a JavaScript execution environment that is available to you while writing pre-request scripts and test scripts for requests (both in Postman and Newman). Whatever code you write in the pre-request/test script section is executed in this sandbox.
+The Postman Sandbox is a JavaScript execution environment that is available to you when writing pre-request scripts and test scripts for requests (both in Postman and Newman). The code you write in the pre-request/test script section is executed in this sandbox.
 
 ### Commonly used libraries and utilities
 
@@ -19,7 +19,7 @@ The Postman Sandbox is a JavaScript execution environment that is available to y
 *   [CryptoJS](https://code.google.com/p/crypto-js/): standard and secure cryptographic algorithms. Supported algorithms: AES, DES, EvpKDF, HMAC-MD5, HMAC-SHA1/3/256/512, MD5, PBKDF2, Rabbit, SHA1/3/224/256/512, TripleDES
 *   `xml2Json(xmlString)`: This function behaves the same in Newman and Postman
 *   `xmlToJson(xmlString)` **Deprecated**: This function does NOT behave the same in Newman and Postman
-*   `postman.getResponseHeader(headerName)` Test-only: returns the response header with name “headerName”, if it exists. Returns null if no such header exists. **Note**: According to W3C specifications, header names are case-insensitive. This method takes care of this. `postman.getResponseHeader("Content-type")` and `postman.getResponseHeader("content-Type")` will return the same value.
+*   `postman.getResponseHeader(headerName)` Test-only: Returns the response header with name “headerName”, if it exists. Returns null if no such header exists. **Note**: According to W3C specifications, header names are case-insensitive. This method takes care of this. `postman.getResponseHeader("Content-type")` and `postman.getResponseHeader("content-Type")` will return the same value.
 
 Note: jQuery support has been discontinued since version 4.6.0, in favor of [cheerio](https://cheerio.js.org/).
 
@@ -66,7 +66,7 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 *   `tests {object}` **Test-only**: This object is for you to populate. Postman will treat each property of this object as a boolean test.
 *   `iteration {number}`: Only available in the Collection Runner and Newman. Represents the current test run index. Starts from 0.
 
-**Test-only**: This object is only available in the test script section. Using this in a pre-request script will throw an error.
+**Test-only**: This object is only available in the test script section. Using this in a pre-request script throws an error.
 
 ### Data files
 
