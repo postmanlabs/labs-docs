@@ -66,7 +66,7 @@ If you do not have a credit card on file, click the “Payment Methods” link i
 
 ### Setting instructions for the next billing cycle
 
-Click the ellipses (...) next to the **Add User Slots** button, and then select “Set instructions for the next billing cycle”.
+Click the ellipsis (...) next to the **Add User Slots** button, and then select “Set instructions for the next billing cycle”.
 
 To change the cycle, click Edit Standing Instructions to view the following screen: 
 
@@ -90,7 +90,7 @@ After you make your selection, save your changes.
 
 ### Canceling your plan
 
-Click the ellipses (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
+Click the ellipsis (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
 
 [![cancel survey](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-cancelSetInstruction-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-cancelSetInstruction-annual.png)
 

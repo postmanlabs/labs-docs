@@ -14,7 +14,7 @@ Before we start, download the [collection. json](https://s3.amazonaws.com/postma
 
 The iterations of a collection run reflect how many times the collection will run. Here we have a collection run with five iterations.
 
-[![collection runner](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039044.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039044.png)
+[![collection runner](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg22.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg22.png)
 [![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039058.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039058.png)
 
 ### Switching between iterations

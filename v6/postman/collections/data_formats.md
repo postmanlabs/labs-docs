@@ -52,6 +52,7 @@ Postman data can be imported from the **Data** tab of the **SETTINGS** modal
 Most valid cURL (HTTP-only) commands can be imported into Postman. Postman's importer supports the following cURL options:
 
 | **Option**    | **Description**  |
+|---|---|
 | -A, --user-agent <string> | An optional user-agent string |
 | -d, --data <string>   | Sends the specified data to the server with type application/x-www-form-urlencoded |
 | --data-ascii <string>   | Sends the specified data to the server with type application/x-www-form-urlencoded |
@@ -66,6 +67,7 @@ Most valid cURL (HTTP-only) commands can be imported into Postman. Postman's imp
 A few commands which can be imported include:
 
 | **cURL**     | **Effect**  |
+|---|---|
 | curl http://postman-echo.com/get | Creates a GET request in Postman with the URL prefilled |
 | curl --request POST --url http://postman-echo.com/post --form color=red --form color=green | Creates a POST request with a multivalue form data row |
 | curl -X PUT --data-binary hello http://postman-echo.com/put | Creates a POST request with raw data |
@@ -154,7 +156,7 @@ Postman lets you import WADL specs too. While all aspects are not supported yet,
 To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/).
 
 * [Schema file](http://schema.getpostman.com/json/collection/v1.0.0/collection.json)
-* [Associated documentation](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html) 
+* [Associated documentation](https://schema.getpostman.com/) 
 * [Postman schemas in GitHub](https://github.com/postmanlabs/schemas) 
 * [Example of data validation using our schema](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/) and a [validator](https://github.com/mafintosh/is-my-json-valid)
 

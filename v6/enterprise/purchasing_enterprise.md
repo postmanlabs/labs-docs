@@ -12,7 +12,7 @@ The instructions below are for paying via credit card. If you need to pay via pu
 
 To upgrade your plan to a Postman Enterprise subscription, you will need a [Postman account](/docs/v6/postman/launching_postman/postman_account). 
 
-Log in to your Postman account, and go to the [billing page](https://go.postman.co/billing/overview). Next to your current plan, click the **Upgrade** button. For existing Postman Pro users, click the ellipses *(...)* next to the **Upgrade** button and select the "Change plan" option. 
+Log in to your Postman account, and go to the [billing page](https://go.postman.co/billing/overview). Next to your current plan, click the **Upgrade** button. For existing Postman Pro users, click the ellipsis *(...)* next to the **Upgrade** button and select the "Change plan" option. 
 
 [![Billing page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-upgrade.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/enterprise-upgrade.png)
 

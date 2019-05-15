@@ -15,13 +15,13 @@ You can use the **New** button to initiate:
 * [Documentation](#documentation)
 * [Mock_servers](#mock_servers)
 
-The **New** button also provides access to [templates](#templates) and the [API_network](#API_network).
+The **New** button also provides access to [templates](#templates) and the [API_network](#API-network).
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
 
 When you click the **New** button, the **Create New** tab appears as the default view. 
 
-In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [Templates and API Network sections](/docs/v6/postman/launching_postman/newbutton#templates).
+In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [Templates and API Network sections](/docs/postman/launching_postman/newbutton#templates).
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)
 
@@ -148,9 +148,9 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 Under the **Templates** tab, there are a variety of collection templates available to help you check links, track GitHub issues, verify non-MFA access to AWS accounts, monitor the status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, monitor AWS ElasticBeanstalk environments, and more. 
 
-You can view all the templates, or select to view them in the "Developer" or "DevOps" category.
+You can view all the templates, or select to view them in the corresponding category, as illustrated in the screen below:
 
-[![templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-templates-tab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-templates-tab-1.png)
+[![templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Templates-tab-New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Templates-tab-New.png)
 
 To import a template:
 

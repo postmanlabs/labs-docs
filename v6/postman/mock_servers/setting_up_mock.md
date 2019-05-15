@@ -13,7 +13,6 @@ Before sending an actual request, front-end developers can create a mock server 
 * [Using free mock server calls with your Postman account](#using-free-mock-server-calls)
 
 
-
 ### Setting up a mock server 
 
 You can create a mock in several ways:
@@ -49,12 +48,13 @@ After you select or create the request you want to mock, click the **Next** butt
 In the Configure mock server tab, you must:
   
 * Enter the name of the mock
+* Specify a version tag 
 * Select an environment (optional).
 * Indicate if you want to make this mock server private
 
 **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
      
- [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-p2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-p2.png) 
+ [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Mock-Collection-Version1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Mock-Collection-Version1.png) 
      
 Click the **Create** button.
 
