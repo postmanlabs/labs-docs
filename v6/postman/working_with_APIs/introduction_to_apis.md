@@ -1,13 +1,8 @@
 ---
-title: "Introduction to apis"
+title: "Introduction to APIs"
 page_id: "introduction_to_apis"
 warning: false
 ---
-
-This chapter describes the following topics:
-
-* [Overview](#overview)
-* [Sample use case](#sample-use-case)
 
 ### Overview
 
