@@ -8,7 +8,7 @@ You can easily share your APIs with other members of your team on Postman - both
 
 Let's say you created an API, added a collection as documentation and added another collection as a test suite. Now, you want to share this API to a workspace T1. When you share this API to workspace T1, the members of this workspace get access to only the shared elements attached to the API but not all the elements of the API. When you delete or remove the API from the workspace T1, the shared elements attached to the API can still be viewed by the members of workspace T1. You must remove them explicitly in order to remove access. 
 
-when you share the API with your team, they have access to see the listing of the elements attached to the API but not the elements itself unless they are also shared with the team
+When you share the API with your team, they have access to see the listing of the elements attached to the API but not the elements itself unless they are also shared with the team.
 
 This topic covers:
 
