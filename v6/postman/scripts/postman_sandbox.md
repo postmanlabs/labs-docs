@@ -14,7 +14,7 @@ The Postman Sandbox is a JavaScript execution environment that is available to y
 *   [cheerio](https://cheerio.js.org/): A fast, lean implementation of the core jQuery API (available in versions 4.6.0 and up)
 *   [BackboneJS](http://backbonejs.org/) **Deprecated**: Provides simple models, views, and collections. This will be removed in future versions of the sandbox.
 *   [SugarJS](http://sugarjs.com/) **Deprecated**: Extends native JS objects with useful methods. This will be removed in future versions of the sandbox.
-*   [tv4 JSON schema validator](https://github.com/geraintluff/tv4)**Deprecated**: Validates JSON objects against v4 of the json-schema draft
+*   [tv4 JSON schema validator](https://github.com/geraintluff/tv4) **Deprecated**: Validates JSON objects against v4 of the json-schema draft
 *   [Ajv](https://github.com/epoberezkin/ajv): JSON schema validator.
 *   [CryptoJS](https://code.google.com/p/crypto-js/): standard and secure cryptographic algorithms. Supported algorithms: AES, DES, EvpKDF, HMAC-MD5, HMAC-SHA1/3/256/512, MD5, PBKDF2, Rabbit, SHA1/3/224/256/512, TripleDES
 *   `xml2Json(xmlString)`: This function behaves the same in Newman and Postman
@@ -41,7 +41,7 @@ Note: jQuery support has been discontinued since version 4.6.0, in favor of [ch
 Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
 *   `{{$guid}}`: Adds a v4 style guid
-*   `{{$timestamp}}`: Adds the current timestamp.
+*   `{{$timestamp}}`: Adds the current timestamp
 *   `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 ### Cookies

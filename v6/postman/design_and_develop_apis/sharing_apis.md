@@ -34,3 +34,10 @@ In the above screen, you can manage the roles and permissions of that specific m
 In the [workspaces dashboard](https://app.getpostman.com/dashboard), click the **Share** button next to the API. The **Share API** button is shown in the below screen as indicated by the red arrow. The procedure, after clicking **Share API** is the same as the process within app. Refer to the section above **Sharing APIs in the app** for further information. 
 
 [![api share dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share2.png)
+
+For more information on APIs, see:
+
+- [Managing APIs](/docs/v6/postman/design_and_develop_apis/managing_apis)
+- [Managing API workflow](/docs/v6/postman/design_and_develop_apis/the_api_workflow)
+- [Versioning an API](/docs/v6/postman/design_and_develop_apis/versioning_an_api)
+- [Introduction to APIs](/docs/v6/postman/design_and_develop_apis/introduction_to_apis)

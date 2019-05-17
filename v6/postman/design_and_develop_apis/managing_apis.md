@@ -90,7 +90,7 @@ You can comment on your APIs the same way as you do on your collections. For mor
 
 For more information on APIs, see:
 
-* [Sharing an API](/docs/v6/postman/working_with_apis/sharing_apis)
-* [Managing API workflow](/docs/v6/postman/working_with_apis/managing-api-workflow)
-* [Versioning an API](/docs/v6/postman/working_with_apis/versioning-an-api)
-* [Introduction to APIs](/docs/v6/postman/working_with_apis/introduction-to-apis)
+- [Sharing an API](/docs/v6/postman/design_and_develop_apis/sharing_apis)
+- [Managing API workflow](/docs/v6/postman/design_and_develop_apis/the_api_workflow)
+- [Versioning an API](/docs/v6/postman/design_and_develop_apis/versioning_an_api)
+- [Introduction to APIs](/docs/v6/postman/design_and_develop_apis/introduction_to_apis)
