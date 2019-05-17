@@ -1,44 +1,32 @@
----
-title: 'Introduction to APIs'
-page_id: 'introduction_to_apis'
-warning: false
----
-
 ### Overview
 
-With the introduction of API modules in Postman, your cross-functional API development process becomes better and faster. You will now be able to define and manage different versions of your APIs, collection revisions, and other components linked to APIs like monitors, mocks and etc. You will be able to coordinate API changes easily with the help of versioning and linking.
+Postman now enables API design directly within Postman, making API creation better and faster. Postman's brand new API feature includes the API tab and API elements, extended schema support, and versioning and version tagging. You will now be able to define and manage different versions of your APIs, collection revisions, and other API elements linked to APIs like Postman Collections, monitors, mocks and etc. You will be able to coordinate API changes easily with the help of API versioning and tagging. 
 
-Essentially, with APIs in Postman, your schema is now treated as the source of truth which defines all possible variations of the API. Collections can now be used as individual recipes which use endpoints made available by the API, tailored to specific use cases. As Postman allows you to map your real-world APIs in the API tab, you will be able to define, develop, test, and observe them - all in one place.
+With the API feature in Postman, your schema is now treated as the source of truth which defines every variation of the API. Collections can now be used as individual recipes which use endpoints made available by the API, tailored to specific use cases. When you map your real-world APIs into the new API tab, you will be able to define, develop, test, and observe them directly within Postman. 
 
-Let's say you are a test engineer who is interested only in the test suites connected to an API but you are working with a technical writer and a developer. The writer is interested in documentation published under an API while the developer is working on mocks and monitors attached to the API. Three of you can now work on the same API definition instead of working on the same collection. Even as the definition of your API becomes dynamic, the API itself is your collaboration point while individual collections under it become different use cases for the API in contention.
+For example, a test engineer working on test suites connected to an API might be collaborating with a technical writer and a developer. The writer would be focused on API documentation, while the developer is working on mocks and monitors attached to the API. Now, all three - test engineer, tech writer, and developer - can on the same API definition in Postman, rather than having to work within the same Postman collection. The API itself is the collaboration point, and collections tagged to the API can represent different use cases for the API.
 
-With APIs in Postman, you can perform the following tasks:
+* Create and manage APIs in your workspace, keep them consistent and backward-compatible 
 
-- Create and manage APIs in your workspace, keep them consistent and backward-compatible
+* Link collections (and their revisions) to specific versions of APIs with version tagging
 
-- Link collections (and their revisions) to specific versions of APIs.
+* Create, edit, and import schemas 
 
-- Represent other attributes like schemas and metrics.
+* Create and manage multiple API versions
 
-- Create/import schemas and make changes
+* Manage roles and permissions on APIs
 
-- Create and manage versions of APIs
+* Generate collections from common API schema formats
 
-- Manage roles and permissions on APIs
+* Share APIs with your teams and members
 
-- Generate collections from the API schema
+* Streamline the entire API workflow around the API itself
 
-- Share APIs with your teams and members
-
-- Streamline the entire API workflow
-
-- Iterate on your API enhancements in a much more dynamic, secure and confident way
-
-- View and analyze reports
+* Iterate on your API enhancements in a much more dynamic, secure, and organized way
 
 For more information on APIs, see:
 
-- [Managing APIs](/docs/v6/postman/design_and_develop_apis/managing_apis)
-- [Sharing an API](/docs/v6/postman/design_and_develop_apis/sharing_apis)
-- [Managing API workflow](/docs/v6/postman/design_and_develop_apis/the_api_workflow)
-- [Versioning an API](/docs/v6/postman/design_and_develop_apis/versioning_an_api)
+* [Managing APIs](/docs/v6/postman/working_with_apis/managing-apis)
+* [Sharing an API](/docs/v6/postman/working_with_apis/sharing_apis)
+* [Managing API workflow](/docs/v6/postman/working_with_apis/managing-api-workflow)
+* [Versioning an API](/docs/v6/postman/working_with_apis/introduction-to-apis)
