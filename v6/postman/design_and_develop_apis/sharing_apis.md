@@ -4,11 +4,11 @@ page_id: "sharing_apis"
 warning: false
 ---
 
-You can easily share your APIs with other members of your team on Postman - both in the app and in the [web dashboard](https://app.getpostman.com/dashboard). In Postman you share your collections or APIs to workspaces. To share an API with your team, you need to share the API to a shared workspace or share the workspace itself with the team. And then you assign individual permissions to your team members by designating view (Viewer) or edit (Editor) permissions to them.
+You can easily share your APIs with other members of your team on Postman - both in the app and in the [web dashboard](https://app.getpostman.com/dashboard). In Postman you share your collections or APIs to workspaces. To share an API with your team, you need to share the API to a shared workspace or share the workspace itself with the team and assign individual permissions to your team members by designating view (Viewer) or edit (Editor) permissions to them.
 
 Let's say you created an API, added a collection as documentation and added another collection as a test suite. Now, you want to share this API to a workspace T1. When you share this API to workspace T1, the members of this workspace get access to only the shared elements attached to the API but not all the elements of the API. When you delete or remove the API from the workspace T1, the shared elements attached to the API can still be viewed by the members of workspace T1. You must remove them explicitly in order to remove access. 
 
-When you share the API with your team, they have access to see the listing of the elements attached to the API but not the elements itself unless they are also shared with the team.
+When you share the API with your team, team members can see the listing of the API's elements, like how many monitors or mocks are linked to the API, but they cannot access an element itself unless it is also shared with the team. 
 
 This topic covers:
 
@@ -19,7 +19,7 @@ This topic covers:
 
 **In the sidebar**
 
-In the Postman app, select an API in the sidebar and click ellipsis (...). Select **Share API**. The **Share API** screen appears, as illustrated below:  
+In the Postman app, select an API in the sidebar and click the ellipsis (...). Select **Share API**. The **Share API** screen appears, as illustrated below:  
 
 [![api share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)
 
@@ -31,6 +31,6 @@ In the above screen, you can manage the roles and permissions of that specific m
 
 ### Sharing APIs in the web dashboard
 
-In the [workspaces dashboard](https://app.getpostman.com/dashboard), click the corresponding **Share** button of the API. The **Share API** button is shown in the below screen. The procedure, after clicking **Share API** button is similar as in app. Refer to the section above **Sharing APIs in the app** for further information. 
+In the [workspaces dashboard](https://app.getpostman.com/dashboard), click the **Share** button next to the API. The **Share API** button is shown in the below screen as indicated by the red arrow. The procedure, after clicking **Share API** is the same as the process within app. Refer to the section above **Sharing APIs in the app** for further information. 
 
 [![api share dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share2.png)
