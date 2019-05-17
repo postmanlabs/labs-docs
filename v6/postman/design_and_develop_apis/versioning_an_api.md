@@ -41,7 +41,7 @@ Click **Create another version** to go to the following screen:
 
 Specify a name for the new version of your API. In the **Carry over elements from a previous version** list, select a version if you want to carry over the elements. Else, select **Don't carry over any elements** to create a new API version from scratch.
 
-If you choose to **Carry over elements from a previous version**, then select the elements you'd like to carry over. Click **Create Version**. Postman creates a new version of your API and takes you to the [API workflow](<(/docs/v6/postman/design_and_develop_apis/managing-api-workflow)>) screen where you can _define, develop, test, and observe_ your new API version.
+If you choose to **Carry over elements from a previous version**, then select the elements you'd like to carry over. Click **Create Version**. Postman creates a new version of your API and takes you to the [API workflow](/docs/v6/postman/design_and_develop_apis/the_api_workflow) screen where you can _define, develop, test, and observe_ your new API version.
 
 ### Renaming API version tags
 
@@ -122,6 +122,6 @@ For more information on this, refer to [Publishing version-specific documentaion
 For more information on APIs, see:
 
 - [Sharing an API](/docs/v6/postman/design_and_develop_apis/sharing_apis)
-- [Managing API workflow](/docs/v6/postman/design_and_develop_apis/managing-api-workflow)
-- [Managing APIs](/docs/v6/postman/design_and_develop_apis/managing-apis)
-- [Introduction to APIs](/docs/v6/postman/design_and_develop_apis/introduction-to-apis)
+- [Managing API workflow](/docs/v6/postman/design_and_develop_apis/the_api_workflow)
+- [Managing APIs](/docs/v6/postman/design_and_develop_apis/managing_apis)
+- [Introduction to APIs](/docs/v6/postman/design_and_develop_apis/introduction_to_apis)
