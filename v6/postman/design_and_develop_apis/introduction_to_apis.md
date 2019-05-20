@@ -12,7 +12,7 @@ With the API feature in Postman, your schema is now treated as the source of tru
 
 For example, a test engineer working on test suites connected to an API might be collaborating with a technical writer and a developer. The writer would be focused on API documentation, while the developer is working on mocks and monitors attached to the API. Now, all three - test engineer, tech writer, and developer - can on the same API definition in Postman, rather than having to work within the same Postman collection. The API itself is the collaboration point, and collections tagged to the API can represent different use cases for the API.
 
-* Create and manage APIs in your workspace, keep them consistent and backward-compatible 
+* Design and develop APIs in your workspace, keep them consistent and backward-compatible 
 
 * Link collections (and their revisions) to specific versions of APIs with version tagging
 
