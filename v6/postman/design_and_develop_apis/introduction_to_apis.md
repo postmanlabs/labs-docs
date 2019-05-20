@@ -16,9 +16,9 @@ With APIs in Postman, you can perform the following tasks:
 
 - Create and manage APIs in your workspace, keep them consistent and backward-compatible
 
-- Link collections (and their revisions) to specific versions of APIs.
+- Link collections (and their revisions) to specific versions of APIs
 
-- Represent other attributes like schemas and metrics.
+- Represent other attributes like schemas and metrics
 
 - Create/import schemas and make changes
 
