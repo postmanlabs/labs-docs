@@ -121,7 +121,7 @@ Click the "eye" icon in the top right to toggle the display, or type the keyboar
 
 Postman variables are very powerful, and two features - autocomplete and tool tips - make them even more convenient.
 
-##### **Autocomplete for variables**
+#### Autocomplete for variables
 
 [![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)
 
@@ -129,13 +129,12 @@ Type an open curly bracket to bring up the autocomplete menu. For the pre-reques
 
 The following screen displays selection of Token1 with its initial and current values and scope:
 
-##### **Variable highlighting and tooltip on hover**
+#### Variable highlighting and tooltip on hover
 
 [![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)
 
-
 Variables are highlighted in orange, with unresolved variables shown in red. Hovering over a variable shows its initial and current value and the scope. If a variable is unresolved - i.e., no value in the current environment - the tooltip shows appropriate feedback.
-=======
+
 **Note:** You can also read [Session FAQs](https://blog.getpostman.com/2018/08/09/sessions-faq/)
 
 
