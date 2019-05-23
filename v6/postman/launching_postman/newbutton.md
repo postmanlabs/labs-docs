@@ -15,13 +15,13 @@ You can use the **New** button to initiate:
 * [Documentation](#documentation)
 * [Mock_servers](#mock_servers)
 
-The **New** button also provides access to [templates](#templates) and the [API_network](#API-network).
+The **New** button also provides access to [templates](#templates) and the [API network](#API-network).
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
 
 When you click the **New** button, the **Create New** tab appears as the default view. 
 
-In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [Templates and API Network sections](/docs/postman/launching_postman/newbutton#templates).
+In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [templates](#templates) and [API Network](#API-network) sections.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)
 
