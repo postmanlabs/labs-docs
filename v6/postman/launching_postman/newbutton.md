@@ -15,7 +15,7 @@ You can use the **New** button to initiate:
 * [Documentation](#documentation)
 * [Mock_servers](#mock_servers)
 
-The **New** button also provides access to [templates](#templates) and the [API Network](#APInetwork).
+The **New** button also provides access to [templates](#templates) and the [API Network](#API-network).
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
 
@@ -162,7 +162,7 @@ To import a template:
 1. Click the **Create** button. The **Success!** screen displays what Postman created for you and suggests next steps to consider to get the most out of the template.
 1. Click the **Okay** button to exit the screen.
 
-### APINetwork
+### API Network
 
 The [Postman API Network](https://www.getpostman.com/api-network/) provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
