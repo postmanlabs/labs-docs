@@ -178,4 +178,4 @@ Once the collection is imported into Postman, you can see the collection in the 
 
 [![imported collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-nice-pay.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-nice-pay.png)
 
-If you're an API publisher, you can share your API documentation with your users and the rest of the Postman community by [publishing your documentation to the Postman API Network](/docs/postman/v6/api_documentation/publishing_public_docs/#add-to-api-network).
+If you're an API publisher, you can share your API documentation with your users and the rest of the Postman community by [Publishing your documentation to the Postman API Network](/docs/postman/v6/api_documentation/publishing_public_docs/).
