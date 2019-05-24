@@ -15,13 +15,13 @@ You can use the **New** button to initiate:
 * [Documentation](#documentation)
 * [Mock_servers](#mock_servers)
 
-The **New** button also provides access to [templates](#templates) and the [API_network](#API-network).
+The **New** button also provides access to [templates](#templates) and the [API Network](#API-network).
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
 
 When you click the **New** button, the **Create New** tab appears as the default view. 
 
-In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [Templates and API Network sections](/docs/postman/launching_postman/newbutton#templates).
+In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [templates](#templates) and [API Network](#API-network) sections.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)
 
@@ -178,4 +178,4 @@ Once the collection is imported into Postman, you can see the collection in the 
 
 [![imported collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-nice-pay.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-nice-pay.png)
 
-If you're an API publisher, you can share your API documentation with your users and the rest of the Postman community by [publishing your documentation to the Postman API Network]().
+If you're an API publisher, you can share your API documentation with your users and the rest of the Postman community by [Publishing your documentation to the Postman API Network](/docs/v6/postman/api_documentation/publishing_public_docs). 
