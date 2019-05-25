@@ -1,17 +1,17 @@
 ---
-title: 'New button'
-page_id: 'newbutton'
+title: "New button"
+page_id: "newbutton"
 warning: false
 ---
 
 You can use the **New** button to initiate:
 
-- [Requests](#create-a-request)
-- [Collections](#create-a-collection)
-- [Environments](#create-an-environment)
-- [Monitors](#create-a-monitor)
-- [Documentation](#create-documentation)
-- [Mock_servers](#create-a-mock-server)
+* [Requests](#create-a-request)
+* [Collections](#create-a-collection)
+* [Environments](#create-an-environment)
+* [Monitors](#create-a-monitor)
+* [Documentation](#create-documentation)
+* [Mock_servers](#create-a-mock-server)
 
 The **New** button also provides access to [templates](#templates) and the [API Network](#api-network).
 
@@ -57,11 +57,11 @@ Under **BUILDING BLOCKS**, you can create a [collection](/docs/postman/collectio
 1. In the **Create New** tab, click "Collection".
 1. In the **CREATE A NEW COLLECTION** modal:
 
-- Enter a name and optional description.
-- Select an authorization type (if any).
-- Enter a pre-request script (optional) to execute prior to every request within the collection.
-- Add a test (optional) to execute after every request within the collection.
-- Add collection-level variables (optional) that can be used throughout the collection in the scripts or other request builder sections.
+* Enter a name and optional description.
+* Select an authorization type (if any).
+* Enter a pre-request script (optional) to execute prior to every request within the collection.
+* Add a test (optional) to execute after every request within the collection.
+* Add collection-level variables (optional) that can be used throughout the collection in the scripts or other request builder sections.
 
 1. Click the **Create** button.
 
@@ -96,10 +96,10 @@ Under **ADVANCED**, you can create a [monitor](/docs/postman/monitors/intro_moni
    [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-select-requests2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-select-requests2.png)
 1. After you select or create the request you want to monitor, click the **Next** button. In the **Configuration** tab, you must:
 
-- Enter the name of the monitor
-- Select an environment (optional).
-- Set how frequently the monitor should run.
-- Select one or more regions of the world from where you want to monitor your results.
+* Enter the name of the monitor
+* Select an environment (optional).
+* Set how frequently the monitor should run.
+* Select one or more regions of the world from where you want to monitor your results.
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-configure-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-configure-1.png)
 
 1. Click the **Create** button.
@@ -118,8 +118,8 @@ Under **ADVANCED**, you can create [public or private documentation](/docs/postm
    [![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configure-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configure-1.png)
 1. After you select or create the request you want to document, click the **Next** button. In the **Configure documentation** tab, you must:
 
-- Enter the name of the documentation.
-- Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
+* Enter the name of the documentation.
+* Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
   [![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configureTab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configureTab-1.png)
 
 1. Click the **Create** button.
@@ -138,9 +138,9 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endp
    [![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-config-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-config-1.png)
 1. After you select or create the request you want to mock, click the **Next** button. In the **Configure mock server** tab, you must:
 
-- Enter the name of the mock
-- Select an environment (optional).
-- Indicate if you want to make this mock server private
+* Enter the name of the mock
+* Select an environment (optional).
+* Indicate if you want to make this mock server private
   **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
   [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-1.png)
 
