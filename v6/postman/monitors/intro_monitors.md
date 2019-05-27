@@ -64,7 +64,9 @@ Monitoring resources across multiple regions provides useful information about t
 
 Postman supports monitoring in 6 geographic regions around the world. If you’re interested in a region that’s not listed in the Postman interface, contact us at [help@getpostman.com](mailto:help@getpostman.com) or through the chat box on the [monitors page](https://monitor.getpostman.com).
 
+
 For Postman Enterprise users, there is an additional option available to establish dedicated IP addresses for whitelisting and source logging to address security requirements for their team. For example, by setting up a static IP address for API monitoring, you can whitelist the dedicated IPs with your incoming servers to ensure they will accept requests from those IP addresses. Postman Enterprise users interested in [setting up static IPs](/docs/v6/enterprise/using_static_IPs_to_monitor) for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
+
 
 ### Pricing for monitoring
 

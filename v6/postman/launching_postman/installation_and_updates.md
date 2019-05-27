@@ -10,15 +10,15 @@ warning: false
 
 Postman is available as a native app for macOS, Windows, and Linux operating systems.
 
-To install Postman, go to the [apps page](https://www.getpostman.com/apps) and click **Download** for macOS / Windows / Linux depending on your platform.
+To install Postman, go to the [download page](https://www.getpostman.com/downloads/) and click **Download** for macOS / Windows / Linux depending on your platform.
 
-![Postman apps page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161734.png "Postman apps page")
+![Postman download page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_Screen1.png "Postman download page")
 
 ##### **macOS installation**
 
 Once you’ve downloaded and unzipped the app, double click on Postman. You will be prompted to move file into the "Applications" folder. Click "Move to Applications Folder" to ensure future updates can be installed correctly. The app will open after the prompt.
    
-![Move to Applications Folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/move+to+app+folder.png "Move to Applications Folder")
+![Move to Applications Folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_MoveFolder.png "Move to Applications Folder")
 
 ##### **Windows installation**
 
@@ -126,7 +126,7 @@ The latest version of the native app also has a built-in [console](/docs/v6/pos
 
 ### **Migrating to the native app**
 
-It’s simple.  Sign in to your Postman account after you [download](https://www.getpostman.com/apps) and start the new native app, and all your history and collections will be automatically synced.
+It’s simple.  Sign in to your Postman account after you [download](https://www.getpostman.com/downloads/) and start the new native app, and all your history and collections will be automatically synced.
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app.
 
@@ -171,14 +171,8 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 
 ##### **Chrome**
 
-Postman’s Chrome app is usually updated automatically. However, Postman doesn't control the Chrome app update flow, and Chrome sometimes doesn’t update the app for long periods of time.
+Postman’s Chrome app has been deprecated. Although you can still use it, new features and bug fixes are being released exclusively in our native apps. We recommend you download the free native app [Postman app](https://www.getpostman.com/downloads/) available for Mac, Windows, and Linux operating systems.
 
-The latest version is visible on [Postman’s Web Store listing](https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
 
-To manually force an update, here’s what you need to do in Chrome:
 
-  1.  In the address bar, type `chrome://extensions`.
-  2.  At the top of the page, check and enable **Developer Mode**.
-  3.  Click the **Update extensions now** button beneath **Developer Mode**.
-
-  [![Chrome developer mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58280741.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58280741.png)
+ 

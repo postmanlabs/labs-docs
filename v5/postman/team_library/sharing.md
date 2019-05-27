@@ -29,7 +29,7 @@ There are a number of enhancements coming up soon on [Postman's product roadmap]
 
 In addition to the [standard ways to share a collection](/docs/postman/collections/sharing_collections), Postman Pro and Enterprise users can also share collections with their team or specific team members.
 
-1.  From the Collections tab in the sidebar, click on the ellipses (**...**) next to the collection you would like to share, and select "Share".
+1.  From the Collections tab in the sidebar, click on the ellipsis (**...**) next to the collection you would like to share, and select "Share".
 2.  Specify the team permissions by selecting "Can View" or "Can Edit" in the dropdown.  
     [![edit team permissions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58787441.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58787441.png)
 3.  Postman also lets you manage access to a collection at an individual level. To do this, click the **Add Individual Permissions** link. Select a team member from the dropdown, or enter the username or email of the person you want to share with. Specify the individual's permissions by selecting "Can View" or "Can Edit" in the dropdown. You can give permissions to multiple people.  

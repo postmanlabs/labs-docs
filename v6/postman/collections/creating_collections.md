@@ -164,7 +164,7 @@ In the sidebar, select "Collections".
 
 Click the ellipsis (...) to expand the control dropdown.   
    
-[![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
+[![collection ellipsis](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
 
 Select "Duplicate" from the menu.
 

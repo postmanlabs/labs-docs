@@ -27,7 +27,7 @@ These entities can sync with our server and be saved to the cloud:
 
 ### How do I Sync between computers?
 
-Install the [Postman app](https://www.getpostman.com/apps) and sign in with the same email address or username on all your devices. 
+Install the [Postman app](https://www.getpostman.com/downloads/) and sign in with the same email address or username on all your devices. 
 
 If you forget your username or password, you can recover your username and reset your password when you click the links near the signin prompt. 
 
