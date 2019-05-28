@@ -13,6 +13,8 @@ Postman Pro and Enterprise users have access to a Team Library which lets you co
 
 Your Team Library should be the single source of truth about your APIs. It will let you see the state of your APIs in real time, or review historical versions and the latest updates.
 
+**Note:** If you'd like to know more about workspaces, refer to the chapter [Introduction to Workspaces](/docs/postman/workspaces/intro_to_workspaces/). 
+
 [![team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167045.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167045.png)
 
 The Team Library allows team members to subscribe to shared collections. When someone subscribes to a collection, they get a synced copy of this collection in their Postman app. If they have edit permissions for the collection, they can make changes which will be reflected in everyone else's collection copy too. Changes made to shared collections are visible under the [Activity Feed](/docs/v6/postman/team_library/activity_feed_and_restoring_collections).
