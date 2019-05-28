@@ -13,7 +13,7 @@ Postman Pro and Enterprise users have access to a Team Library which lets you co
 
 Your Team Library should be the single source of truth about your APIs. It will let you see the state of your APIs in real time, or review historical versions and the latest updates.
 
-**Note:** If you'd like to know more about workspaces, refer to the chapter [Introduction to Workspaces](/docs/v6/postman/workspaces). 
+**Note:** If you'd like to know more about workspaces, refer to the chapter [Introduction to Workspaces](/docs/postman/workspaces/intro_to_workspaces/). 
 
 [![team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167045.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167045.png)
 
