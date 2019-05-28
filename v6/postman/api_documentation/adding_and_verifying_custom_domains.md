@@ -4,7 +4,7 @@ page_id: "adding_and_verifying_custom_domains"
 warning: false
 ---
 
-Postman users with public documentation can publish documentation on their own custom domain. However, this feature is available only for Postman Pro and Enterprise users only. 
+Postman users with public documentation can publish documentation on their own custom domain. Publishing to custom domains is available in our Postman Pro and Enterprise plans.
 
 ### Add a custom domain
 
