@@ -24,7 +24,7 @@ In this section, you can define the structure of your API by creating a new sche
 
 To create a new schema, click *Add Schema* and select **Create New**. The schema editor opens with default options selected:
 
-[![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1c.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1c.png)
+[![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1d.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor1d.png)
 
 The default schema format is 'Open API 3.0' and JSON the default language. To select a different schema, click the down arrow and select a format from the list.
 

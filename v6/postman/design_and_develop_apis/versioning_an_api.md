@@ -4,6 +4,29 @@ page_id: 'versioning_an_api'
 warning: false
 ---
 
+Postman allows you to manage multiple versions of your APIs. You can link your collections to specific versions of your API by adding version tags to them. This enables you to maintain versioning of your collection revisions with a corresponding version of your API. 
+
+Though Postman allows you to tag versions to your collections, it however, does not allow you to manipulate collection version tags. Postman allows explicit versioning only to APIs. You will also be able to create separate monitors, mocks, public documentation and add on all tagged versions of your collections. 
+
+To manage your collection revisions with specific API versions, you must adhere to the following three steps:
+
+1. Link your collection to an API
+2. Add version tags to your collection
+3. Update version tags with API version changes 
+
+ This section describes the following topics:
+
+* [Creating API versions](#creating-api-versions)
+* [Renaming API version tags](#renaming-api-version-tags)
+* [Deleting an API version](#deleting-an-api-version)
+* [Linking collection to an API](#linking-collection-to-an-api)
+* [Adding version tag to a collection](#adding-version-tag-to-a-collection)
+* [Updating version tags with API version changes](#updating-version-tags-with-api-version-changes)
+* [Using version tags to map changes in your API ](#using-version-tags-to-map-changes-in-your-API )
+* [Adding mocks, monitors, and documentation to tagged collections](#adding-mocks,-monitors,-and-documentation-to-tagged-collections)
+
+### Creating API versions
+
 Postman, by default, creates a *Draft* version the moment you create an API. You can then create new versions of your API based on an existing version or a completely new one from scratch. To create a new version of an API, click **Show All Versions**, as illustrated in the following screen:
 
 [![api all versions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-Showallversions1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-Showallversions1.png)
