@@ -822,7 +822,9 @@
             "title": "API Submission Guidelines",
             "href": "/docs/v6/postman_for_publishers/api_network/api_submission_guidelines",
             "external": false
-          },
+          }
+        ]
+      },
           {
             "title": "Postman Templates",
             "url_prefix": "postman_templates",
@@ -836,7 +838,9 @@
                 "title": "API Template Guidelines",
                 "href": "/docs/v6/postman_for_publishers/api_network/api_template_guidelines",
                 "external": false
-              },
+              }
+            ]
+          },
       {
         "title": "Run in Postman",
         "url_prefix": "run_button",
