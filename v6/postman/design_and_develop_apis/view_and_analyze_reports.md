@@ -4,7 +4,9 @@ page_id: "viewing_and_analyzing_apis"
 warning: false
 ---
 
-Postman reports are visualizations of your API data that help you get real-time insights on your APIs and the teams using them. You can track key API and organization-level metrics to understand the needs of your users. These reports provide you granular visibility - helping you understand API usage patterns, performance, SLA adherence, and so on. 
+Postman reports are visualizations of your API data that help you get real-time insights on your APIs and the teams using them. You can track key API and organization-level metrics to understand the needs of your users. These reports provide you granular visibility - helping you understand API usage patterns, performance, SLA adherence, error rates, and so on. 
+
+**Note:** Your APIs should be in a team workspace in order for you to generate reports.
 
 You can use Postman API reports to collect and review specific information about APIs or teams under a single view in the Postman web dashboard. This section describes the following topics:
 
@@ -14,7 +16,7 @@ You can use Postman API reports to collect and review specific information about
 
 ### Launching the reporting dashboard
 
-To launch the reporting dashboard, select the API from the APIs tab and click **Reports**. This is illustrated in the following screen:
+To launch the reporting dashboard, select the API from the APIs tab and click **Reports**. Reports of the selected API will be displayed. The following screen illustrates launching the reporting dashboard:
 
 ![reports main(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Main.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Main.png)
 
@@ -22,14 +24,15 @@ Clicking the **Reports** button launches the following screen:
 
 ![reports main(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Team1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Team1.png)
 
-In the above screen, select **Overview** to display organization-level metrics. It provides a statistical overview of the number of new and active APIs, team-size, and active and empty workspaces. Click the corresponding section in the above screen for a detailed overview.
+In the above screen, select **Overview** to display organization-level metrics. It provides a statistical overview of the number of new and active APIs, team-size, and active and empty workspaces within a team. Click the corresponding section in the above screen for a detailed overview.
 
 ### Understanding team-level metrics
 
-Visibility into some of your most important team-level metrics helps you and your teams monitor the API usage over time and make necessary changes depending on the usage, addition, and deletion of the APIs. The organization-level metrics dashboard also shows you the number of empty and active workspaces. It presents you the below metrics:
+Visibility into some of your most important team-level metrics helps you and your teams monitor the API usage over time and make necessary changes depending on the usage of APIs and addition and deletion of the APIs. Using the organization-level metrics dashboard, you can track changes in the APIs, measure productivity, and take appropriate action. 
 
-* Total number of APIs
+It presents you the below metrics:
 
+* [Total number of APIs](#total-number-of-apis)
 * [New APIs](#new-apis)
 * [Active APIs](#active-apis)
 * [Team size](#team-size)
@@ -37,24 +40,29 @@ Visibility into some of your most important team-level metrics helps you and you
 * [Active workspaces](#active-workspaces) 
 
 
-#### Total no. of APIs
+#### Total number of APIs
 
+This view provides you the total number of APIs present in the team. It displays a list of all APIs in both the private and public workspaces within the team.  
 
 #### New APIs
 
+This view provides you the number of new APIs created in the team. However, note that new versions of an API created are not accounted for.  
 
 #### Active APIs
 
+This view provides the number of active APIs in the team. Postman considers an API active if at least one request was sent through a collection linked to an API. 
 
 #### Team size
 
+This view displays the number of users in the team. 
 
 #### Empty workspaces
 
+This view displays a list of all empty workspaces within a team. 
 
 #### Active workspaces
 
-
+This view displays a list of all active workspaces within a team. Personal workspaces are excluded from this list. Postman considers workspaces that have at least one revision as active.
 
 ### Understanding API-level metrics
 
@@ -67,63 +75,24 @@ The API-level metrics allow you to determine the team usage, average response ti
 * [Failed test runs](#failed-test-runs)
 
 
-
 #### Average response size
 
+Gives you the average response size of your request in terms of bytes. 
 
 #### Average response time
 
+Gives you the average response time of the API to serve the request. 
 
 #### Number of error responses
 
+Gives you the number of error response codes your API is returning so you can analyze the cause and take corrective measures. 
 
-#### Traffic in Postman]
+
+#### Traffic in Postman
+
+Gives you insights into the usage and traffic of the API so you can measure the performance and take precautionary steps. 
 
 
 #### Failed test runs
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----------
-
-
-
-
-Improve engagement and satisfaction for your API consumers by providing visibility into API metrics such as the performance, usage, and error rates of API calls.
-
-Use API reports to collect and review specific information about one or more APIs within a single view. Access the reports through the Anypoint Analytics UI or through the Anypoint Analytics API.
-
-Make multiple, smaller requests instead of a large, single request.
-Request data once and cache it.
-Do not poll for new data faster than a 30 minute interval.
-Pull historical data and increment it regularly instead of requesting the entire data set.
-Discouraged Practices:
-
-Requesting as much data as possible in a single request
-Requesting one year of data at day granularity everyday - just request the new day and merge it
-Driving a web page with a site performance widget by making an API request every time the web page is loaded
-Requesting a full year of day-level data every day to get a rolling 12-month window
-
-The Reporting API provides a wide range of reports, with new reports added periodically, and allows you to retrieve data in a range of intervals, from five minutes to monthly, depending on the time period and type of data you want to view. Some reports are available only to those who have purchased the related product. Support for specific intervals, filters, and metrics may vary by report type.
-
----------
-
-
-Get real-time insights into API performance, usage, and errors
-Create and manage custom dashboards and charts
-Provide metrics to your API consumers
-Identify and analyze the root cause of errors 
+Provides you the number of failed test runs in collection runs and monitors so you can identify and debug the root cause of errors in the requests. 
