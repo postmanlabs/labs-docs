@@ -1,5 +1,5 @@
 ---
-title: "Intro to API network"
+title: "Introduction to API network"
 page_id: "intro_to_api_network"
 warning: false
 

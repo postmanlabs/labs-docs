@@ -1,5 +1,5 @@
 ---
-title: "Intro to Postman templates"
+title: "Introduction to Postman templates"
 page_id: "intro_to_postman_templates"
 warning: false
 
