@@ -810,6 +810,34 @@
         "external": false
       },
       {
+        "title": "API Network",
+        "url_prefix": "api_network",
+        "children":[
+          {
+            "title": "Introduction to API Network",
+            "href": "/docs/v6/postman_for_publishers/api_network/intro_api_network",
+            "external": false
+          },
+          {
+            "title": "API Submission Guidelines",
+            "href": "/docs/v6/postman_for_publishers/api_network/api_submission_guidelines",
+            "external": false
+          },
+          {
+            "title": "Postman Templates",
+            "url_prefix": "postman_templates",
+            "children":[
+              {
+                "title": "Introduction to Postman Templates",
+                "href": "/docs/v6/postman_for_publishers/api_network/intro_postman_templates",
+                "external": false
+              },
+              {
+                "title": "API Template Guidelines",
+                "href": "/docs/v6/postman_for_publishers/api_network/api_template_guidelines",
+                "external": false
+              },
+      {
         "title": "Run in Postman",
         "url_prefix": "run_button",
         "children": [
