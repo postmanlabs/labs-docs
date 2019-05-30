@@ -13,25 +13,25 @@ Postman's API Network makes API consumption very easy. If you are building APIs 
 
 To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
-1. Logo
+#### 1. Logo
    
    All API Network submissions must contain a logo. Logo gives you a better identity and helps users easily associate the API with your company.
 
-2. API Name & Description
+#### 2. API Name & Description
 
    An appropriate name and a proper description helps explain your API’s intended use. The following illustrates an example:
 
    [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc.png)
 
-3. Summary & Team Description 
+#### 3. Summary & Team Description 
 
    Make sure your API has proper summary, description and Team description.
 
-4. Category 
+#### 4. Category 
 
    Choose an appropriate category. This helps users search for your API easily.
 
-5. Authentication 
+#### 5. Authentication 
 
    All API Network submissions should clearly explain steps for authentication in detail. This helps your API users get started easily. 
 
@@ -39,17 +39,17 @@ To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
    [![authentication](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Auth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Auth.png)
 
-6. Proper Formatting 
+#### 6. Proper Formatting 
 
    Make sure your documentation is properly formatted with folders
 
-7. Requests and Responses 
+#### 7. Requests and Responses 
 
    Specify example requests and responses. Do not submit examples containing localhost paths because they don't make sense for APIs in the API network. The following screen illustrates an example of this:
 
    [![request-response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Req-Resp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Req-Resp.png)
 
-8. Other recommendations - Have proper
+#### 8. Other recommendations - Have proper
 
 #### Sample APIs for reference
 
