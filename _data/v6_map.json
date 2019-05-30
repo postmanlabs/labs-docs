@@ -814,7 +814,7 @@
         "url_prefix": "api_network",
         "children":[
           {
-            "title": "Introduction to API Network",
+            "title": "Add APIs to API Network",
             "href": "/docs/v6/postman_for_publishers/api_network/add_api_network",
             "external": false
           },
@@ -830,8 +830,8 @@
             "url_prefix": "postman_templates",
             "children":[
               {
-                "title": "Introduction to Postman Templates",
-                "href": "/docs/v6/postman_for_publishers/api_network/intro_postman_templates",
+                "title": "Adding to Postman Templates",
+                "href": "/docs/v6/postman_for_publishers/api_network/add_postman_templates",
                 "external": false
               },
               {
