@@ -815,7 +815,7 @@
         "children":[
           {
             "title": "Introduction to API Network",
-            "href": "/docs/v6/postman_for_publishers/api_network/intro_api_network",
+            "href": "/docs/v6/postman_for_publishers/api_network/add_api_network",
             "external": false
           },
           {

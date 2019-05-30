@@ -1,6 +1,6 @@
 ---
-title: "Introduction to API network"
-page_id: "intro_to_api_network"
+title: "Add APIs to API network"
+page_id: "add_api_network"
 warning: false
 
 ---
