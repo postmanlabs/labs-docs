@@ -1,6 +1,6 @@
 ---
 title: "Adding to Postman templates"
-page_id: "add_postman_templates"
+page_id: "add_templates"
 warning: false
 
 ---
