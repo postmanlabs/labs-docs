@@ -1,5 +1,5 @@
 ---
-title: "API network submission guidelines"
+title: "API Network submission guidelines"
 page_id: "api_network_submission_guidelines."
 warning: false
 
@@ -39,9 +39,9 @@ To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
    [![authentication](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Auth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Auth.png)
 
-#### 6. Proper Formatting 
+#### 6. Formatting 
 
-   Make sure your documentation is properly formatted with folders
+   Make sure your documentation is properly formatted with folders.
 
 #### 7. Requests and Responses 
 
@@ -51,7 +51,9 @@ To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
 #### 8. Other recommendations - Have proper
 
-#### Sample APIs for reference
+
+
+### Sample APIs for reference
 
 ##### Good API submissions:
 
