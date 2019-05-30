@@ -830,7 +830,7 @@
             "url_prefix": "postman_templates",
             "children":[
               {
-                "title": "Adding to Postman Templates",
+                "title": "Add to Postman Templates",
                 "href": "/docs/v6/postman_for_publishers/api_network/add_postman_templates",
                 "external": false
               },

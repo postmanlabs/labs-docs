@@ -9,6 +9,6 @@ The Postman API Network provides the most authentic and actionable directory of 
 
 ### Add to API Network
 
-Verify your team name, logo, and description. Select the categories that best describe your APIs and service. Once submitted, the Postman team will review the submission for approval, and then your API will be accessible to millions of developers worldwide.
+Make sure your API has proper summary, description and Team description. Verify your team name, logo, and other details. Select the categories that best describe your APIs and service. Once submitted, the Postman team will review the submission for approval, and then your API will be accessible to millions of developers worldwide.
 
 [![api network categories](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-categories.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-categories.png)
