@@ -7,7 +7,7 @@ warning: false
 
 ### Why adhere to guidelines?
 
-Postman's API Network makes API consumption very easy. If you are building APIs that can be consumed by public, you can publish them to our API network and users can directly “Run it in Postman”. To publish your APIs to Postman's API network ensure all your APIs adhere to a set of guidelines outlined by Postman. 
+Postman's API Network makes API consumption very easy. If you are building APIs that can be consumed by public, you can publish them to Postman's API network and users can directly “Run it in Postman”. To publish your APIs to Postman's API network ensure your APIs adhere to a set of guidelines outlined by Postman. 
 
 ### API format guidelines
 
@@ -21,17 +21,9 @@ To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
    An appropriate name and a proper description helps explain your API’s intended use. The following illustrates an example:
 
-   [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc.png)
+   [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc2.png)
 
-#### 3. Summary & Team Description 
-
-   Make sure your API has proper summary, description and Team description.
-
-#### 4. Category 
-
-   Choose an appropriate category. This helps users search for your API easily.
-
-#### 5. Authentication 
+#### 3. Authentication 
 
    All API Network submissions should clearly explain steps for authentication in detail. This helps your API users get started easily. 
 
@@ -39,19 +31,17 @@ To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
    [![authentication](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Auth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Auth.png)
 
-#### 6. Formatting 
+#### 4. Formatting 
 
-   Make sure your documentation is properly formatted with folders.
+   Make sure your documentation is properly formatted. Ensure you maintain a systematic folder structure with items organized in folders and sub-folders.
 
-#### 7. Requests and Responses 
+#### 5. Requests and Responses 
 
-   Specify example requests and responses. Do not submit examples containing localhost paths because they don't make sense for APIs in the API network. The following screen illustrates an example of this:
+   Make sure the objective of your API requests is clearly documented. Ensure you document resource descriptions, endpoints and methods, and parameters clearly with examples. Specify request and response examples. The following screen illustrates an example of this:
 
    [![request-response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Req-Resp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Req-Resp.png)
 
-#### 8. Other recommendations - Have proper
-
-
+**Note:** Do not submit examples containing localhost paths because they don't make sense for APIs in the API network.
 
 ### Sample APIs for reference
 
@@ -76,6 +66,6 @@ The submission process is quite simple. Adhere to the following 3-step process:
 2. Adhere to the API format guidelines.
 3. Submit them to the Postman API network.
 
-The moderators at the Postman API network will review your APIs and approve them for publication to the API network. 
+The moderators at the Postman API network will review your APIs and approve them for publication to the API network.
 
 
