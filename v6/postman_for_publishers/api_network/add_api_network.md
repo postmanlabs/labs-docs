@@ -7,7 +7,7 @@ warning: false
 
 The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
-### Add to API Network
+### How to add to APIs to API Network
 
 Make sure your API has proper summary, description and Team description. Verify your team name, logo, and other details. Select the categories that best describe your APIs and service. Once submitted, the Postman team will review the submission for approval, and then your API will be accessible to millions of developers worldwide.
 

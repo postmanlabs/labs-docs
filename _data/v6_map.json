@@ -831,12 +831,12 @@
             "children":[
               {
                 "title": "Add to Postman Templates",
-                "href": "/docs/v6/postman_for_publishers/api_network/add_templates",
+                "href": "/docs/v6/postman_for_publishers/postman_templates/add_templates",
                 "external": false
               },
               {
                 "title": "API Template Guidelines",
-                "href": "/docs/v6/postman_for_publishers/api_network/api_template_guidelines",
+                "href": "/docs/v6/postman_for_publishers/postman_templates/api_template_guidelines",
                 "external": false
               }
             ]
