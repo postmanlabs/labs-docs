@@ -4,9 +4,9 @@ page_id: "viewing_and_analyzing_apis"
 warning: false
 ---
 
-Postman reports are visualizations of your API data that help you get real-time insights on your APIs and the teams using them. You can track key API and organization-level metrics to understand the needs of your users. These reports provide you granular visibility - helping you understand API usage patterns, performance, SLA adherence, error rates, and so on. 
+Postman reports are visualizations of your API data that help you get insights on your APIs and the teams using them. You can track key API and organization-level metrics to understand the needs of your users. These reports provide you granular visibility - helping you understand API usage patterns, performance, SLA adherence, error rates, and so on. Remember, your collections must be linked to your APIs in order for you to generate reports. 
 
-**Note:** Your APIs should be in a team workspace in order for you to generate reports.
+**Note:** Your APIs must be shared with a team in order for you to generate reports. However, Postman does not take into account your APIs present in your personal workspaces.
 
 You can use Postman API reports to collect and review specific information about APIs or teams under a single view in the Postman web dashboard. This section describes the following topics:
 
@@ -28,7 +28,7 @@ In the above screen, select **Overview** to display organization-level metrics. 
 
 ### Understanding team-level metrics
 
-Visibility into some of your most important team-level metrics helps you and your teams monitor the API usage over time and make necessary changes depending on the usage of APIs and addition and deletion of the APIs. Using the organization-level metrics dashboard, you can track changes in the APIs, measure productivity, and take appropriate action. 
+Visibility into some of your most important team-level metrics helps you and your teams monitor the API usage over time and make necessary changes depending on the usage of APIs and addition and deletion of the APIs. Using the organization-level metrics dashboard, you can track changes in the APIs and take appropriate action. 
 
 It presents you the below metrics:
 
@@ -42,15 +42,15 @@ It presents you the below metrics:
 
 #### Total number of APIs
 
-This view provides you the total number of APIs present in the team. It displays a list of all APIs in both the private and public workspaces within the team.  
+Displays the total number of APIs present in the team. It displays a list of all APIs in both the private and public workspaces within the team. 
 
 #### New APIs
 
-This view provides you the number of new APIs created in the team. However, note that new versions of an API created are not accounted for.  
+Displays the number of new APIs created in the team. However, note that new versions of an API created are not accounted for.  
 
 #### Active APIs
 
-This view provides the number of active APIs in the team. Postman considers an API active if at least one request was sent through a collection linked to an API. 
+Displays the number of active APIs in the team. Postman considers an API active if at least one request was sent through a collection linked to an API. 
 
 #### Team size
 
@@ -58,11 +58,11 @@ This view displays the number of users in the team.
 
 #### Empty workspaces
 
-This view displays a list of all empty workspaces within a team. 
+Displays a list of all empty workspaces within a team. Postman considers a workspace that has no collections created in it as an empty workspace.
 
 #### Active workspaces
 
-This view displays a list of all active workspaces within a team. Personal workspaces are excluded from this list. Postman considers workspaces that have at least one revision as active.
+Displays a list of all active workspaces within a team. Personal workspaces are excluded from this list. Postman considers a workspace that has at least one revision made during a certain period as active.
 
 ### Understanding API-level metrics
 
@@ -77,7 +77,7 @@ The API-level metrics allow you to determine the team usage, average response ti
 
 #### Average response size
 
-Gives you the average response size of your request in terms of bytes. 
+Gives you the average response size of your request in terms of bytes or kilobytes. 
 
 #### Average response time
 
@@ -87,11 +87,9 @@ Gives you the average response time of the API to serve the request.
 
 Gives you the number of error response codes your API is returning so you can analyze the cause and take corrective measures. 
 
-
 #### Traffic in Postman
 
 Gives you insights into the usage and traffic of the API so you can measure the performance and take precautionary steps. 
-
 
 #### Failed test runs
 
