@@ -32,10 +32,10 @@ Provide well-structured information about your collection and other prerequisite
 
 #### 4. Endpoints and params
 
-Be a bit magnanimous in describing your collection details. If possible, clearly document the resource descriptions, endpoints and methods, parameters, sample requests, and sample responses and schemas. The following screen illustrates clear description of endpoints and parameters. 
+Be a bit magnanimous in describing your collection details. If possible, clearly document the resource descriptions, endpoints and methods, parameters, sample requests, and sample responses and schemas. The following screens illustrate a clear description of endpoints and parameters. 
 
-[![endpoints](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates3.png)
+[![endpoints](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates3a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates3a.png)
 
-
+**The Params:**
 
 [![params](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates4.png)
