@@ -47,16 +47,16 @@ To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
 ##### Good API submissions:
 
-- https://docs.sandbox.tradeprint.io/#06cc541c-cd0e-48dc-864a-3d32c6cf173f
-- https://docs.m2m.skore.io/
-- https://documenter.getpostman.com/view/6190915/RznHHxCP
+- [Tradeprint](https://docs.sandbox.tradeprint.io/#06cc541c-cd0e-48dc-864a-3d32c6cf173f)
+- [Skore](https://docs.m2m.skore.io/)
+- [TelemetryTV](https://documenter.getpostman.com/view/6190915/RznHHxCP)
 
 ##### Rejected API submissions:
 
-- https://documenter.getpostman.com/view/6931232/S17nUqPm
-- https://documenter.getpostman.com/view/4587442/RzfgnUN
-- https://onepage.avodapay.com
-- https://documenter.getpostman.com/view/5814804/RzZCEdPu
+- [Documenter](https://documenter.getpostman.com/view/6931232/)
+- [Documenter2](https://documenter.getpostman.com/view/4587442/RzfgnUN)
+- [Avoda](https://onepage.avodapay.com)
+- [PostmanAPI](https://documenter.getpostman.com/view/5814804/RzZCEdPu)
 
 ### The submission process
 
