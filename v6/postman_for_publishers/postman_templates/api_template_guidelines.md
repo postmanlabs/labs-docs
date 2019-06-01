@@ -7,7 +7,7 @@ warning: false
 
 ### Why adhere to guidelines?
 
-Postman provides a way for you to share your collections with the community. These collections could be anything - a bunch of useful APIs or a way to automate a workflow. The idea is to allow you to share the API documentation in a bunch of different ways if you’re an author of a Postman collection. One way is to share the collection as a template. Community-contributed templates might teach someone how to use an API, automate a tedious task, or just use public APIs to do something fun.
+Postman provides a way for you to share your collections with the community. These collections could be anything - a bunch of useful APIs or a way to automate a workflow. The idea is to allow you to share API documentation in different ways if you’re an author of a Postman collection. One way is to share the collection as a template. Community-contributed templates might teach someone how to use an API, automate a tedious task, or just use public APIs to do something fun.
 
 ### Template format guidelines
 
@@ -25,14 +25,14 @@ Provide a proper introduction to your collection. Your collection may not find a
 
 #### 3. Steps to quickly get started
 
-Provide well-structured information about your collection and other prerequisites to jump-start your users to use your collection. Talk about the APIs used and how to authenticate, if necessary. If you've used environments, then talk about them in detail. The following screen illustrates a very good example of a quick-start. 
+Provide useful information about your collection and other prerequisites to jump-start your users to use the collection. Talk about the APIs used and how to authenticate, if necessary. If you've used environments, then talk about them in detail. The following screen illustrates a very good example of a quick-start. 
 
-[![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates2.png)
+[![quick start](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates2.png)
 
 
 #### 4. Endpoints and params
 
-Be a bit magnanimous in describing your collection details. If possible, clearly document the resource descriptions, endpoints and methods, parameters, sample requests, and sample responses and schemas. The following screens illustrate a clear description of endpoints and parameters. 
+Be a bit magnanimous in describing your collection details. If possible, clearly document the resource descriptions, endpoints and methods, parameters, sample requests, sample responses and schemas. The following screens illustrate a clear description of endpoints and parameters. 
 
 [![endpoints](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates3a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates3a.png)
 
