@@ -81,7 +81,12 @@ The `pm.info` object contains information pertaining to the script being execute
    Is the total number of iterations that are scheduled to run.
 
 * `pm.info.requestName:String`
+
+  The saved name of the individual request being run.
+
 * `pm.info.requestId:String`
+
+  The unique guid that identifies the request being run.
 
 ### pm.sendRequest
 
@@ -134,16 +139,16 @@ Extended Reference:
 * [Request JSON](http://www.postmanlabs.com/postman-collection/Request.html#~definition)
 * [Response Structure](http://www.postmanlabs.com/postman-collection/Response.html)
 
-### pm.globals
+### pm.variables
 
-**`pm.globals:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
+**`pm.variables:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
 
-* `pm.globals.has(variableName:String):function → Boolean`
-* `pm.globals.get(variableName:String):function → *`
-* `pm.globals.set(variableName:String, variableValue:String):function`
-* `pm.globals.unset(variableName:String):function`
-* `pm.globals.clear():function`
-* `pm.globals.toObject():function → Object`
+In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration take precedence over the variables defined in the current environment, which overrides ones defined in the global scope, i.e. `Iteration Data` < `Environment` < `Global`.
+
+* `pm.variables.get(variableName:String):function → *`
+* `pm.variables.toObject():function → Object`
+
+The variables defined in the individual scopes may also be accessed via `pm.environment` for the environment scope and `pm.globals` for the global scope.
 
 ### pm.environment
 
@@ -156,15 +161,16 @@ Extended Reference:
 * `pm.environment.clear():function`
 * `pm.environment.toObject():function → Object`
 
-### pm.variables
+### pm.globals
 
-**`pm.variables:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
+**`pm.globals:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
 
-In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration take precedence over the variables defined in the current environment, which overrides ones defined in the global scope, i.e. `Iteration Data` < `Environment` < `Global`.
-
-The variables defined in the individual scopes may also be accessed via `pm.environment` for the environment scope and `pm.globals` for the global scope.
-
-* `pm.variables.get(variableName:String):function → *`
+* `pm.globals.has(variableName:String):function → Boolean`
+* `pm.globals.get(variableName:String):function → *`
+* `pm.globals.set(variableName:String, variableValue:String):function`
+* `pm.globals.unset(variableName:String):function`
+* `pm.globals.clear():function`
+* `pm.globals.toObject():function → Object`
 
 ### pm.request
 
@@ -176,6 +182,9 @@ The `request` object inside `pm` is a representation of the request for which th
 
 * `pm.request.url:`[`Url`](http://www.postmanlabs.com/postman-collection/Url.html)
 * `pm.request.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html)
+* `pm.request.headers.add(headerName:String):function`
+* `pm.request.headers.delete(headerName:String):function`
+* `pm.request.headers.upsert({ key: headerName:String, value: headerValue:String}):function)`
 
 ## **The following items are ONLY available in the test scripts.**
 
@@ -225,17 +234,32 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 **`pm.test(testName:String, specFunction:Function):Function`**
 
-   You can use this function to write test specifications inside the sandbox. Writing tests inside this function allows you to name the test accurately and this function also ensures the rest of the script is not blocked even if there are errors inside the function.
+   You can use this function to write test specifications inside either the `Pre-request Script` or `Tests` sandbox. Writing tests inside this function allows you to name the test accurately and this function also ensures the rest of the script is not blocked even if there are errors inside the function.
 
    In the following sample test, we are checking that everything about a response is valid for us to proceed.
 
-    ```javascript
+  ```javascript
     pm.test("response should be okay to process", function () {
         pm.response.to.not.be.error;
         pm.response.to.have.jsonBody('');
         pm.response.to.not.have.jsonBody('error');
     });
-    ```
+  ```
+
+  An optional `done` callback can be added to `pm.test`, to test asynchronous functions.
+
+  ```javascript
+    pm.test('async test', function (done) {
+      setTimeout(() => {
+          pm.expect(pm.response.code).to.equal(200);
+          done();
+      }, 1500);
+    });
+  ```
+
+* `pm.test.index():Function → Number`
+
+  Get the total number tests from a specific location.
 
 ### pm.expect
 
@@ -243,8 +267,15 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
   `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
   
-  This function is useful to deal with assertions of data from a response or variables.
+  This function is useful to deal with assertions of data from a `response` or `variables`.
 
+  ```javascript
+    pm.test("response value check", function () {
+        var jsonData = pm.response.json();
+        pm.expect(jsonData.value).to.eql(100);
+    });
+  ```
+  
   ```javascript
     pm.test('environment to be production', function () {
         pm.expect(pm.environment.get('env')).to.equal('production');
