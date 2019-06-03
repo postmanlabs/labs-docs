@@ -7,7 +7,7 @@ warning: false
 
 ### Why adhere to guidelines?
 
-Postman's API Network makes API consumption very easy. If you are building APIs that can be consumed by public, you can publish them to Postman's API network and users can directly “Run it in Postman”. To publish your APIs to Postman's API network ensure your APIs adhere to a set of guidelines outlined by Postman. 
+Postman's API Network makes API consumption very easy. If you are building APIs that can be consumed by public, you can publish them to Postman's API network and users can directly “Run it in Postman”. To publish your APIs to Postman's API network, ensure your APIs adhere to a set of guidelines outlined by Postman. 
 
 ### API format guidelines
 

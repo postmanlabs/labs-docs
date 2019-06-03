@@ -21,11 +21,11 @@ All API template submissions must contain a name and description.
 
 #### 2. Introduction
 
-Provide a proper introduction to your collection. Your collection may not find adoption without necessary information about your collection details. Providing this information gives important information about your collection and a sense of direction to the user. The above screen illustrates an example of a good introduction. 
+Provide a proper introduction to your collection. Your collection may not find adoption without necessary information about the collection details. These details provide a sense of direction to the user. The above screen illustrates an example of a good introduction. 
 
 #### 3. Steps to quickly get started
 
-Provide useful information about your collection and other prerequisites to jump-start your users to use the collection. Talk about the APIs used and how to authenticate, if necessary. If you've used environments, then talk about them in detail. The following screen illustrates a very good example of a quick-start. 
+Provide useful information about your collection and other prerequisites to jump-start your users to using the collection. Talk about the APIs used and how to authenticate them, if necessary. If you've used environments, then talk about them in detail. The following screen illustrates a very good example of a quick-start. 
 
 [![quick start](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates2.png)
 

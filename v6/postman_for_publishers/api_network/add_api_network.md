@@ -9,7 +9,7 @@ The Postman API Network provides the most authentic and actionable directory of 
 
 ### How to add APIs to API Network
 
-Make sure your API has proper summary, description and Team description. Verify your team name, logo, and other details. Select the categories that best describe your APIs and service. 
+Make sure your API has proper summary, description and team details. Verify your team name, logo, and other details. Select the categories that best describe your APIs and service. 
 
 [![api network categories](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add-to-API-Network.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add-to-API-Network.png)
 
