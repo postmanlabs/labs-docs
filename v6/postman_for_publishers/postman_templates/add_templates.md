@@ -9,7 +9,7 @@ If you’re an author of a Postman collection, you can share the API documentati
 
 ### How to add to Postman Templates
 
-You can share your collection with the API community by selecting the radio button 'Add to Postman Templates'. The template name is auto populated from your collection name, as illustrated in the below screen. You can input template description, add categories and click 'Publish Collection'.  
+While you are publishing your collection, you can share your collection with the API community by selecting the radio button **Add to Postman Templates**. The template name is auto populated from your collection name, as illustrated in the below screen. Add template summary and description, specify categories, and click **Publish Collection**.  
 
 [![add to templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add+To+Postman+Templates.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add+To+Postman+Templates.png)
 

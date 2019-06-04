@@ -7,15 +7,19 @@ warning: false
 
 ### Why adhere to guidelines?
 
-Postman provides a way for you to share your collections with the community. These collections could be anything - a bunch of useful APIs or a way to automate a workflow. The idea is to allow you to share API documentation in different ways if you’re an author of a Postman collection. One way is to share the collection as a template. Community-contributed templates might teach someone how to use an API, automate a tedious task, or just use public APIs to do something fun.
+Postman provides a way for you to share your collections with the community. These collections could be anything - a bunch of useful APIs or a way to automate a workflow. The idea is to allow you to share API documentation in different ways if you’re an author of a Postman collection. One way is to share the collection as a template. Community-contributed templates might teach someone how to use an API, automate a tedious task, or just use public APIs to do something fun. 
+
+Postman templates make template consumption easy, ..............
+
+
 
 ### Template format guidelines
 
-To ensure your collections have a wider adoption, adhere to the following guidelines:
+To ensure your collections have a wider adoption, your collection documentation should adhere to the following guidelines:
 
 #### 1. Template name
    
-All template submissions must contain a name and description. 
+Your template documentation must have an appropriate name.
 
    [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates1.png)
 

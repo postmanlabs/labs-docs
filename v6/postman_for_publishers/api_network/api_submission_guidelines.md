@@ -7,25 +7,25 @@ warning: false
 
 ### Why adhere to guidelines?
 
-Postman's API Network makes API consumption very easy. If you are building APIs that can be consumed by public, you can publish them to Postman's API network and users can directly “Run in Postman”. To publish your APIs to Postman's API network, ensure your APIs adhere to a set of guidelines outlined by Postman. 
+Postman's API Network makes API consumption very easy. If you are building APIs that can be consumed by public, you can publish them to Postman's API network and users can directly import your collection through “Run in Postman”. To publish your API to Postman's API network, ensure your API documentation adheres to a set of guidelines outlined by Postman. 
 
-### API submission requirements
+### API submission guidelines
 
-To ensure your APIs have a wider adoption, adhere to the following guidelines:
+To ensure your APIs have a wider adoption, your API documentation adhere to the following guidelines:
 
 #### 1. Logo
    
-   All teams submitting to API Network must have an updated logo. Logo gives you a better identity and helps users easily associate the API with your company.
+   All teams submitting to API Network must have an updated logo. This logo will be displayed on your documentation. Logo gives you a better identity and helps users easily associate the API with your company.
 
-#### 2. API Name & Description
+#### 2. API Name & Objective ...............
 
-   An appropriate name and a proper description helps explain your API’s intended use. The following illustrates an example:
+   An appropriate name and a proper objective helps explain your API’s intended use. The following illustrates an example:
 
    [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc2.png)
 
 #### 3. Authentication 
 
-   All API Network submissions should clearly explain steps for authentication in detail. This helps your API users get started easily. 
+   Your API documentation should clearly explain steps for authentication in detail. This helps your API users get started easily. 
 
    **Note:** If there are authorization tokens in the request headers replace them with a placeholder. This makes your documentation secure and readable. The following screen illustrates this:
 
@@ -37,7 +37,7 @@ To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
 #### 5. Requests and Responses 
 
-   Make sure the objective of your API requests is clearly documented. Ensure you document resource descriptions, endpoints and methods, and parameters clearly with examples. Specify request and response examples. The following screen illustrates an example of this:
+   Ensure you document resource descriptions, endpoints and methods, and parameters clearly with examples. Specify request and response examples. The following screen illustrates an example of this:
 
    [![request-response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Req-Resp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Req-Resp.png)
 
