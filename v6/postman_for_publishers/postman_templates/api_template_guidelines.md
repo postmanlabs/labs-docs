@@ -7,11 +7,7 @@ warning: false
 
 ### Why adhere to guidelines?
 
-Postman provides a way for you to share your collections with the community. These collections could be anything - a bunch of useful APIs or a way to automate a workflow. The idea is to allow you to share API documentation in different ways if you’re an author of a Postman collection. One way is to share the collection as a template. Community-contributed templates might teach someone how to use an API, automate a tedious task, or just use public APIs to do something fun. 
-
-Postman templates make template consumption easy, ..............
-
-
+If you are authoring collections that can be consumed by public, you can publish them to Postman's templates and users can  import them and then “Run in Postman”. Postman facilitates a way for you to share your collections with the community by way ot its templates. One way is to share the collection as a template. Community-contributed templates might teach someone how to use an API, automate a tedious task, or just use public APIs to do something fun. These collections could be anything - a bunch of useful APIs or a way to automate a workflow. The idea is to allow you to share your collections documentation in different ways if you’re an author of a Postman collection. 
 
 ### Template format guidelines
 

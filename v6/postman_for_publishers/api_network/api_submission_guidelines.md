@@ -17,11 +17,11 @@ To ensure your APIs have a wider adoption, your API documentation adhere to the 
    
    All teams submitting to API Network must have an updated logo. This logo will be displayed on your documentation. Logo gives you a better identity and helps users easily associate the API with your company.
 
-#### 2. API Name & Objective ...............
+#### 2. API Name & Objective
 
    An appropriate name and a proper objective helps explain your API’s intended use. The following illustrates an example:
 
-   [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc2.png)
+   [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc3.png)
 
 #### 3. Authentication 
 
