@@ -7,15 +7,15 @@ warning: false
 
 ### Why adhere to guidelines?
 
-Postman's API Network makes API consumption very easy. If you are building APIs that can be consumed by public, you can publish them to Postman's API network and users can directly “Run it in Postman”. To publish your APIs to Postman's API network, ensure your APIs adhere to a set of guidelines outlined by Postman. 
+Postman's API Network makes API consumption very easy. If you are building APIs that can be consumed by public, you can publish them to Postman's API network and users can directly “Run in Postman”. To publish your APIs to Postman's API network, ensure your APIs adhere to a set of guidelines outlined by Postman. 
 
-### API format guidelines
+### API submission requirements
 
 To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
 #### 1. Logo
    
-   All API Network submissions must contain a logo. Logo gives you a better identity and helps users easily associate the API with your company.
+   All teams submitting to API Network must have an updated logo. Logo gives you a better identity and helps users easily associate the API with your company.
 
 #### 2. API Name & Description
 
@@ -56,10 +56,10 @@ To ensure your APIs have a wider adoption, adhere to the following guidelines:
 
 The submission process is quite simple. Adhere to the following 3-step process:
 
-1. Decide your list of APIs to be published to the Postman's API network.
-2. Adhere to the API format guidelines.
+1. Decide your API (or list of APIs) to be published to the Postman's API network.
+2. Adhere to the API submission requirements.
 3. Submit them to the Postman API network.
 
-The moderators at the Postman API network will review your APIs and approve them for publication to the API network.
+The moderators at the Postman API network will review your APIs, may request additional changes and then approve them for publication to the API network.
 
 

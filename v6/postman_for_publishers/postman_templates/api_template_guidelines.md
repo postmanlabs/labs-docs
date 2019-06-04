@@ -15,7 +15,7 @@ To ensure your collections have a wider adoption, adhere to the following guidel
 
 #### 1. Template name
    
-All API template submissions must contain a name and description. 
+All template submissions must contain a name and description. 
 
    [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates1.png)
 

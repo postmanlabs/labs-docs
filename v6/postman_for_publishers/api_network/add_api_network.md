@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
+The Postman API Network provides the most trustworthy and easy-to-use directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API network to onboard developers quickly and effectively.
 
 ### How to add APIs to API Network
 
