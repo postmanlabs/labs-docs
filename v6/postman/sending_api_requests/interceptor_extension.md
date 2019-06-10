@@ -7,8 +7,7 @@ warning: false
 
 ## What is Interceptor
 
-
-**Note:** Interceptor feature is supported in our Postman Chrome Apps and is partly available in Postman Desktop Apps at the moment. You can also use your authenticated sessions from the browsers to make a request in the native app as well using the bridge available for the Interceptor. 
+Postman Interceptor is a Chrome extension that functions as a proxy to capture HTTP or HTTPS requests. It can capture network requests directly from Chrome and save them to Postman’s history. This means you can debug your web apps APIs in real time! 
 
 The following section describes two topics:
 
@@ -87,24 +86,25 @@ Unfortunately some headers are restricted by Chrome and the XMLHttpRequest speci
    *   User-Agent
    *   Via
 
-However sending these restricted headers is easy. Follow the steps below:
+However, sending these restricted headers is easy. Follow the steps below:
 
 [![interceptor icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor.png)
 
-   *   Install the Interceptor extension either by clicking on the Interceptor icon in the Postman toolbar or through the [Chrome Web Store](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo).
-   *   Once it’s installed, click on the icon again in the Postman app and toggle it on.
+   * Install the Interceptor extension either by clicking on the Interceptor icon in the Postman toolbar or through the [Chrome Web Store](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo).
+   * Once it’s installed, click on the icon again in the Postman app and toggle it on.
 
 That’s it! You can now send requests which use these headers.
 
 ### Using Interceptor in Postman app using bridge 
 
-You can use your authenticated sessions from the browsers to make a request in the native app as well using the bridge available for the Interceptor. Install the Interceptor bridge following the instructions [here](/docs/postman/sending_api_requests/interceptor_extension/#installing-the-interceptor-bridge/). 
+You can use your authenticated sessions from the browsers to make a request in the native app using the bridge available for the Interceptor. You will need to install this intermediary piece of software in order for you to make API calls from the native app. You can find step-by-step instructions in the link below to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). 
 
-The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not the other way round). This will let you use any authentication sessions in your browser to make API calls in Postman.
+The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
 
 Once the Interceptor status is connected, you’ll need to enable the ‘Capture cookies’ setting, and add any domains you want to sync cookies for. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com).
 
 Whenever you add a domain, Postman will sync all cookies for that domain currently in the browser. Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click the ‘x’ button next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
+
 #### Installing the Interceptor Bridge:
 
 Download the Interceptor bridge for the corresponding OS by clicking the respective link below:
@@ -113,7 +113,7 @@ Download the Interceptor bridge for the corresponding OS by clicking the respect
 * [Windows](https://go.pstmn.io/interceptor-bridge-windows)
 * [Linux](https://go.pstmn.io/interceptor-bridge-linux)
 
-1. Run the install script from the OS-specific Interceptor Bridge package. Do not change the location of the com.postman.postmanapp.json file after executing the install script. Depending on your OS, you might need to double-click or execute the installer script via a shell. Users on MacOS/Windows might see a security warning.
+1. Run the install script from the OS-specific Interceptor Bridge package. Do not change the location of the com.postman.postmanapp.json file after executing the install script. Depending on your OS, you might need to double-click or execute the installer script via a shell. If you are on MacOS/Windows, you might see a security warning.
 
 2. Restart Chrome (only required for Windows)
 
