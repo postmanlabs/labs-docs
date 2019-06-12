@@ -11,9 +11,39 @@ Postman Interceptor is a Chrome extension that functions as a proxy to capture H
 
 The following section describes two topics:
 
+* [Using Postman Interceptor in app](#using-postman-interceptor-in-app)
+
 * [Using Postman Interceptor as a Chrome extension](#using-postman-interceptor-as-a-chrome-extension)
 
-* [Using Interceptor in Postman app using bridge](#using-interceptor-in-postman-app-using-bridge)
+### Using Postman Interceptor in app 
+
+You can use your authenticated sessions from the browsers to make a request in the native app using the bridge available for the Interceptor. You will need to install the interceptor bridge in order for you to make API calls from the native app. You can find step-by-step instructions in the link below to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). You must also be on Postman Interceptor v0.2.26 and above, which you can download it from [here](https://go.pstmn.io/interceptor-download).
+
+Once you're done with the installation of the Interceptor bridge, the **Interceptor Connected** status turns green. Turn on the **Capture cookies** setting to *ON* This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
+
+[![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif.png)
+
+Whenever you add a domain, Postman will sync all cookies for that domain in the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
+
+Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click the ‘x’ button next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
+
+#### Installing the Interceptor Bridge:
+
+Download the Interceptor bridge for the corresponding OS by clicking the respective link below:
+
+* [OSX](https://go.pstmn.io/interceptor-bridge-macos)
+* [Windows](https://go.pstmn.io/interceptor-bridge-windows)
+* [Linux](https://go.pstmn.io/interceptor-bridge-linux)
+
+1. Run the install script from the OS-specific Interceptor Bridge package. Do not change the location of the com.postman.postmanapp.json file after executing the install script. Depending on your OS, you might need to double-click or execute the installer script via a shell. If you are on MacOS/Windows, you might see a security warning.
+
+2. Restart Chrome (only required for Windows)
+
+3. Update the Postman Interceptor Extension to v0.2.26 or above (chrome://extensions/ > enable Developer Mode > Update).
+
+4. Update Postman Canary to v7.1.1 or above.
+
+5. Open the console in Postman: View > Developer > Show DevTools (Current View).
 
 ### Using Postman Interceptor as a Chrome extension
 
@@ -95,32 +125,6 @@ However, sending these restricted headers is easy. Follow the steps below:
 
 That’s it! You can now send requests which use these headers.
 
-### Using Interceptor in Postman app using bridge 
 
-You can use your authenticated sessions from the browsers to make a request in the native app using the bridge available for the Interceptor. You will need to install this intermediary piece of software in order for you to make API calls from the native app. You can find step-by-step instructions in the link below to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). 
-
-The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
-
-Once the Interceptor status is connected, you’ll need to enable the ‘Capture cookies’ setting, and add any domains you want to sync cookies for. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com).
-
-Whenever you add a domain, Postman will sync all cookies for that domain currently in the browser. Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click the ‘x’ button next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
-
-#### Installing the Interceptor Bridge:
-
-Download the Interceptor bridge for the corresponding OS by clicking the respective link below:
-
-* [OSX](https://go.pstmn.io/interceptor-bridge-macos)
-* [Windows](https://go.pstmn.io/interceptor-bridge-windows)
-* [Linux](https://go.pstmn.io/interceptor-bridge-linux)
-
-1. Run the install script from the OS-specific Interceptor Bridge package. Do not change the location of the com.postman.postmanapp.json file after executing the install script. Depending on your OS, you might need to double-click or execute the installer script via a shell. If you are on MacOS/Windows, you might see a security warning.
-
-2. Restart Chrome (only required for Windows)
-
-3. Update the Postman Interceptor Extension to v0.2.26 or above (chrome://extensions/ > enable Developer Mode > Update).
-
-4. Update Postman Canary to v7.1.1 or above.
-
-5. Open the console in Postman: View > Developer > Show DevTools (Current View).
 
 
