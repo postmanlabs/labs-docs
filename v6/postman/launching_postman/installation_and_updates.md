@@ -4,15 +4,16 @@ page_id: "installation_and_updates"
 warning: false
 
 ---
-## Installing the Postman app
 
-### Postman native apps
+Postman is available as a native app for macOS, Windows (32-bit and 64-bit), and Linux (32-bit and 64-bit) operating systems.
 
-Postman is available as a native app for macOS, Windows, and Linux operating systems.
+## Get the latest Postman app
 
-To install Postman, go to the [download page](https://www.getpostman.com/downloads/) and click **Download** for macOS / Windows / Linux depending on your platform.
+To get the latest version of the Postman app, go to the [download page](https://www.getpostman.com/downloads/) and click **Download** for macOS / Windows / Linux depending on your platform.
 
 ![Postman download page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_Screen1.png "Postman download page")
+
+## Postman native apps
 
 ### macOS installation
 
@@ -24,7 +25,6 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
    *   Download the setup file 
    *   Run the installer
-   
 
 ### Linux installation
 
@@ -47,10 +47,10 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
     Type=Application
     Categories=Development;
      
-   Once the Postman.desktop file is created, the Postman app can be opened using application launchers. You can check your desktop and double-click the Postman icon.
+   Once the ```Postman.desktop``` file is created, the Postman app can be opened using application launchers. You can check your desktop and double-click the Postman icon.
 
    **Note:** 
-   1. Avoid starting postman using ```sudo``` command, this will create permission issues on the files created by postman.
+   1. Avoid starting Postman using ```sudo``` command, this will create permission issues on the files created by Postman.
 
    2. Make sure you have read/write permission for ```~/.config``` folder where Postman stores the information
 
@@ -60,7 +60,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
   
 ## Supported Platforms
 
-   This section describes the additional software and infrastructure you'll need to run Postman. Please review this info before installing Postman. You should only use Postman with a supported platform. Any platforms and versions not listed on this page are unsupported, which means we don't test, fix bugs or provide assistance. 
+   This section describes the additional software and infrastructure you'll need to run Postman. Please review this info before installing Postman. You should only use Postman with a supported platform. Any platforms and versions not listed on this page are unsupported, which means we don't test, fix bugs or provide assistance.
 
 ### macOS
    
@@ -70,7 +70,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
    Postman supports Windows 7 and above. Older operating systems are not supported.
 
-   Both ````ia32 (x86) and x64 (amd64)```` installers are provided for Windows. Note that the ARM version of Windows is not supported.
+   Both ```ia32 (x86) and x64 (amd64)``` installers are provided for Windows. Note that the ARM version of Windows is not supported.
 
 ### Linux
    
@@ -80,7 +80,8 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 * Fedora 21
 * Debian 8 and later
 
-**Note:**Note: If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to run Postman. This package, which was shipped by default until Ubuntu version 18 has been dropped, and is mandatory to run Postman. Use the following command to install libgconf-2-4:
+**Note:**
+If you are an Ubuntu 18 user, you must additionally install ```libgconf-2-4 package``` to run Postman. This package, which was shipped by default until Ubuntu version 18 has been dropped, and is mandatory to run Postman. Use the following command to install ```libgconf-2-4```:
 
 `apt-get install libgconf-2-4`
 
@@ -92,11 +93,11 @@ The Postman Chrome app can only run on the Chrome browser. To use the Postman Ch
 
 If you already have Chrome installed, head over to [Postman’s page](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) on the Chrome Web Store, and click ‘Add to Chrome’.
 
-The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](/docs/v6/postman/launching_postman/installation_and_updates).
+The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can launch Postman.
 
 ### Differences between Chrome and native apps
 
-Postman’s native apps are built on [Electron](https://electronjs.org/), and overcome a number of restrictions of the Chrome platform.
+Postman's native apps are built on [Electron](https://electronjs.org/), and overcome a number of restrictions of the Chrome platform.
 
 A few features exclusive to the native apps are listed here:
 
@@ -114,7 +115,7 @@ The native apps are not restricted by the Chrome standards for the menu bar. Wit
 
 #### Restricted headers
 
-The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](/docs/postman/sending_api_requests/interceptor_extension/#restricted-headers) in the Chrome app. 
+The latest versions of the native apps let you send headers like ```Origin``` and ```User-Agent```. These are [restricted](/docs/postman/sending_api_requests/interceptor_extension/#restricted-headers) in the Chrome app. 
 
 #### Don't follow redirects option
 
@@ -126,7 +127,7 @@ The latest version of the native app also has a built-in [console](/docs/postma
 
 ## Migrating to the native app
 
-It’s simple.  Sign in to your Postman account after you [download](https://www.getpostman.com/downloads/) and start the new native app, and all your history and collections will be automatically synced.
+It's simple. [Sign in to your Postman account](https://app.getpostman.com/) after you [download](https://www.getpostman.com/downloads/) and start the new native app, and all your history and collections will be automatically synced.
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app.
 
@@ -138,13 +139,13 @@ From the Postman settings, select the **Data** tab and click the **Download**
 
 ### Bulk import
 
-From the same area in Postman settings, you can initiate a bulk import from a Postman data dump file. This will overwrite your existing data so be careful.
+From the same area in Postman settings, you can initiate a bulk import from a Postman data dump file. This will overwrite your existing data so be careful. [Read more about bulk import.](/docs/postman/collections/data_formats/#importing-postman-data)
 
 ## Updating Postman
 
 ### Native app (macOS, Windows and Linux)
 
-Postman's native apps will notify you whenever a major update is available. Other updates are indicated by an indicator that appears on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
+Postman's native apps will notify you when a major update is available. Other updates are indicated by a dot that appears on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
 
 [![settings update indicator](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)
 
@@ -154,7 +155,7 @@ You can also configure your preferences to enable automatic download for major u
 
 [![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)
 
-### Troubleshooting Postman Updates*
+### Troubleshooting Postman Updates
 
 Some users may encounter issues updating in the Windows version of Postman 6.1. To resolve you must set the environmental variable `POSTMAN_DISABLE_GPU=true`. In order to do this, follow these steps:
 
@@ -172,7 +173,7 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 
 ## Postman Chrome App
 
-Postman's Chrome app has been deprecated. Although you can still use it, new features and bug fixes are being released exclusively in our native apps. We recommend you download the free native app [Postman app](https://www.getpostman.com/downloads/) available for Mac, Windows, and Linux operating systems.
+Postman's Chrome app has been deprecated. Although you can still use it, new features and bug fixes are being released exclusively in our native apps. We recommend you [download the free native Postman app](https://www.getpostman.com/downloads/) available for Mac, Windows, and Linux operating systems.
 
 
 
