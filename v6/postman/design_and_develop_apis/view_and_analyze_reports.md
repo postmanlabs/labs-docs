@@ -7,8 +7,6 @@ warning: false
 
 Postman is attempting to expedite API development better and faster. As businesses integrate with systems and enable functionalities to provide better user experience, they end up creating more APIs. With the API ecosystem broadening, the need for detailed API analytics arises in order to be able to provide feedback to design, plan, develop & test teams. In addition, API analytics help CXOs, Product managers, and API Architects to understand how their digital initiatives are performing. 
 
-To address this, Postman introduced the **Reporting** feature where you will be able to explore around the APIs created, collection executions, test failures and so on. Postman reports are visualizations of your API data and they help you get insights on how your APIs are used, their performance, troubleshooting, planning, and adherence to Service level agreements. 
-
 Postman also provides key API and organization-level metrics to help you understand the needs of your users so you could make the best use of its features. Remember, your collections must be linked to your APIs in order for you to analyze your APIs. 
 
 **Note:** Your APIs must be shared with a team in order for you to generate reports. However, Postman does not take into account your APIs present in your personal workspaces.
