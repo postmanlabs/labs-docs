@@ -22,10 +22,6 @@ In addition to SSO, audit logs, static IP, and extended support and billing, the
 
 * [Dedicated IP addresses](/docs/v6/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions) for API monitoring.
 
-* Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces) to keep data in sync for the team.
-
-* [API documentation](/docs/v6/postman/api_documentation/intro_to_api_documentation) to share public or private documentation in a web page.
-
 * [Monitoring](/docs/v6/postman/monitors/intro_monitors) to check the performance of your API. Postman monitoring lets you run a collection periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes. 
 
 * [Mock servers](/docs/v6/postman/mock_servers) to simulate the real API and decouple teams collection [monitoring](/docs/v6/postman/monitors/intro_monitors) to check the performance of your API. Decoupling enables different members of your development team to work in parallel rather than having to wait on different pieces to be built before moving forward.

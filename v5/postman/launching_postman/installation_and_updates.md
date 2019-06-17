@@ -11,9 +11,9 @@ warning: false
 
 Postman is available as a native app for Mac, Windows, and Linux operating systems.
 
-To install Postman, go to the [apps page](https://www.getpostman.com/apps) and click **Download** for Mac / Windows / Linux depending on your platform.
+To install Postman, go to the [download page](https://www.getpostman.com/downloads/) and click **Download** for Mac / Windows / Linux depending on your platform.
 
-[![Postman apps page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161734.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161734.png)
+[![Postman download page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161734.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59161734.png)
 
 ##### **macOS installation**
 
@@ -70,7 +70,7 @@ The latest version of the native app also has a built-in [console](/docs/postma
 
 ### **Migrating to the native app**
 
-It’s simple.  Sign in to your Postman account after you [download](https://www.getpostman.com/apps) and start the new native app, and all your history and collections will be automatically synced.
+It’s simple.  Sign in to your Postman account after you [download](https://www.getpostman.com/downloads/) and start the new native app, and all your history and collections will be automatically synced.
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app.
 
@@ -120,7 +120,7 @@ If you continue experiencing difficulty with the update, fetch the logs from **
 
 ##### **Linux**
 
-Postman’s native app on Linux will notify you whenever an update is available. If an update is available, you need to download the [latest version](https://www.getpostman.com/apps) of the application, remove the current application directory, and extract the new version. Postman stores all user data outside of the application directory, so you can safely remove the current application directory and install the new version.  
+Postman’s native app on Linux will notify you whenever an update is available. If an update is available, you need to download the [latest version](https://www.getpostman.com/downloads/) of the application, remove the current application directory, and extract the new version. Postman stores all user data outside of the application directory, so you can safely remove the current application directory and install the new version.  
 
 Since Postman's native apps check for updates only on app reload or launch, at any time, you can force a check for updates under the **Update** tab in the **SETTINGS** modal of the app. 
 

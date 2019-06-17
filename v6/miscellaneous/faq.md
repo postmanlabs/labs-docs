@@ -69,4 +69,4 @@ We offer native apps for Mac and Windows (available [here][18]). You can downloa
 [14]: http://blog.getpostman.com/2014/01/27/enabling-chrome-developer-tools-inside-postman/
 [16]: https://www.getpostman.com/support
 [17]: https://github.com/postmanlabs/newman/issues
-[18]: https://www.getpostman.com/apps
+[18]: https://www.getpostman.com/downloads/

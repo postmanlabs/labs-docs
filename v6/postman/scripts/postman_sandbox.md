@@ -8,22 +8,22 @@ warning: false
 
 The Postman Sandbox is a JavaScript execution environment that is available to you when writing pre-request scripts and test scripts for requests (both in Postman and Newman). The code you write in the pre-request/test script section is executed in this sandbox.
 
-### Commonly used libraries and utilities
+## Commonly used libraries and utilities
 
 *   [Lodash](https://lodash.com/): JS utility library
 *   [cheerio](https://cheerio.js.org/): A fast, lean implementation of the core jQuery API (available in versions 4.6.0 and up)
-*   [BackboneJS](http://backbonejs.org/) **Deprecated**: Provides simple models, views, and collections. This will be removed in future versions of the sandbox.
-*   [SugarJS](http://sugarjs.com/) **Deprecated**: Extends native JS objects with useful methods. This will be removed in future versions of the sandbox.
-*   [tv4 JSON schema validator](https://github.com/geraintluff/tv4)**Deprecated**: Validates JSON objects against v4 of the json-schema draft
+*   [BackboneJS](https://backbonejs.org/) **Deprecated**: Provides simple models, views, and collections. This will be removed in future versions of the sandbox.
+*   [SugarJS](https://sugarjs.com/) **Deprecated**: Extends native JS objects with useful methods. This will be removed in future versions of the sandbox.
+*   [tv4 JSON schema validator](https://github.com/geraintluff/tv4) **Deprecated**: Validates JSON objects against v4 of the json-schema draft
 *   [Ajv](https://github.com/epoberezkin/ajv): JSON schema validator.
-*   [CryptoJS](https://code.google.com/p/crypto-js/): standard and secure cryptographic algorithms. Supported algorithms: AES, DES, EvpKDF, HMAC-MD5, HMAC-SHA1/3/256/512, MD5, PBKDF2, Rabbit, SHA1/3/224/256/512, TripleDES
+*   [CryptoJS](https://code.google.com/archive/p/crypto-js/): standard and secure cryptographic algorithms. Supported algorithms: AES, DES, EvpKDF, HMAC-MD5, HMAC-SHA1/3/256/512, MD5, PBKDF2, Rabbit, SHA1/3/224/256/512, TripleDES
 *   `xml2Json(xmlString)`: This function behaves the same in Newman and Postman
 *   `xmlToJson(xmlString)` **Deprecated**: This function does NOT behave the same in Newman and Postman
 *   `postman.getResponseHeader(headerName)` Test-only: Returns the response header with name “headerName”, if it exists. Returns null if no such header exists. **Note**: According to W3C specifications, header names are case-insensitive. This method takes care of this. `postman.getResponseHeader("Content-type")` and `postman.getResponseHeader("content-Type")` will return the same value.
 
 Note: jQuery support has been discontinued since version 4.6.0, in favor of [cheerio](https://cheerio.js.org/).
 
-### Environment and global variables
+## Environment and global variables
 
 *   `postman.setEnvironmentVariable(variableName, variableValue)`: Sets an environment variable “variableName”, and assigns the string “variableValue” to it. You must have an environment selected for this method to work. **Note**: Only strings can be stored. Storing other types of data will result in unexpected behavior.
 *   `postman.getEnvironmentVariable(variableName)`: Returns the value of an environment variable “variableName”, for use in pre-request & test scripts. You must have an environment selected for this method to work.
@@ -36,7 +36,7 @@ Note: jQuery support has been discontinued since version 4.6.0, in favor of [ch
 *   `environment`: A dictionary of variables in the current environment. Use `environment["foo"]` to access the value of the “foo” environment variable. **Note:** This can only be used to read the variable. Use `setEnvironmentVariable()` to set a value.
 *   `globals`: A dictionary of global variables. Use `globals["bar"]` to access the value of the “bar” global variable. **Note:** This can only be used to read the variable. Use `setGlobalVariable()` to set a value
 
-### Dynamic variables
+## Dynamic variables
 
 Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
@@ -44,12 +44,12 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 *   `{{$timestamp}}`: Adds the current timestamp
 *   `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
-### Cookies
+## Cookies
 
 *   `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](/docs/postman/sending_api_requests/interceptor_extension) for this to work.
-*   `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
+*   `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](https://blog.getpostman.com/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
 
-### Request/response related properties
+## Request/response related properties
 
 *   `request {object}`: Postman makes the request object available to you while writing scripts. This object is read-only. Changing properties of this object will have no effect. Note: Variables will NOT be resolved in the request object. The request object is composed of the following:
     *   `data {object}` - this is a dictionary of form data for the request. (`request.data[“key”]==”value”`)
@@ -68,10 +68,10 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 
 **Test-only**: This object is only available in the test script section. Using this in a pre-request script throws an error.
 
-### Data files
+## Data files
 
-If you’re using [data files](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) in the Collection Runner or in Newman, you’ll have access to a `data` object, which is a dictionary of data values in the current test run.
+If you're using [data files](https://blog.getpostman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) in the Collection Runner or in Newman, you'll have access to a `data` object, which is a dictionary of data values in the current test run.
 
-### pm.* APIs
+## pm.* APIs
 
-Review [Postman Sandbox API Reference](/docs/postman/scripts/postman_sandbox_api_reference).
+Review [Postman Sandbox API Reference](/docs/postman/scripts/postman_sandbox_api_reference/).

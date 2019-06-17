@@ -18,7 +18,7 @@ Signing up is completely optional. Read our [EULA](https://www.getpostman.com/li
 
 ### Signing up for a Postman account
 
-1. If you haven't already, [download](https://www.getpostman.com/apps) the Postman app.
+1. If you haven't already, [download](https://www.getpostman.com/downloads/) the Postman app.
 2. Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
 3. Sign up with your email address or your Google account.
