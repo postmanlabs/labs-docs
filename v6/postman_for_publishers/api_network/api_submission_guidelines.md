@@ -58,7 +58,7 @@ The submission process is quite simple. Adhere to the following 3-step process:
 
 1. Decide your API (or list of APIs) to be published to the Postman's API network.
 2. Adhere to the API submission requirements.
-3. Submit them to the Postman API network.
+3. Select the [API Network option](docs/postman/api_documentation/publishing_public_docs/), fill appropriate details, and submit to the API network. 
 
 The moderators at the Postman API network will review your APIs, may request additional changes and then approve them for publication to the API network.
 
