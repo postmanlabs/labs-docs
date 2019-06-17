@@ -14,7 +14,7 @@ You won't have to worry about remembering all those values once they are in Post
 [![](https://www.getpostman.com/img/v1/docs/thumbs/28.png)
 ][0]
 
-Each environment is a set of key-value pairs. These can be edited using the [key-value editor][1]. They key is the variable name.
+Each environment is a set of key-value pairs. These can be edited using the [key-value editor][1]. The key is the variable name.
 
 Variables can be used in the following form - `{{variableName}}`. The string {{variableName}} will be replaced with its corresponding value.
 For example, for an environment variable 'url' with the value 'http://localhost' , you will have to use `{{url}}` in the request URL field.
@@ -30,7 +30,7 @@ As a best practice, you should save all sensitive values in an environment and p
 
 Variables can be used in the following places: URL, URL parameters, headers (both names and values), form-data, url-encoded-data, raw data.
 
-Warning - Environment and global variables will always be stored as strings.
+**Warning** - Environment and global variables will always be stored as strings.
 If you're storing objects/arrays, be sure to JSON.stringify() them before storing, and JSON.parse() them while retrieving.
 
 ## Global variables
@@ -42,7 +42,7 @@ If a variable from the currently active environment shares its name with a globa
 In other words, global variables are overriden by environment variables, which are overriden by
 [data variables][2] (only available in the [collection runner][3]).
 
-#### Dynamic variables
+## Dynamic variables
 
 Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox.
 You can only use them in the `{{..}}` format in the request URL / headers / body.
@@ -53,6 +53,6 @@ You can only use them in the `{{..}}` format in the request URL / headers / body
 
 
 [0]: https://www.getpostman.com/img/v1/docs/source/28.png
-[1]: https://www.getpostman.com/docs/keyvalue_editor
-[2]: http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
+[1]: /docs/postman/launching_postman/navigating_postman/#data-editor
+[2]: https://blog.getpostman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
 [3]: https://www.getpostman.com/docs/jetpacks_running_collections
