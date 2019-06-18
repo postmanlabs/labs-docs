@@ -6,11 +6,11 @@ warning: false
 
 1.	Are these reports generated real time?
 
-    The reports are not generated real-time. The reports may show you a lag of few minutes to 24 hours. You can view the last updated time to know the exact time the reports were last refreshed. 
+    The reports are not generated real-time. They may show you a lag of few minutes to 24 hours. You can view the last updated time to know the exact time the reports were last refreshed. 
 
 2.	What kind of reports can I see now?
 
-    You can see all the reports – both team and API-level. You will be able to view all the shared APIs as well as the APIs that you have access for in the team
+    You can see both team and API-level reports. You will be able to view all the shared APIs as well as the APIs that you have access for in the team workspace. 
 
 3.	Can I view reports for individual collections?
 
@@ -22,30 +22,103 @@ warning: false
 
 5.	I don’t see any data in reports, why?
 
-    There are various reasons you don't see data in your reports:
+    There could be multiple possibilities for...... don't see data in your reports: 
 
-    a. It is too early to check. The data is not generated yet because there is a lag of 24 hours.
+    1. It is too early to check. The data refresh happens every 24 hours and it may be possible that the data may not have refreshed yet. 
+    
+    2. You might have linked a wrong collection to your API.
 
-    b. 
+    3. You might have forgotten to link a collection to your API.
+
+    4. You may be viewing data for an API which is in your personal workspace. 
+
+    **Note:** If you think none of the above reasons are accurate for your use case, please file a github issue so Postman team can look into and address it. 
 
 6.	Why an API is not listed here?
 
-7.	How much recent is the data shown in history?
+    Your API may have been created in your personal workspace and not shared. You must share your API in a team workspace in order for your API to be listed. 
+
+7.	How much recent is the data shown in graph?
+
+    At any given point of time, Postman's Reporting Dashboard displays last 30 days (rolling) of history that you can use to view your reports. You can view your reports for the last 7 or 30 days. 
 
 8.	How are metrics calculated in Postman?
 
     1.	Average response size
+ 
+        The average response size is calculated based on the size of the response received on a particular day. The day when no requests are sent are not accounted for when calculating this metric. The following screen illustrates this:
+
+        [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png) 
+
+        
+
+        
+
+
     2.	Average response time
+
+
+
     3.	Failed test runs
+
+
     4.	Team API requests
+
+        Team API requests are calculated based on the number of requests you send over a period of time divided by the number of requests. Let's consider the following example:
+
+        [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png) 
+
+        In the example above, 15 requests were sent on Jun 12. Over the next six days no requests were sent. The 7-day average is 2.14. 
+
+
+
+
+        
+
+
+
+
 9.	What are the data sources Postman uses to calculate metrics?
+
+    Postman uses the data in its **History** tab to calculate the metrics. 
 
 10.	How do I view per-day metrics?
 
+    To view per-day metrics, point your cursor on a particular date on the graph and click to view per-day metrics. The following screen illustrates viewing per-day metrics:
+
+    [![reports per day](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-PerDay1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-PerDay1.gif) 
+    
+
 11.	Why summary average response size does not match with the average of the graph?
 
-12.	What does ‘Change over time’ colour is illustrated?
+    
+
+
+
+
+12.	What does color coding in the graph for *Change over time* denote?
+
+    The *Change over time* color coding is denoted in Red and Green colors to indicate an average decrease or increase over a period of time. Red color denotes deterioration ..... of  performance or activity in the activity and green vice versa. Let's consider the following two examples:
+
+    **Example 1**
+ 
+    [![color code 1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-ColorCode1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-ColorCode1.png) 
+
+    The above example illustrates an 86.38 per cent decrease in the team API requests over a period of last seven days - so it is denoted in red. 
+
+
+    **Example 2:** 
+
+     [![color code 2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-ColorCode2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-ColorCode2.png) 
+
+     The above example illustrates a decrease in the average response size over a period of last seven days. Since there is a decrease in response, it is denoted in green.
 
 13.	Can someone view details of entities for which they don’t have access to?
 
+    No, you cannot view the details of entities for which you don't have access for.
+
 14.	Why Response size/time and response codes are empty when requests are sent?
+
+    You must enable the setting **Save Reponses** in the **History** tab. By default it’s not enabled.
+
+    [![save response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response_Jun18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response_Jun18.png) 
