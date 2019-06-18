@@ -4,7 +4,7 @@ page_id: "Reporting FAQs"
 warning: false
 ---
 
-1.	Are these reports generated real time?
+1.	Are these reports generated real-time?
 
     The reports are not generated real-time. They may show you a lag of few minutes to 24 hours. You can view the last updated time to know the exact time the reports were last refreshed. 
 
@@ -22,7 +22,7 @@ warning: false
 
 5.	I don’t see any data in reports, why?
 
-    There could be multiple possibilities for...... don't see data in your reports: 
+    There could be multiple reasons for not seeing data in your reports: 
 
     1. It is too early to check. The data refresh happens every 24 hours and it may be possible that the data may not have refreshed yet. 
     
@@ -48,19 +48,21 @@ warning: false
  
         The average response size is calculated based on the size of the response received on a particular day. The day when no requests are sent are not accounted for when calculating this metric. The following screen illustrates this:
 
-        [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png) 
+        [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-AvgResp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-AvgResp.png) 
 
-        
-
-        
-
+        In the above screen, the response size is shown for Jun 12. No request is sent on other dates in the graph. The average is calculated without accounting for the dates that have zero requests sent.
 
     2.	Average response time
 
+        The average response time is calculated based on the time taken to return the response of the request. The day when no requests are sent are not accounted for when calculating this metric. The following screen illustrates this:
 
+        [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-AvgRespTime.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-AvgRespTime.png) 
+
+        In the above screen, the response time is shown for Jun 12. No response is received on other dates because no request is sent. The average is calculated without accounting for the dates that have zero responses received. 
 
     3.	Failed test runs
 
+        Gives you the number of failed test runs during a period of time. The average is calculated by taking into account all the days (even if no request is sent during a day). 
 
     4.	Team API requests
 
@@ -68,15 +70,7 @@ warning: false
 
         [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png) 
 
-        In the example above, 15 requests were sent on Jun 12. Over the next six days no requests were sent. The 7-day average is 2.14. 
-
-
-
-
-        
-
-
-
+        In the example above, 15 requests were sent on Jun 12. Over the next six days no requests were sent. The 7-day average is 2.14 (15/7).
 
 9.	What are the data sources Postman uses to calculate metrics?
 
@@ -91,14 +85,11 @@ warning: false
 
 11.	Why summary average response size does not match with the average of the graph?
 
-    
-
-
-
+    Typically, raw data is accounted for when calculating averages. In order to determine an accurate average, you must not calculate an average using data from already derived averages.   
 
 12.	What does color coding in the graph for *Change over time* denote?
 
-    The *Change over time* color coding is denoted in Red and Green colors to indicate an average decrease or increase over a period of time. Red color denotes deterioration ..... of  performance or activity in the activity and green vice versa. Let's consider the following two examples:
+    The *Change over time* color coding is denoted in Red and Green colors to indicate an average decrease or increase over a period of time. Red color denotes decline in performance or activity and green denotes vice versa. Let's consider the following two examples:
 
     **Example 1**
  
