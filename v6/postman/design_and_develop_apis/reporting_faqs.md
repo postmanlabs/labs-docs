@@ -22,7 +22,8 @@ warning: false
 
 5.	I don’t see any data in reports, why?
 
-    There could be multiple reasons for not seeing data in your reports: 
+    There could be multiple reasons 
+    for not seeing data in your reports: 
 
     1. It is too early to check. The data refresh happens every 24 hours and it may be possible that the data may not have refreshed yet. 
     
@@ -34,7 +35,7 @@ warning: false
 
     **Note:** If you think none of the above reasons are accurate for your use case, please file a github issue so Postman team can look into and address it. 
 
-6.	Why an API is not listed here?
+6.	Why my API is not listed here?
 
     Your API may have been created in your personal workspace and not shared. You must share your API in a team workspace in order for your API to be listed. 
 
