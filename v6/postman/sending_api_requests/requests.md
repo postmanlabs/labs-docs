@@ -142,17 +142,24 @@ Binary data allows you to send things which you can not enter in Postman, for ex
 
 GraphQL is a query language for APIs that uses a type system to fetch data and manipulate
 
-Postman's GraphQL support lets you interact with the GraphQL server. As a result, you can now author and send your GraphQL requests, store GraphQL schemas in APIs and enable autocomplete. You can do all of this directly from the Postman app. 
+Postman now supports sending GraphQL queries in the request body. You can author and send your GraphQL requests, store GraphQL schemas in APIs and enable GraphQL query autocompletion.
 
-You can author and send your GraphQL requests in Postman using the new body type *GraphQL*, as illustrated below:
+The following screen illustrates how you can send a GraphQL query in Postman using the new body type *GraphQL*:
 
 [![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)
 
 The GraphQL body type provides you a rich user interface for authoring and sending your requests. The Editor also enables you to author both queries and variables separately. 
 
-### Sending a GraphQL request
+Blog...
 
-### Sending a GraphQL query with variables
+
+
+
+### Sending a GraphQL query
+
+
+
+### Working with GraphQL variables
 
 ### Importing GraphQL schemas 
 
