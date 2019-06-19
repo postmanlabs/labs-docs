@@ -39,3 +39,10 @@ Be a bit magnanimous in describing your collection details. If possible, clearly
 **The Params:**
 
 [![params](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates4.png)
+
+
+##### Good template submissions:
+
+- [API Design Guide](https://documenter.getpostman.com/view/1372588/S1LsZqc9?version=latest)
+- [Databases](https://documenter.getpostman.com/view/5922408/RznJmGfn?version=latest)
+- [DNS Checker](https://documenter.getpostman.com/view/3967924/RW1bozWL?version=latest)
