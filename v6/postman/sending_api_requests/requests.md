@@ -156,17 +156,18 @@ Postman provides a separate interface to author GraphQL variables. You can also 
 
 ### Importing GraphQL schemas 
 
-You can easily create or import GraphQL schemas in Postman. To create a GraphQL API schema in Postman, perform the steps as illustrated in the following screen:
+You can easily create or import GraphQL schemas in Postman. To create a GraphQL API schema in Postman, perform the steps illustrated in the following screen:
 
-
+[![auto complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Auto1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Auto1.gif)
 
 1. Click **APIs** tab, select an API (or create a new API), navigate to the **Define** tab, select **Create new**/**Import file**, choose *GraphQL* from the dropdown and click **Save**.  
 
-
+2. Go to the **Collections** tab, navigate to the **Body** tab, select **GraphQL** body type, and start typing your query and autocomplete lets you view and insert possible completions from the content in your GraphQL schema. 
 
 ### Autocomplete for GraphQL
 
+Once you create or import a GraphQL schema, save the schema in the API and then select the schema from the dropdown under **GraphQL** body, as illustrated below:
 
+[![schema selection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Schema.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Schema.png)
 
-
-
+Start typing your GraphQL query to let autocomplete assist you from the content in the schema. 
