@@ -37,7 +37,7 @@ warning: false
 
     5.  You did not send any request.
 
-    6. You did not execute requests from history tab but from monitoring/collection run/newman.
+    6. You executed requests from monitoring/collection run/newman but not from history tab.
 
     7. App sync is not working and requests failed to reach Postman server.
 
