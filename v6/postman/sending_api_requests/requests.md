@@ -140,28 +140,29 @@ Binary data allows you to send things which you can not enter in Postman, for ex
 
 ##### GraphQL
 
-GraphQL is a query language for APIs that uses a type system to fetch data and manipulate
-
-Postman now supports sending GraphQL queries in the request body. You can author and send your GraphQL requests, store GraphQL schemas in APIs and enable GraphQL query autocompletion.
-
-The following screen illustrates how you can send a GraphQL query in Postman using the new body type *GraphQL*:
-
-[![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)
-
-The GraphQL body type provides you a rich user interface for authoring and sending your requests. The Editor also enables you to author both queries and variables separately. 
-
-Blog...
-
-
-
+With GraphQL support in Postman, you can now author and send GraphQL queries using the request body. Besides authoring GraphQL requests, you can create and store GraphQL schemas directly in Postman and enable GraphQL query autocompletion (powered by Postman API schemas).
 
 ### Sending a GraphQL query
 
+Authoring and sending a GraphQL query in Postman is simple. The following screen illustrates sending a GraphQL query in Postman using the new body type *GraphQL*:
 
+[![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)
+
+To send a GraphQL query, ensure you're present in the *Body* tab and then select **GraphQL** (shown above in red circle). Enter your GraphQL query in the *Query* section and send your request. The GraphQL body type provides a rich user interface for authoring and sending requests. The Editor enables you to author both queries and variables separately, as illustrated in the above screen. 
 
 ### Working with GraphQL variables
 
+Postman provides a separate interface to author GraphQL variables. You can also use Postman variables as data for GraphQL variables using `{{variable}}` syntax.
+
 ### Importing GraphQL schemas 
+
+You can easily create or import GraphQL schemas in Postman. To create a GraphQL API schema in Postman, perform the steps as illustrated in the following screen:
+
+
+
+1. Click **APIs** tab, select an API (or create a new API), navigate to the **Define** tab, select **Create new**/**Import file**, choose *GraphQL* from the dropdown and click **Save**.  
+
+
 
 ### Autocomplete for GraphQL
 
