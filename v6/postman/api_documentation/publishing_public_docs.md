@@ -18,7 +18,9 @@ Alternatively, you can also click ellipsis (...) in the sidebar and select 'Publ
 
 From the **Publish Collection** page, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) and a corresponding collection version to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment. 
 
-[![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Publish2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Publish2.png)
+[![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Preview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Publish-Docs-Preview.png)
+
+You will also be able to preview your documentation before you publish. To preview your documentation, click **Preview Documentation** as illustrated in the above screen. 
 
 Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page.
 
