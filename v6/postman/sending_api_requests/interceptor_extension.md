@@ -19,6 +19,7 @@ The following section describes two topics:
 
 You can use your authenticated sessions from the browsers to make a request in the native app using the bridge available for the Interceptor. You will need to install the interceptor bridge in order for you to make API calls from the native app. You can find step-by-step instructions in the link to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). You must also be on Postman Interceptor v0.2.26 and above, which you can download it from [here](https://go.pstmn.io/interceptor-download).
 
+
 Once you're done with the installation of the Interceptor bridge, the **Interceptor Connected** status turns green. Turn on the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
 
 [![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif.png)
@@ -26,6 +27,11 @@ Once you're done with the installation of the Interceptor bridge, the **Intercep
 Whenever you add a domain, Postman will sync all cookies for that domain in the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
 
 Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click ‘x’ next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
+
+**Note:** The interceptor and Postman communicate via two sets of IPC. One provided by Chrome (from the Interceptor to the Bridge), one from the bridge to Postman. You can choose to set a key for end-to-end encryption of your messages. By default, Postman encrypts all the messages between the Interceptor and the Postman native app. 
+
+If you set a key for encryption, use the pm.interceptorBridge.setKey(key: String) command in the app. To set the key on the interceptor, open the Interceptor extension popup from the toolbar, right click > Inspect Element > Console. Enter the same command here - pm.interceptorBridge.setKey(key: String). This will encrypt anything sent between the two sides using AES.
+
 
 #### Installing the Interceptor Bridge:
 
