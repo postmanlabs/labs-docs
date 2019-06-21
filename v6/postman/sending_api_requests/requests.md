@@ -140,7 +140,13 @@ Binary data allows you to send things which you can not enter in Postman, for ex
 
 ##### GraphQL
 
-With GraphQL support in Postman, you can now author and send GraphQL queries using the request body. Besides authoring GraphQL requests, you can create and store GraphQL schemas directly in Postman and enable GraphQL query autocompletion (powered by Postman API schemas).
+With GraphQL support in Postman, you can now author and send GraphQL queries using the request body. Besides authoring GraphQL requests, you can:
+
+* Create and store GraphQL schemas directly in Postman 
+
+* Enable GraphQL query autocompletion (powered by Postman API schemas)
+
+* Edit and author GraphQL variables in a separate view
 
 ### Sending a GraphQL query
 
@@ -153,6 +159,8 @@ To send a GraphQL query, ensure you're present in the *Body* tab and then select
 ### Working with GraphQL variables
 
 Postman provides a separate interface to author GraphQL variables. You can also use Postman variables as data for GraphQL variables using `{{variable}}` syntax.
+
+
 
 ### Importing GraphQL schemas 
 
@@ -170,4 +178,4 @@ Once you create or import a GraphQL schema, save the schema in the API and then 
 
 [![schema selection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Schema.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Schema.png)
 
-Start typing your GraphQL query to let autocomplete assist you from the content in the schema. 
+Click **Refresh** arrow adjacent to the **Graphql (Draft)** schema dropdown if you don't see your schema in the list. Start typing your GraphQL query to let autocomplete assist you from the content in the schema. 
