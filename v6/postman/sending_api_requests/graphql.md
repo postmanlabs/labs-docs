@@ -24,7 +24,7 @@ This section describes the following topics:
 
 Authoring and sending a GraphQL query in Postman is simple. The following screen illustrates sending a GraphQL query in Postman using the new body type *GraphQL*:
 
-[![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)
+[![graphql body](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)
 
 To send a GraphQL query, ensure you're present in the *Body* tab and then select **GraphQL** (shown above in red circle). Enter your GraphQL query in the *Query* section and send your request. The GraphQL body type provides a rich user interface for authoring and sending requests. The Editor enables you to author both queries and variables separately, as illustrated in the above screen. 
 
@@ -34,7 +34,7 @@ Postman provides a separate interface to author GraphQL variables. You can also 
 
 After defining your GraphQL query in the *Query* editor, you can author and edit GraphQL variables in a separate variables editor, as illustrated below:
 
-[![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Variables.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)
+[![edit variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Variables.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Variables.png)
 
 ### Importing GraphQL schemas 
 
@@ -44,7 +44,7 @@ You can easily create or import GraphQL schemas in Postman. To create a GraphQL 
 
 1. Click **APIs** tab, select an API (or create a new API), navigate to the **Define** tab, select **Create new**/**Import file**, choose *GraphQL* from the dropdown and click **Save**.  
 
-2. Go to the **Collections** tab, navigate to the **Body** tab, select **GraphQL** body type, and start typing your query and autocomplete lets you view and insert possible completions from the content in your GraphQL schema. 
+2. Go to the **Collections** tab, select the request, navigate to the **Body** tab, and select **GraphQL** body type. Select your schema from the **GraphQL (Draft)** dropdown and start typing your query. Autocomplete lets you view and insert possible completions from the content in your GraphQL schema. 
 
 ### Autocomplete for GraphQL
 
@@ -52,4 +52,3 @@ Once you create or import a GraphQL schema, save the schema in the API and then 
 
 [![schema selection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Schema.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Schema.png)
 
-Click **Refresh** arrow adjacent to the **Graphql (Draft)** schema dropdown if you don't see your schema in the list. Start typing your GraphQL query to let autocomplete assist you from the content in the schema.
