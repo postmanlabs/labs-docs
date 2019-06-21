@@ -20,7 +20,7 @@ The following section describes two topics:
 You can use your authenticated sessions from the browsers to make a request in the native app using the bridge available for the Interceptor. You will need to install the interceptor bridge in order for you to make API calls from the native app. You can find step-by-step instructions in the link to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). You must also be on Postman Interceptor v0.2.26 and above, which you can download it from [here](https://go.pstmn.io/interceptor-download).
 
 
-Once you're done with the installation of the Interceptor bridge, the **Interceptor Connected** status turns green. Turn on the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
+Once you're done with the installation of the Interceptor bridge, the **INTERCEPTOR CONNECTED** status turns green. Turn on the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
 
 [![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif.png)
 
