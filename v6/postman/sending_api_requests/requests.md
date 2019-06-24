@@ -10,7 +10,6 @@ You can create and save a request from the:
 * New button
 * Launch screen
 
-
 ### Using the New Button
 
 1. In the header toolbar, click the **New** button.
@@ -98,7 +97,7 @@ You can also customize the methods the way you want. To learn more about customi
 
 ### Request Body
 
-While constructing requests, you'll work frequently with the request body editor. Postman lets you send almost any kind of HTTP request. The body editor is divided into five areas and has different controls, depending on the body type.
+While constructing requests, you'll work frequently with the request body editor. Postman lets you send almost any kind of HTTP request. The body editor is divided into six areas and has different controls, depending on the body type.
 
 **Note about Headers**: When you are sending requests through the HTTP protocol, your server might expect a Content-Type header. The Content-Type header allows the server to parse the body properly. For form-data and urlencoded body types, Postman automatically attaches the correct Content-Type header so you don't have to set it. The raw mode header is set when you select the formatting type. If you manually use a Content-Type header, that value takes precedence over what Postman sets. Postman does not set any header type for the binary body type.
 
@@ -108,7 +107,7 @@ While constructing requests, you'll work frequently with the request body editor
 
 [![body none](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Body_None.png)
 
-##### **Form-data**
+##### Form-data
 
 [![form-data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)
 
@@ -118,13 +117,13 @@ When you repeatedly make API calls that require sending these files again and ag
 Uploading multiple files each with their own Content-Type is not supported yet.
 
 
-##### **Urlencoded**
+##### Urlencoded
 
 [![urlencoded data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestBuilderUrlEncoded.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestBuilderUrlEncoded.png)
 
 This encoding is the same as the one used in URL parameters. You just need to enter key-value pairs and Postman will encode the keys and values properly. Note that you cannot upload files through this encoding mode. There might be some confusion between form-data and urlencoded so make sure to check with your API first.
 
-##### **Raw**
+##### Raw
 
 [![raw data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960775.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960775.png)
 
@@ -132,8 +131,16 @@ A raw request can contain anything. Postman doesn’t touch the string entered i
 
 **Tip**: Selecting text in the editor and pressing **CMD/CTRL + B** can beautify the XML/JSON content automatically.
 
-##### **Binary**
+##### Binary
 
 [![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960827.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960827.png)
 
 Binary data allows you to send things which you can not enter in Postman, for example, image, audio, or video files. You can send text files as well. 
+
+##### GraphQL
+
+Authoring and sending a GraphQL query in Postman is simple. The following screen illustrates sending a GraphQL query in Postman using the new body type *GraphQL*:
+
+[![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body.png)
+
+To send a GraphQL query, ensure you're present in the *Body* tab and then select **GraphQL** (shown above in red circle). Enter your GraphQL query in the *Query* section and send your request. The GraphQL body type provides a rich user interface for authoring and sending requests. The Editor enables you to author both queries and variables separately, as illustrated in the above screen. Refer to [GraphQL]((/docs/postman/sending_api_requests/graphql)) section for more information on GraphQL and how to enable **Autocomplete** feature powered by Postman API schemas.
