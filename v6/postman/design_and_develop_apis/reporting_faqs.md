@@ -1,6 +1,6 @@
 ---
 title: "Reporting FAQs"
-page_id: "Reporting FAQs"
+page_id: "reporting_faqs"
 warning: false
 ---
 
