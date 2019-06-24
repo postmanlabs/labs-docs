@@ -11,18 +11,18 @@ Postman Interceptor is a Chrome extension that functions as a proxy to capture H
 
 The following section describes two topics:
 
-* [Using Postman Interceptor in app](#using-postman-interceptor-in-app)
+* [Using the Interceptor with Postman's native app](#using-the-interceptor-with-postman's-native-app)
 
-* [Using Postman Interceptor as a Chrome extension](#using-postman-interceptor-as-a-chrome-extension)
+* [Using the Interceptor with Postman's Chrome app](#using-the-Interceptor-with-postman's-chrome-app)
 
-### Using Postman Interceptor in app 
+### Using the Interceptor with Postman's native app 
 
-You can use your authenticated sessions from the browsers to make a request in the native app using the bridge available for the Interceptor. You will need to install the interceptor bridge in order for you to make API calls from the native app. You can find step-by-step instructions in the link to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). You must also be on Postman Interceptor v0.2.26 and above, which you can download it from [here](https://go.pstmn.io/interceptor-download).
+You can use your authenticated sessions from the browsers to make a request in the native app using the bridge available for the Interceptor. You will need to install the interceptor bridge in order for you to make API calls from the native app. You can find step-by-step instructions in the link to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). You must also be on Postman Interceptor v0.2.26 and above, which you can download from [here](https://go.pstmn.io/interceptor-download).
 
 
-Once you're done with the installation of the Interceptor bridge, the **INTERCEPTOR CONNECTED** status turns green. Turn on the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
+Once you're done with the installation of the Interceptor bridge, the **INTERCEPTOR CONNECTED** status turns green. Turn the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
 
-[![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif.png)
+[![binary data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)
 
 Whenever you add a domain, Postman will sync all cookies for that domain in the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
 
@@ -51,7 +51,7 @@ Download the Interceptor bridge for the corresponding OS by clicking the respect
 
 5. Open the console in Postman: View > Developer > Show DevTools (Current View).
 
-### Using Postman Interceptor as a Chrome extension
+### Using the Interceptor with Postman's Chrome app
 
 Postman Interceptor is a Chrome extension that functions as a proxy to capture HTTP or HTTPS requests. It can capture network requests directly from Chrome and save them to Postman’s history. This means you can debug your web apps APIs in real time! 
 
