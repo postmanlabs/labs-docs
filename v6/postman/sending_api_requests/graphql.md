@@ -20,7 +20,7 @@ This section describes the following topics:
 * [Importing GraphQL schemas](#importing-graphql-schemas)
 * [Autocomplete for GraphQL](#autocomplete-for-graphql)
 
-### Sending a GraphQL query
+## Sending a GraphQL query
 
 Authoring and sending a GraphQL query in Postman is simple. The following screen illustrates sending a GraphQL query in Postman using the new body type *GraphQL*:
 
@@ -36,7 +36,7 @@ After defining your GraphQL query in the *Query* editor, you can author and edit
 
 [![edit variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Variables.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/GraphQL-Body-Variables.png)
 
-### Importing GraphQL schemas 
+## Importing GraphQL schemas 
 
 You can easily create or import GraphQL schemas in Postman. To create a GraphQL API schema in Postman, perform the steps illustrated in the following screen:
 
@@ -46,7 +46,7 @@ You can easily create or import GraphQL schemas in Postman. To create a GraphQL 
 
 2. Go to the **Collections** tab, select the request, navigate to the **Body** tab, and select **GraphQL** body type. Select your schema from the **GraphQL (Draft)** dropdown and start typing your query. Autocomplete lets you view and insert possible completions from the content in your GraphQL schema. 
 
-### Autocomplete for GraphQL
+## Autocomplete for GraphQL
 
 Once you create or import a GraphQL schema, save the schema in the API and then select the schema from the dropdown under **GraphQL** body, as illustrated below:
 
