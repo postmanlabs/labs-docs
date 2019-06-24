@@ -32,25 +32,17 @@ warning: false
 
     3. You might have forgotten to link the collection to your API.
 
-    4. You may be looking for an API which is not shared.
+    4. You did not send any request or you have executed requests from Monitoring/Collection Run/Newman but not from the request builder.
 
-    5. You did not send any request.
+    6. App sync is not working and requests failed to reach Postman server.
 
-    6. You executed requests from Monitoring/Collection Run/Newman but not from history tab.
+    **Note:** If none of the above reasons apply for your situation, please file a [github issue](https://github.com/postmanlabs/) so Postman team can look into it and address. 
 
-    7. App sync is not working and requests failed to reach Postman server.
+6.	Why is my API not listed here?
 
-    **Note:** If none of the above reasons apply for your situation, please file a github issue so Postman team can look into it and address. 
+    Reports only track data from APIs that have been shared to team workspaces. Your API may have been created in your personal workspace.
 
-6.	Why my API is not listed here?
-
-    Your API may have been created in your personal workspace and not shared. You must share your API in a team workspace in order for your API to be listed. 
-
-7.	How recent is the reporting data shown in the graph?
-
-    At any given point of time, Postman's Reporting Dashboard displays last 30 days (rolling) of history that you can use to view your reports. You can view reports for the last 7 or 30 days. 
-
-8.	How are metrics calculated in Postman?
+7.	How are metrics calculated in Postman?
 
     1. Team API requests
 
@@ -80,25 +72,21 @@ warning: false
 
         Gives you the number of failed tests for collection runs during a period of time. The summary average is calculated by taking into account all the days (even if no request is sent during a day). 
 
-9.	What are the data sources Postman uses to calculate metrics?
+8.	What are the data sources Postman uses to calculate metrics?
 
-    Postman uses the data in its **History** tab to calculate the metrics. However, for failed test runs, Postman obtains the data from Collection runs.
+    Postman reports track data sent only through the request builder but does not track data sent through Newman, Collection runs and Monitors. However, failed test runs generates reports using Collection runs. 
+    
+    Postman obtains data from Collection runs to generate reports for failed test runs.  
 
-10.	How do I view per-day metrics?
-
-    To view per-day metrics, point your cursor on a particular date on the graph and click to view per-day metrics. The following screen illustrates viewing per-day metrics:
-
-    [![reports per day](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-PerDay1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-PerDay1.gif) 
-
-11.	Why summary average response size does not match with the average of the graph?
+9.	Why summary average response size does not match with the average of the graph?
 
     Typically, raw data is accounted for when calculating averages. In order to determine an accurate average, you must not calculate averages using data from already derived averages.   
 
-12.	Can I view details of entities for which they don’t have access to?
+10.	Can I view details of entities for which they don’t have access to?
 
     No, you cannot view the details of entities for which you don't have access.
 
-13.	Why Response size/time and response codes are empty when requests are sent?
+11.	Why Response size/time and response codes are empty when requests are sent?
 
     You must enable the setting **Save Responses** in the **History** tab. By default, it’s not enabled.
 

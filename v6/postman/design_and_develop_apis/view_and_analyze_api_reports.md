@@ -6,17 +6,25 @@ warning: false
 
 Business integration with the system and adding features to provide better user experience ends up creating more APIs. Their interactions become complex and traction of those becomes difficult. With the API ecosystem broadening, the need for detailed API analytics has arisen to facilitate providing feedback to *Design, Plan, Develop & Test* teams. API analytics help CXOs, Product managers, and API Architects to understand how their digital initiatives are performing.
 
-To address this, Postman introduced the **Reporting** feature where you will be able to explore around the APIs created, collection executions, test failures and so on. Postman reports are visualizations of your API data and they help you get insights on how your APIs are used, their performance, troubleshooting, planning, and adherence to Service level agreements.
+Postman's **Reporting** feature allows you to view data around the APIs created, collection executions, test failures and so on. Postman reports visualize your API data and provide insights to their use, their performance, troubleshooting, planning, and adherence to Service level agreements.
 
-Postman also provides key API and organization-level metrics to help you understand the needs of your users so you could make the best use of its features.
+Postman also provides key API and organization-level metrics to help you understand the needs of your users.
 
-**Note:** Your APIs must be shared with a team for you to generate reports and collections must be linked to the APIs.
+**Prerequisites:** To generate reports, you should:
+
+* Share your API
+
+* Add a collection to an API
+
+* Turn-on *Save Responses*
+
+* Send a request from request builder
 
 You can use Postman API reports to collect and review specific information about APIs or teams under a single view in the Postman web dashboard. This section describes the following topics:
 
 * [Launching the reporting dashboard](#launching-the-reporting-dashboard)
-* [Understanding team-level metrics](#understanding-team-level-metrics)
-* [Understanding API-level metrics](#understanding-API-level-metrics)
+* [Understanding team-level reports](#understanding-team-level-reports)
+* [Understanding API-level reports](#understanding-API-level-reports)
 
 ### Launching the reporting dashboard
 
@@ -30,11 +38,11 @@ Clicking the **Reports** button launches the following screen:
 
 In the above screen, select **Overview** to display organization-level metrics. It provides a statistical overview of the number of new and active APIs, team-size, and active and empty workspaces within a team. Click the corresponding section in the above screen for a detailed overview.
 
-### Understanding team-level metrics
+### Understanding team-level reports
 
 Visibility into some of your most important team-level metrics helps you and your teams monitor the API usage over time and make necessary changes depending on the usage of APIs and addition and deletion of the APIs. Using the organization-level metrics dashboard, you can track changes in the APIs and take appropriate action. 
 
-It presents you the below metrics:
+It presents you the below reports:
 
 * [Total number of APIs](#total-number-of-apis)
 * [New APIs](#new-apis)
@@ -68,7 +76,7 @@ Displays a list of all empty workspaces within a team. Postman considers a works
 
 Displays a list of all active workspaces within a team. Personal workspaces are excluded from this list. Postman considers a workspace that has at least one revision made during a certain period as active.
 
-### Understanding API-level metrics
+### Understanding API-level reports
 
 The API-level metrics allow you to determine the team usage, average response time, average response size, test failures and response codes. It provides a graphical representation of the data and enables you to filter the data by collections and duration (last 7 or 30 days). The API-level metrics dashboard presents you the below metrics:
 
