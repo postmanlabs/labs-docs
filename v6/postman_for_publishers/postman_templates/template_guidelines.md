@@ -1,6 +1,6 @@
 ---
 title: "Template submission guidelines"
-page_id: "api_template_guidelines"
+page_id: "template_guidelines"
 warning: false
 
 ---
