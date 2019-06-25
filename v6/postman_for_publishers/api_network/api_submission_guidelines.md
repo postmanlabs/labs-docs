@@ -1,6 +1,6 @@
 ---
 title: "API Network submission guidelines"
-page_id: "api_network_submission_guidelines."
+page_id: "api_network_submission_guidelines"
 warning: false
 
 ---
