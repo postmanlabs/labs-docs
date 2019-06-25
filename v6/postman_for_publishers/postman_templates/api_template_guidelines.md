@@ -1,5 +1,5 @@
 ---
-title: "API template guidelines"
+title: "Template submission guidelines"
 page_id: "api_template_guidelines"
 warning: false
 
