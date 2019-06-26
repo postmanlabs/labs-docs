@@ -14,7 +14,7 @@ Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit) for an en
 
 [![sso enable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)
 
-After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on/off this SSO authentication. Click the orange circled button to turn on/off your SSO authentication system. This is a team-level option which will enable/disable SSO for the whole team.
+After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on/off this SSO authentication. Click the button (circled above) to turn on/off your SSO authentication system. This is a team-level option which will enable/disable SSO for the whole team.
 
 To configure a new authentication method, click **Add a new authentication method** button.
 
@@ -24,15 +24,39 @@ In the **ADD AUTHENTICATION METHOD** modal, select the authentication type. Ente
 
 **Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal. 
 
-In the "Service Provider Details (Postman)", enter the ID for the Entity, and the URLs for the Login and ACS.
- 
-In "Identity Provider Details", enter URLs in "Identity Provider Details" and "Identity Provider Issuer". Next provide your authentication certificate from your identity provider in "X.509 Certificate".
+In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated. Also, ensure you download the encryption certificate and keep it ready for uploading in the ....advanced settings.....
 
-Click the **Generate relay state** button to create a parameter to send with a SAML response in an IdP-initiated single sign-on. 
+As a next step, you must fill in the details in the **Identity Provider Details** section. And then provide your authentication certificate from your identity provider in "X.509 Certificate". 
+
+**Note:** Do not close the current browser window. To access IDP, please open a new browser window. 
+
+To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure:
+
+* [Setting up custom SAML in Okta]()
+
+* [Setting up custom SAML in Duo]()
+
+* [Setting up custom SAML in Gsuite]()
+
+* [Setting up custom SAML in Onelogin]()
+
+* [Setting up custom SAML in Ping Identity]()
+
+* [Setting up custom SAML in Azure AD]()
+
+
+
+
+
+
+
+
+
+
 
 Click the checkbox to automatically use this authentication method when the team adds new users.
 
-[![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
+[![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
 
 You can either click the **Configure Later** button to complete the configuration later, or click the **Save Authentication** button to complete the process.
 
