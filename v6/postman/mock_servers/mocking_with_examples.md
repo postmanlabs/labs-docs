@@ -136,10 +136,8 @@ In the previous steps, we prepared the collection, request, and example response
 
   ### Mocking GraphQL queries
 
-  Postman enables you to mock your GraphQL queries easily. To mock your GraphQL queries, you should set the header settings to 
+  Postman enables you to mock your GraphQL queries easily. To mock your GraphQL queries, you make a request to the mock server using the request path and request body saved in the examples when creating a mock server on the collection. Ensure you set the *Content-type* header to *application/json* in the example you create. You then need to ensure to pass the *x-mock-match-request-body* header with a value set to *True* in the request body while hitting the mock URL. The following screen illustrates this process:
 
-
-
-  Make sure you pass the x-mock-match-request-body header with value set to true. Also make sure you pass the correct content-type when making this request. 
+  [![mock graphql](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Mock-Graphql1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Mock-Graphql1.gif)
 
 And we're done! We have walked through how to create a collection, save requests, save examples, create a mock, and use a mock.
