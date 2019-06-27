@@ -22,43 +22,39 @@ In the **ADD AUTHENTICATION METHOD** modal, select the authentication type. Ente
 
 [![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)
 
-**Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal. 
+**Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
-In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated. 
+   [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details2.png)
+
+In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated.
 
 As a next step, you must fill in the details in the **Identity Provider Details** section. And then provide your authentication certificate from your identity provider in "X.509 Certificate". 
 
-To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure:
+To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
-* [Setting up custom SAML in Okta]()
+* [Setting up custom SAML in Okta](/docs/postman_enterprise/sso/saml_okta/)
 
-* [Setting up custom SAML in Duo]()
+* [Setting up custom SAML in Duo](/docs/postman_enterprise/sso/saml_duo/)
 
-* [Setting up custom SAML in Gsuite]()
+* [Setting up custom SAML in Gsuite](/docs/postman_enterprise/sso/saml_gsuite/)
 
-* [Setting up custom SAML in Onelogin]()
+* [Setting up custom SAML in Onelogin](/docs/postman_enterprise/sso/saml_onelogin/)
 
-* [Setting up custom SAML in Ping Identity]()
+* [Setting up custom SAML in Ping Identity](/docs/postman_enterprise/sso/saml_ping/)
 
-* [Setting up custom SAML in Azure AD]()
+* [Setting up custom SAML in Azure AD](/docs/postman_enterprise/sso/saml_in_azure_ad/)
 
-
-
-
-
-
-
-
-
-
-
-Click the checkbox to automatically use this authentication method when the team adds new users.
-
-[![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
-
-You can either click the **Configure Later** button to complete the configuration later, or click the **Save Authentication** button to complete the process.
 
 ### Managing user accounts
+
+This section describes the following topics:
+
+* [Creating end user accounts](#creating-end-user-accounts)
+
+* [Existing user account](#existing-user-account)
+
+* [Removing team access](#removing-team-access)
+
 
 ##### **Creating end user accounts**
 
