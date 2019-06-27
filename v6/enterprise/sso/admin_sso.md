@@ -24,11 +24,9 @@ In the **ADD AUTHENTICATION METHOD** modal, select the authentication type. Ente
 
 **Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal. 
 
-In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated. Also, ensure you download the encryption certificate and keep it ready for uploading in the ....advanced settings.....
+In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated. 
 
 As a next step, you must fill in the details in the **Identity Provider Details** section. And then provide your authentication certificate from your identity provider in "X.509 Certificate". 
-
-**Note:** Do not close the current browser window. To access IDP, please open a new browser window. 
 
 To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure:
 
