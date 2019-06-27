@@ -34,11 +34,11 @@ Once you login to your Okta account, perform the following steps:
 
      [![okta app name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_app_name.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_app_name.png)
 
-6. Under the second step “Configure SAML”, section A “SAML Settings”,           enter the Postman service provider details which can be found on the         Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. Alternatively, to go to **Edit Team Details** page navigate to *Authentication -> <Okta_Integration> -> Edit*. Click **Proceed**. Ensure, you are now in the following screen after the completion of this step:
+6. Under the second step “Configure SAML”, section A “SAML Settings”,           enter the Postman service provider details which can be found on the         Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To go to **Edit Team Details** page, navigate to *Authentication -> <Okta_Integration>* and click **Edit**. Next, click **Proceed**. Ensure, you are now in the following screen after the completion of this step:
 
     [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
 
-    Now, download the encryption certificate by clicking **Download as file** link (shown in red circle). You will upload this later in the IDP configuration section. In the following screen, click **Show Advanced Settings** link to configure advanced SAML assertion settings.
+    Now, download the encryption certificate by clicking **Download as file** link (shown in red circle). You will upload this later in the **Identity Provider Details** configuration section. In the following screen, click **Show Advanced Settings** link to configure advanced SAML assertion settings.
 
     [![!okta service provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_service_provider.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_service_provider.png)
 
@@ -49,11 +49,11 @@ Once you login to your Okta account, perform the following steps:
      | Audience URI (SP Entity ID) | Entity ID |
      | Name ID Format | EmailAddress |
  
-7.  Configure the below options based on your settings. However, note that the image highlights default settings. Ensure your field options reflect these values.  
+7.  Configure the below options as shown below. Note that the image highlights default settings. Ensure your field options reflect these values.  
 
     [![okta advanced](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_advanced.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_advanced.png)
  
- For the Encryption Certificate, download the `X.509 certificate` from the Postman [Edit Team Details page](https://go.postman.co/settings/team/general) and upload it here. Click **Next** to continue.
+ For the Encryption Certificate, upload the file (the one you downloaded earlier) here. Click **Next** to continue.
 
 8.  Under the third step “Feedback”, select “I’m an Okta customer adding an internal app”, and check “This is an internal app that we have created”, and then click **Finish**.
 
