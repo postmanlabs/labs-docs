@@ -12,7 +12,7 @@ warning: false
 
 To set up custom SAML application, follow the procedure outlined below: 
 
-Once you login to your Okta account, perform the following steps:
+After you login to your Okta account, perform the following steps:
 
 1. Click **Admin** as illustrated in the following screen:
 
@@ -26,7 +26,7 @@ Once you login to your Okta account, perform the following steps:
 
      [![okta_new app](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-Create-Application.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-Create-Application.png)
 
-4.   In the following screen, select "SAML 2.0" and click **Create**.
+4.   In the following screen, ensure **Web** is selected as Platform. Select "SAML 2.0" and click **Create**.
 
      [![okta choose saml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-Choose-SAML.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-Choose-SAML.png)
 
@@ -34,7 +34,7 @@ Once you login to your Okta account, perform the following steps:
 
      [![okta app name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_app_name.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_app_name.png)
 
-6. Under the second step “Configure SAML”, section A “SAML Settings”,           enter the Postman service provider details which can be found on the         Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To go to **Edit Team Details** page, navigate to *Authentication -> <My_Okta_Integration_Name>* and click **Edit**. Next, click **Proceed**. Ensure, you are now in the following screen after the completion of this step:
+6. Under the second step “Configure SAML”, section A “SAML Settings”,           enter the Postman service provider details which can be found on the         Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To go to **Edit Team Details** page, navigate to *Authentication -> <My_Okta_Integration_Name>* and click **Edit**. Next, click **Proceed**. Ensure, you are in the following screen after the completion of this step:
 
     [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
 
@@ -49,11 +49,11 @@ Once you login to your Okta account, perform the following steps:
      | Audience URI (SP Entity ID) | Entity ID |
      | Name ID Format | EmailAddress |
  
-7.  Configure the below options as shown below. Note that the image highlights default settings. Ensure your field options reflect these values.  
+7.  Configure the options as shown below. Ensure your field options reflect these values.  
 
     [![okta advanced](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-SAML-Adv-Settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-SAML-Adv-Settings.png)
  
-     For the Encryption Certificate, upload the file here (the one you downloaded earlier). Click **Next** to continue.
+     For the Encryption Certificate, upload the encryption file in the **Encryption Certificate** field shown above. Note that you downloaded the encryption file by clicking **Download as a file** link in Postman's Service Provider Details section earlier. Click **Next** to continue.
 
 8.  Under the third step “Feedback”, select “I’m an Okta customer adding an internal app”, and check “This is an internal app that we have created”, and then click **Finish**.
 
@@ -63,9 +63,9 @@ Once you login to your Okta account, perform the following steps:
 
      [![okta sign on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png)
 
-     The **View Setup Instructions** screen comes populated with default values that you should update. 
+     The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section. 
 
-     **Note:** You will need to come back to this screen to copy the *Relay State* value you will generate at the end of this procedure. 
+     **Note:** You will need to come back to this screen to paste the value in *Default Relay State* that you will generate from the Postman's **Identity Provide Details** section. 
   
 9.   Copy the **Identity Provider Single Sign-On URL**, **Identity Provider Issuer** and **X.509 Certificate** from the below screen.  
 
@@ -75,10 +75,10 @@ Once you login to your Okta account, perform the following steps:
      
      [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details3.png)
      
-     Once you fill-in the details, click the **Generate relay state** button to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
+     Once you fill-in the details, click the **Generate relay/Regenerate relay** button to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
 
      [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-Relay-State.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details3.png)
 
-     To copy, click **Edit** button and paste the value in **Default Relay State** field. 
+     To paste, click **Edit** button and paste the value in **Default Relay State** field. 
 
      Click **Save Authentication**. 
