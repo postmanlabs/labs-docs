@@ -89,7 +89,7 @@ A few commands which can be imported include:
 
 Download an example RAML file: [github-api-v3.raml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/github-api-v3.raml)
 
-**Note**: Postman supports RAML 1.0.
+**Note**: RAML 1.0 support is coming soon!
 
 ### Importing Swagger
 
@@ -101,7 +101,10 @@ A Swagger API definition usually lives as a single file, so we only support impo
 
    2.  Click on the Import button, and choose the Import File tab. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer. 
 
- [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
+ [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-
+ 
+ 
+ -1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
 
    3.  Click on file and upload the Swagger file.
 
