@@ -1,6 +1,6 @@
 ---
-title: "Faker Library Support"
-page_id: "faker"
+title: "Dynamic Variables List"
+page_id: "variables_list"
 warning: false
 
 ---
