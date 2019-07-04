@@ -107,7 +107,7 @@ Dynamic variables cannot be used in the Sandbox. You can only use them in the `
    *   `{{$timestamp}}`: Adds the current timestamp
    *   `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
-   For a complete list of dynamic variables, refer to the section [faker](/docs/postman/environments_and_globals/faker)
+   For a complete list of dynamic variables, refer to the section [Dynamic Variables List](/docs/postman/environments_and_globals/variables_list).
 
 [![dynamic variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals5.png)
 
