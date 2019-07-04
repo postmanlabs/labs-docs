@@ -145,6 +145,7 @@ Extended Reference:
 
 In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration take precedence over the variables defined in the current environment, which overrides ones defined in the global scope, i.e. `Iteration Data` < `Environment` < `Global`.
 
+* `pm.variables.has(variableName:String):function → Boolean`
 * `pm.variables.get(variableName:String):function → *`
 * `pm.variables.toObject():function → Object`
 
