@@ -6,11 +6,11 @@ warning: false
 
 _Note: The functionality described here is exclusive to Postman's native apps for Mac, Windows, and Linux._
 
-### Global functions (pm.*)
+## Global functions (pm.*)
 
 ### require
 
-**`require(moduleName:String):function → *`**
+`require(moduleName:String):function → *`
 
 The `require` function allows you to use the sandbox built-in library modules. The list of available libraries are listed below. The list links to their corresponding documentation.
 
@@ -60,11 +60,11 @@ console.log(base64Strings);
 
 ### pm
 
-**`pm:Object`**
+`pm:Object`
 
 The `pm` object encloses all information pertaining to the script being executed and allows one to access a copy of the request being sent or the response received. It also allows one to get and set environment and global variables.
 
-**`pm.info:Object`**
+`pm.info:Object`
 
 The `pm.info` object contains information pertaining to the script being executed. Useful information such as the request name, request Id, and iteration count are stored inside of this object.
 
@@ -141,7 +141,7 @@ Extended Reference:
 
 ### pm.variables
 
-**`pm.variables:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
+`pm.variables:` [Read more about VariableScope](http://www.postmanlabs.com/postman-collection/VariableScope.html)
 
 In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration take precedence over the variables defined in the current environment, which overrides ones defined in the global scope, i.e. `Iteration Data` < `Environment` < `Global`.
 
@@ -153,7 +153,7 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 
 ### pm.environment
 
-**`pm.environment:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
+`pm.environment:` [Read more about VariableScope](http://www.postmanlabs.com/postman-collection/VariableScope.html)
 
 * `pm.environment.has(variableName:String):function → Boolean`
 * `pm.environment.get(variableName:String):function → *`
@@ -164,7 +164,7 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 
 ### pm.globals
 
-**`pm.globals:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
+`pm.globals:` [Read more about VariableScope](http://www.postmanlabs.com/postman-collection/VariableScope.html)
 
 * `pm.globals.has(variableName:String):function → Boolean`
 * `pm.globals.get(variableName:String):function → *`
@@ -175,7 +175,7 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 
 ### pm.request
 
-**`pm.request:`[`Request`](http://www.postmanlabs.com/postman-collection/Request.html)**
+`pm.request:` [Read more about VariableScope](http://www.postmanlabs.com/postman-collection/VariableScope.html)
 
 The `request` object inside `pm` is a representation of the request for which this script is being run. For a pre-request script, this is the request that is about to be sent and when in a test script, this is the representation of the request that was sent.
 
@@ -187,11 +187,11 @@ The `request` object inside `pm` is a representation of the request for which th
 * `pm.request.headers.delete(headerName:String):function`
 * `pm.request.headers.upsert({ key: headerName:String, value: headerValue:String}):function)`
 
-## **The following items are ONLY available in the test scripts.**
+> **The following items are ONLY available in the test scripts.**
 
 ### pm.response
 
-**`pm.response:`[`Response`](http://www.postmanlabs.com/postman-collection/Response.html)**
+`pm.response:` [Read more about Response](http://www.postmanlabs.com/postman-collection/Response.html)
 
 Inside the test scripts, the `pm.response` object contains all information pertaining to the response that was received.
 
@@ -206,7 +206,7 @@ The response details are stored in the following format:
 
 ### pm.iterationData
 
-**`pm.iterationData:`[`VariableScope`](http://www.postmanlabs.com/postman-collection/VariableScope.html)**
+`pm.iterationData:` [Read more about VariableScope](http://www.postmanlabs.com/postman-collection/VariableScope.html)
 
 The `iterationData` object contains data from the data file provided during a collection run.
 
@@ -215,7 +215,7 @@ The `iterationData` object contains data from the data file provided during a co
 
 ### pm.cookies
 
-**`pm.cookies:`[`CookieList`](http://www.postmanlabs.com/postman-collection/CookieList.html)**
+`pm.cookies:` [Read more about CookieList](http://www.postmanlabs.com/postman-collection/CookieList.html)
 
 The `cookies` object contains a list of cookies that are associated with the domain to which the request was made.
 
@@ -233,7 +233,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 ### pm.test
 
-**`pm.test(testName:String, specFunction:Function):Function`**
+`pm.test(testName:String, specFunction:Function):Function`
 
    You can use this function to write test specifications inside either the `Pre-request Script` or `Tests` sandbox. Writing tests inside this function allows you to name the test accurately and this function also ensures the rest of the script is not blocked even if there are errors inside the function.
 
@@ -264,7 +264,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 ### pm.expect
 
-**`pm.expect(assertion:*):Function → Assertion`**
+`pm.expect(assertion:*):Function → Assertion`
 
   `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
   
