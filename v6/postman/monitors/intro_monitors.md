@@ -13,6 +13,8 @@ When you set up a monitor, Postman servers will hit the endpoints in your collec
 
 Each Postman user gets 1,000 monitoring calls for free per month. Paid teams have higher limits: Postman Pro teams have 10,000 monthly monitoring calls included, and Enterprise teams have 100,000 free monthly requests. It is very simple to set up a monitor. Learn more about [monitoring pricing](/docs/postman/monitors/pricing_monitors/) and [getting started with monitors](/docs/postman/monitors/setting_up_monitor/).
 
+**Note:** Setting up monitors by minutes is not available for free users. If you are a free user, you can schedule your monitor runs on an hourly, daily or a weekly basis. 
+
 ## Running collections in a monitor (vs. the Postman app collection runner)
 
 There are a few minor differences between running collections in a Postman monitor as compared to using the Postman app collection runner.  If your collection relies on any of these features, then it may not work the same way in Postman monitoring as it does in the Postman app.
