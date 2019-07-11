@@ -13,7 +13,7 @@ For example, to include a timestamp in the request headers, you can set an envir
 
 You can then access the **timestampHeader** variable in the header data editor by typing `{{timestampHeader}}`. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of `{{timestampHeader}}`.
 
-[![timestampHeader variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script4_Updated2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script4_Updated2.png)
+[![timestampHeader variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script4_Updated3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script4_Updated3.png)
 
 **Note:** An environment should be an active one for environment variables to be set.
 
