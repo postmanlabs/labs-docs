@@ -12,9 +12,9 @@ You can easily set up your custom SAML application in Okta. Postman provides you
 
 This section describes the following two topics:
 
-* [Setting up a custom SAML application in Okta](#setting-up-a-custom-SAML-application-in-okta)
+* [Setting up a custom SAML application in Okta](#setting-up-a-custom-saml-application-in-okta)
 
-* [Setting up a custom SAML application in Okta using Postman app](#setting-up-a-custom-SAML-application-in-okta-using-postman-app)
+* [Setting up a custom SAML application in Okta using Postman app](#setting-up-a-custom-saml-application-in-okta-using-postman-app)
 
 
 ### Setting up a custom SAML application in Okta
@@ -117,6 +117,7 @@ After you login to your Okta account, perform the following steps:
 4. Now, go to the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, navigate to *Authentication -> <My_Okta_Integration_Name>* and click **Edit**. Next, click **Proceed**. Ensure, you are in the following screen after the completion of this step:
 
     [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
+
 
     Now, download the encryption certificate by clicking **Download as file** link (shown in red circle). You will upload this later in the **Okta SAML** configuration section, which is explained below.
 
