@@ -77,6 +77,6 @@ You can capture the HTTP requests using the Postman Interceptor. The following s
 
 [![request capture interceptor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)
 
-You can your request to the **History**, add additional filters to the URL and even filter the requests for specific methods. The following example illustrates this:
+You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. 
 
 

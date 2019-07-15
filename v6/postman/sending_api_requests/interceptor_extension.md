@@ -134,7 +134,7 @@ That’s it! You can now send requests which use these headers.
 
 ### Capturing cookies 
 
-Turn the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
+Turn the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains:
 
 [![interceptor on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)
 
