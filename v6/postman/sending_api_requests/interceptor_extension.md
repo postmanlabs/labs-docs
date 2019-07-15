@@ -7,7 +7,8 @@ warning: false
 
 ## What is Interceptor
 
-Postman Interceptor is a Chrome extension that can help you capture cookies. If you are using the deprecated Chrome app, it can also capture network requests directly and save them to Postman’s history. This means you can debug your web apps APIs in real time! 
+Postman Interceptor is a Chrome extension that functions as a proxy to capture HTTP or HTTPS requests. It can capture network requests directly from Chrome and save them to Postman’s history. This means you can debug your web apps APIs in real time!
+
 
 The following section describes two topics:
 
@@ -18,8 +19,6 @@ The following section describes two topics:
 ### Using the Interceptor with Postman's native app 
 
 You can use your authenticated sessions from the browser to make a request in the native app using the bridge available for the Interceptor. You will need to install the interceptor bridge in order for you to capture cookies. You can find step-by-step instructions in the link to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). You must also be on Postman Interceptor v0.2.26 and above, which you can download from [here](https://go.pstmn.io/interceptor-download).
-
-**Note:** Postman app currently supports only capturing cookies. 
 
 Once you're done with the installation of the Interceptor bridge, the **INTERCEPTOR CONNECTED** status turns green. Turn the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
 
@@ -129,4 +128,8 @@ That’s it! You can now send requests which use these headers.
 
 
 
+You can capture requests in two ways:\
 
+* Using pRoxy
+
+* using Interceptor 
