@@ -36,13 +36,11 @@ Click **Generate Collection** to generate a collection from this schema. The col
 
 ##### Generating a collection from a schema
 
-This is a powerful feature that will let you jump-start creating collections from a schema. You can start your workflow by creating a schema or an API in Postman (sort of API-first development approach), and then start collaborating with your team members by generating collections from the schema. It is so much easier for you to start working with your APIs/Schemas in Postman avoiding the grind of recreating them again to start working on your collections. 
+This is a powerful feature that will let you jump-start your API workflow by creating collections from a schema. You can start by creating a schema or an API in Postman (sort of API-first development approach), and then start generating collections from the schema. It is so much easier for you to start working with your Schemas in Postman and use it for different workflows (like mocking, documentation, testing and monitoring).
 
-Clicking the **Generate Collections** button generates a collection which adheres to your schema and puts it in your workspace sidebar. Now, you can add documentation to it, you can attach test suites, and you can even use it to generate a quick collection for collaboration on something without affecting the source of truth which is an API (by spinning off a collection from the schema and sharing it). 
+Clicking the **Generate Collections** button generates a collection which adheres to your schema and puts it in your workspace sidebar. Now, you can add documentation to it, you can attach test suites, and you can even use it to collaborate on something without affecting the source of truth which is the API schema. 
 
-This means you don't need to import your schema file again and again to generate collections. People who have repetitive workflows can import their schemas in Postman and can generate collections on the run. You should re-import the schema only when the schema changes.   
-
-You can quickly generate a collection from a schema by clicking the **Generate Collection** button. 
+This means you don't need to import your collection file again and again to generate collections. People who have repetitive workflows can import their schemas in Postman and can generate collections on the run. 
 
 #### Importing a file
 
