@@ -80,6 +80,8 @@ Whenever you add a domain, Postman will sync all cookies for that domain in the 
 
 Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click ‘x’ next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
 
+To learn more about how to manage cookies, refer to the section [Cookies](/docs/postman/sending_api_requests/cookies)
+
 
 ### Retrieving cookies
 
