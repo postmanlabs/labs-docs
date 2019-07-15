@@ -7,8 +7,7 @@ warning: false
 
 ## What is Interceptor
 
-Postman Interceptor is a Chrome extension that functions as a proxy to capture HTTP or HTTPS requests. It can capture network requests directly from Chrome and save them to Postman’s history. This means you can debug your web apps APIs in real time!
-
+Postman Interceptor is a Chrome extension that functions as a proxy to capture HTTP or HTTPS requests and sync cookies. It can capture network requests directly from Chrome and save them to Postman’s history. This means you can debug your web apps APIs in real time!
 
 The following section describes two topics:
 
@@ -18,15 +17,13 @@ The following section describes two topics:
 
 ### Using the Interceptor with Postman's native app 
 
-You can use your authenticated sessions from the browser to make a request in the native app using the bridge available for the Interceptor. You will need to install the interceptor bridge in order for you to capture cookies. You can find step-by-step instructions in the link to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). You must also be on Postman Interceptor v0.2.26 and above, which you can download from [here](https://go.pstmn.io/interceptor-download).
+You can use your authenticated sessions from the browser to make a request in the native app using the bridge available for the Interceptor. You will need to install the interceptor bridge in order for you to capture cookies. You can find step-by-step instructions in the link to download and install the [Interceptor bridge](#installing-the-interceptor-bridge/). You must also be on Postman Interceptor v0.2.26 and above, which you can download from [here](https://go.pstmn.io/interceptor-download). Once you're done with the installation of the Interceptor bridge, the **INTERCEPTOR CONNECTED** status turns green. 
 
-Once you're done with the installation of the Interceptor bridge, the **INTERCEPTOR CONNECTED** status turns green. Turn the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
+You can now go ahead and capture requests from any device or browser and capture cookies from any domain to use in Postman requests with the Interceptor extension.
 
-[![interceptor on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)
+To learn more about sending and capturing requests, refer to the section [Capturing HTTP Requests](/docs/postman/sending_api_requests/capturing_http_requests).
 
-Whenever you add a domain, Postman will sync all cookies for that domain in the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
-
-Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click ‘x’ next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
+To learn more about capturing cookies, refer to [Capturing cookies](#capturing-cookies)
 
 #### Installing the Interceptor Bridge:
 
@@ -75,7 +72,14 @@ Here how to get started:
 
 ### Capturing cookies
 
-Unlike the Postman native apps, the Postman Chrome app is not equipped to handle cookies by itself. You can use the Interceptor extension to overcome this. With the Interceptor on, you can retrieve cookies set on a particular domain and include cookies while sending requests.
+ You can use the Interceptor extension to capture cookies. With the Interceptor on, you can retrieve cookies set on a particular domain and include cookies while sending requests. Ensure you set the **Capture cookies** setting to *ON*. The following screen also illustrates this while showing you how to add and remove domains to capture cookies:
+
+[![interceptor on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)
+
+Whenever you add a domain, Postman will sync all cookies for that domain in the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
+
+Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click ‘x’ next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
+
 
 ### Retrieving cookies
 
@@ -126,10 +130,12 @@ However, sending these restricted headers is easy. Follow the steps below:
 
 That’s it! You can now send requests which use these headers.
 
+### Capturing cookies 
 
+Turn the **Capture cookies** setting to *ON*. This is shown in the following screen, which also illustrates how to add and remove domains to capture cookies:
 
-You can capture requests in two ways:\
+[![interceptor on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)
 
-* Using pRoxy
+Whenever you add a domain, Postman will sync all cookies for that domain in the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
 
-* using Interceptor 
+Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click ‘x’ next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
