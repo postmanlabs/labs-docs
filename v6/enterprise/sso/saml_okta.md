@@ -118,8 +118,14 @@ After you login to your Okta account, perform the following steps:
 
     [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
 
+    
+
 
     Now, download the encryption certificate by clicking **Download as file** link (shown in red circle). You will upload this later in the **Okta SAML** configuration section, which is explained below.
+
+
+
+
 
     Navigate to your Okta account. Go to the **Sign On** tab and click **Edit**.  
 
