@@ -25,8 +25,7 @@ After you login to your Okta account, perform the following steps:
 
 1. Click **Admin** as illustrated in the following screen:
 
-[![okta admin](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-SAML1.png)]
-(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-SAML1.png)
+[![okta admin](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-SAML1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-SAML1.png)
 
 2. From the Okta Dashboard, click **Add Application**.
 
