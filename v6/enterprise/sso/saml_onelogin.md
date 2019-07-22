@@ -28,16 +28,13 @@ Head to the Onelogin home page and login to your account using your credentials.
 
    [![onelogin service provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Onelogin-IDP-Details1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Onelogin-IDP-Details1.png)
 
-    Copy the Entity ID, ACS URL, and Single Logout URL from the Postman service provider details and paste in the corresponding fields. However, you need to copy this string `^https:\/\/identity.getpostman.com\/` and paste it in the **Parameters** field. Copy **EntityID** in the *Recipient* field, **ACS URL** in *ACS (Consumer) URL, and set the **ACS(Consumer) URL Validator** to the value illustrated in the above screen. 
-
-  
-   Single Logout URL : https://identity.getpostman.com/
+    Copy the Entity ID, ACS URL, and Single Logout URL from the Postman service provider details and paste in the corresponding fields. However, you need to copy this string `^https:\/\/identity.getpostman.com\/` and paste it in the **Parameters** field. Copy **EntityID** in the *Recipient* field, **ACS URL** in *ACS (Consumer) URL, and set the **ACS(Consumer) URL Validator** to the value illustrated in the above screen. Ensure you enter `https://identity.getpostman.com` in the *Single Logout URL* field. 
 
 5. Navigate to the SSO tab in Onelogin and copy the `Identity Provider SSO URL`, `SAML 2.0 Endpoint (HTTP)`, and `X.509 Certificate` from here:
 
    [![onelogin service provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Onelogin-Copy-IDP-Details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Onelogin-Copy-IDP-Details.png)
 
-6. To copy the X.509 certificate, click **View Details**. And then paste the value into the X.509 field in the Postman Identity Provider Details screen: 
+6. To copy the X.509 certificate, click **View Details**. And then paste the values into the corresponding fields in the Postman Identity Provider Details screen: 
 
     [![onelogin service provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Onelogin-Postman-IDP-Details1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Onelogin-Copy-IDP-Details1.png)
 
