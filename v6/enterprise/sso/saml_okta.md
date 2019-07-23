@@ -69,14 +69,15 @@ For the Encryption Certificate, upload the encryption file in the **Encryption C
   
 9. Move over to the **Sign On** tab, and click the **View Setup Instructions** button.
 
-[![okta sign on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png (https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png)
-
+[![okta signon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png)
+  
 The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section. 
 
 **Note:** You will need to come back to this screen to paste the value in *Default Relay State* that you will generate from the Postman's **Identity Provide Details** section. 
   
 10. Copy the **Identity Provider Single Sign-On URL**, **Identity Provider Issuer** and **X.509 Certificate** from the below screen.
-[![okta identity provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_identity_provider_updated.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_identity_provider.png)
+
+[![okta identity provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_identity_provider1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_identity_provider1.png)
 
 And paste them in the corresponding sections of the **Identity Provider Details** screen as shown below:
 
