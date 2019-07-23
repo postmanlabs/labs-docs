@@ -85,7 +85,7 @@ And paste them in the corresponding sections of the **Identity Provider Details*
 
 Once you fill-in the details, click the **Generate relay/Regenerate relay** button to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
 
-[![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-Relay-State.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details3.png)
+[![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-Relay-State1A.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details1A.png)
 
 To paste, click **Edit** button and paste the value in **Default Relay State** field. 
 
