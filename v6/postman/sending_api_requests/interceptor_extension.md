@@ -7,7 +7,7 @@ warning: false
 
 ## What is Interceptor
 
-Postman Interceptor is a Chrome extension that functions as a proxy to capture HTTP or HTTPS requests and sync cookies. It can capture network requests directly from Chrome and save them to Postman’s history. This means you can debug your web apps APIs in real time!
+Postman Interceptor is a Chrome extension that functions as a proxy to capture HTTP or HTTPS requests and sync cookies. It can capture network requests directly from Chrome and save them to Postman’s history or collection. This means you can debug your web apps APIs in real time!
 
 The following section describes two topics:
 

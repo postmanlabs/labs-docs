@@ -41,7 +41,7 @@ Open the **PROXY SETTINGS** modal in the Postman app (MacOS) by clicking the ico
 
 Keep a note of the port mentioned in the proxy settings. In this case, let's keep it at the default port ``5555``. Set the target to "History". This will cause all your requests to be captured and stored in the History sidebar panel.
 
-[![proxy settings modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-Proxy1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-Proxy1.png.jpg)
+[![proxy settings modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-Proxy1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-Proxy1.png)
 
 ### Step 2: Note your computer's IP address
 
@@ -75,7 +75,7 @@ The broader development community has published some useful tutorials for settin
 
 You can capture the HTTP requests using the Postman Interceptor, and save them to History and add additional filters. The following screen illustrates this:
 
-[![request capture interceptor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters2.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters2.gif)
+[![request capture interceptor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)
 
 You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. The above screen specifies *Spotify* in the **URL** field and *Post* method in the **Methods** field. In this case, Postman looks for any URL containing *Spotify* string with a *Post* method and will save it to the History tab. You can also add the requests you capture to the **History** tab or any collection. 
 
