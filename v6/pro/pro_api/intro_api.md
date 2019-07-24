@@ -13,7 +13,7 @@ The easiest way to get started with the API is to click the **Run in Postman**�
 
 ### Postman API overview
 
-1.  You need a valid API Key to send requests to the API endpoints. Postman Pro users can get a key from the [integrations dashboard](https://app.getpostman.com/dashboard/integrations).
+1.  You need a valid API Key to send requests to the API endpoints. Postman Pro users can get a key from the [integrations dashboard](https://go.postman.co/integrations/services/pm_pro_api).
 
 2.  The API is rate limited.
 
@@ -25,7 +25,7 @@ The easiest way to get started with the API is to click the **Run in Postman**�
 
 An API Key is required to be sent as part of every request to the Postman API, in the form of an `X-Api-Key` request header.
 
-> **If you do not have an API Key, you can easily generate one by heading over to the [Postman Integrations Dashboard](https://app.getpostman.com/dashboard/integrations), and click the "Get API Key" button.**
+> **If you do not have an API Key, you can easily generate one by heading over to the [Postman Integrations Dashboard](https://go.postman.co/integrations/services/pm_pro_api), and click the "Get API Key" button.**
 
 [![get API key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59190608.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59190608.jpg)
 
