@@ -73,10 +73,10 @@ The broader development community has published some useful tutorials for settin
 
 ### Using the Interceptor 
 
-You can capture the HTTP requests using the Postman Interceptor. The following screen illustrates this:
+You can capture the HTTP requests using the Postman Interceptor, and save them to History and add additional filters. The following screen illustrates this:
 
-[![request capture interceptor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)
+[![request capture interceptor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters2.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters2.gif)
 
-You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. 
+You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. The above screen specifies *Spotify* in the **URL** field and *Post* method in the **Methods** field. In this case, Postman looks for any URL containing *Spotify* string with a *Post* method and will save it to the History tab. You can also add the requests you capture to the **History** tab or any collection. 
 
 
