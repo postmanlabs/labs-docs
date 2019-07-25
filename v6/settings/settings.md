@@ -44,6 +44,11 @@ Prevent requests that return a 300-series response to be automatically redirecte
 * **Send anonymous usage data to Postman**
 Option to disable anonymous usage data, that we at Postman use to make Postman a better product. 
 
+* **Max response size**
+Option to limit the size of response (in Megabytes) that is received by postman from a server. Without setting a limit,
+postman app will give an error stating that the received response is large if it exceeds the default value of 50 MB.
+Note that setting this to a very large value to receive huge response might take postman a while.
+
 ### Theme
 
 Postman comes in two themes - light and dark. Choose the one that you're more comfortable working with.
