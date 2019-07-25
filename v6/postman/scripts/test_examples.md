@@ -193,7 +193,9 @@ For CSV files, the top row needs to contain variable names.
 
 [Download CSV file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test_data_file.csv)
 
-### Older style of writing Postman tests
+## Older style of writing Postman tests *(deprecated)*
+
+> **Note: This section refers to deprecated script syntax used in older versions of Postman. If you are writing scripts now, please use the syntax mentioned above.**
 
 The older style of writing Postman tests relies on setting values for the special `tests` object. You can set a descriptive key for an element in the object and then say if it's true or false. For example, `tests["Body contains user_id"] = responsebody.has("user_id");` will check whether the response body contains the `user_id` string.
 
