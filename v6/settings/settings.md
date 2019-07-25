@@ -47,7 +47,7 @@ Option to disable anonymous usage data, that we at Postman use to make Postman a
 * **Max response size**
 Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded,
 Postman will inform the user that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response.
-Note that setting this to a very large value to receive huge response will require greater amount of memory to render and may take some time.
+Note that rendering large responses can impact app performance.
 
 ### Theme
 
