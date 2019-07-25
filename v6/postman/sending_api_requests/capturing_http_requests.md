@@ -73,7 +73,7 @@ The broader development community has published some useful tutorials for settin
 
 ### Using the Interceptor 
 
-You can capture the HTTP requests using the Postman Interceptor, and save them to History and add additional filters. The following screen illustrates this:
+You can capture the HTTP requests using the Postman Interceptor, and save them to History or a collection. The following screen illustrates this:
 
 [![request capture interceptor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)
 
