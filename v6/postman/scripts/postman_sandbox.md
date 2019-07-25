@@ -25,16 +25,16 @@ Note: jQuery support has been discontinued since version 4.6.0, in favor of [ch
 
 ## Environment and global variables
 
-*   `postman.setEnvironmentVariable(variableName, variableValue)`: Sets an environment variable “variableName”, and assigns the string “variableValue” to it. You must have an environment selected for this method to work. **Note**: Only strings can be stored. Storing other types of data will result in unexpected behavior.
-*   `postman.getEnvironmentVariable(variableName)`: Returns the value of an environment variable “variableName”, for use in pre-request & test scripts. You must have an environment selected for this method to work.
-*   `postman.setGlobalVariable(variableName, variableValue)`: Sets a global variable “variableName”, and assigns the string “variableValue” to it. **Note**: Only strings can be stored. Storing other types of data will result in unexpected behavior.
-*   `postman.getGlobalVariable(variableName)`: Returns the value of a global variable “variableName”, for use in pre-request & test scripts.
-*   `postman.clearEnvironmentVariable(variableName)`: Clears the environment variable named “variableName”. You must have an environment selected for this method to work.
-*   `postman.clearGlobalVariable(variableName)`: Clears the global variable named “variableName”.
-*   `postman.clearEnvironmentVariables()`: Clears all environment variables. You must have an environment selected for this method to work.
-*   `postman.clearGlobalVariables()`: Clears all global variables.
-*   `environment`: A dictionary of variables in the current environment. Use `environment["foo"]` to access the value of the “foo” environment variable. **Note:** This can only be used to read the variable. Use `setEnvironmentVariable()` to set a value.
-*   `globals`: A dictionary of global variables. Use `globals["bar"]` to access the value of the “bar” global variable. **Note:** This can only be used to read the variable. Use `setGlobalVariable()` to set a value
+*   `pm.environment.set("variableName", variableValue)`: Sets an environment variable “variableName”, and assigns the string “variableValue” to it. You must have an environment selected for this method to work. **Note**: Only strings can be stored. Storing other types of data will result in unexpected behavior.
+*   `pm.environment.get("variableName")`: Returns the value of an environment variable “variableName”, for use in pre-request & test scripts. You must have an environment selected for this method to work.
+*   `pm.environment.has("variableName")`: Returns `true` if an environment variable by the name `"variableName"` exists.
+*   `pm.environment.unset("variableName")`: Clears the environment variable named “variableName”. You must have an environment selected for this method to work.
+*   `pm.environment.clear()`: Clears all environment variables. You must have an environment selected for this method to work.
+*   `pm.globals.set(variableName, variableValue)`: Sets a global variable “variableName”, and assigns the string “variableValue” to it. **Note**: Only strings can be stored. Storing other types of data will result in unexpected behavior.
+*   `pm.globals.has("variableName")`: Returns `true` if a global variable by the name `"variableName"` exists.
+*   `pm.globals.get("variableName")`: Returns the value of a global variable “variableName”, for use in pre-request & test scripts.
+*   `pm.globals.unset("variableName")`: Clears the global variable named “variableName”.
+*   `pm.globals.clear()`: Clears all global variables.
 
 ## Dynamic variables
 
