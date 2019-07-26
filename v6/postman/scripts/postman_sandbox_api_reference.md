@@ -47,14 +47,14 @@ In order to use a library, simply call the `require` function and pass the modul
 ```javascript
 var atob = require('atob'),
     _ = require('lodash'),
-  
+
     arrayOfStrings,
     base64Strings;
-  
+
 arrayOfStrings = ['string1', 'string2'];
-  
+
 base64Strings = _.map(arrayOfStrings, atob);
-  
+
 console.log(base64Strings);
 ```
 
@@ -267,7 +267,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 `pm.expect(assertion:*):Function → Assertion`
 
   `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
-  
+
   This function is useful to deal with assertions of data from a `response` or `variables`.
 
   ```javascript
@@ -276,13 +276,13 @@ The `cookies` object contains a list of cookies that are associated with the dom
         pm.expect(jsonData.value).to.eql(100);
     });
   ```
-  
+
   ```javascript
     pm.test('environment to be production', function () {
         pm.expect(pm.environment.get('env')).to.equal('production');
     });
   ```
-  
+
 ### Response Assertion API available in the test scripts
 
 * `pm.response.to.have.status(code:Number)`
@@ -304,11 +304,11 @@ The `cookies` object contains a list of cookies that are associated with the dom
 The properties inside the `pm.response.to.be` object allows you to easily assert a set of pre-defined rules.
 
 * `pm.response.to.be.info`
-  
+
   Checks 1XX status code
 
 * `pm.response.to.be.success`
-  
+
   Checks 2XX status code
 
 * `pm.response.to.be.redirection`
@@ -324,7 +324,7 @@ The properties inside the `pm.response.to.be` object allows you to easily assert
   Checks 5XX
 
 * `pm.response.to.be.error`
-  
+
   Checks 4XX or 5XX
 
 * `pm.response.to.be.ok`
@@ -332,7 +332,7 @@ The properties inside the `pm.response.to.be` object allows you to easily assert
   Status code must be 200
 
 * `pm.response.to.be.accepted`
-  
+
   Status code must be 202
 
 * `pm.response.to.be.badRequest`
@@ -359,6 +359,8 @@ The properties inside the `pm.response.to.be` object allows you to easily assert
 
 The following is a list of dynamic variables whose values are randomly generated during the request/collection run.
 
+### Common
+
 | **Variable Name**         | **Description**                               | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
 | **`$guid`**               | A `uuid-v4` style guid                        | `"611c2e81-2ccb-42d8-9ddc-2d0bfa65c1b4"`   |
@@ -369,7 +371,7 @@ The following is a list of dynamic variables whose values are randomly generated
 |                           |                                               | `"53151b27-034f-45a0-9f0a-d7b6075b67d0"`   |
 |                           |                                               | `"727131a2-2717-44ad-ab02-006587e947dc"`   |
 
-**Text, numbers and colors**:
+### Text, numbers and colors
 
 | **Variable Name**         | **Decription**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
@@ -380,7 +382,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomHexColor`**     | A random hex value                            | `"#47594a"`, `"#431e48"`, `"#106f21"`      |
 | **`$randomAbbreviation`** | A random abbreviation                         | `SQL`, `PCI`, `JSON`                       |
 
-**Internet and IP addresses**:
+### Internet and IP addresses
 
 | **Variable Name**         | **Decription**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
@@ -397,7 +399,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomProtocol`**     | A random internet protocol                    | `"http"`, `"https"`                        |
 | **`$randomSemver`**       | A random semantic version number              | `7.0.5`, `2.5.8`, `6.4.9`                  |
 
-**Names**:
+### Names
 
 | **Variable Name**             | **Decription**                | **Examples**                                              |
 |:------------------------------|:------------------------------|:----------------------------------------------------------|
@@ -407,7 +409,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomNamePrefix`**       | A random name prefix          | `Dr.`, `Ms.`, `Mr.`                                       |
 | **`$randomNameSuffix`**       | A random name suffix          | `I`, `MD`, `DDS`                                          |
 
-**Profession**:
+### Profession
 
 | **Variable Name**             | **Decription**                | **Examples**                                              |
 |:------------------------------|:------------------------------|:----------------------------------------------------------|
@@ -418,7 +420,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | | | `Future Interactions Executive` |
 | **`$randomJobType`**          | A random job type             | `Supervisor`, `Manager`, `Coordinator`                    |
 
-**Phone, Address and Location:**
+### Phone, Address and Location
 
 | **Variable Name**             | **Decription**                | **Examples**                                              |
 |:------------------------------|:------------------------------|:----------------------------------------------------------|
@@ -432,7 +434,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomLatitude`**         | A random latitude coordinate  | `55.2099`, `27.3644`, `-84.7514`                          |
 | **`$randomLongitude`**        | A random longitude coordinate | `40.6609`, `171.7139`, `-159.9757`                        |
 
-**Images:**
+### Images
 
 | **Variable Name**         | **Decription**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
@@ -458,7 +460,7 @@ The following is a list of dynamic variables whose values are randomly generated
 |**`$randomTransportImage`**| A URL for a random transportation image       | `http://lorempixel.com/640/480/transport`  |
 | **`$randomImageDataUri`** | A random image data URI                       | `data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20baseProfile%3D%22full%22%20width%3D%22undefined%22%20height%3D%22undefined%22%3E%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22grey%22%2F%3E%20%20%3Ctext%20x%3D%220%22%20y%3D%2220%22%20font-size%3D%2220%22%20text-anchor%3D%22start%22%20fill%3D%22white%22%3Eundefinedxundefined%3C%2Ftext%3E%20%3C%2Fsvg%3E` |
 
-**Finance:**
+### Finance
 
 | **Variable Name**          | **Decription**                                | **Examples**                                 |
 |:---------------------------|:----------------------------------------------|:---------------------------------------------|
@@ -477,7 +479,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | | | `1GY5TL5NEX3D1EA0TCWPLGVPQF5EAF` |
 | | | `14IIEXV2AKZAHSCY2KNYP213VRLD` |
 
-**Business:**
+### Business
 
 | **Variable Name**         | **Decription**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
@@ -490,7 +492,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomBsBuzz`**       | A random business speak buzzword              | `repurpose`, `harness`, `transition`       |
 | **`$randomBsNoun`**       | A random business speak noun                  | `e-services`, `markets`, `interfaces`      |
 
-**Catchphrases**:
+### Catchphrases
 
 | **Variable Name**                 | **Decription**                        | **Examples**                                        |
 |:----------------------------------|:--------------------------------------|:----------------------------------------------------|
@@ -501,7 +503,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomCatchPhraseDescriptor`**| A random catchphrase descriptor       | `bandwidth-monitored`, `needs-based`, `homogeneous` |
 | **`$randomCatchPhraseNoun`**      | Randomly generates a catchphrase noun | `secured line`, `superstructure`,`installation`     |
 
-**Databases**:
+### Databases
 
 | **Variable Name**             | **Decription**                            | **Examples**                               |
 |:------------------------------|:------------------------------------------|:-------------------------------------------|
@@ -510,7 +512,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomDatabaseCollation`**| A random database collation               | `cp1250_bin`, `utf8_general_ci`, `cp1250_general_ci`|
 | **`$randomDatabaseEngine`**   | A random database engine                  | `MyISAM`, `InnoDB`, `Memory`               |
 
-**Dates**:
+### Dates
 
 | **Variable Name**             | **Decription**                  | **Examples**                                              |
 |:------------------------------|:--------------------------------|:----------------------------------------------------------|
@@ -522,11 +524,11 @@ The following is a list of dynamic variables whose values are randomly generated
 |                               |                                 | `Thu Jun 13 2019 03:08:43 GMT+0530 (India Standard Time)` |
 | **`$randomDateRecent`**       | A random recent datetime        | `Tue Jul 09 2019 23:12:37 GMT+0530 (India Standard Time)`,|
 |                               |                                 | `Wed Jul 10 2019 15:27:11 GMT+0530 (India Standard Time)`,|
-|                               |                                 | `Wed Jul 10 2019 01:28:31 GMT+0530 (India Standard Time)` | 
+|                               |                                 | `Wed Jul 10 2019 01:28:31 GMT+0530 (India Standard Time)` |
 | **`$randomWeekday`**          | A random weekday                | `Thursday`, `Friday`, `Monday`                            |
 | **`$randomMonth`**            | A random month                  | `February`, `May`, `January`                              |
 
-**Domains, Emails and Usernames**:
+### Domains, Emails and Usernames
 
 | **Variable Name**             | **Decription**                  | **Examples**                                              |
 |:------------------------------|:--------------------------------|:----------------------------------------------------------|
@@ -538,7 +540,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomUserName`**         | A random username               | `Jarrell.Gutkowski`, `Lottie.Smitham24`, `Alia99`         |
 | **`$randomUrl`**              | A random URL                    | `https://anais.net`, `https://tristin.net`, `http://jakob.name` |
 
-**Files and Directories:**
+### Files and Directories
 
 | **Variable Name**             | **Decription**                                        | **Examples**                            |
 |:------------------------------|:------------------------------------------------------|:----------------------------------------|
@@ -560,7 +562,7 @@ The following is a list of dynamic variables whose values are randomly generated
 |                               |                                                       | `application/vnd.groove-identity-message`,|
 |                               |                                                       | `application/vnd.oasis.opendocument.graphics-template`|
 
-**Stores:**
+### Stores
 
 | **Variable Name**             | **Decription**                           | **Examples**                                   |
 |:------------------------------|:-----------------------------------------|:-----------------------------------------------|
@@ -571,7 +573,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomProductName`**      | A random product name                    | `Handmade Concrete Tuna`, `Refined Rubber Hat` |
 | **`$randomDepartment`**       | A random commerce category               | `Tools`, `Movies`, `Electronics`               |
 
-**Grammar**:
+### Grammar
 
 | **Variable Name**             | **Decription**                           | **Examples**                                   |
 |:------------------------------|:-----------------------------------------|:-----------------------------------------------|
@@ -587,7 +589,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | | | `overriding the capacitor won't do anything, we need to compress the optical SMS transmitter!`, |
 | | | `I'll generate the virtual AI program, that should microchip the RAM monitor!` |
 
-**Lorem Ipsum**:
+### Lorem Ipsum
 
 | **Variable Name**             | **Decription**                  | **Examples**                                              |
 |:------------------------------|:--------------------------------|:----------------------------------------------------------|
