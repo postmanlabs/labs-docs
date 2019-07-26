@@ -32,6 +32,8 @@ Postman tries to minimize the number of settings you have to change, so we estab
    *   **Retain headers when clicking on links:** If you click on a link in a response, Postman creates a new GET request with that URL. If you want to retain the headers that you set in the previous request set "ON" here. This is useful if you are accessing mainly protected resources.
    *   **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected. 
    *   **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
+   *   **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded,
+   Postman will inform the user that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact app performance.
 
 [![general settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings-Apr2019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Apr2019.png)
 =======
