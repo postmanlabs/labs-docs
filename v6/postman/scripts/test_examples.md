@@ -103,7 +103,7 @@ pm.test("Your test name", function () {
 });
 ```
 
-### `Content-Type` header is present
+### Content-Type header is present
 
 ```js
 pm.test("Content-Type header is present", function () {
@@ -145,7 +145,7 @@ pm.test("Successful POST request", function () {
 
 ## Validate response structure
 
-### JSON schema validation with `tv4`
+### JSON schema validation with tv4
 
 ```js
 var schema = {
@@ -162,7 +162,7 @@ pm.test('Schema is valid', function() {
 });
 ```
 
-### JSON schema validation with `ajv`
+### JSON schema validation with ajv
 
 ```js
 var Ajv = require('ajv'),
@@ -224,7 +224,7 @@ For CSV files, the top row needs to contain variable names.
 
 ---
 
-## Older style of writing Postman tests `(deprecated)`
+## Older style of writing Postman tests (deprecated)
 
 > **Note: This section refers to deprecated script syntax used in older versions of Postman. If you are writing scripts now, please use the syntax mentioned above.**
 
@@ -232,13 +232,13 @@ The older style of writing Postman tests relies on setting values for the specia
 
 You can add as many keys as needed, depending on how many things you want to test for. You can view your test results in the response viewer under the **Tests** tab. The tab header shows how many tests passed, and the keys that you set in the tests variable are listed here. If the value evaluates to true, the test passed.
 
-### Setting an environment variable `(deprecated)`
+### Setting an environment variable (deprecated)
 
 ```js
 postman.setEnvironmentVariable("key", "value");
 ```
 
-### Setting a nested object as an environment variable `(deprecated)`
+### Setting a nested object as an environment variable (deprecated)
 
 ```js
 var array = [1, 2, 3, 4];
@@ -248,13 +248,13 @@ var obj = { a: [1, 2, 3, 4], b: { c: 'val' } };
 postman.setEnvironmentVariable("obj", JSON.stringify(obj));
 ```
 
-### Getting an environment variable `(deprecated)`
+### Getting an environment variable (deprecated)
 
 ```js
 postman.getEnvironmentVariable("key");
 ```
 
-### Getting an environment variable (whose value is a stringified object) `(deprecated)`
+### Getting an environment variable (whose value is a stringified object) (deprecated)
 
 ```js
 // These statements should be wrapped in a try-catch block if the data is coming from an unknown source.
@@ -263,98 +263,98 @@ var array = JSON.parse(postman.getEnvironmentVariable("array"));
 var obj = JSON.parse(postman.getEnvironmentVariable("obj"));
 ```
 
-### Clear an environment variable `(deprecated)`
+### Clear an environment variable (deprecated)
 
 ```js
 postman.clearEnvironmentVariable("key");
 ```
 
-### Set a global variable `(deprecated)`
+### Set a global variable (deprecated)
 
 ```js
 postman.setGlobalVariable("key", "value");
 ```
 
-### Get a global variable `(deprecated)`
+### Get a global variable (deprecated)
 
 ```js
 postman.getGlobalVariable("key");
 ```
 
-### Clear a global variable `(deprecated)`
+### Clear a global variable (deprecated)
 
 ```js
 postman.clearGlobalVariable("key");
 ```
 
-### Check if response body contains a string `(deprecated)`
+### Check if response body contains a string (deprecated)
 
 ```js
 tests["Body matches string"] = responseBody.has("string_you_want_to_search");
 ```
 
-### Convert XML body to a JSON object `(deprecated)`
+### Convert XML body to a JSON object (deprecated)
 
 ```js
 var jsonObject = xml2Json(responseBody);
 ```
 
-### Check if response body is equal to a string `(deprecated)`
+### Check if response body is equal to a string (deprecated)
 
 ```js
 tests["Body is correct"] = responseBody === "response_body_string";
 ```
 
-### Check for a JSON value `(deprecated)`
+### Check for a JSON value (deprecated)
 
 ```js
 var data = JSON.parse(responseBody);
 tests["Your test name"] = data.value === 100;
 ```
 
-### Content-Type is present (Case-insensitive checking) `(deprecated)`
+### Content-Type is present (Case-insensitive checking) (deprecated)
 
 ```js
 tests["Content-Type is present"] = postman.getResponseHeader("Content-Type"); //Note: the getResponseHeader() method returns the header value, if it exists.
 ```
 
-### Content-Type is present (Case-sensitive) `(deprecated)`
+### Content-Type is present (Case-sensitive) (deprecated)
 
 ```js
 tests["Content-Type is present"] = responseHeaders.hasOwnProperty("Content-Type");
 ```
 
-### Response time is less than 200ms `(deprecated)`
+### Response time is less than 200ms (deprecated)
 
 ```js
 tests["Response time is less than 200ms"] = responseTime < 200;
 ```
 
-### Response time is within a specific range (lower bound inclusive, upper bound exclusive) `(deprecated)`
+### Response time is within a specific range (lower bound inclusive, upper bound exclusive) (deprecated)
 
 ```js
 tests["Response time is acceptable"] = _.inRange(responseTime, 100, 1001); // _ is the inbuilt Lodash v3.10.1 object, documented at https://lodash.com/docs/3.10.1
 ```
 
-### Status code is 200 `(deprecated)`
+### Status code is 200 (deprecated)
 
 ```js
 tests["Status code is 200"] = responseCode.code === 200;
 ```
 
-### Code name contains a string `(deprecated)`
+### Code name contains a string (deprecated)
 
 ```js
 tests["Status code name has string"] = responseCode.name.has("Created");
 ```
 
-### Successful POST request status code `(deprecated)`
+### Successful POST request status code (deprecated)
 
 ```js
 tests["Successful POST request"] = responseCode.code === 201 || responseCode.code === 202;
 ```
 
-### Use TinyValidator for JSON data `(deprecated)`
+### Use TinyValidator for JSON data (deprecated)
 
 ```js
 var schema = {
@@ -370,7 +370,7 @@ tests["Valid Data2"] = tv4.validate(data2, schema);
 console.log("Validation failed: ", tv4.error);
 ```
 
-### Decode base64 encoded data `(deprecated)`
+### Decode base64 encoded data (deprecated)
 
 ```js
 var intermediate,
