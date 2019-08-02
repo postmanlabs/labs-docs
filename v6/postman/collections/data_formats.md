@@ -109,7 +109,7 @@ You're done! Postman will detect all the Swagger definitions and convert them in
 
 [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
 
-#### Example Swagger files
+#### OpenAPI files
 
 [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0)
 
