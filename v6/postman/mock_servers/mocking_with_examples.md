@@ -106,6 +106,38 @@ Mocking the `/test` mock path also gives us our expected 404 response.
 
 Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which integer response code your returned response should match.
 
+### Using random data dynamic variables
+
+You can use random data dynamic variables in your Mock Server's Example Response Body. These dynamic variables are resolved as part of the Mock Server response and are replaced with the dynamic data for the variable used. These are very useful to generate random data in your API mocks. You can then use for exploratory testing and writing rich, data-driven tests.
+
+For example, your `Example Response`'s `Body` can contain a data like:
+
+```json
+{
+    "name": "{{$randomFullName}}",
+    "userName": "{{$randomUserName}}",
+    "location": "{{$randomCity}}",
+    "company": "{{$randomCompanyName}}",
+    "jobTitle": "{{$randomJobTitle}}",
+    "updatedAt": "{{$timestamp}}"
+}
+```
+
+When you call that Mock Server endpoint, you will see the response change to something like this:
+
+```json
+{
+    "name": "Cielo McClure",
+    "userName": "Aurelie.Lockman",
+    "location": "Kubhaven",
+    "company": "Runolfsdottir, Bernhard and Hodkiewicz",
+    "jobTitle": "Direct Branding Liaison",
+    "updatedAt": "1565088856"
+}
+```
+
+For the Postman Sandbox page for full list of available [random data dynamic variables](/docs/v6/postman/scripts/postman_sandbox_api_reference#dynamic-variables).
+
 ## Using query params
 
 Postman's Mock server functionality is enhanced to return different responses based on matching request query params. Postman's Mock server looks at the query params while matching requests to the examples. Which means if you have examples that differ only in query params and want to mock different responses for different query params on the same request path, Postman's mock server will return the exact response matching that request path and the corresponding query params.
