@@ -46,7 +46,7 @@ If you are not signed in to the app, you see **OFFLINE**.
 
 When you open the app or if your connection drops, it displays **CONNECTING** before it starts to sync.
 
-[![sync icon in header](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-in-sync.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-in-sync.png)
+[![sync icon in header](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Sync-Screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Sync-Screen.png)
 
 ##### **Sign Out**
 
