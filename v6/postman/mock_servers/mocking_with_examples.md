@@ -136,7 +136,7 @@ When you call that Mock Server endpoint, you will see the response change to som
 }
 ```
 
-For the Postman Sandbox page for full list of available [random data dynamic variables](/docs/v6/postman/scripts/postman_sandbox_api_reference#dynamic-variables).
+See the Postman Sandbox page for full list of available [random data dynamic variables](/docs/v6/postman/scripts/postman_sandbox_api_reference#dynamic-variables).
 
 ## Using query params
 
