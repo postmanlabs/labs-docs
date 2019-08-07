@@ -10,7 +10,7 @@ Postman can export and import collections, environments, globals and header pres
 - [Importing Postman data](#importing-postman-data)
 - [Importing cURL](#importing-curl)
 - [Importing RAML](#importing-raml)
-- [Importing Swagger](#importing-swagger)
+- [Importing OpenAPI](#importing-openapi)
 - [Importing WADL](#importing-wadl)
 - [Validating Collection JSON files](#validating-collection-json-files)
 
@@ -40,7 +40,7 @@ From the **Data** tab of the **SETTINGS** modal, Postman allows you to expor
 
 ## Importing Postman data
 
-Postman data can be imported from the **Data** tab of the **SETTINGS** modal, or using the **Import** button in the header toolbar. Import a collection, environment, data dump, curl command, or a RAML / WADL / Swagger (v1/v2) / Runscope file using the **IMPORT** modal.
+Postman data can be imported from the **Data** tab of the **SETTINGS** modal, or using the **Import** button in the header toolbar. Import a collection, environment, data dump, curl command, or a RAML / WADL / OpenAPI (v1/v2) / Runscope file using the **IMPORT** modal.
 
 [![import data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-importButton.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-importButton.png)
 
@@ -91,29 +91,28 @@ Download an example RAML file: [github-api-v3.raml](https://s3.amazonaws.com/po
 
 **Note**: RAML 1.0 support is coming soon!
 
-### Importing Swagger
+### Importing OpenAPI
 
-A Swagger API definition usually lives as a single file, so we only support imports of single swagger files. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer.
+An OpenAPI definition usually lives as a single file, so we only support imports of single OpenAPI files. If you have a lot of unrelated OpenAPI files in a folder, you can import those through the folder importer.
 
-#### Saving a Swagger file as a collection
+#### Saving an OpenAPI file as a collection
 
-1. Clone the repository containing the Swagger definition to your local machine. If you have it saved locally as file already, that's fine of course.
+1. Clone the repository containing the OpenAPI definition to your local machine. If you have it saved locally as file already, that's fine of course.
 
-2. Click on the Import button, and choose the Import File tab. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer.
+2. Click on the Import button, and choose the Import File tab. If you have a lot of unrelated OpenAPI files in a folder, you can import those through the folder importer.
+   [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
 
-[![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
+3. Click on file and upload the OpenAPI file.
 
-3. Click on file and upload the Swagger file.
-
-You're done! Postman will detect all the Swagger definitions and convert them internally to Postman and then show you an import success message.
+You're done! Postman will detect all the OpenAPI definitions and convert them internally to Postman and then show you an import success message.
 
 [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
 
 #### OpenAPI files
 
-[Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0)
+[OpenAPI 2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0)
 
-[Swagger 1.2](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample)
+[OpenAPI 1.2](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample)
 
 ### Importing WADL
 
