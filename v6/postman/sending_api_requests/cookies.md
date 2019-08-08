@@ -37,7 +37,7 @@ To update an existing cookie, go to the domain from the domain list, and click t
 
 ### Whitelisting domains for programmatic access of cookies
 
-To whitelist a domain so that cookies can be programmatically accessed, click the **Cookies** link under the **Send** button and open the **MANAGE COOKIES** modal. Click on **Whitelist Domains** from bottom left and enter the list of 
+To whitelist a domain so that cookies can be programmatically accessed, click the **Cookies** link under the **Send** button and open the **MANAGE COOKIES** modal. Click on **Whitelist Domains** from bottom left and enter the list of
 domains needed to be whitelisted.
 
 **Adding Cookies through Set-Cookie header**
