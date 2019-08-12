@@ -48,10 +48,10 @@ domains needed to be whitelisted.
 
 Postman also allows for programmatic cookie access i.e. creating and manipulating cookies by special methods instead of relying on the graphical interface, granting a greater degree of control over cookies to the users.
 
-The very first step to perform any kind of operation on cookies is to create a ***cookie jar***, an object that will contain the
+The very first step to perform any kind of operation on cookies is to create a **Cookie Jar**, an object that will contain the
 cookies and the methods that will be used to operate on cookies.
 
-### Creating a cookie jar
+### Creating a Cookie Jar
 
 To create a "cookie jar", use the `pm.cookies.jar()` method. This will create an object containing the cookies and the methods that would be needed to access them.
 
