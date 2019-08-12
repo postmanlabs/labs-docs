@@ -4,7 +4,7 @@ page_id: "intro_to_workspaces"
 warning: false
 ---
 
-## "What is a workspace?"
+## What is a workspace?
 
 A workspace is a _view_ of all the Postman things you've come to use: [collections](/docs/v6/postman/collections/intro_to_collections), [environments](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals), [mocks](/docs/v6/postman/mock_servers/intro_to_mock_servers), [monitors](/docs/v6/postman/monitors/intro_monitors), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
 
@@ -28,7 +28,7 @@ As a Postman user, you can create team workspaces for ongoing development or sho
 
 For Postman Enterprise teams, private workspaces are team workspaces only visible to the user who creates the workspace and team members who have been invited to join the workspace. Private workspaces are a way for Postman Enterprise teams to restrict access to collections, environments, mocks, and monitors that are relevant only to a particular audience.
 
-## "Why use workspaces?"
+## Why use workspaces?
 
 ### Personal organization
 
