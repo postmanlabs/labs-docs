@@ -35,14 +35,51 @@ To update an existing cookie, go to the domain from the domain list, and click t
 
 [![update cookie](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies-4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies-4.png)
 
+**Adding Cookies through Set-Cookie header**
+
+You can also add/edit the cookies through the [Set-Cookie header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie) through the response.  
+
 ### Whitelisting domains for programmatic access of cookies
 
 To whitelist a domain so that cookies can be programmatically accessed, click the **Cookies** link under the **Send** button and open the **MANAGE COOKIES** modal. Click on **Whitelist Domains** from bottom left and enter the list of
 domains needed to be whitelisted.
 
-**Adding Cookies through Set-Cookie header**
+### Programmatic accees of cookies
 
-You can also add/edit the cookies through the [Set-Cookie header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie) through the response.  
+Postman also allows for programmatic cookie access i.e. creating and manipulating cookies by special methods instead of relying on the graphical interface, granting a greater degree of control over cookies to the users.
+
+The very first step to perform any kind of operation on cookies is to create a ***cookie jar***, an object that will contain the
+cookies and the methods that will be used to operate on cookies.
+
+### Creating a cookie jar
+
+To create a "cookie jar", use the `pm.cookies.jar()` method. This will create an object containing the cookies and the methods that would be needed to access them.
+
+`const cookieJar = pm.cookies.jar();`
+
+### Creating a cookie
+
+After a cookie jar is created, we can place cookies into it by the following methods:
+
+1. Set a cookie using the `jar.set()` function, it takes a URL, a cookie name and a cookie value.
+
+2. One can also set a PostmanCookie or its compatible cookie object using the `jar.set()` function.
+
+### Get a cookie
+
+To retrieve a cookie, `jar.get()` function is used. The function takes a URL and name of the required cookie. It returns the value of cookie.
+
+### Get all the cookies
+
+To get all the cookies for a particular URL that are in the cookie jar, `jar.getAll()` function is used, it takes a URL and returns all the cookies for that URL.
+
+### Delete a cookie
+
+To delete a cookie, `jar.unset()` function is used. It takes a URL and the name of the cookie to be removed.
+
+### Delete all the cookies
+
+To clear all the cookies for a URL, `jar.clear()` is used. It takes the URL for which all the cookies are to be removed. Note that `jar.clear()` removes all cookies for a particular URL, it DOES NOT remove all the cookies in the jar as there may be cookies for more than one URL in the cookie jar.
 
 ### Properties not yet supported
 
