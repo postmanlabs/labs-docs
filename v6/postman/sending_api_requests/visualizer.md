@@ -3,6 +3,8 @@ title: "Visualize API responses"
 page_id: "visualizer"
 ---
 
+`Status: In Canary`
+
 Postman provides a programmable way to visually represent [HTTP responses](/docs/postman/sending_api_requests/responses) in the "Visualizer" tab inside the response body area. You can use Visualizers to combine data from HTTP responses with layout information to suite your needs. Visualizers open up a whole new way to look at response body beyond the Pretty, Raw and Preview options in Postman.
 
 Think of Visualizers as a tool to build domain-specific representation of API responses. APIs encapsulate domain and business logic. You can use visualizers to model and show the part of the response data that are relevant for those business use cases.
@@ -22,6 +24,8 @@ The `pm.visualizer.set()` method takes three arguments:
 Postman uses the information you pass to `pm.visualizer.set()` to render a HTML page in an `iframe` sandbox for Visualizer. You see this rendered HTML page inside the "Visualize" tab. The `layout` string goes into the `<body>` of this rendered page, including any JavaScript, CSS and HTML that the layout template may contain.
 
 You can use any of the libraries in the Postman Sandbox to programmatically generate the layout template. You can also import any external JavaScript libraries by adding their URL to a `<script>` tag in the template code. This lets you visualize the data using any visualization tool of your choice (be it D3.js or something similar).
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Qj7j3QsY2ok?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Examples
 
