@@ -231,6 +231,36 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
    Get a copy of all cookies and their values in the form of an object. The cookies returned are the ones defined for the requested domain and path.
 
+### pm.cookies.jar
+
+* `pm.cookies.jar():Function → Object`
+
+  Access the cookie jar object.
+
+* `jar.set(URL:String, cookie name:String, cookie value:String, callback(error, cookie)):Function → Object`
+
+   Set a cookie using cookie name and value. One can also directly set the cookie by assinging cookie value to the     cookie name within this function.
+
+  * `jar.set(URL:String, { name:String, value:String, httpOnly:Bool }, callback(error, cookie)):Function → Object`
+
+     Set a cookie using PostmanCookie or its compatible object.
+
+* `jar.get(URL:String, token:String, callback (error, value)):Function → Object`
+
+   Gets a cookie from the cookie jar.
+
+* `jar.getAll(URL:String, callback (error, cookies)):Function → Object`
+
+   Gets all the cookies from the cookie jar.
+
+* `jar.unset(URL:String, token:String, callback(error)):Function → Object`
+
+   Unset a cookie.
+
+* `jar.clear(URL:String, callback (error)):Function → Object`
+
+   Clear all cookies from the cookie jar.
+
 ### pm.test
 
 `pm.test(testName:String, specFunction:Function):Function`
