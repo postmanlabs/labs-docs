@@ -6,7 +6,7 @@ warning: false
 
 Published documentation enables you to share your [public API documentation](/docs/postman_for_publishers/public_api_docs) with the world.
 
-### Generating public documentation
+## Generating public documentation
 
 You can only publish documentation for collections that you've created or have write permissions. From your collection's private documentation page, select a corresponding version and click **Publish** on the top right corner of the screen.
 
