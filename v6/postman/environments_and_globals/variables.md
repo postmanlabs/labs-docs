@@ -31,7 +31,7 @@ You can assign five types of variable scopes:
 4. Data
 5. Local
 
-You can view different kinds of buckets in which values reside. If a variable is in two different scopes, the scope with a higher priority takes precedence. Postman resolves scopes using this hierarchy progressing from broad to narrow scope. 
+You can view different kinds of buckets in which values reside. If a variable is in two different scopes, the scope with a higher priority takes precedence. Postman resolves scopes using this hierarchy progressing from broad to narrow scope.
 
 [![nested variable scopes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Pic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Pic.png)
 
@@ -51,17 +51,17 @@ Since variables in the request builder are accessed using string substitution, t
 
 ## Accessing variables through scripts
 
-You can assign a current value when running your collection or a simple request and you also use variables in pre-request and test scripts. Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
+You can assign a current value when running your collection or a simple request and you also use variables in pre-request and test scripts. Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope.
 
-  1.  Defining an environment or global variable in a script: 
-        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable. When you send the request, the script will be evaluated and the value will be stored as a variable. Note that [defining a collection variable](/docs/postman/environments_and_globals/variables/) is a little different and can be done by editing the collection details.
-  2.  Fetching a pre-defined variable: 
-        *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
+1. Defining an environment or global variable in a    script:
+      * To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable. When you send the request, the script will be evaluated and the value will be stored as a variable. Note that [defining a collection variable](/docs/postman/environments_and_globals/variables/) is a little different and can be done by editing the collection details.
+1. Fetching a pre-defined variable:
+      * Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
 
-        **Note**: When you specify a .get() method it always obtains the current value while .set() method modifies the current value. The way these variables work depends much on a setting in Postman [Automatically persist variable values](/docs/postman/launching_postman/settings/)
+        **Note:** When you specify a .get() method it always obtains the current value while .set() method modifies the current value. The way these variables work depends much on a setting in Postman [Automatically persist variable values](/docs/postman/launching_postman/settings/)
 
-  3.  Setting a variable in a scope: 
-        *  Environment variables can be accessed with the corresponding environments. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
+1. Setting a variable in a scope:
+      * Environment variables can be accessed with the corresponding environments. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
 
 [![variables used in script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals2.png)
 
@@ -79,7 +79,7 @@ Often while using variables in scripts, you will need to see the values they obt
 
 The Collection Runner lets you import a CSV or a JSON file, and then use the values from the data file inside HTTP requests and scripts. We call these 'data variables'.
 
-To use them inside Postman, follow the same syntax as environment or global variables. 
+To use them inside Postman, follow the same syntax as environment or global variables.
 
 ### Data variables in requests
 
@@ -95,17 +95,17 @@ Here's an example of Inside pre-request and test scripts. Let's say you have the
 
 [![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals4.png)
 
-Learn more about [working with data files](/docs/postman/collection_runs/working_with_data_files/). 
+Learn more about [working with data files](/docs/postman/collection_runs/working_with_data_files/).
 
 ## Dynamic variables
 
-Postman has a few dynamic variables that you can use in your requests. 
+Postman has a few dynamic variables that you can use in your requests.
 
 Dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
-   *   `{{$guid}}` : Adds a v4 style guid
-   *   `{{$timestamp}}`: Adds the current timestamp
-   *   `{{$randomInt}}`: Adds a random integer between 0 and 1000
+* `{{$guid}}` : Adds a v4 style guid
+* `{{$timestamp}}`: Adds the current timestamp
+* `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
    For a complete list of dynamic variables, refer to the section [Dynamic Variables List](/docs/v6/postman/scripts/postman_sandbox_api_reference/#dynamic-variables).
 
@@ -123,7 +123,7 @@ Click the "eye" icon in the top right to toggle the display, or type the keyboar
 
 Postman variables are very powerful, and two features - autocomplete and tool tips - make them even more convenient.
 
-## Autocomplete for variables
+### Autocomplete for variables
 
 [![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)
 
@@ -131,7 +131,7 @@ Type an open curly bracket to bring up the autocomplete menu. For the pre-reques
 
 The following screen displays selection of Token1 with its initial and current values and scope:
 
-## Variable highlighting and tooltip on hover
+### Variable highlighting and tooltip on hover
 
 [![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)
 
