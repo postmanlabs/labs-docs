@@ -7,19 +7,19 @@ page_id: "visualizer"
 
 Postman provides a programmable way to visually represent [HTTP responses](/docs/postman/sending_api_requests/responses) in the "Visualizer" tab inside the response body area. Visualizers open up a whole new way to look at response body beyond the Pretty, Raw and Preview options in Postman.
 
-Visualizers let you focus on the data that matters in a HTTP response. Think of Visualizers as a tool to build domain-specific representation of API responses. You can use Visualizers to model and show the part of the response data that are relevant for those business use cases, instead of having to look at the raw response data.
+Visualizers let you focus on the data that matters in an HTTP response. Think of Visualizers as a tool to build a domain-specific representation of API responses. You can use Visualizers to model and show the part of the response data that are relevant for those business use cases, instead of having to look at the raw response data.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Qj7j3QsY2ok?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Use cases
 
-Let's say you have a HTTP endpoint that responds with tabular data. This might be CSV or an array of objects in JSON. This data is better understood by putting it in a table view, rather than looking at an array of objects.
+Let's say you have an HTTP endpoint that responds with tabular data. This might be CSV or an array of objects in JSON. This data is better understood by putting it in a table view, rather than looking at an array of objects.
 
 Typically, if you need to visualize this data, you would copy it into a spreadsheet or use another request in Postman to push the data to an external spreadsheet API. With Visualizers, you can now render that data as a table and see it right inside Postman, in the context of the current request. Once you [share that collection](/docs/postman/collections/sharing_collections) with your team, they will be able to see the same visualization without having to move out of Postman.
 
 [![Visualizer table rendering](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_table.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_table.png)
 
-But then, real-life API responses often tend to be more sophisticated than simple tabular data. Your API might respond with a JSON or GraphQL payload that lists certain events happening over time. For example, this can be air pollution data in a city over the last one month. Such kind of multi-series data is difficult to understand when you look at the raw data itself. You can build a chart that renders that data into a time series. You can even make the visualization interactive to drill-down into the data.
+But then, real-life API responses often tend to be more sophisticated than simple tabular data. Your API might respond with a JSON or GraphQL payload that lists certain events happening over time. For example, this can be air pollution data in a city over the last month. Such kind of multi-series data is difficult to understand when you look at the raw data itself. You can build a chart that renders that data into a time series. You can even make the visualization interactive to drill-down into the data.
 
 [![Visualizer bar chart rendering](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_barchart.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_barchart.png)
 
