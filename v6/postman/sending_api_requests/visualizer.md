@@ -49,9 +49,7 @@ Let's say your API endpoint responds with names and emails of a list of people. 
 ]
 ```
 
-First, we will create a simple Handlebars template which can render a table by looping over an array. Handlebars can do it using the {% raw %}`{{#each}}`{% endraw %} tag. You can add this script to your request's Tests tab:
-
-{% raw %}
+First, we will create a simple Handlebars template which can render a table by looping over an array. Handlebars can do it using the `{{#each}}` tag. You can add this script to your request's Tests tab:
 
 ```js
 var template = `
@@ -82,8 +80,6 @@ pm.visualizer.set(template, {
 ```
 
 The `template` variable in the code above is the template string created earlier. The second argument passed here is an object with the `response` property. This is the variable that the template expects in the `{{#each response}}` loop. The value assigned to the `response` property is the response JSON data parsed into an object.
-
-{% endraw %}
 
 Now, if you hit "Send" for this request, and look under the response body section, you will see a table rendered under the "Visualize" tab.
 
