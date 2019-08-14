@@ -103,7 +103,7 @@ The `pm.visualizer.set()` method takes three arguments:
 
 Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in an `iframe` sandbox for Visualizer. You see this rendered HTML page inside the "Visualize" tab. The `layout` string goes into the `<body>` of this rendered page, including any JavaScript, CSS and HTML that the layout template may contain.
 
-### Using data visualization libraries
+### Using your own libraries
 
 You can use any of the libraries in the Postman Sandbox to programmatically generate the layout template. But, Postman does not ship with any data visualization libraries in the Sandbox. You can import any external JavaScript libraries by adding their URL to a `<script>` tag in the template code, just the same way as you would load JavaScript in an HTML file. This lets you visualize the data using any visualization tool of your choice (be it D3.js or something similar).
 
