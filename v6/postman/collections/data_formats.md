@@ -44,7 +44,7 @@ Postman data can be imported from the **Data** tab of the **SETTINGS** modal
 
 [![import data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-importButton.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-importButton.png)
 
-### Importing cURL
+## Importing cURL
 
 Most valid cURL (HTTP-only) commands can be imported into Postman. Postman's importer supports the following cURL options:
 
@@ -70,9 +70,9 @@ A few commands which can be imported include:
 | `curl -X PUT --data-binary hello http://postman-echo.com/put`                                | Creates a POST request with raw data                                 |
 | `curl -X PUT --data-ascii 'a=b&c=d' http://postman-echo.com/put -H 'AccessToken:1234'`       | Creates a PUT request with urlencoded form data, and a custom header |
 
-### Importing RAML
+## Importing RAML
 
-#### Saving a RAML folder as a collection
+### Saving a RAML folder as a collection
 
 1. Clone the repository containing the RAML definition to your local machine, or save it locally as a folder.
 
@@ -85,40 +85,40 @@ You're done! Postman will detect all the RAML definitions and convert them inter
 
 [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
 
-#### Example RAML
+### Example RAML
 
 Download an example RAML file: [github-api-v3.raml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/github-api-v3.raml)
 
-**Note**: RAML 1.0 support is coming soon!
+**Note:** RAML 1.0 support is coming soon!
 
-### Importing OpenAPI
+## Importing OpenAPI
 
 An OpenAPI definition usually lives as a single file, so we only support imports of single OpenAPI files. If you have a lot of unrelated OpenAPI files in a folder, you can import those through the folder importer.
 
-#### Saving an OpenAPI file as a collection
+### Saving an OpenAPI file as a collection
 
 1. Clone the repository containing the OpenAPI definition to your local machine. If you have it saved locally as file already, that's fine of course.
 
-2. Click on the Import button, and choose the Import File tab. If you have a lot of unrelated OpenAPI files in a folder, you can import those through the folder importer.
+1. Click on the Import button, and choose the Import File tab. If you have a lot of unrelated OpenAPI files in a folder, you can import those through the folder importer.
    [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
 
-3. Click on file and upload the OpenAPI file.
+1. Click on file and upload the OpenAPI file.
 
 You're done! Postman will detect all the OpenAPI definitions and convert them internally to Postman and then show you an import success message.
 
 [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
 
-#### OpenAPI files
+### OpenAPI files
 
 [OpenAPI 2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0)
 
 [OpenAPI 1.2](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample)
 
-### Importing WADL
+## Importing WADL
 
 Postman lets you import WADL specs too. While all aspects are not supported yet, you can expect the various parameters that Postman uses (collections, folder, requests, headers, request payloads) to be correctly generated. We're currently working on extending this feature.
 
-#### Example WADL file
+### Example WADL file
 
 ```xml
 <application xmlns="http://wadl.dev.java.net/2009/02">
