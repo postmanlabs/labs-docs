@@ -25,7 +25,7 @@ This topic describes how to configure collection run parameters for:
 * [Delay](#delay)
 * [Log responses](#log-responses)
 * [Data](#data)
-* [Keep variable values](#Keep-variable-values)
+* [Persist variables](#persist-variables)
 * [Run collection without using stored cookies](#run-collection-without-using-stored-cookies)
 * [Save cookies after collection run](#save-cookies-after-collection-run)
 
@@ -78,7 +78,7 @@ Supplies a data file to use for the collection run.
 To learn more about how to use a date file for a collection run, see
 [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files).
 
-## Keep variable values
+## Persist variables
 
 By default, any environment changes in the collection runner are not reflected in the request builder. Enabling this option saves the values of the variables at the end of the run.
 
