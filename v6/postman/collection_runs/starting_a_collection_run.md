@@ -9,7 +9,7 @@ Collections are groups of requests that can be run together as a series of reque
 
 You can use scripts to build integration test suites, pass data between API requests, and build workflows that mirror your actual use case of APIs.
 
-## Customising requests in collection runner
+## Customizing requests in collection runner
 
 The collection runner allows for customising the execution of requests in the following ways:
 
