@@ -80,17 +80,17 @@ To learn more about how to use a date file for a collection run, see
 
 ## Persist variables
 
-By default, any environment changes in the collection runner are not reflected in the request builder. Enabling this option saves the values of the variables at the end of the run.
+By default, any environment changes in the collection runner are not reflected in the request builder. Enabling this option saves the values of the variables at the end of the run, **overwriting previous values**.
 
 To learn more about Keep variable values in a collection run, see [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs).
 
 ## Run collection without using stored cookies
 
-Enabling this allows collection runs without using cookies stored in the cookie manager.
+A request from the collection may require cookies to run. Collection runner can allow/prevent the request from accessing the cookie by the **Run collection without using stored cookies** option. Enabling this allows collection runs without using cookies stored in the cookie manager.
 
 ## Save cookies after collection run
 
-Enabling this saves the cookies for the session to the cookie manager.
+A request in the collection may create/update cookies during execution. The Collection runner provides an option to save the cookie to the cookie manager, **overwriting any existing cookie**. Enabling this saves the cookies for the session to the cookie manager.
 
 ---
 For more information about collections runs, see:
