@@ -9,6 +9,14 @@ Collections are groups of requests that can be run together as a series of reque
 
 You can use scripts to build integration test suites, pass data between API requests, and build workflows that mirror your actual use case of APIs.
 
+## Customising requests in collection runner
+
+The collection runner allows for customising the execution of requests in the following ways:
+
+* **Order of execution**: The requests execute in the order they appear on the **Run order** pane of the collection runner. The execution can be reordered by dragging and dropping.
+
+* **Selective execution**: Requests can be prevented from executing by disabling them using the preceeding check boxes in the **Run order** pane of the collection runner.
+
 This topic describes how to configure collection run parameters for:
 
 * [Collection or folder](#collection-or-folder)
@@ -17,7 +25,9 @@ This topic describes how to configure collection run parameters for:
 * [Delay](#delay)
 * [Log responses](#log-responses)
 * [Data](#data)
-* [Persist variables](#persist-variables)
+* [Keep variable values](#Keep-variable-values)
+* [Run collection without using stored cookies](#run-collection-without-using-stored-cookies)
+* [Save cookies after collection run](#save-cookies-after-collection-run)
 
 [![collection run parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg1.png)
 
@@ -68,11 +78,19 @@ Supplies a data file to use for the collection run.
 To learn more about how to use a date file for a collection run, see
 [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files).
 
-## Persist variables
+## Keep variable values
 
-By default, any environment changes in the collection runner are not reflected in the request builder.
+By default, any environment changes in the collection runner are not reflected in the request builder. Enabling this option saves the values of the variables at the end of the run.
 
-To learn more about persist variables in a collection run, see [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs).
+To learn more about Keep variable values in a collection run, see [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs).
+
+## Run collection without using stored cookies
+
+Enabling this allows collection runs without using cookies stored in the cookie manager.
+
+## Save cookies after collection run
+
+Enabling this saves the cookies for the session to the cookie manager.
 
 ---
 For more information about collections runs, see:
