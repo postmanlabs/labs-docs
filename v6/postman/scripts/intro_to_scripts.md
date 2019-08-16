@@ -9,7 +9,7 @@ warning: false
 Postman contains a powerful runtime based on Node.js that allows you to add dynamic behavior to requests and collections. This allows you to write test suites, build requests that can contain dynamic parameters, pass data between requests, and a lot more. You can add JavaScript code to execute during 2 events in the flow:
 
   1. Before a request is sent to the server, as a [pre-request script](/docs/postman/scripts/pre_request_scripts) under the **Pre-request Script** tab.
-  2. After a response is received, as a [test script](/docs/postman/scripts/test_scripts) under the **Tests** tab.
+  1. After a response is received, as a [test script](/docs/postman/scripts/test_scripts) under the **Tests** tab.
 
 [![test script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomScripts2.png)
 
