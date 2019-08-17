@@ -11,7 +11,7 @@ You can use scripts to build integration test suites, pass data between API req
 
 ## Customizing requests in collection runner
 
-The collection runner allows for customising the execution of requests in the following ways:
+The collection runner allows for customizing the execution of requests in the following ways:
 
 * **Order of execution**: The requests execute in the order they appear on the **Run order** pane of the collection runner. The execution can be reordered by dragging and dropping.
 
