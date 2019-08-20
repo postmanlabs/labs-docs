@@ -9,6 +9,7 @@ This topic describes how to run multiple iterations of a Collection. It also des
 * [Switching between iterations](#switching-between-iterations)
 * [Using green and red filters](#using-green-and-red-filters)
 * [Debugging with multiple iterations](#debugging-with-multiple-iterations)
+* [Programmatically customize iteration data](#programmatically-customize-iteration-data)
 
 Before we start, download the [collection. json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037885.json) file we'll use to explain multiple iterations.
 
@@ -44,6 +45,12 @@ The numbers in the header represent the current iteration. Now its easy to pinpo
 Iterations in the collection runner are 1-indexed with the first iteration beginning with a count of 1.
 
 Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](/docs/v6/postman/scripts/postman_sandbox_api_reference), which is 0-indexed with the first iteration beginning with a count of zero.
+
+## Programmatically customize iteration data
+
+To provide data for a collection run, the Collection runner provides a "Data file" option. However, if you want to access and manipulate that data in the collection runs, you will need to it programmatically through scripts. This can be done by the `pm.iterationData` object, which provides several methods to programmatically access and manipulate the data, allowing the access of iteration data during a collection run.
+
+For a list of methods provided by the iterationData object, see: [pm.iterationData](/docs/v6/postman/scripts/postman_sandbox_api_reference)
 
 ---
 For more information about collection runs, see:
