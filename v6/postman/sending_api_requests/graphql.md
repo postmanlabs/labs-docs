@@ -44,7 +44,7 @@ You can easily create or import GraphQL schemas in Postman. To create a GraphQL 
 
 1. Click **APIs** tab, select an API (or create a new API), navigate to the **Define** tab, select **Create new**/**Import file**, choose *GraphQL* from the dropdown and click **Save**.  
 
-2. Go to the **Collections** tab, select the request, navigate to the **Body** tab, and select **GraphQL** body type. Select your schema from the **GraphQL (Draft)** dropdown and start typing your query. Autocomplete lets you view and insert possible completions from the content in your GraphQL schema.
+1. Go to the **Collections** tab, select the request, navigate to the **Body** tab, and select **GraphQL** body type. Select your schema from the **GraphQL (Draft)** dropdown and start typing your query. Autocomplete lets you view and insert possible completions from the content in your GraphQL schema.
 
 ## Autocomplete for GraphQL
 
