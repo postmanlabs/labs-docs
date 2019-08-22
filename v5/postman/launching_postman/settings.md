@@ -57,7 +57,7 @@ Add and view client certificates on a per domain basis. Learn more about [settin
 
 ### Update
 
-Postman's native apps will notify you whenever a version update is available.  To force a check for updates, head to the **Update** tab of the **SETTINGS** modal. Learn about [updating the Postman app](/docs/postman/launching_postman/installation_and_updates).
+Postman's native apps will notify you whenever a version update is available.  To force a check for updates, head to the **Update** tab of the **SETTINGS** modal. Learn about [updating the Postman app](/docs/postman/launching_postman/installation_and_updates/).
 
 ### About
 

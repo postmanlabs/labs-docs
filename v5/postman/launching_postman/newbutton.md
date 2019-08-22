@@ -67,7 +67,7 @@ After creating the collection, you can save requests to the collection and add f
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)
 
 <h4 id="environments">Creating environments</h4>
-While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments) let you customize requests using variables. 
+While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments/) let you customize requests using variables. 
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Environment". 

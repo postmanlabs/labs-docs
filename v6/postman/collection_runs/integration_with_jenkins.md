@@ -112,11 +112,11 @@ You can use a wide variety of other configurations to make your collection more 
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
 * [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
 * [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
 * [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
 * [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
 
 * [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)

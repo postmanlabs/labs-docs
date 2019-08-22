@@ -16,7 +16,7 @@ warning: false
 
 * Digging Deeper
 
-    *   using environments and variables in Postman - [Environments and globals](/docs/postman/environments_and_globals/manage_environments)
+    *   using environments and variables in Postman - [Environments and globals](/docs/postman/environments_and_globals/manage_environments/)
     *   workflow automation - [Branching and looping](/docs/postman/scripts/branching_and_looping), [Monitors](/docs/postman/monitors/intro_monitors)  
     *   using cookies and authentication helpers in Postman - [Cookies](/docs/postman/sending_api_requests/cookies), [Authorization](/docs/postman/sending_api_requests/authorization)
 

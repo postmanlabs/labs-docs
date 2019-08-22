@@ -13,7 +13,7 @@ Postman Pro automatically generates documentation for any of your collections. P
 
 ##### **Complete**
 
-Your collections are documented with folders, [requests](/docs/postman/sending_api_requests/requests), [responses](/docs/postman/sending_api_requests/responses), parameters, [code snippets](/docs/postman/sending_api_requests/generate_code_snippets), [environments](/docs/postman/environments_and_globals/manage_environments), and examples.
+Your collections are documented with folders, [requests](/docs/postman/sending_api_requests/requests), [responses](/docs/postman/sending_api_requests/responses), parameters, [code snippets](/docs/postman/sending_api_requests/generate_code_snippets), [environments](/docs/postman/environments_and_globals/manage_environments/), and examples.
 
 ##### **Customizable**
 

@@ -41,7 +41,7 @@ You can create, share, duplicate, export, and delete an environment. You can als
 
 **Note:** Environment and global variables are always stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
-To learn how to create, share, and manage an environment, see [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments).
+To learn how to create, share, and manage an environment, see [Manage environments](/docs/postman/environments_and_globals/manage_environments/).
 
 ### Globals
 
@@ -54,6 +54,6 @@ To learn how to manage and view global variables, see [Manage globals](/docs/v6/
 ---
 For more information about environments and globals, see:
 
-* [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments)
+* [Manage environments](/docs/postman/environments_and_globals/manage_environments/)
 * [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals)
 * [Variables](/docs/v6/postman/environments_and_globals/variables)

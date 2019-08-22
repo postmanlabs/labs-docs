@@ -12,7 +12,7 @@ Before sending an actual request, front-end developers can create a mock server 
 
 ## Why use mock servers
 
-Creating a [mock example](/docs/v6/postman/collections/examples) during the earliest phase of API development fosters clear communication among team members and aligns their expectations.
+Creating a [mock example](/docs/postman/collections/examples/) during the earliest phase of API development fosters clear communication among team members and aligns their expectations.
 
 As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
 
@@ -36,5 +36,5 @@ For more information about mock servers, see:
 
 * [Setting up a mock server](/docs/v6/postman/mock_servers/setting_up_mock)
 * [Mocking with examples](/docs/v6/postman/mock_servers/mocking_with_examples)
-* [Mocking with the Postman API](/docs/v6/postman/mock_servers/mock_with_api)
+* [Mocking with the Postman API](/docs/postman/mock_servers/mock_with_api/)
 * [Matching algorithm (for mocks)](/docs/v6/postman/mock_servers/matching_algorithm)

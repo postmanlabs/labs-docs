@@ -59,7 +59,7 @@ If you click the ellipsis **(...)**, you can remove any element from the workspa
 
 ### Environments
 
-Add an existing environment to this workspace or [create a new environment](/docs/v6/postman/environments_and_globals/manage_environments). You can share an environment to multiple workspaces.
+Add an existing environment to this workspace or [create a new environment](/docs/postman/environments_and_globals/manage_environments/). You can share an environment to multiple workspaces.
 
 ### Monitors
 

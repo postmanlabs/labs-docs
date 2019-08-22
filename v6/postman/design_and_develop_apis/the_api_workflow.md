@@ -88,7 +88,7 @@ The mock server is now added to the API and appears as illustrated below:
 
 To understand how versioning influences mock servers, refer to the section
 
-[Versioning an API](/docs/v6/postman/design_and_develop_apis/versioning_an_api).
+[Versioning an API](/docs/postman/design_and_develop_apis/versioning_an_api/).
 
 To add a mock server to a specific version of your collection, refer to the section [Setting up a mock server](/docs/v6/postman/mock_servers/setting_up_mock)
 
@@ -100,7 +100,7 @@ You can link the documentation generated from your collections to an API using v
 
 In the above screen, select a corresponding collection from the list with the documentation you want to link and click **Add Documentation**. The documentation is now added to the API. Only available collections will be shown in this list.
 
-To understand how versioning influences documentation, refer to the section [Versioning an API](/docs/v6/postman/design_and_develop_apis/versioning_an_api).
+To understand how versioning influences documentation, refer to the section [Versioning an API](/docs/postman/design_and_develop_apis/versioning_an_api/).
 
 To learn more about generating and viewing version-specific documentation, refer to the section [Publishing version-specific documentaion](/docs/v6/postman/api_documentation/publishing_public_docs)
 
@@ -162,7 +162,7 @@ To add a monitor to a specific version of your collection, refer to the section 
 ---
 For more information on APIs, see:
 
-* [Sharing an API](/docs/v6/postman/design_and_develop_apis/sharing_apis)
-* [Versioning an API](/docs/v6/postman/design_and_develop_apis/versioning_an_api)
-* [Managing APIs](/docs/v6/postman/design_and_develop_apis/managing_apis)
+* [Sharing an API](/docs/postman/design_and_develop_apis/sharing_apis/)
+* [Versioning an API](/docs/postman/design_and_develop_apis/versioning_an_api/)
+* [Managing APIs](/docs/postman/design_and_develop_apis/managing_apis/)
 * [Introduction to APIs](/docs/v6/postman/design_and_develop_apis/introduction_to_apis)

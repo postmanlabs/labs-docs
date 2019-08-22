@@ -121,7 +121,7 @@ For more information on this, refer to [Publishing version-specific documentaion
 
 For more information on APIs, see:
 
-* [Sharing an API](/docs/v6/postman/design_and_develop_apis/sharing_apis)
+* [Sharing an API](/docs/postman/design_and_develop_apis/sharing_apis/)
 * [Managing API workflow](/docs/v6/postman/design_and_develop_apis/the_api_workflow)
-* [Managing APIs](/docs/v6/postman/design_and_develop_apis/managing_apis)
+* [Managing APIs](/docs/postman/design_and_develop_apis/managing_apis/)
 * [Introduction to APIs](/docs/v6/postman/design_and_develop_apis/introduction_to_apis)

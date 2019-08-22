@@ -72,7 +72,7 @@ Let's explore how to manage Workspace elements.
 
 **Environments**
 
-Add environments to this Workspace or [create environments](/docs/postman/environments_and_globals/manage_environments) in the Postman app. After you add environments, you can share them with other Workspaces.
+Add environments to this Workspace or [create environments](/docs/postman/environments_and_globals/manage_environments/) in the Postman app. After you add environments, you can share them with other Workspaces.
 
 **Monitors**
 

@@ -98,10 +98,10 @@ You can use data variables in all places and in the exact way you can use enviro
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
 * [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
 * [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
 * [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
 * [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
 * [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)

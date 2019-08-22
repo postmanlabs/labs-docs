@@ -75,7 +75,7 @@ The Trash feature is available only for the signed-in users. So, if you are not 
 
 If your collection seems deleted and you are not able to recover from your deleted collections list, it is possible it is removed from a workspace rather than deleted. To check, navigate back to the main page of the web dashboard, then click `View all collections`. If listed, you can click on its share icon to move it back into a personal or shared workspace.
 
-If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/docs/v6/postman/team_library/activity_feed_and_restoring_collections).
+If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/docs/postman/workspaces/activity_feed_and_restoring_collections/).
 
 ## Share a collection
 
@@ -93,7 +93,7 @@ Requests can also store [sample responses](/docs/v6/postman/sending_api_requests
 
 ### Use examples
 
-With [examples](/docs/v6/postman/collections/examples), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/v6/postman/mock_servers).
+With [examples](/docs/postman/collections/examples/), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/v6/postman/mock_servers).
 
 ### Add scripts
 

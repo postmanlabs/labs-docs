@@ -64,7 +64,7 @@ Requests can also store [sample responses](/docs/postman/sending_api_requests/re
 
 ##### **Use examples** 
 
-With [examples](/docs/postman/collections/examples), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/postman/mock_servers). 
+With [examples](/docs/postman/collections/examples/), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/postman/mock_servers). 
 
 ##### **Add scripts**
 

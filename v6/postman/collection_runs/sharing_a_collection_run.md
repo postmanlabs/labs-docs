@@ -29,7 +29,7 @@ To import a run, click the orange **Import Test Run** button on the Runner's sel
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
 * [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
 * [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
 * [Building workflows](/docs/v6/postman/collection_runs/building_workflows)

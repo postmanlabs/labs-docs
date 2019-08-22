@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Let's take a deep dive into how [mock servers](/docs/postman/mock_servers/setting_up_mock) and [examples](/docs/postman/collections/examples) work together, and how you can integrate them into your workflow for a more enhanced API experience with Postman.
+Let's take a deep dive into how [mock servers](/docs/postman/mock_servers/setting_up_mock) and [examples](/docs/postman/collections/examples/) work together, and how you can integrate them into your workflow for a more enhanced API experience with Postman.
 
 1. Sending a request (R1)
 2. Saving the request (R1) to a collection (C1)
@@ -59,7 +59,7 @@ In the previous steps, we prepared the collection, request, and example response
   
 ##### **Step 4: Creating a mock (M1) for the collection (C1)**
 
-  There are two ways to create a mock for our collection: 1) using the Postman app and 2) [using the Postman API](/docs/postman/mock_servers/mock_with_api). In this example, we will mock a collection using the Postman app.
+  There are two ways to create a mock for our collection: 1) using the Postman app and 2) [using the Postman API](/docs/postman/mock_servers/mock_with_api/). In this example, we will mock a collection using the Postman app.
   
   From the Postman app, click on the right angle bracket (**>**) next to the collection you wish to mock to expand the collection details view. 
   

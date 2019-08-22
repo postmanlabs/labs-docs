@@ -21,7 +21,7 @@ When you select a folder here, only that folder is executed, which means only re
 
 ##### **Environment**
 
-This is the environment that will be used when the collection is run. Read more about [using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs).
+This is the environment that will be used when the collection is run. Read more about [using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/).
 
 ##### **Iterations**
 
@@ -45,4 +45,4 @@ This is used to supply a data file to be used for the collection run. Read more 
 
 ##### **Persist variables**
 
-By default, any environment changes in the collection runner are not reflected back in the request builder. Read more about [using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs).
+By default, any environment changes in the collection runner are not reflected back in the request builder. Read more about [using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/).

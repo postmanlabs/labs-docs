@@ -42,7 +42,7 @@ Let's learn more about integration with Travis:
 
 ## Hooking up Postman to Travis CI
 
-1. [Export the Postman Collection as a JSON file](/docs/v6/postman/collections/data_formats#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/v6/postman/environments_and_globals/manage_environments#manage-environments) and move the file to your project directory as well.
+1. [Export the Postman Collection as a JSON file](/docs/v6/postman/collections/data_formats#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/postman/environments_and_globals/manage_environments/#manage-environments) and move the file to your project directory as well.
 
     In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
 
@@ -107,11 +107,11 @@ Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) 
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
 * [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
 * [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
 * [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
 * [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
 * [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
 * [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)

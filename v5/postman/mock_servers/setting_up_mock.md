@@ -12,7 +12,7 @@ Delays on the front- or back-end make it difficult for dependent teams to comple
 
 Front-end developers can create a mock server to simulate each endpoint and its corresponding environment in a Postman Collection, before sending the actual request. Developers can view potential responses, without spinning up a back end.
 
-Creating a [mock example](/docs/postman/collections/examples) during the earliest phase of API development fosters clear communication among team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
+Creating a [mock example](/docs/postman/collections/examples/) during the earliest phase of API development fosters clear communication among team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
 
 ### Setting up a mock server 
 
@@ -21,7 +21,7 @@ You can create a mock in several ways:
 * **New** button
 * Launch screen
 * [Postman app](/docs/postman/mock_servers/mocking_with_examples)
-* [Postman API](/docs/postman/mock_servers/mock_with_api)
+* [Postman API](/docs/postman/mock_servers/mock_with_api/)
   
 Mocks are accessible to the public by default. If you create a mock and specify that it is only to be available privately, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
 

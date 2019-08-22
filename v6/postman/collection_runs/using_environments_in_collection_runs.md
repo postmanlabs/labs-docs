@@ -70,7 +70,7 @@ For more information about collection runs, see:
 * [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
 * [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
 * [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
 * [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
 * [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
 * [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)

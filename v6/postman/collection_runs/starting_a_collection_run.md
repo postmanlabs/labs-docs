@@ -43,7 +43,7 @@ To learn more about how to build a workflow, see [Building workflows](/docs/v6/p
 
 The environment to use when a collection runs.
 
-To learn how to use environments in collection runs, see [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs).
+To learn how to use environments in collection runs, see [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/).
 
 ## Iterations
 
@@ -82,7 +82,7 @@ To learn more about how to use a date file for a collection run, see
 
 By default, any environment changes in the collection runner are not reflected in the request builder. Enabling this option saves the values of the variables at the end of the run, **overwriting previous values**.
 
-To learn more about Keep variable values in a collection run, see [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs).
+To learn more about Keep variable values in a collection run, see [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/).
 
 ## Run collection without using stored cookies
 
@@ -95,11 +95,11 @@ A request in the collection may create/update cookies during execution. The Coll
 ---
 For more information about collections runs, see:
 
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
 * [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
 * [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
 * [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
 * [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
 * [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
 * [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
