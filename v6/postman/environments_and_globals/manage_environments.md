@@ -93,6 +93,6 @@ For Postman Pro and Enterprise users, learn how to [share environments & environ
 ---
 For more information about variables and globals, see:
 
-* [Variables](/docs/v6/postman/environments_and_globals/variables)
+* [Variables](/docs/postman/environments_and_globals/variables/)
 * [Intro to environments and globals](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals)
 * [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals)

@@ -13,9 +13,9 @@ By committing early and often, the team avoids a ton of technical debt by allowi
 
 Every check-in triggers an automated build process that typically includes testing. And if your commit hasn’t broken anything, might include deployment too.
 
-In general, integrating your [Postman tests](/docs/v6/postman/scripts/test_scripts) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins), Travis CI, AppVeyor, or any other build system.
+In general, integrating your [Postman tests](/docs/postman/scripts/test_scripts/) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/postman/collection_runs/integration_with_jenkins/), Travis CI, AppVeyor, or any other build system.
 
-You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/v6/postman/collection_runs/command_line_integration_with_newman) with the tests, returning a pass or fail exit code that’s logged in your CI system.
+You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/postman/collection_runs/command_line_integration_with_newman/) with the tests, returning a pass or fail exit code that’s logged in your CI system.
 
 In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/), a continuous integration service that builds and tests projects on GitHub.
 
@@ -106,13 +106,13 @@ Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) 
 ---
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
+* [Starting a collection run](/docs/postman/collection_runs/starting_a_collection_run/)
 * [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
-* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
-* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Working with data files](/docs/postman/collection_runs/working_with_data_files/)
+* [Running multiple iterations](/docs/postman/collection_runs/running_multiple_iterations/)
+* [Building workflows](/docs/postman/collection_runs/building_workflows/)
 * [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
-* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
-* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
-* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
+* [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run/)
+* [Command line integration with Newman](/docs/postman/collection_runs/command_line_integration_with_newman/)
+* [Integration with Jenkins](/docs/postman/collection_runs/integration_with_jenkins/)
+* [Newman with Docker](/docs/postman/collection_runs/newman_with_docker/)

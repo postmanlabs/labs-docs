@@ -55,13 +55,13 @@ For a list of methods provided by the iterationData object, see: [pm.iterationDa
 ---
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
+* [Starting a collection run](/docs/postman/collection_runs/starting_a_collection_run/)
 * [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
-* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Working with data files](/docs/postman/collection_runs/working_with_data_files/)
+* [Building workflows](/docs/postman/collection_runs/building_workflows/)
 * [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
-* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
-* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
-* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
-* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
+* [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run/)
+* [Command line integration with Newman](/docs/postman/collection_runs/command_line_integration_with_newman/)
+* [Integration with Jenkins](/docs/postman/collection_runs/integration_with_jenkins/)
+* [Integration with Travis CI](/docs/postman/collection_runs/integration_with_travis/)
+* [Newman with Docker](/docs/postman/collection_runs/newman_with_docker/)

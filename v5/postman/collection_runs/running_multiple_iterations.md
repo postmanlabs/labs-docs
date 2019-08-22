@@ -36,4 +36,4 @@ The numbers in the header represent the iteration you are working with. It becom
 
 Iterations in the collection runner are 1-indexed with the first iteration beginning with a count of 1. Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](/docs/postman/scripts/postman_sandbox_api_reference), which is 0-indexed with the first iteration beginning with a count of zero.
 
-Read more about [debugging collection runs](/docs/postman/collection_runs/debugging_a_collection_run).
+Read more about [debugging collection runs](/docs/postman/collection_runs/debugging_a_collection_run/).

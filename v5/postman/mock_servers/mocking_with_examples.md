@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Let's take a deep dive into how [mock servers](/docs/postman/mock_servers/setting_up_mock) and [examples](/docs/postman/collections/examples/) work together, and how you can integrate them into your workflow for a more enhanced API experience with Postman.
+Let's take a deep dive into how [mock servers](/docs/postman/mock_servers/setting_up_mock/) and [examples](/docs/postman/collections/examples/) work together, and how you can integrate them into your workflow for a more enhanced API experience with Postman.
 
 1. Sending a request (R1)
 2. Saving the request (R1) to a collection (C1)
@@ -21,13 +21,13 @@ Before we get into the details of mocking, let’s start with setting up some ba
   
   From the Postman app, send a `GET` request to the URL `https://postman-echo.com/get?test=123`. This request hits the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test out your REST clients and make sample API calls.
   
-  The resulting response can be seen on the right, and a record of this request will now be visible in your [history](/docs/postman/sending_api_requests/responses) on the left.
+  The resulting response can be seen on the right, and a record of this request will now be visible in your [history](/docs/postman/sending_api_requests/responses/) on the left.
   
   [![sending request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock1.png)
 
 ##### **Step 2: Saving the request (R1) to a collection (C1)**
   
-  Hit the **Save** button to open the **SAVE REQUEST** modal. [Collections](/docs/postman/collections/creating_collections) are simply groups of requests that can be connected together to create APIs and workflows.
+  Hit the **Save** button to open the **SAVE REQUEST** modal. [Collections](/docs/postman/collections/creating_collections/) are simply groups of requests that can be connected together to create APIs and workflows.
   
   [![save request button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock2-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock2-1.png)
   
@@ -35,7 +35,7 @@ Before we get into the details of mocking, let’s start with setting up some ba
   
   [![save request modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock3.png)
   
-  Collection `C1` will now be accessible in the **Collections** tab in the application. We can do all sorts of things within the collection details view: [viewing API documentation](/docs/postman/api_documentation/viewing_documentation), [mocking a collection](/docs/postman/mock_servers/setting_up_mock), [monitoring a collection](/docs/postman/monitors/setting_up_monitor), or [running the collection](/docs/postman/collection_runs/starting_a_collection_run).
+  Collection `C1` will now be accessible in the **Collections** tab in the application. We can do all sorts of things within the collection details view: [viewing API documentation](/docs/postman/api_documentation/viewing_documentation/), [mocking a collection](/docs/postman/mock_servers/setting_up_mock/), [monitoring a collection](/docs/postman/monitors/setting_up_monitor), or [running the collection](/docs/postman/collection_runs/starting_a_collection_run/).
 
   [![collection tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock4.png)
   
@@ -108,6 +108,6 @@ In the previous steps, we prepared the collection, request, and example response
 
   Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which specifies which integer response code your returned response should match.
   
-  Learn more about the [matching algorithm](/docs/postman/mock_servers/matching_algorithm) for mocks.
+  Learn more about the [matching algorithm](/docs/postman/mock_servers/matching_algorithm/) for mocks.
 
 And we're done! We have walked through how to create a collection, save requests, save examples, create a mock, and use a mock.

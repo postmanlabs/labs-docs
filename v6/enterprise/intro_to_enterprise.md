@@ -20,11 +20,11 @@ Postman provides Enterprise users with:
 
 In addition to SSO, audit logs, static IP, and extended support and billing, the Enterprise plan shares Postman Pro features, such as:
 
-* [Dedicated IP addresses](/docs/v6/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions) for API monitoring.
+* [Dedicated IP addresses](/docs/postman/monitors/intro_monitors/#monitoring-resources-in-multiple-regions) for API monitoring.
 
-* [Monitoring](/docs/v6/postman/monitors/intro_monitors) to check the performance of your API. Postman monitoring lets you run a collection periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes. 
+* [Monitoring](/docs/postman/monitors/intro_monitors/) to check the performance of your API. Postman monitoring lets you run a collection periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes. 
 
-* [Mock servers](/docs/v6/postman/mock_servers) to simulate the real API and decouple teams collection [monitoring](/docs/v6/postman/monitors/intro_monitors) to check the performance of your API. Decoupling enables different members of your development team to work in parallel rather than having to wait on different pieces to be built before moving forward.
+* [Mock servers](/docs/v6/postman/mock_servers) to simulate the real API and decouple teams collection [monitoring](/docs/postman/monitors/intro_monitors/) to check the performance of your API. Decoupling enables different members of your development team to work in parallel rather than having to wait on different pieces to be built before moving forward.
 
 * [Out-of-the-box integrations](/docs/v6/pro/integrations/intro_integrations) and the [Postman API](/docs/postman/postman_api/intro_api/) to connect your different tools.
 

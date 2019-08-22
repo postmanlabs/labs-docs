@@ -18,12 +18,12 @@ Regardless of the type of Workspace, you can share elements in specific teams an
 
 Personal Workspaces are visible only to you. If you don't have a Postman account, you can have only one personal Workspace. If you do have an account, you can [create](/docs/postman/workspaces/creating_workspaces) an unlimited number of Workspaces.
 
-You can remove and delete an element from a Workspace. When you [remove](/docs/postman/workspaces/using_workspaces) an element, it is no longer visible in that particular Workspace. However, you can still access that element in any other Workspace where it resides. When you [delete](/docs/postman/workspaces/using_workspaces) an element, you completely eliminate it from Postman. 
+You can remove and delete an element from a Workspace. When you [remove](/docs/postman/workspaces/using_workspaces/) an element, it is no longer visible in that particular Workspace. However, you can still access that element in any other Workspace where it resides. When you [delete](/docs/postman/workspaces/using_workspaces/) an element, you completely eliminate it from Postman. 
 
 
 **Team Workspaces**
 
-Team Workspaces are available to Postman Pro and Postman Enterprise teams. Every team has one default team Workspace, and can [create](/docs/postman/workspaces/creating_workspaces) an unlimited number of Workspaces. You can sync and share Postman environments directly in Workspaces, without the need of [environment templates](/docs/postman/api_documentation/environments_and_environment_templates).
+Team Workspaces are available to Postman Pro and Postman Enterprise teams. Every team has one default team Workspace, and can [create](/docs/postman/workspaces/creating_workspaces) an unlimited number of Workspaces. You can sync and share Postman environments directly in Workspaces, without the need of [environment templates](/docs/postman/api_documentation/environments_and_environment_templates/).
 
 [![WS-mainScreen-teamMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 

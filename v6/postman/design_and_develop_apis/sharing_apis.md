@@ -39,6 +39,6 @@ ___
 For more information on APIs, see:
 
 * [Managing APIs](/docs/postman/design_and_develop_apis/managing_apis/)
-* [Managing API workflow](/docs/v6/postman/design_and_develop_apis/the_api_workflow)
+* [Managing API workflow](/docs/postman/design_and_develop_apis/the_api_workflow/)
 * [Versioning an API](/docs/postman/design_and_develop_apis/versioning_an_api/)
-* [Introduction to APIs](/docs/v6/postman/design_and_develop_apis/introduction_to_apis)
+* [Introduction to APIs](/docs/postman/design_and_develop_apis/introduction_to_apis/)

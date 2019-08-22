@@ -20,12 +20,12 @@ You can create a mock in several ways:
 
 * **New** button
 * Launch screen
-* [Postman app](/docs/postman/mock_servers/mocking_with_examples)
+* [Postman app](/docs/postman/mock_servers/mocking_with_examples/)
 * [Postman API](/docs/postman/mock_servers/mock_with_api/)
   
 Mocks are accessible to the public by default. If you create a mock and specify that it is only to be available privately, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
 
-**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples) or the [Postman API](/docs/postman/mock_servers/mock_with_api), click its link for detailed information.
+**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples/ or the [Postman API](/docs/postman/mock_servers/mock_with_api), click its link for detailed information.
 
 #### New button
 
@@ -79,7 +79,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 ### Using HTTP access control (CORS) for a mock
 
-In addition to using the [Postman app](/docs/postman/mock_servers/mocking_with_examples) to make requests to mock endpoints, you also can make those requests in a browser.
+In addition to using the [Postman app](/docs/postman/mock_servers/mocking_with_examples/ to make requests to mock endpoints, you also can make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. 
 

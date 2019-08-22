@@ -34,7 +34,7 @@ You should see your collection with a request you just imported in the sidebar a
 
 ### Importing sample data files
 
-To select data files, you should go to the collection runner. To learn more about running collections and how to get to the Collection Runner screen, see [Intro to Collection Runs](/docs/v6/postman/collection_runs/intro_to_collection_runs)
+To select data files, you should go to the collection runner. To learn more about running collections and how to get to the Collection Runner screen, see [Intro to Collection Runs](/docs/postman/collection_runs/intro_to_collection_runs/)
 
 Once you get to the Collection Runner screen, the screen appears as illustrated below:
 
@@ -82,7 +82,7 @@ Let's run our collection now. You'll see that all tests pass now.
 
 If you open up the request debug tooltip, and expand "Request Body", you'll see that the variable `{{value}}` was replaced by the value, as dictated by the data file.
 
-Read more about [debugging requests](/docs/v6/postman/collection_runs/debugging_a_collection_run). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
+Read more about [debugging requests](/docs/postman/collection_runs/debugging_a_collection_run/). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
 
 [![request debug tooltip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)
 
@@ -97,13 +97,13 @@ You can use data variables in all places and in the exact way you can use enviro
 ---
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
+* [Starting a collection run](/docs/postman/collection_runs/starting_a_collection_run/)
 * [Using environments in collection runs](/docs/postman/collection_runs/using_environments_in_collection_runs/)
-* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Running multiple iterations](/docs/postman/collection_runs/running_multiple_iterations/)
+* [Building workflows](/docs/postman/collection_runs/building_workflows/)
 * [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
-* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
-* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
-* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
-* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
+* [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run/)
+* [Command line integration with Newman](/docs/postman/collection_runs/command_line_integration_with_newman/)
+* [Integration with Jenkins](/docs/postman/collection_runs/integration_with_jenkins/)
+* [Integration with Travis CI](/docs/postman/collection_runs/integration_with_travis/)
+* [Newman with Docker](/docs/postman/collection_runs/newman_with_docker/)

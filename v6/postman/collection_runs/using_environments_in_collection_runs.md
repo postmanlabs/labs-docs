@@ -4,7 +4,7 @@ page_id: "using_environments_in_collection_runs"
 warning: false
 ---
 
-Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/v6/postman/environments_and_globals/variables). You also can use environments in the Collection Runner.
+Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/postman/environments_and_globals/variables/). You also can use environments in the Collection Runner.
 
 Let's look at an example collection with one POST request that uses environment variables in its URL, body, and test script.
 
@@ -66,13 +66,13 @@ After running your collection, Postman first checks the setting ‘Keep variable
 ---
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
-* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
-* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Starting a collection run](/docs/postman/collection_runs/starting_a_collection_run/)
+* [Working with data files](/docs/postman/collection_runs/working_with_data_files/)
+* [Running multiple iterations](/docs/postman/collection_runs/running_multiple_iterations/)
+* [Building workflows](/docs/postman/collection_runs/building_workflows/)
 * [Sharing a collection run](/docs/postman/collection_runs/sharing_a_collection_run/)
-* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
-* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
-* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
-* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
+* [Debugging a collection run](/docs/postman/collection_runs/debugging_a_collection_run/)
+* [Command line integration with Newman](/docs/postman/collection_runs/command_line_integration_with_newman/)
+* [Integration with Jenkins](/docs/postman/collection_runs/integration_with_jenkins/)
+* [Integration with Travis CI](/docs/postman/collection_runs/integration_with_travis/)
+* [Newman with Docker](/docs/postman/collection_runs/newman_with_docker/)

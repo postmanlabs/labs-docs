@@ -28,7 +28,7 @@ There are a number of enhancements coming up soon on [Postman's product roadmap]
 
 ## Sharing Collections
 
-In addition to the [standard ways to share a collection](/docs/v6/postman/collections/sharing_collections), Postman Pro and Enterprise users can also share collections with their team or specific team members.
+In addition to the [standard ways to share a collection](/docs/postman/collections/sharing_collections/), Postman Pro and Enterprise users can also share collections with their team or specific team members.
 
 1. From the Collections tab in the sidebar, click on the ellipsis **(...)** next to the collection you would like to share, and select "Share".
 1. Specify the team permissions by selecting "Can View" or "Can Edit" in the dropdown.  

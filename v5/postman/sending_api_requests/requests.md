@@ -87,7 +87,7 @@ Clicking on the **Headers** tab will show the headers key-value editor. You can 
 
 ### Cookies
 
-Cookies can be managed in native apps by using the cookie manager to edit cookies associated with each domain. To open the modal, click the **Cookies** link under the **Send** button. Learn more about [managing cookies](/docs/postman/sending_api_requests/cookies).
+Cookies can be managed in native apps by using the cookie manager to edit cookies associated with each domain. To open the modal, click the **Cookies** link under the **Send** button. Learn more about [managing cookies](/docs/postman/sending_api_requests/cookies/).
 
 [![manage cookies modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cookies_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cookies_white.png)
 
@@ -127,7 +127,7 @@ This encoding is the same as the one used in URL parameters. You just need to en
 
 [![raw data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960775.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58960775.png)
 
-A raw request can contain anything. Postman doesn’t touch the string entered in the raw editor except replacing [environment variables](/docs/postman/environments_and_globals/variables). Whatever you put in the text area gets sent with the request. The raw editor lets you set the formatting type along with the correct header that you should send with the raw body. You can set the Content-Type header manually too and this will override the Postman defined setting. Selecting XML/JSON in the editor type enables syntax highlighting for your request body and also sets the Content-Type header.
+A raw request can contain anything. Postman doesn’t touch the string entered in the raw editor except replacing [environment variables](/docs/postman/environments_and_globals/variables/). Whatever you put in the text area gets sent with the request. The raw editor lets you set the formatting type along with the correct header that you should send with the raw body. You can set the Content-Type header manually too and this will override the Postman defined setting. Selecting XML/JSON in the editor type enables syntax highlighting for your request body and also sets the Content-Type header.
 
 **Tip: **Selecting text in the editor and pressing **CMD/CTRL + B **can beautify the XML/JSON content automatically.
 

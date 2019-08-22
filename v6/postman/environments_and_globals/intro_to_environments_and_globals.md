@@ -25,7 +25,7 @@ In a nutshell, variables enable you to:
 * Configure your setup to accommodate the environment of different users.
 * Extract data from responses and chain requests in a collection.
 
-To learn how to use variables in Postman, see [Variables](/docs/v6/postman/environments_and_globals/variables).
+To learn how to use variables in Postman, see [Variables](/docs/postman/environments_and_globals/variables/).
 
 Now that we know how variables work in Postman, let's discuss environments and globals.
 
@@ -56,4 +56,4 @@ For more information about environments and globals, see:
 
 * [Manage environments](/docs/postman/environments_and_globals/manage_environments/)
 * [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals)
-* [Variables](/docs/v6/postman/environments_and_globals/variables)
+* [Variables](/docs/postman/environments_and_globals/variables/)
