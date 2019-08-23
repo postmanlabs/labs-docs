@@ -9,7 +9,7 @@ warning: false
 
 Postman contains a powerful runtime based on Node.js that allows you to add dynamic behavior to requests and collections. This allows you to write test suites, build requests that can contain dynamic parameters, pass data between requests, and a lot more. You can add JavaScript code to execute during 2 events in the flow:
 
-   1.  Before a request is sent to the server, as a [pre-request script](/docs/postman/scripts/pre_request_scripts) under the **Pre-request Script** tab.
+   1.  Before a request is sent to the server, as a [pre-request script](/docs/postman/scripts/pre_request_scripts/) under the **Pre-request Script** tab.
    2.  After a response is received, as a [test script](/docs/postman/scripts/test_scripts/) under the **Tests** tab.
 
 [![test script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomScripts2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomScripts2.png)
@@ -40,7 +40,7 @@ For example, imagine you had the following collection structured with a single f
 
 [![console log statement](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-console-log-statement.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-console-log-statement.png)
 
-If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you would clearly see the execution order in the [Postman console](/docs/postman/sending_api_requests/debugging_and_logs#network-calls-with-postman-console).
+If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you would clearly see the execution order in the [Postman console](/docs/postman/sending_api_requests/debugging_and_logs/#network-calls-with-postman-console).
 
 [![logs in console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/logs-in-console.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/logs-in-console.png)
 
@@ -50,4 +50,4 @@ Is this magic? No, it's the [Postman Sandbox](/docs/postman/scripts/postman_san
 
 ### Debugging scripts
 
-Debugging scripts can be written under either the **Pre-request Script** tab or the **Tests** tab, with helpful messages logged in the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs).
+Debugging scripts can be written under either the **Pre-request Script** tab or the **Tests** tab, with helpful messages logged in the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs/).

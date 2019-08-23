@@ -19,7 +19,7 @@ To create a personal workspace, verify the workspace enter the name and descript
 
 To create a team workspace, enter the name and description of the workspace. Toggle the workspace type over to "Team" to reveal additional options to invite members to your workspace. Add members to this workspace by entering their email address or username of existing users. If you are an Admin, any email addresses not associated with current team members will be invited to join the team.
 
-Postman Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/v6/postman/workspaces/intro_to_workspaces#private-workspaces).
+Postman Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/postman/workspaces/intro_to_workspaces/#private-workspaces).
 
 Click the **Create Workspace** button to finish creating your workspace.
 

@@ -84,7 +84,7 @@ You can check your usage limits in the [Postman API](https://docs.api.getpostman
 
 For more information about mock servers, see:
 
-* [Intro to mock servers](/docs/v6/postman/mock_servers/intro_to_mock_servers)
+* [Intro to mock servers](/docs/postman/mock_servers/intro_to_mock_servers/)
 * [Mocking with examples](/docs/postman/mock_servers/mocking_with_examples/)
 * [Mocking with the Postman API](/docs/postman/mock_servers/mock_with_api/)
 * [Matching algorithm (for mocks)](/docs/postman/mock_servers/matching_algorithm/)

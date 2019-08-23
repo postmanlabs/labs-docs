@@ -31,7 +31,7 @@ Now that we know how variables work in Postman, let's discuss environments and g
 
 ### Environments
 
-An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman#data-editor) to modify the key and value components of an environment.
+An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/postman/launching_postman/navigating_postman/#data-editor) to modify the key and value components of an environment.
 
 While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables to switch between different setups without changing your requests.
 
@@ -49,11 +49,11 @@ Global variables provide a set of variables that are always available to you in 
 
 **Note:** Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
-To learn how to manage and view global variables, see [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals).
+To learn how to manage and view global variables, see [Manage globals](/docs/postman/environments_and_globals/manage_globals/).
 
 ---
 For more information about environments and globals, see:
 
 * [Manage environments](/docs/postman/environments_and_globals/manage_environments/)
-* [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals)
+* [Manage globals](/docs/postman/environments_and_globals/manage_globals/)
 * [Variables](/docs/postman/environments_and_globals/variables/)

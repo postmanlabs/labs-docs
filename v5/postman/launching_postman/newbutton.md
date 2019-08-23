@@ -84,7 +84,7 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears 
 
 ### ADVANCED
 <h4 id="monitors">Creating monitors</h4>
-A [monitor](/docs/postman/monitors/intro_monitors/) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor) to run as frequently as every 5 minutes. 
+A [monitor](/docs/postman/monitors/intro_monitors/) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor/) to run as frequently as every 5 minutes. 
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
@@ -229,7 +229,7 @@ To import an API in the API Network:
   <li>Click the <b>Run In Postman</b> button to import the the API's collection.</li>
 </ol>
 
-You can see the API you imported in the [sidebar.](/docs/postman/launching_postman/navigating_postman#sidebar)
+You can see the API you imported in the [sidebar.](/docs/postman/launching_postman/navigating_postman/#sidebar)
 
 [![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)
 

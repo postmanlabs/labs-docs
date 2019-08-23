@@ -35,7 +35,7 @@ You can save a request to an existing collection, or save it to a new collection
 
 [![save request modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock3.png)
 
-Collection `C1` will now be accessible in the **Collections** tab in the application. We can do all sorts of things within the collection details view: [viewing API documentation](/docs/postman/api_documentation/viewing_documentation/), [mocking a collection](/docs/postman/mock_servers/setting_up_mock/), [monitoring a collection](/docs/postman/monitors/setting_up_monitor), or [running the collection](/docs/postman/collection_runs/starting_a_collection_run/).
+Collection `C1` will now be accessible in the **Collections** tab in the application. We can do all sorts of things within the collection details view: [viewing API documentation](/docs/postman/api_documentation/viewing_documentation/), [mocking a collection](/docs/postman/mock_servers/setting_up_mock/), [monitoring a collection](/docs/postman/monitors/setting_up_monitor/), or [running the collection](/docs/postman/collection_runs/starting_a_collection_run/).
 
 [![collection tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock4.png)
 
@@ -69,7 +69,7 @@ Under the **Mocks** tab, click the **Add a mock** link to open the **MOCK COLLEC
 
 We are not using any environment variables in our single saved example (P1), therefore we are going to go ahead and create a mock with `No Environment` chosen. It’s important to note that if your saved example has an environment variable in the URL, for example, `{{base_url}}/my/path` and you do not provide the corresponding environment when creating the mock, trying to mock that particular request will not work.
 
-Mocks are accessible to public by default. If you check the box making the mock server private, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
+Mocks are accessible to public by default. If you check the box making the mock server private, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing/#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
 
 [![mock collection modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock9.png)
 
@@ -136,7 +136,7 @@ When you call that Mock Server endpoint, you will see the response change to som
 }
 ```
 
-See the Postman Sandbox page for full list of available [random data dynamic variables](/docs/v6/postman/scripts/postman_sandbox_api_reference#dynamic-variables).
+See the Postman Sandbox page for full list of available [random data dynamic variables](/docs/postman/scripts/postman_sandbox_api_reference/#dynamic-variables).
 
 ## Using query params
 

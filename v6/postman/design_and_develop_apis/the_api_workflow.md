@@ -157,7 +157,7 @@ In the **Observe** tab, click **Add a monitor**. The following screen opens:
 
 In the above screen, select a corresponding monitor from the list and click **Add Monitor**. Only available monitors will be shown in this list. The monitor attached to the collection is now linked to the API.
 
-To add a monitor to a specific version of your collection, refer to the section [Setting up monitors](/docs/v6/postman/monitors/setting_up_monitor)
+To add a monitor to a specific version of your collection, refer to the section [Setting up monitors](/docs/postman/monitors/setting_up_monitor/)
 
 ---
 For more information on APIs, see:

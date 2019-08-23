@@ -59,7 +59,7 @@ In Workspaces, you can create any kind of HTTP request quickly. The four parts o
 
 The URL is the first thing that you would be setting for a request. The URL input field stores previously-used URLs and will show an autocomplete dropdown as you begin entering your URL.
 
-Clicking on the** Params** button opens up the [data editor](/docs/postman/launching_postman/navigating_postman) for entering URL parameters. You can individually add key-value pairs and Postman will combine everything in the query string above. If your URL already has parameters - for example, if you are pasting a URL from some other source, Postman will split the URL into pairs automatically.
+Clicking on the** Params** button opens up the [data editor](/docs/postman/launching_postman/navigating_postman/) for entering URL parameters. You can individually add key-value pairs and Postman will combine everything in the query string above. If your URL already has parameters - for example, if you are pasting a URL from some other source, Postman will split the URL into pairs automatically.
 
 **Note: **Parameters you enter in the URL bar or in the data editor will not automatically be URL-encoded. Right click on a piece of selected text, and select "EncodeURIComponent" to manually encode the parameter value.
 
@@ -83,7 +83,7 @@ Clicking on the **Headers** tab will show the headers key-value editor. You can 
 
 [![autocomplete headers](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headers_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headers_white.png)
 
-**Note on restricted headers: **If you're using the Postman Chrome app, some headers are restricted by Chrome and the XMLHttpRequest specification. However, sending restricted headers is simple using the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension).  
+**Note on restricted headers: **If you're using the Postman Chrome app, some headers are restricted by Chrome and the XMLHttpRequest specification. However, sending restricted headers is simple using the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension/).  
 
 ### Cookies
 
@@ -113,7 +113,7 @@ While constructing requests, you will be working with the request body editor a 
 
 [![form-data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestBuilderForm.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/requestBuilderForm.png)
 
-`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs (using the [data editor](/docs/postman/launching_postman/navigating_postman)) for your data. You can attach files to a key as well. Note: due to restrictions of the HTML 5 spec, files are not stored in history or collections. You will need to select the file again the next time you send the request.
+`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs (using the [data editor](/docs/postman/launching_postman/navigating_postman/)) for your data. You can attach files to a key as well. Note: due to restrictions of the HTML 5 spec, files are not stored in history or collections. You will need to select the file again the next time you send the request.
 
 Uploading multiple files each with their own Content-Type is not supported yet.
 

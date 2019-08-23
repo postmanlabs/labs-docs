@@ -49,7 +49,7 @@ In Workspaces, you can [create any kind of HTTP request](/docs/postman/launching
 
 When you enter the request URL in the URL input field, previously-used URLs will show an autocomplete dropdown. 
 
-Click the **Params** tab to open the [data editor](/docs/v6/postman/launching_postman/navigating_postman) for URL parameters. When you add key-value pairs, Postman combines everything in the query string above. If your URL already has parameters - for example, if you are pasting a URL from some other source. Postman splits the URL into pairs automatically.
+Click the **Params** tab to open the [data editor](/docs/postman/launching_postman/navigating_postman/) for URL parameters. When you add key-value pairs, Postman combines everything in the query string above. If your URL already has parameters - for example, if you are pasting a URL from some other source. Postman splits the URL into pairs automatically.
 
 **Note:** Parameters you enter in the URL bar or in the data editor will not automatically be URL-encoded. Right click a piece of selected text, and select "EncodeURIComponent" to manually encode the parameter value.
 
@@ -73,7 +73,7 @@ Clicking on the **Headers** tab shows the headers key-value editor. You can set 
 
 [![autocomplete headers](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headers_white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headers_white.png)
 
-**Note on restricted headers:** If you're using the Postman Chrome app, some headers are restricted by Chrome and the XMLHttpRequest specification. However, sending restricted headers is simple using the [Interceptor extension](/docs/v6/postman/sending_api_requests/interceptor_extension).  
+**Note on restricted headers:** If you're using the Postman Chrome app, some headers are restricted by Chrome and the XMLHttpRequest specification. However, sending restricted headers is simple using the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension/).  
 
 ## Cookies
 
@@ -93,7 +93,7 @@ Use the control dropdown to change the request method. The request body editor a
 
 [![url methods](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-method-menu.png)
 
-You can also customize the methods the way you want. To learn more about customizing methods, refer to [creating custom methods](/docs/v6/postman/customizing_postman) section.
+You can also customize the methods the way you want. To learn more about customizing methods, refer to [creating custom methods](/docs/postman/customizing_postman/) section.
 
 ## Request Body
 
@@ -111,7 +111,7 @@ While constructing requests, you'll work frequently with the request body editor
 
 [![form-data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/form-data1.gif)
 
-`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs (using the [data editor](/docs/v6/postman/launching_postman/navigating_postman) for your data.) It also lets you specify the content type for each part of a multi-part form request individually. You can attach files to a key as well.
+`multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it. The form-data editor lets you set key-value pairs (using the [data editor](/docs/postman/launching_postman/navigating_postman/) for your data.) It also lets you specify the content type for each part of a multi-part form request individually. You can attach files to a key as well.
 
 When you repeatedly make API calls that require sending these files again and again, Postman persists your file paths for subsequent use. This also helps you run collections that contain requests requiring file upload. 
 

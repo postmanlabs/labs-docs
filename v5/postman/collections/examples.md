@@ -27,7 +27,7 @@ To establish an example during the earliest phase of API development:
 
 Often it's useful to mock and save a couple of example responses with a request, such as a status code, to make your API more understandable. 
 
-Let's say you want to build an API with an endpoint that does not yet exist, or your server isn’t ready. You can mock raw responses and save them. Then, you'll be able to generate a mock endpoint for each of them using [Postman's mock service](/docs/postman/mock_servers). 
+Let's say you want to build an API with an endpoint that does not yet exist, or your server isn’t ready. You can mock raw responses and save them. Then, you'll be able to generate a mock endpoint for each of them using [Postman's mock service](/docs/postman/mock_servers/intro_to_mock_servers/). 
 
 Developers can make requests to the mock endpoint and start front-end development or [write tests](/docs/postman/scripts/test_scripts/) based on the mock response returned from the mock endpoint. 
 
@@ -76,4 +76,4 @@ You can edit these examples with real-time updates to the documentation!
 
 [![how examples appear in documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/in-documenter.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/in-documenter.gif)
 
-This behavior allows teams to mock an example request and response, in addition to simulating the endpoint using [mock servers](/docs/postman/mock_servers). Front-end and back-end developers and testers can all begin working in parallel, based on the agreed-upon example.
+This behavior allows teams to mock an example request and response, in addition to simulating the endpoint using [mock servers](/docs/postman/mock_servers/intro_to_mock_servers/). Front-end and back-end developers and testers can all begin working in parallel, based on the agreed-upon example.

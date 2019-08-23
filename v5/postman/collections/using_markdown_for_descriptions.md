@@ -26,7 +26,7 @@ Public or internal [API documentation](/docs/postman/api_documentation/intro_to_
 
 ### Descriptions for request attributes
 
-The description column in the [data editor](/docs/postman/launching_postman/navigating_postman) makes your requests easier to understand. You can add comments and details for each of your query parameters, path variables, headers, and body (form-data and urlencoded) in the Postman app.
+The description column in the [data editor](/docs/postman/launching_postman/navigating_postman/) makes your requests easier to understand. You can add comments and details for each of your query parameters, path variables, headers, and body (form-data and urlencoded) in the Postman app.
 
 For example, specify if an element is required or optional, indicate the accepted data type, or use alternative terminology to provide additional clarification for developers who work with your requests.
 

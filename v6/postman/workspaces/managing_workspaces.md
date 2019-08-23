@@ -4,7 +4,7 @@ page_id: "managing_workspaces"
 warning: false
 ---
 
-You can manage workspaces and the Postman elements associated with a workspace, like [collections](/docs/postman/collections/intro_to_collections/), [environments](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals), [mocks](/docs/v6/postman/mock_servers/intro_to_mock_servers), [monitors](/docs/postman/monitors/intro_monitors/), and more. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for workspaces.
+You can manage workspaces and the Postman elements associated with a workspace, like [collections](/docs/postman/collections/intro_to_collections/), [environments](/docs/postman/environments_and_globals/intro_to_environments_and_globals/), [mocks](/docs/postman/mock_servers/intro_to_mock_servers/), [monitors](/docs/postman/monitors/intro_monitors/), and more. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for workspaces.
 
 In the Postman app, click the workspace that displays in the header bar.
 
@@ -26,7 +26,7 @@ Click the ellipsis **(...)** to [manage your personal workspaces](/docs/postman/
 * Edit descriptions of personal workspaces
 * Delete personal workspaces
 
-You can also click the **Create a new workspace** button to [create a new personal or team workspace](/docs/v6/postman/workspaces/creating_workspaces).
+You can also click the **Create a new workspace** button to [create a new personal or team workspace](/docs/postman/workspaces/creating_workspaces/).
 
 ## Managing team workspaces
 
@@ -55,7 +55,7 @@ If you click the ellipsis **(...)**, you can remove any element from the workspa
 
 ### Collections
 
-[Add an existing collection to this workspace](/docs/postman/workspaces/using_workspaces/) or [create a new collection](/docs/v6/postman/workspaces/creating_workspaces). You can share a collection to multiple workspaces.
+[Add an existing collection to this workspace](/docs/postman/workspaces/using_workspaces/) or [create a new collection](/docs/postman/workspaces/creating_workspaces/). You can share a collection to multiple workspaces.
 
 ### Environments
 
@@ -63,7 +63,7 @@ Add an existing environment to this workspace or [create a new environment](/doc
 
 ### Monitors
 
-[Create a monitor](/docs/v6/postman/monitors/setting_up_monitor) to track the performance of your APIs in a workspace. A monitor created within a workspace cannot be shared to other workspaces. If you want to create a monitor with a collection that is shared in multiple workspaces, a new monitor must be created in each of the other workspaces.
+[Create a monitor](/docs/postman/monitors/setting_up_monitor/) to track the performance of your APIs in a workspace. A monitor created within a workspace cannot be shared to other workspaces. If you want to create a monitor with a collection that is shared in multiple workspaces, a new monitor must be created in each of the other workspaces.
 
 ### Mocks
 
@@ -71,8 +71,8 @@ Add an existing environment to this workspace or [create a new environment](/doc
 
 ### Integrations
 
-View a list of current integrations or create a new one. Postman has [third party integrations](/docs/v6/pro/integrations/intro_integrations) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
+View a list of current integrations or create a new one. Postman has [third party integrations](/docs/postman_pro/integrations/intro_integrations/) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
 
 ### Activity
 
-View a [list of activities](/docs/v6/postman/workspaces/activity_feed_and_restoring_collections) for this workspace.
+View a [list of activities](/docs/postman/workspaces/activity_feed_and_restoring_collections/) for this workspace.

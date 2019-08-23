@@ -50,9 +50,9 @@ The header toolbar contains these options:
 Two consoles are available in Postman to see what's going on behind the scenes.
 
    *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in the console.log. <br>**Note**: This feature is only available in Postman's native apps.
-   *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
+   *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs/).
 
-Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs).
+Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs/).
 
 ### Status bar
 

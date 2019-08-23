@@ -40,5 +40,5 @@ For more information about requests, see:
 * [Requests](/docs/postman/sending_api_requests/requests/)
 * [Requests History](/docs/postman/sending_api_requests/history/)
 * [Troubleshooting API requests](/docs/postman/sending_api_requests/troubleshooting_api_requests/)
-* [Capturing HTTP requests](/docs/v6/postman/sending_api_requests/capturing_http_requests)
+* [Capturing HTTP requests](/docs/postman/sending_api_requests/capturing_http_requests/)
 * [Making SOAP requests](/docs/postman/sending_api_requests/making_soap_requests/)

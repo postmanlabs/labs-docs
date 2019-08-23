@@ -22,7 +22,7 @@ You can sync cookies from your browser and capture requests. You will need to in
 
 You can now go ahead and capture requests from Chrome or your browser and capture cookies from any domain to use in your requests with the Interceptor extension.
 
-To learn more about sending requests, refer to the section [Capturing HTTP Requests](/docs/postman/sending_api_requests/capturing_http_requests).
+To learn more about sending requests, refer to the section [Capturing HTTP Requests](/docs/postman/sending_api_requests/capturing_http_requests/).
 
 To learn more about syncing cookies, refer to [Syncing cookies](#syncing-cookies)
 

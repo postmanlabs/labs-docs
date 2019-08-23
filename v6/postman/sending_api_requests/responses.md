@@ -29,7 +29,7 @@ The pretty mode formats JSON or XML responses so they are easier to view. Nobody
 
 For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If not, you can force formatting through JSON or XML. You can force JSON formatting under the **General** tab in the **SETTINGS** modal. To do so. select "JSON" from the "Language detection" dropdown.
 
-**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results. See the complete set of [keyboard shortcuts](/docs/postman/launching_postman/navigating_postman).
+**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results. See the complete set of [keyboard shortcuts](/docs/postman/launching_postman/navigating_postman/).
 
 ##### **Raw**
 
@@ -63,7 +63,7 @@ Postman breaks down the response size into body and headers. The response sizes 
 
 ### Cookies
 
-Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/postman/sending_api_requests/cookies/) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension) to help manage cookies.
+Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/postman/sending_api_requests/cookies/) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension/) to help manage cookies.
 
 ### Tests
 

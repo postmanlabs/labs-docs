@@ -37,5 +37,5 @@ Clicking  "Edit" opens a modal for editing keys and values.
 For more information about globals, variables, and environments, see:
 
 * [Variables](/docs/postman/environments_and_globals/variables/)
-* [Intro to environments and globals](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals)
+* [Intro to environments and globals](/docs/postman/environments_and_globals/intro_to_environments_and_globals/)
 * [Manage environments](/docs/postman/environments_and_globals/manage_environments/)

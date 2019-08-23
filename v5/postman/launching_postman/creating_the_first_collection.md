@@ -11,7 +11,7 @@ Let's pick up where we left off after [sending our first request](/docs/postman/
 
 *   With the request you just created in the request builder, click the **Save **button to open the **SAVE REQUEST** modal.
 *   As an optional step, enter a new request name. Otherwise, the default name will be the request URL.
-*   As an optional step, enter a request description in plain text or using [Markdown](/docs/postman/collections/using_markdown_for_descriptions).
+*   As an optional step, enter a request description in plain text or using [Markdown](/docs/postman/collections/using_markdown_for_descriptions/).
 *   Now, save this request to an existing collection, or create a new collection by entering a collection name, and then hit **Save**.
 
 [![save request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59063125.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59063125.png)

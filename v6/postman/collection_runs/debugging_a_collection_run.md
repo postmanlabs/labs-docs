@@ -50,7 +50,7 @@ You can control which bodies show up in this tooltip by using the `Log responses
 
 Debugging using the Postman Console requires you to have the console open before you start your run.
 
-For more information about the Postman Console, see [Debugging and logs](/docs/v6/postman/sending_api_requests/debugging_and_logs).
+For more information about the Postman Console, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs/).
 
 [![postman console view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)
 

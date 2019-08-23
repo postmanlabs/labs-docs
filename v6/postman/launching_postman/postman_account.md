@@ -9,7 +9,7 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-* [Sync](/docs/v6/postman/launching_postman/syncing) and back up your history, collections, workspaces, environments, and header presets.
+* [Sync](/docs/postman/launching_postman/syncing/) and back up your history, collections, workspaces, environments, and header presets.
 * Easily work on multiple Postman instances from different machines.
 * Create [collection links](/docs/postman/collections/sharing_collections/) to send to other developers.
 
@@ -27,7 +27,7 @@ Sign up with your email address or your Google account.
 
 Confirm your email.
 
-Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/v6/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing/). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
 
 [![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)
 

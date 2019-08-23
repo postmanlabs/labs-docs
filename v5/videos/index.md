@@ -9,7 +9,7 @@ warning: false
 
 * Getting Started
 
-    *   moving around in Postman - [Navigating Postman](/docs/postman/launching_postman/navigating_postman)  
+    *   moving around in Postman - [Navigating Postman](/docs/postman/launching_postman/navigating_postman/)  
     *   making a request in Postman - [Requests](/docs/postman/sending_api_requests/requests/)
     *   managing and sharing Postman Collections
     *   Postman tests - [Test script](/docs/postman/scripts/test_scripts/)

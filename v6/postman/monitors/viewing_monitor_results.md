@@ -4,7 +4,7 @@ page_id: "viewing_monitor_results"
 warning: false
 ---
 
-You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](/docs/postman/monitors/setting_up_monitor) in the settings.
+You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](/docs/postman/monitors/setting_up_monitor/) in the settings.
 
 In addition, you can receive important notifications (both [in-app](/docs/postman/notifications) and email) if a monitor fails.
 
