@@ -9,7 +9,7 @@ There might be cases when your API doesn't work, or exhibits unexpected behavior
 
 [![no response message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)
 
-For more details about the possible causes of the error, open [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs). It has detailed information about the failure.
+For more details about the possible causes of the error, open [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs/). It has detailed information about the failure. 
 
 Consider these issues as you troubleshoot API requests.
 
@@ -27,11 +27,11 @@ If you are using a proxy server to make requests, make sure you configure it cor
 
 ### SSL Certificate issues
 
-When using HTTPS connections, Postman might show the error above. In this case, you can turn off SSL verification in the Postman Settings. If that does not help, your server might be using a client-side SSL connection, which you can configure in [Postman Settings](/docs/postman/launching_postman/settings). Use the Postman Console to ensure that the correct SSL certificate is being sent to the server.
+When using HTTPS connections, Postman might show the error above. In this case, you can turn off SSL verification in the Postman Settings. If that does not help, your server might be using a client-side SSL connection, which you can configure in [Postman Settings](/docs/postman/launching_postman/settings/). Use the Postman Console to ensure that the correct SSL certificate is being sent to the server.
 
 ### Client Certificate issues
 
-Client certificates might be required for this server. Fix this by [adding a client certificate](/docs/postman/sending_api_requests/certificates) in the [Postman Settings](/docs/postman/launching_postman/settings).  
+Client certificates might be required for this server. Fix this by [adding a client certificate](/docs/postman/sending_api_requests/certificates/) in the [Postman Settings](/docs/postman/launching_postman/settings/).  
 
 ### Incorrect Request URLs
 
@@ -55,4 +55,5 @@ If your server sends incorrect response encoding errors, or invalid headers, Pos
 
 If you still can't get your API working, help can frequently be found in the [Postman community](https://postmancommunity.slack.com) or [Stack Overflow](https://stackoverflow.com/questions/tagged/postman).
 
-If you've tried unsuccessfully troubleshooting the issue, search the [Postman issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow these [guidelines](https://github.com/postmanlabs/postman-app-support#guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via our [support center]({{https://support.getpostman.com/hc}}) and include the app’s [console logs](/docs/postman/sending_api_requests/debugging_and_logs) in your report to provide some helpful data for troubleshooting.
+If you've tried unsuccessfully troubleshooting the issue, search the [Postman issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow these [guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via our [support center]({{https://support.getpostman.com/hc}}) and include the app’s [console logs](/docs/postman/sending_api_requests/debugging_and_logs/) in your report to provide some helpful data for troubleshooting. 
+
