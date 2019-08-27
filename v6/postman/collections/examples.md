@@ -33,7 +33,7 @@ To establish an example during the earliest phase of API development:
 
 Often it's useful to mock and save a couple of example responses with a request, such as a status code, to make your API more understandable.
 
-Let's say you want to build an API with an endpoint that does not yet exist, or your server isn’t ready. You can mock raw responses and save them. Then, you'll be able to generate a mock endpoint for each of them using [Postman's mock service](/docs/postman/mock_servers/intro_to_mock_servers/s).
+Let's say you want to build an API with an endpoint that does not yet exist, or your server isn’t ready. You can mock raw responses and save them. Then, you'll be able to generate a mock endpoint for each of them using [Postman's mock service](/docs/postman/mock_servers/intro_to_mock_servers/).
 
 Developers can make requests to the mock endpoint and start front-end development or [write tests](/docs/postman/scripts/test_scripts/) based on the mock response returned from the mock endpoint.
 

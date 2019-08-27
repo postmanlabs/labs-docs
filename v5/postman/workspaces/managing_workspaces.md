@@ -41,26 +41,26 @@ You can also click the **Create a new workplace** button to [create a new person
 
 In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
-* [View details about team Workspaces](/docs/postman/workspaces/using_workspaces/).
+* [View details about team Workspaces](/docs/postman/workspaces/using_workspaces/#viewing-details-of-a-workspace).
 
-* [Rename team Workspaces](/docs/postman/workspaces/using_workspaces/).
+* [Rename team Workspaces](/docs/postman/workspaces/using_workspaces/#renaming-a-workspace).
 
-* [Edit descriptions of team Workspaces](/docs/postman/workspaces/using_workspaces/).
+* [Edit descriptions of team Workspaces](/docs/postman/workspaces/using_workspaces/#editing-a-description-of-a-workspace).
 
-* [Manage members of team Workspaces](/docs/postman/workspaces/using_workspaces/).
+* [Manage members of team Workspaces](/docs/postman/workspaces/using_workspaces/#managing-members-of-a-team-workspace).
 
-* [Leave team Workspaces ](/docs/postman/workspaces/using_workspaces/).
+* [Leave team Workspaces ](/docs/postman/workspaces/using_workspaces/#leaving-a-workspace).
 
-* [Delete team Workspaces](/docs/postman/workspaces/using_workspaces/). 
+* [Delete team Workspaces](/docs/postman/workspaces/using_workspaces/#deleting-a-workspace). 
 
 
 ### Managing Workspace elements
 
 When you click a personal or team Workspace, you can see all the elements and activity of that Workspace.  
 
-If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces/) with another Workspace. 
+If you click the **Share** button, you can [share this collection](/docs/postman/workspaces/using_workspaces/#sharing-a-workspace) with another Workspace. 
 
-If you click the ***Ellipsis (...)*** button, you can [remove any element](/docs/postman/workspaces/using_workspaces/) from the Workspace, and [publish](/docs/postman/workspaces/using_workspaces/) collections.
+If you click the ***Ellipsis (...)*** button, you can [remove any element](/docs/postman/workspaces/using_workspaces/#deleting-elements-in-a-workspace) from the Workspace, and [publish](/docs/postman/workspaces/using_workspaces/) collections.
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 

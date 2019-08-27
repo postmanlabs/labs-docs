@@ -25,7 +25,7 @@ You can create a mock in several ways:
   
 Mocks are accessible to the public by default. If you create a mock and specify that it is only to be available privately, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing/#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
 
-**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples/ or the [Postman API](/docs/postman/mock_servers/mock_with_api), click its link for detailed information.
+**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples/) or the [Postman API](/docs/postman/mock_servers/mock_with_api), click its link for detailed information.
 
 #### New button
 

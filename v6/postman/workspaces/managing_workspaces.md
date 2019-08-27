@@ -55,7 +55,7 @@ If you click the ellipsis **(...)**, you can remove any element from the workspa
 
 ### Collections
 
-[Add an existing collection to this workspace](/docs/postman/workspaces/using_workspaces/) or [create a new collection](/docs/postman/workspaces/creating_workspaces/). You can share a collection to multiple workspaces.
+[Add an existing collection to this workspace](/docs/postman/workspaces/using_workspaces/) or [create a new collection](/docs/postman/collections/creating_collections/). You can share a collection to multiple workspaces.
 
 ### Environments
 
