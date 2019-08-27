@@ -15,8 +15,8 @@ Before we start, download the [collection. json](https://s3.amazonaws.com/postma
 
 The iterations of a collection run reflect how many times the collection will run. Here we have a collection run with five iterations.
 
-[![collection runner](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg22.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg22.png)
-[![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039058.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039058.png)
+[![collection runner](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner.png)
+[![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner_results.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner_results.png)
 
 ## Switching between iterations
 
@@ -26,7 +26,7 @@ To quickly jump between iterations, you can click one of the numbers on the righ
 
 The left sidebar contains three filters, which you can use to show all, passed, or failed tests. These filters are useful to help you quickly find bugs in your API.
 
-[![collection runner filters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039741.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039741.png)
+[![collection runner filters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner_filters.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/collection_runner_filters.png)
 
 ## Debugging with multiple iterations
 
@@ -34,7 +34,7 @@ Working with multiple iterations can become tedious when switching between them 
 
 When a run is finished (or stopped), you can open up the Run Summary screen by clicking the orange **Run Summary** button.
 
-[![run summary](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039072.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59039072.png)
+[![run summary](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/run_summary.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/running_multiple_iterations/run_summary.png)
 
 This screen is, as the name suggests, an overview of your run. Here, you can see each request, and its pass/fail status as a timeline.
 

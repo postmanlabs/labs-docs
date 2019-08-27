@@ -21,15 +21,15 @@ To begin, download the [sample collection](https://s3.amazonaws.com/postman-stat
 
 To import the sample in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample JSON file to upload it.
 
-[![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
+[![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/import_sample.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/import_sample.png)
 
 The sample file displays in Postman as `postman-echo.com/{{path}}` in the sidebar.
 
-[![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg7a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg7a.png)
+[![sample collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/sample_collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/sample_collection.png)
 
 The test expects the value of `foo` in the response body to be equal to `bar`. Let us also assume that after some computation, we're resetting the value of this variable to `bar2`.
 
-[![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg7.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg7.png)
+[![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/set_environment_variable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/set_environment_variable.png)
 
 ## Running the sample collection
 
@@ -43,19 +43,19 @@ Download the [sample environment JSON file](https://s3.amazonaws.com/postman-sta
 
 In the Collection Runner, select the test environment from the environment dropdown on the left and run the collection. You'll see the tests pass.
 
-[![collection runner parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg9.png)  
+[![collection runner parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/collection_runner_parameters.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/collection_runner_parameters.png)  
 
 If you switch back to the main Postman app window and check the value of the variable `foo`, you'll see that it is now `bar2`.
 
 By default, any variable changes in the environment (or globals) in the Collection Runner shows in the main Postman app window because `Persist Variables` is checked in the options. If you run the collection once again, you'll see that it now fails, since we changed the value of the variable `foo`.
 
-[![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)
+[![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/collection_runner_results.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/collection_runner_results.png)
 
 By default, `Keep variable values` is checked the first time you open the Collection Runner. If you do not want variables to be updated during the run, deselect the `Keep variable values` checkbox.
 
 In this case, think of it as the Collection Runner saving the initial state of the environment (and globals), and restoring it after the run is complete. This action is useful when you reuse the same variables in your requests and want to run the same collection multiple times. It ensures the environment (and globals) state is not affected by a collection run.
 
-[![keep variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/run_collection_run_keepvars.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/run_collection_run_keepvars.png)
+[![keep variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/keep_variables.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/using_environment_in_collection_runs/keep_variables.png)
 
 When you run a collection, Postman takes a layered approach in updating your current and initial values to protect your data. There are two options –  ‘Keep variable values’ and ‘Automatically persist variable values’ that work in tandem with your variables to keep them the way you want. The behavior of these variables depends a lot on the way you set these two options in your settings. For a general understanding of inter-dependency of these settings, you may refer to the following flow chart.
 
