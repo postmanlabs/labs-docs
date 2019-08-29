@@ -31,6 +31,11 @@ Once you are logged in, you will see the **SYNC** icon in the header bar. When
 
 [![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)
 
+At the time of login, you will also be able to choose between remember me for 30 days or 12 hours for a single session on a device. Postman provides you a better control over the length of your session on the devices you login in order to ensure better security to all of its users. 
+
+Check the box *Remember me or not* when you Sign-up/Sign-in to be logged into the device for 30 days. You will need to sign-in again on the 31st day to continue your work in Postman. If you do not wish to be logged into the Postman app for 30 days continually, clear the check box *Remember me or not*. This will ensure you to re-authenticate after 12 hours.
+
+
 ## Post Sign Up Configuration
 
 After you sign up in the Postman app, you will be prompted with a configuration window. In step 1 you are able to select from several options that describe what you want to accomplish with Postman. Selecting any of these options will download collections tailored to that specific use case. In step 2, you can customize the appearance of the Postman app by choosing between themes and layouts. The screen above will alter based on your selection to give you a preview of the app's appearance. Click on **Save My Preferences** to continue into the app with the changes you've made.
