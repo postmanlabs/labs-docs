@@ -27,13 +27,19 @@ Sign up with your email address or your Google account.
 
 Confirm your email.
 
+Postman provides you a better control over the length of your session on the devices you login in order to ensure better security to all of its users. If you want Postman to retain your login credentials, select *Remember me*. Once you select this option, Postman retains your credentials for 30 days. You will need to sign-in again on the 31st day to continue your work in Postman. The following screen displays the sign-in screen where you can select the *Remember me* option:
+
+
+Sign-in Screen here
+
+
+If you don't want Postman to retain your credentials, clear the check box *Remember me*. This will ensure you to re-authenticate after 12 hours. 
+
 Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/v6/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
 
 [![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)
 
-At the time of login, you will also be able to choose between remember me for 30 days or 12 hours for a single session on a device. Postman provides you a better control over the length of your session on the devices you login in order to ensure better security to all of its users. 
 
-Check the box *Remember me or not* when you Sign-up/Sign-in to be logged into the device for 30 days. You will need to sign-in again on the 31st day to continue your work in Postman. If you do not wish to be logged into the Postman app for 30 days continually, clear the check box *Remember me or not*. This will ensure you to re-authenticate after 12 hours.
 
 
 ## Post Sign Up Configuration
