@@ -38,7 +38,6 @@ Run the following Newman command with the appropriate parameters:
 newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}}
 ```
 
-
 If you need to provide an environment to the collection, change the above command to the following:
 
 ```bash

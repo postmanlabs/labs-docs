@@ -9,7 +9,7 @@ warning: false
 
 BigPanda is an IT systems management platform that aggregates and correlates IT alerts to create high-level IT incidents. It directs all alerts to a single place with different connected services.
 
-Setting up a BigPanda integration requires you to get an API key and configure Postman monitors. 
+Setting up a BigPanda integration requires you to get an API key and configure Postman monitors.
 
 After you set up the integration, you can view real-time alerts based on the results of your Postman monitors.
 
@@ -68,8 +68,6 @@ You can send the results of multiple monitors to the same BigPanda collection.
 1. Click the **Add Integration** button.
 
 You can send the results of multiple monitors to the same BigPanda collection.
-
-## Viewing alerts in BigPanda
 
 BigPanda gives you real-time alerts based on the results of your Postman Monitors. If there was a failed test or if an error occurred during the run, an alert is created on BigPanda, which would then alert the user.
 
