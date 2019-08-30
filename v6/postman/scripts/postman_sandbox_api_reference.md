@@ -148,6 +148,10 @@ In Postman, all variables conform to a specific hierarchy. All variables defined
 * `pm.variables.has(variableName:String):function → Boolean`
 * `pm.variables.get(variableName:String):function → *`
 * `pm.variables.toObject():function → Object`
+* `pm.variables.set(variableName:String, variableValue:String"):function → void`
+* `pm.variables.set(variableName:String):function → object`
+
+```
 
 The variables defined in the individual scopes may also be accessed via `pm.environment` for the environment scope and `pm.globals` for the global scope.
 
