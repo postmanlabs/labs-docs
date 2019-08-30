@@ -27,7 +27,7 @@ Sign up with your email address or your Google account.
 
 Confirm your email.
 
-Postman provides you a better control over the length of your session on the devices you login in order to ensure better security to all of its users. If you want Postman to retain your login credentials, select *Remember me*. Once you select this option, Postman retains your credentials for 30 days. You will need to sign-in again on the 31st day to continue your work in Postman. The following screen displays the sign-in screen where you can select the *Remember me* option:
+Postman provides you a better control over the length of your session on the devices you login in order to ensure better security to all of its users. If you want Postman to retain your login credentials, select *Remember me*. Once you select this option, Postman retains your credentials for 30 days. You will need to re-authenticate again on the 31st day to continue your work in Postman. The following screen displays the sign-in screen where you can select the *Remember me* option:
 
 
 Sign-in Screen here
