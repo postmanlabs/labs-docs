@@ -9,8 +9,7 @@ warning: false
 
 The Postman Pro to Slack integration enables you to receive notifications for the Team Activity Feed, Postman Search, and Monitor Run Results.
 
-
-### Configuring Postman with Slack 
+## Configuring Postman with Slack
 
 In the [Integrations page](https://go.postman.co/workspaces), find the Slack Integration.
 
@@ -23,8 +22,7 @@ You also can click the **Configured Integrations** tab to set up other integrati
 
 [![add slack](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-slack-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-slack-details.png)
 
-
-### Add an Activity Feed to Slack
+## Add an Activity Feed to Slack
 
 In the **Slack Details** page, click the **Add Integration** button for Team Activity Feed.
 
@@ -48,8 +46,7 @@ The team activity appears in the **Configured Integrations** page.
 
 [![configured_slack](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-slack-configured.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-slack-configured.png)
 
-
-### Search Postman team data on Slack
+## Search Postman team data on Slack
 
 In the **Slack Details** page, click the **Add Integration** button for Postman Search.
 
@@ -61,8 +58,7 @@ In the **Confirm your identity on Postman** page, click the **Authorize** button
 
 [![oath_postman](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-slack-oath.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-slack-oath.png)
 
-
-### Send your Monitor Run Results to Slack
+## Send your Monitor Run Results to Slack
 
 In the **Slack Details** page, click the **Add Integration** button for Monitor Run Results.
 
@@ -85,11 +81,3 @@ You can click the Advanced Options link to indicate if you want notifications fo
 [![slack monitor-run2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-resultsSlack-monitorRun1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-resultsSlack-monitorRun1.png)
 
 Click the **Add Integration** button to see the monitor in the "Configured Integrations" view.
-
-
-
-
-
-
-
-

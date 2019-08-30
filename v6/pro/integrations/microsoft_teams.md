@@ -10,46 +10,39 @@ Microsoft Teams is a chat-based workspace that is available for all Microsoft Of
 
 Currently, we have two ways in which this integration can be configured.
 
-### Configuring Microsoft Teams
-
+## Configuring Microsoft Teams
 
 1. In the [Integrations](https://go.postman.co/workspaces) page, find Microsoft Teams from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![select ms_teams integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msTeam.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msTeam.png)
 
+## Add a team activity feed to Microsoft Teams
 
-#### Add a team activity feed to Microsoft Teams
 To add a team activity feed to Microsoft Teams:
 
 1. Click the **Add Integration** button.
-2. In the **Team Activity Feed** page, enter your team's activity feed to Microsoft Teams.
+1. In the **Team Activity Feed** page, enter your team's activity feed to Microsoft Teams.
 
-[![ms_teams activityFeed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeam-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeam-teamactivityfeed.png)
+   [![ms_teams activityFeed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeam-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeam-teamactivityfeed.png)
 
-<ol start="3">
-  <li>Click the <b>Add Integration</b> button to see your team's activity feed in the "Configured Integrations" view.</li>
-</ol>
+1. Click the **Add Integration** button to see your team's activity feed in the "Configured Integrations" view.
 
-[![ms_teams configInt](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeams-confIntegration.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeams-confIntegration.png)
+   [![ms_teams configInt](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeams-confIntegration.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeams-confIntegration.png)
 
-#### Send monitor run results in Microsoft Teams
+## Send monitor run results in Microsoft Teams
 
 To send monitor run results to Microsoft Teams:
 
 1. Click the **Add Integration** button.
-2. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Teams, and enter the notification URL.
+1. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Teams, and enter the notification URL.
 
-[![ms_teams monRun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeams-monRun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeams-monRun.png)
+   [![ms_teams monRun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeams-monRun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integration-msTeams-monRun.png)
 
-<ol start="3">
-  <li>Click the <b>Add Integration</b> button to see your monitors in the "Configured Integrations" view. You can also click the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.</li>
-</ol>
+1. Click the **Add Integration** button to see your monitors in the "Configured Integrations" view. You can also click the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
 
-[![ms_teams monRun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-microsoft-teams-monitorruns.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-microsoft-teams-monitorruns.png)
+   [![ms_teams monRun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-microsoft-teams-monitorruns.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-microsoft-teams-monitorruns.png)
 
-
-
-### Get the Microsoft Teams webhook URL
+## Get the Microsoft Teams webhook URL
 
 Log in to your Microsoft Teams account. Create a new channel, or go to an already existing channel, where you want to set up this integration.
 
@@ -71,8 +64,7 @@ This will generate a webhook URL which can then be used to post messages to this
 
 [![generate webhook URL](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59032020.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59032020.png)
 
-
-### Messages in Microsoft Teams
+## Messages in Microsoft Teams
 
 Monitor run messages summarize the basic details of the run, if the run was successful or if it failed. Also, it provides direct links to that particular run and to the documentation for the collection.
 

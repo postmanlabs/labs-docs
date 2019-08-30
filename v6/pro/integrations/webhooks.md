@@ -10,30 +10,28 @@ Postman provides custom webhook integration which enables you to automate workfl
 
 You can configure a custom webhook with Postman to send events such as - monitoring run results, viewing team and collection-specific activity feeds, and backing up Postman Collections. Webhooks require a few configuration options before you can make use of them. We'll go through each of these settings below.
 
-
-### Configuring Custom Webhook URL
+## Configuring Custom Webhook URL
 
 1. In the [Integrations](https://go.postman.co/workspaces) page, find Webhooks from a list of Postman’s 3rd party integrations for Postman Pro and Enterprise users.
 
 [![custom_webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view1.png)  
 
-Click **View Details** to go to the Webhooks main interface. You can also click **Configured Integrations** tab to set up other integrations, view available integrations for Custom Webhooks, or view all configured integrations. 
+Click **View Details** to go to the Webhooks main interface. You can also click **Configured Integrations** tab to set up other integrations, view available integrations for Custom Webhooks, or view all configured integrations.
 
 [![webhooks_view2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_view2.png)  
 
+## Back up your Postman Collections
 
-### Back up your Postman Collections
 It’s important to back up your Postman Collections for safekeeping. Custom webhook helps you do this with any service you use like Box (a cloud-based storage solution).
 
 To back up your Postman Collections in Custom webhooks:
 
 1. Click **Add Integration**.
-2. In the **Backup your Postman Collections** page:
+1. In the **Backup your Postman Collections** page:
    * Enter any name
    * Select the collection.
    * Enter the Webhook URL.
-3. Click **Add Integration**.
-
+1. Click **Add Integration**.
 
 [![webhooks collections1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_collections1.png)
 
@@ -41,10 +39,10 @@ Once integration is done, you can view the completed integrations in the Configu
 
 [![configured integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Configured_integrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Configured_integrations.png)
 
-##### **Backup Collections**
+## **Backup Collections**
 
 The following is a schema for Backup Collections:
-```
+```json
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {},
@@ -60,35 +58,37 @@ The following is a schema for Backup Collections:
 }
 ```
 
-#### Send collection activity feed to Custom Webhooks
+## Send collection activity feed to Custom Webhooks
+
 The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Webhooks gives you the freedom to connect with email services like Outlook, Gmail, or a custom SMTP service.
 
 To send collection activity feed to Custom webhooks:
 
 1. Click **Add Integration**.
-2. In the **Collection Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
-3. Click **Add Integration**.
+1. In the **Collection Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
+1. Click **Add Integration**.
 
-### Send Monitor run results to Custom Webhooks
+## Send Monitor run results to Custom Webhooks
+
 Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Custom webhooks, you can use those results by connecting to other available services.
 
 To send monitor run results to Custom Webhooks:
 
 1. Click **Add Integration**.
-2. In the **Monitor Run Results** page, select the monitor you want to send to Custom webhooks. 
-3. Click **Add Integration**.
+1. In the **Monitor Run Results** page, select the monitor you want to send to Custom webhooks.
+1. Click **Add Integration**.
 
-[![webhook_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_monitors1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_monitors1.png) 
+[![webhook_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_monitors1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/webhooks_monitors1.png)
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
-And you’re done! Your integration has been set up successfully. Now, whenever a monitor would run, results would be posted to the webhook. 
+And you’re done! Your integration has been set up successfully. Now, whenever a monitor would run, results would be posted to the webhook.
 
-##### **Monitor Run Results** 
+## **Monitor Run Results**
 
 The following is a schema for Monitor Run Results:
 
-```
+```json
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {},
@@ -113,7 +113,7 @@ The following is a schema for Monitor Run Results:
     "metrics": {
       "id": "/properties/metrics",
       "properties": {
-        "errors": 
+        "errors":
           "id": "/properties/metrics/properties/errors",
           "type": "integer"
         },
@@ -161,22 +161,23 @@ The following is a schema for Monitor Run Results:
 }
 ```
 
-### Send a team activity feed to Custom Webhooks
-The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect with many services. 
+## Send a team activity feed to Custom Webhooks
+
+The activity feed is where you can track changes made to your collections and within your team. Integrating with Webhooks gives you the freedom to connect with many services.
 
 To send a team activity feed to Custom webhook:
 
 1. Click the **Add Integration** button.
-2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
-3. Click the **Add Integration** button.
+1. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
+1. Click the **Add Integration** button.
 
 [![custom webhook](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
 
+## **Team Activity**
 
-##### **Team Activity**
 The following is a schema for Team Activity:
 
-```
+```json
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {},

@@ -11,17 +11,17 @@ The [Postman API](https://docs.api.getpostman.com/) has several endpoints to h
 
 The easiest way to get started with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://docs.api.getpostman.com/) and use the Postman app to send requests.
 
-### Postman API overview
+## Postman API overview
 
-1.  You need a valid API Key to send requests to the API endpoints. Postman Pro users can get a key from the [integrations dashboard](https://go.postman.co/integrations/services/pm_pro_api).
+1. You need a valid API Key to send requests to the API endpoints. Postman Pro users can get a key from the [integrations dashboard](https://go.postman.co/integrations/services/pm_pro_api).
 
-2.  The API is rate limited.
+1. The API is rate limited.
 
-3.  Using the API, you can add and update collections, environments, and users. Run monitors, create a mock server, and so much more.
+1. Using the API, you can add and update collections, environments, and users. Run monitors, create a mock server, and so much more.
 
-4.  Review more [documentation for the Postman API](https://docs.api.getpostman.com/).
+1. Review more [documentation for the Postman API](https://docs.api.getpostman.com/).
 
-### Authentication
+## Authentication
 
 An API Key is required to be sent as part of every request to the Postman API, in the form of an `X-Api-Key` request header.
 
@@ -33,7 +33,7 @@ An API Key tells our API server that the request it received came from you. Ever
 
 For ease of use inside Postman, you could store your API key in an [environment variable](/docs/postman/environments_and_globals/variables/) called ``postman_api_key`` and this collection will automatically use it to make API calls.
 
-### Rate Limits
+## Rate Limits
 
 API access rate limits are applied at a per-key basis in unit time. Access to the API using a key is limited to **60 requests per minute**. In addition, every API response is accompanied by the following set of headers to identify the status of your consumption.
 
