@@ -148,6 +148,7 @@ In Postman, all variables conform to a specific hierarchy. All variables defined
 * `pm.variables.has(variableName:String):function → Boolean`
 * `pm.variables.get(variableName:String):function → *`
 * `pm.variables.toObject():function → Object`
+* `pm.variables.set(variableName:String, variableValue:String"):function → void`
 
 The variables defined in the individual scopes may also be accessed via `pm.environment` for the environment scope and `pm.globals` for the global scope.
 
@@ -210,7 +211,7 @@ The response details are stored in the following format:
 
 The `iterationData` object contains data from the data file provided during a collection run.
 
-* `pm.iterationData.get(variableName:String):function → *`: Returns a variable from the interation data with the specified name.
+* `pm.iterationData.get(variableName:String):function → *`: Returns a variable from the iteration data with the specified name.
 
 * `pm.iterationData.toObject():function → Object`: Returns the iteration data as an object.
 
@@ -228,7 +229,7 @@ The `iterationData` object contains data from the data file provided during a co
 
 * `pm.iterationData.toJSON():function → *`: Converts the iterationData object to JSON format.
 
-* `pm.iterationData.unset(key: string):function → void`: Unassign the value given to a specified variable.
+* `pm.iterationData.unset(key: string):function → void`: Un-assign the value given to a specified variable.
 
 * `pm.iterationData.variables():function → Object`: Return all the variables from the iterationData object.
 
@@ -319,20 +320,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
   `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
 
-  This function is useful to deal with assertions of data from a `response` or `variables`.
-
-  ```javascript
-    pm.test("response value check", function () {
-        var jsonData = pm.response.json();
-        pm.expect(jsonData.value).to.eql(100);
-    });
-  ```
-
-  ```javascript
-    pm.test('environment to be production', function () {
-        pm.expect(pm.environment.get('env')).to.equal('production');
-    });
-  ```
+  This function is useful to deal with assertions of data from a `response` or `variables`. For assertion test examples using `pm.expect`, check out [Assertion library examples](/docs/postman/scripts/test_examples#assertion-library-examples)
 
 ### Response Assertion API available in the test scripts
 

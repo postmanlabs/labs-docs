@@ -9,9 +9,9 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-* [Sync](/docs/v6/postman/launching_postman/syncing) and back up your history, collections, workspaces, environments, and header presets.
+* [Sync](/docs/postman/launching_postman/syncing/) and back up your history, collections, workspaces, environments, and header presets.
 * Easily work on multiple Postman instances from different machines.
-* Create [collection links](/docs/v6/postman/collections/sharing_collections) to send to other developers.
+* Create [collection links](/docs/postman/collections/sharing_collections/) to send to other developers.
 
 Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
 
@@ -27,15 +27,17 @@ Sign up with your email address or your Google account.
 
 Confirm your email.
 
+
 Postman provides you a better control over the length of your session on the devices you login in order to ensure better security to all of its users. If you want Postman to retain your login credentials, select *Remember me*. Once you select this option, Postman retains your credentials for 30 days. You will need to re-authenticate again on the 31st day to continue your work in Postman. The following screen displays the sign-in screen where you can select the *Remember me* option:
 
 
-Sign-in Screen here
+[![login-in Screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/login-screen-1778.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/login-screen-1778.png)
 
 
 If you don't want Postman to retain your credentials, clear the check box *Remember me*. This will ensure you to re-authenticate after 12 hours. 
 
-Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/v6/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing/). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+
 
 [![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)
 
