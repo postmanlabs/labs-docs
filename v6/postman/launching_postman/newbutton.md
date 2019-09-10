@@ -6,12 +6,12 @@ warning: false
 
 You can use the **New** button to initiate:
 
-* [Requests](#create-a-request)
-* [Collections](#create-a-collection)
-* [Environments](#create-an-environment)
-* [Monitors](#create-a-monitor)
-* [Documentation](#create-documentation)
-* [Mock_servers](#create-a-mock-server)
+- [Requests](#create-a-request)
+- [Collections](#create-a-collection)
+- [Environments](#create-an-environment)
+- [Monitors](#create-a-monitor)
+- [Documentation](#create-documentation)
+- [Mock_servers](#create-a-mock-server)
 
 The **New** button also provides access to [templates](#templates) and the [API Network](#api-network).
 
@@ -57,11 +57,11 @@ Under **BUILDING BLOCKS**, you can create a [collection](/docs/postman/collectio
 1. In the **Create New** tab, click "Collection".
 1. In the **CREATE A NEW COLLECTION** modal:
 
-* Enter a name and optional description.
-* Select an authorization type (if any).
-* Enter a pre-request script (optional) to execute prior to every request within the collection.
-* Add a test (optional) to execute after every request within the collection.
-* Add collection-level variables (optional) that can be used throughout the collection in the scripts or other request builder sections.
+- Enter a name and optional description.
+- Select an authorization type (if any).
+- Enter a pre-request script (optional) to execute prior to every request within the collection.
+- Add a test (optional) to execute after every request within the collection.
+- Add collection-level variables (optional) that can be used throughout the collection in the scripts or other request builder sections.
 
 1. Click the **Create** button.
 
@@ -96,10 +96,10 @@ Under **ADVANCED**, you can create a [monitor](/docs/postman/monitors/intro_moni
    [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-select-requests2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-select-requests2.png)
 1. After you select or create the request you want to monitor, click the **Next** button. In the **Configuration** tab, you must:
 
-* Enter the name of the monitor
-* Select an environment (optional).
-* Set how frequently the monitor should run.
-* Select one or more regions of the world from where you want to monitor your results.
+- Enter the name of the monitor
+- Select an environment (optional).
+- Set how frequently the monitor should run.
+- Select one or more regions of the world from where you want to monitor your results.
   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-configure-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-configure-1.png)
 
 1. Click the **Create** button.
@@ -118,8 +118,8 @@ Under **ADVANCED**, you can create [public or private documentation](/docs/postm
    [![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configure-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configure-1.png)
 1. After you select or create the request you want to document, click the **Next** button. In the **Configure documentation** tab, you must:
 
-* Enter the name of the documentation.
-* Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
+- Enter the name of the documentation.
+- Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
   [![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configureTab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-configureTab-1.png)
 
 1. Click the **Create** button.
@@ -138,9 +138,9 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endp
    [![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-config-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-config-1.png)
 1. After you select or create the request you want to mock, click the **Next** button. In the **Configure mock server** tab, you must:
 
-* Enter the name of the mock
-* Select an environment (optional).
-* Indicate if you want to make this mock server private
+- Enter the name of the mock
+- Select an environment (optional).
+- Indicate if you want to make this mock server private
   **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
   [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-configureTab-1.png)
 
@@ -154,18 +154,17 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 Under the **Templates** tab, there are a variety of collection templates available to help you check links, track GitHub issues, verify non-MFA access to AWS accounts, monitor the status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, monitor AWS ElasticBeanstalk environments, and more.
 
-You can view all the templates, or select to view them in the corresponding category, as illustrated in the screen below:
+You can browse all the templates, or filter by a category. Can't find what you're looking for? [Publish your own community-contributed template](/docs/postman_for_publishers/postman_templates/add_templates).
 
-[![templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Templates-tab-New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Templates-tab-New.png)
+[![api-network-new-template](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-new-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-new-template.png)
 
 To import a template:
 
-1. Click on the template you want. In this example we're using the "Link Checker" template.
-   **Note**: Each template has a description that lists the values required to run the template. In this example, the Link Checker template requires a `start_url` and a `root_url`.
-   [![linkCheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linkchecker-template-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-linkchecker-template-1.png)
-1. Click the **Use this template** button to summon the **Customization options** screen. This screen lists what Postman will create for you with this template and some configuration options available to you. Postman saves the values you enter as environment variables. Make sure you fill all the fields as these values might be crucial for the template to work properly.
-1. To configure your monitor, select how often you want the monitor to run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.
-1. Click the **Create** button. The **Success!** screen displays what Postman created for you and suggests next steps to consider to get the most out of the template.
+1. Click on the template you want. In this example we're using the "Intro to writing tests - with examples" template. Each template has a description that may list the values required to execute the requests.
+   [![api-network-new-template-details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-new-template-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-new-template-details.png)
+1. Click the **Use this template** button to summon the **Customization options** screen. This screen may list additional elements that are associated with this template and configuration options. Postman saves the values you enter as environment variables. Make sure you fill all the fields as these values might be crucial for the template to work properly.
+1. To configure a [monitor](/docs/postman/monitors/intro_monitors), select how often you want the monitor to run and enter any required information in the "CONFIGURATION OPTIONS" section.
+1. Click the **Create** button. The **Success!** screen displays what Postman created for you and suggests next steps to get the most out of the template.
 1. Click the **Okay** button to exit the screen.
 
 ## API Network
@@ -184,4 +183,4 @@ Once the collection is imported into Postman, you can see the collection in the 
 
 [![imported collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-nice-pay.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-nice-pay.png)
 
-If you're an API publisher, you can share your API documentation with your users and the rest of the Postman community by [Publishing your documentation to the Postman API Network](/docs/postman/api_documentation/publishing_public_docs/).
+If you're an API publisher, you can share your API documentation with your users and the rest of the Postman community by [Publishing your documentation to the Postman API Network](/docs/postman_for_publishers/api_network/add_api_network).
