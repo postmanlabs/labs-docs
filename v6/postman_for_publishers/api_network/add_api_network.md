@@ -4,7 +4,7 @@ page_id: "add_api_network"
 warning: false
 ---
 
-The **Postman API Network** has amassed the widest variety of public APIs for your browsing pleasure. Verified publishers are required to submit their complete Postman collections for review. Community contributors can also share their own solutions and projects as [templates](/docs/postman_for_publishers/postman_templates/add_templates/) to help the broader community.
+The [**Postman API Network**](https://explore.postman.com/) has amassed the widest variety of public APIs for your browsing pleasure. Verified publishers are required to submit their complete Postman collections for review. Community contributors can also share their own solutions and projects as [templates](/docs/postman_for_publishers/postman_templates/add_templates/) to help the broader community.
 
 For API publishers, the Postman API Network is an easy way to introduce your API to millions of developers worldwide. You can publish your collections as an interactive API reference along with any workflows to help users get onboarded quickly and effectively. Gather metrics about how many people are using your APIs and insights about how they are being used to refine your next generation of APIs.
 
