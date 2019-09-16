@@ -14,7 +14,7 @@ To use the new search:
 
 1. Go to the [Postman website](https://www.getpostman.com).
 
-2. Click the **Dashboard** button. You’ll see the search bar at the top of the page. You must be signed in to your Postman account to see the **Dashboard** button.
+1. Click the **Dashboard** button. You’ll see the search bar at the top of the page. You must be signed in to your Postman account to see the **Dashboard** button.
 
 [![search bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-API-search-bar-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-API-search-bar-1.png)
 
@@ -23,4 +23,3 @@ After you enter your search term, you’ll notice the variety of results that di
 [![search results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-results-search-dashboard-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-results-search-dashboard-1a.png)
 
 **Note**: Postman’s search results can sometimes lag behind the changes made to collections, folders, and requests. If you make a change in the app to an element, such as a collection, you might not see that change appear immediately in your search results. Wait a few minutes for the change to be reflected in search results.
-
