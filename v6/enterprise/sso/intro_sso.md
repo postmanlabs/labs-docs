@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-### What is SSO?
+## What is SSO?
 
 Single Sign-On (SSO) services make it easy to manage your team’s identity across all the SaaS products that you use.
 
@@ -16,24 +16,24 @@ An example of SSO is Google's implementation of login for their products, such a
 
 ### What are the advantages of SSO?
 
-*   Removes the need for users to remember and manage multiple passwords.
-*   Simplifies users' experience by allowing them to log in at one single access point and enjoy a seamless experience across multiple applications.
-*   Increases productivity by significantly reducing the password-related support emails.
-*   Reduces phishing and thereby making sure users aren't tricked into giving away sensitive information.
+* Removes the need for users to remember and manage multiple passwords.
+* Simplifies users' experience by allowing them to log in at one single access point and enjoy a seamless experience across multiple applications.
+* Increases productivity by significantly reducing the password-related support emails.
+* Reduces phishing and thereby making sure users aren't tricked into giving away sensitive information.
 
 ### Prerequisites for SSO with Postman
 
-*   Team’s Identity Provider (IdP) must support the SAML 2.0 standard.
+* Team’s Identity Provider (IdP) must support the SAML 2.0 standard.
 
 ### Identity Providers Supported
 
-*   [Okta](https://www.okta.com/)
-*   [OneLogin](https://www.onelogin.com/)
-*   [Duo](https://duo.com/)
-*   [Ping Identity](https://www.pingidentity.com/)
-*   [AD FS](https://technet.microsoft.com/en-us/library/cc755226(v=ws.11).aspx)
-*   [GSuite](https://gsuite.google.com/products/admin/)
-*   Custom SAML
+* [Okta](https://www.okta.com/)
+* [OneLogin](https://www.onelogin.com/)
+* [Duo](https://duo.com/)
+* [Ping Identity](https://www.pingidentity.com/)
+* [AD FS](https://technet.microsoft.com/en-us/library/cc755226(v=ws.11).aspx)
+* [GSuite](https://gsuite.google.com/products/admin/)
+* Custom SAML
 
 ### SSO setup for SAML 2.0 compliant IdPs
 

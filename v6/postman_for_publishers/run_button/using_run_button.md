@@ -19,6 +19,6 @@ If the developer selects one of the first two options, either the Postman Chrome
 
  [![user has postman](https://www.getpostman.com/img/v1/docs/run_btn_ux/run_btn_ux_3.png)](https://www.getpostman.com/img/v1/docs/run_btn_ux/run_btn_ux_3.png)
 
-If the developer selects the third option, for people who do not yet have the Postman app, they will be directed to the web view to either download a file of the collection or get the Postman app. Nothing will happen if someone without the app clicks on either the Chrome app or Postman native app options. 
+If the developer selects the third option, for people who do not yet have the Postman app, they will be directed to the web view to either download a file of the collection or get the Postman app. Nothing will happen if someone without the app clicks on either the Chrome app or Postman native app options.
 
  [![user does not have postman](https://www.getpostman.com/img/v1/docs/run_btn_ux/run_btn_ux_4.png)](https://www.getpostman.com/img/v1/docs/run_btn_ux/run_btn_ux_4.png)
