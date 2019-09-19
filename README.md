@@ -1,6 +1,8 @@
 # postman-docs
 
-[Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+To contribute to this project, please read:
+* The [Code of Conduct](https://github.com/postmanlabs/postman-docs/Code_of_Conduct.md)
+* [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
 ## Build your Jekyll site locally
 
