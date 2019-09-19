@@ -80,6 +80,31 @@ Your Postman account gives you a limited number of free mock server calls per mo
 
 You can check your usage limits in the [Postman API](https://docs.api.getpostman.com) or in the [account usage page](https://go.pstmn.io/postman-account-limits).
 
+## Editing Mock Servers
+
+You can edit existing Mock Servers in Postman since version `7.7.0`. These are the properties of a Mock Server that can be updated through the Postman app and web dashboard:
+
+* Name of the Mock Server
+* Version tag of the underlying collection
+* Environment associated with the Mock Server
+* Make the Mock Server private or public
+
+![Postman Mock Server edit options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mocks/mock-edit-modal.png)
+
+There are three ways you can edit a mock server. You can either edit a Mock Server from the Collection pane, through the Mock Server listing in Browse mode, or through the web dashboard of your Workspace's Mock Servers section.
+
+Editing Mocks in Build mode:
+
+![Postman Mock Server edit in Build mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mocks/mock-edit-build.png)
+
+Editing Mocks in Browse mode:
+
+![Postman Mock Server edit in Browse mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mocks/mock-edit-browse.png)
+
+Editing Mocks from the Web Dashboard:
+
+![Postman Mock Server edit in Build mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mocks/mock-edit-web-dashboard.png)
+
 ## Further reading
 
 For more information about mock servers, see:
