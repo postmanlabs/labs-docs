@@ -7,7 +7,7 @@ warning: false
 ---
 
 
-### Prerequisites
+## Prerequisites
 
 Before you configure Microsoft Active Directory Federation Services (AD FS) to work with Postman Single sign-on (SSO), you must have:
 
@@ -16,11 +16,11 @@ Before you configure Microsoft Active Directory Federation Services (AD FS) to w
 * A server that runs Microsoft Server 2012 or 2008. **Note**: This guide uses screenshots from Server 2012R2,
 but similar steps should be possible in other versions.
 
-After you meet these basic requirements, install AD FS on your server. 
+After you meet these basic requirements, install AD FS on your server.
 
 To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.microsoft.com/en-us/library/gg188612.aspx) in the Microsoft Knowledge Base.
 
-### Configuration
+## Configuration
 
 Follow the steps below to configure Microsoft AD FS to work with Postman SSO.
 
@@ -37,13 +37,13 @@ After creating the scheme, collect the values for these fields in the [Team](htt
 
 **Step 2** - Add a Relying Party Trust.
 
-Relying Party Trust (RPT) defines the connection between AD FS and Postman. 
+Relying Party Trust (RPT) defines the connection between AD FS and Postman.
 
-To add a Relying Party Trust: 
+To add a Relying Party Trust:
 
   Select the Relying Party Trusts folder from "AD FS Management".
 
-  On the Actions sidebar, click "Add Relying Party Trust" to start the configuration wizard for a new trust. 
+  On the Actions sidebar, click "Add Relying Party Trust" to start the configuration wizard for a new trust.
 
   Click the **Claims aware** button in the Welcome screen and then click the **Start** button.
 
@@ -61,7 +61,7 @@ To add a Relying Party Trust:
 
 [![encryption cert](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)
 
-   Check the box labeled "Enable Support" for the SAML 2.0 WebSSO protocol. 
+   Check the box labeled "Enable Support" for the SAML 2.0 WebSSO protocol.
 
    Collect the service URL (ACS URL) from the [Team](https://app.getpostman.com/dashboard/teams) page.
 
@@ -75,7 +75,7 @@ To add a Relying Party Trust:
 
 [![permit everyone](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Permit-everyone.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Permit-everyone.jpeg)
 
-In the next two screens, the wizard displays an overview of your settings. 
+In the next two screens, the wizard displays an overview of your settings.
 
 In the final screen, use the **Close** button to exit and open the "Claim Rules" editor.
 
@@ -91,12 +91,11 @@ Click "Add Rule". Then create a "Send LDAP Attributes as Claims" rule.
 
 [![add rule](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Add-Rule.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Add-Rule.jpeg)
 
-Using the Active Directory as your attribute store, perform these actions: 
+Using the Active Directory as your attribute store, perform these actions:
 
    In the LDAP Attribute column, select "E-Mail Addresses".
-    
    In the Outgoing Claim Type, select "E-Mail Address".
-    
+
 [![active directory](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Active-Directory.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Active-Directory.jpeg)
 
    Click the **Finish** button to save the new rule.
@@ -109,9 +108,9 @@ In the next screen perform these actions:
 
    In "Incoming Claim Type", select "E-mail Address".
 
-   In "Outgoing Claim Type", select "Name ID". 
+   In "Outgoing Claim Type", select "Name ID".
 
-   In "Outgoing Name ID Format", select "Email". 
+   In "Outgoing Name ID Format", select "Email".
 
   **Note**: Use the default setting: "Pass through all claim values".
 
@@ -138,6 +137,3 @@ After the setup, you must submit your Identity Provider's details to Postman.
 Download the FederationMetadata.xml. You can generally find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`
 
 Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams) page in the AD FS Identity Provider Details dialog.
-
-
-

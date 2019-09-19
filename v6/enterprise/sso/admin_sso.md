@@ -6,11 +6,11 @@ tags:
 warning: false
 ---
 
-### Configuring single sign-on
+## Configuring single sign-on
 
 Only an Enterprise team administrator (admin) can configure single sign-on (SSO) for a Postman team.
 
-Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit) for an enterprise plan. In the following screen, select **Authentication**. 
+Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit) for an enterprise plan. In the following screen, select **Authentication**.
 
 [![sso enable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_Auth1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)
 
@@ -18,7 +18,7 @@ Upon selecting *Authentication*, the following screen appears:
 
 [![sso enable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)
 
-After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on/off this SSO authentication. Click the button (circled above) to turn on/off your SSO authentication system. This is a team-level option which will enable/disable SSO for the whole team. To update the SSO settings, click **Edit**. 
+After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on/off this SSO authentication. Click the button (circled above) to turn on/off your SSO authentication system. This is a team-level option which will enable/disable SSO for the whole team. To update the SSO settings, click **Edit**.
 
 To configure a new authentication method, click **Add a new authentication method** button.
 
@@ -32,7 +32,7 @@ In the **ADD AUTHENTICATION METHOD** modal, select the authentication type. Ente
 
 In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated.
 
-As a next step, you must fill in the details in the **Identity Provider Details** section. And then provide your authentication certificate from your identity provider in "X.509 Certificate". 
+As a next step, you must fill in the details in the **Identity Provider Details** section. And then provide your authentication certificate from your identity provider in "X.509 Certificate".
 
 To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
@@ -48,8 +48,7 @@ To enter details in the **Identity Provider Details** section, you must login to
 
 * [Setting up custom SAML in Azure AD](/docs/postman_enterprise/sso/saml_in_azure_ad/)
 
-
-### Managing user accounts
+## Managing user accounts
 
 This section describes the following topics:
 
@@ -59,23 +58,21 @@ This section describes the following topics:
 
 * [Removing team access](#removing-team-access)
 
-
-##### **Creating end user accounts**
+### **Creating end user accounts**
 
 You can create an account for a user in the Identity Provider (IdP).
 
-The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the "Allow Signups" box was checked during SSO configuration. 
+The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the "Allow Signups" box was checked during SSO configuration.
 
 The user will be automatically associated to the team with a **user** role and have access to team resources.
 
-##### **Existing user account**
+### **Existing user account**
 
 If a Postman user logs in to Postman through a team's IdP, the user will be automatically added to the team if **one of the following** is true:
-   
-   *   The team has available slots and "Allow Signups" is enabled.
-   *   An admin has invited the user to join the team.
 
-##### **Removing team access**
+* The team has available slots and "Allow Signups" is enabled.
+* An admin has invited the user to join the team.
+
+### **Removing team access**
 
 An admin must remove users from their Postman team to prevent access to shared resources.
-
