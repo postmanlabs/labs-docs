@@ -1,6 +1,6 @@
 # postman-docs
 
-We have added a new markdown linter with GitHub actions. When making a pull request, it will run againt this linter. Your changed files are required to pass linting before they will be merged.
+We have added a new markdown linter with GitHub Actions. When making a pull request, it will run against this linter. Your changed files are required to pass linting before they will be merged.
 
 To contribute to this project, please read:
 
@@ -9,7 +9,9 @@ To contribute to this project, please read:
 
 ## Build your Jekyll site locally
 
-    bundle exec jekyll serve
+```
+   $ bundle exec jekyll serve
+```
 
 ## Project Structure
 
