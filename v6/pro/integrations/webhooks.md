@@ -42,6 +42,7 @@ Once integration is done, you can view the completed integrations in the Configu
 ## **Backup Collections**
 
 The following is a schema for Backup Collections:
+
 ```json
 {
   "$schema": "http://json-schema.org/draft-04/schema#",

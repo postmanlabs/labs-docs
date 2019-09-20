@@ -5,7 +5,6 @@
     {% include _google_tag_manager.html %}
     {% include _header.html %}
 
-
     <div class="page-wrapper">
       <div class="container">
          <div class="row">

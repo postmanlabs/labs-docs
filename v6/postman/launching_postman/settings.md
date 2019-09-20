@@ -22,7 +22,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
 * **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
 * **Request Timeout in ms (0 for infinity):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
 * **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/postman/collection_runs/using_environments_in_collection_runs/#configuring-the-collection-runner).
-  * **Working Directory:** If you want Postman to persist your file paths, then you must save your files in Postman's default working directory. When you work with files in form-data request body and binary file body, save them in this directory to let Postman persist your file's path relative to the working directory. This means your files loaded from within the working directory run smoothly across devices if other users use the same files on their devices. Postman flags a warning for files that are not stored in this directory.
+* **Working Directory:** If you want Postman to persist your file paths, then you must save your files in Postman's default working directory. When you work with files in form-data request body and binary file body, save them in this directory to let Postman persist your file's path relative to the working directory. This means your files loaded from within the working directory run smoothly across devices if other users use the same files on their devices. Postman flags a warning for files that are not stored in this directory.
 
   However, delimiting the working directory can have some unintended security issues as follows:
    1. It is against the general principle of security to give system-wide access to a program as it exposes a user's system to all types of threats.
@@ -30,16 +30,16 @@ Postman tries to minimize the number of settings you have to change, so we estab
    1. Absolute file path can also be given to postman, but when sharing it may not work for the user it is shared to as absolute paths can vary between systems.
 
    To learn more about this feature, refer to the section [form-data](/docs/postman/sending_api_requests/requests/#form-data)
-  * **Allow reading files outside working directory:** Set this option to ON if you want Postman to read files from outside the Postman working directory. Postman also persists your file paths in form-data request and binary file bodies. To learn more about this feature, refer to the section [form-data](/docs/postman/sending_api_requests/requests/#form-data).
-  * **Editor Font Size:** Adjust the font size in pixels for the text that appears in Postman. Note that this setting impacts only the *Test Scripts, Pre-request Scripts, and Response Pretty View*
-  * **Two-pane view**: Toggle between showing the response below, or beside, the request.
-  * **Variable autocomplete:** Enable this to turn on autocomplete feature for your variables.
-  * **Send no-cache header** (recommended): Sending a no-cache header makes sure you get the freshest response from your server.
-  * **Send Postman Token header:** This is primarily used to bypass a bug in Chrome. If an XmlHttpRequest is pending and. another request is sent with the same parameters then Chrome returns the same response for both of them. Sending a random token avoids this issue. This can also help you distinguish between request on the server side.
-  * **Retain headers when clicking on links:** If you click on a link in a response, Postman creates a new GET request with that URL. If you want to retain the headers that you set in the previous request set "ON" here. This is useful if you are accessing mainly protected resources.
-  * **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected.
-  * **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
-  * **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded,
+    * **Allow reading files outside working directory:** Set this option to ON if you want Postman to read files from outside the Postman working directory. Postman also persists your file paths in form-data request and binary file bodies. To learn more about this feature, refer to the section [form-data](/docs/postman/sending_api_requests/requests/#form-data).
+    * **Editor Font Size:** Adjust the font size in pixels for the text that appears in Postman. Note that this setting impacts only the *Test Scripts, Pre-request Scripts, and Response Pretty View*
+    * **Two-pane view**: Toggle between showing the response below, or beside, the request.
+    * **Variable autocomplete:** Enable this to turn on autocomplete feature for your variables.
+    * **Send no-cache header** (recommended): Sending a no-cache header makes sure you get the freshest response from your server.
+    * **Send Postman Token header:** This is primarily used to bypass a bug in Chrome. If an XmlHttpRequest is pending and. another request is sent with the same parameters then Chrome returns the same response for both of them. Sending a random token avoids this issue. This can also help you distinguish between request on the server side.
+    * **Retain headers when clicking on links:** If you click on a link in a response, Postman creates a new GET request with that URL. If you want to retain the headers that you set in the previous request set "ON" here. This is useful if you are accessing mainly protected resources.
+    * **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected.
+    * **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
+    * **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded,
    Postman will inform the user that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact app performance.
 
 [![general settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings-Apr2019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Apr2019.png)

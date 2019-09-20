@@ -418,6 +418,7 @@ to chain `.a` when using `.include`.
      pm.expect([1, 2, 3]).to.be.an('array').that.includes(2);
     });
 ```
+
 ---
 
 ## Older style of writing Postman tests (deprecated)

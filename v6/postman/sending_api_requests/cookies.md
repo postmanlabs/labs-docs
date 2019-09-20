@@ -35,7 +35,7 @@ To update an existing cookie, go to the domain from the domain list, and click t
 
 [![update cookie](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies-4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies-4.png)
 
-**Adding Cookies through Set-Cookie header**
+### Adding Cookies through Set-Cookie header
 
 You can also add/edit the cookies through the [Set-Cookie header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie) through the response.  
 
@@ -67,7 +67,7 @@ After a cookie jar is created, we can place cookies into it by the following met
 
 `cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));` // create a cookie
 
-2. One can also set a PostmanCookie or its compatible cookie object using the `.set()` function.
+1. One can also set a PostmanCookie or its compatible cookie object using the `.set()` function.
 
 `const cookieJar = pm.cookies.jar();` // create a cookie jar
 
@@ -121,12 +121,11 @@ To clear all the cookies for a URL, `.clear()` is used. It takes the URL for whi
 
 These are two properties that are not yet supported Postman.
 
-  *   SameSite
-  *   Cookie Prefixes
+* SameSite
+* Cookie Prefixes
         *   __Secure-
         *   __Host-
 
-
 Whenever you add a domain, Postman will sync all cookies for that domain from the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
 
- Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click ‘x’ next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
+Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click ‘x’ next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.

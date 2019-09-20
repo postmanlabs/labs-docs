@@ -52,17 +52,17 @@ For full list of available dynamic variables, see the [Postman Sandbox API Refer
 ## Request/response related properties
 
 * `request {object}`: Postman makes the request object available to you while writing scripts. This object is read-only. Changing properties of this object will have no effect. Note: Variables will NOT be resolved in the request object. The request object is composed of the following:
-  * `data {object}` - this is a dictionary of form data for the request. (`request.data[“key”]==”value”`)
-  * `headers {object}` - this is a dictionary of headers for the request (`request.headers[“key”]==”value”`)
-  * `method {string}` - GET/POST/PUT etc.
-  * `url {string}` - the url for the request.
+    * `data {object}` - this is a dictionary of form data for the request. (`request.data[“key”]==”value”`)
+    * `headers {object}` - this is a dictionary of headers for the request (`request.headers[“key”]==”value”`)
+    * `method {string}` - GET/POST/PUT etc.
+    * `url {string}` - the url for the request.
 * `responseHeaders {object}` **Deprecated**, **Test-only**: This is a map of the response headers. This is case-sensitive, and should not be used. Check the `postman.getResponseHeader()` method listed above.
 * `responseBody {string}` **Test-only**: A string containing the raw response body text. You can use this as an input to JSON.parse, or xml2Json.
 * `responseTime {number}` **Test-only**: The response time in milliseconds
 * `responseCode {object}` **Test-only**: Contains three properties:
-  * `code {number}`: The response code (200 for OK, 404 for Not Found etc)
-  * `name {string}`: The status code text
-  * `detail {string}`: An explanation of the response code
+    * `code {number}`: The response code (200 for OK, 404 for Not Found etc)
+    * `name {string}`: The status code text
+    * `detail {string}`: An explanation of the response code
 * `tests {object}` **Test-only**: This object is for you to populate. Postman will treat each property of this object as a boolean test.
 * `iteration {number}`: Only available in the Collection Runner and Newman. Represents the current test run index. Starts from 0.
 
