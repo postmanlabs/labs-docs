@@ -68,3 +68,4 @@ These invites will be visible at the bottom of the member listing. If you don't 
 **For billing members**: If you're out of paid slots and need to invite more users, you'll need to click "Add Users" on the [teams page](https://go.postman.co/team). You'll need to have a saved card to add users. Annual teams will be billed a pro-rated amount for the number of days left in the billing cycle.
 
   [![add users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)
+  
