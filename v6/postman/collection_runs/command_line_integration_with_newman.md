@@ -275,7 +275,7 @@ function (emitter, reporterOptions, collectionRunOptions) {
 };
 ```
 
-3. Publish your reporter using `npm publish`, or use your reporter locally [see usage instructions][7].
+1. Publish your reporter using `npm publish`, or use your reporter locally [see usage instructions][7].
 
 Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. You can find working reporter examples  in [working reporter examples][8].
 
@@ -291,7 +291,7 @@ npm install newman-reporter-teamcity
 
 Note that the name of the package is of the form `newman-reporter-<name>`, where `<name>` is the actual name of the reporter. The installation should be global if Newman is installed globally, local otherwise. Run `npm install ...` with the `-g` flag for a global installation.
 
-To use local (non-published) reporters, run the command `npm install <path/to/local-reporter-directory>` instead. 
+To use local (non-published) reporters, run the command `npm install <path/to/local-reporter-directory>` instead.
 
 Use the installed reporter, either via the CLI, or programmatically. Here, the `newman-reporter` prefix is not required while specifying the reporter name in the options.
 

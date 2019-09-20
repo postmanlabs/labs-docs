@@ -50,7 +50,7 @@ Navigate to "Send your logs" tab and copy the private key for later use, as illu
 
     [![coralogix add integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_addintegration1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/coralogix_addintegration1.png)
 
-    Now you can run the monitor and wait for a few seconds to analyse the metrics. The next section describes the procedure to view and analyze metrics. 
+    Now you can run the monitor and wait for a few seconds to analyse the metrics. The next section describes the procedure to view and analyze metrics.
 
 ## Analyzing metrics in Coralogix
 

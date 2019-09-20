@@ -10,7 +10,7 @@ The Postman app notifies you in case of some important events. These notificatio
 
 You will get notified in case of the following events:
 
-*   **Workspaces notifications**
+* **Workspaces notifications**
     * A user in your team shares a collection
     * A user in your team unshares a collection
     * A user in your team deletes a shared collection
@@ -19,7 +19,7 @@ You will get notified in case of the following events:
     * A user in your team publishes a shared collection
     * A user in your team unpublishes a shared collection
 
-*   **Monitor notifications**
+* **Monitor notifications**
     * A new team monitor is created on a collection you are subscribed to
     * A monitor that you're subscribed to fails a test
     * A monitor that you're subscribed to fails because of an error
@@ -28,7 +28,6 @@ You will get notified in case of the following events:
     * A monitor that you're subscribed to recovers from a test failure
     * A monitor that you're subscribed to recovers from an error
 
-*   **Monitoring notifications (for admins and monitor owners)**
+* **Monitoring notifications (for admins and monitor owners)**
     * The monthly monitoring quota for the team is about to be reached
     * Monthly monitoring quota is exceeded and overage starts
-

@@ -15,7 +15,7 @@ Postman's vision is to help you build a super fast and smooth workflow for API d
 * Are they working properly all the time?
 * Can I connect all my tools with my API development workflow?
 
-Postman Pro offers solutions that satisfy each of the questions above. 
+Postman Pro offers solutions that satisfy each of the questions above.
 
 * Postman now enables [API design](/docs/postman/design_and_develop_apis/introduction_to_apis/) directly within Postman, making API creation better and faster.
 * Collaboration with Personal and Team [Workspaces](/docs/postman/workspaces/intro_to_workspaces/).

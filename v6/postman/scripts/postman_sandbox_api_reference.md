@@ -263,7 +263,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
    Set a cookie using cookie name and value. One can also directly set the cookie by assinging cookie value to the cookie name within this function.
 
-  * `jar.set(URL:String, { name:String, value:String, httpOnly:Bool }, callback(error, cookie)):Function → Object`
+* `jar.set(URL:String, { name:String, value:String, httpOnly:Bool }, callback(error, cookie)):Function → Object`
 
      Set a cookie using PostmanCookie or its compatible object.
 
