@@ -22,7 +22,7 @@ You can post comments on your collections and requests from the Postman Dashboar
 
 To post a comment, select the corresponding collection or a request and click **Comments**. The **Comments** dialog box appears. Write your comment and click *Add Comment*. Your comment is posted. The procedure to post a comment is similar both in the Postman app and the Dashboard. The following screen illustrates this:
 
-[![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Posting.gif)
+[![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/comment-general.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/comment-general.gif)
 
 **Note:** If someone tags you in a comment on a private collection that you don’t have access for, Postman sends a notification to you. However, you can’t read the comment until the collection or the request is shared with you.  
 
@@ -44,10 +44,10 @@ You can delete your comments by clicking the ‘delete’ button, as illustrated
 
 Sometimes you may want to call the attention of a team member when posting a comment. In such a scenario, you can tag a person by typing the @ symbol followed by the member’s name and then choosing the corresponding name from the auto-suggested list. When you tag a member in your comment, Postman notifies the member by sending a notification. The following screen illustrates tagging a member in a comment:
 
-[![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Tagging.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Tagging.gif)
+[![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/comment-mention.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/comment-mention.png)
 
 ## Markdown support
 
 Postman comments support Markdown. You can format the text the way you want in the comments dialog box. The following screen illustrates formatting bold faced and italicized text in the comments dialog box:
 
-[![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Formatting.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments_Formatting.gif)
+[![post comments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/comment-markdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/comment-markdown.png)
