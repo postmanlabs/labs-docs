@@ -3,8 +3,6 @@ title: "Visualize API responses"
 page_id: "visualizer"
 ---
 
-`Status: In Canary`
-
 Postman provides a programmable way to visually represent [HTTP responses](/docs/postman/sending_api_requests/responses/) in the "Visualizer" tab inside the response body area. Visualizers open up a whole new way to look at response body beyond the Pretty, Raw and Preview options in Postman.
 
 Visualizers let you focus on the data that matters in an HTTP response. Think of Visualizers as a tool to build a domain-specific representation of API responses. You can use Visualizers to model and show the part of the response data that are relevant for those business use cases, instead of having to look at the raw response data.
