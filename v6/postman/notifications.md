@@ -10,24 +10,31 @@ The Postman app notifies you in case of some important events. These notificatio
 
 You will get notified in case of the following events:
 
-* **Workspaces notifications**
-    * A user in your team shares a collection
-    * A user in your team unshares a collection
-    * A user in your team deletes a shared collection
-    * A user in your team subscribes to a collection that you own
-    * A new user joins your team
-    * A user in your team publishes a shared collection
-    * A user in your team unpublishes a shared collection
+## Workspaces notifications
 
-* **Monitor notifications**
-    * A new team monitor is created on a collection you are subscribed to
-    * A monitor that you're subscribed to fails a test
-    * A monitor that you're subscribed to fails because of an error
-    * A monitor that you're subscribed to fails a test multiple times in a row
-    * A monitor that you're subscribed to fails because of an error multiple times in a row
-    * A monitor that you're subscribed to recovers from a test failure
-    * A monitor that you're subscribed to recovers from an error
+* A user in your team shares a collection
+* A user in your team unshares a collection
+* A user in your team deletes a shared collection
+* A new user joins your team
+* A user in your team publishes a shared collection
+* A user in your team unpublishes a shared collection
 
-* **Monitoring notifications (for admins and monitor owners)**
-    * The monthly monitoring quota for the team is about to be reached
-    * Monthly monitoring quota is exceeded and overage starts
+## Comment notifications
+
+* Someone mentions you in a comment
+* Someone replies to your comment
+
+## Monitor notifications
+
+* A new team monitor is created on a collection you are subscribed to
+* A monitor that you're subscribed to fails a test
+* A monitor that you're subscribed to fails because of an error
+* A monitor that you're subscribed to fails a test multiple times in a row
+* A monitor that you're subscribed to fails because of an error multiple times in a row
+* A monitor that you're subscribed to recovers from a test failure
+* A monitor that you're subscribed to recovers from an error
+
+## Monitor notifications (for admins and monitor owners)
+
+* The monthly monitoring quota for the team is about to be reached
+* Monthly monitoring quota is exceeded and overage starts
