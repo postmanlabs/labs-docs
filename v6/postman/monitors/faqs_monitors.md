@@ -40,6 +40,10 @@ You can view the full console output for every monitor run, including any errors
 
 Monitors are visible to all members of the workspace they were created in. If a collection is shared in both a personal and team workspace, but its monitor is created in the personal workspace, members of the team workspace will not be able to view or access that monitor.
 
+### Who can edit my Monitors?
+
+Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/postman_pro/managing_postman_pro/roles_and_permissions/#collection-roles) on the associated collection.
+
 ### Can I delete a Monitor?
 
 You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want to retain the history, then you should pause the monitor instead of deleting it.
