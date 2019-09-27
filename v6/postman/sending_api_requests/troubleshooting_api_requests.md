@@ -7,7 +7,7 @@ warning: false
 
 There might be cases when your API doesn't work, or exhibits unexpected behavior. If you're not getting any response, Postman will display a message about an error in connecting to the server.
 
-[![no response message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)
+[![no response message](https://assets.postman.com/postman-docs/WS-troubleshooting-APIs.png)](https://assets.postman.com/postman-docs/WS-troubleshooting-APIs.png)
 
 For more details about the possible causes of the error, open [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs/). It has detailed information about the failure.
 
