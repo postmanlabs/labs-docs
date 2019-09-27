@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-Audit logs is an Enterprise-only feature that lists important team events. An admin can review audit logs to determine:
+Audit logs is an Enterprise-only feature, that lists important team events. An admin can review audit logs to determine:
 
 * When users were added to the team.
 * When users received an invitation to a team.
