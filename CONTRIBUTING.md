@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue.
+When contributing to this repository, please first discuss the change you wish to make via [issue](https://github.com/postmanlabs/postman-docs/issues).
 
 Please note we have a [code of conduct](https://github.com/postmanlabs/postman-docs/Code_of_Conduct.md), please follow it in all your interactions with the project.
 
@@ -14,7 +14,7 @@ We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes t
   1. Checkout the `develop` branch. `git checkout develop`
   1. Create a new branch for your work based on develop `git checkout -b <YOUR BRANCH NAME>` Your branch name should be something descriptive of the changes you wish to make
   1. Run `npm install` to add all dependencies
-  1. Make your changes. The Learning Centers documentation is built from the `.md` files in the `v6` folder of the repo
+  1. Make your changes. The Learning Center's documentation is built from the `.md` files in the `v6` folder of the repo
   1. Check your files against our markdown guidelines by running `npm run lint` and resolve any errors
   1. When you're ready to apply your changes, push your changed files to your forked repo
     1. `git add <FILENAMES OF CHANGED FILES>`
