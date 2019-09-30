@@ -17,18 +17,18 @@ We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes t
   1. Make your changes. The Learning Center's documentation is built from the `.md` files in the `v6` folder of the repo
   1. Check your files against our markdown guidelines by running `npm run lint` and resolve any errors
   1. When you're ready to apply your changes, push your changed files to your forked repo
-    1. `git add <FILENAMES OF CHANGED FILES>`
-    1. `git commit -m "<YOUR COMMIT MESSAGE>"` Your commit message should be descriptive of the changes you made
-    1. `git push -u origin HEAD` This will push your changes to the branch you created on your forked repo
+      1. `git add <FILENAMES OF CHANGED FILES>`
+      1. `git commit -m "<YOUR COMMIT MESSAGE>"` Your commit message should be descriptive of the changes you made
+      1. `git push -u origin HEAD` This will push your changes to the branch you created on your forked repo
   1. Open a Pull Request to the postman-docs repo
-    1. Navigate to the [postman-docs](https://github.com/postmanlabs/postman-docs) repo
-    1. Click `New pull request`
-    1. Click `Compare accross forks`
-    1. Select `base repository: postmanlabs/postman-docs`
-    1. Select `base branch: develop`
-    1. Select `head repository: <YOUR FORKED REPOSITORY>`
-    1. Select `head branch: <YOUR BRANCH NAME>`
-    1. Click `Create pull request`
+      1. Navigate to the [postman-docs](https://github.com/postmanlabs/postman-docs) repo
+      1. Click `New pull request`
+      1. Click `Compare accross forks`
+      1. Select `base repository: postmanlabs/postman-docs`
+      1. Select `base branch: develop`
+      1. Select `head repository: <YOUR FORKED REPOSITORY>`
+      1. Select `head branch: <YOUR BRANCH NAME>`
+      1. Click `Create pull request`
 
 Your pull request will be reviewed by administrators and will either be approved, denied, or sent back for changes.
 
