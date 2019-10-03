@@ -8,11 +8,11 @@ Postman is the collaboration platform for API development. And the [Postman Lear
 
 We would love for you to contribute to the Learning Center! To contribute to this project, please read:
 
-* The [Code of Conduct](https://github.com/postmanlabs/postman-docs/blob/develop/CODE_OF_CONDUCT.md)
-* The [Contribution Guidelines](https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md)
+* The [Code of Conduct](CODE_OF_CONDUCT.md)
+* The [Contribution Guidelines](CONTRIBUTING.md)
 * [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
-**NOTE:** We have added a new Markdown linter with GitHub Actions. When making a pull request, it will run against this linter. Your changed files are required to pass linting before they will be merged. More information on this can be found in the [contribution guidelines](https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md).
+**NOTE:** We have added a new Markdown linter with GitHub Actions. When making a pull request, it will run against this linter. Your changed files are required to pass linting before they will be merged. More information on this can be found in the [contribution guidelines](CONTRIBUTING.md).
 
 ## Build your Jekyll site locally
 
