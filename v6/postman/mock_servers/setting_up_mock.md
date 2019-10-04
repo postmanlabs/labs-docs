@@ -6,7 +6,7 @@ warning: false
 
 [Mock Servers](/docs/postman/mock_servers/intro_to_mock_servers) in Postman let you simulate APIs. You can create mock servers from the Postman app, from the web dasboard and using the Postman API. You will need a Postman account to set up a mock server.
 
-Mocks in Postman are tied to a collection. Postman matches requests and generates responses for mocks from the Examples in the requests of a collection. You don't need to have an existing collection to create a mock.
+Mocks in Postman are tied to a collection. Postman matches requests and generates responses for mocks from the Examples in the requests of a collection. You can create a mock server even if you don't have an existing collection.
 
 ## In-app
 
