@@ -13,6 +13,7 @@ The Postman Console logs the following information:
 * The actual request that was sent, including all underlying request headers and variable values, etc.
 * The exact response sent by the server before it is processed by Postman
 * The proxy configuration and certificates used for the request.
+* The network information such as IP addresses, ciphers and protocols used.
 * Error logs from test or pre-request scripts
 * `console.log()`, `console.info()`, `console.warn()` and `console.error()` from inside scripts.
 
