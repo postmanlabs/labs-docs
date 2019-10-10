@@ -53,6 +53,57 @@ Two consoles are available in Postman to see what's going on behind the scenes.
 
 * DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs/).
 
+## Postman Console
+
+Postman has its own console, which can be used to view all the HTTP requests and responses for the current session, along with any messages the user wants to log.
+
+**Note:** The new console comes with Postman app version 7.10 and later. Older version will **NOT** receive the new console. Also, once the app is updated to 7.10, is is **NOT** possible to revert.
+
+The console can be opened in a number of ways:
+
+1. By going through the view option from the menu bar.
+2. By the Postman Console option in Postman.
+3. By keyboard shortcut: Command + Option + c.
+
+[![console button](https://assets.postman.com/postman-docs/console_button_postman.png)](https://assets.postman.com/postman-docs/console_button_postman.png)
+
+### Console header:
+
+The header now contains 3 components:
+
+1. A search bar, making it possible to search for a specific request.
+2. Filter option, allowing requests to be filtered on the basis of their message type: log, info, warning, error.
+3. Clear button to clear the console screen.
+
+There is now support for 4 types of console messages:
+
+1. **Log:** `console.log(“This is a log.”);`
+2. **Info:** `console.info("This is an information message.");`
+3. **Warning:** `console.warn("This is a warning message.");`
+4. **Error:** `console.error("This is an error message.");`
+
+[![console labels](https://assets.postman.com/postman-docs/console_labels.png)](https://assets.postman.com/postman-docs/console_labels.png)
+
+The console now shows the following four types of information for each request:
+
+1. Network
+2. Request headers
+3. Response headers
+4. Response body
+
+[![console network info](https://assets.postman.com/postman-docs/console_network_info.png)](https://assets.postman.com/postman-docs/console_network_info.png)
+
+### Console footer:
+
+There is now a footer section in the console, comprising of two parts:
+
+1. Console Settings: Console now supports configurable options for two things:
+    a. Timestamp: A timestamp for the respective request.
+    b. Hide network information: De-clutters the console if network information is not needed.
+2. Displays the number of errors and warnings.
+
+[![console settings](https://assets.postman.com/postman-docs/console_settings.png)](https://assets.postman.com/postman-docs/console_settings.png)
+
 Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs/).
 
 ## Status bar
