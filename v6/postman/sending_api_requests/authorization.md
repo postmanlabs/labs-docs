@@ -277,4 +277,4 @@ This table describes the advanced parameters for NTLM Authentication. Advanced c
  | Client Token | The client identifier given to the client during the Application registration process.|
  | Client Secret| The client secret given to the client during the Application registration process.|
 
- For information regarding how to obtain these credentials, check out: <a href="https://developer.akamai.com/legacy/introduction/Prov_Creds.html" target="_blank">Get Started with APIs</a>
+ For information regarding how to obtain these credentials, check out: <a href="https://developer.akamai.com/legacy/introduction/Prov_Creds.html" target="_blank">Getting Started with APIs</a>
