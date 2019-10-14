@@ -17,3 +17,10 @@ jobs:
       run: |
         npm install
         node_modules/.bin/markdownlint ./ --ignore node_modules --ignore v5
+    - name: check for image url
+      run: |
+        if grep -lri 's3.amazonaws.com' ./v6 ; 
+        then echo "invalid s3 references found. Please use format 'https://assets.postman.com/postman-docs/[filename-in-s3]'"; 
+          exit 1; 
+        else echo "no s3 references found"; 
+        fi
