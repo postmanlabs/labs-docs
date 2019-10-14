@@ -13,8 +13,9 @@ The Postman Console logs the following information:
 * The actual request that was sent, including all underlying request headers and variable values, etc.
 * The exact response sent by the server before it is processed by Postman
 * The proxy configuration and certificates used for the request.
+* The network information such as IP addresses, ciphers and protocols used.
 * Error logs from test or pre-request scripts
-* `console.log()` from inside scripts.
+* `console.log()`, `console.info()`, `console.warn()` and `console.error()` from inside scripts.
 
 Using `console.info()` or `console.warn()` at appropriate locations in the scripts will help extract the exact line of code that is acting up. If you know your way around `console.log()` in JavaScript, this is similar.
 
@@ -41,7 +42,7 @@ To access the console logs, follow these steps:
 
 ### For the native app for Mac / Windows / Linux
 
-Head to `View` in the application menu, and click on "Show Postman Console" or use the keyboard shortcut **(CMD/CTRL + ALT + C)**. Similar to DevTools, every call along with its headers and payloads will be logged to the Postman Console.
+Head to `View` in the application menu, and click on "Show Postman Console" or use the keyboard shortcut **(CMD/CTRL + ALT + C)**. Similar to DevTools, every call along with its headers, network information and payloads will be logged to the Postman Console.
 
   [![show Postman console](https://cloud.githubusercontent.com/assets/1330851/20257546/4546dd8e-aa70-11e6-8242-1f6872899420.png)](https://cloud.githubusercontent.com/assets/1330851/20257546/4546dd8e-aa70-11e6-8242-1f6872899420.png)
 
