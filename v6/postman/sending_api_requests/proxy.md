@@ -41,7 +41,7 @@ A proxy acts like a go-between to perform various functions. Postman has a [buil
 
 This article describes how to configure the proxy settings in Postman to direct all requests made in the Postman app to route through a proxy server. This is different from [capturing network traffic](/docs/postman/sending_api_requests/capturing_http_requests/) with the built-in proxy which allows Postman to intercept network traffic.
 
-Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a **custom proxy** or to use the **system proxy** defined in the operating system.
+Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a custom **Global proxy** or to use the **system proxy** defined in the operating system.
 
 Use the **Global proxy** if all of your applications need to use the same proxy. Turn **Global proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the
 requests to not use the proxy server.
