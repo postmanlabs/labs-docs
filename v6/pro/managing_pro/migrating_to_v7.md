@@ -38,7 +38,7 @@ The next section explains the following scenarios:
 
 If you are an admin, you can go to the [Postman dashboard](https://go.postman.co/settings/team/roles) and migrate to Postman v7.
 
-[![migration to v7](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Migrate2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Migrate2.png)
+[![migration to v7](https://assets.postman.com/postman-docs/Migrate2.png)](https://assets.postman.com/postman-docs/Migrate2.png)
 
 Click **Migrate my team to v7** and Postman takes care of the next steps for you and your team.
 
