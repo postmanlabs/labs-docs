@@ -51,7 +51,7 @@ You can update your Postman v6 app to Postman v7, via **Settings > Update > Chec
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', you will not be able to update the app via the steps explained above. Please use the following commands to update your app via the terminal:
 
 ```
-sudo snap switch --channel=candidate postman
+sudo snap switch --channel=latest/stable postman
 sudo snap refresh postman
 ```
 
@@ -68,3 +68,12 @@ Please use the following links to download the latest Postman v6 version for you
 * [Download Postman v6 for Windows 32-bit](https://go.pstmn.io/dl-win32-v6-latest)
 * [Download Postman v6 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v6-latest)
 * [Download Postman v6 for Linux 32-bit](https://go.pstmn.io/dl-linux32-v6-latest)
+
+**Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v6.
+
+```
+sudo snap switch --channel=v6/stable postman
+sudo snap refresh postman
+```
+
+**Note:** Once your team migrates to Postman v7, you would have to switch the channel back to `latest/stable`.
