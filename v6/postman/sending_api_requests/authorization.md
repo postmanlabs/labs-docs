@@ -262,3 +262,19 @@ This table describes the advanced parameters for NTLM Authentication. Advanced c
 | Workstation| The hostname of the PC.|
 
 [![ntlm_auth](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)
+
+## Akamai EdgeGrid Authorization
+
+ Akamai Edgegrid is an authorization helper developed and used by Akamai.
+
+ To choose EdgeGrid as the authorization method, go to the request editor tab, select **Authorization** and choose **Akamai EdgeGrid** from the dropdown menu.
+
+[![edgegrid_auth](https://assets.postman.com/postman-docs/EdgeGrid-auth.png)](https://assets.postman.com/postman-docs/EdgeGrid-auth.png)
+
+ | **Parameters** | **Description** |
+ | --- | --- |
+ | Access Token | A token that grants access to the API. |
+ | Client Token | The client identifier given to the client during the Application registration process.|
+ | Client Secret| The client secret given to the client during the Application registration process.|
+
+ For information regarding how to obtain these credentials, check out: <a href="https://developer.akamai.com/legacy/introduction/Prov_Creds.html" target="_blank">Getting Started with APIs</a>

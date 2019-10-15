@@ -20,7 +20,7 @@ All of your local and shared environments will be available to you in your team 
 
 ## Environments in public documentation
 
-An environment that you select while publishing documentation will be available to all documentation viewers.
+An environment that you select while publishing documentation will be available to all documentation viewers. This environment will also be downloaded when users select the automatically generated [Run in Postman button](/docs/postman_for_publishers/run_button/using_run_button).
 
 If your public documentation is published on a custom domain, only the selected environment will be available in the published page, even if the user is signed into their Postman account.
 
