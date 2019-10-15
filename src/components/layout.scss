@@ -1,0 +1,29 @@
+@import './Shared/_variables.scss';
+
+div.container-fluid {
+  padding: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.1666666667;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .8px;
+  margin: .67em 0;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.2222222222;
+}
+p {
+  a {
+    color: $postman-orange;
+  }
+}
+
+
+div.col-sm-7.doc-page {
+  padding: 64px 72px;
+}
