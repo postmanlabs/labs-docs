@@ -190,7 +190,7 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 
 ### Update failed error
 
-While updating the app there might be some issues due to which the user would see the following modal
+While updating the app there might be some issues due to which the user would see the following modal.
 
 [![update-error-dialog][update-error-dialog]][update-error-dialog]
 
@@ -218,7 +218,7 @@ You can find more details about the error from the DevTools. Open it from `View 
 
 ### Update button not available
 
-Users who have installed Postman using [Snap](https://snapcraft.io/postman) would see that there is no `Check for updates` button. This is because the updates are handled by Snap itself and it would automatically update Postman on a regular cadence. It you are on Postman v6, you would have to migrate your team to Postman v7 and then change the Snap channel to get the latest updates. For more information see [Migrating to Postman v7](/docs/postman_pro/managing_postman_pro/migrating_to_v7).
+If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', you would see that there is no `Check for updates` button. This is because the updates are handled by Snap itself and it would automatically update Postman on a regular cadence. It you are on Postman v6, you would have to migrate your team to Postman v7 and then change the Snap channel to get the latest updates. For more information see [Migrating to Postman v7](/docs/postman_pro/managing_postman_pro/migrating_to_v7).
 
 ## Postman Chrome App
 
