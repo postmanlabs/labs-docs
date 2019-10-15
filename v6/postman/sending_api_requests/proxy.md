@@ -69,7 +69,7 @@ The first field under **Proxy Type** is **Proxy Server**. Here, enter the **host
 The Field below **Proxy Server** is **Proxy Auth**, turning this on makes the requests use Basic Authentication
 method, which requires a username and a password.
 
-The **Proxy Bypass** setting lies below the **Proxy Server** option. A number of comma separated hosts can be 
+The **Proxy Bypass** setting lies below the **Proxy Server** option. A number of comma separated hosts can be
 provided here for which the requests do not use the proxy settings.
 
 The **Use System Proxy** option allows Postman to use the system's default proxy configuration. It contains an
