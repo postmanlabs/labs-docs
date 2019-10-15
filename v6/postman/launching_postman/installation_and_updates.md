@@ -155,7 +155,7 @@ You can also configure your preferences to enable automatic download for major u
 
 [![set automatic updates in settings](https://assets.postman.com/postman-docs/auto+update+enable.png)](https://assets.postman.com/postman-docs/auto+update+enable.png)
 
-## Troubleshooting Postman Installation & Updates
+## Troubleshooting Postman Installation
 
 ### "Windows protected your PC" warning
 
@@ -185,6 +185,40 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 [![step 2](https://assets.postman.com/postman-docs/Troubleshootwindows6.12.png)](https://assets.postman.com/postman-docs/Troubleshootwindows6.12.png)
 
 [![step 3](https://assets.postman.com/postman-docs/Troubleshootwindows6.1+(1).png)](https://assets.postman.com/postman-docs/Troubleshootwindows6.1+(1).png)
+
+## Troubleshooting Postman Updates
+
+### Update failed error
+
+While updating the app there might be some issues due to which the user would see the following modal
+
+[![update-error-dialog][update-error-dialog]][update-error-dialog]
+
+You can find more details about the error from the DevTools. Open it from `View -> Developer -> Show DevTools (Current View)`. Following is a list of most common errors:
+
+- Error message: `Cannot update while running on a read-only volume`
+
+  Issue: User does not have write permission in the directory where Postman is installed
+
+  Resolution: Move Postman to a directory where the user has write permissions. We recommend moving Postman to `/Application` directory for Mac and to the home directory for Linux users.
+  
+  [![write-permission-issue][write-permission-issue]][write-permission-issue]
+
+- Error message: `Code signature at URL file:///... did not pass validation: code object is not signed at all"`
+
+  Issue: There are multiple updates running at the same time. This can happen when the app is opened before the previous update could finish
+
+  Resolution: Quit and reopen the app
+  
+  [![multiple-updates-running][multiple-updates-running]][multiple-updates-running]
+
+[write-permission-issue]: https://user-images.githubusercontent.com/5207331/66752338-d1050c80-eeae-11e9-9568-e20b030ee41d.png
+[multiple-updates-running]: https://user-images.githubusercontent.com/5207331/66752179-779cdd80-eeae-11e9-8514-30bb1f201452.png
+[update-error-dialog]: https://user-images.githubusercontent.com/5207331/66751141-f47a8800-eeab-11e9-8034-f268fbd2c674.png
+
+### Update button not available
+
+Users who have installed Postman using [Snap](https://snapcraft.io/postman) would see that there is no `Check for updates` button. This is because the updates are handled by Snap itself and it would automatically update Postman on a regular cadence. It you are on Postman v6, you would have to migrate your team to Postman v7 and then change the Snap channel to get the latest upadtes. For more information see [link]().
 
 ## Postman Chrome App
 
