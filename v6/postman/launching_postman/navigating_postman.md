@@ -57,7 +57,7 @@ Two consoles are available in Postman to see what's going on behind the scenes.
 
 Postman has its own console, which can be used to view all the HTTP requests and responses for the current session, along with any messages the user wants to log.
 
-**Note:** The new console comes with Postman app version 7.10 and later. Older version will **NOT** receive the new console. Also, once the app is updated to 7.10, is is **NOT** possible to revert.
+**Note:** The new console comes with Postman app version 7.10 and later. Older version will **NOT** receive the new console. Once the app is updated to 7.10, it is **NOT** possible to revert.
 
 The console can be opened in a number of ways:
 
@@ -198,11 +198,11 @@ Drag your mouse to select multiple rows.
 
 You can select and copy multiple rows and then paste them in a different places (such as 'params').
 
-[![select and copy multiple rows](https://assets.postman.com/postman-docs/WS-copy-paste-rows.gif)](https://assets.postman.com/postman-docs/WS-copy-paste-rows.gif)  
+[![select and copy multiple rows](https://assets.postman.com/postman-docs/WS-copy-paste-rows.gif)](https://assets.postman.com/postman-docs/WS-copy-paste-rows.gif)
 
 ### Front view of information
 
-You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.  
+You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.
 
 [![expand to show info](https://assets.postman.com/postman-docs/WS-front-view.gif)](https://assets.postman.com/postman-docs/WS-front-view.gif)
 

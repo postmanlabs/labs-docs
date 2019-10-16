@@ -46,7 +46,7 @@ In the "Set up the mock server" tab, you can fill in mock server specific inform
 4. Select the checkbox if you want to save the mock server URL as an environment variable
 5. Click "Next" to continue
 
-**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
+**Note**: The number of calls made to mock servers may be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
 
 In the Next steps tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
 
