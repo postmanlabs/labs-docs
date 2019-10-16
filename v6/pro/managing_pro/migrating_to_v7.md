@@ -75,5 +75,3 @@ Please use the following links to download the latest Postman v6 version for you
 sudo snap switch --channel=v6/stable postman
 sudo snap refresh postman
 ```
-
-**Note:** Once your team migrates to Postman v7, you would have to switch the channel back to `latest/stable`.
