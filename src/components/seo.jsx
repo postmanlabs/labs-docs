@@ -9,7 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
-import favicon from '../assets/favicon.ico';
+import favicon from '../images/favicon.ico';
 
 function SEO({
   description, lang, meta, title,
