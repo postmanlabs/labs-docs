@@ -4,55 +4,55 @@ page_id: "setting_up_mock"
 warning: false
 ---
 
-Before sending an actual request, front-end developers can create a mock server to simulate each endpoint and its corresponding response in a Postman Collection. Developers can view potential responses, without spinning up a back end.
+[Mock Servers](/docs/postman/mock_servers/intro_to_mock_servers) in Postman let you simulate APIs. You can create mock servers from the Postman app, from the web dasboard and using the Postman API. You will need a Postman account to set up a mock server.
 
-You can create a mock in several ways:
+Mocks in Postman are tied to a collection. Postman matches requests and generates responses for mocks from the Examples in the requests of a collection. You can create a mock server even if you don't have an existing collection.
+
+## In-app
+
+You can create a mock in several ways in the Postman app:
 
 * Using the **New** button
 * From the Launch screen
-* In the [Postman app using Examples](/docs/postman/mock_servers/mocking_with_examples/)
-* Using the [Postman API](/docs/postman/mock_servers/mock_with_api/)
+* Using [Examples in an existing collection](/docs/postman/mock_servers/mocking_with_examples)
 
-This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples/) or the [Postman API](/docs/postman/mock_servers/mock_with_api/), click the corresponding link for detailed information.
+### New button
 
-## New button
+The video below runs you through the step of creating a mock server from the "New" button in the Postman app.
 
-In the header toolbar, click the **New** button.
+![Mock creation flow using New button](https://assets.postman.com/postman-docs/mock-creation-app-cnx.gif)
 
-[![new button](https://assets.postman.com/postman-docs/Header_Toolbar_New.png)](https://assets.postman.com/postman-docs/Header_Toolbar_New.png)
+Here are the steps you need to follow:
 
-The Create New tab appears.
+![Start by clicking the New button](https://assets.postman.com/postman-docs/mock-cnx-new-button.png)
 
-[![create screen](https://assets.postman.com/postman-docs/Create_New_Tab_Updated.png)](https://assets.postman.com/postman-docs/Create_New_Tab_Updated.png)
+In the header toolbar, click the **New** button. It is located in the top-left of the Postman app. Click "Mock Server" in the "Create New" tab.
 
-**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the Create New tab to display each time you open Postman.
+![Choose "Mock Server" from the dialog box](https://assets.postman.com/postman-docs/mock-cnx-modal.png)
 
-Click "Mock Server".
+Select if you want to mock a new API or an existing collection. If you create a new API to mock, you have to select a request method and enter the request path, response code, and response body. If you use an existing collection to mock, you must select a collection from a list of existing or team collections.
 
-Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections.
-
-[![config mock](https://assets.postman.com/postman-docs/Create_New_Tab_Updated2.png)](https://assets.postman.com/postman-docs/Create_New_Tab_Updated2.png)
+![Set request path and response body](https://assets.postman.com/postman-docs/mock-cnx-config.png)
 
 After you select or create the request you want to mock, click the **Next** button.
 
-In the Configure mock server tab, you must:
+In the "Set up the mock server" tab, you can fill in mock server specific information:
 
-* Enter the name of the mock
-* Specify a version tag
-* Select an environment (optional).
-* Indicate if you want to make this mock server private
+![Set mock server configuration](https://assets.postman.com/postman-docs/mock-cnx-config-continued.png)
 
-**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
+1. Enter the name of the mock
+2. Select an environment (optional)
+3. Select the checkbox if you want to make the mock server private
+4. Select the checkbox if you want to save the mock server URL as an environment variable
+5. Click "Next" to continue
 
-[![configTab mock](https://assets.postman.com/postman-docs/Mock-Collection-Version1.png)](https://assets.postman.com/postman-docs/Mock-Collection-Version1.png)
-
-Click the **Create** button.
+**Note**: The number of calls made to mock servers may be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
 
 In the Next steps tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
 
-[![next mock](https://assets.postman.com/postman-docs/WS-next-steps.png)](https://assets.postman.com/postman-docs/WS-next-steps.png)
+![Next steps after mock is created](https://assets.postman.com/postman-docs/mock-cnx-next-steps.png)
 
-## Launch screen
+### Launch screen
 
 The "Create New" tab appears by default when you launch Postman.
 
@@ -60,9 +60,26 @@ Open the Postman app.
 
 In the "Create New" tab, click "Mock Server".
 
-Follow the steps in the previous **New** button section.
+Follow the steps in the previous section.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the Create New tab to display each time you open Postman.
+
+## In web dashboard
+
+You can create a mock server from the Web dashboard with existing collections and environments. To do that, login to your [Postman team dashboard](https://go.postman.co), navigate to your workspace by clicking on your workspace name. In the workspace dashboard, click on the "Mock servers" tab.
+
+![Mock servers web dashboard](https://assets.postman.com/postman-docs/mock-web-dashboard.png)
+
+Click on the button to create new mock server, and you will see the mock server configuration screen. Set the relevant configuration.
+
+![Mock servers web dashboard configuration](https://assets.postman.com/postman-docs/mock-web-config.png)
+
+1. Enter the name of the mock
+2. Select a collection to mock
+3. Select a version tag of the collection to use for the mock. Leave it to "CURRENT" if you want to the mock server to use the latest version of your collection
+4. Select an environment to use with the mock (optional)
+5. Select the checkbox if you want to make the mock server private
+6. Click "Create Mock Server" to create the mock and go back to the "Mock servers" dashboard
 
 ## Using HTTP access control for a mock
 

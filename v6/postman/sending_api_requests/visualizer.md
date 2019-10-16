@@ -95,7 +95,7 @@ The `pm.visualizer.set()` method takes three arguments:
 - `data`: The second argument is optional data that you can bind to the template. The properties of this object can be accessed in the template.
 - `options`: The third argument is an optional `options` object for [`Handlebars.compile()`](https://handlebarsjs.com/reference.html). You can use this to control how Handlebars compiles the template.
 
-Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in an `iframe` sandbox for Visualizer. You see this rendered HTML page inside the "Visualize" tab. The `layout` string goes into the `<body>` of this rendered page, including any JavaScript, CSS and HTML that the layout template may contain.
+Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for Visualizer. You see this rendered HTML page inside the "Visualize" tab. The `layout` string goes into the `<body>` of this rendered page, including any JavaScript, CSS and HTML that the layout template may contain.
 
 ### Using your own libraries
 
@@ -106,3 +106,9 @@ You can use any of the libraries in the Postman Sandbox to programmatically gene
 Any `<script>` elements inside the template can access the data that was passed in the second argument to `pm.visualizer.set()` by calling `pm.getData(callback)` method. This is only applicable to JavaScript code in the template. You will find it useful if your Visualizer template includes JavaScript to render a chart.
 
 The `pm.getData(callback)` method takes a callback function as its argument. This callback is called with two arguments: `error` and `data`. The second argument is the `data` that was passed to `pm.visualizer.set()`.
+
+## Debugging visualizers
+
+You can debug a visualization in Postman by right-clicking on the Visualizer area and clicking on "Inspect visualization". This opens up the Visualizer DevTools attached to the Visualizer sandbox. You can use it just like debugging any other web page.
+
+![Debugging Visualizers in Postman](https://assets.postman.com/postman-docs/visualizer-debugging.gif)

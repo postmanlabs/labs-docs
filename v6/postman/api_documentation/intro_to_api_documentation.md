@@ -51,6 +51,7 @@ Documentation for your API includes:
 * Sample requests, headers, and other metadata
 * Descriptions associated with requests, folders, and collections
 * Generated code snippets in some of the most popular programming languages
+* [Run in Postman button](/docs/postman_for_publishers/run_button/using_run_button)
 
 Postman uses ordered requests and folders to organize documentation in sections to reflect the structure of your collection.
 

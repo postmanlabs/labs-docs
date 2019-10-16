@@ -39,7 +39,7 @@ You do not have to perform any extra steps to use a client certificate if it has
 
 You can verify this. To do so, open up your Postman console (**CMD/CTRL + ALT + C**). You can read more about the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs/). A new window will open up.
 
-Now, send a request to [`https://echo.getpostman.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722), keeping the Postman Console open. Notice we’re using ``https`` to make sure the certificate is sent. Once the response arrives, switch over to the Postman console to see your request. If you expand your request, you will be able to see which certificate was sent along with the request.
+Now, send a request to [`https://echo.getpostman.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722). Keep the Postman Console open if Postman version is lower than `v7.10`. Notice we’re using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman console to see your request. If you expand your request, you will be able to see which certificate was sent along with the request.
 
 [![Postman console view](https://cloud.githubusercontent.com/assets/7689783/19721699/0ccdeada-9b91-11e6-98af-eb08f8e68f5b.png)](https://cloud.githubusercontent.com/assets/7689783/19721699/0ccdeada-9b91-11e6-98af-eb08f8e68f5b.png)
 
@@ -51,4 +51,4 @@ To remove a certificate, use the **Remove** link next to the certificate under 
 
 ## Editing a Certificate
 
-You cannot edit a certificate after it has been created. To make changes to it, you will need to remove the certificate and create a new one.  
+You cannot edit a certificate after it has been created. To make changes to it, you will need to remove the certificate and create a new one.
