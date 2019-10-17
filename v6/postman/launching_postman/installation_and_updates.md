@@ -57,7 +57,7 @@ Use the content below in the above file:
    1. If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman to run. Use the following command to install ```libgconf-2-4```:
 
     apt-get install libgconf-2-4
-  
+
 ## Supported Platforms
 
    This section describes the additional software and infrastructure you'll need to run Postman. Please review this info before installing Postman. You should only use Postman with a supported platform. Any platforms and versions not listed on this page are unsupported, which means we don't test, fix bugs or provide assistance.
@@ -131,7 +131,7 @@ It's simple. [Sign in to your Postman account](https://app.getpostman.com/) aft
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app.
 
-[![import data](https://assets.postman.com/postman-docs/WS-export-data-settings.png)](https://assets.postman.com/postman-docs/WS-export-data-settings.png)  
+[![import data](https://assets.postman.com/postman-docs/WS-export-data-settings.png)](https://assets.postman.com/postman-docs/WS-export-data-settings.png)
 
 ### Bulk export
 
@@ -155,7 +155,7 @@ You can also configure your preferences to enable automatic download for major u
 
 [![set automatic updates in settings](https://assets.postman.com/postman-docs/auto+update+enable.png)](https://assets.postman.com/postman-docs/auto+update+enable.png)
 
-## Troubleshooting Postman Installation & Updates
+## Troubleshooting Postman Installation
 
 ### "Windows protected your PC" warning
 
@@ -185,6 +185,40 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 [![step 2](https://assets.postman.com/postman-docs/Troubleshootwindows6.12.png)](https://assets.postman.com/postman-docs/Troubleshootwindows6.12.png)
 
 [![step 3](https://assets.postman.com/postman-docs/Troubleshootwindows6.1+(1).png)](https://assets.postman.com/postman-docs/Troubleshootwindows6.1+(1).png)
+
+## Troubleshooting Postman Updates
+
+### Update failed error
+
+While updating the app there might be some issues due to which the user would see the following modal.
+
+[![update error dialog][update-error-dialog]][update-error-dialog]
+
+You can find more details about the error from the DevTools. Open it from `View -> Developer -> Show DevTools (Current View)`. Following is a list of most common errors:
+
+* Error message: `Cannot update while running on a read-only volume`
+
+  Issue: User does not have write permission in the directory where Postman is installed
+
+  Resolution: Move Postman to a directory where the user has write permissions. We recommend moving Postman to `/Application` directory for Mac and to the home directory for Linux users.
+
+  [![write permission issue in DevTools][write-permission-issue]][write-permission-issue]
+
+* Error message: `Code signature at URL file:///... did not pass validation: code object is not signed at all"`
+
+  Issue: There are multiple updates running at the same time. This can happen when the app is opened before the previous update could finish
+
+  Resolution: Quit and reopen the app
+
+  [![multiple updates running issue in DevTools][multiple-updates-running]][multiple-updates-running]
+
+[update-error-dialog]: https://assets.postman.com/postman-docs/update-error-dialog.png
+[write-permission-issue]: https://assets.postman.com/postman-docs/write-permission-issue.png
+[multiple-updates-running]: https://assets.postman.com/postman-docs/multiple-updates-running.png
+
+### Update button not available
+
+If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', you would see that there is no `Check for updates` button. This is because the updates are handled by Snap itself and it would automatically update Postman on a regular cadence. It you are on Postman v6, you would have to migrate your team to Postman v7 and then change the Snap channel to get the latest updates. For more information see [Migrating to Postman v7](/docs/postman_pro/managing_postman_pro/migrating_to_v7).
 
 ## Postman Chrome App
 
