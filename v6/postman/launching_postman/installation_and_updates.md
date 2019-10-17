@@ -192,7 +192,7 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 
 While updating the app there might be some issues due to which the user would see the following modal.
 
-[![update-error-dialog][update-error-dialog]][update-error-dialog]
+[![update error dialog][update-error-dialog]][update-error-dialog]
 
 You can find more details about the error from the DevTools. Open it from `View -> Developer -> Show DevTools (Current View)`. Following is a list of most common errors:
 
@@ -202,7 +202,7 @@ You can find more details about the error from the DevTools. Open it from `View 
 
   Resolution: Move Postman to a directory where the user has write permissions. We recommend moving Postman to `/Application` directory for Mac and to the home directory for Linux users.
 
-  [![write-permission-issue][write-permission-issue]][write-permission-issue]
+  [![write permission issue in DevTools][write-permission-issue]][write-permission-issue]
 
 * Error message: `Code signature at URL file:///... did not pass validation: code object is not signed at all"`
 
@@ -210,11 +210,11 @@ You can find more details about the error from the DevTools. Open it from `View 
 
   Resolution: Quit and reopen the app
 
-  [![multiple-updates-running][multiple-updates-running]][multiple-updates-running]
+  [![multiple updates running issue in DevTools][multiple-updates-running]][multiple-updates-running]
 
-[write-permission-issue]: https://user-images.githubusercontent.com/5207331/66752338-d1050c80-eeae-11e9-9568-e20b030ee41d.png
-[multiple-updates-running]: https://user-images.githubusercontent.com/5207331/66752179-779cdd80-eeae-11e9-8514-30bb1f201452.png
-[update-error-dialog]: https://user-images.githubusercontent.com/5207331/66751141-f47a8800-eeab-11e9-8034-f268fbd2c674.png
+[update-error-dialog]: https://assets.postman.com/postman-docs/update-error-dialog.png
+[write-permission-issue]: https://assets.postman.com/postman-docs/write-permission-issue.png
+[multiple-updates-running]: https://assets.postman.com/postman-docs/multiple-updates-running.png
 
 ### Update button not available
 
