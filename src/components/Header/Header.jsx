@@ -21,7 +21,7 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isToggledOn: false,
+      isToggledOn: 'unset',
       hasInput: false,
       refresh: false,
     };
@@ -29,9 +29,16 @@ class Header extends React.Component {
 
   // toggles the hamburger menu
   toggleMenu = () => {
-    this.setState((state) => ({
-      isToggledOn: !state.isToggledOn,
-    }));
+    this.setState((state) => {
+      if (state.isToggledOn === 'unset') {
+        return ({
+          isToggledOn: true,
+        });
+      }
+      return ({
+        isToggledOn: !state.isToggledOn,
+      });
+    });
   }
 
   onClickOut = () => {
@@ -63,7 +70,14 @@ class Header extends React.Component {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <div className={`header__right-links justify-content-end navbar-nav mr-auto navbar-collapse collapse show ${isToggledOn ? 'animate-open' : 'animate-close'}`} id="navbarSupportedContent">
+        <div
+          className={`header__right-links justify-content-end navbar-nav mr-auto navbar-collapse collapse show
+            ${(isToggledOn && isToggledOn !== 'unset') ? 'animate-open' : ''}
+            ${(isToggledOn === false) ? 'animate-close' : ''}
+            ${isToggledOn === 'unset' ? 'closed' : ''}
+            `}
+          id="navbarSupportedContent"
+        >
           {/* Aloglia Widgets */}
           <div className="form-inline header__search">
             <ClickOutHandler onClickOut={this.onClickOut}>
