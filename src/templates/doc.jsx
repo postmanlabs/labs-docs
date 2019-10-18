@@ -14,7 +14,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={`${post.frontmatter.title} | Postman`} />
+      <SEO title={`${post.frontmatter.title} | Postman`} slug={post.fields.slug} />
       <div className="container-fluid">
         <div className="row row-eq-height">
           <div className="col-sm-3 left-nav">
@@ -44,6 +44,9 @@ export const query = graphql`
           name
           url
         }
+      }
+      fields {
+        slug
       }
     }
   }
