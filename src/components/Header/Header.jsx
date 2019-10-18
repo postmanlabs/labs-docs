@@ -72,7 +72,7 @@ class Header extends React.Component {
 
         <div
           className={`header__right-links justify-content-end navbar-nav mr-auto navbar-collapse collapse show
-            ${(isToggledOn && isToggledOn !== 'unset') ? 'animate-open' : ''}
+            ${(isToggledOn === true) ? 'animate-open' : ''}
             ${(isToggledOn === false) ? 'animate-close' : ''}
             ${isToggledOn === 'unset' ? 'closed' : ''}
             `}
