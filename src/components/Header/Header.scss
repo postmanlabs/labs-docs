@@ -35,6 +35,10 @@
       animation-name: closeMenu;
       animation-duration: 0.5s;  
     }
+    .closed {
+      overflow: hidden;
+      max-height: 0px;
+    }
   }
   .animate-open {
     overflow: hidden;
