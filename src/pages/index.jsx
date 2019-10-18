@@ -37,7 +37,7 @@ const landingBottomContent = {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Home" slug="/" />
     <section className="hero" style={HeroStyle}>
       <div className="row">
         <div className="col-md-4 offset-md-1">
