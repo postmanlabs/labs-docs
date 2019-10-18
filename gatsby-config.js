@@ -6,9 +6,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Postman v2 Learning Center',
+    title: 'Postman Learning Center',
     description: 'this is the v2 of the super cool postman learning center',
-    author: '@gatsbyjs',
+    author: 'Postman',
     siteUrl: 'https://learning.getpostman.com',
   },
   plugins: [

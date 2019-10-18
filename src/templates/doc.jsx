@@ -14,7 +14,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={`${post.frontmatter.title} | Postman`} slug={post.fields.slug} />
+      <SEO title={post.frontmatter.title} slug={post.fields.slug} />
       <div className="container-fluid">
         <div className="row row-eq-height">
           <div className="col-sm-3 left-nav">

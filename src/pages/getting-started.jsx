@@ -32,7 +32,7 @@ const labeledStyle = {
 
 const GettingStartedPage = () => (
   <Layout>
-    <SEO slug="/getting-started/" />
+    <SEO title="Getting Started" slug="/getting-started/" />
     <Hero title="Get Started with Postman" />
     <Slider />
 
