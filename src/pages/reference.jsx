@@ -8,7 +8,7 @@ import Line from '../components/MarketingPages/Line';
 
 const ReferencePage = () => (
   <Layout>
-    <SEO />
+    <SEO title="Reference" slug="/reference" />
     <div className="container-fluid">
       <Hero title="Reference" />
       <SmallCard title="Postman API" text="The Postman API allows you to programmatically access data stored in Postman account with ease. " href="https://github.com/postmanlabs/postman-runtime/" link="Learn More" />

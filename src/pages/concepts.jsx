@@ -17,7 +17,7 @@ import mockIcon from '../assets/concept/mock.svg';
 
 const ConceptPage = () => (
   <Layout>
-    <SEO />
+    <SEO title="Concepts" slug="/concepts/" />
 
     <Hero title=" Postman Concepts" text="Get easy, API-First solutions with the industry’s only Complete API Development Environment." />
     <IconCard
