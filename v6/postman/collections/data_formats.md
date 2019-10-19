@@ -70,49 +70,45 @@ A few commands which can be imported include:
 | `curl -X PUT --data-binary hello http://postman-echo.com/put`                                | Creates a POST request with raw data                                 |
 | `curl -X PUT --data-ascii 'a=b&c=d' http://postman-echo.com/put -H 'AccessToken:1234'`       | Creates a PUT request with urlencoded form data, and a custom header |
 
-## Importing RAML
+## Importing RAML/OpenAPI schema as collection or an API
 
-### Saving a RAML folder as a collection
+1. Click on the Import button.
+ [![import button](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)
+ Following modal shows up :
+  [![import sample](https://assets.postman.com/postman-docs/import+modal.png)](https://assets.postman.com/postman-docs/import+modal.png)
 
-1. Clone the repository containing the RAML definition to your local machine, or save it locally as a folder.
+2. Choose to import schema by file, folder, url or by copying as raw text.
+    > If multiple files are selected then schema can be imported only as [collection](/docs/postman/collections/intro_to_collections) and not as [APIs](/docs/postman/design_and_develop_apis/introduction_to_apis/) in Postman.
 
-2. Click on the Import button, and choose the Import Folder tab.
-   [![import button](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)
+3. Either the following screen is shown or a Postman collection is generated from the schema without any intermediate step:
+[![import-options]
+(https://assets.postman.com/postman-docs/import-options.png)] (https://assets.postman.com/postman-docs/import-options.png))
 
-3. Click on **Choose Files** and upload the RAML folder.
+4. Choose to **import as an API** or **generate a Postman collection** or both.
 
-You're done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
+If **import as an API** option is selected, a new API is created with the imported schema.
+You can define, develop, test and observe your real world APIs within the API created in Postman. This lets you collaborate on API first Development with your whole team.
 
-[![confirmation message](https://assets.postman.com/postman-docs/WS-data-format-raml-2a.png)](https://assets.postman.com/postman-docs/WS-data-format-raml-2a.png)
+If **generate a Postman collection** option is selected, a Postman collection from the imported schema is created. You can write tests and API documentation with collections.
 
-### Example RAML
+### Examples
 
+**RAML**
 Download an example RAML file: [github-api-v3.raml](https://assets.postman.com/postman-docs/github-api-v3.raml)
 
 **Note:** RAML 1.0 support is coming soon!
 
-## Importing OpenAPI
+**OpenAPI 2.0**
+Download an example OpenAPI 2.0 file:
+[petstore.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/yaml/petstore.yaml)
+[petstore.json]
+(https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/json/petstore.json)  
 
-An OpenAPI definition usually lives as a single file, so we only support imports of single OpenAPI files. If you have a lot of unrelated OpenAPI files in a folder, you can import those through the folder importer.
-
-### Saving an OpenAPI file as a collection
-
-1. Clone the repository containing the OpenAPI definition to your local machine. If you have it saved locally as file already, that's fine of course.
-
-1. Click on the Import button, and choose the Import File tab. If you have a lot of unrelated OpenAPI files in a folder, you can import those through the folder importer.
-   [![import button](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)
-
-1. Click on file and upload the OpenAPI file.
-
-You're done! Postman will detect all the OpenAPI definitions and convert them internally to Postman and then show you an import success message.
-
-[![confirmation message](https://assets.postman.com/postman-docs/WS-data-format-raml-2a.png)](https://assets.postman.com/postman-docs/WS-data-format-raml-2a.png)
-
-### OpenAPI files
-
-[OpenAPI 2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0)
-
-[OpenAPI 1.2](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample)
+**OpenAPI 3.0**
+Download an example OpenAPI 3.0 file:
+[api-with-examples.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/api-with-examples.yaml)
+[petstore.yaml]
+(https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml)
 
 ## Importing WADL
 
