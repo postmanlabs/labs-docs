@@ -3,6 +3,7 @@ import React from 'react';
 import './LeftNav.scss';
 
 const uuidv4 = require('uuid/v4');
+const replacements = require('./replacements.json');
 
 let slugs;
 
@@ -31,7 +32,7 @@ class ListItem extends React.Component {
   } // sets a given list item as active
 
   toggleActive = (e) => {
-    const title = e.target.textContent.replace(/ /g, '_');
+    const title = e.target.attributes.identifier.value;
     const { active } = this.state;
     const titleIndex = active.indexOf(title);
     if (titleIndex !== -1) {
@@ -80,8 +81,8 @@ class ListItem extends React.Component {
       >
         <li className={`parent${this.inUrl(`/${name}/`) ? ' currentUrl' : ''}`}>
           <img className={`caret${this.isActive(name) ? ' active-caret' : ''}`} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg==" alt="" />
-          <button type="button" onClick={this.toggleActive}>
-            {name.replace(/_/g, ' ')}
+          <button type="button" onClick={this.toggleActive} identifier={name}>
+            {replacements[name] ? replacements[name] : name.replace(/_/g, ' ')}
           </button>
         </li>
         <ListItem data={JSON.stringify(data)} />
