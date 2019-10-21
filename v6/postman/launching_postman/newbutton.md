@@ -12,6 +12,7 @@ You can use the **New** button to initiate:
 - [Monitors](#create-a-monitor)
 - [Documentation](#create-documentation)
 - [Mock_servers](#create-a-mock-server)
+- [APIs](#create-an-api)
 
 The **New** button also provides access to [templates](#templates) and the [API Network](#api-network).
 
@@ -31,7 +32,7 @@ You can create a new _Request, Collection, Environment, API Documentation, Mock 
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
-In **ADVANCED**, create new documentation, a mock server, or a monitor.
+In **ADVANCED**, create new documentation, a mock server, a monitor or an API.
 
 At the bottom of this window, you can select “Show this window at launch” to indicate whether you want the **Create New** tab to display each time you open Postman.
 
@@ -149,6 +150,18 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endp
 In the **Next steps** tab, see a list of suggested next steps to get the most out of your mock server.
 
 [![next mock](https://assets.postman.com/postman-docs/WS-mock-next-steps.png)](https://assets.postman.com/postman-docs/WS-mock-next-steps.png)
+
+## Create an API
+
+An API allows you to manage all aspects of API design, development, and testing from within Postman. You can create an API only when you are signed in and online.
+
+Note: Free users can create up to 3 APIs, Pro users up to 10, and Enterprise users up to 100.
+
+As soon as you click on 'API' under Advanced section, a new "Untitled API" is created for you in the current workspace.
+
+[![New API](https://assets.postman.com/postman-docs/WS-mock-next-steps.png)](https://assets.postman.com/postman-docs/WS-mock-next-steps.png)
+
+Look at the [API Workflow](https://learning.getpostman.com/docs/postman/design_and_develop_apis/the_api_workflow/) to get the most out of your API.
 
 ## Templates
 
