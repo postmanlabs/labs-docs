@@ -85,10 +85,10 @@ A few commands which can be imported include:
 3. The following modal allows you to **Import as an API** or **Generate a Postman Collection** or both.
 [![import-options](https://assets.postman.com/postman-docs/import-schema.png)](https://assets.postman.com/postman-docs/import-schema.png)
 
-  If **Import as an API** option is selected, a new [API](/docs/postman/design_and_develop_apis/introduction_to_apis/) with the imported schema is created.
+  If you select **Import as an API**, a new [API](/docs/postman/design_and_develop_apis/introduction_to_apis/) with the imported schema is created.
   You can define, develop, test and observe your real world APIs within the API created in Postman. This lets you collaborate on API first Development with your whole team.
 
-  If **Generate a Postman Collection** option is selected, a Postman [collection](/docs/postman/collections/intro_to_collections) from the imported schema is created. You can write tests and API documentation with collections.
+  If you select **Generate a Postman Collection**, a Postman [collection](/docs/postman/collections/intro_to_collections) from the imported schema is created. You can write tests and API documentation with collections.
 
 Note: If multiple files are selected then schema can be imported only as a collection and not as an API.
 
