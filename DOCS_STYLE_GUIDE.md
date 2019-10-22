@@ -263,9 +263,9 @@ In general, aim for the following structure:
 
 * An intro section outlining the purpose of the page and indicating / linking to any required knowledge
   * This might include a video in some cases
-* A main instructional section walking users through a series of generic steps showing how to carry out the task the page represents
-  * Subheadings should indicate the steps
-  * Images should illustrate key steps or configurations
+* A main instructional section walking users through a series of generic steps showing how to carry out whatever task the page represents
+  * Subheadings to indicate the steps
+  * Images to illustrate key steps or configurations
 * Any supplementary material, which will vary by topic but may include the following:
   * Any info about carrying out the task using the Postman API
   * Links to relevant collections / templates
