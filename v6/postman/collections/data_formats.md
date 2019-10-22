@@ -7,11 +7,15 @@ warning: false
 Postman can export and import collections, environments, globals and header presets as files and links. This topic covers:
 
 - [Exporting Postman data](#exporting-postman-data)
+  - [Collections](#collections)
+  - [Environments](#environments)
+  - [Data dumps](#data-dumps)
 - [Importing Postman data](#importing-postman-data)
 - [Importing cURL](#importing-curl)
-- [Importing RAML](#importing-raml)
-- [Importing OpenAPI](#importing-openapi)
+- [Importing RAML/OpenAPI schema](#importing-ramlopenapi-schema)
+  - [Examples](#examples)
 - [Importing WADL](#importing-wadl)
+  - [Example WADL file](#example-wadl-file)
 - [Validating Collection JSON files](#validating-collection-json-files)
 
 ## Exporting Postman data
@@ -70,26 +74,26 @@ A few commands which can be imported include:
 | `curl -X PUT --data-binary hello http://postman-echo.com/put`                                | Creates a POST request with raw data                                 |
 | `curl -X PUT --data-ascii 'a=b&c=d' http://postman-echo.com/put -H 'AccessToken:1234'`       | Creates a PUT request with urlencoded form data, and a custom header |
 
-## Importing RAML/OpenAPI schema as collection or an API
+## Importing RAML/OpenAPI schema
 
 1. Click on the Import button.
- [![import button](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)
+ [![import button](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)  
  Following modal shows up :
   [![import sample](https://assets.postman.com/postman-docs/import+modal.png)](https://assets.postman.com/postman-docs/import+modal.png)
 
 2. Choose to import schema by file, folder, url or by copying as raw text.
-    > If multiple files are selected then schema can be imported only as [collection](/docs/postman/collections/intro_to_collections) and not as [APIs](/docs/postman/design_and_develop_apis/introduction_to_apis/) in Postman.
+If multiple files are selected then schema can be imported only as [collection](/docs/postman/collections/intro_to_collections) and not as [APIs](/docs/postman/design_and_develop_apis/introduction_to_apis/) in Postman.
 
 3. Either the following screen is shown or a Postman collection is generated from the schema without any intermediate step:
 [![import-options]
-(https://assets.postman.com/postman-docs/import-options.png)] (https://assets.postman.com/postman-docs/import-options.png))
+(https://assets.postman.com/postman-docs/import-schema.png)] (https://assets.postman.com/postman-docs/import-schema.png))
 
-4. Choose to **import as an API** or **generate a Postman collection** or both.
+4. Choose to **Import as an API** or **Generate a Postman Collection** or both.
 
-If **import as an API** option is selected, a new API is created with the imported schema.
+If **Import as an API** option is selected, a new API with the imported schema is created.
 You can define, develop, test and observe your real world APIs within the API created in Postman. This lets you collaborate on API first Development with your whole team.
 
-If **generate a Postman collection** option is selected, a Postman collection from the imported schema is created. You can write tests and API documentation with collections.
+If **Generate a Postman Collection** option is selected, a Postman collection from the imported schema is created. You can write tests and API documentation with collections.
 
 ### Examples
 
@@ -97,18 +101,20 @@ If **generate a Postman collection** option is selected, a Postman collection fr
 Download an example RAML file: [github-api-v3.raml](https://assets.postman.com/postman-docs/github-api-v3.raml)
 
 **Note:** RAML 1.0 support is coming soon!
-
+  
 **OpenAPI 2.0**
 Download an example OpenAPI 2.0 file:
-[petstore.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/yaml/petstore.yaml)
-[petstore.json]
-(https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/json/petstore.json)  
 
+1. [petstore.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/yaml/petstore.yaml)
+   
+2. [petstore.json](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/json/petstore.json)  
+  
 **OpenAPI 3.0**
 Download an example OpenAPI 3.0 file:
-[api-with-examples.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/api-with-examples.yaml)
-[petstore.yaml]
-(https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml)
+
+1. [api-with-examples.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/api-with-examples.yaml)
+   
+2. [petstore.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml)
 
 ## Importing WADL
 
