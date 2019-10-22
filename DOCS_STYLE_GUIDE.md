@@ -34,6 +34,7 @@ The documentation in the [learning center](https://learning.getpostman.com/docs)
 ---
 
 :thumbsdown::no_entry_sign: Specify any request parameters you need to send.
+
 :thumbsup::white_check_mark: To specify parameters to send with your request, enter values either in the URL or the __Params__ editor.
 
 ---
@@ -43,6 +44,7 @@ Don't make time-specific references like "now," "soon," and "new." These are app
 ---
 
 :thumbsdown::no_entry_sign: You can now use GraphQL in Postman in addition to the existing options.
+
 :thumbsup::white_check_mark: You can use GraphQL queries in your Postman requests.
 
 ---
@@ -54,6 +56,7 @@ Try to phrase content positively where possible:
 ---
 
 :thumbsdown::no_entry_sign: You can't access private workspaces without a Postman Enterprise account.
+
 :thumbsup::white_check_mark: To access private workspaces, upgrade to Postman Enterprise.
 
 ---
@@ -67,6 +70,7 @@ Preserve subject-verb agreement—if a verb is modifying a singular noun, the ve
 ---
 
 :thumbsdown::no_entry_sign: Postman Collections are a group...
+
 :thumbsup::white_check_mark: Postman Collections are groups...
 
 ---
@@ -101,7 +105,9 @@ Try not to use language that readers might typically associate with marketing ma
 ---
 
 :thumbsdown::no_entry_sign: With the Postman Visualizer, you can create eye-catching presentations that power your API data communication strategy.
+
 :thumbsup::white_check_mark: You can create visualizations of responses in Postman to present your request data in graphical formats such as charts.
+
 :thumbsup::white_check_mark: To visualize your response data, add JavaScript to the __Tests__ code for the request...
 
 ---
@@ -113,6 +119,7 @@ Avoid genered words, including pronouns, but feel free to use "they" and "them,"
 ---
 
 :thumbsdown::no_entry_sign: If a user views the documentation he can copy and paste code snippets.
+
 :thumbsup::white_check_mark: Your users can try out requests by copying and pasting the code snippets that are included in your API documentation.
 
 ---
@@ -128,6 +135,7 @@ In general, use active voice and try not to use passive structures:
 ---
 
 :thumbsdown::no_entry_sign: The request can be run by clicking on the Send button.
+
 :thumbsup::white_check_mark: To run the request, click __Send__.
 
 ---
@@ -139,6 +147,7 @@ Help users to scan content, by indicating the purpose of a page, section, or sen
 ---
 
 :thumbsdown::no_entry_sign: Click __Tests__ and enter JavaScript code to carry out testing on your request response.
+
 :thumbsup::white_check_mark: To carry out tests on your request response, select __Tests__ and enter JavaScript code.
 
 ---
@@ -156,6 +165,7 @@ When using a list, everything that appears before it (before the colon) should b
 ---
 
 :thumbsdown::no_entry_sign: Your parameters can include:
+
 :thumbsup::white_check_mark: Your parameters can include any of the following options:
 
 ---
@@ -165,6 +175,7 @@ Use __bold__ to highlight names for parts of the software that the user interact
 ---
 
 :thumbsdown::no_entry_sign: Click on the send button
+
 :thumbsup::white_check_mark: Click __Send__
 
 ---
@@ -266,6 +277,7 @@ Use sentence case for headings and subheadings, only capitalizing the first word
 ---
 
 :thumbsdown::no_entry_sign: Sending API Requests
+
 :thumbsup::white_check_mark: Sending API requests
 
 ---
@@ -293,6 +305,7 @@ Use meaningful text for links, avoiding phrases such as "click here" when possib
 ---
 
 :thumbsdown::no_entry_sign: Click [here](https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/) for more details on scripts.
+
 :thumbsup::white_check_mark: For more on scripting in Postman, see [Intro to Scripts](https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/).
 
 ---
@@ -308,6 +321,7 @@ Don't display a raw URL in text, unless seeing the URL is essential to the learn
 ---
 
 :thumbsdown::no_entry_sign: Navigate to http://learning.getpostman.com
+
 :thumbsup::white_check_mark: Send a request to `https://postman-echo.com/get`
 
 ---
