@@ -114,7 +114,7 @@ Try not to use language that readers might typically associate with marketing ma
 
 Avoid terms like "easy," "simply," and "just." Everyone's experience is different, and we don't want anyone to feel they aren't learning quickly enough. :slightly_smiling_face:
 
-Avoid genered words, including pronouns, but feel free to use "they" and "them," and to address the user as "you." Choose pronouns carefully, especially in cases where it may not be clear what you're referring to—relative pronouns (such as "that" and "they") can help reduce ambiguity. Be mindful of pronoun choice when referring to the Postman user's users, for example a consumer of an API that a Postman user is publishing:
+Avoid gendered words, including pronouns, but feel free to use "they" and "them," and to address the user as "you." Choose pronouns carefully, especially in cases where it may not be clear what you're referring to—relative pronouns (such as "that" and "they") can help reduce ambiguity. Be mindful of pronoun choice when referring to the Postman user's users, for example a consumer of an API that a Postman user is publishing:
 
 ---
 
