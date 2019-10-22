@@ -22,6 +22,7 @@ We would love for you to contribute to the Learning Center! To contribute to thi
    $ npm install -g gatsby-cli
    $ npm run dev
 ```
+
 **NOTE:** this site was build with node v12.11.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.11.0.
 
 ## Project Structure
@@ -52,4 +53,3 @@ The built site will only host the most up-to-date docs. All legacy documentation
 ## License
 
 [Apache License 2.0](LICENSE)
-
