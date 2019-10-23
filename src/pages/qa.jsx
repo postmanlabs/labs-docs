@@ -105,7 +105,7 @@ const QaPage = () => (
             </div>
           </section>
         </TabPanel>
-      
+
       </Tabs>
     </section>
 

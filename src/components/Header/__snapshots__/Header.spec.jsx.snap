@@ -29,7 +29,11 @@ exports[`renders correctly 1`] = `
     />
   </button>
   <div
-    className="header__right-links justify-content-end navbar-nav mr-auto navbar-collapse collapse show animate-close"
+    className="header__right-links justify-content-end navbar-nav mr-auto navbar-collapse collapse show
+            
+            
+            closed
+            "
     id="navbarSupportedContent"
   >
     <div
