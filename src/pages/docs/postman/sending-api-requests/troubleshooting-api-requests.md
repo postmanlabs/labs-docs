@@ -1,6 +1,25 @@
 ---
 title: "Troubleshooting API requests"
 page_id: "troubleshooting_api_requests"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Tyk"
+    url: "https://www.getpostman.com/case-studies/Tyk.pdf?_ga=2.237637446.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Debugging a collection run"
+    url: "/docs/postman/collection-runs/debugging-a-collection-run/"
+
 warning: false
 
 ---

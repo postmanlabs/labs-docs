@@ -1,6 +1,35 @@
 ---
 title: "Syncing"
 page_id: "syncing"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Download and Install"
+    url: "https://getpostman.com/apps"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "HotelBeds"
+    url: "https://www.getpostman.com/case-studies/Hotelbeds.pdf?_ga=2.206719061.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to Postman Cloud"
+    url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Backup and Sync your Postman Collections on GitHub"
+    url: "https://blog.getpostman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/?_ga=2.128689354.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Sending the first request"
+    url: "/docs/postman/launching-postman/sending-the-first-request"
+
 warning: false
 
 ---

@@ -1,6 +1,25 @@
 ---
 title: "Settings"
 page_id: "settings"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Download and Install"
+    url: "https://getpostman.com/apps"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Speeding up workflows with keyboard shortcuts"
+    url: "https://blog.getpostman.com/2017/05/03/speeding-up-workflows-with-keyboard-shortcuts/?_ga=2.233131480.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Sending the first request"
+    url: "/docs/postman/launching-postman/sending-the-first-request/"
+
 warning: false
 
 ---

@@ -1,6 +1,30 @@
 ---
 title: "Responses"
 page_id: "responses"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to Postman Cloud"
+    url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Inspecting Postman Requests"
+    url: "https://blog.getpostman.com/2015/06/13/debugging-postman-requests/?_ga=2.128216138.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+
 warning: false
 
 ---

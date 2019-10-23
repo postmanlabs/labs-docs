@@ -1,6 +1,38 @@
 ---
 title: "Requests"
 page_id: "requests"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Download and Install"
+    url: "https://getpostman.com/apps"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Shopify"
+    url: "https://www.getpostman.com/case-studies/Shopify.pdf?_ga=2.226117084.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to Postman CLoud"
+    url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Debug API requests from mobile devices using Postman Proxy"
+    url: "https://blog.getpostman.com/2019/06/26/debug-api-requests-mobile-postman-proxy/?_ga=2.138111094.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "How to make money using Postman: chaining requests"
+    url: "https://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/?_ga=2.138111094.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+
 warning: false
 
 ---
