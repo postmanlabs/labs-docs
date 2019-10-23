@@ -12,6 +12,7 @@ You can use the **New** button to initiate:
 - [Monitors](#create-a-monitor)
 - [Documentation](#create-documentation)
 - [Mock_servers](#create-a-mock-server)
+- [APIs](#create-an-api)
 
 The **New** button also provides access to [templates](#templates) and the [API Network](#api-network).
 
@@ -19,23 +20,21 @@ The **New** button also provides access to [templates](#templates) and the [API 
 
 When you click the **New** button, the **Create New** tab appears as the default view.
 
-In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [templates](#templates) and [API Network](#api-network) sections.
+In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the [Templates](#templates) and [API Network](#api-network) sections.
 
-[![new_button](https://assets.postman.com/postman-docs/WS-createNew-newbutton-blk.png)](https://assets.postman.com/postman-docs/WS-createNew-newbutton-blk.png)
+[![new_button](https://assets.postman.com/postman-docs/cnx-modal.png)](https://assets.postman.com/postman-docs/cnx-modal.png)
 
 ## Create New
 
 You can create a new _Request, Collection, Environment, API Documentation, Mock Server, and Monitor_ using the **New** button. Alternatively, you can also directly create these when you click the down arrow at the right side of the **New** button, as illustrated below:
 
-[![new_button2](https://assets.postman.com/postman-docs/CreateNew_DropDown.png)](https://assets.postman.com/postman-docs/CreateNew_DropDown.png)
+[![new_button2](https://assets.postman.com/postman-docs/cnx-dropdown.png)](https://assets.postman.com/postman-docs/cnx-dropdown.png)
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
-In **ADVANCED**, create new documentation, a mock server, or a monitor.
+In **ADVANCED**, create new documentation, a mock server, a monitor or a new API.
 
 At the bottom of this window, you can select “Show this window at launch” to indicate whether you want the **Create New** tab to display each time you open Postman.
-
-[![new_button](https://assets.postman.com/postman-docs/WS-new-button-menu-blk.png)](https://assets.postman.com/postman-docs/WS-new-button-menu-blk.png)
 
 ## Create a request
 
@@ -149,6 +148,18 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endp
 In the **Next steps** tab, see a list of suggested next steps to get the most out of your mock server.
 
 [![next mock](https://assets.postman.com/postman-docs/WS-mock-next-steps.png)](https://assets.postman.com/postman-docs/WS-mock-next-steps.png)
+
+## Create an API
+
+An API allows you to manage all aspects of API design, development, and testing from within Postman. APIs can only be created if you are signed in to Postman and online.
+
+Note: Free users can create up to 3 APIs, Pro users up to 10, and Enterprise users up to 100.
+
+As soon as you click on 'API' under Advanced section, a new "Untitled API" is created for you in the current workspace.
+
+[![New API](https://assets.postman.com/postman-docs/new-api.png)](https://assets.postman.com/postman-docs/new-api.png)
+
+Look at the [API Workflow](https://learning.getpostman.com/docs/postman/design_and_develop_apis/the_api_workflow/) to get the most out of your API.
 
 ## Templates
 
