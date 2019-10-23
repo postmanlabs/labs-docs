@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import React from 'react';
+import React, { Component } from 'react';
 import './Header.scss';
 import algoliasearch from 'algoliasearch/lite';
 import {
@@ -16,16 +16,38 @@ const ClickOutHandler = require('react-onclickout');
 
 const searchClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04b0');
 
+// changes button in navbar based on cookie presence
+const LoginCheck = (props) => {
+  if (props !== 'getpostmanlogin') {
+    return (
+      <a href="/" className="v5_btn v5_btn__primary">Login</a>
+    );
+  }
+  return (
+    <a href="/" className="v5_btn v5_btn__primary">Dashboard</a>
+  );
+};
 
 class Header extends React.Component {
   constructor(props) {
     super(props);
+
+    this.getCookie = this.getCookie.bind(this);
+
     this.state = {
       isToggledOn: 'unset',
       hasInput: false,
       refresh: false,
     };
   }
+
+  getCookie = (a) => {
+    if (typeof document !== 'undefined') {
+      const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
+      return b ? b.pop() : '';
+    }
+    return false;
+  };
 
   // toggles the hamburger menu
   toggleMenu = () => {
@@ -41,6 +63,7 @@ class Header extends React.Component {
     });
   }
 
+  // click out search results box
   onClickOut = () => {
     document.getElementsByClassName('ais-SearchBox-input')[0].value = '';
     this.setState(() => ({
@@ -112,7 +135,7 @@ class Header extends React.Component {
           </div>
           {HeaderJson.links.map((link) => (
             <div className="nav-item" key={link.name}>
-              <DynamicLink className={`${link.cta ? 'v5_btn v5_btn__primary' : 'nav-link'}`} url={link.url} name={link.name} />
+              {link.cta ? <LoginCheck cookie={this.getCookie('getpostmanlogin')} /> : <DynamicLink className="nav-link" url={link.url} name={link.name} />}
             </div>
           ))}
         </div>
