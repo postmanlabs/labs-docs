@@ -110,7 +110,7 @@ const GettingStartedPage = () => (
           title="From Our Docs"
           description="Use the Postman sandbox to run tests and control your workflow."
           cta="Read the Docs"
-          ctaLink="https://learning.getpostman.com/docs/postman/scripts/postman_sandbox_api_reference/"
+          ctaLink="https://learning.getpostman.com/docs/postman/scripts/postman-sandbox-api-reference/"
         />
       </div>
     </section>
