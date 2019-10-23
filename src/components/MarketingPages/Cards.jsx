@@ -124,3 +124,21 @@ export const SecondaryCard = ({
     <a className="v5_btn v5_btn__secondary-light" href={ctaLink}>{cta}</a>
   </div>
 );
+
+export const TransparentCard = ({ icon, title, text }) => (
+  <div className="transparent-card">
+    <img src={icon} alt="icon" />
+    <h3>{title}</h3>
+    <p>{text}</p>
+  </div>
+);
+
+// this card has been removed from page, keeping code for future reference
+export const QaCard = ({ title, content, cta }) => (
+  <div className="qa-card">
+    <a href={cta}>
+      <h2>{title}</h2>
+      <p>{content}</p>
+    </a>
+  </div>
+);
