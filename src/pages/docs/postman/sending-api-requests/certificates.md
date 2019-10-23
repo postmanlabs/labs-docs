@@ -1,6 +1,20 @@
 ---
 title: "Certificates"
 page_id: "certificates"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Settings"
+    url: "/docs/postman/launching-postman/settings/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Set and view SSL certificates with Postman"
+    url: "https://blog.getpostman.com/2017/12/05/set-and-view-ssl-certificates-with-postman/?_ga=2.204162902.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---

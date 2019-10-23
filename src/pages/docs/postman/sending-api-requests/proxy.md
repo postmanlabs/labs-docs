@@ -1,6 +1,20 @@
 ---
 title: "Proxy"
 page_id: "proxy"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Settings"
+    url: "/docs/postman/launching-postman/settings/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Client proxy settings in Postman"
+    url: "https://blog.getpostman.com/2017/09/29/client-proxy-settings-in-postman/?_ga=2.206717013.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---

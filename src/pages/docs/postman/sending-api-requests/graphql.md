@@ -1,6 +1,25 @@
 ---
 title: "Using GraphQL"
 page_id: "graphql"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Installation and updates"
+    url: "/docs/postman/launching-postman/installation-and-updates/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Postman v7.2 Supports GraphQL"
+    url: "https://blog.getpostman.com/2019/06/18/postman-v7-2-supports-graphql/?_ga=2.224667868.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+
 warning: false
 
 ---

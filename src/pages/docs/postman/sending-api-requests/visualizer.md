@@ -1,6 +1,23 @@
 ---
 title: "Visualize API responses"
 page_id: "visualizer"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Responses"
+    url: "/docs/postman/sending-api-requests/responses/"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Visualizer demo"
+    url: "https://www.youtube.com/watch?v=Qj7j3QsY2ok"
+
 ---
 
 Postman provides a programmable way to visually represent [HTTP responses](/docs/postman/sending-api-requests/responses/) in the "Visualizer" tab inside the response body area. Visualizers open up a whole new way to look at response body beyond the Pretty, Raw and Preview options in Postman.

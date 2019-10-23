@@ -1,6 +1,20 @@
 ---
 title: "Cookies"
 page_id: "cookies"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Settings"
+    url: "https://learning.getpostman.com/docs/postman/launching_postman/settings"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Using the Interceptor to read and write cookies"
+    url: "https://blog.getpostman.com/2014/11/28/using-the-interceptor-to-read-and-write-cookies/?_ga=2.202728535.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---

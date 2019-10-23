@@ -1,6 +1,33 @@
 ---
 title: "Sharing collections"
 page_id: "sharing_collections"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Healthwise"
+    url: "https://www.getpostman.com/case-studies/healthwise.pdf?_ga=2.200953064.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Sharing Postman Collections"
+    url: "https://www.youtube.com/watch?v=KMLaibEaf7Y"
+  - type: link
+    name: "How to Share Postman Collections"
+    url: "https://www.youtube.com/watch?v=mVTsK6ZdY6c"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to Workspaces"
+    url: "/docs/postman/workspaces/intro-to-workspaces/"
+
 warning: false
 
 ---

@@ -1,6 +1,41 @@
 ---
 title: "Creating collections"
 page_id: "creating_collections"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Raygun"
+    url: "https://www.getpostman.com/case-studies/raygun.pdf?_ga=2.170542182.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "BetterCloud"
+    url: "https://www.getpostman.com/case-studies/BetterCloud.pdf?_ga=2.194292587.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to Postman & Postman Collections"
+    url: "https://www.youtube.com/watch?v=ptvV_Fc3hd8"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Keep track of GitHub issues using a Postman collection"
+    url: "https://blog.getpostman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/?_ga=2.164833401.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Multi-level folders and folder reordering"
+    url: "https://blog.getpostman.com/2017/05/19/multi-level-folders-and-folder-reordering/?_ga=2.133907912.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collection runs"
+    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+
 warning: false
 
 ---
