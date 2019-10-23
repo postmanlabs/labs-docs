@@ -2,6 +2,24 @@
 title: "Installation and updates"
 page_id: "installation_and_updates"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Download and Install"
+    url: "https://getpostman.com/apps"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "First 5 things to try if you're new to Postman"
+    url: "https://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Sending the first request"
+    url: "/docs/postman/launching-postman/sending-the-first-request"
 
 ---
 

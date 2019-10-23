@@ -1,6 +1,35 @@
 ---
 title: "Creating the first collection"
 page_id: "creating_the_first_collection"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Download and Install"
+    url: "https://getpostman.com/apps"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Spotinst"
+    url: "https://www.getpostman.com/case-studies/spotinst.pdf?_ga=2.229327706.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to Postman Cloud"
+    url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "The Good Collection"
+    url: "https://blog.getpostman.com/2018/03/08/the-good-collection/?_ga=2.160606075.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Sending the first request"
+    url: "https://learning.getpostman.com/docs/postman/launching_postman/sending_the_first_request"
+
 warning: false
 ---
 

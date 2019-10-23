@@ -13,6 +13,13 @@ const ContextualLinks = ({ links }) => (
             </div>
           );
         }
+        if (item.type === 'subtitle') {
+          return (
+            <div className="contextual-links__subtitle" key={item.name}>
+              {item.name}
+            </div>
+          );
+        }
         return (
           <div className="contextual-links__section" key={Math.random()}>{item.name}</div>
         );

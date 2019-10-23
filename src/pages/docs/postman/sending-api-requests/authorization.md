@@ -1,6 +1,42 @@
 ---
 title: "Authorization"
 page_id: "authorization"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Intuit"
+    url: "https://www.getpostman.com/case-studies/Intuit.pdf?_ga=2.199066473.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "BetterCloud"
+    url: "https://www.getpostman.com/case-studies/BetterCloud.pdf?_ga=2.199066473.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "New to Postman Part 2: authorizing a request"
+    url: "https://www.youtube.com/watch?v=d519r1stILE"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Generate Spotify Playlists using a Postman COllection"
+    url: "https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/?_ga=2.227822043.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Keep it DRY with collection and folder elements"
+    url: "https://blog.getpostman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.195252074.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Postman makes authorization stronger and easier"
+    url: "https://blog.getpostman.com/2017/11/04/postman-makes-authorization-stronger-and-easier/?_ga=2.195252074.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Audit your AWS insfrastructure with Postman"
+    url: "https://blog.getpostman.com/2017/12/19/audit-your-aws-infrastructure-with-postman/?_ga=2.195252074.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---

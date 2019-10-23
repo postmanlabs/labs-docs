@@ -6,14 +6,19 @@
   border-top: 5px solid $postman-orange;
   
   .contextual-links__section {
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 8px;
     font-size: 16px;
     font-weight: 600;
     color: black;
   }
   .contextual-links__link {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
+  }
+
+  .contextual-links__subtitle {
+    color: $gray-2;
+    font-size: 14px;
   }
 
   a {
