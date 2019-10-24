@@ -4,7 +4,12 @@ page_id: "dropbox"
 tags: 
   - "pro"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
 ---
 
 Backup and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration.  The Postman Pro to Dropbox integration seamlessly complements your existing workflows and allows you to store your Postman Collections and other project files in one place.

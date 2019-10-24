@@ -4,6 +4,15 @@ page_id: "victorops"
 tags: 
   - "pro"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+  - type: link
+    name: "Intro to Monitoring"
+    url: "https://learning.getpostman.com/docs/postman/monitors/intro-monitors"
 ---
 
 VictorOps is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one.

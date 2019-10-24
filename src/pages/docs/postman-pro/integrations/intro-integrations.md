@@ -4,7 +4,19 @@ page_id: "intro_integrations"
 tags: 
   - "pro"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "The Importance of 3rd Party Integrations for Postman Pro"
+    url: "https://blog.getpostman.com/2017/03/21/the-importance-of-3rd-party-integrations-for-postman-pro/?_ga=2.176567845.1078379737.1571761632-963694147.1565912089"
 ---
 
 Postman provides a strong API development toolchain that integrates seamlessly with the developer's workflow.

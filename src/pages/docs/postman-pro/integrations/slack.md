@@ -4,7 +4,27 @@ page_id: "slack"
 tags: 
   - "pro"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Updated: Using Variables in Postman Requests & Collections"
+    url: "https://www.youtube.com/watch?v=X_CEYzhjCnI&t=24s"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Introducing a New Integration: Postman Pro + Slack!"
+    url: "https://blog.getpostman.com/2017/02/08/introducing-a-new-integration-postman-pro-slack/?_ga=2.137777456.1078379737.1571761632-963694147.1565912089"
+  - type: link
+    name: "Librarian: building a serverless slack app using Postman and Airtable"
+    url: "https://blog.getpostman.com/2017/12/21/librarian-building-a-serverless-slack-app-using-postman-and-airtable/?_ga=2.137777456.1078379737.1571761632-963694147.1565912089"
 ---
 
 The Postman Pro to Slack integration enables you to receive notifications for the Team Activity Feed, Postman Search, and Monitor Run Results.

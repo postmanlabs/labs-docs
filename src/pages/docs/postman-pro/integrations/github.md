@@ -4,7 +4,22 @@ page_id: "github"
 tags: 
   - "pro"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog posts"
+  - type: link
+    name: "The Importance of 3rd Party Integrations for Postman Pro"
+    url: "https://blog.getpostman.com/2017/03/21/the-importance-of-3rd-party-integrations-for-postman-pro/?_ga=2.184833577.1078379737.1571761632-963694147.1565912089"
+  - type: link
+    name: "Backup and Sync your Postman Collections on GitHub"
+    url: "https://blog.getpostman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/?_ga=2.184833577.1078379737.1571761632-963694147.1565912089"
 ---
 
 Back up and synchronize your Postman Collections on GitHub (the largest host of source code in the world) and on any of your custom GitHub domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitHub Integration.
