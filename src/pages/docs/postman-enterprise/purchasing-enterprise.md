@@ -4,6 +4,12 @@ page_id: "purchasing_enterprise"
 tags: 
   - "enterprise"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Installation and updates"
+    url: "https://learning.getpostman.com/docs/postman/launching-postman/installation-and-updates"
 ---
 
 The instructions below are for paying via credit card. If you need to pay via purchase order, contact our [Enterprise support team](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html).

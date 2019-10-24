@@ -4,6 +4,19 @@ page_id: "intro_to_enterprise"
 tags: 
   - "enterprise"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Installation and updates"
+    url: "https://learning.getpostman.com/docs/postman/launching-postman/installation-and-updates"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Announcing Postman Enterprise!"
+    url: "https://blog.getpostman.com/2018/03/16/announcing-postman-enterprise/?_ga=2.113717767.1078379737.1571761632-963694147.1565912089"
 ---
 
 Postman helps Enterprise users build an API development workflow that monitors the health and status of APIs, produces quality documentation, connects to third party tools for API development, and implements an agile process to test APIs.

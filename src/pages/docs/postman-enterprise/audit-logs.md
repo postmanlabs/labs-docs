@@ -4,6 +4,22 @@ page_id: "audit_logs"
 tags: 
   - "enterprise"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to Workspaces"
+    url: "https://learning.getpostman.com/docs/postman/workspaces/intro-to-workspaces"
+  - type: link
+    name: "Managing yout team"
+    url: "https://learning.getpostman.com/docs/postman-pro/managing-postman-pro/managing-your-team"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Use audit logs to better manage your Enterprise team"
+    url: "https://blog.getpostman.com/2018/03/21/use-audit-logs-to-better-manage-your-enterprise-team/?_ga=2.184352038.1078379737.1571761632-963694147.1565912089"
 ---
 
 Audit logs is an Enterprise-only feature that lists important team events. An admin can review audit logs to determine:

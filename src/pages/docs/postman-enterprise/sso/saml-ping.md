@@ -4,6 +4,12 @@ page_id: "saml_ping"
 tags: 
   - "enterprise"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to Enterprise"
+    url: "https://learning.getpostman.com/docs/postman-enterprise/intro-to-enterprise"
 ---
 
 *Note: only an admin of your Ping Identity organization can create the application.*

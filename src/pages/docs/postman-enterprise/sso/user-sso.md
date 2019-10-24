@@ -4,6 +4,12 @@ page_id: "user_sso"
 tags: 
   - "enterprise"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to Enterprise"
+    url: "https://learning.getpostman.com/docs/postman-enterprise/intro-to-enterprise"
 ---
 
 After a team admin has enabled single sign-on (**SSO**) for Postman, users can log in to Postman with a configured Identity provider in two ways:
