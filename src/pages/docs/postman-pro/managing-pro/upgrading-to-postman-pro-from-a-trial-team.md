@@ -4,6 +4,12 @@ page_id: "upgrading_to_pro"
 tags: 
   - "pro"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "What is Postman Pro"
+    url: "https://learning.getpostman.com/docs/postman-pro/what-is-pro"
 ---
 
  You can upgrade to a monthly or annual subscription if you would like to leverage full power of Postman.

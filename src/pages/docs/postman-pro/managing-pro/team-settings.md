@@ -4,6 +4,14 @@ page_id: "team_settings"
 tags: 
   - "pro"
 warning: false
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Custom team URLs for Pro and Enterprise"
+    url: "https://blog.getpostman.com/2017/06/06/custom-team-urls-for-pro-and-enterprise/?_ga=2.175634722.1078379737.1571761632-963694147.1565912089"
 
 ---
 

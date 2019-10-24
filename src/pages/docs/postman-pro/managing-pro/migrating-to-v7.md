@@ -2,6 +2,31 @@
 title: "Migrating to Postman v7"
 page_id: "migrating_to_v7"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Installation and updates"
+    url: "https://learning.getpostman.com/docs/postman/launching-postman/installation-and-updates/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Postman v7.2 Supports GraphQL"
+    url: "https://blog.getpostman.com/2019/06/18/postman-v7-2-supports-graphql/?_ga=2.171965984.1078379737.1571761632-963694147.1565912089"
+  - type: link
+    name: "Introducing Interceptor Integration for Native Postman Apps (v7.2)"
+    url: "https://blog.getpostman.com/2019/06/24/introducing-interceptor-integration-for-native-postman-apps/?_ga=2.171965984.1078379737.1571761632-963694147.1565912089"
+  - type: link
+    name: "Postman 7.1: Create APIs directly within the Postman App"
+    url: "https://blog.getpostman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/?_ga=2.184358566.1078379737.1571761632-963694147.1565912089"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to Integrations"
+    url: "https://learning.getpostman.com/docs/postman-pro/integrations/intro-integrations/"
+
 ---
 
 This section describes the steps/flow to migrate to Postman v7.
