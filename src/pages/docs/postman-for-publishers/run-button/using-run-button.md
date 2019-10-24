@@ -2,7 +2,29 @@
 title: "Using the Run in Postman button"
 page_id: "using_run_button"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API documentation with Postman"
+    url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Wondering About Air Quality? Postman Can Help."
+    url: "https://blog.getpostman.com/2017/10/14/wondering-about-air-quality-postman-can-help/?_ga=2.113119748.1078379737.1571761632-963694147.1565912089"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to API documentation"
+    url: "https://learning.getpostman.com/docs/postman/api-documentation/intro-to-api-documentation"
 ---
 
 ### Developer experience with Run in Postman

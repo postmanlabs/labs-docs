@@ -2,6 +2,37 @@
 title: "Creating the Run in Postman button"
 page_id: "creating_run_button"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Intuit"
+    url: "https://www.getpostman.com/case-studies/Intuit.pdf?_ga=2.79509908.1078379737.1571761632-963694147.1565912089"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API documentation with Postman"
+    url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Square simplifies API docs with the Run in Postman button"
+    url: "https://blog.getpostman.com/2017/07/21/square-simplifies-api-docs-with-the-run-in-postman-button/?_ga=2.168778017.1078379737.1571761632-963694147.1565912089"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to API documentation"
+    url: "https://learning.getpostman.com/docs/postman/api-documentation/intro-to-api-documentation"
+  - type: link
+    name: "Intro to environments and globals"
+    url: "https://learning.getpostman.com/docs/postman/environments_and_globals/intro_to_environments_and_globals"
 
 ---
 

@@ -2,7 +2,34 @@
 title: "Public API documentation"
 page_id: "public_api_docs"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Publishing public docs"
+    url: "https://learning.getpostman.com/docs/postman/api-documentation/publishing-public-docs"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Imgur"
+    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.172782883.1078379737.1571761632-963694147.1565912089"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API documentation with Postman"
+    url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Announcing the Postman API Network"
+    url: "https://blog.getpostman.com/2017/12/15/announcing-the-postman-api-network/?_ga=2.105714307.1078379737.1571761632-963694147.1565912089"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Creating the Run in Postman button"
+    url: "https://learning.getpostman.com/docs/postman-for-publishers/run-button/creating-run-button"
 ---
 API publishers require public API documentation and require easy-to-read examples and specifications. Postman publishes [our own API documentation](http://docs.api.getpostman.com) using Postman's documentation. Developers rely on this documentation for learning about the service, implementing their integrations, and debugging. Learn [how to publish your own public docs](/docs/postman/api-documentation/publishing-public-docs/).
 

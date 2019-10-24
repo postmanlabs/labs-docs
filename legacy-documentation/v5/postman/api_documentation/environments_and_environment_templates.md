@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-You can access environments and environment templates in your private and public API documentation. 
+You can access environments and environment templates in your private and public API documentation.
 
 Selecting an environment in private or public documentation assigns those environment variables within the documentation. For example, if you select an environment that has a `foo` variable with the value `bar`, then all occurrences of {{foo}} in the request will be replaced with `bar` within the documentation.
 
@@ -13,7 +13,7 @@ Environments and environment templates are automatically synced. In addition, th
 
 #### Environments in private documentation
 
-The environments drop down menu contains all of your environments and environment templates. 
+The environments drop down menu contains all of your environments and environment templates.
 
 All of your environments and environment templates will be available to you with environment templates that are shared in your Team Library.
 
@@ -26,4 +26,3 @@ An environment template you select while publishing documentation will be availa
 If your public documentation is published on a custom domain, only the environment template will be available in the published page, even if the user is signed into their Postman account.
 
 [![environmnets dropdown for public documentation](https://assets.postman.com/postman-docs/docs-public-environMenu010718.png)](https://assets.postman.com/postman-docs/docs-public-environMenu010718.png)
-
