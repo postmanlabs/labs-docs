@@ -28,5 +28,8 @@
     color: $postman-orange;
     font-size: 14px;
     text-decoration: none;
+    &:hover {
+      color: $gray-3;
+    }
   }
 }
