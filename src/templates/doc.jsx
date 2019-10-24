@@ -20,11 +20,11 @@ export default ({ data }) => {
           <div className="col-sm-3 left-nav">
             <LeftNav />
           </div>
-          <div className="col-sm-7 doc-page">
+          <div className="col-sm-6 doc-page">
             <h1>{post.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
-          <div className="col-sm-2">
+          <div className="col-sm-3">
             {contextualLinks}
           </div>
         </div>
