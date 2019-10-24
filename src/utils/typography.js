@@ -4,16 +4,10 @@ const typography = new Typography({
   baseFontSize: '18px',
   baseLineHeight: 1.666,
   headerFontFamily: [
-    'Open Sans',
-    'Segoe UI',
-    'Tahoma',
-    'sans-serif',
+    'Roboto',
   ],
   bodyFontFamily: [
-    'Open Sans',
-    'Segoe UI',
-    'Tahoma',
-    'sans-serif',
+    'Roboto',
   ],
 });
 

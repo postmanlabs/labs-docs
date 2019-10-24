@@ -1,0 +1,12 @@
+@import '../components/Shared/variables';
+
+.doc-page {
+  padding: 15px;
+    a {
+      color: $postman-orange;
+      text-decoration: none;
+      &:hover {
+        color: $gray-3;
+      }
+  }
+}
