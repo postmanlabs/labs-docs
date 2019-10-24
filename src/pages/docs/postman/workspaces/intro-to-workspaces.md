@@ -1,6 +1,38 @@
 ---
 title: "Intro to Workspaces"
 page_id: "intro_to_workspaces"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Eureka"
+    url: "http://blog.getpostman.com/2018/03/27/the-eureka-team-counts-on-postman-pro-to-stay-in-sync/?_ga=2.196755690.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Team collaboration with Postman"
+    url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Workspaces! What are they good for?"
+    url: "https://blog.getpostman.com/2018/04/07/workspaces-the-biggest-thing-to-hit-postman-this-month/?_ga=2.195906026.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to environments and globals"
+    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+
 warning: false
 ---
 

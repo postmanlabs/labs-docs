@@ -1,6 +1,33 @@
 ---
 title: "Continuous Integration"
 page_id: "continuous_integration"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: link
+    name: "Command line integration with Newman"
+    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Sikka"
+    url: "https://www.getpostman.com/case-studies/Sikka.pdf?_ga=2.205138390.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Continuous Testing of APIs"
+    url: "https://medium.com/better-practices/continuous-testing-of-apis-5294552d65ce"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+
 warning: false
 ---
 

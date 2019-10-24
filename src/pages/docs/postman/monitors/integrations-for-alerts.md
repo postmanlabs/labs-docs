@@ -1,6 +1,13 @@
 ---
 title: "Set up integrations to receive alerts"
 page_id: "integrations_for_alerts"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "What is Postman Pro"
+    url: "/docs/postman-pro/what-is-pro/"
+
 tags: 
   - "pro"
   - "enterprise"

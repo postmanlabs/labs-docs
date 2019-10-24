@@ -1,6 +1,30 @@
 ---
 title: "Monitoring APIs and websites"
 page_id: "monitoring_apis_websites"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to Monitoring"
+    url: "/docs/postman/monitors/intro-monitors/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "HarperDB"
+    url: "https://www.getpostman.com/case-studies/harperDB.pdf?_ga=2.128789322.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API mentoring with Postman"
+    url: "https://www.youtube.com/watch?v=3nOP_TYTuA8"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collection runs"
+    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+
 warning: false
 ---
 

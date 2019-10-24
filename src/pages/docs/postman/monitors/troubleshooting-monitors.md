@@ -1,6 +1,18 @@
 ---
 title: "Troubleshooting monitors"
 page_id: "troubleshooting_monitors"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to Monitoring"
+    url: "/docs/postman/monitors/intro-monitors/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Debugging and logs"
+    url: "/docs/postman/sending-api-requests/debugging-and-logs/"
+
 warning: false
 ---
 

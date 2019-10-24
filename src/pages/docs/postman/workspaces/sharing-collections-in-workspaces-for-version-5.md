@@ -1,6 +1,21 @@
 ---
 title: "Sharing collections in Workspaces for version 5"
 page_id: "sharing_collections_in_workspaces_for_version_5"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: link
+    name: "Sharing collections"
+    url: "/docs/postman/collections/sharing-collections/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to Workspaces"
+    url: "/docs/postman/workspaces/intro-to-workspaces/"
+
 warning: false
 ---
 
