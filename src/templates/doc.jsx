@@ -17,10 +17,10 @@ export default ({ data }) => {
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
       <div className="container-fluid">
         <div className="row row-eq-height">
-          <div className="col-sm-3 left-nav">
+          <div className="col-sm-12 col-md-4 col-lg-3 left-nav left-nav">
             <LeftNav />
           </div>
-          <div className="col-sm-6 doc-page">
+          <div className="col-sm-12 col-md-6 doc-page">
             <h1>{post.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
