@@ -2,7 +2,17 @@
 title: "Security considerations"
 page_id: "security"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to API documentation"
+    url: "https://learning.getpostman.com/docs/postman/api-documentation/intro-to-api-documentation"
 ---
 
 ### Security considerations for the Run in Postman button

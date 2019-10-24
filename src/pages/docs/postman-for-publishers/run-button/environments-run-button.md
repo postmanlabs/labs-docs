@@ -2,7 +2,27 @@
 title: "Environments in Run in Postman"
 page_id: "environments_run_button"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+  - type: link
+    name: "Intro to environments and globals"
+    url: "https://learning.getpostman.com/docs/postman/environments-and-globals/intro-to-environments-and-globals"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Sikka"
+    url: "https://www.getpostman.com/case-studies/Sikka.pdf?_ga=2.150338102.1078379737.1571761632-963694147.1565912089"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to API documentation"
+    url: "https://learning.getpostman.com/docs/postman/api-documentation/intro-to-api-documentation"
 ---
 
 Including a shared environment with a shared collection can be useful in prompting users to input their own personal information with their own version of the template.  
