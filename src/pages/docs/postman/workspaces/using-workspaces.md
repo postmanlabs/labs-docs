@@ -1,6 +1,33 @@
 ---
 title: 'Using Workspaces'
 page_id: 'using_workspaces'
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Coursera"
+    url: "https://www.getpostman.com/case-studies/Coursera.pdf?_ga=2.135622007.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API monitoring with Postman"
+    url: "https://www.youtube.com/watch?v=3nOP_TYTuA8"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to environments and globals"
+    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+
 warning: false
 ---
 

@@ -1,6 +1,33 @@
 ---
 title: "Activity feed and restoring collections"
 page_id: "activity_feed_and_restoring_collections"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "SynapseFi"
+    url: "https://www.getpostman.com/case-studies/SynapseFI.pdf?_ga=2.240920773.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Clarifai"
+    url: "https://www.getpostman.com/case-studies/Clarifai.pdf?_ga=2.240920773.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "New, More Useful Activity Feed in Postman Collections"
+    url: "https://blog.getpostman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/?_ga=2.125447628.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to Integrations"
+    url: "/docs/postman-pro/integrations/intro-integrations/"
+
 warning: false
 ---
 

@@ -1,6 +1,13 @@
 ---
 title: "Pricing for monitors"
 page_id: "pricing_monitors"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to Monitoring"
+    url: "/docs/postman/monitors/intro-monitors/"
+
 tags: 
   - "pro"
   - "enterprise"

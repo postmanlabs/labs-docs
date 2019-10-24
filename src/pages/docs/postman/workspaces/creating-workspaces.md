@@ -1,6 +1,38 @@
 ---
 title: "Creating Workspaces"
 page_id: "creating_workspaces"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Movember"
+    url: "https://www.getpostman.com/case-studies/movember.pdf?_ga=2.240986565.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Team collaboration with Postman"
+    url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Announcing private workspaces for Postman Enterprise"
+    url: "http://blog.getpostman.com/2018/05/22/announcing-private-workspaces-for-postman-enterprise/?_ga=2.132409800.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to environments and globals"
+    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+
 warning: false
 
 ---

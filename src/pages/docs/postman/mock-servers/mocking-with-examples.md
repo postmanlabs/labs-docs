@@ -1,6 +1,33 @@
 ---
 title: "Mocking with examples"
 page_id: "mocking_with_examples"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Fake APIs for Real Developers"
+    url: "https://www.youtube.com/watch?v=fgtDZPOPzLU"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Mock responses in Postman by using Examples"
+    url: "https://blog.getpostman.com/2017/05/17/mock-responses-in-postman-by-using-examples/?_ga=2.224530268.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Test scripts"
+    url: "/docs/postman/scripts/test-scripts/"
+
 warning: false
 ---
 

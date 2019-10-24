@@ -1,6 +1,28 @@
 ---
 title: "Managing Workspaces"
 page_id: "managing_workspaces"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "HotelBeds"
+    url: "https://www.getpostman.com/case-studies/Hotelbeds.pdf?_ga=2.127143115.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to environments and globals"
+    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+
 warning: false
 ---
 

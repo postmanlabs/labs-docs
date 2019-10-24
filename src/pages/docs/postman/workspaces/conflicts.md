@@ -1,6 +1,21 @@
 ---
 title: "Conflicts"
 page_id: "conflicts"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: link
+    name: "Sharing collections"
+    url: "/docs/postman/collections/sharing-collections/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Debugging and logs"
+    url: "/docs/postman/sending-api-requests/debugging-and-logs/"
+
 warning: false
 ---
 

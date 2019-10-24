@@ -1,6 +1,26 @@
 ---
 title: "Mocking with the Postman API"
 page_id: "mock_with_api"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: link
+    name: "Intro to the Postman API"
+    url: "/docs/postman/postman-api/intro-api/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Mock responses in Postman by using Examples"
+    url: "https://blog.getpostman.com/2017/05/17/mock-responses-in-postman-by-using-examples/?_ga=2.125542604.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 ---
 

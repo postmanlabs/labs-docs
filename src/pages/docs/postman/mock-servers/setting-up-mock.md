@@ -1,6 +1,36 @@
 ---
 title: "Setting up a mock server"
 page_id: "setting_up_mock"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Fake APIs for Real Developers"
+    url: "https://www.youtube.com/watch?v=fgtDZPOPzLU"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Simulate a back end with Postman's mock service"
+    url: "https://blog.getpostman.com/2017/03/16/simulate-a-back-end-with-postmans-mock-service/?_ga=2.199962472.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Team collaboration with Postman mock servers"
+    url: "https://blog.getpostman.com/2017/09/20/team-collaboration-with-postman-mock-servers/?_ga=2.132882632.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Test scripts"
+    url: "/docs/postman/scripts/test-scripts/"
+
 warning: false
 ---
 
