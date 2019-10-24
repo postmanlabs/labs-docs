@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
+import './doc.scss';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
@@ -20,7 +21,7 @@ export default ({ data }) => {
           <div className="col-sm-12 col-md-4 col-lg-3 left-nav left-nav">
             <LeftNav />
           </div>
-          <div className="col-sm-12 col-md-6 doc-page">
+          <div className="col-sm-10 col-md-6 doc-page">
             <h1>{post.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
