@@ -4,6 +4,10 @@ const glob = require('glob');
 const uuidv4 = require('uuid/v4');
 const redirects = require('./redirects');
 
+const ignorePaths = [
+  '/docs/postman-pro/api-search/searching-apis/',
+];
+
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -75,7 +79,8 @@ exports.sourceNodes = async ({
       newVal = newVal.substring(0, newVal.length - 3);
       newVal = newVal.slice(-5) === 'index' ? newVal.substring(0, newVal.length - 5) : newVal;
       return `${newVal}/`;
-    });
+    })
+    .filter((val) => !ignorePaths.includes(val));
 
   const output = {};
 

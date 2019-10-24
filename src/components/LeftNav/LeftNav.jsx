@@ -82,7 +82,7 @@ class ListItem extends React.Component {
         <li className={`parent${this.inUrl(`/${name}/`) ? ' currentUrl' : ''}`}>
           <img className={`caret${this.isActive(name) ? ' active-caret' : ''}`} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg==" alt="" />
           <button type="button" onClick={this.toggleActive} identifier={name}>
-            {replacements[name] ? replacements[name] : name.replace(/_/g, ' ')}
+            {replacements[name] ? replacements[name] : name.replace(/-/g, ' ')}
           </button>
         </li>
         <ListItem data={JSON.stringify(data)} />
