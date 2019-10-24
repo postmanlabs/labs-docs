@@ -1,6 +1,48 @@
 ---
 title: "Variables"
 page_id: "variables"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Updated: Using Variables in Postman Requests & Collections"
+    url: "https://www.youtube.com/watch?v=X_CEYzhjCnI"
+  - type: link
+    name: "How to use global variables in Postman"
+    url: "https://www.youtube.com/watch?v=TU1i1CgjVR8"
+  - type: link
+    name: "New to Postman Part 5: chaining requests"
+    url: "https://www.youtube.com/watch?v=shYn3Ys3ygE"
+  - type: link
+    name: "Working with sessions"
+    url: "https://youtu.be/JcSZtVwH69w"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Pro-tip: Dynamically Unset Postman Environment Variables"
+    url: "https://blog.getpostman.com/2019/05/28/pro-tip-dynamically-unset-postman-environment-variables/?_ga=2.159075580.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Find and replace text, code, and variables in Postman"
+    url: "https://blog.getpostman.com/2018/11/13/find-and-replace-text-code-and-variables-in-postman/?_ga=2.135555575.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "10 tips for working with Postman variables"
+    url: "https://blog.getpostman.com/2017/12/29/10-tips-for-working-with-postman-variables/?_ga=2.135555575.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+
 warning: false
 
 ---

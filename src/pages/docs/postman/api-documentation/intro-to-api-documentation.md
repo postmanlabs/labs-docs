@@ -1,6 +1,35 @@
 ---
 title: "Intro to API documentation"
 page_id: "intro_to_api_documentation"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "HarperDB"
+    url: "https://www.getpostman.com/case-studies/harperDB.pdf?_ga=2.170214630.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API documentation with Postman"
+    url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Simplifying API documentation for a great first user experience"
+    url: "https://blog.getpostman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/?_ga=2.202640215.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Publishing public docs"
+    url: "/docs/postman/api-documentation/publishing-public-docs/"
+
 warning: false
 
 ---

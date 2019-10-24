@@ -1,6 +1,31 @@
 ---
 title: "Capturing HTTP requests"
 page_id: "capturing_http_requests"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Capturing requests in Postman"
+    url: "https://www.youtube.com/watch?v=1Efpi_UIxGE"
+  - type: link
+    name: "Reverse engineering an API"
+    url: "https://youtu.be/2VKVPB5USgU"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Reverse engineering an API"
+    url: "https://medium.com/postman-engineering/reverse-engineering-an-api-403fae885303"
+  - type: link
+    name: "Using Postman Proxy to Capture and Inspect API Calls from iOS or Android Devices"
+    url: "https://blog.getpostman.com/2016/06/26/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/?_ga=2.202729559.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---

@@ -1,6 +1,25 @@
 ---
 title: "Sharing a collection run"
 page_id: "sharing_a_collection_run"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collection runs"
+    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Tyk"
+    url: "https://www.getpostman.com/case-studies/Tyk.pdf?_ga=2.194158699.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to Workspaces"
+    url: "/docs/postman/collection-runs/docs/postman/workspaces/intro-to-workspaces/"
+
 warning: false
 ---
 To share a Collection, you can export a collection run to recipients who can import it in their Postman app.

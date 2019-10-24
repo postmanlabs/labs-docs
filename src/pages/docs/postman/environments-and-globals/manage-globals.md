@@ -1,6 +1,16 @@
 ---
 title: "Manage globals"
 page_id: "manage_globals"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Variables"
+    url: "/docs/postman/environments-and-globals/variables/"
+
 warning: false
 ---
 

@@ -1,6 +1,30 @@
 ---
 title: "Generate code snippets"
 page_id: "generate_code_snippets"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Intuit"
+    url: "https://www.getpostman.com/case-studies/Intuit.pdf?_ga=2.164694905.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "How to use code snippets in Postman"
+    url: "https://www.youtube.com/watch?v=fhfuQGvLPj0"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Writing front-end API code with Postman"
+    url: "https://blog.getpostman.com/2015/08/31/writing-front-end-api-code-with-postman/?_ga=2.164823161.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---

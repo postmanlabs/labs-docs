@@ -1,6 +1,20 @@
 ---
 title: "Debugging a collection run"
 page_id: "debugging_a_collection_run"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Debugging and logs"
+    url: "/docs/postman/sending-api-requests/debugging-and-logs/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "The Postman Console"
+    url: "https://blog.getpostman.com/2016/08/26/the-postman-console/?_ga=2.234489944.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 ---
 

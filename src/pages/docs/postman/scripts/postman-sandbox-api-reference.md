@@ -1,6 +1,21 @@
 ---
 title: "Postman Sandbox API reference"
 page_id: "postman_sandbox_api_reference"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Variables"
+    url: "/docs/postman/environments-and-globals/variables/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Command line integration with Newman"
+    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+
 warning: false
 ---
 

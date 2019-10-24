@@ -1,6 +1,26 @@
 ---
 title: "Working with data files"
 page_id: "working_with_data_files"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collection runs"
+    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Looping through a data file in the Postman Collection Runner"
+    url: "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/?_ga=2.199429224.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Read and write to REST-enabled databases"
+    url: "https://blog.getpostman.com/2018/02/09/read-and-write-to-rest-enabled-databases/?_ga=2.199429224.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Write to your local file system using a Postman Collection"
+    url: "https://blog.getpostman.com/2017/09/01/write-to-your-local-file-system-using-a-postman-collection/?_ga=2.199429224.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---

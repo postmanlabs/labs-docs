@@ -1,6 +1,33 @@
 ---
 title: "Using Markdown for descriptions"
 page_id: "using_markdown_for_descriptions"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Imgur"
+    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.199967976.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Building a Restaurant Discovery Service with Postman"
+    url: "https://blog.getpostman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/?_ga=2.199967976.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Descriptions for request attributes in Postman"
+    url: "https://blog.getpostman.com/2017/06/03/descriptions-for-request-attributes-in-postman/?_ga=2.161623290.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to API documentation"
+    url: "/docs/postman/api-documentation/intro-to-api-documentation/"
+
 warning: false
 ---
 

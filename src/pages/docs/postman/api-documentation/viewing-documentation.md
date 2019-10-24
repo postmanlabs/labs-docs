@@ -1,6 +1,35 @@
 ---
 title: "Viewing documentation"
 page_id: "viewing_documentation"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Cisco DevNet"
+    url: "https://www.getpostman.com/case-studies/CiscoDevNet.pdf?_ga=2.200107496.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API documentation with Postman"
+    url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Simplifying API documentation for a great first user experience"
+    url: "https://blog.getpostman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/?_ga=2.202532055.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Publishing public docs"
+    url: "/docs/postman/api-documentation/publishing-public-docs/"
+
 warning: false
 
 ---

@@ -1,6 +1,28 @@
 ---
 title: "Newman with Docker"
 page_id: "newman_with_docker"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Command line integration with Newman"
+    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Integrations: how Postman plays with some of your favorite tools"
+    url: "https://blog.getpostman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/?_ga=2.237112774.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Using the Newman Docker image in Windows, hassle free"
+    url: "https://blog.getpostman.com/2015/08/07/using-the-newman-docker-image-in-windows/?_ga=2.237112774.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to the Postman API"
+    url: "/docs/postman/postman-api/intro-api/"
+
 warning: false
 tags:
   - "newman"

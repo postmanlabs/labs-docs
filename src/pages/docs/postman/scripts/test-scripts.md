@@ -1,6 +1,56 @@
 ---
 title: "Test scripts"
 page_id: "test_scripts"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Variables"
+    url: "/docs/postman/environments-and-globals/variables/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Envestnet | Yodlee"
+    url: "https://www.getpostman.com/case-studies/envestnet-yodlee-case-study.pdf?_ga=2.191703276.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Clarifai"
+    url: "https://www.getpostman.com/case-studies/Clarifai.pdf?_ga=2.191703276.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Sikka"
+    url: "https://www.getpostman.com/case-studies/Sikka.pdf?_ga=2.191703276.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "How to add tests to a Postman Collection"
+    url: "https://www.youtube.com/watch?v=ElJBJIeJ90o"
+  - type: link
+    name: "New to Postman PArt 3: writing a test"
+    url: "https://www.youtube.com/watch?v=6Cp4Ez5dwbM"
+  - type: link
+    name: "New to Postman Part 5: chaining requests"
+    url: "https://www.youtube.com/watch?v=shYn3Ys3ygE"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Continuous API Testing with Postman"
+    url: "https://blog.getpostman.com/2019/06/07/continuous-api-testing-with-postman/?_ga=2.190983660.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Building and testing APIs with LoopBack and Postman"
+    url: "https://blog.getpostman.com/2018/01/12/building-and-testing-apis-with-loopback-and-postman/?_ga=2.190983660.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Microsoft Education uses Postman Pro for integration testing"
+    url: "https://blog.getpostman.com/2017/12/12/microsoft-education-uses-postman-pro-for-integration-testing/?_ga=2.190983660.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Command line integration with Newman"
+    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+
 warning: false
 
 ---

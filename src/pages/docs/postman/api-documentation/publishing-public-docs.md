@@ -1,6 +1,35 @@
 ---
 title: "Publishing public docs"
 page_id: "publishing_public_docs"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Imgur"
+    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.137063670.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API documentation with Postman"
+    url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "API Network Exploration: Infermedica"
+    url: "https://blog.getpostman.com/2018/05/25/api-network-exploration-infermedica/?_ga=2.137063670.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Public API documentation"
+    url: "/docs/postman-for-publishers/public-api-docs/"
+
 warning: false
 ---
 

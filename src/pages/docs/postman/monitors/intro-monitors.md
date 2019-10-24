@@ -1,6 +1,38 @@
 ---
 title: "Intro to Monitoring"
 page_id: "intro_monitors"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Microsoft Education"
+    url: "https://www.getpostman.com/case-studies/Microsoft.pdf?_ga=2.133824584.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Monetary"
+    url: "https://www.getpostman.com/case-studies/monetary.pdf?_ga=2.133824584.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API monitoring with Postman"
+    url: "https://www.youtube.com/watch?v=3nOP_TYTuA8"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Audit your AWS infrastructure with Postman"
+    url: "https://blog.getpostman.com/2017/12/19/audit-your-aws-infrastructure-with-postman/?_ga=2.165949304.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collection runs"
+    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+
 warning: false
 
 ---

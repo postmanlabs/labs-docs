@@ -1,6 +1,42 @@
 ---
 title: 'Data formats'
 page_id: 'data_formats'
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Healthwise"
+    url: "https://www.getpostman.com/case-studies/healthwise.pdf?_ga=2.232991832.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Sync your specs"
+    url: "https://blog.getpostman.com/2018/03/02/sync-your-specs/?_ga=2.200934632.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Importing SoapUI projects into Postman"
+    url: "https://blog.getpostman.com/2016/04/27/importing-soapui-projects-into-postman/?_ga=2.200934632.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Importing RAML folders into Postman"
+    url: "https://blog.getpostman.com/2015/11/04/supporting-raml-folders-in-postman/?_ga=2.200934632.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Introducing Postman Collection Format Schema"
+    url: "https://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/?_ga=2.194199659.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Travelogue of Postman Collections Format v2"
+    url: "https://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/?_ga=2.194199659.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to Integrations"
+    url: "/docs/postman-pro/integrations/intro-integrations/"
+
 warning: false
 ---
 

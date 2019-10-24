@@ -1,6 +1,28 @@
 ---
 title: "Local environments and shared environments"
 page_id: "environments_and_environment_templates"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: link
+    name: "Intro to environments and globals"
+    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Lucid"
+    url: "https://www.getpostman.com/case-studies/Lucid.pdf?_ga=2.132423880.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to Workspaces"
+    url: "/docs/postman/workspaces/intro-to-workspaces/"
+
 warning: false
 ---
 

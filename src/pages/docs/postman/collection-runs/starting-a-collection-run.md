@@ -1,6 +1,28 @@
 ---
 title: "Starting a collection run"
 page_id: "starting_a_collection_run"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "How to use the Postman collection runner"
+    url: "https://www.youtube.com/watch?v=6XjOtI-FPHg"
+  - type: link
+    name: "How to use the collection runner"
+    url: "https://www.youtube.com/watch?v=QqeTZf5x3Is"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Building a Restaurant Discover Service with Postman"
+    url: "https://blog.getpostman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/?_ga=2.125594060.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---

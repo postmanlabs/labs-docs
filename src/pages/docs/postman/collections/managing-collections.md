@@ -1,6 +1,25 @@
 ---
 title: "Managing collections"
 page_id: "managing_collections"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Audit your AWS infrastructure with Postman"
+    url: "https://blog.getpostman.com/2017/12/19/audit-your-aws-infrastructure-with-postman/?_ga=2.124079308.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to Workspaces"
+    url: "/docs/postman/workspaces/intro-to-workspaces/"
+
 warning: false
 ---
 

@@ -1,6 +1,47 @@
 ---
 title: "Intro to environments and globals"
 page_id: "intro_to_environments_and_globals"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Variables"
+    url: "/docs/postman/environments-and-globals/variables/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "BetterCloud"
+    url: "https://www.getpostman.com/case-studies/BetterCloud.pdf?_ga=2.159082620.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "How to use Environments in Postman"
+    url: "https://www.youtube.com/watch?v=wArvaHYdw2I"
+  - type: link
+    name: "How to use global variables in Postman"
+    url: "https://www.youtube.com/watch?v=TU1i1CgjVR8"
+  - type: link
+    name: "Environments with Postman"
+    url: "https://www.youtube.com/watch?v=M3QAjLTqC9c"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "10 tips for working with Postman variables"
+    url: "https://blog.getpostman.com/2017/12/29/10-tips-for-working-with-postman-variables/?_ga=2.161753338.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+
 warning: false
 
 ---

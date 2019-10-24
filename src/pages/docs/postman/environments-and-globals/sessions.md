@@ -1,17 +1,6 @@
 ---
 title: "Sessions"
 page_id: "Sessions"
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://getpostman.com/apps"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: home
-    url: "/"
 warning: false
 ---
 

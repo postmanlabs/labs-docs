@@ -1,6 +1,20 @@
 ---
 title: "Adding team name and logo"
 page_id: "adding_team_name_and_logo"
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Imgur"
+    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.131375945.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "What is Postman Pro"
+    url: "/docs/postman-pro/what-is-pro/"
+
 tags: 
   - "pro"
   - "enterprise"

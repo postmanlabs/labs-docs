@@ -1,6 +1,38 @@
 ---
 title: "Setting up a monitor"
 page_id: "setting_up_monitor"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Microsoft Education"
+    url: "https://www.getpostman.com/case-studies/Microsoft.pdf?_ga=2.201039976.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API monitoring with Postman"
+    url: "https://www.youtube.com/watch?v=3nOP_TYTuA8"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Setting up multi region API tests in Postman"
+    url: "https://blog.getpostman.com/2017/08/17/setting-up-multi-region-api-tests-in-postman/?_ga=2.198460265.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Using a Postman monitor to water my plants"
+    url: "https://blog.getpostman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/?_ga=2.198460265.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collection runs"
+    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+
 warning: false
 ---
 

@@ -1,6 +1,47 @@
 ---
 title: "Test examples"
 page_id: "test_examples"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Variables"
+    url: "/docs/postman/environments-and-globals/variables/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Lucid"
+    url: "https://www.getpostman.com/case-studies/Lucid.pdf?_ga=2.167456632.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Movember"
+    url: "https://www.getpostman.com/case-studies/movember.pdf?_ga=2.167456632.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "How to add an environment variable using code snippets"
+    url: "https://www.youtube.com/watch?v=jzJT_o3_t1Q"
+  - type: link
+    name: "New to Postman Part 5: chaining requests"
+    url: "https://www.youtube.com/watch?v=shYn3Ys3ygE"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Building and testing APIs with LoopBack and Postman"
+    url: "https://blog.getpostman.com/2018/01/12/building-and-testing-apis-with-loopback-and-postman/?_ga=2.173879141.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Writing a bejavior driven API testing environment with Postman"
+    url: "https://blog.getpostman.com/2015/09/29/writing-a-behaviour-driven-api-testing-environment-within-postman/?_ga=2.173879141.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Command line integration with Newman"
+    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+
 warning: false
 
 ---

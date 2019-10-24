@@ -1,6 +1,28 @@
 ---
 title: "Examples"
 page_id: "examples"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Ingur"
+    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.233654104.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to API documentation"
+    url: "/docs/postman/api-documentation/intro-to-api-documentation/"
+  - type: link
+    name: "Intro to mock servers"
+    url: "/docs/postman/mock-servers/intro-to-mock-servers/"
+
 warning: false
 ---
 

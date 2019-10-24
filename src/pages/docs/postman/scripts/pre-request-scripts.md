@@ -1,6 +1,39 @@
 ---
 title: "Pre-request scripts"
 page_id: "pre_request_scripts"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Variables"
+    url: "/docs/postman/environments-and-globals/variables/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Raygun"
+    url: "https://www.getpostman.com/case-studies/raygun.pdf?_ga=2.226164956.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Germaphobia collection (see pre-request scripts in action)"
+    url: "https://blog.getpostman.com/2018/04/27/germaphobia/?_ga=2.226164956.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "The Good Collection (take advantage of the pre-request)"
+    url: "https://blog.getpostman.com/2018/03/08/the-good-collection/?_ga=2.228868314.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Keep it DRY with collection and folder elements"
+    url: "https://blog.getpostman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.228868314.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Test scripts"
+    url: "/docs/postman/scripts/test-scripts/"
+
 warning: false
 
 ---

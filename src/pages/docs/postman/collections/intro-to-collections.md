@@ -1,6 +1,41 @@
 ---
 title: "Intro to collections"
 page_id: "intro_to_collections"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Raygun"
+    url: "https://www.getpostman.com/case-studies/raygun.pdf?_ga=2.170542182.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "BetterCloud"
+    url: "https://www.getpostman.com/case-studies/BetterCloud.pdf?_ga=2.194292587.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to Postman & Postman Collections"
+    url: "https://www.youtube.com/watch?v=ptvV_Fc3hd8"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "The Good Collection"
+    url: "https://blog.getpostman.com/2018/03/08/the-good-collection/?_ga=2.169017831.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Not your Grandma's Postman"
+    url: "https://blog.getpostman.com/2017/05/27/not-your-grandmas-postman/?_ga=2.169017831.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collection runs"
+    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+
 warning: false
 ---
 

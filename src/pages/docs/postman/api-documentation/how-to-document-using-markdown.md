@@ -1,6 +1,25 @@
 ---
 title: "How to document using Markdown"
 page_id: "how_to_document_using_markdown"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Imgur"
+    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.207421525.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Public API documentation"
+    url: "/docs/postman-for-publishers/public-api-docs/"
+
 warning: false
 ---
 

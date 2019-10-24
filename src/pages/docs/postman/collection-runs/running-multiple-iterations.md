@@ -1,6 +1,13 @@
 ---
 title: "Running multiple iterations"
 page_id: "running_multiple_iterations"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collection runs"
+    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+
 warning: false
 ---
 

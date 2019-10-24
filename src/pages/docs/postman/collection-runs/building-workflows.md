@@ -1,6 +1,20 @@
 ---
 title: "Building workflows"
 page_id: "building_workflows"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Check for broken links on your website using a Postman Collection"
+    url: "https://blog.getpostman.com/2017/06/23/check-for-broken-links-on-your-website-using-a-postman-collection/?_ga=2.199902312.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---
