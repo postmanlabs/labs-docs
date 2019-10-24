@@ -1,4 +1,7 @@
 @import './Shared/_variables.scss';
+* {
+  font-family: 'Roboto';
+}
 
 div.container-fluid {
   padding: 0px;
@@ -6,18 +9,33 @@ div.container-fluid {
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 1.1666666667;
-  font-weight: 500;
-  text-rendering: optimizeLegibility;
-  letter-spacing: .8px;
-  margin: .67em 0;
+  font-size: 48px !important;
+  line-height: 1.2083333333 !important;
 }
 
 h2 {
-  font-size: 36px;
-  line-height: 1.2222222222;
+  font-size: 38px !important;
+  line-height: 1.2631578947 !important;
 }
+
+h3 {
+  font-size: 30px !important;
+  line-height: 1.2666666667 !important;
+}
+
+// h1 {
+//   font-size: 48px;
+//   line-height: 1.1666666667;
+//   font-weight: 500;
+//   text-rendering: optimizeLegibility;
+//   letter-spacing: .8px;
+//   margin: .67em 0;
+// }
+
+// h2 {
+//   font-size: 36px;
+//   line-height: 1.2222222222;
+// }
 p {
   a {
     color: $postman-orange;
