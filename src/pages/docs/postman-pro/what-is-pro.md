@@ -4,7 +4,19 @@ page_id: "what_is_pro"
 tags: 
   - "pro"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Installation and updates"
+    url: "https://learning.getpostman.com/docs/postman/launching_postman/installation_and_updates"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "AMC"
+    url: "https://www.getpostman.com/case-studies/AMC.pdf?_ga=2.109911685.1078379737.1571761632-963694147.1565912089"
 ---
 
 Postman's vision is to help you build a super fast and smooth workflow for API development keeping some key questions in mind:

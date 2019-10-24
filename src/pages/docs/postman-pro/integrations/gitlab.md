@@ -4,7 +4,12 @@ page_id: "gitlab"
 tags: 
   - "pro"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collections"
+    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
 ---
 
 Back up and synchronize your Postman Collections on GitLab (an open source Git repository manager) and on any of your custom domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitLab Integration.
