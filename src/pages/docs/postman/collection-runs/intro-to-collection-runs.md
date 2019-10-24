@@ -1,6 +1,23 @@
 ---
 title: "Intro to collection runs"
 page_id: "intro_to_collection_runs"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Keep track of GitHub issues using a Postman collection"
+    url: "https://blog.getpostman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/?_ga=2.132983240.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Postman's New Collection Runner"
+    url: "https://blog.getpostman.com/2016/11/22/postmans-new-collection-runner/?_ga=2.132983240.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 
 ---

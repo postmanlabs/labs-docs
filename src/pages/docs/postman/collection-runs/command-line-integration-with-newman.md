@@ -1,6 +1,30 @@
 ---
 title: "Command line integration with Newman"
 page_id: "command_line_integration_with_newman"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to collection runs"
+    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Clarifai"
+    url: "https://www.getpostman.com/case-studies/Clarifai.pdf?_ga=2.173886949.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Newman v3"
+    url: "https://blog.getpostman.com/2016/08/12/newman-v3/?_ga=2.198419561.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to the Postman API"
+    url: "/docs/postman/postman-api/intro-api/"
+
 warning: false
 tags:
   - "newman"

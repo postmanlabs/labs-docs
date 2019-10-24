@@ -1,6 +1,39 @@
 ---
 title: "Branching and looping"
 page_id: "branching_and_looping"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Variables"
+    url: "/docs/postman/environments-and-globals/variables/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Imgur"
+    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.165913464.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "How to make money using Postman: chaining requests"
+    url: "https://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/?_ga=2.165913464.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Using a Postman monitor to water my plants"
+    url: "https://blog.getpostman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/?_ga=2.165913464.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Conditional Workflows in Postman"
+    url: "https://blog.getpostman.com/2016/03/23/conditional-workflows-in-postman/?_ga=2.170681446.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Command line integration with Newman"
+    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+
 warning: false
 ---
 

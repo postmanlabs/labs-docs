@@ -1,6 +1,44 @@
 ---
 title: "Manage environments"
 page_id: "manage_environments"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Variables"
+    url: "/docs/postman/environments-and-globals/variables/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Raygun"
+    url: "https://www.getpostman.com/case-studies/raygun.pdf?_ga=2.170151398.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "How to add an environment variable using code snippets"
+    url: "https://www.youtube.com/watch?v=jzJT_o3_t1Q"
+  - type: link
+    name: "Environments with Postman"
+    url: "https://www.youtube.com/watch?v=M3QAjLTqC9c"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Pro-tip: Dynamically Unset Postman Environment Variables"
+    url: "https://blog.getpostman.com/2019/05/28/pro-tip-dynamically-unset-postman-environment-variables/?_ga=2.159075580.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: link
+    name: "Intro to scripts"
+    url: "/docs/postman/scripts/intro-to-scripts/"
+
 warning: false
 
 ---

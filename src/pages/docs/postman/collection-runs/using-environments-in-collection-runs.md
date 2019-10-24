@@ -1,6 +1,20 @@
 ---
 title: "Using environments in collection runs"
 page_id: "using_environments_in_collection_runs"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to environments and globals"
+    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Generate Spotify Playlists using a Postman Collection"
+    url: "https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/?_ga=2.191709420.754547870.1571851340-1454169035.1570491567"
+
 warning: false
 ---
 

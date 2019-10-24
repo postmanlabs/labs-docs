@@ -1,6 +1,25 @@
 ---
 title: "Adding and verifying custom domains"
 page_id: "adding_and_verifying_custom_domains"
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Imgur"
+    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.202743895.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Introducing Custom Domains for Postman Pro"
+    url: "https://blog.getpostman.com/2017/02/23/introducing-custom-domains-for-postman-pro/?_ga=2.157458940.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "What is Postman Pro"
+    url: "/docs/postman-pro/what-is-pro/"
+
 warning: false
 ---
 

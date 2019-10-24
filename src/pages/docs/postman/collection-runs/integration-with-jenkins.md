@@ -1,6 +1,33 @@
 ---
 title: "Integration with Jenkins"
 page_id: "integration_with_jenkins"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Command line integration with Newman"
+    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Sikka"
+    url: "https://www.getpostman.com/case-studies/Sikka.pdf?_ga=2.237858246.754547870.1571851340-1454169035.1570491567"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "How to write powerful automated API tests with Postman, Newman and Jenkins"
+    url: "https://blog.getpostman.com/2015/09/03/how-to-write-powerful-automated-api-tests-with-postman-newman-and-jenkins/?_ga=2.237858246.754547870.1571851340-1454169035.1570491567"
+  - type: link
+    name: "Integrations: how Postman plays with some of your favorite tools"
+    url: "https://blog.getpostman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/?_ga=2.237858246.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Intro to the Postman API"
+    url: "/docs/postman/postman-api/intro-api/"
+
 warning: false
 tags:
   - "newman"
