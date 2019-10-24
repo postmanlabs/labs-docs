@@ -1,4 +1,5 @@
 @import './Shared/_variables.scss';
+
 * {
   font-family: 'Roboto';
 }
@@ -28,7 +29,6 @@ p {
     color: $postman-orange;
   }
 }
-
 
 div.col-sm-7.doc-page {
   padding: 64px 72px;
