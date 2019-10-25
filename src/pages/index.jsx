@@ -20,18 +20,6 @@ const heroMargin = {
   margin: '0 auto',
   maxWidth: '1200px',
 };
-
-// const heroStyleMargin = {
-//   margin: '20px 40px',
-// };
-// const bold = {
-//   fontWeight: '600',
-//   margin: '20px 40px',
-// };
-// const HeroImageStyle = {
-//   margin: '0px',
-//   paddingLeft: '48px',
-// };
 const videoStyle = {
   padding: '0px 40px',
   marginTop: '80px',
