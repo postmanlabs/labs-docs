@@ -23,11 +23,9 @@ jobs:
         DIST_ID: ${{secrets.DIST_ID}}
       run: |
         npm install
-        node_modules/.bin/gatsby/
-        npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket learning.getpostman-beta.com --deleteRemoved --distId ${{secrets.DIST_ID}} --invalidate '/*'
+        npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket learning.getpostman-beta.com --deleteRemoved --distId $DIST_ID --invalidate '/*'
     - name: lint all markdownfiles
-      run: |
-        npm install
+      run: 
         node_modules/.bin/markdownlint ./ --ignore node_modules --ignore v5
     - name: check for image url
       run: |
