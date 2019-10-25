@@ -1,0 +1,92 @@
+.transparentCardContainer {
+  padding-bottom: 60px;
+}
+.transparent-card-container {
+  margin: 60px;
+}
+
+.transparentHeader {
+  margin-bottom: 50px;
+}
+
+#tabs {
+  .header {
+    text-align: center;
+  }
+  
+  .react-tabs {
+    &__tab-list {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0;
+
+      @media (max-width: 576px) {
+        display: none;
+      }
+    }
+  
+    &__tab {
+      display: inline-block;
+      list-style: none;
+      padding: 6px 12px;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      font-weight: 600;
+      color: #282828;
+      margin-right: 46px;
+
+      @media (max-width: 535px) {
+        display: block;
+        margin-right: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &--selected,
+      &:hover {
+        border-bottom: 3px solid #ff6c37;
+
+        @media (max-width: 535px) {
+          color: #ff6c37;
+          border-bottom: unset;
+        }
+      }
+  
+      &--disabled {
+        color: GrayText;
+        cursor: default;
+      }
+  
+      &:focus {
+        box-shadow: 0 0 5px hsl(208, 99%, 50%);
+        border-color: hsl(208, 99%, 50%);
+        outline: none;
+  
+        &:after {
+          content: "";
+          position: absolute;
+          height: 5px;
+          left: -4px;
+          right: -4px;
+          bottom: -5px;
+          background: #fff;
+        }
+      }
+    }
+  
+    &__tab-panel {
+      display: none;
+  
+      &--selected {
+        display: block;
+      }
+
+      @media (max-width: 576px) {
+        display: block;
+      }
+    }
+  }
+}

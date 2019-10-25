@@ -1,0 +1,36 @@
+@import './Shared/_variables.scss';
+
+* {
+  font-family: 'Roboto';
+}
+
+div.container-fluid {
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 48px !important;
+  line-height: 1.2083333333 !important;
+}
+
+h2 {
+  font-size: 38px !important;
+  line-height: 1.2631578947 !important;
+}
+
+h3 {
+  font-size: 30px !important;
+  line-height: 1.2666666667 !important;
+}
+
+p {
+  a {
+    color: $postman-orange;
+  }
+}
+
+div.col-sm-7.doc-page {
+  padding: 64px 72px;
+}
+

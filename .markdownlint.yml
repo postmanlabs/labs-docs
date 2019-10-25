@@ -1,4 +1,4 @@
-# add config from DavidAnsons Markdownlint library config
+# add config from DavidAnsons Markdownlint library config https://github.com/DavidAnson/vscode-markdownlint
 {
   "default": true,
   "MD007": { "indent": 4 },

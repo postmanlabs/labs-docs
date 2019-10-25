@@ -1,0 +1,142 @@
+---
+title: "Postman account"
+page_id: "postman_account"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Download and Install"
+    url: "https://getpostman.com/apps"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "One person, multiple accounts"
+    url: "https://blog.getpostman.com/2017/10/12/one-person-multiple-accounts/?_ga=2.230294746.754547870.1571851340-1454169035.1570491567"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Sending the first request"
+    url: "/docs/postman/launching-postman/sending-the-first-request"
+
+warning: false
+
+---
+
+## Why sign up for a Postman account?
+
+When you sign up for a free Postman account, you can:
+
+* [Sync](/docs/postman/launching-postman/syncing/) and back up your history, collections, workspaces, environments, and header presets.
+* Easily work on multiple Postman instances from different machines.
+* Create [collection links](/docs/postman/collections/sharing-collections/) to send to other developers.
+
+Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
+
+## Signing up for a Postman account
+
+If you haven't already, [download](https://www.getpostman.com/downloads/) the Postman app.
+
+Launch the app, and see a prompt to log in or sign up.
+    [![log in page](https://assets.postman.com/postman-docs/59135838.png)](https://assets.postman.com/postman-docs/59135838.png)  
+
+Sign up with your email address or your Google account.
+    [![sign up with email or google](https://assets.postman.com/postman-docs/signUp.png)](https://assets.postman.com/postman-docs/signUp.png)  
+
+Confirm your email.
+
+Postman provides you a better control over the length of your session on the devices you login in order to ensure better security to all of its users. If you want Postman to retain your login credentials, select *Remember me*. Once you select this option, Postman retains your credentials for 30 days. You will need to re-authenticate again on the 31st day to continue your work in Postman. The following screen displays the sign-in screen where you can select the *Remember me* option:
+    [![login-in Screen](https://assets.postman.com/postman-docs/login-screen-1778.png)](https://assets.postman.com/postman-docs/login-screen-1778.png)
+
+If you don't want Postman to retain your credentials, clear the check box *Remember me*. This will ensure you to re-authenticate after 12 hours.
+
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/postman/launching-postman/syncing/). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+
+[![header bar](https://assets.postman.com/postman-docs/postman+header+sync+5-10-18.png)](https://assets.postman.com/postman-docs/postman+header+sync+5-10-18.png)
+
+## Post Sign Up Configuration
+
+After you sign up in the Postman app, you will be prompted with a configuration window. In step 1 you are able to select from several options that describe what you want to accomplish with Postman. Selecting any of these options will download collections tailored to that specific use case. In step 2, you can customize the appearance of the Postman app by choosing between themes and layouts. The screen above will alter based on your selection to give you a preview of the app's appearance. Click on **Save My Preferences** to continue into the app with the changes you've made.
+
+[![Sign Up Configuration](https://assets.postman.com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+6.13.04+PM.png)](https://assets.postman.com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+6.13.04+PM.png)
+
+## Switching multiple accounts
+
+You can sign in to multiple accounts at the same time in the Postman app and the Postman web dashboard. After you sign in, you can switch between these accounts.
+
+### How to switch accounts in the Postman app?
+
+When you first open the Postman app, you can sign in as an existing user or create an account.
+If you bypass the initial sign-in option, you can click the **Sign In** button on the top right corner of your screen at any time.
+
+[![signin icon](https://assets.postman.com/postman-docs/WS-basic-white.png)](https://assets.postman.com/postman-docs/WS-basic-white.png)
+
+After you sign in, your profile image replaces the **Sign In** button.
+
+When you click on your profile image, a drop down menu lists all active signed-in accounts.
+
+To sign in to another account, click the **Add a new account** button at the bottom of the drop down menu.
+
+After you sign in to another account, the drop down menu lists all your active signed-in accounts.
+
+To switch back to your previous account, click on the account user name in the drop down menu.
+
+[![switch](https://assets.postman.com/postman-docs/WS-switchProfiles-app-white1.png)](https://assets.postman.com/postman-docs/WS-switchProfiles-app-white1.png)
+
+### How to switch accounts in the Postman web view?
+
+When you sign in to the [Dashboard](https://go.postman.co/me/collections), you see your profile image on the top right hand corner of the screen.  
+
+To sign in to another account, click the **Add a new account** button at the bottom of the drop down menu.
+
+After you sign in to another account, the drop down menu lists all your active signed-in accounts.
+
+To switch back to your previous account, click on the account user name in the drop down menu.
+
+[![webdashboard icon](https://assets.postman.com/postman-docs/WS-switchProfiles-webDashboard-2.png)](https://assets.postman.com/postman-docs/WS-switchProfiles-webDashboard-2.png)
+
+## Security policies and standards
+
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security).
+
+* Communication with Postman servers only happens through HTTPS and Secure WebSockets.
+* Environment and global variables are encrypted so that only you can view them.
+
+## Forgot your username or password?
+
+You can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login)page.
+
+In the Sign In page, click “Trouble signing in?”.
+
+[![signIn page](https://assets.postman.com/postman-docs/WS-SignInPage1-a.png)](https://assets.postman.com/postman-docs/WS-SignInPage1-a.png)
+
+In the "Trouble signing in?" page, enter your email address and click the **Submit** button.
+
+Check your email for instructions to recover your username or password.
+
+[![trouble_signIn page](https://assets.postman.com/postman-docs/WS-signIn_trouble.png)](https://assets.postman.com/postman-docs/WS-signIn_trouble.png)
+
+## Adding your profile image
+
+You can customize your Postman account with a profile picture that shows your username throughout the Postman dashboard.
+
+In [Postman web](https://www.getpostman.com/), click the **Dashboard** button, and then click the "Settings" icon. You must be signed in to see the **Dashboard** button.
+
+[![settings icon](https://assets.postman.com/postman-docs/settings-icon.png)](https://assets.postman.com/postman-docs/settings-icon.png)
+
+In the left navigation sidebar, click "Profile and Account".
+
+In the Profile and Account page, hover over the image icon to display a Pencil (edit) icon.
+
+[![profile account](https://assets.postman.com/postman-docs/WS-profile-account-page2.png)](https://assets.postman.com/postman-docs/WS-profile-account-page2.png)
+
+Click the Pencil icon.
+
+Upload or drag and drop the image you want for your profile from your computer and click the **Upload** button.
+
+[![upload](https://assets.postman.com/postman-docs/WS-upload-image1.png)](https://assets.postman.com/postman-docs/WS-upload-image1.png)
+
+The image you selected appears as your profile image.
+
+[![upload complete](https://assets.postman.com/postman-docs/WS-profile-pic-complete1-a.png)](https://assets.postman.com/postman-docs/WS-profile-pic-complete1-a.png)
