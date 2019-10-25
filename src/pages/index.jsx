@@ -8,20 +8,30 @@ import HeroImage from '../assets/lc-home-hero.svg';
 import { SecondaryCard, LandingCard } from '../components/MarketingPages/Cards';
 import '../components/MarketingPages/Buttons.scss';
 
+import './index.scss';
+
 
 const HeroStyle = {
   paddingBottom: '0px',
+  paddingLeft: '24px',
+  paddingTop: '48px',
 };
-const heroStyleMargin = {
-  margin: '20px 40px',
+const heroMargin = {
+  margin: '0 auto',
+  maxWidth: '1200px',
 };
-const bold = {
-  fontWeight: '600',
-  margin: '20px 40px',
-};
-const HeroImageStyle = {
-  margin: '0px',
-};
+
+// const heroStyleMargin = {
+//   margin: '20px 40px',
+// };
+// const bold = {
+//   fontWeight: '600',
+//   margin: '20px 40px',
+// };
+// const HeroImageStyle = {
+//   margin: '0px',
+//   paddingLeft: '48px',
+// };
 const videoStyle = {
   padding: '0px 40px',
   marginTop: '80px',
@@ -39,17 +49,17 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" slug="/" />
     <section className="hero" style={HeroStyle}>
-      <div className="row">
-        <div className="col-md-4 offset-md-1">
-          <h2 style={bold}>Postman Learning Center</h2>
-          <p style={heroStyleMargin}>
+      <div className="row" style={heroMargin}>
+        <div className="col-lg-5 hero-text">
+          <h2>Postman Learning Center</h2>
+          <p>
 The Postman Learning Center has all of the resources you
           need to ramp up quickly and extend your skills.
           </p>
-          <a href="/docs/" className="v5-btn v5-btn--primary" style={heroStyleMargin}>Explore the Docs</a>
+          <a href="/docs/" className="btn btn__primary">Explore the Docs</a>
         </div>
-        <div className="col-md-6 offset-md-1">
-          <img src={HeroImage} style={HeroImageStyle} alt="Hero" />
+        <div className="col-lg-7">
+          <img src={HeroImage} className="hero-image" alt="Hero" />
         </div>
       </div>
     </section>
@@ -120,7 +130,7 @@ Postman’s API documentation feature lets you share public or private API docum
     <section className="row">
       <div className="col-md-12 text-center " style={landingBottom}>
         <h2 style={landingBottomContent}>Didn&#39;t find what your&#39;re looking for?</h2>
-        <a href="https://www.getpostman.com/support" className="v5_btn v5_btn__primary">Visit our Support Center</a>
+        <a href="https://www.getpostman.com/support" className="btn btn__primary">Visit our Support Center</a>
       </div>
     </section>
   </Layout>

@@ -72,7 +72,7 @@ const GettingStartedPage = () => (
       <div className="col-md-4 col-sm-auto">
         <h2>3. Watch the New to Postman Playlist</h2>
         <p>Learn how simple it is to validate an API response in Postman.</p>
-        <a className="v5_btn v5_btn__secondary-dark v5_btn__left" href="https://www.youtube.com/embed/YKalL1rVDOE?list=PLM-7VG-sgbtBsenu0CM-UF3NZj3hQFs7E">Watch the entire playlist</a>
+        <a className="btn btn__secondary-dark btn__left" href="https://www.youtube.com/embed/YKalL1rVDOE?list=PLM-7VG-sgbtBsenu0CM-UF3NZj3hQFs7E">Watch the entire playlist</a>
       </div>
     </section>
 
@@ -80,7 +80,7 @@ const GettingStartedPage = () => (
       <div className="col-md-5 offset-md-1">
         <h2>4. Learn About Postman Key Concepts</h2>
         <p>Get familiar with Postman fundamentals and learn more about how Postman works.</p>
-        <a className="v5_btn v5_btn__secondary-dark v5_btn__left" href="/concepts/">Learn More</a>
+        <a className="btn btn__secondary-dark btn__left" href="/concepts/">Learn More</a>
       </div>
       <div className="col-md-5">
         <img src={teachingSpaceman} alt="Teaching Spaceman" />
