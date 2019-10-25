@@ -22,8 +22,9 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
         DIST_ID: ${{secrets.DIST_ID}}
       run: |
+        npm install
         node_modules/.bin/gatsby/
-        npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket learning.getpostman-beta.com --deleteRemoved --distId E23UCAIQEFBO6 --invalidate '/*'
+        npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket learning.getpostman-beta.com --deleteRemoved --distId ${{secrets.DIST_ID}} --invalidate '/*'
     - name: lint all markdownfiles
       run: |
         npm install
