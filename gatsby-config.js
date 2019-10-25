@@ -4,8 +4,6 @@ require('dotenv').config({
   path: `.env.${process.env.GATSBY_ACTIVE_ENV}`,
 });
 
-console.log(process.env);
-
 module.exports = {
   siteMetadata: {
     title: 'Postman Learning Center',
