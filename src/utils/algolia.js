@@ -26,10 +26,12 @@ const pageQuery = `{
         fields {
           slug
         }
-        excerpt(pruneLength: 5000);
+        excerpt(
+          pruneLength: 5000
+        )
       }
     }
-  })
+  }
 }`;
 
 const flatten = (arr) => arr.map(({ node: { frontmatter, ...rest } }) => ({
