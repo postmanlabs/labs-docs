@@ -18,7 +18,7 @@ export default ({ data }) => {
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
       <div className="container-fluid">
         <div className="row row-eq-height">
-          <div className="col-sm-12 col-md-4 col-lg-3 left-nav left-nav">
+          <div className="col-sm-12 col-md-4 col-lg-3 left-nav">
             <LeftNav />
           </div>
           <div className="col-sm-10 col-md-6 doc-page">
