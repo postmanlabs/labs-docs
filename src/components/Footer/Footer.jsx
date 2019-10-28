@@ -5,7 +5,7 @@ import FooterJson from './Footer.data.json';
 
 const FooterColumn = () => (
   FooterJson.columns.map((col) => {
-    const title = <h3 className="footer-column__title">{col.name}</h3>;
+    const title = <h5 className="footer-column__title">{col.name}</h5>;
     const links = col.children.map((link) => (
       <li key={link.name}>
         <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
