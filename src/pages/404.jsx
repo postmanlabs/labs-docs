@@ -27,7 +27,7 @@ class NotFoundPage extends React.Component {
             <div className="col text-col">
               <div className="error-text">
                 <h1>404</h1>
-                <p>Oops! We can&apos;t find this page. It may have been moved.</p>
+                <p>Oops! We can&apos;t find this page. It may have been moved or deleted.</p>
                 <p><button type="button" onClick={browserBack}>Back to previous</button></p>
               </div>
             </div>
