@@ -13,11 +13,12 @@ const FooterColumn = () => (
     ));
 
     return (
-      <div className="footer-column col-sm" key={col.name}>
+      <div className="footer-column col-6 col-sm-4 col-md-2" key={col.name}>
         {title}
         <ul className="footer-column__list">
           {links}
         </ul>
+        <div className="clearfix d-block" />
       </div>
     );
   })
