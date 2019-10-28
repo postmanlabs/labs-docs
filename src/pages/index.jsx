@@ -53,7 +53,7 @@ The Postman Learning Center has all of the resources you
     </section>
     <section className="row design">
       <div className="col-md-12 text-center">
-        <h3>Desing and Develop APIs</h3>
+        <h3>Design and Develop APIs</h3>
         <div className="row justify-content-center">
           <LandingCard
             title="Managing APIs"
@@ -117,7 +117,7 @@ Postman’s API documentation feature lets you share public or private API docum
 
     <section className="row">
       <div className="col-md-12 text-center " style={landingBottom}>
-        <h2 style={landingBottomContent}>Didn&#39;t find what your&#39;re looking for?</h2>
+        <h2 style={landingBottomContent}>Didn&#39;t find what you&#39;re looking for?</h2>
         <a href="https://www.getpostman.com/support" className="btn btn__primary">Visit our Support Center</a>
       </div>
     </section>
