@@ -9,7 +9,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
-import favicon from '../images/favicon.ico';
 
 function SEO({
   description, lang, meta, title, slug,
@@ -75,7 +74,6 @@ function SEO({
       {/* fonts */}
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet" />
       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
-      <link rel="shortcut icon" href={favicon} />
       <link rel="canonical" href={`https://learning.getpostman.com${slug}`} />
       {/* Algolia IE11 support */}
       <script src="https://polyfill.io/v3/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes" />
