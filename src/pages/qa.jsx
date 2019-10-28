@@ -71,7 +71,7 @@ const QaPage = () => (
             <div className="col-md-4 col-sm-auto">
               <h2>Validate a Response</h2>
               <p>Learn how simple it is to validate an API response in Postman.</p>
-              <a className="v5_btn v5_btn__secondary-dark v5_btn__left" href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw">Watch More Videos</a>
+              <a className="btn btn__secondary-dark btn__left" href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw">Watch More Videos</a>
             </div>
           </section>
         </TabPanel>
@@ -86,7 +86,7 @@ const QaPage = () => (
             <div className="col-md-4 col-sm-auto">
               <h2>Run a collection</h2>
               <p>Learn how to run a group of requests in the Postman Collection Runner.</p>
-              <a className="v5_btn v5_btn__secondary-dark v5_btn__left" href="/docs">Watch More Videos</a>
+              <a className="btn btn__secondary-dark btn__left" href="/docs">Watch More Videos</a>
             </div>
           </section>
         </TabPanel>
@@ -101,7 +101,7 @@ const QaPage = () => (
             <div className="col-md-4 col-sm-auto">
               <h2>Automation</h2>
               <p>Sleep better at night knowing your Postman tests are running automatically.</p>
-              <a className="v5_btn v5_btn__secondary-dark v5_btn__left" href="/docs">Watch More Videos</a>
+              <a className="btn btn__secondary-dark btn__left" href="/docs">Watch More Videos</a>
             </div>
           </section>
         </TabPanel>

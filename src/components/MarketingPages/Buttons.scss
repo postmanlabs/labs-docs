@@ -1,7 +1,7 @@
 @import '../Shared/variables';
 
 // Base button styles
-.v5_btn {
+.btn {
   appearance: none; // Corrects inability to style clickable `input` types in iOS.
   border: 1px solid transparent;
   border-radius: 3px;
@@ -22,7 +22,7 @@
   // }
 
   // Primary Button
-  &.v5_btn__primary {
+  &.btn__primary {
     color: #fff !important;
     background-color: #FF6C37 !important;
     border-color: #FF6C37 !important;
@@ -45,7 +45,7 @@
   }
 
   // Secondary Button (Dark)
-  &.v5_btn__secondary-dark {
+  &.btn__secondary-dark {
     color: #fff;
     background-color: #1C272B;
     background-image: none;
@@ -78,7 +78,7 @@
   }
 
   // Secondary Button (Light)
-  &.v5_btn__secondary-light {
+  &.btn__secondary-light {
     color: #1C272B;
     background-color: #fff;
     background-image: none;
@@ -111,13 +111,13 @@
   }
 
   //  Tertiary Button
-  &.v5_btn__tertiary {
+  &.btn__tertiary {
     color: #FF6C37 !important;
     padding: 13px 24px;
     box-shadow: none;
     text-align: center;
 
-    &:hover>.v5_btn__link-hover {
+    &:hover>.btn__link-hover {
       color: #F99B78;
       padding-bottom: 2px;
       border-bottom: 1px solid #F99B78;
@@ -126,7 +126,7 @@
     // Inline Link disabled not available
   }
 
-  &.v5_btn__small {
+  &.btn__small {
     font-size: 14px;
     padding: 12px 16px;
     text-align: center;
@@ -153,7 +153,7 @@
     background-image: none;
   }
 
-  &.v5_btn_exception-padding-removed {
+  &.btn_exception-padding-removed {
     padding: 0;
   }
 
@@ -167,8 +167,8 @@
   }
 }
 
-.v5_btn_group {
-  .v5_btn__left {
+.btn_group {
+  .btn__left {
     margin-right: 16px;
 
     // @include for-phone-only {
@@ -177,7 +177,7 @@
   }
 }
 
-.v5_btn__inline {
+.btn__inline {
   box-shadow: none;
   color: #FF6C37 !important;
   font-weight: 700;
@@ -194,7 +194,7 @@
     box-shadow: 0 0 0 0.2em rgba(#1C272B, 0.3);
   }
 
-  &.v5_btn__no-shadow {
+  &.btn__no-shadow {
 
     &:focus {
       box-shadow: 0 0 0 0;
