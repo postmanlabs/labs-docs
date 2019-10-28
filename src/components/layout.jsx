@@ -14,7 +14,7 @@ import './layout.scss';
 const Layout = ({ children }) => (
   <>
     {/* <div className="container-fluid"> */}
-    <div>
+    <div className="layout-wrapper">
       <Header />
       <main>{children}</main>
       <Footer />

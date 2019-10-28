@@ -20,11 +20,11 @@ const searchClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04
 const LoginCheck = (props) => {
   if (props !== 'getpostmanlogin') {
     return (
-      <a href="/" className="v5_btn v5_btn__primary">Login</a>
+      <a href="/" className="btn btn__primary">Login</a>
     );
   }
   return (
-    <a href="/" className="v5_btn v5_btn__primary">Dashboard</a>
+    <a href="/" className="btn btn__primary">Dashboard</a>
   );
 };
 

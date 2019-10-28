@@ -134,7 +134,7 @@ exports[`renders correctly 1`] = `
       className="nav-item"
     >
       <a
-        className="dynamic-link__external v5_btn v5_btn__primary"
+        className="dynamic-link__external btn btn__primary"
         href="https://app.getpostman.com/"
       >
         Dashboard
