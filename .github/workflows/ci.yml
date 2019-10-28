@@ -3,7 +3,7 @@ name: CI
 on: 
   pull_request:
     branches:
-    - v2migration
+    - develop
 
 jobs:
   build:
@@ -13,19 +13,10 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
-    - name: set AWS and Algolia Keys to environment
-      env:
-        GATSBY_ALGOLIA_APP_ID: ${{ secretes.GATSBY_ALGOLIA_APP_ID}}
-        GATSBY_ALGOLIA_SEARCH_KEY: ${{secrets.GATSBY_ALGOLIA_SEARCH_KEY}}
-        ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
-        AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}
-        AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
-        DIST_ID: ${{secretes.DIST_ID}}
-      run: npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket learning.getpostman-beta.com --deleteRemoved --distId E23UCAIQEFBO6 --invalidate '/*'
     - name: lint all markdownfiles
       run: |
         npm install
-        node_modules/.bin/markdownlint ./ --ignore node_modules --ignore v5
+        node_modules/.bin/markdownlint ./ --ignore node_modules --ignore legacy-documentation
     - name: check for image url
       run: |
         if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./v6 ; 
