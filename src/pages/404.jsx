@@ -10,6 +10,7 @@ const browserBack = () => {
 
 class NotFoundPage extends React.Component {
   componentDidMount() {
+    console.log('pathname is', window.location.pathname);
     if (window.location.pathname !== '/404/') {
       window.location.pathname = '/404/';
     }
