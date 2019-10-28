@@ -16,7 +16,7 @@ jobs:
     - name: lint all markdownfiles
       run: |
         npm install
-        node_modules/.bin/markdownlint ./ --ignore node_modules --ignore v5
+        node_modules/.bin/markdownlint ./ --ignore node_modules --ignore legacy-documentation
     - name: check for image url
       run: |
         if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./v6 ; 
