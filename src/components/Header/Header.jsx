@@ -43,7 +43,7 @@ class Header extends React.Component {
 
   getCookie = (a) => {
     if (typeof document !== 'undefined') {
-      const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
+      const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`);
       return b ? b.pop() : '';
     }
     return false;
@@ -79,12 +79,12 @@ class Header extends React.Component {
     return (
       <header className="header text-center navbar navbar-expand-xl navbar-light">
         <div className="navbar-brand header__brand">
-          <img className="header__logo" src={postmanLogo} alt="postman logo" />
           <Link
-            className="header__title"
+            className="header__homelink"
             to="/"
           >
-            {HeaderJson.title}
+            <img className="header__logo" src={postmanLogo} alt="postman logo" />
+            <span className="header__title">{HeaderJson.title}</span>
           </Link>
         </div>
 
