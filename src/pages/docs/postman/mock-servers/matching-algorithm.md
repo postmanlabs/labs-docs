@@ -60,11 +60,39 @@ Keeping these various configurable elements in mind, let’s take a look at the 
    * Try to additionally strip out alphanumeric ids from the input path and the example path. The threshold is reduced further, `n + 2m`.
    * If all steps fail, this saved example is not an eligible response.
 
-4. **Response code**
+4. **Wildcards**
+
+    All unresolved variables in an example’s requests, that don’t exist in the mock server’s associated environment, are treated as  wildcard variables. Wildcard variables act as capture groups for dynamic URL segments. You will find this useful if some segments of the API’s URL map to resource identifiers, like user IDs, usernames, or filename.
+
+    For example, let’s say you are mocking an endpoint that returns a user profile by ID. It takes in the user ID from the URL and returns the user ID in the response as well. So, on calling `GET {{url}}/users/{{userId}}`, the endpoint is supposed to return:
+
+    ```json
+    {
+      "id": 2,
+      "name": "Carol"
+    }
+    ```
+
+    To match a request like this in your mock, you can now use a variable in the request URL of your example. You do not need to hardcode values in the example. Instead, you can match any request sent to your mock server that match the pattern `GET /users/<userId>`. You will just have to replace the dynamic segments
+
+    Wildcard matching is only applicable to entire URL path segments.  So, the same example, `GET {{url}}/users/{{userId}}` can serve `GET /users/1`, `GET /users/100` or even `GET /users/carol`. But, it will not match `GET /users/foo/bar`.
+
+    You can use the same variables in the example’s response to use their captured values. Taking the same example, you can add a request body for the same example like this:
+
+    ```js
+    {
+      "id": {{userId}},
+      "name": "Carol"
+    }
+    ```
+
+    This will pass the value captured from the wildcard segment with the same variable name into the response.
+
+5. **Response code**
 
    If the `x-mock-response-code` header is explicitly provided, filter out all examples that do not have a matching response code.
 
-5. **Highest threshold value**
+6. **Highest threshold value**
 
    Sort the remaining filtered responses in descending order and return the response with the highest threshold value.
 
