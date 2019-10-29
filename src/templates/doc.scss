@@ -1,7 +1,8 @@
 @import '../components/Shared/variables';
 
 .doc-page {
-  padding: 15px;
+  padding-left: 49px !important;
+  padding-top: 64px;
     a {
       color: $postman-orange;
       text-decoration: none;
