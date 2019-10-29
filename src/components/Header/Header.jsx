@@ -43,7 +43,7 @@ class Header extends React.Component {
 
   getCookie = (a) => {
     if (typeof document !== 'undefined') {
-      const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
+      const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`);
       return b ? b.pop() : '';
     }
     return false;
