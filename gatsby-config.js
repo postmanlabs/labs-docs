@@ -7,7 +7,7 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: 'Postman Learning Center',
-    description: 'this is the v2 of the super cool postman learning center',
+    description: '',
     author: 'Postman',
     siteUrl: 'https://learning.getpostman.com',
   },
