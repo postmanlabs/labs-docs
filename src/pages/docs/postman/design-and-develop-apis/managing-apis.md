@@ -31,7 +31,7 @@ Alternatively, you can also create an API from your workspace in the web dashboa
 
 [![api create3](https://assets.postman.com/postman-docs/API-Create3.png)](https://assets.postman.com/postman-docs/API-Create3.png)
 
-Navigate to the APIs tab and click **Create an API** button, shown in a red circle in the above screen. The following screen opens.  
+Navigate to the APIs tab and click **Create an API** button, shown in a red circle in the above screen. The following screen opens.
 
 [![api create4](https://assets.postman.com/postman-docs/API-Create4-Dashboard.png)](https://assets.postman.com/postman-docs/API-Create3-Dashboard.png)
 
@@ -86,6 +86,20 @@ You will be able to perform all these user actions even from the dashboard, as i
 ## Commenting on APIs
 
 You can comment on your APIs the same way as you do on your collections. For more information on this, refer to [Commenting on Collections](/docs/postman/collections/commenting-on-collections/)
+
+## Schema changelog
+
+Postman v7.10 onwards,  you can see a changelog for API schemas by clicking on the  “View changelog” button in the “Design” tab of the API.
+
+![Click on the "View Changelog" button](https://assets.postman.com/postman-docs/schema-changelog-button.png)
+
+The “Schema changelog” pane shows a list of all changes made to the API schema, with the most recent change on top. You can click on each entry to expand and show the entire changeset.
+
+![The Schema Changelog pane](https://assets.postman.com/postman-docs/schema-changelog-pane.png)
+
+You can also restore the schema to an older changeset by clicking the “Restore” link under each changelog entry. Restoring any changeset other than the most recent one creates a new entry in the changelog. Restoring that change is similar to undoing a merge.
+
+![A changelog entry is created when restoring older changes](https://assets.postman.com/postman-docs/schema-changelog-merge.png)
 
 ---
 For more information on APIs, see:
