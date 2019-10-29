@@ -24,7 +24,7 @@ const LoginCheck = (props) => {
     );
   }
   return (
-    <a href="/" className="btn btn__primary">Dashboard</a>
+    <a href="https://app.getpostman.com/" className="btn btn__primary">Dashboard</a>
   );
 };
 
