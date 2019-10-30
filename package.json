@@ -4,6 +4,7 @@
   "description": "Postman Learning Center documentation project",
   "version": "0.1.0",
   "dependencies": {
+    "@github-docs/frontmatter": "^1.2.0",
     "algoliasearch": "^3.35.0",
     "autocomplete.js": "^0.37.0",
     "babel-eslint": "^10.0.3",
