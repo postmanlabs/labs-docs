@@ -27,7 +27,7 @@ const Hits = ({ hits }) => (
     {hits.map((hit) => (
       <li key={hit.title}>
         <a href={hit.fields.slug}>
-          <span dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
+          <span className="search-title" dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
           <p dangerouslySetInnerHTML={{ __html: hit._snippetResult.excerpt.value }} />
         </a>
       </li>
