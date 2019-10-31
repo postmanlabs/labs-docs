@@ -43,3 +43,10 @@ Upon approval your PR will be merged into develop for further verification and t
 ## Algolia
 
 Please note that Algolia search will not work when running the app locally. If you wish to search when running the app locally, you are welcome to use your own Algolia API keys and index the app in your own Algolia account. You can find an env.example file in the repo that shows you what keys you require to run Algolia search.
+
+## Run checks locally
+
+* npm run test | runs the Unit testing
+* npm run test:mdlint | runs the Markdownlinter
+* npm run test:lint | runs the ESlinter
+* npm run test:url | checks if acceptable image URL has been added
