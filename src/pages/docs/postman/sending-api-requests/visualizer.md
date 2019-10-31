@@ -137,7 +137,7 @@ See more visualizer code working by importing any of the following collections. 
 
 ## Visualizer API
 
-You can access visualizers from [Postman API](/docs/postman/postman-api/intro-api/). The `pm.visualizer.set()` method takes three parameters:
+You can access visualizers from the [Postman API](/docs/postman/postman-api/intro-api/). The `pm.visualizer.set()` method takes three parameters:
 
 * `layout` (required): The first parameter is a [Handlebars](https://handlebarsjs.com/) HTML template string.
 * `data` (optional): The second parameter is data that you can bind to the template. The properties of this object can be accessed in the template.
