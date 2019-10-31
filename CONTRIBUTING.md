@@ -46,7 +46,9 @@ Please note that Algolia search will not work when running the app locally. If y
 
 ## Run checks locally
 
-* npm run test | runs the Unit testing
-* npm run test:mdlint | runs the Markdownlinter
-* npm run test:lint | runs the ESlinter
-* npm run test:url | checks if acceptable image URL has been added
+Before creating a PR we recommend to running the following test locally to check that all changes will pass our linters:
+
+* npm run test  -> runs the Unit testing
+* npm run test:mdlint -> runs the Markdownlinter
+* npm run test:lint -> runs the ESlinter
+* npm run test:url -> checks if acceptable image URL has been added
