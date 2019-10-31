@@ -6,11 +6,11 @@ Check out the [contributing](CONTRIBUTING.md) guide for a step by step overview 
 
 * [Audience](#audience)
 * [Language style](#language-style)
-  * [Grammar and word choice](#grammar-and-word-choice)
-  * [Tone](#tone)
-  * [Readability](#readability)
+    * [Grammar and word choice](#grammar-and-word-choice)
+    * [Tone](#tone)
+    * [Readability](#readability)
 * [Formatting and structure](#formatting-and-structure)
-  * [Document sections](#document-sections)
+    * [Document sections](#document-sections)
 * [Images](#images)
 * [Links](#links)
 * [Publish!](#publish)
@@ -262,14 +262,14 @@ Each doc should begin with an introduction section. Subheadings should only appe
 In general, aim for the following structure:
 
 * An intro section outlining the purpose of the page and indicating / linking to any required knowledge
-  * This might include a video in some cases
+    * This might include a video in some cases
 * A main instructional section walking users through a series of generic steps showing how to carry out whatever task the page represents
-  * Subheadings to indicate the steps
-  * Images to illustrate key steps or configurations
+    * Subheadings to indicate the steps
+    * Images to illustrate key steps or configurations
 * Any supplementary material, which will vary by topic but may include the following:
-  * Any info about carrying out the task using the Postman API
-  * Links to relevant collections / templates
-  * Debugging info
+    * Any info about carrying out the task using the Postman API
+    * Links to relevant collections / templates
+    * Debugging info
 * Links to relevant follow-up material
 
 Use sentence case for headings and subheadings, only capitalizing the first word and any proper names:
