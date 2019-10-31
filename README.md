@@ -10,6 +10,7 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 * The [Code of Conduct](https://community.getpostman.com/t/postman-code-of-conduct/5)
 * The [Contribution Guidelines](CONTRIBUTING.md)
+* The [Documentation Style Guide](DOCS_STYLE_GUIDE.md)
 
 **NOTE:** We have added a new Markdown linter with GitHub Actions. When making a pull request, it will run against this linter. Your changed files are required to pass linting before they will be merged. More information on this can be found in the [contribution guidelines](CONTRIBUTING.md).
 
