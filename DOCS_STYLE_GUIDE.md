@@ -19,7 +19,7 @@ _This style guide is a work in progress, and we'll be continuing to iterate on i
 
 ## Audience
 
-The Postman community is very varied, and we aim to create an empathetic, inclusive learning experience for all. Remember that __not everyone reading this documentation is a developer__, so try to make the information as accessible as possible to anyone who happens to visit, regardless of their technical background or skill level. 
+The Postman community is very varied, and we aim to create an empathetic, inclusive learning experience for all. Remember that __not everyone reading this documentation is a developer__, so try to make the information as accessible as possible to anyone who happens to visit, regardless of their technical background or skill level.
 
 For more advanced topics, if someone doesn't have the required skills to carry out a particular task yet, we want to help them get there. Provide context by indicating prerequisites and setting clear expectations, ideally linking to support information so that people can equip themselves with the necessary understanding to carry on learning. Be aware of what you're assuming people already know, but if possible link to background info rather than including it to help keep each doc focused on its core topic.
 
@@ -27,7 +27,7 @@ Avoid unnecessary tech jargon, but don't simplify either—try to strike a balan
 
 Postman learners speak lots of different languages—but right now our docs are only available in English. Try to use clear, concise sentences so that people reading in a second language can follow along. :earth_africa::earth_americas::earth_asia:
 
-## Language style 
+## Language style
 
 The documentation in the [learning center](https://learning.getpostman.com/docs) is intended to help people learn how to use Postman, so use practical instructional language wherever possible. Be specific, and "__show, don't tell__."
 
@@ -245,7 +245,7 @@ If you include placeholder values in a code excerpt, highlight the section users
 
 ---
 
-:thumbsup::white_check_mark: 
+:thumbsup::white_check_mark:
 To send a query parameter with the request, append it to the end of the URL as a key-value pair with the parameter name:
 <pre>/posts?category=<strong><em>draft</em></strong></pre>
 
