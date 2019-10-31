@@ -1,0 +1,22 @@
+@import '../components/Shared/variables';
+
+.doc-page {
+  padding-left: 49px !important;
+  padding-top: 64px;
+    a {
+      color: $postman-orange;
+      text-decoration: none;
+      &:hover {
+        color: $gray-3;
+      }
+  }
+
+  @media (max-width: 765px) {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+.left-nav {
+  padding-left: 0px !important;
+}

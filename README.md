@@ -10,27 +10,30 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 * The [Code of Conduct](CODE_OF_CONDUCT.md)
 * The [Contribution Guidelines](CONTRIBUTING.md)
-* [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
 **NOTE:** We have added a new Markdown linter with GitHub Actions. When making a pull request, it will run against this linter. Your changed files are required to pass linting before they will be merged. More information on this can be found in the [contribution guidelines](CONTRIBUTING.md).
 
-## Build your Jekyll site locally
+## Build the Learning Center locally
 
 ```
-   $ bundle exec jekyll serve
+   $ git clone https://github.com/postmanlabs/postman-docs.git
+   $ cd postman-docs
+   $ npm install
+   $ npm install -g gatsby-cli
+   $ npm run dev
 ```
 
-For more information and help with local builds, see [Jekyll's docs](https://jekyllrb.com/docs/).
+**NOTE:** this site was build with node v12.11.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.11.0.
 
 ## Project Structure
 
-There are 2 independent versions of docs currently in the project (/v5 and /v6). The /v6 docs are the current version (/v5 docs are archived, please do not contribute to them at this time.)
+The built site will only host the most up-to-date docs. All legacy documentation is stored in github and excluded from build.
 
 ### To update the docs
 
-* Posts are maintained under the `/v6` folder.
+* Posts are maintained under the `/src/pages/docs` folder.
 
-* The folder structure of /v6 is the URL structure for posts. For example, `/v6/postman/environments_and_globals/sessions.md` is mapped to URL `https://learning.getpostman.com/docs/postman/environments_and_globals/Sessions/`.
+* The folder structure of /docs is the URL structure for posts. For example, `/docs/postman/environments_and_globals/sessions.md` is mapped to URL `https://learning.getpostman.com/docs/postman/environments_and_globals/sessions/`.
 
 * Links in the docs should be relative. Example:
 
@@ -45,7 +48,7 @@ There are 2 independent versions of docs currently in the project (/v5 and /v6).
 * [Postman Integrations](https://www.getpostman.com/integrations/)
 * [The Postman API](https://docs.api.getpostman.com/)
 * [Postman Release Notes](https://www.getpostman.com/downloads/release-notes)
-* [Postman community](https://community.getpostman.com/) on Discourse.
+* [Postman community](https://community.getpostman.com/) on Discourse
 
 ## License
 

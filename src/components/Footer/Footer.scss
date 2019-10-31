@@ -1,0 +1,148 @@
+@import '../Shared/_variables.scss';
+
+.footer {
+  background-color: $deep-space-blue;
+  color: white;
+  list-style-type: none;
+  padding: 80px 40px;
+
+  .footer-column {
+    margin-top: 40px;
+
+    .footer-column__title {
+      font-size: 16px;
+      text-transform: uppercase;
+      margin-top: 10px;
+      margin-bottom: 24px;
+    }
+
+    .footer-column__list {
+      margin: 0 auto 15px;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      font-size: 14px;
+
+      .footer-column__link {
+        color: white;
+
+        &:hover {
+          color: $bright-orange;
+          border-bottom: 1px solid;
+        }
+      }
+    }
+  }
+
+  // center in mobile view
+  #footer__social, 
+  #footer__copyright {
+    text-align: center;
+  }
+
+  #footer__social {
+    ul {
+      margin-left: 0px;
+    }
+    @media (min-width: 992px) {
+      text-align: left;
+    }
+  }
+
+  #footer__copyright {
+    li {
+      margin-right: 4px;
+    }
+    @media (min-width: 992px) {
+      text-align: right;
+    }
+  }
+
+  .footer__copyright {
+    text-align: right;
+  }
+
+  .copyright-notice {
+    display: block;
+    padding-right: 16px;
+
+    @media (min-width: 992px) {
+      display: inline;
+    }
+  }
+
+  .column__links {
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-top: 32px;
+    margin-right: 24px;
+    padding-left: 0;
+    font-size: 14px;
+
+    @media (max-width: 576px) {
+      margin: 15px 0;
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+
+    a {
+      color: #ffffff;
+      display: block;
+      line-height: 1.6;
+      padding: 8px 8px 8px 0;
+      text-decoration: none;
+
+      /* for social icons */
+      svg {
+        &:hover {
+          path {
+            fill: #F99D78;
+          }
+        }
+      }
+
+      &:hover > .link__hover, 
+      &:hover > .link__hover > .highlight-text {
+        color: #F99D78;
+        padding-bottom: 2px;
+        border-bottom: 1px solid;
+      }
+    }
+
+    &.column__social {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0;
+
+      @media (min-width: 1200px) {
+        width: auto;
+        padding-left: 20px;
+      }
+
+      li {
+        margin: 0 10px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    li {
+      font-size: 14px;
+      line-height: 28px;
+      
+      &.column-item--add-bottom-spacer {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
