@@ -29,12 +29,12 @@ Visualizers let you present your response data in ways that help to make sense o
 ## Contents
 
 * [Visualizing response data](#visualizing-response-data)
-  * [Adding visualizer code](#adding-visualizer-code)
-  * [Rendering HTML](#rendering-html)
-  * [Viewing visualizations](#viewing-visualizations)
-  * [Adding styling and interaction to visualizations](#adding-styling-and-interaction-to-visualizations)
-  * [Using your own libraries](#using-your-own-libraries)
-  * [Accessing data inside the template](#accessing-data-inside-the-template)
+    * [Adding visualizer code](#adding-visualizer-code)
+    * [Rendering HTML](#rendering-html)
+    * [Viewing visualizations](#viewing-visualizations)
+    * [Adding styling and interaction to visualizations](#adding-styling-and-interaction-to-visualizations)
+    * [Using your own libraries](#using-your-own-libraries)
+    * [Accessing data inside the template](#accessing-data-inside-the-template)
 * [Try it out](#try-it-out)
 * [Visualizer API](#visualizer-api)
 * [Debugging visualizers](#debugging-visualizers)
@@ -128,20 +128,20 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 
 See more visualizer code working by importing any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection > open a request from __Collections__ on the left sidebar in Postman > click __Send__ to run it—you'll see the rendered data in __Visualize__.
 
-- [DIY collection that renders a bar chart using ChartJS](https://documenter.getpostman.com/view/4946945/SVzz4KxB?version=latest)
+* [DIY collection that renders a bar chart using ChartJS](https://documenter.getpostman.com/view/4946945/SVzz4KxB?version=latest)
 ![Bar Chart](/bar-chart-visualizer.png)
-- [Heat map visualization](https://documenter.getpostman.com/view/4946945/SVzw6MYM?version=latest)
+* [Heat map visualization](https://documenter.getpostman.com/view/4946945/SVzw6MYM?version=latest)
 ![Heat Map](/heat-map-visualizer.png)
-- [Map of commercial airline traffic](https://documenter.getpostman.com/view/9215231/SW11XeM6?version=latest)
+* [Map of commercial airline traffic](https://documenter.getpostman.com/view/9215231/SW11XeM6?version=latest)
 ![Map Visualizer](/map-visualizer.png)
 
 ## Visualizer API
 
 You can access the Visualizer from [Postman API](/docs/postman/postman-api/intro-api/). The `pm.visualizer.set()` method takes three parameters:
 
-- `layout` (required): The first parameter is a [Handlebars](https://handlebarsjs.com/) HTML template string.
-- `data` (optional): The second parameter is data that you can bind to the template. The properties of this object can be accessed in the template.
-- `options` (optional): The third argument is an `options` object for [`Handlebars.compile()`](https://handlebarsjs.com/reference.html). You can use this to control how Handlebars compiles the template.
+* `layout` (required): The first parameter is a [Handlebars](https://handlebarsjs.com/) HTML template string.
+* `data` (optional): The second parameter is data that you can bind to the template. The properties of this object can be accessed in the template.
+* `options` (optional): The third argument is an `options` object for [`Handlebars.compile()`](https://handlebarsjs.com/reference.html). You can use this to control how Handlebars compiles the template.
 
 Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for Visualizer. You will see this rendered HTML page in the __Visualize__ tab. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template contains.
 
