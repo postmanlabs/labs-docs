@@ -18,6 +18,17 @@ contextual_links:
   - type: link
     name: "Visualizer demo"
     url: "https://www.youtube.com/watch?v=Qj7j3QsY2ok"
+  - type: subtitle
+    name: "Templates"
+  - type: link
+    name: "Visualizer D3 heatmap demo"
+    url: "https://explore.postman.com/templates/4166"
+  - type: link
+    name: "Visualizer table"
+    url: "https://explore.postman.com/templates/4220"
+  - type: link
+    name: "Visualizer Example - Map"
+    url: "https://explore.postman.com/templates/4218"
 
 ---
 
