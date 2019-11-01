@@ -14,7 +14,21 @@ import { CustomHits } from '../Search/searchPreview';
 
 const ClickOutHandler = require('react-onclickout');
 
-const searchClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04b0');
+const algoliaClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04b0');
+
+// removes empty query searches from analytics
+const searchClient = {
+  search(requests) {
+    const newRequests = requests.map((request) => {
+      // test for empty string and change request parameter: analytics
+      if (!request.params.query || request.params.query.length === 0) {
+        request.params.analytics = false;
+      }
+      return request;
+    });
+    return algoliaClient.search(newRequests);
+  },
+};
 
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
