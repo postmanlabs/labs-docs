@@ -40,8 +40,20 @@ function SEO({
           content: '58TM3lGyGn6c2Bj0PvPQSNzrd9_yBsHs2BjJ6KMHlRU',
         },
         {
+          property: 'og:url',
+          content: 'https://learning.getpostman.com',
+        },
+        {
           property: 'og:title',
           content: title,
+        },
+        {
+          property: 'og:site_name',
+          content: 'Postman Learning Center',
+        },
+        {
+          property: 'og:image',
+          content: 'https://www.getpostman.com/img/v2/logo-glyph.png',
         },
         {
           property: 'og:type',
@@ -58,6 +70,18 @@ function SEO({
         {
           name: 'twitter:title',
           content: title,
+        },
+        {
+          property: 'twitter:domain',
+          content: 'https://learning.getpostman.com',
+        },
+        {
+          property: 'og:image',
+          content: 'https://www.getpostman.com/img/v2/logo-glyph.png',
+        },
+        {
+          property: 'twitter:site',
+          content: '@getpostman',
         },
       ].concat(meta)}
     >
