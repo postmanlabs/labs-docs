@@ -171,7 +171,7 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 
 `pm.environment:` [Read more about VariableScope](http://www.postmanlabs.com/postman-collection/VariableScope.html)
 
-* `pm.environment.name`: Contains the name of the current environment. 
+* `pm.environment.name`: Contains the name of the current environment.
 * `pm.environment.has(variableName:String):function → Boolean`: Check if the environment has a variable with the given name.
 * `pm.environment.get(variableName:String):function → *`: Get the environment variable with the given name.
 * `pm.environment.set(variableName:String, variableValue:String):function`: Sets an environment variable with the given name and value.
