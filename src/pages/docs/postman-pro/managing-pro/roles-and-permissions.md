@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Migrating to Postman v7"
-    url: "https://learning.getpostman.com/docs/postman-pro/managing-postman-pro/migrating-to-v7/"
+    url: "https://learning.getpostman.com/docs/postman-pro/managing-pro/migrating-to-v7/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -144,4 +144,4 @@ A user's role determines what they can and cannot do in Postman. Each role has a
 
 ### Migrating to Postman v7
 
-To know more about migration-related information, please refer to [migrating to v7](/docs/postman-pro/managing-postman-pro/migrating-to-v7/) section.
+To know more about migration-related information, please refer to [migrating to v7](/docs/postman-pro/managing-pro/migrating-to-v7/) section.
