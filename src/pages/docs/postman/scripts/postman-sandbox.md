@@ -45,7 +45,7 @@ Note: jQuery support has been discontinued since version 4.6.0, in favor of [ch
 
 ## Environment and global variables
 
-* `pm.environment.name`: Returns the name of the current environment. Returns `null` if no environment is selected.
+* `pm.environment.name`: Contains the name of the current environment. Returns `null` if no environment is selected.
 * `pm.environment.set("variableName", variableValue)`: Sets an environment variable “variableName”, and assigns the string “variableValue” to it. You must have an environment selected for this method to work. **Note**: Only strings can be stored. Storing other types of data will result in unexpected behavior.
 * `pm.environment.get("variableName")`: Returns the value of an environment variable “variableName”, for use in pre-request & test scripts. You must have an environment selected for this method to work.
 * `pm.environment.has("variableName")`: Returns `true` if an environment variable by the name `"variableName"` exists.
