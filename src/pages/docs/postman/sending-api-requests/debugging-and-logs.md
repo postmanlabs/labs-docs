@@ -55,7 +55,7 @@ To access the console logs, follow these steps:
 * Type `chrome://flags/#debug-packed-apps` in the URL bar in your Chrome browser window.
 * Search for "packed" or try to find the "Enable debugging for packed apps" setting.
 * Enable the setting.
-[![enable in chrome settings](https://www.getpostman.com/img/v1/docs/flags.png)](https://www.getpostman.com/img/v1/docs/flags.png)
+[![enable in chrome settings](https://www.getpostman.com/img/v1/docs/flags.png)](https://assets.postman.com/postman-docs/flags.png)
 * Restart Chrome. Once this is done, you can access the Developer Tools window by right clicking anywhere inside Postman and selecting "inspect element". You can also go to `chrome://inspect/#apps` and then click "inspect" just below requester.html under the Postman heading.
 
 ## Network Calls with Postman Console

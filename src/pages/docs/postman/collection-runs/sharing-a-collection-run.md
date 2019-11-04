@@ -19,7 +19,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to Workspaces"
-    url: "/docs/postman/collection-runs/docs/postman/workspaces/intro-to-workspaces/"
+    url: "/docs/postman/workspaces/intro-to-workspaces/"
 
 warning: false
 ---
