@@ -12,7 +12,7 @@ contextual_links:
     url: "https://learning.getpostman.com/docs/postman/workspaces/intro-to-workspaces"
   - type: link
     name: "Managing yout team"
-    url: "https://learning.getpostman.com/docs/postman-pro/managing-postman-pro/managing-your-team"
+    url: "https://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team"
   - type: section
     name: "Additional Resources"
   - type: subtitle

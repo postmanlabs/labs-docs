@@ -95,9 +95,9 @@ Now that you understand how to construct data files, let's supply this data file
 
 Click "Select File" in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking "Preview" next to the file name.
 
-[![collection runner view](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_view.png)](https://assets.postman.com/postman-docs/working_with_data_files/collection_runner_view.png)
+[![collection runner view](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_view.png)](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_view.png)
 
-[![preview data](https://assets.postman.com/postman-docs/working_with_datafiles/preview_data.png)](https://assets.postman.com/postman-docs/working_with_data_files/preview_data.png)
+[![preview data](https://assets.postman.com/postman-docs/working_with_datafiles/preview_data.png)](https://assets.postman.com/postman-docs/working_with_datafiles/preview_data.png)
 
 Let's run our collection now. You'll see that all tests pass now.
 

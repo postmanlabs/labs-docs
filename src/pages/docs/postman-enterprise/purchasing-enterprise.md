@@ -43,6 +43,6 @@ Enter your credit card billing and payment details. The subscription for Postman
 
 [![credit card 2](https://assets.postman.com/postman-docs/enterprise-cc2.png)](https://assets.postman.com/postman-docs/enterprise-cc2.png)
 
-Once you've successfully submitted your payment details, you can see your current plan back on the billing page. Next, you can add user slots and [manage your team members' roles](/docs/postman-pro/managing-postman-pro/managing-your-team/) or [set up monitoring blocks](/docs/postman/monitors/pricing-monitors/#request-blocks-for-paid-pro-teams).
+Once you've successfully submitted your payment details, you can see your current plan back on the billing page. Next, you can add user slots and [manage your team members' roles](/docs/postman-pro/managing-pro/managing-your-team/) or [set up monitoring blocks](/docs/postman/monitors/pricing-monitors/#request-blocks-for-paid-pro-teams).
 
 [![enterprise confirmation](https://assets.postman.com/postman-docs/purchasingenterprise4.png)](https://assets.postman.com/postman-docs/purchasingenterprise4.png)
