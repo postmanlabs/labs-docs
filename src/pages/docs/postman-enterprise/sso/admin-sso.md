@@ -35,7 +35,7 @@ In the **ADD AUTHENTICATION METHOD** modal, select the authentication type. Ente
 
 **Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
-   [![details](https://assets.postman.com/postman-docs/Okta-IDP-Details1a.png)](https://assets.postman.com/postman-docs/Okta1a-IDP-Details.png)
+   [![details](https://assets.postman.com/postman-docs/Okta-IDP-Details1a.png)](https://assets.postman.com/postman-docs/Okta-IDP-Details1a.png)
 
 In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated.
 

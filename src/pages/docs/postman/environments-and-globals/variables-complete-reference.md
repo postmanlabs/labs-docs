@@ -129,7 +129,7 @@ pm.globals.set("key", "value");
 
 The following image depicts the way variables work in Postman.
 
-[![variables scope pictorially](https://assets.postman.com/postman-docs/Variables-Chart.png)](https://assets.postman.com/postman-docs/ariables-Chart.png)
+[![variables scope pictorially](https://assets.postman.com/postman-docs/Variables-Chart.png)](https://assets.postman.com/postman-docs/Variables-Chart.png)
 
 As you can see in the above illustration, you can't set data and collection variables. You can only get data variables using a data file from the Runner while collection variables can be set from the Postman UI. You can also see that ```pm.variables.get ()``` is going through all the layers. If a same variable exists in an environment and global scope, you can access using ```pm.environment.get ()``` and ```pm.global.get ()``` respectively. If you use ```pm.variables.get ()```, you will only get the one that has the highest precedence - which is environment. If you have the same variable in an environment, global, and collections scope, then you can directly access global and environment variable but you can't access a collection variable. If you use ```pm.variables.get ()```, Postman will fetch the environment variable as it has higher precedence than collections.
 

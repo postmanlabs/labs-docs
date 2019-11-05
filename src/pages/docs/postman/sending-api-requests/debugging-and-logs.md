@@ -48,14 +48,14 @@ To access the console logs, follow these steps:
 * Head to `View` in the application menu, and click on "Show DevTools".
 * In the DevTools window, clicking on the top level Console tab should show the app's debug logs.
 
-[![DevTools view of logs](https://www.getpostman.com/img/v1/docs/errors-console.png)](https://www.getpostman.com/img/v1/docs/errors-console.png)
+[![DevTools view of logs](https://assets.postman.com/postman-docs/errors-console.png)](https://assets.postman.com/postman-docs/errors-console.png)
 
 ### For the Chrome app
 
 * Type `chrome://flags/#debug-packed-apps` in the URL bar in your Chrome browser window.
 * Search for "packed" or try to find the "Enable debugging for packed apps" setting.
 * Enable the setting.
-[![enable in chrome settings](https://www.getpostman.com/img/v1/docs/flags.png)](https://assets.postman.com/postman-docs/flags.png)
+[![enable in chrome settings](https://assets.postman.com/postman-docs/flags.png)](https://assets.postman.com/postman-docs/flags.png)
 * Restart Chrome. Once this is done, you can access the Developer Tools window by right clicking anywhere inside Postman and selecting "inspect element". You can also go to `chrome://inspect/#apps` and then click "inspect" just below requester.html under the Postman heading.
 
 ## Network Calls with Postman Console
@@ -70,4 +70,4 @@ Head to `View` in the application menu, and click on "Show Postman Console" or 
 
 You can also use the DevTools window to inspect the request and response payloads. If the Interceptor is disabled, switch to the Network tab, and you should see each call as it's made. Clicking on this will let you view the headers and payloads for the requests and responses:
 
-[![show DevTools console](https://www.getpostman.com/img/v1/docs/errors-network.png)](https://www.getpostman.com/img/v1/docs/errors-network.png)
+[![show DevTools console](https://assets.postman.com/postman-docs/errors-network.png)](https://assets.postman.com/postman-docs/errors-network.png)
