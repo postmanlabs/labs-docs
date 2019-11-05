@@ -34,7 +34,7 @@ const searchClient = {
 const LoginCheck = (props) => {
   if (props !== 'getpostmanlogin') {
     return (
-      <a href="https://identity.getpostman.com/login" className="btn btn__primary">Login</a>
+      <a href="https://identity.getpostman.com/login" className="btn btn__primary">Sign In</a>
     );
   }
   return (
