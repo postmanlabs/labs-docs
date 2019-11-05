@@ -119,7 +119,7 @@ To share an environment, click the gear icon in the upper right corner of the Po
 
 In the Manage Environments tab, click the Duplicate Environment icon next to the environment you want to share.
 
-[![duplicate](https://assets.postman.com/postman-docs/Env&Globals8_b.png)](https://assets.postman.com/postman-docs/Env&Globals.png)
+[![duplicate](https://assets.postman.com/postman-docs/Env&Globals8_b.png)](https://assets.postman.com/postman-docs/Env&Globals8_b.png)
 
 It's best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others.
 

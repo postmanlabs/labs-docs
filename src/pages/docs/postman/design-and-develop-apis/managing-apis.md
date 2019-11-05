@@ -34,7 +34,7 @@ Alternatively, you can also create an API from your workspace in the web dashboa
 
 Navigate to the APIs tab and click **Create an API** button, shown in a red circle in the above screen. The following screen opens.
 
-[![api create4](https://assets.postman.com/postman-docs/API-Create4-Dashboard.png)](https://assets.postman.com/postman-docs/API-Create3-Dashboard.png)
+[![api create4](https://assets.postman.com/postman-docs/API-Create4-Dashboard.png)](https://assets.postman.com/postman-docs/API-Create4-Dashboard.png)
 
 Specify a name for your API and click the '&#9745;' adjacent to the name. Your API is created.
 

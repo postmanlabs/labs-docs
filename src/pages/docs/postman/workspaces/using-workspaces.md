@@ -56,7 +56,7 @@ When you remove an element from a workspace, it is no longer visible in that par
 
 From the Postman app, you can remove a collection from the sidebar. Click the ellipsis **(...)** next to the collection you would like to remove. Select "Remove from Workspace" and confirm that you would like to remove the collection from the current workspace. The collection will no longer be visible in the workspace.
 
-[![remove collection from workspace](https://assets.postman.com/postman-docs/Workspaces_Remove.png)](https://assets.postman.com/postman-docs/Workspaces_Remove.png.png)
+[![remove collection from workspace](https://assets.postman.com/postman-docs/Workspaces_Remove.png)](https://assets.postman.com/postman-docs/Workspaces_Remove.png)
 
 From the Postman app, you can remove an environment from the **Manage Environments** modal. Click the ellipsis **(...)** next to the environment you would like to remove. Select "Remove from Workspace" and confirm that you would like to remove the environment from the current workspace. The environment will no longer be visible in the workspace.
 

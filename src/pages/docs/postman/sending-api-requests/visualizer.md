@@ -34,7 +34,7 @@ contextual_links:
 
 Postman provides a programmable way to visually represent your request [responses](/docs/postman/sending_api_requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
 
-[![Visualizer bar chart rendering](https://assets.postman.com/postman-docs/visualizer-barchart.png)](https://assets.postman.com/postman-docs/visualizer_barchart.png)
+[![Visualizer bar chart rendering](https://assets.postman.com/postman-docs/visualizer-barchart.png)](https://assets.postman.com/postman-docs/visualizer-barchart.png)
 
 Visualizers let you present your response data in ways that help to make sense of it. You can use visualizers to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman collection](/docs/postman/collections/sharing_collections/), other people on your team can also see your visualizations within the context of each request.
 

@@ -2,7 +2,7 @@
 
 When contributing to this repository, please first discuss the change you wish to make via [Issues](https://github.com/postmanlabs/postman-docs/issues).
 
-Please note we have a [code of conduct](https://github.com/postmanlabs/postman-docs/Code_of_Conduct.md), please follow it in all your interactions with the project.
+Please note we have a [code of conduct](https://community.getpostman.com/t/postman-code-of-conduct/5), please follow it in all your interactions with the project.
 
 ## Development Process
 
@@ -14,7 +14,7 @@ We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes t
 * Checkout the `develop` branch. `git checkout develop`
 * Create a new branch for your work based on develop `git checkout -b <YOUR BRANCH NAME>` Your branch name should be something descriptive of the changes you wish to make, and include the Issue number this change is associated with. Example: `1234-update-mock-api-docs`
 * Run `npm install` to add all dependencies
-* Make your changes. The Learning Center's documentation is built from the `.md` files in the `v6` folder of the repo
+* Make your changes. The Learning Center's documentation is built from the `.md` files in the `docs` folder of the repo
 * Check your files against our markdown guidelines by running `npm run test:mdlint` and resolve any errors
 * When you're ready to apply your changes, push your changed files to your forked repo
     * `git add <FILENAMES OF CHANGED FILES>`
@@ -39,16 +39,3 @@ When your PR is opened it will run GitHub Actions which will lint the markdown f
 Upon approval your PR will be merged into develop for further verification and then merged into master upon final approval.
 
 [homepage]: https://learning.getpostman.com
-
-## Algolia
-
-Please note that Algolia search will not work when running the app locally. If you wish to search when running the app locally, you are welcome to use your own Algolia API keys and index the app in your own Algolia account. You can find an env.example file in the repo that shows you what keys you require to run Algolia search.
-
-## Run checks locally
-
-Before creating a PR we recommend to running the following test locally to check that all changes will pass our linters:
-
-* npm run test  -> runs the Unit testing
-* npm run test:mdlint -> runs the Markdownlinter
-* npm run test:lint -> runs the ESlinter
-* npm run test:url -> checks if acceptable image URL has been added

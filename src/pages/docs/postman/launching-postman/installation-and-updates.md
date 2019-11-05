@@ -237,7 +237,7 @@ You can find more details about the error from the DevTools. Open it from `View 
 
 ### Update button not available
 
-If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', you would see that there is no `Check for updates` button. This is because the updates are handled by Snap itself and it would automatically update Postman on a regular cadence. It you are on Postman v6, you would have to migrate your team to Postman v7 and then change the Snap channel to get the latest updates. For more information see [Migrating to Postman v7](/docs/postman-pro/managing-postman-pro/migrating-to-v7).
+If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', you would see that there is no `Check for updates` button. This is because the updates are handled by Snap itself and it would automatically update Postman on a regular cadence. It you are on Postman v6, you would have to migrate your team to Postman v7 and then change the Snap channel to get the latest updates. For more information see [Migrating to Postman v7](/docs/postman-pro/managing-pro/migrating-to-v7).
 
 ## Postman Chrome App
 
