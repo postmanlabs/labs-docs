@@ -3,20 +3,28 @@
 .doc-page {
   padding-left: 49px !important;
   padding-top: 64px;
-    pre {
-      font-size: 87.5%;
-      color: #282828;
-      word-break: break-word;
-      background-color: rgba(109, 127, 145, 0.2);
-      border-radius: 2px;
-      padding: 4px;
+  pre {
+    background-color: rgba(109, 127, 145, 0.2);
+    border-radius: 2px;
+    padding: 16px;
+    code {
+      background: none;
     }
-    a {
-      color: $postman-orange;
-      text-decoration: none;
-      &:hover {
-        color: $gray-3;
-      }
+  }
+  code {
+    font-size: 87.5%;
+    color: #282828;
+    word-break: break-word;
+    background-color: rgba(109, 127, 145, 0.2);
+    border-radius: 2px;
+    padding: 4px;
+  }
+  a {
+    color: $postman-orange;
+    text-decoration: none;
+    &:hover {
+      color: $gray-3;
+    }
   }
 
   @media (max-width: 765px) {
