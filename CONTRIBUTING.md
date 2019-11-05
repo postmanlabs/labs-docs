@@ -39,3 +39,16 @@ When your PR is opened it will run GitHub Actions which will lint the markdown f
 Upon approval your PR will be merged into develop for further verification and then merged into master upon final approval.
 
 [homepage]: https://learning.getpostman.com
+
+## Algolia
+
+Please note that Algolia search will not work when running the app locally. If you wish to search when running the app locally, you are welcome to use your own Algolia API keys and index the app in your own Algolia account. You can find an env.example file in the repo that shows you what keys you require to run Algolia search.
+
+## Run checks locally
+
+Before creating a PR we recommend to running the following test locally to check that all changes will pass our linters:
+
+* npm run test  -> runs the Unit testing
+* npm run test:mdlint -> runs the Markdownlinter
+* npm run test:lint -> runs the ESlinter
+* npm run test:url -> checks if acceptable image URL has been added
