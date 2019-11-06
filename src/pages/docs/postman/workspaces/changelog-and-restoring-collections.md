@@ -65,7 +65,7 @@ You can also review the activity for a workspace from the [Workspaces dashboard]
 
 ## Viewing team activity
 
-You can review the activity for a team with a Postman Pro or Enterprise account. In the [Postman web app](https://app.getpostman.com), use the __Workspaces__ dropdown to select your team, the open the __Activity__ tab to review the events.
+You can review the activity for a team with a Postman Pro or Enterprise account. In the [Postman web app](https://app.getpostman.com), use the __Workspaces__ dropdown to select your team, then open the __Activity__ tab to view the events.
 
 ## Viewing user activity
 
@@ -73,9 +73,15 @@ You can review the activity for your own account in the [Postman web app](https:
 
 ## Restoring collections
 
-With a Postman Pro or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Click __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update to confirm that the collection was restored.
+With a Postman Pro or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Click __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update and Postman will display a confirmation message indicating the time the collection has been restored to.
 
 ![Restore from Changelog](https://user-images.githubusercontent.com/6666370/68316570-93606180-00b1-11ea-83f3-e3e02092c660.png)
+
+You may see a warning on any request tabs you have open that are affected by reverting the collection, for example indicating a conflict or deletion.
+
+![Revert conflict](https://user-images.githubusercontent.com/6666370/68321200-3072c880-00b9-11ea-98ba-d42e6aaccbe8.png)
+
+Postman will prompt you to resolve any conflicts that may cause you to lose unsaved data.
 
 ## Exporting team activity to other platforms
 
