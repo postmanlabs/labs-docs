@@ -47,11 +47,11 @@ To review the changelog for a collection in Postman, select the __Collections__ 
 
 The changelog indicates the date of each update, the user who carried it out, what type of update they performed, and the time the change occurred. The changelog collates consecutive updates on the same session to the same entity for readability.
 
-![Collection Changelog](https://user-images.githubusercontent.com/6666370/68310435-ea613900-00a7-11ea-8ceb-af601ec5d502.png)
+![Collection Changelog](https://assets.postman.com/postman-docs/collection-changelog.png)
 
 With a Postman Pro or Enterprise account, you can see generated diffs detailing changes to a collection.
 
-![Changelog diffs](https://user-images.githubusercontent.com/6666370/68315651-f9e48000-00af-11ea-8e94-1d4c863c4442.png)
+![Changelog diffs](https://assets.postman.com/postman-docs/changelog-diff.png)
 
 You can alternatively review a collection changelog from the [Workspaces dashboard](https://app.getpostman.com/dashboard) by selecting a workspace and collection.
 
@@ -59,7 +59,7 @@ You can alternatively review a collection changelog from the [Workspaces dashboa
 
 You can review an activity feed for a workspace in the Postman app. In the status bar at the bottom, toggle to the __Browse__ view. Select the __Activity__ tab to see events that have occurred within the workspace.
 
-![Workspace Activity](https://user-images.githubusercontent.com/6666370/68311079-f0a3e500-00a8-11ea-9042-4d504626312e.png)
+![Workspace Activity](https://assets.postman.com/postman-docs/workspace-activity.png)
 
 You can also review the activity for a workspace from the [Workspaces dashboard](https://app.getpostman.com/dashboard) in the Postman web app.
 
@@ -75,11 +75,11 @@ You can review the activity for your own account in the [Postman web app](https:
 
 With a Postman Pro or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Click __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update and Postman will display a confirmation message indicating the time the collection has been restored to.
 
-![Restore from Changelog](https://user-images.githubusercontent.com/6666370/68316570-93606180-00b1-11ea-83f3-e3e02092c660.png)
+![Restore from Changelog](https://assets.postman.com/postman-docs/restore-changelog.png)
 
 You may see a warning on any request tabs you have open that are affected by reverting the collection, for example indicating a conflict or deletion.
 
-![Revert conflict](https://user-images.githubusercontent.com/6666370/68321200-3072c880-00b9-11ea-98ba-d42e6aaccbe8.png)
+![Revert conflict](https://assets.postman.com/postman-docs/revert-conflict.png)
 
 Postman will prompt you to resolve any conflicts that may cause you to lose unsaved data.
 
