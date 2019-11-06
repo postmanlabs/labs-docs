@@ -81,7 +81,7 @@ If you're developing an application, carrying out an API-first development proje
     * [Intro to collection runs](/docs/postman/collection-runs/intro-to-collection-runs/)
     * [Command line integration with Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
     * [Intro to monitoring](/docs/postman/monitors/intro-monitors/)
-* Follow an API-first workflow, designing your schema, creating specs, and sharing visualized request data with teammates:
+* Follow an API-first workflow, designing your schema, creating specs, and sharing visualized request data for input:
     * [The API workflow](/docs/postman/design-and-develop-apis/the-api-workflow/)
     * [Visualizing API responses](/docs/postman/sending-api-requests/visualizer/)
 
@@ -89,7 +89,7 @@ If you're developing an application, carrying out an API-first development proje
 
 ![Testing](https://www.getpostman.com/img/v2/uses-cases/test-automation-in-postman.png)
 
-If you're QA testing an API, regression testing, automating manual tests, or carrying out exploratory tests, Postman provides a variety of features that can help streamline the process.
+If you're QA testing an API, regression testing a recent change to functionality, automating your manual tests, or carrying out exploratory testing, Postman provides can help streamline the process.
 
 * Test your API with custom scripts utilizing the Postman sandbox libraries:
     * [Intro to scripts](/docs/postman/scripts/intro-to-scripts/)
@@ -112,9 +112,9 @@ If you're QA testing an API, regression testing, automating manual tests, or car
 
 ![Product management](https://www.getpostman.com/img/v2/uses-cases/use-cases-developer-portal-postman.svg)
 
-If you're working in product management, are an engineering manager / lead, a tech writer, or you're working in developer relations, you can use Postman to collaborate with your team and partners to spec an API and help consumers adopt it. 
+If you're working in product management, are an engineering manager / lead, a tech writer, or are involved in developer relations, you can use Postman to communicate with colleagues and partners to spec an API and help consumers adopt it.
 
-* Collaborate with stakeholders on your team:
+* Collaborate with stakeholders on your team by discussing and agreeing on API details:
     * [Collaboration](/docs/postman/launching-postman/collaboration/)
     * [Commenting on collections](/docs/postman/collections/commenting-on-collections/)
     * [Sharing APIs and managing roles](/docs/postman/design-and-develop-apis/sharing-apis/)
@@ -138,4 +138,4 @@ If you are using Postman for a use case not mentioned above, or just want to lea
 
 ## Providing feedback
 
-Share your thoughts on the documentation and help the Postman team to improve it for yourself and other learners! To submit feedback please [create an issue on the documentation GitHub repo](https://github.com/postmanlabs/postman-docs/issues) or post in the [community forum](https://community.getpostman.com/). _To provide feedback, report a bug, or make a feature request for the Postman app itself, please use the [Postman App Support](https://github.com/postmanlabs/postman-app-support/issues) repo._
+Share your thoughts on the documentation and help the Postman team to improve it for yourself and other learners! To submit feedback, please [create an issue on the documentation GitHub repo](https://github.com/postmanlabs/postman-docs/issues) or post in the [community forum](https://community.getpostman.com/). _To provide feedback, report a bug, or make a feature request for the Postman app itself, please use the [Postman App Support](https://github.com/postmanlabs/postman-app-support/issues) repo._
