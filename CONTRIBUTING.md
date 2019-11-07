@@ -40,6 +40,21 @@ Upon approval your PR will be merged into develop for further verification and t
 
 [homepage]: https://learning.getpostman.com
 
+## Adding/Editing Images
+
+If you would like to add, edit or replace images you are welcome to do so. There are two ways in which you can achieve this:
+
+* You can upload the image to your GitHub Pull-Request and link the image
+* You can host the image and link to your own hosted image
+
+**Note**:
+
+Images hosted by Postman should always be referenced as follows:
+
+``` bash
+https://assets.postman.com/postman-docs/<filename>.png
+```
+
 ## Algolia
 
 Please note that Algolia search will not work when running the app locally. If you wish to search when running the app locally, you are welcome to use your own Algolia API keys and index the app in your own Algolia account. You can find an env.example file in the repo that shows you what keys you require to run Algolia search.
