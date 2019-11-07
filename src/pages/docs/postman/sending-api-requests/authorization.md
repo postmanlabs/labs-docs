@@ -1,32 +1,27 @@
 ---
-title: "Authorization"
+title: "Authorizing Requests"
 order: 19
 page_id: "authorization"
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
+    name: "Sending your first request"
+    url: "/docs/postman/launching-postman/sending-the-first-request/"
+  - type: link
     name: "Requests"
     url: "/docs/postman/sending-api-requests/requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Intuit"
-    url: "https://www.getpostman.com/case-studies/Intuit.pdf?_ga=2.199066473.754547870.1571851340-1454169035.1570491567"
-  - type: link
-    name: "BetterCloud"
-    url: "https://www.getpostman.com/case-studies/BetterCloud.pdf?_ga=2.199066473.754547870.1571851340-1454169035.1570491567"
-  - type: subtitle
     name: "Videos"
   - type: link
-    name: "New to Postman Part 2: authorizing a request"
-    url: "https://www.youtube.com/watch?v=d519r1stILE"
+    name: "Intro to Postman: Authorizing a request"
+    url: "https://www.youtube.com/watch?v=Q23wkkfezfM"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Generate Spotify Playlists using a Postman COllection"
+    name: "Generate Spotify playlists using a Postman collection"
     url: "https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/?_ga=2.227822043.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Keep it DRY with collection and folder elements"
@@ -41,80 +36,84 @@ contextual_links:
 warning: false
 
 ---
-The authorization process verifies whether you have permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
-**Note:** If you have session cookies in your browser, you can sync them to Postman using the Interceptor. Refer to the section [Cookies](/docs/postman/sending-api-requests/cookies/) for more information on syncing cookies using Interceptor.
+APIs use authorization to ensure that requests access data securely. This can involve authenticating the sender of the request and verifying that they have permission to access or manipulate the relevant data. If you're building an API, you can choose from a variety of auth models. If you're integrating a third-party API, the required authorization will be specified by the API provider.
 
-When you select "Authorization" in the request builder, you see the **TYPE** drop down menu.
+You can pass auth details along with any request you send in Postman. Auth data can be passed in the header, body, or as parameters to a request. If you enter your auth details in the __Authorization__ tab, Postman will automatically populate the relevant parts of the request for your chosen auth type. You can use variables and collections to define authorization details more safely and efficiently, letting you reuse the same information in multiple places.
 
-* Inherit auth from parent
-* No Auth
-* Bearer Token
-* Basic auth
-* Digest Auth
-* OAuth 1.0
-* OAuth 2.0
-* Hawk Authentication
-* AWS Signature
-* NTLM Authentication [Beta]
+## Contents
 
-**Note:** NTLM and Bearer token are only available in Postman native apps ([download native app](https://www.getpostman.com/downloads/)). All other authorization types are available in Postman native apps and the Chrome app. Note that the [Postman Chrome app is being deprecated](https://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/).
+* [Specifying authorization details](#specifying-authorization-details)
+    * [Inherit auth](#inheriting-auth)
+    * [No auth](#no-auth)
+    * [API key](#api-key)
+    * [Bearer token](#bearer-token)
+    * [Basic auth](#basic-auth)
+    * [Digest auth](#digest-auth)
+    * [OAuth 1.0](#oauth-10)
+    * [OAuth 2.0](#oauth-20)
+    * [Hawk authentication](#hawk-authentication)
+    * [AWS Signature](#aws-signature)
+    * [NLTM authentication](#nltm-authentication)
+    * [Akamai EdgeGrid](#akamai-edgegrid)
+* [Syncing cookies](#syncing-cookies)
+* [Next steps](#next-steps)
 
-[![auth menu](https://assets.postman.com/postman-docs/WS-auth-menu.png)](https://assets.postman.com/postman-docs/WS-auth-menu.png)
+## Specifying authorization details
 
-You can use environment, collection, or global variables with all authorization types. In addition to using these in the Postman app, you can also use these authorization types with Newman or Postman monitors.
+With a request open in Postman, use the __Authorization__ tab __Type__ dropdown to select an auth type. Postman will prompt you to complete the relevant details for your selected type. The correct data values will be determined by your API at the server side—if you're using a third party API you will need to refer to the provider for any required auth details.
 
-Postman does not save header data and query parameters to prevent sensitive data exposure, such as API keys, to the public.
+![Auth Types](https://assets.postman.com/postman-docs/authorization-types.png)
 
-If you want to inspect the authorization headers and parameters that Postman generates, click the **Preview Request** button.
+___Note:___ _You can use these auth types with Newman and Postman monitors as well as in the app._
 
- [![auth menu](https://assets.postman.com/postman-docs/WS-preview-request.png)](https://assets.postman.com/postman-docs/WS-preview-request.png)
+When you select a type, Postman indicates which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Click __Preview Request__ to see how your auth data will be added to the request before attempting to send it.
 
-**Note:** You can inspect a raw dump of the entire request in the Postman console after you send it.
+![Preview Request](https://assets.postman.com/postman-docs/preview-request.png)
 
-## Inherit auth from parent
+Your requests can use environment, collection, and global [variables](/docs/postman/environments-and-globals/variables/). Postman does not save header data or query parameters to avoid exposing sensitive data such as API keys.
 
-### Adding authorization to a collection or folder
+___Note:___ _You can inspect a raw dump of the entire request including auth data in the Postman console after you send it._
 
-Suppose you [add a folder](/docs/postman/collections/managing-collections#adding-folders) to a collection. Under the **Authorization** tab, the default authorization type is set to “Inherit auth from parent”.
+## Inherit auth
 
-The “Inherit auth from parent” setting indicates that every request in this folder by default uses the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder uses “No Auth”, meaning all requests in that folder will use “No Auth”.
+If you group your requests in [collections](/docs/postman/collections/intro-to-collections/) and [folders](/docs/postman/collections/managing-collections/#adding-folders), you can specify auth details to reuse throughout a group.
 
-[![folder auth](https://assets.postman.com/postman-docs/WS-add-auth-folder.png)](https://assets.postman.com/postman-docs/WS-add-auth-folder.png)
+Select a collection or folder in __Collections__ on the left of the Postman app. Use the overflow button (__...__) to open the options and select __Edit__ to configure the collection or folder detail.
 
-What if you want to leave the parent collection authorization type as “No Auth”, but update this specific folder’s authorization helper? You can edit the folder details, select “Basic Auth” from the **TYPE** dropdown, and input your credentials. As a result, every request in this folder relies on “Basic Auth” while the rest of the requests in the parent collection still do not use any authorization.
+![Edit Collection](https://assets.postman.com/postman-docs/edit-collection.png)
 
-[![folder basic auth](https://assets.postman.com/postman-docs/WS-folder-edit.png)](https://assets.postman.com/postman-docs/WS-folder-edit.png)
+In the edit view, select the __Authorization__ tab.
 
-Similarly, if you want to update the authorization for a single request in this folder, you can simply select a different authorization type for that request.
+![Collection Authorization](https://assets.postman.com/postman-docs/collection-auth.png)
 
-If you have a group of requests that all require the same authorization, you can define the authorization for all requests in a collection or folder, or simply for every request individually. If you create a new collection or folder, every subsequent request in the parent element inherits the authorization definition, unless the user explicitly selects another type.
+By default, requests inside the collection or folder will inherit auth from the parent, which means that they'll use the same auth that you've specified at the folder or collection level. To change this for an individual request, make a different selection in the request __Authorization__ tab. 
 
-To update the collection or folder authorization, click on the ellipsis (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Authorization** tab to select an authorization type from the **TYPE** dropdown. You can also add collection authorization when initially creating the collection.  
+![Inherit Authorization](https://assets.postman.com/postman-docs/inherit-auth.png)
 
-[![select folder basic auth](https://assets.postman.com/postman-docs/WS-auth-select-folder-basic.png)](https://assets.postman.com/postman-docs/WS-auth-select-folder-basic.png)
+You can choose an authorization type upfront using the same technique when you first create a collection or folder.
 
-For example, if you create a collection with "Basic Auth", every request within the collection will use the same authorization helper. If you want a specific request in the collection to use a different authorization, or no authorization at all, use the **TYPE** dropdown under the **Authorization** tab to define the authorization helper for the specific request.
+## No auth
 
-## No Auth
-
-By default "No Auth" appears first on the drop down menu list. Use "No Auth" when you don’t need an authorization parameter to send a request.
+Postman will not attempt to send authorization details with a request unless you specify an auth type. If your request does not require authorization, select __No Auth__ from the __Authorization__ tab __Type__ dropdown list.
   
-## Bearer Token
+## Bearer token
 
-A bearer token is a security token. Any user with a bearer token can use it to access data resources without using a cryptographic key.
+Bearer tokens allow requests to authenticate using an access key. The token is a text string, included in the request header. In the request __Authorization__ tab, select __Bearer Token__ from the __Type__ dropdown list. In the __Token__ field, enter your API key value—or for added security, store it in a variable and reference the variable by name.
 
-To use a bearer token:
+![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-value.png)
 
-1. In the **Authorization** tab, select "Bearer Token" from the **TYPE** drop down menu.
-1. To set the authorization parameters for a request, enter the value of the token.
-1. Click the **Send** button.
+Postman will append the token value in the required format to the request header as follows:
 
-[![bearer auth](https://assets.postman.com/postman-docs/WS-auth-BearerToken.png)](https://assets.postman.com/postman-docs/WS-auth-BearerToken.png)
+```
+Bearer <key>
+```
 
-## Basic Auth
+![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-preview.png)
 
-Basic Auth is an authorization type that requires a verified username and password to access a data resource.
+## Basic auth
+
+Basic authentication involves sending a verified username and password with your request.
 
 To use Basic Auth:
 
@@ -124,7 +123,7 @@ To use Basic Auth:
 
 [![basic auth](https://assets.postman.com/postman-docs/WS-auth-Basic.png)](https://assets.postman.com/postman-docs/WS-auth-Basic.png)
 
-## Digest Auth
+## Digest auth
 
 In a digest authentication flow, the client sends a request to a server, which sends back nonce and realm values for the client to authenticate. The client sends back a hashed username and password with the nonce and realm. The server then sends back the requested data.
 
@@ -255,7 +254,7 @@ This table describes the advanced parameters for Hawk Authentication. Advanced c
 
 **Note:** Advanced configuration settings are optional. Postman auto generates values for some fields if left blank.
 
-## Amazon Web Services (AWS) authentication
+## AWS Signature
 
 AWS is the authorization workflow for Amazon Work Services requests. AWS users must use a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication. Postman supports this scheme.
 
@@ -300,7 +299,7 @@ This table describes the advanced parameters for NTLM Authentication. Advanced c
 
 [![ntlm_auth](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)
 
-## Akamai EdgeGrid Authorization
+## Akamai EdgeGrid
 
  Akamai Edgegrid is an authorization helper developed and used by Akamai.
 
@@ -315,3 +314,11 @@ This table describes the advanced parameters for NTLM Authentication. Advanced c
  | Client Secret| The client secret given to the client during the Application registration process.|
 
  For information regarding how to obtain these credentials, check out: <a href="https://developer.akamai.com/legacy/introduction/Prov_Creds.html" target="_blank">Getting Started with APIs</a>
+
+## Syncing cookies
+
+If you have session cookies in your browser, you can sync them to Postman using the Interceptor—see [Interceptor extension](https://learning.getpostman.com/docs/postman/sending-api-requests/interceptor-extension/) and [Cookies](/docs/postman/sending-api-requests/cookies/).
+
+## Next steps
+
+If you're having issues getting a request to run successfully, try some of the tips in [troubleshooting API requests](/docs/postman/sending-api-requests/troubleshooting-api-requests/).
