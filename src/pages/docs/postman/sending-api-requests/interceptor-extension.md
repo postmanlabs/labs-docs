@@ -28,7 +28,7 @@ Postman Interceptor is a Chrome extension that functions as a proxy to capture H
 
 You can sync cookies from your browser and capture requests. You will need to install the interceptor bridge in order for you to capture cookies. To accomplish this, you need to:
 
-1. Install the [Interceptor bridge](#installing-the-interceptor-bridge/).
+1. Install the [Interceptor bridge](#installing-the-interceptor-bridge).
 
 1. Ensure your Postman Interceptor version is v0.2.26 or above, which you can download from [here](https://go.pstmn.io/interceptor-download).
 
