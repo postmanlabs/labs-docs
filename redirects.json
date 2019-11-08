@@ -10,5 +10,9 @@
   {
     "from": "https://learning.getpostman.com/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
     "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/roles-and-permissions/"
+  },
+  {
+    "from": "https://learning.getpostman.com/docs/postman-pro/managing-pro/inviting-and-managing/",
+    "to": "ttps://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team/"
   }
 ]
