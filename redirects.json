@@ -10,5 +10,13 @@
   {
     "from": "/docs/postman/workspaces/activity-feed-and-restoring-collections/",
     "to": "/docs/postman/workspaces/changelog-and-restoring-collections/"
+  },
+  {
+    "from": "https://learning.getpostman.com/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
+    "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/roles-and-permissions/"
+  },
+  {
+    "from": "https://learning.getpostman.com/docs/postman-pro/managing-pro/inviting-and-managing/",
+    "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team/"
   }
 ]
