@@ -95,6 +95,30 @@ Follow the steps in the previous section.
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the Create New tab to display each time you open Postman.
 
+### Collection sidebar
+
+You can create a mock server from an existing collection in the left sidebar. To do that, expand the collection details pane, switch over to the "Mocks" tab in the pane, and click on the "Create a mock server" button.
+
+![Create new mock server from collection sidebar](https://assets.postman.com/postman-docs/mock-cnx-collection-sidebar.png)
+
+This will launch the "Create mock server" modal. Follow the same steps as earlier to complete the process.
+
+If you already have mock servers created from the same collection, you will see a button called "Add mock", instead of the "Create a mock server" button.
+
+![Create new mock server from collection sidebar when there are existing mock servers](https://assets.postman.com/postman-docs/mock-cnx-collection-sidebar-existing.png)
+
+### History request
+
+You can also mock a single request from the History tab in the left sidebar. To do that, switch to the "History" tab in the left sidebar, hover on an entry, and click on the button with three dots to expand the dropdown menu. Choose "Mock Request" from the dropdown.
+
+![Create new mock server from history request](https://assets.postman.com/postman-docs/mock-cnx-history-request.png)
+
+This will open up a modal with the screen titled "2. Set up the mock server". Pass the values similar to the previous steps. Click "Create Mock Server".
+
+This process of creating a mock server will also create a collection with the same title as the mock server. This collection will have a copy of the same request that you chose from the History sidebar. The mock server created is tied to this new collection.
+
+![New collection created when creating mock server from history request](https://assets.postman.com/postman-docs/mock-cnx-history-request-created.png)
+
 ## In web dashboard
 
 You can create a mock server from the Web dashboard with existing collections and environments. To do that, login to your [Postman team dashboard](https://go.postman.co), navigate to your workspace by clicking on your workspace name. In the workspace dashboard, click on the "Mock servers" tab.
