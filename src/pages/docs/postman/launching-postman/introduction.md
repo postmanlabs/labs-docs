@@ -31,30 +31,40 @@ Welcome to the Postman docs!
 
 Postman is a collaboration platform for API development. You can use Postman to design, build, and test APIs in conjunction with your teammates, and to support developer adoption.
 
-## Learn Postman
+Check out the following links to start learning.
 
-Getting started:
-* [Sending your first request]()
-* [Grouping requests into collections]()
-* [Configuring request details]()
+### Getting started
 
-Developing with Postman:
-* [Authenticating your requests]()
-* [Automating workflows with collection runs]()
-* [Scripting in Postman]()
+> [__Sending your first request__](/docs/postman/launching-postman/sending-the-first-request/)
+>
+> [__Grouping requests into collections__](/docs/postman/launching-postman/creating-the-first-collection/)
+>
+> [__Configuring request details__](/docs/postman/sending-api-requests/requests/)
 
-Testing with Postman:
-* [Writing test scripts]()
-* [Using variables]()
-* [Monitoring API performance]()
+### Developing with Postman
 
-Product management with Postman:
-* [Documenting your API]()
-* [Collaborating with teammates]()
-* [Visualizing API data]()
+> [__Authenticating your requests__](/docs/postman/sending-api-requests/authorization/)
+>
+> [__Automating workflows with collection runs__](/docs/postman/collection-runs/intro-to-collection-runs/)
+>
+> [__Scripting in Postman__](/docs/postman/scripts/intro-to-scripts/)
 
-> blockquote content
+### Testing with Postman
+
+> [__Writing test scripts__](/docs/postman/scripts/test-scripts/)
+>
+> [__Using variables__](/docs/postman/environments-and-globals/variables/)
+>
+> [__Monitoring API performance__](/docs/postman/monitors/intro-monitors/)
+
+### Product management with Postman
+
+> [__Documenting your API__](/docs/postman/api-documentation/intro-to-api-documentation/)
+>
+> [__Collaborating with teammates__](/docs/postman/launching-postman/collaboration/)
+>
+> [__Visualizing API responses__](/docs/postman/sending-api-requests/visualizer/)
 
 ## Providing feedback
 
-Share your thoughts on the documentation and help the Postman team to improve it for yourself and other learners! To submit feedback, please [create an issue on the documentation GitHub repo](https://github.com/postmanlabs/postman-docs/issues) or post in the [community forum](https://community.getpostman.com/). _To provide feedback, report a bug, or make a feature request for the Postman app itself, please use the [Postman App Support](https://github.com/postmanlabs/postman-app-support/issues) repo._
+Share your thoughts on the documentation and help the Postman team to improve it for yourself and other learners! To submit feedback, please [create an issue on the documentation GitHub repo](https://github.com/postmanlabs/postman-docs/issues) or post in the [community forum](https://community.getpostman.com/).
