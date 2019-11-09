@@ -9,9 +9,9 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-   *   [Sync](/docs/postman/launching_postman/syncing/) and back up your history, collections, environments, and header presets.
+   *   [Sync](https://learning.getpostman.com/docs/postman/launching_postman/syncing/) and back up your history, collections, environments, and header presets.
    *   Easily work on multiple Postman instances from different machines.
-   *   Create [collection links](/docs/postman/collections/sharing_collections/) to send to other developers.
+   *   Create [collection links](https://learning.getpostman.com/docs/postman/collections/sharing_collections/) to send to other developers.
 
 Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to know more.
 
@@ -25,7 +25,7 @@ Signing up is completely optional. Read our [EULA](https://www.getpostman.com/li
     [![sign up with email or google](https://assets.postman.com/postman-docs/signUp.png)](https://assets.postman.com/postman-docs/signUp.png)  
 4. Confirm your email.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](https://learning.getpostman.com/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
 
 [![header bar](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
@@ -107,7 +107,3 @@ You can customize your Postman account with a profile picture, which will show y
 The image you selected appears as your profile image.
 
 [![upload complete](https://assets.postman.com/postman-docs/profile-pic-complete1.png)](https://assets.postman.com/postman-docs/profile-pic-complete1.png)
-
-
-
-
