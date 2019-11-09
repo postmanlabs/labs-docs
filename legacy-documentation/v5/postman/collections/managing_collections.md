@@ -10,11 +10,11 @@ From the **Collections** tab in the sidebar:
 
 ##### **Navigate through collections**
 
-Click on a collection to show or hide the requests that comprise the collection. Use the up and down arrow keys on your keyboard to navigate through the collections. 
+Click on a collection to show or hide the requests that comprise the collection. Use the up and down arrow keys on your keyboard to navigate through the collections.
 
 ##### **Edit and view collection details**
 
-Expand the right angle bracket (**>**) to show the details view for the collection. Collapse the left angle bracket (**<**) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
+Expand the right angle bracket (**>**) to show the details view for the collection. Collapse the left angle bracket (**<**) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily.
 
 [![collection details view](https://assets.postman.com/postman-docs/WS-collectionDetailsView.png)](https://assets.postman.com/postman-docs/WS-collectionDetailsView.png)
 

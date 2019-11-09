@@ -25,13 +25,13 @@ Once Node.js is installed, Newman is just a command away. Install Newman from np
 $ npm install -g newman
 ```
 
-The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](https://learning.getpostman.com/docs/postman/collections/sharing_collections/) to learn how to export collections to share as a file.
+The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](https://learning.getpostman.com/docs/postman/collections/sharing-collections/) to learn how to export collections to share as a file.
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. Refer to the [collection documentation](https://learning.getpostman.com/docs/postman/collections/sharing_collections/) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments/) from Postman and run them with the `-e` flag.
+You can also pass a collection as a URL. Refer to the [collection documentation](https://learning.getpostman.com/docs/postman/collections/sharing-collections/) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments/) from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -257,9 +257,10 @@ function (emitter, reporterOptions, collectionRunOptions) {
 Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. Working reporter examples can be found in [working reporter examples][8].
 
 #### Using custom reporters
+
 In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]:
 
-Install the reporter package. 
+Install the reporter package.
 ```
 npm install newman-reporter-teamcity
 ```
