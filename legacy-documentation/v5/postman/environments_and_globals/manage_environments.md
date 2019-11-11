@@ -7,15 +7,13 @@ warning: false
 
 ### **What is an environment?**
 
-An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/postman/launching_postman/navigating_postman/) to modify an environment.
+An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](https://learning.getpostman.com/docs/postman/launching_postman/navigating_postman/) to modify an environment.
 
-
-While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables so you can easily switch between different setups without changing your requests. 
+While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables so you can easily switch between different setups without changing your requests.
 
 You won’t have to remember all those values once they are in Postman. You can download environments, save them as JSON files, and upload them later.
 
 You can create, share, duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
-
 
 > **Environment and global variables are always stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
@@ -24,6 +22,7 @@ You can create, share, duplicate, export, and delete an environment. You can als
 ### **Creating a new environment**
 
 You can create a new environment from the:
+
 * Manage Environments icon
 * **New** button
 * Launch screen
@@ -42,7 +41,6 @@ You can create a new environment from the:
 </ol>
 
 [![add new environment](https://assets.postman.com/postman-docs/Add_environ.png)](https://assets.postman.com/postman-docs/Add_environ.png)
-
 
 #### New button
 
@@ -88,7 +86,7 @@ Once you select an environment, you can access variables in the active environme
 
 ### Editing an active environment
 
-Click the **Quick Look** icon in the upper right corner of the Postman app to display the environment and global variables. 
+Click the **Quick Look** icon in the upper right corner of the Postman app to display the environment and global variables.
 
 When you click the **Edit** link, a modal opens where you can edit keys and values.
 
@@ -96,14 +94,14 @@ When you click the **Edit** link, a modal opens where you can edit keys and valu
 
 ### Sharing an environment
 
-To share an environment, click the gear icon in the upper right corner of the Postman app and select "Manage Environments". 
+To share an environment, click the gear icon in the upper right corner of the Postman app and select "Manage Environments".
 
 In the **Manage Environments** tab, click the **Duplicate Environment** icon next to the environment you want to share.
 
 [![duplicate environment](https://assets.postman.com/postman-docs/share_environ.png)](https://assets.postman.com/postman-docs/share_environ.png)
 
-It's a best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others. 
+It's a best practice to create a duplicate, remove any sensitive values (such as passwords), and access tokens before downloading the copy to share with others.
 
 When others import the environment, or access the shared template, they can input their own personal information in their own version of the template.
 
-For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing/) with team members.
+For Postman Pro and Enterprise users, learn how to [share environment templates](https://learning.getpostman.com/docs/postman/team_library/sharing/) with team members.

@@ -25,13 +25,13 @@ Once Node.js is installed, Newman is just a command away. Install Newman from np
 $ npm install -g newman
 ```
 
-The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](/docs/postman/collections/sharing_collections/) to learn how to export collections to share as a file.
+The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](https://learning.getpostman.com/docs/postman/collections/sharing-collections/) to learn how to export collections to share as a file.
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. Refer to the [collection documentation](/docs/postman/collections/sharing_collections/) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/environments_and_globals/manage_environments/) from Postman and run them with the `-e` flag.
+You can also pass a collection as a URL. Refer to the [collection documentation](https://learning.getpostman.com/docs/postman/collections/sharing-collections/) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments/) from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -153,7 +153,7 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/postman/scripts/postman_sandbox/) that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](https://learning.getpostman.com/docs/postman/scripts/postman_sandbox/) that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 
@@ -233,14 +233,17 @@ newman.run({
 ```
 
 ### Custom reporters
+
 Custom reporters come in handy when one would want to generate collection run reports that cater to very specific use cases.
-For instance, logging out the response body when a request (or it's tests) fail, and so on. 
+For instance, logging out the response body when a request (or it's tests) fail, and so on.
 
 #### Building custom reporters
 
 A custom reporter is a Node module with a name of the form `newman-reporter-<name>`. To create a custom reporter:
+
 1. Navigate to a directory of your choice, and create a blank npm package with `npm init`.
-2. Add an `index.js` file, that exports a function of the following form:
+1. Add an `index.js` file, that exports a function of the following form:
+
 ```javascript
 function (emitter, reporterOptions, collectionRunOptions) {
   // emitter is is an event emitter that triggers the following events: https://github.com/postmanlabs/newman#newmanrunevents
@@ -249,14 +252,15 @@ function (emitter, reporterOptions, collectionRunOptions) {
 };
 ```
 
-3. Publish your reporter using `npm publish`, or use your reporter locally [see usage instructions][7].
+1. Publish your reporter using `npm publish`, or use your reporter locally [see usage instructions][7].
 
 Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. Working reporter examples can be found in [working reporter examples][8].
 
 #### Using custom reporters
+
 In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]:
 
-Install the reporter package. 
+Install the reporter package.
 ```
 npm install newman-reporter-teamcity
 ```

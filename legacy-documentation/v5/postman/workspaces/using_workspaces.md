@@ -274,9 +274,3 @@ Click the ***Ellipsis (...)*** button and select "Manage Members".
 In "Edit workspace details", add or delete team members in the "Members" dropdown menu and save your changes.
 
 [![edit descr team](https://assets.postman.com/postman-docs/WS-edit-WS-details-team.png)](https://assets.postman.com/postman-docs/WS-edit-WS-details-team.png)
-
-
-
-
-
-
