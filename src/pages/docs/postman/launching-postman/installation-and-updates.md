@@ -26,44 +26,50 @@ contextual_links:
 
 Postman is available as a native app for macOS, Windows (32-bit and 64-bit), and Linux (32-bit and 64-bit) operating systems.
 
-## Get the latest Postman app
+To get the latest version of the Postman app, visit the [download page](https://www.getpostman.com/downloads/) and click **Download** for your platform.
 
-To get the latest version of the Postman app, go to the [download page](https://www.getpostman.com/downloads/) and click **Download** for macOS / Windows / Linux depending on your platform.
+![Postman download page](https://assets.postman.com/postman-docs/download-postman.jpg)
 
-![Postman download page](https://assets.postman.com/postman-docs/Download_Screen1.png "Postman download page")
+## Contents
 
-## Postman native apps
+* Installing Postman
+    * [Mac](#installing-postman-on-mac)
+    * [Windows](#installing-postman-on-windows)
+    * [Linux]()
+    * [Chrome app (deprecated)]()
+        * [Migrating to the native app]()
+* [Updating Postman]()
+* [Troubleshooting intallations]()
+* [Troubleshooting updates]()
 
-### macOS installation
+## Installing Postman on Mac
 
-Once you’ve downloaded and unzipped the app, double click on Postman. You will be prompted to move file into the "Applications" folder. Click "Move to Applications Folder" to ensure future updates can be installed correctly. The app will open after the prompt.
+[Download](https://www.getpostman.com/downloads/) and unzip the app. Double-click __Postman__. You will be prompted to move file to your __Applications__ folder. Click __Move to Applications Folder__—this will ensure that future updates can be installed correctly. The Postman app will open.
 
-![Move to Applications Folder](https://assets.postman.com/postman-docs/Download_MoveFolder.png "Move to Applications Folder")
+### Installing Postman on Windows
 
-### Windows installation
+[Download](https://www.getpostman.com/downloads/) the app. Double-click the `exe` file to install it.
 
-* Download the setup file
-* Run the installer
+### Installing Postman on Linux
 
-### Linux installation
+[Download](https://www.getpostman.com/downloads/) and unzip the app. Create a desktop file, naming it `Postman.desktop` and saving it in teh following location:
 
-  For installation on Linux, perform the following steps:
+```shell
+~/.local/share/applications/Postman.desktop
+```
 
-1. First download and unzip the file
-1. And then create a desktop file by name Postman.desktop. Create the ```Postman.desktop``` file in the following location:
+Enter the following content in the file, replacing `YOUR_INSTALL_DIR` to reflect your own system, and save it:
 
-      ```~/.local/share/applications/Postman.desktop```
-
-Use the content below in the above file:
-
-    [Desktop Entry]
-    Encoding=UTF-8
-    Name=Postman
-    Exec=YOUR_INSTALL_DIR/Postman/app/Postman %U
-    Icon=YOUR_INSTALL_DIR/Postman/app/resources/app/assets/icon.png
-    Terminal=false
-    Type=Application
-    Categories=Development;
+```shell
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=YOUR_INSTALL_DIR/Postman/app/Postman %U
+Icon=YOUR_INSTALL_DIR/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+```
 
    Once the ```Postman.desktop``` file is created, the Postman app can be opened using application launchers. You can check your desktop and double-click the Postman icon.
 
