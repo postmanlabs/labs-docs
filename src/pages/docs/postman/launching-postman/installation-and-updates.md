@@ -71,7 +71,7 @@ Type=Application
 Categories=Development;
 ```
 
-   Once the ```Postman.desktop``` file is created, the Postman app can be opened using application launchers. You can check your desktop and double-click the Postman icon.
+The `Postman.desktop` file allows you to open Postman via application launchers. Check your desktop and double-click the Postman icon.
 
    **Note:**
 
