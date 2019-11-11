@@ -20,7 +20,7 @@ Expand the right angle bracket (**>**) to show the details view for the collecti
 
 ##### **Create a new collection**
 
-Click the "new collection" icon on the top right, or [save a current request to a new collection](https://learning.getpostman.com//docs/postman/collections/creating_collections/).
+Click the "new collection" icon on the top right, or [save a current request to a new collection](https://learning.getpostman.com/docs/postman/collections/creating_collections/).
 
 [![new collection icon](https://assets.postman.com/postman-docs/59154223.png)](https://assets.postman.com/postman-docs/59154223.png)
 
