@@ -44,7 +44,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
 ## Contents
 
 * [Specifying authorization details](#specifying-authorization-details)
-    * [Inherit auth](#inheriting-auth)
+    * [Inheriting auth](#inheriting-auth)
     * [No auth](#no-auth)
     * [API key](#api-key)
     * [Bearer token](#bearer-token)
@@ -63,33 +63,33 @@ You can pass auth details along with any request you send in Postman. Auth data 
 
 With a request open in Postman, use the __Authorization__ tab __Type__ dropdown to select an auth type. Postman will prompt you to complete the relevant details for your selected type. The correct data values will be determined by your API at the server side—if you're using a third party API you will need to refer to the provider for any required auth details.
 
-![Auth Types](https://assets.postman.com/postman-docs/authorization-types.png)
+![Auth Types](https://assets.postman.com/postman-docs/authorization-types.jpg)
 
-___Note:___ _You can use these auth types with Newman and Postman monitors as well as in the app._
+> You can use these auth types with Newman and Postman monitors as well as in the app.
 
 When you select a type, Postman indicates which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Click __Preview Request__ to see how your auth data will be added to the request before attempting to send it.
 
-![Preview Request](https://assets.postman.com/postman-docs/preview-request.png)
+![Preview Request](https://assets.postman.com/postman-docs/preview-request-auth.jpg)
 
 Your requests can use environment, collection, and global [variables](/docs/postman/environments-and-globals/variables/). Postman does not save header data or query parameters to avoid exposing sensitive data such as API keys.
 
-___Note:___ _You can inspect a raw dump of the entire request including auth data in the Postman console after you send it._
+> You can inspect a raw dump of the entire request including auth data in the Postman console after you send it.
 
-## Inherit auth
+## Inheriting auth
 
 If you group your requests in [collections](/docs/postman/collections/intro-to-collections/) and [folders](/docs/postman/collections/managing-collections/#adding-folders), you can specify auth details to reuse throughout a group.
 
 Select a collection or folder in __Collections__ on the left of the Postman app. Use the overflow button (__...__) to open the options and select __Edit__ to configure the collection or folder detail.
 
-![Edit Collection](https://assets.postman.com/postman-docs/edit-collection.png)
+![Edit Collection](https://assets.postman.com/postman-docs/edit-collection.jpg)
 
 In the edit view, select the __Authorization__ tab.
 
-![Collection Authorization](https://assets.postman.com/postman-docs/collection-auth.png)
+![Collection Authorization](https://assets.postman.com/postman-docs/collection-auth.jpg)
 
-By default, requests inside the collection or folder will inherit auth from the parent, which means that they'll use the same auth that you've specified at the folder or collection level. To change this for an individual request, make a different selection in the request __Authorization__ tab. 
+By default, requests inside the collection or folder will inherit auth from the parent, which means that they'll use the same auth that you've specified at the folder or collection level. To change this for an individual request, make a different selection in the request __Authorization__ tab.
 
-![Inherit Authorization](https://assets.postman.com/postman-docs/inherit-auth.png)
+![Inherit Authorization](https://assets.postman.com/postman-docs/inherit-auth.jpg)
 
 You can choose an authorization type upfront using the same technique when you first create a collection or folder.
 
@@ -99,221 +99,200 @@ Postman will not attempt to send authorization details with a request unless you
   
 ## Bearer token
 
-Bearer tokens allow requests to authenticate using an access key. The token is a text string, included in the request header. In the request __Authorization__ tab, select __Bearer Token__ from the __Type__ dropdown list. In the __Token__ field, enter your API key value—or for added security, store it in a variable and reference the variable by name.
+Bearer tokens allow requests to authenticate using an access key, such as a JSON Web Token (JWT). The token is a text string, included in the request header. In the request __Authorization__ tab, select __Bearer Token__ from the __Type__ dropdown list. In the __Token__ field, enter your API key value—or for added security, store it in a variable and reference the variable by name.
 
-![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-value.png)
+![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-value.jpg)
 
-Postman will append the token value in the required format to the request header as follows:
+Postman will append the token value to the text "Bearer " in the required format to the request Authorization header as follows:
 
+```shell
+Bearer <Your API key>
 ```
-Bearer <key>
-```
 
-![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-preview.png)
+![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-preview.jpg)
 
 ## Basic auth
 
-Basic authentication involves sending a verified username and password with your request.
+Basic authentication involves sending a verified username and password with your request. In the request __Authorization__ tab, select __Basic Auth__ from the __Type__ dropdown list.
 
-To use Basic Auth:
+![Basic Auth](https://assets.postman.com/postman-docs/basic-auth.jpg)
 
-1. In the **Authorization** tab, select "Basic Auth" from the **TYPE** drop down menu.
-1. To set the authorization parameters for a request, enter your username and password.
-1. Click the **Send** button.
+Enter your API login details in the __Username__ and __Password__ fields—for additional security you can store these in variables.
 
-[![basic auth](https://assets.postman.com/postman-docs/WS-auth-Basic.png)](https://assets.postman.com/postman-docs/WS-auth-Basic.png)
+Click __Preview Request__ to see how Postman will append your basic auth details to the request. In the request __Headers__, you will see that the Authorization header is being passed a Base64 encoded string representing your username and password values, appended to the text "Basic " as follows:
+
+```shell
+Basic <Base64 encoded username and password>
+```
+
+![Basic Auth Encoded](https://assets.postman.com/postman-docs/basic-auth-encoded.jpg)
 
 ## Digest auth
 
-In a digest authentication flow, the client sends a request to a server, which sends back nonce and realm values for the client to authenticate. The client sends back a hashed username and password with the nonce and realm. The server then sends back the requested data.
+With Digest auth, as the client you send a first request to the API, and the server responds with a few details, including a number that can be used only once (nonce), a realm value, and a `401` unauthorized response. You then send back an encrypted array of data including username and password combined with the data received from the server in the first request. The server uses the passed data to generate an encrypted string and compares it against what you sent in order to authenticate your request.
 
-By default, Postman extracts values from the response. If you do not want to extract those values, you have two options:
+In the __Authorization__ tab for a request, select __Digest Auth__ from the __Type__ dropdown list. Postman will present fields for both stages of authentication request—however it will autocomplete the fields for the second request using data returned from the server for the first. To allow Postman to automate the flow, enter username and password values and these will be sent with the second request.
 
-* Enter your own values in the advanced section for selected fields, or
-* Select the "Yes, disable retrying the request" checkbox to skip retrying the request.
+![Digest Auth](https://assets.postman.com/postman-docs/digest-auth.jpg)
 
-To use digest auth:
+> If you don't want Postman to automatically extract the data, check the box to disable retrying the request. If you do this you will need to complete the advanced fields and run each request manually.
 
-1. In the **Authorization** tab, select "Digest Auth" from the **TYPE** drop down menu.
-1. To set the authorization parameters for a request, enter your username and password. (You can also set advanced digest auth parameters.)
-1. Click the **Send** button.
+The advanced fields are optional, and Postman will attempt to populate them automatically when your request runs.
 
-[![digest_auth](https://assets.postman.com/postman-docs/WS-auth-Digest+copy.png)](https://assets.postman.com/postman-docs/WS-auth-Digest+copy.png)
-
-This table describes the advanced parameters for Digest Auth. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
-
-| **Advanced Parameters**  | **Description** |
-| --- | --- |
-| Realm | A string specified by the server  in the www-Authenticate response header.  |
-| Nonce| A unique string specified by the server  in the www-Authenticate response header. |
-| Algorithm | A string that indicates a pair of algorithms used to produce the digest and a checksum. |
-| qop | The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the www-Authenticate response header. |
-| Nonce Count| The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header. Postman always sends 00000001 as the nonce count. |
-| Client Nonce  | An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
-| Opaque | This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. We recommend this string be base64 encoded data. |
+* __Realm:__ A string specified by the server in the WWW-Authenticate response header.
+* __Nonce:__ A unique string specified by the server in the WWW-Authenticate response header.
+* __Algorithm:__ A string that indicates a pair of algorithms used to produce the digest and a checksum.
+* __qop:__ The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the WWW-Authenticate response header.
+* __Nonce Count:__ The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request.
+* __Client Nonce:__ An opaque quoted string value provided by the client, used by both client and server to avoid chosen plaintext attacks, to provide mutual authentication, and to provide some message integrity protection.
+* __Opaque:__ A string of data specified by the server in the WWW-Authenticate response header which should be used unchanged with URIs in the same protection space.
 
 ## OAuth 1.0
 
-OAuth 1.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password.
+OAuth 1.0 allows client applications to access data from a third-party service provider. For example, as a user of a service you can grant another application access to your data with that service without exposing your login details. Accessing user data via the OAuth 1.0 flow involves a few requests back and forth between client application, user, and service provider.
 
-To use the OAuth 1.0 authorization:
+With OAuth 1.0, a consumer (client application) requests an access token using a key and secret. The service provider issues a token and the consumer requests authorization from the user. When the user grants auth, the consumer makes a request for an access token. The service provider returns the access token and the consumer can then make requests to the service provider to access the user's data.
 
-1. In the **Authorization** tab, select "OAuth 1.0" from the **TYPE** drop down menu.
-1. From the "Add authorization data to" drop down menu, select either "Request Body/Request URL" or "Request Headers".
+In the __Authorization__ tab for a request, select __OAuth 1.0__ from the __Type__ dropdown list.
 
-When you select "Request Body/Request URL", Postman checks if the request method is POST or PUT, and if the request body type is x-www-form-urlencoded. If so, Postman adds authorization parameters to the request body. For all other cases, it adds authorization parameters to the URL.
+![OAuth 1.0](https://assets.postman.com/postman-docs/oauth1-setup.jpg)
 
-1. To set the authorization parameters for a request, enter the "Consumer Key", "Consumer Secret", "Access Token", and "Token Secret". You can also set advanced digest OAuth 1.0 parameters.
+Enter your __Consumer Key__, __Consumer Secret__, __Access Token__, and __Token Secret__ values. You can optionally set advanced details—otherwise Postman will attempt to autocomplete these.
 
-[![oauth1_auth](https://assets.postman.com/postman-docs/WS-auth-OAuth1_0.png)](https://assets.postman.com/postman-docs/WS-auth-OAuth1_0.png)
+You can include the auth details either in the request headers or in the body / URL—select one from the dropdown list. Click __Preview Request__ if you want to check how the details will be included with the request.
 
-This table describes the parameters for OAuth 1.0 authorization.
+If you send the OAuth 1.0 data in the headers, you will see an Authorization header sending your key and secret values appended to the string " OAuth " together with additional comma-separated required details.
 
-| **Parameters**  | **Description** |
-| --- | --- |
-| Consumer Key | A consumer’s value that identifies itself to the service provider. |
-| Consumer Secret| A consumer’s secret that establishes ownership of the consumer key. |
-| Access Token |An object that contains the security identity. |
-| **Advanced Parameters**
-| Signature Method | A consumer’s secret that establishes ownership of a given token. |
-| Time Stamp| The timestamp the server uses to prevent replay attacks outside the time window. |
-| Nonce |A unique string specified by the server in the www-Authenticate response header.|
-| Version |The 1.0 version of the OAuth authentication protocol.|
-| Realm |A string specified by the server in the www-Authenticate response header. |
+![OAuth 1.0 Headers](https://assets.postman.com/postman-docs/oauth1-headers.jpg)
 
-**Note**: Some implementations of OAuth 1.0 require empty parameters to be added to the signature. You can select "Add empty parameters to signature" to add empty parameters.
+If you send the OAuth 1.0 data in the body and URL, you will find the data added either in the request __Body__ or __Parameters__ depending on the request method.
+
+![OAuth 1.0 Query Parameters](https://assets.postman.com/postman-docs/oauth1-query.jpg)
+
+If the request method is `POST` or `PUT`, and if the request body type is `x-www-form-urlencoded`, Postman will add the authorization parameters to the request body. Otherwise, for example in a `GET` request, your key and secret data will be passed in the URL query parameters.
+
+The OAuth 1.0 auth parameter values are as follows:
+
+* __Consumer Key:__ A value used to identify a consumer with the service provider.
+* __Consumer Secret:__ A value used by the consumer to establish ownership of the key.
+* __Access Token:__ A value representing the consumer's permission to access the user's data.
+* __Token Secret:__ A value used by the consumer to establish ownership of a given token.
+* Advanced Parameters:
+    * __Signature Method:__ A consumer secret that establishes ownership of a given token.
+    * __Time Stamp:__ The timestamp the server uses to prevent replay attacks outside the time window.
+    * __Nonce:__ A random string generated by the client.
+    * __Version:__ The version of the OAuth authentication protocol (1.0).
+    * __Realm:__ A string specified by the server in the WWW-Authenticate response header.
+
+> Some implementations of OAuth 1.0 require empty parameters to be added to the signature. Check the __Add empty parameters to signature__ checkbox if you need this.
 
 ## OAuth 2.0
 
-OAuth 2.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password.
+Like OAuth 1.0, OAuth 2.0 allows client applications to access data from a third-party service provider. For example, as a user of a service you can grant another application access to your data with that service without exposing your login details. Accessing user data via the OAuth 2.0 flow involves a few requests back and forth between client application, user, and service provider.
 
-To use the OAuth 2.0 authorization:
+With OAuth 2.0, a client application makes a request for the user to authorize access to their data. If the user grants access, the application then requests an access token from the service provider, passing the access grant from the user and authentication details to identify the client. The service provider validates these details and returns an access token. The client then uses the access token to access the user data via the service provider.
 
-1. In the **Authorization** tab, select "OAuth 2.0" from the **TYPE** drop down menu.
-1. From the "Add authorization data to" drop down menu, select either "Request URL" or "Request Headers".
-1. To set the authorization parameters for a request, you have three options:
-   * Click the **Get New Access Token** button. The **GET NEW ACCESS TOKEN** screen appears. Enter the appropriate values, click the **Request Token** button to populate the "Access Token" field, and then click the **Send** button.
-   * In the "Access Token" field, enter a token, or an environment defined variable, and click the **Send** button.
-   * In the "Available Tokens" drop down menu, select an existing token and click the **Send** button.
+In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify whether you want pass the auth details in the request URL or headers.
 
-[![oauth2_auth](https://assets.postman.com/postman-docs/WS-auth-OAuth2_0.png)](https://assets.postman.com/postman-docs/WS-auth-OAuth2_0.png)
+![OAuth 2.0](https://assets.postman.com/postman-docs/oauth2-setup.jpg)
 
-This table describes the parameters in the **GET NEW ACCESS TOKEN** screen.
+To request an access token, click __Get New Access Token__.
 
-| **Parameters**     | **Description** |
-| --- | --- |
-| Token Name| The name of the token. |
-| Grant Type| A drop down menu where you can specify one of the following grant types: "Authorization Code", "Implicit", "Password Credentials", and "Client Credentials".|
-| Callback URL |The Application’s callback URL that’s registered with the server. If not provided, Postman uses a default  empty URL and extracts the code or access token from it.|
-| Auth URL |The endpoint for authorization server, which retrieves the authorization code.|
-| Access Token URL |The endpoint for the resource server, which exchanges the authorization code for an access token. |
-| Client ID |The client identifier given to the client during the Application registration process.|
-| Client Secret |The client secret given to the client during the Application registration process. |
-| Scope |The scope of the access request, which might have multiple space-separated values. |
-| State |An opaque value that prevents cross-site request forgery. |
-| Client Authentication |A drop down menu where you can either send a Basic Auth request in the header, or send client credentials in the request body. **Note**: After upgrading to a new version, change the value in this drop down menu to avoid problems with client authentication. |
+![Get Access Token](https://assets.postman.com/postman-docs/get-access-token.jpg)
 
-[![getrequesttokens_auth](https://assets.postman.com/postman-docs/WS-get-access-token.png)](https://assets.postman.com/postman-docs/WS-get-access-token.png)
+Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman in order to test your authenticated requests.
 
-You can click "Manage Tokens" in the list to view more details about each token and delete any one of them. If there are no tokens in the list, the user needs to click the **Get New Access Token** button to generate a token that Postman adds to the list.
+The parameters to request a new access token are as follows:
 
-[![managetokens_auth](https://assets.postman.com/postman-docs/WS-manage-access-token.png)](https://assets.postman.com/postman-docs/WS-manage-access-token.png)
+* __Token Name:__ The name you want to use for the token.
+* __Grant Type:__ A dropdown list of options including __Authorization Code__, __Implicit__, __Password Credentials__, and __Client Credentials__. This will likely depend on the service provider requirements for authenticating third-party applications.
+* __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the service provider. If not provided, Postman uses a default empty URL and extracts the code or access token from it.
+* __Auth URL:__ The endpoint for the authorization server, which retrieves the authorization code.
+* __Access Token URL:__ The endpoint for the authentication server, which exchanges the authorization code for an access token.
+* __Client ID:__ The id your client application is registered by with the service provider.
+* __Client Secret:__ The client secret given to you by the service provider.
+* __Scope:__ The scope of access you are requesting, which may include multiple space-separated values.
+* __State:__ An opaque value to prevent cross-site request forgery.
+* __Client Authentication:__ A dropdown—choose to send a Basic Auth request in the header, or client credentials in the request body. _After upgrading to a new version, change the value in this drop down menu to avoid problems with client authentication._
 
-**Note:** Deleting a token does not revoke the access token. Only the server that issues the token can revoke it.
+Click __Request Token__. Any successfully retrieved tokens will be listed in the __Available Tokens__ dropdown list. Enter or select one to send your request.
+
+Select __Manage Tokens__ in the dropdown list to view more details or delete your tokens.
+
+> Deleting a token in Postman does not revoke access. Only the server that issues the token can revoke it.
 
 ## Hawk authentication
 
-Hawk authentication enables you to make authenticated requests with partial cryptographic verification of the request.
+Hawk authentication enables you to authorize requests using partial cryptographic verification.
 
-To use Hawk authentication:
+In the __Authorization__ tab for a request, select __Hawk Authentication__ from the __Type__ dropdown list.
 
-1. In the **Authorization** tab, select "Hawk Authentication" from the **TYPE** drop down menu.
-1. To set the authorization parameters for a request, enter the "Hawk Auth ID", "Hawk Auth Key", and "Algorithm values". You can also set advanced Hawk authentication parameters.
-1. Click the **Send** button.
+![Hawk Auth](https://assets.postman.com/postman-docs/hawk-auth.jpg)
 
-[![hawk_auth](https://assets.postman.com/postman-docs/WS-auth-Hawk.png)](https://assets.postman.com/postman-docs/WS-auth-Hawk.png)
+Enter your details in the __Hawk Auth ID__, __Hawk Auth Key__, and __Algorithm__ fields. You can optionally set advanced details, but Postman will attempt to generate values for them if necessary.
 
-This table describes the parameters for Hawk Authentication.
+The Hawk Authentication parameters are as follows:
 
-| **Parameters**  | **Description** |
-| --- | --- |
-| Hawk Auth ID | The authentication ID value. |
-| Hawk Auth Key| The authentication key value. |
-| Algorithm |The hash algorithm used to create the message authentication code (MAC).|
-
-This table describes the advanced parameters for Hawk Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
-
-| **Advanced Parameters**  | **Description** |
-| --- | --- |
-| User | The user name. |
-| Nonce| A random string generated from the client.|
-| ext |Any application-specific information to be sent with the request.|
-| app |The binding between credentials and the application in a way that prevents an attacker from tricking an application to use credentials issued to someone else.|
-| dlg|The ID of the application of which the credentials were directly issued.|
-| Timestamp |The timestamp the server uses to prevent replay attacks outside the time window.|
-
-**Note:** Advanced configuration settings are optional. Postman auto generates values for some fields if left blank.
+* __Hawk Auth ID:__ Your API authentication ID value.
+* __Hawk Auth Key:__ Your API authentication key value.
+* __Algorithm:__ The hash algorithm used to create the message authentication code (MAC).
+* Advanced parameters:
+    * __User:__ The username.
+    * __Nonce:__ A random string generated by the client.
+    * __ext:__ Any application-specific information to be sent with the request.
+    * __app:__ The binding between credentials and the application to prevent an attacker using credentials issued to someone else.
+    * __dlg:__ The ID of the application the credentials were issued to.
+    * __Timestamp:__ Timestamp the server uses to prevent replay attacks outside the time window.
 
 ## AWS Signature
 
-AWS is the authorization workflow for Amazon Work Services requests. AWS users must use a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication. Postman supports this scheme.
+AWS is the authorization workflow for Amazon Web Services requests. AWS uses a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication.
 
-Read more about the AWS Signature on AWS documentation:
+The official AWS Signature documentation provides more detail:
 
-* <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html" target="_blank">Signing and Authenticating REST Requests</a>
-* <a href="http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html" target="_blank">Use Postman to Call an API</a>
+* [Signing and Authenticating REST Requests](http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html)
+* [Use Postman to Call an API](http://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html)
 
-To use AWS authentication:
+In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 
-1. In the **Authorization** tab, select "AWS Signature" from the **TYPE** drop down menu.
-1. To set the authorization parameters for a request, enter the values for the access and secret keys. You can also set advanced AWS authentication parameters.
-1. Click the **Send** button.
+![AWS Signature Auth](https://assets.postman.com/postman-docs/aws-signature-auth.jpg)
 
-[![aws_auth](https://assets.postman.com/postman-docs/WS-auth-AWS-Signature.png)](https://assets.postman.com/postman-docs/WS-auth-AWS-Signature.png)
+Enter your access key and secret values either directly in the fields or via variables for additional security.
 
-This table describes the advanced parameters for AWS Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
+You can optionally set advanced fields, but Postman will attempt to autogenerate these if necessary.
 
-| **Advanced Parameters**  | **Description** |
-| --- | --- |
-| AWS Region | The region receiving the request. (Default region is us-east-1.)|
-| Service Name| The service receiving the request.|
-| Session Token |Required only when using temporary security credentials.|
+The AWS Signature parameters are as follows:
+
+* __AWS Region:__ The region receiving the request (defaults to us-east-1).
+* __Service Name:__ The service receiving the request.
+* __Session Token:__ Required only when using temporary security credentials.
 
 ## NTLM authentication
 
-Windows Challenge/Response (NTLM) is the authorization flow for the Windows operating system and for stand-alone systems.
-By default, Postman extracts values from the received response, adds it to the request, and retries it. Postman gives you the option to disable this default behavior.
+Windows Challenge/Response (NTLM) is the authorization flow for the Windows operating system and for standalone systems.
 
-To use NTLM authentication:
+In the __Authorization__ tab for a request, select __NTLM Authentication__ from the __Type__ dropdown list.
 
-1. In the **Authorization** tab, select "NTLM Authentication" from the **TYPE** drop down menu.
-1. To set the authorization parameters for a request, enter the username and password. You can also set advanced NTLM authentication parameters.
-1. Click the **Send** button.
+![NTLM Authentication](https://assets.postman.com/postman-docs/ntlm-auth.jpg)
 
-This table describes the advanced parameters for NTLM Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
+Enter your username and password for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will attempt to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first—you can disable the setting by checking the checkbox if you do not want Postman to do this.
 
-| **Advanced Parameters**  | **Description** |
-| --- | --- |
-| Domain | The domain or host to authenticate against.|
-| Workstation| The hostname of the PC.|
+Advanced parameters for NTLM auth are as follows:
 
-[![ntlm_auth](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)
+* __Domain:__ The domain or host to authenticate against.
+* __Workstation:__ The hostname of the PC.
 
 ## Akamai EdgeGrid
 
  Akamai Edgegrid is an authorization helper developed and used by Akamai.
 
- To choose EdgeGrid as the authorization method, go to the request editor tab, select **Authorization** and choose **Akamai EdgeGrid** from the dropdown menu.
+In the __Authorization__ tab for a request, select __Akamai EdgeGrid__ from the __Type__ dropdown list.
 
-[![edgegrid_auth](https://assets.postman.com/postman-docs/EdgeGrid-auth.png)](https://assets.postman.com/postman-docs/EdgeGrid-auth.png)
+ ![Akamai EdgeGrid Auth](https://assets.postman.com/postman-docs/akamai-auth.jpg)
 
- | **Parameters** | **Description** |
- | --- | --- |
- | Access Token | A token that grants access to the API. |
- | Client Token | The client identifier given to the client during the Application registration process.|
- | Client Secret| The client secret given to the client during the Application registration process.|
+Enter your access token, client token, and client secret, using variables for additional security—you will receive these details when you register a client application with Akamai.
 
- For information regarding how to obtain these credentials, check out: <a href="https://developer.akamai.com/legacy/introduction/Prov_Creds.html" target="_blank">Getting Started with APIs</a>
+ For information on obtaining your credentials, see [Akamai Developer - Authorize your Client](https://developer.akamai.com/legacy/introduction/Prov_Creds.html)
 
 ## Syncing cookies
 
