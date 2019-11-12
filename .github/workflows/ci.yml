@@ -12,8 +12,6 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-      with:
-        ref: ${{ github.head_ref }}
     - uses: actions/setup-node@master
     - name: lint all markdownfiles
       run: |

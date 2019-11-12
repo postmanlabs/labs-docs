@@ -1,11 +1,9 @@
 ---
 title: "Sessions"
 order: 51
-page_id: "Sessions"
+page_id: "sessions"
 warning: false
 ---
-
-## Sessions
 
  A Session in Postman is a transient layer that holds your variable values related to your current working instance by allowing you to work with certain variables that remain local to your individual scope. Sessions resolves few complications in relation to collaboration and teamwork due to sensitivity of data surrounding the variables.
 
