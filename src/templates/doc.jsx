@@ -28,7 +28,6 @@ export default ({ data }) => {
             </div>
             <h1>{post.frontmatter.title}</h1>
             <span dangerouslySetInnerHTML={{ __html: post.html }} />
-            
           </div>
           <div className="col-sm-3">
             {contextualLinks}
