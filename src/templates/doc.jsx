@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';
+import EditDoc from '../components/Shared/EditDoc';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
 import './doc.scss';
@@ -24,6 +25,7 @@ export default ({ data }) => {
           <div className="col-sm-10 col-md-6 doc-page">
             <h1>{post.frontmatter.title}</h1>
             <span dangerouslySetInnerHTML={{ __html: post.html }} />
+            <EditDoc getProps={location.pathname}/>
           </div>
           <div className="col-sm-3">
             {contextualLinks}
