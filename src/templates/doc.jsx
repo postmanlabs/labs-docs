@@ -23,9 +23,12 @@ export default ({ data }) => {
             <LeftNav />
           </div>
           <div className="col-sm-10 col-md-6 doc-page">
+            <div className="text-right">
+            <EditDoc className={'btn btn__small btn__secondary-light'} getProps={location.pathname}/>
+            </div>
             <h1>{post.frontmatter.title}</h1>
             <span dangerouslySetInnerHTML={{ __html: post.html }} />
-            <EditDoc getProps={location.pathname}/>
+            
           </div>
           <div className="col-sm-3">
             {contextualLinks}
