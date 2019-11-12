@@ -91,8 +91,6 @@ Team workspaces are available to all users as of version 6.2. Postman usage limi
 
 ### Usage limit
 
- <!-- Postman allows you to collaborate with other team members on up to 25 shared requests and an equal number of shared history under the free plan. Once you exceed your limit, Postman archives your collections and shared history requests. However, Postman secures your archived collections and provides access to your data with options of exporting and downloading. Also, note that the usage limit does not apply to sharing environments; it applies only to shared collection requests and history. Only the collections that you share with other teams count towards this limit and you can still continue having unlimited collections for personal use. -->
-
 You can check the number of requests you've shared within the Postman app as well as in the web dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting your team name.
 
 The usage menu allows you to review limits for shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
