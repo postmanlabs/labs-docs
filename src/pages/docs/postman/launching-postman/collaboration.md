@@ -3,116 +3,123 @@ title: "Collaboration"
 order: 10
 page_id: "collaboration"
 warning: false
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Team collaboration with Postman"
+    url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
 
 ---
-Postman allows all free users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your Collections, Environments, Integrations, History, Mocks, Monitors, and more.
+Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
 
-**Note:**  Free Collaboration is available in Postman version 6.2 and above. Please upgrade to version 6.2 or above to use this feature. Postman offers an upper limit on the number of collection requests and history shares. For more information on the usage limit, refer to the section [Usage Limit for Free Users](#usage-limit-for-free-users). However, note that Postman does not impose any limit on the number of people you can invite.
+**Note:**  Free collaboration is available in version 6.2 and above.
 
-You can now get started creating team workspaces and inviting users to join your workspace just by sending an invitation through ‘Invite’ button. You would also be able to join workspaces created by other team members for collaboration. This section explains how to collaborate in Postman and derive the many benefits it offers. It explains the following topics:
+## Contents
 
-* Working with Team Workspaces
+* [Working with team workspaces](/docs/postman/launching-postman/collaboration/#working-with-team-workspaces)
 
-* Usage Limit for Free Users
+    * [Inviting a team member to a personal workspace](/docs/postman/launching-postman/collaboration/#inviting-a-team-member-to-a-personal-workspace)
 
-## Working with Team Workspaces
+    * [Creating a new workspace](/docs/postman/launching-postman/collaboration/#creating-a-new-workspace-from-the-menu)
 
-This section explains different ways of creating a team workspace and inviting other team members for collaboration. You can create a team workspace using the following ways:
+* [Team discovery](/docs/postman/launching-postman/collaboration/#team-discovery)
 
-* Inviting a team member to a personal workspace
+    * [Making your team discoverable](/docs/postman/launching-postman/collaboration/#making-your-team-discoverable)
 
-* Creating a new workspace from the menu
+    * [Finding teams within your organization](/docs/postman/launching-postman/collaboration/#finding-teams-within-your-organization)
 
-### Inviting a Team Member to a Personal Workspace
+* [Usage limits for free users](/docs/postman/launching-postman/collaboration/#usage-limit-for-free-users)
 
-You can use the invite button displayed prominently adjacent to the Workspace Switcher. The Invite button is shown below:
+    * [Usage limit](/docs/postman/launching-postman/collaboration/#usage-limit)
 
-[![invite button](https://assets.postman.com/postman-docs/Invite-Button.png)](https://assets.postman.com/postman-docs/Invite-Button.png)
+    * [How archiving works](/docs/postman/launching-postman/collaboration/#how-archiving-works)
 
-Click Invite. The following screen opens:
+    * [Recovering archived collections](/docs/postman/launching-postman/collaboration/#recovering-your-archived-collections)
 
-[![invite team member](https://assets.postman.com/postman-docs/InvitetoTeam1.png)](https://assets.postman.com/postman-docs/InvitetoTeam1.png)
+## Working with team workspaces
 
-Enter the email id of the person you’d like to invite to your team workspace and click Add. Once the email appears as shown below, click Invite to team button.
+Create a Team Workspace by inviting a team member to join a personal workspace or create one using the app or web dashboard.
 
-[![add email](https://assets.postman.com/postman-docs/Email_add.png)](https://assets.postman.com/postman-docs/Email_add.png)
+### Inviting a team member to a personal workspace
 
-The invitee will be part of the team after accepting the invitation.
+In the app, select **Invite**.
 
-**Note:** My Workspace is a special workspace created by default by Postman. This workspace works differently from your personal workspaces as it cannot be shared with anyone. You can only share the personal workspaces that you create by inviting your team members to it. When you invite a member to your personal workspace, note that Postman converts it into a team workspace.  
+[![invite button](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.21.17 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.21.17 PM.png)
 
-### Creating New Workspace from the Menu
+Enter the email address of the individual you’d like to invite to your team workspace, click **Add** > **Invite to team**.
 
-You can straightaway create a team workspace using Create New option in the Workspace Switcher.
+[![invite team member](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.21.45 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.21.45 PM.png)
 
-[![create new workspace](https://assets.postman.com/postman-docs/MyWorkspace1.png)](https://assets.postman.com/postman-docs/MyWorkspace1.png)
+The individual will be added to the team once they accept their invitation.
 
-Click Create New in the above screen. The following screen opens:
+**Note:** "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.  
 
-[![create workspace](https://assets.postman.com/postman-docs/CreateNewWorkspace.png)](https://assets.postman.com/postman-docs/CreateNewWorkspace.png)
+### Creating a new workspace from the menu
 
-Specify a name in the Name field. Input any details for Summary and select Team under Type. The Team option appears highlighted in orange color indicating its selection. Note that the Invite members to this workspace option is available only for Team workspaces.
+Select your current workspace in the app to open the workspace menu, then click **Create New**.
 
-## Usage Limit for Free Users
+[![create workspace](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.29.42 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.29.42 PM.png)
 
-Team workspaces was available only for Postman Pro and Postman Enterprise users until Postman version 6.2. Team workspaces is available for free users as well from Postman version 6.2 onwards. This section explains the following topics:
+Specify a name, a summary, and select **Team** for type, then invite members to your newly created shared workspace.
 
-* Usage Limit
+## Team discovery
 
-* How Archiving Works
+Enabling team discovery encourages collaboration and eases the onboarding process by allowing users accessing Postman with their company email address to request to join pre-existing teams within their organization.
 
-* Recovering Your Archived Collections
+### Making your team discoverable
 
-### Usage Limit
+You can enable team discovery in the web dashboard by selecting **Team** > **Settings**, or in the app by selecting **Team** > **Team Settings**.
 
-Postman allows you to collaborate with other team members on up to 25 shared requests and an equal number of shared history under the free plan. Once you exceed your limit, Postman archives your collections and shared history requests. However, Postman secures your archived collections and provides access to your data with options of exporting and downloading. Also, note that the usage limit does not apply to sharing environments; it applies only to shared collection requests and history. Only the collections that you share with other teams count towards this limit and you can still continue having unlimited collections for personal use.
+[![team list](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-11_at_5_18_37_PM.png)](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-11_at_5_18_37_PM.png)
 
-You can check the number of requests you shared using some of the features in Postman like usage drop-down and through the Dashboard. The usage drop-down is accessible through the upgrade button on top right corner. It is shown below:
+### Finding teams within your organization
 
-[![usage drop-down](https://assets.postman.com/postman-docs/Usage+drop-down.png)](https://assets.postman.com/postman-docs/Usage+drop-down.png)
+When you log in to the Postman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**.
 
-This section illustrates this procedure. Click the arrow next to upgrade button on top right corner of your Postman main screen. The following screen appears:
+You will see a list of available teams within your org. Select any team, then **Request to join**.
 
-[![usage info](https://assets.postman.com/postman-docs/UsageInfo1.png)](https://assets.postman.com/postman-docs/UsageInfo1.png)
+[![team list](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-11_at_5_13_01_PM.png)](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-11_at_5_13_01_PM.png)
 
-The above screen provides you all the information related to your usage such as shared requests, history, mock usage and so on.
+The team administrator will receive a notification that you’ve asked to join the team. Once they approve your request, you will be able to access the team and collaborate on API projects within it.
 
-### How Archiving Works
+## Usage limit for free users
 
- Postman archives your collections after you reach your usage limit just to enable you to keep sharing your important collections ensuring your work does not come to a complete standstill. Postman keeps notifying you from time to time as your collections get archived, something like this:
+Team workspaces are available to all users as of version 6.2. Postman usage limits differ by plan type and can be viewed on our [pricing page](https://www.getpostman.com/pricing).
 
-[![archived message](https://assets.postman.com/postman-docs/ArchiveMsg1.png)](https://assets.postman.com/postman-docs/ArchiveMsg1.png)  
+### Usage limit
 
-Let’s say you have four collections HealthCheckAPI, DNS Checker, Link Checker, Lunch Picker, and Github-Support-Issues-Alert with each having a set of requests. When you exceed your limit, Postman first analyzes your collections based on the oldest edited collection and archives the entire collection. Assuming HealthCheckAPI is the oldest edited collection (edited about four days ago) for instance, all requests related to HealthCheckAPI get archived.
+ <!-- Postman allows you to collaborate with other team members on up to 25 shared requests and an equal number of shared history under the free plan. Once you exceed your limit, Postman archives your collections and shared history requests. However, Postman secures your archived collections and provides access to your data with options of exporting and downloading. Also, note that the usage limit does not apply to sharing environments; it applies only to shared collection requests and history. Only the collections that you share with other teams count towards this limit and you can still continue having unlimited collections for personal use. -->
 
-If you are still over the limit, Postman then analyzes the next oldest collection and archives Github-Support-Issues-Alert because it is the next oldest (edited about, let's say, three days ago). In an attempt to allow you to continuously share your work, Postman keeps a tab on the share limit to ensure your work is uninterrupted. Postman indicates the number of your archived collections at the bottom of the sidebar as illustrated in the screen below:
+You can check the number of requests you've shared within the Postman app as well as in the web dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting your team name.
+
+The usage menu allows you to review limits for shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
+
+[![usage info](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.38.16 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.38.16 PM.png)
+
+### How archiving works
+
+ Postman archives collections when a free team's collaboration exceeds usage limits. Archived collections cannot be collaborated on, however they are still accessible to users. You will receive an in-app notification when a collection is archived.
+
+[![archived message](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.44.36 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.44.36 PM.png)  
+
+Postman chooses which collection(s) to archive based on last edit date. The collections that have gone the longest without a revision will be archived in order to bring your team within usage limits.
+
+Postman indicates the number of archived collections at the bottom of the left sidebar.
 
 [![archived message](https://assets.postman.com/postman-docs/ArchiveMsg2.png)](https://assets.postman.com/postman-docs/ArchiveMsg2.png)  
 
-The above screen displays six archived collections.
+### Recovering your archived collections
 
-### Recovering Your Archived Collections
+To recover archived collections, select **ARCHIVED COLLECTIONS** in the left-hand menu.
 
-As Postman archives your collections, you might want to recover your collections for your reference and use. To recover your collections, in the Postman main screen, click ARCHIVED COLLECTIONS, as illustrated below:
-
-[![archived message](https://assets.postman.com/postman-docs/ArchiveMsg2.png)](https://assets.postman.com/postman-docs/ArchiveMsg2.png)  
-
-You are now redirected to the Postman web dashboard, as illustrated in the following screen:
-
+You will then be directed to your web dashboard, where you can click **Download your data** > **Request data export** > **Request an archive**.
 [![export data1](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)
 
-This screen lists all your archived collections. Click Download Your Data on top right corner to bring up the following screen:
-
-[![export data2](https://assets.postman.com/postman-docs/Recovering_ArchivedCol2.png)](https://assets.postman.com/postman-docs/Recovering_ArchivedCol2.png)
-
-Click Request data archive on top right corner. The following screen appears:
-
-[![request data archive](https://assets.postman.com/postman-docs/Req_Data_Archive1.png)](https://assets.postman.com/postman-docs/Req_Data_Archive1.png)  
-
-Once you request, your request will be acknowledged and in due course your request appears under Requested Archives section from where you can click Download button and get your data, as illustrated here:
+You will then be able to select **Download** to retrieve your archived data.
 
 [![Download Data](https://assets.postman.com/postman-docs/Download_Data1.png)](https://assets.postman.com/postman-docs/Download_Data1.png)
 
-Alternatively, you can also download your archived data directly from the Postman App. To know more about this, refer to [Settings](/docs/postman/launching-postman/settings/) section.
-
-To download your archived collections, you must choose the second option Download all data including data in workspaces I have joined. The first option in the above screen downloads only your data in personal workspaces.
+Alternatively, you can download your archived data directly within the Postman App. To learn how, refer to [Settings](/docs/postman/launching-postman/settings/).
