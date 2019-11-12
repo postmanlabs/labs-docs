@@ -45,11 +45,11 @@ Everyone in your team is a member. Each member has certain roles, which allow th
 
 ### Managing roles
 
-An admin can modify the roles of other team members, by navigating to [Team](https://go.postman.co/team) > **Manage Roles**. Click **Admin**, **Billing**, or **Developer** next to the corresponding member to assign and unassign roles, then **Save**. 
+An admin can modify the roles of other team members, by navigating to [Team](https://go.postman.co/team) > **Manage Roles**. Click **Admin**, **Billing**, or **Developer** next to the corresponding member to assign and unassign roles, then **Save**.
 
   [![manage settings](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-12_at_12_50_38_PM.png)](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-12_at_12_50_38_PM.png)
 
-Each team member must have a minimum of one role assigned to them. Additionally, only team members with a billing role will be able to give other users that designation. 
+Each team member must have a minimum of one role assigned to them. Additionally, only team members with a billing role will be able to give other users that designation.
 
 Note that teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin and/or billing roles.
 
@@ -71,7 +71,7 @@ In a workspace, click **...** > **Manage Members**. Enter the name or email of t
 
 ### Inviting to team workspaces in the app
 
-Select **Invite**, enter the name or email of the individuals you'd like to add to the workspace, then click **Send Invitations**. 
+Select **Invite**, enter the name or email of the individuals you'd like to add to the workspace, then click **Send Invitations**.
 
  [![invite via app](https://assets.postman.com/postman-docs/Screen Shot 2019-11-12 at 2.00.10 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-12 at 2.00.10 PM.png)
 
