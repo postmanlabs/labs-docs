@@ -24,7 +24,7 @@ contextual_links:
 
 ---
 
-Postman is available as a native app for macOS, Windows (32-bit and 64-bit), and Linux (32-bit and 64-bit) operating systems.
+Postman is available as a native app for Mac, Windows (32-bit / 64-bit), and Linux (32-bit / 64-bit) operating systems.
 
 To get the latest version of the Postman app, visit the [download page](https://www.getpostman.com/downloads/) and click **Download** for your platform.
 
@@ -46,9 +46,9 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 ## Installing Postman on Mac
 
-[Download](https://www.getpostman.com/downloads/) and unzip the app. Double-click __Postman__. You will be prompted to move file to your __Applications__ folder. Click __Move to Applications Folder__—this will ensure that future updates can be installed correctly. The Postman app will open.
+[Download](https://www.getpostman.com/downloads/) and unzip the app. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
 
-> The minimum version supported is macOS 10.9.
+> The minimum OS version supported is macOS 10.9.
 
 ## Installing Postman on Windows
 
@@ -58,7 +58,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 ## Installing Postman on Linux
 
-[Download](https://www.getpostman.com/downloads/) and unzip the app. Create a desktop file, naming it `Postman.desktop` and saving it in teh following location:
+[Download](https://www.getpostman.com/downloads/) and unzip the app. Create a desktop file, naming it `Postman.desktop` and saving it in the following location:
 
 ```shell
 ~/.local/share/applications/Postman.desktop
@@ -80,20 +80,23 @@ Categories=Development;
 The `Postman.desktop` file allows you to open Postman via application launchers. Check your desktop and double-click the Postman icon.
 
 > Postman supports Ubuntu 12.04 and later, Fedora 21, and Debian 8 and later.
+>
 > Avoid starting Postman using `sudo` command, as it will create permission issues on the files created by Postman.
-> Make sure you have read/write permission for the `~/.config` folder where Postman stores the information.
+>
+> Make sure you have read/write permission for the `~/.config` folder where Postman stores information.
+>
 > If you are an Ubuntu 18 user, you will also need to install the `libgconf-2-4` package to ensure a smooth Postman run: `apt-get install libgconf-2-4`
 
 ## Postman Chrome app (deprecated)
 
-The Postman Chrome app is deprecated—if you're using the Chrome app [you should switch to the native app](https://blog.getpostman.com/2017/03/14/going-native/). The native app is built on [Electron](https://electronjs.org/), and overcomes a number of restrictions of the Chrome platform.
+The Postman Chrome app is deprecated—if you're using the Chrome app, you can retain your data when you [switch to the native app](https://blog.getpostman.com/2017/03/14/going-native/). The native app is built on [Electron](https://electronjs.org/), and overcomes a number of restrictions of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/postman/sending-api-requests/cookies/) directly.
 * Unlike the Chrome app, no separate extension for the ([Interceptor](/docs/postman/sending-api-requests/interceptor-extension/)) is needed.
 * The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/postman/sending-api-requests/capturing-http-requests/).
 * The native apps are not restricted by the Chrome standards for the menu bar. You can check for updates, create Postman Windows and tabs, and edit preferences.
 * The native apps let you send headers like `Origin` and `User-Agent`. These are restricted in the Chrome app.
-* The "don't follow redirects" option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected. Doing this required the Interceptor extension to do this in the Chrome app.
+* The "don't follow redirects" option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected—doing this in the Chrome app requires the Interceptor extension.
 * The native app has a built-in [console](/docs/postman/sending-api-requests/debugging-and-logs/#network-calls-with-postman-console), which allows you to view the network request details for API calls.
 
 ### Migrating to the native app
@@ -120,11 +123,11 @@ You can configure your preferences to enable automatic download for major update
 
 ## Troubleshooting your Postman installation
 
-If you encounter any issues installing and running Postman, check out the following tips—if these do not help please refer to the installation posts on the [community forum](https://community.getpostman.com/tags/installation) and create a new post if your issue is not already covered.
+If you encounter any issues installing and running Postman, check out the following tips—if these do not help, please refer to the installation posts on the [community forum](https://community.getpostman.com/tags/installation) and create a new post if your issue is not already covered.
 
 ### Update failed error
 
-If you see an __Update Failed__ notification in Postman, you can use the dev tools to investigate.
+If you see an __Update Failed__ notification in Postman, you can use the DevTools to investigate.
 
 ![update-error-dialog](https://assets.postman.com/postman-docs/update-error-dialog.png)
 
@@ -142,7 +145,7 @@ Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Curren
 
 ### Update button not available
 
-If you are using Postman for Linux, and installed the app via the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store which should automatically update Postman on a regular cadence. It you are on Postman version 6, you will have to migrate to Postman 7 and change the Snap channel to get the latest updates. For more information see [Migrating to Postman v7](/docs/postman-pro/managing-pro/migrating-to-v7).
+If you are using Postman for Linux, and installed the app via the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence. It you are on Postman version 6, you will have to migrate to Postman 7 and change the Snap channel to get the latest updates. For more information see [Migrating to Postman 7](/docs/postman-pro/managing-pro/migrating-to-v7).
 
 ## Next steps
 
