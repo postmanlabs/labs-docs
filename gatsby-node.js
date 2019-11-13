@@ -6,6 +6,7 @@ const uuidv4 = require('uuid/v4');
 const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects');
 const HeaderJson = require('./src/components/Header/Header.data.json');
+const FooterJson = require('./src/components/Footer/Footer.data.json');
 
 const ignorePaths = [
   '/docs/postman-pro/api-search/searching-apis/',
@@ -132,4 +133,5 @@ exports.sourceNodes = async ({
 
   createNode(prepareNode(output.docs, 'leftNavLinks'));
   createNode(prepareNode(HeaderJson, 'headerLinks'));
+  createNode(prepareNode(FooterJson, 'FooterLinks'));
 };

@@ -1,28 +1,37 @@
+import { useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
 import DynamicLink from '../Shared/DynamicLink';
 import './Footer.scss';
-import FooterJson from './Footer.data.json';
 
-const FooterColumn = () => (
-  FooterJson.columns.map((col) => {
-    const title = <h5 className="footer-column__title">{col.name}</h5>;
-    const links = col.children.map((link) => (
-      <li key={link.name}>
-        <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
-      </li>
-    ));
+const FooterColumn = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      footerLinks {
+        value
+      }
+    }`);
 
-    return (
-      <div className="footer-column col-6 col-sm-4 col-md-2" key={col.name}>
-        {title}
-        <ul className="footer-column__list">
-          {links}
-        </ul>
-        <div className="clearfix d-block" />
-      </div>
-    );
-  })
-);
+  return (
+    JSON.parse(data.footerLinks.value).columns.map((col) => {
+      const title = <h5 className="footer-column__title">{col.name}</h5>;
+      const links = col.children.map((link) => (
+        <li key={link.name}>
+          <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
+        </li>
+      ));
+
+      return (
+        <div className="footer-column col-6 col-sm-4 col-md-2" key={col.name}>
+          {title}
+          <ul className="footer-column__list">
+            {links}
+          </ul>
+          <div className="clearfix d-block" />
+        </div>
+      );
+    })
+  );
+};
 
 const Footer = () => (
   <footer className="footer">
