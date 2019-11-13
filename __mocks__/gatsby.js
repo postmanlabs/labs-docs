@@ -44,7 +44,10 @@ module.exports = {
       ],
     },
     leftNavLinks: {
-      paths: '{"docs":{"foo":{"slug":{"url":"/docs/foo/slug/"},"nested":{"nestedslug":{"url":"/docs/foo/nested/nestedslug/"}}},"bar":{"otherslug":{"url":"/docs/bar/otherslug/"}}}}',
+      value: '{"docs":{"foo":{"slug":{"url":"/docs/foo/slug/"},"nested":{"nestedslug":{"url":"/docs/foo/nested/nestedslug/"}}},"bar":{"otherslug":{"url":"/docs/bar/otherslug/"}}}}',
+    },
+    headerLinks: {
+      value: '{"links":[{"name":"Getting Started","url":"/getting-started/"},{"name":"Concepts","url":"/concepts/"},{"name":"Reference","url":"/reference/"},{"name":"Docs","url":"/docs/"},{"name":"Dashboard","url":"https://app.getpostman.com/","cta":true}],"title":"Learning Center"}',
     },
   })),
 };
