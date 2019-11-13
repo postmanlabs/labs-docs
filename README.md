@@ -39,7 +39,7 @@ The built site will only host the most up-to-date docs. All legacy documentation
 * Links in the docs should be relative. Example:
 
 ```
-   [Newman](/docs/postman/collection_runs/command-line-integration-with-newman/)
+   [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
 ```
 
 ## Resources
