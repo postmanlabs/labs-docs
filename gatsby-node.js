@@ -5,6 +5,7 @@ const glob = require('glob');
 const uuidv4 = require('uuid/v4');
 const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects');
+const HeaderJson = require('./src/components/Header/Header.data.json');
 
 const ignorePaths = [
   '/docs/postman-pro/api-search/searching-apis/',
@@ -72,6 +73,28 @@ exports.sourceNodes = async ({
   createNodeId,
   createContentDigest,
 }) => {
+  const prepareNode = (obj, name) => {
+    const data = {
+      key: uuidv4(),
+      value: JSON.stringify(obj),
+    };
+    const node = JSON.stringify(data);
+    const nodeMeta = {
+      id: createNodeId(`my-data-${data.key}`),
+      parent: null,
+      children: [],
+      internal: {
+        type: name,
+        mediaType: 'text/json',
+        content: node,
+        contentDigest: createContentDigest(data),
+      },
+    };
+
+    const output = { ...data, ...nodeMeta };
+    return output;
+  };
+
   const getDirectories = (src) => glob.sync(`${src}/**/*`);
   const paths = getDirectories('./src/pages/docs')
     .filter((val) => val.slice(-3) === '.md')
@@ -107,25 +130,6 @@ exports.sourceNodes = async ({
 
   const { createNode } = actions;
 
-  const myData = {
-    key: uuidv4(),
-    paths: JSON.stringify(output.docs),
-  };
-
-  const nodeContent = JSON.stringify(myData);
-
-  const nodeMeta = {
-    id: createNodeId(`my-data-${myData.key}`),
-    parent: null,
-    children: [],
-    internal: {
-      type: 'leftNavLinks',
-      mediaType: 'text/html',
-      content: nodeContent,
-      contentDigest: createContentDigest(myData),
-    },
-  };
-
-  const node = { ...myData, ...nodeMeta };
-  createNode(node);
+  createNode(prepareNode(output.docs, 'leftNavLinks'));
+  createNode(prepareNode(HeaderJson, 'headerLinks'));
 };
