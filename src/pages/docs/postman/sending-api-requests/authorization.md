@@ -229,6 +229,8 @@ Enter the details for your client application, and any auth details from the ser
 
 Postman will prompt you to supply specific details depending on the OAuth 2.0 __grant__ type, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
 
+> If you need a callback URL during testing, you can use the following: `https://www.getpostman.com/oauth2/callback`
+
 ### Authorization code
 
 Authorization code grant type requires the user to authenticate with the provider—an authorization code is then sent back to the client app, extracted, and exchanged with the provider for an access token to authenticate subsequent requests.
