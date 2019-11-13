@@ -229,8 +229,6 @@ Enter the details for your client application, and any auth details from the ser
 
 Postman will prompt you to supply specific details depending on the OAuth 2.0 __grant__ type, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
 
-> If you need a callback URL during testing, you can use the following: `https://www.getpostman.com/oauth2/callback`
-
 ### Authorization code
 
 Authorization code grant type requires the user to authenticate with the provider—an authorization code is then sent back to the client app, extracted, and exchanged with the provider for an access token to authenticate subsequent requests.
@@ -261,7 +259,7 @@ The full list of parameters to request a new access token is as follows, dependi
 
 * __Token Name:__ The name you want to use for the token.
 * __Grant Type:__ A dropdown list of options—this will depend on the API service provider requirements.
-* __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and extract the code or access token from it.
+* __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it—if this does not work for your API, you can use the following URL: `https://www.getpostman.com/oauth2/callback`
 * __Auth URL:__ The endpoint for the API provider authorization server, to retrieve the auth code.
 * __Access Token URL:__ The provider's authentication server, to exchange an authorization code for an access token.
 * __Client ID:__ The ID for your client application registered with the API provider.
