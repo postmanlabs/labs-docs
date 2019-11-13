@@ -46,9 +46,11 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 ## Installing Postman on Mac
 
-[Download](https://www.getpostman.com/downloads/) and unzip the app. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
+[Download](https://www.getpostman.com/downloads/) and unzip the app _using the built-in Archive Utility app_. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
 
 > The minimum OS version supported is macOS 10.9.
+>
+> You may encounter a "Library not loaded" error if you attempt to unzip and install Postman using a third-party app—using the default Archive Utility for Mac should resolve this.
 
 ## Installing Postman on Windows
 
@@ -58,26 +60,28 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 ## Installing Postman on Linux
 
-[Download](https://www.getpostman.com/downloads/) and unzip the app. Create a desktop file, naming it `Postman.desktop` and saving it in the following location:
+You can install Postman on Linux by downloading it—or via the [Snap](https://snapcraft.io/postman) store link / using the command `snap install postman`.
+
+To install manually, [download](https://www.getpostman.com/downloads/) and unzip the app, for example into the `opt` directory. You will need `sudo` privileges.
+
+To start the app from a launcher icon, create a desktop file, naming it `Postman.desktop` and saving it in the following location:
 
 ```shell
 ~/.local/share/applications/Postman.desktop
 ```
 
-Enter the following content in the file, replacing `YOUR_INSTALL_DIR` to reflect your own system, and save it:
+Enter the following content in the file—replacing `opt` if you extracted the file somewhere else—and save it:
 
 ```shell
 [Desktop Entry]
 Encoding=UTF-8
 Name=Postman
-Exec=YOUR_INSTALL_DIR/Postman/app/Postman %U
-Icon=YOUR_INSTALL_DIR/Postman/app/resources/app/assets/icon.png
+Exec=/opt/Postman/app/Postman %U
+Icon=/opt/Postman/app/resources/app/assets/icon.png
 Terminal=false
 Type=Application
 Categories=Development;
 ```
-
-The `Postman.desktop` file allows you to open Postman via application launchers. Check your desktop and double-click the Postman icon.
 
 > Postman supports Ubuntu 12.04 and later, Fedora 21, and Debian 8 and later.
 >
@@ -89,7 +93,9 @@ The `Postman.desktop` file allows you to open Postman via application launchers.
 
 ## Postman Chrome app (deprecated)
 
-The Postman Chrome app is deprecated—if you're using the Chrome app, you can retain your data when you [switch to the native app](https://blog.getpostman.com/2017/03/14/going-native/). The native app is built on [Electron](https://electronjs.org/), and overcomes a number of restrictions of the Chrome platform.
+The Postman Chrome app is deprecated—if you're using the Chrome app, you can [retain your data when you switch to the native app](#migrating-to-the-native-app) ___either by syncing with a Postman account you're signed into, or by exporting from Chrome and importing into the native app___.
+
+The native app is built on [Electron](https://electronjs.org/), and [overcomes a number of restrictions](https://blog.getpostman.com/2017/03/14/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/postman/sending-api-requests/cookies/) directly.
 * Unlike the Chrome app, no separate extension for the ([Interceptor](/docs/postman/sending-api-requests/interceptor-extension/)) is needed.
