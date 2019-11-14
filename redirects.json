@@ -34,5 +34,9 @@
   {
     "from": "/docs/postman_pro/managing_postman_pro/managing_your_team/",
     "to": "/docs/postman-pro/managing-pro/managing-your-team/"
+  },
+  {
+    "from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/#team-user-on-postman-v7",
+    "to": "/docs/postman-pro/managing-pro/migrating-to-v7/#update-to-postman-v7"
   }
 ]
