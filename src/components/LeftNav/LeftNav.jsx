@@ -123,14 +123,14 @@ const LeftNav = () => {
         }
       },
       leftNavLinks {
-        paths
+        value
       }
     }`);
   slugs = data.allMarkdownRemark.nodes;
 
   return (
     <div className="leftNav">
-      <ListItem data={data.leftNavLinks.paths} isRoot />
+      <ListItem data={data.leftNavLinks.value} isRoot />
     </div>
   );
 };

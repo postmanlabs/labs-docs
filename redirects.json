@@ -22,5 +22,9 @@
   {
     "from": "/docs/postman-pro/managing-pro/inviting-and-managing",
     "to": "/docs/postman-pro/managing-pro/managing-your-team/"
+  },
+  {
+    "from": "/docs/postman/workspaces/activity-feed-and-restoring-collections/",
+    "to": "/docs/postman/workspaces/changelog-and-restoring-collections/"
   }
 ]
