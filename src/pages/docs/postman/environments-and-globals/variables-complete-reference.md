@@ -73,7 +73,7 @@ pm.variables.get();
 
 ```
 
-Let’s consider a case in point. A collection has 500 requests in it and all of them have a URL. Let’s say if the URL gets changed then updating this change 500 times for 500 requests is near impossible. So, it’s a good idea to create a collection variable and use accordingly. Another recommendation here is if you have non-sensitive data which is repetitive, it is recommended to go for a collection variable. Remember one of the primary use cases of collection variables is that you can access them from a request within a collection.  
+Collection variables are very useful in managing collections. For exacmple, consider a collection that has 500 requests in it and all of them have a URL. If the URL gets changed then updating this change 500 times for 500 requests is near impossible. So, it’s a good idea to create a collection variable and use accordingly. Another recommendation here is if you have non-sensitive data which is repetitive, it is recommended to go for a collection variable. Remember one of the primary use cases of collection variables is that you can access them from a request within a collection.  
 
 Syntax:
 
