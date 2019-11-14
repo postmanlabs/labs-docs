@@ -159,7 +159,7 @@ Extended Reference:
 
 `pm.variables:` [Read more about VariableScope](http://www.postmanlabs.com/postman-collection/VariableScope.html)
 
-In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration take precedence over the variables defined in the current environment, which overrides ones defined in the global scope, i.e. `Iteration Data` < `Environment` < `Global`.
+In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration take precedence over the variables defined in the current environment, which overrides ones defined in the global scope. The order of precedence is `Iteration Data` < `Environment` < `Collection` < `Global`.
 
 * `pm.variables.has(variableName:String):function → Boolean`: Check if there is a local variable in the current scope.
 * `pm.variables.get(variableName:String):function → *`: Get the value of the local variable with the specified name.
@@ -179,6 +179,17 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 * `pm.environment.unset(variableName:String):function`: Remove an environment variable with the specified name.
 * `pm.environment.clear():function`: Clears all the current environment variables.
 * `pm.environment.toObject():function → Object`: Returns all the environment variables in the form of a single object.
+
+### pm.collectionVariables
+
+`pm.collectionVariables:` [Read more about VariableScope](http://www.postmanlabs.com/postman-collection/VariableScope.html)
+
+* `pm.collectionVariables.has(variableName:String):function → Boolean`: Check if there is a collection variable with the given name.
+* `pm.collectionVariables.get(variableName:String):function → *`: Returns the value of the collection variable with the given name.
+* `pm.collectionVariables.set(variableName:String, variableValue:String):function`: Sets a collection variable with given value.
+* `pm.collectionVariables.unset(variableName:String):function`: Clears the specified collection variable.
+* `pm.collectionVariables.clear():function`: Clear all the collection variables.
+* `pm.collectionVariables.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
 
 ### pm.globals
 
