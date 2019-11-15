@@ -1,7 +1,7 @@
 ---
-title: "Intro to API documentation"
+title: "Documenting your API"
 order: 65
-page_id: "intro_to_api_documentation"
+page_id: "documenting-your-api"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -28,98 +28,93 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Publishing public docs"
-    url: "/docs/postman/api-documentation/publishing-public-docs/"
+    name: "Publishing your docs"
+    url: "/docs/postman/api-documentation/publishing-your-docs/"
 
 warning: false
 
 ---
 
-Postman's API Documentation feature lets you view private API documentation or share public API documentation in a beautifully formatted web page.
+You can automatically generate documentation for your Postman APIs. You can share your documentation privately or publish it on the Web. Postman generates and hosts documentation based on collections, synced in realtime and accessible via the browser. You can use documentation to collaborate with team members and partners, or to support developer adoption for your public APIs.
 
-Postman generates and hosts browser-based API documentation for your collections automatically in real-time. Each collection has a private and public documentation view that Postman generates from synced data in the servers.
+![Public Documentation](https://assets.postman.com/postman-docs/documentation-published.jpg)
 
-## Private documentation view
+## Contents
 
-### Postman app
+* [Generating your documentation](#generating-your-documentation)
+    * [Documenting an existing collection](#documenting-an-existing-collection[)
+    * [Creating documentation for a new collection](#creating-documentation-for-a-new-collection)
+    * [Including detail in your docs](#including-detail-in-your-docs)
+* [Accessing doc views](#accessing-doc-views)
+* [Documentation environments](#documentation-environments)
+* [Versioning your docs](#versioning-your-docs)
 
-To [access the private view](/docs/postman/api-documentation/viewing-documentation/) of your team documentation, go to the sidebar in the Postman app and click the **>** icon in the collection you want to view. Then click "View in web" to view the documentation for the collection.
+## Generating your documentation
 
-[![view doc sidebar](https://assets.postman.com/postman-docs/view-web-documentation.png)](https://assets.postman.com/postman-docs/view-web-documentation.png)
+Documentation is based on a Postman collection, so you can [generate it from an existing collection](#documenting-an-existing-collection[) or [create it in conjunction with a new collection](#creating-documentation-for-a-new-collection).
 
-### Postman web
+### Documenting an existing collection
 
-To access the private view of your team documentation, go to your [workspaces dashboard](https://app.getpostman.com/dashboard).
+To generate and view documentation for an existing collection from the Postman app, use the __Collections__ tab on the left to select the collection. Use the &#9654; button to open the collection detail, and select __View in web__ to open the documentation in the browser.
 
-Click the "View all collections" link.
+![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
-[![view all collections](https://assets.postman.com/postman-docs/view-all-collections.png)](https://assets.postman.com/postman-docs/view-all-collections.png)
+Alternatively, use the __New__ button, and select __API Documentation__. Choose __Select an existing collection__ and click the collection you want to view docs for.
 
-Click a collection name to view the documentation.
+![Document Collection](https://assets.postman.com/postman-docs/document-collection.jpg)
 
-[![click the collection](https://assets.postman.com/postman-docs/click-collection-private-view.png)](https://assets.postman.com/postman-docs/click-collection-private-view.png)
+Enter or edit the markdown description of your collection and click __Save__.
 
-## Public documentation view
+![Collection Description](https://assets.postman.com/postman-docs/collection-description.jpg)
 
-After you [publish your documentation](/docs/postman/api-documentation/publishing-public-docs/), you can use the public link to view the documentation.
+You will see a confirmation that your documentation is published, and a link you can visit to view it in the browser.
 
-The public link displays after you publish your documentation. A link to this published documentation is also accessible in the "Published" dropdown from the private documentation view.
+![Docs Link](https://assets.postman.com/postman-docs/docs-link.jpg)
 
-## Creating documentation
+You can also view documentation from the [web dashboard](https://web.postman.co/)—select __View all collections__, then select a collection to view its docs in the browser.
 
-You can create documentation in a few different ways:
+![Collections in Web](https://assets.postman.com/postman-docs/collections-web.jpg)
 
-* Using the [**New** button](/docs/postman/launching-postman/newbutton/)
+> By default your documentation is private, so only people you share the collection with will be able to see it. You can [publish your documentation](/docs/postman/api-documentation/publishing-your-docs/) for public viewing.
 
-* Using the Postman app launch screen following similar steps as the **New** button
-* From an existing collection by [viewing the private version of the docs](/docs/postman/api-documentation/viewing-documentation/) or [publishing public docs](/docs/postman/api-documentation/publishing-public-docs/)
+Some detail [is included in your documentation by default](#including-detail-in-your-docs), and you can optionally add further detail.
 
-## What gets automatically generated?
+### Creating documentation for a new collection
 
-Documentation for your API includes:
+You can create documentation from the Postman launch screen or using the __New__ button and choosing __API Documentation__. __Create a new collection__ will be selected by default. Add any initial requests you want to document within your new collection and click __Next__.
 
-* Sample requests, headers, and other metadata
-* Descriptions associated with requests, folders, and collections
-* Generated code snippets in some of the most popular programming languages
-* [Run in Postman button](/docs/postman-for-publishers/run-button/using-run-button)
+![Document Request](https://assets.postman.com/postman-docs/document-new-request.jpg)
 
-Postman uses ordered requests and folders to organize documentation in sections to reflect the structure of your collection.
+Name the collection, enter a markdown description to display in your docs, and click __Save__.
 
-You can customize descriptions using [Markdown](/docs/postman/api-documentation/how-to-document-using-markdown/) styling with embedded graphics to complement your documentation.
+![Collection Description](https://assets.postman.com/postman-docs/collection-description.jpg)
 
-Postman supports GitHub-flavored Markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
+You will see a confirmation that your documentation is published, and a link you can visit to view it in the browser.
 
-[![example of published documentation](https://assets.postman.com/postman-docs/WS-doc-markdown.png)](https://assets.postman.com/postman-docs/WS-doc-markdown.png)
+![Docs Link](https://assets.postman.com/postman-docs/docs-link.jpg)
 
-## Link to sections within documentation
+> By default your documentation is private, so only people you share the collection with will be able to see it. You can [publish your documentation](/docs/postman/api-documentation/publishing-your-docs/) for public viewing.
 
-To include helpful cross-references for your readers, you can hyperlink to these parts within the generated documentation:
+### Including detail in your docs
 
-* Introduction headers
-* Requests
-* Folders
-* Responses
+Your docs will automatically include detail on your requests, with sample code in various client languages. Each collection / request listing indicates the method, URL, description, headers, request and response structures, and examples. Your docs will also include a [Run in Postman button](/docs/postman-for-publishers/run-button/using-run-button), allowing viewers to import the collection directly into the Postman app to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
 
-The links are generated using IDs for the requests, folders and responses. If you click on any of these, the URL in your browser should update to a link which points to this specific part of the documentation. You can hyperlink to these parts using this link.
+You can add detail to your descriptions using [Markdown](/docs/postman/api-documentation/authoring-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
 
-[![anchor tag id](https://assets.postman.com/postman-docs/anchor-id.png)](https://assets.postman.com/postman-docs/anchor-id.png)
+![Docs Folders](https://assets.postman.com/postman-docs/docs-folders.jpg)
 
-**Note:** You cannot link to arbitrary parts of the documentation by manually creating an ID.
+For more on adding detail to your docs, see [Authoring documentation](/docs/postman/api-documentation/authoring-documentation/).
 
-## Commenting on Private Documentation
+## Accessing doc views
 
-You can post comments on your API documentation to share information with your colleagues. You can save interactions with your teammates, add information that does not fit anywhere else, and can have discussions and more.
+By default your documentation is private, and viewable only to people you have [shared a collection](/docs/postman/collections/sharing-collections/) with. If you [publish your documentation](/docs/postman/api-documentation/publishing-your-docs/), anyone with the link can view it in a browser.
 
-You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](/docs/postman/api-documentation/viewing-documentation/).
+For more on accessing private and public docs, see [Viewing documentation](/docs/postman/api-documentation/viewing-documentation/).
 
-Once you access the documentation section, the comments section appears, as shown below:
+> Public and private documentation pages receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
 
-[![Comments New](https://assets.postman.com/postman-docs/Comments_New1.png)](https://assets.postman.com/postman-docs/Comments_New1.png)
+## Documentation environments
 
-Click Comments to bring up the 'Add comment' dialog, as illustrated above. Write your comment and click 'Add comment'. Your comment is now posted.
+Use can use environments to set variables in your documentation.
 
-**Note:** You can post comments only on Private Documentation.
-
-## Free documentation views with your Postman account
-
-Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
+## Versioning your docs
