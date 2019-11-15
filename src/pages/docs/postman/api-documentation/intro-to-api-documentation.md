@@ -28,6 +28,9 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
+    name: "Authoring documentation"
+    url: "/docs/postman/api-documentation/authoring-documentation/"
+  - type: link
     name: "Publishing your docs"
     url: "/docs/postman/api-documentation/publishing-your-docs/"
 
@@ -48,6 +51,7 @@ You can automatically generate documentation for your Postman APIs. You can shar
 * [Accessing doc views](#accessing-doc-views)
 * [Documentation environments](#documentation-environments)
 * [Versioning your docs](#versioning-your-docs)
+* [Next steps](#next-steps)
 
 ## Generating your documentation
 
@@ -115,6 +119,46 @@ For more on accessing private and public docs, see [Viewing documentation](/docs
 
 ## Documentation environments
 
-Use can use environments to set variables in your documentation.
+You can use environments to set variables that will be available in your documentation. Anyone viewing private documentation will be access environments shared with them. For public documentation, you can select an environment to share during the publication process—this will make the environment available to anyone viewing the published documentation link.
+
+![Doc Environment](https://assets.postman.com/postman-docs/doc-environment.jpg)
+
+Associating an environment with your documentation means that the values of any environment variables your requests reference will automatically populate in the doc content. Anyone using the __Run in Postman__ button from your docs will also be able to access the shared environment when they import the collection into their Postman app.
+
+To use a variable value in your documentation, [create](/docs/postman/environments-and-globals/manage-environments/#creating-a-new-environment) or select an environment.
+
+![Environment Quick Look](https://assets.postman.com/postman-docs/env-quick.jpg)
+
+And [add the new variable](/docs/postman/environments-and-globals/manage-environments/#editing-an-active-environment) if you haven't already done so.
+
+![Environment Variable](https://assets.postman.com/postman-docs/env-var.jpg)
+
+When you [reference a variable](/docs/postman/environments-and-globals/variables/#accessing-variables-in-the-request-builder) in your requests, the value from the selected environment will automatically be published along with your documentation.
+
+![Reference Variable](https://assets.postman.com/postman-docs/reference-var.jpg)
+
+This means that anyone viewing your documentation will see the variable value along with the relevant environment.
+
+![Variable Value in Docs](https://assets.postman.com/postman-docs/documented-var.jpg)
+
+If someone imports the collection using the __Run in Postman__ button from your docs, they will also import the environment and variable.
+
+> Variable values will be published explicitly in your docs, so make sure they don't contain any sensitive data.
 
 ## Versioning your docs
+
+Any version tags you add to your collections will be published along with your docs. You can add versions to an [API](/docs/postman/design-and-develop-apis/versioning-an-api/#creating-api-versions) or [collection](/docs/postman/design-and-develop-apis/versioning-an-api/#adding-version-tag-to-a-collection).
+
+![Add Version](https://assets.postman.com/postman-docs/add-version.jpg)
+
+If you share a collection privately, viewers will be able to select versions from a drop-down list in your docs.
+
+![Docs Versions](https://assets.postman.com/postman-docs/docs-versions.jpg)
+
+When you publish docs to share publicly, you can select a version all viewers will see.
+
+![Publish Version](https://assets.postman.com/postman-docs/publish-version.jpg)
+
+## Next steps
+
+Learn more about [authoring your docs](/docs/postman/api-documentation/publishing-your-docs/) and [publishing them](/docs/postman/api-documentation/authoring-documentation/).
