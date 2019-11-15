@@ -39,7 +39,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
     * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
         * [Migrating to the native app](#migrating-to-the-native-app)
 * [Updating Postman](#updating-postman)
-* [Troubleshooting your Postman intallation](#troubleshooting-your-postman-installation)
+* [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
 * [Next steps](#next-steps)
 
 > Note that the Postman team only tests, fixes bugs, and provides support for the app on Mac, Windows, and Linux.
