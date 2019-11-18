@@ -19,7 +19,7 @@ Postman Pro and Enterprise users can use the Team Library to enhance collaborati
   Teams can use [environments](/docs/postman/api-documentation/environments-and-environment-templates/) to create and [share a snapshot of a local environment](/docs/postman/team-library/sharing/#sharing-environments). Users might have different environment variable values, so updates to these values are not synced between shared environments.
 * **See the activity feed in the Team Library**
   
-  You can see changes to shared collections in the [activity feed](/docs/postman/workspaces/activity-feed-and-restoring-collections/).
+  You can see changes to shared collections in the [activity feed](/docs/postman/workspaces/changelog-and-restoring-collections/).
 * **Subscribe to shared collections**
   
   When you [subscribe to a collection](/docs/postman/team-library/sharing/), you get a synced copy of this collection in your Postman app. If you have edit permissions for the collection, you can make changes that other subscribers to the collection can see.
