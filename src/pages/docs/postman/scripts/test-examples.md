@@ -90,6 +90,26 @@ var obj = JSON.parse(pm.environment.get("obj"));
 pm.environment.unset("variable_key");
 ```
 
+## Collection
+
+### Setting an collection variable
+
+```js
+pm.collectionVariables.set(variableName:String, variableValue:String);
+```
+
+### Get a collection variable
+
+```js
+pm.collectionVariables.get(variableName:String);
+```
+
+### Clear a collection variable
+
+```js
+pm.collectionVariables.unset(variableName:String);
+```
+
 ## Globals
 
 ### Set a global variable

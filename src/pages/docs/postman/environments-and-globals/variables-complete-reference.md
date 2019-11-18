@@ -62,7 +62,7 @@ pm.iterationData.get()
 
 ### Collection variables
 
-These variables are a part of your collection. If there are variables that don’t change based on your environment, you can create collection variables. You can create/define your collection variables in the UI by clicking (...) next to the collection name and selecting 'Edit'. You can only get the variable using ```pm.variables.get ()```, you can't set it. Since these variables are read-only, you can use the following syntax to get the value:
+These variables are a part of your collection. If there are variables that don’t change based on your environment, you can create collection variables. You can create/define your collection variables in the UI by clicking (...) next to the collection name and selecting 'Edit' or programmatically. You can use the following syntax to get the value:
 
 Syntax:
 
@@ -74,7 +74,7 @@ pm.variables.get();
 
 ```
 
-Let’s consider a case in point. A collection has 500 requests in it and all of them have a URL. Let’s say if the URL gets changed then updating this change 500 times for 500 requests is near impossible. So, it’s a good idea to create a collection variable and use accordingly. Another recommendation here is if you have non-sensitive data which is repetitive, it is recommended to go for a collection variable. One point to note though is that you can’t set collection variables using scripts. Remember one of the primary use cases of collection variables is that you can access them from a request within a collection.  
+Collection variables are very useful in managing collections. For exacmple, consider a collection that has 500 requests in it and all of them have a URL. If the URL gets changed then updating this change 500 times for 500 requests is near impossible. So, it’s a good idea to create a collection variable and use accordingly. Another recommendation here is if you have non-sensitive data which is repetitive, it is recommended to go for a collection variable. Remember one of the primary use cases of collection variables is that you can access them from a request within a collection.  
 
 Syntax:
 
@@ -86,7 +86,7 @@ pm.variables.get("key");
 
 ```
 
-**Note:** You cannot create or update collection variables from scripts.
+For the complete list of operations on collection variables, check out: [Collection variables reference](/docs/postman/scripts/postman-sandbox-api-reference/)
 
 ### Environment variables
 
