@@ -124,6 +124,6 @@ Alternatively, you can download your archived data directly within the Postman A
 
 ## Next steps
 
-For a more in-depth introduction to workspaces and how they can help organize your API development, check out our [Intro to Workspaces](/docs/postman/workspaces/intro-to-workspaces/).
+For a more in-depth introduction to workspaces and how they can help organize your API development, check out [Intro to Workspaces](/docs/postman/workspaces/intro-to-workspaces/).
 
 Learn how to [scale large team collaboration in Postman](https://youtu.be/wYBZrdukack) in this POST/CON talk from Jeff Gibson at Atlassian.
