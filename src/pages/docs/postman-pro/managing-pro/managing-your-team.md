@@ -39,6 +39,8 @@ Postman's [web dashboard](https://app.getpostman.com/dashboard/teams) provides a
 
 * [Changing team size](/docs/postman-pro/managing-pro/managing-your-team/#changing-team-size)
 
+* [Next steps](/docs/postman-pro/managing-pro/managing-your-team/#next-steps)
+
 ## Member roles
 
 Everyone in your team is a member. Each member has certain roles, which allow them to perform various actions. To learn more, visit [Roles and Permissions](http://localhost:8000/docs/postman-pro/managing-pro/roles-and-permissions/).
