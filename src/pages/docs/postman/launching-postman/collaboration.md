@@ -15,7 +15,7 @@ contextual_links:
 ---
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
 
-**Note:**  Free collaboration is available in version 6.2 and above.
+> Free collaboration is available in version 6.2 and above.
 
 ## Contents
 
@@ -55,7 +55,7 @@ Enter the email address of the individual you’d like to invite to your team wo
 
 The individual will be added to the team once they accept their invitation.
 
-**Note:** "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.  
+> "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.  
 
 ### Creating a new workspace from the menu
 
