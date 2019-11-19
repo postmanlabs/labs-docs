@@ -1,11 +1,15 @@
 [
   {
     "from": "/docs/",
-    "to": "/docs/postman/launching-postman/installation-and-updates/"
+    "to": "/docs/postman/launching-postman/introduction/"
   },
   {
     "from": "https://learning.getpostman.com/docs/postman_pro/managing_postman_pro/migrating_to_v7/#download-latest-postman-v6-app",
     "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/migrating-to-v7/#download-latest-postman-v6-app"
+  },
+  {
+    "from": "/docs/postman/workspaces/activity-feed-and-restoring-collections/",
+    "to": "/docs/postman/workspaces/changelog-and-restoring-collections/"
   },
   {
     "from": "https://learning.getpostman.com/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
@@ -13,6 +17,6 @@
   },
   {
     "from": "https://learning.getpostman.com/docs/postman-pro/managing-pro/inviting-and-managing/",
-    "to": "ttps://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team/"
+    "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team/"
   }
 ]
