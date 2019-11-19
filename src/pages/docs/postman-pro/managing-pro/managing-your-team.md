@@ -81,4 +81,4 @@ To revoke an invitation, navigate to [Team](https://go.postman.co/team). Hover o
 
 ## Changing team size
 
-If you need to change your team size, see [Changing your plan](/docs/postman-pro/managing-postman-pro/changing-your-plan/).
+If you need to change your team size, see [Changing your plan](/docs/postman-pro/managing-pro/changing-your-plan/).
