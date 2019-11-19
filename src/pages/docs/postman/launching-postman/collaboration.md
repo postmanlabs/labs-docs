@@ -111,7 +111,7 @@ Postman indicates the number of archived collections at the bottom of the left s
 
 ### Recovering your archived collections
 
-To recover archived collections, select **ARCHIVED COLLECTIONS**.
+To recover archived collections, select **Archived Collections**.
 
 You will then be directed to your web dashboard, where you can click **Download your data** > **Request data export** > **Request an archive**.
 [![export data1](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)
