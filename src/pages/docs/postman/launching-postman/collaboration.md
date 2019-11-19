@@ -121,3 +121,9 @@ You will then be able to select **Download** to retrieve your archived data.
 [![Download Data](https://assets.postman.com/postman-docs/Download_Data1.png)](https://assets.postman.com/postman-docs/Download_Data1.png)
 
 Alternatively, you can download your archived data directly within the Postman App. To learn how, refer to [Settings](/docs/postman/launching-postman/settings/).
+
+## Next steps
+
+For a more in-depth introduction to workspaces and how they can help organize your API development, check out our [Intro to Workspaces](/docs/postman/workspaces/intro-to-workspaces/).
+
+Learn how to [scale large team collaboration in Postman](https://youtu.be/wYBZrdukack) in this POST/CON talk from Jeff Gibson at Atlassian.

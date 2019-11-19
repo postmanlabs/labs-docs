@@ -82,3 +82,9 @@ To revoke an invitation, navigate to [Team](https://go.postman.co/team). Hover o
 ## Changing team size
 
 If you need to change your team size, see [Changing your plan](/docs/postman-pro/managing-pro/changing-your-plan/).
+
+## Next steps
+
+To find information on billing, see [Managing your billing](/docs/postman-pro/managing-pro/managing-your-billing/).
+
+Learn more about the various roles that can be granted to your team members in [Roles and Permissions](/docs/postman-pro/managing-pro/roles-and-permissions/). 
