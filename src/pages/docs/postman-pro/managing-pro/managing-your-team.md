@@ -87,4 +87,4 @@ If you need to change your team size, see [Changing your plan](/docs/postman-pro
 
 To find information on billing, see [Managing your billing](/docs/postman-pro/managing-pro/managing-your-billing/).
 
-Learn more about the various roles that can be granted to your team members in [Roles and Permissions](/docs/postman-pro/managing-pro/roles-and-permissions/). 
+Learn more about the various roles that can be granted to your team members in [Roles and Permissions](/docs/postman-pro/managing-pro/roles-and-permissions/).
