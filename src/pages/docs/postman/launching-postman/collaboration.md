@@ -11,6 +11,9 @@ contextual_links:
   - type: link
     name: "Team collaboration with Postman"
     url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
+  - type: link
+    name: "Scaling Team Collaboration at Atlassian"
+    url : https://youtu.be/wYBZrdukack)
 
 ---
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
@@ -38,6 +41,8 @@ Postman allows all users to collaborate with their teams through Team Workspaces
     * [How archiving works](/docs/postman/launching-postman/collaboration/#how-archiving-works)
 
     * [Recovering archived collections](/docs/postman/launching-postman/collaboration/#recovering-your-archived-collections)
+
+* [Next steps](/docs/postman/launching-postman/collaboration/#next-steps)
 
 ## Working with team workspaces
 
@@ -125,5 +130,3 @@ Alternatively, you can download your archived data directly within the Postman A
 ## Next steps
 
 For a more in-depth introduction to workspaces and how they can help organize your API development, check out [Intro to Workspaces](/docs/postman/workspaces/intro-to-workspaces/).
-
-Learn how to [scale large team collaboration in Postman](https://youtu.be/wYBZrdukack) in this POST/CON talk from Jeff Gibson at Atlassian.
