@@ -2,10 +2,28 @@
 title: "Sessions"
 order: 51
 page_id: "sessions"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Intro to environments and globals"
+    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Working with Sessions in Postman"
+    url: "https://youtu.be/JcSZtVwH69w"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Sessions FAQ"
+    url: "https://blog.getpostman.com/2018/08/09/sessions-faq/"
 warning: false
 ---
 
- A Session in Postman is a transient layer that holds your variable values related to your current working instance by allowing you to work with certain variables that remain local to your individual scope. Sessions resolves few complications in relation to collaboration and teamwork due to sensitivity of data surrounding the variables.
+A Session in Postman is a transient layer that holds your variable values related to your current working instance by allowing you to work with certain variables that remain local to your individual scope. Sessions resolves few complications in relation to collaboration and teamwork due to sensitivity of data surrounding the variables.
 
 Sessions in Postman brings a host of capabilities. Some of them are outlined below:
 
@@ -16,11 +34,11 @@ Sessions in Postman brings a host of capabilities. Some of them are outlined bel
 
 ## Using Sessions
 
-As discussed, a Session is a local instance to a user in a workspace context wherein you can easily modify variables and Postman will not sync data to the servers keeping it strictly relevant to a local context. A Session in Postman holds the values of variables – environment, global, and collection. Simply put, Sessions comes in handy whenever a CRUD operation is involved. Sessions feature influences the following three aspects of Postman:
+As discussed, a Session is a local instance to a user in a [workspace](/docs/postman/workspaces/intro-to-workspaces/) context wherein you can easily modify variables and Postman will not sync data to the servers keeping it strictly relevant to a local context. A Session in Postman holds the values of variables – environment, global, and collection. Simply put, Sessions comes in handy whenever a CRUD operation is involved. Sessions feature influences the following three aspects of Postman:
 
-* Collection Variables
-* Environment Variables
-* Global Variables
+* [Collection Variables](/docs/postman/environments-and-globals/variables/)
+* [Environment Variables](/docs/postman/environments-and-globals/intro-to-environments-and-globals/)
+* [Global Variables](/docs/postman/environments-and-globals/manage-globals/)
 
 The next section outlines how you can assign current values to these variables using the Postman UI and get to your task while working with Collection variables, Environment variables and Global variables. You can assign a current value to your variables in the following ways:
 
@@ -53,7 +71,7 @@ You can see Token1, Token3, and Token5 populated with their current values in th
 
 To persist your current value with the initial value for the disabled variables, point your cursor to the ellipsis (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click 'x'. Reset All resets all the values.
 
-**Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](/docs/postman/launching-postman/settings/)
+**Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](/docs/postman/launching-postman/settings/).
 
 ### Editing Environment and Global Variables
 
