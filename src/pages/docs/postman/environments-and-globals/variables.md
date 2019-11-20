@@ -157,7 +157,7 @@ Postman has a few dynamic variables that you can use in your requests.
 Dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
 * `{{$guid}}` : Adds a v4 style guid
-* `{{$timestamp}}`: Adds the current timestamp
+* `{{$timestamp}}`: Adds the current timestamp (Unix timestamp in seconds)
 * `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
    For a complete list of dynamic variables, refer to the section [Dynamic Variables List](/docs/postman/scripts/postman-sandbox-api-reference/#dynamic-variables).

@@ -49,7 +49,7 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 You can only use them in the `{{..}}` format in the request URL / headers / body.
 
 * `{{$guid}}`: Adds a v4 style guid
-* `{{$timestamp}}`: Adds the current timestamp
+* `{{$timestamp}}`: Adds the current timestamp (Unix timestamp in seconds)
 * `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 
