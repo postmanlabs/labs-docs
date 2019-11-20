@@ -96,10 +96,10 @@ Since variables in the request builder are accessed using string substitution, t
 
 You can assign a current value when running your collection or a simple request and you also use variables in pre-request and test scripts. Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope.
 
-1. Defining an environment or global variable in a    script:
-      * To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable. When you send the request, the script will be evaluated and the value will be stored as a variable. Note that [defining a collection variable](/docs/postman/environments-and-globals/variables/) is a little different and can be done by editing the collection details.
+1. Defining an environment, global or collection variable in a script:
+      * To set a variable in a script, use the `pm.environment.set()`, `pm.globals.set()` or `pm.collectionVariables.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable. When you send the request, the script will be evaluated and the value will be stored as a variable.
 1. Fetching a pre-defined variable:
-      * Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
+      * Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()`, `pm.collectionVariables.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
 
         **Note:** When you specify a .get() method it always obtains the current value while .set() method modifies the current value. The way these variables work depends much on a setting in Postman [Automatically persist variable values](/docs/postman/launching-postman/settings/)
 
@@ -108,9 +108,19 @@ You can assign a current value when running your collection or a simple request 
 
 [![variables used in script](https://assets.postman.com/postman-docs/Env&Globals2.png)](https://assets.postman.com/postman-docs/Env&Globals2.png)
 
-## Defining collection variables
+## Defining collection variables via the UI
 
 Collection variables can be defined by editing the collection details. Click ellipsis **(...)** next to the collection name, and select “Edit” to open the **EDIT COLLECTION** modal. Select the **Variables** tab to add and edit collection variables. You can also define collection variables when creating the collection.  
+
+## Defining collection variables programmatically
+
+Collection variables can also be defined programmatically, like their other scoped counterparts. Following is an example to define a collection variable:
+
+```js
+pm.collectionVariables.set(variableName:String, variableValue:String);
+```
+
+For an exhaustive list of operations on collection variables, check out: [Collection variables reference.](/docs/postman/scripts/postman-sandbox-api-reference/)
 
 ## Logging variables
 

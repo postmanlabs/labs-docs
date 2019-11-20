@@ -38,7 +38,7 @@ If you want to inspect the authorization headers and parameters that Postman gen
 
 #### Adding authorization to a collection or folder
 
-Suppose you [add a folder](/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the **Authorization** tab, the default authorization type is set to “Inherit auth from parent”. 
+Suppose you [add a folder](https://learning.getpostman.com/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the **Authorization** tab, the default authorization type is set to “Inherit auth from parent”. 
 
 The “Inherit auth from parent” setting indicates that every request in this folder by default uses the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder uses “No Auth”, meaning all requests in that folder will use “No Auth” .
 

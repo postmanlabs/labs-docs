@@ -112,7 +112,7 @@ While there are very few things to remember when writing tests, Postman tries to
 
 ## Viewing results
 
-[![viewing results in tests tab](https://www.getpostman.com/img/v1/docs/source/cr-6.png)](https://assets.postman.com/postman-docs/cr-6.png)
+[![viewing results in tests tab](https://assets.postman.com/postman-docs/cr-6.png)](https://assets.postman.com/postman-docs/cr-6.png)
 
 Postman runs tests every time you run a request. Of course, you can choose to not look at the test results!
 

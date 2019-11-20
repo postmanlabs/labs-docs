@@ -32,4 +32,3 @@ You will get notified in case of the following events:
 *   **Monitoring notifications (for admins and monitor owners)**
     * The monthly monitoring quota for the team is about to be reached
     * Monthly monitoring quota is exceeded and overage starts
-

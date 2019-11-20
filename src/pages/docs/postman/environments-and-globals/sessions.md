@@ -1,7 +1,7 @@
 ---
 title: "Sessions"
 order: 51
-page_id: "Sessions"
+page_id: "sessions"
 contextual_links:
   - type: section
     name: "Prerequisites"
