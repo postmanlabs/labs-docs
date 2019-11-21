@@ -94,7 +94,7 @@ Learn more about [working with data files](https://learning.getpostman.com/docs
 Postman has a few dynamic variables which you can use in your requests. Dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
    *   {% raw %} `{{$guid}}`{% endraw %} : Adds a v4 style guid
-   *   {% raw %} `{{$timestamp}}`{% endraw %}: Adds the current timestamp
+   *   {% raw %} `{{$timestamp}}`{% endraw %}: Adds the current timestamp (Unix timestamp in seconds)
    *   {% raw %} `{{$randomInt}}`{% endraw %}: Adds a random integer between 0 and 1000
 
 [![dynamic variables](https://assets.postman.com/postman-docs/WS-var_dynamic.png)](https://assets.postman.com/postman-docs/WS-var_dynamic.png)
