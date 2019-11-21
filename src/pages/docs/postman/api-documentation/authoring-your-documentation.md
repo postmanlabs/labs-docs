@@ -31,15 +31,20 @@ You can include information in your API documentation using [Markdown](https://g
 
 ## Contents
 
-* [Descriptions](#descriptions)
-* [Request detail](#request-detail)
-* [Examples](#examples)
-* [Links](#links)
-* [Images](#images)
+* [Documenting with descriptions](#descriptions)
+* [Describing collections](#describing-collections)
+* [Documenting request detail](#documenting-request-detail)
+* [Using examples in your docs](#using-examples-in-your-docs)
+* [Documentation links](#documentation-links)
+* [Using images in docs](#using-images-in-docs)
 * [Markdown demo collection](#markdown-demo-collection)
 * [Next steps](#next-steps)
 
-## Collection descriptions
+## Documenting with descriptions
+
+You can add descriptions to [various places](/docs/postman/collections/using-markdown-for-descriptions/) within your collections and requests, and they will appear in your documentation. You can include descriptions for [collections](describing-collections), [requests, parameters, and headers](#documenting-request-detail).
+
+## Describing collections
 
 You can include Markdown descriptions in your documentation, for collections and the requests within them.
 
@@ -47,11 +52,15 @@ You can add a description when you create a collection, or by selecting the coll
 
 ![Add Description](https://assets.postman.com/postman-docs/add-description.jpg)
 
-## Request detail
+## Documenting request detail
 
-## Examples
+You can provide a description when you create a new request or at any time after that. When you create a new request using the __New__ button, you will be prompted to provide a name and description (which can include Markdown), both of which will appear in your documentation.
 
-## Links
+![New Request Description](https://assets.postman.com/postman-docs/new-request-details.jpg)
+
+## Using examples in your docs
+
+## Documentation links
 
 To include helpful cross-references for your readers, you can hyperlink to these parts within the generated documentation:
 
@@ -66,7 +75,7 @@ The links are generated using IDs for the requests, folders and responses. If yo
 
 **Note:** You cannot link to arbitrary parts of the documentation by manually creating an ID.
 
-## Images
+## Using images in docs
 
 ## Markdown demo collection
 
