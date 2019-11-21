@@ -30,7 +30,6 @@ This topic describes the tasks you can perform from the Collections tab in the
 * [Navigate through collections](#navigate-through-collections)
 * [Edit and view collection details](#edit-and-view-collection-details)
 * [Create a new collection](#create-a-new-collection)
-* [Reorder collections](#reorder-collections)
 * [Favoriting a collection](#favoriting-a-collection)
 * [Filter collections](#filter-collections)
 * [Delete a collection](#delete-a-collection)
@@ -54,12 +53,6 @@ Expand the arrow (&#9656;) to show the details view for the collection. Collaps
 Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/postman/collections/creating-collections/).
 
 [![new collection icon](https://assets.postman.com/postman-docs/WS-create-new-collection-sidebar.png)](https://assets.postman.com/postman-docs/WS-create-new-collection-sidebar.png)
-
-## Reorder collections
-
-Collections can be sorted either alphabetically by name or by when they were last updated. To do this, select the "sort" icon on the top right and select `Sort by name` or `Sort by date`.
-
-[![sort collections](https://assets.postman.com/postman-docs/WS-reorder-collections-sidebar.png)](https://assets.postman.com/postman-docs/WS-reorder-collections-sidebar.png)
 
 ## Favoriting a collection
 
