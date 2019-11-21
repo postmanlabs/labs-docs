@@ -30,7 +30,7 @@ contextual_links:
     name: "How to add tests to a Postman Collection"
     url: "https://www.youtube.com/watch?v=ElJBJIeJ90o"
   - type: link
-    name: "New to Postman PArt 3: writing a test"
+    name: "New to Postman Part 3: writing a test"
     url: "https://www.youtube.com/watch?v=6Cp4Ez5dwbM"
   - type: link
     name: "New to Postman Part 5: chaining requests"
