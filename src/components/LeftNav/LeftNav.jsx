@@ -33,7 +33,12 @@ class ListItem extends React.Component {
 
 
   toggleActive = (e) => {
-    const title = e.target.attributes.identifier.value;
+    let title;
+    if (e.target.attributes.identifier) {
+      title = e.target.attributes.identifier.value;
+    } else {
+      title = e.target.nextSibling.attributes.identifier.value;
+    }
     const { active } = this.state;
     const titleIndex = active.indexOf(title);
     if (titleIndex !== -1) {
@@ -43,18 +48,6 @@ class ListItem extends React.Component {
       this.setActive(title);
     }
   } // toggles list item as active or inactive based on previous state. Triggered on click
-
-  toggleActiveCaret = (e) => {
-    const title = e.target.nextSibling.attributes.identifier.value; 
-    const { active } = this.state;
-    const titleIndex = active.indexOf(title);
-    if (titleIndex !== -1) {
-      active.splice(titleIndex, 1);
-      this.setState({ active });
-    } else {
-      this.setActive(title);
-    }
-  } // toggles list item Caret as active or inactive based on previous state. Triggered on click
 
   isActive = (name) => {
     const { active } = this.state;
@@ -93,7 +86,7 @@ class ListItem extends React.Component {
         `}
       >
         <li className={`parent${this.inUrl(`/${name}/`) ? ' currentUrl' : ''}`}>
-          <img onClick={this.toggleActiveCaret} className={`caret${this.isActive(name) ? ' active-caret' : ''}`} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg==" alt="" />
+          <img onClick={this.toggleActive} className={`caret${this.isActive(name) ? ' active-caret' : ''}`} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg==" alt="" />
           <button type="button" onClick={this.toggleActive} identifier={name}>
             {replacements[name] ? replacements[name] : name.replace(/-/g, ' ')}
           </button>
