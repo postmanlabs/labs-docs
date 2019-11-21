@@ -25,7 +25,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to API documentation"
-    url: "https://learning.getpostman.com/docs/postman/api-documentation/intro-to-api-documentation"
+    url: "https://learning.getpostman.com/docs/postman/api-documentation/documenting-your-api/"
 ---
 
 ### Developer experience with Run in Postman

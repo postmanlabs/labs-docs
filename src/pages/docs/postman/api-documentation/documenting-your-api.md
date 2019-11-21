@@ -28,8 +28,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Authoring documentation"
-    url: "/docs/postman/api-documentation/authoring-documentation/"
+    name: "Authoring your documentation"
+    url: "/docs/postman/api-documentation/authoring-your-documentation/"
   - type: link
     name: "Publishing your docs"
     url: "/docs/postman/api-documentation/publishing-your-docs/"
@@ -59,7 +59,7 @@ Documentation is based on a Postman collection, so you can [generate it from an 
 
 ### Documenting an existing collection
 
-To generate and view documentation for an existing collection from the Postman app, use the __Collections__ tab on the left to select the collection. Use the &#9654; button to open the collection detail, and select __View in web__ to open the documentation in the browser.
+To generate and view documentation for an existing collection from the Postman app, use the __Collections__ tab on the left to select the collection. Use the arrow (&#9654;) button to open the collection detail, and select __View in web__ to open the documentation in the browser.
 
 ![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
@@ -103,11 +103,11 @@ You will see a confirmation that your documentation is published, and a link you
 
 Your docs will automatically include detail on your requests, with sample code in various client languages. Each collection / request listing indicates the method, URL, description, headers, request and response structures, and examples. Your docs will also include a [Run in Postman button](/docs/postman-for-publishers/run-button/using-run-button), allowing viewers to import the collection directly into the Postman app to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
 
-You can add detail to your descriptions using [Markdown](/docs/postman/api-documentation/authoring-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
+You can add detail to your descriptions using [Markdown](/docs/postman/api-documentation/authoring-your-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
 
 ![Docs Folders](https://assets.postman.com/postman-docs/docs-folders.jpg)
 
-For more on adding detail to your docs, see [Authoring documentation](/docs/postman/api-documentation/authoring-documentation/).
+For more on adding detail to your docs, see [Authoring your documentation](/docs/postman/api-documentation/authoring-your-documentation/).
 
 ## Accessing doc views
 
@@ -161,4 +161,4 @@ When you publish docs to share publicly, you can select a version all viewers wi
 
 ## Next steps
 
-Learn more about [authoring your docs](/docs/postman/api-documentation/publishing-your-docs/) and [publishing them](/docs/postman/api-documentation/authoring-documentation/).
+Learn more about [authoring your docs](/docs/postman/api-documentation/authoring-your-documentation/) and [publishing them](/docs/postman/api-documentation/publishing-your-docs/).

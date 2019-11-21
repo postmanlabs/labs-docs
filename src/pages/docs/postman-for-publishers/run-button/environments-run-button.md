@@ -23,7 +23,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to API documentation"
-    url: "https://learning.getpostman.com/docs/postman/api-documentation/intro-to-api-documentation"
+    url: "https://learning.getpostman.com/docs/postman/api-documentation/documenting-your-api/"
 ---
 
 Including a shared environment with a shared collection can be useful in prompting users to input their own personal information with their own version of the template.  
