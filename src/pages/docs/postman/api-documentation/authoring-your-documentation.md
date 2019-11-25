@@ -34,6 +34,7 @@ You can include information in your API documentation using [Markdown](https://g
 * [Documenting with descriptions](#descriptions)
 * [Describing collections](#describing-collections)
 * [Documenting request detail](#documenting-request-detail)
+    * [Parameters and headers](#parameters-and-headers)
 * [Using examples in your docs](#using-examples-in-your-docs)
 * [Documentation links](#documentation-links)
 * [Using images in docs](#using-images-in-docs)
@@ -50,43 +51,84 @@ You can include Markdown descriptions in your documentation, for collections and
 
 You can add a description when you create a collection, or by selecting the collection and using the arrow button (&#9654;).
 
-![Add Description](https://assets.postman.com/postman-docs/add-description.jpg)
+![Add Description](https://assets.postman.com/postman-docs/add-collection-description.jpg)
+
+> When you include block elements, leave an empty line before and after to avoid any rendering issues.
 
 ## Documenting request detail
 
-You can provide a description when you create a new request or at any time after that. When you create a new request using the __New__ button, you will be prompted to provide a name and description (which can include Markdown), both of which will appear in your documentation.
+You can provide a description when you create a new request or for an existing request at any time.
 
-![New Request Description](https://assets.postman.com/postman-docs/new-request-details.jpg)
+When you create a new request using the __New__ button, you will be prompted to provide a name and description (which can include Markdown), both of which will appear in your documentation.
+
+<img alt="Request Description" src="https://assets.postman.com/postman-docs/new-request-detail.jpg" width="500px"/>
+
+To add a description to an existing request, open the request in Postman and edit the request detail.
+
+<img alt= "Edit Request" src="https://assets.postman.com/postman-docs/edit-request.jpg" width="350px"/>
+
+![Request Description](https://assets.postman.com/postman-docs/edit-request-description.jpg)
+
+Descriptions will appear in the request section in your documentation.
+
+<img alt="Request Description in Docs" src="https://assets.postman.com/postman-docs/request-in-docs.jpg" width="350px"/>
+
+### Parameters and Headers
+
+You can add a description to the parameters and headers in your requests—for people viewing the request inside Postman (for example if you're working on a shared collection), or for anyone viewing your documentation.
+
+![Parameter Description](https://assets.postman.com/postman-docs/param-desc.jpg)
+
+ The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
+
+<img alt="Header Description in Docs" src="https://assets.postman.com/postman-docs/header-desc-docs.jpg" width="500px">
 
 ## Using examples in your docs
 
+You can include [example](/docs/postman/collections/examples/) request and response data in your collections, and they will appear in your documentation.
+
+Any body data included in your request will appear in the endpoint section of your documentation.
+
+![Body Data](https://assets.postman.com/postman-docs/body-json.jpg)
+
+You can also create an example to use for a request.
+
+![Add Example](https://assets.postman.com/postman-docs/add-example.jpg)
+
+Any data you include in the example will appear in the docs example code sidebar, including body and response data.
+
+![Body Example](https://assets.postman.com/postman-docs/body-example.jpg)
+
+![Examples in Docs](https://assets.postman.com/postman-docs/examples-in-docs.jpg)
+
 ## Documentation links
 
-To include helpful cross-references for your readers, you can hyperlink to these parts within the generated documentation:
+You can link to headers within your generated documentation, including the introduction, requests, folders, and responses.
 
-* Introduction headers
-* Requests
-* Folders
-* Responses
+The links are generated from your documentation using IDs. To find a link, click the relevant section in the left sidebar and you'll see it in your browser address bar (or right-click and copy the link). You can then link directly to doc page sections using this link.
 
-The links are generated using IDs for the requests, folders and responses. If you click on any of these, the URL in your browser should update to a link which points to this specific part of the documentation. You can hyperlink to these parts using this link.
+<img alt="Documentation Links" src="https://assets.postman.com/postman-docs/doc-links.jpg" width="400px"/><br/>
 
-[![anchor tag id](https://assets.postman.com/postman-docs/anchor-id.png)](https://assets.postman.com/postman-docs/anchor-id.png)
-
-**Note:** You cannot link to arbitrary parts of the documentation by manually creating an ID.
+> You cannot link to another part of the documentation by manually creating an ID.
 
 ## Using images in docs
 
+You can include any image you have hosted online in your documentation. Use the Markdown image syntax as follows:
+
+```md
+![Image Alt Text](https://your-image-location.com)
+```
+
 ## Markdown demo collection
 
-Postman contains a collection to test [Markdown styling](https://documenter.getpostman.com/view/4630964/S1LsXVJy) inside Postman or in other services that render Markdown. The descriptions in the collection contain Markdown syntax and some of them have links to HTML pages of their rendered version.
+You can use the Postman Markdown collection to see some [Markdown styling](https://documenter.getpostman.com/view/4630964/S1LsXVJy) inside Postman and rendered in the web documentation.
 
-[![markdown reference](https://assets.postman.com/postman-docs/59188697.png)](https://assets.postman.com/postman-docs/59188697.png)
+![markdown reference](https://assets.postman.com/postman-docs/59188697.png)
 
-Postman supports Markdown as a way to style text descriptions for requests, collections, and folders in collections. You can even embed screenshots and other images for more descriptive flair. Learn more about [where Postman renders Markdown](/docs/postman/collections/using-markdown-for-descriptions/).
+You can also see examples of documentation published using Postman collections by browsing the templates. Click __New__, select the __Templates__ tab, choose a template, and click __View Documentation__.
 
-[![example of markdown in collection description](https://assets.postman.com/postman-docs/WS-docs-markdown-p2.png)](https://assets.postman.com/postman-docs/WS-docs-markdown-p2.png)
-
-When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
+![Template Docs](https://assets.postman.com/postman-docs/template-docs.jpg)
 
 ## Next steps
+
+To make your documentation publicly available, check out [Publishing your docs](/docs/postman/api-documentation/publishing-public-docs/), and for more on configuring appearance, see [Customizing your docs](/docs/postman/api-documentation/customizing-your-docs/).
