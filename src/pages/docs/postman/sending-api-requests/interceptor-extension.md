@@ -83,10 +83,11 @@ How the communication is set up:
     1.  **MacOS-only**: Node is installed and available at `/usr/local/node, or /usr/local/bin/node`
     2.  The manifest file is present (called  **com.postman.postmanapp.json**), and has the right extension ID (**aicmkgpgakddgnaphhhpliifpcfhicfo**) and path to the executable file
     3.  The executable that the manifest points to should exist, and be about ~40MB for Windows/Linux, and ~33KB for MacOS
-    4. If either of these are missing, delete the following directories, and restart the installation process in the Postman app:
-
- 1. MacOS / Linux: `$HOME/.postman`
- 2. Windows: `%USERPROFILE%/.postman/`
+    4.  For MacOS, the NodeJS downloader will be saved to the ~/Downloads directory. You'll see an error if this directory does not exist.
+    5.  For Windows, if you see an installation error, close Chrome before retrying the installation.
+    6. If either of these are missing, delete the following directories, and restart the installation process in the Postman app:
+         1. MacOS / Linux: `$HOME/.postman`
+         2. Windows: `%USERPROFILE%/.postman/`
 
 ### Using the Interceptor with Postman's Chrome app
 
