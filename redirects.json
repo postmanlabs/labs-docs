@@ -36,11 +36,11 @@
     "to": "/docs/postman/api-documentation/publishing-your-docs/"
   },
   {
-    "from": "/docs/postman/api-documentation/adding-and-verifying-custom-domains/",
-    "to": "/docs/postman/api-documentation/customizing-your-docs/"
+    "from": "/docs/postman/api-documentation/adding-team-name-and-logo/",
+    "to": "/docs/postman/api-documentation/publishing-your-docs/"
   },
   {
-    "from": "/docs/postman/api-documentation/adding-team-name-and-logo/",
-    "to": "/docs/postman/api-documentation/customizing-your-docs/"
+    "from": "/docs/postman/api-documentation/adding-and-verifying-custom-domains/",
+    "to": "/docs/postman/api-documentation/custom-doc-domains/"
   }
 ]

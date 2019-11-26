@@ -129,6 +129,8 @@ You can also see examples of documentation published using Postman collections b
 
 ![Template Docs](https://assets.postman.com/postman-docs/template-docs.jpg)
 
+> The [Postman API documentation](https://docs.api.getpostman.com/?version=latest) is authored using Postman.
+
 ## Next steps
 
-To make your documentation publicly available, check out [Publishing your docs](/docs/postman/api-documentation/publishing-public-docs/), and for more on configuring appearance, see [Customizing your docs](/docs/postman/api-documentation/customizing-your-docs/).
+To make your documentation publicly available, check out [Publishing your docs](/docs/postman/api-documentation/publishing-public-docs/).

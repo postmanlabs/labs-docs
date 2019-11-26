@@ -44,7 +44,7 @@ Your collections are documented with folders, [requests](/docs/postman/sending-a
 
 ## **Customizable**
 
-Create clear and elegant documentation [using Markdown](/docs/postman/api-documentation/authoring-your-documentation/) in your descriptions for collections, folders, and requests. Publish this documentation on your [custom domain](/docs/postman/api-documentation/adding-and-verifying-custom-domains/), and further customize the appearance of these pages according to your own brand guidelines.
+Create clear and elegant documentation [using Markdown](/docs/postman/api-documentation/authoring-your-documentation/) in your descriptions for collections, folders, and requests. Publish this documentation on your [custom domain](/docs/postman/api-documentation/custom-doc-domains/), and further customize the appearance of these pages according to your own brand guidelines.
 
 ## **Easy**
 

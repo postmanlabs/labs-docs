@@ -16,4 +16,4 @@ When publishing your collection, you can share it with the API community by sele
 
 [![add to templates](https://assets.postman.com/postman-docs/Add+To+Postman+Templates.png)](https://assets.postman.com/postman-docs/Add+To+Postman+Templates.png)
 
-For more details, click [here](https://learning.getpostman.com/docs/postman/api-documentation/publishing-public-docs/)
+For more detail on submitting your templates, check out the [guidelines](/docs/postman-for-publishers/postman-templates/template-guidelines/).

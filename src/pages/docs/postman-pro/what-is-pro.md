@@ -37,4 +37,4 @@ Postman Pro offers solutions that satisfy each of the questions above.
 * Powerful [mock servers](/docs/postman/mock-servers/intro-to-mock-servers/) to simulate the real API and decouple teams.
 * Collection [monitoring](/docs/postman/monitors/intro-monitors/) to check for the performance, uptime and correctness of your API.
 * [Out-of-the-box integrations](/docs/postman-pro/integrations/intro-integrations/) and the [Postman API](/docs/postman/postman-api/intro-api/) to connect your different tools.
-* Adding and verifying [custom domains](/docs/postman/api-documentation/adding-and-verifying-custom-domains/)
+* Adding and verifying [custom domains](/docs/postman/api-documentation/custom-doc-domains/)

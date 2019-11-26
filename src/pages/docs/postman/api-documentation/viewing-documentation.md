@@ -63,6 +63,10 @@ You can alternatively access documentation by selecting the __Browse__ view in t
 
 ![Browse Collection](https://assets.postman.com/postman-docs/browse-collection.jpg)
 
+If the documentation you are viewing has multiple versions published, you can select a specific version to view.
+
+![Docs Versions](https://assets.postman.com/postman-docs/docs-versions.jpg)
+
 ### Commenting on documentation
 
 You can view and post comments on your API documentation to collaborate with teammates. When you view the documentation for a collection, you will see any existing comments on it.
