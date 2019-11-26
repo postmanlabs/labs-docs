@@ -76,7 +76,7 @@ You can preview your documentation before publishing it.
 
 ### Customizing your docs
 
-> With a Postman Pro or Enterprise account you can use a [custom domain](/docs/postman/api-documentation/adding-and-verifying-custom-domains/) for your documentation site in addition to your default Postman private page.
+> With a Postman Pro or Enterprise account you can use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/) for your documentation site in addition to your default Postman private page.
 
 You can configure the style of your public docs by selecting colors for the top bar, sidebar, and highlights. Try making changes and preview to see how your docs will appear when published.
 

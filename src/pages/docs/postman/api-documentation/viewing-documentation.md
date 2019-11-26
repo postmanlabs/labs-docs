@@ -49,7 +49,7 @@ You can [view documentation for any collection that has been shared with you](/d
 
 > Postman Pro and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
-To view documentation for a collection you have access to in the Postman app, select the collection and click the arrow (&#9654;), and choose __View in web__. The collection documentation will open in your web browser.
+To view documentation for a collection you have access to in the Postman app, select the collection, click the arrow (&#9654;), and choose __View in web__. The collection documentation will open in your web browser.
 
 ![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
@@ -65,7 +65,7 @@ You can alternatively access documentation by selecting the __Browse__ view in t
 
 If the documentation you are viewing has multiple versions published, you can select a specific version to view.
 
-![Docs Versions](https://assets.postman.com/postman-docs/docs-versions.jpg)
+<img alt="Docs Versions" src="https://assets.postman.com/postman-docs/docs-versions.jpg" width="400px"/>
 
 ### Commenting on documentation
 

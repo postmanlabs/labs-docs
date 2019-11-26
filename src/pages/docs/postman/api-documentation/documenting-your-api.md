@@ -45,7 +45,7 @@ You can automatically generate documentation for your Postman APIs. You can shar
 ## Contents
 
 * [Generating your documentation](#generating-your-documentation)
-    * [Documenting an existing collection](#documenting-an-existing-collection[)
+    * [Documenting an existing collection](#documenting-an-existing-collection)
     * [Creating documentation for a new collection](#creating-documentation-for-a-new-collection)
     * [Including detail in your docs](#including-detail-in-your-docs)
 * [Accessing doc views](#accessing-doc-views)
@@ -55,7 +55,7 @@ You can automatically generate documentation for your Postman APIs. You can shar
 
 ## Generating your documentation
 
-Documentation is based on a Postman collection, so you can [generate it from an existing collection](#documenting-an-existing-collection[) or [create it in conjunction with a new collection](#creating-documentation-for-a-new-collection).
+Documentation is based on a Postman collection, so you can [generate it from an existing collection](#documenting-an-existing-collection) or [create it in conjunction with a new collection](#creating-documentation-for-a-new-collection).
 
 ### Documenting an existing collection
 
@@ -119,7 +119,7 @@ For more on accessing private and public docs, see [Viewing documentation](/docs
 
 ## Documentation environments
 
-You can use environments to set variables that will be available in your documentation. Anyone viewing private documentation will be access environments shared with them. For public documentation, you can select an environment to share during the publication process—this will make the environment available to anyone viewing the published documentation link.
+You can use environments to set variables that will be available in your documentation. Anyone viewing private documentation will be able to access environments shared with them. For public documentation, you can select an environment to share during the publication process—this will make the environment available to anyone viewing the published documentation link.
 
 ![Doc Environment](https://assets.postman.com/postman-docs/doc-environment.jpg)
 
@@ -129,7 +129,7 @@ To use a variable value in your documentation, [create](/docs/postman/environmen
 
 ![Environment Quick Look](https://assets.postman.com/postman-docs/env-quick.jpg)
 
-And [add the new variable](/docs/postman/environments-and-globals/manage-environments/#editing-an-active-environment) if you haven't already done so.
+[Add the new variable](/docs/postman/environments-and-globals/manage-environments/#editing-an-active-environment) if you haven't already done so.
 
 ![Environment Variable](https://assets.postman.com/postman-docs/env-var.jpg)
 

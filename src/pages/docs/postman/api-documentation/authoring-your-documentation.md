@@ -27,11 +27,11 @@ contextual_links:
 warning: false
 ---
 
-You can include information in your API documentation using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Postman will [populate various parts of your documentation](/docs/postman/api-documentation/documenting-your-api#including-detail-in-your-docs) from the information associated with the relevant collection. Your Markdown content can include standard structures and formatting such as headings, lists, images, links, bold / emphasis, code samples, blockquotes, and tables.
+You can include information in your API documentation using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Postman will [populate various parts of your documentation](/docs/postman/api-documentation/documenting-your-api/#including-detail-in-your-docs) from the information associated with the relevant collection. Your Markdown content can include standard structures and formatting such as headings, lists, images, links, bold / emphasis, code samples, blockquotes, and tables.
 
 ## Contents
 
-* [Documenting with descriptions](#descriptions)
+* [Documenting with descriptions](#documenting-with-descriptions)
 * [Describing collections](#describing-collections)
 * [Documenting request detail](#documenting-request-detail)
     * [Parameters and headers](#parameters-and-headers)
@@ -43,7 +43,7 @@ You can include information in your API documentation using [Markdown](https://g
 
 ## Documenting with descriptions
 
-You can add descriptions to [various places](/docs/postman/collections/using-markdown-for-descriptions/) within your collections and requests, and they will appear in your documentation. You can include descriptions for [collections](describing-collections), [requests, parameters, and headers](#documenting-request-detail).
+You can add descriptions to [various places](/docs/postman/collections/using-markdown-for-descriptions/) within your collections and requests, and they will appear in your documentation. You can include descriptions for [collections](#describing-collections), [requests, parameters, and headers](#documenting-request-detail).
 
 ## Describing collections
 
