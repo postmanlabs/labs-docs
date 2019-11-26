@@ -436,7 +436,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$guid`**               | A `uuid-v4` style guid                        | `"611c2e81-2ccb-42d8-9ddc-2d0bfa65c1b4"`   |
 |                           |                                               | `"3a721b7f-7dc9-4c45-9777-516942b98e0d"`   |
 |                           |                                               | `"22eca807-006b-47df-9511-e92e37f5071a"`   |
-| **`$timestamp`**          | The current UNIX timestamp                    | `1562757107`, `1562757108`, `1562757109`   |
+| **`$timestamp`**          | The current UNIX timestamp in seconds                   | `1562757107`, `1562757108`, `1562757109`   |
 | **`$randomUUID`**         | A random 36-character UUID                    | `"6929bb52-3ab2-448a-9796-d6480ecad36b"`   |
 |                           |                                               | `"53151b27-034f-45a0-9f0a-d7b6075b67d0"`   |
 |                           |                                               | `"727131a2-2717-44ad-ab02-006587e947dc"`   |

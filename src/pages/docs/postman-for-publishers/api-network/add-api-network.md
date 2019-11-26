@@ -9,7 +9,7 @@ The [**Postman API Network**](https://explore.postman.com/) has amassed the wide
 
 For API publishers, the Postman API Network is an easy way to introduce your API to millions of developers worldwide. You can publish your collections as an interactive API reference along with any workflows to help users get onboarded quickly and effectively. Gather metrics about how many people are using your APIs and insights about how they are being used to refine your next generation of APIs.
 
-For API users, you're probably wondering if there's an API out there for your specific use case. Whether it's finding sushi restaurants near you or integrating your CI/CD pipeline with your enterprise messenger, the API Network can help with that. Browse the network, and when you find what you're looking for, import the collection with a simple click of the [Run in Postman button](/docs/postman-for-publishers/run-button/creating-run-button). Within moments, you'll be interacting with the API in Postman.
+For API users, you're probably wondering if there's an API out there for your specific use case. Whether it's finding sushi restaurants near you or integrating your CI/CD pipeline with your enterprise messenger, the API Network can help with that. Browse the network, and when you find what you're looking for, import the collection with a simple click of the [Run in Postman button](/docs/postman-for-publishers/run-in-postman/creating-run-button). Within moments, you'll be interacting with the API in Postman.
 
 Can’t find what you're looking for? [Publish your own community-contributed template](/docs/postman-for-publishers/postman-templates/add-templates).
 

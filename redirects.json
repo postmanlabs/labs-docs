@@ -4,16 +4,60 @@
     "to": "/docs/postman/launching-postman/introduction/"
   },
   {
-    "from": "https://learning.getpostman.com/docs/postman_pro/managing_postman_pro/migrating_to_v7/#download-latest-postman-v6-app",
-    "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/migrating-to-v7/#download-latest-postman-v6-app"
+    "from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/#download-latest-postman-v6-app",
+    "to": "/docs/postman-pro/managing-pro/migrating-to-v7/#download-latest-postman-v6-app"
+  },
+  {
+    "from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
+    "to": "/docs/postman-pro/managing-pro/roles-and-permissions/"
+  },
+  {
+    "from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions",
+    "to": "/docs/postman-pro/managing-pro/roles-and-permissions/"
+  },
+  {
+    "from": "/docs/postman-pro/managing-pro/inviting-and-managing/",
+    "to": "/docs/postman-pro/managing-pro/managing-your-team/"
+  },
+  {
+    "from": "/docs/postman-pro/managing-pro/inviting-and-managing",
+    "to": "/docs/postman-pro/managing-pro/managing-your-team/"
   },
   {
     "from": "/docs/postman/workspaces/activity-feed-and-restoring-collections/",
     "to": "/docs/postman/workspaces/changelog-and-restoring-collections/"
   },
   {
-    "from": "https://learning.getpostman.com/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
-    "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/roles-and-permissions/"
+    "from": "/docs/postman_pro/managing_postman_pro/managing_your_team",
+    "to": "/docs/postman-pro/managing-pro/managing-your-team/"
+  },
+  {
+    "from": "/docs/postman_pro/managing_postman_pro/managing_your_team/",
+    "to": "/docs/postman-pro/managing-pro/managing-your-team/"
+  },
+  {
+    "from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/#team-user-on-postman-v7",
+    "to": "/docs/postman-pro/managing-pro/migrating-to-v7/#update-to-postman-v7"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/creating-run-button/",
+    "to": "/docs/postman-for-publishers/run-in-postman/creating-run-button/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/using-run-button/",
+    "to": "/docs/postman-for-publishers/run-in-postman/using-run-button/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/collections-run-button/",
+    "to": "/docs/postman-for-publishers/run-in-postman/collections-run-button/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/environments-run-button/",
+    "to": "/docs/postman-for-publishers/run-in-postman/environments-run-button/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/run-button-API/",
+    "to": "/docs/postman-for-publishers/run-in-postman/run-button-API/"
   },
   {
     "from": "https://learning.getpostman.com/docs/postman-pro/managing-pro/inviting-and-managing/",
@@ -42,5 +86,9 @@
   {
     "from": "/docs/postman/api-documentation/adding-and-verifying-custom-domains/",
     "to": "/docs/postman/api-documentation/custom-doc-domains/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/security/",
+    "to": "/docs/postman-for-publishers/run-in-postman/security/"
   }
 ]

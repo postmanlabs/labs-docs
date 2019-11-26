@@ -16,7 +16,7 @@
   }
 
   .header__right-links {
-    .nav-item{
+    .nav-item {
       .nav-link {
         text-decoration: none;
         color: $gray-3;
@@ -24,6 +24,7 @@
         font-weight: 600;
         text-transform: uppercase;
         white-space: nowrap;
+        padding: 16px;
       }
       .nav-link:hover {
         color: $postman-orange;
