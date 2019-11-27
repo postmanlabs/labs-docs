@@ -101,6 +101,8 @@ Any data you include in the example will appear in the docs example code sidebar
 
 ![Examples in Docs](https://assets.postman.com/postman-docs/examples-in-docs.jpg)
 
+> Example code includes cURL, Go, Ruby, Python, NodeJs, PHP, C, C#, JavaScript, Java, HTTP, Swift, and Shell.
+
 ## Documentation links
 
 You can link to headers within your generated documentation, including the introduction, requests, folders, and responses.

@@ -67,6 +67,10 @@ If the documentation you are viewing has multiple versions published, you can se
 
 <img alt="Docs Versions" src="https://assets.postman.com/postman-docs/docs-versions.jpg" width="400px"/>
 
+You can also choose between any environments included with the documentation you are viewing, and can switch between double and single column layout.
+
+![Docs Columns](https://assets.postman.com/postman-docs/docs-cols.jpg)
+
 ### Commenting on documentation
 
 You can view and post comments on your API documentation to collaborate with teammates. When you view the documentation for a collection, you will see any existing comments on it.
