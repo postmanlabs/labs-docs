@@ -40,7 +40,7 @@ Postman automatically generates documentation for any of your collections. Publi
 
 ## **Complete**
 
-Your collections are documented with folders, [requests](/docs/postman/sending-api-requests/requests/), [responses](/docs/postman/sending-api-requests/responses/), [parameters](/docs/postman/sending-api-requests/requests/#url), [code snippets](/docs/postman/sending-api-requests/generate-code-snippets/), [environments](/docs/postman/environments-and-globals/manage-environments/), and [examples](/docs/postman/collections/examples/#what-is-an-example).
+Your collections are documented with folders, [requests](/docs/postman/sending-api-requests/requests/), [responses](/docs/postman/sending-api-requests/responses/), [parameters](/docs/postman/sending-api-requests/requests/#url), [code snippets](/docs/postman/sending-api-requests/generate-code-snippets/), [environments](/docs/postman/variables-and-environments/variables/#environments-in-postman), and [examples](/docs/postman/collections/examples/#what-is-an-example).
 
 ## **Customizable**
 

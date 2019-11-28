@@ -53,7 +53,7 @@ Check out the following links to start learning.
 
 > [__Writing test scripts__](/docs/postman/scripts/test-scripts/)
 >
-> [__Using variables__](/docs/postman/environments-and-globals/variables/)
+> [__Using variables__](/docs/postman/variables-and-environments/variables/)
 >
 > [__Monitoring API performance__](/docs/postman/monitors/intro-monitors/)
 

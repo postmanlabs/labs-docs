@@ -40,7 +40,7 @@ In addition to the [standard ways to share a collection](/docs/postman/collectio
 
 ## Sharing environments
 
-In addition to the [standard way to share an environment](/docs/postman/environments-and-globals/manage-environments/#share-an-environment), Postman Pro and Enterprise users can also share an environment with their team.
+In addition to the [standard way to share an environment](/docs/postman/variables-and-environments/variables/#environments-in-postman), Postman Pro and Enterprise users can also share an environment with their team.
 
 1. From the gear icon in the upper right corner of the Postman app, select "Manage Environments", and click the orange **Share** button next to the environment you want to share.
 1. You will have one last opportunity to hide any sensitive values like passwords and access tokens before sharing the environment. When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.  

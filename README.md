@@ -34,7 +34,7 @@ The built site will only host the most up-to-date docs. All legacy documentation
 
 * Posts are maintained under the `/src/pages/docs` folder.
 
-* The folder structure of /docs is the URL structure for posts. For example, `/docs/postman/environments-and-globals/sessions.md` is mapped to URL `https://learning.getpostman.com/docs/postman/environments-and-globals/sessions/`.
+* The folder structure of /docs is the URL structure for posts. For example, `/docs/postman/variables-and-environments/variables.md` is mapped to URL `https://learning.getpostman.com/docs/postman/variables-and-environments/variables/`.
 
 * Links in the docs should be relative. Example:
 

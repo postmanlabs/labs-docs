@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to environments and globals"
-    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+    name: "Variables"
+    url: "/docs/postman/variables-and-environments/variables/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -19,7 +19,7 @@ contextual_links:
 warning: false
 ---
 
-Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/postman/environments-and-globals/variables/). You also can use environments in the Collection Runner.
+Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/postman/variables-and-environments/variables/). You also can use environments in the Collection Runner.
 
 Let's look at an example collection with one POST request that uses environment variables in its URL, body, and test script.
 

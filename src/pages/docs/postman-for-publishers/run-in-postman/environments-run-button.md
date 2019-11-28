@@ -10,8 +10,8 @@ contextual_links:
     name: "Intro to collections"
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
   - type: link
-    name: "Intro to environments and globals"
-    url: "https://learning.getpostman.com/docs/postman/environments-and-globals/intro-to-environments-and-globals"
+    name: "Variables"
+    url: "https://learning.getpostman.com/docs/postman/variables-and-environments/variables"
   - type: section
     name: "Additional Resources"
   - type: subtitle
