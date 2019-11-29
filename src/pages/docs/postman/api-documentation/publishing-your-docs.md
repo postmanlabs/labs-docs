@@ -90,8 +90,22 @@ To share your API documentation with your users and the wider Postman community,
 
 ![Collection Discovery](https://assets.postman.com/postman-docs/collection-discovery.jpg)
 
-* With a Postman Pro or Enterprise account you can choose __Add to API Network__ to [feature your docs on a curated list of publishers](/docs/postman-for-publishers/api-network/add-api-network/).
+* Choose __Add to API Network__ to [feature your docs in the Postman publisher network](/docs/postman-for-publishers/api-network/add-api-network/).
 * Choose __Add to Postman Templates__ to [share your collection with the Postman community](/docs/postman-for-publishers/postman-templates/add-templates/) and make it discoverable via the app.
+
+You can only add to API Network when publishing from a team. You can configure your team profile by clicking __Public Profile Settings__, enabling your profile, and filling out your team details for display.
+
+<img alt="Publish as Team" src="https://assets.postman.com/postman-docs/publish-team.jpg" width="500px"/>
+
+![Enable Profile](https://assets.postman.com/postman-docs/enable-profile.jpg)
+
+Your team profile can include a name, description, custom URL, and logo.
+
+![Profile Detail](https://assets.postman.com/postman-docs/profile-detail.jpg)
+
+Add listing details for your public documentation, including name, summary, description, and relevant tags.
+
+![Listing Detail](https://assets.postman.com/postman-docs/listing-detail.jpg)
 
 ## Publishing and unpublishing
 
