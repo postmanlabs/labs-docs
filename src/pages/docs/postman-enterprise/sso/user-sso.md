@@ -31,7 +31,7 @@ To log in from the Postman app, use the following process:
 
 [![G-Suite login](https://assets.postman.com/postman-docs/59036889.png)](https://assets.postman.com/postman-docs/59036889.png)  
 
-___On first login, you will need to carry out an additional step to set Postman up to access your identity provider account.___
+___On first login from the Postman app, you will need to carry out an additional step to set Postman up to access your identity provider account.___
 
 * Sign in to your provider account as above. Follow your provider's steps to connect the account to Postman.
 * Once you've completed your provider's required setup, you will be redirected back to the login screen to access the account inside Postman—_so you'll need to re-enter your password_. Click __Sign in to link your SSO account__.
