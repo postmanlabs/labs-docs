@@ -1,6 +1,5 @@
 ---
 title: "Commenting on collections"
-order: 38
 page_id: "commenting_on_collections"
 warning: false
 ---
@@ -17,11 +16,23 @@ This topic describes the following sections:
 
 ## Posting comments
 
-You can post comments on your collections and requests from the Postman Dashboard. Only those having access to a collection or a request will be able to post comments. When you post a comment on a collection or a request, it gets reflected in both the Postman app and the Dashboard.
+**Notes:**
 
-**Note:** Postman app currently supports comments on requests only. Also, you can post comments only on saved requests.
+* Postman app currently supports comments on requests only.
+* Only those having access to a collection or a request will be able to post comments.
+* You can only post comments on saved requests.
 
-To post a comment, select the corresponding collection or a request and click **Comments**. The **Comments** dialog box appears. Write your comment and click *Add Comment*. Your comment is posted. The procedure to post a comment is similar both in the Postman app and the Dashboard. The following screen illustrates this:
+### Posting comments on a collection
+
+You can leave a comment on a collection through the [Postman Dashboard](https://app.getpostman.com). To post a comment on a collection, navigate to the `Collections` tab at the top of the page, select the collection you want to leave a comment on and then click the **Comments** button on the right of the collection title (circled in red in the picture below).
+
+[![comment collection](https://user-images.githubusercontent.com/5029719/69899937-0d100600-1365-11ea-83c1-6d246b60cc54.png)](https://user-images.githubusercontent.com/5029719/69899937-0d100600-1365-11ea-83c1-6d246b60cc54.png)
+
+### Posting comments on a request
+
+You can post comments on requests from the [Postman Dashboard](https://app.getpostman.com) or the Postman app. When you post a comment on a request, it gets reflected in both the Dashboard and the app.
+
+To post a comment, select the corresponding request and click **Comments**. The **Comments** dialog box appears. Write your comment and click *Add Comment*. Your comment is posted. The procedure to post a comment is similar both in the Postman app and the Dashboard. The following screen illustrates this:
 
 [![post comments](https://assets.postman.com/postman-docs/comment-general.gif)](https://assets.postman.com/postman-docs/comment-general.gif)
 
