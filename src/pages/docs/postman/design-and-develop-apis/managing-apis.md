@@ -86,7 +86,33 @@ You will be able to perform all these user actions even from the dashboard, as i
 
 ## Commenting on APIs
 
-You can comment on your APIs the same way as you do on your collections. For more information on this, refer to [Commenting on Collections](/docs/postman/collections/commenting-on-collections/)
+You can comment on your APIs as you do on your collections. This can be done either on the [Postman Dashboard](https://app.getpostman.com) or with the Postman app.
+
+**Notes:**
+
+- Comments will be visible in both the dashboard and the app.
+- Only those having access to a collection or a request will be able to post comments.
+- You can use Markdown in your comments, for more information on formatting using Markdown refer to this [Markdown Cheatsheet on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+### Commenting on the Postman Dashboard
+
+To leave a comment on an API using the Postman Dashboard, navigate to the API tab at the top of the page, select the API on which you want to make a comment and then click on the **Comments** button at the top-right of the page as illustred below. Once you have made your comment, click the *Add comment* button to publish it.
+
+[![api comment dashboard](https://user-images.githubusercontent.com/5029719/69900515-48fa9980-136c-11ea-9e55-7785626dfcad.gif)](https://user-images.githubusercontent.com/5029719/69900515-48fa9980-136c-11ea-9e55-7785626dfcad.gif)
+
+### Commenting on the Postman app
+
+To leave a comment on an API using the Postman app, select the API on which you want to make a comment and then click on the **Comments** button at the top-right of the page as illustred below. Once you have made your comment, click the *Add comment* button to publish it.
+
+[![api comment app](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)
+
+### Editing and deleting comments
+
+To edit or delete one of your comment, navigate to the comment section and hover with your mouse on the comment you wish to manage. Click on the pen icon to edit the comment or click on the bin icon to delete the comment.
+
+[![api comment manage](https://user-images.githubusercontent.com/5029719/69900613-9e837600-136d-11ea-886a-6c1dd0de085c.png)](https://user-images.githubusercontent.com/5029719/69900613-9e837600-136d-11ea-886a-6c1dd0de085c.png)
+
+**Note:** For moderation purposes, Admins can delete anyone’s comment. However, admins will not be able to update/modify a comment.
 
 ## Schema changelog
 
