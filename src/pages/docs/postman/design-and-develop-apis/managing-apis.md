@@ -106,6 +106,10 @@ To leave a comment on an API using the Postman app, select the API on which you 
 
 [![api comment app](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)
 
+### Tagging members in a comment
+
+Sometimes you may want to call the attention of a team member when posting a comment. In such a scenario, you can tag a person by typing the @ symbol followed by the member’s name and then choosing the corresponding name from the auto-suggested list. When you tag a member in your comment, Postman notifies the member by sending a notification.
+
 ### Editing and deleting comments
 
 To edit or delete one of your comment, navigate to the comment section and hover with your mouse on the comment you wish to manage. Click on the pen icon to edit the comment or click on the bin icon to delete the comment.
