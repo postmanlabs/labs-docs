@@ -54,6 +54,13 @@ You can create, share, duplicate, export, and delete an environment. You can als
 
 > **Environment and global variables are always stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
+This topic covers:
+
+* [Creating a new environment](#creating-a-new-environment)
+* [Selecting an active environment](#selecting-an-active-environment)
+* [Editing an active environment](#editing-an-active-environment)
+* [Sharing an environment](#sharing-an-environment)
+
 ## Creating a new environment
 
 You can create a new environment from the:
