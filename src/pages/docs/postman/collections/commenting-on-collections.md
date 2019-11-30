@@ -60,6 +60,6 @@ Sometimes you may want to call the attention of a team member when posting a com
 
 ## Markdown support
 
-Postman comments support Markdown. You can format the text the way you want in the comments dialog box. The following screen illustrates formatting bold faced and italicized text in the comments dialog box:
+Postman comments support Markdown. You can format the text the way you want in the comments dialog box. For more information on formatting using Markdown refer to this [Markdown Cheatsheet on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). The following screen illustrates formatting bold faced and italicized text in the comments dialog box:
 
 [![post comments](https://assets.postman.com/postman-docs/comment-markdown.png)](https://assets.postman.com/postman-docs/comment-markdown.png)
