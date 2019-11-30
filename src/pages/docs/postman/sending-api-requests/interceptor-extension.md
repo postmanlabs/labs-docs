@@ -90,7 +90,7 @@ How the communication is set up:
       1. MacOS / Linux: `$HOME/.postman`
       2. Windows: `%USERPROFILE%/.postman/`
 
-For MacOS, the NodeJS downloader will be saved to the ~/Downloads directory. You'll see an error if this directory does not exist.
+For MacOS, the NodeJS downloader will be saved to the ~/Downloads directory.
 
 For Windows, if you see an installation error in Postman, close Chrome before retrying the installation process.
 
