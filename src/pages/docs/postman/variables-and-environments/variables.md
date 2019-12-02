@@ -236,7 +236,7 @@ Local variables do not persist between sessions, but allow you to override all o
 
 ## Accessing variables
 
-You can use [Handlebars](https://handlebarsjs.com/) to reference variables throughout the Postman app user interface. For example, to reference a variable named "username" in your request auth settings, you could use the following syntax with double curly braces around the name:
+You can use double curly braces to reference variables throughout the Postman app user interface. For example, to reference a variable named "username" in your request auth settings, you could use the following syntax with double curly braces around the name:
 
 ```js
 {{username}}
