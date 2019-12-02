@@ -34,7 +34,9 @@ warning: false
 
 ---
 
-You can send requests in Postman to connect to the API of your choice. Your requests can retrieve, add, and update data. Whether you are building or testing your own API, or integrating with a third-party API, you can make authenticated requests in Postman, sending parameters, authorization details, and any body data you require. 
+You can send requests in Postman to connect to the API of your choice. Your requests can retrieve, add, and update data. Whether you are building or testing your own API, or integrating with a third-party API, you can make requests in Postman. Your requests can send parameters, authorization details, and any body data you require.
+
+> For example, if you're building a client application (e.g. a mobile or web app) for a store, you might send one request to retrieve the list of available products, another request to create a new order including the selected product details, and a different request to log a customer in to their account.
 
 When you send a request, Postman will display the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
@@ -74,20 +76,20 @@ Once your new tab is open, you can specify the details you need for your request
 
 ## Adding request detail
 
-If you have a request you want to run, you will need to know the URL, method, and other optional values such as auth and parameters. 
+If you have a request you want to run, you will need to know the URL, method, and other optional values such as auth and parameters.
 
-If you are just trying out sending requests in Postman, you can set the URL to the Postman Echo sample API URL `https://postman-echo.com/get` and the method to `GET`, then click __Send__ to see what happens.
+If you are just trying out sending requests in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then click __Send__ to see what happens.
 
 > Open the __Bootcamp__ in the Postman app and follow __Designing and mocking APIs__ to import some requests you can use for exploring Postman. You will find lots more sample request collections using __New__ &gt; __Templates__.
 
 ### Setting request URLs
 
-Each request you send in Postman requires a URL representing the API endpoint you are working with. Each operation you can perform using an API is typically associated with an endpoint. Each endpoint in an API will be available at a particular URL—this is what you enter into Postman to access the API.
+Each request you send in Postman requires a URL representing the API endpoint you are working with. Each operation you can perform using an API is typically associated with an endpoint. Each endpoint in an API is available at a particular URL—this is what you enter into Postman to access the API.
 
 * If you're building an API, the URL will typically be the base location plus path. For example, in the request `https://api-test-fun.glitch.me/info`, `https://api-test-fun.glitch.me` is the base URL, and `/info` is the endpoint path.
 * If you're using a third-party API, your API provider will supply the URLs you need, for example within their developer documentation.
 
-When you start typing in the URL input field, Postman will present a drop-down of previously-used locations you can use to autocomplete.
+When you start typing in the URL input field, Postman will present a drop-down of previously used locations you can use to autocomplete.
 
 > Enter `https://postman-echo.com/get` if you'd just like to try a request out.
 
@@ -108,6 +110,8 @@ By default Postman will select the `GET` method for new request. `GET` methods a
 
 <img alt="Request Methods" src="https://assets.postman.com/postman-docs/request-methods.jpg" width="400px"/>
 
+> For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks, a `POST` method to create a new task, and a `PUT` or `PATCH` method to edit an existing task.
+
 Postman supports a number of additional request methods by default, and you can [use custom methods](/docs/postman/customizing-postman/).
 
 > To try out the `https://postman-echo.com/get` endpoint, leave the `GET` method selected and click __Send__.
@@ -116,18 +120,22 @@ The same location (sometimes called "route") can provide more than one endpoint,
 
 * If your request does not require parameters or authentication, you can go ahead and click __Send__ to fetch a response.
 * Otherwise, specify your [parameters](#sending-parameters) and any [body data](#sending-body-data) you need to send to the API.
-* If you don't need to send data with your request, setup any required [authentication](#authenticating-requests) and [headers](#configuring-request-headers).
+* If you don't need to send data with your request, set up any required [authentication](#authenticating-requests) and [headers](#configuring-request-headers).
 
 ### Sending parameters
 
 You can send path and query parameters with your requests using the URL field and the __Params__ tab.
 
 * Query parameters are appended to the end of the request URL, following `?` and listed in key value pairs, separated by `&`, using the following syntax: `?id=1&type=new`
-* Path parameters form part of the request URL, and are referenced using placeholders as in the following example: `/customer/:id`
+* Path parameters form part of the request URL, and are referenced using placeholders preceded by `:` as in the following example: `/customer/:id`
 
-To send a query parameter, add it directly to the URL or open __Params__ and enter the name and value. _When you enter a query parameter in one place it will be reflected in the other._
+To send a query parameter, add it directly to the URL or open __Params__ and enter the name and value. _When you enter a query parameter in one part of the Postman UI it will be reflected in the others._
 
 ![Query Parameters](https://assets.postman.com/postman-docs/query-params.jpg)
+
+> Parameters will not automatically be URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
+>
+> <img alt="Encode Parameter" src="https://assets.postman.com/postman-docs/encode-param.jpg" width="400px"/>
 
 To send a path parameter, enter the parameter name into the URL field, preceded by a colon, for example `:id`. When you enter a path parameter, Postman will populate it in the __Params__ tab, where you can also edit it.
 
@@ -136,42 +144,40 @@ To send a path parameter, enter the parameter name into the URL field, preceded 
 > You can use the __Bulk Edit__ option if you prefer to enter your parameters in text instead of using the UI.
 > ![Bulk Edit](https://assets.postman.com/postman-docs/bulk-edit.jpg)
 
-> Parameters will not automatically be URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
-> <img alt="Encode Parameter" src="https://assets.postman.com/postman-docs/encode-param.jpg" width="400px"/>
-
-If your request does not require body data, auth, or headers, go ahead and click __Send__ to try it out. Otherwise, setup your [body](#sending-body-data), [auth](#authenticating-requests) and [headers](#configuring-request-headers).
+If your request does not require body data, auth, or headers, go ahead and click __Send__ to try it out. Otherwise, set up your [body](#sending-body-data), [auth](#authenticating-requests), and [headers](#configuring-request-headers).
 
 ### Sending body data
 
-You will need to send body data with requests whenever you need to add or update structured data. For example, if you send a request to add a new customer to a database, you might include the customer details in JSON. Typically you will use body data with `PUT`, `POST`, and `PATCH` requests. 
+You will need to send body data with requests whenever you need to add or update structured data. For example, if you're sending a request to add a new customer to a database, you might include the customer details in JSON. Typically you will use body data with `PUT`, `POST`, and `PATCH` requests.
 
 The __Body__ tab in Postman allows you to specify the data you need to send with a request. You can send various different types of body data to suit your API.
 
 > If you're sending body data, make sure you have the correct [headers](#configuring-request-headers) selected to indicate the content type your API may need to process the received data correctly.
+>
 > * For form-data and urlencoded body types, Postman will automatically attach the correct `Content-Type` header.
 > * If you use raw mode for your body data, Postman will set a header based on the type you select (e.g. text, json).
-> * If you manually select a `Content-Type` header, that value will takes precedence over what Postman sets.
+> * If you manually select a `Content-Type` header, that value will take precedence over what Postman sets.
 > * Postman does not set any header type for the binary body type.
 
 By default, Postman will select __None__—leave it selected if you do not need to send a body with your request.
 
-Choose the data type you need for your request body: [form data](#form-data), [URL encoded](#url-encoded), [raw](#raw-data), [binary](#binary-data), or [GraphQL](#graphql).
+Choose the data type you need for your request body—[form data](#form-data), [URL-encoded](#url-encoded), [raw](#raw-data), [binary](#binary-data), or [GraphQL](#graphql).
 
 #### Form data
 
-Website forms often send data to APIs as `multipart/form-data`. You can replicate this in Postman using the `form-data` __Body__ tab. Form data allows you to send key value pairs, and specify the content type.
+Website forms often send data to APIs as `multipart/form-data`. You can replicate this in Postman using the `form-data` __Body__ tab. Form data allows you to send key-value pairs, and specify the content type.
 
 ![Form File](https://assets.postman.com/postman-docs/form-file.jpg)
 
 > You can attach files using form data. When you repeatedly make API calls that send the same files, Postman will persist your file paths for subsequent use. This also helps you run collections that contain requests requiring file upload. Uploading multiple files each with their own content type is not supported yet.
 
-#### URL encoded
+#### URL-encoded
 
-URL encoded data uses the same encoding as URL parameters. If your API requires url encoded data, select `x-www-form-urlencoded` in the __Body__ tab of your request. Enter your key value pairs to send with the request and Postman will encode them before sending.
+URL-encoded data uses the same encoding as URL parameters. If your API requires url-encoded data, select `x-www-form-urlencoded` in the __Body__ tab of your request. Enter your key-value pairs to send with the request and Postman will encode them before sending.
 
 <img alt="URL Encoded Body" src="https://assets.postman.com/postman-docs/urlencoded-body.jpg" width="500px"/>
 
-> There is sometimes confusion between form data and url encoded—if you are unsure which one you need, check with your API provider.
+> There is sometimes confusion between form data and url-encoded. If you are unsure which one you need, check with your API provider.
 
 #### Raw data
 
@@ -201,7 +207,7 @@ Check out [Using GraphQL](/docs/postman/sending-api-requests/graphql/) section f
 
 ### Authenticating requests
 
-Some APIs require auth details you can send in Postman. Authentication involves verifying the identity of the _client_ sending a request, and authorization involves verifying that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
+Some APIs require auth details you can send in Postman. Authentication involves verifying the identity of the client sending a request, and authorization involves verifying that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
 
 ![Request Auth](https://assets.postman.com/postman-docs/request-auth.jpg)
 
@@ -209,19 +215,19 @@ Postman will automatically include your auth details in the relevant part of the
 
 For more detail on implementing different types of auth in your Postman requests, check out [Authorizing requests](/docs/postman/sending-api-requests/authorization/).
 
-Once your auth and other request details are setup, you can click __Send__ to run your request.
+Once your auth and other request details are set up, you can click __Send__ to run your request.
 
 ### Configuring request headers
 
-Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key value pairs you need and Postman will send them along with your request. As you type, you will be prompted with common options you can use to autocomplete your setup, such as `Content-Type`.
+Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you type, you will be prompted with common options you can use to autocomplete your setup, such as `Content-Type`.
 
 ![Header Types](https://assets.postman.com/postman-docs/header-types.jpg)
 
-> You can save commonly used headers together in a header preset. In the __Headers__ tab, click the __Presets__ drop-down, and choose __Manage Presets__. Add each preset by providing a name, and entering the key plus value. Click __Add__ and your preset will be available in the __Presets__ drop-down. Selecting the present will auto-populate the fields in your request headers.
+> You can save commonly used headers together in a header preset. In the __Headers__ tab, click the __Presets__ drop-down, and choose __Manage Presets__. Add each preset by providing a name, and entering the key plus value. Click __Add__ and your preset will be available in the __Presets__ drop-down. Selecting the preset will auto-populate the fields in your request headers.
 > ![Header Preset](https://assets.postman.com/postman-docs/header-preset.jpg)
 > <img alt="Select Preset" src="https://assets.postman.com/postman-docs/select-preset.jpg" width="250px"/>
 
-Once your headers and other request details are setup, you can click __Send__ to run your request.
+Once your headers and other request details are set up, you can click __Send__ to run your request.
 
 ### Using cookies
 
@@ -231,7 +237,7 @@ You can manage Cookies for your domains from Postman. Click __Cookies__ under th
 
 ## Choosing custom settings
 
-You can configure a variety of settings for Postman requests using the __Settings__ tab. These allow you to configure non-standard logic for your requests.
+You can configure a variety of settings for Postman requests using the __Settings__ tab. These allow you to apply non-standard logic to your requests.
 
 ![Request Settings](https://assets.postman.com/postman-docs/request-settings.jpg)
 
