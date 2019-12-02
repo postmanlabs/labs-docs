@@ -141,7 +141,8 @@ Variable scopes are suited to different tasks in Postman:
     * _Collection variables are suitable if you are only using a single environment, for example for auth / URL details._
 * __Environment variables__ allow you to tailor your processing to different environments, for example local development vs testing or production. Only one environment can be active at a time.
     * _If you only have one environment, using collection variables is more efficient._
-* __Local variables__ are temporary, and only accessible in your request scripts. You can use local variables if you need to carry out processing at the time a request executes.
+* __Local variables__ are temporary, and only accessible in your request scripts. You can use local variables if you need to carry out processing at the time a request or collection executes.
+    * _Local variables are suitable if you need a value to be available for the duration of a request or collection execution, but do not want it to persist once execution has ended, for example if you're using a test value locally / temporarily that you do not want to sync with your team._
 * __Data variables__ come from external CSV and JSON files to define data sets you can use when running collections via Newman or the Collection Runner.
 
 ![Variable Scopes](https://assets.postman.com/postman-docs/Variables-Chart.png)
@@ -232,7 +233,7 @@ Local variables are temporary values you set in your request scripts using the f
 pm.variables.set("variable_key", "variable_value");
 ```
 
-Local variables do not persist between sessions, but allow you to override all other scopes temporarily.
+Local variables do not persist between sessions, but allow you to override all other scopes temporarily, during the execution of a request or collection run.
 
 ## Accessing variables
 
@@ -325,7 +326,7 @@ See [working with data files](/docs/postman/collection-runs/working-with-data-fi
 
 ## Using dynamic variables
 
-Postman provides dynamic variables that you can use in your requests. You cannot use dynamic variables in scripts—you can only use them in request URL, headers, and body.
+Postman provides dynamic variables that you can use in your requests.
 
 Examples of dynamic variables are as follows:
 
