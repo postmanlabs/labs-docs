@@ -56,6 +56,17 @@ warning: false
 
 Variables allow you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests—and if you need to update the value, you only have to change it in one place. Using variables increases your ability to work efficiently and minimize the likelihood or error.
 
+## Variables quick start
+
+To try out a variable, use the following steps:
+
+* Click the __Environment quick look__ (eye button) in the top right of Postman and click __Edit__ next to __Globals__.
+* Add a variable named `my_variable` and give it an initial value of `Hello`—click __Save__ and close the environment modal.
+* Open a new request tab and enter `https://postman-echo.com/get?var={{my_variable}}` as the URL. Hover over the variable name and you'll see the value.
+* __Send__ the request. In the response, you'll see that Postman sent the variable value to the API. _Try changing the value in the Environment quick look and sending the request again._
+
+Read on for more detail on how you can use variables in Postman.
+
 ## Contents
 
 * [Understanding variables and environments](#understanding-variables-and-environments)
@@ -149,7 +160,7 @@ To create or edit a variable at global or environment scope, use the __Environme
 
 > The quick look view provides a reference to the current state of any global or environment variables you're working with—you can also access the quick look using the keyboard shortcut `CMD/CTRL + ALT + E`.
 
-Alternatively, click __Manage environments__ and select the relevant environment or click __Globals__.
+Alternatively, click __Manage environments__ and select the relevant environment, or click __Globals__.
 
 <img alt="Manage Environments" src="https://assets.postman.com/postman-docs/manage-env.jpg" width="400px"/>
 
@@ -157,7 +168,7 @@ Alternatively, click __Manage environments__ and select the relevant environment
 
 > You can [create a new environment](#environments-in-postman) if you do not already have one.
 
-Once you have your scope select, you can [specify the variable detail](#specifying-variable-detail).
+Once you have your scope selected, you can [specify the variable detail](#specifying-variable-detail).
 
 You can also [define global and environment variables in scripts](#defining-variables-in-scripts).
 
@@ -171,7 +182,7 @@ Choose the __Variables__ tab to edit or add to your collection variables.
 
 ![Collection Variables](https://assets.postman.com/postman-docs/collection-vars.jpg)
 
-> You can define collection variables when you create a new collection.
+> You can add collection variables when you create a new collection.
 
 You can also [define collection variables in scripts](#defining-variables-in-scripts).
 
@@ -221,7 +232,7 @@ Local variables are temporary values you set in your request scripts using the f
 pm.variables.set("variable_key", "variable_value");
 ```
 
-Local variables do not persist between sessions but allow you to override all other scopes temporarily.
+Local variables do not persist between sessions, but allow you to override all other scopes temporarily.
 
 ## Accessing variables
 
@@ -286,7 +297,7 @@ When you edit global, collection, and environment variables in Postman, you will
 
 Your local session in Postman can use values that are transient and only visible to you. This lets you develop and test using private credentials or experimental values, without risk of exposing these details or affecting others on your team.
 
-> For example, your team could have a shared API key and individual API keys—you could do more experimental development work locally using your personal key, but use the shared key for team collaboration. Similarly, you could have a variable that represents exploratory work you're doing locally but are not ready to share with the team—once you are you can persist the local data so that others on your team can also access it.
+> For example, your team could have a shared API key and individual API keys—you could do more experimental development work locally using your personal key, but use the shared key for team collaboration. Similarly, you could have a variable that represents exploratory work you're doing locally but are not ready to share with the team—you can later choose to persist the local data so that others on your team can also access it.
 
 When you create or edit a variable, you can enter both an initial and a current value. You can choose to leave the current value empty, in which case it will default to the initial value. If you specify a current value, it will be local only to your instance—the __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
 
@@ -324,7 +335,7 @@ Examples of dynamic variables are as follows:
 
 See the [Dynamic Variables](/docs/postman/variables-and-environments/variables-list/) section for a full list.
 
-[![dynamic variables](https://assets.postman.com/postman-docs/Env&Globals5.png)](https://assets.postman.com/postman-docs/Env&Globals5.png)
+![Dynamic Variable](https://assets.postman.com/postman-docs/dynamic-var.jpg)
 
 ## Next steps
 
