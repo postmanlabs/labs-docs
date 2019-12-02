@@ -34,9 +34,9 @@ warning: false
 
 ---
 
-You can send requests in Postman to connect to the API of your choice. Your requests can retrieve, add, and update data. Whether you are building or testing your own API, or integrating with a third-party API, you can make requests in Postman. Your requests can send parameters, authorization details, and any body data you require.
+You can send requests in Postman to connect to APIs you are working with. Your requests can retrieve, add, and update data. Whether you are building or testing your own API, or integrating with a third-party API, you can try out your requests in Postman. Your requests can send parameters, authorization details, and any body data you require.
 
-> For example, if you're building a client application (e.g. a mobile or web app) for a store, you might send one request to retrieve the list of available products, another request to create a new order including the selected product details, and a different request to log a customer in to their account.
+> For example, if you're building a client application (e.g. a mobile or web app) for a store, you might send one request to retrieve the list of available products, another request to create a new order (including the selected product details), and a different request to log a customer in to their account.
 
 When you send a request, Postman will display the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
@@ -60,13 +60,13 @@ If you have never sent a request before, check out [sending the first request](/
 
 ## Creating requests
 
-Your request can include multiple details determining the data Postman will send to the API you are working with. At the very least you will need to enter a URL and choose a method, but you can optionally specify a variety of other details.
+Your requests can include multiple details determining the data Postman will send to the API you are working with. At the very least you will need to enter a URL and choose a method, but you can optionally specify a variety of other details.
 
 You can create a new request from the Postman launch screen, using __New__ &gt; __Request__, or by clicking the __+__ button to open a new tab.
 
 ![New Screen](https://assets.postman.com/postman-docs/WS-createNew-white-p2.png)
 
-> When using the launch screen or __New__ button, you can first give your request a name and description, and choose / create a collection to save it to. Click __Save__ to create your request. It will open in a new tab.
+> When using the launch screen or __New__ button, you can first give your request a name and description, and choose / create a collection to save it in. __Save__ to create your request. It will open in a new tab.
 
 <img alt="Save Request" src="https://assets.postman.com/postman-docs/save-request.jpg" width="400px"/>
 
@@ -126,7 +126,7 @@ The same location (sometimes called "route") can provide more than one endpoint,
 
 You can send path and query parameters with your requests using the URL field and the __Params__ tab.
 
-* Query parameters are appended to the end of the request URL, following `?` and listed in key value pairs, separated by `&`, using the following syntax: `?id=1&type=new`
+* Query parameters are appended to the end of the request URL, following `?` and listed in key value pairs, separated by `&` using the following syntax: `?id=1&type=new`
 * Path parameters form part of the request URL, and are referenced using placeholders preceded by `:` as in the following example: `/customer/:id`
 
 To send a query parameter, add it directly to the URL or open __Params__ and enter the name and value. _When you enter a query parameter in one part of the Postman UI it will be reflected in the others._
@@ -137,7 +137,7 @@ To send a query parameter, add it directly to the URL or open __Params__ and ent
 >
 > <img alt="Encode Parameter" src="https://assets.postman.com/postman-docs/encode-param.jpg" width="400px"/>
 
-To send a path parameter, enter the parameter name into the URL field, preceded by a colon, for example `:id`. When you enter a path parameter, Postman will populate it in the __Params__ tab, where you can also edit it.
+To send a path parameter, enter the parameter name into the URL field, after a colon, for example `:id`. When you enter a path parameter, Postman will populate it in the __Params__ tab, where you can also edit it.
 
 ![Path Parameter](https://assets.postman.com/postman-docs/path-param.jpg)
 
@@ -203,7 +203,7 @@ You can send GraphQL queries with your Postman requests by selecting the __Graph
 
 ![GraphQL Body](https://assets.postman.com/postman-docs/graphql-body.jpg)
 
-Check out [Using GraphQL](/docs/postman/sending-api-requests/graphql/) section for more information on GraphQL including how to enable __Autocomplete__ powered by Postman API schemas.
+Check out [Using GraphQL](/docs/postman/sending-api-requests/graphql/) section for more information on GraphQL, including how to enable __Autocomplete__ powered by Postman API schemas.
 
 ### Authenticating requests
 
@@ -219,7 +219,7 @@ Once your auth and other request details are set up, you can click __Send__ to r
 
 ### Configuring request headers
 
-Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you type, you will be prompted with common options you can use to autocomplete your setup, such as `Content-Type`.
+Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you type, Postman will prompt you with common options you can use to autocomplete your setup, such as `Content-Type`.
 
 ![Header Types](https://assets.postman.com/postman-docs/header-types.jpg)
 
