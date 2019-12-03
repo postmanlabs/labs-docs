@@ -141,8 +141,8 @@ Variable scopes are suited to different tasks in Postman:
     * _Collection variables are suitable if you are only using a single environment, for example for auth / URL details._
 * __Environment variables__ allow you to tailor your processing to different environments, for example local development vs testing or production. Only one environment can be active at a time.
     * _If you only have one environment, using collection variables is more efficient._
-* __Local variables__ are temporary, and only accessible in your request scripts. You can use local variables if you need to carry out processing at the time a request or collection executes.
-    * _Local variables are suitable if you need a value to be available for the duration of a request or collection execution, but do not want it to persist once execution has ended, for example if you're using a test value locally / temporarily that you do not want to sync with your team._
+* __Local variables__ are temporary, and only accessible in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete.
+    * _Local variables are suitable if you need a value to override all other variable scopes but do not want the value to persist once execution has ended._
 * __Data variables__ come from external CSV and JSON files to define data sets you can use when running collections via Newman or the Collection Runner.
 
 ![Variable Scopes](https://assets.postman.com/postman-docs/Variables-Chart.png)
@@ -233,7 +233,7 @@ Local variables are temporary values you set in your request scripts using the f
 pm.variables.set("variable_key", "variable_value");
 ```
 
-Local variables do not persist between sessions, but allow you to override all other scopes temporarily, during the execution of a request or collection run.
+Local variables do not persist between sessions, but allow you to override all other scopes temporarily, during the execution of a request or collection / monitor run. For example, if you need to process a temporary test value for a single request or collection run locally, and don't want the value to sync with your team or remain available when the request / collection has finished running, you can use a local variable.
 
 ## Accessing variables
 
@@ -307,6 +307,8 @@ Using __Persist__ will make your current value sync with Postman's servers and b
 You can edit a current value inline from the Environment quick look:
 
 <img alt="Edit Current Value" src="https://assets.postman.com/postman-docs/edit-current.jpg" width="500px"/>
+
+> Local and data variables only have current values, which do not persist beyond request or collection runs.
 
 ## Logging variables
 
