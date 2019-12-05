@@ -38,7 +38,7 @@ The requests are ordered by time, with the most recent requests displayed at the
 
 ### Multi-selecting requests
 
-Hold down the **CMD** key (or **CTRL** on Windows), and click on each request that you want to select. You can initiate actions like [saving](/docs/postman/collections/creating-collections/), [sharing](/docs/postman/collections/sharing-collections/), [documenting](/docs/postman/api-documentation/documenting-your-api/), [mocking](/docs/postman/mock-servers/intro-to-mock-servers/), [monitoring](/docs/postman/monitors/intro-monitors/), or deleting on these requests through actions at the top of the list.
+Hold down the **CMD** key (or **CTRL** on Windows), and click each request that you want to select. You can initiate actions like [saving](/docs/postman/collections/creating-collections/), [sharing](/docs/postman/collections/sharing-collections/), [documenting](/docs/postman/api-documentation/documenting-your-api/), [mocking](/docs/postman/mock-servers/intro-to-mock-servers/), [monitoring](/docs/postman/monitors/intro-monitors/), or deleting requests through actions at the top of the list.
 
 ### Save requests to a collection
 

@@ -36,7 +36,7 @@ warning: false
 
 You can publish your API documentation to make it available for public viewing by anyone who has the link. [Published documentation](/docs/postman-for-publishers/public-api-docs/) allows anyone who wants to learn how to use your API to view detail on endpoints, including parameters, request and response bodies, and example code.
 
-Your public documentation will always display up to date content representing the current state of your collection. You don’t need to repeat the publication flow each time you want to update your documentation.
+Your public documentation will always display up-to-date content representing the current state of your collection. You don’t need to repeat the publication flow each time you want to update your documentation.
 
 > You can publish documentation for collections that you created or have permission to edit.
 
@@ -76,7 +76,7 @@ You can preview your documentation before publishing it.
 
 ### Customizing your docs
 
-> With a Postman Pro or Enterprise account you can use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/) for your documentation site in addition to your default Postman private page.
+> With a Postman Pro or Enterprise account, you can opt to use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/) for your public documentation site.
 
 You can configure the style of your public docs by selecting colors for the top bar, sidebar, and highlights. Try making changes and preview to see how your docs will appear when published.
 
