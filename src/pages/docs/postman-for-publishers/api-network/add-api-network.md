@@ -1,19 +1,23 @@
 ---
-title: "Add APIs to API network"
+title: "Add your API to the Network"
 order: 141
 page_id: "add_api_network"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Publishing public docs"
+    url: "/docs/postman-for-publishers/public-api-docs/"
 ---
 
-The [**Postman API Network**](https://explore.postman.com/) has amassed the widest variety of public APIs for your browsing pleasure. Verified publishers are required to submit their complete Postman collections for review. Community contributors can also share their own solutions and projects as [templates](/docs/postman-for-publishers/postman-templates/add-templates/) to help the broader community.
+Publishing your documentation to the [API Network](https://explore.postman.com/) connects your API to the Postman community. You can publish docs to the network from any team collection—_for individual collections that are not published via a team, you can instead add to the Postman [templates](/docs/postman-for-publishers/postman-templates/add-templates/)_.
 
-For API publishers, the Postman API Network is an easy way to introduce your API to millions of developers worldwide. You can publish your collections as an interactive API reference along with any workflows to help users get onboarded quickly and effectively. Gather metrics about how many people are using your APIs and insights about how they are being used to refine your next generation of APIs.
+Sharing your docs exposes your API to the millions of developers who use Postman, and lets others within the community learn from your projects. By publishing to the API Network, you share both as a human-readable reference in the form of your docs—and an executable way to interact with your API endpoints inside Postman, via the embedded Run in Postman button.
 
-For API users, you're probably wondering if there's an API out there for your specific use case. Whether it's finding sushi restaurants near you or integrating your CI/CD pipeline with your enterprise messenger, the API Network can help with that. Browse the network, and when you find what you're looking for, import the collection with a simple click of the [Run in Postman button](/docs/postman-for-publishers/run-in-postman/creating-run-button). Within moments, you'll be interacting with the API in Postman.
+Your docs can convey detailed guidance on how to make requests to your API endpoints, and the workflows required to integrate with your API in general. This provides the information and actionable data developers need to get started using your services. Connecting to the API Network also gives you access to metrics around how many people are using your APIs, and insights you can use to refine future versions.
 
-Can’t find what you're looking for? [Publish your own community-contributed template](/docs/postman-for-publishers/postman-templates/add-templates).
-
-### How to add APIs to the API Network
+### Adding your API
 
 For API publishers, you can add your API to the API Network when [publishing your collection](/docs/postman/api-documentation/publishing-public-docs), or while editing your Collection Discovery details. Ensure your API has an API name, summary, and description.
 
