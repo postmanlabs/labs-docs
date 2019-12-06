@@ -59,7 +59,7 @@ Check out the following links to start learning.
 
 ### Product management with Postman
 
-> [__Documenting your API__](/docs/postman/api-documentation/intro-to-api-documentation/)
+> [__Documenting your API__](/docs/postman/api-documentation/documenting-your-api/)
 >
 > [__Collaborating with teammates__](/docs/postman/launching-postman/collaboration/)
 >

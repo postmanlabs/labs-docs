@@ -64,6 +64,34 @@
     "to": "/docs/postman-for-publishers/run-in-postman/run-button-API/"
   },
   {
+    "from": "https://learning.getpostman.com/docs/postman-pro/managing-pro/inviting-and-managing/",
+    "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team/"
+  },
+  {
+    "from": "/docs/postman/api-documentation/intro-to-api-documentation/",
+    "to": "/docs/postman/api-documentation/documenting-your-api"
+  },
+  {
+    "from": "/docs/postman/api-documentation/environments-and-environment-templates/",
+    "to": "/docs/postman/api-documentation/documenting-your-api#documentation-environments"
+  },
+  {
+    "from": "/docs/postman/api-documentation/how-to-document-using-markdown/",
+    "to": "/docs/postman/api-documentation/authoring-your-documentation/"
+  },
+  {
+    "from": "/docs/postman/api-documentation/publishing-public-docs/",
+    "to": "/docs/postman/api-documentation/publishing-your-docs/"
+  },
+  {
+    "from": "/docs/postman/api-documentation/adding-team-name-and-logo/",
+    "to": "/docs/postman/api-documentation/publishing-your-docs/"
+  },
+  {
+    "from": "/docs/postman/api-documentation/adding-and-verifying-custom-domains/",
+    "to": "/docs/postman/api-documentation/custom-doc-domains/"
+  },
+  {
     "from": "/docs/postman-for-publishers/run-button/security/",
     "to": "/docs/postman-for-publishers/run-in-postman/security/"
   }
