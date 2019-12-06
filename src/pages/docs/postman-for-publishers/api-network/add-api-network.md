@@ -13,36 +13,68 @@ contextual_links:
 
 Publishing your documentation to the [API Network](https://explore.postman.com/) connects your API to the Postman community. You can publish docs to the network from any team collection—_for individual collections that are not published via a team, you can instead add to the Postman [templates](/docs/postman-for-publishers/postman-templates/add-templates/)_.
 
-Sharing your docs exposes your API to the millions of developers who use Postman, and lets others within the community learn from your projects. By publishing to the API Network, you share both as a human-readable reference in the form of your docs—and an executable way to interact with your API endpoints inside Postman, via the embedded Run in Postman button.
+Sharing your docs exposes your API to the millions of developers who use Postman, and lets others within the community learn from your projects. By publishing to the API Network, you share your API through a human-readable reference in the form of your docs—and an executable way to interact with your API endpoints inside Postman, via the embedded Run in Postman button.
 
-Your docs can convey detailed guidance on how to make requests to your API endpoints, and the workflows required to integrate with your API in general. This provides the information and actionable data developers need to get started using your services. Connecting to the API Network also gives you access to metrics around how many people are using your APIs, and insights you can use to refine future versions.
+Your docs can convey detailed guidance on how to make requests to your API endpoints, as well as the workflows required to integrate with your API in general. This provides the information—and actionable data—developers need to get started using your services.
 
-### Adding your API
+## Adding your API
 
-For API publishers, you can add your API to the API Network when [publishing your collection](/docs/postman/api-documentation/publishing-public-docs), or while editing your Collection Discovery details. Ensure your API has an API name, summary, and description.
+You can share your docs to the API Network during the [publishing process](/docs/postman/api-documentation/publishing-your-docs/), by checking the __Collection discovery__ checkbox and selecting __Add to API Network__.
 
-[![api network categories](https://assets.postman.com/postman-docs/Add-to-API-Network.png)](https://assets.postman.com/postman-docs/Add-to-API-Network.png)
+![Collection Discovery](https://assets.postman.com/postman-docs/collection-discovery-network.jpg)
 
-Select the categories that best describe your API and service. Once submitted, the Postman team will review the submission for approval before your API is accessible to millions of developers worldwide.
+If your collection is already published, you can make it discoverable by opening the published docs, opening the __Published__ drop-down menu, and clicking __Edit Published Documentation__.
 
-[![api network categories](https://assets.postman.com/postman-docs/Add-to-API-Network2.png)](https://assets.postman.com/postman-docs/Add-to-API-Network2.png)
+<img alt="Edit Published Docs" src="https://assets.postman.com/postman-docs/edit-published.jpg" width="400px"/>
 
-### Update team public profile
+Click __Allow Collection Discovery__ to set up your network listing.
 
-Under your [team settings](https://go.postman.co/settings/team/public), verify your team's public profile details including your team name, team description, organization logo, and favicon.
+![Allow Discovery](https://assets.postman.com/postman-docs/allow-discovery.jpg)
 
-[![team profile settings](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-settings.png)](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-settings.png)
+Select __Add to API Network__.
 
-This information will be displayed to users on your team's profile page, along with a listing of your published APIs and templates.
+### Providing API detail
+
+Include the __API Name__, __Summary__, and __Description__—add the details potential users will need to know in order to find your API and figure out whether they want to use it. Your description can include markdown, and will automatically be populated from any [description you already have included in your collection](/docs/postman/api-documentation/authoring-your-documentation/).
+
+![API Network Detail](https://assets.postman.com/postman-docs/api-network-detail.jpg)
+
+Select the categories that best describe your API and service. API consumers can choose categories to browse APIs in the network from the left sidebar in the Postman app and at [explore.postman.com](https://explore.postman.com).
+
+![Network Categories](https://assets.postman.com/postman-docs/network-in-app.jpg)
+
+### Setting up your team profile
+
+When you publish to the API Network, your API will be listed as part of your team profile. If you don't already have a team profile, Postman will automatically generate one when you publish.
+
+<img alt="Publish Profile" src="https://assets.postman.com/postman-docs/publish-profile.jpg" width="450px"/>
+
+Use the __Public Profile Settings__ link or navigate to your [team profile settings](https://go.postman.co/settings/team/public) to enable and fill out the details consumers will see when your API is published and visible in the network.
+
+![Enable Profile](https://assets.postman.com/postman-docs/enable-profile.jpg)
+
+Include a team name and description that will appear in your API Network listing. You can customize your profile URL and add a logo and favicon in your [Settings](https://go.postman.co/settings/team/general).
+
+![Profile Detail](https://assets.postman.com/postman-docs/profile-details.jpg)
+
+Once your team profile is set up any collection docs you publish will be associated with it. Click __Publish Collection__.
+
+![Publish Team](https://assets.postman.com/postman-docs/publish-as-team.jpg)
+
+When people browse the API Network they will see your team profile listing, along with the APIs and templates you have published.
 
 [![team profile display](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-display.png)](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-display.png)
 
-If you choose to disable your team profile, you won't be able to publish any new collections to the Postman API Network or templates, and any previously published collections will be unpublished.
+> If you choose to disable your team profile, you won't be able to publish any new collections to the Postman API Network or templates, and any previously published collections will be unpublished.
 
-### Update user public profile
+![Network Published](https://assets.postman.com/postman-docs/network-published.jpg)
 
-Under your [personal settings](https://go.postman.co/settings/me/public), verify your public profile details including your name, description and profile photo. Similar to your team's public profile, user information will be displayed on your user profile page, along with a listing of your published templates.
+You will see a link to your collection's published listing and team profile. You will also be able to find your listing in the Postman app using __New__ &gt; __API Network__ or [on the web](https://explore.postman.com).
 
-[![user profile display](https://assets.postman.com/postman-docs/api-network/api-network-user-profile-display.png)](https://assets.postman.com/postman-docs/api-network/api-network-user-profile-display.png)
+![Network Listing](https://assets.postman.com/postman-docs/network-listing-app.jpg)
 
-If you choose to disable your user profile, you won't be able to publish any new templates and any previously published templates will be unpublished.
+Your team's API Network listing shows the number of imports for each of your APIs, with links to the documentation and __Run in Postman__ button so that people can import your collection templates directly into the app to begin using your endpoints straight away.
+
+Clicking the title of an API in the web listing of your team profile will open the listing page for that particular collection, showing the description, publisher details, imports, and linking to the documentation alongside __Run in Postman__ for importing the collection directly.
+
+![API Listing](https://assets.postman.com/postman-docs/api-listing-link.jpg)
