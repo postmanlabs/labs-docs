@@ -107,6 +107,8 @@ Add listing details for your public documentation, including name, summary, desc
 
 ![Listing Detail](https://assets.postman.com/postman-docs/listing-detail.jpg)
 
+If you do not want to make your docs discoverable at this time, you can go ahead and publish then [add them to the API Network or Postman Templates later](/docs/postman-for-publishers/public-api-docs/).
+
 ## Publishing and unpublishing
 
 Once you have your publish settings complete, click __Publish Collection__ to make your docs public.
