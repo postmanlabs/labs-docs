@@ -88,7 +88,7 @@ The Trash feature is available only for the signed-in users. So, if you are not 
 
 If your collection seems deleted and you are not able to recover from your deleted collections list, it is possible it is removed from a workspace rather than deleted. To check, navigate back to the main page of the web dashboard, then click `View all collections`. If listed, you can click on its share icon to move it back into a personal or shared workspace.
 
-If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/docs/postman/workspaces/activity-feed-and-restoring-collections/).
+If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/docs/postman/workspaces/changelog-and-restoring-collections/).
 
 ## Share a collection
 

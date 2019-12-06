@@ -17,7 +17,7 @@ Your Team Library should be the single source of truth about your APIs. It will 
 
 [![team library](https://assets.postman.com/postman-docs/59167045.png)](https://assets.postman.com/postman-docs/59167045.png)
 
-The Team Library allows team members to subscribe to shared collections. When someone subscribes to a collection, they get a synced copy of this collection in their Postman app. If they have edit permissions for the collection, they can make changes which will be reflected in everyone else's collection copy too. Changes made to shared collections are visible under the [Activity Feed](/docs/postman/workspaces/activity-feed-and-restoring-collections/).
+The Team Library allows team members to subscribe to shared collections. When someone subscribes to a collection, they get a synced copy of this collection in their Postman app. If they have edit permissions for the collection, they can make changes which will be reflected in everyone else's collection copy too. Changes made to shared collections are visible under the [Activity Feed](/docs/postman/workspaces/changelog-and-restoring-collections/).
 
 Shared environments work slightly differently. Through a shared environment, you can create and share a snapshot of a local environment. Users may have different environment variable values, so updates to these values are not synced between shared environments.
 

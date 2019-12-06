@@ -1,5 +1,5 @@
 ---
-title: "Authorizing Requests"
+title: "Authorizing requests"
 order: 19
 page_id: "authorization"
 contextual_links:
