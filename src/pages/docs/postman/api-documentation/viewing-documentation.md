@@ -79,7 +79,7 @@ You can view and post comments on your API documentation to collaborate with tea
 
 You can add a comment to join in the discussion. Comments on documentation reflect [comments on the corresponding collection](/docs/postman/collections/commenting-on-collections/).
 
-> You can only comment on private Documentation.
+> You can only comment on private documentation.
 
 ## Viewing public documentation
 

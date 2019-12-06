@@ -46,7 +46,7 @@ Click __Proceed__ to verify the domain.
 
 ## Verifying your domain
 
-When you add a custom domain you will see a modal displaying the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain for TXT and CNAME.
+When you add a custom domain, you will see a modal displaying the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain for TXT and CNAME.
 
 [![see TXT and CNAME](https://assets.postman.com/postman-docs/WS-verfication-tokens-1.png)](https://assets.postman.com/postman-docs/WS-verfication-tokens-1.png)
 

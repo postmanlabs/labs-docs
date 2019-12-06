@@ -105,7 +105,7 @@ Any data you include in the example will appear in the docs example code sidebar
 
 ## Documentation links
 
-You can link to headers within your generated documentation, including the introduction, requests, folders, and responses.
+You can link to headings within your generated documentation, including the introduction, requests, folders, and responses.
 
 The links are generated from your documentation using IDs. To find a link, click the relevant section in the left sidebar and you'll see it in your browser address bar (or right-click and copy the link). You can then link directly to doc page sections using this link.
 
