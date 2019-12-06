@@ -6,27 +6,20 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    name: "Installation and updates"
+    url: "/docs/postman/launching-postman/installation-and-updates/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Big Commerce"
-    url: "https://www.getpostman.com/case-studies/BigCommerce.pdf?_ga=2.139685109.754547870.1571851340-1454169035.1570491567"
-  - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to Postman Cloud"
-    url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "It Starts with a Simple REST Client"
-    url: "https://blog.getpostman.com/2016/10/06/it-starts-with-a-simple-rest-client-2/?_ga=2.162139258.754547870.1571851340-1454169035.1570491567"
+    name: "Sending a request"
+    url: "https://www.youtube.com/watch?v=7E60ZttwIpY"
   - type: section
     name: "Next Steps"
+  - type: link
+    name: "Creating your first collection"
+    url:  "/docs/postman/launching-postman/creating-the-first-collection/"
   - type: link
     name: "Requests"
     url: "/docs/postman/sending-api-requests/requests"
