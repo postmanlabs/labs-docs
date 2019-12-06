@@ -54,7 +54,7 @@ warning: false
 
 ---
 
-Variables allow you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests—and if you need to update the value, you only have to change it in one place. Using variables increases your ability to work efficiently and minimize the likelihood or error.
+Variables allow you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests—and if you need to update the value, you only have to change it in one place. Using variables increases your ability to work efficiently and minimizes the likelihood or error.
 
 ## Variables quick start
 
@@ -81,9 +81,9 @@ Read on for more detail on how you can use variables in Postman.
 
 ## Understanding variables and environments
 
-A variable is a symbolic representation of data that allows you to access a value without having to enter it manually wherever you need it. This can be useful especially if you are using the same values in multiple places. Variables make your requests more flexible and readable, by _abstracting_ some of the detail involved.
+A variable is a symbolic representation of data that allows you to access a value without having to enter it manually wherever you need it. This can be useful especially if you are using the same values in multiple places. Variables make your requests more flexible and readable, by abstracting some of the detail involved.
 
-> For example, if you have the same URL in multiple requests—but the URL might change—you can store it in a variable. If the URL changes, you only need to change the variable value and it will be reflected throughout the requests, wherever you've used the variable name. The same principle applies to any part of your request code that is repeated.
+> For example, if you have the same URL in multiple requests—but the URL might change—you can store it in a variable. If the URL changes, you only need to change the variable value and it will be reflected throughout your collection, wherever you've used the variable name. The same principle applies to any part of your request code that is repeated.
 
 ![URL Variable](https://assets.postman.com/postman-docs/url-var.jpg)
 
