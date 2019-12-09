@@ -71,7 +71,7 @@ $ newman run mycollection.json
 
 You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/postman/collections/sharing-collections/) to learn how to share a file as a URL.
 
-Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/environments-and-globals/manage-environments/) from Postman and run them with the `-e` flag.
+Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/variables-and-environments/variables/#environments-in-postman) from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json

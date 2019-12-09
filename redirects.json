@@ -94,5 +94,33 @@
   {
     "from": "/docs/postman-for-publishers/run-button/security/",
     "to": "/docs/postman-for-publishers/run-in-postman/security/"
+  },
+  {
+    "from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
+    "to": "/docs/postman/variables-and-environments/variables/"
+  },
+  {
+    "from": "/docs/postman/environments-and-globals/manage-globals/",
+    "to": "/docs/postman/variables-and-environments/variables/"
+  },
+  {
+    "from": "/docs/postman/environments-and-globals/variables-complete-reference/",
+    "to": "/docs/postman/variables-and-environments-and-globals/variables/"
+  },
+  {
+    "from": "/docs/postman/environments-and-globals/variables/",
+    "to": "/docs/postman/variables-and-environments/variables/"
+  },
+  {
+    "from": "/docs/postman/environments-and-globals/sessions/",
+    "to": "/docs/postman/variables-and-environments/variables/#sessions-in-postman"
+  },
+  {
+    "from": "/docs/postman/environments-and-globals/variables-list/",
+    "to": "/docs/postman/variables-and-environments/variables-list/"
+  },
+  {
+    "from": "/docs/postman/environments-and-globals/manage-environments/",
+    "to": "/docs/postman/variables-and-environments/variables/#environments-in-postman"
   }
 ]
