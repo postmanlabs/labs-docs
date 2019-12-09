@@ -90,7 +90,7 @@ After creating the collection, you can save more requests to the collection and 
 
 ## Create an environment
 
-Under **BUILDING BLOCKS**, you can create an [environment](/docs/postman/environments-and-globals/manage-environments/). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
+Under **BUILDING BLOCKS**, you can create an [environment](/docs/postman/variables-and-environments/variables/#environments-in-postman). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
 
 1. In the header toolbar, click the **New** button.
 1. In the **Create New** tab, click "Environment".
@@ -129,7 +129,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 ## Create documentation
 
-Under **ADVANCED**, you can create [public or private documentation](/docs/postman/api-documentation/intro-to-api-documentation/) and share it in a web page. Postman generates browser-based documentation for your collections, that can be updated automatically in real-time.
+Under **ADVANCED**, you can create [public or private documentation](/docs/postman/api-documentation/documenting-your-api/) and share it in a web page. Postman generates browser-based documentation for your collections, that can be updated automatically in real-time.
 
 1. In the header toolbar, click the **New** button.
 1. In the **Create New** tab, click "API Documentation".

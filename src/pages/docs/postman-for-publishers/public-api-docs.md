@@ -40,11 +40,11 @@ Postman automatically generates documentation for any of your collections. Publi
 
 ## **Complete**
 
-Your collections are documented with folders, [requests](/docs/postman/sending-api-requests/requests/), [responses](/docs/postman/sending-api-requests/responses/), [parameters](/docs/postman/sending-api-requests/requests/#url), [code snippets](/docs/postman/sending-api-requests/generate-code-snippets/), [environments](/docs/postman/environments-and-globals/manage-environments/), and [examples](/docs/postman/collections/examples/#what-is-an-example).
+Your collections are documented with folders, [requests](/docs/postman/sending-api-requests/requests/), [responses](/docs/postman/sending-api-requests/responses/), [parameters](/docs/postman/sending-api-requests/requests/#url), [code snippets](/docs/postman/sending-api-requests/generate-code-snippets/), [environments](/docs/postman/variables-and-environments/variables/#environments-in-postman), and [examples](/docs/postman/collections/examples/#what-is-an-example).
 
 ## **Customizable**
 
-Create clear and elegant documentation [using Markdown](/docs/postman/api-documentation/how-to-document-using-markdown/) in your descriptions for collections, folders, and requests. Publish this documentation on your [custom domain](/docs/postman/api-documentation/adding-and-verifying-custom-domains/), and further customize the appearance of these pages according to your own brand guidelines.
+Create clear and elegant documentation [using Markdown](/docs/postman/api-documentation/authoring-your-documentation/) in your descriptions for collections, folders, and requests. Publish this documentation on your [custom domain](/docs/postman/api-documentation/custom-doc-domains/), and further customize the appearance of these pages according to your own brand guidelines.
 
 ## **Easy**
 
