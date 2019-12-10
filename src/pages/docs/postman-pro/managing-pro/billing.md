@@ -123,7 +123,7 @@ Annual teams are able to switch to a monthly plan at the end of their current bi
 
 ### Purchasing monitoring blocks
 
-Postman Enterprise teams are allotted 100,000 monitoring calls per month at no extra charge. Postman Pro teams are allotted 10,000 monitoring requests. 
+Postman Enterprise teams are allotted 100,000 monitoring calls per month at no extra charge. Postman Pro teams are allotted 10,000 monitoring requests.
 
 Unless monitoring overages are [disabled](/docs/postman-pro/managing-pro/billing#managing-overages), you will be charged on a pay-as-you-go basis. See "Additional monitoring calls" on our [pricing page](https://www.getpostman.com/pricing).
 
