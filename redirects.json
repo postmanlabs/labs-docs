@@ -36,7 +36,43 @@
     "to": "/docs/postman-pro/managing-pro/managing-your-team/"
   },
   {
+    "from": "/docs/api_testing_and_collection_runner/writing_tests",
+    "to": "/docs/postman/scripts/test-scripts/"
+  },
+  {
     "from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/#team-user-on-postman-v7",
     "to": "/docs/postman-pro/managing-pro/migrating-to-v7/#update-to-postman-v7"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/creating-run-button/",
+    "to": "/docs/postman-for-publishers/run-in-postman/creating-run-button/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/using-run-button/",
+    "to": "/docs/postman-for-publishers/run-in-postman/using-run-button/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/collections-run-button/",
+    "to": "/docs/postman-for-publishers/run-in-postman/collections-run-button/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/environments-run-button/",
+    "to": "/docs/postman-for-publishers/run-in-postman/environments-run-button/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/run-button-API/",
+    "to": "/docs/postman-for-publishers/run-in-postman/run-button-API/"
+  },
+  {
+    "from": "/docs/postman-for-publishers/run-button/security/",
+    "to": "/docs/postman-for-publishers/run-in-postman/security/"
+  },
+  {
+    "from": "/docs/postman-pro/managing-pro/managing-your-billing/",
+    "to": "/docs/postman-pro/managing-pro/billing/"
+  },
+  {
+    "from": "/docs/postman-pro/managing-pro/billing-and-pricing/",
+    "to": "/docs/postman-pro/managing-pro/billing/"
   }
 ]
