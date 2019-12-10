@@ -53,13 +53,13 @@ Check out the following links to start learning.
 
 > [__Writing test scripts__](/docs/postman/scripts/test-scripts/)
 >
-> [__Using variables__](/docs/postman/environments-and-globals/variables/)
+> [__Using variables__](/docs/postman/variables-and-environments/variables/)
 >
 > [__Monitoring API performance__](/docs/postman/monitors/intro-monitors/)
 
 ### Product management with Postman
 
-> [__Documenting your API__](/docs/postman/api-documentation/intro-to-api-documentation/)
+> [__Documenting your API__](/docs/postman/api-documentation/documenting-your-api/)
 >
 > [__Collaborating with teammates__](/docs/postman/launching-postman/collaboration/)
 >

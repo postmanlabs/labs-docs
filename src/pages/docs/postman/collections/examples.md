@@ -19,7 +19,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to API documentation"
-    url: "/docs/postman/api-documentation/intro-to-api-documentation/"
+    url: "/docs/postman/api-documentation/documenting-your-api/"
   - type: link
     name: "Intro to mock servers"
     url: "/docs/postman/mock-servers/intro-to-mock-servers/"
@@ -98,7 +98,7 @@ You can save responses as before, but now you can edit them whenever you want. T
 
 ## How your examples appear in Postman documentation
 
-You can publish Postman [API documentation](/docs/postman/api-documentation/intro-to-api-documentation/) to the web with a single click. Examples display in your API documentation and provide additional details and clarification for your API.
+You can publish Postman [API documentation](/docs/postman/api-documentation/documenting-your-api/) to the web with a single click. Examples display in your API documentation and provide additional details and clarification for your API.
 
 You can edit these examples with real-time updates to the documentation!
 

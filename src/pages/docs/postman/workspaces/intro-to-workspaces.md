@@ -28,8 +28,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to environments and globals"
-    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+    name: "Variables"
+    url: "/docs/postman/variables-and-environments/variables/"
   - type: link
     name: "Intro to scripts"
     url: "/docs/postman/scripts/intro-to-scripts/"
@@ -39,7 +39,7 @@ warning: false
 
 ## What is a workspace?
 
-A workspace is a -view- of all the Postman things you've come to use: [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/environments-and-globals/intro-to-environments-and-globals/), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), [monitors](/docs/postman/monitors/intro-monitors/), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
+A workspace is a -view- of all the Postman things you've come to use: [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/variables-and-environments/variables/), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), [monitors](/docs/postman/monitors/intro-monitors/), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
 
 [![WS_mainScreen-basicMenu](https://assets.postman.com/postman-docs/Workspaces_Mainscreen.png)](https://assets.postman.com/postman-docs/Workspaces_Mainscreen.png)
 

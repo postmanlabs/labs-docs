@@ -180,6 +180,8 @@ Use __bold__ to highlight names for parts of the software that the user interact
 
 ---
 
+> The only exception to this is where the UI element includes all upper case—only capitalize initial letters in the documentation.
+
 The first time you mention a generic Postman feature in a page, capitalize it and use its full name—later in the doc you can refer to it in shortened forms and without capitalizing:
 
 ---
@@ -270,7 +272,9 @@ In general, aim for the following structure:
     * Any info about carrying out the task using the Postman API
     * Links to relevant collections / templates
     * Debugging info
-* Links to relevant follow-up material
+* Links to relevant follow-up material in a Next Steps section
+
+Add any relevant supplementary links to the sidebar using the frontmatter at the top of each docs page.
 
 Use sentence case for headings and subheadings, only capitalizing the first word and any proper names:
 
@@ -297,6 +301,10 @@ Images can help to provide context and give users a reference point for their le
 Try to keep your images focused on what's relevant, but still show enough of your screen to indicate how users can get there. For example, in a doc showing how to set parameters, you could show the top of the request tab along with the parameter input area, but cut out other parts of the window. Crop your images to remove parts of your screen that are not relevant to the documentation, for example docks and desktop areas.
 
 Include alternative text for images.
+
+Surround images with a 1px border dark grey, ideally `#4a4a4a`.
+
+Use JPG format for images, and optimize them to minimize file size.
 
 ## Links
 
