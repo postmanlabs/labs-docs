@@ -115,12 +115,11 @@ To change your team size, see [changing your plan](docs/postman-pro/managing-pro
 
 ### Changing billing cycle
 
-Monthly teams are able to switch to an annual plan at any time by navigating to [billing](https://go.postman.co/billing/overview) > **Change Plan**. 
+Monthly teams are able to switch to an annual plan at any time by navigating to [billing](https://go.postman.co/billing/overview) > **Change Plan**.
 
 [![change plan](https://assets.postman.com/postman-docs/change-plan.jpg)](https://assets.postman.com/postman-docs/change-plan.jpg)
 
-
-Annual teams are able to switch to a monthly plan at the end of their current billing cycle. The number of days left in your current billing cycle is displayed under "Upcoming Invoice." 
+Annual teams are able to switch to a monthly plan at the end of their current billing cycle. The number of days left in your current billing cycle is displayed under "Upcoming Invoice."
 
 ### Purchasing monitoring blocks
 
