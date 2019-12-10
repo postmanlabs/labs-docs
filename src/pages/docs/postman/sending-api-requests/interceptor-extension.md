@@ -60,6 +60,7 @@ In the 'Requests' tab, set the Source toggle to 'Interceptor'. Once the connecti
 
 
 #### Security
+
 Communication between the Interceptor extension and Postman is encrypted. For additional security, you can change the default encryption key. In the Postman app, head to View -> Developer Tools -> Show DevTools (Current View) -> Console, and enter `pm.interceptorBridge.setKey("<your key here>")`. For the Interceptor extension, right click on the Interceptor icon in your browser, and head to `Inspect Pop-up` > Console. Enter the same command - `pm.interceptorBridge.setKey("<your key here>")` here. With this, all communication through this channel will be encrypted using your key.
 
 #### Interceptor<>Postman Connectivity Reference
