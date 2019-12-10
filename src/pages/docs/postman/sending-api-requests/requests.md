@@ -34,7 +34,7 @@ warning: false
 
 ---
 
-You can send requests in Postman to connect to APIs you are working with. Your requests can retrieve, add, and update data. Whether you are building or testing your own API, or integrating with a third-party API, you can try out your requests in Postman. Your requests can send parameters, authorization details, and any body data you require.
+You can send requests in Postman to connect to APIs you are working with. Your requests can retrieve, add, delete, and update data. Whether you are building or testing your own API, or integrating with a third-party API, you can try out your requests in Postman. Your requests can send parameters, authorization details, and any body data you require.
 
 > For example, if you're building a client application (e.g. a mobile or web app) for a store, you might send one request to retrieve the list of available products, another request to create a new order (including the selected product details), and a different request to log a customer in to their account.
 
