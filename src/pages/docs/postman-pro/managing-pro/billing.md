@@ -53,7 +53,7 @@ Postman's [billing dashboard](http://go.postman.co/billing) provides a number of
 
 ### Viewing account history
 
-In your [billing dashboard](http://go.postman.co/billing), select **Account History**. This page allows you to quickly note your team's history billing activity, as well as the day and time actions took place. 
+In your [billing dashboard](http://go.postman.co/billing), select **Account History**. This page allows you to quickly note your team's history billing activity, as well as the day and time actions took place.
 
 [![account history](https://assets.postman.com/postman-docs/account-history.jpg)](https://assets.postman.com/postman-docs/account-history.jpg)
 
@@ -75,25 +75,25 @@ In your [billing dashboard](http://go.postman.co/billing), select **Overages**. 
 
 > If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, check out [pre-paid monitoring blocks](/docs/postman/monitors/pricing-monitors/#request-blocks-for-pro-and-enterprise-teams).
 
-## Payments 
+## Payments
 
 Postman offers various payment options dependent on plan type. Postman Pro is card-only, while Postman Enterprise can be purchased via card or invoice.
 
 ### Managing cards
 
-In order to add, remove, or set a default card, select **Payment Methods** in your [billing dashboard](http://go.postman.co/billing). 
+In order to add, remove, or set a default card, select **Payment Methods** in your [billing dashboard](http://go.postman.co/billing).
 
-To add, click **Add A New Card**. 
+To add, click **Add A New Card**.
 
-To remove, hover over the card in question and select the trash can icon. 
+To remove, hover over the card in question and select the trash can icon.
 
-To set a card as default, hover over the card and **Set as Default**. 
+To set a card as default, hover over the card and **Set as Default**.
 
 [![payment methods](https://assets.postman.com/postman-docs/payment-methods.jpg)](https://assets.postman.com/postman-docs/payment-methods.jpg)
 
 ### Adding custom information to invoices
 
-To add or edit the information on an invoice, navigate to your [billing dashboard](http://go.postman.co/billing) and select **Invoices** > **Edit Invoice Details** > **Billing Details**. 
+To add or edit the information on an invoice, navigate to your [billing dashboard](http://go.postman.co/billing) and select **Invoices** > **Edit Invoice Details** > **Billing Details**.
 
 Add or update your billing email, company name, address, and (if applicable) VAT ID. **Save Changes**, then go back to [invoices](http://go.postman.co/billing/invoices) > **Get Invoice** to view your automatically updated copy.
 
