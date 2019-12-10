@@ -58,6 +58,10 @@ In the 'Requests' tab, set the Source toggle to 'Interceptor'. Once the connecti
 
 [![capturing requests](https://static.getpostman.com/postman-docs/interceptor-request-capture-app.png)](https://static.getpostman.com/postman-docs/interceptor-request-capture-app.png)
 
+
+#### Security
+Communication between the Interceptor extension and Postman is encrypted. For additional security, you can change the default encryption key. In the Postman app, head to View -> Developer Tools -> Show DevTools (Current View) -> Console, and enter `pm.interceptorBridge.setKey("<your key here>")`. For the Interceptor extension, right click on the Interceptor icon in your browser, and head to `Inspect Pop-up` > Console. Enter the same command - `pm.interceptorBridge.setKey("<your key here>")` here. With this, all communication through this channel will be encrypted using your key.
+
 #### Interceptor<>Postman Connectivity Reference
 
 How the communication is set up:
@@ -71,8 +75,8 @@ How the communication is set up:
     1. **(MacOS only) Install NodeJS** - If Postman detects that you don't have the NodeJS binary available, you'll be prompted to install Node as well. Postman will download the latest stable version of Node from [https://nodejs.org/](https://nodejs.org/). Once Node is installed, installation will proceed with:
     2. **(Windows only)** **Add a registry key** - A `com.postman.postmanapp` key is added to `HKCU\Software\Google\Chrome\NativeMessagingHosts\`. The key points to the location of a JSON file (the manifest).
     3. **Add a manifest file** - this is a JSON file (whose structure is defined in [https://developer.chrome.com/extensions/nativeMessaging](https://developer.chrome.com/extensions/nativeMessaging)) that gives Chrome the absolute path of the executable that the Interceptor extension can talk to. This file will be installed at:
-        - *For MacOS*:  `/Users/<username>/Library/Application Support/Google/Chrome/NativeMessagingHosts`
-        - *For Windows*: `%USERPROFILE%/.postman/InterceptorBridge/com.postman.postmanapp.json`
+        - *For MacOS*:  `/Users/<username>/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.postman.postmanapp.json`
+        - *For Windows*: `%USERPROFILE%\.postman\InterceptorBridge\com.postman.postmanapp.json`
         - *For Linux*: `~/.config/google-chrome/NativeMessagingHosts/com.postman.postmanapp.json`
     4. **Add an executable** - this is started by Chrome as a new process whenever the Interceptor extension requires. For Windows and Linux, this is a self-contained binary, about 40MB in size. For MacOS, this is a 33KB JavaScript file. This file must be executable. This file/executable will be located at:
         - *For MacOS*: `$HOME/.postman/InterceptorBridge`
