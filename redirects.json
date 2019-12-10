@@ -96,14 +96,14 @@
     "to": "/docs/postman-for-publishers/run-in-postman/security/"
   },
   {
-<<<<<<< HEAD
     "from": "/docs/postman-pro/managing-pro/managing-your-billing/",
     "to": "/docs/postman-pro/managing-pro/billing/"
   },
   {
     "from": "/docs/postman-pro/managing-pro/billing-and-pricing/",
     "to": "/docs/postman-pro/managing-pro/billing/"
-=======
+  },
+  {
     "from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
     "to": "/docs/postman/variables-and-environments/variables/"
   },
@@ -130,6 +130,5 @@
   {
     "from": "/docs/postman/environments-and-globals/manage-environments/",
     "to": "/docs/postman/variables-and-environments/variables/#environments-in-postman"
->>>>>>> 3c0085d3e0476aa208e02a891cab193341686d8b
   }
 ]
