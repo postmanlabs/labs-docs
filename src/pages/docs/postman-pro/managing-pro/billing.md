@@ -135,4 +135,4 @@ To purchase monitoring blocks, go to [monitoring usage details](http://go.postma
 
 To find information on team management, see [Managing your team](/docs/postman-pro/managing-pro/managing-your-team/).
 
-Learn more about the bill team role, see [Roles and Permissions](/docs/postman-pro/managing-pro/roles-and-permissions/).
+Learn more about the billing team role, see [Roles and Permissions](/docs/postman-pro/managing-pro/roles-and-permissions/).
