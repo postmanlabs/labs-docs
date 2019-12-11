@@ -80,6 +80,10 @@
     "to": "/docs/postman/api-documentation/authoring-your-documentation/"
   },
   {
+    "from": "/docs/postman/api_documentation/intro_to_api_documentation/",
+    "to": "/docs/postman/api-documentation/documenting-your-api"
+  },
+  {
     "from": "/docs/postman/api-documentation/publishing-public-docs/",
     "to": "/docs/postman/api-documentation/publishing-your-docs/"
   },
