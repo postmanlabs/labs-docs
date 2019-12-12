@@ -43,7 +43,7 @@ Postman's [web dashboard](https://app.getpostman.com/dashboard/teams) provides a
 
 ## Member roles
 
-Everyone in your team is a member. Each member has certain roles, which allow them to perform various actions. To learn more, visit [Roles and Permissions](http://localhost:8000/docs/postman-pro/managing-pro/roles-and-permissions/).
+Everyone in your team is a member. Each member has certain roles, which allow them to perform various actions. To learn more, visit [Roles and Permissions](/docs/postman-pro/managing-pro/roles-and-permissions/).
 
 ### Managing roles
 
