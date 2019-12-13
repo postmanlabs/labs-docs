@@ -42,7 +42,9 @@ Postman Monitoring helps you to stay up to date on the health and performance of
 
 * [What is monitoring?](/docs/postman/monitors/intro-monitors/#what-is-monitoring)
 
-* [Pricing]()
+* [Pricing](/docs/postman/monitors/intro-monitors/#pricing)
+
+* [Monitor usage](/docs/postman/monitors/intro-monitors/#monitor-usage)
 
 * [Running collections in a monitor](/docs/postman/monitors/intro-monitors/#running-collections-in-a-monitor)
 
@@ -83,6 +85,16 @@ When a free Postman account reaches their usage limit for monitoring, they'll be
 Paid Postman accounts have the option to cap their monthly monitoring usage, but will automatically have pay-as-you-go pricing at a rate of $0.75/1,000 calls beyond their monthly limit. Paid teams can also opt for block pricing, which is $20 per pack of 50,000 calls, per month.
 
 Usage is calculated by number of requests made. For example, if your collection has 10 requests, but utilizes [postman.setNextRequest()](/docs/postman/collection-runs/building-workflows/) to skip several of them or run others multiple times, you'll be billed according to the total number of requests made to the server. 
+
+## Monitor usage 
+
+Your [monitor usage dashboard](https://go.postman.co/usage/monitors), also available by navigating to your general [usage dashboard](https://go.postman.co/usage) > **View detailed monitoring usage**, provides a high-level overview of your team's monitoring usage.
+
+This page allows you to view your team's current billing period, how many requests have been made, and which monitors have run. It also identifies monitors by name, collection, environment, and creator, and provides a breakdown of requests made by each monitor.
+
+[![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details.jpg)
+
+> If you are concerned about or are surprised by overages, this is the place to go to find all of your team's active monitors in one place, plus information to help you and your team make informed decisions on items like monitoring frequency.
 
 ## Running collections in a monitor
 
@@ -131,7 +143,7 @@ Each workspace has its own monitor dashboard, which you can navigate to by visit
 
 This dashboard provides a high-level overview of the monitors you have available in your workspace: their status, success rate, and average response time.
 
-[![monitoring dashboard](https://assets.postman.com/postman-docs/monitor-dashboard.jpg)](https://assets.postman.com/postman-docs/monitor-dashboard.jpg)
+[![monitoring dashboard](https://assets.postman.com/postman-docs/monitor-dashboard1.jpg)](https://assets.postman.com/postman-docs/monitor-dashboard.jpg)
 
 Hovering over a monitor in the list allows you to run it outside of its predetermined schedule. It also allows you via the **...** to pause, resume, edit, and delete monitors.
 
