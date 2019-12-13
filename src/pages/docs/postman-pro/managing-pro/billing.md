@@ -9,43 +9,45 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Case Studies"
   - type: link
-    name: "[not sure what to put here]"
-    url: ""
+    name: "Movember's confidence to upgrade"
+    url: "https://www.getpostman.com/case-studies/movember.pdf"
+  - type: subtitle
+    name: "Videos"
   - type: link
-    name: ""
-    url: ""
+    name: "Atlassian's journey to Postman Enterprise"
+    url: "https://www.youtube.com/watch?v=wYBZrdukack"
 
 ---
 
-Postman offers a number of built-in functions to ensure a simplified, self-serve billing process.
+Postman offers a number of built-in functions to ensure a streamlined, self-serve billing process.
 
 ## Contents
 
-* [Billing dashboard](/docs/postman-pro/managing-pro/billing#billing-dashboard)
+* [Billing dashboard](#billing-dashboard)
 
-    * [Viewing account history](/docs/postman-pro/managing-pro/billing#viewing-account-history)
+    * [Viewing account history](#viewing-account-history)
 
-    * [Viewing past invoices](/docs/postman-pro/managing-pro/billing#viewing-past-invoices)
+    * [Viewing past invoices](#viewing-past-invoices)
 
-    * [Managing overages](/docs/postman-pro/managing-pro/billing#managing-overages)
+    * [Managing overages](#managing-overages)
 
-* [Payments](/docs/postman-pro/managing-pro/billing#payments)
+* [Payments](#payments)
 
-    * [Managing cards](/docs/postman-pro/managing-pro/billing#managing-cards)
+    * [Managing cards](#managing-cards)
 
-    * [Adding custom information to invoices](/docs/postman-pro/managing-pro/billing#adding-custom-information-to-invoices)
+    * [Adding custom information to invoices](#adding-custom-information-to-invoices)
 
-    * [Failed payments](/docs/postman-pro/managing-pro/billing#failed-payments)
+    * [Failed payments](#failed-payments)
 
-* [Team and plan changes](/docs/postman-pro/managing-pro/billing#team-and-plan-changes)
+* [Team and plan changes](#team-and-plan-changes)
 
-    * [Changing billing cycle](/docs/postman-pro/managing-pro/billing#changing-billing-cycle)
+    * [Changing billing cycle](#changing-billing-cycle)
 
-    * [Purchasing monitoring blocks](/docs/postman-pro/managing-pro/billing#purchasing-monitoring-blocks)
+    * [Purchasing monitoring blocks](#purchasing-monitoring-blocks)
 
-* [Next steps](/docs/postman-pro/managing-pro/billing#next-steps)
+* [Next steps](#next-steps)
 
 ## Billing dashboard
 
@@ -53,11 +55,11 @@ Postman's [billing dashboard](http://go.postman.co/billing) provides a number of
 
 ### Viewing account history
 
-In your [billing dashboard](http://go.postman.co/billing), select **Account History**. This page allows you to quickly note your team's history billing activity, as well as the day and time actions took place.
+In your [billing dashboard](http://go.postman.co/billing), select **Account History**. This page allows you to quickly note your team's historical billing activity, as well as the day and time actions took place.
 
 [![account history](https://assets.postman.com/postman-docs/account-history.jpg)](https://assets.postman.com/postman-docs/account-history.jpg)
 
-Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order for easy reference.  
+Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order for your reference.  
 
 ### Viewing past invoices
 
@@ -65,7 +67,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Invoices**. 
 
 [![invoices](https://assets.postman.com/postman-docs/invoices.jpg)](https://assets.postman.com/postman-docs/invoices.jpg)
 
-To add or edit the information on an invoice, see [adding custom information to invoices](/docs/postman-pro/managing-pro/billing#adding-custom-information-to-invoices).
+To add or edit the information on an invoice, see [adding custom information to invoices](#adding-custom-information-to-invoices).
 
 ### Managing overages
 
@@ -101,11 +103,11 @@ Add or update your billing email, company name, address, and (if applicable) VAT
 
 ### Failed payments
 
-If you have a card on file with us, our system will automatically attempt 3 times to charge it. If this is unsuccessful, team members will [billing privileges](/docs/postman-pro/managing-pro/managing-your-team/#managing-roles) will be notified via email.
+If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with [billing privileges](/docs/postman-pro/managing-pro/managing-your-team/#managing-roles) will be notified via email.
 
 [![failed payment email](https://assets.postman.com/postman-docs/failed-payment-email.jpg)](https://assets.postman.com/postman-docs/failed-payment-email.jpg)
 
-If payment is unsuccessful, we offer a grace period of 10 days to avoid service disruption. For invoice-based teams, this means 10 days following the due date listed on the invoice.
+If payment is unsuccessful, Postman offers a grace period of 10 days to avoid service disruption. For invoice-based teams, this means 10 days following the due date listed on the invoice.
 
 > All team members are notified in the event of non-payment and subsequent service deactivation in the Postman app.
 
@@ -119,13 +121,13 @@ Monthly teams are able to switch to an annual plan at any time by navigating to 
 
 [![change plan](https://assets.postman.com/postman-docs/change-plan.jpg)](https://assets.postman.com/postman-docs/change-plan.jpg)
 
-Annual teams are able to switch to a monthly plan at the end of their current billing cycle. The number of days left in your current billing cycle is displayed under "Upcoming Invoice."
+Annual teams are able to switch to a monthly plan at the end of their current billing cycle. The number of days left in your current billing cycle is displayed under **Upcoming Invoice**.
 
 ### Purchasing monitoring blocks
 
 Postman Enterprise teams are allotted 100,000 monitoring calls per month at no extra charge. Postman Pro teams are allotted 10,000 monitoring requests.
 
-Unless monitoring overages are [disabled](/docs/postman-pro/managing-pro/billing#managing-overages), you will be charged on a pay-as-you-go basis. See "Additional monitoring calls" on our [pricing page](https://www.getpostman.com/pricing).
+Unless monitoring overages are [disabled](/docs/postman-pro/managing-pro/billing#managing-overages), you will be charged on a pay-as-you-go basis. See **Additional monitoring calls** on the [pricing page](https://www.getpostman.com/pricing).
 
 To purchase monitoring blocks, go to [monitoring usage details](http://go.postman.co/usage/monitors) > **Set monitoring block count**.
 
@@ -135,4 +137,4 @@ To purchase monitoring blocks, go to [monitoring usage details](http://go.postma
 
 To find information on team management, see [Managing your team](/docs/postman-pro/managing-pro/managing-your-team/).
 
-Learn more about the billing team role, see [Roles and Permissions](/docs/postman-pro/managing-pro/roles-and-permissions/).
+To learn more about the billing team role, see [Roles and Permissions](/docs/postman-pro/managing-pro/roles-and-permissions/).
