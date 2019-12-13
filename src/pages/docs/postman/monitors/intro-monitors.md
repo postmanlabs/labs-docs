@@ -48,21 +48,21 @@ Postman Monitoring helps you to stay up to date on the health and performance of
 
 * [Running collections in a monitor](/docs/postman/monitors/intro-monitors/#running-collections-in-a-monitor)
 
-  * [Variables](/docs/postman/monitors/intro-monitors/#variables)
+    * [Variables](/docs/postman/monitors/intro-monitors/#variables)
 
-  * [Console output](/docs/postman/monitors/intro-monitors/#console-output)
+    * [Console output](/docs/postman/monitors/intro-monitors/#console-output)
 
-  * [Time limits](/docs/postman/monitors/intro-monitors/#time-limits)
+    * [Time limits](/docs/postman/monitors/intro-monitors/#time-limits)
 
-  * [File uploads](/docs/postman/monitors/intro-monitors/#file-uploads)
+    * [File uploads](/docs/postman/monitors/intro-monitors/#file-uploads)
 
-  * [Data files](/docs/postman/monitors/intro-monitors/#data-files)
+    * [Data files](/docs/postman/monitors/intro-monitors/#data-files)
 
-  * [Multiple iterations](/docs/postman/monitors/intro-monitors/#multiple-iterations)
+    * [Multiple iterations](/docs/postman/monitors/intro-monitors/#multiple-iterations)
 
-  * [Multi-region monitoring](/docs/postman/monitors/intro-monitors/#multi-region-monitoring)
+    * [Multi-region monitoring](/docs/postman/monitors/intro-monitors/#multi-region-monitoring)
 
-  * [Accessible APIs](/docs/postman/monitors/intro-monitors/#accessible-apis)
+    * [Accessible APIs](/docs/postman/monitors/intro-monitors/#accessible-apis)
 
 * [Monitor dashboard](/docs/postman/monitors/intro-monitors/#monitor-dashboard)
 
@@ -78,15 +78,15 @@ The value of monitors lies in your [test scripts](/docs/postman/scripts/test-scr
 
 ## Pricing
 
-All plans, paid and free, are able to use Postman's monitoring service. To find an account type's usage limits, refer to your [usage overview](https://go.pstmn.io/postman-account-limits) or our [pricing](https://www.getpostman.com/pricing). 
+All plans, paid and free, are able to use Postman's monitoring service. To find an account type's usage limits, refer to your [usage overview](https://go.pstmn.io/postman-account-limits) or our [pricing](https://www.getpostman.com/pricing).
 
-When a free Postman account reaches their usage limit for monitoring, they'll be automatically capped for the remainder of your monthly cycle. 
+When a free Postman account reaches their usage limit for monitoring, they'll be automatically capped for the remainder of your monthly cycle.
 
 Paid Postman accounts have the option to cap their monthly monitoring usage, but will automatically have pay-as-you-go pricing at a rate of $0.75/1,000 calls beyond their monthly limit. Paid teams can also opt for block pricing, which is $20 per pack of 50,000 calls, per month.
 
-Usage is calculated by number of requests made. For example, if your collection has 10 requests, but utilizes [postman.setNextRequest()](/docs/postman/collection-runs/building-workflows/) to skip several of them or run others multiple times, you'll be billed according to the total number of requests made to the server. 
+Usage is calculated by number of requests made. For example, if your collection has 10 requests, but utilizes [postman.setNextRequest()](/docs/postman/collection-runs/building-workflows/) to skip several of them or run others multiple times, you'll be billed according to the total number of requests made to the server.
 
-## Monitor usage 
+## Monitor usage
 
 Your [monitor usage dashboard](https://go.postman.co/usage/monitors), also available by navigating to your general [usage dashboard](https://go.postman.co/usage) > **View detailed monitoring usage**, provides a high-level overview of your team's monitoring usage.
 
@@ -104,7 +104,7 @@ There are a few differences between running collections in a Postman monitor and
 
 * You cannot import existing global variables to a monitor, but you can create new ones during a run.
 * Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values following, unlike they would in the collection runner with [persist variables](/docs/postman/collection-runs/starting-a-collection-run/#persist-variables) enabled.
-  * If you require persistent variables, we recommend adding a call to update your environment using the [Postman API](/docs/postman/postman-api/intro-api/).
+    * If you require persistent variables, we recommend adding a call to update your environment using the [Postman API](/docs/postman/postman-api/intro-api/).
 
 ### Console output
 
@@ -139,7 +139,7 @@ There are a few differences between running collections in a Postman monitor and
 
 ## Monitor dashboard
 
-Each workspace has its own monitor dashboard, which you can navigate to by visiting your [web dashboard](https://go.postman.co/), selecting a workspace > **Monitors**. 
+Each workspace has its own monitor dashboard, which you can navigate to by visiting your [web dashboard](https://go.postman.co/), selecting a workspace > **Monitors**.
 
 This dashboard provides a high-level overview of the monitors you have available in your workspace: their status, success rate, and average response time.
 
