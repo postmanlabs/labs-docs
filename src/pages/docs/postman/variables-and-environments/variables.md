@@ -220,7 +220,7 @@ pm.collectionVariables.set("variable_key", "variable_value");
 Use [pm.environment](/docs/postman/scripts/postman-sandbox-api-reference/#pmenvironment) to define an environment variable (in the currently selected environment):
 
 ```js
-pm.environment.set("variable_key", "variable_key");
+pm.environment.set("variable_key", "variable_value");
 ```
 
 Check out the [Sandbox Reference](/docs/postman/scripts/postman-sandbox-api-reference/) for more on scripting with variables.
