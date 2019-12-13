@@ -54,7 +54,7 @@ warning: false
 
 ---
 
-Variables allow you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests—and if you need to update the value, you only have to change it in one place. Using variables increases your ability to work efficiently and minimizes the likelihood or error.
+Variables allow you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests—and if you need to update the value, you only have to change it in one place. Using variables increases your ability to work efficiently and minimizes the likelihood of error.
 
 ## Variables quick start
 
@@ -220,7 +220,7 @@ pm.collectionVariables.set("variable_key", "variable_value");
 Use [pm.environment](/docs/postman/scripts/postman-sandbox-api-reference/#pmenvironment) to define an environment variable (in the currently selected environment):
 
 ```js
-pm.environment.set("variable_key", "variable_key");
+pm.environment.set("variable_key", "variable_value");
 ```
 
 Check out the [Sandbox Reference](/docs/postman/scripts/postman-sandbox-api-reference/) for more on scripting with variables.
