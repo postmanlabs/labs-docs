@@ -66,6 +66,8 @@ You will see lots of sample templates and team docs to inspire your own.
 
 [![Imgur API docs](https://assets.postman.com/postman-docs/59189801.png)](https://assets.postman.com/postman-docs/59189801.png)
 
+> Your published docs can target specific [versions](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs) of your collections.
+
 ## Next steps
 
 * If you are publishing docs for an API via your team, share them by [adding to the API Network](/docs/postman-for-publishers/api-network/add-api-network).
