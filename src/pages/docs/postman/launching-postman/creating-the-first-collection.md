@@ -28,7 +28,7 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Sending the first request"
+    name: "Sending your first request"
     url: "https://learning.getpostman.com/docs/postman/launching_postman/sending_the_first_request"
 
 warning: false

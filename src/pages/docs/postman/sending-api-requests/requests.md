@@ -42,7 +42,7 @@ When you send a request, Postman will display the response received from the API
 
 ![Request Sent](https://assets.postman.com/postman-docs/request-sent.jpg)
 
-If you have never sent a request before, check out [sending the first request](/docs/postman/launching-postman/sending-the-first-request/) before you continue.
+If you have never sent a request before, check out [sending your first request](/docs/postman/launching-postman/sending-the-first-request/) before you continue.
 
 ## Contents
 
