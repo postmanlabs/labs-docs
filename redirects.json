@@ -32,10 +32,6 @@
     "to": "/docs/postman/workspaces/changelog-and-restoring-collections/"
   },
   {
-    "from": "/docs/postman_pro/managing_postman_pro/managing_your_team",
-    "to": "/docs/postman-pro/managing-pro/managing-your-team/"
-  },
-  {
     "from": "/docs/postman_pro/managing_postman_pro/managing_your_team/",
     "to": "/docs/postman-pro/managing-pro/managing-your-team/"
   },
@@ -198,5 +194,21 @@
   {
     "from": "/docs/postman/environments_and_globals/manage_environments/",
     "to": "/docs/postman/variables-and-environments/variables/#environments-in-postman"
+  },
+  {
+    "from": "/docs/postman-pro/managing-pro/managing-your-billing/",
+    "to": "/docs/postman-pro/managing-pro/billing/"
+  },
+  {
+    "from": "/docs/postman-pro/managing-pro/billing-and-pricing/",
+    "to": "/docs/postman-pro/managing-pro/billing/"
+  },
+  {
+    "from": "/docs/postman_pro/managing_pro/managing_your_billing/",
+    "to": "/docs/postman-pro/managing-pro/billing/"
+  },
+  {
+    "from": "/docs/postman_pro/managing_pro/billing_and_pricing/",
+    "to": "/docs/postman-pro/managing-pro/billing/"
   }
 ]

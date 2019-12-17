@@ -49,7 +49,7 @@ To set the monitoring block count:
 
 When you click the “Account History” link, you can see a chronological list of all your billing activity.
 
-[![monitor block count](https://assets.postman.com/postman-docs/account-history+.png)](https://assets.postman.com/postman-docs/account-history+.png)
+[![monitor block count](https://assets.postman.com/postman-docs/account-history.jpg)](https://assets.postman.com/postman-docs/account-history.jpg)
 
 ### Payment Methods
 
