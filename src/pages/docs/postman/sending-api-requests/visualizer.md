@@ -153,7 +153,7 @@ You can access visualizers from the [Postman API](/docs/postman/postman-api/intr
 
 * `layout` (required): The first parameter is a [Handlebars](https://handlebarsjs.com/) HTML template string.
 * `data` (optional): The second parameter is data that you can bind to the template. The properties of this object can be accessed in the template.
-* `options` (optional): The third argument is an `options` object for [`Handlebars.compile()`](https://handlebarsjs.com/reference.html). You can use this to control how Handlebars compiles the template.
+* `options` (optional): The third argument is an `options` object for [`Handlebars.compile()`](https://handlebarsjs.com/api-reference/). You can use this to control how Handlebars compiles the template.
 
 Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for the visualizer. You will see this rendered HTML page in the __Visualize__ tab. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template contains.
 

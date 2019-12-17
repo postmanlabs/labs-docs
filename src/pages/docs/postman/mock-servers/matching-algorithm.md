@@ -89,6 +89,8 @@ Keeping these various configurable elements in mind, let’s take a look at the 
 
     This will pass the value captured from the wildcard segment with the same variable name into the response.
 
+    > Wildcards in response bodies are not part of the matching algorithm.
+
 5. **Response code**
 
    If the `x-mock-response-code` header is explicitly provided, filter out all examples that do not have a matching response code.
