@@ -48,6 +48,7 @@
     "react-test-renderer": "^16.9.0",
     "react-typography": "^0.16.19",
     "s3-deploy": "^1.4.0",
+    "sendmail": "^1.6.1",
     "typography": "^0.16.19",
     "uuid": "^3.3.3"
   },

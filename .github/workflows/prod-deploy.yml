@@ -24,3 +24,5 @@ jobs:
       run: |
         npm install
         npm run build:prod && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket learning.getpostman.com --deleteRemoved --distId $DIST_ID --invalidate '/*'
+    - name: h2 changes email
+      run: bash logFile.sh
