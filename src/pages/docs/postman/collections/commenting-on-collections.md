@@ -9,6 +9,7 @@ Postman provides a quick way to collaborate with your team members by allowing y
 This topic describes the following sections:
 
 * [Posting comments](#posting-comments)
+* [Reading comments](#reading-comments)
 * [Editing comments](#editing-comments)
 * [Deleting comments](#deleting-comments)
 * [Tagging members in comments](#tagging-members-in-comments)
@@ -37,6 +38,30 @@ To post a comment, select the corresponding request and click **Comments**. The 
 [![post comments](https://assets.postman.com/postman-docs/comment-general.gif)](https://assets.postman.com/postman-docs/comment-general.gif)
 
 **Note:** If someone tags you in a comment on a private collection that you don’t have access for, Postman sends a notification to you. However, you can’t read the comment until the collection or the request is shared with you.  
+
+## Reading comments
+
+You can access the comments left on requests and collections by your teammates with the Postman app or the Postman dashboard.
+
+### Reading comments on the Postman app
+
+First, navigate to the request for which you want to read the comments by navigating to it using the left sidebar. Once you have opened on the correct request click on the **Comments** button (circled in red in the picture below) at the top-right corner of the request to see the existing comments.
+
+**Note:** The comment button displays the number of existing comments between brackets.
+
+[![read comments app](https://user-images.githubusercontent.com/5029719/70252300-1dffb380-1779-11ea-8317-3b9212e589f3.png)](https://user-images.githubusercontent.com/5029719/70252300-1dffb380-1779-11ea-8317-3b9212e589f3.png)
+
+### Reading comments on the Postman dashboard
+
+You can read the comments that have been left on a collection through the [Postman Dashboard](https://app.getpostman.com).
+
+To read the comments on a collection, navigate to the `Collections` tab at the top of the page, select the collection you want to see the comments of and then click the **Comments** button on the right of the collection title as shown in the animated picture below.
+
+[![read comment collection dashboard](https://user-images.githubusercontent.com/5029719/71084214-b3913f00-218c-11ea-8796-cab07431775f.gif)](https://user-images.githubusercontent.com/5029719/71084214-b3913f00-218c-11ea-8796-cab07431775f.gif)
+
+To read the comments on a specific request, navigate to the `Collections` tab at the top of the page, select the collection to which the request belongs, click on that request and then click on the **Comments** button on the right of the request as shown in the animated picture below.
+
+[![read comment request dashboard](https://user-images.githubusercontent.com/5029719/71084799-f56eb500-218d-11ea-9850-8f2bb4701cc7.gif)](https://user-images.githubusercontent.com/5029719/71084799-f56eb500-218d-11ea-9850-8f2bb4701cc7.gif)
 
 ## Editing comments
 
