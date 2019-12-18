@@ -99,4 +99,4 @@ Clicking the title of a template will open its listing in the web browser.
 
 ## Next steps
 
-Check out some [tips for making the most of your network listing](/docs/postman-for-publishers/api-network/template-guidelines/).
+Check out some [tips for making the most of your listing](/docs/postman-for-publishers/postman-templates/template-guidelines/).
