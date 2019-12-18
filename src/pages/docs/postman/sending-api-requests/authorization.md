@@ -86,7 +86,7 @@ Your auth data will appear in the relevant parts of the request, for example app
 
 ![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-preview.jpg)
 
-Your requests can use environment, collection, and global [variables](/docs/postman/environments-and-globals/variables/). Postman does not save header data or query parameters to avoid exposing sensitive data such as API keys.
+Your requests can use environment, collection, and global [variables](/docs/postman/variables-and-environments/variables/). Postman does not save header data or query parameters to avoid exposing sensitive data such as API keys.
 
 > You can inspect a raw dump of the entire request including auth data in the Postman console after you send it.
 

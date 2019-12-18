@@ -18,7 +18,7 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Sending the first request"
+    name: "Sending your first request"
     url: "/docs/postman/launching-postman/sending-the-first-request"
 
 warning: false
@@ -90,7 +90,7 @@ After creating the collection, you can save more requests to the collection and 
 
 ## Create an environment
 
-Under **BUILDING BLOCKS**, you can create an [environment](/docs/postman/environments-and-globals/manage-environments/). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
+Under **BUILDING BLOCKS**, you can create an [environment](/docs/postman/variables-and-environments/variables/#environments-in-postman). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
 
 1. In the header toolbar, click the **New** button.
 1. In the **Create New** tab, click "Environment".

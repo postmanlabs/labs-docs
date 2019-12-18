@@ -10,7 +10,7 @@ contextual_links:
     url: "/docs/postman/sending-api-requests/requests/"
   - type: link
     name: "Variables"
-    url: "/docs/postman/environments-and-globals/variables/"
+    url: "/docs/postman/variables-and-environments/variables/"
   - type: section
     name: "Next Steps"
   - type: link

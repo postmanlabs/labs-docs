@@ -24,3 +24,4 @@ jobs:
       run: |
         npm install
         npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket learning.getpostman-beta.com --deleteRemoved --distId $DIST_ID --invalidate '/*'
+    
