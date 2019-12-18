@@ -9,52 +9,48 @@ contextual_links:
     name: "Requests"
     url: "/docs/postman/sending-api-requests/requests/"
   - type: link
-    name: "Variables"
-    url: "/docs/postman/variables-and-environments/variables/"
+    name: "Responses"
+    url:  "/docs/postman/sending-api-requests/responses/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Envestnet | Yodlee"
-    url: "https://www.getpostman.com/case-studies/envestnet-yodlee-case-study.pdf?_ga=2.191703276.754547870.1571851340-1454169035.1570491567"
-  - type: link
-    name: "Clarifai"
-    url: "https://www.getpostman.com/case-studies/Clarifai.pdf?_ga=2.191703276.754547870.1571851340-1454169035.1570491567"
-  - type: link
-    name: "Sikka"
-    url: "https://www.getpostman.com/case-studies/Sikka.pdf?_ga=2.191703276.754547870.1571851340-1454169035.1570491567"
-  - type: subtitle
     name: "Videos"
   - type: link
-    name: "How to add tests to a Postman Collection"
-    url: "https://www.youtube.com/watch?v=ElJBJIeJ90o"
+    name: "Intro to Postman: Writing API tests"
+    url: "https://www.youtube.com/watch?v=vuVhF257uGw"
   - type: link
-    name: "New to Postman Part 3: writing a test"
-    url: "https://www.youtube.com/watch?v=6Cp4Ez5dwbM"
+    name: "Intro to Postman: Advanced API tests"
+    url: "https://www.youtube.com/watch?v=dDlsQrZmEmo"
   - type: link
-    name: "New to Postman Part 5: chaining requests"
-    url: "https://www.youtube.com/watch?v=shYn3Ys3ygE"
+    name: "New to Postman: Writing a test"
+    url:  "https://www.youtube.com/watch?v=6Cp4Ez5dwbM"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
+    name: "Writing tests in Postman"
+    url:  "https://blog.getpostman.com/2017/10/25/writing-tests-in-postman/"
+  - type: link
     name: "Continuous API Testing with Postman"
     url: "https://blog.getpostman.com/2019/06/07/continuous-api-testing-with-postman/?_ga=2.190983660.754547870.1571851340-1454169035.1570491567"
-  - type: link
-    name: "Building and testing APIs with LoopBack and Postman"
-    url: "https://blog.getpostman.com/2018/01/12/building-and-testing-apis-with-loopback-and-postman/?_ga=2.190983660.754547870.1571851340-1454169035.1570491567"
-  - type: link
-    name: "Microsoft Education uses Postman Pro for integration testing"
-    url: "https://blog.getpostman.com/2017/12/12/microsoft-education-uses-postman-pro-for-integration-testing/?_ga=2.190983660.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Command line integration with Newman"
-    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+    name: "Test Examples"
+    url: "/docs/postman/scripts/test-examples/"
+  - type: link
+    name: "Variables"
+    url: "/docs/postman/variables-and-environments/variables/"
+  - type: link
+    name: "Postman Sandbox API reference"
+    url:  "/docs/postman/scripts/postman-sandbox-api-reference/"
 
 warning: false
 
 ---
+
+You can write test scripts for your Postman API requests in JavaScript.
+
+![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab.jpg)
 
 With Postman you can write and run tests for each request using the JavaScript language.
 
