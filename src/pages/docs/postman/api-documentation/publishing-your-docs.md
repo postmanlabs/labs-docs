@@ -86,9 +86,9 @@ You can customize the style of your public docs by adding a team name and logo v
 
 ## Sharing your public docs
 
-To share your API documentation with your users and the wider Postman community, select the __Collection discovery__ checkbox.
+To share your API documentation with your users and the wider Postman community, enable __Collection discovery__ by toggling the switch.
 
-![Collection Discovery](https://assets.postman.com/postman-docs/collection-discovery.jpg)
+![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
 * Choose __Add to API Network__ to [feature your docs in the Postman publisher network](/docs/postman-for-publishers/api-network/add-api-network/).
 * Choose __Add to Postman Templates__ to [share your collection with the Postman community](/docs/postman-for-publishers/postman-templates/add-templates/) and make it discoverable via the app.

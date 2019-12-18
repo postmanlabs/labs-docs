@@ -31,9 +31,9 @@ By publishing your collection docs to the Postman templates, you're sharing both
 
 ## Adding your templates
 
-To add to the shared Postman templates, you first need to [document and publish a collection](/docs/postman/api-documentation/documenting-your-api/). You can share your collection to the Postman templates during the docs [publishing process](/docs/postman/api-documentation/publishing-your-docs/), or later. During publication, check __Collection discovery__ and select __Add to Postman Templates__.
+To add to the shared Postman templates, you first need to [document and publish a collection](/docs/postman/api-documentation/documenting-your-api/). You can share your collection to the Postman templates during the docs [publishing process](/docs/postman/api-documentation/publishing-your-docs/), or later. During publication, enable __Collection discovery__ and select __Add to Postman Templates__.
 
-![Collection Discovery](https://assets.postman.com/postman-docs/collection-discovery.jpg)
+![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
 If your collection documentation is already published, you can make it discoverable by editing the published docs.
 

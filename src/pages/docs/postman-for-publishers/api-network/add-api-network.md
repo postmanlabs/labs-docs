@@ -29,9 +29,9 @@ Your docs can convey detailed guidance on how to make requests to your API endpo
 
 ## Adding your API
 
-To add an API to the network, you first need to [document and publish a collection](/docs/postman/api-documentation/documenting-your-api/). You can share your docs to the API Network during the [publishing process](/docs/postman/api-documentation/publishing-your-docs/), by checking the __Collection discovery__ checkbox and selecting __Add to API Network__.
+To add an API to the network, you first need to [document and publish a collection](/docs/postman/api-documentation/documenting-your-api/). You can share your docs to the API Network during the [publishing process](/docs/postman/api-documentation/publishing-your-docs/), by enabling __Collection discovery__ and selecting __Add to API Network__.
 
-![Collection Discovery](https://assets.postman.com/postman-docs/collection-discovery-network.jpg)
+![Collection Discovery](https://assets.postman.com/postman-docs/enable-discovery-switch.jpg)
 
 If your collection is already published, you can make it discoverable by opening the published docs, opening the __Published__ drop-down menu, and clicking __Edit Published Documentation__.
 
