@@ -83,6 +83,10 @@ Sometimes you may want to call the attention of a team member when posting a com
 
 [![post comments](https://assets.postman.com/postman-docs/comment-mention.png)](https://assets.postman.com/postman-docs/comment-mention.png)
 
+The user tagged in your comment will get a notification by email and/or in-app as long as they have not disabled these types of notifications. The notifications in-app are shown at the top-right on the bell icon as pictured below. Clicking on the name of the collection will take them straight to the comment.
+
+[![receive comment](https://user-images.githubusercontent.com/5029719/71098559-cb2af080-21a9-11ea-95ae-68b5dbb2eea9.png)](https://user-images.githubusercontent.com/5029719/71098559-cb2af080-21a9-11ea-95ae-68b5dbb2eea9.png)
+
 ## Markdown support
 
 Postman comments support Markdown. You can format the text the way you want in the comments dialog box. For more information on formatting using Markdown refer to [Markdown in API Documentation](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest). The following screen illustrates formatting bold faced and italicized text in the comments dialog box:
