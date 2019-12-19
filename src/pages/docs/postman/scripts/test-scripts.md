@@ -48,7 +48,9 @@ warning: false
 
 ---
 
-You can write test scripts for your Postman API requests in JavaScript.
+You can write test scripts for your Postman API requests in JavaScript. 
+
+To add tests you want to execute after a request runs, add your code in the __Tests__ tab for the request. When the request runs you will see the output in the __Test Results__ tab alongside the response data.
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab.jpg)
 
