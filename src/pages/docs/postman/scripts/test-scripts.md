@@ -51,9 +51,11 @@ warning: false
 
 ---
 
-You can write test scripts for your Postman API requests in JavaScript. Tests allow you to ensure your API is working as expected, to debug issues, and to verify that new developments haven't broken any existing functionality. You can add tests to individual [requests](/docs/postman/sending-api-requests/requests/), [folders](/docs/postman/collections/managing-collections/#adding-folders), and [collections](/docs/postman/collection-runs/intro-to-collection-runs/). Postman includes code snippets you can click to add, then amend to suit your logic if necessary.
+You can write test scripts for your Postman API requests in JavaScript. Tests allow you to ensure that your API is working as expected, to establish that integrations between services are functioning reliably, and to verify that new developments haven't broken any existing functionality. You can also use test code to aid the debugging process when something goes wrong with your API project.
 
 > For example, you might write a test to validate your API's error handling by sending a request with incomplete data.
+
+You can add tests to individual [requests](/docs/postman/sending-api-requests/requests/), [folders](/docs/postman/collections/managing-collections/#adding-folders), and [collections](/docs/postman/collection-runs/intro-to-collection-runs/). Postman includes code snippets you can click to add, then amend to suit your logic if necessary.
 
 To add tests you want to execute after a request runs, enter your code in the __Tests__ tab for the request. When the request runs, you will see the output in the __Test Results__ tab alongside the response data.
 
@@ -134,6 +136,8 @@ You will see a selection of commonly used test code excerpts in __Snippets__ to 
 ## Testing collections and folders
 
 You can add test scripts to a collection, a folder, or a single request within a collection. A test script associated with a collection will run after every request in the collection. A test script associated with a folder will run after every request in the folder. This allows you to reuse commonly executed tests after every request.
+
+> Adding scripts to collections and folders allows you to test the workflows in your API project. This helps to ensure that your requests cover typical scenarios, providing a reliable experience for application users.
 
 You can update collection and folder scripts by clicking __View more actions__ (...) next to the collection or folder name, and selecting __Edit__. Choose the __Tests__ tab to add or update your script. You can also add collection scripts when you first create a collection.
 
