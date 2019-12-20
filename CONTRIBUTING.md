@@ -31,8 +31,6 @@ We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes t
     * Select `head branch: <YOUR BRANCH NAME>`
     * Click `Create pull request`
 
-> Please only push to `develop` when your edits are ready to publish. The `develop` branch is intended only as a last check to see your edits live on the web in a production type build environment before publishing—changes shouldn't sit on the `develop` branch for long before pushing to `master`.
-
 Your pull request will be reviewed by administrators and will either be approved, denied, or sent back for changes.
 
 ## Pull Request Process
@@ -42,6 +40,8 @@ When your PR is opened it will run GitHub Actions which will lint the markdown f
 Upon approval your PR will be merged into develop for further verification and then merged into master upon final approval.
 
 [homepage]: https://learning.getpostman.com
+
+> __Staff and Repo Collaborators__: Please only push to `develop` when changes are ready to publish. The `develop` branch is intended only as a last check to see edits live on the web in a production type build environment before publishing—changes shouldn't sit on the `develop` branch for long before pushing to `master`.
 
 ## Adding/Editing Images
 
