@@ -17,6 +17,7 @@ const pageQuery = `{
       node {
         frontmatter {
           title
+          code_keyword
           contextual_links {
             type
             name
