@@ -141,6 +141,8 @@ When you [run a collection](/docs/postman/collection-runs/intro-to-collection-ru
 
 ![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run.jpg)
 
+You can write scripts to control the order in which your requests run using [branching and looping](/docs/postman/scripts/branching-and-looping/).
+
 ## Next steps
 
 Check out some test script [examples](/docs/postman/scripts/test-examples/) and the [Postman Sandbox API reference](/docs/postman/scripts/postman-sandbox-api-reference/) for what you can do using the `pm` object. _Your scripts run in a sandboxed environment—to see what resources are available, see the [Sandbox documentation](/docs/postman/scripts/postman-sandbox/)._
