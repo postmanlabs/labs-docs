@@ -11,6 +11,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to APIs"
+    url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Speeding up workflows with keyboard shortcuts"
@@ -21,6 +26,7 @@ contextual_links:
   - type: link
     name: "Introducing the New Data Editor"
     url: "https://blog.getpostman.com/2017/02/28/introducing-the-new-data-editor/?_ga=2.136447478.754547870.1571851340-1454169035.1570491567"
+  
   - type: section
     name: "Next Steps"
   - type: link
