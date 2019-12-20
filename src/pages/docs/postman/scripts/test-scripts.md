@@ -53,6 +53,8 @@ warning: false
 
 You can write test scripts for your Postman API requests in JavaScript. Tests allow you to ensure your API is working as expected, to debug issues, and to verify that new developments haven't broken any existing functionality. You can add tests to individual [requests](/docs/postman/sending-api-requests/requests/), [folders](/docs/postman/collections/managing-collections/#adding-folders), and [collections](/docs/postman/collection-runs/intro-to-collection-runs/). Postman includes code snippets you can click to add, then amend to suit your logic if necessary.
 
+> For example, you might write a test to validate your API's error handling by sending a request with incomplete data.
+
 To add tests you want to execute after a request runs, enter your code in the __Tests__ tab for the request. When the request runs, you will see the output in the __Test Results__ tab alongside the response data.
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab.jpg)
