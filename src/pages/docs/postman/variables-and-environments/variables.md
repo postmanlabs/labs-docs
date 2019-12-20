@@ -2,7 +2,7 @@
 title: "Using variables"
 order: 48
 page_id: "variables"
-code_keyword: "collectionVariables, iterationData, collectionVariables.set, collectionVariables.get" 
+search_keyword: "collectionVariables, iterationData, collectionVariables.set, collectionVariables.get" 
 contextual_links:
   - type: section
     name: "Prerequisites"
