@@ -43,7 +43,8 @@ Mocks in Postman are tied to a collection. Postman matches requests and generate
 
 * [Creating mock servers in-app](#creating-mock-servers-in-app)
     * [Mocking from the New button](#mocking-from-the-new-button)
-    * [Mocking from the launch screen](#mocking-from-the-launch-screen)
+    * [Mocking from the Launchpad](#mocking-from-the-launchpad)
+    * [Mocking from an API](#mocking-from-an-api)
     * [Mocking from the Collections sidebar](#mocking-from-the-collections-sidebar)
     * [Mocking a request from History](#mocking-a-request-from-history)
     * [Mocking from Collections in Browse view](#mocking-from-collections-in-browse-view)
@@ -97,13 +98,21 @@ In the **Next steps** tab, you will see a list of suggested next steps to maximi
 
 ![Next steps after mock is created](https://assets.postman.com/postman-docs/mock-cnx-next-steps.png)
 
-### Mocking from the launch screen
+### Mocking from the Launchpad
 
-The **Create New** tab appears by default when you launch Postman. Open the Postman app and in the **Create New** tab, click **Mock Server**.
+The **Launchpad** tab appears by default when you launch Postman. Open the Postman app and under the **Start something new** section, select **View More** and then **Create a mock server**.
 
 Follow the process [outlined in the New Button section](#mocking-from-the-new-button) to complete the mock server setup steps.
 
-> At the bottom, you can select **Show this window at launch** to indicate whether you want the Create New tab to display each time you open Postman.
+> At the bottom, you can choose whether you want the Launchpad tab to display each time you open Postman by toggling the **Open Launchpad** option on or off.
+
+### Mocking from an API
+
+You can create a mock server from an existing API. Navigate to the API on which you want to add a mock server and switch to the **Develop** tab. On the new tab, select **Add Mock Server** on the right-hand side and choose between creating a new mock server or adding an existing one.
+
+This will launch the **Create mock server** modal. Follow the process [outlined in the New Button section](#mocking-from-the-new-button) to complete the mock server setup steps.
+
+![Create mock from API Dev](https://user-images.githubusercontent.com/5029719/71178158-78167380-2265-11ea-908e-70199ea6a272.png)
 
 ### Mocking from the Collections sidebar
 

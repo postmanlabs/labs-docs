@@ -79,10 +79,11 @@ This section describes the following topics:
 
 ### Adding a mock server
 
-You can link mock servers running on a collection to an API. From the **Develop** tab, you can either create a new mock server or add an existing mock server. This section describes the following two topics:
+You can link mock servers running on a collection to an API. From the **Develop** tab, you can either create a new mock server, add an existing mock server or edit a mock server. This section describes the following topics:
 
 * [Creating new mock server](#creating-new-mock-server)
 * [Adding existing mock server](#adding-existing-mock-server)
+* [Editing a mock server](#editing-a-mock-server)
 
 #### Creating new mock server
 
@@ -115,6 +116,29 @@ To understand how versioning influences mock servers, refer to the section
 [Versioning an API](/docs/postman/design-and-develop-apis/versioning-an-api/).
 
 To add a mock server to a specific version of your collection, refer to the section [Setting up a mock server](/docs/postman/mock-servers/setting-up-mock/)
+
+#### Editing a mock server
+
+You can edit the mock servers that you have already added to your API. From the **Develop** tab, under the **Mock Servers** section, hover on the mock you want to edit and click on the pencil icon (circled in red below).
+
+[![api edit mock](https://user-images.githubusercontent.com/5029719/71182813-b7958d80-226e-11ea-9b39-90d07063b959.png)](https://user-images.githubusercontent.com/5029719/71182813-b7958d80-226e-11ea-9b39-90d07063b959.png)
+
+This will open a webpage on the Postman Dashboard where you can edit the following parameters of your mock server (as shown in 1 on the image below):
+
+* the name of the mock server
+* the collection to mock
+* the version tag
+* the environment
+
+You can also make the mock server private by ticking the **Make this mock server private** box (as shown in 2 on the image below).
+
+Click **Save changes** to save your changes or **Cancel** if you want to cancel (as shown in 3 on the image below).
+
+[![api edit mock web](https://user-images.githubusercontent.com/5029719/71361434-410cce80-2593-11ea-995d-68fdd27a282e.png)](https://user-images.githubusercontent.com/5029719/71361434-410cce80-2593-11ea-995d-68fdd27a282e.png)
+
+You can also copy the URL of your mock server directly to your clipboard by clicking on the **Copy URL** button (circled in red below).
+
+[![api copy mock url](https://user-images.githubusercontent.com/5029719/71183172-64700a80-226f-11ea-98e0-bd3c0639e837.png)](https://user-images.githubusercontent.com/5029719/71183172-64700a80-226f-11ea-98e0-bd3c0639e837.png)
 
 ## Adding documentation
 
