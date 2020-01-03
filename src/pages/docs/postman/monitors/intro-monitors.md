@@ -36,55 +36,55 @@ warning: false
 
 ---
 
-Postman Monitoring helps you to stay up to date on the health and performance of your APIs. Within a matter of seconds, you can set up our monitoring service and integrate it into your API development pipeline.
+Postman Monitoring helps you to stay up to date on the health and performance of your APIs. Within a matter of seconds, you can set up Postman's monitoring service and integrate it into your API development pipeline.
 
 ## Contents
 
-* [What is monitoring?](/docs/postman/monitors/intro-monitors/#what-is-monitoring)
+* [What is monitoring?](#what-is-monitoring)
 
-* [Pricing](/docs/postman/monitors/intro-monitors/#pricing)
+* [Pricing](#pricing)
 
-* [Monitor usage](/docs/postman/monitors/intro-monitors/#monitor-usage)
+* [Monitor usage](#monitor-usage)
 
-* [Running collections in a monitor](/docs/postman/monitors/intro-monitors/#running-collections-in-a-monitor)
+* [Running collections in a monitor](#running-collections-in-a-monitor)
 
-    * [Variables](/docs/postman/monitors/intro-monitors/#variables)
+    * [Variables](#variables)
 
-    * [Console output](/docs/postman/monitors/intro-monitors/#console-output)
+    * [Console output](#console-output)
 
-    * [Time limits](/docs/postman/monitors/intro-monitors/#time-limits)
+    * [Time limits](#time-limits)
 
-    * [File uploads](/docs/postman/monitors/intro-monitors/#file-uploads)
+    * [File uploads](#file-uploads)
 
-    * [Data files](/docs/postman/monitors/intro-monitors/#data-files)
+    * [Data files](#data-files)
 
-    * [Multiple iterations](/docs/postman/monitors/intro-monitors/#multiple-iterations)
+    * [Multiple iterations](#multiple-iterations)
 
-    * [Multi-region monitoring](/docs/postman/monitors/intro-monitors/#multi-region-monitoring)
+    * [Multi-region monitoring](#multi-region-monitoring)
 
-    * [Accessible APIs](/docs/postman/monitors/intro-monitors/#accessible-apis)
+    * [Accessible APIs](#accessible-apis)
 
-* [Monitor dashboard](/docs/postman/monitors/intro-monitors/#monitor-dashboard)
+* [Monitor dashboard](#monitor-dashboard)
 
-* [Next steps](/docs/postman/monitors/intro-monitors/#next-steps)
+* [Next steps](#next-steps)
 
 ## What is monitoring?
 
-Monitoring is a way to stay up to date on the health and performance of your APIs. Postman's built-in monitoring service helps you consolidate yet another step in your API development lifecycle.
+Monitoring is a way to stay up to date on the health and performance of your APIs. Postman's built-in monitoring service helps you consolidate an additional step in your API development lifecycle.
 
-Postman monitors are based on [collections](/docs/postman/collections/intro-to-collections/). They can be scheduled as frequently as every five minutes and will run through each request in your collection, similar to the [collection runner](/docs/postman/collection-runs/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/postman/variables-and-environments/variables/#environments-in-postman) with variables you'd like to utilize during the collection run.
+Postman monitors are based on [collections](/docs/postman/collections/intro-to-collections/). Monitors can be scheduled as frequently as every five minutes and will run through each request in your collection, similar to the [collection runner](/docs/postman/collection-runs/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/postman/variables-and-environments/variables/#environments-in-postman) with variables you'd like to utilize during the collection run.
 
-The value of monitors lies in your [test scripts](/docs/postman/scripts/test-scripts/). When running your collection, a monitor will use your tests to validate the responses it's receiving. When one of these tests fail, you can automatically receive an email [notification](/docs/postman/notifications/#monitor-notifications) or configure our available [integrations](/docs/postman-pro/integrations/intro-integrations/) to be alerted in tools like Slack, PagerDuty, or HipChat.
+The value of monitors lies in your [test scripts](/docs/postman/scripts/test-scripts/). When running your collection, a monitor will use your tests to validate the responses it's receiving. When one of these tests fail, you can automatically receive an email [notification](/docs/postman/notifications/#monitor-notifications) or configure the available [integrations](/docs/postman-pro/integrations/intro-integrations/) to receive alerts in tools like Slack, PagerDuty, or HipChat.
 
 ## Pricing
 
-All plans, paid and free, are able to use Postman's monitoring service. To find an account type's usage limits, refer to your [usage overview](https://go.pstmn.io/postman-account-limits) or our [pricing](https://www.getpostman.com/pricing).
+You can use the Postman monitoring service with any paid or free plan type. To find an account type's usage limits, refer to your [usage overview](https://go.pstmn.io/postman-account-limits) or our [pricing](https://www.getpostman.com/pricing).
 
-When a free Postman account reaches their usage limit for monitoring, they'll be automatically capped for the remainder of your monthly cycle.
+With a free Postman account, once you reach the usage limit for monitoring you'll be automatically capped for the remainder of your monthly cycle. To continue to use monitoring for the remainder of your monthly cycle, you can [upgrade your Postman plan](/docs/postman-pro/managing-pro/upgrading-to-postman-pro-from-a-trial-team/).
 
-Paid Postman accounts have the option to cap their monthly monitoring usage, but will automatically have pay-as-you-go pricing at a rate of $0.75/1,000 calls beyond their monthly limit. Paid teams can also opt for block pricing, which is $20 per pack of 50,000 calls, per month.
+With a paid Postman account, you have the option to cap your monthly monitoring usage by navigating to your [billing dashboard](https://go.postman.co/billing) > **Overages** and deselecting **Allow monitoring overages**. Overages are allowed by default and are charged at a pay-as-you-go rate of $0.75/1,000 calls beyond your monthly usage limit. You can also opt to purchase monitoring blocks at a price of $20 for a pack of 50,000 calls, per month.
 
-Usage is calculated by number of requests made. For example, if your collection has 10 requests, but utilizes [postman.setNextRequest()](/docs/postman/collection-runs/building-workflows/) to skip several of them or run others multiple times, you'll be billed according to the total number of requests made to the server.
+For more information on pricing and how we calculate monitoring usage, see [Pricing for monitors](/docs/postman/monitors/pricing-monitors/).
 
 ## Monitor usage
 
@@ -103,17 +103,17 @@ There are a few differences between running collections in a Postman monitor and
 ### Variables
 
 * You cannot import existing global variables to a monitor, but you can create new ones during a run.
-* Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values following, unlike they would in the collection runner with [persist variables](/docs/postman/collection-runs/starting-a-collection-run/#persist-variables) enabled.
-    * If you require persistent variables, we recommend adding a call to update your environment using the [Postman API](/docs/postman/postman-api/intro-api/).
+* Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values, unlike in the collection runner when [persist variables](/docs/postman/collection-runs/starting-a-collection-run/#persist-variables) is enabled.
+    * If you require persistent variables, you can add a call to update your environment using the [Postman API](/docs/postman/postman-api/intro-api/).
 
 ### Console output
 
-* Request and response bodies are not logged to the console for your security and privacy.
-* Headers, as they may include items like cookies and authorization keys, are also not logged.
+* For your security and privacy, Postman does not log request or response bodies in the console.
+* Postman will also not log headers, as they may include items like cookies and authorization keys.
 
 ### Time limits
 
-* Runs are limited to 5 minutes, including all HTTP requests, responses, pre-request, and test scripts.
+* Runs are limited to five minutes, including all HTTP requests, responses, pre-request, and test scripts.
 
 ### File uploads
 
@@ -125,13 +125,13 @@ There are a few differences between running collections in a Postman monitor and
 
 ### Multiple iterations
 
-* Monitors only run 1 iteration by default, but you can use setNextRequest() to run multiple iterations
+* Monitors only run one iteration by default, but you can use setNextRequest() to run multiple iterations.
 
 ### Multi-region monitoring
 
-* When setting up or editing a monitor, you can select geographic regions you'd like your monitor to run from, or opt to auto-select a region.
+* When setting up or editing a monitor, you can select multiple geographic regions you'd like your monitor to run from, or opt to auto-select a region.
 
-> If you’re interested in a region that’s not listed in the Postman interface, contact our [support team](https://support.getpostman.com/).
+> If you’re interested in a region that’s not listed in the Postman interface, contact the [Postman support team](https://support.getpostman.com/).
 
 ### Accessible APIs
 
@@ -141,12 +141,12 @@ There are a few differences between running collections in a Postman monitor and
 
 Each workspace has its own monitor dashboard, which you can navigate to by visiting your [web dashboard](https://go.postman.co/), selecting a workspace > **Monitors**.
 
-This dashboard provides a high-level overview of the monitors you have available in your workspace: their status, success rate, and average response time.
+This dashboard provides a high-level overview of the monitors you have available in your workspace, including status, success rate, and average response time.
 
 [![monitoring dashboard](https://assets.postman.com/postman-docs/monitor-dashboard1.jpg)](https://assets.postman.com/postman-docs/monitor-dashboard.jpg)
 
-Hovering over a monitor in the list allows you to run it outside of its predetermined schedule. It also allows you via the **...** to pause, resume, edit, and delete monitors.
+Hovering over a monitor in the list allows you to run it outside of its predetermined schedule. To pause, resume, edit, and delete monitors, select the **...** icon.
 
 ## Next steps
 
-Learn how to [set up a monitor](/docs/postman/monitors/setting-up-monitor/) and check out our page on [monitoring APIs and websites](/docs/postman/monitors/monitoring-apis-websites/) to get started.
+Learn how to [set up a monitor](/docs/postman/monitors/setting-up-monitor/) and check out [monitoring APIs and websites](/docs/postman/monitors/monitoring-apis-websites/) to get started.
