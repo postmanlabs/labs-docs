@@ -57,7 +57,7 @@ Select the categories that best describe your API and service. API consumers can
 
 ### Setting up your team profile
 
-When you publish to the API Network, your API will be listed as part of your team profile. If you don't already have a team profile, Postman will automatically generate one when you publish.
+When you publish to the API Network, your API will be listed as part of your team profile. If you don't already have a team profile, Postman will automatically generate one when you publish and you can customize later.
 
 <img alt="Publish Profile" src="https://assets.postman.com/postman-docs/publish-profile.jpg" width="450px"/>
 
