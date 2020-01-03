@@ -78,7 +78,7 @@ The value of monitors lies in your [test scripts](/docs/postman/scripts/test-scr
 
 ## Pricing
 
-You can use the Postman monitoring service with any paid or free plan type. To find an account type's usage limits, refer to your [usage overview](https://go.pstmn.io/postman-account-limits) or our [pricing](https://www.getpostman.com/pricing).
+You can use the Postman monitoring service with any paid or free plan type. To find an account type's usage limits, refer to your [usage overview](https://go.pstmn.io/postman-account-limits) or [pricing](https://www.getpostman.com/pricing).
 
 With a free Postman account, once you reach the usage limit for monitoring you'll be automatically capped for the remainder of your monthly cycle. To continue to use monitoring for the remainder of your monthly cycle, you can [upgrade your Postman plan](/docs/postman-pro/managing-pro/upgrading-to-postman-pro-from-a-trial-team/).
 
@@ -98,7 +98,7 @@ This page allows you to view your team's current billing period, how many reques
 
 ## Running collections in a monitor
 
-There are a few differences between running collections in a Postman monitor and running them via our in-app collection runner, so take note of the following.
+There are a few differences between running collections in a Postman monitor and running them via the in-app collection runner, so take note of the following.
 
 ### Variables
 
