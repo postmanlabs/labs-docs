@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to APIs"
+    url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
