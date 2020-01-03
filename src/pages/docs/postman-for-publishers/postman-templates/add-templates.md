@@ -27,7 +27,7 @@ By publishing your collection docs to the Postman templates, you're sharing both
 
 > If you're publishing documentation from a team API, you can [add it to the API Network](/docs/postman-for-publishers/api-network/add-api-network/) as part of your team listing.
 >
-> When you add to the Postman templates, your listing will also be discoverable via your profile. You can [set your profile up before](#setting-up-your-profile) or during publication.
+> When you add to the Postman templates, your listing will also be discoverable via your profile. You can [set your profile up before](#setting-up-your-profile) or during publication, or Postman will generate a profile that you can optionally edit later.
 
 ## Adding your templates
 
@@ -77,11 +77,9 @@ You can customize your profile URL and name, and add a description people will s
 
 ## Publishing your template
 
-Once your profile is set up and your publish settings complete, you can click __Publish Collection__. You will see a confirmation of your template listing and public profile.
+When your publish settings are complete, click __Publish Collection__. You will see a confirmation of your template listing and public profile.
 
 ![Templates Published](https://assets.postman.com/postman-docs/templates-published.jpg)
-
-You will receive a notification and email to confirm that your collection is published.
 
 Your templates will be discoverable from inside the Postman app using __New__ &gt; __Templates__ and [on the web](https://explore.postman.com/templates).
 
