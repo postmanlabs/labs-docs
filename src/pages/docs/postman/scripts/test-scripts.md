@@ -57,7 +57,7 @@ You can write test scripts for your Postman API requests in JavaScript. Tests al
 
 You can add tests to individual [requests](/docs/postman/sending-api-requests/requests/), [folders](/docs/postman/collections/managing-collections/#adding-folders), and [collections](/docs/postman/collection-runs/intro-to-collection-runs/). Postman includes code snippets you can click to add, then amend to suit your logic if necessary.
 
-To add tests you want to execute after a request runs, enter your code in the __Tests__ tab for the request. When the request runs, you will see the output in the __Test Results__ tab alongside the response data.
+To add tests to a request, open the request and enter your code in the Tests tab. Tests will execute after the request runs. You will be able to see the output in the __Test Results__ tab alongside the response data.
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab.jpg)
 
@@ -65,13 +65,13 @@ To add tests you want to execute after a request runs, enter your code in the __
 
 Your test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, you can enter your JavaScript manually or use the __Snippets__ you'll see to the right of the code editor.
 
-Tests will execute after the response is received, so when you click __Send__, Postman will run your test script when it receives data back from the API.
+Tests will execute after the response is received, so when you click __Send__, Postman will run your test script when the response data returns from the API.
 
 > If you need to execute code before a request runs, use [Pre-request Scripts](/docs/postman/scripts/pre-request-scripts/) instead. See [Intro to scripts](/docs/postman/scripts/intro-to-scripts/) for more on the how your scripts execute when your requests run.
 
-To carry out tests in order to validate the data returned by a request, you can use the `pm.response` object. You can define tests using the `pm.test` function, providing a name and function which should return a boolean (`true` or `false`) value indicating whether the test passed or failed. You can use [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in your assertions to test the response detail.
+To carry out tests in order to validate the data returned by a request, you can use the `pm.response` object. You can define tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating whether the test passed or failed. You can use [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in your assertions to test the response detail.
 
-The first parameter to the `.test` function is a text string that will appear in the test result output, so you can use it to identify your tests, and communicate the purpose of a test to anyone viewing the results.
+The first parameter for the `.test` function is a text string that will appear in the test result output, so you can use it to identify your tests, and communicate the purpose of a test to anyone viewing the results.
 
 For example, enter the following in the __Tests__ tab for any request to test whether the response status code is `200`.
 
@@ -87,7 +87,7 @@ Click __Send__ to run your request and open __Test Results__ in the response sec
 
 <img src="https://assets.postman.com/postman-docs/test-result-status.jpg" alt="Test Results" width="500px"/>
 
-If the request returned a `200` status code, the test will pass, otherwise it will fail. Try changing the expected status code in your test script and running the request again.
+If the request returned a `200` status code, the test will pass—otherwise it will fail. Try changing the expected status code in your test script and running the request again.
 
 <img src="https://assets.postman.com/postman-docs/failed-test-status.jpg" alt="Failed Test Results" width="500px"/>
 
