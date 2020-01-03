@@ -61,7 +61,7 @@ When you publish to the API Network, your API will be listed as part of your tea
 
 <img alt="Publish Profile" src="https://assets.postman.com/postman-docs/publish-profile.jpg" width="450px"/>
 
-Use the __Public Profile Settings__ link or navigate to your [team profile settings](https://go.postman.co/settings/team/public) to enable and fill out the details consumers will see when your API is published and visible in the network.
+Use the __Public Profile Settings__ link or navigate to your [team profile settings](https://go.postman.co/settings/team/public) to enable or customize the details consumers will see when your API is published and visible in the network.
 
 ![Enable Profile](https://assets.postman.com/postman-docs/enable-profile.jpg)
 
