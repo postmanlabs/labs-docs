@@ -25,7 +25,7 @@ Sharing your docs exposes your API to the millions of developers who use Postman
 
 Your docs can convey detailed guidance on how to make requests to your API endpoints, as well as the workflows required to integrate with your API in general. This provides the information—and actionable data—developers need to get started using your services.
 
-> To add your API to the network, you will need a public team profile listing. You can [set your profile up before](#setting-up-your-profile) or we can create one for you during publication and you can customize later. 
+> When you add your API to the network it will be associated with your public team profile listing. You can [set your profile up before publishing](#setting-up-your-profile) or Postman will generate one for you during publication and you can optionally customize it later.
 
 ## Adding your API
 
@@ -57,7 +57,7 @@ Select the categories that best describe your API and service. API consumers can
 
 ### Setting up your team profile
 
-When you publish to the API Network, your API will be listed as part of your team profile. If you don't already have a team profile, Postman will automatically generate one when you publish and you can customize later.
+When you publish to the API Network, your API will be listed as part of your team profile. If you don't already have a team profile, Postman will automatically generate one when you publish. You can customize your profile at any time before or after publishing your API.
 
 <img alt="Publish Profile" src="https://assets.postman.com/postman-docs/publish-profile.jpg" width="450px"/>
 
@@ -69,13 +69,11 @@ Include a team name and description that will appear in your API Network listing
 
 ![Profile Detail](https://assets.postman.com/postman-docs/profile-details.jpg)
 
-## Publish to the network
+## Publishing to the network
 
 Once your team profile is set up any collection docs you publish will be associated with it. Click __Publish Collection__.
 
 ![Publish Team](https://assets.postman.com/postman-docs/publish-as-team.jpg)
-
-You will receive a notification and email to confirm that your collection is published.
 
 When people browse the API Network they will see your team profile listing, along with the APIs and templates you have published.
 
