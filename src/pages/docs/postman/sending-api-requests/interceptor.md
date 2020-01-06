@@ -1,7 +1,7 @@
 ---
-title: "Interceptor extension"
+title: "Interceptor"
 order: 23
-page_id: "interceptor_extension"
+page_id: "interceptor"
 contextual_links:
   - type: section
     name: "Prerequisites"

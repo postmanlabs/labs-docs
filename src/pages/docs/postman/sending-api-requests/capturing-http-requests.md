@@ -31,7 +31,7 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor-extension/) for the Postman app.
+If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor/) for the Postman app.
 
 **Note:** For the Postman native apps, request captures over HTTPS will not work if the website has HSTS enabled. Most websites have this check in place.
 
@@ -50,7 +50,7 @@ Postman has a proxy in the Postman app that captures the HTTP request.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile.png)](https://assets.postman.com/postman-docs/proxymobile.png)
 
-Similar to the [Interceptor Chrome extension](/docs/postman/sending-api-requests/interceptor-extension/), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
+Similar to the [Interceptor Chrome extension](/docs/postman/sending-api-requests/interceptor/), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
 
 [![proxy logs](https://assets.postman.com/postman-docs/WS-proxy.logs.png)](https://assets.postman.com/postman-docs/WS-proxy.logs.png)
 
