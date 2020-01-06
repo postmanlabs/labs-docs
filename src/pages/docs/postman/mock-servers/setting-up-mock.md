@@ -100,7 +100,7 @@ In the **Next steps** tab, you will see a list of suggested next steps to maximi
 
 ### Mocking from the Launchpad
 
-The **Launchpad** tab appears by default when you launch Postman. Open the Postman app and under the **Start something new** section, select **View More** and then **Create a mock server**.
+**Launchpad** appears by default when you launch the Postman app. To create a mock server, open the Postman app, navigate to **Start something new** > **... View More** > **Create a mock server**.
 
 Follow the process [outlined in the New Button section](#mocking-from-the-new-button) to complete the mock server setup steps.
 
@@ -108,9 +108,9 @@ Follow the process [outlined in the New Button section](#mocking-from-the-new-bu
 
 ### Mocking from an API
 
-You can create a mock server from an existing API. Navigate to the API on which you want to add a mock server and switch to the **Develop** tab. On the new tab, select **Add Mock Server** on the right-hand side and choose between creating a new mock server or adding an existing one.
+You can create a mock server from an existing API. Navigate to the API you'd like to add a mock server to, then click **Develop**. Select **Add Mock Server**, then choose between creating a new mock server or adding an existing one.
 
-This will launch the **Create mock server** modal. Follow the process [outlined in the New Button section](#mocking-from-the-new-button) to complete the mock server setup steps.
+This will launch the **Create mock server** modal. Follow the process [outlined in the New button section](#mocking-from-the-new-button) to complete the mock server setup.
 
 ![Create mock from API Dev](https://user-images.githubusercontent.com/5029719/71178158-78167380-2265-11ea-908e-70199ea6a272.png)
 
