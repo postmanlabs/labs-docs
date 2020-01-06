@@ -16,7 +16,6 @@ Postman uses the faker library to generate dummy data. You can generate random n
 * {{$randomStreetSuffix}}
 * {{$randomStreetPrefix}}
 * {{$randomSecondaryAddress}}
-* {{$randomCounty}}
 * {{$randomCountry}}
 * {{$randomCountryCode}}
 * {{$randomState}}

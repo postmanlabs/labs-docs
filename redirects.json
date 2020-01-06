@@ -210,5 +210,17 @@
   {
     "from": "/docs/postman_pro/managing_pro/billing_and_pricing/",
     "to": "/docs/postman-pro/managing-pro/billing/"
+  },
+  {
+    "from": "/docs/postman/scripts/test-scripts/#writing-postman-tests",
+    "to": "/docs/postman/scripts/test-scripts/#writing-test-scripts"
+  },
+  {
+    "from": "/docs/postman/scripts/test-scripts/#snippets",
+    "to": "/docs/postman/scripts/test-scripts/#using-snippets"
+  },
+  {
+    "from": "/docs/postman/scripts/test-scripts/#adding-a-test-script-to-a-collection-or-folder",
+    "to": "/docs/postman/scripts/test-scripts/#testing-collections-and-folders"
   }
 ]

@@ -13,8 +13,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to Postman Cloud"
-    url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
+    name: "HTTP protocol explained"
+    url:  "https://www.youtube.com/watch?v=FAnuh0_BU4c&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
