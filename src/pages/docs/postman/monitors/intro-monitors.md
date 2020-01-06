@@ -78,7 +78,7 @@ The value of monitors lies in your [test scripts](/docs/postman/scripts/test-scr
 
 ## Pricing
 
-You can use the Postman monitoring service with any paid or free plan type. To find an account type's usage limits, refer to your [usage overview](https://go.pstmn.io/postman-account-limits) or [pricing](https://www.getpostman.com/pricing).
+You can use the Postman monitoring service with any paid or free plan type. To find an account type's usage limit, refer to your [usage overview](https://go.pstmn.io/postman-account-limits) or the [pricing](https://www.getpostman.com/pricing) page.
 
 With a free Postman account, once you reach the usage limit for monitoring you'll be automatically capped for the remainder of your monthly cycle. To continue to use monitoring for the remainder of your monthly cycle, you can [upgrade your Postman plan](/docs/postman-pro/managing-pro/upgrading-to-postman-pro-from-a-trial-team/).
 
@@ -135,7 +135,7 @@ There are a few differences between running collections in a Postman monitor and
 
 ### Accessible APIs
 
-* Monitors require all URLs to be publicly-available on the internet, and cannot directly access your `localhost`. Monitors run in the Postman cloud, so you may encounter a firewall. Static IPs are available for [certain plan types](https://www.getpostman.com/pricing).
+* Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available for [certain plan types](https://www.getpostman.com/pricing).
 
 ## Monitor dashboard
 
@@ -145,7 +145,7 @@ This dashboard provides a high-level overview of the monitors you have available
 
 [![monitoring dashboard](https://assets.postman.com/postman-docs/monitor-dashboard1.jpg)](https://assets.postman.com/postman-docs/monitor-dashboard.jpg)
 
-Hovering over a monitor in the list allows you to run it outside of its predetermined schedule. To pause, resume, edit, and delete monitors, select the **...** icon.
+Hovering over a monitor in the list allows you to run it outside of its predetermined schedule by clicking **▶**. To pause, resume, edit, and delete monitors, select the **...** icon.
 
 ## Next steps
 
