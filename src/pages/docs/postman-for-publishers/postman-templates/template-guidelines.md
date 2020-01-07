@@ -43,11 +43,11 @@ If your template requires authentication, make sure you include instructions exp
 
 ## Complete your profile
 
-When you publish to the Postman templates, potential users can see your profile if they search via the web. Taking the time to fill out your profile gives you a chance to introduce yourself to the people considering using your templates. [You can include your name, description, a photo, and customize your URL.](/docs/postman-for-publishers/api-network/add-templates/#setting-up-your-profile)
+When you publish to the Postman templates, potential users can see your profile if they search via the web. Taking the time to fill out your profile gives you a chance to introduce yourself to the people considering using your templates. [You can include your name, description, a photo, and customize your URL.](/docs/postman-for-publishers/postman-templates/add-templates/#setting-up-your-profile)
 
 ## Complete your template listing
 
-Your template listing should provide the information developers need to know in order to decide whether they want to try the collection out or not. Try to choose a descriptive name that conveys the purpose of your template without users having to click it to find out more detail. In your description, try to include an overview of what the collection does, with enough detail for people to figure out whether it's of interest to them. [You can include a name, summary, description, and categories that will determine how your template is listed when users browse in the app or on the web.](/docs/postman-for-publishers/api-network/add-templates/#providing-template-detail)
+Your template listing should provide the information developers need to know in order to decide whether they want to try the collection out or not. Try to choose a descriptive name that conveys the purpose of your template without users having to click it to find out more detail. In your description, try to include an overview of what the collection does, with enough detail for people to figure out whether it's of interest to them. [You can include a name, summary, description, and categories that will determine how your template is listed when users browse in the app or on the web.](/docs/postman-for-publishers/postman-templates/add-templates/#providing-template-detail)
 
 ## Sample template listings
 
