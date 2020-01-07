@@ -54,9 +54,6 @@ Your API listing in the network should provide the information developers need t
 The API Network includes lots of effective listings you can use for inspiration when building your own. Check out the following notable examples:
 
 * [Cisco DevNet](https://explore.postman.com/team/ciscodevnet)
-* [Imgur](https://explore.postman.com/team/imgur)
-* [Okta](https://explore.postman.com/team/okta)
 * [Foursquare](https://explore.postman.com/team/351150)
 * [Kloudless](https://explore.postman.com/team/245532)
-* [Tavefy](https://explore.postman.com/team/travefy)
 * [Skore](https://explore.postman.com/team/201253)
