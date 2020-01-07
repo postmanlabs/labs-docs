@@ -78,7 +78,7 @@ With a request open in Postman, use the __Authorization__ tab __Type__ dropdown 
 
 > You can use these auth types with Newman and Postman monitors as well as in the app.
 
-When you select a type, Postman will indicate which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Click __Preview Request__ to see how your auth data will be added to the request before attempting to send it.
+When you select a type, Postman will indicate which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Postman will add your auth details to the relevant parts of the request as soon as you select or enter them, so you can see how your auth data will be sent before attempting to run your request.
 
 ![Preview Request](https://assets.postman.com/postman-docs/preview-request-auth.jpg)
 
@@ -111,6 +111,14 @@ You can choose an authorization type upfront using the same technique when you f
 ## No auth
 
 Postman will not attempt to send authorization details with a request unless you specify an auth type. If your request does not require authorization, select __No Auth__ from the __Authorization__ tab __Type__ dropdown list.
+
+## API key
+
+With API key auth, you send a key-value pair to the API either in the request headers or query parameters. In the request __Authorization__ tab, select __API Key__ from the __Type__ list. Enter your key name and value, and select either __Header__ or __Query Params__ from the __Add to__ dropdown. You can store your values in variables for additional security.
+
+![API Key Auth](https://assets.postman.com/postman-docs/api-key-auth-selection.jpg)
+
+Postman will append the relevant information to your request __Headers__ or the URL query string.
   
 ## Bearer token
 
@@ -134,7 +142,7 @@ Basic authentication involves sending a verified username and password with your
 
 Enter your API login details in the __Username__ and __Password__ fields—for additional security you can store these in variables.
 
-Click __Preview Request__ to see how Postman will append your basic auth details to the request. In the request __Headers__, you will see that the Authorization header is being passed a Base64 encoded string representing your username and password values, appended to the text "Basic " as follows:
+In the request __Headers__, you will see that the Authorization header is going to pass the API a Base64 encoded string representing your username and password values, appended to the text "Basic " as follows:
 
 ```shell
 Basic <Base64 encoded username and password>
@@ -179,7 +187,7 @@ In the __Authorization__ tab for a request, select __OAuth 1.0__ from the __Type
 
 Enter your __Consumer Key__, __Consumer Secret__, __Access Token__, and __Token Secret__ values. You can optionally set advanced details—otherwise Postman will attempt to autocomplete these.
 
-You can include the auth details either in the request headers or in the body / URL—select one from the dropdown list. Click __Preview Request__ if you want to check how the details will be included with the request.
+You can include the auth details either in the request headers or in the body / URL—select one from the dropdown list. Open the __Headers__ or __Body__ tab if you want to check how the details will be included with the request.
 
 If you send the OAuth 1.0 data in the headers, you will see an Authorization header sending your key and secret values appended to the string " OAuth " together with additional comma-separated required details.
 

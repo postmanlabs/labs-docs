@@ -156,7 +156,7 @@ The __Body__ tab in Postman allows you to specify the data you need to send with
 >
 > * For form-data and urlencoded body types, Postman will automatically attach the correct `Content-Type` header.
 > * If you use raw mode for your body data, Postman will set a header based on the type you select (e.g. text, json).
-> * If you manually select a `Content-Type` header, that value will take precedence over what Postman sets.
+> * You can manually override what Postman selects by indicating a `Content-Type` in the request __Headers__.
 > * Postman does not set any header type for the binary body type.
 
 By default, Postman will select __None__—leave it selected if you do not need to send a body with your request.
