@@ -29,7 +29,7 @@ Sometimes your Collection tests fail—even when you expect them all to pass.
 When failure occurs, you can debug your requests in two ways:
 
 - [Debugging using the Request and Response body](#debugging-using-the-request-and-response-body)
-- [Debugging using the Postman Console](#debugging-using-the-postman-console)
+- [Debugging using the Postman console](#debugging-using-the-postman-console)
 
 Let's explore debugging request in an example using the [Postman Echo collection](https://docs.postman-echo.com/). Go to [Postman Echo](https://docs.postman-echo.com/), and click the **Run in Postman** button to import this collection into the Postman app.
 
