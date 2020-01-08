@@ -44,7 +44,7 @@ contextual_links:
 
 Effective API documentation explains the purpose of your API and provides information developers need to build their own workflows. API documentation is helpful to onboard developers more quickly, and encourages them to adopt your services.
 
-Simply [auto-generate documentation directly from a Postman collection](/docs/postman/api-documentation/documenting-your-api/), take some time to [add descriptions](/docs/postman/collections/using-markdown-for-descriptions/) to more thoroughly explain each endpoint or parameter, or [version your published documentation](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs).
+Simply [auto-generate documentation](/docs/postman/api-documentation/documenting-your-api/) directly from a Postman collection, take some time to [add descriptions](/docs/postman/collections/using-markdown-for-descriptions/) to more thoroughly explain each endpoint or parameter, or [version your published documentation](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs).
 
 Your documentation will include both browsable information on the web, and the **Run in Postman** button so users can interact with your API directly in the Postman app. For example, check out the [Postman API documentation](http://docs.api.getpostman.com) - generated from a Postman collection, of course.
 
