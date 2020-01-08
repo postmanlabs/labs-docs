@@ -22,14 +22,13 @@ contextual_links:
     url: "/docs/postman/collection-runs/debugging-a-collection-run/"
 
 warning: false
-
 ---
 
 There might be cases when your API doesn't work, or exhibits unexpected behavior. If you're not getting any response, Postman will display a message about an error in connecting to the server.
 
 [![no response message](https://assets.postman.com/postman-docs/WS-troubleshooting-APIs.png)](https://assets.postman.com/postman-docs/WS-troubleshooting-APIs.png)
 
-For more details about the possible causes of the error, open [Postman Console](/docs/postman/sending-api-requests/debugging-and-logs/). It has detailed information about the failure.
+For more details about the possible causes of the error, open the [Postman Console](/docs/postman/sending-api-requests/debugging-and-logs/). It has detailed information about the failure.
 
 Consider these issues as you troubleshoot API requests.
 
@@ -51,7 +50,7 @@ When using HTTPS connections, Postman might show the error above. In this case, 
 
 ### Client Certificate issues
 
-Client certificates might be required for this server. Fix this by [adding a client certificate](/docs/postman/sending-api-requests/certificates/) in the [Postman Settings](/docs/postman/launching-postman/settings/).  
+Client certificates might be required for this server. Fix this by [adding a client certificate](/docs/postman/sending-api-requests/certificates/) in the [Postman Settings](/docs/postman/launching-postman/settings/).
 
 ### Incorrect Request URLs
 
@@ -63,7 +62,7 @@ Check whether you're accidentally using "https://" instead of "http://" in your 
 
 ### Invalid Postman behavior
 
-Very rarely, it is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs (if available). We're always watching out for these cases, so get in touch with us if you believe Postman is misbehaving. Let us know on our [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues) if you feel that Postman is not working as intended.
+Very rarely, it is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs (if available). We're always watching out for these cases, so get in touch with the Postman team if you believe Postman is misbehaving. Let the Postman team know on our [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues) if you feel that Postman is not working as intended.
 
 ### Very short timeouts
 

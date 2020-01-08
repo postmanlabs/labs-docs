@@ -113,7 +113,7 @@ If payment is unsuccessful, Postman offers a grace period of 10 days to avoid se
 
 ## Team and plan changes
 
-To change your team size, see [changing your plan](docs/postman-pro/managing-pro/changing-your-plan/). To upgrade to Postman Enterprise, see [purchasing Enterprise](/docs/postman-enterprise/purchasing-enterprise/).
+To change your team size, see [changing your plan](/docs/postman-pro/managing-pro/changing-your-plan/). To upgrade to Postman Enterprise, see [purchasing Enterprise](/docs/postman-enterprise/purchasing-enterprise/).
 
 ### Changing billing cycle
 

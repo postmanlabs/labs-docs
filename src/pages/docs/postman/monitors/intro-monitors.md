@@ -13,9 +13,6 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Microsoft Education"
-    url: "https://www.getpostman.com/case-studies/Microsoft.pdf?_ga=2.133824584.754547870.1571851340-1454169035.1570491567"
-  - type: link
     name: "Monetary"
     url: "https://www.getpostman.com/case-studies/monetary.pdf?_ga=2.133824584.754547870.1571851340-1454169035.1570491567"
   - type: subtitle

@@ -59,7 +59,7 @@ You can also add/edit the cookies through the [Set-Cookie header](https://develo
 To whitelist a domain so that cookies can be programmatically accessed, click the **Cookies** link under the **Send** button and open the **MANAGE COOKIES** modal. Click on **Whitelist Domains** from bottom left and enter the list of
 domains needed to be whitelisted.
 
-## Programmatic accees of cookies
+## Programmatic access of cookies
 
 Postman also allows for programmatic cookie access i.e. creating and manipulating cookies by special methods instead of relying on the graphical interface, granting a greater degree of control over cookies to the users.
 

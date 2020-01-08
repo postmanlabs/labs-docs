@@ -13,7 +13,7 @@ contextual_links:
     url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
   - type: link
     name: "Scaling Team Collaboration at Atlassian"
-    url : https://youtu.be/wYBZrdukack)
+    url : https://www.youtube.com/watch?v=wYBZrdukack
 
 ---
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
