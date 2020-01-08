@@ -42,11 +42,11 @@ Postman account users can create an unlimited number of personal workspaces. Use
 
 ## How to create a new workspace?
 
-Click the workspace dropdown menu that displays in the header bar. For example, in the image below, you'd click the workspace called "My Workspace". Click the **Create New** link (circled in red in the image below). Determine whether you'd like to create a personal or team workspace.
+To create a new workspace, select the workspace dropdown menu > **Create New**. Determine whether you'd like to create a personal or team workspace.
 
- [![create new menu](https://user-images.githubusercontent.com/5029719/71102920-2b716080-21b1-11ea-8dd2-06149a821f48.png)](https://user-images.githubusercontent.com/5029719/71102920-2b716080-21b1-11ea-8dd2-06149a821f48.png)
+ [![create new menu](https://user-images.githubusercontent.com/5029719/71973719-9d185980-3207-11ea-8d95-2c64e0f032bd.png)](https://user-images.githubusercontent.com/5029719/71973719-9d185980-3207-11ea-8d95-2c64e0f032bd.png)
 
-To create a personal workspace, verify the workspace enter the name and description of the workspace. Click the **Create Workspace** button. At this time, you can [create a new collection](/docs/postman/collections/creating-collections/) within your new workspace. You can also share existing collections from other workspaces to this newly created one.
+To create a personal workspace, verify the workspace enter the name and description of the workspace. Click **Create Workspace**. At this time, you can [create a new collection](/docs/postman/collections/creating-collections/) within your new workspace. You can also share existing collections from other workspaces to this newly created one.
 
 [![create new personal workspace](https://assets.postman.com/postman-docs/Workspaces_CreateNew1.png)](https://assets.postman.com/postman-docs/Workspaces_CreateNew1.png)
 
@@ -54,10 +54,10 @@ To create a team workspace, enter the name and description of the workspace. Tog
 
 Postman Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/postman/workspaces/intro-to-workspaces/#private-workspaces).
 
-Click the **Create Workspace** button to finish creating your workspace.
+Click **Create Workspace** to finish creating your workspace.
 
 [![create new team workspace](https://user-images.githubusercontent.com/5029719/71102959-36c48c00-21b1-11ea-9a18-b5038af699ca.png)](https://user-images.githubusercontent.com/5029719/71102959-36c48c00-21b1-11ea-9a18-b5038af699ca.png)
 
-You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Click the **Create a new workspace** button (circled in red in the image below) and follow the steps on how to create a personal or team workspace above.
+You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Click **Create a new workspace** and follow the steps on how to create a personal or team workspace above.
 
-[![create new workspace dashboard](https://user-images.githubusercontent.com/5029719/71103079-64a9d080-21b1-11ea-8828-c2db2bd75fb3.png)](https://user-images.githubusercontent.com/5029719/71103079-64a9d080-21b1-11ea-8828-c2db2bd75fb3.png)
+[![create new workspace dashboard](https://user-images.githubusercontent.com/5029719/71973777-bfaa7280-3207-11ea-808d-46e7ff060961.png)](https://user-images.githubusercontent.com/5029719/71973777-bfaa7280-3207-11ea-808d-46e7ff060961.png)
