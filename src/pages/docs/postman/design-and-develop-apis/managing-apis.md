@@ -20,7 +20,7 @@ You can create an API in the workspace from the sidebar in the Postman app and f
 
 [![api create4](https://user-images.githubusercontent.com/5029719/71972999-bcae8280-3205-11ea-81f3-1482988b7426.png)](https://user-images.githubusercontent.com/5029719/71972999-bcae8280-3205-11ea-81f3-1482988b7426.png)
 
-If you already have created APIs in your workspace, click '+' in the sidebar, as indicated by the red arrow in the above screen.
+If you already have created APIs in your workspace, click '+' in the sidebar.
 
 [![api create2](https://assets.postman.com/postman-docs/API-Create1.png)](https://assets.postman.com/postman-docs/API-Create1.png)
 
