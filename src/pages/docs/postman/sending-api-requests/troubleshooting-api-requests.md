@@ -62,7 +62,7 @@ Check whether you're accidentally using "https://" instead of "http://" in your 
 
 ### Invalid Postman behavior
 
-Very rarely, it is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs (if available). We're always watching out for these cases, so get in touch with us if you believe Postman is misbehaving. Let us know on our [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues) if you feel that Postman is not working as intended.
+Very rarely, it is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs (if available). We're always watching out for these cases, so get in touch with the Postman team if you believe Postman is misbehaving. Let the Postman team know on our [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues) if you feel that Postman is not working as intended.
 
 ### Very short timeouts
 
