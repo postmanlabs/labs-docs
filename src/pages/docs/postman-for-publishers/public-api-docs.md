@@ -42,33 +42,26 @@ contextual_links:
     url:  "/docs/postman-for-publishers/postman-templates/add-templates/"
 ---
 
-API documentation helps developers onboard and adopt your services. Effective documentation aids learning around the purpose of your API and provides the information developers need to integrate it into their applications and workflows. You can [generate documentation directly from a Postman collection](/docs/postman/api-documentation/documenting-your-api/)—and can add a variety of optional details throughout your docs. Your published listings include both human-readable information and the Run in Postman button, giving users the ability to run your collections directly in Postman.
+Effective API documentation explains the purpose of your API and provides information developers need to build their own workflows. API documentation is helpful to onboard developers more quickly, and encourages them to adopt your services.
 
-* __If you want to create shareable documentation for your API in Postman, first check out [Documenting your API](/docs/postman/api-documentation/publishing-your-docs/). Once you have authored your docs, you can publish them to the API Network or Postman Templates.__
+Simply [auto-generate documentation directly from a Postman collection](/docs/postman/api-documentation/documenting-your-api/), take some time to [add descriptions](/docs/postman/collections/using-markdown-for-descriptions/) to more thoroughly explain each endpoint or parameter, or [version your published documentation](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs).
 
-When your documentation is ready for viewing publicly, you can use the [API Network](/docs/postman-for-publishers/api-network/add-api-network/) and [Postman templates](/docs/postman-for-publishers/postman-templates/add-templates/) to make it more discoverable throughout the Postman community.
+Your documentation will include both browsable information on the web, and the **Run in Postman** button so users can interact with your API directly in the Postman app. For example, check out the [Postman API documentation](http://docs.api.getpostman.com) - generated from a Postman collection, of course.
 
-> If you aren't planning to publish your own API but are looking for APIs to integrate with, search the [API Network](https://explore.postman.com/) and [Postman templates](https://explore.postman.com/templates) for your use case. Whether you want to find sushi restaurants near you or integrate your CI/CD pipeline with your enterprise messenger, there's an API that can help with that. When you find what you're looking for, import the collection by clicking the [Run in Postman button](/docs/postman-for-publishers/run-in-postman/using-run-button). From there you can try out the endpoints in Postman.
+[![postman API docs](https://i.imgur.com/jNF08qQ.png)](https://i.imgur.com/jNF08qQ.png)
 
-[![postman API docs](https://assets.postman.com/postman-docs/59189909.png)](https://assets.postman.com/postman-docs/59189909.png)
+In addition to private documentation accessible within your personal team, you can also share API documentation publicly with the Postman community. Sharing your API documentation within the [Postman API Network](/docs/postman-for-publishers/api-network/add-api-network/) or as a [Postman template](/docs/postman-for-publishers/postman-templates/add-templates/) helps the Postman community discover new APIs and workflows.
 
-> The Postman [API documentation](http://docs.api.getpostman.com) is itself generated from Postman.
+> **Don't have a public API?** Discover other APIs from the [Postman API Network](https://explore.postman.com/) to incorporate into your own workflows. Or search for industry better practices among the community-contributed [templates](https://explore.postman.com/templates).
 
 ## Making your documentation discoverable
 
-When you make your docs for a Postman collection public, anyone with the link can access them. With the API Network and templates, you can make your API discoverable to a wider range of consumers by leveraging the Postman community.
+When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community.
 
-You can publish docs for a team collection to the API Network, and as an individual user, you can publish to the shared templates. You can access both the API Network and community templates inside the Postman app via the __New__ button, and [on the web](https://explore.postman.com).
+Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://explore.postman.com).
 
 ![Network and Templates](https://assets.postman.com/postman-docs/network-templates.jpg)
 
-You will see lots of sample templates and team docs to inspire your own.
+Browse all the API documentation and community templates to inspire your own masterpieces.
 
-[![Imgur API docs](https://assets.postman.com/postman-docs/59189801.png)](https://assets.postman.com/postman-docs/59189801.png)
-
-> Your published docs can target specific [versions](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs) of your collections.
-
-## Next steps
-
-* If you are publishing docs for an API via your team, share them by [adding to the API Network](/docs/postman-for-publishers/api-network/add-api-network).
-* If you are publishing as an individual user, [share your collection docs via the templates](/docs/postman-for-publishers/postman-templates/add-templates).
+[![Imgur API docs](https://i.imgur.com/oXgXznt.png)](https://i.imgur.com/oXgXznt.png)
