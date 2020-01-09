@@ -37,10 +37,10 @@ If you are using APIs to build client-side applications - mobile apps, websites 
 
 You can capture the HTTP requests using the following two ways:
 
-* [Using the Postman built-in proxy](#using-the-postman-built-in-proxy)
-* [Using the Interceptor](#using-the-interceptor)
+* [Postman's built-in proxy](#using-the-postman-built-in-proxy)
+* [Interceptor](#interceptor)
 
-## Using the Postman built-in proxy
+## Postman's built-in proxy
 
 Postman has a proxy in the Postman app that captures the HTTP request.
 
@@ -95,10 +95,6 @@ The broader development community has published some useful tutorials for settin
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
 
-## Using the Interceptor
+## Interceptor
 
-You can capture the HTTP requests using the Postman Interceptor, and save them to History or a collection. The following screen illustrates this:
-
-[![request capture interceptor](https://assets.postman.com/postman-docs/Interceptor-with-filters3.gif)](https://assets.postman.com/postman-docs/Interceptor-with-filters3.gif)
-
-You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. The above screen specifies *Spotify* in the **URL** field and *Post* method in the **Methods** field. In this case, Postman looks for any URL containing *Spotify* string with a *Post* method and will save it to the History tab. You can also add the requests you capture to the **History** tab or any collection.
+See [Capturing requests with Interceptor](/docs/postman/sending-api-requests/interceptor#capturing-requests).
