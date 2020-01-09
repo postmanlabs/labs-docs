@@ -70,7 +70,7 @@ You can retrieve cookies from any domain and use them in your Postman requests b
 
 [![interceptor on](https://assets.postman.com/postman-docs/Interceptor-ex1.gif)](https://assets.postman.com/postman-docs/Interceptor-ex1.gif)
 
-Interceptor will sync all cookies for that domain from the browser. It will also sync cookies for all subdomains. 
+Interceptor will sync all cookies for that domain from the browser. It will also sync cookies for all subdomains.
 
 > For example, adding the domain `facebook.com` will also sync cookies from `m.facebook.com`.
 
@@ -82,11 +82,11 @@ You can learn more about managing cookies in Postman in [Cookies](/docs/postman/
 
 ### Capturing requests
 
-You can capture requests by navigating to **Requests**, setting **Source** to **Interceptor**, and turning **Capture Requests** to **ON**. 
+You can capture requests by navigating to **Requests**, setting **Source** to **Interceptor**, and turning **Capture Requests** to **ON**.
 
 You can choose where captured requests come in by updating selecting the **Save Requests to** drop-down. You'll immediately start to see requests from your browser streaming into Postman.
 
-Once the **Interceptor connected** status is green, you can add URL or HTTP method filters by clicking **Show additional filters**. 
+Once the **Interceptor connected** status is green, you can add URL or HTTP method filters by clicking **Show additional filters**.
 
 [![capturing requests](https://assets.postman.com/postman-docs/interceptor-ex2.jpg)](https://assets.postman.com/postman-docs/interceptor-ex2.jpg)
 
@@ -97,6 +97,7 @@ Interceptor works by leveraging a Google Chrome feature and the installation pro
 Postman's native app requires Chrome's [Native Messaging](https://developer.chrome.com/extensions/nativeMessaging) feature. This is an independent executable and will be installed on your machine.
 
 Your installation may include the following options:
+
   1. **[MacOS only] Install NodeJS**: If Postman detects that you don't have the NodeJS binary available, you'll be prompted to install it. Postman will then download the [latest stable version of Node](https://nodejs.org/).
   2. **[Windows only] Add a registry key**: A `com.postman.postmanapp` key is added to `HKCU\Software\Google\Chrome\NativeMessagingHosts\`. The key points to the location of a JSON file (the manifest).
   3. **Add a manifest file**: This is a JSON file (whose structure is defined by [Native Messaging](https://developer.chrome.com/extensions/nativeMessaging)) that gives Chrome the absolute path of the executable that the Interceptor extension can talk to. This file will be installed in a location dependent on your operating system:
@@ -110,7 +111,8 @@ Your installation may include the following options:
 
 ### Troubleshooting tips
 
-  You can find the current status of your Interceptor integration by selecting the Interceptor satellite icon in the upper-right corner of the app, then navigating to **Cookies**:
+You can find the current status of your Interceptor integration by selecting the Interceptor satellite icon in the upper-right corner of the app, then navigating to **Cookies**:
+
   * **Connected**: You're good to move forward with using Interceptor.
   * **Not connected**: You'll want to make sure Interceptor is installed correctly—refer to [Installing interceptor](#installing-interceptor).
   * **Dependencies not installed**: You will be guided by the Postman UI to install the required dependencies.
@@ -133,7 +135,7 @@ For Windows, if you see an installation error in Postman, close Chrome and retry
 
 ## Security
 
-The communication between Interceptor and Postman is encrypted. You can change the default encryption key for additional security by opening the Postman app and heading to **View** > **Developer** > **Show DevTools (Current View)** > **Console**, then entering `pm.interceptorBridge.setKey("<your key here>")`. 
+The communication between Interceptor and Postman is encrypted. You can change the default encryption key for additional security by opening the Postman app and heading to **View** > **Developer** > **Show DevTools (Current View)** > **Console**, then entering `pm.interceptorBridge.setKey("<your key here>")`.
 
 For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right click on the Interceptor icon in your browser, select **Inspect Popup** > **Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will now be encrypted using your own key.
 
@@ -141,13 +143,14 @@ For the Interceptor extension, first enable **Developer mode** in [Chrome extens
 
 > Postman's Chrome app is deprecated and no longer offers feature parity with Postman native. It is highly recommended that you switch to [Postman native](https://www.getpostman.com/downloads/).
 
-The Postman Chrome app's Interceptor functions as a proxy to capture HTTP and HTTPS requests. You can use Interceptor to capture requests made by your Chrome browser and send them to your Postman app's history. 
+The Postman Chrome app's Interceptor functions as a proxy to capture HTTP and HTTPS requests. You can use Interceptor to capture requests made by your Chrome browser and send them to your Postman app's history.
 
-You can filter requests according to the URL by clicking the Interceptor icon in your browser, then applying a filter under **Filter requests**. 
+You can filter requests according to the URL by clicking the Interceptor icon in your browser, then applying a filter under **Filter requests**.
 
 You can use Interceptor to create a Postman collection for a web app or to debug your APIs. You can also use the Postman Chrome app in tandem with Interceptor to make and capture requests.
 
 To use Interceptor with Postman Chrome, you can take the following steps:
+
 1. [Install Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?) from the Chrome Web Store.
 2. Install [Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/support?hl=en) from the Chrome Web Store.
 3. Open Postman, click on the Interceptor icon in the toolbar, and toggle to **On**.
