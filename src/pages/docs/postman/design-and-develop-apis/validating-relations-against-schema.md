@@ -15,8 +15,6 @@ This section describes the following topics:
 * [Validating relations](#validating-relations)
 * [Accessing issues](#accessing-issues)
 * [List of possible issues](#list-of-possible-issues)
-* [Resolving issues](#resolving-issues)
-* [Troubleshooting](#troubleshooting)
 
 ## Validating relations
 
