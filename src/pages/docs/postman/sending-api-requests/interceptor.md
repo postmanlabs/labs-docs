@@ -113,21 +113,21 @@ Your installation may include the following options:
 
 You can find the current status of your Interceptor integration by selecting the Interceptor satellite icon in the upper-right corner of the app, then navigating to **Cookies**:
 
-  * **Connected**: You're good to move forward with using Interceptor.
-  * **Not connected**: You'll want to make sure Interceptor is installed correctly—refer to [Installing interceptor](#installing-interceptor).
-  * **Dependencies not installed**: You will be guided by the Postman UI to install the required dependencies.
+* **Connected**: You're good to move forward with using Interceptor.
+* **Not connected**: You'll want to make sure Interceptor is installed correctly—refer to [Installing interceptor](#installing-interceptor).
+* **Dependencies not installed**: You will be guided by the Postman UI to install the required dependencies.
 
  If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
-  * **[MacOS-only] Node is properly installed**: Node should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
-  * **Manifest file location**: The manifest file (``com.postman.postmanapp.json``) is present, has the correct extension ID (``aicmkgpgakddgnaphhhpliifpcfhicfo``), and the correct path to the executable file.
-    * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
-      * **MacOS / Linux**: `$HOME/.postman`
-      * **Windows**: `%USERPROFILE%/.postman/`
-  * **Executable**: The executable that the manifest points to should exist and be approximately 40MB for Windows/Linux or 33KB for MacOS.
-    * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
-      * **MacOS / Linux**: `$HOME/.postman`
-      * **Windows**: `%USERPROFILE%/.postman/`
+* **[MacOS-only] Node is properly installed**: Node should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
+* **Manifest file location**: The manifest file (``com.postman.postmanapp.json``) is present, has the correct extension ID (``aicmkgpgakddgnaphhhpliifpcfhicfo``), and the correct path to the executable file.
+  * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
+    * **MacOS / Linux**: `$HOME/.postman`
+    * **Windows**: `%USERPROFILE%/.postman/`
+* **Executable**: The executable that the manifest points to should exist and be approximately 40MB for Windows/Linux or 33KB for MacOS.
+  * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
+    * **MacOS / Linux**: `$HOME/.postman`
+    * **Windows**: `%USERPROFILE%/.postman/`
 
 For MacOS, the NodeJS downloader should be saved to your ~/Downloads directory.
 
