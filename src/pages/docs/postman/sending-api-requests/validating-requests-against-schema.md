@@ -5,7 +5,7 @@ page_id: "validating-requests-against-schema"
 warning: false
 ---
 
-Postman can validate your requests an API schema that is linked to it. This helps keeping your documentation, tests etc. in sync with your API specification. If a request isn't conform to the schema, you can see that list of issues and fix them as you go.
+Postman can validate your requests against a linked API schema. This helps keep your documentation, tests, and other linked resources in sync with your API specification. If a request doesn't conform to the schema, you can see a list of issues, and fix them as you go.
 
 > This feature is only available for OpenAPI 3.0 at this time.
 
@@ -17,34 +17,34 @@ This section outlines the following topics:
 
 ## Validating requests
 
-For validation to be executed on your requests, the collection to which they belong needs to be linked to an API.
+To execute validation on your requests, you need to link their collection to an API.
 
-A collection is linked to an API if you have generated it from a schema (see [Generating a collection from a schema](docs/postman/design-and-develop-apis/the-api-workflow/#generating-a-collection-from-a-schema)) or if it has been added as a relation to an existing API (see [Developing an API](/docs/postman/design-and-develop-apis/the-api-workflow/#developing-an-api)).
+A collection is linked to an API if you [generate it from a schema](docs/postman/design-and-develop-apis/the-api-workflow/#generating-a-collection-from-a-schema) or [add it as a relation to an existing API](/docs/postman/design-and-develop-apis/the-api-workflow/#developing-an-api).
 
-The validation of a request happens as soon as the request is sent. In the case where issues are found, a warning message showing the number of issues is displayed next to the name of the request.
+Postman will validate a request when it is sent. If issues are found, you will see a warning message showing the number of issues next to the name of the request.
 
 [![validating request](https://user-images.githubusercontent.com/5029719/72162009-11462f00-33b9-11ea-9038-82ecfacbab9e.gif)](https://user-images.githubusercontent.com/5029719/72162009-11462f00-33b9-11ea-9038-82ecfacbab9e.gif)
 
-> The validation is version speficic, it will be performed against the schema of the particular version of the API linked with the collection. If one version of a collection is linked to more than one version of an API, the schema from the latest created version of API will be selected for validation.
+> Validation is version-specific, and will be performed against the schema of the particular version of the API linked with the collection. If one version of a collection is linked to more than one version of an API, Postman will select the schema from the latest created version of API for validation.
 
 ## Accessing issues
 
-You can see more information about the issues [within the Postman App](#accessing-the-issue-summary). This will indicate the [details of each issue](#understanding-the-issue-summary) so that you can address the underlying problem.
+You can access more information about issues [within the Postman App](#accessing-the-issue-summary), indicating the [details of each issue](#understanding-the-issue-summary) so that you can address the underlying problem.
 
 ### Accessing the issue summary
 
-To show more information about the issues, click the warning message shown next to the name of the request (e.g. **1 issue**). This will open a side-panel on the right where you can get detailed information about which component of the request is having an issue and what the issue is.
+To access more information about the issues, click the warning message next to the name of the request (e.g. **1 issue**). This will open a side-panel on the right indicating detailed information about which component of the request is affected and what the issue itself is.
 
 [![viewing issues](https://user-images.githubusercontent.com/5029719/72162679-4ef78780-33ba-11ea-9d43-45e03c426c42.gif)](https://user-images.githubusercontent.com/5029719/72162679-4ef78780-33ba-11ea-9d43-45e03c426c42.gif)
 
 ### Understanding the issue summary
 
-The **Schema validation** panel is split between two parts:
+The **Schema validation** panel displays the following resources:
 
-* A direct link to the API against which the request is validated, clicking the link will open the API within the Postman app
-* More details on where the issue lies within the request. You can see the [complete list of possible issues](#list-of-possible-issues) below.
+* A direct link to the API against which the request is validated—click the link to open the API within the Postman app.
+* More details on where the issue lies within the request. Check out the [complete list of possible issues](#list-of-possible-issues).
 
-> You can click a specific issue to access directly the request component concerned by it.  
+> You can click a specific issue to access the relevant request component.  
 
 [![viewing issues](https://user-images.githubusercontent.com/5029719/72166142-a0a31080-33c0-11ea-8fab-7d64f9ae1dbd.gif)](https://user-images.githubusercontent.com/5029719/72166142-a0a31080-33c0-11ea-8fab-7d64f9ae1dbd.gif)
 
@@ -86,6 +86,6 @@ This section lists each type of issue that validation may raise along with examp
 
 ## Next steps
 
-Your issue summary includes the details to address any problems validating against your schema. You can edit the relecant components of your request and validate again to see if the issues have been resolved.
+Your issue summary includes the details to address any problems validating against your schema. You can edit the relevant components of your request and validate again to see if the issues have been resolved.
 
-In addition to validating against a schema, if you're still having issues with your requests you can [troubleshoot your API requests](/docs/postman/sending-api-requests/troubleshooting-api-requests/) and if you are not you can start [monitoring your API requests](/docs/postman/monitors/intro-monitors/) to see how they perform.
+In addition to validating against a schema, if you're still having problems with your requests, you can [troubleshoot them](/docs/postman/sending-api-requests/troubleshooting-api-requests/)—otherwise you can start [monitoring your API requests](/docs/postman/monitors/intro-monitors/) to see how they perform.
