@@ -103,7 +103,7 @@ Any data you include in the example will appear in the docs example code sidebar
 
 Postman currently supports [these programming languages or frameworks](/docs/postman/sending-api-requests/generate-code-snippets/#supported-languagesframeworks) to customize your [code snippets](/docs/postman/sending-api-requests/generate-code-snippets).
 
-Don't see your language of choice, or is there a setting missing that you'd find useful? Click "Contribute on GitHub" under the settings icon to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
+Don't see your language of choice, or is there a setting missing that you'd find useful? Click **Contribute on GitHub** under the settings icon to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
 
 ![[code snippets settings](https://i.imgur.com/tEfZ2ry.png)](https://i.imgur.com/tEfZ2ry.png)
 

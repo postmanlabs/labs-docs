@@ -30,7 +30,7 @@ warning: false
 
 ---
 
-Once you’ve finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. Simply copy the code from Postman, and paste it into your own application.
+Once you’ve finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. Copy the code from Postman, and paste it into your own application.
 
 Click the **Code** link under the blue **Send** button to open the **GENERATE CODE SNIPPETS** modal.
 
@@ -42,15 +42,15 @@ Use the dropdown menu to select a language or framework - some have multiple opt
 
 [![languages dropdown](https://assets.postman.com/postman-docs/WS-select-language.png)](https://assets.postman.com/postman-docs/WS-select-language.png)
 
-If you enable "New Code Generation Mode" under the [general settings](/docs/postman/launching-postman/settings), you will see an additional settings icon at the top of this modal.
+If you enable **New Code Generation Mode** under the [general settings](/docs/postman/launching-postman/settings), you will see an additional settings icon at the top of this modal.
 
 [![code gen settings](https://i.imgur.com/DngERAr.png)](https://i.imgur.com/DngERAr.png)
 
-These settings vary by programming language and allow you to customize the way Postman generates these code snippets. Configure these settings to accommodate a project's specific linting requirements, line continuation characters for your operating system, or simply to suit your personal preferences.
+These settings vary by programming language and allow you to customize the way Postman generates these code snippets. Configure these settings to accommodate a project's specific linting requirements, line continuation characters for your operating system, or to suit your personal preferences.
 
 [![code gen specifics](https://i.imgur.com/XRDe6aY.png)](https://i.imgur.com/XRDe6aY.png)
 
-Don't see your language of choice, or is there a setting missing that you'd find useful? Click "Contribute on GitHub" within this modal to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
+Don't see your language of choice, or is there a setting missing that you'd find useful? Click **Contribute on GitHub** within this modal to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
 
 ## Supported languages/frameworks
 
