@@ -73,7 +73,16 @@ If an endpoint exists in the API relation but isn't described in the API schema,
 
 [![endpoint not found in schema](https://user-images.githubusercontent.com/5029719/72102493-0b9c0b00-331f-11ea-828f-e8a237c5b4f2.png)](https://user-images.githubusercontent.com/5029719/72102493-0b9c0b00-331f-11ea-828f-e8a237c5b4f2.png)
 
-If syncing issues are found between the API relation and the API schema, you will see a list of the corresponding issues, split inbetween **request params** and **response body** issues. Check out the [complete list of possible issues](#list-of-possible-issues).
+If syncing issues are found between the API relation and the API schema, the validation summary will outline them under one of the following categories:
+
+* Request params
+* Request headers
+* Request URL
+* Request body
+* Example response body
+* Example response headers
+
+Check out the [complete list of possible issues](#list-of-possible-issues).
 
 [![endpoint has syncing issue](https://user-images.githubusercontent.com/5029719/72102817-c75d3a80-331f-11ea-9045-50d54a5d6690.png)](https://user-images.githubusercontent.com/5029719/72102817-c75d3a80-331f-11ea-9045-50d54a5d6690.png)
 
