@@ -63,7 +63,7 @@ You will see a status indicating whether any issues have been found during valid
 
 ### Understanding the issue summary
 
-The validation summary lists all endpoints in your API relation, regardless of whether they have issues, or if they are described in the API schema. 
+The validation summary lists all endpoints in your API relation, regardless of whether they have issues, or if they are described in the API schema.
 
 If an endpoint has been successfully validated against the API schema, you will see a green checkmark with a message indicating `Validated against PATH`.
 
