@@ -349,7 +349,7 @@ Enter your __Access Token__, __Client Token__, and __Client Secret__, using vari
 
 ## Syncing cookies
 
-If you have session cookies in your browser, you can sync them to Postman using the Interceptor—see [Interceptor extension](https://learning.getpostman.com/docs/postman/sending-api-requests/interceptor-extension/) and [Cookies](/docs/postman/sending-api-requests/cookies/) for more detail.
+If you have session cookies in your browser, you can sync them to Postman using the Interceptor—see [Interceptor extension](https://learning.getpostman.com/docs/postman/sending-api-requests/interceptor/) and [Cookies](/docs/postman/sending-api-requests/cookies/) for more detail.
 
 ## Next steps
 
