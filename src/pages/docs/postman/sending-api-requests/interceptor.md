@@ -41,7 +41,7 @@ If you are using the Postman Chrome app, refer to [Using the Interceptor with Po
 
 * [How it works](#how-it-works)
 
-    * [Troubleshooting tips](#troubleshooting-connectivity)
+    * [Troubleshooting tips](#troubleshooting-tips)
 
 * [Security](#security)
 
@@ -116,9 +116,9 @@ Your installation may include the following options:
 
 You can find the current status of your Interceptor integration by selecting the Interceptor satellite icon in the upper-right corner of the app, then navigating to **Cookies**:
 
-* **Connected**: You're good to move forward with using Interceptor.
-* **Not connected**: You'll want to make sure Interceptor is installed correctly—refer to [Installing interceptor](#installing-interceptor).
-* **Dependencies not installed**: You will be guided by the Postman UI to install the required dependencies.
+* **Connected**: You can proceed with using Interceptor.
+* **Not connected**: Ensure Interceptor is installed correctly—refer to [Installing interceptor](#installing-interceptor).
+* **Dependencies not installed**: Postman will walk you through how to install the required dependencies.
 
  If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
@@ -135,6 +135,10 @@ You can find the current status of your Interceptor integration by selecting the
 For MacOS, the NodeJS downloader should be saved to your ~/Downloads directory.
 
 For Windows, if you see an installation error in Postman, close Chrome and retry before repeating the installation process.
+
+If the aforementioned troubleshooting steps do not fix the problem, you may need to remove all of Interceptor's dependencies (i.e the manifest file, Interceptor Bridge, and for Windows users, the registry key). To do so, open Postman and navigate to **View** > **Developer** > **Show DevTools (Current View)**. Enter `pm.interceptorInstaller.reset()` to remove all present Interceptor dependencies. You can then [continue installation from step 3](#installing-interceptor).
+
+> If any dependencies cannot be removed due to permission issues, you’ll be prompted to delete them manually.
 
 ## Security
 

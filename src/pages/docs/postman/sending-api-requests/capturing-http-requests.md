@@ -37,12 +37,12 @@ If you are using APIs to build client-side applications - mobile apps, websites 
 
 You can capture the HTTP requests using the following two ways:
 
-* [Postman's built-in proxy](#using-the-postman-built-in-proxy)
+* [Built-in proxy](#built-in-proxy)
 * [Interceptor](#interceptor)
 
-## Postman's built-in proxy
+## Built-in proxy
 
-Postman has a proxy in the Postman app that captures the HTTP request.
+Postman has a built-in proxy in the Postman app that captures the HTTP request.
 
 1. The Postman app listens for any calls made by the client app or device.
 1. The Postman proxy captures the request and forwards the request onward to the server.
