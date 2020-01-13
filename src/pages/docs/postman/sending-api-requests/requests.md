@@ -232,6 +232,18 @@ Some APIs require you to send particular headers along with requests, typically 
 > ![Header Preset](https://assets.postman.com/postman-docs/header-preset.jpg)
 > <img alt="Select Preset" src="https://assets.postman.com/postman-docs/select-preset.jpg" width="250px"/>
 
+Postman will automatically add certain headers to your request to make it more likely to succeed. This includes cases where you have selected an authorization helper or have cookies associated with the request domain, as well as some generic headers. You can see headers sent by Postman using the Console—if you need to override any automated headers, you can either deselect the relevant auth helper, clear cookies / toggle off the cookie jar in the request __Settings__, or provide your own value for a header by including it directly in the __Headers__ tab. You can override the following headers:
+
+* User-Agent
+* Accept
+* Host
+* Accept-Encoding
+* Connection
+* Content-Type
+* Content-Length
+
+You can prevent Postman from sending certain the Cache-Control and Postman-Token headers automatically with your requests, by toggling them off in __Preferences__.
+
 Once your headers and other request details are set up, you can click __Send__ to run your request.
 
 ### Using cookies
