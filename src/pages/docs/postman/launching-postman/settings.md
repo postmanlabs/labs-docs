@@ -36,9 +36,10 @@ In the header toolbar of the Postman app, click the wrench icon and select "Sett
 Postman tries to minimize the number of settings you have to change, so we established some defaults. However, given the diversity of use cases, if you need to make adjustments, here's how:
 
 * **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
+* **New Code Generation Mode:** If you’re generating code snippets via the **Code** link, switching this to "ON" enables custom settings by programming language.
 * **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request.
 * **Always open requests in new tab:** Set this option to ON to open requests in a new tab. This option is, by default, set to OFF. Which means each time you click a request in the side bar, Postman opens the request in the preview tab. Refer to the section [Working with tabs](/docs/postman/sending-api-requests/working-with-tabs/) for a clear understanding of this feature.
-* **Always ask when closing unsaved tabs:** If you set this option to OFF, Postman does not prompt you to save changes in your unsaved tabs. By default, this option is set to 'ON'.  
+* **Always ask when closing unsaved tabs:** If you set this option to OFF, Postman does not prompt you to save changes in your unsaved tabs. By default, this option is set to "ON".
 * **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
 * **Request Timeout in ms (0 for infinity):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
 * **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/postman/collection-runs/using-environments-in-collection-runs/#configuring-the-collection-runner).
@@ -62,7 +63,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
     * **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded,
    Postman will inform the user that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact app performance.
 
-[![general settings](https://assets.postman.com/postman-docs/Settings-Apr2019.png)](https://assets.postman.com/postman-docs/Settings-Apr2019.png)
+[![general settings](https://i.imgur.com/kqMc0Pq.png)](https://i.imgur.com/kqMc0Pq.png)
 
 ## Themes
 
