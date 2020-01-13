@@ -22,6 +22,8 @@ warning: false
 
 Postman’s native apps provide a **MANAGE COOKIES** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to the section [Capturing cookies](/docs/postman/sending-api-requests/interceptor-extension/).
 
+> You can disable the cookie jar in the __Settings__ tab for a request at any time to toggle off sending cookies.
+
 ## Getting to the cookie manager
 
 To open the **MANAGE COOKIES** modal, click the **Cookies** link under the **Send** button.
@@ -37,6 +39,10 @@ This opens the **MANAGE COOKIES** modal, and displays a list of domains and the 
 To add a new cookie for the domain, click on the **Add Cookie** button. A pre-generated cookie string according to the [HTTP State Management standards](https://tools.ietf.org/html/rfc6265#section-4.1) will be created, but you can edit it using the text input that appears below it. Clicking the **Save** button will save it to the app’s cookie store under the relevant domain.
 
 [![create a cookie](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)
+
+When you make a request to a domain you have added a cookie to, the cookie will automatically appear in your request __Headers__ tab.
+
+<img alt="Cookie Header" src="https://assets.postman.com/postman-docs/added-cookie-header.jpg" width="500px"/>
 
 ## Adding a domain
 
@@ -59,7 +65,7 @@ You can also add/edit the cookies through the [Set-Cookie header](https://develo
 To whitelist a domain so that cookies can be programmatically accessed, click the **Cookies** link under the **Send** button and open the **MANAGE COOKIES** modal. Click on **Whitelist Domains** from bottom left and enter the list of
 domains needed to be whitelisted.
 
-## Programmatic accees of cookies
+## Programmatic access of cookies
 
 Postman also allows for programmatic cookie access i.e. creating and manipulating cookies by special methods instead of relying on the graphical interface, granting a greater degree of control over cookies to the users.
 

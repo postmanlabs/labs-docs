@@ -30,9 +30,11 @@ warning: false
 
 ---
 
-Once you’ve finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. You’ll need to click the** Code** link under the blue **Send** button to open the **GENERATE CODE SNIPPETS** modal.
+Once you’ve finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. You’ll need to click the **Code** link under the blue **Send** button to open the **GENERATE CODE SNIPPETS** modal.
 
 [![generate code link](https://assets.postman.com/postman-docs/58525940.png)](https://assets.postman.com/postman-docs/58525940.png)
+
+> You can prevent Postman from adding headers to your request code automatically using __Preferences__ &gt; __New Code Generation Mode__, then in the code generation window, opening the settings and turning off __Include Temporary Headers__.
 
 ## Selecting a language
 

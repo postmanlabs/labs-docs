@@ -80,11 +80,11 @@ With a request open in Postman, use the __Authorization__ tab __Type__ dropdown 
 
 When you select a type, Postman will indicate which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Postman will add your auth details to the relevant parts of the request as soon as you select or enter them, so you can see how your auth data will be sent before attempting to run your request.
 
-![Preview Request](https://assets.postman.com/postman-docs/preview-request-auth.jpg)
+<img alt="Auth Setup in Request" src="https://assets.postman.com/postman-docs/auth-bearer-variable.jpg" width="600px"/>
 
-Your auth data will appear in the relevant parts of the request, for example appended to text in the header using the standard formats your API will be able to process.
+Your auth data will appear in the relevant parts of the request, for example appended to text in the header using the standard formats your API will be able to process. You will see info about headers added automatically when you hover over each one, which indicates how to remove any you do not want to send with your request.
 
-![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-preview.jpg)
+<img alt="Auth Header Info" src="https://assets.postman.com/postman-docs/auth-helper-info.jpg" width="500px"/>
 
 Your requests can use environment, collection, and global [variables](/docs/postman/variables-and-environments/variables/). Postman does not save header data or query parameters to avoid exposing sensitive data such as API keys.
 
@@ -124,7 +124,7 @@ Postman will append the relevant information to your request __Headers__ or the 
 
 Bearer tokens allow requests to authenticate using an access key, such as a JSON Web Token (JWT). The token is a text string, included in the request header. In the request __Authorization__ tab, select __Bearer Token__ from the __Type__ dropdown list. In the __Token__ field, enter your API key value—or for added security, store it in a variable and reference the variable by name.
 
-![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-value.jpg)
+<img alt="Auth Setup in Request" src="https://assets.postman.com/postman-docs/auth-bearer-variable.jpg" width="600px"/>
 
 Postman will append the token value to the text "Bearer " in the required format to the request Authorization header as follows:
 
@@ -132,7 +132,7 @@ Postman will append the token value to the text "Bearer " in the required format
 Bearer <Your API key>
 ```
 
-![Bearer Token Preview](https://assets.postman.com/postman-docs/bearer-token-preview.jpg)
+<img alt="Auth Header Info" src="https://assets.postman.com/postman-docs/auth-helper-info.jpg" width="500px"/>
 
 ## Basic auth
 
@@ -148,7 +148,7 @@ In the request __Headers__, you will see that the Authorization header is going 
 Basic <Base64 encoded username and password>
 ```
 
-![Basic Auth Encoded](https://assets.postman.com/postman-docs/basic-auth-encoded.jpg)
+<img alt="Basic Auth Encoded" src="https://assets.postman.com/postman-docs/basic-header-info.jpg" width="500px"/>
 
 ## Digest auth
 
@@ -183,7 +183,7 @@ OAuth 1.0 is sometimes referred to as "two-legged" (auth only between client and
 
 In the __Authorization__ tab for a request, select __OAuth 1.0__ from the __Type__ dropdown list.
 
-![OAuth 1.0](https://assets.postman.com/postman-docs/oauth1-setup.jpg)
+<img alt="OAuth 1.0" src="https://assets.postman.com/postman-docs/oauth-1-config.jpg" width="600px"/>
 
 Enter your __Consumer Key__, __Consumer Secret__, __Access Token__, and __Token Secret__ values. You can optionally set advanced details—otherwise Postman will attempt to autocomplete these.
 
@@ -191,7 +191,7 @@ You can include the auth details either in the request headers or in the body / 
 
 If you send the OAuth 1.0 data in the headers, you will see an Authorization header sending your key and secret values appended to the string " OAuth " together with additional comma-separated required details.
 
-![OAuth 1.0 Headers](https://assets.postman.com/postman-docs/oauth1-headers.jpg)
+<img alt="OAuth 1.0 Headers" src="https://assets.postman.com/postman-docs/oauth-1-headers-added.jpg" width="600px"/>
 
 If you send the OAuth 1.0 data in the body and URL, you will find the data added either in the request __Body__ or __Parameters__ depending on the request method.
 
@@ -227,7 +227,7 @@ An example OAuth 2.0 flow could run as follows:
 
 In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify whether you want pass the auth details in the request URL or headers.
 
-![OAuth 2.0](https://assets.postman.com/postman-docs/oauth2-setup.jpg)
+![OAuth 2.0](https://assets.postman.com/postman-docs/oauth-2-empty-token.jpg)
 
 To request an access token, click __Get New Access Token__.
 
@@ -288,7 +288,7 @@ Hawk authentication enables you to authorize requests using partial cryptographi
 
 In the __Authorization__ tab for a request, select __Hawk Authentication__ from the __Type__ dropdown list.
 
-![Hawk Auth](https://assets.postman.com/postman-docs/hawk-auth.jpg)
+![Hawk Auth](https://assets.postman.com/postman-docs/hawk-auth-config.jpg)
 
 Enter your details in the __Hawk Auth ID__, __Hawk Auth Key__, and __Algorithm__ fields. You can optionally set advanced details, but Postman will attempt to generate values for them if necessary.
 
@@ -316,7 +316,7 @@ The official AWS Signature documentation provides more detail:
 
 In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 
-![AWS Signature Auth](https://assets.postman.com/postman-docs/aws-signature-auth.jpg)
+![AWS Signature Auth](https://assets.postman.com/postman-docs/aws-auth-config.jpg)
 
 Enter your access key and secret values either directly in the fields or via variables for additional security.
 
@@ -349,7 +349,7 @@ Advanced parameters for NTLM auth are as follows:
 
 In the __Authorization__ tab for a request, select __Akamai EdgeGrid__ from the __Type__ dropdown list.
 
- ![Akamai EdgeGrid Auth](https://assets.postman.com/postman-docs/akamai-auth.jpg)
+ ![Akamai EdgeGrid Auth](https://assets.postman.com/postman-docs/akamai-auth-config.jpg)
 
 Enter your __Access Token__, __Client Token__, and __Client Secret__, using variables for additional security—you will receive these details when you register a client application with Akamai.
 
