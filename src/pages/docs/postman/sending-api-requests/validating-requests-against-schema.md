@@ -17,7 +17,7 @@ This section outlines the following topics:
 
 ## Validating requests
 
-To execute validation on your requests, you need to link their collection to an API.
+If you want your requests to be validated, your collection must be linked to an API.
 
 A collection is linked to an API if you [generate it from a schema](docs/postman/design-and-develop-apis/the-api-workflow/#generating-a-collection-from-a-schema) or [add it as a relation to an existing API](/docs/postman/design-and-develop-apis/the-api-workflow/#developing-an-api).
 
@@ -62,7 +62,7 @@ This section lists each type of issue that validation may raise along with examp
 
 `Invalid type` issues occur when the basic type doesn't match, or when the basic type matches but the schema is wrong.
 
-> The path variable "petId" needs to be of type boolean, but we found `<integer>`
+> The path variable "petId" needs to be of type integer, but we found `Cooper`
 
 ### Missing in schema
 
@@ -86,6 +86,6 @@ This section lists each type of issue that validation may raise along with examp
 
 ## Next steps
 
-Your issue summary includes the details to address any problems validating against your schema. You can edit the relevant components of your request and validate again to see if the issues have been resolved.
+Your issue summary helps you keep your requests in sync with your schema.
 
 In addition to validating against a schema, if you're still having problems with your requests, you can [troubleshoot them](/docs/postman/sending-api-requests/troubleshooting-api-requests/)—otherwise you can start [monitoring your API requests](/docs/postman/monitors/intro-monitors/) to see how they perform.
