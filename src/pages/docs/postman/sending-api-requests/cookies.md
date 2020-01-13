@@ -20,7 +20,7 @@ warning: false
 
 ---
 
-Postman’s native apps provide a **MANAGE COOKIES** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to the section [Capturing cookies](/docs/postman/sending-api-requests/interceptor-extension/).
+Postman’s native apps provide a **MANAGE COOKIES** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to the section [Capturing cookies](/docs/postman/sending-api-requests/interceptor/).
 
 > You can disable the cookie jar in the __Settings__ tab for a request at any time to toggle off sending cookies.
 

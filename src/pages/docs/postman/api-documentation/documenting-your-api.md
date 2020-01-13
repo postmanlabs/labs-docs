@@ -133,7 +133,7 @@ To use a variable value in your documentation, [create](/docs/postman/environmen
 
 ![Environment Variable](https://assets.postman.com/postman-docs/env-var.jpg)
 
-When you [reference a variable](/docs/postman/environments-and-globals/variables/#accessing-variables-in-the-request-builder) in your requests, the value from the selected environment will automatically be published along with your documentation.
+When you [reference a variable](/docs/postman/variables-and-environments/variables/#accessing-variables) in your requests, the value from the selected environment will automatically be published along with your documentation.
 
 ![Reference Variable](https://assets.postman.com/postman-docs/reference-var.jpg)
 

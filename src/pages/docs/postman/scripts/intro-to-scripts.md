@@ -14,11 +14,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Microsoft Education"
-    url: "https://www.getpostman.com/case-studies/Microsoft.pdf?_ga=2.224602204.754547870.1571851340-1454169035.1570491567"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Keep it DRY with collection and folder elements"

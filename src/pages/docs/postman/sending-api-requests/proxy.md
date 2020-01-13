@@ -50,7 +50,7 @@ In this analogy, the child forwards the information on behalf of each parent. Be
 * Security from direct attacks
 * DevOps load balancing
 
-A proxy acts like a go-between to perform various functions. Postman has a [built-in web proxy to capture API requests](/docs/postman/sending-api-requests/capturing-http-requests/), the [Postman Interceptor to intercept network traffic](/docs/postman/sending-api-requests/interceptor-extension/), and proxy settings to direct API requests.
+A proxy acts like a go-between to perform various functions. Postman has a [built-in web proxy to capture API requests](/docs/postman/sending-api-requests/capturing-http-requests/), the [Postman Interceptor to intercept network traffic](/docs/postman/sending-api-requests/interceptor/), and proxy settings to direct API requests.
 
 ### Configuring proxy settings
 

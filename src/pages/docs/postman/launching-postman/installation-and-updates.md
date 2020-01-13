@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to APIs"
+    url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
@@ -98,7 +103,7 @@ The Postman Chrome app is deprecated—if you're using the Chrome app, you can [
 The native app is built on [Electron](https://electronjs.org/), and [overcomes a number of restrictions](https://blog.getpostman.com/2017/03/14/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/postman/sending-api-requests/cookies/) directly.
-* Unlike the Chrome app, no separate extension for the ([Interceptor](/docs/postman/sending-api-requests/interceptor-extension/)) is needed.
+* Unlike the Chrome app, no separate extension for the ([Interceptor](/docs/postman/sending-api-requests/interceptor/)) is needed.
 * The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/postman/sending-api-requests/capturing-http-requests/).
 * The native apps are not restricted by the Chrome standards for the menu bar. You can check for updates, create Postman Windows and tabs, and edit preferences.
 * The native apps let you send headers like `Origin` and `User-Agent`. These are restricted in the Chrome app.

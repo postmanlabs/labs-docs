@@ -31,18 +31,18 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor-extension/) for the Postman app.
+If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor/) for the Postman app.
 
 **Note:** For the Postman native apps, request captures over HTTPS will not work if the website has HSTS enabled. Most websites have this check in place.
 
 You can capture the HTTP requests using the following two ways:
 
-* [Using the Postman built-in proxy](#using-the-postman-built-in-proxy)
-* [Using the Interceptor](#using-the-interceptor)
+* [Built-in proxy](#built-in-proxy)
+* [Interceptor](#interceptor)
 
-## Using the Postman built-in proxy
+## Built-in proxy
 
-Postman has a proxy in the Postman app that captures the HTTP request.
+Postman has a built-in proxy in the Postman app that captures the HTTP request.
 
 1. The Postman app listens for any calls made by the client app or device.
 1. The Postman proxy captures the request and forwards the request onward to the server.
@@ -50,7 +50,7 @@ Postman has a proxy in the Postman app that captures the HTTP request.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile.png)](https://assets.postman.com/postman-docs/proxymobile.png)
 
-Similar to the [Interceptor Chrome extension](/docs/postman/sending-api-requests/interceptor-extension/), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
+Similar to the [Interceptor Chrome extension](/docs/postman/sending-api-requests/interceptor/), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
 
 [![proxy logs](https://assets.postman.com/postman-docs/WS-proxy.logs.png)](https://assets.postman.com/postman-docs/WS-proxy.logs.png)
 
@@ -95,10 +95,6 @@ The broader development community has published some useful tutorials for settin
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
 
-## Using the Interceptor
+## Interceptor
 
-You can capture the HTTP requests using the Postman Interceptor, and save them to History or a collection. The following screen illustrates this:
-
-[![request capture interceptor](https://assets.postman.com/postman-docs/Interceptor-with-filters3.gif)](https://assets.postman.com/postman-docs/Interceptor-with-filters3.gif)
-
-You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. The above screen specifies *Spotify* in the **URL** field and *Post* method in the **Methods** field. In this case, Postman looks for any URL containing *Spotify* string with a *Post* method and will save it to the History tab. You can also add the requests you capture to the **History** tab or any collection.
+See [Capturing requests with Interceptor](/docs/postman/sending-api-requests/interceptor#capturing-requests).

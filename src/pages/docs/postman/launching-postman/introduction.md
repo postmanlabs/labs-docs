@@ -15,15 +15,18 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman intro series"
+    url: "https://www.youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
+  - type: link
+    name: "Intro to APIs"
+    url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
     url: "https://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: Postman intro series
-    url: "https://www.youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
 
 ---
 

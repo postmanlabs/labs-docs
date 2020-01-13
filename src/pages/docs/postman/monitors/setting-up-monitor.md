@@ -11,11 +11,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Microsoft Education"
-    url: "https://www.getpostman.com/case-studies/Microsoft.pdf?_ga=2.201039976.754547870.1571851340-1454169035.1570491567"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "API monitoring with Postman"

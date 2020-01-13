@@ -46,17 +46,17 @@ The `require` function allows you to use the sandbox built-in library modules. T
 
 A number of NodeJS modules are also available to use in the sandbox:
 
-* [path](https://nodejs.org/docs/latest-v11.x/api/path.html)
-* [assert](https://nodejs.org/docs/latest-v11.x/api/assert.html)
-* [buffer](https://nodejs.org/docs/latest-v11.x/api/buffer.html)
-* [util](https://nodejs.org/docs/latest-v11.x/api/util.html)
-* [url](https://nodejs.org/docs/latest-v11.x/api/url.html)
-* [punycode](https://nodejs.org/docs/latest-v11.x/api/punycode.html)
-* [querystring](https://nodejs.org/docs/latest-v11.x/api/querystring.html)
-* [string-decoder](https://nodejs.org/docs/latest-v11.x/api/string-decoder.html)
-* [stream](https://nodejs.org/docs/latest-v11.x/api/stream.html)
-* [timers](https://nodejs.org/docs/latest-v11.x/api/timers.html)
-* [events](https://nodejs.org/docs/latest-v11.x/api/events.html)
+* [path](https://nodejs.org/api/path.html)
+* [assert](https://nodejs.org/api/assert.html)
+* [buffer](https://nodejs.org/api/buffer.html)
+* [util](https://nodejs.org/api/util.html)
+* [url](https://nodejs.org/api/url.html)
+* [punycode](https://nodejs.org/api/punycode.html)
+* [querystring](https://nodejs.org/api/querystring.html)
+* [string-decoder](https://nodejs.org/api/string_decoder.html)
+* [stream](https://nodejs.org/api/stream.html)
+* [timers](https://nodejs.org/api/timers.html)
+* [events](https://nodejs.org/api/events.html)
 
 In order to use a library, simply call the `require` function and pass the module name as a parameter and assign the return of the function to a variable.
 
