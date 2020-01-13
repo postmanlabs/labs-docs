@@ -28,7 +28,7 @@ warning: false
 
 ---
 
-A lot of folks think of Postman as an advanced REST client. Beyond REST, Postman is a tool that handles any calls sent over HTTP. This means that you can use Postman to interact with protocol-agnostic APIs - such as [SOAP](/docs/postman/sending-api-requests/making-soap-requests/) and GraphQL, which can both utilize HTTP, just like REST.
+Many people think of Postman as an advanced REST client. Beyond REST, Postman is a tool that handles any calls sent over HTTP. This means that you can use Postman to interact with protocol-agnostic APIs - such as [SOAP](/docs/postman/sending-api-requests/making-soap-requests/) and GraphQL, which can both utilize HTTP, just like REST.
 
 Learn how Postman supports working with GraphQL.
 
@@ -43,7 +43,7 @@ Try it out in Postman with this [example template](https://explore.postman.com/t
 
 ## Sending a GraphQL query
 
-Authoring and sending a GraphQL query in Postman is simple. The following screen illustrates one way to send a GraphQL query in Postman.
+There's a few ways for you to author and send a GraphQL query in Postman. The following screen illustrates one way to send a GraphQL query using Postman's inbuilt support.
 
 [![graphql body](https://assets.postman.com/postman-docs/GraphQL-Body.png)](https://assets.postman.com/postman-docs/GraphQL-Body.png)
 
@@ -63,7 +63,7 @@ To [create or import a GraphQL schemas](/docs/postman/design-and-develop-apis/th
 
 1. Under the **APIs** tab, click **+ New API**, navigate to the **Define** tab, and then select **Create new** or **Import file**.
 [![upload schema](https://i.imgur.com/dCM4jyE.png)](https://i.imgur.com/dCM4jyE.png)
-1. Choose "GraphQL" from the dropdown, and click **Save**.
+1. Choose **GraphQL** from the dropdown, and click **Save**.
 [![save schema](https://i.imgur.com/GCrGiVp.png)](https://i.imgur.com/GCrGiVp.png)
 
 ## Autocomplete for GraphQL

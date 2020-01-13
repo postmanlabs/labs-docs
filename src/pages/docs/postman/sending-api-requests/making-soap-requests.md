@@ -23,7 +23,7 @@ warning: false
 
 ---
 
-A lot of folks think of Postman as an advanced REST client. Beyond REST, Postman is a tool that handles any calls sent over HTTP. This means that you can use Postman to interact with protocol-agnostic APIs - such as SOAP and [GraphQL](/docs/postman/sending-api-requests/graphql/), which can both utilize HTTP, just like REST.
+Many people think of Postman as an advanced REST client. Beyond REST, Postman is a tool that handles any calls sent over HTTP. This means that you can use Postman to interact with protocol-agnostic APIs - such as SOAP and [GraphQL](/docs/postman/sending-api-requests/graphql/), which can both utilize HTTP, just like REST.
 
 To make SOAP requests using Postman:
 
@@ -32,6 +32,6 @@ To make SOAP requests using Postman:
 1. Open the raw editor, and set the body type as "text/xml".
 1. In the request body, define the SOAP Envelope, Header and Body tags as required. Start by giving the SOAP Envelope tag, which is necessary, and define all the namespaces. Give the SOAP header and the body. The name of the SOAP method (operation) should be specified in the SOAP body.
 
-Check out our blog [Postman makes SOAP requests too](https://blog.getpostman.com/2017/11/18/postman-makes-soap-requests-too/), and try it out in Postman with this [example template](https://explore.postman.com/templates/1880/soap-holiday-web-service).
+Check out the Postman blog, [Postman makes SOAP requests too](https://blog.getpostman.com/2017/11/18/postman-makes-soap-requests-too/), and try it out in Postman with this [example template](https://explore.postman.com/templates/1880/soap-holiday-web-service).
 
 [![soap template](https://i.imgur.com/z0KWWSo.png)](https://i.imgur.com/z0KWWSo.png)
