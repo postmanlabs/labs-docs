@@ -1,6 +1,6 @@
 ---
 title: "Changing your plan"
-order: 106
+order: 134
 page_id: "changing_your_plan"
 tags: 
   - "pro"

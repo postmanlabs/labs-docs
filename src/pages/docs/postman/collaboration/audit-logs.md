@@ -1,5 +1,6 @@
 ---
 title: "Audit logs"
+order: 29.5
 page_id: "audit_logs"
 tags: 
   - "enterprise"

@@ -1,6 +1,6 @@
 ---
 title: "Managing your team"
-order: 107
+order: 29.3
 page_id: "managing_your_team"
 tags: 
   - "pro"

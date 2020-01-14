@@ -1,6 +1,6 @@
 ---
 title: "Billing"
-order: 103
+order: 133
 page_id: "billing"
 tags: 
   - "pro"

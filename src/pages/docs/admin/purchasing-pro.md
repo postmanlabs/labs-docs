@@ -1,6 +1,6 @@
 ---
 title: "Purchasing Postman Pro"
-order: 102
+order: 130
 page_id: "purchasing_postman_pro"
 tags:
   - "pro"

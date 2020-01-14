@@ -1,5 +1,6 @@
 ---
 title: "Buying"
+order: 132
 page_id: "buying"
 tags: 
   - "pro"

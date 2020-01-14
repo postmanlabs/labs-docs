@@ -1,6 +1,6 @@
 ---
-title: "Collaboration"
-order: 10
+title: "Collaborating in Postman"
+order: 29.1
 page_id: "collaboration"
 warning: false
 contextual_links:

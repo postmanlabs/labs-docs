@@ -1,6 +1,6 @@
 ---
 title: "Roles and permissions"
-order: 109
+order: 29.2
 page_id: "roles_and_permissions"
 warning: false
 contextual_links:
