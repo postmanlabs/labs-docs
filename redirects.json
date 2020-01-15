@@ -226,5 +226,9 @@
   {
     "from":"/docs/postman/sending-api-requests/interceptor-extension/",
     "to":"/docs/postman/sending-api-requests/interceptor/"
+  },
+  {
+    "from":"/docs/postman/monitors/pricing-monitors/",
+    "to": "/docs/postman/monitors/intro-monitors/#pricing"
   }
 ]
