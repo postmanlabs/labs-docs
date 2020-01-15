@@ -85,12 +85,16 @@ To reset your search, click **Clear filters** at the top of the activity feed. Y
 Filtering by user will only display the actions done by the user(s) selected.
 To filter by user, click **Filter by User** at the top of the activity feed and select the user(s). You can search for a specific user by typing their name in the search field. Once you have selected the user(s), click **Apply**.
 
+> The user list will only show the users that are part of the workspace, not all team members.
+
 [![activity feed filtering user](https://user-images.githubusercontent.com/5029719/72342650-d861cf00-36c4-11ea-9156-95a41646c552.gif)](https://user-images.githubusercontent.com/5029719/72342650-d861cf00-36c4-11ea-9156-95a41646c552.gif)
 
 #### Filtering by entity
 
 Filtering by entity will only display the actions that have been done on the entity type(s) selected.
 To filter by entity, click **Filter by Entity** at the top of the activity feed and select the entity/ies. You can search for a specific entity by typing its name in the search field. Once you have selected the entity/ies, click **Apply**.
+
+> You can access the changelog of a specific collection by clicking **View Changelog** next to actions on collections.
 
 [![activity feed filtering entity](https://user-images.githubusercontent.com/5029719/72342864-6c339b00-36c5-11ea-959c-29a1a5161f4f.gif)](https://user-images.githubusercontent.com/5029719/72342864-6c339b00-36c5-11ea-959c-29a1a5161f4f.gif)
 
