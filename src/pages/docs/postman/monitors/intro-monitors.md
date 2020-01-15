@@ -109,10 +109,9 @@ This page allows you to view your team's current billing period, how many reques
 
 ### How Postman calculates monitor usage
 
-Postman calculates monitor usage based on the actual requests made during a run, which may not equate the number of requests in your collection. 
+Postman calculates monitor usage based on the actual requests made during a run, which may not equate the number of requests in your collection.
 
 If you use `postman.setNextRequest()` to skip a request or run a request multiple times, Postman will take that into account when calculating usage. Postman will also count any requests required for [authorization](/docs/postman/sending-api-requests/authorization/).
-
 
 ## Running collections in a monitor
 
