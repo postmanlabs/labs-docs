@@ -59,6 +59,7 @@ In the **[Integrations](https://go.postman.co/workspaces)** page, find Github fr
 
 [![github integration](https://assets.postman.com/postman-docs/integrations-github1.png)](https://assets.postman.com/postman-docs/integrations-github1.png)
 
+Click **View Details** to see information about Github and how it can back up your Postman Collections to your designated repositories.
 
 > You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Github, or view all integrations.
 
