@@ -26,7 +26,7 @@ During the buying process you will be prompted to supply the following details:
 * Your billing cycle (monthly or annual)
 * How many paid user slots you need (you'll need a paid slot for anyone who needs to access the relevant Postman features, but each team has two free slots you can use for account management / billing)
 * Your account email and role (admin if you're going to be using the paid Postman plan yourself, or billing if you are only making the purchase)
-  * If you choose the billing role you can also enter an admin email address, which is where your account activation email will be sent so that the administrator can set your Postman plan up
+    * If you choose the billing role you can also enter an admin email address, which is where your account activation email will be sent so that the administrator can set your Postman plan up
 
 Once your plan configuration is in place you can proceed to entering your payment details.
 
