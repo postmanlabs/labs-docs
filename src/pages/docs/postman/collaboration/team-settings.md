@@ -8,11 +8,9 @@ warning: false
 contextual_links:
   - type: section
     name: "Additional Resources"
-  - type: subtitle
-    name: "Related Blog Posts"
   - type: link
-    name: "Custom team URLs for Pro and Enterprise"
-    url: "https://blog.getpostman.com/2017/06/06/custom-team-urls-for-pro-and-enterprise/?_ga=2.175634722.1078379737.1571761632-963694147.1565912089"
+    name: "Postman Pricing"
+    url: "https://www.getpostman.com/pricing"
 
 ---
 
@@ -55,11 +53,11 @@ You can see your domain in the Custom Domain list.
 
 [![custom domain list](https://assets.postman.com/postman-docs/teamSetting-customDomains.jpeg)](https://assets.postman.com/postman-docs/teamSetting-customDomains.jpeg)
 
-**Note**: Pro teams can add up to 5 domains.
+> Available domains depend on your [Postman plan level](https://www.getpostman.com/pricing).
 
 ## Authentication
 
-### (Enterprise-only)
+> __Postman Business and Enterprise plans only__
 
 In the Authentication settings, you can choose a Single Sign-on authentication provider to create a custom authentication method for your team.
 
