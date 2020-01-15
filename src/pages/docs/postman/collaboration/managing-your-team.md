@@ -2,8 +2,6 @@
 title: "Managing your team"
 order: 29.3
 page_id: "managing_your_team"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section
@@ -13,33 +11,24 @@ contextual_links:
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
     url: "https://blog.getpostman.com/2019/07/23/postman-team-workspaces-and-permissions/"
-  - type: link
-    name: "Support-only accounts for Postman Pro teams"
-    url: "https://blog.getpostman.com/2018/03/31/support-only-accounts-for-postman-pro-teams/"
 
 ---
+
+> __[Certain team options are only available with Postman Team, Business, or Enterprise.](https://www.getpostman.com/pricing)__
 
 Postman's [web dashboard](https://app.getpostman.com/dashboard/teams) provides a number of ways to manage your team.
 
 ## Contents
 
-* [Member roles](/docs/postman-pro/managing-pro/managing-your-team/#member-roles)
-
-    * [Managing roles](/docs/postman-pro/managing-pro/managing-your-team/#managing-roles)
-
-* [Invites](/docs/postman-pro/managing-pro/managing-your-team/#invites)
-
-    * [Inviting to a team](/docs/postman-pro/managing-pro/managing-your-team/#inviting-to-a-team)
-
-    * [Inviting to team workspaces in the dashboard](/docs/postman-pro/managing-pro/managing-your-team/#inviting-to-team-workspaces-in-the-dashboard)
-
-    * [Inviting to team workspaces in the app](/docs/postman-pro/managing-pro/managing-your-team/#inviting-to-team-workspaces-in-the-app)
-
-    * [Canceling invitations](/docs/postman-pro/managing-pro/managing-your-team/#canceling-invitations)
-
-* [Changing team size](/docs/postman-pro/managing-pro/managing-your-team/#changing-team-size)
-
-* [Next steps](/docs/postman-pro/managing-pro/managing-your-team/#next-steps)
+* [Member roles](#member-roles)
+    * [Managing roles](#managing-roles)
+* [Invites](#invites)
+    * [Inviting to a team](#inviting-to-a-team)
+    * [Inviting to team workspaces in the dashboard](#inviting-to-team-workspaces-in-the-dashboard)
+    * [Inviting to team workspaces in the app](#inviting-to-team-workspaces-in-the-app)
+    * [Canceling invitations](#canceling-invitations)
+* [Changing team size](#changing-team-size)
+* [Next steps](#next-steps)
 
 ## Member roles
 
@@ -63,7 +52,7 @@ Invitations are sent to individuals you opt to add to your Postman team. Only ad
 
 In [Team](https://go.postman.co/team), click **Invite Users**. Enter the email address of the individual you'd like to invite, then select **Invite Users** to complete.
 
- [![invite users](https://assets.postman.com/postman-docs/Screen Shot 2019-11-12 at 1.18.07 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-12 at 1.18.07 PM.png)
+[![invite users](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%201.18.07%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%201.18.07%20PM.png)
 
 ### Inviting to team workspaces in the dashboard
 
@@ -75,7 +64,7 @@ In a workspace, click **...** > **Manage Members**. Enter the name or email of t
 
 Select **Invite**, enter the name or email of the individuals you'd like to add to the workspace, then click **Send Invitations**.
 
- [![invite via app](https://assets.postman.com/postman-docs/Screen Shot 2019-11-12 at 2.00.10 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-12 at 2.00.10 PM.png)
+ [![invite via app](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%202.00.10%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%202.00.10%20PM.png)
 
 ### Canceling invitations
 
