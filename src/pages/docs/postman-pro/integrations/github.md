@@ -23,20 +23,22 @@ contextual_links:
     url: "https://blog.getpostman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/?_ga=2.184833577.1078379737.1571761632-963694147.1565912089"
 ---
 
-Postman allows to back up and synchronize your collections or APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token). This section describes: 
+Postman allows to back up your collections and synchronize your APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token). This section describes: 
 
 * [Backing up collections on GitHub](#backing-up-collections-on-github)
-  * [Configuring GitHub integration](#configuring-github-integration)
+  * [Configuring GitHub integration for collections](#configuring-github-integration-for-collections)
   * [Backup collections to GitHub](#backup-collections-to-github)
   * [Backup collections to GitHub on custom domain](#backup-collections-to-github-on-custom-domain)
-* [Syncing your API schemas on GitHub](#syncing-your-api-schemas-on-github)
-
+* [Syncing API schemas on GitHub](#syncing-your-api-schemas-on-github)
+  * [Configuring GitHub integration for API schemas](#configuring-github-integration-for-api-schemas)
+  * [Syncing a different version of the API schema](#syncing-a-different-version-of-the-api-schema)
+  * [Troubleshooting](#troubleshooting)
 
 > Backing up collections is only available for the Postman Pro plan.
 
 ## Generating a GitHub Personal Access Token
 
-Setting up a GitHub integration requires you to get a GitHub Personal Access Token and configure how you would like to back up your collections.
+Setting up a GitHub integration requires you to get a GitHub Personal Access Token.
 
 Log in to [GitHub](https://github.com/).
 
@@ -52,44 +54,44 @@ Once that token is generated, copy it and save it somewhere for future use.
 
 ## Backing up collections on GitHub
 
-### Configuring GitHub integration
+### Configuring GitHub integration for collections
 
 1. In the **[Integrations](https://go.postman.co/workspaces)** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![github integration](https://assets.postman.com/postman-docs/integrations-github1.png)](https://assets.postman.com/postman-docs/integrations-github1.png)
 
-1. Click **View Details** to see information about Github and how it can back up your Postman Collections to your designated repositories.
+2. Click **View Details** to see information about Github and how it can back up your Postman Collections to your designated repositories.
 
     You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Github, or view all integrations.
 
 [![select github integration](https://assets.postman.com/postman-docs/GitHub_Integrations1.png)](https://assets.postman.com/postman-docs/GitHub_Integrations1.png)
 
-    The above screen provides you the following two options:
+The above screen provides you the following two options:
 
-    * [Backup your Postman Collections to GitHub](#backup-collections-to-gitHub)
-    * [Backup your Postman Collections to GitHub on a custom domain](#backup-collections-to-gitHub-on-custom-domain)
+* [Backup your Postman Collections to GitHub](#backup-collections-to-gitHub)
+* [Backup your Postman Collections to GitHub on a custom domain](#backup-collections-to-gitHub-on-custom-domain)
 
 ### Backup collections to GitHub
 
 1. Click the **Add Integration** button to authorize a backup of your Postman collections.
 
-1. Enter your GitHub Personal Access Token and click the **Proceed button**.
+2. Enter your GitHub Personal Access Token and click the **Proceed button**.
 
 [![access token](https://assets.postman.com/postman-docs/WS-integrations-github-access-token.png)](https://assets.postman.com/postman-docs/WS-integrations-github-access-token.png)
 
-1. Once the token is verified, you will be shown the configuration page to configure the integration.
+3. Once the token is verified, you will be shown the configuration page to configure the integration.
 
 [![configure](https://assets.postman.com/postman-docs/WS-integrations-github-configure.png)](https://assets.postman.com/postman-docs/WS-integrations-github-configure.png)
 
-    * Select a collection to back up.
-    * Select the repository.
-    * Enter the directory where the collection will be pushed. If the directory does not exist, it will be created for you. If you do not specify anything, the default directory will be `Postman Collections`.
-    * Enter the file name of the collection in the repository.
-    * Enter the branch where the collection will be pushed. This branch should already exist in your repository. If you do not specify anything, it will be pushed to the default branch of the repository.
+* Select a collection to back up.
+* Select the repository.
+* Enter the directory where the collection will be pushed. If the directory does not exist, it will be created for you. If you do not specify anything, the default directory will be `Postman Collections`.
+* Enter the file name of the collection in the repository.
+* Enter the branch where the collection will be pushed. This branch should already exist in your repository. If you do not specify anything, it will be pushed to the default branch of the repository.
 
-1. Click the **Add Integration** button.
+4. Click the **Add Integration** button.
 
-    Every change saved to your Postman Collection automatically commits changes to your GitHub repo in real time.  Your Collections and code can live together in perfect harmony in the same repository.
+> Every change saved to your Postman Collection automatically commits changes to your GitHub repo in real time.  Your Collections and code can live together in perfect harmony in the same repository.
 
 ### Backup collections to GitHub on custom domain
 
@@ -114,3 +116,30 @@ Your Collection is pushed to your GitHub project under the directory that you sp
 
 ## Syncing your API schemas on GitHub
 
+Syncing your API schemas will enable a two-way sync between the schema stored in the GitHub repository and the schema on Postman. 
+
+### Configuring GitHub integration for API schemas
+
+You can access the configuration for the GitHub integration [from the web dashboard](#from-the-web-dashboard) or [from the Postman app](#from-the-postman-app). Once on the configuration page. Once done you can go ahead with the [configuration](#configuration).
+
+#### From the web dashboard
+
+Navigate to the [web dashboard](https://go.postman.co/workspaces), select the appropriate workspace, then **Integrations** at the top. On the integrations page, click **Create an integration in this workspace** > **View Details** on the GitHub tile > **+ Add Integration** next to Sync API schema. 
+
+[![schema sync dashboard](https://user-images.githubusercontent.com/5029719/72450395-36b8ab80-37b2-11ea-9ac0-5659f588ec23.gif)](https://user-images.githubusercontent.com/5029719/72450395-36b8ab80-37b2-11ea-9ac0-5659f588ec23.gif)
+
+#### From the Postman app
+
+Navigate to your API by clicking **APIs** in the app sidebar, then [define a new API](https://learning.getpostman.com/docs/postman/design-and-develop-apis/the-api-workflow/#defining-an-api) or select an existing one from the list. Click **Connect Repository** to start configuring the integration.
+
+[![schema sync app](https://user-images.githubusercontent.com/5029719/72450955-1b9a6b80-37b3-11ea-9c64-44e7acc5166f.gif)](https://user-images.githubusercontent.com/5029719/72450955-1b9a6b80-37b3-11ea-9c64-44e7acc5166f.gif)
+
+#### Configuration
+
+Enter your personal access token in the text field, select **I consent to Postman collecting and storing my GitHub Access Token**, then click **Proceed**. On the next page, select the API you want to sync with GitHub and the GitHub repository where you want the schema to be saved from the dropdowns, then click **Add Integration and Continue**. 
+
+> The list of your GitHub repositories may take some time to load.
+
+### Syncing a different version of the API schema
+
+### Troubleshooting
