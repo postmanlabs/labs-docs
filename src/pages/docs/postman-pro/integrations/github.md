@@ -55,13 +55,12 @@ Once that token is generated, copy it and save it somewhere for future use.
 
 ### Configuring GitHub integration for collections
 
-1. In the **[Integrations](https://go.postman.co/workspaces)** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
+In the **[Integrations](https://go.postman.co/workspaces)** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![github integration](https://assets.postman.com/postman-docs/integrations-github1.png)](https://assets.postman.com/postman-docs/integrations-github1.png)
 
-2. Click **View Details** to see information about Github and how it can back up your Postman Collections to your designated repositories.
 
-    You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Github, or view all integrations.
+> You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Github, or view all integrations.
 
 [![select github integration](https://assets.postman.com/postman-docs/GitHub_Integrations1.png)](https://assets.postman.com/postman-docs/GitHub_Integrations1.png)
 
@@ -72,13 +71,11 @@ The above screen provides you the following two options:
 
 ### Backup collections to GitHub
 
-1. Click the **Add Integration** button to authorize a backup of your Postman collections.
-
-2. Enter your GitHub Personal Access Token and click the **Proceed button**.
+Click the **Add Integration** button to authorize a backup of your Postman collections, then enter your GitHub Personal Access Token and click the **Proceed button**.
 
 [![access token](https://assets.postman.com/postman-docs/WS-integrations-github-access-token.png)](https://assets.postman.com/postman-docs/WS-integrations-github-access-token.png)
 
-3. Once the token is verified, you will be shown the configuration page to configure the integration.
+Once the token is verified, you will be shown the configuration page to configure the integration.
 
 [![configure](https://assets.postman.com/postman-docs/WS-integrations-github-configure.png)](https://assets.postman.com/postman-docs/WS-integrations-github-configure.png)
 
@@ -88,7 +85,7 @@ The above screen provides you the following two options:
 * Enter the file name of the collection in the repository.
 * Enter the branch where the collection will be pushed. This branch should already exist in your repository. If you do not specify anything, it will be pushed to the default branch of the repository.
 
-4. Click the **Add Integration** button.
+To finish, click the **Add Integration** button.
 
 > Every change saved to your Postman Collection automatically commits changes to your GitHub repo in real time.  Your Collections and code can live together in perfect harmony in the same repository.
 
@@ -96,20 +93,17 @@ The above screen provides you the following two options:
 
 [![access token custom](https://assets.postman.com/postman-docs/GitHub_AccessToken_Custom_Domain.png)](https://assets.postman.com/postman-docs/GitHub_AccessToken_Custom_Domain.png)
 
-1. Enter your GitHub Personal Access Token, specify your GitHub custom domain and click **Proceed**.
-
-1. In the **Backup your Postman Collections** page, choose an existing Postman Collection, your GitHub repository, specify a file name for your backup and enter the name of the branch.
+Enter your GitHub Personal Access Token, specify your GitHub custom domain and click **Proceed**. Then, in the **Backup your Postman Collections** page, choose an existing Postman Collection, your GitHub repository, specify a file name for your backup and enter the name of the branch.
 
 [![github integrations screen](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)
 
-1. Click **Add Integration**.
-Your Collection is pushed to your GitHub project under the directory that you specified and saved as a single JSON file. This is illustrated in the following screen:
+Click **Add Integration**. Your collection is pushed to your GitHub project under the directory that you specified and saved as a single JSON file. This is illustrated in the following screen:
 
 [![github integrations screen](https://assets.postman.com/postman-docs/Github_Integrations6.png)](https://assets.postman.com/postman-docs/Github_Integrations6.png)
 
-    Now every change that is saved to your Postman Collection automatically commits changes to your GitHub repository in real time. Your Collections and code can exist in the same repository.
+Now every change that is saved to your Postman Collection automatically commits changes to your GitHub repository in real time. Your collections and code can exist in the same repository.
 
-    You can navigate to your GitHub repository and view your collections, as illustrated in the screen below:
+> You can navigate to your GitHub repository to view your collections.
 
 [![github integrations screen](https://assets.postman.com/postman-docs/Github_Integrations5.png)](https://assets.postman.com/postman-docs/Github_Integrations5.png)
 
