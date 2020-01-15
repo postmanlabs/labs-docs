@@ -57,7 +57,7 @@ You can alternatively review a collection changelog from the [Workspaces dashboa
 
 ## Viewing workspace activity
 
-You can access the activity feed [from the Postman app](#accessing-the-activity-feed-from-the-postman-app) or the [web dashboard](#accessing-the-activity-feed-from-the-web-dashboard). The activity feed will show information on who added or removed collections, environments, or entities from the workspace as well as members joining and leaving the workspace. You can [filter these information](#filtering-the-activity-feed) directly within the activity feed.
+You can access the activity feed [from the Postman app](#accessing-the-activity-feed-from-the-postman-app) or the [web dashboard](#accessing-the-activity-feed-from-the-web-dashboard). The activity feed will show information on who added or removed collections, environments, or entities from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
 
 ### Accessing the activity feed from the Postman app
 
@@ -67,22 +67,19 @@ To access the activity feed from the Postman app, toggle to the browse view by c
 
 ### Accessing the activity feed from the web dashboard
 
-You can also access the activity feed by logging-in to the [web dashboard](https://app.getpostman.com/dashboard), navigating to the appropriate workspace, then selecting the **Activity** tab to see the events that have occured within the workspace.
+You can also access the activity feed by logging in to the [web dashboard](https://app.getpostman.com/dashboard), navigating to the appropriate workspace, then selecting the **Activity** tab to see the events that have occured within the workspace.
 
 [![activity feed from dashboard](https://user-images.githubusercontent.com/5029719/72341061-44dacf00-36c1-11ea-80e6-d005d465585e.gif)](https://user-images.githubusercontent.com/5029719/72341061-44dacf00-36c1-11ea-80e6-d005d465585e.gif)
 
 ### Filtering the activity feed
 
-Filtering the activity feed allows you to display the relevant information direcly instead of having to scroll through. You can filter by:
-
-* [User](#filtering-by-user)
-* [Entity](#filtering-by-entity) (Collections, Workspace, Environment)
+Filtering the activity feed allows you to display the relevant information directly instead of having to scroll through the feed. You can choose to filter by [user](#filtering-by-user) or by [entity](#filtering-by-entity) (Collections, Workspace, Environment).
 
 To reset your search, click **Clear filters** at the top of the activity feed. You can also refresh the results by clicking **Refresh** at the top-right of the activity feed.
 
 #### Filtering by user
 
-Filtering by user will only display the actions done by the user(s) selected.
+Filtering by user will only display the actions the specified user carried out.
 To filter by user, click **Filter by User** at the top of the activity feed and select the user(s). You can search for a specific user by typing their name in the search field. Once you have selected the user(s), click **Apply**.
 
 > The user list will only show the users that are part of the workspace, not all team members.
@@ -91,8 +88,8 @@ To filter by user, click **Filter by User** at the top of the activity feed and 
 
 #### Filtering by entity
 
-Filtering by entity will only display the actions that have been done on the entity type(s) selected.
-To filter by entity, click **Filter by Entity** at the top of the activity feed and select the entity/ies. You can search for a specific entity by typing its name in the search field. Once you have selected the entity/ies, click **Apply**.
+Filtering by entity will only display the aactions carried out on the selected entity type.
+To filter by entity, click **Filter by Entity** at the top of the activity feed and select the entity or entities. You can search for a specific entity by typing its name in the search field. Once you have selected the entity or entities, click **Apply**.
 
 > You can access the changelog of a specific collection by clicking **View Changelog** next to actions on collections.
 
