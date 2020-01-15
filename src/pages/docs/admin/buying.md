@@ -1,66 +1,49 @@
 ---
-title: "Buying"
+title: "Purchasing Postman"
 order: 132
 page_id: "buying"
-tags: 
-  - "pro"
 warning: false
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: link
+    name: "Postman Pricing"
+    url: "https://www.getpostman.com/pricing"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Billing"
+    url:  "http://localhost:8000/docs/admin/billing/"
 
 ---
 
-## Buying for someone else
+Visit the [pricing page](https://www.getpostman.com/pricing) to purchase Postman Team, Business, or Enterprise. Select your chosen plan level or follow the links to learn more. If you are [upgrading from an existing paid account](#upgrading-your-plan), you can use the links in your billing dashboard.
 
-* Head to the [pricing page](https://www.getpostman.com/pricing) on the Postman website, and click "Buy Postman Pro".
+## Configuring your plan
 
-    [![buy pro](https://assets.postman.com/postman-docs/pricing.png)](https://assets.postman.com/postman-docs/pricing.png)  
+During the buying process you will be prompted to supply the following details:
 
-* Select the billing cycle (annual/monthly), and the number of paid users slots. Paid users can use collaboration features, but each team gets 2 free support accounts for admin/billing purposes.
-* Enter your email, and choose the "billing role". This indicates that the activation email will go to the person entered in the "admin email" field.
-* Confirm the details, and proceed to payment.
+* Your billing cycle (monthly or annual)
+* How many paid user slots you need (you'll need a paid slot for anyone who needs to access the relevant Postman features, but each team has two free slots you can use for account management / billing)
+* Your account email and role (admin if you're going to be using the paid Postman plan yourself, or billing if you are only making the purchase)
+  * If you choose the billing role you can also enter an admin email address, which is where your account activation email will be sent so that the administrator can set your Postman plan up
 
-    [![confirm plan details](https://assets.postman.com/postman-docs/59191661.png)](https://assets.postman.com/postman-docs/59191661.png)
+Once your plan configuration is in place you can proceed to entering your payment details.
 
-* You'll be prompted to enter your name, address, email, and credit card details. For security reasons, Postman does not store any credit card data. This data is stored only by Stripe, our payment provider, who has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1, the most stringent level of certification available in the payments industry.
-* **Remember** - your card will automatically be charged monthly/annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.
-* After payment, you'll see a confirmation with the transaction ID. Use this ID for any communication with us.
-* The designated admin will receive an activation link, and you will receive a link to join the team as a billing-only user.
+* For security reasons, Postman does not store any credit card data. The data is stored only by payment provider Stripe, who are certified to PCI Service Provider Level 1.
+* __Your card will automatically be charged monthly or annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.__
+* Review the details of your plan to ensure they are correct before you submit your payment details.
+* After payment, you'll see a confirmation with the transaction ID. Use this ID for any communication with Postman.
+* The designated admin will receive an activation link where you can begin inviting your team members. Billing-only users will receive a link to join the team in the billing role.
 
-## Buying for yourself
+## Upgrading your plan
 
-### **Not upgrading from a trial**
+To upgrade your Postman plan, log into your account, and visit the [billing page](https://go.postman.co/billing/overview). Next to your current plan, click **Upgrade**, then the additional options button (__...__), and select __Change plan__.
 
-* Head to the [pricing page](https://www.getpostman.com/pricing) on the Postman website, and click "Buy Postman Pro".
+Choose your upgrade option, [configure the details](#configuring-your-plan), and proceed to payment.
 
-    [![buy pro](https://assets.postman.com/postman-docs/pricing.png)](https://assets.postman.com/postman-docs/pricing.png)  
+When you've successfully submitted your payment details, you will see your new plan back on the billing page.
 
-* Select the billing cycle (annual/monthly), and the number of paid users slots. Paid users can use collaboration features, but each team gets 2 free support accounts for admin/billing purposes.
-* Enter your email, and choose the "admin role".
-* Confirm your details, and proceed to payment.
+## Next steps
 
-    [![confirm plan details](https://assets.postman.com/postman-docs/59191782.png)](https://assets.postman.com/postman-docs/59191782.png)  
-
-* You'll be prompted to enter your name, address, email, and credit card details. For security reasons, Postman does not store any credit card data. This data is stored only by Stripe, our payment provider, who has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1, the most stringent level of certification available in the payments industry.
-* **Remember** - your card will automatically be charged monthly/annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.
-* After payment, you'll see a confirmation with the transaction ID. Use this ID for any communication with us.
-* You will receive an email with an activation link. Clicking on the link will take you to the sign up page. Here, you can create a new account, or sign in with your existing account, and start inviting users.
-
-### **Upgrading from a trial team**
-
-* Head to the [team plans page](https://app.getpostman.com/dashboard/team-plans), and click "Upgrade to Pro".
-
-    [![upgrade to pro](https://assets.postman.com/postman-docs/59191884.png)](https://assets.postman.com/postman-docs/59191884.png)
-
-* Select the billing cycle (annual/monthly), and the number of paid users slots. Paid users can use collaboration features, but each team gets 2 free support accounts for admin/billing purposes.
-* Enter your email, and proceed to payment.
-
-    [![confirm plan details](https://assets.postman.com/postman-docs/59191943.png)](https://assets.postman.com/postman-docs/59191943.png)
-
-* You'll be prompted to enter your name, address, email, and credit card details. For security reasons, Postman does not store any credit card data. This data is stored only by Stripe, our payment provider, who has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1, the most stringent level of certification available in the payments industry.
-
-* **Remember** - your card will automatically be charged monthly/annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.
-
-* After payment, you'll see a confirmation with the transaction ID. Use this ID for any communication with us.
-
-* Click "Invite Users" to start adding people to your Pro team!
-
-        [![invite users](https://assets.postman.com/postman-docs/59192001.png)](https://assets.postman.com/postman-docs/59192001.png)
+You can manage your account in the [Postman billing](/docs/admin/billing/) dashboard. Once your account is setup, you can leverage Postman features including additional [collaboration](/docs/postman/collaboration/collaboration-intro/) and [monitoring](/docs/postman/monitors/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/postman/integrations/intro-integrations/).
