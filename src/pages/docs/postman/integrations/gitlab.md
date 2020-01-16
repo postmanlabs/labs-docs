@@ -13,7 +13,7 @@ contextual_links:
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
 ---
 
-Back up and synchronize your Postman Collections on GitLab (an open source Git repository manager) and on any of your custom domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitLab Integration.
+Back up and synchronize your Postman Collections on GitLab (an open source Git repository manager) and on any of your custom domains. Your Collections are all tucked in safe and sound with our latest Postman to GitLab integration.
 
 Setting up a GitLab integration requires you to get a GitLab Personal Access Token and configure how you would like to back up your collections.
 
@@ -31,7 +31,7 @@ Save the generated token to use later.
 
 ## Configuring a backup for Postman Collections in GitLab
 
-1. In the [Integrations page](https://go.postman.co/workspaces), find GitLab from Postman's list of 3rd party Integrations for Postman Pro/Enterprise.
+1. In the [Integrations page](https://go.postman.co/workspaces), find GitLab from Postman's list of 3rd party integrations.
 
     [![select gitlab integration](https://assets.postman.com/postman-docs/integrations-gitlab1.png)](https://assets.postman.com/postman-docs/integrations-gitlab1.png)
 
