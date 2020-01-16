@@ -12,13 +12,6 @@ contextual_links:
   - type: link
     name: "Managing your team"
     url: "https://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Use audit logs to better manage your Enterprise team"
-    url: "https://blog.getpostman.com/2018/03/21/use-audit-logs-to-better-manage-your-enterprise-team/?_ga=2.184352038.1078379737.1571761632-963694147.1565912089"
 ---
 
 > __[Audit logs are available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__

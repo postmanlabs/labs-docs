@@ -6,9 +6,11 @@ warning: false
 contextual_links:
   - type: section
     name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
   - type: link
-    name: "Postman Pricing"
-    url: "https://www.getpostman.com/pricing"
+    name: "Announcing updated Postman plans and pricing"
+    url: "https://blog.getpostman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
 ---
 
 > __[SSO is available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__
@@ -43,17 +45,17 @@ As a next step, you must fill in the details in the **Identity Provider Details*
 
 To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
-* [Setting up custom SAML in Okta](/docs/postman-enterprise/sso/saml-okta/)
+* [Setting up custom SAML in Okta](/docs/admin/sso/saml-okta/)
 
-* [Setting up custom SAML in Duo](/docs/postman-enterprise/sso/saml-duo/)
+* [Setting up custom SAML in Duo](/docs/admin/sso/saml-duo/)
 
-* [Setting up custom SAML in Gsuite](/docs/postman-enterprise/sso/saml-gsuite/)
+* [Setting up custom SAML in Gsuite](/docs/admin/sso/saml-gsuite/)
 
-* [Setting up custom SAML in Onelogin](/docs/postman-enterprise/sso/saml-onelogin/)
+* [Setting up custom SAML in Onelogin](/docs/admin/sso/saml-onelogin/)
 
-* [Setting up custom SAML in Ping Identity](/docs/postman-enterprise/sso/saml-ping/)
+* [Setting up custom SAML in Ping Identity](/docs/admin/sso/saml-ping/)
 
-* [Setting up custom SAML in Azure AD](/docs/postman-enterprise/sso/saml-in-azure-ad/)
+* [Setting up custom SAML in Azure AD](/docs/admin/sso/saml-in-azure-ad/)
 
 ## Managing user accounts
 

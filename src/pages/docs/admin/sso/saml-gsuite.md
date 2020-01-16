@@ -7,10 +7,12 @@ tags:
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
   - type: link
-    name: "Intro to Enterprise"
-    url: "https://learning.getpostman.com/docs/postman-enterprise/intro-to-enterprise"
+    name: "Announcing updated Postman plans and pricing"
+    url: "https://blog.getpostman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
 ---
 
 *Note: only an admin of your GSuite organization can create the application.*
@@ -35,7 +37,7 @@ contextual_links:
 1. Enter an application name (e.g. Postman SAML App) and fill out any other optional fields.
    [![gsuite basic info](https://assets.postman.com/postman-docs/gsuite_basic_info.png)](https://assets.postman.com/postman-docs/gsuite_basic_info.png)
 
-1. Enter the Postman service provider details which can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **GSuite Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/enterprise/sso/admin-sso).
+1. Enter the Postman service provider details which can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **GSuite Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/admin/sso/admin-sso).
    [![gsuite service provider](https://assets.postman.com/postman-docs/gsuite_service_provider.png)](https://assets.postman.com/postman-docs/gsuite_service_provider.png)
 
  | **Field** | **Value** |

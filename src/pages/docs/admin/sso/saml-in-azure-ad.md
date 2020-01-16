@@ -2,22 +2,22 @@
 title: "Setting a custom SAML in Azure AD"
 order: 136.4
 page_id: "saml_in_azure_ad"
-tags: 
-  - "enterprise"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
   - type: link
-    name: "Intro to Enterprise"
-    url: "https://learning.getpostman.com/docs/postman-enterprise/intro-to-enterprise"
+    name: "Announcing updated Postman plans and pricing"
+    url: "https://blog.getpostman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
 ---
 
 The steps in this topic describe how to configure a custom SAML application in Azure AD.
 
 ## Configuration
 
-Before you set up a custom SAML application in Azure Active Directory (AD), you must [configure SSO in Postman](/docs/postman-enterprise/sso/admin-sso/). Select "AD FS" as the "Authentication Type" and allow "Identity Provider Details" to remain empty for now.
+Before you set up a custom SAML application in Azure Active Directory (AD), you must [configure SSO in Postman](/docs/admin/sso/admin-sso/). Select "AD FS" as the "Authentication Type" and allow "Identity Provider Details" to remain empty for now.
 
 [![ad fs](https://assets.postman.com/postman-docs/ENT-add-authentication-Azure.png)](https://assets.postman.com/postman-docs/ENT-add-authentication-Azure.png)
 
@@ -55,7 +55,7 @@ Configure the SAML integration. The table below describes the values of the fiel
 
 Download the "SAML Signing Certificate" (Base64 format) and click the **Save** button.
 
-After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO](/docs/postman-enterprise/sso/intro-sso/) The table below describes the values of the fields in this configuration.
+After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO](/docs/admin/sso/intro-sso/) The table below describes the values of the fields in this configuration.
 
 ### Table: Field description for SAML Signing Certificate
 

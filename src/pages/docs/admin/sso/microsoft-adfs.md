@@ -2,15 +2,15 @@
 title: "Configuring Microsoft AD FS with Postman SSO"
 order: 136.3
 page_id: "microsoft_adfs"
-tags: 
-  - "enterprise"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
   - type: link
-    name: "Intro to Enterprise"
-    url: "https://learning.getpostman.com/docs/postman-enterprise/intro-to-enterprise"
+    name: "Announcing updated Postman plans and pricing"
+    url: "https://blog.getpostman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
 ---
 
 
@@ -33,7 +33,7 @@ Follow the steps below to configure Microsoft AD FS to work with Postman SSO.
 
 **Step 1** - Create an AD FS authentication scheme in Postman.
 
-To create this scheme authentication, see [Configuring SSO for a team](/docs/postman-enterprise/sso/admin-sso/).
+To create this scheme authentication, see [Configuring SSO for a team](/docs/admin/sso/admin-sso/).
 
 After creating the scheme, collect the values for these fields in the [Team](https://app.getpostman.com/dashboard/teams) page.
 
