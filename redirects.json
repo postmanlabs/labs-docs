@@ -222,5 +222,9 @@
   {
     "from": "/docs/postman/scripts/test-scripts/#adding-a-test-script-to-a-collection-or-folder",
     "to": "/docs/postman/scripts/test-scripts/#testing-collections-and-folders"
+  },
+  {
+    "from":"/docs/postman/sending-api-requests/interceptor-extension/",
+    "to":"/docs/postman/sending-api-requests/interceptor/"
   }
 ]

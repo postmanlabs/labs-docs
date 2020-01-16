@@ -88,7 +88,7 @@ Postman breaks down the response size into body and headers. The response sizes 
 
 ## Cookies
 
-Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/postman/sending-api-requests/cookies/) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor-extension/) to help manage cookies.
+Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/postman/sending-api-requests/cookies/) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor/) to help manage cookies.
 
 ## Tests
 

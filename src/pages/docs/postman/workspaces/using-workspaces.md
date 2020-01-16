@@ -34,7 +34,20 @@ warning: false
 
 Workspaces are an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal workspaces or work with others in team workspaces.
 
-In this section, you'll learn how to work in workspaces.
+In this section, you'll learn how to work in workspaces, including:
+
+* [Adding elements to another workspace](#adding-elements-to-another-workspace)
+* [Removing elements from a workspace](#removing-elements-from-a-workspace)
+* [Deleting a workspace](#deleting-a-workspace)
+* [Deleting elements in a workspace](#deleting-elements-in-a-workspace)
+* [Joining a workspace](#joining-a-workspace)
+* [Sharing a workspace](#sharing-a-workspace)
+* [Sharing collections and environments in workspaces](#sharing-collections-and-environments-in-workspaces)
+* [Viewing details of a workspace](#viewing-details-of-a-workspace)
+* [Renaming a workspace](#renaming-a-workspace)
+* [Leaving a workspace](#leaving-a-workspace)
+* [Editing a description of a workspace](#editing-a-description-of-a-workspace)
+* [Managing members of a team workspace](#managing-members-of-a-team-workspace)
 
 ## Adding elements to another workspace
 
