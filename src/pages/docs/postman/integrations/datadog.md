@@ -19,7 +19,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 
 ## Retrieving your Datadog API Key
 
-Log in to [Datadog](https://app.datadoghq.com/account/settings#api), and select "Integrations" in the header toolbar.
+Log in to [Datadog](https://app.datadoghq.com/account/settings#api) and select "Integrations" in the header toolbar.
 
 An `API Key` is created for you automatically under the "APIs" tab. If you want, you can also create a key by specifying a name for it.
 
@@ -29,7 +29,7 @@ Save the API Key to use later.
 
 ## Configuring Postman Monitors
 
-1. In the [Integrations](https://go.postman.co/workspaces) page, find Datadog in the list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations](https://go.postman.co/workspaces) page, find Datadog in the list of Postman’s 3rd party integrations.
 
     [![datadog integrations page](https://assets.postman.com/postman-docs/integrations_datadog2.png)](https://assets.postman.com/postman-docs/integrations_datadog2.png)
 
