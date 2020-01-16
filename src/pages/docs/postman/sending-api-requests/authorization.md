@@ -84,7 +84,7 @@ When you select a type, Postman will indicate which parts of the request your de
 
 Your auth data will appear in the relevant parts of the request, for example appended to text in the header using the standard formats your API will be able to process. You will see info about headers added automatically when you hover over each one, which indicates how to remove any you do not want to send with your request.
 
-<img alt="Auth Header Info" src="https://assets.postman.com/postman-docs/auth-helper-info.jpg" width="500px"/>
+<img alt="Auth Header Info" src="https://assets.postman.com/postman-docs/header-added-popup.jpg" width="500px"/>
 
 Your requests can use environment, collection, and global [variables](/docs/postman/variables-and-environments/variables/). Postman does not save header data or query parameters to avoid exposing sensitive data such as API keys.
 
@@ -132,7 +132,7 @@ Postman will append the token value to the text "Bearer " in the required format
 Bearer <Your API key>
 ```
 
-<img alt="Auth Header Info" src="https://assets.postman.com/postman-docs/auth-helper-info.jpg" width="500px"/>
+<img alt="Auth Header Info" src="https://assets.postman.com/postman-docs/header-added-popup.jpg" width="500px"/>
 
 ## Basic auth
 
@@ -148,7 +148,7 @@ In the request __Headers__, you will see that the Authorization header is going 
 Basic <Base64 encoded username and password>
 ```
 
-<img alt="Basic Auth Encoded" src="https://assets.postman.com/postman-docs/basic-header-info.jpg" width="500px"/>
+<img alt="Basic Auth Encoded" src="https://assets.postman.com/postman-docs/basic-header-added-tab.jpg" width="450px"/>
 
 ## Digest auth
 
@@ -191,7 +191,7 @@ You can include the auth details either in the request headers or in the body / 
 
 If you send the OAuth 1.0 data in the headers, you will see an Authorization header sending your key and secret values appended to the string " OAuth " together with additional comma-separated required details.
 
-<img alt="OAuth 1.0 Headers" src="https://assets.postman.com/postman-docs/oauth-1-headers-added.jpg" width="600px"/>
+![OAuth 1.0 Headers](https://assets.postman.com/postman-docs/oauth-1-added-tab.jpg)
 
 If you send the OAuth 1.0 data in the body and URL, you will find the data added either in the request __Body__ or __Parameters__ depending on the request method.
 

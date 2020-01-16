@@ -216,7 +216,7 @@ Some APIs require auth details you can send in Postman. Authentication involves 
 
 Postman will automatically include your auth details in the relevant part of the request, for example in __Headers__. Hovering over any header added automatically by Postman will display an indicator of where the header comes from and how to remove it.
 
-<img alt="Basic Auth Encoded" src="https://assets.postman.com/postman-docs/basic-header-info.jpg" width="500px"/>
+<img alt="Basic Auth Encoded" src="https://assets.postman.com/postman-docs/header-added-popup.jpg" width="500px"/>
 
 For more detail on implementing different types of auth in your Postman requests, check out [Authorizing requests](/docs/postman/sending-api-requests/authorization/).
 
