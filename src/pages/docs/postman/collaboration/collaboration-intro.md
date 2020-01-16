@@ -52,11 +52,11 @@ Create a Team Workspace by inviting a team member to join a personal workspace o
 
 In the app, select **Invite**.
 
-[![invite button](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.21.17 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.21.17 PM.png)
+[![invite button](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.17%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.17%20PM.png)
 
 Enter the email address of the individual you’d like to invite to your team workspace, click **Add** > **Invite to team**.
 
-[![invite team member](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.21.45 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.21.45 PM.png)
+[![invite team member](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.45%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.45%20PM.png)
 
 The individual will be added to the team once they accept their invitation.
 
@@ -66,7 +66,7 @@ The individual will be added to the team once they accept their invitation.
 
 Select your current workspace in the app to open the workspace menu, then click **Create New**.
 
-[![create workspace](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.29.42 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.29.42 PM.png)
+[![create workspace](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.29.42%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.29.42%20PM.png)
 
 Specify a name, a summary, and select **Team** for type, then invite members to your newly created shared workspace.
 
@@ -100,13 +100,13 @@ You can check the number of requests you've shared within the Postman app as wel
 
 The usage menu allows you to review limits for shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
 
-[![usage info](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.38.16 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.38.16 PM.png)
+[![usage info](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11 at%205.38.16%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)
 
 ### How archiving works
 
  Postman archives collections when a free team's collaboration exceeds usage limits. Archived collections cannot be collaborated on, however they are still accessible to users. You will receive an in-app notification when a collection is archived.
 
-[![archived message](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.44.36 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.44.36 PM.png)  
+[![archived message](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.44.36%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.44.36%20PM.png)  
 
 Postman chooses which collection(s) to archive based on last edit date. The collections that have gone the longest without a revision will be archived in order to bring your team within usage limits.
 
