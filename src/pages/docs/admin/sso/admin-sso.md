@@ -2,22 +2,22 @@
 title: "Configuring SSO for a team"
 order: 136.1
 page_id: "admin_sso"
-tags: 
-  - "enterprise"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional Resources"
   - type: link
-    name: "Intro to Enterprise"
-    url: "https://learning.getpostman.com/docs/postman-enterprise/intro-to-enterprise"
+    name: "Postman Pricing"
+    url: "https://www.getpostman.com/pricing"
 ---
+
+> __[SSO is available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__
 
 ## Configuring single sign-on
 
-Only an Enterprise team administrator (admin) can configure single sign-on (SSO) for a Postman team.
+Only a team administrator (admin) can configure single sign-on (SSO) for a Postman team.
 
-Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit) for an enterprise plan. In the following screen, select **Authentication**.
+Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit). In the following screen, select **Authentication**.
 
 [![sso enable](https://assets.postman.com/postman-docs/SSO_Auth1.png)](https://assets.postman.com/postman-docs/SSO_AdminEnable1.png)
 

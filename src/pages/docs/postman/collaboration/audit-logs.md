@@ -2,8 +2,6 @@
 title: "Audit logs"
 order: 29.5
 page_id: "audit_logs"
-tags: 
-  - "enterprise"
 warning: false
 contextual_links:
   - type: section
@@ -12,7 +10,7 @@ contextual_links:
     name: "Intro to Workspaces"
     url: "https://learning.getpostman.com/docs/postman/workspaces/intro-to-workspaces"
   - type: link
-    name: "Managing yout team"
+    name: "Managing your team"
     url: "https://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team"
   - type: section
     name: "Additional Resources"
@@ -23,7 +21,9 @@ contextual_links:
     url: "https://blog.getpostman.com/2018/03/21/use-audit-logs-to-better-manage-your-enterprise-team/?_ga=2.184352038.1078379737.1571761632-963694147.1565912089"
 ---
 
-Audit logs is an Enterprise-only feature that lists important team events. An admin can review audit logs to determine:
+> __[Audit logs are available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__
+
+Audit logs list important team events. An admin can review audit logs to determine:
 
 * When users were added to the team.
 * When users received an invitation to a team.
@@ -33,7 +33,7 @@ Audit logs currently include events for team management, billing, and security. 
 
 ## Using audit logs
 
-In your [Enterprise workspace](https://app.getpostman.com/dashboard), click the Settings icon, and select "Audit logs".
+In your [workspace](https://app.getpostman.com/dashboard), click the Settings icon, and select "Audit logs".
 
 [![audit logs menu](https://assets.postman.com/postman-docs/ENT-audit-logs-menu2.png)](https://assets.postman.com/postman-docs/ENT-audit-logs-menu2.png)
 
@@ -41,7 +41,7 @@ In the [Audit Logs](https://app.getpostman.com/dashboard/audit) page, you see in
 
 [![audit logs](https://assets.postman.com/postman-docs/ENT-audit-logs-page.png)](https://assets.postman.com/postman-docs/ENT-audit-logs-page.png)
 
-For more information about audit logs and how to set it up for your Postman Enterprise team, contact our [Enterprise support team](https://pages.getpostman.com/Enterprise-Sales_Contact-Us.html).
+For more information about audit logs and how to set it up for your Postman team, contact the [support team](https://pages.getpostman.com/Enterprise-Sales_Contact-Us.html).
 
 ## Logged Events
 
@@ -67,7 +67,7 @@ The table below lists currently logged events.
 | Removed Member  | Team member was removed.  |
 | Successfully Retried Invoice  | An invoice for your team was paid.  |
 | Sent Invite  | An invitation was sent to a user to join your team.  |
-| Started Pro  | Your Enterprise plan has started.  |
+| Started  | Your plan has started.  |
 | Updated domain verification  | A domain’s verification status was updated.|
 | Updated User Roles | Roles were updated for some users in your team.  |
-| Team URL changed  | Team’s URL updated. (The custom URL you use to access your team’s Enterprise dashboard.)  |
+| Team URL changed  | Team’s URL updated. (The custom URL you use to access your team’s dashboard.)  |

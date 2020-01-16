@@ -2,8 +2,6 @@
 title: Running Postman monitors using static IPs
 order: 79.1
 page_id: "using_static_IPs_to_monitor"
-tags: 
-  - "enterprise"
 warning: false
 contextual_links:
   - type: section
@@ -13,13 +11,15 @@ contextual_links:
     url: "https://learning.getpostman.com/docs/postman/monitors/intro-monitors"
 ---
 
-By default, Postman Monitors access APIs from dynamic IP addresses. For Enterprise users who want to test APIs behind a whitelist restricted firewall, Postman provides the option to monitor APIs from a static IP address.
+> __[Static IP address monitoring is only available on Postman Business or Enterprise](https://www.getpostman.com/pricing)__
+
+By default, Postman Monitors access APIs from dynamic IP addresses. For users who want to test APIs behind a whitelist restricted firewall, Postman provides the option to monitor APIs from a static IP address.
 
 By whitelisting a single static IP address, customers can monitor their APIs using Postman’s monitoring service, while conforming to company security policies.
 
-Enterprise users can request the static IP option from our [Enterprise support team](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html).  Note that monitoring APIs using a static IP address is available for all Postman Enterprise customers. However, the static IP is a US address.
+You can request the static IP option from your [support team](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html).  Note that monitoring APIs using a static IP address is available for all Postman Business and Enterprise customers. However, the static IP is a US address.
 
-When the static IP option is enabled, Enterprise users can create a new monitor or change an existing monitor to run using a static IP address.
+When the static IP option is enabled, users can create a new monitor or change an existing monitor to run using a static IP address.
 
 ## Creating a new monitor to run from a static IP address
 

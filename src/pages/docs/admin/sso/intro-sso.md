@@ -2,15 +2,8 @@
 title: "Intro to SSO"
 order: 136
 page_id: "intro_sso"
-tags: 
-  - "enterprise"
 warning: false
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to Enterprise"
-    url: "https://learning.getpostman.com/docs/postman-enterprise/intro-to-enterprise"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -19,6 +12,8 @@ contextual_links:
     name: "Announcing the Postman Enterprise Beta, with Single Sign-On (SSO)"
     url: "https://blog.getpostman.com/2017/04/14/announcing-the-postman-enterprise-beta-with-single-sign-on-sso/?_ga=2.150862390.1078379737.1571761632-963694147.1565912089"
 ---
+
+> __[SSO is available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__
 
 ## What is SSO?
 

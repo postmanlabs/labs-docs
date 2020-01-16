@@ -7,11 +7,13 @@ tags:
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional Resources"
   - type: link
-    name: "Intro to Enterprise"
-    url: "https://learning.getpostman.com/docs/postman-enterprise/intro-to-enterprise"
+    name: "Postman Pricing"
+    url: "https://www.getpostman.com/pricing"
 ---
+
+> __[SSO is available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__
 
 When your team admin has enabled single sign-on (**SSO**) for Postman, you can log in to Postman with a [configured Identity provider](/docs/postman-enterprise/sso/intro-sso/).
 
