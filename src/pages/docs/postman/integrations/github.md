@@ -16,14 +16,14 @@ contextual_links:
   - type: subtitle
     name: "Related Blog posts"
   - type: link
-    name: "The Importance of 3rd Party Integrations for Postman Pro"
+    name: "The Importance of 3rd Party Integrations"
     url: "https://blog.getpostman.com/2017/03/21/the-importance-of-3rd-party-integrations-for-postman-pro/?_ga=2.184833577.1078379737.1571761632-963694147.1565912089"
   - type: link
     name: "Backup and Sync your Postman Collections on GitHub"
     url: "https://blog.getpostman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/?_ga=2.184833577.1078379737.1571761632-963694147.1565912089"
 ---
 
-Back up and synchronize your Postman Collections on GitHub (the largest host of source code in the world) and on any of your custom GitHub domains. Your Collections are all tucked in safe and sound with our latest Postman Pro to GitHub Integration.
+Back up and synchronize your Postman Collections on GitHub (the largest host of source code in the world) and on any of your custom GitHub domains. Your Collections are all tucked in safe and sound with our latest Postman to GitHub Integration.
 
 Setting up a GitHub integration requires you to get a GitHub Personal Access Token and configure how you would like to back up your collections.
 
@@ -43,7 +43,7 @@ Once that token is generated, copy it and save it somewhere for future use.
 
 ## Configuring GitHub Integration
 
-1. In the **[Integrations](https://go.postman.co/workspaces)** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
+1. In the **[Integrations](https://go.postman.co/workspaces)** page, find Github from a list of Postman's 3rd party integrations.
 
 [![github integration](https://assets.postman.com/postman-docs/integrations-github1.png)](https://assets.postman.com/postman-docs/integrations-github1.png)
 
@@ -62,7 +62,7 @@ Once that token is generated, copy it and save it somewhere for future use.
 
 1. Click the **Add Integration** button to authorize a backup of your Postman collections.
 
-1. Enter your GitHub Personal Access Token and click the **Proceed button**.
+1. Enter your GitHub Personal Access Token and click **Proceed**.
 
 [![access token](https://assets.postman.com/postman-docs/WS-integrations-github-access-token.png)](https://assets.postman.com/postman-docs/WS-integrations-github-access-token.png)
 
@@ -76,7 +76,7 @@ Once that token is generated, copy it and save it somewhere for future use.
     * Enter the file name of the collection in the repository.
     * Enter the branch where the collection will be pushed. This branch should already exist in your repository. If you do not specify anything, it will be pushed to the default branch of the repository.
 
-1. Click the **Add Integration** button.
+1. Click **Add Integration**.
 
     Every change saved to your Postman Collection automatically commits changes to your GitHub repo in real time.  Your Collections and code can live together in perfect harmony in the same repository.
 
