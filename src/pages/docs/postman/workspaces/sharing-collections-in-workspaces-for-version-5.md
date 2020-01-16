@@ -20,6 +20,7 @@ contextual_links:
 warning: false
 ---
 
+> If you're looking to share a collection on version 6 and higher, refer to the [Sharing collections documentation](/docs/postman/collections/sharing-collections/).
 
 In versions 5.5 and below, teams work collaboratively in a Team Library. In a Team Library, you can share collections, environmental templates, view team updates, and subscribe to shared collections. However [Workspaces](/docs/postman/workspaces/intro-to-workspaces/) provides greater visibility and easier access to shared collections.
 

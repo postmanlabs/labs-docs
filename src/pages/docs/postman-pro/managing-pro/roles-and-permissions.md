@@ -32,9 +32,10 @@ This chapter describes the following topics:
 * [Understanding roles in Postman](#understanding-roles-in-postman)
 * [List of roles and permissions](#list-of-roles-and-permissions)
 * [Roles before and after](#roles-before-and-after)
+* [Managing roles](#managing-roles)
 * [Migrating to Postman v7](#migrating-to-postman-v7)
 
-### Understanding roles in Postman
+## Understanding roles in Postman
 
 Permissions to perform certain tasks and/or operations are assigned to
 specific roles in Postman. For instance, Postman provides an admin-level role to help manage the permissions of Postman for the entire team. Likewise, Postman has other roles with specific permissions.
@@ -53,7 +54,7 @@ The following is a brief outline of the main roles:
 * **Team admin** can’t access team resources, can edit team details, settings and invite/remove team members.
 * **Team billing** can’t access team resources, can access billing related things.
 
-### List of roles and permissions
+## List of roles and permissions
 
 Roles and permissions is not a new feature in Postman. In Postman v7 the roles have been enhanced to provide a fine-grained access management of its features. This sections clearly outlines the roles and permissions for collections, workspaces, and teams in a table format.
 
@@ -63,7 +64,7 @@ This section describes the following topics:
 * [Workspace roles](#workspace-roles)
 * [Team roles](#team-roles)
 
-#### Collection roles
+### Collection roles
 
 In Postman v7, collections have two roles - **Collection Viewer** and **Collection Editor**. The following table illustrates the roles and permissions of collections:
 
@@ -82,7 +83,7 @@ In Postman v7, collections have two roles - **Collection Viewer** and **Collecti
 | Share collection to a different workspace  |  &#9745;  | &#9745;   |
 | Tag and restore collection versions   |    | &#9745;   |
 
-#### Workspace roles
+### Workspace roles
 
 In Postman v7, workspaces have two roles - **Workspace Collaborator** and **Workspace Admin**. The following table illustrates the roles and permissions of workspaces:
 
@@ -99,7 +100,7 @@ In Postman v7, workspaces have two roles - **Workspace Collaborator** and **Work
 | Remove members  |      | &#9745;  |
 | Manage roles and visibility of the workspace |    | &#9745;   |
 
-#### Team roles
+### Team roles
 
 In Postman v7, teams have three roles - **Developer**, **Admin**, and **Billing**. The following table illustrates team's roles and permissions:
 
@@ -125,7 +126,7 @@ In Postman v7, teams have three roles - **Developer**, **Admin**, and **Billing*
 | View team activity feed  | &#9745;   |    |
 | View team's custom domains and use them to publish documentation  | &#9745;   |    |
 
-### Roles before and after
+## Roles before and after
 
 A user's role determines what they can and cannot do in Postman. Each role has a default set of permissions. The following section illustrates the roles prior to version 7 and post 7. The following lists the old roles and the newer ones feature-wise:
 
@@ -140,8 +141,12 @@ A user's role determines what they can and cannot do in Postman. Each role has a
     * Admin
     * Billing
 
-**Note:** In the Postman app UI, the right-click option *Modify team permissions* has changed to **Manage Roles**. Also note that the older set of roles applied till Postman app version 6.
+> In the Postman app UI, the right-click option *Modify team permissions* has changed to **Manage Roles**. Also note that the older set of roles applied till Postman app version 6.
 
-### Migrating to Postman v7
+## Managing roles
+
+To learn how you can assign different roles to your team members, visit [Managing your Team](/docs/postman-pro/managing-pro/managing-your-team/).
+
+## Migrating to Postman v7
 
 To know more about migration-related information, please refer to [migrating to v7](/docs/postman-pro/managing-pro/migrating-to-v7/) section.
