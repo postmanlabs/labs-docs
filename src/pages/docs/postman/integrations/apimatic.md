@@ -46,7 +46,7 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
 4. Click **Authorize** to summon the authorization page, which lets you configure the backup to Github.
 
     [![github apimatic](https://assets.postman.com/postman-docs/WS-integrations-github-authorized1-a.png)](https://assets.postman.com/postman-docs/WS-integrations-github-authorized1-a.png)
-    
+
 5. To back up a collection periodically to a Github repository:
 
    * Select a collection.
