@@ -26,7 +26,7 @@ You can use this integration to trigger incidents in PagerDuty based on your Pos
 ## Retrieving your PagerDuty Integration Key
 
 Create an account or use a preexisting one to log in to [PagerDuty](https://app.pagerduty.com/).  
-In the header toolbar, click "Configuration" and select "Services".  
+In the header toolbar, click "Configuration" and select "Services". 
 If you are creating a new service for this integration, click "Add New Service".
 
 [![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty_menu.png)](https://assets.postman.com/postman-docs/pagerduty_menu.png)
@@ -41,9 +41,9 @@ Click the "Add Service" link at the bottom of the page to create a new service.
 
 [![pagerduty key](https://assets.postman.com/postman-docs/pagerduty_key.png)](https://assets.postman.com/postman-docs/pagerduty_key.png)
 
-## Configuring Postman Pro with PagerDuty
+## Configuring Postman with PagerDuty
 
-1. In the [Integrations page](https://go.postman.co/workspaces), find PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
+1. In the [Integrations page](https://go.postman.co/workspaces), find PagerDuty from a list of Postman's 3rd party integrations for Postman users.
 
   [![select pagerduty integration](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)
 
