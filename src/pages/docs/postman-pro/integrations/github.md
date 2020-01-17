@@ -141,9 +141,9 @@ On the next page you need to setup your webhook. To do so, go to the settings pa
 * the API Version you want to sync - e.g. `1.0`
 * the repository branch to use - e.g. `Master`
 * the repository directory where you want the schema file to be saved - e.g. `api`
-  * Leaving this field blank will save the schema at the root of your repository. If the folder specified doesn't exist on the repository it will be created.
+    * Leaving this field blank will save the schema at the root of your repository. If the folder specified doesn't exist on the repository it will be created.
 * the name and extension of the schema file - e.g. `petstore.yaml`
-  * If the file doesn't exist on the repository it will be created.
+    * If the file doesn't exist on the repository it will be created.
 
 To finish, click **Add API Version**
 
