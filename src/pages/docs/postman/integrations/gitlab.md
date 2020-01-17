@@ -2,8 +2,6 @@
 title: "GitLab"
 order: 119
 page_id: "gitlab"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section

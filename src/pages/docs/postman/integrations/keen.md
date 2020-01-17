@@ -2,8 +2,6 @@
 title: "Keen"
 order: 121
 page_id: "keen"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section

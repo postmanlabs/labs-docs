@@ -8,10 +8,10 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Workspaces"
-    url: "https://learning.getpostman.com/docs/postman/workspaces/intro-to-workspaces"
+    url: "/docs/postman/workspaces/intro-to-workspaces"
   - type: link
     name: "Managing your team"
-    url: "https://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team"
+    url: "/docs/postman/collaboration/managing-your-team/"
 ---
 
 > __[Audit logs are available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__

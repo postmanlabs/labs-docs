@@ -43,7 +43,7 @@ Monitors are visible to all members of the workspace they were created in. If a 
 
 ### Who can edit my Monitors?
 
-Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/postman-pro/managing-pro/roles-and-permissions/#collection-roles) on the associated collection.
+Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) on the associated collection.
 
 ### Can I delete a Monitor?
 

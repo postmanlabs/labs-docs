@@ -2,8 +2,6 @@
 title: "Slack"
 order: 125
 page_id: "slack"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section
@@ -20,9 +18,6 @@ contextual_links:
     url: "https://www.youtube.com/watch?v=X_CEYzhjCnI&t=24s"
   - type: subtitle
     name: "Related Blog Posts"
-  - type: link
-    name: "Introducing a New Integration: Postman Pro + Slack!"
-    url: "https://blog.getpostman.com/2017/02/08/introducing-a-new-integration-postman-pro-slack/?_ga=2.137777456.1078379737.1571761632-963694147.1565912089"
   - type: link
     name: "Librarian: building a serverless slack app using Postman and Airtable"
     url: "https://blog.getpostman.com/2017/12/21/librarian-building-a-serverless-slack-app-using-postman-and-airtable/?_ga=2.137777456.1078379737.1571761632-963694147.1565912089"

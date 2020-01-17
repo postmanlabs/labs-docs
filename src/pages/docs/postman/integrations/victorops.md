@@ -2,8 +2,6 @@
 title: "VictorOps"
 order: 126
 page_id: "victorops"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section

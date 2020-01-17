@@ -2,8 +2,6 @@
 title: "PagerDuty"
 order: 124
 page_id: "pagerduty"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section

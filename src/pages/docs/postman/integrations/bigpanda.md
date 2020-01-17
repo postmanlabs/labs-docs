@@ -2,8 +2,6 @@
 title: "BigPanda"
 order: 114
 page_id: "bigpanda"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section

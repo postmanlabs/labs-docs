@@ -5,12 +5,10 @@ page_id: "roles_and_permissions"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional Resources"
   - type: link
     name: "Migrating to Postman v7"
-    url: "https://learning.getpostman.com/docs/postman-pro/managing-pro/migrating-to-v7/"
-  - type: section
-    name: "Additional Resources"
+    url: "/docs/admin/migrating-to-v7/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -23,7 +21,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to Integrations"
-    url: "https://learning.getpostman.com/docs/postman-pro/integrations/intro-integrations/"
+    url: "/docs/postman/integrations/intro-integrations/"
 ---
 Roles and permissions in Postman have been enhanced to provide a more robust access-control mechanism. In Postman v7, you access features through assigned roles that have their own set of user permissions.
 
@@ -144,4 +142,4 @@ A user's role determines what they can and cannot do in Postman. Each role has a
 
 ### Migrating to Postman v7
 
-To know more about migration-related information, please refer to [migrating to v7](/docs/postman-pro/managing-pro/migrating-to-v7/) section.
+To know more about migration-related information, please refer to [migrating to v7](/docs/admin/migrating-to-v7/) section.

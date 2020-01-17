@@ -6,12 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "What is Postman Pro"
-    url: "/docs/postman-pro/what-is-pro/"
-
-tags: 
-  - "pro"
-  - "enterprise"
+    name: "Intro to Monitors"
+    url: "/docs/postman/monitors/intro-monitors/"
 warning: false
 ---
 

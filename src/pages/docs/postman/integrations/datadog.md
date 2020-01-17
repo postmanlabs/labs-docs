@@ -2,8 +2,6 @@
 title: "Datadog"
 order: 116
 page_id: "datadog"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section

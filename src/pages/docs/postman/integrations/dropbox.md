@@ -2,8 +2,6 @@
 title: "Dropbox"
 order: 117
 page_id: "dropbox"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section

@@ -2,8 +2,6 @@
 title: "HipChat"
 order: 120
 page_id: "hipchat"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section

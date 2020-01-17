@@ -2,8 +2,6 @@
 title: "Coralogix"
 order: 115
 page_id: "coralogix"
-tags: 
-  - "pro"
 warning: false
 ---
 

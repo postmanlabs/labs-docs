@@ -27,7 +27,7 @@ contextual_links:
     name: "Associated Topics"
   - type: link
     name: "Intro to Integrations"
-    url: "/docs/postman-pro/integrations/intro-integrations/"
+    url: "/docs/postman/integrations/intro-integrations/"
 
 warning: false
 ---
@@ -49,7 +49,7 @@ The changelog indicates the date of each update, the user who carried it out, wh
 
 ![Collection Changelog](https://assets.postman.com/postman-docs/collection-changelog.png)
 
-With a Postman Pro or Enterprise account, you can see generated diffs detailing changes to a collection.
+With a Postman Team, Business, or Enterprise account, you can see generated diffs detailing changes to a collection.
 
 ![Changelog diffs](https://assets.postman.com/postman-docs/changelog-diff.png)
 
@@ -65,7 +65,7 @@ You can also review the activity for a workspace from the [Workspaces dashboard]
 
 ## Viewing team activity
 
-You can review the activity for a team with a Postman Pro or Enterprise account. In the [Postman web app](https://app.getpostman.com), use the __Workspaces__ dropdown to select your team, then open the __Activity__ tab to view the events.
+You can review the activity for a team with a Postman Team, Business, or Enterprise account. In the [Postman web app](https://app.getpostman.com), use the __Workspaces__ dropdown to select your team, then open the __Activity__ tab to view the events.
 
 ## Viewing user activity
 
@@ -73,7 +73,7 @@ You can review the activity for your own account in the [Postman web app](https:
 
 ## Restoring collections
 
-With a Postman Pro or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Click __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update and Postman will display a confirmation message indicating the time the collection has been restored to.
+With a Postman Team, Business, or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Click __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update and Postman will display a confirmation message indicating the time the collection has been restored to.
 
 ![Restore from Changelog](https://assets.postman.com/postman-docs/restore-changelog.png)
 
@@ -85,11 +85,11 @@ Postman will prompt you to resolve any conflicts that may cause you to lose unsa
 
 ## Exporting team activity to other platforms
 
-With a Postman Pro or Enterprise account, you can pipe team activity feeds to external communication channels:
+With a Postman Team, Business, or Enterprise account, you can pipe team activity feeds to external communication channels:
 
-* [Slack integration](/docs/postman-pro/integrations/slack/)
-* [HipChat integration](/docs/postman-pro/integrations/hipchat/)
-* [Microsoft Teams integration](/docs/postman-pro/integrations/microsoft-teams/)  
+* [Slack integration](/docs/postman/integrations/slack/)
+* [HipChat integration](/docs/postman/integrations/hipchat/)
+* [Microsoft Teams integration](/docs/postman/integrations/microsoft-teams/)  
 
 ## Next steps
 

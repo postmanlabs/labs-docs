@@ -2,8 +2,6 @@
 title: "GitHub"
 order: 118
 page_id: "github"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section

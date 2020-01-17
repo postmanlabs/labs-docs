@@ -2,8 +2,6 @@
 title: "Microsoft Flow"
 order: 122
 page_id: "microsoft_flow"
-tags: 
-  - "pro"
 warning: false
 contextual_links:
   - type: section
