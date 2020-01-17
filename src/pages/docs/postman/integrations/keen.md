@@ -12,7 +12,7 @@ contextual_links:
     name: "Intro to collections"
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
 ---
-You can use Keen IO for API-based computation, Amazon S3 backups, and building visualizations and dashboards for your APIs. Connect your Postman Monitor results to Keen Streams with the Postman Pro to Keen Integration.
+You can use Keen IO for API-based computation, Amazon S3 backups, and building visualizations and dashboards for your APIs. Connect your Postman Monitor results to Keen Streams with the Postman to Keen Integration.
 
 Setting up a Keen integration requires you to get a project ID and API key before configuring Postman Monitors to push to Keen steams. After you set up the integration, you can view all monitoring data in Keen IO.
 
@@ -27,7 +27,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 ## Configuring Postman monitors
 
-In the **[Integrations](https://go.postman.co/workspaces)** page, find Keen IO from a list of Postman’s 3rd party Integrations for Postman Pro users.
+In the **[Integrations](https://go.postman.co/workspaces)** page, find Keen IO from a list of Postman’s 3rd party integrations for Postman users.
 
 [![keen dashboard](https://assets.postman.com/postman-docs/integrations_keen1.png)](https://assets.postman.com/postman-docs/integrations_keen1.png)
 
