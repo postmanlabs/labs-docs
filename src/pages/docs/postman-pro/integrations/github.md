@@ -51,7 +51,7 @@ Once that token is generated, copy it and save it somewhere for future use.
 
 ## Backing up collections on GitHub
 
- You can back up and sync your Postman collections with a GitHub repo. Once the integration is complete, any new changes to your collection in Postman will also appear in the repository. 
+ You can back up and sync your Postman collections with a GitHub repo. Once the integration is complete, any new changes to your collection in Postman will also appear in the repository.
 
 ### Configuring GitHub integration for collections
 
