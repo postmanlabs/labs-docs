@@ -286,6 +286,8 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 ### pm.cookies.jar
 
+To enable programmatic access via the methods below, the cookie `url` must be [whitelisted](/docs/postman/sending-api-requests/cookies/#whitelisting-domains-for-programmatic-access-of-cookies).
+
 * `pm.cookies.jar():Function → Object`
 
   Access the cookie jar object.

@@ -7,6 +7,9 @@ warning: false
 
 Postman uses the faker library to generate dummy data. You can generate random names, addresses, email addresses, and much more. You can use these pre-defined variables multiple times to return different values per request.
 
+* {{$guid}}
+* {{$timestamp}}
+* {{$randomInt}}
 * {{$randomZipCode}}
 * {{$randomCity}}
 * {{$randomCityPrefix}}

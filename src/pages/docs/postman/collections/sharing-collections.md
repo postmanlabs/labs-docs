@@ -40,9 +40,11 @@ Postman enables you to share Collections in Workspaces from the Postman app and 
 This topic covers:
 
 * [Sharing collections in the app](#sharing-collections-in-the-app)
+* [Sharing collections in another workspace](#sharing-collections-in-another-workspace)
 * [Sharing collections in the Dashboard](#sharing-collections-in-the-dashboard)
 * [Sharing as a file](#sharing-as-a-file)
 * [Modifying team permissions](#modifying-team-permissions)
+* [Managing requests for access](#managing-requests-for-access)
 
 ## Sharing collections in the app
 
@@ -58,7 +60,7 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 * Embed
 * Get Link
 
-[![share sidebar](https://assets.postman.com/postman-docs/Collection_Share-Sidebar.png)](https://assets.postman.com/postman-docs/Collection_Share-Sidebar.png)
+[![share sidebar](https://user-images.githubusercontent.com/5029719/71100430-eb0fe380-21ac-11ea-9ad6-1c7922f4f722.png)](https://user-images.githubusercontent.com/5029719/71100430-eb0fe380-21ac-11ea-9ad6-1c7922f4f722.png)
 
 ## Sharing collections in another workspace
 
@@ -127,3 +129,9 @@ In the **Manage Roles** modal, select the default team permission, add a user/te
 Click the **Save Changes** button to complete the process.
 
 [![modify team permissions modal](https://assets.postman.com/postman-docs/Manage_Roles3.png)](https://assets.postman.com/postman-docs/Manage_Roles3.png)
+
+## Managing requests for access
+
+Users can request access to a team member's personal collection or a private collection if they have a link to the collection.
+
+To learn more about this feature, refer to the [Requesting access to collections](/docs/postman/collections/requesting-access-to-collections/) section.
