@@ -13,7 +13,7 @@ contextual_links:
     url: "https://blog.getpostman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
 ---
 
-> __[SSO is available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__
+> __[SSO is available on Postman Business and Enterprise.](https://www.getpostman.com/pricing)__
 
 ## Configuring single sign-on
 

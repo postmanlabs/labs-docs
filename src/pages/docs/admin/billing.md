@@ -75,7 +75,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Overages**. 
 
 [![monitoring overages](https://assets.postman.com/postman-docs/monitoring-overages.jpg)](https://assets.postman.com/postman-docs/monitoring-overages.jpg)
 
-> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, check out [pre-paid monitoring blocks](/docs/postman/monitors/pricing-monitors/#request-blocks-for-pro-and-enterprise-teams).
+> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, check out [pre-paid monitoring blocks](/docs/postman/monitors/intro-monitors/#pricing).
 
 ## Payments
 
@@ -103,7 +103,7 @@ Add or update your billing email, company name, address, and (if applicable) VAT
 
 ### Failed payments
 
-If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with [billing privileges](/docs/postman-pro/managing-pro/managing-your-team/#managing-roles) will be notified via email.
+If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with [billing privileges](/docs/admin/billing/) will be notified via email.
 
 [![failed payment email](https://assets.postman.com/postman-docs/failed-payment-email.jpg)](https://assets.postman.com/postman-docs/failed-payment-email.jpg)
 
@@ -135,6 +135,6 @@ To purchase monitoring blocks, go to [monitoring usage details](http://go.postma
 
 ## Next steps
 
-To find information on team management, see [Managing your team](/docs/postman-pro/managing-pro/managing-your-team/).
+To find information on team management, see [Managing your team](/docs/postman/collaboration/team-settings/).
 
-To learn more about the billing team role, see [Roles and Permissions](/docs/postman-pro/managing-pro/roles-and-permissions/).
+To learn more about the billing team role, see [Roles and Permissions](/docs/postman/collaboration/roles-and-permissions/).

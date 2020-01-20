@@ -14,7 +14,7 @@ contextual_links:
 
 ---
 
-> __[Certain team options are only available with Postman Team, Business, or Enterprise.](https://www.getpostman.com/pricing)__
+> __[Certain team options are only available on Postman Team, Business, or Enterprise plans.](https://www.getpostman.com/pricing)__
 
 Postman's [web dashboard](https://app.getpostman.com/dashboard/teams) provides a number of ways to manage your team.
 
@@ -46,7 +46,7 @@ Note that teams may have two support accounts at no additional cost. Support acc
 
 ## Invites
 
-Invitations are sent to individuals you opt to add to your Postman team. Only admins are able to send, delete, and resend these. To allow Postman users from your company to request to join your team, [make your team discoverable](/docs/postman/launching-postman/collaboration/#team-discovery).
+Invitations are sent to individuals you opt to add to your Postman team. Only admins are able to send, delete, and resend these. To allow Postman users from your company to request to join your team, [make your team discoverable](/docs/postman/collaboration/collaboration-intro/#team-discovery).
 
 ### Inviting to a team
 

@@ -13,7 +13,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Billing"
-    url:  "http://localhost:8000/docs/admin/billing/"
+    url:  "/docs/admin/billing/"
 
 ---
 

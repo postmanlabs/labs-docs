@@ -125,7 +125,7 @@ The **Create New** tab appears by default when you launch Postman.
 
    [![create monitor](https://assets.postman.com/postman-docs/Monitor-Collection3.png)](https://assets.postman.com/postman-docs/Monitor-Collection3.png)
 
-   **Note:** To select regions manually and to schedule your monitor runs using the minute timer, upgrade your plan to Postman Pro or Enterprise.
+   **Note:** You can select regions manually and schedule your monitor runs using the minute timer on [Postman Business and Enterprise plans](https://www.getpostman.com/pricing).
 
    You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation.
 
@@ -137,7 +137,7 @@ You must select the frequency of how often you want to run your monitor. Monitor
 
 When you specify a monitor to run in multiple regions, the monitor will run multiple times. As a result, if there is a side effect from running the monitor, it will also happen multiple times.
 
-Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
+Postman Business and Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
 
 ### Additional preferences
 

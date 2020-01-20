@@ -173,7 +173,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 An API allows you to manage all aspects of API design, development, and testing from within Postman. APIs can only be created if you are signed in to Postman and online.
 
-Note: Free users can create up to 3 APIs, Pro users up to 10, and Enterprise users up to 100.
+> The number of APIs you can create is dependent on your [Postman plan](https://www.getpostman.com/pricing).
 
 As soon as you click on 'API' under Advanced section, a new "Untitled API" is created for you in the current workspace.
 

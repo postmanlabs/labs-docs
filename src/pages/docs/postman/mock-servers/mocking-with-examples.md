@@ -97,7 +97,7 @@ Under the **Mocks** tab, click the **Add a mock** link to open the **MOCK COLLEC
 
 We are not using any environment variables in our single saved example (P1), therefore we are going to go ahead and create a mock with `No Environment` chosen. It’s important to note that if your saved example has an environment variable in the URL, for example, `{{base_url}}/my/path` and you do not provide the corresponding environment when creating the mock, trying to mock that particular request will not work.
 
-Mocks are accessible to public by default. If you check the box making the mock server private, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team-library/sharing/#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
+Mocks are accessible to public by default. If you check the box making the mock server private, you can share the underlying collection with the team or specific team members, and provide permissions to edit or view.
 
 [![mock collection modal](https://assets.postman.com/postman-docs/WS-anuhyaMock9.png)](https://assets.postman.com/postman-docs/WS-anuhyaMock9.png)
 

@@ -22,27 +22,27 @@ Postman allows all users to collaborate with their teams through Team Workspaces
 
 ## Contents
 
-* [Working with team workspaces](/docs/postman/launching-postman/collaboration/#working-with-team-workspaces)
+* [Working with team workspaces](#working-with-team-workspaces)
 
-    * [Inviting a team member to a personal workspace](/docs/postman/launching-postman/collaboration/#inviting-a-team-member-to-a-personal-workspace)
+    * [Inviting a team member to a personal workspace](#inviting-a-team-member-to-a-personal-workspace)
 
-    * [Creating a new workspace](/docs/postman/launching-postman/collaboration/#creating-a-new-workspace-from-the-menu)
+    * [Creating a new workspace](#creating-a-new-workspace-from-the-menu)
 
-* [Team discovery](/docs/postman/launching-postman/collaboration/#team-discovery)
+* [Team discovery](#team-discovery)
 
-    * [Making your team discoverable](/docs/postman/launching-postman/collaboration/#making-your-team-discoverable)
+    * [Making your team discoverable](#making-your-team-discoverable)
 
-    * [Finding teams within your organization](/docs/postman/launching-postman/collaboration/#finding-teams-within-your-organization)
+    * [Finding teams within your organization](#finding-teams-within-your-organization)
 
-* [Usage limits for free users](/docs/postman/launching-postman/collaboration/#usage-limit-for-free-users)
+* [Usage limits for free users](#usage-limit-for-free-users)
 
-    * [Usage limit](/docs/postman/launching-postman/collaboration/#usage-limit)
+    * [Usage limit](#usage-limit)
 
-    * [How archiving works](/docs/postman/launching-postman/collaboration/#how-archiving-works)
+    * [How archiving works](#how-archiving-works)
 
-    * [Recovering archived collections](/docs/postman/launching-postman/collaboration/#recovering-your-archived-collections)
+    * [Recovering archived collections](#recovering-your-archived-collections)
 
-* [Next steps](/docs/postman/launching-postman/collaboration/#next-steps)
+* [Next steps](#next-steps)
 
 ## Working with team workspaces
 
@@ -90,13 +90,11 @@ You will see a list of available teams within your org. Select any team, then **
 
 The team administrator will receive a notification that you’ve asked to join the team. Once they approve your request, you will be able to access the team and collaborate on API projects within it.
 
-## Usage limit for free users
-
-Team workspaces are available to all users as of version 6.2. Postman usage limits differ by plan type and can be viewed on our [pricing page](https://www.getpostman.com/pricing).
-
 ### Usage limit
 
-You can check the number of requests you've shared within the Postman app as well as in the web dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting your team name.
+Team workspace limits differ by [plan type](https://www.getpostman.com/pricing).
+
+You can check the number of requests you've shared within the Postman app as well as in the web dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting the team name.
 
 The usage menu allows you to review limits for shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
 

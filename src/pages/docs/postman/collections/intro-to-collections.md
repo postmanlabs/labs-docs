@@ -57,7 +57,7 @@ You can group together requests into folders and collections, so that you don't 
 
 ### Documentation
 
-You can add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
+You can add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation.
 
 ### Test suites
 

@@ -14,7 +14,7 @@ contextual_links:
     url: "/docs/postman/collaboration/managing-your-team/"
 ---
 
-> __[Audit logs are available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__
+> __[Audit logs are available on Postman Business and Enterprise.](https://www.getpostman.com/pricing)__
 
 Audit logs list important team events. An admin can review audit logs to determine:
 

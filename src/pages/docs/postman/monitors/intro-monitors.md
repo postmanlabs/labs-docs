@@ -152,7 +152,7 @@ There are a few differences between running collections in a Postman monitor and
 
 ### Accessible APIs
 
-* Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available for [certain plan types](https://www.getpostman.com/pricing).
+* Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available on [Postman Business and Enterprise plans](https://www.getpostman.com/pricing).
 
 ## Monitor dashboard
 

@@ -2,8 +2,6 @@
 title: "Logging in to an SSO team"
 order: 136.2
 page_id: "user_sso"
-tags: 
-  - "enterprise"
 warning: false
 contextual_links:
   - type: section
@@ -13,9 +11,9 @@ contextual_links:
     url: "https://www.getpostman.com/pricing"
 ---
 
-> __[SSO is available on Postman Business and Enterprise only](https://www.getpostman.com/pricing)__
+> __[SSO is available on Postman Business and Enterprise.](https://www.getpostman.com/pricing)__
 
-When your team admin has enabled single sign-on (**SSO**) for Postman, you can log in to Postman with a [configured Identity provider](/docs/postman-enterprise/sso/intro-sso/).
+When your team admin has enabled single sign-on (**SSO**) for Postman, you can log in to Postman with a [configured Identity provider](/docs/admin/sso/intro-sso/).
 
 Your team admin can provide a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to the configured Identity Provider.
 

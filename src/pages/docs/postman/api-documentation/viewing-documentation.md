@@ -47,7 +47,7 @@ You can view and comment on private documentation shared with you. Documentation
 
 You can [view documentation for any collection that has been shared with you](/docs/postman/api-documentation/documenting-your-api). You must be logged in to your Postman account to view private documentation.
 
-> Postman Pro and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
+> Postman Team, Business, and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
 To view documentation for a collection you have access to in the Postman app, select the collection, click the arrow (&#9654;), and choose __View in web__. The collection documentation will open in your web browser.
 
@@ -89,4 +89,4 @@ You can access [public documentation](/docs/postman/api-documentation/publishing
 
 ## Next steps
 
-Learn more about [collaborating with your team](/docs/postman/launching-postman/collaboration/) in Postman.
+Learn more about [collaborating with your team](/docs/postman/collaboration/collaboration-intro/) in Postman.

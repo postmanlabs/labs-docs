@@ -14,9 +14,6 @@ contextual_links:
   - type: subtitle
     name: "Related Blog posts"
   - type: link
-    name: "The Importance of 3rd Party Integrations"
-    url: "https://blog.getpostman.com/2017/03/21/the-importance-of-3rd-party-integrations-for-postman-pro/?_ga=2.184833577.1078379737.1571761632-963694147.1565912089"
-  - type: link
     name: "Backup and Sync your Postman Collections on GitHub"
     url: "https://blog.getpostman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/?_ga=2.184833577.1078379737.1571761632-963694147.1565912089"
 ---

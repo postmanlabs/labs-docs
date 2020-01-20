@@ -93,4 +93,4 @@ With a Postman Team, Business, or Enterprise account, you can pipe team activity
 
 ## Next steps
 
-For more on working with a team in Postman, see [collaboration](/docs/postman/launching-postman/collaboration/). To learn how to invite input on your API projects, see [sharing collections](/docs/postman/collections/sharing-collections/).
+For more on working with a team in Postman, see [collaboration](/docs/postman/collaboration/collaboration-intro/). To learn how to invite input on your API projects, see [sharing collections](/docs/postman/collections/sharing-collections/).

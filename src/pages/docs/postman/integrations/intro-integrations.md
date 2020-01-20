@@ -12,9 +12,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: link
-    name: "The importance of 3rd party integrations"
-    url: "https://blog.getpostman.com/2017/03/21/the-importance-of-3rd-party-integrations-for-postman-pro/?_ga=2.176567845.1078379737.1571761632-963694147.1565912089"
-  - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.getpostman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/" 
 ---
