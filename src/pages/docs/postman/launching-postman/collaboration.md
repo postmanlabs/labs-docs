@@ -96,9 +96,9 @@ Team workspaces are available to all users as of version 6.2. Postman usage limi
 
 ### Usage limit
 
-You can check the number of requests you've shared within the Postman app as well as in the web dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting your team name.
+You can check your usage limits within the Postman app as well as in the web dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting your team name.
 
-The usage menu allows you to review limits for shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
+The usage menu allows you to review limits for APIs, shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
 
 [![usage info](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.38.16 PM.png)](https://assets.postman.com/postman-docs/Screen Shot 2019-11-11 at 5.38.16 PM.png)
 
