@@ -36,6 +36,11 @@
 
 .left-nav {
   padding-left: 0px !important;
+  
+  @media(max-width: 991px) {
+    background-color: red;
+  
+  }
 }
 
 /* Blockquotes */

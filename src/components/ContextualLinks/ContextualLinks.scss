@@ -32,7 +32,15 @@
     }
   }
 
-  @media (min-width: 575px) and (max-width: 988px){
-    min-width: 267px;
+
+  @media (min-width: 767px) and (max-width: 988px){
+    background-color: pink;
+  }
+
+  @media (max-width: 767px) {
+      max-width: 767px;
+      margin: 12px 16px;
+      border-top: 5px solid $postman-orange;
+      padding-bottom: 80px;
   }
 }
