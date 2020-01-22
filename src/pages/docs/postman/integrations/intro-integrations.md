@@ -16,6 +16,8 @@ contextual_links:
     url: "https://blog.getpostman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/" 
 ---
 
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+
 Postman provides a strong API development toolchain that integrates seamlessly with the developer's workflow.
 
 Postman has always supported an open ecosystem. We work with industry leaders to introduce new features and integrations that make API development easier and faster.

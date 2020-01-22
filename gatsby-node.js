@@ -14,7 +14,7 @@ const ignorePaths = [
   '/docs/postman/team-library/setting-up-team-library/',
   '/docs/postman/team-library/sharing/',
   '/docs/postman/team-library/conflicts/',
-  '/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5',
+  '/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5/',
   '/docs/admin/migrating-to-v7/'
 ];
 
