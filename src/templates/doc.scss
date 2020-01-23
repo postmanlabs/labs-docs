@@ -34,8 +34,10 @@
   }
 }
 
+// make left nav full width in mobile view
 .left-nav {
   padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 /* Blockquotes */
@@ -43,4 +45,19 @@ blockquote {
   padding: 0 24px;
   color: #6a737d;
   border-left: 5px solid #dfe2e5;
+}
+
+.edit-button {
+  margin-top: 32px;
+  margin-left: 12px;
+  @media (min-width:767px) and (max-width: 990px) {
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 990px) {
+  .right-colum {
+  padding-bottom: 80px;
+  padding-left: 16px;
+  }
 }
