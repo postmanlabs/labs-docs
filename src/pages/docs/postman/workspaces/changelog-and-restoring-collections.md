@@ -88,12 +88,12 @@ To filter by user, click **Filter by User** at the top of the activity feed and 
 
 #### Filtering by entity
 
-Filtering by entity will only display the aactions carried out on the selected entity type.
+Filtering by entity will only display the actions carried out on the selected entity type. Available entities are `Workspace`, `API`, `Collection`, and `Environment`.
 To filter by entity, click **Filter by Entity** at the top of the activity feed and select the entity or entities. You can search for a specific entity by typing its name in the search field. Once you have selected the entity or entities, click **Apply**.
 
 > You can access the changelog of a specific collection by clicking **View Changelog** next to actions on collections.
 
-[![activity feed filtering entity](https://user-images.githubusercontent.com/5029719/72342864-6c339b00-36c5-11ea-959c-29a1a5161f4f.gif)](https://user-images.githubusercontent.com/5029719/72342864-6c339b00-36c5-11ea-959c-29a1a5161f4f.gif)
+[![activity feed filtering entity](https://user-images.githubusercontent.com/5029719/72995901-9c7be780-3df1-11ea-891c-f57b86edb7a7.gif)](https://user-images.githubusercontent.com/5029719/72995901-9c7be780-3df1-11ea-891c-f57b86edb7a7.gif)
 
 ## Viewing team activity
 
