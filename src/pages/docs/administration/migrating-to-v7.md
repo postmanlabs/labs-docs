@@ -51,7 +51,7 @@ If you are a team user, you must migrate to Postman v7 to leverage fine-grained 
 
 ## How to migrate?
 
-This section illustrates the possible user flows and guides you through the migration process. Role-based access is a team feature. To use this feature, the entire team must be on Postman v7.
+This section illustrates the possible user flows and guides you through the migration process. To use this feature, the entire team must be on Postman v7.
 
 **Note:** The migration decision is restricted to the team Administrators. If you are a Postman team member and are not on Postman v7, please contact your Administrator to migrate to Postman v7.
 
