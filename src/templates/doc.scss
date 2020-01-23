@@ -36,6 +36,7 @@
 
 .left-nav {
   padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 /* Blockquotes */
@@ -48,13 +49,14 @@ blockquote {
 .edit-button {
   margin-top: 32px;
   margin-left: 12px;
+  @media (min-width:767px) and (max-width: 990px) {
+    padding-left: 16px;
+  }
 }
 
-// @media (min-width: 767px) and (max-width: 988px) {
-//   .left-nav {
-//     background-color: $light-blue;
-//   }
-//   .contextual-links {
-//     margin-left: 100px;
-//   }
-// }
+@media (max-width: 990px) {
+  .right-colum {
+  padding-bottom: 80px;
+  padding-left: 16px;
+  }
+}

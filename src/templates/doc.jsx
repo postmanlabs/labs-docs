@@ -24,13 +24,11 @@ export default ({ data }) => {
           </div>
           <div className="col">
             <div className="row row-eq-height">
-              <div className="col-sm-10 col-md-12 col-lg-8 doc-page">
-                {/* div className="col-sm-10 col-md-6 doc-page" */}
+              <div className="col-sm-12 col-md-12 col-lg-8 doc-page">
                 <h1>{post.frontmatter.title}</h1>
                 <span dangerouslySetInnerHTML={{ __html: post.html }} />
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-4">
-                { /* <div className="col-sm-3"> */ }
+              <div className="col-sm-12 col-md-12 col-lg-4 right-column">
                 <div className="edit-button">
                   <EditDoc className={'btn btn__small btn__secondary-light'} />
                 </div>
@@ -38,7 +36,6 @@ export default ({ data }) => {
               </div>
             </div>
           </div>
-          { /* end of col */ }
         </div>
       </div>
     </Layout>
