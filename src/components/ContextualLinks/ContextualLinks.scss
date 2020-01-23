@@ -31,10 +31,14 @@
     }
   }
 
+  // tablet view
   @media (min-width: 767px) and (max-width: 990px) {
       padding-bottom: 80px;
       margin-left: 32px;
   }
+
+
+  // mobile view
   @media (max-width: 767px) {
     padding-bottom: 80px;
   }
