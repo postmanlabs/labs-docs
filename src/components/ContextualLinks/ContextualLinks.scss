@@ -1,7 +1,7 @@
 @import '../Shared/_variables.scss';
 
 .contextual-links {
-  max-width: 267px;
+  // max-width: 267px;
   margin: 12px 16px;
   border-top: 5px solid $postman-orange;
   
@@ -32,10 +32,10 @@
     }
   }
 
-  @media (max-width: 767px) {
-      max-width: 767px;
-      margin: 12px 16px;
-      border-top: 5px solid $postman-orange;
-      padding-bottom: 80px;
-  }
+  // @media (max-width: 767px) {
+  //     max-width: 767px;
+  //     margin: 12px 16px;
+  //     border-top: 5px solid $postman-orange;
+  //     padding-bottom: 80px;
+  // }
 }
