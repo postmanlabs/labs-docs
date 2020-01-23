@@ -94,7 +94,7 @@ Add an existing environment to this workspace or [create a new environment](/doc
 
 ### Integrations
 
-View a list of current integrations or create a new one. Postman has [third party integrations](/docs/postman/integrations/intro-integrations/) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
+View a list of current integrations or create a new one. Postman has [third party integrations](/docs/integrations/intro-integrations/) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
 
 ### Activity
 

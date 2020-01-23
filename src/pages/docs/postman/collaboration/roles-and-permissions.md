@@ -8,7 +8,7 @@ contextual_links:
     name: "Additional Resources"
   - type: link
     name: "Migrating to Postman v7"
-    url: "/docs/admin/migrating-to-v7/"
+    url: "/docs/administration/migrating-to-v7/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -21,7 +21,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to Integrations"
-    url: "/docs/postman/integrations/intro-integrations/"
+    url: "/docs/integrations/intro-integrations/"
 ---
 Roles and permissions in Postman have been enhanced to provide a more robust access-control mechanism. In Postman v7, you access features through assigned roles that have their own set of user permissions.
 
@@ -147,4 +147,4 @@ To learn how you can assign different roles to your team members, visit [Managin
 
 ## Migrating to Postman v7
 
-To know more about migration-related information, please refer to [migrating to v7](/docs/admin/migrating-to-v7/) section.
+To know more about migration-related information, please refer to [migrating to v7](/docs/administration/migrating-to-v7/) section.

@@ -13,51 +13,51 @@
   },
   {
       "from": "/docs/postman-enterprise/intro-to-enterprise/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman-enterprise/purchasing-enterprise/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman-enterprise/sso/admin-sso/",
-      "to": "/docs/admin/sso/admin-sso/"
+      "to": "/docs/administration/sso/admin-sso/"
   },
   {
       "from": "/docs/postman-enterprise/sso/intro-sso/",
-      "to": "/docs/admin/sso/intro-sso/"
+      "to": "/docs/administration/sso/intro-sso/"
   },
   {
       "from": "/docs/postman-enterprise/sso/microsoft-adfs/",
-      "to": "/docs/admin/sso/microsoft-adfs/"
+      "to": "/docs/administration/sso/microsoft-adfs/"
   },
   {
       "from": "/docs/postman-enterprise/sso/saml-duo/",
-      "to": "/docs/admin/sso/saml-duo/"
+      "to": "/docs/administration/sso/saml-duo/"
   },
   {
       "from": "/docs/postman-enterprise/sso/saml-gsuite/",
-      "to": "/docs/admin/sso/saml-gsuite/"
+      "to": "/docs/administration/sso/saml-gsuite/"
   },
   {
       "from": "/docs/postman-enterprise/sso/saml-in-azure-ad/",
-      "to": "/docs/admin/sso/saml-in-azure-ad/"
+      "to": "/docs/administration/sso/saml-in-azure-ad/"
   },
   {
       "from": "/docs/postman-enterprise/sso/saml-okta/",
-      "to": "/docs/admin/sso/saml-okta/"
+      "to": "/docs/administration/sso/saml-okta/"
   },
   {
       "from": "/docs/postman-enterprise/sso/saml-onelogin/",
-      "to": "/docs/admin/sso/saml-onelogin/"
+      "to": "/docs/administration/sso/saml-onelogin/"
   },
   {
       "from": "/docs/postman-enterprise/sso/saml-ping/",
-      "to": "/docs/admin/sso/saml-ping/"
+      "to": "/docs/administration/sso/saml-ping/"
   },
   {
       "from": "/docs/postman-enterprise/sso/user-sso/",
-      "to": "/docs/admin/sso/user-sso/"
+      "to": "/docs/administration/sso/user-sso/"
   },
   {
       "from": "/docs/postman-enterprise/using-static-IPs-to-monitor/",
@@ -88,20 +88,80 @@
       "to": "/docs/postman-for-publishers/run-in-postman/using-run-button/"
   },
   {
+        "from": "/docs/postman-pro/integrations/apimatic/",
+        "to": "/docs/integrations/apimatic/"
+  },
+  {
+        "from": "/docs/postman-pro/integrations/bigpanda/",
+        "to": "/docs/integrations/bigpanda/"
+  },
+  {
+        "from": "/docs/postman-pro/integrations/coralogix/",
+        "to": "/docs/integrations/coralogix/"
+  },
+  {
+        "from": "/docs/postman-pro/integrations/datadog/",
+        "to": "/docs/integrations/datadog/"
+  },
+  {
+        "from": "/docs/postman-pro/integrations/dropbox/",
+        "to": "/docs/integrations/dropbox/"
+  },
+  {
+        "from": "/docs/postman-pro/integrations/github/",
+        "to": "/docs/integrations/github/"
+  },
+  {
+        "from": "/docs/postman-pro/integrations/gitlab/",
+        "to": "/docs/integrations/gitlab/"
+  },
+  {
+        "from": "/docs/postman-pro/integrations/hipchat/",
+        "to": "/docs/integrations/gitlab/"
+  },
+  {
+      "from": "/docs/postman-pro/integrations/intro-integrations/",
+      "to": "/docs/integrations/hipchat/"
+  },
+  {
+      "from": "/docs/postman-pro/integrations/keen/",
+      "to": "/docs/integrations/keen/"
+  },
+  {
+      "from": "/docs/postman-pro/integrations/microsoft-flow/",
+      "to": "/docs/integrations/microsoft-flow/"
+  },
+  {
+      "from": "/docs/postman-pro/integrations/microsoft-teams/",
+      "to": "/docs/integrations/microsoft-teams/"
+  },
+  {
+      "from": "/docs/postman-pro/integrations/pagerduty/",
+      "to": "/docs/integrations/pagerduty/"
+  },
+  {
+      "from": "/docs/postman-pro/integrations/victorops/",
+      "to": "/docs/integrations/victorops/"
+  },
+  {
+        "from": "/docs/postman-pro/integrations/webhooks/",
+        "to": "/docs/integrations/webhooks/"
+  },
+  {
       "from": "/docs/postman-pro/managing-pro/billing-and-pricing/",
-      "to": "/docs/admin/billing/"
+      "to": "/docs/administration/billing/"
   },
   {
       "from": "/docs/postman-pro/managing-pro/billing/",
-      "to": "/docs/admin/billing/"
+      "to": "/docs/administration/billing/"
   },
   {
       "from": "/docs/postman-pro/managing-pro/billing/",
-      "to": "/docs/admin/billing/"
+      "to": "/docs/administration/billing/"
   },
   {
       "from": "/docs/postman-pro/managing-pro/billing/",
-      "to": "/docs/admin/billing/"
+      "to": "/docs/administration/billing/"
   },
   {
       "from": "/docs/postman-pro/managing-pro/inviting-and-managing/",
@@ -109,7 +169,7 @@
   },
   {
       "from": "/docs/postman-pro/managing-pro/managing-your-billing/",
-      "to": "/docs/admin/billing/"
+      "to": "/docs/administration/billing/"
   },
   {
       "from": "/docs/postman-pro/managing-pro/managing-your-team/",
@@ -117,11 +177,11 @@
   },
   {
       "from": "/docs/postman-pro/managing-pro/migrating-to-v7/",
-      "to": "/docs/admin/migrating-to-v7"
+      "to": "/docs/administration/migrating-to-v7"
   },
   {
       "from": "/docs/postman-pro/managing-pro/purchasing-pro/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman-pro/managing-pro/roles-and-permissions/",
@@ -133,11 +193,11 @@
   },
   {
       "from": "/docs/postman-pro/managing-pro/upgrading-to-postman-pro-from-a-trial-team/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman-pro/what-is-pro/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman/api-documentation/adding-and-verifying-custom-domains/",
@@ -309,51 +369,51 @@
   },
   {
       "from": "/docs/postman_enterprise/intro_to_enterprise/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman_enterprise/purchasing_enterprise/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman_enterprise/sso/admin_sso/",
-      "to": "/docs/admin/sso/admin-sso/"
+      "to": "/docs/administration/sso/admin-sso/"
   },
   {
       "from": "/docs/postman_enterprise/sso/intro_sso/",
-      "to": "/docs/admin/sso/intro-sso/"
+      "to": "/docs/administration/sso/intro-sso/"
   },
   {
       "from": "/docs/postman_enterprise/sso/microsoft_adfs/",
-      "to": "/docs/admin/sso/microsoft-adfs/"
+      "to": "/docs/administration/sso/microsoft-adfs/"
   },
   {
       "from": "/docs/postman_enterprise/sso/saml_duo/",
-      "to": "/docs/admin/sso/saml-duo/"
+      "to": "/docs/administration/sso/saml-duo/"
   },
   {
       "from": "/docs/postman_enterprise/sso/saml_gsuite/",
-      "to": "/docs/admin/sso/saml-gsuite/"
+      "to": "/docs/administration/sso/saml-gsuite/"
   },
   {
       "from": "/docs/postman_enterprise/sso/saml_in_azure_ad/",
-      "to": "/docs/admin/sso/saml-in-azure-ad/"
+      "to": "/docs/administration/sso/saml-in-azure-ad/"
   },
   {
       "from": "/docs/postman_enterprise/sso/saml_okta/",
-      "to": "/docs/admin/sso/saml-okta/"
+      "to": "/docs/administration/sso/saml-okta/"
   },
   {
       "from": "/docs/postman_enterprise/sso/saml_onelogin/",
-      "to": "/docs/admin/sso/saml-onelogin/"
+      "to": "/docs/administration/sso/saml-onelogin/"
   },
   {
       "from": "/docs/postman_enterprise/sso/saml_ping/",
-      "to": "/docs/admin/sso/saml-ping/"
+      "to": "/docs/administration/sso/saml-ping/"
   },
   {
       "from": "/docs/postman_enterprise/sso/user_sso/",
-      "to": "/docs/admin/sso/user-sso/"
+      "to": "/docs/administration/sso/user-sso/"
   },
   {
       "from": "/docs/postman_enterprise/using_static_IPs_to_monitor/",
@@ -404,12 +464,80 @@
       "to": "/docs/postman-for-publishers/run-in-postman/using-run-button/"
   },
   {
+        "from": "/docs/postman_pro/integrations/apimatic/",
+        "to": "/docs/integrations/apimatic/"
+  },
+  {
+        "from": "/docs/postman_pro/integrations/bigpanda/",
+        "to": "/docs/integrations/bigpanda/"
+  },
+  {
+        "from": "/docs/postman_pro/integrations/coralogix/",
+        "to": "/docs/integrations/coralogix/"
+  },
+  {
+        "from": "/docs/postman_pro/integrations/datadog/",
+        "to": "/docs/integrations/datadog/"
+  },
+  {
+        "from": "/docs/postman_pro/integrations/dropbox/",
+        "to": "/docs/integrations/dropbox/"
+  },
+  {
+        "from": "/docs/postman_pro/integrations/github/",
+        "to": "/docs/integrations/github/"
+  },
+  {
+        "from": "/docs/postman_pro/integrations/gitlab/",
+        "to": "/docs/integrations/gitlab/"
+  },
+  {
+      "from": "/docs/postman_pro/integrations/hipchat/",
+      "to": "/docs/integrations/hipchat/"
+  },
+  {
+      "from": "/docs/postman_pro/integrations/intro_integrations/",
+      "to": "/docs/integrations/intro-integrations/"
+  },
+  {
+      "from": "/docs/postman_pro/integrations/keen/",
+      "to": "/docs/integrations/keen/"
+  },
+  {
+      "from": "/docs/postman_pro/integrations/microsoft_flow/",
+      "to": "/docs/integrations/microsoft-flow/"
+  },
+  {
+      "from": "/docs/postman_pro/integrations/microsoft_teams/",
+      "to": "/docs/integrations/microsoft-teams/"
+  },
+  {
+      "from": "/docs/postman_pro/integrations/pagerduty/",
+      "to": "/docs/integrations/pagerduty/"
+  },
+  {
+      "from": "/docs/postman-pro/integrations/slack/",
+      "to": "/docs/integrations/slack/"
+  },
+  {
+      "from": "/docs/postman_pro/integrations/slack/",
+      "to": "/docs/integrations/slack/"
+  },
+  {
+      "from": "/docs/postman_pro/integrations/victorops/",
+      "to": "/docs/integrations/victorops/"
+  },
+  {
+        "from": "/docs/postman_pro/integrations/webhooks/",
+        "to": "/docs/integrations/webhooks/"
+  },
+  {
       "from": "/docs/postman_pro/managing_postman_pro/managing_your_team/",
       "to": "/docs/postman/collaboration/managing-your-team/"
   },
   {
       "from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/",
-      "to": "/docs/admin/migrating-to-v7"
+      "to": "/docs/administration/migrating-to-v7"
   },
   {
       "from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
@@ -417,11 +545,11 @@
   },
   {
       "from": "/docs/postman_pro/managing_pro/billing_and_pricing/",
-      "to": "/docs/admin/billing/"
+      "to": "/docs/administration/billing/"
   },
   {
       "from": "/docs/postman_pro/managing_pro/billing_and_pricing/",
-      "to": "/docs/admin/billing/"
+      "to": "/docs/administration/billing/"
   },
   {
       "from": "/docs/postman_pro/managing_pro/inviting_and_managing",
@@ -429,11 +557,11 @@
   },
   {
       "from": "/docs/postman_pro/managing_pro/managing_your_billing/",
-      "to": "/docs/admin/billing/"
+      "to": "/docs/administration/billing/"
   },
   {
       "from": "/docs/postman_pro/managing_pro/managing_your_billing/",
-      "to": "/docs/admin/billing/"
+      "to": "/docs/administration/billing/"
   },
   {
       "from": "/docs/postman_pro/managing_pro/managing_your_team/",
@@ -441,7 +569,7 @@
   },
   {
       "from": "/docs/postman_pro/managing_pro/purchasing_pro/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman_pro/managing_pro/team_settings/",
@@ -449,10 +577,10 @@
   },
   {
       "from": "/docs/postman_pro/managing_pro/upgrading_to_postman_pro_from_a_trial_team/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman_pro/what_is_pro/",
-      "to": "/docs/admin/buying/"
+      "to": "/docs/administration/buying/"
   }
 ]

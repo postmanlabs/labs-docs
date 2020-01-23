@@ -74,6 +74,6 @@ At the top of the activity feed a confirmation indicates the collection has been
 
 Postman users with paid plans can pipe the team's activity feed to a communication channel of your choice with the following integrations:
 
-* [Slack integration](/docs/postman/integrations/slack/)
-* [HipChat integration](/docs/postman/integrations/hipchat/)
-* [Microsoft Teams integration](/docs/postman/integrations/microsoft-teams/)  
+* [Slack integration](/docs/integrations/slack/)
+* [HipChat integration](/docs/integrations/hipchat/)
+* [Microsoft Teams integration](/docs/integrations/microsoft-teams/)  
