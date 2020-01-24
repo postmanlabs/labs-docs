@@ -2,6 +2,7 @@
 title: "Branching and looping"
 order: 44
 page_id: "branching_and_looping"
+search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
     name: "Prerequisites"

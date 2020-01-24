@@ -2,6 +2,7 @@
 title: "Command line integration with Newman"
 order: 61
 page_id: "command_line_integration_with_newman"
+search_keyword: "newman run"
 contextual_links:
   - type: section
     name: "Prerequisites"

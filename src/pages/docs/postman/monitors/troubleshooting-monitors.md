@@ -2,6 +2,7 @@
 title: "Troubleshooting monitors"
 order: 78
 page_id: "troubleshooting_monitors"
+search_keyword: "console.log"
 contextual_links:
   - type: section
     name: "Prerequisites"

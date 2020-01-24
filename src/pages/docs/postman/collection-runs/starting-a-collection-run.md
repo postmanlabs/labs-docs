@@ -2,6 +2,7 @@
 title: "Starting a collection run"
 order: 54
 page_id: "starting_a_collection_run"
+search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
     name: "Prerequisites"
