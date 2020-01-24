@@ -62,6 +62,13 @@ Users can then access both the API Network and community templates via the __New
 
 ![Network and Templates](https://assets.postman.com/postman-docs/network-templates.jpg)
 
-Browse all the API documentation and community templates to inspire your own masterpieces.
+Browse all the API documentation and community templates to inspire your own.
 
 [![Imgur API docs](https://i.imgur.com/oXgXznt.png)](https://i.imgur.com/oXgXznt.png)
+
+> Your published docs can target specific [versions](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs) of your collections.
+
+## Next steps
+
+* If you are publishing docs for an API via your team, share them by [adding to the API Network](/docs/postman-for-publishers/api-network/add-api-network).
+* If you are publishing as an individual user, [share your collection docs via the templates](/docs/postman-for-publishers/postman-templates/add-templates).
