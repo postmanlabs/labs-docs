@@ -63,6 +63,8 @@ To generate and view documentation for an existing collection from the Postman a
 
 ![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
+> You can edit your docs either in the Postman app, or directly in the browser (while viewing documentation for a collection you have edit access to).
+
 Alternatively, use the __New__ button, and select __API Documentation__. Choose __Select an existing collection__ and click the collection you want to view docs for.
 
 ![Document Collection](https://assets.postman.com/postman-docs/document-collection.jpg)
@@ -74,6 +76,10 @@ Enter or edit the markdown description of your collection and click __Save__.
 You will see a confirmation that your documentation is published, and a link you can visit to view it in the browser.
 
 ![Docs Link](https://assets.postman.com/postman-docs/docs-link.jpg)
+
+You can carry out additional edits directly on the documentation page—you'll see editable areas highlighted on hover. Click to edit, make your changes, and save them to update the text.
+
+<img src="https://assets.postman.com/postman-docs/inline-edit-heading.jpg" alt="Edit Header" width="400px"/>
 
 You can also view documentation from the [web dashboard](https://web.postman.co/)—select __View all collections__, then select a collection to view its docs in the browser.
 
@@ -106,6 +112,10 @@ Your docs will automatically include detail on your requests, with sample code i
 You can add detail to your descriptions using [Markdown](/docs/postman/api-documentation/authoring-your-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
 
 ![Docs Folders](https://assets.postman.com/postman-docs/docs-folders.jpg)
+
+> If you edit your docs in the browser, you'll see helpers for a few common options and the ability to preview your changes.
+
+<img src="https://assets.postman.com/postman-docs/inline-edit-description.jpg" alt="Edit Description" width="500px"/>
 
 For more on adding detail to your docs, see [Authoring your documentation](/docs/postman/api-documentation/authoring-your-documentation/).
 
