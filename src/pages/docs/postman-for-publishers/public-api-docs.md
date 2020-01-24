@@ -46,13 +46,13 @@ Effective API documentation explains the purpose of your API and provides inform
 
 [Auto-generate documentation](/docs/postman/api-documentation/documenting-your-api/) directly from a Postman collection, take some time to [add descriptions](/docs/postman/collections/using-markdown-for-descriptions/) to more thoroughly explain each endpoint or parameter, or [version your published documentation](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs).
 
-Your documentation will include both browsable information on the web, and the **Run in Postman** button so users can interact with your API directly in the Postman app. For example, check out the [Postman API documentation](http://docs.api.getpostman.com) - generated from a Postman collection.
+Your documentation will include both browsable information on the web, and the **Run in Postman** button so users can interact with your API directly in the Postman app. For example, check out the [Postman API documentation](http://docs.api.getpostman.com)—generated from a Postman collection.
 
 [![postman API docs](https://i.imgur.com/jNF08qQ.png)](https://i.imgur.com/jNF08qQ.png)
 
-In addition to private documentation accessible within your personal team, you can also share API documentation publicly with the Postman community. Sharing your API documentation within the [Postman API Network](/docs/postman-for-publishers/api-network/add-api-network/) or as a [Postman template](/docs/postman-for-publishers/postman-templates/add-templates/) helps the Postman community discover new APIs and workflows.
+In addition to private documentation accessible within your personal team, you can also share API documentation publicly with the Postman community. Sharing your API documentation within the [Postman API Network](/docs/postman-for-publishers/api-network/add-api-network/) or as a [Postman template](/docs/postman-for-publishers/postman-templates/add-templates/) helps the community discover new APIs and workflows.
 
-> **Don't have a public API?** Discover other APIs from the [Postman API Network](https://explore.postman.com/) to incorporate into your own workflows. Or search for industry better practices among the community-contributed [templates](https://explore.postman.com/templates).
+> **Don't have a public API?** Discover other APIs from the [Postman API Network](https://explore.postman.com/) to incorporate into your own projects. You can also search for industry better practices among the community-contributed [templates](https://explore.postman.com/templates).
 
 ## Making your documentation discoverable
 
@@ -62,7 +62,7 @@ Users can then access both the API Network and community templates via the __New
 
 ![Network and Templates](https://assets.postman.com/postman-docs/network-templates.jpg)
 
-Browse all the API documentation and community templates to inspire your own.
+Browse the API documentation and community templates to inspire your own.
 
 [![Imgur API docs](https://i.imgur.com/oXgXznt.png)](https://i.imgur.com/oXgXznt.png)
 
