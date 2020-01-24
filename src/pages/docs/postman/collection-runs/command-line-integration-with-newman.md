@@ -297,7 +297,8 @@ A custom reporter is a Node module with a name of the form `newman-reporter-<nam
 function (emitter, reporterOptions, collectionRunOptions) {
   // emitter is is an event emitter that triggers the following events: https://github.com/postmanlabs/newman#newmanrunevents
   // reporterOptions is an object of the reporter specific options. See usage examples below for more details.
-  // collectionRunOptions is an object of all the collection run options: https://github.com/postmanlabs/newman#newmanrunoptions-object--callback-function--run-eventemitter
+  // collectionRunOptions is an object of all the collection run options:
+  // https://github.com/postmanlabs/newman#newmanrunoptions-object--callback-function--run-eventemitter
 };
 ```
 
