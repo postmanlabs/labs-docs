@@ -7,7 +7,7 @@ email=email.txt
 printf "Log File - " > $log
  
 # append git diff to log file
-git diff branch >> $log 
+git diff >> $log 
 
 # find H2 tag in diff
 result=$(grep -n '##' "$log")
@@ -21,3 +21,4 @@ size=${#result}
   else
     echo no data
   fi
+echo end of file
