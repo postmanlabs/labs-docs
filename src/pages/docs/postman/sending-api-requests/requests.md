@@ -2,6 +2,7 @@
 title: "Requests"
 order: 14
 page_id: "requests"
+search_keyword: "Content-Type, multipart, form-data, x-www-form-urlencoded"
 contextual_links:
   - type: section
     name: "Prerequisites"

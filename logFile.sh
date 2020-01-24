@@ -21,3 +21,4 @@ size=${#result}
   else
     echo no data
   fi
+

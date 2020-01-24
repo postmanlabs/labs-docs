@@ -2,6 +2,7 @@
 title: "Test examples"
 order: 43
 page_id: "test_examples"
+search_keyword: "setEnvironmentVariable, postman.getEnvironmentVariable, getEnvironmentVariable, pm.environment.unset, collectionVariables.set, pm.collectionVariables.set, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.unset, collectionVariables.unset, pm.globals.set, globals.set, pm.globals.get, globals.get, pm.globals.unset, globals.unset, variables.get, pm.variables.get, pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -574,7 +575,9 @@ tests["Your test name"] = data.value === 100;
 ### Content-Type is present (Case-insensitive checking) (deprecated)
 
 ```js
-tests["Content-Type is present"] = postman.getResponseHeader("Content-Type"); //Note: the getResponseHeader() method returns the header value, if it exists.
+tests["Content-Type is present"] = postman.getResponseHeader("Content-Type");
+tests["Content-Type is present"] = postman.getResponseHeader("Content-Type");
+//Note: the getResponseHeader() method returns the header value, if it exists.
 ```
 
 ### Content-Type is present (Case-sensitive) (deprecated)
@@ -592,7 +595,8 @@ tests["Response time is less than 200ms"] = responseTime < 200;
 ### Response time is within a specific range (lower bound inclusive, upper bound exclusive) (deprecated)
 
 ```js
-tests["Response time is acceptable"] = _.inRange(responseTime, 100, 1001); // _ is the inbuilt Lodash v3.10.1 object, documented at https://lodash.com/docs/3.10.1
+tests["Response time is acceptable"] = _.inRange(responseTime, 100, 1001);
+// _ is the inbuilt Lodash v3.10.1 object, documented at https://lodash.com/docs/3.10.1
 ```
 
 ### Status code is 200 (deprecated)
@@ -636,6 +640,7 @@ var intermediate,
     base64Content, // assume this has a base64 encoded value
     rawContent = base64Content.slice('data:application/octet-stream;base64,'.length);
 
-intermediate = CryptoJS.enc.Base64.parse(base64content); // CryptoJS is an inbuilt object, documented here: https://www.npmjs.com/package/crypto-js
+intermediate = CryptoJS.enc.Base64.parse(base64content);
+// CryptoJS is an inbuilt object, documented here: https://www.npmjs.com/package/crypto-js
 tests["Contents are valid"] = CryptoJS.enc.Utf8.stringify(intermediate); // a check for non-emptiness
 ```

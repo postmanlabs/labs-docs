@@ -2,6 +2,7 @@
 title: "Authorizing requests"
 order: 19
 page_id: "authorization"
+search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:
   - type: section
     name: "Prerequisites"

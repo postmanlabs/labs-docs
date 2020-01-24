@@ -2,6 +2,7 @@
 title: "Set up integrations to receive alerts"
 order: 76
 page_id: "integrations_for_alerts"
+search_keyword: "globals.previousRequest, previousRequest"
 contextual_links:
   - type: section
     name: "Prerequisites"

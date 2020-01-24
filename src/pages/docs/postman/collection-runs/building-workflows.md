@@ -2,6 +2,7 @@
 title: "Building workflows"
 order: 58
 page_id: "building_workflows"
+search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
     name: "Prerequisites"
