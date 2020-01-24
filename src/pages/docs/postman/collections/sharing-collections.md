@@ -134,4 +134,4 @@ Click the **Save Changes** button to complete the process.
 
 Users can request access to a team member's personal collection or a private collection if they have a link to the collection.
 
-To learn more about this feature, refer to the [Requesting access to collections](/docs/postman/collections/requesting-access-to-collections/) section.
+To learn more about this feature, refer to the [Requesting access to collections](/docs/postman/collaboration/requesting-access-to-collections/) section.

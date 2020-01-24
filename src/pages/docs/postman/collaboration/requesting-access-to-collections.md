@@ -1,6 +1,6 @@
 ---
 title: "Requesting access"
-order: 33.1
+order: 29.2
 page_id: "requesting-access-to-collections"
 contextual_links:
   - type: section
