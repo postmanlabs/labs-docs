@@ -21,4 +21,4 @@ size=${#result}
   else
     echo no data
   fi
-echo end of file
+
