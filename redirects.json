@@ -164,6 +164,10 @@
       "to": "/docs/administration/billing/"
   },
   {
+      "from": "/docs/postman-pro/managing-pro/buying/",
+      "to": "/docs/administration/buying/"
+  },
+  {
       "from": "/docs/postman-pro/managing-pro/inviting-and-managing/",
       "to": "/docs/postman/collaboration/managing-your-team/"
   },
@@ -541,7 +545,7 @@
   },
   {
       "from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/",
-      "to": "/docs/administration/migrating-to-v7"
+      "to": "/docs/administration/migrating-to-v7/"
   },
   {
       "from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
@@ -554,6 +558,10 @@
   {
       "from": "/docs/postman_pro/managing_pro/billing_and_pricing/",
       "to": "/docs/administration/billing/"
+  },
+  {
+      "from": "/docs/postman_pro/managing_pro/buying/",
+      "to": "/docs/administration/buying/"
   },
   {
       "from": "/docs/postman_pro/managing_pro/inviting_and_managing",
