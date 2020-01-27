@@ -1,6 +1,6 @@
 ---
 title: "Debugging and logs"
-order: 18
+order: 35
 page_id: "debugging_and_logs"
 search_keyword: "console.log, console.info, console.warn, console.error"
 contextual_links:

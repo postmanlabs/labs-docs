@@ -1,6 +1,6 @@
 ---
 title: "Audit logs"
-order: 29.6
+order: 66
 page_id: "audit_logs"
 warning: false
 contextual_links:

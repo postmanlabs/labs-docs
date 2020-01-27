@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-order: 0.9
+order: 1
 page_id: "introduction"
 warning: false
 contextual_links:

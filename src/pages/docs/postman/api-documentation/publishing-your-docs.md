@@ -1,6 +1,6 @@
 ---
 title: "Publishing your docs"
-order: 69
+order: 123
 page_id: "publishing_your_docs"
 contextual_links:
   - type: section

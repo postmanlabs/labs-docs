@@ -1,6 +1,6 @@
 ---
 title: "Managing Workspaces"
-order: 96
+order: 184
 page_id: "managing_workspaces"
 contextual_links:
   - type: section

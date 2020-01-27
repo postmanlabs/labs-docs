@@ -1,6 +1,6 @@
 ---
 title: "GitHub"
-order: 127
+order: 288
 page_id: "github"
 warning: false
 contextual_links:

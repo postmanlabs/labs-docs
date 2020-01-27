@@ -1,6 +1,6 @@
 ---
 title: "Postman account"
-order: 6
+order: 7
 page_id: "postman_account"
 contextual_links:
   - type: section

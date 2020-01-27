@@ -1,6 +1,6 @@
 ---
 title: "Capturing HTTP requests"
-order: 22
+order: 32
 page_id: "capturing_http_requests"
 contextual_links:
   - type: section

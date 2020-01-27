@@ -1,6 +1,6 @@
 ---
 title: "Version Control for Collections"
-order: 39
+order: 46
 page_id: "version_control_for_collections"
 warning: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Intro to Integrations"
-order: 120
+order: 281
 page_id: "intro_integrations"
 warning: false
 contextual_links:

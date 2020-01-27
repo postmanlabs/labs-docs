@@ -1,6 +1,6 @@
 ---
 title: "PagerDuty"
-order: 133
+order: 294
 page_id: "pagerduty"
 warning: false
 contextual_links:

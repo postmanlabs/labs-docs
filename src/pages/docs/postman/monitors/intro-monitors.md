@@ -1,6 +1,6 @@
 ---
 title: "Intro to Monitoring"
-order: 72
+order: 161
 page_id: "intro_monitors"
 contextual_links:
   - type: section

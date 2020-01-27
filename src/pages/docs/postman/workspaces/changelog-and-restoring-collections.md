@@ -1,6 +1,6 @@
 ---
 title: "Viewing changelogs and restoring collections"
-order: 99
+order: 185
 page_id: "changelog_and_restoring_collections"
 contextual_links:
   - type: section

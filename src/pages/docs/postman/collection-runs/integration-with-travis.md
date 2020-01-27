@@ -1,6 +1,6 @@
 ---
 title: "Integration with Travis CI"
-order: 63
+order: 121
 page_id: "integration_with_travis"
 contextual_links:
   - type: section

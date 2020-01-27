@@ -1,6 +1,6 @@
 ---
 title: "New button"
-order: 9
+order: 5
 page_id: "newbutton"
 contextual_links:
   - type: section

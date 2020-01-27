@@ -1,6 +1,6 @@
 ---
 title: "Using GraphQL"
-order: 28
+order: 30
 page_id: "graphql"
 contextual_links:
   - type: section

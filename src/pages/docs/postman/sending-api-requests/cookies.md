@@ -1,6 +1,6 @@
 ---
 title: "Cookies"
-order: 20
+order: 27
 page_id: "cookies"
 search_keyword: "pm.cookies.jar, cookies.jar"
 contextual_links:

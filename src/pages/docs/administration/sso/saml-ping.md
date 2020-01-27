@@ -1,6 +1,6 @@
 ---
 title: "Setting up custom SAML in Ping Identity"
-order: 112
+order: 263
 page_id: "saml_ping"
 warning: false
 contextual_links:

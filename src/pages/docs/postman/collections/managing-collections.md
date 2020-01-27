@@ -1,6 +1,6 @@
 ---
 title: "Managing collections"
-order: 33
+order: 45
 page_id: "managing_collections"
 contextual_links:
   - type: section

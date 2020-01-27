@@ -1,6 +1,6 @@
 ---
 title: "FAQs for monitors"
-order: 79
+order: 168
 page_id: "faqs_monitors"
 search_keyword: "console.log, console.warn"
 warning: false

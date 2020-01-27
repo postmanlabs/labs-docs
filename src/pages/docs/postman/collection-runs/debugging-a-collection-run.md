@@ -1,6 +1,6 @@
 ---
 title: "Debugging a collection run"
-order: 60
+order: 118
 page_id: "debugging_a_collection_run"
 contextual_links:
   - type: section

@@ -1,6 +1,6 @@
 ---
 title: "Setting up custom SAML in Duo"
-order: 108
+order: 259
 page_id: "saml_duo"
 warning: false
 contextual_links:

@@ -1,6 +1,6 @@
 ---
 title: Running Postman monitors using static IPs
-order: 79.1
+order: 166
 page_id: "using_static_IPs_to_monitor"
 warning: false
 contextual_links:

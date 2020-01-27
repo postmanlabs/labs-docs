@@ -1,6 +1,6 @@
 ---
 title: "Migrating to Postman v7"
-order: 102.2
+order: 253
 page_id: "migrating_to_v7"
 warning: false
 contextual_links:

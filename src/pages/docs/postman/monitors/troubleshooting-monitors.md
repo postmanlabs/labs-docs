@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting monitors"
-order: 78
+order: 167
 page_id: "troubleshooting_monitors"
 search_keyword: "console.log"
 contextual_links:

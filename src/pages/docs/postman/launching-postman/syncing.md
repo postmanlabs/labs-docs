@@ -1,6 +1,6 @@
 ---
 title: "Syncing"
-order: 7
+order: 8
 page_id: "syncing"
 contextual_links:
   - type: section

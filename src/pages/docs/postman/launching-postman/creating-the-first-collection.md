@@ -1,6 +1,6 @@
 ---
 title: "Creating the first collection"
-order: 3
+order: 6
 page_id: "creating_the_first_collection"
 contextual_links:
   - type: section

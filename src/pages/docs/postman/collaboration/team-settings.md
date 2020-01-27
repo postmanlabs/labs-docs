@@ -1,6 +1,6 @@
 ---
 title: "Team Settings"
-order: 29.5
+order: 65
 page_id: "team_settings"
 warning: false
 contextual_links:

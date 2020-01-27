@@ -1,6 +1,6 @@
 ---
 title: "Adding your API to the Network"
-order: 141
+order: 312
 page_id: "add_api_network"
 warning: false
 contextual_links:

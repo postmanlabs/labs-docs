@@ -1,6 +1,6 @@
 ---
 title: "Creating collections"
-order: 31
+order: 42
 page_id: "creating_collections"
 contextual_links:
   - type: section

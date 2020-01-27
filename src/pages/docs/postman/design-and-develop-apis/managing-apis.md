@@ -1,6 +1,6 @@
 ---
 title: 'Managing APIs'
-order: 89
+order: 203
 page_id: 'managing_apis'
 warning: false
 ---
