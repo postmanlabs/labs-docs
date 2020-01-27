@@ -206,7 +206,7 @@ To force close a tab, press **ALT** and click the **X** icon on the right side o
 
 ## Data editor
 
-Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience.
+Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, Postman leverages those features for the data editor design to make it a familiar experience.
 
 **Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](/docs/postman/launching-postman/newbutton/)
 

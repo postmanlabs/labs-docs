@@ -25,13 +25,13 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
 
 ## Configuring APIMatic Integration
 
-1. In the [Integrations page](https://go.postman.co/workspaces), find APIMatic in the list of Postman’s 3rd party integrations.
+1. In the [Integrations page](https://go.postman.co/workspaces), find APIMatic in the list of Postman’s third party integrations.
 
     [![select apimatic](https://assets.postman.com/postman-docs/integrations_APImatic.png)](https://assets.postman.com/postman-docs/integrations_APImatic.png)
 
 2. Click **View Details** to see information about APIMatic and how the Postman to APIMatic integration converts, formats, and saves your Postman collections to Github.
 
-   You also can click **Configured Integrations** to set up other integrations, view available integrations for APIMatic, or view all integrations.
+   You can also click **Configured Integrations** to set up other integrations, view available integrations for APIMatic, or view all integrations.
 
     [![configured integrations](https://assets.postman.com/postman-docs/WS-integrations-apimatic-conf-integr.png)](https://assets.postman.com/postman-docs/WS-integrations-apimatic-conf-integr.png)
 

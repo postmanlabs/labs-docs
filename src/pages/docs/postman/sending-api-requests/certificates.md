@@ -34,7 +34,7 @@ In the **Host** field, enter the domain (without protocol) of the request URL f
 
 You can also specify a custom port to associate with this domain in the **Port** field. This is optional. If left empty, the default HTTPS port (443) will be used.
 
-Choose your client certificate file in the **CRT file** field. Currently, we only support the CRT format. Support for other formats (like PFX) will come soon.
+Choose your client certificate file in the **CRT file** field. Currently, Postman only supports the CRT format. Support for other formats (like PFX) will come soon.
 
 Choose your client certificate key file in the **KEY file** field.
 

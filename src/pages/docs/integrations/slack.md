@@ -32,9 +32,9 @@ In the [Integrations page](https://go.postman.co/workspaces), find the Slack Int
 [![select slack integration](https://assets.postman.com/postman-docs/integrations-slack1.png)](
 https://assets.postman.com/postman-docs/integrations-slack1.png)
 
-Click the **View Details** button to start our Integration for Slack.
+Click the **View Details** button to start your Integration for Slack.
 
-You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Slack, or view all integrations.
+You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for Slack, or view all integrations.
 
 [![add slack](https://assets.postman.com/postman-docs/WS-integrations-slack-details.png)](https://assets.postman.com/postman-docs/WS-integrations-slack-details.png)
 

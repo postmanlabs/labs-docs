@@ -67,7 +67,7 @@ The entry point to the Docker image is Newman. So you can use all Newman command
 
 ## Windows
 
-Check our [blog post](https://blog.getpostman.com/2015/08/07/using-the-newman-docker-image-in-windows/) on how to run Newman in Docker for Windows.
+Check out [how to run Newman in Docker for Windows](https://blog.getpostman.com/2015/08/07/using-the-newman-docker-image-in-windows/).
 
 ---
 For more information on collection runs, see:

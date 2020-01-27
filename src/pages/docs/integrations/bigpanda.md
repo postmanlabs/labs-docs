@@ -39,11 +39,11 @@ After you set up the integration, you can view real-time alerts based on the res
 
 ## Configuring Postman monitors
 
-1. In the **[Integrations](https://go.postman.co/workspaces)** page, find BigPanda from a list of Postman's 3rd party integrations.
+1. In the **[Integrations](https://go.postman.co/workspaces)** page, find BigPanda from a list of Postman's third party integrations.
 
 1. Click the **View Details** button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors.
 
-    You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
+    You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
 
 1. Click the **Add Integration** button to display the **Send Monitor Run Results** modal.
 

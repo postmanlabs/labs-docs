@@ -34,15 +34,13 @@ An API request lets you contact a server with API endpoints that you want to rea
 
 The most common methods are GET, POST, PUT, and DELETE. The names of the methods are self-explanatory. For example GET enables you to retrieve data from a server. POST enables you to add data to an existing file or resource in a server. PUT lets you replace an existing file or resource in a server. And DELETE lets you delete data from a server.
 
-Postman makes sending API requests simple. Instead of testing your APIs through a command line or terminal, we offer an intuitive graphical interface that is quick to learn and rewarding to master.
+Postman streamlines sending API requests. Instead of testing your APIs through a command line or terminal, Postman provides an intuitive graphical interface.
 
 As you can see in the image below, when you enter a request in Postman and click the **Send** button, the server receives your request and returns a response that Postman displays in the interface.
 
 [![request and response illustration](https://assets.postman.com/postman-docs/anatomy-of-a-request.png)](https://assets.postman.com/postman-docs/anatomy-of-a-request.png)
 
 ## Sending a request
-
-Now let's send our first API request!
 
 Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) into the URL field.
 

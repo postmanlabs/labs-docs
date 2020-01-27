@@ -9,13 +9,13 @@ Postman provides a custom webhook integration which enables you to automate work
 
 You can configure a custom webhook with Postman to send events such as monitor results, team and collection-specific activity feeds, and to back up your Postman Collections.
 
-## Configuring Custom Webhook URL
+## Configuring custom webhook URL
 
-1. In the [Integrations](https://go.postman.co/workspaces) page, find Webhooks from a list of Postman’s 3rd party integrations.
+1. In the [Integrations](https://go.postman.co/workspaces) page, find webhooks from a list of Postman’s third party integrations.
 
 [![custom_webhook](https://assets.postman.com/postman-docs/webhooks_view1.png)](https://assets.postman.com/postman-docs/webhooks_view1.png)  
 
-Click **View Details** to go to the Webhooks main interface. You can also click **Configured Integrations** tab to set up other integrations, view available integrations for Custom Webhooks, or view all configured integrations.
+Click **View Details** to go to the webhooks main interface. You can also click **Configured Integrations** tab to set up other integrations, view available integrations for custom webhooks, or view all configured integrations.
 
 [![webhooks_view2](https://assets.postman.com/postman-docs/webhooks_view2.png)](https://assets.postman.com/postman-docs/webhooks_view2.png)  
 
@@ -27,7 +27,7 @@ You can use custom webhooks to back up your Postman collections. This will requi
 2. In the **Backup your Postman Collections** page:
    * Enter any name
    * Select the collection.
-   * Enter the Webhook URL.
+   * Enter the webhook URL.
 3. Click **Add Integration**.
 
 [![webhooks collections1](https://assets.postman.com/postman-docs/webhooks_collections1.png)](https://assets.postman.com/postman-docs/webhooks_collections1.png)
@@ -56,31 +56,31 @@ The following is a schema for Backup Collections:
 }
 ```
 
-## Send collection activity feed to Custom Webhooks
+## Send collection activity feed to custom webhooks
 
-The activity feed is where you can view all changes being made to your Postman collection by your teammates. Integrating with Webhooks gives you the freedom to connect with email services like Outlook, Gmail, or a custom SMTP service.
+The activity feed is where you can view all changes being made to your Postman collection by your teammates. Integrating with webhooks gives you the freedom to connect with email services like Outlook, Gmail, or a custom SMTP service.
 
-To send collection activity feed to Custom webhooks:
+To send collection activity feed to custom webhooks:
 
 1. Click **Add Integration**.
 2. In the **Collection Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
 3. Click **Add Integration**.
 
-## Send Monitor run results to Custom Webhooks
+## Send Monitor run results to custom webhooks
 
-Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Custom webhooks, you can use those results by connecting to other available services.
+Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the custom webhooks, you can use those results by connecting to other available services.
 
-To send monitor run results to Custom Webhooks:
+To send monitor run results to custom webhooks:
 
 1. Click **Add Integration**.
-2. In the **Monitor Run Results** page, select the monitor you want to send to Custom webhooks.
+2. In the **Monitor Run Results** page, select the monitor you want to send to custom webhooks.
 3. Click **Add Integration**.
 
 [![webhook_mon_runs](https://assets.postman.com/postman-docs/webhooks_monitors1.png)](https://assets.postman.com/postman-docs/webhooks_monitors1.png)
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
-Your integration has now been set up successfully. Whenever your monitor runs, the results will be posted to your webhook.
+Your integration should be ready. Whenever your monitor runs, the results will be posted to your webhook.
 
 ## Monitor Run Results
 

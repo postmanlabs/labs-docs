@@ -18,7 +18,7 @@ contextual_links:
 warning: false
 ---
 
-Postman always syncs your monitors with your collections in the Postman app. As a result, you can debug in the app locally, while your monitors are updated on our servers, seamlessly.
+Postman always syncs your monitors with your collections in the Postman app. As a result, you can debug in the app locally, while your monitors are updated on Postman's servers, seamlessly.
 
 ## Viewing failed monitors
 

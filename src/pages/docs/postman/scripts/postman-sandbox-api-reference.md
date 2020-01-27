@@ -323,7 +323,7 @@ To enable programmatic access via the methods below, the cookie `url` must be [w
 
    You can use this function to write test specifications inside either the `Pre-request Script` or `Tests` sandbox. Writing tests inside this function allows you to name the test accurately and this function also ensures the rest of the script is not blocked even if there are errors inside the function.
 
-   In the following sample test, we are checking that everything about a response is valid for us to proceed.
+   The following sample test checks that everything about a response is valid to proceed.
 
   ```javascript
     pm.test("response should be okay to process", function () {

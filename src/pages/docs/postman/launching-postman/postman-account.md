@@ -33,7 +33,7 @@ When you sign up for a free Postman account, you can:
 * Easily work on multiple Postman instances from different machines.
 * Create [collection links](/docs/postman/collections/sharing-collections/) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
+Signing up is completely optional. Read the [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
 
 ## Signing up for a Postman account
 
@@ -52,7 +52,7 @@ Postman provides you a better control over the length of your session on the dev
 
 If you don't want Postman to retain your credentials, clear the check box *Remember me*. This will ensure you to re-authenticate after 12 hours.
 
-Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/postman/launching-postman/syncing/). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to the servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/postman/launching-postman/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.getpostman.com/hc/en-us).
 
 [![header bar](https://assets.postman.com/postman-docs/postman+header+sync+5-10-18.png)](https://assets.postman.com/postman-docs/postman+header+sync+5-10-18.png)
 

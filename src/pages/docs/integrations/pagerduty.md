@@ -24,13 +24,13 @@ You can use this integration to trigger incidents in PagerDuty based on your Pos
 ## Retrieving your PagerDuty Integration Key
 
 Create an account or use a preexisting one to log in to [PagerDuty](https://app.pagerduty.com/).  
-In the header toolbar, click "Configuration" and select "Services". If you are creating a new service for this integration, click "Add New Service".
+In the header toolbar, click __Configuration__ and select __Services__. If you are creating a new service for this integration, click __Add New Service__.
 
 [![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty_menu.png)](https://assets.postman.com/postman-docs/pagerduty_menu.png)
 
-Enter your "Service Name" and choose Postman as the Integration Type.
+Enter your Service Name and choose Postman as the Integration Type.
 
-Click the "Add Service" link at the bottom of the page to create a new service.
+Click the __Add Service__ link at the bottom of the page to create a new service.
 
 [![pagerduty service](https://assets.postman.com/postman-docs/pagerduty_service.png)](https://assets.postman.com/postman-docs/pagerduty_service.png)
 
@@ -40,7 +40,7 @@ Click the "Add Service" link at the bottom of the page to create a new service.
 
 ## Configuring Postman with PagerDuty
 
-1. In the [Integrations page](https://go.postman.co/workspaces), find PagerDuty from a list of Postman's 3rd party integrations for Postman users.
+1. In the [Integrations page](https://go.postman.co/workspaces), find PagerDuty from a list of Postman's third party integrations for Postman users.
 
   [![select pagerduty integration](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)
 
@@ -48,7 +48,7 @@ Click the "Add Service" link at the bottom of the page to create a new service.
 
    [![select pagerduty integration](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-details.png)](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-details.png)
 
-   You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for PagerDuty, or view all integrations.
+   You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for PagerDuty, or view all integrations.
 
 ## Add a team activity feed to PagerDuty
 

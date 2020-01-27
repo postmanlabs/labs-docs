@@ -36,7 +36,7 @@ Continuous Integration (CI) is a development practice that requires developers t
 
 Let's access collections using the Postman API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments.
 
-Before we get started:
+Before you get started:
 
 * Ensure you have a CI system setup which can run shell commands and that you have access to modify the same.
 * If you don't already have a [Postman API key](https://docs.api.getpostman.com/#authentication), get one from the Integrations section in one of [your workspaces](https://go.postman.co/workspaces/).

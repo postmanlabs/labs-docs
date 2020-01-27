@@ -95,7 +95,7 @@ With a paid Postman account, you have the option to cap your monthly monitoring 
 
 > Unused monitoring requests or blocks do not roll over and must be consumed during the month purchased.
 
-For information on how we calculate monitoring usage, see [How Postman calculates usage](#how-postman-calculates-monitor-usage).
+See more on [how Postman calculates usage](#how-postman-calculates-monitor-usage).
 
 ## Viewing monitor usage
 
@@ -109,7 +109,7 @@ This page allows you to view your team's current billing period, how many reques
 
 ### How Postman calculates monitor usage
 
-Postman calculates monitor usage based on the actual requests made during a run, which may not equate the number of requests in your collection.
+Postman calculates monitor usage based on the actual requests made during a run, which may not to the number of requests in your collection.
 
 If you use `postman.setNextRequest()` to skip a request or run a request multiple times, Postman will take that into account when calculating usage. Postman will also count any requests required for [authorization](/docs/postman/sending-api-requests/authorization/).
 

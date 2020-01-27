@@ -24,13 +24,13 @@ You can configure Microsoft Flow with Postman to monitor run results, view team 
 
 ## Congfiguring Microsoft Flow
 
-1. In the [Integrations](https://go.postman.co/workspaces) page, find Microsoft Flow from a list of Postman’s 3rd party integrations for Postman users.
+1. In the [Integrations](https://go.postman.co/workspaces) page, find Microsoft Flow from a list of Postman’s third party integrations for Postman users.
 
 [![microsoft_flow](https://assets.postman.com/postman-docs/integrations-microsoftFlow.png)](https://assets.postman.com/postman-docs/integrations-microsoftFlow.png)  
 
 Click the **View Details** button to see information about HipChat.
 
-You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Microsoft Flow, or view all integrations.
+You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for Microsoft Flow, or view all integrations.
 
 [![microsoft_conf](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)  
 
@@ -85,7 +85,7 @@ To send monitor run results to Microsoft Flow:
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
-Your integration has been set up successfully. Now, whenever a monitor would run, you would get a notification something like this on your Flow mobile app.
+Your integration has been set up successfully. Now, whenever a monitor runs, you should get a notification on your Flow mobile app.
 
 [![see notifications](https://assets.postman.com/postman-docs/58858362.png)](https://assets.postman.com/postman-docs/58858362.png)
 

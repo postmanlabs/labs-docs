@@ -13,11 +13,11 @@ contextual_links:
 
 Microsoft Teams is a chat-based workspace that is available for all Microsoft Office 365 users. This integration allows you to get updates about what is happening in your team directly in Microsoft Teams.
 
-Currently, we have two ways in which this integration can be configured.
+Currently, there are two ways to configure an integration with Microsoft Teams.
 
 ## Configuring Microsoft Teams
 
-1. In the [Integrations](https://go.postman.co/workspaces) page, find Microsoft Teams from a list of Postman’s 3rd party integrations for Postman users.
+1. In the [Integrations](https://go.postman.co/workspaces) page, find Microsoft Teams from a list of Postman’s third party integrations for Postman users.
 
 [![select ms_teams integration](https://assets.postman.com/postman-docs/WS-integrations-msTeam.png)](https://assets.postman.com/postman-docs/WS-integrations-msTeam.png)
 

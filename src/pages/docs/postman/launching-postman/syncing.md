@@ -41,7 +41,7 @@ Syncing makes all your Postman data available when you're signed in to your Pos
 
 Changes, such as edits, additions, or deletions, sync across all devices that are linked to your account.
 
-These entities can sync with our server and be saved to the cloud:
+These entities can sync with the server and be saved to the cloud:
 
 * Collections
 * Folders
@@ -67,7 +67,7 @@ Once you log in to Postman app, your data gets synced across all devices. Postma
 
 ### States
 
-If your app is in sync with our server, the icon to the left of your name in the top navigation appears orange, and displays **IN SYNC**.
+If your app is in sync with the server, the icon to the left of your name in the top navigation appears orange, and displays **IN SYNC**.
 
 If a sync operation is underway, it displays **SYNCING**.
 
