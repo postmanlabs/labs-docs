@@ -2,6 +2,7 @@
 title: "Mocking with examples"
 order: 82
 page_id: "mocking_with_examples"
+search_keyword: "x-mock-response-code"
 contextual_links:
   - type: section
     name: "Prerequisites"

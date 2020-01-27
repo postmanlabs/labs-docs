@@ -2,6 +2,7 @@
 title: "Cookies"
 order: 20
 page_id: "cookies"
+search_keyword: "pm.cookies.jar, cookies.jar"
 contextual_links:
   - type: section
     name: "Prerequisites"

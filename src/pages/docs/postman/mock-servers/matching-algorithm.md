@@ -2,6 +2,7 @@
 title: "Matching algorithm"
 order: 84
 page_id: "matching_algorithm"
+search_keyword: "x-mock-response-name, x-mock-response-id, requestMethod, mockPath"
 contextual_links:
   - type: section
     name: "Prerequisites"
