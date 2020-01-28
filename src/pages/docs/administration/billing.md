@@ -43,6 +43,8 @@ Postman offers a number of built-in functions to ensure a streamlined, self-serv
 
 * [Team and plan changes](#team-and-plan-changes)
 
+    * [Changing your plan](#changing-your-plan)
+
     * [Changing billing cycle](#changing-billing-cycle)
 
     * [Purchasing monitoring blocks](#purchasing-monitoring-blocks)
@@ -113,15 +115,21 @@ If payment is unsuccessful, Postman offers a grace period of 10 days to avoid se
 
 ## Team and plan changes
 
-To change your team size, see [changing your plan](/docs/postman-pro/managing-pro/changing-your-plan/). To upgrade to Postman Enterprise, see [purchasing Enterprise](/docs/postman-enterprise/purchasing-enterprise/).
+You can change your team's plan and billing cycle in the [billing dashboard](https://app.postman.co/billing/overview). To upgrade to Postman Enterprise, [email our team](mailto:thepostmanteam@postman.com).
+
+### Changing your plan
+
+To change your plan, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
+
+[![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
 
 ### Changing billing cycle
 
-Monthly teams are able to switch to an annual plan at any time by navigating to [billing](https://go.postman.co/billing/overview) > **Change Plan**.
+Monthly teams are able to switch to an annual plan at any time by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **...** > **Change Plan**.
 
-[![change plan](https://assets.postman.com/postman-docs/change-plan.jpg)](https://assets.postman.com/postman-docs/change-plan.jpg)
+[![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
 
-Annual teams are able to switch to a monthly plan at the end of their current billing cycle. The number of days left in your current billing cycle is displayed under **Upcoming Invoice**.
+> Annual teams are able to switch to a monthly plan at the end of their current billing cycle. The number of days left in your current billing cycle is displayed under **Upcoming Invoice**.
 
 ### Purchasing monitoring blocks
 
