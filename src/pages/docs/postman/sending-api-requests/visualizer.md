@@ -89,7 +89,7 @@ The visualizer code creates a Handlebars template to render a table displaying t
 
 ```js
 var template = `
-    <table>
+    <table bgcolor="#FFFFFF">
         <tr>
             <th>Name</th>
             <th>Email</th>
