@@ -105,7 +105,7 @@ Add or update your billing email, company name, address, and (if applicable) VAT
 
 ### Failed payments
 
-If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with [billing privileges](/docs/administration/billing/) will be notified via email.
+If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with billing privileges will be notified via email.
 
 [![failed payment email](https://assets.postman.com/postman-docs/failed-payment-email.jpg)](https://assets.postman.com/postman-docs/failed-payment-email.jpg)
 
@@ -135,7 +135,7 @@ Monthly teams can switch to an annual plan at any time by navigating to your [bi
 
 Postman Enterprise teams are allotted 100,000 monitoring calls per month at no extra charge. Postman Pro teams are allotted 10,000 monitoring requests.
 
-Unless monitoring overages are [disabled](/docs/postman-pro/managing-pro/billing#managing-overages), you will be charged on a pay-as-you-go basis. See **Additional monitoring calls** on the [pricing page](https://www.getpostman.com/pricing).
+Unless monitoring overages are [disabled](#managing-overages), you will be charged on a pay-as-you-go basis. See **Additional monitoring calls** on the [pricing page](https://www.getpostman.com/pricing).
 
 To purchase monitoring blocks, go to [monitoring usage details](http://go.postman.co/usage/monitors) > **Set monitoring block count**.
 
