@@ -41,14 +41,14 @@ An example of SSO is Google's implementation of login for their products, such a
 * [Duo](https://duo.com/)
 * [Ping Identity](https://www.pingidentity.com/)
 * [AD FS](https://technet.microsoft.com/en-us/library/cc755226(v=ws.11).aspx)
-* [GSuite](https://gsuite.google.com/products/admin/)
+* [GSuite](https://gsuite.google.com/products/administration/)
 * Custom SAML
 
 ### SSO setup for SAML 2.0 compliant IdPs
 
 Most SAML 2.0 compliant identity providers require the same information about the service provider for setup (Postman is the service provider). These values are specific to a Postman Team and are available after configuring SSO in the Edit Team Page.
 
-Learn more about [setting up SSO](/docs/admin/sso/admin-sso/).
+Learn more about [setting up SSO](/docs/administration/sso/admin-sso/).
 
 **Note:** While configuring your IdP, make sure the user’s email address is set in attribute statements.
 

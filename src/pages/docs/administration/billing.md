@@ -105,7 +105,7 @@ Add or update your billing email, company name, address, and (if applicable) VAT
 
 ### Failed payments
 
-If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with [billing privileges](/docs/admin/billing/) will be notified via email.
+If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with [billing privileges](/docs/administration/billing/) will be notified via email.
 
 [![failed payment email](https://assets.postman.com/postman-docs/failed-payment-email.jpg)](https://assets.postman.com/postman-docs/failed-payment-email.jpg)
 

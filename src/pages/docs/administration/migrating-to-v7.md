@@ -26,7 +26,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to Integrations"
-    url: "/docs/postman/integrations/intro-integrations/"
+    url: "/docs/integrations/intro-integrations/"
 
 ---
 

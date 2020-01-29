@@ -13,7 +13,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Billing"
-    url:  "/docs/admin/billing/"
+    url:  "/docs/administration/billing/"
 
 ---
 
@@ -46,4 +46,4 @@ When you've successfully submitted your payment details, you will see your new p
 
 ## Next steps
 
-You can manage your account in the [Postman billing](/docs/admin/billing/) dashboard. Once your account is setup, you can leverage Postman features including additional [collaboration](/docs/postman/collaboration/collaboration-intro/) and [monitoring](/docs/postman/monitors/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/postman/integrations/intro-integrations/).
+You can manage your account in the [Postman billing](/docs/administration/billing/) dashboard. Once your account is setup, you can leverage Postman features including additional [collaboration](/docs/postman/collaboration/collaboration-intro/) and [monitoring](/docs/postman/monitors/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/integrations/intro-integrations/).

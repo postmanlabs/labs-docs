@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Integrations"
-    url: "/docs/postman/integrations/intro-integrations/"
+    url: "/docs/integrations/intro-integrations/"
 ---
 
 *Note: only an admin of your Onelogin organization can create the application.*
