@@ -160,6 +160,10 @@
         "to": "/docs/administration/buying/"
     },
     {
+        "from": "/docs/postman-pro/managing-pro/changing-your-plan/",
+        "to": "/docs/administration/billing/"
+    },
+    {
         "from": "/docs/postman-pro/managing-pro/inviting-and-managing/",
         "to": "/docs/postman/collaboration/managing-your-team/"
     },
@@ -494,6 +498,10 @@
     {
         "from": "/docs/postman_pro/managing_pro/buying/",
         "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/changing_your_plan/",
+        "to": "/docs/administration/billing/"
     },
     {
         "from": "/docs/postman_pro/managing_pro/inviting_and_managing",

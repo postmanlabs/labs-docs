@@ -115,7 +115,7 @@ If payment is unsuccessful, Postman offers a grace period of 10 days to avoid se
 
 ## Team and plan changes
 
-You can change your team's plan and billing cycle in the [billing dashboard](https://app.postman.co/billing/overview). To upgrade to Postman Enterprise, [email our team](mailto:thepostmanteam@postman.com).
+You can change your team's plan and billing cycle in the [billing dashboard](https://app.postman.co/billing/overview). To upgrade to Postman Enterprise, [email the team](mailto:thepostmanteam@postman.com).
 
 ### Changing your plan
 
@@ -125,11 +125,11 @@ To change your plan, navigate to your [billing dashboard](https://app.postman.co
 
 ### Changing billing cycle
 
-Monthly teams are able to switch to an annual plan at any time by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **...** > **Change Plan**.
+Monthly teams can switch to an annual plan at any time by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **...** > **Change Plan**.
 
 [![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
 
-> Annual teams are able to switch to a monthly plan at the end of their current billing cycle. The number of days left in your current billing cycle is displayed under **Upcoming Invoice**.
+> Annual teams can switch to a monthly plan at the end of the current billing cycle. The number of days left in your current billing cycle appears under **Upcoming Invoice**.
 
 ### Purchasing monitoring blocks
 
