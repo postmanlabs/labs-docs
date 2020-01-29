@@ -428,6 +428,10 @@
         "to": "/docs/integrations/coralogix/"
     },
     {
+        "from": "/docs/postman_pro/integrations/custom_webhooks/",
+        "to": "/docs/integrations/webhooks/"
+    },
+    {
         "from": "/docs/postman_pro/integrations/datadog/",
         "to": "/docs/integrations/datadog/"
     },
