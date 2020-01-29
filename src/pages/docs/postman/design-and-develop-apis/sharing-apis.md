@@ -7,6 +7,8 @@ warning: false
 
 You can easily share your APIs with other members of your team on Postman - both in the app and in the [web dashboard](https://app.getpostman.com/dashboard). In Postman you share your collections or APIs to workspaces. To share an API with your team, you need to share the API to a shared workspace or share the workspace itself with the team and assign individual permissions to your team members by designating view (Viewer) or edit (Editor) permissions to them.
 
+> You can assign Viewer roles on [Postman Business and Enterprise plans](https://www.getpostman.com/pricing).
+
 Let's say you created an API, added a collection as documentation and added another collection as a test suite. Now, you want to share this API to a workspace T1. When you share this API to workspace T1, the members of this workspace get access to only the shared elements attached to the API but not all the elements of the API. When you delete or remove the API from the workspace T1, the shared elements attached to the API can still be viewed by the members of workspace T1. You must remove them explicitly in order to remove access.
 
 When you share the API with your team, team members can see the listing of the API's elements, like how many monitors or mocks are linked to the API, but they cannot access an element itself unless it is also shared with the team.

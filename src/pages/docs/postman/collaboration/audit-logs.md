@@ -34,7 +34,7 @@ In the [Audit Logs](https://app.getpostman.com/dashboard/audit) page, you see in
 
 [![audit logs](https://assets.postman.com/postman-docs/ENT-audit-logs-page.png)](https://assets.postman.com/postman-docs/ENT-audit-logs-page.png)
 
-For more information about audit logs and how to set it up for your Postman team, contact the [support team](https://pages.getpostman.com/Enterprise-Sales_Contact-Us.html).
+For more information about audit logs and how to set it up for your Postman team, contact the [support team](https://www.getpostman.com/get-started-postman-plans).
 
 ## Logged Events
 
