@@ -23,7 +23,9 @@ contextual_links:
     name: "Intro to Integrations"
     url: "/docs/integrations/intro-integrations/"
 ---
-Roles and permissions in Postman have been enhanced to provide a more robust access-control mechanism. In Postman v7, you access features through assigned roles that have their own set of user permissions.
+> __[Certain team options are only available on Postman Team, Business, or Enterprise plans.](https://www.getpostman.com/pricing)__
+
+In Postman you can assign roles and permissions to provide access-control.
 
 This chapter describes the following topics:
 
