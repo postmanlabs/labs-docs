@@ -66,4 +66,4 @@ You will receive an email detailing the request for access.
 
 Click **Approve Request** if you want to grant access to the collection. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
 
-To learn more about collaborating on collections, see [Sharing collections](/docs/postman/collaboration/roles-and-permissions/#collection-roles) and [Collection Roles](/docs/postman/collaboration/roles-and-permissions/#collection-roles).
+To learn more about collaborating on collections, see [Collection Roles](/docs/postman/collaboration/roles-and-permissions/#collection-roles).

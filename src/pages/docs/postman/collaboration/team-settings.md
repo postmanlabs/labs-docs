@@ -55,7 +55,7 @@ You can see your domain in the Custom Domain list.
 
 ## Authentication
 
-> __SSO is available on Postman Business and Enterprise plans.__
+> __[SSO is available on Postman Business and Enterprise plans.](https://www.getpostman.com/pricing)__
 
 In the Authentication settings, you can choose a Single Sign-on authentication provider to create a custom authentication method for your team.
 

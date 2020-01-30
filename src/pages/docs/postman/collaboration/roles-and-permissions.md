@@ -145,7 +145,7 @@ A user's role determines what they can and cannot do in Postman. Each role has a
 
 ## Managing roles
 
-To learn how you can assign different roles to your team members, visit [Managing your Team](/docs/postman-pro/managing-pro/managing-your-team/).
+To learn how you can assign different roles to your team members, visit [Managing your Team](/docs/postman/collaboration/managing-your-team/).
 
 ## Migrating to Postman v7
 
