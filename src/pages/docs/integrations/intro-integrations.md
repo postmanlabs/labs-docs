@@ -5,12 +5,14 @@ page_id: "intro_integrations"
 warning: false
 contextual_links:
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
-  - type: section
-    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.getpostman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/" 

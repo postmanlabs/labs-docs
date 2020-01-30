@@ -5,10 +5,12 @@ page_id: 'saml_okta'
 warning: false
 contextual_links:
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
     name: "Prerequisites"
   - type: link
-    name: "Intro to Integrations"
-    url: "/docs/integrations/intro-integrations/"
+    name: "Intro to SSO"
+    url: "/docs/administration/sso/intro-sso/"
 ---
 
 _Note: Only an admin of your Okta organization can create the application._

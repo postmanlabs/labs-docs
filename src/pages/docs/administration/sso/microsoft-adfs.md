@@ -7,10 +7,10 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Prerequisites"
   - type: link
-    name: "Announcing updated Postman plans and pricing"
-    url: "https://blog.getpostman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
+    name: "Intro to SSO"
+    url: "/docs/administration/sso/intro-sso/"
 ---
 
 
