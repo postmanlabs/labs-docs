@@ -23,7 +23,7 @@ contextual_links:
     name: "Intro to Integrations"
     url: "/docs/integrations/intro-integrations/"
 ---
-> __[Certain team options are only available on Postman Team, Business, or Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
 
 In Postman you can assign roles and permissions to provide access-control.
 
