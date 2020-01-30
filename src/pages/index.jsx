@@ -111,7 +111,7 @@ Postman’s API documentation feature lets you share public or private API docum
           in a beautifully formated web page.
         </p>
         <p>See how to document your APIs with Postman.</p>
-        <a className="link-style" href="/docs/postman/api-documentation/intro-to-api-documentation/">Learn More</a>
+        <a className="link-style" href="/docs/postman/api-documentation/documenting-your-api/">Learn More</a>
       </div>
     </section>
 

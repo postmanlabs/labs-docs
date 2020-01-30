@@ -17,7 +17,7 @@ contextual_links:
 
 ---
 
-Visit the [pricing page](https://www.getpostman.com/pricing) to purchase Postman Team, Business, or Enterprise. Select your chosen plan level or follow the links to learn more. If you are [upgrading from an existing paid account](#upgrading-your-plan), you can use the links in your billing dashboard.
+Visit the [pricing page](https://www.getpostman.com/pricing) to purchase Postman Team, Business, or Enterprise. Select your chosen plan level or follow the links to learn more. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your billing dashboard.
 
 ## Configuring your plan
 
@@ -36,14 +36,8 @@ Once your plan configuration is in place you can proceed to entering your paymen
 * After payment, you'll see a confirmation with the transaction ID. Use this ID for any communication with Postman.
 * The designated admin will receive an activation link where you can begin inviting your team members. Billing-only users will receive a link to join the team in the billing role.
 
-## Upgrading your plan
-
-To upgrade your Postman plan, log into your account, and visit the [billing page](https://go.postman.co/billing/overview). Next to your current plan, click **Upgrade**, then the additional options button (__...__), and select __Change plan__.
-
-Choose your upgrade option, [configure the details](#configuring-your-plan), and proceed to payment.
-
-When you've successfully submitted your payment details, you will see your new plan back on the billing page.
-
 ## Next steps
 
-You can manage your account in the [Postman billing](/docs/administration/billing/) dashboard. Once your account is setup, you can leverage Postman features including additional [collaboration](/docs/postman/collaboration/collaboration-intro/) and [monitoring](/docs/postman/monitors/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/integrations/intro-integrations/).
+You can manage your account in the [Postman billing](/docs/administration/billing/) dashboard, for example if you need to [change or upgrade](/docs/administration/billing/#team-and-plan-changes) your plan.
+
+Once your account is setup, you can leverage Postman features including additional [collaboration](/docs/postman/collaboration/collaboration-intro/) and [monitoring](/docs/postman/monitors/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/integrations/intro-integrations/).
