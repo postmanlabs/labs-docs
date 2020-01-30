@@ -34,8 +34,7 @@
 
     {"name": "Pricing",
       "children": [
-        { "url": "https://www.getpostman.com/pricing", "name": "Overview"},
-        { "url": "https://www.getpostman.com/postman-enterprise", "name": "Postman Enterprise"}
+        { "url": "https://www.getpostman.com/pricing", "name": "Overview"}
       ]
     },
 
