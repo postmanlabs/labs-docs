@@ -22,7 +22,7 @@ Audit logs list important team events. An admin can review audit logs to determi
 * When users received an invitation to a team.
 * Which user performed a specific action.
 
-Audit logs currently include events for team management, billing, and security. In the future, we'll enable events for publishing documentation, creating API keys, and creating monitors.
+Audit logs currently include events for team management, billing, and security. In the future, logs will indicate events for publishing documentation, creating API keys, and creating monitors.
 
 ## Using audit logs
 

@@ -8,20 +8,18 @@ warning: false
 contextual_links:
   - type: section
     name: "Additional Resources"
-  - type: subtitle
-    name: "Case Studies"
   - type: link
-    name: "Movember's confidence to upgrade"
-    url: "https://www.getpostman.com/case-studies/movember.pdf"
+    name: "Postman Pricing"
+    url: "https://www.getpostman.com/pricing"
   - type: subtitle
-    name: "Videos"
+    name: "Related Blog Posts"
   - type: link
-    name: "Atlassian's journey to Postman Enterprise"
-    url: "https://www.youtube.com/watch?v=wYBZrdukack"
+    name: "Announcing updated Postman plans and pricing"
+    url: "https://blog.getpostman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
 
 ---
 
-Postman offers a number of built-in functions to ensure a streamlined, self-serve billing process.
+Postman provides a self-serve billing process. Refer to the following sections for guidance on managing your account, plan, and payment.
 
 ## Contents
 
@@ -53,19 +51,19 @@ Postman offers a number of built-in functions to ensure a streamlined, self-serv
 
 ## Billing dashboard
 
-Postman's [billing dashboard](http://go.postman.co/billing) provides a number of ways to manage your team's billing.
+The Postman [billing dashboard](http://go.postman.co/billing) provides access to account management.
 
 ### Viewing account history
 
-In your [billing dashboard](http://go.postman.co/billing), select **Account History**. This page allows you to quickly note your team's historical billing activity, as well as the day and time actions took place.
+In your [billing dashboard](http://go.postman.co/billing), select **Account History**. This page allows you to view your team's historical billing activity, as well as the date and time of each action.
 
 [![account history](https://assets.postman.com/postman-docs/account-history.jpg)](https://assets.postman.com/postman-docs/account-history.jpg)
 
-Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order for your reference.  
+Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order.  
 
 ### Viewing past invoices
 
-In your [billing dashboard](http://go.postman.co/billing), select **Invoices**. To get a copy of an invoice, hover over the listing on the page and select **Get Invoice**.
+In your [billing dashboard](http://go.postman.co/billing), select **Invoices**. To get a copy of an invoice, hover over its listing and select **Get Invoice**.
 
 [![invoices](https://assets.postman.com/postman-docs/invoices.jpg)](https://assets.postman.com/postman-docs/invoices.jpg)
 
@@ -81,7 +79,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Overages**. 
 
 ## Payments
 
-Postman offers various payment options dependent on plan type. Postman Pro is card-only, while Postman Enterprise can be purchased via card or invoice.
+Postman offers various payment options dependent on your plan type.
 
 ### Managing cards
 
@@ -115,7 +113,7 @@ If payment is unsuccessful, Postman offers a grace period of 10 days to avoid se
 
 ## Team and plan changes
 
-You can change your team's plan and billing cycle in the [billing dashboard](https://app.postman.co/billing/overview). To upgrade to Postman Enterprise, [email the team](mailto:thepostmanteam@postman.com).
+You can change your team's plan and billing cycle in the [billing dashboard](https://app.postman.co/billing/overview). To upgrade to Postman Business or Enterprise, [email the team](mailto:thepostmanteam@postman.com).
 
 ### Changing your plan
 
@@ -133,16 +131,14 @@ Monthly teams can switch to an annual plan at any time by navigating to your [bi
 
 ### Purchasing monitoring blocks
 
-Postman Enterprise teams are allotted 100,000 monitoring calls per month at no extra charge. Postman Pro teams are allotted 10,000 monitoring requests.
+The availability of monitoring calls depends on your [Postman plan level](https://www.getpostman.com/pricing), with a portion allocated at no extra charge on all paid plans. Unless monitoring overages are [disabled](#managing-overages), you will be charged on a pay-as-you-go basis.
 
-Unless monitoring overages are [disabled](#managing-overages), you will be charged on a pay-as-you-go basis. See **Additional monitoring calls** on the [pricing page](https://www.getpostman.com/pricing).
-
-To purchase monitoring blocks, go to [monitoring usage details](http://go.postman.co/usage/monitors) > **Set monitoring block count**.
+To purchase monitoring blocks, visit your [monitoring usage details](http://go.postman.co/usage/monitors) and select **Set monitoring block count**.
 
 [![monitoring block purchase](https://assets.postman.com/postman-docs/monitoring-block-purchase.jpg)](https://assets.postman.com/postman-docs/monitoring-block-purchase.jpg)
 
 ## Next steps
 
-To find information on team management, see [Managing your team](/docs/postman/collaboration/team-settings/).
+For information on team management, see [Managing your team](/docs/postman/collaboration/team-settings/).
 
 To learn more about the billing team role, see [Roles and Permissions](/docs/postman/collaboration/roles-and-permissions/).

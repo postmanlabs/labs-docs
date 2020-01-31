@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "Postman Pricing"
     url: "https://www.getpostman.com/pricing"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Announcing updated Postman plans and pricing"
+    url: "https://blog.getpostman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -17,7 +22,7 @@ contextual_links:
 
 ---
 
-Visit the [pricing page](https://www.getpostman.com/pricing) to purchase Postman Team, Business, or Enterprise. Select your chosen plan level or follow the links to learn more. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your billing dashboard.
+Visit the [pricing page](https://www.getpostman.com/pricing) to purchase a Postman Team, Business, or Enterprise plan. Click __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your billing dashboard.
 
 ## Configuring your plan
 
@@ -26,9 +31,9 @@ During the buying process you will be prompted to supply the following details:
 * Your billing cycle (monthly or annual).
 * How many paid user slots you need (you'll need a paid slot for anyone who needs to access the relevant Postman features, but each team has two free slots you can use for account management / billing).
 * Your account email and role (admin if you're going to be using the paid Postman plan yourself, or billing if you are only making the purchase).
-    * If you choose the billing role you can also enter an admin email address, which is where your account activation email will be sent so that the administrator can set your Postman plan up.
+    * If you choose the billing role you can also enter an admin email address, which is where your account activation email will be sent so that the administrator can get your Postman plan set up.
 
-Once your plan configuration is in place you can proceed to entering your payment details. __Your card will automatically be charged monthly or annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.__
+Once your plan configuration is in place you can enter your payment details. __Your card will automatically be charged monthly or annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.__
 
 * For security reasons, Postman does not store any credit card data. The data is stored only by payment provider Stripe, who are certified to PCI Service Provider Level 1.
 * Review the details of your plan to ensure they are correct before you submit your payment details.

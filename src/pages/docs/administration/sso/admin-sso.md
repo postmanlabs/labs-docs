@@ -5,8 +5,6 @@ page_id: "admin_sso"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
-  - type: subtitle
     name: "Prerequisites"
   - type: link
     name: "Intro to SSO"

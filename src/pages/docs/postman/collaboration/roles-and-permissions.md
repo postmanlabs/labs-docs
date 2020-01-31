@@ -5,10 +5,12 @@ page_id: "roles_and_permissions"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Prerequisites"
   - type: link
-    name: "Migrating to Postman v7"
-    url: "/docs/administration/migrating-to-v7/"
+    name: "Collaborating in Postman"
+    url: "/docs/postman/collaboration/collaboration-intro/"
+  - type: section
+    name: "Additional Resources"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -20,14 +22,12 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to Integrations"
-    url: "/docs/integrations/intro-integrations/"
+    name: "Managing your team"
+    url: "/docs/postman/collaboration/managing-your-team/"
 ---
 > __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
 
-In Postman you can assign roles and permissions to provide access-control.
-
-This chapter describes the following topics:
+In Postman you can assign roles and permissions to provide access-control. Refer to the following sections on managing roles within your team.
 
 * [Understanding roles in Postman](#understanding-roles-in-postman)
 * [List of roles and permissions](#list-of-roles-and-permissions)

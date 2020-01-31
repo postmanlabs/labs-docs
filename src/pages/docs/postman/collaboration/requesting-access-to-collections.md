@@ -59,7 +59,7 @@ Your team members can request access from you in the following cases:
 
 2. If you have the Editor role on a collection that is shared, a team member who has the Viewer role will be able to request an additional role from you.
 
-> The Viewer role is only available on certain [Postman plans](https://www.getpostman.com/pricing).
+> The Viewer role is available depending on your [Postman plan](https://www.getpostman.com/pricing).
 
 You will receive an email detailing the request for access.
 ![https://assets.postman.com/postman-docs/request-access-mail.png](https://assets.postman.com/postman-docs/request-access-mail.png)

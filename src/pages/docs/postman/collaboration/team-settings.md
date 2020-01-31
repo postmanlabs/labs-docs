@@ -5,7 +5,10 @@ page_id: "team_settings"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Prerequisites"
+  - type: link
+    name: "Collaborating in Postman"
+    url: "/docs/postman/collaboration/collaboration-intro/"
   - type: link
     name: "Postman Pricing"
     url: "https://www.getpostman.com/pricing"

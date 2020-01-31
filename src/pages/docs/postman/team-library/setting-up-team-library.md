@@ -37,10 +37,10 @@ To set up your Team Library:
 
 1. Select the API requests you want to share and save them in collections.
 1. Select the collections you want to share.
-1. Add the email addresses of the users you want to invite to your Postman Pro team.
+1. Add the email addresses of the users you want to invite to your team.
 1. Click the **Activate your trial and share these collections** button.
 
-When you share your first collection, your 7-day Postman Pro trial is activated.
+When you share your first collection, your trial is activated.
 
 ### Existing users
 

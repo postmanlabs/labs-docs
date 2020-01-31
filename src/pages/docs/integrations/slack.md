@@ -5,12 +5,12 @@ page_id: "slack"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
-  - type: subtitle
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+  - type: section
+    name: "Additional Resources"
   - type: subtitle
     name: "Videos"
   - type: link
