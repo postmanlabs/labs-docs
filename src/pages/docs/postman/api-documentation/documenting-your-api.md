@@ -115,7 +115,7 @@ By default your documentation is private, and viewable only to people you have [
 
 For more on accessing private and public docs, see [Viewing documentation](/docs/postman/api-documentation/viewing-documentation/).
 
-> Public and private documentation pages receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
+> Your documentation receives a number of free views per month and is dependent on your [Postman plan](https://www.getpostman.com/pricing) beyond that. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
 
 ## Documentation environments
 
