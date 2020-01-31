@@ -41,7 +41,7 @@ Log in to [GitHub](https://github.com/).
 
 If you don’t already have a Personal Access Token from GitHub, [generate a new one](https://github.com/settings/tokens).
 
-We need the `repo` and the `user` scope in order to successfully configure the integration.
+For backing up your collections, select the `repo` and the `user` scope. For syncing your API schema, select only the `repo` scope.
 
 [![repo scope](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)
 [![user scope](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)
@@ -136,7 +136,11 @@ Enter your personal access token in the text field, select **I consent to Postma
 
 > The list of your GitHub repositories may take some time to load.
 
-On the next page you need to setup your webhook. To do so, go to the settings page of your GitHub repository, click **Webhooks**, then **Add webhook**. Copy over the `Payload URL` and `Secret` from Postman, then click **Add webhook** to confirm. Refer to the [GitHub documentation](https://developer.github.com/webhooks/creating/#setting-up-a-webhook) for more detail. Once your webhook is set up, go back to the Postman dashboard, click **Add API Version**, and select the following details:
+On the next page you need to setup your webhook. To do so, go to the settings page of your GitHub repository, click **Webhooks**, then **Add webhook**. Copy over the `Payload URL` and `Secret` from Postman, then click **Add webhook** to confirm. Refer to the [GitHub documentation](https://developer.github.com/webhooks/creating/#setting-up-a-webhook) for more detail. 
+
+[![add webhook](https://user-images.githubusercontent.com/5029719/73532074-c34ea500-4413-11ea-9693-cdaaa64fb7f9.gif)](https://user-images.githubusercontent.com/5029719/73532074-c34ea500-4413-11ea-9693-cdaaa64fb7f9.gif)
+
+Once your webhook is set up, go back to the Postman dashboard, click **Add API Version**, and select the following details:
 
 * the API Version you want to sync - e.g. `1.0`
 * the repository branch to use - e.g. `Master`
@@ -153,7 +157,7 @@ You can sync multiple API versions by clicking **Add API Version** again. To del
 
 > If you are linking an existing API schema on Postman to an existing schema file on GitHub, a pop-up message will appear asking which schema you want to keep. The other schema will be overwritten.
 
-Once the integration is complete, return to the Postman app, navigate to your API and hit **Refresh** at the top-right. The **Connect Repository** should show the path and name of the schema file on your GitHub repository - e.g. `api/petstore.yaml`.
+Once the integration is complete, return to the Postman app and navigate to your API. The **Connect Repository** should show the path and name of the schema file on your GitHub repository - e.g. `api/petstore.yaml`.
 
 [![schema sync succesful](https://user-images.githubusercontent.com/5029719/72462468-0a5c5980-37c9-11ea-9845-4a2153b99c45.png)](https://user-images.githubusercontent.com/5029719/72462468-0a5c5980-37c9-11ea-9845-4a2153b99c45.png)
 
