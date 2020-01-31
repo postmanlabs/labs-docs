@@ -78,7 +78,7 @@ In the [workspaces dashboard](https://app.getpostman.com/dashboard), select a co
 
 ## Sharing collections with the Embed or Run In Postman button
 
-Select this option to embed a **[Run in Postman](/docs/postman-for-publishers/run-button/creating-run-button/)** button in your collection for your API documentation, website, or Github readme.
+Select this option to embed a **[Run in Postman](/docs/postman-for-publishers/run-in-postman/using-run-button/)** button in your collection for your API documentation, website, or Github readme.
 
 The **Run in Postman** button lets anyone import and run this collection with one click.
 
