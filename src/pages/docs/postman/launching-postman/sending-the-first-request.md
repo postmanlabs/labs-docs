@@ -1,6 +1,6 @@
 ---
 title: "Sending your first request"
-order: 2
+order: 3
 page_id: "sending_the_first_request"
 contextual_links:
   - type: section

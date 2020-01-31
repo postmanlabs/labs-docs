@@ -1,6 +1,6 @@
 ---
 title: "Examples"
-order: 35
+order: 48
 page_id: "examples"
 contextual_links:
   - type: section
@@ -90,7 +90,7 @@ Click on the **Examples** dropdown in the upper right corner of the builder to a
 
 ## What happened to the 'Save Response' feature?
 
-[Saving responses](/docs/postman/sending-api-requests/responses/) has been a Postman feature for a long time. Over time our users wanted to edit responses before saving them, and add new responses. We created Examples to provide that functionality.
+[Saving responses](/docs/postman/sending-api-requests/responses/) has been a Postman feature for a long time. Over time users wanted to edit responses before saving them, and add new responses. Examples provides that functionality.
 
 You can save responses as before, but now you can edit them whenever you want. To access previously saved responses, click the **Examples** dropdown.
 

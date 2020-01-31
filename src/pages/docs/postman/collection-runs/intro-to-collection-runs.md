@@ -1,6 +1,6 @@
 ---
 title: "Intro to collection runs"
-order: 53
+order: 111
 page_id: "intro_to_collection_runs"
 contextual_links:
   - type: section

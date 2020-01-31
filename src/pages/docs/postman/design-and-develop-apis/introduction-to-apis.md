@@ -1,13 +1,13 @@
 ---
 title: 'Introduction to APIs'
-order: 88
+order: 201
 page_id: 'introduction_to_apis'
 warning: false
 ---
 
 ## Overview
 
-Postman now enables API design directly within Postman, making API creation better and faster. Postman's brand new API feature includes the API tab and API elements, extended schema support, and versioning and version tagging. You will now be able to define and manage different versions of your APIs, collection revisions, and other API elements linked to APIs like Postman Collections, monitors, mocks and etc. You will be able to coordinate API changes easily with the help of API versioning and tagging.
+Postman enables API design directly within the app, making API creation better and faster. Postman's brand new API feature includes the API tab and API elements, extended schema support, and versioning and version tagging. You will now be able to define and manage different versions of your APIs, collection revisions, and other API elements linked to APIs like Postman Collections, monitors, mocks and etc. You will be able to coordinate API changes easily with the help of API versioning and tagging.
 
 With the API feature in Postman, your schema is now treated as the source of truth which defines every variation of the API. Collections can now be used as individual recipes which use endpoints made available by the API, tailored to specific use cases. When you map your real-world APIs into the new API tab, you will be able to define, develop, test, and observe them directly within Postman.
 

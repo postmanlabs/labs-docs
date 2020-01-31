@@ -1,6 +1,6 @@
 ---
 title: "Proxy"
-order: 24
+order: 33
 page_id: "proxy"
 search_keyword: "HTTP_PROXY, NO_PROXY"
 contextual_links:

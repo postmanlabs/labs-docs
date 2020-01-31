@@ -1,6 +1,6 @@
 ---
 title: "Sharing collections"
-order: 32
+order: 43
 page_id: "sharing_collections"
 contextual_links:
   - type: section
@@ -68,7 +68,7 @@ Select this option to share a collection to another workspace or with a workspac
 
 You can set team default permissions to either view-only or edit; only after sharing a collection. First, you share the collection and then assign a role. You also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared.
 
-**Note:** Refer to [Roles and permissions](/docs/postman-pro/managing-pro/roles-and-permissions/) for more information on role-based user permissions.
+**Note:** Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
 
 [![in app collection sharing](https://assets.postman.com/postman-docs/Collection_sharing_new.png)](https://assets.postman.com/postman-docs/Collection_sharing.png)
 
@@ -110,7 +110,7 @@ Click the **Share** button.
 
 You can download collections as a JSON file to share with others, with or without signing in to your Postman account.
 
-You can share collections anonymously, but we strongly recommend you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
+You can share collections anonymously, but it is strongly recommended that you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
 
 Learn more about [exporting and importing collections](/docs/postman/collections/data-formats/), and the differences between collection formats [v1 and v2](https://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
 
@@ -134,4 +134,4 @@ Click the **Save Changes** button to complete the process.
 
 Users can request access to a team member's personal collection or a private collection if they have a link to the collection.
 
-To learn more about this feature, refer to the [Requesting access to collections](/docs/postman/collections/requesting-access-to-collections/) section.
+To learn more about this feature, refer to the [Requesting access to collections](/docs/postman/collaboration/requesting-access-to-collections/) section.

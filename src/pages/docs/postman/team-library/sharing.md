@@ -1,15 +1,12 @@
 ---
 title: "Sharing"
 page_id: "sharing"
-tags: 
-  - "pro"
-  - "enterprise"
 warning: false
 ---
 
- **Note: Team Library is only available for versions 5.0 and below.**
+> __This page is deprecated. Team Library is only available for versions 5.0 and below.__
 
-Postman Pro and Enterprise users have access to a Team Library which lets you collaborate faster with your teammates. Team members can share collections and environments and see the activity feed in the Team Library. You can think of the Team Library as a way to organize your API infrastructure and make finding API documentation, workflows, and test suites easy.
+Postman users with paid plans have access to a Team Library which lets you collaborate faster with your teammates. Team members can share collections and environments and see the activity feed in the Team Library. You can think of the Team Library as a way to organize your API infrastructure and make finding API documentation, workflows, and test suites easy.
 
 Your Team Library should be the single source of truth about your APIs. It will let you see the state of your APIs in real time, or review historical versions and the latest updates.
 
@@ -28,7 +25,7 @@ There are a number of enhancements coming up soon on [Postman's product roadmap]
 
 ## Sharing Collections
 
-In addition to the [standard ways to share a collection](/docs/postman/collections/sharing-collections/), Postman Pro and Enterprise users can also share collections with their team or specific team members.
+In addition to the [standard ways to share a collection](/docs/postman/collections/sharing-collections/), users can also share collections with their team or specific team members.
 
 1. From the Collections tab in the sidebar, click on the ellipsis **(...)** next to the collection you would like to share, and select "Share".
 1. Specify the team permissions by selecting "Can View" or "Can Edit" in the dropdown.  
@@ -40,7 +37,7 @@ In addition to the [standard ways to share a collection](/docs/postman/collectio
 
 ## Sharing environments
 
-In addition to the [standard way to share an environment](/docs/postman/variables-and-environments/variables/#environments-in-postman), Postman Pro and Enterprise users can also share an environment with their team.
+In addition to the [standard way to share an environment](/docs/postman/variables-and-environments/variables/#environments-in-postman), users can also share an environment with their team.
 
 1. From the gear icon in the upper right corner of the Postman app, select "Manage Environments", and click the orange **Share** button next to the environment you want to share.
 1. You will have one last opportunity to hide any sensitive values like passwords and access tokens before sharing the environment. When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.  

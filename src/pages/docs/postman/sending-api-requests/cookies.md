@@ -1,6 +1,6 @@
 ---
 title: "Cookies"
-order: 20
+order: 27
 page_id: "cookies"
 search_keyword: "pm.cookies.jar, cookies.jar"
 contextual_links:
@@ -75,7 +75,7 @@ To create a "cookie jar", use the `pm.cookies.jar()` method. This will create an
 
 ## Creating a cookie
 
-After a cookie jar is created, we can place cookies into it by the following methods:
+After a cookie jar is created, you can place cookies into it by the following methods:
 
 1. Set a cookie using the `.set()` function, it takes a URL, a cookie name and a cookie value.
 

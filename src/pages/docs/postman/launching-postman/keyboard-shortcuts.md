@@ -1,6 +1,6 @@
 ---
 title: "Keyboard Shortcuts"
-order: 5
+order: 10
 page_id: "keyboard_shortcuts"
 contextual_links:
   - type: section

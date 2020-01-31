@@ -1,6 +1,6 @@
 ---
 title: "Creating Workspaces"
-order: 95
+order: 182
 page_id: "creating_workspaces"
 contextual_links:
   - type: section
@@ -20,11 +20,6 @@ contextual_links:
   - type: link
     name: "Team collaboration with Postman"
     url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Announcing private workspaces for Postman Enterprise"
-    url: "http://blog.getpostman.com/2018/05/22/announcing-private-workspaces-for-postman-enterprise/?_ga=2.132409800.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link
@@ -38,7 +33,7 @@ warning: false
 
 ---
 
-Postman account users can create an unlimited number of personal workspaces. Users who don't have a Postman account can have only one personal workspace. Postman Pro and Enterprise teams have one default team workspace and can create an unlimited number of workspaces.
+Postman account users can create an unlimited number of personal workspaces. Users who don't have a Postman account can have only one personal workspace. With Postman Team, Business, and Enterprise, you have one default team workspace and can create an unlimited number of additional workspaces.
 
 ## How to create a new workspace?
 
@@ -52,7 +47,7 @@ To create a personal workspace, verify the workspace enter the name and descript
 
 To create a team workspace, enter the name and description of the workspace. Toggle the workspace type over to "Team" to reveal additional options to invite members to your workspace. Add members to this workspace by entering their email address or username of existing users. If you are an Admin, any email addresses not associated with current team members will be invited to join the team.
 
-Postman Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/postman/workspaces/intro-to-workspaces/#private-workspaces).
+> Postman Business and Enterprise users can check the box to limit visibility of this workspace to invited members, making a [private workspace](/docs/postman/workspaces/intro-to-workspaces/#private-workspaces).
 
 Click **Create Workspace** to finish creating your workspace.
 
