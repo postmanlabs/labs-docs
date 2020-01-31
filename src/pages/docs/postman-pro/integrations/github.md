@@ -136,7 +136,7 @@ Enter your personal access token in the text field, select **I consent to Postma
 
 > The list of your GitHub repositories may take some time to load.
 
-On the next page you need to setup your webhook. To do so, go to the settings page of your GitHub repository, click **Webhooks**, then **Add webhook**. Copy over the `Payload URL` and `Secret` from Postman, then click **Add webhook** to confirm. Refer to the [GitHub documentation](https://developer.github.com/webhooks/creating/#setting-up-a-webhook) for more detail. 
+On the next page you need to setup your webhook. To do so, go to the settings page of your GitHub repository, click **Webhooks**, then **Add webhook**. Copy over the `Payload URL` and `Secret` from Postman, then click **Add webhook** to confirm. Refer to the [GitHub documentation](https://developer.github.com/webhooks/creating/#setting-up-a-webhook) for more detail.
 
 [![add webhook](https://user-images.githubusercontent.com/5029719/73532074-c34ea500-4413-11ea-9693-cdaaa64fb7f9.gif)](https://user-images.githubusercontent.com/5029719/73532074-c34ea500-4413-11ea-9693-cdaaa64fb7f9.gif)
 
