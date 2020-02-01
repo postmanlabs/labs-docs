@@ -1,6 +1,6 @@
 ---
 title: "Capturing HTTP requests"
-order: 22
+order: 32
 page_id: "capturing_http_requests"
 contextual_links:
   - type: section
@@ -56,7 +56,7 @@ Similar to the [Interceptor Chrome extension](/docs/postman/sending-api-requests
 
 ## Using Postman's proxy example
 
-In this tutorial, we will use Postman's proxy feature to inspect HTTP communication going out from your phone. To get started, make sure your computer and mobile are connected to the same local wireless network.
+In this tutorial, you will use Postman's proxy feature to inspect HTTP communication going out from your phone. To get started, make sure your computer and mobile are connected to the same local wireless network.
 
 ### Step 1: Set up the proxy in Postman
 

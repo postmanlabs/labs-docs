@@ -1,6 +1,6 @@
 ---
 title: "Using environments in collection runs"
-order: 55
+order: 113
 page_id: "using_environments_in_collection_runs"
 contextual_links:
   - type: section
@@ -62,7 +62,7 @@ In the Collection Runner, select the test environment from the environment dropd
 
 If you switch back to the main Postman app window and check the value of the variable `foo`, you'll see that it is now `bar2`.
 
-By default, any variable changes in the environment (or globals) in the Collection Runner shows in the main Postman app window because `Persist Variables` is checked in the options. If you run the collection once again, you'll see that it now fails, since we changed the value of the variable `foo`.
+By default, any variable changes in the environment (or globals) in the Collection Runner shows in the main Postman app window because `Persist Variables` is checked in the options. If you run the collection once again, you'll see that it now fails, since you changed the value of the variable `foo`.
 
 [![collection runner results](https://assets.postman.com/postman-docs/using_environment_in_collection_runs/collection_runner_results.png)](https://assets.postman.com/postman-docs/using_environment_in_collection_runs/collection_runner_results.png)
 

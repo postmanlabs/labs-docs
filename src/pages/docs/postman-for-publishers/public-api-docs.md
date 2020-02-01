@@ -1,6 +1,6 @@
 ---
 title: "Publishing API documentation"
-order: 140
+order: 311
 page_id: "public_api_docs"
 warning: false
 contextual_links:

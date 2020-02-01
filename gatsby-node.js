@@ -9,7 +9,13 @@ const HeaderJson = require('./src/components/Header/Header.data.json');
 const FooterJson = require('./src/components/Footer/Footer.data.json');
 
 const ignorePaths = [
-  '/docs/postman-pro/api-search/searching-apis/',
+  '/docs/postman/team-library/activity-feed-and-restoring-collections/',
+  '/docs/postman/team-library/searching/',
+  '/docs/postman/team-library/setting-up-team-library/',
+  '/docs/postman/team-library/sharing/',
+  '/docs/postman/team-library/conflicts/',
+  '/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5/',
+  '/docs/administration/migrating-to-v7/',
 ];
 
 

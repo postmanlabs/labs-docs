@@ -1,6 +1,6 @@
 ---
 title: "Custom documentation domains"
-order: 70
+order: 125
 page_id: "custom_doc_domains"
 contextual_links:
   - type: section
@@ -10,21 +10,18 @@ contextual_links:
   - type: link
     name: "Imgur"
     url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.202743895.754547870.1571851340-1454169035.1570491567"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Introducing Custom Domains for Postman Pro"
-    url: "https://blog.getpostman.com/2017/02/23/introducing-custom-domains-for-postman-pro/?_ga=2.157458940.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "What is Postman Pro"
-    url: "/docs/postman-pro/what-is-pro/"
+    name: "Public API documentation"
+    url: "/docs/postman-for-publishers/public-api-docs/"
 
 warning: false
 ---
 
-With Postman Pro or Enterprise you can use a custom domain for your API documentation.
+> __[Custom documentation domains are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+
+You can use a custom domain for your API documentation.
 
 ## Adding a custom domain
 
@@ -41,8 +38,6 @@ In the __Add a Custom Domain__ page, enter the URL of the domain you want to add
 [![enter custom domain](https://assets.postman.com/postman-docs/WS-docs-add-custom-domain-1.png)](https://assets.postman.com/postman-docs/WS-docs-add-custom-domain-1.png)
 
 Click __Proceed__ to verify the domain.
-
-> Pro teams can add up to 5 domains.
 
 ## Verifying your domain
 

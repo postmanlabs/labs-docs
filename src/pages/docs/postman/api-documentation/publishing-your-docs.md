@@ -1,6 +1,6 @@
 ---
 title: "Publishing your docs"
-order: 69
+order: 123
 page_id: "publishing_your_docs"
 contextual_links:
   - type: section
@@ -76,13 +76,13 @@ You can preview your documentation before publishing it.
 
 ### Customizing your docs
 
-> With a Postman Pro or Enterprise account, you can opt to use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/) for your public documentation site.
+> With Postman Team, Business, or Enterprise, you can opt to use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/) for your public documentation site.
 
 You can configure the style of your public docs by selecting colors for the top bar, sidebar, and highlights. Try making changes and preview to see how your docs will appear when published.
 
 ![Style Docs](https://assets.postman.com/postman-docs/style-docs.jpg)
 
-You can customize the style of your public docs by adding a team name and logo via your [team settings](/docs/postman-pro/managing-pro/team-settings/) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
+You can customize the style of your public docs by adding a team name and logo via your [team settings](/docs/postman/collaboration/team-settings/) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
 
 ## Sharing your public docs
 

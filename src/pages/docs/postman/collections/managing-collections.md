@@ -1,6 +1,6 @@
 ---
 title: "Managing collections"
-order: 33
+order: 45
 page_id: "managing_collections"
 contextual_links:
   - type: section
@@ -78,13 +78,11 @@ Collections deleted can be recovered via your [web dashboard](https://app.getpos
 
 The Trash feature is available only for the signed-in users. So, if you are not a registered user you'll still see the Trash option but as a disabled one.
 
-**Note:** Postman offers different recovery plans for Free, Pro and Enterprise users.
+Recovery options depend on your Postman plan:
 
-* Users on Postman Free license can recover one-day old collections.
-
-* Users on Postman Pro license can recover collections up to 15-days.
-
-* Users on Postman Enterprise license can recover collections up to 30-days.
+* With a free account you can recover collections up to one day old.
+* Team accounts can recover collections up to 30 days.
+* With Postman Business and Enterprise you can recover collections up to 90 days.
 
 If your collection seems deleted and you are not able to recover from your deleted collections list, it is possible it is removed from a workspace rather than deleted. To check, navigate back to the main page of the web dashboard, then click `View all collections`. If listed, you can click on its share icon to move it back into a personal or shared workspace.
 
