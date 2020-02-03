@@ -26,7 +26,6 @@ Postman allows you to back up your collections and synchronize your APIs schemas
     * [Backup collections to GitHub on custom domain](#backup-collections-to-github-on-custom-domain)
 * [Syncing API schemas on GitHub](#syncing-your-api-schemas-on-github)
     * [Configuring GitHub integration for API schemas](#configuring-github-integration-for-api-schemas)
-    * [Syncing a different version of the API schema](#syncing-a-different-version-of-the-api-schema)
 
 ## Generating a GitHub Personal Access Token
 
