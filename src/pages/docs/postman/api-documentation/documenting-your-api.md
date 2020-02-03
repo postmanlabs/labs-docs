@@ -1,6 +1,6 @@
 ---
 title: "Documenting your API"
-order: 65
+order: 121
 page_id: "documenting-your-api"
 contextual_links:
   - type: section
@@ -115,7 +115,7 @@ By default your documentation is private, and viewable only to people you have [
 
 For more on accessing private and public docs, see [Viewing documentation](/docs/postman/api-documentation/viewing-documentation/).
 
-> Public and private documentation pages receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
+> Your documentation receives a number of free views per month and is dependent on your [Postman plan](https://www.getpostman.com/pricing) beyond that. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
 
 ## Documentation environments
 
@@ -125,15 +125,15 @@ You can use environments to set variables that will be available in your documen
 
 Associating an environment with your documentation means that the values of any environment variables your requests reference will automatically populate in the doc content. Anyone using the __Run in Postman__ button from your docs will also be able to access the shared environment when they import the collection into their Postman app.
 
-To use a variable value in your documentation, [create](/docs/postman/environments-and-globals/manage-environments/#creating-a-new-environment) or select an environment.
+To use a variable value in your documentation, [create](/docs/postman/variables-and-environments/variables/) or select an environment.
 
 ![Environment Quick Look](https://assets.postman.com/postman-docs/env-quick.jpg)
 
-[Add the new variable](/docs/postman/environments-and-globals/manage-environments/#editing-an-active-environment) if you haven't already done so.
+[Add the new variable](/docs/postman/variables-and-environments/variables/) if you haven't already done so.
 
 ![Environment Variable](https://assets.postman.com/postman-docs/env-var.jpg)
 
-When you [reference a variable](/docs/postman/variables-and-environments/variables/#accessing-variables) in your requests, the value from the selected environment will automatically be published along with your documentation.
+When you [reference a variable](/docs/postman/variables-and-environments/variables/) in your requests, the value from the selected environment will automatically be published along with your documentation.
 
 ![Reference Variable](https://assets.postman.com/postman-docs/reference-var.jpg)
 

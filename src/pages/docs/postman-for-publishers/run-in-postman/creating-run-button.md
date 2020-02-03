@@ -1,6 +1,6 @@
 ---
 title: "Creating the Run in Postman button"
-order: 145
+order: 331
 page_id: "creating_run_button"
 warning: false
 contextual_links:
@@ -69,7 +69,9 @@ Here’s an example markdown snippet:
 Here’s an example HTML snippet:
 
 ```bash
-<a href="https://www.getpostman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
+<a href="https://www.getpostman.com/run-collection/:collection_id" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
+</a>
 ```
 
 The `:collection_id` is a placeholder here and will be auto-filled in the markdown snippet.

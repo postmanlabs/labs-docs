@@ -1,6 +1,6 @@
 ---
 title: "Integration with Jenkins"
-order: 62
+order: 120
 page_id: "integration_with_jenkins"
 contextual_links:
   - type: section
@@ -46,13 +46,13 @@ Newman allows you to run and test a Postman Collection. Newman and Jenkins are a
 * [Troubleshooting](#troubleshooting)
 * [Configure frequency of runs](#configure-frequency-of-runs)
 
-**Note:** We are using Ubuntu as a target OS as in most cases your CI server would be running on a remote Linux machine.
+**Note:** This walkthrough uses Ubuntu as a target OS, as in most cases your CI server will be running on a remote Linux machine.
 
 ## Installation
 
 [Install Jenkins](https://jenkins.io/doc/book/installing/#debian-ubuntu).
 
-Install NodeJS and npm. Newman is written in NodeJS and we distribute the official copy through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/getting-started/installing-node).
+Install NodeJS and npm. Newman is written in NodeJS and the official copy is available through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/getting-started/installing-node).
 
 Install Newman globally, to set up Newman as a command line tool in Ubuntu.
 
@@ -62,11 +62,11 @@ $ npm install -g newman
 
 ## Run a collection in Postman
 
-We assume you already have a Postman Collection with some tests. Run the collection in the Postman app. Here's an example of the output in Postman’s collection runner.
+These instructions assume you already have a Postman Collection with some tests. Run the collection in the Postman app. Here's an example of the output in Postman’s collection runner.
 
 [![collection runner](https://assets.postman.com/postman-docs/integrating_with_jenkins_1.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_1.png)
 
-Some of the tests are failing intentionally in the screenshot so we can show you the instructions for troubleshooting.
+Some of the tests are failing intentionally in the screenshot to demonstrate the troubleshooting process.
 
 ## Run a collection using Newman
 
@@ -94,7 +94,7 @@ Here is the command:
 $ newman jenkins_demo.postman_collection --exitCode 1
 ```
 
-Note here that we are using the Newman command parameter “exitCode” with the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
+Note here that the Newman command parameter “exitCode” uses the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
 
 Click the **Save** button to finish creating the project.
 
@@ -106,7 +106,7 @@ Run this build test manually by clicking on the “Build Now” link in the side
 
 [![run build](https://assets.postman.com/postman-docs/integrating_with_jenkins_7.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_7.png)
 
-Jenkins indicates that the build has failed with a red dot in the title. We can check why with the console output from Newman.
+Jenkins indicates that the build has failed with a red dot in the title. You can check why with the console output from Newman.
 
 [![build failed message](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)
 

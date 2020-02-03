@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-order: 0.9
+order: 1
 page_id: "introduction"
 warning: false
 contextual_links:
@@ -64,7 +64,7 @@ Check out the following links to start learning.
 
 > [__Documenting your API__](/docs/postman/api-documentation/documenting-your-api/)
 >
-> [__Collaborating with teammates__](/docs/postman/launching-postman/collaboration/)
+> [__Collaborating with teammates__](/docs/postman/collaboration/collaboration-intro/)
 >
 > [__Visualizing API responses__](/docs/postman/sending-api-requests/visualizer/)
 

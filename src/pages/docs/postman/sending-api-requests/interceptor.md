@@ -1,7 +1,8 @@
 ---
 title: "Interceptor"
-order: 23
+order: 34
 page_id: "interceptor"
+search_keyword: "pm.interceptorInstaller.reset, interceptorInstaller.reset, pm.interceptorBridge.setKey, interceptorBridge.setKey"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -61,7 +62,7 @@ To get started, you'll need to first install Postman Interceptor:
 
 4. Confirm Interceptor is ready to use by checking that the **Interceptor connected** status is green. You can now capture requests from your browser and cookies from any domain to use in Postman.
 
-> You can learn more about our built-in proxy in [Capturing HTTP Requests](/docs/postman/sending-api-requests/capturing-http-requests/).
+> You can learn more about the built-in proxy in [Capturing HTTP Requests](/docs/postman/sending-api-requests/capturing-http-requests/).
 
 ## Using Interceptor
 

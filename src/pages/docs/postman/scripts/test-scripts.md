@@ -1,7 +1,8 @@
 ---
 title: "Test scripts"
-order: 42
+order: 93
 page_id: "test_scripts"
+search_keyword: "pm.response, pm.test, pm.expect"
 contextual_links:
   - type: section
     name: "Prerequisites"

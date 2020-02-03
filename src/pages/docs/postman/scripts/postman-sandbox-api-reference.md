@@ -1,7 +1,8 @@
 ---
 title: "Postman Sandbox API reference"
-order: 46
+order: 97
 page_id: "postman_sandbox_api_reference"
+search_keyword: "pm.info, eventName, iteration, iterationCount, requestName, requestId, pm.sendRequest, sendRequest, pm.expect, pm.test, pm.variables.has, variables.has, pm.variables.get, variables.get, pm.variables.toObject, variables.toObject, pm.variables.set, variables.set, pm.environment.name, environment.name, pm.environment.has, environment.has, pm.environment.get, environment.get, pm.environment.set, environment.set, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.environment.toObject, environment.toObject, pm.collectionVariables.has, collectionVariables.has, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.set, collectionVariables.set, pm.collectionVariables.unset, collectionVariables.unset, pm.collectionVariables.clear, collectionVariables.clear, pm.collectionVariables.toObject, collectionVariables.toObject, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.set, globals.set, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, pm.globals.toObject, globals.toObject, pm.request.url, request.url, pm.request.headers, request.headers, request.headers.add, headers.add, pm.request.headers.add, pm.request.headers.delete, request.headers.delete, headers.delete, pm.request.headers.upsert, request.headers.upsert, headers.upsert, pm.response.code, response.code, pm.response.reason, response.reason, pm.response.headers, response.headers, pm.response.responseTime, response.responseTime, pm.response.text, response.text, pm.response.json, response.json, pm.iterationData.get, iterationData.get, pm.iterationData.toObject, iterationData.toObject, pm.iterationData.addLayer, iterationData.addLayer, pm.iterationData.clear, iterationData.clear, pm.iterationData.has, iterationData.has, pm.iterationData.set, iterationData.set, pm.iterationData.syncVariablesFrom, iterationData.syncVariablesFrom, pm.iterationData.syncVariablesTo, iterationData.syncVariablesTo, pm.iterationData.toJSON, iterationData.toJSON, pm.iterationData.unset, iterationData.unset, pm.iterationData.variables, iterationData.variables, pm.iterationData.isVariableScope, iterationData.isVariableScope, pm.cookies.has, cookies.has, pm.cookies.get, cookies.get, pm.cookies.toObject, cookies.toObject, pm.cookies.jar, cookies.jar, jar.set, jar.getAll, jar.unset, jar.clear, pm.response.to.have, response.to.have, pm.response.to.be, response.to.be"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -286,6 +287,8 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 ### pm.cookies.jar
 
+To enable programmatic access via the methods below, the cookie `url` must be [whitelisted](/docs/postman/sending-api-requests/cookies/#whitelisting-domains-for-programmatic-access-of-cookies).
+
 * `pm.cookies.jar():Function → Object`
 
   Access the cookie jar object.
@@ -320,7 +323,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
    You can use this function to write test specifications inside either the `Pre-request Script` or `Tests` sandbox. Writing tests inside this function allows you to name the test accurately and this function also ensures the rest of the script is not blocked even if there are errors inside the function.
 
-   In the following sample test, we are checking that everything about a response is valid for us to proceed.
+   The following sample test checks that everything about a response is valid to proceed.
 
   ```javascript
     pm.test("response should be okay to process", function () {

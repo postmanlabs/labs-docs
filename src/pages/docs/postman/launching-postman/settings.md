@@ -1,6 +1,6 @@
 ---
 title: "Settings"
-order: 8
+order: 9
 page_id: "settings"
 contextual_links:
   - type: section
@@ -33,7 +33,7 @@ In the header toolbar of the Postman app, click the wrench icon and select "Sett
 
 ## General Settings
 
-Postman tries to minimize the number of settings you have to change, so we established some defaults. However, given the diversity of use cases, if you need to make adjustments, here's how:
+Postman tries to minimize the number of settings you have to change, so some defaults are automatically set. However, given the diversity of use cases, if you need to make adjustments, here's how:
 
 * **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
 * **New Code Generation Mode:** If you’re generating code snippets via the **Code** link, switching this to "ON" enables custom settings by programming language.
@@ -59,7 +59,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
     * **Send Postman Token header:** This is primarily used to bypass a bug in Chrome. If an XmlHttpRequest is pending and. another request is sent with the same parameters then Chrome returns the same response for both of them. Sending a random token avoids this issue. This can also help you distinguish between request on the server side.
     * **Retain headers when clicking on links:** If you click on a link in a response, Postman creates a new GET request with that URL. If you want to retain the headers that you set in the previous request set "ON" here. This is useful if you are accessing mainly protected resources.
     * **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected.
-    * **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
+    * **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. Postman uses usage data to make a better product.
     * **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded,
    Postman will inform the user that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact app performance.
 
@@ -85,7 +85,7 @@ Download Newman, Postman's command line companion, to integrate Postman collect
 
 ## Sync
 
-If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app (and not just locally). You can also manually perform sync using the Sync icon in the header toolbar of Postman app. Learn more about [syncing](/docs/postman/launching-postman/syncing/).
+If you are signed in to Postman, your data is synced with the server, making sure you have it all next time you use the app (and not just locally). You can also manually perform sync using the Sync icon in the header toolbar of Postman app. Learn more about [syncing](/docs/postman/launching-postman/syncing/).
 
 ## Certificates
 

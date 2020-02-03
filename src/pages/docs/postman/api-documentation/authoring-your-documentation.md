@@ -1,6 +1,6 @@
 ---
 title: "Authoring your documentation"
-order: 68
+order: 122
 page_id: "authoring-your-documentation"
 contextual_links:
   - type: section

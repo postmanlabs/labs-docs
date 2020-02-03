@@ -1,6 +1,6 @@
 ---
 title: 'Data formats'
-order: 36
+order: 49
 page_id: 'data_formats'
 contextual_links:
   - type: section
@@ -36,7 +36,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to Integrations"
-    url: "/docs/postman-pro/integrations/intro-integrations/"
+    url: "/docs/integrations/intro-integrations/"
 
 warning: false
 ---
@@ -184,9 +184,9 @@ Postman lets you import WADL specs too. While all aspects are not supported yet,
 
 ## Validating Collection JSON files
 
-To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/).
+To validate if a JSON file is in the correct collections format, you can use [schema files for collections](http://schema.getpostman.com/).
 
 - [Schema file](https://schema.getpostman.com/json/collection/v1.0.0/collection.json)
 - [Associated documentation](https://schema.getpostman.com/)
 - [Postman schemas in GitHub](https://github.com/postmanlabs/schemas)
-- [Example of data validation using our schema](https://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/) and a [validator](https://github.com/mafintosh/is-my-json-valid)
+- [Example of data validation using a schema](https://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/) and a [validator](https://github.com/mafintosh/is-my-json-valid)

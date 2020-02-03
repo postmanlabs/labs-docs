@@ -1,6 +1,6 @@
 ---
 title: "Generate code snippets"
-order: 25
+order: 29
 page_id: "generate_code_snippets"
 contextual_links:
   - type: section

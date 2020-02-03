@@ -1,6 +1,6 @@
 ---
 title: "Responses"
-order: 15
+order: 24
 page_id: "responses"
 contextual_links:
   - type: section

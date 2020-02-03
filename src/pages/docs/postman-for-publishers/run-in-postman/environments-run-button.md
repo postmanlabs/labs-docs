@@ -1,6 +1,6 @@
 ---
 title: "Environments in Run in Postman"
-order: 148
+order: 334
 page_id: "environments_run_button"
 warning: false
 contextual_links:
@@ -38,7 +38,7 @@ Select the environment name from the dropdown, as shown in the screenshot above.
 
 ### On page load using Run in Postman’s JavaScript API
 
-Postman also provides an API using the `-pm()` method to programmatically generate an environment client-side. Read more about the [Run button API](/docs/postman-for-publishers/run-button/run-button-API/) and how to dynamically alter button behavior.
+Postman also provides an API using the `-pm()` method to programmatically generate an environment client-side. Read more about the [Run button API](/docs/postman-for-publishers/run-in-postman/run-button-API/) and how to dynamically alter button behavior.
 
 ```javascript
 _pm('env.create', 'Spotify', {

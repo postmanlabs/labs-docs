@@ -1,7 +1,8 @@
 ---
 title: "Command line integration with Newman"
-order: 61
+order: 119
 page_id: "command_line_integration_with_newman"
+search_keyword: "newman run"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -85,32 +86,40 @@ Newman provides a rich set of options to customize a run. You can retrieve a lis
 $ newman run -h
 ```
 
-```bash
-Options:
+### Utility
 
-Utility:
--h, --help                      output usage information
--v, --version                   output the version number
+| Option | Details |
+|:--|:--|
+| `-h`, `--help` | Output usage information |
+| `-v`, `--version` | Output the version number |
 
-Basic setup:
---folder [folderName]           Specify a single folder to run from a collection.
--e, --environment [file|URL]    Specify a Postman environment as a JSON [file]
--d, --data [file]               Specify a data file to use either json or csv
--g, --globals [file]            Specify a Postman globals file as JSON [file]
--n, --iteration-count [number]  Define the number of iterations to run
+### Basic setup
 
-Request options:
---delay-request [number]        Specify a delay (in ms) between requests [number]
---timeout-request [number]      Specify a request timeout (in ms) for a request
+| Option | Details |
+|:--|:--|
+| `--folder [folderName]` | Specify a single folder to run from a collection. |
+| `-e`, `--environment [file|URL]` | Specify a Postman environment as a JSON [file] |
+| `-d`, `--data [file]` | Specify a data file to use either json or csv |
+| `-g`, `--globals [file]` | Specify a Postman globals file as JSON [file] |
+| `-n`, `--iteration-count [number]` | Define the number of iterations to run |
 
-Misc.:
---bail                          Stops the runner when a test case fails
---silent                        Disable terminal output
---no-color                      Disable colored output
--k, --insecure                  Disable strict ssl
--x, --suppress-exit-code        Continue running tests even after a failure, but exit with code=0
---ignore-redirects              Disable automatic following of 3XX responses
-```
+### Request options
+
+| Option | Details |
+|:--|:--|
+| `--delay-request [number]` | Specify a delay (in ms) between requests [number] |
+| `--timeout-request [number]` | Specify a request timeout (in ms) for a request |
+
+### Misc.
+
+| Option | Details |
+|:--|:--|
+| `--bail` | Stops the runner when a test case fails |
+| `--silent` | Disable terminal output |
+| `--no-color` | Disable colored output |
+| `-k`, `--insecure` | Disable strict ssl |
+| `-x`, `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0` |
+| `--ignore-redirects` | Disable automatic following of `3XX` responses |
 
 Use the ``-n`` option to set the number of iterations to run the collection.
 
@@ -296,7 +305,8 @@ A custom reporter is a Node module with a name of the form `newman-reporter-<nam
 function (emitter, reporterOptions, collectionRunOptions) {
   // emitter is is an event emitter that triggers the following events: https://github.com/postmanlabs/newman#newmanrunevents
   // reporterOptions is an object of the reporter specific options. See usage examples below for more details.
-  // collectionRunOptions is an object of all the collection run options: https://github.com/postmanlabs/newman#newmanrunoptions-object--callback-function--run-eventemitter
+  // collectionRunOptions is an object of all the collection run options:
+  // https://github.com/postmanlabs/newman#newmanrunoptions-object--callback-function--run-eventemitter
 };
 ```
 

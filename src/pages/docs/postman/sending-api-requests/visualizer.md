@@ -1,7 +1,8 @@
 ---
 title: "Visualize API responses"
-order: 29
+order: 25
 page_id: "visualizer"
+search_keyword: "pm.visualizer.set, visualizer.set, pm.response.json, response.json, pm.getData, getData"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -88,7 +89,7 @@ The visualizer code creates a Handlebars template to render a table displaying t
 
 ```js
 var template = `
-    <table>
+    <table bgcolor="#FFFFFF">
         <tr>
             <th>Name</th>
             <th>Email</th>

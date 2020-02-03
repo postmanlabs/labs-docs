@@ -1,7 +1,8 @@
 ---
 title: "Postman Sandbox"
-order: 45
+order: 96
 page_id: "postman_sandbox"
+search_keyword: "postman.getResponseHeader, pm.environment, pm.environment.name, environment.name, pm.environment.set, environment.set, pm.environment.get, environment.get, pm.environment.has, environment.has, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.globals.set, globals.set, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, guid, randomInt, responseCookies, getResponseCookie, responseHeaders, responseBody, responseTime, responseCode, iteration"
 contextual_links:
   - type: section
     name: "Prerequisites"

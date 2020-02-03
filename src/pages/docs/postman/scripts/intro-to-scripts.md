@@ -1,7 +1,8 @@
 ---
 title: "Intro to scripts"
-order: 40
+order: 91
 page_id: "intro_to_scripts"
+search_keyword: "pm.test, pm.expect, pm.environment, pm.environment.get, environment.get, pm.response"
 contextual_links:
   - type: section
     name: "Prerequisites"
