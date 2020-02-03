@@ -17,7 +17,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Raygun"
-    url: "https://www.getpostman.com/case-studies/raygun.pdf?_ga=2.226164956.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/raygun.pdf?_ga=2.226164956.754547870.1571851340-1454169035.1570491567"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

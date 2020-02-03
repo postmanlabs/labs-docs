@@ -151,7 +151,7 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 
 [![status bar](https://assets.postman.com/postman-docs/Postman_Main_UI.png)](https://assets.postman.com/postman-docs/Postman_Main_UI.png)
 
-When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security,](https://www.getpostman.com/security) [support,](https://www.getpostman.com/support) and [social media.](https://twitter.com/postmanclient)
+When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security,](https://www.postman.com/security) [support,](https://www.postman.com/support) and [social media.](https://twitter.com/postmanclient)
 
 [![help icon](https://assets.postman.com/postman-docs/WS-statusbar-helpFeedbackMenu.png)](https://assets.postman.com/postman-docs/WS-statusbar-helpFeedbackMenu.png)
 

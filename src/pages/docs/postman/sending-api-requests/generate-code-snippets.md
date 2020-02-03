@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Intuit"
-    url: "https://www.getpostman.com/case-studies/Intuit.pdf?_ga=2.164694905.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Intuit.pdf?_ga=2.164694905.754547870.1571851340-1454169035.1570491567"
   - type: subtitle
     name: "Videos"
   - type: link

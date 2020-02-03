@@ -260,7 +260,7 @@ The full list of parameters to request a new access token is as follows, dependi
 
 * __Token Name:__ The name you want to use for the token.
 * __Grant Type:__ A dropdown list of options—this will depend on the API service provider requirements.
-* __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it—if this does not work for your API, you can use the following URL: `https://www.getpostman.com/oauth2/callback`
+* __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it—if this does not work for your API, you can use the following URL: `https://www.postman.com/oauth2/callback`
 * __Auth URL:__ The endpoint for the API provider authorization server, to retrieve the auth code.
 * __Access Token URL:__ The provider's authentication server, to exchange an authorization code for an access token.
 * __Client ID:__ The ID for your client application registered with the API provider.

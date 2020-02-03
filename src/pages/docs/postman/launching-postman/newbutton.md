@@ -173,7 +173,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 An API allows you to manage all aspects of API design, development, and testing from within Postman. APIs can only be created if you are signed in to Postman and online.
 
-> The number of APIs you can create is dependent on your [Postman plan](https://www.getpostman.com/pricing).
+> The number of APIs you can create is dependent on your [Postman plan](https://www.postman.com/pricing).
 
 As soon as you click on 'API' under Advanced section, a new "Untitled API" is created for you in the current workspace.
 
@@ -200,7 +200,7 @@ To import a template:
 
 ## API Network
 
-The [Postman API Network](https://www.getpostman.com/api-network/) provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
+The [Postman API Network](https://www.postman.com/api-network/) provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
 From the Postman app, click the orange **New** button and select the **API Network** tab. Search for an API, or browse by a particular category. Postman groups the APIs by category such as Marketing, Financial Services, E-commerce, and so on. You can filter by category to find an API, or directly search for the name of the API. After you select an API from the list, you can import it into the Postman app.
 

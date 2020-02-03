@@ -149,7 +149,7 @@ For the Interceptor extension, first enable **Developer mode** in [Chrome extens
 
 ## Using the Interceptor with Postman's Chrome app
 
-> Postman's Chrome app is deprecated and no longer offers feature parity with Postman native. It is highly recommended that you switch to [Postman native](https://www.getpostman.com/downloads/).
+> Postman's Chrome app is deprecated and no longer offers feature parity with Postman native. It is highly recommended that you switch to [Postman native](https://www.postman.com/downloads/).
 
 The Postman Chrome app's Interceptor functions as a proxy to capture HTTP and HTTPS requests. You can use Interceptor to capture requests made by your Chrome browser and send them to your Postman app's history.
 

@@ -34,7 +34,7 @@ You can also use the Interceptor to work with cookies - [check out the blog post
 [2]: https://github.com/a85/PostmanInterceptor
 [3]: https://chrome.google.com/webstore/detail/postman-rest-client/fhbjgbiflinjbdggehcddcbncdddomop
 [4]: http://www.pip-installer.org/en/latest/installing.html
-[5]: https://www.getpostman.com/img/v1/docs/source/proxy-1.png
-[6]: https://www.getpostman.com/img/v1/docs/source/proxy-2.png
-[7]: https://www.getpostman.com/img/v1/docs/source/proxy-3.png
+[5]: https://www.postman.com/img/v1/docs/source/proxy-1.png
+[6]: https://www.postman.com/img/v1/docs/source/proxy-2.png
+[7]: https://www.postman.com/img/v1/docs/source/proxy-3.png
 [8]: https://www.youtube.com/watch?v=1Efpi_UIxGE

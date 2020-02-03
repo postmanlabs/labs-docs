@@ -89,7 +89,7 @@ check out the [examples page][9].
 [3]: http://sugarjs.com/
 [4]: https://github.com/geraintluff/tv4
 [5]: https://code.google.com/p/crypto-js/
-[6]: https://www.getpostman.com/docs/capture#interceptor
+[6]: https://www.postman.com/docs/capture#interceptor
 [7]: http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
 [8]: http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
-[9]: https://www.getpostman.com/docs/jetpacks_examples
+[9]: https://www.postman.com/docs/jetpacks_examples

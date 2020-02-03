@@ -18,10 +18,10 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Lucid"
-    url: "https://www.getpostman.com/case-studies/Lucid.pdf?_ga=2.167456632.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Lucid.pdf?_ga=2.167456632.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Movember"
-    url: "https://www.getpostman.com/case-studies/movember.pdf?_ga=2.167456632.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/movember.pdf?_ga=2.167456632.754547870.1571851340-1454169035.1570491567"
   - type: subtitle
     name: "Videos"
   - type: link

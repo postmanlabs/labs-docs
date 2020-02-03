@@ -14,7 +14,7 @@ contextual_links:
 
 ---
 
-> __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
 
 Postman's [web dashboard](https://app.getpostman.com/dashboard/teams) provides a number of ways to manage your team.
 

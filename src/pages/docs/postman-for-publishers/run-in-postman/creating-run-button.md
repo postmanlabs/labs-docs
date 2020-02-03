@@ -15,7 +15,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Intuit"
-    url: "https://www.getpostman.com/case-studies/Intuit.pdf?_ga=2.79509908.1078379737.1571761632-963694147.1565912089"
+    url: "https://www.postman.com/case-studies/Intuit.pdf?_ga=2.79509908.1078379737.1571761632-963694147.1565912089"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -63,13 +63,13 @@ To create the Run in Postman button, start in the Postman app. Make sure you are
 Here’s an example markdown snippet:
 
 ```bash
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/:collection_id)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 ```
 
 Here’s an example HTML snippet:
 
 ```bash
-<a href="https://www.getpostman.com/run-collection/:collection_id" target="_blank">
+<a href="https://www.postman.com/run-collection/:collection_id" target="_blank">
   <img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
 </a>
 ```

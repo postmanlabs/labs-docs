@@ -211,7 +211,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
 
 <h4 id="API_network">API Network</h4>
 
-The [Postman API Network](https://www.getpostman.com/api-network/) provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
+The [Postman API Network](https://www.postman.com/api-network/) provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
 On the left side of the screen, Postman groups the APIs categories such as Marketing, Financial Services, E-commerce, and so on. You can search these categories to find an API.
 

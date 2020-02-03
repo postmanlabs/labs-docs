@@ -15,7 +15,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Clarifai"
-    url: "https://www.getpostman.com/case-studies/Clarifai.pdf?_ga=2.173886949.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Clarifai.pdf?_ga=2.173886949.754547870.1571851340-1454169035.1570491567"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -75,7 +75,7 @@ You can also pass a collection as a URL. For more information, see the [document
 Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/variables-and-environments/variables/#environments-in-postman) from Postman and run them with the `-e` flag.
 
 ```bash
-$ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
+$ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
 ```
 
 ## Options
@@ -364,9 +364,9 @@ For the complete list of details, see the [Newman README](https://github.com/po
 [0]: https://www.npmjs.org/package/newman
 [1]: https://github.com/postmanlabs/newman
 [2]: http://nodejs.org/download/
-[3]: http://www.getpostman.com/docs/collections
-[4]: http://www.getpostman.com/docs/environments
-[5]: http://www.getpostman.com/docs/jetpacks-sandbox
+[3]: http://www.postman.com/docs/collections
+[4]: http://www.postman.com/docs/environments
+[5]: http://www.postman.com/docs/jetpacks-sandbox
 [6]: https://github.com/postmanlabs/newman
 [7]: https://github.com/postmanlabs/newman#configuring-reporters
 [8]: https://github.com/postmanlabs/newman/tree/develop/lib/reporters

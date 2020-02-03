@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "HotelBeds"
-    url: "https://www.getpostman.com/case-studies/Hotelbeds.pdf?_ga=2.206719061.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Hotelbeds.pdf?_ga=2.206719061.754547870.1571851340-1454169035.1570491567"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -57,7 +57,7 @@ These entities can sync with the server and be saved to the cloud:
 
 ## How do I Sync between computers?
 
-Install the [Postman app](https://www.getpostman.com/downloads/) and sign in with the same email address or username on all your devices.
+Install the [Postman app](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
 
 If you forget your username or password, you can recover your username and reset your password when you click the links near the signin prompt.
 

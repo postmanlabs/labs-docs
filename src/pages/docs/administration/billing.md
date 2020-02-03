@@ -10,7 +10,7 @@ contextual_links:
     name: "Additional Resources"
   - type: link
     name: "Postman Pricing"
-    url: "https://www.getpostman.com/pricing"
+    url: "https://www.postman.com/pricing"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -131,7 +131,7 @@ Monthly teams can switch to an annual plan at any time by navigating to your [bi
 
 ### Purchasing monitoring blocks
 
-The availability of monitoring calls depends on your [Postman plan level](https://www.getpostman.com/pricing), with a portion allocated at no extra charge on all paid plans. Unless monitoring overages are [disabled](#managing-overages), you will be charged on a pay-as-you-go basis.
+The availability of monitoring calls depends on your [Postman plan level](https://www.postman.com/pricing), with a portion allocated at no extra charge on all paid plans. Unless monitoring overages are [disabled](#managing-overages), you will be charged on a pay-as-you-go basis.
 
 To purchase monitoring blocks, visit your [monitoring usage details](http://go.postman.co/usage/monitors) and select **Set monitoring block count**.
 

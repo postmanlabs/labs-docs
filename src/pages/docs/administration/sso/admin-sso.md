@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-> __[SSO is available on Postman Business and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[SSO is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
 
 ## Configuring single sign-on
 

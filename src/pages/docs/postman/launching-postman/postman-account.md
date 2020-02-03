@@ -33,11 +33,11 @@ When you sign up for a free Postman account, you can:
 * Easily work on multiple Postman instances from different machines.
 * Create [collection links](/docs/postman/collections/sharing-collections/) to send to other developers.
 
-Signing up is completely optional. Read the [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
+Signing up is completely optional. Read the [EULA](https://www.postman.com/licenses/postman_base_app), [security page](https://www.postman.com/security), and [privacy page](https://www.postman.com/licenses/privacy) to learn more.
 
 ## Signing up for a Postman account
 
-If you haven't already, [download](https://www.getpostman.com/downloads/) the Postman app.
+If you haven't already, [download](https://www.postman.com/downloads/) the Postman app.
 
 Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://assets.postman.com/postman-docs/59135838.png)](https://assets.postman.com/postman-docs/59135838.png)  
@@ -99,7 +99,7 @@ To switch back to your previous account, click on the account user name in the d
 
 ## Security policies and standards
 
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security).
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.postman.com/security).
 
 * Communication with Postman servers only happens through HTTPS and Secure WebSockets.
 * Environment and global variables are encrypted so that only you can view them.
@@ -122,7 +122,7 @@ Check your email for instructions to recover your username or password.
 
 You can customize your Postman account with a profile picture that shows your username throughout the Postman dashboard.
 
-In [Postman web](https://www.getpostman.com/), click the **Dashboard** button, and then click the "Settings" icon. You must be signed in to see the **Dashboard** button.
+In [Postman web](https://www.postman.com/), click the **Dashboard** button, and then click the "Settings" icon. You must be signed in to see the **Dashboard** button.
 
 [![settings icon](https://assets.postman.com/postman-docs/settings-icon.png)](https://assets.postman.com/postman-docs/settings-icon.png)
 

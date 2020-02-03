@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Healthwise"
-    url: "https://www.getpostman.com/case-studies/healthwise.pdf?_ga=2.232991832.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/healthwise.pdf?_ga=2.232991832.754547870.1571851340-1454169035.1570491567"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

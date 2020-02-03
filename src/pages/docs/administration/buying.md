@@ -8,7 +8,7 @@ contextual_links:
     name: "Additional Resources"
   - type: link
     name: "Postman Pricing"
-    url: "https://www.getpostman.com/pricing"
+    url: "https://www.postman.com/pricing"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -22,7 +22,7 @@ contextual_links:
 
 ---
 
-Visit the [pricing page](https://www.getpostman.com/pricing) to purchase a Postman Team, Business, or Enterprise plan. Click __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your billing dashboard.
+Visit the [pricing page](https://www.postman.com/pricing) to purchase a Postman Team, Business, or Enterprise plan. Click __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your billing dashboard.
 
 ## Configuring your plan
 
