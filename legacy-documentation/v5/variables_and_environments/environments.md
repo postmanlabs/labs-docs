@@ -55,5 +55,5 @@ You can only use them in the `{{..}}` format in the request URL / headers / body
 
 [0]: https://www.postman.com/img/v1/docs/source/28.png
 [1]: https://www.postman.com/docs/keyvalue_editor
-[2]: http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
+[2]: https://blog.postman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
 [3]: https://www.postman.com/docs/jetpacks_running_collections

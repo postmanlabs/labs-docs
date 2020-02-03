@@ -36,7 +36,7 @@ Scopes can be viewed as different kinds of buckets in which values reside. If a 
 
 [![nested variable scopes](https://assets.postman.com/postman-docs/scopes.png)](https://assets.postman.com/postman-docs/scopes.png)
 
-If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) (only available in the [collection runner](https://learning.getpostman.com/docs/postman/collection_runs/starting_a_collection_run/)).
+If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](https://blog.postman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) (only available in the [collection runner](https://learning.getpostman.com/docs/postman/collection_runs/starting_a_collection_run/)).
 
 ### Accessing variables in the request builder
 

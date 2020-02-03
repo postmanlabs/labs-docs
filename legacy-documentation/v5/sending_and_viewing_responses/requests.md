@@ -145,8 +145,8 @@ binary data allows you to send things which you can not enter in Postman. For ex
 [3]: https://www.postman.com/img/v1/docs/source/4.png
 [4]: https://www.postman.com/img/v1/docs/source/32.png
 [5]: https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo
-[6]: http://blog.getpostman.com/index.php/2014/02/11/postman-v0-9-6-access-cookies-and-restricted-headers-plus-better-testing/
-[7]: http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
+[6]: https://blog.postman.com/index.php/2014/02/11/postman-v0-9-6-access-cookies-and-restricted-headers-plus-better-testing/
+[7]: https://blog.postman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
 [8]: https://www.postman.com/img/v1/docs/source/6.png
 [9]: https://www.postman.com/img/v1/docs/source/10.png
 [10]: https://www.postman.com/img/v1/docs/source/7.png

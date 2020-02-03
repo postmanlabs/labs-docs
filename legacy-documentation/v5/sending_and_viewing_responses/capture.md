@@ -30,7 +30,7 @@ You can also use the Interceptor to work with cookies - [check out the blog post
 
 
 [0]: https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/support?hl=en
-[1]: http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
+[1]: https://blog.postman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
 [2]: https://github.com/a85/PostmanInterceptor
 [3]: https://chrome.google.com/webstore/detail/postman-rest-client/fhbjgbiflinjbdggehcddcbncdddomop
 [4]: http://www.pip-installer.org/en/latest/installing.html

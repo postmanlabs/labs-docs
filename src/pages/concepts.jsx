@@ -79,13 +79,13 @@ const ConceptPage = () => (
       description="Postman Environments are a convenient way to share your team’s server configurations, replicate user credentials for testing, or hide your personal secrets."
       heading1="Blog"
       link1="Writing tests"
-      href1="http://blog.getpostman.com/2017/10/25/writing-tests-in-postman/"
+      href1="https://blog.postman.com/2017/10/25/writing-tests-in-postman/"
       heading2="Blog"
       link2="Chaining requests"
-      href2="http://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/"
+      href2="https://blog.postman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/"
       heading3="Blog"
       link3="Test automation"
-      href3="http://blog.getpostman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"
+      href3="https://blog.postman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"
     />
 
     <IconCard
@@ -134,7 +134,7 @@ const ConceptPage = () => (
       description="Run a collection as a series of requests against a corresponding environment."
       heading1="blog"
       link1="Mock responses with examples"
-      href1="http://blog.getpostman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
+      href1="https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
       heading2="docs"
       link2="Intro to mock servers"
       href2="https://learning.getpostman.com/docs/postman/mock-servers/intro-to-mock-servers/"
