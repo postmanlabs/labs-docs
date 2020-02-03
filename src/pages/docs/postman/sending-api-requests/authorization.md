@@ -112,6 +112,14 @@ You can choose an authorization type upfront using the same technique when you f
 ## No auth
 
 Postman will not attempt to send authorization details with a request unless you specify an auth type. If your request does not require authorization, select __No Auth__ from the __Authorization__ tab __Type__ dropdown list.
+
+## API Key
+
+With API Key auth your request sends a key and value in the header or query parameters. In the __Authorization__ tab, select __API Key__ from the dropdown list. Enter your key `name` and `value` (using variables for additional security and reusability). Use the __Add to__ dropdown to send your key in the header or query parameters.
+
+![API Key Auth](https://assets.postman.com/postman-docs/api-key-auth-config.jpg)
+
+> Note that your __Params__ tab will not display the API key if you're sending it in the query parameters, but you will see it in the __Headers__ &gt; __Temporary Headers__ and console _after sending your request_.
   
 ## Bearer token
 
