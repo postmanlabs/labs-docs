@@ -11,6 +11,8 @@ contextual_links:
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
 ---
 
+> __[The number of integrations you can add to your account is dependent on your Postman plan.](https://www.getpostman.com/pricing)__
+
 Datadog is a monitoring service for cloud-scale applications. It combines data from servers, databases, tools, and services to present a unified view of an entire stack. This integration allows you to configure your Postman Monitors to send metrics to Datadog where you can visualize and compare them with other metrics.
 
 Setting up a Datadog integration requires you to get an API key from Datadog and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.

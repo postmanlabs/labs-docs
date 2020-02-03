@@ -19,6 +19,8 @@ contextual_links:
 
 ---
 
+> __[The number of integrations you can add to your account is dependent on your Postman plan.](https://www.getpostman.com/pricing)__
+
 You can use Postman's APIMatic integration to back up your Postman collections in Swagger, RAML, API Blueprint, and other API description formats.
 
 This integration allows APIMatic to convert your Postman collections into any major API description format, and save the resulting file into your designated GitHub repository.
