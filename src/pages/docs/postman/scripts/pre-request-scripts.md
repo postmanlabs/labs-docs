@@ -22,13 +22,13 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Germaphobia collection (see pre-request scripts in action)"
-    url: "https://blog.getpostman.com/2018/04/27/germaphobia/?_ga=2.226164956.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/04/27/germaphobia/?_ga=2.226164956.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "The Good Collection (take advantage of the pre-request)"
-    url: "https://blog.getpostman.com/2018/03/08/the-good-collection/?_ga=2.228868314.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/03/08/the-good-collection/?_ga=2.228868314.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.getpostman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.228868314.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.228868314.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link

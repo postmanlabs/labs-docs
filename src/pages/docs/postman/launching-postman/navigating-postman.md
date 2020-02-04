@@ -19,13 +19,13 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Speeding up workflows with keyboard shortcuts"
-    url: "https://blog.getpostman.com/2017/05/03/speeding-up-workflows-with-keyboard-shortcuts/?_ga=2.125513164.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/03/speeding-up-workflows-with-keyboard-shortcuts/?_ga=2.125513164.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "The Postman status bar puts your favorite features at your fingertips"
-    url: "https://blog.getpostman.com/2017/09/08/the-postman-status-bar-puts-your-favorite-features-at-your-fingertips/?_ga=2.136447478.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/09/08/the-postman-status-bar-puts-your-favorite-features-at-your-fingertips/?_ga=2.136447478.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Introducing the New Data Editor"
-    url: "https://blog.getpostman.com/2017/02/28/introducing-the-new-data-editor/?_ga=2.136447478.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/02/28/introducing-the-new-data-editor/?_ga=2.136447478.754547870.1571851340-1454169035.1570491567"
   
   - type: section
     name: "Next Steps"

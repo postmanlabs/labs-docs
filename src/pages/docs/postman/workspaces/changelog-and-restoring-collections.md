@@ -22,7 +22,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "New, More Useful Activity Feed in Postman Collections"
-    url: "https://blog.getpostman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/?_ga=2.125447628.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/?_ga=2.125447628.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Associated Topics"
   - type: link

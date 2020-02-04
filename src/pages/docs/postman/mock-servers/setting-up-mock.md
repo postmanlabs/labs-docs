@@ -22,10 +22,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Simulate a back end with Postman's mock service"
-    url: "https://blog.getpostman.com/2017/03/16/simulate-a-back-end-with-postmans-mock-service/?_ga=2.199962472.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/03/16/simulate-a-back-end-with-postmans-mock-service/?_ga=2.199962472.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Team collaboration with Postman mock servers"
-    url: "https://blog.getpostman.com/2017/09/20/team-collaboration-with-postman-mock-servers/?_ga=2.132882632.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/09/20/team-collaboration-with-postman-mock-servers/?_ga=2.132882632.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link

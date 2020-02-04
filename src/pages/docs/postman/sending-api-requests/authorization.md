@@ -23,16 +23,16 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Generate Spotify playlists using a Postman collection"
-    url: "https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/?_ga=2.227822043.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/?_ga=2.227822043.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.getpostman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.195252074.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.195252074.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Postman makes authorization stronger and easier"
-    url: "https://blog.getpostman.com/2017/11/04/postman-makes-authorization-stronger-and-easier/?_ga=2.195252074.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/11/04/postman-makes-authorization-stronger-and-easier/?_ga=2.195252074.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Audit your AWS infrastructure with Postman"
-    url: "https://blog.getpostman.com/2017/12/19/audit-your-aws-infrastructure-with-postman/?_ga=2.195252074.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/19/audit-your-aws-infrastructure-with-postman/?_ga=2.195252074.754547870.1571851340-1454169035.1570491567"
   - type: subtitle
     name: "Next Steps"
   - type: link

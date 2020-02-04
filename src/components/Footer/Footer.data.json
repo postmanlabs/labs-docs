@@ -54,7 +54,7 @@
         { "url": "https://www.postman.com/about-postman", "name": "About"},
         { "url": "https://www.postman.com/jobs/", "name": "Jobs"},
         { "url": "https://www.postman.com/contact", "name": "Contact"},
-        { "url": "https://blog.getpostman.com/", "name": "Blog"},
+        { "url": "https://blog.postman.com/", "name": "Blog"},
         { "url": "https://www.postman.com/resources/press-releases/", "name": "Resources"},
         { "url": "https://store.getpostman.com/", "name": "Swag Shop"},
         { "url": "https://www.postman.com/post-con-2019", "name": "POST/CON 2019"}

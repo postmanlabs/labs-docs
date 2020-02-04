@@ -19,10 +19,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "How to write powerful automated API tests with Postman, Newman and Jenkins"
-    url: "https://blog.getpostman.com/2015/09/03/how-to-write-powerful-automated-api-tests-with-postman-newman-and-jenkins/?_ga=2.237858246.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2015/09/03/how-to-write-powerful-automated-api-tests-with-postman-newman-and-jenkins/?_ga=2.237858246.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
-    url: "https://blog.getpostman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/?_ga=2.237858246.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/?_ga=2.237858246.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link

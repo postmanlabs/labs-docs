@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "\"Daily Mix\" with Postman Monitors and Spotify"
-    url: "https://blog.getpostman.com/2017/03/28/daily-mix-with-postman-monitors-and-spotify/?_ga=2.131351369.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/03/28/daily-mix-with-postman-monitors-and-spotify/?_ga=2.131351369.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link

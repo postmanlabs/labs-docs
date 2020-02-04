@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "The Good Collection"
-    url: "https://blog.getpostman.com/2018/03/08/the-good-collection/?_ga=2.160606075.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/03/08/the-good-collection/?_ga=2.160606075.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link

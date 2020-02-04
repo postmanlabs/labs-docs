@@ -18,10 +18,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.getpostman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.191580268.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.191580268.754547870.1571851340-1454169035.1570491567"
   - type: link
     name: "Not your Grandma's Postman"
-    url: "https://blog.getpostman.com/2017/05/27/not-your-grandmas-postman/?_ga=2.191580268.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/27/not-your-grandmas-postman/?_ga=2.191580268.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link

@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Backup and Sync your Postman Collections on GitHub"
-    url: "https://blog.getpostman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/?_ga=2.128689354.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/?_ga=2.128689354.754547870.1571851340-1454169035.1570491567"
   - type: section
     name: "Next Steps"
   - type: link

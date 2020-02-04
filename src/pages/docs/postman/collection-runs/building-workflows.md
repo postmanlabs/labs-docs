@@ -15,7 +15,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Check for broken links on your website using a Postman Collection"
-    url: "https://blog.getpostman.com/2017/06/23/check-for-broken-links-on-your-website-using-a-postman-collection/?_ga=2.199902312.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/06/23/check-for-broken-links-on-your-website-using-a-postman-collection/?_ga=2.199902312.754547870.1571851340-1454169035.1570491567"
 
 warning: false
 
@@ -59,7 +59,7 @@ Once you're comfortable using `setNextRequest()`, you can progress to more advan
 
 Since you are no longer restricted by the order in which you define your requests, you can jump around your collection, establish conditional logic, or skip unnecessary requests.
 
-This [blog post](https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/) explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
+This [blog post](https://blog.postman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/) explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
 
 Remember these two facts as you use this workflow:
 
