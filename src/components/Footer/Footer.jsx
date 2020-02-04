@@ -153,7 +153,7 @@ const Footer = () => (
                 {' '}
                 <span id="current-year" />
                 {' '}
-Postman, Inc. All rights
+2020 Postman, Inc. All rights
                 reserved
               </li>
               <li className="list-inline-item">
