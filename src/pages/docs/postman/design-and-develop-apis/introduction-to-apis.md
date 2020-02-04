@@ -11,7 +11,7 @@ Postman enables API design directly within the app, making API creation better a
 
 With the API feature in Postman, your schema is now treated as the source of truth which defines every variation of the API. Collections can now be used as individual recipes which use endpoints made available by the API, tailored to specific use cases. When you map your real-world APIs into the new API tab, you will be able to define, develop, test, and observe them directly within Postman.
 
-For example, a test engineer working on test suites connected to an API might be collaborating with a technical writer and a developer. The writer would be focused on API documentation, while the developer is working on mocks and monitors attached to the API. Now, all three - test engineer, tech writer, and developer - can on the same API definition in Postman, rather than having to work within the same Postman collection. The API itself is the collaboration point, and collections tagged to the API can represent different use cases for the API.
+For example, a test engineer working on test suites connected to an API might be collaborating with a technical writer and a developer. The writer would be focused on API documentation, while the developer is working on mocks and monitors attached to the API. Now, all three - test engineer, tech writer, and developer - can work on the same API definition in Postman, rather than having to work within the same Postman collection. The API itself is the collaboration point, and collections tagged to the API can represent different use cases for the API.
 
 * Design and develop APIs in your workspace, keep them consistent and backward-compatible
 
