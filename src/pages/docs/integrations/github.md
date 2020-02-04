@@ -18,7 +18,9 @@ contextual_links:
     url: "https://blog.getpostman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/?_ga=2.184833577.1078379737.1571761632-963694147.1565912089"
 ---
 
-Postman allows you to back up your collections and synchronize your APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
+> __[The number of integrations you can add to your account is dependent on your Postman plan.](https://www.getpostman.com/pricing)__
+
+Postman allows you to back up your collections (for paid plans only) or synchronize your APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
 
 * [Backing up collections on GitHub](#backing-up-collections-on-github)
     * [Configuring GitHub integration for collections](#configuring-github-integration-for-collections)
@@ -46,6 +48,8 @@ Once that token is generated, copy it and save it somewhere for future use.
 ## Backing up collections on GitHub
 
  You can back up and sync your Postman collections with a GitHub repo. Once the integration is complete, any new changes to your collection in Postman will also appear in the repository.
+
+ > Backing up collections on GitHub is available for Team, Business and Enterprise plans only.
 
 ### Configuring GitHub integration for collections
 
