@@ -14,10 +14,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
-    url: "https://blog.postman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/?_ga=2.237112774.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: link
     name: "Using the Newman Docker image in Windows, hassle free"
-    url: "https://blog.postman.com/2015/08/07/using-the-newman-docker-image-in-windows/?_ga=2.237112774.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2015/08/07/using-the-newman-docker-image-in-windows/"
   - type: section
     name: "Next Steps"
   - type: link

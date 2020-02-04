@@ -14,15 +14,15 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Sikka"
-    url: "https://www.postman.com/case-studies/Sikka.pdf?_ga=2.237284166.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Sikka.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Integrate API tests with Postman, Newman, and Travis CI"
-    url: "https://blog.postman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/?_ga=2.237284166.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
-    url: "https://blog.postman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/?_ga=2.237284166.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section
     name: "Next Steps"
   - type: link

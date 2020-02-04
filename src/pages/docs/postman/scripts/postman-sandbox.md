@@ -18,7 +18,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Send asynchronous requests with Postman's PM API"
-    url: "https://blog.postman.com/2017/10/03/send-asynchronous-requests-with-postmans-pm-api/?_ga=2.162177274.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/10/03/send-asynchronous-requests-with-postmans-pm-api/"
   - type: section
     name: "Next Steps"
   - type: link

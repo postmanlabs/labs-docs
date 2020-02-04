@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Intuit"
-    url: "https://www.postman.com/case-studies/Intuit.pdf?_ga=2.164694905.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Intuit.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Writing front-end API code with Postman"
-    url: "https://blog.postman.com/2015/08/31/writing-front-end-api-code-with-postman/?_ga=2.164823161.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2015/08/31/writing-front-end-api-code-with-postman/"
 
 warning: false
 

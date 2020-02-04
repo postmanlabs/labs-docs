@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Postman makes SOAP requests too"
-    url: "https://blog.postman.com/2017/11/18/postman-makes-soap-requests-too/?_ga=2.201091176.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/11/18/postman-makes-soap-requests-too/"
   - type: link
     name: "SOAP: holiday web service template"
     url: "https://explore.postman.com/templates/1880/soap-holiday-web-service"

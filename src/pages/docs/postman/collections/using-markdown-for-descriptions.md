@@ -14,15 +14,15 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Imgur"
-    url: "https://www.postman.com/case-studies/Imgur.pdf?_ga=2.199967976.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Imgur.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Building a Restaurant Discovery Service with Postman"
-    url: "https://blog.postman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/?_ga=2.199967976.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/"
   - type: link
     name: "Descriptions for request attributes in Postman"
-    url: "https://blog.postman.com/2017/06/03/descriptions-for-request-attributes-in-postman/?_ga=2.161623290.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/06/03/descriptions-for-request-attributes-in-postman/"
   - type: section
     name: "Next Steps"
   - type: link

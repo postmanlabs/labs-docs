@@ -14,24 +14,24 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Healthwise"
-    url: "https://www.postman.com/case-studies/healthwise.pdf?_ga=2.232991832.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/healthwise.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Sync your specs"
-    url: "https://blog.postman.com/2018/03/02/sync-your-specs/?_ga=2.200934632.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/03/02/sync-your-specs/"
   - type: link
     name: "Importing SoapUI projects into Postman"
-    url: "https://blog.postman.com/2016/04/27/importing-soapui-projects-into-postman/?_ga=2.200934632.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/04/27/importing-soapui-projects-into-postman/"
   - type: link
     name: "Importing RAML folders into Postman"
-    url: "https://blog.postman.com/2015/11/04/supporting-raml-folders-in-postman/?_ga=2.200934632.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2015/11/04/supporting-raml-folders-in-postman/"
   - type: link
     name: "Introducing Postman Collection Format Schema"
-    url: "https://blog.postman.com/2015/07/02/introducing-postman-collection-format-schema/?_ga=2.194199659.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2015/07/02/introducing-postman-collection-format-schema/"
   - type: link
     name: "Travelogue of Postman Collections Format v2"
-    url: "https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/?_ga=2.194199659.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/"
   - type: section
     name: "Next Steps"
   - type: link

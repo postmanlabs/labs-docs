@@ -18,7 +18,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Imgur"
-    url: "https://www.postman.com/case-studies/Imgur.pdf?_ga=2.172782883.1078379737.1571761632-963694147.1565912089"
+    url: "https://www.postman.com/case-studies/Imgur.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -28,7 +28,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Announcing the Postman API Network"
-    url: "https://blog.postman.com/2017/12/15/announcing-the-postman-api-network/?_ga=2.105714307.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2017/12/15/announcing-the-postman-api-network/"
   - type: section
     name: "Next Steps"
   - type: link

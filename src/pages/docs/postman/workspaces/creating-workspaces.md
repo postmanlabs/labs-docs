@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Movember"
-    url: "https://www.postman.com/case-studies/movember.pdf?_ga=2.240986565.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/movember.pdf"
   - type: subtitle
     name: "Videos"
   - type: link

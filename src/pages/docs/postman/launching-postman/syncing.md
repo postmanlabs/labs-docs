@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "HotelBeds"
-    url: "https://www.postman.com/case-studies/Hotelbeds.pdf?_ga=2.206719061.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Hotelbeds.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Backup and Sync your Postman Collections on GitHub"
-    url: "https://blog.postman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/?_ga=2.128689354.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/"
   - type: section
     name: "Next Steps"
   - type: link

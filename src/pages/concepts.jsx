@@ -30,7 +30,7 @@ const ConceptPage = () => (
       href1="https://www.youtube.com/watch?v=YKalL1rVDOE&list=PLM-7VG-sgbtBsenu0CM-UF3NZj3hQFs7E"
       heading2="Blog"
       link2="How Postman feeds my sushi addiction"
-      href2="https://blog.postman.com/2018/04/25/how-postman-feeds-my-sushi-addiction?_ga=2.140454515.1904832541.1580115799-1431327050.1570771093"
+      href2="https://blog.postman.com/2018/04/25/how-postman-feeds-my-sushi-addiction"
     />
 
     <IconCard

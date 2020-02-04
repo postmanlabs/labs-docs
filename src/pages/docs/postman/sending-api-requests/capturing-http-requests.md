@@ -25,7 +25,7 @@ contextual_links:
     url: "https://medium.com/postman-engineering/reverse-engineering-an-api-403fae885303"
   - type: link
     name: "Using Postman Proxy to Capture and Inspect API Calls from iOS or Android Devices"
-    url: "https://blog.postman.com/2016/06/26/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/?_ga=2.202729559.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/06/26/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
 
 warning: false
 

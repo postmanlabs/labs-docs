@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Create collections, documentation, and more with Postman's NEW button"
-    url: "https://blog.postman.com/2017/10/10/create-collections-documentation-and-more-with-postmans-new-button/?_ga=2.164841593.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/10/10/create-collections-documentation-and-more-with-postmans-new-button/"
   - type: section
     name: "Next Steps"
   - type: link
