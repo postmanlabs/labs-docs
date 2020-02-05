@@ -9,7 +9,7 @@ module.exports = {
     title: 'Postman Learning Center',
     description: '',
     author: 'Postman',
-    siteUrl: 'https://learning.getpostman.com',
+    siteUrl: 'https://learning.postman.com',
   },
   plugins: [
     {
@@ -89,8 +89,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://learning.getpostman.com',
-        sitemap: 'https://learning.getpostman.com/sitemap.xml',
+        host: 'https://learning.postman.com',
+        sitemap: 'https://learning.postman.com/sitemap.xml',
         resolveEnv: () => process.env.GATSBY_ACTIVE_ENV,
         env: {
           development: {
