@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "HarperDB"
-    url: "https://www.getpostman.com/case-studies/harperDB.pdf?_ga=2.170214630.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/harperDB.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Simplifying API documentation for a great first user experience"
-    url: "https://blog.getpostman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/?_ga=2.202640215.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -115,7 +115,7 @@ By default your documentation is private, and viewable only to people you have [
 
 For more on accessing private and public docs, see [Viewing documentation](/docs/postman/api-documentation/viewing-documentation/).
 
-> Your documentation receives a number of free views per month and is dependent on your [Postman plan](https://www.getpostman.com/pricing) beyond that. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
+> Your documentation receives a number of free views per month and is dependent on your [Postman plan](https://www.postman.com/pricing) beyond that. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
 
 ## Documentation environments
 

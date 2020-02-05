@@ -11,6 +11,8 @@ contextual_links:
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
 ---
 
+> __[The number of integrations you can add to your account is dependent on your Postman plan.](https://www.getpostman.com/pricing)__
+
 Backup and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration.  The Postman to Dropbox integration seamlessly complements your existing workflows and allows you to store your Postman Collections and other project files in one place.
 
 ## Configuring Dropbox Integration

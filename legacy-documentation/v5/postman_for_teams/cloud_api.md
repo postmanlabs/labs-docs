@@ -29,7 +29,7 @@ An API Key tells our servers that the request it received came from you. Everyth
 
 An API Key is required to be sent as part of every request to the Postman API, in a header called `X-Api-Key`. If you are unable to set headers for a request, you can add your API Key in the `apikey` query parameter.
 
-For ease of use inside Postman, you could store your API key in an [environment variable][3] called \`postman\_api\_key\` and this Collection\](https://www.getpostman.com/docs/collections) will automatically use it to make API calls.
+For ease of use inside Postman, you could store your API key in an [environment variable][3] called \`postman\_api\_key\` and this Collection\](https://www.postman.com/docs/collections) will automatically use it to make API calls.
 
 If an API Key is missing, malformed, or invalid, you will receive a `401 Unauthorised` response code and the following JSON response:
 
@@ -83,10 +83,10 @@ For information on API terms of use and privacy, refer to our [policy document][
 
 [0]: https://en.wikipedia.org/wiki/JSON
 [1]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
-[2]: https://www.getpostman.com/dashboard/integrations
-[3]: https://www.getpostman.com/docs/environments
+[2]: https://www.postman.com/dashboard/integrations
+[3]: https://www.postman.com/docs/environments
 [4]: https://support.getpostman.com/hc
 [5]: http://postmancommunity.slack.com/
-[6]: https://www.getpostman.com/slack-invite
+[6]: https://www.postman.com/slack-invite
 [7]: https://api.getpostman.com/
-[8]: https://www.getpostman.com/licenses/privacy
+[8]: https://www.postman.com/licenses/privacy

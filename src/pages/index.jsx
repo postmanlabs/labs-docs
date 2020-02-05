@@ -79,13 +79,13 @@ The Postman Learning Center has all of the resources you
             title="Automate Your API Tests"
             description="Integrate Postman testing into your CI/CD pipeline."
             cta="Learn More"
-            ctaLink="https://www.getpostman.com/automated-testing"
+            ctaLink="https://www.postman.com/automated-testing"
           />
           <SecondaryCard
             title="Case Studies"
             description="Discover how teams are using Postman in new and creative ways."
             cta="Learn More"
-            ctaLink="https://www.getpostman.com/resources/case-studies/"
+            ctaLink="https://www.postman.com/resources/case-studies/"
           />
           <SecondaryCard
             title="Postman for QA Teams"
@@ -118,7 +118,7 @@ Postman’s API documentation feature lets you share public or private API docum
     <section className="row">
       <div className="col-md-12 text-center " style={landingBottom}>
         <h2 style={landingBottomContent}>Didn&#39;t find what you&#39;re looking for?</h2>
-        <a href="https://www.getpostman.com/support" className="btn btn__primary">Visit our Support Center</a>
+        <a href="https://www.postman.com/support" className="btn btn__primary">Visit our Support Center</a>
       </div>
     </section>
   </Layout>

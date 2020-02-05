@@ -11,6 +11,8 @@ contextual_links:
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
 ---
 
+> __[The number of integrations you can add to your account is dependent on your Postman plan.](https://www.getpostman.com/pricing)__
+
 HipChat is an instant messaging app built for businesses. The team chat tool lets you share files and discuss tasks in real-time with colleagues, project collaborators, and even clients through unlimited chat rooms.
 
 This integration allows you to get real-time updates of what is happening in your Postman team. You can configure HipChat with Postman to monitor results, view a team’s activity feed, and use a HipChat Webhook URL.

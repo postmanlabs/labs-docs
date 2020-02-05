@@ -15,8 +15,10 @@ contextual_links:
     name: "Related blog posts"
   - type: link
     name: "Turn your Postman Collection into a Microsoft integration"
-    url: "https://blog.getpostman.com/2017/04/25/turn-your-postman-collection-into-a-microsoft-integration/?_ga=2.116881030.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2017/04/25/turn-your-postman-collection-into-a-microsoft-integration/"
 ---
+
+> __[The number of integrations you can add to your account is dependent on your Postman plan.](https://www.getpostman.com/pricing)__
 
 Microsoft Flow enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
 

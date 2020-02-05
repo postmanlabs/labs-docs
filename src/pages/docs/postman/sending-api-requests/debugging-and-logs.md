@@ -15,7 +15,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "The Postman Console"
-    url: "https://blog.getpostman.com/2016/08/26/the-postman-console/?_ga=2.132858184.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/08/26/the-postman-console/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -76,7 +76,7 @@ In addition to the network calls and user logs that the Postman console provides
 
 Postman apps go through extensive testing and beta builds before the Postman team ships. That said, there might be cases when the app crashes, or exhibits unexpected behavior. This [Chrome DevTools console](https://developer.chrome.com/devtools) is helpful to debug the Postman App. It helps Postman developers to debug app issues faced by users, and you may be asked to send screenshots or logs from this console.
 
-If you've tried unsuccessfully [troubleshooting](/docs/postman/sending-api-requests/troubleshooting-api-requests/) the issue, search [the Postman issue tracker on GitHub](https://github.com/postmanlabs/postman-app-support/issues) to see if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow [these guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via the Postman [support center](https://www.getpostman.com/support) and include the app’s console logs in your report to provide some helpful data for troubleshooting.
+If you've tried unsuccessfully [troubleshooting](/docs/postman/sending-api-requests/troubleshooting-api-requests/) the issue, search [the Postman issue tracker on GitHub](https://github.com/postmanlabs/postman-app-support/issues) to see if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow [these guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via the Postman [support center](https://www.postman.com/support) and include the app’s console logs in your report to provide some helpful data for troubleshooting.
 
 To access the console logs for DevTools, follow these steps:
 
