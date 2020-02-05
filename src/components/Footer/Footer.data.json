@@ -2,6 +2,7 @@
   "columns": [
     {"name": "Product",
       "children": [
+        { "url": "https://www.postman.com/api-platform", "name": "API Platform"},
         { "url": "https://www.postman.com/product/api-client", "name": "API Client"},
         { "url": "https://www.postman.com/automated-testing", "name": "Automated Testing"},
         { "url": "https://www.postman.com/features/mock-api", "name": "Design & Mock"},
@@ -34,7 +35,8 @@
 
     {"name": "Pricing",
       "children": [
-        { "url": "https://www.postman.com/pricing", "name": "Overview"}
+        { "url": "https://www.postman.com/pricing", "name": "Overview"},
+        { "url": "https://www.postman.com/postman-enterprise", "name": "Postman Enterprise"}
       ]
     },
 
@@ -64,7 +66,7 @@
   "copyright": [
     {
       "type": "notice",
-      "text": "© Postman, Inc. All rights reserved"
+      "text": "©2020 Postman, Inc. All rights reserved"
     },
     {
       "type": "link",
