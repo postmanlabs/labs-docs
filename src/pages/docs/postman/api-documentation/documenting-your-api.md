@@ -151,6 +151,10 @@ This means that anyone viewing your documentation will see the variable value al
 
 ![Variable Value in Docs](https://assets.postman.com/postman-docs/documented-var.jpg)
 
+You can reference variables in your description text to show the values in your documentation.
+
+<img alt="Inline Documentation Edit with Variable" src="https://assets.postman.com/postman-docs/inline-doc-variable.jpg" width="500px"/>
+
 If someone imports the collection using the __Run in Postman__ button from your docs, they will also import the environment and variable.
 
 > Variable values will be published explicitly in your docs, so make sure they don't contain any sensitive data.

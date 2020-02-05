@@ -77,13 +77,23 @@ Descriptions will appear in the request section in your documentation.
 
 <img alt="Request Description in Docs" src="https://assets.postman.com/postman-docs/request-in-docs.jpg" width="350px"/>
 
-You can also edit the request description directly from your docs—editable text will highlight on hover.
+You can also edit the request detail including the description directly from your docs in the browser—editable text will highlight on hover.
 
 <img src="https://assets.postman.com/postman-docs/inline-edit-hover.jpg" alt="Edit Docs" width="500px"/>
 
-Click to edit a section of text, make your changes, and save.
+Click to edit a section of text.
+
+<img src="https://assets.postman.com/postman-docs/edit-request-name-inline.jpg" alt="Edit Request Name" width="250px"/>
 
 <img src="https://assets.postman.com/postman-docs/inline-edit-heading.jpg" alt="Edit Heading" width="400px"/>
+
+Make your changes, and save them.
+
+<img src="https://assets.postman.com/postman-docs/editing-inline-request.jpg" alt="Edit Request" width="300px"/>
+
+You will see a warning if your documentation contains any unsaved changes.
+
+<img src="https://assets.postman.com/postman-docs/unsaved-inline-edits.jpg" alt="Unsaved Edit" width="500px"/>
 
 ### Parameters and Headers
 
