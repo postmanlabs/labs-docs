@@ -23,7 +23,7 @@ contextual_links:
     url: "https://blog.getpostman.com/2017/12/21/librarian-building-a-serverless-slack-app-using-postman-and-airtable/?_ga=2.137777456.1078379737.1571761632-963694147.1565912089"
 ---
 
-> __[The number of integrations you can add to your account is dependent on your Postman plan.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
 
 The Postman to Slack integration enables you to receive notifications for the Team Activity Feed, Postman Search, and Monitor Run Results.
 
