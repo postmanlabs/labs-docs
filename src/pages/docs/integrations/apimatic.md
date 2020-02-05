@@ -15,7 +15,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Why we became big believers in APIMatic’s API transformer"
-    url: "https://blog.getpostman.com/2017/02/15/new-postman-pro-integration-apimatics-api-transformer/?_ga=2.171842080.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2017/02/15/new-postman-pro-integration-apimatics-api-transformer/"
 
 ---
 

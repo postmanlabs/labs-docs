@@ -40,7 +40,7 @@ Specify a name for your API and click the '&#9745;' adjacent to the name. Your A
 
 You can create different API versions from a specific version of your API. For more information on this, refer to the section [Creating API versions](/docs/postman/design-and-develop-apis/versioning-an-api/).
 
-> The number of APIs you can create is dependent on your [Postman plan](https://www.getpostman.com/pricing).
+> The number of APIs you can create is dependent on your [Postman plan](https://www.postman.com/pricing).
 
 ## Opening and viewing an API
 

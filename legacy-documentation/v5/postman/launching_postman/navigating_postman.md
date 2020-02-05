@@ -59,14 +59,14 @@ Learn more about [troubleshooting with console logs](https://learning.getpostman
 The status bar at the bottom of the Postman interface gives you a convenient way to:
 * Show or hide the sidebar.
 * Search in collections, environments, and globals.
-* Open the Postman [console.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#console)
+* Open the Postman [console.](https://www.postman.com/docs/postman/launching_postman/navigating_postman#console)
 * Select either a single or two pane layout.
-* Open the keyboard [shortcuts.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts)
+* Open the keyboard [shortcuts.](https://www.postman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts)
 * Get help or provide feedback.
 
 [![status bar](https://assets.postman.com/postman-docs/WS-status-bar.png)](https://assets.postman.com/postman-docs/WS-status-bar.png)
 
-When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](https://learning.getpostman.com/docs), [security,](https://www.getpostman.com/security) [support,](https://www.getpostman.com/support) and [social media.](https://twitter.com/postmanclient)
+When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](https://learning.getpostman.com/docs), [security,](https://www.postman.com/security) [support,](https://www.postman.com/support) and [social media.](https://twitter.com/postmanclient)
 
 [![help icon](https://assets.postman.com/postman-docs/WS-statusbar-helpFeedbackMenu.png)](https://assets.postman.com/postman-docs/WS-statusbar-helpFeedbackMenu.png)
 

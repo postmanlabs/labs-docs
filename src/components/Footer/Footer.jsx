@@ -158,7 +158,7 @@ Postman, Inc. All rights
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.getpostman.com/security"
+                  href="https://www.postman.com/security"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -167,7 +167,7 @@ Postman, Inc. All rights
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.getpostman.com/licenses/privacy"
+                  href="https://www.postman.com/licenses/privacy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -176,7 +176,7 @@ Postman, Inc. All rights
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.getpostman.com/licenses/postman_eula"
+                  href="https://www.postman.com/licenses/postman_eula"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

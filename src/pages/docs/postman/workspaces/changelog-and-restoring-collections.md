@@ -14,15 +14,15 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "SynapseFi"
-    url: "https://www.getpostman.com/case-studies/SynapseFI.pdf?_ga=2.240920773.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/SynapseFI.pdf"
   - type: link
     name: "Clarifai"
-    url: "https://www.getpostman.com/case-studies/Clarifai.pdf?_ga=2.240920773.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Clarifai.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "New, More Useful Activity Feed in Postman Collections"
-    url: "https://blog.getpostman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/?_ga=2.125447628.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/"
   - type: section
     name: "Associated Topics"
   - type: link

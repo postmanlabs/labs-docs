@@ -23,7 +23,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Building a Restaurant Discover Service with Postman"
-    url: "https://blog.getpostman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/?_ga=2.125594060.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/"
 
 warning: false
 

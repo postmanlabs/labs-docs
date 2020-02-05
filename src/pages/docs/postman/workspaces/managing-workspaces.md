@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "HotelBeds"
-    url: "https://www.getpostman.com/case-studies/Hotelbeds.pdf?_ga=2.127143115.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Hotelbeds.pdf"
   - type: section
     name: "Next Steps"
   - type: link

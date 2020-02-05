@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Set and view SSL certificates with Postman"
-    url: "https://blog.getpostman.com/2017/12/05/set-and-view-ssl-certificates-with-postman/?_ga=2.204162902.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/05/set-and-view-ssl-certificates-with-postman/"
 
 warning: false
 

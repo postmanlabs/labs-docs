@@ -15,17 +15,17 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Streamline Access Control with Extended Roles & Permissions"
-    url: "https://blog.getpostman.com/2019/03/11/streamline-access-control-with-extended-roles-permissions/?_ga=2.109343365.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2019/03/11/streamline-access-control-with-extended-roles-permissions/"
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions & More"
-    url: "https://blog.getpostman.com/2019/07/23/postman-team-workspaces-and-permissions/?_ga=2.109343365.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Managing your team"
     url: "/docs/postman/collaboration/managing-your-team/"
 ---
-> __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
 
 In Postman you can assign roles and permissions to provide access-control. Refer to the following sections on managing roles within your team.
 

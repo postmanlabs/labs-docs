@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Healthwise"
-    url: "https://www.getpostman.com/case-studies/healthwise.pdf?_ga=2.200953064.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/healthwise.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -112,7 +112,7 @@ You can download collections as a JSON file to share with others, with or withou
 
 You can share collections anonymously, but it is strongly recommended that you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
 
-Learn more about [exporting and importing collections](/docs/postman/collections/data-formats/), and the differences between collection formats [v1 and v2](https://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
+Learn more about [exporting and importing collections](/docs/postman/collections/data-formats/), and the differences between collection formats [v1 and v2](https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
 
 ## Modifying team permissions
 

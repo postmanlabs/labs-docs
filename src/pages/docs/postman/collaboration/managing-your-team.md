@@ -10,11 +10,11 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.getpostman.com/2019/07/23/postman-team-workspaces-and-permissions/"
+    url: "https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
 
 ---
 
-> __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
 
 Postman's [web dashboard](https://app.getpostman.com/dashboard/teams) provides a number of ways to manage your team.
 

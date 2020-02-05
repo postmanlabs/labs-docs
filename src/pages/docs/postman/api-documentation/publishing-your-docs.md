@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Imgur"
-    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.137063670.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Imgur.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "API Network Exploration: Infermedica"
-    url: "https://blog.getpostman.com/2018/05/25/api-network-exploration-infermedica/?_ga=2.137063670.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/05/25/api-network-exploration-infermedica/"
   - type: section
     name: "Next Steps"
   - type: link
