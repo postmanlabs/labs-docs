@@ -328,7 +328,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://blog.getpostman.com/"
+              href="https://blog.postman.com/"
             >
               Blog
             </a>

@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "One person, multiple accounts"
-    url: "https://blog.getpostman.com/2017/10/12/one-person-multiple-accounts/?_ga=2.230294746.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/10/12/one-person-multiple-accounts/"
   - type: section
     name: "Next Steps"
   - type: link

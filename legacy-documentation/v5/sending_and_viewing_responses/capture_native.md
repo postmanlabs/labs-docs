@@ -59,7 +59,7 @@ Note: Sites that use [HSTS (HTTP Strict Transport Security)][8] will not work th
 
 [0]: https://www.postman.com/img/v1/docs/proxy_mac/1-PostmanProxySettings.png
 [1]: https://www.postman.com/img/v1/docs/proxy_mac/4-OsxProxySettings.png
-[2]: https://blog.getpostman.com/
+[2]: https://blog.postman.com/
 [3]: https://www.postman.com/img/v1/docs/proxy_mac/5-ChromeBrowsing.png
 [4]: https://www.postman.com/img/v1/docs/proxy_mac/6-ChromeInHistory.png
 [5]: https://www.postman.com/img/v1/docs/proxy_mac/3-FirefoxProxySettings.png

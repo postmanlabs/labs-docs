@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Speeding up workflows with keyboard shortcuts"
-    url: "https://blog.getpostman.com/2017/05/03/speeding-up-workflows-with-keyboard-shortcuts/?_ga=2.233131480.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/03/speeding-up-workflows-with-keyboard-shortcuts/"
   - type: section
     name: "Next Steps"
   - type: link

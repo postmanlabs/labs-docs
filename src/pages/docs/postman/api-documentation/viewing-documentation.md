@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Cisco DevNet"
-    url: "https://www.postman.com/case-studies/CiscoDevNet.pdf?_ga=2.200107496.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/CiscoDevNet.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Simplifying API documentation for a great first user experience"
-    url: "https://blog.getpostman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/?_ga=2.202532055.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/"
   - type: section
     name: "Next Steps"
   - type: link

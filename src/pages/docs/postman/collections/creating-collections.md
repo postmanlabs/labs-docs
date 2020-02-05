@@ -14,10 +14,10 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Raygun"
-    url: "https://www.postman.com/case-studies/raygun.pdf?_ga=2.170542182.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/raygun.pdf"
   - type: link
     name: "BetterCloud"
-    url: "https://www.postman.com/case-studies/BetterCloud.pdf?_ga=2.194292587.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/BetterCloud.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -27,10 +27,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Keep track of GitHub issues using a Postman collection"
-    url: "https://blog.getpostman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/?_ga=2.164833401.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/"
   - type: link
     name: "Multi-level folders and folder reordering"
-    url: "https://blog.getpostman.com/2017/05/19/multi-level-folders-and-folder-reordering/?_ga=2.133907912.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/19/multi-level-folders-and-folder-reordering/"
   - type: section
     name: "Next Steps"
   - type: link

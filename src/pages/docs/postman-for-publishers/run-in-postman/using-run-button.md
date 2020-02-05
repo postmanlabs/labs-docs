@@ -20,7 +20,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Wondering About Air Quality? Postman Can Help."
-    url: "https://blog.getpostman.com/2017/10/14/wondering-about-air-quality-postman-can-help/?_ga=2.113119748.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2017/10/14/wondering-about-air-quality-postman-can-help/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -30,7 +30,7 @@ contextual_links:
 
 ### Developer experience with Run in Postman
 
-API publishers will display the Run in Postman button in the API reference and the API documentation. Below is an example of the button. Check out [other examples](https://www.postman.com/integrations/run-button).
+API publishers will display the Run in Postman button in the API reference and the API documentation.
 
  [![example run in postman](https://assets.postman.com/postman-docs/59131401.png)](https://assets.postman.com/postman-docs/59131401.png)  
 

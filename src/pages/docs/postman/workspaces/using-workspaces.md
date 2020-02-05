@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Coursera"
-    url: "https://www.postman.com/case-studies/Coursera.pdf?_ga=2.135622007.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Coursera.pdf"
   - type: subtitle
     name: "Videos"
   - type: link

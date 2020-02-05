@@ -14,10 +14,10 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Raygun"
-    url: "https://www.postman.com/case-studies/raygun.pdf?_ga=2.170542182.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/raygun.pdf"
   - type: link
     name: "BetterCloud"
-    url: "https://www.postman.com/case-studies/BetterCloud.pdf?_ga=2.194292587.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/BetterCloud.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -27,10 +27,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "The Good Collection"
-    url: "https://blog.getpostman.com/2018/03/08/the-good-collection/?_ga=2.169017831.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/03/08/the-good-collection/"
   - type: link
     name: "Not your Grandma's Postman"
-    url: "https://blog.getpostman.com/2017/05/27/not-your-grandmas-postman/?_ga=2.169017831.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/27/not-your-grandmas-postman/"
   - type: section
     name: "Next Steps"
   - type: link

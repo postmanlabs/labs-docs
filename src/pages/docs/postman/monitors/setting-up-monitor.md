@@ -19,10 +19,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Setting up multi region API tests in Postman"
-    url: "https://blog.getpostman.com/2017/08/17/setting-up-multi-region-api-tests-in-postman/?_ga=2.198460265.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/08/17/setting-up-multi-region-api-tests-in-postman/"
   - type: link
     name: "Using a Postman monitor to water my plants"
-    url: "https://blog.getpostman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/?_ga=2.198460265.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/"
   - type: section
     name: "Next Steps"
   - type: link

@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Spotinst"
-    url: "https://www.postman.com/case-studies/spotinst.pdf?_ga=2.229327706.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/spotinst.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "The Good Collection"
-    url: "https://blog.getpostman.com/2018/03/08/the-good-collection/?_ga=2.160606075.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/03/08/the-good-collection/"
   - type: section
     name: "Next Steps"
   - type: link

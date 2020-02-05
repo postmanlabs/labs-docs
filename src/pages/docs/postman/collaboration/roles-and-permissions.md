@@ -15,10 +15,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Streamline Access Control with Extended Roles & Permissions"
-    url: "https://blog.getpostman.com/2019/03/11/streamline-access-control-with-extended-roles-permissions/?_ga=2.109343365.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2019/03/11/streamline-access-control-with-extended-roles-permissions/"
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions & More"
-    url: "https://blog.getpostman.com/2019/07/23/postman-team-workspaces-and-permissions/?_ga=2.109343365.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
   - type: section
     name: "Next Steps"
   - type: link
