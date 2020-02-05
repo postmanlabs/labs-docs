@@ -3,6 +3,27 @@ title: 'Managing APIs'
 order: 203
 page_id: 'managing_apis'
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "The API Workflow"
+    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Create APIs directly within the Postman app"
+    url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Versioning APIs"
+    url: "/docs/postman/design-and-develop-apis/versioning-an-api/"
+  - type: link
+    name: "Viewing and Analyzing APIs"
+    url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
 ---
 
 APIs reside in your workspace, just like your collections. This section walks you through how you can create, read, update, and delete APIs in Postman:
