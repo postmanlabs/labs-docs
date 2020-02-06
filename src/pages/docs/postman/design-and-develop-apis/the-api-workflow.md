@@ -29,6 +29,7 @@ You can design your API directly in Postman using the API Builder. By defining y
 
 You can connect various components of your API development and testing process to your schema, such as collections, documentation, mocks, and monitors. You can also version your APIs in Postman and connect test suites to specific versions.
 
+* [Creating an API](#creating-an-api)
 * [Defining an API](#defining-an-api)
     * [Creating a new schema](#creating-a-new-schema)
     * [Importing a schema](#importing-a-schema)
@@ -39,6 +40,28 @@ You can connect various components of your API development and testing process t
     * [Adding an environment](#adding-an-environment)
 * [Testing an API](#testing-an-api)
 * [Observing an API](#observing-an-api)
+
+> The number of APIs you can create is dependent on your [Postman plan](https://www.getpostman.com/pricing).
+
+## Creating an API
+
+To access the API Builder, open __APIs__ from the left sidebar in the Postman app. You can open and edit any existing APIs from here—Postman will automatically open the most recent version of an API by default.
+
+<img alt="Create API" src="https://assets.postman.com/postman-docs/create-new-api.jpg" width="250px"/>
+
+Click __Create an API__ or __+ New API__—_you will need to be signed into your Postman account_.
+
+![New API](https://assets.postman.com/postman-docs/untitled-api-created.jpg)
+
+Enter a name for your API—you can rename, delete, or remove it from the workspace using the __View more actions__ (__...__) menu in the left sidebar.
+
+> When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted / removed.
+
+<img alt="Edit API" src="https://assets.postman.com/postman-docs/api-edit-options.jpg" width="250px"/>
+
+> You can also create APIs from your workspaces dashboard in the browser by navigating to __APIs__ and clicking __Create an API__.
+
+You can also [version your APIs](/docs/postman/design-and-develop-apis/versioning-an-api/).
 
 ## Defining an API
 
