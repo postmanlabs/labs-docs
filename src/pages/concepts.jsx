@@ -24,7 +24,7 @@ const ConceptPage = () => (
       icon={newToPostman}
       items="3 items"
       title="New to Postman"
-      description="Postman is the only complete API development environment used by 5 million developers."
+      description="Postman is the only complete API development environment used by 10 million developers."
       heading1="Blog"
       link1="First 5 things to try if you're new to Postman"
       href1="https://www.youtube.com/watch?v=YKalL1rVDOE&list=PLM-7VG-sgbtBsenu0CM-UF3NZj3hQFs7E"
