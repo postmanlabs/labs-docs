@@ -138,7 +138,7 @@ You can find the current status of your Interceptor integration by selecting the
     * Verify that you have permissions to create the `.postman/InterceptorBridge` folders.
     * Verify that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
     * [MacOS only] Verify that you have a `~/Downloads` folder and write permissions for it.
-    * If the above steps are unsuccessful, close the Chrome and Postman before retrying the installation.
+    * If the above steps are unsuccessful, close Chrome and Postman before retrying the installation.
 
  If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
