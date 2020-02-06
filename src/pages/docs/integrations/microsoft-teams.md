@@ -11,7 +11,7 @@ contextual_links:
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
 ---
 
-> __[The number of integrations you can add to your account is dependent on your Postman plan.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
 
 Microsoft Teams is a chat-based workspace that is available for all Microsoft Office 365 users. This integration allows you to get updates about what is happening in your team directly in Microsoft Teams.
 

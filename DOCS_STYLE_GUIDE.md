@@ -29,7 +29,7 @@ Postman learners speak lots of different languages—but right now our docs are 
 
 ## Language style
 
-The documentation in the [learning center](https://learning.getpostman.com/docs) is intended to help people learn how to use Postman, so use practical instructional language wherever possible. Be specific, and "__show, don't tell__."
+The documentation in the [learning center](https://learning.postman.com/docs) is intended to help people learn how to use Postman, so use practical instructional language wherever possible. Be specific, and "__show, don't tell__."
 
 ---
 
@@ -312,9 +312,9 @@ Use meaningful text for links, avoiding phrases such as "click here" when possib
 
 ---
 
-:thumbsdown::no_entry_sign: Click [here](https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/) for more details on scripts.
+:thumbsdown::no_entry_sign: Click [here](https://learning.postman.com/docs/postman/scripts/intro_to_scripts/) for more details on scripts.
 
-:thumbsup::white_check_mark: For more on scripting in Postman, see [Intro to Scripts](https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/).
+:thumbsup::white_check_mark: For more on scripting in Postman, see [Intro to Scripts](https://learning.postman.com/docs/postman/scripts/intro_to_scripts/).
 
 ---
 
@@ -328,7 +328,7 @@ Don't display a raw URL in text, unless seeing the URL is essential to the learn
 
 ---
 
-:thumbsdown::no_entry_sign: Navigate to http://learning.getpostman.com
+:thumbsdown::no_entry_sign: Navigate to http://learning.postman.com
 
 :thumbsup::white_check_mark: Send a request to `https://postman-echo.com/get`
 
