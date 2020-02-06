@@ -1,5 +1,5 @@
 ---
-title: 'Managing APIs'
+title: 'Managing and Sharing APIs'
 order: 203
 page_id: 'managing_apis'
 warning: false
@@ -7,7 +7,7 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "The API Workflow"
+    name: "The API workflow"
     url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
   - type: section
     name: "Additional Resources"
@@ -22,7 +22,7 @@ contextual_links:
     name: "Versioning APIs"
     url: "/docs/postman/design-and-develop-apis/versioning-an-api/"
   - type: link
-    name: "Viewing and Analyzing APIs"
+    name: "Viewing and analyzing APIs"
     url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
 ---
 

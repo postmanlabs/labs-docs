@@ -3,6 +3,27 @@ title: 'Validating Elements Against Schema'
 order: 207
 page_id: 'validating-elements-against-schema'
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "The API workflow"
+    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+  - type: link
+    name: "Managing and sharing APIs"
+    url: "/docs/postman/design-and-develop-apis/managing-apis/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Create APIs directly within the Postman app"
+    url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Validating APIs against schema"
+    url: "/docs/postman/design-and-develop-apis/validating-elements-against-schema/"
 ---
 
 You can validate your API elements (documentation, tests, mock servers, or monitors) against the API schema. This helps keep your elements in sync with your API specification. If they do not match, you can see the list of issues that have been found in order to fix them.

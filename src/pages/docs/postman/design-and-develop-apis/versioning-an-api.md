@@ -3,6 +3,30 @@ title: 'Versioning APIs'
 order: 205
 page_id: 'versioning_an_api'
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "The API workflow"
+    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+  - type: link
+    name: "Managing and sharing APIs"
+    url: "/docs/postman/design-and-develop-apis/managing-apis/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Create APIs directly within the Postman app"
+    url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Viewing and analyzing APIs"
+    url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
+  - type: link
+    name: "Versioning an API"
+    url: "/docs/postman/design-and-develop-apis/versioning-an-api/"
 ---
 
 Postman allows you to manage multiple versions of your APIs. You can link your collections to specific versions of your API by adding version tags to them. This enables you to maintain versioning of your collection revisions with a corresponding version of your API.
