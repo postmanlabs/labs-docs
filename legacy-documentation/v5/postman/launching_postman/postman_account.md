@@ -13,12 +13,12 @@ When you sign up for a free Postman account, you can:
    *   Easily work on multiple Postman instances from different machines.
    *   Create [collection links](https://learning.getpostman.com/docs/postman/collections/sharing_collections/) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to know more.
+Signing up is completely optional. Read our [EULA](https://www.postman.com/licenses/postman_base_app), [security page](https://www.postman.com/security), and [privacy page](https://www.postman.com/licenses/privacy) to know more.
 
 
 ### Signing up for a Postman account
 
-1. If you haven't already, [download](https://www.getpostman.com/downloads/) the Postman app.
+1. If you haven't already, [download](https://www.postman.com/downloads/) the Postman app.
 2. Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://assets.postman.com/postman-docs/59135838.png)](https://assets.postman.com/postman-docs/59135838.png)  
 3. Sign up with your email address or your Google account.
@@ -68,7 +68,7 @@ To switch back to your previous account, click on the account user name in the d
 
 ### Security policies and standards
 
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security).
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.postman.com/security).
 
    *   Communication with Postman servers only happens through HTTPS and Secure WebSockets.
    *   Environment and global variables are encrypted so that only you can view them.

@@ -24,13 +24,13 @@ const ConceptPage = () => (
       icon={newToPostman}
       items="3 items"
       title="New to Postman"
-      description="Postman is the only complete API development environment used by 5 million developers."
+      description="Postman is the only complete API development environment used by 10 million developers."
       heading1="Blog"
       link1="First 5 things to try if you're new to Postman"
       href1="https://www.youtube.com/watch?v=YKalL1rVDOE&list=PLM-7VG-sgbtBsenu0CM-UF3NZj3hQFs7E"
       heading2="Blog"
       link2="How Postman feeds my sushi addiction"
-      href2="https://blog.getpostman.com/2018/04/25/how-postman-feeds-my-sushi-addiction?_ga=2.140454515.1904832541.1580115799-1431327050.1570771093"
+      href2="https://blog.postman.com/2018/04/25/how-postman-feeds-my-sushi-addiction"
     />
 
     <IconCard
@@ -40,7 +40,7 @@ const ConceptPage = () => (
       description="Use Postman Workspaces to organize your work and manage collaboration with the rest of your team."
       heading1="Blog"
       link1="Personal and team workspaces"
-      href1="https://blog.getpostman.com/2019/07/23/postman-team-workspaces-and-permissions/"
+      href1="https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
       heading2="Docs"
       link2="Intro to workspaces"
       href2="https://learning.getpostman.com/docs/postman/workspaces/intro-to-workspaces/"
@@ -53,7 +53,7 @@ const ConceptPage = () => (
       description="Postman Collections are executable descriptions of your API. Go ahead and organize your requests and mirror your specific workflows."
       heading1="Blog"
       link1="The Good Collection"
-      href1="https://blog.getpostman.com/2018/03/08/the-good-collection/"
+      href1="https://blog.postman.com/2018/03/08/the-good-collection/"
       heading2="Docs"
       link2="Creating, sharing, and managing collections"
       href2="https://learning.getpostman.com/docs/postman/collections/intro-to-collections/"
@@ -66,7 +66,7 @@ const ConceptPage = () => (
       description="Make assertions about the correctness of your API responses, pass data between requests, and add dynamic behavior to requests and collections."
       heading1="Blog"
       link1="10 tips for working with Postman variables"
-      href1="https://blog.getpostman.com/2017/12/29/10-tips-for-working-with-postman-variables/"
+      href1="https://blog.postman.com/2017/12/29/10-tips-for-working-with-postman-variables/"
       heading2="docs"
       link2="Using variables"
       href2="https://learning.getpostman.com/docs/postman/variables-and-environments/variables/"
@@ -79,13 +79,13 @@ const ConceptPage = () => (
       description="Postman Environments are a convenient way to share your team’s server configurations, replicate user credentials for testing, or hide your personal secrets."
       heading1="Blog"
       link1="Writing tests"
-      href1="http://blog.getpostman.com/2017/10/25/writing-tests-in-postman/"
+      href1="https://blog.postman.com/2017/10/25/writing-tests-in-postman/"
       heading2="Blog"
       link2="Chaining requests"
-      href2="http://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/"
+      href2="https://blog.postman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/"
       heading3="Blog"
       link3="Test automation"
-      href3="http://blog.getpostman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"
+      href3="https://blog.postman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"
     />
 
     <IconCard
@@ -134,7 +134,7 @@ const ConceptPage = () => (
       description="Run a collection as a series of requests against a corresponding environment."
       heading1="blog"
       link1="Mock responses with examples"
-      href1="http://blog.getpostman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
+      href1="https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
       heading2="docs"
       link2="Intro to mock servers"
       href2="https://learning.getpostman.com/docs/postman/mock-servers/intro-to-mock-servers/"

@@ -19,10 +19,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Setting up multi region API tests in Postman"
-    url: "https://blog.getpostman.com/2017/08/17/setting-up-multi-region-api-tests-in-postman/?_ga=2.198460265.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/08/17/setting-up-multi-region-api-tests-in-postman/"
   - type: link
     name: "Using a Postman monitor to water my plants"
-    url: "https://blog.getpostman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/?_ga=2.198460265.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -125,7 +125,7 @@ The **Create New** tab appears by default when you launch Postman.
 
    [![create monitor](https://assets.postman.com/postman-docs/Monitor-Collection3.png)](https://assets.postman.com/postman-docs/Monitor-Collection3.png)
 
-   **Note:** You can select regions manually and schedule your monitor runs using the minute timer on [Postman Business and Enterprise plans](https://www.getpostman.com/pricing).
+   **Note:** You can select regions manually and schedule your monitor runs using the minute timer on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
 
    You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation.
 

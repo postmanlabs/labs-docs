@@ -14,7 +14,7 @@ contextual_links:
     url: "/docs/postman/collaboration/managing-your-team/"
 ---
 
-> __[Audit logs are available on Postman Business and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Audit logs are available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
 
 Audit logs list important team events. An admin can review audit logs to determine:
 
@@ -34,7 +34,7 @@ In the [Audit Logs](https://app.getpostman.com/dashboard/audit) page, you see in
 
 [![audit logs](https://assets.postman.com/postman-docs/ENT-audit-logs-page.png)](https://assets.postman.com/postman-docs/ENT-audit-logs-page.png)
 
-For more information about audit logs and how to set it up for your Postman team, contact the [support team](https://www.getpostman.com/get-started-postman-plans).
+For more information about audit logs and how to set it up for your Postman team, contact the [support team](https://www.postman.com/get-started-postman-plans).
 
 ## Logged Events
 

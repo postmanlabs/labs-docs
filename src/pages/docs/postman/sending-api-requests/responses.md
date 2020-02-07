@@ -19,7 +19,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Inspecting Postman Requests"
-    url: "https://blog.getpostman.com/2015/06/13/debugging-postman-requests/?_ga=2.128216138.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2015/06/13/debugging-postman-requests/"
   - type: section
     name: "Next Steps"
   - type: link

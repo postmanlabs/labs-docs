@@ -11,7 +11,7 @@ contextual_links:
     url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
 ---
 
-> __[The number of integrations you can add to your account is dependent on your Postman plan.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
 
 Postman provides a custom webhook integration which enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers many services with predefined flows available for easy implementation.
 

@@ -44,11 +44,11 @@ The built site will only host the most up-to-date docs. All legacy documentation
 
 ## Resources
 
-* [Download Postman](https://www.getpostman.com/downloads/)
-* [Postman Release Notes](https://www.getpostman.com/downloads/release-notes)
-* [Postman Integrations](https://www.getpostman.com/integrations/)
+* [Download Postman](https://www.postman.com/downloads/)
+* [Postman Release Notes](https://www.postman.com/downloads/release-notes)
+* [Postman Integrations](https://www.postman.com/integrations/)
 * [The Postman API](https://docs.api.getpostman.com/)
-* [Postman Release Notes](https://www.getpostman.com/downloads/release-notes)
+* [Postman Release Notes](https://www.postman.com/downloads/release-notes)
 * [Postman community](https://community.getpostman.com/) on Discourse
 
 ## License

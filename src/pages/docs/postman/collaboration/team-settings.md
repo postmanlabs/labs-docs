@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/postman/collaboration/collaboration-intro/"
   - type: link
     name: "Postman Pricing"
-    url: "https://www.getpostman.com/pricing"
+    url: "https://www.postman.com/pricing"
 
 ---
 
@@ -54,11 +54,11 @@ You can see your domain in the Custom Domain list.
 
 [![custom domain list](https://assets.postman.com/postman-docs/teamSetting-customDomains.jpeg)](https://assets.postman.com/postman-docs/teamSetting-customDomains.jpeg)
 
-> Available domains depend on your [Postman plan level](https://www.getpostman.com/pricing).
+> Available domains depend on your [Postman plan level](https://www.postman.com/pricing).
 
 ## Authentication
 
-> __[SSO is available on Postman Business and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[SSO is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
 
 In the Authentication settings, you can choose a Single Sign-on authentication provider to create a custom authentication method for your team.
 

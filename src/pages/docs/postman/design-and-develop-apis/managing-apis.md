@@ -36,7 +36,7 @@ When you [define your APIs](/docs/postman/design-and-develop-apis/the-api-workfl
 
 You can share an API via its workspace either in the Postman app or the [web dashboard](https://app.getpostman.com/dashboard). By sharing your workspace with collaborators, you can provide access to the API via designated roles with specific permissions, including Viewer and Editor.
 
-> The Viewer role is only available on certain [Postman plans](https://www.getpostman.com/pricing).
+> The Viewer role is only available on certain [Postman plans](https://www.postman.com/pricing).
 
 If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
 

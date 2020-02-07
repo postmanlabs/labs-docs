@@ -31,13 +31,13 @@ To create the Run in Postman button, start in the Postman app. Make sure you are
 Here’s an example markdown snippet:
 
 ```
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/:collection_id)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 ```
 
 Here’s an example HTML snippet:
 
 ```
-<a href="https://www.getpostman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
+<a href="https://www.postman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
 ```
 
 The `:collection_id` is a placeholder here and will be auto-filled in the markdown snippet.

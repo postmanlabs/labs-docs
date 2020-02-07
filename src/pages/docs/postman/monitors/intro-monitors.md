@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Monetary"
-    url: "https://www.getpostman.com/case-studies/monetary.pdf?_ga=2.133824584.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/monetary.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -152,7 +152,7 @@ There are a few differences between running collections in a Postman monitor and
 
 ### Accessible APIs
 
-* Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available on [Postman Business and Enterprise plans](https://www.getpostman.com/pricing).
+* Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
 
 ## Monitor dashboard
 
