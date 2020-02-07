@@ -23,11 +23,11 @@ contextual_links:
     url: "/docs/postman/design-and-develop-apis/managing-apis/"
 ---
 
-You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of the Postman app, your API spec can act as the single source of truth for your API project. The API Builder supports API-first development by allowing you to generate collections from your schema and build your development and testing from there.
+You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of the Postman app, your specification can act as the single source of truth for your API project. The API Builder supports API-first development by allowing you to generate collections from your schema and build your development and testing from there.
 
 <img alt="API Builder" src="https://assets.postman.com/postman-docs/api-builder.jpg" width="500px"/>
 
-You can connect various components of your API development and testing process to your schema, such as collections, documentation, mocks, and monitors. You can also version your APIs in Postman and connect test suites to specific versions.
+You can connect various components of your API development and testing process to your schema, such as collections, documentation, tests, mocks, and monitors. You can also version your APIs in Postman and connect elements to specific versions.
 
 * [Creating an API](#creating-an-api)
 * [Defining an API](#defining-an-api)
@@ -68,12 +68,12 @@ You can also [version your APIs](/docs/postman/design-and-develop-apis/versionin
 You can define the structure of your API by creating a new schema or importing it from an existing file you can continue editing. You can also generate a collection from the schema.
 
 * [Creating a new schema](#creating-a-new-schema)
-* [Importing a file](#importing-a-schema)
+* [Importing a schema](#importing-a-schema)
 * [Generating a collection](#generating-a-collection)
 
 ### Creating a new schema
 
-To create a new schema, click **Add Schema** and select **Create New**. The schema editor will open with default options selected:
+To create a new schema, click **Add Schema** and select **Create New**. The schema editor will open with default options selected.
 
 ![New Schema](https://assets.postman.com/postman-docs/new-schema.jpg)
 
@@ -97,13 +97,13 @@ The Postman API Builder supports API-first development by providing the option t
 
 ![Schema Editor Options](https://assets.postman.com/postman-docs/schema-editor-options.jpg)
 
-To create a collection based on your schema, click **Generate Collections**. The collection will appear in __Collections__. You can optionally add the collection as documentation, a test suite, an integration test, or a contract test.
+To create a collection based on your schema, click **Generate Collection**. You can optionally add the collection as documentation, a test suite, an integration test, or a contract test. The collection will appear in __Collections__ in the left sidebar.
 
-![Generate Collection](https://assets.postman.com/postman-docs/generate-collection-schema.jpg)
+<img alt="Generate Collection" src="https://assets.postman.com/postman-docs/generate-collection-schema.jpg" width="500px"/>
 
 ## Developing an API
 
-Once you have a schema in the Postman API Builder, you can develop your API using version tagging, for example to link to mock servers, documentation, or environments.
+Once you have a schema in the Postman API Builder, you can develop your API using version tagging, and linking to mock servers, documentation, and environments.
 
 > When you add documentation, test suites, mocks, monitors, and environments, only the elements in the current workspace will be visible. If an element is already linked to an API, it will not be visible.
 
@@ -116,7 +116,7 @@ Once you have a schema in the Postman API Builder, you can develop your API usin
 
 ### Adding a mock server
 
-You can link mock servers for a collection to an API, by creating a new mock server, adding, or editing an existing one. From the API Builder **Develop** tab, click **Add Mock Server**.
+You can link mock servers for a collection to an API, by creating a new mock server, or adding / editing an existing one. From the API Builder **Develop** tab, click **Add Mock Server**.
 
 ![Add Mock to Schema](https://assets.postman.com/postman-docs/schema-add-mock.jpg)
 
@@ -134,7 +134,7 @@ Choose **Generate collection from schema** to create a mock server on the collec
 
 In the __Add Mock Server__ dropdown, select **Add existing mock server**.
 
-<img alt="Add Existing Mock" src="https://assets.postman.com/postman-docs/schema-existing-mock.jpg" width="350px"/>
+<img alt="Add Existing Mock" src="https://assets.postman.com/postman-docs/schema-existing-mock.jpg" width="300px"/>
 
 Select a mock server from your workspace and click **Add Mock Server**. You will only see available mocks in the list. Your mock server will be added to the API.
 
@@ -148,7 +148,7 @@ You can edit existing mock servers from an **API** by opening the **Develop** ta
 
 <img alt="Edit Mock from Schema" src="https://assets.postman.com/postman-docs/edit-mock-schema.jpg" width="200px"/>
 
-Your [mock will open for editing](/docs/postman/mock-servers/setting-up-mock/#editing-mock-servers) in the Postman Dashboard (on the web).
+Your [mock will open for editing](/docs/postman/mock-servers/setting-up-mock/#editing-mock-servers) in the Postman web dashboard.
 
 [![api edit mock web](https://user-images.githubusercontent.com/5029719/71361434-410cce80-2593-11ea-995d-68fdd27a282e.png)](https://user-images.githubusercontent.com/5029719/71361434-410cce80-2593-11ea-995d-68fdd27a282e.png)
 
@@ -156,7 +156,7 @@ You can also copy the URL of your mock server directly to your clipboard by clic
 
 ## Adding documentation
 
-You can link the documentation generated from your collections to an API using version tagging.
+You can link the documentation generated from your collections to specific versions of an API.
 
 ![Add Docs to Schema](https://assets.postman.com/postman-docs/schema-docs-added.jpg)
 
@@ -170,7 +170,7 @@ You can add documentation to specific [versions of your API](/docs/postman/desig
 
 ## Adding an environment
 
-You can link specific environments in your workspaces to an API using version tagging. In the __API__ &gt; **Develop** tab, click **Add an environment**.
+You can link specific environments in your workspaces to specific versions of an API. In the __API__ &gt; **Develop** tab, click **Add environment**.
 
 ![Add Environment to Schema](https://assets.postman.com/postman-docs/add-env-schema.jpg)
 
@@ -180,7 +180,7 @@ Select an environment from the list and click **Add environment**. You will only
 
 ## Testing an API
 
-You can create collections to use as test suites, integration tests, or contract tests for your API. These collections can be linked to a specific version of your API using version tagging.
+You can create collections to use as test suites, integration tests, or contract tests for your API. These collections can be linked to a specific version of your API.
 
 * [Adding a test suite](#adding-a-test-suite)
 * [Adding integration tests](#adding-integration-tests)
@@ -196,7 +196,7 @@ Select a corresponding collection from the list and click __Add Test Suite__. Yo
 
 <img alt="Add Test Suite to Schema" src="https://assets.postman.com/postman-docs/choose-test-suite-schema.jpg" width="300px"/>
 
-### Adding an integration test
+### Adding integration tests
 
 In __API__ &gt; **Test**, click **Add Integration Test** to check if your endpoints work as expected when combined with other APIs or services.
 
@@ -206,7 +206,7 @@ Select a corresponding collection from the list and click **Add Integration Test
 
 <img alt="Add Integration Test to Schema" src="https://assets.postman.com/postman-docs/choose-integration-test-schema.jpg" width="300px"/>
 
-### Adding a contract test
+### Adding contract tests
 
 If you're writing tests to ensure your API is working according to its specification, you can use **Contract tests**. In __API__ &gt; **Test**, click **Add Contract Test**.
 
@@ -250,6 +250,7 @@ To add a monitor to a specific version of your collection, check out how to [set
 
 For more information on building your APIs in Postman, check out the following resources:
 
-* [Sharing APIs](/docs/postman/design-and-develop-apis/sharing-apis/)
 * [Versioning APIs](/docs/postman/design-and-develop-apis/versioning-an-api/)
-* [Managing APIs](/docs/postman/design-and-develop-apis/managing-apis/)
+* [Managing and sharing APIs](/docs/postman/design-and-develop-apis/managing-apis/)
+* [Viewing and analyzing APIs](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/)
+* [Validating elemenst against schema](/docs/postman/design-and-develop-apis/validating-elements-against-schema/)

@@ -25,8 +25,8 @@ contextual_links:
     name: "Viewing and analyzing APIs"
     url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
   - type: link
-    name: "Versioning an API"
-    url: "/docs/postman/design-and-develop-apis/versioning-an-api/"
+    name: "Validating elements against schema"
+    url: "/docs/postman/design-and-develop-apis/validating-elements-against-schema/"
 ---
 
 You can manage multiple versions of any APIs you create in Postman. You can link collections, mocks, monitors, and documentation to specific versions of APIs using version tagging.
@@ -55,7 +55,7 @@ You can create new versions from scratch or from an existing version. Click __Sh
 
 <img alt="API Version List" src="https://assets.postman.com/postman-docs/api-version-list.jpg" width="400px"/>
 
-From here you can rename and delete versions—deleting a version will also delete its version tag.
+From here you can rename and delete versions—_deleting a version will also delete its version tag_.
 
 To create a new version, click __Create another version__.
 

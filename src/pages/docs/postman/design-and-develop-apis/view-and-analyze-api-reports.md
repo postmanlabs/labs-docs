@@ -89,7 +89,7 @@ The average response time is calculated based on the time taken to return the re
 [![team api req](https://assets.postman.com/postman-docs/Reports-AvgRespTime.png)](https://assets.postman.com/postman-docs/Reports-AvgRespTime.png)
 
 > In this example, the response time is shown for Jun 12. No response is received on other dates because no request is sent.
-
+>
 > Summary average response size may not match with the average of the graph, because raw data is accounted for when calculating averages. In order to determine an accurate average, Postman does not calculate averages using data from already derived averages.
 
 Failed test runs are the number of failed tests for collection runs during a period of time. The summary average is calculated by taking into account all the days (even if no request is sent during a day).
@@ -102,7 +102,7 @@ Reports are not generated in realtime. You may experience a lag of a few minutes
 
 > You cannot currently download or export your reports.
 
-Postman reports track data sent only through the request builder but not through Newman, collection runs, or monitors. However, failed test runs generate reports using collection runs.
+Postman reports track data sent only through the request builder, and not through Newman, collection runs, or monitors. However, failed test runs generate reports using collection runs.
 
 > You cannot view the details of entities you do not have access to.
 
@@ -115,3 +115,7 @@ If you don't see any data in your reports, or your data is incomplete (for examp
 * App sync is not successfully communicating with the Postman servers.
 
 > If none of the above reasons apply and you can't see data, please file a [github issue](https://github.com/postmanlabs/).
+
+## Next steps
+
+You can use [monitors](/docs/postman/monitors/intro-monitors/) to gain detailed insight into your APIs.

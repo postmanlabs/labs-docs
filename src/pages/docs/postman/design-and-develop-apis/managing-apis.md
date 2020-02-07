@@ -38,7 +38,7 @@ You can share an API via its workspace either in the Postman app or the [web das
 
 > The Viewer role is only available on certain [Postman plans](https://www.getpostman.com/pricing).
 
-If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, monitors). Workspace members can view elements linked to an API but only edit if an element is also shared. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
+If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
 
 In the Postman app, select an __API__ in the sidebar and click (__...__) to open the menu, choosing **Share API**.
 
@@ -53,7 +53,7 @@ Configure the access levels for collaborators in your workspace and click __Save
 ![API Workspace Roles](https://assets.postman.com/postman-docs/api-workspace-roles.jpg)
 
 > You can also share APIs in the web dashboard by navigating to __APIs__ and clicking __Share__ next to the API.
-> 
+>
 > ![Share API in Dashboard](https://assets.postman.com/postman-docs/share-api-dashboard.jpg)
 
 ## Commenting on APIs
@@ -64,7 +64,7 @@ To leave a comment on an API using the Postman app, open __APIs__ in the left si
 
 [![api comment app](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)
 
-To comment on an API in the web dashboard, navigate to the __APIs__, select the API you want to comment on, and click **Comments** at the top-right of the page. Enter your comment, and **Add comment** to publish it.
+To comment on an API in the web dashboard, navigate to __APIs__, select the API you want to comment on, and click **Comments** at the top-right of the page. Enter your comment, and **Add comment** to publish it.
 
 [![api comment dashboard](https://user-images.githubusercontent.com/5029719/69900515-48fa9980-136c-11ea-9e55-7785626dfcad.gif)](https://user-images.githubusercontent.com/5029719/69900515-48fa9980-136c-11ea-9e55-7785626dfcad.gif)
 
@@ -100,5 +100,5 @@ You can use the __Restore__ link to revert the schema to a previous state.
 
 For more info on working with the API Builder in Postman, check out the following resources:
 
-* [Versioning an API](/docs/postman/design-and-develop-apis/versioning-an-api/)
-* [Viewing and analyzing APIs](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/)
+- [Versioning APIs](/docs/postman/design-and-develop-apis/versioning-an-api/)
+- [Viewing and analyzing APIs](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/)
