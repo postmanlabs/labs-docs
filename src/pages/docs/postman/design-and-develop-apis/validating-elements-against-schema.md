@@ -22,7 +22,7 @@ In this section, you can learn the pre-requisites for validating your elements a
 For validations to execute, you need the following elements in place:
 
 * An API schema - see [Defining an API](/docs/postman/design-and-develop-apis/the-api-workflow/#defining-an-api)
-* API element(s) - this can be a [mock server](https://learning.getpostman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-a-mock-server), [documentation](https://learning.getpostman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-documentation), [tests](https://learning.getpostman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-documentation), or a [monitor](https://learning.getpostman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-documentation)
+* API element(s) - this can be a [mock server](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-a-mock-server), [documentation](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-documentation), [tests](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-documentation), or a [monitor](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-documentation)
 
 > Once the validation is complete, a status will appear next to the element indicating a checkmark if no issues have been found, or a warning message stating `Issues found`.
 

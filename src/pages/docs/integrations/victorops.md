@@ -8,10 +8,10 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
-    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+    url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
   - type: link
     name: "Intro to Monitoring"
-    url: "https://learning.getpostman.com/docs/postman/monitors/intro-monitors"
+    url: "https://learning.postman.com/docs/postman/monitors/intro-monitors"
 ---
 
 > __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__

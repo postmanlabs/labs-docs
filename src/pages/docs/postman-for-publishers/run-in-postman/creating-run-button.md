@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
-    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+    url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -30,10 +30,10 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to API documentation"
-    url: "https://learning.getpostman.com/docs/postman/api-documentation/documenting-your-api/"
+    url: "https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/"
   - type: link
     name: "Intro to environments and globals"
-    url: "https://learning.getpostman.com/docs/postman/environments_and_globals/intro_to_environments_and_globals"
+    url: "https://learning.postman.com/docs/postman/environments_and_globals/intro_to_environments_and_globals"
 
 ---
 

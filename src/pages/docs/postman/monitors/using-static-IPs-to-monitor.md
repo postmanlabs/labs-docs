@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Monitoring"
-    url: "https://learning.getpostman.com/docs/postman/monitors/intro-monitors"
+    url: "https://learning.postman.com/docs/postman/monitors/intro-monitors"
 ---
 
 > __[Static IP address monitoring is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
