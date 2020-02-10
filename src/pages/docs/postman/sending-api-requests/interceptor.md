@@ -121,6 +121,25 @@ You can find the current status of your Interceptor integration by selecting the
 * **Not connected**: Ensure Interceptor is installed correctly—refer to [Installing interceptor](#installing-interceptor).
 * **Dependencies not installed**: Postman will walk you through how to install the required dependencies.
 
+ If you encounter errors during installation or download, check out the following steps to resolve them:
+
+* **`CHROME_NOT_INSTALLED`**: Check whether Chrome is installed and a `NativeMessagingHosts` folder exists at the following location:
+    * **MacOS**: `~/Library/Application Support/Google/Chrome/NativeMessagingHosts`
+    * **Linux**:  `~/.config/google-chrome/NativeMessagingHosts`
+    * **Windows** : `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
+* **`INTERNET_CONNECTIVITY`**:
+    * Check your internet connection.
+    * If you are sitting behind a firewall check your inbound and outbound policies.
+    * If you are using a proxy, check that it is properly configured.
+* **`FILE_PERMISSIONS_REQUIRED`**:
+    * Verify that you have permissions to create the `.postman/InterceptorBridge` folders.
+    * Verify that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
+    * [MacOS only] Verify that you have a `~/Downloads` folder and write permissions for it.
+    * If the above steps are unsuccessful, close Chrome and Postman before retrying the installation.
+* **[Windows only] `REGISTRY_ACCESS_NEEDED`**:
+    * Verify that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
+    * Verify that `C:/Windows/System32` is present in the `PATH` (a [system environment variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7)) so that `reg` queries can be executed.
+
  If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
 * **[MacOS-only] Node is properly installed**: Node should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
