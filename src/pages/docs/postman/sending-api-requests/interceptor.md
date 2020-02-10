@@ -131,14 +131,14 @@ You can find the current status of your Interceptor integration by selecting the
     * Check your internet connection.
     * If you are sitting behind a firewall check your inbound and outbound policies.
     * If you are using a proxy, check that it is properly configured.
-* **`REGISTRY_ACCESS_NEEDED`**:
-    * Verify that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
-    * Verify that `C:/Windows/System32` is present in the `PATH` a [system environment variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7#displaying-environment-variables) to get `reg` queries executed.
 * **`FILE_PERMISSIONS_REQUIRED`**:
     * Verify that you have permissions to create the `.postman/InterceptorBridge` folders.
     * Verify that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
     * [MacOS only] Verify that you have a `~/Downloads` folder and write permissions for it.
     * If the above steps are unsuccessful, close Chrome and Postman before retrying the installation.
+* **[Windows only] `REGISTRY_ACCESS_NEEDED`**:
+    * Verify that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
+    * Verify that `C:/Windows/System32` is present in the PATH (a [system environment variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7)) so that reg queries can be executed.
 
  If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
