@@ -252,16 +252,16 @@ For example, you could have a request URL referencing a variable as follows:
 http://pricey-trilby.glitch.me/customer?id={{cust_id}}
 ```
 
-Or, a request body that accesses a variable by wrapping its reference in double-qoutes:
-
-```
-{ "customer_id" : "{{cust_id}}" }
-```
-
 Postman will send whatever value you currently have stored for the `cust_id` variable when the request runs. If `cust_id` is currently `3`, the request will be sent to the following URL including query parameter:
 
 ```
 http://pricey-trilby.glitch.me/customer?id=3
+```
+
+Alternatively, a request body that accesses a variable by wrapping its reference in double-qoutes:
+
+```
+{ "customer_id" : "{{cust_id}}" }
 ```
 
 You can use variables in request URLs, parameters, headers, authorization, body, and header presets.
