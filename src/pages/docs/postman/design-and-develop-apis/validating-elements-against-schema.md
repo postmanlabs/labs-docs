@@ -7,7 +7,7 @@ warning: false
 
 You can validate your API elements (documentation, tests, mock servers, or monitors) against the API schema. This helps keep your elements in sync with your API specification. If they do not match, you can see the list of issues that have been found in order to fix them.
 
-> This feature is only available for OpenAPI 3.0 at this time.
+> This feature is available from Postman 7.15.0 and for OpenAPI 3.0 schemas only at this time.
 
 This section outlines the following topics:
 
