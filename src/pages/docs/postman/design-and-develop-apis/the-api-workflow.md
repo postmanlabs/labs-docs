@@ -59,7 +59,7 @@ Enter a name for your API—you can rename, delete, or remove it from the worksp
 
 <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-edit-options.jpg" width="250px"/>
 
-> You can also create APIs from your workspaces dashboard in the browser by navigating to __APIs__ and clicking __Create an API__.
+> You can also create APIs from your workspaces dashboard in your web browser by navigating to __APIs__ and clicking __Create an API__.
 
 You can also [version your APIs](/docs/postman/design-and-develop-apis/versioning-an-api/).
 
@@ -70,6 +70,8 @@ You can define the structure of your API by creating a new schema or importing i
 * [Creating a new schema](#creating-a-new-schema)
 * [Importing a schema](#importing-a-schema)
 * [Generating a collection](#generating-a-collection)
+
+> You can also [sync an API spec from a GitHub repository](/docs/integrations/github/#syncing-your-api-schemas-on-github).
 
 ### Creating a new schema
 

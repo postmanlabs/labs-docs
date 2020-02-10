@@ -90,7 +90,7 @@ The average response time is calculated based on the time taken to return the re
 
 > In this example, the response time is shown for Jun 12. No response is received on other dates because no request is sent.
 >
-> Summary average response size may not match with the average of the graph, because raw data is accounted for when calculating averages. In order to determine an accurate average, Postman does not calculate averages using data from already derived averages.
+> Summary average response size may not match the average of the graph, because raw data is accounted for when calculating averages. In order to determine an accurate average, Postman does not calculate averages using data from already derived averages.
 
 Failed test runs are the number of failed tests for collection runs during a period of time. The summary average is calculated by taking into account all the days (even if no request is sent during a day).
 

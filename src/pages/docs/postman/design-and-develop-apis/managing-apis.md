@@ -60,7 +60,7 @@ Configure the access levels for collaborators in your workspace and click __Save
 
 You can discuss your APIs with collaborators in the Postman app or [web dashboard](https://app.getpostman.com), keeping the conversation in context and available to other stakeholders. Anyone with access can comment, and comments will be visible in both the app and the dashboard.
 
-To leave a comment on an API using the Postman app, open __APIs__ in the left sidebar and select the API select the API you want to comment on. Click **Comments** at the top-right, enter your comment, and **Add comment** to publish it.
+To leave a comment on an API using the Postman app, open __APIs__ in the left sidebar and select the API you want to comment on. Click **Comments** at the top-right, enter your comment, and **Add comment** to publish it.
 
 [![api comment app](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)
 
