@@ -258,6 +258,12 @@ Postman will send whatever value you currently have stored for the `cust_id` var
 http://pricey-trilby.glitch.me/customer?id=3
 ```
 
+Alternatively, you could have a request body that accesses a variable by wrapping its reference in double-qoutes:
+
+```
+{ "customer_id" : "{{cust_id}}" }
+```
+
 You can use variables in request URLs, parameters, headers, authorization, body, and header presets.
 
 ![Variables in Request](https://assets.postman.com/postman-docs/vars-in-request.jpg)
