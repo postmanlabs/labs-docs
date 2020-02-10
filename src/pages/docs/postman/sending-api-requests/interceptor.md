@@ -129,11 +129,11 @@ You can find the current status of your Interceptor integration by selecting the
     * **Windows** : `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
 * **`INTERNET_CONNECTIVITY`**:
     * Check your internet connection.
-    * If you are sitting behind a firewall check your inbound and outbound policies.
+    * If you are sitting behind a firewall go to `WindowsDefenderFirewall > Advanced settings > inbound rules/outbound rules` and verify if any of them is disabled for postman.
     * If you are using a proxy, check that it is properly configured.
 * **`REGISTRY_ACCESS_NEEDED`**:
-    * Verify that you have permissions to add a registry key.
-    * Verify that `reg.exe` is present in the system environment variables.
+    * Verify that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
+    * Verify that `C:/Windows/System32` is present in the `PATH` a system environment variable to get `reg` queries executed.
 * **`FILE_PERMISSIONS_REQUIRED`**:
     * Verify that you have permissions to create the `.postman/InterceptorBridge` folders.
     * Verify that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
