@@ -258,7 +258,7 @@ Postman will send whatever value you currently have stored for the `cust_id` var
 http://pricey-trilby.glitch.me/customer?id=3
 ```
 
-Alternatively, a request body that accesses a variable by wrapping its reference in double-qoutes:
+Alternatively, you cou;d have a request body that accesses a variable by wrapping its reference in double-qoutes:
 
 ```
 { "customer_id" : "{{cust_id}}" }
