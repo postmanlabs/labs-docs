@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
-    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+    url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
   - type: section
     name: "Additional Resources"
   - type: subtitle

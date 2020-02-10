@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Settings"
-    url: "https://learning.getpostman.com/docs/postman/launching_postman/settings"
+    url: "https://learning.postman.com/docs/postman/launching_postman/settings"
   - type: section
     name: "Additional Resources"
   - type: subtitle
