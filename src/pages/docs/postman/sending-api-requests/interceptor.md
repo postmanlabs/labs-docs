@@ -123,7 +123,7 @@ You can find the current status of your Interceptor integration by selecting the
 
  If you encounter errors during installation or download, check out the following steps to resolve them:
 
-* **`CHROME_NOT_INSTALLED`**: Check whether Chrome is installed and a `NativeMessagingHosts` folder exists at the following location (depending on your operating system):
+* **`CHROME_NOT_INSTALLED`**: Check whether Chrome is installed and a `NativeMessagingHosts` folder exists at the following location:
     * **MacOS**: `~/Library/Application Support/Google/Chrome/NativeMessagingHosts`
     * **Linux**:  `~/.config/google-chrome/NativeMessagingHosts`
     * **Windows** : `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
