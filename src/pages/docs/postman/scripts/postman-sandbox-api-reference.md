@@ -158,7 +158,7 @@ Extended Reference:
 
 ### pm.variables
 
-`pm.variables:` [Variable SDK Reference](http://www.postmanlabs.com/postman-collection/Variable.html)
+`pm.variables:` [Variable SDK Reference](https://www.postmanlabs.com/postman-collection/Variable.html)
 
 In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration take precedence over the variables defined in the current environment, which overrides ones defined in the global scope. The order of precedence is `Iteration Data` < `Environment` < `Collection` < `Global`.
 
@@ -205,7 +205,7 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 
 ### pm.request
 
-`pm.request:` [Request SDK Reference](http://www.postmanlabs.com/postman-collection/Request.html)
+`pm.request:` [Request SDK Reference](https://www.postmanlabs.com/postman-collection/Request.html)
 
 The `request` object inside `pm` is a representation of the request for which this script is being run. For a pre-request script, this is the request that is about to be sent and when in a test script, this is the representation of the request that was sent.
 
@@ -224,7 +224,7 @@ existing header is updated to the new value).
 
 ### pm.response
 
-`pm.response:` [Response SDK Reference](http://www.postmanlabs.com/postman-collection/Response.html)
+`pm.response:` [Response SDK Reference](https://www.postmanlabs.com/postman-collection/Response.html)
 
 Inside the test scripts, the `pm.response` object contains all information pertaining to the response that was received.
 
@@ -269,7 +269,7 @@ The `iterationData` object contains data from the data file provided during a co
   
 ### pm.cookies
 
-`pm.cookies:` [CookieList SDK Reference](http://www.postmanlabs.com/postman-collection/CookieList.html)
+`pm.cookies:` [CookieList SDK Reference](https://www.postmanlabs.com/postman-collection/CookieList.html)
 
 The `cookies` object contains a list of cookies that are associated with the domain to which the request was made.
 
