@@ -43,7 +43,7 @@ const ConceptPage = () => (
       href1="https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
       heading2="Docs"
       link2="Intro to workspaces"
-      href2="https://learning.getpostman.com/docs/postman/workspaces/intro-to-workspaces/"
+      href2="https://learning.postman.com/docs/postman/workspaces/intro-to-workspaces/"
     />
 
     <IconCard
@@ -56,7 +56,7 @@ const ConceptPage = () => (
       href1="https://blog.postman.com/2018/03/08/the-good-collection/"
       heading2="Docs"
       link2="Creating, sharing, and managing collections"
-      href2="https://learning.getpostman.com/docs/postman/collections/intro-to-collections/"
+      href2="https://learning.postman.com/docs/postman/collections/intro-to-collections/"
     />
 
     <IconCard
@@ -69,7 +69,7 @@ const ConceptPage = () => (
       href1="https://blog.postman.com/2017/12/29/10-tips-for-working-with-postman-variables/"
       heading2="docs"
       link2="Using variables"
-      href2="https://learning.getpostman.com/docs/postman/variables-and-environments/variables/"
+      href2="https://learning.postman.com/docs/postman/variables-and-environments/variables/"
     />
 
     <IconCard
@@ -95,10 +95,10 @@ const ConceptPage = () => (
       description="Back up and save your Postman data to the cloud."
       heading1="docs"
       link1="Sync changes to your Postman account"
-      href1="https://learning.getpostman.com/docs/postman/launching-postman/syncing/"
+      href1="https://learning.postman.com/docs/postman/launching-postman/syncing/"
       heading2="docs"
       link2="Sync changes with your Postman team"
-      href2="https://learning.getpostman.com/docs/postman/workspaces/using-workspaces/"
+      href2="https://learning.postman.com/docs/postman/workspaces/using-workspaces/"
     />
 
     <IconCard
@@ -108,10 +108,10 @@ const ConceptPage = () => (
       description="Run a collection as a series of requests against a corresponding environment."
       heading1="docs"
       link1="Run locally in the Postman app with the Collection Runner"
-      href1="https://learning.getpostman.com/docs/postman/collection-runs/starting-a-collection-run/"
+      href1="https://learning.postman.com/docs/postman/collection-runs/starting-a-collection-run/"
       heading2="docs"
       link2="Run locally with the open-source Newman CLI"
-      href2="https://learning.getpostman.com/docs/postman/collection-runs/command-line-integration-with-newman/"
+      href2="https://learning.postman.com/docs/postman/collection-runs/command-line-integration-with-newman/"
     />
 
     <IconCard
@@ -137,7 +137,7 @@ const ConceptPage = () => (
       href1="https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
       heading2="docs"
       link2="Intro to mock servers"
-      href2="https://learning.getpostman.com/docs/postman/mock-servers/intro-to-mock-servers/"
+      href2="https://learning.postman.com/docs/postman/mock-servers/intro-to-mock-servers/"
       heading3="video"
       link3="Fake APIs for real developers"
       href3="https://youtu.be/fgtDZPOPzLU"

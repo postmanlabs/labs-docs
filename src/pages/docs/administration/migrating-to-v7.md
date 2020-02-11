@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Installation and updates"
-    url: "https://learning.getpostman.com/docs/postman/launching-postman/installation-and-updates/"
+    url: "https://learning.postman.com/docs/postman/launching-postman/installation-and-updates/"
   - type: section
     name: "Additional Resources"
   - type: subtitle

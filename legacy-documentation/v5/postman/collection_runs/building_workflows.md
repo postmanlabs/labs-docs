@@ -11,7 +11,7 @@ warning: false
 
 ### Basic usage
 
-When you start a collection run, all requests are run in the order you see them in the main app. This means that all requests inside are executed first, by order of the folder they are in, and then any requests that are in the root of the collection. However, you can override this behavior using a [built-in function](https://learning.getpostman.com/docs/postman/scripts/branching_and_looping) called `setNextRequest()`.
+When you start a collection run, all requests are run in the order you see them in the main app. This means that all requests inside are executed first, by order of the folder they are in, and then any requests that are in the root of the collection. However, you can override this behavior using a [built-in function](https://learning.postman.com/docs/postman/scripts/branching_and_looping) called `setNextRequest()`.
 
 `setNextRequest()`, as the name suggests, will allow you to specify which request will be run next. The easiest way to understand this is to look at a sample collection.
 
@@ -34,4 +34,4 @@ Now that we have a good understanding of how `setNextRequest()` works, we can do
 There are some gotchas to keep in mind:
 
    *   `setNextRequest()` is always executed at the end of the current request. This means that if you put this function before other code blocks anywhere in pre-request or test script, these blocks will still execute.
-   *   `setNextRequest()` has a scope, which is the source of your collection run. This means that if you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `setNextRequest()` is limited to that folder. This means that you can jump to any request within this folder, but not ones that are outside of the folder. This includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](https://learning.getpostman.com/docs/postman/collection_runs/starting_a_collection_run/).
+   *   `setNextRequest()` has a scope, which is the source of your collection run. This means that if you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `setNextRequest()` is limited to that folder. This means that you can jump to any request within this folder, but not ones that are outside of the folder. This includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](https://learning.postman.com/docs/postman/collection_runs/starting_a_collection_run/).

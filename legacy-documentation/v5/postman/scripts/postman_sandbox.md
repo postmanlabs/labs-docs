@@ -73,4 +73,4 @@ If you’re using [data files](https://blog.postman.com/index.php/2014/10/28/us
 
 ### pm.* APIs
 
-Review [Postman Sandbox API Reference](https://learning.getpostman.com/docs/postman/scripts/postman_sandbox_api_reference/).
+Review [Postman Sandbox API Reference](https://learning.postman.com/docs/postman/scripts/postman_sandbox_api_reference/).

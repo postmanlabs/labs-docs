@@ -8,12 +8,12 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
-    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+    url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Intro to API documentation"
-    url: "https://learning.getpostman.com/docs/postman/api-documentation/documenting-your-api/"
+    url: "https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/"
 ---
 
 ### Security considerations for the Run in Postman button

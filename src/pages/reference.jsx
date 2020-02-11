@@ -29,8 +29,8 @@ const ReferencePage = () => (
         href="https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc"
         link="Learn More"
       />
-      <SmallCard title="Postman Settings" text="Adjust the settings within the Postman app. " href="https://learning.getpostman.com/docs/postman/launching-postman/settings/" link="Learn More" />
-      <SmallCard title="Keyboard Shortcuts" text="Increase your efficiency with keyboard shortcuts for the Postman app. " href="https://learning.getpostman.com/docs/postman/launching-postman/keyboard-shortcuts/" link="Learn More" />
+      <SmallCard title="Postman Settings" text="Adjust the settings within the Postman app. " href="https://learning.postman.com/docs/postman/launching-postman/settings/" link="Learn More" />
+      <SmallCard title="Keyboard Shortcuts" text="Increase your efficiency with keyboard shortcuts for the Postman app. " href="https://learning.postman.com/docs/postman/launching-postman/keyboard-shortcuts/" link="Learn More" />
       <SmallCard
         title="Postman Roadmap for Developers"
         text="Postman's upcoming features and releases available to the developer

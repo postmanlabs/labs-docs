@@ -7,7 +7,7 @@ warning: false
 
 Postman can validate your requests against a linked API schema. This helps keep your documentation, tests, and other linked resources in sync with your API specification. If a request doesn't conform to the schema, you can see a list of issues, and fix them as you go.
 
-> This feature is only available for OpenAPI 3.0 at this time.
+> This feature is available from Postman 7.15.0 and for OpenAPI 3.0 schemas only at this time.
 
 This section outlines the following topics:
 
