@@ -34,11 +34,11 @@ When you [define your APIs](/docs/postman/design-and-develop-apis/the-api-workfl
 
 ## Sharing APIs
 
-You can share an API via its workspace either in the Postman app or the [web dashboard](https://app.getpostman.com/dashboard). By sharing your workspace with collaborators, you can provide access to the API via designated roles with specific permissions, including Viewer and Editor.
+You can share an API via its workspace either in the Postman app or the [web dashboard](https://app.getpostman.com/dashboard). By sharing your workspace with collaborators, you can provide access to the API via [designated roles with specific permissions](/docs/postman/collaboration/roles-and-permissions/), including Viewer and Editor.
 
 > The Viewer role is only available on certain [Postman plans](https://www.postman.com/pricing).
 
-If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
+If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared within the workspace. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
 
 In the Postman app, select an __API__ in the sidebar and click (__...__) to open the menu, choosing **Share API**.
 
@@ -48,7 +48,7 @@ Select a workspace and click __Share and Continue__.
 
 ![Share API to Workspace](https://assets.postman.com/postman-docs/share-api-to-workspace.jpg)
 
-Configure the access levels for collaborators in your workspace and click __Save Roles__.
+Configure access levels for collaborators in your workspace and click __Save Roles__.
 
 ![API Workspace Roles](https://assets.postman.com/postman-docs/api-workspace-roles.jpg)
 

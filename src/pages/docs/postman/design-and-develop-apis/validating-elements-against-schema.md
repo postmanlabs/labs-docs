@@ -26,7 +26,7 @@ contextual_links:
     url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
 ---
 
-You can validate your API elements (documentation, tests, mock servers, monitors) against an API schema. This helps keep your elements in sync with your API specification. If they do not match, you can see the list of issues that have been found in order to fix them.
+You can validate your API elements (documentation, tests, mock servers, monitors) against an API schema. This helps keep your elements in sync with your API specification. If they do not match, Postman will present a list of issues that have been found in order to fix them.
 
 > This feature is only available for OpenAPI 3.0 at this time.
 

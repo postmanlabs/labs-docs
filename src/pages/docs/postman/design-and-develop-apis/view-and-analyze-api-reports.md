@@ -28,7 +28,7 @@ contextual_links:
 
 > __[API reports are available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
 
-You can access reports on your APIs in the Postman web dashboard. API reports visualize data on API activities including creation, collection execution, test runs, and more, providing insights on performance, troubleshooting, and SLA adherence, as well as team and organization metrics.
+You can access reports on your APIs in the [Postman web dashboard](https://app.getpostman.com/dashboard). API reports visualize data on API activities including creation, collection execution, test runs, and more, providing insights on performance, troubleshooting, and SLA adherence, as well as team and organization metrics.
 
 To generate reports in Postman, first ensure you have carried out the following steps:
 
@@ -66,9 +66,9 @@ Team API requests are the count of requests sent over a period of time. The summ
 
 ## API reports
 
-API reports provide a graphical representation of data and enables you to filter the data by collection and duration (last 7 or 30 days). You can view reports for any individual collections you have linked ot an API.
+API reports provide a graphical representation of data and enable you to filter the data by collection and duration (last 7 or 30 days). You can view reports for any individual collections you have linked to an API.
 
-> Reports only track data from APIs you have shared to team workspaces. If your API is shared to a personal workspace you will not see reports for it.
+> Reports only track data from APIs you have shared to team workspaces. If your API is only shared to a personal workspace you will not see reports for it.
 
 API reports provide the following information:
 
@@ -92,7 +92,7 @@ The average response time is calculated based on the time taken to return the re
 >
 > Summary average response size may not match the average of the graph, because raw data is accounted for when calculating averages. In order to determine an accurate average, Postman does not calculate averages using data from already derived averages.
 
-Failed test runs are the number of failed tests for collection runs during a period of time. The summary average is calculated by taking into account all the days (even if no request is sent during a day).
+Failed test runs are the number of failed tests for collection runs during a period of time. The summary average is calculated by taking into account all of the days in that time period (even if no requests are sent on certain days).
 
 ## Report detail
 
@@ -114,7 +114,7 @@ If you don't see any data in your reports, or your data is incomplete (for examp
 * You may not have enabled __Save Responses__ in the __History__ tab in the Postman app.
 * App sync is not successfully communicating with the Postman servers.
 
-> If none of the above reasons apply and you can't see data, please file a [github issue](https://github.com/postmanlabs/).
+> If none of the above reasons apply and you can't see your data, please file a [GitHub issue](https://github.com/postmanlabs/).
 
 ## Next steps
 
