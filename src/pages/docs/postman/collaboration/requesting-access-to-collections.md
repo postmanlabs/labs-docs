@@ -16,11 +16,9 @@ warning: false
 
 ---
 
-You can request a higher role to a team member's personal or private collection/API in your team if you have a link to it or if you can access it but not edit it. Once your request is submitted, the owner of the collection/API will be notified and can choose whether or not to grant you the role.
+You can request edit access to a team member's personal or private collection / API. You will need a link to the API or collection, or access to it in Postman. When you submit a request, the owner will receive a notification prompting them to choose whether to grant you the role.
 
 > The Viewer role is available depending on your [Postman plan](https://www.postman.com/pricing).
-
-This section describes:
 
 - [Requesting access to collections](#requesting-access-to-collections)
     - [Requesting viewer role on a collection](#requesting-viewer-role-on-a-collection)
@@ -31,6 +29,8 @@ This section describes:
 - [Approving requests for access](#approving-requests-for-access)
 
 ## Requesting access to collections
+
+You can request viewer or editor role on a collection.
 
 ### Requesting viewer role on a collection
 
@@ -50,7 +50,7 @@ This will trigger an email to the person you requested access from. When they ap
 
 ### Requesting editor role on a collection
 
-There might be collections that you can view but not edit. These collections have a 'lock' icon next to the collection name.
+There might be collections that you can view but not edit. These collections have a lock icon next to the collection name.
 
 <img src="https://assets.postman.com/postman-docs/collection-lock.png" width="300px">
 
@@ -71,6 +71,8 @@ This will trigger an email to the person you requested access from. When they ap
 
 ## Requesting access to APIs
 
+You can request viewer or editor role on an API.
+
 ### Requesting viewer role on an API
 
 You can request viewer access to a team member's personal API or a private API in your team if you have a link to the API.
@@ -80,33 +82,33 @@ You can request viewer access to a team member's personal API or a private API i
 2. Click **Request Access**.
 ![https://user-images.githubusercontent.com/5029719/74135024-74f39000-4be3-11ea-81e7-cb4bd4ef438a.png](https://user-images.githubusercontent.com/5029719/74135024-74f39000-4be3-11ea-81e7-cb4bd4ef438a.png)
 
-3. Select a person to send your request to, a [role](/docs/postman/collaboration/roles-and-permissions/), and one of your workspaces to add the collection to once access is granted.
+3. Select a person to send your request to, a [role](/docs/postman/collaboration/roles-and-permissions/), and one of your workspaces to add the API to once access is granted.
 
 4. Complete your request by clicking **Request Access**.
 
 ![https://user-images.githubusercontent.com/5029719/74135090-96547c00-4be3-11ea-8d41-12a67399f61e.gif](https://user-images.githubusercontent.com/5029719/74135090-96547c00-4be3-11ea-8d41-12a67399f61e.gif)
 
-This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same collection after that period.
+This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
 
 ### Requesting editor role on an API
 
-There might be APIs that you can view in your team workspace but can't edit. These collections have a 'lock' icon next to the API name.
+There might be APIs that you can view in your team workspace but can't edit. These APIs have a lock icon next to the API name.
 
 <img src="https://user-images.githubusercontent.com/5029719/74137405-a5d5c400-4be7-11ea-8820-5d0afeb74eca.png" width="300px">
 
-You can request the Editor role on this collection:
+You can request the Editor role on this API:
 
-1. Click the ellipsis icon (...) next to the collection name in the sidebar to open the following menu and choose **Manage Roles**.
+1. Click the ellipsis icon (...) next to the API name in the sidebar to open the following menu and choose **Manage Roles**.
 
 2. Click **Request Access** in the modal.
 
-3. Select a person to send the request to and select the __Editor__ [role](/docs/postman/collaboration/roles-and-permissions/#collection-roles) from the __Role__ dropdown list.
+3. Select a person to send the request to and select the __Editor__ [role](/docs/postman/collaboration/roles-and-permissions/) from the __Role__ dropdown list.
 
 4. Complete your request by clicking **Request Access**.
 
 ![https://user-images.githubusercontent.com/5029719/74138657-ec2c2280-4be9-11ea-8f79-b16d3ccbfa34.gif](https://user-images.githubusercontent.com/5029719/74138657-ec2c2280-4be9-11ea-8f79-b16d3ccbfa34.gif)
 
-This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same collection after that period.
+This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
 
 ### Approving requests for access
 
@@ -121,6 +123,6 @@ Your team members can request access from you in the following cases:
 You will receive an email detailing the request for access.
 ![https://user-images.githubusercontent.com/5029719/74138873-42996100-4bea-11ea-9aac-5e59826485a2.png](https://user-images.githubusercontent.com/5029719/74138873-42996100-4bea-11ea-9aac-5e59826485a2.png)
 
-Click **Approve Request** if you want to grant access to the collection. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
+Click **Approve Request** if you want to grant access to the collection or API. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
 
 To learn more about how you can collaborate with your team in Postman, see [Collaborating in Postman](https://learning.postman.com/docs/postman/collaboration/collaboration-intro/).
