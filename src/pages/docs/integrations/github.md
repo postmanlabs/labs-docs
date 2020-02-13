@@ -124,7 +124,7 @@ For a new API, click **APIs** in the app sidebar, then click **+ New API** at th
 
 For an existing API, navigate to your API by clicking **APIs** in the app sidebar, select your API from the list, then click **Connect Repository** to start configuring the integration.
 
-[![schema sync app](https://user-images.githubusercontent.com/5029719/72450955-1b9a6b80-37b3-11ea-9c64-44e7acc5166f.gif)](https://user-images.githubusercontent.com/5029719/72450955-1b9a6b80-37b3-11ea-9c64-44e7acc5166f.gif)
+[![schema sync app](https://user-images.githubusercontent.com/5029719/74430598-12092f80-4e55-11ea-918f-2ed52765e182.gif)](https://user-images.githubusercontent.com/5029719/74430598-12092f80-4e55-11ea-918f-2ed52765e182.gif)
 
 #### Configuration
 
