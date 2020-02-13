@@ -69,15 +69,15 @@ You can create a Postman monitor using a number of flows both in and outside of 
 
     2. **... button**: In the Postman app, hover over your collection and select **...** > **Monitor Collection**.
 
-5. **History**: In the Postman app, select **History**, hover over your request, click **...** > **Monitor Request**.
+4. **History**: In the Postman app, select **History**, hover over your request, click **...** > **Monitor Request**.
 
-6. [**Web dashboard**](https://app.getpostman.com/): 
+5. [**Web dashboard**](https://app.getpostman.com/):
 
     1. **Workspace**: Click into your workspace > **Monitors** > **Monitor a collection**.
-    
+
     2. **Collection**: Click into your workspace > **Collections** > select your collection > **...** > **Monitor Collection**. Alternatively, you can click to open your collection > **Monitors** > **Add Monitor**.
 
-7. **Postman API**: You can create a monitor with a POST request to the Postman API. Visit the [API docs](https://docs.api.getpostman.com/) > **Monitors** > **Create Monitor** to learn how to do so.
+6. **Postman API**: You can create a monitor with a POST request to the Postman API. Visit the [API docs](https://docs.api.getpostman.com/) > **Monitors** > **Create Monitor** to learn how to do so.
 
 You will need to give your new monitor a name and designate the collection you would like it to run, as well as the version. You can also add an environment here if you would like your monitor to use one.
 
