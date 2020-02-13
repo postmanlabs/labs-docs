@@ -53,7 +53,7 @@ Team reports provide the following information:
 
 * __Total number of APIs__ present in the team, including in private and public workspaces
 * __New APIs__ created within the team, not including new versions
-* __Active APIs__ having at least one request being sent through a linked collection
+* __Active APIs__ having at least one request being sent through a linked collection in the Postman app request builder
 * __Team size__ as the number of user accounts in the team
 * __Empty workspaces__ with no collections in them
 * __Active workspaces__ with at least one revision during a recent period, not including personal workspaces
