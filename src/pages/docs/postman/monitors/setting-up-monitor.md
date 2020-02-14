@@ -79,11 +79,11 @@ Launchpad is automatically enabled in the Postman app (to disable, click the wre
 
 ### Creating a monitor with the + New button
 
-In the Postman app, click [![new button](https://assets.postman.com/postman-docs/newbutton1.png)](https://assets.postman.com/postman-docs/newbutton1.png) > **Monitor**.
+In the Postman app, click **New** [![new button](https://assets.postman.com/postman-docs/newbutton1.png)](https://assets.postman.com/postman-docs/newbutton1.png) > **Monitor**.
 
 ### Creating a monitor via a collection
 
-* **&#x25B6; button**: In the Postman app, hover over your collection and select **&#x25B6;** > **Monitors** > **Create a monitor** or **+ Add monitor** (if you have an existing monitor).
+* **&#x25B6; button**: In the Postman app, hover over your collection and click the arrow button **&#x25B6;** > **Monitors** > **Create a monitor** or **+ Add monitor** (if you have an existing monitor).
 
 * **... button**: In the Postman app, hover over your collection and select **...** > **Monitor Collection**.
 
@@ -119,7 +119,7 @@ You can configure your monitor to run as often as you would like, automatically.
 
 > Frequency affects how quickly your monitoring usage compounds. To learn more about usage limits and overages, see [Pricing](/docs/postman/monitors/intro-monitors/#pricing).
 
-### Adding Regions
+### Adding regions
 
 You can allow Postman to auto-select a region for your monitor or you can opt to select your regions manually. Postman offers multiple regions to choose from, enabling you to accurately track uptime and reliability on a global scale, without the need to procure your own regional servers.
 
@@ -171,6 +171,6 @@ You can use **Don't follow redirects** to reject URL redirection for requests ru
 
 You can **Disable SSL validation** if you are using self-signed certicates to stop validations of SSL certificates. For more information, see [Certificates](/docs/postman/sending-api-requests/certificates/). To troubleshoot, see [Troubleshooting Self-signed SSL Certificate Issues](https://blog.postman.com/2019/07/17/self-signed-ssl-certificate-troubleshooting/).
 
-## Next Steps
+## Next steps
 
 Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results, and [how to monitor your APIs and websites](/docs/postman/monitors/monitoring-apis-websites/).
