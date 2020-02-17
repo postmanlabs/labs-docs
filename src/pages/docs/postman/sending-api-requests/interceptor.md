@@ -46,6 +46,8 @@ If you are using the Postman Chrome app, refer to [Using the Interceptor with Po
 
 * [Security](#security)
 
+* [Updating Interceptor](#updating-interceptor)
+
 * [Using Interceptor with Postman's Chrome app](#using-the-interceptor-with-postmans-chrome-app)
 
 ## Installing Interceptor
@@ -165,6 +167,16 @@ If the aforementioned troubleshooting steps do not fix the problem, you may need
 The communication between Interceptor and Postman is encrypted. You can change the default encryption key for additional security by opening the Postman app and heading to **View** > **Developer** > **Show DevTools (Current View)** > **Console**, then entering `pm.interceptorBridge.setKey("<your key here>")`.
 
 For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right click on the Interceptor icon in your browser, select **Inspect Popup** > **Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will now be encrypted using your own key.
+
+
+## Updating Interceptor
+
+To update Interceptor extension follow these steps:
+1. To open up your extensions page, click the menu icon at the top right of Chrome.
+2. Click on **More Tools** then click on **Extensions.**
+3. Flip the developer's mode on top-right corner.
+4. Click **Update** under developer's mode to update the extension.
+
 
 ## Using the Interceptor with Postman's Chrome app
 
