@@ -168,15 +168,17 @@ The communication between Interceptor and Postman is encrypted. You can change t
 
 For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right click on the Interceptor icon in your browser, select **Inspect Popup** > **Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will now be encrypted using your own key.
 
-
 ## Updating Interceptor
 
 To update Interceptor extension follow these steps:
-1. To open up your extensions page, click the menu icon at the top right of Chrome.
-2. Click on **More Tools** then click on **Extensions.**
-3. Flip the developer's mode on top-right corner.
-4. Click **Update** under developer's mode to update the extension.
 
+1. To open up your extensions page, click the menu icon at the top right of Chrome.
+
+2. Click on **More Tools** then click on **Extensions.**
+
+3. Flip the developer's mode on top-right corner.
+
+4. Click **Update** under developer's mode to update the extension.
 
 ## Using the Interceptor with Postman's Chrome app
 
