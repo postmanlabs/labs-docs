@@ -36,6 +36,8 @@ warning: false
 ---
 You can view and comment on private documentation shared with you. Documentation for each collection is published privately by default—you can make documentation visible within a team workspace by sharing the collection. You can optionally choose to publish documentation, in which case anyone with the link can view it.
 
+> If you have edit access to a collection, you can edit its documentation while viewing it in the web browser.
+
 ## Contents
 
 * [Viewing private documentation](#viewing-private-documentation)

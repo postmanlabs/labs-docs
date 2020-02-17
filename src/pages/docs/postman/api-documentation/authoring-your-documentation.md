@@ -27,7 +27,7 @@ contextual_links:
 warning: false
 ---
 
-You can include information in your API documentation using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Postman will [populate various parts of your documentation](/docs/postman/api-documentation/documenting-your-api/#including-detail-in-your-docs) from the information associated with the relevant collection. Your Markdown content can include standard structures and formatting such as headings, lists, images, links, bold / emphasis, code samples, blockquotes, and tables.
+You can include information in your API documentation using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Postman will [populate various parts of your documentation](/docs/postman/api-documentation/documenting-your-api/#including-detail-in-your-docs) from the information associated with the relevant collection. Your Markdown content can include standard structures and formatting such as headings, lists, images, links, bold / emphasis, code samples, blockquotes, and tables. You can author documentation either from the collection in the Postman app, or directly in the docs when viewing them in the web browser.
 
 ## Contents
 
@@ -43,7 +43,7 @@ You can include information in your API documentation using [Markdown](https://g
 
 ## Documenting with descriptions
 
-You can add descriptions to [various places](/docs/postman/collections/using-markdown-for-descriptions/) within your collections and requests, and they will appear in your documentation. You can include descriptions for [collections](#describing-collections), [requests, parameters, and headers](#documenting-request-detail).
+You can add descriptions to [various places](/docs/postman/collections/using-markdown-for-descriptions/) within your collections and requests, and they will appear in your documentation. You can include descriptions for [collections](#describing-collections), [requests, parameters, and headers](#documenting-request-detail). You can also edit directly on the web for any documentation on a collection you have edit access to.
 
 ## Describing collections
 
@@ -54,6 +54,10 @@ You can add a description when you create a collection, or by selecting the coll
 ![Add Description](https://assets.postman.com/postman-docs/add-collection-description.jpg)
 
 > When you include block elements, leave an empty line before and after to avoid any rendering issues.
+
+You can also edit descriptions in the web browser when you view documentation for collections where you have edit permissions.
+
+<img src="https://assets.postman.com/postman-docs/inline-edit-description.jpg" alt="Edit Description" width="500px"/>
 
 ## Documenting request detail
 
@@ -72,6 +76,24 @@ To add a description to an existing request, open the request in Postman and edi
 Descriptions will appear in the request section in your documentation.
 
 <img alt="Request Description in Docs" src="https://assets.postman.com/postman-docs/request-in-docs.jpg" width="350px"/>
+
+You can also edit the request detail including the description directly from your docs in the browser—editable text will highlight on hover.
+
+<img src="https://assets.postman.com/postman-docs/inline-edit-hover.jpg" alt="Edit Docs" width="500px"/>
+
+Click to edit a section of text.
+
+<img src="https://assets.postman.com/postman-docs/edit-request-name-inline.jpg" alt="Edit Request Name" width="250px"/>
+
+<img src="https://assets.postman.com/postman-docs/inline-edit-heading.jpg" alt="Edit Heading" width="400px"/>
+
+Make your changes, and save them.
+
+<img src="https://assets.postman.com/postman-docs/editing-inline-request.jpg" alt="Edit Request" width="300px"/>
+
+You will see a warning if your documentation contains any unsaved changes.
+
+<img src="https://assets.postman.com/postman-docs/unsaved-inline-edits.jpg" alt="Unsaved Edit" width="500px"/>
 
 ### Parameters and Headers
 
@@ -136,6 +158,10 @@ You can also see examples of documentation published using Postman collections b
 ![Template Docs](https://assets.postman.com/postman-docs/template-docs.jpg)
 
 > The [Postman API documentation](https://docs.api.getpostman.com/?version=latest) is authored using Postman.
+
+If you edit your docs on the web, (following the links from your collection in the Postman app, or the dashboard when logged into your account in the browser), you will see helpers for common formatting options and be able to preview your changes.
+
+<img src="https://assets.postman.com/postman-docs/inline-edit-options.jpg" alt="Inline Edit Options" width="500px"/>
 
 ## Next steps
 
