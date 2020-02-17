@@ -1,6 +1,6 @@
 ---
 title: "Creating the Run in Postman button"
-order: 145
+order: 331
 page_id: "creating_run_button"
 warning: false
 contextual_links:
@@ -8,14 +8,14 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
-    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+    url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
   - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Intuit"
-    url: "https://www.getpostman.com/case-studies/Intuit.pdf?_ga=2.79509908.1078379737.1571761632-963694147.1565912089"
+    url: "https://www.postman.com/case-studies/Intuit.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -25,15 +25,15 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Square simplifies API docs with the Run in Postman button"
-    url: "https://blog.getpostman.com/2017/07/21/square-simplifies-api-docs-with-the-run-in-postman-button/?_ga=2.168778017.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2017/07/21/square-simplifies-api-docs-with-the-run-in-postman-button/"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Intro to API documentation"
-    url: "https://learning.getpostman.com/docs/postman/api-documentation/documenting-your-api/"
+    url: "https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/"
   - type: link
     name: "Intro to environments and globals"
-    url: "https://learning.getpostman.com/docs/postman/environments_and_globals/intro_to_environments_and_globals"
+    url: "https://learning.postman.com/docs/postman/environments_and_globals/intro_to_environments_and_globals"
 
 ---
 
@@ -63,13 +63,15 @@ To create the Run in Postman button, start in the Postman app. Make sure you are
 Here’s an example markdown snippet:
 
 ```bash
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/:collection_id)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 ```
 
 Here’s an example HTML snippet:
 
 ```bash
-<a href="https://www.getpostman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
+<a href="https://www.postman.com/run-collection/:collection_id" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
+</a>
 ```
 
 The `:collection_id` is a placeholder here and will be auto-filled in the markdown snippet.

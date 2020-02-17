@@ -1,6 +1,6 @@
 ---
 title: "Viewing documentation"
-order: 66
+order: 124
 page_id: "viewing_documentation"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Cisco DevNet"
-    url: "https://www.getpostman.com/case-studies/CiscoDevNet.pdf?_ga=2.200107496.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/CiscoDevNet.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Simplifying API documentation for a great first user experience"
-    url: "https://blog.getpostman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/?_ga=2.202532055.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -47,7 +47,7 @@ You can view and comment on private documentation shared with you. Documentation
 
 You can [view documentation for any collection that has been shared with you](/docs/postman/api-documentation/documenting-your-api). You must be logged in to your Postman account to view private documentation.
 
-> Postman Pro and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
+> Postman Team, Business, and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
 To view documentation for a collection you have access to in the Postman app, select the collection, click the arrow (&#9654;), and choose __View in web__. The collection documentation will open in your web browser.
 
@@ -89,4 +89,4 @@ You can access [public documentation](/docs/postman/api-documentation/publishing
 
 ## Next steps
 
-Learn more about [collaborating with your team](/docs/postman/launching-postman/collaboration/) in Postman.
+Learn more about [collaborating with your team](/docs/postman/collaboration/collaboration-intro/) in Postman.

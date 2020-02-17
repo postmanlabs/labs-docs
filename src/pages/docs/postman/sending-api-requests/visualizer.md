@@ -1,7 +1,8 @@
 ---
 title: "Visualize API responses"
-order: 29
+order: 25
 page_id: "visualizer"
+search_keyword: "pm.visualizer.set, visualizer.set, pm.response.json, response.json, pm.getData, getData"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -54,6 +55,8 @@ Visualizers let you present your response data in ways that help to make sense o
 
 ## Visualizing response data
 
+`video: https://www.youtube.com/watch?v=i1jU-kivApg`
+
 To visualize your response data, add code to the __Pre-request__ or __Tests__ [script](/docs/postman/scripts/intro_to_scripts/) for the request. The `pm.visualizer.set()` method will apply your visualizer code to the data and present it in the __Visualize__ tab when the request runs.
 
 ### Adding visualizer code
@@ -86,7 +89,7 @@ The visualizer code creates a Handlebars template to render a table displaying t
 
 ```js
 var template = `
-    <table>
+    <table bgcolor="#FFFFFF">
         <tr>
             <th>Name</th>
             <th>Email</th>
@@ -164,7 +167,5 @@ You can debug a visualization in Postman by right-clicking in the __Visualize__ 
 ![Debugging Visualizers in Postman](https://assets.postman.com/postman-docs/visualizer-debugging.gif)
 
 ## Next steps
-
-The [visualizer demo video](https://www.youtube.com/watch?v=Qj7j3QsY2ok) walks through the process of building visualizations in Postman.
 
 You can try experimenting with visualizations using the collections [listed above](#try-it-out) as a starting point and tweak the code to get the results you need for your own data. For more on how Postman provides access to your response data inside scripts, check out the [Test Examples](/docs/postman/scripts/test-examples/).

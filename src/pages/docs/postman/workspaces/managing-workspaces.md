@@ -1,6 +1,6 @@
 ---
 title: "Managing Workspaces"
-order: 96
+order: 184
 page_id: "managing_workspaces"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "HotelBeds"
-    url: "https://www.getpostman.com/case-studies/Hotelbeds.pdf?_ga=2.127143115.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Hotelbeds.pdf"
   - type: section
     name: "Next Steps"
   - type: link
@@ -94,7 +94,7 @@ Add an existing environment to this workspace or [create a new environment](/doc
 
 ### Integrations
 
-View a list of current integrations or create a new one. Postman has [third party integrations](/docs/postman-pro/integrations/intro-integrations/) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
+View a list of current integrations or create a new one. Postman has [third party integrations](/docs/integrations/intro-integrations/) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
 
 ### Activity
 

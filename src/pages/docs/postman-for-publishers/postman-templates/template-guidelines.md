@@ -1,6 +1,6 @@
 ---
 title: "Template guidelines"
-order: 144
+order: 322
 page_id: "template_guidelines"
 warning: false
 contextual_links:

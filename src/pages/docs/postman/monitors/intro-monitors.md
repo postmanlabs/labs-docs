@@ -1,6 +1,6 @@
 ---
 title: "Intro to Monitoring"
-order: 72
+order: 161
 page_id: "intro_monitors"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Monetary"
-    url: "https://www.getpostman.com/case-studies/monetary.pdf?_ga=2.133824584.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/monetary.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -41,7 +41,13 @@ Postman Monitoring helps you to stay up to date on the health and performance of
 
 * [Pricing](#pricing)
 
-* [Monitor usage](#monitor-usage)
+    * [Usage limits](#usage-limits)
+
+    * [Overages](#overages)
+
+* [Viewing monitor usage](#viewing-monitor-usage)
+
+    * [How Postman calculates monitor usage](#how-postman-calculates-monitor-usage)
 
 * [Running collections in a monitor](#running-collections-in-a-monitor)
 
@@ -71,19 +77,27 @@ Monitoring is a way to stay up to date on the health and performance of your API
 
 Postman monitors are based on [collections](/docs/postman/collections/intro-to-collections/). Monitors can be scheduled as frequently as every five minutes and will run through each request in your collection, similar to the [collection runner](/docs/postman/collection-runs/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/postman/variables-and-environments/variables/#environments-in-postman) with variables you'd like to utilize during the collection run.
 
-The value of monitors lies in your [test scripts](/docs/postman/scripts/test-scripts/). When running your collection, a monitor will use your tests to validate the responses it's receiving. When one of these tests fail, you can automatically receive an email [notification](/docs/postman/notifications/#monitor-notifications) or configure the available [integrations](/docs/postman-pro/integrations/intro-integrations/) to receive alerts in tools like Slack, PagerDuty, or HipChat.
+The value of monitors lies in your [test scripts](/docs/postman/scripts/test-scripts/). When running your collection, a monitor will use your tests to validate the responses it's receiving. When one of these tests fail, you can automatically receive an email [notification](/docs/postman/notifications/#monitor-notifications) or configure the available [integrations](/docs/integrations/intro-integrations/) to receive alerts in tools like Slack, PagerDuty, or HipChat.
 
 ## Pricing
 
-You can use the Postman monitoring service with any paid or free plan type. To find an account type's usage limit, refer to your [usage overview](https://go.pstmn.io/postman-account-limits) or the [pricing](https://www.getpostman.com/pricing) page.
+You can use Postman monitoring with any paid or free plan type.
 
-With a free Postman account, once you reach the usage limit for monitoring you'll be automatically capped for the remainder of your monthly cycle. To continue to use monitoring for the remainder of your monthly cycle, you can [upgrade your Postman plan](/docs/postman-pro/managing-pro/upgrading-to-postman-pro-from-a-trial-team/).
+### Usage limits
 
-With a paid Postman account, you have the option to cap your monthly monitoring usage by navigating to your [billing dashboard](https://go.postman.co/billing) > **Overages** and deselecting **Allow monitoring overages**. Overages are allowed by default and are charged at a pay-as-you-go rate of $0.75/1,000 calls beyond your monthly usage limit. You can also opt to purchase monitoring blocks at a price of $20 for a pack of 50,000 calls, per month.
+You can find your account type's usage limits by referring to your [usage overview](https://go.pstmn.io/postman-account-limits).
 
-For more information on pricing and how we calculate monitoring usage, see [Pricing for monitors](/docs/postman/monitors/pricing-monitors/).
+### Overages
 
-## Monitor usage
+With a free Postman account, once you've reached your usage limit for monitoring you'll be automatically capped for the remainder of your monthly cycle. To continue to use monitoring for the remainder of your cycle, you can [upgrade your Postman plan](https://app.postman.co/purchase).
+
+With a paid Postman account, you have the option to cap your monthly monitoring usage by navigating to your [billing dashboard](https://go.postman.co/billing) > **Overages** and deselecting **Allow monitoring overages**. Overages are allowed by default and are charged at a pay-as-you-go rate. You can also opt to [purchase monitoring blocks](https://app.postman.co/billing/overview).
+
+> Unused monitoring requests or blocks do not roll over and must be consumed during the month purchased.
+
+See more on [how Postman calculates usage](#how-postman-calculates-monitor-usage).
+
+## Viewing monitor usage
 
 Your [monitor usage dashboard](https://go.postman.co/usage/monitors), also available by navigating to your general [usage dashboard](https://go.postman.co/usage) > **View detailed monitoring usage**, provides a high-level overview of your team's monitoring usage.
 
@@ -92,6 +106,12 @@ This page allows you to view your team's current billing period, how many reques
 [![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details.jpg)
 
 > If you are concerned about or are surprised by overages, this is the place to go to find all of your team's active monitors in one place, plus information to help you and your team make informed decisions on items like monitoring frequency.
+
+### How Postman calculates monitor usage
+
+Postman calculates monitoring usage based on the actual number of requests made during a run, which may or may not be equal to the number of requests in your collection.
+
+If you use `postman.setNextRequest()` to skip a request or run a request multiple times, Postman will take that into account when calculating usage. Postman will also count any requests required for [authorization](/docs/postman/sending-api-requests/authorization/).
 
 ## Running collections in a monitor
 
@@ -132,7 +152,7 @@ There are a few differences between running collections in a Postman monitor and
 
 ### Accessible APIs
 
-* Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available for [certain plan types](https://www.getpostman.com/pricing).
+* Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
 
 ## Monitor dashboard
 

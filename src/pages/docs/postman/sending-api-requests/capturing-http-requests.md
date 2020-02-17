@@ -1,6 +1,6 @@
 ---
 title: "Capturing HTTP requests"
-order: 22
+order: 32
 page_id: "capturing_http_requests"
 contextual_links:
   - type: section
@@ -25,7 +25,7 @@ contextual_links:
     url: "https://medium.com/postman-engineering/reverse-engineering-an-api-403fae885303"
   - type: link
     name: "Using Postman Proxy to Capture and Inspect API Calls from iOS or Android Devices"
-    url: "https://blog.getpostman.com/2016/06/26/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/?_ga=2.202729559.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/06/26/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
 
 warning: false
 
@@ -56,7 +56,7 @@ Similar to the [Interceptor Chrome extension](/docs/postman/sending-api-requests
 
 ## Using Postman's proxy example
 
-In this tutorial, we will use Postman's proxy feature to inspect HTTP communication going out from your phone. To get started, make sure your computer and mobile are connected to the same local wireless network.
+In this tutorial, you will use Postman's proxy feature to inspect HTTP communication going out from your phone. To get started, make sure your computer and mobile are connected to the same local wireless network.
 
 ### Step 1: Set up the proxy in Postman
 
@@ -72,13 +72,13 @@ Keep a note of the port mentioned in the proxy settings. In this case, let's kee
 
 On OS X, the computer's IP address can be found in _System Preferences > Network_. The IP address of your system will be something like the example here `192.168.0.101`.
 
-[![system preferences](https://blog.getpostman.com/wp-content/uploads/2016/06/osx-network-settings.png)](https://blog.getpostman.com/wp-content/uploads/2016/06/osx-network-settings.png)
+[![system preferences](https://blog.postman.com/wp-content/uploads/2016/06/osx-network-settings.png)](https://blog.postman.com/wp-content/uploads/2016/06/osx-network-settings.png)
 
 ### Step 3: Configure HTTP proxy on your mobile device
 
 Open the wireless settings of your mobile device and update the configuration of the wireless connection to use HTTP Proxy. Set the IP address with the IP you retrieved from your computer in the second step. Set the port with the port you established in Postman in **Step 1**.
 
-[![wireless settings on mobile device](https://blog.getpostman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)](https://blog.getpostman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)
+[![wireless settings on mobile device](https://blog.postman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)](https://blog.postman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)
 
 Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
 

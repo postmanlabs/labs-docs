@@ -1,7 +1,8 @@
 ---
 title: "Postman Sandbox"
-order: 45
+order: 96
 page_id: "postman_sandbox"
+search_keyword: "postman.getResponseHeader, pm.environment, pm.environment.name, environment.name, pm.environment.set, environment.set, pm.environment.get, environment.get, pm.environment.has, environment.has, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.globals.set, globals.set, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, guid, randomInt, responseCookies, getResponseCookie, responseHeaders, responseBody, responseTime, responseCode, iteration"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -17,7 +18,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Send asynchronous requests with Postman's PM API"
-    url: "https://blog.getpostman.com/2017/10/03/send-asynchronous-requests-with-postmans-pm-api/?_ga=2.162177274.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/10/03/send-asynchronous-requests-with-postmans-pm-api/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -71,7 +72,7 @@ For full list of available dynamic variables, see the [Postman Sandbox API Refer
 ## Cookies
 
 * `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](/docs/postman/sending-api-requests/interceptor/) for this to work.
-* `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](https://blog.getpostman.com/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
+* `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](https://blog.postman.com/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
 
 ## Request/response related properties
 
@@ -94,7 +95,7 @@ For full list of available dynamic variables, see the [Postman Sandbox API Refer
 
 ## Data files
 
-If you're using [data files](https://blog.getpostman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) in the Collection Runner or in Newman, you'll have access to a `data` object, which is a dictionary of data values in the current test run.
+If you're using [data files](https://blog.postman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) in the Collection Runner or in Newman, you'll have access to a `data` object, which is a dictionary of data values in the current test run.
 
 ## pm.* APIs
 

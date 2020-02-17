@@ -1,6 +1,6 @@
 ---
 title: "Sharing a collection run"
-order: 59
+order: 116
 page_id: "sharing_a_collection_run"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Tyk"
-    url: "https://www.getpostman.com/case-studies/Tyk.pdf?_ga=2.194158699.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Tyk.pdf"
   - type: section
     name: "Next Steps"
   - type: link

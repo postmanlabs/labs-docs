@@ -1,6 +1,6 @@
 ---
 title: "Certificates"
-order: 21
+order: 28
 page_id: "certificates"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Set and view SSL certificates with Postman"
-    url: "https://blog.getpostman.com/2017/12/05/set-and-view-ssl-certificates-with-postman/?_ga=2.204162902.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/05/set-and-view-ssl-certificates-with-postman/"
 
 warning: false
 
@@ -34,7 +34,7 @@ In the **Host** field, enter the domain (without protocol) of the request URL f
 
 You can also specify a custom port to associate with this domain in the **Port** field. This is optional. If left empty, the default HTTPS port (443) will be used.
 
-Choose your client certificate file in the **CRT file** field. Currently, we only support the CRT format. Support for other formats (like PFX) will come soon.
+Choose your client certificate file in the **CRT file** field. Currently, Postman only supports the CRT format. Support for other formats (like PFX) will come soon.
 
 Choose your client certificate key file in the **KEY file** field.
 

@@ -39,7 +39,7 @@ When your PR is opened it will run GitHub Actions which will lint the markdown f
 
 Upon approval your PR will be merged into develop for further verification and then merged into master upon final approval.
 
-[homepage]: https://learning.getpostman.com
+[homepage]: https://learning.postman.com
 
 > __Staff and Repo Collaborators__: Please only push to `develop` when changes are ready to publish. The `develop` branch is intended only as a last check to see edits live on the web in a production type build environment before publishing—changes shouldn't sit on the `develop` branch for long before pushing to `master`.
 

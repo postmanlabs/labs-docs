@@ -1,6 +1,6 @@
 ---
 title: "Setting up a mock server"
-order: 81
+order: 142
 page_id: "setting_up_mock"
 contextual_links:
   - type: section
@@ -22,10 +22,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Simulate a back end with Postman's mock service"
-    url: "https://blog.getpostman.com/2017/03/16/simulate-a-back-end-with-postmans-mock-service/?_ga=2.199962472.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/03/16/simulate-a-back-end-with-postmans-mock-service/"
   - type: link
     name: "Team collaboration with Postman mock servers"
-    url: "https://blog.getpostman.com/2017/09/20/team-collaboration-with-postman-mock-servers/?_ga=2.132882632.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/09/20/team-collaboration-with-postman-mock-servers/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -169,7 +169,7 @@ In addition to using the [Postman app](/docs/postman/mock-servers/mocking-with-e
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own.
 
-[Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely. In this case, we are referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
+[Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely, in this case referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
 
 CORS is enabled for Postman mock servers. As a result, you can stub your web apps with mocked data using the mock endpoints. Development or production web apps can then make requests to your Postman mock endpoint and receive an example response.
 

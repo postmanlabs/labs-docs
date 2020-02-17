@@ -1,8 +1,8 @@
 ---
 title: "Using variables"
-order: 48
+order: 81
 page_id: "variables"
-search_keyword: "collectionVariables, iterationData, collectionVariables.set, collectionVariables.get" 
+search_keyword: "collectionVariables, iterationData, collectionVariables.set, collectionVariables.get, JSON.stringify, JSON.parse, base_url, pm.globals.set, globals.set, pm.collectionVariables.set, collectionVariables.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.collectionVariables.get, collectionVariables.get, pm.environment.get, environment.get, pm.iterationData.get, iterationData.get" 
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,16 +29,16 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Dynamically unset environment variables"
-    url: "https://blog.getpostman.com/2019/05/28/pro-tip-dynamically-unset-postman-environment-variables/?_ga=2.159075580.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2019/05/28/pro-tip-dynamically-unset-postman-environment-variables/"
   - type: link
     name: "Find and replace text, code, and variables"
-    url: "https://blog.getpostman.com/2018/11/13/find-and-replace-text-code-and-variables-in-postman/?_ga=2.135555575.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/11/13/find-and-replace-text-code-and-variables-in-postman/"
   - type: link
     name: "10 tips for working with variables"
-    url: "https://blog.getpostman.com/2017/12/29/10-tips-for-working-with-postman-variables/?_ga=2.135555575.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/29/10-tips-for-working-with-postman-variables/"
   - type: link
     name: "Sessions FAQ"
-    url:  "https://blog.getpostman.com/2018/08/09/sessions-faq/"
+    url:  "https://blog.postman.com/2018/08/09/sessions-faq/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -256,6 +256,12 @@ Postman will send whatever value you currently have stored for the `cust_id` var
 
 ```
 http://pricey-trilby.glitch.me/customer?id=3
+```
+
+Alternatively, you could have a request body that accesses a variable by wrapping its reference in double-qoutes:
+
+```
+{ "customer_id" : "{{cust_id}}" }
 ```
 
 You can use variables in request URLs, parameters, headers, authorization, body, and header presets.

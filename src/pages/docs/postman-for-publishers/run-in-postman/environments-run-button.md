@@ -1,6 +1,6 @@
 ---
 title: "Environments in Run in Postman"
-order: 148
+order: 334
 page_id: "environments_run_button"
 warning: false
 contextual_links:
@@ -8,22 +8,22 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
-    url: "https://learning.getpostman.com/docs/postman/collections/intro-to-collections"
+    url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
   - type: link
     name: "Variables"
-    url: "https://learning.getpostman.com/docs/postman/variables-and-environments/variables"
+    url: "https://learning.postman.com/docs/postman/variables-and-environments/variables"
   - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Sikka"
-    url: "https://www.getpostman.com/case-studies/Sikka.pdf?_ga=2.150338102.1078379737.1571761632-963694147.1565912089"
+    url: "https://www.postman.com/case-studies/Sikka.pdf"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Intro to API documentation"
-    url: "https://learning.getpostman.com/docs/postman/api-documentation/documenting-your-api/"
+    url: "https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/"
 ---
 
 Including a shared environment with a shared collection can be useful in prompting users to input their own personal information with their own version of the template.  
@@ -38,7 +38,7 @@ Select the environment name from the dropdown, as shown in the screenshot above.
 
 ### On page load using Run in Postman’s JavaScript API
 
-Postman also provides an API using the `-pm()` method to programmatically generate an environment client-side. Read more about the [Run button API](/docs/postman-for-publishers/run-button/run-button-API/) and how to dynamically alter button behavior.
+Postman also provides an API using the `-pm()` method to programmatically generate an environment client-side. Read more about the [Run button API](/docs/postman-for-publishers/run-in-postman/run-button-API/) and how to dynamically alter button behavior.
 
 ```javascript
 _pm('env.create', 'Spotify', {

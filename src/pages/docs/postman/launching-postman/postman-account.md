@@ -1,6 +1,6 @@
 ---
 title: "Postman account"
-order: 6
+order: 7
 page_id: "postman_account"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "One person, multiple accounts"
-    url: "https://blog.getpostman.com/2017/10/12/one-person-multiple-accounts/?_ga=2.230294746.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/10/12/one-person-multiple-accounts/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -33,11 +33,11 @@ When you sign up for a free Postman account, you can:
 * Easily work on multiple Postman instances from different machines.
 * Create [collection links](/docs/postman/collections/sharing-collections/) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
+Signing up is completely optional. Read the [EULA](https://www.postman.com/licenses/postman_base_app), [security page](https://www.postman.com/security), and [privacy page](https://www.postman.com/licenses/privacy) to learn more.
 
 ## Signing up for a Postman account
 
-If you haven't already, [download](https://www.getpostman.com/downloads/) the Postman app.
+If you haven't already, [download](https://www.postman.com/downloads/) the Postman app.
 
 Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://assets.postman.com/postman-docs/59135838.png)](https://assets.postman.com/postman-docs/59135838.png)  
@@ -52,7 +52,7 @@ Postman provides you a better control over the length of your session on the dev
 
 If you don't want Postman to retain your credentials, clear the check box *Remember me*. This will ensure you to re-authenticate after 12 hours.
 
-Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/postman/launching-postman/syncing/). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to the servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/postman/launching-postman/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.getpostman.com/hc/en-us).
 
 [![header bar](https://assets.postman.com/postman-docs/postman+header+sync+5-10-18.png)](https://assets.postman.com/postman-docs/postman+header+sync+5-10-18.png)
 
@@ -99,7 +99,7 @@ To switch back to your previous account, click on the account user name in the d
 
 ## Security policies and standards
 
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security).
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.postman.com/security).
 
 * Communication with Postman servers only happens through HTTPS and Secure WebSockets.
 * Environment and global variables are encrypted so that only you can view them.
@@ -122,7 +122,7 @@ Check your email for instructions to recover your username or password.
 
 You can customize your Postman account with a profile picture that shows your username throughout the Postman dashboard.
 
-In [Postman web](https://www.getpostman.com/), click the **Dashboard** button, and then click the "Settings" icon. You must be signed in to see the **Dashboard** button.
+In [Postman web](https://www.postman.com/), click the **Dashboard** button, and then click the "Settings" icon. You must be signed in to see the **Dashboard** button.
 
 [![settings icon](https://assets.postman.com/postman-docs/settings-icon.png)](https://assets.postman.com/postman-docs/settings-icon.png)
 

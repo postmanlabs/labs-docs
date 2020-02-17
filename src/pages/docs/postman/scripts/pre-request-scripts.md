@@ -1,6 +1,6 @@
 ---
 title: "Pre-request scripts"
-order: 41
+order: 92
 page_id: "pre_request_scripts"
 contextual_links:
   - type: section
@@ -17,18 +17,18 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Raygun"
-    url: "https://www.getpostman.com/case-studies/raygun.pdf?_ga=2.226164956.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/raygun.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Germaphobia collection (see pre-request scripts in action)"
-    url: "https://blog.getpostman.com/2018/04/27/germaphobia/?_ga=2.226164956.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/04/27/germaphobia/"
   - type: link
     name: "The Good Collection (take advantage of the pre-request)"
-    url: "https://blog.getpostman.com/2018/03/08/the-good-collection/?_ga=2.228868314.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/03/08/the-good-collection/"
   - type: link
     name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.getpostman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.228868314.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/"
   - type: section
     name: "Next Steps"
   - type: link

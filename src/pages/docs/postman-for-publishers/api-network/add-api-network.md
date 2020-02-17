@@ -1,6 +1,6 @@
 ---
 title: "Adding your API to the Network"
-order: 141
+order: 312
 page_id: "add_api_network"
 warning: false
 contextual_links:
@@ -25,7 +25,7 @@ Sharing your docs exposes your API to the millions of developers who use Postman
 
 Your docs can convey detailed guidance on how to make requests to your API endpoints, as well as the workflows required to integrate with your API in general. This provides the information—and actionable data—developers need to get started using your services.
 
-> When you add your API to the network it will be associated with your public team profile listing. You can [set your profile up before publishing](#setting-up-your-profile) or Postman will generate one for you during publication and you can optionally customize it later.
+> When you add your API to the network it will be associated with your public team profile listing. You can [set your profile up before publishing](#setting-up-your-team-profile) or Postman will generate one for you during publication and you can optionally customize it later.
 
 ## Adding your API
 

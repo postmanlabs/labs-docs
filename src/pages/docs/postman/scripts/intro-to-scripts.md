@@ -1,7 +1,8 @@
 ---
 title: "Intro to scripts"
-order: 40
+order: 91
 page_id: "intro_to_scripts"
+search_keyword: "pm.test, pm.expect, pm.environment, pm.environment.get, environment.get, pm.response"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -17,10 +18,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.getpostman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/?_ga=2.191580268.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/"
   - type: link
     name: "Not your Grandma's Postman"
-    url: "https://blog.getpostman.com/2017/05/27/not-your-grandmas-postman/?_ga=2.191580268.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/27/not-your-grandmas-postman/"
   - type: section
     name: "Next Steps"
   - type: link

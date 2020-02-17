@@ -1,6 +1,6 @@
 ---
 title: "Run in Postman button API"
-order: 149
+order: 335
 page_id: "run_button_API"
 warning: false
 contextual_links:
@@ -8,12 +8,12 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Postman API"
-    url: "https://learning.getpostman.com/docs/postman/postman-api/intro-api"
+    url: "https://learning.postman.com/docs/postman/postman-api/intro-api"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Intro to scripts"
-    url: "https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts"
+    url: "https://learning.postman.com/docs/postman/scripts/intro_to_scripts"
 ---
 
 The JavaScript Run in Postman button exposes an API via the `_pm()` method. These API methods allow you to dynamically alter button behavior. Note that the `_pm()` API is not available for the static version of the Run in Postman button.

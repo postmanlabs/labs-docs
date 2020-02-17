@@ -1,26 +1,27 @@
 ---
 title: "Cookies"
-order: 20
+order: 27
 page_id: "cookies"
+search_keyword: "pm.cookies.jar, cookies.jar"
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
     name: "Settings"
-    url: "https://learning.getpostman.com/docs/postman/launching_postman/settings"
+    url: "https://learning.postman.com/docs/postman/launching_postman/settings"
   - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Using the Interceptor to read and write cookies"
-    url: "https://blog.getpostman.com/2014/11/28/using-the-interceptor-to-read-and-write-cookies/?_ga=2.202728535.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2014/11/28/using-the-interceptor-to-read-and-write-cookies/"
 
 warning: false
 
 ---
 
-Postman’s native apps provide a **MANAGE COOKIES** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to the section [Capturing cookies](/docs/postman/sending-api-requests/interceptor/).
+Postman’s native apps provide a **MANAGE COOKIES** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to [Syncing cookies](/docs/postman/sending-api-requests/interceptor/#syncing-cookies).
 
 > You can disable the cookie jar in the __Settings__ tab for a request at any time to toggle off sending cookies.
 
@@ -80,7 +81,7 @@ To create a "cookie jar", use the `pm.cookies.jar()` method. This will create an
 
 ## Creating a cookie
 
-After a cookie jar is created, we can place cookies into it by the following methods:
+After a cookie jar is created, you can place cookies into it by the following methods:
 
 1. Set a cookie using the `.set()` function, it takes a URL, a cookie name and a cookie value.
 
@@ -147,6 +148,6 @@ These are two properties that are not yet supported Postman.
         *   __Secure-
         *   __Host-
 
-Whenever you add a domain, Postman will sync all cookies for that domain from the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
+Whenever you add a domain, Postman will sync all cookies for that domain from the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The [Postman Interceptor](/docs/postman/sending-api-requests/interceptor/#syncing-cookies) extension keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
 
 Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click ‘x’ next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.

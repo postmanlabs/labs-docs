@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting API requests"
-order: 17
+order: 36
 page_id: "troubleshooting_api_requests"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Tyk"
-    url: "https://www.getpostman.com/case-studies/Tyk.pdf?_ga=2.237637446.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Tyk.pdf"
   - type: section
     name: "Next Steps"
   - type: link
@@ -62,7 +62,7 @@ Check whether you're accidentally using "https://" instead of "http://" in your 
 
 ### Invalid Postman behavior
 
-Very rarely, it is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs (if available). We're always watching out for these cases, so get in touch with the Postman team if you believe Postman is misbehaving. Let the Postman team know on our [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues) if you feel that Postman is not working as intended.
+Very rarely, it is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs (if available). We're always watching out for these cases, so get in touch with the Postman team if you believe Postman is misbehaving. Let the Postman team know on the Postman [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues) if you feel that Postman is not working as intended.
 
 ### Very short timeouts
 
@@ -74,4 +74,4 @@ If your server sends incorrect response encoding errors, or invalid headers, Pos
 
 If you still can't get your API working, help can frequently be found in the [Postman community](https://postmancommunity.slack.com) or [Stack Overflow](https://stackoverflow.com/questions/tagged/postman).
 
-If you've tried unsuccessfully troubleshooting the issue, search the [Postman issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow these [guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via our [support center](https://support.getpostman.com/hc) and include the app’s [console logs](/docs/postman/sending-api-requests/debugging-and-logs/) in your report to provide some helpful data for troubleshooting.
+If you've tried unsuccessfully troubleshooting the issue, search the [Postman issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow these [guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via the Postman [support center](https://support.getpostman.com/hc) and include the app’s [console logs](/docs/postman/sending-api-requests/debugging-and-logs/) in your report to provide some helpful data for troubleshooting.

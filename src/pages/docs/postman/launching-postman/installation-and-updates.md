@@ -1,6 +1,6 @@
 ---
 title: "Installation and updates"
-order: 1
+order: 2
 page_id: "installation_and_updates"
 warning: false
 contextual_links:
@@ -20,7 +20,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
-    url: "https://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/"
+    url: "https://blog.postman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -31,7 +31,7 @@ contextual_links:
 
 Postman is available as a native app for Mac, Windows (32-bit / 64-bit), and Linux (32-bit / 64-bit) operating systems.
 
-To get the latest version of the Postman app, visit the [download page](https://www.getpostman.com/downloads/) and click **Download** for your platform.
+To get the latest version of the Postman app, visit the [download page](https://www.postman.com/downloads/) and click **Download** for your platform.
 
 ![Postman download page](https://assets.postman.com/postman-docs/download-postman.jpg)
 
@@ -51,7 +51,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 ## Installing Postman on Mac
 
-[Download](https://www.getpostman.com/downloads/) and unzip the app _using the built-in Archive Utility app_. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
+[Download](https://www.postman.com/downloads/) and unzip the app _using the built-in Archive Utility app_. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
 
 > The minimum OS version supported is macOS 10.9.
 >
@@ -59,7 +59,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 ## Installing Postman on Windows
 
-[Download](https://www.getpostman.com/downloads/) the app. Double-click the `exe` file to install it.
+[Download](https://www.postman.com/downloads/) the app. Double-click the `exe` file to install it.
 
 > Postman supports Windows 7 and above. Both `ia32 (x86)` and `x64 (amd64)` installers are provided for Windows. The ARM version of Windows is not supported.
 
@@ -67,7 +67,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 You can install Postman on Linux by downloading it—or via the [Snap](https://snapcraft.io/postman) store link / using the command `snap install postman`.
 
-To install manually, [download](https://www.getpostman.com/downloads/) and unzip the app, for example into the `opt` directory. You will need `sudo` privileges.
+To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `opt` directory. You will need `sudo` privileges.
 
 To start the app from a launcher icon, create a desktop file, naming it `Postman.desktop` and saving it in the following location:
 
@@ -100,7 +100,7 @@ Categories=Development;
 
 The Postman Chrome app is deprecated—if you're using the Chrome app, you can [retain your data when you switch to the native app](#migrating-to-the-native-app) ___either by syncing with a Postman account you're signed into, or by exporting from Chrome and importing into the native app___.
 
-The native app is built on [Electron](https://electronjs.org/), and [overcomes a number of restrictions](https://blog.getpostman.com/2017/03/14/going-native/) of the Chrome platform.
+The native app is built on [Electron](https://electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/2017/03/14/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/postman/sending-api-requests/cookies/) directly.
 * Unlike the Chrome app, no separate extension for the ([Interceptor](/docs/postman/sending-api-requests/interceptor/)) is needed.
@@ -112,7 +112,7 @@ The native app is built on [Electron](https://electronjs.org/), and [overcomes 
 
 ### Migrating to the native app
 
-To switch from the Chrome app to native, [download](https://www.getpostman.com/downloads/) Postman and [sign in to your account](https://app.getpostman.com/). Start the native app, and your history and collections will be automatically synced.
+To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://app.getpostman.com/). Start the native app, and your history and collections will be automatically synced.
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app via __Settings__ &gt; __Data__.
 
@@ -156,8 +156,8 @@ Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Curren
 
 ### Update button not available
 
-If you are using Postman for Linux, and installed the app via the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence. It you are on Postman version 6, you will have to migrate to Postman 7 and change the Snap channel to get the latest updates. For more information see [Migrating to Postman 7](/docs/postman-pro/managing-pro/migrating-to-v7).
+If you are using Postman for Linux, and installed the app via the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence. It you are on Postman version 6, you will have to migrate to Postman 7 and change the Snap channel to get the latest updates. For more information see [Migrating to Postman 7](/docs/administration/migrating-to-v7/).
 
 ## Next steps
 
-If you're having trouble with installation or updates, reach out for [Postman support](https://www.getpostman.com/support). If your installation is working as expected, [send your first request](/docs/postman/launching-postman/sending-the-first-request)!
+If you're having trouble with installation or updates, reach out for [Postman support](https://www.postman.com/support). If your installation is working as expected, [send your first request](/docs/postman/launching-postman/sending-the-first-request)!

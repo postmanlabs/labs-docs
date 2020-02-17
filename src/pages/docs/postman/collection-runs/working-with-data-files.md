@@ -1,6 +1,6 @@
 ---
 title: "Working with data files"
-order: 56
+order: 117
 page_id: "working_with_data_files"
 contextual_links:
   - type: section
@@ -14,19 +14,19 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Looping through a data file in the Postman Collection Runner"
-    url: "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/?_ga=2.199429224.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/"
   - type: link
     name: "Read and write to REST-enabled databases"
-    url: "https://blog.getpostman.com/2018/02/09/read-and-write-to-rest-enabled-databases/?_ga=2.199429224.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/02/09/read-and-write-to-rest-enabled-databases/"
   - type: link
     name: "Write to your local file system using a Postman Collection"
-    url: "https://blog.getpostman.com/2017/09/01/write-to-your-local-file-system-using-a-postman-collection/?_ga=2.199429224.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/09/01/write-to-your-local-file-system-using-a-postman-collection/"
 
 warning: false
 
 ---
 
-Using data files is a powerful way to test the behavior of APIs with varying data in unexpected circumstances. We can think of data files as parameters for each iteration of a collection run.
+Using data files is a powerful way to test the behavior of APIs with varying data in unexpected circumstances. You can think of data files as parameters for each iteration of a collection run.
 
 Let’s walk through an example.
 
@@ -35,7 +35,7 @@ Let’s walk through an example.
 
 ## Getting started
 
-Before we begin, download the following collection and data files we'll use in this example.
+Before you begin, download the following collection and data files we'll use in this example.
 
 * [Collection.json](https://assets.postman.com/postman-docs/58533790.json)
 * [JSON](https://assets.postman.com/postman-docs/58702589.json)
@@ -65,7 +65,7 @@ See the red-circled highlighted area in the above screen. Use this option to sel
 
 ## Working with the sample files
 
-Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` in the request body.
+Here, you have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` in the request body.
 
 Use these variables in the same way as environment variables. We'll supply the value to these variables using the environment and data variables.
 
@@ -75,7 +75,7 @@ The Postman Sandbox initializes the data variable from the CSV files that we'll 
 
 [![using the data variable](https://assets.postman.com/postman-docs/working_with_datafiles/using_the_data_variable.png)](https://assets.postman.com/postman-docs/working_with_datafiles/using_the_data_variable.png)
 
-Let's investigate the data files first. We currently support JSON and CSV files. This examples talks only about .CSV data file.
+Let's investigate the data files first. Postman currently supports JSON and CSV files. This examples talks only about .CSV data file.
 
 Here's the CSV data file:
 
@@ -99,17 +99,17 @@ Click "Select File" in the Runner, and select one of these files. You can also 
 
 [![preview data](https://assets.postman.com/postman-docs/working_with_datafiles/preview_data.png)](https://assets.postman.com/postman-docs/working_with_datafiles/preview_data.png)
 
-Let's run our collection now. You'll see that all tests pass now.
+Let's run the collection now. You'll see that all tests pass now.
 
 If you open up the request debug tooltip, and expand "Request Body", you'll see that the variable `{{value}}` was replaced by the value, as dictated by the data file.
 
-Read more about [debugging requests](/docs/postman/collection-runs/debugging-a-collection-run/). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
+Read more about [debugging requests](/docs/postman/collection-runs/debugging-a-collection-run/). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to the API and have ensured that it works correctly for each case.
 
 [![request debug tooltip](https://assets.postman.com/postman-docs/working_with_datafiles/request_debug_tooltip.png)](https://assets.postman.com/postman-docs/working_with_datafiles/request_debug_tooltip.png)
 
-Let's also take a look at our test scripts once again. The variable `data` is a predefined variable that gets the values from the data file.
+Let's also take a look at the test scripts once again. The variable `data` is a predefined variable that gets the values from the data file.
 
-With each iteration, its value is updated with new data from our file. `data` is an object with all variables you defined in your file as its keys.
+With each iteration, its value is updated with new data from the file. `data` is an object with all variables you defined in your file as its keys.
 
 Since this API echoes back whatever is sent to it, we're asserting that the returned value from Echo is the same as the one dictated by our file.
 

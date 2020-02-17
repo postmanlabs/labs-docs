@@ -1,6 +1,6 @@
 ---
 title: "Debugging a collection run"
-order: 60
+order: 118
 page_id: "debugging_a_collection_run"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "The Postman Console"
-    url: "https://blog.getpostman.com/2016/08/26/the-postman-console/?_ga=2.234489944.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/08/26/the-postman-console/"
   - type: subtitle
     name: "Videos"
   - type: link

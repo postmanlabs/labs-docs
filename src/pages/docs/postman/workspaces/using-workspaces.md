@@ -1,6 +1,6 @@
 ---
 title: 'Using Workspaces'
-order: 97
+order: 183
 page_id: 'using_workspaces'
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Coursera"
-    url: "https://www.getpostman.com/case-studies/Coursera.pdf?_ga=2.135622007.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Coursera.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -34,7 +34,20 @@ warning: false
 
 Workspaces are an easy and efficient way to collaborate with a group of users to develop and test APIs. You can either organize your work in personal workspaces or work with others in team workspaces.
 
-In this section, you'll learn how to work in workspaces.
+In this section, you'll learn how to work in workspaces, including:
+
+* [Adding elements to another workspace](#adding-elements-to-another-workspace)
+* [Removing elements from a workspace](#removing-elements-from-a-workspace)
+* [Deleting a workspace](#deleting-a-workspace)
+* [Deleting elements in a workspace](#deleting-elements-in-a-workspace)
+* [Joining a workspace](#joining-a-workspace)
+* [Sharing a workspace](#sharing-a-workspace)
+* [Sharing collections and environments in workspaces](#sharing-collections-and-environments-in-workspaces)
+* [Viewing details of a workspace](#viewing-details-of-a-workspace)
+* [Renaming a workspace](#renaming-a-workspace)
+* [Leaving a workspace](#leaving-a-workspace)
+* [Editing a description of a workspace](#editing-a-description-of-a-workspace)
+* [Managing members of a team workspace](#managing-members-of-a-team-workspace)
 
 ## Adding elements to another workspace
 
@@ -124,7 +137,7 @@ From the "All Workspaces" view of the [Workspaces dashboard](https://app.getpost
 
 [![share personal workspace](https://assets.postman.com/postman-docs/Workspaces_Dashboard_Share.png)](https://assets.postman.com/postman-docs/Workspaces_Dashboard_Share.png)
 
-In "Share a personal workspace", search for existing team members with whom you want to share the workspace, or select them from the "Members" dropdown menu. If you are an Admin, adding users outside the team will invite them to join the team. Postman Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/postman/workspaces/intro-to-workspaces/#private-workspaces).
+In "Share a personal workspace", search for existing team members with whom you want to share the workspace, or select them from the "Members" dropdown menu. If you are an Admin, adding users outside the team will invite them to join the team. Postman Business and Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/postman/workspaces/intro-to-workspaces/#private-workspaces).
 
 [![share personal](https://assets.postman.com/postman-docs/Workspaces_Share_Invite_Dialog.png)](https://assets.postman.com/postman-docs/Workspaces_Share_Invite_Dialog.png)
 
@@ -134,7 +147,7 @@ Click the **Share this workspace** button. Your shared workspace will now appear
 
 You can share collections, environments, and other Postman elements in workspaces so that your teammates can view or edit them. Sharing an element in a workspace is the same as [adding an element to a workspace](#adding-elements-to-another-workspace) when you add the element to a team workspace.
 
-If you add an element to a team workspace, the collection will be visible to others on the team. Postman Enterprise users can create [private workspaces](/docs/postman/workspaces/intro-to-workspaces/#private-workspaces) to limit the visibility of a workspace to only invited team members.
+If you add an element to a team workspace, the collection will be visible to others on the team. Postman Business and Enterprise users can create [private workspaces](/docs/postman/workspaces/intro-to-workspaces/#private-workspaces) to limit the visibility of a workspace to only invited team members.
 
 Select this option to add a collection to another workspace. If added to a team workspace, the collection will be visible to others on the team.
 
