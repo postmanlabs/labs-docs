@@ -19,7 +19,7 @@ Currently, there are two ways to configure an integration with Microsoft Teams.
 
 ## Configuring Microsoft Teams
 
-1. In the [Integrations](https://go.postman.co/workspaces) page, find Microsoft Teams from a list of Postman’s third party integrations for Postman users.
+1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select Microsoft Teams from the list of third party integrations.
 
 [![select ms_teams integration](https://assets.postman.com/postman-docs/WS-integrations-msTeam.png)](https://assets.postman.com/postman-docs/WS-integrations-msTeam.png)
 
