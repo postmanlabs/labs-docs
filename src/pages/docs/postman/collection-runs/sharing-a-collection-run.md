@@ -23,25 +23,31 @@ contextual_links:
 
 warning: false
 ---
-To share a Collection, you can export a collection run to recipients who can import it in their Postman app.
+To share a Collections run results, you can export them from the Collection Runner so that they can be imported into another users Postman application.
 
-This topic describes how to [export](#exporting-a-run) and [import](#importing-a-run) a collection run.
+This topic will describe how to [export](#exporting-single-or-multipe-collection-runs) and [import](#importing-a-run) a collection run.
 
-## Exporting a run
+## Exporting single or multiple collection runs
 
-To export a collection run, click the download icon that appears when you hover over a run.
+To export a collection run, select the _Download_ icon. This will appear when you hover over a specific item in the _Recent Runs_ list.
 
-You can then save the generated JSON file wherever you want.
+This will open an explorer window, you can then save the generated JSON file to a local file directory.
 
 [![export collection run](https://assets.postman.com/postman-docs/Collection_Run_Export.png)](https://assets.postman.com/postman-docs/Collection_Run_Export.png)
 
-You also can select a collection run and click the **Export Results** button in the Runner's header. Then save the generated JSON file wherever you want.
+You also can select a collection run from the _Recent Runs_ list and click the **Export Results** button in the Runner's header. This will open an explorer window, you can then save the generated JSON file to a local file directory.
 
 [![export results](https://assets.postman.com/postman-docs/Collection_Run_Export_Results.png)](https://assets.postman.com/postman-docs/Collection_Run_Export_Results.png)
 
+To export multiple collections run results from the _Recent Runs_ list, hold down the command key and select the items from the list that you want to export. Select the _Download_ icon, this can be found on the right side of the _Recent Runs_ menu bar.
+
+This will open an explorer window, you can then save the generated .zip file of all the selected collection runs to a local file directory.
+
+[![export multiple results](https://assets.postman.com/postman-docs/Collection_Run_Export_Multiple_Results.png)](https://assets.postman.com/postman-docs/Collection_Run_Export_Multiple_Results.png)
+
 ## Importing a run
 
-To import a run, click the orange **Import Test Run** button on the Runner's selection screen. This action opens an explorer you can use to navigate and import a JSON collection run.
+To import a run, select the **Import Runs** button on the _Recent Runs_ menu bar. An explorer window will open, this can be used to navigate your local file directory and import either a JSON collection run file or a .zip file of multiple collections run results into Postman.
 
 [![import collection run](https://assets.postman.com/postman-docs/Collection_Run_Import_Results.png)](https://assets.postman.com/postman-docs/Collection_Run_Import_Results.png)
 
