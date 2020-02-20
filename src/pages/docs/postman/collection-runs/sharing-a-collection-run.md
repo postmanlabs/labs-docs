@@ -16,8 +16,7 @@ contextual_links:
 
 warning: false
 ---
-You can share the run results for a collection
-, by [exporting them from the Collection Runner](#exporting-collection-runs) so that other people can [import them into Postman](#importing-a-run).
+You can share the run results for a collection, by [exporting them from the Collection Runner](#exporting-collection-runs) so that other people can [import them into Postman](#importing-a-run).
 
 ## Exporting collection runs
 
