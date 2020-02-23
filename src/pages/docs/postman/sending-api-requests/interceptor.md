@@ -170,15 +170,13 @@ For the Interceptor extension, first enable **Developer mode** in [Chrome extens
 
 ## Updating Interceptor
 
-To update the Interceptor extension follow these steps:
+To update Interceptor, you can take the following steps:
 
-1. To open up your extensions page, click the menu icon at the top right of Chrome.
+1. View your existing Chrome extensions by clicking the menu icon at the top right of the Chrome app > **More Tools** > **Extensions.**
 
-2. Click **More Tools** then click **Extensions.**
+2. Click to turn on developer mode in the top-right corner.
 
-3. Switch on developer mode at the top-right corner.
-
-4. Click **Update** in developer mode to update the extension.
+3. Click **Update** on the top left to update your extensions.
 
 ## Using the Interceptor with Postman's Chrome app
 
