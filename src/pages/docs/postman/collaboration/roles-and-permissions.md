@@ -28,13 +28,13 @@ In Postman you can assign roles and permissions to provide access-control.
 
 * [Roles in Postman](#roles-in-postman)
 
-  * [Team roles](#team-roles)
+    * [Team roles](#team-roles)
 
-  * [Workspace roles](#workspace-roles)
+    * [Workspace roles](#workspace-roles)
 
-  * [API roles](#api-roles)
+    * [API roles](#api-roles)
 
-  * [Collection roles](#collection-roles)
+    * [Collection roles](#collection-roles)
 
 * [Managing roles and permissions](#managing-roles-and-permissions)
 
@@ -73,12 +73,12 @@ Team roles provide high-level access control:
 
 ### Workspace roles
 
-You can assign two role types in Postman workspaces: **Admin** and **Collaborator**. 
+You can assign two role types in Postman workspaces: **Admin** and **Collaborator**.
 
 * **Admin**: can manage workspace details and members
 * **Collaborator**: can work on team resources in a workspace
 
-These roles control access at a workspace level: 
+These roles control access at a workspace level:
 
 | Action | Admin | Collaborator |
 | --- | --- | --- |
@@ -96,7 +96,7 @@ These roles control access at a workspace level:
 
 ### API roles
 
-You can assign two role types in Postman APIs: **Viewer** and **Editor**. 
+You can assign two role types in Postman APIs: **Viewer** and **Editor**.
 
 * **Viewer**: can view, fork, and export APIs.
 * **Editor**: can edit APIs directly
@@ -121,7 +121,7 @@ These roles control access at an API level:
 
 ### Collection roles
 
-You can assign two role types in Postman collections: **Viewer** and **Editor**. 
+You can assign two role types in Postman collections: **Viewer** and **Editor**.
 
 * **Viewer**: can view, fork, and export collections
 * **Editor**: can edit collections directly
