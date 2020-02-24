@@ -2,7 +2,7 @@
 title: "Postman Sandbox API reference"
 order: 97
 page_id: "postman_sandbox_api_reference"
-search_keyword: "pm.info, eventName, iteration, iterationCount, requestName, requestId, pm.sendRequest, sendRequest, pm.expect, pm.test, pm.variables.has, variables.has, pm.variables.get, variables.get, pm.variables.toObject, variables.toObject, pm.variables.set, variables.set, pm.environment.name, environment.name, pm.environment.has, environment.has, pm.environment.get, environment.get, pm.environment.set, environment.set, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.environment.toObject, environment.toObject, pm.collectionVariables.has, collectionVariables.has, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.set, collectionVariables.set, pm.collectionVariables.unset, collectionVariables.unset, pm.collectionVariables.clear, collectionVariables.clear, pm.collectionVariables.toObject, collectionVariables.toObject, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.set, globals.set, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, pm.globals.toObject, globals.toObject, pm.request.url, request.url, pm.request.headers, request.headers, request.headers.add, headers.add, pm.request.headers.add, pm.request.headers.delete, request.headers.delete, headers.delete, pm.request.headers.upsert, request.headers.upsert, headers.upsert, pm.response.code, response.code, pm.response.reason, response.reason, pm.response.headers, response.headers, pm.response.responseTime, response.responseTime, pm.response.text, response.text, pm.response.json, response.json, pm.iterationData.get, iterationData.get, pm.iterationData.toObject, iterationData.toObject, pm.iterationData.addLayer, iterationData.addLayer, pm.iterationData.clear, iterationData.clear, pm.iterationData.has, iterationData.has, pm.iterationData.set, iterationData.set, pm.iterationData.syncVariablesFrom, iterationData.syncVariablesFrom, pm.iterationData.syncVariablesTo, iterationData.syncVariablesTo, pm.iterationData.toJSON, iterationData.toJSON, pm.iterationData.unset, iterationData.unset, pm.iterationData.variables, iterationData.variables, pm.iterationData.isVariableScope, iterationData.isVariableScope, pm.cookies.has, cookies.has, pm.cookies.get, cookies.get, pm.cookies.toObject, cookies.toObject, pm.cookies.jar, cookies.jar, jar.set, jar.getAll, jar.unset, jar.clear, pm.response.to.have, response.to.have, pm.response.to.be, response.to.be"
+search_keyword: "pm.info, eventName, iteration, iterationCount, requestName, requestId, pm.sendRequest, sendRequest, pm.expect, pm.test, pm.variables.has, variables.has, pm.variables.get, variables.get, pm.variables.toObject, variables.toObject, pm.variables.set, variables.set, pm.environment.name, environment.name, pm.environment.has, environment.has, pm.environment.get, environment.get, pm.environment.set, environment.set, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.environment.toObject, environment.toObject,  pm.environment.replaceIn, environment.replaceIn, pm.collectionVariables.has, collectionVariables.has, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.set, collectionVariables.set, pm.collectionVariables.unset, collectionVariables.unset, pm.collectionVariables.clear, collectionVariables.clear, pm.collectionVariables.toObject, collectionVariables.toObject, pm.collectionVariables.replaceIn, collectionVariables.replaceIn, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.set, globals.set, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, pm.globals.toObject, globals.toObject pm.globals.replaceIn, globals.replaceIn, pm.request.url, request.url, pm.request.method, request.method, pm.request.body, request.body, pm.request.headers, request.headers, request.headers.add, headers.add, pm.request.headers.add, pm.request.headers.remove, request.headers.remove, headers.delete, pm.request.headers.upsert, request.headers.upsert, headers.upsert, pm.response.code, response.code, pm.response.status, response.status, pm.response.headers, response.headers, pm.response.responseTime, response.responseTime, pm.response.responseSize, response.responseSize, pm.response.text, response.text, pm.response.json, response.json, pm.iterationData.get, iterationData.get, pm.iterationData.toObject, iterationData.toObject, pm.iterationData.addLayer, iterationData.addLayer, pm.iterationData.clear, iterationData.clear, pm.iterationData.has, iterationData.has, pm.iterationData.set, iterationData.set, pm.iterationData.syncVariablesFrom, iterationData.syncVariablesFrom, pm.iterationData.syncVariablesTo, iterationData.syncVariablesTo, pm.iterationData.toJSON, iterationData.toJSON, pm.iterationData.unset, iterationData.unset, pm.iterationData.variables, iterationData.variables, pm.iterationData.isVariableScope, iterationData.isVariableScope, pm.cookies.has, cookies.has, pm.cookies.get, cookies.get, pm.cookies.toObject, cookies.toObject, pm.cookies.jar, cookies.jar, jar.set, jar.getAll, jar.unset, jar.clear, pm.response.to.have, response.to.have, pm.response.to.be, response.to.be"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -164,8 +164,9 @@ In Postman, all variables conform to a specific hierarchy. All variables defined
 
 * `pm.variables.has(variableName:String):function → Boolean`: Check if there is a local variable in the current scope.
 * `pm.variables.get(variableName:String):function → *`: Get the value of the local variable with the specified name.
-* `pm.variables.toObject():function → Object`: Returns an object containing all the variables in the local scope.
 * `pm.variables.set(variableName:String, variableValue:String"):function → void`: Set a local variable with the given value.
+* `pm.variables.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
+* `pm.variables.toObject():function → Object`: Returns an object containing all the variables in the local scope.
 
 The variables defined in the individual scopes may also be accessed via `pm.environment` for the environment scope and `pm.globals` for the global scope.
 
@@ -177,9 +178,10 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 * `pm.environment.has(variableName:String):function → Boolean`: Check if the environment has a variable with the given name.
 * `pm.environment.get(variableName:String):function → *`: Get the environment variable with the given name.
 * `pm.environment.set(variableName:String, variableValue:String):function`: Sets an environment variable with the given name and value.
+* `pm.environment.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
+* `pm.environment.toObject():function → Object`: Returns all the environment variables in the form of a single object.
 * `pm.environment.unset(variableName:String):function`: Remove an environment variable with the specified name.
 * `pm.environment.clear():function`: Clears all the current environment variables.
-* `pm.environment.toObject():function → Object`: Returns all the environment variables in the form of a single object.
 
 ### pm.collectionVariables
 
@@ -188,9 +190,10 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 * `pm.collectionVariables.has(variableName:String):function → Boolean`: Check if there is a collection variable with the given name.
 * `pm.collectionVariables.get(variableName:String):function → *`: Returns the value of the collection variable with the given name.
 * `pm.collectionVariables.set(variableName:String, variableValue:String):function`: Sets a collection variable with given value.
+* `pm.collectionVariables.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
+* `pm.collectionVariables.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
 * `pm.collectionVariables.unset(variableName:String):function`: Clears the specified collection variable.
 * `pm.collectionVariables.clear():function`: Clear all the collection variables.
-* `pm.collectionVariables.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
 
 ### pm.globals
 
@@ -199,9 +202,10 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 * `pm.globals.has(variableName:String):function → Boolean`: Check if there is a global variable with the given name.
 * `pm.globals.get(variableName:String):function → *`: Returns the value of the global variable with the given name.
 * `pm.globals.set(variableName:String, variableValue:String):function`: Sets a global variable with given value.
+* `pm.globals.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
+* `pm.globals.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
 * `pm.globals.unset(variableName:String):function`: Clears the specified global variable.
 * `pm.globals.clear():function`: Clear all the global variables.
-* `pm.globals.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
 
 ### pm.request
 
@@ -215,8 +219,10 @@ The `request` object inside `pm` is a representation of the request for which th
 is made.
 * `pm.request.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html): Contains the list of
 headers for the current request.
+* `pm.request.method:String` The HTTP method of the sent request.
+* `pm.request.body:`[`RequestBody`](http://www.postmanlabs.com/postman-collection/RequestBody.html): Contains all the data related to the request body.
 * `pm.request.headers.add(headerName:String):function`: Adds a header with the specified name for the current request.
-* `pm.request.headers.delete(headerName:String):function`: Deletes the header with the specified name for the current request.
+* `pm.request.headers.remove(headerName:String):function`: Deletes the header with the specified name for the current request.
 * `pm.request.headers.upsert({ key: headerName:String, value: headerValue:String}):function)`: Inserts a header name and header value as given to the list of headers for the current request (if the header does not exist, otherwise the already
 existing header is updated to the new value).
 
@@ -231,9 +237,10 @@ Inside the test scripts, the `pm.response` object contains all information perta
 The response details are stored in the following format:
 
 * `pm.response.code:Number`
-* `pm.response.reason():Function → String`
+* `pm.response.status:String`
 * `pm.response.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html)
 * `pm.response.responseTime:Number`
+* `pm.response.responseSize:Number`
 * `pm.response.text():Function → String`
 * `pm.response.json():Function → Object`
 
