@@ -96,31 +96,50 @@ These roles control access at a workspace level:
 
 ### API roles
 
--insert table-
+You can assign two role types in Postman APIs: **Viewer** and **Editor**. 
+
+* **Viewer**: can view, fork, and export APIs.
+* **Editor**: can edit APIs directly
+
+These roles control access at an API level:
+
+| APIs |   Viewer   | Editor |
+| ---   |   ---     | ---   |
+| Edit and delete APIs |       | &#x2714;    |
+| Manage roles on APIs  |     | &#x2714;  |
+| Share APIs  |   &#x2714;   | &#x2714;   |
+| Comment on APIs |   &#x2714;   | &#x2714;   |
+| Create new API versions |     | &#x2714;   |
+| Update schema |     | &#x2714;   |
+| Generate collections from the schema |   &#x2714;  | &#x2714;   |
+| View reports for APIs |   &#x2714;  | &#x2714;   |
+| Add and remove API environments |   &#x2714;  | &#x2714;   |
+| Add and remove API documentation |   &#x2714;  | &#x2714;   |
+| Add and remove API test suites, integration tests, and contract tests |   &#x2714;  | &#x2714;   |
+| Add and remove API monitors |   &#x2714;  | &#x2714;   |
+| Add and remove API mock servers |   &#x2714;  | &#x2714;   |
 
 ### Collection roles
 
-You can assign two role types in Postman collections: **Collection Viewer** and **Collection Editor**. 
+You can assign two role types in Postman collections: **Viewer** and **Editor**. 
 
-* **Collection Viewer**: can view, fork, and export collections
-* **Collection Editor**: can edit collections directly
+* **Viewer**: can view, fork, and export collections
+* **Editor**: can edit collections directly
 
 These roles control access at a collection level:
 
 | Collections |   Viewer   | Editor |
 | ---   |   ---     | ---   |
+| Edit and delete collections |       | &#x2714;    |
+| Manage roles on collections  |     | &#x2714;  |
+| Export collections  |   &#x2714;   | &#x2714;   |
+| Fork collections |   &#x2714;   | &#x2714;   |
+| Merge forks on collections  |         | &#x2714;   |
+| Publish collection documentation and add to API Network  |      | &#x2714;  |
+| Share collections to a different workspace  |  &#x2714;  | &#x2714;   |
+| Tag and restore collection versions   |    | &#x2714;   |
 | Add, edit, and delete mock servers  |         | &#x2714;   |
 | Add, edit, and delete monitors |       | &#x2714;    |
-| Edit and delete a collection |       | &#x2714;    |
-| Manage roles on collections  |     | &#x2714;  |
-| View and run collections  |     | &#x2714;  |
-| View and run collection runs  |   &#x2714;    | &#x2714;  |
-| Export a collection  |   &#x2714;   | &#x2714;   |
-| Fork a collection |   &#x2714;   | &#x2714;   |
-| Merge forks on a collection  |         | &#x2714;   |
-| Publish collection documentation and add to API Network or Postman template  |      | &#x2714;  |
-| Share collection to a different workspace  |  &#x2714;  | &#x2714;   |
-| Tag and restore collection versions   |    | &#x2714;   |
 
 ## Managing roles and permissions
 
@@ -128,4 +147,4 @@ To manage team roles, see [Managing roles](/docs/postman-pro/managing-pro/managi
 
 ## Next steps
 
--insert next step-
+Learn more about [Collaborating in Postman](/docs/postman/collaboration/collaboration-intro/).
