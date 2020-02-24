@@ -220,7 +220,7 @@ is made.
 * `pm.request.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html): Contains the list of
 headers for the current request.
 * `pm.request.method:String` The HTTP method of the sent request.
-* `pm.request.body:`[`RequestBody`](http://www.postmanlabs.com/postman-collection/RequestBody.html): Contains all the data related to the request body. 
+* `pm.request.body:`[`RequestBody`](http://www.postmanlabs.com/postman-collection/RequestBody.html): Contains all the data related to the request body.
 * `pm.request.headers.add(headerName:String):function`: Adds a header with the specified name for the current request.
 * `pm.request.headers.remove(headerName:String):function`: Deletes the header with the specified name for the current request.
 * `pm.request.headers.upsert({ key: headerName:String, value: headerValue:String}):function)`: Inserts a header name and header value as given to the list of headers for the current request (if the header does not exist, otherwise the already
