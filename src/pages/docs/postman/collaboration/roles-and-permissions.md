@@ -38,6 +38,8 @@ In Postman you can assign roles and permissions to provide access-control.
 
 * [Managing roles and permissions](#managing-roles-and-permissions)
 
+* [FAQ](#faq)
+
 * [Next steps](#next-steps)
 
 ## Roles in Postman
@@ -140,6 +142,10 @@ These roles control access at a collection level:
 | Tag and restore collection versions   |    | &#x2714;   |
 | Add, edit, and delete mock servers  |         | &#x2714;   |
 | Add, edit, and delete monitors |       | &#x2714;    |
+
+## FAQ
+
+xyz
 
 ## Managing roles and permissions
 
