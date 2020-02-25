@@ -2,7 +2,7 @@
 title: "Postman Sandbox API reference"
 order: 97
 page_id: "postman_sandbox_api_reference"
-search_keyword: "pm.info, eventName, iteration, iterationCount, requestName, requestId, pm.sendRequest, sendRequest, pm.expect, pm.test, pm.variables.has, variables.has, pm.variables.get, variables.get, pm.variables.toObject, variables.toObject, pm.variables.set, variables.set, pm.environment.name, environment.name, pm.environment.has, environment.has, pm.environment.get, environment.get, pm.environment.set, environment.set, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.environment.toObject, environment.toObject, pm.collectionVariables.has, collectionVariables.has, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.set, collectionVariables.set, pm.collectionVariables.unset, collectionVariables.unset, pm.collectionVariables.clear, collectionVariables.clear, pm.collectionVariables.toObject, collectionVariables.toObject, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.set, globals.set, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, pm.globals.toObject, globals.toObject, pm.request.url, request.url, pm.request.headers, request.headers, request.headers.add, headers.add, pm.request.headers.add, pm.request.headers.delete, request.headers.delete, headers.delete, pm.request.headers.upsert, request.headers.upsert, headers.upsert, pm.response.code, response.code, pm.response.reason, response.reason, pm.response.headers, response.headers, pm.response.responseTime, response.responseTime, pm.response.text, response.text, pm.response.json, response.json, pm.iterationData.get, iterationData.get, pm.iterationData.toObject, iterationData.toObject, pm.iterationData.addLayer, iterationData.addLayer, pm.iterationData.clear, iterationData.clear, pm.iterationData.has, iterationData.has, pm.iterationData.set, iterationData.set, pm.iterationData.syncVariablesFrom, iterationData.syncVariablesFrom, pm.iterationData.syncVariablesTo, iterationData.syncVariablesTo, pm.iterationData.toJSON, iterationData.toJSON, pm.iterationData.unset, iterationData.unset, pm.iterationData.variables, iterationData.variables, pm.iterationData.isVariableScope, iterationData.isVariableScope, pm.cookies.has, cookies.has, pm.cookies.get, cookies.get, pm.cookies.toObject, cookies.toObject, pm.cookies.jar, cookies.jar, jar.set, jar.getAll, jar.unset, jar.clear, pm.response.to.have, response.to.have, pm.response.to.be, response.to.be"
+search_keyword: "pm.info, eventName, iteration, iterationCount, requestName, requestId, pm.sendRequest, sendRequest, pm.expect, pm.test, pm.variables.has, variables.has, pm.variables.get, variables.get, pm.variables.toObject, variables.toObject, pm.variables.set, variables.set, pm.environment.name, environment.name, pm.environment.has, environment.has, pm.environment.get, environment.get, pm.environment.set, environment.set, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.environment.toObject, environment.toObject,  pm.environment.replaceIn, environment.replaceIn, pm.collectionVariables.has, collectionVariables.has, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.set, collectionVariables.set, pm.collectionVariables.unset, collectionVariables.unset, pm.collectionVariables.clear, collectionVariables.clear, pm.collectionVariables.toObject, collectionVariables.toObject, pm.collectionVariables.replaceIn, collectionVariables.replaceIn, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.set, globals.set, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, pm.globals.toObject, globals.toObject pm.globals.replaceIn, globals.replaceIn, pm.request.url, request.url, pm.request.method, request.method, pm.request.body, request.body, pm.request.headers, request.headers, request.headers.add, headers.add, pm.request.headers.add, pm.request.headers.remove, request.headers.remove, headers.delete, pm.request.headers.upsert, request.headers.upsert, headers.upsert, pm.response.code, response.code, pm.response.status, response.status, pm.response.headers, response.headers, pm.response.responseTime, response.responseTime, pm.response.responseSize, response.responseSize, pm.response.text, response.text, pm.response.json, response.json, pm.iterationData.get, iterationData.get, pm.iterationData.toObject, iterationData.toObject, pm.iterationData.addLayer, iterationData.addLayer, pm.iterationData.clear, iterationData.clear, pm.iterationData.has, iterationData.has, pm.iterationData.set, iterationData.set, pm.iterationData.syncVariablesFrom, iterationData.syncVariablesFrom, pm.iterationData.syncVariablesTo, iterationData.syncVariablesTo, pm.iterationData.toJSON, iterationData.toJSON, pm.iterationData.unset, iterationData.unset, pm.iterationData.variables, iterationData.variables, pm.iterationData.isVariableScope, iterationData.isVariableScope, pm.cookies.has, cookies.has, pm.cookies.get, cookies.get, pm.cookies.toObject, cookies.toObject, pm.cookies.jar, cookies.jar, jar.set, jar.getAll, jar.unset, jar.clear, pm.response.to.have, response.to.have, pm.response.to.be, response.to.be"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -164,8 +164,9 @@ In Postman, all variables conform to a specific hierarchy. All variables defined
 
 * `pm.variables.has(variableName:String):function → Boolean`: Check if there is a local variable in the current scope.
 * `pm.variables.get(variableName:String):function → *`: Get the value of the local variable with the specified name.
-* `pm.variables.toObject():function → Object`: Returns an object containing all the variables in the local scope.
 * `pm.variables.set(variableName:String, variableValue:String"):function → void`: Set a local variable with the given value.
+* `pm.variables.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
+* `pm.variables.toObject():function → Object`: Returns an object containing all the variables in the local scope.
 
 The variables defined in the individual scopes may also be accessed via `pm.environment` for the environment scope and `pm.globals` for the global scope.
 
@@ -177,9 +178,10 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 * `pm.environment.has(variableName:String):function → Boolean`: Check if the environment has a variable with the given name.
 * `pm.environment.get(variableName:String):function → *`: Get the environment variable with the given name.
 * `pm.environment.set(variableName:String, variableValue:String):function`: Sets an environment variable with the given name and value.
+* `pm.environment.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
+* `pm.environment.toObject():function → Object`: Returns all the environment variables in the form of a single object.
 * `pm.environment.unset(variableName:String):function`: Remove an environment variable with the specified name.
 * `pm.environment.clear():function`: Clears all the current environment variables.
-* `pm.environment.toObject():function → Object`: Returns all the environment variables in the form of a single object.
 
 ### pm.collectionVariables
 
@@ -188,9 +190,10 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 * `pm.collectionVariables.has(variableName:String):function → Boolean`: Check if there is a collection variable with the given name.
 * `pm.collectionVariables.get(variableName:String):function → *`: Returns the value of the collection variable with the given name.
 * `pm.collectionVariables.set(variableName:String, variableValue:String):function`: Sets a collection variable with given value.
+* `pm.collectionVariables.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
+* `pm.collectionVariables.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
 * `pm.collectionVariables.unset(variableName:String):function`: Clears the specified collection variable.
 * `pm.collectionVariables.clear():function`: Clear all the collection variables.
-* `pm.collectionVariables.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
 
 ### pm.globals
 
@@ -199,9 +202,10 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 * `pm.globals.has(variableName:String):function → Boolean`: Check if there is a global variable with the given name.
 * `pm.globals.get(variableName:String):function → *`: Returns the value of the global variable with the given name.
 * `pm.globals.set(variableName:String, variableValue:String):function`: Sets a global variable with given value.
+* `pm.globals.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
+* `pm.globals.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
 * `pm.globals.unset(variableName:String):function`: Clears the specified global variable.
 * `pm.globals.clear():function`: Clear all the global variables.
-* `pm.globals.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
 
 ### pm.request
 
@@ -215,8 +219,10 @@ The `request` object inside `pm` is a representation of the request for which th
 is made.
 * `pm.request.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html): Contains the list of
 headers for the current request.
+* `pm.request.method:String` The HTTP method of the sent request.
+* `pm.request.body:`[`RequestBody`](http://www.postmanlabs.com/postman-collection/RequestBody.html): Contains all the data related to the request body.
 * `pm.request.headers.add(headerName:String):function`: Adds a header with the specified name for the current request.
-* `pm.request.headers.delete(headerName:String):function`: Deletes the header with the specified name for the current request.
+* `pm.request.headers.remove(headerName:String):function`: Deletes the header with the specified name for the current request.
 * `pm.request.headers.upsert({ key: headerName:String, value: headerValue:String}):function)`: Inserts a header name and header value as given to the list of headers for the current request (if the header does not exist, otherwise the already
 existing header is updated to the new value).
 
@@ -231,9 +237,10 @@ Inside the test scripts, the `pm.response` object contains all information perta
 The response details are stored in the following format:
 
 * `pm.response.code:Number`
-* `pm.response.reason():Function → String`
+* `pm.response.status:String`
 * `pm.response.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html)
 * `pm.response.responseTime:Number`
+* `pm.response.responseSize:Number`
 * `pm.response.text():Function → String`
 * `pm.response.json():Function → Object`
 
@@ -444,9 +451,9 @@ The following is a list of dynamic variables whose values are randomly generated
 |                           |                                               | `"53151b27-034f-45a0-9f0a-d7b6075b67d0"`   |
 |                           |                                               | `"727131a2-2717-44ad-ab02-006587e947dc"`   |
 
-### Text, numbers and colors
+### Text, Numbers and Colors
 
-| **Variable Name**         | **Decription**                                | **Examples**                               |
+| **Variable Name**         | **Description**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
 | **`$randomAlphaNumeric`** | A random alpha-numeric character              | `6`, `"y"`, `"z"`                          |
 | **`$randomBoolean`**      | A random boolean value (true/false)           | `true`, `false`, `false`, `true`           |
@@ -455,9 +462,9 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomHexColor`**     | A random hex value                            | `"#47594a"`, `"#431e48"`, `"#106f21"`      |
 | **`$randomAbbreviation`** | A random abbreviation                         | `SQL`, `PCI`, `JSON`                       |
 
-### Internet and IP addresses
+### Internet and IP Addresses
 
-| **Variable Name**         | **Decription**                                | **Examples**                               |
+| **Variable Name**         | **Description**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
 | **`$randomIP`**           | A random IPv4 address                         | `241.102.234.100`, `216.7.27.38`           |
 | **`$randomIPV6`**         | A random IPv6 address                         | `dbe2:7ae6:119b:c161:1560:6dda:3a9b:90a9`  |
@@ -474,7 +481,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Names
 
-| **Variable Name**             | **Decription**                | **Examples**                                              |
+| **Variable Name**             | **Description**                | **Examples**                                              |
 |:------------------------------|:------------------------------|:----------------------------------------------------------|
 | **`$randomFirstName`**        | A random first name           | `Ethan`, `Chandler`, `Megane`                             |
 | **`$randomLastName`**         | A random last name            | `Schaden`, `Schneider`, `Willms`                          |
@@ -484,7 +491,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Profession
 
-| **Variable Name**             | **Decription**                | **Examples**                                              |
+| **Variable Name**             | **Description**                | **Examples**                                              |
 |:------------------------------|:------------------------------|:----------------------------------------------------------|
 | **`$randomJobArea`**          | A random job area             | `Mobility`, `Intranet`, `Configuration`                   |
 | **`$randomJobDescriptor`**    | A random job descriptor       | `Forward`, `Corporate`, `Senior`                          |
@@ -495,7 +502,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Phone, Address and Location
 
-| **Variable Name**             | **Decription**                | **Examples**                                              |
+| **Variable Name**             | **Description**                | **Examples**                                              |
 |:------------------------------|:------------------------------|:----------------------------------------------------------|
 | **`$randomPhoneNumber`**      | A random 10-digit phone number| `700-008-5275`, `494-261-3424`, `662-302-7817`            |
 | **`$randomPhoneNumberExt`**   | A random phone number with extension (12 digits) | `27-199-983-3864`, `99-841-448-2775`   |
@@ -509,7 +516,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Images
 
-| **Variable Name**         | **Decription**                                | **Examples**                               |
+| **Variable Name**         | **Description**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
 | **`$randomImage`**        | A random image                                | `http://lorempixel.com/640/480/technics`   |
 |                           |                                               | `http://lorempixel.com/640/480/food`       |
@@ -535,7 +542,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Finance
 
-| **Variable Name**          | **Decription**                                | **Examples**                                 |
+| **Variable Name**          | **Description**                                | **Examples**                                 |
 |:---------------------------|:----------------------------------------------|:---------------------------------------------|
 | **`$randomBankAccount`**   | A random 8-digit bank account number          | `09454073`, `65653440`, `75728757`           |
 |**`$randomBankAccountName`**| A random bank account name (e.g. savings account, checking account) | `Home Loan Account`, `Checking Account`, `Auto Loan Account` |
@@ -554,7 +561,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Business
 
-| **Variable Name**         | **Decription**                                | **Examples**                               |
+| **Variable Name**         | **Description**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
 | **`$randomCompanyName`**  | A random company name                         | `Johns - Kassulke`, `Grady LLC`            |
 | **`$randomCompanySuffix`**| A random company suffix (e.g. Inc, LLC, Group)| `Inc`, `LLC`, `Group`                      |
@@ -567,7 +574,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Catchphrases
 
-| **Variable Name**                 | **Decription**                        | **Examples**                                        |
+| **Variable Name**                 | **Description**                        | **Examples**                                        |
 |:----------------------------------|:--------------------------------------|:----------------------------------------------------|
 | **`$randomCatchPhrase`**          | A random catchphrase                  | `Future-proofed heuristic open architecture`,       |
 |                                   |                                       | `Quality-focused executive toolset`,                |
@@ -578,7 +585,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Databases
 
-| **Variable Name**             | **Decription**                            | **Examples**                               |
+| **Variable Name**             | **Description**                            | **Examples**                               |
 |:------------------------------|:------------------------------------------|:-------------------------------------------|
 | **`$randomDatabaseColumn`**   | A random database column name             | `updatedAt`, `token`, `group`              |
 | **`$randomDatabaseType`**     | A random database type                    | `tinyint`, `text`                          |
@@ -587,7 +594,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Dates
 
-| **Variable Name**             | **Decription**                  | **Examples**                                              |
+| **Variable Name**             | **Description**                  | **Examples**                                              |
 |:------------------------------|:--------------------------------|:----------------------------------------------------------|
 | **`$randomDateFuture`**       | A random future datetime        | `Tue Mar 17 2020 13:11:50 GMT+0530 (India Standard Time)`,|
 |                               |                                 | `Fri Sep 20 2019 23:51:18 GMT+0530 (India Standard Time)`,|
@@ -603,7 +610,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Domains, Emails and Usernames
 
-| **Variable Name**             | **Decription**                  | **Examples**                                              |
+| **Variable Name**             | **Description**                  | **Examples**                                              |
 |:------------------------------|:--------------------------------|:----------------------------------------------------------|
 | **`$randomDomainName`**       | A random domain name            | `gracie.biz`, `armando.biz`, `trevor.info`                |
 | **`$randomDomainSuffix`**     | A random domain suffix          | `org`, `net`, `com`                                       |
@@ -615,7 +622,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Files and Directories
 
-| **Variable Name**             | **Decription**                                        | **Examples**                            |
+| **Variable Name**             | **Description**                                        | **Examples**                            |
 |:------------------------------|:------------------------------------------------------|:----------------------------------------|
 | **`$randomFileName`**         | A random file name (includes uncommon extensions)     | `neural_sri_lanka_rupee_gloves.gdoc`,   |
 |                               |                                                       | `plastic_awesome_garden.tif`,           |
@@ -637,7 +644,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Stores
 
-| **Variable Name**             | **Decription**                           | **Examples**                                   |
+| **Variable Name**             | **Description**                           | **Examples**                                   |
 |:------------------------------|:-----------------------------------------|:-----------------------------------------------|
 | **`$randomPrice`**            | A random price between 100.00 and 999.00 | `531.55`, `488.76`, `511.56`                   |
 | **`$randomProduct`**          | A random product                         | `Towels`, `Pizza`, `Pants`                     |
@@ -648,7 +655,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Grammar
 
-| **Variable Name**             | **Decription**                           | **Examples**                                   |
+| **Variable Name**             | **Description**                           | **Examples**                                   |
 |:------------------------------|:-----------------------------------------|:-----------------------------------------------|
 | **`$randomNoun`**             | A random noun                            | `matrix`, `bus`, `bandwidth`                   |
 | **`$randomVerb`**             | A random verb                            | `parse`, `quantify`, `navigate`                |
@@ -664,7 +671,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 ### Lorem Ipsum
 
-| **Variable Name**             | **Decription**                  | **Examples**                                              |
+| **Variable Name**             | **Description**                  | **Examples**                                              |
 |:------------------------------|:--------------------------------|:----------------------------------------------------------|
 | **`$randomLoremWord`**        |A random word of lorem ipsum text| `est`                                                     |
 | **`$randomLoremWords`**       |Some random words of lorem ipsum text| `vel repellat nobis`                                  |

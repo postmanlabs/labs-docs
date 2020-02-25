@@ -31,13 +31,14 @@ const searchClient = {
 
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
-  if (props !== 'getpostmanlogin') {
+  const { cookie } = props;
+  if (cookie !== 'yes') {
     return (
       <a href="https://identity.getpostman.com/login" className="btn btn__primary">Sign In</a>
     );
   }
   return (
-    <a href="https://app.getpostman.com/" className="btn btn__primary">Dashboard</a>
+    <a href="https://app.getpostman.com" className="btn btn__primary">Dashboard</a>
   );
 };
 
