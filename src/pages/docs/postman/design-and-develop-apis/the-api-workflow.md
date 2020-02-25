@@ -51,6 +51,8 @@ To access the API Builder, open __APIs__ from the left sidebar in the Postman ap
 
 Click __Create an API__ or __+ New API__—_you will need to be signed into your Postman account_.
 
+> The number of APIs you are allowed to create is based on your plan. Read more about it [on our blog](https://blog.postman.com/2020/01/24/what-does-max-of-apis-mean-in-postman/).
+
 ![New API](https://assets.postman.com/postman-docs/untitled-api-created.jpg)
 
 Enter a name for your API—you can rename, delete, or remove it from the workspace using the __View more actions__ (__...__) menu in the left sidebar.
