@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: link
+    name: "What does “Max # of APIs” mean in Postman?"
+    url: "https://blog.postman.com/2020/01/24/what-does-max-of-apis-mean-in-postman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -50,8 +53,6 @@ To access the API Builder, open __APIs__ from the left sidebar in the Postman ap
 <img alt="Create API" src="https://assets.postman.com/postman-docs/create-new-api.jpg" width="250px"/>
 
 Click __Create an API__ or __+ New API__—_you will need to be signed into your Postman account_.
-
-> The number of APIs you are allowed to create is based on your plan. Read more about it [on our blog](https://blog.postman.com/2020/01/24/what-does-max-of-apis-mean-in-postman/).
 
 ![New API](https://assets.postman.com/postman-docs/untitled-api-created.jpg)
 
