@@ -34,4 +34,4 @@ You can access integrations by navigating to your workspace in the [web dashbo
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/workspace-integrations-api.jpg)
 
-Choose an integration to add it to your workspace.
+Select __Browse Integrations__. Click __View Details__ to see an overview of an integration then add it to your workspace.

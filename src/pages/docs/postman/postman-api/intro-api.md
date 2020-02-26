@@ -19,13 +19,13 @@ warning: false
 
 ---
 
-The [Postman API](https://docs.api.getpostman.com/) endpoints endpoints to help you integrate Postman within your development toolchain.
+The [Postman API](https://docs.api.getpostman.com/) endpoints to help you integrate Postman within your development toolchain.
 
-You can add new collections, update existing collections, update environments, or add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account.
+You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account.
 
 You can get started with the API via the **Run in Postman** button at the top of the [Postman API documentation](https://docs.api.getpostman.com/) and use the Postman app to send requests.
 
-You will need an [API key](#generating-a-postman-api-key) to access Postman API.
+You will need an [API key](#generating-a-postman-api-key) to access the Postman API.
 
 > The API is [rate limited](#rate-limits).
 
@@ -33,7 +33,7 @@ You will need an [API key](#generating-a-postman-api-key) to access Postman API.
 
 You need a valid API Key to send requests to the Postman API endpoints.
 
-Navigate to the [web dashboard](https://app.getpostman.com/). Select a workspace and open __Integrations__. Browse the integrations—the Postman API will appear in the list. Click __View Details__.
+Navigate to the [web dashboard](https://app.getpostman.com/). Select a workspace and open __Integrations__. Locate the Postman API and click __View Details__.
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/workspace-integrations-api.jpg)
 
@@ -59,7 +59,7 @@ Use __API Key Settings__ to specify expiration periods for your keys.
 
 ### Authentication
 
-You will need to authenticate your requests to Postman API by sending your API Key in the `X-Api-Key` header of every request you make.
+You will need to authenticate your requests to the Postman API by sending your API Key in the `X-Api-Key` header of every request you make.
 
 Your API Key provides access to any Postman data you have permissions for.
 
