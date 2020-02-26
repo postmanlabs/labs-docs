@@ -66,3 +66,8 @@ blockquote {
 tr:hover {
   background-color: #FAE1D4;
 }
+
+th:first-child,
+td:first-child {
+ padding-left:10px;
+}
