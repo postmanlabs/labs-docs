@@ -157,7 +157,7 @@ Contact us via our [Support Center](https://support.getpostman.com/) for assista
 
 Billing roles can only be granted by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.getpostman.com/) for assistance.
 
-### Is there a "Super Admin" role? 
+### Is there a "Super Admin" role?
 
 A "Super Admin" role is being considered for development. You can track progress and upvote [this issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues/6102) to show your support.
 
@@ -166,7 +166,7 @@ A "Super Admin" role is being considered for development. You can track progress
 Remove the former colleague from your Postman team in the [web dashboard](https://app.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
 
 ### What are "support" roles?
- 
+
 A support-only account is one that holds an admin and/or billing role, but is not a developer.
 Teams can have up to two support-only accounts.
 
