@@ -120,6 +120,7 @@ $ newman run -h
 | `-k`, `--insecure` | Disable strict ssl |
 | `-x`, `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0` |
 | `--ignore-redirects` | Disable automatic following of `3XX` responses |
+| `--verbose` | Show detailed information of collection run and each request sent |
 
 Use the ``-n`` option to set the number of iterations to run the collection.
 
@@ -161,6 +162,8 @@ http://postman-echo.com, 2, 2, 899899
 Newman, by default, exits with a status code of 0 if everything runs well, such as without any exceptions.
 
 Continuous integration tools respond to these exit codes and correspondingly pass or fail a build.
+
+You can use `-x` or `--suppress-exit-code` to override the exit code and have newman exit with a status code of 0, event if tests fails.
 
 You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1, which can then be picked up by a CI tool or build system.
 
