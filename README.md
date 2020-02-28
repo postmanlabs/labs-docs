@@ -40,7 +40,7 @@ The built site will only host the most up-to-date docs. All legacy documentation
 
 ```
    [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
-``
+```
 
 ## Resources
 
