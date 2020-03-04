@@ -19,7 +19,7 @@ This section outlines the following topics:
 
 If you want your requests to be validated, your collection must be linked to an API.
 
-A collection is linked to an API if you [generate it from a schema](docs/postman/design-and-develop-apis/the-api-workflow/#generating-a-collection-from-a-schema) or [add it as a relation to an existing API](/docs/postman/design-and-develop-apis/the-api-workflow/#developing-an-api).
+A collection is linked to an API if you [generate it from a schema](/docs/postman/design-and-develop-apis/the-api-workflow/#generating-a-collection) or [add it as a relation to an existing API](/docs/postman/design-and-develop-apis/the-api-workflow/#developing-an-api).
 
 Postman will validate a request when it is sent. If issues are found, you will see a warning message showing the number of issues next to the name of the request.
 

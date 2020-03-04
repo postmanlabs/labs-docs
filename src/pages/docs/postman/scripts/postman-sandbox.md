@@ -77,8 +77,8 @@ For full list of available dynamic variables, see the [Postman Sandbox API Refer
 ## Request/response related properties
 
 * `request {object}`: Postman makes the request object available to you while writing scripts. This object is read-only. Changing properties of this object will have no effect. Note: Variables will NOT be resolved in the request object. The request object is composed of the following:
-    * `data {object}` - this is a dictionary of form data for the request. (`request.data[“key”]==”value”`)
-    * `headers {object}` - this is a dictionary of headers for the request (`request.headers[“key”]==”value”`)
+    * `data {object}` - this is a dictionary of form data for the request. (`request.data["key"]=="value"`)
+    * `headers {object}` - this is a dictionary of headers for the request (`request.headers["key"]=="value"`)
     * `method {string}` - GET/POST/PUT etc.
     * `url {string}` - the url for the request.
 * `responseHeaders {object}` **Deprecated**, **Test-only**: This is a map of the response headers. This is case-sensitive, and should not be used. Check the `postman.getResponseHeader()` method listed above.
