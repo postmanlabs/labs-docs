@@ -44,8 +44,6 @@ You'll see the code in the panel change to include the environment parameter.
 
 The Run in Postman API uses the `_pm()` method to create or modify client-side environments. You could use the API to do something like pass login credentials to Postman:
 
-Read more about the [Run button API](https://learning.postman.com/docs/postman_for_publishers/run_button/run_button_API) and how to alter your Run in Postman button's behavior.
-
 ```javascript
 _pm('env.create', 'Spotify', {
   user_id: 'spotifyuser',
