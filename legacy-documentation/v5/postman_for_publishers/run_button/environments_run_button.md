@@ -28,7 +28,7 @@ The ways that you can include an environment with your button will depend on whi
 
 When you include and environment from the "Embed" tab, you can do it when you first create your button or for a button that already exists.
 
-[![select environment](https://www.postman.com/img/v2/docs/environments/share_select_env.png)](https://www.postman.com/img/v2/docs/environments/share_select_env.png)
+[![select environment](Environments in RIP gif.gif)
 
 1. From the Postman app, go to the collection that you created or will create the Run in Postman button for.
 1. To the right of the collection name, click the ellipses **(...)** > **Share collection**. The Share dialog will pop-up.
