@@ -14,7 +14,7 @@ Find out more about how to create [environment templates](https://learning.postm
 
 When you [create a Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/) for your API documentation, website, or GitHub repo, you can include an environment that will open along with your collection when someone clicks your button.  
 
-> If you're using the dynamic (HTML) button, you can work with the Run in Postman API to alter your button's behavior. You can use the button to create environments, modify an environment, or segregate environments. Find out how to work with the [Run in Postman API](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/run-button-API/).
+> If you're using the dynamic (HTML) button, you can work with the [Run in Postman API](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/run-button-API/) to alter your button's behavior. You can use the button to create environments, modify an environment, or segregate environments.
 
 ## Use the Run in Postman button to include an environment with your shared collections
 
@@ -40,9 +40,11 @@ You'll see the code in the panel change to include the environment parameter.
 
 ### Use the Run in Postman API to include the environment on page load
 
-The 
+> Only the dynamic (HTML) Run in Postman button exposes the Run in Postman API.
 
-Postman also provides an API using the `_pm()` method to programmatically generate an environment client-side. Read more about the [Run button API](https://learning.postman.com/docs/postman_for_publishers/run_button/run_button_API) and how to dynamically alter button behavior.
+The Run in Postman API uses the `_pm()` method to create or modify client-side environments. You could use the API to do something like pass login credentials to Postman:
+
+Read more about the [Run button API](https://learning.postman.com/docs/postman_for_publishers/run_button/run_button_API) and how to alter your Run in Postman button's behavior.
 
 ```javascript
 _pm('env.create', 'Spotify', {
@@ -51,6 +53,4 @@ _pm('env.create', 'Spotify', {
 });
 ```
 
-A possible application for this would be to pass your signed in user’s access credentials to Postman, as illustrated in the example above.
-
-Note that this method works only with the Dynamic (HTML and CSS) button, and not the Markdown button. The `_pm()` method can be used anywhere on the page, after the embedded script tag.
+Read more about the [Run button API](https://learning.postman.com/docs/postman_for_publishers/run_button/run_button_API) and how to alter your Run in Postman button's behavior.
