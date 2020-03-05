@@ -42,7 +42,7 @@ You'll see the code in the panel change to include the environment parameter.
 
 > Only the dynamic (HTML) Run in Postman button exposes the Run in Postman API.
 
-The Run in Postman API uses the `_pm()` method to create or modify client-side environments. You could use the API to do something like pass login credentials to Postman:
+The Run in Postman API uses the `_pm()` method to create or modify client-side environments. For example, You could use the API to pass login credentials to Postman:
 
 ```javascript
 _pm('env.create', 'Spotify', {
