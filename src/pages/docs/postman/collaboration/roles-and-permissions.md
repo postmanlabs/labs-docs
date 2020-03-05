@@ -38,7 +38,7 @@ In Postman you can assign roles and permissions to provide access-control.
 
 * [Managing roles and permissions](#managing-roles-and-permissions)
 
-* [FAQ](#faq)
+* [Roles FAQ](#roles-faq)
 
 * [Next steps](#next-steps)
 
@@ -147,26 +147,21 @@ These roles control access at a collection level:
 
 To manage team roles, see [Managing roles](/docs/postman-pro/managing-pro/managing-your-team/#managing-roles).
 
-## FAQ
+## Roles FAQ
 
-### Our only team member with billing/admin permissions left - what can I do?
-
+* **Our only team member with billing/admin permissions left - what can I do?**  
 Contact us via our [Support Center](https://support.getpostman.com/) for assistance.
 
-### I'm an admin, why can't I assign the billing role?
-
+* **I'm an admin, why can't I assign the billing role?**  
 Billing roles can only be granted by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.getpostman.com/) for assistance.
 
-### Is there a "Super Admin" role?
-
+* **Is there a "Super Admin" role?**  
 A "Super Admin" role is being considered for development. You can track progress and upvote [this issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues/6102) to show your support.
 
-### Our colleague left the organization, how can we access their collections?
-
+* **Our colleague left the organization, how can we access their collections?**  
 Remove the former colleague from your Postman team in the [web dashboard](https://app.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
 
-### What are "support" roles?
-
+* **What are "support" roles?**  
 A support-only account is one that holds an admin and/or billing role, but is not a developer.
 Teams can have up to two support-only accounts.
 
