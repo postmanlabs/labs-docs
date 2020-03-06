@@ -26,19 +26,46 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/"
 ---
 
-Including a shared environment with a shared collection can be useful in prompting users to input their own personal information with their own version of the template.  
+## Environments, variables, and the Run in Postman button
 
-There are 2 ways to include an environment with the shared collection using the Run in Postman button.
+You can leverage environments in Postman to keep your collections DRY by saving variables that you use repeatedly. When you include an environment with the collections that you share with your teammates and customers, they can replace the "current" variable values stored in the environment with their own variable values. This helps them work just as efficiently, and with information that's relevant to their work.
 
-### While generating the embed code
+For example, if you have a request in your collection that requires a username and password and everyone on your team has their own credentials, they can use variables for the credentials, allowing everyone to work with the request and share the collection without sharing their personal information.
 
-[![select environment](https://assets.postman.com/postman-docs/share-select-env.png)](https://assets.postman.com/postman-docs/share-select-env.png)
+Find out more about [environments and variables](https://learning.postman.com/docs/postman/variables-and-environments/variables/).
 
-Select the environment name from the dropdown, as shown in the screenshot above. The environment is now embedded within the generated HTML/Markdown and will be imported when your user clicks the button.
+When you [create a Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/) for your API documentation, website, or GitHub repo, you can include an environment that will open along with your collection when someone clicks your button.  
 
-### On page load using Run in Postman’s JavaScript API
+> If you're using the dynamic (HTML) button, you can use the Run in Postman API to alter your button's behavior. You can use the button to create environments, modify an environment, or segregate environments.
 
-Postman also provides an API using the `-pm()` method to programmatically generate an environment client-side. Read more about the [Run button API](/docs/postman-for-publishers/run-in-postman/run-button-API/) and how to dynamically alter button behavior.
+## Use the Run in Postman button to include an environment with your shared collections
+
+The ways that you can include an environment with your button will depend on which Run in Postman button you want to work with.
+
+**Dynamic buttons:** You can include the environment from the "Embed" tab or with the Run in Postman API.
+
+**Static buttons:** With the static (JSON) button, you can only include the environment from the "Embed" tab.
+
+### Include the environment from the "Embed" tab
+
+When you include an environment from the "Embed" tab, you can do it when you first create your button or for a button that already exists.
+
+1. From the Postman app, go to the collection that you created or will create the Run in Postman button for.
+1. To the right of the collection name, click the ellipses **(...)** > **Share collection**. The Share dialog will pop-up.
+1. In the Share dialog, click the "Embed" tab. If you need to create the button first, [create your Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/)
+1. On the right, above the script panel, click the dropdown to choose an environment. You'll see the code in the panel change to include the environment parameter.
+1. At the bottom right, click **Copy to clipboard**.
+1. Embed the button on your website.
+
+[![select environment](Environments in RIP gif.gif)
+
+> To alter the button's behavior with the Run in Postman API, you ned to have permission to access and edit your website's code.
+
+### Use the Run in Postman API to include the environment on page load
+
+> Only the dynamic (HTML) Run in Postman button exposes the Run in Postman API.
+
+The JavaScript Run in Postman API uses the `_pm()` method to create or modify client-side environments through Run in Postman Buttons that already exist. For example, You could use the API to pass login credentials to Postman:
 
 ```javascript
 _pm('env.create', 'Spotify', {
@@ -47,6 +74,6 @@ _pm('env.create', 'Spotify', {
 });
 ```
 
-A possible application for this would be to pass your signed in user’s access credentials to Postman, as illustrated in the example above.
+To change your button's behavior, write the functions in the button's script in the website where the button is embedded.
 
-Note that this method works only with the Dynamic (HTML and CSS) button, and not the Markdown button. The `_pm()` method can be used anywhere on the page, after the embedded script tag.
+Read more about the [Run button API](https://learning.postman.com/docs/postman_for_publishers/run_button/run_button_API) and how to alter your Run in Postman button's behavior.
