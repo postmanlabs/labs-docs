@@ -28,7 +28,7 @@ contextual_links:
 
 ## Environments, variables, and the Run in Postman button
 
-You can leverage environments in Postman to keep your collections DRY by saving variables that you use repeatedly. When you include an environment with the collections that you share with your teammates and customers, they can replace the "current" variable values stored in the environment with their own variable values. This helps them work just as efficiently, and with information that's relevant to their work.
+You can leverage environments in Postman to keep your collections DRY by saving variables that you use repeatedly. When you include an environment with the collections that you share with your teammates and customers, they can replace the "current" variable values stored in the environment with their own variable values. This helps them work just as efficiently, and with information that's relevant to them.
 
 For example, if you have a request in your collection that requires a username and password and everyone on your team has their own credentials, they can use variables for the credentials, allowing everyone to work with the request and share the collection without sharing their personal information.
 
@@ -65,7 +65,7 @@ When you include an environment from the "Embed" tab, you can do it when you fir
 
 > Only the dynamic (HTML) Run in Postman button exposes the Run in Postman API.
 
-The JavaScript Run in Postman API uses the `_pm()` method to create or modify client-side environments through Run in Postman Buttons that already exist. For example, You could use the API to pass login credentials to Postman:
+The JavaScript Run in Postman API uses the `_pm()` method to create or modify client-side environments through Run in Postman buttons that already exist. For example, You could use the API to pass login credentials to Postman:
 
 ```javascript
 _pm('env.create', 'Spotify', {
