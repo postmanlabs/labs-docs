@@ -7,7 +7,7 @@ warning: false
 
 ### Customizing Request Methods
 
-You can customize request methods in Postman to meet specific requirements. Once you create your own request methods, you'll be able to send/save them.
+You can customize request methods in Postman to meet specific requirements. Once you create your own request methods you'll be able to send/save them.
 
 This feature lets you to save/delete your customized method and also enables you to delete default methods. Click in the request method dropdown area, type your method name and send/save it. You can also send a request without saving the customized method you created. The following screen illustrates this procedure.
 
