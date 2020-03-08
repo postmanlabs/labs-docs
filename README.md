@@ -2,13 +2,13 @@
 
 # Postman Learning Center
 
-Postman is the collaboration platform for API development. And the [Postman Learning Center](https://learning.postman.com/) has the resources you need to ramp up quickly and extend your skills with Postman. Postman allows you to write API test cases in any format of your choice (JSON/XML/many more) and run them to verify and validate your API. Moreover, Postman provides collections which can improve a developer's workflow. Postman is available for several platforms including windows and Mac OS X. For more information visit [getpostman](getpostman.com).
+Postman is the collaboration platform for API development. And the [Postman Learning Center](https://learning.postman.com/) has the resources you need to ramp up quickly and extend your skills with Postman. Postman allows you to write API test cases in any format of your choice (JSON/XML/many more) and run them to verify and validate your API. Moreover, Postman provides collections which can improve a developer's workflow. Postman is available for several platforms including windows and Mac OS X. For more information visit [the Postman website](https://www.postman.com/).
 
 ## Contribution guidelines
 
 We would love for you to contribute to the Learning Center! To contribute to this project, please read:
 
-* The [Code of Conduct](https://community.getpostman.com/t/postman-code-of-conduct/5)
+* The [Code of Conduct](https://www.postman.com/code-of-conduct)
 * The [Contribution Guidelines](CONTRIBUTING.md)
 * The [Documentation Style Guide](DOCS_STYLE_GUIDE.md)
 
@@ -49,7 +49,7 @@ The built site will only host the most up-to-date docs. All legacy documentation
 * [Postman Integrations](https://www.postman.com/integrations/)
 * [The Postman API](https://docs.api.getpostman.com/)
 * [Postman Release Notes](https://www.postman.com/downloads/release-notes)
-* [Postman community](https://community.getpostman.com/) on Discourse
+* [Postman community](https://community.postman.com/) on Discourse
 
 ## License
 
