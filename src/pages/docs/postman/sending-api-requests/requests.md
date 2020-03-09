@@ -52,7 +52,7 @@ If you have never sent a request before, check out [sending your first request](
 
 * [Creating requests](#creating-requests)
 * [Adding request detail](#adding-request-detail)
-    * [Setting request URLs](#setting-request-URLs)
+    * [Setting request URLs](#setting-request-urls)
     * [Selecting request methods](#selecting-request-methods)
     * [Sending parameters](#sending-parameters)
     * [Sending body data](#sending-body-data)
