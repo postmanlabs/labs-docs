@@ -15,14 +15,14 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Streamline access control with extended roles & permissions"
-    url: "https://blog.getpostman.com/2019/03/11/streamline-access-control-with-extended-roles-permissions/?_ga=2.109343365.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.getpostman.com/2019/03/11/streamline-access-control-with-extended-roles-permissions/"
   - type: link
     name: "Manage large teams in Postman with workspaces, permissions & more"
-    url: "https://blog.getpostman.com/2019/07/23/postman-team-workspaces-and-permissions/?_ga=2.109343365.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.getpostman.com/2019/07/23/postman-team-workspaces-and-permissions/"
 ---
 > Certain team options are only available on **[Postman Team, Business, and Enterprise plans](https://www.postman.com/pricing)**. To see which roles are available on your plan, go to your **[web dashboard](https://app.postman.co/settings/team/roles)**.
 
-In Postman you can assign roles and permissions to provide access-control.
+In Postman you can assign roles and permissions to provide access control.
 
 ## Contents
 
@@ -44,15 +44,15 @@ In Postman you can assign roles and permissions to provide access-control.
 
 ## Roles in Postman
 
-As a team admin, you have the power to define Postman access at a team, workspace, collection, and API level. You can utilize Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel.
+As a team admin, you have the power to define Postman access at the team, workspace, collection, and API level. You can utilize Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel.
 
 ### Team roles
 
-You can assign three role types to team members: **Admin**, **Billing**, and **Developer**.
+You can [assign](/docs/postman/collaboration/managing-your-team/) three role types to team members: **Admin**, **Billing**, and **Developer**.
 
-* **Admin**: can manage team members and team settings
-* **Billing**: can manage team plan and payments
-* **Developer**: can access team resources and workspaces
+* **Admin**: manage team members and team settings
+* **Billing**: manage team plan and payments
+* **Developer**: access team resources and workspaces
 
 Each user must have at least one role attached to them, and can hold multiple roles simultaneously.
 
@@ -75,12 +75,12 @@ Team roles provide high-level access control:
 
 ### Workspace roles
 
-You can assign two role types in Postman workspaces: **Admin** and **Collaborator**.
+You can [assign](/docs/postman/collaboration/managing-your-team/) two role types in Postman workspaces: **Admin** and **Collaborator**.
 
-* **Admin**: can manage workspace details and members
-* **Collaborator**: can work on team resources in a workspace
+* **Admin**: manage workspace details and members
+* **Collaborator**: work on team resources in a workspace
 
-These roles control access at a workspace level:
+The following roles control access at a workspace level:
 
 | Action | Admin | Collaborator |
 | --- | --- | --- |
@@ -98,21 +98,21 @@ These roles control access at a workspace level:
 
 ### API roles
 
-You can assign two role types in Postman APIs: **Viewer** and **Editor**.
+You can [assign](/docs/postman/collaboration/managing-your-team/) two role types in Postman APIs: **Editor** and **Viewer**.
 
-* **Viewer**: can view, fork, and export APIs.
-* **Editor**: can edit APIs directly
+* **Editor**: edit APIs directly
+* **Viewer**: view, fork, and export APIs
 
-These roles control access at an API level:
+The following roles control access at an API level:
 
-| APIs |   Viewer   | Editor |
+| APIs |   Editor   | Viewer |
 | ---   |   ---     | ---   |
-| Edit and delete APIs |       | &#x2714;    |
-| Manage roles on APIs  |     | &#x2714;  |
+| Edit and delete APIs |  &#x2714;     |     |
+| Manage roles on APIs  |  &#x2714;   |   |
 | Share APIs  |   &#x2714;   | &#x2714;   |
 | Comment on APIs |   &#x2714;   | &#x2714;   |
-| Create new API versions |     | &#x2714;   |
-| Update schema |     | &#x2714;   |
+| Create new API versions |  &#x2714;   |    |
+| Update schema |  &#x2714;   |    |
 | Generate collections from the schema |   &#x2714;  | &#x2714;   |
 | View reports for APIs |   &#x2714;  | &#x2714;   |
 | Add and remove API environments |   &#x2714;  | &#x2714;   |
@@ -123,25 +123,25 @@ These roles control access at an API level:
 
 ### Collection roles
 
-You can assign two role types in Postman collections: **Viewer** and **Editor**.
+You can [assign](/docs/postman/collaboration/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
 
-* **Viewer**: can view, fork, and export collections
-* **Editor**: can edit collections directly
+* **Editor**: edit collections directly
+* **Viewer**: view, fork, and export collections
 
-These roles control access at a collection level:
+The following roles control access at a collection level:
 
-| Collections |   Viewer   | Editor |
+| Collections |  Editor  | Viewer |
 | ---   |   ---     | ---   |
-| Edit and delete collections |       | &#x2714;    |
-| Manage roles on collections  |     | &#x2714;  |
+| Edit and delete collections |    &#x2714;   |     |
+| Manage roles on collections  |  &#x2714;   |   |
 | Export collections  |   &#x2714;   | &#x2714;   |
 | Fork collections |   &#x2714;   | &#x2714;   |
-| Merge forks on collections  |         | &#x2714;   |
-| Publish collection documentation and add to API Network  |      | &#x2714;  |
+| Merge forks on collections  |    &#x2714;     |    |
+| Publish collection documentation and add to API Network  |   &#x2714;  |   |
 | Share collections to a different workspace  |  &#x2714;  | &#x2714;   |
-| Tag and restore collection versions   |    | &#x2714;   |
-| Add, edit, and delete mock servers  |         | &#x2714;   |
-| Add, edit, and delete monitors |       | &#x2714;    |
+| Tag and restore collection versions   |  &#x2714;   |   |
+| Add, edit, and delete mock servers  |    &#x2714;      |   |
+| Add, edit, and delete monitors |    &#x2714;   |     |
 
 ## Managing roles and permissions
 
