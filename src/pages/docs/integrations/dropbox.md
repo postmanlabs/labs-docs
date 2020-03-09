@@ -17,7 +17,7 @@ Backup and synchronize your Postman Collections on Dropbox for file sharing, sto
 
 ## Configuring Dropbox Integration
 
-1. In the [Integrations page](https://go.postman.co/workspaces), find Dropbox from a list of Postman's third party integrations.
+1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select Dropbox from the list of third party integrations.
 
     [![select dropbox integration](https://assets.postman.com/postman-docs/integrations_dropbox1.png)](https://assets.postman.com/postman-docs/integrations_dropbox1.png)
 
