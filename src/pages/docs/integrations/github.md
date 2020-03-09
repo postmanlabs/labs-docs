@@ -53,7 +53,7 @@ Once that token is generated, copy it and save it somewhere for future use.
 
 ### Configuring GitHub integration for collections
 
-In the **[Integrations](https://go.postman.co/workspaces)** page, find Github from a list of Postman's 3rd party Integrations for Postman Pro users.
+In the **[Integrations](https://go.postman.co/workspaces)** tab for your workspace, select Github from the list of third party Integrations.
 
 [![github integration](https://assets.postman.com/postman-docs/integrations-github1.png)](https://assets.postman.com/postman-docs/integrations-github1.png)
 

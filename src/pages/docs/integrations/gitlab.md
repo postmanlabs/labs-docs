@@ -31,7 +31,7 @@ Save the generated token to use later.
 
 ## Configuring a backup for Postman Collections in GitLab
 
-1. In the [Integrations page](https://go.postman.co/workspaces), find GitLab from Postman's list of third party integrations.
+1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select GitLab from the list of third party integrations.
 
     [![select gitlab integration](https://assets.postman.com/postman-docs/integrations-gitlab1.png)](https://assets.postman.com/postman-docs/integrations-gitlab1.png)
 
