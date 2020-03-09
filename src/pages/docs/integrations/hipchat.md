@@ -19,7 +19,7 @@ This integration allows you to get real-time updates of what is happening in you
 
 ## Configuring Postman with HipChat
 
-1. In the [Integrations](https://go.postman.co/workspaces) page, find HipChat from a list of Postman’s third party integrations.
+1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select HipChat from the list of third party integrations.
 
 [![select hipchat integration](https://assets.postman.com/postman-docs/integrations-hipchat.png)](https://assets.postman.com/postman-docs/integrations-hipchat.png)
 

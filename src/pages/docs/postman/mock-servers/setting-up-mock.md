@@ -52,6 +52,8 @@ Mocks in Postman are tied to a collection. Postman matches requests and generate
 * [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
 * [Using free mock server calls](#using-free-mock-server-calls)
 * [Editing mock servers](#editing-mock-servers)
+* [Viewing mock calls](#viewing-mock-calls)
+    * [Troubleshooting mock calls](#troubleshooting-mock-calls)
 * [Next steps](#next-steps)
 
 ## Creating mock servers in-app
@@ -203,6 +205,30 @@ Editing mocks in Browse mode:
 Editing mocks from the Web Dashboard:
 
 ![Postman Mock Server edit in Build mode](https://assets.postman.com/postman-docs/mocks/mock-edit-web-dashboard.png)
+
+## Viewing mock calls
+
+You can view and search the details of calls to your mock servers using the mock call log. Open a mock from the Postman app by clicking it in __Collections__, in __APIs__, or by switching to __Browse__ &gt; __Mocks__ and clicking the mock name. Your mock call log will open in the web dashboard—you can also open it from the collection in the browser, by selecting __Mock Servers__.
+
+![Mock List Browse View](https://assets.postman.com/postman-docs/mock-list-browse.jpg)
+
+The mock call log lists an overview of calls made to the mock url, together with request and response details.
+
+![Mock Call Log List](https://assets.postman.com/postman-docs/mock-call-log-list.jpg)
+
+Mock call log entries indicate the time a request was sent, the request method and path, and a response overview. Click an entry to see more detail on request headers and body, or response headers and body. You can drill down into response data returned by a mock call.
+
+![Mock Call Log](https://assets.postman.com/postman-docs/mock-call-log.jpg)
+
+Use the search field to find particular calls, and the refresh button at the top of the list to view up to date requests.
+
+### Troubleshooting mock calls
+
+You can use the mock call log to troubleshoot your requests to mock servers.
+
+<img alt="Mock Call Error" src="https://assets.postman.com/postman-docs/no-matching-requests.jpg" width="300px"/>
+
+If you see `No matching requests` listed in the __Response__ column, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/postman/mock-servers/mocking-with-examples) in the collection you have the mock connected to.
 
 ## Next steps
 
