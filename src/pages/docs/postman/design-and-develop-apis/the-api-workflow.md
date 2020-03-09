@@ -56,7 +56,7 @@ Click __Create an API__ or __+ New API__—_you will need to be signed into your
 
 ![New API](https://assets.postman.com/postman-docs/untitled-api-created-v7.jpg)
 
-Enter a name and a version, then select a schema type and format for your API. You can also import an API schema directly from that modal. The API can be renamed, deleted, or removed from the workspace using the __View more actions__ (__...__) menu in the left sidebar.
+Enter a name and a version, then select a schema type and format for your API. You can optionally import an API schema directly at this stage. You can rename, delete, or remove the API from the workspace using the __View more actions__ (__...__) menu in the left sidebar.
 
 > When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted / removed.
 
