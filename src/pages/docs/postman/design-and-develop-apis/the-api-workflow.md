@@ -50,11 +50,11 @@ You can connect various components of your API development and testing process t
 
 To access the API Builder, open __APIs__ from the left sidebar in the Postman app. You can open and edit any existing APIs from here—Postman will automatically open the most recent version of an API by default.
 
-<img alt="Create API" src="https://user-images.githubusercontent.com/5029719/76172321-69689a00-618c-11ea-8dfd-2bd6e89ef6e2.png" width="250px"/>
+<img alt="Create API" src="https://assets.postman.com/postman-docs/create-new-api-v7.png" width="250px"/>
 
 Click __Create an API__ or __+ New API__—_you will need to be signed into your Postman account_.
 
-![New API](https://user-images.githubusercontent.com/5029719/76172306-4b029e80-618c-11ea-9de8-0e3a4b7cd5db.png)
+![New API](https://assets.postman.com/postman-docs/untitled-api-created-v7.jpg)
 
 Enter a name and a version, then select a schema type and format for your API. You can also import an API schema directly from that modal. The API can be renamed, deleted, or removed from the workspace using the __View more actions__ (__...__) menu in the left sidebar.
 
