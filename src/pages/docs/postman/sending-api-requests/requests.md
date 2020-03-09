@@ -61,7 +61,6 @@ If you have never sent a request before, check out [sending your first request](
     * [Using cookies](#using-cookies)
 * [Choosing custom settings](#choosing-custom-settings)
     * [Encoding your request URLs](#encoding-your-request-urls)
-* [Troubleshooting your requests](#troubleshooting-your-requests)
 * [Next steps](#next-steps)
 
 ## Creating requests
