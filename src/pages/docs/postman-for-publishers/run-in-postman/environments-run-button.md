@@ -53,7 +53,7 @@ You can add an environment to a new button while you're creating it, or to an ex
 5. At the bottom right, click **Copy to clipboard**.
 6. Embed the button on your website.
 
-[![select environment](Environments in RIP gif.gif)
+[!Open the **Embed** tab.](file:///Users/jacque/Documents/Environments_RIP_gif.gif)
 
 ### Use the API to include an environment
 
