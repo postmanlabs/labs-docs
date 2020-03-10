@@ -26,15 +26,13 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/"
 ---
 
-You can include environments in your Run in Postman button. When developers or your teammates click your button, the environment will open along with the collection in the Postman app, and the user can enter their own variable values.  
+You can include environments your [Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/). When developers click the button from your API documentation or website, the environment will be imported along with the collection into the Postman app, and the user can enter their own variable values.  
 
 Find out more about [environments and variables](https://learning.postman.com/docs/postman/variables-and-environments/variables/).
 
-When you [create a Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/) for your API documentation or website, you can include an environment that will open along with your collection when someone clicks your button.  
+> If you're using the dynamic (HTML) button, you can use the Run in Postman API to alter your button's behavior. Use the button to create and modify environments, or have multiple buttons on a single page, each with a different environment.
 
-> If you're using the dynamic (HTML) button, you can use the Run in Postman API to alter your button's behavior. You can use the button to create environments, modify an environment, or segregate environments.
-
-## Use the Run in Postman button to include an environment with your shared collections
+## Include and environment in your button
 
 The ways that you can include an environment with your button will depend on which Run in Postman button you want to work with.
 
