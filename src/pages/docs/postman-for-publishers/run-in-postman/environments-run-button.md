@@ -70,4 +70,4 @@ _pm('env.create', 'Spotify', {
 
 ## Next steps
 
-Read more about the [Run button API](https://learning.postman.com/docs/postman_for_publishers/run_button/run_button_API) and how to alter your Run in Postman button's behavior.
+Read more about the [Run button API](https://learning.postman.com/docs/postman_for_publishers/run_button/run_button_API) and learn how to alter your Run in Postman button's behavior.
