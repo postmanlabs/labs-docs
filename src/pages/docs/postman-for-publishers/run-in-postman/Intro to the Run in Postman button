@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+# Introduction to the Run in Postman
+
+You can use the Run in Postman button to share your Postman collections outside of your workspace, and at any point in the API development lifecycle. Collaborate with teammates, onboard developers, and give people direct access to your API endpoints. Embed the button in your API documentation, website, or description format like GitHub to integrate your docs or developer portal with the Postman app. When developers or your teammates click the button, the collection that it's connected to, along with any shared environments, will open in the Postman app, and people can immediately start to work with your requests.
+
+> The Run in Postman button works with all description formats like Swagger, RAML, and GitHub.
+
+## Know which button to use
+
+There are 2 kinds of Run in Postman buttons:
+
+**Dynamic**: Uses HTML and CSS. Optimal for a website where you have permission to edit the site's source code.
+
+**Static**: Uses Markdown. Optimal for a Markdown document like a GitHub ReadMe or BitBucket repository.
+
+## Use dynamic buttons to access the Run in Postman API
+
+When you use the Run in Postman button to share collections, you can also include environments with the button. [Environments]() are meant to help you keep your collections DRY. When you include environments with your Run in Postman buttons, they will open along with your collection in Postman. Your teammates and developers working with your APIs can leverage those environments to input and save their own variable values.
+
+With the dynamic button, you have access to the Run in Postman API, which is a series of JavaScript functions that you can use to create, delete, modify, and segregate environments. To change your button's behavior, you have to have permission to edit the source code of the website where the button is embedded. From there, you can write the functions in the button's script.
+
+> The Run in Postman API only works with the dynamic Run in Postman button.
+
+* `env.create` :

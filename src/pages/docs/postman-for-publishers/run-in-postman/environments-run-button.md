@@ -26,15 +26,11 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/"
 ---
 
-## Environments, variables, and the Run in Postman button
-
-You can leverage environments in Postman to keep your collections DRY by saving variables that you use repeatedly. When you include an environment with the collections that you share with your teammates and customers, they can replace the "current" variable values stored in the environment with their own variable values. This helps them work just as efficiently, and with information that's relevant to them.
-
-For example, if you have a request in your collection that requires a username and password and everyone on your team has their own credentials, they can use variables for the credentials, allowing everyone to work with the request and share the collection without sharing their personal information.
+You can include environments in your Run in Postman button. When developers or your teammates click your button, the environment will open along with the collection in the Postman app, and the user can enter their own variable values.  
 
 Find out more about [environments and variables](https://learning.postman.com/docs/postman/variables-and-environments/variables/).
 
-When you [create a Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/) for your API documentation, website, or GitHub repo, you can include an environment that will open along with your collection when someone clicks your button.  
+When you [create a Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/) for your API documentation or website, you can include an environment that will open along with your collection when someone clicks your button.  
 
 > If you're using the dynamic (HTML) button, you can use the Run in Postman API to alter your button's behavior. You can use the button to create environments, modify an environment, or segregate environments.
 
