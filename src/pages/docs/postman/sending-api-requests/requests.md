@@ -105,12 +105,6 @@ When you start typing in the URL input field, Postman will present a drop-down o
 
 You can optionally type _query_ parameters into the URL field, or can [enter them in the Params tab](#sending-parameters). If your request uses _path_ parameters, [you can enter them directly into the URL field](#sending-parameters).
 
-Postman will indicate whitespace characters in your request URL.
-
-<img alt="Whitespace in URL" src="https://assets.postman.com/postman-docs/whitespace-in-url.jpg" width="400px"/>
-
-> You can use [next generation URL encoding](#encoding-your-request-urls) in your requests.
-
 ### Selecting request methods
 
 By default Postman will select the `GET` method for new request. `GET` methods are usually for retrieving data from an API. You can use a variety of other methods to send data to your APIs, including the following most common options:
@@ -239,10 +233,6 @@ Some APIs require you to send particular headers along with requests, typically 
 > ![Header Preset](https://assets.postman.com/postman-docs/header-preset.jpg)
 > <img alt="Select Preset" src="https://assets.postman.com/postman-docs/select-preset.jpg" width="250px"/>
 
-Postman will indicate invalid characters in your request headers.
-
-<img alt="App Setting Encoding" src="https://assets.postman.com/postman-docs/invalid-characters.jpg" width="400px"/>
-
 Once your headers and other request details are set up, you can click __Send__ to run your request.
 
 ### Using cookies
@@ -259,7 +249,17 @@ You can configure a variety of settings for Postman requests using the request _
 
 ### Encoding your request URLs
 
-Postman parses and encodes your request URL in order to maximize the chances of a successful API call. The Postman URL processor is shifting towards the [WHATWG standard](https://url.spec.whatwg.org/), which addresses many historical issues around expected behavior regarding encoding of URL paths and parameters. You can use the next generation processor in your Postman app at any time.
+Postman parses and encodes your request URL in order to maximize the chances of a successful API call. Postman encodes the characters in your URL and maps them to a representation that your API is most likely to accept. The Postman URL processor is shifting towards a new standard that optimizes the chance of your request being effectively processed by the wide range of server implementations in use.
+
+The next generation processor will encode characters depending on where they occur in the URL:
+
+| URL component | Characters to encode |
+| ------------- | -------------------- |
+| Path | `"` `<` `>` `` ` `` `#` `?` `{` `}` `SPACE` |
+| Query | `"` `#` `&` `'` `<` `=` `>` `SPACE` |
+| Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` <code>\|</code> `SPACE` |
+
+You can use the next generation processor in your Postman app at any time. You can also turn off encoding if you are working with an unusual server implementation.
 
 To configure URL encoding, first open your Postman __Settings__ (at the top right of the app) and toggle the __Use next generation URL processing__ option.
 
@@ -271,9 +271,13 @@ You can then toggle the setting on or off in your request __Settings__.
 
 Click __Restore default__ to use your app-wide setting in a specific request.
 
+> You can selectively encode parts of your URL by highlighting the text and right-clicking, then choosing __EncodeURIComponent__.
+
 ## Troubleshooting your requests
 
-Postman will indicate any whitespace / potentially invalid characters in parts of your request that may not function as expected so that you can rectify your values, for example in key names.
+Postman will indicate any whitespace / potentially invalid characters in parts of your request that may not function as expected so that you can rectify your values, for example in the URL path and key names.
+
+<img alt="Whitespace in URL" src="https://assets.postman.com/postman-docs/whitespace-in-url.jpg" width="400px"/>
 
 <img alt="Invalid Characters" src="https://assets.postman.com/postman-docs/invalid-character-message.jpg" width="400px"/>
 
