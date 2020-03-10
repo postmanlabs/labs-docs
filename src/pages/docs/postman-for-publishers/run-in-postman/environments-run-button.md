@@ -28,7 +28,7 @@ contextual_links:
 
 You can include environments your [Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/). When developers click the button from your API documentation or website, the environment will be imported along with the collection into the Postman app, and the user can enter their own variable values.  
 
-Find out more about [environments and variables](https://learning.postman.com/docs/postman/variables-and-environments/variables/).
+Find out more about [environments and variables](docs/postman/variables-and-environments/variables/).
 
 > If you're using the dynamic (HTML) button, you can use the Run in Postman API to alter your button's behavior. Use the button to create and modify environments, or have multiple buttons on a single page, each with a different environment.
 
@@ -70,4 +70,4 @@ _pm('env.create', 'Spotify', {
 
 ## Next steps
 
-Read more about the [Run button API](https://learning.postman.com/docs/postman_for_publishers/run_button/run_button_API) and learn how to alter your Run in Postman button's behavior.
+Read more about the [Run button API](docs/postman_for_publishers/run_button/run_button_API) and learn how to alter your Run in Postman button's behavior.
