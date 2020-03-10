@@ -20,26 +20,18 @@ contextual_links:
 
 > __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
 
-Postman provides a strong API development toolchain that integrates seamlessly with the developer's workflow.
+Postman provides an API development toolchain aimed at integrating with your workflow.
 
-Postman supports an open ecosystem, working with industry leaders to introduce new features and integrations that make API development easier and faster.
+The Postman team develops an open ecosystem in conjunction with industry partners to build integrations that facilitate your API projects.
 
-## What is an integration?
+Integrations allow you to automate sharing data and functionality between Postman and other tools you might be using for your API development.
 
-Organizations use the term "integration" inclusively, sometimes overly so. In fact, different teams in the same organization might use the term in different ways.
+> If you use GitHub for your repository management and use Postman to develop and test your APIs, you can save your Postman Collections to your GitHub repository with the [Postman to GitHub integration](/docs/integrations/github/).
 
-Postman views "integrations" as a way to share data or functionality between Postman and other tools that you might use for API development. When manually importing and exporting data from one application to another becomes a chore, an integration can help.
+## Accessing integrations
 
-If you use GitHub for your repository management and use Postman to develop and test your APIs, you can save your Postman Collections to your GitHub repository with the [Postman to GitHub integration](/docs/integrations/github/).
+You can access integrations by navigating to your workspace in the [web dashboard](https://go.postman.co/workspaces), then selecting **Integrations**.
 
-## Postman integrations
+![Workspace Integrations](https://assets.postman.com/postman-docs/workspace-integrations-api.jpg)
 
-You can access over a dozen built-in integrations by navigating to your workspace in the [web dashboard](https://go.postman.co/workspaces), then selecting **Integrations** > **Create an integration in this workspace**.
-
-In the Dashboard page, click ["Integrations"](https://go.postman.co/workspaces).
-
-  [![integrations](https://assets.postman.com/postman-docs/Integrations-Dashboard1.png)](https://assets.postman.com/postman-docs/Integrations-Dashboard1.png)
-
-The Integrations page lists all the currently available integrations for Postman users.
-
-[![integrations2](https://assets.postman.com/postman-docs/Integrations-Dashboard2.png)](https://assets.postman.com/postman-docs/Integrations-Dashboard2.png)
+Select __Browse Integrations__. Click __View Details__ to see an overview of an integration then add it to your workspace.

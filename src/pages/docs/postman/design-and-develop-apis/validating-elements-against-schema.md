@@ -3,13 +3,32 @@ title: 'Validating Elements Against Schema'
 order: 207
 page_id: 'validating-elements-against-schema'
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "The API workflow"
+    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+  - type: link
+    name: "Managing and sharing APIs"
+    url: "/docs/postman/design-and-develop-apis/managing-apis/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Create APIs directly within the Postman app"
+    url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Viewing and analyzing APIs"
+    url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
 ---
 
-You can validate your API elements (documentation, tests, mock servers, or monitors) against the API schema. This helps keep your elements in sync with your API specification. If they do not match, you can see the list of issues that have been found in order to fix them.
+You can validate your API elements (documentation, tests, mock servers, monitors) against an API schema. This helps keep your elements in sync with your API specification. If they do not match, Postman will present a list of issues that have been found in order to fix them.
 
 > This feature is available from Postman 7.15.0 and for OpenAPI 3.0 schemas only at this time.
-
-This section outlines the following topics:
 
 * [Validating elements](#validating-elements)
 * [Accessing issues](#accessing-issues)
@@ -17,7 +36,7 @@ This section outlines the following topics:
 
 ## Validating elements
 
-In this section, you can learn the pre-requisites for validating your elements against an API schema, when validations are triggered, and how to trigger one manually.
+This section outlines the pre-requisites for validating your elements against an API schema, when validations are triggered, and how to trigger one manually.
 
 For validations to execute, you need the following elements in place:
 
@@ -67,11 +86,11 @@ The validation summary lists all endpoints in your API element, regardless of wh
 
 If an endpoint has been successfully validated against the API schema, you will see a green checkmark with a message indicating `Validated against PATH`.
 
-[![endpoint validated](https://user-images.githubusercontent.com/5029719/72102453-f32bf080-331e-11ea-8e7e-7ce7f99b1e53.png)](https://user-images.githubusercontent.com/5029719/72102453-f32bf080-331e-11ea-8e7e-7ce7f99b1e53.png)
+<img alt="endpoint validated" src="https://user-images.githubusercontent.com/5029719/72102453-f32bf080-331e-11ea-8e7e-7ce7f99b1e53.png" width="300px"/>
 
 If an endpoint exists in the API element but isn't described in the API schema, you will see a red cross along with a message indicating `Unable to validate. No matching path found in schema`.
 
-[![endpoint not found in schema](https://user-images.githubusercontent.com/5029719/72102493-0b9c0b00-331f-11ea-828f-e8a237c5b4f2.png)](https://user-images.githubusercontent.com/5029719/72102493-0b9c0b00-331f-11ea-828f-e8a237c5b4f2.png)
+<img alt="endpoint not found in schema" src="https://user-images.githubusercontent.com/5029719/72102493-0b9c0b00-331f-11ea-828f-e8a237c5b4f2.png" width="300px"/>
 
 If syncing issues are found between the API element and the API schema, the validation summary will outline them under one of the following categories:
 
@@ -84,7 +103,7 @@ If syncing issues are found between the API element and the API schema, the vali
 
 Check out the [complete list of possible issues](#list-of-possible-issues).
 
-[![endpoint has syncing issue](https://user-images.githubusercontent.com/5029719/72102817-c75d3a80-331f-11ea-9045-50d54a5d6690.png)](https://user-images.githubusercontent.com/5029719/72102817-c75d3a80-331f-11ea-9045-50d54a5d6690.png)
+<img alt="endpoint has syncing issue" src="https://user-images.githubusercontent.com/5029719/72102817-c75d3a80-331f-11ea-9045-50d54a5d6690.png" width="400px"/>
 
 > You can collapse or expand the list of issues by clicking the grey arrow at the top-right of the list.
 
@@ -128,4 +147,4 @@ This section lists each type of issue that validation may raise along with examp
 
 Your issue summary includes the details to address any problems validating against your schema. You can edit the relevant components of your API and validate again to see if the issues have been resolved.
 
-In addition to syncing your API elements with a schema, you can [analyze](/docs/postman/design-and-develop-apis/reporting-faqs/) and utilize [reporting](/docs/postman/design-and-develop-apis/reporting-faqs/) to promote understanding of how your APIs are performing.
+In addition to syncing your API elements with a schema, you can [analyze and utilize reporting](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/) to promote understanding of how your APIs are performing.

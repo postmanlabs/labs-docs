@@ -19,7 +19,7 @@ You can configure a custom webhook with Postman to send events such as monitor r
 
 ## Configuring custom webhook URL
 
-1. In the [Integrations](https://go.postman.co/workspaces) page, find webhooks from a list of Postman’s third party integrations.
+1. In the [Integrations](https://go.postman.co/workspaces) tab for your selected workspace, select Webhooks from the list of third party integrations.
 
 [![custom_webhook](https://assets.postman.com/postman-docs/webhooks_view1.png)](https://assets.postman.com/postman-docs/webhooks_view1.png)  
 

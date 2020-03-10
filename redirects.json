@@ -252,6 +252,30 @@
         "to": "/docs/postman/collaboration/requesting-access-to-collections/"
     },
     {
+        "from": "/docs/postman/design-and-develop-apis/introduction-to-apis/",
+        "to": "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    },
+    {
+        "from": "/docs/postman/design-and-develop-apis/reporting-faqs/",
+        "to": "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
+    },
+    {
+        "from": "/docs/postman/design-and-develop-apis/sharing-apis/",
+        "to": "/docs/postman/design-and-develop-apis/managing-apis/"
+    },
+    {
+        "from": "/docs/postman/design_and_develop_apis/introduction_to_apis/",
+        "to": "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    },
+    {
+        "from": "/docs/postman/design_and_develop_apis/reporting_faqs/",
+        "to": "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
+    },
+    {
+        "from": "/docs/postman/design_and_develop_apis/sharing_apis/",
+        "to": "/docs/postman/design-and-develop-apis/managing-apis/"
+    },
+    {
         "from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
         "to": "/docs/postman/variables-and-environments/variables/"
     },

@@ -25,7 +25,7 @@ contextual_links:
     name: "Managing your team"
     url: "/docs/postman/collaboration/managing-your-team/"
 ---
-> __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
+> __[Role-based access control options are available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
 
 In Postman you can assign roles and permissions to provide access-control. Refer to the following sections on managing roles within your team.
 
