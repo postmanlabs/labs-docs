@@ -160,7 +160,7 @@ The __Body__ tab in Postman allows you to specify the data you need to send with
 >
 > * For form-data and urlencoded body types, Postman will automatically attach the correct `Content-Type` header.
 > * If you use raw mode for your body data, Postman will set a header based on the type you select (e.g. text, json).
-> * You can manually override what Postman selects by indicating a `Content-Type` in the request __Headers__.
+> * If you manually select a `Content-Type` header, that value will take precedence over what Postman sets.
 > * Postman does not set any header type for the binary body type.
 
 By default, Postman will select __None__—leave it selected if you do not need to send a body with your request.
@@ -213,11 +213,9 @@ Check out [Using GraphQL](/docs/postman/sending-api-requests/graphql/) section f
 
 Some APIs require auth details you can send in Postman. Authentication involves verifying the identity of the client sending a request, and authorization involves verifying that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
 
-![Request Auth](https://assets.postman.com/postman-docs/basic-auth.jpg)
+![Request Auth](https://assets.postman.com/postman-docs/request-auth.jpg)
 
-Postman will automatically include your auth details in the relevant part of the request, for example in __Headers__. Hovering over any header added automatically by Postman will display an indicator of where the header comes from and how to remove it.
-
-<img alt="Basic Auth Encoded" src="https://assets.postman.com/postman-docs/header-added-popup.jpg" width="500px"/>
+Postman will automatically include your auth details in the relevant part of the request, for example in __Headers__.
 
 For more detail on implementing different types of auth in your Postman requests, check out [Authorizing requests](/docs/postman/sending-api-requests/authorization/).
 
@@ -227,23 +225,11 @@ Once your auth and other request details are set up, you can click __Send__ to r
 
 Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you type, Postman will prompt you with common options you can use to autocomplete your setup, such as `Content-Type`.
 
-![Header Types](https://assets.postman.com/postman-docs/content-type-dropdown.jpg)
+![Header Types](https://assets.postman.com/postman-docs/header-types.jpg)
 
 > You can save commonly used headers together in a header preset. In the __Headers__ tab, click the __Presets__ drop-down, and choose __Manage Presets__. Add each preset by providing a name, and entering the key plus value. Click __Add__ and your preset will be available in the __Presets__ drop-down. Selecting the preset will auto-populate the fields in your request headers.
 > ![Header Preset](https://assets.postman.com/postman-docs/header-preset.jpg)
 > <img alt="Select Preset" src="https://assets.postman.com/postman-docs/select-preset.jpg" width="250px"/>
-
-Postman will automatically add certain headers to your request to make it more likely to succeed. This includes cases where you have selected an authorization helper or have cookies associated with the request domain, as well as some generic headers. You can see headers sent by Postman using the Console—if you need to override any automated headers, you can either deselect the relevant auth helper, clear cookies / toggle off the cookie jar in the request __Settings__, or provide your own value for a header by including it directly in the __Headers__ tab. You can override the following headers:
-
-* User-Agent
-* Accept
-* Host
-* Accept-Encoding
-* Connection
-* Content-Type
-* Content-Length
-
-You can prevent Postman from sending certain the Cache-Control and Postman-Token headers automatically with your requests, by toggling them off in __Preferences__.
 
 Once your headers and other request details are set up, you can click __Send__ to run your request.
 
