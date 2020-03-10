@@ -176,12 +176,12 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 
 * `pm.environment.name:String`: Contains the name of the current environment.
 * `pm.environment.has(variableName:String):function → Boolean`: Check if the environment has a variable with the given name.
-* `pm.environment.get(variableName:String):function → *`: Get the environment variable with the given name.
-* `pm.environment.set(variableName:String, variableValue:String):function`: Sets an environment variable with the given name and value.
+* `pm.environment.get(variableName:String):function → *`: Get the variable with the given name in the currently selected environment.
+* `pm.environment.set(variableName:String, variableValue:String):function`: Sets the variable with the given name and value in the currently selected environment.
 * `pm.environment.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
 * `pm.environment.toObject():function → Object`: Returns all the environment variables in the form of a single object.
-* `pm.environment.unset(variableName:String):function`: Remove an environment variable with the specified name.
-* `pm.environment.clear():function`: Clears all the current environment variables.
+* `pm.environment.unset(variableName:String):function`: Remove a variable with the specified name in the currently selected environment.
+* `pm.environment.clear():function`: Clears all variables in the currently selected environment.
 
 ### pm.collectionVariables
 
