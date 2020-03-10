@@ -54,5 +54,3 @@ The built site will only host the most up-to-date docs. All legacy documentation
 ## License
 
 [Apache License 2.0](LICENSE)
-
-more changes
