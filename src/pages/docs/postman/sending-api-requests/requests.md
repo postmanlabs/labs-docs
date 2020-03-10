@@ -250,7 +250,17 @@ You can configure a variety of settings for Postman requests using the request _
 
 ### Encoding your request URLs
 
-Postman parses and encodes your request URL in order to maximize the chances of a successful API call. The Postman URL processor is shifting towards the [WHATWG standard](https://url.spec.whatwg.org/), which addresses many historical issues around expected behavior regarding encoding of URL paths and parameters. You can use the next generation processor in your Postman app at any time.
+Postman parses and encodes your request URL in order to maximize the chances of a successful API call. Postman encodes the characters in your URL and maps them to a representation that your API is most likely to accept. The Postman URL processor is shifting towards a new standard that optimizes the chance of your request being effectively processed by the wide range of server implementations in use.
+
+The next generation processor will encode characters depending on where they occur in the URL:
+
+| URL component | Characters to encode |
+| ------------- | -------------------- |
+| Path | `"` `<` `>` `` ` `` `#` `?` `{` `}` `SPACE` |
+| Query | `"` `#` `&` `'` `<` `=` `>` `SPACE` |
+| Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` <code>\|</code> `SPACE` |
+
+You can use the next generation processor in your Postman app at any time. You can also turn off encoding if you are working with an unusual server implementation.
 
 To configure URL encoding, first open your Postman __Settings__ (at the top right of the app) and toggle the __Use next generation URL processing__ option.
 
