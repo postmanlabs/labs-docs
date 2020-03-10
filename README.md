@@ -48,7 +48,6 @@ The built site will only host the most up-to-date docs. All legacy documentation
 * [Postman Release Notes](https://www.postman.com/downloads/release-notes)
 * [Postman Integrations](https://www.postman.com/integrations/)
 * [The Postman API](https://docs.api.getpostman.com/)
-* [Postman Release Notes](https://www.postman.com/downloads/release-notes)
 * [Postman community](https://community.postman.com/) on Discourse
 
 ## License
