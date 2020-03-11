@@ -47,7 +47,7 @@
         { "url": "/", "name": "Learning Center"},
         { "url": "https://www.postman.com/resources/videos-tutorials/", "name": "Videos & Tutorials"},
         { "url": "https://www.postman.com/community", "name": "Community Content"},
-        { "url": "https://community.getpostman.com/", "name": "Postman Community"}
+        { "url": "https://community.postman.com/", "name": "Postman Community"}
       ]
     },
 
