@@ -41,9 +41,9 @@ To add a new cookie for the domain, click on the **Add Cookie** button. A pre-ge
 
 [![create a cookie](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)
 
-When you make a request to a domain you have added a cookie to, the cookie will automatically appear in your request __Headers__ tab.
+When you make a request to a domain you have added a cookie to, the cookie will automatically appear in your request __Headers__ tab—click the __hidden__ button.
 
-<img alt="Cookie Header" src="https://assets.postman.com/postman-docs/cookie-added-popup.jpg" width="500px"/>
+![Cookie Header](https://assets.postman.com/postman-docs/cookie-automatically-added.jpg)
 
 ## Adding a domain
 

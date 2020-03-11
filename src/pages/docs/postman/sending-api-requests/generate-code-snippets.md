@@ -36,8 +36,6 @@ Click the **Code** link under the blue **Send** button to open the **GENERATE C
 
 [![generate code link](https://assets.postman.com/postman-docs/58525940.png)](https://assets.postman.com/postman-docs/58525940.png)
 
-> You can prevent Postman from adding headers to your request code automatically using __Preferences__ &gt; __New Code Generation Mode__, then in the code generation window, opening the settings and turning off __Include Temporary Headers__.
-
 ## Selecting a language
 
 Use the dropdown menu to select a language or framework - some have multiple options to customize your code snippet.

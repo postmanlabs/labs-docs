@@ -233,6 +233,22 @@ Some APIs require you to send particular headers along with requests, typically 
 > ![Header Preset](https://assets.postman.com/postman-docs/header-preset.jpg)
 > <img alt="Select Preset" src="https://assets.postman.com/postman-docs/select-preset.jpg" width="250px"/>
 
+Postman will automatically add certain headers to your requests based on your request selections and settings. Click the __hidden__ button at the top of the headers tab to see what will be sent along with your request.
+
+<img alt="Hidden Headers" src="https://assets.postman.com/postman-docs/hidden-headers.jpg" width="450px"/>
+
+Hover over a header to see the detail of where it was added and how to change it if necessary.
+
+<img alt="Recommended Headers" src="https://assets.postman.com/postman-docs/recommended-header.jpg" width="300px"/>
+
+If you need to change a header, you can do so in the relevant part of the Postman app, for example the __Authorization__ tab, the __Settings__, and in some cases directly in the __Headers__ tab. If you need to navigate to a different part of the app, Postman will show a link on the right-hand side.
+
+![Settings Headers](https://assets.postman.com/postman-docs/setting-header-popup.jpg)
+
+To disable a header, uncheck its checkbox. To override a header value, type straight into the __Value__ field.
+
+![Override Headers](https://assets.postman.com/postman-docs/override-header.jpg)
+
 Once your headers and other request details are set up, you can click __Send__ to run your request.
 
 ### Using cookies

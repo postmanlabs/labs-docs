@@ -83,11 +83,15 @@ When you select a type, Postman will indicate which parts of the request your de
 
 <img alt="Auth Setup in Request" src="https://assets.postman.com/postman-docs/auth-bearer-variable.jpg" width="600px"/>
 
-Your auth data will appear in the relevant parts of the request, for example appended to text in the header using the standard formats your API will be able to process. You will see info about headers added automatically when you hover over each one, which indicates how to remove any you do not want to send with your request.
+Your auth data will appear in the relevant parts of the request, for example in the __Headers__ tab. To show headers added automatically, click the __hidden__ button.
 
-<img alt="Auth Header Info" src="https://assets.postman.com/postman-docs/header-added-popup.jpg" width="500px"/>
+<img alt="Hidden Headers" src="https://assets.postman.com/postman-docs/hidden-headers.jpg" width="400px"/>
 
-Your requests can use environment, collection, and global [variables](/docs/postman/variables-and-environments/variables/). Postman does not save header data or query parameters to avoid exposing sensitive data such as API keys.
+Hover over a header to see where it was added and how to override it. To change an auth header, navigate back to the __Authorization__ tab and update your configuration.
+
+![Auth Headers](https://assets.postman.com/postman-docs/auth-header-popup.jpg)
+
+Your request auth can use environment, collection, and global [variables](/docs/postman/variables-and-environments/variables/). Postman does not save header data or query parameters to avoid exposing sensitive data such as API keys.
 
 > You can inspect a raw dump of the entire request including auth data in the Postman console after you send it.
 
