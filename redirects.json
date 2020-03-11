@@ -566,5 +566,9 @@
     {
         "from": "/docs/postman_pro/what_is_pro/",
         "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/v6/postman/sending_api_requests/authorization",
+        "to": "/docs/postman/sending-api-requests/authorization/"
     }
 ]
