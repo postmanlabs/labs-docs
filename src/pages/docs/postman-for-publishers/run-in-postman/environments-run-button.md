@@ -58,7 +58,7 @@ You can add an environment to a new button while you're creating it, or to an ex
 
 > Only the dynamic (HTML) Run in Postman button exposes the Run in Postman API.
 
-The JavaScript Run in Postman API uses the `_pm()` method to create or modify environments in your websites client-side code through exisitng Run in Postman buttons. For example, You could use the API to pass login credentials to Postman:
+The JavaScript Run in Postman API uses the `_pm()` method to create or modify environments in your website's client-side code through existing dynamic Run in Postman buttons. For example, You could use the API to pass login credentials to Postman:
 
 ```javascript
 _pm('env.create', 'Spotify', {
