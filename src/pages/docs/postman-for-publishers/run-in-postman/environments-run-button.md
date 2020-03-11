@@ -38,7 +38,7 @@ You can add environments to both static and dynamic Run in Postman buttons.
 
 **Dynamic buttons:** You can include the environment from the **Embed** tab or with the Run in Postman API.
 
-**Static buttons:** With the static (Markdown) button, you can only include the environment from the "Embed" tab.
+**Static buttons:** With the static (Markdown) button, you can only include the environment from the **Embed** tab.
 
 ### Add environment from the **Embed** tab
 
@@ -46,20 +46,19 @@ You can add an environment to a new button while you're creating it, or to an ex
 
 > If you add an environment to an existing button, you have to click **Update link** to save the environment parameter to the embed code, and then copy the new embed code into your website's code.
 
-1. From the Postman app, go to the collection that you created or will create the Run in Postman button for.
+1. From the Postman app, go to the collection that you want share with a Run in Postman button.
+   - ![Share collection]()
 2. To the right of the collection name, click the ellipses **(...)** > **Share collection**. The Share dialog will pop-up.
-3. In the Share dialog, click the "Embed" tab. If you need to create the button first, [create your Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/)
+3. In the Share dialog, click the "Embed" tab. If you need to, [create your Run in Postman button](/docs/postman-for-publishers/run-in-postman/creating-run-button/).
 4. On the right, above the code field, click the dropdown to choose an environment. You'll see the code in the panel change to include the environment parameter.
 5. At the bottom right, click **Copy to clipboard**.
 6. Embed the button on your website.
-
-[!Open the **Embed** tab.](file:///Users/jacque/Documents/Environments_RIP_gif.gif)
 
 ### Use the API to include an environment
 
 > Only the dynamic (HTML) Run in Postman button exposes the Run in Postman API.
 
-The JavaScript Run in Postman API uses the `_pm()` method to create or modify client-side environments through exisitng Run in Postman buttons. For example, You could use the API to pass login credentials to Postman:
+The JavaScript Run in Postman API uses the `_pm()` method to create or modify environments in your websites client-side code through exisitng Run in Postman buttons. For example, You could use the API to pass login credentials to Postman:
 
 ```javascript
 _pm('env.create', 'Spotify', {
