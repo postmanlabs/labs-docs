@@ -180,7 +180,7 @@ The variables defined in the individual scopes may also be accessed via `pm.envi
 * `pm.environment.set(variableName:String, variableValue:String):function`: Sets the variable with the given name and value in the currently selected environment.
 * `pm.environment.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
 * `pm.environment.toObject():function → Object`: Returns all the environment variables in the form of a single object.
-* `pm.environment.unset(variableName:String):function`: Remove a variable with the specified name in the currently selected environment.
+* `pm.environment.unset(variableName:String):function`: Remove a variable with the given name in the currently selected environment.
 * `pm.environment.clear():function`: Clears all variables in the currently selected environment.
 
 ### pm.collectionVariables
