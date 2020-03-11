@@ -47,7 +47,7 @@ You can add an environment to a new button while you're creating it, or to an ex
 > If you add an environment to an existing button, you have to click **Update link** to save the environment parameter to the embed code, and then copy the new embed code into your website's code.
 
 1. From the Postman app, go to the collection that you want share with a Run in Postman button.
-   - ![Share collection]()
+   - ![Share collection](https://assets.postman.com/postman-docs/collection-menu-share.png)
 2. To the right of the collection name, click the ellipses **(...)** > **Share collection**. The Share dialog will pop-up.
 3. In the Share dialog, click the "Embed" tab. If you need to, [create your Run in Postman button](/docs/postman-for-publishers/run-in-postman/creating-run-button/).
 4. On the right, above the code field, click the dropdown to choose an environment. You'll see the code in the panel change to include the environment parameter.
