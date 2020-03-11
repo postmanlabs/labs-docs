@@ -70,4 +70,4 @@ Check out the following links to start learning.
 
 ## Providing feedback
 
-Share your thoughts on the documentation and help the Postman team to improve it for yourself and other learners! To submit feedback, please [create an issue on the documentation GitHub repo](https://github.com/postmanlabs/postman-docs/issues) or post in the [community forum](https://community.getpostman.com/).
+Share your thoughts on the documentation and help the Postman team to improve it for yourself and other learners! To submit feedback, please [create an issue on the documentation GitHub repo](https://github.com/postmanlabs/postman-docs/issues) or post in the [community forum](https://community.postman.com/).
