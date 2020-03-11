@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Ingur"
-    url: "https://www.postman.com/case-studies/Imgur.pdf"
+    url: "https://www.postman.com/resources/case-studies/imgur/"
   - type: section
     name: "Next Steps"
   - type: link
