@@ -26,7 +26,7 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/"
 ---
 
-You can include environments in your [Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/creating-run-button/). When developers click the button from your API documentation or website, the environment will be imported along with the collection into the Postman app, and the user can enter their own variable values.  
+You can include environments in your [Run in Postman button](/docs/postman-for-publishers/run-in-postman/creating-run-button/). When developers click the button from your API documentation or website, the environment will be imported along with the collection into the Postman app, and the user can enter their own variable values.  
 
 Find out more about [environments and variables](docs/postman/variables-and-environments/variables/).
 
