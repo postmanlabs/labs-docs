@@ -280,7 +280,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://community.getpostman.com/"
+              href="https://community.postman.com/"
             >
               Postman Community
             </a>

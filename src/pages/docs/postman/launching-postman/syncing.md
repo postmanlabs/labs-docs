@@ -91,6 +91,6 @@ When you reload the app, Postman automatically retrieves the most recent and up-
 
 If you have a Postman account and are not part of a Postman team, you can [delete your account](https://go.postman.co/settings/me).
 
-Otherwise, you can contact us at [help@getpostman.com](mailto:help@getpostman.com).
+Otherwise, you can contact us at [help@postman.com](mailto:help@postman.com).
 
 [![delete account](https://assets.postman.com/postman-docs/WS-syncing-deleteAccount.png)](https://assets.postman.com/postman-docs/WS-syncing-deleteAccount.png)
