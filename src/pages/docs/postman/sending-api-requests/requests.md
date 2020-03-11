@@ -52,7 +52,7 @@ If you have never sent a request before, check out [sending your first request](
 
 * [Creating requests](#creating-requests)
 * [Adding request detail](#adding-request-detail)
-    * [Setting request URLs](#setting-request-URLs)
+    * [Setting request URLs](#setting-request-urls)
     * [Selecting request methods](#selecting-request-methods)
     * [Sending parameters](#sending-parameters)
     * [Sending body data](#sending-body-data)
@@ -60,6 +60,8 @@ If you have never sent a request before, check out [sending your first request](
     * [Configuring request headers](#configuring-request-headers)
     * [Using cookies](#using-cookies)
 * [Choosing custom settings](#choosing-custom-settings)
+    * [Encoding your request URLs](#encoding-your-request-urls)
+* [Troubleshooting your requests](#troubleshooting-your-requests)
 * [Next steps](#next-steps)
 
 ## Creating requests
@@ -241,10 +243,46 @@ You can manage Cookies for your domains from Postman. Click __Cookies__ under th
 
 ## Choosing custom settings
 
-You can configure a variety of settings for Postman requests using the __Settings__ tab. These allow you to apply non-standard logic to your requests.
+You can configure a variety of settings for Postman requests using the request __Settings__ tab. These allow you to apply non-standard logic to your requests.
 
-![Request Settings](https://assets.postman.com/postman-docs/request-settings.jpg)
+![App Settings](https://assets.postman.com/postman-docs/app-settings-general.jpg)
+
+### Encoding your request URLs
+
+Postman parses and encodes your request URL in order to maximize the chances of a successful API call. Postman encodes the characters in your URL and maps them to a representation that your API is most likely to accept. The Postman URL processor is shifting towards a new standard that optimizes the chance of your request being effectively processed by the wide range of server implementations in use.
+
+The next generation processor will encode characters depending on where they occur in the URL:
+
+| URL component | Characters to encode |
+| ------------- | -------------------- |
+| Path | `"` `<` `>` `` ` `` `#` `?` `{` `}` `SPACE` |
+| Query | `"` `#` `&` `'` `<` `=` `>` `SPACE` |
+| Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` <code>\|</code> `SPACE` |
+
+You can use the next generation processor in your Postman app at any time. You can also turn off encoding if you are working with an unusual server implementation.
+
+To configure URL encoding, first open your Postman __Settings__ (at the top right of the app) and toggle the __Use next generation URL processing__ option.
+
+<img alt="App Setting Encoding" src="https://assets.postman.com/postman-docs/app-setting-encoding.jpg" width="400px"/>
+
+You can then toggle the setting on or off in your request __Settings__.
+
+![App Setting Encoding](https://assets.postman.com/postman-docs/encode-request-setting.jpg)
+
+Click __Restore default__ to use your app-wide setting in a specific request.
+
+> You can selectively encode parts of your URL by highlighting the text and right-clicking, then choosing __EncodeURIComponent__.
+
+## Troubleshooting your requests
+
+Postman will indicate any whitespace / potentially invalid characters in parts of your request that may not function as expected so that you can rectify your values, for example in the URL path and key names.
+
+<img alt="Whitespace in URL" src="https://assets.postman.com/postman-docs/whitespace-in-url.jpg" width="400px"/>
+
+<img alt="Invalid Characters" src="https://assets.postman.com/postman-docs/invalid-character-message.jpg" width="400px"/>
+
+If your request does not work as expected, check out some [troubleshooting tips](/docs/postman/sending-api-requests/troubleshooting-api-requests/).
 
 ## Next steps
 
-Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/). If your request does not work as expected, check out some [troubleshooting tips](/docs/postman/sending-api-requests/troubleshooting-api-requests/).
+Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/).
