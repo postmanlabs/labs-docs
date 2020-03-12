@@ -49,20 +49,19 @@ To create the Run in Postman button, start in the Postman app. Make sure you are
 2. Next to the collection's name, click the ellipsis **(...)** > **Share** . A dialog will pop up.
 3. At the top of the dialog, click **Embed**  
 4. Click **Generate code**.
+5. Choose either a:
+   - **Dynamic button**: Uses HTML and CSS. Optimal for a website. **Note**: You need to have permission to edit your website's code.
+   - **Static button**: Uses Markdown. Optimal for Markdown documents like a README.md.
+6. You have the option to include an environment. Find out about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
+7. Click **Update link** > **Copy to clipboard**.
+8. Go to where you want your button displayed, like your website or GitHub README, and embed the code you just copied.
 
-Under the **Embed Button** tab, click the **Generate Code** button to upload the collection to the Postman servers.
-
-Pick whether you would like a Dynamic button or a Static button.
-
-* The Dynamic button uses HTML and CSS, and works well if you want to add the button to your own website and you have permissions to edit the source code of the site.
-* The Static button uses Markdown, and works well if you need to add the button to a markdown document, such as a README.md file in your Github or Bitbucket repository.
-
-      [![run in postman button code](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)
+![gif](https://postman-static-assets.s3.amazonaws.com/postman-docs/Create+RIP+button.gif)
 
 Here’s an example markdown snippet:
 
 ```bash
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
+![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 ```
 
 Here’s an example HTML snippet:
