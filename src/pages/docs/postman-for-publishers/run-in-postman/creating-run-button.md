@@ -37,23 +37,22 @@ contextual_links:
 
 ---
 
-The Run in Postman button is a way to [share your Postman Collection](/docs/postman/collections/sharing-collections/) and integrate your API documentation or developer portal directly with the Postman app. Keep in mind, Run in Postman works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
+You can use The Run in Postman button to [share your Postman Collection](/docs/postman/collections/sharing-collections/) and connect Postman directly to your developer portal.
 
-The Run in Postman button imports and opens a collection of API endpoints directly in the user’s Postman app. You can embed the button in your API documentation or your GitHub's README to help developers get up to speed on your API faster.
+The Run in Postman button imports and opens a copy of your collection of API endpoints directly in the user’s Postman app. You can embed the button in your API documentation or your GitHub's README. Run in Postman works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
 
-### Creating the Run in Postman button
+### Create a Run in Postman button
 
 To create the Run in Postman button, start in the Postman app. Make sure you are signed in to your Postman account, and that you have a collection to share.
 
-1. Click on the ellipsis **(...)** next to the collection you would like to embed and select "Share".
+1. In the Postman app, go to the collection you want to create a button for.
+2. Next to the collection's name, click the ellipsis **(...)** > **Share** . A dialog will pop up.
+3. At the top of the dialog, click **Embed**  
+4. Click **Generate code**.
 
-    [![share collection](https://assets.postman.com/postman-docs/shareCollectionDropdown.png)](https://assets.postman.com/postman-docs/shareCollectionDropdown.png)
+Under the **Embed Button** tab, click the **Generate Code** button to upload the collection to the Postman servers.
 
-1. Under the **Embed Button** tab, click the **Generate Code** button to upload the collection to the Postman servers.
-
-    [![generate code](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)
-
-1. Pick whether you would like a Dynamic button or a Static button.
+Pick whether you would like a Dynamic button or a Static button.
 
 * The Dynamic button uses HTML and CSS, and works well if you want to add the button to your own website and you have permissions to edit the source code of the site.
 * The Static button uses Markdown, and works well if you need to add the button to a markdown document, such as a README.md file in your Github or Bitbucket repository.
