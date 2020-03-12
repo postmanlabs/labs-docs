@@ -52,31 +52,41 @@ The button imports and opens a copy of your collection of API endpoints directly
 5. Choose either a:
    - **Dynamic button**: Uses HTML and CSS. Optimal for a website. Can access Run in Postman API. **Note**: You need to have permission to edit your website's code.
    - **Static button**: Uses Markdown. Optimal for Markdown documents like a README.md.
-6. You have the option to include an environment. Find out about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
-7. Click **Update link** > **Copy to clipboard**.
+6. You have the option to include an environment. On the right, click the **Environment** drop-down and choose the environment. Find out about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
+7. Click **Copy to clipboard**.
 8. Go to where you want your button displayed, like your website or GitHub README, and embed the code you just copied.
 
 ![Create a button](https://postman-static-assets.s3.amazonaws.com/postman-docs/Create+RIP+button.gif)
 
-## See examples of the button's code snippets
+### See examples of the button's code snippets
 
 The `:collection_id` in the examples is a placeholder here and will be auto-filled in the markdown snippet.
 
 > If you choose to include and environment in your button, then the code will also have the environment parameter.
 
-### Markdown snippet
+#### Markdown snippet
 
 ```bash
 ![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 ```
 
-### HTML snippet
+#### HTML snippet
 
 ```bash
 <a href="https://www.postman.com/run-collection/:collection_id" target="_blank">
   <img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
 </a>
 ```
+
+## Keep your collections up to update
+
+When you make changes to a collection that's connected to a Run in Postman button, you'll need to manually update the button's collection link so that your users are importing the most current collection.
+
+1. In the Postman app, go to the collection with the button you need to update.
+2. Next to the collections name, click the ellipsis **(...)** > **Share**. A dialog will pop up.
+3. At the top of the dialog, click **Embed** > **Update link**.
+
+[![Embed button](https://assets.postman.com/postman-docs/59020943.png)](https://assets.postman.com/postman-docs/59020943.png)
 
 ## Next steps
 
