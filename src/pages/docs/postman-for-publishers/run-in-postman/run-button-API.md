@@ -17,19 +17,38 @@ contextual_links:
 ---
 
 
-The JavaScript Run in Postman API is accessible through the dynamic Run in Postman API. The API is a collection of 3 JavaScript uses the `pm()` method
+The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of 3 JavaScript functions that use the `pm()` method. You can leverage the method to alter your button's behavior.
 
-The JavaScript Run in Postman button exposes an API via the `_pm()` method. These API methods allow you to dynamically alter button behavior. Note that the `_pm()` API is not available for the static version of the Run in Postman button.
+>To work with the Run in Postman API, you'll need permission to edit your website's source code.
 
-### Creating a new environment
+Find out more about [environments and variables](/docs/postman/collection-runs/using-environments-in-collection-runs/) in Postman.
 
-A new environment can be dynamically created using the `env.create` method:
+## Use the functions
+
+With the Run in Postman API `pm()` functions, you can use your button to:
+
+* Create a new environment
+* Modify an existing environment
+* Replace an environment
+* Use several buttons on a single page with segregated environments, each button with its own environment
+
+### Where to write your functions
+
+ You'll write your functions from your website's source code. Go to the website where your button is embedded and find the script in the source code. From there, you can write the functions you want to use to alter your button's behavior.
+
+### Create a new environment
+
+Use the `env.create` method to create a new environment:
 
 ```javascript
 _pm('env.create', 'environment_name', {key: value});
 ```
 
-For example, if you need to create a new environment using API keys entered by your user, you can do something like this when the Run in Postman button is clicked:
+> `env.create` cannot be used to create duplicate environments. Calls made with existing environment names will fail.  
+
+#### Example
+
+Create a new environment using API keys entered by your user with something like this:
 
 ```javascript
 function () {
@@ -44,20 +63,22 @@ function () {
 }
 ```
 
-Note:
+The `env.create` action will return truth on success, false on failure.
 
-* The `env.create` action will return truth on success, false on failure.
-* `env.create` cannot be used to create duplicate environments. Subsequent calls with an existing environment name will fail.
+### Edit an existing environment
 
-### Editing an existing environment
-
-An environment which was included in the Run Button embed code or created with `env.create` can be modified using the `env.assign` method:
+Use `env.assign` method to modify an environment:
 
 ```javascript
 _pm('env.assign', 'environment_name', {key: new_value, new_key: value})
 ```
 
-For example, if you need to update the `API Keys` environment created in the last example:
+> The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added via the `env.create` method.
+> `env.assign` cannot be used to create new environments. Calls to `_pm` using `env.assign` will fail if the environment does not already exist.
+
+#### Example
+
+Update an environments API keys:
 
 ```javascript
 function () {
@@ -72,15 +93,11 @@ function () {
 }
 ```
 
-Note:
+The `env.assign` action will return truth on success, false on failure.
 
-* The `env.assign` action will return truth on success, false on failure.
-* `env.assign` cannot be used to create new environments. Calls to `_pm` using `env.assign` will fail if the environment doesn’t already exist.
-* `env.assign` will allow assignment to environments created using `env.create` and inline environments from the button embed code.
+### Replace an existing environment
 
-### Replacing an existing environment
-
-An entire environment can be replaced using the `env.replace` method.
+Use the `env.replace` method to replace an entire environment:
 
 ```javascript
 _pm('env.replace', 'environment_name', {key: value})
