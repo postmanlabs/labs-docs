@@ -47,7 +47,7 @@ The button imports and opens a copy of your collection of API endpoints directly
 
 1. In the Postman app, go to the collection you want to create a button for.
 2. Next to the collection's name, click the ellipsis **(...)** > **Share** . A dialog will pop up.
-3. At the top of the dialog, click **Embed**  
+3. At the top of the dialog, click **Embed**.
 4. Click **Generate code**.
 5. Choose either a:
    - **Dynamic button**: Uses HTML and CSS. Optimal for a website. Can access Run in Postman API. **Note**: You need to have permission to edit your website's code.
@@ -58,7 +58,7 @@ The button imports and opens a copy of your collection of API endpoints directly
 
 ![Create a button](https://postman-static-assets.s3.amazonaws.com/postman-docs/Create+RIP+button.gif)
 
-## Button code snippet examples
+## See examples of the button's code snippets
 
 The `:collection_id` in the examples is a placeholder here and will be auto-filled in the markdown snippet.
 
@@ -77,3 +77,7 @@ The `:collection_id` in the examples is a placeholder here and will be auto-fil
   <img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
 </a>
 ```
+
+## Next steps
+
+Find out about [environments in the Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/environments-run-button/).
