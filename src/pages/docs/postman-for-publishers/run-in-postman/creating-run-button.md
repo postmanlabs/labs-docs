@@ -37,41 +37,43 @@ contextual_links:
 
 ---
 
-You can use The Run in Postman button to [share your Postman Collection](/docs/postman/collections/sharing-collections/) and connect Postman directly to your developer portal.
+You can use The Run in Postman button to [share your Postman collection](/docs/postman/collections/sharing-collections/) and connect Postman directly to your developer portal.
 
-The Run in Postman button imports and opens a copy of your collection of API endpoints directly in the user’s Postman app. You can embed the button in your API documentation or your GitHub's README. Run in Postman works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
+The button imports and opens a copy of your collection of API endpoints directly in the user’s Postman app. You can embed the button in your API documentation or your GitHub's README. The Run in Postman button works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
 
 ### Create a Run in Postman button
 
-To create the Run in Postman button, start in the Postman app. Make sure you are signed in to your Postman account, and that you have a collection to share.
+> Make sure you're signed in to your Postman account, and that you have a collection to share.
 
 1. In the Postman app, go to the collection you want to create a button for.
 2. Next to the collection's name, click the ellipsis **(...)** > **Share** . A dialog will pop up.
 3. At the top of the dialog, click **Embed**  
 4. Click **Generate code**.
 5. Choose either a:
-   - **Dynamic button**: Uses HTML and CSS. Optimal for a website. **Note**: You need to have permission to edit your website's code.
+   - **Dynamic button**: Uses HTML and CSS. Optimal for a website. Can access Run in Postman API. **Note**: You need to have permission to edit your website's code.
    - **Static button**: Uses Markdown. Optimal for Markdown documents like a README.md.
 6. You have the option to include an environment. Find out about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
 7. Click **Update link** > **Copy to clipboard**.
 8. Go to where you want your button displayed, like your website or GitHub README, and embed the code you just copied.
 
-![gif](https://postman-static-assets.s3.amazonaws.com/postman-docs/Create+RIP+button.gif)
+![Create a button](https://postman-static-assets.s3.amazonaws.com/postman-docs/Create+RIP+button.gif)
 
-Here’s an example markdown snippet:
+## Button code snippet examples
+
+The `:collection_id` in the examples is a placeholder here and will be auto-filled in the markdown snippet.
+
+> If you choose to include and environment in your button, then the code will also have the environment parameter.
+
+### Markdown snippet
 
 ```bash
 ![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 ```
 
-Here’s an example HTML snippet:
+### HTML snippet
 
 ```bash
 <a href="https://www.postman.com/run-collection/:collection_id" target="_blank">
   <img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
 </a>
 ```
-
-The `:collection_id` is a placeholder here and will be auto-filled in the markdown snippet.
-
-Embed this button on your documentation pages or your GitHub repo’s README for the API.
