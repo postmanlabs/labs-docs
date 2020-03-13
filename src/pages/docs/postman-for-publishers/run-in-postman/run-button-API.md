@@ -17,24 +17,24 @@ contextual_links:
 ---
 
 
-The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of 3 JavaScript functions that use the `pm()` method. You can leverage the method to alter your button's behavior.
+The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of 3 JavaScript methods that operate on the `pm()` method. You can leverage the method to alter your button's behavior.
 
 >To work with the Run in Postman API, you'll need permission to edit your website's source code.
 
 Find out more about [environments and variables](/docs/postman/collection-runs/using-environments-in-collection-runs/) in Postman.
 
-## Use the functions
+## Use the methods
 
-With the Run in Postman API `pm()` functions, you can use your button to:
+With the `pm()` methods, you can use your button to:
 
 * Create a new environment
 * Modify an existing environment
 * Replace an environment
 * Use several buttons on a single page with segregated environments, each button with its own environment
 
-### Where to write your functions
+### Where to write your code
 
- You'll write your functions from your website's source code. Go to the website where your button is embedded and find the script in the source code. From there, you can write the functions you want to use to alter your button's behavior.
+ You'll write your code in your website's source code. Go to the website where your button is embedded and find the script in the source code. From there, you can write the functions you want to use to alter your button's behavior.
 
 ### Create a new environment
 
@@ -48,7 +48,7 @@ _pm('env.create', 'environment_name', {key: value});
 
 #### Example
 
-Create a new environment using API keys entered by your user with something like this:
+Create a new environment using API keys entered by your user:
 
 ```javascript
 function () {
@@ -74,11 +74,11 @@ _pm('env.assign', 'environment_name', {key: new_value, new_key: value})
 ```
 
 > The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added via the `env.create` method.
-> `env.assign` cannot be used to create new environments. Calls to `_pm` using `env.assign` will fail if the environment does not already exist.
+> `env.assign` cannot be used to create new environments. Calls made using `env.assign` will fail if the environment does not already exist.
 
 #### Example
 
-Update an environments API keys:
+Update an environment's API keys:
 
 ```javascript
 function () {
@@ -103,7 +103,11 @@ Use the `env.replace` method to replace an entire environment:
 _pm('env.replace', 'environment_name', {key: value})
 ```
 
-For example, if you have the following environment and you need to replace it:
+> `env.replace` cannot be used to replace an environment which does not exist.
+
+#### Example
+
+Replace an environment:
 
 ```javascript
 // Existing environment named 'user_data'
@@ -117,31 +121,26 @@ For example, if you have the following environment and you need to replace it:
 _pm('env.replace', 'user_data', {});
 ```
 
-Note:
+The `env.replace` method will return truth on success, false on failure.
 
-* The `env.replace` method will return truth on success, false on failure.
-* `env.replace` cannot be used to replace an environment which does not exist.
+### Use multiple buttons
 
-### Segregating environments
-
-To use multiple Run buttons in same page and segregated environments based on run buttons,
-enable segregateEnvironments in config.
+To have multiple buttons on a single page with segregated environments, each with its own button, you need to enable segregateEnvironments in configuration.
 
 ```javascript
 _pm('_property.set', 'segregateEnvironments', true);
 ```
 
-If this option is enabled, `runButtonIndex` is required in all `_pm` APIs.
+#### Include `runButtonIndex`
 
-Run button index is the integer indicating the position a run button among with other run buttons in
-the DOM.
+If segregateEnvironments is enabled, you'll have to include `runButtonIndex` every time you work with the Run in Postman API. The index is the integer indicating the position of one button in a group of buttons in the DOM.
 
 ```javascript
 var runButtons = Array.prototype.slice.call(document.getElementsByClassName('postman-run-button')),
   runButtonIndex = runButtons.indexOf(elem);
 ```
 
-If you are using jquery in the page, this should also work,
+#### `runButtonIndex` for jQuery
 
 ```javascript
 var runButtonIndex = $('postman-run-button').index(elem);
