@@ -11,14 +11,14 @@ You can leave comments on collections and requests to collaborate with your team
 
 We'll cover:
 
-* [Post comments on collections and requests](#post-comments-on-collections-&-requests)
+* [Comment on collections and requests](#comment-on-collections-&-requests)
 * [Reading comments](#reading-comments)
 * [Edit comments](#edit-comments)
 * [Delete comments](#delete-comments)
 * [Tag members in comments](#tag-members-in-comments)
 * [Markdown support](#markdown-support)
 
-## Post comments on collection & requests
+## Comment on collection & requests
 
 **Notes:**
 
