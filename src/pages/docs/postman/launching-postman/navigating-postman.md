@@ -220,7 +220,7 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 You can use the [keyboard shortcuts](/docs/postman/launching-postman/keyboard-shortcuts/#data-editor) to navigate the data editor.
 
-### Mulitple rows
+### Multiple rows
 
 Drag your mouse to select multiple rows.
 

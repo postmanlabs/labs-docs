@@ -97,7 +97,7 @@ The Postman Learning Center has all of the resources you
       </div>
     </section>
 
-    <section className="row" style={videoStyle}>
+    <section className="row video-player">
       <div className="col-md-8">
         <ResponsiveEmbed
           src="https://www.youtube.com/embed/Ayo_KdLLcTA?list=PLM-7VG-sgbtBE0mqMBlAYNuqTkhJzFjlP"

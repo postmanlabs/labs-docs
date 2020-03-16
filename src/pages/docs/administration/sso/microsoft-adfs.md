@@ -142,3 +142,58 @@ After the setup, you must submit your Identity Provider's details to Postman.
 Download the FederationMetadata.xml. You can generally find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`
 
 Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams) page in the AD FS Identity Provider Details dialog.
+
+**Step 6** Enable the RelayState parameter on your ADFS servers.
+
+* For ADFS 2.0, open the following file in a text editor:
+
+```
+%systemroot%\inetpub\adfs\ls\web.config
+```
+
+* For ADFS 3.0, open the following file in a text editor:
+
+```
+%systemroot%\ADFS\Microsoft.IdentityServer.Servicehost.exe.config
+```
+
+In the [microsoft.identityServer.web](http://microsoft.identityserver.web/) section, add a line for __useRelyStateForIdpInitiatedSignOn__ as follows, and save the change:
+
+```
+<microsoft.identityServer.web>    ... <useRelayStateForIdpInitiatedSignOn enabled="true" />    ...</microsoft.identityServer.web>
+```
+
+* For ADFS 2.0, run IISReset to restart IIS.
+* For both platforms, restart the Active Directory Federation Services (adfssrv) service.
+
+> If you're using ADFS 3.0 you only need to do the above on your ADFS 3.0 servers, not the WAP servers.
+
+Ensure that `<useRelayStateForIdpInitiatedSignOn enabled="true" />` has been added at [microsoft.identityServer.web](http://microsoft.identityserver.web/), then generate a URL encoded string from the relay state and the Entity ID as follows.
+
+* There are two pieces of information you need to generate the RelayState URL. The first is the relying party's identifier, which can be found in the AD FS Management Console. View the Identifiers tab on the relying party's property page.
+* The second part is the actual RelayState value that you need to send to the relying Party. The example below uses the relying party identifier of `https://identity-example.getpostman.com` and the relay state of `35ef7ab89gh99hh00`.
+
+Starting values:
+
+* __RPID__: `https://identity-example.getpostman.com`
+* __Relay State__: `35ef7ab89gh99hh00`
+
+> You are advised to use a trusted URL encoder to generate the encode values.
+
+URL encode each value.
+
+* __RPID__: `https%3A%2F%2Fidentity-example.getpostman.com`
+* __Relay State__: `35ef7ab89gh99hh00`
+
+Merge the URL encoded values with the string below, and URL encode the whole string.
+
+* __String__: `RPID=<URL encoded RPID>&RelayState=<URL encoded RelayState>`
+* __String with values__: `RPID=https%3A%2F%2Fidentity-example.getpostman.com&RelayState=35ef7ab89gh99hh00`
+* __URL encoded string__: `RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
+
+Take the final string and append it to the IDP initiated sign-on URL.
+
+* An example IDP initiated sign-on URL would have the following structure: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx`
+* __Final URL__: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
+
+Navigate to the final URL in the browser on first time login from Azure AD, which will enable setting the relay state and allow seamless SSO login in future.
