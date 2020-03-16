@@ -9,7 +9,7 @@ You can leave comments on collections and requests to collaborate with your team
 
 We'll cover:
 
-* [Posting comments](#posting-comments)
+* [Post comments](#post-comments)
 * [Reading comments](#reading-comments)
 * [Editing comments](#editing-comments)
 * [Deleting comments](#deleting-comments)
@@ -24,11 +24,16 @@ We'll cover:
 * Team members must have access to the collection in question in order to post comments.
 * You can only post comments on saved requests.
 
-### Posting comments on a collection
+### Post comments on a collection
 
-You can leave a comment on a collection through the [Postman Dashboard](https://app.getpostman.com). To post a comment on a collection, navigate to the `Collections` tab at the top of the page, select the collection you want to leave a comment on, then click **Comments**.
+To leave a comment on a collection, you'll have to use the Postman Dashboard.
 
-[![comment collection](https://user-images.githubusercontent.com/5029719/71972143-0302e200-3204-11ea-9eed-7db783785711.png)](https://user-images.githubusercontent.com/5029719/71972143-0302e200-3204-11ea-9eed-7db783785711.png)
+1. Sign in to the [Postman dashboard](https://app.getpostman.com).
+2. At the top, click **Collections**.
+   * If you have not chosen a specific environment, you can click **View all collections**.
+3. Open the collection you want to leave comments on.
+4. Find the request or section of documentation you want to leave your comment on, and click **Comment**.
+   * ![Comment UI](https://postman-static-assets.s3.amazonaws.com/postman-docs/New+commenting+UI.jpg)
 
 ### Posting comments on a request
 
