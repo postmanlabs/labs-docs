@@ -5,9 +5,9 @@ page_id: "commenting_on_collections"
 warning: false
 ---
 
-Postman provides a quick way to collaborate with your team members by allowing you to post comments on collections and requests. This is an easy way to provide valuable feedback to your team members on your collections and requests.
+You can leave comments on collections and requests to collaborate with your teammates. Tag your collaborators in comments to let them know that you have questions or feedback.
 
-This topic describes the following sections:
+We'll cover:
 
 * [Posting comments](#posting-comments)
 * [Reading comments](#reading-comments)
