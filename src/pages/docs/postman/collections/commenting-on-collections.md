@@ -34,7 +34,7 @@ To leave a comment on a collection, you'll have to use the Postman Dashboard.
 3. Open the collection you want to leave comments on.
 4. Find the request or section of documentation you want to leave your comment on, and click **Comment**.
 
-![Comment UI](https://assets.postman.com/postman-docs/Commenting+on+a+collection+ss1.jpg)
+![Comment UI](https://assets.postman.com/postman-docs/Commenting+on+a+collection+ss2.jpg)
 
 ### Commenting on a request
 
@@ -47,7 +47,7 @@ You can comment on requests via the [web dashboard](https://app.getpostman.com) 
    * To tag your teammates, type "@" and choose their name from the list.
 4. Click **Add comment**.
 
-![Comments in app and dashboard](https://assets.postman.com/postman-docs/Comments+gif.gif)
+![Comments in app and dashboard](https://assets.postman.com/postman-docs/App+and+dashboard+comment+gif.gif)
 
 If you get tagged in a comment, you'll get a notification. If you don't have access to the collection you've been tagged on, you'll have to get access before you can read the comment.
 
@@ -62,7 +62,7 @@ You can see comments made by teammates on requests and collections with the Post
 
 > The comment button displays the number of existing comments.
 
-![Reading a comment](https://assets.postman.com/postman-docs/Reading+comments+.jpg)
+![Reading a comment](https://assets.postman.com/postman-docs/Reading+comments2.jpg)
 
 ### Reading comments on the Postman Dashboard
 
@@ -75,7 +75,7 @@ You can read the comments made on a collection through the [Postman Dashboard](h
 4. Next to the request with the comments you want to see, click **Comments**.
    * There might be general comments on the whole collection left next to the collection name.
 
-![Dashboard comments](https://assets.postman.com/postman-docs/Read+comment+on+dashboard.gif)
+![Dashboard comments](https://assets.postman.com/postman-docs/Read+in+dashboard.gif)
 
 ## Editing comments
 
@@ -85,7 +85,7 @@ You can make changes to comments you've already posted. You're the only one who 
 2. Find the comment and click **Comment** > **Edit** icon.
 3. Click **Save changes**.
 
-![Edit comment](https://assets.postman.com/postman-docs/Editing+a+comment.jpg)
+![Edit comment](https://assets.postman.com/postman-docs/Editing+a+comment2.jpg)
 
 ## Deleting comments
 
