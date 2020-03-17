@@ -7,14 +7,14 @@ warning: false
 
 You can leave comments on collections and requests to collaborate with your teammates. Tag your collaborators in comments to let them know that you have questions or feedback.
 
-We'll cover:
+Here, you'll learn how to:
 
 * [Comment on collections and requests](#comment-on-collections-&-requests)
 * [Read comments in the app and on the dashboard](#read-comments-in-the-app-and-on-the-dashboard)
 * [Edit comments](#edit-comments)
 * [Delete comments](#delete-comments)
 * [Tag members in comments](#tag-members-in-comments)
-* [Markdown support](#markdown-support)
+* [Use Markdown](#Use-markdown)
 
 ## Comment on collections & requests
 
@@ -112,7 +112,7 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 ![Notification bell](https://assets.postman.com/postman-docs/Notification+bell.jpg)
 
-## Markdown support
+## Use Markdown
 
 Postman comments support Markdown. For more information on formatting using Markdown refer to [Markdown in API Documentation](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
 
