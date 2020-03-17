@@ -49,7 +49,7 @@ You can comment on requests via the [web dashboard](https://app.getpostman.com) 
 
 ![Comments in app and dashboard](https://assets.postman.com/postman-docs/Comments+gif.gif)
 
-You'll be notified when you're tagged in a comment. If someone tags you in a comment on a collection you don't have access to, you'll have to get access before you can read the comment.
+If you get tagged in a comment, you'll get a notification. If you don't have access to the collection you've been tagged on, you'll have to get access before you can read the comment.
 
 ## Read comments in the app and on the dashboard
 
