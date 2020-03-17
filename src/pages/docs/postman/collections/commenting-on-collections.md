@@ -34,7 +34,7 @@ To leave a comment on a collection, you'll have to use the Postman Dashboard.
 3. Open the collection you want to leave comments on.
 4. Find the request or section of documentation you want to leave your comment on, and click **Comment**.
 
-![Comment UI](https://assets.postman.com/postman-docs/Commenting+on+a+collection+ss2.jpg)
+![Comment UI](https://assets.postman.com/postman-docs/Commenting+on+a+collection+ss3.jpg)
 
 ### Commenting on a request
 
@@ -93,7 +93,7 @@ You can make changes to comments you've already posted. You're the only one who 
 2. Go to the comment and click **Comments** > **Delete** icon.
 3. Click **Delete**.
 
-![Delete comment](https://assets.postman.com/postman-docs/Delete+comment.jpg)
+![Delete comment](https://assets.postman.com/postman-docs/Delete+comment2.jpg)
 
 > For moderation purposes, admins can delete anyone’s comment. However, admins will not be able to update/modify a comment.
 
@@ -110,7 +110,7 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 >If your teammate has disabled notifications then they will not be notified.
 
-![Notification bell](https://assets.postman.com/postman-docs/Notification+bell.jpg)
+![Notification bell](https://assets.postman.com/postman-docs/Notification+bell2.jpg)
 
 ## Markdown support
 
