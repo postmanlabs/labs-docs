@@ -62,11 +62,11 @@ You can see comments made by teammates on requests and collections with the Post
 1. In the Postman app, find the request that has the comments you want to review.
 2. At the top, click **Comments**.
 
-> The comment button displays the number of existing comments between brackets.
+> The comment button displays the number of existing comments.
 
-[![read comments app](https://user-images.githubusercontent.com/5029719/71972448-8c1a1900-3204-11ea-8c9e-eae41eb5c54a.png)](https://user-images.githubusercontent.com/5029719/71972448-8c1a1900-3204-11ea-8c9e-eae41eb5c54a.png)
+![Reading a comment](https://assets.postman.com/postman-docs/Reading+comments+.jpg)
 
-### Read comments on the Postman dashboard
+### Read comments on the Postman Dashboard
 
 You can read the comments made on a collection through the [Postman Dashboard](https://app.getpostman.com).
 
@@ -77,7 +77,7 @@ You can read the comments made on a collection through the [Postman Dashboard](h
 4. Next to the request with the comments you want to see, click **Comments**.
    * There might be general comments on the whole collection left next to the collection name.
 
-[![read comment collection dashboard](https://user-images.githubusercontent.com/5029719/71084214-b3913f00-218c-11ea-8796-cab07431775f.gif)](https://user-images.githubusercontent.com/5029719/71084214-b3913f00-218c-11ea-8796-cab07431775f.gif)
+![Dashboard comments](https://assets.postman.com/postman-docs/Read+comment+on+dashboard.gif)
 
 ## Edit comments
 
@@ -87,7 +87,7 @@ After posting a comment, you can go back, edit your comment and save your change
 2. Find the comment and click **Comment** > the **Edit** icon.
 3. Click **Save changes**.
 
-[![edit comments](https://user-images.githubusercontent.com/5029719/71972899-84a73f80-3205-11ea-8721-f54ac0a4a03d.png)](https://user-images.githubusercontent.com/5029719/71972899-84a73f80-3205-11ea-8721-f54ac0a4a03d.png)
+![Edit comment](https://assets.postman.com/postman-docs/Editing+a+comment.jpg)
 
 ## Delete comments
 
@@ -95,7 +95,7 @@ After posting a comment, you can go back, edit your comment and save your change
 2. Find the comment and click **Comments** > the **Delete** icon.
 3. Click **Delete**.
 
-[![delete comments](https://user-images.githubusercontent.com/5029719/71972924-91c42e80-3205-11ea-8b97-61142d7e6919.png)](https://user-images.githubusercontent.com/5029719/71972924-91c42e80-3205-11ea-8b97-61142d7e6919.png)
+![Delete comment](https://assets.postman.com/postman-docs/Delete+comment.jpg)
 
 > For moderation purposes, admins can delete anyone’s comment. However, admins will not be able to update/modify a comment.
 
@@ -112,7 +112,7 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 >If your teammate has disabled notifications then they will not be notified.
 
-[![receive comment](https://user-images.githubusercontent.com/5029719/71098559-cb2af080-21a9-11ea-95ae-68b5dbb2eea9.png)](https://user-images.githubusercontent.com/5029719/71098559-cb2af080-21a9-11ea-95ae-68b5dbb2eea9.png)
+![Notification bell](https://assets.postman.com/postman-docs/Notification+bell.jpg)
 
 ## Markdown support
 
