@@ -7,18 +7,16 @@ warning: false
 
 You can leave comments on collections and requests to collaborate with your teammates. Tag your collaborators in comments to let them know that you have questions or feedback.
 
-> We've made some improvements to the comments feature. Check out what's new in our release notes.
-
 We'll cover:
 
 * [Comment on collections and requests](#comment-on-collections-&-requests)
-* [Reading comments](#reading-comments)
+* [Read comments on the app and in the dashboard](#read-comments-on-the-app-and-in-the-dashboard)
 * [Edit comments](#edit-comments)
 * [Delete comments](#delete-comments)
 * [Tag members in comments](#tag-members-in-comments)
 * [Markdown support](#markdown-support)
 
-## Comment on collection & requests
+## Comment on collections & requests
 
 **Notes:**
 
@@ -46,14 +44,14 @@ You can comment on requests via the [web dashboard](https://app.getpostman.com) 
 2. At the top right, click **Comments**.
    * You'll also see if there are any other comments on the request.
 3. Leave your comment.
-   * To tag your teammates type "@", and choose their name from the list.
+   * To tag your teammates, type "@" and choose their name from the list.
 4. Click **Add comment**.
 
 ![Comments in app and dashboard](https://assets.postman.com/postman-docs/Comments+gif.gif)
 
-> If someone tags you in a comment on a private collection that you don’t have access for, Postman sends a notification to you. However, you can’t read the comment until the collection or the request is shared with you.  
+You'll be notified when you're tagged in a comment. If someone tags you in a comment on a collection you don't have access to, you'll have to get access before you can read the comment.
 
-## Reading comments
+## Read comments on the app and in the dashboard
 
 You can see comments made by teammates on requests and collections with the Postman app or the [web dashboard](https://app.getpostman.com).
 
