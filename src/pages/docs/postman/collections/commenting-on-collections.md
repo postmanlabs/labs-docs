@@ -40,7 +40,7 @@ To leave a comment on a collection, you'll have to use the Postman Dashboard.
 
 ### Comment on a request
 
-You can comment on requests via the [web dashboard](https://app.getpostman.com) or the Postman app. When you comment on a request, it is reflected in both the Dashboard and the app.
+You can comment on requests via the [web dashboard](https://app.getpostman.com) or the Postman app. When you comment on a request, it's reflected in both the Dashboard and the app.
 
 1. In your Postman app, go to the collection with the request you want to comment on.
 2. At the top right, click **Comments**.
@@ -49,7 +49,7 @@ You can comment on requests via the [web dashboard](https://app.getpostman.com) 
    * To tag your teammates type "@", and choose their name from the list.
 4. Click **Add comment**.
 
-[![post comments](https://assets.postman.com/postman-docs/comment-general.gif)](https://assets.postman.com/postman-docs/comment-general.gif)
+![Comments in app and dashboard](https://assets.postman.com/postman-docs/Comments+gif.gif)
 
 > If someone tags you in a comment on a private collection that you don’t have access for, Postman sends a notification to you. However, you can’t read the comment until the collection or the request is shared with you.  
 
