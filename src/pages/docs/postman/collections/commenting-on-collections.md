@@ -9,14 +9,14 @@ You can leave comments on collections and requests to collaborate with your team
 
 What's covered in this topic:
 
-* [Comment on collections and requests](#comment-on-collections-&-requests)
-* [Read comments in the app and on the dashboard](#read-comments-in-the-app-and-on-the-dashboard)
-* [Edit comments](#edit-comments)
-* [Delete comments](#delete-comments)
-* [Tag members in comments](#tag-members-in-comments)
+* [Commenting on collections and requests](#commenting-on-collections-&-requests)
+* [Reading comments in the app and on the dashboard](#reading-comments-in-the-app-and-on-the-dashboard)
+* [Editing comments](#editing-comments)
+* [Deleting comments](#deleting-comments)
+* [Tagging members in comments](#tagging-members-in-comments)
 * [Markdown support](#markdown-support)
 
-## Comment on collections & requests
+## Commenting on collections & requests
 
 **Notes:**
 
@@ -24,7 +24,7 @@ What's covered in this topic:
 * Team members must have access to the collection in question in order to post comments.
 * You can only post comments on saved requests.
 
-### Comment on a collection
+### Commenting on a collection
 
 To leave a comment on a collection, you'll have to use the Postman Dashboard.
 
@@ -36,7 +36,7 @@ To leave a comment on a collection, you'll have to use the Postman Dashboard.
 
 ![Comment UI](https://assets.postman.com/postman-docs/Leaving+a+comment.jpg)
 
-### Comment on a request
+### Commenting on a request
 
 You can comment on requests via the [web dashboard](https://app.getpostman.com) or the Postman app. When you comment on a request, it's reflected in both the Dashboard and the app.
 
@@ -51,11 +51,11 @@ You can comment on requests via the [web dashboard](https://app.getpostman.com) 
 
 If you get tagged in a comment, you'll get a notification. If you don't have access to the collection you've been tagged on, you'll have to get access before you can read the comment.
 
-## Read comments in the app and on the dashboard
+## Reading comments in the app and on the dashboard
 
 You can see comments made by teammates on requests and collections with the Postman app or the [web dashboard](https://app.getpostman.com).
 
-### Read comments in the Postman app
+### Reading comments in the Postman app
 
 1. In the Postman app, find the request that has the comments you want to review.
 2. At the top, click **Comments**.
@@ -64,7 +64,7 @@ You can see comments made by teammates on requests and collections with the Post
 
 ![Reading a comment](https://assets.postman.com/postman-docs/Reading+comments+.jpg)
 
-### Read comments on the Postman Dashboard
+### Reading comments on the Postman Dashboard
 
 You can read the comments made on a collection through the [Postman Dashboard](https://app.getpostman.com).
 
@@ -77,7 +77,7 @@ You can read the comments made on a collection through the [Postman Dashboard](h
 
 ![Dashboard comments](https://assets.postman.com/postman-docs/Read+comment+on+dashboard.gif)
 
-## Edit comments
+## Editing comments
 
 You can make changes to comments you've already posted. You're the only one who will be able to edit your comment.
 
@@ -87,7 +87,7 @@ You can make changes to comments you've already posted. You're the only one who 
 
 ![Edit comment](https://assets.postman.com/postman-docs/Editing+a+comment.jpg)
 
-## Delete comments
+## Deleting comments
 
 1. In the Postman app or dashboard, find the collection with the comment you want to delete.
 2. Go to the comment and click **Comments** > **Delete** icon.
@@ -97,7 +97,7 @@ You can make changes to comments you've already posted. You're the only one who 
 
 > For moderation purposes, admins can delete anyone’s comment. However, admins will not be able to update/modify a comment.
 
-## Tag members in comments
+## Tagging members in comments
 
 When you leave feedback or a question for a specific teammate, you can let them know by tagging them in your comment.
 
