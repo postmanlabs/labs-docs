@@ -10,7 +10,7 @@ You can leave comments on collections and requests to collaborate with your team
 We'll cover:
 
 * [Comment on collections and requests](#comment-on-collections-&-requests)
-* [Read comments on the app and in the dashboard](#read-comments-on-the-app-and-in-the-dashboard)
+* [Read comments in the app and on the dashboard](#read-comments-in-the-app-and-on-the-dashboard)
 * [Edit comments](#edit-comments)
 * [Delete comments](#delete-comments)
 * [Tag members in comments](#tag-members-in-comments)
@@ -51,11 +51,11 @@ You can comment on requests via the [web dashboard](https://app.getpostman.com) 
 
 You'll be notified when you're tagged in a comment. If someone tags you in a comment on a collection you don't have access to, you'll have to get access before you can read the comment.
 
-## Read comments on the app and in the dashboard
+## Read comments in the app and on the dashboard
 
 You can see comments made by teammates on requests and collections with the Postman app or the [web dashboard](https://app.getpostman.com).
 
-### Read comments on the Postman app
+### Read comments in the Postman app
 
 1. In the Postman app, find the request that has the comments you want to review.
 2. At the top, click **Comments**.
@@ -79,10 +79,10 @@ You can read the comments made on a collection through the [Postman Dashboard](h
 
 ## Edit comments
 
-After posting a comment, you can go back, edit your comment and save your changes. You're the only one who will be able to edit your comment.
+You can make changes to comments you've already posted. You're the only one who will be able to edit your comment.
 
 1. In the Postman app or dashboard, find the collection with the comment you want to edit.
-2. Find the comment and click **Comment** > the **Edit** icon.
+2. Find the comment and click **Comment** > **Edit** icon.
 3. Click **Save changes**.
 
 ![Edit comment](https://assets.postman.com/postman-docs/Editing+a+comment.jpg)
@@ -90,7 +90,7 @@ After posting a comment, you can go back, edit your comment and save your change
 ## Delete comments
 
 1. In the Postman app or dashboard, find the collection with the comment you want to delete.
-2. Find the comment and click **Comments** > the **Delete** icon.
+2. Go to the comment and click **Comments** > **Delete** icon.
 3. Click **Delete**.
 
 ![Delete comment](https://assets.postman.com/postman-docs/Delete+comment.jpg)
