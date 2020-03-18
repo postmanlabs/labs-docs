@@ -95,7 +95,7 @@ You can find your account type's monthly usage limits by referring to your [usag
 > * Maximum parallel runs of multiple monitors = 500
 > * Maximum parallel runs of a single monitor = 200
 >
-> Postman will notify team admins via email if your team encounters these limits, as well as notify users in the app or web dashboard UI.
+> Postman will notify team admins via email if your team encounters these limits, as well as notify team members in the app or web dashboard.
 >
 > For assistance regarding these limits and to request changes, contact the [Postman support team](https://support.getpostman.com/).
 
