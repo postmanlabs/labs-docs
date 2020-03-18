@@ -107,6 +107,8 @@ You will need to give your new monitor a name and designate the collection you w
 
 [![create monitor](https://assets.postman.com/postman-docs/setting-up-a-monitor.jpg)](https://assets.postman.com/postman-docs/setting-up-a-monitor.jpg)
 
+> Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/postman/monitors/intro-monitors/#usage-limits).
+
 From here, you can determine how you'd like to configure your monitor.
 
 ## Configuring a monitor
