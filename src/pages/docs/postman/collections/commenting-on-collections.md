@@ -34,7 +34,7 @@ To leave a comment on a collection, you'll have to use the Postman Dashboard.
 3. Open the collection you want to leave comments on.
 4. Find the request or section of documentation you want to leave your comment on, and click **Comment**.
 
-![Comment UI](https://assets.postman.com/postman-docs/Comments+on+collections+EM2.jpg)
+![Comment UI](https://assets.postman.com/postman-docs/Collection+comments+1.jpg)
 
 ### Commenting on a request
 
@@ -116,4 +116,4 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 Postman comments support Markdown. For more information on formatting using Markdown refer to [Markdown in API Documentation](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
 
-[![post comments](https://assets.postman.com/postman-docs/comment-markdown.png)](https://assets.postman.com/postman-docs/comment-markdown.png)
+![Markdown examples](https://assets.postman.com/postman-docs/Markdown+comment.jpg)
