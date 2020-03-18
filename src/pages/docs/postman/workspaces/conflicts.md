@@ -26,7 +26,7 @@ For example, if a teammate makes a change to the same request you are currently 
 
 If Postman encounters a conflict between your local app and the synced data for your account or team, you will see the __Resolve Sync Conflicts__ modal when your account attempts to sync.
 
-<img alt="Sync Conflicts" src="https://assets.postman.com/postman-docs/sync-conflict-resolution.jpg" width="500px"/>
+<img alt="Sync Conflicts" src="https://assets.postman.com/postman-docs/sync-conflict-resolution.jpg" width="600px"/>
 
 You can choose to preserve your local changes, or update your local version to match the synced version from the server. You will see an overview of each conflict and can choose __Local changes__ or __Server changes__ for each one.
 
