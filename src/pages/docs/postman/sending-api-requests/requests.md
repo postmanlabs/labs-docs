@@ -61,7 +61,6 @@ If you have never sent a request before, check out [sending your first request](
     * [Using cookies](#using-cookies)
 * [Choosing custom settings](#choosing-custom-settings)
     * [Encoding your request URLs](#encoding-your-request-urls)
-* [Troubleshooting your requests](#troubleshooting-your-requests)
 * [Next steps](#next-steps)
 
 ## Creating requests
@@ -104,6 +103,8 @@ When you start typing in the URL input field, Postman will present a drop-down o
 > Postman will automatically add `http://` to the start of your URL if you do not specify a protocol.
 
 You can optionally type _query_ parameters into the URL field, or can [enter them in the Params tab](#sending-parameters). If your request uses _path_ parameters, [you can enter them directly into the URL field](#sending-parameters).
+
+> You can use [next generation URL encoding](#encoding-your-request-urls) in your requests.
 
 ### Selecting request methods
 
@@ -285,4 +286,4 @@ If your request does not work as expected, check out some [troubleshooting tips]
 
 ## Next steps
 
-Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/).
+Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/). If your request does not work as expected, check out some [troubleshooting tips](/docs/postman/sending-api-requests/troubleshooting-api-requests/).

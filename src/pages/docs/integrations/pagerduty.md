@@ -42,7 +42,7 @@ Click the __Add Service__ link at the bottom of the page to create a new service
 
 ## Configuring Postman with PagerDuty
 
-1. In the [Integrations page](https://go.postman.co/workspaces), find PagerDuty from a list of Postman's third party integrations for Postman users.
+1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select PagerDuty from the list of third party integrations.
 
   [![select pagerduty integration](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)
 

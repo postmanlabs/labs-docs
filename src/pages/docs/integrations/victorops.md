@@ -48,7 +48,7 @@ You can enter your own key and select a team for which the key is applicable.
 
 ## Configuring Postman Monitors
 
-In the Integrations section of [your workspaces](https://go.postman.co/workspaces) page, find VictorOps from a list of Postman’s third party integrations for Postman users.
+In the Integrations section of [your workspace](https://go.postman.co/workspaces), find VictorOps in the list of third party integrations.
 
 Click the **View Details** button to see information about VictorOps and how you can configure Postman monitors to trigger incidents on VictorOps.
 

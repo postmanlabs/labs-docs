@@ -103,7 +103,7 @@ Click the ellipsis **(...)** next to the workspace element you want to delete an
 
 Similarly, you can also delete elements from the [Workspaces dashboard](https://app.getpostman.com/dashboard) in the web view.
 
-**Note:** _Deleting_ an element is different than _removing_ it. When you delete an element, it is gone forever! When you remove an element, it will continue to exist in other workspaces to which it has already been added.
+**Note:** _Deleting_ an element is different from _removing_ it. When you delete an element, it will delete it from any workspace you shared it to, and the element is gone forever! When you remove an element, it will continue to exist in other workspaces to which it has already been added.
 
 ## Joining a workspace
 

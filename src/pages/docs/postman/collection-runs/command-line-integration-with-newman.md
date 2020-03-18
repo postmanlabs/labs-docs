@@ -265,7 +265,7 @@ Newman also supports file uploads. For this to work correctly, upload the file i
 }
 ```
 
-The file ``sample-file.txt`` must be present in the same directory as the collection. Run this collection as usual.
+The file ``sample-file.txt`` must be present in the current working directory as the collection. Run this collection as usual.
 
 ```bash
 $ newman run file-upload.postman_collection.json
