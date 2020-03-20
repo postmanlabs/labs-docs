@@ -32,7 +32,7 @@ To leave a comment on a collection, you'll have to use the Postman Dashboard.
 2. At the top, click **Collections**.
    * If you have not chosen a specific environment, you can click **View all collections**.
 3. Open the collection you want to leave comments on.
-4. Find the request or section of documentation you want to leave your comment on, and click **Comment**.
+4. Find the request or section of documentation you want to leave your comment on and click **Comment**.
 
 ![Comment UI](https://assets.postman.com/postman-docs/Collection+comments+1.jpg)
 
@@ -85,7 +85,7 @@ You can make changes to comments you've already posted. You're the only one who 
 2. Find the comment and click **Comment** > **Edit** icon.
 3. Click **Save changes**.
 
-![Edit comment](https://assets.postman.com/postman-docs/Editing+a+comment2.jpg)
+![Edit comment](https://assets.postman.com/postman-docs/Editing+a+comment2+--+resized.jpg)
 
 ## Deleting comments
 
@@ -93,7 +93,7 @@ You can make changes to comments you've already posted. You're the only one who 
 2. Go to the comment and click **Comments** > **Delete** icon.
 3. Click **Delete**.
 
-![Delete comment](https://assets.postman.com/postman-docs/Delete+comment2.jpg)
+![Delete comment](https://assets.postman.com/postman-docs/Delete+comment2+resized.jpg)
 
 > For moderation purposes, admins can delete anyone’s comment. However, admins will not be able to update/modify a comment.
 
