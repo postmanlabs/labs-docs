@@ -85,15 +85,15 @@ You can make changes to comments you've already posted. You're the only one who 
 2. Find the comment and click **Comment** > **Edit** icon.
 3. Click **Save changes**.
 
-![Edit comment](https://assets.postman.com/postman-docs/Editing+a+comment2+--+resized.jpg)
+![Edit comment](https://assets.postman.com/postman-docs/Edit+a+comment+PR.jpg)
 
 ## Deleting comments
 
 1. In the Postman app or dashboard, find the collection with the comment you want to delete.
-2. Go to the comment and click **Comments** > **Delete** icon.
+2. Go to the comment and click **Comments** > **Delete**.
 3. Click **Delete**.
 
-![Delete comment](https://assets.postman.com/postman-docs/Delete+comment2+resized.jpg)
+![Delete comment](https://assets.postman.com/postman-docs/Delete+a+comment+PR.jpg)
 
 > For moderation purposes, admins can delete anyone’s comment. However, admins will not be able to update/modify a comment.
 
@@ -110,7 +110,7 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 >If your teammate has disabled notifications then they will not be notified.
 
-![Notification bell](https://assets.postman.com/postman-docs/Notification+bell2.jpg)
+![Notification bell](https://assets.postman.com/postman-docs/Notification+bell+PR.jpg)
 
 ## Markdown support
 
