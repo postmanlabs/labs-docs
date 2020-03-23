@@ -31,7 +31,7 @@ The JavaScript Run in Postman API is accessible through the dynamic Run in Postm
 Use the `env.create` method to create a new environment:
 
 ```javascript
-_pm('env.create', 'environment_name', {key: value});
+_pm('env.create', 'environment_name', {key: value}, runButtonIndex);
 ```
 
 > `env.create` cannot be used to create duplicate environments. Calls made with existing environment names will fail.  
@@ -42,12 +42,13 @@ Create a new environment using API keys entered by your user:
 function () {
   var stagingKey = document.getElementById('staging-key-input').value,
     productionKey = document.getElementById('production-key-input').value,
+    runButtonIndex = 0,
     envData = {
       stagingKey: stagingKey,
       productionKey: productionKey
     };
 
-  _pm('env.create', 'API Keys', envData);
+  _pm('env.create', 'API Keys', envData, runButtonIndex);
 }
 ```
 
