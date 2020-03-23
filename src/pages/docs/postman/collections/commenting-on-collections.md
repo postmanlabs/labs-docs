@@ -53,16 +53,16 @@ You'll get a notification if you get tagged in a comment. If you don't have acce
 
 ## Reading comments in the app & dashboard
 
-You can see comments made by teammates on requests and collections with the Postman app or the [web dashboard](https://app.getpostman.com).
+You can see comments made by teammates on requests and collections in the Postman app or the [Postman dashboard](https://app.getpostman.com).
 
 ### Reading comments in the Postman app
 
-1. In the Postman app, find the request that has the comments you want to review.
+1. In the Postman app, go to the request that has the comments you want to review.
 2. At the top, click **Comments**.
 
 > The comment button displays the number of existing comments.
 
-![Reading a comment](https://assets.postman.com/postman-docs/Reading+comments2+--+resized+.jpg)
+![Reading a comment](https://assets.postman.com/postman-docs/Read+comment+on+request+.jpg)
 
 ### Reading comments on the Postman Dashboard
 
