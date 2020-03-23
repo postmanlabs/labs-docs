@@ -56,11 +56,9 @@ The button imports and opens a copy of your collection of API endpoints directly
    - **Static button**: This button uses Markdown. It's optimal for Markdown documents like a README.md file in your GitHub or Bitbucket repository.
 6. You can include an environment that will import along with your colletion. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
 7. Click **Copy to clipboard**.
-8. Go to where you want your button displayed, like your website or GitHub README, and embed the code you just copied.
+8. Embed the code where you'd like the button displayed, like your website or GitHub README.
 
 ![Create a button](https://assets.postman.com/postman-docs/Creating+RIP+button+gif.gif)
-
-### See examples of the button's code snippets
 
 The `:collection_id` in the examples is a placeholder here and will be auto-filled in the markdown snippet.
 
