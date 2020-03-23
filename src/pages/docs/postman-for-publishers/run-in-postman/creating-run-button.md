@@ -58,7 +58,7 @@ The button imports and opens a copy of your collection of API endpoints directly
 7. Click **Copy to clipboard**.
 8. Go to where you want your button displayed, like your website or GitHub README, and embed the code you just copied.
 
-![Create a button](https://postman-static-assets.s3.amazonaws.com/postman-docs/Create+RIP+button.gif)
+![Create a button](https://assets.postman.com/postman-docs/Creating+RIP+button+gif.gif)
 
 ### See examples of the button's code snippets
 
