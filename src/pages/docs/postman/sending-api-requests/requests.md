@@ -62,6 +62,7 @@ If you have never sent a request before, check out [sending your first request](
     * [Using cookies](#using-cookies)
 * [Choosing custom settings](#choosing-custom-settings)
     * [Encoding your request URLs](#encoding-your-request-urls)
+* [Troubleshooting your requests](#troubleshooting-your-requests)
 * [Next steps](#next-steps)
 
 ## Creating requests
@@ -339,4 +340,4 @@ If your request does not work as expected, check out some [troubleshooting tips]
 
 ## Next steps
 
-Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/). If your request does not work as expected, check out some [troubleshooting tips](/docs/postman/sending-api-requests/troubleshooting-api-requests/).
+Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/).
