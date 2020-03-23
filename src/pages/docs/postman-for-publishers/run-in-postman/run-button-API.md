@@ -17,9 +17,7 @@ contextual_links:
 ---
 
 
-The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of 3 JavaScript methods that operate on the `pm()` method. You can leverage the method to alter your button's behavior.
-
->To work with the Run in Postman API, you'll need permission to edit your website's source code.
+The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior.
 
 Find out more about [environments and variables](/docs/postman/collection-runs/using-environments-in-collection-runs/) in Postman.
 
