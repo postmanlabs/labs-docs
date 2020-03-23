@@ -158,6 +158,8 @@ Next to the date you want to mock all the requests for, click the ellipsis **(..
 
 In the modal, give your server a name. You also have the option to connect an environment to the server, choose if the server will be private or public, and to save the server's URL as an environment variable.
 
+![Mocks modal](https://assets.postman.com/postman-docs/Mocks+modal.jpg)
+
 > If you choose to make your mock server private, you'll have to generate and API key.
 
 ### Mocking from Collections in Browse view
