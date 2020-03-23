@@ -54,7 +54,7 @@ The button imports and opens a copy of your collection of API endpoints directly
 5. Choose a static or dynamic button:
    - **Dynamic button**: This button uses HTML and CSS. It's optimal for a website, and it can access the Run in Postman API. **Note**: You need to have permission to edit your website's code.
    - **Static button**: This button uses Markdown. It's optimal for Markdown documents like a README.md file in your GitHub or Bitbucket repository.
-6. You have the option to include an environment. On the right, click the **Environment** drop-down and choose the environment. Find out about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
+6. You can include an environment that will import along with your colletion. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
 7. Click **Copy to clipboard**.
 8. Go to where you want your button displayed, like your website or GitHub README, and embed the code you just copied.
 
