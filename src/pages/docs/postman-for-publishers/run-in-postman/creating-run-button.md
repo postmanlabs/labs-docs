@@ -64,13 +64,13 @@ Your embed code will include your collection's ID. In the examples below, `:coll
 
 > If you choose to include and environment in your button, then the code will also have the environment parameter.
 
-#### Markdown snippet
+**Sample markdown snippet:**
 
 ```bash
-![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 ```
 
-#### HTML snippet
+**Sample HTML snippet:**
 
 ```bash
 <a href="https://www.postman.com/run-collection/:collection_id" target="_blank">
@@ -78,7 +78,7 @@ Your embed code will include your collection's ID. In the examples below, `:coll
 </a>
 ```
 
-## Keep your collections up to update
+## Keep your collections up to date
 
 When you make changes to a collection that's connected to a Run in Postman button, you'll need to manually update the button's collection link so that your users are importing the most current collection.
 
