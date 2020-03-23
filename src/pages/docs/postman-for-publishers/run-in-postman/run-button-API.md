@@ -17,18 +17,14 @@ contextual_links:
 ---
 
 
-The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior.
-
-Find out more about [environments and variables](/docs/postman/collection-runs/using-environments-in-collection-runs/) in Postman.
-
-## Use the methods
-
-With the `pm()` methods, you can use your button to:
+The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior and affect environments included in your button.
 
 * Create a new environment
 * Modify an existing environment
 * Replace an environment
 * Use several buttons on a single page with segregated environments, each button with its own environment
+
+> Learn more about more about [environments and variables](/docs/postman/collection-runs/using-environments-in-collection-runs/) in Postman.
 
 ### Where to write your code
 
