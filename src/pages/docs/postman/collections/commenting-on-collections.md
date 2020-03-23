@@ -47,11 +47,11 @@ You can comment on requests via the [web Dashboard](https://app.getpostman.com) 
    * To tag your teammates, type "@" and choose their name from the list.
 4. Click **Add comment**.
 
-![Comments in app and dashboard](https://assets.postman.com/postman-docs/Commenting+on+a+request+GIF.gif)
+![Comments in app and dashboard](https://assets.postman.com/postman-docs/Comment+on+app+and+dashboard.gif)
 
-If you get tagged in a comment, you'll get a notification. If you don't have access to the collection you've been tagged on, you'll have to get access before you can read the comment.
+You'll get a notification if you get tagged in a comment. If you don't have access to the collection you've been tagged on, you'll have to request access before you can read the comment.
 
-## Reading comments in the app and on the dashboard
+## Reading comments in the app & dashboard
 
 You can see comments made by teammates on requests and collections with the Postman app or the [web dashboard](https://app.getpostman.com).
 
