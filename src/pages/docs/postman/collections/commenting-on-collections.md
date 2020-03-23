@@ -38,9 +38,9 @@ To leave a comment on a collection, you'll have to use the Postman Dashboard.
 
 ### Commenting on a request
 
-You can comment on requests via the [web dashboard](https://app.getpostman.com) or the Postman app. When you comment on a request, it's reflected in both the Dashboard and the app.
+You can comment on requests via the [web Dashboard](https://app.getpostman.com) or the Postman app. The steps are the same for both. When you comment on a request, it's reflected in both the Dashboard and the app.
 
-1. In your Postman app, go to the collection with the request you want to comment on.
+1. In your Postman app or Dashboard, go to the collection with the request you want to comment on.
 2. At the top right, click **Comments**.
    * You'll also see if there are any other comments on the request.
 3. Leave your comment.
