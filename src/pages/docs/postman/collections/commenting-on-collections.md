@@ -75,7 +75,7 @@ You can read the comments made on a collection through the [Postman Dashboard](h
 4. Next to the request with the comments you want to see, click **Comments**.
    * There might be general comments on the whole collection left next to the collection name.
 
-![Dashboard comments](https://assets.postman.com/postman-docs/Read+in+dashboard.gif)
+![Dashboard comments](https://assets.postman.com/postman-docs/Read+comment+on+Postman+Dashboard.gif)
 
 ## Editing comments
 
