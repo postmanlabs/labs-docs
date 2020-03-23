@@ -340,4 +340,4 @@ If your request does not work as expected, check out some [troubleshooting tips]
 
 ## Next steps
 
-Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/). If your request does not work as expected, check out some [troubleshooting tips](/docs/postman/sending-api-requests/troubleshooting-api-requests/).
+Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/).
