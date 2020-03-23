@@ -272,6 +272,18 @@ You can then toggle the setting on or off in your request __Settings__.
 
 Click __Restore default__ to use your app-wide setting in a specific request.
 
+> You can selectively encode parts of your URL by highlighting the text and right-clicking, then choosing __EncodeURIComponent__.
+
+## Troubleshooting your requests
+
+Postman will indicate any whitespace / potentially invalid characters in parts of your request that may not function as expected so that you can rectify your values, for example in the URL path and key names.
+
+<img alt="Whitespace in URL" src="https://assets.postman.com/postman-docs/whitespace-in-url.jpg" width="400px"/>
+
+<img alt="Invalid Characters" src="https://assets.postman.com/postman-docs/invalid-character-message.jpg" width="400px"/>
+
+If your request does not work as expected, check out some [troubleshooting tips](/docs/postman/sending-api-requests/troubleshooting-api-requests/).
+
 ## Next steps
 
 Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/). If your request does not work as expected, check out some [troubleshooting tips](/docs/postman/sending-api-requests/troubleshooting-api-requests/).
