@@ -36,8 +36,6 @@ _pm('env.create', 'environment_name', {key: value});
 
 > `env.create` cannot be used to create duplicate environments. Calls made with existing environment names will fail.  
 
-### Example
-
 Create a new environment using API keys entered by your user:
 
 ```javascript
@@ -66,8 +64,6 @@ _pm('env.assign', 'environment_name', {key: new_value, new_key: value})
 > The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added via the `env.create` method.
 > `env.assign` cannot be used to create new environments. Calls made using `env.assign` will fail if the environment does not already exist.
 
-### Example
-
 Update an environment's API keys:
 
 ```javascript
@@ -94,8 +90,6 @@ _pm('env.replace', 'environment_name', {key: value})
 ```
 
 > `env.replace` cannot be used to replace an environment which does not exist.
-
-### Example
 
 Replace an environment:
 
