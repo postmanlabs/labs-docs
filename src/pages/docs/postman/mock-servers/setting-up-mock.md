@@ -152,9 +152,13 @@ In the Postman app, click **History**.
 
 ![History tab](https://assets.postman.com/postman-docs/History+Mock+creation.jpg)
 
-Next to the date you want to mock all the requests for, click the ellipsis **(...)** and then click **Mock Requests**.  
+Next to the date you want to mock all the requests for, click the ellipsis **(...)** and then click **Mock Requests**. A modal will open.
 
-![History tab](https://assets.postman.com/postman-docs/Mock+all+requests.jpg)
+![Ellipsis and mock requests](https://assets.postman.com/postman-docs/Mock+all+requests.jpg)
+
+In the modal, give your server a name. You also have the option to connect an environment to the server, choose if the server will be private or public, and to save the server's URL as an environment variable.
+
+> If you choose to make your mock server private, you'll have to generate and API key.
 
 ### Mocking from Collections in Browse view
 
