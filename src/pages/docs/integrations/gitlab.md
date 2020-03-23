@@ -88,6 +88,8 @@ Now every change that is saved to your Postman Collection automatically commits 
 
 In "Advanced Options" you can enter a custom directory name or leave "Postman Collections" as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch you are trying to push your changes.
 
+> Note that the branch you want to back up your collection to must already exist.
+
 [![gitlab advanced options](https://assets.postman.com/postman-docs/integrations-gitlab-advOptions1.png)](https://assets.postman.com/postman-docs/integrations-gitlab-advOptions1.png)
 
 Click Add Integrations.

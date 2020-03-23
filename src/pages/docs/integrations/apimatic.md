@@ -58,6 +58,8 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
    * Select the format in which you want to save the collection, such as Postman 2.0 or APIMatic format.
    * Specify the branch where you want to add the collection.
 
+> Note that the branch you want to back up your collection to must already exist.
+
 6. Click the **Add Integration** button.
 
    APIMatic converts the collection’s documentation to your format of choice and pushes to your GitHub repository.  Now your Postman collection automatically saves to your GitHub repo every day, in whatever API description format you selected.  API format compatibility is moments away.
