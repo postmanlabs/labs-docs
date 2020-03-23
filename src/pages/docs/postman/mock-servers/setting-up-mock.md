@@ -146,6 +146,16 @@ This process of creating a mock server will also create a collection with the sa
 
 ![New collection created when creating mock server from history request](https://assets.postman.com/postman-docs/mock-cnx-history-request-created.png)
 
+#### Mocking all requests made on a specific date
+
+In the Postman app, click **History**.
+
+![History tab](https://assets.postman.com/postman-docs/History+Mock+creation.jpg)
+
+Next to the date you want to mock all the requests for, click the ellipsis **(...)** and then click **Mock Requests**.  
+
+![History tab](https://assets.postman.com/postman-docs/Mock+all+requests.jpg)
+
 ### Mocking from Collections in Browse view
 
 You can create a mock from an existing collection from the **Browse** view. Click the **Browse** toggle button on the bottom right of the Postman app. Change to the **Collections** tab for the current workspace. Click the **View more actions**  (**...**) button for the corresponding collection. Select **Mock Collection** from the dropdown.
@@ -153,8 +163,6 @@ You can create a mock from an existing collection from the **Browse** view. Clic
 ![Create new mock server from browse view](https://assets.postman.com/postman-docs/mock-cnx-browse-view.png)
 
 This will open the **Create mock server** modal. Follow the steps to finish creating the mock server.
-
-### Mocking a requests made on a specific updated
 
 ## Creating mock servers in the web dashboard
 
