@@ -60,7 +60,7 @@ The button imports and opens a copy of your collection of API endpoints directly
 
 ![Create a button](https://assets.postman.com/postman-docs/Creating+RIP+button+gif.gif)
 
-The `:collection_id` in the examples is a placeholder here and will be auto-filled in the markdown snippet.
+Your embed code will include your collection's ID. In the examples below, `:collection_id` is a placeholder for that ID.
 
 > If you choose to include and environment in your button, then the code will also have the environment parameter.
 
