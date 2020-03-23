@@ -59,7 +59,7 @@ The the `env.create` action will return truth on success, false on failure.
 Use the `env.assign` method to modify an environment:
 
 ```javascript
-_pm('env.assign', 'environment_name', {key: new_value, new_key: value})
+_pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventDefault, runButtonIndex)
 ```
 
 > The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added via the `env.create` method.
@@ -71,12 +71,14 @@ Update an environment's API keys:
 function () {
   var stagingKey = document.getElementById('staging-key-input').value,
     productionKey = document.getElementById('production-key-input').value,
+    preventOveride = true;
+    runButtonIndex = 0,
     envData = {
       stagingKey: stagingKey,
       productionKey: productionKey
     };
 
-  _pm('env.assign', 'API Keys', envData);
+  _pm('env.assign', 'API Keys', envData, preventOveride, runButtonIndex);
 }
 ```
 
@@ -87,7 +89,7 @@ The `env.assign` action will return truth on success, false on failure.
 Use the `env.replace` method to replace an entire environment:
 
 ```javascript
-_pm('env.replace', 'environment_name', {key: value})
+_pm('env.replace', 'environment_name', {key: value}, runButtonIndex)
 ```
 
 > `env.replace` cannot be used to replace an environment which does not exist.
