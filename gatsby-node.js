@@ -57,7 +57,7 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    if (node.fields.slug.includes('_')) {
+    if (node.fields.slug.includes('-')) {
       const underscoreSlug = node.fields.slug.replace(/-/g, '_');
 
       createRedirect({
