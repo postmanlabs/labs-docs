@@ -57,15 +57,16 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    const underscoreSlug = node.fields.slug.replace(/-/g, '_');
+    if (node.fields.slug.includes('-')) {
+      const underscoreSlug = node.fields.slug.replace(/-/g, '_');
 
-
-    createRedirect({
-      fromPath: underscoreSlug,
-      isPermanent: true,
-      redirectInBrowser: true,
-      toPath: node.fields.slug,
-    });
+      createRedirect({
+        fromPath: underscoreSlug,
+        isPermanent: true,
+        redirectInBrowser: true,
+        toPath: node.fields.slug,
+      });
+    }
     createPage({
       path: node.fields.slug,
       component: path.resolve('./src/templates/doc.jsx'),
