@@ -26,11 +26,15 @@ For example, if a teammate makes a change to the same request you are currently 
 
 If Postman encounters a conflict between your local app and the synced data for your account or team, you will see the __Resolve Sync Conflicts__ modal when your account attempts to sync.
 
-<img alt="Sync Conflicts" src="https://assets.postman.com/postman-docs/sync-conflict-resolution.jpg" width="600px"/>
+<img alt="Sync Conflicts" src="https://assets.postman.com/postman-docs/sync-conflict-tabs.jpg" width="600px"/>
+
+You will see a tab for each collection affected by conflicts, and each conflict listed indicating the difference between the local and server version.
 
 You can choose to preserve your local changes, or update your local version to match the synced version from the server. You will see an overview of each conflict and can choose __Local changes__ or __Server changes__ for each one.
 
 Make your selections and click __Resolve Conflicts__ to update both your local version and the synced version of the projects you're working on. If you choose your local changes, other devices and team members will now see your changes whenever Postman syncs for them.
+
+If you update the conflict selections and want to revert to the original selections, which will be to use the server changes by default, click __Reset__.
 
 ## Next steps
 
