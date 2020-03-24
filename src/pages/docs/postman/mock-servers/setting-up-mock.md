@@ -130,9 +130,9 @@ If you already have mock servers created from the same collection, you will see 
 
 ### Mocking from History
 
-You can create a mock from requests saved in your Postman app's History. Mock a single request or all of the requests made on a particular date.
+You can create a mock from requests saved in your Postman app's **History**. Mock a single request or all of the requests made on a particular date.
 
-> You can only create mocks from History in your Postman app.
+> You can only create mocks from **History** in your Postman app.
 
 #### Mocking a single request
 
@@ -148,19 +148,29 @@ This process of creating a mock server will also create a collection with the sa
 
 #### Mocking all requests made on a specific date
 
+You can create a mock server from **History** for all the requests you made on a specific date, creating a new collection at the same time.
+
 In the Postman app, click **History**.
 
 ![History tab](https://assets.postman.com/postman-docs/History+Mock+creation.jpg)
 
-Next to the date you want to mock all the requests for, click the ellipsis **(...)** and then click **Mock Requests**. A modal will open.
+Next to the date you want to mock all the requests for, click the ellipsis **(...)** and then click **Mock Requests**. The **Set up the mock server** modal will open.
 
 ![Ellipsis and mock requests](https://assets.postman.com/postman-docs/Mock+all+requests.jpg)
 
-In the modal, give your server a name. You also have the option to connect an environment to the server, choose if the server will be private or public, and to save the server's URL as an environment variable.
+In the modal, give your server a name. You also have the option to connect an environment to the server, choose if the server will be private or public, and to save the server's URL as an environment variable. Then click **Create mock server**.
 
 ![Mocks modal](https://assets.postman.com/postman-docs/Mocks+modal.jpg)
 
 > If you choose to make your mock server private, you'll have to generate and API key.
+
+Make note of the "Next steps" that will automatically appear after you click **Create mock server**.
+
+![Mocks modal](https://assets.postman.com/postman-docs/Next+steps+modal+RS.jpg)
+
+Creating the mock server will also create a collection with the same name as the server. There will be copies of all of the requests made on the date that you created the server from in your **History**. The server is connected to this new collection.
+
+![Mocks modal](https://assets.postman.com/postman-docs/New+server+and+collection+CS.jpg)
 
 ### Mocking from Collections in Browse view
 
