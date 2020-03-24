@@ -85,7 +85,19 @@ You can use Postman monitoring with any paid or free plan type.
 
 ### Usage limits
 
-You can find your account type's usage limits by referring to your [usage overview](https://go.pstmn.io/postman-account-limits).
+You can find your account type's monthly usage limits by referring to your [usage overview](https://go.pstmn.io/postman-account-limits).
+
+> Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring.
+>
+> These include the following limits:
+>
+> * Maximum number of active and paused monitors per team = 300
+> * Maximum parallel runs of multiple monitors = 500
+> * Maximum parallel runs of a single monitor = 200
+>
+> Postman will notify team admins via email if your team encounters these limits, as well as notify team members in the app or web dashboard.
+>
+> For assistance regarding these limits and to request changes, contact the [Postman support team](https://support.getpostman.com/).
 
 ### Overages
 
