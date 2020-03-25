@@ -13,8 +13,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Coursera"
-    url: "https://www.postman.com/case-studies/Coursera.pdf"
+    name: "Gear4Music"
+    url: "https://www.postman.com/resources/case-studies/gear4music/"
+  - type: link
+    name: "Giant Machines"
+    url: "https://www.postman.com/resources/case-studies/giant-machines/"
   - type: subtitle
     name: "Videos"
   - type: link

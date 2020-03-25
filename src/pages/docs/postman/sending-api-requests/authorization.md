@@ -15,6 +15,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Intuit"
+    url: "https://www.postman.com/resources/case-studies/intuit/"
+  - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman: Authorizing a request"
