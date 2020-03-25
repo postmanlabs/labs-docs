@@ -13,11 +13,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Raygun"
-    url: "https://www.postman.com/case-studies/raygun.pdf"
+    name: "AMC Theatres"
+    url: "https://www.postman.com/resources/case-studies/amc-theatres/"
   - type: link
     name: "BetterCloud"
-    url: "https://www.postman.com/case-studies/BetterCloud.pdf"
+    url: "https://www.postman.com/resources/case-studies/bettercloud/"
   - type: subtitle
     name: "Videos"
   - type: link

@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Monetary"
-    url: "https://www.postman.com/case-studies/monetary.pdf"
+    url: "https://www.postman.com/resources/case-studies/monetary/"
   - type: subtitle
     name: "Videos"
   - type: link

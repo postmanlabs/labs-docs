@@ -15,6 +15,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Giant Machines"
+    url: "https://www.postman.com/resources/case-studies/giant-machines/"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Keep it DRY with collection and folder elements"

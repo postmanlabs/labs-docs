@@ -20,8 +20,8 @@ contextual_links:
     name: "Lucid"
     url: "https://www.postman.com/case-studies/Lucid.pdf"
   - type: link
-    name: "Movember"
-    url: "https://www.postman.com/case-studies/movember.pdf"
+    name: "Movember Foundation"
+    url: "https://www.postman.com/resources/case-studies/movember-foundation/"
   - type: subtitle
     name: "Videos"
   - type: link

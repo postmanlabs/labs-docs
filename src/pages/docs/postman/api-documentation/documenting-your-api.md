@@ -13,8 +13,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "HarperDB"
-    url: "https://www.postman.com/case-studies/harperDB.pdf"
+    name: "Cisco DevNet"
+    url: "https://www.postman.com/resources/case-studies/cisco-devnet/"
+  - type: link
+    name: "Imgur"
+    url: "https://www.postman.com/resources/case-studies/imgur/"
   - type: subtitle
     name: "Videos"
   - type: link
