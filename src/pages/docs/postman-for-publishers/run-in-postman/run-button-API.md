@@ -98,11 +98,11 @@ Replace an environment:
 
 ```javascript
 // Existing environment named 'user_data'
-// {
-//   auth_token: 'q4yugoiwqu4hlrjksfdm3897ryq3891s',
-//   user_id: '823',
-//   session_data: {}
-// }
+{
+   auth_token: 'q4yugoiwqu4hlrjksfdm3897ryq3891s',
+   user_id: '823',
+   session_data: {}
+}
 
 // Replace the 'user_data' environment
 _pm('env.replace', 'user_data', {});
