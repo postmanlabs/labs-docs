@@ -303,7 +303,7 @@ In the __Authorization__ tab for a request, select __Hawk Authentication__ from 
 
 Enter your details in the __Hawk Auth ID__, __Hawk Auth Key__, and __Algorithm__ fields. You can optionally set advanced details, but Postman will attempt to generate values for them if necessary.
 
-> When you have entered values for the required fields in the __Authorization__ tab for your request, Postman will add the details to the __Headers__.
+> When the required details are complete in the __Authorization__ tab for your request, Postman will add them to the __Headers__.
 
 The Hawk Authentication parameters are as follows:
 
