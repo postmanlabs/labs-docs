@@ -132,3 +132,7 @@ var runButtons = Array.prototype.slice.call(document.getElementsByClassName('pos
 ```javascript
 var runButtonIndex = $('postman-run-button').index(elem);
 ```
+
+## Next steps
+
+Learn how to [create API documentation](/docs/postman/api-documentation/documenting-your-api/) from Postman, and then add your documentation to Postman's [API Network](/docs/postman-for-publishers/api-network/add-api-network/).
