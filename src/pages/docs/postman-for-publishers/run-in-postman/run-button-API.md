@@ -118,7 +118,7 @@ You can embed multiple buttons on a single page. If you want to include a differ
 _pm('_property.set', 'segregateEnvironments', true);
 ```
 
-### Include the index
+### Including the index
 
 If `segregateEnvironments` is enabled, you'll have to use `runButtonIndex` in all pm() methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). The `runButtonIndex` is represented by an integer.
 
