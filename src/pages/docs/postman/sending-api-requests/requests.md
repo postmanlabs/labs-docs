@@ -330,7 +330,7 @@ Click __Restore default__ to use your app-wide setting in a specific request.
 
 ## Troubleshooting your requests
 
-Postman will indicate any whitespace / potentially invalid characters in parts of your request that may not function as expected so that you can rectify your values, for example in the URL path and key names.
+Postman will indicate any whitespace / potentially invalid characters in parts of your request that may not function as expected so that you can rectify your values. You will see characters highlighted in the request method, URL (including the path), parameters, headers (including your key names), and body.
 
 <img alt="Whitespace in URL" src="https://assets.postman.com/postman-docs/whitespace-in-url.jpg" width="400px"/>
 
