@@ -78,9 +78,9 @@ Your embed code will include your collection's ID. In the examples below, `:coll
 </a>
 ```
 
-## Keep your collections up to date
+## Keeping your collections up to date
 
-When you make changes to a collection that's connected to a Run in Postman button, you'll need to manually update the button's collection link so that your users are importing the most current collection.
+When you make changes to a collection that's connected to a Run in Postman button, you'll need to manually update the button's collection link so that your users are importing the most recent version of your collection.
 
 1. In the Postman app, open the collection with the button you need to update.
 2. Next to the collection name, click the ellipsis **(...)** > **Share**. A dialog will pop up.
