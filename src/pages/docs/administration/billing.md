@@ -43,6 +43,8 @@ Postman provides a self-serve billing process. Refer to the following sections f
 
     * [Changing your plan](#changing-your-plan)
 
+    * [Setting instructions for next billing cycle](#setting-instructions-for-next-billing-cycle)
+
     * [Changing billing cycle](#changing-billing-cycle)
 
     * [Purchasing monitoring blocks](#purchasing-monitoring-blocks)
@@ -120,6 +122,16 @@ You can change your team's plan and billing cycle in the [billing dashboard](htt
 To change your plan, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
 
 [![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
+
+### Setting instructions for next billing cycle
+
+You can set instructions to determine what will happen at the end of your current billing cycle. To do so, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Set instructions for next billing cycle**.
+
+You can view your current plan and opt to **Edit Standing Instructions**. Select your desired option from the drop-down, then click **Proceed** and confirm your changes.
+
+[![set instructions next cycle](https://assets.postman.com/postman-docs/set-billing-instructions.jpg)](https://assets.postman.com/postman-docs/set-billing-instructions.jpg)
+
+> You can change your standing instructions at any time before the end of your current billing cycle.
 
 ### Changing billing cycle
 
