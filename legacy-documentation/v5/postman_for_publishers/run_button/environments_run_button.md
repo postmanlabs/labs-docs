@@ -28,4 +28,4 @@ _pm('env.create', 'Spotify', {
 
 A possible application for this would be to pass your signed in user’s access credentials to Postman, as illustrated in the example above.
 
-Note that this method works only with the Dynamic (HTML and CSS) button, and not the Markdown button. The `_pm()` method can be used anywhere on the page, after the embedded script tag.
+Note that this method works only with the Dynamic (HTML and CSS) button, and not the Markdown button. The `_pm()` method can be used anywhere on the page, after the embedded script tag.

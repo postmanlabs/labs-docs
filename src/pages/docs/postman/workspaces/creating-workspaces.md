@@ -13,8 +13,8 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Movember"
-    url: "https://www.postman.com/case-studies/movember.pdf"
+    name: "Movember Foundation"
+    url: "https://www.postman.com/resources/case-studies/movember-foundation/"
   - type: subtitle
     name: "Videos"
   - type: link

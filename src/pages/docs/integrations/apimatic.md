@@ -56,7 +56,7 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
    * Specify a directory in the repository where you want to add the collection.
    * Enter a filename for the directory in the repository.
    * Select the format in which you want to save the collection, such as Postman 2.0 or APIMatic format.
-   * Specify the branch where you want to add the collection.
+   * Specify the branch where you want to add the collection. _Note that the branch you want to back up your collection to must already exist._
 
 6. Click the **Add Integration** button.
 
