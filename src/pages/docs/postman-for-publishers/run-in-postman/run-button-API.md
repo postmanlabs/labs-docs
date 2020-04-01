@@ -73,7 +73,7 @@ _pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventD
 ```
 
 > The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added using the `env.create` method.
-> `env.assign` cannot be used to create new environments. Calls made using `env.assign` will fail if the environment does not already exist.
+> `env.assign` cannot be used to create new environments. Calls made using `env.assign` will fail if an environment does not already exist.
 
 Update an environment's API keys:
 
@@ -120,7 +120,7 @@ _pm('env.replace', 'user_data', {});
 
 The `env.replace` method will return truth on success, false on failure.
 
-## Using multiple buttons
+## Using multiple buttons with separate environments
 
 You can embed multiple buttons on a single page. If you want to include a different environment in each button, enable the `segregateEnvironments` property.
 
