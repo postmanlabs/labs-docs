@@ -170,7 +170,7 @@ In the modal, give your server a name. You also have the option to connect an en
 
 ![Mocks modal](https://assets.postman.com/postman-docs/Next+steps+modal+RS.jpg)
 
-Creating the mock server will also create a collection with the same name as the server. The collection will have copies of all of the requests made on the date that you created the server from in your **History**. The server is connected to this new collection.
+Creating the mock server will also create a collection with the same name as the server. The collection will have copies of all of the requests made on the date that you created the server from in your **History**. All requets from this collection will be made to this mock server.
 
 ![Mocks modal](https://assets.postman.com/postman-docs/New+server+and+collection+CS.jpg)
 
