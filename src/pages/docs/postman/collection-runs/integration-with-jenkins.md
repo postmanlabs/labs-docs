@@ -95,7 +95,7 @@ $ newman run jenkins_demo.postman_collection --suppress-exit-code 1
 ```
 
 Note here that the Newman command parameter ”suppress-exit-code” uses the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
-By default newman forces an exit code of 0
+
 
 Click the **Save** button to finish creating the project.
 
