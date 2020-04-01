@@ -21,7 +21,6 @@ The JavaScript Run in Postman API is accessible through the dynamic Run in Postm
 * Create a new environment
 * Modify an existing environment
 * Replace an environment
-* Use several buttons on a single page with segregated environments, each button with its own environment
 
 > Learn more about more about [environments and variables](/docs/postman/collection-runs/using-environments-in-collection-runs/) in Postman.
 
@@ -73,7 +72,7 @@ Use the `env.assign` method to modify an environment:
 _pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventDefault, runButtonIndex)
 ```
 
-> The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added via the `env.create` method.
+> The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added using the `env.create` method.
 > `env.assign` cannot be used to create new environments. Calls made using `env.assign` will fail if the environment does not already exist.
 
 Update an environment's API keys:
