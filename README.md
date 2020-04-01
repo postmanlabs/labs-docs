@@ -26,6 +26,77 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 **NOTE:** this site was build with node v12.11.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.11.0.
 
+### Build using Docker
+
+You can build the Learning Center and run it in a Docker container using the following dockerfile.
+
+1. Start by cloning the the repository
+
+   `git clone https://github.com/postmanlabs/postman-docs.git`
+
+2. Create a file and name it "dockerfile" with the following contents
+
+
+```
+FROM node:12
+
+EXPOSE 8000
+
+# copy the postman-docs project directory
+COPY postman-docs /var/postman-docs
+
+WORKDIR "/var/postman-docs"
+
+RUN npm install -g gatsby-cli
+RUN npm install --force
+
+CMD ["yarn", "dev", "-H", "0.0.0.0" ]
+```
+
+The dockerfile should be in the same directory as the postman-docs directory
+```
+# example directory structure
+|--[current folder]
+   |--postman-docs
+   |--dockerfile
+```
+
+
+3. Build the Docker image with this command:
+
+   `$ docker build --tag postman-docs:1.0 .`
+
+4. Start a container using the image
+
+   `$ docker run -p 8000:8000 -d postman-docs:1.0`
+
+#### Docker Compose
+
+You can also build with docker-compose using the dockerfile above and this docker-compose.yaml
+```
+version: '3'
+services:
+  node:
+    build:
+      context: ./
+    ports:
+      - "8000:8000"
+```
+
+The docker-compose.yaml should be in the same directory as the postman-docs directory and dockerfile.
+
+```
+# example directory structure
+|--[current folder]
+   |--postman-docs
+   |--dockerfile
+   |--docker-compose.yaml
+```
+
+Start run the container with this command
+
+`$ docker-compose up`
+
 ## Project Structure
 
 The built site will only host the most up-to-date docs. All legacy documentation is stored in github and excluded from build.
