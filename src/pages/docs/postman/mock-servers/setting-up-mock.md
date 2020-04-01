@@ -164,7 +164,7 @@ In the modal, give your server a name. You also have the option to connect an en
 
 ![Mocks modal](https://assets.postman.com/postman-docs/Mocks+modal.jpg)
 
-> If you choose to make your mock server private, you'll have to generate and API key.
+> If you choose to make your mock server private, you'll have to generate an API key.
 
 Make note of the "Next steps" that will automatically appear after you click **Create mock server**.
 
