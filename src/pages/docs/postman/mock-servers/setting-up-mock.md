@@ -160,7 +160,7 @@ Next to the date you want to mock all the requests for, click the ellipsis **(..
 
 The **Set up the mock server** modal will open.
 
-In the modal, give your server a name. You also have the option to connect an environment to the server, choose if the server will be private or public, and to save the server's URL as an environment variable. Then click **Create mock server**.
+In the modal, give your server a name. You also have the option to connect an environment to the server, make the sever private, and to save the server's URL as an environment variable. Then click **Create mock server**.
 
 ![Mocks modal](https://assets.postman.com/postman-docs/Mocks+modal.jpg)
 
