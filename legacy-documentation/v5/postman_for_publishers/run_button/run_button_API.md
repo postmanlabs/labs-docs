@@ -90,9 +90,3 @@ Note:
 
 * The `env.replace` method will return truth on success, false on failure.
 * `env.replace` cannot be used to replace an environment which does not exist.
-
-
-Note:
-
-*   The `env.replace` method will return truth on success, false on failure.
-*   `env.replace` cannot be used to replace an environment which does not exist.
