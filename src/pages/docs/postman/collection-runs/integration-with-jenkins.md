@@ -96,7 +96,6 @@ $ newman run jenkins_demo.postman_collection --suppress-exit-code 1
 
 Note here that the Newman command parameter ”suppress-exit-code” uses the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
 
-
 Click the **Save** button to finish creating the project.
 
 [![source code management](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.png)
