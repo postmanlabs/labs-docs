@@ -16,7 +16,6 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/scripts/intro_to_scripts"
 ---
 
-
 The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior and affect environments included in your button. Write your functions in the button's script in your website's source code to do any of the following:
 
 * Create a new environment
@@ -25,6 +24,18 @@ The JavaScript Run in Postman API is accessible through the dynamic Run in Postm
 * Use several buttons on a single page with segregated environments, each button with its own environment
 
 > Learn more about more about [environments and variables](/docs/postman/collection-runs/using-environments-in-collection-runs/) in Postman.
+
+## Contents
+
+* [Creating a new environment](#creating-a-new-environment)
+
+* [Editing an existing environment](#editing-an-existing-environment)
+
+* [Replacing an existing environment](#replacing-an-existing-environment)
+
+* [Using multiple buttons](#using-multiple-buttons)
+
+* [Next steps](#next-steps)
 
 ## Creating a new environment
 
