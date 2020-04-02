@@ -17,11 +17,13 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 ## Build the Learning Center locally
 
 ```
+
    $ git clone https://github.com/postmanlabs/postman-docs.git
    $ cd postman-docs
    $ npm install
    $ npm install -g gatsby-cli
    $ npm run dev
+
 ```
 
 **NOTE:** this site was build with node v12.11.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.11.0.
@@ -36,31 +38,34 @@ You can build the Learning Center and run it in a Docker container using the fol
 
 2. Create a file and name it "dockerfile" with the following contents
 
+    ```
 
-```
-FROM node:12
+    FROM node:12
 
-EXPOSE 8000
+    EXPOSE 8000
 
-# copy the postman-docs project directory
-COPY postman-docs /var/postman-docs
+    # copy the postman-docs project directory
+    COPY postman-docs /var/postman-docs
 
-WORKDIR "/var/postman-docs"
+    WORKDIR "/var/postman-docs"
 
-RUN npm install -g gatsby-cli
-RUN npm install --force
+    RUN npm install -g gatsby-cli
+    RUN npm install --force
 
-CMD ["yarn", "dev", "-H", "0.0.0.0" ]
-```
+    CMD ["yarn", "dev", "-H", "0.0.0.0" ]
 
-The dockerfile should be in the same directory as the postman-docs directory
-```
-# example directory structure
-|--[current folder]
-   |--postman-docs
-   |--dockerfile
-```
+    ```
 
+    The dockerfile should be in the same directory as the postman-docs directory
+
+    ```
+
+    # example directory structure
+    |--[current folder]
+       |--postman-docs
+       |--dockerfile
+
+    ```
 
 3. Build the Docker image with this command:
 
@@ -73,7 +78,9 @@ The dockerfile should be in the same directory as the postman-docs directory
 #### Docker Compose
 
 You can also build with docker-compose using the dockerfile above and this docker-compose.yaml
+
 ```
+
 version: '3'
 services:
   node:
@@ -81,16 +88,19 @@ services:
       context: ./
     ports:
       - "8000:8000"
+
 ```
 
 The docker-compose.yaml should be in the same directory as the postman-docs directory and dockerfile.
 
 ```
+
 # example directory structure
 |--[current folder]
    |--postman-docs
    |--dockerfile
    |--docker-compose.yaml
+
 ```
 
 Start run the container with this command
@@ -110,7 +120,9 @@ The built site will only host the most up-to-date docs. All legacy documentation
 * Links in the docs should be relative. Example:
 
 ```
+
    [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
+
 ```
 
 ## Resources
