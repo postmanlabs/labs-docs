@@ -52,7 +52,28 @@ As a Postman user, you can create team workspaces for ongoing development or sho
 
 ## Private workspaces
 
-For Postman Business and Enterprise teams, private workspaces are team workspaces only visible to the user who creates the workspace and team members who have been invited to join it. Private workspaces are a way for teams to restrict access to collections, environments, mocks, and monitors that are relevant only to a particular audience.
+For Postman Business and Enterprise teams, private workspaces are team workspaces that are only visible to the user who creates the workspace and team members who have been invited to join it. Private workspaces are a way for teams to restrict access to collections, environments, mocks, and monitors that are relevant only to a particular audience.
+
+## Seeing who's in your workspace
+
+You can see all of the members of your workspace. Keep track of who's working on your APIs and make sure that all teammates who should be included in your workspace are there. The avatars of all workspace members will be displayed at the top of the screen in the Postman app and on the web Dashboard.
+
+* **Bright avatars**: These are people who are currently active in the workspace.
+* **Muted avatars**: These are inactive members of the workspace. If a user isn't active for fifteen minutes, their avatar moves to the inactive state.
+
+Hover over the avatars to see your teammates names.
+
+![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
+
+>You have to belong to a workspace to see its members. If you're looking through workspaces in Browse, you won't see anyone's avatar and no one on the team will see yours until you [join the workspace](/docs/postman/workspaces/using-workspaces/#joining-a-workspace).
+
+ If more than three people belong to a workspace, the fourth avatar will be a number representing the remaining members. Click on the numbered avatar to see a list of all active and inactive users.
+
+![Active user list](https://assets.postman.com/postman-docs/Presence+active+member+list.jpg)
+
+The active and inactive user lists are collapsable. You can see all of your active and inactive teammates in the Postman app and the web Dashboard.  
+
+![Active user list](https://assets.postman.com/postman-docs/Presence+collapsed+lists+cropped2.jpg)
 
 ## Why use workspaces?
 
