@@ -59,7 +59,7 @@ For Postman Business and Enterprise teams, private workspaces are team workspace
 You can see all of the members of your workspace. Keep track of who's working on your APIs and make sure that all teammates who should be included in your workspace are there. The avatars of all workspace members will be displayed at the top of the screen in the Postman app and on the web Dashboard.
 
 * **Bright avatars**: These are people who are currently active in the workspace.
-* **Muted avatars**: These are inactive members of the workspace. If a user isn't active for fifteen minutes, their avatar moves to the inactive state.
+* **Muted avatars**: These are inactive members of the workspace. If a user isn't active for fifteen to twenty seconds, their avatar moves to the inactive state.
 
 Hover over the avatars to see your teammates names.
 
