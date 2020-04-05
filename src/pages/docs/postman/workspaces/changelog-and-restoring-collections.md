@@ -59,6 +59,10 @@ You can alternatively review a collection changelog from the [Workspaces dashboa
 
 You can access the activity feed [from the Postman app](#accessing-the-activity-feed-from-the-postman-app) or the [web dashboard](#accessing-the-activity-feed-from-the-web-dashboard). The activity feed will show information on who added or removed collections, environments, or entities from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
 
+You can also see who is actively working in your workspace at any time. The avatars of members currently active in the workspace will be brightly colored and displayed at the top of the screen of the Postman app and web Dashboard.
+
+![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
+
 ### Accessing the activity feed from the Postman app
 
 To access the activity feed from the Postman app, toggle to the browse view by clicking **Browse** in the status bar at the bottom. Then, select the **Activity** tab to see the events that have occured within the workspace.
