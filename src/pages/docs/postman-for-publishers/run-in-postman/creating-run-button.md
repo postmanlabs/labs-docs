@@ -37,6 +37,14 @@ contextual_links:
 
 ---
 
+You can use the Run in Postman button to give developers direct access to your API endpoints.
+
+## Contents
+
+* [Creating a Run in Postman button](#creating-a-run-in-postman-button)
+* [Keeping your collections up to date](#keeping-your-collections-up-to-date)
+* [Next steps](#next-steps)
+
 You can use The Run in Postman button to [share your Postman Collection](/docs/postman/collections/sharing-collections/) and connect Postman directly to your API documentation or website.
 
 The button imports and opens a copy of your collection of API endpoints directly in the user’s Postman app. Embed the button on your website and give your users direct access to your Postman collection.
@@ -52,8 +60,8 @@ The button imports and opens a copy of your collection of API endpoints directly
 3. At the top of the dialog, click **Embed**.
 4. Click **Generate code**.
 5. Choose a static or dynamic button:
-   - **Dynamic button**: This button uses HTML and CSS, and gives you access to the Run in Postman API.
-   - **Static button**: This button uses Markdown.
+   * **Dynamic button**: This button uses HTML and CSS, and gives you access to the Run in Postman API.
+   * **Static button**: This button uses Markdown.
 6. You can include an environment that will import along with your collection. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
 7. Click **Copy to clipboard**.
 8. Embed the code where you'd like the button displayed, like your website or GitHub README.
