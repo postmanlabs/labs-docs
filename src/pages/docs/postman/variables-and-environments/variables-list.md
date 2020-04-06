@@ -8,7 +8,7 @@ warning: false
 
 The following is a list of dynamic variables whose values are randomly generated during the request/collection run.
 
-> Dynamic variables can't be used in pre-request or test scripts.
+> To use dynamic variables in pre-request or test scripts, you need to use `pm.variables.replaceIn()`, e.g. `pm.variables.replaceIn('{{$randomFirstName}}')`.
 
 ### Common
 
