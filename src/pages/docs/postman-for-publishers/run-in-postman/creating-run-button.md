@@ -55,7 +55,7 @@ The button imports and opens a copy of your collection of API endpoints directly
 
 1. In the Postman app, open the collection you want to create a button for.
 2. Next to the collection name, click the ellipsis **(...)** > **Share**.
-3. At the top of the dialog, click **Embed**.
+3. At the top of the dialog that appears, click **Embed**.
 4. Click **Generate code**.
 5. Choose a static or dynamic button:
    * **Dynamic button**: This button uses HTML and CSS, and gives you access to the Run in Postman API.
@@ -68,7 +68,7 @@ The button imports and opens a copy of your collection of API endpoints directly
 
 Your embed code will include your collection's ID. In the examples below, `:collection_id` is a placeholder for that ID.
 
-> If you choose to include and environment in your button, then the code will also have the environment parameter.
+> If you choose to include an environment in your button, the code will also have the environment parameter.
 
 **Sample markdown snippet:**
 
