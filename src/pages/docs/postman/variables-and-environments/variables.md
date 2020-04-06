@@ -345,6 +345,8 @@ Examples of dynamic variables are as follows:
 
 See the [Dynamic Variables](/docs/postman/variables-and-environments/variables-list/) section for a full list.
 
+> Dynamic variables can't be used in pre-request or test scripts.
+
 ![Dynamic Variable](https://assets.postman.com/postman-docs/dynamic-var.jpg)
 
 ## Next steps

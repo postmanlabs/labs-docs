@@ -8,6 +8,8 @@ warning: false
 
 The following is a list of dynamic variables whose values are randomly generated during the request/collection run.
 
+> Dynamic variables can't be used in pre-request or test scripts.
+
 ### Common
 
 | **Variable Name**         | **Description**                               | **Examples**                               |
