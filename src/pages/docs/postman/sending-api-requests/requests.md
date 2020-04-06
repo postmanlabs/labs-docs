@@ -62,6 +62,7 @@ If you have never sent a request before, check out [sending your first request](
     * [Using cookies](#using-cookies)
 * [Choosing custom settings](#choosing-custom-settings)
     * [Encoding your request URLs](#encoding-your-request-urls)
+* [Troubleshooting your requests](#troubleshooting-your-requests)
 * [Next steps](#next-steps)
 
 ## Creating requests
@@ -329,7 +330,7 @@ Click __Restore default__ to use your app-wide setting in a specific request.
 
 ## Troubleshooting your requests
 
-Postman will indicate any whitespace / potentially invalid characters in parts of your request that may not function as expected so that you can rectify your values, for example in the URL path and key names.
+Postman will indicate any whitespace / potentially invalid characters in parts of your request that may not function as expected so that you can rectify your values. You will see characters highlighted in the request method, URL (including the path), parameters, headers (including your key names), and body.
 
 <img alt="Whitespace in URL" src="https://assets.postman.com/postman-docs/whitespace-in-url.jpg" width="400px"/>
 
@@ -339,4 +340,4 @@ If your request does not work as expected, check out some [troubleshooting tips]
 
 ## Next steps
 
-Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/). If your request does not work as expected, check out some [troubleshooting tips](/docs/postman/sending-api-requests/troubleshooting-api-requests/).
+Once you have your request set up, click __Send__ and examine the [Response](/docs/postman/sending-api-requests/responses/).

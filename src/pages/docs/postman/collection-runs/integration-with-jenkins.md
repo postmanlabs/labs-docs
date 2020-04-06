@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Sikka"
-    url: "https://www.postman.com/case-studies/Sikka.pdf"
+    url: "https://www.postman.com/resources/case-studies/sikka/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -91,10 +91,10 @@ Add a build step in the project. The build step executes a Shell command.
 Here is the command:
 
 ```bash
-$ newman jenkins_demo.postman_collection --exitCode 1
+$ newman run jenkins_demo.postman_collection --suppress-exit-code 1
 ```
 
-Note here that the Newman command parameter “exitCode” uses the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
+Note here that the Newman command parameter ”suppress-exit-code” uses the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
 
 Click the **Save** button to finish creating the project.
 

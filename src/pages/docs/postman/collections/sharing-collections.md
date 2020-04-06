@@ -76,6 +76,8 @@ In the [workspaces dashboard](https://app.getpostman.com/dashboard), select a co
 
 [![share collections](https://assets.postman.com/postman-docs/WS-share-collection-dashboard.png)](https://assets.postman.com/postman-docs/WS-share-collection-dashboard.png)
 
+> If you remove a collection from a workspace, it will no longer be available in that workspace. To restore it to the workspace, share it again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
+
 ## Sharing collections with the Embed or Run In Postman button
 
 Select this option to embed a **[Run in Postman](/docs/postman-for-publishers/run-in-postman/using-run-button/)** button in your collection for your API documentation, website, or Github readme.

@@ -14,7 +14,10 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Cisco DevNet"
-    url: "https://www.postman.com/case-studies/CiscoDevNet.pdf"
+    url: "https://www.postman.com/resources/case-studies/cisco-devnet/"
+  - type: link
+    name: "Imgur"
+    url: "https://www.postman.com/resources/case-studies/imgur/"
   - type: subtitle
     name: "Videos"
   - type: link

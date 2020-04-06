@@ -28,6 +28,7 @@ Postman allows you to back up your collections (for paid plans only) or synchron
     * [Backup collections to GitHub on custom domain](#backup-collections-to-github-on-custom-domain)
 * [Syncing API schemas on GitHub](#syncing-your-api-schemas-on-github)
     * [Configuring GitHub integration for API schemas](#configuring-github-integration-for-api-schemas)
+* [Troubleshooting GitHub Sync](#troubleshooting-github-sync)
 
 ## Generating a GitHub Personal Access Token
 
@@ -164,3 +165,17 @@ After your first schema sync, each change to the schema in Postman will appear i
 > If changes take place on the repository while you are editing the file on Postman, a **Conflict** state will be displayed. Saving the changes on Postman will override the file on GitHub.
 
 [![commit example github](https://user-images.githubusercontent.com/5029719/72462775-cc136a00-37c9-11ea-837c-695c4f3ddc11.png)](https://user-images.githubusercontent.com/5029719/72462775-cc136a00-37c9-11ea-837c-695c4f3ddc11.png)
+
+## Troubleshooting GitHub Sync
+
+If you're having issues with your GitHub integration and find your data isn't syncing to GitHub, please ensure that the following requirements are in place:
+
+* The GitHub integration has been added to the same workspace as the content you're trying to push to the GitHub repo.
+* The correct option has been chosen when setting up your integration and selecting __Backup your Postman Collections to GitHub__, for example if you're using a custom domain.
+* Your repo has been initialized with a `Readme.md` file. Check the box __Initialize this repository with a README__ and then configure a new integration on it.
+* The scopes `user` and `repo` are selected when creating the access token on GitHub.
+* The branch specified in the setup already exists on Github. _The integration will not create one if the branch doesn't exist._
+* You have permissions to push to the branch.
+* If all else fails, try reinstalling the integration.
+
+> If your enterprise version of GitHub is on-prem / self-hosted, this may be a firewall issue.

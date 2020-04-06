@@ -6,6 +6,9 @@
   .header__logo {
     margin: auto;
     height: 50px;
+    @media (max-width: 414px) {
+      height: auto;
+    }
   }
 
   .header__title {
@@ -13,6 +16,9 @@
     margin-left: 20px;
     color: $gray-3;
     text-decoration: none;
+    @media (max-width: 414px) {
+      margin-left: 8px;
+    }
   }
 
   .header__right-links {

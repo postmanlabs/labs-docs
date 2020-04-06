@@ -41,7 +41,7 @@ An example of SSO is Google's implementation of login for their products, such a
 * [Duo](https://duo.com/)
 * [Ping Identity](https://www.pingidentity.com/)
 * [AD FS](https://technet.microsoft.com/en-us/library/cc755226(v=ws.11).aspx)
-* [GSuite](https://gsuite.google.com/products/administration/)
+* [GSuite](https://gsuite.google.com/products/admin/)
 * [Custom SAML](/docs/administration/sso/admin-sso/)
 
 ### SSO setup for SAML 2.0 compliant IdPs
