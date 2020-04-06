@@ -29,6 +29,8 @@ A free Postman account allows you to [sync](/docs/postman/launching-postman/sync
 
 Signing up for an account is optional—you can continue to use Postman without an account if you prefer. Check out the [EULA](https://www.postman.com/licenses/postman_base_app), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
 
+## Contents
+
 * [Signing up for a Postman account](#signing-up-for-a-postman-account)
 * [Configuring your account](#configuring-your-account)
 * [Signing into Postman](#signing-into-postman)
@@ -129,6 +131,8 @@ Enter your account email, check the __I'm not a robot__ box, and click __Submit_
 ![Trouble Signing In](https://assets.postman.com/postman-docs/trouble-signing-in.jpg)
 
 Postman will send you an email with instructions for recovering access to your account.
+
+> If you still have trouble logging into your Postman account please [contact support](https://support.getpostman.com/).
 
 ## Next steps
 
