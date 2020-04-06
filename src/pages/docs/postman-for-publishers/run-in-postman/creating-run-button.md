@@ -51,7 +51,7 @@ The button imports and opens a copy of your collection of API endpoints directly
 
 > The Run in Postman button also works with API description formats like Swagger and RAML. To create a button for the framework you use, convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
 
-### Creating a Run in Postman button
+## Creating a Run in Postman button
 
 > Make sure you're signed in to your Postman account, and that you have a collection to share.
 
