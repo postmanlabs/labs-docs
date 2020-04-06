@@ -170,7 +170,7 @@ The "Next steps" modal will appear with an overview of your new mock server's de
 
 ![Mocks modal](https://assets.postman.com/postman-docs/Next+steps+modal+RS.jpg)
 
-Creating the mock server will also create a collection with the same name as the server. The collection will have copies of all of the requests made on the date that you created the server from in your **History**. All requets from this collection will be made to the server you just created.
+Creating the mock server will also create a collection with the same name as the server. The collection will have a copy of each request made on the date you chose in your **History**. All requests from this collection will be made to the server you just created.
 
 ![Mocks modal](https://assets.postman.com/postman-docs/Collection+and+server+Mocks.jpg)
 
