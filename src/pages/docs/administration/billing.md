@@ -99,7 +99,7 @@ To set a card as default, hover over the card and **Set as Default**.
 
 To add or edit the information on an invoice, navigate to your [billing dashboard](http://go.postman.co/billing) and select **Invoices** > **Edit Invoice Details** > **Billing Details**.
 
-Add or update your billing email, company name, address, and (if applicable) VAT ID, then **Save Changes**. All future [invoices](http://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, [submit a request](https://support.getpostman.com/hc/en-us).
+Add or update your billing email, company name, address, and (if applicable) VAT ID, then **Save Changes**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, [submit a request](https://support.getpostman.com/hc/en-us).
 
 [![billing details](https://assets.postman.com/postman-docs/billing-details.jpg)](https://assets.postman.com/postman-docs/billing-details.jpg)
 
