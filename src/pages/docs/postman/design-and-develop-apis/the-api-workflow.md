@@ -49,6 +49,8 @@ You can connect various components of your API development and testing process t
 
 To access the API Builder, open __APIs__ from the left sidebar in the Postman app. You can open and edit any existing APIs from here—Postman will automatically open the most recent version of an API by default.
 
+> If it is your first time using the API Builder, you can take a tour of its features by clicking `Start` from the `API` tab or from the `Create new API` modal.
+
 <img alt="Create API" src="https://assets.postman.com/postman-docs/create-new-api-v7.png" width="250px"/>
 
 Click __Create an API__ or __+ New API__—_you will need to be signed into your Postman account_.
