@@ -28,8 +28,8 @@ contextual_links:
     name: "Visualizer table"
     url: "https://explore.postman.com/templates/4220"
   - type: link
-    name: "Visualizer Example - Map"
-    url: "https://explore.postman.com/templates/4218"
+    name: "Visualizer D3 examples"
+    url: "https://explore.postman.com/templates/4424/"
 
 ---
 
@@ -144,11 +144,11 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 See more visualizer code working by importing any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection > open a request from __Collections__ on the left sidebar in Postman > click __Send__ to run it—you'll see the rendered data in __Visualize__.
 
 * [DIY collection that renders a bar chart using ChartJS](https://documenter.getpostman.com/view/4946945/SVzz4KxB?version=latest)
-![Bar Chart](/bar-chart-visualizer.png)
+![Bar Chart](https://assets.postman.com/postman-docs/bar-chart-visualizer.png)
 * [Heat map visualization](https://documenter.getpostman.com/view/4946945/SVzw6MYM?version=latest)
-![Heat Map](/heat-map-visualizer.png)
-* [Map of commercial airline traffic](https://documenter.getpostman.com/view/9215231/SW11XeM6?version=latest)
-![Map Visualizer](/map-visualizer.png)
+![Heat Map](https://assets.postman.com/postman-docs/heat-map-visualizer.png)
+* [Various chart and graph examples](https://documenter.getpostman.com/view/2897506/SW7Z2Tkd?version=latest)
+![Map Visualizer](https://assets.postman.com/postman-docs/codebase-visualizer-pm.jpg)
 
 ## Visualizer API
 
