@@ -37,19 +37,17 @@ contextual_links:
 
 ---
 
-You can use the Run in Postman button to give developers direct access to your API endpoints.
+You can use The Run in Postman button to [share your Postman Collection](/docs/postman/collections/sharing-collections/) and connect Postman directly to your API documentation or website.
+
+The button imports and opens a copy of your collection of API endpoints directly in the user’s Postman app. Embed the button on your website and give your users direct access to your Postman Collection.
+
+> The Run in Postman button also works with API description formats like Swagger and RAML. To create a button for the framework you use, convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
 
 ## Contents
 
 * [Creating a Run in Postman button](#creating-a-run-in-postman-button)
 * [Keeping your collections up to date](#keeping-your-collections-up-to-date)
 * [Next steps](#next-steps)
-
-You can use The Run in Postman button to [share your Postman Collection](/docs/postman/collections/sharing-collections/) and connect Postman directly to your API documentation or website.
-
-The button imports and opens a copy of your collection of API endpoints directly in the user’s Postman app. Embed the button on your website and give your users direct access to your Postman collection.
-
-> The Run in Postman button also works with API description formats like Swagger and RAML. To create a button for the framework you use, convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
 
 ## Creating a Run in Postman button
 
