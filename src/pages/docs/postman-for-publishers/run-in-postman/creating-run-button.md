@@ -54,7 +54,7 @@ The button imports and opens a copy of your collection of API endpoints directly
 > Make sure you're signed in to your Postman account, and that you have a collection to share.
 
 1. In the Postman app, open the collection you want to create a button for.
-2. Next to the collection name, click the ellipsis **(...)** > **Share** . A dialog will pop up.
+2. Next to the collection name, click the ellipsis **(...)** > **Share**.
 3. At the top of the dialog, click **Embed**.
 4. Click **Generate code**.
 5. Choose a static or dynamic button:
