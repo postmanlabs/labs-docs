@@ -63,13 +63,13 @@ You can see all of the members of your workspace and keep track of who's working
 
 Hover over the avatars to see your teammates names.
 
-![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
+![Active user](https://assets.postman.com/postman-docs/Beesly+active+member.jpg)
 
 >You can only see workspace members if your are also a member. To see member avatars, and to make your avatar visible to the team, [join the relevant workspace](/docs/postman/workspaces/using-workspaces/#joining-a-workspace).
 
  If more than three people belong to a workspace, the fourth avatar will be a number representing the remaining members. Click on the numbered avatar to see a list of all active and inactive users.
 
-![Active user list](https://assets.postman.com/postman-docs/User+list+with+Photos.jpg)
+![Active user list](https://assets.postman.com/postman-docs/Active+members+Stanely+open+list.jpg)
 
 The active and inactive user lists are collapsable. You can see all of your active and inactive teammates in the Postman app and the web Dashboard.  
 
