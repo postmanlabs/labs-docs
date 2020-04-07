@@ -64,7 +64,7 @@ The individual will be added to the team once they accept their invitation.
 
 All members of your workspace will have avatars displayed at the top of the Postman app or web Dashboard. If the avatar is brightly colored, that person is active in the workspace at that time. Hover over an avatar to see the names of the people in your workspace.
 
-![Active member](https://assets.postman.com/postman-docs/Active+member+with+Photo.jpg)
+![Active member](https://assets.postman.com/postman-docs/Beesly+active+member.jpg)
 
 ### Creating a new workspace from the menu
 
