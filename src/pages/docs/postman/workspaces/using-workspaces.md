@@ -134,7 +134,7 @@ When you're a member of a workspace, you'll see avatars representing all of the 
 
 ![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
 
-If there are more than three people who are part of the workspace, there will be a fourth avatar with a number representing the remaining members. You can click on the numbered avatar to see a list of all the workspaces's members.
+If there are more than three people who are part of the workspace, there will be a fourth avatar with a number representing the remaining members. You can click the numbered avatar to see a list of all the workspaces members.
 
 ![Active user list](https://assets.postman.com/postman-docs/Presence+active+member+list.jpg)
 
