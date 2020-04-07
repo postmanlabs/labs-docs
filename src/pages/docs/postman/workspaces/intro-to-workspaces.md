@@ -69,7 +69,7 @@ Hover over the avatars to see your teammates names.
 
  If more than three people belong to a workspace, the fourth avatar will be a number representing the remaining members. Click on the numbered avatar to see a list of all active and inactive users.
 
-![Active user list](https://assets.postman.com/postman-docs/Presence+active+member+list.jpg)
+![Active user list](https://assets.postman.com/postman-docs/User+list+with+Photos.jpg)
 
 The active and inactive user lists are collapsable. You can see all of your active and inactive teammates in the Postman app and the web Dashboard.  
 
