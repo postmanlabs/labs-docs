@@ -132,11 +132,11 @@ Similarly, you can also join a workspace from the [Workspaces dashboard](https:/
 
 When you're a member of a workspace, you'll see avatars representing all of the members of that workspace at the top of the screen in the Postman app and on the Dashboard. You can hover over avatars to see individual workspace member names.
 
-![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
+![Active user](https://assets.postman.com/postman-docs/Beesly+active+member.jpg)
 
 If there are more than three people who are part of the workspace, there will be a fourth avatar with a number representing the remaining members. You can click the numbered avatar to see a list of all the workspaces members.
 
-![Active user list](https://assets.postman.com/postman-docs/Presence+active+member+list.jpg)
+![Active user list](https://assets.postman.com/postman-docs/Active+members+Stanely+open+list+border.jpg)
 
 ## Sharing a workspace
 
