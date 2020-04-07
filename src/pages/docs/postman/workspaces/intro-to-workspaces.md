@@ -54,7 +54,7 @@ As a Postman user, you can create team workspaces for ongoing development or sho
 
 For Postman Business and Enterprise teams, private workspaces are team workspaces that are only visible to the user who creates the workspace and team members who have been invited to join it. Private workspaces are a way for teams to restrict access to collections, environments, mocks, and monitors that are relevant only to a particular audience.
 
-## Seeing who's in your workspace
+## Seeing who is in your workspace
 
 You can see all of the members of your workspace. Keep track of who's working on your APIs and make sure that all teammates who should be included in your workspace are there. The avatars of all workspace members will be displayed at the top of the screen in the Postman app and on the web Dashboard.
 
