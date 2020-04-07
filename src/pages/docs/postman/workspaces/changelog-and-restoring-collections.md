@@ -61,7 +61,7 @@ You can access the activity feed [from the Postman app](#accessing-the-activity-
 
 You can also see who is actively working in your workspace at any time. The avatars of members currently active in the workspace will be brightly colored and displayed at the top of the screen of the Postman app and web Dashboard.
 
-![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
+![Active user](https://assets.postman.com/postman-docs/Beesly+active+member.jpg)
 
 ### Accessing the activity feed from the Postman app
 
