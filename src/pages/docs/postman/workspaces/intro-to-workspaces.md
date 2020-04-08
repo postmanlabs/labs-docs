@@ -38,6 +38,14 @@ A workspace is a -view- of all the Postman things you've come to use: [collectio
 
 Regardless of the type of workspace, you can share elements in multiple workspaces at the same time. Workspace elements include collections, monitors, mocks, environments, and integrations.
 
+## Contents
+
+* [Personal workspaces](#personal-workspaces)
+* [Team workspaces](#team-workspaces)
+* [Private workspaces](#private-workspaces)
+* [Seeing who is in your workspace](#seeing-who-is-in-your-workspace)
+* [Why use workspaces](#why-use-workspaces)
+
 ## Personal workspaces
 
 Personal workspaces are visible only to you. If you don't have a Postman account, you can have only one personal workspace. If you do have an account, you can [create an unlimited number of workspaces](/docs/postman/workspaces/creating-workspaces/).
