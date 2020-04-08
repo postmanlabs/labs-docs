@@ -4,11 +4,6 @@ order: 163
 page_id: "viewing_monitor_results"
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Intro to monitors"
-    url: "/docs/postman/monitors/intro-monitors/"
-  - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Case Studies"
@@ -20,16 +15,6 @@ contextual_links:
   - type: link
     name: "API monitoring with Postman"
     url: "https://www.youtube.com/watch?v=3nOP_TYTuA8"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "\"Daily Mix\" with Postman Monitors and Spotify"
-    url: "https://blog.postman.com/2017/03/28/daily-mix-with-postman-monitors-and-spotify/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Intro to collection runs"
-    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
 
 warning: false
 ---
@@ -60,7 +45,7 @@ Your Postman Dashboard allows you to track the health and performance of your AP
 
     * [Console log](#console-log)
 
-    * [Next steps](#next-steps)
+* [Next steps](#next-steps)
 
 ## Viewing monitors in the Dashboard
 
