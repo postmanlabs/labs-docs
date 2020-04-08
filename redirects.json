@@ -388,6 +388,10 @@
         "to": "/docs/administration/sso/admin-sso/"
     },
     {
+        "from": "/docs/enterprise/sso/admin_sso/",
+        "to": "/docs/administration/sso/admin-sso/"
+    },
+    {
         "from": "/docs/postman_enterprise/sso/intro_sso/",
         "to": "/docs/administration/sso/intro-sso/"
     },
