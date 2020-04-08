@@ -166,16 +166,6 @@ There are a few differences between running collections in a Postman monitor and
 
 * Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
 
-## Monitor dashboard
-
-Each workspace has its own monitor dashboard, which you can navigate to by visiting your [web dashboard](https://go.postman.co/), selecting a workspace > **Monitors**.
-
-This dashboard provides a high-level overview of the monitors you have available in your workspace, including status, success rate, and average response time.
-
-[![monitoring dashboard](https://assets.postman.com/postman-docs/monitor-dashboard1.jpg)](https://assets.postman.com/postman-docs/monitor-dashboard.jpg)
-
-Hovering over a monitor in the list allows you to run it outside of its predetermined schedule by clicking **▶**. To pause, resume, edit, and delete monitors, select the **...** icon.
-
 ## Next steps
 
 Learn how to [set up a monitor](/docs/postman/monitors/setting-up-monitor/) and check out [monitoring APIs and websites](/docs/postman/monitors/monitoring-apis-websites/) to get started.
