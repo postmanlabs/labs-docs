@@ -7,13 +7,16 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: link
-    name: "Postman Pricing"
-    url: "https://www.postman.com/pricing"
+    name: "Managing your team"
+    url: "/docs/postman/collaboration/managing-your-team/"
+  - type: link
+    name: "Configuring SSO"
+    url: "/docs/administration/sso/admin-sso/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Announcing updated Postman plans and pricing"
-    url: "https://blog.postman.com/2020/01/06/announcing-updated-postman-plans-and-pricing/"
+    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
+    url: "https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
 
 ---
 
