@@ -71,7 +71,7 @@ Hover over the avatars to see your teammates names.
 
 ![Active user list](https://assets.postman.com/postman-docs/Active+members+Stanely+open+list.jpg)
 
-The active and inactive user lists are collapsable. You can see all of your active and inactive teammates in both the Postman app and the web Dashboard.  
+The active and inactive user lists are collapsible. You can see all of your active and inactive teammates in both the Postman app and the web Dashboard.  
 
 ![Active user list](https://assets.postman.com/postman-docs/Stanely+collapsed+list+w%3Aborder.jpg)
 
