@@ -345,6 +345,8 @@ Examples of dynamic variables are as follows:
 
 See the [Dynamic Variables](/docs/postman/variables-and-environments/variables-list/) section for a full list.
 
+> To use dynamic variables in pre-request or test scripts, you need to use `pm.variables.replaceIn()`, e.g. `pm.variables.replaceIn('{{$randomFirstName}}')`.
+
 ![Dynamic Variable](https://assets.postman.com/postman-docs/dynamic-var.jpg)
 
 ## Next steps
