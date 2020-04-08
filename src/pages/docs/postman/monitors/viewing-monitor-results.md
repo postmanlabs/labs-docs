@@ -51,9 +51,9 @@ Your Postman Dashboard allows you to track the health and performance of your AP
         * [Filtering by request](#filtering-by-request)
 
         * [Filtering by type](#filtering-by-type)
-        
+
         * [Filtering by run result](#filtering-by-run-result)
-      
+
         * [Filtering by region](#filtering-by-region)
 
     * [Test results](#test-results)
@@ -80,7 +80,7 @@ You can view each monitor in more detail by selecting it from the Dashboard.
 
 ### Monitor summary
 
-You can use the **Monitor Summary** to see how your APIs have performed over time. Each monitor run is represented by a bar in the graph. 
+You can use the **Monitor Summary** to see how your APIs have performed over time. Each monitor run is represented by a bar in the graph.
 
 The upper section charts your monitor's average response time for each run, while the lower section visualizes the percentage of failure for each run. To view the exact response time and failed percent, you can hover over each run individually.
 
@@ -135,7 +135,7 @@ You can view **Test Results** below the monitor summary to find more detailed in
 
 You can view the **Console Log** below the monitor summary.
 
-This console logs in detail run events and 'console.log' statements that ran as part of your pre-request and test scripts. Run events include when Postman is preparing your run, running, rerunning ([if applicable](/docs/postman/monitors/setting-up-monitor/#using-retry-on-failure)), and the run result. 
+This console logs in detail run events and 'console.log' statements that ran as part of your pre-request and test scripts. Run events include when Postman is preparing your run, running, rerunning ([if applicable](/docs/postman/monitors/setting-up-monitor/#using-retry-on-failure)), and the run result.
 
 [![console log](https://assets.postman.com/postman-docs/console-log-2.jpg)](https://assets.postman.com/postman-docs/console-log-2.jpg)
 
