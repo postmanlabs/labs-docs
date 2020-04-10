@@ -212,7 +212,7 @@ To make your changes, click eithr **Edit** or **Delete**.
 1. At the top, click the **Mock servers** tab.
 2. Click either the **pencil** icon to edit or the **trash** icon to delete.
 
-![Postman Mock Server edit in Build mode](https://assets.postman.com/postman-docs/mocks/mock-edit-web-dashboard.png)
+![Postman Mock Server edit in Build mode](https://assets.postman.com/postman-docs/Delete+mock+Dashboard.jpg)
 
 ## Viewing mock calls
 
