@@ -41,6 +41,8 @@ Your Postman Dashboard allows you to track the health and performance of your AP
 
         * [Filtering by region](#filtering-by-region)
 
+        * [Filtering by formula](#filtering-by-formula)
+
     * [Test results](#test-results)
 
     * [Console log](#console-log)
@@ -109,6 +111,17 @@ You can filter by run result to compare how your runs with the same result have 
 #### Filtering by region
 
 You can filter by [region](/docs/postman/monitors/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Click to open the drop-down menu **All Regions**, then select a region to view.
+
+#### Filtering by formula
+
+You can filter by mathematical formula to view the average, sum, minimum, and maximum response time for each run:
+
+* **Average**: The average of the total response time across all regions.
+* **Sum**: The sum of the response time across all regions.
+* **Minimum**: The minimum total response time for a run across all regions.
+* **Maximum**: The maximum total response time for a run across all regions.
+
+Click to open the drop-down menu **Average**, then select an option. To view the newly calculated response time value, you can hover over each run individually.
 
 ### Test results
 
