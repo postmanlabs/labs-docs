@@ -67,8 +67,6 @@ Postman Monitoring helps you to stay up to date on the health and performance of
 
     * [Accessible APIs](#accessible-apis)
 
-* [Monitor dashboard](#monitor-dashboard)
-
 * [Next steps](#next-steps)
 
 ## What is monitoring?
