@@ -51,7 +51,7 @@ Mocks in Postman are tied to a collection. Postman matches requests and generate
 * [Creating mock servers in the web dashboard](#creating-mock-servers-in-the-web-dashboard)
 * [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
 * [Using free mock server calls](#using-free-mock-server-calls)
-* [Editing mock servers](#editing-mock-servers)
+* [Editing and deleting mock servers](#editing-and-deleting-mock-servers)
 * [Viewing mock calls](#viewing-mock-calls)
     * [Troubleshooting mock calls](#troubleshooting-mock-calls)
 * [Next steps](#next-steps)
@@ -181,9 +181,9 @@ Your Postman account gives you a limited number of free mock server calls per mo
 
 You can check your usage limits in the [Postman API](https://docs.api.getpostman.com) or [account usage page](https://go.pstmn.io/postman-account-limits).
 
-## Editing mock servers
+## Editing and deleting mock servers
 
-You can edit existing mock servers in Postman since version `7.7.0`. The following properties of a mock server can be updated through the Postman app and web dashboard:
+You can edit or delete existing mock servers in Postman since version `7.7.0`. The following properties of a mock server can be updated through the Postman app and web dashboard:
 
 * Name of the mock server
 * Version tag of the underlying collection
