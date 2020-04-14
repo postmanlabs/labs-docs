@@ -75,3 +75,4 @@ yarn-error.log
 # Jekyll
 .jekyll-metadata
 _site/
+package-lock.json
