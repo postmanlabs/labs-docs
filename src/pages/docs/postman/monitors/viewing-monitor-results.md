@@ -69,7 +69,7 @@ You can view each monitor in more detail by selecting it from the Dashboard.
 
 You can use the **Monitor Summary** to see how your APIs have performed over time. Each monitor run is represented by a bar in the graph.
 
-The upper section charts your monitor's average response time for each run, while the lower section visualizes the percentage of failed tests for each run across all regions. To view the exact response time and failed percent, you can hover over each run individually.
+The upper section charts your monitor's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact response time and failed percent, you can hover over each run individually.
 
 [![monitor summary](https://assets.postman.com/postman-docs/individual-monitor.jpg)](https://assets.postman.com/postman-docs/individual-monitor.jpg)
 
@@ -81,7 +81,7 @@ You can use **Request Split** to see how the response time varies for all reques
 
 ### Filters
 
-You can use filters to identify recurring patterns in your monitoring runs by selecting particular requests, run types, results, and regions.
+You can use filters to identify recurring patterns in your monitoring runs by selecting particular requests, run types, results, and regions (if applicable).
 
 [![monitor filters](https://assets.postman.com/postman-docs/filter-example.gif)](https://assets.postman.com/postman-docs/filter-example.gif)
 
@@ -111,6 +111,8 @@ You can filter by run result to compare how your runs with the same result have 
 #### Filtering by region
 
 You can filter by [region](/docs/postman/monitors/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Click to open the drop-down menu **All Regions**, then select a region to view.
+
+> This feature is only available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/postman/monitors/setting-up-monitor/#adding-regions).
 
 #### Filtering by formula
 
