@@ -149,7 +149,7 @@ You can find detailed information on your monitor results by navigating to your 
 
 ### Using retry on failure
 
-You have the option to **Retry if run fails**. If this is enabled and a failure occurs during a run, Postman will automatically re-run the failed request to avoid false alarms due to transient issues. Postman will still log the initial failure, but will only notify you if the run continues to fail.
+You have the option to **Retry if run fails**. If this is enabled and a failure occurs during a run, Postman will automatically rerun the failed request to avoid false alarms due to transient issues. Postman will still log the initial failure, but will only notify you if the run continues to fail.
 
 > If you choose to enable this option, it will affect your monitoring usage and the resulting billing. For example, if a collection of three requests fails on the first request, but retries successfully, the run will count as four total requests.
 
