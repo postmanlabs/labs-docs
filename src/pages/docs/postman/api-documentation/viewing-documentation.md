@@ -92,6 +92,10 @@ You can access [public documentation](/docs/postman/api-documentation/publishing
 
 ![Public Doc Link](https://assets.postman.com/postman-docs/public-doc-link.jpg)
 
+You can also switch between single an double column views in public documentation.
+
+![Switch views](https://assets.postman.com/postman-docs/Switch+views.jpg)
+
 ## Next steps
 
 Learn more about [collaborating with your team](/docs/postman/collaboration/collaboration-intro/) in Postman.
