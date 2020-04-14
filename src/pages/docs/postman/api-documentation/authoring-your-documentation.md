@@ -151,7 +151,7 @@ You can include any image you have hosted online in your documentation. Use the 
 
 You can use the Postman Markdown collection to see some [Markdown styling](https://documenter.getpostman.com/view/4630964/S1LsXVJy) inside Postman and rendered in the web documentation.
 
-![markdown reference](https://assets.postman.com/postman-docs/59188697.png)
+![markdown reference](https://assets.postman.com/postman-docs/Markdown+for+Authoring+docs.jpg)
 
 You can also see examples of documentation published using Postman collections by browsing the templates. Click __New__, select the __Templates__ tab, choose a template, and click __View Documentation__.
 
