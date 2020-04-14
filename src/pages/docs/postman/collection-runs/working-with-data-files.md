@@ -26,7 +26,7 @@ warning: false
 
 ---
 
-You can use data files to pass Postman sets of values to use with a collection run. By selecting a JSON  or CSV data file in the Collection Runner, you can test your requests with multiple different values as part of a single run.
+You can use data files to pass Postman sets of values to use in a collection run. By selecting a JSON or CSV data file in the Collection Runner, you can test your requests with multiple different values as part of a single run.
 
 ## Running collections with data files
 
@@ -43,19 +43,19 @@ Click __Run using data files__ to begin the run with the values from the file.
 > * You can try out the steps in this page by first importing [the sample collection](https://assets.postman.com/postman-docs/58533790.json)—download and import it into Postman using the __Import__ button at the top left of the app.
 > ![Import Collection](https://assets.postman.com/postman-docs/collection-import-file.png)
 > * In the Collection Runner, choose the collection you imported. Download [the sample data file](https://assets.postman.com/postman-docs/58702589.json) and select it in the __Runner__ also.
-> * Note that the sample collection contains a `POST` request which uses a `path` variable in the URL. This path variable is specified in each record in the data file. The request also uses a `value` variable in the body which is also pulled from the data file for each iteration. _The example request is to the Postman Echo API, a learning resource that returns the data you send it._
+> * Note that the sample collection contains a `POST` request which uses a `path` variable in the URL. This path variable is specified in each record in the data file. The request also uses a `value` variable in the body which is also pulled from the data file for each iteration. _The example request is to the [Postman Echo API](https://docs.postman-echo.com/), a learning resource that returns the data you send it._
 
-The Collection Runner will run the collection requests for each iteration in the data file. Click a request to see more detail on its data.
+The Collection Runner will run the collection requests for each iteration in the data file. The output you see will indicate the results for any tests you have defined in your collection requests.
 
-![Collection run Results](https://assets.postman.com/postman-docs/data-file-collection-run.png)
+![Tests](https://assets.postman.com/postman-docs/data-file-tests-tab.png)
+
+Click a request in the Collection Runner __Run Results__ to see more detail on its data.
+
+![Collection Run Results](https://assets.postman.com/postman-docs/data-file-collection-run.png)
 
 Any data you have defined in the requests will be used when the collection runs, and your request data can reference values defined in the data file.
 
-![Collection run Results](https://assets.postman.com/postman-docs/request-body-data-run.png)
-
-The output you see in the Collection Runner will indicate the results for any tests you have defined in your collection requests.
-
-![Collection run Results](https://assets.postman.com/postman-docs/data-file-tests-tab.png)
+![Data File Value](https://assets.postman.com/postman-docs/request-body-data-run.png)
 
 ## Accessing data file values
 
