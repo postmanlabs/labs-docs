@@ -126,6 +126,8 @@ To view the variables in an environment, click its name. You can edit, add, and 
 
 (pic)
 
+> You can also view your environments in __Browse__ mode—in __Environments__ or __Activity__, click an environment name to see the variables within it in the web dashboard.
+
 To use the variables in an environment, select it from the drop-down list at the top right of Postman.
 
 (pic)
@@ -204,7 +206,9 @@ Select the workspace you want to share the environment to. You can assign the sa
 
 Select roles for your shared environment and click __Save Roles__.
 
-> You can remove a shared environment from a workspace in __Manage Environments__ by clicking __...__ next to the environment name and choosing __Remove from workspace__.
+> You can also share environments from __Browse__ mode in the Postman app by selecting __Environments__ and clicking __Share__ then choosing a workspace. Alternatively, navigate to the environment from the [dashboard](https://web.postman.co/) via your team, workspace, activity feed, or the user profile of a collaborator by clicking __Environments__. Click __Share__ next to the environment and choose a workspace to share it to.
+
+You can remove a shared environment from a workspace in __Manage Environments__ by clicking __...__ next to the environment name and choosing __Remove from workspace__.
 
 ### Managing environment roles
 
