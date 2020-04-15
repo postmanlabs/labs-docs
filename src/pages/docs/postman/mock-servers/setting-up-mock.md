@@ -114,7 +114,7 @@ You can create a mock server from an existing API. Navigate to the API you'd lik
 
 This will launch the **Create mock server** modal. Follow the process [outlined in the New button section](#mocking-from-the-new-button) to complete the mock server setup.
 
-![Create mock from API Dev](https://user-images.githubusercontent.com/5029719/71178158-78167380-2265-11ea-908e-70199ea6a272.png)
+![Create mock from API Dev](https://assets.postman.com/postman-docs/githubusercontent3.png)
 
 ### Mocking from the Collections sidebar
 

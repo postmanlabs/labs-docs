@@ -67,13 +67,13 @@ You can also see who is actively working in your workspace at any time. The avat
 
 To access the activity feed from the Postman app, toggle to the browse view by clicking **Browse** in the status bar at the bottom. Then, select the **Activity** tab to see the events that have occured within the workspace.
 
-[![activity feed from postman app](https://user-images.githubusercontent.com/5029719/72337988-6cc73400-36bb-11ea-9e9d-c970c06240f3.gif)](https://user-images.githubusercontent.com/5029719/72337988-6cc73400-36bb-11ea-9e9d-c970c06240f3.gif)
+[![activity feed from postman app](https://assets.postman.com/postman-docs/activityfeedfrompostmanapp.gif)](https://assets.postman.com/postman-docs/activityfeedfrompostmanapp.gif)
 
 ### Accessing the activity feed from the web dashboard
 
 You can also access the activity feed by logging in to the [web dashboard](https://app.getpostman.com/dashboard), navigating to the appropriate workspace, then selecting the **Activity** tab to see the events that have occured within the workspace.
 
-[![activity feed from dashboard](https://user-images.githubusercontent.com/5029719/72341061-44dacf00-36c1-11ea-80e6-d005d465585e.gif)](https://user-images.githubusercontent.com/5029719/72341061-44dacf00-36c1-11ea-80e6-d005d465585e.gif)
+[![activity feed from dashboard](https://assets.postman.com/postman-docs/activityfeedfromdashboard.gif)](https://assets.postman.com/postman-docs/activityfeedfromdashboard.gif)
 
 ### Filtering the activity feed
 
@@ -88,7 +88,7 @@ To filter by user, click **Filter by User** at the top of the activity feed and 
 
 > The user list will only show the users that are part of the workspace, not all team members.
 
-[![activity feed filtering user](https://user-images.githubusercontent.com/5029719/72342650-d861cf00-36c4-11ea-9156-95a41646c552.gif)](https://user-images.githubusercontent.com/5029719/72342650-d861cf00-36c4-11ea-9156-95a41646c552.gif)
+[![activity feed filtering user](https://assets.postman.com/postman-docs/activityfeedfilteringuser.gif)](https://assets.postman.com/postman-docs/activityfeedfilteringuser.gif)
 
 #### Filtering by entity
 
@@ -97,7 +97,7 @@ To filter by entity, click **Filter by Entity** at the top of the activity feed 
 
 > You can access the changelog of a specific collection by clicking **View Changelog** next to actions on collections.
 
-[![activity feed filtering entity](https://user-images.githubusercontent.com/5029719/72995901-9c7be780-3df1-11ea-891c-f57b86edb7a7.gif)](https://user-images.githubusercontent.com/5029719/72995901-9c7be780-3df1-11ea-891c-f57b86edb7a7.gif)
+[![activity feed filtering entity](https://assets.postman.com/postman-docs/activityfeedfilteringentity.gif)](https://assets.postman.com/postman-docs/activityfeedfilteringentity.gif)
 
 ## Viewing team activity
 
