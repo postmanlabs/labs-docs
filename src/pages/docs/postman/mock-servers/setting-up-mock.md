@@ -128,7 +128,7 @@ This will launch the **Create mock server** modal. Follow the process [outlined 
 
 If you already have mock servers created from the same collection, you will see an **Add mock** button instead of **Create a mock server**.
 
-![Create new mock server from collection sidebar when there are existing mock servers](https://assets.postman.com/postman-docs/mock-cnx-collection-sidebar-existing.png)
+![Create new mock server from collection sidebar when there are existing mock servers](https://assets.postman.com/postman-docs/Adding+another+mock.jpg)
 
 ### Mocking from history
 
