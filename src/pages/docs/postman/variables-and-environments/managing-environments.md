@@ -83,13 +83,13 @@ You can use the current value of your environment variables to ensure that sensi
 
 To create a new environment, click __Environment quick look__ (eye button) or __Manage environments__ (gear button) at the top right of the Postman app.
 
-_pic_
+(pic)
 
 The quick look lists variables for any existing _active_ environment you have currently selected in your Postman app, and any global variables you have declared (or that are shared via your workspace).
 
 To create a new environment, click __Add__.
 
-_pic_
+(pic)
 
 Enter a name for your environment, and initialize it with any variables you need—you can alternatively specify variables for the environment later.
 
@@ -97,7 +97,7 @@ Enter a name for your environment, and initialize it with any variables you need
 
 You can add variables to an active (currently selected) environment by opening the environment quick look using the eye button at the top right of the Postman app, and clicking __Edit__.
 
-_pic_
+(pic)
 
 Alternatively, click __Manage Environments__ and select the environment.
 
@@ -108,7 +108,7 @@ Enter a name for your variable, and specify __Initial__ and __Current__ values f
 
 To update the synced variable with your local value, set the initial value to the current value by clicking __...__ to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, click __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
-_pic_
+(pic)
 
 If you are working with environment variables as part of a team, you will only be able to change initial values if you have [edit access to the environment](#managing-environment-roles). You can access all variables in environments shared with you, but may have readonly access to initial values if you have viewer role on the environment.
 
@@ -118,17 +118,17 @@ You can access and update your environment variables from the Postman app UI and
 
 To see all of your environments, click __Manage Environments__ (gear button) at the top right of Postman.
 
-_pic_
+(pic)
 
 Here you can [share](#working-with-environments-as-a-team), duplicate, download, delete environments, and remove a shared environment from a workspace. You can also access your global variables from here by clicking __Globals__.
 
 To view the variables in an environment, click its name. You can edit, add, and remove variables from the environment here.
 
-_pic_
+(pic)
 
 To use the variables in an environment, select it from the drop-down list at the top right of Postman.
 
-_pic_
+(pic)
 
 To check a variable value at a glance, use the __quick look__ (eye button).
 
@@ -142,7 +142,7 @@ Your requests can use environment variable values by referring to them by name s
 
 You can use the same variable notation in request URLs, parameters, headers, and body data.
 
-_pics_
+(pic)
 
 Hover over a variable reference to see its current value.
 
@@ -158,15 +158,15 @@ pm.environment.get("variable_key");
 
 You can edit variables by opening the environment quick look (eye button) at the top right of Postman, and clicking __Edit__.
 
-_pic_
+(pic)
 
 Edit the environment name, or the names and values of your variables, bearing in mind that __Initial__ values will be synced with your Postman account and shared with any collaborators who have access to the environment. Click __Update__ when your edits are complete.
 
-_pic_
+(pic)
 
 You will only be able to edit initial values for variables in environments where you have edit access. If you have viewer access, you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace.
 
-> You can edit current values for variables in an active (currently selected) environment directly via the environment quick look. Click the pencil icon to edit your chosen value. _pic_
+> You can edit current values for variables in an active (currently selected) environment directly via the environment quick look. Click the pencil icon to edit your chosen value. (pic)
 
 You can also update environment variable values from your test scripts.
 
@@ -192,15 +192,15 @@ By specifying role-based access to your environments, you can achieve a finer gr
 
 To share an environment to your workspace, click __Manage Environments__ (gear button) at the top right of Postman.
 
-_pic_
+(pic)
 
 Click __Share__ next to the environment.
 
-_pic_
+(pic)
 
 Select the workspace you want to share the environment to. You can assign the same role to everyone in the workspace, or can configure access levels on an individual basis.
 
-_pic_
+(pic)
 
 Select roles for your shared environment and click __Save Roles__.
 
@@ -214,7 +214,7 @@ In order to effectively leverage environments to preserve security and minimize 
 
 When you open the quick look (eye button) for an environment and hover over __Edit__ you will see an indicator if you only have view access.
 
-_pic_
+(pic)
 
 Viewer access allows collaborators to use variable values in their work, but they can only edit the __initial__ value of a variable if they have edit access to the environment as a whole.
 
@@ -226,11 +226,11 @@ If you are using sensitive data like API credentials, it's safe to use the __cur
 
 If you need to update the initial value of a variable in an environment you have readonly access to, you can request edit access. Click __Manage Environments__ (gear button) at the top right of Postman and click the environment name to open it. Click __Request Access__.
 
-_pic_
+(pic)
 
 Select the team member you want to submit the request to, and choose __Editor__ from the drop-down list. Click __Request Access__.
 
-_pic_
+(pic)
 
 You will receive an email when your request is approved.
 
@@ -242,7 +242,7 @@ When you edit the __initial__ value of a shared environment variable, your updat
 
 With editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but do not have the editor role, you can request access via __Manage Environments__ (gear button). Select the environment and click __Request Access__, choosing the editor role.
 
-_pic_
+(pic)
 
 ## Next steps
 
