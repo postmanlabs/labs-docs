@@ -158,7 +158,7 @@ In the Postman app, click **History**.
 
 Next to the date you want to mock all the requests for, click the ellipsis **(...)** and then click **Mock Requests**.
 
-![Ellipsis and mock requests](https://assets.postman.com/postman-docs/Mock+all+requests.jpg)
+![Ellipsis and mock requests](https://assets.postman.com/postman-docs/No+arrows+ellipsis+and+mocks.jpg)
 
 The **Set up the mock server** modal will open.
 
