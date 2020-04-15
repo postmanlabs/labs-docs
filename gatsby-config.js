@@ -55,6 +55,16 @@ module.exports = {
         plugins: [
           'gatsby-remark-autolink-headers',
           {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
+          },
+          {
             resolve: 'gatsby-remark-embed-video',
             options: {
               width: 700,
