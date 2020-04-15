@@ -60,7 +60,7 @@ To view documentation for a collection you have access to in the Postman app, se
 
 By default you will see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, examples, and any shared environments. Documentation authors can optionally include other details.
 
-![Public Documentation](https://assets.postman.com/postman-docs/Viewing+doc+details.jpg)
+![Public Documentation](https://assets.postman.com/postman-docs/Expanded+image+for+Viewing+your+documentation.jpg)
 
 > The private URL is only accessible to Postman users logged in with appropriate permissions. To make documentation viewable publicly, you can [publish it](/docs/postman/api-documentation/publishing-your-docs/).
 
