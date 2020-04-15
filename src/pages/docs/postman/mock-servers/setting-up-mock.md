@@ -164,7 +164,7 @@ The **Set up the mock server** modal will open.
 
 In the modal, give your server a name. You also have the option to connect an environment to the server, make the sever private, and to save the server's URL as an environment variable. Then click **Create mock server**.
 
-![Mocks modal](https://assets.postman.com/postman-docs/Mocks+modal.jpg)
+![Mocks modal](https://assets.postman.com/postman-docs/Second+step+modal.jpg)
 
 > If you choose to make your mock server private, you'll have to generate an API key.
 
