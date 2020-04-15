@@ -128,7 +128,7 @@ If you already have mock servers created from the same collection, you will see 
 
 ![Create new mock server from collection sidebar when there are existing mock servers](https://assets.postman.com/postman-docs/mock-cnx-collection-sidebar-existing.png)
 
-### Mocking a request from History
+### Mocking a request from history
 
 You can mock a single request from the **History** tab in the left sidebar. Hover over an entry, and click **View more actions** (**...**) to expand the dropdown menu. Choose **Mock Request**.
 
