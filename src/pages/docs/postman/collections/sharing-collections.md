@@ -60,7 +60,7 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 * Embed
 * Get Link
 
-[![share sidebar](https://user-images.githubusercontent.com/5029719/71100430-eb0fe380-21ac-11ea-9ad6-1c7922f4f722.png)](https://user-images.githubusercontent.com/5029719/71100430-eb0fe380-21ac-11ea-9ad6-1c7922f4f722.png)
+[![share sidebar](https://assets.postman.com/postman-docs/githubusercontent2.png)](https://assets.postman.com/postman-docs/githubusercontent2.png)
 
 ## Sharing collections in another workspace
 

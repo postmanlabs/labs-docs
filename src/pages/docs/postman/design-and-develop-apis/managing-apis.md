@@ -62,11 +62,11 @@ You can discuss your APIs with collaborators in the Postman app or [web dashboar
 
 To leave a comment on an API using the Postman app, open __APIs__ in the left sidebar and select the API you want to comment on. Click **Comments** at the top-right, enter your comment, and **Add comment** to publish it.
 
-[![api comment app](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)](https://user-images.githubusercontent.com/5029719/69900530-6a5b8580-136c-11ea-9834-e5f8eee85ce7.gif)
+[![api comment app](https://assets.postman.com/postman-docs/apicommentapp.gif)](https://assets.postman.com/postman-docs/apicommentapp.gif)
 
 To comment on an API in the web dashboard, navigate to __APIs__, select the API you want to comment on, and click **Comments** at the top-right of the page. Enter your comment, and **Add comment** to publish it.
 
-[![api comment dashboard](https://user-images.githubusercontent.com/5029719/69900515-48fa9980-136c-11ea-9e55-7785626dfcad.gif)](https://user-images.githubusercontent.com/5029719/69900515-48fa9980-136c-11ea-9e55-7785626dfcad.gif)
+[![api comment dashboard](https://assets.postman.com/postman-docs/apicommentdashboard.gif)](https://assets.postman.com/postman-docs/apicommentdashboard.gif)
 
 ### Formatting comments
 
@@ -78,7 +78,7 @@ If you want to call the attention of a collaborator in comment, you can tag them
 
 To edit or delete one of your comments, navigate to the comment section and hover over the comment you wish to manage. Click the pen icon to edit the comment, or the bin icon to delete.
 
-[![api comment manage](https://user-images.githubusercontent.com/5029719/71973662-63dfe980-3207-11ea-9daa-6e36ca1c7bb2.png)](https://user-images.githubusercontent.com/5029719/71973662-63dfe980-3207-11ea-9daa-6e36ca1c7bb2.png)
+[![api comment manage](https://assets.postman.com/postman-docs/apicommentmanage.png)](https://assets.postman.com/postman-docs/apicommentmanage.png)
 
 > With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
 

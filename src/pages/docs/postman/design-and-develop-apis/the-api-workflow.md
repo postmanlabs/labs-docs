@@ -153,7 +153,7 @@ You can edit existing mock servers from an **API** by opening the **Develop** ta
 
 Your [mock will open for editing](/docs/postman/mock-servers/setting-up-mock/#editing-mock-servers) in the Postman web dashboard.
 
-[![api edit mock web](https://user-images.githubusercontent.com/5029719/71361434-410cce80-2593-11ea-995d-68fdd27a282e.png)](https://user-images.githubusercontent.com/5029719/71361434-410cce80-2593-11ea-995d-68fdd27a282e.png)
+[![api edit mock web](https://assets.postman.com/postman-docs/editmockserver.png)](https://assets.postman.com/postman-docs/editmockserver.png)
 
 You can also copy the URL of your mock server directly to your clipboard by clicking **Copy URL**.
 

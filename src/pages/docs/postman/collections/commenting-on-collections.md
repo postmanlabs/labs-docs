@@ -28,7 +28,7 @@ This topic describes the following sections:
 
 You can leave a comment on a collection through the [Postman Dashboard](https://app.getpostman.com). To post a comment on a collection, navigate to the `Collections` tab at the top of the page, select the collection you want to leave a comment on, then click **Comments**.
 
-[![comment collection](https://user-images.githubusercontent.com/5029719/71972143-0302e200-3204-11ea-9eed-7db783785711.png)](https://user-images.githubusercontent.com/5029719/71972143-0302e200-3204-11ea-9eed-7db783785711.png)
+[![comment collection](https://assets.postman.com/postman-docs/commentcollection.png)](https://assets.postman.com/postman-docs/commentcollection.png)
 
 ### Posting comments on a request
 
@@ -50,7 +50,7 @@ To review comments, navigate to the request in question and click **Comments** t
 
 > The comment button displays the number of existing comments between brackets.
 
-[![read comments app](https://user-images.githubusercontent.com/5029719/71972448-8c1a1900-3204-11ea-8c9e-eae41eb5c54a.png)](https://user-images.githubusercontent.com/5029719/71972448-8c1a1900-3204-11ea-8c9e-eae41eb5c54a.png)
+[![read comments app](https://assets.postman.com/postman-docs/readcommentsapp.png)](https://assets.postman.com/postman-docs/readcommentsapp.png)
 
 ### Reading comments on the Postman dashboard
 
@@ -58,23 +58,23 @@ You can read the comments made on a collection through the [Postman Dashboard](h
 
 To read the comments on a collection, navigate to the **Collections** tab at the top of the page, select the collection in mind, then click **Comments**.
 
-[![read comment collection dashboard](https://user-images.githubusercontent.com/5029719/71084214-b3913f00-218c-11ea-8796-cab07431775f.gif)](https://user-images.githubusercontent.com/5029719/71084214-b3913f00-218c-11ea-8796-cab07431775f.gif)
+[![read comment collection dashboard](https://assets.postman.com/postman-docs/readcommentcollectiondashboard.gif)](https://assets.postman.com/postman-docs/readcommentcollectiondashboard.gif)
 
 To read the comments on a specific request, navigate to the **Collections** tab at the top of the page, select the collection to which the request belongs, select the request, then click **Comments**.
 
-[![read comment request dashboard](https://user-images.githubusercontent.com/5029719/71084799-f56eb500-218d-11ea-9850-8f2bb4701cc7.gif)](https://user-images.githubusercontent.com/5029719/71084799-f56eb500-218d-11ea-9850-8f2bb4701cc7.gif)
+[![read comment request dashboard](https://assets.postman.com/postman-docs/readcommentrequestdashboard.gif)](https://assets.postman.com/postman-docs/readcommentrequestdashboard.gif)
 
 ## Editing comments
 
 After posting a comment, you can go back, edit your comment and save your changes. Only you as a creator of the comment will be able to update/modify your comment.
 
-[![edit comments](https://user-images.githubusercontent.com/5029719/71972899-84a73f80-3205-11ea-8721-f54ac0a4a03d.png)](https://user-images.githubusercontent.com/5029719/71972899-84a73f80-3205-11ea-8721-f54ac0a4a03d.png)
+[![edit comments](https://assets.postman.com/postman-docs/editcomments.png)](https://assets.postman.com/postman-docs/editcomments.png)
 
 ## Deleting comments
 
 You can delete your comments by clicking **delete**:
 
-[![delete comments](https://user-images.githubusercontent.com/5029719/71972924-91c42e80-3205-11ea-8b97-61142d7e6919.png)](https://user-images.githubusercontent.com/5029719/71972924-91c42e80-3205-11ea-8b97-61142d7e6919.png)
+[![delete comments](https://assets.postman.com/postman-docs/deletecomments.png)](https://assets.postman.com/postman-docs/deletecomments.png)
 
 > For moderation purposes, Admins can delete anyone’s comment. However, admins will not be able to update/modify a comment.
 
@@ -86,7 +86,7 @@ Sometimes you may want to call the attention of a team member when posting a com
 
 The user tagged in your comment will get a notification by email and/or in-app as long as they have not disabled these types of notifications. The notifications in-app are shown at the top-right on the bell icon. To navigate to the comment, the recipient can click the collection name.
 
-[![receive comment](https://user-images.githubusercontent.com/5029719/71098559-cb2af080-21a9-11ea-95ae-68b5dbb2eea9.png)](https://user-images.githubusercontent.com/5029719/71098559-cb2af080-21a9-11ea-95ae-68b5dbb2eea9.png)
+[![receive comment](https://assets.postman.com/postman-docs/receivecomment.png)](https://assets.postman.com/postman-docs/receivecomment.png)
 
 ## Markdown support
 
