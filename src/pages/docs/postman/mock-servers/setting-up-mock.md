@@ -47,6 +47,8 @@ Mocks in Postman are tied to a collection. Postman matches requests and generate
     * [Mocking from an API](#mocking-from-an-api)
     * [Mocking from the Collections sidebar](#mocking-from-the-collections-sidebar)
     * [Mocking from history](#mocking-from-history)
+        * [Mocking a single request](#mocking-a-single-request)
+        * [Mocking all requests made on a specific date](#mocking-all-requests-made-on-a-specific-date)
     * [Mocking from Collections in Browse view](#mocking-from-collections-in-browse-view)
 * [Creating mock servers in the web dashboard](#creating-mock-servers-in-the-web-dashboard)
 * [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
