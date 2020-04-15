@@ -128,11 +128,11 @@ If you already have mock servers created from the same collection, you will see 
 
 ![Create new mock server from collection sidebar when there are existing mock servers](https://assets.postman.com/postman-docs/mock-cnx-collection-sidebar-existing.png)
 
-### Mocking from History
+### Mocking from history
 
-You can create a mock from requests saved in your Postman app's **History**. Mock a single request or all of the requests made on a particular date.
+You can create a mock server from the requests saved in the history of your Postman app.
 
-> You can only create mocks from **History** in your Postman app.
+>You can only create mocks from history in the Postman app.
 
 #### Mocking a single request
 
