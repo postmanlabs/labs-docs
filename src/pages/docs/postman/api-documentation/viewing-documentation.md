@@ -58,7 +58,11 @@ To view documentation for a collection you have access to in the Postman app, se
 
 ![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
-By default you will see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, examples, and any shared environments. Documentation authors can optionally include other details.
+At the top, you will see if there was an environment shared with the documented collection, the sample code language, and the layout of the documentation. You can change the environment, language, and layout based on your needs.
+
+![View Docs](https://assets.postman.com/postman-docs/Expanded+header+image+for+Viewing+docs.jpg)
+
+You will also see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
 
 ![Public Documentation](https://assets.postman.com/postman-docs/Expanded+image+for+Viewing+your+documentation.jpg)
 
@@ -71,10 +75,6 @@ You can alternatively access documentation by selecting the __Browse__ view in t
 If the documentation you are viewing has multiple versions published, you can select a specific version to view.
 
 <img alt="Docs Versions" src="https://assets.postman.com/postman-docs/docs-versions.jpg" width="400px"/>
-
-You can also choose between any environments included with the documentation you are viewing, and can switch between double and single column layout.
-
-![Docs Columns](https://assets.postman.com/postman-docs/docs-cols.jpg)
 
 ### Commenting on documentation
 
@@ -92,9 +92,13 @@ You can access [public documentation](/docs/postman/api-documentation/publishing
 
 ![Public Doc Link](https://assets.postman.com/postman-docs/public-doc-link.jpg)
 
-You can also switch between single an double column views in public documentation.
+As with private documentation, you will see the header bar at the top that shows any shared environments, the layout, and the language for the sample code. You can change the environment, layout, and language based on your needs.
 
-![Switch views](https://assets.postman.com/postman-docs/Switch+views.jpg)
+![View Docs](https://assets.postman.com/postman-docs/Expanded+header+image+for+Viewing+docs.jpg)
+
+You will also see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
+
+![Public Documentation](https://assets.postman.com/postman-docs/Expanded+image+for+Viewing+your+documentation.jpg)
 
 ## Next steps
 
