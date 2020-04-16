@@ -86,7 +86,15 @@ thead:first-child:hover tr{
   margin: 0.5em 0;
   padding: 1em;
   overflow: auto;
-  border-left: 0.5em solid #FF9800;
+  border-left: 0.5em solid $postman-orange;
+
+  code[class*="language-"],
+  span.token.comment, 
+  .token.string,
+  .token.function,
+  .token.punctuation {
+    font-family: monospace !important;
+  }
 
   /**
   * Remove the default PrismJS theme background-color, border-radius, margin,
@@ -96,6 +104,7 @@ thead:first-child:hover tr{
   * 3. Adjust the position of the line numbers
   */
   pre[class*="language-"] {
+    font-family: monospace !important;
     background-color: transparent;
     margin: 0;
     padding: 0;
