@@ -23,15 +23,53 @@ warning: false
 
 ---
 
-Many people think of Postman as an advanced REST client. Beyond REST, Postman is a tool that handles any calls sent over HTTP. This means that you can use Postman to interact with protocol-agnostic APIs - such as SOAP and [GraphQL](/docs/postman/sending-api-requests/graphql/), which can both utilize HTTP, just like REST.
+Although Postman is primarily a REST client, you can make other types of HTTP call, including to protocol-agnostic services such as SOAP and [GraphQL](/docs/postman/sending-api-requests/graphql/).
 
-To make SOAP requests using Postman:
+The following steps outline how to make a SOAP request in the Postman app.
 
-1. Give the SOAP endpoint as the URL. If you are using a WSDL, then give the path to the WSDL as the URL.
-1. Set the request method to POST.
-1. Open the raw editor, and set the body type as "text/xml".
-1. In the request body, define the SOAP Envelope, Header and Body tags as required. Start by giving the SOAP Envelope tag, which is necessary, and define all the namespaces. Give the SOAP header and the body. The name of the SOAP method (operation) should be specified in the SOAP body.
+## Enter your SOAP endpoint
 
-Check out the Postman blog, [Postman makes SOAP requests too](https://blog.postman.com/2017/11/18/postman-makes-soap-requests-too/), and try it out in Postman with this [example template](https://explore.postman.com/templates/1880/soap-holiday-web-service).
+Open a new request tab in Postman and enter your SOAP endpoint URL in the address field. Try out the following example if you do not have a specific service you want to call:
 
-[![soap template](https://i.imgur.com/z0KWWSo.png)](https://i.imgur.com/z0KWWSo.png)
+```
+https://www.dataaccess.com/webservicesserver/NumberConversion.wso
+```
+
+> Check out the [Public SOAP APIs](https://documenter.getpostman.com/view/8854915/Szf26WHn?version=latest) collection for more SOAP requests you can try.
+
+Select __POST__ from the request method drop-down.
+
+<img src="https://assets.postman.com/postman-docs/soap-method.jpg" alt="SOAP method" width="500px"/>
+
+## Add body data
+
+In the __Body__ tab, select __raw__ and choose __XML__ from the drop-down list.
+
+![SOAP body type](https://assets.postman.com/postman-docs/soap-body-type.jpg)
+
+Enter your XML in the text entry area, as in the following example:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <NumberToWords xmlns="http://www.dataaccess.com/webservicesserver/">
+      <ubiNum>500</ubiNum>
+    </NumberToWords>
+  </soap:Body>
+</soap:Envelope>
+```
+
+Your request body should include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data should include the name of the operation, together with any values you need to post to the service.
+
+![SOAP body XML](https://assets.postman.com/postman-docs/soap-body-xml.jpg)
+
+## Send your request
+
+Click __Send__ to make your call to the SOAP service. If your call is successful you will see the response in the lower tab in Postman.
+
+![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data.jpg)
+
+## Next steps
+
+Check out the [SOAP template](https://explore.postman.com/templates/7275/public-soap-apis) for lots of sample requests you can try out in Postman.
