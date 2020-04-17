@@ -92,7 +92,7 @@ You can access [public documentation](/docs/postman/api-documentation/publishing
 
 ![Public Doc Link](https://assets.postman.com/postman-docs/public-doc-link.jpg)
 
-As with private documentation, you will see the header bar at the top that shows any shared environments, the layout, and the language for the sample code. You can change the environment, layout, and language based on your needs.
+When you view public documentation, you will see any shared environments, the layout, and the sample code language at the top. You can expand the menu for any of these details to change them.
 
 ![View Docs](https://assets.postman.com/postman-docs/Expanded+header+image+for+Viewing+docs.jpg)
 
