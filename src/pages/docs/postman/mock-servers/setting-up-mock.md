@@ -144,7 +144,7 @@ This will open the **Set up the mock server** modal. Pass the values outlined in
 
 This process of creating a mock server will also create a collection with the same title as the mock server. This collection will have a copy of the same request that you chose from the **History** sidebar. The mock server created is tied to this new collection.
 
-![New collection created when creating mock server from history request](https://assets.postman.com/postman-docs/Adding+a+second+mock+from+sidebar.jpg)
+![New collection created when creating mock server from history request](https://assets.postman.com/postman-docs/New+mocks+create+new+collections.jpg)
 
 #### Mocking all requests made on a specific date
 
@@ -172,7 +172,7 @@ The "Next steps" modal will appear with an overview of your new mock server's de
 
 Creating the mock server will also create a collection with the same name as the server. The collection will have a copy of each request made on the date you chose in your **History**. All requests from this collection will be made to the server you just created.
 
-![Mocks modal](https://assets.postman.com/postman-docs/Collection+and+server+Mocks.jpg)
+![Mocks modal](https://assets.postman.com/postman-docs/New+mocks+create+new+collections.jpg)
 
 ### Mocking from Collections in Browse view
 
