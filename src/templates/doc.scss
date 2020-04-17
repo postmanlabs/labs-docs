@@ -80,6 +80,10 @@ thead:first-child:hover tr{
 /**
 * add syntax highlighting
 */
+:not(pre) > code[class*="language-"] {
+  font-family: monospace !important;
+}
+
 .gatsby-highlight {
   background-color: #2d2d2d;
   border-radius: 0.3em;
@@ -87,13 +91,28 @@ thead:first-child:hover tr{
   padding: 1em;
   overflow: auto;
   border-left: 0.5em solid $postman-orange;
+  // white-space: pre-wrap;
+  // word-break: break-word !important;
 
   code[class*="language-"],
-  span.token.comment, 
+  .token.comment, 
   .token.string,
+  .token.number,
+  .token.boolean,
+  .token.class-name,
+  .token.constant,
+  .token.parameter,
+  .token.keyword,
+  .token.operator,
   .token.function,
+  .token.property,
+  .token.attr-name,
+  .token.attr-value,
+  .token.tag,
   .token.punctuation {
     font-family: monospace !important;
+    white-space: pre-wrap;
+    word-break: break-word;
   }
 
   /**
