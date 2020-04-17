@@ -23,7 +23,7 @@ warning: false
 
 ---
 
-Although Postman is primarily a REST client, you can make other types of HTTP call, including to protocol-agnostic services such as SOAP and [GraphQL](/docs/postman/sending-api-requests/graphql/).
+Postman can make various types of HTTP call in addition to REST, including to protocol-agnostic services such as SOAP and [GraphQL](/docs/postman/sending-api-requests/graphql/).
 
 The following steps outline how to make a SOAP request in the Postman app.
 
