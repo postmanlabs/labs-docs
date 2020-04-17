@@ -134,13 +134,11 @@ If you already have mock servers created from the same collection, you will see 
 
 You can create a mock server from the requests saved in the history of your Postman app.
 
->You can only create mocks from history in the Postman app.
-
 #### Mocking a single request
 
 You can mock a single request from the **History** tab in the left sidebar. Hover over an entry, and click **View more actions** (**...**) to expand the dropdown menu. Choose **Mock Request**.
 
-![Create new mock server from history request](https://assets.postman.com/postman-docs/mock-cnx-history-request.png)
+![Create new mock server from history request](https://assets.postman.com/postman-docs/Mocking+a+single+request+from+history.jpg)
 
 This will open the **Set up the mock server** modal. Pass the values outlined in the [New button section](#mocking-from-the-new-button). Click **Create Mock Server**.
 
