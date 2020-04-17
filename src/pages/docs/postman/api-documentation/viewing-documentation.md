@@ -58,7 +58,7 @@ To view documentation for a collection you have access to in the Postman app, se
 
 ![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
-At the top, you will see if there was an environment shared with the documented collection, the sample code language, and the layout of the documentation. You can change the environment, language, and layout based on your needs.
+At the top, you will see any environment shared with the documented collection, the sample code language, and the layout of the documentation. You can change the environment, language, and layout.
 
 ![View Docs](https://assets.postman.com/postman-docs/Expanded+header+image+for+Viewing+docs.jpg)
 
