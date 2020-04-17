@@ -64,6 +64,14 @@ Your request body should include the SOAP `Envelope`, `Header`, and `Body` tags 
 
 ![SOAP body XML](https://assets.postman.com/postman-docs/soap-body-xml.jpg)
 
+## Set your request headers
+
+When you select an XML body type, Postman will automatically add a content type header of `application/xml`, but for SOAP requests you need `text/xml`. Open the request __Headers__ and click to show the hidden headers.
+
+Deselect the `Content-Type` header Postman added automatically and add a new row with `Content-Type` __Key__ and `text/xml` __Value__.
+
+![SOAP Content Type](https://assets.postman.com/postman-docs/soap-content-type.jpg)
+
 ## Send your request
 
 Click __Send__ to make your call to the SOAP service. If your call is successful you will see the response in the lower tab in Postman.
