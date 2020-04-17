@@ -16,8 +16,8 @@ contextual_links:
     name: "Postman makes SOAP requests too"
     url: "https://blog.postman.com/2017/11/18/postman-makes-soap-requests-too/"
   - type: link
-    name: "SOAP: holiday web service template"
-    url: "https://explore.postman.com/templates/1880/soap-holiday-web-service"
+    name: "SOAP: fahrenheit to celsius conversion"
+    url: "https://explore.postman.com/templates/7315/soap-fahrenheit-to-celsius-conversion"
 
 warning: false
 
