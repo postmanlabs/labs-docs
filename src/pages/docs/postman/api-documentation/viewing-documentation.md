@@ -92,7 +92,7 @@ You can access [public documentation](/docs/postman/api-documentation/publishing
 
 ![Public Doc Link](https://assets.postman.com/postman-docs/public-doc-link.jpg)
 
-When you view public documentation, you will see any shared environments, the layout, and the sample code language at the top. You can expand the menu for any of these details to change them.
+When you view public documentation, you will see any shared environments, the layout, and the sample code language at the top. You can expand the menu of any of these details to change them.
 
 ![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
 
