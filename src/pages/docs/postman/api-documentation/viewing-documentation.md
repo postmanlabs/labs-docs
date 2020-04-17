@@ -64,7 +64,7 @@ At the top, you will see any environment shared with the documented collection, 
 
 You will also see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
 
-![Public Documentation](https://assets.postman.com/postman-docs/Expanded+image+for+Viewing+your+documentation.jpg)
+![Public Documentation](https://assets.postman.com/postman-docs/Request+details+public+docs.jpg)
 
 > The private URL is only accessible to Postman users logged in with appropriate permissions. To make documentation viewable publicly, you can [publish it](/docs/postman/api-documentation/publishing-your-docs/).
 
