@@ -94,7 +94,7 @@ You can access [public documentation](/docs/postman/api-documentation/publishing
 
 When you view public documentation, you will see any shared environments, the layout, and the sample code language at the top. You can expand the menu for any of these details to change them.
 
-![View Docs](https://assets.postman.com/postman-docs/Expanded+header+image+for+Viewing+docs.jpg)
+![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
 
 You will also see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
 
