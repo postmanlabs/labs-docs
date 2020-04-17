@@ -76,6 +76,10 @@ When team discovery is enabled, users in your organization can see teams to join
 
 This kind of automation makes Postman’s collaboration features more discoverable to users, and allows your team participation to scale up along with your successful API projects.
 
-## Questions?
+### Questions?
 
 If you have any questions or run into any issues setting up Postman for your team be sure and check to see if the question has already been answered by the [Postman Community](https://community.postman.com/). You can also find a number of support resources on our [support page](https://www.postman.com/support). 
+
+## Next Steps
+
+For information on getting started see [Getting Started With Postman](https://learning.postman.com/getting-started/) 
