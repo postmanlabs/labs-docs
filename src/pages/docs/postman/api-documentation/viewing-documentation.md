@@ -98,7 +98,7 @@ When you view public documentation, you will see any shared environments, the la
 
 You will also see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
 
-![Public Documentation](https://assets.postman.com/postman-docs/Expanded+image+for+Viewing+your+documentation.jpg)
+![Public Documentation](https://assets.postman.com/postman-docs/Request+details+in+public+documentation.jpg)
 
 ## Next steps
 
