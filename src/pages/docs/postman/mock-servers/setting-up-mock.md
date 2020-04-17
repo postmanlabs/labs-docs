@@ -164,7 +164,7 @@ In the modal, give your mock server a name. You also have the option to connect 
 
 ![Mocks modal](https://assets.postman.com/postman-docs/Second+step+modal.jpg)
 
-> If you choose to make your mock server private, you'll have to generate an API key.
+> If you choose to make your mock server private, you'll have to [generate an API key](https://learning.postman.com/docs/postman/postman-api/intro-api/).
 
 The "Next steps" modal will appear with an overview of your new mock server's details. Note the mock server's URL because you'll need it to make requests that return mock data.
 
