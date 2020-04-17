@@ -80,13 +80,13 @@ You can request viewer access to a team member's personal API or a private API i
 1. Open the API link in your browser.
 
 2. Click **Request Access**.
-![https://user-images.githubusercontent.com/5029719/74135024-74f39000-4be3-11ea-81e7-cb4bd4ef438a.png](https://user-images.githubusercontent.com/5029719/74135024-74f39000-4be3-11ea-81e7-cb4bd4ef438a.png)
+![https://assets.postman.com/postman-docs/requestaccess1.png](https://assets.postman.com/postman-docs/requestaccess1.png)
 
 3. Select a person to send your request to, a [role](/docs/postman/collaboration/roles-and-permissions/), and one of your workspaces to add the API to once access is granted.
 
 4. Complete your request by clicking **Request Access**.
 
-![https://user-images.githubusercontent.com/5029719/74135090-96547c00-4be3-11ea-8d41-12a67399f61e.gif](https://user-images.githubusercontent.com/5029719/74135090-96547c00-4be3-11ea-8d41-12a67399f61e.gif)
+![https://assets.postman.com/postman-docs/requestaccess2.gif](https://assets.postman.com/postman-docs/requestaccess2.gif)
 
 This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
 
@@ -94,7 +94,7 @@ This will trigger an email to the person you requested access from. When they ap
 
 There might be APIs that you can view in your team workspace but can't edit. These APIs have a lock icon next to the API name.
 
-<img src="https://user-images.githubusercontent.com/5029719/74137405-a5d5c400-4be7-11ea-8820-5d0afeb74eca.png" width="300px">
+<img src="https://assets.postman.com/postman-docs/requestingeditorroleonanapi.png" width="300px">
 
 You can request the Editor role on this API:
 
@@ -106,7 +106,7 @@ You can request the Editor role on this API:
 
 4. Complete your request by clicking **Request Access**.
 
-![https://user-images.githubusercontent.com/5029719/74138657-ec2c2280-4be9-11ea-8f79-b16d3ccbfa34.gif](https://user-images.githubusercontent.com/5029719/74138657-ec2c2280-4be9-11ea-8f79-b16d3ccbfa34.gif)
+![https://assets.postman.com/postman-docs/requestaccesstocollections.gif](https://assets.postman.com/postman-docs/requestaccesstocollections.gif)
 
 This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
 
@@ -121,7 +121,7 @@ Your team members can request access from you in the following cases:
 > The Viewer role is available depending on your [Postman plan](https://www.postman.com/pricing).
 
 You will receive an email detailing the request for access.
-![https://user-images.githubusercontent.com/5029719/74138873-42996100-4bea-11ea-9aac-5e59826485a2.png](https://user-images.githubusercontent.com/5029719/74138873-42996100-4bea-11ea-9aac-5e59826485a2.png)
+![https://assets.postman.com/postman-docs/requestdetailemail.png](https://assets.postman.com/postman-docs/requestdetailemail.png)
 
 Click **Approve Request** if you want to grant access to the collection or API. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
 
