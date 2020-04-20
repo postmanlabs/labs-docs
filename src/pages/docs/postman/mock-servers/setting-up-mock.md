@@ -183,7 +183,7 @@ You can check your usage limits in the [Postman API](https://docs.api.getpostman
 
 ## Editing and deleting mock servers
 
-You can edit or delete existing mock servers in Postman since version `7.7.0`. The following properties of a mock server can be updated through the Postman app and web dashboard:
+You can edit or delete existing mock servers in Postman. The following properties of a mock server can be updated through the Postman app and [Postman Dashboard](https://the.postman.co/workspaces?type=personal):
 
 * Name of the mock server
 * Version tag of the underlying collection
