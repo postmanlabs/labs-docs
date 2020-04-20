@@ -232,12 +232,22 @@ You can edit or delete a mock server from the **Collections** pane, through the 
 3. Click **Delete**.
 ![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Delete+mock+modal.jpg)
 
-### Editing or deleting mocks from the Web Dashboard
+### Editing a mock server from the Dashboard
+
+From the [Dashboard](https://the.postman.co/workspaces?type=personal), you can edit a mock server from your collection or from the list of mock servers for a specific workspace.
+
+#### Editing a mock server from a collection
+
+1. Open the collection with the mock server you want to edit.
+2. At the top, click the **Mocks servers** tab.
+![Mocks tab](https://assets.postman.com/postman-docs/Mocks+tab+in+the+dashboard.jpg)
+3. Hover over the name of the mock and click the **Edit** icon.
+![Edit mocks](https://assets.postman.com/postman-docs/Edit+icon+mocks+dashboard.jpg)
+4. Make your changes and clikc **Save Changes**.
+
+#### Editing a mock server from a workspace
 
 1. At the top, click the **Mock servers** tab.
-2. Click either the **pencil** icon to edit or the **trash** icon to delete.
-
-![Postman Mock Server edit in Build mode](https://assets.postman.com/postman-docs/Delete+mock+Dashboard.jpg)
 
 ## Viewing mock calls
 
