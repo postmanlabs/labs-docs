@@ -13,8 +13,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Postman makes SOAP requests too"
-    url: "https://blog.postman.com/2017/11/18/postman-makes-soap-requests-too/"
+    name: "Making HTTP SOAP Requests with Postman"
+    url: "https://blog.postman.com/making-http-soap-requests-with-postman/"
   - type: link
     name: "SOAP: fahrenheit to celsius conversion"
     url: "https://explore.postman.com/templates/7315/soap-fahrenheit-to-celsius-conversion"
