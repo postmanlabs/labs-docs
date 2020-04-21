@@ -80,7 +80,7 @@ You can preview your documentation before publishing it.
 
 You can configure the style of your public docs by selecting colors for the top bar, sidebar, and highlights. Try making changes and preview to see how your docs will appear when published.
 
-![Style Docs](https://assets.postman.com/postman-docs/style-docs.jpg)
+![Style Docs](https://assets.postman.com/postman-docs/Customizing+public+docs+layout.jpg)
 
 You can customize the style of your public docs by adding a team name and logo via your [team settings](/docs/postman/collaboration/team-settings/) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
 
