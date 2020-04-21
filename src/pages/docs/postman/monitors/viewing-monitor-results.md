@@ -44,7 +44,7 @@ Your Postman Dashboard allows you to track the health and performance of your AP
         * [Filtering by formula](#filtering-by-formula)
 
     * [Time traverse](#time-traverse)
-    
+
     * [Test results](#test-results)
 
     * [Console log](#console-log)
