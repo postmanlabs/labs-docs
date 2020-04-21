@@ -324,6 +324,39 @@ To enable programmatic access via the methods below, the cookie `url` must be [w
 
    Clear all cookies from the cookie jar.
 
+### pm.visualizer.set
+
+Use `pm.visualizer.set` to specify a template to [display response data in the visualizer](/docs/postman/sending-api-requests/visualizer/).
+
+`pm.visualizer.set(layout:String, data:Object, options:Object):Function`
+
+* `layout` **required**: [Handlebars](https://handlebarsjs.com/) HTML template string
+* `data` _optional_: Data to bind to the template and that you can access inside the template string
+* `options` _optional_: Options object for `Handlebars.compile()`
+
+Example usage:
+
+```js
+var template = `<p>{{res.info}}</p>`;
+pm.visualizer.set(template, {
+    res: pm.response.json()
+});
+```
+
+### pm.getData
+
+Use `pm.getData` to retrieve response data in visualizations.
+
+`pm.getData(callback)`
+
+The callback function accepts two parameters, `error` and `data` (the data passed to the template by `pm.visualizer.set`):
+
+```js
+pm.getData(function (error, data) {
+  var value = data.res;
+});
+```
+
 ### pm.test
 
 `pm.test(testName:String, specFunction:Function):Function`
