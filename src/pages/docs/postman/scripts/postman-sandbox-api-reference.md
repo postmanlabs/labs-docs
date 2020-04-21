@@ -328,7 +328,9 @@ To enable programmatic access via the methods below, the cookie `url` must be [w
 
 Use `pm.visualizer.set` to specify a template to [display response data in the visualizer](/docs/postman/sending-api-requests/visualizer/).
 
-`pm.visualizer.set(layout:String, data:Object, options:Object):Function`
+```js
+pm.visualizer.set(layout:String, data:Object, options:Object):Function
+```
 
 * `layout` **required**
     * [Handlebars](https://handlebarsjs.com/) HTML template string
@@ -350,7 +352,9 @@ pm.visualizer.set(template, {
 
 Use `pm.getData` to retrieve response data in visualizations.
 
-`pm.getData(callback):Function`
+```js
+pm.getData(callback):Function`
+```
 
 The callback function accepts two parameters, `error` (error detail) and `data` (the data passed to the template by `pm.visualizer.set`):
 
