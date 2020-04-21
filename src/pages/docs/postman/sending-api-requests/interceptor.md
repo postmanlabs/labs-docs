@@ -142,7 +142,7 @@ You can find the current status of your Interceptor integration by selecting the
     * Verify that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
     * Verify that `C:/Windows/System32` is present in the `PATH` (a [system environment variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7)) so that `reg` queries can be executed.
 
- [If you are unable to use the integration after completing the guided installation, you'll want to check the following items:](#bridge-installed-items)
+If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
 * **[MacOS-only] Node is properly installed**: Node should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
 * **Manifest file location**: The manifest file (``com.postman.postmanapp.json``) is present, has the correct extension ID (``aicmkgpgakddgnaphhhpliifpcfhicfo``), and the correct path to the executable file.
@@ -162,26 +162,30 @@ If the aforementioned troubleshooting steps do not fix the problem, you may need
 
 > If any dependencies cannot be removed due to permission issues, you’ll be prompted to delete them manually.
 
-
- If you are still unable to resolve errors and use the integration here are the manual installation steps:
+ If you are unable to resolve ``INTERNET_CONNECTIVITY`` error due to proxy issues and want to use the integration here are the manual installation steps:
 
 **1. MacOS/Linux**:
-  * **[MacOS-only]**Node(>=v7.0.0) should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
-  * Install bridge [MacOS](https://static.getpostman.com/assets/interceptor/dependencies.json)/ [Linux](https://static.getpostman.com/assets/interceptor/dependencies.json)
-  * Run the script (install_host.sh)
-  * After executing the script check the following:
-    1. Verify  `InterceptorBridge` file exists in this path ``$HOME/.postman``.
-    2. Verify in this path `~/Library/ApplicationSupport/Google/Chrome/NativeMessagingHosts` for MacOs or `~/.config/google-chrome/NativeMessagingHosts` for Linux for the presence of manifest file ``com.postman.postmanapp.json`` with the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo``, and with correct path ``$HOME/.postman`` to the executable file(InterceptorBridge).
+
+* **[MacOS-only]**Node(>v6.0.0) should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
+* Install bridge for [MacOS](https://go.pstmn.io/interceptor-bridge-macos)/ [Linux](https://go.pstmn.io/interceptor-bridge-linux)
+* Run the script (install_host.sh)
+* After executing the script check the following:
+  1. Verify  `InterceptorBridge` file exists in this path ``$HOME/.postman``.
+  2. Verify in this path `~/Library/ApplicationSupport/Google/Chrome/NativeMessagingHosts` for MacOs or `~/.config/google-chrome/NativeMessagingHosts` for Linux for the presence of manifest file ``com.postman.postmanapp.json`` with the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo``, and with correct path ``$HOME/.postman`` to the executable file(InterceptorBridge).
 
 **2. Windows**:
-  * [Install bridge](https://static.getpostman.com/assets/interceptor/dependencies.json)
-  * Run the script (install_host.bat)
-  * After executing the script check the following:
-    1. Verify  `InterceptorBridge.exe` file exists in this path ``%USERPROFILE%/.postman/``.
-    2. Verify in this path `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts` for existence of manifest file ``com.postman.postmanapp.json`` with the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo`` and correct path ``%USERPROFILE%/.postman/`` to the executable file(InterceptorBridge.exe).
+
+* [Install bridge](https://go.pstmn.io/interceptor-bridge-windows)
+* Run the script (install_host.bat)
+* After executing the script check the following:
+  1. Verify  `InterceptorBridge.exe` file exists in this path ``%USERPROFILE%/.postman/``.
+  2. Verify in this path `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts` for existence of manifest file ``com.postman.postmanapp.json`` with the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo`` and correct path ``%USERPROFILE%/.postman/`` to the executable file(InterceptorBridge.exe).
 
 **Note:**
- To run the script depending on your OS, you might need to double-click or execute the installer script via a shell. Users on MacOS/Windows might see a security warning. For example, to override the security on MacOS, you may need to right click > open.
+
+ 1. To run the script depending on your OS, you might need to double-click or execute the installer script via a shell. Users on MacOS/Windows might see a security warning. For example, to override the security on MacOS, you may need to right click > open.
+
+ 2. If you have installed Postman app via snap(in LINUX machines), Interceptor  integration won't get connected with this manual steps also. In such case please install Postman app outside of snap.
 
 ## Security
 
