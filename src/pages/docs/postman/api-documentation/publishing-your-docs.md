@@ -78,7 +78,7 @@ You can preview your documentation before publishing it.
 
 > With Postman Team, Business, or Enterprise, you can opt to use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/) for your public documentation site.
 
-You can configure the style of your public docs by selecting colors for the top bar, sidebar, and highlights. Try making changes and preview to see how your docs will appear when published.
+You can configure the style of your public docs by selecting colors for the header background, code background, and highlights. You can also choose single or double column view as the default layout for your docs. Try making changes and preview to see how your docs will appear when published.
 
 ![Style Docs](https://assets.postman.com/postman-docs/Customizing+public+docs+layout.jpg)
 
