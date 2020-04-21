@@ -330,9 +330,12 @@ Use `pm.visualizer.set` to specify a template to [display response data in the v
 
 `pm.visualizer.set(layout:String, data:Object, options:Object):Function`
 
-* `layout` **required**: [Handlebars](https://handlebarsjs.com/) HTML template string
-* `data` _optional_: Data to bind to the template and that you can access inside the template string
-* `options` _optional_: Options object for `Handlebars.compile()`
+* `layout` **required**
+    * [Handlebars](https://handlebarsjs.com/) HTML template string
+* `data` _optional_
+    * Data to bind to the template and that you can access inside the template string
+* `options` _optional_
+    * Options object for `Handlebars.compile()`
 
 Example usage:
 
@@ -347,9 +350,9 @@ pm.visualizer.set(template, {
 
 Use `pm.getData` to retrieve response data in visualizations.
 
-`pm.getData(callback)`
+`pm.getData(callback):Function`
 
-The callback function accepts two parameters, `error` and `data` (the data passed to the template by `pm.visualizer.set`):
+The callback function accepts two parameters, `error` (error detail) and `data` (the data passed to the template by `pm.visualizer.set`):
 
 ```js
 pm.getData(function (error, data) {
