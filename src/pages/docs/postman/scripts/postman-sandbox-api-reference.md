@@ -348,19 +348,26 @@ pm.visualizer.set(template, {
 });
 ```
 
-### pm.getData
+#### pm.getData
 
-Use `pm.getData` to retrieve response data in visualizations.
+Use `pm.getData` to retrieve response data inside a visualization template string.
 
 ```js
-pm.getData(callback):Function`
+pm.getData(callback):Function
 ```
 
-The callback function accepts two parameters, `error` (error detail) and `data` (the data passed to the template by `pm.visualizer.set`):
+The callback function accepts two parameters:
+
+* `error`
+    * Any error detail
+* `data`
+    * Data [passed to the template](#pmvisualizerset) by `pm.visualizer.set`
+
+Example usage:
 
 ```js
 pm.getData(function (error, data) {
-  var value = data.res;
+  var value = data.res.info;
 });
 ```
 
