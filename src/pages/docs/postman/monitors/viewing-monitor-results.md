@@ -129,7 +129,7 @@ Click to open the drop-down menu **Average**, then select an option. To view the
 
 ### Time traverse
 
-You can navigate through past run results to review what happened at a particular point in time. To do so, click **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then click **Apply** to be taken to a specific run.
+You can navigate through past run results to review what happened at a particular point in time. To do so, click **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then click **Apply** to view a specific run.
 
 ![Time traverse](https://assets.postman.com/postman-docs/time-traverse.jpg)
 
