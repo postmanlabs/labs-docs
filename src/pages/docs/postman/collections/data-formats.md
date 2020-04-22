@@ -91,16 +91,16 @@ Most valid cURL (HTTP-only) commands can be imported into Postman. Postman's imp
 
 | **Option**                  | **Description**                                                                                 |
 | --------------------------- | ----------------------------------------------------------------------------------------------- |
-| -A, --user-agent `<string>` | An optional user-agent string                                                                   |
-| -d, --data `<string>`       | Sends the specified data to the server with type application/x-www-form-urlencoded              |
-| --data-ascii `<string>`     | Sends the specified data to the server with type application/x-www-form-urlencoded              |
-| --data-urlencode `<string>` | Sends the specified data to the server with type application/x-www-form-urlencoded              |
-| --data-binary `<string>`    | Data sent as-is                                                                                 |
-| -F, --form `<name=content>` | A single form-data field (can be used multiple times)                                           |
-| -G, --get                   | Forces the request to be sent as GET, with the `--data parameters` appended to the query string |
-| -H, --header `<string>`     | Add a header (can be used multiple times)                                                       |
-| -X, --request `<string>`    | Specify a custom request method to be used                                                      |
-| --url `<string>`            | An alternate way to specify the URL                                                             |
+| `-A, --user-agent <string>` | An optional user-agent string                                                                   |
+| `-d, --data <string>`       | Sends the specified data to the server with type application/x-www-form-urlencoded              |
+| `--data-ascii <string>`     | Sends the specified data to the server with type application/x-www-form-urlencoded              |
+| `--data-urlencode <string>` | Sends the specified data to the server with type application/x-www-form-urlencoded              |
+| `--data-binary <string>`    | Data sent as-is                                                                                 |
+| `-F, --form <name=content>` | A single form-data field (can be used multiple times)                                           |
+| `-G, --get`                  | Forces the request to be sent as GET, with the `--data parameters` appended to the query string |
+| `-H, --header <string>`     | Add a header (can be used multiple times)                                                       |
+| `-X, --request <string>`    | Specify a custom request method to be used                                                      |
+| `--url <string>`            | An alternate way to specify the URL                                                             |
 
 A few commands which can be imported include:
 

@@ -312,7 +312,7 @@ The next generation processor will encode characters depending on where they occ
 | ------------- | -------------------- |
 | Path | `"` `<` `>` `` ` `` `#` `?` `{` `}` `SPACE` |
 | Query | `"` `#` `&` `'` `<` `=` `>` `SPACE` |
-| Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` <code>\|</code> `SPACE` |
+| Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` \| `SPACE` |
 
 You can use the next generation processor in your Postman app at any time. You can also turn off encoding if you are working with an unusual server implementation.
 
