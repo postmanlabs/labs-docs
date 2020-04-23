@@ -163,7 +163,7 @@ Newman, by default, exits with a status code of 0 if everything runs well, such 
 
 Continuous integration tools respond to these exit codes and correspondingly pass or fail a build.
 
-You can use `-x` or `--suppress-exit-code` to override the exit code and have newman exit with a status code of 0, event if tests fails.
+You can use `-x` or `--suppress-exit-code` to override the default exit code for the current run.
 
 You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1, which can then be picked up by a CI tool or build system.
 
