@@ -59,7 +59,7 @@ You can see comments made by teammates on requests and collections in the Postma
 
 > The comment button displays the number of existing comments.
 
-![Reading a comment](https://assets.postman.com/postman-docs/Read+comment+on+request+.jpg)
+![Reading a comment](https://assets.postman.com/postman-docs/In-app+comments+.jpg)
 
 ### Reading comments ion the  Dashboard
 
