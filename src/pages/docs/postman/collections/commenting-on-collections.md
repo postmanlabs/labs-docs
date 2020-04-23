@@ -5,9 +5,9 @@ page_id: "commenting_on_collections"
 warning: false
 ---
 
-You can leave comments on collections and requests to collaborate with your teammates. Tag your collaborators in comments to let them know that you have questions or feedback.
+You can leave comments on collections and requests to collaborate with your teammates. You can tag your collaborators in comments to let them know that you have questions or feedback.
 
-What's covered in this topic:
+## Contents
 
 * [Commenting on collections and requests](#commenting-on-collections-&-requests)
 * [Reading comments in the app and on the dashboard](#reading-comments-in-the-app-and-on-the-dashboard)
