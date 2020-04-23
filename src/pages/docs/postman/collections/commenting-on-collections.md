@@ -54,7 +54,7 @@ You can see comments made by teammates on requests and collections in the Postma
 
 ### Reading comments in the Postman app
 
-1. In the Postman app, go to the request that has the comments you want to review.
+1. In the Postman app, open the request that has the comments you want to review.
 2. At the top, click **Comments**.
 
 > The comment button displays the number of existing comments.
