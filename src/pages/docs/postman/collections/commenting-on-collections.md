@@ -25,7 +25,7 @@ You can leave comments on collections from the [Postman Dashboard](https://app.g
 
 > Team members must have access to the collection in question in order to post comments.
 
-1. From your web browser, sign in to the [Dashboard](https://app.getpostman.com).
+1. Open the [Dashboard](https://app.getpostman.com) in your web browser.
 2. At the top, click the **Collections** tab.
 3. Open the collection you want to leave comments on.
 4. Find the request or section of documentation you want to leave your comment on and click **Comment**.
@@ -34,11 +34,11 @@ You can leave comments on collections from the [Postman Dashboard](https://app.g
 
 ## Commenting on a request
 
-You can comment on requests via the [web Dashboard](https://app.getpostman.com) or the Postman app. The steps are the same for both. When you comment on a request, it's reflected in both the Dashboard and the app.
+You can comment on requests on the [Postman Dashboard](https://app.getpostman.com) from your web browser or in the Postman app. The steps are the same for both. When you comment on a request, it's reflected in both the Dashboard and the app.
 
 > You can only post comments on saved requests.
 
-1. In your Postman app or Dashboard, go to the collection with the request you want to comment on.
+1. From the Postman app or [Dashboard](https://app.getpostman.com), go to the collection with the request you want to comment on.
 2. At the top right, click **Comments**.
    * You'll also see if there are any other comments on the request.
 3. Leave your comment.
