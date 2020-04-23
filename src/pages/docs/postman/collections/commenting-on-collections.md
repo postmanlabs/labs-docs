@@ -83,9 +83,8 @@ You can make changes to comments you've already posted. Other team members canno
 
 1. In the Postman app or dashboard, find the collection with the comment you want to delete.
 2. Open the comment and click **Comments** > **Delete**.
-3. Click **Delete**.
 
-![Delete comment](https://assets.postman.com/postman-docs/Delete+a+comment+PR.jpg)
+![Delete comment](https://assets.postman.com/postman-docs/Deleting+comments+in+Postman.jpg)
 
 > For moderation purposes, admins can delete comments made by anyone, but cannot modify comments.
 
