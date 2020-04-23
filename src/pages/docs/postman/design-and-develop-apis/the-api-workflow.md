@@ -256,4 +256,4 @@ For more information on building your APIs in Postman, check out the following r
 * [Versioning APIs](/docs/postman/design-and-develop-apis/versioning-an-api/)
 * [Managing and sharing APIs](/docs/postman/design-and-develop-apis/managing-apis/)
 * [Viewing and analyzing APIs](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/)
-* [Validating elemenst against schema](/docs/postman/design-and-develop-apis/validating-elements-against-schema/)
+* [Validating elements against schema](/docs/postman/design-and-develop-apis/validating-elements-against-schema/)
