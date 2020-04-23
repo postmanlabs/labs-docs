@@ -35,17 +35,17 @@ Make sure everyone who uses Postman has the latest version by downloading it fro
 
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee’s workstations. Provide a [Postman download link​](https://www.getpostman.com/downloads/) to the IT team to help establish this exception.
 * If your organization's network connection is facilitated via a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​setup within Postman](https://learning.getpostman.com/docs/postman/sending_api_requests/proxy/)​.
-* It is receommended that your IT team whitelist Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by whitelisting the following domains:
+* It is recommended that your IT team whitelist Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by whitelisting the following domains:
 
-    - *.postman.com
-    - *.getpostman.com
-    - *.postman.co
-    - *.pstmn.io
+    * *.postman.com
+    * *.getpostman.com
+    * *.postman.co
+    * *.pstmn.io
 
 * Depending on your [plan](https://www.postman.com/pricing) static IP addresses may be available for Postman Monitors. Your IT team should whitelist these static IPs for monitoring. Currently, static IPs are available only for the US east and US west regions. If you selected a Static IP region on your monitors, you will have to whitelist the following IP addresses:
 
-    - 34.201.186.27 for US - east
-    - 52.89.173.88 for US - west
+    * 34.201.186.27 for US - east
+    * 52.89.173.88 for US - west
 
 * Update your [team settings](https://go.postman.co/settings/team/general). You can find out more about the team settings in [Team Settings](/docs/postman/collaboration/team-settings/) on the Learning Center.
 * If your Postman [plan](https://www.postman.com/pricing) includes single-sign-on (SSO) you may need help from your IT team to configure it. For step by step instructions for integrating with a number of identity providers please see [Configuring SSO for a team](/docs/administration/sso/admin-sso/) on the Learning Center.
@@ -80,8 +80,8 @@ This kind of automation makes Postman’s collaboration features more discoverab
 
 ### Questions?
 
-If you have any questions or run into any issues setting up Postman for your team be sure and check to see if the question has already been answered by the [Postman Community](https://community.postman.com/). You can also find a number of support resources on our [support page](https://www.postman.com/support). 
+If you have any questions or run into any issues setting up Postman for your team be sure and check to see if the question has already been answered by the [Postman Community](https://community.postman.com/). You can also find a number of support resources on our [support page](https://www.postman.com/support).
 
 ## Next Steps
 
-For information on getting started see [Getting Started With Postman](https://learning.postman.com/getting-started/) 
+For information on getting started see [Getting Started With Postman](https://learning.postman.com/getting-started/)
