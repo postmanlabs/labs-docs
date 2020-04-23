@@ -66,8 +66,7 @@ You can see comments made by teammates on requests and collections in the Postma
 You can read the comments on a collection through the [Postman Dashboard](https://app.getpostman.com).
 
 1. Sign in to the [Postman Dashboard](https://app.getpostman.com).
-2. At the top, click **Collections**.
-   * If you have not chosen a specific workspace, click **View all collections**.
+2. At the top, select a **Workspace** and then click the **Collections** tab.
 3. Open the collection with the comments you want to read.
 4. Next to the request with the comments you want to see, click **Comments**.
    * There might be general comments on the whole collection left next to the collection name.
