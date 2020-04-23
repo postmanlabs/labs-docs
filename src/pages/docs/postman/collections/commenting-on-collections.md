@@ -27,9 +27,9 @@ You can leave comments on collections from the [Postman Dashboard](https://app.g
 
 1. Sign in to the [Dashboard](https://app.getpostman.com).
 2. At the top, select a **Workspace** and click the **Collections** tab.
-3. Open the collection you want to leave your comment on and click **Comments**.
+3. Open the collection you want to leave your comment on and click **Comments** on the right.
 
-![Comment UI](https://assets.postman.com/postman-docs/Comment+on+collection+w+new+name+RS.jpg)
+![Comment UI](https://assets.postman.com/postman-docs/Commenting+on+collections.jpg)
 
 ## Commenting on a request
 
