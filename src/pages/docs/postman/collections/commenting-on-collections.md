@@ -33,7 +33,7 @@ You can leave comments on collections from the [Postman Dashboard](https://app.g
 
 ## Commenting on a request
 
-You can comment on requests from the [Postman Dashboard](https://app.getpostman.com) or in the Postman app. The steps are the same for both. When you comment on a request, it's reflected in both the Dashboard and the app.
+You can comment on requests from the [Postman Dashboard](https://app.getpostman.com) or in the Postman app. When you comment on a request, it's reflected in both the Dashboard and the app.
 
 > You can only post comments on saved requests.
 
