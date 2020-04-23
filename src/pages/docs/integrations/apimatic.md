@@ -29,15 +29,15 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
 
 ## Configuring APIMatic Integration
 
-In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select APIMatic from the list of third party integrations.
+In the [web dashboard](https://go.postman.co/workspaces), navigate to your workspace, choose **Integrations** &gt; **Browse Integrations**, and select **APIMatic** from the list of third party integrations.
 
 <img alt="select apimatic" src="https://assets.postman.com/postman-docs/integrations_APImatic.png" width="200px"/>
 
 Click **View Details** for more information on how the Postman to APIMatic integration converts, formats, and saves your collections to GitHub.
 
-> You can alrernatively click **Configured Integrations** to access any existing integrations.
-
 [![APIMatic Integration](https://assets.postman.com/postman-docs/apimatic-integration-overview.jpg)](https://assets.postman.com/postman-docs/apimatic-integration-overview.jpg)
+
+> You can alternatively click **Configured Integrations** to access any existing integrations.
 
 Click the **Add Integration** button to authorize a periodic backup of your collection to your GitHub repository.
 
@@ -61,4 +61,4 @@ To back up a collection periodically to a GitHub repository:
 
 Click **Add Integration**.
 
-APIMatic converts the collection documentation to your format of choice and pushes to your GitHub repository. Your Postman collection will automatically save to your GitHub repo every day, in the API description format you selected.
+APIMatic converts your collection documentation to the format of your choice and pushes it to your GitHub repository. Your Postman collection will automatically save to your GitHub repo every day, in the API description format you selected.
