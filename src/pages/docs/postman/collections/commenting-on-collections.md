@@ -40,9 +40,6 @@ You can comment on requests from the [Postman Dashboard](https://app.getpostman.
 1. From the Postman app or [Dashboard](https://app.getpostman.com), open the collection with the request you want to comment on.
 2. At the top right, click **Comments**.
    * You'll also see any other comments on the request.
-3. Leave your comment.
-   * To tag your teammates, type "@" and choose their name from the list.
-4. Click **Add comment**.
 
 ![Comments in app and dashboard](https://assets.postman.com/postman-docs/Comment+on+app+and+dashboard.gif)
 
