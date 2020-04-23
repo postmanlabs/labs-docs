@@ -17,7 +17,7 @@ You can leave comments on collections and requests to collaborate with your team
 * [Tagging members in comments](#tagging-members-in-comments)
 * [Markdown support](#markdown-support)
 
-> The Postman app only supports comments on requests. To leave comments on a collection, open the [Postman Dashboard](https://app.getpostman.com) in your web browser.
+> The Postman app only supports comments on requests. To leave or read comments on a collection, open the [Postman Dashboard](https://app.getpostman.com) in your web browser.
 
 ## Commenting on a collection
 
