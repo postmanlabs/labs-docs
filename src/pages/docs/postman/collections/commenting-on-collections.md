@@ -9,14 +9,13 @@ You can leave comments on collections and requests to collaborate with your team
 
 ## Contents
 
-* [Commenting on collections and requests](#commenting-on-collections-&-requests)
-* [Reading comments in the app and on the dashboard](#reading-comments-in-the-app-and-on-the-dashboard)
+* [Commenting on a colletion](#commenting-on-a-collection)
+* [Commneting on a requets](#commenting-on-a-request)
+* [Reading comments in the app and on the Dashboard](#reading-comments-in-the-app-and-on-the-dashboard)
 * [Editing comments](#editing-comments)
 * [Deleting comments](#deleting-comments)
 * [Tagging members in comments](#tagging-members-in-comments)
 * [Markdown support](#markdown-support)
-
-## Commenting on collections & requests
 
 **Notes:**
 
@@ -24,7 +23,7 @@ You can leave comments on collections and requests to collaborate with your team
 * Team members must have access to the collection in question in order to post comments.
 * You can only post comments on saved requests.
 
-### Commenting on a collection
+## Commenting on a collection
 
 To leave a comment on a collection, you'll have to use the Postman Dashboard.
 
@@ -35,7 +34,7 @@ To leave a comment on a collection, you'll have to use the Postman Dashboard.
 
 ![Comment UI](https://assets.postman.com/postman-docs/Comment+on+collection+w+new+name+RS.jpg)
 
-### Commenting on a request
+## Commenting on a request
 
 You can comment on requests via the [web Dashboard](https://app.getpostman.com) or the Postman app. The steps are the same for both. When you comment on a request, it's reflected in both the Dashboard and the app.
 
@@ -50,7 +49,7 @@ You can comment on requests via the [web Dashboard](https://app.getpostman.com) 
 
 You'll get a notification if you get tagged in a comment. If you don't have access to the collection you've been tagged on, you'll have to request access before you can read the comment.
 
-## Reading comments in the app & dashboard
+## Reading comments in the app and on the Dashboard
 
 You can see comments made by teammates on requests and collections in the Postman app or the [Postman dashboard](https://app.getpostman.com).
 
