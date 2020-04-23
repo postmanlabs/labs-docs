@@ -50,7 +50,7 @@ You'll get a notification if you get tagged in a comment. If you don't have acce
 
 ## Reading comments in the app and on the Dashboard
 
-You can see comments made by teammates on requests and collections in the Postman app or the [Postman dashboard](https://app.getpostman.com).
+You can see comments made by teammates on requests and collections in the Postman app or the [Dashboard](https://app.getpostman.com).
 
 ### Reading comments in the Postman app
 
@@ -61,7 +61,7 @@ You can see comments made by teammates on requests and collections in the Postma
 
 ![Reading a comment](https://assets.postman.com/postman-docs/Read+comment+on+request+.jpg)
 
-### Reading comments in the Postman Dashboard
+### Reading comments ion the  Dashboard
 
 You can read the comments made on a collection through the [Postman Dashboard](https://app.getpostman.com).
 
