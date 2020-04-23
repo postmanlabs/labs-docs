@@ -42,17 +42,25 @@ Make sure everyone who uses Postman has the latest version by downloading it fro
     - *.postman.co
     - *.pstmn.io
 
-* If you plan to use Postman Monitors with your APIs your IT team should whitelist the static IPs for monitoring. Currently, static IPs are available only for the US east and US west regions. If you selected a Static IP region on your monitors, you will have to whitelist the following IP addresses:
+* Depending on your [plan](https://www.postman.com/pricing) static IP addresses may be available for Postman Monitors. Your IT team should whitelist these static IPs for monitoring. Currently, static IPs are available only for the US east and US west regions. If you selected a Static IP region on your monitors, you will have to whitelist the following IP addresses:
 
     - 34.201.186.27 for US - east
     - 52.89.173.88 for US - west
 
-* Update the your [team settings](https://go.postman.co/settings/team/general). You can find out more about the team settings in [Team Settings](/docs/postman/collaboration/team-settings/) on the Learning Center.
-* IT team to configure single-sign-on (SSO). For step by step instructions for integrating with a number of identity providers please see [Configuring SSO for a team](/docs/administration/sso/admin-sso/) on the Learning Center.
+* Update your [team settings](https://go.postman.co/settings/team/general). You can find out more about the team settings in [Team Settings](/docs/postman/collaboration/team-settings/) on the Learning Center.
+* If your Postman [plan](https://www.postman.com/pricing) includes single-sign-on (SSO) you may need help from your IT team to configure it. For step by step instructions for integrating with a number of identity providers please see [Configuring SSO for a team](/docs/administration/sso/admin-sso/) on the Learning Center.
+
+### Invite Team Members
+
+Depending on the size of you team you can send invites to your team now or check your setup with a few volunteers before you rollout Postman to your entre organization.
+
+Either way, you can add your teammates from your [team dashboard](https://go.postman.co/team) or by generating a shareable link or inviting them through a direct email. You can find out how to do that in [Managing Your Team](/docs/postman/collaboration/managing-your-team/#inviting-to-a-team) on the Learning Center.
+
+![Invite Users](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%201.18.07%20PM.png)
 
 ### Check Your Setup
 
-Before we kick-off in full, it’s best for us to check-in on the workings of the Postman app within your organization and ensure everything works as expected. If you do not have the Postman app and  Postman account find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
+Before we kick-off in full, it’s best for us to check-in on the workings of the Postman app within your organization and ensure everything works as expected. If you do not have the Postman app and Postman account find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
 
 Ensure you are connected to your organization's network and test the following:
 
@@ -60,13 +68,7 @@ Ensure you are connected to your organization's network and test the following:
 * Can you execute a request to one of your internal/private APIs?
 * Save a request inside a [​Collection​](/docs/postman/collections/creating_collections). Visit ​go.postman.co​, has your Collection and Request synced with Postman’s cloud?
 
-Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman Enterprise! Else, if you experienced a hiccup, [​let us know](https://getpostman.com/support) and please read on.
-
-### Invite Team Members
-
-Add your teammates from your [team dashboard](https://go.postman.co/team) or by generating a shareable link and inviting them through a direct email. You can find out how to do that in [Managing Your Team](/docs/postman/collaboration/managing-your-team/#inviting-to-a-team) on the Learning Center.
-
-![Invite Users](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%201.18.07%20PM.png)
+Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! Else, if you experienced a hiccup, [​let us know](https://getpostman.com/support) and please read on.
 
 ### Enable Team Discovery
 
