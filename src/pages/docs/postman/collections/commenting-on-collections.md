@@ -74,11 +74,10 @@ You can read the comments on a collection through the [Postman Dashboard](https:
 
 You can make changes to comments you've already posted. Other team members cannot edit your comments.
 
-1. In the Postman app or dashboard, find the collection with the comment you want to edit.
-2. Find the comment and click **Comment** > **Edit** icon.
-3. Click **Save changes**.
+1. In the Postman app or [Dashboard](https://app.getpostman.com), find the collection with the comment you want to edit.
+2. Find the comment and click **Comment** > **Edit**.
 
-![Edit comment](https://assets.postman.com/postman-docs/Edit+a+comment+PR.jpg)
+![Edit comment](https://assets.postman.com/postman-docs/Edit+comments+in+Postman.jpg)
 
 ## Deleting comments
 
