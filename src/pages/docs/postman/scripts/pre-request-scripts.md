@@ -42,15 +42,15 @@ warning: false
 
 ---
 
-You can use pre-request scripts in Postman to execute JavaScript before a request runs. By including code in the __Pre-request Script__ tab for a request, collection, or folder, you can carry out pre-processing such as setting variable values, parameters, headers, and body data. You can also use pre-request scripts for debugging code such as logging output to the console.
+You can use pre-request scripts in Postman to execute JavaScript before a request runs. By including code in the __Pre-request Script__ tab for a request, collection, or folder, you can carry out pre-processing such as setting variable values, parameters, headers, and body data. You can also use pre-request scripts for debugging code, for example by logging output to the console.
 
 An example usage of pre-request scripting could be as follows:
 
 * You have a series of requests in a collection and are running them in a sequence, e.g. using the [collection runner](/docs/postman/collection-runs/intro-to-collection-runs/).
 * The second request is dependent on a value returned from the first request.
-* The value needs processed before you pass it to the second one.
-* The first request sets the data value from a response field to a variable in its __Tests__ code.
-* The second request retrieves the value and processes it in its __Pre-request Script__, then sets the processed value to a variable, and passes it to the request e.g. in the parameters.
+* The value needs to be processed before you pass it to the second request.
+* The first request sets the data value from a response field to a variable in its __Tests__ script.
+* The second request retrieves the value and processes it in its __Pre-request Script__, then sets the processed value to a variable (which is referenced in the second request, e.g. in its parameters).
 
 ## Scripting before your request runs
 
@@ -66,7 +66,7 @@ When you click __Send__, the code will execute before Postman sends the request 
 
 ## Re-using pre-request scripts
 
-You can add pre-request scripts to collections—and folders within collections. In both cases, your pre-request script will run before every request in the collection or folder. This allows you to define commonly-used pre-processing or debugging steps you need to execute for multiple requests.
+You can add pre-request scripts to entire collections as well as to folders within collections. In both cases, your pre-request script will run before every request in the collection or folder. This allows you to define commonly used pre-processing or debugging steps you need to execute for multiple requests.
 
 To add pre-processing to a group of requests, locate the collection or folder in __Collections__ on the left of the Postman app. Click __...__ to __View more actions__ and select __Edit__.
 
