@@ -69,13 +69,13 @@ You can read the comments on a collection through the [Postman Dashboard](https:
 2. At the top, select a **Workspace** and then click the **Collections** tab.
 3. Open the collection with the comments you want to read.
 4. Next to the request with the comments you want to see, click **Comments**.
-   * There might be general comments on the whole collection left next to the collection name.
+   * Any comments posted on the collection as a whole will be next to the collection name.
 
 ![Dashboard comments](https://assets.postman.com/postman-docs/Read+comment+on+Postman+Dashboard.gif)
 
 ## Editing comments
 
-You can make changes to comments you've already posted. You're the only one who will be able to edit your comment.
+You can make changes to comments you've already posted. Other team members cannot edit your comments.
 
 1. In the Postman app or dashboard, find the collection with the comment you want to edit.
 2. Find the comment and click **Comment** > **Edit** icon.
