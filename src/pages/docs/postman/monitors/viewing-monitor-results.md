@@ -43,6 +43,8 @@ Your Postman Dashboard allows you to track the health and performance of your AP
 
         * [Filtering by formula](#filtering-by-formula)
 
+    * [Time traverse](#time-traverse)
+
     * [Test results](#test-results)
 
     * [Console log](#console-log)
@@ -71,13 +73,13 @@ You can use the **Monitor Summary** to see how your APIs have performed over tim
 
 The upper section charts your monitor's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact response time and failed percent, you can hover over each run individually.
 
-[![monitor summary](https://assets.postman.com/postman-docs/individual-monitor.jpg)](https://assets.postman.com/postman-docs/individual-monitor.jpg)
+![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-view.jpg)
 
 ### Request split
 
 You can use **Request Split** to see how the response time varies for all requests made in a given run. To break this down into individual requests, you can utilize [Filters](#Filters).
 
-[![monitor summary](https://assets.postman.com/postman-docs/request-split.jpg)](https://assets.postman.com/postman-docs/request-split.jpg)
+![Request split](https://assets.postman.com/postman-docs/request-split-view.jpg)
 
 ### Filters
 
@@ -124,6 +126,14 @@ You can filter by mathematical formula to view the average, sum, minimum, and ma
 * **Maximum**: The maximum total response time for a run across all regions.
 
 Click to open the drop-down menu **Average**, then select an option. To view the newly calculated response time value, you can hover over each run individually.
+
+### Time traverse
+
+You can navigate through past run results to review what happened at a particular point in time. To do so, click **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then click **Apply** to view a specific run.
+
+![Time traverse](https://assets.postman.com/postman-docs/time-traverse.jpg)
+
+> To revert the view to your most recent runs, select the time and date you defined in the upper-left corner of the graph, then click **Reset**.
 
 ### Test results
 
