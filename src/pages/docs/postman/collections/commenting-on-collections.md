@@ -37,7 +37,7 @@ You can comment on requests from the [Postman Dashboard](https://app.getpostman.
 
 > You can only post comments on saved requests.
 
-1. From the Postman app or [Dashboard](https://app.getpostman.com), go to the collection with the request you want to comment on.
+1. From the Postman app or [Dashboard](https://app.getpostman.com), open the collection with the request you want to comment on.
 2. At the top right, click **Comments**.
    * You'll also see if there are any other comments on the request.
 3. Leave your comment.
