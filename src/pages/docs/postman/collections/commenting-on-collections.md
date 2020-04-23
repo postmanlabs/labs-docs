@@ -62,7 +62,7 @@ You can see comments made by teammates on requests and collections in the Postma
 
 You can read the comments on a collection through the [Postman Dashboard](https://app.getpostman.com).
 
-1. Sign in to the [Postman Dashboard](https://app.getpostman.com).
+1. Sign in to the [Dashboard](https://app.getpostman.com).
 2. At the top, select a **Workspace** and then click the **Collections** tab.
 3. Open the collection with the comments you want to read.
 4. Next to the request with the comments you want to see, click **Comments**.
@@ -101,7 +101,7 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 >If your teammate has disabled notifications then they will not be notified.
 
-![Notification bell](https://assets.postman.com/postman-docs/Notification+bell+PR.jpg)
+![Notification bell](https://assets.postman.com/postman-docs/Postman+app+notifications+.jpg)
 
 ## Next steps
 
