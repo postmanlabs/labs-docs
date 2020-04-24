@@ -68,7 +68,7 @@ You can read the comments on a collection through the [Postman Dashboard](https:
 4. Next to the request with the comments you want to see, click **Comments**.
    * Any comments posted on the collection as a whole will be next to the collection name.
 
-![Dashboard comments](https://assets.postman.com/postman-docs/Read+comment+on+Postman+Dashboard.gif)
+[![read comment collection dashboard](https://assets.postman.com/postman-docs/readcommentcollectiondashboard.gif)](https://assets.postman.com/postman-docs/readcommentcollectiondashboard.gif)
 
 ## Editing comments
 
@@ -100,6 +100,8 @@ When you leave feedback or a question for a specific teammate, you can let them 
 Your teammate will be notified in the app or with an email that they've been tagged in a comment. In-app notifications appear as a red dot above the bell icon at the top right.
 
 >If your teammate has disabled notifications then they will not be notified.
+
+[![receive comment](https://assets.postman.com/postman-docs/receivecomment.png)](https://assets.postman.com/postman-docs/receivecomment.pn
 
 ![Notification bell](https://assets.postman.com/postman-docs/Postman+app+notifications+.jpg)
 

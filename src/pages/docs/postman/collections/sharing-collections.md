@@ -60,7 +60,7 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 * Embed
 * Get Link
 
-[![share sidebar](https://user-images.githubusercontent.com/5029719/71100430-eb0fe380-21ac-11ea-9ad6-1c7922f4f722.png)](https://user-images.githubusercontent.com/5029719/71100430-eb0fe380-21ac-11ea-9ad6-1c7922f4f722.png)
+[![share sidebar](https://assets.postman.com/postman-docs/githubusercontent2.png)](https://assets.postman.com/postman-docs/githubusercontent2.png)
 
 ## Sharing collections in another workspace
 
@@ -75,6 +75,8 @@ You can set team default permissions to either view-only or edit; only after sha
 In the [workspaces dashboard](https://app.getpostman.com/dashboard), select a collection and then click the **Share** button. The collection is visible in your target workspace.
 
 [![share collections](https://assets.postman.com/postman-docs/WS-share-collection-dashboard.png)](https://assets.postman.com/postman-docs/WS-share-collection-dashboard.png)
+
+> If you remove a collection from a workspace, it will no longer be available in that workspace. To restore it to the workspace, share it again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
 
 ## Sharing collections with the Embed or Run In Postman button
 

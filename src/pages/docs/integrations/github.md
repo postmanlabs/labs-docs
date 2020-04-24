@@ -28,6 +28,7 @@ Postman allows you to back up your collections (for paid plans only) or synchron
     * [Backup collections to GitHub on custom domain](#backup-collections-to-github-on-custom-domain)
 * [Syncing API schemas on GitHub](#syncing-your-api-schemas-on-github)
     * [Configuring GitHub integration for API schemas](#configuring-github-integration-for-api-schemas)
+* [Troubleshooting GitHub Sync](#troubleshooting-github-sync)
 
 ## Generating a GitHub Personal Access Token
 
@@ -118,7 +119,7 @@ You can access the configuration for the GitHub integration [from the web dashbo
 
 Navigate to the [web dashboard](https://go.postman.co/workspaces), select the appropriate workspace, then **Integrations** at the top. On the integrations page, click **Create an integration in this workspace**, search for the GitHub tile and click **View Details**. On the next page, click **+ Add Integration** next to **Sync API schema**.
 
-[![schema sync dashboard](https://user-images.githubusercontent.com/5029719/72450395-36b8ab80-37b2-11ea-9ac0-5659f588ec23.gif)](https://user-images.githubusercontent.com/5029719/72450395-36b8ab80-37b2-11ea-9ac0-5659f588ec23.gif)
+[![schema sync dashboard](https://assets.postman.com/postman-docs/schemasyncdashboard.gif)](https://assets.postman.com/postman-docs/schemasyncdashboard.gif)
 
 #### From the Postman app
 
@@ -126,7 +127,7 @@ For a new API, click **APIs** in the app sidebar, then click **+ New API** at th
 
 For an existing API, navigate to your API by clicking **APIs** in the app sidebar, select your API from the list, then click **Connect Repository** to start configuring the integration.
 
-[![schema sync app](https://user-images.githubusercontent.com/5029719/74430598-12092f80-4e55-11ea-918f-2ed52765e182.gif)](https://user-images.githubusercontent.com/5029719/74430598-12092f80-4e55-11ea-918f-2ed52765e182.gif)
+[![schema sync app](https://assets.postman.com/postman-docs/schemasyncapp.gif)](https://assets.postman.com/postman-docs/schemasyncapp.gif)
 
 #### Configuration
 
@@ -136,7 +137,7 @@ Enter your personal access token in the text field, select **I consent to Postma
 
 On the next page you need to setup your webhook. To do so, go to the settings page of your GitHub repository, click **Webhooks**, then **Add webhook**. Copy over the `Payload URL` and `Secret` from Postman, then click **Add webhook** to confirm. Refer to the [GitHub documentation](https://developer.github.com/webhooks/creating/#setting-up-a-webhook) for more detail.
 
-[![add webhook](https://user-images.githubusercontent.com/5029719/73532074-c34ea500-4413-11ea-9693-cdaaa64fb7f9.gif)](https://user-images.githubusercontent.com/5029719/73532074-c34ea500-4413-11ea-9693-cdaaa64fb7f9.gif)
+[![add webhook](https://assets.postman.com/postman-docs/addwebhook.gif)](https://assets.postman.com/postman-docs/addwebhook.gif)
 
 Once your webhook is set up, go back to the Postman dashboard, click **Add API Version**, and select the following details:
 
@@ -149,7 +150,7 @@ Once your webhook is set up, go back to the Postman dashboard, click **Add API V
 
 To finish, click **Add API Version**
 
-[![schema sync app](https://user-images.githubusercontent.com/5029719/72460035-f530fc00-37c3-11ea-9069-0bce820f2336.gif)](https://user-images.githubusercontent.com/5029719/72460035-f530fc00-37c3-11ea-9069-0bce820f2336.gif)
+[![schema sync app](https://assets.postman.com/postman-docs/schemasyncapp3.gif)](https://assets.postman.com/postman-docs/schemasyncapp3.gif)
 
 You can sync multiple API versions by clicking **Add API Version** again. To delete an existing API version, hover over the entry, click the grey **X** to the right, then click **Remove API Version**.
 
@@ -157,10 +158,24 @@ You can sync multiple API versions by clicking **Add API Version** again. To del
 
 Once the integration is complete, return to the Postman app and navigate to your API. The **Connect Repository** should show the path and name of the schema file on your GitHub repository - e.g. `api/petstore.yaml`.
 
-[![schema sync succesful](https://user-images.githubusercontent.com/5029719/72462468-0a5c5980-37c9-11ea-9845-4a2153b99c45.png)](https://user-images.githubusercontent.com/5029719/72462468-0a5c5980-37c9-11ea-9845-4a2153b99c45.png)
+[![schema sync succesful](https://assets.postman.com/postman-docs/schemasyncsuccessful.png)](https://assets.postman.com/postman-docs/schemasyncsuccessful.png)
 
 After your first schema sync, each change to the schema in Postman will appear in the repository as a new commit. Similarly, if you or someone else updates the file on the GitHub repository, the API schema on Postman will be updated.
 
 > If changes take place on the repository while you are editing the file on Postman, a **Conflict** state will be displayed. Saving the changes on Postman will override the file on GitHub.
 
-[![commit example github](https://user-images.githubusercontent.com/5029719/72462775-cc136a00-37c9-11ea-837c-695c4f3ddc11.png)](https://user-images.githubusercontent.com/5029719/72462775-cc136a00-37c9-11ea-837c-695c4f3ddc11.png)
+[![commit example github](https://assets.postman.com/postman-docs/commitexamplegithub.png)](https://assets.postman.com/postman-docs/commitexamplegithub.png)
+
+## Troubleshooting GitHub Sync
+
+If you're having issues with your GitHub integration and find your data isn't syncing to GitHub, please ensure that the following requirements are in place:
+
+* The GitHub integration has been added to the same workspace as the content you're trying to push to the GitHub repo.
+* The correct option has been chosen when setting up your integration and selecting __Backup your Postman Collections to GitHub__, for example if you're using a custom domain.
+* Your repo has been initialized with a `Readme.md` file. Check the box __Initialize this repository with a README__ and then configure a new integration on it.
+* The scopes `user` and `repo` are selected when creating the access token on GitHub.
+* The branch specified in the setup already exists on Github. _The integration will not create one if the branch doesn't exist._
+* You have permissions to push to the branch.
+* If all else fails, try reinstalling the integration.
+
+> If your enterprise version of GitHub is on-prem / self-hosted, this may be a firewall issue.

@@ -134,7 +134,7 @@ You can configure your preferences to enable automatic download for major update
 
 ## Troubleshooting your Postman installation
 
-If you encounter any issues installing and running Postman, check out the following tips—if these do not help, please refer to the installation posts on the [community forum](https://community.getpostman.com/tags/installation) and create a new post if your issue is not already covered.
+If you encounter any issues installing and running Postman, check out the following tips—if these do not help, please refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue is not already covered.
 
 ### Update failed error
 

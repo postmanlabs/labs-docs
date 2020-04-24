@@ -18,6 +18,14 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Gear4Music"
+    url: "https://www.postman.com/resources/case-studies/gear4music/"
+  - type: link
+    name: "Giant Machines"
+    url: "https://www.postman.com/resources/case-studies/giant-machines/"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Mock responses in Postman by using Examples"

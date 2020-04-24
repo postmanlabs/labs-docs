@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Monetary"
-    url: "https://www.postman.com/case-studies/monetary.pdf"
+    url: "https://www.postman.com/resources/case-studies/monetary/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -67,8 +67,6 @@ Postman Monitoring helps you to stay up to date on the health and performance of
 
     * [Accessible APIs](#accessible-apis)
 
-* [Monitor dashboard](#monitor-dashboard)
-
 * [Next steps](#next-steps)
 
 ## What is monitoring?
@@ -85,7 +83,19 @@ You can use Postman monitoring with any paid or free plan type.
 
 ### Usage limits
 
-You can find your account type's usage limits by referring to your [usage overview](https://go.pstmn.io/postman-account-limits).
+You can find your account type's monthly usage limits by referring to your [usage overview](https://go.pstmn.io/postman-account-limits).
+
+> Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring.
+>
+> These include the following limits:
+>
+> * Maximum number of active and paused monitors per team = 300
+> * Maximum parallel runs of multiple monitors = 500
+> * Maximum parallel runs of a single monitor = 200
+>
+> Postman will notify team admins via email if your team encounters these limits, as well as notify team members in the app or web dashboard.
+>
+> For assistance regarding these limits and to request changes, contact the [Postman support team](https://support.getpostman.com/).
 
 ### Overages
 
@@ -153,16 +163,6 @@ There are a few differences between running collections in a Postman monitor and
 ### Accessible APIs
 
 * Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
-
-## Monitor dashboard
-
-Each workspace has its own monitor dashboard, which you can navigate to by visiting your [web dashboard](https://go.postman.co/), selecting a workspace > **Monitors**.
-
-This dashboard provides a high-level overview of the monitors you have available in your workspace, including status, success rate, and average response time.
-
-[![monitoring dashboard](https://assets.postman.com/postman-docs/monitor-dashboard1.jpg)](https://assets.postman.com/postman-docs/monitor-dashboard.jpg)
-
-Hovering over a monitor in the list allows you to run it outside of its predetermined schedule by clicking **▶**. To pause, resume, edit, and delete monitors, select the **...** icon.
 
 ## Next steps
 

@@ -13,8 +13,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Coursera"
-    url: "https://www.postman.com/case-studies/Coursera.pdf"
+    name: "Gear4Music"
+    url: "https://www.postman.com/resources/case-studies/gear4music/"
+  - type: link
+    name: "Giant Machines"
+    url: "https://www.postman.com/resources/case-studies/giant-machines/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -103,11 +106,11 @@ Click the ellipsis **(...)** next to the workspace element you want to delete an
 
 Similarly, you can also delete elements from the [Workspaces dashboard](https://app.getpostman.com/dashboard) in the web view.
 
-**Note:** _Deleting_ an element is different than _removing_ it. When you delete an element, it is gone forever! When you remove an element, it will continue to exist in other workspaces to which it has already been added.
+**Note:** _Deleting_ an element is different from _removing_ it. When you delete an element, it will delete it from any workspace you shared it to, and the element is gone forever! When you remove an element, it will continue to exist in other workspaces to which it has already been added.
 
 ## Joining a workspace
 
-A user can join a workspace to work on collections, environments, monitors, mocks, and integrations. Let's see how.
+A user can join a workspace to work on collections, environments, monitors, mocks, and integrations.
 
 In the Postman app, click the workspace in the header bar to open the workspaces menu dropdown.
 
@@ -126,6 +129,14 @@ In the confirmation message, click the **Start Building** button to complete the
 Similarly, you can also join a workspace from the [Workspaces dashboard](https://app.getpostman.com/dashboard) by clicking the **Join** button next to the workspace that you wish to join.
 
 [![join by dashboard](https://assets.postman.com/postman-docs/dashboard-join.png)](https://assets.postman.com/postman-docs/dashboard-join.png)
+
+When you're a member of a workspace, you'll see avatars representing all of the members of that workspace at the top of the screen in the Postman app and on the Dashboard. You can hover over avatars to see individual workspace member names.
+
+<img alt="Active user" src="https://assets.postman.com/postman-docs/Beesly+active+member.jpg" width="400px"/>
+
+If there are more than three people who are part of the workspace, there will be a fourth avatar with a number representing the remaining members. You can click the numbered avatar to see a list of all workspace members.
+
+<img alt="Active user list" src="https://assets.postman.com/postman-docs/Active+members+Stanely+open+list+border.jpg" width="400px"/>
 
 ## Sharing a workspace
 

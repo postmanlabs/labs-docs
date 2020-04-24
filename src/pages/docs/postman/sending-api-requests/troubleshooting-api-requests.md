@@ -72,6 +72,8 @@ If you configure a very short timeout in Postman, the request might timeout befo
 
 If your server sends incorrect response encoding errors, or invalid headers, Postman will fail to interpret the response, causing the error above.
 
+> Postman supports TLS version 1.2 or higher, which [may not be supported if you are using an older browser or operating system](https://support.getpostman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
+
 If you still can't get your API working, help can frequently be found in the [Postman community](https://postmancommunity.slack.com) or [Stack Overflow](https://stackoverflow.com/questions/tagged/postman).
 
 If you've tried unsuccessfully troubleshooting the issue, search the [Postman issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow these [guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via the Postman [support center](https://support.getpostman.com/hc) and include the app’s [console logs](/docs/postman/sending-api-requests/debugging-and-logs/) in your report to provide some helpful data for troubleshooting.
