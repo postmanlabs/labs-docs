@@ -58,7 +58,7 @@ function () {
 }
 ```
 
-The the `env.create` action will return truth on success, false on failure.
+The `env.create` action will return truth on success, false on failure.
 
 ## Editing an existing environment
 
