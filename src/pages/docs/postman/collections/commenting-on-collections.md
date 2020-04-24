@@ -10,7 +10,7 @@ You can leave comments on collections and requests to collaborate with your team
 ## Contents
 
 * [Commenting on a collection](#commenting-on-a-collection)
-* [Commneting on a requets](#commenting-on-a-request)
+* [Commenting on a request](#commenting-on-a-request)
 * [Reading comments in the app and on the Dashboard](#reading-comments-in-the-app-and-on-the-dashboard)
 * [Editing comments](#editing-comments)
 * [Deleting comments](#deleting-comments)
