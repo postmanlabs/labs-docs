@@ -58,7 +58,7 @@ function () {
 }
 ```
 
-The `env.create` action will return truth on success, false on failure.
+The `env.create` action will return true on success, false on failure.
 
 ## Editing an existing environment
 
@@ -88,7 +88,7 @@ function () {
 }
 ```
 
-The `env.assign` action will return truth on success, false on failure.
+The `env.assign` action will return true on success, false on failure.
 
 ## Replacing an existing environment
 
@@ -114,7 +114,7 @@ Replace an environment:
 _pm('env.replace', 'user_data', {});
 ```
 
-The `env.replace` method will return truth on success, false on failure.
+The `env.replace` method will return true on success, false on failure.
 
 ## Using multiple buttons with separate environments
 
