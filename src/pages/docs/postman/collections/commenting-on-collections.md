@@ -15,7 +15,7 @@ You can leave comments on collections and requests to collaborate with your team
 * [Editing comments](#editing-comments)
 * [Deleting comments](#deleting-comments)
 * [Tagging members in comments](#tagging-members-in-comments)
-* [Markdown support](#markdown-support)
+* [Next steps](#next-steps)
 
 > The Postman app only supports comments on requests. To leave or read comments on a collection, open the [Postman Dashboard](https://app.getpostman.com) in your web browser.
 
@@ -81,7 +81,7 @@ You can make changes to comments you've already posted. Other team members canno
 
 ## Deleting comments
 
-1. In the Postman app or dashboard, find the collection with the comment you want to delete.
+1. In the Postman app or Dashboard, find the collection with the comment you want to delete.
 2. Open the comment and click **Comments** > **Delete**.
 
 ![Delete comment](https://assets.postman.com/postman-docs/Deleting+comments+in+Postman.jpg)
