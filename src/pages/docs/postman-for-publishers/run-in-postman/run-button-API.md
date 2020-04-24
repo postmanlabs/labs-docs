@@ -16,13 +16,9 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/scripts/intro_to_scripts"
 ---
 
-The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior and affect environments included in your button. Write your functions in the button's script in your website's source code to do any of the following:
+The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior and affect [environments](/docs/postman/collection-runs/using-environments-in-collection-runs/) included in your button.
 
-* Create a new environment
-* Modify an existing environment
-* Replace an environment
-
-> Learn more about more about [environments and variables](/docs/postman/collection-runs/using-environments-in-collection-runs/) in Postman.
+> If `segregateEnvironments` is enabled, you will have to use `runButtonIndex` in all pm() methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Because `segregateEnvironments` is disabled by default, `runButtonIndex` is optional by default.
 
 ## Contents
 
