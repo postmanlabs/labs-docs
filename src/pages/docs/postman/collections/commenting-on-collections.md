@@ -92,7 +92,7 @@ You can make changes to comments you've already posted. Other team members canno
 
 When you leave feedback or a question for a specific teammate, you can let them know by tagging them in your comment.
 
-1. In the Postman app or dashboard, open the collection or request you want to leave your comment on.
+1. In the Postman app or Dashboard, open the collection or request you want to leave your comment on.
 2. Click **Comments** and write your message.
 3. To tag your teammate, type "@" and choose their name from the list.
 4. Click **Add comment**.
