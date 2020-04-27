@@ -52,7 +52,7 @@ Make sure everyone who uses Postman has the latest version by downloading it fro
 
 ### Invite Team Members
 
-Depending on the size of you team you can send invites to your team now or check your setup with a few volunteers before you rollout Postman to your entre organization.
+Depending on the size of you team you can send invites to your team now or [Check Your Setup](#check-your-setup) with a few volunteers before you rollout Postman to your entre organization.
 
 Either way, you can add your teammates from your [team dashboard](https://go.postman.co/team) or by generating a shareable link or inviting them through a direct email. You can find out how to do that in [Managing Your Team](/docs/postman/collaboration/managing-your-team/#inviting-to-a-team) on the Learning Center.
 
