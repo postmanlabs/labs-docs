@@ -166,12 +166,12 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
 
 * **MacOS/Linux**:
 
-      * **[MacOS-only]**Node(>v6.0.0) should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
-      * Install bridge for [MacOS](https://go.pstmn.io/interceptor-bridge-macos)/[Linux](https://go.pstmn.io/interceptor-bridge-linux).
-      * Run the script ``install_host.sh``.
-      * After executing the script check the following items:
-          1. Verify  `InterceptorBridge` file exists in this path ``$HOME/.postman``.
-          2. Verify the manifest file ``com.postman.postmanapp.json`` is present at `~/Library/ApplicationSupport/Google/Chrome/NativeMessagingHosts` for MacOs or `~/.config/google-chrome/NativeMessagingHosts` for Linux. Check that it has the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo``, and the correct path ``$HOME/.postman`` to the executable file `InterceptorBridge`.
+    * **[MacOS-only]**Node(>v6.0.0) should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
+    * Install bridge for [MacOS](https://go.pstmn.io/interceptor-bridge-macos)/[Linux](https://go.pstmn.io/interceptor-bridge-linux).
+    * Run the script ``install_host.sh``.
+    * After executing the script check the following items:
+        1. Verify  `InterceptorBridge` file exists in this path ``$HOME/.postman``.
+        2. Verify the manifest file ``com.postman.postmanapp.json`` is present at `~/Library/ApplicationSupport/Google/Chrome/NativeMessagingHosts` for MacOs or `~/.config/google-chrome/NativeMessagingHosts` for Linux. Check that it has the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo``, and the correct path ``$HOME/.postman`` to the executable file `InterceptorBridge`.
 
 * **Windows**:
 
