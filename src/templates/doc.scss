@@ -82,6 +82,7 @@ thead:first-child:hover tr{
 */
 :not(pre) > code[class*="language-"] {
   font-family: monospace !important;
+  background-color: white !important;
 }
 
 .gatsby-highlight {
@@ -91,8 +92,9 @@ thead:first-child:hover tr{
   padding: 1em;
   overflow: auto;
   border-left: 0.5em solid $postman-orange;
-  // white-space: pre-wrap;
-  // word-break: break-word !important;
+  white-space: pre-wrap;
+    word-break: break-word;
+  // max-width: 600px;
 
   code[class*="language-"],
   .token.comment, 
@@ -113,6 +115,7 @@ thead:first-child:hover tr{
     font-family: monospace !important;
     white-space: pre-wrap;
     word-break: break-word;
+    
   }
 
   /**
@@ -130,6 +133,8 @@ thead:first-child:hover tr{
     overflow: initial;
     float: left;
     min-width: calc(100% - 3em);
+    white-space: pre-wrap;
+    word-break: break-word;
 
     // &.line-numbers {
     //   padding-left: 3em;
