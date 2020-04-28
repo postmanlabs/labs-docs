@@ -166,7 +166,7 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
 
 * **MacOS/Linux**:
 
-    * **[MacOS-only]**Node(>v6.0.0) should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
+    * **[MacOS-only]** Node(>v6.0.0) should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
     * Install bridge for [MacOS](https://go.pstmn.io/interceptor-bridge-macos)/[Linux](https://go.pstmn.io/interceptor-bridge-linux).
     * Run the script ``install_host.sh``.
     * After executing the script, check the following items:
