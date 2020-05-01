@@ -69,6 +69,21 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [
+          {
+            family: 'Roboto',
+            variants: ['400', '500'],
+          },
+          {
+            family: 'Open Sans',
+            variants: ['400', '700'],
+          },
+        ],
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-meta-redirect',
     'gatsby-plugin-sass',
@@ -100,6 +115,13 @@ module.exports = {
             policy: [{ userAgent: '*', allow: '/' }],
           },
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-sri',
+      options: {
+        hash: 'sha512', // 'sha256', 'sha384' or 'sha512' ('sha512' = default)
+        crossorigin: false, // Optional
       },
     },
   ],

@@ -23,7 +23,7 @@ A collection is linked to an API if you [generate it from a schema](/docs/postma
 
 Postman will validate a request when it is sent. If issues are found, you will see a warning message showing the number of issues next to the name of the request.
 
-[![validating request](https://user-images.githubusercontent.com/5029719/72162009-11462f00-33b9-11ea-9038-82ecfacbab9e.gif)](https://user-images.githubusercontent.com/5029719/72162009-11462f00-33b9-11ea-9038-82ecfacbab9e.gif)
+[![validating request](https://assets.postman.com/postman-docs/validatingrequest.gif)](https://assets.postman.com/postman-docs/validatingrequest.gif)
 
 > Validation is version-specific, and will be performed against the schema of the particular version of the API linked with the collection. If one version of a collection is linked to more than one version of an API, Postman will select the schema from the latest created version of API for validation.
 
@@ -35,7 +35,7 @@ You can access more information about issues [within the Postman App](#accessing
 
 To access more information about the issues, click the warning message next to the name of the request (e.g. **1 issue**). This will open a side-panel on the right indicating detailed information about which component of the request is affected and what the issue itself is.
 
-[![viewing issues](https://user-images.githubusercontent.com/5029719/72162679-4ef78780-33ba-11ea-9d43-45e03c426c42.gif)](https://user-images.githubusercontent.com/5029719/72162679-4ef78780-33ba-11ea-9d43-45e03c426c42.gif)
+[![viewing issues](https://assets.postman.com/postman-docs/viewingissues.gif)](https://assets.postman.com/postman-docs/viewingissues.gif)
 
 ### Understanding the issue summary
 
@@ -46,7 +46,7 @@ The **Schema validation** panel displays the following resources:
 
 > You can click a specific issue to access the relevant request component.  
 
-[![viewing issues](https://user-images.githubusercontent.com/5029719/72166142-a0a31080-33c0-11ea-8fab-7d64f9ae1dbd.gif)](https://user-images.githubusercontent.com/5029719/72166142-a0a31080-33c0-11ea-8fab-7d64f9ae1dbd.gif)
+[![viewing issues](https://assets.postman.com/postman-docs/viewingissues2.gif)](https://assets.postman.com/postman-docs/viewingissues2.gif)
 
 ## List of possible issues
 

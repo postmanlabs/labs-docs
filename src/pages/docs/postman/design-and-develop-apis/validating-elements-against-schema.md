@@ -47,7 +47,7 @@ For validations to execute, you need the following elements in place:
 
 When you add a new element to an API, Postman will automatically check it against the current API schema. The results of the validation will appear next to the element.
 
-[![add new element validation](https://user-images.githubusercontent.com/5029719/72074589-1b4d2c80-32ea-11ea-8d87-2f06a11e2ca1.gif)](https://user-images.githubusercontent.com/5029719/72074589-1b4d2c80-32ea-11ea-8d87-2f06a11e2ca1.gif)
+[![add new element validation](https://assets.postman.com/postman-docs/addnewelementvalidation.gif)](https://assets.postman.com/postman-docs/addnewelementvalidation.gif)
 
 You can also trigger a new validation of your element manually in the following cases:
 
@@ -56,7 +56,7 @@ You can also trigger a new validation of your element manually in the following 
 
 You can do so by navigating to your element (eg. **Test Suite**), clicking the validation status, then **Validate Again**.
 
-[![re validating element](https://user-images.githubusercontent.com/5029719/72075557-eb068d80-32eb-11ea-8845-96b1afa3ed8e.gif)](https://user-images.githubusercontent.com/5029719/72075557-eb068d80-32eb-11ea-8845-96b1afa3ed8e.gif)
+[![re validating element](https://assets.postman.com/postman-docs/revalidatingelement.gif)](https://assets.postman.com/postman-docs/WS-certificates.gif)
 
 You can also trigger a validation from the issues list by clicking **Validate again** at the top-right of the page.
 
@@ -70,7 +70,7 @@ Navigate to your API by clicking **APIs** in the app sidebar, then select your A
 
 You will see a status indicating whether issues have been found during validation next to the element. If there are issues, view them by clicking **Issues found** > **View issues**. This will take you to a page on the [web dashboard](https://app.getpostman.com/dashboard) summarizing validation issues.
 
-[![open list of issues app](https://user-images.githubusercontent.com/5029719/72078733-8e0dd600-32f1-11ea-8947-73d302d29704.gif)](https://user-images.githubusercontent.com/5029719/72078733-8e0dd600-32f1-11ea-8947-73d302d29704.gif)
+[![open list of issues app](https://assets.postman.com/postman-docs/openlistofissuesapp.gif)](https://assets.postman.com/postman-docs/openlistofissuesapp.gif)
 
 ### Accessing the issue summary from the web dashboard
 
@@ -78,7 +78,7 @@ You can access the summary of validation issues from the [web dashboard](https:/
 
 You will see a status indicating whether any issues have been found during validation next to the element. If there are issues, you can display them by hovering over **Issues found**, then clicking **View issues**. This will redirect you to a page summarizing the issues.
 
-[![open list of issues dashboard](https://user-images.githubusercontent.com/5029719/72079607-28224e00-32f3-11ea-956d-99d0087b03fb.gif)](https://user-images.githubusercontent.com/5029719/72079607-28224e00-32f3-11ea-956d-99d0087b03fb.gif)
+[![open list of issues dashboard](https://assets.postman.com/postman-docs/openlistofissuesdashboard.gif)](https://assets.postman.com/postman-docs/openlistofissuesdashboard.gif)
 
 ### Understanding the issue summary
 
@@ -86,11 +86,11 @@ The validation summary lists all endpoints in your API element, regardless of wh
 
 If an endpoint has been successfully validated against the API schema, you will see a green checkmark with a message indicating `Validated against PATH`.
 
-<img alt="endpoint validated" src="https://user-images.githubusercontent.com/5029719/72102453-f32bf080-331e-11ea-8e7e-7ce7f99b1e53.png" width="300px"/>
+<img alt="endpoint validated" src="https://assets.postman.com/postman-docs/endpointvalidate.png" width="300px"/>
 
 If an endpoint exists in the API element but isn't described in the API schema, you will see a red cross along with a message indicating `Unable to validate. No matching path found in schema`.
 
-<img alt="endpoint not found in schema" src="https://user-images.githubusercontent.com/5029719/72102493-0b9c0b00-331f-11ea-828f-e8a237c5b4f2.png" width="300px"/>
+<img alt="endpoint not found in schema" src="https://assets.postman.com/postman-docs/endpointnotfoundinschema.png" width="300px"/>
 
 If syncing issues are found between the API element and the API schema, the validation summary will outline them under one of the following categories:
 
@@ -103,7 +103,7 @@ If syncing issues are found between the API element and the API schema, the vali
 
 Check out the [complete list of possible issues](#list-of-possible-issues).
 
-<img alt="endpoint has syncing issue" src="https://user-images.githubusercontent.com/5029719/72102817-c75d3a80-331f-11ea-9045-50d54a5d6690.png" width="400px"/>
+<img alt="endpoint has syncing issue" src="https://assets.postman.com/postman-docs/endpointhassyncingissue.png" width="400px"/>
 
 > You can collapse or expand the list of issues by clicking the grey arrow at the top-right of the list.
 

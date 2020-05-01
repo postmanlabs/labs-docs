@@ -14,7 +14,7 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Why we became big believers in APIMatic’s API transformer"
+    name: "Why we became big believers in APIMatic's API transformer"
     url: "https://blog.postman.com/2017/02/15/new-postman-pro-integration-apimatics-api-transformer/"
 
 ---
@@ -29,35 +29,36 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
 
 ## Configuring APIMatic Integration
 
-1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select APIMatic from the list of third party integrations.
+In the [web dashboard](https://go.postman.co/workspaces), navigate to your workspace, choose **Integrations** &gt; **Browse Integrations**, and select **APIMatic** from the list of third party integrations.
 
-    [![select apimatic](https://assets.postman.com/postman-docs/integrations_APImatic.png)](https://assets.postman.com/postman-docs/integrations_APImatic.png)
+<img alt="select apimatic" src="https://assets.postman.com/postman-docs/integrations_APImatic.png" width="200px"/>
 
-2. Click **View Details** to see information about APIMatic and how the Postman to APIMatic integration converts, formats, and saves your Postman collections to Github.
+Click **View Details** for more information on how the Postman to APIMatic integration converts, formats, and saves your collections to GitHub.
 
-   You can also click **Configured Integrations** to set up other integrations, view available integrations for APIMatic, or view all integrations.
+[![APIMatic Integration](https://assets.postman.com/postman-docs/apimatic-integration-overview.jpg)](https://assets.postman.com/postman-docs/apimatic-integration-overview.jpg)
 
-    [![configured integrations](https://assets.postman.com/postman-docs/WS-integrations-apimatic-conf-integr.png)](https://assets.postman.com/postman-docs/WS-integrations-apimatic-conf-integr.png)
+> You can alternatively click **Configured Integrations** to access any existing integrations.
 
-3. Click the **Add Integration** button to authorize a periodic backup of your collection to your Github repository.
+Click the **Add Integration** button to authorize a periodic backup of your collection to your GitHub repository.
 
-    [![backup_github](https://assets.postman.com/postman-docs/WS-integrations_APImatic_backup_Github2.png)](https://assets.postman.com/postman-docs/WS-integrations_APImatic_backup_Github2.png)
+[![Authorize APIMatic](https://assets.postman.com/postman-docs/authorize-apimatic-integration.jpg)](https://assets.postman.com/postman-docs/authorize-apimatic-integration.jpg)
 
-    > If you are not signed in to Github, a Github login box appears. Enter your Github username and password, and click **Sign in**.
+Click **Authorize** to allow the backup to GitHub.
 
-4. Click **Authorize** to summon the authorization page, which lets you configure the backup to Github.
+> If you are not signed in to GitHub, you will be prompted to log in.
 
-    [![github apimatic](https://assets.postman.com/postman-docs/WS-integrations-github-authorized1-a.png)](https://assets.postman.com/postman-docs/WS-integrations-github-authorized1-a.png)
+[![github apimatic](https://assets.postman.com/postman-docs/apimatic-integration-config.jpg)](https://assets.postman.com/postman-docs/WS-integrations-github-authorized1-a.png)
 
-5. To back up a collection periodically to a Github repository:
+To back up a collection periodically to a GitHub repository:
 
-   * Select a collection.
-   * Select a repository.
-   * Specify a directory in the repository where you want to add the collection.
-   * Enter a filename for the directory in the repository.
-   * Select the format in which you want to save the collection, such as Postman 2.0 or APIMatic format.
-   * Specify the branch where you want to add the collection.
+* Enter your [API key from APIMatic](https://docs.apimatic.io/getting-started/manage-apis/#view-api-integration-keys).
+* Select a collection.
+* Select a repository.
+* Specify a directory in the repository where you want to add the collection.
+* Enter a filename for the directory in the repository.
+* Select the format in which you want to save the collection, such as Postman 2.0 or APIMatic format.
+* Specify the branch where you want to add the collection. _Note that the branch you want to back up your collection to must already exist._
 
-6. Click the **Add Integration** button.
+Click **Add Integration**.
 
-   APIMatic converts the collection’s documentation to your format of choice and pushes to your GitHub repository.  Now your Postman collection automatically saves to your GitHub repo every day, in whatever API description format you selected.  API format compatibility is moments away.
+APIMatic converts your collection documentation to the format of your choice and pushes it to your GitHub repository. Your Postman collection will automatically save to your GitHub repo every day, in the API description format you selected.

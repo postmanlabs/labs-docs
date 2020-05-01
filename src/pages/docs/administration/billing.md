@@ -43,6 +43,8 @@ Postman provides a self-serve billing process. Refer to the following sections f
 
     * [Changing your plan](#changing-your-plan)
 
+    * [Setting instructions for next billing cycle](#setting-instructions-for-next-billing-cycle)
+
     * [Changing billing cycle](#changing-billing-cycle)
 
     * [Purchasing monitoring blocks](#purchasing-monitoring-blocks)
@@ -97,7 +99,7 @@ To set a card as default, hover over the card and **Set as Default**.
 
 To add or edit the information on an invoice, navigate to your [billing dashboard](http://go.postman.co/billing) and select **Invoices** > **Edit Invoice Details** > **Billing Details**.
 
-Add or update your billing email, company name, address, and (if applicable) VAT ID, then **Save Changes**. All future [invoices](http://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, [submit a request](https://support.getpostman.com/hc/en-us).
+Add or update your billing email, company name, address, and (if applicable) VAT ID, then **Save Changes**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, [submit a request](https://support.getpostman.com/hc/en-us).
 
 [![billing details](https://assets.postman.com/postman-docs/billing-details.jpg)](https://assets.postman.com/postman-docs/billing-details.jpg)
 
@@ -120,6 +122,16 @@ You can change your team's plan and billing cycle in the [billing dashboard](htt
 To change your plan, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
 
 [![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
+
+### Setting instructions for next billing cycle
+
+You can set instructions to determine what will happen at the end of your current billing cycle. To do so, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Set instructions for next billing cycle**.
+
+You can view your current plan and opt to **Edit Standing Instructions**. Select your desired option from the drop-down, then click **Proceed** and confirm your changes.
+
+[![set instructions next cycle](https://assets.postman.com/postman-docs/set-billing-instructions.jpg)](https://assets.postman.com/postman-docs/set-billing-instructions.jpg)
+
+> You can change your standing instructions at any time before the end of your current billing cycle.
 
 ### Changing billing cycle
 

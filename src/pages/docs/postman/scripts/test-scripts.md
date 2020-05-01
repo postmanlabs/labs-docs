@@ -15,6 +15,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "iQmetrix"
+    url: "https://www.postman.com/resources/case-studies/iqmetrix/"
+  - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman: Writing API tests"

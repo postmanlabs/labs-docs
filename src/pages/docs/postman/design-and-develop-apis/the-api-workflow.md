@@ -17,7 +17,7 @@ contextual_links:
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
   - type: link
-    name: "What does “Max # of APIs” mean in Postman?"
+    name: "What does 'Max # of APIs' mean in Postman?"
     url: "https://blog.postman.com/2020/01/24/what-does-max-of-apis-mean-in-postman/"
   - type: section
     name: "Next Steps"
@@ -34,8 +34,7 @@ You can connect various components of your API development and testing process t
 
 * [Creating an API](#creating-an-api)
 * [Defining an API](#defining-an-api)
-    * [Creating a new schema](#creating-a-new-schema)
-    * [Importing a schema](#importing-a-schema)
+    * [Editing your schema](#editing-your-schema)
     * [Generating a collection](#generating-a-collection)
 * [Developing an API](#developing-an-api)
     * [Adding a mock server](#adding-a-mock-server)
@@ -50,51 +49,50 @@ You can connect various components of your API development and testing process t
 
 To access the API Builder, open __APIs__ from the left sidebar in the Postman app. You can open and edit any existing APIs from here—Postman will automatically open the most recent version of an API by default.
 
+> If it is your first time using the API Builder, you can take a tour of its features by clicking **Start** from the **API** tab or from the **Create new API** modal.
+
 <img alt="Create API" src="https://assets.postman.com/postman-docs/create-new-api-v7.png" width="250px"/>
 
 Click __Create an API__ or __+ New API__—_you will need to be signed into your Postman account_.
 
 ![New API](https://assets.postman.com/postman-docs/untitled-api-created-v7.jpg)
 
-Enter a name and a version, then select a schema type and format for your API. You can optionally import an API schema directly at this stage. You can rename, delete, or remove the API from the workspace using the __View more actions__ (__...__) menu in the left sidebar.
+Enter a name and a version, then select a schema type and format for your API. You can optionally import an API specification directly at this stage—if you don't, Postman will populate your API with a sample specification you can edit at any time.
+
+<img alt="New API" src="https://assets.postman.com/postman-docs/api-next-steps.jpg" width="300px"/>
+
+> Postman currently supports OpenAPI (versions 1.0, 2.0, and 3.0), RAML (0.8 and 1.0), and GraphQL. Your schema can be defined in JSON, YAML, XML, or GraphQL SDL. Multi-file variants of schemas are currently not supported.
+
+You can rename, delete, or remove the API from the workspace using the __View more actions__ (__...__) menu in the left sidebar.
 
 > When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted / removed.
 
 <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-edit-options.jpg" width="250px"/>
 
-> You can also create APIs from your workspaces dashboard in your web browser by navigating to __APIs__ and clicking __Create an API__.
+> You can create APIs from your workspaces dashboard in the web browser by navigating to __APIs__ and clicking __Create an API__.
 
 You can also [version your APIs](/docs/postman/design-and-develop-apis/versioning-an-api/).
 
 ## Defining an API
 
-You can define the structure of your API by creating a new schema or importing it from an existing file you can continue editing. You can also generate a collection from the schema.
+You can define the structure of your API using its specification. You can also generate a collection from a spec.
 
-* [Creating a new schema](#creating-a-new-schema)
-* [Importing a schema](#importing-a-schema)
+* [Editing your schema](#editing-your-schema)
 * [Generating a collection](#generating-a-collection)
 
 > You can also [sync an API spec from a GitHub repository](/docs/integrations/github/#syncing-your-api-schemas-on-github).
 
-### Creating a new schema
+### Editing your schema
 
-To create a new schema, click **Add Schema** and select **Create New**. The schema editor will open with default options selected.
+The __Define__ tab in your API will include a specification (either one you imported or a sample Postman added when you created the API).
 
-![New Schema](https://assets.postman.com/postman-docs/new-schema.jpg)
+![Imported Schema](https://assets.postman.com/postman-docs/sample-api-spec.jpg)
 
 The default schema format is Open API 3.0, with JSON as the default language. To use a different schema type or language, choose it from the dropdown list.
 
 The schema editor provides options to beautify the content, wrap text, copy, and search. When you finish editing your schema, click **Save**.
 
 ![Save Schema](https://assets.postman.com/postman-docs/schema-save.jpg)
-
-### Importing a schema
-
-To import an existing schema from a file, click **Add Schema**, choose **Import file**, and select the file. You can then edit the schema and save your changes.
-
-Postman currently supports OpenAPI (versions 1.0, 2.0, and 3.0), RAML (0.8 and 1.0), and GraphQL. Your schema can be defined in JSON, YAML, XML, or GraphQL SDL.
-
-> Multi-file variants of schemas are currently not supported.
 
 ### Generating a collection
 
@@ -155,7 +153,7 @@ You can edit existing mock servers from an **API** by opening the **Develop** ta
 
 Your [mock will open for editing](/docs/postman/mock-servers/setting-up-mock/#editing-mock-servers) in the Postman web dashboard.
 
-[![api edit mock web](https://user-images.githubusercontent.com/5029719/71361434-410cce80-2593-11ea-995d-68fdd27a282e.png)](https://user-images.githubusercontent.com/5029719/71361434-410cce80-2593-11ea-995d-68fdd27a282e.png)
+[![api edit mock web](https://assets.postman.com/postman-docs/editmockserver.png)](https://assets.postman.com/postman-docs/editmockserver.png)
 
 You can also copy the URL of your mock server directly to your clipboard by clicking **Copy URL**.
 
@@ -258,4 +256,4 @@ For more information on building your APIs in Postman, check out the following r
 * [Versioning APIs](/docs/postman/design-and-develop-apis/versioning-an-api/)
 * [Managing and sharing APIs](/docs/postman/design-and-develop-apis/managing-apis/)
 * [Viewing and analyzing APIs](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/)
-* [Validating elemenst against schema](/docs/postman/design-and-develop-apis/validating-elements-against-schema/)
+* [Validating elements against schema](/docs/postman/design-and-develop-apis/validating-elements-against-schema/)
