@@ -37,9 +37,7 @@ contextual_links:
 
 ---
 
-You can use The Run in Postman button to [share your Postman Collections](/docs/postman/collections/sharing-collections/) and connect Postman directly to your API documentation or website.
-
-The button imports and opens a copy of your collection of API endpoints directly in the user’s Postman app. Embed the button on your website and give your users direct access to your Postman Collection.
+You can embed The Run in Postman button in your website to [share your Postman Collections](/docs/postman/collections/sharing-collections/) with developers. The button imports a copy of your collection directly into the user’s Postman app.
 
 > The Run in Postman button also works with API description formats like Swagger and RAML. To create a button for the framework you use, convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
 
@@ -62,7 +60,7 @@ The button imports and opens a copy of your collection of API endpoints directly
    * **Static button**: This button uses Markdown.
 6. You can include an environment that will import along with your collection. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
 7. Click **Copy to clipboard**.
-8. Embed the code where you'd like the button displayed, like your website or GitHub README.
+8. Embed the code where you'd like the button to be displayed.
 
 ![Create a button](https://assets.postman.com/postman-docs/Creating+RIP+button+gif.gif)
 
@@ -89,7 +87,7 @@ Your embed code will include your collection's ID. In the examples below, `:coll
 When you make changes to a collection that's connected to a Run in Postman button, you'll need to manually update the button's collection link so that your users are importing the most recent version of your collection.
 
 1. In the Postman app, open the collection with the button you need to update.
-2. Next to the collection name, click the ellipsis **(...)** > **Share**. A dialog will pop up.
+2. Next to the collection name, click the ellipsis **(...)** > **Share**.
 3. At the top of the dialog, click **Embed** > **Update link**.
 
 [![Embed button](https://assets.postman.com/postman-docs/59020943.png)](https://assets.postman.com/postman-docs/59020943.png)
