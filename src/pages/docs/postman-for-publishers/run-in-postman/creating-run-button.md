@@ -60,7 +60,7 @@ You can use The Run in Postman button to [share your Postman Collections](/docs
    * **Static button**: This button uses Markdown.
 6. You can include an environment that will import along with your collection. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
 7. Click **Copy to clipboard**.
-8. Embed the code where you'd like the button to be displayed.
+8. Embed the code where you would like the button to be displayed.
 
 ![Create a button](https://assets.postman.com/postman-docs/Creating+RIP+button+gif.gif)
 
