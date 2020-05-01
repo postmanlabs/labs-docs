@@ -105,7 +105,7 @@ You can create a monitor with a POST request to the Postman API. Visit the [API 
 
 You will need to give your new monitor a name and designate the collection you would like it to run, as well as the version. You can also add an environment here if you would like your monitor to use one.
 
-[![create monitor](https://assets.postman.com/postman-docs/setting-up-a-monitor.jpg)](https://assets.postman.com/postman-docs/setting-up-a-monitor.jpg)
+![Create monitor page](https://assets.postman.com/postman-docs/create-monitor-1.jpg)
 
 > Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/postman/monitors/intro-monitors/#usage-limits).
 
@@ -139,9 +139,9 @@ You will receive daily and weekly summaries of your active monitors in the app a
 
 You can opt out of daily and/or weekly summaries by navigating to your [web dashboard](https://app.getpostman.com/), selecting your avatar in the upper-right corner, and clicking **Notification Preferences**.
 
-When creating a monitor, you can choose to receive email notifications for run failures and errors and define up to five recipients under **Show Additional Preferences**.
+When creating or editing a monitor, you can choose to receive email notifications for run failures and errors under **Show Additional Preferences**. You can define up to five recipients and configure when you would like to stop failure notifications for consecutive run failures.
 
-> You'll be notified of run failures up to three consecutive times. After three, Postman will wait until your run succeeds to notify you.
+> Once the number of consecutive failures exceeds your defined notification limit, Postman will wait until your run succeeds to notify you. By default this limit is three.
 
 You can find detailed information on your monitor results by navigating to your [web dashboard](https://go.postman.co/), selecting a workspace > **Monitors**.
 

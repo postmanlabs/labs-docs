@@ -16,88 +16,129 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/scripts/intro_to_scripts"
 ---
 
-The JavaScript Run in Postman button exposes an API via the `_pm()` method. These API methods allow you to dynamically alter button behavior. Note that the `_pm()` API is not available for the static version of the Run in Postman button.
+The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior and affect [environments](/docs/postman/collection-runs/using-environments-in-collection-runs/) included in your button.
 
-### Creating a new environment
+> If `segregateEnvironments` is enabled, you will have to use `runButtonIndex` in all pm() methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Because `segregateEnvironments` is disabled by default, `runButtonIndex` is optional by default.
 
-A new environment can be dynamically created using the `env.create` method:
+## Contents
 
-```javascript
-_pm('env.create', 'environment_name', {key: value});
-```
+* [Creating a new environment](#creating-a-new-environment)
 
-For example, if you need to create a new environment using API keys entered by your user, you can do something like this when the Run in Postman button is clicked:
+* [Editing an existing environment](#editing-an-existing-environment)
 
-```javascript
-function () {
-  var stagingKey = document.getElementById('staging-key-input').value,
-    productionKey = document.getElementById('production-key-input').value,
-    envData = {
-      stagingKey: stagingKey,
-      productionKey: productionKey
-    };
+* [Replacing an existing environment](#replacing-an-existing-environment)
 
-  _pm('env.create', 'API Keys', envData);
-}
-```
+* [Using multiple buttons](#using-multiple-buttons)
 
-Note:
+* [Next steps](#next-steps)
 
-* The `env.create` action will return truth on success, false on failure.
-* `env.create` cannot be used to create duplicate environments. Subsequent calls with an existing environment name will fail.
+## Creating a new environment
 
-### Editing an existing environment
-
-An environment which was included in the Run Button embed code or created with `env.create` can be modified using the `env.assign` method:
+Use the `env.create` method to create a new environment:
 
 ```javascript
-_pm('env.assign', 'environment_name', {key: new_value, new_key: value})
+_pm('env.create', 'environment_name', {key: value}, runButtonIndex);
 ```
 
-For example, if you need to update the `API Keys` environment created in the last example:
+> `env.create` cannot be used to create duplicate environments. Calls made with existing environment names will fail.  
+
+Create a new environment using API keys entered by your user:
 
 ```javascript
 function () {
   var stagingKey = document.getElementById('staging-key-input').value,
     productionKey = document.getElementById('production-key-input').value,
+    runButtonIndex = 0,
     envData = {
       stagingKey: stagingKey,
       productionKey: productionKey
     };
 
-  _pm('env.assign', 'API Keys', envData);
+  _pm('env.create', 'API Keys', envData, runButtonIndex);
 }
 ```
 
-Note:
+The `env.create` action will return true on success, false on failure.
 
-* The `env.assign` action will return truth on success, false on failure.
-* `env.assign` cannot be used to create new environments. Calls to `_pm` using `env.assign` will fail if the environment doesn’t already exist.
-* `env.assign` will allow assignment to environments created using `env.create` and inline environments from the button embed code.
+## Editing an existing environment
 
-### Replacing an existing environment
-
-An entire environment can be replaced using the `env.replace` method.
+Use the `env.assign` method to modify an environment:
 
 ```javascript
-_pm('env.replace', 'environment_name', {key: value})
+_pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventDefault, runButtonIndex)
 ```
 
-For example, if you have the following environment and you need to replace it:
+> The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added using the `env.create` method.
+> `env.assign` cannot be used to create new environments. Calls made using `env.assign` will fail if an environment does not already exist.
+
+Update an environment's API keys:
+
+```javascript
+function () {
+  var stagingKey = document.getElementById('staging-key-input').value,
+    productionKey = document.getElementById('production-key-input').value,
+    preventOveride = true;
+    runButtonIndex = 0,
+    envData = {
+      stagingKey: stagingKey,
+      productionKey: productionKey
+    };
+
+  _pm('env.assign', 'API Keys', envData, preventOveride, runButtonIndex);
+}
+```
+
+The `env.assign` action will return true on success, false on failure.
+
+## Replacing an existing environment
+
+Use the `env.replace` method to replace an entire environment:
+
+```javascript
+_pm('env.replace', 'environment_name', {key: value}, runButtonIndex)
+```
+
+> `env.replace` cannot be used to replace an environment which does not exist.
+
+Replace an environment:
 
 ```javascript
 // Existing environment named 'user_data'
-// {
-//   auth_token: 'q4yugoiwqu4hlrjksfdm3897ryq3891s',
-//   user_id: '823',
-//   session_data: {}
-// }
+{
+   auth_token: 'q4yugoiwqu4habddef3897ryq3891s',
+   user_id: '823',
+   session_data: {}
+}
 
 // Replace the 'user_data' environment
 _pm('env.replace', 'user_data', {});
 ```
 
-Note:
+The `env.replace` method will return true on success, false on failure.
 
-* The `env.replace` method will return truth on success, false on failure.
-* `env.replace` cannot be used to replace an environment which does not exist.
+## Using multiple buttons with separate environments
+
+You can embed multiple buttons on a single page. If you want to include a different environment in each button, enable the `segregateEnvironments` property.
+
+```javascript
+_pm('_property.set', 'segregateEnvironments', true);
+```
+
+### Including the index
+
+If `segregateEnvironments` is enabled, you'll have to use `runButtonIndex` in all pm() methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). The `runButtonIndex` is represented by an integer.
+
+```javascript
+var runButtons = Array.prototype.slice.call(document.getElementsByClassName('postman-run-button')),
+  runButtonIndex = runButtons.indexOf(elem);
+```
+
+### Using the index for jQuery
+
+```javascript
+var runButtonIndex = $('postman-run-button').index(elem);
+```
+
+## Next steps
+
+Learn how to [create API documentation](/docs/postman/api-documentation/documenting-your-api/) from Postman, and then add your documentation to Postman's [API Network](/docs/postman-for-publishers/api-network/add-api-network/).
