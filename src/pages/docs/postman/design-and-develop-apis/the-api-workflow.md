@@ -28,7 +28,7 @@ contextual_links:
 
 You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of the Postman app, your specification can act as the single source of truth for your API project. The API Builder supports API-first development by allowing you to generate collections from your schema and build your development and testing from there.
 
-<img alt="API Builder" src="https://assets.postman.com/postman-docs/api-builder.jpg" width="500px"/>
+<img alt="API Builder" src="https://assets.postman.com/postman-docs/api-builder-overview.jpg" width="500px"/>
 
 You can connect various components of your API development and testing process to your schema, such as collections, documentation, tests, mocks, and monitors. You can also version your APIs in Postman and connect elements to specific versions.
 
@@ -67,7 +67,7 @@ You can rename, delete, or remove the API from the workspace using the __View mo
 
 > When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted / removed.
 
-<img alt="Edit API" src="https://assets.postman.com/postman-docs/api-edit-options.jpg" width="250px"/>
+<img alt="Edit API" src="https://assets.postman.com/postman-docs/api-builder-edit-api.jpg" width="250px"/>
 
 > You can create APIs from your workspaces dashboard in the web browser by navigating to __APIs__ and clicking __Create an API__.
 
@@ -98,11 +98,11 @@ The schema editor provides options to beautify the content, wrap text, copy, and
 
 The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see the **Generate Collection** option:
 
-![Schema Editor Options](https://assets.postman.com/postman-docs/schema-editor-options.jpg)
+![Schema Editor Options](https://assets.postman.com/postman-docs/api-builder-generate-collection.jpg)
 
 To create a collection based on your schema, click **Generate Collection**. You can add the collection as documentation, a test suite, an integration test, a monitor, a mock server, or a contract test. The collection will appear in __Collections__ in the left sidebar.
 
-<img alt="Generate Collection" src="https://assets.postman.com/postman-docs/generate-collection-schema.jpg" width="500px"/>
+<img alt="Generate Collection" src="https://assets.postman.com/postman-docs/api-builder-generate-collection-modal.JPG" width="500px"/>
 
 ## Developing an API
 
@@ -132,11 +132,10 @@ In the __Add Mock Server__ dropdown, select **Create new mock server**.
 <img alt="Add Mock to Schema" src="https://assets.postman.com/postman-docs/mock-server-schema-dropdown.jpg" width="200px"/>
 
 Next, choose between:
-- **Generate collection from schema** to create a mock server on the collection based on the API schema, name your collection, then click **Generate Collection and Continue**
-- **Use an existing collection** to create a mock server from an existing collection, select the collection you want to use in the dropdown, then click **Select Collection and Continue**
-- **Create a new collection** to create a new collection from scratch to be used for the mock server, describe the API endpoints to create, then click **Create Collection and Continue**
 
-![Mock Generation](https://assets.postman.com/postman-docs/generate-mock-collection.jpg)
+* **Generate collection from schema** to create a mock server on the collection based on the API schema, name your collection, then click **Generate Collection and Continue**
+* **Use an existing collection** to create a mock server from an existing collection, select the collection you want to use in the dropdown, then click **Select Collection and Continue**
+* **Create a new collection** to create a new collection from scratch to be used for the mock server, describe the API endpoints to create, then click **Create Collection and Continue**
 
 #### Adding an existing mock server
 
@@ -166,17 +165,17 @@ You can also copy the URL of your mock server directly to your clipboard by clic
 
 You can link the documentation generated from your collections to specific versions of an API.
 
-![Add Docs to Schema](https://assets.postman.com/postman-docs/schema-docs-added.jpg)
+![Add Docs to Schema](https://assets.postman.com/postman-docs/api-builder-add-documentation.jpg)
 
-#### Creating new documentation
+### Creating new documentation
 
 In the **API** &gt; **Develop** tab, click **Add Documentation** &gt; **Create new documentation**.
 
-IMAGE API Docs
+<img alt="Add Docs to Schema" src="https://assets.postman.com/postman-docs/api-builder-create-docs.jpg" width="500px"/>
 
 Specify a name and click **Generate Collection and Continue**.
 
-#### Adding existing documentation
+### Adding existing documentation
 
 In the **API** &gt; **Develop** tab, click **Add Documentation** &gt; **Add Existing documentation**.
 
@@ -208,33 +207,36 @@ You can create collections to use as test suites, integration tests, or contract
 
 You can connect a test suite to any API you have defined in the Postman API Builder. In __API__ &gt; **Test** tab, click **Add Test Suite**.
 
-![Schema Test Suite](https://assets.postman.com/postman-docs/test-suite-schema.jpg)
+![Schema Test Suite](https://assets.postman.com/postman-docs/add-test-suite.jpg)
 
 Next, choose between:
-- **Create new test suite**, name the test suite then click **Generate Test Suite**
-- **Add existing test suite**, select a corresponding collection from the list and click __Add Test Suite__. You will only see available collections in the list.
+
+* **Create new test suite**, name the test suite then click **Generate Test Suite**
+* **Add existing test suite**, select a corresponding collection from the list and click __Add Test Suite__. You will only see available collections in the list.
 
 ### Adding integration tests
 
 In __API__ &gt; **Test**, click **Add Integration Test** to check if your endpoints work as expected when combined with other APIs or services.
 
-![Schema Integration Tests](https://assets.postman.com/postman-docs/integration-tests-schema.jpg)
+![Schema Integration Tests](https://assets.postman.com/postman-docs/api-builder-add-intregration-test.jpg)
 
 Select a corresponding collection from the list and click **Add Integration Test**. You will only see available collections in the list.
 
 Next, choose between:
-- **Create new integration test**, name the integration test then click **Generate Integration Test**
-- **Add existing integration test**, select a corresponding collection from the list and click __Add Integration Test__. You will only see available collections in the list.
+
+* **Create new integration test**, name the integration test then click **Generate Integration Test**
+* **Add existing integration test**, select a corresponding collection from the list and click __Add Integration Test__. You will only see available collections in the list.
 
 ### Adding contract tests
 
 If you're writing tests to ensure your API is working according to its specification, you can use **Contract tests**. In __API__ &gt; **Test**, click **Add Contract Test**.
 
-![Contract Test Schema](https://assets.postman.com/postman-docs/contract-test-schema.jpg)
+![Contract Test Schema](https://assets.postman.com/postman-docs/api-builder-add-contract-test.jpg)
 
 Next, choose between:
-- **Create new contract test**, name the contract test then click **Generate Contract Test**
-- **Add existing contract test**, select a corresponding collection from the list and click __Add Contract Test__. You will only see available collections in the list.
+
+* **Create new contract test**, name the contract test then click **Generate Contract Test**
+* **Add existing contract test**, select a corresponding collection from the list and click __Add Contract Test__. You will only see available collections in the list.
 
 ## Observing an API
 
@@ -250,19 +252,19 @@ In __API__ &gt; **Observe**, click __Add Monitor__ and choose **Create new monit
 
 Specify a name for the collection, then click **Generate Collection and Continue**.
 
-![Create Monitor for Schema](https://assets.postman.com/postman-docs/create-schema-monitor.jpg)
+![Create Monitor for Schema](https://assets.postman.com/postman-docs/api-builder-generate-monitor.jpg)
 
 #### Use an existing collection
 
 To create a new monitor on an existing collection, select **Use an existing collection** and choose a collection in the dropdown. Click **Select Collection and Continue**.
 
-![Create Monitor for Schema](https://assets.postman.com/postman-docs/create-monitor-schema.jpg)
+![Create Monitor for Schema](https://assets.postman.com/postman-docs/api-builder-monitor-from-collection.jpg)
 
-#### Create a new collection 
+#### Create a new collection
 
 To create a new collection from scratch to monitor, select **Create new collection**, then describe the API endpoints you want to monitor by specifying the request method, url, status code, and response time. Once done, click **Create Collection and Continue**
 
-IMAGE GIF create new collection
+![Create Monitor for Schema](https://assets.postman.com/postman-docs/api-builder-monitor-from-scratch.jpg)
 
 #### Adding an existing monitor
 
