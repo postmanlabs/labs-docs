@@ -43,7 +43,7 @@ You can connect various components of your API development and testing process t
 * [Testing an API](#testing-an-api)
 * [Observing an API](#observing-an-api)
 
-> The number of APIs you can create is dependent on your [Postman plan](https://www.getpostman.com/pricing).
+> The number of APIs you can create is dependent on your [Postman plan](https://www.postman.com/pricing).
 
 ## Creating an API
 
