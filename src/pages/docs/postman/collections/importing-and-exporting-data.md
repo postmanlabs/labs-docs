@@ -1,7 +1,7 @@
 ---
-title: 'Data formats'
+title: 'Importing and exporting data'
 order: 49
-page_id: 'data_formats'
+page_id: 'importing_and_exporting_data'
 contextual_links:
   - type: section
     name: "Additional Resources"
