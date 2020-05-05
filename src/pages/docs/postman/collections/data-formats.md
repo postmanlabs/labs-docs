@@ -133,8 +133,6 @@ Note: If multiple files are selected then schema can be imported only as a colle
 
 **RAML**
 Download an example RAML file: [github-api-v3.raml](https://assets.postman.com/postman-docs/github-api-v3.raml)
-
-**Note:** RAML 1.0 support is coming soon!
   
 **OpenAPI 2.0**
 Download an example OpenAPI 2.0 file:
