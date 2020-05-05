@@ -97,15 +97,6 @@ To import your API specifications into Postman, click **Import**, then select yo
 
 You can also configure your **Import Settings**, which will differ depending on your API specification.
 
-## Validating collection JSON files
-
-To validate if a JSON file is in the correct collections format, you can use [schema files for collections](http://schema.getpostman.com/).
-
-* [Schema file](https://schema.getpostman.com/json/collection/v1.0.0/collection.json)
-* [Associated documentation](https://schema.getpostman.com/)
-* [Postman schemas in GitHub](https://github.com/postmanlabs/schemas)
-* [Example of data validation using a schema](https://blog.postman.com/2015/07/02/introducing-postman-collection-format-schema/) and a [validator](https://github.com/mafintosh/is-my-json-valid)
-
 ## Exporting Postman data
 
 Postman can export and import the following formats as a file or generated URL. When you export a collection from the Postman app, the exported file is a JSON file. The file contains all data (and metadata) that is required by Postman to recreate the collection when imported back into Postman, or that is utilized by [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/) to run the collection from the command line interface (CLI).
