@@ -259,7 +259,7 @@ Authorization code grant type requires the user to authenticate with the provide
 
 To use authorization code grant type, enter a __Callback URL__ for your client application (which should be registered with the API provider), together with various details provided by the API service including __Auth URL__, __Access Token URL__, __Client ID__, and __Client Secret__.
 
-> You can enter your auth details in the web browser instead of in Postman if you prefer by selecting __Authorize using browser__.
+> You can enter your auth details in the web browser, instead of in Postman if you prefer, by selecting __Authorize using browser__.
 
 #### Authorization code (With PKCE)
 
@@ -271,7 +271,7 @@ Implicit grant type returns an access token to the client straight away without 
 
 To use implicit grant type with your requests in Postman, enter a __Callback URL__ you have registered with the API provider, the provider __Auth URL__, and a __Client ID__ for the app you have registered.
 
-> You can enter your auth details in the web browser instead of in Postman if you prefer by selecting __Authorize using browser__.
+> You can enter your auth details in the web browser, instead of in Postman if you prefer, by selecting __Authorize using browser__.
 
 ### Password credentials
 
@@ -305,7 +305,7 @@ When your config is complete, click __Request Token__.
 
 > When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in subsequent requests. By default Postman will display a pop-up browser when you click __Request Token__. You can alternatively choose to authenticate using your system's default web browser. Check __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
 
-If you successfully receive a token from the API you will see its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Click __Use Token__ to select the returned value.
+If you successfully receive a token from the API, you will see its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Click __Use Token__ to select the returned value.
 
 Any successfully retrieved tokens will be listed in the request __Available Tokens__ dropdown list. Select one to send with your request. Select __Manage Tokens__ in the dropdown list to view more details or delete your tokens.
 
