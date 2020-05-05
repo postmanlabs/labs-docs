@@ -211,7 +211,7 @@ You can connect a test suite to any API you have defined in the Postman API Buil
 
 You can add a new or existing test suite:
 
-* **Create new test suite**: Enter a name and click **Generate Test Suite**
+* **Create new test suite**: Enter a name and click **Generate Test Suite**.
 * **Add existing test suite**: Choose an available collection from the list and click **Add Test Suite**. You will only see available collections in the list.
 
 ### Adding integration tests
@@ -224,7 +224,7 @@ Select a corresponding collection from the list and click **Add Integration Test
 
 You can add a new or existing integration test:
 
-* **Create new integration test**: Enter a name and click **Generate Integration Test**
+* **Create new integration test**: Enter a name and click **Generate Integration Test**.
 * **Add existing integration test**: Choose an available collection from the list and click **Add Integration Test**. You will only see available collections in the list.
 
 ### Adding contract tests
@@ -235,7 +235,7 @@ If you're writing tests to ensure your API is working according to its specifica
 
 You can add a new or existing contract test:
 
-* **Create new contract test**: Enter a name and click **Generate Contract Test**
+* **Create new contract test**: Enter a name and click **Generate Contract Test**.
 * **Add existing contract test**: Choose an available collection from the list and click **Add Contract Test**. You will only see available collections in the list.
 
 ## Observing an API
@@ -246,7 +246,7 @@ You can link monitors running on collections in your current workspace to an API
 
 ### Creating a new monitor
 
-In __API__ &gt; **Observe**, click __Add Monitor__ and choose **Create new monitor**. You can choose between [generating a collection from a schema](#generating-a-collection-from-a-schema), [using an existing collection](#using-an-existing-collection), or [creating a new collection](#creating-a-new-collection)
+In __API__ &gt; **Observe**, click __Add Monitor__ and choose **Create new monitor**. You can choose between [generating a collection from a schema](#generating-a-collection-from-a-schema), [using an existing collection](#using-an-existing-collection), or [creating a new collection](#creating-a-new-collection).
 
 ### Generating a collection from a schema
 
