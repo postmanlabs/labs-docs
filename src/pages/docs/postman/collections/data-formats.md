@@ -4,11 +4,6 @@ order: 49
 page_id: 'data_formats'
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
-  - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Case Studies"
@@ -32,28 +27,84 @@ contextual_links:
   - type: link
     name: "Travelogue of Postman Collections Format v2"
     url: "https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Intro to Integrations"
-    url: "/docs/integrations/intro-integrations/"
 
 warning: false
 ---
 
-Postman can export and import collections, environments, globals and header presets as files and links. This topic covers:
+Postman can import and export Postman and non-Postman data, including API schemas, collections, environments, data dumps, and globals.
 
-- [Exporting Postman data](#exporting-postman-data)
-    - [Collections](#collections)
-    - [Environments](#environments)
-    - [Data dumps](#data-dumps)
-- [Importing Postman data](#importing-postman-data)
-- [Importing cURL](#importing-curl)
-- [Importing RAML/OpenAPI schema](#importing-ramlopenapi-schema)
-    - [Examples](#examples)
-- [Importing WADL](#importing-wadl)
-    - [Example WADL file](#example-wadl-file)
-- [Validating Collection JSON files](#validating-collection-json-files)
+## Contents
+
+* [Importing data into Postman](#importing-data-into-postman)
+
+    * [Importing Postman data](#importing-postman-data)
+
+    * [Importing API specifications](#importing-api-specifications)
+
+* [Validating collection JSON files](#validating-collection-json-files)
+
+* [Exporting Postman data](#exporting-postman-data)
+
+    * [Collections](#collections)
+
+    * [Environments](#environments)
+
+    * [Data dumps](#data-dumps)
+
+* [Next steps](#next-steps)
+
+## Importing data into Postman
+
+You can import your Postman data (e.g.collections) as well as your API specifications directly into Postman.
+
+Postman supports the following API specification formats:
+
+* [OpenAPI 3.0](https://github.com/postmanlabs/openapi-to-postman)
+
+* RAML [0.8](https://github.com/postmanlabs/raml-to-postman), [1.0](https://github.com/postmanlabs/raml1-to-postman)
+
+* [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
+
+* [cURL](https://github.com/postmanlabs/curl-to-postman)
+
+* WADL
+
+* Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman), [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
+
+* [Runscope](https://github.com/postmanlabs/runscope-to-postman)
+
+* [DHC](https://github.com/postmanlabs/dhc-to-postman)
+
+To import your data into Postman, click **Import** in the upper-left corner of the Postman app.
+
+![Import modal](https://assets.postman.com/postman-docs/import-modal.jpg)
+
+You can import your data via files, folders, links, or raw text.
+
+### Importing Postman data
+
+You can import Postman data you previously exported, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals.
+
+Postman will automatically recognize Postman data and confirm the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
+
+![Import collection and environment](https://assets.postman.com/postman-docs/import-coll-env.jpg)
+
+### Importing API specifications
+
+You can import your API specifications into Postman using the same import module. To do so, select your file or folder, input your link, or paste your raw text. Confirm the name, format, and what you'd like your data to import as, then click **Import** to bring your data into Postman.
+
+![Import file](https://assets.postman.com/postman-docs/import-file.jpg)
+
+You can also configure your **Import Settings**, which will differ depending on your API specification.
+
+## Validating collection JSON files
+
+To validate if a JSON file is in the correct collections format, you can use [schema files for collections](http://schema.getpostman.com/).
+
+* [Schema file](https://schema.getpostman.com/json/collection/v1.0.0/collection.json)
+* [Associated documentation](https://schema.getpostman.com/)
+* [Postman schemas in GitHub](https://github.com/postmanlabs/schemas)
+* [Example of data validation using a schema](https://blog.postman.com/2015/07/02/introducing-postman-collection-format-schema/) and a [validator](https://github.com/mafintosh/is-my-json-valid)
 
 ## Exporting Postman data
 
@@ -79,114 +130,6 @@ From the **Data** tab of the **SETTINGS** modal, Postman allows you to expor
 
 [![export all Postman data](https://assets.postman.com/postman-docs/WS-data-dumps-settings.png)](https://assets.postman.com/postman-docs/WS-data-dumps-settings.png)
 
-## Importing Postman data
+## Next steps
 
-Postman data can be imported from the **Data** tab of the **SETTINGS** modal, or using the **Import** button in the header toolbar. Import a collection, environment, data dump, curl command, or a RAML / WADL / OpenAPI (v1/v2) / Runscope file using the **IMPORT** modal.
-
-[![import data](https://assets.postman.com/postman-docs/WS-importButton.png)](https://assets.postman.com/postman-docs/WS-importButton.png)
-
-## Importing cURL
-
-Most valid cURL (HTTP-only) commands can be imported into Postman. Postman's importer supports the following cURL options:
-
-| **Option**                  | **Description**                                                                                 |
-| --------------------------- | ----------------------------------------------------------------------------------------------- |
-| -A, --user-agent `<string>` | An optional user-agent string                                                                   |
-| -d, --data `<string>`       | Sends the specified data to the server with type application/x-www-form-urlencoded              |
-| --data-ascii `<string>`     | Sends the specified data to the server with type application/x-www-form-urlencoded              |
-| --data-urlencode `<string>` | Sends the specified data to the server with type application/x-www-form-urlencoded              |
-| --data-binary `<string>`    | Data sent as-is                                                                                 |
-| -F, --form `<name=content>` | A single form-data field (can be used multiple times)                                           |
-| -G, --get                   | Forces the request to be sent as GET, with the `--data parameters` appended to the query string |
-| -H, --header `<string>`     | Add a header (can be used multiple times)                                                       |
-| -X, --request `<string>`    | Specify a custom request method to be used                                                      |
-| --url `<string>`            | An alternate way to specify the URL                                                             |
-
-A few commands which can be imported include:
-
-| **cURL**                                                                                     | **Effect**                                                           |
-| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| `curl http://postman-echo.com/get`                                                           | Creates a GET request in Postman with the URL prefilled              |
-| `curl --request POST --url http://postman-echo.com/post --form color=red --form color=green` | Creates a POST request with a multivalue form data row               |
-| `curl -X PUT --data-binary hello http://postman-echo.com/put`                                | Creates a POST request with raw data                                 |
-| `curl -X PUT --data-ascii 'a=b&c=d' http://postman-echo.com/put -H 'AccessToken:1234'`       | Creates a PUT request with urlencoded form data, and a custom header |
-
-## Importing RAML/OpenAPI schema
-
-1. Click on the Import button.
- [![import button](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)
-
-2. Choose to import schema by file, folder, url or by copying as raw text from the following screen:
-[![import sample](https://assets.postman.com/postman-docs/import+modal.png)](https://assets.postman.com/postman-docs/import+modal.png)
-
-3. The following modal allows you to **Import as an API** or **Generate a Postman Collection** or both.
-[![import-options](https://assets.postman.com/postman-docs/import-schema.png)](https://assets.postman.com/postman-docs/import-schema.png)
-
-  If you select **Import as an API**, a new [API](/docs/postman/design-and-develop-apis/the-api-workflow/) with the imported schema is created.
-  You can define, develop, test and observe your real world APIs within the API created in Postman. This lets you collaborate on API first Development with your whole team.
-
-  If you select **Generate a Postman Collection**, a Postman [collection](/docs/postman/collections/intro-to-collections) from the imported schema is created. You can write tests and API documentation with collections.
-
-Note: If multiple files are selected then schema can be imported only as a collection and not as an API.
-
-### Examples
-
-**RAML**
-Download an example RAML file: [github-api-v3.raml](https://assets.postman.com/postman-docs/github-api-v3.raml)
-
-**Note:** RAML 1.0 support is coming soon!
-  
-**OpenAPI 2.0**
-Download an example OpenAPI 2.0 file:
-
-1. [petstore.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/yaml/petstore.yaml)
-2. [petstore.json](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/json/petstore.json)  
-  
-**OpenAPI 3.0**
-Download an example OpenAPI 3.0 file:
-
-1. [api-with-examples.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/api-with-examples.yaml)
-2. [petstore.yaml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml)
-
-## Importing WADL
-
-Postman lets you import WADL specs too. While all aspects are not supported yet, you can expect the various parameters that Postman uses (collections, folder, requests, headers, request payloads) to be correctly generated. We're currently working on extending this feature.
-
-### Example WADL file
-
-```xml
-<application xmlns="http://wadl.dev.java.net/2009/02">
-  <resources base="http://example.com/api">
-    <resource path="books">
-      <method name="GET"/>
-      <resource path="{bookId}">
-        <param required="true" style="template" name="bookId"/>
-        <method name="GET"/>
-        <method name="DELETE"/>
-        <resource path="reviews">
-          <method name="GET">
-            <request>
-              <param name="page" required="false" default="1" style="query"/>
-              <param name="size" required="false" default="20" style="query"/>
-            </request>
-          </method>
-        </resource>
-      </resource>
-    </resource>
-    <resource path="readers">
-      <method name="GET"/>
-    </resource>
-  </resources>
-</application>
-```
-
-[Source](https://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html)
-
-## Validating Collection JSON files
-
-To validate if a JSON file is in the correct collections format, you can use [schema files for collections](http://schema.getpostman.com/).
-
-- [Schema file](https://schema.getpostman.com/json/collection/v1.0.0/collection.json)
-- [Associated documentation](https://schema.getpostman.com/)
-- [Postman schemas in GitHub](https://github.com/postmanlabs/schemas)
-- [Example of data validation using a schema](https://blog.postman.com/2015/07/02/introducing-postman-collection-format-schema/) and a [validator](https://github.com/mafintosh/is-my-json-valid)
+Learn more about [Postman's API workflow](/docs/postman/design-and-develop-apis/the-api-workflow/).
