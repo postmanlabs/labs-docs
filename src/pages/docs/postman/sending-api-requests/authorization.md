@@ -265,6 +265,8 @@ To use authorization code grant type, enter a __Callback URL__ for your client a
 
 You can use PKCE (Proof Key for Code Exchange) with OAuth 2.0. When you select __Authorization Code (With PKCE)__ two additional fields will become available for __Code Challenge Method__ and __Code Verifier__. You can opt to use `SHA-256` or `Plain` algorithms to generate the code challenge. The verifier is an optional 43-128 character string to connect the authorization request to the token request.
 
+> __Authorization code (With PKCE)__ grant type coupled with __Authorize using browser__ is recommended to prevent auth code interception attacks.
+
 ### Implicit
 
 Implicit grant type returns an access token to the client straight away without requiring the additional auth code step (and is therefore less secure).
