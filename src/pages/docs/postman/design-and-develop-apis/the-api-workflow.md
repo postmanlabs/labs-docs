@@ -28,7 +28,7 @@ contextual_links:
 
 You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of the Postman app, your specification can act as the single source of truth for your API project. The API Builder supports API-first development by allowing you to generate collections from your schema and build your development and testing from there.
 
-<img alt="API Builder" src="https://assets.postman.com/postman-docs/api-builder-overview.jpg" width="500px"/>
+[![API Builder](https://assets.postman.com/postman-docs/api-builder-overview.jpg)](https://assets.postman.com/postman-docs/api-builder-overview.jpg)
 
 You can connect various components of your API development and testing process to your schema, such as collections, documentation, tests, mocks, and monitors. You can also version your APIs in Postman and connect elements to specific versions.
 
@@ -102,7 +102,7 @@ The Postman API Builder supports API-first development by providing the option t
 
 To create a collection based on your schema, click **Generate Collection**. You can add the collection as documentation, a test suite, an integration test, a monitor, a mock server, or a contract test. The collection will appear in __Collections__ in the left sidebar.
 
-<img alt="Generate Collection" src="https://assets.postman.com/postman-docs/api-builder-generate-collection-modal.JPG" width="500px"/>
+![Generate Collection](https://assets.postman.com/postman-docs/api-builder-generate-collection-modal.jpg)
 
 ## Developing an API
 
