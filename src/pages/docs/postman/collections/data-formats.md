@@ -31,7 +31,7 @@ contextual_links:
 warning: false
 ---
 
-Postman can import and export Postman and non-Postman data, including API schemas, collections, environments, data dumps, and globals.
+Postman can import and export Postman data, including collections, environments, data dumps, and globals. Postman can also import non-Postman data in the form of API schemas to help you consolidate your API development workflow.
 
 ## Contents
 
@@ -55,7 +55,7 @@ Postman can import and export Postman and non-Postman data, including API schema
 
 ## Importing data into Postman
 
-You can import your Postman data (e.g.collections) as well as your API specifications directly into Postman.
+You can import your Postman data (e.g. collections) as well as your API specifications directly into Postman.
 
 Postman supports the following API specification formats:
 
