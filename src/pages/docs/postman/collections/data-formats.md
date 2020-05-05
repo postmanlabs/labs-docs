@@ -55,7 +55,23 @@ Postman can import and export Postman data, including collections, environments,
 
 ## Importing data into Postman
 
-You can import your Postman data (e.g. collections) as well as your API specifications directly into Postman.
+You can import your Postman data (e.g. collections) as well as your API specifications directly into the app.
+
+To import your data into Postman, click **Import** in the upper-left corner of the Postman app.
+
+![Import modal](https://assets.postman.com/postman-docs/import-modal.jpg)
+
+You can import your data via files, folders, links, or raw text.
+
+### Importing Postman data
+
+You can import Postman data you previously exported, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals.  
+
+To import Postman data, click **Import**, then select your file or folder, input your link, or paste your raw text. Postman will automatically recognize Postman data and confirm the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
+
+![Import collection and environment](https://assets.postman.com/postman-docs/import-coll-env.jpg)
+
+### Importing API specifications
 
 Postman supports the following API specification formats:
 
@@ -75,23 +91,7 @@ Postman supports the following API specification formats:
 
 * [DHC](https://github.com/postmanlabs/dhc-to-postman)
 
-To import your data into Postman, click **Import** in the upper-left corner of the Postman app.
-
-![Import modal](https://assets.postman.com/postman-docs/import-modal.jpg)
-
-You can import your data via files, folders, links, or raw text.
-
-### Importing Postman data
-
-You can import Postman data you previously exported, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals.
-
-Postman will automatically recognize Postman data and confirm the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
-
-![Import collection and environment](https://assets.postman.com/postman-docs/import-coll-env.jpg)
-
-### Importing API specifications
-
-You can import your API specifications into Postman using the same import module. To do so, select your file or folder, input your link, or paste your raw text. Confirm the name, format, and what you'd like your data to import as, then click **Import** to bring your data into Postman.
+To import your API specifications into Postman, click **Import**, then select your file or folder, input your link, or paste your raw text. Confirm the name, format, and what you'd like your data to import as, then click **Import** to bring your data into Postman.
 
 ![Import file](https://assets.postman.com/postman-docs/import-file.jpg)
 
