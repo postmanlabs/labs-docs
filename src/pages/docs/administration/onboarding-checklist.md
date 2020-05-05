@@ -7,6 +7,9 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: link
+    name: "Security and Compliance: A Shared Responsibility Model"
+    url: "https://www.postman.com/shared-responsibility/"
+  - type: link
     name: "Managing your team"
     url: "/docs/postman/collaboration/managing-your-team/"
   - type: link
@@ -84,4 +87,6 @@ If you have any questions or run into any issues setting up Postman for your tea
 
 ## Next Steps
 
-For information on getting started see [Getting Started With Postman](https://learning.postman.com/getting-started/)
+Checkout [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/) for important security considerations.
+
+Finally, head over to [Getting Started With Postman](https://learning.postman.com/getting-started/) for what to do next.
