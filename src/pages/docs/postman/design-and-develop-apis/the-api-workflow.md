@@ -131,11 +131,11 @@ In the __Add Mock Server__ dropdown, select **Create new mock server**.
 
 <img alt="Add Mock to Schema" src="https://assets.postman.com/postman-docs/mock-server-schema-dropdown.jpg" width="200px"/>
 
-Next, choose between:
+You can base your mock server on different collections:
 
-* **Generate collection from schema** to create a mock server on the collection based on the API schema, name your collection, then click **Generate Collection and Continue**
-* **Use an existing collection** to create a mock server from an existing collection, select the collection you want to use in the dropdown, then click **Select Collection and Continue**
-* **Create a new collection** to create a new collection from scratch to be used for the mock server, describe the API endpoints to create, then click **Create Collection and Continue**
+* **Generate collection from schema**: To create a mock server based on a collection generated from your schema, enter a name and click **Generate Collection and Continue**
+* **Use an existing collection**: Select a collection from the drop-down list and click **Select Collection and Continue**
+* **Create a new collection**: To start a new collection for your mock server, enter the requests your collection will contain, and click **Create Collection and Continue**
 
 #### Adding an existing mock server
 
@@ -209,10 +209,10 @@ You can connect a test suite to any API you have defined in the Postman API Buil
 
 ![Schema Test Suite](https://assets.postman.com/postman-docs/add-test-suite.jpg)
 
-Next, choose between:
+You can add a new or existing test suite:
 
-* **Create new test suite**, name the test suite then click **Generate Test Suite**
-* **Add existing test suite**, select a corresponding collection from the list and click __Add Test Suite__. You will only see available collections in the list.
+* **Create new test suite**: Enter a name and click **Generate Test Suite**
+* **Add existing test suite**: Choose an available collection from the list and click **Add Test Suite**. You will only see available collections in the list.
 
 ### Adding integration tests
 
@@ -222,10 +222,10 @@ In __API__ &gt; **Test**, click **Add Integration Test** to check if your endpoi
 
 Select a corresponding collection from the list and click **Add Integration Test**. You will only see available collections in the list.
 
-Next, choose between:
+You can add a new or existing integration test:
 
-* **Create new integration test**, name the integration test then click **Generate Integration Test**
-* **Add existing integration test**, select a corresponding collection from the list and click __Add Integration Test__. You will only see available collections in the list.
+* **Create new integration test**: Enter a name and click **Generate Integration Test**
+* **Add existing integration test**: Choose an available collection from the list and click **Add Integration Test**. You will only see available collections in the list.
 
 ### Adding contract tests
 
@@ -233,10 +233,10 @@ If you're writing tests to ensure your API is working according to its specifica
 
 ![Contract Test Schema](https://assets.postman.com/postman-docs/api-builder-add-contract-test.jpg)
 
-Next, choose between:
+You can add a new or existing contract test:
 
-* **Create new contract test**, name the contract test then click **Generate Contract Test**
-* **Add existing contract test**, select a corresponding collection from the list and click __Add Contract Test__. You will only see available collections in the list.
+* **Create new contract test**: Enter a name and click **Generate Contract Test**
+* **Add existing contract test**: Choose an available collection from the list and click **Add Contract Test**. You will only see available collections in the list.
 
 ## Observing an API
 
@@ -246,23 +246,23 @@ You can link monitors running on collections in your current workspace to an API
 
 ### Creating a new monitor
 
-In __API__ &gt; **Observe**, click __Add Monitor__ and choose **Create new monitor**. You can choose between [generating a collection from the schema](#generating-a-collection-from-the-schema), [using an existing collection](#using-an-existing-collection), or [create a new collection](#creating-a-new-collection)
+In __API__ &gt; **Observe**, click __Add Monitor__ and choose **Create new monitor**. You can choose between [generating a collection from a schema](#generating-a-collection-from-a-schema), [using an existing collection](#using-an-existing-collection), or [creating a new collection](#creating-a-new-collection)
 
-### Generating a collection from schema
+### Generating a collection from a schema
 
 Specify a name for the collection, then click **Generate Collection and Continue**.
 
 ![Create Monitor for Schema](https://assets.postman.com/postman-docs/api-builder-generate-monitor.jpg)
 
-#### Use an existing collection
+#### Using an existing collection
 
 To create a new monitor on an existing collection, select **Use an existing collection** and choose a collection in the dropdown. Click **Select Collection and Continue**.
 
 ![Create Monitor for Schema](https://assets.postman.com/postman-docs/api-builder-monitor-from-collection.jpg)
 
-#### Create a new collection
+#### Creating a new collection
 
-To create a new collection from scratch to monitor, select **Create new collection**, then describe the API endpoints you want to monitor by specifying the request method, url, status code, and response time. Once done, click **Create Collection and Continue**
+To create a new collection to monitor, choose **Create new collection**. Add the requests you plan to monitor, specifying the method and URL, as well as the status code and response time you want to check. Click **Create Collection and Continue**.
 
 ![Create Monitor for Schema](https://assets.postman.com/postman-docs/api-builder-monitor-from-scratch.jpg)
 
