@@ -77,7 +77,7 @@ This is where you can view keyboard shortcuts available for your operating syste
 
 ## Data Import / Export
 
-Import and export data in bulk inside Postman.  This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](/docs/postman/collections/data-formats/) in Postman.
+Import and export data in bulk inside Postman.  This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](/docs/postman/collections/importing-and-exporting-data/) in Postman.
 
 ## Add-ons
 

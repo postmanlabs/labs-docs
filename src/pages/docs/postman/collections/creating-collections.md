@@ -200,7 +200,7 @@ Click the ellipsis (...) to expand the control dropdown.
 
 Select "Duplicate" from the menu.
 
-Learn how to [share collections](/docs/postman/collections/sharing-collections/), [import and export collections](/docs/postman/collections/data-formats/), and [use other collection features](/docs/postman/collections/managing-collections/).  
+Learn how to [share collections](/docs/postman/collections/sharing-collections/), [import and export collections](/docs/postman/collections/importing-and-exporting-data/), and [use other collection features](/docs/postman/collections/managing-collections/).  
 
 ---
 For more information on collections, see:
