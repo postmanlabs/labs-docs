@@ -101,7 +101,7 @@ You can export your Postman data, including [collections](#collections), [enviro
 
 ### Collections
 
-You can export your collections from the Postman app by selecting the **...** next to the collection, then **Export**. 
+You can export your collections from the Postman app by selecting the **...** next to the collection, then **Export**.
 
 ![Export collection menu](https://assets.postman.com/postman-docs/export-collection-menu2.jpg)
 
