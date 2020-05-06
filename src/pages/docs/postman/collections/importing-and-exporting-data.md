@@ -41,8 +41,6 @@ Postman can import and export Postman data, including collections, environments,
 
     * [Importing API specifications](#importing-api-specifications)
 
-* [Validating collection JSON files](#validating-collection-json-files)
-
 * [Exporting Postman data](#exporting-postman-data)
 
     * [Collections](#collections)
@@ -99,27 +97,31 @@ You can also configure your **Import Settings**, which will differ depending on 
 
 ## Exporting Postman data
 
-Postman can export and import the following formats as a file or generated URL. When you export a collection from the Postman app, the exported file is a JSON file. The file contains all data (and metadata) that is required by Postman to recreate the collection when imported back into Postman, or that is utilized by [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/) to run the collection from the command line interface (CLI).
+You can export your Postman data, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 ### Collections
 
-[![export collection](https://assets.postman.com/postman-docs/WS-collections-view.png)](https://assets.postman.com/postman-docs/WS-collections-view.png)
+You can export your collections from the Postman app by selecting the **...** next to the collection, then **Export**. 
 
-Postman can export collections in two formats - v1 and v2. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
+![Export collection menu](https://assets.postman.com/postman-docs/export-collection-menu2.jpg)
 
-[![select v1 or v2 format](https://assets.postman.com/postman-docs/WS-export-collection1.png)](https://assets.postman.com/postman-docs/WS-export-collection1.png)
+You can then select the format you'd like your collection to export as. Click **Export** to download your newly generated JSON file.
+
+![Export collection format](https://assets.postman.com/postman-docs/export-collection-format.jpg)
+
+> Learn more about Postman's [v1 and v2 formats](https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
 
 ### Environments
 
-Environments can be exported from the **MANAGE ENVIRONMENTS** modal, and imported here as well.
+You can export your environments from the Postman app by selecting the gear icon in the upper-right corner to open **Manage Environments**. Click the download symbol next to your environment to download your newly generated JSON file.
 
-[![export environments](https://assets.postman.com/postman-docs/WS-manage-environments2.png)](https://assets.postman.com/postman-docs/WS-manage-environments2.png)
+![Export environment menu](https://assets.postman.com/postman-docs/export-environment-menu2.jpg)
 
 ### Data dumps
 
-From the **Data** tab of the **SETTINGS** modal, Postman allows you to export all collections, environments, globals and header presets into one JSON file. Postman does not export your history. You can import this data back into Postman.
+You can export a data dump of all of your collections, environments, globals, and header presets in Postman. To do so, select the wrench icon in the upper-right corner to open **Settings**. Click to open the **Data** tab, then **Download** to receive the newly generated JSON file of your Postman data.
 
-[![export all Postman data](https://assets.postman.com/postman-docs/WS-data-dumps-settings.png)](https://assets.postman.com/postman-docs/WS-data-dumps-settings.png)
+![Export data dump](https://assets.postman.com/postman-docs/data-dump-menu.jpg)
 
 ## Next steps
 
