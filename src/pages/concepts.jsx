@@ -22,7 +22,7 @@ const ConceptPage = () => (
     <Hero title=" Postman Concepts" text="Get easy, API-First solutions with the industry’s only Complete API Development Environment." />
     <IconCard
       icon={newToPostman}
-      items="3 items"
+      items="2 items"
       title="New to Postman"
       description="Postman is the only complete API development environment used by 10 million developers."
       heading1="Blog"
@@ -61,7 +61,7 @@ const ConceptPage = () => (
 
     <IconCard
       icon={environmentsIcon}
-      items="3 items"
+      items="2 items"
       title="Postman Environments"
       description="Make assertions about the correctness of your API responses, pass data between requests, and add dynamic behavior to requests and collections."
       heading1="Blog"
@@ -103,7 +103,7 @@ const ConceptPage = () => (
 
     <IconCard
       icon={runIcon}
-      items="3 items"
+      items="2 items"
       title="Running a Collection"
       description="Run a collection as a series of requests against a corresponding environment."
       heading1="docs"
