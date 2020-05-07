@@ -13,6 +13,9 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
+    name: "Ping Identity"
+    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+  - type: link
     name: "AMC Theatres"
     url: "https://www.postman.com/resources/case-studies/amc-theatres/"
   - type: link
