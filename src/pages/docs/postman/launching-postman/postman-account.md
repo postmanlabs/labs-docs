@@ -15,6 +15,9 @@ contextual_links:
   - type: link
     name: "One person, multiple accounts"
     url: "https://blog.postman.com/2017/10/12/one-person-multiple-accounts/"
+  - type: link
+    name: "Sweet cosmic karma for your public profile"
+    url: "https://blog.postman.com/sweet-cosmic-karma-for-your-public-profile/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -65,15 +68,13 @@ When you first sign up for a Postman account, you will be prompted to complete y
 
 Enter your details and click __Continue__.
 
-Enter your profile details.
+Enter your profile details and click **Save changes**.
 
->Your name will also be your username, and you will have the same username across all Postman elements.
+>Your name will also be your username, and you will have the same username across all [Postman elements](/docs/postman/workspaces/managing-workspaces/).
 
-You can also choose to make your profile public. When your profile is public you can publish your collections to [Postman Templates](/docs/postman-for-publishers/postman-templates/add-templates/). To make your profile public, enable **Make profile public**.  
+![Edit profile](https://assets.postman.com/postman-docs/Edit+profile.jpg)
 
-![Enabling public profile](https://assets.postman.com/postman-docs/Enabling+public+profile.jpg)
-
-You will see the public URL for your profile. The URL will be displayed with any templates you choose to publish to Postman Templates.
+>You can make your profile public. A public profile allows you to add your collections to Postman's [API Network](/docs/postman-for-publishers/api-network/add-api-network/) or [Postman Templates](/docs/postman-for-publishers/postman-templates/add-templates/).
 
 You can optionally create a team.
 
