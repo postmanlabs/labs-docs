@@ -70,7 +70,7 @@ Enter your details and click __Continue__.
 
 Enter your profile details and click **Save changes**.
 
->Your name will also be your username, and you will have the same username across all [Postman elements](/docs/postman/workspaces/managing-workspaces/).
+>Your name will also be your username, and you will have the same username across all Postman elements, such as collections and documentation.
 
 ![Edit profile](https://assets.postman.com/postman-docs/Edit+profile.jpg)
 
