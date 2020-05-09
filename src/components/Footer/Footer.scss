@@ -9,6 +9,13 @@
   .footer-column {
     margin: 0px 0px 8px;
     padding: 0px 15px;
+    
+    a.span {
+      color: $footer-color !important;
+      &:hover {
+        color: $bright-orange !important;
+      }
+    }
    
     .footer-column__title {
       font-size: 16px;
