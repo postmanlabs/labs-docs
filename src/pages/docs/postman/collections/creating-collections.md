@@ -13,6 +13,9 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
+    name: "Ping Identity"
+    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+  - type: link
     name: "AMC Theatres"
     url: "https://www.postman.com/resources/case-studies/amc-theatres/"
   - type: link
@@ -200,7 +203,7 @@ Click the ellipsis (...) to expand the control dropdown.
 
 Select "Duplicate" from the menu.
 
-Learn how to [share collections](/docs/postman/collections/sharing-collections/), [import and export collections](/docs/postman/collections/data-formats/), and [use other collection features](/docs/postman/collections/managing-collections/).  
+Learn how to [share collections](/docs/postman/collections/sharing-collections/), [import and export collections](/docs/postman/collections/importing-and-exporting-data/), and [use other collection features](/docs/postman/collections/managing-collections/).  
 
 ---
 For more information on collections, see:

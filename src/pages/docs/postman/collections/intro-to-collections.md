@@ -16,6 +16,9 @@ contextual_links:
     name: "AMC Theatres"
     url: "https://www.postman.com/resources/case-studies/amc-theatres/"
   - type: link
+    name: "Ping Identity"
+    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+  - type: link
     name: "iQmetrix"
     url: "https://www.postman.com/resources/case-studies/iqmetrix/"
   - type: subtitle

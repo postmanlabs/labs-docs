@@ -311,6 +311,8 @@ When you create or edit a variable, you can enter both an initial and a current 
 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
 
+> You can set Postman to [automatically persist](/docs/postman/launching-postman/settings/#general-settings) your variable values.
+
 You can edit a current value inline from the Environment quick look:
 
 <img alt="Edit Current Value" src="https://assets.postman.com/postman-docs/edit-current.jpg" width="500px"/>

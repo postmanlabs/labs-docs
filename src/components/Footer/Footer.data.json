@@ -2,14 +2,16 @@
   "columns": [
     {"name": "Product",
       "children": [
-        { "url": "https://www.postman.com/api-platform", "name": "API Platform"},
+        { "url": "https://www.postman.com/api-platform/", "name": "API Platform"},
         { "url": "https://www.postman.com/product/api-client", "name": "API Client"},
         { "url": "https://www.postman.com/automated-testing", "name": "Automated Testing"},
         { "url": "https://www.postman.com/features/mock-api", "name": "Design & Mock"},
         { "url": "https://www.postman.com/api-documentation-generator", "name": "Documentation"},
         { "url": "https://www.postman.com/api-monitor", "name": "Monitors"},
         { "url": "https://www.postman.com/product/api-versioning", "name": "Version Control"},
-        { "url": "https://www.postman.com/product/workspaces", "name": "Workspaces"}
+        { "url": "https://www.postman.com/product/workspaces", "name": "Workspaces"},
+        { "url": "https://www.postman.com/product/postman-interceptor/", "name": "Interceptor"},
+        { "url": "https://www.postman.com/api-visualizer/", "name": "API Visualizer"}
       ]
     },
 
@@ -18,16 +20,17 @@
         { "url": "https://www.postman.com/downloads/", "name": "Download the App"},
         { "url": "https://www.postman.com/downloads/release-notes", "name": "Release Notes"},
         { "url": "https://www.postman.com/integrations/", "name": "Integrations"},
-        { "url": "https://docs.api.getpostman.com/", "name": "Postman API"},
+        { "url": "https://docs.api.postman.com/", "name": "Postman API"},
         { "url": "https://github.com/postmanlabs", "name": "Open-Source"},
-        { "url": "https://status.getpostman.com/", "name": "System Status"}
+        { "url": "https://status.postman.com/", "name": "System Status"},
+        { "url": "https://www.postman.com/resources/case-studies/", "name": "Case Studies"}
       ]
     },
 
     {"name": "Use Cases",
       "children": [
-        { "url": "https://getpostman.com/use-cases/", "name": "Overview"},
-        { "url": "https://getpostman.com/use-cases/api-development", "name": "Development"},
+        { "url": "https://postman.com/use-cases/", "name": "Overview"},
+        { "url": "https://postman.com/use-cases/api-development", "name": "Development"},
         { "url": "https://www.postman.com/use-cases/api-testing", "name": "Testing"},
         { "url": "https://www.postman.com/use-cases/product-management", "name": "Product Management"}
       ]
@@ -43,8 +46,8 @@
     {"name": "Support",
       "children": [
         { "url": "https://www.postman.com/support", "name": "Support"},
-        { "url": "https://pages.getpostman.com/Resellers-Support.html", "name": "Resellers Support"},
-        { "url": "/", "name": "Learning Center"},
+        { "url": "https://pages.postman.com/Resellers-Support.html", "name": "Resellers Support"},
+        { "url": "https://learning.postman.com/", "name": "Learning Center"},
         { "url": "https://www.postman.com/resources/videos-tutorials/", "name": "Videos & Tutorials"},
         { "url": "https://www.postman.com/community", "name": "Community Content"},
         { "url": "https://community.postman.com/", "name": "Postman Community"}
@@ -54,11 +57,11 @@
     {"name": "Company",
       "children": [
         { "url": "https://www.postman.com/about-postman", "name": "About"},
-        { "url": "https://www.postman.com/jobs/", "name": "Jobs"},
+        { "url": "https://www.postman.com/jobs/", "name": "Jobs", "span": "We're Hiring!"},
         { "url": "https://www.postman.com/contact", "name": "Contact"},
         { "url": "https://blog.postman.com/", "name": "Blog"},
-        { "url": "https://www.postman.com/resources/press-releases/", "name": "Resources"},
-        { "url": "https://store.getpostman.com/", "name": "Swag Shop"},
+        { "url": "https://www.postman.com/resources/press-releases/", "name": "Press Releases"},
+        { "url": "https://store.postman.com/", "name": "Swag Shop"},
         { "url": "https://www.postman.com/post-con-2019", "name": "POST/CON 2019"}
       ]
     }
@@ -66,7 +69,7 @@
   "copyright": [
     {
       "type": "notice",
-      "text": "©2020 Postman, Inc. All rights reserved"
+      "text": "© Postman, Inc. All rights reserved"
     },
     {
       "type": "link",
@@ -75,12 +78,12 @@
     },
     {
       "type": "link",
-      "url": "https://www.postman.com/licenses/privacy",
+      "url": "https://www.getpostman.com/licenses/privacy",
       "name": "Privacy"
     },
     {
       "type": "link",
-      "url": "https://www.postman.com/licenses/postman_eula",
+      "url": "https://www.getpostman.com/licenses/postman_eula",
       "name": "EULA"
     }
   ]
