@@ -62,15 +62,15 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 
 [![share sidebar](https://assets.postman.com/postman-docs/githubusercontent2.png)](https://assets.postman.com/postman-docs/githubusercontent2.png)
 
-## Sharing collections in another workspace
+## Sharing collections with another workspace
 
 Select this option to share a collection to another workspace or with a workspace member. If shared to a team workspace, the collection will be visible to others in the team.
 
-You can set team default permissions to either view-only or edit; only after sharing a collection. First, you share the collection and then assign a role. You also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared.
+You can set team default permissions to either view-only or edit-only after sharing a collection. First, you share the collection and then assign a role. You also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared.
 
-**Note:** Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
+> Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
 
-[![in app collection sharing](https://assets.postman.com/postman-docs/Collection_sharing_new.png)](https://assets.postman.com/postman-docs/Collection_sharing.png)
+![in app collection sharing](https://assets.postman.com/postman-docs/Share+collection+to+workspace.jpg)
 
 In the [workspaces dashboard](https://app.getpostman.com/dashboard), select a collection and then click the **Share** button. The collection is visible in your target workspace.
 
