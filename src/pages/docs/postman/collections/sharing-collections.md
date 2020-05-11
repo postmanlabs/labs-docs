@@ -66,7 +66,7 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 
 Select this option to share a collection to another workspace or with a workspace member. If shared to a team workspace, the collection will be visible to others in the team.
 
-You can set team default permissions to either view-only or edit-only after sharing a collection. First, you share the collection and then assign a role. You also will be able to grant existing team members individual user permissions. Remember, the **Manage Roles** modal will not be available until the collection is shared.
+You can set team default permissions to either view-only or edit-only after sharing a collection. First, you share the collection and then assign a role. You also will be able to grant existing team members individual user permissions. The **Manage Roles** modal will automatically appear as part of the collection sharing process.
 
 > Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
 
@@ -80,9 +80,13 @@ Click **To a workspace** and select the workspace you want to share the collecti
 
 If you want to share the collection but keep it in the current workspace as well, click **Share collection**. If you want the collection to be removed from the current workspace after you share it, click **Share collection and remove from this workspace**.
 
-[![share collections](https://assets.postman.com/postman-docs/WS-share-collection-dashboard.png)](https://assets.postman.com/postman-docs/WS-share-collection-dashboard.png)
+> When you remove a collection from a workspace, all mocks, montitors, and integrations associated with it will also be removed.
 
-> If you remove a collection from a workspace, it will no longer be available in that workspace. To restore it to the workspace, share it again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
+![Adjust roles](https://assets.postman.com/postman-docs/Adjust+roles+with+shared+collections.jpg)
+
+Adjust the roles and permissions as makes sense for your team, and click **Save Roles**.
+
+> To restore a collection to a workspace, share it again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
 
 ## Sharing collections with the Embed or Run In Postman button
 
