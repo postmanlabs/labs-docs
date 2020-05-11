@@ -208,6 +208,8 @@ Use [pm.environment](/docs/postman/scripts/postman-sandbox-api-reference/#pmenvi
 pm.environment.set("variable_key", "variable_value");
 ```
 
+> If you have view but not edit access to an environment, your script code will only affect the current value, and will not be synced or shared with your team.
+
 Check out the [Sandbox Reference](/docs/postman/scripts/postman-sandbox-api-reference/) for more on scripting with variables.
 
 ## Defining local variables
