@@ -7,7 +7,7 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "The API workflow"
+    name: "Using the API Builder"
     url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
   - type: section
     name: "Additional Resources"
