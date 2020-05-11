@@ -174,13 +174,15 @@ You can also update environment variable values from your test scripts.
 
 ### Setting environment variables from scripts
 
-Your __Pre-request__ and __Tests__ scripts can update environment variable __current__ values.
+Your __Pre-request__ and __Tests__ scripts can update environment variable values.
 
 Use [pm.environment](/docs/postman/scripts/postman-sandbox-api-reference/#pmenvironment) to set an environment variable in the active (currently selected) environment:
 
 ```js
 pm.environment.set("variable_key", "variable_value");
 ```
+
+You can only create new variables from a script in an environment that you have edit access to. If you update or unset a value in a script with viewer access to the environment, that change will only be visible to you and not shared with your team.
 
 > If you use scripts to set environment variable values, these will be reflected for all requests referencing the variables. For example, you can use environments [in conjunction with the collection runner](/docs/postman/collection-runs/using-environments-in-collection-runs/) to share updated values throughout a run for a series of requests as well as after it completes.
 
