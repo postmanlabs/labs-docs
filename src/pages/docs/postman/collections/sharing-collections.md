@@ -70,11 +70,7 @@ You can set team default permissions to either view-only or edit-only after shar
 
 > Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
 
-Open the collection you want to share and click ellipsis **(...)** > **Share**.
-
-![in app collection sharing](https://assets.postman.com/postman-docs/Side+nav+share+collection.jpg)
-
-Click **To a workspace** and select the workspace you want to share the collection with.
+In the chare modal, click **To a workspace** and select the workspace you want to share the collection with.
 
 ![in app collection sharing](https://assets.postman.com/postman-docs/Share+collection+to+workspace.jpg)
 
