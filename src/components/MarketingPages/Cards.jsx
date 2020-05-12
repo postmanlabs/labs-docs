@@ -15,7 +15,7 @@ export const LandingCard = ({
     <div className="landing-card__content">
       <h3 className="landing-card__content-title">{title}</h3>
       <p className="landing-card__content-description">{description}</p>
-      <a href={link} className="btn btn__primary">Read the Docs</a>
+      <a href={link} className="btn btn__primary">Learn more</a>
     </div>
   </div>
 );

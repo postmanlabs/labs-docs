@@ -1,16 +1,16 @@
 {
   "links": [
     {
-      "name": "Getting Started", 
-      "url": "/getting-started/"
+      "name": "Docs", 
+      "url": "/docs/"
     },{
-      "name": "Concepts",
-      "url": "/concepts/"
+      "name": "Admin",
+      "url": "/docs/"
     },{
-      "name": "Reference",
-      "url": "/reference/"
+      "name": "FAQs",
+      "url": "/docs/"
     },{
-      "name": "Docs",
+      "name": "Resources",
       "url": "/docs/"
     },{
       "name": "Dashboard",
