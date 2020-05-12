@@ -66,15 +66,15 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 
 Select this option to share a collection to another workspace or with a workspace member. If shared to a team workspace, the collection will be visible to others in the team.
 
-You can set team default permissions to either view-only or edit-only after sharing a collection. First, you share the collection and then assign a role. You also will be able to grant existing team members individual user permissions. The **Manage Roles** modal will automatically appear as part of the collection sharing process.
+After you have shared the collection, you can set your default permissions. You can assign a view-only or edit-only permission to the whole team, or you can grant individual user permissions to each team member. The **Manage Roles** modal will automatically appear at the end of the collection sharing process.
 
 > Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
 
-In the chare modal, click **To a workspace** and select the workspace you want to share the collection with.
+In the **Share modal**, click **To a workspace** and select the workspace you want to share the collection with.
 
 ![in app collection sharing](https://assets.postman.com/postman-docs/Share+collection+to+workspace.jpg)
 
-If you want to share the collection but keep it in the current workspace as well, click **Share collection**. If you want the collection to be removed from the current workspace after you share it, click **Share collection and remove from this workspace**.
+If you want to share the collection but keep it in the current workspace as well, click **Share collection**. If you want the collection to be removed from the current workspace after you share it, click **Share collection and remove from this workspace**. The default selection is **Share collection**.
 
 > When you remove a collection from a workspace, all mocks, montitors, and integrations associated with it will also be removed.
 
