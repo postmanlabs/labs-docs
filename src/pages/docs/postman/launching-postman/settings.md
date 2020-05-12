@@ -42,7 +42,7 @@ Postman tries to minimize the number of settings you have to change, so some def
 * **Always ask when closing unsaved tabs:** If you set this option to OFF, Postman does not prompt you to save changes in your unsaved tabs. By default, this option is set to "ON".
 * **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
 * **Request Timeout in ms (0 for infinity):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
-* **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/postman/collection-runs/using-environments-in-collection-runs/#configuring-the-collection-runner).
+* **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For more detail, refer to [sessions in Postman](/docs/postman/variables-and-environments/variables/#sessions-in-postman).
 * **Working Directory:** If you want Postman to persist your file paths, then you must save your files in Postman's default working directory. When you work with files in form-data request body and binary file body, save them in this directory to let Postman persist your file's path relative to the working directory. This means your files loaded from within the working directory run smoothly across devices if other users use the same files on their devices. Postman flags a warning for files that are not stored in this directory.
 
   However, delimiting the working directory can have some unintended security issues as follows:
@@ -77,7 +77,7 @@ This is where you can view keyboard shortcuts available for your operating syste
 
 ## Data Import / Export
 
-Import and export data in bulk inside Postman.  This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](/docs/postman/collections/data-formats/) in Postman.
+Import and export data in bulk inside Postman.  This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](/docs/postman/collections/importing-and-exporting-data/) in Postman.
 
 ## Add-ons
 
