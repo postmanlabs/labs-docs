@@ -1,5 +1,3 @@
-const queries = require('./src/utils/algolia');
-
 require('dotenv').config({
   path: `.env.${process.env.GATSBY_ACTIVE_ENV}`,
 });
@@ -17,16 +15,6 @@ module.exports = {
       options: {
         id: 'GTM-M42M5N',
         includeInDevelopment: true,
-      },
-    },
-    'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-plugin-algolia',
-      options: {
-        appId: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries,
-        chunkSize: 10000, // default: 1000
       },
     },
     {
