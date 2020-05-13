@@ -46,7 +46,7 @@ const IndexPage = () => (
           <p>
           Learn how to effectively use Postman in your API projects.
           </p>
-          <a href="/docs/" className="btn btn__primary">Explore the Docs</a>
+          <a href="/docs/" className="btn btn__primary">Explore the docs</a>
         </div>
         <div className="col-lg-7">
           <img src={HeroImage} className="hero-image" alt="Hero" />
@@ -59,33 +59,36 @@ const IndexPage = () => (
         <div className="row justify-content-center">
           <LandingCard
             title="Get Started"
-            description="Check out the Postman docs to start learning."
+            description="Learn the Postman fundamentals by reading the docs."
+            cta="Begin learning"
             link="https://learning.postman.com/docs/"
             icon={LearnImage}
           />
           <LandingCard
             title="Admin"
-            description="Manage your Postman account and set up your team for success."
+            description="Administer your account and set up your team for success."
             link="https://learning.postman.com/docs/"
+            cta="Manage Postman"
             icon={AdminImage}
           />
           <LandingCard
-            title="Resources"
-            description="Leverage Postman resources within your development pipeline."
+            title="Develop"
+            description="Leverage Postman utilities within your development pipeline."
             link="https://learning.postman.com/docs/"
+            cta="Discover resources"
             icon={ResourceImage}
           />
         </div>
         <div className="row justify-content-center">
           <SecondaryCard
-            title="Forum"
+            title="Community"
             description="Connect to the Postman community on our forum."
             cta="Visit Forum"
             ctaLink="https://community.postman.com/"
           />
           <SecondaryCard
             title="API Network"
-            description="Find templates for existing APIs and learn to use Postman."
+            description="Find templates for learning and connecting to existing APIs."
             cta="Browse Network"
             ctaLink="https://explore.postman.com/"
           />
