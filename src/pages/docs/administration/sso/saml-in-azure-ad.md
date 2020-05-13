@@ -1,6 +1,6 @@
 ---
-title: "Setting a custom SAML in Azure AD"
-order: 258
+title: "Custom SAML in Azure AD"
+order: 145
 page_id: "saml_in_azure_ad"
 warning: false
 contextual_links:

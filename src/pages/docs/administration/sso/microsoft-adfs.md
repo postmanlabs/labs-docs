@@ -1,6 +1,6 @@
 ---
-title: "Configuring Microsoft AD FS with Postman SSO"
-order: 257
+title: "Microsoft AD FS"
+order: 144
 page_id: "microsoft_adfs"
 warning: false
 contextual_links:

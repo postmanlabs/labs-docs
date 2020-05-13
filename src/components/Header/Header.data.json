@@ -2,16 +2,13 @@
   "links": [
     {
       "name": "Docs", 
-      "url": "/docs/"
+      "url": "/docs/getting-started/introduction/"
     },{
       "name": "Admin",
-      "url": "/docs/"
-    },{
-      "name": "FAQs",
-      "url": "/docs/"
+      "url": "/docs/administration/"
     },{
       "name": "Resources",
-      "url": "/docs/"
+      "url": "/docs/resources/"
     },{
       "name": "Dashboard",
       "url": "https://app.getpostman.com/",

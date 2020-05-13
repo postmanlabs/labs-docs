@@ -1,6 +1,6 @@
 ---
-title: 'Setting up custom SAML in Okta'
-order: 261
+title: 'Custom SAML in Okta'
+order: 148
 page_id: 'saml_okta'
 warning: false
 contextual_links:

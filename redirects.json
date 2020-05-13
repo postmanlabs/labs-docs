@@ -1,7 +1,15 @@
 [
     {
         "from": "/docs/",
-        "to": "/docs/postman/launching-postman/introduction/"
+        "to": "/docs/getting-started/introduction/"
+    },
+    {
+        "from": "/docs/administration/",
+        "to": "/docs/administration/admin-intro/"
+    },
+    {
+        "from": "/docs/resources/",
+        "to": "/docs/resources/resources-intro/"
     },
     {
         "from": "/docs/postman/scripts/postman-sandbox/",

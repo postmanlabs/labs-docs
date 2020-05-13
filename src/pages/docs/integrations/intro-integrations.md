@@ -1,6 +1,6 @@
 ---
-title: "Intro to Integrations"
-order: 281
+title: "Integrating with Postman"
+order: 161
 page_id: "intro_integrations"
 warning: false
 contextual_links:
