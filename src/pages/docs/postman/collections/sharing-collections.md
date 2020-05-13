@@ -40,7 +40,7 @@ Postman enables you to share Collections in Workspaces from the Postman app and 
 This topic covers:
 
 * [Sharing collections in the app](#sharing-collections-in-the-app)
-* [Sharing collections in another workspace](#sharing-collections-in-another-workspace)
+* [Sharing collections with another workspace](#sharing-collections-with-another-workspace)
 * [Sharing collections in the Dashboard](#sharing-collections-in-the-dashboard)
 * [Sharing as a file](#sharing-as-a-file)
 * [Modifying team permissions](#modifying-team-permissions)
