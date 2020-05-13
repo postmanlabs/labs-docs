@@ -80,7 +80,7 @@ If you want to share the collection but keep it in the current workspace as well
 
 ![Adjust roles](https://assets.postman.com/postman-docs/Adjust+roles+with+shared+collections.jpg)
 
-Adjust your roles and permissions, and click **Save Roles**.
+Select roles for collaborators in the workspace, and click **Save Roles**.
 
 > To restore a collection to a workspace, share it again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
 
