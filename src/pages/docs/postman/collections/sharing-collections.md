@@ -82,7 +82,7 @@ If you want to share the collection but keep it in the current workspace as well
 
 Select roles for collaborators in the workspace, and click **Save Roles**.
 
-> If you want to restore a collection to a workspace it's  been removed from, share it again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
+> If you want to restore a collection to a workspace it's  been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
 
 ## Sharing collections with the Embed or Run In Postman button
 
