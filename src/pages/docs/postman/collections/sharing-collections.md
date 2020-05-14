@@ -66,7 +66,7 @@ The **SHARE COLLECTION** modal appears. It offers three ways to share a collecti
 
 Select this option to share a collection to another workspace or with a workspace member. If shared to a team workspace, the collection will be visible to others in the team.
 
-After you have shared the collection, you can set your default permissions. You can assign a view-only or edit-only permission to the whole team, or you can grant individual user permissions to each team member. The **Manage Roles** modal will automatically appear at the end of the collection sharing process.
+You can set default permissions on a shared collection. You can assign a view-only or edit-only permission to the whole team, or you can grant individual user permissions to each team member. The **Manage Roles** modal will automatically appear at the end of the collection sharing process.
 
 > Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
 
