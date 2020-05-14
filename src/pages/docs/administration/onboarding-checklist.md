@@ -31,10 +31,10 @@ If you're just getting started using Postman within your organization, you can c
 
 ## Setting up Postman
 
-Make sure everyone who uses Postman has the latest version by downloading it from [the Postman website](https://www.getpostman.com/downloads/). You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
+Make sure everyone who uses Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/). You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
-* Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.getpostman.com/downloads/) to the IT team to help establish this exception.
-* If your organization's network connection is facilitated via a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​setup within Postman](https://learning.getpostman.com/docs/postman/sending_api_requests/proxy/)​.
+* Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
+* If your organization's network connection is facilitated via a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​setup within Postman](/docs/postman/sending_api_requests/proxy/)​.
 * It is recommended that your IT team whitelist Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by whitelisting the following domains:
 
     * `*.postman.com`
@@ -68,7 +68,7 @@ Ensure you are connected to your organization's network and test the following:
 * Can you execute a request to one of your internal/private APIs?
 * Save a request inside a [​Collection​](/docs/postman/collections/creating_collections). Visit `​go.postman.co`​, has your collection and request synced with Postman’s cloud?
 
-Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! Else, if you experienced a hiccup, [​contact Postman support](https://getpostman.com/support) and please read on.
+Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! Else, if you experienced a hiccup, [​contact Postman support](https://postman.com/support) and please read on.
 
 ### Enable Team Discovery
 
