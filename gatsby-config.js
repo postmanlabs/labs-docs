@@ -134,5 +134,11 @@ module.exports = {
         crossorigin: false, // Optional
       },
     },
+    {
+      resolve: `gatsby-plugin-env-variables`,
+      options: {
+        whitelist: ['MUNCHKIN_ID']
+      },
+    },
   ],
 };

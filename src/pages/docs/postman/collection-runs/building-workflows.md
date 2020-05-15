@@ -33,7 +33,7 @@ Let's look at a sample collection to understand this function.
 
 ## Getting started
 
-Before you start, download and [import](/docs/postman/collections/data-formats/) [collection.json](https://assets.postman.com/postman-docs/58793802.json) for the example we'll discuss in this topic.
+Before you start, download and [import](/docs/postman/collections/importing-and-exporting-data/#importing-postman-data) [collection.json](https://assets.postman.com/postman-docs/58793802.json) for the example we'll discuss in this topic.
 
 ## Basic workflow
 

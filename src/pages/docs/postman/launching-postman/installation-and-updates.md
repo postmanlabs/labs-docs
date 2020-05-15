@@ -118,7 +118,7 @@ Alternatively, if you don't want to sign in to your Postman account, you can bul
 
 ![Import Export Data](https://assets.postman.com/postman-docs/export-data.jpg)
 
-> Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/postman/collections/data-formats/#importing-postman-data).
+> Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/postman/collections/importing-and-exporting-data/#importing-postman-data).
 
 ## Updating Postman
 
