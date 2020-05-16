@@ -130,5 +130,15 @@ module.exports = {
         whitelist: ['MUNCHKIN_ID']
       },
     },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: 'UA-43979731-4',
+          anonymize: true
+        },
+        environments: ['production', 'development']
+      }
+    },
   ],
 };
