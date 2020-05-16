@@ -9,6 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import CookieAlert from './CookieAlert';
 import marketo from '../../scripts/marketo.munchkin';
 import './layout.scss';
 
@@ -19,6 +20,7 @@ const Layout = ({ children }) => (
       <Header />
       <main>{children}</main>
       <Footer />
+      <CookieAlert />
       {marketo()}
     </div>
   </>
