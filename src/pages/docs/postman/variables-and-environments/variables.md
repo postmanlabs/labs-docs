@@ -283,7 +283,7 @@ Your local session in Postman can use values that are transient and only visible
 
 When you create or edit a variable, you can enter both an initial and a current value. You can choose to leave the current value empty, in which case it will default to the initial value. If you specify a current value, it will be local only to your instance—the __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
 
-> You can only edit the initial value__ of an environment variable if you have edit access to the environment itself. If you have viewer access to the environment, you can only edit the current value and your edit will not be visible to anyone sharing your [workspace](/docs/postman/workspaces/intro-to-workspaces/).
+> You can only edit the initial value of an environment variable if you have edit access to the environment itself. If you have viewer access to the environment, you can only edit the current value and your edit will not be visible to anyone sharing your [workspace](/docs/postman/workspaces/intro-to-workspaces/).
 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
 

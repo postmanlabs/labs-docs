@@ -166,7 +166,7 @@ You can edit variables by opening the environment quick look (eye button) at the
 
 ![Edit environment](https://assets.postman.com/postman-docs/edit-environment-name.jpg)
 
-Edit the environment name, or the names and values of your variables, bearing in mind that __Initial__ values will be synced with your Postman account and shared with any collaborators who have access to the environment. Click __Update__ when your edits are complete.
+Edit the environment name, or the names and values of your variables, bearing in mind that __Values__ will be synced with your Postman account and shared with any collaborators who have access to the environment. Click __Update__ when your edits are complete.
 
 ![Viewer role on environment](https://assets.postman.com/postman-docs/viewer-role-environment.jpg)
 
@@ -200,7 +200,7 @@ If you are working with multiple variables with the same name at different [scop
 
 ![Overridden value](https://assets.postman.com/postman-docs/overridden-environment-variable.jpg)
 
-When you collaborate with your team in a shared workspace, any global variables you create and update will be available to others in the workspace. You can use the __current__ value of global variables to restrict certain values from collaborators, but by default the __initial__ value of a global variable is generally accessible throughout the space.
+When you collaborate with your team in a shared workspace, any global variables you create and update will be available to others in the workspace. You can use the __Current Value__ of global variables to restrict certain values from collaborators, but by default the __Initial Value__ of a global variable is generally accessible throughout the space.
 
 By specifying role-based access to your environments, you can achieve a finer grained control level over your variable values. You can choose to share an environment within your workspace to make it available to team members—and specify access levels for each individual.
 
@@ -226,7 +226,7 @@ You can also remove a shared environment from a workspace in __Manage Environmen
 
 ### Managing environment roles
 
-If you use personal credentials in your requests and the requests are pulling these from a shared environment (for example a variable storing an API secret value), you can restrict visibility of your credentials by only storing them in the __current__ value of the variable. If you're managing an environment that's shared across a team, you can restrict edit access so that most of your team only has viewer role on the environment, which prevents them from accidentally updating the shared value and leaking credentials. Similarly, you can prevent accidental changes to values by restricting the number of team members who have edit access to your environment.
+If you use personal credentials in your requests and the requests are pulling these from a shared environment (for example a variable storing an API secret value), you can restrict visibility of your credentials by only storing them in the current value of the variable. If you're managing an environment that's shared across a team, you can restrict edit access so that most of your team only has viewer role on the environment, which prevents them from accidentally updating the shared value and leaking credentials. Similarly, you can prevent accidental changes to values by restricting the number of team members who have edit access to your environment.
 
 In order to effectively leverage environments to preserve security and minimize the risk of accidental changes to variables, group your variables into environments you need to share as a coherent set, and then configure each user role so that access is only granted where it's required, and that you can identify the potential source of accidental changes.
 
@@ -234,13 +234,13 @@ When you open the quick look (eye button) for an environment you will see an ind
 
 ![Readonly environment](https://assets.postman.com/postman-docs/readonly-environment.jpg)
 
-Viewer access allows collaborators to use variable values in their work, but they can only edit the __initial__ value of a variable if they have edit access to the environment as a whole.
+Viewer access allows collaborators to use variable values in their work, but they can only edit the initial value of a variable if they have edit access to the environment as a whole.
 
 ### Using an environment in viewer role
 
-If you have view access to an environment, you will be able to access the value of the variables to use them in your requests, but will not be able to update the __initial__ value, which is shared with your team. You can update the __current__ value, but this is not shared with anyone on your team or synced with your Postman account.
+If you have view access to an environment, you will be able to access the value of the variables to use them in your requests, but will not be able to update the __Initial Value__, which is shared with your team. You can update the __Current Value__, but this is not shared with anyone on your team or synced with your Postman account.
 
-If you are using sensitive data like API credentials, it's safer to use the __current__ value of an environment variable for these. You will not be able to __persist__ the current values to update the initial values of environment variables without edit access to the environment. You can use the __reset__ option to update your local current values with the shared initial value at any time.
+If you are using sensitive data like API credentials, it's safer to use the current value of an environment variable for these. You will not be able to __Persist__ the current values to update the initial values of environment variables without edit access to the environment. You can use the __Reset__ option to update your local current values with the shared initial value at any time.
 
 #### Requesting environment access
 
@@ -256,9 +256,9 @@ You will receive an email when your request is approved.
 
 ### Using an environment in editor role
 
-If you have edit access to an environment, you can update the variable values from the Postman app UI and from your scripts. If you are using sensitive data such as personal or development / test credentials, make sure you only update these in the __current__ value of a variable so that you do not accidentally share this information with your team.
+If you have edit access to an environment, you can update the variable values from the Postman app UI and from your scripts. If you are using sensitive data such as personal or development / test credentials, make sure you only update these in the current value of a variable so that you do not accidentally share this information with your team.
 
-When you edit the __initial__ value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with Postman's servers.
+When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with Postman's servers.
 
 With editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but do not have the editor role, you can [request access](#requesting-environment-access).
 
