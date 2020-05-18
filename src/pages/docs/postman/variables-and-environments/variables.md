@@ -17,28 +17,16 @@ contextual_links:
     name: "How to use global variables in Postman"
     url: "https://www.youtube.com/watch?v=TU1i1CgjVR8"
   - type: link
-    name: "How to use environments in Postman"
-    url:  "https://www.youtube.com/watch?v=wArvaHYdw2I"
-  - type: link
     name: "New to Postman: Chaining requests"
     url: "https://www.youtube.com/watch?v=shYn3Ys3ygE"
-  - type: link
-    name: "Working with sessions"
-    url: "https://youtu.be/JcSZtVwH69w"
   - type: subtitle
     name: "Related Blog Posts"
-  - type: link
-    name: "Dynamically unset environment variables"
-    url: "https://blog.postman.com/2019/05/28/pro-tip-dynamically-unset-postman-environment-variables/"
   - type: link
     name: "Find and replace text, code, and variables"
     url: "https://blog.postman.com/2018/11/13/find-and-replace-text-code-and-variables-in-postman/"
   - type: link
     name: "10 tips for working with variables"
     url: "https://blog.postman.com/2017/12/29/10-tips-for-working-with-postman-variables/"
-  - type: link
-    name: "Sessions FAQ"
-    url:  "https://blog.postman.com/2018/08/09/sessions-faq/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -148,7 +136,7 @@ Alternatively, click __Manage environments__ and select the relevant environment
 
 <img alt="Manage Environments" src="https://assets.postman.com/postman-docs/manage-env.jpg" width="400px"/>
 
-![Environments](https://assets.postman.com/postman-docs/environments.jpg)
+![Manage Environments](https://assets.postman.com/postman-docs/manage-environments-open.jpg)
 
 > See [Managing environments](/docs/postman/variables-and-environments/managing-environments/) for more on working with environments in Postman.
 
@@ -302,6 +290,8 @@ Using __Persist__ will make your current value sync with Postman's servers and b
 You can edit a current value inline from the Environment quick look:
 
 <img alt="Edit Current Value" src="https://assets.postman.com/postman-docs/edit-current.jpg" width="500px"/>
+
+See [Managing environments](/docs/postman/variables-and-environments/managing-environments/#creating-environments) for more on working with variables as a team.
 
 > Local and data variables only have current values, which do not persist beyond request or collection runs.
 
