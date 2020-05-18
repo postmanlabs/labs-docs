@@ -30,43 +30,65 @@ contextual_links:
 
 ---
 
-Welcome to the Postman docs!
+Welcome to the Postman docs! This is the place to find official information on using Postman in your API projects.
 
-Postman is a collaboration platform for API development. You can use Postman to design, build, and test APIs in conjunction with your teammates, and to support developer adoption.
+What are you here to learn about?
 
-Check out the following links to start learning.
+* [__APIs and Postman__](#apis-and-postman)
+* [__Making API requests__](#making-api-requests)
+* [__Producing APIs__](#producing-apis)
+* [__Collaborating within your organization__](#collaborating-within-your-organization)
+* [__Developing with Postman__](#developing-with-postman)
 
-### Getting started
+## APIs and Postman
 
-> [__Sending your first request__](/docs/postman/launching-postman/sending-the-first-request/)
->
-> [__Grouping requests into collections__](/docs/postman/launching-postman/creating-the-first-collection/)
->
-> [__Configuring request details__](/docs/postman/sending-api-requests/requests/)
+If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the app itself:
 
-### Developing with Postman
+* [Sending your first request](/docs/getting-started/sending-the-first-request/)—explore the other topics in __Getting Started__.
+* Using the __Bootcamp__ to work through lessons inside Postman.
+* Exploring [templates](https://explore.postman.com/) to try out, like [Learn by API](https://explore.postman.com/templates/7499/learn-by-api), which walks you through API concepts.
 
-> [__Authenticating your requests__](/docs/postman/sending-api-requests/authorization/)
->
-> [__Automating workflows with collection runs__](/docs/postman/collection-runs/intro-to-collection-runs/)
->
-> [__Scripting in Postman__](/docs/postman/scripts/intro-to-scripts/)
+## Making API requests
 
-### Testing with Postman
+If you're building a client app, you can connect to the API in Postman:
 
-> [__Writing test scripts__](/docs/postman/scripts/test-scripts/)
->
-> [__Using variables__](/docs/postman/variables-and-environments/variables/)
->
-> [__Monitoring API performance__](/docs/postman/monitors/intro-monitors/)
+* [Connecting to APIs](/docs/sending-requests/requests/)
+* [Authorizing requests](/docs/sending-requests/authorization/)
+* [Grouping requests in collections](/docs/building-and-running-collections/intro-to-collections/)
+* [Visualizing data](/docs/sending-requests/visualizer/)
 
-### Product management with Postman
+## Testing APIs
 
-> [__Documenting your API__](/docs/postman/api-documentation/documenting-your-api/)
->
-> [__Collaborating with teammates__](/docs/postman/collaboration/collaboration-intro/)
->
-> [__Visualizing API responses__](/docs/postman/sending-api-requests/visualizer/)
+If you're testing an API, you can use Postman to automate various parts of the process:
+
+* [Writing test scripts](/docs/writing-scripts/test-scripts/)
+* [Using variables](/docs/sending-requests/variables/)
+* [Automating workflows with the collection runner](/docs/building-and-running-collections/running-collections/intro-to-collection-runs/)
+
+## Producing APIs
+
+If you or your organization is exposing an API for public use, Postman can help support various aspects of onboarding and API management:
+
+* [Creating an API from scratch](/docs/designing-and-developing-your-api/the-api-workflow/)
+* [Publishing documentation](/docs/publishing-your-api/documenting-your-api/)
+* [Building adoption](/docs/publishing-your-api/add-api-network/)
+* [Analyzing API performance](/docs/designing-and-developing-your-api/observing-your-api/intro-monitors/)
+
+## Collaborating within your organization
+
+If you're using Postman in your company or team, check out these guides to maximize on your collaboration:
+
+* [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
+* [Managing Postman for an organization](/docs/administration/admin-intro/)
+* [Onboarding your team](/docs/administration/onboarding-checklist/)
+* [Setting up an integration](/docs/integrations/intro-integrations/)
+
+## Developing with Postman
+
+If you're integrating Postman with your CI/CD workflow or are developing with Postman APIs or libraries, check out these resources:
+
+* [Integrating with a development pipeline](/docs/building-and-running-collections/using-newman/command-line-integration-with-newman/)
+* [Developing with Postman utilities](/docs/resources/resources-intro/)
 
 ## Providing feedback
 
