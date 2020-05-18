@@ -138,15 +138,15 @@ You can use environments to set variables that will be available in your documen
 
 Associating an environment with your documentation means that the values of any environment variables your requests reference will automatically populate in the doc content. Anyone using the __Run in Postman__ button from your docs will also be able to access the shared environment when they import the collection into their Postman app.
 
-To use a variable value in your documentation, [create](/docs/postman/variables-and-environments/variables/) or select an environment.
+To use a variable value in your documentation, [create](/docs/postman/variables-and-environments/managing-environments/#creating-environments) or select an environment.
 
 ![Environment Quick Look](https://assets.postman.com/postman-docs/env-quick.jpg)
 
-[Add the new variable](/docs/postman/variables-and-environments/variables/) if you haven't already done so.
+[Add the new variable](/docs/postman/variables-and-environments/managing-environments/#adding-environment-variables) if you haven't already done so.
 
 ![Environment Variable](https://assets.postman.com/postman-docs/env-var.jpg)
 
-When you [reference a variable](/docs/postman/variables-and-environments/variables/) in your requests, the value from the selected environment will automatically be published along with your documentation.
+When you [reference a variable](/docs/postman/variables-and-environments/variables/#accessing-variables) in your requests, the value from the selected environment will automatically be published along with your documentation.
 
 ![Reference Variable](https://assets.postman.com/postman-docs/reference-var.jpg)
 
