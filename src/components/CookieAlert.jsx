@@ -6,7 +6,7 @@ const CookieAlert = () => (
   <div className="CookieWrapper">
     <CookieConsent
       location="bottom"
-      buttonText="Accept and Close"
+      buttonText="Close"
       cookieName="gatsby-gdpr-google-analytics"
       style={{
         display: 'block',
