@@ -101,8 +101,6 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 >If your teammate has disabled notifications then they will not be notified.
 
-[![receive comment](https://assets.postman.com/postman-docs/receivecomment.png)](https://assets.postman.com/postman-docs/receivecomment.pn
-
 ![Notification bell](https://assets.postman.com/postman-docs/Postman+app+notifications+.jpg)
 
 ## Next steps
