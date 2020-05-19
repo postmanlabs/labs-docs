@@ -17,6 +17,7 @@ const FooterColumn = () => {
       const links = col.children.map((link) => (
         <li key={link.name}>
           <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
+          <span><a className="span" href="https://www.postman.com/jobs/">{link.span}</a></span>
         </li>
       ));
 

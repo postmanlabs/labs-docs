@@ -40,11 +40,11 @@ Choose your client certificate key file in the **KEY file** field.
 
 If you used a passphrase while generating the client certificate, you’ll need to supply the passphrase in the **Passphrase** field. Otherwise, leave it blank.
 
-[![add certificate](https://cloud.githubusercontent.com/assets/7689783/19721093/75d764c8-9b8e-11e6-85c2-feff9eea4345.png)](https://cloud.githubusercontent.com/assets/7689783/19721093/75d764c8-9b8e-11e6-85c2-feff9eea4345.png)
+[![add certificate](https://assets.postman.com/postman-docs/addcertificate.png)](https://assets.postman.com/postman-docs/addcertificate.png)
 
 Once your certificate is added, it should appear in the client certificates list.
 
-[![client certificates list](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
+[![client certificates list](https://assets.postman.com/postman-docs/clientcertificateslist.png)](https://assets.postman.com/postman-docs/clientcertificateslist.png)
 
 **NOTE:** You should not have multiple certificates set for the same domain. If you have multiple ones set, only the last one added will be used.
 
@@ -56,13 +56,13 @@ You can verify this. To do so, open up your Postman console (**CMD/CTRL + ALT + 
 
 Now, send a request to [`https://echo.getpostman.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722). Keep the Postman Console open if Postman version is lower than `v7.10`. Notice we’re using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman console to see your request. If you expand your request, you will be able to see which certificate was sent along with the request.
 
-[![Postman console view](https://cloud.githubusercontent.com/assets/7689783/19721699/0ccdeada-9b91-11e6-98af-eb08f8e68f5b.png)](https://cloud.githubusercontent.com/assets/7689783/19721699/0ccdeada-9b91-11e6-98af-eb08f8e68f5b.png)
+[![Postman console view](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)
 
 ## Removing a Certificate
 
 To remove a certificate, use the **Remove** link next to the certificate under the **Certificates** tab in the Settings.
 
-[![remove certificate](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
+[![remove certificate](https://assets.postman.com/postman-docs/removecertificate.png)](https://assets.postman.com/postman-docs/removecertificate.png)
 
 ## Editing a Certificate
 

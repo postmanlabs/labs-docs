@@ -58,9 +58,13 @@ To view documentation for a collection you have access to in the Postman app, se
 
 ![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
-By default you will see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, examples, and any shared environments. Documentation authors can optionally include other details.
+At the top, you will see any environment shared with the documented collection, the sample code language, and the layout of the documentation. You can change the environment, language, and layout.
 
-![Public Documentation](https://assets.postman.com/postman-docs/documentation-published.jpg)
+![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
+
+You will also see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
+
+![Public Documentation](https://assets.postman.com/postman-docs/Request+details+in+public+documentation.jpg)
 
 > The private URL is only accessible to Postman users logged in with appropriate permissions. To make documentation viewable publicly, you can [publish it](/docs/postman/api-documentation/publishing-your-docs/).
 
@@ -71,10 +75,6 @@ You can alternatively access documentation by selecting the __Browse__ view in t
 If the documentation you are viewing has multiple versions published, you can select a specific version to view.
 
 <img alt="Docs Versions" src="https://assets.postman.com/postman-docs/docs-versions.jpg" width="400px"/>
-
-You can also choose between any environments included with the documentation you are viewing, and can switch between double and single column layout.
-
-![Docs Columns](https://assets.postman.com/postman-docs/docs-cols.jpg)
 
 ### Commenting on documentation
 
@@ -91,6 +91,14 @@ You can add a comment to join in the discussion. Comments on documentation refle
 You can access [public documentation](/docs/postman/api-documentation/publishing-your-docs/) through a URL in your web browser. Postman generates the URL when the documentation is published—the URL is also accessible from the [web dashboard](https://web.postman.co/).
 
 ![Public Doc Link](https://assets.postman.com/postman-docs/public-doc-link.jpg)
+
+When you view public documentation, you will see any shared environments, the layout, and the sample code language at the top. You can expand the menu of any of these details to change them.
+
+![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
+
+For each request, you will see a description of the request, the method and URL, and any headers or parameters. On the right, you will see examples of requests and responses in the language selected.
+
+![Public Documentation](https://assets.postman.com/postman-docs/Request+details+in+public+documentation.jpg)
 
 ## Next steps
 

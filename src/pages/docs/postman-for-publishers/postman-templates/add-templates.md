@@ -71,6 +71,8 @@ To set up your profile, click __Public Profile Settings__ or navigate to [your s
 
 You can customize your profile URL and name, and add a description people will see alongside your templates. You can also set a profile photo from your [account settings](https://go.postman.co/settings/me).
 
+> Customizing your profile URL will change your username, and that change will be reflected across all of your Postman elements, such as collections and documentation. You will also sign in to Postman with the new username.
+
 ![Personal Profile Settings](https://assets.postman.com/postman-docs/personal-profile-settings.jpg)
 
 > If you choose to disable your profile, you won't be able to publish any new templates, and any previously published will be unpublished.

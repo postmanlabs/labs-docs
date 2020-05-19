@@ -574,5 +574,9 @@
     {
         "from": "/docs/v6/postman/sending_api_requests/authorization",
         "to": "/docs/postman/sending-api-requests/authorization/"
+    },
+    {
+        "from": "/docs/postman/collections/data-formats/",
+        "to": "/docs/postman/collections/importing-and-exporting-data/"
     }
 ]

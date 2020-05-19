@@ -179,7 +179,7 @@ As soon as you click on 'API' under Advanced section, a new "Untitled API" is cr
 
 [![New API](https://assets.postman.com/postman-docs/new-api.png)](https://assets.postman.com/postman-docs/new-api.png)
 
-Look at the [API Workflow](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/) to get the most out of your API.
+Use the [API Builder](/docs/postman/design-and-develop-apis/the-api-workflow/) to make best use of Postman on your API development projects.
 
 ## Templates
 

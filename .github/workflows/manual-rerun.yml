@@ -23,4 +23,5 @@ jobs:
     - name: running unit tests
       run: |
         npm install
+        npm run clean
         npm run test:update
