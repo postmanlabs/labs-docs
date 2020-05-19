@@ -111,7 +111,7 @@ Variable scopes are suited to different tasks in Postman:
 * __Collection variables__ are available throughout the requests in a collection and are independent of environments, so do not change based on the selected environment.
     * _Collection variables are suitable if you are only using a single environment, for example for auth / URL details._
 * __Environment variables__ allow you to tailor your processing to different environments, for example local development vs testing or production. Only one environment can be active at a time.
-    * _If you only have one environment, using collection variables can be more efficient, however environments allow you to specify role-based access levels._
+    * _If you only have one environment, using collection variables can be more efficient, however environments allow you to specify [role-based access levels](/docs/postman/variables-and-environments/managing-environments/#working-with-environments-as-a-team)._
 * __Local variables__ are temporary, and only accessible in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete.
     * _Local variables are suitable if you need a value to override all other variable scopes but do not want the value to persist once execution has ended._
 * __Data variables__ come from external CSV and JSON files to define data sets you can use when running collections via Newman or the Collection Runner.
@@ -126,11 +126,13 @@ You can define variables in a variety of ways, depending on whether you need [gl
 
 ### Defining global and environment variables
 
-To create or edit a variable at global or environment scope, use the __Environment quick Look__ and click __Edit__ next to the environment or global variable.
+You can create and edit global and environment variables using the __Environment quick Look__. Select your target environment in the drop-down to see its variables in the quick look. You can edit the current value for an existing variable inline, by clicking the value. To add a variable, click __Edit__ next to the environment or global section.
+
+> You can only add and edit variables in environments if you have edit access to the environment as a whole. If you have view access, you can update the current value of existing variables only. Any variables you edit in viewer mode will only be accessible to you, and not available to collaborators in your [workspace](/docs/postman/workspaces/intro-to-workspaces/).
 
 ![Environment Quick Look](https://assets.postman.com/postman-docs/env-quick-look.jpg)
 
-> The quick look view provides a reference to the current state of any global or environment variables you're working with—you can also access the quick look using the keyboard shortcut `CMD/CTRL + ALT + E`.
+> You can also access the quick look using the keyboard shortcut `CMD/CTRL + ALT + E`.
 
 Alternatively, click __Manage environments__ and select the relevant environment, or click __Globals__.
 
@@ -138,7 +140,7 @@ Alternatively, click __Manage environments__ and select the relevant environment
 
 ![Manage Environments](https://assets.postman.com/postman-docs/manage-environments-open.jpg)
 
-> See [Managing environments](/docs/postman/variables-and-environments/managing-environments/) for more on working with environments in Postman.
+> See [Managing environments](/docs/postman/variables-and-environments/managing-environments/) for more on working with environments in your team.
 
 Once you have your scope selected, you can [specify the variable detail](#specifying-variable-detail).
 
@@ -149,8 +151,6 @@ You can also [define global and environment variables in scripts](#defining-vari
 To create or edit a variable for an existing collection, select the collection in __Collections__ on the left of the Postman app, open the __View more actions__ (__...__) menu, and click __Edit__.
 
 <img alt="Edit Collection" src="https://assets.postman.com/postman-docs/edit-collection-var.jpg" width="350px"/>
-
-> You can only edit variables in environments if you have edit access to the environment as a whole. If you have view access, you can update the current value of a variable only. Any variables you add in viewer mode will only be accessible to you, and not available to collaborators in your [workspace](/docs/postman/workspaces/intro-to-workspaces/).
 
 Choose the __Variables__ tab to edit or add to your collection variables.
 
@@ -273,7 +273,7 @@ pm.environment.get("variable_key");
 
 ## Sharing and persisting data
 
-When you edit global, collection, and environment variables in Postman, you will see __Current Value__, __Persist__, and __Reset__ options for individual variables and for all variables. These allow you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your requests, collections, and environments.
+When you edit global, collection, and environment variables in Postman, you will see __Current Value__, __Persist__, and __Reset__ options for individual variables and for all variables. These allow you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
 
 ![Persist Variables](https://assets.postman.com/postman-docs/persist-var.jpg)
 
@@ -287,7 +287,7 @@ When you create or edit a variable, you can enter both an initial and a current 
 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
 
-You can edit a current value inline from the Environment quick look:
+You can edit a current value inline from the environment quick look:
 
 <img alt="Edit Current Value" src="https://assets.postman.com/postman-docs/edit-current.jpg" width="500px"/>
 
