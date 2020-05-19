@@ -20,6 +20,7 @@ const SearchBox = ({ currentRefinement, refine }) => (
 export const CustomSearchBox = connectSearchBox(SearchBox);
 
 // on page load do not display
+/* eslint-disable react/no-danger */
 const Hits = ({ hits }) => (
   // if parent component set is type, render, otherwise hide
   <ul className="style">
@@ -43,5 +44,6 @@ const Hits = ({ hits }) => (
     ))}
   </ul>
 );
+/* eslint-enable */
 
 export const CustomHits = connectHits(Hits);

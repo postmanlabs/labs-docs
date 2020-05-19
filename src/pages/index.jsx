@@ -20,10 +20,6 @@ const heroMargin = {
   margin: '0 auto',
   maxWidth: '1200px',
 };
-const videoStyle = {
-  padding: '0px 40px',
-  marginTop: '80px',
-};
 const landingBottom = {
   padding: '40px',
   backgroundColor: '#eaf2f8',

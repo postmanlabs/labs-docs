@@ -36,7 +36,7 @@ const CookieAlert = () => (
     >
       This website uses cookies to ensure you get the best experience on our website.
       {' '}
-      <strong><a href="https://www.postman.com/licenses/privacy/#Automatic" rel="noopener" target="_blank" style={{ color: 'black', textDecoration: 'underline' }}>Learn more</a></strong>
+      <strong><a href="https://www.postman.com/licenses/privacy/#Automatic" rel="noopener noreferrer" target="_blank" style={{ color: 'black', textDecoration: 'underline' }}>Learn more</a></strong>
     </CookieConsent>
   </div>
 );
