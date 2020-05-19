@@ -266,6 +266,9 @@ If you have edit access to an environment, you can update the variable values fr
 
 When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with the Postman servers.
 
+> If you uncheck (deselect) a variable in your environment, it will only be available to collaborators who also have edit access to the environment (and its enabled / disabled status will be reflected for them). Anyone with viewer role on the environment will not see the unchecked variable.
+> ![Disable environment variable](https://assets.postman.com/postman-docs/disable-environment-variable.jpg)
+
 With editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but do not have the editor role, you can [request access](#requesting-environment-access).
 
 ## Next steps
