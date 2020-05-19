@@ -24,13 +24,17 @@ contextual_links:
 warning: false
 ---
 
-There might be cases when your API doesn't work, or exhibits unexpected behavior. If you're not getting any response, Postman will display a message about an error in connecting to the server.
+There are many possible reasons for your API requests not behaving as expected.
 
-[![no response message](https://assets.postman.com/postman-docs/WS-troubleshooting-APIs.png)](https://assets.postman.com/postman-docs/WS-troubleshooting-APIs.png)
+You will see a message if Postman is not able to send your request or does not receive a response from the API you sent the request to. The message will include an overview of the issue and a link to the console.
 
-For more details about the possible causes of the error, open the [Postman Console](/docs/postman/sending-api-requests/debugging-and-logs/). It has detailed information about the failure.
+![Request not sent](https://assets.postman.com/postman-docs/request-not-sent-message.jpg)
 
-Consider these issues as you troubleshoot API requests.
+Click __View in Console__ to see the request detail in the [console](/docs/postman/sending-api-requests/debugging-and-logs/) and find out more information about what went wrong.
+
+![Error in console](https://assets.postman.com/postman-docs/error-in-console-detail.jpg)
+
+Read on for some common issues that may cause your request to fail.
 
 ## Connectivity issues
 
