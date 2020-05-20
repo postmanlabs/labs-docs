@@ -12,7 +12,7 @@ class EditDoc extends Component {
 
   componentDidMount() {
     this.setState({
-      pathRoute: location.pathname.slice(0, -1),
+      pathRoute: window.location.pathname.slice(0, -1),
     });
   }
 
