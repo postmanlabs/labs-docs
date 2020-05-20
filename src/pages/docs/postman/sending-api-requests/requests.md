@@ -336,7 +336,7 @@ Postman will indicate any whitespace / potentially invalid characters in parts o
 
 <img alt="Invalid Characters" src="https://assets.postman.com/postman-docs/invalid-character-message.jpg" width="400px"/>
 
-If Postman is not able to send your request or does not receive a response, you will see error detail.
+If Postman is not able to send your request or does not receive a response, you will see details outlining the error.
 
 ![Could not send request](https://assets.postman.com/postman-docs/could-not-send-request.jpg)
 
