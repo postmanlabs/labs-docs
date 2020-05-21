@@ -16,11 +16,6 @@ contextual_links:
   - type: link
     name: "The Postman Console"
     url: "https://blog.postman.com/2016/08/26/the-postman-console/"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "New console features in Postman v7.10"
-    url: "https://www.youtube.com/watch?v=XCfSYT9g0BU"
   - type: section
     name: "Next Steps"
   - type: link
@@ -52,7 +47,7 @@ The Postman console logs the following information:
 
 Using log statements at appropriate locations in the scripts will help extract the exact line of code that is acting up. If you know your way around `console.log()` in JavaScript, this is similar.
 
-### For the native app for Mac / Windows / Linux
+## DevTools in the Postman app
 
 Head to "View" in the application menu, and click on "Show Postman Console" or use the keyboard shortcut **(CMD/CTRL + ALT + C)** to open the console. Similar to DevTools, every call along with its headers, network information, and payloads will be logged to the Postman console.
 
@@ -64,13 +59,7 @@ Within this console, there's a number of settings and helpers, such as searching
 
 Keeping the console window open will increase the visibility of your network calls and log messages while debugging. The power of this console is only limited by your imagination, and also the last 5K messages and 24 hours.
 
-### For the Chrome app
-
-You can also use the DevTools window to inspect the request and response payloads. If the Interceptor is disabled, switch to the **Network** tab, and you should see each call as it's made. This is a good way to inspect the headers and payloads for the requests and responses:
-
-[![show DevTools console](https://assets.postman.com/postman-docs/errors-network.png)](https://assets.postman.com/postman-docs/errors-network.png)
-
-## DevTools Console Logs
+## Console logs
 
 In addition to the network calls and user logs that the Postman console provides, the DevTools console is where you can also find internal debugging entries for the Postman app.
 
@@ -80,17 +69,56 @@ If you've tried unsuccessfully [troubleshooting](/docs/postman/sending-api-reque
 
 To access the console logs for DevTools, follow these steps:
 
-### For the native app for Mac / Windows / Linux
-
 - Head to "View" in the application menu, and click on "Show DevTools".
 - In the DevTools window, clicking on the top level **Console** tab will display the app's debug logs.
 
 [![DevTools view of logs](https://assets.postman.com/postman-docs/errors-console.png)](https://assets.postman.com/postman-docs/errors-console.png)
 
-### For the Chrome app
+## Using the console
 
-- Type `chrome://flags/#debug-packed-apps` in the URL bar of your Chrome browser window.
-- Search for "packed" or try to find the "Enable debugging for packed apps" setting.
-- Enable the setting.
-  [![enable in chrome settings](https://assets.postman.com/postman-docs/flags.png)](https://assets.postman.com/postman-docs/flags.png)
-- Restart Chrome. Once this is done, you can access the Developer Tools window by right clicking anywhere inside Postman and selecting "inspect element". You can also go to `chrome://inspect/#apps` and then click "inspect" just below requester.html under the Postman heading.
+The Postman console can be used to view all the HTTP requests and responses for the current session, along with any messages the user wants to log.
+
+The console can be opened in a number of ways:
+
+1. By going through the view option from the menu bar.
+2. By the Postman Console option in Postman.
+3. By keyboard shortcut: Command + Option + c.
+
+[![console button](https://assets.postman.com/postman-docs/console_button_postman.png)](https://assets.postman.com/postman-docs/console_button_postman.png)
+
+### Console header:
+
+The header now contains 3 components:
+
+1. A search bar, making it possible to search for a specific request.
+2. Filter option, allowing requests to be filtered on the basis of their message type: log, info, warning, error.
+3. Clear button to clear the console screen.
+
+There is now support for 4 types of console messages:
+
+1. **Log:** `console.log(“This is a log.”);`
+2. **Info:** `console.info("This is an information message.");`
+3. **Warning:** `console.warn("This is a warning message.");`
+4. **Error:** `console.error("This is an error message.");`
+
+[![console labels](https://assets.postman.com/postman-docs/console_labels.png)](https://assets.postman.com/postman-docs/console_labels.png)
+
+The console now shows the following four types of information for each request:
+
+1. Network
+2. Request headers
+3. Response headers
+4. Response body
+
+[![console network info](https://assets.postman.com/postman-docs/console_network_info.png)](https://assets.postman.com/postman-docs/console_network_info.png)
+
+### Console footer:
+
+There is now a footer section in the console, comprising of two parts:
+
+1. Console Settings: Console now supports configurable options for two things:
+    a. Timestamp: A timestamp for the respective request.
+    b. Hide network information: De-clutters the console if network information is not needed.
+2. Displays the number of errors and warnings.
+
+[![console settings](https://assets.postman.com/postman-docs/console_settings.png)](https://assets.postman.com/postman-docs/console_settings.png)
