@@ -578,5 +578,18 @@
     {
         "from": "/docs/postman/collections/data-formats/",
         "to": "/docs/postman/collections/importing-and-exporting-data/"
+    },
+    {
+        "from": "/docs/postman-for-publishers/run-in-postman/using-run-button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/introduction-run-button/"
+    },
+    {
+         "from": "/docs/postman-for-publishers/run-in-postman/security/",
+         "to": "/docs/postman-for-publishers/run-in-postman/introduction-run-button/"
+     },
+    {
+        "from": "/docs/postman-for-publishers/run-in-postman/collections-run-button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/creating-run-button/"
     }
+
 ]
