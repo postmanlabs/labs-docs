@@ -222,7 +222,7 @@ You can assign the same role to everyone in the workspace, or can configure acce
 
 Select roles, check the __remove__ option if you wish to remove the environment from any workspace it is already shared in, and click __Save Roles__.
 
-> You can also share environments from __Browse__ mode in the Postman app by selecting __Environments__ and clicking __Share__, then choosing a workspace. Alternatively, navigate to the environment from the [dashboard](https://web.postman.co/) via your team, workspace, activity feed, or the user profile of a collaborator by clicking __Environments__. Click __Share__ next to the environment and choose a workspace to share it to.
+> You can also share environments from __Browse__ mode in the Postman app by selecting __Environments__ and clicking __Share__, then choosing a workspace. Alternatively, navigate to the environment from the [dashboard](https://app.getpostman.com) via your team, workspace, activity feed, or the user profile of a collaborator by clicking __Environments__. Click __Share__ next to the environment and choose a workspace to share it to.
 
 You can also remove a shared environment from a workspace in __Manage Environments__ by clicking __...__ next to the environment name and choosing __Remove from workspace__.
 
