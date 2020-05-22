@@ -236,7 +236,7 @@ In the Postman app, you can edit or delete a mock server from the **Collections*
 
 ### Editing mocks from the Dashboard
 
-> To open the [Dashboard](https://www.postman.com/), sign in to Postman from your browser.
+> To open the [Dashboard](https://go.postman.co/), sign in to Postman from your browser.
 
 1. Open the workspace or collection with the mock server you want to edit.
 2. Click **Mocks** or **Mock Servers** at the top of the page.
