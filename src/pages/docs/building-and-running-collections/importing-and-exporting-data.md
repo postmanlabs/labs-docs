@@ -125,4 +125,4 @@ You can export a data dump of all of your collections, environments, globals, an
 
 ## Next steps
 
-Learn more about [Postman's API workflow](/docs/postman/design-and-develop-apis/the-api-workflow/).
+You can collaborate on collections by [sharing](/docs/collaborating-in-postman/sharing-collections/) and [commenting](/docs/collaborating-in-postman/commenting-on-collections/) to discuss your API projects with team members. Learn more about [Postman's API workflow](/docs/postman/design-and-develop-apis/the-api-workflow/).

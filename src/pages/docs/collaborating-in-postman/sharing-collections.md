@@ -1,6 +1,6 @@
 ---
 title: "Sharing collections"
-order: 42
+order: 73.1
 page_id: "sharing_collections"
 contextual_links:
   - type: section

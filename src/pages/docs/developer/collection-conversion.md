@@ -1,7 +1,7 @@
 ---
-title: "Echo API"
-order: 147
-page_id: "echo_api"
+title: "OpenAPI to Postman Collection"
+order: 149.2
+page_id: "collection-conversion"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
   - type: section
