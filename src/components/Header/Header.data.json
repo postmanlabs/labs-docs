@@ -5,10 +5,10 @@
       "url": "/docs/getting-started/introduction/"
     },{
       "name": "Admin",
-      "url": "/docs/administration/"
+      "url": "/docs/administration/admin-intro/"
     },{
-      "name": "Resources",
-      "url": "/docs/resources/"
+      "name": "Developer",
+      "url": "/docs/developer/resources-intro/"
     },{
       "name": "Dashboard",
       "url": "https://app.getpostman.com/",

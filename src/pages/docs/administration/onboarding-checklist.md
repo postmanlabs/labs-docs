@@ -1,6 +1,6 @@
 ---
 title: "Onboarding checklist"
-order: 137
+order: 127
 page_id: "onboarding_checklist"
 warning: false
 contextual_links:

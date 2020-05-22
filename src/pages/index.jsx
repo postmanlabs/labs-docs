@@ -67,14 +67,14 @@ const IndexPage = () => (
           <LandingCard
             title="Admin"
             description="Administer your account and set up your team for success."
-            link="https://learning.postman.com/docs/"
+            link="https://learning.postman.com/docs/admin/admin-intro/"
             cta="Manage Postman"
             icon={AdminImage}
           />
           <LandingCard
             title="Develop"
-            description="Leverage Postman utilities within your development pipeline."
-            link="https://learning.postman.com/docs/"
+            description="Build your own utilities with Postman resources."
+            link="https://learning.postman.com/docs/resources/resources-intro/"
             cta="Discover resources"
             icon={ResourceImage}
           />

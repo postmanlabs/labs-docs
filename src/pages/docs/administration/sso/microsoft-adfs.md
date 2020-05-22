@@ -1,6 +1,6 @@
 ---
 title: "Microsoft AD FS"
-order: 144
+order: 134
 page_id: "microsoft_adfs"
 warning: false
 contextual_links:

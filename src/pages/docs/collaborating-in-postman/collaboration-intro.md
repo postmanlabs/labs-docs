@@ -18,6 +18,8 @@ contextual_links:
 ---
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
 
+Postman will alert you with notifications when activities occur within your team and workspace.
+
 > Free collaboration is available in version 6.2 and above.
 
 ## Contents

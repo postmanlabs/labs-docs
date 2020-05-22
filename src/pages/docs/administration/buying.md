@@ -1,6 +1,6 @@
 ---
 title: "Purchasing Postman"
-order: 132
+order: 122
 page_id: "buying"
 warning: false
 contextual_links:

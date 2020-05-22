@@ -30,7 +30,7 @@ contextual_links:
 
 ---
 
-Welcome to the Postman docs! This is the place to find official information on using Postman in your API projects.
+Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
 What are you here to learn about?
 

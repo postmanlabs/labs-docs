@@ -1,6 +1,7 @@
 {
   "sso": "Single sign-on (SSO)",
-  "observing-your-api": "Observing your API",
+  "monitoring-your-api": "Monitoring your API",
   "designing-and-developing-your-api": "Designing and developing your API",
-  "publishing-your-api": "Publishing your API"
+  "publishing-your-api": "Publishing your API",
+  "developer": "Postman Developer resources"
 }
