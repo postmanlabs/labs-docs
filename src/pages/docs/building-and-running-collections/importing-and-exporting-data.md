@@ -27,6 +27,11 @@ contextual_links:
   - type: link
     name: "Travelogue of Postman Collections Format v2"
     url: "https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/"
+  - type: subtitle
+    name: "Next Steps"
+  - type: link
+    name: "Postman's API workflow"
+    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
 
 warning: false
 ---
@@ -43,11 +48,11 @@ Postman can import and export Postman data, including collections, environments,
 
 * [Exporting Postman data](#exporting-postman-data)
 
-    * [Collections](#collections)
+    * [Exporting collections](#exporting-collections)
 
-    * [Environments](#environments)
+    * [Exporting environments](#exporting-environments)
 
-    * [Data dumps](#data-dumps)
+    * [Exporting data dumps](#exporting-data-dumps)
 
 * [Next steps](#next-steps)
 
@@ -57,7 +62,7 @@ You can import your Postman data (e.g. collections) as well as your API specific
 
 To import your data into Postman, click **Import** in the upper-left corner of the Postman app.
 
-![Import modal](https://assets.postman.com/postman-docs/import-modal.jpg)
+![Import modal](https://assets.postman.com/postman-docs/import-modal-2.jpg)
 
 You can import your data via files, folders, links, or raw text.
 
@@ -65,9 +70,9 @@ You can import your data via files, folders, links, or raw text.
 
 You can import Postman data you previously exported, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals.  
 
-To import Postman data, click **Import**, then select your file or folder, input your link, or paste your raw text. Postman will automatically recognize Postman data and confirm the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
+To import Postman data, click **Import**. Select your file or folder, input your link, or paste your raw text. Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
 
-![Import collection and environment](https://assets.postman.com/postman-docs/import-coll-env.jpg)
+![Import collection and environment](https://assets.postman.com/postman-docs/import-coll-env-2.jpg)
 
 ### Importing API specifications
 
@@ -89,9 +94,9 @@ Postman supports the following API specification formats:
 
 * [DHC](https://github.com/postmanlabs/dhc-to-postman)
 
-To import your API specifications into Postman, click **Import**, then select your file or folder, input your link, or paste your raw text. Confirm the name, format, and what you'd like your data to import as, then click **Import** to bring your data into Postman.
+To import your API specifications into Postman, click **Import**. Select your file or folder, input your link, or paste your raw text. Confirm the name, format, and what you would like your data to import as, then click **Import** to bring your data into Postman.
 
-![Import file](https://assets.postman.com/postman-docs/import-file.jpg)
+![Import file](https://assets.postman.com/postman-docs/import-file-2.jpg)
 
 You can also configure your **Import Settings**, which will differ depending on your API specification.
 
@@ -99,7 +104,7 @@ You can also configure your **Import Settings**, which will differ depending on 
 
 You can export your Postman data, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/), Postman's command-line collection runner.
 
-### Collections
+### Exporting collections
 
 You can export your collections from the Postman app by selecting the **...** next to the collection, then **Export**.
 
@@ -107,21 +112,21 @@ You can export your collections from the Postman app by selecting the **...** ne
 
 You can then select the format you'd like your collection to export as. Click **Export** to download your newly generated JSON file.
 
-![Export collection format](https://assets.postman.com/postman-docs/export-collection-format.jpg)
+![Export collection format](https://assets.postman.com/postman-docs/export-collection-format-2.jpg)
 
 > Learn more about Postman's [v1 and v2 formats](https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
 
-### Environments
+### Exporting environments
 
 You can export your environments from the Postman app by selecting the gear icon in the upper-right corner to open **Manage Environments**. Click the download symbol next to your environment to download your newly generated JSON file.
 
-![Export environment menu](https://assets.postman.com/postman-docs/export-environment-menu2.jpg)
+![Export environment menu](https://assets.postman.com/postman-docs/export-environment-menu-3.jpg)
 
-### Data dumps
+### Exporting data dumps
 
-You can export a data dump of all of your collections, environments, globals, and header presets in Postman. To do so, select the wrench icon in the upper-right corner to open **Settings**. Click to open the **Data** tab, then **Download** to receive the newly generated JSON file of your Postman data.
+You can export a data dump of all of your collections, environments, globals, and header presets in Postman. Select the wrench icon in the upper-right corner to open **Settings**. Click to open the **Data** tab, then **Download** to save the newly generated JSON file of your Postman data.
 
-![Export data dump](https://assets.postman.com/postman-docs/data-dump-menu.jpg)
+![Export data dump](https://assets.postman.com/postman-docs/data-dump-menu-2.jpg)
 
 ## Next steps
 

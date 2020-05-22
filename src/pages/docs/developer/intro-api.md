@@ -63,7 +63,7 @@ You will need to authenticate your requests to the Postman API by sending your A
 
 Your API Key provides access to any Postman data you have permissions for.
 
-You can store your API key in an [environment variable](/docs/postman/variables-and-environments/variables/)—if you name it `postman-api-key` the Postman API collection will use it automatically
+You can store your API key in an [environment variable](/docs/postman/variables-and-environments/managing-environments/)—if you name it `postman-api-key` the Postman API collection will use it automatically
 
 ## Rate Limits
 

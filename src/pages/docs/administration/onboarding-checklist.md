@@ -5,75 +5,83 @@ page_id: "onboarding_checklist"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Additional Resources"
   - type: link
-    name: "Collaborating in Postman"
-    url: "/docs/postman/collaboration/collaboration-intro/"
+    name: "Security and Compliance: A Shared Responsibility Model"
+    url: "https://www.postman.com/shared-responsibility/"
   - type: link
-    name: "Postman Pricing"
-    url: "https://www.postman.com/pricing"
+    name: "Managing your team"
+    url: "/docs/postman/collaboration/managing-your-team/"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
+    url: "https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
 
 ---
 
-The Team Settings page lets you change your team name, team URL, team logo, and billing information. You also can add custom domains and manage your authentication method.  
+If you're just getting started using Postman within your organization, you can carry out a few preparation steps to set your team up for success.
 
-You can also access team settings in the app via the "Teams" dropdown menu in the upper right corner.
-[![Teams](https://assets.postman.com/postman-docs/teamdropdown+new+with+logo.png)](https://assets.postman.com/postman-docs/teamdropdown+new+with+logo.png)
+## Contents
 
-## General
+* [Setting up Postman](#setting-up-postman)
+    * [Invite Team Members](#invite-team-members)
+    * [Check Your Setup](#check-your-setup)
+    * [Enable Team Discovery](#enable-team-discovery)
 
-In General settings, you can change your team name and URL.
+## Setting up Postman
 
-[![general](https://assets.postman.com/postman-docs/teamSettings-general.jpeg)](https://assets.postman.com/postman-docs/teamSettings-general.jpeg)
-  
-## Style
+Make sure everyone who uses Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/). You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
-In Style settings, you can upload your team logo. Hover over the Team Logo icon and click the Pencil (edit) icon. Then upload your team logo image.
+* Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
+* If your organization's network connection is facilitated via a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​setup within Postman](/docs/postman/sending_api_requests/proxy/)​.
+* It is recommended that your IT team whitelist Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by whitelisting the following domains:
 
-[![style](https://assets.postman.com/postman-docs/teamSetting-style.jpeg)](https://assets.postman.com/postman-docs/teamSetting-style.jpeg)
-  
-## Billing Details
+    * `*.postman.com`
+    * `*.getpostman.com`
+    * `*.postman.co`
+    * `*.pstmn.io`
 
-In Billing Details settings, you can add or change the billing email address, the company name, address, and VAT ID information.
+* Depending on your [plan](https://www.postman.com/pricing) static IP addresses may be available for Postman Monitors. Your IT team should whitelist these static IPs for monitoring. Currently, static IPs are available only for the US east and US west regions. If you selected a Static IP region on your monitors, you will have to whitelist the following IP addresses:
 
-[![billing details](https://assets.postman.com/postman-docs/teamSetting-billingDetails.jpeg)](https://assets.postman.com/postman-docs/teamSetting-billingDetails.jpeg)
-  
-## Custom Domains
+    * `34.201.186.27` for US - east
+    * `52.89.173.88` for US - west
 
-In the Custom Domains settings, you can add a new domain for others to access your published documentation.
+* Update your [team settings](https://go.postman.co/settings/team/general). See [Team Settings](/docs/postman/collaboration/team-settings/) for more info.
+* If your Postman [plan](https://www.postman.com/pricing) includes single-sign-on (SSO) you may need help from your IT team to configure it. See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for instructions on integrating with specific identity providers.
 
-Click the **Add a new domain** button and enter the URL of the domain you want to add.
+### Invite Team Members
 
-[![custom domain](https://assets.postman.com/postman-docs/WS-teamSetting-customDomain.png)](https://assets.postman.com/postman-docs/WS-teamSetting-customDomain.png)
+Depending on the size of your team you can send invites to your team now or [Check Your Setup](#check-your-setup) with a few volunteers before you rollout Postman to your entre organization.
 
-Next enter the TXT and CNAME settings to the specified domain for verification and verify the domain.
+You can add your teammates from your [team dashboard](https://go.postman.co/team), by generating a shareable link, or inviting them through a direct email. See [Managing Your Team](/docs/postman/collaboration/managing-your-team/#inviting-to-a-team) for more detail.
 
-[![verify custom domain](https://assets.postman.com/postman-docs/WS-teamSetting-verifyCustomDomain.png)](https://assets.postman.com/postman-docs/WS-teamSetting-verifyCustomDomain.png)
+![Invite Users](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%201.18.07%20PM.png)
 
-You can see your domain in the Custom Domain list.
+### Check Your Setup
 
-[![custom domain list](https://assets.postman.com/postman-docs/teamSetting-customDomains.jpeg)](https://assets.postman.com/postman-docs/teamSetting-customDomains.jpeg)
+Before you kick-off in full, it’s best to check-in on the workings of the Postman app within your organization and ensure everything works as expected. If you do not have the Postman app and Postman account find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
 
-> Available domains depend on your [Postman plan level](https://www.postman.com/pricing).
+Ensure you are connected to your organization's network and test the following:
 
-## Authentication
+* Can you ​[execute a request](/docs/postman/sending_api_requests/requests)​ to `example.com` within Postman?
+* Can you execute a request to one of your internal/private APIs?
+* Save a request inside a [​Collection​](/docs/postman/collections/creating_collections). Visit `​go.postman.co`​, has your collection and request synced with Postman’s cloud?
 
-> __[SSO is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
+Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! Else, if you experienced a hiccup, [​contact Postman support](https://postman.com/support) and please read on.
 
-In the Authentication settings, you can choose a Single Sign-on authentication provider to create a custom authentication method for your team.
+### Enable Team Discovery
 
-Click the **Add a new authentication** method button to summon the Add Authentication Method page.
+Team discovery makes Postman’s collaboration features more discoverable to users, and allows your team participation to scale up along with your successful API projects. When team discovery is enabled, users in your organization can see teams to join when they access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one. Administrators will receive a notification and can approve or deny access from there. See [Team Discovery](/docs/postman/collaboration/collaboration-intro/#team-discovery) for more info.
 
-[![auth](https://assets.postman.com/postman-docs/teamSettings-auth.jpeg)](https://assets.postman.com/postman-docs/teamSettings-auth.jpeg)
+### Questions?
 
-Select an authentication type and enter an authentication name.
+If you have any questions or run into any issues setting up Postman for your team be sure and check to see if the question has already been answered by the [Postman Community](https://community.postman.com/). You can also find a number of support resources on the [support page](https://www.postman.com/support).
 
-[![add auth](https://assets.postman.com/postman-docs/WS-teamSettings-addAuthMeth.png)](https://assets.postman.com/postman-docs/WS-teamSettings-addAuthMeth.png)
+## Next Steps
 
-Click the **Proceed** button to configure the identity of your provider.
+Check out [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/) for important security considerations.
 
-[![config ID provider](https://assets.postman.com/postman-docs/WS-teamSetting-configIDProvider.png)](https://assets.postman.com/postman-docs/WS-teamSetting-configIDProvider.png)
+Make sure to [configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to the Business or Enterprise plan.
 
-Add the information in the "Service Provider Details (Postman)" section into your Identity Provider's SSO form and use the generated URLs and certificate to fill in the details for identity provider.
-
-Complete all the fields in the "Identity Provider Details" section and save the authentication.
+Finally, head over to [Managing Your Team](/docs/postman/collaboration/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust your team size.
