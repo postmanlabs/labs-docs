@@ -1,5 +1,5 @@
 ---
-title: "Using Run in Postman"
+title: "Run in Postman API"
 order: 108
 page_id: "using_run_button"
 warning: false
