@@ -1,3 +1,6 @@
+/* eslint-disable
+  jsx-a11y/click-events-have-key-events,
+  jsx-a11y/no-noninteractive-element-interactions */
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import React from 'react';
 import './LeftNav.scss';
@@ -142,3 +145,4 @@ const LeftNav = () => {
 };
 
 export default LeftNav;
+/* eslint-enable */
