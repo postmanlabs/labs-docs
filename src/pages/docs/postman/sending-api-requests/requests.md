@@ -336,6 +336,12 @@ Postman will indicate any whitespace / potentially invalid characters in parts o
 
 <img alt="Invalid Characters" src="https://assets.postman.com/postman-docs/invalid-character-message.jpg" width="400px"/>
 
+If Postman is not able to send your request or does not receive a response, you will see details outlining the error.
+
+![Could not send request](https://assets.postman.com/postman-docs/could-not-send-request.jpg)
+
+Click __View in Console__ to see an overview of your request and identify the source of the issue.
+
 If your request does not work as expected, check out some [troubleshooting tips](/docs/postman/sending-api-requests/troubleshooting-api-requests/).
 
 ## Next steps

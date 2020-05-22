@@ -27,7 +27,7 @@ contextual_links:
 warning: false
 ---
 
-You can manage workspaces and the Postman elements associated with a workspace, like [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/variables-and-environments/variables/), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), [monitors](/docs/postman/monitors/intro-monitors/), and more. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for workspaces.
+You can manage workspaces and the Postman elements associated with a workspace, like [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/variables-and-environments/managing-environments/#creating-environments), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), [monitors](/docs/postman/monitors/intro-monitors/), and more. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for workspaces.
 
 In the Postman app, click the workspace that displays in the header bar.
 
@@ -82,7 +82,7 @@ If you click the ellipsis **(...)**, you can remove any element from the workspa
 
 ### Environments
 
-Add an existing environment to this workspace or [create a new environment](/docs/postman/variables-and-environments/variables/#environments-in-postman). You can share an environment to multiple workspaces.
+Add an existing environment to this workspace or [create a new environment](/docs/postman/variables-and-environments/managing-environments/). You can share an environment to multiple workspaces.
 
 ### Monitors
 
