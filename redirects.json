@@ -285,11 +285,11 @@
     },
     {
         "from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
-        "to": "/docs/postman/variables-and-environments/variables/"
+        "to": "/docs/postman/variables-and-environments/managing-environments/"
     },
     {
         "from": "/docs/postman/environments-and-globals/manage-environments/",
-        "to": "/docs/postman/variables-and-environments/variables/"
+        "to": "/docs/postman/variables-and-environments/managing-environments/"
     },
     {
         "from": "/docs/postman/environments-and-globals/manage-globals/",
@@ -297,7 +297,7 @@
     },
     {
         "from": "/docs/postman/environments-and-globals/sessions/",
-        "to": "/docs/postman/variables-and-environments/variables/#sessions-in-postman"
+        "to": "/docs/postman/variables-and-environments/variables/#sharing-and-persisting-data"
     },
     {
         "from": "/docs/postman/environments-and-globals/variables-complete-reference/",
@@ -309,11 +309,11 @@
     },
     {
         "from": "/docs/postman/environments_and_globals/intro_to_environments_and_globals/",
-        "to": "/docs/postman/variables-and-environments/variables/"
+        "to": "/docs/postman/variables-and-environments/managing-environments/"
     },
     {
         "from": "/docs/postman/environments_and_globals/manage_environments/",
-        "to": "/docs/postman/variables-and-environments/variables/"
+        "to": "/docs/postman/variables-and-environments/managing-environments/"
     },
     {
         "from": "/docs/postman/environments_and_globals/manage_globals/",
