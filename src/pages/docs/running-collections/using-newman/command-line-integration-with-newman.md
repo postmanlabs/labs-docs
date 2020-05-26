@@ -1,6 +1,6 @@
 ---
 title: "Newman on the command line"
-order: 50
+order: 60
 page_id: "command_line_integration_with_newman"
 search_keyword: "newman run"
 contextual_links:

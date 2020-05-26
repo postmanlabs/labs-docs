@@ -1,7 +1,7 @@
 ---
 title: "Dynamic variables"
 page_id: "variables_list"
-order: 66
+order: 46
 warning: false
 
 ---

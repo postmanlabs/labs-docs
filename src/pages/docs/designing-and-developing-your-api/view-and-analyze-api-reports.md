@@ -1,5 +1,5 @@
 ---
-title: "Analyzing APIs"
+title: "Analyzing with reports"
 page_id: "viewing_and_analyzing_apis"
 order: 91
 warning: false

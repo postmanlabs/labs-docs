@@ -1,6 +1,6 @@
 ---
 title: "Sharing collection runs"
-order: 49
+order: 59
 page_id: "sharing_a_collection_run"
 contextual_links:
   - type: section

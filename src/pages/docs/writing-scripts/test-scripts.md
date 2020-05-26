@@ -1,6 +1,6 @@
 ---
 title: "Writing tests"
-order: 63
+order: 43
 page_id: "test_scripts"
 search_keyword: "pm.response, pm.test, pm.expect"
 contextual_links:

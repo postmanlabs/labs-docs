@@ -1,6 +1,6 @@
 ---
 title: "Generating client code"
-order: 35
+order: 29.1
 page_id: "generate_code_snippets"
 contextual_links:
   - type: section

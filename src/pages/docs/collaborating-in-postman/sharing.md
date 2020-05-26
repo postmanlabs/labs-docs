@@ -1,7 +1,7 @@
 ---
-title: "Sharing collections"
+title: "Sharing your work"
 order: 73.1
-page_id: "sharing_collections"
+page_id: "sharing"
 contextual_links:
   - type: section
     name: "Prerequisites"

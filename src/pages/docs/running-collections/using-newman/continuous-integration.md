@@ -1,6 +1,6 @@
 ---
 title: "CI with Postman API"
-order: 52
+order: 62
 page_id: "continuous_integration"
 contextual_links:
   - type: section

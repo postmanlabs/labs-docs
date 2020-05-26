@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-order: 45
+order: 55
 page_id: "intro_to_collection_runs"
 contextual_links:
   - type: section

@@ -1,6 +1,6 @@
 ---
-title: "Grouping requests"
-order: 41
+title: "Grouping requests in collections"
+order: 23.1
 page_id: "intro_to_collections"
 contextual_links:
   - type: section
@@ -36,10 +36,42 @@ warning: false
 
 You can group your Postman requests into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation / test suites, and to automate request runs.
 
-* [How to create collections](#how-to-create-collections)
-* [Saving a request to a collection](#saving-a-request-to-a-collection)
-* [Saving to a collection from history](#saving-to-a-collection-from-history)
-* [Duplicating an existing collection](#duplicating-an-existing-collection)
+Postman lists your collections in the left sidebar, in the __Collections__ tab.
+
+[![Collections](https://assets.postman.com/postman-docs/collections-open-list.jpg)](https://assets.postman.com/postman-docs/collections-open-list.jpg)
+
+You can open and close collections by clicking them, and favorite to move a collection to the top of the list. You can add sub-folders to create an extra level of nesting with your requests. Use the search text-field to filter through your collections.
+
+* [Creating collections](#creating-collections)
+* [Adding requests](#adding-requests)
+* [Managing collections](#managing-collections)
+* [Using collections](#using-collections)
+
+## Creating collections
+
+You can create a new collection by clicking __+ New Collection__ in the left sidebar, the __New__ button &gt; __Collection__, or the Launchpad that appears when you first launch Postman.
+
+![New collection](https://assets.postman.com/postman-docs/collection-create-name.jpg)
+
+Give your new collection a name—you can click __Create__ straight away if you don't want to specify collection details until later.
+
+You can optionally specify a description for your collection (which will appear in its documentation), authorization config, script code, and any variables you want to share across all requests in the collection.
+
+To see an overview of a collection, open it from the sidebar by clicking &#9658;. You can edit your collection description inline by hovering over the text and clicking the pencil icon.
+
+![Collection opened](https://assets.postman.com/postman-docs/collection-overview-opened.jpg)
+
+You can edit details for your collections at any time using the menu __...__ &gt; __Edit__ from the sidebar or collection overview.
+
+<img alt="Collection menu" src="https://assets.postman.com/postman-docs/collection-sidebar-edit-menu.jpg" width="300px"/>
+
+## Adding requests
+
+## Managing collections
+
+## Using collections
+
+
 
 ## How to create collections
 

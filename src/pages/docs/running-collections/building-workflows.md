@@ -1,6 +1,6 @@
 ---
 title: "Building request workflows"
-order: 47
+order: 57
 page_id: "building_workflows"
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:

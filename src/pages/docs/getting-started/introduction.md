@@ -54,7 +54,7 @@ If you're building a client app, you can connect to the API in Postman:
 
 * [Connecting to APIs](/docs/sending-requests/requests/)
 * [Authorizing requests](/docs/sending-requests/authorization/)
-* [Grouping requests in collections](/docs/building-and-running-collections/intro-to-collections/)
+* [Grouping requests in collections](/docs/sending-requests/intro-to-collections/)
 * [Visualizing data](/docs/sending-requests/visualizer/)
 
 ## Testing APIs
@@ -63,7 +63,7 @@ If you're testing an API, you can use Postman to automate various parts of the p
 
 * [Writing test scripts](/docs/writing-scripts/test-scripts/)
 * [Using variables](/docs/sending-requests/variables/)
-* [Automating workflows with the collection runner](/docs/building-and-running-collections/running-collections/intro-to-collection-runs/)
+* [Automating workflows with the collection runner](/docs/running-collections/intro-to-collection-runs/)
 
 ## Producing APIs
 
@@ -72,14 +72,14 @@ If you or your organization is exposing an API for public use, Postman can help 
 * [Creating an API from scratch](/docs/designing-and-developing-your-api/the-api-workflow/)
 * [Publishing documentation](/docs/publishing-your-api/documenting-your-api/)
 * [Building adoption](/docs/publishing-your-api/add-api-network/)
-* [Analyzing API performance](/docs/designing-and-developing-your-api/observing-your-api/intro-monitors/)
+* [Analyzing API performance](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/)
 
 ## Collaborating within your organization
 
 If you're using Postman in your company or team, check out these guides to maximize on your collaboration:
 
 * [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
-* [Managing Postman for an organization](/docs/administration/admin-intro/)
+* [Managing Postman for an organization](/docs/administration/managing-your-team/)
 * [Onboarding your team](/docs/administration/onboarding-checklist/)
 * [Setting up an integration](/docs/integrations/intro-integrations/)
 
@@ -87,7 +87,7 @@ If you're using Postman in your company or team, check out these guides to maxim
 
 If you're integrating Postman with your CI/CD workflow or are developing with Postman APIs or libraries, check out these resources:
 
-* [Integrating with a development pipeline](/docs/building-and-running-collections/using-newman/command-line-integration-with-newman/)
+* [Integrating with a development pipeline](/docs/running-collections/using-newman/command-line-integration-with-newman/)
 * [Developing with Postman utilities](/docs/resources/resources-intro/)
 
 ## Providing feedback

@@ -1,6 +1,6 @@
 ---
 title: "Querying with GraphQL"
-order: 30
+order: 37
 page_id: "graphql"
 contextual_links:
   - type: section

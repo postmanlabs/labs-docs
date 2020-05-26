@@ -1,6 +1,6 @@
 ---
 title: "Test script examples"
-order: 65
+order: 45
 page_id: "test_examples"
 search_keyword: "setEnvironmentVariable, postman.getEnvironmentVariable, getEnvironmentVariable, pm.environment.unset, collectionVariables.set, pm.collectionVariables.set, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.unset, collectionVariables.unset, pm.globals.set, globals.set, pm.globals.get, globals.get, pm.globals.unset, globals.unset, variables.get, pm.variables.get, pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
 contextual_links:

@@ -1,6 +1,6 @@
 ---
 title: "Integrating with Jenkins"
-order: 54
+order: 64
 page_id: "integration_with_jenkins"
 contextual_links:
   - type: section

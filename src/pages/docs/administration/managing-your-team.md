@@ -1,6 +1,6 @@
 ---
 title: "Managing your team"
-order: 124
+order: 121
 page_id: "managing_your_team"
 warning: false
 contextual_links:
