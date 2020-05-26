@@ -93,24 +93,39 @@ Clicking the title of an API in the web listing of your team profile will open t
 
 ![API Listing](https://assets.postman.com/postman-docs/api-listing-link.jpg)
 
-## Adding to the Internal API network
+## Adding to the Private API network
 
-You can publish the APIs that the teams in your organization use internally to the Internal API Network. When you publish to the Internal API Network, your team can access you APIs and start working with them immediately.
+You can publish the APIs that the teams in your organization use internally to the Private API Network. When you publish to the Private API Network, your team can access your APIs and start working with them immediately.
 
 ![Team APIs](https://assets.postman.com/postman-docs/Internal+Network+Explore.jpg)
 
-You can access the Internal API Network from [Explore](explore.postman.com) on The [Dashboard](https://www.postman.com). From Explore, you can publish your team's finished APIs, and the members of your team can browse the APIs you have added.
+You can access the Private API Network from the [Dashboard](https://www.postman.com). From there, you can publish your team's finished APIs, and the members of your team can browse APIs that you have added.
+
+> Only members of your team will be able to access your APIs.
 
 ### Adding your APIs
 
-There are two ways that you can publish to the Internal API Network:
+To add a private API for your team, sign in to your [Dashboard](https://www.postman.com) and click **API Network** at the top.
 
-* Add from the main API Network page on [Explore](explore.postman.com).
-* Add from your team's Internal API space on the [Dashbaord](https://www.postman.com).
+> Open your browser to sign in to the [Dashboard](https://www.postman.com).
 
-To add an API for your team from the main API Network page, navigate to [Explore](explore.postman.com) and click **Add to API Network**.
+![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
 
-![Add to network](https://assets.postman.com/postman-docs/Add+to+API+Network.jpg)
+Click your team name at the top left.
+
+![Team name](https://assets.postman.com/postman-docs/Add+to+API+Network.jpg)
+
+In your team's Private API Network space, click **Add to Network**.
+
+![Add to network button](https://assets.postman.com/postman-docs/Add+to+Network+button.jpg)
+
+In the modal, choose the workspace the API was built in, and select the API that you want to publish. Click **Add to Network**.
+
+![Modal](https://assets.postman.com/postman-docs/Private+API+Network+modal.jpg)
+
+To see the published API, navigate to your team's Priavte API Network space on the [Dashboard](https://www.postman.com) and find the API in the list.
+
+![Listed APIs](https://assets.postman.com/postman-docs/APIs+listed+in+Private+Network.jpg)
 
 ## Next steps
 
