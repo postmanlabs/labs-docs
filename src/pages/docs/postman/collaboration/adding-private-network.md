@@ -15,7 +15,7 @@ contextual_links:
 
 ---
 
-You can publish the APIs that the teams in your organization use internally to the Private API Network. When you publish to the Private API Network, your team can access your APIs and start working with them immediately.
+You can publish the APIs that the teams in your organization use internally to the Private API Network. When you publish to the Private API Network, your team can access your APIs and start consuming with them immediately.
 
 ![Team APIs](https://assets.postman.com/postman-docs/Internal+Network+Explore.jpg)
 
