@@ -93,6 +93,12 @@ Clicking the title of an API in the web listing of your team profile will open t
 
 ![API Listing](https://assets.postman.com/postman-docs/api-listing-link.jpg)
 
+## Adding to the Internal API network
+
+You can publish the documentation for the APIs that the teams in your organization use internally to the Internal API network. When you publish to the Internal API Network, your team can access the APIs and immediately begin working with the endpoints.
+
+![Team APIs](https://assets.postman.com/postman-docs/Internal+Network+Explore.jpg)
+
 ## Next steps
 
 Check out some [tips for making the most of your network listing](/docs/postman-for-publishers/api-network/api-submission-guidelines/).
