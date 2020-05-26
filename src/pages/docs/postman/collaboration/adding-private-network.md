@@ -46,3 +46,23 @@ In the modal, choose the workspace the API was built in, and select the API that
 To see the published API, navigate to your team's Priavte API Network space on the [Dashboard](https://www.postman.com) and find the API in the list.
 
 ![Listed APIs](https://assets.postman.com/postman-docs/APIs+listed+in+Private+Network.jpg)
+
+The developers building the APIs for your organization's internal use will be able to see which APIs and collections have been added to the Private API Network from your workspace.
+
+![Published to network](https://assets.postman.com/postman-docs/Added+to+private+network.jpg)
+
+> APIs that have already been added to the Private API Network cannot be added again. If a team member tries to add an API that already exists on the network, they will get an error message telling them that API has already been added.
+
+#### Security
+
+When users sign in to Postman, only the private APIs for the teams associated with their login credentials will be visible to them. Private APIs will not be discoverable or accessible to anyone who is not a part of your team.
+
+#### Guidelines
+
+Only APIs in which all team members have been granted "View access" can be added to the Private API Network. You will not be able to add your private APIs to the network until you have given everyone on your team at least "View" access to the API.
+
+## Discovering and consuming private APIs
+
+You can find the APIs that your team has added to the Private API Network by browsing through your team's Private API space on the [Dashboard](https://www.postman.com).
+
+Sign in to the [Dashboard](https://www.postman.com) and click **API Network**.
