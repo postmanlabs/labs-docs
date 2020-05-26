@@ -95,9 +95,22 @@ Clicking the title of an API in the web listing of your team profile will open t
 
 ## Adding to the Internal API network
 
-You can publish the documentation for the APIs that the teams in your organization use internally to the Internal API network. When you publish to the Internal API Network, your team can access the APIs and immediately begin working with the endpoints.
+You can publish the APIs that the teams in your organization use internally to the Internal API Network. When you publish to the Internal API Network, your team can access you APIs and start working with them immediately.
 
 ![Team APIs](https://assets.postman.com/postman-docs/Internal+Network+Explore.jpg)
+
+You can access the Internal API Network from [Explore](explore.postman.com) on The [Dashboard](https://www.postman.com). From Explore, you can publish your team's finished APIs, and the members of your team can browse the APIs you have added.
+
+### Adding your APIs
+
+There are two ways that you can publish to the Internal API Network:
+
+* Add from the main API Network page on [Explore](explore.postman.com).
+* Add from your team's Internal API space on the [Dashbaord](https://www.postman.com).
+
+To add an API for your team from the main API Network page, navigate to [Explore](explore.postman.com) and click **Add to API Network**.
+
+![Add to network](https://assets.postman.com/postman-docs/Add+to+API+Network.jpg)
 
 ## Next steps
 
