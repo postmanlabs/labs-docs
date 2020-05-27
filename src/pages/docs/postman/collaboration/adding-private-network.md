@@ -78,7 +78,7 @@ When users sign in to Postman, only the private APIs for the teams associated wi
 
 To keep your APIs secure, you will have to make sure that every member of your team has viewing permission for the API you want to add. APIs submitted to the Private API Network without all team members having view-access will not be premitted to add. Learn more about team [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
 
-> View-access is the minimum permission you need to grant your teammates to be abe to add to the network. You can choose to give members of your team edit-access.
+> View-access is the minimum permission you need to grant your teammates to be able to add to the network. You can choose to give members of your team edit-access.
 
 ## Discovering and consuming private APIs
 
