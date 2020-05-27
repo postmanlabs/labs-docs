@@ -101,7 +101,9 @@ You can add a description to the parameters and headers in your requests—for p
 
 ![Parameter Description](https://assets.postman.com/postman-docs/param-desc.jpg)
 
- The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
+> All key-value pairs will be displayed in your documentation regardless of whether or not they're checked. You can indicate which pairs are required and which are optional in the desription.
+
+The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
 
 <img alt="Header Description in Docs" src="https://assets.postman.com/postman-docs/header-desc-docs.jpg" width="500px">
 
@@ -113,13 +115,17 @@ Any body data included in your request will appear in the endpoint section of yo
 
 ![Body Data](https://assets.postman.com/postman-docs/body-json.jpg)
 
-You can also create an example to use for a request.
+You can also create an example to use for a request. Click **Examples** > **Add Example**.
 
 ![Add Example](https://assets.postman.com/postman-docs/add-example.jpg)
 
-Any data you include in the example will appear in the docs example code sidebar, including body and response data.
+Create the example you want to add and click **Save Example**.
 
 ![Body Example](https://assets.postman.com/postman-docs/body-example.jpg)
+
+Any data you include in the example will appear on the right, in the docs example code sidebar, including body and response data.
+
+> Learn more about [viewing documentation](https://learning.postman.com/docs/postman/api-documentation/viewing-documentation/).
 
 ![Examples in Docs](https://assets.postman.com/postman-docs/examples-in-docs.jpg)
 
