@@ -35,6 +35,7 @@ You can include information in your API documentation using [Markdown](https://g
 * [Describing collections](#describing-collections)
 * [Documenting request detail](#documenting-request-detail)
     * [Parameters and headers](#parameters-and-headers)
+    * [Documenting required authorization type](#documenting-required-authorization-type)
 * [Using examples in your docs](#using-examples-in-your-docs)
 * [Documentation links](#documentation-links)
 * [Using images in docs](#using-images-in-docs)
@@ -101,11 +102,21 @@ You can add a description to the parameters and headers in your requests—for p
 
 ![Parameter Description](https://assets.postman.com/postman-docs/param-desc.jpg)
 
-> All key-value pairs will be displayed in your documentation regardless of whether or not they're checked. You can indicate which pairs are required and which are optional in the desription.
+> All key-value pairs will be displayed in your documentation regardless of whether or not they're checked. You can indicate which pairs are required and which are optional in the desription. Consumers of your documentation will be able to choose which key-value pairs they want to try, and they will be able to generate a URL and code snippets based on their selection.
 
 The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
 
 <img alt="Header Description in Docs" src="https://assets.postman.com/postman-docs/header-desc-docs.jpg" width="500px">
+
+### Documenting required authorization type
+
+You can include the type of authorization required to access your APIs in your documentation. You can add your authorization details at the collection level or at the request level. Authorization requirements added at the collection level are persistive, and will be displayed on each request.
+
+![Docs Link](https://assets.postman.com/postman-docs/Persistive+auth.jpg)
+
+If one of your endpoints requires an authorization that varies from the collection, you can add that authorization to the request in the request tab, and it will be rendered in the documentation.
+
+![Auth display](https://assets.postman.com/postman-docs/Auth+for+a+specific+request.jpg)
 
 ## Using examples in your docs
 

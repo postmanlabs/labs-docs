@@ -112,7 +112,7 @@ You will see a confirmation that your documentation is published, and a link you
 
 Your docs will automatically include detail on your requests, with sample code in various client languages. Each collection / request listing indicates the method, required authorization type, URL, description, headers, request and response structures, and examples. In both private and public documentation, all key-value pairs in headers, parameters, and request bodies will be displayed for each request.
 
-> Consumers of your API documentation will be able to choose which key-value pairs they want to try, and they will be able to generate a URL and code snippets based on their selection.
+![Request details](https://assets.postman.com/postman-docs/Request+details.jpg)
 
 Private docs include a link to share the associated collection, and public docs include a [Run in Postman button](/docs/postman-for-publishers/run-in-postman/introduction-run-button), allowing viewers to import the collection directly into the Postman app to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
 
