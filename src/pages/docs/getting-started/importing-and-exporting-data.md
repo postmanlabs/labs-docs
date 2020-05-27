@@ -1,5 +1,5 @@
 ---
-title: 'Importing and exporting data'
+title: 'Importing and exporting'
 order: 8.2
 page_id: 'importing_and_exporting_data'
 contextual_links:

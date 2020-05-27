@@ -1,6 +1,6 @@
 ---
 title: "Commenting on collections"
-order: 73.3
+order: 73.2
 page_id: "commenting_on_collections"
 warning: false
 ---
