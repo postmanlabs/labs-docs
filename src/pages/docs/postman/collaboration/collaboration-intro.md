@@ -16,9 +16,9 @@ contextual_links:
     url : https://www.youtube.com/watch?v=wYBZrdukack
   - type: subtitle
     name: "Documentation"
-    type: link
-    name: "Your private API network"
-    url: "/docs/postman/collaboration/adding-private-network/" 
+  - type: link
+    name: "Your API Network"
+    url: "/docs/postman/collaboration/adding-private-network/"
 
 ---
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
