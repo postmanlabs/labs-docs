@@ -138,7 +138,7 @@ For more on accessing private and public docs, see [Viewing documentation](/docs
 
 You can use environments to set variables that will be available in your documentation. Anyone viewing private documentation will be able to access environments shared with them. For public documentation, you can select an environment to share during the publication process—this will make the environment available to anyone viewing the published documentation link.
 
-![Doc Environment](https://assets.postman.com/postman-docs/doc-environment.jpg)
+![Doc Environment](https://assets.postman.com/postman-docs/Environments+in+docs.jpg)
 
 Associating an environment with your documentation means that the values of any environment variables your requests reference will automatically populate in the doc content. Anyone using the __Run in Postman__ button from your docs will also be able to access the shared environment when they import the collection into their Postman app.
 
