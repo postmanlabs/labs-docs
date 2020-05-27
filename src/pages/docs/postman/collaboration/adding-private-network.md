@@ -48,31 +48,27 @@ To add a private API for your team, sign in to your [Dashboard](https://www.post
 
 ![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
 
-Click your team name at the top left.
+By default, your team's private API space will open. Click **Add new** on the right.
 
-![Team name](https://assets.postman.com/postman-docs/Add+to+API+Network.jpg)
-
-In your team's private API space, click **Add to Network**.
-
-![Add to network button](https://assets.postman.com/postman-docs/Add+to+Network+button.jpg)
+![Team name](https://assets.postman.com/postman-docs/Add+new+button.jpg)
 
 In the modal, choose the workspace the API is coming from, and select the API that you want to publish. Click **Add to Network**.
 
-![Modal](https://assets.postman.com/postman-docs/Private+API+Network+modal.jpg)
+![Modal](https://assets.postman.com/postman-docs/Add+to+network+modal.jpg)
 
-> The APIs that you add to the Private API Network are synced to your team workspace. Changes made to the API from the workspace will be reflected in the API that is in the Private API Network.
+> The APIs that you add to the Private API Network are synced to your team workspace. Changes made to the API from the workspace will be reflected in the network.
 
-To see the published API, navigate to your team's private API space on the [Dashboard](https://www.postman.com) and find the API in the list.
+The API will immediately be visible in your team's private API space on the [Dashboard](https://www.postman.com). From the listing, you can edit the API summary or remove the API from the network.
 
-![Listed APIs](https://assets.postman.com/postman-docs/APIs+listed+in+Private+Network.jpg)
+![Listed APIs](https://assets.postman.com/postman-docs/Private+API+listing+and+modifying.jpg)
 
 You can see which APIs and collections have been added to the Private API Network from your team workspace on the [Dashboard](https://www.postman.com).
 
-> You can hover over **Added to Postman's API Network** to remove an API from the network.
+> You can click **Added to Postman's API Network** to remove an API from the network or to view the API in the network.
 
 ![Published to network](https://assets.postman.com/postman-docs/Added+to+private+network.jpg)
 
-> APIs that have already been added to the Private API Network cannot be added again. If a team member tries to add an API that already exists in the network, they will receive an error message telling them that API has already been added.
+> APIs that have already been added to the Private API Network cannot be added again. If a team member tries to add an API that already exists in the network, they will receive an error message telling them that the API has already been added.
 
 #### Security
 
@@ -96,13 +92,9 @@ Sign in to the [Dashboard](https://www.postman.com) and click **API Network** at
 
 ![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
 
-Click your team name at the top left.
+By default, your team's private API space will open, and you can browse through the list of your organization's private APIs.
 
-![Team name](https://assets.postman.com/postman-docs/Add+to+API+Network.jpg)
-
-Browse through the list of your organization's private APIs.
-
-![API list](https://assets.postman.com/postman-docs/List+of+private+APIs.jpg)
+![API list](https://assets.postman.com/postman-docs/Private+API+listings.jpg)
 
 Click on an API to see details.
 
