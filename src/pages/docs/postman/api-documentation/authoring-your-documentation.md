@@ -121,13 +121,13 @@ You can also create an example to use for a request. Click **Examples** > **Add 
 
 Create the example you want to add and click **Save Example**.
 
-![Body Example](https://assets.postman.com/postman-docs/body-example.jpg)
+![Body Example](https://assets.postman.com/postman-docs/Create+an+example.jpg)
 
 Any data you include in the example will appear on the right, in the docs example code sidebar, including body and response data.
 
 > Learn more about [viewing documentation](https://learning.postman.com/docs/postman/api-documentation/viewing-documentation/).
 
-![Examples in Docs](https://assets.postman.com/postman-docs/examples-in-docs.jpg)
+![Examples in Docs](https://assets.postman.com/postman-docs/Response+headers+dispalyed+.jpg)
 
 Postman currently supports [these programming languages or frameworks](/docs/postman/sending-api-requests/generate-code-snippets/#supported-languagesframeworks) to customize your [code snippets](/docs/postman/sending-api-requests/generate-code-snippets).
 
