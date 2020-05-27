@@ -28,7 +28,7 @@ You can publish the APIs that your teams use internally to the Private API Netwo
 
 ![Team APIs](https://assets.postman.com/postman-docs/Internal+Network+Explore.jpg)
 
-You can add to the Private API Network from your team's private API space on the [Dashboard](https://www.postman.com). The [Dashboard](https://www.postman.com) is also where your team members can discover and consume your private APIs.
+You can add to the Private API Network from your team's private API space on the [Dashboard](go.postman.co). The [Dashboard](go.postman.co) is also where your team members can discover and consume your private APIs.
 
 ## Contents
 
@@ -42,9 +42,9 @@ You can add to the Private API Network from your team's private API space on the
 
 > Before you can add an API to the Private API Network, all of your team members must be given permission to view the API. Learn more about [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
 
-To add a private API for your team, sign in to your [Dashboard](https://www.postman.com) and click **API Network** at the top.
+To add a private API for your team, sign in to your [Dashboard](go.postman.co) and click **API Network** at the top.
 
-> Open your browser to sign in to the [Dashboard](https://www.postman.com).
+> Open your browser to sign in to the [Dashboard](go.postman.co).
 
 ![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
 
@@ -58,11 +58,11 @@ In the modal, choose the workspace the API is coming from, and select the API th
 
 > The APIs that you add to the Private API Network are synced to your team workspace. Changes made to the API from the workspace will be reflected in the network.
 
-The API will immediately be visible in your team's private API space on the [Dashboard](https://www.postman.com). From the listing, you can edit the API summary or remove the API from the network.
+The API will immediately be visible in your team's private API space on the [Dashboard](go.postman.co). From the listing, you can edit the API summary or remove the API from the network.
 
 ![Listed APIs](https://assets.postman.com/postman-docs/Private+API+listing+and+modifying.jpg)
 
-You can see which APIs and collections have been added to the Private API Network from your team workspace on the [Dashboard](https://www.postman.com).
+You can see which APIs and collections have been added to the Private API Network from your team workspace on the [Dashboard](go.postman.co).
 
 > You can click **Added to Postman's API Network** to remove an API from the network or to view the API in the network.
 
@@ -82,13 +82,13 @@ To keep your APIs secure, you will have to make sure that every member of your t
 
 ## Discovering and consuming private APIs
 
-You can find the APIs that your team has added to the Private API Network by browsing through your team's private API space on the [Dashboard](https://www.postman.com).
+You can find the APIs that your team has added to the Private API Network by browsing through your team's private API space on the [Dashboard](go.postman.co).
 
 > Only the private APIs for the teams associated with your login credentials will be visible to you.
 
-Sign in to the [Dashboard](https://www.postman.com) and click **API Network** at the top.
+Sign in to the [Dashboard](go.postman.co) and click **API Network** at the top.
 
-> Open your browser to sign in to the [Dashboard](https://www.postman.com).
+> Open your browser to sign in to the [Dashboard](go.postman.co).
 
 ![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
 
@@ -100,7 +100,7 @@ Click on an API to see details.
 
 ![API display](https://assets.postman.com/postman-docs/Private+API+display.jpg)
 
-If you have edit access to the API, you can make chages directly from the [Dashboard](https://www.postman.com) view.
+If you have edit access to the API, you can make chages directly from the [Dashboard](go.postman.co) view.
 
 ![Edit API](https://assets.postman.com/postman-docs/Private+API+gif.gif)
 
