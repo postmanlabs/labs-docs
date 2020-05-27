@@ -54,6 +54,8 @@ module.exports = {
             },
           },
           'gatsby-remark-responsive-iframe',
+          'gatsby-remark-autolink-headers',
+          'gatsby-remark-check-links'
         ],
       },
     },
