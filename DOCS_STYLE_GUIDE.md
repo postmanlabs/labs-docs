@@ -140,7 +140,7 @@ In general, use active voice and try not to use passive structures:
 
 ---
 
-Try to keep your sentences as short as possible. Use commas to break the content of a sentence into smaller, more digstible chunks—use serial commas in sentences containing three or more clauses. If a sentence has multiple clauses and you're having to use lots of commas, semicolons etc, it may benefit from being broken into more than one sentence, or perhaps presented in a different format such as a list. Be as concise as you can, while still being specific and conveying the relevant info. :eyeglasses:
+Try to keep your sentences as short as possible. Use commas to break the content of a sentence into smaller, more digestible chunks—use serial commas in sentences containing three or more clauses. If a sentence has multiple clauses and you're having to use lots of commas, semicolons etc, it may benefit from being broken into more than one sentence, or perhaps presented in a different format such as a list. Be as concise as you can, while still being specific and conveying the relevant info. :eyeglasses:
 
 Help users to scan content, by indicating the purpose of a page, section, or sentence at the beginning. Introducing a sentence or section with a conditional clause lets learners know straight away whether it's relevant to them or not:
 

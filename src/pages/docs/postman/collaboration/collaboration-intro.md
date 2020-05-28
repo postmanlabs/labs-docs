@@ -60,7 +60,11 @@ Enter the email address of the individual you’d like to invite to your team wo
 
 The individual will be added to the team once they accept their invitation.
 
-> "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.  
+> "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.
+
+All members of your workspace will have avatars displayed at the top of the Postman app or web Dashboard. If the avatar is brightly colored, that person is active in the workspace at that time. Hover over an avatar to see the names of the people in your workspace.
+
+![Active member](https://assets.postman.com/postman-docs/Beesly+active+member.jpg)
 
 ### Creating a new workspace from the menu
 

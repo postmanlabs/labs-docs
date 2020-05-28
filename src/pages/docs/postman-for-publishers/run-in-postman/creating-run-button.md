@@ -37,36 +37,44 @@ contextual_links:
 
 ---
 
-The Run in Postman button is a way to [share your Postman Collection](/docs/postman/collections/sharing-collections/) and integrate your API documentation or developer portal directly with the Postman app. Keep in mind, Run in Postman works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
+You can use The Run in Postman button to [share your Postman Collections](/docs/postman/collections/sharing-collections/). You can embed the button in your website to give developers immediate access to your API endpoints.
 
-The Run in Postman button imports and opens a collection of API endpoints directly in the user’s Postman app. You can embed the button in your API documentation or your GitHub's README to help developers get up to speed on your API faster.
+> The Run in Postman button also works with API description formats like Swagger and RAML. To create a button for the framework you use, convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
 
-### Creating the Run in Postman button
+## Contents
 
-To create the Run in Postman button, start in the Postman app. Make sure you are signed in to your Postman account, and that you have a collection to share.
+* [Creating a Run in Postman button](#creating-a-run-in-postman-button)
+* [Keeping your collections up to date](#keeping-your-collections-up-to-date)
+* [Next steps](#next-steps)
 
-1. Click on the ellipsis **(...)** next to the collection you would like to embed and select "Share".
+## Creating a Run in Postman button
 
-    [![share collection](https://assets.postman.com/postman-docs/shareCollectionDropdown.png)](https://assets.postman.com/postman-docs/shareCollectionDropdown.png)
+> Make sure you're signed in to your Postman account, and that you have a collection to share.
 
-1. Under the **Embed Button** tab, click the **Generate Code** button to upload the collection to the Postman servers.
+1. In the Postman app, open the collection you want to create a button for.
+2. Next to the collection name, click the ellipsis **(...)** > **Share**.
+3. At the top of the modal that appears, click **Embed**.
+4. Click **Generate code**.
+5. Choose a static or dynamic button:
+   * **Dynamic button**: This button uses HTML and CSS, and gives you access to the Run in Postman API.
+   * **Static button**: This button uses Markdown.
+6. You can include an environment that will import along with your collection. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
+7. Click **Copy to clipboard**.
+8. Embed the code where you would like the button to be displayed.
 
-    [![generate code](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)
+![Create a button](https://assets.postman.com/postman-docs/Creating+RIP+button+gif.gif)
 
-1. Pick whether you would like a Dynamic button or a Static button.
+Your embed code will include your collection's ID. In the examples below, `:collection_id` is a placeholder for that ID.
 
-* The Dynamic button uses HTML and CSS, and works well if you want to add the button to your own website and you have permissions to edit the source code of the site.
-* The Static button uses Markdown, and works well if you need to add the button to a markdown document, such as a README.md file in your Github or Bitbucket repository.
+> If you choose to include an environment in your button, the code will also have the environment parameter.
 
-      [![run in postman button code](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)
-
-Here’s an example markdown snippet:
+**Sample markdown snippet:**
 
 ```bash
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 ```
 
-Here’s an example HTML snippet:
+**Sample HTML snippet:**
 
 ```bash
 <a href="https://www.postman.com/run-collection/:collection_id" target="_blank">
@@ -74,6 +82,16 @@ Here’s an example HTML snippet:
 </a>
 ```
 
-The `:collection_id` is a placeholder here and will be auto-filled in the markdown snippet.
+## Keeping your collections up to date
 
-Embed this button on your documentation pages or your GitHub repo’s README for the API.
+When you make changes to a collection that's connected to a Run in Postman button, you'll need to manually update the button's collection link so that your users are importing the most recent version of your collection.
+
+1. In the Postman app, open the collection with the button you need to update.
+2. Next to the collection name, click the ellipsis **(...)** > **Share**.
+3. At the top of the dialog, click **Embed** > **Update link**.
+
+[![Embed button](https://assets.postman.com/postman-docs/59020943.png)](https://assets.postman.com/postman-docs/59020943.png)
+
+## Next steps
+
+Learn more about including [environments in the Run in Postman button](https://learning.postman.com/docs/postman-for-publishers/run-in-postman/environments-run-button/).

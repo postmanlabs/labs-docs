@@ -73,7 +73,7 @@
     },
     {
         "from": "/docs/postman-for-publishers/run-button/collections-run-button/",
-        "to": "/docs/postman-for-publishers/run-in-postman/collections-run-button/"
+        "to": "/docs/postman-for-publishers/run-in-postman/creating-run-button/"
     },
     {
         "from": "/docs/postman-for-publishers/run-button/environments-run-button/",
@@ -85,11 +85,11 @@
     },
     {
         "from": "/docs/postman-for-publishers/run-button/security/",
-        "to": "/docs/postman-for-publishers/run-in-postman/security/"
+        "to": "/docs/postman-for-publishers/run-in-postman/introduction-run-button/"
     },
     {
         "from": "/docs/postman-for-publishers/run-button/using-run-button/",
-        "to": "/docs/postman-for-publishers/run-in-postman/using-run-button/"
+        "to": "/docs/postman-for-publishers/run-in-postman/introduction-run-button/"
     },
     {
         "from": "/docs/postman-pro/integrations/apimatic/",
@@ -285,11 +285,11 @@
     },
     {
         "from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
-        "to": "/docs/postman/variables-and-environments/variables/"
+        "to": "/docs/postman/variables-and-environments/managing-environments/"
     },
     {
         "from": "/docs/postman/environments-and-globals/manage-environments/",
-        "to": "/docs/postman/variables-and-environments/variables/"
+        "to": "/docs/postman/variables-and-environments/managing-environments/"
     },
     {
         "from": "/docs/postman/environments-and-globals/manage-globals/",
@@ -297,7 +297,7 @@
     },
     {
         "from": "/docs/postman/environments-and-globals/sessions/",
-        "to": "/docs/postman/variables-and-environments/variables/#sessions-in-postman"
+        "to": "/docs/postman/variables-and-environments/variables/#sharing-and-persisting-data"
     },
     {
         "from": "/docs/postman/environments-and-globals/variables-complete-reference/",
@@ -309,11 +309,11 @@
     },
     {
         "from": "/docs/postman/environments_and_globals/intro_to_environments_and_globals/",
-        "to": "/docs/postman/variables-and-environments/variables/"
+        "to": "/docs/postman/variables-and-environments/managing-environments/"
     },
     {
         "from": "/docs/postman/environments_and_globals/manage_environments/",
-        "to": "/docs/postman/variables-and-environments/variables/"
+        "to": "/docs/postman/variables-and-environments/managing-environments/"
     },
     {
         "from": "/docs/postman/environments_and_globals/manage_globals/",
@@ -388,6 +388,10 @@
         "to": "/docs/administration/sso/admin-sso/"
     },
     {
+        "from": "/docs/enterprise/sso/admin_sso/",
+        "to": "/docs/administration/sso/admin-sso/"
+    },
+    {
         "from": "/docs/postman_enterprise/sso/intro_sso/",
         "to": "/docs/administration/sso/intro-sso/"
     },
@@ -429,7 +433,7 @@
     },
     {
         "from": "/docs/postman_for_publishers/run_button/collections_run_button/",
-        "to": "/docs/postman-for-publishers/run-in-postman/collections-run-button/"
+        "to": "/docs/postman-for-publishers/run-in-postman/creating-run-button/"
     },
     {
         "from": "/docs/postman_for_publishers/run_button/environments_run_button/",
@@ -441,11 +445,11 @@
     },
     {
         "from": "/docs/postman_for_publishers/run_button/security/",
-        "to": "/docs/postman-for-publishers/run-in-postman/security/"
+        "to": "/docs/postman-for-publishers/run-in-postman/introduction-run-button/"
     },
     {
         "from": "/docs/postman_for_publishers/run_button/using_run_button/",
-        "to": "/docs/postman-for-publishers/run-in-postman/using-run-button/"
+        "to": "/docs/postman-for-publishers/run-in-postman/introduction-run-button/"
     },
     {
         "from": "/docs/postman_pro/integrations/apimatic/",
@@ -570,5 +574,22 @@
     {
         "from": "/docs/v6/postman/sending_api_requests/authorization",
         "to": "/docs/postman/sending-api-requests/authorization/"
+    },
+    {
+        "from": "/docs/postman/collections/data-formats/",
+        "to": "/docs/postman/collections/importing-and-exporting-data/"
+    },
+    {
+        "from": "/docs/postman-for-publishers/run-in-postman/using-run-button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/introduction-run-button/"
+    },
+    {
+         "from": "/docs/postman-for-publishers/run-in-postman/security/",
+         "to": "/docs/postman-for-publishers/run-in-postman/introduction-run-button/"
+     },
+    {
+        "from": "/docs/postman-for-publishers/run-in-postman/collections-run-button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/creating-run-button/"
     }
+
 ]

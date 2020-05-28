@@ -21,8 +21,10 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{secrets.PROD_AWS_ACCESS_KEY_ID}}
         AWS_SECRET_ACCESS_KEY: ${{secrets.PROD_AWS_SECRET_ACCESS_KEY}}
         DIST_ID: ${{secrets.PROD_DIST_ID}}
+        MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
       run: |
         npm install
+        npm run clean
         npm run build:prod && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket postman-learning-center-prod --deleteRemoved --distId $DIST_ID --invalidate '/*'
     - name: h2 changes email
       run: bash logFile.sh

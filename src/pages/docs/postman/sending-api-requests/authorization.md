@@ -247,7 +247,7 @@ To request an access token, click __Get New Access Token__.
 
 > Once your request has a token value, it will appear in the request __Headers__.
 
-![Get Access Token](https://assets.postman.com/postman-docs/get-access-token.jpg)
+![Get Access Token](https://assets.postman.com/postman-docs/get-new-access-token-fields.jpg)
 
 Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman in order to test authenticated requests.
 
@@ -257,13 +257,23 @@ Postman will prompt you to supply specific details depending on the OAuth 2.0 __
 
 Authorization code grant type requires the user to authenticate with the provider—an authorization code is then sent back to the client app, extracted, and exchanged with the provider for an access token to authenticate subsequent requests.
 
-To use Authorization code grant type, enter a __Callback URL__ for your client application (which should be registered with the API provider), together with various details provided by the API service including __Auth URL__, __Access Token URL__, __Client ID__, and __Client Secret__.
+To use authorization code grant type, enter a __Callback URL__ for your client application (which should be registered with the API provider), together with various details provided by the API service including __Auth URL__, __Access Token URL__, __Client ID__, and __Client Secret__.
+
+> You can enter your auth details in the web browser, instead of in Postman, if you prefer, by selecting __Authorize using browser__.
+
+#### Authorization code (With PKCE)
+
+You can use PKCE (Proof Key for Code Exchange) with OAuth 2.0. When you select __Authorization Code (With PKCE)__ two additional fields will become available for __Code Challenge Method__ and __Code Verifier__. You can opt to use `SHA-256` or `Plain` algorithms to generate the code challenge. The verifier is an optional 43-128 character string to connect the authorization request to the token request.
+
+> __Authorization code (With PKCE)__ grant type coupled with __Authorize using browser__ is recommended to prevent auth code interception attacks.
 
 ### Implicit
 
 Implicit grant type returns an access token to the client straight away without requiring the additional auth code step (and is therefore less secure).
 
 To use implicit grant type with your requests in Postman, enter a __Callback URL__ you have registered with the API provider, the provider __Auth URL__, and a __Client ID__ for the app you have registered.
+
+> You can enter your auth details in the web browser, instead of in Postman, if you prefer, by selecting __Authorize using browser__.
 
 ### Password credentials
 
@@ -284,6 +294,7 @@ The full list of parameters to request a new access token is as follows, dependi
 * __Token Name:__ The name you want to use for the token.
 * __Grant Type:__ A dropdown list of options—this will depend on the API service provider requirements.
 * __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it—if this does not work for your API, you can use the following URL: `https://www.postman.com/oauth2/callback`
+    * __Authorize using browser:__ You can choose to enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use __Authorization code__ or __Implicit__ grant type. Checking this box will set the __Callback URL__ to return to Postman.
 * __Auth URL:__ The endpoint for the API provider authorization server, to retrieve the auth code.
 * __Access Token URL:__ The provider's authentication server, to exchange an authorization code for an access token.
 * __Client ID:__ The ID for your client application registered with the API provider.
@@ -292,9 +303,15 @@ The full list of parameters to request a new access token is as follows, dependi
 * __State:__ An opaque value to prevent cross-site request forgery.
 * __Client Authentication:__ A dropdown—send a Basic Auth request in the header, or client credentials in the request body. _After upgrading to a new version, change the value in this dropdown menu to avoid problems with client authentication._
 
-When your config is complete, click __Request Token__. If you successfully receive a token from the API you will see its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Click __Use Token__ to select the returned value.
+When your config is complete, click __Request Token__.
+
+> When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in subsequent requests. By default Postman will display a pop-up browser when you click __Request Token__. You can alternatively choose to authenticate using your system's default web browser. Select __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
+
+If you successfully receive a token from the API, you will see its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Click __Use Token__ to select the returned value.
 
 Any successfully retrieved tokens will be listed in the request __Available Tokens__ dropdown list. Select one to send with your request. Select __Manage Tokens__ in the dropdown list to view more details or delete your tokens.
+
+If authentication fails or times out, Postman will display an error message. You can check the error details in the console, __Retry__ to attempt authentication again, or edit your auth details before continuing.
 
 > Deleting a token in Postman does not revoke access. Only the server that issues the token can revoke it.
 

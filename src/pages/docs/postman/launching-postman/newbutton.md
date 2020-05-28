@@ -90,7 +90,7 @@ After creating the collection, you can save more requests to the collection and 
 
 ## Create an environment
 
-Under **BUILDING BLOCKS**, you can create an [environment](/docs/postman/variables-and-environments/variables/#environments-in-postman). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
+Under **BUILDING BLOCKS**, you can create an [environment](/docs/postman/variables-and-environments/managing-environments/). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
 
 1. In the header toolbar, click the **New** button.
 1. In the **Create New** tab, click "Environment".
@@ -179,7 +179,7 @@ As soon as you click on 'API' under Advanced section, a new "Untitled API" is cr
 
 [![New API](https://assets.postman.com/postman-docs/new-api.png)](https://assets.postman.com/postman-docs/new-api.png)
 
-Look at the [API Workflow](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/) to get the most out of your API.
+Use the [API Builder](/docs/postman/design-and-develop-apis/the-api-workflow/) to make best use of Postman on your API development projects.
 
 ## Templates
 

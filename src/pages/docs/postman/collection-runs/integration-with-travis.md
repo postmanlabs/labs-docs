@@ -70,7 +70,7 @@ Let's learn more about integration with Travis:
 
 ## Hooking up Postman to Travis CI
 
-1. [Export the Postman Collection as a JSON file](/docs/postman/collections/data-formats/#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/postman/variables-and-environments/variables/#environments-in-postman) and move the file to your project directory as well.
+1. [Export the Postman Collection as a JSON file](/docs/postman/collections/importing-and-exporting-data/#exporting-collections) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/postman/variables-and-environments/variables/#environments-in-postman) and move the file to your project directory as well.
 
     In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
 

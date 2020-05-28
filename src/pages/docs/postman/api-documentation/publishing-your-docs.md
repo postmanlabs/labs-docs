@@ -78,9 +78,9 @@ You can preview your documentation before publishing it.
 
 > With Postman Team, Business, or Enterprise, you can opt to use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/) for your public documentation site.
 
-You can configure the style of your public docs by selecting colors for the top bar, sidebar, and highlights. Try making changes and preview to see how your docs will appear when published.
+You can configure the style of your public docs by selecting colors for the header background, code background, and highlights. You can also choose single or double column view as the default layout for your docs. Try making changes and preview to see how your docs will appear when published.
 
-![Style Docs](https://assets.postman.com/postman-docs/style-docs.jpg)
+![Style Docs](https://assets.postman.com/postman-docs/Customizing+public+docs+layout.jpg)
 
 You can customize the style of your public docs by adding a team name and logo via your [team settings](/docs/postman/collaboration/team-settings/) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
 
@@ -122,6 +122,8 @@ You will see a confirmation that your docs are public together with a link you c
 You can unpublish your docs at any time by clicking __Unpublish__.
 
 ![Unpublish Docs](https://assets.postman.com/postman-docs/unpublish-docs.jpg)
+
+> Unless you use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/), people will not be able to search for or find your documentation online. By default your documentation will only be discoverable to people you explicitly share the URL with, or people browsing the API Network / Postman Templates (if you chose that option during publication).
 
 ## Next steps
 

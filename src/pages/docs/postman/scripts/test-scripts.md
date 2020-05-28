@@ -17,6 +17,9 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
+    name: "Ping Identity"
+    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+  - type: link
     name: "iQmetrix"
     url: "https://www.postman.com/resources/case-studies/iqmetrix/"
   - type: subtitle
@@ -103,7 +106,7 @@ Using the `pm.expect` syntax gives your test result messages a different formatâ
 
 > Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.getpostman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
 
-Your code can test the request [environment](/docs/postman/variables-and-environments/variables/), as in the following example:
+Your code can test the request [environment](/docs/postman/variables-and-environments/managing-environments/), as in the following example:
 
 ```js
 pm.test("environment to be production", function () {
