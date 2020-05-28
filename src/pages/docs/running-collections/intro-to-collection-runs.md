@@ -2,56 +2,86 @@
 title: "Using the Collection Runner"
 order: 55
 page_id: "intro_to_collection_runs"
+search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
     name: "Requests"
     url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
   - type: section
     name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Running a collection"
+    url: "https://www.youtube.com/watch?v=la0LqQwwKAA"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Keep track of GitHub issues using a Postman collection"
     url: "https://blog.postman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/"
-  - type: link
-    name: "Postman's New Collection Runner"
-    url: "https://blog.postman.com/2016/11/22/postmans-new-collection-runner/"
-
 warning: false
 
 ---
 
-Collections are groups of requests that can be run together as a series of requests, against a corresponding environment.
+The Collection Runner allows you to run sets of requests in a specified sequence. The Collection Runner will log your request test results, and your scripts can pass data between requests as well as altering the request workflow. You can run collections against specific environments, and can pass data files into a run. Collection runs allow you to automate your API testing, and you can schedule runs using monitors. You can integrate collection runs to your CI/CD pipeline using Postman's CLI Newman.
 
-Running a collection is useful when you want to automate API testing. When you run a collection, you send all requests in your collection one after another.
+[![Runner results](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)
 
-When you use scripts, you can build integration test suites, pass data between API requests, and build workflows that mirror your actual use case of APIs.
+> You can run a collection in the Postman app, using Newman, or with a monitor.
 
-[![collection run parameters](https://assets.postman.com/postman-docs/Collection_Runs_pg1.png)](https://assets.postman.com/postman-docs/Collection_Runs_pg1.png)
+## Contents
 
-To run collections, you can use:
+* [Starting a collection run](#starting-a-collection-run)
+* [Running your collections](#running-your-collections)
+* [Automating collection runs](#automating-collection-runs)
 
-* Postman app collection runner in the header bar.
+## Starting a collection run
 
-[![runner button](https://assets.postman.com/postman-docs/Runner-button2.png)](https://assets.postman.com/postman-docs/Runner-button2.png)
+To run a collection in the app, click __Runner__ at the top left.
 
-* [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/) command line tool.
+<img alt="Open collection runner" src="https://assets.postman.com/postman-docs/open-collection-runner-app.jpg" width="300px"/>
 
-* [Postman Monitors](/docs/postman/monitors/intro-monitors/) to run collections in scheduled intervals.
+When you open the Collection Runner, it will display a list of recent collection runs if you have any.
 
----
-For more information about collection runs, see:
+[![Runner list](https://assets.postman.com/postman-docs/runner-open-list.jpg)](https://assets.postman.com/postman-docs/runner-open-list.jpg)
 
-* [Starting a collection run](/docs/postman/collection-runs/starting-a-collection-run/)
-* [Using environments in collection runs](/docs/postman/collection-runs/using-environments-in-collection-runs/)
-* [Working with data files](/docs/postman/collection-runs/working-with-data-files/)
-* [Running multiple iterations](/docs/postman/collection-runs/running-multiple-iterations/)
-* [Building workflows](/docs/postman/collection-runs/building-workflows/)
-* [Sharing a collection run](/docs/postman/collection-runs/sharing-a-collection-run/)
-* [Debugging a collection run](/docs/postman/collection-runs/debugging-a-collection-run/)
-* [Command line integration with Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
-* [Integration with Jenkins](/docs/postman/collection-runs/integration-with-jenkins/)
-* [Integration with Travis CI](/docs/postman/collection-runs/integration-with-travis/)
-* [Newman with Docker](/docs/postman/collection-runs/newman-with-docker/)
+You can switch workspace using the control at the top in the center of the window to access the collection you want to run.
+
+Your collections appear on the left. Select a collection or folder to run the requests inside it in the specified sequence. By default your requests will run in the sequence they are listed in the collection, but you can click to the left of each one and drag to move it if you need to change the order of execution. You can also deselect an individual request by unchecking its box.
+
+[![Runner request order](https://assets.postman.com/postman-docs/collection-runner-request-order.jpg)](https://assets.postman.com/postman-docs/collection-runner-request-order.jpg)
+
+> You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
+
+You can optionally choose config parameters for your collection run:
+
+* An [environment](/docs/sending-requests/managing-environments/) to run the requests against.
+* The number of iterations for your collection run. You can run collections multiple times against different data sets to [build workflows](/docs/running-collections/building-workflows/).
+* An interval delay (milliseconds) between each request.
+* A [data file](/docs/running-collections/working-with-data-files/) for the collection run.
+* Saving responses to the log will allow you to review them but affect performance.
+* Persisting variables will mean that any variables updated by the run will remain changed after it. If you do not persist variables, changes will not be saved after the run completes.
+* If your requests use cookies, you can optionally disable them for a collection run.
+* Saving cookies means that any values affected by requests during the run will remain after it completes.
+
+## Running your collections
+
+With your config complete, click __Run (collection name)__ to execute it. Postman will display your request executions and test results in realtime. You will see an overview for each request, including its passed or failed tests—you can filter on each.
+
+[![Runner results](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)
+
+You can export test results and view the __Run Summary__ using the buttons at the top right.
+
+[![Runner result summary](https://assets.postman.com/postman-docs/run-result-summary.jpg)](https://assets.postman.com/postman-docs/run-result-summary.jpg)
+
+## Automating collection runs
+
+In addition to using the Collection Runner in the Postman app, you can use collection runs in conjunction with other utilities in order to build automation into your API projects.
+
+* The Postman command line interface [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/) allows you to run collections and build them into your development pipeline, responding to test outcomes to maintain your API performance.
+* Adding a [monitor](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to your collection lets you schedule collection runs and stay informed of any issues.
