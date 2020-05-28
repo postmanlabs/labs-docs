@@ -150,6 +150,8 @@ To send a path parameter, enter the parameter name into the URL field, after a c
 
 ![Path Parameter](https://assets.postman.com/postman-docs/path-param.jpg)
 
+You can add descriptions to your parameters and they'll appear for anyone sharing the request (for example in your workspace) or viewing your API documentation.
+
 > You can use the __Bulk Edit__ option if you prefer to enter your parameters in text instead of using the UI.
 > ![Bulk Edit](https://assets.postman.com/postman-docs/bulk-edit.jpg)
 
