@@ -87,7 +87,13 @@ Don’t worry, Postman restores all your data from the cloud when you sign in, a
 
 When you reload the app, Postman automatically retrieves the most recent and up-to-date version of your collections.
 
-**Note:** If you don't intend to sync, you must export your data and then signout. However, if you need to delete already synced data, then you must delete your account. Note that you must leave the team first in order for you to delete your account. If you are a member of a team, click [here](https://go.postman.co/settings/me/team) to exit the team.  
+## Disabling sync
+
+If you or your organization have a requirement to prevent your data from being synced to the Postman Cloud, you can use Postman without an account and [manually back up your data locally](/docs/postman/collections/importing-and-exporting-data/#exporting-postman-data).
+
+You can delete already synced data by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](https://go.postman.co/settings/me/team) in order to delete your account.
+
+> Learn more about [Security at Postman](https://www.postman.com/security/).
 
 ## Deleting your Postman account
 
