@@ -14,10 +14,13 @@ contextual_links:
   - type: link
     name: "Scaling Team Collaboration at Atlassian"
     url : https://www.youtube.com/watch?v=wYBZrdukack
-  - type: subtitle
-    name: "Documentation"
+  - type: section
+    name: "Next Steps"
   - type: link
-    name: "Your API Network"
+    name: "Intro to workspaces"
+    url: "/docs/postman/workspaces/intro-to-workspaces/"
+  - type: link
+    name: "Your private API network"
     url: "/docs/postman/collaboration/adding-private-network/"
 
 ---
@@ -135,3 +138,5 @@ Alternatively, you can download your archived data directly within the Postman A
 ## Next steps
 
 For a more in-depth introduction to workspaces and how they can help organize your API development, check out [Intro to Workspaces](/docs/postman/workspaces/intro-to-workspaces/).
+
+To see how you can share the APIs that your teams use internally, check out [Your private API Network](/docs/postman/collaboration/adding-private-network/).
