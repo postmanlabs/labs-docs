@@ -28,7 +28,7 @@ You can publish the APIs that your teams use internally to the private API netwo
 
 ![Team APIs](https://assets.postman.com/postman-docs/Private+APIs.jpg)
 
-You can add to the private API network from your team's private API space on the [Dashboard](https://go.postman.co). The [Dashboard](https://go.postman.co) is also where your team members can discover and consume your private APIs.
+You can add to the private API network from your team's private API space on the [Dashboard](https://go.postman.co). Your team members can discover and consume your private APIs by opening the Dashboard and choosing __API Network__.
 
 ## Contents
 
@@ -43,8 +43,6 @@ You can add to the private API network from your team's private API space on the
 > You can only add an API to the network if all team members have permission to view the API. Learn more about [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
 
 To add a private API for your team, sign in to your [Dashboard](https://go.postman.co) and click **API Network** at the top.
-
-> Open your browser to sign in to the [Dashboard](https://go.postman.co).
 
 ![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
 
@@ -82,17 +80,13 @@ To keep your APIs secure, you cannot add an API to the network unless all team m
 
 ## Discovering and consuming private APIs
 
-You can find the APIs that your team has added to the private API network by browsing through your team's private API space on the [Dashboard](https://go.postman.co).
+You can find the APIs that your team has added to the private API network by opening the [Dashboard](https://go.postman.co) and choosing __API Network__. You will see shared APIs listed under your team name (or you can browse the [public API Network](/docs/postman-for-publishers/api-network/add-api-network/)).
 
 > Only the private APIs for the teams associated with your login credentials will be visible to you.
 
-Sign in to the [Dashboard](https://go.postman.co) and click **API Network** at the top.
-
-> Open your browser to sign in to the [Dashboard](https://go.postman.co).
-
 ![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
 
-By default, your team's private API space will open, and you can browse through the list of your organization's private APIs.
+You can browse through the list of shared APIs (or see the public API Network).
 
 ![API list](https://assets.postman.com/postman-docs/Private+API+listings.jpg)
 
