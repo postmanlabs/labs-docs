@@ -98,10 +98,10 @@ You can save responses as before, but now you can edit them whenever you want. T
 
 ## How your examples appear in Postman documentation
 
-You can publish Postman [API documentation](/docs/postman/api-documentation/documenting-your-api/) to the web with a single click. Examples display in your API documentation and provide additional details and clarification for your API.
+You can publish Postman [API documentation](/docs/postman/api-documentation/documenting-your-api/) to the web. Examples display in your API documentation and provide additional details and clarification for your API.
 
-You can edit these examples with real-time updates to the documentation!
+You can edit these examples with real-time updates to the documentation.
 
-[![how examples appear in documentation](https://assets.postman.com/postman-docs/in-documenter.gif)](https://assets.postman.com/postman-docs/in-documenter.gif)
+![how examples appear in documentation](https://assets.postman.com/postman-docs/Examples.jpg)
 
 This behavior allows teams to mock an example request and response, in addition to simulating the endpoint using [mock servers](/docs/postman/mock-servers/intro-to-mock-servers/). Front-end and back-end developers and testers can all begin working in parallel, based on the agreed-upon example.
