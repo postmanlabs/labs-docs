@@ -110,7 +110,7 @@ The description will appear in your docs, in the request __Params__ and __Header
 
 ### Authorization details
 
-You can include the type of authorization required to access your APIs in your documentation. You can add your authorization details at the collection level or at the request level. Authorization requirements added at the collection level apply to each request and will be displayed on each request.
+You can include the type of authorization required to access your APIs in your documentation. You can add your authorization details at the collection level or at the request level. Authorization requirements added at the collection level apply to each request and will be displayed for each one in your documentation.
 
 ![Docs Link](https://assets.postman.com/postman-docs/Persistive+auth.jpg)
 
