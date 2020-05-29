@@ -80,13 +80,13 @@ To keep your APIs secure, you cannot add an API to the network unless all team m
 
 ## Discovering and consuming private APIs
 
-You can find the APIs that your team has added to the private API network by browsing through your team's space on the [Dashboard](https://go.postman.co) and opening __API Network__. If your team has any APIs shared to the private network you will see them listed under your team name (or you can browse the [public API Network](/docs/postman-for-publishers/api-network/add-api-network/)).
+You can find the APIs that your team has added to the private API network by browsing through your team's space on the [Dashboard](https://go.postman.co) and opening __API Network__. You will see shared APIs listed under your team name (or you can browse the [public API Network](/docs/postman-for-publishers/api-network/add-api-network/)).
 
 > Only the private APIs for the teams associated with your login credentials will be visible to you.
 
 ![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
 
-If your team has any APIs shared privately, you can browse through the list (otherwise you will see the public API Network).
+You can browse through the list of shared APIs (or see the public API Network).
 
 ![API list](https://assets.postman.com/postman-docs/Private+API+listings.jpg)
 
