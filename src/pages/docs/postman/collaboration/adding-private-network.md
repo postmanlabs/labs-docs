@@ -1,6 +1,6 @@
 ---
 title: "Your private API network"
-order: 59.9
+order: 66.1
 page_id: "adding_private_network"
 warning: false
 contextual_links:
@@ -42,7 +42,7 @@ You can add to the private API network from your team's private API space on the
 
 > You can only add an API to the network if all team members have permission to view the API. Learn more about [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
 
-To add a private API for your team, sign in to your [Dashboard](go.postman.co) and click **API Network** at the top.
+To add a private API for your team, sign in to your [Dashboard](https://go.postman.co) and click **API Network** at the top.
 
 > Open your browser to sign in to the [Dashboard](https://go.postman.co).
 
