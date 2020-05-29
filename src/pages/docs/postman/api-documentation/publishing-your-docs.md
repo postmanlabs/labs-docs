@@ -123,8 +123,6 @@ You can unpublish your docs at any time by clicking __Unpublish__.
 
 ![Unpublish Docs](https://assets.postman.com/postman-docs/unpublish-docs.jpg)
 
-> Unless you use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/), people will not be able to search for or find your documentation online. By default your documentation will only be discoverable to people you explicitly share the URL with, or people browsing the API Network / Postman Templates (if you chose that option during publication).
-
 ## Next steps
 
 Find out more about sharing your docs via the [API Network](/docs/postman-for-publishers/api-network/add-api-network/) and [Templates](/docs/postman-for-publishers/postman-templates/add-templates/).

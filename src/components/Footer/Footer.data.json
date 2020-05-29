@@ -20,7 +20,7 @@
         { "url": "https://www.postman.com/downloads/", "name": "Download the App"},
         { "url": "https://www.postman.com/downloads/release-notes", "name": "Release Notes"},
         { "url": "https://www.postman.com/integrations/", "name": "Integrations"},
-        { "url": "https://docs.api.postman.com/", "name": "Postman API"},
+        { "url": "https://documenter.getpostman.com/view/631643/JsLs/?version=latest", "name": "Postman API"},
         { "url": "https://github.com/postmanlabs", "name": "Open-Source"},
         { "url": "https://status.postman.com/", "name": "System Status"},
         { "url": "https://www.postman.com/resources/case-studies/", "name": "Case Studies"}
