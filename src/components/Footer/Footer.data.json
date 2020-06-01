@@ -48,7 +48,7 @@
         { "url": "https://www.postman.com/support", "name": "Support"},
         { "url": "https://pages.postman.com/Resellers-Support.html", "name": "Resellers Support"},
         { "url": "https://learning.postman.com/", "name": "Learning Center"},
-        { "url": "https://www.postman.com/resources/videos-tutorials/", "name": "Videos & Tutorials"},
+        { "url": "https://www.postman.com/resources/tutorials-webinars/", "name": "Webinars & Videos" },
         { "url": "https://www.postman.com/community", "name": "Community Content"},
         { "url": "https://community.postman.com/", "name": "Postman Community"}
       ]
