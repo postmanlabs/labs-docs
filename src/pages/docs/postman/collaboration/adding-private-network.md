@@ -30,7 +30,7 @@ You can publish the APIs that your teams use internally to the private API netwo
 
 You can add to the private API network from your team's private API space on the [Dashboard](https://go.postman.co). The [Dashboard](https://go.postman.co) is also where your team members can discover and consume your private APIs.
 
-> Your API must be in the [API builder](/docs/postman/design-and-develop-apis/the-api-workflow/) in order to be added to the network. You cannot add a collection to the private API network.
+> Your API must be in the [API Builder](/docs/postman/design-and-develop-apis/the-api-workflow/) in order to be added to the network. You cannot add a collection to the private API network.
 
 ## Contents
 
