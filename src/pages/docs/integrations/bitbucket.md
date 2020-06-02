@@ -43,6 +43,8 @@ To add a Bitbucket integration, navigate to your [Postman Dashboard](https://go.
 
 Enter your Bitbucket username and app password.
 
+> App passwords are different from account passwords. Learn [how to create an app password in Bitbucket](https://confluence.atlassian.com/bitbucket/app-passwords-828781300.html).
+
 <img src="https://assets.postman.com/postman-docs/enter-username-and-password.jpg" width="350px" alt="User Menu"/>
 
 Select your collection to back up, the repository you'd like to back it up to, and designate the directory, filename, and branch. Click **Add Integration**.
