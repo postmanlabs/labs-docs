@@ -30,6 +30,8 @@ You can publish the APIs that your teams use internally to the private API netwo
 
 You can add to the private API network from your team's private API space on the [Dashboard](https://go.postman.co). The [Dashboard](https://go.postman.co) is also where your team members can discover and consume your private APIs.
 
+> Your API must be in the API builder in order to be added to the network. You cannot add a collection to the private API network.
+
 ## Contents
 
 * [Adding your APIs](#adding-your-apis)
@@ -40,7 +42,7 @@ You can add to the private API network from your team's private API space on the
 
 ### Adding your APIs
 
-> You can only add an API to the network if all team members have permission to view the API. Learn more about [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
+> You can only add an API to the network if you have edit access to the API, and all of your team members have permission to edit or view the API. Learn more about [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
 
 To add a private API for your team, sign in to your [Dashboard](go.postman.co) and click **API Network** at the top.
 
@@ -76,7 +78,7 @@ When users sign in to Postman, only the private APIs for the teams associated wi
 
 #### Guidelines
 
-Every member of your team must have view or edit access to the API before you submit it to the network. The person submitting the API to the network must have edit access to the API. APIs submitted to the private API network without all team members having view or edit access to it will not be permitted to add. Learn more about team [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
+The person submitting the API to the network must have edit access to the API. Every member of your team must have view or edit access to the API before you submit it to the network. APIs submitted to the private API network without all team members having view or edit access to it will not be permitted to add. Learn more about team [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
 
 ## Discovering and consuming private APIs
 
