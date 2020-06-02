@@ -147,7 +147,7 @@ const Footer = () => (
                   rel="noopener noreferrer"
                   className="social-icon"
                 >
-                  <svg height="25" width="25" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2400 2800" style={{ enableBackground: 'new 0 0 2400 2800;' }} space="preserve">
+                  <svg height="25" width="25" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2400 2800" style={{ enableBackground: 'new 0 0 2400 2800' }} space="preserve">
                     {/* <style type='text/css'>
                       .st0{fill:#FFFFFF;}
                     </style> */}
