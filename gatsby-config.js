@@ -125,20 +125,20 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-env-variables`,
+      resolve: 'gatsby-plugin-env-variables',
       options: {
-        whitelist: ['MUNCHKIN_ID']
+        whitelist: ['MUNCHKIN_ID'],
       },
     },
     {
-      resolve: `gatsby-plugin-gdpr-cookies`,
+      resolve: 'gatsby-plugin-gdpr-cookies',
       options: {
         googleAnalytics: {
           trackingId: 'UA-43979731-4',
-          anonymize: true
+          anonymize: true,
         },
-        environments: ['production', 'development']
-      }
+        environments: ['production', 'development'],
+      },
     },
   ],
 };
