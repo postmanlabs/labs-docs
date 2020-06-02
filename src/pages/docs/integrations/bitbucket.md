@@ -10,22 +10,57 @@ contextual_links:
     name: "Intro to collections"
     url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
   - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Related Blog posts"
+    name: "Next Steps"
   - type: link
-    name: ""
-    url: ""
+    name: "Custom Webhooks"
+    url: "/docs/integrations/webhooks/"
+  - type: link
+    name: "Slack Integration"
+    url: "/docs/integrations/slack/"
 ---
 
-> __[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
 
-Postman allows you to back up your collections (for paid plans only) or synchronize your APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
+You can back up your team's Postman Collections with Postman's Bitbucket integration.
 
-* [Backing up collections on GitHub](#backing-up-collections-on-github)
-    * [Configuring GitHub integration for collections](#configuring-github-integration-for-collections)
-    * [Backup collections to GitHub](#backup-collections-to-github)
-    * [Backup collections to GitHub on custom domain](#backup-collections-to-github-on-custom-domain)
-* [Syncing API schemas on GitHub](#syncing-your-api-schemas-on-github)
-    * [Configuring GitHub integration for API schemas](#configuring-github-integration-for-api-schemas)
-* [Troubleshooting GitHub Sync](#troubleshooting-github-sync)
+## Contents
+
+* [Backing up collections on Bitbucket](#backing-up-collections-on-bitbucket)
+
+    * [Configuring a Bitbucket integration](#configuring-a-bitbucket-integration)
+
+* [Next steps](#next-steps)
+
+## Backing up collections on Bitbucket
+
+You can back up your Postman Collections to your Bitbucket repository. Once the integration is configured, any new changes to your collection in Postman will also appear in Bitbucket.
+
+### Configuring a Bitbucket integration
+
+To add a Bitbucket integration, navigate to your [Postman Dashboard](https://go.postman.co/). Select your desired workspace > **Integrations**. Click **Browse Integrations**, locate **Bitbucket**, and select **View Details**. Click **+ Add integration**.
+
+![Bitbucket page](https://assets.postman.com/postman-docs/bitbucket-postman-page.jpg)
+
+Enter your Bitbucket username and app password.
+
+<img src="https://assets.postman.com/postman-docs/enter-username-and-password.jpg" width="350px" alt="User Menu"/>
+
+Select your collection to back up, the repository you'd like to back it up to, and designate the directory, filename, and branch. Click **Add Integration**.
+
+<img src="https://assets.postman.com/postman-docs/bitbucket-configuration.jpg" width="350px" alt="User Menu"/>
+
+Your newly created integration will now appear under **Configured Integrations**.
+
+![Configured integrations](https://assets.postman.com/postman-docs/configured-integrations.jpg)
+
+To confirm this integration, navigate to your [Bitbucket dashboard](https://bitbucket.org/dashboard/overview) > **Repositories**. Select your repository > **Commits**.
+
+![Configured integrations](https://assets.postman.com/postman-docs/bitbucket-commits.jpg)
+
+You can select a commit to view your stored collection in JSON format.
+
+![Bitbucket collection](https://assets.postman.com/postman-docs/bitbucket-collection.jpg)
+
+## Next steps
+
+Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/slack/).
