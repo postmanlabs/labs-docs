@@ -22,6 +22,9 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
+    name: "How to Control Access to Variables, Workflows, and More"
+    url:  "https://blog.postman.com/postman-environments-how-to-control-access-to-variables-workflows-and-more/"
+  - type: link
     name: "Dynamically unset environment variables"
     url: "https://blog.postman.com/2019/05/28/pro-tip-dynamically-unset-postman-environment-variables/"
   - type: section

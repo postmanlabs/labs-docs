@@ -14,8 +14,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "The Postman Console"
-    url: "https://blog.postman.com/2016/08/26/the-postman-console/"
+    name: "Powerful Debugging with the Postman Console"
+    url: "https://blog.postman.com/powerful-debugging-with-the-postman-console/"
   - type: subtitle
     name: "Videos"
   - type: link
