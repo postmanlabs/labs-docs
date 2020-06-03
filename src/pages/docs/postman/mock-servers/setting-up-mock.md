@@ -26,6 +26,9 @@ contextual_links:
   - type: link
     name: "Team collaboration with Postman mock servers"
     url: "https://blog.postman.com/2017/09/20/team-collaboration-with-postman-mock-servers/"
+  - type: link
+    name: "Introducing Postman Mock Call Logs"
+    url:  "https://blog.postman.com/introducing-postman-mock-call-logs/"
   - type: section
     name: "Next Steps"
   - type: link
