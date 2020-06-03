@@ -23,7 +23,7 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Use Your Work in Postman to Generate Code for Your Apps"
+    name: "Generate Code for Your Front-end Apps"
     url: "https://blog.postman.com/use-your-work-in-postman-to-generate-code-for-your-apps/"
 
 warning: false
