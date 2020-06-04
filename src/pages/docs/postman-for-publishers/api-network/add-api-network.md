@@ -55,7 +55,7 @@ Include the __API Name__, __Summary__, and __Description__—add the details pot
 
 Select the categories that best describe your API and service. API consumers can choose categories to browse APIs in the network from the left sidebar in the Postman app and at [explore.postman.com](https://explore.postman.com).
 
-![Network Categories](https://assets.postman.com/postman-docs/network-in-app.jpg)
+![Network Categories](https://assets.postman.com/postman-docs/API+categories+.jpg)
 
 ### Setting up your team profile
 
