@@ -32,7 +32,7 @@ You can generate code snippets in various languages and frameworks within Postma
 
 ## Contents
 
-* [Generating code snippets in Postman](#backing-up-collections-on-bitbucket)
+* [Generating code snippets in Postman](#generating-code-snippets-in-postman)
 
 * [Supported languages/frameworks](#supported-languagesframeworks)
 
