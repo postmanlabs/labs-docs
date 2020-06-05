@@ -121,7 +121,9 @@ By default Postman will select the `GET` method for new request. `GET` methods a
 
 > For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks, a `POST` method to create a new task, and a `PUT` or `PATCH` method to edit an existing task.
 
-Postman supports a number of additional request methods by default, and you can [use custom methods](/docs/postman/customizing-postman/).
+Postman supports a number of additional request methods by default, and you can use custom methods. Click the method drop-down, edit the method name text, and save your new method. To delete a method, hover over it in the list and select the trash icon.
+
+<img alt="Custom method" src="https://assets.postman.com/postman-docs/create-custom-method.jpg" width="200px"/>
 
 > To try out the `https://postman-echo.com/get` endpoint, leave the `GET` method selected and click __Send__.
 

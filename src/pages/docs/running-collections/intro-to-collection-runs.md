@@ -61,23 +61,33 @@ Your collections appear on the left. Select a collection or folder to run the re
 You can optionally choose config parameters for your collection run:
 
 * An [environment](/docs/sending-requests/managing-environments/) to run the requests against.
-* The number of iterations for your collection run. You can run collections multiple times against different data sets to [build workflows](/docs/running-collections/building-workflows/).
+* The number of iterations for your collection run. You can also run collections multiple times against different data sets to [build workflows](/docs/running-collections/building-workflows/).
 * An interval delay (milliseconds) between each request.
 * A [data file](/docs/running-collections/working-with-data-files/) for the collection run.
-* Saving responses to the log will allow you to review them but affect performance.
-* Persisting variables will mean that any variables updated by the run will remain changed after it. If you do not persist variables, changes will not be saved after the run completes.
+* Saving responses to the log will allow you to review them but can affect performance.
+* Persisting variables will mean that any variables updated by the run will remain changed after it. If you do not persist variables, changes will not be saved after the run completes. _Note that persisting variables in the collection run will update the current value only. If you have variables set to automatically persist in your Postman app settings, each variable initial value will update to the current value after a run._
 * If your requests use cookies, you can optionally disable them for a collection run.
 * Saving cookies means that any values affected by requests during the run will remain after it completes.
 
 ## Running your collections
 
-With your config complete, click __Run (collection name)__ to execute it. Postman will display your request executions and test results in realtime. You will see an overview for each request, including its passed or failed tests—you can filter on each.
+With your config complete, click __Run (collection name)__ to execute it. Postman will display your request executions and test results in realtime. To the right you will see a number for each iteration—click to select one. You will see an overview for each request, including its passed or failed tests—you can filter on each using the red and green buttons on the left.
 
 [![Runner results](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)
 
+If any tests in a request script fail during the collection run, it will be listed as failed—it will be listed as passed if all tests inside it pass.
+
+Click a request name to access more data on what happened when it executed.
+
+[![Collection run request detail](https://assets.postman.com/postman-docs/collection-run-request-detail.jpg)](https://assets.postman.com/postman-docs/collection-run-request-detail.jpg)
+
+> If you check __Save responses__ when you start a collection run, you will see the responses in the run results.
+
 You can export test results and view the __Run Summary__ using the buttons at the top right.
 
-[![Runner result summary](https://assets.postman.com/postman-docs/run-result-summary.jpg)](https://assets.postman.com/postman-docs/run-result-summary.jpg)
+[![Runner result summary](https://assets.postman.com/postman-docs/run-summary-iterations.jpg)](https://assets.postman.com/postman-docs/run-summary-iterations.jpg)
+
+The summary also lists a column for each iteration of your collection run so that you can see test output for the whole run at a glance.
 
 ## Automating collection runs
 
