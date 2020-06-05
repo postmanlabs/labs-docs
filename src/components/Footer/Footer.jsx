@@ -54,6 +54,7 @@ const Footer = () => (
                   href="https://www.facebook.com/getpostman/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="social-icon"
                 >
                   <svg
                     width="24"
@@ -77,6 +78,7 @@ const Footer = () => (
                   href="https://twitter.com/getpostman"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="social-icon"
                 >
                   <svg
                     width="30"
@@ -97,6 +99,7 @@ const Footer = () => (
                   href="https://www.linkedin.com/company/postman-api-tools"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="social-icon"
                 >
                   <svg
                     width="25"
@@ -118,6 +121,7 @@ const Footer = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                   title="View our Postman repos on GitHub"
+                  className="social-icon"
                 >
                   <svg
                     height="25"
@@ -135,7 +139,28 @@ const Footer = () => (
                   </svg>
                 </a>
               </li>
-
+              <li className="list-inline-item">
+                <a
+                  id="twitch_icon"
+                  href="https://www.twitch.tv/getpostman"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon"
+                >
+                  <svg height="25" width="25" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2400 2800" style={{ enableBackground: 'new 0 0 2400 2800' }} space="preserve">
+                    {/* <style type='text/css'>
+                      .st0{fill:#FFFFFF;}
+                    </style> */}
+                    <g>
+                      <g id="Layer_1-2">
+                        <path className="st0" d="M500,0L0,500v1800h600v500l500-500h400l900-900V0H500z M2200,1300l-400,400h-400l-350,350v-350H600V200h1600V1300z" />
+                        <rect x="1700" y="550" className="st0" width="200" height="600" />
+                        <rect x="1150" y="550" className="st0" width="200" height="600" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </li>
             </ul>
           </section>
         </div>

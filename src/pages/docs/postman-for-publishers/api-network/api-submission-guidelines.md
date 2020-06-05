@@ -19,7 +19,7 @@ contextual_links:
 
 Adding your team profile and collection docs to the API Network can expose your services to more potential users and provide them with the tools to onboard and adopt your API. To get the best out of your API Network listing, follow a few tips that will aid discovery of your documentation, making it and your collection templates as usable as possible.
 
-![API Network Homepage](https://assets.postman.com/postman-docs/api-network-homepage.jpg)
+![API Network Homepage](https://assets.postman.com/postman-docs/Public+network+on+Explore.jpg)
 
 ## Check your collection in the app
 

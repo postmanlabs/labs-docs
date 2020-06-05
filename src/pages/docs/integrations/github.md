@@ -1,6 +1,6 @@
 ---
 title: "GitHub"
-order: 288
+order: 289
 page_id: "github"
 warning: false
 contextual_links:
@@ -14,8 +14,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog posts"
   - type: link
-    name: "Backup and Sync your Postman Collections on GitHub"
-    url: "https://blog.postman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/"
+    name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
+    url:  "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
 ---
 
 > __[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__

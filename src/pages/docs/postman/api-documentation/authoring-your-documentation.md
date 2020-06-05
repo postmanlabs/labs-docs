@@ -35,6 +35,7 @@ You can include information in your API documentation using [Markdown](https://g
 * [Describing collections](#describing-collections)
 * [Documenting request detail](#documenting-request-detail)
     * [Parameters and headers](#parameters-and-headers)
+    * [Authorization details](#authorization-details)
 * [Using examples in your docs](#using-examples-in-your-docs)
 * [Documentation links](#documentation-links)
 * [Using images in docs](#using-images-in-docs)
@@ -101,9 +102,21 @@ You can add a description to the parameters and headers in your requests—for p
 
 ![Parameter Description](https://assets.postman.com/postman-docs/param-desc.jpg)
 
- The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
+> All key-value pairs will be displayed in your documentation regardless of whether or not they're checked. You can indicate which pairs are required and which are optional in the description. Consumers of your documentation can choose which key-value pairs they want to use when they send requests to your endpoints. Users will be able to [generate code snippets](https://learning.postman.com/docs/postman/sending-api-requests/generate-code-snippets/) in the Postman app based on the key-value pairs they select, and a URL with those pairs will be displayed in the app.
+
+The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
 
 <img alt="Header Description in Docs" src="https://assets.postman.com/postman-docs/header-desc-docs.jpg" width="500px">
+
+### Authorization details
+
+You can include the type of authorization required to access your APIs in your documentation. You can add your authorization details at the collection level or at the request level. Authorization requirements added at the collection level apply to each request and will be displayed for each one in your documentation.
+
+![Docs Link](https://assets.postman.com/postman-docs/Persistive+auth.jpg)
+
+If one of your endpoints requires an authorization type that varies from the collection, you can add that authorization type to the request in the request tab, and it will be rendered in the documentation.
+
+![Auth display](https://assets.postman.com/postman-docs/Auth+for+a+specific+request.jpg)
 
 ## Using examples in your docs
 
@@ -113,15 +126,19 @@ Any body data included in your request will appear in the endpoint section of yo
 
 ![Body Data](https://assets.postman.com/postman-docs/body-json.jpg)
 
-You can also create an example to use for a request.
+You can also create an example to use for a request. Click **Examples** > **Add Example**.
 
 ![Add Example](https://assets.postman.com/postman-docs/add-example.jpg)
 
-Any data you include in the example will appear in the docs example code sidebar, including body and response data.
+Create the example you want to add and click **Save Example**.
 
-![Body Example](https://assets.postman.com/postman-docs/body-example.jpg)
+![Body Example](https://assets.postman.com/postman-docs/Create+an+example.jpg)
 
-![Examples in Docs](https://assets.postman.com/postman-docs/examples-in-docs.jpg)
+Any data you include in the example will appear on the right, in the docs example code sidebar, as the response body and headers.
+
+> Learn more about [viewing documentation](/docs/postman/api-documentation/viewing-documentation/).
+
+![Examples in Docs](https://assets.postman.com/postman-docs/Response+headers+dispalyed+.jpg)
 
 Postman currently supports [these programming languages or frameworks](/docs/postman/sending-api-requests/generate-code-snippets/#supported-languagesframeworks) to customize your [code snippets](/docs/postman/sending-api-requests/generate-code-snippets).
 

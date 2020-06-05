@@ -26,6 +26,9 @@ contextual_links:
   - type: link
     name: "Team collaboration with Postman mock servers"
     url: "https://blog.postman.com/2017/09/20/team-collaboration-with-postman-mock-servers/"
+  - type: link
+    name: "Introducing Postman Mock Call Logs"
+    url:  "https://blog.postman.com/introducing-postman-mock-call-logs/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -46,12 +49,20 @@ Mocks in Postman are tied to a collection. Postman matches requests and generate
     * [Mocking from the Launchpad](#mocking-from-the-launchpad)
     * [Mocking from an API](#mocking-from-an-api)
     * [Mocking from the Collections sidebar](#mocking-from-the-collections-sidebar)
-    * [Mocking a request from History](#mocking-a-request-from-history)
-    * [Mocking from Collections in Browse view](#mocking-from-collections-in-browse-view)
+    * [Mocking from history](#mocking-from-history)
+        * [Mocking a single request](#mocking-a-single-request)
+        * [Mocking all requests made on a specific date](#mocking-all-requests-made-on-a-specific-date)
+* [Mocking from Collections in Browse view](#mocking-from-collections-in-browse-view)
 * [Creating mock servers in the web dashboard](#creating-mock-servers-in-the-web-dashboard)
 * [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
 * [Using free mock server calls](#using-free-mock-server-calls)
-* [Editing mock servers](#editing-mock-servers)
+* [Editing and deleting mock servers](#editing-and-deleting-mock-servers)
+    * [Editing mocks from the Collections pane](#editing-mocks-from-the-collections-pane)
+    * [Deleting mocks from the Collections pane](#deleting-mocks-from-the-collections-pane)
+    * [Editing mocks in Browse mode](#editing-mocks-in-browse-mode)
+    * [Deleting mocks in Browse mode](#deleting-mocks-in-browse-mode)
+    * [Editing mocks from the Dashboard](#editing-mocks-from-the-dashboard)
+    * [Deleting mocks from the Dashboard](#deleting-mocks-from-the-dashboard)
 * [Viewing mock calls](#viewing-mock-calls)
     * [Troubleshooting mock calls](#troubleshooting-mock-calls)
 * [Next steps](#next-steps)
@@ -126,19 +137,51 @@ This will launch the **Create mock server** modal. Follow the process [outlined 
 
 If you already have mock servers created from the same collection, you will see an **Add mock** button instead of **Create a mock server**.
 
-![Create new mock server from collection sidebar when there are existing mock servers](https://assets.postman.com/postman-docs/mock-cnx-collection-sidebar-existing.png)
+![Create new mock server from collection sidebar when there are existing mock servers](https://assets.postman.com/postman-docs/Adding+a+second+mock+from+sidebar.jpg)
 
-### Mocking a request from History
+### Mocking from history
+
+You can create a mock server from the requests saved in the history of your Postman app.
+
+#### Mocking a single request
 
 You can mock a single request from the **History** tab in the left sidebar. Hover over an entry, and click **View more actions** (**...**) to expand the dropdown menu. Choose **Mock Request**.
 
-![Create new mock server from history request](https://assets.postman.com/postman-docs/mock-cnx-history-request.png)
+![Create new mock server from history request](https://assets.postman.com/postman-docs/Mocking+a+single+request+from+history.jpg)
 
 This will open the **Set up the mock server** modal. Pass the values outlined in the [New button section](#mocking-from-the-new-button). Click **Create Mock Server**.
 
 This process of creating a mock server will also create a collection with the same title as the mock server. This collection will have a copy of the same request that you chose from the **History** sidebar. The mock server created is tied to this new collection.
 
-![New collection created when creating mock server from history request](https://assets.postman.com/postman-docs/mock-cnx-history-request-created.png)
+![New collection created when creating mock server from history request](https://assets.postman.com/postman-docs/New+mocks+create+new+collections.jpg)
+
+#### Mocking all requests made on a specific date
+
+You can create a mock server from **History** for all the requests you made on a specific date, creating a new collection at the same time.
+
+In the Postman app, click **History**.
+
+![History tab](https://assets.postman.com/postman-docs/History+Mock+creation.jpg)
+
+Next to the date you want to mock all the requests for, click the ellipsis **(...)** > **Mock Requests**.
+
+![Ellipsis and mock requests](https://assets.postman.com/postman-docs/No+arrows+ellipsis+and+mocks.jpg)
+
+The **Set up the mock server** modal will open.
+
+In the modal, give your mock server a name. You also have the option to connect an environment to the mock server, make the mock server private, and to save the mock server's URL as an environment variable. Click **Create mock server**.
+
+![Mocks modal](https://assets.postman.com/postman-docs/Second+step+modal.jpg)
+
+> If you choose to make your mock server private, you'll have to [generate an API key](https://learning.postman.com/docs/postman/postman-api/intro-api/).
+
+The "Next steps" modal will appear with an overview of your new mock server's details. Note the mock server's URL because you'll need it to make requests that return mock data.
+
+![Mocks modal](https://assets.postman.com/postman-docs/Next+steps+modal+RS.jpg)
+
+Creating the mock server will also create a collection with the same name as the server. The collection will have a copy of each request made on the date you chose in your **History**. All requests from this collection will be made to the server you just created.
+
+![Mocks modal](https://assets.postman.com/postman-docs/New+mocks+create+new+collections.jpg)
 
 ### Mocking from Collections in Browse view
 
@@ -181,9 +224,9 @@ Your Postman account gives you a limited number of free mock server calls per mo
 
 You can check your usage limits in the [Postman API](https://docs.api.getpostman.com) or [account usage page](https://go.pstmn.io/postman-account-limits).
 
-## Editing mock servers
+## Editing and deleting mock servers
 
-You can edit existing mock servers in Postman since version `7.7.0`. The following properties of a mock server can be updated through the Postman app and web dashboard:
+You can edit or delete existing mock servers in Postman. The following properties of a mock server can be updated through the Postman app and [Postman Dashboard](https://go.postman.co/):
 
 * Name of the mock server
 * Version tag of the underlying collection
@@ -192,19 +235,59 @@ You can edit existing mock servers in Postman since version `7.7.0`. The followi
 
 ![Postman Mock Server edit options](https://assets.postman.com/postman-docs/mocks/mock-edit-modal.png)
 
-There are three ways to edit a mock server. You can edit from the Collection pane, through the **Mock Server** listing in **Browse** mode, or through the web dashboard of your workspace **Mock Servers** section.
+In the Postman app, you can edit or delete a mock server from the **Collections** pane or from the **Mocks** listed in **Browse** mode. You can also edit or delete a mock server from the [Postman Dashboard](https://the.postman.co/workspaces?type=personal).
 
-Editing mocks in Build mode:
+### Editing mocks from the Collections pane
 
-![Postman Mock Server edit in Build mode](https://assets.postman.com/postman-docs/mocks/mock-edit-build.png)
+1. In the **Collections** pane, click the arrow **(>)** next to the name of the collection to expand the panel to the right.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Expanding+Collection+pane.jpg)
+2. At the top of the panel, click the **Mocks** tab.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Mocks+tab.jpg)
+3. Hover over the name of the mock server you want to edit and click **Edit**.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Edit+mock.jpg)
 
-Editing mocks in Browse mode:
+### Deleting mocks from the Collections pane
 
-![Postman Mock Server edit in Browse mode](https://assets.postman.com/postman-docs/mocks/mock-edit-browse.png)
+1. In the **Collections** pane, click the arrow **(>)** next to the name of the collection to expand the panel to the right.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Expanding+Collection+pane.jpg)
+2. At the top of the panel, click the **Mocks** tab.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Mocks+tab.jpg)
+3. Hover over the name of the mock server you want to delete and click **Delete**.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Deleting+mocks+from+Collections+pane.jpg)
 
-Editing mocks from the Web Dashboard:
+### Editing mocks in Browse mode
 
-![Postman Mock Server edit in Build mode](https://assets.postman.com/postman-docs/mocks/mock-edit-web-dashboard.png)
+1. At the top, click the **Mocks** tab.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Full+app+view+browse+mode.jpg)
+2. Next to the name of the mock server, click the ellipsis **(...)** > **Edit**.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Edit+mocks+in+browse.jpg)
+
+### Deleting mocks in Browse mode
+
+1. At the top, click the **Mocks** tab.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Full+app+view+browse+mode.jpg)
+2. Next to the name of the mocks server, click the ellipsis **(...)** > **Delete**.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Deleting+mocks+from+Browse.jpg)
+3. Click **Delete**.
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/Confirm+mock+deletion+modal+.jpg)
+
+### Editing mocks from the Dashboard
+
+> To open the [Dashboard](https://go.postman.co/), sign in to Postman from your browser.
+
+1. Open the workspace or collection with the mock server you want to edit.
+2. Click **Mocks** or **Mock Servers** at the top of the page.
+3. Hover over the name of the mock server and click **Edit**.
+![Edit mocks](https://assets.postman.com/postman-docs/Edit+mock+in+dashboard.jpg)
+
+### Deleting mocks from the Dashboard
+
+1. Open the workspace or collection with the mock server you want to edit.
+2. Click **Mocks** or **Mock Servers** at the top of the page.
+3. Hover over the name of mock server and click **Delete**.
+![Delete mocks](https://assets.postman.com/postman-docs/Deleting+mocks+dashboard.jpg)
+4. Click **Delete Mock Server**.
+![Delete mocks](https://assets.postman.com/postman-docs/Delete+mock+server+modal.jpg)
 
 ## Viewing mock calls
 

@@ -43,7 +43,7 @@ warning: false
 
 You can automatically generate documentation for your Postman APIs. You can share your documentation privately or publish it on the web. Postman generates and hosts documentation based on collections, synced in realtime and accessible via the browser. You can use documentation to collaborate with team members and partners, or to support developer adoption for your public APIs.
 
-![Public Documentation](https://assets.postman.com/postman-docs/SimpleKart+API+public+documentation.jpg)
+![Public Documentation](https://assets.postman.com/postman-docs/Auth+and+response+headers+in+docs.jpg)
 
 ## Contents
 
@@ -110,7 +110,11 @@ You will see a confirmation that your documentation is published, and a link you
 
 ### Including detail in your docs
 
-Your docs will automatically include detail on your requests, with sample code in various client languages. Each collection / request listing indicates the method, URL, description, headers, request and response structures, and examples. Private docs include a link to share the associated collection, and public docs include a [Run in Postman button](/docs/postman-for-publishers/run-in-postman/introduction-run-button), allowing viewers to import the collection directly into the Postman app to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
+Your docs will automatically include detail on your requests, with sample code in various client languages. Each collection / request listing indicates the method, required authorization type, URL, description, headers, request and response structures, and examples. In both private and public documentation, all key-value pairs in headers, parameters, and request bodies will be displayed for each request.
+
+![Request details](https://assets.postman.com/postman-docs/Request+details.jpg)
+
+Private docs include a link to share the associated collection, and public docs include a [Run in Postman button](/docs/postman-for-publishers/run-in-postman/introduction-run-button), allowing viewers to import the collection directly into the Postman app to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
 
 You can add detail to your descriptions using [Markdown](/docs/postman/api-documentation/authoring-your-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
 
@@ -134,7 +138,7 @@ For more on accessing private and public docs, see [Viewing documentation](/docs
 
 You can use environments to set variables that will be available in your documentation. Anyone viewing private documentation will be able to access environments shared with them. For public documentation, you can select an environment to share during the publication process—this will make the environment available to anyone viewing the published documentation link.
 
-![Doc Environment](https://assets.postman.com/postman-docs/doc-environment.jpg)
+![Doc Environment](https://assets.postman.com/postman-docs/Environments+in+docs.jpg)
 
 Associating an environment with your documentation means that the values of any environment variables your requests reference will automatically populate in the doc content. Anyone using the __Run in Postman__ button from your docs will also be able to access the shared environment when they import the collection into their Postman app.
 

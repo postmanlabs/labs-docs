@@ -21,6 +21,8 @@ contextual_links:
 
 Publishing your documentation to the [API Network](https://explore.postman.com/) connects your API to the Postman community. You can publish docs to the network from any team [collection](/docs/postman/collections/intro-to-collections/)—_for individual collections that are not published via a team, you can instead add to the Postman [templates](/docs/postman-for-publishers/postman-templates/add-templates/)_.
 
+> For APIs that your team uses internally, you can add to the [private API network](/docs/postman/collaboration/adding-private-network/).
+
 Sharing your docs exposes your API to the millions of developers who use Postman, and lets others within the community learn from your projects. By publishing to the API Network, you share your API through a human-readable reference in the form of your docs—and an executable way to interact with your API endpoints inside Postman, via the embedded Run in Postman button.
 
 Your docs can convey detailed guidance on how to make requests to your API endpoints, as well as the workflows required to integrate with your API in general. This provides the information—and actionable data—developers need to get started using your services.
@@ -53,7 +55,7 @@ Include the __API Name__, __Summary__, and __Description__—add the details pot
 
 Select the categories that best describe your API and service. API consumers can choose categories to browse APIs in the network from the left sidebar in the Postman app and at [explore.postman.com](https://explore.postman.com).
 
-![Network Categories](https://assets.postman.com/postman-docs/network-in-app.jpg)
+![Network Categories](https://assets.postman.com/postman-docs/API+categories+.jpg)
 
 ### Setting up your team profile
 

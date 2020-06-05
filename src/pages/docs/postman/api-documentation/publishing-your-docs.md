@@ -72,7 +72,11 @@ In the __Publish Collection__ page, you can configure how you want your public d
 
 ![Publish Config](https://assets.postman.com/postman-docs/publish-config.jpg)
 
-You can preview your documentation before publishing it.
+You can preview your documentation before publishing it. This opens a live preview of the documentation in another window which reloads on any change.
+
+In this live preview, Postman scans the documentation for anything that appears to be a sensitive token. If Postman identifies a potential secret, you will see a banner at the top of this window. Postman will also highlight identified secrets throughout the page. This gives you the chance to update the documentation before publishing it.
+
+![Preview secrets](https://assets.postman.com/postman-docs/client-scanner.png)
 
 ### Customizing your docs
 
@@ -122,8 +126,6 @@ You will see a confirmation that your docs are public together with a link you c
 You can unpublish your docs at any time by clicking __Unpublish__.
 
 ![Unpublish Docs](https://assets.postman.com/postman-docs/unpublish-docs.jpg)
-
-> Unless you use a [custom domain](/docs/postman/api-documentation/custom-doc-domains/), people will not be able to search for or find your documentation online. By default your documentation will only be discoverable to people you explicitly share the URL with, or people browsing the API Network / Postman Templates (if you chose that option during publication).
 
 ## Next steps
 
