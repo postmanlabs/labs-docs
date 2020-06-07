@@ -71,7 +71,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
         * [Requesting a token](#requesting-an-oauth-20-token)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
-    * [NLTM authentication](#nltm-authentication)
+    * [NTLM authentication](#ntlm-authentication)
     * [Akamai EdgeGrid](#akamai-edgegrid)
 * [Syncing cookies](#syncing-cookies)
 * [Next steps](#next-steps)
