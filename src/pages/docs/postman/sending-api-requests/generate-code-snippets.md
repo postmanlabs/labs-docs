@@ -23,11 +23,19 @@ contextual_links:
   - type: link
     name: "BigCommerce"
     url: "https://www.postman.com/resources/case-studies/bigcommerce/"
-  - type: section
-    name: "Next Steps"
+  - type: subtitle
+    name: "Blog Posts"
   - type: link
     name: "Generate Code for Your Front-end Apps"
     url: "https://blog.postman.com/use-your-work-in-postman-to-generate-code-for-your-apps/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Capturing HTTP requests"
+    url:  "/docs/postman/sending-api-requests/capturing-http-requests/"
+  - type: link
+    name: "Interceptor"
+    url:  "/docs/postman/sending-api-requests/interceptor/"
 
 warning: false
 
@@ -91,6 +99,8 @@ Postman currently supports the following options:
 | Shell | [cURL](https://curl.haxx.se/)|
 | Swift | Built-in [NSURLSession](https://developer.apple.com/documentation/foundation/urlsession)|
 
+> If your language isn't currently offered, or if there is a setting that you'd find useful, click **Contribute on GitHub** to contribute to [Postman's open source project](https://github.com/postmanlabs/postman-code-generators).
+
 ## Next steps
 
-Learn more about [Generating Code for Your Front-end Apps](https://blog.postman.com/use-your-work-in-postman-to-generate-code-for-your-apps/).
+Learn about [Capturing HTTP requests](/docs/postman/sending-api-requests/capturing-http-requests/) and [Interceptor](/docs/postman/sending-api-requests/interceptor/).
