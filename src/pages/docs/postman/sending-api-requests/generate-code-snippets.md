@@ -73,6 +73,7 @@ Postman currently supports the following options:
 | JavaScript | [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)|
 | JavaScript | [jQuery AJAX](http://api.jquery.com/jquery.ajax/)|
 | JavaScript | Built-in [XHR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)|
+| NodeJS | [Axios](https://github.com/axios/axios) |
 | NodeJS | Built-in [http](https://nodejs.org/api/http.html) module |
 | NodeJS | [Request](https://github.com/request/request) |
 | NodeJS | [Unirest](https://github.com/Kong/unirest-nodejs) |
