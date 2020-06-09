@@ -82,6 +82,8 @@ class HeaderComponent extends React.Component {
     const {
       isToggledOn, data,
     } = this.state;
+    const { trend } = this.props;
+
     return (
       <header className="header text-center navbar navbar-expand-xl navbar-light">
         <div className="navbar-brand header__brand">
@@ -137,7 +139,7 @@ class HeaderComponent extends React.Component {
                     </form>
                     <div className="trending">
                       <p>Trending Searches on Postman Blog</p>
-                      {/* <ul>
+                       <ul>
                         {  
                           trend.edges.map((trend) =>  (
                             <li key={Math.random()}>
@@ -159,7 +161,7 @@ class HeaderComponent extends React.Component {
                             </li>
                           ))
                         }
-                       </ul> */}
+                       </ul> 
                     </div>
                   </div>
                   <div className="col-sm-2 text-right">
@@ -185,12 +187,19 @@ class HeaderComponent extends React.Component {
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
+      allTrendingSearches {
+        edges {
+          node {
+            value
+          }
+        }
+      }
       headerLinks {
         value
       }
     }`);
   return (
-    <HeaderComponent data={data.headerLinks.value} />
+    <HeaderComponent data={data.headerLinks.value} trend={data.allTrendingSearches}/>
   );
 };
 
