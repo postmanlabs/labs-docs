@@ -55,7 +55,6 @@ class HeaderComponent extends React.Component {
     const updateSearch = e.target.value;
     this.setState({ searchTerm: updateSearch });
   }
-  V
 
   getCookie = (a) => {
     if (typeof document !== 'undefined') {
@@ -108,7 +107,6 @@ class HeaderComponent extends React.Component {
             `}
           id="navbarSupportedContent"
         >
-       
           <div id="main" className="col">
             <button type="button" className="browse text-sm-left" onClick={this.handleModalOpen}>
               What are you looking for?

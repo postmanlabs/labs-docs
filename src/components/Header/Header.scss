@@ -69,23 +69,23 @@
 }
 
 
-// .searchbox {
-//   input {
-//     background-color:#f5f5f5;
-//     border: 0;
-//     padding: 13px 24px;
-//     border-radius: 3px;
-//     width: 100%;
-//   }
-//   ::placeholder {
-//     color: #1c272b;
-//     font-size: 14px;
-//     font-weight: 600;
-//   }
-//   .ais-SearchBox-submit, .ais-SearchBox-reset {
-//     display: none;
-//   }
-// }
+.searchbox {
+  input {
+    background-color:#f5f5f5;
+    border: 0;
+    padding: 13px 24px;
+    border-radius: 3px;
+    width: 100%;
+  }
+  ::placeholder {
+    color: #1c272b;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .ais-SearchBox-submit, .ais-SearchBox-reset {
+    display: none;
+  }
+}
 .browse {
   background-color: $gray-1;
   border: none;
