@@ -110,33 +110,31 @@ class SearchPage extends Component {
                       placeholder: 'Search Postman',
                     }}
                   />
-                  <>
-                    <Index indexName="docs">
-                      <div className="row">
-                        <div className="col-sm-12 results-lc">
-                          <p className="font-weight-bold mb-0">On Learning Center</p>
-                          <NextHits hitComponent={Hits} />
-                          <Configure hitsPerPage={6} />
-                        </div>
-                      </div>
-                    </Index>
+                  <Index indexName="docs">
                     <div className="row">
+                      <div className="col-sm-12 results-blog">
+                        <p className="font-weight-bold mb-0">On Learning Center</p>
+                        <NextHits hitComponent={Hits} />
+                        <Configure hitsPerPage={6} />
+                      </div>
+                    </div>
+                  </Index>
+                  <div className="row">
+                    <div className="col-sm-12 col-md-6 results-www">
                       <Index indexName="www">
-                        <div className="col-sm-12 col-md-6 results-www">
-                          <p className="font-weight-bold mb-0">On the Website</p>
-                          <HitsWww hitComponent={Hits} />
-                          <Configure hitsPerPage={4} />
-                        </div>
-                      </Index>
-                      <Index indexName="blog">
-                        <div className="col-sm-12 col-md-6 results-blog">
-                          <p className="font-weight-bold mb-0">On the Blog</p>
-                          <CustomHits hitComponent={Hits} />
-                          <Configure hitsPerPage={4} />
-                        </div>
+                        <p className="font-weight-bold mb-0">On the Website</p>
+                        <HitsWww hitComponent={Hits} />
+                        <Configure hitsPerPage={4} />
                       </Index>
                     </div>
-                  </>
+                    <div className="col-sm-12 col-md-6 results-lc">
+                      <Index indexName="blog">
+                        <p className="font-weight-bold mb-0">On the Blog</p>
+                        <CustomHits hitComponent={Hits} />
+                        <Configure hitsPerPage={4} />
+                      </Index>
+                    </div>
+                  </div>
                 </InstantSearch>
               </div>
             </div>
