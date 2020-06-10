@@ -1,12 +1,10 @@
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import React from 'react';
 import ReactModal from 'react-modal';
-// import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import DynamicLink from '../Shared/DynamicLink';
 import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
 import './Header.scss';
-
-// const algoliaClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04b0');
 
 
 // changes button in navbar based on cookie presence
@@ -138,7 +136,7 @@ class HeaderComponent extends React.Component {
                       />
                     </form>
                     <div className="trending">
-                      <p>Trending Searches on Postman Blog</p>
+                      <p>Trending Searches on Postman Learning Center</p>
                        <ul>
                         {  
                           trend.edges.map((trend) =>  (
@@ -152,7 +150,7 @@ class HeaderComponent extends React.Component {
                                     // string - required - Type of interaction
                                     action: "Click",
                                     // string - optional - Useful for categorizing events
-                                    label: "Postman Blog",
+                                    label: "Postman LC Trending Searches",
                                 })
                               }}
                               >
