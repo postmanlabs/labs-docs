@@ -13,7 +13,7 @@ contextual_links:
 
 > __[Static IP address monitoring is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
 
-By default, Postman Monitors access APIs from dynamic IP addresses. For users who want to test APIs behind a whitelist restricted firewall, Postman does not provide the option to monitor APIs from a static IP address by default. If you require a static IP address for monitors you must request this from the [support team](http://www.postman.com/get-started-postman-plans).
+Postman Monitors access APIs from dynamic IP addresses and does not provide the option to use static IP addresses by default. For users who want to test APIs behind a whitelist restricted firewall you must request this from the [support team](http://www.postman.com/get-started-postman-plans).
 
 By whitelisting a single static IP address, customers can monitor their APIs using Postman’s monitoring service, while conforming to company security policies.
 
