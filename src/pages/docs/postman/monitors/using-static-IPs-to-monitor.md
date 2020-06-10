@@ -17,7 +17,7 @@ By default, Postman Monitors access APIs from dynamic IP addresses. For users wh
 
 By whitelisting a single static IP address, customers can monitor their APIs using Postman’s monitoring service, while conforming to company security policies.
 
-You can request the static IP option from your [support team](https://www.postman.com/pricing).  Note that monitoring APIs using a static IP address is available for all Postman Business and Enterprise customers. However, the static IP is a US address.
+You can request the static IP option from our support team ([help@postman.com](mailto:help@postman.com?subject=Request%20for%20static%20IP)).  Note that monitoring APIs using a static IP address is available for all Postman Business and Enterprise customers. However, the static IP is a US address.
 
 When the static IP option is enabled, users can create a new monitor or change an existing monitor to run using a static IP address.
 
