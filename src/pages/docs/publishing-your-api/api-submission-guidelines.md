@@ -1,6 +1,6 @@
 ---
 title: "API Network guidelines"
-order: 313
+order: 107.1
 page_id: "api_network_submission_guidelines"
 warning: false
 contextual_links:

@@ -15,6 +15,11 @@ contextual_links:
   - type: link
     name: "Tyk"
     url: "https://www.postman.com/case-studies/Tyk.pdf"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Powerful Debugging with the Postman Console"
+    url: "https://blog.postman.com/powerful-debugging-with-the-postman-console/"
   - type: section
     name: "Next Steps"
   - type: link

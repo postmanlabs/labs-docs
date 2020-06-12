@@ -1,6 +1,6 @@
 ---
 title: "Your private API network"
-order: 66.1
+order: 73.2
 page_id: "adding_private_network"
 warning: false
 contextual_links:
