@@ -43,7 +43,7 @@ warning: false
 
 You can automatically generate documentation for your Postman APIs. You can share your documentation privately or publish it on the web. Postman generates and hosts documentation based on collections, synced in realtime and accessible via the browser. You can use documentation to collaborate with team members and partners, or to support developer adoption for your public APIs.
 
-![Public Documentation](https://assets.postman.com/postman-docs/Auth+and+response+headers+in+docs.jpg)
+![Public Documentation](https://assets.postman.com/postman-docs/API+docs+SK.jpg)
 
 ## Contents
 
