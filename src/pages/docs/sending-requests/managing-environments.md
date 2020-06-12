@@ -90,7 +90,7 @@ A variable is a symbolic representation of data that allows you to access a valu
 
 <img alt="Reference Variable" src="https://assets.postman.com/postman-docs/reference-var.jpg" width="300px"/>
 
-Postman supports variables at different scopes, allowing you to tailor your processing to a variety of development, testing, and collaboration tasks. Scopes in Postman relate to the different contexts that your requests run in—within the Postman app, in collections, in environments, and in Newman / the Collection Runner.
+Postman supports variables at different scopes, allowing you to tailor your processing to a variety of development, testing, and collaboration tasks. Scopes in Postman relate to the different contexts that your requests run in—within Postman, in collections, in environments, and in Newman / the Collection Runner.
 
 > Postman will store environment and global variables as strings. If you’re storing objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
 
@@ -104,7 +104,7 @@ Environments in Postman are key-value pairs of variables. Each variable name rep
 
 To create an environment, use __New__ &gt; __Environment__, or the __Manage environments__ button in the top right of Postman, and click __Add__. Give your environment a name , such as "Testing"—you can add variables at creation or later, by editing the environment.
 
-To select the environment to run your requests within, use the drop-down at the top right of the Postman app.
+To select the environment to run your requests within, use the drop-down at the top right of Postman.
 
 <img alt="Environments" src="https://assets.postman.com/postman-docs/env-dropdown.jpg" width="450px"/>
 
@@ -176,7 +176,7 @@ You can also [define global and environment variables in scripts](#defining-vari
 
 ### Defining collection variables
 
-To create or edit a variable for an existing collection, select the collection in __Collections__ on the left of the Postman app, open the __View more actions__ (__...__) menu, and click __Edit__.
+To create or edit a variable for an existing collection, select the collection in __Collections__ on the left of Postman, open the __View more actions__ (__...__) menu, and click __Edit__.
 
 <img alt="Edit Collection" src="https://assets.postman.com/postman-docs/edit-collection-var.jpg" width="350px"/>
 
@@ -238,7 +238,7 @@ Local variables do not persist between sessions, but allow you to override all o
 
 ## Accessing variables
 
-You can use double curly braces to reference variables throughout the Postman app user interface. For example, to reference a variable named "username" in your request auth settings, you could use the following syntax with double curly braces around the name:
+You can use double curly braces to reference variables throughout the Postman user interface. For example, to reference a variable named "username" in your request auth settings, you could use the following syntax with double curly braces around the name:
 
 ```js
 {{username}}

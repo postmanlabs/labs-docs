@@ -54,7 +54,7 @@ You can [view documentation for any collection that has been shared with you](/d
 
 > Postman Team, Business, and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
-To view documentation for a collection you have access to in the Postman app, select the collection, click the arrow (&#9654;), and choose __View in web__. The collection documentation will open in your web browser.
+To view documentation for a collection you have access to in Postman, select the collection, click the arrow (&#9654;), and choose __View in web__. The collection documentation will open in your web browser.
 
 ![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
@@ -68,7 +68,7 @@ You will also see detail on each request, including sample code in various clien
 
 > The private URL is only accessible to Postman users logged in with appropriate permissions. To make documentation viewable publicly, you can [publish it](/docs/postman/api-documentation/publishing-your-docs/).
 
-You can alternatively access documentation by selecting the __Browse__ view in the app or opening the web dashboard, choosing __Collections__, and clicking a collection.
+You can alternatively access documentation by selecting the __Browse__ view in Postman or opening the web dashboard, choosing __Collections__, and clicking a collection.
 
 ![Browse Collection](https://assets.postman.com/postman-docs/browse-collection.jpg)
 

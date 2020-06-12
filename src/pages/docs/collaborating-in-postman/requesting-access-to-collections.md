@@ -36,7 +36,7 @@ You can request viewer or editor role on a collection.
 
 You can request viewer access to a team member's personal collection or a private collection in your team if you have a link to the collection.
 
-1. Open the collection link in the browser or the Postman app.
+1. Open the collection link in Postman.
 
 2. Click **Request Access**.
 ![https://assets.postman.com/postman-docs/access-blocked.png](https://assets.postman.com/postman-docs/access-blocked.png)

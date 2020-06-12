@@ -62,11 +62,11 @@ Documentation is based on a Postman collection, so you can [generate it from an 
 
 ### Documenting an existing collection
 
-To generate and view documentation for an existing collection from the Postman app, use the __Collections__ tab on the left to select the collection. Use the arrow (&#9654;) button to open the collection detail, and select __View in web__ to open the documentation in the browser.
+To generate and view documentation for an existing collection from Postman, use the __Collections__ tab on the left to select the collection. Use the arrow (&#9654;) button to open the collection detail, and select __View in web__ to open the documentation in the browser.
 
 ![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
-> You can edit your docs either in the Postman app, or directly in the browser (while viewing documentation for a collection you have edit access to).
+> You can edit your docs either in Postman, or directly in the browser (while viewing documentation for a collection you have edit access to).
 
 Alternatively, use the __New__ button, and select __API Documentation__. Choose __Select an existing collection__ and click the collection you want to view docs for.
 
@@ -110,7 +110,7 @@ You will see a confirmation that your documentation is published, and a link you
 
 ### Including detail in your docs
 
-Your docs will automatically include detail on your requests, with sample code in various client languages. Each collection / request listing indicates the method, URL, description, headers, request and response structures, and examples. Private docs include a link to share the associated collection, and public docs include a [Run in Postman button](/docs/postman-for-publishers/run-in-postman/introduction-run-button), allowing viewers to import the collection directly into the Postman app to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
+Your docs will automatically include detail on your requests, with sample code in various client languages. Each collection / request listing indicates the method, URL, description, headers, request and response structures, and examples. Private docs include a link to share the associated collection, and public docs include a [Run in Postman button](/docs/postman-for-publishers/run-in-postman/introduction-run-button), allowing viewers to import the collection directly into Postman to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
 
 You can add detail to your descriptions using [Markdown](/docs/postman/api-documentation/authoring-your-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
 
@@ -136,7 +136,7 @@ You can use environments to set variables that will be available in your documen
 
 ![Doc Environment](https://assets.postman.com/postman-docs/doc-environment.jpg)
 
-Associating an environment with your documentation means that the values of any environment variables your requests reference will automatically populate in the doc content. Anyone using the __Run in Postman__ button from your docs will also be able to access the shared environment when they import the collection into their Postman app.
+Associating an environment with your documentation means that the values of any environment variables your requests reference will automatically populate in the doc content. Anyone using the __Run in Postman__ button from your docs will also be able to access the shared environment when they import the collection into Postman.
 
 To use a variable value in your documentation, [create](/docs/postman/variables-and-environments/managing-environments/#creating-environments) or select an environment.
 

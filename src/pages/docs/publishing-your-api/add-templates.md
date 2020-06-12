@@ -1,6 +1,6 @@
 ---
 title: "Publishing templates"
-order: 107
+order: 106
 page_id: "add_templates"
 warning: false
 contextual_links:
@@ -19,9 +19,9 @@ contextual_links:
     url:  "/docs/postman-for-publishers/postman-templates/template-guidelines/"
 ---
 
-You can share your documentation for any [collection](/docs/postman/collections/intro-to-collections/) you publish by adding it to the Postman Templates. Adding your templates makes them available to the Postman community through the app via __New__ &gt; __Templates__ and [on the web](https://explore.postman.com/templates).
+You can share your documentation for any [collection](/docs/postman/collections/intro-to-collections/) you publish by adding it to the Postman Templates. Adding your templates makes them available to the Postman community via __New__ &gt; __Templates__ and [on the web](https://explore.postman.com/templates).
 
-Your template listing provides access to the documentation for your API collection, and the __Run in Postman__ button, which allows anyone to import the collection directly into the Postman app. Community members can browse and search for templates to learn, and automate tasks relevant to a wide variety of use cases. People can also access your Postman profile via your template listings.
+Your template listing provides access to the documentation for your API collection, and the __Run in Postman__ button, which allows anyone to import the collection directly into Postman. Community members can browse and search for templates to learn, and automate tasks relevant to a wide variety of use cases. People can also access your Postman profile via your template listings.
 
 By publishing your collection docs to the Postman templates, you're sharing both human-readable and executable data that helps people get started using APIs. Your docs can outline how to use a single endpoint as well as how to integrate with an API as a whole, helping community members learn API skills and discover available services.
 
@@ -37,7 +37,7 @@ To add to the shared Postman templates, you first need to [document and publish 
 
 If your collection documentation is already published, you can make it discoverable by editing the published docs.
 
-> You can access your published docs from the Postman app (select the collection and click __View in web__), or from the web dashboard (navigate to __Workspace__ &gt; __Collections__ and click the published collection title).
+> You can access your published docs from Postman (select the collection and click __View in web__), or from the web dashboard (navigate to __Workspace__ &gt; __Collections__ and click the published collection title).
 
 <img alt="Edit Published Docs" src="https://assets.postman.com/postman-docs/edit-published.jpg" width="400px"/>
 
@@ -83,13 +83,13 @@ When your publish settings are complete, click __Publish Collection__. You will 
 
 ![Templates Published](https://assets.postman.com/postman-docs/templates-published.jpg)
 
-Your templates will be discoverable from inside the Postman app using __New__ &gt; __Templates__ and [on the web](https://explore.postman.com/templates).
+Your templates will be discoverable from inside Postman using __New__ &gt; __Templates__ and [on the web](https://explore.postman.com/templates).
 
-Your template listing will show the description and publisher details, plus links to the documentation and the __Run in Postman__ button people can use to import the collection and try the requests in the Postman app.
+Your template listing will show the description and publisher details, plus links to the documentation and the __Run in Postman__ button people can use to import the collection and try the requests in Postman.
 
 ![API Listing](https://assets.postman.com/postman-docs/api-listing-template.jpg)
 
-Your profile listing will be available both in the Postman app, and on the web, listing all of your published templates.
+Your profile listing will be available both in Postman, and on the web, listing all of your published templates.
 
 [![user profile display](https://assets.postman.com/postman-docs/api-network/api-network-user-profile-display.png)](https://assets.postman.com/postman-docs/api-network/api-network-user-profile-display.png)
 

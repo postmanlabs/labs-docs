@@ -32,7 +32,7 @@ The Collection Runner allows you to run sets of requests in a specified sequence
 
 [![Runner results](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)
 
-> You can run a collection in the Postman app, using Newman, or with a monitor.
+> You can run a collection in Postman, using Newman, or with a monitor.
 
 ## Contents
 
@@ -42,7 +42,7 @@ The Collection Runner allows you to run sets of requests in a specified sequence
 
 ## Starting a collection run
 
-To run a collection in the app, click __Runner__ at the top left.
+To run a collection, click __Runner__ at the top left of Postman. You can alternatively start a run from __Collections__ on the left by clicking __Run__ in the collection overview.
 
 <img alt="Open collection runner" src="https://assets.postman.com/postman-docs/open-collection-runner-app.jpg" width="300px"/>
 
@@ -65,7 +65,7 @@ You can optionally choose config parameters for your collection run:
 * An interval delay (milliseconds) between each request.
 * A [data file](/docs/running-collections/working-with-data-files/) for the collection run.
 * Saving responses to the log will allow you to review them but can affect performance.
-* Persisting variables will mean that any variables updated by the run will remain changed after it. If you do not persist variables, changes will not be saved after the run completes. _Note that persisting variables in the collection run will update the current value only. If you have variables set to automatically persist in your Postman app settings, each variable initial value will update to the current value after a run._
+* Persisting variables will mean that any variables updated by the run will remain changed after it. If you do not persist variables, changes will not be saved after the run completes. _Note that persisting variables in the collection run will update the current value only. If you have variables set to automatically persist in your Postman settings, each variable initial value will update to the current value after a run._
 * If your requests use cookies, you can optionally disable them for a collection run.
 * Saving cookies means that any values affected by requests during the run will remain after it completes.
 
@@ -91,7 +91,7 @@ The summary also lists a column for each iteration of your collection run so tha
 
 ## Automating collection runs
 
-In addition to using the Collection Runner in the Postman app, you can use collection runs in conjunction with other utilities in order to build automation into your API projects.
+In addition to using the Collection Runner in Postman, you can use collection runs in conjunction with other utilities in order to build automation into your API projects.
 
 * The Postman command line interface [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/) allows you to run collections and build them into your development pipeline, responding to test outcomes to maintain your API performance.
 * Adding a [monitor](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to your collection lets you schedule collection runs and stay informed of any issues.

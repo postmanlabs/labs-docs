@@ -34,7 +34,7 @@ contextual_links:
 warning: false
 ---
 
-You can [mock a collection](/docs/postman/mock-servers/setting-up-mock/) directly from the Postman app. Additionally, you can create a mock using the Postman API. Let’s walk through this step by step.
+You can [mock a collection](/docs/postman/mock-servers/setting-up-mock/) directly from Postman. Additionally, you can create a mock using the Postman API. Let’s walk through this step by step.
 
 ## Set up a collection for mocking
 
@@ -52,7 +52,7 @@ Let's retrieve the `collectionId` of `testAPI` using the [Postman API](http
 
 [![get collection id](https://assets.postman.com/postman-docs/WS-get-info-46.png)](https://assets.postman.com/postman-docs/WS-get-info-46.png)
 
-You can also use the Postman app to retrieve the `collectionId`. Find the Collection in your app and hit `View Docs`. The `collectionId` is visible in the documentation url:
+You can also use Postman to retrieve the `collectionId`. Find the Collection and hit `View Docs`. The `collectionId` is visible in the documentation url:
 
 ```text
 https://documenter.getpostman.com/collection/view/{{collectionId}}

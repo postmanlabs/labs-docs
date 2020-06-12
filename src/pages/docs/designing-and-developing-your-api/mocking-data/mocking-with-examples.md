@@ -48,7 +48,7 @@ Before you get into the details of mocking, let’s start with setting up some b
 
 ### Step 1: Sending a request (R1)
 
-From the Postman app, send a `GET` request to the URL `https://postman-echo.com/get?test=123`. This request hits the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test out your REST clients and make sample API calls.
+From Postman, send a `GET` request to the URL `https://postman-echo.com/get?test=123`. This request hits the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test out your REST clients and make sample API calls.
 
 The resulting response can be seen on the right, and a record of this request will now be visible in your [history](/docs/postman/sending-api-requests/responses/) on the left.
 
@@ -88,9 +88,9 @@ In the previous steps, you prepared the collection, request, and example respons
 
 ### Step 4: Creating a mock (M1) for the collection (C1)
 
-There are two ways to create a mock for a collection: 1) using the Postman app and 2) [using the Postman API](/docs/postman/mock-servers/mock-with-api/). In this example, you will mock a collection using the Postman app.
+There are two ways to create a mock for a collection: 1) using the Postman app and 2) [using the Postman API](/docs/postman/mock-servers/mock-with-api/). In this example, you will mock a collection using Postman.
 
-From the Postman app, click on the arrow (&#9656;) next to the collection you wish to mock to expand the collection details view.
+Click on the arrow (&#9656;) next to the collection you wish to mock to expand the collection details view.
 
 [![mock in collection details view](https://assets.postman.com/postman-docs/WS-anuhyaMock10.png)](https://assets.postman.com/postman-docs/WS-anuhyaMock10.png)
 

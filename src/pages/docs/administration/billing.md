@@ -111,7 +111,7 @@ If you have a card on file, Postman will automatically attempt 3 times to charge
 
 If payment is unsuccessful, Postman offers a grace period of 10 days to avoid service disruption. For invoice-based teams, this means 10 days following the due date listed on the invoice.
 
-> All team members are notified in the event of non-payment and subsequent service deactivation in the Postman app.
+> All team members are notified in the event of non-payment and subsequent service deactivation in Postmanpp.
 
 ## Team and plan changes
 

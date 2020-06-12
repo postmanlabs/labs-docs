@@ -75,7 +75,7 @@ You can add existing requests to collections and can create new requests inside 
 
 ![Save request as](https://assets.postman.com/postman-docs/save-request-as-menu.jpg)
 
-To add a new request to a collection, in __Collections__ on the left of the app, open the collection __...__ menu and choose __Add Request__. Alternatively open the collection overview, click __...__, and create the request from there.
+To add a new request to a collection, in __Collections__ on the left of Postman, open the collection __...__ menu and choose __Add Request__. Alternatively open the collection overview, click __...__, and create the request from there.
 
 <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/add-request-to-folder.jpg" width="250px"/>
 
@@ -87,7 +87,7 @@ Give your request a name and optional description, then __Save__ it to the selec
 
 > You can also create and save requests from the Launchpad when you have no open requests.
 
-To save a request from your history, select its __...__ menu in __History__ on the left of the app, and choose __Save Request__. Choose a collection and __Save__.
+To save a request from your history, select its __...__ menu in __History__ on the left of Postman, and choose __Save Request__. Choose a collection and __Save__.
 
 <img alt="Save request from history" src="https://assets.postman.com/postman-docs/save-request-from-history.jpg" width="250px"/>
 
@@ -95,7 +95,7 @@ To save a request from your history, select its __...__ menu in __History__ on t
 
 ## Managing collections
 
-To add a folder to your collection, open its __...__ menu in __Collections__ on the left of the app, and choose __Add Folder__. You can then add requests to the folder either by dragging them over it or using its menu and choosing __Add Request__.
+To add a folder to your collection, open its __...__ menu in __Collections__ on the left of Postman, and choose __Add Folder__. You can then add requests to the folder either by dragging them over it or using its menu and choosing __Add Request__.
 
 <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/add-request-folder.jpg" width="250px"/>
 

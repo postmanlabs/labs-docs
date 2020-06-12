@@ -48,11 +48,11 @@ Postman will alert you with notifications when activities occur within your team
 
 ## Working with team workspaces
 
-Create a Team Workspace by inviting a team member to join a personal workspace or create one using the app or web dashboard.
+Create a Team Workspace by inviting a team member to join a personal workspace or create a new one.
 
 ### Inviting a team member to a personal workspace
 
-In the app, select **Invite**.
+In Postman, select **Invite**.
 
 [![invite button](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.17%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.17%20PM.png)
 
@@ -64,13 +64,13 @@ The individual will be added to the team once they accept their invitation.
 
 > "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.
 
-All members of your workspace will have avatars displayed at the top of the Postman app or web Dashboard. If the avatar is brightly colored, that person is active in the workspace at that time. Hover over an avatar to see the names of the people in your workspace.
+All members of your workspace will have avatars displayed at the top of Postman. If the avatar is brightly colored, that person is active in the workspace at that time. Hover over an avatar to see the names of the people in your workspace.
 
 ![Active member](https://assets.postman.com/postman-docs/Beesly+active+member.jpg)
 
 ### Creating a new workspace from the menu
 
-Select your current workspace in the app to open the workspace menu, then click **Create New**.
+Select your current workspace in Postman to open the workspace menu, then click **Create New**.
 
 [![create workspace](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.29.42%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.29.42%20PM.png)
 
@@ -82,13 +82,13 @@ Enabling team discovery encourages collaboration and eases the onboarding proces
 
 ### Making your team discoverable
 
-You can enable team discovery in the web dashboard by selecting **Team** > **Settings**, or in the app by selecting **Team** > **Team Settings**.
+You can enable team discovery in the dashboard by selecting **Team** > **Settings**, or in the app by selecting **Team** > **Team Settings**.
 
 [![team list](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-11_at_5_18_37_PM.png)](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-11_at_5_18_37_PM.png)
 
 ### Finding teams within your organization
 
-When you log in to the Postman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**.
+When you log in to the Postman dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**.
 
 You will see a list of available teams within your org. Select any team, then **Request to join**.
 
@@ -98,7 +98,7 @@ The team administrator will receive a notification that you’ve asked to join t
 
 ### Usage limit
 
-You can check your usage limits within the Postman app as well as in the web dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting a team name.
+You can check your usage limits within the Postman app as well as in the dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting a team name.
 
 The usage menu allows you to review limits for APIs, shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
 
@@ -120,14 +120,14 @@ Postman indicates the number of archived collections at the bottom of the left s
 
 To recover archived collections, select **Archived Collections**.
 
-You will then be directed to your web dashboard, where you can click **Download your data** > **Request data export** > **Request an archive**.
+You will then be directed to your dashboard, where you can click **Download your data** > **Request data export** > **Request an archive**.
 [![export data1](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)
 
 You will then be able to select **Download** to retrieve your archived data.
 
 [![Download Data](https://assets.postman.com/postman-docs/Download_Data1.png)](https://assets.postman.com/postman-docs/Download_Data1.png)
 
-Alternatively, you can download your archived data directly within the Postman App. To learn how, refer to [Settings](/docs/postman/launching-postman/settings/).
+Alternatively, you can download your archived data directly within Postman. To learn how, refer to [Settings](/docs/postman/launching-postman/settings/).
 
 ## Next steps
 

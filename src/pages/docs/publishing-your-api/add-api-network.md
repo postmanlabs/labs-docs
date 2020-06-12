@@ -1,6 +1,6 @@
 ---
 title: "Publishing to the API Network"
-order: 106
+order: 107
 page_id: "add_api_network"
 warning: false
 contextual_links:
@@ -35,7 +35,7 @@ To add an API to the network, you first need to [document and publish a collecti
 
 If your collection is already published, you can make it discoverable by opening the published docs, opening the __Published__ drop-down menu, and clicking __Edit Published Documentation__.
 
-> You can access your published docs from the Postman app (select the collection and click __View in web__), or from the web dashboard (navigate to __Workspace__ &gt; __Collections__ and click the published collection title).
+> You can access your published docs from Postman (select the collection and click __View in web__), or from the web dashboard (navigate to __Workspace__ &gt; __Collections__ and click the published collection title).
 
 <img alt="Edit Published Docs" src="https://assets.postman.com/postman-docs/edit-published.jpg" width="400px"/>
 
@@ -51,7 +51,7 @@ Include the __API Name__, __Summary__, and __Description__—add the details pot
 
 ![API Network Detail](https://assets.postman.com/postman-docs/api-network-detail.jpg)
 
-Select the categories that best describe your API and service. API consumers can choose categories to browse APIs in the network from the left sidebar in the Postman app and at [explore.postman.com](https://explore.postman.com).
+Select the categories that best describe your API and service. API consumers can choose categories to browse APIs in the network from the left sidebar in Postman and at [explore.postman.com](https://explore.postman.com).
 
 ![Network Categories](https://assets.postman.com/postman-docs/network-in-app.jpg)
 
@@ -83,11 +83,11 @@ When people browse the API Network they will see your team profile listing, alon
 
 ![Network Published](https://assets.postman.com/postman-docs/network-published.jpg)
 
-You will see a link to your collection's published listing and team profile. You will also be able to find your listing in the Postman app using __New__ &gt; __API Network__ or [on the web](https://explore.postman.com).
+You will see a link to your collection's published listing and team profile. You will also be able to find your listing in Postman using __New__ &gt; __API Network__ or [on the web](https://explore.postman.com).
 
 ![Network Listing](https://assets.postman.com/postman-docs/network-listing-app.jpg)
 
-Your team's API Network listing shows the number of imports for each of your APIs, with links to the documentation and __Run in Postman__ button so that people can import your collection templates directly into the app to begin using your endpoints straight away.
+Your team's API Network listing shows the number of imports for each of your APIs, with links to the documentation and __Run in Postman__ button so that people can import your collection templates directly into Postman to begin using your endpoints straight away.
 
 Clicking the title of an API in the web listing of your team profile will open the listing page for that particular collection, showing the description, publisher details, imports, and linking to the documentation alongside __Run in Postman__ for importing the collection directly.
 

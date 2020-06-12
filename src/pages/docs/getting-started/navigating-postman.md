@@ -18,18 +18,18 @@ warning: false
 
 ---
 
-The Postman app provides a variety of views and controls for managing your API projects. You can drag to resize the components in the Postman user interface.
+Postman provides a variety of views and controls for managing your API projects. You can drag to resize the components in the Postman user interface.
 
 [![Postman app](https://assets.postman.com/postman-docs/postman-app-overview.jpg)](https://assets.postman.com/postman-docs/postman-app-overview.jpg)
 
-You can toggle the app between two main modes: __Build__ and __Browse__ using the control at the bottom-right of the app. The __Build__ mode is the primary interface for working with API requests.
+You can toggle Postman between two main modes: __Build__ and __Browse__ using the control at the bottom-right. The __Build__ mode is the primary interface for working with API requests.
 
 [![general layout](https://assets.postman.com/postman-docs/59046674.jpg)](https://assets.postman.com/postman-docs/59046674.jpg)
 
 * The left sidebar provides access to your request [history](#history), collections, and APIs.
 * The header allows you to create and import requests and collections, to access the Collection Runner, to move and invite collaborators to workspaces, to access the Interceptor, view sync status / notifications, open your Settings, account, and Postman plan.
 * The center area is where you build and work with requests.
-* The status bar along the bottom of the app allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/debugging-and-logs/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode, toggle split pane view, open keyboard shortcuts, and access help resources.
+* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/debugging-and-logs/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode, toggle split pane view, open keyboard shortcuts, and access help resources.
 
 Use browse mode to access entities across your workspace and connect to the Postman Dashboard.
 
@@ -37,17 +37,17 @@ Use browse mode to access entities across your workspace and connect to the Post
 
 ## Find and replace
 
-You can search your Postman workspace by clicking the magnifying glass icon at the bottom-left of the Postman app—or using the keyboard shortcuts `Command + SHIFT + F` / `Control + SHIFT + F`.
+You can search your Postman workspace by clicking the magnifying glass icon at the bottom-left of Postman—or using the keyboard shortcuts `Command + SHIFT + F` / `Control + SHIFT + F`.
 
 Enter your search string and optionally choose which entities to return, entering replacement text if necessary.
 
 ![Find and replace](https://assets.postman.com/postman-docs/find-search-detail.jpg)
 
-Postman will search tabs, collections, and variables. You can click directly from the search results to open an entity in the app.
+Postman will search tabs, collections, and variables. You can click directly from the search results to open an entity.
 
 ## History
 
-You can access a history of the requests you've made in Postman in __History__ on the left of the app. If you're signed into a Postman account, your history will sync across devices.
+You can access a history of the requests you've made in Postman in __History__ on the left of Postman. If you're signed into a Postman account, your history will sync across devices.
 
 ![History](https://assets.postman.com/postman-docs/history-in-app.jpg)
 
@@ -57,7 +57,7 @@ The __View more actions__ menu allows you to save, monitor, document, or mock a 
 
 ## Tabs
 
-You can send requests in Postman by opening tabs—click __+__ in the center of the app, or press `Command/Control + T`.
+You can send requests in Postman by opening tabs—click __+__ in the center of the screen, or press `Command/Control + T`.
 
 ![Tabs](https://assets.postman.com/postman-docs/open-unsaved-tab-options.jpg)
 
@@ -71,11 +71,11 @@ Postman will display a dot on any tabs with unsaved changes.
 
 A tab may indicate a conflict if you or a collaborator changes it in another tab or workspace. Postman will prompt you to resolve any conflicts that occur.
 
-> You can toggle whether Postman opens requests in new tabs or not in the app __Settings__, as well as configuring whether Postman prompts you when closing tabs with unsaved changes.
+> You can toggle whether Postman opens requests in new tabs or not in the __Settings__, as well as configuring whether Postman prompts you when closing tabs with unsaved changes.
 
 ## Next steps
 
-The best way to get to know the Postman app is by firing up the __Bootcamp__ on the bottom-right and working through the lessons.
+The best way to get to know Postman is by firing up the __Bootcamp__ on the bottom-right and working through the lessons.
 
 ![Bootcamp](https://assets.postman.com/postman-docs/bootcamp-lesson-step.jpg)
 

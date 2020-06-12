@@ -1,6 +1,6 @@
 ---
 title: "Managing your account"
-order: 3.1
+order: 4.1
 page_id: "postman_account"
 contextual_links:
   - type: section

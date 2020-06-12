@@ -26,7 +26,7 @@ contextual_links:
     url: "/docs/postman/design-and-develop-apis/managing-apis/"
 ---
 
-You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of the Postman app, your specification can act as the single source of truth for your API project. The API Builder supports API-first development by allowing you to generate collections from your schema and build your development and testing from there.
+You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of Postman, your specification can act as the single source of truth for your API project. The API Builder supports API-first development by allowing you to generate collections from your schema and build your development and testing from there.
 
 [![API Builder](https://assets.postman.com/postman-docs/api-builder-overview.jpg)](https://assets.postman.com/postman-docs/api-builder-overview.jpg)
 
@@ -47,7 +47,7 @@ You can connect various components of your API development and testing process t
 
 ## Creating an API
 
-To access the API Builder, open __APIs__ from the left sidebar in the Postman app. You can open and edit any existing APIs from here—Postman will automatically open the most recent version of an API by default.
+To access the API Builder, open __APIs__ from the left sidebar in Postman. You can open and edit any existing APIs from here—Postman will automatically open the most recent version of an API by default.
 
 > If it is your first time using the API Builder, you can take a tour of its features by clicking **Start** from the **API** tab or from the **Create new API** modal.
 

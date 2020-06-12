@@ -1,5 +1,5 @@
 ---
-title: 'Versioning APIs and collections'
+title: 'Versioning APIs'
 order: 74
 page_id: 'versioning_an_api'
 warning: false

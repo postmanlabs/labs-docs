@@ -71,25 +71,25 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
 ## Creating a monitor
 
-You can create a Postman monitor using a number of flows both in and outside of the Postman app:
+You can create a Postman monitor using a number of flows both in and outside of Postman:
 
 ### Creating a monitor from Launchpad
 
-Launchpad is automatically enabled in the Postman app (to disable, click the wrench icon > **Settings**). To create a monitor, select **... View More** > **Create a monitor**.
+Launchpad is automatically enabled in Postman (to disable, click the wrench icon > **Settings**). To create a monitor, select **... View More** > **Create a monitor**.
 
 ### Creating a monitor with the + New button
 
-In the Postman app, click **New** [![new button](https://assets.postman.com/postman-docs/newbutton1.png)](https://assets.postman.com/postman-docs/newbutton1.png) > **Monitor**.
+In Postman, click **New** [![new button](https://assets.postman.com/postman-docs/newbutton1.png)](https://assets.postman.com/postman-docs/newbutton1.png) > **Monitor**.
 
 ### Creating a monitor via a collection
 
-* **&#x25B6; button**: In the Postman app, hover over your collection and click the arrow button **&#x25B6;** > **Monitors** > **Create a monitor** or **+ Add monitor** (if you have an existing monitor).
+* **&#x25B6; button**: In Postman, hover over your collection and click the arrow button **&#x25B6;** > **Monitors** > **Create a monitor** or **+ Add monitor** (if you have an existing monitor).
 
-* **... button**: In the Postman app, hover over your collection and select **...** > **Monitor Collection**.
+* **... button**: In Postman, hover over your collection and select **...** > **Monitor Collection**.
 
 ### Creating a monitor from history
 
-In the Postman app, select **History**, hover over your request, click **...** > **Monitor Request**.
+In Postman, select **History**, hover over your request, click **...** > **Monitor Request**.
 
 ### Creating a monitor in the web dashboard:
 
@@ -133,7 +133,7 @@ Static IPs are available on Postman Business and Enterprise plans. This option a
 
 ### Updating email preferences
 
-You will receive daily and weekly summaries of your active monitors in the app and via email.
+You will receive daily and weekly summaries of your active monitors in Postman and via email.
 
 [![monitor summary](https://assets.postman.com/postman-docs/monitor-summary-1.jpg)](https://assets.postman.com/postman-docs/monitor-summary-1.jpg)
 

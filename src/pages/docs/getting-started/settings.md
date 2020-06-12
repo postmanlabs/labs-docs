@@ -27,7 +27,7 @@ warning: false
 
 ## Getting to the Settings
 
-In the header toolbar of the Postman app, click the wrench icon and select "Settings" to open the **SETTINGS** modal. You can also use the keyboard shortcut (**CMD/CTRL + ,**) to open the modal.
+In the header of Postman, click the wrench icon and select "Settings" to open the **SETTINGS** modal. You can also use the keyboard shortcut (**CMD/CTRL + ,**) to open the modal.
 
 [![settings dropdown](https://assets.postman.com/postman-docs/WS-settings.png)](https://assets.postman.com/postman-docs/WS-settings.png)
 
@@ -37,11 +37,11 @@ Postman tries to minimize the number of settings you have to change, so some def
 
 * **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
 * **New Code Generation Mode:** If you’re generating code snippets via the **Code** link, switching this to "ON" enables custom settings by programming language.
-* **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request.
+* **SSL certificate verification**: Prevents Postman from checking validity of SSL certificates while making a request.
 * **Always open requests in new tab:** Set this option to ON to open requests in a new tab. This option is, by default, set to OFF. Which means each time you click a request in the side bar, Postman opens the request in the preview tab. Refer to the section [Working with tabs](/docs/postman/sending-api-requests/working-with-tabs/) for a clear understanding of this feature.
 * **Always ask when closing unsaved tabs:** If you set this option to OFF, Postman does not prompt you to save changes in your unsaved tabs. By default, this option is set to "ON".
 * **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
-* **Request Timeout in ms (0 for infinity):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
+* **Request Timeout in ms (0 for infinity):**  Set how long Postman should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
 * **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For more detail, refer to [sessions in Postman](/docs/postman/variables-and-environments/variables/#sessions-in-postman).
 * **Working Directory:** If you want Postman to persist your file paths, then you must save your files in Postman's default working directory. When you work with files in form-data request body and binary file body, save them in this directory to let Postman persist your file's path relative to the working directory. This means your files loaded from within the working directory run smoothly across devices if other users use the same files on their devices. Postman flags a warning for files that are not stored in this directory.
 
@@ -61,13 +61,13 @@ Postman tries to minimize the number of settings you have to change, so some def
     * **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected.
     * **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. Postman uses usage data to make a better product.
     * **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded,
-   Postman will inform the user that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact app performance.
+   Postman will inform the user that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact performance.
 
 [![general settings](https://i.imgur.com/kqMc0Pq.png)](https://i.imgur.com/kqMc0Pq.png)
 
 ## Themes
 
-Pick your pleasure: choose a light or dark theme for the Postman app.
+Pick your pleasure: choose a light or dark theme for Postman.
 
 [![themes in settings](https://assets.postman.com/postman-docs/WS-themes-settings.png)](https://assets.postman.com/postman-docs/WS-themes-settings.png)
 
@@ -85,7 +85,7 @@ Download Newman, Postman's command line companion, to integrate Postman collect
 
 ## Sync
 
-If you are signed in to Postman, your data is synced with the server, making sure you have it all next time you use the app (and not just locally). You can also manually perform sync using the Sync icon in the header toolbar of Postman app. Learn more about [syncing](/docs/postman/launching-postman/syncing/).
+If you are signed in to Postman, your data is synced with the server, making sure you have it all next time you use Postman (and not just locally). You can also manually perform sync using the Sync icon in the header toolbar of Postman. Learn more about [syncing](/docs/postman/launching-postman/syncing/).
 
 ## Certificates
 
@@ -93,7 +93,7 @@ Add and view client certificates on a per domain basis. Learn more about [settin
 
 ## Proxy
 
-Configure your proxy settings in the Postman app using this tab. For more information on Proxy, see [How to configure proxy in Postman](/docs/postman/sending-api-requests/proxy/).
+Configure your proxy settings in Postman using this tab. For more information on Proxy, see [How to configure proxy in Postman](/docs/postman/sending-api-requests/proxy/).
 
 ## Update
 

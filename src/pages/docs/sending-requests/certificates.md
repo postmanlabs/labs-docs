@@ -20,7 +20,7 @@ warning: false
 
 ---
 
-Postman’s native apps provide a way to view and set SSL certificates on a per domain basis.
+Postman provides a way to view and set SSL certificates on a per domain basis.
 
 To manage your client certificates, click the wrench icon on the right side of the header toolbar, choose "Settings", and select the **Certificates** tab.
 

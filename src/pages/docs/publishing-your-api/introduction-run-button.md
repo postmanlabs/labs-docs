@@ -27,7 +27,7 @@ contextual_links:
 
 ---
 
-The Run in Postman button is a way to give users direct access to your API endpoints. When you [create a button](/docs/postman-for-publishers/run-in-postman/creating-run-button/) for your collection, you can embed the button in your website or API documentation. When users click your button, a copy of your collection will open in the user's Postman app.
+The Run in Postman button is a way to give users direct access to your API endpoints. When you [create a button](/docs/postman-for-publishers/run-in-postman/creating-run-button/) for your collection, you can embed the button in your website or API documentation. When users click your button, a copy of your collection will open in Postman.
 
 ![Travefy button](https://assets.postman.com/postman-docs/Travefy+API+RIP+button.jpg)
 
@@ -41,7 +41,7 @@ There are two types of Run in Postman buttons:
 
 **Static button**: This button uses Markdown, and is optimal for a Markdown document like a GitHub ReadMe or BitBucket repository.
 
-With both buttons you have the option to [include an environment](/docs/postman-for-publishers/run-in-postman/environments-run-button/) in the button. The environment will be imported into the Postman app along with a copy of your collection whenever a user clicks your button.
+With both buttons you have the option to [include an environment](/docs/postman-for-publishers/run-in-postman/environments-run-button/) in the button. The environment will be imported into Postman along with a copy of your collection whenever a user clicks your button.
 
 ## User interaction with your button
 
@@ -61,7 +61,7 @@ A copy of your collection will be imported into the user's app, and the app will
 
 ![Ellipsis menu](https://assets.postman.com/postman-docs/Duplicate+collections.jpg)
 
-* Collections imported into the Postman app via the Run in Postman button are copies of the original.
+* Collections imported into Postman via the Run in Postman button are copies of the original.
 * Only collection-specific data you enter in Postman is shared through the Run in Postman button. Examples of collection-specific data would include the collection name and description, or request data (URL, headers, body, tests, scripts, etc.).
 
 ## Next steps

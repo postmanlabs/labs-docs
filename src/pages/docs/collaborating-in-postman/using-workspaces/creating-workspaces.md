@@ -49,7 +49,7 @@ Workspaces can also create visibility for the projects within a team, since coll
 
 ## Creating a new workspace
 
-To create a new workspace, select the workspace dropdown menu at the top and center of the Postman app, and choose **Create New**.
+To create a new workspace, select the workspace dropdown menu at the top and center of Postman, and choose **Create New**.
 
 <img alt="Default Workspace" src="https://assets.postman.com/postman-docs/default-workspace-dropdown.jpg" width="500px"/>
 
@@ -63,7 +63,7 @@ If you are an Admin user and add any email addresses not associated with current
 
 > Postman Business and Enterprise users can check the box to limit visibility of this workspace to invited members, making a [private workspace](/docs/postman/workspaces/intro-to-workspaces/#private-workspaces).
 
-Click **Create Workspace** and the Postman app will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button at the top of the app at any time.
+Click **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button at the top at any time.
 
 You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Click **Create a new workspace** and follow the same steps.
 

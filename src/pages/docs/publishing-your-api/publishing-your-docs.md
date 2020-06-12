@@ -51,13 +51,13 @@ Your public documentation will always display up-to-date content representing th
 
 ## Making your documentation public
 
-You can publish docs from an existing private documentation page or from the collection in the Postman app.
+You can publish docs from an existing private documentation page or from the collection in Postman.
 
 To publish from your collection's [private documentation](/docs/postman/api-documentation/documenting-your-api/) in the web browser, select a version and click __Publish__.
 
 ![Publish Docs](https://assets.postman.com/postman-docs/publish-docs.jpg)
 
-To publish from the collection in the Postman app, select the collection in __Collections__, open the actions menu (__...__), and choose __Publish Docs__.
+To publish from the collection in Postman, select the collection in __Collections__, open the actions menu (__...__), and choose __Publish Docs__.
 
 ![Publish Docs](https://assets.postman.com/postman-docs/publish-collection.jpg)
 
@@ -91,7 +91,7 @@ To share your API documentation with your users and the wider Postman community,
 ![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
 * Choose __Add to API Network__ to [feature your docs in the Postman publisher network](/docs/postman-for-publishers/api-network/add-api-network/).
-* Choose __Add to Postman Templates__ to [share your collection with the Postman community](/docs/postman-for-publishers/postman-templates/add-templates/) and make it discoverable via the app.
+* Choose __Add to Postman Templates__ to [share your collection with the Postman community](/docs/postman-for-publishers/postman-templates/add-templates/) and make it discoverable via Postman.
 
 You can only add to API Network when publishing from a team. You can configure your team profile by clicking __Public Profile Settings__, enabling your profile, and filling out your team details for display.
 

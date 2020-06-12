@@ -21,8 +21,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Simulate a back end with Postman's mock service"
-    url: "https://blog.postman.com/2017/03/16/simulate-a-back-end-with-postmans-mock-service/"
+    name: "Mock responses in Postman by using Examples"
+    url: "https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
   - type: link
     name: "Team collaboration with Postman mock servers"
     url: "https://blog.postman.com/2017/09/20/team-collaboration-with-postman-mock-servers/"
@@ -35,9 +35,11 @@ contextual_links:
 warning: false
 ---
 
-[Mock Servers](/docs/postman/mock-servers/intro-to-mock-servers) in Postman let you simulate APIs. You can create mock servers from the Postman app, from the web dashboard, and using the Postman API. You will need a Postman account to set up a mock server.
+Mock Servers allow you to simulate your API data. By saving example responses for your requests, you can create a mock server that will return your example response instead of connecting to your actual API, for example in cases where you do not have a backend yet, or are experimenting and don't want to connect to your real data source.
 
-Mocks in Postman are tied to a collection. Postman matches requests and generates responses for mocks from the Examples in the requests of a collection. You can create a mock server even if you don't have an existing collection.
+You can create mock servers from Postman, from the web dashboard, and using the Postman API. You will need a Postman account to set up a mock server.
+
+Each mock server in Postman is linked to a collection. Postman matches requests and generates responses for mocks from the examples saved for the collection requests. You can create a mock server even if you don't have an existing collection.
 
 ## Contents
 
@@ -91,6 +93,8 @@ In the **Set up the mock server** tab, you can configure your mock server.
 3. Check the checkbox if you want to make the mock server private.
 4. Check the checkbox if you want to save the mock server URL as an environment variable.
 5. Click **Next** to continue.
+
+> If your mock server is private, you will need to add a Postman API key in the request header: `x-api-key:<Your-Postman-API-key>`. You can [share the collection](/docs/collaborating-in-postman/sharing/) and your collaborators can use their Postman API keys to consume the mock.
 
 ![Set mock server configuration](https://assets.postman.com/postman-docs/mock-cnx-config-continued.png)
 

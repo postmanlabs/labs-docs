@@ -37,7 +37,7 @@ To generate reports in Postman, first ensure you have carried out the following 
 * Turn on __Save Responses__ in __History__ on the left of Postman
 * Send a request from the collection
 
-To view reports, in __APIs__ on the left of the Postman app, select the API and click __Reports__.
+To view reports, in __APIs__ on the left of Postman, select the API and click __Reports__.
 
 ![API Reports](https://assets.postman.com/postman-docs/api-reports-button.jpg)
 
@@ -53,7 +53,7 @@ Team reports provide the following information:
 
 * __Total number of APIs__ present in the team, including in private and public workspaces
 * __New APIs__ created within the team, not including new versions
-* __Active APIs__ having at least one request being sent through a linked collection in the Postman app request builder
+* __Active APIs__ having at least one request being sent through a linked collection in the Postman request builder
 * __Team size__ as the number of user accounts in the team
 * __Empty workspaces__ with no collections in them
 * __Active workspaces__ with at least one revision during a recent period, not including personal workspaces
@@ -110,9 +110,9 @@ If you don't see any data in your reports, or your data is incomplete (for examp
 
 * It's too early to check. The data refreshes every 24 hours.
 * You may not have linked a collection to your API.
-* You may not have sent a request—or you may have executed requests from monitoring, collection runs, or Newman, but not from the request builder in the Postman app.
-* You may not have enabled __Save Responses__ in the __History__ tab in the Postman app.
-* App sync is not successfully communicating with the Postman servers.
+* You may not have sent a request—or you may have executed requests from monitoring, collection runs, or Newman, but not from the request builder in Postman.
+* You may not have enabled __Save Responses__ in the __History__ tab in Postman.
+* Sync is not successfully communicating with the Postman servers.
 
 > If none of the above reasons apply and you can't see your data, please file a [GitHub issue](https://github.com/postmanlabs/).
 

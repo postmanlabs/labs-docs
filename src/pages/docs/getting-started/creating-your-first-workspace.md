@@ -20,7 +20,7 @@ When you first open Postman, you will be in the default personal workspace, but 
 
 > To create additional workspaces, you need to be signed into a [Postman account](/docs/getting-started/postman-account/).
 
-To access your workspaces, use the dropdown at the top in the center of the Postman app.
+To access your workspaces, use the dropdown at the top in the center of Postman.
 
 <img alt="Default Workspace" src="https://assets.postman.com/postman-docs/default-workspace-dropdown.jpg" width="500px"/>
 
@@ -32,7 +32,7 @@ Click __Create New__ to add a new workspace.
 
 You can choose a __Team__ workspace if you plan to invite collaborators, or a __Personal__ workspace. Enter a __Name__ and optional __Summary__ for your workspace. If you're collaborating, you can invite other people now or later, and select access levels. Click __Create Workspace__.
 
-Postman will switch to your new workspace when you create it. You can then start working in the workspace or __Invite__ people to join it. Select a workspace to switch to it at any time using the dropdown at the top of the Postman app.
+Postman will switch to your new workspace when you create it. You can then start working in the workspace or __Invite__ people to join it. Select a workspace to switch to it at any time using the dropdown at the top of Postman.
 
 <img alt="New Workspace" src="https://assets.postman.com/postman-docs/new-workspace-in-dropdown.jpg" width="400px"/>
 

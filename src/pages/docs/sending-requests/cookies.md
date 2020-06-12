@@ -21,7 +21,7 @@ warning: false
 
 ---
 
-Postman’s native apps provide a **MANAGE COOKIES** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to [Syncing cookies](/docs/postman/sending-api-requests/interceptor/#syncing-cookies).
+Postman provides a **MANAGE COOKIES** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to [Syncing cookies](/docs/postman/sending-api-requests/interceptor/#syncing-cookies).
 
 > You can disable the cookie jar in the __Settings__ tab for a request at any time to toggle off sending cookies.
 
@@ -37,7 +37,7 @@ This opens the **MANAGE COOKIES** modal, and displays a list of domains and the 
 
 ## Create a cookie
 
-To add a new cookie for the domain, click on the **Add Cookie** button. A pre-generated cookie string according to the [HTTP State Management standards](https://tools.ietf.org/html/rfc6265#section-4.1) will be created, but you can edit it using the text input that appears below it. Clicking the **Save** button will save it to the app’s cookie store under the relevant domain.
+To add a new cookie for the domain, click on the **Add Cookie** button. A pre-generated cookie string according to the [HTTP State Management standards](https://tools.ietf.org/html/rfc6265#section-4.1) will be created, but you can edit it using the text input that appears below it. Clicking the **Save** button will save it to the cookie store under the relevant domain.
 
 [![create a cookie](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)
 

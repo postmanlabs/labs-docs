@@ -42,7 +42,7 @@ What are you here to learn about?
 
 ## APIs and Postman
 
-If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the app itself:
+If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the software:
 
 * [Sending your first request](/docs/getting-started/sending-the-first-request/)—explore the other topics in __Getting Started__.
 * Using the __Bootcamp__ to work through lessons inside Postman.

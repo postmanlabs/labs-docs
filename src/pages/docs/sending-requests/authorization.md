@@ -82,7 +82,7 @@ With a request open in Postman, use the __Authorization__ tab __Type__ dropdown 
 
 ![Auth Types](https://assets.postman.com/postman-docs/authorization-types.jpg)
 
-> You can use these auth types with Newman and Postman monitors as well as in the app.
+> You can use these auth types with Newman and monitors as well as in Postman.
 
 When you select a type, Postman will indicate which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Postman will add your auth details to the relevant parts of the request as soon as you select or enter them, so you can see how your data will be sent before attempting to run the request.
 
@@ -106,7 +106,7 @@ Your request auth can use environment, collection, and global [variables](/docs/
 
 If you group your requests in [collections](/docs/postman/collections/intro-to-collections/) and [folders](/docs/postman/collections/managing-collections/#adding-folders), you can specify auth details to reuse throughout a group.
 
-Select a collection or folder in __Collections__ on the left of the Postman app. Use the overflow button (__...__) to open the options and select __Edit__ to configure the collection or folder detail.
+Select a collection or folder in __Collections__ on the left of Postman. Use the overflow button (__...__) to open the options and select __Edit__ to configure the collection or folder detail.
 
 ![Edit Collection](https://assets.postman.com/postman-docs/edit-collection.jpg)
 

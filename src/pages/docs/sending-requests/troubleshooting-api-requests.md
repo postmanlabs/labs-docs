@@ -67,7 +67,7 @@ Click __View in Console__ to see the request detail in the [Console](/docs/postm
 
 ## Debugging and logs
 
-The Postman console helps debug your requests when an API is not behaving as you expect. If you think the issue may be with the Postman app itself, the DevTools console provides internal debugging information you can also check out.
+The Postman console helps debug your requests when an API is not behaving as you expect. If you think the issue may be with Postman itself, the DevTools console provides internal debugging information you can also check out.
 
 ## Using the console
 
@@ -83,7 +83,7 @@ The Postman console logs the following information:
 
 Using log statements at appropriate locations in your test scripts will help you identify the source of any issues.
 
-You can open the console from the button on the bottom left of the app, by clicking `(CMD/CTRL + ALT + C)`, or selecting __View__ &gt; __Show Postman Console__.
+You can open the console from the button on the bottom left of Postman, by clicking `(CMD/CTRL + ALT + C)`, or selecting __View__ &gt; __Show Postman Console__.
 
 <img alt="Open the console" src="https://assets.postman.com/postman-docs/open-postman-console.jpg" width="250px"/>
 
@@ -103,4 +103,4 @@ To access the DevTools console logs, open the __View__ menu and select __Show De
 
 ## Getting help
 
-If you still can't get your requests to work, you can ask for help in the [Postman forum](https://community.postman.com/). If you've tried troubleshooting and think the problem is with the Postman app, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue (and whether there is a known solution that you can use). If you're reporting a new issue, check out the [guidelines](https://github.com/postmanlabs/postman-app-support/#guidelines-for-reporting-issues). If you need to include confidential data, you can file a ticket with Postman [support](https://support.getpostman.com/hc), including your [console logs](#accessing-console-logs) to help troubleshoot.
+If you still can't get your requests to work, you can ask for help in the [Postman forum](https://community.postman.com/). If you've tried troubleshooting and think the problem is with Postman, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue (and whether there is a known solution that you can use). If you're reporting a new issue, check out the [guidelines](https://github.com/postmanlabs/postman-app-support/#guidelines-for-reporting-issues). If you need to include confidential data, you can file a ticket with Postman [support](https://support.getpostman.com/hc), including your [console logs](#accessing-console-logs) to help troubleshoot.
