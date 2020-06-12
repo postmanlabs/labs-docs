@@ -31,8 +31,6 @@ The Run in Postman button is a way to give users direct access to your API endpo
 
 ![Travefy button](https://assets.postman.com/postman-docs/Travefy+API+RIP+button.jpg)
 
-> The Run in Postman button works with description formats like Swagger, RAML, and GitHub.
-
 ## Dynamic and Static buttons
 
 There are two types of Run in Postman buttons:

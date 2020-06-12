@@ -62,9 +62,9 @@ At the top, you will see any environment shared with the documented collection, 
 
 ![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
 
-You will also see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
+You will also see detail on each request, including sample code in various client languages, required authorization type, an indicator of the method, the URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
 
-![Public Documentation](https://assets.postman.com/postman-docs/Request+details+in+public+documentation.jpg)
+![Public Documentation](https://assets.postman.com/postman-docs/Everything+displayed+in+docs.jpg)
 
 > The private URL is only accessible to Postman users logged in with appropriate permissions. To make documentation viewable publicly, you can [publish it](/docs/postman/api-documentation/publishing-your-docs/).
 
@@ -96,9 +96,9 @@ When you view public documentation, you will see any shared environments, the la
 
 ![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
 
-For each request, you will see a description of the request, the method and URL, and any headers or parameters. On the right, you will see examples of requests and responses in the language selected.
+For each request, you will see a description of the request, the method and URL, the required authorization type, and any headers or parameters. On the right, you will see example client code snippets for the request, together with example response bodies and headers in the language selected.
 
-![Public Documentation](https://assets.postman.com/postman-docs/Request+details+in+public+documentation.jpg)
+![Public Documentation](https://assets.postman.com/postman-docs/Everything+displayed+in+docs.jpg)
 
 ## Next steps
 
