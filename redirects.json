@@ -1,7 +1,7 @@
 [
   {
     "from": "/docs/",
-    "to": "/docs/postman/launching-postman/introduction/"
+    "to": "/docs/getting-started/introduction/"
   },
   {
     "from": "/docs/postman/scripts/postman-sandbox/",

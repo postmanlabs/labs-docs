@@ -38,6 +38,7 @@ The Collection Runner allows you to run sets of requests in a specified sequence
 
 * [Starting a collection run](#starting-a-collection-run)
 * [Running your collections](#running-your-collections)
+* [Sharing collection runs](#sharing-collection-runs)
 * [Automating collection runs](#automating-collection-runs)
 
 ## Starting a collection run
@@ -88,6 +89,26 @@ You can export test results and view the __Run Summary__ using the buttons at th
 [![Runner result summary](https://assets.postman.com/postman-docs/run-summary-iterations.jpg)](https://assets.postman.com/postman-docs/run-summary-iterations.jpg)
 
 The summary also lists a column for each iteration of your collection run so that you can see test output for the whole run at a glance.
+
+## Sharing collection runs
+
+You can share the run results for a collection, by [exporting them from the Collection Runner](#exporting-collection-runs) so that other people can [import them into Postman](#importing-a-run).
+
+To export a collection run, click __Runner__ and find the run you want to export in the __Recent Runs__ list. You will see the __Export run__ icon appear on hover—click it to download the run.
+
+![Export Collection Run](https://assets.postman.com/postman-docs/export-collection-run.png)
+
+Choose a location to save your downloaded collection run. You also can select a collection run from the __Recent Runs__ list and download it from there by clicking **Export Results** at the top.
+
+![Export Collection Run](https://assets.postman.com/postman-docs/export-run-results.png)
+
+To export multiple collection run results from the __Recent Runs__ list, hold down the command or control key and select the items from the list that you want to export. Click the __Download__ icon in the menu bar at the top.
+
+![Export Multiple Runs](https://assets.postman.com/postman-docs/export-multiple-runs.png)
+
+To import a collection run, open the __Runner__ and click **Import Runs** at the top. Navigate your local file directory and import either a JSON collection run file or a .zip file containing multiple collection run results.
+
+![Import Collection Runs](https://assets.postman.com/postman-docs/import-collection-runs.png)
 
 ## Automating collection runs
 

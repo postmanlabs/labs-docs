@@ -6,15 +6,10 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Working with your team"
+    url: "/docs/collaborating-in-postman/collaboration-intro/"
   - type: section
     name: "Additional Resources"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Healthwise"
-    url: "https://www.postman.com/case-studies/healthwise.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -33,113 +28,72 @@ warning: false
 
 ---
 
-Postman enables you to share Collections in Workspaces from the Postman app and the [workspaces dashboard](https://app.getpostman.com/dashboard).
+You can share Postman entities you are working on with collaborators, including collections, APIs, and environments.
 
-**Note:** Before you can upload or share a collection, you must sign in to your [Postman account](/docs/postman/launching-postman/postman-account/). However, you can share collections as a file without being signed in.
+> To share a collection run, see [Using the collection runner](/docs/running-collections/intro-to-collection-runs/#sharing-collection-runs).
+>
+> To share a collection via embed, use the [Run in Postman](http://localhost:8000/docs/publishing-your-api/creating-run-button/) button.
+>
+> To share by file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting-data/)
 
-This topic covers:
+## Contents
 
-* [Sharing collections in the app](#sharing-collections-in-the-app)
-* [Sharing collections with another workspace](#sharing-collections-with-another-workspace)
-* [Sharing collections in the Dashboard](#sharing-collections-in-the-dashboard)
-* [Sharing as a file](#sharing-as-a-file)
-* [Modifying team permissions](#modifying-team-permissions)
-* [Managing requests for access](#managing-requests-for-access)
+* [Sharing to workspaces](#sharing-to-workspaces)
+* [Sharing by link](#sharing-by-link)
+* [Next steps](#next-steps)
 
-## Sharing collections in the app
+> To share your work via workspaces you will need to be signed in to your [Postman account](/docs/postman/launching-postman/postman-account/).
 
-### In the sidebar
+## Sharing to workspaces
 
-In the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
+When you work in a Postman workspace, any entities you save to the workspace will be visible to other team members who share the workspace—with [varying access levels](/docs/collaborating-in-postman/roles-and-permissions/) depending on your account configuration.
 
-Select "Share Collection".
+You can share various Postman entities to workspaces, or move them from one workspace to another, including collections, collection runs, environments, and APIs.
 
-The **SHARE COLLECTION** modal appears. It offers three ways to share a collection:
+<img alt="Share collection" src="https://assets.postman.com/postman-docs/share-collection-from-sidebar.jpg" width="600px"/>
 
-* Share in another workspace
-* Embed
-* Get Link
+To share an entity from Postman, find the entity based on what type it is:
 
-[![share sidebar](https://assets.postman.com/postman-docs/githubusercontent2.png)](https://assets.postman.com/postman-docs/githubusercontent2.png)
+* To share a collection, open it in __Collections__ on the left of Postman and click __Share__, or __Share collection__ in the __...__ menu.
+* To share an API, in __APIs__ on the left of Postman, open the __...__ menu and click __Share API__.
+* To share an environment, click __Manage environments__ gear icon at the top right of Postman and click __Share__ next to the environment.
 
-## Sharing collections with another workspace
+![Share environment in browse](https://assets.postman.com/postman-docs/share-environment-in-browse-mode.jpg)
 
-Select this option to share a collection to another workspace or with a workspace member. If shared to a team workspace, the collection will be visible to others in the team.
+Alternatively find the collection, API, or environment in __Browse__ mode or via your workspace in the [Dashboard](https://app.getpostman.com) and click __Share__ next to it.
 
-You can set default permissions on a shared collection. You can assign a view-only or edit-only permission to the whole team, or you can grant individual user permissions to each team member. The **Manage Roles** modal will automatically appear at the end of the collection sharing process.
+You can share collections, APIs, and environments to specific workspaces. _You can additionally share collections via embed and link options._
 
-> Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
+In the share modal, select the workspace you want to share the entity to. Team members in the target workspace will be able to access the entity when you share it there.
 
-In the **Share modal**, click **To a workspace** and select the workspace you want to share the collection with.
+[![Share workspace selection](https://assets.postman.com/postman-docs/share-modal-workspace-selection.jpg)](https://assets.postman.com/postman-docs/share-modal-workspace-selection.jpg)
 
-![in app collection sharing](https://assets.postman.com/postman-docs/Share+collection+to+workspace.jpg)
-
-If you want to share the collection but keep it in the current workspace as well, click **Share collection**. If you want the collection to be removed from the current workspace after you share it, click **Share collection and remove from this workspace**. The default selection is **Share collection**.
+Toggle the radio button if you also want to remove the entity from its current workspace. If you want to share the collection but keep it in the current workspace as well, click **Share collection**. If you want the collection to be removed from the current workspace after you share it, click **Share collection and remove from this workspace**. The default selection is **Share collection**.
 
 > When you remove a collection from a workspace, all mocks, montitors, and integrations associated with it will also be removed.
 
+Click __Share and Continue__.
+
+[![Share role selection](https://assets.postman.com/postman-docs/share-entity-role-selection.jpg)](https://assets.postman.com/postman-docs/share-entity-role-selection.jpg)
+
+Select view or edit access levels for each collaborator or the workspace as a whole. Click __Save Roles__.
+
+> Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
+
 ![Adjust roles](https://assets.postman.com/postman-docs/Adjust+roles+with+shared+collections.jpg)
 
-Select roles for collaborators in the workspace, and click **Save Roles**.
+> If you want to restore a collection to a workspace it's been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
 
-> If you want to restore a collection to a workspace it's  been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
+## Sharing by link
 
-## Sharing collections with the Embed or Run In Postman button
+You can share a collection using a link. In the collection share modal, select __Get public link__.
 
-Select this option to embed a **[Run in Postman](/docs/postman-for-publishers/run-in-postman/introduction-run-button/)** button in your collection for your API documentation, website, or Github readme.
+![Share by link](https://assets.postman.com/postman-docs/collection-get-public-link.jpg)
 
-The **Run in Postman** button lets anyone import and run this collection with one click.
+The link is a snapshot of your collection, so click __Update Link__ and copy it for the most up to date version. You can then share it by pasting the copied link. You can also delete the link using the trash button.
 
-When you click the **Generate Code** button, you get a link that you can use for a dynamic or static button. You can also select the environment you want for the generated code.
+## Next steps
 
-The **Run in Postman** button shares the collection directly from Postman, so the collection is uploaded to Postman servers when you generate the embed code.
+Team members can [request access](/docs/collaborating-in-postman/requesting-access-to-collections/) to collections, environments, and APIs.
 
-[![share embed-rip](https://assets.postman.com/postman-docs/Collection_sharing_link.png)](https://assets.postman.com/postman-docs/Collection_sharing_link.png)
-
-## Sharing collections with a link
-
-Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [workspaces dashboard](https://app.getpostman.com/dashboard).
-
-[![share get link](https://assets.postman.com/postman-docs/Collection_sharing_link2.png)](https://assets.postman.com/postman-docs/Collection_sharing_link2.png)
-
-### In the Browse view
-
-In the bottom bar, select "Browse", and then select a collection
-
-Click the **Share** button.
-
-## Sharing collections in the Dashboard
-
-In the [workspaces dashboard](https://app.getpostman.com/dashboard), select "Browse", and then select a collection.
-
-Click the **Share** button.
-
-## Sharing as a file
-
-You can download collections as a JSON file to share with others, with or without signing in to your Postman account.
-
-You can share collections anonymously, but it is strongly recommended that you sign in to your Postman account when uploading collections. When you're signed in, you can update your existing collection, make it public, or delete it later.
-
-Learn more about [exporting and importing collections](/docs/postman/collections/importing-and-exporting-data/), and the differences between collection formats [v1 and v2](https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
-
-## Modifying team permissions
-
-You can share collections with your entire team or assign individual permissions for team members. You can designate view or edit permissions for the team only after sharing a collection. **Note**: For now, each collection's permission must be set individually by the collection editor. The default team permission is view-only.
-
-To assign or manage roles in the Postman app, select a collection in the sidebar and click the ellipsis **(...)** button.
-
-[![modify team permissions](https://assets.postman.com/postman-docs/Manage_Roles.png)](https://assets.postman.com/postman-docs/Manage_Roles.png)
-
-Select "Manage Roles".
-
-In the **Manage Roles** modal, select the default team permission, add a user/team member, and assign the level of permission for the user. **Note**: Changes made in this modal modifies the permissions of the collection.
-
-Click the **Save Changes** button to complete the process.
-
-[![modify team permissions modal](https://assets.postman.com/postman-docs/Manage_Roles3.png)](https://assets.postman.com/postman-docs/Manage_Roles3.png)
-
-## Managing requests for access
-
-Users can request access to a team member's personal collection or a private collection if they have a link to the collection.
-
-To learn more about this feature, refer to the [Requesting access to collections](/docs/postman/collaboration/requesting-access-to-collections/) section.
+For more detail on working with environments as a team, see [Managing environments](/docs/sending-requests/managing-environments/). For more on working with APIs, see [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/).
