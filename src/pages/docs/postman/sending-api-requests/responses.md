@@ -78,6 +78,12 @@ If your API endpoint returns an image, Postman will detect and render it automat
 
 Headers are displayed as key-value pairs under the **Headers** tab. Hovering over the header name can give you a description of the header according to the HTTP spec. If you are sending a HEAD request, Postman will show the headers tab by default.
 
+## Network information
+
+[![Network info](https://assets.postman.com/postman-docs/network-info-response.jpg)](https://assets.postman.com/postman-docs/network-info-response.jpg)
+
+Postman will display network data when your API returns a response, including details of any [certificates](/docs/postman/sending-api-requests/certificates/) you're using.
+
 ## Response time
 
 Postman automatically calculates the time it took for the response to arrive from the server. This is useful for some preliminary testing for performance.
