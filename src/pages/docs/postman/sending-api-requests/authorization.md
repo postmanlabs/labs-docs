@@ -258,7 +258,7 @@ In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type
 
 ![OAuth 2.0](https://assets.postman.com/postman-docs/oauth2-prefix-option.jpg)
 
-> By default Postman will append the access token to `Bearer ` in the Authorization header for your request, but if your server implementation requires a different prefix, you can specify it in the __Header Prefix__ field.
+> By default Postman will append the access token to `Bearer` in the Authorization header for your request, but if your server implementation requires a different prefix, you can specify it in the __Header Prefix__ field.
 
 To request an access token, click __Get New Access Token__.
 
