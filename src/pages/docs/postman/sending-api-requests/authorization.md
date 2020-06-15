@@ -176,7 +176,7 @@ The advanced fields are optional, and Postman will attempt to populate them auto
 
 * __Realm:__ A string specified by the server in the `WWW-Authenticate` response header.
 * __Nonce:__ A unique string specified by the server in the `WWW-Authenticate` response header.
-* __Algorithm:__ A string that indicates a pair of algorithms used to produce the digest and a checksum.
+* __Algorithm:__ A string that indicates a pair of algorithms used to produce the digest and a checksum. Postman supports `MD5` and `SHA` algorithms.
 * __qop:__ The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the `WWW-Authenticate` response header.
 * __Nonce Count:__ The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request.
 * __Client Nonce:__ An opaque quoted string value provided by the client, used by both client and server to avoid chosen plaintext attacks, to provide mutual authentication, and to provide some message integrity protection.
@@ -186,18 +186,27 @@ The advanced fields are optional, and Postman will attempt to populate them auto
 
 OAuth 1.0 allows client applications to access data provided by a third-party API. For example, as a user of a service you can grant another application access to your data with that service without exposing your login details. Accessing user data via the OAuth 1.0 flow involves a few requests back and forth between client application, user, and service provider.
 
-OAuth 1.0 is sometimes referred to as "two-legged" (auth only between client and server) or "three-legged" (where a client requests data for a user of a third-party service).
+OAuth 1.0 is sometimes referred to as "two-legged" (auth only between client and server) or "three-legged" (where a client requests data for a user of a third-party service). An example OAuth 1.0 flow could run as follows:
 
-* To request user data with a third-party service, a consumer (client application) requests an access token using a key and secret.
+* To request user data with a third-party service, a consumer (client application) requests an access token using credentials such as a key and secret.
 * The service provider issues an initial token (that doesn't provide access to user data) and the consumer requests authorization from the user.
 * When the user grants auth, the consumer makes a request to exchange the temporary token for an access token, passing verification from the user auth.
 * The service provider returns the access token and the consumer can then make requests to the service provider to access the user's data.
 
+> Postman supports [OAuth Core 1.0 Revision A](https://oauth.net/core/1.0a/).
+
 In the __Authorization__ tab for a request, select __OAuth 1.0__ from the __Type__ dropdown list.
 
-<img alt="OAuth 1.0" src="https://assets.postman.com/postman-docs/oauth-1-config.jpg" width="600px"/>
+![OAuth 1.0](https://assets.postman.com/postman-docs/oauth1-auth-helper-fields.jpg)
 
-Enter your __Consumer Key__, __Consumer Secret__, __Access Token__, and __Token Secret__ values. You can optionally set advanced details—otherwise Postman will attempt to autocomplete these.
+Select a __Signature Method__ from the drop-down list—this will determine which parameters you should include with your request. Postman supports `HMAC-SHA1`, `HMAC-SHA256`, `HMAC-SHA512`, `RSA-SHA1`, `RSA-SHA256`, `RSA-SHA512`, and `PLAINTEXT`.
+
+![OAuth 1.0 signature methods](https://assets.postman.com/postman-docs/oauth1-signature-method-list.jpg)
+
+* If your server requires an `HMAC` or `PLAINTEXT` signature, Postman will provide __Consumer Key__, __Consumer Secret__, __Access Token__, and __Token Secret__ fields.
+* If you're using an `RSA` signature, Postman will present __Consumer Key__, __Access Token__, and __Private Key__ inputs.
+
+You can optionally set advanced details—otherwise Postman will attempt to autocomplete these.
 
 You can include the auth details either in the request headers or in the body / URL—select one from the dropdown list. Open the __Headers__ or __Body__ tab if you want to check how the details will be included with the request.
 
@@ -215,18 +224,24 @@ If the request method is `POST` or `PUT`, and if the request body type is `x-www
 
 The OAuth 1.0 auth parameter values are as follows:
 
+* __Signature Method__: The method your API uses to authenticate requests.
 * __Consumer Key:__ A value used to identify a consumer with the service provider.
-* __Consumer Secret:__ A value used by the consumer to establish ownership of the key.
+* __Consumer Secret:__ A value used by the consumer to establish ownership of the key. _For `HMAC` and `PLAINTEXT` signing methods._
 * __Access Token:__ A value representing the consumer's permission to access the user's data.
-* __Token Secret:__ A value used by the consumer to establish ownership of a given token.
+* __Token Secret:__ A value used by the consumer to establish ownership of a given token. _For `HMAC` and `PLAINTEXT` signing methods._
+* __Private Key:__ A private key to generate the auth signature. _For `RSA` signing methods._
 * Advanced Parameters:
-    * __Signature Method:__ A consumer secret that establishes ownership of a given token.
+    * __Callback URL:__ URL service provider will redirect to following user authorization. _Required if your server uses OAuth 1.0 Revision A._
+    * __Verifier:__ Verification code from service provider after user auth.
     * __Time Stamp:__ The timestamp the server uses to prevent replay attacks outside the time window.
     * __Nonce:__ A random string generated by the client.
     * __Version:__ The version of the OAuth authentication protocol (1.0).
     * __Realm:__ A string specified by the server in the `WWW-Authenticate` response header.
+    * __Include body hash:__ Hash for integrity check with request bodies _other than_ `application/x-www-form-urlencoded`. _Disabled when you're using callback URL / verifier._
 
-> Some implementations of OAuth 1.0 require empty parameters to be added to the signature. Check the __Add empty parameters to signature__ checkbox if you need this.
+> If your server implementation of OAuth 1.0 requires it, check __Add empty parameters to signature__.
+>
+> You can also __Encode the parameters in the authorization header__ for your request.
 
 ## OAuth 2.0
 
@@ -241,7 +256,9 @@ An example OAuth 2.0 flow could run as follows:
 
 In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify whether you want pass the auth details in the request URL or headers.
 
-![OAuth 2.0](https://assets.postman.com/postman-docs/oauth-2-empty-token.jpg)
+![OAuth 2.0](https://assets.postman.com/postman-docs/oauth2-prefix-option.jpg)
+
+> By default Postman will append the access token to `Bearer ` in the Authorization header for your request, but if your server implementation requires a different prefix, you can specify it in the __Header Prefix__ field.
 
 To request an access token, click __Get New Access Token__.
 
@@ -351,9 +368,12 @@ The official AWS Signature documentation provides more detail:
 
 In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 
-![AWS Signature Auth](https://assets.postman.com/postman-docs/aws-auth-config.jpg)
+![AWS Signature Auth](https://assets.postman.com/postman-docs/aws-add-headers-url.jpg)
 
-> When you select AWS Signature auth method, Postman will add `Authorization` and `X-Amz-Date` to your request __Headers__.
+Select where Postman should append your AWS auth details using the __Add authorization data to__ drop-down—choosing the request headers or URL.
+
+* If you select __Request Headers__, Postman will add `Authorization` and `X-Amz-` prefixed fields in the __Headers__ tab.
+* If you select __Request URL__, Postman will add the auth details in __Params__ with keys prefixed `X-Amz-`.
 
 Enter your access key and secret values either directly in the fields or via variables for additional security.
 
