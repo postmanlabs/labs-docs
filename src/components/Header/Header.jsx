@@ -142,7 +142,7 @@ class HeaderComponent extends React.Component {
                           trend.edges.map((trend) =>  (
                             <li key={Math.random()}>
                               <a 
-                                href={`/search?query=${JSON.parse(trend.node.value).search}`}
+                                href={`/search/?query=${JSON.parse(trend.node.value).search}`}
                                 onClick={ () => {
                                   trackCustomEvent({
                                     // string - required - The object that was interacted with

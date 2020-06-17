@@ -610,5 +610,9 @@
   {
     "from": "/docs/postman/collections/data_formats/",
     "to": "/docs/postman/collections/importing-and-exporting-data/"
+  },
+  {
+    "from": "/docs/sending-and-viewing-responses/responses/",
+    "to": "/docs/postman/sending-api-requests/responses/"
   }
 ]
