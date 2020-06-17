@@ -63,7 +63,7 @@ You can also trigger a validation from the issues list by clicking **Validate ag
 
 ## Accessing issues
 
-You can review the issues found during validation [from the Postman app](#accessing-the-issue-summary-from-the-postman-app) or the [web dashboard](#accessing-the-issue-summary-from-the-web-dashboard). The summary will indicate the [details of each issue](#understanding-the-issue-summary) and provide fixes suggestion so that you can automatically propagate them to the corresponding API element.
+You can review the issues found during validation [from the Postman app](#accessing-the-issue-summary-from-the-postman-app) or the [web dashboard](#accessing-the-issue-summary-from-the-web-dashboard).
 
 ### Accessing the issue summary from the Postman app
 
@@ -81,26 +81,22 @@ You will see a status indicating whether any issues have been found during valid
 
 [![open list of issues dashboard](https://assets.postman.com/postman-docs/apidev15-open-from-dashboard.gif)](https://assets.postman.com/postman-docs/apidev15-open-from-dashboard.gif)
 
+## Updating API elements
+
+The summary will indicate the [details of each issue](#understanding-the-issue-summary) and provide fixes suggestion so that you can [automatically propagate](#propagating-changes-to-api-elements) to the corresponding API element.
+
 ### Understanding the issue summary
 
-The validation summary lists all endpoints in your API element, regardless of whether they have issues, or if they are described in the API schema.
+The validation summary lists all the issues found between the generated collection and the API schema. You can select suggested changes to make to the collection.
 
-If an endpoint has been successfully validated against the API schema, you will see a green checkmark with a message indicating `Validated against PATH`.
+The left sidebar gives a summary of issues and allows to navigate between them. It displays:
 
-<img alt="endpoint validated" src="https://assets.postman.com/postman-docs/endpointvalidate.png" width="300px"/>
+- The request name along with the number of issues found in that request.
+- The request elements that have issues along with the type of issues and the number of occurences of these issues.
 
-If an endpoint exists in the API element but isn't described in the API schema, you will see a red cross along with a message indicating `Unable to validate. No matching path found in schema`.
+> You can click on the request name or the request element to navigate directly to the corresponding issue(s).
 
-<img alt="endpoint not found in schema" src="https://assets.postman.com/postman-docs/endpointnotfoundinschema.png" width="300px"/>
 
-If syncing issues are found between the API element and the API schema, the validation summary will outline them under one of the following categories:
-
-* Request params
-* Request headers
-* Request URL
-* Request body
-* Example response body
-* Example response headers
 
 Check out the [complete list of possible issues](#list-of-possible-issues).
 
@@ -108,9 +104,7 @@ Check out the [complete list of possible issues](#list-of-possible-issues).
 
 > You can collapse or expand the list of issues by clicking the grey arrow at the top-right of the list.
 
-## Updating API elements
-
-
+### Propagating changes to API elements
 
 ## List of possible issues
 
