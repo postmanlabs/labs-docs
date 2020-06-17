@@ -61,6 +61,14 @@ If your pull request has no conflicts, you can go ahead and open it for review. 
 
 Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-requests) your changes into the parent collection.
 
+## Approving Changes
+
+Once the pull request is created, you can check the status under the **Pull Requests** tab.
+
+
+The reviewer can go ahead and approve the pull request. Upon approval, you will see the status of the pull request as **Approved**.
+
+
 ## Merging changes
 
 You can merge changes on a fork (the _source_) into the parent fork (the _destination_). It is recommended that you use the [pull request process](#creating-pull-requests) instead of merging straight away—which you can only do if you have edit access to the original collection. If you do not have permissions to edit the parent collection, you will need to [open a pull request](#creating-pull-requests) so that someone with edit access can merge your changes.
