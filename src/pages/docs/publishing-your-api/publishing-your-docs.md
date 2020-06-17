@@ -36,7 +36,11 @@ warning: false
 
 You can publish your API documentation to make it available for public viewing by anyone who has the link. [Published documentation](/docs/postman-for-publishers/public-api-docs/) allows anyone who wants to learn how to use your API to view detail on endpoints, including parameters, request and response bodies, and example code.
 
+[![postman API docs](https://i.imgur.com/jNF08qQ.png)](https://i.imgur.com/jNF08qQ.png)
+
 Your public documentation will always display up-to-date content representing the current state of your collection. You don’t need to repeat the publication flow each time you want to update your documentation.
+
+Your documentation will include the **Run in Postman** button so users can interact with your API directly in Postman. For example, check out the [Postman API documentation](http://docs.api.getpostman.com)—generated from a Postman collection. Adding your docs to the API Network and templates also makes your collections available inside Postman, for example to aid developer onboarding and adoption.
 
 > You can publish documentation for collections that you created or have permission to edit.
 
@@ -90,12 +94,14 @@ You can customize the style of your public docs by adding a team name and logo v
 
 ## Sharing your public docs
 
-To share your API documentation with your users and the wider Postman community, enable __Collection discovery__ by toggling the switch.
+To share your API documentation with your users and the wider Postman community, enable __Collection discovery__ by toggling the switch. This will make your docs and the associated collections available via the Postman [API Network and templates](https://explore.postman.com/).
 
 ![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
-* Choose __Add to API Network__ to [feature your docs in the Postman publisher network](/docs/postman-for-publishers/api-network/add-api-network/).
-* Choose __Add to Postman Templates__ to [share your collection with the Postman community](/docs/postman-for-publishers/postman-templates/add-templates/) and make it discoverable via Postman.
+> When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://explore.postman.com).
+
+* Choose __Add to API Network__ to [feature your team docs in the Postman publisher network](/docs/postman-for-publishers/api-network/add-api-network/).
+* Choose __Add to Postman Templates__ to [share your collection with the Postman community as an individual](/docs/postman-for-publishers/postman-templates/add-templates/) and make it discoverable via Postman.
 
 You can only add to API Network when publishing from a team. You can configure your team profile by clicking __Public Profile Settings__, enabling your profile, and filling out your team details for display.
 
@@ -128,5 +134,7 @@ You can unpublish your docs at any time by clicking __Unpublish__.
 ![Unpublish Docs](https://assets.postman.com/postman-docs/unpublish-docs.jpg)
 
 ## Next steps
+
+[![Imgur API docs](https://i.imgur.com/oXgXznt.png)](https://i.imgur.com/oXgXznt.png)
 
 Find out more about sharing your docs via the [API Network](/docs/postman-for-publishers/api-network/add-api-network/) and [Templates](/docs/postman-for-publishers/postman-templates/add-templates/).

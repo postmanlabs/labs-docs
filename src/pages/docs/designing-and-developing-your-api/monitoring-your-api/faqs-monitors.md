@@ -1,6 +1,6 @@
 ---
 title: "Monitoring FAQs"
-order: 90.1
+order: 95
 page_id: "faqs_monitors"
 search_keyword: "console.log, console.warn"
 warning: false

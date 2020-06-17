@@ -1,6 +1,6 @@
 ---
 title: "Managing monitors"
-order: 90
+order: 89
 page_id: "setting_up_monitor"
 contextual_links:
   - type: section
