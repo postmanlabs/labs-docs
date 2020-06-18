@@ -1,5 +1,5 @@
 ---
-title: 'Validating Elements Against Schema'
+title: 'Updating API Elements From Schema'
 order: 207
 page_id: 'validating-elements-against-schema'
 warning: false
@@ -26,14 +26,13 @@ contextual_links:
     url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
 ---
 
-You can validate your API elements (documentation, tests, mock servers, monitors) against an API schema. This helps keep your elements in sync with your API specification. If they do not match, Postman will present a list of issues that have been found as well as fixes for these issues. You can then select which updates to propagate to the API elements. 
+You can validate your API elements (documentation, tests, mock servers, monitors) against an API schema. This helps keep your elements in sync with your API specification. If they do not match, Postman will present a list of issues that have been found as well as fixes for these issues. You can then select which updates to apply to the API elements.
 
 > This feature is available from Postman 7.15.0 and for OpenAPI 3.0 schemas only at this time.
 
 * [Validating elements](#validating-elements)
 * [Accessing issues](#accessing-issues)
 * [Updating API elements](#updating-api-elements)
-* [List of possible issues](#list-of-possible-issues)
 
 ## Validating elements
 
@@ -83,7 +82,7 @@ You will see a status indicating whether any issues have been found during valid
 
 ## Updating API elements
 
-The summary will indicate the [details of each issue](#understanding-the-issue-summary) and provide fixes suggestion so that you can [automatically propagate](#propagating-changes-to-api-elements) to the corresponding API element.
+The summary will indicate the [details of each issue](#understanding-the-issue-summary) and provide fixes so that you can [automatically apply](#applying-changes-to-api-elements) to the corresponding API element.
 
 ### Understanding the issue summary
 
@@ -91,59 +90,37 @@ The validation summary lists all the issues found between the generated collecti
 
 The left sidebar gives a summary of issues and allows to navigate between them. It displays:
 
-- The request name along with the number of issues found in that request.
-- The request elements that have issues along with the type of issues and the number of occurences of these issues.
+* The request name along with the number of issues found in that request.
+* The request elements that have issues along with the type of issues and the number of occurences of these issues.
+
+[![review issues sidebar](https://assets.postman.com/postman-docs/apidev15-sidebar.gif)](https://assets.postman.com/postman-docs/apidev15-sidebar.gif)
 
 > You can click on the request name or the request element to navigate directly to the corresponding issue(s).
 
+The right-hand side of the review contains details on what changes need to be made for the API element to be in sync with the schema again. Elements highlighted in red means they will be removed from the collection, those highlighted in green means they'll be added.
 
+E.g.: If a user updates the description of an endpoint in the schema, the summary will show the text that has been removed in red, and the one that has been added in green.
 
-Check out the [complete list of possible issues](#list-of-possible-issues).
+[![updating description](https://assets.postman.com/postman-docs/apidev15-update-description.jpg)](https://assets.postman.com/postman-docs/apidev15-update-description.jpg)
 
-<img alt="endpoint has syncing issue" src="https://assets.postman.com/postman-docs/endpointhassyncingissue.png" width="400px"/>
+> You can collapse or expand the list of changes by clicking the arrows next to the request or request elements name.
 
-> You can collapse or expand the list of issues by clicking the grey arrow at the top-right of the list.
+### Applying changes to API elements
 
-### Propagating changes to API elements
+You can individually select the changes to be applied to the API element as you review them, to do so, navigate to the change you want to apply and select **Make this change to the collection** next to it. Repeat the same action for each change you would like to apply.
 
-## List of possible issues
+When you're done selecting the changes to apply, click **Confirm Changes to Collection**.
 
-This section lists each type of issue that validation may raise along with examples. Issues fall into five categories:
+[![selecting some changes](https://assets.postman.com/postman-docs/apidev15-select-some-changes.gif)](https://assets.postman.com/postman-docs/apidev15-select-some-changes.gif)
 
-* [Invalid type](#invalid-type)
-* [Missing in schema](#missing-in-schema)
-* [Missing in request](#missing-in-request)
-* [Invalid body](#invalid-body)
-* [Body schema not found](#body-schema-not-found)
+Alternatively, you can choose to apply all changes by clicking **Select all changes**, then **Confirm Changes to Collection**.
 
-### Invalid type
+[![selecting all changes](https://assets.postman.com/postman-docs/apidev15-select-all-changes.gif)](https://assets.postman.com/postman-docs/apidev15-select-all-changes.gif)
 
-`Invalid type` issues occur when the basic type doesn't match, or when the basic type matches but the schema is wrong.
-
-> The path variable "petId" needs to be of type boolean, but we found `<integer>`
-
-### Missing in schema
-
-`Missing in schema` issues occur when an entity (variable, header, response headers) is not found in the schema you are validating against.
-
-> The header "isItCooper" was not found in the schema
-
-### Missing in request
-
-`Missing in request` issues occur when an entity (variable, header) is not found in the request.
-
-> The required path variable "name" was not found in the transaction
-
-### Invalid body
-
-`Invalid body` issues occur when the request body didn't match the one specified in the schema.
-
-### Body schema not found
-
-`Body schema not found` issues occur when no `application/json` schema was found for the response.
+You can access the updated API element by clicking **View Updated Collection** from the confirmation screen. If you didn't apply all changes, you can also review the remaining issues by clicking **View Remaining Issues**.
 
 ## Next steps
 
-Your issue summary includes the details to address any problems validating against your schema. You can edit the relevant components of your API and validate again to see if the issues have been resolved.
+If you've been using this feature, we'd like to hear from you! You can provide feedback on [our community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).
 
-In addition to syncing your API elements with a schema, you can [analyze and utilize reporting](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/) to promote understanding of how your APIs are performing.
+In addition to keeping your API elements in sync with a schema, you can [analyze and utilize reporting](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/) to promote understanding of how your APIs are performing.
