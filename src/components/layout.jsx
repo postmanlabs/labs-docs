@@ -33,7 +33,6 @@ const setReferrerCookie = () => {
   }
 };
 
-// const Layout = ({ children }) => (
 class Layout extends React.Component {
   constructor(props) {
     super(props);
