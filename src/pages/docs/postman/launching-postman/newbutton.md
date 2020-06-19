@@ -36,7 +36,7 @@ You can use the **New** button to initiate:
 
 The **New** button also provides access to [templates](#templates) and the [API Network](#api-network).
 
-[![new_button](https://assets.postman.com/postman-docs/WS-headerToolbar-blk.png)](https://assets.postman.com/postman-docs/WS-headerToolbar-blk.png)
+[![New Button](https://assets.postman.com/postman-docs/new-button-header-app.jpg)](https://assets.postman.com/postman-docs/new-button-header-app.jpg)
 
 When you click the **New** button, the **Create New** tab appears as the default view.
 
