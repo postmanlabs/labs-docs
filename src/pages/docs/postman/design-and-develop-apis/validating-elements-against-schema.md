@@ -1,5 +1,5 @@
 ---
-title: 'Updating API Elements From Schema'
+title: 'Validating API Elements Against Schema'
 order: 207
 page_id: 'validating-elements-against-schema'
 warning: false
