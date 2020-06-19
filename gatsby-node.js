@@ -110,27 +110,6 @@ exports.sourceNodes = async ({
 
   const { createNode } = actions;
 
-  /* Algolia Analytics API Call for Trending Searches
-  **************************************************************** */
-
-  // if (process.env.ALGOLIA_ADMIN_KEY) {
-  //   const headers = {
-  //     'Content-Type': 'application/json',
-  //     'X-Algolia-API-Key': `${process.env.ALGOLIA_ADMIN_KEY}`,
-  //     'X-Algolia-Application-Id': `${process.env.GATSBY_ALGOLIA_APP_ID}`,
-  //   };
-
-  //   const fetchTrendingSearches = () => axios.get('https://analytics.algolia.com/2/searches?index=docs', { headers });
-  //   const res = await fetchTrendingSearches();
-  //   // eslint-disable-next-line array-callback-return
-  //   res.data.searches.map((topSearch) => {
-  //     createNode(prepareNode(topSearch, 'trendingSearches'));
-  //   });
-  // } else {
-  //   createNode(prepareNode('', 'trendingSearches'));
-  // }
-
-
   const getDirectories = (src) => glob.sync(`${src}/**/*`);
   const paths = getDirectories('./src/pages/docs')
     .filter((val) => val.slice(-3) === '.md')
