@@ -29,6 +29,7 @@ contextual_links:
 When you [define your APIs](/docs/postman/design-and-develop-apis/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
 
 - [Sharing APIs](#sharing-apis)
+- [Sharing APIs in the private API network](#sharing-apis-in-the-private-api-network)
 - [Commenting on APIs](#commenting-on-apis)
 - [Viewing API events](#viewing-api-events)
 
@@ -55,6 +56,12 @@ Configure access levels for collaborators in your workspace and click __Save Rol
 > You can also share APIs in the web dashboard by navigating to __APIs__ and clicking __Share__ next to the API.
 >
 > ![Share API in Dashboard](https://assets.postman.com/postman-docs/share-api-dashboard.jpg)
+
+## Sharing APIs in the private API network
+
+In addition to sharing an API via its workspace, you can also share it to the private API network. Doing this allows your team to learn about and access these APIs and start using them right away. Learn more about [adding your API to the private network](/docs/postman/collaboration/adding-private-network/).
+
+![API list](https://assets.postman.com/postman-docs/privNetworkAPIlist.png)
 
 ## Commenting on APIs
 

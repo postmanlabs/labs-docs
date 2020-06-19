@@ -27,7 +27,7 @@ contextual_links:
 
 ---
 
-Publish the APIs that your team uses internally to the private API network. Your team can learn about and access these APIs and start using them right away.
+Share the APIs that your team uses internally to the private API network. Your team can learn about and access these APIs and start using them right away.
 
 ![Team APIs](https://assets.postman.com/postman-docs/privNetworkTopPage.png)
 
