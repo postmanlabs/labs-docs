@@ -82,32 +82,32 @@ You will see a status indicating whether any issues have been found during valid
 
 ## Updating API elements
 
-The summary will indicate the [details of each issue](#understanding-the-issue-summary) and provide fixes so that you can [automatically apply](#applying-changes-to-api-elements) to the corresponding API element.
+The summary will indicate the [details of each issue](#understanding-the-issue-summary) and provide fixes that you can [automatically apply](#applying-changes-to-api-elements) to the corresponding API element.
 
 ### Understanding the issue summary
 
 The validation summary lists all the issues found between the generated collection and the API schema. You can select suggested changes to make to the collection.
 
-The left sidebar gives a summary of issues and allows to navigate between them. It displays:
+The left sidebar gives you a summary of issues and allows you to navigate between them. The summary includes the following details:
 
 * The request name along with the number of issues found in that request.
-* The request elements that have issues along with the type of issues and the number of occurences of these issues.
+* The request elements with issues, along with the issue type and number of occurrences.
 
 [![review issues sidebar](https://assets.postman.com/postman-docs/apidev15-sidebar.gif)](https://assets.postman.com/postman-docs/apidev15-sidebar.gif)
 
 > You can click on the request name or the request element to navigate directly to the corresponding issue(s).
 
-The right-hand side of the review contains details on what changes need to be made for the API element to be in sync with the schema again. Elements highlighted in red means they will be removed from the collection, those highlighted in green means they'll be added.
+The right-hand side of the review contains details on what changes need to be made for the API element to be in sync with the schema again. Elements highlighted in red will be removed from the collection. Elements highlighted in green will be added.
 
-E.g.: If a user updates the description of an endpoint in the schema, the summary will show the text that has been removed in red, and the one that has been added in green.
+For example, if a user updates the description of an endpoint in the schema, the summary will show the text that has been removed in red, and what has been added in green.
 
 [![updating description](https://assets.postman.com/postman-docs/apidev15-update-description.jpg)](https://assets.postman.com/postman-docs/apidev15-update-description.jpg)
 
-> You can collapse or expand the list of changes by clicking the arrows next to the request or request elements name.
+> You can collapse or expand the list of changes by clicking the arrows next to the request or element name.
 
 ### Applying changes to API elements
 
-You can individually select the changes to be applied to the API element as you review them, to do so, navigate to the change you want to apply and select **Make this change to the collection** next to it. Repeat the same action for each change you would like to apply.
+You can individually select the changes to be applied to the API element as you review them. Navigate to the change you want to apply and select **Make this change to the collection** next to it. Repeat the same action for each change you would like to apply.
 
 When you're done selecting the changes to apply, click **Confirm Changes to Collection**.
 
@@ -121,6 +121,6 @@ You can access the updated API element by clicking **View Updated Collection** f
 
 ## Next steps
 
-If you've been using this feature, we'd like to hear from you! You can provide feedback on [our community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).
+If you've been using this feature, the Postman team would like to hear from you! You can provide feedback on [the community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).
 
 In addition to keeping your API elements in sync with a schema, you can [analyze and utilize reporting](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/) to promote understanding of how your APIs are performing.
