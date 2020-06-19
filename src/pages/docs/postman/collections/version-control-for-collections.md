@@ -65,12 +65,12 @@ Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-
 
 Once the pull request is created, you can check the status under the **Pull Requests** tab.
 
-<img src="https://assets.postman.com/postman-docs/merge-fork-options.jpg" alt="Dummy Image" width="300px"/>
+<img src="https://assets.postman.com/postman-docs/status-pull-request.jpg" alt="Status Pull Request" width="300px"/>
 
 
 The reviewer can go ahead and approve the pull request. Upon approval, you will see the status of the pull request as **Approved**.
 
-<img src="https://assets.postman.com/postman-docs/merge-fork-options.jpg" alt="Dummy Image" width="300px"/>
+<img src="https://assets.postman.com/postman-docs/approve-fork.jpg" alt="Approve Fork" width="300px"/>
 
 
 ## Merging changes
