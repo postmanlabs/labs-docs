@@ -19,8 +19,11 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Authoring your documentation"
+    name: "Writing API documentation"
     url: "/docs/postman/api-documentation/authoring-your-documentation/"
+  - type: link
+    name: "Generating collections from the API"
+    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
 
 ---
 
