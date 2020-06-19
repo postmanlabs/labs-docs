@@ -119,8 +119,8 @@ Alternatively, you can choose to apply all changes by clicking **Select all chan
 
 You can access the updated API element by clicking **View Updated Collection** from the confirmation screen. If you didn't apply all changes, you can also review the remaining issues by clicking **View Remaining Issues**.
 
-## Next steps
+> If you've been using this feature, the Postman team would like to hear from you! You can provide feedback on [the community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).
 
-If you've been using this feature, the Postman team would like to hear from you! You can provide feedback on [the community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).
+## Next steps
 
 In addition to keeping your API elements in sync with a schema, you can [analyze and utilize reporting](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/) to promote understanding of how your APIs are performing.
