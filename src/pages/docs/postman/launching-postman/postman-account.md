@@ -76,15 +76,17 @@ Enter your profile details and click **Save changes**.
 
 >You can make your profile public. A public profile allows you to add your collections to Postman's [API Network](/docs/postman-for-publishers/api-network/add-api-network/) and [Postman Templates](/docs/postman-for-publishers/postman-templates/add-templates/).
 
-You can optionally create or join a team.
+You can optionally create or join a team. If you're signing up with your organization email and your company has a Postman account, you will see [teams you can join](/docs/postman/collaboration/collaboration-intro/#finding-teams-within-your-organization).
 
-![Configure account](https://assets.postman.com/postman-docs/setup-signup-team.jpg)
+[![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
-> If you're signing up with your organization email and your company has a Postman account you will see [teams you can join](/docs/postman/collaboration/collaboration-intro/#finding-teams-within-your-organization).
+To create a team and optionally invite collaborators, click __Create new team__. Enter your team name and URL—click __Continue__.
 
-Enter a team name or click __Maybe Later__. You can also invite people to your team at this stage.
+[![Create Team](https://assets.postman.com/postman-docs/create-new-team-domain.jpg)](https://assets.postman.com/postman-docs/create-new-team-domain.jpg)
 
-![Configure account](https://assets.postman.com/postman-docs/invite-team-signup.jpg)
+You can invite collaborators to join your team now or later.
+
+[![Invite to Team](https://assets.postman.com/postman-docs/invite-to-new-team.jpg)](https://assets.postman.com/postman-docs/invite-to-new-team.jpg)
 
 You can update your settings at any time by clicking your avatar in the top left of Postman.
 
