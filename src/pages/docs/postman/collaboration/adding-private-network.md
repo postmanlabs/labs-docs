@@ -29,7 +29,7 @@ contextual_links:
 
 Share the APIs that your team uses internally to the private API network. Your team can learn about and access these APIs and start using them right away.
 
-![Team APIs](https://assets.postman.com/postman-docs/privNetworkTopPage.png)
+![Team APIs](https://assets.postman.com/postman-docs/privNetworkAPIlist.png)
 
 If you're logged in, go directly to your team's [private API Network](https://go.postman.co/network/private). You can always find it by clicking __API Network__ at the top from anywhere in the [Dashboard](https://go.postman.co).
 
@@ -95,5 +95,5 @@ You can also review version-level details on the right. Next to **Versions**, yo
 
 ## Next steps
 
-* [Writing API documentation](/docs/postman/api-documentation/authoring-your-documentation/).
+* [Writing API documentation](/docs/postman/api-documentation/authoring-your-documentation/)
 * [Generating collections from the API](/docs/postman/design-and-develop-apis/the-api-workflow/)
