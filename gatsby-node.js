@@ -3,6 +3,7 @@ const fs = require('fs');
 const { createFilePath } = require('gatsby-source-filesystem');
 const glob = require('glob');
 const uuidv4 = require('uuid/v4');
+// const axios = require('axios');
 const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects');
 const HeaderJson = require('./src/components/Header/Header.data.json');
@@ -78,6 +79,8 @@ exports.createPages = async ({ graphql, actions }) => {
 };
 
 
+/* Create Header and Footer
+/************************************************************************ */
 exports.sourceNodes = async ({
   actions,
   createNodeId,
@@ -104,6 +107,8 @@ exports.sourceNodes = async ({
     const output = { ...data, ...nodeMeta };
     return output;
   };
+
+  const { createNode } = actions;
 
   const getDirectories = (src) => glob.sync(`${src}/**/*`);
   const paths = getDirectories('./src/pages/docs')
@@ -136,9 +141,6 @@ exports.sourceNodes = async ({
     });
     current.url = `/${split.join('/')}/`;
   });
-
-
-  const { createNode } = actions;
 
   createNode(prepareNode(output.docs, 'leftNavLinks'));
   createNode(prepareNode(HeaderJson, 'headerLinks'));

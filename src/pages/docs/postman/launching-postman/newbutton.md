@@ -31,12 +31,12 @@ You can use the **New** button to initiate:
 - [Environments](#create-an-environment)
 - [Monitors](#create-a-monitor)
 - [Documentation](#create-documentation)
-- [Mock_servers](#create-a-mock-server)
+- [Mock servers](#create-a-mock-server)
 - [APIs](#create-an-api)
 
 The **New** button also provides access to [templates](#templates) and the [API Network](#api-network).
 
-[![new_button](https://assets.postman.com/postman-docs/WS-headerToolbar-blk.png)](https://assets.postman.com/postman-docs/WS-headerToolbar-blk.png)
+[![New Button](https://assets.postman.com/postman-docs/new-button-header-app.jpg)](https://assets.postman.com/postman-docs/new-button-header-app.jpg)
 
 When you click the **New** button, the **Create New** tab appears as the default view.
 
@@ -46,15 +46,9 @@ In addition to the **Create New** tab, there are two other tabs: "Templates" and
 
 ## Create New
 
-You can create a new _Request, Collection, Environment, API Documentation, Mock Server, and Monitor_ using the **New** button. Alternatively, you can also directly create these when you click the down arrow at the right side of the **New** button, as illustrated below:
+You can create a new request, collection, environment, API documentation, a mock server, monitor, or API using the **New** button.
 
-[![new_button2](https://assets.postman.com/postman-docs/cnx-dropdown.png)](https://assets.postman.com/postman-docs/cnx-dropdown.png)
-
-In **BUILDING BLOCKS**, create a new request, collection, or environment.
-
-In **ADVANCED**, create new documentation, a mock server, a monitor or a new API.
-
-At the bottom of this window, you can select “Show this window at launch” to indicate whether you want the **Create New** tab to display each time you open Postman.
+[![New Button](https://assets.postman.com/postman-docs/new-button-header-app.jpg)](https://assets.postman.com/postman-docs/new-button-header-app.jpg)
 
 ## Create a request
 

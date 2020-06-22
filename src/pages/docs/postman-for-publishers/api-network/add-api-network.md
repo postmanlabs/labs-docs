@@ -19,7 +19,7 @@ contextual_links:
     url:  "/docs/postman-for-publishers/api-network/api-submission-guidelines/"
 ---
 
-Publishing your documentation to the [API Network](https://explore.postman.com/) connects your API to the Postman community. You can publish docs to the network from any team [collection](/docs/postman/collections/intro-to-collections/)—_for individual collections that are not published via a team, you can instead add to the Postman [templates](/docs/postman-for-publishers/postman-templates/add-templates/)_.
+Publishing your documentation to the [API Network](https://explore.postman.com/) connects your API to the Postman community. You can publish docs to the network from any team [collection](/docs/postman/collections/intro-to-collections/). For individual collections that are not published via a team, you can instead add to the Postman [templates](/docs/postman-for-publishers/postman-templates/add-templates/).
 
 > For APIs that your team uses internally, you can add to the [private API network](/docs/postman/collaboration/adding-private-network/).
 

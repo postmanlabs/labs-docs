@@ -67,3 +67,33 @@ To remove a certificate, use the **Remove** link next to the certificate under 
 ## Editing a Certificate
 
 You cannot edit a certificate after it has been created. To make changes to it, you will need to remove the certificate and create a new one.
+
+## Certificate data
+
+Postman will indicate certificate information in the __Network__ response pop-up for any HTTPS requests you send, including warnings and errors such as self-signed and expired certificates.
+
+[![Network info](https://assets.postman.com/postman-docs/network-info-response.jpg)](https://assets.postman.com/postman-docs/network-info-response.jpg)
+
+You can also see certificate info in the [console](/docs/postman/sending-api-requests/debugging-and-logs/).
+
+<img alt="Certificate info in console" src="https://assets.postman.com/postman-docs/certificate-info-in-console.jpg" width="300px"/>
+
+If certificate verification fails, Postman will display an error message.
+
+<img alt="Certificate verification fail" src="https://assets.postman.com/postman-docs/certificate-verification-fail.jpg" width="500px"/>
+
+You will see the error in the response area if you have SSL verification turned on. __Disable SSL Verification__ to disable the setting globally and rerun the request.
+
+<img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
+
+If you have SSL verification switched off either globally or for the individual request, you will see the detail of any errors or warnings in the response __Network__ information.
+
+<img alt="Certificate error" src="https://assets.postman.com/postman-docs/certificate-error-in-network-info.jpg" width="400px"/>
+
+You can find more information about failed certification in the [console](/docs/postman/sending-api-requests/debugging-and-logs/).
+
+<img alt="Certificate fail in console" src="https://assets.postman.com/postman-docs/console-certificate-fail.jpg" width="600px"/>
+
+You can toggle SSL verification on and off by default in the Postman __Settings__ (wrench icon at the top right) or for a specific request in the __Settings__ tab.
+
+[![Request SSL](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)

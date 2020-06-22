@@ -56,6 +56,10 @@ Configure access levels for collaborators in your workspace and click __Save Rol
 >
 > ![Share API in Dashboard](https://assets.postman.com/postman-docs/share-api-dashboard.jpg)
 
+In addition to sharing an API via its workspace, you can also share it to the private API network. Doing this allows your team to learn about and access these APIs and start using them right away. Learn more about [adding your API to the private network](/docs/postman/collaboration/adding-private-network/).
+
+![API list](https://assets.postman.com/postman-docs/privNetworkAPIlist.png)
+
 ## Commenting on APIs
 
 You can discuss your APIs with collaborators in the Postman app or [web dashboard](https://app.getpostman.com), keeping the conversation in context and available to other stakeholders. Anyone with access can comment, and comments will be visible in both the app and the dashboard.
