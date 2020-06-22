@@ -148,15 +148,20 @@ You can also [define global and environment variables in scripts](#defining-vari
 
 ### Defining collection variables
 
-To create or edit a variable for an existing collection, select the collection in __Collections__ on the left of the Postman app, open the __View more actions__ (__...__) menu, and click __Edit__.
+You can add collection variables when you create the collection or at any time after that. To create or edit a variable for an existing collection, select the collection in __Collections__ on the left of the Postman app, open the __View more actions__ (__...__) menu, and click __Edit__.
 
 <img alt="Edit Collection" src="https://assets.postman.com/postman-docs/edit-collection-var.jpg" width="350px"/>
+
+> If you only have __Viewer__ role on the collection, you will see the __View Details__ menu item instead of __Edit__ (on the collection and any folders inside it).
+> ![View collection details](https://assets.postman.com/postman-docs/view-details-collection-viewer.jpg)
 
 Choose the __Variables__ tab to edit or add to your collection variables.
 
 ![Collection Variables](https://assets.postman.com/postman-docs/collection-vars.jpg)
 
-> You can add collection variables when you create a new collection.
+> If you have __Viewer__ role you will not be able to add new collection variables, update initial values, or persist values.
+> ![Collection viewer role](https://assets.postman.com/postman-docs/collection-variables-viewer-role.jpg)
+> You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request access](/docs/postman/collaboration/requesting-access-to-collections/) to the collection for __Editor__ role.
 
 You can also [define collection variables in scripts](#defining-variables-in-scripts).
 
