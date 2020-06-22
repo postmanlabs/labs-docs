@@ -27,6 +27,9 @@ contextual_links:
   - type: link
     name: "10 tips for working with variables"
     url: "https://blog.postman.com/2017/12/29/10-tips-for-working-with-postman-variables/"
+  - type: link
+    name: "Securely Using API Keys in Postman"
+    url: "https://blog.postman.com/how-to-use-api-keys/"
   - type: section
     name: "Next Steps"
   - type: link

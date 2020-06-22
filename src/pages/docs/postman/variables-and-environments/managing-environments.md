@@ -27,6 +27,9 @@ contextual_links:
   - type: link
     name: "Dynamically unset environment variables"
     url: "https://blog.postman.com/2019/05/28/pro-tip-dynamically-unset-postman-environment-variables/"
+  - type: link
+    name: "Securely Using API Keys in Postman"
+    url: "https://blog.postman.com/how-to-use-api-keys/"
   - type: section
     name: "Next Steps"
   - type: link
