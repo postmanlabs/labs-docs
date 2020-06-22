@@ -42,10 +42,7 @@ Make sure everyone who uses Postman has the latest version by downloading it fro
     * `*.postman.co`
     * `*.pstmn.io`
 
-* Depending on your [plan](https://www.postman.com/pricing) static IP addresses may be available for Postman Monitors. Your IT team should whitelist these static IPs for monitoring. Currently, static IPs are available only for the US east and US west regions. If you selected a Static IP region on your monitors, you will have to whitelist the following IP addresses:
-
-    * `34.201.186.27` for US - east
-    * `52.89.173.88` for US - west
+* Depending on your [plan](https://www.postman.com/pricing) you may be able to obtain static IP addresses for Postman Monitors. Your IT team should whitelist these static IPs for monitoring. See [Running Postman monitors using static IPs](/docs/postman/monitors/using-static-IPs-to-monitor/) for details on how to obtain and configure static IP addresses for monitoring.
 
 * Update your [team settings](https://go.postman.co/settings/team/general). See [Team Settings](/docs/postman/collaboration/team-settings/) for more info.
 * If your Postman [plan](https://www.postman.com/pricing) includes single-sign-on (SSO) you may need help from your IT team to configure it. See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for instructions on integrating with specific identity providers.
