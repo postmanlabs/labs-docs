@@ -40,7 +40,7 @@ If you're just starting to learn about APIs and Postman, you can use a variety o
 * Using the __Bootcamp__ to work through lessons inside Postman.
 * Exploring [templates](https://explore.postman.com/) to try out, like [Learn by API](https://explore.postman.com/templates/7499/learn-by-api), which walks you through API concepts.
 
-Otherwise, check out the following topics to find resources:
+If you're learning to carry out a specific task or workflow in Postman, check out the following topics to find resources:
 
 * [__Making requests__](#making-api-requests)
 * [__Testing APIs__](#testing-apis)
@@ -92,7 +92,7 @@ If you're using Postman in your company or team, check out these guides to maxim
 * [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
 * [Managing Postman for an organization](/docs/administration/managing-your-team/)
 * [Onboarding your team](/docs/administration/onboarding-checklist/)
-* [Setting up an integration](/docs/integrations/intro-integrations/)
+* [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 
 ## Developing with Postman
 
