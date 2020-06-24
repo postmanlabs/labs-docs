@@ -32,29 +32,31 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-What are you here to learn about?
+__What are you here to learn about?__
 
-* [__APIs and Postman__](#apis-and-postman)
-* [__Making API requests__](#making-api-requests)
-* [__Producing APIs__](#producing-apis)
-* [__Collaborating within your organization__](#collaborating-within-your-organization)
-* [__Developing with Postman__](#developing-with-postman)
-
-## APIs and Postman
-
-If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the software:
+If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the app:
 
 * [Sending your first request](/docs/getting-started/sending-the-first-request/)—explore the other topics in __Getting Started__.
 * Using the __Bootcamp__ to work through lessons inside Postman.
 * Exploring [templates](https://explore.postman.com/) to try out, like [Learn by API](https://explore.postman.com/templates/7499/learn-by-api), which walks you through API concepts.
 
-## Making API requests
+Otherwise, check out the following topics to find resources:
 
-If you're building a client app, you can connect to the API in Postman:
+* [__Making requests__](#making-api-requests)
+* [__Testing APIs__](#testing-apis)
+* [__Building and managing APIs__](#building-and-managing-apis)
+* [__Publishing APIs__](#publishing-your-api)
+* [__Collaborating with your team__](#collaborating-with-your-team)
+* [__Developing with Postman__](#developing-with-postman)
+
+## Making requests
+
+If you're building a client app or just need to connect to an API, check out some Postman essentials:
 
 * [Connecting to APIs](/docs/sending-requests/requests/)
 * [Authorizing requests](/docs/sending-requests/authorization/)
 * [Grouping requests in collections](/docs/sending-requests/intro-to-collections/)
+* [Using variables](/docs/sending-requests/variables/)
 * [Visualizing data](/docs/sending-requests/visualizer/)
 
 ## Testing APIs
@@ -62,19 +64,28 @@ If you're building a client app, you can connect to the API in Postman:
 If you're testing an API, you can use Postman to automate various parts of the process:
 
 * [Writing test scripts](/docs/writing-scripts/test-scripts/)
-* [Using variables](/docs/sending-requests/variables/)
 * [Automating workflows with the collection runner](/docs/running-collections/intro-to-collection-runs/)
+* [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/)
+* [Test script examples](/docs/writing-scripts/script-references/test-examples/)
 
-## Producing APIs
+## Building and managing APIs
 
-If you or your organization is exposing an API for public use, Postman can help support various aspects of onboarding and API management:
+If you're developing a back-end, working API-first, or need to monitor API performance, Postman utilities can streamline your workflows:
 
 * [Creating an API from scratch](/docs/designing-and-developing-your-api/the-api-workflow/)
+* [Monitoring test runs](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/)
+* [Analyzing API performance](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
+* [Mocking responses](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
+
+## Publishing APIs
+
+If you're exposing an API for public use, Postman can support developer onboarding:
+
 * [Publishing documentation](/docs/publishing-your-api/documenting-your-api/)
 * [Building adoption](/docs/publishing-your-api/add-api-network/)
-* [Analyzing API performance](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/)
+* [Using Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/)
 
-## Collaborating within your organization
+## Collaborating with your team
 
 If you're using Postman in your company or team, check out these guides to maximize on your collaboration:
 
@@ -89,6 +100,7 @@ If you're integrating Postman with your CI/CD workflow or are developing with Po
 
 * [Integrating with a development pipeline](/docs/running-collections/using-newman/command-line-integration-with-newman/)
 * [Developing with Postman utilities](/docs/resources/resources-intro/)
+* [Postman API](/docs/developer/intro-api/)
 
 ## Providing feedback
 

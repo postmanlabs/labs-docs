@@ -82,7 +82,7 @@ With a request open in Postman, use the __Authorization__ tab __Type__ dropdown 
 
 ![Auth Types](https://assets.postman.com/postman-docs/authorization-types.jpg)
 
-> You can use these auth types with Newman and monitors as well as in Postman.
+> You can use these auth types with Newman and monitors as well as in the Postman app.
 
 When you select a type, Postman will indicate which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Postman will add your auth details to the relevant parts of the request as soon as you select or enter them, so you can see how your data will be sent before attempting to run the request.
 
