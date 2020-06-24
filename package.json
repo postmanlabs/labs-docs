@@ -20,7 +20,6 @@
     "gatsby-plugin-gdpr-cookies": "^1.0.7",
     "gatsby-plugin-google-analytics": "^2.3.4",
     "gatsby-plugin-google-tagmanager": "^2.1.15",
-    "gatsby-plugin-manifest": "^2.2.18",
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-offline": "^3.0.8",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
