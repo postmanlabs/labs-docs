@@ -292,11 +292,11 @@
     "to": "/docs/postman/variables-and-environments/managing-environments/"
   },
   {
-    "from": "/docs/postman/environments-and-globals/manage-globals/",
+    "from": "/docs/postman/environments-and-globals/variables/",
     "to": "/docs/postman/variables-and-environments/variables/"
   },
   {
-    "from": "/docs/postman/environments-and-globals/variables/",
+    "from": "/docs/postman/environments-and-globals/manage-globals/",
     "to": "/docs/postman/variables-and-environments/variables/"
   },
   {
