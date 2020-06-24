@@ -53,7 +53,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 [Download](https://www.postman.com/downloads/) and unzip the app _using the built-in Archive Utility app_. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
 
-> The minimum OS version supported is macOS 10.9.
+> The minimum OS version supported is macOS 10.10.
 >
 > You may encounter a "Library not loaded" error if you attempt to unzip and install Postman using a third-party app—using the default Archive Utility for Mac should resolve this.
 

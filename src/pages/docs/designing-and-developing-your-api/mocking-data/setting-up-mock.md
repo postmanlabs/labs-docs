@@ -317,6 +317,8 @@ You can use the mock call log to troubleshoot your requests to mock servers.
 
 If you see `No matching requests` listed in the __Response__ column, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/postman/mock-servers/mocking-with-examples) in the collection you have the mock connected to.
 
+In the case of a service outage, you will get a 502/503/504 response. Please subscribe and check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
+
 ## Next steps
 
 For more information about mock servers, see the following resources:

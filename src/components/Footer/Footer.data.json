@@ -23,7 +23,8 @@
         { "url": "https://documenter.getpostman.com/view/631643/JsLs/?version=latest", "name": "Postman API"},
         { "url": "https://github.com/postmanlabs", "name": "Open-Source"},
         { "url": "https://status.postman.com/", "name": "System Status"},
-        { "url": "https://www.postman.com/resources/case-studies/", "name": "Case Studies"}
+        { "url": "https://www.postman.com/resources/case-studies/", "name": "Case Studies"},
+        { "url": "https://www.postman.com/webinars/", "name": "Webinars" }
       ]
     },
 
@@ -48,7 +49,6 @@
         { "url": "https://www.postman.com/support", "name": "Support"},
         { "url": "https://pages.postman.com/Resellers-Support.html", "name": "Resellers Support"},
         { "url": "https://learning.postman.com/", "name": "Learning Center"},
-        { "url": "https://www.postman.com/resources/videos-tutorials/", "name": "Videos & Tutorials"},
         { "url": "https://www.postman.com/community", "name": "Community Content"},
         { "url": "https://community.postman.com/", "name": "Postman Community"}
       ]
@@ -57,7 +57,7 @@
     {"name": "Company",
       "children": [
         { "url": "https://www.postman.com/about-postman", "name": "About"},
-        { "url": "https://www.postman.com/jobs/", "name": "Jobs", "span": "We're Hiring!"},
+        { "url": "https://www.postman.com/careers/", "name": "Careers", "span": "We're Hiring!"},
         { "url": "https://www.postman.com/contact", "name": "Contact"},
         { "url": "https://blog.postman.com/", "name": "Blog"},
         { "url": "https://www.postman.com/resources/press-releases/", "name": "Press Releases"},

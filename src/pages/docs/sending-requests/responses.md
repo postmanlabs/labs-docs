@@ -78,6 +78,32 @@ If your API endpoint returns an image, Postman will detect and render it automat
 
 Headers are displayed as key-value pairs under the **Headers** tab. Hovering over the header name can give you a description of the header according to the HTTP spec. If you are sending a HEAD request, Postman will show the headers tab by default.
 
+## Network information
+
+Postman will display network data when your API returns a response.
+
+[![Network info](https://assets.postman.com/postman-docs/network-info-non-https.jpg)](https://assets.postman.com/postman-docs/network-info-non-https.jpg)
+
+Hover over the globe icon to see the local and remote IP addresses for the request you sent.
+
+[![Network info](https://assets.postman.com/postman-docs/network-info-response.jpg)](https://assets.postman.com/postman-docs/network-info-response.jpg)
+
+When you make `https` requests, the __Network__ information will display a padlock and will include detail of any [certificate verification](/docs/postman/sending-api-requests/certificates/).
+
+If you have __SSL verification__ enabled in the global settings and verification fails, Postman will indicate the error in the response area. Click the link to disable verification globally and immediately run the request again. _If SSL is disabled globally but enabled for your request, you will see the error and a link to open the console._
+
+<img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
+
+> Note that if you click __Disable SSL Verification__ you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, open __Settings__ (wrench button at the top left of Postman) and use the switch in the __General__ section. To enable it just for the current request, use the request __Settings__ tab.
+
+If you have __SSL verification__ turned off and your request returns a certificate verification error, you will see the detail in the __Network__ information pop-up.
+
+<img alt="Certificate error" src="https://assets.postman.com/postman-docs/certificate-error-in-network-info.jpg" width="400px"/>
+
+For requests that return data successfully but with a certificate verification failure, the [console](/docs/postman/sending-api-requests/debugging-and-logs/) will display a warning.
+
+[![Certification warning](https://assets.postman.com/postman-docs/certification-error-console-warning.jpg)](https://assets.postman.com/postman-docs/certification-error-console-warning.jpg)
+
 ## Response time
 
 Postman automatically calculates the time it took for the response to arrive from the server. This is useful for some preliminary testing for performance.

@@ -11,6 +11,11 @@
     background-color: inherit;
     color: inherit;
     padding-left: 70px;
+    & button {
+      &:hover{
+        color: $postman-orange;
+      }
+    }
   }
   .root > .parent{
     button {
@@ -31,7 +36,6 @@
       -ms-transform: rotate(-90deg);
       transform: rotate(-90deg);
       
-
       &.active-caret {
         transition: transform .2s ease;
         -webkit-transform: rotate(0deg);
@@ -45,12 +49,16 @@
     & button {
       background: none;
       color: inherit;
+      display: inline-block;
       border: none;
       padding: 0;
       font: inherit;
       cursor: pointer;
       outline: inherit;
       text-transform: capitalize;
+      &:hover{
+        color: $postman-orange;
+      }
     }
 
     &.currentUrl {
@@ -58,6 +66,11 @@
       color: $white;
       margin: 0 -8px 16px -80px;
       padding: 8px 0 8px 70px;
+      & button {
+        &:hover {
+          color: $white;
+        }
+      }
     }
   }
 
@@ -69,6 +82,10 @@
       font-weight: 700;
       margin-left: 23px;
 
+      > * {
+        vertical-align: middle;
+      }
+
       .activeIndicator {
         min-width: 5px;
         height: 1.5em;
@@ -78,16 +95,25 @@
         left: -10px;
         top: 5px;
       }
-    }
 
+      a {
+        margin-top: -18px;
+        margin-left: 5px;
+      }
+    }
+    
     a {
+      display: block;
       text-decoration: none;
       color: inherit;
+      &:hover {
+        color: $postman-orange;
+      }
     }
   }
 
   ul.active > .child, ul.active > .parent, ul.active > ul.inactive, ul.inactive.root {
-    display: block; 
+    display: block;
   }
 
   ul.inactive > .child, ul.inactive > ul {
