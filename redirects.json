@@ -296,6 +296,10 @@
     "to": "/docs/postman/variables-and-environments/variables/"
   },
   {
+    "from": "/docs/postman/environments-and-globals/variables/",
+    "to": "/docs/postman/variables-and-environments/variables/"
+  },
+  {
     "from": "/docs/postman/environments-and-globals/sessions/",
     "to": "/docs/postman/variables-and-environments/variables/#sharing-and-persisting-data"
   },
