@@ -67,11 +67,9 @@ Once the pull request is created, you can check the status under the **Pull Requ
 
 <img src="https://assets.postman.com/postman-docs/status-pull-request.jpg" alt="Status Pull Request" width="850px"/>
 
-
 The reviewer can go ahead and approve the pull request. Upon approval, you will see the status of the pull request as **Approved**.
 
 <img src="https://assets.postman.com/postman-docs/approve-fork.jpg" alt="Approve Fork" width="850px"/>
-
 
 ## Merging changes
 
@@ -116,7 +114,6 @@ Each pull request includes status, which will be `OPEN` for any that have not be
 You can choose to __Edit__ or __Decline__ the pull request.
 
 ![Pull Request Options](https://assets.postman.com/postman-docs/edit-decline-pull-request.jpg)
-
 
 Once a pull request is merged, you cannot __edit__ or __decline__ it. You can check the merged pull request in the Collection __Pull Requests__ list.
 
