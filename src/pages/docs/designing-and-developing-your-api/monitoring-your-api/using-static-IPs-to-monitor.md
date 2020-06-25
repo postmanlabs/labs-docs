@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Monitoring"
-    url: "https://learning.postman.com/docs/postman/monitors/intro-monitors"
+    url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
 ---
 
 > __[Static IP address monitoring is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
@@ -29,9 +29,9 @@ Choose the collection you want to monitor, click the ellipsis **(...)** icon, an
 
 [![ellipsis menu](https://assets.postman.com/postman-docs/ENT-mock-collection2.png)](https://assets.postman.com/postman-docs/ENT-mock-collection2.png)
 
-In the **MONITOR COLLECTION** modal, [enter the name and select the environment of the monitor](/docs/postman/monitors/setting-up-monitor/).  
+In the **MONITOR COLLECTION** modal, [enter the name and select the environment of the monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).  
 
-In "Regions", select "US (Static IP)" to monitor the collection from a static IP address. You can also [specify a monitor to run in one or more regions](/docs/postman/monitors/setting-up-monitor/).
+In "Regions", select "US (Static IP)" to monitor the collection from a static IP address. You can also [specify a monitor to run in one or more regions](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).
 
 Click the **Monitor this collection** button to complete the process.
 

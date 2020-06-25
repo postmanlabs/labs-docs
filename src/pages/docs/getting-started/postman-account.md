@@ -22,13 +22,13 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Sending your first request"
-    url: "/docs/postman/launching-postman/sending-the-first-request"
+    url: "/docs/getting-started/sending-the-first-request/"
 
 warning: false
 
 ---
 
-A free Postman account allows you to [sync](/docs/postman/launching-postman/syncing/) and back up your work so that you can access it from different machines. You can also [collaborate](/docs/postman/collaboration/collaboration-intro/) with others on your API projects.
+A free Postman account allows you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. You can also [collaborate](/docs/collaborating-in-postman/collaboration-intro/) with others on your API projects.
 
 Signing up for an account is optional—you can continue to use Postman without an account if you prefer. Check out the [EULA](https://www.postman.com/licenses/postman_base_app), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
 
@@ -74,9 +74,9 @@ Enter your profile details and click **Save changes**.
 
 ![Edit profile](https://assets.postman.com/postman-docs/Edit+profile.jpg)
 
->You can make your profile public. A public profile allows you to add your collections to Postman's [API Network](/docs/postman-for-publishers/api-network/add-api-network/) and [Postman Templates](/docs/postman-for-publishers/postman-templates/add-templates/).
+>You can make your profile public. A public profile allows you to add your collections to Postman's [API Network](/docs/publishing-your-api/add-api-network/) and [Postman Templates](/docs/publishing-your-api/add-templates/).
 
-You can optionally create or join a team. If you're signing up with your organization email and your company has a Postman account, you will see [teams you can join](/docs/postman/collaboration/collaboration-intro/#finding-teams-within-your-organization).
+You can optionally create or join a team. If you're signing up with your organization email and your company has a Postman account, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
 
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
@@ -118,9 +118,9 @@ Postman will inform you if the sync is interrupted and will automatically try to
 
 ![Sync connection](https://assets.postman.com/postman-docs/sync-no-connection.jpg)
 
-If a conflict arises from a sync issue within your workspace, [Postman will present options for resolving the conflict](/docs/postman/workspaces/conflicts/).
+If a conflict arises from a sync issue within your workspace, [Postman will present options for resolving the conflict](/docs/collaborating-in-postman/using-workspaces/conflicts/).
 
-> Postman uses WebSockets for real-time [syncing](/docs/postman/launching-postman/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.getpostman.com/hc/en-us).
+> Postman uses WebSockets for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.getpostman.com/hc/en-us).
 
 ## Switching between accounts
 
@@ -151,4 +151,4 @@ Postman will send you an email with instructions for recovering access to your a
 
 ## Next steps
 
-Learn more about how Postman [syncs](/docs/postman/launching-postman/syncing/) your data.
+Learn more about how Postman [syncs](/docs/getting-started/syncing/) your data.

@@ -17,11 +17,11 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to workspaces"
-    url: "/docs/postman/workspaces/intro-to-workspaces/"
+    name: "Creating workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
   - type: link
     name: "Your private API network"
-    url: "/docs/postman/collaboration/adding-private-network/"
+    url: "/docs/collaborating-in-postman/adding-private-network/"
 
 ---
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
@@ -145,10 +145,10 @@ You will then be able to select **Download** to retrieve your archived data.
 
 [![Download Data](https://assets.postman.com/postman-docs/Download_Data1.png)](https://assets.postman.com/postman-docs/Download_Data1.png)
 
-Alternatively, you can download your archived data directly within Postman. To learn how, refer to [Settings](/docs/postman/launching-postman/settings/).
+Alternatively, you can download your archived data directly within Postman. To learn how, refer to [Settings](/docs/getting-started/settings/).
 
 ## Next steps
 
-For a more in-depth introduction to workspaces and how they can help organize your API development, check out [Intro to Workspaces](/docs/postman/workspaces/intro-to-workspaces/).
+For a more in-depth introduction to workspaces and how they can help organize your API development, check out [Creating Workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
-To see how you can share the APIs that your teams use internally, check out [Your private API Network](/docs/postman/collaboration/adding-private-network/).
+To see how you can share the APIs that your teams use internally, check out [Your private API Network](/docs/collaborating-in-postman/adding-private-network/).

@@ -29,7 +29,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Sending your first request"
-    url: "/docs/postman/launching-postman/sending-the-first-request"
+    url: "/docs/getting-started/sending-the-first-request/"
 
 warning: false
 
@@ -77,7 +77,7 @@ When you open the app or if your connection drops, it displays **CONNECTING** be
 
 [![sync icon in header](https://assets.postman.com/postman-docs/Sync-Screen.png)](https://assets.postman.com/postman-docs/Sync-Screen.png)
 
-> You may occasionally experience sync conflicts between your app and the Postman servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/postman/workspaces/conflicts/)
+> You may occasionally experience sync conflicts between your app and the Postman servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/collaborating-in-postman/using-workspaces/conflicts/)
 
 ## Sign Out
 

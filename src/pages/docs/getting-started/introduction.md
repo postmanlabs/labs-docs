@@ -32,13 +32,15 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-__What are you here to learn about?__
+[![Postman](https://assets.postman.com/postman-docs/postman-window-overview.jpg)](https://assets.postman.com/postman-docs/postman-window-overview.jpg)
 
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the app:
 
-* [Sending your first request](/docs/getting-started/sending-the-first-request/)—explore the other topics in __Getting Started__.
-* Using the __Bootcamp__ to work through lessons inside Postman.
-* Exploring [templates](https://explore.postman.com/) to try out, like [Learn by API](https://explore.postman.com/templates/7499/learn-by-api), which walks you through API concepts.
+* [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
+* Use the __Bootcamp__ to work through lessons inside Postman—open it at the bottom right of the app.
+* Explore [templates](https://explore.postman.com/) to try out, like [Learn by API](https://explore.postman.com/templates/7499/learn-by-api), which walks you through API concepts.
+
+## What are you here to learn about?
 
 If you're learning to carry out a specific task or workflow in Postman, check out the following topics to find resources:
 
@@ -49,7 +51,7 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 * [__Collaborating with your team__](#collaborating-with-your-team)
 * [__Developing with Postman__](#developing-with-postman)
 
-## Making requests
+### Making requests
 
 If you're building a client app or just need to connect to an API, check out some Postman essentials:
 
@@ -59,7 +61,7 @@ If you're building a client app or just need to connect to an API, check out som
 * [Using variables](/docs/sending-requests/variables/)
 * [Visualizing data](/docs/sending-requests/visualizer/)
 
-## Testing APIs
+### Testing APIs
 
 If you're testing an API, you can use Postman to automate various parts of the process:
 
@@ -68,7 +70,7 @@ If you're testing an API, you can use Postman to automate various parts of the p
 * [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/)
 * [Test script examples](/docs/writing-scripts/script-references/test-examples/)
 
-## Building and managing APIs
+### Building and managing APIs
 
 If you're developing a back-end, working API-first, or need to monitor API performance, Postman utilities can streamline your workflows:
 
@@ -77,7 +79,7 @@ If you're developing a back-end, working API-first, or need to monitor API perfo
 * [Analyzing API performance](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
 * [Mocking responses](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 
-## Publishing APIs
+### Publishing APIs
 
 If you're exposing an API for public use, Postman can support developer onboarding:
 
@@ -85,7 +87,7 @@ If you're exposing an API for public use, Postman can support developer onboardi
 * [Building adoption](/docs/publishing-your-api/add-api-network/)
 * [Using Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/)
 
-## Collaborating with your team
+### Collaborating with your team
 
 If you're using Postman in your company or team, check out these guides to maximize on your collaboration:
 
@@ -94,7 +96,7 @@ If you're using Postman in your company or team, check out these guides to maxim
 * [Onboarding your team](/docs/administration/onboarding-checklist/)
 * [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 
-## Developing with Postman
+### Developing with Postman
 
 If you're integrating Postman with your CI/CD workflow or are developing with Postman APIs or libraries, check out these resources:
 

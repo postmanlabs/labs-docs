@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -32,10 +32,10 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Capturing HTTP requests"
-    url:  "/docs/postman/sending-api-requests/capturing-http-requests/"
+    url:  "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
   - type: link
     name: "Interceptor"
-    url:  "/docs/postman/sending-api-requests/interceptor/"
+    url:  "/docs/sending-requests/capturing-request-data/interceptor/"
 
 warning: false
 
@@ -103,4 +103,4 @@ Postman currently supports the following options:
 
 ## Next steps
 
-Learn about [Capturing HTTP requests](/docs/postman/sending-api-requests/capturing-http-requests/) and [Interceptor](/docs/postman/sending-api-requests/interceptor/).
+Learn about [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/) and [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).

@@ -7,18 +7,18 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: link
     name: "Intro to Monitoring"
-    url: "https://learning.postman.com/docs/postman/monitors/intro-monitors"
+    url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
 ---
 
 > __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
 
 VictorOps is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one.
 
-This integration allows you to configure [Postman Monitors](/docs/postman/monitors/intro-monitors/) to trigger incidents on VictorOps whenever it fails.
+This integration allows you to configure [Postman Monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to trigger incidents on VictorOps whenever it fails.
 
 ## Get the VictorOps API Key
 

@@ -8,15 +8,15 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Postman API"
-    url: "https://learning.postman.com/docs/postman/postman-api/intro-api"
+    url: "/docs/developer/intro-api/"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Intro to scripts"
-    url: "https://learning.postman.com/docs/postman/scripts/intro_to_scripts"
+    url: "/docs/writing-scripts/intro-to-scripts/"
 ---
 
-The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior and affect [environments](/docs/postman/collection-runs/using-environments-in-collection-runs/) included in your button.
+The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior and affect [environments](/docs/running-collections/intro-to-collection-runs/) included in your button.
 
 > If `segregateEnvironments` is enabled, you will have to use `runButtonIndex` in all pm() methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Because `segregateEnvironments` is disabled by default, `runButtonIndex` is optional by default.
 
@@ -141,4 +141,4 @@ var runButtonIndex = $('postman-run-button').index(elem);
 
 ## Next steps
 
-Learn how to [create API documentation](/docs/postman/api-documentation/documenting-your-api/) from Postman, and then add your documentation to Postman's [API Network](/docs/postman-for-publishers/api-network/add-api-network/).
+Learn how to [create API documentation](/docs/publishing-your-api/documenting-your-api/) from Postman, and then add your documentation to Postman's [API Network](/docs/publishing-your-api/add-api-network/).

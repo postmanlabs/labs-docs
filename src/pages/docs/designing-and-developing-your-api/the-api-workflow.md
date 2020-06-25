@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to Collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in Collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -23,7 +23,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Managing APIs"
-    url: "/docs/postman/design-and-develop-apis/managing-apis/"
+    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of Postman, your specification can act as the single source of truth for your API project. The API Builder supports API-first development by allowing you to generate collections from your schema and build your development and testing from there.
@@ -71,7 +71,7 @@ You can rename, delete, or remove the API from the workspace using the __View mo
 
 > You can create APIs from your workspaces dashboard in the web browser by navigating to __APIs__ and clicking __Create an API__.
 
-You can also [version your APIs](/docs/postman/design-and-develop-apis/versioning-an-api/).
+You can also [version your APIs](/docs/collaborating-in-postman/versioning-an-api/).
 
 ## Defining an API
 
@@ -147,7 +147,7 @@ Select a mock server from your workspace and click **Add Mock Server**. You will
 
 ![Mock Added](https://assets.postman.com/postman-docs/mock-added-schema.jpg)
 
-You can add mocks to specific [versions of your API](/docs/postman/design-and-develop-apis/versioning-an-api/) or [collection](/docs/postman/mock-servers/setting-up-mock/).
+You can add mocks to specific [versions of your API](/docs/collaborating-in-postman/versioning-an-api/) or [collection](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
 
 #### Editing a mock server
 
@@ -155,7 +155,7 @@ You can edit existing mock servers from an **API** by opening the **Develop** ta
 
 <img alt="Edit Mock from Schema" src="https://assets.postman.com/postman-docs/edit-mock-schema.jpg" width="200px"/>
 
-Your [mock will open for editing](/docs/postman/mock-servers/setting-up-mock/#editing-mock-servers) in the Postman web dashboard.
+Your [mock will open for editing](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#editing-mock-servers) in the Postman web dashboard.
 
 [![api edit mock web](https://assets.postman.com/postman-docs/editmockserver.png)](https://assets.postman.com/postman-docs/editmockserver.png)
 
@@ -183,7 +183,7 @@ In the **API** &gt; **Develop** tab, click **Add Documentation** &gt; **Add Exis
 
 Select the collection with the documentation you want to link and click **Add Documentation**. You will only see available collections in the list.
 
-You can add documentation to specific [versions of your API](/docs/postman/design-and-develop-apis/versioning-an-api/). To learn more about versioning and documentation, check out [versioning your docs](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs).
+You can add documentation to specific [versions of your API](/docs/collaborating-in-postman/versioning-an-api/). To learn more about versioning and documentation, check out [versioning your docs](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
 
 ## Adding an environment
 
@@ -276,13 +276,13 @@ Select a monitor from the list and click **Add Monitor**. You will only availabl
 
 <img alt="Schema with Existing Monitor" src="https://assets.postman.com/postman-docs/existing-monitor-schema.jpg" width="300px"/>
 
-To add a monitor to a specific version of your collection, check out how to [set up monitors](/docs/postman/monitors/setting-up-monitor/).
+To add a monitor to a specific version of your collection, check out how to [set up monitors](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).
 
 ## Next steps
 
 For more information on building your APIs in Postman, check out the following resources:
 
-* [Versioning APIs](/docs/postman/design-and-develop-apis/versioning-an-api/)
-* [Managing and sharing APIs](/docs/postman/design-and-develop-apis/managing-apis/)
-* [Viewing and analyzing APIs](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/)
-* [Validating elements against schema](/docs/postman/design-and-develop-apis/validating-elements-against-schema/)
+* [Versioning APIs](/docs/collaborating-in-postman/versioning-an-api/)
+* [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/)
+* [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
+* [Validating elements against schema](/docs/designing-and-developing-your-api/validating-elements-against-schema/)

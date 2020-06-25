@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the API Builder"
-    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -20,13 +20,13 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Versioning APIs"
-    url: "/docs/postman/design-and-develop-apis/versioning-an-api/"
+    url: "/docs/collaborating-in-postman/versioning-an-api/"
   - type: link
     name: "Viewing and analyzing APIs"
-    url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
+    url: "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
 ---
 
-When you [define your APIs](/docs/postman/design-and-develop-apis/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
+When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
 
 - [Sharing APIs](#sharing-apis)
 - [Commenting on APIs](#commenting-on-apis)
@@ -34,7 +34,7 @@ When you [define your APIs](/docs/postman/design-and-develop-apis/the-api-workfl
 
 ## Sharing APIs
 
-You can share an API via its workspace either in the Postman app or the [web dashboard](https://app.getpostman.com/dashboard). By sharing your workspace with collaborators, you can provide access to the API via [designated roles with specific permissions](/docs/postman/collaboration/roles-and-permissions/), including Viewer and Editor.
+You can share an API via its workspace either in the Postman app or the [web dashboard](https://app.getpostman.com/dashboard). By sharing your workspace with collaborators, you can provide access to the API via [designated roles with specific permissions](/docs/collaborating-in-postman/roles-and-permissions/), including Viewer and Editor.
 
 > The Viewer role is only available on certain [Postman plans](https://www.postman.com/pricing).
 
@@ -56,7 +56,7 @@ Configure access levels for collaborators in your workspace and click __Save Rol
 >
 > ![Share API in Dashboard](https://assets.postman.com/postman-docs/share-api-dashboard.jpg)
 
-In addition to sharing an API via its workspace, you can also share it to the private API network. Doing this allows your team to learn about and access these APIs and start using them right away. Learn more about [adding your API to the private network](/docs/postman/collaboration/adding-private-network/).
+In addition to sharing an API via its workspace, you can also share it to the private API network. Doing this allows your team to learn about and access these APIs and start using them right away. Learn more about [adding your API to the private network](/docs/collaborating-in-postman/adding-private-network/).
 
 ![API list](https://assets.postman.com/postman-docs/privNetworkAPIlist.png)
 
@@ -104,5 +104,5 @@ You can use the __Restore__ link to revert the schema to a previous state.
 
 For more info on working with the API Builder in Postman, check out the following resources:
 
-- [Versioning APIs](/docs/postman/design-and-develop-apis/versioning-an-api/)
-- [Viewing and analyzing APIs](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/)
+- [Versioning APIs](/docs/collaborating-in-postman/versioning-an-api/)
+- [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)

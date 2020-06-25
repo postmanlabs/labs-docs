@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -23,7 +23,7 @@ warning: false
 
 ---
 
-Postman can make various types of HTTP call in addition to REST, including to protocol-agnostic services such as SOAP and [GraphQL](/docs/postman/sending-api-requests/graphql/).
+Postman can make various types of HTTP call in addition to REST, including to protocol-agnostic services such as SOAP and [GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/).
 
 The following steps outline how to make a SOAP request in Postman.
 

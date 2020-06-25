@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Command line integration with Newman"
-    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+    url: "/docs/running-collections/using-newman/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -27,7 +27,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to the Postman API"
-    url: "/docs/postman/postman-api/intro-api/"
+    url: "/docs/developer/intro-api/"
 
 warning: false
 tags:
@@ -35,7 +35,7 @@ tags:
 
 ---
 
-Postman contains a full-featured [testing sandbox](/docs/postman/scripts/postman-sandbox/) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/), the command line collection runner for Postman.
+Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/), the command line collection runner for Postman.
 
 Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation.
 
@@ -139,13 +139,8 @@ You can use a wide variety of other configurations to make your collection more 
 ---
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/postman/collection-runs/starting-a-collection-run/)
-* [Using environments in collection runs](/docs/postman/collection-runs/using-environments-in-collection-runs/)
-* [Working with data files](/docs/postman/collection-runs/working-with-data-files/)
-* [Running multiple iterations](/docs/postman/collection-runs/running-multiple-iterations/)
-* [Building workflows](/docs/postman/collection-runs/building-workflows/)
-* [Sharing a collection run](/docs/postman/collection-runs/sharing-a-collection-run/)
-* [Debugging a collection run](/docs/postman/collection-runs/debugging-a-collection-run/)
-
-* [Integration with Travis CI](/docs/postman/collection-runs/integration-with-travis/)
-* [Newman with Docker](/docs/postman/collection-runs/newman-with-docker/)
+* [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
+* [Working with data files](/docs/running-collections/working-with-data-files/)
+* [Building workflows](/docs/running-collections/building-workflows/)ning-collections/using-newman/integration-with-jenkins/)
+* [Integration with Travis CI](/docs/running-collections/using-newman/integration-with-travis/)
+* [Newman with Docker](/docs/running-collections/using-newman/newman-with-docker/)

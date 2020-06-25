@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -32,7 +32,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Publishing your docs"
-    url: "/docs/postman/api-documentation/publishing-your-docs/"
+    url: "/docs/publishing-your-api/publishing-your-docs/"
 
 warning: false
 
@@ -50,7 +50,7 @@ You can view and comment on private documentation shared with you. Documentation
 
 ## Viewing private documentation
 
-You can [view documentation for any collection that has been shared with you](/docs/postman/api-documentation/documenting-your-api). You must be logged in to your Postman account to view private documentation.
+You can [view documentation for any collection that has been shared with you](/docs/publishing-your-api/documenting-your-api/). You must be logged in to your Postman account to view private documentation.
 
 > Postman Team, Business, and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
@@ -66,7 +66,7 @@ You will also see detail on each request, including sample code in various clien
 
 ![Public Documentation](https://assets.postman.com/postman-docs/Everything+displayed+in+docs.jpg)
 
-> The private URL is only accessible to Postman users logged in with appropriate permissions. To make documentation viewable publicly, you can [publish it](/docs/postman/api-documentation/publishing-your-docs/).
+> The private URL is only accessible to Postman users logged in with appropriate permissions. To make documentation viewable publicly, you can [publish it](/docs/publishing-your-api/publishing-your-docs/).
 
 You can alternatively access documentation by selecting the __Browse__ view in Postman or opening the web dashboard, choosing __Collections__, and clicking a collection.
 
@@ -82,13 +82,13 @@ You can view and post comments on your API documentation to collaborate with tea
 
 ![Documentation Comment](https://assets.postman.com/postman-docs/documentation-comment.jpg)
 
-You can add a comment to join in the discussion. Comments on documentation reflect [comments on the corresponding collection](/docs/postman/collections/commenting-on-collections/).
+You can add a comment to join in the discussion. Comments on documentation reflect [comments on the corresponding collection](/docs/collaborating-in-postman/commenting-on-collections/).
 
 > You can only comment on private documentation.
 
 ## Viewing public documentation
 
-You can access [public documentation](/docs/postman/api-documentation/publishing-your-docs/) through a URL in your web browser. Postman generates the URL when the documentation is published—the URL is also accessible from the [web dashboard](https://web.postman.co/).
+You can access [public documentation](/docs/publishing-your-api/publishing-your-docs/) through a URL in your web browser. Postman generates the URL when the documentation is published—the URL is also accessible from the [web dashboard](https://web.postman.co/).
 
 ![Public Doc Link](https://assets.postman.com/postman-docs/public-doc-link.jpg)
 
@@ -102,4 +102,4 @@ For each request, you will see a description of the request, the method and URL,
 
 ## Next steps
 
-Learn more about [collaborating with your team](/docs/postman/collaboration/collaboration-intro/) in Postman.
+Learn more about [collaborating with your team](/docs/collaborating-in-postman/collaboration-intro/) in Postman.

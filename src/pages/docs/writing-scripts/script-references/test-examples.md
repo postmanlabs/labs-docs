@@ -7,11 +7,11 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: link
-    name: "Variables"
-    url: "/docs/postman/variables-and-environments/variables/"
+    name: "Using variables"
+    url: "/docs/sending-requests/variables/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -42,7 +42,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Command line integration with Newman"
-    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+    url: "/docs/running-collections/using-newman/command-line-integration-with-newman/"
 
 warning: false
 

@@ -32,7 +32,7 @@ Postman's [web dashboard](https://app.getpostman.com/dashboard/teams) provides a
 
 ## Member roles
 
-Everyone in your team is a member. Each member has certain roles, which allow them to perform various actions. To learn more, visit [Roles and Permissions](/docs/postman/collaboration/roles-and-permissions/).
+Everyone in your team is a member. Each member has certain roles, which allow them to perform various actions. To learn more, visit [Roles and Permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
 ### Managing roles
 
@@ -46,7 +46,7 @@ Note that teams may have two support accounts at no additional cost. Support acc
 
 ## Invites
 
-Invitations are sent to individuals you opt to add to your Postman team. Only admins are able to send, delete, and resend these. To allow Postman users from your company to request to join your team, [make your team discoverable](/docs/postman/collaboration/collaboration-intro/#team-discovery).
+Invitations are sent to individuals you opt to add to your Postman team. Only admins are able to send, delete, and resend these. To allow Postman users from your company to request to join your team, [make your team discoverable](/docs/collaborating-in-postman/collaboration-intro/#making-your-team-discoverable).
 
 ### Inviting to a team
 
@@ -78,4 +78,4 @@ If you need to change your team size, see [Changing your plan](/docs/administrat
 
 To find information on billing, see [Managing your billing](/docs/administration/billing/).
 
-Learn more about the various roles that can be granted to your team members in [Roles and Permissions](/docs/postman/collaboration/roles-and-permissions/).
+Learn more about the various roles that can be granted to your team members in [Roles and Permissions](/docs/collaborating-in-postman/roles-and-permissions/).

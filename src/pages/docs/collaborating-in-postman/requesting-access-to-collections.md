@@ -6,11 +6,11 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Sharing Collections"
-    url: "/docs/postman/collections/sharing-collections/"
+    name: "Sharing your work"
+    url: "/docs/collaborating-in-postman/sharing/"
   - type: link
-    name: "Collection Roles"
-    url: "/docs/postman/collaboration/roles-and-permissions/#collection-roles"
+    name: "Defining roles"
+    url: "/docs/collaborating-in-postman/roles-and-permissions/"
 
 warning: false
 
@@ -41,7 +41,7 @@ You can request viewer access to a team member's personal collection or a privat
 2. Click **Request Access**.
 ![https://assets.postman.com/postman-docs/access-blocked.png](https://assets.postman.com/postman-docs/access-blocked.png)
 
-3. Select a person to send your request to, a [role](/docs/postman/collaboration/roles-and-permissions/#collection-roles), and one of your workspaces to add the collection to once access is granted.
+3. Select a person to send your request to, a [role](/docs/collaborating-in-postman/roles-and-permissions/), and one of your workspaces to add the collection to once access is granted.
 ![https://assets.postman.com/postman-docs/request-access.png](https://assets.postman.com/postman-docs/request-access.png)
 
 4. Complete your request by clicking **Request Access**.
@@ -62,7 +62,7 @@ You can request the Editor role on this collection:
 2. Click **Request Access** in the modal.
 ![https://assets.postman.com/postman-docs/manage-roles-blocked.png](https://assets.postman.com/postman-docs/manage-roles-blocked.png)
 
-3. Select a person to send the request to and select the __Editor__ [role](/docs/postman/collaboration/roles-and-permissions/#collection-roles) from the __Role__ dropdown list.
+3. Select a person to send the request to and select the __Editor__ [role](/docs/collaborating-in-postman/roles-and-permissions/) from the __Role__ dropdown list.
 ![https://assets.postman.com/postman-docs/request-additional-access.png](https://assets.postman.com/postman-docs/request-additional-access.png)
 
 4. Complete your request by clicking **Request Access**.
@@ -82,7 +82,7 @@ You can request viewer access to a team member's personal API or a private API i
 2. Click **Request Access**.
 ![https://assets.postman.com/postman-docs/requestaccess1.png](https://assets.postman.com/postman-docs/requestaccess1.png)
 
-3. Select a person to send your request to, a [role](/docs/postman/collaboration/roles-and-permissions/), and one of your workspaces to add the API to once access is granted.
+3. Select a person to send your request to, a [role](/docs/collaborating-in-postman/roles-and-permissions/), and one of your workspaces to add the API to once access is granted.
 
 4. Complete your request by clicking **Request Access**.
 
@@ -102,7 +102,7 @@ You can request the Editor role on this API:
 
 2. Click **Request Access** in the modal.
 
-3. Select a person to send the request to and select the __Editor__ [role](/docs/postman/collaboration/roles-and-permissions/) from the __Role__ dropdown list.
+3. Select a person to send the request to and select the __Editor__ [role](/docs/collaborating-in-postman/roles-and-permissions/) from the __Role__ dropdown list.
 
 4. Complete your request by clicking **Request Access**.
 
@@ -125,4 +125,4 @@ You will receive an email detailing the request for access.
 
 Click **Approve Request** if you want to grant access to the collection or API. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
 
-To learn more about how you can collaborate with your team in Postman, see [Collaborating in Postman](https://learning.postman.com/docs/postman/collaboration/collaboration-intro/).
+To learn more about how you can collaborate with your team in Postman, see [Working with your team](/docs/collaborating-in-postman/collaboration-intro/).

@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -31,7 +31,7 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor/) for the Postman app.
+If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) for the Postman app.
 
 **Note:** For the Postman native apps, request captures over HTTPS will not work if the website has HSTS enabled. Most websites have this check in place.
 
@@ -50,7 +50,7 @@ Postman has a built-in proxy in the Postman app that captures the HTTP request.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile.png)](https://assets.postman.com/postman-docs/proxymobile.png)
 
-Similar to the [Interceptor Chrome extension](/docs/postman/sending-api-requests/interceptor/), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
+Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
 
 [![proxy logs](https://assets.postman.com/postman-docs/WS-proxy.logs.png)](https://assets.postman.com/postman-docs/WS-proxy.logs.png)
 
@@ -97,4 +97,4 @@ The broader development community has published some useful tutorials for settin
 
 ## Interceptor
 
-See [Capturing requests with Interceptor](/docs/postman/sending-api-requests/interceptor#capturing-requests).
+See [Capturing requests with Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).

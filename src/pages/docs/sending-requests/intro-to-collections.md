@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -28,8 +28,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to collection runs"
-    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+    name: "Using the Collection Runner"
+    url: "/docs/running-collections/intro-to-collection-runs/"
 
 warning: false
 ---
@@ -115,7 +115,7 @@ Recovery options depend on your Postman plan:
 
 If you are not able to recover a deleted collection, it may have been removed from a workspace rather than deleted. In the [web dashboard](https://app.getpostman.com), select __View all collections__. If it appears in the list, click __Share__ to move it to a workspace.
 
-If you'd like to revert your collection to a previous state, you can use the [activity feed](/docs/postman/workspaces/changelog-and-restoring-collections/).
+If you'd like to revert your collection to a previous state, you can use the [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/).
 
 You can [share](/docs/collaborating-in-postman/sharing/) your collections to a workspace, by publishing a Run in Postman button on a web page, or by sharing a public link.
 

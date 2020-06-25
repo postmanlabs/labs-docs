@@ -6,11 +6,11 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -33,7 +33,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Test scripts"
-    url: "/docs/postman/scripts/test-scripts/"
+    url: "/docs/writing-scripts/test-scripts/"
 
 warning: false
 ---
@@ -75,7 +75,7 @@ You can create a mock in several ways in the Postman app:
 
 * Using the **New** button
 * From the Launch screen
-* Using [Examples in an existing collection](/docs/postman/mock-servers/mocking-with-examples)
+* Using [Examples in an existing collection](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/)
 
 ### Mocking from the New button
 
@@ -177,7 +177,7 @@ In the modal, give your mock server a name. You also have the option to connect 
 
 ![Mocks modal](https://assets.postman.com/postman-docs/Second+step+modal.jpg)
 
-> If you choose to make your mock server private, you'll have to [generate an API key](https://learning.postman.com/docs/postman/postman-api/intro-api/).
+> If you choose to make your mock server private, you'll have to [generate an API key](/docs/developer/intro-api/).
 
 The "Next steps" modal will appear with an overview of your new mock server's details. Note the mock server's URL because you'll need it to make requests that return mock data.
 
@@ -214,7 +214,7 @@ Click the button to create a new mock server, and you will see the configuration
 
 ## Using HTTP access control for a mock
 
-In addition to using the [Postman app](/docs/postman/mock-servers/mocking-with-examples/) to make requests to mock endpoints, you can also make those requests in a browser.
+In addition to using the Postman app to [make requests to mock endpoints](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/), you can also make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own.
 
@@ -315,7 +315,7 @@ You can use the mock call log to troubleshoot your requests to mock servers.
 
 <img alt="Mock Call Error" src="https://assets.postman.com/postman-docs/no-matching-requests.jpg" width="300px"/>
 
-If you see `No matching requests` listed in the __Response__ column, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/postman/mock-servers/mocking-with-examples) in the collection you have the mock connected to.
+If you see `No matching requests` listed in the __Response__ column, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you have the mock connected to.
 
 In the case of a service outage, you will get a 502/503/504 response. Please subscribe and check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
 
@@ -323,7 +323,7 @@ In the case of a service outage, you will get a 502/503/504 response. Please sub
 
 For more information about mock servers, see the following resources:
 
-* [Intro to mock servers](/docs/postman/mock-servers/intro-to-mock-servers/)
-* [Mocking with examples](/docs/postman/mock-servers/mocking-with-examples/)
-* [Mocking with the Postman API](/docs/postman/mock-servers/mock-with-api/)
-* [Matching algorithm (for mocks)](/docs/postman/mock-servers/matching-algorithm/)
+* [Setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
+* [Mocking with examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/)
+* [Mocking with the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/)
+* [Matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/)

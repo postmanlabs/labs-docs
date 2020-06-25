@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Command line integration with Newman"
-    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+    url: "/docs/running-collections/using-newman/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -22,7 +22,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to the Postman API"
-    url: "/docs/postman/postman-api/intro-api/"
+    url: "/docs/developer/intro-api/"
 
 warning: false
 tags:
@@ -61,7 +61,7 @@ $ docker pull postman/newman;
 $ docker run -t postman/newman run "https://www.postman.com/collections/8a0c9bc08f062d12dcda"
 ```
 
-At this stage, you should see the [Collection](/docs/postman/collections/intro-to-collections/) running in Newman and the output displayed in the terminal.
+At this stage, you should see the [Collection](/docs/sending-requests/intro-to-collections/) running in Newman and the output displayed in the terminal.
 
 The entry point to the Docker image is Newman. So you can use all Newman command line parameters. You can also run locally stored collection files. The README of the image outlines how to mount shared data volumes.
 
@@ -72,14 +72,8 @@ Check out [how to run Newman in Docker for Windows](https://blog.postman.com/20
 ---
 For more information on collection runs, see:
 
-* [Starting a collection run](/docs/postman/collection-runs/starting-a-collection-run/)
-* [Using environments in collection runs](/docs/postman/collection-runs/using-environments-in-collection-runs/)
-* [Working with data files](/docs/postman/collection-runs/working-with-data-files/)
-* [Running multiple iterations](/docs/postman/collection-runs/running-multiple-iterations/)
-* [Building workflows](/docs/postman/collection-runs/building-workflows/)
-* [Sharing a collection run](/docs/postman/collection-runs/sharing-a-collection-run/)
-* [Debugging a collection run](/docs/postman/collection-runs/debugging-a-collection-run/)
-* [Command line integration with Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
-* [Integration with Jenkins](/docs/postman/collection-runs/integration-with-jenkins/)
-* [Integration with Travis CI](/docs/postman/collection-runs/integration-with-travis/)
-* [Newman with Docker](/docs/postman/collection-runs/newman-with-docker/)
+* [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
+* [Working with data files](/docs/running-collections/working-with-data-files/)
+* [Building workflows](/docs/running-collections/building-workflows/)
+* [Integration with Jenkins](/docs/running-collections/using-newman/integration-with-jenkins/)
+* [Integration with Travis CI](/docs/running-collections/using-newman/integration-with-travis/)

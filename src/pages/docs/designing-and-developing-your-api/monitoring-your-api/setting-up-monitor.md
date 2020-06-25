@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -107,7 +107,7 @@ You will need to give your new monitor a name and designate the collection you w
 
 ![Create monitor page](https://assets.postman.com/postman-docs/create-monitor-1.jpg)
 
-> Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/postman/monitors/intro-monitors/#usage-limits).
+> Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#usage-limits).
 
 From here, you can determine how you'd like to configure your monitor.
 
@@ -119,13 +119,13 @@ You can utilize a number of custom configuration options provided by Postman mon
 
 You can configure your monitor to run as often as you would like, automatically. This could be up to every five minutes for a status page or a basic check once a week on your endpoints.
 
-> Frequency affects how quickly your monitoring usage compounds. To learn more about usage limits and overages, see [Pricing](/docs/postman/monitors/intro-monitors/#pricing).
+> Frequency affects how quickly your monitoring usage compounds. To learn more about usage limits and overages, see [Pricing](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#pricing).
 
 ### Adding regions
 
 You can allow Postman to auto-select a region for your monitor or you can opt to select your regions manually. Postman offers multiple regions to choose from, enabling you to accurately track uptime and reliability on a global scale, without the need to procure your own regional servers.
 
-> Servers in each selected region will run your monitor according to your schedule, counting towards your [monitoring usage](/docs/postman/monitors/intro-monitors/#viewing-monitor-usage).
+> Servers in each selected region will run your monitor according to your schedule, counting towards your [monitoring usage](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#viewing-monitor-usage).
 
 ### Using static IP
 
@@ -161,7 +161,7 @@ You can configure a **Request timeout** if you'd like to make sure all of your r
 
 ### Adding delays between requests
 
-You can add a **Delay between requests** to your monitor. This will insert a delay between all requests in your collection. To configure this for individual requests, you can add a delay in your [pre-request or test scripts](/docs/postman/scripts/intro-to-scripts/) with setTimeout().
+You can add a **Delay between requests** to your monitor. This will insert a delay between all requests in your collection. To configure this for individual requests, you can add a delay in your [pre-request or test scripts](/docs/writing-scripts/intro-to-scripts/) with setTimeout().
 
 > Delay between requests may not exceed five minutes (300000 ms), however note that five minutes is also the maximum run time for a monitor.
 
@@ -171,8 +171,8 @@ You can use **Don't follow redirects** to reject URL redirection for requests ru
 
 ### Disabling SSL validation
 
-You can **Disable SSL validation** if you are using self-signed certicates to stop validations of SSL certificates. For more information, see [Certificates](/docs/postman/sending-api-requests/certificates/). To troubleshoot, see [Troubleshooting Self-signed SSL Certificate Issues](https://blog.postman.com/2019/07/17/self-signed-ssl-certificate-troubleshooting/).
+You can **Disable SSL validation** if you are using self-signed certificates to stop validations of SSL certificates. For more information, see [Certificates](/docs/sending-requests/certificates/). To troubleshoot, see [Troubleshooting Self-signed SSL Certificate Issues](https://blog.postman.com/2019/07/17/self-signed-ssl-certificate-troubleshooting/).
 
 ## Next steps
 
-Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results, and [how to monitor your APIs and websites](/docs/postman/monitors/monitoring-apis-websites/).
+Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results, and [how to monitor your APIs and websites](/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites/).

@@ -30,8 +30,8 @@ contextual_links:
   - type: subtitle
     name: "Next Steps"
   - type: link
-    name: "Postman's API workflow"
-    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    name: "Using the API Builder"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
 
 warning: false
 ---
@@ -102,7 +102,7 @@ You can also configure your **Import Settings**, which will differ depending on 
 
 ## Exporting Postman data
 
-You can export your Postman data, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/), Postman's command-line collection runner.
+You can export your Postman data, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 ### Exporting collections
 
@@ -130,4 +130,4 @@ You can export a data dump of all of your collections, environments, globals, an
 
 ## Next steps
 
-You can collaborate on collections by [sharing](/docs/collaborating-in-postman/sharing-collections/) and [commenting](/docs/collaborating-in-postman/commenting-on-collections/) to discuss your API projects with team members. Learn more about [Postman's API workflow](/docs/postman/design-and-develop-apis/the-api-workflow/).
+You can collaborate on collections by [sharing](/docs/collaborating-in-postman/sharing/) and [commenting](/docs/collaborating-in-postman/commenting-on-collections/) to discuss your API projects with team members. Learn more about [Postman's API workflow](/docs/designing-and-developing-your-api/the-api-workflow/).

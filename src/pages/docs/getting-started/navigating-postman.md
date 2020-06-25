@@ -12,7 +12,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Sending your first request"
-    url: "/docs/postman/launching-postman/sending-the-first-request"
+    url: "/docs/getting-started/sending-the-first-request/"
 
 warning: false
 
@@ -29,7 +29,7 @@ You can toggle Postman between two main modes: __Build__ and __Browse__ using th
 * The left sidebar provides access to your request [history](#history), collections, and APIs.
 * The header allows you to create and import requests and collections, to access the Collection Runner, to move and invite collaborators to workspaces, to access the Interceptor, view sync status / notifications, open your Settings, account, and Postman plan.
 * The center area is where you build and work with requests.
-* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/debugging-and-logs/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode, toggle split pane view, open keyboard shortcuts, and access help resources.
+* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode, toggle split pane view, open keyboard shortcuts, and access help resources.
 
 Use browse mode to access entities across your workspace and connect to the Postman Dashboard.
 

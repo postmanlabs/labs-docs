@@ -6,11 +6,11 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: link
     name: "Documenting your API"
-    url: "/docs/postman/api-documentation/documenting-your-api/"
+    url: "/docs/publishing-your-api/documenting-your-api/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -21,13 +21,13 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Public API documentation"
-    url: "/docs/postman-for-publishers/public-api-docs/"
+    name: "Publishing your docs"
+    url: "/docs/publishing-your-api/publishing-your-docs/"
 
 warning: false
 ---
 
-You can include information in your API documentation using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Postman will [populate various parts of your documentation](/docs/postman/api-documentation/documenting-your-api/#including-detail-in-your-docs) from the information associated with the relevant collection. Your Markdown content can include standard structures and formatting such as headings, lists, images, links, bold / emphasis, code samples, blockquotes, and tables. You can author documentation either from the collection in Postman, or directly in the docs when viewing them in the web browser.
+You can include information in your API documentation using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Postman will [populate various parts of your documentation](/docs/publishing-your-api/documenting-your-api/#including-detail-in-your-docs) from the information associated with the relevant collection. Your Markdown content can include standard structures and formatting such as headings, lists, images, links, bold / emphasis, code samples, blockquotes, and tables. You can author documentation either from the collection in Postman, or directly in the docs when viewing them in the web browser.
 
 ## Contents
 
@@ -44,7 +44,7 @@ You can include information in your API documentation using [Markdown](https://g
 
 ## Documenting with descriptions
 
-You can add descriptions to [various places](/docs/postman/collections/using-markdown-for-descriptions/) within your collections and requests, and they will appear in your documentation. You can include descriptions for [collections](#describing-collections), [requests, parameters, and headers](#documenting-request-detail). You can also edit directly on the web for any documentation on a collection you have edit access to.
+You can add descriptions to various places within your collections and requests, and they will appear in your documentation. You can include descriptions for [collections](#describing-collections), [requests, parameters, and headers](#documenting-request-detail). You can also edit directly on the web for any documentation on a collection you have edit access to.
 
 ## Describing collections
 
@@ -102,7 +102,7 @@ You can add a description to the parameters and headers in your requests—for p
 
 ![Parameter Description](https://assets.postman.com/postman-docs/param-desc.jpg)
 
-> All key-value pairs will be displayed in your documentation regardless of whether or not they're checked. You can indicate which pairs are required and which are optional in the description. Consumers of your documentation can choose which key-value pairs they want to use when they send requests to your endpoints. Users will be able to [generate code snippets](https://learning.postman.com/docs/postman/sending-api-requests/generate-code-snippets/) in the Postman app based on the key-value pairs they select, and a URL with those pairs will be displayed in the app.
+> All key-value pairs will be displayed in your documentation regardless of whether or not they're checked. You can indicate which pairs are required and which are optional in the description. Consumers of your documentation can choose which key-value pairs they want to use when they send requests to your endpoints. Users will be able to [generate code snippets](/docs/sending-requests/generate-code-snippets/) in the Postman app based on the key-value pairs they select, and a URL with those pairs will be displayed in the app.
 
 The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
 
@@ -120,7 +120,7 @@ If one of your endpoints requires an authorization type that varies from the col
 
 ## Using examples in your docs
 
-You can include [example](/docs/postman/collections/examples/) request and response data in your collections, and they will appear in your documentation.
+You can include [example](/docs/sending-requests/examples/) request and response data in your collections, and they will appear in your documentation.
 
 Any body data included in your request will appear in the endpoint section of your documentation.
 
@@ -136,11 +136,11 @@ Create the example you want to add and click **Save Example**.
 
 Any data you include in the example will appear on the right, in the docs example code sidebar, as the response body and headers.
 
-> Learn more about [viewing documentation](/docs/postman/api-documentation/viewing-documentation/).
+> Learn more about [viewing documentation](/docs/publishing-your-api/viewing-documentation/).
 
 ![Examples in Docs](https://assets.postman.com/postman-docs/Response+headers+dispalyed+.jpg)
 
-Postman currently supports [these programming languages or frameworks](/docs/postman/sending-api-requests/generate-code-snippets/#supported-languagesframeworks) to customize your [code snippets](/docs/postman/sending-api-requests/generate-code-snippets).
+Postman currently supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) to customize your code snippets.
 
 Don't see your language of choice, or is there a setting missing that you'd find useful? Click **Contribute on GitHub** under the settings icon to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
 
@@ -182,4 +182,4 @@ If you edit your docs on the web, (following the links from your collection in t
 
 ## Next steps
 
-To make your documentation publicly available, check out [Publishing your docs](/docs/postman/api-documentation/publishing-public-docs/).
+To make your documentation publicly available, check out [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).

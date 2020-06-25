@@ -7,11 +7,11 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: link
-    name: "Responses"
-    url:  "/docs/postman/sending-api-requests/responses/"
+    name: "Receiving responses"
+    url:  "/docs/sending-requests/responses/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -48,13 +48,13 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Test Examples"
-    url: "/docs/postman/scripts/test-examples/"
+    url: "/docs/writing-scripts/script-references/test-examples/"
   - type: link
-    name: "Variables"
-    url: "/docs/postman/variables-and-environments/variables/"
+    name: "Using variables"
+    url: "/docs/sending-requests/variables/"
   - type: link
     name: "Postman Sandbox API reference"
-    url:  "/docs/postman/scripts/postman-sandbox-api-reference/"
+    url:  "/docs/writing-scripts/script-references/postman-sandbox-api-reference/"
 
 warning: false
 
@@ -64,7 +64,7 @@ You can write test scripts for your Postman API requests in JavaScript. Tests al
 
 > For example, you might write a test to validate your API's error handling by sending a request with incomplete data.
 
-You can add tests to individual [requests](/docs/postman/sending-api-requests/requests/), [folders](/docs/postman/collections/managing-collections/#adding-folders), and [collections](/docs/postman/collection-runs/intro-to-collection-runs/). Postman includes code snippets you can click to add, then amend to suit your logic if necessary.
+You can add tests to individual [requests](/docs/sending-requests/requests/), folders, and [collections](/docs/sending-requests/intro-to-collections/). Postman includes code snippets you can click to add, then amend to suit your logic if necessary.
 
 To add tests to a request, open the request and enter your code in the Tests tab. Tests will execute after the request runs. You will be able to see the output in the __Test Results__ tab alongside the response data.
 
@@ -76,7 +76,7 @@ Your test scripts can use dynamic variables, carry out test assertions on respon
 
 Tests will execute after the response is received, so when you click __Send__, Postman will run your test script when the response data returns from the API.
 
-> If you need to execute code before a request runs, use [Pre-request Scripts](/docs/postman/scripts/pre-request-scripts/) instead. See [Intro to scripts](/docs/postman/scripts/intro-to-scripts/) for more on the how your scripts execute when your requests run.
+> If you need to execute code before a request runs, use [Pre-request Scripts](/docs/writing-scripts/pre-request-scripts/) instead. See [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on the how your scripts execute when your requests run.
 
 To carry out tests in order to validate the data returned by a request, you can use the `pm.response` object. You can define tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating whether the test passed or failed. You can use [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in your assertions to test the response detail.
 
@@ -106,7 +106,7 @@ Using the `pm.expect` syntax gives your test result messages a different formatâ
 
 > Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.getpostman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
 
-Your code can test the request [environment](/docs/postman/variables-and-environments/managing-environments/), as in the following example:
+Your code can test the request [environment](/docs/sending-requests/managing-environments/), as in the following example:
 
 ```js
 pm.test("environment to be production", function () {
@@ -152,14 +152,14 @@ You can update collection and folder scripts by clicking __View more actions__ (
 
 <img src="https://assets.postman.com/postman-docs/collection-test-script.jpg" alt="Collection Tests" width="500px"/>
 
-When you [run a collection](/docs/postman/collection-runs/intro-to-collection-runs/) you will see the test results output by the collection runner.
+When you [run a collection](/docs/running-collections/intro-to-collection-runs/) you will see the test results output by the collection runner.
 
 ![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run.jpg)
 
-You can write scripts to control the order in which your requests run using [branching and looping](/docs/postman/scripts/branching-and-looping/).
+You can write scripts to control the order in which your requests run using [branching and looping](/docs/running-collections/building-workflows/).
 
 ## Next steps
 
-Check out some test script [examples](/docs/postman/scripts/test-examples/) and the [Postman Sandbox API reference](/docs/postman/scripts/postman-sandbox-api-reference/) for what you can do using the `pm` object. _Your scripts run in a sandboxed environmentâ€”to see what resources are available, see the [Sandbox documentation](/docs/postman/scripts/postman-sandbox/)._
+Check out some test script [examples](/docs/writing-scripts/script-references/test-examples/) and the [Postman Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for what you can do using the `pm` object.
 
-Using tests in conjunction with other Postman utilities such as [monitoring](/docs/postman/monitors/intro-monitors/) lets you verify that your API meets performance requirements. You can also automate your testing by integrating collection runs within your [CI/CD config](/docs/postman/collection-runs/integration-with-travis/).
+Using tests in conjunction with other Postman utilities such as [monitoring](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) lets you verify that your API meets performance requirements. You can also automate your testing by integrating collection runs within your [CI/CD config](/docs/running-collections/using-newman/integration-with-travis/).

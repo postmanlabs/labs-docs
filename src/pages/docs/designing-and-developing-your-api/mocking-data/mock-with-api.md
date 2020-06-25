@@ -7,14 +7,14 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: link
     name: "Intro to the Postman API"
-    url: "/docs/postman/postman-api/intro-api/"
+    url: "/docs/developer/intro-api/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -34,15 +34,15 @@ contextual_links:
 warning: false
 ---
 
-You can [mock a collection](/docs/postman/mock-servers/setting-up-mock/) directly from Postman. Additionally, you can create a mock using the Postman API. Let’s walk through this step by step.
+You can [mock a collection](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) directly from Postman. Additionally, you can create a mock using the Postman API. Let’s walk through this step by step.
 
 ## Set up a collection for mocking
 
 In this example, we have a Collection `testAPI` with corresponding environment `testAPIEnv`.  Let's set up a mock service to enable your front-end team to simulate each endpoint in `testAPI` and view the various responses.
 
-Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/postman/sending-api-requests/responses/) with details about the response body, header or status codes that you would like to see returned by that endpoint. This example saves two responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
+Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/sending-requests/responses/) with details about the response body, header or status codes that you would like to see returned by that endpoint. This example saves two responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
 
-**Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/postman/collections/examples/).
+**Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/sending-requests/examples/).
 
 [![saved responses](https://assets.postman.com/postman-docs/WS-mock-PM-API67.png)](https://assets.postman.com/postman-docs/WS-mock-PM-API67.png)
 
@@ -86,11 +86,11 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
 **Add the request header(s):**
 
 * Mock requests also accept another optional header, `x-mock-response-code`, which specifies which integer response code your returned response should match. For example, 500 will return only a 500 response. If this header is not provided, the closest match of any response code will be returned.
-* Similarly, other optional headers like `x-mock-response-name` or `x-mock-response-id` allow you to further specify the exact response you want by the name or by the uid of the saved example respectively. You can get the example response uid by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c) and searching for your example in the response. The uid has the syntax `<user-id>-<response-id>`. Without these optional headers, the mock will follow a [matching algorithm](/docs/postman/mock-servers/matching-algorithm/) to decide which example to return.
+* Similarly, other optional headers like `x-mock-response-name` or `x-mock-response-id` allow you to further specify the exact response you want by the name or by the uid of the saved example respectively. You can get the example response uid by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c) and searching for your example in the response. The uid has the syntax `<user-id>-<response-id>`. Without these optional headers, the mock will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return.
 * Mock requests also accepts optional headers `x-mock-match-request-body` for request body matching and `x-mock-match-request-headers` for matching incoming mock request headers. You must set `x-mock-match-request-body` header to `true` to enable request body matching. To enable incoming mock request headers matching, you must ensure that `x-mock-match-request-headers` header is present in the request and its value is a comma separated string of header keys that you want to match against in the saved examples.
 
 [![request headers](https://assets.postman.com/postman-docs/WS-run-mock40.png)](https://assets.postman.com/postman-docs/WS-run-mock40.png)
 
 ## Mock requests and responses with examples
 
-In the previous example, a saved response was used to mock a collection. You can also [mock a request and response using examples](/docs/postman/collections/examples/) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service.
+In the previous example, a saved response was used to mock a collection. You can also [mock a request and response using examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service.

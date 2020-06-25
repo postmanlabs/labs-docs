@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Collaborating in Postman"
-    url: "/docs/postman/collaboration/collaboration-intro/"
+    name: "Working with your team"
+    url: "/docs/collaborating-in-postman/collaboration-intro/"
   - type: link
     name: "Postman Pricing"
     url: "https://www.postman.com/pricing"

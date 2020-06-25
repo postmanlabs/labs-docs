@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Command line integration with Newman"
-    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+    url: "/docs/running-collections/using-newman/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -27,7 +27,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to the Postman API"
-    url: "/docs/postman/postman-api/intro-api/"
+    url: "/docs/developer/intro-api/"
 
 warning: false
 tags:
@@ -41,9 +41,9 @@ By committing early and often, the team avoids a ton of technical debt by allowi
 
 Every check-in triggers an automated build process that typically includes testing. And if your commit hasn’t broken anything, might include deployment too.
 
-In general, integrating your [Postman tests](/docs/postman/scripts/test-scripts/) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/postman/collection-runs/integration-with-jenkins/), Travis CI, AppVeyor, or any other build system.
+In general, integrating your [Postman tests](/docs/writing-scripts/test-scripts/) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/running-collections/using-newman/integration-with-jenkins/), Travis CI, AppVeyor, or any other build system.
 
-You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/postman/collection-runs/command-line-integration-with-newman/) with the tests, returning a pass or fail exit code that’s logged in your CI system.
+You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/running-collections/using-newman/command-line-integration-with-newman/) with the tests, returning a pass or fail exit code that’s logged in your CI system.
 
 In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/), a continuous integration service that builds and tests projects on GitHub.
 
@@ -70,7 +70,7 @@ Let's learn more about integration with Travis:
 
 ## Hooking up Postman to Travis CI
 
-1. [Export the Postman Collection as a JSON file](/docs/postman/collections/importing-and-exporting-data/#exporting-collections) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/postman/variables-and-environments/variables/#environments-in-postman) and move the file to your project directory as well.
+1. [Export the Postman Collection as a JSON file](/docs/getting-started/importing-and-exporting-data/) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/sending-requests/managing-environments/) and move the file to your project directory as well.
 
     In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
 
@@ -134,13 +134,8 @@ Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) 
 ---
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/postman/collection-runs/starting-a-collection-run/)
-* [Using environments in collection runs](/docs/postman/collection-runs/using-environments-in-collection-runs/)
-* [Working with data files](/docs/postman/collection-runs/working-with-data-files/)
-* [Running multiple iterations](/docs/postman/collection-runs/running-multiple-iterations/)
-* [Building workflows](/docs/postman/collection-runs/building-workflows/)
-* [Sharing a collection run](/docs/postman/collection-runs/sharing-a-collection-run/)
-* [Debugging a collection run](/docs/postman/collection-runs/debugging-a-collection-run/)
-* [Command line integration with Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
-* [Integration with Jenkins](/docs/postman/collection-runs/integration-with-jenkins/)
-* [Newman with Docker](/docs/postman/collection-runs/newman-with-docker/)
+* [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
+* [Working with data files](/docs/running-collections/working-with-data-files/)
+* [Building workflows](/docs/running-collections/building-workflows/)
+* [Integration with Jenkins](/docs/running-collections/using-newman/integration-with-jenkins/)
+* [Newman with Docker](/docs/running-collections/using-newman/newman-with-docker/)

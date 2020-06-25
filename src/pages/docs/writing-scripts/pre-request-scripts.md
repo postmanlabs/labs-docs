@@ -6,14 +6,14 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: link
     name: "Intro to Scripts"
-    url: "/docs/postman/scripts/intro-to-scripts/"
+    url: "/docs/writing-scripts/intro-to-scripts/"
   - type: link
-    name: "Variables"
-    url: "/docs/postman/variables-and-environments/variables/"
+    name: "Using variables"
+    url: "/docs/sending-requests/variables/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -36,7 +36,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Test scripts"
-    url: "/docs/postman/scripts/test-scripts/"
+    url: "/docs/writing-scripts/test-scripts/"
 
 warning: false
 
@@ -46,7 +46,7 @@ You can use pre-request scripts in Postman to execute JavaScript before a reques
 
 An example usage of pre-request scripting could be as follows:
 
-* You have a series of requests in a collection and are running them in a sequence, e.g. using the [collection runner](/docs/postman/collection-runs/intro-to-collection-runs/).
+* You have a series of requests in a collection and are running them in a sequence, e.g. using the [collection runner](/docs/running-collections/intro-to-collection-runs/).
 * The second request is dependent on a value returned from the first request.
 * The value needs to be processed before you pass it to the second request.
 * The first request sets the data value from a response field to a variable in its __Tests__ script.
@@ -80,4 +80,4 @@ Open __Pre-request Scripts__ to enter code that will run before every request in
 
 ## Next steps
 
-For more detail on what you can do in your pre-request scripts, check out [Test Scripts](/docs/postman/scripts/test-scripts/) and the [Postman Sandbox](/docs/postman/scripts/postman-sandbox-api-reference/). To understand more about what happens with scripts when you run your requests, check out [the execution order of scripts](/docs/postman/scripts/intro-to-scripts/#execution-order-of-scripts).
+For more detail on what you can do in your pre-request scripts, check out [Test Scripts](/docs/writing-scripts/test-scripts/) and the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).

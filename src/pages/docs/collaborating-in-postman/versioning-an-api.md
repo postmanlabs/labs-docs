@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the API Builder"
-    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: link
     name: "Managing and sharing APIs"
     url: "/docs/postman/design-and-develop-apis/managing-apis/"
@@ -23,10 +23,10 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Viewing and analyzing APIs"
-    url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
+    url: "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
   - type: link
     name: "Validating elements against schema"
-    url: "/docs/postman/design-and-develop-apis/validating-elements-against-schema/"
+    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
 You can manage multiple versions of any APIs you create in Postman. You can link collections, mocks, monitors, and documentation to specific versions of APIs using version tagging.
@@ -87,7 +87,7 @@ When you update an API version number and choose to carry over elements from a p
 
 ## Connecting linked elements to versions
 
-You can link elements such as collections to a version of an API, [by adding either documentation or a test suite](/docs/postman/design-and-develop-apis/the-api-workflow/#developing-an-api) in the API Builder.
+You can link elements such as collections to a version of an API, [by adding either documentation or a test suite](/docs/designing-and-developing-your-api/the-api-workflow/) in the API Builder.
 
 [![api link collections](https://assets.postman.com/postman-docs/API-Link-Collections4.gif)](https://assets.postman.com/postman-docs/API-Link-Collections4.gif)
 
@@ -110,11 +110,11 @@ Monitors, mocks, and documentation are always associated with specific versions 
 * The version tags of monitors and mocks linked to versioned collections do not update automatically. If you update the version of an API you're monitoring, you need to create a new monitor linked to the new version as your original linked monitor will run on the original collection.
 * Documentation version tags automatically update along with your API.
 
-You can [publish specific versions of collection documentation](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs).
+You can [publish specific versions of collection documentation](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
 
 ## Next steps
 
 For more on working with the API Builder, check out the following topics:
 
-* [Validating elements against schema](/docs/postman/design-and-develop-apis/validating-elements-against-schema/)
-* [Viewing and analyzing APIs](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/)
+* [Validating elements against schema](/docs/designing-and-developing-your-api/validating-elements-against-schema/)
+* [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)

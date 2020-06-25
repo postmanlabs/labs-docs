@@ -8,10 +8,10 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the API Builder"
-    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: link
     name: "Managing and sharing APIs"
-    url: "/docs/postman/design-and-develop-apis/managing-apis/"
+    url: "/docs/designing-and-developing-your-api/managing-apis/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -23,7 +23,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Validating APIs against schema"
-    url: "/docs/postman/design-and-develop-apis/validating-elements-against-schema/"
+    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
 > __[API reports are available on Postman Enterprise.](https://www.postman.com/pricing)__
@@ -32,8 +32,8 @@ You can access reports on your APIs in the [Postman web dashboard](https://app.g
 
 To generate reports in Postman, first ensure you have carried out the following steps:
 
-* [Share your API](/docs/postman/design-and-develop-apis/managing-apis/)
-* [Add a collection to the API](/docs/postman/design-and-develop-apis/the-api-workflow/#generating-a-collection)
+* [Share your API](/docs/designing-and-developing-your-api/managing-apis/)
+* [Add a collection to the API](/docs/designing-and-developing-your-api/the-api-workflow/#generating-a-collection)
 * Turn on __Save Responses__ in __History__ on the left of Postman
 * Send a request from the collection
 
@@ -118,4 +118,4 @@ If you don't see any data in your reports, or your data is incomplete (for examp
 
 ## Next steps
 
-You can use [monitors](/docs/postman/monitors/intro-monitors/) to gain detailed insight into your APIs.
+You can use [monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to gain detailed insight into your APIs.

@@ -7,16 +7,16 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: link
-    name: "Variables"
-    url: "/docs/postman/variables-and-environments/variables/"
+    name: "Using variables"
+    url: "/docs/sending-requests/variables/"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Command line integration with Newman"
-    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+    url: "/docs/running-collections/using-newman/command-line-integration-with-newman/"
 
 warning: false
 ---
@@ -294,7 +294,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 ### pm.cookies.jar
 
-To enable programmatic access via the methods below, the cookie `url` must be [whitelisted](/docs/postman/sending-api-requests/cookies/#whitelisting-domains-for-programmatic-access-of-cookies).
+To enable programmatic access via the methods below, the cookie `url` must be [whitelisted](/docs/sending-requests/cookies/).
 
 * `pm.cookies.jar():Function → Object`
 
@@ -326,7 +326,7 @@ To enable programmatic access via the methods below, the cookie `url` must be [w
 
 ### pm.visualizer.set
 
-Use `pm.visualizer.set` to specify a template to [display response data in the visualizer](/docs/postman/sending-api-requests/visualizer/).
+Use `pm.visualizer.set` to specify a template to [display response data in the visualizer](/docs/sending-requests/visualizer/).
 
 ```js
 pm.visualizer.set(layout:String, data:Object, options:Object):Function
@@ -408,7 +408,7 @@ pm.getData(function (error, data) {
 
   `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
 
-  This function is useful to deal with assertions of data from a `response` or `variables`. For assertion test examples using `pm.expect`, check out [Assertion library examples](/docs/postman/scripts/test-examples#assertion-library-examples)
+  This function is useful to deal with assertions of data from a `response` or `variables`. For assertion test examples using `pm.expect`, check out [Assertion library examples](/docs/writing-scripts/script-references/test-examples/)
 
 ### Response Assertion API available in the test scripts
 
@@ -488,4 +488,4 @@ Postman uses the faker library to generate dummy data. You can generate random n
 
 You can use these variables like any other variable in Postman. Their values are generated at the time of execution and their names start with a `$` symbol e.g. `$guid`, `$timestamp` etc.
 
-You can find the full list of dynamic variables in Postman [here](/docs/postman/variables-and-environments/variables-list/).
+You can [read the full list of dynamic variables in Postman](/docs/writing-scripts/script-references/variables-list/).

@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Installation and updates"
-    url: "/docs/postman/launching-postman/installation-and-updates/"
+    name: "Installing and updating"
+    url: "/docs/getting-started/installation-and-updates/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -22,10 +22,10 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Creating your first collection"
-    url:  "/docs/postman/launching-postman/creating-the-first-collection/"
+    url:  "/docs/getting-started/creating-the-first-collection/"
   - type: link
     name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests"
+    url: "/docs/sending-requests/requests/"
 
 warning: false
 ---
@@ -57,4 +57,4 @@ Click **Send**. You will see the JSON data response from the server in the lower
 
 You can use the [Postman Echo API](https://docs.postman-echo.com/) to try out test requests.
 
-Next learn more about [sending requests in Postman](/docs/postman/sending-api-requests/requests/).
+Next learn more about [sending requests in Postman](/docs/sending-requests/requests/).

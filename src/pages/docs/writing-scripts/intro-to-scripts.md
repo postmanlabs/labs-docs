@@ -7,11 +7,11 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: link
-    name: "Variables"
-    url: "/docs/postman/variables-and-environments/variables/"
+    name: "Using variables"
+    url: "/docs/sending-requests/variables/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -31,7 +31,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Test scripts"
-    url: "/docs/postman/scripts/test-scripts/"
+    url: "/docs/writing-scripts/test-scripts/"
 
 warning: false
 ---
@@ -40,8 +40,8 @@ warning: false
 
 Postman contains a powerful runtime based on Node.js that allows you to add dynamic behavior to requests and collections. This allows you to write test suites, build requests that can contain dynamic parameters, pass data between requests, and a lot more. You can add JavaScript code to execute during 2 events in the flow:
 
-  1. Before a request is sent to the server, as a [pre-request script](/docs/postman/scripts/pre-request-scripts/) under the **Pre-request Script** tab.
-  1. After a response is received, as a [test script](/docs/postman/scripts/test-scripts/) under the **Tests** tab.
+  1. Before a request is sent to the server, as a [pre-request script](/docs/writing-scripts/pre-request-scripts/) under the **Pre-request Script** tab.
+  1. After a response is received, as a [test script](/docs/writing-scripts/test-scripts/) under the **Tests** tab.
 
 [![test script](https://assets.postman.com/postman-docs/Test_script1.png)](https://assets.postman.com/postman-docs/WS-randomScripts2.png)
 
@@ -71,14 +71,14 @@ For example, imagine you had the following collection structured with a single f
 
 [![console log statement](https://assets.postman.com/postman-docs/Test_script2.png)](https://assets.postman.com/postman-docs/WS-console-log-statement.png)
 
-If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you would clearly see the execution order in the [Postman console](/docs/postman/sending-api-requests/debugging-and-logs/#network-calls-with-postman-console).
+If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you would clearly see the execution order in the [Postman console](/docs/sending-requests/troubleshooting-api-requests/).
 
 [![logs in console](https://assets.postman.com/postman-docs/logs-in-console.png)](https://assets.postman.com/postman-docs/logs-in-console.png)
 
 ### How does this work?
 
-Is this magic? No, it's the [Postman Sandbox](/docs/postman/scripts/postman-sandbox/). The Postman Sandbox is a JavaScript execution environment that is available to you while writing pre-request and test scripts for requests (both in Postman and Newman). Whatever code you write in these sections is executed in this sandbox.  
+Is this magic? No, it's the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/). The Postman Sandbox is a JavaScript execution environment that is available to you while writing pre-request and test scripts for requests (both in Postman and Newman). Whatever code you write in these sections is executed in this sandbox.  
 
 ## Debugging scripts
 
-Debugging scripts can be written under either the **Pre-request Script** tab or the **Tests** tab, with helpful messages logged in the [Postman Console](/docs/postman/sending-api-requests/debugging-and-logs/).
+Debugging scripts can be written under either the **Pre-request Script** tab or the **Tests** tab, with helpful messages logged in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).

@@ -7,8 +7,8 @@ contextual_links:
     - type: section
       name: "Prerequisites"
     - type: link
-      name: "Collections"
-      url: "/docs/postman/collections/intro-to-collections/"
+      name: "Grouping requests in collections"
+      url: "/docs/sending-requests/intro-to-collections/"
     - type: section
       name: "Additional resources"
     - type: subtitle
@@ -23,11 +23,11 @@ contextual_links:
       name: "Next steps"
     - type: link
       name: "Creating the Run in Postman button"
-      url: "/docs/postman-for-publishers/run-in-postman/creating-run-button/"
+      url: "/docs/publishing-your-api/run-in-postman/creating-run-button/"
 
 ---
 
-The Run in Postman button is a way to give users direct access to your API endpoints. When you [create a button](/docs/postman-for-publishers/run-in-postman/creating-run-button/) for your collection, you can embed the button in your website or API documentation. When users click your button, a copy of your collection will open in Postman.
+The Run in Postman button is a way to give users direct access to your API endpoints. When you [create a button](/docs/publishing-your-api/run-in-postman/creating-run-button/) for your collection, you can embed the button in your website or API documentation. When users click your button, a copy of your collection will open in Postman.
 
 ![Travefy button](https://assets.postman.com/postman-docs/Travefy+API+RIP+button.jpg)
 
@@ -35,11 +35,11 @@ The Run in Postman button is a way to give users direct access to your API endpo
 
 There are two types of Run in Postman buttons:
 
-**Dynamic button**: This button uses HTML and CSS, and is optimal for a website. The dynamic button also gives you access to the [Run in Postman API](/docs/postman-for-publishers/run-in-postman/run-button-API/).
+**Dynamic button**: This button uses HTML and CSS, and is optimal for a website. The dynamic button also gives you access to the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/).
 
 **Static button**: This button uses Markdown, and is optimal for a Markdown document like a GitHub ReadMe or BitBucket repository.
 
-With both buttons you have the option to [include an environment](/docs/postman-for-publishers/run-in-postman/environments-run-button/) in the button. The environment will be imported into Postman along with a copy of your collection whenever a user clicks your button.
+With both buttons you have the option to [include an environment](/docs/publishing-your-api/run-in-postman/creating-run-button/) in the button. The environment will be imported into Postman along with a copy of your collection whenever a user clicks your button.
 
 ## User interaction with your button
 
@@ -64,4 +64,4 @@ A copy of your collection will be imported into the user's app, and the app will
 
 ## Next steps
 
-Create a [Run in Postman button](/docs/postman-for-publishers/run-in-postman/creating-run-button/).
+Create a [Run in Postman button](/docs/publishing-your-api/run-in-postman/creating-run-button/).

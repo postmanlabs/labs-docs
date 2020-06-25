@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collection runs"
-    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+    name: "Using the Collection Runner"
+    url: "/docs/running-collections/intro-to-collection-runs/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -25,7 +25,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to the Postman API"
-    url: "/docs/postman/postman-api/intro-api/"
+    url: "/docs/developer/intro-api/"
 
 warning: false
 tags:
@@ -64,15 +64,15 @@ $ npm install -g newman
 
 The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system.
 
-To learn how to export collections to share as a file, see the [collection documentation](/docs/postman/collections/sharing-collections/).
+To learn how to export collections to share as a file, see the [collection documentation](/docs/collaborating-in-postman/sharing/).
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/postman/collections/sharing-collections/) to learn how to share a file as a URL.
+You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/collaborating-in-postman/sharing/) to learn how to share a file as a URL.
 
-Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/variables-and-environments/variables/#environments-in-postman) from Postman and run them with the `-e` flag.
+Your collection probably uses environment variables. To provide an accompanying set of [environment variables](/docs/sending-requests/managing-environments/), export the template from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -212,7 +212,7 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/postman/scripts/postman-sandbox/) that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 
@@ -364,27 +364,11 @@ In both cases above, the reporter options are optional.
 
 For the complete list of details, see the [Newman README](https://github.com/postmanlabs/newman).
 
-[0]: https://www.npmjs.org/package/newman
-[1]: https://github.com/postmanlabs/newman
-[2]: http://nodejs.org/download/
-[3]: http://www.postman.com/docs/collections
-[4]: http://www.postman.com/docs/environments
-[5]: http://www.postman.com/docs/jetpacks-sandbox
-[6]: https://github.com/postmanlabs/newman
-[7]: https://github.com/postmanlabs/newman#configuring-reporters
-[8]: https://github.com/postmanlabs/newman/tree/develop/lib/reporters
-[9]: https://www.npmjs.com/package/newman-reporter-teamcity
-
----
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/postman/collection-runs/starting-a-collection-run/)
-* [Using environments in collection runs](/docs/postman/collection-runs/using-environments-in-collection-runs/)
-* [Working with data files](/docs/postman/collection-runs/working-with-data-files/)
-* [Running multiple iterations](/docs/postman/collection-runs/running-multiple-iterations/)
-* [Building workflows](/docs/postman/collection-runs/building-workflows/)
-* [Sharing a collection run](/docs/postman/collection-runs/sharing-a-collection-run/)
-* [Debugging a collection run](/docs/postman/collection-runs/debugging-a-collection-run/)
-* [Integration with Jenkins](/docs/postman/collection-runs/integration-with-jenkins/)
-* [Integration with Travis CI](/docs/postman/collection-runs/integration-with-travis/)
-* [Newman with Docker](/docs/postman/collection-runs/newman-with-docker/)
+* [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
+* [Working with data files](/docs/running-collections/working-with-data-files/)
+* [Building workflows](/docs/running-collections/building-workflows/)
+* [Integration with Jenkins](/docs/running-collections/using-newman/integration-with-jenkins/)
+* [Integration with Travis CI](/docs/running-collections/using-newman/integration-with-travis/)
+* [Newman with Docker](/docs/running-collections/using-newman/newman-with-docker/)

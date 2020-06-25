@@ -8,30 +8,30 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Documenting your API"
-    url:  "/docs/postman/api-documentation/documenting-your-api/"
+    url:  "/docs/publishing-your-api/documenting-your-api/"
   - type: link
     name: "Publishing your docs"
-    url: "/docs/postman/api-documentation/publishing-your-docs/"
+    url: "/docs/publishing-your-api/publishing-your-docs/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Template guidelines"
-    url:  "/docs/postman-for-publishers/postman-templates/template-guidelines/"
+    name: "Submission guidelines"
+    url:  "/docs/publishing-your-api/api-submission-guidelines/"
 ---
 
-You can share your documentation for any [collection](/docs/postman/collections/intro-to-collections/) you publish by adding it to the Postman Templates. Adding your templates makes them available to the Postman community via __New__ &gt; __Templates__ and [on the web](https://explore.postman.com/templates).
+You can share your documentation for any [collection](/docs/sending-requests/intro-to-collections/) you publish by adding it to the Postman Templates. Adding your templates makes them available to the Postman community via __New__ &gt; __Templates__ and [on the web](https://explore.postman.com/templates).
 
 Your template listing provides access to the documentation for your API collection, and the __Run in Postman__ button, which allows anyone to import the collection directly into Postman. Community members can browse and search for templates to learn, and automate tasks relevant to a wide variety of use cases. People can also access your Postman profile via your template listings.
 
 By publishing your collection docs to the Postman templates, you're sharing both human-readable and executable data that helps people get started using APIs. Your docs can outline how to use a single endpoint as well as how to integrate with an API as a whole, helping community members learn API skills and discover available services.
 
-> If you're publishing documentation from a team API, you can [add it to the API Network](/docs/postman-for-publishers/api-network/add-api-network/) as part of your team listing.
+> If you're publishing documentation from a team API, you can [add it to the API Network](/docs/publishing-your-api/add-api-network/) as part of your team listing.
 >
 > When you add to the Postman templates, your listing will also be discoverable via your profile. You can [set your profile up before](#setting-up-your-profile) or during publication, or Postman will generate a profile that you can optionally edit later.
 
 ## Adding your templates
 
-To add to the shared Postman templates, you first need to [document and publish a collection](/docs/postman/api-documentation/documenting-your-api/). You can share your collection to the Postman templates during the docs [publishing process](/docs/postman/api-documentation/publishing-your-docs/), or later. During publication, enable __Collection discovery__ and select __Add to Postman Templates__.
+To add to the shared Postman templates, you first need to [document and publish a collection](/docs/publishing-your-api/documenting-your-api/). You can share your collection to the Postman templates during the docs [publishing process](/docs/publishing-your-api/publishing-your-docs/), or later. During publication, enable __Collection discovery__ and select __Add to Postman Templates__.
 
 ![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
@@ -49,7 +49,7 @@ Select __Add to Postman Templates__.
 
 ### Providing template detail
 
-Enter display details for your template listing, including __Template Name__, __Summary__, and __Description__. Your description will be automatically pulled from any [description you have added to your collection already](/docs/postman/api-documentation/authoring-your-documentation/), and should include the information potential users will need to know whether to try the template or not.
+Enter display details for your template listing, including __Template Name__, __Summary__, and __Description__. Your description will be automatically pulled from any [description you have added to your collection already](/docs/publishing-your-api/authoring-your-documentation/), and should include the information potential users will need to know whether to try the template or not.
 
 ![Template Detail](https://assets.postman.com/postman-docs/template-publish-detail.jpg)
 
@@ -99,4 +99,4 @@ Clicking the title of a template will open its listing in the web browser.
 
 ## Next steps
 
-Check out some [tips for making the most of your listing](/docs/postman-for-publishers/postman-templates/template-guidelines/).
+Check out some [tips for making the most of your listing](/docs/publishing-your-api/api-submission-guidelines/).

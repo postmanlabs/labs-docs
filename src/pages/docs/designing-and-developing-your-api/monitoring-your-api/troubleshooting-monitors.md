@@ -8,12 +8,12 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Monitoring"
-    url: "/docs/postman/monitors/intro-monitors/"
+    url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Debugging and logs"
-    url: "/docs/postman/sending-api-requests/debugging-and-logs/"
+    name: "Troubleshooting API requests"
+    url: "/docs/sending-requests/troubleshooting-api-requests/"
 
 warning: false
 ---
@@ -28,7 +28,7 @@ You can click the failed monitor and review the relevant logs under the **Consol
 
 [![failed monitors](https://assets.postman.com/postman-docs/WS-monitor-failed-1.png)](https://assets.postman.com/postman-docs/WS-monitor-failed-1.png)
 
-For information about debugging in the console, see [Debugging and logs](/docs/postman/sending-api-requests/debugging-and-logs/).
+For information about debugging in the console, see [Troubleshooting API requets](/docs/sending-requests/troubleshooting-api-requests/).
 
 When a monitor fails, a "Need help debugging?" popup displays in the Postman monitors web view. Whenever possible, these suggestions include debugging tips that are specifically related to the error.
 
@@ -39,7 +39,7 @@ For example, if the monitor failed because Postman was unable to contact the ser
 ## Debugging local run attempts
 
 * Run the failing monitor's collection with its environment in the Postman app or Newman to see if it works correctly.
-* If a local run passes, [ensure the sync is enabled](/docs/postman/launching-postman/syncing/) in the toolbar header of the Postman app to persist any local changes.  
+* If a local run passes, [ensure the sync is enabled](/docs/getting-started/syncing/) in the toolbar header of the Postman app to persist any local changes.  
 
     [![enable sync](https://assets.postman.com/postman-docs/Header_Toolbar_New_Sync.png)](https://assets.postman.com/postman-docs/Header_Toolbar_New_Sync.png)
 

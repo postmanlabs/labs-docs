@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -29,17 +29,17 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to API documentation"
-    url: "https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/"
+    name: "Documenting your API"
+    url: "/docs/publishing-your-api/documenting-your-api/"
   - type: link
-    name: "Intro to environments and globals"
-    url: "https://learning.postman.com/docs/postman/environments_and_globals/intro_to_environments_and_globals"
+    name: "Managing environments"
+    url: "/docs/sending-requests/managing-environments/"
 
 ---
 
-You can use The Run in Postman button to [share your Postman Collections](/docs/postman/collections/sharing-collections/). You can embed the button in your website to give developers immediate access to your API endpoints.
+You can use The Run in Postman button to [share your Postman Collections](/docs/collaborating-in-postman/sharing/). You can embed the button in your website to give developers immediate access to your API endpoints.
 
-> The Run in Postman button also works with API description formats like Swagger and RAML. To create a button for the framework you use, convert your file to a collection by [importing it into Postman](/docs/postman/collections/data-formats/).
+> The Run in Postman button also works with API description formats like Swagger and RAML. To create a button for the framework you use, convert your file to a collection by [importing it into Postman](/docs/getting-started/importing-and-exporting-data/).
 
 ## Contents
 
@@ -58,7 +58,7 @@ You can use The Run in Postman button to [share your Postman Collections](/docs
 5. Choose a static or dynamic button:
    * **Dynamic button**: This button uses HTML and CSS, and gives you access to the Run in Postman API.
    * **Static button**: This button uses Markdown.
-6. You can include an environment that will import along with your collection. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
+6. You can include an environment that will import along with your collection. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/publishing-your-api/run-in-postman/creating-run-button/).
 7. Click **Copy to clipboard**.
 8. Embed the code where you would like the button to be displayed.
 
@@ -94,7 +94,7 @@ When you make changes to a collection that's connected to a Run in Postman butto
 
 ## Using environments with your button
 
-You can include environments in your [Run in Postman button](/docs/postman-for-publishers/run-in-postman/creating-run-button/). When developers click the button from your API documentation or website, the environment will be imported along with the collection into their Postman app, and the user can enter their own variable values. Learn more about [environments and variables](/docs/postman/variables-and-environments/variables/).
+You can include environments in your [Run in Postman button](/docs/publishing-your-api/run-in-postman/creating-run-button/). When developers click the button from your API documentation or website, the environment will be imported along with the collection into their Postman app, and the user can enter their own variable values. Learn more about [environments and variables](/docs/sending-requests/variables/).
 
 > If you're using the dynamic (HTML) button, you can use the Run in Postman API to alter your button's behavior. Use the button to create and modify environments, or have multiple buttons on a single page, each with its own environment.
 
@@ -112,10 +112,9 @@ You can add an environment to a new button while you're creating it, or to an ex
 
 > If you add an environment to an existing button, click **Update link** to save the environment parameter to the embed code. Then, copy the new embed code into your website's code.
 
-1. From the Postman app, go to the collection that you want share with a Run in Postman button.
-   - ![Share collection](https://assets.postman.com/postman-docs/collection-menu-share.png)
+1. From the Postman app, go to the collection that you want share with a Run in Postman button. ![Share collection](https://assets.postman.com/postman-docs/collection-menu-share.png)
 2. To the right of the collection name, click the ellipses **(...)** > **Share Collection**.
-3. In the Share dialog, click the **Embed** tab. If you need to, [create your Run in Postman button](/docs/postman-for-publishers/run-in-postman/creating-run-button/).
+3. In the Share dialog, click the **Embed** tab. If you need to, [create your Run in Postman button](/docs/publishing-your-api/run-in-postman/creating-run-button/).
 4. On the right, above the code field, click the dropdown to choose an environment. You'll see the code change to include the environment parameter.
 5. At the bottom right, click **Copy to Clipboard**.
 6. To embed the button, add the code to your website.
@@ -135,4 +134,4 @@ _pm('env.create', 'Spotify', {
 
 ## Next steps
 
-Read more about the [Run button API](/docs/postman-for-publishers/run-in-postman/run-button-API/) and learn how to alter your Run in Postman button's behavior.
+Read more about the [Run button API](/docs/publishing-your-api/run-in-postman/run-button-API/) and learn how to alter your Run in Postman button's behavior.

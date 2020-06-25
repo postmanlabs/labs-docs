@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -32,10 +32,10 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Authoring your documentation"
-    url: "/docs/postman/api-documentation/authoring-your-documentation/"
+    url: "/docs/publishing-your-api/authoring-your-documentation/"
   - type: link
     name: "Publishing your docs"
-    url: "/docs/postman/api-documentation/publishing-your-docs/"
+    url: "/docs/publishing-your-api/publishing-your-docs/"
 
 warning: false
 
@@ -88,7 +88,7 @@ You can also view documentation from the [web dashboard](https://web.postman.co/
 
 ![Collections in Web](https://assets.postman.com/postman-docs/collections-web.jpg)
 
-> By default your documentation is private, so only people you share the collection with will be able to see it. You can [publish your documentation](/docs/postman/api-documentation/publishing-your-docs/) for public viewing.
+> By default your documentation is private, so only people you share the collection with will be able to see it. You can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) for public viewing.
 
 Some detail [is included in your documentation by default](#including-detail-in-your-docs), and you can optionally add further detail.
 
@@ -106,7 +106,7 @@ You will see a confirmation that your documentation is published, and a link you
 
 ![Docs Link](https://assets.postman.com/postman-docs/docs-link.jpg)
 
-> By default your documentation is private, so only people you share the collection with will be able to see it. You can [publish your documentation](/docs/postman/api-documentation/publishing-your-docs/) for public viewing.
+> By default your documentation is private, so only people you share the collection with will be able to see it. You can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) for public viewing.
 
 ### Including detail in your docs
 
@@ -114,9 +114,9 @@ Your docs will automatically include detail on your requests, with sample code i
 
 ![Request details](https://assets.postman.com/postman-docs/Request+details.jpg)
 
-Private docs include a link to share the associated collection, and public docs include a [Run in Postman button](/docs/postman-for-publishers/run-in-postman/introduction-run-button), allowing viewers to import the collection directly into Postman to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
+Private docs include a link to share the associated collection, and public docs include a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/), allowing viewers to import the collection directly into Postman to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
 
-You can add detail to your descriptions using [Markdown](/docs/postman/api-documentation/authoring-your-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
+You can add detail to your descriptions using [Markdown](/docs/publishing-your-api/authoring-your-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
 
 ![Docs Folders](https://assets.postman.com/postman-docs/docs-folders.jpg)
 
@@ -124,13 +124,13 @@ You can add detail to your descriptions using [Markdown](/docs/postman/api-docu
 
 <img src="https://assets.postman.com/postman-docs/inline-edit-description.jpg" alt="Edit Description" width="500px"/>
 
-For more on adding detail to your docs, see [Authoring your documentation](/docs/postman/api-documentation/authoring-your-documentation/).
+For more on adding detail to your docs, see [Authoring your documentation](/docs/publishing-your-api/authoring-your-documentation/).
 
 ## Accessing doc views
 
-By default your documentation is private, and viewable only to people you have [shared a collection](/docs/postman/collections/sharing-collections/) with. If you [publish your documentation](/docs/postman/api-documentation/publishing-your-docs/), anyone with the link can view it in a browser.
+By default your documentation is private, and viewable only to people you have [shared a collection](/docs/collaborating-in-postman/sharing/) with. If you [publish your documentation](/docs/publishing-your-api/publishing-your-docs/), anyone with the link can view it in a browser.
 
-For more on accessing private and public docs, see [Viewing documentation](/docs/postman/api-documentation/viewing-documentation/).
+For more on accessing private and public docs, see [Viewing documentation](/docs/publishing-your-api/viewing-documentation/).
 
 > Your documentation receives a number of free views per month and is dependent on your [Postman plan](https://www.postman.com/pricing) beyond that. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
 
@@ -142,15 +142,15 @@ You can use environments to set variables that will be available in your documen
 
 Associating an environment with your documentation means that the values of any environment variables your requests reference will automatically populate in the doc content. Anyone using the __Run in Postman__ button from your docs will also be able to access the shared environment when they import the collection into Postman.
 
-To use a variable value in your documentation, [create](/docs/postman/variables-and-environments/managing-environments/#creating-environments) or select an environment.
+To use a variable value in your documentation, [create](/docs/sending-requests/managing-environments/) or select an environment.
 
 ![Environment Quick Look](https://assets.postman.com/postman-docs/env-quick.jpg)
 
-[Add the new variable](/docs/postman/variables-and-environments/managing-environments/#adding-environment-variables) if you haven't already done so.
+[Add the new variable](/docs/sending-requests/managing-environments/#adding-environment-variables) if you haven't already done so.
 
 ![Environment Variable](https://assets.postman.com/postman-docs/env-var.jpg)
 
-When you [reference a variable](/docs/postman/variables-and-environments/variables/#accessing-variables) in your requests, the value from the selected environment will automatically be published along with your documentation.
+When you [reference a variable](/docs/sending-requests/managing-environments/#accessing-environments) in your requests, the value from the selected environment will automatically be published along with your documentation.
 
 ![Reference Variable](https://assets.postman.com/postman-docs/reference-var.jpg)
 
@@ -168,7 +168,7 @@ If someone imports the collection using the __Run in Postman__ button from your 
 
 ## Versioning your docs
 
-Any version tags you add to your collections will be published along with your docs. You can add versions to an [API](/docs/postman/design-and-develop-apis/versioning-an-api/#creating-api-versions) or [collection](/docs/postman/collections/version-control-for-collections/).
+Any version tags you add to your collections will be published along with your docs. You can add versions to an [API](/docs/collaborating-in-postman/versioning-an-api/) or collection.
 
 ![Add Version](https://assets.postman.com/postman-docs/add-version.jpg)
 
@@ -182,4 +182,4 @@ When you publish docs to share publicly, you can select a version all viewers wi
 
 ## Next steps
 
-Learn more about [authoring your docs](/docs/postman/api-documentation/authoring-your-documentation/) and [publishing them](/docs/postman/api-documentation/publishing-your-docs/).
+Learn more about [authoring your docs](/docs/publishing-your-api/authoring-your-documentation/) and [publishing them](/docs/publishing-your-api/publishing-your-docs/).

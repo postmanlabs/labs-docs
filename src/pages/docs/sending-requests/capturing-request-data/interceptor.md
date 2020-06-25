@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Capturing HTTP requests"
-    url: "/docs/postman/sending-api-requests/capturing-http-requests/"
+    url: "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -67,7 +67,7 @@ To get started, you'll need to first install Postman Interceptor:
 
 4. Confirm Interceptor is ready to use by checking that the **Interceptor connected** status is green. You can now capture requests from your browser and cookies from any domain to use in Postman.
 
-> You can learn more about the built-in proxy in [Capturing HTTP Requests](/docs/postman/sending-api-requests/capturing-http-requests/).
+> You can learn more about the built-in proxy in [Capturing HTTP Requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
 
 ## Using Interceptor
 
@@ -87,7 +87,7 @@ Interceptor keeps cookies for a fixed set of domains in sync, updating Postman f
 
 You can remove a domain at any time by clicking **X** next to the domain. This will prevent future cookie updates from being synced, but it won’t delete cookies that have already been synced.
 
-You can learn more about managing cookies in Postman in [Cookies](/docs/postman/sending-api-requests/cookies/).
+You can learn more about managing cookies in Postman in [Cookies](/docs/sending-requests/cookies/).
 
 ### Capturing requests
 

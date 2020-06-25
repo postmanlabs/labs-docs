@@ -13,8 +13,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Public API documentation"
-    url: "/docs/postman-for-publishers/public-api-docs/"
+    name: "Publishing your docs"
+    url: "/docs/publishing-your-api/publishing-your-docs/"
 
 warning: false
 ---
@@ -66,10 +66,10 @@ You can remove the custom domain by clicking __Delete Custom Domain__.
 
 ## Publishing a collection on your custom domain
 
-When your domain is verified, you can use it to [publish your API documentation](/docs/postman/api-documentation/publishing-your-docs/). If you have a collection already published, you can edit it to use the new domain.
+When your domain is verified, you can use it to [publish your API documentation](/docs/publishing-your-api/publishing-your-docs/). If you have a collection already published, you can edit it to use the new domain.
 
 [![publish collection](https://assets.postman.com/postman-docs/WS-publish-collection-edit-1.png)](https://assets.postman.com/postman-docs/WS-publish-collection-edit-1.png)
 
 ## Next steps
 
-You can make your documentation more discoverable by adding it to the [API Network](/docs/postman-for-publishers/api-network/add-api-network/) or [Postman Templates](/docs/postman-for-publishers/postman-templates/add-templates/).
+You can make your documentation more discoverable by adding it to the [API Network](/docs/publishing-your-api/add-api-network/) or [Postman Templates](/docs/publishing-your-api/add-templates/).

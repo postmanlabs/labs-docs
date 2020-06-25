@@ -167,7 +167,7 @@ Hover over the avatars to see your teammates names.
 
 <img alt="Active user" src="https://assets.postman.com/postman-docs/Beesly+active+member.jpg" width="250px"/>
 
-> You can only see workspace members if you are also a member. To see member avatars, and to make your avatar visible to the team, [join the relevant workspace](/docs/postman/workspaces/using-workspaces/#joining-a-workspace).
+> You can only see workspace members if you are also a member. To see member avatars, and to make your avatar visible to the team, [join the relevant workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#joining-workspaces).
 
 If more than three people belong to a workspace, the fourth avatar will be a number representing the remaining members. Click the number to see a list of all active and inactive users.
 

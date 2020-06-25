@@ -6,11 +6,11 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: link
     name: "Command line integration with Newman"
-    url: "/docs/postman/collection-runs/command-line-integration-with-newman/"
+    url: "/docs/running-collections/using-newman/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -27,7 +27,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Intro to scripts"
-    url: "/docs/postman/scripts/intro-to-scripts/"
+    url: "/docs/writing-scripts/intro-to-scripts/"
 
 warning: false
 ---
@@ -50,7 +50,7 @@ Follow the [steps to download Node](https://nodejs.org/en/download/package-manag
 
 ## Step 2: Install Newman
 
-[Newman](/docs/postman/collection-runs/command-line-integration-with-newman/) is a command-line tool that allows you to run a collection in your local development environment or on your own server. The following command installs Newman in your CI.
+[Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/) is a command-line tool that allows you to run a collection in your local development environment or on your own server. The following command installs Newman in your CI.
 
 ```bash
 npm i newman -g;

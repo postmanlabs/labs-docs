@@ -21,8 +21,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to Workspaces"
-    url: "/docs/postman/workspaces/intro-to-workspaces/"
+    name: "Creating Workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 
 warning: false
 
@@ -30,9 +30,9 @@ warning: false
 
 You can share Postman entities you are working on with collaborators, including collections, APIs, and environments.
 
-> To share a collection run, see [Using the collection runner](/docs/running-collections/intro-to-collection-runs/#sharing-collection-runs).
+> To share a collection run, see [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 >
-> To share a collection via embed, use the [Run in Postman](http://localhost:8000/docs/publishing-your-api/creating-run-button/) button.
+> To share a collection via embed, use the [Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/) button.
 >
 > To share by file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting-data/)
 
@@ -42,7 +42,7 @@ You can share Postman entities you are working on with collaborators, including 
 * [Sharing by link](#sharing-by-link)
 * [Next steps](#next-steps)
 
-> To share your work via workspaces you will need to be signed in to your [Postman account](/docs/postman/launching-postman/postman-account/).
+> To share your work via workspaces you will need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
 
 ## Sharing to workspaces
 
@@ -78,11 +78,11 @@ Click __Share and Continue__.
 
 Select view or edit access levels for each collaborator or the workspace as a whole. Click __Save Roles__.
 
-> Refer to [Roles and permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) for more information on role-based user permissions.
+> Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for more information on role-based user permissions.
 
 ![Adjust roles](https://assets.postman.com/postman-docs/Adjust+roles+with+shared+collections.jpg)
 
-> If you want to restore a collection to a workspace it's been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/postman/collections/managing-collections/#recover-a-collection) first.
+> If you want to restore a collection to a workspace it's been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/sending-requests/intro-to-collections/#managing-collections) first.
 
 ## Sharing by link
 

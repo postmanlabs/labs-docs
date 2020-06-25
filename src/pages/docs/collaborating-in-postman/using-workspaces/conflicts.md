@@ -6,16 +6,16 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: link
-    name: "Sharing collections"
-    url: "/docs/postman/collections/sharing-collections/"
+    name: "Sharing your work"
+    url: "/docs/collaborating-in-postman/sharing/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Debugging and logs"
-    url: "/docs/postman/sending-api-requests/debugging-and-logs/"
+    name: "Troubleshooting requests"
+    url: "/docs/sending-requests/troubleshooting-api-requests/"
 
 warning: false
 ---
@@ -38,4 +38,4 @@ If you update the conflict selections and want to revert to the original selecti
 
 ## Next steps
 
-You can use [version control](/docs/postman/collections/version-control-for-collections/) on your collections to manage changes within a team, for example by creating forks and opening pull requests to merge your changes.
+You can use [version control](/docs/collaborating-in-postman/version-control-for-collections/) on your collections to manage changes within a team, for example by creating forks and opening pull requests to merge your changes.

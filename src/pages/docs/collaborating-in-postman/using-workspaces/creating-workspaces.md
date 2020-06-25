@@ -28,7 +28,7 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Managing workspaces"
+    name: "Using and managing workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"
 
 warning: false
@@ -61,7 +61,7 @@ To create a personal workspace, enter the workspace enter the name and summary. 
 
 If you are an Admin user and add any email addresses not associated with current team members, they will be invited to join the team.
 
-> Postman Business and Enterprise users can check the box to limit visibility of this workspace to invited members, making a [private workspace](/docs/postman/workspaces/intro-to-workspaces/#private-workspaces).
+> Postman Business and Enterprise users can check the box to limit visibility of this workspace to invited members, making a [private workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
 Click **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button at the top at any time.
 

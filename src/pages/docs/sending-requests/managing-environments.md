@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Variables"
-    url:  "/docs/postman/variables-and-environments/variables/"
+    name: "Using variables"
+    url:  "/docs/sending-requests/variables/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -33,17 +33,17 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Collaborating in Postman"
-    url: "/docs/postman/collaboration/collaboration-intro/"
+    name: "Collaborating with your team"
+    url: "/docs/collaborating-in-postman/collaboration-intro/"
   - type: link
     name: "Version control for collections"
-    url:  "/docs/postman/collections/version-control-for-collections/"
+    url:  "/docs/collaborating-in-postman/version-control-for-collections/"
 
 warning: false
 
 ---
 
-An environment is a set of [variables](/docs/postman/variables-and-environments/variables/) you can use in your Postman requests. You can use environments to group related sets of values together and manage access to shared Postman data if you're working as part of a team.
+An environment is a set of [variables](/docs/sending-requests/variables/) you can use in your Postman requests. You can use environments to group related sets of values together and manage access to shared Postman data if you're working as part of a team.
 
 ## Environments quick start
 
@@ -147,7 +147,7 @@ To check a variable value at a glance, use the __quick look__ (eye button).
 
 When you have an environment selected in the drop-down, Postman will treat it as the active environment, and will run all requests against that environment (if your requests reference environment variables).
 
-To use an environment variable value in a request, reference it by name, surrounded with [double curly braces](/docs/postman/variables-and-environments/variables/#accessing-variables):
+To use an environment variable value in a request, reference it by name, surrounded with [double curly braces](/docs/sending-requests/variables/):
 
 ```
 {{base_url}}
@@ -159,7 +159,7 @@ You can use the same variable notation in request URLs, parameters, headers, and
 
 Hover over a variable reference to see its current value.
 
-> If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/postman/variables-and-environments/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable, but local and data variable values will supersede environment values. The value of any overridden variables will display with a strikethrough.
+> If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable, but local and data variable values will supersede environment values. The value of any overridden variables will display with a strikethrough.
 > ![Overridden value](https://assets.postman.com/postman-docs/overridden-environment-variable.jpg)
 
 You can access current environment variable values in your __Pre-request__ and __Tests__ code.
@@ -168,13 +168,13 @@ You can access current environment variable values in your __Pre-request__ and _
 pm.environment.get("variable_key");
 ```
 
-> You can publish environments with your [API documentation](/docs/postman/api-documentation/publishing-your-docs/#configuring-your-public-docs) and the [Run in Postman button](/docs/postman-for-publishers/run-in-postman/environments-run-button/).
+> You can publish environments with your [API documentation](/docs/publishing-your-api/publishing-your-docs/) and the [Run in Postman button](/docs/publishing-your-api/run-in-postman/creating-run-button/).
 
 ### Editing environment variables
 
 You can edit variables by opening the environment quick look (eye button) at the top right of Postman, and clicking __Edit__.
 
-> You will only be able to edit environments where you have [editor access](/docs/postman/variables-and-environments/managing-environments/#requesting-environment-access).
+> You will only be able to edit environments where you have [editor access](#requesting-environment-access).
 
 ![Edit environment](https://assets.postman.com/postman-docs/edit-environment-name.jpg)
 
@@ -194,7 +194,7 @@ You can also update environment variable values from your test scripts.
 
 Your __Pre-request__ and __Tests__ scripts can update environment variable values.
 
-Use [pm.environment](/docs/postman/scripts/postman-sandbox-api-reference/#pmenvironment) to set an environment variable in the active (currently selected) environment:
+Use [pm.environment](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) to set an environment variable in the active (currently selected) environment:
 
 ```js
 pm.environment.set("variable_key", "variable_value");
@@ -202,7 +202,7 @@ pm.environment.set("variable_key", "variable_value");
 
 You can only create new variables from a script in an environment that you have edit access to. If you update or unset a value in a script with viewer access to the environment, that change will only be visible to you and not shared with your team.
 
-> If you use scripts to set environment variable values, these will be reflected for all requests referencing the variables. For example, you can use environments [in conjunction with the collection runner](/docs/postman/collection-runs/using-environments-in-collection-runs/) and [monitors](/docs/postman/monitors/intro-monitors/) to share updated values throughout a run for a series of requests as well as after it completes.
+> If you use scripts to set environment variable values, these will be reflected for all requests referencing the variables. For example, you can use environments [in conjunction with the collection runner](/docs/running-collections/intro-to-collection-runs/) and [monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to share updated values throughout a run for a series of requests as well as after it completes.
 
 ## Working with environments as a team
 
@@ -281,7 +281,7 @@ With editor role, you can [configure access for other team members](#managing-en
 
 Shared environments allow you to leverage collaboration within Postman. Check out some more resources on how you can work with team members on your API development projects:
 
-* [Collaborating in Postman](/docs/postman/collaboration/collaboration-intro/)
-* [Intro to workspaces](/docs/postman/workspaces/intro-to-workspaces/)
-* [Managing and sharing APIs](/docs/postman/design-and-develop-apis/managing-apis/)
-* [Version control for collections](/docs/postman/collections/version-control-for-collections/)
+* [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
+* [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
+* [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/)
+* [Version control for collections](/docs/collaborating-in-postman/version-control-for-collections/)

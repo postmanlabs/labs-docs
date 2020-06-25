@@ -25,7 +25,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Sending your first request"
-    url: "/docs/postman/launching-postman/sending-the-first-request"
+    url: "/docs/getting-started/sending-the-first-request/"
 
 ---
 
@@ -102,13 +102,13 @@ The Postman Chrome app is deprecated—if you're using the Chrome app, you can [
 
 The native app is built on [Electron](https://electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/2017/03/14/going-native/) of the Chrome platform.
 
-* The native apps let you work with [cookies](/docs/postman/sending-api-requests/cookies/) directly.
-* Unlike the Chrome app, no separate extension for the ([Interceptor](/docs/postman/sending-api-requests/interceptor/)) is needed.
-* The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/postman/sending-api-requests/capturing-http-requests/).
+* The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
+* Unlike the Chrome app, no separate extension for the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) is needed.
+* The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
 * The native apps are not restricted by the Chrome standards for the menu bar. You can check for updates, create Postman Windows and tabs, and edit preferences.
 * The native apps let you send headers like `Origin` and `User-Agent`. These are restricted in the Chrome app.
 * The "don't follow redirects" option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected—doing this in the Chrome app requires the Interceptor extension.
-* The native app has a built-in [console](/docs/postman/sending-api-requests/debugging-and-logs/#network-calls-with-postman-console), which allows you to view the network request details for API calls.
+* The native app has a built-in [console](/docs/sending-requests/troubleshooting-api-requests/), which allows you to view the network request details for API calls.
 
 ### Migrating to the native app
 
@@ -118,7 +118,7 @@ Alternatively, if you don't want to sign in to your Postman account, you can bul
 
 ![Import Export Data](https://assets.postman.com/postman-docs/export-data.jpg)
 
-> Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/postman/collections/importing-and-exporting-data/#importing-postman-data).
+> Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/getting-started/importing-and-exporting-data/).
 
 ## Updating Postman
 
@@ -160,4 +160,4 @@ If you are using Postman for Linux, and installed the app via the Ubuntu Softwar
 
 ## Next steps
 
-If you're having trouble with installation or updates, reach out for [Postman support](https://www.postman.com/support). If your installation is working as expected, [send your first request](/docs/postman/launching-postman/sending-the-first-request)!
+If you're having trouble with installation or updates, reach out for [Postman support](https://www.postman.com/support). If your installation is working as expected, [send your first request](/docs/getting-started/sending-the-first-request/)!

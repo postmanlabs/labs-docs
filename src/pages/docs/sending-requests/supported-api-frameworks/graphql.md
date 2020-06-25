@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Installation and updates"
-    url: "/docs/postman/launching-postman/installation-and-updates/"
+    name: "Installing and updating"
+    url: "/docs/getting-started/installation-and-updates/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -21,14 +21,14 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
 
 warning: false
 
 ---
 
-Many people think of Postman as an advanced REST client. Beyond REST, Postman is a tool that handles any calls sent over HTTP. This means that you can use Postman to interact with protocol-agnostic APIs - such as [SOAP](/docs/postman/sending-api-requests/making-soap-requests/) and GraphQL, which can both utilize HTTP, just like REST.
+Many people think of Postman as an advanced REST client. Beyond REST, Postman is a tool that handles any calls sent over HTTP. This means that you can use Postman to interact with protocol-agnostic APIs - such as [SOAP](/docs/sending-requests/supported-api-frameworks/making-soap-requests/) and GraphQL, which can both utilize HTTP, just like REST.
 
 Learn how Postman supports working with GraphQL.
 
@@ -53,13 +53,13 @@ Under the **Body** tab, select the **GraphQL** body type. Enter your GraphQL que
 
 Postman provides a separate interface to author GraphQL variables. After defining your GraphQL query in the **Query** editor, you can author and edit GraphQL variables in the adjacent variables editor.
 
-You can also [use Postman variables](/docs/postman/variables-and-environments/variables/) as data inputs for GraphQL variables using `{{variable}}` syntax.
+You can also [use Postman variables](/docs/sending-requests/variables/) as data inputs for GraphQL variables using `{{variable}}` syntax.
 
 [![edit variables](https://assets.postman.com/postman-docs/GraphQL-Body-Variables.png)](https://assets.postman.com/postman-docs/GraphQL-Body-Variables.png)
 
 ## Importing GraphQL schemas
 
-To [create or import a GraphQL schemas](/docs/postman/design-and-develop-apis/the-api-workflow/) into Postman, complete the following steps.
+To [create or import a GraphQL schemas](/docs/designing-and-developing-your-api/the-api-workflow/) into Postman, complete the following steps.
 
 1. Under the **APIs** tab, click **+ New API**, navigate to the **Define** tab, and then select **Create new** or **Import file**.
 [![upload schema](https://i.imgur.com/dCM4jyE.png)](https://i.imgur.com/dCM4jyE.png)

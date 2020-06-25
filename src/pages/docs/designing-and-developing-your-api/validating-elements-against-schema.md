@@ -8,10 +8,10 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the API Builder"
-    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: link
     name: "Managing and sharing APIs"
-    url: "/docs/postman/design-and-develop-apis/managing-apis/"
+    url: "/docs/designing-and-developing-your-api/managing-apis/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -23,7 +23,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Viewing and analyzing APIs"
-    url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
+    url: "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
 ---
 
 You can validate your API elements (documentation, tests, mock servers, monitors) against an API schema. This helps keep your elements in sync with your API specification. If they do not match, Postman will present a list of issues that have been found as well as fixes for these issues. You can then select which updates to apply to the API elements.
@@ -41,8 +41,8 @@ This section outlines the pre-requisites for validating your elements against an
 
 For validations to execute, you need the following elements in place:
 
-* An API schema - see [Defining an API](/docs/postman/design-and-develop-apis/the-api-workflow/#defining-an-api)
-* API element(s) - this can be a [mock server](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-a-mock-server), [documentation](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-documentation), [tests](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-documentation), or a [monitor](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/#adding-documentation)
+* An API schema - see [Defining an API](/docs/designing-and-developing-your-api/the-api-workflow/#defining-an-api)
+* API element(s) - this can be a [mock server](/docs/designing-and-developing-your-api/the-api-workflow/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation), [tests](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation), or a [monitor](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation)
 
 > Once the validation is complete, a status will appear next to the element indicating a checkmark if no issues have been found, or a warning message stating `Issues found`.
 
@@ -65,7 +65,7 @@ You can also trigger a validation from the issues list by clicking **Validate ag
 
 If you want your requests to be validated, your collection must be linked to an API.
 
-A collection is linked to an API if you [generate it from a schema](/docs/postman/design-and-develop-apis/the-api-workflow/#generating-a-collection) or [add it as a relation to an existing API](/docs/postman/design-and-develop-apis/the-api-workflow/#developing-an-api).
+A collection is linked to an API if you [generate it from a schema](/docs/designing-and-developing-your-api/the-api-workflow/#generating-a-collection) or [add it as a relation to an existing API](/docs/designing-and-developing-your-api/the-api-workflow/#developing-an-api).
 
 Postman will validate a request when it is sent. If issues are found, you will see a warning message showing the number of issues next to the name of the request.
 
@@ -145,4 +145,4 @@ You can access the updated API element by clicking **View Updated Collection** f
 
 ## Next steps
 
-In addition to keeping your API elements in sync with a schema, you can [analyze and utilize reporting](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/) to promote understanding of how your APIs are performing.
+In addition to keeping your API elements in sync with a schema, you can [analyze and utilize reporting](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/) to promote understanding of how your APIs are performing.

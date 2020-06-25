@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url:  "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url:  "/docs/sending-requests/requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -33,14 +33,14 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: link
     name: "Intro to scripts"
-    url: "/docs/postman/scripts/intro-to-scripts/"
+    url: "/docs/writing-scripts/intro-to-scripts/"
   - type: link
     name: "Dynamic variables"
-    url:  "/docs/postman/variables-and-environments/variables-list/"
+    url:  "/docs/writing-scripts/script-references/variables-list/"
 
 warning: false
 
@@ -89,7 +89,7 @@ Variables in Postman are key-value pairs. Each variable name represents its key,
 
 > For example, if you have a base URL for requests stored in a variable named `base_url`, you can reference it in your requests using `{{base_url}}`. Whatever value is stored in the variable will be included wherever you've referenced the variable when your requests run. If the base URL value is `https://httpbin.org`, and is listed as part of the request URL using `{{base_url}}/get?customers=new`, Postman will send the request to `https://httpbin.org/get?customers=new`.
 
-You can use environments to group sets of variables together and share them with collaborators, for example if you use one set of config details for your production server and another for testing. Check out [Managing environments](/docs/postman/variables-and-environments/managing-environments/) for more on how you can incorporate environments into your team workflows.
+You can use environments to group sets of variables together and share them with collaborators, for example if you use one set of config details for your production server and another for testing. Check out [Managing environments](/docs/sending-requests/managing-environments/) for more on how you can incorporate environments into your team workflows.
 
 ## Variable scopes
 
@@ -109,12 +109,12 @@ If a variable with the same name is declared in two different scopes, the value 
 
 Variable scopes are suited to different tasks in Postman:
 
-* __Global variables__ allow you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/postman/workspaces/intro-to-workspaces/).
+* __Global variables__ allow you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
     * _Since global variables can create confusion, you should only use them sparingly—for example to quickly test something or when your project is at a very early prototyping stage._
 * __Collection variables__ are available throughout the requests in a collection and are independent of environments, so do not change based on the selected environment.
     * _Collection variables are suitable if you are only using a single environment, for example for auth / URL details._
 * __Environment variables__ allow you to tailor your processing to different environments, for example local development vs testing or production. Only one environment can be active at a time.
-    * _If you only have one environment, using collection variables can be more efficient, however environments allow you to specify [role-based access levels](/docs/postman/variables-and-environments/managing-environments/#working-with-environments-as-a-team)._
+    * _If you only have one environment, using collection variables can be more efficient, however environments allow you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team)._
 * __Local variables__ are temporary, and only accessible in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete.
     * _Local variables are suitable if you need a value to override all other variable scopes but do not want the value to persist once execution has ended._
 * __Data variables__ come from external CSV and JSON files to define data sets you can use when running collections via Newman or the Collection Runner.
@@ -131,7 +131,7 @@ You can define variables in a variety of ways, depending on whether you need [gl
 
 You can create and edit global and environment variables using the __Environment quick Look__. Select your target environment in the drop-down to see its variables in the quick look. You can edit the current value for an existing variable inline, by clicking the value. To add a variable, click __Edit__ next to the environment or global section.
 
-> You can only add and edit variables in environments if you have edit access to the environment as a whole. If you have view access, you can update the current value of existing variables only. Any variables you edit in viewer mode will only be accessible to you, and not available to collaborators in your [workspace](/docs/postman/workspaces/intro-to-workspaces/).
+> You can only add and edit variables in environments if you have edit access to the environment as a whole. If you have view access, you can update the current value of existing variables only. Any variables you edit in viewer mode will only be accessible to you, and not available to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 ![Environment Quick Look](https://assets.postman.com/postman-docs/env-quick-look.jpg)
 
@@ -143,7 +143,7 @@ Alternatively, click __Manage environments__ and select the relevant environment
 
 ![Manage Environments](https://assets.postman.com/postman-docs/manage-environments-open.jpg)
 
-> See [Managing environments](/docs/postman/variables-and-environments/managing-environments/) for more on working with environments in your team.
+> See [Managing environments](/docs/sending-requests/managing-environments/) for more on working with environments in your team.
 
 Once you have your scope selected, you can [specify the variable detail](#specifying-variable-detail).
 
@@ -164,7 +164,7 @@ Choose the __Variables__ tab to edit or add to your collection variables.
 
 > If you have __Viewer__ role you will not be able to add new collection variables, update initial values, or persist values.
 > ![Collection viewer role](https://assets.postman.com/postman-docs/collection-variables-viewer-role.jpg)
-> You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request access](/docs/postman/collaboration/requesting-access-to-collections/) to the collection for __Editor__ role.
+> You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection for __Editor__ role.
 
 You can also [define collection variables in scripts](#defining-variables-in-scripts).
 
@@ -186,19 +186,19 @@ You can set response body values to variables by selecting text, right-clicking 
 
 You can set variables programmatically in your request scripts.
 
-Use [pm.globals](/docs/postman/scripts/postman-sandbox-api-reference/#pmglobals) to define a global variable:
+Use `pm.globals` to define a global variable:
 
 ```js
 pm.globals.set("variable_key", "variable_value");
 ```
 
-Use [pm.collectionVariables](/docs/postman/scripts/postman-sandbox-api-reference/#pmcollectionvariables) to define a collection variable:
+Use `pm.collectionVariables` to define a collection variable:
 
 ```js
 pm.collectionVariables.set("variable_key", "variable_value");
 ```
 
-Use [pm.environment](/docs/postman/scripts/postman-sandbox-api-reference/#pmenvironment) to define an environment variable (in the currently selected environment):
+Use `pm.environment` to define an environment variable (in the currently selected environment):
 
 ```js
 pm.environment.set("variable_key", "variable_value");
@@ -212,7 +212,7 @@ You can use `unset` to remove a variable:
 pm.environment.unset("variable_key");
 ```
 
-Check out the [Sandbox Reference](/docs/postman/scripts/postman-sandbox-api-reference/) for more on scripting with variables.
+Check out the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more on scripting with variables.
 
 ## Defining local variables
 
@@ -297,23 +297,23 @@ Your local session in Postman can use values that are transient and only visible
 
 When you create or edit a variable, you can enter both an initial and a current value. You can choose to leave the current value empty, in which case it will default to the initial value. If you specify a current value, it will be local only to your instance—the __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
 
-> You can only edit the initial value of an environment variable if you have edit access to the environment itself. If you have viewer access to the environment, you can only edit the current value and your edit will not be visible to anyone sharing your [workspace](/docs/postman/workspaces/intro-to-workspaces/).
+> You can only edit the initial value of an environment variable if you have edit access to the environment itself. If you have viewer access to the environment, you can only edit the current value and your edit will not be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
 
-> You can set Postman to [automatically persist](/docs/postman/launching-postman/settings/#general-settings) your variable values.
+> You can set Postman to [automatically persist](/docs/getting-started/settings/) your variable values.
 
 You can edit a current value inline from the environment quick look:
 
 <img alt="Edit Current Value" src="https://assets.postman.com/postman-docs/edit-current.jpg" width="500px"/>
 
-See [Managing environments](/docs/postman/variables-and-environments/managing-environments/#creating-environments) for more on working with variables as a team.
+See [Managing environments](/docs/sending-requests/managing-environments/#creating-environments) for more on working with variables as a team.
 
 > Local and data variables only have current values, which do not persist beyond request or collection runs.
 
 ## Logging variables
 
-You can log variable values to the [Postman Console](/docs/postman/sending-api-requests/debugging-and-logs/) while your requests run. Open the console from the button on the bottom left of Postman, or from the __View__ menu. To log the value of a variable, use the following syntax in your script:
+You can log variable values to the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/) while your requests run. Open the console from the button on the bottom left of Postman, or from the __View__ menu. To log the value of a variable, use the following syntax in your script:
 
 ```js
 console.log(pm.variables.get("variable_key"));
@@ -325,7 +325,7 @@ console.log(pm.variables.get("variable_key"));
 
 The Collection Runner lets you import a CSV or a JSON file, and use the values from the data file inside requests and scripts. You cannot set a data variable inside Postman because it is pulled from the data file, but you can access data variables inside scripts, for example using `pm.iterationData.get("variable_name")`.
 
-See [working with data files](/docs/postman/collection-runs/working-with-data-files/) and the [Sandbox API reference](/docs/postman/scripts/postman-sandbox-api-reference/#pmiterationdata) for more.
+See [working with data files](/docs/running-collections/working-with-data-files/) and the [Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more.
 
 ## Using dynamic variables
 
@@ -337,7 +337,7 @@ Examples of dynamic variables are as follows:
 * `{{$timestamp}}`: The current timestamp (Unix timestamp in seconds)
 * `{{$randomInt}}`: A random integer between 0 and 1000
 
-See the [Dynamic Variables](/docs/postman/variables-and-environments/variables-list/) section for a full list.
+See the [Dynamic Variables](/docs/writing-scripts/script-references/variables-list/) section for a full list.
 
 > To use dynamic variables in pre-request or test scripts, you need to use `pm.variables.replaceIn()`, e.g. `pm.variables.replaceIn('{{$randomFirstName}}')`.
 
@@ -345,4 +345,4 @@ See the [Dynamic Variables](/docs/postman/variables-and-environments/variables-l
 
 ## Next steps
 
-For an overview of how you can manage and share variable data sets, see [Managing environments](/docs/postman/variables-and-environments/managing-environments/). Check out [Intro to scripts](/docs/postman/scripts/intro-to-scripts/) for more on using variables in your request scripting, and [Intro to collections](/docs/postman/collections/intro-to-collections/) for more on how you can use data between requests.
+For an overview of how you can manage and share variable data sets, see [Managing environments](/docs/sending-requests/managing-environments/). Check out [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on using variables in your request scripting, and [Grouing requests in collections](/docs/sending-requests/intro-to-collections/) for more on how you can use data between requests.

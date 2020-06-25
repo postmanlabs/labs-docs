@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -127,10 +127,10 @@ Postman will prompt you to resolve any conflicts that may cause you to lose unsa
 
 With a Postman Team, Business, or Enterprise account, you can pipe team activity feeds to external communication channels:
 
-* [Slack integration](/docs/integrations/slack/)
-* [HipChat integration](/docs/integrations/hipchat/)
-* [Microsoft Teams integration](/docs/integrations/microsoft-teams/)  
+* [Slack integration](/docs/integrations/available-integrations/slack/)
+* [HipChat integration](/docs/integrations/available-integrations/hipchat/)
+* [Microsoft Teams integration](/docs/integrations/available-integrations/microsoft-teams/)  
 
 ## Next steps
 
-For more on working with a team in Postman, see [collaboration](/docs/postman/collaboration/collaboration-intro/). To learn how to invite input on your API projects, see [sharing collections](/docs/postman/collections/sharing-collections/).
+For more on working with a team in Postman, see the [collaboration intro](/docs/collaborating-in-postman/collaboration-intro/). To learn how to invite input on your API projects, see [sharing your work](/docs/collaborating-in-postman/sharing/).

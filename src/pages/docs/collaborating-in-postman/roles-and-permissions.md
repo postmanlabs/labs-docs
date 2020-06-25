@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Collaborating in Postman"
-    url: "/docs/postman/collaboration/collaboration-intro/"
+    name: "Working with your team"
+    url: "/docs/collaborating-in-postman/collaboration-intro/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -49,7 +49,7 @@ As a team admin, you have the power to define Postman access at the team, worksp
 
 ### Team roles
 
-You can [assign](/docs/postman/collaboration/managing-your-team/) three role types to team members: **Admin**, **Billing**, and **Developer**.
+You can [assign](/docs/administration/managing-your-team/) three role types to team members: **Admin**, **Billing**, and **Developer**.
 
 * **Admin**: manage team members and team settings
 * **Billing**: manage team plan and payments
@@ -76,7 +76,7 @@ Team roles provide high-level access control:
 
 ### Workspace roles
 
-You can [assign](/docs/postman/collaboration/managing-your-team/) two role types in Postman workspaces: **Admin** and **Collaborator**.
+You can [assign](/docs/administration/managing-your-team/) two role types in Postman workspaces: **Admin** and **Collaborator**.
 
 * **Admin**: manage workspace details and members
 * **Collaborator**: work on team resources in a workspace
@@ -99,7 +99,7 @@ The following roles control access at a workspace level:
 
 ### API roles
 
-You can [assign](/docs/postman/collaboration/managing-your-team/) two role types in Postman APIs: **Editor** and **Viewer**.
+You can [assign](/docs/administration/managing-your-team/) two role types in Postman APIs: **Editor** and **Viewer**.
 
 * **Editor**: edit APIs directly
 * **Viewer**: view, fork, and export APIs
@@ -124,7 +124,7 @@ The following roles control access at an API level:
 
 ### Collection roles
 
-You can [assign](/docs/postman/collaboration/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
+You can [assign](/docs/administration/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
 
 * **Editor**: edit collections directly
 * **Viewer**: view, fork, and export collections
@@ -146,7 +146,7 @@ The following roles control access at a collection level:
 
 ## Managing roles and permissions
 
-To manage team roles, see [Managing roles](/docs/postman-pro/managing-pro/managing-your-team/#managing-roles).
+To manage team roles, see [Managing roles](/docs/administration/managing-your-team/#managing-roles).
 
 ## Roles FAQ
 
@@ -168,4 +168,4 @@ Teams can have up to two support-only accounts.
 
 ## Next steps
 
-Learn more about [Collaborating in Postman](/docs/postman/collaboration/collaboration-intro/).
+Learn more about [Working with your team](/docs/collaborating-in-postman/collaboration-intro/).

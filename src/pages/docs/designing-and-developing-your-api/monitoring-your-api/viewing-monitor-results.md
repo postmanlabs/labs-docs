@@ -112,9 +112,9 @@ You can filter by run result to compare how your runs with the same result have 
 
 #### Filtering by region
 
-You can filter by [region](/docs/postman/monitors/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Click to open the drop-down menu **All Regions**, then select a region to view.
+You can filter by [region](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Click to open the drop-down menu **All Regions**, then select a region to view.
 
-> This feature is only available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/postman/monitors/setting-up-monitor/#adding-regions).
+> This feature is only available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#adding-regions).
 
 #### Filtering by formula
 
@@ -147,7 +147,7 @@ You can view **Test Results** below the monitor summary to find more detailed in
 
 You can view the **Console Log** below the monitor summary.
 
-This section logs monitor run details along with the [`console.log`](https://learning.postman.com/docs/postman/sending-api-requests/debugging-and-logs/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/postman/monitors/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information.
+This section logs monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information.
 
 [![console log](https://assets.postman.com/postman-docs/console-log-2.jpg)](https://assets.postman.com/postman-docs/console-log-2.jpg)
 
@@ -157,4 +157,4 @@ You can use this console to both troubleshoot issues and learn more about an ind
 
 ## Next steps
 
-Learn how to [troubleshoot your monitors](/docs/postman/monitors/troubleshooting-monitors/) and check out [Postman monitoring FAQs](/docs/postman/monitors/faqs-monitors/).
+Learn how to [troubleshoot your monitors](/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/) and check out [Postman monitoring FAQs](/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/).

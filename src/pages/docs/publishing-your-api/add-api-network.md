@@ -8,20 +8,20 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Documenting your API"
-    url:  "/docs/postman/api-documentation/documenting-your-api/"
+    url:  "/docs/publishing-your-api/documenting-your-api/"
   - type: link
     name: "Publishing your docs"
-    url: "/docs/postman/api-documentation/publishing-your-docs/"
+    url: "/docs/publishing-your-api/publishing-your-docs/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "API Network guidelines"
-    url:  "/docs/postman-for-publishers/api-network/api-submission-guidelines/"
+    name: "Submission guidelines"
+    url:  "/docs/publishing-your-api/api-submission-guidelines/"
 ---
 
-Publishing your documentation to the [API Network](https://explore.postman.com/) connects your API to the Postman community. You can publish docs to the network from any team [collection](/docs/postman/collections/intro-to-collections/). For individual collections that are not published via a team, you can instead add to the Postman [templates](/docs/postman-for-publishers/postman-templates/add-templates/).
+Publishing your documentation to the [API Network](https://explore.postman.com/) connects your API to the Postman community. You can publish docs to the network from any team [collection](/docs/sending-requests/intro-to-collections/). For individual collections that are not published via a team, you can instead add to the Postman [templates](/docs/publishing-your-api/add-templates/).
 
-> For APIs that your team uses internally, you can add to the [private API network](/docs/postman/collaboration/adding-private-network/).
+> For APIs that your team uses internally, you can add to the [private API network](/docs/collaborating-in-postman/adding-private-network/).
 
 Sharing your docs exposes your API to the millions of developers who use Postman, and lets others within the community learn from your projects. By publishing to the API Network, you share your API through a human-readable reference in the form of your docs—and an executable way to interact with your API endpoints inside Postman, via the embedded Run in Postman button.
 
@@ -31,7 +31,7 @@ Your docs can convey detailed guidance on how to make requests to your API endpo
 
 ## Adding your API
 
-To add an API to the network, you first need to [document and publish a collection](/docs/postman/api-documentation/documenting-your-api/). You can share your docs to the API Network during the [publishing process](/docs/postman/api-documentation/publishing-your-docs/), by enabling __Collection discovery__ and selecting __Add to API Network__.
+To add an API to the network, you first need to [document and publish a collection](/docs/publishing-your-api/documenting-your-api/). You can share your docs to the API Network during the [publishing process](/docs/publishing-your-api/publishing-your-docs/), by enabling __Collection discovery__ and selecting __Add to API Network__.
 
 ![Collection Discovery](https://assets.postman.com/postman-docs/enable-discovery-switch.jpg)
 
@@ -49,7 +49,7 @@ Select __Add to API Network__.
 
 ### Providing API detail
 
-Include the __API Name__, __Summary__, and __Description__—add the details potential users will need to know in order to find your API and figure out whether they want to use it. Your description can include markdown, and will automatically be populated from any [description you already have included in your collection](/docs/postman/api-documentation/authoring-your-documentation/).
+Include the __API Name__, __Summary__, and __Description__—add the details potential users will need to know in order to find your API and figure out whether they want to use it. Your description can include markdown, and will automatically be populated from any [description you already have included in your collection](/docs/publishing-your-api/authoring-your-documentation/).
 
 ![API Network Detail](https://assets.postman.com/postman-docs/api-network-detail.jpg)
 
@@ -97,4 +97,4 @@ Clicking the title of an API in the web listing of your team profile will open t
 
 ## Next steps
 
-Check out some [tips for making the most of your network listing](/docs/postman-for-publishers/api-network/api-submission-guidelines/).
+Check out some [tips for making the most of your network listing](/docs/publishing-your-api/api-submission-guidelines/).

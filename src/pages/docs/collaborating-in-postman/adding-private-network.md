@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Collaborating in Postman"
-    url: "/docs/postman/collaboration/collaboration-intro/"
+    name: "Working with your team"
+    url: "/docs/collaborating-in-postman/collaboration-intro/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -19,11 +19,11 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Writing API documentation"
-    url: "/docs/postman/api-documentation/authoring-your-documentation/"
+    name: "Documenting your API"
+    url: "/docs/publishing-your-api/documenting-your-api/"
   - type: link
     name: "Generating collections from the API"
-    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
 
 ---
 
@@ -33,7 +33,7 @@ Share the APIs that your team uses internally to the private API network. Your t
 
 If you're logged in, go directly to your team's [private API Network](https://go.postman.co/network/private). You can always find it by clicking __API Network__ at the top from anywhere in the [Dashboard](https://go.postman.co).
 
-> In order to add your API to the network, it must be in the [API Builder](/docs/postman/design-and-develop-apis/the-api-workflow/). You can only add APIs, not collections, to the private API network.
+> In order to add your API to the network, it must be in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/). You can only add APIs, not collections, to the private API network.
 
 ## Contents
 
@@ -45,7 +45,7 @@ If you're logged in, go directly to your team's [private API Network](https://go
 
 ### Adding your APIs
 
-> You can only add an API to the network if you have edit access to the API, and your team members have permission to view or edit the API. Learn more about [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
+> You can only add an API to the network if you have edit access to the API, and your team members have permission to view or edit the API. Learn more about [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
 To add an API to your team's private API network, sign in to your [Dashboard](https://go.postman.co) and click **API Network** at the top.
 
@@ -71,7 +71,7 @@ Private APIs are only visible to logged in users who are a part of your Postman 
 
 #### Guidelines
 
-To submit an API to the network, you must have edit access to the API. You cannot add an API to the private network unless all team members have at least view access to the API. Learn more about team [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
+To submit an API to the network, you must have edit access to the API. You cannot add an API to the private network unless all team members have at least view access to the API. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
 ## Discovering and consuming private APIs
 
@@ -87,7 +87,7 @@ Select an API to see a high-level description.
 
 ![Published to network](https://assets.postman.com/postman-docs/privNetworkHighOverview.png)
 
-Click through **Open in Builder** to see a more detailed overview of the API in the web version of [the API builder](/docs/postman/design-and-develop-apis/the-api-workflow/). Under the **Overview** tab of the API builder, you can review information about the API and update the description. You can see team collaborators and activities like recently added collections associated with this API.
+Click through **Open in Builder** to see a more detailed overview of the API in the web version of [the API builder](/docs/designing-and-developing-your-api/the-api-workflow/). Under the **Overview** tab of the API builder, you can review information about the API and update the description. You can see team collaborators and activities like recently added collections associated with this API.
 
 You can also review version-level details on the right. Next to **Versions**, you can **Edit network listing**. All available versions are listed below, with an indicator of the active version as well as the version(s) listed to the network. **Add to API Network** will display if you haven't yet added the API to the private network.
 
@@ -95,5 +95,5 @@ You can also review version-level details on the right. Next to **Versions**, yo
 
 ## Next steps
 
-* [Writing API documentation](/docs/postman/api-documentation/authoring-your-documentation/)
-* [Generating collections from the API](/docs/postman/design-and-develop-apis/the-api-workflow/)
+* [Writing API documentation](/docs/publishing-your-api/authoring-your-documentation/)
+* [Generating collections from the API](/docs/designing-and-developing-your-api/the-api-workflow/)

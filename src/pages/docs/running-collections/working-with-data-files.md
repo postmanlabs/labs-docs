@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collection runs"
-    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+    name: "Using the Collection Runner"
+    url: "/docs/running-collections/intro-to-collection-runs/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -30,7 +30,7 @@ You can use data files to pass Postman sets of values to use in a collection run
 
 ## Running collections with data files
 
-When you [initiate a collection run](/docs/postman/collection-runs/starting-a-collection-run/) you will see an option to select a data file. Click __Runner__ at the top left of Postman. Select your collection, and click __Select File__ next to __Data__.
+When you [initiate a collection run](/docs/running-collections/intro-to-collection-runs/) you will see an option to select a data file. Click __Runner__ at the top left of Postman. Select your collection, and click __Select File__ next to __Data__.
 
 ![Setup Collection Run](https://assets.postman.com/postman-docs/data-file-run-setup.png)
 
@@ -66,15 +66,11 @@ You can reference values defined in the data file throughout your requests, howe
 pm.iterationData.get("value")
 ```
 
-See the [Sandbox Reference](/docs/postman/scripts/postman-sandbox-api-reference/#pmiterationdata) for more on what you can do with iteration data.
+See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more on what you can do with iteration data.
 
 ## Next steps
 
 To continue learning to leverage collection runs, check out the following resources:
 
-* [Running multiple iterations](https://learning.postman.com/docs/postman/collection-runs/running-multiple-iterations/)
-* [Using environments in collection runs](/docs/postman/collection-runs/using-environments-in-collection-runs/)
-* [Building workflows](/docs/postman/collection-runs/building-workflows/)
-* [Sharing a collection run](/docs/postman/collection-runs/sharing-a-collection-run/)
-* [Debugging a collection run](/docs/postman/collection-runs/debugging-a-collection-run/)
-* [Command line integration with Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
+* [Building workflows](/docs/running-collections/building-workflows/)
+* [Command line integration with Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/)

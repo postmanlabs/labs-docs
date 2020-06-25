@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Monitoring"
-    url: "/docs/postman/monitors/intro-monitors/"
+    url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -24,8 +24,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to collection runs"
-    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+    name: "Using the Collection Runner"
+    url: "/docs/running-collections/intro-to-collection-runs/"
 
 warning: false
 ---
@@ -37,7 +37,7 @@ Some teams use Postman monitors to ensure their APIs and websites remain operati
 
 ### Monitoring a specific endpoint
 
-To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. Review a complete [reference of testing various aspects of a request](/docs/postman/scripts/test-scripts/).
+To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. Review a complete [reference of testing various aspects of a request](/docs/writing-scripts/test-scripts/).
 
 ### Monitoring an entire API
 

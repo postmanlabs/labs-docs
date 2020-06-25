@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/developer/intro-api/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -73,9 +73,9 @@ Postman Monitoring helps you to stay up to date on the health and performance of
 
 Monitoring is a way to stay up to date on the health and performance of your APIs. Postman's built-in monitoring service helps you consolidate an additional step in your API development lifecycle.
 
-Postman monitors are based on [collections](/docs/postman/collections/intro-to-collections/). Monitors can be scheduled as frequently as every five minutes and will run through each request in your collection, similar to the [collection runner](/docs/postman/collection-runs/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/postman/variables-and-environments/managing-environments/) with variables you'd like to utilize during the collection run.
+Postman monitors are based on [collections](/docs/developer/intro-api/). Monitors can be scheduled as frequently as every five minutes and will run through each request in your collection, similar to the [collection runner](/docs/running-collections/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/sending-requests/managing-environments/) with variables you'd like to utilize during the collection run.
 
-The value of monitors lies in your [test scripts](/docs/postman/scripts/test-scripts/). When running your collection, a monitor will use your tests to validate the responses it's receiving. When one of these tests fail, you can automatically receive an email [notification](/docs/postman/notifications/#monitor-notifications) or configure the available [integrations](/docs/integrations/intro-integrations/) to receive alerts in tools like Slack, PagerDuty, or HipChat.
+The value of monitors lies in your [test scripts](/docs/writing-scripts/test-scripts/). When running your collection, a monitor will use your tests to validate the responses it's receiving. When one of these tests fail, you can automatically receive an email [notification](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) or configure the available [integrations](/docs/integrations/intro-integrations/) to receive alerts in tools like Slack, PagerDuty, or HipChat.
 
 ## Pricing
 
@@ -121,7 +121,7 @@ This page allows you to view your team's current billing period, how many reques
 
 Postman calculates monitoring usage based on the actual number of requests made during a run, which may or may not be equal to the number of requests in your collection.
 
-If you use `postman.setNextRequest()` to skip a request or run a request multiple times, Postman will take that into account when calculating usage. Postman will also count any requests required for [authorization](/docs/postman/sending-api-requests/authorization/).
+If you use `postman.setNextRequest()` to skip a request or run a request multiple times, Postman will take that into account when calculating usage. Postman will also count any requests required for [authorization](/docs/sending-requests/authorization/).
 
 ## Running collections in a monitor
 
@@ -130,8 +130,8 @@ There are a few differences between running collections in a Postman monitor and
 ### Variables
 
 * You cannot import existing global variables to a monitor, but you can create new ones during a run.
-* Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values, unlike in the collection runner when [persist variables](/docs/postman/collection-runs/starting-a-collection-run/#persist-variables) is enabled.
-    * If you require persistent variables, you can add a call to update your environment using the [Postman API](/docs/postman/postman-api/intro-api/).
+* Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values, unlike in the collection runner when [persist variables](/docs/running-collections/intro-to-collection-runs/) is enabled.
+    * If you require persistent variables, you can add a call to update your environment using the [Postman API](/docs/developer/intro-api/).
 
 ### Console output
 
@@ -166,4 +166,4 @@ There are a few differences between running collections in a Postman monitor and
 
 ## Next steps
 
-Learn how to [set up a monitor](/docs/postman/monitors/setting-up-monitor/) and check out [monitoring APIs and websites](/docs/postman/monitors/monitoring-apis-websites/) to get started.
+Learn how to [set up a monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) and check out [monitoring APIs and websites](/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites/) to get started.

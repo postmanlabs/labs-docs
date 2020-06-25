@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -23,8 +23,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections/"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
 
 warning: false
 
@@ -38,7 +38,7 @@ The response also contains the HTTP specification default description. However, 
 
 [![save response button](https://assets.postman.com/postman-docs/58538745.png)](https://assets.postman.com/postman-docs/58538745.png)
 
-If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, click the **Save Response** button. Enter a name to call your saved response. All responses saved for a request will be available as an [example](/docs/postman/collections/examples/) whenever you load the request. Click the **Examples** dropdown in the top right to view and select the saved examples.
+If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, click the **Save Response** button. Enter a name to call your saved response. All responses saved for a request will be available as an [example](/docs/sending-requests/examples/) whenever you load the request. Click the **Examples** dropdown in the top right to view and select the saved examples.
 
 [![access saved responses](https://assets.postman.com/postman-docs/examplesDropdown.png)](https://assets.postman.com/postman-docs/examplesDropdown.png)
 
@@ -54,7 +54,7 @@ The pretty mode formats JSON or XML responses so they are easier to view. Nobody
 
 For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If not, you can force formatting through JSON or XML. You can force JSON formatting under the **General** tab in the **SETTINGS** modal. To do so. select "JSON" from the "Language detection" dropdown.
 
-**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results. See the complete set of [keyboard shortcuts](/docs/postman/launching-postman/navigating-postman/).
+**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results.
 
 ### Raw
 
@@ -88,7 +88,7 @@ Hover over the globe icon to see the local and remote IP addresses for the reque
 
 [![Network info](https://assets.postman.com/postman-docs/network-info-response.jpg)](https://assets.postman.com/postman-docs/network-info-response.jpg)
 
-When you make `https` requests, the __Network__ information will display a padlock and will include detail of any [certificate verification](/docs/postman/sending-api-requests/certificates/).
+When you make `https` requests, the __Network__ information will display a padlock and will include detail of any [certificate verification](/docs/sending-requests/certificates/).
 
 If you have __SSL verification__ enabled in the global settings and verification fails, Postman will indicate the error in the response area. Click the link to disable verification globally and immediately run the request again. _If SSL is disabled globally but enabled for your request, you will see the error and a link to open the console._
 
@@ -100,7 +100,7 @@ If you have __SSL verification__ turned off and your request returns a certifica
 
 <img alt="Certificate error" src="https://assets.postman.com/postman-docs/certificate-error-in-network-info.jpg" width="400px"/>
 
-For requests that return data successfully but with a certificate verification failure, the [console](/docs/postman/sending-api-requests/debugging-and-logs/) will display a warning.
+For requests that return data successfully but with a certificate verification failure, the [console](/docs/sending-requests/troubleshooting-api-requests/) will display a warning.
 
 [![Certification warning](https://assets.postman.com/postman-docs/certification-error-console-warning.jpg)](https://assets.postman.com/postman-docs/certification-error-console-warning.jpg)
 
@@ -114,8 +114,8 @@ Postman breaks down the response size into body and headers. The response sizes 
 
 ## Cookies
 
-Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/postman/sending-api-requests/cookies/) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor/) to help manage cookies.
+Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/sending-requests/cookies/) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) to help manage cookies.
 
 ## Tests
 
-You can also see the results of the tests that were run against the request. Learn more about [testing](/docs/postman/scripts/test-scripts/) in Postman.
+You can also see the results of the tests that were run against the request. Learn more about [testing](/docs/writing-scripts/test-scripts/) in Postman.

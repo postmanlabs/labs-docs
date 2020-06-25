@@ -77,7 +77,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Overages**. 
 
 [![monitoring overages](https://assets.postman.com/postman-docs/monitoring-overages.jpg)](https://assets.postman.com/postman-docs/monitoring-overages.jpg)
 
-> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, check out [pre-paid monitoring blocks](/docs/postman/monitors/intro-monitors/#pricing).
+> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, check out [pre-paid monitoring blocks](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/).
 
 ## Payments
 
@@ -151,6 +151,6 @@ To purchase monitoring blocks, visit your [monitoring usage details](http://go.p
 
 ## Next steps
 
-For information on team management, see [Managing your team](/docs/postman/collaboration/team-settings/).
+For information on team management, see [Managing your team](/docs/administration/managing-your-team/).
 
-To learn more about the billing team role, see [Roles and Permissions](/docs/postman/collaboration/roles-and-permissions/).
+To learn more about the billing team role, see [Roles and Permissions](/docs/collaborating-in-postman/roles-and-permissions/).

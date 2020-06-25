@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Requests"
-    url: "/docs/postman/sending-api-requests/requests/"
+    name: "Sending requests"
+    url: "/docs/sending-requests/requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -18,11 +18,11 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to API documentation"
-    url: "/docs/postman/api-documentation/documenting-your-api/"
+    name: "Documenting your API"
+    url: "/docs/publishing-your-api/documenting-your-api/"
   - type: link
-    name: "Intro to mock servers"
-    url: "/docs/postman/mock-servers/intro-to-mock-servers/"
+    name: "Setting up mock servers"
+    url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
 
 warning: false
 ---
@@ -56,13 +56,13 @@ To establish an example during the earliest phase of API development:
 
 Often it's useful to mock and save a couple of example responses with a request, such as a status code, to make your API more understandable.
 
-Let's say you want to build an API with an endpoint that does not yet exist, or your server isn’t ready. You can mock raw responses and save them. Then, you'll be able to generate a mock endpoint for each of them using [Postman's mock service](/docs/postman/mock-servers/intro-to-mock-servers/).
+Let's say you want to build an API with an endpoint that does not yet exist, or your server isn’t ready. You can mock raw responses and save them. Then, you'll be able to generate a mock endpoint for each of them using [Postman's mock service](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
 
-Developers can make requests to the mock endpoint and start front-end development or [write tests](/docs/postman/scripts/test-scripts/) based on the mock response returned from the mock endpoint.
+Developers can make requests to the mock endpoint and start front-end development or [write tests](/docs/writing-scripts/test-scripts/) based on the mock response returned from the mock endpoint.
 
 ## Adding an example
 
-Suppose you are working on a request that is saved in a [collection](/docs/postman/collections/creating-collections/). You can add examples to this request with a new custom response or the response from the server.
+Suppose you are working on a request that is saved in a [collection](/docs/sending-requests/intro-to-collections/). You can add examples to this request with a new custom response or the response from the server.
 
 [![start dropdown](https://assets.postman.com/postman-docs/WS-collections-add-examples.png)](https://assets.postman.com/postman-docs/WS-collections-add-examples.png)
 
@@ -90,7 +90,7 @@ Click on the **Examples** dropdown in the upper right corner of the builder to a
 
 ## What happened to the 'Save Response' feature?
 
-[Saving responses](/docs/postman/sending-api-requests/responses/) has been a Postman feature for a long time. Over time users wanted to edit responses before saving them, and add new responses. Examples provides that functionality.
+[Saving responses](/docs/sending-requests/responses/) has been a Postman feature for a long time. Over time users wanted to edit responses before saving them, and add new responses. Examples provides that functionality.
 
 You can save responses as before, but now you can edit them whenever you want. To access previously saved responses, click the **Examples** dropdown.
 
@@ -98,10 +98,10 @@ You can save responses as before, but now you can edit them whenever you want. T
 
 ## How your examples appear in Postman documentation
 
-You can publish Postman [API documentation](/docs/postman/api-documentation/documenting-your-api/) to the web. Examples display in your API documentation and provide additional details and clarification for your API.
+You can publish Postman [API documentation](/docs/publishing-your-api/documenting-your-api/) to the web. Examples display in your API documentation and provide additional details and clarification for your API.
 
 You can edit these examples with real-time updates to the documentation.
 
 ![how examples appear in documentation](https://assets.postman.com/postman-docs/Examples.jpg)
 
-This behavior allows teams to mock an example request and response, in addition to simulating the endpoint using [mock servers](/docs/postman/mock-servers/intro-to-mock-servers/). Front-end and back-end developers and testers can all begin working in parallel, based on the agreed-upon example.
+This behavior allows teams to mock an example request and response, in addition to simulating the endpoint using [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). Front-end and back-end developers and testers can all begin working in parallel, based on the agreed-upon example.

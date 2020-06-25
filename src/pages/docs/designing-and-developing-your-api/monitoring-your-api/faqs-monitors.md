@@ -10,11 +10,11 @@ warning: false
 
 ### What can I test with Monitors?
 
-You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](/docs/postman/scripts/test-scripts/) to check monitors for proper behavior, business logic, error handling, and so on.
+You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](/docs/writing-scripts/test-scripts/) to check monitors for proper behavior, business logic, error handling, and so on.
 
 ### What restrictions apply?
 
-To learn what restrictions apply, see [Intro to Monitoring](/docs/postman/monitors/intro-monitors/).
+To learn what restrictions apply, see [Intro to Monitoring](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/).
 
 ### How many monitors can I create?
 
@@ -34,7 +34,7 @@ There is nearly no limit to the amount of data that can be sent or received per 
 
 ### How do I troubleshoot problems?
 
-You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/postman/monitors/troubleshooting-monitors).
+You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/).
 
 ## Security
 
@@ -44,7 +44,7 @@ Monitors are visible to all members of the workspace they were created in. If a 
 
 ### Who can edit my Monitors?
 
-Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) on the associated collection.
+Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/collaborating-in-postman/roles-and-permissions/) on the associated collection.
 
 ### Can I delete a Monitor?
 

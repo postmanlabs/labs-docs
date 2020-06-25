@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Settings"
-    url: "/docs/postman/launching-postman/settings/"
+    name: "Setting up Postman"
+    url: "/docs/getting-started/settings/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -52,7 +52,7 @@ Once your certificate is added, it should appear in the client certificates list
 
 You do not have to perform any extra steps to use a client certificate if it has been added. If you make a request to a configured domain, the certificate will automatically be sent with the request, provided you make the request over HTTPS.
 
-You can verify this. To do so, open up your Postman console (**CMD/CTRL + ALT + C**). You can read more about the [Postman Console](/docs/postman/sending-api-requests/debugging-and-logs/). A new window will open up.
+You can verify this. To do so, open up your Postman console (**CMD/CTRL + ALT + C**). You can read more about the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/). A new window will open up.
 
 Now, send a request to [`https://echo.getpostman.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722). Keep the Postman Console open if Postman version is lower than `v7.10`. Notice we’re using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman console to see your request. If you expand your request, you will be able to see which certificate was sent along with the request.
 
@@ -74,7 +74,7 @@ Postman will indicate certificate information in the __Network__ response pop-up
 
 [![Network info](https://assets.postman.com/postman-docs/network-info-response.jpg)](https://assets.postman.com/postman-docs/network-info-response.jpg)
 
-You can also see certificate info in the [console](/docs/postman/sending-api-requests/debugging-and-logs/).
+You can also see certificate info in the [console](/docs/sending-requests/troubleshooting-api-requests/).
 
 <img alt="Certificate info in console" src="https://assets.postman.com/postman-docs/certificate-info-in-console.jpg" width="300px"/>
 
@@ -90,7 +90,7 @@ If you have SSL verification switched off either globally or for the individual 
 
 <img alt="Certificate error" src="https://assets.postman.com/postman-docs/certificate-error-in-network-info.jpg" width="400px"/>
 
-You can find more information about failed certification in the [console](/docs/postman/sending-api-requests/debugging-and-logs/).
+You can find more information about failed certification in the [console](/docs/sending-requests/troubleshooting-api-requests/).
 
 <img alt="Certificate fail in console" src="https://assets.postman.com/postman-docs/console-certificate-fail.jpg" width="600px"/>
 
