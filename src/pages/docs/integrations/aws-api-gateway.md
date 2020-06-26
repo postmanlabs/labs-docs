@@ -63,7 +63,7 @@ Your newly created integration will now appear under Configured Integrations.
 
 To confirm this integration, navigate to your AWS Gateway dashboard, select your API Gateway, then select **Integrations** to view your newly uploaded endpoints.
 
-<img src="https://assets.postman.com/postman-docs/configured-in-aws.jpg" width="500px" alt="Configured integration in AWS"/>
+<img src="https://assets.postman.com/postman-docs/configured-in-aws-2.jpg" width="500px" alt="Configured integration in AWS"/>
 
 This integration will be triggered whenever the configured Postman schema is updated. Any configured AWS integrations will be preserved.
 
