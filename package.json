@@ -31,7 +31,6 @@
     "gatsby-plugin-sri": "^1.1.0",
     "gatsby-plugin-typography": "^2.3.8",
     "gatsby-remark-autolink-headers": "^2.1.11",
-    "gatsby-remark-check-links": "^2.1.0",
     "gatsby-remark-embed-video": "^2.0.1",
     "gatsby-remark-responsive-iframe": "^2.2.31",
     "gatsby-source-filesystem": "^2.1.26",
