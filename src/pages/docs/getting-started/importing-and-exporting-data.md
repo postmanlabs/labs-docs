@@ -68,7 +68,7 @@ You can import your data via files, folders, links, or raw text.
 
 ### Importing Postman data
 
-You can import Postman data you previously exported, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals.  
+You can import Postman data you previously exported, including collections, environments, data dumps, and globals.  
 
 To import Postman data, click **Import**. Select your file or folder, input your link, or paste your raw text. Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
 
@@ -102,7 +102,7 @@ You can also configure your **Import Settings**, which will differ depending on 
 
 ## Exporting Postman data
 
-You can export your Postman data, including [collections](#collections), [environments](#environments), [data dumps](#data-dumps), and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/), Postman's command-line collection runner.
+You can export your Postman data, including collections, environments, data dumps, and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 ### Exporting collections
 

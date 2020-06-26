@@ -43,7 +43,7 @@ Save the generated token to use later.
 
     The above screen provides you the following two options:
 
-    * [Backup your Postman Collections to GitLab](#backup-your-postman-collections-to-GitLab)
+    * [Backup your Postman Collections to GitLab](#backup-your-postman-collections-to-gitlab)
     * [Backup your Postman Collections to GitLab on a custom domain](#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
 
 ## Backup your Postman Collections to GitLab

@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Command line integration with Newman"
-    url: "/docs/running-collections/using-newman/command-line-integration-with-newman/"
+    url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -141,6 +141,6 @@ For more information about collection runs, see:
 
 * [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
 * [Working with data files](/docs/running-collections/working-with-data-files/)
-* [Building workflows](/docs/running-collections/building-workflows/)ning-collections/using-newman/integration-with-jenkins/)
-* [Integration with Travis CI](/docs/running-collections/using-newman/integration-with-travis/)
-* [Newman with Docker](/docs/running-collections/using-newman/newman-with-docker/)
+* [Building workflows](/docs/running-collections/building-workflows/)ning-collections/using-newman-cli/integration-with-jenkins/)
+* [Integration with Travis CI](/docs/running-collections/using-newman-cli/integration-with-travis/)
+* [Newman with Docker](/docs/running-collections/using-newman-cli/newman-with-docker/)

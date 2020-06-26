@@ -73,4 +73,4 @@ See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sand
 To continue learning to leverage collection runs, check out the following resources:
 
 * [Building workflows](/docs/running-collections/building-workflows/)
-* [Command line integration with Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/)
+* [Command line integration with Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)

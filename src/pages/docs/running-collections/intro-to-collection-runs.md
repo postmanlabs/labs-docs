@@ -114,5 +114,5 @@ To import a collection run, open the __Runner__ and click **Import Runs** at the
 
 In addition to using the Collection Runner in Postman, you can use collection runs in conjunction with other utilities in order to build automation into your API projects.
 
-* The Postman command line interface [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/) allows you to run collections and build them into your development pipeline, responding to test outcomes to maintain your API performance.
+* The Postman command line interface [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) allows you to run collections and build them into your development pipeline, responding to test outcomes to maintain your API performance.
 * Adding a [monitor](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to your collection lets you schedule collection runs and stay informed of any issues.

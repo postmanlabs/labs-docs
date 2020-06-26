@@ -66,8 +66,8 @@ Click **View Details** to see information about Github and how it can back up yo
 
 The above screen provides you the following two options:
 
-* [Backup your Postman Collections to GitHub](#backup-collections-to-gitHub)
-* [Backup your Postman Collections to GitHub on a custom domain](#backup-collections-to-gitHub-on-custom-domain)
+* [Backup your Postman Collections to GitHub](#backup-collections-to-github)
+* [Backup your Postman Collections to GitHub on a custom domain](#backup-collections-to-github-on-custom-domain)
 
 ### Backup collections to GitHub
 

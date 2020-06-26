@@ -44,9 +44,7 @@ Postman will alert you with notifications when activities occur within your team
 
     * [Finding teams within your organization](#finding-teams-within-your-organization)
 
-* [Usage limits for free users](#usage-limit-for-free-users)
-
-    * [Usage limit](#usage-limit)
+* [Usage limit](#usage-limit)
 
     * [How archiving works](#how-archiving-works)
 
@@ -114,7 +112,7 @@ You will see a list of available teams within your org. Select a team, answer th
 
 The team administrator will receive a notification that you’ve asked to join the team. Once they approve your request, you will be able to access the team and collaborate on API projects within it.
 
-### Usage limit
+## Usage limit
 
 You can check your usage limits within the Postman app as well as in the dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting a team name.
 

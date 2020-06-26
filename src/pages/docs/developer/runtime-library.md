@@ -12,7 +12,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Continuous Integration"
-    url: "/docs/running-collections/using-newman/continuous-integration/"
+    url: "/docs/running-collections/using-newman-cli/continuous-integration/"
 
 warning: false
 

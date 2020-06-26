@@ -42,7 +42,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Command line integration with Newman"
-    url: "/docs/running-collections/using-newman/command-line-integration-with-newman/"
+    url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
 
 warning: false
 

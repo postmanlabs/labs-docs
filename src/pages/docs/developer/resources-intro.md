@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Newman on the command line"
-    url: "/docs/building-and-running-collections/using-newman/command-line-integration-with-newman/"
+    url: "/docs/building-and-running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -28,7 +28,7 @@ Check out the pages in this section for an intro to developer resources that all
 * [**Echo API**](/docs/developer/echo-api/)
     * Use the Echo API to learn and experiment with Postman.
 * [**Collections SDK**](/docs/developer/collection-sdk/)
-    * The Collections SDK is a JavaScript module for working with Postman [collections](/docs/building-and-running-collections/intro-to-collections/).
+    * The Collections SDK is a JavaScript module for working with Postman [collections](/docs/sending-requests/intro-to-collections/).
 * [**Runtime library**](/docs/developer/runtime-library/)
     * The Runtime library powers Postman request sending functionality.
 * [**Code generators**](/docs/developer/code-generators/)
@@ -36,4 +36,4 @@ Check out the pages in this section for an intro to developer resources that all
 * [**Postman collection converters**](/docs/developer/collection-conversion/)
     * The converters allow you to transform OpenAPI, Swagger, RAML, and GraphQL specs to Postman collection format.
 
-> You can use the __Postman CLI [Newman](/docs/building-and-running-collections/using-newman/command-line-integration-with-newman/)__ in conjunction with other utilities to build collection runs into your development pipeline. Newman is also an [open source project](https://github.com/postmanlabs/newman) that you can use and contribute to.
+> You can use the __Postman CLI [Newman](/docs/building-and-running-collections/using-newman-cli/command-line-integration-with-newman/)__ in conjunction with other utilities to build collection runs into your development pipeline. Newman is also an [open source project](https://github.com/postmanlabs/newman) that you can use and contribute to.
