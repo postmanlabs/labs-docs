@@ -76,8 +76,7 @@ module.exports = {
               noIframeBorder: true, // Optional: Disable insertion of <style> border: 0
             },
           },
-          'gatsby-remark-responsive-iframe',
-          'gatsby-remark-autolink-headers'
+          'gatsby-remark-responsive-iframe'
         ],
       },
     },
