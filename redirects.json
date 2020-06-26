@@ -628,6 +628,10 @@
 		"to": "/docs/writing-scripts/script-references/variables-list/"
 	},
 	{
+  		"from": "/docs/postman/environments-and-globals/variables/",
+  		"to": "/docs/sending-requests/variables/"
+	},
+	{
 		"from": "/docs/postman/environments_and_globals/intro_to_environments_and_globals/",
 		"to": "/docs/sending-requests/managing-environments/"
 	},
