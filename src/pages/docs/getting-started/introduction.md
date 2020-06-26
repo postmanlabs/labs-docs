@@ -74,7 +74,7 @@ If you're testing an API, you can use Postman to automate various parts of the p
 
 If you're developing a back-end, working API-first, or need to monitor API performance, Postman utilities can streamline your workflows:
 
-* [Creating an API from scratch](/docs/designing-and-developing-your-api/the-api-workflow/)
+* [Creating an API from a schema](/docs/designing-and-developing-your-api/the-api-workflow/)
 * [Monitoring test runs](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/)
 * [Analyzing API performance](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
 * [Mocking responses](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
@@ -92,9 +92,9 @@ If you're exposing an API for public use, Postman can support developer onboardi
 If you're using Postman in your company or team, check out these guides to maximize on your collaboration:
 
 * [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
+* [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 * [Managing Postman for an organization](/docs/administration/managing-your-team/)
 * [Onboarding your team](/docs/administration/onboarding-checklist/)
-* [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 
 ### Developing with Postman
 

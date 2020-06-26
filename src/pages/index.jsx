@@ -57,20 +57,20 @@ const IndexPage = () => (
             title="Get Started"
             description="Learn the Postman fundamentals by reading the docs."
             cta="Begin learning"
-            link="https://learning.postman.com/docs/"
+            link="/docs/"
             icon={LearnImage}
           />
           <LandingCard
             title="Admin"
             description="Administer your account and set up your team for success."
-            link="https://learning.postman.com/docs/admin/admin-intro/"
+            link="/docs/administration/managing-your-team/"
             cta="Manage Postman"
             icon={AdminImage}
           />
           <LandingCard
             title="Develop"
             description="Build your own utilities with Postman resources."
-            link="https://learning.postman.com/docs/resources/resources-intro/"
+            link="/docs/developer/resources-intro/"
             cta="Discover resources"
             icon={ResourceImage}
           />
