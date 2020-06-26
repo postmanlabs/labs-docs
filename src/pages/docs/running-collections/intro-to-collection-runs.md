@@ -92,7 +92,7 @@ The summary also lists a column for each iteration of your collection run so tha
 
 ## Sharing collection runs
 
-You can share the run results for a collection, by [exporting them from the Collection Runner](#exporting-collection-runs) so that other people can [import them into Postman](#importing-a-run).
+You can share the run results for a collection, by exporting them from the Collection Runner so that other people can import them into Postman.
 
 To export a collection run, click __Runner__ and find the run you want to export in the __Recent Runs__ list. You will see the __Export run__ icon appear on hover—click it to download the run.
 

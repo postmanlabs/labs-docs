@@ -82,7 +82,7 @@ You can review the issues found during validation [from the Postman app](#access
 If your issue arises when you run a request, click the warning message next to the name of the request (e.g. **1 issue**). This will open a side-panel on the right indicating detailed information about which component of the request is affected and what the issue itself is:
 
 * A direct link to the API against which the request is validated—click the link to open the API within the Postman app.
-* More details on where the issue lies within the request. Check out the [complete list of possible issues](#list-of-possible-issues).
+* More details on where the issue lies within the request.
 
 > You can click a specific issue to access the relevant request component.
 
