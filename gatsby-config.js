@@ -38,10 +38,7 @@ module.exports = {
       options: {
         id: 'GTM-M42M5N',
         includeInDevelopment: true,
-        includeInDevelopment: true,
       },
-      },
-    },
     },
     'gatsby-plugin-react-helmet',
     {
