@@ -39,7 +39,7 @@ This section illustrates the possible user flows and guides you through the migr
 
 The next section explains the following scenarios:
 
-* [Team on Postman version 5/6](#team-on-postman-version-5/6)
+* [Team on Postman version 5/6](#team-on-postman-version-56)
 * [Team user on Postman v7](#team-user-on-postman-v7)
 
 ### Team on Postman version 5/6

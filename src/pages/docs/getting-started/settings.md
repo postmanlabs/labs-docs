@@ -96,7 +96,7 @@ Import and export data in bulk inside Postman.  This will overwrite your existi
 
 ## Add-ons
 
-Download Newman, Postman's command line companion, to integrate Postman collections with your build system, or run automated tests for your API through a cron job. Learn more about [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/).
+Download Newman, Postman's command line companion, to integrate Postman collections with your build system, or run automated tests for your API through a cron job. Learn more about [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
 ## Sync
 

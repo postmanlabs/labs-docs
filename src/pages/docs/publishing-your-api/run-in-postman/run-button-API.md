@@ -28,7 +28,7 @@ The JavaScript Run in Postman API is accessible through the dynamic Run in Postm
 
 * [Replacing an existing environment](#replacing-an-existing-environment)
 
-* [Using multiple buttons](#using-multiple-buttons)
+* [Using multiple buttons](#using-multiple-buttons-with-separate-environments)
 
 * [Next steps](#next-steps)
 

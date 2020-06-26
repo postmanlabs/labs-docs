@@ -13,7 +13,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Continuous Integration"
-    url: "/docs/running-collections/using-newman/continuous-integration/"
+    url: "/docs/running-collections/using-newman-cli/continuous-integration/"
 
 warning: false
 
@@ -83,4 +83,4 @@ Your Postman account gives you a limited number of free Postman API calls per mo
 
 ## Next steps
 
-You can [combine the Postman API with Newman](/docs/running-collections/using-newman/continuous-integration/) to integrate Postman with your CI/CD workflow.
+You can [combine the Postman API with Newman](/docs/running-collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.

@@ -457,7 +457,7 @@
 	},
 	{
 		"from": "/docs/postman/collection-runs/command-line-integration-with-newman/",
-		"to": "/docs/running-collections/using-newman/command-line-integration-with-newman/"
+		"to": "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/debugging-a-collection-run/",
@@ -465,11 +465,11 @@
 	},
 	{
 		"from": "/docs/postman/collection-runs/integration-with-jenkins/",
-		"to": "/docs/running-collections/using-newman/integration-with-jenkins/"
+		"to": "/docs/running-collections/using-newman-cli/integration-with-jenkins/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/integration-with-travis/",
-		"to": "/docs/running-collections/using-newman/integration-with-travis/"
+		"to": "/docs/running-collections/using-newman-cli/integration-with-travis/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/intro-to-collection-runs/",
@@ -477,7 +477,7 @@
 	},
 	{
 		"from": "/docs/postman/collection-runs/newman-with-docker/",
-		"to": "/docs/running-collections/using-newman/newman-with-docker/"
+		"to": "/docs/running-collections/using-newman-cli/newman-with-docker/"
 	},
 	{
 		"from": "/docs/postman/collection-runs/running-multiple-iterations/",
@@ -777,7 +777,7 @@
 	},
 	{
 		"from": "/docs/postman/postman-api/continuous-integration/",
-		"to": "/docs/running-collections/using-newman/continuous-integration/"
+		"to": "/docs/running-collections/using-newman-cli/continuous-integration/"
 	},
 	{
 		"from": "/docs/postman/postman-api/intro-api/",

@@ -77,7 +77,7 @@ The upper section charts your monitor's average response time for each run, whil
 
 ### Request split
 
-You can use **Request Split** to see how the response time varies for all requests made in a given run. To break this down into individual requests, you can utilize [Filters](#Filters).
+You can use **Request Split** to see how the response time varies for all requests made in a given run. To break this down into individual requests, you can utilize [Filters](#filters).
 
 ![Request split](https://assets.postman.com/postman-docs/request-split-view.jpg)
 

@@ -44,10 +44,10 @@ If you're just starting to learn about APIs and Postman, you can use a variety o
 
 If you're learning to carry out a specific task or workflow in Postman, check out the following topics to find resources:
 
-* [__Making requests__](#making-api-requests)
+* [__Making requests__](#making-requests)
 * [__Testing APIs__](#testing-apis)
 * [__Building and managing APIs__](#building-and-managing-apis)
-* [__Publishing APIs__](#publishing-your-api)
+* [__Publishing APIs__](#publishing-apis)
 * [__Collaborating with your team__](#collaborating-with-your-team)
 * [__Developing with Postman__](#developing-with-postman)
 
@@ -100,8 +100,8 @@ If you're using Postman in your company or team, check out these guides to maxim
 
 If you're integrating Postman with your CI/CD workflow or are developing with Postman APIs or libraries, check out these resources:
 
-* [Integrating with a development pipeline](/docs/running-collections/using-newman/command-line-integration-with-newman/)
-* [Developing with Postman utilities](/docs/resources/resources-intro/)
+* [Integrating with a development pipeline](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
+* [Developing with Postman utilities](/docs/developer/resources-intro/)
 * [Postman API](/docs/developer/intro-api/)
 
 ## Providing feedback

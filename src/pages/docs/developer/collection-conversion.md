@@ -13,7 +13,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Continuous Integration"
-    url: "/docs/running-collections/using-newman/continuous-integration/"
+    url: "/docs/running-collections/using-newman-cli/continuous-integration/"
 
 warning: false
 
@@ -30,8 +30,8 @@ The following open source projects are hosted on GitHub:
 
 Each of these node.js modules is available to use via NPM or by cloning directly from the repo.
 
-Check out the repo for the format you need to convert—the READMEs indicate how to install and use the converters. Your output collections will be suitable for import into the Postman app, or to run collections on the command line using [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/).
+Check out the repo for the format you need to convert—the READMEs indicate how to install and use the converters. Your output collections will be suitable for import into the Postman app, or to run collections on the command line using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
 ## Next steps
 
-If you're using converters to automate Postman collection runs with your development, testing, or deployment pipeline, check out how you can use [Postman API in your CI workflow](/docs/running-collections/using-newman/continuous-integration/).
+If you're using converters to automate Postman collection runs with your development, testing, or deployment pipeline, check out how you can use [Postman API in your CI workflow](/docs/running-collections/using-newman-cli/continuous-integration/).

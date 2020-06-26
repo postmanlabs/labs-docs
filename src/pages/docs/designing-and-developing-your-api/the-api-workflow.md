@@ -80,7 +80,7 @@ You can define the structure of your API using its specification. You can also g
 * [Editing your schema](#editing-your-schema)
 * [Generating a collection](#generating-a-collection)
 
-> You can also [sync an API spec from a GitHub repository](/docs/integrations/github/#syncing-your-api-schemas-on-github).
+> You can also [sync an API spec from a GitHub repository](/docs/integrations/available-integrations/github/#syncing-your-api-schemas-on-github).
 
 ### Editing your schema
 
@@ -155,7 +155,7 @@ You can edit existing mock servers from an **API** by opening the **Develop** ta
 
 <img alt="Edit Mock from Schema" src="https://assets.postman.com/postman-docs/edit-mock-schema.jpg" width="200px"/>
 
-Your [mock will open for editing](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#editing-mock-servers) in the Postman web dashboard.
+Your [mock will open for editing](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#editing-and-deleting-mock-servers) in the Postman web dashboard.
 
 [![api edit mock web](https://assets.postman.com/postman-docs/editmockserver.png)](https://assets.postman.com/postman-docs/editmockserver.png)
 
