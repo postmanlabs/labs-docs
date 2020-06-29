@@ -10,7 +10,6 @@ import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
 
 import { CustomHits } from '../Search/searchPreview';
 
-
 const ClickOutHandler = require('react-onclickout');
 
 const algoliaClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04b0');

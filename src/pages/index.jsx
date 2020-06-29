@@ -28,9 +28,9 @@ const landingBottom = {
   backgroundColor: '#eaf2f8',
   marginTop: '80px',
 };
-const landingBottomContent = {
-  padding: '32px',
-};
+// const landingBottomContent = {
+//   padding: '32px',
+// };
 
 const IndexPage = () => (
   <Layout>
@@ -40,7 +40,7 @@ const IndexPage = () => (
         <div className="col-lg-5 hero-text">
           <h2>Postman Learning Center</h2>
           <p>
-          Learn how to effectively use Postman in your API projects.
+            Learn how to effectively use Postman in your API projects.
           </p>
           <a href="/docs/" className="btn btn__primary">Explore the docs</a>
         </div>
@@ -108,7 +108,7 @@ const IndexPage = () => (
       <div className="col-md-4" style={{ paddingLeft: '32px' }}>
         <h2>Intro to Postman</h2>
         <p>
-        Learn the Postman fundamentals in this video course for beginners.
+          Learn the Postman fundamentals in this video course for beginners.
         </p>
         <p>Send and authorize a request, write test scripts, and chain requests together.</p>
       </div>
@@ -116,23 +116,24 @@ const IndexPage = () => (
 
     <section className="row design">
       <div className="col-md-12 text-center" style={landingBottom}>
-      <div className="row justify-content-center">
-      <div className="col-md-4 text-center">
-        <h4>Postman support</h4>
-        <p>Reach out to our support team.</p>
-        <a href="https://support.getpostman.com/hc/en-us/requests/new/" className="btn btn__secondary-light">Open a ticket</a>
+        <div className="row justify-content-center">
+          <div className="col-md-4 text-center">
+            <h4>Postman support</h4>
+            <p>Reach out to our support team.</p>
+            <a href="https://support.getpostman.com/hc/en-us/requests/new/" className="btn btn__secondary-light">Open a ticket</a>
+          </div>
+          <div className="col-md-4 text-center">
+            <h4>Bugs and feature requests</h4>
+            <p>Check out the app support repo.</p>
+            <a href="https://github.com/postmanlabs/postman-app-support/" className="btn btn__secondary-light">Make a request</a>
+          </div>
+          <div className="col-md-4 text-center">
+            <h4>Product roadmap</h4>
+            <p>Find out what we&apos;re working on.</p>
+            <a href="https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers" className="btn btn__secondary-light">See the roadmap</a>
+          </div>
         </div>
-        <div className="col-md-4 text-center">
-          <h4>Bugs and feature requests</h4>
-          <p>Check out the app support repo.</p>
-        <a href="https://github.com/postmanlabs/postman-app-support/" className="btn btn__secondary-light">Make a request</a>
-        </div>
-        <div className="col-md-4 text-center">
-          <h4>Product roadmap</h4>
-          <p>Find out what we're working on.</p>
-        <a href="https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers" className="btn btn__secondary-light">See the roadmap</a>
-        </div>
-      </div></div>
+      </div>
     </section>
   </Layout>
 );
