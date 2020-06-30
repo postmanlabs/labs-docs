@@ -1,6 +1,6 @@
 ---
 title: "GitLab"
-order: 290
+order: 291
 page_id: "gitlab"
 warning: false
 contextual_links:

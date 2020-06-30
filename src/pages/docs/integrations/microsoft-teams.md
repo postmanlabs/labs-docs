@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Teams"
-order: 294
+order: 295
 page_id: "microsoft_teams"
 warning: false
 contextual_links:
