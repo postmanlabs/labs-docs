@@ -64,7 +64,7 @@ Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-
 
 ## Approving changes
 
-Once the pull request is created, navigate to the collection in your dashboard to check the status of the pull request under the **Pull Requests** tab.
+You can approve changes on a fork (the source) into the parent fork (the destination). Once the pull request is created, navigate to the collection in your dashboard to check the status of the pull request under the **Pull Requests** tab.
 
 <img src="https://assets.postman.com/postman-docs/status-pull-request.jpg" alt="Status Pull Request" width="850px"/>
 
