@@ -20,6 +20,7 @@ You can use version control with your Postman collections, forking and merging u
 
 * [Forking a collection](#forking-a-collection)
 * [Creating pull requests](#creating-pull-requests)
+* [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
 * [Pulling updates](#pulling-updates)
 * [Reviewing pull requests](#reviewing-pull-requests)
@@ -61,13 +62,13 @@ If your pull request has no conflicts, you can go ahead and open it for review. 
 
 Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-requests) your changes into the parent collection.
 
-## Approving Changes
+## Approving changes
 
-Once the pull request is created, you can check the status under the **Pull Requests** tab.
+Once the pull request is created, navigate to the collection in your dashboard to check the status of the pull request under the **Pull Requests** tab.
 
 <img src="https://assets.postman.com/postman-docs/status-pull-request.jpg" alt="Status Pull Request" width="850px"/>
 
-The reviewer can go ahead and approve the pull request. Upon approval, you will see the status of the pull request as **Approved**.
+If you're tagged as a reviewer on a pull request, you can go ahead and approve the pull request. Upon approval, you will see the status of the pull request as **Approved**.
 
 <img src="https://assets.postman.com/postman-docs/approve-fork.jpg" alt="Approve Fork" width="850px"/>
 
