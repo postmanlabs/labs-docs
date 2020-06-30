@@ -55,7 +55,7 @@ Select your API, API version, and the API Gateway you'd like to deploy to from t
 
 <img src="https://assets.postman.com/postman-docs/select-api-version-gateway.jpg" width="350px" alt="Enter API info and Gateway"/>
 
-Your newly created integration will now appear under Configured Integrations.
+Your newly created integration will now appear under **Configured Integrations**.
 
 > You can have one AWS API Gateway integration configured for each API version.
 
