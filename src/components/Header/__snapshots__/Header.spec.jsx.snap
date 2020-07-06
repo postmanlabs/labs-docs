@@ -113,7 +113,7 @@ exports[`renders correctly 1`] = `
     >
       <a
         className="dynamic-link__internal nav-link"
-        href="/docs/administration/admin-intro/"
+        href="/docs/administration/managing-your-team/"
       >
         Admin
       </a>
