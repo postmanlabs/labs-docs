@@ -61,7 +61,7 @@ For every request in a collection, scripts will execute in the following order:
 * A pre-request script associated with a collection will run prior to every request in the collection.
 * A pre-request script associated with a folder will run prior to every request in the folder.
 * A test script associated with a collection will run after every request in the collection.
-* A test script associated with a folder will run after after request in the folder.
+* A test script associated with a folder will run after request in the folder.
 
 [![workflow for request in collection](https://assets.postman.com/postman-docs/execOrder.png)](https://assets.postman.com/postman-docs/execOrder.png)
 

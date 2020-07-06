@@ -20,6 +20,7 @@ You can use version control with your Postman collections, forking and merging u
 
 * [Forking a collection](#forking-a-collection)
 * [Creating pull requests](#creating-pull-requests)
+* [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
 * [Pulling updates](#pulling-updates)
 * [Reviewing pull requests](#reviewing-pull-requests)
@@ -29,15 +30,15 @@ You can use version control with your Postman collections, forking and merging u
 
 You can fork a collection from the Postman app or the [web dashboard](https://go.postman.co/). To fork a collection in the Postman app, select the collection in the __Collections__ sidebar and click the __View more actions__ (__...__) button. Select __Create a Fork__.
 
-<img src="https://assets.postman.com/postman-docs/create-collection-fork.jpg" alt="Create Fork" width="250px"/>
+<img src="https://assets.postman.com/postman-docs/create-fork-light.jpg" alt="Create Fork" width="250px"/>
 
 Enter a label for your fork, and select a workspace to save it to. Click __Fork collection__.
 
-<img src="https://assets.postman.com/postman-docs/fork-name.jpg" alt="Create Fork" width="350px"/>
+<img src="https://assets.postman.com/postman-docs/fork-label-light.jpg" alt="Fork Label" width="350px"/>
 
 Your fork will be created in the selected workspace.
 
-[![fork collection](https://assets.postman.com/postman-docs/Forking_a_Collection.gif)](https://assets.postman.com/postman-docs/Forking_a_Collection.gif)
+[![fork collection](https://assets.postman.com/postman-docs/create-a-fork-collection.gif)](https://assets.postman.com/postman-docs/create-a-fork-collection.gif)
 
 > If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
 
@@ -45,7 +46,7 @@ Your fork will be created in the selected workspace.
 
 You can merge changes from a collection fork (the _source_) into the parent (the _destination_) using a pull request process, tagging reviewers who can comment on your changes and decide to merge or not. In the Postman app or web dashboard, open the menu for a collection and select __Create pull request__.
 
-<img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/create-collection-pull-request.jpg" width="250px"/>
+<img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/create-pull-request-light.jpg" width="250px"/>
 
 You can overview the source, destination, and changes that will be included in the pull request.
 
@@ -57,9 +58,19 @@ If there are any conflicts, they will be highlighted so that you can [resolve th
 
 If your pull request has no conflicts, you can go ahead and open it for review. Enter a title and description, and select up to three reviewers from the dropdown list. Reviewers will need edit access to the collection in order to merge your changes. Click __Create Pull Request__.
 
-<img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-detail.jpg" width="350px"/>
+<img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview.jpg" width="850px"/>
 
 Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-requests) your changes into the parent collection.
+
+## Approving changes
+
+You can approve changes on a fork (the source) into the parent fork (the destination). Once the pull request is created, navigate to the collection in your dashboard to check the status of the pull request under the **Pull Requests** tab.
+
+<img src="https://assets.postman.com/postman-docs/status-pull-request.jpg" alt="Status Pull Request" width="850px"/>
+
+If you're tagged as a reviewer on a pull request, you can go ahead and approve the pull request. Upon approval, you will see the status of the pull request as **Approved**.
+
+<img src="https://assets.postman.com/postman-docs/approve-fork.jpg" alt="Approve Fork" width="850px"/>
 
 ## Merging changes
 
@@ -69,7 +80,7 @@ When you merge changes from a fork into its parent collection, you have a chance
 
 Postman will display an overview of the changes you are attempting to merge.
 
-![Merge Fork](https://assets.postman.com/postman-docs/merge-fork-collection.jpg)
+![Merge Fork](https://assets.postman.com/postman-docs/merge-fork-collection-change.jpg)
 
 > If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
@@ -85,11 +96,11 @@ You can keep your forked collections up to date with any changes in the parent, 
 
 To compare your fork to its parent, choose __Merge Changes__ in the forked collection (in the Postman app or web dashboard).
 
-<img src="https://assets.postman.com/postman-docs/merge-fork-changes.jpg" alt="Merge Fork" width="250px"/>
+<img src="https://assets.postman.com/postman-docs/merge-changes-light.jpg" alt="Merge Fork" width="250px"/>
 
 Postman will warn you before you attempt to merge a fork whose parent has changed since you last updated it. Click __Pull Changes__ to update your fork with the changes in the parent collection.
 
-![Update Fork](https://assets.postman.com/postman-docs/update-fork.jpg)
+![Update Fork](https://assets.postman.com/postman-docs/merge-changes-screen.jpg)
 
 ## Reviewing pull requests
 
@@ -101,21 +112,17 @@ You can see a list of pull request for any collection in the web dashboard __Pul
 
 Each pull request includes status, which will be `OPEN` for any that have not been merged or declined.
 
-Select an open pull request from the list to review it. You can comment to have a discussion or request changes.
-
-![Pull Request Comments](https://assets.postman.com/postman-docs/pull-request-comments.jpg)
-
 You can choose to __Edit__ or __Decline__ the pull request.
 
-If you are ready to merge, click __Approve and Merge__. [Choose a merge option](#merging-changes) and click __Merge__.
+![Pull Request Options](https://assets.postman.com/postman-docs/edit-decline-pull-request.jpg)
 
-The pull request will be listed as merged in the Collection __Pull Requests__ list.
+Once a pull request is merged, you cannot __edit__ or __decline__ it. You can check the merged pull request in the Collection __Pull Requests__ list.
 
-![Merged PR](https://assets.postman.com/postman-docs/merged-pull-request.jpg)
+![Merged PR](https://assets.postman.com/postman-docs/pull-request-list.jpg)
 
 You can view the detail on any merged pull request by selecting it.
 
-![Merged PR Detail](https://assets.postman.com/postman-docs/merged-pr-detail.jpg)
+![Merged PR Detail](https://assets.postman.com/postman-docs/pull-request-details.jpg)
 
 ## Resolving conflicts
 
