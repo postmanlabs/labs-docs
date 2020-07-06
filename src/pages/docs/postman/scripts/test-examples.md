@@ -93,7 +93,7 @@ pm.environment.unset("variable_key");
 
 ## Collection
 
-### Setting an collection variable
+### Setting a collection variable
 
 ```js
 pm.collectionVariables.set(variableName:String, variableValue:String);
