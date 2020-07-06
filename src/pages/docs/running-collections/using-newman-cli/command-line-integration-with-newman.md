@@ -1,5 +1,5 @@
 ---
-title: "Running collections on the command line"
+title: "Running collections on the command line with Newman"
 order: 60
 page_id: "command_line_integration_with_newman"
 search_keyword: "newman run"
@@ -64,13 +64,13 @@ $ npm install -g newman
 
 The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system.
 
-To learn how to export collections to share as a file, see the [collection documentation](/docs/collaborating-in-postman/sharing/).
+> You can [export a collection](/docs/getting-started/importing-and-exporting-data/#exporting-collections) to share as a file.
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/collaborating-in-postman/sharing/) to learn how to share a file as a URL.
+You can also pass a collection as a URL by [sharing](/docs/collaborating-in-postman/sharing/#sharing-by-link) it.
 
 Your collection probably uses environment variables. To provide an accompanying set of [environment variables](/docs/sending-requests/managing-environments/), export the template from Postman and run them with the `-e` flag.
 

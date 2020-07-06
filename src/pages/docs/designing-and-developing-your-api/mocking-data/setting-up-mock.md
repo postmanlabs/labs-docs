@@ -323,7 +323,6 @@ In the case of a service outage, you will get a 502/503/504 response. Please sub
 
 For more information about mock servers, see the following resources:
 
-* [Setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Mocking with examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/)
 * [Mocking with the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/)
 * [Matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/)

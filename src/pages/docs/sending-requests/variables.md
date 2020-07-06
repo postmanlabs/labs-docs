@@ -345,4 +345,4 @@ See the [Dynamic Variables](/docs/writing-scripts/script-references/variables-li
 
 ## Next steps
 
-For an overview of how you can manage and share variable data sets, see [Managing environments](/docs/sending-requests/managing-environments/). Check out [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on using variables in your request scripting, and [Grouing requests in collections](/docs/sending-requests/intro-to-collections/) for more on how you can use data between requests.
+For an overview of how you can manage and share variable data sets, see [Managing environments](/docs/sending-requests/managing-environments/). Check out [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on using variables in your request scripting, and [Grouping requests in collections](/docs/sending-requests/intro-to-collections/) for more on how you can use data between requests.

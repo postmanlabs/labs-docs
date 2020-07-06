@@ -18,7 +18,7 @@ warning: false
 
 ---
 
-The Collection SDK is a node.js utility that allows you to work with Postman [collections](/docs/sending-requests/intro-to-collections/) and build them dynamically into your API project pipeline.
+The Collection SDK is a node.js utility that allows you to work with Postman [Collections](/docs/sending-requests/intro-to-collections/) and build them dynamically into your API project pipeline.
 
 With the Collection SDK, you can create and manipulate collections, exporting them in a format that you can then integrate with other utilities including the Postman app and [Newman CLI](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
@@ -39,7 +39,7 @@ myCollection = new Collection(JSON.parse
 console.log(myCollection.toJSON());
 ```
 
-The Collection SDK provides an interface for working with the data structures defined by the [Postman Collection Schema](https://schema.getpostman.com/). You can use the SDK methods to create and manipulate collection elements, defining request detail, variables, authentication, and so on.
+The Collection SDK provides an interface for working with the data structures defined by the [Postman Collection Schema](https://schema.getpostman.com/). You can use the SDK methods to create and manipulate collection elements, define request detail, variables, authentication, and so on.
 
 ## Next steps
 

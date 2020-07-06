@@ -1,5 +1,5 @@
 ---
-title: "Managing monitors"
+title: "Setting up a monitor"
 order: 89
 page_id: "setting_up_monitor"
 contextual_links:
@@ -145,7 +145,7 @@ When creating or editing a monitor, you can choose to receive email notification
 
 You can find detailed information on your monitor results by navigating to your [web dashboard](https://go.postman.co/), selecting a workspace > **Monitors**.
 
-> You can also utilize [Postman integrations](https://learning.postman.com/docs/integrations/intro-integrations/) to send monitor data and configure notifications using your desired platform, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/available-integrations/datadog/).
+> You can also utilize [Postman integrations](https://learning.postman.com/docs/integrations/intro-integrations/) to send monitor data and configure notifications using your desired platform, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).
 
 ### Using retry on failure
 

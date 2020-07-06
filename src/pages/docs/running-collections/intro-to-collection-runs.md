@@ -28,7 +28,9 @@ warning: false
 
 ---
 
-The Collection Runner allows you to run sets of requests in a specified sequence. The Collection Runner will log your request test results, and your scripts can pass data between requests as well as altering the request workflow. You can run collections against specific environments, and can pass data files into a run. Collection runs allow you to automate your API testing, and you can schedule runs using monitors. You can integrate collection runs to your CI/CD pipeline using Postman's CLI Newman.
+The Collection Runner allows you to run sets of requests in a specified sequence. The Collection Runner will log your request test results, and your scripts can pass data between requests as well as altering the request workflow.
+
+You can run collections against specific environments, and can pass data files into a run. Collection runs allow you to automate your API testing, and you can schedule runs using monitors. You can integrate collection runs to your CI/CD pipeline using Postman's CLI Newman.
 
 [![Runner results](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)](https://assets.postman.com/postman-docs/collection-run-results-overview.jpg)
 
@@ -40,6 +42,7 @@ The Collection Runner allows you to run sets of requests in a specified sequence
 * [Running your collections](#running-your-collections)
 * [Sharing collection runs](#sharing-collection-runs)
 * [Automating collection runs](#automating-collection-runs)
+* [Next steps](#next-steps)
 
 ## Starting a collection run
 
@@ -51,7 +54,7 @@ When you open the Collection Runner, it will display a list of recent collection
 
 [![Runner list](https://assets.postman.com/postman-docs/runner-open-list.jpg)](https://assets.postman.com/postman-docs/runner-open-list.jpg)
 
-You can switch workspace using the control at the top in the center of the window to access the collection you want to run.
+You can switch your workspace using the control at the top in the center of the window to access the collection you want to run.
 
 Your collections appear on the left. Select a collection or folder to run the requests inside it in the specified sequence. By default your requests will run in the sequence they are listed in the collection, but you can click to the left of each one and drag to move it if you need to change the order of execution. You can also deselect an individual request by unchecking its box.
 
@@ -116,3 +119,7 @@ In addition to using the Collection Runner in Postman, you can use collection ru
 
 * The Postman command line interface [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) allows you to run collections and build them into your development pipeline, responding to test outcomes to maintain your API performance.
 * Adding a [monitor](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to your collection lets you schedule collection runs and stay informed of any issues.
+
+## Next steps
+
+You can use scripts to [build workflows](/docs/running-collections/building-workflows/) specifying conditional sequences for running the requests in your collections.

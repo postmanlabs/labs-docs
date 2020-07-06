@@ -42,7 +42,7 @@ This section outlines the pre-requisites for validating your elements against an
 For validations to execute, you need the following elements in place:
 
 * An API schema - see [Defining an API](/docs/designing-and-developing-your-api/the-api-workflow/#defining-an-api)
-* API element(s) - this can be a [mock server](/docs/designing-and-developing-your-api/the-api-workflow/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation), [tests](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation), or a [monitor](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation)
+* API element(s) - this can be a [mock server](/docs/designing-and-developing-your-api/the-api-workflow/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation), [tests](/docs/designing-and-developing-your-api/the-api-workflow/#testing-an-api), or a [monitor](/docs/designing-and-developing-your-api/the-api-workflow/#observing-an-api)
 
 > Once the validation is complete, a status will appear next to the element indicating a checkmark if no issues have been found, or a warning message stating `Issues found`.
 
@@ -79,7 +79,7 @@ You can review the issues found during validation [from the Postman app](#access
 
 ### Accessing the issue summary from the Postman app
 
-If your issue arises when you run a request, click the warning message next to the name of the request (e.g. **1 issue**). This will open a side-panel on the right indicating detailed information about which component of the request is affected and what the issue itself is:
+If an issue arises when you run a request, click the warning message next to the name of the request (e.g. **1 issue**). This will open a side-panel on the right indicating detailed information about which component of the request is affected and what the issue itself is:
 
 * A direct link to the API against which the request is validated—click the link to open the API within the Postman app.
 * More details on where the issue lies within the request.

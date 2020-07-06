@@ -1,6 +1,6 @@
 ---
 title: "AWS API Gateway"
-order: 284
+order: 163.1
 page_id: "aws-api-gateway"
 warning: false
 contextual_links:

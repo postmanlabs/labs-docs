@@ -48,10 +48,10 @@ function (err, run) {
 });
 ```
 
-You can use the Runtime library if you need detailed configuration of your request runs, for example as part of an automation workflow you're using to integrate Postman collection runs into your development pipeline.
+You can use the Runtime library if you need a detailed configuration of your request runs, for example as part of an automation workflow to integrate Postman Collection runs into your development pipeline.
 
 > Note that if you only need to run collections, you can use [Newman CLI](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
 ## Next steps
 
-To get started with the Runtime library, check out the repo [README](https://github.com/postmanlabs/postman-runtime). You can implement to incorporate Postman into your workflow with [CI using Postman API](/docs/running-collections/using-newman-cli/continuous-integration/).
+To get started with the Runtime library, check out the repo [README](https://github.com/postmanlabs/postman-runtime). You can incorporate Postman into your workflow with [CI using Postman API](/docs/running-collections/using-newman-cli/continuous-integration/).

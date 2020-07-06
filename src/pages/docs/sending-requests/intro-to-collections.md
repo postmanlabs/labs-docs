@@ -57,7 +57,7 @@ You can create a new collection by clicking __+ New Collection__ in the left sid
 
 Give your new collection a name—you can click __Create__ straight away if you don't want to specify collection details until later.
 
-You can optionally specify a description for your collection (which will appear in its documentation), authorization config, script code, and any variables you want to share across all requests in the collection.
+You can optionally specify a description for your collection (which will appear in its documentation), authorization config, pre-request and test script code, and any variables you want to share across all requests in the collection.
 
 To see an overview of a collection, open it from the sidebar by clicking &#9658;. You can edit your collection description inline by hovering over the text and clicking the pencil icon.
 

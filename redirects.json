@@ -425,7 +425,7 @@
 	},
 	{
 		"from": "/docs/postman/collaboration/adding-private-network/",
-		"to": "/docs/publishing-your-api/add-api-network/"
+		"to": "/docs/collaborating-in-postman/adding-private-network/"
 	},
 	{
 		"from": "/docs/postman/collaboration/audit-logs/",
@@ -553,7 +553,7 @@
 	},
 	{
 		"from": "/docs/postman/collections/working-with-openAPI/",
-		"to": "/docs/designing-and-developing-your-api/the-api-workflow/"
+		"to": "/docs/integrations/available-integrations/working-with-openAPI/"
 	},
 	{
 		"from": "/docs/postman/customizing-postman/",

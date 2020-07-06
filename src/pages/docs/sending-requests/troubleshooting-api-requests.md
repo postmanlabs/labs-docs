@@ -33,7 +33,7 @@ There are many possible reasons for your API requests not behaving as expected. 
 
 ![Request not sent](https://assets.postman.com/postman-docs/request-not-sent-message.jpg)
 
-Click __View in Console__ to see the request detail in the [Console](/docs/sending-requests/troubleshooting-api-requests/) and find out more about what went wrong.
+Click __View in Console__ to see the request detail in the Console and find out more about what went wrong.
 
 ![Error in Console](https://assets.postman.com/postman-docs/error-in-console-detail.jpg)
 
@@ -58,7 +58,7 @@ Click __View in Console__ to see the request detail in the [Console](/docs/sendi
 * __Client certificates__
     * Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in the [Postman Settings](/docs/getting-started/settings/).
 * __Incorrect request URLs__
-    * If you are using variables or path parameters with your request, make sure the final address is structure correctly by opening the [Console](/docs/sending-requests/troubleshooting-api-requests/), which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
+    * If you are using variables or path parameters with your request, make sure the final address is structure correctly by opening the Console, which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
 * __Incorrect protocol__
     * Check whether you're accidentally using `https://` instead of `http://` in your URL (or vice versa).
 * __Postman errors__
@@ -108,4 +108,4 @@ To access the DevTools console logs, open the __View__ menu and select __Show De
 
 ## Getting help
 
-If you still can't get your requests to work, you can ask for help in the [Postman forum](https://community.postman.com/). If you've tried troubleshooting and think the problem is with Postman, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue (and whether there is a known solution that you can use). If you're reporting a new issue, check out the [guidelines](https://github.com/postmanlabs/postman-app-support/#guidelines-for-reporting-issues). If you need to include confidential data, you can file a ticket with Postman [support](https://support.getpostman.com/hc), including your [console logs](#accessing-console-logs) to help troubleshoot.
+If you still can't get your requests to work, you can ask for help in the [Postman forum](https://community.postman.com/). If you've tried troubleshooting and think the problem is with Postman, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue (and whether there is a known solution that you can use). If you're reporting a new issue, check out the [guidelines](https://github.com/postmanlabs/postman-app-support/#guidelines-for-reporting-issues). If you need to include confidential data, you can file a ticket with Postman [support](https://support.getpostman.com/hc), including your console logs to help troubleshoot.

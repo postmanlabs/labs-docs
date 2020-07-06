@@ -35,7 +35,7 @@ To find templates inside Postman, click __New__ at the top left &gt; __Templates
 
 [![Templates in app](https://assets.postman.com/postman-docs/open-templates-in-app.jpg)](https://assets.postman.com/postman-docs/open-templates-in-app.jpg)
 
-You can browse using the categories or search for learning topics you're interested in.
+You can browse using the categories or search for topics you're interested in.
 
 * Selecting an API Network listing will display the team's API and template collection, from which you can also open the documentation or import into Postman.
 * Selecting a template will bring up its listing, which contains additional detail including the publisher.

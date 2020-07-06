@@ -46,9 +46,9 @@ You can share Postman entities you are working on with collaborators, including 
 
 ## Sharing to workspaces
 
-When you work in a Postman workspace, any entities you save to the workspace will be visible to other team members who share the workspace—with [varying access levels](/docs/collaborating-in-postman/roles-and-permissions/) depending on your account configuration.
+When you work in a Postman workspace, any entities you save to the workspace will be visible to other team members who share the workspace—with [varying access levels](/docs/collaborating-in-postman/roles-and-permissions/) depending on your team's configuration.
 
-You can share various Postman entities to workspaces, or move them from one workspace to another, including collections, collection runs, environments, and APIs.
+You can share various Postman entities to workspaces, or move them from one workspace to another, including collections, environments, and APIs.
 
 <img alt="Share collection" src="https://assets.postman.com/postman-docs/share-collection-from-sidebar.jpg" width="600px"/>
 
@@ -62,15 +62,15 @@ To share an entity from Postman, find the entity based on what type it is:
 
 Alternatively find the collection, API, or environment in __Browse__ mode or via your workspace in the [Dashboard](https://app.getpostman.com) and click __Share__ next to it.
 
-You can share collections, APIs, and environments to specific workspaces. _You can additionally share collections via embed and link options._
+You can share collections, APIs, and environments to specific workspaces. _You can additionally share collections via embed and [link](#sharing-by-link) options._
 
 In the share modal, select the workspace you want to share the entity to. Team members in the target workspace will be able to access the entity when you share it there.
 
-[![Share workspace selection](https://assets.postman.com/postman-docs/share-modal-workspace-selection.jpg)](https://assets.postman.com/postman-docs/share-modal-workspace-selection.jpg)
+[![Share workspace selection](https://assets.postman.com/postman-docs/share-modal-workspace-selection-team.jpg)](https://assets.postman.com/postman-docs/share-modal-workspace-selection-team.jpg)
 
 Toggle the radio button if you also want to remove the entity from its current workspace. If you want to share the collection but keep it in the current workspace as well, click **Share collection**. If you want the collection to be removed from the current workspace after you share it, click **Share collection and remove from this workspace**. The default selection is **Share collection**.
 
-> When you remove a collection from a workspace, all mocks, montitors, and integrations associated with it will also be removed.
+> When you remove a collection from a workspace, all mocks, monitors, and integrations associated with it will also be removed.
 
 Click __Share and Continue__.
 
@@ -80,7 +80,7 @@ Select view or edit access levels for each collaborator or the workspace as a wh
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for more information on role-based user permissions.
 
-![Adjust roles](https://assets.postman.com/postman-docs/Adjust+roles+with+shared+collections.jpg)
+![Adjust roles](https://assets.postman.com/postman-docs/sharing-setting-roles.jpg)
 
 > If you want to restore a collection to a workspace it's been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/sending-requests/intro-to-collections/#managing-collections) first.
 

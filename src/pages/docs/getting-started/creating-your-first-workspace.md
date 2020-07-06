@@ -16,7 +16,7 @@ contextual_links:
 
 Postman workspaces allow you to organize and collaborate on API projects with your team. Within each workspace you can share APIs, collections, environments, and other components of your work in Postman.
 
-When you first open Postman, you will be in the default personal workspace, but you can create more workspaces for your personal use and to work in conjunction with teammates.
+When you first open Postman, you will be in your default personal workspace, but you can create more workspaces for your personal use and to work in conjunction with teammates.
 
 > To create additional workspaces, you need to be signed into a [Postman account](/docs/getting-started/postman-account/).
 

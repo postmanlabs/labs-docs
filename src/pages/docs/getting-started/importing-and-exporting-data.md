@@ -102,7 +102,7 @@ You can also configure your **Import Settings**, which will differ depending on 
 
 ## Exporting Postman data
 
-You can export your Postman data, including collections, environments, data dumps, and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/running-collections/using-newman/command-line-integration-with-newman/), Postman's command-line collection runner.
+You can export your Postman data, including collections, environments, data dumps, and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 ### Exporting collections
 

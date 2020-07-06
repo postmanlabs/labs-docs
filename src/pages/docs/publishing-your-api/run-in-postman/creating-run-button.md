@@ -58,7 +58,7 @@ You can use The Run in Postman button to [share your Postman Collections](/docs
 5. Choose a static or dynamic button:
    * **Dynamic button**: This button uses HTML and CSS, and gives you access to the Run in Postman API.
    * **Static button**: This button uses Markdown.
-6. You can include an environment that will import along with your collection. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/publishing-your-api/run-in-postman/creating-run-button/).
+6. You can include an environment that will import along with your collection. On the right, click the **Environment** drop-down and choose the environment. Learn more about including [environments in your button](/docs/publishing-your-api/run-in-postman/creating-run-button/#using-environments-with-your-button).
 7. Click **Copy to clipboard**.
 8. Embed the code where you would like the button to be displayed.
 

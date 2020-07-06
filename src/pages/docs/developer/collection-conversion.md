@@ -19,7 +19,7 @@ warning: false
 
 ---
 
-You can convert from a variety of API formats into Postman collections. If you have API requests defined as OpenAPI, Swagger, RAML, or GraphQL schema formats, you can convert these to Postman collections that you can import into the app or use with other Postman utilities such as the Newman CLI.
+You can convert from a variety of API formats into Postman Collections. If you have API requests defined as OpenAPI, Swagger, RAML, or GraphQL schema formats, you can convert these to Postman Collections that you can import into the app or use with other Postman utilities such as the Newman CLI.
 
 The following open source projects are hosted on GitHub:
 
