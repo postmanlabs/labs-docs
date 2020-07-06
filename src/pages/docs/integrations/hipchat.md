@@ -1,6 +1,6 @@
 ---
 title: "HipChat"
-order: 291
+order: 292
 page_id: "hipchat"
 warning: false
 contextual_links:
