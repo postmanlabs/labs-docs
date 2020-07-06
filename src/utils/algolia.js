@@ -40,9 +40,7 @@ const flatten = (arr) => arr.map(({ node: { frontmatter, ...rest } }) => ({
   ...rest,
 }));
 
-
 const settings = { attributesToSnippet: ['excerpt:20'] };
-
 
 const queries = [
   {

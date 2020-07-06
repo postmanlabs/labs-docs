@@ -5,7 +5,6 @@ import SEO from '../components/seo';
 import { SmallCard } from '../components/MarketingPages/Cards';
 import Line from '../components/MarketingPages/Line';
 
-
 const ReferencePage = () => (
   <Layout>
     <SEO title="Reference" slug="/reference" />
