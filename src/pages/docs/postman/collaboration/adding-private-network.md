@@ -47,7 +47,7 @@ If you're logged in, go directly to your team's [private API Network](https://go
 
 > You can only add an API to the network if you have edit access to the API, and your team members have permission to view or edit the API. Learn more about [roles and permissions](/docs/postman/collaboration/roles-and-permissions/).
 
-To add an API to your team's private API network, sign in to your [Dashboard](https://go.postman.co) and click **API Network** at the top.
+To add an API to your team's private API network from your [Dashboard](https://go.postman.co), sign in and click **API Network** at the top.
 
 ![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
 
@@ -64,6 +64,10 @@ In the modal, choose the workspace containing the API you want to add to the net
 The API will immediately be visible in your team's [private API network](https://go.postman.co/network/private). From the listing, you can edit the network listing or remove the API from the network.
 
 ![Listed APIs](https://assets.postman.com/postman-docs/privNetworkEditListing.png)
+
+You can also add an API to your team's private API network from the Postman app. Go to the [API Builder](/docs/postman/design-and-develop-apis/the-api-workflow/) via **APIs** in the left sidebar. Select an API, and see a high-level description on the first tab **Overview**. You can add and edit your network listing next to the version details on the right.
+
+![Add from app](https://assets.postman.com/postman-docs/privNetworkInAppAdd.png)
 
 #### Security
 
