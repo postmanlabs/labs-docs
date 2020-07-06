@@ -2,9 +2,8 @@ import React from 'react';
 import './Cards.scss';
 import './Buttons';
 
-
 export const LandingCard = ({
-  title, description, link, icon, cta
+  title, description, link, icon, cta,
 }) => (
   <div className="landing-card">
     <div className="landing-card__top">
@@ -96,7 +95,6 @@ export const IconCard = ({
   </div>
 );
 
-
 export const LabeledCard = ({
   link, label, title, description,
 }) => (
@@ -110,7 +108,6 @@ export const LabeledCard = ({
     </div>
   </a>
 );
-
 
 export const SecondaryCard = ({
   title,

@@ -34,7 +34,6 @@ class ListItem extends React.Component {
     }
   } // sets a given list item as active
 
-
   toggleActive = (e) => {
     let title;
     if (e.target.attributes.identifier) {
