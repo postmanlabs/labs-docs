@@ -13,7 +13,6 @@ import '../components/MarketingPages/Buttons.scss';
 
 import './index.scss';
 
-
 const HeroStyle = {
   paddingBottom: '0px',
   paddingLeft: '24px',
