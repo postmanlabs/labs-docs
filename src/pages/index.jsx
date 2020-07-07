@@ -10,7 +10,6 @@ import '../components/MarketingPages/Buttons.scss';
 
 import './index.scss';
 
-
 const HeroStyle = {
   paddingBottom: '0px',
   paddingLeft: '24px',
@@ -37,8 +36,8 @@ const IndexPage = () => (
         <div className="col-lg-5 hero-text">
           <h2>Postman Learning Center</h2>
           <p>
-The Postman Learning Center has all of the resources you
-          need to ramp up quickly and extend your skills.
+            The Postman Learning Center has all of the resources you
+            need to ramp up quickly and extend your skills.
           </p>
           <a href="/docs/" className="btn btn__primary">Explore the Docs</a>
         </div>
@@ -103,7 +102,7 @@ The Postman Learning Center has all of the resources you
       <div className="col-md-4" style={{ paddingLeft: '32px' }}>
         <h2>Exploring API Documentation with Postman</h2>
         <p>
-Postman’s API documentation feature lets you share public or private API documentation
+          Postman’s API documentation feature lets you share public or private API documentation
           in a beautifully formated web page.
         </p>
         <p>See how to document your APIs with Postman.</p>
