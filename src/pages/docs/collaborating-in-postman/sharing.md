@@ -80,7 +80,7 @@ Select view or edit access levels for each collaborator or the workspace as a wh
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for more information on role-based user permissions.
 
-![Adjust roles](https://assets.postman.com/postman-docs/sharing-setting-roles.jpg)
+![Adjust roles](https://assets.postman.com/postman-docs/sharing-setting-roles-list.jpg)
 
 > If you want to restore a collection to a workspace it's been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/sending-requests/intro-to-collections/#managing-collections) first.
 

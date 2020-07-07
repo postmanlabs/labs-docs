@@ -33,7 +33,7 @@ contextual_links:
 warning: false
 ---
 
-Let's deep dive into how [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) and examples](/docs/sending-requests/examples/) work together, and how you can integrate them into your workflow for an enhanced API experience with Postman.
+Let's deep dive into how [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) and [examples](/docs/sending-requests/examples/) work together, and how you can integrate them into your workflow for an enhanced API experience with Postman.
 
 1. Sending a request (R1)
 2. Saving the request (R1) to a collection (C1)
