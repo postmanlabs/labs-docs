@@ -1,6 +1,6 @@
 ---
-title: "Configuring Microsoft AD FS with Postman SSO"
-order: 257
+title: "Microsoft AD FS"
+order: 134
 page_id: "microsoft_adfs"
 warning: false
 contextual_links:
@@ -157,7 +157,7 @@ Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and 
 %systemroot%\ADFS\Microsoft.IdentityServer.Servicehost.exe.config
 ```
 
-In the [microsoft.identityServer.web](http://microsoft.identityserver.web/) section, add a line for __useRelyStateForIdpInitiatedSignOn__ as follows, and save the change:
+In the `<microsoft.identityServer.web>` section, add a line for __useRelyStateForIdpInitiatedSignOn__ as follows, and save the change:
 
 ```
 <microsoft.identityServer.web>    ... <useRelayStateForIdpInitiatedSignOn enabled="true" />    ...</microsoft.identityServer.web>
@@ -168,7 +168,7 @@ In the [microsoft.identityServer.web](http://microsoft.identityserver.web/) sect
 
 > If you're using ADFS 3.0 you only need to do the above on your ADFS 3.0 servers, not the WAP servers.
 
-Ensure that `<useRelayStateForIdpInitiatedSignOn enabled="true" />` has been added at [microsoft.identityServer.web](http://microsoft.identityserver.web/), then generate a URL encoded string from the relay state and the Entity ID as follows.
+Ensure that `<useRelayStateForIdpInitiatedSignOn enabled="true" />` has been added at `microsoft.identityServer.web`, then generate a URL encoded string from the relay state and the Entity ID as follows.
 
 * There are two pieces of information you need to generate the RelayState URL. The first is the relying party's identifier, which can be found in the AD FS Management Console. View the Identifiers tab on the relying party's property page.
 * The second part is the actual RelayState value that you need to send to the relying Party. The example below uses the relying party identifier of `https://identity-example.getpostman.com` and the relay state of `35ef7ab89gh99hh00`.

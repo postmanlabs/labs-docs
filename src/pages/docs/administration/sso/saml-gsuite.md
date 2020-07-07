@@ -1,6 +1,6 @@
 ---
-title: "Setting up custom SAML in GSuite"
-order: 260
+title: "Custom SAML in GSuite"
+order: 137
 page_id: "saml_gsuite"
 warning: false
 contextual_links:
@@ -33,7 +33,7 @@ contextual_links:
 1. Enter an application name (e.g. Postman SAML App) and fill out any other optional fields.
    [![gsuite basic info](https://assets.postman.com/postman-docs/gsuite_basic_info.png)](https://assets.postman.com/postman-docs/gsuite_basic_info.png)
 
-1. Enter the Postman service provider details which can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **GSuite Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/administration/sso/admin-sso).
+1. Enter the Postman service provider details which can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **GSuite Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/administration/sso/admin-sso/).
    [![gsuite service provider](https://assets.postman.com/postman-docs/gsuite_service_provider.png)](https://assets.postman.com/postman-docs/gsuite_service_provider.png)
 
  | **Field** | **Value** |

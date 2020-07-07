@@ -16,15 +16,15 @@ const Slider = () => (
       <TabList>
         <Tab>
           <span className="number">1</span>
-Choose your verb
+          Choose your verb
         </Tab>
         <Tab>
           <span className="number">2</span>
-Enter a URL
+          Enter a URL
         </Tab>
         <Tab>
           <span className="number">3</span>
-Send a request
+          Send a request
         </Tab>
       </TabList>
 
@@ -38,12 +38,12 @@ Send a request
           />
           <div className="send-a-request-content-text">
             <h3 className="send-a-request-content-text-title">
-                Choose your verb
+              Choose your verb
             </h3>
             <div className="send-a-request-content-text-description">
               <p>
-                  In this example, we&apos;re making a GET request to retrieve data
-                  from the server.
+                In this example, we&apos;re making a GET request to retrieve data
+                from the server.
               </p>
             </div>
           </div>
@@ -62,11 +62,11 @@ Send a request
             <div className="send-a-request-content-text-description">
               <p>Now let’s send our first API request!</p>
               <p>
-                  Enter
+                Enter
                 {' '}
                 <span>postman-echo.com/get</span>
                 {' '}
-into the URL field.
+                into the URL field.
                 {' '}
               </p>
             </div>
@@ -83,12 +83,12 @@ into the URL field.
           />
           <div className="send-a-request-content-text">
             <h3 className="send-a-request-content-text-title">
-                Send a request
+              Send a request
             </h3>
             <div className="send-a-request-content-text-description">
               <p>
-                  Click the &quot;Send&quot; button and inspect the returned response
-                  body.
+                Click the &quot;Send&quot; button and inspect the returned response
+                body.
               </p>
             </div>
           </div>

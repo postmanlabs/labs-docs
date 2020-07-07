@@ -103,9 +103,9 @@ exports[`renders correctly 1`] = `
     >
       <a
         className="dynamic-link__internal nav-link"
-        href="/getting-started/"
+        href="/docs/getting-started/introduction/"
       >
-        Getting Started
+        Docs
       </a>
     </div>
     <div
@@ -113,9 +113,9 @@ exports[`renders correctly 1`] = `
     >
       <a
         className="dynamic-link__internal nav-link"
-        href="/concepts/"
+        href="/docs/administration/managing-your-team/"
       >
-        Concepts
+        Admin
       </a>
     </div>
     <div
@@ -123,9 +123,9 @@ exports[`renders correctly 1`] = `
     >
       <a
         className="dynamic-link__internal nav-link"
-        href="/reference/"
+        href="/docs/developer/resources-intro/"
       >
-        Reference
+        Developer
       </a>
     </div>
     <div
