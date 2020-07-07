@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting App Issues"
+title: "Troubleshooting app issues"
 order: 9
 page_id: "troubleshooting_in_app"
 warning: false

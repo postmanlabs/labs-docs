@@ -1,5 +1,5 @@
 ---
-title: 'Managing and Sharing APIs'
+title: 'Managing and sharing APIs'
 order: 82
 page_id: 'managing_apis'
 warning: false
