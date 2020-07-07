@@ -1,10 +1,9 @@
 {
   "sso": "Single sign-on (SSO)",
-  "api-documentation": "API documentation",
-  "design-and-develop-apis": "Design and Develop APIs",
-  "postman-api": "Postman API",
-  "sending-api-requests": "Sending API Requests",
-  "api-network": "API Network",
-  "public-api-documentation": "Public API Documentation",
-  "api-search": "API Search"
+  "monitoring-your-api": "Monitoring your API",
+  "designing-and-developing-your-api": "Designing and developing your API",
+  "publishing-your-api": "Publishing your API",
+  "developer": "Developer resources",
+  "supported-api-frameworks": "Supported API frameworks",
+  "using-newman-cli": "Using Newman CLI"
 }

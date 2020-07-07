@@ -1,6 +1,6 @@
 ---
 title: "Configuring SSO for a team"
-order: 255
+order: 132
 page_id: "admin_sso"
 warning: false
 contextual_links:

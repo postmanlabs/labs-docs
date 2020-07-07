@@ -1,6 +1,6 @@
 ---
-title: "Setting up custom SAML in Onelogin"
-order: 262
+title: "Custom SAML in Onelogin"
+order: 139
 page_id: "saml_onelogin"
 warning: false
 contextual_links:

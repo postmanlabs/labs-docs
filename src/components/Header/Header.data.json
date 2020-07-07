@@ -1,17 +1,14 @@
 {
   "links": [
     {
-      "name": "Getting Started", 
-      "url": "/getting-started/"
+      "name": "Docs", 
+      "url": "/docs/getting-started/introduction/"
     },{
-      "name": "Concepts",
-      "url": "/concepts/"
+      "name": "Admin",
+      "url": "/docs/administration/managing-your-team/"
     },{
-      "name": "Reference",
-      "url": "/reference/"
-    },{
-      "name": "Docs",
-      "url": "/docs/"
+      "name": "Developer",
+      "url": "/docs/developer/resources-intro/"
     },{
       "name": "Dashboard",
       "url": "https://app.getpostman.com/",

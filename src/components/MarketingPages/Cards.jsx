@@ -3,7 +3,7 @@ import './Cards.scss';
 import './Buttons';
 
 export const LandingCard = ({
-  title, description, link, icon,
+  title, description, link, icon, cta,
 }) => (
   <div className="landing-card">
     <div className="landing-card__top">
@@ -14,7 +14,7 @@ export const LandingCard = ({
     <div className="landing-card__content">
       <h3 className="landing-card__content-title">{title}</h3>
       <p className="landing-card__content-description">{description}</p>
-      <a href={link} className="btn btn__primary">Read the Docs</a>
+      <a href={link} className="btn btn__primary">{cta}</a>
     </div>
   </div>
 );

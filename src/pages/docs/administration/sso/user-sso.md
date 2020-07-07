@@ -1,6 +1,6 @@
 ---
 title: "Logging in to an SSO team"
-order: 256
+order: 133
 page_id: "user_sso"
 warning: false
 contextual_links:
