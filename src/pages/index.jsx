@@ -3,7 +3,7 @@ import ResponsiveEmbed from 'react-responsive-embed';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import HeroImage from '../assets/teaching-postmanaut.png';
+import HeroImage from '../assets/postmanauts-rocket.png';
 import AdminImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
