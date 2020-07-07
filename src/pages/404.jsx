@@ -4,7 +4,6 @@ import SEO from '../components/seo';
 import errordog from '../images/error-dog.svg';
 import './404.scss';
 
-
 class NotFoundPage extends React.Component {
   componentDidMount() {
     /* eslint-disable no-console */

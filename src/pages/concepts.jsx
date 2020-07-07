@@ -14,7 +14,6 @@ import runIcon from '../assets/concept/run.svg';
 import docsIcon from '../assets/concept/docs.svg';
 import mockIcon from '../assets/concept/mock.svg';
 
-
 const ConceptPage = () => (
   <Layout>
     <SEO title="Concepts" slug="/concepts/" />
