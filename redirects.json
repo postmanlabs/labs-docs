@@ -1028,6 +1028,10 @@
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/"
 	},
 	{
+		"from": "/docs/postman_for_publishers/postman_templates/add_templates",
+		"to": "/docs/publishing-your-api/add-templates/"
+	},
+	{
 		"from": "/docs/postman_for_publishers/run_button/collections_run_button/",
 		"to": "/docs/publishing-your-api/run-in-postman/creating-run-button/"
 	},
