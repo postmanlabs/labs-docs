@@ -83,6 +83,8 @@ Interceptor will sync all cookies for that domain from the browser. It will also
 
 > For example, adding the domain `facebook.com` will also sync cookies from `m.facebook.com`.
 
+To sync cookies for the domain only, you can add **https://** in front of the domain, e.g. `https://facebook.com`.
+
 Interceptor keeps cookies for a fixed set of domains in sync, updating Postman from the browser when cookies update, including deletions. Due to this, you can use browser sessions to make API calls in Postman. You will not be able to save these to Postman’s history.
 
 You can remove a domain at any time by clicking **X** next to the domain. This will prevent future cookie updates from being synced, but it won’t delete cookies that have already been synced.
