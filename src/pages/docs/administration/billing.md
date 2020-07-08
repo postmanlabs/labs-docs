@@ -119,9 +119,11 @@ You can change your team's plan and billing cycle in the [billing dashboard](htt
 
 ### Changing your plan
 
-To change your plan, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
+To change your plan immediately, navigate to your [billing dashboard](https://app.postman.co/billing/overview) and click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
 
 [![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
+
+> The cost of your new plan and/or additional seats will be prorated based on the time left in your team's billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 
 ### Setting instructions for next billing cycle
 
