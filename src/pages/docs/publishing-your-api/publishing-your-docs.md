@@ -87,6 +87,8 @@ You can configure the style of your public docs by selecting colors for the head
 
 You can customize the style of your public docs by adding a team name and logo via your [team settings](https://go.postman.co/settings/team/general) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
 
+> You can make changes to styling after publishing your docs by heading to the [Postman Dashboard](https://go.postman.co/workspaces) and navigating to your published collection. Select **Published** in the upper-right corner > **Edit Published Documentation** > **Edit settings**. Make your desired changes and click **Save and republish collection** to update.
+
 ## Sharing your public docs
 
 To share your API documentation with your users and the wider Postman community, enable __Collection discovery__ by toggling the switch. This will make your docs and the associated collections available via the Postman [API Network and templates](https://explore.postman.com/).
