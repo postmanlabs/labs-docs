@@ -40,7 +40,7 @@ Signing up for an account is optional—you can continue to use Postman without 
 * [Syncing your work](#syncing-your-work)
 * [Switching between accounts](#switching-between-accounts)
 * [Security policies and standards](#security-policies-and-standards)
-* [Recovering account access](#recovering-account-access)
+* [Resetting your password](#resetting-your-password)
 
 ## Signing up for a Postman account
 
@@ -135,9 +135,11 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 * Communication with Postman servers only happens through HTTPS and Secure WebSockets.
 * Environment and global variables are encrypted so that only you can view them.
 
-## Recovering account access
+## Resetting your password
 
-You can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Click __Trouble signing in?__
+You can reset your password if you are already signed in by navigating to your [settings](https://go.postman.co/settings/me) > **Account Settings** > **Change Password**.
+
+If you are not signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Click __Trouble signing in?__
 
 ![App Sign In](https://assets.postman.com/postman-docs/pm-app-sign-in.jpg)
 
