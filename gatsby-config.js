@@ -107,6 +107,18 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Postman Learning Center',
+        short_name: 'Postman Learning Center',
+        start_url: '/',
+        background_color: '#FF6C37',
+        theme_color: '#FF6C37',
+        display: 'minimal-ui',
+        icon: 'src/images/favicon.png',
+      },
+    },
     'gatsby-plugin-meta-redirect',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
