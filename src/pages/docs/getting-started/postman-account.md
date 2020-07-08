@@ -40,6 +40,7 @@ Signing up for an account is optional—you can continue to use Postman without 
 * [Syncing your work](#syncing-your-work)
 * [Switching between accounts](#switching-between-accounts)
 * [Security policies and standards](#security-policies-and-standards)
+* [Updating your username](#updating-your-username)
 * [Resetting your password](#resetting-your-password)
 
 ## Signing up for a Postman account
@@ -70,7 +71,7 @@ Enter your details and click __Continue__.
 
 Enter your profile details and click **Save changes**.
 
->Your name will also be your username, and you will have the same username across all Postman elements, such as collections and documentation.
+>Your name will also be your username, and you will have the same username across all Postman elements, such as collections and documentation. You can [update your username](#updating-your-username) at any time.
 
 ![Edit profile](https://assets.postman.com/postman-docs/Edit+profile.jpg)
 
@@ -134,6 +135,10 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 * Communication with Postman servers only happens through HTTPS and Secure WebSockets.
 * Environment and global variables are encrypted so that only you can view them.
+
+## Updating your username
+
+You can update your username at any time by [navigating to your settings](https://go.postman.co/settings/me), editing your username, and clicking **Save Changes**.
 
 ## Resetting your password
 
