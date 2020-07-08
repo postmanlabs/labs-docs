@@ -31,7 +31,7 @@ class CookieAlert extends React.Component {
             background: 'white',
             position: 'static',
             color: '#282828',
-            padding: '20px 50px',
+            padding: '20px',
             textAlign: 'center',
             fontSize: '16px',
             lineHeight: '24px',
