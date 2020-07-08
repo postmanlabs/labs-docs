@@ -92,6 +92,8 @@ You can share a collection using a link. In the collection share modal, select _
 
 The link is a snapshot of your collection, so click __Update Link__ and copy it for the most up to date version. You can then share it by pasting the copied link. You can also delete the link using the trash button.
 
+> You can manage a complete list of your active collection links from your [Postman profile](https://go.postman.co/me/collections?view=links).
+
 ## Next steps
 
 Team members can [request access](/docs/collaborating-in-postman/requesting-access-to-collections/) to collections, environments, and APIs.
