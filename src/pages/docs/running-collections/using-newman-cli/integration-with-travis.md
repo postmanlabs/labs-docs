@@ -41,7 +41,7 @@ By committing early and often, the team avoids a ton of technical debt by allowi
 
 Every check-in triggers an automated build process that typically includes testing. And if your commit hasn’t broken anything, might include deployment too.
 
-In general, integrating your [Postman tests](/docs/writing-scripts/test-scripts/) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/running-collections/using-newman/integration-with-jenkins/), Travis CI, AppVeyor, or any other build system.
+In general, integrating your [Postman tests](/docs/writing-scripts/test-scripts/) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/), Travis CI, AppVeyor, or any other build system.
 
 You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) with the tests, returning a pass or fail exit code that’s logged in your CI system.
 

@@ -148,9 +148,6 @@ const Footer = () => (
                   className="social-icon"
                 >
                   <svg height="25" width="25" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2400 2800" style={{ enableBackground: 'new 0 0 2400 2800' }} space="preserve">
-                    {/* <style type='text/css'>
-                      .st0{fill:#FFFFFF;}
-                    </style> */}
                     <g>
                       <g id="Layer_1-2">
                         <path className="st0" d="M500,0L0,500v1800h600v500l500-500h400l900-900V0H500z M2200,1300l-400,400h-400l-350,350v-350H600V200h1600V1300z" />
@@ -158,6 +155,28 @@ const Footer = () => (
                         <rect x="1150" y="550" className="st0" width="200" height="600" />
                       </g>
                     </g>
+                  </svg>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a
+                  id="youtube_icon"
+                  href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon"
+                >
+                  <svg
+                    enableBackground="new 0 0 30 21.14"
+                    viewBox="0 0 30 21.14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="25"
+                    width="25"
+                  >
+                    <path
+                      d="m29.37 3.3c-.35-1.3-1.36-2.32-2.65-2.67-2.34-.63-11.72-.63-11.72-.63s-9.38 0-11.72.63c-1.29.35-2.31 1.37-2.65 2.67-.63 2.36-.63 7.27-.63 7.27s0 4.91.63 7.27c.35 1.3 1.36 2.32 2.65 2.67 2.34.63 11.72.63 11.72.63s9.38 0 11.72-.63c1.29-.35 2.31-1.37 2.65-2.67.63-2.36.63-7.27.63-7.27s0-4.91-.63-7.27zm-17.44 11.73v-8.92l7.84 4.46z"
+                      fill="#fff"
+                    />
                   </svg>
                 </a>
               </li>
