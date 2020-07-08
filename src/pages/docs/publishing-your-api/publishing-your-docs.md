@@ -85,7 +85,7 @@ You can configure the style of your public docs by selecting colors for the head
 
 ![Style Docs](https://assets.postman.com/postman-docs/Customizing+public+docs+layout.jpg)
 
-You can customize the style of your public docs by adding a team name and logo via your [team settings](/docs/administration/team-settings/) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
+You can customize the style of your public docs by adding a team name and logo via your [team settings](https://go.postman.co/settings/team/general) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
 
 ## Sharing your public docs
 
