@@ -12,7 +12,7 @@
 		"to": "/docs/administration/managing-your-team/"
 	},
 	{
-		"from": "/docs/administration/migrating-to-v7/",
+		"from": "/docs/administration/migrating_to_v7/",
 		"to": "/docs/administration/migrating-to-v7/"
 	},
 	{
@@ -32,6 +32,14 @@
 		"to": "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 	},
 	{
+		"from": "/docs/collaborating_in_postman/",
+		"to": "/docs/collaborating-in-postman/collaboration-intro/"
+	},
+	{
+		"from": "/docs/collaborating_in_postman/using_workspaces/",
+		"to": "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
+	},
+	{
 		"from": "/docs/designing-and-developing-your-api/",
 		"to": "/docs/designing-and-developing-your-api/the-api-workflow/"
 	},
@@ -41,6 +49,18 @@
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/",
+		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+	},
+	{
+		"from": "/docs/designing_and_developing_your_api/",
+		"to": "/docs/designing-and-developing-your-api/the-api-workflow/"
+	},
+	{
+		"from": "/docs/designing_and_developing_your_api/mocking_data/",
+		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+	},
+	{
+		"from": "/docs/designing_and_developing_your_api/monitoring_your_api/",
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
 	},
 	{
@@ -56,6 +76,10 @@
 		"to": "/docs/getting-started/introduction/"
 	},
 	{
+		"from": "/docs/getting_started/",
+		"to": "/docs/getting-started/introduction/"
+	},
+	{
 		"from": "/docs/integrations/",
 		"to": "/docs/integrations/intro-integrations/"
 	},
@@ -65,6 +89,10 @@
 	},
 	{
 		"from": "/docs/integrations/available-integrations/",
+		"to": "/docs/integrations/available-integrations/apimatic/"
+	},
+	{
+		"from": "/docs/integrations/available_integrations/",
 		"to": "/docs/integrations/available-integrations/apimatic/"
 	},
 	{
@@ -105,6 +133,14 @@
 	},
 	{
 		"from": "/docs/integrations/microsoft-teams/",
+		"to": "/docs/integrations/available-integrations/microsoft-teams/"
+	},
+	{
+		"from": "/docs/integrations/microsoft_flow/",
+		"to": "/docs/integrations/available-integrations/microsoft-flow/"
+	},
+	{
+		"from": "/docs/integrations/microsoft_teams/",
 		"to": "/docs/integrations/available-integrations/microsoft-teams/"
 	},
 	{
@@ -408,6 +444,18 @@
 		"to": "/docs/publishing-your-api/publishing-your-docs/"
 	},
 	{
+		"from": "/docs/postman/api_documentation/authoring_your_documentation/",
+		"to": "/docs/publishing-your-api/authoring-your-documentation/"
+	},
+	{
+		"from": "/docs/postman/api_documentation/custom_doc_domains/",
+		"to": "/docs/publishing-your-api/custom-doc-domains/"
+	},
+	{
+		"from": "/docs/postman/api_documentation/documenting_your_api/",
+		"to": "/docs/publishing-your-api/documenting-your-api/"
+	},
+	{
 		"from": "/docs/postman/api_documentation/environments_and_environment_templates/",
 		"to": "/docs/publishing-your-api/documenting-your-api/"
 	},
@@ -424,7 +472,19 @@
 		"to": "/docs/publishing-your-api/publishing-your-docs/"
 	},
 	{
+		"from": "/docs/postman/api_documentation/publishing_your_docs/",
+		"to": "/docs/publishing-your-api/publishing-your-docs/"
+	},
+	{
+		"from": "/docs/postman/api_documentation/viewing_documentation/",
+		"to": "/docs/publishing-your-api/viewing-documentation/"
+	},
+	{
 		"from": "/docs/postman/collaboration/adding-private-network/",
+		"to": "/docs/collaborating-in-postman/adding-private-network/"
+	},
+	{
+		"from": "/docs/postman/collaboration/adding_private_network/",
 		"to": "/docs/collaborating-in-postman/adding-private-network/"
 	},
 	{
@@ -432,7 +492,15 @@
 		"to": "/docs/administration/audit-logs/"
 	},
 	{
+		"from": "/docs/postman/collaboration/audit_logs/",
+		"to": "/docs/administration/audit-logs/"
+	},
+	{
 		"from": "/docs/postman/collaboration/collaboration-intro/",
+		"to": "/docs/collaborating-in-postman/collaboration-intro/"
+	},
+	{
+		"from": "/docs/postman/collaboration/collaboration_intro/",
 		"to": "/docs/collaborating-in-postman/collaboration-intro/"
 	},
 	{
@@ -440,7 +508,15 @@
 		"to": "/docs/administration/managing-your-team/"
 	},
 	{
+		"from": "/docs/postman/collaboration/managing_your_team/",
+		"to": "/docs/administration/managing-your-team/"
+	},
+	{
 		"from": "/docs/postman/collaboration/requesting-access-to-collections/",
+		"to": "/docs/collaborating-in-postman/requesting-access-to-collections/"
+	},
+	{
+		"from": "/docs/postman/collaboration/requesting_access_to_collections/",
 		"to": "/docs/collaborating-in-postman/requesting-access-to-collections/"
 	},
 	{
@@ -448,7 +524,15 @@
 		"to": "/docs/collaborating-in-postman/roles-and-permissions/"
 	},
 	{
+		"from": "/docs/postman/collaboration/roles_and_permissions/",
+		"to": "/docs/collaborating-in-postman/roles-and-permissions/"
+	},
+	{
 		"from": "/docs/postman/collaboration/team-settings/",
+		"to": "/docs/administration/team-settings/"
+	},
+	{
+		"from": "/docs/postman/collaboration/team_settings/",
 		"to": "/docs/administration/team-settings/"
 	},
 	{
@@ -500,11 +584,67 @@
 		"to": "/docs/running-collections/working-with-data-files/"
 	},
 	{
+		"from": "/docs/postman/collection_runs/building_workflows/",
+		"to": "/docs/running-collections/building-workflows/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/command_line_integration_with_newman/",
+		"to": "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/debugging_a_collection_run/",
+		"to": "/docs/running-collections/intro-to-collection-runs/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/integration_with_jenkins/",
+		"to": "/docs/running-collections/using-newman-cli/integration-with-jenkins/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/integration_with_travis/",
+		"to": "/docs/running-collections/using-newman-cli/integration-with-travis/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/intro_to_collection_runs/",
+		"to": "/docs/running-collections/intro-to-collection-runs/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/newman_with_docker/",
+		"to": "/docs/running-collections/using-newman-cli/newman-with-docker/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/running_multiple_iterations/",
+		"to": "/docs/running-collections/intro-to-collection-runs/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/sharing_a_collection_run/",
+		"to": "/docs/running-collections/intro-to-collection-runs/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/starting_a_collection_run/",
+		"to": "/docs/running-collections/intro-to-collection-runs/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/using_environments_in_collection_runs/",
+		"to": "/docs/running-collections/intro-to-collection-runs/"
+	},
+	{
+		"from": "/docs/postman/collection_runs/working_with_data_files/",
+		"to": "/docs/running-collections/working-with-data-files/"
+	},
+	{
 		"from": "/docs/postman/collections/commenting-on-collections/",
 		"to": "/docs/collaborating-in-postman/commenting-on-collections/"
 	},
 	{
+		"from": "/docs/postman/collections/commenting_on_collections/",
+		"to": "/docs/collaborating-in-postman/commenting-on-collections/"
+	},
+	{
 		"from": "/docs/postman/collections/creating-collections/",
+		"to": "/docs/sending-requests/intro-to-collections/"
+	},
+	{
+		"from": "/docs/postman/collections/creating_collections/",
 		"to": "/docs/sending-requests/intro-to-collections/"
 	},
 	{
@@ -524,7 +664,15 @@
 		"to": "/docs/getting-started/importing-and-exporting-data/"
 	},
 	{
+		"from": "/docs/postman/collections/importing_and_exporting_data/",
+		"to": "/docs/getting-started/importing-and-exporting-data/"
+	},
+	{
 		"from": "/docs/postman/collections/intro-to-collections/",
+		"to": "/docs/sending-requests/intro-to-collections/"
+	},
+	{
+		"from": "/docs/postman/collections/intro_to_collections/",
 		"to": "/docs/sending-requests/intro-to-collections/"
 	},
 	{
@@ -532,7 +680,15 @@
 		"to": "/docs/sending-requests/intro-to-collections/"
 	},
 	{
+		"from": "/docs/postman/collections/managing_collections/",
+		"to": "/docs/sending-requests/intro-to-collections/"
+	},
+	{
 		"from": "/docs/postman/collections/requesting-access-to-collections/",
+		"to": "/docs/collaborating-in-postman/requesting-access-to-collections/"
+	},
+	{
+		"from": "/docs/postman/collections/requesting_access_to_collections/",
 		"to": "/docs/collaborating-in-postman/requesting-access-to-collections/"
 	},
 	{
@@ -540,7 +696,15 @@
 		"to": "/docs/collaborating-in-postman/sharing/"
 	},
 	{
+		"from": "/docs/postman/collections/sharing_collections/",
+		"to": "/docs/collaborating-in-postman/sharing/"
+	},
+	{
 		"from": "/docs/postman/collections/using-markdown-for-descriptions/",
+		"to": "/docs/sending-requests/intro-to-collections/"
+	},
+	{
+		"from": "/docs/postman/collections/using_markdown_for_descriptions/",
 		"to": "/docs/sending-requests/intro-to-collections/"
 	},
 	{
@@ -552,11 +716,23 @@
 		"to": "/docs/collaborating-in-postman/version-control-for-collections/"
 	},
 	{
+		"from": "/docs/postman/collections/version_control_for_collections/",
+		"to": "/docs/collaborating-in-postman/version-control-for-collections/"
+	},
+	{
 		"from": "/docs/postman/collections/working-with-openAPI/",
 		"to": "/docs/integrations/available-integrations/working-with-openAPI/"
 	},
 	{
+		"from": "/docs/postman/collections/working_with_openAPI/",
+		"to": "/docs/integrations/available-integrations/working-with-openAPI/"
+	},
+	{
 		"from": "/docs/postman/customizing-postman/",
+		"to": "/docs/sending-requests/requests/"
+	},
+	{
+		"from": "/docs/postman/customizing_postman/",
 		"to": "/docs/sending-requests/requests/"
 	},
 	{
@@ -596,12 +772,32 @@
 		"to": "/docs/designing-and-developing-your-api/the-api-workflow/"
 	},
 	{
+		"from": "/docs/postman/design_and_develop_apis/managing_apis/",
+		"to": "/docs/designing-and-developing-your-api/managing-apis/"
+	},
+	{
 		"from": "/docs/postman/design_and_develop_apis/reporting_faqs/",
 		"to": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/sharing_apis/",
 		"to": "/docs/designing-and-developing-your-api/managing-apis/"
+	},
+	{
+		"from": "/docs/postman/design_and_develop_apis/the_api_workflow/",
+		"to": "/docs/designing-and-developing-your-api/the-api-workflow/"
+	},
+	{
+		"from": "/docs/postman/design_and_develop_apis/validating_elements_against_schema/",
+		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+	},
+	{
+		"from": "/docs/postman/design_and_develop_apis/versioning_an_api/",
+		"to": "/docs/collaborating-in-postman/versioning-an-api/"
+	},
+	{
+		"from": "/docs/postman/design_and_develop_apis/view_and_analyze_api_reports/",
+		"to": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
 	},
 	{
 		"from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
@@ -628,8 +824,8 @@
 		"to": "/docs/writing-scripts/script-references/variables-list/"
 	},
 	{
-  		"from": "/docs/postman/environments-and-globals/variables/",
-  		"to": "/docs/sending-requests/variables/"
+		"from": "/docs/postman/environments-and-globals/variables/",
+		"to": "/docs/sending-requests/variables/"
 	},
 	{
 		"from": "/docs/postman/environments_and_globals/intro_to_environments_and_globals/",
@@ -648,6 +844,10 @@
 		"to": "/docs/sending-requests/managing-environments/"
 	},
 	{
+		"from": "/docs/postman/environments_and_globals/sessions/",
+		"to": "/docs/sending-requests/variables/"
+	},
+	{
 		"from": "/docs/postman/environments_and_globals/variables/",
 		"to": "/docs/sending-requests/variables/"
 	},
@@ -661,6 +861,10 @@
 	},
 	{
 		"from": "/docs/postman/find-replace/",
+		"to": "/docs/getting-started/navigating-postman/"
+	},
+	{
+		"from": "/docs/postman/find_replace/",
 		"to": "/docs/getting-started/navigating-postman/"
 	},
 	{
@@ -716,6 +920,50 @@
 		"to": "/docs/collaborating-in-postman/collaboration-intro/"
 	},
 	{
+		"from": "/docs/postman/launching_postman/creating_the_first_collection/",
+		"to": "/docs/getting-started/creating-the-first-collection/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/installation_and_updates/",
+		"to": "/docs/getting-started/installation-and-updates/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/introduction/",
+		"to": "/docs/getting-started/introduction/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/keyboard_shortcuts/",
+		"to": "/docs/getting-started/navigating-postman/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/navigating_postman/",
+		"to": "/docs/getting-started/navigating-postman/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/newbutton/",
+		"to": "/docs/getting-started/navigating-postman/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/postman_account/",
+		"to": "/docs/getting-started/postman-account/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/sending_the_first_request/",
+		"to": "/docs/getting-started/sending-the-first-request/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/settings/",
+		"to": "/docs/getting-started/settings/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/syncing/",
+		"to": "/docs/getting-started/syncing/"
+	},
+	{
+		"from": "/docs/postman/launching_postman/troubleshooting_inapp/",
+		"to": "/docs/getting-started/troubleshooting-inapp/"
+	},
+	{
 		"from": "/docs/postman/mock-servers/intro-to-mock-servers/",
 		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
 	},
@@ -736,7 +984,31 @@
 		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
 	},
 	{
+		"from": "/docs/postman/mock_servers/intro_to_mock_servers/",
+		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+	},
+	{
+		"from": "/docs/postman/mock_servers/matching_algorithm/",
+		"to": "/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/"
+	},
+	{
+		"from": "/docs/postman/mock_servers/mock_with_api/",
+		"to": "/docs/designing-and-developing-your-api/mocking-data/mock-with-api/"
+	},
+	{
+		"from": "/docs/postman/mock_servers/mocking_with_examples/",
+		"to": "/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/"
+	},
+	{
+		"from": "/docs/postman/mock_servers/setting_up_mock/",
+		"to": "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
+	},
+	{
 		"from": "/docs/postman/monitors/faqs-monitors/",
+		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/"
+	},
+	{
+		"from": "/docs/postman/monitors/faqs_monitors/",
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/"
 	},
 	{
@@ -744,11 +1016,23 @@
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/integrations-for-alerts/"
 	},
 	{
+		"from": "/docs/postman/monitors/integrations_for_alerts/",
+		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/integrations-for-alerts/"
+	},
+	{
 		"from": "/docs/postman/monitors/intro-monitors/",
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
 	},
 	{
+		"from": "/docs/postman/monitors/intro_monitors/",
+		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+	},
+	{
 		"from": "/docs/postman/monitors/monitoring-apis-websites/",
+		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites"
+	},
+	{
+		"from": "/docs/postman/monitors/monitoring_apis_websites/",
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites"
 	},
 	{
@@ -764,7 +1048,15 @@
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/"
 	},
 	{
+		"from": "/docs/postman/monitors/setting_up_monitor/",
+		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/"
+	},
+	{
 		"from": "/docs/postman/monitors/troubleshooting-monitors/",
+		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/"
+	},
+	{
+		"from": "/docs/postman/monitors/troubleshooting_monitors/",
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/"
 	},
 	{
@@ -772,7 +1064,15 @@
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/"
 	},
 	{
+		"from": "/docs/postman/monitors/using_static_IPs_to_monitor/",
+		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/"
+	},
+	{
 		"from": "/docs/postman/monitors/viewing-monitor-results/",
+		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/"
+	},
+	{
+		"from": "/docs/postman/monitors/viewing_monitor_results/",
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/"
 	},
 	{
@@ -788,11 +1088,27 @@
 		"to": "/docs/developer/intro-api/"
 	},
 	{
+		"from": "/docs/postman/postman_api/continuous_integration/",
+		"to": "/docs/running-collections/using-newman-cli/continuous-integration/"
+	},
+	{
+		"from": "/docs/postman/postman_api/intro_api/",
+		"to": "/docs/developer/intro-api/"
+	},
+	{
 		"from": "/docs/postman/scripts/branching-and-looping/",
 		"to": "/docs/running-collections/building-workflows/"
 	},
 	{
+		"from": "/docs/postman/scripts/branching_and_looping/",
+		"to": "/docs/running-collections/building-workflows/"
+	},
+	{
 		"from": "/docs/postman/scripts/intro-to-scripts/",
+		"to": "/docs/writing-scripts/intro-to-scripts/"
+	},
+	{
+		"from": "/docs/postman/scripts/intro_to_scripts/",
 		"to": "/docs/writing-scripts/intro-to-scripts/"
 	},
 	{
@@ -808,7 +1124,15 @@
 		"to": "/docs/writing-scripts/script-references/postman-sandbox-api-reference/"
 	},
 	{
+		"from": "/docs/postman/scripts/postman_sandbox_api_reference/",
+		"to": "/docs/writing-scripts/script-references/postman-sandbox-api-reference/"
+	},
+	{
 		"from": "/docs/postman/scripts/pre-request-scripts/",
+		"to": "/docs/writing-scripts/pre-request-scripts/"
+	},
+	{
+		"from": "/docs/postman/scripts/pre_request_scripts/",
 		"to": "/docs/writing-scripts/pre-request-scripts/"
 	},
 	{
@@ -817,6 +1141,14 @@
 	},
 	{
 		"from": "/docs/postman/scripts/test-scripts/",
+		"to": "/docs/writing-scripts/test-scripts/"
+	},
+	{
+		"from": "/docs/postman/scripts/test_examples/",
+		"to": "/docs/writing-scripts/script-references/test-examples/"
+	},
+	{
+		"from": "/docs/postman/scripts/test_scripts/",
 		"to": "/docs/writing-scripts/test-scripts/"
 	},
 	{
@@ -892,8 +1224,76 @@
 		"to": "/docs/getting-started/navigating-postman/"
 	},
 	{
+		"from": "/docs/postman/sending_api_requests/authorization/",
+		"to": "/docs/sending-requests/authorization/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/capturing_http_requests/",
+		"to": "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/certificates/",
+		"to": "/docs/sending-requests/certificates/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/cookies/",
+		"to": "/docs/sending-requests/cookies/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/debugging_and_logs/",
+		"to": "/docs/sending-requests/troubleshooting-api-requests/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/generate_code_snippets/",
+		"to": "/docs/sending-requests/generate-code-snippets/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/graphql/",
+		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/history/",
+		"to": "/docs/getting-started/navigating-postman/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/interceptor/",
+		"to": "/docs/sending-requests/capturing-request-data/interceptor/"
+	},
+	{
 		"from": "/docs/postman/sending_api_requests/interceptor_extension/",
 		"to": "/docs/sending-requests/capturing-request-data/interceptor/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/making_soap_requests/",
+		"to": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/proxy/",
+		"to": "/docs/sending-requests/capturing-request-data/proxy/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/requests/",
+		"to": "/docs/sending-requests/requests/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/responses/",
+		"to": "/docs/sending-requests/responses/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/troubleshooting_api_requests/",
+		"to": "/docs/sending-requests/troubleshooting-api-requests/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/validating_requests_against_schema/",
+		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/visualizer/",
+		"to": "/docs/sending-requests/visualizer/"
+	},
+	{
+		"from": "/docs/postman/sending_api_requests/working_with_tabs/",
+		"to": "/docs/getting-started/navigating-postman/"
 	},
 	{
 		"from": "/docs/postman/team-library/activity-feed-and-restoring-collections/",
@@ -920,6 +1320,30 @@
 		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing.md"
 	},
 	{
+		"from": "/docs/postman/team_library/activity_feed_and_restoring_collections/",
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/activity-feed-and-restoring-collections.md"
+	},
+	{
+		"from": "/docs/postman/team_library/conflicts/",
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/conflicts.md"
+	},
+	{
+		"from": "/docs/postman/team_library/searching/",
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/searching.md"
+	},
+	{
+		"from": "/docs/postman/team_library/setting_up_team_library/",
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/setting-up-team-library.md"
+	},
+	{
+		"from": "/docs/postman/team_library/sharing/",
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing.md"
+	},
+	{
+		"from": "/docs/postman/team_library/sharing_collections_in_workspaces_for_version_5/",
+		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
+	},
+	{
 		"from": "/docs/postman/variables-and-environments/managing-environments/",
 		"to": "/docs/sending-requests/managing-environments/"
 	},
@@ -930,6 +1354,18 @@
 	{
 		"from": "/docs/postman/variables-and-environments/variables/",
 		"to": "/docs/sending-requests/variables/"
+	},
+	{
+		"from": "/docs/postman/variables_and_environments/managing_environments/",
+		"to": "/docs/sending-requests/managing-environments/"
+	},
+	{
+		"from": "/docs/postman/variables_and_environments/variables/",
+		"to": "/docs/sending-requests/variables/"
+	},
+	{
+		"from": "/docs/postman/variables_and_environments/variables_list/",
+		"to": "/docs/writing-scripts/script-references/variables-list/"
 	},
 	{
 		"from": "/docs/postman/workspaces/activity-feed-and-restoring-collections/",
@@ -944,6 +1380,10 @@
 		"to": "/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/"
 	},
 	{
+		"from": "/docs/postman/workspaces/changelog_and_restoring_collections/",
+		"to": "/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/"
+	},
+	{
 		"from": "/docs/postman/workspaces/conflicts/",
 		"to": "/docs/collaborating-in-postman/using-workspaces/conflicts/"
 	},
@@ -952,11 +1392,23 @@
 		"to": "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 	},
 	{
+		"from": "/docs/postman/workspaces/creating_workspaces/",
+		"to": "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
+	},
+	{
 		"from": "/docs/postman/workspaces/intro-to-workspaces/",
 		"to": "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 	},
 	{
+		"from": "/docs/postman/workspaces/intro_to_workspaces/",
+		"to": "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
+	},
+	{
 		"from": "/docs/postman/workspaces/managing-workspaces/",
+		"to": "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"
+	},
+	{
+		"from": "/docs/postman/workspaces/managing_workspaces/",
 		"to": "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"
 	},
 	{
@@ -969,6 +1421,10 @@
 	},
 	{
 		"from": "/docs/postman/workspaces/using-workspaces/",
+		"to": "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"
+	},
+	{
+		"from": "/docs/postman/workspaces/using_workspaces/",
 		"to": "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"
 	},
 	{
@@ -1028,6 +1484,26 @@
 		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/"
 	},
 	{
+		"from": "/docs/postman_for_publishers/api_network/add_api_network/",
+		"to": "/docs/publishing-your-api/add-api-network/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/api_network/api_submission_guidelines/",
+		"to": "/docs/publishing-your-api/api-submission-guidelines/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/postman_templates/add_templates/",
+		"to": "/docs/publishing-your-api/add-templates/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/postman_templates/template_guidelines/",
+		"to": "/docs/publishing-your-api/api-submission-guidelines/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/public_api_docs/",
+		"to": "/docs/publishing-your-api/publishing-your-docs/"
+	},
+	{
 		"from": "/docs/postman_for_publishers/run_button/collections_run_button/",
 		"to": "/docs/publishing-your-api/run-in-postman/creating-run-button/"
 	},
@@ -1049,6 +1525,34 @@
 	},
 	{
 		"from": "/docs/postman_for_publishers/run_button/using_run_button/",
+		"to": "/docs/publishing-your-api/run-in-postman/introduction-run-button/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/run_in_postman/collections_run_button/",
+		"to": "/docs/publishing-your-api/run-in-postman/creating-run-button/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/run_in_postman/creating_run_button/",
+		"to": "/docs/publishing-your-api/run-in-postman/creating-run-button/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/run_in_postman/environments_run_button/",
+		"to": "/docs/publishing-your-api/run-in-postman/creating-run-button/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/run_in_postman/introduction_run_button/",
+		"to": "/docs/publishing-your-api/run-in-postman/introduction-run-button/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/run_in_postman/run_button_API/",
+		"to": "/docs/publishing-your-api/run-in-postman/run-button-API/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/run_in_postman/security/",
+		"to": "/docs/publishing-your-api/run-in-postman/introduction-run-button/"
+	},
+	{
+		"from": "/docs/postman_for_publishers/run_in_postman/using_run_button/",
 		"to": "/docs/publishing-your-api/run-in-postman/introduction-run-button/"
 	},
 	{
@@ -1128,6 +1632,10 @@
 		"to": "/docs/collaborating-in-postman/roles-and-permissions/"
 	},
 	{
+		"from": "/docs/postman_pro/managing_pro/billing/",
+		"to": "/docs/administration/billing/"
+	},
+	{
 		"from": "/docs/postman_pro/managing_pro/billing_and_pricing/",
 		"to": "/docs/administration/billing/"
 	},
@@ -1140,7 +1648,7 @@
 		"to": "/docs/administration/billing/"
 	},
 	{
-		"from": "/docs/postman_pro/managing_pro/inviting_and_managing",
+		"from": "/docs/postman_pro/managing_pro/inviting_and_managing/",
 		"to": "/docs/administration/managing-your-team/"
 	},
 	{
@@ -1152,8 +1660,16 @@
 		"to": "/docs/administration/managing-your-team/"
 	},
 	{
+		"from": "/docs/postman_pro/managing_pro/migrating_to_v7/",
+		"to": "/docs/administration/migrating-to-v7/"
+	},
+	{
 		"from": "/docs/postman_pro/managing_pro/purchasing_pro/",
 		"to": "/docs/administration/buying/"
+	},
+	{
+		"from": "/docs/postman_pro/managing_pro/roles_and_permissions/",
+		"to": "/docs/collaborating-in-postman/roles-and-permissions/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/team_settings/",
@@ -1176,11 +1692,27 @@
 		"to": "/docs/publishing-your-api/run-in-postman/introduction-run-button/"
 	},
 	{
+		"from": "/docs/publishing_your_api/",
+		"to": "/docs/publishing-your-api/documenting-your-api/"
+	},
+	{
+		"from": "/docs/publishing_your_api/run_in_postman/",
+		"to": "/docs/publishing-your-api/run-in-postman/introduction-run-button/"
+	},
+	{
 		"from": "/docs/running-collections/",
 		"to": "/docs/running-collections/intro-to-collection-runs/"
 	},
 	{
 		"from": "/docs/running-collections/using-newman-cli/",
+		"to": "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+	},
+	{
+		"from": "/docs/running_collections/",
+		"to": "/docs/running-collections/intro-to-collection-runs/"
+	},
+	{
+		"from": "/docs/running_collections/using_newman_cli/",
 		"to": "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
 	},
 	{
@@ -1200,6 +1732,22 @@
 		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
 	},
 	{
+		"from": "/docs/sending_and_viewing_responses/responses/",
+		"to": "/docs/sending-requests/responses/"
+	},
+	{
+		"from": "/docs/sending_requests/",
+		"to": "/docs/sending-requests/requests/"
+	},
+	{
+		"from": "/docs/sending_requests/capturing_request_data/",
+		"to": "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
+	},
+	{
+		"from": "/docs/sending_requests/supported_api_frameworks/",
+		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+	},
+	{
 		"from": "/docs/v6/postman/sending_api_requests/authorization",
 		"to": "/docs/sending-requests/authorization/"
 	},
@@ -1212,7 +1760,19 @@
 		"to": "/docs/writing-scripts/script-references/test-examples/"
 	},
 	{
+		"from": "/docs/writing_scripts/",
+		"to": "/docs/writing-scripts/intro-to-scripts/"
+	},
+	{
+		"from": "/docs/writing_scripts/script_references/",
+		"to": "/docs/writing-scripts/script-references/test-examples/"
+	},
+	{
 		"from": "/getting-started/",
+		"to": "/docs/"
+	},
+	{
+		"from": "/getting_started/",
 		"to": "/docs/"
 	},
 	{
