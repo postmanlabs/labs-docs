@@ -29,7 +29,7 @@ contextual_links:
 warning: false
 ---
 
-You can publish your API documentation to make it available for public viewing by anyone who has the link. Published documentation) allows anyone who wants to learn how to use your API to view detail on endpoints, including parameters, request and response bodies, and example code.
+You can publish your API documentation to make it available for public viewing by anyone who has the link. Published documentation allows anyone who wants to learn how to use your API to view detail on endpoints, including parameters, request and response bodies, and example code.
 
 [![postman API docs](https://i.imgur.com/jNF08qQ.png)](https://i.imgur.com/jNF08qQ.png)
 
@@ -93,7 +93,7 @@ To share your API documentation with your users and the wider Postman community,
 
 ![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
-> When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://explore.postman.com).
+> When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://explore.postman.com).You also need to update your [explore.postman.com](https://explore.postman.com) details manually.
 
 * Choose __Add to API Network__ to [feature your team docs in the Postman publisher network](/docs/publishing-your-api/add-api-network/).
 * Choose __Add to Postman Templates__ to [share your collection with the Postman community as an individual](/docs/publishing-your-api/add-templates/) and make it discoverable via Postman.
