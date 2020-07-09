@@ -97,3 +97,14 @@ You can find more information about failed certification in the [console](/docs/
 You can toggle SSL verification on and off by default in the Postman __Settings__ (wrench icon at the top right) or for a specific request in the __Settings__ tab.
 
 [![Request SSL](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)
+
+## Certificate FAQ
+
+* **Do I need to renew the certificate?**  
+Certificates are renewed automatically, no manual steps are required.
+
+* **How long are these SSL Certificates valid for?**  
+Certificates are generated with a 90-day expiry date
+
+* **When does Let’s Encrypt renew SSL certificates for published documentation?**  
+The certificate gets renewed 7 days before it expires.
