@@ -780,18 +780,6 @@
 		"to": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
 	},
 	{
-		"from": "/docs/postman/design_and_develop_apis/reporting_faqs/",
-		"to": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
-	},
-	{
-		"from": "/docs/postman/design_and_develop_apis/reporting_faqs/",
-		"to": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
-	},
-	{
-		"from": "/docs/postman/design_and_develop_apis/sharing_apis/",
-		"to": "/docs/designing-and-developing-your-api/managing-apis/"
-	},
-	{
 		"from": "/docs/postman/design_and_develop_apis/sharing_apis/",
 		"to": "/docs/designing-and-developing-your-api/managing-apis/"
 	},
@@ -926,10 +914,6 @@
 	{
 		"from": "/docs/postman/launching-postman/troubleshooting-inapp/",
 		"to": "/docs/getting-started/troubleshooting-inapp/"
-	},
-	{
-		"from": "/docs/postman/launching_postman/collaboration/",
-		"to": "/docs/collaborating-in-postman/collaboration-intro/"
 	},
 	{
 		"from": "/docs/postman/launching_postman/collaboration/",
@@ -1436,14 +1420,6 @@
 		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
 	},
 	{
-		"from": "/docs/postman/workspaces/sharing_collections_in_workspaces_for_version_5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
-	},
-	{
-		"from": "/docs/postman/workspaces/sharing_collections_in_workspaces_for_version_5/",
-		"to": "https://github.com/postmanlabs/postman-docs/blob/9ae76e2efe0a31e08646d5e2e96a42fe67e14573/src/pages/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5.md"
-	},
-	{
 		"from": "/docs/postman/workspaces/using-workspaces/",
 		"to": "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"
 	},
@@ -1542,10 +1518,6 @@
 	{
 		"from": "/docs/postman_for_publishers/run_button/run_button_API/",
 		"to": "/docs/publishing-your-api/run-in-postman/run-button-API/"
-	},
-	{
-		"from": "/docs/postman_for_publishers/run_button/security/",
-		"to": "/docs/publishing-your-api/run-in-postman/introduction-run-button/"
 	},
 	{
 		"from": "/docs/postman_for_publishers/run_button/security/",
