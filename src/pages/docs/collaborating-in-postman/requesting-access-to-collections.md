@@ -52,7 +52,7 @@ This will trigger an email to the person you requested access from. When they ap
 
 There might be collections that you can view but not edit. These collections have a lock icon next to the collection name.
 
-<img src="https://assets.postman.com/postman-docs/collection-lock.png" width="300px">
+<img alt="Collection Lock" src="https://assets.postman.com/postman-docs/collection-lock.png" width="300px">
 
 You can request the Editor role on this collection:
 
