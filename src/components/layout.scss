@@ -35,6 +35,12 @@ div.col-sm-7.doc-page {
   padding: 64px 72px;
 }
 
+@media (min-width: 767px) {
+  .row {
+    flex-wrap: nowrap !important;
+  }
+}
+
 // Cookie Consent
 .CookieWrapper {
   width: 550px;

@@ -83,7 +83,15 @@ thead:first-child:hover tr{
 */
 :not(pre) > code[class*="language-"] {
   font-family: monospace !important;
-  background-color: white !important;
+  background-color: lightgray !important;
+  color: gray;
+}
+
+code[class*="language-"] {
+  // word-wrap: unset !important;
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 .gatsby-highlight {
@@ -94,7 +102,7 @@ thead:first-child:hover tr{
   overflow: auto;
   border-left: 0.5em solid $postman-orange;
   white-space: pre-wrap;
-    word-break: break-word;
+  word-break: break-word;
   // max-width: 600px;
 
   code[class*="language-"],
@@ -116,7 +124,7 @@ thead:first-child:hover tr{
     font-family: monospace !important;
     white-space: pre-wrap;
     word-break: break-word;
-    
+    line-height: 1.666rem;
   }
 
   /**
