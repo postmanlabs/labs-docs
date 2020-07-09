@@ -12,10 +12,6 @@
 		"to": "/docs/administration/managing-your-team/"
 	},
 	{
-		"from": "/docs/administration/migrating-to-v7/",
-		"to": "/docs/administration/migrating-to-v7/"
-	},
-	{
 		"from": "/docs/administration/migrating_to_v7/",
 		"to": "/docs/administration/migrating-to-v7/"
 	},
