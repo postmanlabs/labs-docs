@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
@@ -31,7 +32,7 @@ export default ({ data }) => {
               </div>
               <div className="col-sm-12 col-md-12 col-lg-4 right-column">
                 <div className="edit-button">
-                  <EditDoc className={'btn btn__small btn__secondary-light'} />
+                  <EditDoc className="btn btn__small btn__secondary-light" />
                 </div>
                 {contextualLinks}
               </div>
@@ -61,3 +62,4 @@ export const query = graphql`
     }
   }
 `;
+/* eslint-enaable */

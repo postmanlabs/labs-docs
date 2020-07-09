@@ -1,32 +1,14 @@
 ---
-title: "Migrating to Postman v7"
-order: 253
+title: "Migrating to the current version of Postman"
+order: 140.1
 page_id: "migrating_to_v7"
 warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Installation and updates"
-    url: "https://learning.postman.com/docs/postman/launching-postman/installation-and-updates/"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Postman v7.2 Supports GraphQL"
-    url: "https://blog.postman.com/2019/06/18/postman-v7-2-supports-graphql/"
-  - type: link
-    name: "Introducing Interceptor Integration for Native Postman Apps (v7.2)"
-    url: "https://blog.postman.com/2019/06/24/introducing-interceptor-integration-for-native-postman-apps/"
-  - type: link
-    name: "Postman 7.1: Create APIs directly within the Postman App"
-    url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Intro to Integrations"
-    url: "/docs/integrations/intro-integrations/"
+    name: "Installing and updating"
+    url: "/docs/getting-started/installation-and-updates/"
 
 ---
 
@@ -57,7 +39,7 @@ This section illustrates the possible user flows and guides you through the migr
 
 The next section explains the following scenarios:
 
-* [Team on Postman version 5/6](#team-on-postman-version-5/6)
+* [Team on Postman version 5/6](#team-on-postman-version-56)
 * [Team user on Postman v7](#team-user-on-postman-v7)
 
 ### Team on Postman version 5/6

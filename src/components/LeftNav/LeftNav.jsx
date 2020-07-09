@@ -1,3 +1,6 @@
+/* eslint-disable
+  jsx-a11y/click-events-have-key-events,
+  jsx-a11y/no-noninteractive-element-interactions */
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import React from 'react';
 import './LeftNav.scss';
@@ -30,7 +33,6 @@ class ListItem extends React.Component {
       this.setState((prev) => ({ active: [...prev.active, name] }));
     }
   } // sets a given list item as active
-
 
   toggleActive = (e) => {
     let title;
@@ -142,3 +144,4 @@ const LeftNav = () => {
 };
 
 export default LeftNav;
+/* eslint-enable */

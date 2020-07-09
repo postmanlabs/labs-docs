@@ -1,14 +1,14 @@
 ---
-title: "Intro to Integrations"
-order: 281
+title: "Integrating with Postman"
+order: 161
 page_id: "intro_integrations"
 warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to collections"
-    url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -26,7 +26,7 @@ The Postman team develops an open ecosystem in conjunction with industry partner
 
 Integrations allow you to automate sharing data and functionality between Postman and other tools you might be using for your API development.
 
-> If you use GitHub for your repository management and use Postman to develop and test your APIs, you can save your Postman Collections to your GitHub repository with the [Postman to GitHub integration](/docs/integrations/github/).
+> If you use GitHub for your repository management and use Postman to develop and test your APIs, you can save your Postman Collections to your GitHub repository with the [Postman to GitHub integration](/docs/integrations/available-integrations/github/).
 
 ## Accessing integrations
 

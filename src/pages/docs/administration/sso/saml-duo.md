@@ -1,6 +1,6 @@
 ---
-title: "Setting up custom SAML in Duo"
-order: 259
+title: "Custom SAML in Duo"
+order: 136
 page_id: "saml_duo"
 warning: false
 contextual_links:
@@ -39,4 +39,4 @@ contextual_links:
 
 1. Duo requires your cloud application to be added to the Duo Access Gateway. Refer to this [guide for setting this up](https://duo.com/docs/dag-generic).
 
-1. Once the setup is complete, submit your Identity Provider's details to Postman. Collect the `Identity Provider Single Sign-On URL`, `Identity Provider Issuer`, and `X.509 Certificate` from the Duo configuration page and fill these values in your Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **Duo Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/administration/sso/admin-sso).
+1. Once the setup is complete, submit your Identity Provider's details to Postman. Collect the `Identity Provider Single Sign-On URL`, `Identity Provider Issuer`, and `X.509 Certificate` from the Duo configuration page and fill these values in your Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **Duo Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/administration/sso/admin-sso/).

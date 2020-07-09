@@ -107,13 +107,26 @@
         color: $bright-orange;
         border-bottom: 1px solid;
       }
+      &.social-icon:hover{
+        border-bottom: none;
+      }
 
       /* for social icons */
       svg {
+        fill: #fff;
+        path {
+          fill: #fff;
+        } 
+        rect {
+          fill: #fff;
+        } 
         &:hover {
           path {
             fill: #F99D78;
           }
+          rect {
+            fill: #F99D78;
+          } 
         }
       }
 

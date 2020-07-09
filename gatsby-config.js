@@ -1,7 +1,11 @@
 const queries = require('./src/utils/algolia');
 
+// require('dotenv').config({
+//   path: `.env.${process.env.GATSBY_ACTIVE_ENV}`,
+// });
+
 require('dotenv').config({
-  path: `.env.${process.env.GATSBY_ACTIVE_ENV}`,
+  path: `.env.${process.env.NODE_ENV}`,
 });
 
 module.exports = {
@@ -12,6 +16,24 @@ module.exports = {
     siteUrl: 'https://learning.postman.com',
   },
   plugins: [
+    // {
+    //   resolve: 'gatsby-plugin-google-analytics',
+    //   options: {
+    //     // The property ID; the tracking code won't be generated without it
+    //     trackingId: 'UA-43979731-4',
+    // eslint-disable-next-line max-len
+    //     // Defines where to place the tracking script - `true` in the head and `false` in the body
+    //     head: true,
+    //     // Setting this parameter is optional
+    //     anonymize: true,
+    //     // Setting this parameter is also optional
+    //     respectDNT: true,
+    //     // Delays sending pageview hits on route update (in milliseconds)
+    //     pageTransitionDelay: 1000,
+    //     // Defers execution of google analytics script after page load
+    //     defer: true,
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
@@ -95,21 +117,21 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
-    'gatsby-plugin-meta-redirect',
-    'gatsby-plugin-sass',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Postman Learning Center',
+        short_name: 'Postman Learning Center',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#FF6C37',
+        theme_color: '#FF6C37',
         display: 'minimal-ui',
         icon: 'src/images/favicon.png',
       },
     },
+    'gatsby-plugin-meta-redirect',
+    'gatsby-plugin-sass',
+    'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-robots-txt',
@@ -135,9 +157,19 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-env-variables`,
+      resolve: 'gatsby-plugin-env-variables',
       options: {
-        whitelist: ['MUNCHKIN_ID']
+        whitelist: ['MUNCHKIN_ID'],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-gdpr-cookies',
+      options: {
+        googleAnalytics: {
+          trackingId: 'UA-43979731-4',
+          anonymize: true,
+        },
+        environments: ['production', 'development'],
       },
     },
   ],
