@@ -63,9 +63,7 @@ In the Postman app, select **Browse** in the bottom-right corner.
 
 <img src="https://assets.postman.com/postman-docs/browse-button-selected.jpg" width="400px" alt="Browse menu"/>
 
-At the top of the page, select **Monitors**.
-
-Locate your monitor and click **Edit**.
+Select **Monitors**, then locate your monitor and click **Edit**.
 
 ![Edit monitor](https://assets.postman.com/postman-docs/edit-monitor-button.jpg)
 
