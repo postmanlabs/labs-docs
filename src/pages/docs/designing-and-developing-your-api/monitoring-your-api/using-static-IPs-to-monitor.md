@@ -67,6 +67,6 @@ Under **Regions**, opt to **Select regions manually**. Select your desired stati
 
 <img src="https://assets.postman.com/postman-docs/monitoring-region-options-2.jpg" width="400px" alt="Selecting regions"/>
 
-# Next steps
+## Next steps
 
 Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results.
