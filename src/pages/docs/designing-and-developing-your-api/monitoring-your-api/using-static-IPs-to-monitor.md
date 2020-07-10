@@ -18,11 +18,11 @@ contextual_links:
 
 > __[Static IP address monitoring is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
 
-Postman monitors access APIs from dynamic IP addresses and does not provide the option to use static IP addresses by default. You must [contact the Postman support team](https://support.getpostman.com/) for this feature to be enabled for your account.
+Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall.
 
-By whitelisting a static IP address, customers can monitor their APIs behind a restricted firewall using Postman’s monitoring service, while conforming to company security policies.
+Static IPs are available to all Postman Business and Enterprise customers, however Postman does not provide the option to use static IP addresses by default. You must [contact the Postman support team](https://support.getpostman.com/) for this feature to be enabled for your account.
 
-Postman monitoring is available to all Postman Business and Enterprise customers. The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature.
+The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature.
 
 ## Contents
 
