@@ -32,7 +32,7 @@ Postman monitoring is available to all Postman Business and Enterprise customers
 
 * [Changing an existing monitor to run from a static IP address](#changing-an-existing-monitor-to-run-from-a-static-ip-address)
 
-* [Next steps]()
+* [Next steps](#next-steps)
 
 ## Whitelisting static IP addresses
 
