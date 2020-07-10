@@ -31,13 +31,19 @@ You can toggle Postman between two main modes: __Build__ and __Browse__ using th
 * The center area is where you build and work with requests.
 * The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode, toggle pane view, open keyboard shortcuts, and access help resources.
 
+![Resizing panes](https://assets.postman.com/postman-docs/resizing-panes-app.gif)
+
+You can drag to resize the panes in the Postman UI.
+
 [![Resizing panes](https://assets.postman.com/postman-docs/panes-resized.jpg)](https://assets.postman.com/postman-docs/panes-resized.jpg)
 
-You can drag to resize the panes in the Postman UI and use the buttons at the bottom-right to hide the sidebar and toggle between single and two pane view.
-
-[![general layout](https://assets.postman.com/postman-docs/split-pane-view.jpg)](https://assets.postman.com/postman-docs/split-pane-view.jpg)
+You can declutter your workspace by collapsing panes using the arrow button—click the collapsed section to reopen it.
 
 [![general layout](https://assets.postman.com/postman-docs/sidebar-collapsed.jpg)](https://assets.postman.com/postman-docs/sidebar-collapsed.jpg)
+
+Use the buttons at the bottom-right to hide the sidebar and toggle between single and two pane view.
+
+[![general layout](https://assets.postman.com/postman-docs/split-pane-view.jpg)](https://assets.postman.com/postman-docs/split-pane-view.jpg)
 
 Use browse mode to access entities across your workspace and connect to the Postman Dashboard.
 
