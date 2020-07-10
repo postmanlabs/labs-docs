@@ -71,7 +71,7 @@ Locate your monitor and click **Edit**.
 
 Under **Regions**, opt to **Select regions manually**. Select your desired static IP regions, then click **Save Changes**.
 
-<img src="https://assets.postman.com/postman-docs/monitoring-region-options-2.jpg" width="400px" alt="Selecting regions"/>
+<img src="https://assets.postman.com/postman-docs/select-regions-in-web.jpg" width="400px" alt="Selecting regions"/>
 
 ## Next steps
 
