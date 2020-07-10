@@ -84,7 +84,8 @@ thead:first-child:hover tr{
 :not(pre) > code[class*="language-"] {
   font-family: monospace !important;
   background-color: lightgray !important;
-  color: gray;
+  color: $gray-3;
+  padding: 3px !important;
 }
 
 code[class*="language-"] {
