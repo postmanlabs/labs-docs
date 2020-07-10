@@ -43,27 +43,31 @@ Static IP addresses are available for US east and US west regions. You will need
 
 ## Creating a new monitor to run from a static IP address
 
-In the Postman app, click **Build** in the bottom-right corner and select **Browse**.
+In the Postman app, select **Browse** in the bottom-right corner.
 
-<img src="https://assets.postman.com/postman-docs/WS-build-menu1.png" width="450px" alt="Browse menu"/>
+<img src="https://assets.postman.com/postman-docs/browse-button-selected.jpg" width="400px" alt="Browse menu"/>
 
-Select **Collections**, then locate the collection you'd like to monitor and click the ellipsis (**...**), then select **Monitor Collection**.
+Select **Collections**, then locate the collection you'd like to monitor and click the ellipsis (**...**). Select **Monitor Collection**.
 
-[![ellipsis menu](https://assets.postman.com/postman-docs/ENT-mock-collection2.png)](https://assets.postman.com/postman-docs/ENT-mock-collection2.png)
+![Create monitor page](https://assets.postman.com/postman-docs/monitor-collection-button-2.jpg)
 
 [Create your monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#the-basics-when-creating-a-monitor).  
 
-Under **Regions**, opt to **Select regions manually**. Select your desired static IP regions, then click **Add Monitor**.
+Under **Regions**, opt to **Manually Select Region**. Select your desired static IP regions, then click **Create**.
+
+<img src="https://assets.postman.com/postman-docs/select-regions-in-app.jpg" width="400px" alt="Select regions"/>
 
 ## Changing an existing monitor to run from a static IP address
 
-In the Postman app, click **Build** in the bottom-right corner and select **Browse**.
+In the Postman app, select **Browse** in the bottom-right corner.
 
-<img src="https://assets.postman.com/postman-docs/WS-build-menu1.png" width="450px" alt="Browse menu"/>
+<img src="https://assets.postman.com/postman-docs/browse-button-selected.jpg" width="400px" alt="Browse menu"/>
 
 At the top of the page, select **Monitors**.
 
 Locate your monitor and click **Edit**.
+
+![Edit monitor](https://assets.postman.com/postman-docs/edit-monitor-button.jpg)
 
 Under **Regions**, opt to **Select regions manually**. Select your desired static IP regions, then click **Save Changes**.
 
