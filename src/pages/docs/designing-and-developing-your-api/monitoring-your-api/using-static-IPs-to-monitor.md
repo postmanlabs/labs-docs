@@ -43,9 +43,11 @@ Static IP addresses are available for US east and US west regions. You will need
 
 ## Creating a new monitor to run from a static IP address
 
-In the Postman app, click the **Build** dropdown menu and select **Browse**.
+In the Postman app, click **Build** in the bottom-right corner and select **Browse**.
 
-Select the collection you want to monitor and click the ellipsis (**...**), then select **Monitor Collection**.
+<img src="https://assets.postman.com/postman-docs/WS-build-menu1.png" width="450px" alt="Browse menu"/>
+
+Select **Collections**, then locate the collection you'd like to monitor and click the ellipsis (**...**), then select **Monitor Collection**.
 
 [![ellipsis menu](https://assets.postman.com/postman-docs/ENT-mock-collection2.png)](https://assets.postman.com/postman-docs/ENT-mock-collection2.png)
 
@@ -61,7 +63,7 @@ In the Postman app, click **Build** in the bottom-right corner and select **Brow
 
 At the top of the page, select **Monitors**.
 
-Choose the monitor and click **Edit**.
+Locate your monitor and click **Edit**.
 
 Under **Regions**, opt to **Select regions manually**. Select your desired static IP regions, then click **Save Changes**.
 
