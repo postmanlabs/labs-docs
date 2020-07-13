@@ -20,7 +20,7 @@ contextual_links:
 
 Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall.
 
-Static IPs are available to all Postman Business and Enterprise customers, however Postman does not provide the option to use static IP addresses by default. You must [contact the Postman support team](https://support.getpostman.com/) for this feature to be enabled for your account.
+Static IPs are available to all Postman Business and Enterprise customers, however Postman does not provide the option to use static IP addresses by default. You must [contact the Postman support team](https://www.postman.com/support/) for this feature to be enabled for your account.
 
 The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature.
 
@@ -36,26 +36,16 @@ The provided static IP addresses are fixed to their specified region and shared 
 
 ## Whitelisting static IP addresses
 
-Static IP addresses are available for US east and US west regions. You will need to whitelist the following IP addresses:
+Static IP addresses are available for US east and US west regions. Contact your IT team to whitelist the following IP addresses:
 
 * US East: `34.201.186.27`
 * US West: `52.89.173.88`
 
 ## Creating a new monitor to run from a static IP address
 
-In the Postman app, select **Browse** in the bottom-right corner.
+When [creating a new monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#creating-a-monitor), opt to **Manually Select Region**. Select your desired static IP regions, then click **Add Monitor**.
 
-<img src="https://assets.postman.com/postman-docs/browse-button-selected.jpg" width="400px" alt="Browse menu"/>
-
-Select **Collections**, then locate the collection you'd like to monitor and click the ellipsis (**...**). Select **Monitor Collection**.
-
-![Create monitor page](https://assets.postman.com/postman-docs/monitor-collection-button-2.jpg)
-
-[Create your monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#the-basics-when-creating-a-monitor).  
-
-Under **Regions**, opt to **Manually Select Region**. Select your desired static IP regions, then click **Create**.
-
-<img src="https://assets.postman.com/postman-docs/select-regions-in-app.jpg" width="400px" alt="Select regions"/>
+<img src="https://assets.postman.com/postman-docs/select-regions-add-monitor.jpg" width="400px" alt="Select regions"/>
 
 ## Changing an existing monitor to run from a static IP address
 
