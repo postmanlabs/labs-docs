@@ -11,6 +11,7 @@ import Footer from './Footer/Footer';
 import CookieAlert from './CookieAlert';
 import marketo from '../../scripts/marketo.munchkin';
 import './layout.scss';
+import HelloBar from './Hellobar';
 
 const getCookie = (name) => {
   const value = `; ${document.cookie}`;
@@ -39,7 +40,7 @@ const setGclidCookie = () => {
     document.cookie = 'gclid=; expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/;secure';
     document.cookie = `gclid=${queries.gclid};expires=${expiration};path=/;secure;`;
   }
-}
+};
 
 const setReferrerCookie = () => {
   const referrerUrl = document.referrer !== '' ? document.referrer : 'null';
@@ -72,6 +73,7 @@ class Layout extends React.Component {
       <>
         {/* <div className="container-fluid"> */}
         <div className="layout-wrapper">
+          <HelloBar />
           <Header />
           <main>{children}</main>
           <Footer />

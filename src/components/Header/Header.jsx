@@ -53,7 +53,16 @@ class HeaderComponent extends React.Component {
       isToggledOn: 'unset',
       hasInput: false,
       refresh: false,
+      visibleHelloBar: 0,
     };
+  }
+
+
+  componentDidMount() {
+    const helloBarCountValue = Number(localStorage.getItem('hellobarcount'));
+    this.setState({
+      visibleHelloBar: helloBarCountValue,
+    });
   }
 
   getCookie = (a) => {
@@ -86,9 +95,10 @@ class HeaderComponent extends React.Component {
     }));
   }
 
+
   render() {
     const {
-      isToggledOn, refresh, hasInput, data,
+      isToggledOn, refresh, hasInput, data, visibleHelloBar,
     } = this.state;
     return (
       <header className="header text-center navbar navbar-expand-xl navbar-light">
@@ -112,6 +122,7 @@ class HeaderComponent extends React.Component {
             ${(isToggledOn === true) ? 'animate-open' : ''}
             ${(isToggledOn === false) ? 'animate-close' : ''}
             ${isToggledOn === 'unset' ? 'closed' : ''}
+            overlay${!visibleHelloBar ? ' noBar' : ''}
             `}
           id="navbarSupportedContent"
         >
