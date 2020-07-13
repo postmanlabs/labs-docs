@@ -40,7 +40,7 @@ const setGclidCookie = () => {
     document.cookie = 'gclid=; expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/;secure';
     document.cookie = `gclid=${queries.gclid};expires=${expiration};path=/;secure;`;
   }
-}
+};
 
 const setReferrerCookie = () => {
   const referrerUrl = document.referrer !== '' ? document.referrer : 'null';

@@ -57,6 +57,14 @@ class HeaderComponent extends React.Component {
     };
   }
 
+
+  componentDidMount() {
+    const helloBarCountValue = Number(localStorage.getItem('hellobarcount'));
+    this.setState({
+      visibleHelloBar: helloBarCountValue,
+    });
+  }
+
   getCookie = (a) => {
     if (typeof document !== 'undefined') {
       const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`);
@@ -87,12 +95,6 @@ class HeaderComponent extends React.Component {
     }));
   }
 
-  componentDidMount() {
-    const helloBarCountValue = Number(localStorage.getItem('hellobarcount'));
-    this.setState({
-      visibleHelloBar: helloBarCountValue,
-    });
-  }
 
   render() {
     const {
