@@ -102,7 +102,7 @@ If you have __SSL verification__ turned off and your request returns a certifica
 
 For requests that return data successfully but with a certificate verification failure, the [console](/docs/sending-requests/troubleshooting-api-requests/) will display a warning.
 
-[![Certification warning](https://assets.postman.com/postman-docs/certification-error-console-warning.jpg)](https://assets.postman.com/postman-docs/certification-error-console-warning.jpg)
+[![Certification warning](https://assets.postman.com/postman-docs/self-signed-warning-console-pane.jpg)](https://assets.postman.com/postman-docs/self-signed-warning-console-pane.jpg)
 
 ## Response time
 
