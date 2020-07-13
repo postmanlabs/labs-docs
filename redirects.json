@@ -100,6 +100,10 @@
 		"to": "/docs/integrations/available-integrations/bigpanda/"
 	},
 	{
+		"from": "/docs/integrations/bitbucket/",
+		"to": "/docs/integrations/available-integrations/bitbucket/"
+	},
+	{
 		"from": "/docs/integrations/coralogix/",
 		"to": "/docs/integrations/available-integrations/coralogix/"
 	},

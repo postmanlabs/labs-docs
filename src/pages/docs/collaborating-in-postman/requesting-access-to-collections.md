@@ -39,10 +39,10 @@ You can request viewer access to a team member's personal collection or a privat
 1. Open the collection link in Postman.
 
 2. Click **Request Access**.
-![https://assets.postman.com/postman-docs/access-blocked.png](https://assets.postman.com/postman-docs/access-blocked.png)
+![Access Blocked](https://assets.postman.com/postman-docs/access-blocked.png)
 
 3. Select a person to send your request to, a [role](/docs/collaborating-in-postman/roles-and-permissions/), and one of your workspaces to add the collection to once access is granted.
-![https://assets.postman.com/postman-docs/request-access.png](https://assets.postman.com/postman-docs/request-access.png)
+![Requesting Access](https://assets.postman.com/postman-docs/request-access.png)
 
 4. Complete your request by clicking **Request Access**.
 
@@ -57,13 +57,13 @@ There might be collections that you can view but not edit. These collections hav
 You can request the Editor role on this collection:
 
 1. Click the ellipsis icon (...) next to the collection name in the sidebar to open the following menu and choose **Manage Roles**.
-<img src="https://assets.postman.com/postman-docs/collection-context-menu.png" width="300px">
+<img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-menu.png" width="300px">
 
 2. Click **Request Access** in the modal.
-![https://assets.postman.com/postman-docs/manage-roles-blocked.png](https://assets.postman.com/postman-docs/manage-roles-blocked.png)
+![Manage Roles Blocked](https://assets.postman.com/postman-docs/manage-roles-blocked.png)
 
 3. Select a person to send the request to and select the __Editor__ [role](/docs/collaborating-in-postman/roles-and-permissions/) from the __Role__ dropdown list.
-![https://assets.postman.com/postman-docs/request-additional-access.png](https://assets.postman.com/postman-docs/request-additional-access.png)
+![Request Additional Access](https://assets.postman.com/postman-docs/request-additional-access.png)
 
 4. Complete your request by clicking **Request Access**.
 
@@ -80,13 +80,13 @@ You can request viewer access to a team member's personal API or a private API i
 1. Open the API link in your browser.
 
 2. Click **Request Access**.
-![https://assets.postman.com/postman-docs/requestaccess1.png](https://assets.postman.com/postman-docs/requestaccess1.png)
+![Initiate Request Access](https://assets.postman.com/postman-docs/requestaccess1.png)
 
 3. Select a person to send your request to, a [role](/docs/collaborating-in-postman/roles-and-permissions/), and one of your workspaces to add the API to once access is granted.
 
 4. Complete your request by clicking **Request Access**.
 
-![https://assets.postman.com/postman-docs/requestaccess2.gif](https://assets.postman.com/postman-docs/requestaccess2.gif)
+![Complete Request Access by Clicking Request Access Button](https://assets.postman.com/postman-docs/requestaccess2.gif)
 
 This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
 
@@ -94,7 +94,7 @@ This will trigger an email to the person you requested access from. When they ap
 
 There might be APIs that you can view in your team workspace but can't edit. These APIs have a lock icon next to the API name.
 
-<img src="https://assets.postman.com/postman-docs/requestingeditorroleonanapi.png" width="300px">
+<img alt="Requesting Editor Role on an API" src="https://assets.postman.com/postman-docs/requestingeditorroleonanapi.png" width="300px">
 
 You can request the Editor role on this API:
 
@@ -106,7 +106,7 @@ You can request the Editor role on this API:
 
 4. Complete your request by clicking **Request Access**.
 
-![https://assets.postman.com/postman-docs/requestaccesstocollections.gif](https://assets.postman.com/postman-docs/requestaccesstocollections.gif)
+![Request Access to Collection](https://assets.postman.com/postman-docs/requestaccesstocollections.gif)
 
 This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
 
@@ -121,7 +121,7 @@ Your team members can request access from you in the following cases:
 > The Viewer role is available depending on your [Postman plan](https://www.postman.com/pricing).
 
 You will receive an email detailing the request for access.
-![https://assets.postman.com/postman-docs/requestdetailemail.png](https://assets.postman.com/postman-docs/requestdetailemail.png)
+![Request Detail Email](https://assets.postman.com/postman-docs/requestdetailemail.png)
 
 Click **Approve Request** if you want to grant access to the collection or API. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
 
