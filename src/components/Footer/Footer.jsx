@@ -212,7 +212,7 @@ const Footer = () => (
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.postman.com/legal/privacy-policy/"
+                  href="https://www.postman.com/licenses/privacy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -221,7 +221,7 @@ const Footer = () => (
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.postman.com/legal/eula/"
+                  href="https://www.postman.com/licenses/postman_eula"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
