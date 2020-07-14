@@ -32,7 +32,7 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-[![Postman](https://assets.postman.com/postman-docs/postman-window-overview.jpg)](https://assets.postman.com/postman-docs/postman-window-overview.jpg)
+[![Postman](https://assets.postman.com/postman-docs/app-overview-response-received.jpg)](https://assets.postman.com/postman-docs/app-overview-response-received.jpg)
 
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the app:
 
