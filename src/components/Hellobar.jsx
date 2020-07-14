@@ -45,19 +45,19 @@ class HelloBar extends React.Component {
 
 
   render() {
-    const { showBar } = this.state;
+    // const { showBar } = this.state;
 
-    if (showBar === true) {
-      return (
-        <div className="hellobar__container">
-          <div className="align-middle hellobar__text">
-            {bardata.title}
-            <a href={bardata.cta.url} className="hellobar__postman-link" target="_blank" rel="noopener noreferrer">{bardata.cta.text}</a>
-          </div>
-          <div aria-label="HelloBar" type="button" className="hellobar__close-button" onClick={this.closeBar}>X</div>
-        </div>
-      );
-    }
+    // if (showBar === true) {
+    //   return (
+    //     <div className="hellobar__container">
+    //       <div className="align-middle hellobar__text">
+    //         {bardata.title}
+    //         <a href={bardata.cta.url} className="hellobar__postman-link" target="_blank" rel="noopener noreferrer">{bardata.cta.text}</a>
+    //       </div>
+    //       <div aria-label="HelloBar" type="button" className="hellobar__close-button" onClick={this.closeBar}>X</div>
+    //     </div>
+    //   );
+    // }
     return (<></>);
   }
 }
