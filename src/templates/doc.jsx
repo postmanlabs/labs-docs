@@ -7,6 +7,7 @@ import EditDoc from '../components/Shared/EditDoc';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
 import './doc.scss';
+import 'prismjs/themes/prism-tomorrow.css';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
