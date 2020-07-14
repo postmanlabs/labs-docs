@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+/* eslint-disable react/no-unused-state */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable react/jsx-no-comment-textnodes */
@@ -45,19 +47,19 @@ class HelloBar extends React.Component {
 
 
   render() {
-    const { showBar } = this.state;
+    // const { showBar } = this.state;
 
-    if (showBar === true) {
-      return (
-        <div className="hellobar__container">
-          <div className="align-middle hellobar__text">
-            {bardata.title}
-            <a href={bardata.cta.url} className="hellobar__postman-link" target="_blank" rel="noopener noreferrer">{bardata.cta.text}</a>
-          </div>
-          <div aria-label="HelloBar" type="button" className="hellobar__close-button" onClick={this.closeBar}>X</div>
-        </div>
-      );
-    }
+    // if (showBar === true) {
+    //   return (
+    //     <div className="hellobar__container">
+    //       <div className="align-middle hellobar__text">
+    //         {bardata.title}
+    //         <a href={bardata.cta.url} className="hellobar__postman-link" target="_blank" rel="noopener noreferrer">{bardata.cta.text}</a>
+    //       </div>
+    //       <div aria-label="HelloBar" type="button" className="hellobar__close-button" onClick={this.closeBar}>X</div>
+    //     </div>
+    //   );
+    // }
     return (<></>);
   }
 }
