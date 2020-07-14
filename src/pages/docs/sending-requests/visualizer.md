@@ -45,7 +45,7 @@ Visualizers let you present your response data in ways that help to make sense o
     * [Adding visualizer code](#adding-visualizer-code)
     * [Rendering HTML](#rendering-html)
     * [Viewing visualizations](#viewing-visualizations)
-    * [Adding styling and interaction to visualizations](#adding-styling-and-interaction-to -visualizations)
+    * [Adding styling and interaction to visualizations](#adding-styling-and-interaction-to-visualizations)
     * [Using your own libraries](#using-your-own-libraries)
     * [Accessing data inside the template](#accessing-data-inside-the-template)
 * [Try it out](#try-it-out)
