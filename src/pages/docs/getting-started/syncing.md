@@ -67,23 +67,29 @@ Once you log in to Postman app, your data gets synced across all devices. Postma
 
 ### States
 
-If your app is in sync with the server, the icon to the left of your name in the top navigation appears online, and displays **IN SYNC**. If you click on the icon, it you will see **SYNCING**. If you hover over the sync icon, you will see the popup showing the information about the current state.
+Syncing states helps you to understand the sync status of your workspace and enables you to take actions whenever necessary. The flow diagram for sync states is shown below:
 
-<img src="https://assets.postman.com/postman-docs/online-state-syncing.jpg" alt="Online state" width="350px"/>
+<img src="https://assets.postman.com/postman-docs/sync-states-flow.jpg" alt="Sync States" width="850px"/>
 
-If you are not signed in to the app, you see **OFFLINE**.
+If you are not signed in to the app, you see the state as **OFFLINE**.
 
-<img src="https://assets.postman.com/postman-docs/offline-state.jpg" alt="Offline state" width="350px"/>
+<img src="https://assets.postman.com/postman-docs/offline-state.jpg" alt="Offline state" width="850px"/>
 
 When you open the app or if your connection drops, it displays **CONNECTING** before it starts to sync.
 
-[![sync icon in header](https://assets.postman.com/postman-docs/Sync-Screen.png)](https://assets.postman.com/postman-docs/Sync-Screen.png)
+<img src="https://assets.postman.com/postman-docs/connecting-state.jpg" alt="Connecting state" width="850px"/>
 
-<img src="https://assets.postman.com/postman-docs/connecting-state.jpg" alt="Connecting state" width="350px"/>
+If you hover on the icon, you see **SYNCING**. The popup will show the information about the current state.
+
+<img src="https://assets.postman.com/postman-docs/online-state-syncing.jpg" alt="Online state syncing" width="850px"/>
+
+If your app is in sync with the server, the icon to the left of your name in the top navigation appears online, and displays a popup showing **All changes are saved** on hover. 
+
+<img src="https://assets.postman.com/postman-docs/online-state-in-sync.jpg" alt="Online state in sync" width="850px"/>
 
 While connecting to the app, if you encounter a syncing error, it goes to **ERROR** state. The popup will now display the detailed information on the error.
 
-<img src="https://assets.postman.com/postman-docs/sync-state-error.jpg" alt="Offline state" width="350px"/>
+<img src="https://assets.postman.com/postman-docs/error-state.jpg" alt="Error state" width="850px"/>
 
 > You may occasionally experience sync conflicts between your app and the Postman servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/collaborating-in-postman/using-workspaces/conflicts/)
 
