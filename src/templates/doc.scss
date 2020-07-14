@@ -4,23 +4,23 @@
   padding-left: 49px !important;
   padding-top: 32px;
   padding-bottom: 40px;
-  pre {
-    background-color: rgba(109, 127, 145, 0.2);
-    border-radius: 2px;
-    padding: 16px;
-    white-space: pre-wrap; 
-    code {
-      background: none;
-    }
-  }
-  code {
-    font-size: 87.5%;
-    color: #282828;
-    word-break: break-word;
-    background-color: rgba(109, 127, 145, 0.2);
-    border-radius: 2px;
-    padding: 4px;
-  }
+  // pre {
+  //   background-color: rgba(109, 127, 145, 0.2);
+  //   border-radius: 2px;
+  //   padding: 16px;
+  //   white-space: pre-wrap; 
+  //   code {
+  //     background: none;
+  //   }
+  // }
+  // code {
+  //   font-size: 87.5%;
+  //   color: #282828;
+  //   word-break: break-word;
+  //   background-color: rgba(109, 127, 145, 0.2);
+  //   border-radius: 2px;
+  //   padding: 4px;
+  // }
   a {
     color: $postman-orange;
     text-decoration: none;
@@ -75,4 +75,95 @@ td:first-child {
 
 thead:first-child:hover tr{
   background-color: white;
+}
+
+
+/**
+* add syntax highlighting
+*/
+:not(pre) > code[class*="language-"] {
+  font-family: monospace !important;
+  background-color: lightgray !important;
+  color: $gray-3;
+  padding: 3px !important;
+  font-size: 1.2em !important;
+}
+
+code[class*="language-"] {
+  // word-wrap: unset !important;
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+.gatsby-highlight {
+  background-color: #2d2d2d;
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  padding: 1em;
+  overflow: auto;
+  border-left: 0.5em solid $postman-orange;
+  white-space: pre-wrap;
+  word-break: break-word;
+  // max-width: 600px;
+
+  code[class*="language-"],
+  .token.comment, 
+  .token.string,
+  .token.number,
+  .token.boolean,
+  .token.class-name,
+  .token.constant,
+  .token.parameter,
+  .token.keyword,
+  .token.operator,
+  .token.function,
+  .token.property,
+  .token.attr-name,
+  .token.attr-value,
+  .token.tag,
+  .token.punctuation {
+    font-family: monospace !important;
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 1.666rem;
+  }
+
+  /**
+  * Remove the default PrismJS theme background-color, border-radius, margin,
+  * padding and overflow.
+  * 1. Make the element just wide enough to fit its content.
+  * 2. Always fill the visible space in .gatsby-highlight.
+  * 3. Adjust the position of the line numbers
+  */
+  pre[class*="language-"] {
+    font-family: monospace !important;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    float: left;
+    min-width: calc(100% - 3em);
+    white-space: pre-wrap;
+    word-break: break-word;
+
+    // &.line-numbers {
+    //   padding-left: 3em;
+    //   padding-right: 1em;
+
+    //   .line-numbers-rows {
+    //     right: calc(100% - 25px);
+    //     left: unset !important;
+    //   }
+
+    //   .gatsby-highlight-code-line {
+    //     background-color: #455A64;
+    //     display: block;
+    //     margin-right: -1em;
+    //     margin-left: -1em;
+    //     padding-right: 1em;
+    //     padding-left: 0.75em;
+    //   }
+    // }
+  }
 }

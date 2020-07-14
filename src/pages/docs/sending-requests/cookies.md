@@ -79,7 +79,9 @@ cookies and the methods that will be used to operate on cookies.
 
 To create a "cookie jar", use the `pm.cookies.jar()` method. This will create an object containing the cookies and the methods that would be needed to access them.
 
-`const cookieJar = pm.cookies.jar();`
+```js
+const cookieJar = pm.cookies.jar();
+```
 
 ## Creating a cookie
 
@@ -87,59 +89,113 @@ After a cookie jar is created, you can place cookies into it by the following me
 
 1. Set a cookie using the `.set()` function, it takes a URL, a cookie name and a cookie value.
 
-`const cookieJar = pm.cookies.jar();` // create a cookie jar
+```js
+// create a cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));` // create a cookie
+```js
+// create a cookie
+cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));
+```
 
 1. One can also set a PostmanCookie or its compatible cookie object using the `.set()` function.
 
-`const cookieJar = pm.cookies.jar();` // create a cookie jar
+```js
+// create a cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL, { name: cookie name, value: cookie value, httpOnly: true }, callback (error, cookie));` // create a PostmanCookie
+```js
+// create a PostmanCookie
+cookieJar.set(URL, { name: cookie name, value: cookie value, httpOnly: true }, callback (error, cookie));
+```
 
 ## Get a cookie
 
 To retrieve a cookie, `.get()` function is used. The function takes a URL and name of the required cookie. It returns the value of cookie.
 
-`const cookieJar = pm.cookies.jar();` // create a cookie jar
+```js
+// create a cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));` // create a cookie
+```js
+// create a cookie
+cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));
+```
 
-`cookieJar.get(URL, cookie name, callback(error, cookie));` // get the created cookie
+```js
+// get the created cookie
+cookieJar.get(URL, cookie name, callback(error, cookie));
+```
 
 ## Get all the cookies
 
 To get all the cookies for a particular URL that are in the cookie jar, `.getAll()` function is used, it takes a URL and returns all the cookies for that URL.
 
-`const cookieJar = pm.cookies.jar();` // create the cookie jar
+```js
+// create the cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL,first cookie name,first cookie value, callback(error, cookie));` // create one cookie
+```js
+// create one cookie
+cookieJar.set(URL,first cookie name,first cookie value, callback(error, cookie));
+```
 
-`cookieJar.set(URL,second cookie name,second cookie value, callback(error, cookie));` // create another cookie
+```js
+// create another cookie
+cookieJar.set(URL,second cookie name,second cookie value, callback(error, cookie));
+```
 
-`cookieJar.getAll(URL, callback(error, cookies));` // get the created cookies
+```js
+// get the created cookies
+cookieJar.getAll(URL, callback(error, cookies));
+```
 
 ## Delete a cookie
 
 To delete a cookie, `.unset()` function is used. It takes a URL and the name of the cookie to be removed.
 
-`const cookieJar = pm.cookies.jar();` // create the cookie jar
+```js
+// create the cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));` // create a cookie
+```js
+// create a cookie
+cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));
+```
 
-`cookieJar.unset(URL , cookie name, callback (error));` // Delete the created cookie
+```js
+// Delete the created cookie
+cookieJar.unset(URL , cookie name, callback (error));
+```
 
 ## Delete all the cookies
 
 To clear all the cookies for a URL, `.clear()` is used. It takes the URL for which all the cookies are to be removed. Note that `.clear()` removes all cookies for a particular URL, it DOES NOT remove all the cookies in the jar as there may be cookies for more than one URL in the cookie jar.
 
-`const cookieJar = pm.cookies.jar();` // create cookie jar
+```js
+// create cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL,first cookie name,first cookie value, callback(error, cookie));`  // set one cookie
+```js
+// set one cookie
+cookieJar.set(URL,first cookie name,first cookie value, callback(error, cookie));
+```
 
-`cookieJar.set(URL,second cookie name,second cookie value, callback(error, cookie));` // set another cookie
+```js
+// set another cookie
+cookieJar.set(URL,second cookie name,second cookie value, callback(error, cookie));
+```
 
-`cookieJar.clear(URL, callback (error));` // delete the set cookies
+```js
+// delete the set cookies
+cookieJar.clear(URL, callback (error));
+```
 
 ## Properties not yet supported
 
