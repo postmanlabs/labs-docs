@@ -83,7 +83,7 @@ If you hover on the icon, you see **SYNCING**. The popup will show the informati
 
 <img src="https://assets.postman.com/postman-docs/online-state-syncing.jpg" alt="Online state syncing" width="850px"/>
 
-If your app is in sync with the server, the icon to the left of your name in the top navigation appears online, and displays a popup showing **All changes are saved** on hover. 
+If your app is in sync with the server, the icon to the left of your name in the top navigation appears online, and displays a popup showing **All changes are saved** on hover.
 
 <img src="https://assets.postman.com/postman-docs/online-state-in-sync.jpg" alt="Online state in sync" width="850px"/>
 
