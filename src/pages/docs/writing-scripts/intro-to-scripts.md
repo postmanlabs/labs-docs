@@ -43,7 +43,9 @@ Postman contains a powerful runtime based on Node.js that allows you to add dyna
   1. Before a request is sent to the server, as a [pre-request script](/docs/writing-scripts/pre-request-scripts/) under the **Pre-request Script** tab.
   1. After a response is received, as a [test script](/docs/writing-scripts/test-scripts/) under the **Tests** tab.
 
-[![test script](https://assets.postman.com/postman-docs/Test_script1.png)](https://assets.postman.com/postman-docs/WS-randomScripts2.png)
+Postman will prompt you with suggestions as you type—select one to autocomplete your code.
+
+[![Script autocomplete](https://assets.postman.com/postman-docs/11-autocomplete.gif)](https://assets.postman.com/postman-docs/11-autocomplete.gif)
 
 You can add pre-request and test scripts to a collection, a folder, a request within a collection, or a request not saved to a collection.
 
