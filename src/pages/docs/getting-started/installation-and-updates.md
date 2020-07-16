@@ -35,6 +35,8 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 ![Postman download page](https://assets.postman.com/postman-docs/download-postman.jpg)
 
+> [Postman for the Web](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/) is currently available in Beta. [Try it out](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) and give the team feedback by joining in the discussion on the [community forum](https://community.postman.com/t/announcing-postman-for-the-web-now-in-open-beta/14192).
+
 ## Contents
 
 * Installing Postman
