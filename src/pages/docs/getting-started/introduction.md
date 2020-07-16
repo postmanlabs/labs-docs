@@ -32,7 +32,7 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-[![Postman](https://assets.postman.com/postman-docs/app-overview-response-received.jpg)](https://assets.postman.com/postman-docs/app-overview-response-received.jpg)
+[![Postman](https://assets.postman.com/postman-docs/postman-app-overview-response.jpg)](https://assets.postman.com/postman-docs/postman-app-overview-response.jpg)
 
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the app:
 
@@ -50,6 +50,8 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 * [__Publishing APIs__](#publishing-apis)
 * [__Collaborating with your team__](#collaborating-with-your-team)
 * [__Developing with Postman__](#developing-with-postman)
+
+> [Postman for the Web](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/) is currently available in Beta. [Try it out](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) and give the team feedback by joining in the discussion on the [community forum](https://community.postman.com/t/announcing-postman-for-the-web-now-in-open-beta/14192).
 
 ### Making requests
 
