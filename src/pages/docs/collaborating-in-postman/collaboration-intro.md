@@ -24,11 +24,13 @@ contextual_links:
     url: "/docs/collaborating-in-postman/adding-private-network/"
 
 ---
+> Free collaboration is available in version 6.2 and above.
+
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
 
 Postman will alert you with notifications when activities occur within your team and workspace.
 
-> Free collaboration is available in version 6.2 and above.
+> Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are two features [on our roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
 
 ## Contents
 

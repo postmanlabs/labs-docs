@@ -80,6 +80,8 @@ Enter your profile details and click **Save changes**.
 
 You can optionally create or join a team. If you're signing up with your organization email and your company has a Postman account, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
 
+> Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are two features [on our roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
+
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
 To create a team and optionally invite collaborators, click __Create new team__. Enter your team name and URL—click __Continue__.
