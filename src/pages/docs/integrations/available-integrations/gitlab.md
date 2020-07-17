@@ -13,7 +13,7 @@ contextual_links:
 
 > __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
 
-Back up and synchronize your Postman Collections on GitLab (an open source Git repository manager) and on any of your custom domains. Your Collections are all tucked in safe and sound with the latest Postman to GitLab integration.
+Back up your Postman Collections to GitLab, an open source Git repository manager, with the Postman to GitLab integration.
 
 Setting up a GitLab integration requires you to get a GitLab Personal Access Token and configure how you would like to back up your collections.
 
