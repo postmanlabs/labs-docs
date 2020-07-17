@@ -37,6 +37,7 @@ exports[`renders correctly 1`] = `
             
             
             closed
+            overlay noBar
             "
     id="navbarSupportedContent"
   >

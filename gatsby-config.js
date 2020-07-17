@@ -34,6 +34,7 @@ module.exports = {
     //     defer: true,
     //   },
     // },
+    'gatsby-plugin-polyfill-io',
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
@@ -76,18 +77,28 @@ module.exports = {
       options: {
         plugins: [
           'gatsby-remark-autolink-headers',
+          // {
+          //   resolve: 'gatsby-remark-embed-video',
+          //   options: {
+          //     width: 700,
+          //     ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+          //     height: 400, // Optional: Overrides optional.ratio
+          //     // Optional: Will remove related videos from the end of an embedded YouTube video.
+          //     related: false,
+          //     noIframeBorder: true, // Optional: Disable insertion of <style> border: 0
+          //   },
+          // },
+          'gatsby-remark-responsive-iframe',
           {
-            resolve: 'gatsby-remark-embed-video',
+            resolve: 'gatsby-remark-prismjs',
             options: {
-              width: 700,
-              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-              height: 400, // Optional: Overrides optional.ratio
-              // Optional: Will remove related videos from the end of an embedded YouTube video.
-              related: false,
-              noIframeBorder: true, // Optional: Disable insertion of <style> border: 0
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
             },
           },
-          'gatsby-remark-responsive-iframe',
         ],
       },
     },
@@ -107,6 +118,18 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Postman Learning Center',
+        short_name: 'Postman Learning Center',
+        start_url: '/',
+        background_color: '#FF6C37',
+        theme_color: '#FF6C37',
+        display: 'minimal-ui',
+        icon: 'src/images/favicon.png',
+      },
+    },
     'gatsby-plugin-meta-redirect',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',

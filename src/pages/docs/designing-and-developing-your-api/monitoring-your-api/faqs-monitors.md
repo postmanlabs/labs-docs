@@ -36,6 +36,10 @@ There is no limit to the number of requests, although the total run-time cannot 
 
 There is nearly no limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. As a result, be sure that you can do everything within the 5 minute time limit.
 
+### Are static IP addresses dedicated to individual customers or shared?
+
+The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Business and Enterprise teams. For more information, see [Running Postman monitors using static IPs](/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/).
+
 ### How do I troubleshoot problems?
 
 You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/).
