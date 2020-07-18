@@ -362,7 +362,7 @@ newman.run({
 
 In both cases above, the reporter options are optional.
 
-For the complete list of details, see the [Newman README](https://github.com/postmanlabs/newman).
+For the complete documentation, see the [Newman README](https://github.com/postmanlabs/newman).
 
 For more information about collection runs, see:
 
