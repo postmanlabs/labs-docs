@@ -159,4 +159,3 @@ If your proxy has basic auth, take the following steps:
     `HTTPS_PROXY`='https://USER:PASS@host:port' /path/to/postman
 
     * Create these files and save in a convenient location. When you open this file, the set environment variables will only apply to the Postman process.
-    
