@@ -1,4 +1,5 @@
 const algoliasearch = require('algoliasearch');
+// import algoliasearch from 'algoliasearch/lite';
 const { google } = require('googleapis');
 const analytics = google.analyticsreporting('v4');
 
@@ -210,7 +211,7 @@ function getPageUrl(hostname, pagePath) {
     });
   }
   catch(err) {
-    console.log(err);
+    console.log('OOOOOOPS ERROR: ', serr);
   }
 
   console.log(`Updating ${recordsToUpdate.length} records...`);
