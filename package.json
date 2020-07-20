@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "dependencies": {
     "@github-docs/frontmatter": "^1.2.0",
-    "algoliasearch": "^3.35.0",
+    "algoliasearch": "^4.3.1",
     "autocomplete.js": "^0.37.0",
     "axios": "^0.19.2",
     "babel-eslint": "^10.0.3",
