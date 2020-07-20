@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ga-to-algolia-for-lc",
+  "private_key_id": "6e16baa63a65587e78dc32a2663e662e5af6eb35",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCvjvWpMJMmxEMR\nSFtc+cmokg/WvDAJL7zlTbYprgkqrX5p5V4sjGbEQhrL/7fJMsapfCJAqjvFItLL\n+pC16ATpxwBrTibiMRtWWLb8CJPzocmZVEOt7hlx/vLOazVNOhmjwTRNWtBbfiQg\nBv7S1BjaSickAp39fkuXKqaDyEuaWIOgovb2j+ANfYnyj2uxZP8UdExwAGDOqvx/\nRc1zOO6YXcYcBvUAeX0mXhHY58yaWgUXGVDFTMxlxSouCBzH63pB5DPt8Y9pgHnF\nl0Y3wkWoU9I1HOKuw2N+1XZlqzE8g+D2trE9+ADXRBPp3smFB06rH9OYiTEs6ZN/\nlU07KpyvAgMBAAECggEABpglm4g5Q5Y3eLSeYSGToaylQkK8wS0uxYqdbypcEMmf\nu0WQ1VAlMHXVNAvacO9ioMCKntT/vFnTz8xAV3zfT/kYITyE+S99oEj7zDLCr/H7\nTkwCfZi5RVvQutBlgHQDifAHawJtKIqjIiRxICU0Yi3krRV/rrzQOEQZwuh11bz+\ne/Iy/Y0fvlZyyhlpUHK1lRilam6MsNNpsSBydlMs6Z2pKPj7mP9SSGy4hn6hB/Hj\nDqfWEK5+a4FJGraBeq8alXPh0JQAbX8ZDp8pDCW4RozGAdqolvF7n5LjHvLNVvQ0\nX9R4oo4wcHhIKe2Xw0IXSUgrPzWzPOcOXSJNB1SR1QKBgQDZTxl+Jgq0bY5oK/x0\nkmpRnd7UHWeePAuDxBytTNBZs/Pk53TJ+1PA5458W6UjNjIkHocM+VlOXl7Zg/pb\nxgLPsIq+MMQ/E/8HyoruXnYME8WDDQtxzu7BHEnLE23ShlP2KL6KlcyybjbuSLlG\nG63GhKBAFIEeVU372Ub3hUjc4wKBgQDO0ODdLvnHS83x5GuHmlqw+kR37gSj5baO\nZi8LQBSdFnqKu0d+X2lX5cWDH1v7OebHYl1B4aCpXOxPMA7rYr/COxHignNKSs1V\neV3t07TRocIHiz/+ffcp3IH3m2AwKJM3pDtthoZc/pS4KkwYgvp85AfTOWQHoagg\nhsdoVRh2xQKBgCvTQP/o6iXDJoIpxMs5sAlvvj2nBHur/mJ/jY0Bvc8pdJmIeEw3\nzIdN67V2whIc3vXb1j6ulu0wKQ7TCA20HGMIZqK+sQVLohZPKb+y+zmqTx4D5nf4\nVLxLWTKEY5SelJZDV1IZreOaSKe7sOnLsTslCjCCMhwM9iJBiodmsPAjAoGAdFuA\np/CuBzrW+6kP9pMZQ0kLDI6VfcDYHPXQsfuznU3wU+1aI/d6RUG5BjS2g3noJXVq\nEo7m3WKycTsQqc49JQIm5dGPG9VKATTva8cYjHj9uVDXCE/Gp36wgKaiT3YEneGA\nrfZp0hhJg/QILCJE289Pt78qUEDbXrF1r3Vw9iECgYAhdXbN9QGZrRw6S++pVH3b\nAK+CKNpGfo03kdZZ6RAVoUocRkbgZ7PyZDI6rw9h/hQ5SC9hFtbzq7F/EQccNqS4\nm7FGVTuDHan6uRyTAHZPPfV+nl+YwxzcJc0naAld2KU37z8D4vWqBt8Ba03QO4iE\nr9KIjlgdjfu01NjojWUtMQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ga-to-algolia-for-lc@ga-to-algolia-for-lc.iam.gserviceaccount.com",
+  "client_id": "109150240847941426787",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ga-to-algolia-for-lc%40ga-to-algolia-for-lc.iam.gserviceaccount.com"
+}
