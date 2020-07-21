@@ -92,7 +92,7 @@ You can update your settings at any time by clicking your avatar in the top left
 
 <img src="https://assets.postman.com/postman-docs/user-settings-menu.jpg" width="350px" alt="User Menu"/>
 
-You can set a variety of profile details, including uploading an photo for your account, which will be visible to collaborators and anyone viewing resources you share or publish.
+You can set a variety of profile details, including uploading a photo for your account, which will be visible to collaborators and anyone viewing resources you share or publish.
 
 ## Signing into Postman
 

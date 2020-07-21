@@ -24,7 +24,7 @@ Microsoft Flow enables you to automate workflows between your favorite apps and 
 
 You can configure Microsoft Flow with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a Microsoft Flow Webhook URL.
 
-## Congfiguring Microsoft Flow
+## Configuring Microsoft Flow
 
 1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select Microsoft Flow from the list of third party integrations.
 
