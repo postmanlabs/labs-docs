@@ -28,7 +28,7 @@ You can click the failed monitor and review the relevant logs under the **Consol
 
 [![failed monitors](https://assets.postman.com/postman-docs/WS-monitor-failed-1.png)](https://assets.postman.com/postman-docs/WS-monitor-failed-1.png)
 
-For information about debugging in the console, see [Troubleshooting API requets](/docs/sending-requests/troubleshooting-api-requests/).
+For information about debugging in the console, see [Troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/).
 
 When a monitor fails, a "Need help debugging?" popup displays in the Postman monitors web view. Whenever possible, these suggestions include debugging tips that are specifically related to the error.
 
