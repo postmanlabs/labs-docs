@@ -13,11 +13,11 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
-    - name: update Algolia with GA Pageviews
-      with: 
-        GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
-      run: |
-        "$GOOGLE_APPLICATION_CREDENTIALS" node ga_connector.js
+    # - name: update Algolia with GA Pageviews
+    #   env: 
+    #     GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
+    #   run: |
+    #     $GOOGLE_APPLICATION_CREDENTIALS node ga_connector.js
     - name: lint all markdownfiles
       run: |
         npm install
