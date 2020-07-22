@@ -22,6 +22,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{secrets.PROD_AWS_SECRET_ACCESS_KEY}}
         DIST_ID: ${{secrets.PROD_DIST_ID}}
         MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
+        GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
       run: |
         npm install
         npm run clean

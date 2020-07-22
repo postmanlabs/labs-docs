@@ -1,6 +1,6 @@
 const algoliasearch = require('algoliasearch');
-// import algoliasearch from 'algoliasearch/lite';
 const { google } = require('googleapis');
+const { hostname } = require('os');
 const analytics = google.analyticsreporting('v4');
 
 // GA metrics. Reference doc: https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/
@@ -15,7 +15,7 @@ const METRICS = {
 const APP_ID = '4A5N71XYH0';
 const API_KEY = '5fe29b1ffa4ce10986e18c2e880a5ade';
 const INDEX_NAME = 'docs';
-const URL_ATTRIBUTE = 'url';
+const URL_ATTRIBUTE = 'fields'; // name of the attribute in your Algolia records that contain the URL.
 const GA_PARAMETERS = {
   viewId: 193423593,
   metrics: [METRICS.uniquePageViews],
@@ -156,7 +156,7 @@ class MetricsFetcher {
         res[getPageUrl(row.hostname, row.pagePath)] = row;
       });
     } while (batch.hasMore);
-    console.log(`=> fetched ${counter} rows from GA view: ${this.viewId} 📚`);
+    console.log(`=> fetched ${counter} rows from GA LC view: ${this.viewId} 📚`);
     return res;
   }
 }
@@ -185,34 +185,42 @@ function getPageUrl(hostname, pagePath) {
 (async () => {
   console.log(`Fetching Google Analytics data...`);
   const metricsFetcher = new MetricsFetcher(GA_PARAMETERS);
-  const allGAData = await metricsFetcher.fetchAll();
+  const allGADataUgly = await metricsFetcher.fetchAll();
+
+  const allGAData = {};
+  // turn GAData object into array 
+  Object.keys(allGADataUgly).forEach((item) => {
+    if (allGADataUgly[item]['ga:uniquePageViews'] > 100) {
+      const newKey = item.replace('https://learning.postman.com', '').replace(/\?.*/g, ''); // remove url and everything after a ? to match the path that is being indexed in Algolia
+      allGAData[newKey] = allGADataUgly[item];
+    }
+  }) 
 
   console.log('Browsing Algolia index and creating partial records...');
   const client = algoliasearch(APP_ID, API_KEY);
   const index = client.initIndex(INDEX_NAME);
   const recordsToUpdate = [];
 
-  try { 
-    await index.browseObjects({
-      query: '', // Empty query will match all records
-      attributesToRetrieve: [URL_ATTRIBUTE],
-      batch: batch => {
-        batch.forEach(record => {
-          if (allGAData[record[URL_ATTRIBUTE]]) {
-            // Create a partial record with a new `pageviews` attribute
-            recordsToUpdate.push({
-              objectID: record.objectID,
-              pageviews:
-                allGAData[record[URL_ATTRIBUTE]][METRICS.uniquePageViews],
-            });
-          }
-        });
-      },
-    });
-  }
-  catch(err) {
-    console.log('OOOOOOPS ERROR: ', serr);
-  }
+
+  await index.browseObjects({
+    query: '', // Empty query will match all records
+    attributesToRetrieve: [URL_ATTRIBUTE],
+    batch: batch => {
+      batch.forEach(record => {
+
+        if (allGAData[record[URL_ATTRIBUTE].slug]) {  
+          // Create a partial record with a new `pageviews` attribute
+          recordsToUpdate.push({
+            objectID: record.objectID,
+            pageviews:
+              allGAData[record[URL_ATTRIBUTE].slug][METRICS.uniquePageViews],
+          });
+        }
+      });
+    },
+  });
+
+
 
   console.log(`Updating ${recordsToUpdate.length} records...`);
   await index.partialUpdateObjects(recordsToUpdate, {

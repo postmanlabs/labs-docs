@@ -29,3 +29,7 @@ jobs:
         npm install
         npm run clean
         npm run test:update
+    - name: update Algolia with GA Pageviews
+        npm install
+        npm run clean
+        npm run build:data
