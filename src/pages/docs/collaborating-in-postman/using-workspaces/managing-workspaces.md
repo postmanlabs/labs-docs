@@ -89,7 +89,7 @@ You can also join a workspace from the [Dashboard](https://app.getpostman.com/da
 
 > To leave a workspace, select the __Team__ tab in the workspaces [Dashboard](https://app.getpostman.com/dashboard) and select __Leave__.
 
-[![Leave workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-worskpace.jpg)
+[![Leave workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)
 
 ## Adding elements to workspaces
 
@@ -151,7 +151,7 @@ Confirm that you wish to delete the workspace—it will no longer be available.
 
 If you're a team administrators you can manage the members of your workspace, from the [Dashboard](https://app.getpostman.com/dashboard) via the **Team** tab.
 
-[![Edit workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-worskpace.jpg)
+[![Edit workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)
 
 Click **...** next to the workspace you want to update, and select __Manage Members__.
 

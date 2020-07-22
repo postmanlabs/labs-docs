@@ -302,7 +302,7 @@ To enable programmatic access via the methods below, the cookie `url` must be [w
 
 * `jar.set(URL:String, cookie name:String, cookie value:String, callback(error, cookie)):Function → Object`
 
-   Set a cookie using cookie name and value. One can also directly set the cookie by assinging cookie value to the cookie name within this function.
+   Set a cookie using cookie name and value. One can also directly set the cookie by assigning cookie value to the cookie name within this function.
 
 * `jar.set(URL:String, { name:String, value:String, httpOnly:Bool }, callback(error, cookie)):Function → Object`
 

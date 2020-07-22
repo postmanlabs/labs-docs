@@ -92,7 +92,9 @@ The default schema format is Open API 3.0, with JSON as the default language. To
 
 The schema editor provides options to beautify the content, wrap text, copy, and search. When you finish editing your schema, click **Save**.
 
-![Save Schema](https://assets.postman.com/postman-docs/schema-save.jpg)
+![Save Schema](https://assets.postman.com/postman-docs/beautify-schema.jpg)
+
+> Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your schema.
 
 ### Generating a collection
 
@@ -285,4 +287,4 @@ For more information on building your APIs in Postman, check out the following r
 * [Versioning APIs](/docs/collaborating-in-postman/versioning-an-api/)
 * [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/)
 * [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
-* [Validating elements against schema](/docs/designing-and-developing-your-api/validating-elements-against-schema/)
+* [Validating schema and elements](/docs/designing-and-developing-your-api/validating-elements-against-schema/)

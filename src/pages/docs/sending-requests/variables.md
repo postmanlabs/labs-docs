@@ -232,7 +232,7 @@ You can use double curly braces to reference variables throughout the Postman us
 {{username}}
 ```
 
-When you run a request, Postman will resolve the variable and replace it with it's current value.
+When you run a request, Postman will resolve the variable and replace it with its current value.
 
 For example, you could have a request URL referencing a variable as follows:
 
