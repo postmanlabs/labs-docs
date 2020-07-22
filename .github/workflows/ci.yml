@@ -30,6 +30,7 @@ jobs:
         npm run clean
         npm run test:update
     - name: update Algolia with GA Pageviews
-      env: GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
+      env: 
+        GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
       run: 
         GOOGLE_APPLICATION_CREDENTIALS=${{secrets.GOOGLE_APPLICATION_CREDENTIALS}} node ga_connector.js
