@@ -15,6 +15,9 @@ const pageQuery = `{
   ) {
     edges {
       node {
+        headings(depth: h3) {
+          value
+        }
         frontmatter {
           title
           search_keyword
