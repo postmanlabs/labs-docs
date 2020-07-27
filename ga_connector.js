@@ -1,8 +1,16 @@
+
+
 const algoliasearch = require('algoliasearch');
 const { google } = require('googleapis');
 const { hostname } = require('os');
 const analytics = google.analyticsreporting('v4');
 
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
+// console.log('...................process env.....................', process.env);
+// console.log('.................. gatsby config', process.env.CLIENT_EMAIL);
 // GA metrics. Reference doc: https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/
 const METRICS = {
   pageviews: 'ga:pageviews',
@@ -14,7 +22,7 @@ const METRICS = {
 // Script parameters
 const APP_ID = '4A5N71XYH0';
 const API_KEY = '5fe29b1ffa4ce10986e18c2e880a5ade';
-const INDEX_NAME = 'docs';
+const INDEX_NAME = 'docs-test';
 const URL_ATTRIBUTE = 'fields'; // name of the attribute in your Algolia records that contain the URL.
 const GA_PARAMETERS = {
   viewId: 193423593,
@@ -48,7 +56,16 @@ class MetricsFetcher {
     startDate = '7daysAgo',
     endDate = 'today',
   }) {
-    this.auth = new google.auth.GoogleAuth({ scopes: ['https://www.googleapis.com/auth/analytics.readonly'] });
+    this.auth = new google.auth.GoogleAuth({ scopes: ['https://www.googleapis.com/auth/analytics.readonly'] })
+    // console.log('...............process..............', process.env.NODE_ENV)
+    // const scopes = 'https://www.googleapis.com/auth/analytics.readonly';
+
+    // this.auth = new google.auth.JWT({
+    //   email: process.env.CLIENT_EMAIL,
+    //   key: process.env.PRIVATE_KEY,
+    //   scopes
+    // })
+
     this.viewId = viewId.toString();
     this.metrics = metrics.includes(METRICS.uniquePageViews)
       ? metrics
@@ -67,7 +84,7 @@ class MetricsFetcher {
   */
   async next() {
     console.log(`[GA] batchGet viewId=${this.viewId} remaining=${this.remaining}...`);
-
+// console.log('........auth........', this.auth);
     const response = await analytics.reports.batchGet({
       auth: this.auth,
       requestBody: {
@@ -201,7 +218,7 @@ function getPageUrl(hostname, pagePath) {
   const index = client.initIndex(INDEX_NAME);
   const recordsToUpdate = [];
 
-
+try {
   await index.browseObjects({
     query: '', // Empty query will match all records
     attributesToRetrieve: [URL_ATTRIBUTE],
@@ -219,7 +236,9 @@ function getPageUrl(hostname, pagePath) {
       });
     },
   });
-
+} catch(err) {
+  console.log(err);
+}
 
 
   console.log(`Updating ${recordsToUpdate.length} records...`);

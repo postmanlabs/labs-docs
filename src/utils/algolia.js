@@ -15,6 +15,9 @@ const pageQuery = `{
   ) {
     edges {
       node {
+        headings(depth: h3) {
+          value
+        }
         frontmatter {
           title
           search_keyword
@@ -46,7 +49,7 @@ const queries = [
   {
     query: pageQuery,
     transformer: ({ data }) => flatten(data.docs.edges),
-    indexName: 'docs',
+    indexName: 'docs-test',
     settings,
   },
 ];

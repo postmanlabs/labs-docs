@@ -131,7 +131,7 @@ class HeaderComponent extends React.Component {
             <ClickOutHandler onClickOut={this.onClickOut}>
               <InstantSearch
                 searchClient={searchClient}
-                indexName="docs"
+                indexName="docs-test"
                 refresh={refresh}
               >
                 <Configure hitsPerPage={5} />
