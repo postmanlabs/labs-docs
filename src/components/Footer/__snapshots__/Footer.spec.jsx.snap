@@ -727,7 +727,7 @@ exports[`renders correctly 1`] = `
             >
               <a
                 className="social-icon"
-                href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
+                href="https://www.youtube.com/postmanapidevelopment"
                 id="youtube_icon"
                 rel="noopener noreferrer"
                 target="_blank"
