@@ -199,12 +199,12 @@ cookieJar.clear(URL, callback (error));
 
 ## Properties not yet supported
 
-These are two properties that are not yet supported Postman.
+Currently, there are two properties that are not yet supported by Postman:
 
 * SameSite
 * Cookie Prefixes
-        *   __Secure-
-        *   __Host-
+    * __Secure-
+    * __Host-
 
 Whenever you add a domain, Postman will sync all cookies for that domain from the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/#syncing-cookies) extension keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
 
