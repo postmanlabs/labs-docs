@@ -55,7 +55,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 [Download](https://www.postman.com/downloads/) and unzip the app _using the built-in Archive Utility app_. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
 
-> The minimum OS version supported is macOS 10.10.
+> The minimum OS version supported is macOS 10.10 (Yosemite).
 >
 > You may encounter a "Library not loaded" error if you attempt to unzip and install Postman using a third-party app—using the default Archive Utility for Mac should resolve this.
 
@@ -63,7 +63,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 [Download](https://www.postman.com/downloads/) the app. Double-click the `exe` file to install it.
 
-> Postman supports Windows 7 and above. Both `ia32 (x86)` and `x64 (amd64)` installers are provided for Windows. The ARM version of Windows is not supported.
+> Postman supports Windows 7 and above. Both `ia32 (x86)` and `x64 (amd64)` installers are provided for Windows. Windows for ARM devices is possible by using the ia32 binary.
 
 ## Installing Postman on Linux
 
@@ -90,7 +90,14 @@ Type=Application
 Categories=Development;
 ```
 
-> Postman supports Ubuntu 12.04 and later, Fedora 21, and Debian 8 and later.
+> Postman supports the following distributions:
+> * Ubuntu 12.04 and newer
+> * Fedora 21 
+> * Debian 8 and newer
+>
+> The support of certain Linux distributions depends on whether they are supported by Electron or not. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
+>
+> It is recommended you install [Snap](https://snapcraft.io/postman) as it includes all the libraries that the app needs and they are bundled with the app itself.
 >
 > Avoid starting Postman using `sudo` command, as it will create permission issues on the files created by Postman.
 >
