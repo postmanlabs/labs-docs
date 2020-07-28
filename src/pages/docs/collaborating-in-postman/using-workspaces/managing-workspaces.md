@@ -139,6 +139,8 @@ You can also remove collections and environments from the [Workspaces dashboard]
 
 When you delete a workspace, you erase its existence in Postman. Only the original creator of a workspace or a team admin can delete a workspace.
 
+> "My Workspace" and "Team Workspace" are default workspaces created by Postman. They cannot be deleted, however they can be renamed.
+
 To delete a workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard) and select a workspace.
 
 Click **...** next to the workspace you want to delete and select __Delete__.

@@ -60,6 +60,8 @@ Postman will alert you with notifications when activities occur within your team
 
 Create a Team Workspace by inviting a team member to join a personal workspace or create a new one.
 
+> By default, there is a "Team Workspace" created by Postman. It cannot be deleted, however it can be renamed.
+
 ### Inviting a team member to a personal workspace
 
 In Postman, select **Invite**.
@@ -72,7 +74,7 @@ Enter the email address of the individual you’d like to invite to your team wo
 
 The individual will be added to the team once they accept their invitation.
 
-> "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.
+> "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. It cannot be deleted, however it can be renamed. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.
 
 All members of your workspace will have avatars displayed at the top of Postman. If the avatar is brightly colored, that person is active in the workspace at that time. Hover over an avatar to see the names of the people in your workspace.
 
