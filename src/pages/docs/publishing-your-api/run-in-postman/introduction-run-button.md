@@ -27,23 +27,21 @@ contextual_links:
 
 ---
 
-The Run in Postman button is one way to share a Postman collection with your users. This button is displayed in the [Postman API Network](/docs/publishing-your-api/add-api-network/), at the top of [published documentation](/docs/publishing-your-api/publishing-your-docs/) in the web, and also where publishers choose to embed the stand-alone button.
+The Run in Postman button is one way to share a Postman collection (and optional environment) with your users. This button is found in the [Postman API Network](/docs/publishing-your-api/add-api-network/), at the top of [published documentation](/docs/publishing-your-api/publishing-your-docs/) in the web, and also where publishers embed the stand-alone button (like on a README or developer portal). 
+
+![Cisco button in network](https://postman-learning-center-prod.s3.amazonaws.com/ciscoRIPnetwork.png)
 
 ![Travefy button](https://assets.postman.com/postman-docs/Travefy+API+RIP+button.jpg)
 
-When you [create a stand-alone button](/docs/publishing-your-api/run-in-postman/creating-run-button/), you can embed a collection (and optional environment) in your website or API documentation. From this button, users can then import a copy of your collection directly into Postman.
-
-![Run in Postman button]()
+![button in readme](https://postman-learning-center-prod.s3.amazonaws.com/foursquareRIPreadme.png)
 
 ## User interaction with your button
 
-When a user comes across your button, they can view the collection in their web browser or import the collection into the Postman app. 
+When a user comes across your button, they can click it, and choose to view the collection in their web browser or import the collection into the user's Postman app. Then, they can begin interacting with your API. 
 
- ![Modal display](https://assets.postman.com/postman-docs/Unsized+modal+image.jpg)
+![Modal display](https://postman-learning-center-prod.s3.amazonaws.com/imgurModalRIP.png)
 
-> If the button is dynamic, the prompts will open for the user in a modal, like the screenshot above (above modal is specific to Macs). If the button is static, the prompts will open for the user in a new page.
-
-A copy of your collection is imported into the user's app, and the app will open on the user's desktop. This collection is a copy of the original, so updates made to the original are not updated in these copies imported by users.
+This collection imported by users is a copy of the original, so updates made to the original are not updated in these copies.
 
 > **Security check**: Do not leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
 
