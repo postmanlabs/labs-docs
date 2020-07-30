@@ -37,11 +37,11 @@ The Run in Postman button is one way to share a Postman collection (and optional
 
 ## User interaction with your button
 
-When a user comes across your button, they can click it, and choose to view the collection in their web browser or import the collection into the user's Postman app. Then, they can begin interacting with your API. 
+When a user comes across your button, they choose to view the collection in their web browser or import the collection into the user's Postman app. Then, they can begin interacting with your API. 
 
 ![Modal display](https://postman-learning-center-prod.s3.amazonaws.com/imgurModalRIP.png)
 
-This collection imported by users is a copy of the original, so updates made to the original are not updated in these copies.
+This collection imported by users is a copy of the original, so updates made to the original are not updated in these copies. Users must import the latest collection to see updates made to the original collection.
 
 > **Security check**: Do not leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
 
