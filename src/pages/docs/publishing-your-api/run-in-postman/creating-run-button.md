@@ -58,7 +58,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 5. Choose a dynamic or static button:
    * **Dynamic button**: This button uses JavaScript, HTML and CSS, so you can customize the button for a website. You can also access the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to dynamically create and update environments.
    * **Static button**: This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
-6. You can optionally include an environment to embed with your collection. On the right, click the **Environment** drop-down and choose the environment. 
+6. You can optionally include an environment to embed with your collection. On the right, click the **Environment** drop-down and choose the environment.
 7. Click **Copy to clipboard**.
 8. Embed the code where you would like the button to be displayed.
 
@@ -93,7 +93,7 @@ data-postman-var-1=":collection_id"></div>
 
 ## Keeping your collections up to date
 
-When you make changes to a collection that's shared with a Run in Postman button, you'll need to manually update the button's collection link so that your users import the most recent version of your collection. 
+When you make changes to a collection that's shared with a Run in Postman button, you'll need to manually update the button's collection link so that your users import the most recent version of your collection.
 
 1. In the Postman app, open the original collection.
 2. Next to the collection name, expand the collection details and click the **Share** button to open a modal.

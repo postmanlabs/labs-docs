@@ -27,7 +27,7 @@ contextual_links:
 
 ---
 
-The Run in Postman button is one way to share a Postman collection (and optional environment) with your users. This button is found in the [Postman API Network](/docs/publishing-your-api/add-api-network/), at the top of [published documentation](/docs/publishing-your-api/publishing-your-docs/) in the web, and also where publishers embed the stand-alone button (like on a README or developer portal). 
+The Run in Postman button is one way to share a Postman collection (and optional environment) with your users. This button is found in the [Postman API Network](/docs/publishing-your-api/add-api-network/), at the top of [published documentation](/docs/publishing-your-api/publishing-your-docs/) in the web, and also where publishers embed the stand-alone button (like on a README or developer portal).
 
 ![Cisco button in network](https://postman-learning-center-prod.s3.amazonaws.com/ciscoRIPnetwork.png)
 
@@ -37,7 +37,7 @@ The Run in Postman button is one way to share a Postman collection (and optional
 
 ## User interaction with your button
 
-When a user comes across your button, they choose to view the collection in their web browser or import the collection into the user's Postman app. Then, they can begin interacting with your API. 
+When a user comes across your button, they choose to view the collection in their web browser or import the collection into the user's Postman app. Then, they can begin interacting with your API.
 
 ![Modal display](https://postman-learning-center-prod.s3.amazonaws.com/imgurModalRIP.png)
 
