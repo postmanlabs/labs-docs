@@ -91,8 +91,9 @@ Categories=Development;
 ```
 
 > Postman supports the following distributions:
+>
 > * Ubuntu 12.04 and newer
-> * Fedora 21 
+> * Fedora 21
 > * Debian 8 and newer
 >
 > The support of certain Linux distributions depends on whether they are supported by Electron or not. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
