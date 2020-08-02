@@ -28,6 +28,10 @@ Your monitor's timezone is automatically set to the timezone of your computer at
 
 Monitors are currently limited to 5 minutes for each run. This limit applies to all HTTP requests, responses, and test scripts.
 
+### How do I persist variables between monitor runs?
+
+Variables created or edited during a monitor run are automatically reset following each run. You can change this behavior and persist variable values by utilizing the [Postman API](https://docs.api.getpostman.com/#6517e0d6-3bc3-3da5-ab57-7a578a8504ce) to update your environment each time your monitor runs.
+
 ### How many HTTP requests can a monitor send?
 
 There is no limit to the number of requests, although the total run-time cannot exceed 5 minutes.
