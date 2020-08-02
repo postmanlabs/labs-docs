@@ -38,6 +38,7 @@ Signing up for an account is optional—you can continue to use Postman without 
 * [Configuring your account](#configuring-your-account)
 * [Signing into Postman](#signing-into-postman)
 * [Syncing your work](#syncing-your-work)
+* [Upgrading your account](#upgrading-your-account)
 * [Switching between accounts](#switching-between-accounts)
 * [Security policies and standards](#security-policies-and-standards)
 * [Updating your username](#updating-your-username)
@@ -125,6 +126,16 @@ Postman will inform you if the sync is interrupted and will automatically try to
 If a conflict arises from a sync issue within your workspace, [Postman will present options for resolving the conflict](/docs/collaborating-in-postman/using-workspaces/conflicts/).
 
 > Postman uses WebSockets for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.getpostman.com/hc/en-us).
+
+## Upgrading your account
+
+If you have a free account, you can upgrade it by navigating to your [Postman Dashboard](https://go.postman.co/) and clicking **Upgrade** in the top-right corner.
+
+If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://app.postman.co/billing/overview) and clicking **...** > **Change Plan**.
+
+[![change plan menu](https://assets.postman.com/postman-docs/change-plan-menu.jpg)](https://assets.postman.com/postman-docs/change-plan-menu.jpg)
+
+> The cost of your upgraded plan and/or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 
 ## Switching between accounts
 
