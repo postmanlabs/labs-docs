@@ -37,7 +37,7 @@ The Run in Postman button is one way to share a Postman collection (and optional
 
 ## User interaction with your button
 
-When a user comes across your button, they choose to view the collection in their web browser or import the collection into the user's Postman app. Then, they can begin interacting with your API.
+When a user comes across your button, they can choose to view the collection in their web browser or import the collection into their Postman app. Then, they can begin interacting with your API.
 
 ![Modal display](https://postman-learning-center-prod.s3.amazonaws.com/imgurModalRIP.png)
 
