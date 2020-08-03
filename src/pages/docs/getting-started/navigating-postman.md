@@ -93,7 +93,7 @@ The best way to get to know Postman is by firing up the __Bootcamp__ on the bott
 
 ![Bootcamp](https://assets.postman.com/postman-docs/bootcamp-overview-app.jpg)
 
-You can also access the bootcamp together with other resources for getting started and staying up to date by opening the launchpad—you'll see a button when you have no open tabs.
+You can also access Bootcamp together with other resources for getting started and staying up to date by opening Launchpad—you'll see a button when you have no open tabs.
 
 ![Launchpad](https://assets.postman.com/postman-docs/launchpad-open-app.jpg)
 
