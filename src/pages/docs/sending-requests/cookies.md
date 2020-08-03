@@ -37,7 +37,22 @@ This opens the **MANAGE COOKIES** modal, and displays a list of domains and the 
 
 ## Create a cookie
 
-To add a new cookie for the domain, click on the **Add Cookie** button. A pre-generated cookie string according to the [HTTP State Management standards](https://tools.ietf.org/html/rfc6265#section-4.1) will be created, but you can edit it using the text input that appears below it. Clicking the **Save** button will save it to the cookie store under the relevant domain.
+To add a new cookie for the domain, click on the **Add Cookie** button. A pre-generated cookie string according to the [HTTP State Management standards](https://tools.ietf.org/html/rfc6265#section-4.1) will be created.
+
+```
+<cookieName>=<cookieValue>; path=/; domain=.domain.com; HttpOnly; Secure; Expires=Tue, 19 Jan 2038 03:14:07 GMT;
+```
+
+Postman supports the following attributes:
+
+* **cookieName**, **cookieValue**: The name of the cookie and the value stored in it.
+* **Domain**: The domain Postman will send the cookie to.
+* **Path**: The URL path that the cookie is restricted to. If the path is `/`, the cookie will be sent to all requests in the specified domain.
+* **HttpOnly**: If present, the cookie will not be accessible to the client-side scripts run on the page (e.g. via `document.cookie` in JavaScript). The cookie will only be added to the cookie header in requests that are made. This field does not have an effect on Postman's behavior.
+* **Secure**: If present, the cookie is only sent when the URL begins with `https://`, and will not be sent over an insecure collection.
+* **Expires**: The time after which the cookie will expire and not be sent by Postman.
+
+Clicking the **Save** button will save it to the cookie store under the relevant domain.
 
 [![create a cookie](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)
 
@@ -59,7 +74,13 @@ To update an existing cookie, go to the domain from the domain list, and click t
 
 [![update cookie](https://assets.postman.com/postman-docs/WS-manage-cookies-4.png)](https://assets.postman.com/postman-docs/WS-manage-cookies-4.png)
 
-### Adding Cookies through Set-Cookie header
+## Deleting a cookie
+
+You can delete a domain and all cookies associated with it by selecting **X** next to the domain. To delete individual cookies, select **X** next to the cookie in question.
+
+![Delete cookie](https://assets.postman.com/postman-docs/deleting-cookies.jpg)
+
+## Adding cookies through set-cookie header
 
 You can also add/edit the cookies through the [Set-Cookie header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie) through the response.  
 
@@ -75,7 +96,7 @@ Postman also allows for programmatic cookie access i.e. creating and manipulatin
 The very first step to perform any kind of operation on cookies is to create a **Cookie Jar**, an object that will contain the
 cookies and the methods that will be used to operate on cookies.
 
-## Creating a Cookie Jar
+## Creating a cookie jar
 
 To create a "cookie jar", use the `pm.cookies.jar()` method. This will create an object containing the cookies and the methods that would be needed to access them.
 
