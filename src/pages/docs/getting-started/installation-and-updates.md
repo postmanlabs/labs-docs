@@ -46,6 +46,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
     * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
         * [Migrating to the native app](#migrating-to-the-native-app)
 * [Updating Postman](#updating-postman)
+* [Using Postman behind a firewall](#using-postman-behind-a-firewall)
 * [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
 * [Next steps](#next-steps)
 
@@ -141,6 +142,19 @@ Select the update option to download or install the latest update. You will see
 You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
 
 ![Update Ready](https://assets.postman.com/postman-docs/settings-updates.jpg)
+
+## Using Postman behind a firewall
+
+Postman's infrastructure runs on Amazon's AWS platform. If you are operating behind a network firewall, you will need to whitelist the following domains to allow WebSocket connections for Postman:
+
+* \*.getpostman.com
+* \*.postman.co
+* \*.pstmn.io
+* \*postman.com
+
+By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443).
+
+Postman does not have a fixed IP range that can be provided. If necessary, please refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and whitelist the broad range provided.
 
 ## Troubleshooting your Postman installation
 
