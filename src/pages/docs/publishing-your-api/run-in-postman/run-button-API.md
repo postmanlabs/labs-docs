@@ -16,9 +16,18 @@ contextual_links:
     url: "/docs/writing-scripts/intro-to-scripts/"
 ---
 
-The JavaScript Run in Postman API is accessible through the dynamic Run in Postman button. The API is a collection of JavaScript methods that you can leverage to alter your button's behavior and affect [environments](/docs/publishing-your-api/run-in-postman/creating-run-button/#using-environments-with-your-button) included in your button.
+Some API publishers use Run in Postman buttons alongside their own API documentation. If users input data in a developer portal, for example, the Run in Postman API can dynamically inject this provided information as environment variable values into the embedded Run in Postman button.
 
-> If `segregateEnvironments` is enabled, you will have to use `runButtonIndex` in all pm() methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Because `segregateEnvironments` is disabled by default, `runButtonIndex` is optional by default.
+The Run in Postman API uses the `_pm()` method to create or modify environments in your website's client-side code through existing dynamic Run in Postman buttons.
+
+As another example, you can use the API to pass login credentials to Postman:
+
+```javascript
+_pm('env.create', 'Spotify', {
+  user_id: 'spotifyuser',
+  authorization: 'Bearer 1234xyzd'
+});
+```
 
 ## Contents
 
@@ -123,6 +132,8 @@ You can embed multiple buttons on a single page. If you want to include a differ
 ```javascript
 _pm('_property.set', 'segregateEnvironments', true);
 ```
+
+> If `segregateEnvironments` is enabled, you will have to use `runButtonIndex` in all pm() methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Because `segregateEnvironments` is disabled by default, `runButtonIndex` is optional by default.
 
 ### Including the index
 
