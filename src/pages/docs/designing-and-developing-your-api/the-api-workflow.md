@@ -16,9 +16,6 @@ contextual_links:
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
-  - type: link
-    name: "What does 'Max # of APIs' mean in Postman?"
-    url: "https://blog.postman.com/2020/01/24/what-does-max-of-apis-mean-in-postman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -42,8 +39,6 @@ You can connect various components of your API development and testing process t
     * [Adding an environment](#adding-an-environment)
 * [Testing an API](#testing-an-api)
 * [Observing an API](#observing-an-api)
-
-> The number of APIs you can create is dependent on your [Postman plan](https://www.postman.com/pricing).
 
 ## Creating an API
 
