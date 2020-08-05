@@ -48,8 +48,8 @@ Switching or merging into another team and want to know how to transfer your dat
 ## Understand your export options
 Depending on your team's structure and responsibility distribution, below are 2 suggested options to go about migrating data: 
 
-|  	| [Centralized](#centralized[) 	| [Distributed](#distributed) 	|
-|:---	|:---	|:---	|
+|  	|<center>[Centralized](#centralized)</center>| <center>[Distributed](#distributed) </center>	|
+|:---	|:--	|:---	|
 | Who can perform this? | Admin(s) 	| Developers and Admins 	|
 | What data is exported? <br> <br> Read more on [what is not exported](#what-data-does-NOT-get-exported?) 	| A large JSON file of collections, environments, globals, and header presets. <br> Two types of bulk exports can be performed (see more): <br><br> <li>Only the Admin's Personal Workspace(s) OR  <br> <li>Only the Admin's Personal Workspace(s) and Team Workspace(s) that have been joined |  Specific collections and environments from Team Workspaces. See how to export individual [collections](/docs/getting-started/importing-and-exporting-data/#exporting-collections) and [environments](/docs/getting-started/importing-and-exporting-data/#exporting-environments). 	|	|
 | I should choose this option if... 	| Your organization prefers to have one person perform the migration and collection organization into the new team. 	| Your organization has workspaces that have dedicated Workspace Admins with numerous collections. <br><br>Workspace Admins can export any relevant collections/environments into the new Team Workspace.<br><br>Note: Recreating mocks/monitors/documentation on the new team may be done by those who are responsible for maintaining it. 	|
