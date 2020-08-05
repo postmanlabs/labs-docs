@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
 
 ---
-# Migrate data from one team to another
+## Migrate data from one team to another
 
 Switching or merging into another team and want to know how to transfer your data? Here are some ways to go about it based on your role and workflow.
 
