@@ -110,3 +110,52 @@ You can turn this setting on and off using the toggle switch. When turned off, a
 [![system proxy](https://assets.postman.com/postman-docs/proxy_system.png)](https://assets.postman.com/postman-docs/proxy_system.png)
 
 **Note:** If the **Use System Proxy** and the **Global Proxy Configuration** are both turned on, then the **Global Proxy Configuration** will take precedence.
+
+### Troubleshooting proxy configurations
+
+If you are unable to send any requests through Postman and your network requires a proxy, take the following steps:
+
+* Enable the system proxy and make sure the proxy is added to the operating system:
+    * **Windows**: Click **Start**, then click on the gear icon (**Settings**) at the far left. In Settings, click **Network & Internet**. In the left-hand pane, click **Proxy** at the bottom. **Manual Proxy Setup** > use a Proxy **(ON)**.
+
+    * **Mac**: Open System Preferences and click **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, click **Advanced**. Select the **Proxies** tab and you will see a bunch of different protocols you can configure. If you click **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
+
+    * **Linux**: System Settings > scroll down to Hardware and then click on Networking. Click on **Network Proxy**, you can choose from **Automatic** or **Manual**.
+
+If you are unable to send any requests through Postman and your network does not require a proxy, take the following steps:
+
+* Ensure you have both proxies (Global/System) disabled. If it still does not work, it may be because there are some environment variables setup in your system. There are two solutions:
+
+    * Remove the environment variables http&#95;proxy, https&#95;proxy, HTTP&#95;PROXY, and HTTPS&#95;PROXY.
+    * Start Postman with these "variables" turned off:
+
+        * **Windows** –  create a postman.bat file with the following contents:
+
+        ```set HTTP_PROXY=''
+        set HTTPS_PROXY=''
+        set http_proxy=''
+        set https_proxy=''
+        start C:\path\to\Postman.exe
+        ```
+
+        Double-clicking this bat file should open Postman without any of the proxy environment variables set.
+
+        * **Mac/Linux** – http&#95;proxy= '' https&#95;proxy= '' HTTP&#95;PROXY= '' HTTPS&#95;PROXY= '' /path/to/postman
+
+If your proxy has basic auth, take the following steps:
+
+* Start Postman with the appropriate environment variables:
+    * **Windows** — create a postman.bat file with the following contents:
+
+      ```set HTTP_PROXY=http://USER:PASS@host:port
+      set HTTPS_PROXY=https://USER:PASS@host:port
+      start C:\path\to\Postman.exe
+      ```
+
+      Double-clicking this bat file should open Postman without any of the proxy environment variables set.
+
+    * **Mac/Linux** - create the .sh file with the following contents:
+    `HTTP_PROXY`=`http://USER:PASS@host:port`
+    `HTTPS_PROXY`=`https://USER:PASS@host:port` /path/to/postman
+
+    * Create this file and save it in a convenient location. When you open this file, the set environment variables will only apply to the Postman process.

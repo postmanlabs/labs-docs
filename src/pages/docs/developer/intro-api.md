@@ -27,7 +27,7 @@ You can get started with the API via the **Run in Postman** button at the top 
 
 You will need an [API key](#generating-a-postman-api-key) to access the Postman API.
 
-> The API is [rate limited](#rate-limits).
+> The Postman API is [rate limited](#rate-limits).
 
 ## Generating a Postman API key
 

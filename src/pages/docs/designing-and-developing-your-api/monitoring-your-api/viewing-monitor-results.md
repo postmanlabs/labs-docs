@@ -75,6 +75,8 @@ The upper section charts your monitor's average response time for each run, whil
 
 ![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-view.jpg)
 
+> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/postman/monitors/viewing-monitor-results/#console-log).
+
 ### Request split
 
 You can use **Request Split** to see how the response time varies for all requests made in a given run. To break this down into individual requests, you can utilize [Filters](#filters).
