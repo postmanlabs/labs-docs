@@ -45,7 +45,7 @@ Postman displays code snippets to the right of the script area. You can add thes
 * [Parsing response body data](#parsing-response-body-data)
     * [Handling responses that don't parse](#handling-responses-that-dont-parse)
 * [Making assertions on the HTTP response](#making-assertions-on-the-http-response)
-    * [Testing response bodies](#testing-response-bodies)
+    * [Testing response body](#testing-response-body)
     * [Testing status codes](#testing-status-codes)
     * [Testing headers](#testing-headers)
     * [Testing cookies](#testing-cookies)
@@ -77,13 +77,13 @@ pm.test("Status code is 200", function () {
 });
 ```
 
-This code uses the `pm` library to run the `test` method. The text string will appear in the test output. The function inside the test represents an assertion. Postman tests can use [Chai Assertion Library BDD](https://www.chaijs.com/api/bdd/) syntax, which provides options to optimize how readable your tests are to you and your collaborators. In this case the code uses BDD _chains_ `to.have` to express the assertion.
+This code uses the `pm` library to run the `test` method. The text string will appear in the test output. The function inside the test represents an assertion. Postman tests can use [Chai Assertion Library BDD](https://www.chaijs.com/api/bdd/) syntax, which provides options to optimize how readable your tests are to you and your collaborators. In this case, the code uses BDD _chains_ `to.have` to express the assertion.
 
-This test checks the response code returned by the API. If the response code is `200` the test will pass, otherwise it will fail. Click **Send** and check the **Test Results** output in the response area.
+This test checks the response code returned by the API. If the response code is `200`, the test will pass, otherwise it will fail. Click **Send** and check the **Test Results** output in the response area.
 
 [![Test output](https://assets.postman.com/postman-docs/example-test-assertion-result.jpg)](https://assets.postman.com/postman-docs/example-test-assertion-result.jpg)
 
-Try changing the status code in the assertion code and running again to see how both `true` and `false` results appear.
+Try changing the status code in the assertion code and running again to see how test results appear differently when they pass or fail.
 
 You can structure your test assertions in a variety of ways to suit your logic and preference in terms of how you want the results to output. The following code is an alternative way of achieving the same test as the one above using the `expect` syntax:
 
@@ -102,14 +102,14 @@ Your tests can include multiple assertions as part of a single test—you can us
 ```js
 pm.test("The response has all properties", () => {
     //parse the response json and test three properties
-    var responseJson = pm.response.json();
+    const responseJson = pm.response.json();
     pm.expect(responseJson.type).to.eql('vip');
     pm.expect(responseJson.name).to.be.a('string');
     pm.expect(responseJson.id).to.have.lengthOf(1);
 });
 ```
 
-If any of the contained assertions fails, the test as a whole will fail. All assertions must return `true` for the test to pass.
+If any of the contained assertions fails, the test as a whole will fail. All assertions must be successful for the test to pass.
 
 ## Parsing response body data
 
@@ -166,15 +166,15 @@ pm.test("Body is string", function () {
 
 ## Making assertions on the HTTP response
 
-Your tests can check various aspects of a request response, including the [body](#testing-response-bodies), [status codes](#testing-status-codes), [headers](#testing-headers), [cookies](#testing-cookies), [response times](#testing-response-times), and more.
+Your tests can check various aspects of a request response, including the [body](#testing-response-body), [status codes](#testing-status-codes), [headers](#testing-headers), [cookies](#testing-cookies), [response times](#testing-response-times), and more.
 
-### Testing response bodies
+### Testing response body
 
 You can check for particular values in the response body:
 
 ```js
 pm.test("Person is Jane", () => {
-  var responseJson = pm.response.json();
+  const responseJson = pm.response.json();
   pm.expect(responseJson.name).to.eql("Jane");
   pm.expect(responseJson.age).to.eql(23);
 });
@@ -260,10 +260,10 @@ Read on for some examples of common assertions you might find useful in your scr
 
 ### Assert a response value against a variable
 
-You can check whether a response field has the same value as a variable (in this case an environment variable).
+You can check whether a response property has the same value as a variable (in this case an environment variable).
 
 ```js
-pm.test("Response field matches environment variable", function () {
+pm.test("Response property matches environment variable", function () {
   pm.expect(pm.response.json().name).to.eql(pm.environment.get("name"));
 });
 ```
@@ -410,14 +410,14 @@ When you encounter errors or unexpected behavior in your test scripts, the Postm
 
 Click **Console** at the bottom left of Postman to open it.
 
-You can log the value of a variable or response field:
+You can log the value of a variable or response property:
 
 ```js
 console.log(pm.collectionVariables.get("name"));
 console.log(pm.response.json().name);
 ```
 
-You can log the type of a variable or response field:
+You can log the type of a variable or response property:
 
 ```js
 console.log(typeof pm.response.json().id);
@@ -464,7 +464,7 @@ Make sure that any code setting your response data to a variable is accessible t
 
 ### Assertion undefined error
 
-You may encounter the `AssertionError: expected undefined to deeply equal..` issue. Typically this happens when you are referring to a field that does not exist or is out of scope.
+You may encounter the `AssertionError: expected undefined to deeply equal..` issue. Typically this happens when you are referring to a property that does not exist or is out of scope.
 
 ```js
 pm.expect(jsonData.name).to.eql("John");
@@ -490,13 +490,13 @@ Make sure your test code is syntactically correct and try sending your request a
 You can carry out JSON schema validation with tv4.
 
 ```js
-var schema = {
+const schema = {
  "items": {
  "type": "boolean"
  }
 };
-var data1 = [true, false];
-var data2 = [true, 123];
+const data1 = [true, false];
+const data2 = [true, 123];
 
 pm.test('Schema is valid', function() {
   pm.expect(tv4.validate(data1, schema)).to.be.true;
@@ -504,22 +504,18 @@ pm.test('Schema is valid', function() {
 });
 ```
 
-You can also validate JSON schema with ajv.
+You can also validate JSON schema with ajv by default.
 
 ```js
-var Ajv = require('ajv'),
-    ajv = new Ajv({logger: console}),
-    schema = {
-        "properties": {
-            "alpha": {
-                "type": "boolean"
-            }
-        }
-    };
-
+const schema = {
+  "properties": {
+    "alpha": {
+      "type": "boolean"
+    }
+  }
+};
 pm.test('Schema is valid', function() {
-    pm.expect(ajv.validate(schema, {alpha: true})).to.be.true;
-    pm.expect(ajv.validate(schema, {alpha: 123})).to.be.false;
+  pm.response.to.have.jsonSchema(schema);
 });
 ```
 
@@ -550,9 +546,9 @@ You can add as many keys as needed, depending on how many things you want to tes
 postman.setEnvironmentVariable("key", "value");
 
 //set a nested object as an environment variable
-var array = [1, 2, 3, 4];
+const array = [1, 2, 3, 4];
 postman.setEnvironmentVariable("array", JSON.stringify(array, null, 2));
-var obj = { a: [1, 2, 3, 4], b: { c: 'val' } };
+const obj = { a: [1, 2, 3, 4], b: { c: 'val' } };
 postman.setEnvironmentVariable("obj", JSON.stringify(obj));
 
 //get an environment variable
@@ -560,8 +556,8 @@ postman.getEnvironmentVariable("key");
 
 //get an environment variable whose value is a stringified object
 //(wrap in a try-catch block if the data is coming from an unknown source)
-var array = JSON.parse(postman.getEnvironmentVariable("array"));
-var obj = JSON.parse(postman.getEnvironmentVariable("obj"));
+const array = JSON.parse(postman.getEnvironmentVariable("array"));
+const obj = JSON.parse(postman.getEnvironmentVariable("obj"));
 
 //clear an environment variable
 postman.clearEnvironmentVariable("key");
@@ -582,7 +578,7 @@ tests["Body matches string"] = responseBody.has("string_you_want_to_search");
 tests["Body is correct"] = responseBody === "response_body_string";
 
 //check for a JSON value
-var data = JSON.parse(responseBody);
+const data = JSON.parse(responseBody);
 tests["Your test name"] = data.value === 100;
 
 //Content-Type is present (Case-insensitive checking)
