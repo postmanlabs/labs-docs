@@ -147,10 +147,10 @@ You can configure your preferences to enable automatic download for major update
 
 Postman's infrastructure runs on Amazon's AWS platform. If you are operating behind a network firewall, you will need to whitelist the following domains to allow WebSocket connections for Postman:
 
-* \*.getpostman.com
-* \*.postman.co
-* \*.pstmn.io
-* \*postman.com
+* `\*.getpostman.com`
+* `\*.postman.co`
+* `\*.pstmn.io`
+* `\*postman.com`
 
 By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443).
 

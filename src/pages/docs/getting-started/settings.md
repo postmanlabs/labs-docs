@@ -74,7 +74,7 @@ You may encounter errors for file reference:
 
 2. The [Postman console](/docs/sending-requests/troubleshooting-api-requests/#using-the-console) will display a warning for file reading errors. It will also display errors if a  collection wants to read a file outside the working directory and the setting for it is disabled.
 
-3. For Newman, it will read from the default working directory and can be modified using CLI options. File reading errors are displayed as a console error. You can utilize Newman [verbose mode](https://github.com/postmanlabs/newman#command-line-options) to find more information about these errors.
+3. For Newman, it will read from the default working directory and can be modified using CLI options. File reading errors are displayed as console errors. You can utilize Newman [verbose mode](https://github.com/postmanlabs/newman#command-line-options) to find more information about these errors.
 
 ### Headers
 

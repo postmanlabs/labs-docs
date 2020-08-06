@@ -66,7 +66,13 @@ You can remove the custom domain by clicking __Delete Custom Domain__.
 
 ## Troubleshooting DNS issues
 
-If you receive the error message `RRSet of type CNAME with DNS name <subdomain.domain.com> is not permitted as it conflicts with other records with the same DNS name in zone <domain.com>` when adding your first domain, note that CNAME records cannot co-exist with any other records for a domain. You will need to either edit the existing record type for your subdomain to CNAME or add a new subdomain.
+If you receive the error message
+
+```
+RRSet of type CNAME with DNS name <subdomain.domain.com> is not permitted as it conflicts with other records with the same DNS name in zone <domain.com>
+```
+
+when adding your first domain, note that CNAME records cannot co-exist with any other records for a domain. You will need to either edit the existing record type for your subdomain to CNAME or add a new subdomain.
 
 If you receive the same message when adding your second domain, note that since the TXT record verifies the ownership of the domain, the value should be the same as the token already added for the root domain. Add the CNAME record to the URL that's associated with your public documentation, for which the value should be `phs.getpostman.com`.
 

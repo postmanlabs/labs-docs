@@ -220,8 +220,8 @@ Click the button to create a new mock server, and you will see the configuration
 
 Once you've created your mock server, you can use the URL `https://{{mockId}}.mock.pstmn.io/{{mockPath}}` to make requests to it.
 
-* `mockId`: The ID that you received upon creating the mock and can be retrieved using the [GET All Mocks endpoint](https://docs.api.getpostman.com/#018b5d62-f6fc-f752-597e-c1eb4bb98d24) in the [Postman API](https://www.getpostman.com/docs/pro/pro_api/intro_api).
-* `mockPath`: The path of your request that you’d like to mock, for example <code>api/response</code>.
+* `mockId`: The ID that you received when you created the mock. You can retrieve the ID using the [GET All Mocks endpoint](https://docs.api.getpostman.com/#018b5d62-f6fc-f752-597e-c1eb4bb98d24) in the [Postman API](https://www.getpostman.com/docs/pro/pro_api/intro_api).
+* `mockPath`: The path of the request that you’d like to mock, for example <code>api/response</code>.
 
 You will need to specify your [Postman API Key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list) as an `apikey` query parameter in the URL, or create an `X-API-Key` header.
 

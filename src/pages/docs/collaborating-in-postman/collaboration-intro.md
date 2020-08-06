@@ -30,7 +30,7 @@ Postman allows all users to collaborate with their teams through Team Workspaces
 
 Postman will alert you with notifications when activities occur within your team and workspace.
 
-> Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are two features [on our roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
+> Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are [on Postman's roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
 
 ## Contents
 
@@ -60,7 +60,7 @@ Postman will alert you with notifications when activities occur within your team
 
 Create a Team Workspace by inviting a team member to join a personal workspace or create a new one.
 
-> By default, there is a "Team Workspace" created by Postman. It cannot be deleted, however it can be renamed.
+> Postman creates a default Team Workspace. You cannot delete this workspace but you can rename it.
 
 ### Inviting a team member to a personal workspace
 

@@ -65,7 +65,7 @@ This section describes the following topics:
 
 * [Automatically adding new users](#automatically-adding-new-users)
 
-* [Logging in](#logging-in)
+* [Managing team logins](#managing-team-logins)
 
 * [Removing team access](#removing-team-access)
 
@@ -90,10 +90,10 @@ The **Automatically add new users** checkbox in your SSO configuration determine
 
 > **Automatically add new users** will only work if your team has user slots available. Your team size will not be automatically increased if additional users log in via SSO.
 
-### Logging in
+### Managing team logins
 
-By default, Postman only supports Service Provider initiated logins. You team will be required to head to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to log in to Postman. If you require users be able to log in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an additional level of security when logins are initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider initiated logins for Postman Business or Enterprise teams utilizing SSO. Your team will be required to head to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to log in to Postman. If you require users be able to log in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an additional level of security when logins are initiated through a source unknown to Postman.
 
-### **Removing team access**
+### Removing team access
 
 An admin must remove users from their Postman team to prevent access to shared resources.

@@ -89,7 +89,7 @@ When you reload the app, Postman automatically retrieves the most recent and up-
 
 ## Disabling sync
 
-If you or your organization have a requirement to prevent your data from being synced to the Postman Cloud, you can use Postman without an account and [manually back up your data locally](/docs/postman/collections/importing-and-exporting-data/#exporting-postman-data).
+If you or your organization have a requirement to prevent your data from being synced to the Postman cloud, you can use Postman without an account and [manually back up your data locally](/docs/postman/collections/importing-and-exporting-data/#exporting-postman-data).
 
 You can delete already synced data by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](https://go.postman.co/settings/me/team) in order to delete your account.
 
