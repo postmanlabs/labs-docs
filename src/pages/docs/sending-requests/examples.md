@@ -82,6 +82,8 @@ Later you can return to your base request and resume by clicking on the request 
 
 [![going back to the base request](https://assets.postman.com/postman-docs/going-back-to-the-base-request.png)](https://assets.postman.com/postman-docs/going-back-to-the-base-request.png)
 
+> Postman recommends example responses be no larger than 5 MB in size for optimal app performance.
+
 ## Accessing your saved examples
 
 Click on the **Examples** dropdown in the upper right corner of the builder to access all your saved examples.

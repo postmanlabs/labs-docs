@@ -35,6 +35,8 @@ Postman provides a self-serve billing process. Refer to the following sections f
 
     * [Managing cards](#managing-cards)
 
+    * [Paying by invoice](#paying-by-invoice)
+
     * [Adding custom information to invoices](#adding-custom-information-to-invoices)
 
     * [Failed payments](#failed-payments)
@@ -95,6 +97,12 @@ To set a card as default, hover over the card and **Set as Default**.
 
 [![payment methods](https://assets.postman.com/postman-docs/payment-methods.jpg)](https://assets.postman.com/postman-docs/payment-methods.jpg)
 
+### Paying by invoice
+
+Invoicing is available to Postman Business and Enterprise teams. New customers can [email the Postman Sales team](mailto:sales@postman.com) to get started. Existing customers can [submit a request](https://support.getpostman.com/hc/en-us) to be invoiced instead of automatically charged.
+
+You can pay invoices online, via check, or via wire-transfer. Invoices will be sent to your team's billing email address found in your [billing details](http://go.postman.co/settings/team/billing-details), and will include offline payment instructions. Pending payments can be found in your [billing dashboard](http://go.postman.co/billing).
+
 ### Adding custom information to invoices
 
 To add or edit the information on an invoice, navigate to your [billing dashboard](http://go.postman.co/billing) and select **Invoices** > **Edit Invoice Details** > **Billing Details**.
@@ -119,9 +127,11 @@ You can change your team's plan and billing cycle in the [billing dashboard](htt
 
 ### Changing your plan
 
-To change your plan, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
+To change your plan immediately, navigate to your [billing dashboard](https://app.postman.co/billing/overview) and click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
 
 [![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
+
+> The cost of your new plan and/or additional seats will be prorated based on the time left in your team's billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 
 ### Setting instructions for next billing cycle
 

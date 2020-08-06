@@ -24,6 +24,9 @@ contextual_links:
     name: "Mock responses in Postman by using Examples"
     url: "https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
   - type: link
+    name: "Simulate a back end with Postman’s mock service"
+    url: "https://blog.postman.com/simulate-a-back-end-with-postmans-mock-service/"
+  - type: link
     name: "Team collaboration with Postman mock servers"
     url: "https://blog.postman.com/2017/09/20/team-collaboration-with-postman-mock-servers/"
   - type: link
@@ -56,6 +59,7 @@ Each mock server in Postman is linked to a collection. Postman matches requests 
         * [Mocking all requests made on a specific date](#mocking-all-requests-made-on-a-specific-date)
 * [Mocking from Collections in Browse view](#mocking-from-collections-in-browse-view)
 * [Creating mock servers in the web dashboard](#creating-mock-servers-in-the-web-dashboard)
+* [Making requests to mock endpoints](#making-requests-to-mock-endpoints)
 * [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
 * [Using free mock server calls](#using-free-mock-server-calls)
 * [Editing and deleting mock servers](#editing-and-deleting-mock-servers)
@@ -212,9 +216,28 @@ Click the button to create a new mock server, and you will see the configuration
 5. Select the checkbox if you want to make the mock server private.
 6. Click **Create Mock Server** to create the mock and go back to the **Mock servers** dashboard.
 
+## Making requests to mock endpoints
+
+Once you've created your mock server, you can use the URL `https://{{mockId}}.mock.pstmn.io/{{mockPath}}` to make requests to it.
+
+* `mockId`: The ID that you received when you created the mock. You can retrieve the ID using the [GET All Mocks endpoint](https://docs.api.getpostman.com/#018b5d62-f6fc-f752-597e-c1eb4bb98d24) in the [Postman API](https://www.getpostman.com/docs/pro/pro_api/intro_api).
+* `mockPath`: The path of the request that you’d like to mock, for example <code>api/response</code>.
+
+You will need to specify your [Postman API Key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list) as an `apikey` query parameter in the URL, or create an `X-API-Key` header.
+
+You can save [example responses](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/#step-3-saving-the-request-r1s-response-as-an-example-p1) for your mock server to use when responding to requests.
+
+Your mock server will then pick a response based on the following criteria:
+
+* `x-mock-response-code`: If this optional header is provided, the mock server will try to return an example response with the given status code.
+* HTTP Method
+* Request path
+
+Learn more on [mocking with examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/).
+
 ## Using HTTP access control for a mock
 
-In addition to using the Postman app to [make requests to mock endpoints](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/), you can also make those requests in a browser.
+In addition to using the Postman app to make requests to mock endpoints, you can also make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own.
 

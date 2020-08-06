@@ -20,9 +20,17 @@ To learn what restrictions apply, see [Intro to Monitoring](/docs/designing-and-
 
 There is no limit to the number of monitors you can create. You can have any number of collections, each with any number of monitors. And each monitor can run on a different schedule.
 
+### What timezone is my monitor set to?
+
+Your monitor's timezone is automatically set to the timezone of your computer at the time of the monitor's creation, unless you [define the regions](/docs/postman/monitors/setting-up-monitor/#adding-regions). You can find the auto-selected region by [viewing your monitor in the Dashboard](/docs/postman/monitors/viewing-monitor-results/#viewing-individual-monitors).
+
 ### How long can a monitor run?
 
 Monitors are currently limited to 5 minutes for each run. This limit applies to all HTTP requests, responses, and test scripts.
+
+### How do I persist variables between monitor runs?
+
+Variables created or edited during a monitor run are automatically reset following each run. You can change this behavior and persist variable values by utilizing the [Postman API](https://docs.api.getpostman.com/#6517e0d6-3bc3-3da5-ab57-7a578a8504ce) to update your environment each time your monitor runs.
 
 ### How many HTTP requests can a monitor send?
 

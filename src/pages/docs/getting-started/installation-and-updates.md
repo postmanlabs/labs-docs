@@ -46,6 +46,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
     * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
         * [Migrating to the native app](#migrating-to-the-native-app)
 * [Updating Postman](#updating-postman)
+* [Using Postman behind a firewall](#using-postman-behind-a-firewall)
 * [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
 * [Next steps](#next-steps)
 
@@ -55,7 +56,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 [Download](https://www.postman.com/downloads/) and unzip the app _using the built-in Archive Utility app_. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
 
-> The minimum OS version supported is macOS 10.10.
+> The minimum OS version supported is macOS 10.10 (Yosemite).
 >
 > You may encounter a "Library not loaded" error if you attempt to unzip and install Postman using a third-party app—using the default Archive Utility for Mac should resolve this.
 
@@ -63,7 +64,7 @@ To get the latest version of the Postman app, visit the [download page](https:/
 
 [Download](https://www.postman.com/downloads/) the app. Double-click the `exe` file to install it.
 
-> Postman supports Windows 7 and above. Both `ia32 (x86)` and `x64 (amd64)` installers are provided for Windows. The ARM version of Windows is not supported.
+> Postman supports Windows 7 and above. Both `ia32 (x86)` and `x64 (amd64)` installers are provided for Windows. Windows for ARM devices is possible by using the ia32 binary.
 
 ## Installing Postman on Linux
 
@@ -90,7 +91,15 @@ Type=Application
 Categories=Development;
 ```
 
-> Postman supports Ubuntu 12.04 and later, Fedora 21, and Debian 8 and later.
+> Postman supports the following distributions:
+>
+> * Ubuntu 12.04 and newer
+> * Fedora 21
+> * Debian 8 and newer
+>
+> The support of certain Linux distributions depends on whether they are supported by Electron or not. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
+>
+> It is recommended you install [Snap](https://snapcraft.io/postman) as it includes all the libraries that the app needs and they are bundled with the app itself.
 >
 > Avoid starting Postman using `sudo` command, as it will create permission issues on the files created by Postman.
 >
@@ -133,6 +142,19 @@ Select the update option to download or install the latest update. You will see
 You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
 
 ![Update Ready](https://assets.postman.com/postman-docs/settings-updates.jpg)
+
+## Using Postman behind a firewall
+
+Postman's infrastructure runs on Amazon's AWS platform. If you are operating behind a network firewall, you will need to whitelist the following domains to allow WebSocket connections for Postman:
+
+* `\*.getpostman.com`
+* `\*.postman.co`
+* `\*.pstmn.io`
+* `\*postman.com`
+
+By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443).
+
+Postman does not have a fixed IP range that can be provided. If necessary, please refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and whitelist the broad range provided.
 
 ## Troubleshooting your Postman installation
 
