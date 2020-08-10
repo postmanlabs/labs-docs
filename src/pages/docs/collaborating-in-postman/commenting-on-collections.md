@@ -1,6 +1,6 @@
 ---
 title: "Commenting on collections"
-order: 44
+order: 73.3
 page_id: "commenting_on_collections"
 warning: false
 ---
@@ -11,8 +11,7 @@ You can leave comments on collections and requests to collaborate with your team
 
 * [Commenting on a collection](#commenting-on-a-collection)
 * [Commenting on a request](#commenting-on-a-request)
-* [Commenting on request parameters](#commenting-on-request-parameters)
-* [Reading comments in the app and on the Dashboard](#reading-comments-in-the-app-and-on-the-dashboard)
+* [Reading comments](#reading-comments)
 * [Editing comments](#editing-comments)
 * [Resolving comments](#resolving-comments)
 * [Deleting comments](#deleting-comments)
@@ -46,24 +45,24 @@ You can comment on requests [from the Postman Dashboard](#commenting-from-the-da
 
 ### Commenting in the app
 
-You can add comments at the [request level](#adding-a-comment-on-a-request), on [request parameters](#adding-a-comment-on-request-parameters), and [inline comments](#adding-an-inline-comment).
+You can add comments at the [request level](#adding-a-comment-on-a-request), on [request parameters](#adding-a-comment-on-request-parameters), and [within the request configuration](#adding-an-inline-comment) (request body, pre-request script, and test script).
 
 #### Adding a comment on a request
 
 1. Navigate to the request you want to leave a comment on.
-2. Switch to the **Comment** mode at the top-right of the window.
+2. Switch to **Comment** mode at the top-right of the window.
 3. Write your comment, then click **Add Comment**.
 
 ![Add comment on collection](https://assets.postman.com/postman-docs/collab-add-comment-collection.gif)
 
 #### Adding a comment on request parameters
 
-You can leave comments on request parameters (query parameters, path parameters, headers, request body of type form-data, and x-www-form-urlencoded).
+You can leave comments on request parameters (query parameters, path parameters, headers, request bodies of type form-data, and x-www-form-urlencoded).
 
 > You can only add comments on saved requests.
 
 1. Open the request you'd like to comment on.
-2. Switch to the **Comment** mode at the top-right of the window.
+2. Switch to **Comment** mode at the top-right of the window.
 3. Click on the key, value, or description.
 4. Enter your comment, then click **Add Comment**
 
@@ -74,14 +73,14 @@ You can leave comments on request parameters (query parameters, path parameters,
 You can add a comment on a specific part of a raw body, a pre-request script, or a test script.
 
 1. Open the request you'd like to comment on.
-2. Switch to the **Comment** mode at the top-right of the window.
+2. Switch to **Comment** mode at the top-right of the window.
 3. Open the tab where you want to leave a comment.
-4. Highlight the text you want to comment.
+4. Highlight the text you want to comment on.
 5. Enter your comment, then click **Add Comment**
 
 ![Add inline comment](https://assets.postman.com/postman-docs/collab-add-comment-inline.gif)
 
-## Reading comments in the app and on the Dashboard
+## Reading comments
 
 You can see comments made by teammates on requests and request parameters in the Postman app or the [Dashboard](https://app.getpostman.com). You can only access comments on collections from the Dashboard.
 
@@ -90,7 +89,7 @@ You can see comments made by teammates on requests and request parameters in the
 You can read comments made on the request and on request parameters from the app.
 
 1. In the Postman app, open the request that has the comments you want to review.
-2. Switch to the **Comment** mode at the top-right of the window.
+2. Switch to **Comment** mode at the top-right of the window.
    * You can filter inline comments by **Open Comments**, **Resolved Comments**, or both.
 
 ### Reading comments on the Dashboard
@@ -110,14 +109,14 @@ You can make changes to comments you've already posted. Other team members canno
 1. In the Postman app or [Dashboard](https://app.getpostman.com), open the collection with the comment you want to edit.
 2. Find the comment and click **Comment** > **Edit**.
 
-<img src="https://assets.postman.com/postman-docs/collab-delete-comment.jpg" alt="Edit comment" width="50%">
+<img src="https://assets.postman.com/postman-docs/collab-edit-comment.jpg" alt="Edit comment" width="50%">
 
 ## Resolving comments
 
-You can resolve comments made on request parameters when you're done with them.
+You can resolve comments made on request parameters when you no longer want them to display.
 
 1. Open the collection with the comment(s) you want to resolve.
-2. Switch to the **Comment** mode at the top-right of the window.
+2. Switch to **Comment** mode at the top-right of the window.
 3. Click **Resolve** next to the comment(s) you'd like to resolve.
 
 ![Resolving comment](https://assets.postman.com/postman-docs/collab-resolve-comment.gif)
@@ -127,8 +126,7 @@ You can resolve comments made on request parameters when you're done with them.
 1. In the Postman app or Dashboard, open the collection with the comment you want to delete.
 2. Find the comment and click **Comments** > **Delete**.
 
-<img src="https://assets.postman.com/postman-docs/collab-edit-comment.jpg" alt="Edit comment" width="50%">
-![Delete comment]()
+<img src="https://assets.postman.com/postman-docs/collab-delete-comment.jpg" alt="Delete comment" width="50%">
 
 > For moderation purposes, admins can delete comments made by anyone, but cannot modify comments.
 
@@ -145,7 +143,7 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 > If your teammate has disabled notifications then they will not be notified. If they don't have access to the collection they've been tagged on, they'll need to request access before they can read the comment.
 
-![Notification bell](https://assets.postman.com/postman-docs/collab09-see-notifications.jpg)
+<img src="https://assets.postman.com/postman-docs/collab09-see-notifications.jpg" alt="Notification bell" width="75%">
 
 ## Next steps
 
