@@ -51,13 +51,13 @@ Postman displays code snippets to the right of the script area. You can add thes
     * [Testing cookies](#testing-cookies)
     * [Testing response times](#testing-response-times)
 * [Common assertion examples](#common-assertion-examples)
-    * [Assert a response value against a variable](#assert-a-response-value-against-a-variable)
-    * [Assert a value type](#assert-a-value-type)
-    * [Assert array properties](#assert-array-properties)
-    * [Assert object properties](#assert-object-properties)
-    * [Assert that a value is in a set](#assert-that-a-value-is-in-a-set)
-    * [Assert that an object is contained](#assert-that-an-object-is-contained)
-    * [Assert the current environment](#assert-the-current-environment)
+    * [Asserting a response value against a variable](#asserting-a-response-value-against-a-variable)
+    * [Asserting a value type](#asserting-a-value-type)
+    * [Asserting array properties](#asserting-array-properties)
+    * [Asserting object properties](#asserting-object-properties)
+    * [Asserting that a value is in a set](#asserting-that-a-value-is-in-a-set)
+    * [Asserting that an object is contained](#asserting-that-an-object-is-contained)
+    * [Asserting the current environment](#asserting-the-current-environment)
 * [Troubleshooting common test errors](#troubleshooting-common-test-errors)
     * [Assertion deep equality error](#assertion-deep-equality-error)
     * [JSON not defined error](#json-not-defined-error)
@@ -77,7 +77,7 @@ pm.test("Status code is 200", function () {
 });
 ```
 
-This code uses the `pm` library to run the `test` method. The text string will appear in the test output. The function inside the test represents an assertion. Postman tests can use [Chai Assertion Library BDD](https://www.chaijs.com/api/bdd/) syntax, which provides options to optimize how readable your tests are to you and your collaborators. In this case, the code uses BDD _chains_ `to.have` to express the assertion.
+This code uses the `pm` library to run the `test` method. The text string will appear in the test output. The function inside the test represents an assertion. Postman tests can use [Chai Assertion Library BDD](https://www.chaijs.com/api/bdd/) syntax, which provides options to optimize how readable your tests are to you and your collaborators. In this case, the code uses BDD chains `to.have` to express the assertion.
 
 This test checks the response code returned by the API. If the response code is `200`, the test will pass, otherwise it will fail. Click **Send** and check the **Test Results** output in the response area.
 
@@ -258,7 +258,7 @@ Read on for some examples of common assertions you might find useful in your scr
 
 > For a more comprehensive overview of what you can include in your assertions, refer to the [Chai Docs](https://www.chaijs.com/api/bdd/).
 
-### Assert a response value against a variable
+### Asserting a response value against a variable
 
 You can check whether a response property has the same value as a variable (in this case an environment variable).
 
@@ -270,7 +270,7 @@ pm.test("Response property matches environment variable", function () {
 
 > See [Using Variables](/docs/sending-requests/variables/) for an overview of operations you can use to manipulate variables in your scripts.
 
-### Assert a value type
+### Asserting a value type
 
 You can test the type of any part of the response.
 
@@ -297,7 +297,7 @@ pm.test("Test data type of the response", () => {
 });
 ```
 
-### Assert array properties
+### Asserting array properties
 
 You can check whether an array is empty or not, and whether it contains particular items.
 
@@ -341,7 +341,7 @@ pm.test("Test array properties", () => {
 
 > The order in `.members` does not affect the test.
 
-### Assert object properties
+### Asserting object properties
 
 You can assert that an object contains keys or properties.
 
@@ -356,7 +356,7 @@ pm.expect({a: 1, b: 2}).to.be.an('object')
 
 > Target can be an `object`, `set`, `array` or `map`. If `.keys` is run without `.all` or `.any`, the expression defaults to `.all`. As `.keys` behavior varies based on the target `type`, it's recommended to check the `type` before using `.keys` with `.a`.
 
-### Assert that a value is in a set
+### Asserting that a value is in a set
 
 You can check a response value against a list of valid options.
 
@@ -367,7 +367,7 @@ pm.test("Value is in valid list", () => {
 });
 ```
 
-### Assert that an object is contained
+### Asserting that an object is contained
 
 You can check that an object is part of a parent object.
 
@@ -392,7 +392,7 @@ pm.test("Object is contained", () => {
 
 > Using `.deep` causes all `.equal`, `.include`, `.members`, `.keys`, and `.property` assertions that follow in the chain to use deep equality (loose equality) instead of strict (===) equality. While the `.eql` also compares loosely, `.deep.equal` causes deep equality comparisons to also be used for any other assertions that follow in the chain, while `.eql` does not.
 
-### Assert the current environment
+### Asserting the current environment
 
 You can check the active (currently selected) environment in Postman.
 
