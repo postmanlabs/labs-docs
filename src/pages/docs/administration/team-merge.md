@@ -81,13 +81,17 @@ Depending on your team's structure and responsibility distribution, below are 2 
 
 ## FAQ
 
+### I'm on a free account, what happens to my personal collections once I join a new team?
+
+As long as you are synced to the Postman Cloud, collections and environments only in a Personal Workspace will be carried over into the new team. The organizational structure of your Personal Workspace will remain the same. Anything that has been shared to a Team Workspace will remain with the team after you leave, meaning you will lose access to it. If any issues arise during this process, please reach out to your [support team.](postman.com/support)
+
 ### Can I be on 2 teams at once?
 
 No. You can only be on one team at a time.
 
 ### What happens to published documentation from the previous team?
 
-The previous links will break since the old team is disabled. New documentation URLs will need to be generated when Collections are [re-published from your new team pages](/docs/publishing-your-api/publishing-your-docs/)
+The previous links will break since the old team is disabled. New documentation URLs will need to be generated when collections are [re-published from your new team pages](/docs/publishing-your-api/publishing-your-docs/)
 
 ### What happens to the old team once everyone leaves?
 
@@ -98,6 +102,7 @@ If there is only one Admin remaining on the team, they will automatically inheri
 ### Will my monitors/mocks transfer over?
 
 No, they will need to be recreated. See [how](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
+
 
 ### What data is exported in a large JSON file data-dump?
 
@@ -112,13 +117,13 @@ The below would need to be re-established on the new Postman team.
 * API Schemas
     * [Re-import supported API specifications](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications)
 * Roles and Permissions at Workspace, Collection, and Environment level
-    * [Reassign roles](/docs/collaborating-in-postman/roles-and-permissions/) in new Postman instance as needed
+    * [Reassign roles](/docs/collaborating-in-postman/roles-and-permissions/) in the new Postman instance as needed
 * Monitors
     * How to [set up a monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/)
 * Mock Servers
     * Collections and examples requests will be saved. The [server instance itself will need to be recreated](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * Published documentation
-    * The new documentation URLs will be generated when Collections are [re-published from your new team pages](/docs/publishing-your-api/publishing-your-docs/)
+    * The new documentation URLs will be generated when collections are [re-published from your new team pages](/docs/publishing-your-api/publishing-your-docs/)
 
 ## Questions?
 
