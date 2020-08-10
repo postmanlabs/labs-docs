@@ -103,7 +103,6 @@ If there is only one Admin remaining on the team, they will automatically inheri
 
 No, they will need to be recreated. See [how](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
 
-
 ### What data is exported in a large JSON file data-dump?
 
 All collections of your own personal workspace and any workspaces that you have joined, environments, globals, and header presets.
