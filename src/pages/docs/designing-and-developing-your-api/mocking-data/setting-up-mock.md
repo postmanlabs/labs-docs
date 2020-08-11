@@ -57,7 +57,7 @@ To try out a mock server, carry out the following steps:
 * In **Collections** on the left, open the collection (&#9658;) and select **Mocks**. Click **Create a mock server**.
 * Give your mock a name, leave the default version selected and the environment empty. Click **Create Mock Server**.
 * Copy the mock URL and go back into your request. Replace `postman-echo.com` with the mock URL—keeping the `/get` path on the end.
-* Click **Send** and you should see the same response coming back, this time from the mock server. Open the example again and alter the mock response JSON then save it and send the request again—you will see your edited mock response.
+* Click **Send** and you should see the same response coming back, this time from the mock server. Open the example again and alter the mock response JSON, then save it and send the request again—you will see your edited mock response.
 
 ## Contents
 
@@ -70,7 +70,7 @@ To try out a mock server, carry out the following steps:
 
 ## Creating mock servers
 
-You can create mock servers from an existing collection or Postman will create a new collection for your mock server. To create a new mock, choose one of the following options:
+You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. To create a new mock, choose one of the following options:
 
 * In **Collections** on the left of Postman, use the overview &gt; **Mocks** and select **Create a mock server**, or **Mock Collection** in the collection edit (**...**) menu. [![New mock](https://assets.postman.com/postman-docs/new-mock-from-collection.jpg)](https://assets.postman.com/postman-docs/new-mock-from-collection.jpg)
 * Click **New** at the top left of Postman and choose **Mock Server** in **Create New**.
@@ -115,7 +115,7 @@ Hover over the mock to copy the URL, edit, or delete.
 
 ## Making requests to mocks
 
-With your mock URL you can start making requests right away. Make sure the request you want to mock has at least one [example](/docs/sending-requests/examples/) added to it. Open a tab (or edit the address in an existing tab) and add the mock URL:
+With your mock URL, you can start making requests right away. Make sure the request you want to mock has at least one [example](/docs/sending-requests/examples/) added to it. Open a tab (or edit the address in an existing tab) and add the mock URL:
 
 ```
 https://<mock-id>.mock.pstmn.io/<request-path>
@@ -123,7 +123,7 @@ https://<mock-id>.mock.pstmn.io/<request-path>
 
 The mock URL includes the ID for the mock and the path for the request with a saved example.
 
-If you save your mock URL to a variable, you can reference it across requests—for example if you have a production server and a mock server, you could have an [environment](/docs/sending-requests/managing-environments/) for each one with the same variable name in each for the mock URL—with your requests using the variable you can then switch between the two environments.
+If you save your mock URL to a variable, you can reference it across requests—for example if you have a production server and a mock server, you could have an [environment](/docs/sending-requests/managing-environments/) for each one with the same variable name in each for the mock URL—with your requests using the variable, you can then switch between the two environments.
 
 > You can also retrieve your mock ID from the [Postman API](https://documenter.getpostman.com/view/631643/JsLs/?version=latest#018b5d62-f6fc-f752-597e-c1eb4bb98d24)
 
@@ -135,11 +135,9 @@ When you **Send** a request to your mock server URL it will send back one of the
 
 In addition to using the Postman app to make requests to mock endpoints, you can also make those requests in a browser.
 
-A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own.
+A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely, in this case referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
 
-[Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely, in this case referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
-
-CORS is enabled for Postman mock servers. As a result, you can stub your web apps with mocked data using the mock endpoints. Development or production web apps can then make requests to your Postman mock endpoint and receive an example response.
+CORS is enabled for Postman mock servers. As a result, you can stub your web apps with mocked data using the mock endpoints. Development or production web apps can then make requests to your Postman mock endpoint and receive example responses.
 
 ## Viewing mock calls
 
