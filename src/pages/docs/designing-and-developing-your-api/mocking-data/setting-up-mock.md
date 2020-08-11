@@ -121,6 +121,12 @@ With your mock URL, you can start making requests right away. Make sure the requ
 https://<mock-id>.mock.pstmn.io/<request-path>
 ```
 
+For example:
+
+```
+https://3589dfde-f398-45cd-88eb-b0fa0192fc3f.mock.pstmn.io/matches
+```
+
 The mock URL includes the ID for the mock and the path for the request with a saved example.
 
 If you save your mock URL to a variable, you can reference it across requests—for example if you have a production server and a mock server, you could have an [environment](/docs/sending-requests/managing-environments/) for each one with the same variable name in each for the mock URL—with your requests using the variable, you can then switch between the two environments.
