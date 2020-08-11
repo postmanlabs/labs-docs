@@ -29,17 +29,17 @@ contextual_links:
 
 The Run in Postman button is one way to share a Postman collection (and optional environment) with your users. This button is found in the [Postman API Network](/docs/publishing-your-api/add-api-network/), at the top of [published documentation](/docs/publishing-your-api/publishing-your-docs/) in the web, and also where publishers embed the stand-alone button (like in a README or developer portal).
 
-![Cisco button in network](https://postman-learning-center-prod.s3.amazonaws.com/ciscoRIPnetwork.png)
+![Cisco button in network](https://assets.postman.com/postman-docs/ciscoRIPnetwork.png)
 
 ![Travefy button](https://assets.postman.com/postman-docs/Travefy+API+RIP+button.jpg)
 
-![button in readme](https://postman-learning-center-prod.s3.amazonaws.com/foursquareRIPreadme.png)
+![button in readme](https://assets.postman.com/postman-docs/foursquareRIPreadme.png)
 
 ## User interaction with your button
 
 When a user comes across your button, they can choose to view the collection in their web browser or import the collection into their Postman app. Then, they can begin interacting with your API.
 
-![Modal display](https://postman-learning-center-prod.s3.amazonaws.com/imgurModalRIP.png)
+![Modal display](https://assets.postman.com/postman-docs/imgurModalRIP.png)
 
 This collection imported by users is a copy of the original, so updates made to the original are not updated in these copies. Users must import the latest collection to see updates made to the original collection.
 
