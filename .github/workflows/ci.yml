@@ -13,8 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
-    - name: update Algolia with GA Pageviews
-    - uses: actions/setup-node@master
       with: 
         GOOGLE_ALGOLIA_CREDENTIALS: ${{secrets.GOOGLE_ALGOLIA_CREDENTIALS}}
       run: |
