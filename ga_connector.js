@@ -9,8 +9,6 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-// console.log('...................process env.....................', process.env);
-// console.log('.................. gatsby config', process.env.CLIENT_EMAIL);
 // GA metrics. Reference doc: https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/
 const METRICS = {
   pageviews: 'ga:pageviews',
@@ -84,7 +82,6 @@ class MetricsFetcher {
   */
   async next() {
     console.log(`[GA] batchGet viewId=${this.viewId} remaining=${this.remaining}...`);
-// console.log('........auth........', this.auth);
     const response = await analytics.reports.batchGet({
       auth: this.auth,
       requestBody: {
