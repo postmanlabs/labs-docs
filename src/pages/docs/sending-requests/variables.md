@@ -103,7 +103,7 @@ Postman supports the following variable scopes:
 
 <img alt="Variable Scope" src="https://assets.postman.com/postman-docs/var-scope.jpg" width="350px"/>
 
-If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used—for example if there is a global and a local variable both named `username`, the local value will be used when the request runs.
+> If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used—for example if there is a global and a local variable both named `username`, the local value will be used when the request runs.
 
 ### Choosing variables
 
@@ -232,7 +232,7 @@ You can use double curly braces to reference variables throughout the Postman us
 {{username}}
 ```
 
-When you run a request, Postman will resolve the variable and replace it with it's current value.
+When you run a request, Postman will resolve the variable and replace it with its current value.
 
 For example, you could have a request URL referencing a variable as follows:
 

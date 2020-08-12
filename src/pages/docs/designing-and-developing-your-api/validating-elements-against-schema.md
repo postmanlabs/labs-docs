@@ -26,14 +26,39 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
 ---
 
-You can validate your API elements (documentation, tests, mock servers, monitors) against an API schema. This helps keep your elements in sync with your API specification. If they do not match, Postman will present a list of issues that have been found as well as fixes for these issues. You can then select which updates to apply to the API elements.
+You can validate your API schema in Postman, and validate your elements (documentation, tests, mock servers, monitors) against a schema. This helps keep your API well-defined and ensure that your elements are in sync with your schema. If there is a validation error on the schema or elements do not match it, Postman will present a list of issues that have been found, as well as fixes for these issues. You can then apply fixes to the API elements and revalidate them.
 
-> This feature is available from Postman 7.15.0 and for OpenAPI 3.0 schemas only at this time.
+> Validation is available for OpenAPI 3.0 schemas.
 
+* [Validating schema](#validating-schema)
 * [Validating elements](#validating-elements)
     * [Validating requests](#validating-requests)
 * [Accessing issues](#accessing-issues)
 * [Updating API elements](#updating-api-elements)
+
+## Validating schema
+
+Postman will indicate validation errors on your API schema as you edit it in the **Define** tab.
+
+[![Schema error](https://assets.postman.com/postman-docs/schema-validation-error-open.jpg)](https://assets.postman.com/postman-docs/schema-validation-error-open.jpg)
+
+The pane below the schema editing area will indicate issues—you can hide and show the error view as you work.
+
+[![Schema errors hidden](https://assets.postman.com/postman-docs/schema-errors-hidden.jpg)](https://assets.postman.com/postman-docs/schema-errors-hidden.jpg)
+
+Each error will indicate the type, the line it occurs on, and details of the issue. You can also hover over the error inline in the editor to see information as you type.
+
+[![Schema error list](https://assets.postman.com/postman-docs/schema-validation-list.jpg)](https://assets.postman.com/postman-docs/schema-validation-list.jpg)
+
+> Note that sometimes a single error in your schema will cause more than one issue to appear in the list. As you fix your errors you will see the validation issues disappear.
+
+If there is an issue with your schema JSON or YAML syntax, you will see a warning—look for errors indicated in the editor and hover for more detail. Postman will only be able to validate your schema elements if the JSON or YAML is itself well-formed.
+
+[![Invalid JSON](https://assets.postman.com/postman-docs/invalid-json-hover.jpg)](https://assets.postman.com/postman-docs/invalid-json-hover.jpg)
+
+If there are no errors, Postman will indicate that your schema is valid.
+
+[![Valid schema](https://assets.postman.com/postman-docs/schema-valid-indicator.jpg)](https://assets.postman.com/postman-docs/schema-valid-indicator.jpg)
 
 ## Validating elements
 

@@ -24,11 +24,13 @@ contextual_links:
     url: "/docs/collaborating-in-postman/adding-private-network/"
 
 ---
+> Free collaboration is available in version 6.2 and above.
+
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
 
 Postman will alert you with notifications when activities occur within your team and workspace.
 
-> Free collaboration is available in version 6.2 and above.
+> Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are [on Postman's roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
 
 ## Contents
 
@@ -44,6 +46,8 @@ Postman will alert you with notifications when activities occur within your team
 
     * [Finding teams within your organization](#finding-teams-within-your-organization)
 
+* [Leaving a team](#leaving-a-team)
+
 * [Usage limit](#usage-limit)
 
     * [How archiving works](#how-archiving-works)
@@ -55,6 +59,8 @@ Postman will alert you with notifications when activities occur within your team
 ## Working with team workspaces
 
 Create a Team Workspace by inviting a team member to join a personal workspace or create a new one.
+
+> Postman creates a default Team Workspace. You cannot delete this workspace but you can rename it.
 
 ### Inviting a team member to a personal workspace
 
@@ -68,7 +74,7 @@ Enter the email address of the individual you’d like to invite to your team wo
 
 The individual will be added to the team once they accept their invitation.
 
-> "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.
+> "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. It cannot be deleted, however it can be renamed. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.
 
 All members of your workspace will have avatars displayed at the top of Postman. If the avatar is brightly colored, that person is active in the workspace at that time. Hover over an avatar to see the names of the people in your workspace.
 
@@ -111,6 +117,18 @@ You will see a list of available teams within your org. Select a team, answer th
 <img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-entry.jpg" width="400px"/>
 
 The team administrator will receive a notification that you’ve asked to join the team. Once they approve your request, you will be able to access the team and collaborate on API projects within it.
+
+## Leaving a team
+
+You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/workspaces), selecting your avatar in the top-right corner, and clicking **Your Team**. Click **Leave Team**.
+
+<img src="https://assets.postman.com/postman-docs/your-team.jpg" alt="Leave team" width="600px"/>
+
+If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
+
+<img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="500px"/>
+
+> If you are invited to a new team and you are the last in your current team, all team data will be transferred to your personal default workspace.
 
 ## Usage limit
 

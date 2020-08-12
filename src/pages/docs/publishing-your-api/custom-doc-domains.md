@@ -62,7 +62,19 @@ If you don't want to verify the domain now, click __Verify Later__.
 
 You can remove the custom domain by clicking __Delete Custom Domain__.
 
-> Occasionally, your DNS settings may not take effect immediately. If so, an error message may appear—please try again later.
+> Your DNS settings may take up to 24 hours to take effect, and you may receive an error message in the interim. To check the status, you can visit [this website](https://www.whatsmydns.net/).
+
+## Troubleshooting DNS issues
+
+If you receive the error message
+
+```
+RRSet of type CNAME with DNS name <subdomain.domain.com> is not permitted as it conflicts with other records with the same DNS name in zone <domain.com>
+```
+
+when adding your first domain, note that CNAME records cannot co-exist with any other records for a domain. You will need to either edit the existing record type for your subdomain to CNAME or add a new subdomain.
+
+If you receive the same message when adding your second domain, note that since the TXT record verifies the ownership of the domain, the value should be the same as the token already added for the root domain. Add the CNAME record to the URL that's associated with your public documentation, for which the value should be `phs.getpostman.com`.
 
 ## Publishing a collection on your custom domain
 
