@@ -13,11 +13,15 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
-    # - name: update Algolia with GA Pageviews
-    #   env: 
-    #     GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
-    #   run: |
-    #     $GOOGLE_APPLICATION_CREDENTIALS node ga_connector.js
+    - name: update Algolia with GA Pageviews
+      env: 
+        GOOGLE_ALGOLIA_CREDENTIALS: ${{secrets.GOOGLE_ALGOLIA_CREDENTIALS}}
+      run: |
+        $GOOGLE_ALGOLIA_CREDENTIALS node -p -e 'const {type,private_key_id,private_key,project_id,client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url} = process.env; require("fs").writeFile("auth.json", JSON.stringify({type,project_id,private_key_id,private_key:private_key.replace(/\\n/g,"\n"),client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url},null,2), err=>{})'
+
+        GOOGLE_APPLICATION_CREDENTIALS=auth.json node ga_connector.js;
+        rm -rf auth.json
+
     - name: lint all markdownfiles
       run: |
         npm install

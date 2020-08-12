@@ -49,7 +49,7 @@ const queries = [
   {
     query: pageQuery,
     transformer: ({ data }) => flatten(data.docs.edges),
-    indexName: 'docs-test',
+    indexName: 'docs',
     settings,
   },
 ];
