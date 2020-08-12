@@ -21,7 +21,7 @@ const METRICS = {
 
 // Script parameters
 const APP_ID = '4A5N71XYH0';
-const API_KEY = '5fe29b1ffa4ce10986e18c2e880a5ade';
+const API_KEY = process.env.ALGOLIA_ADMIN_KEY;
 const INDEX_NAME = 'docs';
 const URL_ATTRIBUTE = 'fields'; // name of the attribute in your Algolia records that contain the URL.
 const GA_PARAMETERS = {
