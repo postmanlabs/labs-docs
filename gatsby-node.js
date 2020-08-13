@@ -11,6 +11,7 @@ const FooterJson = require('./src/components/Footer/Footer.data.json');
 
 const ignorePaths = [];
 
+const { google } = require('googleapis');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -137,4 +138,5 @@ exports.sourceNodes = async ({
   createNode(prepareNode(output.docs, 'leftNavLinks'));
   createNode(prepareNode(HeaderJson, 'headerLinks'));
   createNode(prepareNode(FooterJson, 'FooterLinks'));
-};
+}
+
