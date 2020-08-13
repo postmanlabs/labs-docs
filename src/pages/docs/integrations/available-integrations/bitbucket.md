@@ -19,17 +19,17 @@ contextual_links:
     url: "/docs/integrations/slack/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 You can back up your team's Postman Collections with Postman's Bitbucket integration.
 
 ## Contents
 
-* [Backing up collections on Bitbucket](#backing-up-collections-on-bitbucket)
+- [Backing up collections on Bitbucket](#backing-up-collections-on-bitbucket)
 
-    * [Configuring a Bitbucket integration](#configuring-a-bitbucket-integration)
+  - [Configuring a Bitbucket integration](#configuring-a-bitbucket-integration)
 
-* [Next steps](#next-steps)
+- [Next steps](#next-steps)
 
 ## Backing up collections on Bitbucket
 

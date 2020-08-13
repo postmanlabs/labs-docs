@@ -23,7 +23,7 @@ contextual_links:
     url: "https://blog.postman.com/2017/12/21/librarian-building-a-serverless-slack-app-using-postman-and-airtable/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 The Postman to Slack integration enables you to receive notifications for the Team Activity Feed, Postman Search, and Monitor Run Results.
 
@@ -31,8 +31,7 @@ The Postman to Slack integration enables you to receive notifications for the Te
 
 In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select the Slack integration.
 
-[![select slack integration](https://assets.postman.com/postman-docs/integrations-slack1.png)](
-https://assets.postman.com/postman-docs/integrations-slack1.png)
+[![select slack integration](https://assets.postman.com/postman-docs/integrations-slack1.png)](https://assets.postman.com/postman-docs/integrations-slack1.png)
 
 Click the **View Details** button to start your Integration for Slack.
 
@@ -90,9 +89,9 @@ In the **Confirm your identity on Postman** page, select the Slack channel your 
 
 In the **Monitor Run Results to Slack** page:
 
-* Select the monitor results to send to Slack.
-* Enter the URL for the Slack Webhook.
-* Enter the Slack channel.
+- Select the monitor results to send to Slack.
+- Enter the URL for the Slack Webhook.
+- Enter the Slack channel.
 
 You can click the Advanced Options link to indicate if you want notifications for all completed monitor runs, or notifications for three failed monitor runs and then the first successful monitor run.
 

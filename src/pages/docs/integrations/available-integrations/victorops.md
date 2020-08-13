@@ -14,7 +14,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 VictorOps is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one.
 
@@ -62,10 +62,10 @@ Click the **Add Integration** button to display the "Send Monitor Run Results
 
 In the **Send Monitor Run Results** page:
 
-* Select a monitor to send to VictorOps.
-* Enter the VictorOps API key.
-* Click "Advanced Options" if you want to add a VictorOps Routing Key.
-* Click the **Add Integration** button.
+- Select a monitor to send to VictorOps.
+- Enter the VictorOps API key.
+- Click "Advanced Options" if you want to add a VictorOps Routing Key.
+- Click the **Add Integration** button.
 
 You can send the results of multiple monitors to the same VictorOps collection.
 
