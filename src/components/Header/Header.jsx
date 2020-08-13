@@ -3,7 +3,7 @@ import React from 'react';
 import './Header.scss';
 import algoliasearch from 'algoliasearch/lite';
 import {
-  InstantSearch, SearchBox, Hits, Configure,
+  InstantSearch, SearchBox, Hits, Configure, Pagination
 } from 'react-instantsearch-dom';
 import DynamicLink from '../Shared/DynamicLink';
 import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
@@ -135,7 +135,7 @@ class HeaderComponent extends React.Component {
                 refresh={refresh}
               >
                 <Configure hitsPerPage={5} />
-
+    
                 {/* forcefeed className because component does not accept natively as prop */}
                 <SearchBox
                   className="searchbox"
@@ -151,11 +151,24 @@ class HeaderComponent extends React.Component {
                     });
                   }}
                 />
+               
 
                 <div className={!hasInput ? 'input-empty' : 'input-value'}>
-                  <CustomHits hitComponent={Hits} />
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-12">
+                        <CustomHits hitComponent={Hits} />
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-12">
+                        <Pagination />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </InstantSearch>
+          
             </ClickOutHandler>
           </div>
           {data.links.map((link) => (
