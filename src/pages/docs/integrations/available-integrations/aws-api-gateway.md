@@ -27,11 +27,11 @@ You can upload your API schemas directly to AWS API Gateway from Postman with th
 
 ## Contents
 
-- [Uploading API schemas to AWS API Gateway](#uploading-api-schemas-to-aws-api-gateway)
+* [Uploading API schemas to AWS API Gateway](#uploading-api-schemas-to-aws-api-gateway)
 
-  - [Configuring an AWS API Gateway integration](#configuring-an-aws-api-gateway-integration)
+  * [Configuring an AWS API Gateway integration](#configuring-an-aws-api-gateway-integration)
 
-- [Next steps](#next-steps)
+* [Next steps](#next-steps)
 
 ## Uploading API schemas to AWS API Gateway
 

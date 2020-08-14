@@ -56,9 +56,9 @@ To back up your Postman Collections in Microsoft Flow:
 
 1. Click the **Add Integration** button.
 1. In the **Backup your Postman Collections** page:
-   - Select the collection.
-   - Enter the notification URL.
-   - Enter an identifier for this integration.
+   * Select the collection.
+   * Enter the notification URL.
+   * Enter an identifier for this integration.
 1. Click the **Add Integration** button.
 
 [![microsoft_flow_backup](https://assets.postman.com/postman-docs/WS-integration-msFlow-backupcollections.png)](https://assets.postman.com/postman-docs/WS-integration-msFlow-backupcollections.png)

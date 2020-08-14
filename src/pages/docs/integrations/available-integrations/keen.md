@@ -44,9 +44,9 @@ Click the **Add Integration** button to connect Keen IO to Postman Monitors for 
 
 To connect Keen IO to Postman monitors:
 
-- Select a monitor.
-- Enter the Keen IO Project ID.
-- Enter the Keen IO Write Key.
+* Select a monitor.
+* Enter the Keen IO Project ID.
+* Enter the Keen IO Write Key.
 
 Click the **Add Integration** button. You can send the results of multiple monitors to the same Keen IO collection.
 

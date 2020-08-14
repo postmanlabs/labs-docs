@@ -89,9 +89,9 @@ In the **Confirm your identity on Postman** page, select the Slack channel your 
 
 In the **Monitor Run Results to Slack** page:
 
-- Select the monitor results to send to Slack.
-- Enter the URL for the Slack Webhook.
-- Enter the Slack channel.
+* Select the monitor results to send to Slack.
+* Enter the URL for the Slack Webhook.
+* Enter the Slack channel.
 
 You can click the Advanced Options link to indicate if you want notifications for all completed monitor runs, or notifications for three failed monitor runs and then the first successful monitor run.
 

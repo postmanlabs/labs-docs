@@ -47,9 +47,9 @@ Navigate to "Send your logs" tab and copy the private key for later use, as illu
 
 1. To send your monitor metrics and events to Coralogix:
 
-   - Select the monitor whose data you would like to send to Coralogix.
-   - Enter a Coralogix private key.
-   - Optionally indicate if you want to send collection or environment details for each run.
+   * Select the monitor whose data you would like to send to Coralogix.
+   * Enter a Coralogix private key.
+   * Optionally indicate if you want to send collection or environment details for each run.
 
 1. Click **Add Integration**.
 

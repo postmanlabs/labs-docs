@@ -51,9 +51,9 @@ After you set up the integration, you can view real-time alerts based on the res
 
 1. In the **Send Monitor Run Results** page:
 
-- Select a monitor to send to BigPanda.
-- Enter the BigPanda app key.
-- Enter the API token for the app.
+* Select a monitor to send to BigPanda.
+* Enter the BigPanda app key.
+* Enter the API token for the app.
 
 You can send the results of multiple monitors to the same BigPanda collection.
 
@@ -67,9 +67,9 @@ You can send the results of multiple monitors to the same BigPanda collection.
 
 1. In the **Send Monitor Run Results** page:
 
-   - Select a monitor to send to BigPanda.
-   - Enter the BigPanda app key.
-   - Enter the API token for the app.
+   * Select a monitor to send to BigPanda.
+   * Enter the BigPanda app key.
+   * Enter the API token for the app.
 
 1. Click the **Add Integration** button.
 

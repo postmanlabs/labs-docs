@@ -45,9 +45,9 @@ Save the API Key to use later.
 
 1. To send your monitor metrics and events to Datadog:
 
-   - Select the monitor whose data you would like to send to Datadog.
-   - Enter a Datadog provided API key or generate an API key.
-   - Optionally indicate if you want to send events for completed runs or send metrics for each run.
+   * Select the monitor whose data you would like to send to Datadog.
+   * Enter a Datadog provided API key or generate an API key.
+   * Optionally indicate if you want to send events for completed runs or send metrics for each run.
 
 1. Click the **Add Integration** button.
 
