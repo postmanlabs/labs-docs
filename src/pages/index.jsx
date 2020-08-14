@@ -92,7 +92,7 @@ const IndexPage = () => (
             title="Videos"
             description="Learn Postman skills from our video playlists."
             cta="Watch Videos"
-            ctaLink="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
+            ctaLink="https://www.youtube.com/postmanapidevelopment"
           />
         </div>
       </div>
