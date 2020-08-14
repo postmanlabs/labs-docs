@@ -21,7 +21,7 @@ contextual_links:
   - type: subtitle
     name: "Video"
   - type: link
-    name: "Working with GraphQL in Postman"
+    name: "GraphQL in Postman Demo"
     url: "https://youtu.be/7pUbezVADQs"
   - type: section
     name: "Next Steps"
