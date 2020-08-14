@@ -161,7 +161,7 @@ const Footer = () => (
               <li className="list-inline-item">
                 <a
                   id="youtube_icon"
-                  href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
+                  href="https://www.youtube.com/postmanapidevelopment"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
