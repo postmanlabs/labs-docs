@@ -41,7 +41,7 @@ contextual_links:
 warning: false
 ---
 
-You can make requests that return mock data defined within Postman if you do not have a real API ready, or you do not want to run your requests against real data yet. By adding a mock server to your collection and adding examples to your requests, you can simulate the behavior of a real API. When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example.
+You can make requests that return mock data defined within Postman if you do not have a production API ready, or you do not want to run your requests against real data yet. By adding a mock server to your collection and adding examples to your requests, you can simulate the behavior of a real API. When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example.
 
 > You need to be signed into a Postman account to create a mock server.
 
@@ -57,7 +57,7 @@ To try out a mock server, carry out the following steps:
 * In **Collections** on the left, open the collection (&#9658;) and select **Mocks**. Click **Create a mock server**.
 * Give your mock a name, leave the default version selected and the environment empty. Click **Create Mock Server**.
 * Copy the mock URL and go back into your request. Replace `postman-echo.com` with the mock URL—keeping the `/get` path on the end.
-* Click **Send** and you should see the same response coming back, this time from the mock server. Open the example again and alter the mock response JSON, then save it and send the request again—you will see your edited mock response.
+* Click **Send** to view your example response returned, this time from the mock server. Open the example again and alter the mock response JSON, then save it and send the request again—you will see your edited mock response.
 
 ## Contents
 
@@ -78,7 +78,7 @@ You can create mock servers from an existing collection, or Postman will create 
 * From the Postman Launchpad, click **Create a mock server**.
 * From **History** you can create a mock and Postman will create a collection with the same name:
     * If you want to start a mock from a single request), click **...** for the request and select **Mock Request**. <br/><img alt="Create new mock server from history request" src="https://assets.postman.com/postman-docs/Mocking+a+single+request+from+history.jpg" width="300px"/>
-    * To mock all requests from a date, select **...** next to the date and choose **Mock Requests**.
+    * To mock all requests from a specific date, select **...** next to the date and choose **Mock Requests**.
 * From **APIs** select the API, open the **Develop** tab, and click **Add Mock Server**. ![Create mock from API Dev](https://assets.postman.com/postman-docs/githubusercontent3.png)
 * In **Browse** view, in **Collections** click **...** for the collection you want to mock and choose **Mock Collection**. ![Create new mock server from browse view](https://assets.postman.com/postman-docs/mock-cnx-browse-view.png)
 * In the Postman dashboard, select **Mock Servers** in your workspace and click **Create a mock server in this workspace**. ![Mock servers web dashboard](https://assets.postman.com/postman-docs/mock-web-dashboard.png)
@@ -129,11 +129,11 @@ https://3589dfde-f398-45cd-88eb-b0fa0192fc3f.mock.pstmn.io/matches
 
 The mock URL includes the ID for the mock and the path for the request with a saved example.
 
-If you save your mock URL to a variable, you can reference it across requests—for example if you have a production server and a mock server, you could have an [environment](/docs/sending-requests/managing-environments/) for each one with the same variable name in each for the mock URL—with your requests using the variable, you can then switch between the two environments.
+If you save your mock URL to a variable, you can reference it across requests—for example if you have a production server and a mock server, you could have an [environment](/docs/sending-requests/managing-environments/) for each one with the same variable name in each for the mock URL. With your requests using the variable, you can then switch between the two environments.
 
 > You can also retrieve your mock ID from the [Postman API](https://documenter.getpostman.com/view/631643/JsLs/?version=latest#018b5d62-f6fc-f752-597e-c1eb4bb98d24)
 
-When you **Send** a request to your mock server URL it will send back one of the examples you added to the request with the same path and method ([you can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) and Postman will return the one that matches your request configuration most closely).
+When you **Send** a request to your mock server URL it will send back one of the examples you added to the request with the same path and method. ([You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) and Postman will return the one that matches your request configuration most closely).
 
 > Your Postman account gives you a limited number of free mock server calls per month. Check your [usage limits](https://go.postman.co/usage).
 
