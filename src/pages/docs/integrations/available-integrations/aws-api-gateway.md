@@ -19,7 +19,7 @@ contextual_links:
     url: "/docs/integrations/slack/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
 
 You can upload your API schemas directly to AWS API Gateway from Postman with this integration.
 
@@ -29,7 +29,7 @@ You can upload your API schemas directly to AWS API Gateway from Postman with th
 
 * [Uploading API schemas to AWS API Gateway](#uploading-api-schemas-to-aws-api-gateway)
 
-  * [Configuring an AWS API Gateway integration](#configuring-an-aws-api-gateway-integration)
+    * [Configuring an AWS API Gateway integration](#configuring-an-aws-api-gateway-integration)
 
 * [Next steps](#next-steps)
 

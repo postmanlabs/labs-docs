@@ -15,19 +15,19 @@ contextual_links:
     name: "Related Blog posts"
   - type: link
     name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
-    url: "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
+    url:  "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
 ---
 
-> **[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
+> __[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
 
 Postman allows you to back up your collections (for paid plans only) or synchronize your APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
 
 * [Backing up collections on GitHub](#backing-up-collections-on-github)
-  * [Configuring GitHub integration for collections](#configuring-github-integration-for-collections)
-  * [Backup collections to GitHub](#backup-collections-to-github)
-  * [Backup collections to GitHub on custom domain](#backup-collections-to-github-on-custom-domain)
+    * [Configuring GitHub integration for collections](#configuring-github-integration-for-collections)
+    * [Backup collections to GitHub](#backup-collections-to-github)
+    * [Backup collections to GitHub on custom domain](#backup-collections-to-github-on-custom-domain)
 * [Syncing API schemas on GitHub](#syncing-your-api-schemas-on-github)
-  * [Configuring GitHub integration for API schemas](#configuring-github-integration-for-api-schemas)
+    * [Configuring GitHub integration for API schemas](#configuring-github-integration-for-api-schemas)
 * [Troubleshooting GitHub Sync](#troubleshooting-github-sync)
 
 ## Generating a GitHub Personal Access Token
@@ -48,9 +48,9 @@ Once that token is generated, copy it and save it somewhere for future use.
 
 ## Backing up collections on GitHub
 
-You can back up and sync your Postman collections with a GitHub repo. Once the integration is complete, any new changes to your collection in Postman will also appear in the repository.
+ You can back up and sync your Postman collections with a GitHub repo. Once the integration is complete, any new changes to your collection in Postman will also appear in the repository.
 
-> Backing up collections on GitHub is available for Team, Business and Enterprise plans only.
+ > Backing up collections on GitHub is available for Team, Business and Enterprise plans only.
 
 ### Configuring GitHub integration for collections
 
@@ -87,7 +87,7 @@ Once the token is verified, you'll be able to configure the integration.
 
 To finish, click **Add Integration**.
 
-> Every change saved to your Postman Collection automatically commits changes to your GitHub repo in real time. Your Collections and code can live together in perfect harmony in the same repository.
+> Every change saved to your Postman Collection automatically commits changes to your GitHub repo in real time.  Your Collections and code can live together in perfect harmony in the same repository.
 
 ### Backup collections to GitHub on custom domain
 
@@ -144,9 +144,9 @@ Once your webhook is set up, go back to the Postman dashboard, click **Add API V
 * the API Version you want to sync - e.g. `1.0`
 * the repository branch to use - e.g. `Master`
 * the repository directory where you want the schema file to be saved - e.g. `api`
-  * Leaving this field blank will save the schema at the root of your repository. If the folder specified doesn't exist on the repository it will be created.
+    * Leaving this field blank will save the schema at the root of your repository. If the folder specified doesn't exist on the repository it will be created.
 * the name and extension of the schema file - e.g. `petstore.yaml`
-  * If the file doesn't exist on the repository it will be created.
+    * If the file doesn't exist on the repository it will be created.
 
 To finish, click **Add API Version**
 
@@ -171,8 +171,8 @@ After your first schema sync, each change to the schema in Postman will appear i
 If you're having issues with your GitHub integration and find your data isn't syncing to GitHub, please ensure that the following requirements are in place:
 
 * The GitHub integration has been added to the same workspace as the content you're trying to push to the GitHub repo.
-* The correct option has been chosen when setting up your integration and selecting **Backup your Postman Collections to GitHub**, for example if you're using a custom domain.
-* Your repo has been initialized with a `Readme.md` file. Check the box **Initialize this repository with a README** and then configure a new integration on it.
+* The correct option has been chosen when setting up your integration and selecting __Backup your Postman Collections to GitHub__, for example if you're using a custom domain.
+* Your repo has been initialized with a `Readme.md` file. Check the box __Initialize this repository with a README__ and then configure a new integration on it.
 * The scopes `user` and `repo` are selected when creating the access token on GitHub.
 * The branch specified in the setup already exists on Github. _The integration will not create one if the branch doesn't exist._
 * You have permissions to push to the branch.
