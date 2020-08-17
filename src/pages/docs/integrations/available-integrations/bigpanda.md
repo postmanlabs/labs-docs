@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 BigPanda is an IT systems management platform that aggregates and correlates IT alerts to create high-level IT incidents. It directs all alerts to a single place with different connected services.
 
@@ -31,11 +31,11 @@ After you set up the integration, you can view real-time alerts based on the res
 
 1. To generate the App key, enter a name for the integration and click the **Generate App Key** button.
 
-    [![generate app key](https://assets.postman.com/postman-docs/bigPanda_generateAppkey.png)](https://assets.postman.com/postman-docs/bigPanda_generateAppkey.png)
+   [![generate app key](https://assets.postman.com/postman-docs/bigPanda_generateAppkey.png)](https://assets.postman.com/postman-docs/bigPanda_generateAppkey.png)
 
-    The generated App Key displays.
+   The generated App Key displays.
 
-    [![results app key](https://assets.postman.com/postman-docs/bigPanda-appKey.png)](https://assets.postman.com/postman-docs/bigPanda-appKey.png)
+   [![results app key](https://assets.postman.com/postman-docs/bigPanda-appKey.png)](https://assets.postman.com/postman-docs/bigPanda-appKey.png)
 
 1. Save the generated App key and the API key for use later.
 
@@ -45,7 +45,7 @@ After you set up the integration, you can view real-time alerts based on the res
 
 1. Click the **View Details** button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors.
 
-    You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
+   You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
 
 1. Click the **Add Integration** button to display the **Send Monitor Run Results** modal.
 
@@ -61,15 +61,15 @@ You can send the results of multiple monitors to the same BigPanda collection.
 
 1. Click the **View Details** button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors.
 
-    You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
+   You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
 
 1. Click the **Add Integration** button to display the **Send Monitor Run Results** box.
 
 1. In the **Send Monitor Run Results** page:
 
-    * Select a monitor to send to BigPanda.
-    * Enter the BigPanda app key.
-    * Enter the API token for the app.
+   * Select a monitor to send to BigPanda.
+   * Enter the BigPanda app key.
+   * Enter the API token for the app.
 
 1. Click the **Add Integration** button.
 

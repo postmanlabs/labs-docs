@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 HipChat is an instant messaging app built for businesses. The team chat tool lets you share files and discuss tasks in real-time with colleagues, project collaborators, and even clients through unlimited chat rooms.
 
@@ -54,9 +54,9 @@ To send monitor run results to HipChat:
 1. In the **Monitor Run Results** page, select the monitor you want to send to HipChat, and enter the notification URL.
 1. Click the **Add Integration** button.
 
-  [![monitor run](https://assets.postman.com/postman-docs/WS-integrations-hipchat-monitorRun1.png)](https://assets.postman.com/postman-docs/WS-integrations-hipchat-monitorRun1.png)
+[![monitor run](https://assets.postman.com/postman-docs/WS-integrations-hipchat-monitorRun1.png)](https://assets.postman.com/postman-docs/WS-integrations-hipchat-monitorRun1.png)
 
-   You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run following those failures completes successfully.
+You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run following those failures completes successfully.
 
 ## Get the HipChat Webhook URL
 
@@ -72,11 +72,11 @@ To send monitor run results to HipChat:
 
 1. Enter a name and click the **Create** button.
 
-  [![create integration](https://assets.postman.com/postman-docs/58856857.png)](https://assets.postman.com/postman-docs/58856857.png)
+[![create integration](https://assets.postman.com/postman-docs/58856857.png)](https://assets.postman.com/postman-docs/58856857.png)
 
 1. Save the URL to use later and click the **Save** button.
 
-  [![generate URL](https://assets.postman.com/postman-docs/58856916.png)](https://assets.postman.com/postman-docs/58856916.png)
+[![generate URL](https://assets.postman.com/postman-docs/58856916.png)](https://assets.postman.com/postman-docs/58856916.png)
 
 ## Viewing updates on HipChat
 

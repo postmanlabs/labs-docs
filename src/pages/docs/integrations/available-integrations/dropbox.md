@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 Backup and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration.  The Postman to Dropbox integration seamlessly complements your existing workflows and allows you to store your Postman Collections and other project files in one place.
 
@@ -19,29 +19,29 @@ Backup and synchronize your Postman Collections on Dropbox for file sharing, sto
 
 1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select Dropbox from the list of third party integrations.
 
-    [![select dropbox integration](https://assets.postman.com/postman-docs/integrations_dropbox1.png)](https://assets.postman.com/postman-docs/integrations_dropbox1.png)
+   [![select dropbox integration](https://assets.postman.com/postman-docs/integrations_dropbox1.png)](https://assets.postman.com/postman-docs/integrations_dropbox1.png)
 
 1. Click **View Details** to see information about Dropbox.
 
-    You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for Dropbox, or view all integrations.
+   You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for Dropbox, or view all integrations.
 
-    [![select dropbox integration](https://assets.postman.com/postman-docs/WS-integrations-apimatic-conf-integr.png)](https://assets.postman.com/postman-docs/WS-integrations-apimatic-conf-integr.png)
+   [![select dropbox integration](https://assets.postman.com/postman-docs/WS-integrations-apimatic-conf-integr.png)](https://assets.postman.com/postman-docs/WS-integrations-apimatic-conf-integr.png)
 
 1. Click the **Add Integration** button to authorize a backup of your Postman collections.
 
-    [![select dropbox integration](https://assets.postman.com/postman-docs/WS-integrations-dropbox-authorize.png)](https://assets.postman.com/postman-docs/WS-integrations-dropbox-authorize.png)
+   [![select dropbox integration](https://assets.postman.com/postman-docs/WS-integrations-dropbox-authorize.png)](https://assets.postman.com/postman-docs/WS-integrations-dropbox-authorize.png)
 
 1. Click the **Allow** button so Postman can access its own folder inside your Dropbox.
 
-    [![select dropbox integration](https://assets.postman.com/postman-docs/WS-integrations-dropbox-access2.png)](https://assets.postman.com/postman-docs/WS-integrations-dropbox-access2.png)
+   [![select dropbox integration](https://assets.postman.com/postman-docs/WS-integrations-dropbox-access2.png)](https://assets.postman.com/postman-docs/WS-integrations-dropbox-access2.png)
 
 1. Select the collection you want to back up and enter a file name for the Dropbox file.
 
-    [![select dropbox integration](https://assets.postman.com/postman-docs/WS-integrations-dropbox-authorized.png)](https://assets.postman.com/postman-docs/WS-integrations-dropbox-authorized.png)
+   [![select dropbox integration](https://assets.postman.com/postman-docs/WS-integrations-dropbox-authorized.png)](https://assets.postman.com/postman-docs/WS-integrations-dropbox-authorized.png)
 
 1. Click **Add Integration**.
 
-    Your collection is saved as a single JSON file and uploaded to Dropbox.
+   Your collection is saved as a single JSON file and uploaded to Dropbox.
 
 ## Accessing your Postman Collections on Dropbox
 
