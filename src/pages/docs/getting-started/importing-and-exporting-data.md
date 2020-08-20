@@ -98,7 +98,13 @@ To import your API specifications into Postman, click **Import**. Select your fi
 
 ![Import file](https://assets.postman.com/postman-docs/import-file-2.jpg)
 
-You can also configure your **Import Settings**, which will differ depending on your API specification.
+> You can configure your **Import Settings**, which will differ depending on your API specification.
+
+You can import several API specification files at once, in that case select the workspace you'd like to import the APIs in, choose if you want to generate collections from these APIs and configure them, then click **Import**.
+
+When importing into a team workspace, you can also choose to add these APIs to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+
+[![Import several APIs](https://assets.postman.com/postman-docs/apidev19-+importapis.gif)](https://assets.postman.com/postman-docs/apidev19-+importapis.gif)
 
 ## Exporting Postman data
 
