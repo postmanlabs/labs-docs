@@ -161,7 +161,7 @@ You can use this console to both troubleshoot issues and learn more about an ind
 
 ### Activity log
 
-You can view a monitor's activity logs by selecting **...** in the upper-right corner, then **View activity logs**.
+You can view a monitor's activity logs by selecting **...** in the upper-right corner > **View activity logs**.
 
 <img src="https://assets.postman.com/postman-docs/monitor-activity-log.jpg" width="400px" alt="Activity log"/>
 
