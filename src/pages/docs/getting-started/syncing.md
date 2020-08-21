@@ -79,7 +79,7 @@ When you open the app or if your connection drops, it displays **Connecting** be
 
 [![Connecting state](https://assets.postman.com/postman-docs/connecting-state.jpg)](https://assets.postman.com/postman-docs/connecting-state.jpg)
 
-Click the icon, you will see **Syncing**. The popup will indicate further information about the current sync state.
+When you click the icon, you will see **Syncing**. The popup will indicate further information about the current sync state.
 
 [![Online state syncing](https://assets.postman.com/postman-docs/online-state-syncing.jpg)](https://assets.postman.com/postman-docs/online-state-syncing.jpg)
 
