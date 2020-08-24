@@ -75,7 +75,7 @@ Team overview provides the following information:
 * __Open vs used slots__ indicates unused slots vs invitations that are either pending or approved by a team admin
 * __Active users over time__ displays the users who have signed into Postman at least once over the past 30 days
 
-<img alt="active users" src="https://assets.postman.com/postman-docs/active-users.jpg" width="350px" height="300px"/>
+<img alt="active users" src="https://assets.postman.com/postman-docs/active-users.jpg" width="350px"/>
 
 > In this example, the active users for the month of May 2020 is 83.
 
@@ -104,17 +104,17 @@ Team activity provides the following information:
 
 * __Collections created__ is the total number of collections created in team workspaces including private workspaces
 
-<img alt="Collections created" src="https://assets.postman.com/postman-docs/collections-created.jpg" width="400px" height="450px"/>
+<img alt="Collections created" src="https://assets.postman.com/postman-docs/collections-created.jpg" width="400px"/>
 
 > In this example, the collections created for the month of April is 5392.
 
 * __Monitoring requests__
 
-<img alt="Monitoring requests" src="https://assets.postman.com/postman-docs/monitoring-requests.jpg" width="400px" height="450px"/>
+<img alt="Monitoring requests" src="https://assets.postman.com/postman-docs/monitoring-requests.jpg" width="400px"/>
 
 * __Collection runs__ is the number of collection runs made in team workspaces including private workspaces
 
-<img alt="Collection runs" src="https://assets.postman.com/postman-docs/collection-runs.jpg" width="400px" height="450px"/>
+<img alt="Collection runs" src="https://assets.postman.com/postman-docs/collection-runs.jpg" width="400px"/>
 
 > In this example, the collection runs for the month of March 2020 is 3900.
 
@@ -158,7 +158,7 @@ For APIs created over a period of time, you can access the total count of APIs o
 
 [![api development](https://assets.postman.com/postman-docs/api-development.jpg)](https://assets.postman.com/postman-docs/api-development.jpg)
 
-API development provides the following information:
+The API development provides the following information:
 
 * __APIs by schema type__ indicates APIs by the type of schema used to define them (OpenAPI, GraphQL, Swagger, etc) visualized as a pie chart
 
