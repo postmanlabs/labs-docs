@@ -51,10 +51,10 @@ API reports are different for users in the [Postman Business](#postman-business-
 
 The left navigation displays the different dashboard views to access the reports:
 
-* __Team Activity__
-* __All APIs__
-* __Private Network APIs__
-* __Individual API View__
+* [Team Activity](#team-activity)
+* [All APIs](#all-apis)
+* [Private Network APIs](#private-network-apis)
+* [Individual API View](#individual-api-view)
 
 ## Team activity
 
@@ -132,7 +132,10 @@ Team activity provides the following information:
 
 The __Reports__ &gt; __All APIs__ report provides metrics, including API overview, total APIs, visualization on API development, and details of APIs with and without mocks, monitors, tests and documentation separately. This dashboard view can be split into 2 sections:
 
-### __API overview__
+* [API overview](#api-overview)
+* [API development](#api-development)
+
+## __API overview__
 
 [![api overview](https://assets.postman.com/postman-docs/api-overview.jpg)](https://assets.postman.com/postman-docs/api-overview.jpg)
 
@@ -151,7 +154,7 @@ For APIs created over a period of time, the user can access the total count of A
 
 > In this example, the total number of APIs created for the month of July is 45.
 
-### __API development__
+## __API development__
 
 [![api development](https://assets.postman.com/postman-docs/api-development.jpg)](https://assets.postman.com/postman-docs/api-development.jpg)
 
