@@ -89,7 +89,7 @@ If your app is in sync with the server, the icon to the left of your name at th
 
 While connecting to the app, if you encounter a syncing error, Postman will indicate **Error** state. Hover to see the detailed information on the error.
 
-[![Error state syncing](https://assets.postman.com/postman-docs/error-state.jpg)](https://assets.postman.com/postman-docs/error-state.jpg)
+[![Error state](https://assets.postman.com/postman-docs/error-state-sync-fail.jpg)](https://assets.postman.com/postman-docs/error-state-sync-fail.jpg)
 
 > You may occasionally experience sync conflicts between your app and the Postman servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/collaborating-in-postman/using-workspaces/conflicts/)
 
