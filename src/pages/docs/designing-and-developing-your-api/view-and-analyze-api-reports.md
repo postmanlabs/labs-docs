@@ -45,7 +45,7 @@ The __Reports__ section of the web dashboard will open in your browser. Postman 
 
 API reports are different for users in the [Postman Business](#postman-business-plan) and [Enterprise](#postman-enterprise-plan) plans.
 
-## Postman Enterprise plan
+## Postman enterprise plan
 
 [![reports dashboard](https://assets.postman.com/postman-docs/reports-dashboard.jpg)](https://assets.postman.com/postman-docs/reports-dashboard.jpg)
 
@@ -64,7 +64,7 @@ The __Reports__ &gt; __Team Activity__ report provides team level metrics, inclu
 * __Billing__
 * __Team activity__
 
-### __Team overview__
+### Team overview
 
 Team overview provides the following information:
 
@@ -82,7 +82,7 @@ Team overview provides the following information:
 * __Team size over time__ is the size of the team over a period of time
 * __SSO identity provider__ SSO services permit a user to use one set of login credentials (e.g., name/email and password) to access multiple applications. Specifies the SSO identity provider.
 
-### __Billing__
+### Billing
 
 Billing provides the following information:
 
@@ -90,7 +90,7 @@ Billing provides the following information:
 * __Billing cycle__ is either monthly or annually
 * __Renewal date__ is the date of renewal of the existing plan
 
-### __Team activity__
+### Team activity
 
 Team activity provides the following information:
 
@@ -135,7 +135,7 @@ The __Reports__ &gt; __All APIs__ report provides metrics, including API overvie
 * [API overview](#api-overview)
 * [API development](#api-development)
 
-## __API overview__
+## API overview
 
 [![api overview](https://assets.postman.com/postman-docs/api-overview.jpg)](https://assets.postman.com/postman-docs/api-overview.jpg)
 
@@ -154,7 +154,7 @@ For APIs created over a period of time, the user can access the total count of A
 
 > In this example, the total number of APIs created for the month of July is 45.
 
-## __API development__
+## API development
 
 [![api development](https://assets.postman.com/postman-docs/api-development.jpg)](https://assets.postman.com/postman-docs/api-development.jpg)
 
