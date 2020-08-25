@@ -43,7 +43,7 @@ To view reports, in __APIs__ on the left of Postman, select the API and click __
 
 The __Reports__ section of the web dashboard will open in your browser. Postman generates reports on [teams](#team-reports) and [APIs](#api-reports).
 
-Your API reports will include different information if you're on an [Enterprise](#enterprise-reports) or [Business](#business-reports) plan.
+The reporting feature enables you to access reports on your APIs. Your API reports will include different information if you're on an [Enterprise](#enterprise-reports) or [Business](#business-reports) plan.
 
 ## Enterprise reports
 
@@ -192,7 +192,7 @@ The Private network API provides the following information:
 
 [![private-network-api](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests.jpg)](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests.jpg)
 
-> In this example, the APIs with/without mocks, monitors, tests and documentation is visualized in percentages. Hover on the chart to view the API data in figures. From the chart, you can observe that the APIs with documentation is 7%.
+> In this example, the APIs with/without mocks, monitors, tests and documentation are visualized in percentages. Hover over the chart to view the API data in figures. From the chart,  you can see that 7% of the APIs have documentation.
 
 ## Individual API view reports
 
