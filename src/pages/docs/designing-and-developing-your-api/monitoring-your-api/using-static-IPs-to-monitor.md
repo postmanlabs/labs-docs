@@ -18,11 +18,9 @@ contextual_links:
 
 > __[Static IP address monitoring is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
 
-Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall.
+Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall. This feature is available to all Postman Business and Enterprise customers, provided your IT team [whitelists](#whitelisting-static-ip-addresses) the associated static IP addresses.
 
-Static IPs are available to all Postman Business and Enterprise customers, however Postman does not provide the option to use static IP addresses by default. You must [contact the Postman support team](https://www.postman.com/support/) for this feature to be enabled for your account.
-
-The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature.
+The provided static IP addresses are fixed to their specified region and shared by all customers who utilize this feature.
 
 ## Contents
 
@@ -43,13 +41,13 @@ Static IP addresses are available for US east and US west regions. Contact your 
 
 ## Creating a new monitor to run from a static IP address
 
-When [creating a new monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#creating-a-monitor), opt to **Manually Select Region**. Select your desired static IP regions, then click **Add Monitor**.
+When [creating a new monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#creating-a-monitor), opt to **Manually Select Region**. Select your desired static IP regions, then click **Create**.
 
-<img src="https://assets.postman.com/postman-docs/select-regions-add-monitor.jpg" width="400px" alt="Select regions"/>
+<img src="https://assets.postman.com/postman-docs/static-ip-select-region.jpg" height="450px" alt="Select regions"/>
 
 ## Changing an existing monitor to run from a static IP address
 
-In the Postman app, select **Browse** in the bottom-right corner.
+In Postman, select **Browse** in the bottom-right corner.
 
 <img src="https://assets.postman.com/postman-docs/browse-button-selected.jpg" width="400px" alt="Browse menu"/>
 
