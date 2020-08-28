@@ -51,8 +51,6 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 * [__Collaborating with your team__](#collaborating-with-your-team)
 * [__Developing with Postman__](#developing-with-postman)
 
-> [Postman for the Web](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/) is currently available in Beta. [Try it out](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) and give the team feedback by joining in the discussion on the [community forum](https://community.postman.com/t/announcing-postman-for-the-web-now-in-open-beta/14192).
-
 ### Making requests
 
 If you're building a client app or just need to connect to an API, check out some Postman essentials:
