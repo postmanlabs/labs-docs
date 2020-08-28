@@ -26,11 +26,11 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
 ## Contents
 
 * [The pm object](#the-pm-object)
-    * [Scripting with variables](#scripting-with-variables)
-        * [Environment variables](#scripting-with-environment-variables)
-        * [Collection variables](#scripting-with-collection-variables)
-        * [Global variables](#scripting-with-global-variables)
-        * [Data variables](#scripting-with-data-variables)
+    * [Using variables in scripts](#using-variables-in-scripts)
+        * [Environment variables](#using-environment-variables-in-scripts)
+        * [Collection variables](#using-collection-variables-in-scripts)
+        * [Global variables](#using-global-variables-in-scripts)
+        * [Data variables](#using-data-variables-in-scripts)
     * [Scripting with request and response data](#scripting-with-request-and-response-data)
         * [Request data](#scripting-with-request-data)
         * [Response data](#scripting-with-response-data)
@@ -47,7 +47,7 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
 
 You will carry out most of the Postman JavaScript API functionality using `pm.*`, which provides access to request and response data, and variables.
 
-### Scripting with variables
+### Using variables in scripts
 
 You can access and manipulate [variables](/docs/sending-requests/variables/) at each scope in Postman using the `pm` API.
 
@@ -82,7 +82,8 @@ pm.variables.replaceIn(variableName:String):function: → *
 > For example:
 
 ```js
-pm.variables.set('name', pm.variables.replaceIn("{{$randomFirstName}}"))
+const stringWithVars = pm.variables.replaceIn("Hi, my name is {{$randomFirstName}}");
+console.log(stringWithVars);
 ```
 
 * Return an object containing all variables with their values in the current scope. Based on the order of precedence, this will contain variables from multiple scopes.
@@ -111,7 +112,7 @@ console.log(pm.collectionVariables.get('score'));//outputs 1
 console.log(pm.environment.get('score'));//outputs 2
 
 //second request run
-pm.response.set('score', 3);//local var
+pm.variables.set('score', 3);//local var
 console.log(pm.variables.get('score'));//outputs 3
 
 //third request run
@@ -122,7 +123,7 @@ console.log(pm.variables.get('score'));//outputs 2
 
 You can also access variables defined in the individual scopes via [pm.environment](#scripting-with-environment-variables), [pm.collectionVariables](#scripting-with-collection-variables), and [pm.globals](#scripting-with-global-variables).
 
-#### Scripting with environment variables
+#### Using environment variables in scripts
 
 Your scripts can use the `pm.environment` methods to access and manipulate variables in the active (currently selected) environment.
 
@@ -159,7 +160,9 @@ pm.environment.replaceIn(variableName:String):function → *
 > For example:
 
 ```js
-pm.environment.set('name', pm.environment.replaceIn("{{$randomFirstName}}"))
+//environment has vars firstName and age
+const stringWithVars = pm.variables.replaceIn("Hi, my name is {{firstName}} and I am {{age}}.");
+console.log(stringWithVars);
 ```
 
 * Return all variables with their values in the active environment in a single object:
@@ -182,9 +185,9 @@ pm.environment.clear():function
 
 > Note that your ability to edit variables depends on your [access level](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team) in the workspace.
 
-#### Scripting with collection variables
+#### Using collection variables in scripts
 
-Your scripts can use the `pm.collectionVariables` methods to access and manipulate variables in the active (currently selected) environment.
+Your scripts can use the `pm.collectionVariables` methods to access and manipulate variables in the collection.
 
 * Check whether there is a variable in the collection with the specified name:
 
@@ -213,7 +216,9 @@ pm.collectionVariables.replaceIn(variableName:String):function → *
 > For example:
 
 ```js
-pm.collectionVariables.set('name', pm.collectionVariables.replaceIn("{{$randomFirstName}}"))
+//collection has vars firstName and age
+const stringWithVars = pm.collectionVariables.replaceIn("Hi, my name is {{firstName}} and I am {{age}}.");
+console.log(stringWithVars);
 ```
 
 * Return all variables with their values in the collection in an object:
@@ -234,7 +239,7 @@ pm.collectionVariables.unset(variableName:String):function
 pm.collectionVariables.clear():function
 ```
 
-#### Scripting with global variables
+#### Using global variables in scripts
 
 Your scripts can use the `pm.globals` methods to access and manipulate variables at global scope within the workspace.
 
@@ -265,7 +270,9 @@ pm.globals.replaceIn(variableName:String):function → String
 > For example:
 
 ```js
-pm.globals.set('name', pm.globals.replaceIn("{{$randomFirstName}}"))
+//globals include vars firstName and age
+const stringWithVars = pm.globals.replaceIn("Hi, my name is {{firstName}} and I am {{age}}.");
+console.log(stringWithVars);
 ```
 
 * Return all global variables and their values in an object:
@@ -288,9 +295,15 @@ pm.globals.clear():function
 
 > Note that your ability to edit variables depends on your [access level](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team) in the workspace.
 
-#### Scripting with data variables
+#### Using data variables in scripts
 
 Your scripts can use the `pm.iterationData` methods to access and manipulate variables from [data files during a collection run](/docs/running-collections/working-with-data-files/).
+
+* Check whether a variable with the specified name exists in the current iteration data:
+
+```js
+pm.iterationData.has(variableName:String):function → boolean
+```
 
 * Return a variable from the iteration data with the specified name:
 
@@ -302,24 +315,6 @@ pm.iterationData.get(variableName:String):function → *
 
 ```js
 pm.iterationData.toObject():function → Object
-```
-
-* Clear the iteration data variables:
-
-```js
-pm.iterationData.clear():function → void
-```
-
-* Check whether a variable with the specified name exists in the current iteration data:
-
-```js
-pm.iterationData.has(variableName:String):function → boolean
-```
-
-* Set a variable with the specified key, value, and type:
-
-```js
-pm.iterationData.set(key:String, value:*, type:*):function
 ```
 
 * Convert the iterationData object to JSON format:
@@ -336,7 +331,7 @@ pm.iterationData.unset(key:String):function
 
 ### Scripting with request and response data
 
-A variety of methods provide access to request data in Postman scripts, including [pm.request](#scripting-with-request-data), [pm.response](#scripting-with-response-data), [pm.info](#scripting-with-request-info), and [pm.cookies](#scripting-with-request-cookies). Additionally you can send requests using [pm.sendRequest](#sending-requests-from-scripts).
+A variety of methods provide access to request and response data in Postman scripts, including [pm.request](#scripting-with-request-data), [pm.response](#scripting-with-response-data), [pm.info](#scripting-with-request-info), and [pm.cookies](#scripting-with-request-cookies). Additionally you can send requests using [pm.sendRequest](#sending-requests-from-scripts).
 
 #### Scripting with request data
 
@@ -370,10 +365,19 @@ pm.request.method:String
 pm.request.body:RequestBody
 ```
 
-* Add a header with the specified name for the current request:
+* Add a header with the specified name and value for the current request:
 
 ```js
-pm.request.headers.add(headerName:String):function
+pm.request.headers.add(header:Header):function
+```
+
+For example:
+
+```js
+pm.request.headers.add({
+  key: "client-id",
+  value: "abcdef"
+});
 ```
 
 * Delete the request header with the specified name:
@@ -512,6 +516,13 @@ To enable programmatic access via the `pm.cookies.jar` methods, first [whitelist
 pm.cookies.jar():Function → Object
 ```
 
+For example:
+
+```js
+const jar = pm.cookies.jar();
+//cookie methods...
+```
+
 * Set a cookie using name and value:
 
 ```js
@@ -522,6 +533,19 @@ jar.set(URL:String, cookie name:String, cookie value:String, callback(error, coo
 
 ```js
 jar.set(URL:String, { name:String, value:String, httpOnly:Bool }, callback(error, cookie)):Function → Object
+```
+
+For example:
+
+```js
+const jar = pm.cookies.jar();
+jar.set("httpbin.org", "session-id", "abc123", (error, cookie) => {
+  if (error) {
+    console.error(`An error occurred: ${error}`);
+  } else {
+    console.log(`Cookie saved: ${cookie}`);
+  }
+});
 ```
 
 * Get a cookie from the cookie jar:
@@ -590,9 +614,9 @@ pm.sendRequest('https://postman-echo.com/get', (error, response) => {
   }
 
   pm.test('response should be okay to process', () => {
-  pm.expect(error).to.equal(null);
-  pm.expect(response).to.have.property('code', 200);
-  pm.expect(response).to.have.property('status', 'OK');
+    pm.expect(error).to.equal(null);
+    pm.expect(response).to.have.property('code', 200);
+    pm.expect(response).to.have.property('status', 'OK');
   });
 });
 ```
@@ -601,7 +625,7 @@ See the [Request definition](http://www.postmanlabs.com/postman-collection/Reque
 
 ## Scripting workflows
 
-The `postman` object provides the `setNextRequest` method for building request workflows when you use the [collection runner](/docs/running-collections/building-workflows/).
+The `postman` object provides the `setNextRequest` method for building request workflows when you use the [collection runner](/docs/running-collections/building-workflows/) or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
 > Note that `setNextRequest` has no effect when you run requests using the **Send** button, it only comes into effect when you run a collection.
 
@@ -611,6 +635,20 @@ When you run a collection (using the collection runner or Newman), Postman will 
 
 ```js
 postman.setNextRequest(requestName:String):Function
+```
+
+* Run the specified request after this one (the request id returned by `pm.info.requestId`):
+
+```js
+postman.setNextRequest(requestId:String):Function
+```
+
+For example:
+
+```js
+//script in another request calls:
+//pm.environment.set('next', pm.info.requestId)
+postman.setNextRequest(pm.environment.get('next'));
 ```
 
 ## Scripting visualizations
