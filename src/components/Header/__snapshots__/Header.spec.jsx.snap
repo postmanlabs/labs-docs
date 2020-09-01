@@ -89,13 +89,32 @@ exports[`renders correctly 1`] = `
         <div
           className="input-empty"
         >
-          <ul
-            className="style"
+          <div
+            className="container"
           >
-            <li>
-              No search results found
-            </li>
-          </ul>
+            <div
+              className="row"
+            >
+              <div
+                className="col-12"
+              >
+                <ul
+                  className="style"
+                >
+                  <li>
+                    No search results found
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-12"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -145,6 +164,9 @@ exports[`renders correctly 1`] = `
       <a
         className="btn btn__primary"
         href="https://identity.getpostman.com/login"
+        onClick={[Function]}
+        rel="noreferrer"
+        target="_blank"
       >
         Sign In
       </a>
