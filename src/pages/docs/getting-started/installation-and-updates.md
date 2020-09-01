@@ -123,7 +123,7 @@ Postman on the web is under active development, but there are a few features you
 
 * **Live preview**: You will not see your request headers update live as you enter your request configurations as you do in the desktop Postman app.
 * **Saving responses to file**
-* **Certificates and Proxy**: These will take the browser defined value and cannot be overridden by Postman
+* **Certificates and Proxy**: These will take the browser defined value and cannot be overridden by Postman.
 * **Postman Interceptor**
 
 > [Postman for the Web](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/) is still under development. Please [try it out](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) and give the team feedback by joining in the discussion on the [community forum](https://community.postman.com/t/announcing-postman-for-the-web-now-in-open-beta/14192).
