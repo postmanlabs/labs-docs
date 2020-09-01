@@ -121,7 +121,7 @@ Once you have the agent installed you will be able to use it with web requests.
 
 Postman on the web is under active development, but there are a few features you can currently only access in the desktop app and not in your web browser:
 
-* **Live preview**: You will not see your request headers update live as you enter your request configurations as you do in the desktop Postman app.
+* **Live preview**: You will not see all of your request headers update live as you enter your request configurations as you do in the desktop Postman app—you will only see Authorization headers update as you edit.
 * **Saving responses to file**
 * **Certificates and Proxy**: These will take the browser defined value and cannot be overridden by Postman.
 * **Postman Interceptor**
