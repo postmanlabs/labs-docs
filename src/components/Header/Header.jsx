@@ -39,7 +39,8 @@ const LoginCheck = (props) => {
         href="https://identity.getpostman.com/login"
         className="btn btn__primary"
         target="_blank"
-        onClick={(e) => {
+        rel="noreferrer"
+        onClick={() => {
           // To stop the page reloading
           // e.preventDefault()
           // Lets track that custom click
@@ -62,7 +63,8 @@ const LoginCheck = (props) => {
       href="https://go.postman.co/build"
       className="btn btn__primary"
       target="_blank"
-      onClick={(e) => {
+      rel="noreferrer"
+      onClick={() => {
         // To stop the page reloading
         // e.preventDefault()
         // Lets track that custom click
