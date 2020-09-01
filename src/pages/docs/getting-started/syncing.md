@@ -59,11 +59,11 @@ These entities can sync with the server and be saved to the cloud:
 
 Install the [Postman app](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
 
-Alternatively, access Postman on the web by visiting [go.postman.co/build](https://go.postman.co/build) in your browser and sign into your account.
+Alternatively, access Postman on the web by visiting [go.postman.co/build](https://go.postman.co/build) in your browser and signing into your account.
 
-If you forget your username or password, you can recover your username and reset your password when you click the links near the signin prompt.
+If you forget your username or password, you can recover them using the links in the sign-in prompt.
 
-Once you log into Postman, your data gets synced across all devices. Postman automatically ensures your data is the same no matter from where you access. No further settings are required.
+When you're logged into Postman, your data is synced across devices.
 
 **Note:** Postman restricts parallel usage to three apps per account.
 
