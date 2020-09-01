@@ -3,11 +3,11 @@ import React from 'react';
 import './Header.scss';
 import algoliasearch from 'algoliasearch/lite';
 import {
-  InstantSearch, SearchBox, Hits, Configure, Pagination
+  InstantSearch, SearchBox, Hits, Configure, Pagination,
 } from 'react-instantsearch-dom';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import DynamicLink from '../Shared/DynamicLink';
 import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
-import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 
 import { CustomHits } from '../Search/searchPreview';
 
@@ -35,48 +35,49 @@ const LoginCheck = (props) => {
 
   if (cookie !== 'yes') {
     return (
-      <a 
-        href="https://identity.getpostman.com/login" 
-        className="btn btn__primary" target="_blank" 
-        onClick={e => {
+      <a
+        href="https://identity.getpostman.com/login"
+        className="btn btn__primary"
+        target="_blank"
+        onClick={(e) => {
           // To stop the page reloading
           // e.preventDefault()
           // Lets track that custom click
           trackCustomEvent({
             // string - required - The object that was interacted with (e.g.video)
-            category: "lc-top-nav",
+            category: 'lc-top-nav',
             // string - required - Type of interaction (e.g. 'play')
-            action: "Click",
+            action: 'Click',
             // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
-            label: "sign-in-button-clicked"
-          })
+            label: 'sign-in-button-clicked',
+          });
         }}
-        >
-          Sign In
-        </a>
+      >
+        Sign In
+      </a>
     );
   }
   return (
-    <a 
-      href="https://go.postman.co/build" 
-      className="btn btn__primary" 
-      target="_blank" 
-      onClick={e => {
+    <a
+      href="https://go.postman.co/build"
+      className="btn btn__primary"
+      target="_blank"
+      onClick={(e) => {
         // To stop the page reloading
         // e.preventDefault()
         // Lets track that custom click
         trackCustomEvent({
           // string - required - The object that was interacted with (e.g.video)
-          category: "lc-top-nav",
+          category: 'lc-top-nav',
           // string - required - Type of interaction (e.g. 'play')
-          action: "Click",
+          action: 'Click',
           // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
-          label: "launch-postman-button-clicked"
-        })
+          label: 'launch-postman-button-clicked',
+        });
       }}
-        >
-        Launch Postman
-        </a>
+    >
+      Launch Postman
+    </a>
   );
 };
 
@@ -174,7 +175,7 @@ class HeaderComponent extends React.Component {
                 refresh={refresh}
               >
                 <Configure hitsPerPage={5} />
-    
+
                 {/* forcefeed className because component does not accept natively as prop */}
                 <SearchBox
                   className="searchbox"
@@ -190,7 +191,7 @@ class HeaderComponent extends React.Component {
                     });
                   }}
                 />
-               
+
 
                 <div className={!hasInput ? 'input-empty' : 'input-value'}>
                   <div className="container">
@@ -207,7 +208,7 @@ class HeaderComponent extends React.Component {
                   </div>
                 </div>
               </InstantSearch>
-          
+
             </ClickOutHandler>
           </div>
           {data.links.map((link) => (
