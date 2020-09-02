@@ -30,7 +30,7 @@ warning: false
 
 A free Postman account allows you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. You can also [collaborate](/docs/collaborating-in-postman/collaboration-intro/) with others on your API projects.
 
-Signing up for an account is optional—you can continue to use Postman without an account if you prefer. Check out the [EULA](https://www.postman.com/licenses/postman_base_app), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
+Signing up for an account is optional—you can continue to use the Postman app without an account if you prefer. Check out the [EULA](https://www.postman.com/licenses/postman_base_app), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
 
 ## Contents
 
@@ -47,9 +47,11 @@ Signing up for an account is optional—you can continue to use Postman without 
 
 ## Signing up for a Postman account
 
-If you haven't already, [download](https://www.postman.com/downloads/) the Postman app.
+To use Postman on the desktop, [download](https://www.postman.com/downloads/) the app and launch it.
 
-Launch the app. You will see a prompt to log in or sign up.
+Alternatively, navigate to Postman on the web at [go.postman.co/build](https://go.postman.co/build).
+
+You will see a prompt to log in or sign up.
 
 ![App Sign In](https://assets.postman.com/postman-docs/pm-app-sign-in.jpg)
 
