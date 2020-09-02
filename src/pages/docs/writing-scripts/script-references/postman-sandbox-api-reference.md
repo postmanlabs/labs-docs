@@ -161,7 +161,7 @@ pm.environment.replaceIn(variableName:String):function → *
 
 ```js
 //environment has vars firstName and age
-const stringWithVars = pm.variables.replaceIn("Hi, my name is {{firstName}} and I am {{age}}.");
+const stringWithVars = pm.environment.replaceIn("Hi, my name is {{firstName}} and I am {{age}}.");
 console.log(stringWithVars);
 ```
 
