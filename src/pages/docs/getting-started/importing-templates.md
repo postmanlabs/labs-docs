@@ -25,13 +25,13 @@ warning: false
 
 Templates help you to learn about APIs inside Postman. You can import templates into Postman to try out various request types and configurations. In addition to the templates, the Postman API Network includes collections you can use to make requests to popular third party APIs.
 
-You can access the API Network and Templates in the web or inside Postman. To browse templates on the web, visit [explore.postman.com](https://explore.postman.com) (click __Templates__ for community collections and __API Network__ for teams with published APIs).
+You can access the API Network and Templates on the web or inside Postman. To browse templates on the web, visit [explore.postman.com](https://explore.postman.com) or click **Explore** at the top left of Postman if you're using it in the browser. Click __Templates__ for community collections and __API Network__ for teams with published APIs.
 
 [![Templates in browser](https://assets.postman.com/postman-docs/template-listings-in-browser.jpg)](https://assets.postman.com/postman-docs/template-listings-in-browser.jpg)
 
 > You can also access any collections added as part of your team's private API network by selecting __Team APIs__ on the left.
 
-To find templates inside Postman, click __New__ at the top left &gt; __Templates__ or __API Network__.
+To find templates inside the Postman desktop app, click __New__ at the top left &gt; __Templates__ or __API Network__.
 
 [![Templates in app](https://assets.postman.com/postman-docs/open-templates-in-app.jpg)](https://assets.postman.com/postman-docs/open-templates-in-app.jpg)
 
