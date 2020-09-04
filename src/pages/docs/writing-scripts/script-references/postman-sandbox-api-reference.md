@@ -474,7 +474,7 @@ pm.info.iterationCount:Number
 pm.info.requestName:String
 ```
 
-* A unique guid that identifies the running request:
+* A unique GUID that identifies the running request:
 
 ```js
 pm.info.requestId:String
@@ -637,7 +637,7 @@ When you run a collection (using the collection runner or Newman), Postman will 
 postman.setNextRequest(requestName:String):Function
 ```
 
-* Run the specified request after this one (the request id returned by `pm.info.requestId`):
+* Run the specified request after this one (the request ID returned by `pm.info.requestId`):
 
 ```js
 postman.setNextRequest(requestId:String):Function
