@@ -55,7 +55,7 @@ To try out a mock server, carry out the following steps:
 * Click **Save** on the request, and create a new collection to save your request to.
 * Click the **Examples** drop-down on the request and choose **Add Example**. Postman will automatically populate the example with the response you received when you sent the request. Click **Save Example** and return to the request.
 * In **Collections** on the left, open the collection (&#9658;) and select **Mocks**. Click **Create a mock server**.
-* Give your mock a name, leave the default version selected and the environment empty. Click **Create Mock Server**.
+* Give your mock a name, leave the default version selected, the environment empty, and the delay option unchecked. Click **Create Mock Server**.
 * Copy the mock URL and go back into your request. Replace `postman-echo.com` with the mock URL—keeping the `/get` path on the end.
 * Click **Send** to view your example response returned, this time from the mock server. Open the example again and alter the mock response JSON, then save it and send the request again—you will see your edited mock response.
 
@@ -85,7 +85,7 @@ You can create mock servers from an existing collection, or Postman will create 
 
 ## Configuring mock details
 
-When you create a mock server you will give it a name, choose a version tag (if your collection has a specific version you want to mock), and select an optional environment to use with the requests.
+When you create a mock server you will give it a name, choose a version tag (if your collection has a specific version you want to mock), select an optional environment to use with the requests, and configure a delay before the server sends your mock responses  (choosing to simulate 2G/3G networks or specify a custom delay in milliseconds).
 
 > If you choose to make your mock server private, you will need to add a [Postman API key](/docs/developer/intro-api/) in the request header: `x-api-key:<Your-Postman-API-key>`. You can [share the collection](/docs/collaborating-in-postman/sharing/) and your collaborators can use their Postman API keys to consume the mock.
 
@@ -134,6 +134,8 @@ If you save your mock URL to a variable, you can reference it across requests—
 > You can also retrieve your mock ID from the [Postman API](https://documenter.getpostman.com/view/631643/JsLs/?version=latest#018b5d62-f6fc-f752-597e-c1eb4bb98d24)
 
 When you **Send** a request to your mock server URL it will send back one of the examples you added to the request with the same path and method. ([You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) and Postman will return the one that matches your request configuration most closely).
+
+If you specified a delay for your mock server, Postman will wait the specified period of time before sending the response.
 
 > Your Postman account gives you a limited number of free mock server calls per month. Check your [usage limits](https://go.postman.co/usage).
 
