@@ -89,7 +89,7 @@ When you create a mock server you will give it a name, choose a version tag (if 
 
 > If you choose to make your mock server private, you will need to add a [Postman API key](/docs/developer/intro-api/) in the request header: `x-api-key:<Your-Postman-API-key>`. You can [share the collection](/docs/collaborating-in-postman/sharing/) and your collaborators can use their Postman API keys to consume the mock.
 
-[![New mock](https://assets.postman.com/postman-docs/create-new-mock-details.jpg)](https://assets.postman.com/postman-docs/create-new-mock-details.jpg)
+[![New mock](https://assets.postman.com/postman-docs/create-mock-delay.jpg)](https://assets.postman.com/postman-docs/create-mock-delay.jpg)
 
 With your details in place, click **Create Mock Server**.
 
@@ -135,7 +135,7 @@ If you save your mock URL to a variable, you can reference it across requests—
 
 When you **Send** a request to your mock server URL it will send back one of the examples you added to the request with the same path and method. ([You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) and Postman will return the one that matches your request configuration most closely).
 
-If you specified a delay for your mock server, Postman will wait the specified period of time before sending the response.
+If you configured a delay for your mock server, Postman will wait the specified period of time before sending the response.
 
 > Your Postman account gives you a limited number of free mock server calls per month. Check your [usage limits](https://go.postman.co/usage).
 
@@ -155,7 +155,7 @@ You can view and search the details of calls to your mock servers using the mock
 
 The mock call log lists an overview of calls made to the mock url, together with request and response details.
 
-![Mock Call Log List](https://assets.postman.com/postman-docs/mock-call-log-list.jpg)
+[![Mock Call Log List](https://assets.postman.com/postman-docs/mock-logs-delay.jpg)](https://assets.postman.com/postman-docs/mock-logs-delay.jpg)
 
 Mock call log entries indicate the time a request was sent, the request method and path, and a response overview. Click an entry to see more detail on request headers and body, or response headers and body. You can drill down into response data returned by a mock call.
 
