@@ -85,7 +85,7 @@ The __Define__ tab in your API will include a specification (either one you impo
 
 The default schema format is OpenAPI 3.0, with JSON as the default language. To use a different schema type or language, choose it from the dropdown list.
 
-If you're authoring an OpenAPI 3.0 spec you will see autocomplete suggestions as you type.
+If you're authoring an OpenAPI 2.0 or 3.0 spec you will see autocomplete suggestions as you type.
 
 [![Schema autocomplete](https://assets.postman.com/postman-docs/mock-auto.gif)](https://assets.postman.com/postman-docs/mock-auto.gif)
 
