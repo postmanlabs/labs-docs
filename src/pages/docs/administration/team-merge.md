@@ -49,12 +49,78 @@ Team migration can occur several ways depending on your needs and preferred outc
 
 Below are 2 options to consider as you go about migrating data:
 
-| |[Centralized Migration](#centralized)|[Distributed Migration](#distributed)|
-|:---|:--|:---|
-| Who can perform this? | Admin(s)| Individual Postman Users, Developers and Admins|
-| What data is exported? Read more on [what is not exported](#what-data-does-NOT-get-exported?) | A large JSON file of collections, environments, globals, and header presets. Two types of bulk exports can be performed (see more): <br><br>- Only the admin's personal workspace(s) <br><br>- OR Only the admin's personal workspace(s) and team workspace(s) that have been joined | A user's personal and team workspace(s) the user has joined. See how to [export Postman data](/docs/getting-started/importing-and-exporting-data). <br><br> A user can choose to export only collections in that workspace. See how to [export individual collections](/docs/getting-started/importing-and-exporting-data/#exporting-collections) and [environments](/docs/getting-started/importing-and-exporting-data/#exporting-environments).<br><br> Individual Postman users who are not part of a Team but want to maintain their current Postman account migrating company data to the authorized Team can export specific data or export all data (data dump). <br><br>If an individual user wants to disable their personal account and join the authorized team, they can simply accept the invite and all personal Postman data will be transferred to the new team automatically. ||
-| I should choose this option if...| Your organization prefers to have one person perform the migration and collection organization into the new team. | Your organization has workspaces that have dedicated workspace admins with numerous collections. <br><br> Workspace admins can export any relevant collections/environments into the new team workspace. <br><br>You are a single user and want to disable your existing account or move company data from personal account to the authorized team. <br><br> Note: Recreating mocks/monitors/documentation on the new team may be done by those who are responsible for maintaining it. |
-| I shouldn't choose this option if... | Your organization heavily relies on: <br><br> - Postman based published documentation. <br><br>- URLs would need to be republished from your new team instance. <br><br>- Mocks and monitors would need to be [recreated](#what-data-does-NOT-get-exported?) Your team members have a lot of important content in their personal workspaces that must be transferred | Your organization is <strong>unable</strong> to: <br><br> - Determine ownership of workspaces, collections etc. that may be important and would otherwise be dissolved if no one takes responsibility for migrating them <br><br> - Create the necessary communication channels that would allow you to understand when everyone has migrated|
+
+<table>
+<style>
+      table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Centralized Migration</th>
+      <th>Distributed Migration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Who can perform this?</td>
+      <td>Admin(s)</td>
+      <td>
+        Individual Postman Users, Developers and Admins
+      </td>
+    </tr>
+    <tr>
+      <td>What data is exported?
+        <br><br>Read more on what is not exported</td>
+      <td>A large JSON file of collections, environments, globals, and header presets. <br><br>
+        Two types of bulk exports can be performed (see more): <br><br>
+        <li>Only the admin's personal workspace(s) OR
+        <li>Only the admin's personal workspace(s) and team workspace(s) that have been joined
+      </td>
+      <td>A user's personal and team workspace(s) the user has joined. See<a href="https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#exporting-postman-data"> how to export Postman data.</a>
+        <br><br>
+        A user can choose to export only collections in that workspace.
+        <br><br>
+        Individual Postman users who are not part of a Team but want to maintain their current Postman account migrating company data to the authorized Team can <a href="https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#exporting-postman-data">export specific data</a> or <a href="https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps">export all data (data dump).</a>
+        <br><br>
+        If an individual user wants to disable their personal account and join the authorized team, they can simply accept the invite and all personal Postman data will be transferred to the new team automatically.
+      </td>
+    </tr>
+    <tr>
+      <td>I should choose this option if...</td>
+      <td>Your organization prefers to have one person perform the migration and collection organization into the new team.</td>
+      <td>Your organization has workspaces that have dedicated workspace admins with numerous collections.
+        <br><br>
+        Workspace admins can export any relevant collections/environments into the new team workspace.
+        <br><br>You are a single user and want to disable your existing account or move company data from personal account to the authorized team.
+        <br><br>
+        Note: Recreating mocks/monitors/documentation on the new team may be done by those who are responsible for maintaining it.
+      </td>
+    </tr>
+    <tr>
+      <td>I should NOT choose this option if...</td>
+      <td>Your organization heavily relies on:
+        <br><br>
+        Postman based published documentation. URLs would need to be republished from your new team instance
+        <br><br>
+        Mocks and monitors would need to be recreated
+        <br><br>
+        Your team members have a lot of important content in their personal workspaces that must be transferred
+      </td>
+      <td>Your organization is unable to:<br><br>
+        Determine ownership of workspaces, collections, and other data that may be important and would otherwise be dissolved if no one takes responsibility for migrating them <br><br>
+        Create the necessary communication channels that would allow you to understand when everyone has migrated
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Steps for Centralized and Distributed migration
 
