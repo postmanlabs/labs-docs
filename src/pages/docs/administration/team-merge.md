@@ -49,7 +49,6 @@ Team migration can occur several ways depending on your needs and preferred outc
 
 Below are 2 options to consider as you go about migrating data:
 
-
 <table>
 <style>
       table,
@@ -120,7 +119,6 @@ Below are 2 options to consider as you go about migrating data:
     </tr>
   </tbody>
 </table>
-
 
 ## Steps for Centralized and Distributed migration
 
