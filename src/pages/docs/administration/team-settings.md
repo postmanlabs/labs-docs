@@ -17,7 +17,7 @@ contextual_links:
 
 The Team Settings page lets you change your team name, team URL, team logo, and billing information. You also can add custom domains and manage your authentication method.  
 
-You can also access team settings in Postman via the "Teams" dropdown menu in the upper right corner.
+You can also access team settings in Postman via the **Teams** dropdown menu in the upper right corner.
 [![Teams](https://assets.postman.com/postman-docs/teamdropdown+new+with+logo.png)](https://assets.postman.com/postman-docs/teamdropdown+new+with+logo.png)
 
 ## General
@@ -74,6 +74,6 @@ Click the **Proceed** button to configure the identity of your provider.
 
 [![config ID provider](https://assets.postman.com/postman-docs/WS-teamSetting-configIDProvider.png)](https://assets.postman.com/postman-docs/WS-teamSetting-configIDProvider.png)
 
-Add the information in the "Service Provider Details (Postman)" section into your Identity Provider's SSO form and use the generated URLs and certificate to fill in the details for identity provider.
+Add the information in the **Service Provider Details (Postman)** section into your Identity Provider's SSO form and use the generated URLs and certificate to fill in the details for identity provider.
 
-Complete all the fields in the "Identity Provider Details" section and save the authentication.
+Complete all the fields in the **Identity Provider Details** section and save the authentication.

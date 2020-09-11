@@ -29,7 +29,7 @@ contextual_links:
 warning: false
 ---
 
-You can publish your API documentation to make it available for public viewing by anyone who has the link. Published documentation) allows anyone who wants to learn how to use your API to view detail on endpoints, including parameters, request and response bodies, and example code.
+You can publish your API documentation to make it available for public viewing by anyone who has the link. Published documentation allows anyone who wants to learn how to use your API to view detail on endpoints, including parameters, request and response bodies, and example code.
 
 [![postman API docs](https://i.imgur.com/jNF08qQ.png)](https://i.imgur.com/jNF08qQ.png)
 
@@ -113,6 +113,8 @@ Your team profile can include a name, description, custom URL, and logo.
 Add listing details for your public documentation, including name, summary, description, and relevant tags.
 
 ![Listing Detail](https://assets.postman.com/postman-docs/listing-detail.jpg)
+
+> If you edit your published docs, the changes will not automatically be reflected in your API network or template listing, so you will need to update the details displayed at [explore.postman.com](https://explore.postman.com) manually.
 
 If you do not want to make your docs discoverable at this time, you can go ahead and publish then add them to the API Network or Postman Templates later.
 
