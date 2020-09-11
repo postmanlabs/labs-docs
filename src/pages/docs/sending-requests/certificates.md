@@ -22,8 +22,6 @@ warning: false
 
 Postman provides a way to view and set SSL certificates on a per domain basis.
 
-> Certificates renew automatically—you do not need to carry out any manual steps. When a certificate is generated it has a 90 day expiry date and will renew seven days before it expires
-
 To manage your client certificates, click the wrench icon on the right side of the header toolbar, choose "Settings", and select the **Certificates** tab.
 
 [![certificates tab](https://assets.postman.com/postman-docs/WS-certificates.png)](https://assets.postman.com/postman-docs/WS-certificates.png)
@@ -69,6 +67,8 @@ To remove a certificate, use the **Remove** link next to the certificate under 
 ## Editing a Certificate
 
 You cannot edit a certificate after it has been created. To make changes to it, you will need to remove the certificate and create a new one.
+
+> Let's Encrypt SSL certificates renew automatically—you do not need to carry out any manual steps. When a certificate is generated it has a 90 day expiry date and will renew seven days before it expires
 
 ## Certificate data
 
