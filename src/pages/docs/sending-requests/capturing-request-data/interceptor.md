@@ -206,11 +206,11 @@ Open Postman and select the Interceptor satellite icon, then click the lock icon
 
 <img src="https://assets.postman.com/postman-docs/set-encryption-in-app.jpg" width="350px" alt="Set encryption in app"/>
 
-Enter an alphanumeric key of 10 or more characters and **Save key**. Then, open your browser and select the Interceptor extension. Click the lock icon, enter the same key, then **Save key**. Both the app and browser will confirm the **Connection is secure**. 
+Enter an alphanumeric key of 10 or more characters and **Save key**. Then, open your browser and select the Interceptor extension. Click the lock icon, enter the same key, then **Save key**. Both the app and browser will confirm the **Connection is secure**.
 
 <img src="https://assets.postman.com/postman-docs/set-encryption-in-browser.jpg" width="350px" alt="Set encryption in browser"/>
 
-> If the keys do not match, an alert will appear in the UI to resolve the discrepancy. 
+> If the keys do not match, an alert will appear in the UI to resolve the discrepancy.
 
 ### Adding a custom encryption key with the pm API
 
