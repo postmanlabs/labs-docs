@@ -62,6 +62,14 @@ If your pull request has no conflicts, you can go ahead and open it for review. 
 
 Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-requests) your changes into the parent collection.
 
+## Pull request settings
+
+If you are on business or enterprise plan then the pull request settings will be available in the __Manage roles__ section of a collection.
+
+* __Approved once__: This check will ensure that no merge should be done without approval.
+* __Approved by a collection editor__: This will ensure that no merge should be done without approval of  editor from destination collection.
+* __Disable outdated merge__: This check will ensure that no merge should be done if forked branch is behind destination branch.
+
 ## Approving changes
 
 You can approve changes on a fork (the source) into the parent fork (the destination). Once the pull request is created, navigate to the collection in your dashboard to check the status of the pull request under the **Pull Requests** tab.
