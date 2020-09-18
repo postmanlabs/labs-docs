@@ -40,6 +40,7 @@ If you're logged in, go directly to your team's [private API Network](https://go
 * [Adding your APIs](#adding-your-apis)
     * [Security](#security)
     * [Guidelines](#guidelines)
+* [Folders in Private API Network](#folders-in-private-api-network)
 * [Discovering and consuming private APIs](#discovering-and-consuming-private-apis)
 * [Next steps](#next-steps)
 
@@ -76,6 +77,34 @@ Private APIs are only visible to logged in users who are a part of your Postman 
 #### Guidelines
 
 To submit an API to the network, you must have edit access to the API. You cannot add an API to the private network unless all team members have at least view access to the API. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+
+### Folders in Private API Network
+
+You can create new folders from the private API network view. Click __Add New__, then select __Folder__ to create a new folder.
+
+![Private Network](https://assets.postman.com/postman-docs/private-network.jpg)
+
+Once you've created the folder, click __Add New__ and select __APIs__ to add APIs to your Team's API Network. You can choose the workspace and then select as many APIs you want to add to the network at one time. For each API selected, specify the version(s) to add. Click __Add__.
+
+<img alt="Add APIs Workspace" src="https://assets.postman.com/postman-docs/add-apis-workspace.jpg" width="500px"/>
+
+To edit the API setting, click `...` button and select __Edit network listing__.
+
+<img alt="Edit Summary 1" src="https://assets.postman.com/postman-docs/edit-api-summary-1.jpg" width="500px"/>
+
+You can change the versions, update the API summary and even modify the folder to which the API should be added.
+
+<img alt="Edit Summary 2" src="https://assets.postman.com/postman-docs/edit-api-summary-2.jpg" width="500px"/>
+
+You can also remove the added APIs from Postman's API Network. Click `...` next to the API you would like to remove, then select __Remove from network__. Once you click __Remove API__, your team members will also lose access to the API via the network.
+
+![Remove API fom Network](https://assets.postman.com/postman-docs/remove-from-network.jpg)
+
+The sidebar navigation displays the folder structure for your Private API Network.
+
+![Sidebar Navigation](https://assets.postman.com/postman-docs/sidenav-api.jpg)
+
+You can use the search box to search across folders, subfolders, and APIs in your private API network. You can also filter the folders, subfolders, and APIs based on name, recently added, and popularity.
 
 ## Discovering and consuming private APIs
 
