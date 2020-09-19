@@ -126,7 +126,7 @@ Confirm the files you would like to import into Postman. You can also opt to **G
 
 <img alt="Confirm github import" src="https://assets.postman.com/postman-docs/confirm-import.jpg"/>
 
-You will receive confirmation once the import has completed.
+You will receive a confirmation once the import has completed.
 
 <img alt="Import completed" src="https://assets.postman.com/postman-docs/import-complete.jpg"/>
 
