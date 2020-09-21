@@ -88,7 +88,7 @@ Once you've created the folder, click __Add New__ and select __APIs__ to add API
 
 <img alt="Add APIs Workspace" src="https://assets.postman.com/postman-docs/add-apis-workspace.jpg" width="500px"/>
 
-To edit the API setting, click `...` button and select __Edit network listing__.
+To edit the API setting, click `...` and select __Edit network listing__.
 
 <img alt="Edit Summary 1" src="https://assets.postman.com/postman-docs/edit-api-summary-1.jpg" width="500px"/>
 
@@ -100,7 +100,7 @@ You can also remove the added APIs from Postman's API Network. Click `...` next 
 
 ![Remove API fom Network](https://assets.postman.com/postman-docs/remove-from-network.jpg)
 
-The sidebar navigation displays the folder structure for your Private API Network.
+The sidebar navigation displays the folder structure for your Private API Network. You can also drag and drop the APIs and subfolders to different folders.
 
 ![Sidebar Navigation](https://assets.postman.com/postman-docs/sidenav-api.jpg)
 
