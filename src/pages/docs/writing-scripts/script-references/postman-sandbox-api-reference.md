@@ -781,4 +781,4 @@ In order to use a library, call the `require` method, pass the module name as a 
 
 ## Next steps
 
-You can use tests to build Postman into your development projects in a variety of ways using [Postman utilities]( "/docs/developer/resources-intro/").
+You can use tests to build Postman into your development projects in a variety of ways using [Postman utilities](/docs/developer/resources-intro/).
