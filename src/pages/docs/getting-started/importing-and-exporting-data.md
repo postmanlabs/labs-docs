@@ -110,6 +110,8 @@ When importing into a team workspace, you can also choose to add the APIs to the
 
 ### Importing GitHub repositories
 
+> You must be signed in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+
 You can import data in bulk from a GitHub repository by selecting **Import** > **Code repository** > **Connect to GitHub**.
 
 <img alt="Import from github" src="https://assets.postman.com/postman-docs/import-from-github1.jpg"/>
