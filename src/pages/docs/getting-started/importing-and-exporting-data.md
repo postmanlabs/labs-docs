@@ -128,7 +128,7 @@ Confirm the files you would like to import into Postman. You can also opt to **G
 
 You will receive a confirmation once the import has completed.
 
-<img alt="Import completed" src="https://assets.postman.com/postman-docs/import-complete.jpg"/>
+<img alt="Import completed" src="https://assets.postman.com/postman-docs/successful-import.jpg"/>
 
 You can now view your newly imported files and generated collections in Postman.
 
