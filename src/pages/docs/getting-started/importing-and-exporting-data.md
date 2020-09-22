@@ -46,7 +46,7 @@ Postman can import and export Postman data, including collections, environments,
 
     * [Importing API specifications](#importing-api-specifications)
 
-    * [Importing GitHub repositories](#importing-github-repositories)
+    * [Importing via GitHub repositories](#importing-via-github-repositories)
 
 * [Exporting Postman data](#exporting-postman-data)
 
@@ -108,7 +108,7 @@ When importing into a team workspace, you can also choose to add the APIs to the
 
 [![Import several APIs](https://assets.postman.com/postman-docs/apidev19-+importapis.gif)](https://assets.postman.com/postman-docs/apidev19-+importapis.gif)
 
-### Importing GitHub repositories
+### Importing via GitHub repositories
 
 > You must be signed in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
