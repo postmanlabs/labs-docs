@@ -87,7 +87,7 @@ You have three different types of checks that you can enable for a pull request,
 * __Approved by a collection editor__: You require the approval of a collection editor to merge the pull request.
 * __Up to date with all changes to this collection__ : You can't merge the pull request if a forked branch is behind the destination branch.
 
-> If you do not have editor access to the colleaction, the __Merge__ icon will be disabled.
+> If you do not have editor access to the collection, the __Merge__ icon will be disabled.
 
 <img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/merge-disabled.jpg" width="850px"/>
 
