@@ -20,6 +20,7 @@ You can use version control with your Postman collections, forking and merging u
 
 * [Forking a collection](#forking-a-collection)
 * [Creating pull requests](#creating-pull-requests)
+* [Pull request settings](#pull-request-settings)
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
 * [Pulling updates](#pulling-updates)
@@ -64,11 +65,25 @@ Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-
 
 ## Pull request settings
 
-If you are on business or enterprise plan then the pull request settings will be available in the __Manage roles__ section of a collection.
+If you are on a business or enterprise plan, the pull request settings will be available in the __Manage roles__ section of a collection.
 
-* __Approved once__: This check will ensure that no merge should be done without approval.
-* __Approved by a collection editor__: This will ensure that no merge should be done without approval of  editor from destination collection.
-* __Disable outdated merge__: This check will ensure that no merge should be done if forked branch is behind destination branch.
+Once you've created the pull request, you can assign merge checks before approving changes. Click __Manage roles__, from the dropdown select __Editor__ for the users you want to provide access to.
+
+<img alt="Manage Roles" src="https://assets.postman.com/postman-docs/manage-roles.jpg" width="850px"/>
+
+You need to have Editor access on a collection to merge changes. If you have only __Viewer__ access to a collection, you will see a warning icon while adding the reviewers during a pull request creation.
+
+<img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/reviewer-permission.jpg" width="850px"/>
+
+You have three different types of checks that you can enable for a pull request, and they are:
+
+* __Approved once__: You need atleast one approval to merge the pull request.
+* __Approved by a collection editor__: You require the approval of a collection editor to merge the pull request.
+* __Disable outdated merge__: You can't merge the pull request if a forked branch is behind the destination branch.
+
+> If you do not have editor access to the colleaction, the __Merge__ icon will be disabled.
+
+<img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/merge-disabled.jpg" width="850px"/>
 
 ## Approving changes
 
