@@ -19,21 +19,23 @@ warning: false
 
 ---
 
-The [Postman API](https://docs.api.getpostman.com/) endpoints to help you integrate Postman within your development toolchain.
+The [Postman API](https://docs.api.getpostman.com/) endpoints to help you integrate Postman within your development toolchain.
 
-You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account.
+You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account.
 
-You can get started with the API via the **Run in Postman** button at the top of the [Postman API documentation](https://docs.api.getpostman.com/) and use the Postman app to send requests.
+You can get started with the API via the **Run in Postman** button at the top of the [Postman API documentation](https://docs.api.getpostman.com/) and use the Postman app to send requests.
 
 You will need an [API key](#generating-a-postman-api-key) to access the Postman API.
 
 > The Postman API is [rate limited](#rate-limits).
 
-## Generating a Postman API Key
+## Generating a Postman API key
 
-You need a valid API Key to send requests to the Postman API endpoints.
+You need a valid API Key to send requests to the Postman API endpoints.
 
-To generate a new API Key go to the [Postman API keys page](https://web.postman.co/settings/me/api-keys).
+Navigate to the [web dashboard](https://app.getpostman.com/). Select a workspace and open __Integrations__. Locate the Postman API and click __View Details__.
+
+![Workspace Integrations](https://assets.postman.com/postman-docs/workspace-integrations-api.jpg)
 
 If you do not have any keys yet you will be prompted to create one. Click __Generate API Key__.
 
@@ -47,12 +49,6 @@ Copy your key and click __Close__.
 
 <img src="https://assets.postman.com/postman-docs/copy-api-key.jpg" width="300px" alt="API Key Name"/>
 
-Alternatively you can navigate to the [web dashboard](https://app.getpostman.com/). Select a workspace and open __Integrations__. Locate the Postman API and click __View Details__.
-
-![Workspace Integrations](https://assets.postman.com/postman-docs/workspace-integrations-api.jpg)
-
-From now on you will be guided to the same API Key generation process described above.
-
 Once you have keys generated you can manage them within your workspace.
 
 ![Workspace Keys](https://assets.postman.com/postman-docs/api-keys-overview.jpg)
@@ -63,17 +59,17 @@ Use __API Key Settings__ to specify expiration periods for your keys.
 
 ### Authentication
 
-You will need to authenticate your requests to the Postman API by sending your API Key in the `X-Api-Key` header of every request you make.
+You will need to authenticate your requests to the Postman API by sending your API Key in the `X-Api-Key` header of every request you make.
 
 Your API Key provides access to any Postman data you have permissions for.
 
-You can store your API key in an [environment variable](/docs/sending-requests/managing-environments/)—if you name it `postman-api-key` the Postman API collection will use it automatically
+You can store your API key in an [environment variable](/docs/sending-requests/managing-environments/)—if you name it `postman-api-key` the Postman API collection will use it automatically
 
 ## Rate Limits
 
 API access rate limits are applied at a per-key basis in unit time.
 
-Access to the API using a key is limited to **60 requests per minute**. Every API response includes the following set of headers to identify the status of your consumption.
+Access to the API using a key is limited to **60 requests per minute**. Every API response includes the following set of headers to identify the status of your consumption.
 
 | Header                | Description   |
 | ---                   | ---           |
