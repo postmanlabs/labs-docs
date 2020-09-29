@@ -67,11 +67,13 @@ Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-
 
 If you are on a business or enterprise plan, the pull request settings will be available in the __Manage roles__ section of a collection.
 
-Once you've created the pull request, you can assign merge checks before approving changes. Click __Manage roles__, from the dropdown select __Editor__ for the users you want to provide access to.
+<img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles.jpg" width="850px"/>
 
-<img alt="Manage Roles" src="https://assets.postman.com/postman-docs/manage-roles.jpg" width="850px"/>
+Once you've created the pull request, you can assign merge checks before approving changes. Click __View more actions__ on the parent collection > select __Manage roles__. Now, from the dropdown choose __Editor__ option for the users you want to provide editor access to.
 
-You need to have Editor access on a collection to merge changes. If you have only __Viewer__ access to a collection, you will see a warning icon while adding the reviewers during a pull request creation.
+<img alt="Merge Check" src="https://assets.postman.com/postman-docs/merge-check-screen.jpg" width="850px"/>
+
+You need to have __Editor__ access on a collection to merge changes. If you have only __Viewer__ access to a collection, you will see a warning icon while adding the reviewers during a pull request creation.
 
 <img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/reviewer-permission.jpg" width="850px"/>
 
@@ -79,7 +81,7 @@ You have three different types of checks that you can enable for a pull request,
 
 * __Approved once__: You need atleast one approval to merge the pull request.
 * __Approved by a collection editor__: You require the approval of a collection editor to merge the pull request.
-* __Disable outdated merge__: You can't merge the pull request if a forked branch is behind the destination branch.
+* __Up to date with all changes to this collection__ : You can't merge the pull request if a forked branch is behind the destination branch.
 
 > If you do not have editor access to the colleaction, the __Merge__ icon will be disabled.
 
