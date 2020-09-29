@@ -33,6 +33,8 @@ You will need an [API key](#generating-a-postman-api-key) to access the Postman 
 
 You need a valid API Key to send requests to the Postman API endpoints.
 
+You can generate an API Key directly from your [Postman API Keys page](https://go.postman.co/settings/me/api-keys) or by navigating to the [web dashboard](https://app.getpostman.com/).
+
 Navigate to the [web dashboard](https://app.getpostman.com/). Select a workspace and open __Integrations__. Locate the Postman API and click __View Details__.
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/workspace-integrations-api.jpg)
