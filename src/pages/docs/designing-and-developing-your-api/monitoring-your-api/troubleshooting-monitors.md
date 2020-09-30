@@ -43,10 +43,6 @@ For example, if the monitor failed because Postman was unable to contact the ser
 
     [![enable sync](https://assets.postman.com/postman-docs/Header_Toolbar_New_Sync.png)](https://assets.postman.com/postman-docs/Header_Toolbar_New_Sync.png)
 
-* You can also force a sync from the **Sync** tab within the **SETTINGS** modal.  
-
-    [![force sync](https://assets.postman.com/postman-docs/59046046.png)](https://assets.postman.com/postman-docs/59046046.png)
-
 ## Debugging variable issues
 
 * Ensure that the same environment is used across local runs and monitor runs. To confirm, add ``console.log(environment);`` to your request scripts and compare the results across monitoring and local runs.
