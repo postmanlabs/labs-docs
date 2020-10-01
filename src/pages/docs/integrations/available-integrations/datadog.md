@@ -40,7 +40,7 @@ Save the API Key to use later.
    [![datadog integrations page](https://assets.postman.com/postman-docs/WS-datadog-config.png)](https://assets.postman.com/postman-docs/WS-datadog-config.png)
 
 1. Click the **Add Integration** button to display the **Send Monitor Run Results** options.
-   
+
    <img alt="Add integration datadog" src="https://assets.postman.com/postman-docs/add-integration-datadog.jpg" width="300px"/>
 
 1. To send your monitor metrics and events to Datadog:
