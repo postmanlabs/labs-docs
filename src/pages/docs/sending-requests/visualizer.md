@@ -18,7 +18,7 @@ contextual_links:
     name: "Videos"
   - type: link
     name: "Visualizer demo"
-    url: "https://www.youtube.com/watch?v=Qj7j3QsY2ok"
+    url: "https://www.youtube.com/watch?v=nQNbdfKKQfc"
   - type: subtitle
     name: "Templates"
   - type: link
