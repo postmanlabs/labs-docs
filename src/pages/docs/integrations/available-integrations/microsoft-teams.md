@@ -28,7 +28,7 @@ Currently, there are two ways to configure an integration with Microsoft Teams.
 To add a team activity feed to Microsoft Teams:
 
 1. Click **Add Integration**.
-1. Give your integration a nickname and provide your notification URL.
+1. Give your integration a nickname and provide your incoming webhook URL to receive team updates in Microsoft Teams.
 
    <img alt="Import from github" src="https://assets.postman.com/postman-docs/add-team-activity-feed.jpg" width="350px"/>
 
