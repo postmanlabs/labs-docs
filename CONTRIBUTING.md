@@ -39,7 +39,7 @@ Your pull request will be reviewed and we'll get back to you!
 
 When your PR is opened it will run GitHub Actions which will lint the markdown files to ensure that they follow our [guidelines](https://github.com/DavidAnson/vscode-markdownlint).
 
-Upon approval your PR will be merged into develop for further verification and then merged into master upon final approval.
+Upon approval your PR will be merged into develop for further verification and then merged into master upon final approval. Please delete your branch once it's been merged to develop to help maintain a clean repository.
 
 [homepage]: https://learning.postman.com
 
