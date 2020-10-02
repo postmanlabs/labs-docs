@@ -68,7 +68,7 @@ You ___should___ choose centralized migration if the following conditions apply:
 You should ___not___ choose distributed migration if your organization relies on the following:
 
 * Postman-published documentation. URLs would need to be republished from your new team instance.
-* Mocks and monitors—you would need to be recreate these.
+* Mocks and monitors—you would need to recreate these.
 * Your team members have a lot of important content in their personal workspaces that must be transferred.
 
 See [using centralized migration](#using-centralized-migration) to choose this option.
