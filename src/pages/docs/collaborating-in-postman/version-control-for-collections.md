@@ -73,7 +73,7 @@ In the Postman app, select the collection in the __Collections__ sidebar and cli
 
 [![manage roles](https://assets.postman.com/postman-docs/manage-roles-merge.gif)](https://assets.postman.com/postman-docs/manage-roles-merge.gif)
 
-You need to have __Editor__ access on a collection to merge changes. If you have __Viewer__ access to a collection, you will see a warning icon while adding the reviewers during a pull request creation.
+You need to have __Editor__ access on a collection to merge changes. If you have __Viewer__ access to a collection, you will see a warning icon while adding the reviewers to a pull request.
 
 <img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/reviewer-permission.jpg" width="850px"/>
 
