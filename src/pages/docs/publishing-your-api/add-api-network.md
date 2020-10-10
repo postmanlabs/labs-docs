@@ -61,15 +61,15 @@ Select the categories that best describe your API and service. API consumers can
 
 When you publish to the API Network, your API will be listed as part of your team profile. If you don't already have a team profile, Postman will automatically generate one when you publish. You can customize your profile at any time before or after publishing your API.
 
-<img alt="Publish Profile" src="https://assets.postman.com/postman-docs/publish-profile.jpg" width="450px"/>
+// needs new updated "Publish as" screenshot //
 
-Use the __Public Profile Settings__ link or navigate to your [team profile settings](https://go.postman.co/settings/team/public) to enable or customize the details consumers will see when your API is published and visible in the network.
+Use the __Public Profile Settings__ link or navigate to your [team profile settings](https://go.postman.co/settings/team/general) to enable or customize the details consumers will see when your API is published and visible in the network.
 
-![Enable Profile](https://assets.postman.com/postman-docs/enable-profile.jpg)
+// needs new updated enable and disable screenshots. /
 
 Include a team name and description that will appear in your API Network listing. You can customize your profile URL, and add a logo and favicon in your [Settings](https://go.postman.co/settings/team/general).
 
-![Profile Detail](https://assets.postman.com/postman-docs/profile-details.jpg)
+// needs new profile settings screenshot //
 
 > If you receive an error when uploading your favicon, confirm that it is a .ico file and no larger than 500KB.
 
@@ -77,7 +77,7 @@ Include a team name and description that will appear in your API Network listing
 
 Once your team profile is set up any collection docs you publish will be associated with it. Click __Publish Collection__.
 
-![Publish Team](https://assets.postman.com/postman-docs/publish-as-team.jpg)
+// needs new updated publish as specified option //
 
 When people browse the API Network they will see your team profile listing, along with the APIs and templates you have published.
 
