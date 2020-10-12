@@ -65,7 +65,7 @@ Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-
 
 ## Pull request settings
 
-Pull request settings are available on Postman Business and Enterprise plans in the __Manage roles__ section of a collection.
+Pull request settings are available on Postman Business and Enterprise plans in the __Manage Roles__ section of a collection.
 
 <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles.jpg" width="250px"/>
 
@@ -83,11 +83,11 @@ Once you have created the pull request, you can assign merge checks before appro
 
 There are three different types of checks that you can enable for a pull request:
 
-* __Approved once__ : You need atleast one approval to merge the pull request.
+* __Approved once__ : You need at least one approval to merge the pull request.
 * __Approved by a collection editor__ : You require the approval of a collection editor to merge the pull request.
 * __Up to date with all changes to this collection__ : You cannot merge the pull request if a forked branch is behind the destination branch.
 
-> If you do not have editor access to the collection, the __Merge__ will be disabled.
+> If you do not have editor access to the collection, the option to __Merge__ will be disabled.
 
 <img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/merge-disabled.jpg" width="850px"/>
 
