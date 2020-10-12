@@ -51,7 +51,7 @@ Select __Add to Postman Templates__.
 
 Enter display details for your template listing, including __Template Name__, __Summary__, and __Description__. Your description will be automatically pulled from any [description you have added to your collection already](/docs/publishing-your-api/authoring-your-documentation/), and should include the information potential users will need to know whether to try the template or not.
 
-![Template Detail](https://assets.postman.com/postman-docs/template-publish-detail.jpg)
+//replace with new template details screenshot//
 
 Select any relevant categories for your template—users will be able to browse using categories in both the Postman app and [on the web](https://explore.postman.com).
 
@@ -61,19 +61,18 @@ Select any relevant categories for your template—users will be able to browse 
 
 You can choose to publish your templates under your personal Postman profile, or from a team profile.
 
-![Publish As](https://assets.postman.com/postman-docs/publish-as.jpg)
+//replace with new publish as screenshot showing all publish options on one page //
 
 > Templates published from a team will also appear in the API Network listing _Templates_ tab for the team.
 
-To set up your profile, click __Public Profile Settings__ or navigate to [your settings](https://go.postman.co/settings/me/public) in the web dashboard. Click __Enable Public Profile__ to allow your templates to be published.
+To set up your profile, click __Public Profile Settings__ or navigate to [your settings](https://go.postman.co/settings/me/) in the web dashboard. Click __Enable Public Profile__ to allow your templates to be published.
 
-![Enable Profile](https://assets.postman.com/postman-docs/enable-personal-profile.jpg)
-
+// replace with new enable public profile option //
 You can customize your profile URL and name, and add a description people will see alongside your templates. You can also set a profile photo from your [account settings](https://go.postman.co/settings/me).
 
 > Customizing your profile URL will change your username, and that change will be reflected across all of your Postman elements, such as collections and documentation. You will also sign in to Postman with the new username.
 
-![Personal Profile Settings](https://assets.postman.com/postman-docs/personal-profile-settings.jpg)
+// replace with personal profile preview with the pencil icon to change the profile visible.//
 
 > If you choose to disable your profile, you won't be able to publish any new templates, and any previously published will be unpublished.
 
@@ -81,21 +80,20 @@ You can customize your profile URL and name, and add a description people will s
 
 When your publish settings are complete, click __Publish Collection__. You will see a confirmation of your template listing and public profile.
 
-![Templates Published](https://assets.postman.com/postman-docs/templates-published.jpg)
+// replace with screenshot of new template published page //
 
 Your templates will be discoverable from inside Postman using __New__ &gt; __Templates__ and [on the web](https://explore.postman.com/templates).
 
 Your template listing will show the description and publisher details, plus links to the documentation and the __Run in Postman__ button people can use to import the collection and try the requests in Postman.
 
-![API Listing](https://assets.postman.com/postman-docs/api-listing-template.jpg)
+// replace with screenshot of new template ui //
 
 Your profile listing will be available both in Postman, and on the web, listing all of your published templates.
 
-[![user profile display](https://assets.postman.com/postman-docs/api-network/api-network-user-profile-display.png)](https://assets.postman.com/postman-docs/api-network/api-network-user-profile-display.png)
-
+//replace with new profile UI //
 Clicking the title of a template will open its listing in the web browser.
 
-![Template Listing](https://assets.postman.com/postman-docs/template-listing-personal.jpg)
+// replace with new template page //
 
 ## Next steps
 
