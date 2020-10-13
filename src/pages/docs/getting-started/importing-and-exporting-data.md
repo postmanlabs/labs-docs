@@ -106,7 +106,7 @@ You can import several API specification files at once. Select the workspace you
 
 When importing into a team workspace, you can also choose to add the APIs to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 
-[![Import several APIs](https://assets.postman.com/postman-docs/apidev19-+importapis.gif)](https://assets.postman.com/postman-docs/apidev19-+importapis.gif)
+[![Import several APIs](https://assets.postman.com/postman-docs/import-multiple-apis.gif)](https://assets.postman.com/postman-docs/import-multiple-apis.gif)
 
 ### Importing via GitHub repositories
 
