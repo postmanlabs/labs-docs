@@ -69,7 +69,7 @@ Use the __Public Profile Settings__ link or navigate to your [team profile setti
 
 Include a team name and description that will appear in your API Network listing. You can customize your profile URL, and add a logo and favicon in your [Settings](https://go.postman.co/settings/team/general).
 
-![Public Profile Settings](https://assets.postman.com/postman-docs/public-profile-settings.png)
+![Public Profile Settings](https://assets.postman.com/postman-docs/team-profile-settings.png)
 
 > If you receive an error when uploading your favicon, confirm that it is a square .ico file and no larger than 500KB.
 
