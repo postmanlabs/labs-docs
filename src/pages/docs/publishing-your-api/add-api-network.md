@@ -61,7 +61,6 @@ Select the categories that best describe your API and service. API consumers can
 
 When you publish to the API Network, your API will be listed as part of your team profile. If you don't already have a team profile, Postman will automatically generate one when you publish. You can customize your profile at any time before or after publishing your API.
 
-
 ![API Network Publish Settings](https://assets.postman.com/postman-docs/api-network-publish-collection-settings.png)
 
 Use the __Public Profile Settings__ link or navigate to your [team profile settings](https://go.postman.co/settings/team/general) to enable or customize the details consumers will see when your API is published and visible in the network.
@@ -77,7 +76,6 @@ Include a team name and description that will appear in your API Network listing
 ## Publishing to the network
 
 Once your team profile is set up any collection docs you publish will be associated with it. Click __Publish Collection__.
-
 
 ![Public Profile Settings](https://assets.postman.com/postman-docs/publish-as-settings.png)
 
