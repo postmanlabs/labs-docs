@@ -85,15 +85,11 @@ When your publish settings are complete, click __Publish Collection__. You will 
 
 Your templates will be discoverable from inside Postman using __New__ &gt; __Templates__ and [on the web](https://explore.postman.com/templates).
 
-Your template listing will show the description and publisher details, plus links to the documentation and the __Run in Postman__ button people can use to import the collection and try the requests in Postman.
-
-// replace with screenshot of new template ui //
-
-Your profile listing will be available both in Postman, and on the web, listing all of your published templates.
+Your profile listing will be available both in Postman and on the web, listing all of your published templates.
 
 ![Public User Profile](https://assets.postman.com/postman-docs/profile-page.png)
 
-Clicking the title of a template will open its full documentation page with its documentation and a Run in Postman button.
+Clicking the title of a template will open its full documentation page with its documentation and a __Run in Postman__ button people can use to import the collection and try the requests in Postman.
 
 ![Template Screen](https://assets.postman.com/postman-docs/template-screen.png)
 
