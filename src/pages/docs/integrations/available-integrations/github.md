@@ -95,6 +95,10 @@ To finish, click **Add Integration**.
 
 Enter your GitHub Personal Access Token, specify your GitHub custom domain and click **Proceed**. In Backup your Postman Collections, choose an existing Postman collection, specifying your GitHub repository, a filename for your backup, and your chosen branch name.
 
+> If your network is behind a firewall that requires preapproved IP addresses, you will need to use a static IP address to enable backups to Github on custom domains.
+
+// need instructions for public users //
+
 [![github integrations screen](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)
 
 Click **Add Integration**. Your collection is pushed to your GitHub project under the directory that you specified and saved as a single JSON file. This is illustrated in the following screen:
