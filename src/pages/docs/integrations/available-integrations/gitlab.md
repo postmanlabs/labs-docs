@@ -75,6 +75,10 @@ Your Collection is pushed to your GitLab project under the filename that you spe
 
 1. Enter your GitLab Personal Access Token, specify your Gitlab custom/self-hosted domain and click **Proceed**.
 
+> If your network is behind a firewall that requires preapproved IP addresses, you will need to use a static IP address to enable backups to GitLab on custom domains.
+
+// need instructions for public users //
+
 1. In the **Backup your Postman Collections** page, choose an existing Postman Collection and your GitLab Project, enter a filename for your backup.
 
 1. Click **Add Integration**.
