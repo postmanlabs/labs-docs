@@ -43,5 +43,5 @@ You can use static IP addresses to enable integrations that need to access hoste
 Postman supports implementing static IP addresses for the following integration services:
 
 - [Custom Webhooks](https://learning.postman.com/docs/integrations/webhooks/)
-- [GitHub Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/github/)
-- [GitLab Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/gitlab/)
+- [GitHub Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/github/#backup-collections-to-github-on-custom-domain)
+- [GitLab Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/gitlab/#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
