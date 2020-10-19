@@ -67,13 +67,13 @@ You can choose to publish your templates under your personal Postman profile, or
 
 To set up your profile, click __Public Profile Settings__ or navigate to [your settings](https://go.postman.co/settings/me/) in the web dashboard. Click __Enable Public Profile__ to allow your templates to be published.
 
-![Public Team Profile Settings](https://assets.postman.com/postman-docs/team-profile-settings.png)
+![Enable Profile](https://assets.postman.com/postman-docs/enable-public-personal-profile.png)
 
-You can customize your profile URL and name, and add a description people will see alongside your templates. You can also set a profile photo from your [account settings](https://go.postman.co/settings/me).
+You can customize your profile URL and name, add a description people will see alongside your templates, links to your social media and website. You can also set a profile photo from your [account settings](https://go.postman.co/settings/me).
 
 > Customizing your profile URL will change your username, and that change will be reflected across all of your Postman elements, such as collections and documentation. You will also sign in to Postman with the new username.
 
-![Public Team Profile Settings](https://assets.postman.com/postman-docs/profile-page-settings.png)
+![Personal Profile Settings](https://assets.postman.com/postman-docs/user-profile-settings.png)
 
 > If you choose to disable your profile, you won't be able to publish any new templates, and any previously published will be unpublished.
 
