@@ -71,13 +71,12 @@ Your Collection is pushed to your GitLab project under the filename that you spe
 
 1. Click the **Add Integration** button to enter your Gitlab token to start the integration.
 
+> If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable backups to GitLab on custom domains.
+You will need to whitelist the static IP `3.212.102.200` in your firewall to enable data backup integrations. All Postman network calls to your domain will come from this IP address. Whitelisting this IP address will allow the integrations work as expected.
+
    [![gitlab add](https://assets.postman.com/postman-docs/GitLab_Custom_Add1.png)](https://assets.postman.com/postman-docs/GitLab_Custom_Add1.png)
 
 1. Enter your GitLab Personal Access Token, specify your Gitlab custom/self-hosted domain and click **Proceed**.
-
-> If your network is behind a firewall that requires preapproved IP addresses, you will need to use a static IP address to enable backups to GitLab on custom domains.
-
-// need instructions for public users //
 
 1. In the **Backup your Postman Collections** page, choose an existing Postman Collection and your GitLab Project, enter a filename for your backup.
 
