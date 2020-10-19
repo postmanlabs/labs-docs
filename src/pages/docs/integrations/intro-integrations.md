@@ -38,7 +38,7 @@ Select __Browse Integrations__. Click __View Details__ to see an overview of an 
 
 ## Static IP Support for Integrations
 
-You can use static IP addresses to enable integrations that need to access hosted (private) networks behind firewalls that require preapproved IP addresses.
+You can use static IP addresses to enable integrations that need to access hosted (private) networks behind firewalls that require whitelisted IP addresses. You will need to whitelist the static IP `3.212.102.200` in your firewall to enable data backup integrations. All Postman network calls to your domain will come from this IP address. Whitelisting this IP address will allow the integrations work as expected.
 
 Postman supports implementing static IP addresses for the following integration services:
 
