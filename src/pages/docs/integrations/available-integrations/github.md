@@ -95,9 +95,8 @@ To finish, click **Add Integration**.
 
 Enter your GitHub Personal Access Token, specify your GitHub custom domain and click **Proceed**. In Backup your Postman Collections, choose an existing Postman collection, specifying your GitHub repository, a filename for your backup, and your chosen branch name.
 
-> If your network is behind a firewall that requires preapproved IP addresses, you will need to use a static IP address to enable backups to Github on custom domains.
-
-// need instructions for public users //
+> If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable backups to Github on custom domains.
+You will need to whitelist the static IP `3.212.102.200` in your firewall to enable data backup integrations. All Postman network calls to your domain will come from this IP address. Whitelisting this IP address will allow the integrations work as expected.
 
 [![github integrations screen](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)
 
