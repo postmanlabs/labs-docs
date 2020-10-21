@@ -8,7 +8,6 @@
 import React from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
-import CookieAlert from './CookieAlert';
 import marketo from '../../scripts/marketo.munchkin';
 import './layout.scss';
 import HelloBar from './Hellobar';
@@ -77,7 +76,6 @@ class Layout extends React.Component {
           <Header />
           <main>{children}</main>
           <Footer />
-          <CookieAlert />
           {marketo()}
         </div>
       </>
