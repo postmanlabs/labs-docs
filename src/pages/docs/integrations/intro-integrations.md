@@ -36,18 +36,6 @@ You can access integrations by navigating to your workspace in the [web dashbo
 
 Select __Browse Integrations__. Click __View Details__ to see an overview of an integration then add it to your workspace.
 
-## Static IP Support for Integrations
-
-You can use static IP addresses to enable integrations that need to access hosted (private) networks behind firewalls that require whitelisted IP addresses.
-
-If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to integrations on custom domains.
-
-Contact your IT team to whitelist the following static IP in your firewall to enable collection backup integrations:
-
-US East: `3.212.102.200`
-
-All calls for each integration will come from this IP address. Whitelisting this IP address will allow the integrations work as expected.
-
 ## Static IP Support
 
 You can use static IP addresses to enable integrations and custom webhooks for Postman collections backups that need to access hosted (private) networks behind firewalls that require whitelisted IP addresses.
