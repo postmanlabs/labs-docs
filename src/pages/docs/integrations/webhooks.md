@@ -36,16 +36,16 @@ You can use custom webhooks to back up your Postman collections. This will requi
    * Enter any name
    * Select the collection.
    * Enter the webhook URL.
-   
-   **Static IP Support**
 
-   If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to custom webhooks on custom domains.
+### Static IP Support
 
-   Contact your IT team to whitelist the following  static IP in your firewall to enable collection backup integrations:
+  If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to custom webhooks on custom domains.
+
+  Contact your IT team to whitelist the following  static IP in your firewall to enable collection backup integrations:
 
     * US East: `3.212.102.200`
 
-    Once you whitelist this IP address, calls for this webhook will be able to connect to your network and allow the webhook to work as expected.
+  Once you whitelist this IP address, calls for this webhook will be able to connect to your network and allow the webhook to work as expected.
 
 3. Click **Add Integration**.
 
