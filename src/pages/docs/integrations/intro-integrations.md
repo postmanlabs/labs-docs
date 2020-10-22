@@ -48,7 +48,17 @@ US East: `3.212.102.200`
 
 All calls for each integration will come from this IP address. Whitelisting this IP address will allow the integrations work as expected.
 
-Postman supports implementing static IP addresses for the following integration services:
+## Static IP Support
+
+You can use static IP addresses to enable integrations and custom webhooks for Postman collections backups that need to access hosted (private) networks behind firewalls that require whitelisted IP addresses.
+
+Contact your IT team to whitelist the following static IP in your firewall to enable collection backup integrations and webhooks:
+
+* US East: `3.212.102.200`
+
+Once you whitelist this IP address, calls for the integrations and webhooks will be able to connect to your network and allow the integrations and webhooks to work as expected.
+
+Postman supports implementing static IP addresses for the following integrations and webhooks:
 
 - [Custom Webhooks](https://learning.postman.com/docs/integrations/webhooks/)
 - [GitHub Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/github/#backup-collections-to-github-on-custom-domain)
