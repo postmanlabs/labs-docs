@@ -75,7 +75,7 @@ Your Collection is pushed to your GitLab project under the filename that you spe
 
   Contact your IT team to whitelist the following static IP in your firewall to enable collection backup integrations:
 
-  * US East: `3.212.102.200`
+    * US East: `3.212.102.200`
 
   Once you whitelist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
 
