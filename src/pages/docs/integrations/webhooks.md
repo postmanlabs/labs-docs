@@ -23,7 +23,7 @@ If your network is behind a firewall that requires whitelisted IP addresses, you
 
 Contact your IT team to whitelist the following static IP in your firewall to enable collection backup integrations:
 
-  * US East: `3.212.102.200`
+* US East: `3.212.102.200`
 
 Once you whitelist this IP address, calls for the custom will be able to connect to your network and allow the webhook to work as expected.
 
