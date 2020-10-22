@@ -97,13 +97,13 @@ Enter your GitHub Personal Access Token, specify your GitHub custom domain and c
 
 #### Static IP Support
 
-  If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to GitHub on custom domains.
+If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to GitHub on custom domains.
 
-  Contact your IT team to whitelist the following static IP in your firewall to enable collection backup integrations:
+Contact your IT team to whitelist the following static IP in your firewall to enable collection backup integrations:
 
-  * US East: `3.212.102.200`
+    * US East: `3.212.102.200`
 
-  Once you whitelist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
+Once you whitelist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
 
 [![github integrations screen](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)
 
