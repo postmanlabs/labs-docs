@@ -38,7 +38,7 @@ Select __Browse Integrations__. Click __View Details__ to see an overview of an 
 
 ## Static IP Support
 
-You can use static IP addresses to enable integrations and custom webhooks for Postman collections backups that need to access hosted (private) networks behind firewalls that require whitelisted IP addresses.
+You can use static IP addresses to enable integrations and custom webhooks for Postman Collection backups that need to access hosted (private) networks behind firewalls that require whitelisted IP addresses.
 
 Contact your IT team to whitelist the following static IP in your firewall to enable collection backup integrations and webhooks:
 
