@@ -99,7 +99,7 @@ Enter your GitHub Personal Access Token, specify your GitHub custom domain and c
 
 If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to GitHub on custom domains.
 
-Contact your IT team to whitelist the following static IP in your firewall to enable collection backup integrations:
+Contact your IT team to whitelist the following static IP in your firewall to enable collection backups to GitHub:
 
     * US East: `3.212.102.200`
 
