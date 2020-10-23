@@ -25,7 +25,6 @@ If you don’t already have a Personal Access Token from GitLab, [generate a new
 
 Save the generated token to use later.
 
-
 <img style='border:1px solid #4a4a4a' src="https://assets.postman.com/postman-docs/gitlab_create.png" alt="gitlab create token">
 
 <img style='border:1px solid #4a4a4a' src="https://assets.postman.com/postman-docs/gitlab_token2.png" alt="gitlab token">
