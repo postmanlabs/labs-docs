@@ -1,6 +1,6 @@
 {
   "columns": [
-    {"name": "Product",
+    {"name": "Overview",
       "children": [
         { "url": "https://www.postman.com/api-platform/", "name": "API Platform"},
         { "url": "https://www.postman.com/product/api-client", "name": "API Client"},
@@ -15,54 +15,45 @@
       ]
     },
 
-    {"name": "Resources",
+    {"name": "Get Postman",
       "children": [
-        { "url": "https://www.postman.com/downloads/", "name": "Download the App"},
-        { "url": "https://www.postman.com/downloads/release-notes", "name": "Release Notes"},
-        { "url": "https://www.postman.com/integrations/", "name": "Integrations"},
-        { "url": "https://documenter.getpostman.com/view/631643/JsLs/?version=latest", "name": "Postman API"},
-        { "url": "https://github.com/postmanlabs", "name": "Open-Source"},
-        { "url": "https://status.postman.com/", "name": "System Status"},
-        { "url": "https://www.postman.com/resources/case-studies/", "name": "Case Studies"},
-        { "url": "https://www.postman.com/webinars/", "name": "Webinars" }
+        { "url": "https://www.postman.com/downloads/", "name": "Download App"},
+        { "url": "https://www.postman.com/company/contact-us/", "name": "Contact Sales"}
       ]
     },
 
-    {"name": "Use Cases",
+    {"name": "Resources",
       "children": [
-        { "url": "https://postman.com/use-cases/", "name": "Overview"},
-        { "url": "https://postman.com/use-cases/api-development", "name": "Development"},
-        { "url": "https://www.postman.com/use-cases/api-testing", "name": "Testing"},
-        { "url": "https://www.postman.com/use-cases/product-management", "name": "Product Management"}
+        { "url": "https://learning.postman.com", "name": "Docs"},
+        { "url": "https://blog.postman.com", "name": "Blog"},
+        { "url": "https://www.postman.com/community", "name": "Community"},
+        { "url": "https://www.postman.com/webinars/", "name": "Webinars"}
       ]
     },
 
     {"name": "Pricing",
       "children": [
-        { "url": "https://www.postman.com/pricing", "name": "Overview"},
+        { "url": "https://www.postman.com/pricing", "name": "Plans & Pricing Overview"},
         { "url": "https://www.postman.com/postman-enterprise", "name": "Postman Enterprise"}
       ]
     },
 
     {"name": "Support",
       "children": [
-        { "url": "https://www.postman.com/support", "name": "Support"},
-        { "url": "https://pages.postman.com/Resellers-Support.html", "name": "Resellers Support"},
-        { "url": "https://learning.postman.com/", "name": "Learning Center"},
-        { "url": "https://www.postman.com/community", "name": "Community Content"},
-        { "url": "https://community.postman.com/", "name": "Postman Community"}
+        { "url": "https://www.postman.com/support", "name": "Support Center"},
+        { "url": "https://pages.postman.com/Resellers-Support.html", "name": "Resellers Support"}
       ]
     },
 
     {"name": "Company",
       "children": [
         { "url": "https://www.postman.com/about-postman", "name": "About"},
-        { "url": "https://www.postman.com/careers/", "name": "Careers", "span": "We're Hiring!"},
-        { "url": "https://www.postman.com/contact", "name": "Contact"},
-        { "url": "https://blog.postman.com/", "name": "Blog"},
-        { "url": "https://www.postman.com/resources/press-releases/", "name": "Press Releases"},
-        { "url": "https://store.postman.com/", "name": "Swag Shop"},
-        { "url": "https://www.postman.com/galaxy-2020/", "name": "Galaxy Tour 2020" }
+        { "url": "https://www.postman.com/company/careers/", "name": "Careers", "span": "We're Hiring!"},
+        { "url": "https://www.postman.com/contact-us/", "name": "Contact us"},
+        { "url": "https://blog.postman.com/press-media/", "name": "Press & Media"},
+        { "url": "https://www.postman.com/company/nonprofit/", "name": "Postman for Nonprofits"},
+        { "url": "https://www.postman.com/company/student-program/", "name": "Student Program"},
+        { "url": "https://store.getpostman.com/", "name": "Swag Shop" }
       ]
     }
   ],
@@ -70,21 +61,28 @@
     {
       "type": "notice",
       "text": "© Postman, Inc. All rights reserved"
+    }
+  ],
+  "items": [
+    {
+      "type": "link",
+      "url": "https://www.postman.com/postman-galaxy/",
+      "name": "Postman Galaxy"
     },
     {
       "type": "link",
-      "url": "https://getpostman.com/security",
-      "name": "Security"
-    },
-    {
-      "type": "link",
-      "url": "https://www.getpostman.com/licenses/privacy",
+      "url": "https://www.postman.com/legal/privacy-policy",
       "name": "Privacy"
     },
     {
       "type": "link",
-      "url": "https://www.getpostman.com/licenses/postman_eula",
-      "name": "EULA"
+      "url": "https://www.postman.com/legal/eula/",
+      "name": "Terms"
+    },
+    {
+      "type": "link",
+      "url": "https://www.postman.com/support/",
+      "name": "Support"
     }
   ]
 }
