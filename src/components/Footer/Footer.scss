@@ -14,11 +14,13 @@
     padding: 0px 15px;
     
     a.span {
-      color: $footer-color !important;
-      font-weight: 600;
+      // color: $footer-color !important;
+      color:#ffffff !important;
+      font-weight: 700;
       font-style: italic;
       &:hover {
-        color: $bright-orange !important;
+        // color: $bright-orange !important;
+        text-decoration: underline;
       }
     }
    
@@ -28,7 +30,8 @@
       // padding: 0px 0px 16px;
       margin-bottom: 16px;
       font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
-      font-weight: 700;
+      // font-weight: 700;
+      text-transform: uppercase;
     }
 
     .footer-column__list {
@@ -39,14 +42,15 @@
       font-size: 14px;
 
       .footer-column__link {
-        color: white;
+        color: #ffffff;
         font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
         padding: 8px 8px 8px 0px;
         text-transform: capitalize;
 
         &:hover {
-          color: $bright-orange;
-          border-bottom: 1px solid;
+          text-decoration: underline;
+          // color: $bright-orange;
+          // border-bottom: 1px solid;
         }
       }
     }
