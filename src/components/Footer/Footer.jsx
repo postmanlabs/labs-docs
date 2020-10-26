@@ -68,22 +68,38 @@ class FooterComponent extends React.Component {
 
   return (
   <footer className="footer">
-    <div className="container">
+    <div className="container-fluid">
       <div className="row justify-content-center no-gutters">
-        <div className="col-6 d-md-flex col-md-12 col-lg-6 justify-content-between">
+        <div className="col-xs-6 d-md-flex">
           <FooterColumn1 data={data} />
           </div>
-          <div className="col-6 d-md-flex col-md-12 col-lg-6 justify-content-between">
+          <div className="col-xs-6 d-md-flex no-gutters">
           <FooterColumn2 data={data} />
         </div>
       </div>
 
-      <div className="row justify-content-center">
-        <div className="col-12">
-          <section
-            id="footer__copyright"
-            className="column__horizontal text-center"
-          >
+      <div class="row mt-2 justify-content-center items_border">
+				<div class="col-sm-12 d-sm-flex mb-4 justify-content-center text-center">
+					<div class="mr-3 pr-sm-3 pl-sm-2 items_line">
+						<a href="https://www.postman.com/postman-galaxy" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Postman Galaxy</span></a>
+					</div>
+					<div class="mr-3 pr-sm-3 pl-sm-2 items_line">
+						<a href="https://www.postman.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Privacy Policy</span></a>
+					</div>
+					<div class="mr-3 pr-sm-3 pl-sm-2 items_noline">
+						<a href="https://www.postman.com/legal/eula/" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Terms</span></a>
+					</div>
+					<div class="mr-3 pr-sm-3 pl-sm-2 items_noline">
+						<a href="https://www.postman.com/company/careers/" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Careers</span></a>
+					</div>
+					<div class="mr-3 pr-sm-3 pl-sm-2 items_noline">
+						<a href="https://www.postman.com/security" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Support</span></a>
+					</div>
+				</div>
+			</div>
+
+      {/* <div className="row justify-content-center mt-2">
+        <div className="col-sm-12 d-md-flex justify-content-center">
             <ul className="column__links list-inline"
                 aria-labelledby="company-list"
             >
@@ -123,9 +139,8 @@ class FooterComponent extends React.Component {
                   >Support</a>
               </li>
             </ul>
-          </section>
         </div>
-      </div>
+      </div> */}
 
      {/* line */}
       <div className="row">

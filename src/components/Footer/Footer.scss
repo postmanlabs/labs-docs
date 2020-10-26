@@ -1,10 +1,13 @@
 @import '../Shared/_variables.scss';
 
+
 .footer {
   background-color: $deep-space-blue;
   color: white;
   list-style-type: none;
-  padding: 80px 40px;
+  padding: 80px 0px;
+
+
 
   .footer-column {
     margin: 0px 0px 8px;
@@ -48,6 +51,41 @@
       }
     }
   }
+
+  .footer-column__link{
+    font-size: 16px; 
+  }
+
+  .footer-column__link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  } 
+
+.items_border {
+  a { color: #ffffff;
+  }
+}
+.items_line {
+  border-right: 1px solid #ffffff;
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.items_noline {
+  border-right: 1px solid #ffffff;
+}
+
+.items_noline:last-child {
+  border-right: none;
+}
+
+@media screen and (max-width: 575px) {
+  .items_line,
+  .items_noline {
+    border-right: none;
+  }
+}
 
   // center in mobile view
   #footer__social, 
