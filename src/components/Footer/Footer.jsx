@@ -49,6 +49,29 @@ const FooterColumn2 = (data) => {
     })
   );
 };
+const FooterColumn3 = (data) => {
+  console.log(data);
+  return (
+    data.data.columns.slice(3, 6).map((col) => {
+      const title = <h5 className="footer-column__title">{col.name}</h5>;
+      const links = col.children.map((link) => (
+        <li key={link.name}>
+          <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
+          <span><a className="span" href="https://www.postman.com/careers/">{link.span}</a></span>
+        </li>
+      ));
+
+      return (
+        <div className="pb-3" key={col.name}>
+          {title}
+          <ul>
+            {links}
+          </ul>
+        </div>
+      );
+    })
+  );
+};
 
 
 
@@ -67,7 +90,23 @@ class FooterComponent extends React.Component {
 
 
   return (
-  <footer className="footer">
+  <section className="footer">
+
+    <div className="container">
+      <div className="row justify-content-center text-center">
+
+        <div className="col-6 col-md-12 d-md-flex justify-content-between">
+          <FooterColumn3 data={data} /> 
+        </div>
+        <div className="col-6 col-md-12 d-md-flex justify-content-between">
+          <FooterColumn3 data={data} /> 
+        </div>
+      </div>
+    </div>
+
+<hr></hr>
+
+
     <div className="container-fluid">
       <div className="row justify-content-center no-gutters">
         <div className="col-xs-6 d-md-flex">
@@ -303,7 +342,7 @@ class FooterComponent extends React.Component {
     </div>
 
   </div> {/* close container */}
-</footer>
+</section>
 );
 }
 }
