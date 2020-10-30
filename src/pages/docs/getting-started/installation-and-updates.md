@@ -21,6 +21,9 @@ contextual_links:
   - type: link
     name: "First 5 things to try if you're new to Postman"
     url: "https://blog.postman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/"
+  - type: link
+    name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
+    url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -109,13 +112,13 @@ Categories=Development;
 
 ## Using Postman on the web
 
-You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/build](https://go.postman.co/build) in your browser. You will be prompted to download and install the agent so that you can make requests from the web.
+You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/build](https://go.postman.co/build) in your browser. If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [this Downloads page](https://www.postman.com/downloads/).
 
 <img alt="Postman Agent" src="https://assets.postman.com/postman-docs/download-agent.jpg" width="500px"/>
 
-Once you have the agent installed you will be able to use it with web requests.
+The Postman agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers, and facilitates API request sending from your browser version of Postman. Once you have the agent installed you will be able to use it with web requests.
 
-> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area which you can click to switch to the agent and try your request again.
+> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area which you can click to switch to the agent and try your request again. Read [more about the agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/).
 
 ### Web limitations
 
