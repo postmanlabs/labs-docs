@@ -56,7 +56,7 @@
 
     {"name": "Company",
       "children": [
-        { "url": "https://www.postman.com/about-postman", "name": "About"},
+        { "url": "https://www.postman.com/company/about-postman/", "name": "About"},
         { "url": "https://www.postman.com/careers/", "name": "Careers", "span": "We're Hiring!"},
         { "url": "https://www.postman.com/contact", "name": "Contact"},
         { "url": "https://blog.postman.com/", "name": "Blog"},
