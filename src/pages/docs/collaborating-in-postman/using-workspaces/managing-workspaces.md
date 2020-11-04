@@ -43,15 +43,15 @@ You can [create workspaces](/docs/collaborating-in-postman/using-workspaces/crea
 
 ## Accessing workspaces
 
-To see your workspace details, from the Postman app workspace selector, hover over a workspace, click **...**, and select **View Details**.
+You can access personal, team, and private workspaces using the workspace selector at the top of the Postman app.
+
+To view and edit your workspace details (e.g. name, description), navigate to the workspace selector and hover over a workspace. Then, click **...** and select **View Details**.
 
 [![view details app](https://assets.postman.com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)](https://assets.postman.com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)
 
-You can also view the details and manage your workspaces from the [Workspaces dashboard](https://app.getpostman.com/dashboard).
+You can access Public workspaces from the [**Workspaces** category in the API Network](https://explore.postman.com/workspaces).
 
-[![Delete workspace menu](https://assets.postman.com/postman-docs/delete-workspace-menu.jpg)](https://assets.postman.com/postman-docs/delete-workspace-menu.jpg)
-
-You can also edit the workspace details including renaming it and editing its description from here.
+[![Access Public Workspaces](https://assets.postman.com/postman-docs/access_public_workspaces.gif)](https://assets.postman.com/postman-docs/access_public_workspaces.gif)
 
 ## Sharing workspaces
 
@@ -68,6 +68,8 @@ Add email addresses for the collaborators you want to invite to the workspace. S
 ![Send invitations](https://assets.postman.com/postman-docs/send-workspace-invitations.jpg)
 
 When your collaborators accept the invite from the notification they receive, they will be able to access the workspace.
+
+You can share a Public workspace by sharing its URL directly.
 
 ## Joining workspaces
 
