@@ -19,6 +19,8 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 ## Create a Microsoft Teams webhook URL
 
+> Note that certain permissions are required by Microsoft Teams in order to [add a connector to a channel](https://docs.microsoft.com/en-us/microsoftteams/office-365-custom-connectors).
+
 Log in to your Microsoft Teams account. Create a new channel, or go to an already existing channel, where you want to set up this integration.
 
 [![select channel](https://assets.postman.com/postman-docs/59031183.png)](https://assets.postman.com/postman-docs/59031183.png)
@@ -45,7 +47,7 @@ This will generate a webhook URL which can then be used to post messages to this
 
 [![select ms_teams integration](https://assets.postman.com/postman-docs/WS-integrations-msTeam.png)](https://assets.postman.com/postman-docs/WS-integrations-msTeam.png)
 
-## Add a team activity feed to Microsoft Teams
+### Add a team activity feed to Microsoft Teams
 
 To add a team activity feed to Microsoft Teams:
 
@@ -58,7 +60,7 @@ To add a team activity feed to Microsoft Teams:
 
    [![ms_teams configInt](https://assets.postman.com/postman-docs/WS-integration-msTeams-confIntegration.png)](https://assets.postman.com/postman-docs/WS-integration-msTeams-confIntegration.png)
 
-## Send monitor run results in Microsoft Teams
+### Send monitor run results in Microsoft Teams
 
 To send monitor run results to Microsoft Teams:
 
