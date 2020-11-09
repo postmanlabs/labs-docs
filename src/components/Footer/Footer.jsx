@@ -15,7 +15,7 @@ const FooterColumn1 = (data) => {
       ));
 
       return (
-        <div className="footer-column col-xs-12 col-md-4 pb-3" key={col.name}>
+        <div className="footer-column col-12 col-lg-4 pb-3" key={col.name}>
           {title}
           <ul className="footer-column__list">
             {links}
@@ -39,7 +39,7 @@ const FooterColumn2 = (data) => {
       ));
 
       return (
-        <div className="footer-column col-xs-12 col-md-4 pb-3" key={col.name}>
+        <div className="footer-column col-12 col-lg-4 pb-3" key={col.name}>
           {title}
           <ul className="footer-column__list">
             {links}
@@ -49,6 +49,7 @@ const FooterColumn2 = (data) => {
     })
   );
 };
+
 
 
 
@@ -67,17 +68,25 @@ class FooterComponent extends React.Component {
 
 
   return (
-  <footer className="footer">
+  <section className="footer">
+
     <div className="container-fluid">
-      <div className="row justify-content-center no-gutters">
-        <div className="col-xs-6 d-md-flex">
-          <FooterColumn1 data={data} />
+      <div className="row footer-top">
+        <div className="col-6">
+          <div className="row">
+            <FooterColumn1 data={data} />
+            </div>
           </div>
-          <div className="col-xs-6 d-md-flex no-gutters">
+          <div className="col-6">
+            <div className="row">
           <FooterColumn2 data={data} />
+          </div>
         </div>
       </div>
 
+
+
+      {/* ITEMS */}
       <div class="row mt-2 justify-content-center items_border">
 				<div class="col-sm-12 d-sm-flex mb-4 justify-content-center text-center">
 					<div class="mr-3 pr-sm-3 pl-sm-2 items_line">
@@ -143,7 +152,7 @@ class FooterComponent extends React.Component {
       </div> */}
 
      {/* line */}
-      <div className="row">
+      <div className="row footer__line-wrapper">
         <div className="col-12 footer__line"></div>
       </div>
 
@@ -303,7 +312,7 @@ class FooterComponent extends React.Component {
     </div>
 
   </div> {/* close container */}
-</footer>
+</section>
 );
 }
 }
