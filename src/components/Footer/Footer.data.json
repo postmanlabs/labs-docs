@@ -47,15 +47,6 @@
 
     {"name": "Company",
       "children": [
-<<<<<<< HEAD
-        { "url": "https://www.postman.com/about-postman", "name": "About"},
-        { "url": "https://www.postman.com/company/careers/", "name": "Careers", "span": "We're Hiring!"},
-        { "url": "https://www.postman.com/contact-us/", "name": "Contact us"},
-        { "url": "https://blog.postman.com/press-media/", "name": "Press & Media"},
-        { "url": "https://www.postman.com/company/nonprofit/", "name": "Postman for Nonprofits"},
-        { "url": "https://www.postman.com/company/student-program/", "name": "Student Program"},
-        { "url": "https://store.getpostman.com/", "name": "Swag Shop" }
-=======
         { "url": "https://www.postman.com/company/about-postman/", "name": "About"},
         { "url": "https://www.postman.com/careers/", "name": "Careers", "span": "We're Hiring!"},
         { "url": "https://www.postman.com/contact", "name": "Contact"},
@@ -63,7 +54,6 @@
         { "url": "https://www.postman.com/resources/press-releases/", "name": "Press Releases"},
         { "url": "https://store.postman.com/", "name": "Swag Shop"},
         { "url": "https://www.postman.com/galaxy-2020/", "name": "Galaxy Tour 2020" }
->>>>>>> 4c6e6b9b5bfbeef461f3a8fdf7f0b7707514118f
       ]
     }
   ],
