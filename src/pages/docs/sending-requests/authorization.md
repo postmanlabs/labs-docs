@@ -255,17 +255,17 @@ An example OAuth 2.0 flow could run as follows:
 
 In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify whether you want pass the auth details in the request URL or headers.
 
-![OAuth 2.0](https://assets.postman.com/postman-docs/oauth2-prefix-option.jpg)
-
 > By default Postman will append the access token to `Bearer` in the Authorization header for your request, but if your server implementation requires a different prefix, you can specify it in the __Header Prefix__ field.
 
-To request an access token, click __Get New Access Token__.
+To request an access token, fill out the fields in the __Configure New Token__ section, and click __Get New Access Token__. You can save both the token and the details to generate a token with your request or collection.
 
-> Once your request has a token value, it will appear in the request __Headers__.
+![OAuth 2.0](https://assets.postman.com/postman-docs/oauth-share.jpg)
 
-![Get Access Token](https://assets.postman.com/postman-docs/get-new-access-token-fields.jpg)
+> Once you have a token value generated and added, it will appear in the request __Headers__.
 
 Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman in order to test authenticated requests.
+
+> You can share token credentials with your team by clicking the sync button next to an available token. By default Postman will not sync your token in case you do not want to share it.
 
 Postman will prompt you to supply specific details depending on the OAuth 2.0 __grant__ type, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
 
