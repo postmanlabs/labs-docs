@@ -69,6 +69,36 @@ You can also create a new workspace in the [Workspaces dashboard](https://app.ge
 
 [![create new workspace dashboard](https://assets.postman.com/postman-docs/createnewworkspacedashboard.png)](https://assets.postman.com/postman-docs/createnewworkspacedashboard.png)
 
+## Creating a public workspace
+
+Public workspaces enables you to browse and collaborate on all entities with anyone across the globe. Before you create a public workspace, navigate to team profile settings and enable the team profile public option. This will ensure your team's profile will show up on the Public API Network.
+
+[![Enable team profile](https://assets.postman.com/postman-docs/enable-team-profile.jpg)](https://assets.postman.com/postman-docs/enable-team-profile.jpg)
+
+Let's quickly take a look at the overview section for a team workspace.
+
+[![Overview team workspace](https://assets.postman.com/postman-docs/overview-team-workspace.jpg)](https://assets.postman.com/postman-docs/overview-team-workspace.jpg)
+
+To create a public workspace, select the team workspace and change the team's visibility dropdown to __Public__ and click __Save Changes__.
+
+[![Visibility](https://assets.postman.com/postman-docs/visibility-options.jpg)](https://assets.postman.com/postman-docs/visibility-options.jpg)
+
+Once you've saved the changes, you will be receive an in-app notification - "__You've changed the workspace's visibility to Public.__"
+
+[![In app notification](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)
+
+Once you make a workspace public, all entities within that workspace become public through the workspace. You need to be a workspace admin to change the visibility of a workspace to __Public__. Also, you cannot convert a private workspace to public, but you can change a private workspace into regular team workspace and then make it public. Within a team, you cannot have two public workspaces with the same name.
+
+Being an admin, you have the permission to add/remove any member from the workspace. To add members to a public workspace, navigate to the __Members__ section, enter an email address, click __Add__ to the team and click __Save__.
+
+[![Add member](https://assets.postman.com/postman-docs/add-team-member.jpg)](https://assets.postman.com/postman-docs/add-team-member.jpg)
+
+You can leave a public workspace by clicking __...__ on the right corner of the workspace overview and select __Leave workspace__. Click __Leave__ from the dialog box.
+
+[![Leave workspace](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)
+
+In the similar way, you can delete a public workspace by clicking __...__ on the right corner of the workspace overview and select __Delete workspace__. If you do not have the permissions, this option will be greyed out.
+
 ## Next steps
 
 Check out some tips on how to [use and manage your workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/). You can also use your workspace [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/) to keep up to date with progress on the projects within it.
