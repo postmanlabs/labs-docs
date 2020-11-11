@@ -49,15 +49,19 @@ Workspaces can also create visibility for the projects within a team, since coll
 
 ## Creating a new workspace
 
-To create a new workspace, select the workspace dropdown menu at the top and center of Postman, and choose **Create New**.
+To create a new workspace, select the workspace dropdown menu at the left of Postman, and click **New Workspace**.
 
-<img alt="Default Workspace" src="https://assets.postman.com/postman-docs/default-workspace-dropdown.jpg" width="500px"/>
+<img alt="Default Workspace" src="https://assets.postman.com/postman-docs/default-workspace-dropdown.jpg" width="300px"/>
 
-Use the switch to choose a __Team__ or __Personal__ workspace. Note that you can share elements to a different workspace at a later date if you aren't sure which type to create.
+Use the visibility dropdown to choose a __Team__, __Private__ or __Personal__ workspace. Note that you can share elements to a different workspace at a later date if you aren't sure which type to create.
 
-To create a personal workspace, enter the workspace enter the name and summary. For a team workspace, you can also invite collaborators and set access levels depending on your Postman plan and account permissions.
+To create a personal workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Personal__.
 
-[![New workspace](https://assets.postman.com/postman-docs/new-team-workspace-details.jpg)](https://assets.postman.com/postman-docs/new-team-workspace-details.jpg)
+<img alt="Personal Workspace" src="https://assets.postman.com/postman-docs/create-personal-workspace.jpg" width="500px"/>
+
+ To create a team workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Team__. Add email addresses for the collaborators you want to invite to the workspace, select access levels for the workspace.
+
+[![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace.jpg)](https://assets.postman.com/postman-docs/create-team-workspace.jpg)
 
 If you are an Admin user and add any email addresses not associated with current team members, they will be invited to join the team.
 
@@ -65,39 +69,45 @@ If you are an Admin user and add any email addresses not associated with current
 
 Click **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button at the top at any time.
 
-You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Click **Create a new workspace** and follow the same steps.
+To create a new workspace, you can click the __New__ button above the navigation bar and follow the same steps.
 
-[![create new workspace dashboard](https://assets.postman.com/postman-docs/createnewworkspacedashboard.png)](https://assets.postman.com/postman-docs/createnewworkspacedashboard.png)
+[![Create workspace new button](https://assets.postman.com/postman-docs/create-workspace-new-button.jpg)](https://assets.postman.com/postman-docs/create-workspace-new-button.jpg)
+
+You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Click **Create New** and follow the same steps.
+
+[![Create new workspace dashboard](https://assets.postman.com/postman-docs/create-new-workspace-dashboard.jpg)](https://assets.postman.com/postman-docs/create-new-workspace-dashboard.jpg)
 
 ## Creating a public workspace
 
-Public workspaces enables you to browse and collaborate on all entities with anyone across the globe. Before you create a public workspace, navigate to team profile settings and enable the team profile public option. This will ensure your team's profile will show up on the Public API Network.
+Public workspaces enables you to browse and collaborate on all entities with anyone across the globe. Before you create a public workspace, navigate to team profile settings and enable the team profile as public option. This will ensure your team's profile will show up on the Public API Network.
 
 [![Enable team profile](https://assets.postman.com/postman-docs/enable-team-profile.jpg)](https://assets.postman.com/postman-docs/enable-team-profile.jpg)
 
-Let's quickly take a look at the overview section for a team workspace.
+There are four types of workspaces - Personal, Team, Private and Public workspaces. Let's quickly take a look at the overview section for a team workspace.
 
 [![Overview team workspace](https://assets.postman.com/postman-docs/overview-team-workspace.jpg)](https://assets.postman.com/postman-docs/overview-team-workspace.jpg)
 
 To create a public workspace, select the team workspace and change the team's visibility dropdown to __Public__ and click __Save Changes__.
 
-[![Visibility](https://assets.postman.com/postman-docs/visibility-options.jpg)](https://assets.postman.com/postman-docs/visibility-options.jpg)
+<img alt="Visibility" src="https://assets.postman.com/postman-docs/visibility-options.jpg" width="400px"/>
 
 Once you've saved the changes, you will be receive an in-app notification - "__You've changed the workspace's visibility to Public.__"
 
 [![In app notification](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)
 
-Once you make a workspace public, all entities within that workspace become public through the workspace. You need to be a workspace admin to change the visibility of a workspace to __Public__. Also, you cannot convert a private workspace to public, but you can change a private workspace into regular team workspace and then make it public. Within a team, you cannot have two public workspaces with the same name.
+Once you make a workspace public, all entities within that workspace become public through the workspace. You need to be a workspace __admin__ to change the visibility of a workspace to public. Within a team, you cannot have two public workspaces with the same name.
+
+> You cannot convert a private workspace directly to public, but you can change a private workspace into regular team workspace and then make it public.
 
 Being an admin, you have the permission to add/remove any member from the workspace. To add members to a public workspace, navigate to the __Members__ section, enter an email address, click __Add__ to the team and click __Save__.
 
-[![Add member](https://assets.postman.com/postman-docs/add-team-member.jpg)](https://assets.postman.com/postman-docs/add-team-member.jpg)
+<img alt="Add member" src="https://assets.postman.com/postman-docs/add-team-member.jpg" width="300px"/>
 
-You can leave a public workspace by clicking __...__ on the right corner of the workspace overview and select __Leave workspace__. Click __Leave__ from the dialog box.
+To leave a public workspace, select the `...` on the right corner of the workspace overview and select __Leave workspace__. Click __Leave__ button to leave the workspace.
 
 [![Leave workspace](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)
 
-In the similar way, you can delete a public workspace by clicking __...__ on the right corner of the workspace overview and select __Delete workspace__. If you do not have the permissions, this option will be greyed out.
+> If you try to delete a public workspace by clicking `...` on the right corner of the workspace overview, the option to delete will be greyed out. Public workspaces cannot be deleted, you need to change its visibility and then delete it.
 
 ## Next steps
 
