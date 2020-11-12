@@ -59,7 +59,7 @@ To create a personal workspace, enter the workspace name and summary. Select the
 
 <img alt="Personal Workspace" src="https://assets.postman.com/postman-docs/create-personal-workspace.jpg" width="500px"/>
 
- To create a team workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Team__. Add email addresses for the collaborators you want to invite to the workspace, select access levels for the workspace.
+To create a team workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Team__. Add email addresses for the collaborators you want to invite to the workspace, select access levels for the workspace.
 
 [![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace.jpg)](https://assets.postman.com/postman-docs/create-team-workspace.jpg)
 
@@ -79,7 +79,7 @@ You can also create a new workspace in the [Workspaces dashboard](https://app.ge
 
 ## Creating a public workspace
 
-Public workspaces enables you to browse and collaborate on all entities with anyone across the globe. Before you create a public workspace, navigate to team profile settings and enable the team profile as public option. This will ensure your team's profile will show up on the Public API Network.
+Public workspaces enables you to browse and collaborate on all entities with anyone across the world. Before you create a public workspace, navigate to team profile settings and enable the team profile as public. This will ensure your team's profile will show up on the Public API Network.
 
 [![Enable team profile](https://assets.postman.com/postman-docs/enable-team-profile.jpg)](https://assets.postman.com/postman-docs/enable-team-profile.jpg)
 
