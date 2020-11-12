@@ -51,7 +51,7 @@ Workspaces can also create visibility for the projects within a team, since coll
 
 To create a new workspace, select the workspace dropdown menu at the left of Postman, and click **New Workspace**.
 
-<img alt="Default Workspace" src="https://assets.postman.com/postman-docs/default-workspace-dropdown.jpg" width="300px"/>
+<img alt="Default Workspace" src="https://assets.postman.com/postman-docs/create-workspace-dropdown.jpg" width="300px"/>
 
 Use the visibility dropdown to choose a __Team__, __Private__ or __Personal__ workspace. Note that you can share elements to a different workspace at a later date if you aren't sure which type to create.
 
@@ -69,7 +69,7 @@ If you are an Admin user and add any email addresses not associated with current
 
 Click **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button at the top at any time.
 
-To create a new workspace, you can click the __New__ button above the navigation bar and follow the same steps.
+To create a new workspace, you can click the __New__ button above the navigation bar, select __Workspace__ and follow the same steps.
 
 [![Create workspace new button](https://assets.postman.com/postman-docs/create-workspace-new-button.jpg)](https://assets.postman.com/postman-docs/create-workspace-new-button.jpg)
 
@@ -91,9 +91,13 @@ To create a public workspace, select the team workspace and change the team's vi
 
 <img alt="Visibility" src="https://assets.postman.com/postman-docs/visibility-options.jpg" width="400px"/>
 
-Once you've saved the changes, you will be receive an in-app notification - "__You've changed the workspace's visibility to Public.__"
+Once you've saved the changes, you will see notifications whenever changes are made to the public workspace. Click the bell icon on the top right corner to view the notification.
 
 [![In app notification](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)
+
+In addition to this, you will receive an email with the workspace information regarding who has made the change and which workspace was affected with the sharing link for the workspace.
+
+[![Email notification](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)](https://assets.postman.com/postman-docs/email-notification-public-workspace.jpg)
 
 Once you make a workspace public, all entities within that workspace become public through the workspace. You need to be a workspace __admin__ to change the visibility of a workspace to public. Within a team, you cannot have two public workspaces with the same name.
 
@@ -107,7 +111,8 @@ To leave a public workspace, select the `...` on the right corner of the workspa
 
 [![Leave workspace](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)
 
-> If you try to delete a public workspace by clicking `...` on the right corner of the workspace overview, the option to delete will be greyed out. Public workspaces cannot be deleted, you need to change its visibility and then delete it.
+> Public workspaces cannot be deleted, you need to change its visibility and then delete it.
+If you try to delete a public workspace by clicking `...` on the right corner of the workspace overview, the option to delete will be greyed out.
 
 ## Next steps
 
