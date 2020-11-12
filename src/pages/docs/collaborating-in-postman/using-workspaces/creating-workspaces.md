@@ -37,7 +37,7 @@ warning: false
 
 Workspaces allow you to organize your Postman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked entities. By collaborating in a workspace, your edits are synced with your team in realtime.
 
-[![WS-mainScreen-teamMenu](https://assets.postman.com/postman-docs/Workspaces_Mainscreen3.png)](https://assets.postman.com/postman-docs/Workspaces_Mainscreen3.png)
+[![Create workspace homepage](https://assets.postman.com/postman-docs/create-workspace-homepage.jpg)](https://assets.postman.com/postman-docs/create-workspace-homepage.jpg)
 
 Personal workspaces are visible only to you—with a [Postman account](/docs/getting-started/postman-account/) you can create unlimited workspaces. With team workspaces, you can share and manage access to project components with collaborators.
 
@@ -51,7 +51,7 @@ Workspaces can also create visibility for the projects within a team, since coll
 
 To create a new workspace, select the workspace dropdown menu at the left of Postman, and click **New Workspace**.
 
-<img alt="Default Workspace" src="https://assets.postman.com/postman-docs/create-workspace-dropdown.jpg" width="300px"/>
+<img alt="Create new workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace.jpg" width="300px"/>
 
 Use the visibility dropdown to choose a __Team__, __Private__ or __Personal__ workspace. Note that you can share elements to a different workspace at a later date if you aren't sure which type to create.
 
@@ -97,22 +97,11 @@ Once you've saved the changes, you will see notifications whenever changes are m
 
 In addition to this, you will receive an email with the workspace information regarding who has made the change and which workspace was affected with the sharing link for the workspace.
 
-[![Email notification](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)](https://assets.postman.com/postman-docs/email-notification-public-workspace.jpg)
+[![Email notification](https://assets.postman.com/postman-docs/email-notification-public-workspace.jpg)](https://assets.postman.com/postman-docs/email-notification-public-workspace.jpg)
 
 Once you make a workspace public, all entities within that workspace become public through the workspace. You need to be a workspace __admin__ to change the visibility of a workspace to public. Within a team, you cannot have two public workspaces with the same name.
 
 > You cannot convert a private workspace directly to public, but you can change a private workspace into regular team workspace and then make it public.
-
-Being an admin, you have the permission to add/remove any member from the workspace. To add members to a public workspace, navigate to the __Members__ section, enter an email address, click __Add__ to the team and click __Save__.
-
-<img alt="Add member" src="https://assets.postman.com/postman-docs/add-team-member.jpg" width="300px"/>
-
-To leave a public workspace, select the `...` on the right corner of the workspace overview and select __Leave workspace__. Click __Leave__ button to leave the workspace.
-
-[![Leave workspace](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)
-
-> Public workspaces cannot be deleted, you need to change its visibility and then delete it.
-If you try to delete a public workspace by clicking `...` on the right corner of the workspace overview, the option to delete will be greyed out.
 
 ## Next steps
 
