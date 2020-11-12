@@ -39,7 +39,7 @@ warning: false
 
 Syncing makes all your Postman data available when you're signed in to your Postman account.
 
-Changes, such as edits, additions, or deletions, sync across all devices that are linked to your account.
+Changes, such as edits, updates, additions, or deletions, sync across all devices that are linked to your account.
 
 These entities can sync with the server and be saved to the cloud:
 
