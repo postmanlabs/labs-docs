@@ -83,7 +83,7 @@ Public workspaces enables you to browse and collaborate on all entities with any
 
 [![Enable team profile](https://assets.postman.com/postman-docs/enable-team-profile.jpg)](https://assets.postman.com/postman-docs/enable-team-profile.jpg)
 
-There are four types of workspaces - Personal, Team, Private and Public workspaces. Let's quickly take a look at the overview section for a team workspace.
+There are four types of workspaces - personal, team, private and public workspaces. Let's quickly take a look at the overview section for a team workspace.
 
 [![Overview team workspace](https://assets.postman.com/postman-docs/overview-team-workspace.jpg)](https://assets.postman.com/postman-docs/overview-team-workspace.jpg)
 
