@@ -118,15 +118,15 @@ If you're tagged as a reviewer on a pull request, you can view the changes, comm
 
 You can see a list of pull request for any collection under the __Pull Requests__ tab on the right panel in Postman.
 
-![Open Pull Request](https://assets.postman.com/postman-docs/open-pull-request-list.jpg)
+![Open Pull Request](https://assets.postman.com/postman-docs/open-pull-request-list-v2.jpg)
 
 Each pull request includes status, which will be `OPEN` for any that have not been merged or declined.
 
 You can choose to __Edit__ or __Decline__ the pull request.
 
-![Pull Request Options](https://assets.postman.com/postman-docs/edit-decline-pull-request.jpg)
+![Pull Request Options](https://assets.postman.com/postman-docs/edit-decline-pull-request-v2.jpg)
 
-Once a pull request is merged, you cannot __edit__ or __decline__ it. You can check the merged pull request in the Collection __Pull Requests__ panel.
+Once a pull request is merged, you cannot __edit__ or __decline__ it. You can check the merged pull request in the __Pull Requests__ panel.
 
 ![Merged PR](https://assets.postman.com/postman-docs/pull-request-list-v2.jpg)
 
