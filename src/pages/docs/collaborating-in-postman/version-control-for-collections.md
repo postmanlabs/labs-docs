@@ -44,15 +44,15 @@ Your fork will be created in the selected workspace.
 
 ### Fork Information
 
-To fork a collection within a public workspace, you must enable your public profile. Navigate to __Edit Profile__ and enable __Make Profile Public__. The username should consist of only alphabets, hypen and numbers. If your profile is not public, you will be prompted with a dialog box, once you have enter a valid username, click __Enable Public Profile__.
+To fork a collection within a public workspace, you must enable your public profile. Navigate to __Edit Profile__ and enable __Make Profile Public__. The username should consist of only alphabets, hyphens and numbers. If you do not have a public profile, the screen shows a dialog box -once you have entered a valid username, click __Enable public profile__.
 
 <img src="https://assets.postman.com/postman-docs/enable-public-profile.jpg" alt="Enable public profile" width="350px"/>
 
-Fork information provides information about forks and the users who have created them. You will be able to identify the users who are actively consuming/contributing to your APIs. The fork count shows the list of users who have created the active forks.
+Fork information provides information about forks and the users who have created them. You will be able to identify the users who are actively consuming/contributing to your APIs. Click the fork count to reveal the list of users who have created the active forks.
 
 [![Fork Information](https://assets.postman.com/postman-docs/fork-information-count.jpg)](https://assets.postman.com/postman-docs/fork-information-count.jpg)
 
-Clicking on the user takes you to their public profile.
+Under forked by, clicking on a user takes you to their public profile.
 
 ## Creating pull requests
 
