@@ -28,7 +28,7 @@ You can use version control with your Postman collections, forking and merging u
 
 ## Forking a collection
 
-To fork a collection in Postman, select the collection in the __Collections__ sidebar and click the __View more actions__ (__...__) button. Select __Create a Fork__.
+To fork a collection in Postman, select the collection in the __Collections__ sidebar and click the __View more actions__ (__...__) button. Select __Create a Fork__. To provide a uniform forking experience, you can create a fork in a public workspace in 3 steps - Login to Postman, fill up fork details and enable your public profile.
 
 <img src="https://assets.postman.com/postman-docs/create-a-fork-v2.jpg" alt="Create Fork" width="250px"/>
 
@@ -39,6 +39,18 @@ Enter a label for your fork, and select a workspace to save it to. Click __Fork 
 Your fork will be created in the selected workspace.
 
 > If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
+
+### Fork information
+
+To fork a collection within a public workspace, you must enable your public profile. Navigate to __Edit Profile__ and enable __Make Profile Public__. The username should consist of only alphabets, hyphens and numbers. If you do not have a public profile, the screen shows a dialog box -once you have entered a valid username, click __Enable public profile__.
+
+<img src="https://assets.postman.com/postman-docs/enable-public-profile.jpg" alt="Enable public profile" width="350px"/>
+
+Fork information provides information about forks and the users who have created them. You will be able to identify the users who are actively consuming/contributing to your APIs. Click the fork count to reveal the list of users who have created the active forks.
+
+[![Fork Information](https://assets.postman.com/postman-docs/fork-information-count.jpg)](https://assets.postman.com/postman-docs/fork-information-count.jpg)
+
+Under forked by, clicking on a user takes you to their public profile.
 
 ## Creating pull requests
 
