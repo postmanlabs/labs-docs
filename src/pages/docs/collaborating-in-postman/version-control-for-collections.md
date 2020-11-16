@@ -42,18 +42,6 @@ Your fork will be created in the selected workspace.
 
 > If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
 
-### Fork Information
-
-To fork a collection within a public workspace, you must enable your public profile. Navigate to __Edit Profile__ and enable __Make Profile Public__. The username should consist of only alphabets, hyphens and numbers. If you do not have a public profile, the screen shows a dialog box -once you have entered a valid username, click __Enable public profile__.
-
-<img src="https://assets.postman.com/postman-docs/enable-public-profile.jpg" alt="Enable public profile" width="350px"/>
-
-Fork information provides information about forks and the users who have created them. You will be able to identify the users who are actively consuming/contributing to your APIs. Click the fork count to reveal the list of users who have created the active forks.
-
-[![Fork Information](https://assets.postman.com/postman-docs/fork-information-count.jpg)](https://assets.postman.com/postman-docs/fork-information-count.jpg)
-
-Under forked by, clicking on a user takes you to their public profile.
-
 ## Creating pull requests
 
 You can merge changes from a collection fork (the _source_) into the parent (the _destination_) using a pull request process, tagging reviewers who can comment on your changes and decide to merge or not. In the Postman app or web dashboard, open the menu for a collection and select __Create pull request__.
