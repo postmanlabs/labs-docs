@@ -18,7 +18,7 @@ contextual_links:
 
 ---
 
-Team migration is required when you consolidate one or more Postman teams into a single (typically company-authorized) account. There are several reasons for having a company-authorized Postman account (or Team) including security, the ability for a company to better oversee its intellectual property, and to give users the benefit of a robust paid plan.
+Team migration is required when you consolidate one or more Postman teams into a single (typically company-authorized) account. There are several reasons for having a company-authorized Postman account (or team) including security, the ability for a company to better oversee its intellectual property, and to give users the benefit of a robust paid plan.
 
 Team migration can occur in different ways depending on your needs and preferred outcomes.
 
@@ -128,7 +128,7 @@ As long as you are synced to the Postman cloud, the organizational structure of 
 No, each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are on [Postman's roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
 
 * **What happens to published documentation from my previous team?**
-Your previous links will break since the old team is disabled. New documentation URLs will need to be generated when collections are [re-published from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
+Your previous links will break since the old team is disabled. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your original team in order to add it to your new team and re-publish.
 
 * **What happens to the old team once everyone leaves?**
 Once the last person has left, the team is automatically disabled. If there is only one admin remaining on the team, they will automatically inherit all the team workspaces data (collections and environments) and can perform the bulk export.
@@ -139,7 +139,7 @@ No, you will need to [recreate any monitors](/docs/designing-and-developing-your
 * **What data is exported in a large JSON file data-dump?**
 All collections in your personal workspace and any workspaces that you have joined, in addition to environments, globals, and header presets, are included when you [export a data-dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
-* **What data does NOT get exported?** You will need to [reassign roles (workspace, collection, and environment level)](/docs/collaborating-in-postman/roles-and-permissions/), [recreate workspaces](/docs/collaborating-in-postman/collaboration-intro/#creating-a-new-workspace-from-the-menu), [recreate monitors](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/), [recreate mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [re-import API schemas](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications), and [re-publish documentation from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
+* **What data does NOT get exported?** You will need to [reassign roles (workspace, collection, and environment level)](/docs/collaborating-in-postman/roles-and-permissions/), [recreate workspaces](/docs/collaborating-in-postman/collaboration-intro/#creating-a-new-workspace-from-the-menu), [recreate monitors](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/), [recreate mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [re-import API schemas](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications), and [republish documentation from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
 
 > Reach out to [Postman support](http://postman.com/support) if you have any questions or run into any issues setting up Postman for your team.
 
