@@ -16,13 +16,13 @@ contextual_links:
     url: "/docs/collaborating-in-postman/versioning-an-api/"
 ---
 
-You can use version control with your Postman collections, forking and merging using a standard pull request process. Version control allows you to collaborate with teammates, working on different forks of the same collection, updating forks from the parent collection, and merging changes when you're ready. You can tag collaborators to review pull requests and resolve conflicts to manage collection versions.
+You can use version control with your Postman collections, to fork and merge using a standard pull request process. Version control allows you to collaborate with teammates by working on different forks of the same collection, updating forks from the parent collection, and merging changes when you're ready. You can tag collaborators to review pull requests and resolve conflicts to manage collection versions.
 
 * [Forking a collection](#forking-a-collection)
     * [Fork information](#fork-information)
     * [Fork to send request](#fork-to-send-request)
 * [Creating pull requests](#creating-pull-requests)
-    * [Creating public pull requests](#creating-public-pull-requests)
+    * [Creating public PRs](#creating-public-PRs)
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
 * [Pulling updates](#pulling-updates)
@@ -31,11 +31,11 @@ You can use version control with your Postman collections, forking and merging u
 
 ## Forking a collection
 
-To fork a collection in Postman, select the collection in the __Collections__ sidebar and click the __View more actions__ (__...__) and select __Create a Fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps - login to Postman, fill up fork details and enable your public profile.
+To fork a collection in Postman, select the collection in the __Collections__ sidebar and click __View more actions__ (__...__) and select __Create a fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps - login to Postman, fill up fork details and enable your public profile.
 
 <img src="https://assets.postman.com/postman-docs/create-a-fork-v2.jpg" alt="Create Fork" width="250px"/>
 
-Enter a label for your fork, and select a workspace to save it to. Click __Fork collection__.
+Enter a label for your fork, and select a workspace to save it to. Click __Fork Collection__.
 
 <img src="https://assets.postman.com/postman-docs/forked-collection-v2.jpg" alt="Fork Label"/>
 
@@ -57,7 +57,7 @@ Fork information provides details about forks and the users who have created the
 
 ### Fork to send request
 
-If you are a visitor and do not belong to any public workspace, to send requests from a collection in a public workspace, login to Postman with your credentials. Click __Sign in__.
+If you are a visitor who does not belong to any public workspace, to send requests from a collection in a public workspace, login to Postman with your credentials. Click __Sign in__.
 
 [![Visitor accessing public workspace](https://assets.postman.com/postman-docs/visitor-public-workspace.jpg)](https://assets.postman.com/postman-docs/visitor-public-workspace.jpg)
 
@@ -85,13 +85,15 @@ You can overview the source, destination, and changes that will be included in t
 
 If there are any conflicts, they will be highlighted so that you can [resolve them](#resolving-conflicts).
 
+![Resolve Conflicts](https://assets.postman.com/postman-docs/resolve-conflicts-v2.jpg)
+
 If your pull request has no conflicts, you can go ahead and open it for review. Enter a title and description, and select up to three reviewers from the dropdown list. Reviewers will need edit access to the collection in order to merge your changes. Click __Create Pull Request__.
 
 <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview-v2.jpg" width="850px"/>
 
 Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-requests) your changes into the parent collection.
 
-### Creating public pull requests
+### Creating public PRs
 
 To create a pull request on a public collection, you need to fork the collection to a public workspace and you should have either viewer or editor access on the source collection.
 
@@ -103,12 +105,13 @@ The pull request author and the users with viewer or editor access on the destin
 * Merge a pull request
 * View or add pull request comments
 
-You can create a pull request on a fork (the _source_) into the parent (the _destination__). The parent collection resides in a public workspace where as the forked collection is present in a team workspace. While creating a pull request, share the source collection to a public workspace so that the reviewers can access it while reviewing the pull request. Select the workspace and click __Create Pull Request__.
+You can create a pull request on a fork (the _source_) into the parent (the _destination_). The parent collection resides in a public workspace where as the forked collection is present in a team workspace. While creating a pull request, share the source collection to a public workspace so that the reviewers can access it while reviewing the pull request. Select the workspace and click __Create Pull Request__.
 
 <img src="https://assets.postman.com/postman-docs/make-source-collection-public-v2.jpg" alt="Source Collection Public" width="850px"/>
 
 Once you create the pull request, you will get a notification - __Shared to public workspace__.
-<img src="https://assets.postman.com/postman-docs/make-source-collection-shared-v2.jpg" alt="Source Collection Shared" width="850px"/>
+
+<img src="https://assets.postman.com/postman-docs/source-collection-shared-v2.jpg" alt="Source Collection Shared" width="850px"/>
 
 ## Approving changes
 
@@ -128,7 +131,7 @@ When you merge changes from a fork into its parent collection, you have a chance
 
 Postman will display an overview of the changes you are attempting to merge.
 
-![Merge Fork](https://assets.postman.com/postman-docs/merge-fork-collection-change.jpg)
+![Merge Fork](https://assets.postman.com/postman-docs/merge-fork-collection-change-v2.jpg)
 
 > If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
@@ -176,7 +179,7 @@ Once a pull request is merged, you cannot __edit__ or __decline__ it. You can ch
 
 You can view the detail on any merged pull request by selecting it.
 
-![Merged PR Detail](https://assets.postman.com/postman-docs/pull-request-details.jpg)
+<img src="https://assets.postman.com/postman-docs/pull-request-details-v2.jpg" alt="Merge PR Detail" width="300px"/>
 
 ## Resolving conflicts
 
@@ -184,9 +187,9 @@ If you encounter conflicts when you attempt to merge a forked collection, you wi
 
 > Merge conflicts can involve changes in multiple workspaces.
 
-![Merge Conflicts](https://assets.postman.com/postman-docs/merge-conflicts.jpg)
+![Pull Changes](https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg)
 
-The __Source__ will indicate the changes on your fork, with the __Destination__ representing the changes on the parent branch. Click __Use this__ next to the version you want to include when you merge. When conflicts are resolved, the __Merge all changes__ or __Approve and Merge__ button will be enabled and you can [merge your fork](#merging-changes).
+The __Source__ will indicate the changes on your fork, with the __Destination__ representing the changes on the parent branch. Click __Use this__ next to the version you want to include when you merge. When conflicts are resolved, the __Pull changes__ button will be enabled and you can [pull updates](#pulling-updates).
 
 ## Next steps
 
