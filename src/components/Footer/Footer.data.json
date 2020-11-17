@@ -27,7 +27,8 @@
         { "url": "https://learning.postman.com", "name": "Docs"},
         { "url": "https://blog.postman.com", "name": "Blog"},
         { "url": "https://www.postman.com/community", "name": "Community"},
-        { "url": "https://www.postman.com/webinars/", "name": "Webinars"}
+        { "url": "https://www.postman.com/webinars/", "name": "Webinars"},
+        { "url": "https://www.postman.com/customers/", "name": "Customers"}
       ]
     },
 
