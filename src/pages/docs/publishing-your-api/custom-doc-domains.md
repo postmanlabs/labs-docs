@@ -27,11 +27,11 @@ You can use a custom domain for your API documentation.
 
 In the Postman web dashboard, select [Team Settings](https://go.postman.co/settings/team/general) from the Team tab.
 
-[![edit view for team](https://assets.postman.com/postman-docs/WS-docs-team-settings2-1.png)](https://assets.postman.com/postman-docs/WS-docs-team-settings2-1.png)
+[![edit view for team](https://assets.postman.com/postman-docs/team-profile.png)](https://assets.postman.com/postman-docs/team-profile.png)
 
 In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Click __+ Add a new domain__.
 
-[![custom domain](https://assets.postman.com/postman-docs/WS-docs-custom-domains-1.png)](https://assets.postman.com/postman-docs/WS-docs-custom-domains-1.png)
+[![custom domain](https://assets.postman.com/postman-docs/custom-domains.png)](https://assets.postman.com/postman-docs/custom-domains.png)
 
 In the __Add a Custom Domain__ page, enter the URL of the domain you want to add. Your custom domain can be a full domain or a subdomain. For example, you can use either `example.com` or `api.example.com`.
 
