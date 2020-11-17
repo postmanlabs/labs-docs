@@ -59,7 +59,7 @@ To create a personal workspace, enter the workspace name and summary. Select the
 
 <img alt="Personal Workspace" src="https://assets.postman.com/postman-docs/create-personal-workspace.jpg" width="500px"/>
 
-To create a team workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Team__. Add collaborators by entering their email addresses, then define their [workspace roles](https://github.com/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+To create a team workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Team__. Add collaborators by entering their email addresses, then define their [workspace roles](https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
 [![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace.jpg)](https://assets.postman.com/postman-docs/create-team-workspace.jpg)
 
