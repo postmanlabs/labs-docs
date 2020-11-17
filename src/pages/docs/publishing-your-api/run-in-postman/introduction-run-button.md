@@ -27,40 +27,23 @@ contextual_links:
 
 ---
 
-The Run in Postman button is a way to give users direct access to your API endpoints. When you [create a button](/docs/publishing-your-api/run-in-postman/creating-run-button/) for your collection, you can embed the button in your website or API documentation. When users click your button, a copy of your collection will open in Postman.
+The Run in Postman button is one way to share a Postman collection (and optional environment) with your users. This button is found in the [Postman API Network](/docs/publishing-your-api/add-api-network/), at the top of [published documentation](/docs/publishing-your-api/publishing-your-docs/) in the web, and also where publishers embed the stand-alone button (like in a README or developer portal).
+
+![Cisco button in network](https://assets.postman.com/postman-docs/ciscoRIPnetwork.png)
 
 ![Travefy button](https://assets.postman.com/postman-docs/Travefy+API+RIP+button.jpg)
 
-## Dynamic and Static buttons
-
-There are two types of Run in Postman buttons:
-
-**Dynamic button**: This button uses HTML and CSS, and is optimal for a website. The dynamic button also gives you access to the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/).
-
-**Static button**: This button uses Markdown, and is optimal for a Markdown document like a GitHub ReadMe or BitBucket repository.
-
-With both buttons you have the option to [include an environment](/docs/publishing-your-api/run-in-postman/creating-run-button/) in the button. The environment will be imported into Postman along with a copy of your collection whenever a user clicks your button.
+![button in readme](https://assets.postman.com/postman-docs/foursquareRIPreadme.png)
 
 ## User interaction with your button
 
-When a user finds your button displayed on your website and they click it, they'll be prompted to open the Postman app. If they haven't downloaded the app yet, they'll have the option to do so then.
+When a user comes across your button, they can choose to view the collection in their web browser or import the collection into their Postman app. Then, they can begin interacting with your API.
 
- ![Modal display](https://assets.postman.com/postman-docs/Unsized+modal+image.jpg)
+![Modal display](https://assets.postman.com/postman-docs/imgurModalRIP.png)
 
-> If the button is dynamic, the prompts will open for the user in a modal, like the screenshot above (above modal is specific to Macs). If the button is static, the prompts will open for the user in a new page.
+This collection imported by users is a copy of the original, so updates made to the original are not updated in these copies. Users must import the latest collection to see updates made to the original collection.
 
-A copy of your collection will be imported into the user's app, and the app will open on the user's desktop.
-
-## Security considerations
-
-> This section only covers security details related to the Run in Postman feature. Refer to the [complete security practices page](https://www.postman.com/security) for general details.
-
-* Do a test import of your collection to be sure no sensitive data, like access keys, has been included. You can create a duplicate of your collection and remove any data you do not want shared. Duplicate your collection from the ellipsis **(...)** menu next to your collection name.
-
-![Ellipsis menu](https://assets.postman.com/postman-docs/Duplicate+collections.jpg)
-
-* Collections imported into Postman via the Run in Postman button are copies of the original.
-* Only collection-specific data you enter in Postman is shared through the Run in Postman button. Examples of collection-specific data would include the collection name and description, or request data (URL, headers, body, tests, scripts, etc.).
+> **Security check**: Do not leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
 
 ## Next steps
 
