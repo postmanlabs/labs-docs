@@ -49,11 +49,11 @@
       "children": [
         { "url": "https://www.postman.com/company/about-postman/", "name": "About"},
         { "url": "https://www.postman.com/careers/", "name": "Careers", "span": "We're Hiring!"},
-        { "url": "https://www.postman.com/contact", "name": "Contact"},
-        { "url": "https://blog.postman.com/", "name": "Blog"},
-        { "url": "https://www.postman.com/resources/press-releases/", "name": "Press Releases"},
-        { "url": "https://store.postman.com/", "name": "Swag Shop"},
-        { "url": "https://www.postman.com/galaxy-2020/", "name": "Galaxy Tour 2020" }
+        { "url": "https://www.postman.com/company/contact-us/", "name": "Contact Us"},
+        { "url": "https://www.postman.com/resources/press-releases/", "name": "Press & Media"},
+        { "url": "https://www.postman.com/company/nonprofit/", "name": "Postman For Nonprofits"},
+        { "url": "hhttps://www.postman.com/company/student-program/", "name": "Student Program"},
+        { "url": "https://store.getpostman.com/", "name": "Swag Shop"}
       ]
     }
   ],
@@ -81,8 +81,18 @@
     },
     {
       "type": "link",
+      "url": "https://www.postman.com/company/careers/",
+      "name": "Careers"
+    },
+    {
+      "type": "link",
       "url": "https://www.postman.com/support/",
       "name": "Support"
+    },
+    {
+      "type": "link",
+      "url": "https://www.postman.com/security/",
+      "name": "Security"
     }
   ]
 }

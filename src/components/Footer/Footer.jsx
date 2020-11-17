@@ -6,11 +6,10 @@ import './Footer.scss';
 const FooterColumn1 = (data) => {
   return (
     data.data.columns.slice(0, 3).map((col) => {
-      const title = <h5 className="footer-column__title">{col.name}</h5>;
+      const title = <h2 className="footer-column__title">{col.name}</h2>;
       const links = col.children.map((link) => (
-        <li key={link.name}>
+        <li className="footer-column__link-wrapper" key={link.name}>
           <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
-          <span><a className="span" href="https://www.postman.com/careers/">{link.span}</a></span>
         </li>
       ));
 
@@ -30,11 +29,12 @@ const FooterColumn1 = (data) => {
 const FooterColumn2 = (data) => {
   return (
     data.data.columns.slice(3, 6).map((col) => {
-      const title = <h5 className="footer-column__title">{col.name}</h5>;
+      const title = <h2 className="footer-column__title">{col.name}</h2>;
       const links = col.children.map((link) => (
-        <li key={link.name}>
+        <li className="footer-column__link-wrapper" key={link.name}>
           <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
-          <span><a className="span" href="https://www.postman.com/careers/">{link.span}</a></span>
+          {link.url === `https://www.postman.com/careers/` ?
+          <span><a className="span" href="https://www.postman.com/careers/"> {link.span}</a></span> : '' }
         </li>
       ));
 
@@ -87,22 +87,25 @@ class FooterComponent extends React.Component {
 
 
       {/* ITEMS */}
-      <div class="row mt-2 justify-content-center items_border">
-				<div class="col-sm-12 d-sm-flex mb-4 justify-content-center text-center">
-					<div class="mr-3 pr-sm-3 pl-sm-2 items_line">
-						<a href="https://www.postman.com/postman-galaxy" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Postman Galaxy</span></a>
+      <div className="row mt-2 justify-content-center items_border">
+				<div className="col-sm-12 d-sm-flex mb-4 justify-content-center text-center">
+					<div className="mr-3 pr-sm-3 pl-sm-2 items_line">
+						<a href="https://www.postman.com/postman-galaxy" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Postman Galaxy</span></a>
 					</div>
-					<div class="mr-3 pr-sm-3 pl-sm-2 items_line">
-						<a href="https://www.postman.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Privacy Policy</span></a>
+					<div className="mr-3 pr-sm-3 pl-sm-2 items_line">
+						<a href="https://www.postman.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Privacy Policy</span></a>
 					</div>
-					<div class="mr-3 pr-sm-3 pl-sm-2 items_noline">
-						<a href="https://www.postman.com/legal/eula/" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Terms</span></a>
+					<div className="mr-3 pr-sm-3 pl-sm-2 items_noline">
+						<a href="https://www.postman.com/legal/eula/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Terms</span></a>
 					</div>
-					<div class="mr-3 pr-sm-3 pl-sm-2 items_noline">
-						<a href="https://www.postman.com/company/careers/" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Careers</span></a>
+					<div className="mr-3 pr-sm-3 pl-sm-2 items_noline">
+						<a href="https://www.postman.com/company/careers/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Careers</span></a>
 					</div>
-					<div class="mr-3 pr-sm-3 pl-sm-2 items_noline">
-						<a href="https://www.postman.com/security" target="_blank" rel="noopener noreferrer"><span class="footer-column__link">Support</span></a>
+					<div className="mr-3 pr-sm-3 pl-sm-2 items_noline">
+						<a href="https://www.postman.com/support/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Support</span></a>
+					</div>
+					<div className="mr-3 pr-sm-3 pl-sm-2 items_noline">
+						<a href="https://www.postman.com/security" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Security</span></a>
 					</div>
 				</div>
 			</div>
@@ -163,7 +166,7 @@ class FooterComponent extends React.Component {
             className="column__links"
             aria-labelledby="social-list"
           >
-            <li className="list-inline-item mr-2">
+            <li className="list-inline-item mr-3">
               <a
                 id="facebook_icon"
                 href="https://www.facebook.com/getpostman/"
@@ -187,7 +190,7 @@ class FooterComponent extends React.Component {
                 </svg>
               </a>
             </li>
-            <li className="list-inline-item mr-2">
+            <li className="list-inline-item mr-3">
               <a
                 id="twitter_icon"
                 href="https://twitter.com/getpostman"
@@ -208,7 +211,7 @@ class FooterComponent extends React.Component {
                 </svg>
               </a>
             </li>
-            <li className="list-inline-item mr-2">
+            <li className="list-inline-item mr-3">
               <a
                 id="linkedin_icon"
                 href="https://www.linkedin.com/company/postman-api-tools"
@@ -234,7 +237,7 @@ class FooterComponent extends React.Component {
         <div className="col-sm-6 col-xs-12 d-flex items_start justify-content-center justify-content-sm-start">
         <ul className="column__links"
             aria-labelledby="social-list">
-          <li className="list-inline-item mr-2">
+          <li className="list-inline-item mr-3">
             <a
               id="github_icon"
               href="https://github.com/postmanlabs"
@@ -259,7 +262,7 @@ class FooterComponent extends React.Component {
               </svg>
             </a>
           </li>
-          <li className="list-inline-item mr-2">
+          <li className="list-inline-item mr-3">
             <a
               id="twitch_icon"
               href="https://www.twitch.tv/getpostman"
@@ -278,7 +281,7 @@ class FooterComponent extends React.Component {
               </svg>
             </a>
           </li>
-          <li className="list-inline-item mr-2">
+          <li className="list-inline-item mr-3">
             <a
               id="youtube_icon"
               href="https://www.youtube.com/postmanapidevelopment"
@@ -305,9 +308,9 @@ class FooterComponent extends React.Component {
     </div>
 
     {/* copyright */}
-    <div class="row">
-      <div class="col-12 text-center footer__copyright">
-        <li class="copyright-notice list-inline-item">©<span id="current-year"></span>2020 Postman, Inc. All rights reserved</li>
+    <div className="row">
+      <div className="col-12 text-center footer__copyright">
+        <li className="copyright-notice list-inline-item">©<span id="current-year"></span>2020 Postman, Inc. All rights reserved</li>
       </div>
     </div>
 
