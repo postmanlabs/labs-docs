@@ -19,7 +19,7 @@ contextual_links:
 You can use version control with your Postman collections, forking and merging using a standard pull request process. Version control allows you to collaborate with teammates, working on different forks of the same collection, updating forks from the parent collection, and merging changes when you're ready. You can tag collaborators to review pull requests and resolve conflicts to manage collection versions.
 
 * [Forking a collection](#forking-a-collection)
-    * [Forking information](#forking-information)
+    * [Fork information](#fork-information)
 * [Creating pull requests](#creating-pull-requests)
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
