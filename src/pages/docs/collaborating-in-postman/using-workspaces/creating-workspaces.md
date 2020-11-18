@@ -91,13 +91,13 @@ To create a public workspace, select the team workspace and change the team's vi
 
 <img alt="Visibility" src="https://assets.postman.com/postman-docs/visibility-options.jpg" width="400px"/>
 
-Once you've saved the changes, you will see notifications whenever changes are made to the public workspace. Click the notification bell in the top right corner to view notifications.
+Once you make a workspace public, the notification is sent to workspace members. Click the notification bell in the top right corner to view notifications.
 
 [![In app notification](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)](https://assets.postman.com/postman-docs/visibility-app-notification.jpg)
 
 In addition to this, you will receive an email with the workspace information regarding who has made the change and which workspace was affected with the sharing link for the workspace.
 
-[![Email notification](https://assets.postman.com/postman-docs/email-notification-public-workspace.jpg)](https://assets.postman.com/postman-docs/email-notification-public-workspace.jpg)
+[![Email notification](https://assets.postman.com/postman-docs/email-notification-public-workspace.jpg)](https://assets.postman.com/postman-docs/email-notification-public-workspace-v2.jpg)
 
 Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace. You need to be a [__workspace admin__](https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace to public. Within a team, you cannot have two public workspaces with the same name.
 
