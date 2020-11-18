@@ -49,7 +49,7 @@ To view and edit your workspace details (e.g. name, description), navigate to th
 
 <img alt="Default Workspace" src="https://assets.postman.com/postman-docs/create-workspace-dropdown.jpg" width="300px"/>
 
-You can access public workspaces via [**Workspaces** category in the API Network](https://explore.postman.com/workspaces).
+You can access public workspaces via the [**Workspaces** category in the API Network](https://explore.postman.com/workspaces).
 
 [![Access Public Workspaces](https://assets.postman.com/postman-docs/access_public_workspaces.gif)](https://assets.postman.com/postman-docs/access_public_workspaces.gif)
 
@@ -93,7 +93,7 @@ You can also join a workspace from the [Dashboard](https://app.getpostman.com/da
 
 [![Leave workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)
 
-> To leave a public workspace, select the `...` on the right corner of the workspace overview and __Leave workspace__. Click __Leave__ to finalize leaving the workspace..
+> To leave a public workspace, select the `...` on the right corner of the workspace overview and __Leave workspace__. Click __Leave__ to finalize leaving the workspace.
 
 [![Leave workspace](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)
 
