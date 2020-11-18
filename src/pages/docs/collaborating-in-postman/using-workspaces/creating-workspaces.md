@@ -59,7 +59,7 @@ To create a personal workspace, enter the workspace name and summary. Select the
 
 <img alt="Personal Workspace" src="https://assets.postman.com/postman-docs/create-personal-workspace.jpg" width="500px"/>
 
-To create a team workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Team__. Add collaborators by entering their email addresses, then define their [workspace roles](https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+To create a team workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Team__. Add collaborators by entering their email addresses, then define their [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
 [![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace.jpg)](https://assets.postman.com/postman-docs/create-team-workspace.jpg)
 
@@ -99,7 +99,7 @@ In addition to this, you will receive an email with the workspace information re
 
 [![Email notification](https://assets.postman.com/postman-docs/email-notification-public-workspace-v2.jpg)](https://assets.postman.com/postman-docs/email-notification-public-workspace-v2.jpg)
 
-Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace. You need to be a [__workspace admin__](https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace to public. Within a team, you cannot have two public workspaces with the same name.
+Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace. You need to be a [__workspace admin__](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace to public. Within a team, you cannot have two public workspaces with the same name.
 
 > You cannot convert a private workspace directly to public, but you can change a private workspace into a regular team workspace and then make it public.
 
