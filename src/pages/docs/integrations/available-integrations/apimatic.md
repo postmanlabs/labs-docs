@@ -16,10 +16,9 @@ contextual_links:
   - type: link
     name: "Why we became big believers in APIMatic's API transformer"
     url: "https://blog.postman.com/2017/02/15/new-postman-pro-integration-apimatics-api-transformer/"
-
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 You can use Postman's APIMatic integration to back up your Postman collections in Swagger, RAML, API Blueprint, and other API description formats.
 
@@ -61,4 +60,4 @@ To back up a collection periodically to a GitHub repository:
 
 Click **Add Integration**.
 
-APIMatic converts your collection documentation to the format of your choice and pushes it to your GitHub repository. Your Postman collection will automatically save to your GitHub repo every day, in the API description format you selected.
+APIMatic converts your collection to the format of your choice and pushes it to your GitHub repository. This integration runs once a day at 1200UTC. Any changes you make to your collection will be picked up by the converter in its subsequent run. If no updates have been made to your collection, no updates will be pushed to GitHub.

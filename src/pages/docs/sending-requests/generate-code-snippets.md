@@ -53,6 +53,10 @@ You can generate code snippets in various languages and frameworks within Postma
 
 ## Generating code snippets in Postman
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VTtS4-r2oSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+
 In Postman, select **Code** under **Save** to open **Generate Code Snippets**.
 
 <img src="https://assets.postman.com/postman-docs/code-button-in-app2.jpg" width="350px" alt="User Menu"/>

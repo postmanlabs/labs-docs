@@ -39,7 +39,8 @@ const IndexPage = () => (
         <div className="col-lg-5 hero-text">
           <h2>Postman Learning Center</h2>
           <p>
-            Learn how to use Postman effectively in your API projects. Check out the docs and support resources!
+            Learn how to use Postman effectively in your API projects.
+            Check out the docs and support resources!
           </p>
           <a href="/docs/" className="btn btn__primary">Explore the docs</a>
         </div>
@@ -91,7 +92,7 @@ const IndexPage = () => (
             title="Videos"
             description="Learn Postman skills from our video playlists."
             cta="Watch Videos"
-            ctaLink="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
+            ctaLink="https://www.youtube.com/postmanapidevelopment"
           />
         </div>
       </div>

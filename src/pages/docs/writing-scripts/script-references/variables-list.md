@@ -6,6 +6,10 @@ warning: false
 
 ---
 
+Postman uses the [faker library](https://www.npmjs.com/package/faker) to generate dummy data. You can generate random names, addresses, email addresses, and much more. You can use these pre-defined variables multiple times to return different values per request.
+
+You can use these variables like any other variable in Postman. Their values are generated at the time of execution and their names start with a `$` symbol e.g. `$guid`, `$timestamp` etc.
+
 The following is a list of dynamic variables whose values are randomly generated during the request/collection run.
 
 > To use dynamic variables in pre-request or test scripts, you need to use `pm.variables.replaceIn()`, e.g. `pm.variables.replaceIn('{{$randomFirstName}}')`.
@@ -18,6 +22,9 @@ The following is a list of dynamic variables whose values are randomly generated
 |                           |                                               | `"3a721b7f-7dc9-4c45-9777-516942b98e0d"`   |
 |                           |                                               | `"22eca807-006b-47df-9511-e92e37f5071a"`   |
 | **`$timestamp`**          | The current UNIX timestamp in seconds                   | `1562757107`, `1562757108`, `1562757109`   |
+| **`$isoTimestamp`**       | The current ISO timestamp at zero UTC         | `2020-06-09T21:10:36.177Z`                 |
+|                           |                                               | `2019-10-21T06:05:50.000Z`                 |
+|                           |                                               | `2019-07-29T18:29:00.000Z`                 |
 | **`$randomUUID`**         | A random 36-character UUID                    | `"6929bb52-3ab2-448a-9796-d6480ecad36b"`   |
 |                           |                                               | `"53151b27-034f-45a0-9f0a-d7b6075b67d0"`   |
 |                           |                                               | `"727131a2-2717-44ad-ab02-006587e947dc"`   |

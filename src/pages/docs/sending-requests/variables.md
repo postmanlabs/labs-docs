@@ -103,7 +103,7 @@ Postman supports the following variable scopes:
 
 <img alt="Variable Scope" src="https://assets.postman.com/postman-docs/var-scope.jpg" width="350px"/>
 
-If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used—for example if there is a global and a local variable both named `username`, the local value will be used when the request runs.
+> If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used—for example if there is a global and a local variable both named `username`, the local value will be used when the request runs.
 
 ### Choosing variables
 
@@ -124,6 +124,18 @@ Variable scopes are suited to different tasks in Postman:
 ## Defining variables
 
 You can define variables in a variety of ways, depending on whether you need [global / environment](#defining-global-and-environment-variables), or [collection](#defining-collection-variables) scope.
+
+To create a variable at any scope from the request builder, select the data you need, for example in the address, parameters, headers, or body.
+
+<img src="https://assets.postman.com/postman-docs/set-as-var-prompt.jpg" alt="Set as variable" width="450px"/>
+
+Choose **Set as variable** &gt; **Set as a new variable**.
+
+<img src="https://assets.postman.com/postman-docs/set-as-a-new-var.jpg" alt="Set as variable" width="300px"/>
+
+Enter a **Name**, verify the **Value** and select a scope from the drop-down list. Click **Set variable**.
+
+<img src="https://assets.postman.com/postman-docs/set-as-var-modal.jpg" alt="Set as variable" width="450px"/>
 
 > Remember to delete variables you are no longer using.
 
@@ -232,7 +244,7 @@ You can use double curly braces to reference variables throughout the Postman us
 {{username}}
 ```
 
-When you run a request, Postman will resolve the variable and replace it with it's current value.
+When you run a request, Postman will resolve the variable and replace it with its current value.
 
 For example, you could have a request URL referencing a variable as follows:
 

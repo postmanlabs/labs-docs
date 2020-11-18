@@ -61,25 +61,39 @@ This section describes the following topics:
 
 * [Creating end user accounts](#creating-end-user-accounts)
 
-* [Existing user account](#existing-user-account)
+* [Adding existing user accounts](#adding-existing-user-accounts)
+
+* [Automatically adding new users](#automatically-adding-new-users)
+
+* [Managing team logins](#managing-team-logins)
 
 * [Removing team access](#removing-team-access)
 
-### **Creating end user accounts**
+### Creating end user accounts
 
 You can create an account for a user in the Identity Provider (IdP).
 
-The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the "Allow Signups" box was checked during SSO configuration.
+The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was enabled during SSO configuration.
 
 The user will be automatically associated to the team with a **user** role and have access to team resources.
 
-### **Existing user account**
+### Adding existing user accounts
 
 If a Postman user logs in to Postman through a team's IdP, the user will be automatically added to the team if **one of the following** is true:
 
-* The team has available slots and "Allow Signups" is enabled.
+* The team has available slots and the [**Automatically add new users**](#automatically-adding-new-users) checkbox in your configuration is enabled.
 * An admin has invited the user to join the team.
 
-### **Removing team access**
+### Automatically adding new users
+
+The **Automatically add new users** checkbox in your SSO configuration determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to Postman with SSO. If this is enabled, users with or without existing Postman accounts can join your team by heading to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
+
+> **Automatically add new users** will only work if your team has user slots available. Your team size will not be automatically increased if additional users log in via SSO.
+
+### Managing team logins
+
+By default, Postman only supports Service Provider initiated logins for Postman Business or Enterprise teams utilizing SSO. Your team will be required to head to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to log in to Postman. If you require users be able to log in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an additional level of security when logins are initiated through a source unknown to Postman.
+
+### Removing team access
 
 An admin must remove users from their Postman team to prevent access to shared resources.

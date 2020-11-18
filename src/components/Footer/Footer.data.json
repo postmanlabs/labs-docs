@@ -56,13 +56,13 @@
 
     {"name": "Company",
       "children": [
-        { "url": "https://www.postman.com/about-postman", "name": "About"},
+        { "url": "https://www.postman.com/company/about-postman/", "name": "About"},
         { "url": "https://www.postman.com/careers/", "name": "Careers", "span": "We're Hiring!"},
         { "url": "https://www.postman.com/contact", "name": "Contact"},
         { "url": "https://blog.postman.com/", "name": "Blog"},
         { "url": "https://www.postman.com/resources/press-releases/", "name": "Press Releases"},
         { "url": "https://store.postman.com/", "name": "Swag Shop"},
-        { "url": "https://www.postman.com/post-con-2019", "name": "POST/CON 2019"}
+        { "url": "https://www.postman.com/galaxy-2020/", "name": "Galaxy Tour 2020" }
       ]
     }
   ],

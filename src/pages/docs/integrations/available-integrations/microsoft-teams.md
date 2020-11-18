@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 Microsoft Teams is a chat-based workspace that is available for all Microsoft Office 365 users. This integration allows you to get updates about what is happening in your team directly in Microsoft Teams.
 
@@ -77,6 +77,6 @@ Monitor run messages summarize the basic details of the run, if the run was succ
 
 [![microsoft teams view](https://assets.postman.com/postman-docs/59034537.png)](https://assets.postman.com/postman-docs/59034537.png)
 
-Similarly, the Team Activity message displays updates, who made the change and what it was.  
+Similarly, the Team Activity message displays updates, who made the change and what it was.
 
 [![activity feed](https://assets.postman.com/postman-docs/59034618.png)](https://assets.postman.com/postman-docs/59034618.png)

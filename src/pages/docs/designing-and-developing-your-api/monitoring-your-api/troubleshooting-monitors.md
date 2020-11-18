@@ -28,7 +28,7 @@ You can click the failed monitor and review the relevant logs under the **Consol
 
 [![failed monitors](https://assets.postman.com/postman-docs/WS-monitor-failed-1.png)](https://assets.postman.com/postman-docs/WS-monitor-failed-1.png)
 
-For information about debugging in the console, see [Troubleshooting API requets](/docs/sending-requests/troubleshooting-api-requests/).
+For information about debugging in the console, see [Troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/).
 
 When a monitor fails, a "Need help debugging?" popup displays in the Postman monitors web view. Whenever possible, these suggestions include debugging tips that are specifically related to the error.
 
@@ -42,10 +42,6 @@ For example, if the monitor failed because Postman was unable to contact the ser
 * If a local run passes, [ensure the sync is enabled](/docs/getting-started/syncing/) in the toolbar header of the Postman app to persist any local changes.  
 
     [![enable sync](https://assets.postman.com/postman-docs/Header_Toolbar_New_Sync.png)](https://assets.postman.com/postman-docs/Header_Toolbar_New_Sync.png)
-
-* You can also force a sync from the **Sync** tab within the **SETTINGS** modal.  
-
-    [![force sync](https://assets.postman.com/postman-docs/59046046.png)](https://assets.postman.com/postman-docs/59046046.png)
 
 ## Debugging variable issues
 

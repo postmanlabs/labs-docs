@@ -71,6 +71,8 @@ Include a team name and description that will appear in your API Network listing
 
 ![Profile Detail](https://assets.postman.com/postman-docs/profile-details.jpg)
 
+> If you receive an error when uploading your favicon, confirm that it is a .ico file and no larger than 500KB.
+
 ## Publishing to the network
 
 Once your team profile is set up any collection docs you publish will be associated with it. Click __Publish Collection__.

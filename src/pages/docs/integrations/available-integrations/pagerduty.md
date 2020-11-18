@@ -12,10 +12,9 @@ contextual_links:
   - type: link
     name: "Intro to Monitoring"
     url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
-
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling, and automatic escalation of critical incidents.
 
@@ -26,17 +25,17 @@ You can use this integration to trigger incidents in PagerDuty based on your Pos
 ## Retrieving your PagerDuty Integration Key
 
 Create an account or use a preexisting one to log in to [PagerDuty](https://app.pagerduty.com/).  
-In the header toolbar, click __Configuration__ and select __Services__. If you are creating a new service for this integration, click __Add New Service__.
+In the header toolbar, click **Configuration** and select **Services**. If you are creating a new service for this integration, click **Add New Service**.
 
 [![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty_menu.png)](https://assets.postman.com/postman-docs/pagerduty_menu.png)
 
 Enter your Service Name and choose Postman as the Integration Type.
 
-Click the __Add Service__ link at the bottom of the page to create a new service.
+Click the **Add Service** link at the bottom of the page to create a new service.
 
 [![pagerduty service](https://assets.postman.com/postman-docs/pagerduty_service.png)](https://assets.postman.com/postman-docs/pagerduty_service.png)
 
- Save the PagerDuty Integration Key to use later.
+Save the PagerDuty Integration Key to use later.
 
 [![pagerduty key](https://assets.postman.com/postman-docs/pagerduty_key.png)](https://assets.postman.com/postman-docs/pagerduty_key.png)
 
@@ -44,7 +43,7 @@ Click the __Add Service__ link at the bottom of the page to create a new service
 
 1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select PagerDuty from the list of third party integrations.
 
-  [![select pagerduty integration](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)
+[![select pagerduty integration](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)
 
 1. Click the **View Details** button to see information about PagerDuty.
 

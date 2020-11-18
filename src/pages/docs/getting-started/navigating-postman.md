@@ -18,30 +18,44 @@ warning: false
 
 ---
 
-Postman provides a variety of views and controls for managing your API projects. You can drag to resize the components in the Postman user interface.
+Postman provides a variety of views and controls for managing your API projects.
 
-[![Postman app](https://assets.postman.com/postman-docs/postman-app-overview.jpg)](https://assets.postman.com/postman-docs/postman-app-overview.jpg)
+[![Postman app](https://assets.postman.com/postman-docs/app-overview-console-open.jpg)](https://assets.postman.com/postman-docs/app-overview-console-open.jpg)
 
-You can toggle Postman between two main modes: __Build__ and __Browse__ using the control at the bottom-right. The __Build__ mode is the primary interface for working with API requests.
+You can toggle Postman between two main modes: __Build__ and __Browse__ using the control at the bottom-right of the app, or the top-left on the web. The __Build__ mode is the primary interface for working with API requests.
 
 [![general layout](https://assets.postman.com/postman-docs/59046674.jpg)](https://assets.postman.com/postman-docs/59046674.jpg)
 
 * The left sidebar provides access to your request [history](#history), collections, and APIs.
 * The header allows you to create and import requests and collections, to access the Collection Runner, to move and invite collaborators to workspaces, to access the Interceptor, view sync status / notifications, open your Settings, account, and Postman plan.
 * The center area is where you build and work with requests.
-* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode, toggle split pane view, open keyboard shortcuts, and access help resources.
+* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode (in the app—use the top left if you're on the web), toggle pane view, open keyboard shortcuts, and access help resources.
 
-Use browse mode to access entities across your workspace and connect to the Postman Dashboard.
+![Resizing panes](https://assets.postman.com/postman-docs/resizing-panes-app.gif)
 
-[![Browse mode](https://assets.postman.com/postman-docs/postman-app-browse.jpg)](https://assets.postman.com/postman-docs/postman-app-browse.jpg)
+You can drag to resize the panes in the Postman UI.
+
+[![Resizing panes](https://assets.postman.com/postman-docs/panes-resized.jpg)](https://assets.postman.com/postman-docs/panes-resized.jpg)
+
+You can declutter your workspace by collapsing panes using the arrow button—click the collapsed section to reopen it.
+
+[![general layout](https://assets.postman.com/postman-docs/sidebar-collapsed.jpg)](https://assets.postman.com/postman-docs/sidebar-collapsed.jpg)
+
+Use the buttons at the bottom-right to hide the sidebar and toggle between single and two pane view.
+
+[![general layout](https://assets.postman.com/postman-docs/split-pane-view.jpg)](https://assets.postman.com/postman-docs/split-pane-view.jpg)
+
+Use browse mode to access entities across your workspace and connect to the Postman Dashboard via the desktop app (use the links at the top-left if you're using Postman on the web).
+
+[![Browse mode](https://assets.postman.com/postman-docs/browse-mode-in-app.jpg)](https://assets.postman.com/postman-docs/browse-mode-in-app.jpg)
 
 ## Find and replace
 
-You can search your Postman workspace by clicking the magnifying glass icon at the bottom-left of Postman—or using the keyboard shortcuts `Command + SHIFT + F` / `Control + SHIFT + F`.
+You can search your Postman workspace by clicking __Find and Replace__ at the bottom-left of Postman—or using the keyboard shortcuts `Command + SHIFT + F` / `Control + SHIFT + F`.
 
 Enter your search string and optionally choose which entities to return, entering replacement text if necessary.
 
-![Find and replace](https://assets.postman.com/postman-docs/find-search-detail.jpg)
+![Find and replace](https://assets.postman.com/postman-docs/find-and-replace-tab.jpg)
 
 Postman will search tabs, collections, and variables. You can click directly from the search results to open an entity.
 
@@ -77,10 +91,10 @@ A tab may indicate a conflict if you or a collaborator changes it in another tab
 
 The best way to get to know Postman is by firing up the __Bootcamp__ on the bottom-right and working through the lessons.
 
-![Bootcamp](https://assets.postman.com/postman-docs/bootcamp-lesson-step.jpg)
+![Bootcamp](https://assets.postman.com/postman-docs/bootcamp-overview-app.jpg)
 
-You can also access the bootcamp together with other resources for getting started and staying up to date by opening the launchpad—you'll see a button when you have no open tabs.
+You can also access Bootcamp together with other resources for getting started and staying up to date by opening Launchpad—you'll see a button when you have no open tabs.
 
-![Launchpad](https://assets.postman.com/postman-docs/app-launchpad.jpg)
+![Launchpad](https://assets.postman.com/postman-docs/launchpad-open-app.jpg)
 
 __Next try [sending your first request](/docs/getting-started/sending-the-first-request/)!__

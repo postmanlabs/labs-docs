@@ -37,7 +37,22 @@ This opens the **MANAGE COOKIES** modal, and displays a list of domains and the 
 
 ## Create a cookie
 
-To add a new cookie for the domain, click on the **Add Cookie** button. A pre-generated cookie string according to the [HTTP State Management standards](https://tools.ietf.org/html/rfc6265#section-4.1) will be created, but you can edit it using the text input that appears below it. Clicking the **Save** button will save it to the cookie store under the relevant domain.
+To add a new cookie for the domain, click **Add Cookie**. A pre-generated cookie string compliant with [HTTP State Management standards](https://tools.ietf.org/html/rfc6265#section-4.1) will be created.
+
+```
+<cookieName>=<cookieValue>; path=/; domain=.domain.com; HttpOnly; Secure; Expires=Tue, 19 Jan 2038 03:14:07 GMT;
+```
+
+Postman supports the following attributes:
+
+* **cookieName**, **cookieValue**: The name of the cookie and the value stored in it.
+* **Domain**: The domain Postman will send the cookie to.
+* **Path**: The URL path that the cookie is restricted to. If the path is `/`, the cookie will be sent to all requests in the specified domain.
+* **HttpOnly**: If present, the cookie will not be accessible to the client-side scripts run on the page (e.g. via `document.cookie` in JavaScript). The cookie will only be added to the cookie header in requests that are made. This field does not have an effect on Postman's behavior.
+* **Secure**: If present, the cookie is only sent when the URL begins with `https://`, and will not be sent over an insecure connection.
+* **Expires**: The time after which the cookie will expire and not be sent by Postman.
+
+Clicking the **Save** button will save it to the cookie store under the relevant domain.
 
 [![create a cookie](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)](https://assets.postman.com/postman-docs/WS-manage-cookies-2.png)
 
@@ -59,7 +74,13 @@ To update an existing cookie, go to the domain from the domain list, and click t
 
 [![update cookie](https://assets.postman.com/postman-docs/WS-manage-cookies-4.png)](https://assets.postman.com/postman-docs/WS-manage-cookies-4.png)
 
-### Adding Cookies through Set-Cookie header
+## Deleting a cookie
+
+You can delete a domain and all cookies associated with it by selecting **X** next to the domain. To delete individual cookies, select **X** next to the cookie in question.
+
+![Delete cookie](https://assets.postman.com/postman-docs/deleting-cookies.jpg)
+
+## Adding cookies through set-cookie header
 
 You can also add/edit the cookies through the [Set-Cookie header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie) through the response.  
 
@@ -75,11 +96,13 @@ Postman also allows for programmatic cookie access i.e. creating and manipulatin
 The very first step to perform any kind of operation on cookies is to create a **Cookie Jar**, an object that will contain the
 cookies and the methods that will be used to operate on cookies.
 
-## Creating a Cookie Jar
+## Creating a cookie jar
 
 To create a "cookie jar", use the `pm.cookies.jar()` method. This will create an object containing the cookies and the methods that would be needed to access them.
 
-`const cookieJar = pm.cookies.jar();`
+```js
+const cookieJar = pm.cookies.jar();
+```
 
 ## Creating a cookie
 
@@ -87,68 +110,122 @@ After a cookie jar is created, you can place cookies into it by the following me
 
 1. Set a cookie using the `.set()` function, it takes a URL, a cookie name and a cookie value.
 
-`const cookieJar = pm.cookies.jar();` // create a cookie jar
+```js
+// create a cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));` // create a cookie
+```js
+// create a cookie
+cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));
+```
 
 1. One can also set a PostmanCookie or its compatible cookie object using the `.set()` function.
 
-`const cookieJar = pm.cookies.jar();` // create a cookie jar
+```js
+// create a cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL, { name: cookie name, value: cookie value, httpOnly: true }, callback (error, cookie));` // create a PostmanCookie
+```js
+// create a PostmanCookie
+cookieJar.set(URL, { name: cookie name, value: cookie value, httpOnly: true }, callback (error, cookie));
+```
 
 ## Get a cookie
 
 To retrieve a cookie, `.get()` function is used. The function takes a URL and name of the required cookie. It returns the value of cookie.
 
-`const cookieJar = pm.cookies.jar();` // create a cookie jar
+```js
+// create a cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));` // create a cookie
+```js
+// create a cookie
+cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));
+```
 
-`cookieJar.get(URL, cookie name, callback(error, cookie));` // get the created cookie
+```js
+// get the created cookie
+cookieJar.get(URL, cookie name, callback(error, cookie));
+```
 
 ## Get all the cookies
 
 To get all the cookies for a particular URL that are in the cookie jar, `.getAll()` function is used, it takes a URL and returns all the cookies for that URL.
 
-`const cookieJar = pm.cookies.jar();` // create the cookie jar
+```js
+// create the cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL,first cookie name,first cookie value, callback(error, cookie));` // create one cookie
+```js
+// create one cookie
+cookieJar.set(URL,first cookie name,first cookie value, callback(error, cookie));
+```
 
-`cookieJar.set(URL,second cookie name,second cookie value, callback(error, cookie));` // create another cookie
+```js
+// create another cookie
+cookieJar.set(URL,second cookie name,second cookie value, callback(error, cookie));
+```
 
-`cookieJar.getAll(URL, callback(error, cookies));` // get the created cookies
+```js
+// get the created cookies
+cookieJar.getAll(URL, callback(error, cookies));
+```
 
 ## Delete a cookie
 
 To delete a cookie, `.unset()` function is used. It takes a URL and the name of the cookie to be removed.
 
-`const cookieJar = pm.cookies.jar();` // create the cookie jar
+```js
+// create the cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));` // create a cookie
+```js
+// create a cookie
+cookieJar.set(URL, cookie name, cookie value, callback(error, cookie));
+```
 
-`cookieJar.unset(URL , cookie name, callback (error));` // Delete the created cookie
+```js
+// Delete the created cookie
+cookieJar.unset(URL , cookie name, callback (error));
+```
 
 ## Delete all the cookies
 
 To clear all the cookies for a URL, `.clear()` is used. It takes the URL for which all the cookies are to be removed. Note that `.clear()` removes all cookies for a particular URL, it DOES NOT remove all the cookies in the jar as there may be cookies for more than one URL in the cookie jar.
 
-`const cookieJar = pm.cookies.jar();` // create cookie jar
+```js
+// create cookie jar
+const cookieJar = pm.cookies.jar();
+```
 
-`cookieJar.set(URL,first cookie name,first cookie value, callback(error, cookie));`  // set one cookie
+```js
+// set one cookie
+cookieJar.set(URL,first cookie name,first cookie value, callback(error, cookie));
+```
 
-`cookieJar.set(URL,second cookie name,second cookie value, callback(error, cookie));` // set another cookie
+```js
+// set another cookie
+cookieJar.set(URL,second cookie name,second cookie value, callback(error, cookie));
+```
 
-`cookieJar.clear(URL, callback (error));` // delete the set cookies
+```js
+// delete the set cookies
+cookieJar.clear(URL, callback (error));
+```
 
 ## Properties not yet supported
 
-These are two properties that are not yet supported Postman.
+Currently, there are two properties that are not yet supported by Postman:
 
 * SameSite
 * Cookie Prefixes
-        *   __Secure-
-        *   __Host-
+    * __Secure-
+    * __Host-
 
 Whenever you add a domain, Postman will sync all cookies for that domain from the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/#syncing-cookies) extension keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
 

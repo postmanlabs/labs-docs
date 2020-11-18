@@ -89,7 +89,7 @@ You can also join a workspace from the [Dashboard](https://app.getpostman.com/da
 
 > To leave a workspace, select the __Team__ tab in the workspaces [Dashboard](https://app.getpostman.com/dashboard) and select __Leave__.
 
-[![Leave workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-worskpace.jpg)
+[![Leave workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)
 
 ## Adding elements to workspaces
 
@@ -123,6 +123,8 @@ Click **Add to this Workspace**. The element(s) will now appear in your list of 
 
 When you remove an element from a workspace, it is no longer visible in that particular workspace. The element is still available in any other workspace where it has been added.
 
+> If you remove a collection from a workspace and are unable to locate it, you can recover it navigating to your [team collections](https://go.postman.co/team/elements?type=collection), or, if the collection was never shared, by navigating to your [personal collections](https://go.postman.co/me/collections). From there, you'll be able to re-share the item to the correct workspace.
+
 From the Postman app, you can remove a collection from the sidebar. Click **...** to open the collection menu. Select __Remove from Workspace__ and confirm that you would like to remove the collection from the current workspace. The collection will no longer be visible in the workspace.
 
 [![remove collection from workspace](https://assets.postman.com/postman-docs/Workspaces_Remove.png)](https://assets.postman.com/postman-docs/Workspaces_Remove.png)
@@ -139,6 +141,8 @@ You can also remove collections and environments from the [Workspaces dashboard]
 
 When you delete a workspace, you erase its existence in Postman. Only the original creator of a workspace or a team admin can delete a workspace.
 
+> "My Workspace" and "Team Workspace" are default workspaces created by Postman. They cannot be deleted, however they can be renamed.
+
 To delete a workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard) and select a workspace.
 
 Click **...** next to the workspace you want to delete and select __Delete__.
@@ -151,7 +155,7 @@ Confirm that you wish to delete the workspace—it will no longer be available.
 
 If you're a team administrators you can manage the members of your workspace, from the [Dashboard](https://app.getpostman.com/dashboard) via the **Team** tab.
 
-[![Edit workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-worskpace.jpg)
+[![Edit workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)
 
 Click **...** next to the workspace you want to update, and select __Manage Members__.
 

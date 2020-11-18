@@ -68,6 +68,16 @@ pm.iterationData.get("value")
 
 See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more on what you can do with iteration data.
 
+## Errors when reading data files
+
+You may encounter errors when Postman attempts to read your data file during a collection run. If this happens, you can take the following steps.
+
+1. Ensure your data file is formatted correctly, as either CSV or JSON.
+
+2. Confirm your data file is encoded properly, by opening your data file in a text editor and saving the file in a different format.
+
+If the errors persist, [contact the Postman support team](https://support.getpostman.com/).
+
 ## Next steps
 
 To continue learning to leverage collection runs, check out the following resources:

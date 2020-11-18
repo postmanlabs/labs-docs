@@ -32,7 +32,7 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-[![Postman](https://assets.postman.com/postman-docs/postman-window-overview.jpg)](https://assets.postman.com/postman-docs/postman-window-overview.jpg)
+[![Postman](https://assets.postman.com/postman-docs/postman-app-default-layout.jpg)](https://assets.postman.com/postman-docs/postman-app-default-layout.jpg)
 
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside the app:
 
@@ -107,3 +107,5 @@ If you're integrating Postman with your CI/CD workflow or are developing with Po
 ## Providing feedback
 
 Share your thoughts on the documentation and help the Postman team to improve it for yourself and other learners! To submit feedback, please [create an issue on the documentation GitHub repo](https://github.com/postmanlabs/postman-docs/issues) or post in the [community forum](https://community.postman.com/).
+
+Help improve the Postman app and have an impact on [Postman's roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers) by sending your feedback directly to Postman's developer team. To submit feature requests, [create an issue on the Postman GitHub repo](https://github.com/postmanlabs/postman-app-support/issues).

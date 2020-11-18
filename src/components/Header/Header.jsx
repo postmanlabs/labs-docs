@@ -3,8 +3,9 @@ import React from 'react';
 import './Header.scss';
 import algoliasearch from 'algoliasearch/lite';
 import {
-  InstantSearch, SearchBox, Hits, Configure,
+  InstantSearch, SearchBox, Hits, Configure, Pagination,
 } from 'react-instantsearch-dom';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import DynamicLink from '../Shared/DynamicLink';
 import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
 
@@ -31,13 +32,52 @@ const searchClient = {
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
   const { cookie } = props;
+
   if (cookie !== 'yes') {
     return (
-      <a href="https://identity.getpostman.com/login" className="btn btn__primary">Sign In</a>
+      <a
+        href="https://identity.getpostman.com/login"
+        className="btn btn__primary"
+        target="_blank"
+        rel="noreferrer"
+        onClick={() => {
+          // To stop the page reloading
+          // e.preventDefault()
+          // Lets track that custom click
+          trackCustomEvent({
+            // string - required - The object that was interacted with (e.g.video)
+            category: 'lc-top-nav',
+            // string - required - Type of interaction (e.g. 'play')
+            action: 'Click',
+            // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
+            label: 'sign-in-button-clicked',
+          });
+        }}
+      >
+        Sign In
+      </a>
     );
   }
   return (
-    <a href="https://app.getpostman.com" className="btn btn__primary">Dashboard</a>
+    <a
+      href="https://go.postman.co/build"
+      className="btn btn__primary"
+      onClick={() => {
+        // To stop the page reloading
+        // e.preventDefault()
+        // Lets track that custom click
+        trackCustomEvent({
+          // string - required - The object that was interacted with (e.g.video)
+          category: 'lc-top-nav',
+          // string - required - Type of interaction (e.g. 'play')
+          action: 'Click',
+          // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
+          label: 'launch-postman-button-clicked',
+        });
+      }}
+    >
+      Launch Postman
+    </a>
   );
 };
 
@@ -53,7 +93,16 @@ class HeaderComponent extends React.Component {
       isToggledOn: 'unset',
       hasInput: false,
       refresh: false,
+      visibleHelloBar: 0,
     };
+  }
+
+
+  componentDidMount() {
+    const helloBarCountValue = Number(localStorage.getItem('hellobarcount'));
+    this.setState({
+      visibleHelloBar: helloBarCountValue,
+    });
   }
 
   getCookie = (a) => {
@@ -86,9 +135,10 @@ class HeaderComponent extends React.Component {
     }));
   }
 
+
   render() {
     const {
-      isToggledOn, refresh, hasInput, data,
+      isToggledOn, refresh, hasInput, data, visibleHelloBar,
     } = this.state;
     return (
       <header className="header text-center navbar navbar-expand-xl navbar-light">
@@ -112,6 +162,7 @@ class HeaderComponent extends React.Component {
             ${(isToggledOn === true) ? 'animate-open' : ''}
             ${(isToggledOn === false) ? 'animate-close' : ''}
             ${isToggledOn === 'unset' ? 'closed' : ''}
+            overlay${!visibleHelloBar ? ' noBar' : ''}
             `}
           id="navbarSupportedContent"
         >
@@ -136,15 +187,28 @@ class HeaderComponent extends React.Component {
                   }}
                   onKeyUp={(event) => {
                     this.setState({
-                      hasInput: event.currentTarget.value !== '',
+                      hasInput: event.currentTarget.value.length > 2,
                     });
                   }}
                 />
 
+
                 <div className={!hasInput ? 'input-empty' : 'input-value'}>
-                  <CustomHits hitComponent={Hits} />
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-12">
+                        <CustomHits hitComponent={Hits} />
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-12">
+                        <Pagination />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </InstantSearch>
+
             </ClickOutHandler>
           </div>
           {data.links.map((link) => (
