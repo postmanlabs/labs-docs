@@ -155,7 +155,7 @@ Click the `...` on the right corner of the workspace overview, then select __Del
 
 [![Delete workspace](https://assets.postman.com/postman-docs/delete-a-workspace.jpg)](https://assets.postman.com/postman-docs/delete-a-workspace.jpg)
 
-Confirm that you wish to delete the workspace — it will no longer be available following this action.
+Confirm that you wish to delete the workspace—it will no longer be available following this action.
 
 > Public workspaces must have their visibility reverted in order to be deleted. If you try to delete a public workspace by clicking `...` on the right corner of the workspace overview, the option to delete will be greyed out.
 
