@@ -3,13 +3,13 @@
     {"name": "Overview",
       "children": [
         { "url": "https://www.postman.com/api-platform/", "name": "API Platform"},
-        { "url": "https://www.postman.com/product/api-client", "name": "API Client"},
-        { "url": "https://www.postman.com/automated-testing", "name": "Automated Testing"},
-        { "url": "https://www.postman.com/features/mock-api", "name": "Design & Mock"},
-        { "url": "https://www.postman.com/api-documentation-generator", "name": "Documentation"},
-        { "url": "https://www.postman.com/api-monitor", "name": "Monitors"},
-        { "url": "https://www.postman.com/product/api-versioning", "name": "Version Control"},
-        { "url": "https://www.postman.com/product/workspaces", "name": "Workspaces"},
+        { "url": "https://www.postman.com/product/api-client/", "name": "API Client"},
+        { "url": "https://www.postman.com/automated-testing/", "name": "Automated Testing"},
+        { "url": "https://www.postman.com/features/mock-api/", "name": "Design & Mock"},
+        { "url": "https://www.postman.com/api-documentation-generator/", "name": "Documentation"},
+        { "url": "https://www.postman.com/api-monitor/", "name": "Monitors"},
+        { "url": "https://www.postman.com/product/api-versioning/", "name": "Version Control"},
+        { "url": "https://www.postman.com/product/workspaces/", "name": "Workspaces"},
         { "url": "https://www.postman.com/product/postman-interceptor/", "name": "Interceptor"},
         { "url": "https://www.postman.com/api-visualizer/", "name": "API Visualizer"}
       ]
@@ -34,14 +34,14 @@
 
     {"name": "Pricing",
       "children": [
-        { "url": "https://www.postman.com/pricing", "name": "Plans & Pricing Overview"},
-        { "url": "https://www.postman.com/postman-enterprise", "name": "Postman Enterprise"}
+        { "url": "https://www.postman.com/pricing/", "name": "Plans & Pricing Overview"},
+        { "url": "https://www.postman.com/postman-enterprise/", "name": "Postman Enterprise"}
       ]
     },
 
     {"name": "Support",
       "children": [
-        { "url": "https://www.postman.com/support", "name": "Support Center"},
+        { "url": "https://www.postman.com/support/", "name": "Support Center"},
         { "url": "https://pages.postman.com/Resellers-Support.html", "name": "Resellers Support"}
       ]
     },
@@ -72,7 +72,7 @@
     },
     {
       "type": "link",
-      "url": "https://www.postman.com/legal/privacy-policy",
+      "url": "https://www.postman.com/legal/privacy-policy/",
       "name": "Privacy"
     },
     {
