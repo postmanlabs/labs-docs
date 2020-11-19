@@ -31,9 +31,9 @@ You can use version control with your Postman Collections by forking and merging
 
 ## Forking a collection
 
-To fork a collection in Postman, select the collection in the __Collections__ sidebar, and click __View more actions__ (__...__), and select __Create a fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps — login to Postman, fill up fork details and enable your public profile.
+To fork a collection in Postman, select the collection in the __Collections__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps — login to Postman, fill up fork details and enable your public profile.
 
-<img src="https://assets.postman.com/postman-docs/create-a-fork-v2.jpg" alt="Create Fork" width="250px"/>
+<img src="https://assets.postman.com/postman-docs/create-a-fork-v2.jpg" alt="Create Fork" width="300px"/>
 
 Enter a label for your fork, and select a workspace to save it to. Click __Fork Collection__.
 
@@ -45,7 +45,7 @@ Your fork will be created in the selected workspace.
 
 ### Forking information
 
-To fork a collection within a public workspace, you must enable your public profile. Navigate to __Edit Profile__ and enable __Make Profile Public__. Your username should consist of only only alphanumeric characters and hyphens. If you do not have a public profile, the screen shows a dialog box — once you have entered a valid username, click __Enable public profile__.
+To fork a collection within a public workspace, you must enable your public profile. Navigate to [__Edit Profile__](https://go.postman.co/settings/me) and enable __Make Profile Public__. Your username should consist of only only alphanumeric characters and hyphens. If you do not have a public profile, the screen shows a dialog box — once you have entered a valid username, click __Enable public profile__.
 
 <img src="https://assets.postman.com/postman-docs/enable-public-profile.jpg" alt="Enable public profile" width="350px"/>
 
