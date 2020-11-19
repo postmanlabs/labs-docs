@@ -89,22 +89,22 @@ class FooterComponent extends React.Component {
       {/* ITEMS */}
       <div className="row mt-2 justify-content-center items_border">
 				<div className="col-sm-12 d-sm-flex mb-4 justify-content-center text-center">
-					<div className="mr-3 pr-sm-3 pl-sm-2 items_line">
+					<div className="mr-2 pr-sm-3 pl-sm-2 items_line">
 						<a href="https://www.postman.com/postman-galaxy" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Postman Galaxy</span></a>
 					</div>
-					<div className="mr-3 pr-sm-3 pl-sm-2 items_line">
+					<div className="mr-2 pr-sm-3 pl-sm-2 items_line">
 						<a href="https://www.postman.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Privacy Policy</span></a>
 					</div>
-					<div className="mr-3 pr-sm-3 pl-sm-2 items_noline">
+					<div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
 						<a href="https://www.postman.com/legal/eula/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Terms</span></a>
 					</div>
-					<div className="mr-3 pr-sm-3 pl-sm-2 items_noline">
+					<div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
 						<a href="https://www.postman.com/company/careers/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Careers</span></a>
 					</div>
-					<div className="mr-3 pr-sm-3 pl-sm-2 items_noline">
+					<div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
 						<a href="https://www.postman.com/support/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Support</span></a>
 					</div>
-					<div className="mr-3 pr-sm-3 pl-sm-2 items_noline">
+					<div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
 						<a href="https://www.postman.com/security" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Security</span></a>
 					</div>
 				</div>
