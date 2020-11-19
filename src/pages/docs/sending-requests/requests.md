@@ -327,9 +327,9 @@ The next generation processor will encode characters depending on where they occ
 | ------------- | -------------------- |
 | Path | `"` `<` `>` `` ` `` `#` `?` `{` `}` `SPACE` |
 | Query | `"` `#` `&` `'` `<` `=` `>` `SPACE` |
-| Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` <code>\|</code> `SPACE` |
+| Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` | `SPACE` |
 
-You can use the next generation processor in Postman at any time. You can also turn off encoding if you are working with an unusual server implementation.
+The next generation processor will be turned on by default in your Postman app, however you can turn if off and revert to legacy processing if you prefer. You can also turn off encoding if you are working with an unusual server implementation.
 
 To configure URL encoding, first open your Postman __Settings__ (at the top right) and toggle the __Use next generation URL processing__ option.
 

@@ -7,44 +7,58 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to Monitoring"
+    name: "Intro to monitoring"
     url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+  - type: section
+    name: "Next steps"
+  - type: link
+    name: "Integrations for monitoring"
+    url: "/docs/integrations/intro-integrations/"
 ---
 
 > __[Static IP address monitoring is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
 
-Postman Monitors access APIs from dynamic IP addresses and does not provide the option to use static IP addresses by default. For users who want to test APIs behind a whitelist restricted firewall you must request this from the [support team](https://www.postman.com/support/).
+Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall. This feature is available to all Postman Business and Enterprise customers, provided your IT team [whitelists](#whitelisting-static-ip-addresses) the associated static IP addresses.
 
-By whitelisting a single static IP address, customers can monitor their APIs using Postman’s monitoring service, while conforming to company security policies.
+The provided static IP addresses are fixed to their specified region and shared by all customers who utilize this feature.
 
-Note that monitoring APIs using a static IP address is available for all Postman Business and Enterprise customers. However, the static IP is a US address.
+## Contents
 
-When the static IP option is enabled, users can create a new monitor or change an existing monitor to run using a static IP address.
+* [Whitelisting static IP addresses](#whitelisting-static-ip-addresses)
+
+* [Creating a new monitor to run from a static IP address](#creating-a-new-monitor-to-run-from-a-static-ip-address)
+
+* [Changing an existing monitor to run from a static IP address](#changing-an-existing-monitor-to-run-from-a-static-ip-address)
+
+* [Next steps](#next-steps)
+
+## Whitelisting static IP addresses
+
+Static IP addresses are available for US east and US west regions. Contact your IT team to whitelist the following IP addresses:
+
+* US East: `34.201.186.27`
+* US West: `52.89.173.88`
 
 ## Creating a new monitor to run from a static IP address
 
-In the Postman app, click the "Build" dropdown menu and select "Browse".
+When [creating a new monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#creating-a-monitor), opt to **Manually Select Region**. Select your desired static IP regions, then click **Create**.
 
-Choose the collection you want to monitor, click the ellipsis **(...)** icon, and select "Monitor Collection".
+<img src="https://assets.postman.com/postman-docs/static-ip-select-region.jpg" height="450px" alt="Select regions"/>
 
-[![ellipsis menu](https://assets.postman.com/postman-docs/ENT-mock-collection2.png)](https://assets.postman.com/postman-docs/ENT-mock-collection2.png)
+## Changing an existing monitor to run from a static IP address
 
-In the **MONITOR COLLECTION** modal, [enter the name and select the environment of the monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).  
+In Postman, select **Browse** in the bottom-right corner.
 
-In "Regions", select "US (Static IP)" to monitor the collection from a static IP address. You can also [specify a monitor to run in one or more regions](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).
+<img src="https://assets.postman.com/postman-docs/browse-button-selected.jpg" width="400px" alt="Browse menu"/>
 
-Click the **Monitor this collection** button to complete the process.
+Select **Monitors**, then locate your monitor and click **Edit**.
 
-### Changing an existing monitor to run from a static IP address
+![Edit monitor](https://assets.postman.com/postman-docs/edit-monitor-button.jpg)
 
-In the Postman app, click the "Build" dropdown menu and select "Browse".
+Under **Regions**, opt to **Select regions manually**. Select your desired static IP regions, then click **Save Changes**.
 
-[![build menu](https://assets.postman.com/postman-docs/WS-build-menu1.png)](https://assets.postman.com/postman-docs/WS-build-menu1.png)
+<img src="https://assets.postman.com/postman-docs/select-regions-in-web.jpg" width="400px" alt="Selecting regions"/>
 
-At the top of the page, select "Monitors".
+## Next steps
 
-Choose the monitor and click the **Edit** button.
-
-In the **EDIT MONITOR** modal, select "US (Static IP)" in "Regions" and click the **Save Changes** button to complete the process.
-
-[![static IP monitor](https://assets.postman.com/postman-docs/ENT-select-staticIP2.png)](https://assets.postman.com/postman-docs/ENT-select-staticIP2.png)  
+Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results.

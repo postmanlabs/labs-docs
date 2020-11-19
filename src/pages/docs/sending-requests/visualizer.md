@@ -17,8 +17,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Learn about Visualizer"
+    url: "https://www.youtube.com/watch?v=nQNbdfKKQfc"
+  - type: link
     name: "Visualizer demo"
-    url: "https://www.youtube.com/watch?v=Qj7j3QsY2ok"
+    url: "https://www.youtube.com/watch?v=i1jU-kivApg"
   - type: subtitle
     name: "Templates"
   - type: link
@@ -55,7 +58,9 @@ Visualizers let you present your response data in ways that help to make sense o
 
 ## Visualizing response data
 
-`video: https://www.youtube.com/watch?v=i1jU-kivApg`
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i1jU-kivApg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
 
 To visualize your response data, add code to the __Pre-request__ or __Tests__ [script](/docs/writing-scripts/intro-to-scripts/) for the request. The `pm.visualizer.set()` method will apply your visualizer code to the data and present it in the __Visualize__ tab when the request runs.
 

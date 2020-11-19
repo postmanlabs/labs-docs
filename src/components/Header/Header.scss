@@ -87,3 +87,22 @@
     display: none;
   }
 }
+
+.ais-Pagination-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row; 
+  a {
+    color: $gray-2;
+    &:hover {
+      color: $postman-orange;
+    }
+  }
+
+  li {
+    padding: 5px;
+  }
+  .ais-Pagination-link--selected {
+    color: $postman-orange;
+  }
+}

@@ -33,7 +33,9 @@ In the header of Postman, click the wrench icon and select "Settings" to open th
 
 ## General Settings
 
-Postman tries to minimize the number of settings you have to change, so some defaults are automatically set. However, given the diversity of use cases, if you need to make adjustments, here's how:
+Postman tries to minimize the number of settings you have to change, so some defaults are automatically set. You can customize your settings based on your use case.
+
+[![app settings](https://assets.postman.com/postman-docs/app-settings.jpg)](https://assets.postman.com/postman-docs/app-settings.jpg)
 
 ### Request
 
@@ -51,18 +53,28 @@ Postman tries to minimize the number of settings you have to change, so some def
 
 ### Working Directory
 
-If you want Postman to persist your file paths, then you must save your files in Postman's default working directory. When you work with files in form-data request body and binary file body, save them in this directory to let Postman persist your file's path relative to the working directory. This means your files loaded from within the working directory run smoothly across devices if other users use the same files on their devices. Postman flags a warning for files that are not stored in this directory.
+If you want Postman to persist your file paths, then you must save your files in Postman's default working directory. When you work with files in form-data request bodies and binary file bodies, save them to this directory to let Postman persist your file's path relative to the working directory. This means your files loaded from within the working directory run smoothly across devices if other users use the same files on their devices. It also allows you to run collections that require file uploads with [Newman](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
-  However, delimiting the working directory can have some unintended security issues as follows:
+Postman flags a warning for files that are not stored in this directory.
+
+However, delimiting the working directory can have some unintended security issues as follows:
   
   1. It is against the general principle of security to give system-wide access to a program as it exposes a user's system to all types of threats.
-  1. To further elaborate on the above statement, restricting the working directory would prevent safety issues arising when files obtained from external/anonymous sources are used. For example, a collection that the user has obtained from the internet. The user may or may not have proper information about the collection and as such may not understand if the collection serves some other hidden function.
-  1. Absolute file path can also be given to postman, but when sharing it may not work for the user it is shared to as absolute paths can vary between systems.
+  2. Restricting the working directory would prevent safety issues arising when files obtained from external/anonymous sources are used. For example, a collection that the user has obtained from the internet. The user may or may not have proper information about the collection and as such may not understand if the collection serves some other hidden function.
+  3. Absolute file path can also be given to postman, but when sharing it may not work for the user it is shared to as absolute paths can vary between systems.
 
-   To learn more about this feature, refer to [Sending body data](/docs/sending-requests/requests/#sending-body-data)
+To learn more about this feature, refer to [Sending body data](/docs/sending-requests/requests/#sending-body-data).
 
-* **Location** Path to local directory containing postman files.
-* **Allow reading files outside working directory:** Set this option to ON if you want Postman to read files from outside the Postman working directory. Postman also persists your file paths in form-data request and binary file bodies. To learn more about this feature, refer to [Sending body data](/docs/sending-requests/requests/#sending-body-data).
+* **Location** Path to local directory containing postman files. The default path populated as a placeholder is `~/Postman/files`.
+* **Allow reading files outside working directory:** Set this option to ON if you want Postman to read files from outside the Postman working directory. Postman persists your file paths for binary file and form-data request bodies. To learn more about this feature, refer to [Sending body data](/docs/sending-requests/requests/#sending-body-data).
+
+You may encounter errors for file reference:
+
+1. Mini warning ⚠️ icons will be appear when the specified file reference does not exist or the setting to read it from outside PWD is disabled.
+
+2. The [Postman console](/docs/sending-requests/troubleshooting-api-requests/#using-the-console) will display a warning for file reading errors. It will also display errors if a  collection wants to read a file outside the working directory and the setting for it is disabled.
+
+3. For Newman, it will read from the default working directory and can be modified using CLI options. File reading errors are displayed as console errors. You can utilize Newman [verbose mode](https://github.com/postmanlabs/newman#command-line-options) to find more information about these errors.
 
 ### Headers
 

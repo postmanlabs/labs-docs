@@ -161,7 +161,7 @@ const Footer = () => (
               <li className="list-inline-item">
                 <a
                   id="youtube_icon"
-                  href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
+                  href="https://www.youtube.com/postmanapidevelopment"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -212,7 +212,7 @@ const Footer = () => (
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.postman.com/licenses/privacy"
+                  href="https://www.postman.com/legal/privacy-policy/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -221,11 +221,11 @@ const Footer = () => (
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.postman.com/licenses/postman_eula"
+                  href="https://www.postman.com/legal/eula/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="footer-column__link">EULA</span>
+                  <span className="footer-column__link">Terms</span>
                 </a>
               </li>
             </ul>

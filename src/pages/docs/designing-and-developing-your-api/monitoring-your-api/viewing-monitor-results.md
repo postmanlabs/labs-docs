@@ -49,6 +49,8 @@ Your Postman Dashboard allows you to track the health and performance of your AP
 
     * [Console log](#console-log)
 
+    * [Activity log](#activity-log)
+
 * [Next steps](#next-steps)
 
 ## Viewing monitors in the Dashboard
@@ -74,6 +76,8 @@ You can use the **Monitor Summary** to see how your APIs have performed over tim
 The upper section charts your monitor's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact response time and failed percent, you can hover over each run individually.
 
 ![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-view.jpg)
+
+> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/postman/monitors/viewing-monitor-results/#console-log).
 
 ### Request split
 
@@ -154,6 +158,14 @@ This section logs monitor run details along with the [`console.log`](/docs/sendi
 > If your monitor is configured to run in multiple regions, you can view the console logs for a particular region by selecting that region from the dropdown to the right of the **Console Log** tab.
 
 You can use this console to both troubleshoot issues and learn more about an individual run's behavior.
+
+### Activity log
+
+You can view a monitor's activity logs by selecting **...** in the upper-right corner > **View activity logs**.
+
+<img src="https://assets.postman.com/postman-docs/monitor-activity-log.jpg" width="400px" alt="Activity log"/>
+
+You can check these logs to learn when a monitor was created, edited, paused, or resumed running, and which team member performed each action.
 
 ## Next steps
 

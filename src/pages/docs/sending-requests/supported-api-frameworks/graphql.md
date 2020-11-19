@@ -18,6 +18,11 @@ contextual_links:
   - type: link
     name: "Working with GraphQL template"
     url: "https://explore.postman.com/templates/1692/working-with-graphql"
+  - type: subtitle
+    name: "Video"
+  - type: link
+    name: "GraphQL in Postman Demo"
+    url: "https://youtu.be/7pUbezVADQs"
   - type: section
     name: "Next Steps"
   - type: link
@@ -42,6 +47,10 @@ Try it out in Postman with this [example template](https://explore.postman.com/t
 [![graphql template](https://i.imgur.com/Ic70c1G.png)](https://i.imgur.com/Ic70c1G.png)
 
 ## Sending a GraphQL query
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7pUbezVADQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
 
 There's a few ways for you to author and send a GraphQL query in Postman. The following screen illustrates one way to send a GraphQL query using Postman's inbuilt support.
 

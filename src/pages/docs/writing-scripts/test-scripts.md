@@ -44,6 +44,9 @@ contextual_links:
   - type: link
     name: "Acing your API tests"
     url:  "https://medium.com/better-practices/acing-your-apis-what-you-need-to-know-for-test-automation-e3fdba3519b9"
+  - type: link
+    name: "Extracting data from responses and chaining requests"
+    url:  "https://blog.postman.com/extracting-data-from-responses-and-chaining-requests/"
   - type: section
     name: "Next Steps"
   - type: link

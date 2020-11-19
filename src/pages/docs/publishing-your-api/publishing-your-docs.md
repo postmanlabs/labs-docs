@@ -29,7 +29,7 @@ contextual_links:
 warning: false
 ---
 
-You can publish your API documentation to make it available for public viewing by anyone who has the link. Published documentation) allows anyone who wants to learn how to use your API to view detail on endpoints, including parameters, request and response bodies, and example code.
+You can publish your API documentation to make it available for public viewing by anyone who has the link. Published documentation allows anyone who wants to learn how to use your API to view detail on endpoints, including parameters, request and response bodies, and example code.
 
 [![postman API docs](https://i.imgur.com/jNF08qQ.png)](https://i.imgur.com/jNF08qQ.png)
 
@@ -85,7 +85,9 @@ You can configure the style of your public docs by selecting colors for the head
 
 ![Style Docs](https://assets.postman.com/postman-docs/Customizing+public+docs+layout.jpg)
 
-You can customize the style of your public docs by adding a team name and logo via your [team settings](/docs/administration/team-settings/) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
+You can customize the style of your public docs by adding a team name and logo via your [team settings](https://go.postman.co/settings/team/general) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
+
+> You can make changes to styling after publishing your docs by heading to the [Postman Dashboard](https://go.postman.co/workspaces) and navigating to your published collection. Select **Published** in the upper-right corner > **Edit Published Documentation** > **Edit settings**. Make your changes and click **Save and republish collection** to update.
 
 ## Sharing your public docs
 
@@ -111,6 +113,8 @@ Your team profile can include a name, description, custom URL, and logo.
 Add listing details for your public documentation, including name, summary, description, and relevant tags.
 
 ![Listing Detail](https://assets.postman.com/postman-docs/listing-detail.jpg)
+
+> If you edit your published docs, the changes will not automatically be reflected in your API network or template listing, so you will need to update the details displayed at [explore.postman.com](https://explore.postman.com) manually.
 
 If you do not want to make your docs discoverable at this time, you can go ahead and publish then add them to the API Network or Postman Templates later.
 

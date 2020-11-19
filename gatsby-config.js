@@ -8,6 +8,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
+
 module.exports = {
   siteMetadata: {
     title: 'Postman Learning Center',
@@ -16,24 +17,25 @@ module.exports = {
     siteUrl: 'https://learning.postman.com',
   },
   plugins: [
-    // {
-    //   resolve: 'gatsby-plugin-google-analytics',
-    //   options: {
-    //     // The property ID; the tracking code won't be generated without it
-    //     trackingId: 'UA-43979731-4',
-    // eslint-disable-next-line max-len
-    //     // Defines where to place the tracking script - `true` in the head and `false` in the body
-    //     head: true,
-    //     // Setting this parameter is optional
-    //     anonymize: true,
-    //     // Setting this parameter is also optional
-    //     respectDNT: true,
-    //     // Delays sending pageview hits on route update (in milliseconds)
-    //     pageTransitionDelay: 1000,
-    //     // Defers execution of google analytics script after page load
-    //     defer: true,
-    //   },
-    // },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: 'UA-43979731-4',
+        // eslint-disable-next-line max-len
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 1000,
+        // Defers execution of google analytics script after page load
+        defer: true,
+      },
+    },
+    'gatsby-plugin-polyfill-io',
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
@@ -76,32 +78,27 @@ module.exports = {
       options: {
         plugins: [
           'gatsby-remark-autolink-headers',
-          {
-            resolve: 'gatsby-remark-embed-video',
-            options: {
-              width: 700,
-              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-              height: 400, // Optional: Overrides optional.ratio
-              // Optional: Will remove related videos from the end of an embedded YouTube video.
-              related: false,
-              noIframeBorder: true, // Optional: Disable insertion of <style> border: 0
-            },
-          },
+          // {
+          //   resolve: 'gatsby-remark-embed-video',
+          //   options: {
+          //     width: 700,
+          //     ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+          //     height: 400, // Optional: Overrides optional.ratio
+          //     // Optional: Will remove related videos from the end of an embedded YouTube video.
+          //     related: false,
+          //     noIframeBorder: true, // Optional: Disable insertion of <style> border: 0
+          //   },
+          // },
           'gatsby-remark-responsive-iframe',
-        ],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
-      options: {
-        fonts: [
           {
-            family: 'Roboto',
-            variants: ['400', '500'],
-          },
-          {
-            family: 'Open Sans',
-            variants: ['400', '700'],
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
           },
         ],
       },
@@ -164,3 +161,4 @@ module.exports = {
     },
   ],
 };
+

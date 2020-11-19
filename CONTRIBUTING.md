@@ -26,7 +26,7 @@ _GitHub desktop is much easier if you're unfamiliar with using git / GitHub on t
 * Open a Pull Request to the postman-docs repo
     * Navigate to the [postman-docs](https://github.com/postmanlabs/postman-docs) repo
     * Click `New pull request`
-    * Click `Compare accross forks`
+    * Click `Compare across forks`
     * Select `base repository: postmanlabs/postman-docs`
     * Select `base branch: develop`
     * Select `head repository: <YOUR FORKED REPOSITORY>`
@@ -39,7 +39,7 @@ Your pull request will be reviewed and we'll get back to you!
 
 When your PR is opened it will run GitHub Actions which will lint the markdown files to ensure that they follow our [guidelines](https://github.com/DavidAnson/vscode-markdownlint).
 
-Upon approval your PR will be merged into develop for further verification and then merged into master upon final approval.
+Upon approval your PR will be merged into develop for further verification and then merged into master upon final approval. Please delete your branch once it's been merged to develop to help maintain a clean repository.
 
 [homepage]: https://learning.postman.com
 

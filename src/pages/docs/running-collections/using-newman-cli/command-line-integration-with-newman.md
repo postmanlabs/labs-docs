@@ -39,13 +39,14 @@ Newman maintains feature parity with Postman and allows you to run collections t
 
 Newman resides in the [NPM registry](https://www.npmjs.org/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
-[![newman gif](https://assets.postman.com/postman-docs/newman.gif)](https://assets.postman.com/postman-docs/newman.gif)
+[![newman gif](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
 
 We'll cover these topics to learn command line integration with Newman:
 
 * [Getting Started](#getting-started)
 * [Options](#options)
 * [Example collection with failing tests](#example-collection-with-failing-tests)
+* [Using Newman with CI/CD](#using-newman-with-cicd)
 * [File uploads](#file-uploads)
 * [Library](#library)
 * [Custom reporters](#custom-reporters)
@@ -214,7 +215,11 @@ $ newman run mycollection.json --reporters cli,json --reporter-json-export outpu
 
 **Note:** Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
 
-### File uploads
+## Using Newman with CI/CD
+
+By default, Newman exits with a status code of 0 if everything runs as expected with no exceptions. You can configure your continuous integration tools to respond to Newman's exit codes and correspondingly pass or fail a build. You can also utilize the `--bail` flag to make Newman stop the run if it encounters a test case error with a status code of 1, which can then be picked up by your CI tool or build system.
+
+## File uploads
 
 Newman also supports file uploads. For this to work correctly, upload the file in the relative location specified in the collection. For instance, review this collection:
 
@@ -362,7 +367,7 @@ newman.run({
 
 In both cases above, the reporter options are optional.
 
-For the complete list of details, see the [Newman README](https://github.com/postmanlabs/newman).
+For the complete documentation, see the [Newman README](https://github.com/postmanlabs/newman).
 
 For more information about collection runs, see:
 
