@@ -49,6 +49,10 @@ If you are using the Postman Chrome app, refer to [Using the Interceptor with Po
 
 * [Security](#security)
 
+    * [Adding a custom encryption key in the UI](#adding-a-custom-encryption-key-in-the-ui)
+
+    * [Adding a custom encryption key with the pm API](#adding-a-custom-encryption-key-with-the-pm-api)
+
 * [Updating Interceptor](#updating-interceptor)
 
 * [Using Interceptor with Postman's Chrome app](#using-the-interceptor-with-postmans-chrome-app)
@@ -194,7 +198,23 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
 
 ## Security
 
-The communication between Interceptor and Postman is encrypted. You can change the default encryption key for additional security by opening the Postman app and heading to **View** > **Developer** > **Show DevTools (Current View)** > **Console**, then entering `pm.interceptorBridge.setKey("<your key here>")`.
+The communication between Interceptor and Postman is automatically encrypted. You can make that communication even more secure by adding a custom encryption key.
+
+### Adding a custom encryption key in the UI
+
+Open Postman and select the Interceptor satellite icon, then click the lock icon.
+
+<img src="https://assets.postman.com/postman-docs/set-encryption-in-app.jpg" width="350px" alt="Set encryption in app"/>
+
+Enter an alphanumeric key of 10 or more characters and **Save key**. Then, open your browser and select the Interceptor extension. Click the lock icon, enter the same key, then **Save key**. Both the app and browser will confirm the **Connection is secure**.
+
+<img src="https://assets.postman.com/postman-docs/set-encryption-in-browser.jpg" width="350px" alt="Set encryption in browser"/>
+
+> If the keys do not match, an alert will appear in the UI to resolve the discrepancy.
+
+### Adding a custom encryption key with the pm API
+
+You can also update the default encryption key by utilizing the [pm API](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#the-pm-object). To do so, open Postman and select **View** > **Developer** > **Show DevTools (Current View)** > **Console**, then enter `pm.interceptorBridge.setKey("<your key here>")`.
 
 For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right click on the Interceptor icon in your browser, select **Inspect Popup** > **Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will now be encrypted using your own key.
 

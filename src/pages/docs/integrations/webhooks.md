@@ -17,6 +17,16 @@ Postman provides a custom webhook integration which enables you to automate work
 
 You can configure a custom webhook with Postman to send events such as monitor results, team and collection-specific activity feeds, and to back up your Postman Collections.
 
+## Static IP Support
+
+If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to custom webhooks on custom domains.
+
+Contact your IT team to whitelist the following static IP in your firewall to enable collection backups to webhooks:
+
+* US East: `3.212.102.200`
+
+Once you whitelist this IP address, calls for the custom webhook will be able to connect to your network and allow the webhook to work as expected.
+
 ## Configuring custom webhook URL
 
 1. In the [Integrations](https://go.postman.co/workspaces) tab for your selected workspace, select Webhooks from the list of third party integrations.
@@ -36,6 +46,7 @@ You can use custom webhooks to back up your Postman collections. This will requi
    * Enter any name
    * Select the collection.
    * Enter the webhook URL.
+
 3. Click **Add Integration**.
 
 [![webhooks collections1](https://assets.postman.com/postman-docs/webhooks_collections1.png)](https://assets.postman.com/postman-docs/webhooks_collections1.png)

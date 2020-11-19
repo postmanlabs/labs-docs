@@ -478,9 +478,9 @@ There may be occasions where you expect a test to fail and it doesn't.
 
 ```js
 //test function not properly defined - missing second parameter
-pm.test("Not failing"), function() {
+pm.test("Not failing", function () {
     pm.expect(true).to.eql(false);
-};
+});
 ```
 
 Make sure your test code is syntactically correct and try sending your request again.

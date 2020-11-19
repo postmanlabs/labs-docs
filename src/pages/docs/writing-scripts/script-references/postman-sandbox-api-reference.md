@@ -1,330 +1,657 @@
 ---
-title: "Postman Sandbox"
+title: "Postman JavaScript reference"
 order: 47
 page_id: "postman_sandbox_api_reference"
-search_keyword: "pm.info, eventName, iteration, iterationCount, requestName, requestId, pm.sendRequest, sendRequest, pm.expect, pm.test, pm.variables.has, variables.has, pm.variables.get, variables.get, pm.variables.toObject, variables.toObject, pm.variables.set, variables.set, pm.environment.name, environment.name, pm.environment.has, environment.has, pm.environment.get, environment.get, pm.environment.set, environment.set, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.environment.toObject, environment.toObject,  pm.environment.replaceIn, environment.replaceIn, pm.collectionVariables.has, collectionVariables.has, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.set, collectionVariables.set, pm.collectionVariables.unset, collectionVariables.unset, pm.collectionVariables.clear, collectionVariables.clear, pm.collectionVariables.toObject, collectionVariables.toObject, pm.collectionVariables.replaceIn, collectionVariables.replaceIn, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.set, globals.set, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, pm.globals.toObject, globals.toObject pm.globals.replaceIn, globals.replaceIn, pm.request.url, request.url, pm.request.method, request.method, pm.request.body, request.body, pm.request.headers, request.headers, request.headers.add, headers.add, pm.request.headers.add, pm.request.headers.remove, request.headers.remove, headers.delete, pm.request.headers.upsert, request.headers.upsert, headers.upsert, pm.response.code, response.code, pm.response.status, response.status, pm.response.headers, response.headers, pm.response.responseTime, response.responseTime, pm.response.responseSize, response.responseSize, pm.response.text, response.text, pm.response.json, response.json, pm.iterationData.get, iterationData.get, pm.iterationData.toObject, iterationData.toObject, pm.iterationData.addLayer, iterationData.addLayer, pm.iterationData.clear, iterationData.clear, pm.iterationData.has, iterationData.has, pm.iterationData.set, iterationData.set, pm.iterationData.syncVariablesFrom, iterationData.syncVariablesFrom, pm.iterationData.syncVariablesTo, iterationData.syncVariablesTo, pm.iterationData.toJSON, iterationData.toJSON, pm.iterationData.unset, iterationData.unset, pm.iterationData.variables, iterationData.variables, pm.iterationData.isVariableScope, iterationData.isVariableScope, pm.cookies.has, cookies.has, pm.cookies.get, cookies.get, pm.cookies.toObject, cookies.toObject, pm.cookies.jar, cookies.jar, jar.set, jar.getAll, jar.unset, jar.clear, pm.response.to.have, response.to.have, pm.response.to.be, response.to.be"
+search_keyword: "pm.info, eventName, iteration, iterationCount, requestName, requestId, pm.sendRequest, sendRequest, pm.expect, pm.test, pm.variables.has, variables.has, pm.variables.get, variables.get, pm.variables.toObject, variables.toObject, pm.variables.set, variables.set, pm.environment.name, environment.name, pm.environment.has, environment.has, pm.environment.get, environment.get, pm.environment.set, environment.set, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.environment.toObject, environment.toObject,  pm.environment.replaceIn, environment.replaceIn, pm.collectionVariables.has, collectionVariables.has, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.set, collectionVariables.set, pm.collectionVariables.unset, collectionVariables.unset, pm.collectionVariables.clear, collectionVariables.clear, pm.collectionVariables.toObject, collectionVariables.toObject, pm.collectionVariables.replaceIn, collectionVariables.replaceIn, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.set, globals.set, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, pm.globals.toObject, globals.toObject pm.globals.replaceIn, globals.replaceIn, pm.request.url, request.url, pm.request.method, request.method, pm.request.body, request.body, pm.request.headers, request.headers, request.headers.add, headers.add, pm.request.headers.add, pm.request.headers.remove, request.headers.remove, headers.delete, pm.request.headers.upsert, request.headers.upsert, headers.upsert, pm.response.code, response.code, pm.response.status, response.status, pm.response.headers, response.headers, pm.response.responseTime, response.responseTime, pm.response.responseSize, response.responseSize, pm.response.text, response.text, pm.response.json, response.json, pm.iterationData.get, iterationData.get, pm.iterationData.toObject, iterationData.toObject, pm.iterationData.clear, iterationData.clear, pm.iterationData.has, iterationData.has, pm.iterationData.set, iterationData.set, pm.iterationData.toJSON, iterationData.toJSON, pm.iterationData.unset, iterationData.unset, pm.iterationData.variables, iterationData.variables, pm.cookies.has, cookies.has, pm.cookies.get, cookies.get, pm.cookies.toObject, cookies.toObject, pm.cookies.jar, cookies.jar, jar.set, jar.getAll, jar.unset, jar.clear, pm.response.to.have, response.to.have, pm.response.to.be, response.to.be"
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Sending requests"
-    url: "/docs/sending-requests/requests/"
+    name: "Scripting in Postman"
+    url: "/docs/writing-scripts/intro-to-scripts/"
   - type: link
-    name: "Using variables"
-    url: "/docs/sending-requests/variables/"
+    name: "Test script examples"
+    url: "/docs/writing-scripts/script-references/test-examples/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Command line integration with Newman"
-    url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+    name: "Developing with Postman utilities"
+    url: "/docs/developer/resources-intro/"
 
 warning: false
 ---
 
-_Note: The functionality described here is exclusive to Postman's native apps for Mac, Windows, and Linux._
+Postman provides JavaScript APIs that you can use in your request scripts. The `pm` object provides most of the functionality for testing your request and response data, with the `postman` object providing some additional workflow control.
 
-## Global functions (pm.*)
+## Contents
 
-### require
+* [The pm object](#the-pm-object)
+    * [Using variables in scripts](#using-variables-in-scripts)
+        * [Environment variables](#using-environment-variables-in-scripts)
+        * [Collection variables](#using-collection-variables-in-scripts)
+        * [Global variables](#using-global-variables-in-scripts)
+        * [Data variables](#using-data-variables-in-scripts)
+    * [Scripting with request and response data](#scripting-with-request-and-response-data)
+        * [Request data](#scripting-with-request-data)
+        * [Response data](#scripting-with-response-data)
+        * [Request info](#scripting-with-request-info)
+        * [Cookies](#scripting-with-request-cookies)
+    * [Sending requests from scripts](#sending-requests-from-scripts)
+* [Scripting workflows](#scripting-workflows)
+* [Scripting visualizations](#scripting-visualizations)
+* [Building response data into visualizations](#building-response-data-into-visualizations)
+* [Writing test assertions](#writing-test-assertions)
+* [Using external libraries](#using-external-libraries)
 
-`require(moduleName:String):function → *`
+## The pm object
 
-The `require` function allows you to use the sandbox built-in library modules. The list of available libraries are listed below. The list links to their corresponding documentation.
+You will carry out most of the Postman JavaScript API functionality using `pm.*`, which provides access to request and response data, and variables.
 
-* [ajv](https://www.npmjs.com/package/ajv) → v6.6.2
-* [atob](https://www.npmjs.com/package/atob) → v2.1.2
-* [btoa](https://www.npmjs.com/package/btoa) → v1.2.1
-* [chai](http://chaijs.com/) → v4.2.0
-* [cheerio](https://cheerio.js.org/) → v0.22.0
-* [crypto-js](https://www.npmjs.com/package/crypto-js) → v3.1.9-1
-* [csv-parse/lib/sync](http://csv.adaltas.com/parse) → v1.2.4
-* [lodash](https://lodash.com/) → v4.17.11 (when used with require, the inbuilt `_` object is for v3.10.1)
-* [moment](http://momentjs.com/docs/) → v2.22.2 (sans locales)
-* [postman-collection](http://www.postmanlabs.com/postman-collection/) → v3.4.0
-* [tv4](https://github.com/geraintluff/tv4) → v1.3.0
-* [uuid](https://www.npmjs.com/package/uuid) → (the module loaded is a shim for original module)
-* [xml2js](https://www.npmjs.com/package/xml2js) → v0.4.19
+### Using variables in scripts
 
-A number of NodeJS modules are also available to use in the sandbox:
+You can access and manipulate [variables](/docs/sending-requests/variables/) at each scope in Postman using the `pm` API.
 
-* [path](https://nodejs.org/api/path.html)
-* [assert](https://nodejs.org/api/assert.html)
-* [buffer](https://nodejs.org/api/buffer.html)
-* [util](https://nodejs.org/api/util.html)
-* [url](https://nodejs.org/api/url.html)
-* [punycode](https://nodejs.org/api/punycode.html)
-* [querystring](https://nodejs.org/api/querystring.html)
-* [string-decoder](https://nodejs.org/api/string_decoder.html)
-* [stream](https://nodejs.org/api/stream.html)
-* [timers](https://nodejs.org/api/timers.html)
-* [events](https://nodejs.org/api/events.html)
+> You can use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) to generate values when your requests run.
 
-In order to use a library, simply call the `require` function and pass the module name as a parameter and assign the return of the function to a variable.
+Postman supports a variety of variable [scopes](/docs/sending-requests/variables/#variable-scopes). The `pm` object provides methods for accessing global, collection, and environment variables specifically, and `pm.variables` methods for accessing variables at different scopes as well as setting local variables.
 
-```javascript
-var atob = require('atob'),
-    _ = require('lodash'),
+* Check if there is a Postman variable in the current scope:
 
-    arrayOfStrings,
-    base64Strings;
-
-arrayOfStrings = ['string1', 'string2'];
-
-base64Strings = _.map(arrayOfStrings, atob);
-
-console.log(base64Strings);
+```js
+pm.variables.has(variableName:String):function → Boolean
 ```
 
-### pm
+* Get the value of the Postman variable with the specified name:
 
-`pm:Object`
+```js
+pm.variables.get(variableName:String):function → *
+```
 
-The `pm` object encloses all information pertaining to the script being executed and allows one to access a copy of the request being sent or the response received. It also allows one to get and set environment and global variables.
+* Set a local variable with the specified name and value:
 
-`pm.info:Object`
+```js
+pm.variables.set(variableName:String, variableValue:*):function
+```
 
-The `pm.info` object contains information pertaining to the script being executed. Useful information such as the request name, request Id, and iteration count are stored inside of this object.
+* Return the resolved value of a dynamic variable inside a script using the syntax `{{$variableName}}`:
 
-* `pm.info.eventName:String`
+```js
+pm.variables.replaceIn(variableName:String):function: → *
+```
 
-   Contains information whether the script being executed is a "prerequest" or a "test" script.
+> For example:
 
-* `pm.info.iteration:Number`
+```js
+const stringWithVars = pm.variables.replaceIn("Hi, my name is {{$randomFirstName}}");
+console.log(stringWithVars);
+```
 
-   Is the value of the current iteration being run.
+* Return an object containing all variables with their values in the current scope. Based on the order of precedence, this will contain variables from multiple scopes.
 
-* `pm.info.iterationCount:Number`
+```js
+pm.variables.toObject():function → Object
+```
 
-   Is the total number of iterations that are scheduled to run.
+Variable scope determines the precedence Postman gives to variables when you reference them, in order of increasing precedence:
 
-* `pm.info.requestName:String`
+* Global
+* Environment
+* Collection
+* Data
+* Local
 
-  The saved name of the individual request being run.
+The variable with the closest scope overrides any others. For example, if you have variables named `score` in both the current collection and the active environment, and you call `pm.variables.get('score')`, Postman will return the current value of the environment variable. When you set a variable value using `pm.variables.set`, the value is local and will only persist for the current request or collection run.
 
-* `pm.info.requestId:String`
+```js
+//collection var 'score' = 1
+//environment var 'score' = 2
 
-  The unique guid that identifies the request being run.
+//first request run
+console.log(pm.variables.get('score'));//outputs 2
+console.log(pm.collectionVariables.get('score'));//outputs 1
+console.log(pm.environment.get('score'));//outputs 2
 
-### pm.sendRequest
+//second request run
+pm.variables.set('score', 3);//local var
+console.log(pm.variables.get('score'));//outputs 3
 
-**`pm.sendRequest:Function`**
+//third request run
+console.log(pm.variables.get('score'));//outputs 2
+```
 
-The `pm.sendRequest` function allows sending HTTP/HTTPS requests asynchronously. Simply put, with asynchronous scripts, you can execute logic in the background if you have a heavy computational task or are sending multiple requests. Instead of waiting for a call to complete and blocking any next requests, you can designate a callback function and be notified when an underlying operation has finished.
+> See the [Postman Collection SDK Variables reference](https://www.postmanlabs.com/postman-collection/Variable.html) for more detail.
 
-Some things to know about `pm.sendRequest()`:
+You can also access variables defined in the individual scopes via [pm.environment](#scripting-with-environment-variables), [pm.collectionVariables](#scripting-with-collection-variables), and [pm.globals](#scripting-with-global-variables).
 
-* The method accepts a collection SDK compliant request and a callback. The callback receives two arguments, an error (if any) and an SDK-compliant response. Refer to [Collection SDK Documentation](http://www.postmanlabs.com/postman-collection/Request.html#~definition) to view more information.
-* It can be used in the pre-request or the test script.
+#### Using environment variables in scripts
 
-```javascript
-// example with a plain string URL
-pm.sendRequest('https://postman-echo.com/get', function (err, res) {
-    if (err) {
-        console.log(err);
-    } else {
-        pm.environment.set("variable_key", "new_value");
-    }
+Your scripts can use the `pm.environment` methods to access and manipulate variables in the active (currently selected) environment.
+
+* The name of the active environment:
+
+```js
+pm.environment.name:String
+```
+
+* Check whether the environment has a variable with the specified name:
+
+```js
+pm.environment.has(variableName:String):function → Boolean
+```
+
+* Get the variable with the specified name in the active environment:
+
+```js
+pm.environment.get(variableName:String):function → *
+```
+
+* Set the variable with the specified name and value in the active environment:
+
+```js
+pm.environment.set(variableName:String, variableValue:*):function
+```
+
+* Return the resolved value of a dynamic variable inside a script using the syntax `{{$variableName}}`:
+
+```js
+pm.environment.replaceIn(variableName:String):function → *
+```
+
+> For example:
+
+```js
+//environment has vars firstName and age
+const stringWithVars = pm.environment.replaceIn("Hi, my name is {{firstName}} and I am {{age}}.");
+console.log(stringWithVars);
+```
+
+* Return all variables with their values in the active environment in a single object:
+
+```js
+pm.environment.toObject():function → Object
+```
+
+* Remove a variable from the active environment, specifying the variable by name:
+
+```js
+pm.environment.unset(variableName:String):function
+```
+
+* Clear all variables in the active environment:
+
+```js
+pm.environment.clear():function
+```
+
+> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team) in the workspace.
+
+#### Using collection variables in scripts
+
+Your scripts can use the `pm.collectionVariables` methods to access and manipulate variables in the collection.
+
+* Check whether there is a variable in the collection with the specified name:
+
+```js
+pm.collectionVariables.has(variableName:String):function → Boolean
+```
+
+* Return the value of the collection variable with the specified name:
+
+```js
+pm.collectionVariables.get(variableName:String):function → *
+```
+
+* Set a collection variable with the specified name and value:
+
+```js
+pm.collectionVariables.set(variableName:String, variableValue:*):function
+```
+
+* Return the resolved value of a dynamic variable inside a script using the syntax `{{$variableName}}`:
+
+```js
+pm.collectionVariables.replaceIn(variableName:String):function → *
+```
+
+> For example:
+
+```js
+//collection has vars firstName and age
+const stringWithVars = pm.collectionVariables.replaceIn("Hi, my name is {{firstName}} and I am {{age}}.");
+console.log(stringWithVars);
+```
+
+* Return all variables with their values in the collection in an object:
+
+```js
+pm.collectionVariables.toObject():function → Object
+```
+
+* Remove the specified variable from the collection:
+
+```js
+pm.collectionVariables.unset(variableName:String):function
+```
+
+* Clear all variables from the collection:
+
+```js
+pm.collectionVariables.clear():function
+```
+
+#### Using global variables in scripts
+
+Your scripts can use the `pm.globals` methods to access and manipulate variables at global scope within the workspace.
+
+* Check where there is a global variable with the specified name:
+
+```js
+pm.globals.has(variableName:String):function → Boolean
+```
+
+* Return the value of the global variable with the specified name:
+
+```js
+pm.globals.get(variableName:String):function → *
+```
+
+* Set a global variable with specified name and value:
+
+```js
+pm.globals.set(variableName:String, variableValue:*):function
+```
+
+* Return the resolved value of a dynamic variable inside a script using the syntax `{{$variableName}}`:
+
+```js
+pm.globals.replaceIn(variableName:String):function → String
+```
+
+> For example:
+
+```js
+//globals include vars firstName and age
+const stringWithVars = pm.globals.replaceIn("Hi, my name is {{firstName}} and I am {{age}}.");
+console.log(stringWithVars);
+```
+
+* Return all global variables and their values in an object:
+
+```js
+pm.globals.toObject():function → Object
+```
+
+* Remove the specified global variable:
+
+```js
+pm.globals.unset(variableName:String):function
+```
+
+* Clear all global variables in the workspace:
+
+```js
+pm.globals.clear():function
+```
+
+> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team) in the workspace.
+
+#### Using data variables in scripts
+
+Your scripts can use the `pm.iterationData` methods to access and manipulate variables from [data files during a collection run](/docs/running-collections/working-with-data-files/).
+
+* Check whether a variable with the specified name exists in the current iteration data:
+
+```js
+pm.iterationData.has(variableName:String):function → boolean
+```
+
+* Return a variable from the iteration data with the specified name:
+
+```js
+pm.iterationData.get(variableName:String):function → *
+```
+
+* Return the iteration data variables in an object:
+
+```js
+pm.iterationData.toObject():function → Object
+```
+
+* Convert the iterationData object to JSON format:
+
+```js
+pm.iterationData.toJSON():function → *
+```
+
+* Remove the specified variable:
+
+```js
+pm.iterationData.unset(key:String):function
+```
+
+### Scripting with request and response data
+
+A variety of methods provide access to request and response data in Postman scripts, including [pm.request](#scripting-with-request-data), [pm.response](#scripting-with-response-data), [pm.info](#scripting-with-request-info), and [pm.cookies](#scripting-with-request-cookies). Additionally you can send requests using [pm.sendRequest](#sending-requests-from-scripts).
+
+#### Scripting with request data
+
+The `pm.request` object provides access to the data for the request the script is running within. For a **Pre-request Script** this is the request that is about to run, and for a **Test** script this is the request that has already run.
+
+You can use the `pm.request` object pre-request scripts to alter various parts of the request configuration before it runs.
+
+The `pm.request` object provides the following properties and methods:
+
+* The request URL:
+
+```js
+pm.request.url:Url
+```
+
+* The [list of headers](https://www.postmanlabs.com/postman-collection/HeaderList.html) for the current request:
+
+```js
+pm.request.headers:HeaderList
+```
+
+* The HTTP request method:
+
+```js
+pm.request.method:String
+```
+
+* The data in the [request body](https://www.postmanlabs.com/postman-collection/RequestBody.html). This object is immutable and cannot be modified from scripts:
+
+```js
+pm.request.body:RequestBody
+```
+
+* Add a header with the specified name and value for the current request:
+
+```js
+pm.request.headers.add(header:Header):function
+```
+
+For example:
+
+```js
+pm.request.headers.add({
+  key: "client-id",
+  value: "abcdef"
+});
+```
+
+* Delete the request header with the specified name:
+
+```js
+pm.request.headers.remove(headerName:String):function
+```
+
+* Insert the specified header name and value (if the header does not exist, otherwise the already existing header will update to the new value):
+
+```js
+pm.request.headers.upsert({key: headerName:String, value: headerValue:String}):function)
+```
+  
+> See the Postman [Collection SDK Request reference](https://www.postmanlabs.com/postman-collection/Request.html) for more detail.
+
+#### Scripting with response data
+
+The `pm.response` object provides access to the data returned in the response for the current request in scripts added to the **Tests**.
+
+The `pm.response` object provides the following properties and methods:
+
+* The response status code:
+
+```js
+pm.response.code:Number
+```
+
+* The status text string:
+
+```js
+pm.response.status:String
+```
+
+* The [list of response headers](https://www.postmanlabs.com/postman-collection/HeaderList.html):
+
+```js
+pm.response.headers:HeaderList
+```
+
+* The time the response took to receive in milliseconds:
+
+```js
+pm.response.responseTime:Number
+```
+
+* The size of the response received:
+
+```js
+pm.response.responseSize:Number
+```
+
+* The response text:
+
+```js
+pm.response.text():Function → String
+```
+
+* The response JSON, which you can use to drill down into the properties received:
+
+```js
+pm.response.json():Function → Object
+```
+
+> See the Postman [Collection SDK Response reference](https://www.postmanlabs.com/postman-collection/Response.html) for more detail.
+
+#### Scripting with request info
+
+The `pm.info` object provides data related to the request and the script itself, including name, ID, and iteration count.
+
+The `pm.info` object provides the following properties and methods:
+
+* The event, which will be either "prerequest" or "test" depending on where the script is executing within the request:
+
+```js
+pm.info.eventName:String
+```
+
+* The value of the current [iteration](/docs/running-collections/intro-to-collection-runs/):
+
+```js
+pm.info.iteration:Number
+```
+
+* The total number of iterations that are scheduled to run:
+
+```js
+pm.info.iterationCount:Number
+```
+
+* The saved name of the request running:
+
+```js
+pm.info.requestName:String
+```
+
+* A unique GUID that identifies the running request:
+
+```js
+pm.info.requestId:String
+```
+
+#### Scripting with request cookies
+
+The `pm.cookies` object provides access to the list of cookies associated with the request.
+
+The `pm.cookies` object provides the following properties and methods:
+
+* Check whether a particular cookie (specified by name) exists for the requested domain:
+
+```js
+pm.cookies.has(cookieName:String):Function → Boolean
+```
+
+* Get the value of the specified cookie:
+
+```js
+pm.cookies.get(cookieName:String):Function → String
+```
+
+* Get a copy of all cookies and their values in an object. Returns any cookies that are defined for the request domain and path:
+
+```js
+pm.cookies.toObject():Function → Object
+```
+
+> See the Postman [Collection SDK Cookie List reference](https://www.postmanlabs.com/postman-collection/CookieList.html) for more detail.
+
+You can also use `pm.cookies.jar` to specify a domain for access to request cookies.
+
+To enable programmatic access via the `pm.cookies.jar` methods, first [whitelist](https://learning.postman.com/docs/sending-requests/cookies/) the cookie URL.
+
+* Access the cookie jar object:
+
+```js
+pm.cookies.jar():Function → Object
+```
+
+For example:
+
+```js
+const jar = pm.cookies.jar();
+//cookie methods...
+```
+
+* Set a cookie using name and value:
+
+```js
+jar.set(URL:String, cookie name:String, cookie value:String, callback(error, cookie)):Function → Object
+```
+
+* Set a cookie using [PostmanCookie](https://www.postmanlabs.com/postman-collection/Cookie.html) or a compatible object:
+
+```js
+jar.set(URL:String, { name:String, value:String, httpOnly:Bool }, callback(error, cookie)):Function → Object
+```
+
+For example:
+
+```js
+const jar = pm.cookies.jar();
+jar.set("httpbin.org", "session-id", "abc123", (error, cookie) => {
+  if (error) {
+    console.error(`An error occurred: ${error}`);
+  } else {
+    console.log(`Cookie saved: ${cookie}`);
+  }
+});
+```
+
+* Get a cookie from the cookie jar:
+
+```js
+jar.get(URL:String, cookieName:String, callback (error, value)):Function → Object
+```
+
+* Get all the cookies from the cookie jar. The cookies are available in the callback function:
+
+```js
+jar.getAll(URL:String, callback (error, cookies)):Function
+```
+
+* Remove a cookie:
+
+```js
+jar.unset(URL:String, token:String, callback(error)):Function → Object
+```
+
+* Clear all cookies from the cookie jar:
+
+```js
+jar.clear(URL:String, callback (error)):Function → Object
+```
+
+> See the Postman [Collection SDK Cookie reference](https://www.postmanlabs.com/postman-collection/Cookie.html) for more detail.
+
+### Sending requests from scripts
+
+You can use the `pm.sendRequest` method to send a request asynchronously from a **Pre-request** or **Test** script. This allows you to execute logic in the background if you are carrying out computation or sending multiple requests at the same time without waiting for each to complete. You can avoid blocking issues by adding a callback function so that your code can respond when Postman receives a response. You can then carry out any additional processing you need on the response data.
+
+You can pass the `pm.sendRequest` method a URL string, or can provide a complete request configuration in JSON including headers, method, body, [and more](http://www.postmanlabs.com/postman-collection/Request.html#~definition).
+
+```js
+// Example with a plain string URL
+pm.sendRequest('https://postman-echo.com/get', (error, response) => {
+  if (error) {
+    console.log(error);
+  } else {
+  console.log(response);
+  }
 });
 
-// Example with a full fledged SDK Request
-const echoPostRequest = {
+// Example with a full-fledged request
+const postRequest = {
   url: 'https://postman-echo.com/post',
   method: 'POST',
-  header: 'headername1:value1',
+  header: {
+    'Content-Type': 'application/json',
+    'X-Foo': 'bar'
+  },
   body: {
     mode: 'raw',
     raw: JSON.stringify({ key: 'this is json' })
   }
 };
-pm.sendRequest(echoPostRequest, function (err, res) {
-  console.log(err ? err : res.json());
+pm.sendRequest(postRequest, (error, response) => {
+  console.log(error ? error : response.json());
 });
 
-// example containing a test ** under the Tests tab only
-pm.sendRequest('https://postman-echo.com/get', function (err, res) {
-  if (err) { console.log(err); }
-  pm.test('response should be okay to process', function () {
-    pm.expect(err).to.equal(null);
-    pm.expect(res).to.have.property('code', 200);
-    pm.expect(res).to.have.property('status', 'OK');
+// Example containing a test
+pm.sendRequest('https://postman-echo.com/get', (error, response) => {
+  if (error) {
+    console.log(error);
+  }
+
+  pm.test('response should be okay to process', () => {
+    pm.expect(error).to.equal(null);
+    pm.expect(response).to.have.property('code', 200);
+    pm.expect(response).to.have.property('status', 'OK');
   });
 });
 ```
 
-Extended Reference:
+See the [Request definition](http://www.postmanlabs.com/postman-collection/Request.html#~definition) and [Response structure](http://www.postmanlabs.com/postman-collection/Response.html) reference docs for more detail.
 
-* [Request JSON](http://www.postmanlabs.com/postman-collection/Request.html#~definition)
-* [Response Structure](http://www.postmanlabs.com/postman-collection/Response.html)
+## Scripting workflows
 
-### pm.variables
+The `postman` object provides the `setNextRequest` method for building request workflows when you use the [collection runner](/docs/running-collections/building-workflows/) or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
-`pm.variables:` [Variable SDK Reference](https://www.postmanlabs.com/postman-collection/Variable.html)
+> Note that `setNextRequest` has no effect when you run requests using the **Send** button, it only comes into effect when you run a collection.
 
-In Postman, all variables conform to a specific hierarchy. All variables defined in the current iteration take precedence over the variables defined in the current environment, which overrides ones defined in the global scope. The order of precedence is `Iteration Data` < `Environment` < `Collection` < `Global`.
+When you run a collection (using the collection runner or Newman), Postman will run your requests in a default order or an order you specify when you set up the run. However, you can override this execution order using `postman.setNextRequest` to specify which request should run next.
 
-* `pm.variables.has(variableName:String):function → Boolean`: Check if there is a local variable in the current scope.
-* `pm.variables.get(variableName:String):function → *`: Get the value of the local variable with the specified name.
-* `pm.variables.set(variableName:String, variableValue:String"):function → void`: Set a local variable with the given value.
-* `pm.variables.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
-* `pm.variables.toObject():function → Object`: Returns an object containing all the variables in the local scope.
+* Run the specified request after this one (the request name as defined in the collection e.g. "Get customers"):
 
-The variables defined in the individual scopes may also be accessed via `pm.environment` for the environment scope and `pm.globals` for the global scope.
+```js
+postman.setNextRequest(requestName:String):Function
+```
 
-### pm.environment
+* Run the specified request after this one (the request ID returned by `pm.info.requestId`):
 
-`pm.environment:`
+```js
+postman.setNextRequest(requestId:String):Function
+```
 
-* `pm.environment.name:String`: Contains the name of the current environment.
-* `pm.environment.has(variableName:String):function → Boolean`: Check if the environment has a variable with the given name.
-* `pm.environment.get(variableName:String):function → *`: Get the variable with the given name in the currently selected environment.
-* `pm.environment.set(variableName:String, variableValue:String):function`: Sets the variable with the given name and value in the currently selected environment.
-* `pm.environment.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
-* `pm.environment.toObject():function → Object`: Returns all the environment variables in the form of a single object.
-* `pm.environment.unset(variableName:String):function`: Remove a variable with the given name in the currently selected environment.
-* `pm.environment.clear():function`: Clears all variables in the currently selected environment.
+For example:
 
-### pm.collectionVariables
+```js
+//script in another request calls:
+//pm.environment.set('next', pm.info.requestId)
+postman.setNextRequest(pm.environment.get('next'));
+```
 
-`pm.collectionVariables:`
-
-* `pm.collectionVariables.has(variableName:String):function → Boolean`: Check if there is a collection variable with the given name.
-* `pm.collectionVariables.get(variableName:String):function → *`: Returns the value of the collection variable with the given name.
-* `pm.collectionVariables.set(variableName:String, variableValue:String):function`: Sets a collection variable with given value.
-* `pm.collectionVariables.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
-* `pm.collectionVariables.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
-* `pm.collectionVariables.unset(variableName:String):function`: Clears the specified collection variable.
-* `pm.collectionVariables.clear():function`: Clear all the collection variables.
-
-### pm.globals
-
-`pm.globals:`
-
-* `pm.globals.has(variableName:String):function → Boolean`: Check if there is a global variable with the given name.
-* `pm.globals.get(variableName:String):function → *`: Returns the value of the global variable with the given name.
-* `pm.globals.set(variableName:String, variableValue:String):function`: Sets a global variable with given value.
-* `pm.globals.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
-* `pm.globals.toObject():function → Object`: Returns a list of variables and their values in the form of an object.
-* `pm.globals.unset(variableName:String):function`: Clears the specified global variable.
-* `pm.globals.clear():function`: Clear all the global variables.
-
-### pm.request
-
-`pm.request:` [Request SDK Reference](https://www.postmanlabs.com/postman-collection/Request.html)
-
-The `request` object inside `pm` is a representation of the request for which this script is being run. For a pre-request script, this is the request that is about to be sent and when in a test script, this is the representation of the request that was sent.
-
-`request` contains information stored in the following structure:
-
-* `pm.request.url:`[`Url`](http://www.postmanlabs.com/postman-collection/Url.html): Contains the URL to which the request
-is made.
-* `pm.request.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html): Contains the list of
-headers for the current request.
-* `pm.request.method:String` The HTTP method of the sent request.
-* `pm.request.body:`[`RequestBody`](http://www.postmanlabs.com/postman-collection/RequestBody.html): Contains all the data related to the request body.
-* `pm.request.headers.add(headerName:String):function`: Adds a header with the specified name for the current request.
-* `pm.request.headers.remove(headerName:String):function`: Deletes the header with the specified name for the current request.
-* `pm.request.headers.upsert({ key: headerName:String, value: headerValue:String}):function)`: Inserts a header name and header value as given to the list of headers for the current request (if the header does not exist, otherwise the already
-existing header is updated to the new value).
-
-> **The following items are ONLY available in the test scripts.**
-
-### pm.response
-
-`pm.response:` [Response SDK Reference](https://www.postmanlabs.com/postman-collection/Response.html)
-
-Inside the test scripts, the `pm.response` object contains all information pertaining to the response that was received.
-
-The response details are stored in the following format:
-
-* `pm.response.code:Number`
-* `pm.response.status:String`
-* `pm.response.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html)
-* `pm.response.responseTime:Number`
-* `pm.response.responseSize:Number`
-* `pm.response.text():Function → String`
-* `pm.response.json():Function → Object`
-
-### pm.iterationData
-
-`pm.iterationData:`
-
-The `iterationData` object contains data from the data file provided during a collection run.
-
-* `pm.iterationData.get(variableName:String):function → *`: Returns a variable from the iteration data with the specified name.
-
-* `pm.iterationData.toObject():function → Object`: Returns the iteration data as an object.
-
-* `pm.iterationData.addLayer(list: VariableList):function → void`: Add a list of variables to iteration data.
-
-* `pm.iterationData.clear():function → void`: Clear all the data.
-
-* `pm.iterationData.has(variableName: string):function → boolean`: Checks if a variable with the specified name exists in iteration data.
-
-* `pm.iterationData.set(key: string, value: any, type: string):function → void`: Sets a variable, assigns it a value and type as specified.
-
-* `pm.iterationData.syncVariablesFrom(object: {[key: string]: VariableDefinition}, track?: boolean, prune?: boolean):function → Object | Undefined`: Get variables from an object with the name specified.
-
-* `pm.iterationData.syncVariablesTo(object?: {[key: string]: VariableDefinition}):function → Object`: Save the variables to an object with the name specified.
-
-* `pm.iterationData.toJSON():function → *`: Converts the iterationData object to JSON format.
-
-* `pm.iterationData.unset(key: string):function → void`: Un-assign the value given to a specified variable.
-
-* `pm.iterationData.variables():function → Object`: Return all the variables from the iterationData object.
-
-* `static pm.iterationData.isVariableScope(object: any):function → boolean`: Check if a specific variable is in scope.
-  
-### pm.cookies
-
-`pm.cookies:` [CookieList SDK Reference](https://www.postmanlabs.com/postman-collection/CookieList.html)
-
-The `cookies` object contains a list of cookies that are associated with the domain to which the request was made.
-
-* `pm.cookies.has(cookieName:String):Function → Boolean`
-
-   Check whether a particular cookie (addressed by its name) exists for the requested domain.
-
-* `pm.cookies.get(cookieName:String):Function → String`
-
-   Get the value of a particular cookie.
-
-* `pm.cookies.toObject:Function → Object`
-
-   Get a copy of all cookies and their values in the form of an object. The cookies returned are the ones defined for the requested domain and path.
-
-### pm.cookies.jar
-
-To enable programmatic access via the methods below, the cookie `url` must be [whitelisted](/docs/sending-requests/cookies/).
-
-* `pm.cookies.jar():Function → Object`
-
-  Access the cookie jar object.
-
-* `jar.set(URL:String, cookie name:String, cookie value:String, callback(error, cookie)):Function → Object`
-
-   Set a cookie using cookie name and value. One can also directly set the cookie by assigning cookie value to the cookie name within this function.
-
-* `jar.set(URL:String, { name:String, value:String, httpOnly:Bool }, callback(error, cookie)):Function → Object`
-
-     Set a cookie using PostmanCookie or its compatible object.
-
-* `jar.get(URL:String, token:String, callback (error, value)):Function → Object`
-
-   Gets a cookie from the cookie jar.
-
-* `jar.getAll(URL:String, callback (error, cookies)):Function → Object`
-
-   Gets all the cookies from the cookie jar.
-
-* `jar.unset(URL:String, token:String, callback(error)):Function → Object`
-
-   Unset a cookie.
-
-* `jar.clear(URL:String, callback (error)):Function → Object`
-
-   Clear all cookies from the cookie jar.
-
-### pm.visualizer.set
+## Scripting visualizations
 
 Use `pm.visualizer.set` to specify a template to [display response data in the visualizer](/docs/sending-requests/visualizer/).
 
@@ -348,7 +675,7 @@ pm.visualizer.set(template, {
 });
 ```
 
-#### pm.getData
+### Building response data into visualizations
 
 Use `pm.getData` to retrieve response data inside a visualization template string.
 
@@ -371,121 +698,87 @@ pm.getData(function (error, data) {
 });
 ```
 
-### pm.test
+## Writing test assertions
 
-`pm.test(testName:String, specFunction:Function):Function`
+* `pm.test(testName:String, specFunction:Function):Function`
 
-   You can use this function to write test specifications inside either the `Pre-request Script` or `Tests` sandbox. Writing tests inside this function allows you to name the test accurately and this function also ensures the rest of the script is not blocked even if there are errors inside the function.
+You can use `pm.test` to write test specifications inside either the **Pre-request** or **Tests** scripts. Tests include a name and assertion—Postman will output test results as part of the response.
 
-   The following sample test checks that everything about a response is valid to proceed.
+The `pm.test` method returns the `pm` object, making the call chainable. The following sample test checks that a response is valid to proceed.
 
-  ```javascript
-    pm.test("response should be okay to process", function () {
-        pm.response.to.not.be.error;
-        pm.response.to.have.jsonBody('');
-        pm.response.to.not.have.jsonBody('error');
-    });
-  ```
+```js
+pm.test("response should be okay to process", function () {
+  pm.response.to.not.be.error;
+  pm.response.to.have.jsonBody('');
+  pm.response.to.not.have.jsonBody('error');
+});
+```
 
-  An optional `done` callback can be added to `pm.test`, to test asynchronous functions.
+An optional `done` callback can be passed to `pm.test`, to test asynchronous functions.
 
-  ```javascript
-    pm.test('async test', function (done) {
-      setTimeout(() => {
-          pm.expect(pm.response.code).to.equal(200);
-          done();
-      }, 1500);
-    });
-  ```
+```js
+pm.test('async test', function (done) {
+  setTimeout(() => {
+    pm.expect(pm.response.code).to.equal(200);
+    done();
+  }, 1500);
+});
+```
 
-* `pm.test.index():Function → Number`
+* Get the total number of tests executed from a specific location in code:
 
-  Get the total number tests from a specific location.
+```js
+pm.test.index():Function → Number
+```
 
-### pm.expect
+The `pm.expect` method allows you to write assertions on your response data, using [ChaiJS expect BDD](http://chaijs.com/api/bdd/) syntax.
 
-`pm.expect(assertion:*):Function → Assertion`
+```js
+pm.expect(assertion:*):Function → Assertion
+```
 
-  `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
+You can also use `pm.response.to.have.*` and `pm.response.to.be.*` to build your assertions.
 
-  This function is useful to deal with assertions of data from a `response` or `variables`. For assertion test examples using `pm.expect`, check out [Assertion library examples](/docs/writing-scripts/script-references/test-examples/)
+See [Test examples](/docs/writing-scripts/script-references/test-examples/) for more assertions.
 
-### Response Assertion API available in the test scripts
+## Using external libraries
 
-* `pm.response.to.have.status(code:Number)`
-* `pm.response.to.have.status(reason:String)`
-* `pm.response.to.have.header(key:String)`
-* `pm.response.to.have.header(key:String, optionalValue:String)`
-* `pm.response.to.have.body()`
-* `pm.response.to.have.body(optionalValue:String)`
-* `pm.response.to.have.body(optionalValue:RegExp)`
-* `pm.response.to.have.jsonBody()`
-* `pm.response.to.have.jsonBody(optionalExpectEqual:Object)`
-* `pm.response.to.have.jsonBody(optionalExpectPath:String)`
-* `pm.response.to.have.jsonBody(optionalExpectPath:String, optionalValue:*)`
-* `pm.response.to.have.jsonSchema(schema:Object)`
-* `pm.response.to.have.jsonSchema(schema:Object, ajvOptions:Object)`
+```js
+require(moduleName:String):function → *
+```
 
-### pm.response.to.be.*
+The `require` method allows you to use the sandbox built-in library modules. The list of available libraries is listed below with links to the corresponding documentation.
 
-The properties inside the `pm.response.to.be` object allows you to easily assert a set of pre-defined rules.
+* [ajv](https://www.npmjs.com/package/ajv)
+* [atob](https://www.npmjs.com/package/atob)
+* [btoa](https://www.npmjs.com/package/btoa)
+* [chai](http://chaijs.com/)
+* [cheerio](https://cheerio.js.org/)
+* [crypto-js](https://www.npmjs.com/package/crypto-js)
+* [csv-parse/lib/sync](http://csv.adaltas.com/parse)
+* [lodash](https://lodash.com/)
+* [moment](http://momentjs.com/docs/)
+* [postman-collection](http://www.postmanlabs.com/postman-collection/)
+* [tv4](https://github.com/geraintluff/tv4)
+* [uuid](https://www.npmjs.com/package/uuid)
+* [xml2js](https://www.npmjs.com/package/xml2js)
 
-* `pm.response.to.be.info`
+A number of NodeJS modules are also available to use in the sandbox:
 
-  Checks 1XX status code
+* [path](https://nodejs.org/api/path.html)
+* [assert](https://nodejs.org/api/assert.html)
+* [buffer](https://nodejs.org/api/buffer.html)
+* [util](https://nodejs.org/api/util.html)
+* [url](https://nodejs.org/api/url.html)
+* [punycode](https://nodejs.org/api/punycode.html)
+* [querystring](https://nodejs.org/api/querystring.html)
+* [string-decoder](https://nodejs.org/api/string_decoder.html)
+* [stream](https://nodejs.org/api/stream.html)
+* [timers](https://nodejs.org/api/timers.html)
+* [events](https://nodejs.org/api/events.html)
 
-* `pm.response.to.be.success`
+In order to use a library, call the `require` method, pass the module name as a parameter, and assign the return object from the method to a variable.
 
-  Checks 2XX status code
+## Next steps
 
-* `pm.response.to.be.redirection`
-
-  Checks 3XX status code
-
-* `pm.response.to.be.clientError`
-
-  Checks 4XX status code
-
-* `pm.response.to.be.serverError`
-
-  Checks 5XX
-
-* `pm.response.to.be.error`
-
-  Checks 4XX or 5XX
-
-* `pm.response.to.be.ok`
-
-  Status code must be 200
-
-* `pm.response.to.be.accepted`
-
-  Status code must be 202
-
-* `pm.response.to.be.badRequest`
-
-  Status code must be 400
-
-* `pm.response.to.be.unauthorized`
-
-  Status code must be 401
-
-* `pm.response.to.be.forbidden`
-
-  Status code 403
-
-* `pm.response.to.be.notFound`
-
-  Status code of response is checked to be 404
-
-* `pm.response.to.be.rateLimited`
-
-  Checks whether response status code is 429
-
-## Dynamic variables
-
-Postman uses the faker library to generate dummy data. You can generate random names, addresses, email addresses, and much more. You can use these pre-defined variables multiple times to return different values per request.
-
-You can use these variables like any other variable in Postman. Their values are generated at the time of execution and their names start with a `$` symbol e.g. `$guid`, `$timestamp` etc.
-
-You can [read the full list of dynamic variables in Postman](/docs/writing-scripts/script-references/variables-list/).
+You can use tests to build Postman into your development projects in a variety of ways using [Postman utilities](/docs/developer/resources-intro/).

@@ -41,12 +41,14 @@ Save the API Key to use later.
 
 1. Click the **Add Integration** button to display the **Send Monitor Run Results** options.
 
-   [![datadog integrations add](https://assets.postman.com/postman-docs/integrations_datadog_sendMonitor.png)](https://assets.postman.com/postman-docs/integrations_datadog_sendMonitor.png)
+   <img alt="Add integration datadog" src="https://assets.postman.com/postman-docs/add-integration-datadog.jpg" width="300px"/>
 
 1. To send your monitor metrics and events to Datadog:
 
+   * Name your new integration.
    * Select the monitor whose data you would like to send to Datadog.
    * Enter a Datadog provided API key or generate an API key.
+   * Select the Datadog region you would like to use.
    * Optionally indicate if you want to send events for completed runs or send metrics for each run.
 
 1. Click the **Add Integration** button.

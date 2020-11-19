@@ -46,6 +46,8 @@ Postman can import and export Postman data, including collections, environments,
 
     * [Importing API specifications](#importing-api-specifications)
 
+    * [Importing via GitHub repositories](#importing-via-github-repositories)
+
 * [Exporting Postman data](#exporting-postman-data)
 
     * [Exporting collections](#exporting-collections)
@@ -62,15 +64,15 @@ You can import (e.g. collections) as well as your API specifications directly in
 
 To import your data into Postman, click **Import** in the upper-left corner.
 
-![Import modal](https://assets.postman.com/postman-docs/import-modal-2.jpg)
+![Import modal](https://assets.postman.com/postman-docs/import-modal-new.jpg)
 
-You can import your data via files, folders, links, or raw text.
+You can import your data via files, folders, links, raw text, or GitHub repositories.
 
 ### Importing Postman data
 
 You can import Postman data you previously exported, including collections, environments, data dumps, and globals.  
 
-To import Postman data, click **Import**. Select your file or folder, input your link, or paste your raw text. Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
+To import Postman data, click **Import**. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
 
 ![Import collection and environment](https://assets.postman.com/postman-docs/import-coll-env-2.jpg)
 
@@ -98,7 +100,41 @@ To import your API specifications into Postman, click **Import**. Select your fi
 
 ![Import file](https://assets.postman.com/postman-docs/import-file-2.jpg)
 
-You can also configure your **Import Settings**, which will differ depending on your API specification.
+> You can configure your **Import Settings**, which will differ depending on your API specification.
+
+You can import several API specification files at once. Select the workspace you'd like to import the APIs into, choose whether you want to generate collections from the APIs, configure the details, and click **Import**.
+
+When importing into a team workspace, you can also choose to add the APIs to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+
+[![Import several APIs](https://assets.postman.com/postman-docs/import-multiple-apis.gif)](https://assets.postman.com/postman-docs/import-multiple-apis.gif)
+
+### Importing via GitHub repositories
+
+> You must be signed in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+
+You can import data in bulk from a GitHub repository by selecting **Import** > **Code repository** > **Connect to GitHub**.
+
+<img alt="Import from github" src="https://assets.postman.com/postman-docs/import-from-github1.jpg"/>
+
+Confirm your GitHub account and **Authorize postmanlabs** to access your repositories.
+
+<img alt="Import from github" src="https://assets.postman.com/postman-docs/authorize-postman-github2.jpg" width="350px"/>
+
+In Postman, select your GitHub organization, repository, and branch, then **Continue**.
+
+<img alt="Select org, repo, branch" src="https://assets.postman.com/postman-docs/select-repo.jpg"/>
+
+Confirm the files you would like to import into Postman. You can also opt to **Generate collection from imported APIs** and select what you would like to link this collection as. Click **Show advanced settings** to control how Postman should generate collections based on your file types, then select **Import**.
+
+<img alt="Confirm github import" src="https://assets.postman.com/postman-docs/confirm-import.jpg"/>
+
+You will receive a confirmation once the import has completed.
+
+<img alt="Import completed" src="https://assets.postman.com/postman-docs/successful-import.jpg"/>
+
+You can now view your newly imported files and generated collections in Postman.
+
+<img alt="Imported data in app" src="https://assets.postman.com/postman-docs/imported-data-in-app.jpg"/>
 
 ## Exporting Postman data
 

@@ -21,6 +21,9 @@ contextual_links:
   - type: link
     name: "First 5 things to try if you're new to Postman"
     url: "https://blog.postman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/"
+  - type: link
+    name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
+    url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -29,28 +32,28 @@ contextual_links:
 
 ---
 
-Postman is available as a native app for Mac, Windows (32-bit / 64-bit), and Linux (32-bit / 64-bit) operating systems.
+Postman is available as a native desktop app for Mac, Windows (32-bit / 64-bit), and Linux (32-bit / 64-bit) operating systems, and on the web at **[go.postman.co/build](https://go.postman.co/build)**.
 
-To get the latest version of the Postman app, visit the [download page](https://www.postman.com/downloads/) and click **Download** for your platform.
+To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and click **Download** for your platform.
 
 ![Postman download page](https://assets.postman.com/postman-docs/download-postman.jpg)
 
-> [Postman for the Web](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/) is currently available in Beta. [Try it out](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) and give the team feedback by joining in the discussion on the [community forum](https://community.postman.com/t/announcing-postman-for-the-web-now-in-open-beta/14192).
-
 ## Contents
 
-* Installing Postman
+* Installing Postman on the desktop
     * [Mac](#installing-postman-on-mac)
     * [Windows](#installing-postman-on-windows)
     * [Linux](#installing-postman-on-linux)
-    * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
-        * [Migrating to the native app](#migrating-to-the-native-app)
+* [Using Postman on the web](#using-postman-on-the-web)
+    * [Web limitations](#web-limitations)
 * [Updating Postman](#updating-postman)
+* [Chrome app (deprecated)](#postman-chrome-app-deprecated)
+    * [Migrating to the native app](#migrating-to-the-native-app)
 * [Using Postman behind a firewall](#using-postman-behind-a-firewall)
 * [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
 * [Next steps](#next-steps)
 
-> Note that the Postman team only tests, fixes bugs, and provides support for the app on Mac, Windows, and Linux.
+> Note that the Postman team only tests, fixes bugs, and provides support for the app on Mac, Windows, Linux, and the web.
 
 ## Installing Postman on Mac
 
@@ -107,6 +110,39 @@ Categories=Development;
 >
 > If you are an Ubuntu 18 user, you will also need to install the `libgconf-2-4` package to ensure a smooth Postman run: `apt-get install libgconf-2-4`
 
+## Using Postman on the web
+
+You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/build](https://go.postman.co/build) in your browser. If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [this Downloads page](https://www.postman.com/downloads/).
+
+<img alt="Postman Agent" src="https://assets.postman.com/postman-docs/download-agent.jpg" width="500px"/>
+
+The Postman agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers, and facilitates API request sending from your browser version of Postman. Once you have the agent installed you will be able to use it with web requests.
+
+> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area which you can click to switch to the agent and try your request again. Read [more about the agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/).
+
+### Web limitations
+
+Postman on the web is under active development, but there are a few features you can currently only access in the desktop app and not in your web browser:
+
+* **Live preview**: You will not see all of your request headers update live as you enter your request configurations as you do in the desktop Postman app—you will only see Authorization headers update as you edit.
+* **Saving responses to file**
+* **Certificates and Proxy**: These will take the browser defined value and cannot be overridden by Postman.
+* **Postman Interceptor**
+
+> [Postman for the Web](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/) is still under development. Please [try it out](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) and give the team feedback by joining in the discussion on the [community forum](https://community.postman.com/t/announcing-postman-for-the-web-now-in-open-beta/14192).
+
+## Updating Postman
+
+The native Postman apps will notify you when a major update is available. For other updates you will see a dot on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
+
+![Update Ready](https://assets.postman.com/postman-docs/update-ready.jpg)
+
+Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, choose __Later__ to auto-update the next time you launch the app.
+
+You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
+
+![Update Ready](https://assets.postman.com/postman-docs/settings-updates.jpg)
+
 ## Postman Chrome app (deprecated)
 
 The Postman Chrome app is deprecated—if you're using the Chrome app, you can [retain your data when you switch to the native app](#migrating-to-the-native-app) ___either by syncing with a Postman account you're signed into, or by exporting from Chrome and importing into the native app___.
@@ -130,18 +166,6 @@ Alternatively, if you don't want to sign in to your Postman account, you can bul
 ![Import Export Data](https://assets.postman.com/postman-docs/export-data.jpg)
 
 > Note that importing will overwrite your existing data. For more on bulk import, see [Importing Postman data](/docs/getting-started/importing-and-exporting-data/).
-
-## Updating Postman
-
-The native Postman apps will notify you when a major update is available. For other updates you will see a dot on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
-
-![Update Ready](https://assets.postman.com/postman-docs/update-ready.jpg)
-
-Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, choose __Later__ to auto-update the next time you launch the app.
-
-You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
-
-![Update Ready](https://assets.postman.com/postman-docs/settings-updates.jpg)
 
 ## Using Postman behind a firewall
 

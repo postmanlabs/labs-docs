@@ -49,6 +49,8 @@ Your Postman Dashboard allows you to track the health and performance of your AP
 
     * [Console log](#console-log)
 
+    * [Activity log](#activity-log)
+
 * [Next steps](#next-steps)
 
 ## Viewing monitors in the Dashboard
@@ -156,6 +158,14 @@ This section logs monitor run details along with the [`console.log`](/docs/sendi
 > If your monitor is configured to run in multiple regions, you can view the console logs for a particular region by selecting that region from the dropdown to the right of the **Console Log** tab.
 
 You can use this console to both troubleshoot issues and learn more about an individual run's behavior.
+
+### Activity log
+
+You can view a monitor's activity logs by selecting **...** in the upper-right corner > **View activity logs**.
+
+<img src="https://assets.postman.com/postman-docs/monitor-activity-log.jpg" width="400px" alt="Activity log"/>
+
+You can check these logs to learn when a monitor was created, edited, paused, or resumed running, and which team member performed each action.
 
 ## Next steps
 
