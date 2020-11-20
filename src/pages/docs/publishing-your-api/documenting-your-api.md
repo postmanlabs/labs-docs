@@ -62,13 +62,13 @@ Documentation is based on a Postman collection, so you can [generate it from an 
 
 ### Documenting an existing collection
 
-To generate and view documentation for an existing collection from Postman, use the __Collections__ tab on the left to select the collection. Select the collection you wish to document to open the collection detail. On the right, from the documentation tab you can create the documentation. Or, you can select __View complete collection documentation__, to create and edit your documentation in an expanded view.
+To generate and view documentation for an existing collection from Postman, use the __Collections__ tab on the left to select the collection. Select the collection you need to document and open the collection detail. On the right, from the documentation tab you can create the documentation.
 
-![View Docs](https://assets.postman.com/postman-docs/collections-view-complete-doc.png)
+![View Docs](https://assets.postman.com/postman-docs/collections-view-complete-doc.jpg)
 
-![Full Docs View](https://assets.postman.com/postman-docs/collection-docs-full.png)
+Or, you can select __View complete collection documentation__, to create and edit your documentation in an expanded view.
 
-> You can edit your docs either in the right navigation bar, or in the expanded editing mode.
+![Full Docs View](https://assets.postman.com/postman-docs/collection-docs-full.jpg)
 
 Alternatively, use the __New__ button, and select __API Documentation__. Choose __Select an existing collection__ and click the collection you want to view docs for.
 
@@ -88,7 +88,7 @@ You can carry out additional edits directly on the documentation page—you'll s
 
 You can also view documentation from the [web dashboard](https://web.postman.co/)—select __View all collections__, then select a collection to view its docs in the browser.
 
-![Collections in Web](https://assets.postman.com/postman-docs/collections-profile-page.png)
+![Collections in Web](https://assets.postman.com/postman-docs/collections-profile-page.jpg)
 
 > By default your documentation is private, so only people you share the collection with will be able to see it. You can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) for public viewing.
 
@@ -146,7 +146,7 @@ To use a variable value in your documentation, [create](/docs/sending-requests/m
 
 [Add the new variable](/docs/sending-requests/managing-environments/#adding-environment-variables) if you haven't already done so.
 
-![Environment Variable](https://assets.postman.com/postman-docs/edit-env-variables.png)
+![Environment Variable](https://assets.postman.com/postman-docs/edit-env-variables-b.jpg)
 
 When you [reference a variable](/docs/sending-requests/managing-environments/#accessing-environments) in your requests, the value from the selected environment will automatically be published along with your documentation.
 
@@ -168,7 +168,7 @@ If someone imports the collection using the __Run in Postman__ button from your 
 
 Any version tags you add to your collections will be published along with your docs. You can add versions to an [API](/docs/collaborating-in-postman/versioning-an-api/) or collection.
 
-![Add Version](https://assets.postman.com/postman-docs/docs-version-options.png)
+![Add Version](https://assets.postman.com/postman-docs/docs-version-options.jpg)
 
 If you share a collection privately, viewers will be able to select versions from a drop-down list in your docs.
 
