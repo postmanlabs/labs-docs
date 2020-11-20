@@ -65,7 +65,7 @@ To add a team activity feed to Microsoft Teams:
 To send monitor run results to Microsoft Teams:
 
 1. Click **Add Integration**.
-1. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Teams, and enter the notification URL.
+1. In the **Monitor Run Results** page, select the monitor whose results you want to send to Microsoft Teams, and enter the notification URL.
 
    [![ms_teams monRun](https://assets.postman.com/postman-docs/WS-integration-msTeams-monRun.png)](https://assets.postman.com/postman-docs/WS-integration-msTeams-monRun.png)
 
