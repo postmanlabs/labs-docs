@@ -105,7 +105,9 @@ You can reorder the requests and folders inside a collection by clicking and dra
 
 To delete a collection, in __Collections__ click __...__ to open its menu and select __Delete__.
 
-> You can recover deleted collections in the [web dashboard](https://app.getpostman.com). Click your avatar in the top-right, select __Trash__, hover over the collection and click __Restore__. You can alternatively open the trash from the app in __Collections__. You will need to be signed in to access your trash.
+> You can recover deleted collections in Postman using __Trash__. Click `...` near the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the bottom right corner in Postman.
+
+<img alt="Trash" src="https://assets.postman.com/postman-docs/trash-and-recover.jpg"/>
 
 Recovery options depend on your Postman plan:
 
