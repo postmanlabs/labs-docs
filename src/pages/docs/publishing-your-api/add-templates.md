@@ -67,7 +67,7 @@ To set up your profile, click __Public Profile Settings__ or navigate to [your s
 
 ![Enable Profile](https://assets.postman.com/postman-docs/enable-public-personal-profile-bb.jpg)
 
-You can customize your profile URL and name, add a description people will see alongside your templates, links to your social media and website. You can also set a profile photo from your [account settings](https://go.postman.co/settings/me).
+You can customize your profile URL and name, add a description people will see alongside your templates, and add links to your social media and website. You can also set a profile photo from your [account settings](https://go.postman.co/settings/me).
 
 > Customizing your profile URL will change your username, and that change will be reflected across all of your Postman elements, such as collections and documentation. You will also sign in to Postman with the new username.
 
