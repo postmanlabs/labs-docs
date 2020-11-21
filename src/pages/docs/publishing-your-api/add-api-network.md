@@ -51,7 +51,7 @@ Select __Add to API Network__.
 
 Include the __API Name__, __Summary__, and __Description__—add the details potential users will need to know in order to find your API and figure out whether they want to use it. Your description can include markdown, and will automatically be populated from any [description you already have included in your collection](/docs/publishing-your-api/authoring-your-documentation/).
 
-![API Network Detail](https://assets.postman.com/postman-docs/add-api-network.png)
+![API Network Detail](https://assets.postman.com/postman-docs/api-details-b.jpg)
 
 Select the categories that best describe your API and service. API consumers can choose categories to browse APIs in the network from the left sidebar in Postman and at [explore.postman.com](https://explore.postman.com).
 
@@ -61,15 +61,15 @@ Select the categories that best describe your API and service. API consumers can
 
 When you publish to the API Network, your API will be listed as part of your team profile. If you don't already have a team profile, Postman will automatically generate one when you publish. You can customize your profile at any time before or after publishing your API.
 
-![API Network Publish Settings](https://assets.postman.com/postman-docs/api-network-publish-collection-settings-b.png)
+![API Network Publish Settings](https://assets.postman.com/postman-docs/api-network-publish-collection-settings-b.jpg)
 
 Use the __Public Profile Settings__ link or navigate to your [team profile settings](https://go.postman.co/settings/team/general) to enable or customize the details consumers will see when your API is published and visible in the network.
 
-![API Network Publish Settings](https://assets.postman.com/postman-docs/enable-profile.png)
+![API Network Publish Settings](https://assets.postman.com/postman-docs/enable-profile-bb.jpg)
 
 Include a team name and description that will appear in your API Network listing. You can customize your profile URL, and add a logo and favicon in your [Settings](https://go.postman.co/settings/team/general).
 
-![Public Profile Settings](https://assets.postman.com/postman-docs/enable-team-profile.png)
+![Public Profile Settings](https://assets.postman.com/postman-docs/enable-team-profile-b.jpg)
 
 > If you receive an error when uploading your favicon, confirm that it is a square .ico file and no larger than 500KB.
 
@@ -77,15 +77,15 @@ Include a team name and description that will appear in your API Network listing
 
 Once your team profile is set up any collection docs you publish will be associated with it. Click __Publish Collection__.
 
-![Public Profile Settings](https://assets.postman.com/postman-docs/publish-network.png)
+![Public Profile Settings](https://assets.postman.com/postman-docs/publish-network-b.jpg)
 
 When people browse the API Network they will see your team profile listing, along with the APIs and templates you have published.
 
-[![team profile display](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-display.png)](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-display.png)
+![team profile display](https://assets.postman.com/postman-docs/api-network-team-profile-display-b.jpg)
 
 > If you choose to disable your team profile, you won't be able to publish any new collections to the Postman API Network or templates, and any previously published collections will be unpublished.
 
-![Network Published](https://assets.postman.com/postman-docs/network-published.png)
+![Network Published](https://assets.postman.com/postman-docs/network-published-b.jpg)
 
 You will see a link to your collection's published listing and team profile. You will also be able to find your listing in Postman using __New__ &gt; __API Network__ or [on the web](https://explore.postman.com).
 
