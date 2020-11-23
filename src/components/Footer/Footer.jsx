@@ -2,6 +2,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
 import DynamicLink from '../Shared/DynamicLink';
 import './Footer.scss';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 
 const FooterColumn1 = (data) => {
   return (
@@ -9,7 +10,19 @@ const FooterColumn1 = (data) => {
       const title = <h2 className="footer-column__title">{col.name}</h2>;
       const links = col.children.map((link) => (
         <li className="footer-column__link-wrapper" key={link.name}>
-          <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
+          {/* <DynamicLink className="footer-column__link" url={link.url} name={link.name} /> */}
+          <a  
+          className="footer-column__link"
+          href={link.url}
+          id={link.id}
+            onClick={ () => {
+            trackCustomEvent({
+              category: `${link.category}`,
+              action: "Click",
+              label: `${link.label}`
+            })
+          }}
+          >{link.name}</a>
         </li>
       ));
 
@@ -32,7 +45,19 @@ const FooterColumn2 = (data) => {
       const title = <h2 className="footer-column__title">{col.name}</h2>;
       const links = col.children.map((link) => (
         <li className="footer-column__link-wrapper" key={link.name}>
-          <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
+          {/* <DynamicLink className="footer-column__link" url={link.url} name={link.name} /> */}
+          <a  
+          className="footer-column__link"
+          href={link.url}
+          id={link.id}
+            onClick={ () => {
+            trackCustomEvent({
+              category: `${link.category}`,
+              action: "Click",
+              label: `${link.label}`
+            })
+          }}
+          >{link.name}</a>
           {link.url === `https://www.postman.com/careers/` ?
           <span><a className="span" href="https://www.postman.com/careers/"> {link.span}</a></span> : '' }
         </li>
@@ -90,22 +115,95 @@ class FooterComponent extends React.Component {
       <div className="row mt-2 justify-content-center items_border">
 				<div className="col-sm-12 d-sm-flex mb-4 justify-content-center text-center">
 					<div className="mr-2 pr-sm-3 pl-sm-2 items_line">
-						<a href="https://www.postman.com/postman-galaxy" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Postman Galaxy</span></a>
+            <a 
+            href="https://www.postman.com/postman-galaxy" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            id="postman-galaxy"
+            onClick={ () => {
+              trackCustomEvent({
+                category: "global-footer",
+                action: "Click",
+                label: "postman-galaxy"
+              })
+            }}
+            ><span className="footer-column__link">Postman Galaxy</span></a>
+            
 					</div>
 					<div className="mr-2 pr-sm-3 pl-sm-2 items_line">
-						<a href="https://www.postman.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Privacy Policy</span></a>
+            <a 
+            href="https://www.postman.com/legal/privacy-policy/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            id="privacy-policy"
+            onClick={ () => {
+              trackCustomEvent({
+                category: "global-footer",
+                action: "Click",
+                label: "privacy-policy"
+              })
+            }}
+            ><span className="footer-column__link"
+            >Privacy Policy</span></a>
 					</div>
 					<div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
-						<a href="https://www.postman.com/legal/eula/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Terms</span></a>
+            <a 
+            href="https://www.postman.com/legal/eula/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            id="terms"
+            onClick={ () => {
+              trackCustomEvent({
+                category: "global-footer",
+                action: "Click",
+                label: "terms"
+              })
+            }}
+            ><span className="footer-column__link">Terms</span></a>
 					</div>
 					<div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
-						<a href="https://www.postman.com/company/careers/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Careers</span></a>
+            <a 
+            href="https://www.postman.com/company/careers/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            id="Careers"
+            onClick={ () => {
+              trackCustomEvent({
+                category: "global-footer",
+                action: "Click",
+                label: "Careers"
+              })
+            }}
+            ><span className="footer-column__link">Careers</span></a>
 					</div>
 					<div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
-						<a href="https://www.postman.com/support/" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Support</span></a>
+            <a 
+            href="https://www.postman.com/support/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            id="support"
+            onClick={ () => {
+              trackCustomEvent({
+                category: "global-footer",
+                action: "Click",
+                label: "support"
+              })
+            }}
+            ><span className="footer-column__link">Support</span></a>
 					</div>
 					<div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
-						<a href="https://www.postman.com/security" target="_blank" rel="noopener noreferrer"><span className="footer-column__link">Security</span></a>
+            <a 
+            href="https://www.postman.com/security" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            id="security"
+            onClick={ () => {
+              trackCustomEvent({
+                category: "global-footer",
+                action: "Click",
+                label: "security"
+              })
+            }}><span className="footer-column__link">Security</span></a>
 					</div>
 				</div>
 			</div>
