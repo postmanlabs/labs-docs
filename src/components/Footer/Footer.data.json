@@ -49,7 +49,7 @@
     {"name": "Company",
       "children": [
         { "url": "https://www.postman.com/company/about-postman/", "name": "About", "id": "about", "category": "global-footer", "label": "about"},
-        { "url": "https://www.postman.com/careers/", "name": "Careers", "span": "We're Hiring!", "id": "were-hiring", "category": "global-footer", "label": "were-hiring"},
+        { "url": "https://www.postman.com/careers/", "name": "Careers", "span": "We're Hiring!", "id": "careers-were-hiring", "category": "global-footer", "label": "careers-were-hiring"},
         { "url": "https://www.postman.com/company/contact-us/", "name": "Contact Us", "id": "contact-us", "category": "global-footer", "label": "contact-us"},
         { "url": "https://www.postman.com/resources/press-releases/", "name": "Press & Media", "id": "press-and-media", "category": "global-footer", "label": "press-and-media"},
         { "url": "https://www.postman.com/company/nonprofit/", "name": "Postman For Nonprofits", "id": "postman-for-nonprofits", "category": "global-footer", "label": "postman-for-nonprofits"},
