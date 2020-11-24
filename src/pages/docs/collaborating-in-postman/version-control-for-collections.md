@@ -96,7 +96,7 @@ Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-
 
 ### Pull request settings
 
-Pull request settings are available on Postman Business and Enterprise plans in the __Manage Roles__ section of a collection.
+Pull request settings are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing) in the __Manage Roles__ section of a collection.
 
 <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles.jpg" width="250px"/>
 
