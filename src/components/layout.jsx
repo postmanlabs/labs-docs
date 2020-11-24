@@ -10,7 +10,7 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import marketo from '../../scripts/marketo.munchkin';
 import './layout.scss';
-import HelloBar from './Hellobar';
+// import HelloBar from './Hellobar';
 
 const getCookie = (name) => {
   const value = `; ${document.cookie}`;
@@ -72,7 +72,7 @@ class Layout extends React.Component {
       <>
         {/* <div className="container-fluid"> */}
         <div className="layout-wrapper">
-          <HelloBar />
+          {/* <HelloBar /> */}
           <Header />
           <main>{children}</main>
           <Footer />
