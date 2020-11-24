@@ -22,6 +22,8 @@ contextual_links:
 
 Postman allows you to back up your collections (for paid plans only) or synchronize your APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
 
+> If you are looking to import data into Postman from a GitHub repository, see [Importing via GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories).
+
 * [Backing up collections on GitHub](#backing-up-collections-on-github)
     * [Configuring GitHub integration for collections](#configuring-github-integration-for-collections)
     * [Backup collections to GitHub](#backup-collections-to-github)

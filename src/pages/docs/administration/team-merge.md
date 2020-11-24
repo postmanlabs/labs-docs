@@ -122,7 +122,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 ## Migration FAQs
 
 * **I'm on a free account, what happens to my personal collections once I join a new team?**
-As long as you are synced to the Postman cloud, the organizational structure of your personal workspace (collections and environments) will be carried over into the new team. Anything that has been shared to a team workspace will remain with the old team after you leave, meaning you will lose access to it. If you experience any issues when joining a new team [contact Postman support](postman.com/support).
+As long as you are synced to the Postman cloud, the organizational structure of your personal workspace (collections and environments) will be carried over into the new team. Anything that has been shared to a team workspace will remain with the old team after you leave, meaning you will lose access to it. If you experience any issues when joining a new team [contact Postman support](https://www.postman.com/support/).
 
 * **Can I be on two teams at once?**
 No, each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are on [Postman's roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
@@ -134,14 +134,14 @@ Your previous links will break since the old team is disabled. New documentation
 Once the last person has left, the team is automatically disabled. If there is only one admin remaining on the team, they will automatically inherit all the team workspaces data (collections and environments) and can perform the bulk export.
 
 * **Will my monitors / mocks transfer over?**
-No, you will need to [recreate any monitors](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) and [mocks](docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) in your new team.
+No, you will need to [recreate any monitors](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) and [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) in your new team.
 
 * **What data is exported in a large JSON file data-dump?**
 All collections in your personal workspace and any workspaces that you have joined, in addition to environments, globals, and header presets, are included when you [export a data-dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
 * **What data does NOT get exported?** You will need to [reassign roles (workspace, collection, and environment level)](/docs/collaborating-in-postman/roles-and-permissions/), [recreate workspaces](/docs/collaborating-in-postman/collaboration-intro/#creating-a-new-workspace-from-the-menu), [recreate monitors](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/), [recreate mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [re-import API schemas](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications), and [republish documentation from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
 
-> Reach out to [Postman support](http://postman.com/support) if you have any questions or run into any issues setting up Postman for your team.
+> Reach out to [Postman support](https://www.postman.com/support/) if you have any questions or run into any issues setting up Postman for your team.
 
 ## Next Steps
 
