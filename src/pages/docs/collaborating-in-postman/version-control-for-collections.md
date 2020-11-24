@@ -22,11 +22,8 @@ You can use version control with your Postman Collections by forking and merging
     * [Forking information](#forking-information)
     * [Forking to send requests](#forking-to-send-requests)
 * [Creating pull requests](#creating-pull-requests)
-<<<<<<< HEAD
-* [Pull request settings](#pull-request-settings)
-=======
+    * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-PRs)
->>>>>>> develop
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
 * [Pulling updates](#pulling-updates)
@@ -97,14 +94,13 @@ If your pull request has no conflicts, you can go ahead and open it for review. 
 
 Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-requests) your changes into the parent collection.
 
-<<<<<<< HEAD
-## Pull request settings
+### Pull request settings
 
 Pull request settings are available on Postman Business and Enterprise plans in the __Manage Roles__ section of a collection.
 
 <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles.jpg" width="250px"/>
 
-In the Postman app, select the collection in the __Collections__ sidebar and click __View more actions (...)__. Select __Manage roles__, then select __Editor__ for the users you want to provide editor access to.
+In Postman, select the collection in the __Collections__ sidebar and click __View more actions (...)__. Select __Manage roles__, then select __Editor__ for the users you want to provide editor access to.
 
 [![manage roles](https://assets.postman.com/postman-docs/manage-roles-merge.gif)](https://assets.postman.com/postman-docs/manage-roles-merge.gif)
 
@@ -125,7 +121,7 @@ There are three different types of checks that you can enable for a pull request
 > If you do not have editor access to the collection, the option to __Merge__ will be disabled.
 
 <img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/merge-disabled.jpg" width="850px"/>
-=======
+
 ### Creating public PRs
 
 To create a pull request on a public collection, you must fork the collection to a public workspace and you should have either viewer or editor access on the source collection.
@@ -145,7 +141,6 @@ You can create a pull request on a fork (the _source_) into the parent (the _des
 Once you create the pull request, you will get a notification that it has been __Shared to public workspace__.
 
 <img src="https://assets.postman.com/postman-docs/source-collection-shared-v2.jpg" alt="Source Collection Shared"/>
->>>>>>> develop
 
 ## Approving changes
 
