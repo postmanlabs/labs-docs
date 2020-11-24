@@ -93,8 +93,6 @@ const FooterColumn2 = (data) => (
 );
 
 
-
-
 class FooterComponent extends React.Component {
   constructor(props) {
     super(props);
