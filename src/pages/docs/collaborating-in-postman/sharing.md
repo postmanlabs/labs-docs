@@ -76,7 +76,7 @@ Toggle the radio button if you also want to remove the entity from its current w
 
 Click __Share and Continue__.
 
-[![Share role selection](https://assets.postman.com/postman-docs/share-entity-role-selection-v8.jpg)](https://assets.postman.com/postman-docs/share-entity-role-selection-v8.jpg)
+[![Share role selection](https://assets.postman.com/postman-docs/share-role-selection-v8.jpg)](https://assets.postman.com/postman-docs/share-role-selection-v8.jpg)
 
 Select view or edit access levels for each collaborator or the workspace as a whole. Click __Save Roles__.
 
