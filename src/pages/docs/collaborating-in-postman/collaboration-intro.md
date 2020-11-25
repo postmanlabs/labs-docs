@@ -66,11 +66,11 @@ Create a Team Workspace by inviting a team member to join a personal workspace o
 
 In Postman, select **Invite**.
 
-[![invite button](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.17%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.17%20PM.png)
+[![Invite button](https://assets.postman.com/postman-docs/invite-button-v8.jpg)](https://assets.postman.com/postman-docs/invite-button-v8.jpg)
 
-Enter the email address of the individual you’d like to invite to your team workspace, click **Add** > **Invite to team**.
+Enter the email address of the individual you’d like to invite to your team workspace, click **Add** > **Send Invitations**.
 
-[![invite team member](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.45%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.21.45%20PM.png)
+[![Invite team workspace](https://assets.postman.com/postman-docs/invite-team-members-v8.jpg)](https://assets.postman.com/postman-docs/invite-team-members-v8.jpg)
 
 The individual will be added to the team once they accept their invitation.
 
@@ -84,9 +84,9 @@ All members of your workspace will have avatars displayed at the top of Postman.
 
 Select your current workspace in Postman to open the workspace menu, then click **Create New**.
 
-[![create workspace](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.29.42%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.29.42%20PM.png)
+[![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace.jpg)](https://assets.postman.com/postman-docs/create-team-workspace.jpg)
 
-Specify a name, a summary, and select **Team** for type, then invite members to your newly created shared workspace.
+Specify a workspace name and summary. Select the visibility dropdown menu and choose **Team**. Add collaborators by entering their email addresses, then define their [workspace roles](docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
 ## Team discovery
 
@@ -94,7 +94,7 @@ Enabling team discovery encourages collaboration and eases the onboarding proces
 
 ### Making your team discoverable
 
-You can enable team discovery in the dashboard by selecting **Team** > **Settings**, or in the app by selecting **Team** > **Team Settings**.
+You can enable team discovery in the dashboard by selecting **Team** > **Settings**, or in the app by selecting **Team** > **Team Settings** > **Team Discovery**. You will receive an email notification once you enable team discovery option.
 
 [![Team Discovery Setup](https://assets.postman.com/postman-docs/team-discovery-question.jpg)](https://assets.postman.com/postman-docs/team-discovery-question.jpg)
 
@@ -132,7 +132,7 @@ If you are the last member to leave your team, you will have the option to trans
 
 ## Usage limit
 
-You can check your usage limits within the Postman app as well as in the dashboard. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting a team name.
+You can check your usage limits within Postman. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting a team name.
 
 The usage menu allows you to review limits for APIs, shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
 
