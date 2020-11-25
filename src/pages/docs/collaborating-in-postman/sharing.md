@@ -52,15 +52,15 @@ You can share various Postman entities to workspaces, or move them from one work
 
 To share an entity from Postman, find the entity based on what type it is:
 
-* To share a collection, open it in __Collections__ on the left of Postman and click __Share collection__ in the __...__ menu.
+* To share a collection, open __Collections__ on the left of Postman and click __Share collection__ in the __...__ menu.
 
 <img alt="Share collection" src="https://assets.postman.com/postman-docs/share-collection-from-sidebar-v8.jpg" width="600px"/>
 
-* To share an API, open the __APIs__ on the left of Postman and click __Share API__ in the __...__ menu.
+* To share an API, open __APIs__ on the left of Postman and click __Share API__ in the __...__ menu.
 
 <img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-from-sidebar-v8.jpg" width="600px"/>
 
-* To share an environment, open it in  __Environments__ on the left of Postman and click __Share environment__ in the __...__ menu.
+* To share an environment, open __Environments__ on the left of Postman and click __Share environment__ in the __...__ menu.
 
 <img alt="Share environment" src="https://assets.postman.com/postman-docs/share-environment-from-sidebar-v8.jpg" width="600px"/>
 
