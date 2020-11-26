@@ -52,18 +52,21 @@ This will trigger an email to the person you requested access from. When they ap
 
 There might be collections that you can view but not edit. These collections have a lock icon next to the collection name.
 
-<img alt="Collection Lock" src="https://assets.postman.com/postman-docs/collection-lock.png" width="300px">
+<img alt="Collection Lock" src="https://assets.postman.com/postman-docs/collection-lock-v8.jpg" width="300px">
 
 You can request the Editor role on this collection:
 
 1. Click the ellipsis icon (...) next to the collection name in the sidebar to open the following menu and choose **Manage Roles**.
-<img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-menu.png" width="300px">
+
+<img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-men-v8.jpg" width="300px">
 
 2. Click **Request Access** in the modal.
-![Manage Roles Blocked](https://assets.postman.com/postman-docs/manage-roles-blocked.png)
+
+<img alt="Manage Roles Blocked" src="https://assets.postman.com/postman-docs/manage-roles-blocked-v8.jpg" width="300px">
 
 3. Select a person to send the request to and select the __Editor__ [role](/docs/collaborating-in-postman/roles-and-permissions/) from the __Role__ dropdown list.
-![Request Additional Access](https://assets.postman.com/postman-docs/request-additional-access.png)
+
+<img alt="Request Additional Access" src="https://assets.postman.com/postman-docs/request-additional-access-v8.jpg">
 
 4. Complete your request by clicking **Request Access**.
 
