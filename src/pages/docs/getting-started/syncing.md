@@ -73,7 +73,7 @@ Postman indicates the sync state of your workspace. The flow diagram for sync st
 
 [![Sync States](https://assets.postman.com/postman-docs/sync-states-flow.jpg)](https://assets.postman.com/postman-docs/sync-states-flow.jpg)
 
-If you are not signed in to Postman, you see the state as **Offline**.
+If you are not signed in to Postman, you see the state as **Offline**. Click **Connect Now** to connect to Postman.
 
 [![Offline state](https://assets.postman.com/postman-docs/offline-state.jpg)](https://assets.postman.com/postman-docs/offline-state.jpg)
 
@@ -81,17 +81,17 @@ When you open Postman or if your connection drops, it displays **Connecting** be
 
 [![Connecting state](https://assets.postman.com/postman-docs/connecting-state.jpg)](https://assets.postman.com/postman-docs/connecting-state.jpg)
 
-When you click the icon, you will see **Syncing**. The popup will indicate further information about the current sync state.
+When you click the icon, you will see **Syncing** in **Online** state. The popup will indicate further information about the current sync state.
 
 [![Online state syncing](https://assets.postman.com/postman-docs/online-state-syncing.jpg)](https://assets.postman.com/postman-docs/online-state-syncing.jpg)
 
-If Postman is in sync with the server, the icon to the left of your name at the top right indicates **Online**, and displays a popup showing **All data in this workspace is backed up on our servers** on hover.
+If Postman is in sync with the server, the icon to the left of your name at the top right indicates **Online**, and displays a popup showing **In sync** on hover.
 
 [![Online state in sync](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)
 
 While connecting to Postman, if you encounter a syncing error, it will indicate **Error** state. Hover to see the detailed information on the error.
 
-[![Error state](https://assets.postman.com/postman-docs/error-state-sync-fail.jpg)](https://assets.postman.com/postman-docs/error-state-v2.jpg)
+[![Error state](https://assets.postman.com/postman-docs/error-state-v2.jpg)](https://assets.postman.com/postman-docs/error-state-v2.jpg)
 
 > You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/collaborating-in-postman/using-workspaces/conflicts/)
 
