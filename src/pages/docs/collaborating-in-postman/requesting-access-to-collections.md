@@ -57,15 +57,12 @@ There might be collections that you can view but not edit. These collections hav
 You can request the Editor role on this collection:
 
 1. Click the ellipsis icon (...) next to the collection name in the sidebar to open the following menu and choose **Manage Roles**.
-
-<img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-men-v8.jpg" width="300px">
+<img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-menu-v8.jpg" width="300px">
 
 2. Click **Request Access** in the modal.
-
-<img alt="Manage Roles Blocked" src="https://assets.postman.com/postman-docs/manage-roles-blocked-v8.jpg" width="300px">
+<img alt="Manage Roles Blocked" src="https://assets.postman.com/postman-docs/manage-roles-blocked-v8.jpg">
 
 3. Select a person to send the request to and select the __Editor__ [role](/docs/collaborating-in-postman/roles-and-permissions/) from the __Role__ dropdown list.
-
 <img alt="Request Additional Access" src="https://assets.postman.com/postman-docs/request-additional-access-v8.jpg">
 
 4. Complete your request by clicking **Request Access**.
