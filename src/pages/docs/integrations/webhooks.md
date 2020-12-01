@@ -29,13 +29,13 @@ Once you whitelist this IP address, calls for the custom webhook will be able to
 
 ## Configuring custom webhook URL
 
-1. In the [Integrations](https://go.postman.co/workspaces) tab for your selected workspace, select Webhooks from the list of third party integrations.
+1. On the [Integrations](https://postman.postman.co/integrations/browse) page, search and select Webhooks from the list of third party integrations.
 
-[![custom_webhook](https://assets.postman.com/postman-docs/webhooks_view1.png)](https://assets.postman.com/postman-docs/webhooks_view1.png)  
+[![custom_webhook](https://assets.postman.com/postman-docs/custom-webhooks.jpg)](https://assets.postman.com/postman-docs/custom-webhooks.jpg)  
 
-Click **View Details** to go to the webhooks main interface. You can also click **Configured Integrations** tab to set up other integrations, view available integrations for custom webhooks, or view all configured integrations.
+The integration details page explains how to use the integration and what it could do. If available, you can select **View** or **View All** to view previously configured custom webhooks for the selected integration.
 
-[![webhooks_view2](https://assets.postman.com/postman-docs/webhooks_view2.png)](https://assets.postman.com/postman-docs/webhooks_view2.png)  
+[![webhooks_view2](https://assets.postman.com/postman-docs/webhooks-view-details.jpg)](https://assets.postman.com/postman-docs/webhooks-view-details.jpg)  
 
 ## Back up your Postman Collections
 

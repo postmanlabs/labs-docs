@@ -30,11 +30,13 @@ Integrations allow you to automate sharing data and functionality between Postma
 
 ## Accessing integrations
 
-You can access integrations by navigating to your workspace in the [web dashboard](https://go.postman.co/workspaces), then selecting **Integrations**.
+You can access integrations by navigating to the [integrations](https://postman.postman.co/integrations/browse), search page. Search and select the integration you wish to add to your workspace.
 
-![Workspace Integrations](https://assets.postman.com/postman-docs/workspace-integrations-api.jpg)
+![Workspace Integrations](https://assets.postman.com/postman-docs/browse-integrations.jpg)
 
-Select __Browse Integrations__. Click __View Details__ to see an overview of an integration then add it to your workspace.
+Select __Add Integration__. If required, enter the required information for account and access authorization. Select the workspace you need to add the integration to and proceed with the integration setup.
+
+![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
 
 ## Static IP Support
 
