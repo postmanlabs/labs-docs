@@ -34,7 +34,11 @@ You can access integrations by navigating to the [integrations](https://postma
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/browse-integrations.jpg)
 
-Select __Add Integration__. If required, enter the required information for account and access authorization. Select the workspace you need to add the integration to and proceed with the integration setup.
+The integration details page explains how to use the integration and what it could do. If available, you can select **View** or **View All** to view previously configured integrations for the selected integration.
+
+![Workspace Integrations](https://assets.postman.com/postman-docs/integrations-from-teammates.jpg)
+
+On the details page, select __Add Integration__ to configure your integration. If required, enter the required information for account and access authorization. Select the workspace you need to add the integration to and proceed with the integration setup.
 
 ![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
 

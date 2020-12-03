@@ -33,7 +33,11 @@ Once you whitelist this IP address, calls for the custom webhook will be able to
 
 [![custom_webhook](https://assets.postman.com/postman-docs/custom-webhooks.jpg)](https://assets.postman.com/postman-docs/custom-webhooks.jpg)  
 
-The integration details page explains how to use the integration and what it could do. If available, you can select **View** or **View All** to view previously configured custom webhooks for the selected integration.
+The integration details page explains how to use the integration and what it could do. If available, you can select **View** or **View All** to view previously configured integrations for the selected integration.
+
+![Workspace Integrations](https://assets.postman.com/postman-docs/webhooks-teammates.jpg)
+
+On the details page, select __Add Integration__ to configure your integration. If required, enter the required information for account and access authorization. Select the workspace you need to add the integration to and proceed with the integration setup.
 
 [![webhooks_view2](https://assets.postman.com/postman-docs/webhooks-view-details.jpg)](https://assets.postman.com/postman-docs/webhooks-view-details.jpg)  
 
@@ -49,11 +53,11 @@ You can use custom webhooks to back up your Postman collections. This will requi
 
 3. Click **Add Integration**.
 
-[![webhooks collections1](https://assets.postman.com/postman-docs/webhooks_collections1.png)](https://assets.postman.com/postman-docs/webhooks_collections1.png)
+[![webhooks collections1](https://assets.postman.com/postman-docs/add-integration-setup.jpg)](https://assets.postman.com/postman-docs/add-integration-setup.jpg)
 
-Once the integration has been created, you can view it by navigating to **Configured Integrations**:
+Once the integration has been created, you can select **View** or **View All** to view previously configured integrations for the selected integration:
 
-[![configured integrations](https://assets.postman.com/postman-docs/Configured_integrations.png)](https://assets.postman.com/postman-docs/Configured_integrations.png)
+[![configured integrations](https://assets.postman.com/postman-docs/view-view-all.jpg)](https://assets.postman.com/postman-docs/view-view-all.jpg)
 
 ## **Backup Collections**
 
