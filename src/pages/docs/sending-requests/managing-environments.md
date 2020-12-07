@@ -26,7 +26,7 @@ contextual_links:
     url:  "https://blog.postman.com/postman-environments-how-to-control-access-to-variables-workflows-and-more/"
   - type: link
     name: "Dynamically unset environment variables"
-    url: "https://blog.postman.com/2019/05/28/pro-tip-dynamically-unset-postman-environment-variables/"
+    url: "https://blog.postman.com/pro-tip-dynamically-unset-postman-environment-variables/"
   - type: link
     name: "Securely Using API Keys in Postman"
     url: "https://blog.postman.com/how-to-use-api-keys/"
