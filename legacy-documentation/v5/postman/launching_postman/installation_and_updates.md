@@ -30,7 +30,7 @@ To install Postman, go to the [download page](https://www.postman.com/downloads
 
 ### Postman Chrome app
 
-We recommend using the Postman native apps, but Postman is also available as a Chrome app.  Read more about [why support for the Postman Chrome app is being deprecated](https://blog.postman.com/2017/03/14/going-native/).
+We recommend using the Postman native apps, but Postman is also available as a Chrome app.  Read more about [why support for the Postman Chrome app is being deprecated](https://blog.postman.com/going-native/).
 
 The Postman Chrome app can only run on the Chrome browser.  To use the Postman Chrome app, you will first need to [install Google Chrome](http://www.google.com/chrome/).
 

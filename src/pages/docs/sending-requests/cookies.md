@@ -15,7 +15,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Using the Interceptor to read and write cookies"
-    url: "https://blog.postman.com/2014/11/28/using-the-interceptor-to-read-and-write-cookies/"
+    url: "https://blog.postman.com/using-the-interceptor-to-read-and-write-cookies/"
 
 warning: false
 

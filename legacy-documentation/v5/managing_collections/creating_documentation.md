@@ -50,5 +50,5 @@ Oh, and in case you're wondering who Cooper is, why we're trying to feed him, or
 [3]: https://www.postman.com/img/v1/docs/publishing_docs/Docs4.png
 [4]: https://www.postman.com/img/v1/docs/publishing_docs/Docs5.png
 [5]: https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2
-[6]: https://blog.postman.com/2016/03/23/conditional-workflows-in-postman/
+[6]: https://blog.postman.com/conditional-workflows-in-postman/
 [7]: https://static.getpostman.com/postman-docs/40ce4cda-5788-4e18-9141-4391de078244.png

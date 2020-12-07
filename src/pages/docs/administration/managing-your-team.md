@@ -10,7 +10,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
+    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
 
 ---
 
