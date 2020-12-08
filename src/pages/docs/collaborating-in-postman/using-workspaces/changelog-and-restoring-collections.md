@@ -22,7 +22,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "New, More Useful Activity Feed in Postman Collections"
-    url: "https://blog.postman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/"
+    url: "https://blog.postman.com/new-more-useful-activity-feed-in-postman-collections/"
   - type: section
     name: "Associated Topics"
   - type: link
@@ -43,7 +43,7 @@ Your Postman collections display a changelog for reviewing create, update, and d
 
 ## Viewing the collection changelog
 
-To review the changelog for a collection in Postman, select the __Collections__ tab at the left sidebar and click the __Changelog__ icon at the right of Postman to see a chronological list of collection activities.
+To review the changelog for a collection in Postman, select the __Collections__ tab at the left sidebar and click the __Changelog__ icon on the right of Postman to see a chronological list of collection activities.
 
 The changelog indicates the date of each update, the user who carried it out, what type of update they performed, and the time the change occurred. The changelog collates consecutive updates on the same session to the same entity for readability.
 
