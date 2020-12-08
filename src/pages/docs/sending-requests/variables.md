@@ -23,10 +23,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Find and replace text, code, and variables"
-    url: "https://blog.postman.com/2018/11/13/find-and-replace-text-code-and-variables-in-postman/"
+    url: "https://blog.postman.com/find-and-replace-text-code-and-variables-in-postman/"
   - type: link
     name: "10 tips for working with variables"
-    url: "https://blog.postman.com/2017/12/29/10-tips-for-working-with-postman-variables/"
+    url: "https://blog.postman.com/10-tips-for-working-with-postman-variables/"
   - type: link
     name: "Securely Using API Keys in Postman"
     url: "https://blog.postman.com/how-to-use-api-keys/"

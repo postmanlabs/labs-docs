@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Postman v7.2 Supports GraphQL"
-    url: "https://blog.postman.com/2019/06/18/postman-v7-2-supports-graphql/"
+    url: "https://blog.postman.com/postman-v7-2-supports-graphql/"
   - type: link
     name: "Working with GraphQL template"
     url: "https://explore.postman.com/templates/1692/working-with-graphql"

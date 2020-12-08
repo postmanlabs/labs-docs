@@ -41,4 +41,4 @@ Check out our [blog post][3] on how to run Newman in Docker for Windows.
 [0]: https://github.com/postmanlabs/newman
 [1]: https://www.docker.com/
 [2]: http://registry.hub.docker.com/u/postman/newman_ubuntu1404
-[3]: https://blog.postman.com/2015/08/07/using-the-newman-docker-image-in-windows/
+[3]: https://blog.postman.com/using-the-newman-docker-image-in-windows/

@@ -20,7 +20,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Librarian: building a serverless slack app using Postman and Airtable"
-    url: "https://blog.postman.com/2017/12/21/librarian-building-a-serverless-slack-app-using-postman-and-airtable/"
+    url: "https://blog.postman.com/librarian-building-a-serverless-slack-app-using-postman-and-airtable/"
 ---
 
 > **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**

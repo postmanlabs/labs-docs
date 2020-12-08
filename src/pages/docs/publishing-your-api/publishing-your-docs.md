@@ -24,7 +24,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "API Network Exploration: Infermedica"
-    url: "https://blog.postman.com/2018/05/25/api-network-exploration-infermedica/"
+    url: "https://blog.postman.com/api-network-exploration-infermedica/"
 
 warning: false
 ---

@@ -35,4 +35,4 @@ To see an example of uploading a RAML folder, check out [this blog post][3].
 [0]: https://www.postman.com/img/v1/docs/importing_folders/importing_folders_1.png
 [1]: https://www.postman.com/img/v1/docs/importing_folders/importing_folders_2.png
 [2]: https://www.postman.com/img/v1/docs/importing_folders/importing_folders_3.png
-[3]: https://blog.postman.com/2015/11/04/supporting-raml-folders-in-postman/
+[3]: https://blog.postman.com/supporting-raml-folders-in-postman/
