@@ -94,7 +94,7 @@ This will trigger an email to the person you requested access from. When they ap
 
 There might be APIs that you can view in your team workspace but can't edit. These APIs have a lock icon next to the API name.
 
-<img alt="Requesting Editor Role on an API" src="https://assets.postman.com/postman-docs/requestingeditorroleonanapi.png" width="300px">
+<img alt="Requesting Editor Role on an API" src="https://assets.postman.com/postman-docs/request-editor-role-api-v8.jpg" width="300px">
 
 You can request the Editor role on this API:
 
@@ -121,7 +121,7 @@ Your team members can request access from you in the following cases:
 > The Viewer role is available depending on your [Postman plan](https://www.postman.com/pricing).
 
 You will receive an email detailing the request for access.
-![Request Detail Email](https://assets.postman.com/postman-docs/requestdetailemail.png)
+![Request Detail Email](https://assets.postman.com/postman-docs/request-detail-email-v8.jpg)
 
 Click **Approve Request** if you want to grant access to the collection or API. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
 
