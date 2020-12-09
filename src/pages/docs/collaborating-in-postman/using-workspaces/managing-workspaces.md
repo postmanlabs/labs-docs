@@ -73,7 +73,7 @@ You can share a Public workspace by sharing its URL directly. To access the publ
 
 ## Joining workspaces
 
-In some cases you will join a workspace by following the link in an email / notification when a member of the workspace invites you. If you are part of a team in Postman, you can find workspaces to join. Open the workspaces drop-down from the control at the top of Postman in the center. Select __Team__ and scroll to __Workspaces you can join__.
+In some cases you will join a workspace by following the link in an email / notification when a member of the workspace invites you. If you are part of a team in Postman, you can find workspaces to join. Open the workspaces drop-down from the control at the top of Postman in the center. Search for a workspace and select the workspace you want to join.
 
 <img alt="Join Workspace" src="https://assets.postman.com/postman-docs/workspaces-you-can-join.jpg" width="350px">
 
@@ -84,14 +84,6 @@ Select the workspace, then click __Join__ at the top right.
 Click __Start Building__ to open the __Build__ view in the workspace you just joined.
 
 <img alt="Build in Workspace" src="https://assets.postman.com/postman-docs/build-from-workspace-join.jpg" width="300px">
-
-You can also join a workspace from the [Dashboard](https://app.getpostman.com/dashboard) by clicking the **Join** button next to the workspace.
-
-[![join by dashboard](https://assets.postman.com/postman-docs/dashboard-join.png)](https://assets.postman.com/postman-docs/dashboard-join.png)
-
-> To leave a workspace, select the __Team__ tab in the workspaces [Dashboard](https://app.getpostman.com/dashboard) and select __Leave__.
-
-[![Leave workspace](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)](https://assets.postman.com/postman-docs/leaving-team-workspace.jpg)
 
 > To leave a public workspace, select the `...` on the right corner of the workspace overview and __Leave workspace__. Click __Leave__ to finalize leaving the workspace.
 
