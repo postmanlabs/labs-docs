@@ -23,7 +23,7 @@ contextual_links:
 warning: false
 ---
 
-You can share your Postman components with collaborators and organize your work using workspaces. To select a workspace, use the Workspaces option on the top left of Postman.
+You can share your Postman components with collaborators and organize your work using workspaces. To select a workspace, click the Workspaces dropdown at the top left of Postman.
 
 <img alt="New Workspace" src="https://assets.postman.com/postman-docs/new-workspace-v8.jpg" width="400px"/>
 
@@ -59,7 +59,7 @@ You can share workspaces with collaborators by inviting them. If you invite a co
 
 > You cannot convert the default __My Workspace__ to a team workspace.
 
-Open your workspace in the Postman app by selecting it from the workspace dropdown in the left. To add collaborators, click __Invite__ at the top right.
+Open your workspace in Postman by selecting it from the workspace dropdown in the left. To add collaborators, click __Invite__ at the top right.
 
 Add email addresses for the collaborators you want to invite to the workspace. Select access levels for the workspace and click __Send Invitations__.
 
@@ -113,7 +113,7 @@ From Postman, you can remove a collection from the sidebar. Click **...** to ope
 
 [![Remove collection from workspace](https://assets.postman.com/postman-docs/remove-collection-from-team-workspace.jpg)](https://assets.postman.com/postman-docs/remove-collection-from-team-workspace.jpg)
 
-Also, you can remove an environment from the sidebar. Click **...** next to the environment in the sidebar you would like to remove. You can also click **...** next to the Share button in the Environment tab. Select __Remove from workspace__ and confirm that you would like to remove the environment from the current workspace. The environment will no longer be visible in the workspace.
+Also, you can remove an environment from the sidebar. Click **...** next to the environment menu. You can also click **...** next to the Share button in the Environment tab. Select __Remove from workspace__ and confirm that you would like to remove the environment from the current workspace. The environment will no longer be visible in the workspace.
 
 <img alt="Remove environment from workspace" src="https://assets.postman.com/postman-docs/remove-env-from-workspace-v8.jpg" width="600px"/>
 
@@ -139,19 +139,25 @@ Confirm that you wish to delete the workspace—it will no longer be available f
 
 If you're a team administrator you can manage the members of your workspace, from the Dashboard Overview via the **Members** tab.
 
-<img alt="Edit workspace" src="https://assets.postman.com/postman-docs/edit-workspace-members.jpg" width="350px">
+For a team workspace, you can add or remove any team member from the __Members__ section, selecting access permissions depending on your account level, and save your changes.
 
-For a team workspace, you can add or remove any team member from the __Members__ section, selecting access permissions depending on your account level, and save your changes. Another way to add workspace members is to click __Manage Members__ and select __Invite Users__. Enter an email address, click __Add__ to the team, then select __Send Invitations__. You can also generate a link and invite people to your team by sharing the link with them.
-
-<img alt="Edit workspace" src="https://assets.postman.com/postman-docs/edit-members-team-v8.jpg" width="350px">
-
-To remove any team member, click the trash icon near the person you want to remove, and select __Remove User From Team__.
-
-<img alt="Remove member" src="https://assets.postman.com/postman-docs/remove-member-team-v8.jpg" width="350px">
+<img alt="Edit team workspace" src="https://assets.postman.com/postman-docs/edit-members-team-workspace-v8.jpg" width="350px">
 
 Being an admin, you have the permission to add and remove any member from a public workspace. To add members to a public workspace, navigate to the __Members__ section, enter an email address, click __Add__ to the team, then __Save__.
 
 <img alt="Add member" src="https://assets.postman.com/postman-docs/add-team-member.jpg" width="300px"/>
+
+Another way to add workspace members is to click __Manage Team__ and select __Invite Users__.
+
+<img alt="Manage team" src="https://assets.postman.com/postman-docs/manage-team-v8.jpg">
+
+Enter an email address, click __Add__ to the team, then select __Send Invitations__. You can also generate a link and invite people to your team by sharing the link with them.
+
+<img alt="Edit workspace" src="https://assets.postman.com/postman-docs/edit-members-v8.jpg" width="350px">
+
+To remove any team member, click the trash icon near the person you want to remove, and select __Remove User From Team__.
+
+<img alt="Remove member" src="https://assets.postman.com/postman-docs/remove-member-team-v8.jpg" width="350px">
 
 ## Seeing who is in your workspace
 
