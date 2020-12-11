@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Workspaces! What are they good for?"
-    url: "https://blog.postman.com/2018/04/07/workspaces-the-biggest-thing-to-hit-postman-this-month/"
+    url: "https://blog.postman.com/workspaces-the-biggest-thing-to-hit-postman-this-month/"
   - type: subtitle
     name: "Case Studies"
   - type: link

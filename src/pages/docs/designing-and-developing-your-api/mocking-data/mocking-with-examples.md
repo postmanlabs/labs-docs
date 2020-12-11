@@ -23,7 +23,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Mock responses in Postman by using Examples"
-    url: "https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
+    url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
   - type: section
     name: "Next Steps"
   - type: link
