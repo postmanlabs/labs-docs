@@ -67,13 +67,13 @@ Team roles provide high-level access control:
 | Manage team Admins and Developers | &#x2714; | | |
 | Manage SSO | &#x2714; || |
 | Manage custom domains  | &#x2714; | | |
-| View audit logs  | &#x2714; | | | &#x2714;
+| View audit logs  | &#x2714; | | &#x2714; | &#x2714;
 | View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714;
 | Manage Billing members | | &#x2714; | |
 | Manage payment | | &#x2714; | | |
 | Change plan  | | &#x2714; | |
 | View shared APIs, collections, environments, mock servers and monitors | | | &#x2714; | &#x2714;
-| View and create team workspaces | | | &#x2714; |
+| View and create team workspaces | | | &#x2714; | &#x2714;
 | Change visibility of workspaces to team or public | | | &#x2714;&ast; | &#x2714;
 | Approve requests to change workspace visibility&ast;&ast; | | | | &#x2714;
 | Enable public team profile | &#x2714; | | | &#x2714;
