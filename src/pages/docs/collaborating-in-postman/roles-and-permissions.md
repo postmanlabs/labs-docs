@@ -62,7 +62,7 @@ Team roles provide high-level access control:
 
 | Permission | Admin | Billing | Developer | Community Manager |
 | --- |:---:| --- | --- | --- |
-| Add users | &#x2714; | | | 
+| Add users | &#x2714; | | |
 | Remove users | &#x2714; | | |
 | Manage team Admins and Developers | &#x2714; | | |
 | Manage SSO | &#x2714; || |
