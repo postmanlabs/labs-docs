@@ -62,7 +62,7 @@ Team roles provide high-level access control:
 
 | Permission | Admin | Billing | Developer | Community Manager |
 | --- |:---:| --- | --- | --- |
-| Add users | &#x2714; | | | &#x2714;
+| Add users | &#x2714; | | | 
 | Remove users | &#x2714; | | |
 | Manage team Admins and Developers | &#x2714; | | |
 | Manage SSO | &#x2714; || |
@@ -74,9 +74,13 @@ Team roles provide high-level access control:
 | Change plan  | | &#x2714; | |
 | View shared APIs, collections, environments, mock servers and monitors | | | &#x2714; | &#x2714;
 | View and create team workspaces | | | &#x2714; |
-| Change visibility of workspaces to team or public | | | | &#x2714;
-| Approve requests to change workspace visibility | | | | &#x2714;
-| Enable public team profile | | | | &#x2714;
+| Change visibility of workspaces to team or public | | | &#x2714;&ast; | &#x2714;
+| Approve requests to change workspace visibility&ast;&ast; | | | | &#x2714;
+| Enable public team profile | &#x2714; | | | &#x2714;
+
+&ast; On Postman Team and Free plans, any developer can change visibility of workspaces
+
+&ast;&ast; Enterprise and Business plans only
 
 ### Workspace roles
 
