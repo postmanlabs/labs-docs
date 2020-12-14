@@ -40,7 +40,7 @@ const IndexPage = () => (
           <h2>Postman Learning Center</h2>
           <p>
             Learn how to use Postman. <br/>
-            Check out the documentation and support resources!
+            Check out the docs and support resources!
           </p>
           <a href="/docs/" className="btn btn__primary">Explore the docs</a>
         </div>
