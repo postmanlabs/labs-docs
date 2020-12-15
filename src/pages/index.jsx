@@ -3,7 +3,7 @@ import ResponsiveEmbed from 'react-responsive-embed';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import HeroImage from '../assets/postmanauts-rocket.png';
+import HeroImage from '../assets/workspaces-personal-postmanaut.png';
 import AdminImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
@@ -39,7 +39,7 @@ const IndexPage = () => (
         <div className="col-lg-5 hero-text">
           <h2>Postman Learning Center</h2>
           <p>
-            Learn how to use Postman effectively in your API projects.
+            Learn how to use Postman. <br/>
             Check out the docs and support resources!
           </p>
           <a href="/docs/" className="btn btn__primary">Explore the docs</a>
@@ -51,14 +51,21 @@ const IndexPage = () => (
     </section>
     <section className="row design">
       <div className="col-md-12 text-center">
-        <h3>Design - Develop - Test - Collaborate</h3>
+        <h3>Design, develop, and collaborate on your API projects</h3>
         <div className="row justify-content-center">
           <LandingCard
             title="Get Started"
-            description="Learn the Postman fundamentals by reading the docs."
-            cta="Begin learning"
-            link="/docs/"
+            description="Send your first API request in Postman in a few clicks!"
+            cta="Send a request"
+            link="/docs/getting-started/sending-the-first-request/"
             icon={LearnImage}
+          />
+          <LandingCard
+            title="Test"
+            description="Write test scripts and build automation into your workflow."
+            link="/docs/writing-scripts/intro-to-scripts/"
+            cta="Create tests"
+            icon={ResourceImage}
           />
           <LandingCard
             title="Admin"
@@ -66,13 +73,6 @@ const IndexPage = () => (
             link="/docs/administration/managing-your-team/"
             cta="Manage Postman"
             icon={AdminImage}
-          />
-          <LandingCard
-            title="Develop"
-            description="Build your own utilities with Postman resources."
-            link="/docs/developer/resources-intro/"
-            cta="Discover resources"
-            icon={ResourceImage}
           />
         </div>
         <div className="row justify-content-center">
@@ -83,9 +83,9 @@ const IndexPage = () => (
             ctaLink="https://community.postman.com/"
           />
           <SecondaryCard
-            title="API Network"
-            description="Find templates for learning and connecting to existing APIs."
-            cta="Browse Network"
+            title="Postman Network"
+            description="Find templates, workspaces, and APIs you can interact with inside Postman."
+            cta="Browse Postman"
             ctaLink="https://explore.postman.com/"
           />
           <SecondaryCard
