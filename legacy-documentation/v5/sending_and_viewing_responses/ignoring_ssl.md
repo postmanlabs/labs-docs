@@ -20,4 +20,4 @@ In the native apps, you have the option of ignoring SSL certificates altogether.
 
 
 [0]: https://www.postman.com/img/v1/docs/self_signed_certs/ignoring_1.png
-[1]: https://blog.postman.com/2014/01/28/using-self-signed-certificates-with-postman/
+[1]: https://blog.postman.com/using-self-signed-certificates-with-postman/

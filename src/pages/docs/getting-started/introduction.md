@@ -26,7 +26,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
-    url: "https://blog.postman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/"
+    url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"
 
 ---
 

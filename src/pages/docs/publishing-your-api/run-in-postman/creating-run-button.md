@@ -25,7 +25,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Square simplifies API docs with the Run in Postman button"
-    url: "https://blog.postman.com/2017/07/21/square-simplifies-api-docs-with-the-run-in-postman-button/"
+    url: "https://blog.postman.com/square-simplifies-api-docs-with-the-run-in-postman-button/"
   - type: section
     name: "Next Steps"
   - type: link

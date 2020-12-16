@@ -11,7 +11,8 @@
         { "url": "https://www.postman.com/product/api-versioning/", "name": "Version Control", "id": "version-control", "category": "global-footer", "label": "version-control"},
         { "url": "https://www.postman.com/product/workspaces/", "name": "Workspaces", "id": "workspaces", "category": "global-footer", "label": "workspaces"},
         { "url": "https://www.postman.com/product/postman-interceptor/", "name": "Interceptor", "id": "interceptor", "category": "global-footer", "label": "interceptor"},
-        { "url": "https://www.postman.com/api-visualizer/", "name": "API Visualizer", "id": "visualizer", "category": "global-footer", "label": "visualizer"}
+        { "url": "https://www.postman.com/api-visualizer/", "name": "API Visualizer", "id": "visualizer", "category": "global-footer", "label": "visualizer"},
+        { "url": "https://www.postman.com/api-platform/api-testing/", "name": "API Testing", "id": "api-testing", "category": "global-footer", "label": "api-testing"}
       ]
     },
 

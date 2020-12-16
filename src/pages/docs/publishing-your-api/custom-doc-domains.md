@@ -27,15 +27,15 @@ You can use a custom domain for your API documentation.
 
 In the Postman web dashboard, select [Team Settings](https://go.postman.co/settings/team/general) from the Team tab.
 
-[![edit view for team](https://assets.postman.com/postman-docs/WS-docs-team-settings2-1.png)](https://assets.postman.com/postman-docs/WS-docs-team-settings2-1.png)
+[![edit view for team](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)
 
 In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Click __+ Add a new domain__.
 
-[![custom domain](https://assets.postman.com/postman-docs/WS-docs-custom-domains-1.png)](https://assets.postman.com/postman-docs/WS-docs-custom-domains-1.png)
+[![custom domain](https://assets.postman.com/postman-docs/add-custom-domain.jpg)](https://assets.postman.com/postman-docs/add-custom-domain.jpg)
 
 In the __Add a Custom Domain__ page, enter the URL of the domain you want to add. Your custom domain can be a full domain or a subdomain. For example, you can use either `example.com` or `api.example.com`.
 
-[![enter custom domain](https://assets.postman.com/postman-docs/WS-docs-add-custom-domain-1.png)](https://assets.postman.com/postman-docs/WS-docs-add-custom-domain-1.png)
+[![enter custom domain](https://assets.postman.com/postman-docs/add-custom-domain-1.jpg)](https://assets.postman.com/postman-docs/add-custom-domain-1.jpg)
 
 Click __Proceed__ to verify the domain.
 
@@ -43,7 +43,7 @@ Click __Proceed__ to verify the domain.
 
 When you add a custom domain, you will see a modal displaying the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain for TXT and CNAME.
 
-[![see TXT and CNAME](https://assets.postman.com/postman-docs/WS-verfication-tokens-1.png)](https://assets.postman.com/postman-docs/WS-verfication-tokens-1.png)
+[![see TXT and CNAME](https://assets.postman.com/postman-docs/verfication-tokens-1.jpg)](https://assets.postman.com/postman-docs/verfication-tokens-1.jpg)
 
 ## Adding DNS records
 
@@ -54,7 +54,7 @@ For DNS records, verify the ownership with a DNS web service provider. In a sepa
 
 To verify the domain, check the __I've added the TXT and CNAME records__ checkbox, then click __Verify Domain__. A confirmation message should indicate that the domain has been verified.
 
-[![verify_domain](https://assets.postman.com/postman-docs/WS-docs-verify-domain-1.png)](https://assets.postman.com/postman-docs/WS-docs-verify-domain-1.png)
+[![verify_domain](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)
 
 > Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain has CAA records set, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt issue this certificate, refer to the [LetsEncrypt Documentation](https://letsencrypt.org/docs/caa).
 
@@ -80,7 +80,7 @@ If you receive the same message when adding your second domain, note that since 
 
 When your domain is verified, you can use it to [publish your API documentation](/docs/publishing-your-api/publishing-your-docs/). If you have a collection already published, you can edit it to use the new domain.
 
-[![publish collection](https://assets.postman.com/postman-docs/WS-publish-collection-edit-1.png)](https://assets.postman.com/postman-docs/WS-publish-collection-edit-1.png)
+[![publish collection](https://assets.postman.com/postman-docs/publish-collection-edit-1.jpg)](https://assets.postman.com/postman-docs/publish-collection-edit-1.jpg)
 
 ## Next steps
 

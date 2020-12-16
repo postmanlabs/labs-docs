@@ -19,10 +19,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Integrate API tests with Postman, Newman, and Travis CI"
-    url: "https://blog.postman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"
+    url: "https://blog.postman.com/integrate-api-tests-with-postman-newman-and-travis-ci/"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
-    url: "https://blog.postman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
+    url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section
     name: "Next Steps"
   - type: link

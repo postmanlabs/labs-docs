@@ -25,7 +25,7 @@ A few features exclusive to the native apps are listed here:
 3. Menu bar<br>The Chrome app had a very limited menu bar. With the native apps you can create collections, switch to History requests, and more!<br>
 [<img src="https://cloud.githubusercontent.com/assets/681190/16727776/59de49a6-4780-11e6-8d0e-63773f072440.png" width="600">](https://cloud.githubusercontent.com/assets/681190/16727776/59de49a6-4780-11e6-8d0e-63773f072440.png)
 
-4. Restricted headers<br>The latest versions of the native apps let you send headers like Origin and User-Agent. These are restricted in the Chrome app. For more info on the new Postman Runtime, check [our blog post](https://blog.postman.com/2016/06/14/introducing-postman-runtime-more-power-better-control/).
+4. Restricted headers<br>The latest versions of the native apps let you send headers like Origin and User-Agent. These are restricted in the Chrome app. For more info on the new Postman Runtime, check [our blog post](https://blog.postman.com/introducing-postman-runtime-more-power-better-control/).
 
-5. [Postman Console](https://blog.postman.com/2016/08/26/the-postman-console/)<br> The latest version of the native app also has a built-in console, which allows you to view the network request details for API calls.<br>
+5. [Postman Console](https://blog.postman.com/the-postman-console/)<br> The latest version of the native app also has a built-in console, which allows you to view the network request details for API calls.<br>
 [<img src="https://cloud.githubusercontent.com/assets/1330851/20256699/1adfcdb2-aa6b-11e6-82f7-44ce026509f8.png" width="600">](https://cloud.githubusercontent.com/assets/1330851/20256699/1adfcdb2-aa6b-11e6-82f7-44ce026509f8.png)
