@@ -96,9 +96,6 @@ The following is a list of dynamic variables whose values are randomly generated
 
 | **Variable Name**         | **Description**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
-| **`$randomImage`**        | A random image                                | `http://lorempixel.com/640/480/technics`   |
-|                           |                                               | `http://lorempixel.com/640/480/food`       |
-|                           |                                               | `http://lorempixel.com/640/480/business`   |
 | **`$randomAvatarImage`**  | A random avatar image                         | `https://s3.amazonaws.com/uifaces/faces/twitter/johnsmithagency/128.jpg` |
 |                           |                                               | `https://s3.amazonaws.com/uifaces/faces/twitter/xadhix/128.jpg` |
 |                           |                                               | `https://s3.amazonaws.com/uifaces/faces/twitter/martip07/128.jpg` |
@@ -114,7 +111,6 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomPeopleImage`**  | A URL for a random image of a person          | `http://lorempixel.com/640/480/people`     |
 | **`$randomNatureImage`**  | A URL for a random nature image               | `http://lorempixel.com/640/480/nature`     |
 | **`$randomSportsImage`**  | A URL for a random sports image               | `http://lorempixel.com/640/480/sports`     |
-| **`$randomTechnicsImage`**| A URL for a random tech image                 | `http://lorempixel.com/640/480/technics`   |
 |**`$randomTransportImage`**| A URL for a random transportation image       | `http://lorempixel.com/640/480/transport`  |
 | **`$randomImageDataUri`** | A random image data URI                       | `data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20baseProfile%3D%22full%22%20width%3D%22undefined%22%20height%3D%22undefined%22%3E%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22grey%22%2F%3E%20%20%3Ctext%20x%3D%220%22%20y%3D%2220%22%20font-size%3D%2220%22%20text-anchor%3D%22start%22%20fill%3D%22white%22%3Eundefinedxundefined%3C%2Ftext%3E%20%3C%2Fsvg%3E` |
 
