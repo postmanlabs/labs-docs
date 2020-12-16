@@ -98,29 +98,32 @@ Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-
 
 Pull request settings are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing) in the __Manage Roles__ section of a collection.
 
-<img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles.jpg" width="250px"/>
+<img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-pr.jpg" width="250px"/>
 
 In Postman, select the collection in the __Collections__ sidebar and click __View more actions (...)__. Select __Manage roles__, then select __Editor__ for the users you want to provide editor access to.
 
-[![manage roles](https://assets.postman.com/postman-docs/manage-roles-merge.gif)](https://assets.postman.com/postman-docs/manage-roles-merge.gif)
+[![manage roles](https://assets.postman.com/postman-docs/manage-roles-merge.jpg)](https://assets.postman.com/postman-docs/manage-roles-merge.jpg)
 
 You must have __Editor__ access on a collection to merge changes. If you have __Viewer__ access to a collection, you will see a warning icon while adding reviewers to a pull request.
 
-<img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/reviewer-permission.jpg" width="850px"/>
+<img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/reviewer-permission-pull-request.jpg" width="400px"/>
 
 Once you have created the pull request, you can assign merge checks before approving changes.
 
-<img alt="Merge Check" src="https://assets.postman.com/postman-docs/merge-check-screen.jpg" width="850px"/>
+<img alt="Merge Check" src="https://assets.postman.com/postman-docs/manage-roles-screen.jpg" width="850px"/>
 
-There are three different types of checks that you can enable for a pull request:
+There are two different types of checks that you can enable for a pull request:
 
 * __Approved once__ : You need at least one approval to merge the pull request.
 * __Approved by a collection editor__ : You require the approval of a collection editor to merge the pull request.
-* __Up to date with all changes to this collection__ : You cannot merge the pull request if a forked branch is behind the destination branch.
 
-> If you do not have editor access to the collection, the option to __Merge__ will be disabled.
+If you do not have editor access to the collection, the option to __Merge__ will be disabled.
 
-<img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/merge-disabled.jpg" width="850px"/>
+<img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/view-merge-conditions.jpg" width="400px"/>
+
+Click __View Merge Conditions__ to see the merge conditions to be met for the pull request.
+
+<img alt="Merge Condition" src="https://assets.postman.com/postman-docs/merge-conditions.jpg" width="400px"/>
 
 ### Creating public PRs
 
