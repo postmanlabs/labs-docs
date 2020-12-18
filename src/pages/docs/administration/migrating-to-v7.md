@@ -16,6 +16,10 @@ This section describes the steps/flow to migrate to Postman v8.
 
 **Note**: Non-team users can move to Postman v8 by updating the app via **Settings > Update > Check for Updates**, without worrying about the steps described in this section.
 
+## Postman on web
+
+You can now access [Postman](https://identity.getpostman.com/signup?continue=https%3A%2F%2Fgo.postman.co%2Fbuild) through your web browser. Create a free account or sign in to your Postman account to get started.
+
 This section describes the following topics:
 
 * [Why migrate?](#why-migrate)
@@ -27,9 +31,9 @@ If you are a team user, you must migrate to Postman v8 to leverage fine-grained 
 
 * Use role-based permissions which come with a fine-grained access management of some of Postman’s prominent features.
 
-* Access new features and updates because new feature development will be based on Postman v7.
+* Access new features and updates because new feature development will be based on Postman v8.
 
-**Note:** Once your team migrates to Postman v8, the native apps 5.x and 6.x versions and Chrome app 5.x versions will stop syncing and all collaboration features will stop working and all members of the team need to update to their apps to Postman v8 to continue collaborating.
+**Note:** Once your team migrates to Postman v8, the native apps 6.x and 7.x versions will stop syncing and all collaboration features will stop working and all members of the team need to update to their apps to Postman v8 to continue collaborating.
 
 ## How to migrate?
 
@@ -55,7 +59,7 @@ Once your team has migrated to Postman v7, all users in the team would be notifi
 
 #### Updating app to Postman v7 after migration
 
-You can update your Postman v6 app to Postman v7, via **Settings > Update > Check for Updates**. Postman v7 would be available via auto-updates to all team users after the admin has successfully migrated the team.
+You can update your Postman v6 app to Postman v7, via **Settings > Update > Check for Updates**. Postman v7 would be available via auto-updates to all team users after the admin has successfully migrated the team. In the similar way, you can update Postman v7 app to Postman v8.
 
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', you will not be able to update the app via the steps explained above. Please use the following commands to update your app via the terminal:
 
@@ -66,7 +70,7 @@ sudo snap refresh postman
 
 ### Team user on Postman v7
 
-If you are in a team and download Postman v7 when the entire team is on an older version, you will not be able to migrate to Postman v7. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to Postman v7. If you happen to be on Postman v7 and would like to downgrade to Postman v6 to continue working with a team that has not migrated yet, please download the latest Postman v6 app from the links below.
+If you are in a team and download Postman v7 when the entire team is on an older version(v6 or below), you will not be able to migrate to Postman v7. Postman displays a message saying you can’t access features on this version of Postman app until the team migrates to Postman v7. If you happen to be on Postman v7 and would like to downgrade to Postman v6 to continue working with a team that has not migrated yet, please download the latest Postman v6 app from the links below.
 
 ## Download latest Postman v6 app
 
@@ -87,17 +91,17 @@ sudo snap refresh postman
 
 ### Team user on Postman v8
 
-If you are in a team and download Postman v8 when the entire team is on an older version, you will not be able to migrate to Postman v8. Postman displays a message saying you can’t access features on this version of Postman until the team migrates to Postman v8. If you happen to be on Postman v8 and would like to downgrade to Postman v7 to continue working with a team that has not migrated yet, please download the latest Postman v7 app from the links below.
+If you are in a team and download Postman v8 when the entire team is on an older version(v7 or below), you will not be able to migrate to Postman v8. Postman displays a message saying you can’t access features on this version of Postman until the team migrates to Postman v8. If you happen to be on Postman v8 and would like to downgrade to Postman v7 to continue working with a team that has not migrated yet, please download the latest Postman v7 app from the links below.
 
 ## Download latest Postman v7 app
 
 Please use the following links to download the latest Postman v6 version for your platform.
 
-* [Download Postman v7 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v7-latest)
-* [Download Postman v7 for Windows 64-bit](https://go.pstmn.io/dl-win64-v7-latest)
-* [Download Postman v7 for Windows 32-bit](https://go.pstmn.io/dl-win32-v7-latest)
-* [Download Postman v7 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v7-latest)
-* [Download Postman v7 for Linux 32-bit](https://go.pstmn.io/dl-linux32-v7-latest)
+* [Download Postman v7 for macOS 64-bit](https://dl.pstmn.io/download/latest/osx)
+* [Download Postman v7 for Windows 64-bit](https://dl.pstmn.io/download/latest/win64)
+* [Download Postman v7 for Windows 32-bit](https://dl.pstmn.io/download/latest/win32)
+* [Download Postman v7 for Linux 64-bit](https://dl.pstmn.io/download/latest/linux64)
+* [Download Postman v7 for Linux 32-bit](https://dl.pstmn.io/download/latest/linux32)
 
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v7.
 
