@@ -54,7 +54,7 @@
         { "url": "https://www.postman.com/company/contact-us/", "name": "Contact Us", "id": "contact-us", "category": "global-footer", "label": "contact-us"},
         { "url": "https://www.postman.com/resources/press-releases/", "name": "Press & Media", "id": "press-and-media", "category": "global-footer", "label": "press-and-media"},
         { "url": "https://www.postman.com/company/nonprofit/", "name": "Postman For Nonprofits", "id": "postman-for-nonprofits", "category": "global-footer", "label": "postman-for-nonprofits"},
-        { "url": "hhttps://www.postman.com/company/student-program/", "name": "Student Program", "id": "student-program", "category": "global-footer", "label": "student-program"},
+        { "url": "https://www.postman.com/company/student-program/", "name": "Student Program", "id": "student-program", "category": "global-footer", "label": "student-program"},
         { "url": "https://store.getpostman.com/", "name": "Swag Shop", "id": "swag-shop", "category": "global-footer", "label": "swag-shop"}
       ]
     }
