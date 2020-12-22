@@ -45,7 +45,7 @@ const IndexPage = () => (
           <a href="/docs/" className="btn btn__primary">Explore the docs</a>
         </div>
         <div className="col-lg-7">
-          <img src={HeroImage} className="hero-image" alt="Hero" />
+          <img src={HeroImage} className="hero-image mb-5" alt="Postmanaut sitting at computer. Illustration." />
         </div>
       </div>
     </section>

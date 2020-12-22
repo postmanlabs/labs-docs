@@ -31,8 +31,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/product/api-client"
+                  onClick={[Function]}
                 >
                   API Client
                 </a>
@@ -41,8 +42,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/automated-testing"
+                  onClick={[Function]}
                 >
                   Automated Testing
                 </a>
@@ -51,8 +53,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/features/mock-api"
+                  onClick={[Function]}
                 >
                   Design & Mock
                 </a>
@@ -61,8 +64,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/api-documentation-generator"
+                  onClick={[Function]}
                 >
                   Documentation
                 </a>
@@ -71,8 +75,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/api-monitor"
+                  onClick={[Function]}
                 >
                   Monitors
                 </a>
@@ -81,8 +86,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/product/api-versioning"
+                  onClick={[Function]}
                 >
                   Version Control
                 </a>
@@ -91,8 +97,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/product/workspaces"
+                  onClick={[Function]}
                 >
                   Workspaces
                 </a>
@@ -114,8 +121,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/downloads/"
+                  onClick={[Function]}
                 >
                   Download the App
                 </a>
@@ -124,8 +132,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/downloads/release-notes"
+                  onClick={[Function]}
                 >
                   Release Notes
                 </a>
@@ -134,8 +143,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/integrations/"
+                  onClick={[Function]}
                 >
                   Integrations
                 </a>
@@ -144,8 +154,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://docs.api.getpostman.com/"
+                  onClick={[Function]}
                 >
                   Postman API
                 </a>
@@ -154,8 +165,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://github.com/postmanlabs"
+                  onClick={[Function]}
                 >
                   Open-Source
                 </a>
@@ -164,8 +176,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://status.getpostman.com/"
+                  onClick={[Function]}
                 >
                   System Status
                 </a>
@@ -187,8 +200,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://getpostman.com/use-cases/"
+                  onClick={[Function]}
                 >
                   Overview
                 </a>
@@ -197,8 +211,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://getpostman.com/use-cases/api-development"
+                  onClick={[Function]}
                 >
                   Development
                 </a>
@@ -207,8 +222,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/use-cases/api-testing"
+                  onClick={[Function]}
                 >
                   Testing
                 </a>
@@ -217,8 +233,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/use-cases/product-management"
+                  onClick={[Function]}
                 >
                   Product Management
                 </a>
@@ -248,8 +265,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/pricing"
+                  onClick={[Function]}
                 >
                   Overview
                 </a>
@@ -259,8 +277,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/postman-enterprise"
+                  onClick={[Function]}
                 >
                   Postman Enterprise
                 </a>
@@ -283,8 +302,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/support"
+                  onClick={[Function]}
                 >
                   Support
                 </a>
@@ -294,8 +314,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://pages.getpostman.com/Resellers-Support.html"
+                  onClick={[Function]}
                 >
                   Resellers Support
                 </a>
@@ -305,8 +326,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__internal footer-column__link"
+                  className="footer-column__link"
                   href="/"
+                  onClick={[Function]}
                 >
                   Learning Center
                 </a>
@@ -316,8 +338,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/resources/videos-tutorials/"
+                  onClick={[Function]}
                 >
                   Videos & Tutorials
                 </a>
@@ -327,8 +350,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/community"
+                  onClick={[Function]}
                 >
                   Community Content
                 </a>
@@ -338,8 +362,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://community.postman.com/"
+                  onClick={[Function]}
                 >
                   Postman Community
                 </a>
@@ -362,8 +387,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/about-postman"
+                  onClick={[Function]}
                 >
                   About
                 </a>
@@ -373,8 +399,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/jobs/"
+                  onClick={[Function]}
                 >
                   Jobs
                 </a>
@@ -384,8 +411,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/contact"
+                  onClick={[Function]}
                 >
                   Contact
                 </a>
@@ -395,8 +423,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://blog.postman.com/"
+                  onClick={[Function]}
                 >
                   Blog
                 </a>
@@ -406,8 +435,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/resources/press-releases/"
+                  onClick={[Function]}
                 >
                   Resources
                 </a>
@@ -417,8 +447,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://store.getpostman.com/"
+                  onClick={[Function]}
                 >
                   Swag Shop
                 </a>
@@ -428,8 +459,9 @@ exports[`renders correctly 1`] = `
                 className="footer-column__link-wrapper"
               >
                 <a
-                  className="dynamic-link__external footer-column__link"
+                  className="footer-column__link"
                   href="https://www.postman.com/post-con-2019"
+                  onClick={[Function]}
                 >
                   POST/CON 2019
                 </a>
@@ -450,7 +482,9 @@ exports[`renders correctly 1`] = `
           className="mr-2 pr-sm-3 pl-sm-2 items_line"
         >
           <a
-            href="https://www.postman.com/postman-galaxy"
+            href="https://www.postman.com/postman-galaxy/"
+            id="postman-galaxy"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -466,6 +500,8 @@ exports[`renders correctly 1`] = `
         >
           <a
             href="https://www.postman.com/legal/privacy-policy/"
+            id="privacy-policy"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -481,6 +517,8 @@ exports[`renders correctly 1`] = `
         >
           <a
             href="https://www.postman.com/legal/eula/"
+            id="terms"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -496,6 +534,8 @@ exports[`renders correctly 1`] = `
         >
           <a
             href="https://www.postman.com/company/careers/"
+            id="Careers"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -511,6 +551,8 @@ exports[`renders correctly 1`] = `
         >
           <a
             href="https://www.postman.com/support/"
+            id="support"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -525,7 +567,9 @@ exports[`renders correctly 1`] = `
           className="mr-2 pr-sm-3 pl-sm-2 items_noline"
         >
           <a
-            href="https://www.postman.com/security"
+            href="https://www.postman.com/security/"
+            id="security"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
