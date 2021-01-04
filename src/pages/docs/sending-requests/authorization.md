@@ -401,7 +401,7 @@ Advanced parameters for NTLM auth are as follows:
 
 In the __Authorization__ tab for a request, select __Akamai EdgeGrid__ from the __Type__ dropdown list.
 
-[] ![Akamai EdgeGrid Auth](https://assets.postman.com/postman-docs/akamai-v8.jpg)](https://assets.postman.com/postman-docs/akamai-v8.jpg)
+[![Akamai EdgeGrid Auth](https://assets.postman.com/postman-docs/akamai-v8.jpg)](https://assets.postman.com/postman-docs/akamai-v8.jpg)
 
 Enter your __Access Token__, __Client Token__, and __Client Secret__, using variables for additional security—you will receive these details when you register a client application with Akamai.
 
