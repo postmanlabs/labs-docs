@@ -50,7 +50,7 @@ After you set up the integration, you can view real-time alerts based on the res
 1. In the **Add Integration** page:
    * Give a nickname to your integration.
    * Select the workspace to which your monitor belongs to.
-   * Select a monitor. 
+   * Select a monitor.
    * Enter the BigPanda app key.
    * Enter the API token for the app.
 
