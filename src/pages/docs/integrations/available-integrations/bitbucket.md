@@ -37,7 +37,7 @@ You can back up your Postman Collections to your Bitbucket repository. Once the 
 
 ### Configuring a Bitbucket integration
 
-To add a Bitbucket integration, navigate to your [Postman Dashboard](https://go.postman.co/). Select your desired workspace > **Integrations**. Click **Browse Integrations**, locate **Bitbucket**, and select **View Details**. Click **+ Add integration**.
+To add a Bitbucket integration, navigate to your [Postman Dashboard](https://go.postman.co/). Select **Integrations** and click **Browse All Integrations** (or open [Browse Integrations](https://go.postman.co/integrations/browse?category=all) page). Select **Bitbucket** from the list and click **Add integration**.
 
 ![Bitbucket page](https://assets.postman.com/postman-docs/bitbucket-postman-page.jpg)
 
