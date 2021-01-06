@@ -28,17 +28,24 @@ Integrations allow you to automate sharing data and functionality between Postma
 
 > If you use GitHub or GitLab for your repository management and use Postman to develop and test your APIs, you can save your Postman Collections to your repositories with the [Postman to GitHub integration](/docs/integrations/available-integrations/github/) and [Postman to GitLab integration](https://learning.postman.com/docs/integrations/available-integrations/gitlab/).
 
+## Contents
+
+* [Accessing Integrations](#accessing-integrations)
+* [Static IP Support](#static-ip-support)
+
 ## Accessing integrations
 
-You can access integrations by navigating to the [integrations](https://postman.postman.co/integrations/browse), search page. Search and select the integration you wish to add to your workspace.
+You can access integrations by navigating to [Browse Integrations](https://postman.postman.co/integrations/browse), search page. Search and select the integration you wish to add to your workspace.
+
+>You can access integrations by navigating to [Browse Integrations](https://postman.postman.co/integrations/browse) from your [Home page](http://go.postman.co/) and select "Integrations" from the menu on the left.
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/browse-integrations.jpg)
 
-The integration details page explains how to use the integration and what it could do. If available, you can select **View** or **View All** to view previously configured integrations for the selected integration.
+Each integration's page explains how to use the integration and what it could do. If available, you can select **View** or **View All** to view previously configured integrations for the selected integration.
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/integrations-from-teammates.jpg)
 
-On the details page, select __Add Integration__ to configure your integration. If required, enter the required information for account and access authorization. Select the workspace you need to add the integration to and proceed with the integration setup.
+Select __Add Integration__ to configure your integration. Enter the required information for account and access authorization. Select your workspace to add the integration to and complete the setup process.
 
 ![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
 
