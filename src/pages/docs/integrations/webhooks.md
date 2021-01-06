@@ -49,7 +49,6 @@ Once you whitelist this IP address, calls for the custom webhook will be able to
 Each integration's page explains how to use the integration and what it could do. If available, you can view previously configured integrations for the selected integration.
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/webhooks-teammates.jpg)
-
 2. Select __Add Integration__ to configure your integration. Enter the required information for account and access authorization. Select the workspace you need to add the integration to and proceed with the integration setup.
 
 [![webhooks_view2](https://assets.postman.com/postman-docs/custom-webhooks-setup.jpg)](https://assets.postman.com/postman-docs/custom-webhooks-setup.jpg)  
