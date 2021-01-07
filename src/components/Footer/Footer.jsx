@@ -442,7 +442,7 @@ class FooterComponent extends React.Component {
               <li className="copyright-notice list-inline-item">
                 ©
                 <span id="current-year" />
-                2020 Postman, Inc. All rights reserved
+                2021 Postman, Inc. All rights reserved
               </li>
             </div>
           </div>
