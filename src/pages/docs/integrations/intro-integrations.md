@@ -35,9 +35,7 @@ Integrations allow you to automate sharing data and functionality between Postma
 
 ## Accessing integrations
 
-You can access integrations by navigating to [Browse Integrations](https://postman.postman.co/integrations/browse), search page. Search and select the integration you wish to add to your workspace.
-
->You can access integrations by navigating to [Browse Integrations](https://postman.postman.co/integrations/browse) from your [Home page](http://go.postman.co/) and select "Integrations" from the menu on the left.
+You can access integrations by navigating to [Browse Integrations](https://postman.postman.co/integrations/browse) from your [Home page](http://go.postman.co/) and selecting "Integrations" from the menu on the left. Search and select the integration you wish to add to your workspace.
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/browse-integrations.jpg)
 

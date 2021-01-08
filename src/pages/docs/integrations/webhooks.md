@@ -20,7 +20,7 @@ You can configure a custom webhook with Postman to send events such as monitor r
 ## Contents
 
 * [Static IP Support](#static-ip-support)
-    * [Configuring custom webhook URL](#configuring-custom-webhook-url)
+* [Configuring custom webhook URL](#configuring-custom-webhook-url)
 * [Back up your Postman Collections](#back-up-your-postman-collections)
     * [Backup Collections](#backup-collections)
 * [Send collection activity feed to custom webhooks](#send-collection-activity-feed-to-custom-webhooks)
@@ -28,7 +28,6 @@ You can configure a custom webhook with Postman to send events such as monitor r
     * [Monitor Run Results](#monitor-run-results)
 * [Send a team activity feed to custom webhooks](#send-a-team-activity-feed-to-custom-webhooks)
     * [Team Activity](#team-activity)
-* []
 
 ## Static IP Support
 
@@ -40,13 +39,13 @@ Contact your IT team to whitelist the following static IP in your firewall to en
 
 Once you whitelist this IP address, calls for the custom webhook will be able to connect to your network and allow the webhook to work as expected.
 
-### Configuring custom webhook URL
+## Configuring custom webhook URL
 
 1. On the [Integrations](https://postman.postman.co/integrations/browse) page, search and select Webhooks from the list of integrations.
 
 [![custom_webhook](https://assets.postman.com/postman-docs/custom-webhooks.jpg)](https://assets.postman.com/postman-docs/custom-webhooks.jpg)  
 
-Each integration's page explains how to use the integration and what it could do. If available, you can view previously configured integrations for the selected integration.
+Each integration's page explains how to use the integration and what it can do. If available, you can view previously configured integrations for the selected integration.
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/webhooks-teammates.jpg)
 2. Select __Add Integration__ to configure your integration. Enter the required information for account and access authorization. Select the workspace you need to add the integration to and proceed with the integration setup.
@@ -67,7 +66,7 @@ You can use custom webhooks to back up your Postman collections. This will requi
 
 [![webhooks collections1](https://assets.postman.com/postman-docs/add-integration-setup.jpg)](https://assets.postman.com/postman-docs/add-integration-setup.jpg)
 
-Once the integration has been created, you can view the integration you just created in addition to the other integrations created by your team:
+Once the integration has been created, you can view the integration you just created in addition to the other active integrations created by your team:
 
 [![configured integrations](https://assets.postman.com/postman-docs/view-webhooks-all.jpg)](https://assets.postman.com/postman-docs/view-webhooks-all.jpg)
 
