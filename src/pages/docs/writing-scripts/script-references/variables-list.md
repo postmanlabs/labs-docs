@@ -2,6 +2,14 @@
 title: "Dynamic variables"
 page_id: "variables_list"
 order: 46
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Dynamic Variables | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=vW030tA17ng&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=1"
 warning: false
 
 ---
