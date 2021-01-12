@@ -163,7 +163,7 @@ You can also [define global and environment variables in scripts](#defining-vari
 
 ### Defining collection variables
 
-You can add collection variables when you create the collection or at any time after that. To create or edit a variable for an existing collection, select the collection in __Collections__ on the left of the Postman app and choose **Variables**.
+You can add collection variables when you create the collection or at any time after that. To create or edit a variable for an existing collection, select the collection in __Collections__ on the left of Postman and choose **Variables**.
 
 [![Edit Collection](https://assets.postman.com/postman-docs/collection-vars-v8.jpg)](https://assets.postman.com/postman-docs/collection-vars-v8.jpg)
 
