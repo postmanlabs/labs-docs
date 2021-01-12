@@ -24,6 +24,9 @@ contextual_links:
   - type: link
     name: "Intro to Postman: Authorizing a request"
     url: "https://www.youtube.com/watch?v=Q23wkkfezfM"
+  - type: link
+    name: "Inheriting Auth Details | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
