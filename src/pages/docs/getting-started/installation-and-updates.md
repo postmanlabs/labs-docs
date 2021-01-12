@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "Intro to APIs"
     url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+  - type: link
+    name: "Agent for the Postman Web Client"
+    url:  "https://youtu.be/6xlJUx2ZMy4"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
