@@ -109,7 +109,7 @@ See more on [how Postman calculates usage](#how-postman-calculates-monitor-usage
 
 ## Viewing monitor usage
 
-To view a high-level overview of your team's monitoring usage, you can access [monitor usage dashboard](https://go.postman.co/usage/monitors) by navigating to [your team usage dashboard](https://go.postman.co/usage) and selecting **View detailed monitoring usage** under **Monitoring Usage**.
+To view a high-level overview of your team's monitoring usage, you can access your [monitor usage dashboard](https://go.postman.co/usage/monitors) by navigating to your [team usage dashboard](https://go.postman.co/usage) and selecting **View detailed monitoring usage** under **Monitoring Usage**.
 
 This page allows you to view your team's current billing period, how many requests have been made, and which monitors have run. It also identifies monitors by name, collection, environment, and creator.
 
