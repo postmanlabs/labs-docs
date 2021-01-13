@@ -16,9 +16,6 @@ contextual_links:
   - type: link
     name: "Publishing templates"
     url: "/docs/publishing-your-api/add-templates/"
-  - type: link
-    name: "Publishing to the API Network"
-    url: "/docs/publishing-your-api/add-api-network/"
 warning: false
 
 ---
