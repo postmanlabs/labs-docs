@@ -67,7 +67,7 @@ We offer native apps for Mac and Windows (available [here][18]). You can downloa
 [6]: https://www.postman.com/docs/sync_overview
 [7]: https://www.postman.com/docs/migration
 [12]: https://www.npmjs.com/package/newman
-[14]: https://blog.postman.com/2014/01/27/enabling-chrome-developer-tools-inside-postman/
+[14]: https://blog.postman.com/enabling-chrome-developer-tools-inside-postman/
 [16]: https://www.postman.com/support
 [17]: https://github.com/postmanlabs/newman/issues
 [18]: https://www.postman.com/downloads/

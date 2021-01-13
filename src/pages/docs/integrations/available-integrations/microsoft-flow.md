@@ -15,7 +15,7 @@ contextual_links:
     name: "Related blog posts"
   - type: link
     name: "Turn your Postman Collection into a Microsoft integration"
-    url: "https://blog.postman.com/2017/04/25/turn-your-postman-collection-into-a-microsoft-integration/"
+    url: "https://blog.postman.com/turn-your-postman-collection-into-a-microsoft-integration/"
 ---
 
 > **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**

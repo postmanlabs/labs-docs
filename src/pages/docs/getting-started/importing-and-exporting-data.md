@@ -14,19 +14,19 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Sync your specs"
-    url: "https://blog.postman.com/2018/03/02/sync-your-specs/"
+    url: "https://blog.postman.com/sync-your-specs/"
   - type: link
     name: "Importing SoapUI projects into Postman"
-    url: "https://blog.postman.com/2016/04/27/importing-soapui-projects-into-postman/"
+    url: "https://blog.postman.com/importing-soapui-projects-into-postman/"
   - type: link
     name: "Importing RAML folders into Postman"
-    url: "https://blog.postman.com/2015/11/04/supporting-raml-folders-in-postman/"
+    url: "https://blog.postman.com/supporting-raml-folders-in-postman/"
   - type: link
     name: "Introducing Postman Collection Format Schema"
-    url: "https://blog.postman.com/2015/07/02/introducing-postman-collection-format-schema/"
+    url: "https://blog.postman.com/introducing-postman-collection-format-schema/"
   - type: link
     name: "Travelogue of Postman Collections Format v2"
-    url: "https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/"
+    url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
   - type: subtitle
     name: "Next Steps"
   - type: link
@@ -150,7 +150,7 @@ You can then select the format you'd like your collection to export as. Click **
 
 ![Export collection format](https://assets.postman.com/postman-docs/export-collection-format-2.jpg)
 
-> Learn more about Postman's [v1 and v2 formats](https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
+> Learn more about Postman's [v1 and v2 formats](https://blog.postman.com/travelogue-of-postman-collection-format-v2/).
 
 ### Exporting environments
 
