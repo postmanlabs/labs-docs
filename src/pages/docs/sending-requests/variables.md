@@ -165,7 +165,7 @@ You can also [define global and environment variables in scripts](#defining-vari
 
 You can add collection variables when you create the collection or at any time after that. To create or edit a variable for an existing collection, select the collection in __Collections__ sidebar on the left of Postman and choose **Variables**.
 
-[![Edit Collection](https://assets.postman.com/postman-docs/collection-vars-v8.jpg)](https://assets.postman.com/postman-docs/collection-vars-v8.jpg)
+[![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)
 
 > If you do not have edit access to a collection, you will see a __Request Access__ button.
 > [![View collection details](https://assets.postman.com/postman-docs/collection-access-v8.jpg)](https://assets.postman.com/postman-docs/collection-access-v8.jpg)
@@ -179,7 +179,7 @@ You can also [define collection variables in scripts](#defining-variables-in-scr
 
 You can add and edit variables at any time. All you need to include for a new variable is a name—you can choose to supply an initial value but can alternatively set it later, including from scripts. Use the checkbox to enable or disable a variable.
 
-[![Edit Collection](https://assets.postman.com/postman-docs/collection-vars-v8.jpg)](https://assets.postman.com/postman-docs/collection-vars-v8.jpg)
+![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)
 
 Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Sharing and persisting data](#sharing-and-persisting-data) for more on local vs synced variables.
 
