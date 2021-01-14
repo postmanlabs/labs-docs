@@ -58,8 +58,9 @@ $ docker pull postman/newman;
 4\. Run Newman commands on the image.
 
 ```bash
-$ docker run -t postman/newman run "https://api.getpostman.com/collections/8a0c9bc08f062d12dcda"
+$ docker run -t postman/newman run "https://www.getpostman.com/collections/0d0350a9a89d39fb6361"
 ```
+The URL is a shareable public link to your collection. You can get this by clicking **View more actions** on a collection, choose **Share collection** and then click **Get public link**.
 
 At this stage, you should see the [Collection](/docs/sending-requests/intro-to-collections/) running in Newman and the output displayed in the terminal.
 
