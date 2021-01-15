@@ -2,8 +2,9 @@ import React from 'react';
 import ResponsiveEmbed from 'react-responsive-embed';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 
-import HeroImage from '../assets/postmanauts-rocket.png';
+import HeroImage from '../assets/workspaces-personal-postmanaut.png';
 import AdminImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
@@ -39,26 +40,33 @@ const IndexPage = () => (
         <div className="col-lg-5 hero-text">
           <h2>Postman Learning Center</h2>
           <p>
-            Learn how to use Postman effectively in your API projects.
+            Learn how to use Postman. <br/>
             Check out the docs and support resources!
           </p>
           <a href="/docs/" className="btn btn__primary">Explore the docs</a>
         </div>
         <div className="col-lg-7">
-          <img src={HeroImage} className="hero-image" alt="Hero" />
+          <img src={HeroImage} className="hero-image mb-5" alt="Postmanaut sitting at computer. Illustration." />
         </div>
       </div>
     </section>
     <section className="row design">
       <div className="col-md-12 text-center">
-        <h3>Design - Develop - Test - Collaborate</h3>
+        <h3>Design, develop, and collaborate on your API projects</h3>
         <div className="row justify-content-center">
           <LandingCard
             title="Get Started"
-            description="Learn the Postman fundamentals by reading the docs."
-            cta="Begin learning"
-            link="/docs/"
+            description="Send your first API request in Postman in a few clicks!"
+            cta="Send a request"
+            link="/docs/getting-started/sending-the-first-request/"
             icon={LearnImage}
+          />
+          <LandingCard
+            title="Test"
+            description="Write test scripts and build automation into your workflow."
+            link="/docs/writing-scripts/intro-to-scripts/"
+            cta="Create tests"
+            icon={ResourceImage}
           />
           <LandingCard
             title="Admin"
@@ -66,13 +74,6 @@ const IndexPage = () => (
             link="/docs/administration/managing-your-team/"
             cta="Manage Postman"
             icon={AdminImage}
-          />
-          <LandingCard
-            title="Develop"
-            description="Build your own utilities with Postman resources."
-            link="/docs/developer/resources-intro/"
-            cta="Discover resources"
-            icon={ResourceImage}
           />
         </div>
         <div className="row justify-content-center">
@@ -83,9 +84,9 @@ const IndexPage = () => (
             ctaLink="https://community.postman.com/"
           />
           <SecondaryCard
-            title="API Network"
-            description="Find templates for learning and connecting to existing APIs."
-            cta="Browse Network"
+            title="Postman Network"
+            description="Find templates, workspaces, and APIs you can interact with inside Postman."
+            cta="Browse Postman"
             ctaLink="https://explore.postman.com/"
           />
           <SecondaryCard
@@ -111,6 +112,32 @@ const IndexPage = () => (
           Learn the Postman fundamentals in this video course for beginners.
         </p>
         <p>Send and authorize a request, write test scripts, and chain requests together.</p>
+      </div>
+    </section>
+
+    <section className="row video-player">
+      <div className="col-md-4">
+        <h2>Upcoming Postman Livestreams</h2>
+        <p>
+          Check out the lineup for January 2021.
+        </p>
+        <p>
+          <a href="https://www.twitch.tv/getpostman">Follow us</a> on Twitch or <a href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw">subscribe</a> to our YouTube channel so you don’t miss when we go live.
+        </p>
+      </div>
+      <div className="col-md-8" style={{ paddingLeft: '32px' }}>
+        <p>
+          <strong>January 6<sup>th</sup> -</strong> <OutboundLink href="https://youtu.be/7ZLefbZC_ik">The Postman Hack</OutboundLink>: Postman Chief Evangelist, Kin Lane , and Mario Tapia, Director of Product Marketing, announce The Postman Hack. Learn the rules, pick up some tips, and win $100K.
+        </p>
+        <p>
+          <strong>January 14<sup>th</sup> -</strong> <OutboundLink href="https://youtu.be/4DRyeCUcjFg">Making AI Art</OutboundLink>: Arlemi and Kin Lane team up again to create custom photography effects using Artificial Intelligence.
+        </p>
+        <p>
+          <strong>January 21<sup>st</sup> -</strong> <OutboundLink href="https://youtu.be/c-5UMf6sWk4">How to Break an API</OutboundLink>: Joyce welcomes Trent (Quality Engineering Manager at Postman) and Evan Lindsey (Lead SDET) to show her how to break an API. This is an episode about negative testing.
+        </p>
+        <p>
+          <strong>January 28<sup>th</sup> -</strong> <OutboundLink href="https://youtu.be/QyBZaDww-xY">Interactive Code Game for Beginners</OutboundLink>: Arlemi welcomes Daniel Kim, Senior DevRel Engineer at New Relic and founder of Bit Project, to play an interactive code game designed to make tech accessible to all developers.
+        </p>
       </div>
     </section>
 

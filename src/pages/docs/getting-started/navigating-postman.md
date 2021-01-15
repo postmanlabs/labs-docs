@@ -9,6 +9,13 @@ contextual_links:
     name: "Download and Install"
     url: "https://getpostman.com/apps"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "History | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=9VBTKwUCsGw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=4"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Sending your first request"

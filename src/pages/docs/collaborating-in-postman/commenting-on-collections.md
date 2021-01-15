@@ -2,6 +2,14 @@
 title: "Commenting on collections"
 order: 73.3
 page_id: "commenting_on_collections"
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Inline Comments | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=fkYiyCj43uk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=6"
 warning: false
 ---
 
