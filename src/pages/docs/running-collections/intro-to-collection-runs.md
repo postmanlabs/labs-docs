@@ -46,9 +46,11 @@ You can run collections against specific environments, and can pass data files i
 
 ## Starting a collection run
 
+To run a collection, open a collection and click __Run__ on the overview tab.
+
 [![Collection Run](https://assets.postman.com/postman-docs/collection-run-button-v8.jpg)](https://assets.postman.com/postman-docs/collection-run-button-v8.jpg)
 
-To run a collection, open a collection and click __Run__ on the overview tab, or click __Runner__ at the bottom left of Postman and drag a collection over from __Collections__ or __History__ on the left.
+You can also click __Runner__ at the bottom right of Postman and drag a collection over from __Collections__ or __History__ on the left.
 
 <img alt="Run history" src="https://assets.postman.com/postman-docs/run-history-v8.jpg" width="350px"/>
 
