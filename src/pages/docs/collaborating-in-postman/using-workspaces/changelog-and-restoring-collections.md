@@ -69,12 +69,6 @@ To access the activity feed from Postman, select the Overview tab and navigate t
 
 [![Activity feed from postman](https://assets.postman.com/postman-docs/activity-feed-v8.jpg)](https://assets.postman.com/postman-docs/activity-feed-v8.jpg)
 
-### Accessing the activity feed from the web dashboard
-
-You can also access the activity feed by logging in to the [web dashboard](https://app.getpostman.com/dashboard), navigating to the appropriate workspace, then selecting the **Activity** tab to see the events that have occured within the workspace.
-
-[![activity feed from dashboard](https://assets.postman.com/postman-docs/activityfeedfromdashboard.gif)](https://assets.postman.com/postman-docs/activityfeedfromdashboard.gif)
-
 ### Filtering the activity feed
 
 Filtering the activity feed allows you to display the relevant information directly instead of having to scroll through the feed. You can choose to filter by [user](#filtering-by-user) or by [entity](#filtering-by-entity) (Workspace, API, Collection, Environment).
