@@ -87,7 +87,7 @@ To convert your Postman collection format from v1 to v2:
 * In the terminal of your choice, enter the command to install Postman collection transformer.
 
 ```bash
-sudo npm install -g postman-collection-transformer 
+sudo npm install -g postman-collection-transformer
 ```
 
 * You can retrieve a list of convert options by running it with the ``-h`` flag.
@@ -107,7 +107,7 @@ postman-collection-transform convert -h
 | `--retain-ids` | Retain the request and folder IDs during conversion (collection ID is always retained) |
 | `-w`, `--overwrite` | Overwrite the output file if it exists |
 
-* Now, to convert individual Postman collection from one v1 to v2, enter the below command:
+* Now, to convert individual Postman collection from v1 to v2, enter the below command:
 
 ```
 postman-collection-transformer convert -i <path to input Postman collection file> -o <path where the output Postman file will be downloaded> -j 1.0.0 -p 2.0.0 -P
