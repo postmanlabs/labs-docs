@@ -46,11 +46,11 @@ In Postman, select an __API__ in the sidebar and click (__...__) to open the men
 
 Select a workspace, choose if you want to remove the API from the current workspace after sharing, then click __Share and Continue__.
 
-![Share API to Workspace](https://assets.postman.com/postman-docs/v8-managing-share-api.png)
+![Share API to Workspace](https://assets.postman.com/postman-docs/v8-managing-share-api.jpg)
 
 Configure access levels for collaborators in your workspace and click __Save Roles__.
 
-![API Workspace Roles](https://assets.postman.com/postman-docs/v8-managing-workspace-roles.png)
+![API Workspace Roles](https://assets.postman.com/postman-docs/v8-managing-workspace-roles.jpg)
 
 In addition to sharing an API via its workspace, you can also share it to the private API network. Doing this allows your team to learn about and access these APIs and start using them right away. Learn more about [adding your API to the private network](/docs/collaborating-in-postman/adding-private-network/).
 
@@ -74,7 +74,7 @@ If you want to call the attention of a collaborator in comment, you can tag them
 
 To edit, delete, or link to one of your comments, navigate to the comment section and hover over the comment you wish to manage. Click the pen icon to edit the comment, the bin icon to delete, or the anchor icon to get a direct link to the comment.
 
-[![api comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions.png)](https://assets.postman.com/postman-docs/v8-managing-comment-actions.png)
+[![api comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions.png)](https://assets.postman.com/postman-docs/v8-managing-comment-actions.jpg)
 
 > With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
 
@@ -82,7 +82,7 @@ To edit, delete, or link to one of your comments, navigate to the comment sectio
 
 You can view a changelog of your API schemas in the context bar. Open an API, then click the changelog icon.
 
-![Schema Changelog Button](https://assets.postman.com/postman-docs/v8-managing-changelog.png)
+![Schema Changelog Button](https://assets.postman.com/postman-docs/v8-managing-changelog.jpg)
 
 You will see a list of events on the schema and can click to expand each entry for more detail.
 
