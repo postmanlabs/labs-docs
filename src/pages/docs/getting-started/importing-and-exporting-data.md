@@ -76,6 +76,26 @@ To import Postman data, click **Import**. Select your file or folder, input your
 
 ![Import collection and environment](https://assets.postman.com/postman-docs/import-coll-env-2.jpg)
 
+### Converting collection format— v1 to v2
+
+When you try to import a collection in v1 format, you will encounter an error. Postman do not support format v1 for collections, so it is recommended to convert your collection format from v1 to v2.
+
+![Collection v1 format](https://assets.postman.com/postman-docs/collection-v1-import.jpg)
+
+To convert your collection format from v1 to v2:
+
+* Open your collection url in Postman and set the query parameters: **from=1** and **to=2**.
+
+* Set the request type as **POST**.
+
+* Inside the **Body** tab, select the data as **raw**, paste the collection json and change the body format to **JSON**.
+
+* Click **Save**.
+
+* Now, click **Send** to send the request.
+
+You will now receive the response in v2 format. Check out the [Postman Collection](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?entity=request-fffc59d5-1e2d-ccc8-2101-2f7b9216be40) to take a closer look at the collection documentation.
+
 ### Importing API specifications
 
 Postman supports the following API specification formats:
@@ -147,6 +167,8 @@ You can export your collections from Postman by selecting the **...** next to th
 ![Export collection menu](https://assets.postman.com/postman-docs/export-collection-menu2.jpg)
 
 You can then select the format you'd like your collection to export as. Click **Export** to download your newly generated JSON file.
+
+> The export for collection v1 format is blocked in Postman.
 
 ![Export collection format](https://assets.postman.com/postman-docs/export-collection-format-2.jpg)
 
