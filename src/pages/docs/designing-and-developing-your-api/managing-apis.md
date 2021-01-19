@@ -42,7 +42,7 @@ If you share an API to a workspace, members of the workspace will have access to
 
 In Postman, select an __API__ in the sidebar and click (__...__) to open the menu, choosing **Share API**.
 
-<img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions.png" width="250px"/>
+<img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions.jpg" width="250px"/>
 
 Select a workspace, choose if you want to remove the API from the current workspace after sharing, then click __Share and Continue__.
 
@@ -74,7 +74,7 @@ If you want to call the attention of a collaborator in comment, you can tag them
 
 To edit, delete, or link to one of your comments, navigate to the comment section and hover over the comment you wish to manage. Click the pen icon to edit the comment, the bin icon to delete, or the anchor icon to get a direct link to the comment.
 
-[![api comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions.png)](https://assets.postman.com/postman-docs/v8-managing-comment-actions.jpg)
+[![api comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions.jpg)
 
 > With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
 
