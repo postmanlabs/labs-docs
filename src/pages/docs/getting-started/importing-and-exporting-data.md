@@ -100,14 +100,14 @@ postman-collection-transform convert -h
 
  Option | Details |
 |:--|:--|
-| `-h`, `--help` | Output usage information |
-| `-i`, `--input <path>` | Path to the input postman collection file |
-| `-j`, `--input-version [version]` | The version of the input collection format standard (v1 or v2) |
-| `-o`, `--output <path>` | Path to the output postman collection file |
-| `-p`, `--output-version [version]` |The version of the output collection format standard (v1 or v2) |
-| `-P`, `--pretty` | Pretty print the output |
-| `--retain-ids` | Retain the request and folder IDs during conversion (collection ID is always retained) |
-| `-w`, `--overwrite` | Overwrite the output file if it exists |
+| `-h`, `--help` | Outputs usage information |
+| `-i`, `--input <path>` | Returns a path to the input postman collection file |
+| `-j`, `--input-version [version]` | Returns the version of the input collection format standard (v1 or v2) |
+| `-o`, `--output <path>` | Returns a path to the output postman collection file |
+| `-p`, `--output-version [version]` | Returns the version of the output collection format standard (v1 or v2) |
+| `-P`, `--pretty` | Prints the output in pretty format |
+| `--retain-ids` | Retains the request and folder IDs during conversion (collection ID is always retained) |
+| `-w`, `--overwrite` | Overwrites the output file if it exists |
 
 * You can convert an individual Postman collection from v1 to v2 by entering the command below.
 
