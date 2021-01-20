@@ -83,7 +83,7 @@ In the **Monitor Run Results** page, click the **Authorize** button.
 
 [![monitorResults_slack](https://assets.postman.com/postman-docs/WS-resultsSlack-monitorRun1.png)](https://assets.postman.com/postman-docs/WS-resultsSlack-monitorRun1.png)
 
-In the **Confirm your identity on Postman** page, select the Slack channel your want to post to and click the **Authorize** button.
+In the **Confirm your identity on Postman** page, select the Slack channel you want to post to and click the **Authorize** button.
 
 [![confirm_slack](https://assets.postman.com/postman-docs/WS-slack-confirm-identity.png)](https://assets.postman.com/postman-docs/WS-slack-confirm-identity.png)
 
