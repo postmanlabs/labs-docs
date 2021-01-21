@@ -17,21 +17,21 @@ When your team admin has enabled single sign-on (**SSO**) for Postman, you can l
 
 Your team admin can provide a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to the configured Identity Provider.
 
-To log in from the Postman app, use the following process:
+You can log in to Postman by taking the following steps:
 
-* Click __Enterprise user? Sign in here__.
+* Click **Sign in with Single Sign-On (SSO)**.
 
-[![sign in to enterprise](https://assets.postman.com/postman-docs/59036606.png)](https://assets.postman.com/postman-docs/59036606.png)
+[![Log in to Postman](https://assets.postman.com/postman-docs/log-in-to-postman.jpg)](https://assets.postman.com/postman-docs/log-in-to-postman.jpg)
 
 * Enter your team domain.
 
-[![team domain](https://assets.postman.com/postman-docs/59037264.png)](https://assets.postman.com/postman-docs/59037264.png)
+[![team domain](https://assets.postman.com/postman-docs/sign-in-with-sso.jpg)](https://assets.postman.com/postman-docs/sign-in-with-sso.jpg)
 
 * Select the relevant account / provider to log in using the __Sign in with...__ button. Postman will redirect you to the configured Identity Provider. Enter your login details to sign in.
 
 [![G-Suite login](https://assets.postman.com/postman-docs/59036889.png)](https://assets.postman.com/postman-docs/59036889.png)  
 
-___On first login from the Postman app, you will need to carry out an additional step to set Postman up to access your identity provider account.___
+___The first time you log in to Postman, you will need to carry out an additional step to set up access to your identity provider account.___
 
 * Sign in to your provider account as above. Follow your provider's steps to connect the account to Postman.
 * Once you've completed your provider's required setup, you will be redirected back to the login screen to access the account inside Postman—_so you'll need to re-enter your password_. Click __Sign in to link your SSO account__.
