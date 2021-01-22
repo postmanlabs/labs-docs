@@ -5,75 +5,89 @@ page_id: "team_settings"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Next Steps"
   - type: link
     name: "Working with your team"
     url: "/docs/collaborating-in-postman/collaboration-intro/"
   - type: link
-    name: "Postman Pricing"
-    url: "https://www.postman.com/pricing"
+    name: "Managing your team"
+    url: "/docs/administration/managing-your-team/"
 
 ---
 
-The Team Settings page lets you change your team name, team URL, team logo, and billing information. You also can add custom domains and manage your authentication method.  
+Your [Team Settings](https://go.postman.co/settings/team/general) allow you to manage items such as your team's profile, discoverability, custom domains, billing details, authentication, and active invite links.
 
-You can also access team settings in Postman via the **Teams** dropdown menu in the upper right corner.
-[![Teams](https://assets.postman.com/postman-docs/teamdropdown+new+with+logo.png)](https://assets.postman.com/postman-docs/teamdropdown+new+with+logo.png)
+## Contents
 
-## General
+* [Accessing team settings](#accessing-team-settings)
+* [Editing your team profile](#editing-your-team-profile)
+* [Making your team discoverable](#making-your-team-discoverable)
+* [Adding custom domains](#adding-custom-domains)
+* [Updating billing details](#updating-billing-details)
+* [Editing authentication methods](#editing-authentication-methods)
+* [Understanding roles and permissions](#understanding-roles-and-permissions)
+* [Managing invite links](#managing-invite-links)
 
-In General settings, you can change your team name and URL.
+## Accessing team settings
 
-[![general](https://assets.postman.com/postman-docs/teamSettings-general.jpeg)](https://assets.postman.com/postman-docs/teamSettings-general.jpeg)
-  
-## Style
+You can access team settings by navigating to the **Team** dropdown menu in the upper right corner and selecting **Team Settings**.
 
-In Style settings, you can upload your team logo. Hover over the Team Logo icon and click the Pencil (edit) icon. Then upload your team logo image.
+<img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/team-settings-menu-selected.jpg" width="350px"/>
 
-[![style](https://assets.postman.com/postman-docs/teamSetting-style.jpeg)](https://assets.postman.com/postman-docs/teamSetting-style.jpeg)
-  
-## Billing Details
+## Editing your team profile
 
-In Billing Details settings, you can add or change the billing email address, the company name, address, and VAT ID information.
+When you select **Team Settings**, you will be automatically directed to **Edit Profile**. Here, you can edit your team's logo, cover photo, URL, name, and favicon.
 
-[![billing details](https://assets.postman.com/postman-docs/teamSetting-billingDetails.jpeg)](https://assets.postman.com/postman-docs/teamSetting-billingDetails.jpeg)
-  
-## Custom Domains
+<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-settings.jpg"/>
 
-In the Custom Domains settings, you can add a new domain for others to access your published documentation.
+You can also opt to enable your team's public profile. If you enable this feature, your team's profile will show up on Postman's [API Network](/docs/publishing-your-api/add-api-network/), along with any [APIs](/docs/publishing-your-api/add-api-network/#adding-your-api), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-a-public-workspace) your team has published. You can also add an **About your team** section, a link to your website, and links to social media accounts to your team's public profile.
 
-Click the **Add a new domain** button and enter the URL of the domain you want to add.
+## Making your team discoverable
 
-[![custom domain](https://assets.postman.com/postman-docs/WS-teamSetting-customDomain.png)](https://assets.postman.com/postman-docs/WS-teamSetting-customDomain.png)
+You can select **Team Discovery** from the left-hand menu to view your options for making your team discoverable to other Postman users with email addresses from your team's domain.
 
-Next enter the TXT and CNAME settings to the specified domain for verification and verify the domain.
+See [Team Discovery](/docs/collaborating-in-postman/collaboration-intro/#team-discovery) for more information on this feature and the admin and user experience it provides.
 
-[![verify custom domain](https://assets.postman.com/postman-docs/WS-teamSetting-verifyCustomDomain.png)](https://assets.postman.com/postman-docs/WS-teamSetting-verifyCustomDomain.png)
+<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/ts-team-discovery.jpg"/>
 
-You can see your domain in the Custom Domain list.
+## Adding custom domains
 
-[![custom domain list](https://assets.postman.com/postman-docs/teamSetting-customDomains.jpeg)](https://assets.postman.com/postman-docs/teamSetting-customDomains.jpeg)
+Select **Custom Domains** from the left-hand menu to add, update, or remove custom domains for your API documentation.
 
-> Available domains depend on your [Postman plan level](https://www.postman.com/pricing).
+Visit [Using custom domains](/docs/publishing-your-api/custom-doc-domains/) for information on adding, verifying, troubleshooting, and publishing to custom domains.
 
-## Authentication
+<img alt="Adding custom domains" src="https://assets.postman.com/postman-docs/ts-custom-domains.jpg"/>
 
-> __[SSO is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
+## Updating billing details
 
-In the Authentication settings, you can choose a Single Sign-on authentication provider to create a custom authentication method for your team.
+Select **Billing Details** from the left-hand menu to add to or update your team's billing information including email, address, and VAT ID (if applicable).
 
-Click the **Add a new authentication** method button to summon the Add Authentication Method page.
+View [Adding custom information to invoices](/docs/administration/billing/#adding-custom-information-to-invoices) for information on modifying new and existing invoices.
 
-[![auth](https://assets.postman.com/postman-docs/teamSettings-auth.jpeg)](https://assets.postman.com/postman-docs/teamSettings-auth.jpeg)
+<img alt="Updating billing details" src="https://assets.postman.com/postman-docs/ts-billing-details.jpg" width="500px"/>
 
-Select an authentication type and enter an authentication name.
+## Editing authentication methods
 
-[![add auth](https://assets.postman.com/postman-docs/WS-teamSettings-addAuthMeth.png)](https://assets.postman.com/postman-docs/WS-teamSettings-addAuthMeth.png)
+> SSO is available on Postman Business and Enterprise plans.
 
-Click the **Proceed** button to configure the identity of your provider.
+Select **Authentication** from the left-hand menu to configure or reconfigure your team's authentication methods.
 
-[![config ID provider](https://assets.postman.com/postman-docs/WS-teamSetting-configIDProvider.png)](https://assets.postman.com/postman-docs/WS-teamSetting-configIDProvider.png)
+See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for details on how to configure your team's custom SSO setup and manage user accounts.
 
-Add the information in the **Service Provider Details (Postman)** section into your Identity Provider's SSO form and use the generated URLs and certificate to fill in the details for identity provider.
+<img alt="Editing authentication methods" src="https://assets.postman.com/postman-docs/ts-authentication.jpg"/>
 
-Complete all the fields in the **Identity Provider Details** section and save the authentication.
+## Understanding roles and permissions
+
+Select **Roles and Permissions** from the left-hand menu to view a complete list of permissions for team members' roles at a team, collection, workspace, API, and mock server level.
+
+View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on roles you can assign to members of your team and [Managing your team](/docs/administration/managing-your-team/) for an overview of managing roles and users within your Postman team.
+
+<img alt="Roles and permissions descriptions" src="https://assets.postman.com/postman-docs/ts-roles-and-permissions.jpg"/>
+
+## Managing invite links
+
+You can select **Manage Invite Links** from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
+
+<img alt="Managing invite links" src="https://assets.postman.com/postman-docs/ts-manage-invites.jpg"/>
+
+You can select any column header to sort the list in ascending or descending order. You can also hover over a row and select the icon that appears on the right-hand side to copy the corresponding invite URL.
