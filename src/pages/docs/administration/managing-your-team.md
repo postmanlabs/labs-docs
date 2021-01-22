@@ -35,7 +35,7 @@ Everyone in your team is a member. Each member has certain roles, which allow th
 
 ### Managing roles
 
-An admin can modify the roles of other team members, by navigating to [Team](https://go.postman.co/team) > **Manage Roles**. 
+An admin can modify the roles of other team members, by navigating to [Team](https://go.postman.co/team) > **Manage Roles**.
 
 Click **Admin**, **Billing**, or **Developer** next to the corresponding member to assign and unassign roles, then **Save**. If you are on a Postman Business or Enterprise plan, you will also have the option of assigning a Community Manager.
 
@@ -55,7 +55,7 @@ Navigate to [Manage Team](https://go.postman.co/team) and select **Invite Users*
 
 <img alt="Invite users to team" src="https://assets.postman.com/postman-docs/invite-users-to-team.jpg" width="350px"/>
 
-### Inviting to team workspaces 
+### Inviting to team workspaces
 
 In a workspace, select **Invite** in the upper-right corner. Enter the name or email of the individuals you'd like to add to the workspace, then **Send Invitations**.
 
