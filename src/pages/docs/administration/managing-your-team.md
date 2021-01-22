@@ -16,7 +16,7 @@ contextual_links:
 
 > __[Certain team options are only available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
 
-Postman's [web dashboard](https://app.getpostman.com/dashboard/teams) provides a number of ways to manage your team.
+Postman provides a number of ways to manage your team.
 
 ## Contents
 
@@ -24,8 +24,7 @@ Postman's [web dashboard](https://app.getpostman.com/dashboard/teams) provides a
     * [Managing roles](#managing-roles)
 * [Invites](#invites)
     * [Inviting to a team](#inviting-to-a-team)
-    * [Inviting to team workspaces in the dashboard](#inviting-to-team-workspaces-in-the-dashboard)
-    * [Inviting to team workspaces in the app](#inviting-to-team-workspaces-in-the-app)
+    * [Inviting to team workspaces](#inviting-to-team-workspaces)
     * [Canceling invitations](#canceling-invitations)
 * [Changing team size](#changing-team-size)
 * [Next steps](#next-steps)
@@ -36,13 +35,15 @@ Everyone in your team is a member. Each member has certain roles, which allow th
 
 ### Managing roles
 
-An admin can modify the roles of other team members, by navigating to [Team](https://go.postman.co/team) > **Manage Roles**. Click **Admin**, **Billing**, or **Developer** next to the corresponding member to assign and unassign roles, then **Save**.
+An admin can modify the roles of other team members, by navigating to [Team](https://go.postman.co/team) > **Manage Roles**. 
 
-  [![manage settings](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-12_at_12_50_38_PM.png)](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-12_at_12_50_38_PM.png)
+Click **Admin**, **Billing**, or **Developer** next to the corresponding member to assign and unassign roles, then **Save**. If you are on a Postman Business or Enterprise plan, you will also have the option of assigning a Community Manager.
 
-Each team member must have a minimum of one role assigned to them. Additionally, only team members with a billing role will be able to give other users that designation.
+<img alt="Manage team roles" src="https://assets.postman.com/postman-docs/manage-team-view-2.jpg"/>
 
-Note that teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin and/or billing roles.
+Each team member must have a minimum of one role assigned to them. Note that only team members with a billing role will be able to give other users that designation.
+
+Teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin and/or billing roles.
 
 ## Invites
 
@@ -50,29 +51,25 @@ Invitations are sent to individuals you opt to add to your Postman team. Only ad
 
 ### Inviting to a team
 
-In [Team](https://go.postman.co/team), click **Invite Users**. Enter the email address of the individual you'd like to invite, then select **Invite Users** to complete.
+Navigate to [Manage Team](https://go.postman.co/team) and select **Invite Users**. Enter the email address of the individual you'd like to invite, then **Send invitations**.
 
-[![invite users](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%201.18.07%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%201.18.07%20PM.png)
+<img alt="Invite users to team" src="https://assets.postman.com/postman-docs/invite-users-to-team.jpg" width="350px"/>
 
-### Inviting to team workspaces in the dashboard
+### Inviting to team workspaces 
 
-In a workspace, click **...** > **Manage Members**. Enter the name or email of the individuals you'd like to add to the workspace, then **Save Changes**.
+In a workspace, select **Invite** in the upper-right corner. Enter the name or email of the individuals you'd like to add to the workspace, then **Send Invitations**.
 
-[![invite via dashboard](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-12_at_1_50_11_PM.png)](https://assets.postman.com/postman-docs/Screen_Shot_2019-11-12_at_1_50_11_PM.png)
+<img alt="Invite users to workspace" src="https://assets.postman.com/postman-docs/invite-users-to-workspace.jpg" width="500px"/>
 
-### Inviting to team workspaces in the app
-
-Select **Invite**, enter the name or email of the individuals you'd like to add to the workspace, then click **Send Invitations**.
-
- [![invite via app](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%202.00.10%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%202.00.10%20PM.png)
+> Inviting users to a workspace will add them to your Postman team if they are not already members.
 
 ### Canceling invitations
 
-To revoke an invitation, navigate to [Team](https://go.postman.co/team). Hover over the individual in question, then click the corresponding trash can symbol.
+To revoke an invitation, navigate to [Manage Team](https://go.postman.co/team). Hover over the individual in question, then click the corresponding trash can symbol.
 
 ## Changing team size
 
-If you need to change your team size, see [Changing your plan](/docs/administration/billing/#changing-your-plan).
+To change your team size, see [Changing your plan](/docs/administration/billing/#changing-your-plan).
 
 ## Next steps
 
