@@ -27,16 +27,12 @@ warning: false
 
 Postman provides a variety of views and controls for managing your API projects.
 
-[![Postman app](https://assets.postman.com/postman-docs/app-overview-console-open.jpg)](https://assets.postman.com/postman-docs/app-overview-console-open.jpg)
+[![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
 
-You can toggle Postman between two main modes: __Build__ and __Browse__ using the control at the bottom-right of the app, or the top-left on the web. The __Build__ mode is the primary interface for working with API requests.
-
-[![general layout](https://assets.postman.com/postman-docs/59046674.jpg)](https://assets.postman.com/postman-docs/59046674.jpg)
-
-* The left sidebar provides access to your request [history](#history), collections, and APIs.
-* The header allows you to create and import requests and collections, to access the Collection Runner, to move and invite collaborators to workspaces, to access the Interceptor, view sync status / notifications, open your Settings, account, and Postman plan.
+* The left sidebar provides access to your collections, APIs, environments, mock servers, monitors and request [history](#history).
+* The header allows you to create workspaces, to access reports, to move and invite collaborators to workspaces, view sync status / notifications, open your Settings, account, and Postman plan.
 * The center area is where you build and work with requests.
-* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode (in the app—use the top left if you're on the web), toggle pane view, open keyboard shortcuts, and access help resources.
+* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view and access help resources.
 
 ![Resizing panes](https://assets.postman.com/postman-docs/resizing-panes-app.gif)
 
@@ -51,10 +47,6 @@ You can declutter your workspace by collapsing panes using the arrow button—cl
 Use the buttons at the bottom-right to hide the sidebar and toggle between single and two pane view.
 
 [![general layout](https://assets.postman.com/postman-docs/split-pane-view.jpg)](https://assets.postman.com/postman-docs/split-pane-view.jpg)
-
-Use browse mode to access entities across your workspace and connect to the Postman Dashboard via the desktop app (use the links at the top-left if you're using Postman on the web).
-
-[![Browse mode](https://assets.postman.com/postman-docs/browse-mode-in-app.jpg)](https://assets.postman.com/postman-docs/browse-mode-in-app.jpg)
 
 ## Find and replace
 
