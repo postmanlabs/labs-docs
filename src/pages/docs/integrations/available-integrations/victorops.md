@@ -48,7 +48,7 @@ You can enter your own key and select a team for which the key is applicable.
 
 ## Configuring Postman Monitors
 
-From the [Integrations search page](https://postman.postman.co/integrations/browse?category=all) search and select VictorOps from the results.
+From the [Integrations search page](https://go.postman.co/integrations/browse?category=all) search and select VictorOps from the results.
 
 ![victorOps search](https://assets.postman.com/postman-docs/victorops-all-search.jpg)
 
