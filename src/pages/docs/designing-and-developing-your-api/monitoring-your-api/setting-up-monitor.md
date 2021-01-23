@@ -130,7 +130,7 @@ Static IPs are available on Postman Business and Enterprise plans. This option a
 
 You will receive daily and weekly summaries of your active monitors in Postman and via email.
 
-[![monitor summary](https://assets.postman.com/postman-docs/your-postman-monitors-daily-summary.jpg)](https://assets.postman.com/postman-docs/your-postman-monitors-daily-summary.jpg)
+[![monitor summary](https://assets.postman.com/postman-docs/your-postman-daily-summary-2.jpg)](https://assets.postman.com/postman-docs/your-postman-daily-summary-2.jpg)
 
 You can opt out of daily and/or weekly summaries by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
 
