@@ -87,7 +87,8 @@ In Postman, hover over your collection and select **...** > **Monitor Collection
 
 ### Creating a monitor from the sidebar
 
-In Postman, select **Monitors** in the left sidebar. Click the **+** icon in the upper-left to create a monitor. If there are no monitors in your current workspace, you can also click the **Create a monitor** that appears to make one. 
+In Postman, select **Monitors** in the left sidebar. Click the **+** icon in the upper-left to create a monitor. If there are no monitors in your current workspace, you can also click the **Create a monitor** that appears to make one.
+
 ### Creating a monitor from history
 
 In Postman, select **History**, hover over your request, click **...** > **Monitor Request**.
@@ -138,7 +139,7 @@ When creating or editing a monitor, you can choose to receive email notification
 
 > Once the number of consecutive failures exceeds your defined notification limit, Postman will wait until your run succeeds to notify you. By default this limit is three.
 
-You can find detailed information on your monitor results by navigating to your workspace, selecting **Monitors** in the left sidebar, then selecting your monitor. 
+You can find detailed information on your monitor results by navigating to your workspace, selecting **Monitors** in the left sidebar, then selecting your monitor.
 
 > You can also utilize [Postman integrations](https://learning.postman.com/docs/integrations/intro-integrations/) to send monitor data and configure notifications using your desired platform, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).
 
