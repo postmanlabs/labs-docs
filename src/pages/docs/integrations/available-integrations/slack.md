@@ -29,15 +29,23 @@ The Postman to Slack integration enables you to receive notifications for the Te
 
 ## Configuring Postman with Slack
 
-In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select the Slack integration.
+From the [Integrations search page](https://web.postman.co/integrations/browse?category=all) search and select Slack from the results.
 
-[![select slack integration](https://assets.postman.com/postman-docs/integrations-slack1.png)](https://assets.postman.com/postman-docs/integrations-slack1.png)
+[select slack integration](https://assets.postman.com/postman-docs/slack-search-all.jpg)
 
-Click the **View Details** button to start your Integration for Slack.
+From the integration details page you can choose to:
 
-You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for Slack, or view all integrations.
+* Post team activity
 
-[![add slack](https://assets.postman.com/postman-docs/WS-integrations-slack-details.png)](https://assets.postman.com/postman-docs/WS-integrations-slack-details.png)
+  Add your team's Activity Feed to specified Slack channels.
+
+* Post monitoring results
+
+  Send your Monitor Run Results to specified Slack channels.
+
+![select slack integration](https://assets.postman.com/postman-docs/slack-post-monitoring-results.jpg)
+
+Select **View All** to view all instances of the integration created by your team.
 
 ## Add an Activity Feed to Slack
 
@@ -63,38 +71,47 @@ The team activity appears in the **Configured Integrations** page.
 
 [![configured_slack](https://assets.postman.com/postman-docs/WS-integrations-slack-configured.png)](https://assets.postman.com/postman-docs/WS-integrations-slack-configured.png)
 
-## Search Postman team data on Slack
-
-In the **Slack Details** page, click the **Add Integration** button for Postman Search.
-
-In the **Postman Search** page, click the **Authorize** button.
-
-[![configured_slack](https://assets.postman.com/postman-docs/WS-integrations-slack-postmansearch.png)](https://assets.postman.com/postman-docs/WS-integrations-slack-postmansearch.png)
-
-In the **Confirm your identity on Postman** page, click the **Authorize** button.
-
-[![oath_postman](https://assets.postman.com/postman-docs/WS-integrations-slack-oath.png)](https://assets.postman.com/postman-docs/WS-integrations-slack-oath.png)
-
 ## Send your Monitor Run Results to Slack
 
-In the **Slack Details** page, click the **Add Integration** button for Monitor Run Results.
+From the [Slack integration details](https://web.postman.co/integrations/service/slack) page select **Add Integration** for **Post monitoring results** option.
 
-In the **Monitor Run Results** page, click the **Authorize** button.
+On the **Permission request** page, select the Slack channel your want to post to and select **ALlow**.
 
-[![monitorResults_slack](https://assets.postman.com/postman-docs/WS-resultsSlack-monitorRun1.png)](https://assets.postman.com/postman-docs/WS-resultsSlack-monitorRun1.png)
+![configured_slack](https://assets.postman.com/postman-docs/slack-post-monitoring-results-permission.jpg)
 
-In the **Confirm your identity on Postman** page, select the Slack channel your want to post to and click the **Authorize** button.
+![configured_slack](https://assets.postman.com/postman-docs/slack-post-monitoring-results-authorized.jpg)
 
-[![confirm_slack](https://assets.postman.com/postman-docs/WS-slack-confirm-identity.png)](https://assets.postman.com/postman-docs/WS-slack-confirm-identity.png)
+Return to the browser tab for Postman and enter the following:
 
-In the **Monitor Run Results to Slack** page:
+* Nickname
 
-* Select the monitor results to send to Slack.
-* Enter the URL for the Slack Webhook.
-* Enter the Slack channel.
+  A nickname for your integration.
 
-You can click the Advanced Options link to indicate if you want notifications for all completed monitor runs, or notifications for three failed monitor runs and then the first successful monitor run.
+* Workspace
 
-[![slack monitor-run2](https://assets.postman.com/postman-docs/WS-resultsSlack-monitorRun1.png)](https://assets.postman.com/postman-docs/WS-resultsSlack-monitorRun1.png)
+  The workspace your monitor belongs to.
 
-Click the **Add Integration** button to see the monitor in the "Configured Integrations" view.
+* Monitor
+
+  The results of the monitor will be sent to Slack.
+
+* Slack Webhook URL
+
+  This option is pre-filled with information from the authorization process.
+
+* Slack Channel
+
+  This option is pre-filled with the information from the authorization process.
+
+* Advance Options:
+
+    * Notify for completed monitor runs
+    * Notify for 3 failures and the first success
+>
+    > You can click the Advanced Options link to indicate if you want notifications for all completed monitor runs, or notifications for three failed monitor runs and then the first successful monitor run.
+
+![configured_slack](https://assets.postman.com/postman-docs/slack-post-monitoring-results-save-config.jpg)
+
+Example of how the monitor results could look when sent to Slack.
+
+![configured_slack_example](https://assets.postman.com/postman-docs/slack-post-monitoring-results-example.jpg)
