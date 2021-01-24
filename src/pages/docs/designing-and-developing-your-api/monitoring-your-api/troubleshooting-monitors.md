@@ -18,30 +18,24 @@ contextual_links:
 warning: false
 ---
 
-Postman always syncs your monitors with your collections in the Postman app. As a result, you can debug in the app locally, while your monitors are updated on Postman's servers, seamlessly.
+When you save changes to your collections in Postman, they are automatically and instantaneously synced to your Postman monitors. You can use this to debug in Postman locally, while your monitors seamlessly update to Postman's servers.
 
 ## Viewing failed monitors
 
-The Postman console in the [Monitors web view](https://monitor.getpostman.com) is the best way to debug monitors.
+You can utilize the [Postman console log](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/#console-log) to debug issues that arise in your monitors.
 
-You can click the failed monitor and review the relevant logs under the **Console Log** tab.
+To view, navigate to your workspace and select **Monitors** in the left sidebar. Select your monitor in question, then click on your failed run in the performance graph. Select **Console Log** below the graph to view monitor run details along with any console.log statements that you have included in your pre-request and test scripts.
 
-[![failed monitors](https://assets.postman.com/postman-docs/WS-monitor-failed-1.png)](https://assets.postman.com/postman-docs/WS-monitor-failed-1.png)
+[![Failed monitor run console log](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)
 
-For information about debugging in the console, see [Troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/).
-
-When a monitor fails, a "Need help debugging?" popup displays in the Postman monitors web view. Whenever possible, these suggestions include debugging tips that are specifically related to the error.
-
-For example, if the monitor failed because Postman was unable to contact the server, the debugging tip suggests you ensure the server's IP address is correct, and that it's publicly available.  If the monitor failed because of a missing variable, then the debugging tip suggests verifying if the monitor is using the correct environment, and that the variable exists in the environment.
-
-[![debugging monitors in the console](https://assets.postman.com/postman-docs/WS-monitoring-debugging-1.png)](https://assets.postman.com/postman-docs/WS-monitoring-debugging-1.png)
+Check out [Troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/) for more information on debugging with console logs.
 
 ## Debugging local run attempts
 
-* Run the failing monitor's collection with its environment in the Postman app or Newman to see if it works correctly.
-* If a local run passes, [ensure the sync is enabled](/docs/getting-started/syncing/) in the toolbar header of the Postman app to persist any local changes.  
+* Run the failing monitor's collection with its environment in Postman or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) to see if it works correctly.
+* If a local run passes, check that [sync](/docs/getting-started/syncing/) is working properly by looking for the green sync symbol in Postman's header. This will ensure any local changes persist.
 
-    [![enable sync](https://assets.postman.com/postman-docs/Header_Toolbar_New_Sync.png)](https://assets.postman.com/postman-docs/Header_Toolbar_New_Sync.png)
+<img alt="Sync working header" src="https://assets.postman.com/postman-docs/header-sync-working-2.jpg"/>
 
 ## Debugging variable issues
 
