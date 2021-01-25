@@ -30,7 +30,7 @@ Postman provides a variety of views and controls for managing your API projects.
 [![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
 
 * The left sidebar provides access to your collections, APIs, environments, mock servers, monitors and request [history](#history).
-* The header allows you to create workspaces, to access reports, to move and invite collaborators to workspaces, view sync status / notifications, open your Settings, account, and Postman plan.
+* The header allows you to create workspaces, to access reports, to move and invite collaborators to workspaces, to capture requests and cookies, view sync status / notifications, open your Settings, account, and Postman plan.
 * The center area is where you build and work with requests.
 * The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view and access help resources.
 
@@ -42,11 +42,13 @@ You can drag to resize the panes in the Postman UI.
 
 You can declutter your workspace by collapsing panes using the arrow button—click the collapsed section to reopen it.
 
-[![general layout](https://assets.postman.com/postman-docs/sidebar-collapsed.jpg)](https://assets.postman.com/postman-docs/sidebar-collapsed.jpg)
+[![Overview Documentation](https://assets.postman.com/postman-docs/overview-documentations-v8.jpg)](https://assets.postman.com/postman-docs/overview-documentations-v8.jpg)
+
+[![Overview Comments](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)
 
 Use the buttons at the bottom-right to hide the sidebar and toggle between single and two pane view.
 
-[![general layout](https://assets.postman.com/postman-docs/split-pane-view.jpg)](https://assets.postman.com/postman-docs/split-pane-view.jpg)
+[![general layout](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)
 
 ## Find and replace
 
