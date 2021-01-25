@@ -7,7 +7,7 @@
     "@github-docs/frontmatter": "^1.2.0",
     "algoliasearch": "^4.3.1",
     "autocomplete.js": "^0.37.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.0.3",
     "babel-preset-gatsby": "^0.2.14",
     "dotenv": "^8.1.0",

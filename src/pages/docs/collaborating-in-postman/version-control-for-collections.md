@@ -10,6 +10,13 @@ contextual_links:
     name: "Grouping requests in Collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Version Control for Collections | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=QKxukXJWRPI&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=7"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Versioning APIs"
