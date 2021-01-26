@@ -79,7 +79,7 @@ You can tag your collection revisions to match changes in your API. For example,
 
 If an API version is incremented, for example from 2.0 to 3.0, and you choose to *Carry over elements from a previous version*, but the collection is not tagged to API version 3.0 yet, Postman will display a warning, since there is no equivalent version tag on the collection corresponding to API version 3.0.
 
-[![API version mismatch](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)
+[![API version mismatch](https://axssets.postman.com/postman-docs/api-version-mismatch-v8.gif)](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)
 
 To resolve this, add a corresponding version tag to the collection.
 
@@ -97,7 +97,7 @@ To keep the collection in sync with the schema, select the changes you require a
 
 <img alt="Schema documentation sync" src="https://assets.postman.com/postman-docs/documentation-collection-sync-v8.jpg"/>
 
-Now, your collection will be in sync with schema.
+Your collection will be in sync with schema.
 
 <img alt="Collection updated" src="https://assets.postman.com/postman-docs/collection-updated-v8.jpg" width="500px"/>
 
