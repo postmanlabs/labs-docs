@@ -3,12 +3,13 @@
 ////////////////////////////////////////////
 
 .landing-card {
-  max-width: 360px;
-  max-height: 360px;
-  background: #1c272b;
+  // max-width: 360px;
+  // max-height: 360px;
+  background: #ffffff;
+  background: linear-gradient(180deg, rgba(28,39,43,1) 0%, rgba(28,39,43,1) 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 100%);
   box-shadow: 0 8px 15px 0 rgba(40,40,40,.18);
   border: 0;
-  margin: 32px 32px;
+  // margin: 32px 32px;
 
   .landing-card__top {
     background: transparent;
@@ -20,32 +21,32 @@
 
   .landing-card__image {
     display: inline-block;
-    max-width: 100px;
-    min-width: 100px;
-    max-height: 100px;
-    min-height: 100px;
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    min-height: 150px;
     overflow: hidden;
     background: #fff;
     margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 100px;
     box-shadow: 0 1px 1px 1px rgba(40,40,40,.05), 0 1px 1px 0 rgba(40,40,40,.1);
     position: relative;
-    top: 20px;
-    padding: 10px;
+    top: 50px;
+    padding: 24px;
     img {
       margin: auto;
-      width: 70px;
-      height: 70px;
+      max-width: 100%;
+      height: auto;
       border-style: none;
       vertical-align: middle;
-      width: auto;
     }
   }
   .landing-card__content {
-    background: #fff;
+    // background: #fff;
     border: 1px solid transparent;
     padding-right: 25px;
     padding-left: 25px;
+    padding-top: 30px;
     &-title {
       font-size: 20px;
       margin-top: 40px;
@@ -271,11 +272,11 @@ a {
 ////////////////////////////////////////////
 
 .secondary-card {
-  max-width: 360px;
-  max-height: 251px;
+  // max-width: 360px;
+  // max-height: 285px;
   background-color: rgba(219, 233, 242, 0.3);
   border: solid 1px #dbe9f2;  
-  margin: 32px;
+  // margin: 32px;
 }
 
 .secondary-card-content {
