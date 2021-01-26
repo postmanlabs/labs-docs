@@ -3,13 +3,10 @@
 ////////////////////////////////////////////
 
 .landing-card {
-  // max-width: 360px;
-  // max-height: 360px;
   background: #ffffff;
   background: linear-gradient(180deg, rgba(28,39,43,1) 0%, rgba(28,39,43,1) 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 100%);
   box-shadow: 0 8px 15px 0 rgba(40,40,40,.18);
   border: 0;
-  // margin: 32px 32px;
 
   .landing-card__top {
     background: transparent;
@@ -42,7 +39,6 @@
     }
   }
   .landing-card__content {
-    // background: #fff;
     border: 1px solid transparent;
     padding-right: 25px;
     padding-left: 25px;
@@ -113,10 +109,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
-      // @media (max-width: 768px) {
-      //   margin: 0 auto;
-      // }
     }
     img {
       width: 60px;
@@ -143,13 +135,6 @@
         max-width: 300px;
       }
     }
-    // @media (max-width: 768px) {
-    //   display: block;
-    //   width: 100%;
-    //   justify-content: center;
-    //   text-align: center;
-    //   padding-top: 20px;
-    //  }
   }
   .icon-card__right {
     background-color: #f5f8fb;
@@ -162,15 +147,7 @@
       text-transform: uppercase;
       margin-bottom: .5rem;
     }
-    // @media (max-width: 768px) {
-    //   padding: 25px;
-    // }
   }
-  // @media (max-width: 768px) {
-  //   display: block;
-  //   height: auto;
-  //   min-height: unset;
-  // }
 }
 
 ////////////////////////////////////////////
@@ -272,11 +249,8 @@ a {
 ////////////////////////////////////////////
 
 .secondary-card {
-  // max-width: 360px;
-  // max-height: 285px;
   background-color: rgba(219, 233, 242, 0.3);
-  border: solid 1px #dbe9f2;  
-  // margin: 32px;
+  border: solid 1px #dbe9f2;
 }
 
 .secondary-card-content {
@@ -293,13 +267,4 @@ a {
     color: rgba(43, 59, 65, 0.7);
     margin-bottom: 25px;
   }
-}
-
-
-////////////////////////////////////////////
-// Card on QA page
-////////////////////////////////////////////
-
-.transparent-card {
-
 }
