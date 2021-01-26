@@ -22,13 +22,13 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Mock responses in Postman by using Examples"
-    url: "https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
+    url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
   - type: link
     name: "Simulate a back end with Postman’s mock service"
     url: "https://blog.postman.com/simulate-a-back-end-with-postmans-mock-service/"
   - type: link
     name: "Team collaboration with Postman mock servers"
-    url: "https://blog.postman.com/2017/09/20/team-collaboration-with-postman-mock-servers/"
+    url: "https://blog.postman.com/team-collaboration-with-postman-mock-servers/"
   - type: link
     name: "Introducing Postman Mock Call Logs"
     url:  "https://blog.postman.com/introducing-postman-mock-call-logs/"

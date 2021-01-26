@@ -15,7 +15,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Client proxy settings in Postman"
-    url: "https://blog.postman.com/2017/09/29/client-proxy-settings-in-postman/"
+    url: "https://blog.postman.com/client-proxy-settings-in-postman/"
 
 warning: false
 

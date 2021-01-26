@@ -19,13 +19,16 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Generate a Run in Postman Button | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=r2DGy4jSuUE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=8"
+  - type: link
     name: "API documentation with Postman"
     url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Square simplifies API docs with the Run in Postman button"
-    url: "https://blog.postman.com/2017/07/21/square-simplifies-api-docs-with-the-run-in-postman-button/"
+    url: "https://blog.postman.com/square-simplifies-api-docs-with-the-run-in-postman-button/"
   - type: section
     name: "Next Steps"
   - type: link

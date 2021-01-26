@@ -55,4 +55,4 @@ Testing your API using the Collection Runner and data files would make it more r
 [4]: https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_3.png
 [5]: https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_4.png
 [6]: https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_5.png
-[7]: https://blog.postman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
+[7]: https://blog.postman.com/using-csv-and-json-files-in-the-postman-collection-runner/
