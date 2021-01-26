@@ -662,7 +662,7 @@ pm.visualizer.set(layout:String, data:Object, options:Object):Function
 * `layout` **required**
     * [Handlebars](https://handlebarsjs.com/) HTML template string
 * `data` _optional_
-    * JSON object that binds to the template and you can access it inside the template string 
+    * JSON object that binds to the template and you can access it inside the template string
 * `options` _optional_
     * [Options object](https://handlebarsjs.com/api-reference/compilation.html) for `Handlebars.compile()`
 
