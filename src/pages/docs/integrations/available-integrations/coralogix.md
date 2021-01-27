@@ -47,12 +47,6 @@ Navigate to "Send your logs" tab and copy the private key for later use, as illu
 
     Select **Add Integration** to save the configuration.
 
-1. Select the name of the collection added to this integration to see review the monitoring metrics within Postman.
-
-   ![coralogix add integrations](https://assets.postman.com/postman-docs/coralogix-integrations-monitors.jpg)
-
-   ![coralogix add integrations](https://assets.postman.com/postman-docs/coralogix-monitor-view.jpg)
-
 ## Analyzing metrics in Coralogix
 
 Once the data starts flowing into Coralogix, you can view and analyze these metrics in the Coralogix dashboard, as illustrated in the screen below:
