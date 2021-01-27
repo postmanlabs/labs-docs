@@ -38,6 +38,8 @@ You can browse using the categories on the left side. Also, you can sort them us
 
 If you want to see more detail on the requests in the template, click __View Documentation__. This will open the [docs page for the collection in the browser](/docs/publishing-your-api/documenting-your-api/), which outlines the requests inside it. To see more detail on the publisher, click their username, which will also open their profile, including other templates they have published.
 
+> You can also create a [public workspace](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-a-public-workspace) and share your collections to collaborate with team members. To import a collection from any public workspace, visit [forking a collection](https://learning.postman.com/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection).
+
 To import a collection, click __Run in Postman__ and select the workspace where you want to import this collection. This will import into a local copy of the collection that you can use and edit in Postman.
 
 <img alt="Select workspace" src="https://assets.postman.com/postman-docs/select-workspace-import-v8.jpg" width="400px"/>
