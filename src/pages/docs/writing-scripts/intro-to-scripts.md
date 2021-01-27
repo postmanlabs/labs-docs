@@ -56,7 +56,7 @@ In Postman, the script execution order for a single request looks like this:
 * A pre-request script associated with a request will execute before the request is sent
 * A test script associated with a request will execute after the request is sent
 
-[![workflow for single request](https://assets.postman.com/postman-docs/req-resp.png)](https://assets.postman.com/postman-docs/req-resp.jpg)
+[![workflow for single request](https://assets.postman.com/postman-docs/req-resp.jpg)](https://assets.postman.com/postman-docs/req-resp.jpg)
 
 For every request in a collection, scripts will execute in the following order:
 
@@ -65,7 +65,7 @@ For every request in a collection, scripts will execute in the following order:
 * A test script associated with a collection will run after every request in the collection.
 * A test script associated with a folder will run after request in the folder.
 
-[![workflow for request in collection](https://assets.postman.com/postman-docs/execOrder.png)](https://assets.postman.com/postman-docs/execOrder.jpg)
+[![workflow for request in collection](https://assets.postman.com/postman-docs/execOrder.jpg)](https://assets.postman.com/postman-docs/execOrder.jpg)
 
 For every request in a collection, the scripts will always run according to the following hierarchy: collection-level script (if any), folder-level script (if any), request-level script (if any). Note that this order of execution applies to both pre-request and test scripts.
 
