@@ -65,7 +65,7 @@ Personal accounts will be able to publish to personal profiles and accounts on a
 
 To set up your profile, click __Public Profile Settings__ or navigate to [your settings](https://go.postman.co/settings/me/). Click __Enable Public Profile__ to allow your templates to be published.
 
-![Enable Profile](https://assets.postman.com/postman-docs/enable-public-personal-profile-bb.jpg)
+![Enable Profile](https://assets.postman.com/postman-docs/enable-profile-bb.jpg)
 
 You can customize your profile URL and name, add a description people will see alongside your templates, and add links to your social media and website. You can also set a profile photo from your [account settings](https://go.postman.co/settings/me).
 
