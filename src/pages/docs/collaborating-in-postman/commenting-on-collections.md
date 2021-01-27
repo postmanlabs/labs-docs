@@ -120,7 +120,7 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 > If your teammate has disabled notifications then they will not be notified. If they don't have access to the collection they've been tagged on, they'll need to request access before they can read the comment.
 
-<img src="https://assets.postman.com/postman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="75%">
+<img src="https://assets.postman.com/postman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="50%">
 
 ## Next steps
 
