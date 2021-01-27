@@ -43,7 +43,7 @@ warning: false
 
 ---
 
-An environment is a set of [variables](/docs/sending-requests/variables/) you can use in your Postman requests. You can use environments to group related sets of values together and manage access to shared Postman data if you're working as part of a team.
+An environment is a set of [variables](/docs/sending-requests/variables/) you can use in your Postman requests. You can use environments to group related sets of values together and manage access to shared Postman data if you are working as part of a team.
 
 ## Environments quick start
 
@@ -90,7 +90,7 @@ Enter a name for your environment, and initialize it with any variables you need
 
 [![Add Environment](https://assets.postman.com/postman-docs/name-env-v8.jpg)](https://assets.postman.com/postman-docs/name-env-v8.jpg)
 
-Click __Save__ to save any environment variables you've added.
+Click __Save__ to save any environment variables you have added.
 
 ### Adding environment variables
 
@@ -162,7 +162,7 @@ pm.environment.get("variable_key");
 
 ### Editing environment variables
 
-You can edit variables either by opening an environment from __Environments__ on the left, or opening the environment quick look (eye button) at the top right of Postman, and clicking __Edit__.
+You can edit variables either by opening an environment from __Environments__ on the left, or by opening the environment quick look (eye button) at the top right of Postman, and clicking __Edit__.
 
 > You will only be able to edit environments where you have [editor access](#requesting-environment-access).
 
@@ -206,7 +206,7 @@ To share an environment to your workspace, open it from __Environments__ on the 
 
 ![Share environment](https://assets.postman.com/postman-docs/env-access-v8.jpg)
 
-Select the workspace you want to share the environment to. Choose whether to remove the environment from the current workspace when sharing. Click __Share and Continue__.
+Select the workspace you want to share the environment to and choose whether to remove the environment from the current workspace when sharing. Click __Share and Continue__.
 
 ![Share environment detail](https://assets.postman.com/postman-docs/share-to-workspace-v8.jpg)
 
@@ -222,7 +222,7 @@ You can also remove a shared environment from a workspace by clicking __...__ ne
 
 ### Managing environment roles
 
-If you use personal credentials in your requests and the requests are pulling these from a shared environment (for example a variable storing an API secret value), you can restrict visibility of your credentials by only storing them in the current value of the variable. If you're managing an environment that's shared across a team, you can restrict edit access so that most of your team only has viewer role on the environment, which prevents them from accidentally updating the shared value and leaking credentials. Similarly, you can prevent accidental changes to values by restricting the number of team members who have edit access to your environment.
+If you use personal credentials in your requests and the requests are pulling these from a shared environment (for example a variable storing an API secret value), you can restrict visibility of your credentials by only storing them in the current value of the variable. If you are managing an environment that's shared across a team, you can restrict edit access so that most of your team only has viewer role on the environment, which prevents them from accidentally updating the shared value and leaking credentials. Similarly, you can prevent accidental changes to values by restricting the number of team members who have edit access to your environment.
 
 In order to effectively leverage environments to preserve security and minimize the risk of accidental changes to variables, group your variables into environments you want to share as a coherent set, and then configure each user role so that access is only granted where it's required, and that you can source any accidental changes.
 
