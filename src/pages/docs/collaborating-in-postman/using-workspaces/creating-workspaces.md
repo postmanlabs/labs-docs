@@ -15,6 +15,9 @@ contextual_links:
   - type: link
     name: "Workspaces! What are they good for?"
     url: "https://blog.postman.com/workspaces-the-biggest-thing-to-hit-postman-this-month/"
+  - type: link
+    name: "Setting up your first public workspace"
+    url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -79,7 +82,7 @@ You can also create a new workspace in the [Workspaces dashboard](https://app.ge
 
 ## Creating a public workspace
 
-Public workspaces enable you to browse and collaborate on entities with anyone across the world. Before you create a public workspace, navigate to team profile settings and enable your public team profile. This will ensure your team's profile will show up on the Public API Network.
+[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to browse and collaborate on entities with anyone across the world. Before you create a public workspace, navigate to team profile settings and enable your public team profile. This will ensure your team's profile will show up on the Public API Network.
 
 [![Enable team profile](https://assets.postman.com/postman-docs/enable-team-profile.jpg)](https://assets.postman.com/postman-docs/enable-team-profile.jpg)
 
