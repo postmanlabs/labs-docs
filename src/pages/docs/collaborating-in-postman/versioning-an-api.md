@@ -39,7 +39,7 @@ To use versioning with your APIs, you need to carry out the following steps:
 
 You can access versions in the API Builder by opening **APIs**, selecting the API you want to work with, and clicking **Show All Versions** to the upper-right of the menu.
 
-![Show all version](https://assets.postman.com/postman-docs/api-version-v8.jpg)
+<img alt ="Show all version" src ="https://assets.postman.com/postman-docs/api-show-all-versions-v8.jpg" width="700px"/>
 
 * [Creating API versions](#creating-api-versions)
 * [Updating versions](#updating-versions)
@@ -49,7 +49,7 @@ You can access versions in the API Builder by opening **APIs**, selecting the AP
 
 When you create a new API in Postman, it will indicate the version you entered during the API creation. You can create new versions from scratch or from an existing version. Click __Show All Versions__.
 
-<img alt="API Version" src="https://assets.postman.com/postman-docs/api-show-all-versions-v8.jpg" width="400px"/>
+<img alt="API Version" src="https://assets.postman.com/postman-docs/api-current-version-v8.jpg" width="400px"/>
 
 From here you can rename and delete versions—_deleting a version will also delete its version tag_. To create a new version, click __Create another version__.
 
@@ -75,7 +75,7 @@ You can tag your collection revisions to match changes in your API. For example,
 
 If an API version is incremented, for example from 2.0 to 3.0, and you choose to *Carry over elements from a previous version*, but the collection is not tagged to API version 3.0 yet, Postman will display a warning, since there is no equivalent version tag on the collection corresponding to API version 3.0.
 
-[![API version mismatch](https://axssets.postman.com/postman-docs/api-version-mismatch-v8.gif)](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)
+[![API version mismatch](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)
 
 To resolve this, add a corresponding version tag to the collection.
 
