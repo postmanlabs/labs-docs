@@ -1,5 +1,5 @@
 ---
-title: "Monitoring APIs"
+title: "Monitoring your APIs"
 order: 88
 page_id: "intro_monitors"
 contextual_links:
@@ -109,9 +109,9 @@ See more on [how Postman calculates usage](#how-postman-calculates-monitor-usage
 
 ## Viewing monitor usage
 
-Your [monitor usage dashboard](https://go.postman.co/usage/monitors), also available by navigating to your general [usage dashboard](https://go.postman.co/usage) > **View detailed monitoring usage**, provides a high-level overview of your team's monitoring usage.
+To view a high-level overview of your team's monitoring usage, you can access your [monitor usage dashboard](https://go.postman.co/usage/monitors) by navigating to your [team usage dashboard](https://go.postman.co/usage) and selecting **View detailed monitoring usage** under **Monitoring Usage**.
 
-This page allows you to view your team's current billing period, how many requests have been made, and which monitors have run. It also identifies monitors by name, collection, environment, and creator, and provides a breakdown of requests made by each monitor.
+This page allows you to view your team's current billing period, how many requests have been made, and which monitors have run. It also identifies monitors by name, collection, environment, and creator.
 
 [![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details.jpg)
 

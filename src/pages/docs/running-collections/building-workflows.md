@@ -15,7 +15,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Check for broken links on your website using a Postman Collection"
-    url: "https://blog.postman.com/2017/06/23/check-for-broken-links-on-your-website-using-a-postman-collection/"
+    url: "https://blog.postman.com/check-for-broken-links-on-your-website-using-a-postman-collection/"
 
 warning: false
 

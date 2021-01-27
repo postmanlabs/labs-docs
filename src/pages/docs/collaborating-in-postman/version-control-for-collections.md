@@ -10,6 +10,13 @@ contextual_links:
     name: "Grouping requests in Collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Version Control for Collections | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=QKxukXJWRPI&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=7"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Versioning APIs"
@@ -22,6 +29,7 @@ You can use version control with your Postman Collections by forking and merging
     * [Forking information](#forking-information)
     * [Forking to send requests](#forking-to-send-requests)
 * [Creating pull requests](#creating-pull-requests)
+    * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-PRs)
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
@@ -92,6 +100,37 @@ If your pull request has no conflicts, you can go ahead and open it for review. 
 <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview-v2.jpg"/>
 
 Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-requests) your changes into the parent collection.
+
+### Pull request settings
+
+Pull request settings are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing) in the __Manage Roles__ section of a collection.
+
+<img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-pr.jpg" width="250px"/>
+
+In Postman, select the collection in the __Collections__ sidebar and click __View more actions (...)__. Select __Manage roles__, then select __Editor__ for the users you want to provide editor access to.
+
+[![manage roles](https://assets.postman.com/postman-docs/manage-roles-merge.jpg)](https://assets.postman.com/postman-docs/manage-roles-merge.jpg)
+
+You must have __Editor__ access on a collection to merge changes. If you have __Viewer__ access to a collection, you will see a warning icon while adding reviewers to a pull request.
+
+<img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/reviewer-permission-pull-request.jpg" width="400px"/>
+
+Once you have created the pull request, you can assign merge checks before approving changes.
+
+<img alt="Merge Check" src="https://assets.postman.com/postman-docs/manage-roles-screen.jpg" width="850px"/>
+
+There are two different types of checks that you can enable for a pull request:
+
+* __Approved once__ : You need at least one approval to merge the pull request.
+* __Approved by a collection editor__ : You require the approval of a collection editor to merge the pull request.
+
+If you do not have editor access to the collection, the option to __Merge__ will be disabled.
+
+<img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/view-merge-conditions.jpg" width="400px"/>
+
+Click __View Merge Conditions__ to see the merge conditions to be met for the pull request.
+
+<img alt="Merge Condition" src="https://assets.postman.com/postman-docs/merge-conditions.jpg" width="400px"/>
 
 ### Creating public PRs
 

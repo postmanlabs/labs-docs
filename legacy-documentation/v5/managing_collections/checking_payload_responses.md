@@ -54,5 +54,5 @@ There are 3 ways you can make requests in Postman:
 Info coming soon.
 
 
-[0]: https://blog.postman.com/2014/01/27/enabling-chrome-developer-tools-inside-postman/
+[0]: https://blog.postman.com/enabling-chrome-developer-tools-inside-postman/
 [1]: https://www.postman.com/img/v1/docs/checking_payload_responses_1.png

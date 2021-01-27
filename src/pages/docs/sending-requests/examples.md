@@ -11,6 +11,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Provide Examples | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=C0Z3OMuCGBw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=5"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Imgur"

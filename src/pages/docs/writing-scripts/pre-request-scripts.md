@@ -25,13 +25,13 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Germaphobia collection (see pre-request scripts in action)"
-    url: "https://blog.postman.com/2018/04/27/germaphobia/"
+    url: "https://blog.postman.com/germaphobia/"
   - type: link
     name: "The Good Collection (take advantage of the pre-request)"
-    url: "https://blog.postman.com/2018/03/08/the-good-collection/"
+    url: "https://blog.postman.com/the-good-collection/"
   - type: link
     name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.postman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/"
+    url: "https://blog.postman.com/keep-it-dry-with-collection-and-folder-elements/"
   - type: section
     name: "Next Steps"
   - type: link

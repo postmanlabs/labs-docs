@@ -29,7 +29,7 @@ Note that `setNextRequest()` will only work with the collection runner and Newma
 
 ### Advanced usage
 
-Now that we have a good understanding of how `setNextRequest()` works, we can do some pretty advanced stuff with it. Since you are no longer restricted by the order in which you define your requests, you can jump around your collection, establish conditional logic, or skip unnecessary requests. This [blog post](https://blog.postman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/) explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
+Now that we have a good understanding of how `setNextRequest()` works, we can do some pretty advanced stuff with it. Since you are no longer restricted by the order in which you define your requests, you can jump around your collection, establish conditional logic, or skip unnecessary requests. This [blog post](https://blog.postman.com/generate-spotify-playlists-using-a-postman-collection/) explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
 
 There are some gotchas to keep in mind:
 

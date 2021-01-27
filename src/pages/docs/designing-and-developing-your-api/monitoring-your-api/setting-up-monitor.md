@@ -19,10 +19,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "How to monitor Postman Collections with APImetrics"
-    url: "https://blog.postman.com/2019/10/22/how-to-use-postman-apimetrics/"
+    url: "https://blog.postman.com/how-to-use-postman-apimetrics/"
   - type: link
     name: "Using a Postman monitor to water my plants"
-    url: "https://blog.postman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/"
+    url: "https://blog.postman.com/using-a-postman-monitor-to-water-my-plants/"
 
 warning: false
 ---
@@ -171,7 +171,7 @@ You can use **Don't follow redirects** to reject URL redirection for requests ru
 
 ### Disabling SSL validation
 
-You can **Disable SSL validation** if you are using self-signed certificates to stop validations of SSL certificates. For more information, see [Certificates](/docs/sending-requests/certificates/). To troubleshoot, see [Troubleshooting Self-signed SSL Certificate Issues](https://blog.postman.com/2019/07/17/self-signed-ssl-certificate-troubleshooting/).
+You can **Disable SSL validation** if you are using self-signed certificates to stop validations of SSL certificates. For more information, see [Certificates](/docs/sending-requests/certificates/). To troubleshoot, see [Troubleshooting Self-signed SSL Certificate Issues](https://blog.postman.com/self-signed-ssl-certificate-troubleshooting/).
 
 ## Next steps
 

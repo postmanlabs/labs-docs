@@ -23,10 +23,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.postman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/"
+    url: "https://blog.postman.com/keep-it-dry-with-collection-and-folder-elements/"
   - type: link
     name: "Not your Grandma's Postman"
-    url: "https://blog.postman.com/2017/05/27/not-your-grandmas-postman/"
+    url: "https://blog.postman.com/not-your-grandmas-postman/"
   - type: section
     name: "Next Steps"
   - type: link
