@@ -1,20 +1,3 @@
 .hero-image {
     margin: 0px;
 }
-
-.hero-text {
-  margin-top: 24px;
-}
-
-.video-player {
-  padding: 0px 40px;
-  margin-top: 80px;
-
-  @media (max-width: 375px) {
-    padding: 0px 18px;
-  }
-
-  @media (min-width: 376px) and (max-width: 425px) {
-    padding: 0px 35px;
-  }
-}
