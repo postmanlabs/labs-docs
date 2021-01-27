@@ -37,10 +37,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Writing tests in Postman"
-    url:  "https://blog.postman.com/2017/10/25/writing-tests-in-postman/"
+    url:  "https://blog.postman.com/writing-tests-in-postman/"
   - type: link
     name: "Continuous API Testing with Postman"
-    url: "https://blog.postman.com/2019/06/07/continuous-api-testing-with-postman/"
+    url: "https://blog.postman.com/continuous-api-testing-with-postman/"
   - type: link
     name: "Acing your API tests"
     url:  "https://medium.com/better-practices/acing-your-apis-what-you-need-to-know-for-test-automation-e3fdba3519b9"

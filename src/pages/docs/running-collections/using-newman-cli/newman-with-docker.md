@@ -14,10 +14,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
-    url: "https://blog.postman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
+    url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: link
     name: "Using the Newman Docker image in Windows, hassle free"
-    url: "https://blog.postman.com/2015/08/07/using-the-newman-docker-image-in-windows/"
+    url: "https://blog.postman.com/using-the-newman-docker-image-in-windows/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -67,7 +67,7 @@ The entry point to the Docker image is Newman. So you can use all Newman command
 
 ## Windows
 
-Check out [how to run Newman in Docker for Windows](https://blog.postman.com/2015/08/07/using-the-newman-docker-image-in-windows/).
+Check out [how to run Newman in Docker for Windows](https://blog.postman.com/using-the-newman-docker-image-in-windows/).
 
 ---
 For more information on collection runs, see:

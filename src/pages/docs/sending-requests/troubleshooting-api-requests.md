@@ -11,6 +11,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Debugging with the Console | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=YCsURct9wCk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=9"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Tyk"

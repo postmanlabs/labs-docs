@@ -20,7 +20,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Newman v3"
-    url: "https://blog.postman.com/2016/08/12/newman-v3/"
+    url: "https://blog.postman.com/newman-v3/"
   - type: section
     name: "Next Steps"
   - type: link

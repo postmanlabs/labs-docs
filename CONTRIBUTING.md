@@ -72,3 +72,4 @@ Before creating a PR we recommend to running the following test locally to check
 * npm run test:mdlint -> runs the Markdownlinter
 * npm run test:lint -> runs the ESlinter
 * npm run test:url -> checks if acceptable image URL has been added
+* npm run test:update -> updates the test snapshots

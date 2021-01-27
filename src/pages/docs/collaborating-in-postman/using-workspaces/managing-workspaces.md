@@ -49,7 +49,7 @@ To view and edit your workspace details (e.g. name, description), navigate to th
 
 <img alt="Default Workspace" src="https://assets.postman.com/postman-docs/create-workspace-dropdown.jpg" width="300px"/>
 
-You can access public workspaces via the [**Workspaces** category in the API Network](https://explore.postman.com/workspaces).
+You can access public workspaces via the [**Workspaces** category in the API Network](https://www.postman.com/explore/workspaces).
 
 [![Access Public Workspaces](https://assets.postman.com/postman-docs/access_public_workspaces.gif)](https://assets.postman.com/postman-docs/access_public_workspaces.gif)
 

@@ -27,7 +27,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Simplifying API documentation for a great first user experience"
-    url: "https://blog.postman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/"
+    url: "https://blog.postman.com/simplifying-api-documentation-for-a-great-first-user-experience/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -54,11 +54,11 @@ You can [view documentation for any collection that has been shared with you](/d
 
 > Postman Team, Business, and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
-To view documentation for a collection you have access to in Postman, select the collection, click the arrow (&#9654;), and choose __View in web__. The collection documentation will open in your web browser.
+To view documentation for a collection you have access to in Postman, select the collection, click the three dots (...), and choose __View Documentation__. The collection documentation will open within a new tab in the application (both in the browser and desktop application).
 
-![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
+![View Docs](https://assets.postman.com/postman-docs/view-docs-b.jpg)
 
-At the top, you will see any environment shared with the documented collection, the sample code language, and the layout of the documentation. You can change the environment, language, and layout.
+At the top, you can select an environment, layout, and sample language.
 
 ![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
 
@@ -68,9 +68,9 @@ You will also see detail on each request, including sample code in various clien
 
 > The private URL is only accessible to Postman users logged in with appropriate permissions. To make documentation viewable publicly, you can [publish it](/docs/publishing-your-api/publishing-your-docs/).
 
-You can alternatively access documentation by selecting the __Browse__ view in Postman or opening the web dashboard, choosing __Collections__, and clicking a collection.
+You can alternatively access documentation by visiting your [user profile](https://postman.co/me) in the browser, choosing __Collections__, and clicking the name of a collection.
 
-![Browse Collection](https://assets.postman.com/postman-docs/browse-collection.jpg)
+![Browse Collection](https://assets.postman.com/postman-docs/user-profile.jpg)
 
 If the documentation you are viewing has multiple versions published, you can select a specific version to view.
 
@@ -80,7 +80,7 @@ If the documentation you are viewing has multiple versions published, you can se
 
 You can view and post comments on your API documentation to collaborate with teammates. When you view the documentation for a collection, you will see any existing comments on it.
 
-![Documentation Comment](https://assets.postman.com/postman-docs/documentation-comment.jpg)
+![Documentation Comment](https://assets.postman.com/postman-docs/docs-comments.jpg)
 
 You can add a comment to join in the discussion. Comments on documentation reflect [comments on the corresponding collection](/docs/collaborating-in-postman/commenting-on-collections/).
 

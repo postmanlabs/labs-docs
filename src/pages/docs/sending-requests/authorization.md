@@ -24,20 +24,23 @@ contextual_links:
   - type: link
     name: "Intro to Postman: Authorizing a request"
     url: "https://www.youtube.com/watch?v=Q23wkkfezfM"
+  - type: link
+    name: "Inheriting Auth Details | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Generate Spotify playlists using a Postman collection"
-    url: "https://blog.postman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/"
+    url: "https://blog.postman.com/generate-spotify-playlists-using-a-postman-collection/"
   - type: link
     name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.postman.com/2017/12/13/keep-it-dry-with-collection-and-folder-elements/"
+    url: "https://blog.postman.com/keep-it-dry-with-collection-and-folder-elements/"
   - type: link
     name: "Postman makes authorization stronger and easier"
-    url: "https://blog.postman.com/2017/11/04/postman-makes-authorization-stronger-and-easier/"
+    url: "https://blog.postman.com/postman-makes-authorization-stronger-and-easier/"
   - type: link
     name: "Audit your AWS infrastructure with Postman"
-    url: "https://blog.postman.com/2017/12/19/audit-your-aws-infrastructure-with-postman/"
+    url: "https://blog.postman.com/audit-your-aws-infrastructure-with-postman/"
   - type: subtitle
     name: "Next Steps"
   - type: link

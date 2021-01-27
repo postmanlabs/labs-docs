@@ -23,7 +23,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Keep track of GitHub issues using a Postman collection"
-    url: "https://blog.postman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/"
+    url: "https://blog.postman.com/keep-track-of-github-issues-using-a-postman-collection/"
 warning: false
 
 ---
