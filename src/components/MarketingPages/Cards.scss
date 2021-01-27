@@ -7,13 +7,14 @@
   background: linear-gradient(180deg, rgba(28,39,43,1) 0%, rgba(28,39,43,1) 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 100%);
   box-shadow: 0 8px 15px 0 rgba(40,40,40,.18);
   border: 0;
+  &:hover {
+    background: #fe6c37;
+    background: linear-gradient(180deg, rgba(254, 108, 55,1) 0%, rgba(254, 108, 55,1) 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 100%);
+  }
 
   .landing-card__top {
     background: transparent;
     margin: 0;
-    &:hover {
-      background: #fe6c37;
-    }
   }
 
   .landing-card__image {
