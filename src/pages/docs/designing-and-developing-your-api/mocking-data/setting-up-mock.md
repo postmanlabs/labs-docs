@@ -58,7 +58,7 @@ To try out a mock server, carry out the following steps:
 * In **Collections** on the left, select the collection and open the __Info__ using the button on the right. Click **Create mock server**.
 * Give your mock a name, leaving the default version selected, and the delay option unchecked. Click **Create Mock Server**.
 * Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path e.g. up to `/customers`).
-* Click **Send**, Postman should return the example response you saved for the request, this time from the mock server.
+* Click **Send**—Postman should return the example response you saved for the request, this time from the mock server.
 * Open the example again and alter the mock response JSON, then save it and send the request again—you will see your edited mock response.
 
 ## Contents
@@ -72,7 +72,7 @@ To try out a mock server, carry out the following steps:
 
 ## Creating mock servers
 
-You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), [from the New button](#creating-a-mock-from-the-new-button), [from an __API__](#creating-a-mock-from-an-api), or [from your history](#creating-a-mock-from-history).
+You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), [from the New button](#creating-a-mock-from-the-new-button), [from an API](#creating-a-mock-from-an-api), or [from your history](#creating-a-mock-from-history).
 
 ### Creating a mock from scratch
 
