@@ -47,7 +47,9 @@ To access the API Builder, open __APIs__ from the left sidebar in Postman. You c
 
 <img alt="Create API" src="https://assets.postman.com/postman-docs/v8-create-new-api2.jpg"/>
 
-Click __New__ then select __API__, or click __+__ —_you will need to be signed into your Postman account_.
+Click __New__, then select __API__ or click __+__. 
+
+> You must be signed in to your Postman account to take this action.
 
 ![New API](https://assets.postman.com/postman-docs/v8-create-api-modal2.jpg)
 
@@ -76,7 +78,7 @@ You can define the structure of your API using its specification. You can also g
 
 The __Define__ tab in your API will include a specification (either one you imported or a sample Postman added when you created the API).
 
-The default schema format is Open API 3.0, with YAML as the default language. To use a different schema type or language, choose it from the dropdown list.
+The default schema format is Open API 3.0, with YAML as the default language. To use a different schema type or language, choose it from the drop-down list.
 
 The schema editor provides options to beautify the content, wrap text, copy, and search. When you finish editing your schema, click **Save**.
 
@@ -86,7 +88,7 @@ The schema editor provides options to beautify the content, wrap text, copy, and
 
 ### Generating a collection
 
-The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see the **Generate Collection** option on the right-hand side of the tabs:
+The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see a **Generate Collection** option on the right-hand side of the tabs:
 
 ![Schema Editor Options](https://assets.postman.com/postman-docs/v8-generate-collection-button2.jpg)
 
