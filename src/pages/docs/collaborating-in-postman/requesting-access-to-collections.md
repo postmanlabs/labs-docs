@@ -26,7 +26,7 @@ You can request edit access to a team member's personal or private collection / 
 
 ## Requesting access to collections
 
-You will have viewer role on a collection by default. You can request editor role on a collection.
+You will have a viewer role on a collection by default. You can request an editor role on a collection.
 
 ### Requesting editor role on a collection
 
@@ -51,7 +51,7 @@ This will trigger an email to the person you requested access from. When they ap
 
 ## Requesting access to APIs
 
-You will have viewer role on an API by default. You can request editor role on an API.
+You will have a viewer role on an API by default. You can request an editor role on an API.
 
 ### Requesting editor role on an API
 
