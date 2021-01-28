@@ -5,7 +5,7 @@ import './Buttons';
 export const LandingCard = ({
   title, description, link, icon, cta,
 }) => (
-  <div className="landing-card">
+  <div className="landing-card h-100">
     <div className="landing-card__top">
       <div className="landing-card__image">
         <img src={icon} alt="landing-card icon" />
@@ -115,10 +115,10 @@ export const SecondaryCard = ({
   ctaLink,
   cta,
 }) => (
-  <div className="secondary-card secondary-card-content text-center">
+  <div className="secondary-card secondary-card-content text-center h-100">
     <h4 className="secondary-card-content-title">{title}</h4>
     <p className="secondary-card-content-description">{description}</p>
-    <a className="btn btn__secondary-light" href={ctaLink}>{cta}</a>
+    <a className="btn btn__secondary-light mb-0" href={ctaLink}>{cta}</a>
   </div>
 );
 

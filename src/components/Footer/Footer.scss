@@ -5,7 +5,10 @@
   background-color: $deep-space-blue;
   color: white;
   list-style-type: none;
-  padding: 80px 80px;
+  padding: 32px 8px;
+  @media screen and (min-width: 500px) {
+    padding: 80px 80px;
+  }
 
 
   .footer-top {

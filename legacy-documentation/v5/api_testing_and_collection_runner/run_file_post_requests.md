@@ -34,4 +34,4 @@ Check out an example [here][3].
 [0]: https://www.npmjs.com/package/newman
 [1]: https://www.postman.com/img/v1/docs/run_file_post_requests/run_file_post_requests_1.png
 [2]: https://www.postman.com/img/v1/docs/run_file_post_requests/run_file_post_requests_2.png
-[3]: https://blog.postman.com/2014/11/15/using-newman-to-run-collections-with-file-post-requests/
+[3]: https://blog.postman.com/using-newman-to-run-collections-with-file-post-requests/

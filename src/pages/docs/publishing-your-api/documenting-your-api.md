@@ -27,7 +27,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Simplifying API documentation for a great first user experience"
-    url: "https://blog.postman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/"
+    url: "https://blog.postman.com/simplifying-api-documentation-for-a-great-first-user-experience/"
   - type: section
     name: "Next Steps"
   - type: link

@@ -14,13 +14,13 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Looping through a data file in the Postman Collection Runner"
-    url: "https://blog.postman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/"
+    url: "https://blog.postman.com/looping-through-a-data-file-in-the-postman-collection-runner/"
   - type: link
     name: "Read and write to REST-enabled databases"
-    url: "https://blog.postman.com/2018/02/09/read-and-write-to-rest-enabled-databases/"
+    url: "https://blog.postman.com/read-and-write-to-rest-enabled-databases/"
   - type: link
     name: "Write to your local file system using a Postman Collection"
-    url: "https://blog.postman.com/2017/09/01/write-to-your-local-file-system-using-a-postman-collection/"
+    url: "https://blog.postman.com/write-to-your-local-file-system-using-a-postman-collection/"
 
 warning: false
 
