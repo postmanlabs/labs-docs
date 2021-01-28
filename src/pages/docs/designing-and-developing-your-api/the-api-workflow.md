@@ -47,7 +47,7 @@ To access the API Builder, open __APIs__ from the left sidebar in Postman. You c
 
 <img alt="Create API" src="https://assets.postman.com/postman-docs/v8-create-new-api2.jpg"/>
 
-Click __New__, then select __API__ or click __+__. 
+Click __New__, then select __API__ or click __+__.
 
 > You must be signed in to your Postman account to take this action.
 
