@@ -98,13 +98,33 @@ Your profile will be visible to collaborators and anyone viewing resources you s
 
 ## Signing into Postman
 
-To sign into Postman, enter your email / username and password and click __Sign In__ if you signed up by email, or __Sign in with Google__ if you used Google auth when signing up.
+You can sign into Postman by clicking **Sign In** in the upper-right corner of Postman, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and clicking **Sign In** in the upper-right corner.
 
-Check the __Keep me signed in__ box if you want to remain signed in after your current session. If you do not want Postman to retain your details or to remain signed in on the computer you are working on, uncheck the box.
+<img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 
-![Stay signed in](https://assets.postman.com/postman-docs/sign-in.jpg)
+When you opt to sign into the desktop version of Postman, you will see the following screen and your default browser will automatically open a webpage asking you to sign into Postman.
 
-If you check the __Keep me signed in__ box, you will remain signed in for 30 days, and will need to re-authenticate after that period. If you uncheck the box, you will need to sign in again after 30 minutes.
+> Your browser should open within a few seconds. If it does not, you can click **open your browser** in Postman.
+
+<img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
+
+> You can opt out of the login process at any time by navigating back to Postman and clicking **Skip and take me to Postman Desktop App**.
+
+Click **Continue** to move forward with logging into your account.
+
+> You must complete the process of signing in within five minutes once you initiate login from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
+
+<img src="https://assets.postman.com/postman-docs/sign-in-to-postman-continue.jpg" width="350px" alt="Sign in to Postman"/>
+
+Log into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Business or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
+
+> Check **Keep me signed in** if you would like to remain signed in after your current session for 30 days before re-authenticating. If you do not want to remain signed in on the computer you are working on, uncheck this option. Note that you will be prompted to sign in again after 30 minutes.
+
+<img src="https://assets.postman.com/postman-docs/sign-in-full-page.jpg" alt="Sign in"/>
+
+Upon signing in, you will see a confirmation in your browser and you will be redirected back to Postman.
+
+<img src="https://assets.postman.com/postman-docs/youre-signed-in-confirmation.jpg" width="350px" alt="Signed in confirmation"/>
 
 ## Syncing your work
 
