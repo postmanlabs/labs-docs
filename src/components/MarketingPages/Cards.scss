@@ -3,49 +3,47 @@
 ////////////////////////////////////////////
 
 .landing-card {
-  max-width: 360px;
-  max-height: 360px;
-  background: #1c272b;
+  background: #ffffff;
+  background: linear-gradient(180deg, rgba(28,39,43,1) 0%, rgba(28,39,43,1) 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 100%);
   box-shadow: 0 8px 15px 0 rgba(40,40,40,.18);
   border: 0;
-  margin: 32px 32px;
+  &:hover {
+    background: #fe6c37;
+    background: linear-gradient(180deg, rgba(254, 108, 55,1) 0%, rgba(254, 108, 55,1) 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 100%);
+  }
 
   .landing-card__top {
     background: transparent;
     margin: 0;
-    &:hover {
-      background: #fe6c37;
-    }
   }
 
   .landing-card__image {
     display: inline-block;
-    max-width: 100px;
-    min-width: 100px;
-    max-height: 100px;
-    min-height: 100px;
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    min-height: 150px;
     overflow: hidden;
     background: #fff;
     margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 100px;
     box-shadow: 0 1px 1px 1px rgba(40,40,40,.05), 0 1px 1px 0 rgba(40,40,40,.1);
     position: relative;
-    top: 20px;
-    padding: 10px;
+    top: 50px;
+    padding: 24px;
     img {
       margin: auto;
-      width: 70px;
-      height: 70px;
+      max-width: 100%;
+      height: auto;
       border-style: none;
       vertical-align: middle;
-      width: auto;
     }
   }
   .landing-card__content {
-    background: #fff;
     border: 1px solid transparent;
     padding-right: 25px;
     padding-left: 25px;
+    padding-top: 30px;
     &-title {
       font-size: 20px;
       margin-top: 40px;
@@ -112,10 +110,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
-      // @media (max-width: 768px) {
-      //   margin: 0 auto;
-      // }
     }
     img {
       width: 60px;
@@ -142,13 +136,6 @@
         max-width: 300px;
       }
     }
-    // @media (max-width: 768px) {
-    //   display: block;
-    //   width: 100%;
-    //   justify-content: center;
-    //   text-align: center;
-    //   padding-top: 20px;
-    //  }
   }
   .icon-card__right {
     background-color: #f5f8fb;
@@ -161,15 +148,7 @@
       text-transform: uppercase;
       margin-bottom: .5rem;
     }
-    // @media (max-width: 768px) {
-    //   padding: 25px;
-    // }
   }
-  // @media (max-width: 768px) {
-  //   display: block;
-  //   height: auto;
-  //   min-height: unset;
-  // }
 }
 
 ////////////////////////////////////////////
@@ -271,11 +250,8 @@ a {
 ////////////////////////////////////////////
 
 .secondary-card {
-  max-width: 360px;
-  max-height: 251px;
   background-color: rgba(219, 233, 242, 0.3);
-  border: solid 1px #dbe9f2;  
-  margin: 32px;
+  border: solid 1px #dbe9f2;
 }
 
 .secondary-card-content {
@@ -292,13 +268,4 @@ a {
     color: rgba(43, 59, 65, 0.7);
     margin-bottom: 25px;
   }
-}
-
-
-////////////////////////////////////////////
-// Card on QA page
-////////////////////////////////////////////
-
-.transparent-card {
-
 }
