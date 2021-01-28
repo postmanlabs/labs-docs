@@ -71,4 +71,4 @@ There are also lots of inspiring templates already published that you can learn 
 * [CodeBase Visualizer Feature D3 Templates](https://explore.postman.com/templates/4424/codebase-visualizer-feature-d3-templates)
 * [Visualizer DIY Bar Chart](https://explore.postman.com/templates/4199/visualizer-diy-bar-chart)
 * [Reverse Engineering an API](https://explore.postman.com/templates/479/reverse-engineering-an-api)
-* [Postman Echo](https://explore.postman.com/templates/1358/postman-echo)
+* [Postman Echo](https://docs.postman-echo.com/)

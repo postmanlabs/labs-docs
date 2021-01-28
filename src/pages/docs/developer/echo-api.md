@@ -40,4 +40,4 @@ The Echo API includes endpoints to try different request methods, parameters, au
 
 ## Next steps
 
-You can import the [Echo template](https://explore.postman.com/templates/1358/postman-echo) to use some pre-built requests to the API—when you import the collection into your own Postman app you can also edit the requests to suit your needs. You will find many other useful collections for learning about Postman and APIs in the [templates](/docs/getting-started/importing-templates/).
+You can import the [Echo template](https://docs.postman-echo.com/) to use some pre-built requests to the API—when you import the collection into your own Postman app you can also edit the requests to suit your needs. You will find many other useful collections for learning about Postman and APIs in the [templates](/docs/getting-started/importing-templates/).
