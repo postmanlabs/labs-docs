@@ -100,7 +100,7 @@ You can also create a public workspace by selecting the team workspace and chang
 
 [![Overview team workspace](https://assets.postman.com/postman-docs/overview-team-workspace.jpg)](https://assets.postman.com/postman-docs/overview-team-workspace.jpg)
 
-You need a community manager's approval to change the visibility to public.
+You need a community manager's approval to change the workspace visibility to public.
 
 <img alt="Visibility" src="https://assets.postman.com/postman-docs/visibility-options-v8.jpg" width="400px"/>
 
