@@ -47,13 +47,14 @@ Your API reports will include different information if you're on an [Enterprise]
 
 ## Enterprise reports
 
-[![reports dashboard](https://assets.postman.com/postman-docs/reports-dashboard.jpg)](https://assets.postman.com/postman-docs/reports-dashboard.jpg)
+[![reports dashboard](https://assets.postman.com/postman-docs/reports-dashboard-overview-v8.jpg)](https://assets.postman.com/postman-docs/reports-dashboard-overview-v8.jpg)
 
 You can access the following reports from the left navigation bar of your dashboard:
 
 * [Team Activity](#team-activity-reports)
 * [All APIs](#all-apis-reports)
 * [Private Network APIs](#private-network-apis-reports)
+* [Security Audit](#security-audit-reports)
 * [Individual API View](#individual-api-view-reports)
 
 ## Team activity reports
@@ -179,7 +180,7 @@ The API development reporting provides the following information:
 
 The __Reports__ &gt; __Private Network APIs__ report provides metrics including an overview of your total published APIs, a visualization of API categorised by schema type, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
 
-[![private-network-api](https://assets.postman.com/postman-docs/private-network-api.jpg)](https://assets.postman.com/postman-docs/private-network-api.jpg)
+[![private-network-api](https://assets.postman.com/postman-docs/private-network-api-v8.jpg)](https://assets.postman.com/postman-docs/private-network-api-v8.jpg)
 
 The Private network API reporting provides the following information:
 
@@ -193,6 +194,20 @@ The Private network API reporting provides the following information:
 [![private-network-api](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests.jpg)](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests.jpg)
 
 > In this example, the APIs with/without mocks, monitors, tests and documentation are visualized in percentages. Hover over the chart to view the API data in figures. From the chart,  you can see that 7% of the APIs have documentation.
+
+## Security Audit reports
+
+The __Reports__ &gt; __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed token and separate visualizations of exposed tokens by type and over time.
+
+[![security audit](https://assets.postman.com/postman-docs/security-audit-v8.jpg)](https://assets.postman.com/postman-docs/security-audit-v8.jpg)
+
+The Security Audit reporting provides the following information:
+
+* __Total collections scanned__ are the number of collections that are published or updated
+* __Collections with exposed tokens__ indicates total collection scans that has an exposed token
+* __Total exposed tokens__ are the total tokens that are exposed across all published collections
+* __Exposed tokens by type__ indicates exposed tokens by type visualized as a donut chart
+* __Exposed tokens over time__ indicates exposed tokens over a period of time visualized as a column chart
 
 ## Individual API view reports
 
