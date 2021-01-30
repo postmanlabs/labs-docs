@@ -79,7 +79,7 @@ Items such as updates to your Postman subscription, card changes, payments, and 
 
 In your [billing dashboard](http://go.postman.co/billing), select **Invoices**. To get a copy of an invoice, hover over its listing and click **Get Invoice**.
 
-[![invoices](https://assets.postman.com/postman-docs/billing-invoice-history.jpg)](https://assets.postman.com/postman-docs/billing-invoice-history.jpg)
+[![invoices](https://assets.postman.com/postman-docs/billing-get-invoice0.jpg)](https://assets.postman.com/postman-docs/billing-get-invoice0.jpg)
 
 To add or edit the information on an invoice, see [adding custom information to invoices](#adding-custom-information-to-invoices).
 

@@ -37,9 +37,13 @@ Everyone in your team is a member. Each member has certain roles, which allow th
 
 An admin can modify the roles of other team members, by navigating to [Team](https://go.postman.co/team) > **Manage Roles**.
 
-Click **Admin**, **Billing**, or **Developer** next to the corresponding member to assign and unassign roles, then **Save**. If you are on a Postman Business or Enterprise plan, you will also have the option of assigning a Community Manager.
+An admin can manage which team members have **Admin** and **Developer** roles. If you are on a Postman Business or Enterprise plan, an admin will also have the option of assigning a **Community Manager**.
 
-<img alt="Manage team roles" src="https://assets.postman.com/postman-docs/manage-team-view-2.jpg"/>
+Only a team member with the billing role can grant the **Billing** role to or remove it from other team members.
+
+Click a role next to the corresponding member to assign and unassign roles, then **Save**. 
+
+<img alt="Manage team roles" src="https://assets.postman.com/postman-docs/manage-team-abdcm.jpg"/>
 
 Each team member must have a minimum of one role assigned to them. Note that only team members with a billing role will be able to give other users that designation.
 
@@ -47,11 +51,15 @@ Teams may have two support accounts at no additional cost. Support accounts are 
 
 ## Invites
 
-Invitations are sent to individuals you opt to add to your Postman team. Only admins are able to send, delete, and resend these. To allow Postman users from your company to request to join your team, [make your team discoverable](/docs/collaborating-in-postman/collaboration-intro/#making-your-team-discoverable).
+Invitations are sent to individuals you opt to add to your Postman team. Only admins are able to send, delete, and resend these. However, other members of the team can request to invite members to the team. These requests must be approved by an admin. Once approved, an invite will be sent to the individual.
+
+To allow Postman users from your company to request to join your team, [enable team discovery](/docs/collaborating-in-postman/collaboration-intro/#making-your-team-discoverable).
 
 ### Inviting to a team
 
-Navigate to [Manage Team](https://go.postman.co/team) and select **Invite Users**. Enter the email address of the individual you'd like to invite, then **Send invitations**.
+Navigate to [Manage Team](https://go.postman.co/team) and select **Invite Users**. Enter the email address of the individual you would like to invite, click **Add**, then **Send invitations**.
+
+Alternatively, you can invite users to your team via links. To do so, select **Get Link**.
 
 <img alt="Invite users to team" src="https://assets.postman.com/postman-docs/invite-users-to-team.jpg" width="350px"/>
 
