@@ -49,6 +49,8 @@ Postman allows you to track the health and performance of your APIs. With Postma
 
     * [Activity log](#activity-log)
 
+    * [Monitor details](#monitor-details)
+
 * [Next steps](#next-steps)
 
 ## Viewing monitors in Postman
@@ -141,7 +143,7 @@ You can view **Test Results** below the monitor summary to find more detailed in
 
 You can view the **Console Log** below the monitor summary.
 
-This section logs monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information.
+This section logs monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and/or edit the request as needed.
 
 [![console log](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)
 
@@ -151,11 +153,18 @@ You can use this console to both troubleshoot issues and learn more about an ind
 
 ### Activity log
 
-You can view a monitor's activity logs by selecting **...** in the upper-right corner > **View activity logs**.
+You can view a monitor's activity logs by selecting the clock icon in the upper-right corner > **View activity logs**.
 
 <img src="https://assets.postman.com/postman-docs/monitor-activity-log20.jpg" width="400px" alt="Activity log"/>
 
 You can check these logs to learn when a monitor was created, edited, paused, or resumed running, and which team member performed each action.
+
+### Monitor details
+
+You can view details about a monitor by selecting the info (i) icon in the upper-right corner. Here you can view a monitor's ID, creator, creation date and time, collection, environment, and integration options.
+
+<img src="https://assets.postman.com/postman-docs/monitor-information10.jpg" width="400px" alt="Monitor details"/>
+
 
 ## Next steps
 

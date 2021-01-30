@@ -22,7 +22,7 @@ There is no limit to the number of monitors you can create. You can have any num
 
 ### What timezone is my monitor set to?
 
-Your monitor's timezone is automatically set to the timezone of your computer at the time of the monitor's creation, unless you [define the regions](/docs/postman/monitors/setting-up-monitor/#adding-regions). You can find the auto-selected region by [viewing your monitor in the Dashboard](/docs/postman/monitors/viewing-monitor-results/#viewing-monitors-in-postman).
+Your monitor's timezone is automatically set to the timezone of your computer at the time of the monitor's creation.
 
 ### How long can a monitor run?
 
