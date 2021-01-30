@@ -165,7 +165,6 @@ You can view details about a monitor by selecting the info (i) icon in the upper
 
 <img src="https://assets.postman.com/postman-docs/monitor-information10.jpg" width="400px" alt="Monitor details"/>
 
-
 ## Next steps
 
 Learn how to [troubleshoot your monitors](/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/) and check out [Postman monitoring FAQs](/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/).
