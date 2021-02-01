@@ -138,7 +138,7 @@ The __Reports__ &gt; __All APIs__ report provides metrics including an overview 
 
 ## API overview
 
-[![api overview](https://assets.postman.com/postman-docs/api-overview.jpg)](https://assets.postman.com/postman-docs/api-overview.jpg)
+[![api overview](https://assets.postman.com/postman-docs/api-overview-v8.jpg)](https://assets.postman.com/postman-docs/api-overview-v8.jpg)
 
 The API overview reporting provides the following information:
 
@@ -157,20 +157,20 @@ For APIs created over a period of time, you can access the total count of APIs o
 
 ## API development
 
-[![api development](https://assets.postman.com/postman-docs/api-development.jpg)](https://assets.postman.com/postman-docs/api-development.jpg)
+[![api development](https://assets.postman.com/postman-docs/api-development-v8.jpg)](https://assets.postman.com/postman-docs/api-development-v8.jpg)
 
 The API development reporting provides the following information:
 
-* __APIs by schema type__ indicates APIs by the type of schema used to define them (OpenAPI, GraphQL, Swagger, etc) visualized as a pie chart
+* __API Versions by Schema Type__ indicates APIs by the type of schema used to define them (OpenAPI, GraphQL, Swagger, etc) visualized as a pie chart
 
 [![apis by schema type](https://assets.postman.com/postman-docs/apis-by-schema-type.jpg)](https://assets.postman.com/postman-docs/apis-by-schema-type.jpg)
 
 > In this example, the count of APIs for OpenAPI(3.0) is 249.
 
-* __APIs with mocks__ is the number of APIs your team has added mocks to
-* __APIs with monitors__ is the number of APIs your team has added monitors to
-* __APIs with tests__ is the number of APIs your team has added test suites, integration tests and contract tests to
-* __APIs with documentation__ is the number of APIs your team has added documentation to
+* __API Versions with Mocks__ is the number of APIs your team has added mocks to
+* __API Versions with Monitors__ is the number of APIs your team has added monitors to
+* __API Versions with Tests__ is the number of APIs your team has added test suites, integration tests and contract tests to
+* __API Versions with Documentation__ is the number of APIs your team has added documentation to
 
 [![api mocks monitors tests](https://assets.postman.com/postman-docs/api-mocks-monitors-tests.jpg)](https://assets.postman.com/postman-docs/api-mocks-monitors-tests.jpg)
 
@@ -180,20 +180,20 @@ The API development reporting provides the following information:
 
 The __Reports__ &gt; __Private Network APIs__ report provides metrics including an overview of your total published APIs, a visualization of API categorised by schema type, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
 
-[![private-network-api](https://assets.postman.com/postman-docs/private-network-api-v8.jpg)](https://assets.postman.com/postman-docs/private-network-api-v8.jpg)
+[![private-network-api](https://assets.postman.com/postman-docs/private-network-apis-v8.jpg)](https://assets.postman.com/postman-docs/private-network-apis-v8.jpg)
 
 The Private network API reporting provides the following information:
 
 * __Published APIs__ are the number of APIs that are published to the Private API network
-* __APIs by schema type__ indicates APIs by the type of schema used to define them (OpenAPI, GraphQL, Swagger, etc) visualized as a pie chart
-* __APIs with mocks__ is the number of APIs your team has added mocks to
-* __APIs with monitors__ is the number of APIs your team has added monitors to
-* __APIs with tests__ is the number of APIs your team has added test suites, integration tests and contract tests to
-* __APIs with documentation__ is the number of APIs your team has added documentation to
+* __API Versions by Schema Type__ indicates APIs by the type of schema used to define them (OpenAPI, GraphQL, Swagger, etc) visualized as a horizontal bar chart
+* __API Versions with Mocks__ is the number of APIs your team has added mocks to
+* __API Versions with Monitors__ is the number of APIs your team has added monitors to
+* __API Versions with Tests__ is the number of APIs your team has added test suites, integration tests and contract tests to
+* __API Versions with Documentation__ is the number of APIs your team has added documentation to
 
-[![private-network-api](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests.jpg)](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests.jpg)
+[![private-network-api](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests-v8.jpg)](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests-v8.jpg)
 
-> In this example, the APIs with/without mocks, monitors, tests and documentation are visualized in percentages. Hover over the chart to view the API data in figures. From the chart,  you can see that 7% of the APIs have documentation.
+> In this example, the APIs with/without mocks, monitors, tests and documentation are visualized in percentages. Hover over the chart to view the API data in figures. From the chart,  you can see that 75% of the APIs have documentation.
 
 ## Security Audit reports
 
