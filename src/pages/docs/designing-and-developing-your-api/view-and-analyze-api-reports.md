@@ -70,18 +70,22 @@ The __Reports__ &gt; __Team Activity__ report provides team level metrics, inclu
 Team overview reporting provides the following information:
 
 * __Team created on__ is the date when the team was created
+* __Team size over time__ is the size of the team over a period of time
 * __Team size__ is the number of user accounts in the team
+* __SSO identity provider__ is any [SSO](https://learning.postman.com/docs/administration/sso/intro-sso/) login you have configured for your team to access their Postman accounts
+* __Active users over time__ displays the users who have signed into Postman at least once over the past 30 days
+
+<img alt="active users" src="https://assets.postman.com/postman-docs/active-users-v8.jpg"/>
+
+> In this example, the active users for the month of Nov 2020 is 240.
+
 * __Total slots__  is the number of slots in the team
 * __Invitations sent__ is the total number of invitations sent to join the team
 * __Open vs used slots__ indicates unused slots vs invitations that are either pending or approved by a team admin
-* __Active users over time__ displays the users who have signed into Postman at least once over the past 30 days
 
-<img alt="active users" src="https://assets.postman.com/postman-docs/active-users.jpg" width="350px"/>
+<img alt="open vs used slots" src="https://assets.postman.com/postman-docs/open-vs-used-slots-v8.jpg"/>
 
-> In this example, the active users for the month of May 2020 is 83.
-
-* __Team size over time__ is the size of the team over a period of time
-* __SSO identity provider__ is any [SSO](https://learning.postman.com/docs/administration/sso/intro-sso/) login you have configured for your team to access their Postman accounts
+> In this example, the open slots for the month of Nov 2020 is 306 whereas the used slots is 44.
 
 ### Billing
 
@@ -107,7 +111,7 @@ Team activity reporting provides the following information:
 
 <img alt="Collections created" src="https://assets.postman.com/postman-docs/collections-created.jpg" width="400px"/>
 
-> In this example, the collections created for the month of April is 5392.
+> In this example, the collections created for the month of Nov 2020 is 1,179.
 
 * __Monitoring requests__
 
@@ -138,7 +142,7 @@ The __Reports__ &gt; __All APIs__ report provides metrics including an overview 
 
 ## API overview
 
-[![api overview](https://assets.postman.com/postman-docs/api-overview-v8.jpg)](https://assets.postman.com/postman-docs/api-overview-v8.jpg)
+[![api overview](https://assets.postman.com/postman-docs/all-api-overview-v8.jpg)](https://assets.postman.com/postman-docs/all-api-overview-v8.jpg)
 
 The API overview reporting provides the following information:
 
