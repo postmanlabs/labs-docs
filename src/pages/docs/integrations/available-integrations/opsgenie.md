@@ -16,9 +16,9 @@ contextual_links:
 
 > **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
-Opsgenie is a real-time incident management platform that allows you to monitor system incidents and alert the correct team members as soon as possible.
+[Opsgenie](https://www.atlassian.com/software/opsgenie) is an incident management and alerting tool that allows you to effectively manage alerts across the infrastructure. It has several communication features such as SMS, phone calls, and iOS & Android push notifications and collaboration features such as escalations, schedules etc.
 
-This integration allows you to configure [Postman Monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to trigger incidents on Opsgenie whenever it fails.
+This integration allows you to configure [Postman Monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to trigger alerts on Opsgenie whenever it fails.
 
 ## Get the Opsgenie API Key
 
@@ -30,7 +30,7 @@ From the left nav, select `Integrations` and then Select `Add integration`.
 
 ![log in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-add-integration.jpg)
 
-From the list of integrations, select the `API` Integration option.
+From the list of integrations, select the [`API` Integration](https://docs.opsgenie.com/docs/api-integration) option.
 
 ![select API integration option](https://assets.postman.com/postman-docs/opsgenie-search-select-api.jpg)
 
@@ -46,7 +46,7 @@ From the Integrations [search page](https://postman.postman.co/integrations/brow
 
 On the Integration details page, select `Add Integration`.
 
-![add Opsgenie integration](https://assets.postman.com/postman-docs/opsgenie-add-integration.jpg)
+![add Opsgenie integration](https://assets.postman.com/postman-docs/opsgenie-add-integration-b.jpg)
 
 On the integration authentication page, enter the Opsgenie API key you saved from the Opsgenie console. Select the `Opsgenie site` region for your Opsgenie account.
 
@@ -56,23 +56,23 @@ On the integration configuration page, enter the following information for your 
 
 * Nickname
 
-  The name of your integration you are adding.
+  Give a nickname to your integration
 
 * Workspace
 
-  The name of the workspace where the monitor you are adding is located.
+  Select the workspace to which your monitor belongs to.
 
 * Monitor
 
-  The name of the monitor you want to send to Opsgenie.
+  The results of the selected monitor will be sent to Opsgenie.
 
 * Tags
 
-  The tags you want to add to the alert to help sort it in Opsgenie.
+  Add tags to your Opsgenie alert.
 
 * Alert Priority
 
-  The priority for your specific Opsgenie alert.
+  Set priority for your Opsgenie alert.
 
 ![add Opsgenie API key](https://assets.postman.com/postman-docs/opsgenie-save-configuration-b.jpg)
 
@@ -80,9 +80,19 @@ After you create the integration, you can see all of the integrations created by
 
 ![add Opsgenie API key](https://assets.postman.com/postman-docs/opsgenie-run-log.jpg)
 
-## Incidents on VictorOps
+## Incidents on Opsgenie
 
-An alert on Opsgenie consists of the basic information of which monitor failed, with the number of errors and failed tests. It also provides a direct link to the failing monitor. This integration automatically acknowledges a triggered incident if the subsequent run succeeds.
+An alert on Opsgenie consists of the following information below:
+
+* Description of failing tests - Exact failures in the test script written in Postman
+* Number of failed tests
+* Number of passed tests
+* Number of errors ( errors occur when we are not able to fetch response from your API )
+* Response time
+
+It will also provide a direct link to the failing monitor.
+
+This integration automatically closes a triggered alert if the subsequent run succeeds. All failures from the same monitor are grouped under the a single Opsgenie alert.
 
 When there is an alert on Postman, you will also see one on your Opsgenie console.
 
