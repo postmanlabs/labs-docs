@@ -93,7 +93,7 @@ You can find your account type's monthly usage limits by referring to your [usag
 > * Maximum parallel runs of multiple monitors = 500
 > * Maximum parallel runs of a single monitor = 200
 >
-> Postman will notify team admins via email if your team encounters these limits, as well as notify team members in the app or web dashboard.
+> Postman will notify team admins via email if your team encounters these limits, as well as notify team members in the app.
 >
 > For assistance regarding these limits and to request changes, contact the [Postman support team](https://support.getpostman.com/).
 
@@ -113,7 +113,7 @@ To view a high-level overview of your team's monitoring usage, you can access yo
 
 This page allows you to view your team's current billing period, how many requests have been made, and which monitors have run. It also identifies monitors by name, collection, environment, and creator.
 
-[![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details.jpg)
+[![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)
 
 > If you are concerned about or are surprised by overages, this is the place to go to find all of your team's active monitors in one place, plus information to help you and your team make informed decisions on items like monitoring frequency.
 
