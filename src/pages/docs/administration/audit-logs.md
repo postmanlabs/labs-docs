@@ -26,7 +26,7 @@ Audit logs currently include events for team management, billing, and security. 
 
 ## Using audit logs
 
-In your [workspace](https://app.getpostman.com/dashboard), click the Settings icon, and select "Audit logs".
+In your [workspace](https://app.getpostman.com/dashboard), click the Settings icon, and select **Audit Logs**.
 
 <img alt="Team dropdown menu" src="https://assets.postman.com/postman-docs/audit-logs-selected.jpg" width="350px"/>
 
