@@ -35,11 +35,11 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
     * [Creating a monitor from Overview](#creating-a-monitor-from-overview)
 
-    * [Creating a monitor with the + New button](#creating-a-monitor-with-the--new-button)
+    * [Creating a monitor from the sidebar](#creating-a-monitor-from-the-sidebar)
 
     * [Creating a monitor via a collection](#creating-a-monitor-via-a-collection)
 
-    * [Creating a monitor from the sidebar](#creating-a-monitor-from-the-sidebar)
+    * [Creating a monitor with the + New button](#creating-a-monitor-with-the--new-button)
 
     * [Creating a monitor from history](#creating-a-monitor-from-history)
 
@@ -77,17 +77,17 @@ You can create a Postman monitor using a number of flows both in and outside of 
 
 When you open a workspace in Postman, an **Overview** tab is automatically generated that includes details about the workspace and its latest activity. To create a monitor from the Overview tab, select **... View More** under **Get Started**, then **Create a monitor**.
 
-### Creating a monitor with the New button
+### Creating a monitor from the sidebar
 
-In Postman, click **New** in the upper-left corner, then **Monitor**.
+In Postman, select **Monitors** in the left sidebar. Click the **+** icon in the upper-left to create a monitor. If there are no monitors in your current workspace, you can also click the **Create a monitor** that appears to make one.
 
 ### Creating a monitor via a collection
 
 In Postman, hover over your collection and select **...** > **Monitor Collection**.
 
-### Creating a monitor from the sidebar
+### Creating a monitor with the New button
 
-In Postman, select **Monitors** in the left sidebar. Click the **+** icon in the upper-left to create a monitor. If there are no monitors in your current workspace, you can also click the **Create a monitor** that appears to make one.
+In Postman, click **New** in the upper-left corner, then **Monitor**.
 
 ### Creating a monitor from history
 
