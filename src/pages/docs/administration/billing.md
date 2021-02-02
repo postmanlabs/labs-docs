@@ -25,11 +25,11 @@ Postman provides a self-serve billing process. Refer to the following sections f
 
 * [Billing dashboard](#billing-dashboard)
 
+    * [Managing add-ons](#managing-add-ons)
+
     * [Viewing account history](#viewing-account-history)
 
     * [Viewing past invoices](#viewing-past-invoices)
-
-    * [Managing overages](#managing-overages)
 
 * [Payments](#payments)
 
@@ -49,7 +49,7 @@ Postman provides a self-serve billing process. Refer to the following sections f
 
     * [Changing billing cycle](#changing-billing-cycle)
 
-    * [Purchasing monitoring blocks](#purchasing-monitoring-blocks)
+    * [Purchasing add-ons](#purchasing-add-ons)
 
 * [Next steps](#next-steps)
 
@@ -57,29 +57,31 @@ Postman provides a self-serve billing process. Refer to the following sections f
 
 The Postman [billing dashboard](http://go.postman.co/billing) provides access to account management.
 
+### Managing add-ons
+
+In your [billing dashboard](http://go.postman.co/billing), select **Add-ons** to view your team's additional features and their usage during your monthly billing period. These features include mock servers, monitoring, public documentation, the Postman API, custom domains, and integrations.
+
+[![monitoring overages](https://assets.postman.com/postman-docs/billing-add-ons-overages.jpg)](https://assets.postman.com/postman-docs/billing-add-ons-overages.jpg)
+
+You can opt to allow or disable overages for mock server and monitor usage by selecting the icon to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
+
+> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, consider adding [pre-paid monitoring blocks](#purchasing-add-ons) to your team plan.
+
 ### Viewing account history
 
-In your [billing dashboard](http://go.postman.co/billing), select **Account History**. This page allows you to view your team's historical billing activity, as well as the date and time of each action.
+In your [billing dashboard](http://go.postman.co/billing), select **Account History** to view your team's historical billing activity.
 
-[![account history](https://assets.postman.com/postman-docs/account-history.jpg)](https://assets.postman.com/postman-docs/account-history.jpg)
+[![account history](https://assets.postman.com/postman-docs/billing-account-history.jpg)](https://assets.postman.com/postman-docs/billing-account-history.jpg)
 
 Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order.  
 
 ### Viewing past invoices
 
-In your [billing dashboard](http://go.postman.co/billing), select **Invoices**. To get a copy of an invoice, hover over its listing and select **Get Invoice**.
+In your [billing dashboard](http://go.postman.co/billing), select **Invoices**. To get a copy of an invoice, hover over its listing and click **Get Invoice**.
 
-[![invoices](https://assets.postman.com/postman-docs/invoices.jpg)](https://assets.postman.com/postman-docs/invoices.jpg)
+[![invoices](https://assets.postman.com/postman-docs/billing-get-invoice0.jpg)](https://assets.postman.com/postman-docs/billing-get-invoice0.jpg)
 
 To add or edit the information on an invoice, see [adding custom information to invoices](#adding-custom-information-to-invoices).
-
-### Managing overages
-
-In your [billing dashboard](http://go.postman.co/billing), select **Overages**. Check or uncheck the box to enable or disable monitoring overages for your team.
-
-[![monitoring overages](https://assets.postman.com/postman-docs/monitoring-overages.jpg)](https://assets.postman.com/postman-docs/monitoring-overages.jpg)
-
-> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, check out [pre-paid monitoring blocks](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/).
 
 ## Payments
 
@@ -95,7 +97,7 @@ To remove, hover over the card in question and select the trash can icon.
 
 To set a card as default, hover over the card and **Set as Default**.
 
-[![payment methods](https://assets.postman.com/postman-docs/payment-methods.jpg)](https://assets.postman.com/postman-docs/payment-methods.jpg)
+[![payment methods](https://assets.postman.com/postman-docs/billing-payment-methods.jpg)](https://assets.postman.com/postman-docs/billing-payment-methods.jpg)
 
 ### Paying by invoice
 
@@ -109,7 +111,7 @@ To add or edit the information on an invoice, navigate to your [billing dashboar
 
 Add or update your billing email, company name, address, and (if applicable) VAT ID, then **Save Changes**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, [submit a request](https://support.getpostman.com/hc/en-us).
 
-[![billing details](https://assets.postman.com/postman-docs/billing-details.jpg)](https://assets.postman.com/postman-docs/billing-details.jpg)
+<img alt="Edit billing details" src="https://assets.postman.com/postman-docs/ts-billing-details.jpg" width="550px"/>
 
 ### Failed payments
 
@@ -123,23 +125,25 @@ If payment is unsuccessful, Postman offers a grace period of 10 days to avoid se
 
 ## Team and plan changes
 
-You can change your team's plan and billing cycle in the [billing dashboard](https://app.postman.co/billing/overview). To upgrade to Postman Business or Enterprise, [email the team](mailto:thepostmanteam@postman.com).
+You can change your team's plan and billing cycle in the [billing dashboard](https://app.postman.co/billing/overview).
 
 ### Changing your plan
 
-To change your plan immediately, navigate to your [billing dashboard](https://app.postman.co/billing/overview) and click **...** > **Change Plan**. Select your desired plan from the drop-down and choose **Annual** or **Monthly** for your billing cycle. Adjust your team size, then **Proceed** to confirm changes.
+To change your plan immediately, navigate to your [billing dashboard](https://app.postman.co/billing/overview) and click **...** > **Change Plan**. Choose **Monthly** or **Yearly** for your billing cycle, then select your preferred plan type. You can adjust your team size and **Proceed** to confirm changes.
 
-[![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
+[![change plan](https://assets.postman.com/postman-docs/billing-modify-your-plan.jpg)](https://assets.postman.com/postman-docs/billing-modify-your-plan.jpg)
 
-> The cost of your new plan and/or additional seats will be prorated based on the time left in your team's billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
+The cost of your new plan and/or additional seats will be prorated based on the time left in your team's billing cycle.
+
+> To upgrade to Postman Enterprise, [contact Postman's sales team](mailto:sales@postman.com).
 
 ### Setting instructions for next billing cycle
 
 You can set instructions to determine what will happen at the end of your current billing cycle. To do so, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Set instructions for next billing cycle**.
 
-You can view your current plan and opt to **Edit Standing Instructions**. Select your desired option from the drop-down, then click **Proceed** and confirm your changes.
+You can view your current plan and opt to **Edit Standing Instructions**. Select your preferred option from the drop-down, then click **Proceed** and confirm your changes.
 
-[![set instructions next cycle](https://assets.postman.com/postman-docs/set-billing-instructions.jpg)](https://assets.postman.com/postman-docs/set-billing-instructions.jpg)
+<img alt="Set instructions for next cycle" src="https://assets.postman.com/postman-docs/billing-set-instructions-for-next-billing-cycle.jpg" width="400px"/>
 
 > You can change your standing instructions at any time before the end of your current billing cycle.
 
@@ -147,17 +151,17 @@ You can view your current plan and opt to **Edit Standing Instructions**. Select
 
 Monthly teams can switch to an annual plan at any time by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **...** > **Change Plan**.
 
-[![change plan](https://assets.postman.com/postman-docs/change-plan-new.jpg)](https://assets.postman.com/postman-docs/change-plan-new.jpg)
+[![change plan](https://assets.postman.com/postman-docs/billing-modify-your-plan.jpg)](https://assets.postman.com/postman-docs/billing-modify-your-plan.jpg)
 
 > Annual teams can switch to a monthly plan at the end of the current billing cycle. The number of days left in your current billing cycle appears under **Upcoming Invoice**.
 
-### Purchasing monitoring blocks
+### Purchasing add-ons
 
-The availability of monitoring calls depends on your [Postman plan level](https://www.postman.com/pricing), with a portion allocated at no extra charge on all paid plans. Unless monitoring overages are [disabled](#managing-overages), you will be charged on a pay-as-you-go basis.
+The number of monitoring requests, custom domains, and mock server calls included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or disable overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
 
-To purchase monitoring blocks, visit your [monitoring usage details](http://go.postman.co/usage/monitors) and select **Set monitoring block count**.
+You can purchase additional blocks of monitoring requests, custom domains, and mock server calls by navigating to your [billing dashboard](http://go.postman.co/billing) and selecting **Add-ons** > **Modify Add-ons**.
 
-[![monitoring block purchase](https://assets.postman.com/postman-docs/monitoring-block-purchase.jpg)](https://assets.postman.com/postman-docs/monitoring-block-purchase.jpg)
+[![Add-ons purchase form](https://assets.postman.com/postman-docs/billing-select-add-ons.jpg)](https://assets.postman.com/postman-docs/billing-select-add-ons.jpg)
 
 ## Next steps
 
