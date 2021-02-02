@@ -33,7 +33,7 @@ Navigate to "Send your logs" tab and copy the private key for later use, as illu
 
 1. From the [Integrations](https://go.postman.co/integrations/browse?category=all) page, search and select Coralogix from the list of integrations.
 
-   ![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-search.jpg)
+   ![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-search-b.jpg)
 
 1. Select **Add Integration** to start configuring the integration for your workspace.
 
