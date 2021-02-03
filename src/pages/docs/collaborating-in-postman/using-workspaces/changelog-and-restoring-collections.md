@@ -18,11 +18,6 @@ contextual_links:
   - type: link
     name: "Clarifai"
     url: "https://www.postman.com/case-studies/Clarifai.pdf"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "New, More Useful Activity Feed in Postman Collections"
-    url: "https://blog.postman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/"
   - type: section
     name: "Associated Topics"
   - type: link
@@ -43,7 +38,7 @@ Your Postman collections display a changelog for reviewing create, update, and d
 
 ## Viewing the collection changelog
 
-To review the changelog for a collection in Postman, select the __Collections__ tab at the left sidebar and click the __Changelog__ icon at the right of Postman to see a chronological list of collection activities.
+To review the changelog for a collection in Postman, select the __Collections__ tab in the left sidebar and click the __Changelog__ icon on the right of Postman to see a chronological list of collection activities.
 
 The changelog indicates the date of each update, the user who carried it out, what type of update they performed, and the time the change occurred. The changelog collates consecutive updates on the same session to the same entity for readability.
 
@@ -53,13 +48,11 @@ With a Postman Team, Business, or Enterprise account, you can see generated diff
 
 <img alt="Changelog diffs" src ="https://assets.postman.com/postman-docs/changelog-diff-v8.jpg" width=400px/>
 
-You can alternatively review a collection changelog from the [Workspaces dashboard](https://app.getpostman.com/dashboard) by selecting a workspace and collection.
-
 ## Viewing workspace activity
 
-You can access the activity feed [from Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or entities from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
+You can [access the activity feed from Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or entities from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
 
-You can also see who is actively working in your workspace at any time. The avatars of members currently active in the workspace will be brightly colored and displayed at the top of the screen of the Postman app and web Dashboard.
+You can also see who is actively working in your workspace at any time. The avatars of members currently active in the workspace will be brightly colored and displayed at the top of your Postman screen.
 
 <img alt="Active user" src="https://assets.postman.com/postman-docs/active-member-v8.jpg" width="300px"/>
 
@@ -67,7 +60,7 @@ You can also see who is actively working in your workspace at any time. The avat
 
 To access the activity feed in Postman, select the Overview tab and navigate to the **Activity** section to see the events that have occured within the workspace.
 
-[![Activity feed from postman](https://assets.postman.com/postman-docs/activity-feed-v8.jpg)](https://assets.postman.com/postman-docs/activity-feed-v8.jpg)
+[![Activity feed from postman](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)
 
 ### Filtering the activity feed
 
@@ -95,7 +88,7 @@ To filter by entity, click **Entity** at the top of the activity feed and select
 
 ## Viewing team activity
 
-You can review the activity for a team with a Postman Team, Business, or Enterprise account. In [Postman](https://app.getpostman.com), use the __Workspaces__ dropdown to select your team, then navigate to the __Activity__ feedto view the events.
+You can review the activity for a team with a Postman Team, Business, or Enterprise account. In [Postman](https://app.getpostman.com), use the __Workspaces__ dropdown to select your team, then navigate to the __Activity__ feed to view the events.
 
 ## Viewing user activity
 
