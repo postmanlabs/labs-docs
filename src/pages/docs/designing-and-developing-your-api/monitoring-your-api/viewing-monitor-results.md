@@ -153,7 +153,7 @@ You can use this console to both troubleshoot issues and learn more about an ind
 
 ### Activity log
 
-You can view a monitor's activity logs by selecting the clock icon in the upper-right corner > **View activity logs**.
+You can view a monitor's activity logs by selecting the <img src="https://assets.postman.com/postman-docs/activity-feed-icon-2.png" width="20px" style="margin:0" alt="Activity log clock symbol"/> (clock icon) in the upper-right corner > **View activity logs**.
 
 <img src="https://assets.postman.com/postman-docs/monitor-activity-log20.jpg" width="400px" alt="Activity log"/>
 
