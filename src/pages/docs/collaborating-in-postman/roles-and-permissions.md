@@ -168,7 +168,7 @@ Billing roles can only be granted by a fellow team member with a billing role. I
 A "Super Admin" role is being considered for development. You can track progress and upvote [this issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues/6102) to show your support.
 
 * **Our colleague left the organization, how can we access their collections?**  
-Remove the former colleague from your Postman team in the [web dashboard](https://app.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
+You can remove a former colleague from your Postman team via your [dashboard](https://app.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
 
 * **What are "support" roles?**  
 A support-only account is one that holds an admin and/or billing role, but is not a developer.

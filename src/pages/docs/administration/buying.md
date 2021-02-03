@@ -22,7 +22,7 @@ contextual_links:
 
 ---
 
-Visit the [pricing page](https://www.postman.com/pricing) to purchase a Postman Team, Business, or Enterprise plan. Click __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your billing dashboard.
+Visit the [pricing page](https://www.postman.com/pricing) to purchase a Postman Team, Business, or Enterprise plan. Click __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your [billing dashboard](http://go.postman.co/billing).
 
 ## Configuring your plan
 
@@ -42,6 +42,6 @@ Once your plan configuration is in place you can enter your payment details. __Y
 
 ## Next steps
 
-You can manage your account in the [Postman billing](/docs/administration/billing/) dashboard, for example if you need to [change or upgrade](/docs/administration/billing/#team-and-plan-changes) your plan.
+You can manage your account in your [billing dashboard](http://go.postman.co/billing), for example if you need to [change or upgrade](/docs/administration/billing/#team-and-plan-changes) your plan.
 
 Once your account is set up, you can leverage Postman features including additional [collaboration](/docs/collaborating-in-postman/collaboration-intro/) and [monitoring](/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/integrations/intro-integrations/).
