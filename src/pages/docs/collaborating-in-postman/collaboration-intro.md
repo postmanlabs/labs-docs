@@ -88,7 +88,7 @@ Select your current workspace in Postman to open the workspace menu, then click 
 
 [![New workspace](https://assets.postman.com/postman-docs/create-new-workspace-v8.jpg)](https://assets.postman.com/postman-docs/create-new-workspace-v8.jpg)
 
-Specify a workspace name and summary. For a team workspace, add collaborators by entering their email addresses, then define their [workspace roles](docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+Specify a workspace name and summary. For a team workspace, add collaborators by entering their email addresses, then define their [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
 [![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace.jpg)](https://assets.postman.com/postman-docs/create-team-workspace.jpg)
 
