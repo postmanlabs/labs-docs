@@ -37,8 +37,8 @@ Welcome to the Postman docs! This is the place to find official information on h
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 
 * [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
-* Use the __Bootcamp__ to work through lessons inside Postman — open it at the bottom right of Postman.
-* Explore [templates](https://explore.postman.com/) to try out, like [Learn by API](https://explore.postman.com/templates/7499/learn-by-api), which walks you through API concepts.
+* Use the __Bootcamp__ to work through lessons inside Postman—open it at the bottom right of the app.
+* Explore [workspaces, collections, and more](https://explore.postman.com/) that you can try out inside Postman, like [Learn by API](https://www.postman.com/postman/workspace/published-postman-templates/collection/9065401-ff29b3be-af69-4442-91e0-c1158b620fc2?ctx=documentation), which walks you through API concepts.
 
 ## What are you here to learn about?
 

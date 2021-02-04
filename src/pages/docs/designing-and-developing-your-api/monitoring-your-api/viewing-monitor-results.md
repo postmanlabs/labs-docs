@@ -19,17 +19,15 @@ contextual_links:
 warning: false
 ---
 
-Your Postman Dashboard allows you to track the health and performance of your APIs. With the Dashboard, you can stay up to date on what's happening across all monitors in your workspace and dive into individual monitors to examine test results and performance over time.
+Postman allows you to track the health and performance of your APIs. With Postman, you can stay up to date on what's happening across all monitors in your workspace and dive into individual monitors to examine test results and performance over time.
 
 ## Contents
 
-* [Viewing monitors in the Dashboard](#viewing-monitors-in-the-dashboard)
-
-* [Viewing individual monitors](#viewing-individual-monitors)
+* [Viewing monitors in Postman](#viewing-monitors-in-postman)
 
     * [Monitor summary](#monitor-summary)
 
-    * [Request split](#request-split)
+    * [Individual requests](#individual-requests)
 
     * [Filters](#filters)
 
@@ -51,23 +49,17 @@ Your Postman Dashboard allows you to track the health and performance of your AP
 
     * [Activity log](#activity-log)
 
+    * [Monitor details](#monitor-details)
+
 * [Next steps](#next-steps)
 
-## Viewing monitors in the Dashboard
+## Viewing monitors in Postman
 
-Each workspace has its own monitoring space within the Postman Dashboard, which you can navigate to by opening your [Dashboard](https://go.postman.co/) and selecting your workspace > **Monitors**. Monitors in team workspaces are visible to all members of the workspace.
+You can view your monitors in Postman by navigating to your workspace and selecting **Monitors** in the left sidebar. Select your monitor to open a tab detailing its latest performance.
 
-The Dashboard provides a high-level overview of the monitors you have available in your workspace, including status, average success rate, and average response time within the given timeframe.
+<img src="https://assets.postman.com/postman-docs/view-monitor-in-tab3.jpg" alt="View monitor in tab"/>
 
-[![monitoring dashboard](https://assets.postman.com/postman-docs/monitor-dashboard1.jpg)](https://assets.postman.com/postman-docs/monitor-dashboard1.jpg)
-
-A **Healthy** status indicates there were no failures in any of the runs during the specified timeframe. Failures will be noted here, as well as changes in the average success rates and response times.
-
-> Hovering over a monitor in the list allows you to run it outside of its predetermined schedule by clicking **▶**. To pause, resume, edit, and delete monitors, select the **...** icon.
-
-## Viewing individual monitors
-
-You can view each monitor in more detail by selecting it from the Dashboard.
+> Monitors in team workspaces are visible to all members of the workspace.
 
 ### Monitor summary
 
@@ -75,33 +67,33 @@ You can use the **Monitor Summary** to see how your APIs have performed over tim
 
 The upper section charts your monitor's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact response time and failed percent, you can hover over each run individually.
 
-![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-view.jpg)
+![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-with-hover.jpg)
 
 > A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/postman/monitors/viewing-monitor-results/#console-log).
 
-### Request split
+### Individual requests
 
-You can use **Request Split** to see how the response time varies for all requests made in a given run. To break this down into individual requests, you can utilize [Filters](#filters).
+You can select **Individual requests** to break down your monitor summary into separate requests.
 
-![Request split](https://assets.postman.com/postman-docs/request-split-view.jpg)
+![Request split](https://assets.postman.com/postman-docs/monitors-individual-requests.jpg)
 
 ### Filters
 
 You can use filters to identify recurring patterns in your monitoring runs by selecting particular requests, run types, results, and regions (if applicable).
 
-[![monitor filters](https://assets.postman.com/postman-docs/filter-example.gif)](https://assets.postman.com/postman-docs/filter-example.gif)
+[![monitor filters](https://assets.postman.com/postman-docs/monitor-filters-example.gif)](https://assets.postman.com/postman-docs/monitor-filters-example.gif)
 
 > You can **Clear Filters** to return to your original dashboard view.
 
 #### Filtering by request
 
-You can filter by request to compare an individual request's response time in different runs. Click to open the drop-down menu **All Requests** next to **Filter by**, then select your request.
+You can filter by request to compare an individual request's response time in different runs. Click to open the drop-down menu **All Requests** under **Filter By**, then select your request.
 
 #### Filtering by type
 
 You can filter by run type to compare how the response time changes between manual runs, scheduled runs, and webhook runs. Click to open the drop-down menu **Type: All**, then select the type of run you'd like to analyze further.
 
-> Manual runs are initiated in the Postman Dashboard or are triggered by the [Postman API](https://documenter.getpostman.com/view/631643/JsLs/?version=latest#5b277ca0-7114-e04e-f1f5-246fbbd6d973). Scheduled runs are initiated by the schedule you set when creating or editing your monitor. Webhook runs are initiated by integrations you've created.
+> Manual runs are initiated in Postman or are triggered by the [Postman API](https://documenter.getpostman.com/view/631643/JsLs/?version=latest#5b277ca0-7114-e04e-f1f5-246fbbd6d973). Scheduled runs are initiated by the schedule you set when creating or editing your monitor. Webhook runs are initiated by integrations you've created.
 
 #### Filtering by run result
 
@@ -135,7 +127,7 @@ Click to open the drop-down menu **Average**, then select an option. To view the
 
 You can navigate through past run results to review what happened at a particular point in time. To do so, click **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then click **Apply** to view a specific run.
 
-![Time traverse](https://assets.postman.com/postman-docs/time-traverse.jpg)
+![Time traverse](https://assets.postman.com/postman-docs/monitors-time-traverse20.jpg)
 
 > To revert the view to your most recent runs, select the time and date you defined in the upper-left corner of the graph, then click **Reset**.
 
@@ -143,17 +135,17 @@ You can navigate through past run results to review what happened at a particula
 
 You can view **Test Results** below the monitor summary to find more detailed information on your tests, including which passed or failed, response codes, and response times.
 
-[![test results](https://assets.postman.com/postman-docs/test-results-2.jpg)](https://assets.postman.com/postman-docs/test-results-2.jpg)
+[![test results](https://assets.postman.com/postman-docs/monitor-view-test-results0.jpg)](https://assets.postman.com/postman-docs/monitor-view-test-results0.jpg)
 
-> If your monitor is configured to run in multiple regions, you can view the test results for a particular region by selecting that region from the dropdown to the right of the **Test Results** tab.
+> If your monitor is configured to run in multiple regions, you can view the test results for a particular region by selecting that region from the dropdown to the right of the **Test Results**.
 
 ### Console log
 
 You can view the **Console Log** below the monitor summary.
 
-This section logs monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information.
+This section logs monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and/or edit the request as needed.
 
-[![console log](https://assets.postman.com/postman-docs/console-log-2.jpg)](https://assets.postman.com/postman-docs/console-log-2.jpg)
+[![console log](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)
 
 > If your monitor is configured to run in multiple regions, you can view the console logs for a particular region by selecting that region from the dropdown to the right of the **Console Log** tab.
 
@@ -161,11 +153,17 @@ You can use this console to both troubleshoot issues and learn more about an ind
 
 ### Activity log
 
-You can view a monitor's activity logs by selecting **...** in the upper-right corner > **View activity logs**.
+You can view a monitor's activity logs by selecting the <img src="https://assets.postman.com/postman-docs/activity-feed-icon-2.png" width="20px" style="margin:0" alt="Activity log clock symbol"/> (clock icon) in the upper-right corner > **View activity logs**.
 
-<img src="https://assets.postman.com/postman-docs/monitor-activity-log.jpg" width="400px" alt="Activity log"/>
+<img src="https://assets.postman.com/postman-docs/monitor-activity-log20.jpg" width="400px" alt="Activity log"/>
 
 You can check these logs to learn when a monitor was created, edited, paused, or resumed running, and which team member performed each action.
+
+### Monitor details
+
+You can view details about a monitor by selecting the info (i) icon in the upper-right corner. Here you can view a monitor's ID, creator, creation date and time, collection, environment, and integration options.
+
+<img src="https://assets.postman.com/postman-docs/monitor-information10.jpg" width="400px" alt="Monitor details"/>
 
 ## Next steps
 

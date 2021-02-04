@@ -33,15 +33,15 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
 * [Creating a monitor](#creating-a-monitor)
 
-    * [Creating a monitor from Launchpad](#creating-a-monitor-from-launchpad)
+    * [Creating a monitor from Overview](#creating-a-monitor-from-overview)
 
-    * [Creating a monitor with the + New button](#creating-a-monitor-with-the--new-button)
+    * [Creating a monitor from the sidebar](#creating-a-monitor-from-the-sidebar)
 
     * [Creating a monitor via a collection](#creating-a-monitor-via-a-collection)
 
-    * [Creating a monitor from history](#creating-a-monitor-from-history)
+    * [Creating a monitor with the + New button](#creating-a-monitor-with-the--new-button)
 
-    * [Creating a monitor in the web dashboard](#creating-a-monitor-in-the-web-dashboard)
+    * [Creating a monitor from history](#creating-a-monitor-from-history)
 
     * [Creating a monitor with the Postman API](#creating-a-monitor-with-the-postman-api)
 
@@ -73,29 +73,25 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
 You can create a Postman monitor using a number of flows both in and outside of Postman:
 
-### Creating a monitor from Launchpad
+### Creating a monitor from Overview
 
-Launchpad is automatically enabled in Postman (to disable, click the wrench icon > **Settings**). To create a monitor, select **... View More** > **Create a monitor**.
+When you open a workspace in Postman, an **Overview** tab is automatically generated that includes details about the workspace and its latest activity. To create a monitor from the Overview tab, select **... View More** under **Get Started**, then **Create a monitor**.
 
-### Creating a monitor with the + New button
+### Creating a monitor from the sidebar
 
-In Postman, click **New** [![new button](https://assets.postman.com/postman-docs/newbutton1.png)](https://assets.postman.com/postman-docs/newbutton1.png) > **Monitor**.
+In Postman, select **Monitors** in the left sidebar. Click the **+** icon in the upper-left to create a monitor. If there are no monitors in your current workspace, you can also click the **Create a monitor** that appears to make one.
 
 ### Creating a monitor via a collection
 
-* **&#x25B6; button**: In Postman, hover over your collection and click the arrow button **&#x25B6;** > **Monitors** > **Create a monitor** or **+ Add monitor** (if you have an existing monitor).
+In Postman, hover over your collection and select **...** > **Monitor Collection**.
 
-* **... button**: In Postman, hover over your collection and select **...** > **Monitor Collection**.
+### Creating a monitor with the New button
+
+In Postman, click **New** in the upper-left corner, then **Monitor**.
 
 ### Creating a monitor from history
 
 In Postman, select **History**, hover over your request, click **...** > **Monitor Request**.
-
-### Creating a monitor in the web dashboard:
-
-* **Workspace**: In your [**web dashboard**](https://app.getpostman.com/), click into your workspace > **Monitors** > **Monitor a collection**.
-
-* **Collection**: In your [**web dashboard**](https://app.getpostman.com/), click into your workspace > **Collections** > select your collection > **...** > **Monitor Collection**. Alternatively, you can click to open your collection > **Monitors** > **Add Monitor**.
 
 ### Creating a monitor with the Postman API
 
@@ -105,7 +101,7 @@ You can create a monitor with a POST request to the Postman API. Visit the [API 
 
 You will need to give your new monitor a name and designate the collection you would like it to run, as well as the version. You can also add an environment here if you would like your monitor to use one.
 
-![Create monitor page](https://assets.postman.com/postman-docs/create-monitor-1.jpg)
+![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor.jpg)
 
 > Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#usage-limits).
 
@@ -135,15 +131,15 @@ Static IPs are available on Postman Business and Enterprise plans. This option a
 
 You will receive daily and weekly summaries of your active monitors in Postman and via email.
 
-[![monitor summary](https://assets.postman.com/postman-docs/monitor-summary-1.jpg)](https://assets.postman.com/postman-docs/monitor-summary-1.jpg)
+[![monitor summary](https://assets.postman.com/postman-docs/your-postman-daily-summary-2.jpg)](https://assets.postman.com/postman-docs/your-postman-daily-summary-2.jpg)
 
-You can opt out of daily and/or weekly summaries by navigating to your [web dashboard](https://app.getpostman.com/), selecting your avatar in the upper-right corner, and clicking **Notification Preferences**.
+You can opt out of daily and/or weekly summaries by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
 
 When creating or editing a monitor, you can choose to receive email notifications for run failures and errors under **Show Additional Preferences**. You can define up to five recipients and configure when you would like to stop failure notifications for consecutive run failures.
 
 > Once the number of consecutive failures exceeds your defined notification limit, Postman will wait until your run succeeds to notify you. By default this limit is three.
 
-You can find detailed information on your monitor results by navigating to your [web dashboard](https://go.postman.co/), selecting a workspace > **Monitors**.
+You can find detailed information on your monitor results by navigating to your workspace, selecting **Monitors** in the left sidebar, then selecting your monitor.
 
 > You can also utilize [Postman integrations](https://learning.postman.com/docs/integrations/intro-integrations/) to send monitor data and configure notifications using your desired platform, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).
 

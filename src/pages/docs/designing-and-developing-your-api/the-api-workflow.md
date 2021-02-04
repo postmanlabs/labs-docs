@@ -25,7 +25,7 @@ contextual_links:
 
 You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of Postman, your specification can act as the single source of truth for your API project. The API Builder supports API-first development by allowing you to generate collections from your schema and build your development and testing from there.
 
-[![API Builder](https://assets.postman.com/postman-docs/api-builder-overview.jpg)](https://assets.postman.com/postman-docs/api-builder-overview.jpg)
+[![API Builder](https://assets.postman.com/postman-docs/v8-api-builder-overview2.jpg)](https://assets.postman.com/postman-docs/v8-api-builder-overview2.jpg)
 
 You can connect various components of your API development and testing process to your schema, such as collections, documentation, tests, mocks, and monitors. You can also version your APIs in Postman and connect elements to specific versions.
 
@@ -45,17 +45,15 @@ You can connect various components of your API development and testing process t
 
 To access the API Builder, open __APIs__ from the left sidebar in Postman. You can open and edit any existing APIs from here—Postman will automatically open the most recent version of an API by default.
 
-> If it is your first time using the API Builder, you can take a tour of its features by clicking **Start** from the **API** tab or from the **Create new API** modal.
+<img alt="Create API" src="https://assets.postman.com/postman-docs/v8-create-new-api2.jpg"/>
 
-<img alt="Create API" src="https://assets.postman.com/postman-docs/create-new-api-v7.png" width="250px"/>
+Click __New__, then select __API__ or click __+__.
 
-Click __Create an API__ or __+ New API__—_you will need to be signed into your Postman account_.
+> You must be signed in to your Postman account to take this action.
 
-![New API](https://assets.postman.com/postman-docs/untitled-api-created-v7.jpg)
+![New API](https://assets.postman.com/postman-docs/v8-create-api-modal2.jpg)
 
 Enter a name and a version, then select a schema type and format for your API. You can optionally import an API specification directly at this stage—if you don't, Postman will populate your API with a sample specification you can edit at any time.
-
-<img alt="New API" src="https://assets.postman.com/postman-docs/api-next-steps.jpg" width="300px"/>
 
 > Postman currently supports OpenAPI (versions 1.0, 2.0, and 3.0), RAML (0.8 and 1.0), and GraphQL. Your schema can be defined in JSON, YAML, XML, or GraphQL SDL. Multi-file variants of schemas are currently not supported.
 
@@ -63,9 +61,7 @@ You can rename, delete, or remove the API from the workspace using the __View mo
 
 > When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted / removed.
 
-<img alt="Edit API" src="https://assets.postman.com/postman-docs/api-builder-edit-api.jpg" width="250px"/>
-
-> You can create APIs from your workspaces dashboard in the web browser by navigating to __APIs__ and clicking __Create an API__.
+<img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions2.jpg"/>
 
 You can also [version your APIs](/docs/collaborating-in-postman/versioning-an-api/).
 
@@ -82,55 +78,45 @@ You can define the structure of your API using its specification. You can also g
 
 The __Define__ tab in your API will include a specification (either one you imported or a sample Postman added when you created the API).
 
-![Imported Schema](https://assets.postman.com/postman-docs/sample-api-spec.jpg)
-
-The default schema format is Open API 3.0, with JSON as the default language. To use a different schema type or language, choose it from the dropdown list.
+The default schema format is Open API 3.0, with YAML as the default language. To use a different schema type or language, choose it from the drop-down list.
 
 The schema editor provides options to beautify the content, wrap text, copy, and search. When you finish editing your schema, click **Save**.
 
-![Save Schema](https://assets.postman.com/postman-docs/beautify-schema.jpg)
+![Save Schema](https://assets.postman.com/postman-docs/v8-wrap-text2.jpg)
 
 > Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your schema.
 
 ### Generating a collection
 
-The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see the **Generate Collection** option:
+The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see a **Generate Collection** option on the right-hand side of the tabs:
 
-![Schema Editor Options](https://assets.postman.com/postman-docs/api-builder-generate-collection.jpg)
+![Schema Editor Options](https://assets.postman.com/postman-docs/v8-generate-collection-button2.jpg)
 
 To create a collection based on your schema, click **Generate Collection**. You can add the collection as documentation, a test suite, an integration test, a monitor, a mock server, or a contract test. The collection will appear in __Collections__ in the left sidebar.
 
-![Generate Collection](https://assets.postman.com/postman-docs/api-builder-generate-collection-modal.jpg)
+![Generate Collection](https://assets.postman.com/postman-docs/v8-generate-collection-modal2.jpg)
 
 You can also configure how the collection should be generated by clicking **Show advanced settings**.
 
 ## Watching an API
 
-The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the API for example updating the schema, attaching an element to the API, adding a comment to the API and so on.
+The watch option allows you to receive an email/in-app notification when a team member belonging to the same workspace modifies the API for example updating the schema, attaching an element to the API, adding a comment to the API and so on.
 
 Once you've created the API, click the __watch__ option to start watching the API.
 
-![Watch Option](https://assets.postman.com/postman-docs/watch-option-active.jpg)
+![Watch Option](https://assets.postman.com/postman-docs/v8-watch-button2.jpg)
 
-After enabling the watch option, you will get a pop-up notification stating "__You are watching this API__."
+Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the API.
 
-![Watch API](https://assets.postman.com/postman-docs/watch-api.jpg)
-
-Being a watcher, you will be notified whenever the API schema is modified. If you're watching an API in your current team workspace, you will see notifications whenever changes are made to the schema in Postman even if you are logged into a different account.
-
-Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the updated schema.
-
-![Notification Watch API](https://assets.postman.com/postman-docs/notification-watch-api.jpg)
+![Notification Watch API](https://assets.postman.com/postman-docs/v8-watch-notification2.jpg)
 
 In addition to this, you will receive an email with the information regarding who has made the change, what the change was, and when it was made.
 
-![Email Notification](https://assets.postman.com/postman-docs/email-notification.jpg)
+![Email Notification](https://assets.postman.com/postman-docs/v8-email-watch-email2.jpg)
 
-Click the __View Schema__ button to view the API in the web dashboard.
+Click __View schema changelog__ to access the full changelog or __View API__ to view the API in Postman.
 
-![View Schema](https://assets.postman.com/postman-docs/watch-api-view-schema.jpg)
-
-> If you created the API and modified the schema from the same account, you will not receive email or in-app notifications for changes made.
+> You will not receive notifications for changes made by yourself.
 
 ## Developing an API
 
@@ -183,7 +169,7 @@ You can edit existing mock servers from an **API** by opening the **Develop** ta
 
 <img alt="Edit Mock from Schema" src="https://assets.postman.com/postman-docs/edit-mock-schema.jpg" width="200px"/>
 
-Your [mock will open for editing](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#editing-and-deleting-mock-servers) in the Postman web dashboard.
+Your [mock will open for editing](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#editing-and-deleting-mock-servers) in Postman.
 
 [![api edit mock web](https://assets.postman.com/postman-docs/editmockserver.png)](https://assets.postman.com/postman-docs/editmockserver.png)
 
