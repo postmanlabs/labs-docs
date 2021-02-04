@@ -95,4 +95,6 @@ When there is an alert on Postman, you will also see one on your Opsgenie consol
 
 ![add Opsgenie API key](https://assets.postman.com/postman-docs/opsgenie-alerts-details.jpg)
 
+## Next steps
+
 We are always listening to the community for any issues or newer workflows. You can reach us at [Github](https://github.com/postmanlabs/postman-app-support/issues) and by [email](https://www.postman.com/company/contact-us/).
