@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-*Note: only an admin of your Onelogin organization can create the application.*
+> You must be an admin of your Onelogin organization in order to create this custom SAML application.
 
 ## Setting up a custom SAML application in Onelogin
 
@@ -41,6 +41,6 @@ Head to the Onelogin home page and login to your account using your credentials.
 
 1. To copy the X.509 certificate, click **View Details**. And then paste the values into the corresponding fields in the Postman Identity Provider Details screen:
 
-    [![onelogin service provider](https://assets.postman.com/postman-docs/Onelogin-Postman-IDP-Details1.png)](https://assets.postman.com/postman-docs/Onelogin-Copy-IDP-Details1.png)
+    [![onelogin service provider details](https://assets.postman.com/postman-docs/server-provider-details.jpg)](https://assets.postman.com/postman-docs/server-provider-details.jpg)
 
-After copying the values in Identity Provider Details on the Postman page, Generate/Regenerate the relay state and select “Automatically add new users using this authentication method to my team" and click **Save Authentication**
+Generate or regenerate the relay state, select “Automatically add new users using this authentication method to my team", and click **Save Authentication**.
