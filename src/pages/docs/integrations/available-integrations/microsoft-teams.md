@@ -43,35 +43,37 @@ This will generate a webhook URL which can then be used to post messages to this
 
 ## Configuring Microsoft Teams
 
-1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select Microsoft Teams from the list of third party integrations.
+1. From the [Integrations](go.postman.co/integrations/browse?category=all) search page, search and select Microsoft Teams from the results.
 
-[![select ms_teams integration](https://assets.postman.com/postman-docs/WS-integrations-msTeam.png)](https://assets.postman.com/postman-docs/WS-integrations-msTeam.png)
+[![select ms_teams integration](https://assets.postman.com/postman-docs/msteams-search-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-search-all-q.jpg)
 
 ### Add a team activity feed to Microsoft Teams
 
 To add a team activity feed to Microsoft Teams:
 
-1. Click **Add Integration**.
-1. Give your integration a nickname and provide your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) to receive team updates in Microsoft Teams.
+Select **Add Integration**.
 
-   <img alt="Import from github" src="https://assets.postman.com/postman-docs/add-team-activity-feed.jpg" width="350px"/>
+Give your integration a nickname and provide your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) to receive team updates in Microsoft Teams.
 
-1. Click **Add Integration** to see your team's activity feed in the "Configured Integrations" view.
+[![select ms_teams integration](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)
 
-   [![ms_teams configInt](https://assets.postman.com/postman-docs/WS-integration-msTeams-confIntegration.png)](https://assets.postman.com/postman-docs/WS-integration-msTeams-confIntegration.png)
+Select **Add Integration** to see your team's activity feed in the "Configured Integrations" view.
+
+   [![ms_teams configInt](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)
 
 ### Send monitor run results in Microsoft Teams
 
 To send monitor run results to Microsoft Teams:
 
-1. Click **Add Integration**.
-1. In the **Monitor Run Results** page, select the monitor whose results you want to send to Microsoft Teams, and enter the notification URL.
+Select **Add Integration**.
+
+In the **Monitor Run Results** page, select the monitor whose results you want to send to Microsoft Teams, and enter the notification URL.
 
    [![ms_teams monRun](https://assets.postman.com/postman-docs/WS-integration-msTeams-monRun.png)](https://assets.postman.com/postman-docs/WS-integration-msTeams-monRun.png)
 
-1. Click the **Add Integration** button to see your monitors in the "Configured Integrations" view. You can also click the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
+Select the **Add Integration** button to see your monitors in the "Configured Integrations" view. You can also click the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
 
-   [![ms_teams monRun](https://assets.postman.com/postman-docs/WS-microsoft-teams-monitorruns.png)](https://assets.postman.com/postman-docs/WS-microsoft-teams-monitorruns.png)
+   [![ms_teams monRun](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)
 
 ## Messages in Microsoft Teams
 
