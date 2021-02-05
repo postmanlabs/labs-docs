@@ -152,4 +152,4 @@ var runButtonIndex = $('postman-run-button').index(elem);
 
 ## Next steps
 
-Learn how to [create API documentation](/docs/publishing-your-api/documenting-your-api/) from Postman, and then add your documentation to Postman's [API Network](/docs/publishing-your-api/add-api-network/).
+Learn how to [create API documentation](/docs/publishing-your-api/documenting-your-api/) from Postman, and then add your documentation to your [public workspaces](/docs/publishing-your-api/publish-public-api).
