@@ -28,7 +28,7 @@ contextual_links:
 
 > [__API reporting is available on Postman Enterprise and Business plans.__](https://www.postman.com/pricing)
 
-You can access reports on your APIs in [Postman dashboard](hhttps://postman.postman.co/reports/team). API reports visualize data on API activities including creation, collection execution, test runs, and more, providing insights on performance, troubleshooting, and SLA adherence, as well as team and organization metrics.
+You can access reports on your APIs in your [Postman dashboard](https://go.postman.co/reports/team). API reports visualize data on API activities including creation, collection execution, test runs, and more, providing insights on performance, troubleshooting, and SLA adherence, as well as team and organization metrics.
 
 To generate reports in Postman, first ensure you have carried out the following steps:
 
@@ -85,7 +85,7 @@ Team overview reporting provides the following information:
 
 <img alt="open vs used slots" src="https://assets.postman.com/postman-docs/open-vs-used-slots-v8.jpg"/>
 
-> In this example, the open slots for the month of Nov 2020 is 306 whereas the used slots is 44.
+> In this example, the open slots for the month of Nov 2020 is 44 whereas the used slots is 306.
 
 ### Billing
 
@@ -101,7 +101,7 @@ Team activity reporting provides the following information:
 
 * __Total Workspaces__ is the total number of workspaces including team, personal and private workspaces
 * __Empty workspaces__ are workspaces with no collections in them
-* __Active workspaces__ have at least one revision during a recent period, not including personal workspaces
+* __Active workspaces__ have had at least one revision during the last 24 hours, not including personal workspaces
 
 [![active empty workspaces](https://assets.postman.com/postman-docs/active-empty-workspaces-v8.jpg)](https://assets.postman.com/postman-docs/active-empty-workspaces-v8.jpg)
 
@@ -110,21 +110,23 @@ Team activity reporting provides the following information:
 * __Total APIs__ is the total number of APIs in the team and personal workspaces including private workspaces
 * __Requests sent in Postman__ is the requests sent manually in Postman but not any requests sent via Newman, monitoring runs, or the collection runner
 
-<img alt="request sent in postman" src="https://assets.postman.com/postman-docs/request-sent-in-postman.jpg" width="400px"/>
+<img alt="request sent in postman" src="https://assets.postman.com/postman-docs/requests-sent-in-postman-v8.jpg"/>
 
-* __Total collections__ are the total number of collections in the team and personal workspaces including private workspaces
-* __Collections created__ is the total number of collections created in team workspaces including private workspaces
+> In this example, the total API requests sent in Postman for Nov 2020 is 38,243.
 
-* __Collection runs__ is the number of collection runs made in team workspaces including private workspaces
+* __Total collections__ are the total number of collections in team and personal workspaces, including private workspaces
+* __Collections created__ is the total number of collections created in team workspaces, including private workspaces
+
+* __Collection runs__ is the number of collection runs made in team workspaces, including private workspaces
 
 <img alt="Collections created and runs" src="https://assets.postman.com/postman-docs/collection-created-and-runs-v8.jpg"/>
 
-> In this example, the collections created for the month of Nov 2020 is 1,179 whereas the collection runs is 848.
+> In this example, if you hover on the chart you will see the collections created for the month of Nov 2020 is 1,179 whereas the collection runs is 848.
 
 * __Active monitors__ is the total number of active monitors in team workspaces including private workspaces (any monitor currently scheduled to run is *active*)
-* __Monitoring requests__
+* __Monitoring requests__ is the number of requests made from monitors in team workspaces, including private workspaces.
 
-<img alt="Monitoring requests" src="https://assets.postman.com/postman-docs/monitoring-requests.jpg" width="400px"/>
+<img alt="Monitoring requests" src="https://assets.postman.com/postman-docs/monitoring-requests-v8.jpg"/>
 
 > In this example, the monitoring requests for the month of May 2020 is 5618K.
 
@@ -153,7 +155,7 @@ The API overview reporting provides the following information:
 * __Total APIs__ is the total number of APIs created in Postman in all the team workspaces
 * __Private Network APIs__ is the number of APIs published on the teams' network
 * __Shared APIs__ is the number of APIs shared with team workspaces
-* __APIs created over time__ is the total number of APIs created over a period of time on a monthly level
+* __APIs created over time__ is the total number of APIs created during the month
 * __APIs created in last 24 hours__ is the APIs created in the past 24 hours
 * __APIs updated in last 24 hours__ APIs are considered active if there is some kind of activity in the last one day
 
@@ -205,7 +207,7 @@ The Private network API reporting provides the following information:
 
 ## Security Audit reports
 
-The __Reports__ &gt; __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed token and separate visualizations of exposed tokens by type and over time.
+The __Reports__ &gt; __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed token and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of Postman token scanner from public documentation. For more on Postman token scanner, see [Postman security scans](https://blog.postman.com/postman-security-scans/).
 
 [![security audit](https://assets.postman.com/postman-docs/security-audit-v8.jpg)](https://assets.postman.com/postman-docs/security-audit-v8.jpg)
 
@@ -240,7 +242,7 @@ Team reports provide the following information:
 * __Active APIs__ having at least one request being sent through a linked collection in the Postman request builder
 * __Team size__ as the number of user accounts in the team
 * __Empty workspaces__ with no collections in them
-* __Active workspaces__ with at least one revision during a recent period, not including personal workspaces
+* __Active workspaces__ with at least one revision during the last 24 hours, not including personal workspaces
 
 Team API requests are the count of requests sent over a period of time. The summary average is calculated by taking into account all days (even if no request is sent during a day).
 
