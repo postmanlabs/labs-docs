@@ -48,7 +48,7 @@ You can generate code snippets in various languages and frameworks within Postma
 
 ## Generating code snippets in Postman
 
-In Postman, select the **Code** icon on the **Context bar** to open the **Code snippet** tab.
+In Postman, select the request under your collection and click **Code** icon on the right panel to open the **Code snippet** tab.
 
 <img src="https://assets.postman.com/postman-docs/context-menu-icon-v8.jpg" width="400px" alt="User Menu"/>
 
