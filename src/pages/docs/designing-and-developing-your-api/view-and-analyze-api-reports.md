@@ -107,7 +107,7 @@ Team activity reporting provides the following information:
 
 > In this example, the number of active workspaces is 58 whereas the number of empty workspaces is 103.
 
-* __Total APIs__ is the total number of APIs in the team and personal workspaces including private workspaces
+* __Total APIs__ is the total number of APIs in the team and personal workspaces, including private workspaces
 * __Requests sent in Postman__ is the requests sent manually in Postman but not any requests sent via Newman, monitoring runs, or the collection runner
 
 <img alt="request sent in postman" src="https://assets.postman.com/postman-docs/requests-sent-in-postman-v8.jpg"/>
@@ -120,8 +120,6 @@ Team activity reporting provides the following information:
 * __Collection runs__ is the number of collection runs made in team workspaces, including private workspaces
 
 <img alt="Collections created and runs" src="https://assets.postman.com/postman-docs/collection-created-and-runs-v8.jpg"/>
-
-> In this example, if you hover on the chart you will see the collections created for the month of Nov 2020 is 1,179 whereas the collection runs is 848.
 
 * __Active monitors__ is the total number of active monitors in team workspaces including private workspaces (any monitor currently scheduled to run is *active*)
 * __Monitoring requests__ is the number of requests made from monitors in team workspaces, including private workspaces.
