@@ -27,11 +27,7 @@ When you opt to sign into the desktop version of Postman, you will see the follo
 
 <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
-Click **Continue** to move forward with logging into your account.
-
 > You must complete the process of signing in within five minutes once you initiate login from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
-
-<img src="https://assets.postman.com/postman-docs/sign-in-to-postman-continue.jpg" width="350px" alt="Sign in to Postman"/>
 
 Log into Postman by selecting **Sign in with Single Sign-On (SSO)** in the upper-right.
 
