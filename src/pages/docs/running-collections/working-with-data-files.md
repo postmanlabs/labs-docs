@@ -8,19 +8,6 @@ contextual_links:
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Looping through a data file in the Postman Collection Runner"
-    url: "https://blog.postman.com/looping-through-a-data-file-in-the-postman-collection-runner/"
-  - type: link
-    name: "Read and write to REST-enabled databases"
-    url: "https://blog.postman.com/read-and-write-to-rest-enabled-databases/"
-  - type: link
-    name: "Write to your local file system using a Postman Collection"
-    url: "https://blog.postman.com/write-to-your-local-file-system-using-a-postman-collection/"
 
 warning: false
 
@@ -30,32 +17,32 @@ You can use data files to pass Postman sets of values to use in a collection run
 
 ## Running collections with data files
 
-When you [initiate a collection run](/docs/running-collections/intro-to-collection-runs/) you will see an option to select a data file. Click __Runner__ at the top left of Postman. Select your collection, and click __Select File__ next to __Data__.
+When you [initiate a collection run](/docs/running-collections/intro-to-collection-runs/) you will see an option to select a data file. Click __Runner__ at bottom right of Postman. Select your collection, and click __Select File__ next to __Data__.
 
-![Setup Collection Run](https://assets.postman.com/postman-docs/data-file-run-setup.png)
+![Collection Runner](https://assets.postman.com/postman-docs/collection-runner-v8.gif)
 
 Select your data file. You will see an option to __Preview__ the data in the file before starting the run.
 
-![Data File Preview](https://assets.postman.com/postman-docs/data-file-preview.png)
+![Data File Preview](https://assets.postman.com/postman-docs/preview-data-file.jpg)
 
 Click __Run using data files__ to begin the run with the values from the file.
 
 > * You can try out the steps in this page by first importing [the sample collection](https://assets.postman.com/postman-docs/58533790.json)—download and import it into Postman using the __Import__ button at the top left.
-> ![Import Collection](https://assets.postman.com/postman-docs/collection-import-file.png)
+> ![Import Collection](https://assets.postman.com/postman-docs/collection-import-file-v8.jpg)
 > * In the Collection Runner, choose the collection you imported. Download [the sample data file](https://assets.postman.com/postman-docs/58702589.json) and select it in the __Runner__ also.
 > * Note that the sample collection contains a `POST` request which uses a `path` variable in the URL. This path variable is specified in each record in the data file. The request also uses a `value` variable in the body which is also pulled from the data file for each iteration. _The example request is to the [Postman Echo API](https://docs.postman-echo.com/), a learning resource that returns the data you send it._
 
 The Collection Runner will run the collection requests for each iteration in the data file. The output you see will indicate the results for any tests you have defined in your collection requests.
 
-![Tests](https://assets.postman.com/postman-docs/data-file-tests-tab.png)
+![Tests](https://assets.postman.com/postman-docs/data-file-tests-tab-v8.jpg)
 
-Click a request in the Collection Runner __Run Results__ to see more detail on its data.
+Click a request in the Collection Runner results to see more detail on its data.
 
-![Collection Run Results](https://assets.postman.com/postman-docs/data-file-collection-run.png)
+![Collection Run Results](https://assets.postman.com/postman-docs/data-file-collection-run-v8.jpg)
 
 Any data you have defined in the requests will be used when the collection runs, and your request data can reference values defined in the data file.
 
-![Data File Value](https://assets.postman.com/postman-docs/request-body-data-run.png)
+![Data File Value](https://assets.postman.com/postman-docs/request-body-data-run-v8.jpg)
 
 ## Accessing data file values
 
