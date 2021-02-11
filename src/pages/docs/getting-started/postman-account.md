@@ -117,7 +117,7 @@ Log into Postman in your browser by entering your account credentials or signing
 
 > Check **Keep me signed in** if you would like to remain signed in after your current session for 30 days before re-authenticating. If you do not want to remain signed in on the computer you are working on, uncheck this option. Note that you will be prompted to sign in again after 30 minutes.
 
-<img src="https://assets.postman.com/postman-docs/sign-in-full-page.jpg" alt="Sign in"/>
+<img src="https://assets.postman.com/postman-docs/sign-in-full-page-20.jpg" alt="Sign in"/>
 
 Upon signing in, you will see a confirmation in your browser and you will be redirected back to Postman.
 

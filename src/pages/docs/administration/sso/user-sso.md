@@ -31,7 +31,7 @@ When you opt to sign into the desktop version of Postman, you will see the follo
 
 Log into Postman by selecting **Sign in with Single Sign-On (SSO)** in the upper-right.
 
-<img src="https://assets.postman.com/postman-docs/sign-in-full-page.jpg" alt="Sign in"/>
+<img src="https://assets.postman.com/postman-docs/sign-in-full-page-20.jpg" alt="Sign in"/>
 
 Enter your team domain and **Continue**.
 
