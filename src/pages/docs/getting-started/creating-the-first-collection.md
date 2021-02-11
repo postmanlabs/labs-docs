@@ -42,17 +42,21 @@ Let's review how to [send a basic request](/docs/getting-started/sending-the-fir
 
 ## Creating your first collection
 
+To create a new request from the Overview tab, use the Get Started section at the right of Postman and click **Create a request**.
+
+<img alt="Create new request" src="https://assets.postman.com/postman-docs/create-new-request-v8.jpg" width="300px"/>
+
 Enter a request in the request builder and click the **Save** button to open the **SAVE REQUEST** modal.
 
-[![request builder](https://assets.postman.com/postman-docs/SaveRequest1.png)](https://assets.postman.com/postman-docs/SaveRequest1.png)
+<img alt="Save request modal" src="https://assets.postman.com/postman-docs/save-request-modal-v8.jpg"/>
 
 * As an optional step, enter a new request name. Otherwise, the default name will be the request URL.
 * As an optional step, enter a request description in plain text or using [Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
 
 Save this request to an existing collection, or create a new collection by entering a collection name, and then click the **Save** button.
 
-[![save request](https://assets.postman.com/postman-docs/SaveRequest.png)](https://assets.postman.com/postman-docs/SaveRequest.png)
+<img alt="Save request to collection" src="https://assets.postman.com/postman-docs/save-request-to-collection-v8.jpg" width="400px"/>
 
 Congratulations! You can see all of your collections under the **Collections** tab of the sidebar on the left, as illustrated in the screen below:
 
-[![collection sidebar](https://assets.postman.com/postman-docs/Creating_first_collection_sidebar1.png)](https://assets.postman.com/postman-docs/Creating_first_collection_sidebar1.png)
+<img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v8.jpg" width="400px"/>

@@ -48,19 +48,15 @@ You can enter your own key and select a team for which the key is applicable.
 
 ## Configuring Postman Monitors
 
-In the Integrations section of [your workspace](https://go.postman.co/workspaces), find VictorOps in the list of third party integrations.
+From the [Integrations search page](https://go.postman.co/integrations/browse?category=all) search and select VictorOps from the results.
 
-Click the **View Details** button to see information about VictorOps and how you can configure Postman monitors to trigger incidents on VictorOps.
+![victorOps search](https://assets.postman.com/postman-docs/victorops-all-search.jpg)
 
-You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for VictorOps, or view all integrations.
+Select **Add Integration** to start configuring this integration for your workspace.
 
-[![victorOps details](https://assets.postman.com/postman-docs/WS-victorOps-details-page.png)](https://assets.postman.com/postman-docs/WS-victorOps-details-page.png)
+![victorOps add integration](https://assets.postman.com/postman-docs/victorops-add-integration.jpg)
 
-Click the **Add Integration** button to display the "Send Monitor Run Results" modal.
-
-[![victorOps mon run](https://assets.postman.com/postman-docs/WS-victorOps-mon-run.png)](https://assets.postman.com/postman-docs/WS-victorOps-mon-run.png)
-
-In the **Send Monitor Run Results** page:
+Follow the steps to below to configure the VictorOps integration:
 
 * Select a monitor to send to VictorOps.
 * Enter the VictorOps API key.
@@ -68,6 +64,16 @@ In the **Send Monitor Run Results** page:
 * Click the **Add Integration** button.
 
 You can send the results of multiple monitors to the same VictorOps collection.
+
+![victorOps add integration](https://assets.postman.com/postman-docs/victorops-add-integration-config.jpg)
+
+You can see your newly created integration and every instance of this integration created by your team.
+
+![victorOps add integration](https://assets.postman.com/postman-docs/victorops-view-all-integrations.jpg)
+
+Click the name of the monitor you added to this integration to view the monitoring results.
+
+![victorOps add integration](https://assets.postman.com/postman-docs/victorops-view-all-integrations-rr.jpg)
 
 ## Incidents on VictorOps
 

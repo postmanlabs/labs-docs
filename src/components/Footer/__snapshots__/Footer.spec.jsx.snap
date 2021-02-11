@@ -801,7 +801,7 @@ exports[`renders correctly 1`] = `
           <span
             id="current-year"
           />
-          2020 Postman, Inc. All rights reserved
+          2021 Postman, Inc. All rights reserved
         </li>
       </div>
     </div>
