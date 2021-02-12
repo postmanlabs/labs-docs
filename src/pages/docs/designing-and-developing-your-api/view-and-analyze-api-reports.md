@@ -205,7 +205,7 @@ The Private network API reporting provides the following information:
 
 ## Security Audit reports
 
-The __Reports__ &gt; __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed token and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of Postman token scanner from public documentation. For more on Postman token scanner, see [Postman security scans](https://blog.postman.com/postman-security-scans/).
+The __Reports__ &gt; __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed token and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. For more on the Postman token scanner, see [Postman security scans](https://blog.postman.com/postman-security-scans/).
 
 [![security audit](https://assets.postman.com/postman-docs/security-audit-v8.jpg)](https://assets.postman.com/postman-docs/security-audit-v8.jpg)
 
