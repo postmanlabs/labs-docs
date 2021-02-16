@@ -125,7 +125,7 @@
 	},
 	{
 		"from": "/docs/integrations/hipchat/",
-		"to": "/docs/integrations/available-integrations/hipchat/"
+		"to": "/docs/integrations/intro-integrations/"
 	},
 	{
 		"from": "/docs/integrations/keen/",
@@ -309,7 +309,7 @@
 	},
 	{
 		"from": "/docs/postman-pro/integrations/hipchat/",
-		"to": "/docs/integrations/available-integrations/hipchat/"
+		"to": "/docs/integrations/intro-integrations/"
 	},
 	{
 		"from": "/docs/postman-pro/integrations/intro-integrations/",
@@ -1589,7 +1589,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/integrations/hipchat/",
-		"to": "/docs/integrations/available-integrations/hipchat/"
+		"to": "/docs/integrations/intro-integrations/"
 	},
 	{
 		"from": "/docs/postman_pro/integrations/intro_integrations/",
@@ -1786,5 +1786,9 @@
 	{
 		"from": "/reference/",
 		"to": "/docs/developer/resources-intro/"
+	},
+	{
+		"from": "/docs/integrations/available-integrations/hipchat/",
+		"to": "/docs/integrations/intro-integrations/"
 	}
 ]
