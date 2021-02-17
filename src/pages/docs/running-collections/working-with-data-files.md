@@ -17,11 +17,15 @@ You can use data files to pass Postman sets of values to use in a collection run
 
 ## Running collections with data files
 
-When you [initiate a collection run](/docs/running-collections/intro-to-collection-runs/) you will see an option to select a data file. Click __Runner__ at bottom right of Postman. Select your collection, and click __Select File__ next to __Data__.
+When you [initiate a collection run](/docs/running-collections/intro-to-collection-runs/) you will see an option to select a data file. Click __Runner__ at bottom right of Postman.
 
-![Collection Runner](https://assets.postman.com/postman-docs/collection-runner-v8.gif)
+![Collection Runner](https://assets.postman.com/postman-docs/collection-runner-for-v8.gif)
 
-Select your data file. You will see an option to __Preview__ the data in the file before starting the run.
+Select your collection, then click __Select File__ next to __Data__ on the right to select your data file.
+
+<img alt="Data File Select" src="https://assets.postman.com/postman-docs/select-data-file-v8.jpg" height="350px"/>
+
+You will see an option to __Preview__ the data in the file before starting the run.
 
 ![Data File Preview](https://assets.postman.com/postman-docs/preview-data-file.jpg)
 
