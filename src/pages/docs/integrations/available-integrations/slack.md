@@ -100,7 +100,6 @@ Return to the browser tab for Postman and enter the following:
   This option is pre-filled with information from the authorization process.
 
 * Slack Channel
-
   This option is pre-filled with the information from the authorization process.
 
 * Advance Options:
