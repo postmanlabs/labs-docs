@@ -141,21 +141,21 @@ Enter a **Name**, verify the **Value** and select a scope from the drop-down lis
 
 ### Defining global and environment variables
 
-You can create and edit global and environment variables using the __Environment quick Look__. Select your target environment in the drop-down to see its variables in the quick look. You can edit the current value for an existing variable inline, by clicking the value. To add a variable, click __Edit__ next to the environment or global section.
+You can create and edit environment variables by selecting __Environments__ on the left of Postman, or using the __Environment quick look__ at the top right.
 
-> You can only add and edit variables in environments if you have edit access to the environment as a whole. If you have view access, you can update the current value of existing variables only. Any variables you edit in viewer mode will only be accessible to you, and not available to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+[![Environments](https://assets.postman.com/postman-docs/environments-v8.jpg)](https://assets.postman.com/postman-docs/environments-v8.jpg)
 
-![Environment Quick Look](https://assets.postman.com/postman-docs/env-quick-look.jpg)
+You can select an environment in the drop-down at the top right, or in the left sidebar, by clicking the check-mark button to make the environment _active_.
+
+In the environment quick look you will see the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline, by clicking the value. To add a variable, click __Edit__ next to the environment or global section.
 
 > You can also access the quick look using the keyboard shortcut `CMD/CTRL + ALT + E`.
 
-Alternatively, click __Manage environments__ and select the relevant environment, or click __Globals__.
+![Environment Quick Look](https://assets.postman.com/postman-docs/environment-look-v8.jpg)
 
-<img alt="Manage Environments" src="https://assets.postman.com/postman-docs/manage-env.jpg" width="400px"/>
+> You can only add and edit variables in environments if you have edit access to the environment as a whole. If you have view access, you can update the current value of existing variables only. Any variables you edit will only be accessible to you, and not available to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
-![Manage Environments](https://assets.postman.com/postman-docs/manage-environments-open.jpg)
-
-> See [Managing environments](/docs/sending-requests/managing-environments/) for more on working with environments in your team.
+See [Managing environments](/docs/sending-requests/managing-environments/) for more on working with environments in your team.
 
 Once you have your scope selected, you can [specify the variable detail](#specifying-variable-detail).
 
@@ -163,19 +163,14 @@ You can also [define global and environment variables in scripts](#defining-vari
 
 ### Defining collection variables
 
-You can add collection variables when you create the collection or at any time after that. To create or edit a variable for an existing collection, select the collection in __Collections__ on the left of the Postman app, open the __View more actions__ (__...__) menu, and click __Edit__.
+You can add collection variables when you create the collection or at any time after that. To create or edit a variable for an existing collection, select the collection in __Collections__ sidebar on the left of Postman and choose **Variables**.
 
-<img alt="Edit Collection" src="https://assets.postman.com/postman-docs/edit-collection-var.jpg" width="350px"/>
+[![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)
 
-> If you only have __Viewer__ role on the collection, you will see the __View Details__ menu item instead of __Edit__ (on the collection and any folders inside it).
-> ![View collection details](https://assets.postman.com/postman-docs/view-details-collection-viewer.jpg)
-
-Choose the __Variables__ tab to edit or add to your collection variables.
-
-![Collection Variables](https://assets.postman.com/postman-docs/collection-vars.jpg)
-
-> If you have __Viewer__ role you will not be able to add new collection variables, update initial values, or persist values.
-> ![Collection viewer role](https://assets.postman.com/postman-docs/collection-variables-viewer-role.jpg)
+> If you do not have edit access to a collection, you will see a __Request Access__ button.
+> [![View collection details](https://assets.postman.com/postman-docs/collection-access-v8.jpg)](https://assets.postman.com/postman-docs/collection-access-v8.jpg)
+> Without edit access you will not be able to add new collection variables, update initial values, or persist values.
+> [![Collection viewer role](https://assets.postman.com/postman-docs/variable-access-v8.jpg)](https://assets.postman.com/postman-docs/variable-access-v8.jpg)
 > You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection for __Editor__ role.
 
 You can also [define collection variables in scripts](#defining-variables-in-scripts).
@@ -184,7 +179,7 @@ You can also [define collection variables in scripts](#defining-variables-in-scr
 
 You can add and edit variables at any time. All you need to include for a new variable is a name—you can choose to supply an initial value but can alternatively set it later, including from scripts. Use the checkbox to enable or disable a variable.
 
-![Manage Variables](https://assets.postman.com/postman-docs/manage-vars.jpg)
+[![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)
 
 Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Sharing and persisting data](#sharing-and-persisting-data) for more on local vs synced variables.
 
@@ -266,7 +261,7 @@ Alternatively, you could have a request body that accesses a variable by wrappin
 
 You can use variables in request URLs, parameters, headers, authorization, body, and header presets.
 
-![Variables in Request](https://assets.postman.com/postman-docs/vars-in-request.jpg)
+[![Variables in Request](https://assets.postman.com/postman-docs/var-auth-v8.jpg)](https://assets.postman.com/postman-docs/var-auth-v8.jpg)
 
 When you hover over a variable you can see an overview of its current status. As you type variables into your requests, Postman will prompt you with any that are currently defined.
 
@@ -299,9 +294,9 @@ pm.environment.get("variable_key");
 
 ## Sharing and persisting data
 
-When you edit global, collection, and environment variables in Postman, you will see __Current Value__, __Persist__, and __Reset__ options for individual variables and for all variables. These allow you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
+When you edit global, collection, and environment variables in Postman, you will see __Current Value__, __Persist__, and __Reset__ options for individual variables and for all variables (hover over a variable and use __...__ to persist individual values). These allow you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
 
-![Persist Variables](https://assets.postman.com/postman-docs/persist-var.jpg)
+[![Persist Variables](https://assets.postman.com/postman-docs/persist-v8.jpg)](https://assets.postman.com/postman-docs/persist-v8.jpg)
 
 Your local session in Postman can use values that are transient and only visible to you. This lets you develop and test using private credentials or experimental values, without risk of exposing these details or affecting others on your team.
 
@@ -309,7 +304,7 @@ Your local session in Postman can use values that are transient and only visible
 
 When you create or edit a variable, you can enter both an initial and a current value. You can choose to leave the current value empty, in which case it will default to the initial value. If you specify a current value, it will be local only to your instance—the __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
 
-> You can only edit the initial value of an environment variable if you have edit access to the environment itself. If you have viewer access to the environment, you can only edit the current value and your edit will not be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+> You can only edit the initial value of an environment variable if you have edit access to the environment itself. Without edit access to the environment, you can only edit the current value and your edit will not be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
 
@@ -317,7 +312,7 @@ Using __Persist__ will make your current value sync with Postman's servers and b
 
 You can edit a current value inline from the environment quick look:
 
-<img alt="Edit Current Value" src="https://assets.postman.com/postman-docs/edit-current.jpg" width="500px"/>
+<img alt="Edit Current Value" src="https://assets.postman.com/postman-docs/var-inline-v8.jpg" width="500px"/>
 
 See [Managing environments](/docs/sending-requests/managing-environments/#creating-environments) for more on working with variables as a team.
 
@@ -331,7 +326,7 @@ You can log variable values to the [Postman Console](/docs/sending-requests/trou
 console.log(pm.variables.get("variable_key"));
 ```
 
-<img alt="Logging Variable" src="https://assets.postman.com/postman-docs/log-var.jpg" width="500px"/>
+[![Logging Variable](https://assets.postman.com/postman-docs/log-var-v8.jpg)](https://assets.postman.com/postman-docs/log-var-v8.jpg)
 
 ## Using data variables
 
