@@ -8,34 +8,25 @@ contextual_links:
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "From manual to automated testing: The roadblocks and the journey"
-    url: "https://medium.com/better-practices/from-manual-to-automated-testing-the-roadblocks-and-the-journey-6333dfacc5ae"
 
 warning: false
 ---
 
 You can automate [collection runs](/docs/running-collections/intro-to-collection-runs/) using [monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to schedule runs and receive reports on your request test results.
 
-To add or access monitors for a particular collection, open a collection in the left sidebar of Postman, and select the __Monitors__ tab,
+To add or access monitors for a particular collection, select the __Monitors__ tab in the left sidebar of Postman.
 
-[![Monitors for collection](https://assets.postman.com/postman-docs/collections-monitor-tab.jpg)](https://assets.postman.com/postman-docs/collections-monitor-tab.jpg)
+<img alt="Monitors v8" src="https://assets.postman.com/postman-docs/create-a-monitor-v8.jpg" height="400px"/>
 
-Any monitors already attached to your collection will appear. Click __Create a monitor__ to add one (or __+ Add monitor__ if you already have one on the collection).
+Any monitors already attached to your collection will appear. Click __Create a monitor__ to add one (or __+ Create a new Monitor__ if you already have one on the collection). You can also add a monitor via a collection. To add a monitor via collection, go to the collection, click __...__ and select __Monitor Collection__.
 
-[![Add new monitor to collection](https://assets.postman.com/postman-docs/add-new-monitor-collection.jpg)](https://assets.postman.com/postman-docs/add-new-monitor-collection.jpg)
+Give your monitor a name, select a collection to use, choose a version tag, and an optional environment your scheduled collection runs should reference. Enter the frequency you want your monitor to run on, and select a region. Click __Create__ and your monitor will run on the schedule you entered.
 
-Give your monitor a name, choose a version tag, and an optional environment your scheduled collection runs should reference. Enter the frequency you want your monitor to run on, and select a region. Click __Create__ and your monitor will run on the schedule you entered.
+[![Add new monitor to collection](https://assets.postman.com/postman-docs/create-new-monitor-overview-v8.jpg)](https://assets.postman.com/postman-docs/create-new-monitor-overview-v8.jpg)
 
-[![New monitor created](https://assets.postman.com/postman-docs/monitor-created-detail.jpg)](https://assets.postman.com/postman-docs/monitor-created-detail.jpg)
+Your new monitor will appear in the monitor overview. You can open the monitor overview tab to [view your monitor results](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/) at any time.
 
-You can open the [web dashboard](https://go.postman.co) to [view your monitor results](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/) at any time. Your new monitor will appear in the collection overview.
-
-[![New monitor in collection](https://assets.postman.com/postman-docs/new-monitor-in-collection.jpg)](https://assets.postman.com/postman-docs/new-monitor-in-collection.jpg)
+<img alt ="New monitor created" src="https://assets.postman.com/postman-docs/new-monitor-created-v8.jpg" height ="400px"/>
 
 ## Next steps
 
