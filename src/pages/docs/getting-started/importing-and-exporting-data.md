@@ -9,7 +9,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Healthwise"
-    url: "https://www.postman.com/case-studies/healthwise.pdf"
+    url: "https://www.postman.com/customers/healthwise.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

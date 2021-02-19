@@ -43,7 +43,7 @@ To add a Bitbucket integration, navigate to your [Postman Dashboard](https://go.
 
 Enter your Bitbucket username and app password.
 
-> App passwords are different from account passwords. Learn [how to create an app password in Bitbucket](https://confluence.atlassian.com/bitbucket/app-passwords-828781300.html).
+> App passwords are different from account passwords. Learn [how to create an app password in Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/).
 
 <img src="https://assets.postman.com/postman-docs/enter-username-and-password.jpg" width="350px" alt="User Menu"/>
 

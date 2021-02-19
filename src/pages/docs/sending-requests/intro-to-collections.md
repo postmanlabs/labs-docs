@@ -132,7 +132,7 @@ You can use collections to power various parts of your API development, testing,
 * The [Collection Runner](/docs/running-collections/intro-to-collection-runs/) allows you to run all requests in a collection and build testing workflows into your runs.
 * You can define [scripts](/docs/writing-scripts/intro-to-scripts/) in your collection, and they will run for each request inside it.
 * [Collection variables](/docs/sending-requests/variables/) allow you to define values to use throughout the requests in the collection.
-* You can generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection and share it publicly as well as adding it to the [Postman API Network](https://explore.postman.com/).
+* You can generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection and share it publicly as well as adding it to the [Postman API Network](https://www.postman.com/explore).
 * Attaching a [monitor](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs.
 * If you add [examples](/docs/sending-requests/examples/) to your requests, you can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development.
 

@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: link
     name: "Installation and updates"
     url: "/docs/postman/launching-postman/installation-and-updates/"
@@ -38,7 +38,7 @@ If you're just starting to learn about APIs and Postman, you can use a variety o
 
 * [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
 * Use the __Bootcamp__ to work through lessons inside Postman—open it at the bottom right of the app.
-* Explore [workspaces, collections, and more](https://explore.postman.com/) that you can try out inside Postman, like [Learn by API](https://www.postman.com/postman/workspace/published-postman-templates/collection/9065401-ff29b3be-af69-4442-91e0-c1158b620fc2?ctx=documentation), which walks you through API concepts.
+* Explore [workspaces, collections, and more](https://www.postman.com/explore) that you can try out inside Postman, like [Learn by API](https://www.postman.com/postman/workspace/published-postman-templates/collection/9065401-ff29b3be-af69-4442-91e0-c1158b620fc2?ctx=documentation), which walks you through API concepts.
 
 ## What are you here to learn about?
 
