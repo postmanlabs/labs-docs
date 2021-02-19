@@ -39,19 +39,21 @@ You can back up your Postman Collections to your Bitbucket repository. Once the 
 
 To add a Bitbucket integration, navigate to the [Postman Integrations page](https://go.postman.co/integrations/browse?category=all). Search for Bitbucket and select it from the results.
 
-![Bitbucket page](https://assets.postman.com/postman-docs/bitbucket-search-bb.jpg)
+![Bitbucket search page](https://assets.postman.com/postman-docs/bitbucket-search-bb.jpg)
 
-Select **Add Integration** and enter your Bitbucket authentication and select **Authenticate and Proceed**.
+Select **Add Integration**.
+
+![Bitbucket details page](https://assets.postman.com/postman-docs/bitbucket-add-integration-bb.jpg)
+
+Enter your Bitbucket authentication and select **Authenticate and Proceed**.
 
 > App passwords are different from account passwords. Learn [how to create an app password in Bitbucket](https://confluence.atlassian.com/bitbucket/app-passwords-828781300.html).
 
-![Bitbucket page](https://assets.postman.com/postman-docs/bitbucket-add-integration-bb.jpg)
-
-![Bitbucket page](https://assets.postman.com/postman-docs/bitbucket-create-bb.jpg)
+![Bitbucket creation](https://assets.postman.com/postman-docs/bitbucket-create-bb.jpg)
 
 Select your collection to back up, the repository you'd like to back it up to, and designate the directory, filename, and branch. Click **Add Integration**.
 
-![Bitbucket page](https://assets.postman.com/postman-docs/bitbucket-configure-bb.jpg)
+![Bitbucket configuration](https://assets.postman.com/postman-docs/bitbucket-configure-bb.jpg)
 
 Your new integration will now appear in a list along with previously created integrations.
 
@@ -59,7 +61,7 @@ Your new integration will now appear in a list along with previously created int
 
 To confirm this integration, navigate to your [Bitbucket dashboard](https://bitbucket.org/dashboard/overview) > **Repositories**. Select your repository > **Commits**.
 
-![Configured integrations](https://assets.postman.com/postman-docs/bitbucket-commits.jpg)
+![Bitbucket commits list](https://assets.postman.com/postman-docs/bitbucket-commits.jpg)
 
 You can select a commit to view your stored collection in JSON format.
 
