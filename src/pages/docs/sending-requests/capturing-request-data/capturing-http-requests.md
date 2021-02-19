@@ -22,7 +22,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Reverse engineering an API"
-    url: "https://medium.com/postman-engineering/reverse-engineering-an-api-403fae885303"
+    url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
   - type: link
     name: "Using Postman Proxy to Capture and Inspect API Calls from iOS or Android Devices"
     url: "https://blog.postman.com/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
@@ -72,13 +72,13 @@ Keep a note of the port mentioned in the proxy settings. In this case, let's kee
 
 On OS X, the computer's IP address can be found in _System Preferences > Network_. The IP address of your system will be something like the example here `192.168.0.101`.
 
-[![system preferences](https://edit.blog.postman.com/wp-content/uploads/2016/06/osx-network-settings.png)](https://edit.blog.postman.com/wp-content/uploads/2016/06/osx-network-settings.png)
+[![system preferences](https://blog.postman.com/wp-content/uploads/2016/06/osx-network-settings.png)](https://blog.postman.com/wp-content/uploads/2016/06/osx-network-settings.png)
 
 ### Step 3: Configure HTTP proxy on your mobile device
 
 Open the wireless settings of your mobile device and update the configuration of the wireless connection to use HTTP Proxy. Set the IP address with the IP you retrieved from your computer in the second step. Set the port with the port you established in Postman in **Step 1**.
 
-[![wireless settings on mobile device](https://edit.blog.postman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)](https://edit.blog.postman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)
+[![wireless settings on mobile device](https://blog.postman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)](https://blog.postman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)
 
 Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
 

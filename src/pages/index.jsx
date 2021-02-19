@@ -84,7 +84,7 @@ const IndexPage = () => (
               title="Postman Network"
               description="Find templates, workspaces, and APIs you can interact with inside Postman."
               cta="Browse Postman"
-              ctaLink="https://explore.postman.com/"
+              ctaLink="https://www.postman.com/explore"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
@@ -140,7 +140,7 @@ const IndexPage = () => (
           title="Postman support"
           description="Reach out to our support team."
           cta="Open a ticket"
-          ctaLink="https://support.getpostman.com/hc/en-us/requests/new/"
+          ctaLink="https://support.postman.com/hc/en-us/requests/new/"
         />
       </div>
       <div className="col-md-6 col-lg-4 mb-3 mb-md-4">

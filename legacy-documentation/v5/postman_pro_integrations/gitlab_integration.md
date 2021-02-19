@@ -42,7 +42,7 @@ There are also some advanced options available.  You can enter a custom director
 
 And that's it!  From now on, every change saved to your Postman Collection will automatically commit changes to your GitLab project in real time.  Now your Collections and code can live together in perfect harmony in the same repository.
 
-[0]: https://gitlab.com/
+[0]: https://about.gitlab.com/
 [1]: https://gitlab.com/profile/personal_access_tokens
 [2]: https://assets.postman.com/postman-docs/gitlab_create.png
 [3]: https://assets.postman.com/postman-docs/gitlab_token.png

@@ -101,7 +101,7 @@ To set a card as default, hover over the card and **Set as Default**.
 
 ### Paying by invoice
 
-Invoicing is available to Postman Business and Enterprise teams. New customers can [email the Postman Sales team](mailto:sales@postman.com) to get started. Existing customers can [submit a request](https://support.getpostman.com/hc/en-us) to be invoiced instead of automatically charged.
+Invoicing is available to Postman Business and Enterprise teams. New customers can [email the Postman Sales team](mailto:sales@postman.com) to get started. Existing customers can [submit a request](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
 
 You can pay invoices online, via check, or via wire-transfer. Invoices will be sent to your team's billing email address found in your [billing details](http://go.postman.co/settings/team/billing-details), and will include offline payment instructions. Pending payments can be found in your [billing dashboard](http://go.postman.co/billing).
 
@@ -109,7 +109,7 @@ You can pay invoices online, via check, or via wire-transfer. Invoices will be s
 
 To add or edit the information on an invoice, navigate to your [billing dashboard](http://go.postman.co/billing) and select **Invoices** > **Edit Invoice Details** > **Billing Details**.
 
-Add or update your billing email, company name, address, and (if applicable) VAT ID, then **Save Changes**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, [submit a request](https://support.getpostman.com/hc/en-us).
+Add or update your billing email, company name, address, and (if applicable) VAT ID, then **Save Changes**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, [submit a request](https://support.postman.com/hc/en-us).
 
 <img alt="Edit billing details" src="https://assets.postman.com/postman-docs/ts-billing-details.jpg" width="550px"/>
 
@@ -125,11 +125,11 @@ If payment is unsuccessful, Postman offers a grace period of 10 days to avoid se
 
 ## Team and plan changes
 
-You can change your team's plan and billing cycle in the [billing dashboard](https://app.postman.co/billing/overview).
+You can change your team's plan and billing cycle in the [billing dashboard](https://go.postman.co/billing/overview).
 
 ### Changing your plan
 
-To change your plan immediately, navigate to your [billing dashboard](https://app.postman.co/billing/overview) and click **...** > **Change Plan**. Choose **Monthly** or **Yearly** for your billing cycle, then select your preferred plan type. You can adjust your team size and **Proceed** to confirm changes.
+To change your plan immediately, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and click **...** > **Change Plan**. Choose **Monthly** or **Yearly** for your billing cycle, then select your preferred plan type. You can adjust your team size and **Proceed** to confirm changes.
 
 [![change plan](https://assets.postman.com/postman-docs/billing-modify-your-plan.jpg)](https://assets.postman.com/postman-docs/billing-modify-your-plan.jpg)
 
@@ -139,7 +139,7 @@ The cost of your new plan and/or additional seats will be prorated based on the 
 
 ### Setting instructions for next billing cycle
 
-You can set instructions to determine what will happen at the end of your current billing cycle. To do so, navigate to your [billing dashboard](https://app.postman.co/billing/overview), then click **...** > **Set instructions for next billing cycle**.
+You can set instructions to determine what will happen at the end of your current billing cycle. To do so, navigate to your [billing dashboard](https://go.postman.co/billing/overview), then click **...** > **Set instructions for next billing cycle**.
 
 You can view your current plan and opt to **Edit Standing Instructions**. Select your preferred option from the drop-down, then click **Proceed** and confirm your changes.
 

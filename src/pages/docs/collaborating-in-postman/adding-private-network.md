@@ -108,7 +108,7 @@ You can use the search box to search across folders, subfolders, and APIs in you
 
 ## Discovering and consuming private APIs
 
-The Private API Network is a good place to learn about APIs shared within your team. You can browse private APIs in [the Private API Network](https://go.postman.co/network/private) under your team name, or explore public APIs in [the public API network](https://explore.postman.com/).
+The Private API Network is a good place to learn about APIs shared within your team. You can browse private APIs in [the Private API Network](https://go.postman.co/network/private) under your team name, or explore public APIs in [the public API network](https://www.postman.com/explore).
 
 > Private APIs are only visible to logged in users who are a part of your Postman team.
 

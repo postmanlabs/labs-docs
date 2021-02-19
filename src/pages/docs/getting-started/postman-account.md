@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -30,7 +30,7 @@ warning: false
 
 A free Postman account allows you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. You can also [collaborate](/docs/collaborating-in-postman/collaboration-intro/) with others on your API projects.
 
-Signing up for an account is optional—you can use the desktop Postman app without an account if you prefer. Check out the [EULA](https://www.postman.com/licenses/postman_base_app), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
+Signing up for an account is optional—you can use the desktop Postman app without an account if you prefer. Check out the [EULA](https://www.postman.com/legal/eula/), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
 
 ## Contents
 
@@ -135,13 +135,13 @@ When the icon is green, you are connected to the servers and your work is being 
 
 If a conflict arises from a sync issue within your workspace, [Postman will present options for resolving the conflict](/docs/collaborating-in-postman/using-workspaces/conflicts/).
 
-> Postman uses WebSockets for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.getpostman.com/hc/en-us).
+> Postman uses WebSockets for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.postman.com/hc/en-us).
 
 ## Upgrading your account
 
 If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and clicking **Upgrade** in the top-right corner.
 
-If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://app.postman.co/billing/overview) and clicking **...** > **Change Plan**.
+If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and clicking **...** > **Change Plan**.
 
 [![change plan menu](https://assets.postman.com/postman-docs/change-plan-menu.jpg)](https://assets.postman.com/postman-docs/change-plan-menu.jpg)
 

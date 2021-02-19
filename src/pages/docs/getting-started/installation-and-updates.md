@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -150,7 +150,7 @@ You can configure your preferences to enable automatic download for major update
 
 The Postman Chrome app is deprecated—if you're using the Chrome app, you can [retain your data when you switch to the native app](#migrating-to-the-native-app) ___either by syncing with a Postman account you're signed into, or by exporting from Chrome and importing into the native app___.
 
-The native app is built on [Electron](https://electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
+The native app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
 * Unlike the Chrome app, no separate extension for the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) is needed.
