@@ -13,7 +13,7 @@ contextual_links:
 ---
 This section describes the steps/flow to migrate to Postman v8.
 
-## Migrating to the latest version of Postman
+## Migrating to Postman v8
 
 Postman v8 gives you a consistent, better API development experience. It has universal search across all of Postman, including the Public and Private API Networks, plus you can work on public workspaces directly through the desktop app. This means that the Postman desktop app and Postman on the [web](https://community.postman.com/t/whats-new-in-postman-for-the-web/18203) are now equally empowering—which one you use is a matter of preference for your workflows.
 
@@ -23,8 +23,8 @@ Postman v8 gives you a consistent, better API development experience. It has uni
     * [Upgrading to v8 as an individual](#upgrading-to-v8-as-an-individual)
     * [Upgrading to v8 as a team](#upgrading-to-v8-as-a-team)
 * [Upgrading your team from v6 or earlier](#upgrading-your-team-from-v6-or-earlier)
-    * [Upgrading from v6/v5 as a team](#upgrading-from-v56-as-an-individual)
-    * [Upgrading from v6/v5 as an individual](#upgrading-from-v56-as-a-team)
+    * [Upgrading from v6 as a team](#upgrading-from-v6-as-an-individual)
+    * [Upgrading from v6 as an individual](#upgrading-from-v6-as-a-team)
 * [Installing earlier versions of Postman](#installing-earlier-versions-of-Postman)
     * [Downloading Postman v7 app](#downloading-postman-v7-app)
     * [Downloading Postman v6 app](#downloading-postman-v6-app)
@@ -33,7 +33,23 @@ Postman v8 gives you a consistent, better API development experience. It has uni
 
 ### Upgrading to v8 as an individual
 
-Non-team users can move from Postman v7 to v8 by updating the app via **Settings** > **Update** > **Check for Updates**, without worrying about the steps described in this section.
+Non-team users can move from Postman v7 to v8 by updating the app via **Settings** > **Update** > Click **Download update**.
+
+<img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v7-to-v8.jpg"/>
+
+To make sure no data is lost while updating, you need to verify your work is in sync. Click __Verify Sync__.
+
+<img alt="" src ="https://assets.postman.com/postman-docs/verify-sync-before-updating-v8.jpg" width="450px"/>
+
+Once your work is synced, you can update to Postman v8. Click __Update to v8__.
+
+<img alt="" src ="https://assets.postman.com/postman-docs/sync-update-confirmed-v8.jpg" width="450px"/>
+
+You need to restart Postman to install the update. Click __Restart and Install Update__.
+
+<img alt="" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
+
+You can start using Postman v8 and access the new UI and features once the update is completed.
 
 ### Upgrading to v8 as a team
 
@@ -64,19 +80,25 @@ This section illustrates the possible user flows and guides you through the migr
 
 **Note:** The migration decision is restricted to the team admin. If you are a Postman team member and are not on Postman v8, please contact your admin to migrate to Postman v8.
 
-### Upgrading from v6/v5 as a team
+### Upgrading from v6 as a team
 
-If you are an admin, you can go to the [Postman dashboard](https://go.postman.co/settings/team/roles) and migrate to Postman v8.
+If you are an admin, you can go to the [Postman dashboard](https://go.postman.co/settings/team/roles) and migrate to Postman v7.
 
 [![migration to v7](https://assets.postman.com/postman-docs/Migrate2.png)](https://assets.postman.com/postman-docs/Migrate2.png)
 
-Click **Migrate my team to v8** and Postman takes care of the next steps for you and your team.
+Click **Migrate my team to v7** and Postman takes care of the next steps for you and your team.
 
 Once your team has migrated to Postman v8, all users in the team would be notified, via email and banners within the app, that they need to update their app to Postman v8.
 
-### Upgrading from v6/v5 as an individual
+### Upgrading from v6 as an individual
 
-Non-team users can move from Postman v6 or below to v8 by updating the app via **Settings** > **Update** > **Check for Updates**, without worrying about the steps described in this section.
+Non-team users can move from Postman v6 to v8 by updating the app via **Settings** > **Update** > Click **Download update**.
+
+First, you need to update your Postman app from v6 to v7.36.5.
+
+<img alt="Migrate v6 to v7.35.6" src="https://assets.postman.com/postman-docs/migrate-v6-to-v7.36.5.jpg"/>
+
+Once you are on __v7.35.6__, this is the gateway version to update to v8. See [upgrading to v8](docs/administration/migrating-to-v8/#upgrading-to-v8-as-an-individual) to update to the latest version of Postman.
 
 ## Installing earlier versions of Postman
 
