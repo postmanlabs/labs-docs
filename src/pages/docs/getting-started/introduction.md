@@ -89,7 +89,7 @@ If you're exposing an API for public use, Postman can support developer onboardi
 
 ### Collaborating with your team
 
-If you're using Postman in your company or team, check out these guides to maximize on your collaboration:
+If you're using Postman in your company or team, check out these guides to maximize your collaboration:
 
 * [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
 * [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
