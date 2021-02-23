@@ -95,7 +95,7 @@ sudo npm install -g postman-collection-transformer
 * You can retrieve a list of convert options by running it with the ``-h`` flag.
 
 ```bash
-postman-collection-transform convert -h
+postman-collection-transformer convert -h
 ```
 
  Option | Details |
