@@ -22,6 +22,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{secrets.PROD_AWS_SECRET_ACCESS_KEY}}
         DIST_ID: ${{secrets.PROD_DIST_ID}}
         MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
+        BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
       run: |
         npm install
         npm run clean

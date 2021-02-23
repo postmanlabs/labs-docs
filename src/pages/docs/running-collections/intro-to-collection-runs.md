@@ -24,6 +24,8 @@ contextual_links:
   - type: link
     name: "Keep track of GitHub issues using a Postman collection"
     url: "https://blog.postman.com/keep-track-of-github-issues-using-a-postman-collection/"
+  - type: dynamic_blog
+    blog_tag: "collections"
 warning: false
 
 ---

@@ -1,5 +1,7 @@
 import React from 'react';
 import DynamicLink from '../Shared/DynamicLink';
+import recentBlogPosts from '../../../public/bff-data/blog.json'
+
 import './ContextualLinks.scss';
 
 const ContextualLinks = ({ links }) => (
@@ -19,6 +21,15 @@ const ContextualLinks = ({ links }) => (
               {item.name}
             </div>
           );
+        }
+        if (item.type === 'dynamic_blog' && item.blog_tag) {
+          return recentBlogPosts.index[item.blog_tag].map(post => {
+            return (
+              <div className="contextual-links__link" key={post.title}>
+                <DynamicLink url={post.link.url} name={post.title} />
+              </div>
+            );
+          })
         }
         return (
           <div className="contextual-links__section" key={Math.random()}>{item.name}</div>
