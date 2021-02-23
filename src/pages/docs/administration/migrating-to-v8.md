@@ -24,7 +24,7 @@ Postman v8 gives you a consistent, better API development experience. It has uni
     * [Upgrading to v8 as a team](#upgrading-to-v8-as-a-team)
 * [Upgrading from v6 or earlier](#upgrading-from-v6-or-earlier)
     * [Upgrading from v6 as an individual](#upgrading-from-v6-as-a-team)
-    * [Upgrading from v6 as a team](#upgrading-from-v6-as-an-individual) 
+    * [Upgrading from v6 as a team](#upgrading-from-v6-as-an-individual)
 * [Installing earlier versions of Postman](#installing-earlier-versions-of-Postman)
     * [Downloading Postman v7 app](#downloading-postman-v7-app)
     * [Downloading Postman v6 app](#downloading-postman-v6-app)
