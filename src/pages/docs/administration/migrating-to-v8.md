@@ -17,19 +17,17 @@ This section describes the steps/flow to migrate to Postman v8.
 
 Postman v8 gives you a consistent, better API development experience. It has universal search across all of Postman, including the Public and Private API Networks, plus you can work on public workspaces directly through the desktop app. This means that the Postman desktop app and Postman on the [web](https://community.postman.com/t/whats-new-in-postman-for-the-web/18203) are now equally empowering—which one you use is a matter of preference for your workflows.
 
-## Contents
-
 * [Upgrading from v7 to v8](#upgrading-from-v7-to-v8)
     * [Upgrading to v8 as an individual](#upgrading-to-v8-as-an-individual)
     * [Upgrading to v8 as a team](#upgrading-to-v8-as-a-team)
 * [Upgrading from v6 or earlier](#upgrading-from-v6-or-earlier)
-    * [Upgrading from v6 as an individual](#upgrading-from-v6-as-a-team)
-    * [Upgrading from v6 as a team](#upgrading-from-v6-as-an-individual)
+    * [Upgrading from v6 as an individual](#upgrading-from-v6-as-an-individual)
+    * [Upgrading from v6 as a team](#upgrading-from-v6-as-a-team)
 * [Installing earlier versions of Postman](#installing-earlier-versions-of-Postman)
     * [Downloading Postman v7 app](#downloading-postman-v7-app)
     * [Downloading Postman v6 app](#downloading-postman-v6-app)
 
-### Upgrading from v7 to v8
+## Upgrading from v7 to v8
 
 ### Upgrading to v8 as an individual
 
@@ -88,7 +86,7 @@ First, you need to update your Postman app from v6 to v7.36.5.
 
 <img alt="Migrate v6 to v7.35.6" src="https://assets.postman.com/postman-docs/migrate-v6-to-v7.36.5.jpg"/>
 
-Once the update is complete, you will be on Postman v7.36.5. This is the gateway version to update to v8. See [upgrading to v8](docs/administration/migrating-to-v8/#upgrading-to-v8-as-an-individual) to update to Postman v8.
+Once the update is complete, you will be on Postman v7.36.5. This is the gateway version to update to v8. See [upgrading to v8](#upgrading-from-v7-to-v8) to update your app to Postman v8.
 
 ### Upgrading from v6 as a team
 
@@ -138,11 +136,11 @@ sudo snap switch --channel=v6/stable postman
 sudo snap refresh postman
 ```
 
-You can update your Postman v6 app to Postman v7, via **Settings** > **Update** > **Check for Updates**. Postman v7 would be available via auto-updates to all team users after the admin has successfully migrated the team.
+You can update your Postman v6 app to Postman v7, see [How to update your Postman app to v7](#upgrading-to-v8-as-an-individual). Postman v7 would be available via auto-updates to all team users after the admin has successfully migrated the team.
 
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', you will not be able to update the app via the steps explained above. Please use the following commands to update your app via the terminal:
 
 ```
-sudo snap switch --channel=latest/stable postman
+sudo snap switch --channel=v7/stable postman
 sudo snap refresh postman
 ```
