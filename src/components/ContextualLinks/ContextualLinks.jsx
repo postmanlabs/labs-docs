@@ -1,6 +1,6 @@
 import React from 'react';
 import DynamicLink from '../Shared/DynamicLink';
-import recentBlogPosts from '../../../public/bff-data/blog.json'
+import recentBlogPosts from '../../../bff-data/blog.json'
 
 import './ContextualLinks.scss';
 
@@ -23,14 +23,29 @@ const ContextualLinks = ({ links }) => (
           );
         }
         if (item.type === 'dynamic_blog' && item.blog_tag) {
-          return recentBlogPosts.index[item.blog_tag].map(post => {
+          if (recentBlogPosts.index && recentBlogPosts.index[item.blog_tag]) {
+            const dynamicLinks = recentBlogPosts.index[item.blog_tag].map(post => {
+              return (
+                <div className="contextual-links__link" key={post.title}>
+                  <DynamicLink url={post.link.url} name={post.title} />
+                </div>
+              );
+            })
             return (
-              <div className="contextual-links__link" key={post.title}>
-                <DynamicLink url={post.link.url} name={post.title} />
-              </div>
-            );
-          })
+              <>
+                <div className="contextual-links__subtitle" key={item.name}>
+                  {item.name}
+                </div>
+                {dynamicLinks}
+              </>
+            ) 
+          } else {
+            // If there are no related blog posts within blogs.json, we simply return nothing
+            // This will be the case when you are developing locally
+            return;
+          }
         }
+
         return (
           <div className="contextual-links__section" key={Math.random()}>{item.name}</div>
         );

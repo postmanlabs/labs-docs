@@ -6,20 +6,19 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const host = process.env.BFF_BLOG_URL
+const host = process.env.BFF_BLOG_URL || ''
 
 function fetchBlogPosts() {
-  return fetch(host)
+  if (host) {
+    return fetch(host)
     .then(
       (res) => {
         res.text()
           .then((resp) => {
             if (resp) {
               const respData = JSON.parse(resp).data || { error: true };
-
               if (!respData.error && respData.items) {
                 fs.writeFile(path.join(
-                  'static',
                   'bff-data',
                   'blog.json',
                 ), JSON.stringify(respData), (err) => {
@@ -30,16 +29,31 @@ function fetchBlogPosts() {
                     process.exit(1);
                     throw err;
                   }
-
                   /* eslint-disable no-console */
                   console.info('Success pre-render blog');
                   /* eslint-enable */
                 });
               }
             }
-          });
-      },
-    );
+          })
+        })
+  } else {
+    fs.writeFile(path.join(
+      'bff-data',
+      'blog.json',
+    ), JSON.stringify({}), (err) => {
+      if (err) {
+        /* eslint-disable no-console */
+        console.error(err);
+        /* eslint-enable */
+        process.exit(1);
+        throw err;
+      }
+      /* eslint-disable no-console */
+      console.info('Success pre-render empty blog data');
+      /* eslint-enable */
+    });
+  }         
 }
 
 module.exports = fetchBlogPosts;
