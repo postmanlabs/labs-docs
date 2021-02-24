@@ -66,16 +66,16 @@ Postman currently supports the following options:
 
 | **Language**  | **Framework** |
 | --- | --- |
-| C | [LibCurl](https://curl.haxx.se/libcurl/c/) |
+| C | [LibCurl](https://curl.se/libcurl/c/) |
 | C# | [RestSharp](http://restsharp.org/) |
-| cURL |[cURL](https://curl.haxx.se/) |
+| cURL |[cURL](https://curl.se/) |
 | Dart | [Dart](https://dart.dev/) |
 | Go   | [http package](https://golang.org/pkg/net/http/) |
 | HTTP | (Raw HTTP request) |
 | Java | [OkHttp](https://github.com/square/okhttp) |
 | Java | [Unirest](https://github.com/Kong/unirest-java) |
 | JavaScript | [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) |
-| JavaScript | [jQuery](http://api.jquery.com/jquery.ajax/) |
+| JavaScript | [jQuery](https://api.jquery.com/jquery.ajax/) |
 | JavaScript | [XHR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) |
 | NodeJS | [Axios](https://github.com/axios/axios) |
 | NodeJS | [Native](https://nodejs.org/api/http.html) |
@@ -83,14 +83,14 @@ Postman currently supports the following options:
 | NodeJS | [Unirest](https://github.com/Kong/unirest-nodejs) |
 | Objective-C | [NSURLSession](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSURLSession_class/) |
 | OCaml | [Cohttp](https://github.com/mirage/ocaml-cohttp) |
-| PHP | [cURL](http://php.net/manual/en/ref.curl.php) |
+| PHP | [cURL](https://www.php.net/manual/en/ref.curl.php) |
 | PHP | [Http_Request2](https://www.php.net/manual/en/reserved.variables.request.php)|
 | PHP | [pecl_http](https://mdref.m6w6.name/http) |
 | PowerShell | [RestMethod](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7) |
 | Python | [http.client](https://docs.python.org/3/library/http.client.html) (Python 3) |
 | Python | [Requests](https://requests.readthedocs.io/en/master/)|
-| Ruby | [NET::Http](http://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html) |
-| Shell | [Httpie](https://github.com/jkbrzt/httpie) |
+| Ruby | [NET::Http](https://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html) |
+| Shell | [Httpie](https://github.com/httpie/httpie) |
 | Shell | [wget](https://www.gnu.org/software/wget/) |
 | Swift | [URLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 

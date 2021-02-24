@@ -328,7 +328,7 @@ Don't display a raw URL in text, unless seeing the URL is essential to the learn
 
 ---
 
-:thumbsdown::no_entry_sign: Navigate to http://learning.postman.com
+:thumbsdown::no_entry_sign: Navigate to https://learning.postman.com
 
 :thumbsup::white_check_mark: Send a request to `https://postman-echo.com/get`
 

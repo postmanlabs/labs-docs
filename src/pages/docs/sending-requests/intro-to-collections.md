@@ -36,11 +36,11 @@ warning: false
 
 You can group your Postman requests into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation / test suites, and to automate request runs.
 
-Postman lists your collections in the left sidebar, in the __Collections__ tab.
+Postman lists your collections in the left sidebar &gt; select __Collections__.
 
-[![Collections](https://assets.postman.com/postman-docs/collections-open-list.jpg)](https://assets.postman.com/postman-docs/collections-open-list.jpg)
+[![Collections](https://assets.postman.com/postman-docs/collections-v8.jpg)](https://assets.postman.com/postman-docs/collections-v8.jpg)
 
-You can open and close collections by clicking them, and favorite (&#9733;) to move a collection to the top of the list. You can add sub-folders to create an extra level of nesting with your requests. Use the search text-field to filter through your collections.
+Click a collection to open its overview in a tab. You can open and close collection content by clicking the arrow to the left, and favorite (&#9733;) to move a collection to the top of the list. You can add sub-folders to create an extra level of nesting with your requests. Use the search text-field to filter through your collections.
 
 ## Contents
 
@@ -51,63 +51,63 @@ You can open and close collections by clicking them, and favorite (&#9733;) to m
 
 ## Creating collections
 
-You can create a new collection by clicking __+ New Collection__ in the left sidebar, the __New__ button &gt; __Collection__, or the Launchpad that appears when you first launch Postman.
+You can create a new collection by clicking __+__ in the left sidebar, the __New__ button &gt; __Collection__, or the overview that appears when you first launch Postman.
 
-![New collection](https://assets.postman.com/postman-docs/collection-create-name.jpg)
+<img alt="New collection" src="https://assets.postman.com/postman-docs/new-collection-v8.jpg" width="400px"/>
 
-Give your new collection a name—you can click __Create__ straight away if you don't want to specify collection details until later.
+Give your new collection a name—you can start adding requests straight away if you don't want to specify collection details until later.
 
-You can optionally specify a description for your collection (which will appear in its documentation), authorization config, pre-request and test script code, and any variables you want to share across all requests in the collection.
+[![Collection opened](https://assets.postman.com/postman-docs/collection-created-v8.jpg)](https://assets.postman.com/postman-docs/collection-created-v8.jpg)
 
-To see an overview of a collection, open it from the sidebar by clicking &#9658;. You can edit your collection description inline by hovering over the text and clicking the pencil icon.
+You can optionally specify a description for your collection (which will appear in its documentation and in the workspace when anyone opens it), authorization config, pre-request and test script code, and any variables you want to share across all requests in the collection.
 
-![Collection opened](https://assets.postman.com/postman-docs/collection-overview-opened.jpg)
+To see an overview of a collection, open it from the sidebar. You can edit your collection description inline by hovering over the text and clicking the pencil icon.
+
+[![Collection description](https://assets.postman.com/postman-docs/collection-description-v8.jpg)](https://assets.postman.com/postman-docs/collection-description-v8.jpg)
 
 > You can use [markdown in your collection descriptions](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
 
-You can edit details for your collections at any time using the menu __...__ &gt; __Edit__ from the sidebar or collection overview.
-
-<img alt="Collection menu" src="https://assets.postman.com/postman-docs/collection-sidebar-edit-menu.jpg" width="300px"/>
+You can edit details for your collections at any time by clicking the collection to open it in a tab.
 
 > You can duplicate a collection—however you can alternatively [fork it](/docs/collaborating-in-postman/version-control-for-collections/) to develop collection versions.
 
 ## Adding requests
 
-You can add existing requests to collections and can create new requests inside collections. If you have a request open in Postman, click __Save__ (or __Save As__ if you want to move it from another collection). Choose (or create) a collection and click __Save__.
+You can add existing requests to collections and can create new requests inside collections. If you have a request open in Postman, click __Save__ or __Save As__. Choose (or create) a collection and click __Save__.
 
-![Save request as](https://assets.postman.com/postman-docs/save-request-as-menu.jpg)
+<img alt="Save request" src="https://assets.postman.com/postman-docs/save-request-v8.jpg" width="350px"/>
 
-To add a new request to a collection, in __Collections__ on the left of Postman, open the collection __...__ menu and choose __Add Request__. Alternatively open the collection overview, click __...__, and create the request from there.
+To add a new request to a collection, open a new tab and save it from there, or in __Collections__ on the left of Postman, click __...__ on the collection and choose __Add Request__.
 
-<img alt="Add request to folder" src="https://assets.postman.com/postman-docs/add-request-to-folder.jpg" width="250px"/>
+<img alt="Add request to folder" src="https://assets.postman.com/postman-docs/collection-menu-v8.jpg" width="350px"/>
 
 You can also create a request by clicking __New__ &gt; __Request__.
 
-<img alt="Save request" src="https://assets.postman.com/postman-docs/save-request-detail.jpg" width="450px"/>
+<img alt="Save request" src="https://assets.postman.com/postman-docs/request-collection-v8.jpg" width="500px"/>
 
 Give your request a name and optional description, then __Save__ it to the selected collection.
 
-> You can also create and save requests from the Launchpad when you have no open requests.
+> You can also create and save requests from the workspace overview tab when you have no open requests or collections, or from an empty collection or folder by clicking __Add a request__.
 
 To save a request from your history, select its __...__ menu in __History__ on the left of Postman, and choose __Save Request__. Choose a collection and __Save__.
 
-<img alt="Save request from history" src="https://assets.postman.com/postman-docs/save-request-from-history.jpg" width="250px"/>
+<img alt="Save request from history" src="https://assets.postman.com/postman-docs/save-history-v8.jpg" width="350px"/>
 
 > You can select multiple requests to save from your history by clicking the __+__ button next to the date.
 
 ## Managing collections
 
-To add a folder to your collection, open its __...__ menu in __Collections__ on the left of Postman, and choose __Add Folder__. You can then add requests to the folder either by dragging them over it or using its menu and choosing __Add Request__.
+To add a folder to your collection, open its __...__ menu in __Collections__ on the left of Postman, and choose __Add Folder__. You can then add requests to the folder either by dragging them over it from inside the collection, or choosing __Add a request__ when empty / __Add Request__ from the __...__ menu.
 
-<img alt="Add request to folder" src="https://assets.postman.com/postman-docs/add-request-folder.jpg" width="250px"/>
+<img alt="Add request to folder" src="https://assets.postman.com/postman-docs/folders-v8.jpg" width="350px"/>
 
 You can reorder the requests and folders inside a collection by clicking and dragging them.
 
-To delete a collection, in __Collections__ click __...__ to open its menu and select __Delete__.
+To delete a collection, in __Collections__ click __...__ and select __Delete__.
 
-> You can recover deleted collections in Postman using __Trash__. Click `...` near the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the bottom right corner in Postman.
+> You can recover deleted collections in Postman using __Trash__. Click `...` next to the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the bottom right corner in Postman.
 
-<img alt="Trash" src="https://assets.postman.com/postman-docs/trash-and-recover.jpg"/>
+<img alt="Trash" src="https://assets.postman.com/postman-docs/trash-v8.jpg"/>
 
 Recovery options depend on your Postman plan:
 
@@ -115,22 +115,24 @@ Recovery options depend on your Postman plan:
 * Team accounts can recover collections up to 30 days.
 * With Postman Business and Enterprise you can recover collections up to 90 days.
 
-If you are not able to recover a deleted collection, it may have been removed from a workspace rather than deleted. In the [web dashboard](https://app.getpostman.com), select __View all collections__. If it appears in the list, click __Share__ to move it to a workspace.
+If you are not able to recover a deleted collection, it may have been removed from a workspace rather than deleted. If it appears in another workspace, you can move it by clicking __Share__.
 
-If you'd like to revert your collection to a previous state, you can use the [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/).
+If you'd like to revert your collection to a previous state, you can open the changelog from the right of the collection overview.
+
+[![Changelog](https://assets.postman.com/postman-docs/changelog-v8.jpg)](https://assets.postman.com/postman-docs/changelog-v8.jpg)
 
 You can [share](/docs/collaborating-in-postman/sharing/) your collections to a workspace, by publishing a Run in Postman button on a web page, or by sharing a public link.
 
 ## Using collections
 
-You can use collections to power various parts of your API development, testing, and publishing workflows.
+You can use collections to power various parts of your API development, testing, and publishing workflows. Use the buttons to the right of the collection to see documentation, comments, the changelog, pull requests, and an overview of the collection including linked elements such as mocks and monitors.
 
-![Collection options](https://assets.postman.com/postman-docs/collection-open-tabs.jpg)
+[![Collection options](https://assets.postman.com/postman-docs/collection-info-v8.jpg)](https://assets.postman.com/postman-docs/collection-info-v8.jpg)
 
 * The [Collection Runner](/docs/running-collections/intro-to-collection-runs/) allows you to run all requests in a collection and build testing workflows into your runs.
 * You can define [scripts](/docs/writing-scripts/intro-to-scripts/) in your collection, and they will run for each request inside it.
 * [Collection variables](/docs/sending-requests/variables/) allow you to define values to use throughout the requests in the collection.
-* You can generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection and share it publicly as well as adding it to the [Postman API Network](https://explore.postman.com/).
+* You can generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection and share it publicly as well as adding it to the [Postman API Network](https://www.postman.com/explore).
 * Attaching a [monitor](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs.
 * If you add [examples](/docs/sending-requests/examples/) to your requests, you can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development.
 

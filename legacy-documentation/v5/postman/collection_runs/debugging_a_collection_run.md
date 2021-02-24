@@ -7,7 +7,7 @@ warning: false
 
 Oftentimes, things don't go according to plan and your collection tests will fail even when you expect them all to pass. When this happens, there are two ways you can debug your requests.
 
-In this example, we're running the [Postman Echo collection](https://docs.postman-echo.com/).
+In this example, we're running the [Postman Echo collection](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation).
 
 [![collection runner view](https://assets.postman.com/postman-docs/58531976.png)](https://assets.postman.com/postman-docs/58531976.png)
 

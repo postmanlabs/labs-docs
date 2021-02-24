@@ -15,7 +15,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "HarperDB"
-    url: "https://www.postman.com/case-studies/harperDB.pdf"
+    url: "https://www.postman.com/customers/harperDB.pdf"
   - type: subtitle
     name: "Videos"
   - type: link

@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
   - type: subtitle

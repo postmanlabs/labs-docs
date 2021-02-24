@@ -662,7 +662,7 @@ pm.visualizer.set(layout:String, data:Object, options:Object):Function
 * `layout` **required**
     * [Handlebars](https://handlebarsjs.com/) HTML template string
 * `data` _optional_
-    * Data to bind to the template and that you can access inside the template string
+    * JSON object that binds to the template and you can access it inside the template string
 * `options` _optional_
     * [Options object](https://handlebarsjs.com/api-reference/compilation.html) for `Handlebars.compile()`
 
@@ -731,7 +731,7 @@ pm.test('async test', function (done) {
 pm.test.index():Function → Number
 ```
 
-The `pm.expect` method allows you to write assertions on your response data, using [ChaiJS expect BDD](http://chaijs.com/api/bdd/) syntax.
+The `pm.expect` method allows you to write assertions on your response data, using [ChaiJS expect BDD](https://www.chaijs.com/api/bdd/) syntax.
 
 ```js
 pm.expect(assertion:*):Function → Assertion
@@ -752,12 +752,12 @@ The `require` method allows you to use the sandbox built-in library modules. The
 * [ajv](https://www.npmjs.com/package/ajv)
 * [atob](https://www.npmjs.com/package/atob)
 * [btoa](https://www.npmjs.com/package/btoa)
-* [chai](http://chaijs.com/)
+* [chai](https://www.chaijs.com/)
 * [cheerio](https://cheerio.js.org/)
 * [crypto-js](https://www.npmjs.com/package/crypto-js)
 * [csv-parse/lib/sync](http://csv.adaltas.com/parse)
 * [lodash](https://lodash.com/)
-* [moment](http://momentjs.com/docs/)
+* [moment](https://momentjs.com/docs/)
 * [postman-collection](http://www.postmanlabs.com/postman-collection/)
 * [tv4](https://github.com/geraintluff/tv4)
 * [uuid](https://www.npmjs.com/package/uuid)

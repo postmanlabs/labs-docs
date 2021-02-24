@@ -50,9 +50,9 @@ Newman allows you to run and test a Postman Collection. Newman and Jenkins are a
 
 ## Installation
 
-[Install Jenkins](https://jenkins.io/doc/book/installing/#debian-ubuntu).
+[Install Jenkins](https://www.jenkins.io/doc/book/installing/#debian-ubuntu).
 
-Install NodeJS and npm. Newman is written in NodeJS and the official copy is available through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/getting-started/installing-node).
+Install NodeJS and npm. Newman is written in NodeJS and the official copy is available through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 Install Newman globally, to set up Newman as a command line tool in Ubuntu.
 
