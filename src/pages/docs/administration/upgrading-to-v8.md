@@ -1,7 +1,7 @@
 ---
-title: "Migrating to the current version of Postman"
+title: "Upgrading your team to the current version of Postman"
 order: 140.1
-page_id: "migrating_to_v8"
+page_id: "upgrading_to_v8"
 warning: false
 contextual_links:
   - type: section
@@ -11,11 +11,11 @@ contextual_links:
     url: "/docs/getting-started/installation-and-updates/"
 
 ---
-This section describes the steps/flow to migrate to Postman v8.
+This section describes the steps to migrate your team to Postman v8.
 
 ## Migrating to Postman v8
 
-Postman v8 gives you a consistent, better API development experience. It has universal search across all of Postman, including the Public and Private API Networks, plus you can work on public workspaces directly through the desktop app. This means that the Postman desktop app and Postman on the [web](https://community.postman.com/t/whats-new-in-postman-for-the-web/18203) are now equally empowering—which one you use is a matter of preference for your workflows.
+[Postman v8](https://blog.postman.com/introducing-postman-desktop-app/) provides a consistent, improved API development experience. It offers universal search across all of Postman, including Public and Private API Networks, plus you can work on public workspaces directly through the desktop app. With v8, the Postman desktop app and [Postman on the web](https://community.postman.com/t/whats-new-in-postman-for-the-web/18203) are equally empowering—which one you use is a matter of preference for your workflows.
 
 * [Upgrading from v7 to v8](#upgrading-from-v7-to-v8)
     * [Upgrading to v8 as an individual](#upgrading-to-v8-as-an-individual)
@@ -31,11 +31,11 @@ Postman v8 gives you a consistent, better API development experience. It has uni
 
 ### Upgrading to v8 as an individual
 
-Non-team users can move from Postman v7 to v8 by updating the app via **Settings** > **Update** > Click **Download update**.
+Non-team users can move from Postman v7 to v8 by updating the app via **Settings** > **Update** > **Download update**.
 
 <img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v7-to-v8.jpg"/>
 
-It is important to verify your work is in sync to make sure no data is lost while updating. Click __Verify Sync__.
+It is important to verify your work is synced to make sure no data is lost during the update. Click __Verify Sync__.
 
 <img alt="" src ="https://assets.postman.com/postman-docs/verify-sync-before-updating-v8.jpg" width="450px"/>
 
@@ -43,7 +43,7 @@ Once your work is synced, you can update to Postman v8. Click __Update to v8__.
 
 <img alt="" src ="https://assets.postman.com/postman-docs/sync-update-confirmed-v8.jpg" width="450px"/>
 
-You need to restart Postman to install the update. Click __Restart and Install Update__.
+You will need to restart Postman to install the update. Click __Restart and Install Update__.
 
 <img alt="" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
@@ -51,7 +51,12 @@ You can start using Postman v8 and access the new UI and features once the updat
 
 ### Upgrading to v8 as a team
 
-If you are a team user on v7, there is no migration required while you are moving to v8. If you are in a team and download Postman v8 when the entire team is on an older version (v7 or below), you will not be able to use Postman v8. Postman displays a message saying you can’t access features on this version of Postman until the team migrates to Postman v8. Syncing and collaboration will not be affected for users who are on v7 or above.
+It is recommended you upgrade your team to v8 at your earliest convenience, however you must upgrade your team as a whole.
+
+If you are on a team and download Postman v8 while the rest of your team is using an older version of Postman (v7 or below), you will not be able to use Postman v8 until your team migrates as a whole to v8. If you need to downgrade to Postman v7 to continue working with your team in the interim, you can [download the latest v7 app](#downloading-postman-v7-app).
+
+
+Postman displays a message saying you cannot access features on this version of Postman until the team migrates to Postman v8. Syncing and collaboration will not be affected for users who are on v7 or above.
 
 If you are in a team on Postman v8 and would like to downgrade to Postman v7 to continue working with a team that has not upgraded yet, you can [download the latest v7 app](#downloading-postman-v7-app).
 
