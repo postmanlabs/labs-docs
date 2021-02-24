@@ -94,7 +94,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "jest",
+    "test": "NODE_ENV=production node bff.js && jest",
     "test:update": "jest -u",
     "test:lint": "node_modules/eslint/bin/eslint.js -c .eslintrc.js --ext .jsx --ext .js src/",
     "test:lint-fix": "node_modules/eslint/bin/eslint.js -c .eslintrc.js --ext .jsx --ext .js src/ --fix",
