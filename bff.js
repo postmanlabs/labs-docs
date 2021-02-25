@@ -8,6 +8,4 @@ const prefetch = async (dir, response) => {
   fetchBlogPosts();
 };
 
-// if (process.env.BFF_PING_WEBHOOK_URL && process.env.BFF_BLOG_URL) {
-  prefetch();
-// }
+prefetch();
