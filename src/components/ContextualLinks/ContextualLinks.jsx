@@ -40,8 +40,8 @@ const ContextualLinks = ({ links }) => (
               </>
             ) 
           } else {
-            // If there are no related blog posts within blogs.json, we simply return nothing
-            // This will be the case when you are developing locally
+            // If there are no related blog posts within blogs.json (written in /bff-data/ at build time), we simply return nothing.
+            // This will likely be the case when you are developing locally, and do not have a .env.development file with the BFF endpoints.
             return;
           }
         }
