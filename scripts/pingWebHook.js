@@ -15,10 +15,11 @@ const pingWebHook = () => new Promise((resolve) => {
       resolve();
     })
     .catch(err => {
-      console.log('No BFF Web Hook environment variable found')
+      console.log('There was an issue when pinging the webhook')
+      resolve();
     });
   } else {
-    console.log('Writing empty bff data')
+    console.log('There was no webhook URL provided.. As a result the webhook was not pinged.')
     resolve();
   }
 });

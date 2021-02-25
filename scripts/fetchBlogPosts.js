@@ -30,14 +30,51 @@ function fetchBlogPosts() {
                     throw err;
                   }
                   /* eslint-disable no-console */
-                  console.info('Success pre-render blog');
+                  console.info('Success pre-render blog data');
+                  /* eslint-enable */
+                });
+              } else {
+                console.log('The blog endpoint returned unusable data..')
+                fs.writeFile(path.join(
+                  'bff-data',
+                  'blog.json',
+                ), JSON.stringify({}), (err) => {
+                  if (err) {
+                    /* eslint-disable no-console */
+                    console.error(err);
+                    /* eslint-enable */
+                    process.exit(1);
+                    throw err;
+                  }
+                  /* eslint-disable no-console */
+                  console.info('Success pre-render empty blog data');
                   /* eslint-enable */
                 });
               }
-            }
+            } 
           })
-        })
+        }
+    )
+    .catch(err => {
+      console.error("Error when making BFF call... writing empty blog.json", err)
+      fs.writeFile(path.join(
+        'bff-data',
+        'blog.json',
+      ), JSON.stringify({}), (err) => {
+        if (err) {
+          /* eslint-disable no-console */
+          console.error(err);
+          /* eslint-enable */
+          process.exit(1);
+          throw err;
+        }
+        /* eslint-disable no-console */
+        console.info('Success pre-render empty blog data');
+        /* eslint-enable */
+      });
+    })
   } else {
+    console.log('No Blog data endpoint provided.')
     fs.writeFile(path.join(
       'bff-data',
       'blog.json',
