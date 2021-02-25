@@ -24,7 +24,7 @@ const ContextualLinks = ({ links }) => (
         }
         if (item.type === 'dynamic_blog' && item.blog_tag) {
           if (recentBlogPosts.index && recentBlogPosts.index[item.blog_tag]) {
-            const dynamicLinks = recentBlogPosts.index[item.blog_tag].map(post => {
+            const dynamicLinks = recentBlogPosts.index[item.blog_tag].slice(0, 3).map(post => {
               return (
                 <div className="contextual-links__link" key={post.title}>
                   <DynamicLink url={post.link.url} name={post.title} />
