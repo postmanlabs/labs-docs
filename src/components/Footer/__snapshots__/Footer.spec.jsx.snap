@@ -155,7 +155,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-column__link"
-                  href="https://docs.api.getpostman.com/"
+                  href="https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a"
                   onClick={[Function]}
                 >
                   Postman API

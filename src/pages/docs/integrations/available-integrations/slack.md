@@ -73,7 +73,7 @@ The team activity appears in the **Configured Integrations** page.
 
 ## Send your Monitor Run Results to Slack
 
-From the [Slack integration details](https://web.postman.co/integrations/service/slack) page select **Add Integration** for **Post monitoring results** option.
+From the [Slack integration details](https://postman.postman.co/integrations/service/slack) page select **Add Integration** for **Post monitoring results** option.
 
 On the **Permission request** page, select the Slack channel your want to post to and select **ALlow**.
 

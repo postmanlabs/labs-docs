@@ -174,7 +174,7 @@ You can also see examples of documentation published using Postman collections b
 
 ![Template Docs](https://assets.postman.com/postman-docs/template-docs.jpg)
 
-> The [Postman API documentation](https://docs.api.getpostman.com/?version=latest) is authored using Postman.
+> The [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) is authored using Postman.
 
 If you edit your docs on the web, (following the links from your collection in the Postman app, or the dashboard when logged into your account in the browser), you will see helpers for common formatting options and be able to preview your changes.
 

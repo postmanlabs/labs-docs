@@ -16,11 +16,6 @@ contextual_links:
     name: "Debugging with the Console | Postman Level Up"
     url: "https://www.youtube.com/watch?v=YCsURct9wCk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=9"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Tyk"
-    url: "https://www.postman.com/case-studies/Tyk.pdf"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Powerful Debugging with the Postman Console"
@@ -73,7 +68,7 @@ Click __View in Console__ to see the request detail in the Console and find out 
 * __Invalid responses__
     * If your server sends incorrect response encoding errors, or invalid headers, Postman may fail to interpret the response.
 
-> Postman supports TLS version 1.2 or higher, which [may not be supported if you are using an older browser or operating system](https://support.getpostman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
+> Postman supports TLS version 1.2 or higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
 
 ## Debugging and logs
 
