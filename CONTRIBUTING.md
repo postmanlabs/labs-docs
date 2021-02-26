@@ -75,11 +75,16 @@ Two example docs using `dynamic_blog`:
 
 ### To Use the Dynamic Blog Posts Feature
 
-1. For internal Postman contributors, you need to get the `.env.development` file from Marketign Engineering, and place in root of local Learning Center (.gitignore will keep it from getting checked in).
-   * If you do not have this file or are an external contributor, the app will still build, but the Recent Blogs section in right sidebar will be hidden / blank (this is expected behavior).
-   * `.env.development` file is for internal use only.
+#### For internal Postman contributors
 
-2. **When updating from hardcoded blog links to dynamic:** Open doc file .md that you want to edit right sidebar, and look for `contectual_links` in frontmatter. Look for presence of existing recent Blogs posts like:
+You need to get the `.env.development` file from Marketign Engineering, and place in root of local Learning Center (.gitignore will keep it from getting checked in).
+
+* If you do not have this file or are an external contributor, the app will still build, but the Recent Blogs section in right sidebar will be hidden / blank (this is expected behavior).
+* `.env.development` file is for internal use only.
+
+#### When updating from hardcoded blog links to dynamic:
+
+Open doc file .md that you want to edit right sidebar, and look for `contectual_links` in frontmatter. Look for presence of existing recent Blogs posts like:
 
 ~~~~
 - type: subtitle
@@ -93,18 +98,20 @@ Replace with:
 
 ~~~~
 - type: dynamic_blog
- name: "Related Blog Posts"
- blog_tag: "PUT_TAG_NAME_HERE"
+name: "Related Blog Posts"
+blog_tag: "PUT_TAG_NAME_HERE"
 ~~~~
 
 NOTE: `type: link` and `type: url` are being replaced with `blog_tag: “PUT_TAG_NAME_HERE”`
 
-3. **When adding dynamic links (no blog links currently):** Open doc file .md that you want edit right sidebar, and add:
+#### When adding dynamic links (no blog links currently):
+
+Open doc file .md that you want edit right sidebar, and add:
 
 ~~~~
 - type: dynamic_blog
- name: "Related Blog Posts"
- blog_tag: "PUT_TAG_NAME_HERE"
+    name: "Related Blog Posts"
+    blog_tag: "PUT_TAG_NAME_HERE"
 ~~~~
 
 ### blog_tag is an enum
