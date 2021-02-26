@@ -69,15 +69,18 @@ Please note that Algolia search will not work when running the app locally. If y
 The right sidebar has a feature flag for pulling in up to 3 contextual, recent blog posts based on a tag. This functionality and flag can be found in the frontmatter of the doc .md files. It utilizes our webhook and backend-for-frontend (BFF) service to source the latest 100 blog posts from blog.postman.com.
 
 Two example docs using `dynamic_blog`:
+
 * /docs/running-collections/intro-to-collection-runs.md
 * /docs/running-collections/scheduling-collection-runs.md
 
 ### To Use the Dynamic Blog Posts Feature
+
 1. For internal Postman contributors, you need to get the `.env.development` file from Marketign Engineering, and place in root of local Learning Center (.gitignore will keep it from getting checked in).
    * If you do not have this file or are an external contributor, the app will still build, but the Recent Blogs section in right sidebar will be hidden / blank (this is expected behavior).
    * `.env.development` file is for internal use only.
 
 2. **When updating from hardcoded blog links to dynamic:** Open doc file .md that you want to edit right sidebar, and look for `contectual_links` in frontmatter. Look for presence of existing recent Blogs posts like:
+
 ~~~~
 - type: subtitle
     name: "Related Blog Posts"
@@ -85,23 +88,29 @@ Two example docs using `dynamic_blog`:
     name: "Check for broken links on your website using a Postman Collection"
     url: "https://blog.postman.com/check-for-broken-links-on-your-website-using-a-postman-collection/"
 ~~~~
+
 Replace with:
+
 ~~~~
 - type: dynamic_blog
-    name: "Related Blog Posts"
-    blog_tag: "PUT_TAG_NAME_HERE"
+ name: "Related Blog Posts"
+ blog_tag: "PUT_TAG_NAME_HERE"
 ~~~~
+
 NOTE: `type: link` and `type: url` are being replaced with `blog_tag: “PUT_TAG_NAME_HERE”`
 
 3. **When adding dynamic links (no blog links currently):** Open doc file .md that you want edit right sidebar, and add:
+
 ~~~~
 - type: dynamic_blog
-    name: "Related Blog Posts"
-    blog_tag: "PUT_TAG_NAME_HERE"
+ name: "Related Blog Posts"
+ blog_tag: "PUT_TAG_NAME_HERE"
 ~~~~
 
 ### blog_tag is an enum
+
 The list of acceptable values for `blog_tag` are the slugs for tags in the blog. The `blog_tag` value is a string and only accepts one tag. To yield contextual posts for your doc page, use one of the following machiine-readbale blog tags in use today:
+
 * api-development
 * api-network
 * automation
