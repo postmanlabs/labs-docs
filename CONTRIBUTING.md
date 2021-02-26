@@ -77,14 +77,14 @@ Two example docs using `dynamic_blog`:
 
 #### For internal Postman contributors
 
-You need to get the `.env.development` file from Marketign Engineering, and place in root of local Learning Center (.gitignore will keep it from getting checked in).
+You need to get the `.env.development` file from Marketing Engineering, and place in root of local Learning Center (.gitignore will keep it from getting checked in).
 
 * If you do not have this file or are an external contributor, the app will still build, but the Recent Blogs section in right sidebar will be hidden / blank (this is expected behavior).
 * `.env.development` file is for internal use only.
 
 #### When updating from hardcoded blog links to dynamic:
 
-Open doc file .md that you want to edit right sidebar, and look for `contectual_links` in frontmatter. Look for presence of existing recent Blogs posts like:
+Open doc file .md that you want to edit right sidebar, and look for `contextual_links` in frontmatter. Look for presence of existing recent Blogs posts like:
 
 ~~~~
 - type: subtitle
