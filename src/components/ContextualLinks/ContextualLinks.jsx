@@ -26,7 +26,7 @@ const ContextualLinks = ({ links }) => (
           if (Object.keys(recentBlogPosts).length === 0) {
             // If recentBlogPosts.length === 0, then either there is no .env.development, it has a bad blog url, or the endpoint returned something bad
             return (
-              <div class="alert alert-primary" role="alert">
+              <div class="contextual-links__alert" role="alert">
                 <p>You are currently in develop mode. Dynamic blog posts will not be displayed locally.</p>
               </div>
             )
