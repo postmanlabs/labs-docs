@@ -27,7 +27,7 @@ const ContextualLinks = ({ links }) => (
             // If recentBlogPosts.length === 0, then either there is no .env.development, it has a bad blog url, or the endpoint returned something bad
             return (
               <div class="contextual-links__alert" role="alert">
-                <p>You are currently in develop mode. Dynamic blog posts will not be displayed locally. <a href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md#to-use-the-dynamic-blog-posts-feature" target="_blank" rel="noopener noreferrer">See Contributing doc for details</a>.</p>
+                <p>You are currently in develop mode. Dynamic blog posts will not be displayed locally. <a style={{"fontSize": "inherit"}}href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md#to-use-the-dynamic-blog-posts-feature" target="_blank" rel="noopener noreferrer">See Contributing doc for details</a>.</p>
               </div>
             )
           } 
