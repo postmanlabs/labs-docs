@@ -16,6 +16,14 @@ contextual_links:
 
 > **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
+## Contents
+
+* [Get the Opsgenie API Key](#get-the-opsgenie-api-key)
+
+* [Configuring Postman Integration](#configuring-postman-integration)
+
+* [Alerts on Opsgenie](#alerts-on-opsgenie)
+
 [Opsgenie](https://www.atlassian.com/software/opsgenie) is an incident management and alerting tool that allows you to effectively manage alerts across the infrastructure. It has several communication features such as SMS, phone calls, and iOS & Android push notifications and collaboration features such as escalations, schedules etc.
 
 Functionality of the Integration
@@ -29,11 +37,11 @@ This integration allows you to configure [Postman Monitors](/docs/designing-and-
 
 Log in to your Opsgenie account and go to the `Teams` tab and select the team you will add an integration for.
 
-![log in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-select.jpg)
+![log in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-select-bb.jpg)
 
 From the left nav, select `Integrations` and then Select `Add integration`.
 
-![log in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-add-integration.jpg)
+![log in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-add-integration-bb.jpg)
 
 From the list of integrations, select the [`API` Integration](https://docs.opsgenie.com/docs/api-integration) option.
 
@@ -91,10 +99,6 @@ This integration automatically closes a triggered alert if the subsequent run su
 
 When there is an alert on Postman, you will also see one on your Opsgenie console.
 
-![add Opsgenie API key](https://assets.postman.com/postman-docs/opsgenie-alerts-list.jpg)
+![add Opsgenie API key](https://assets.postman.com/postman-docs/opsgenie-alerts-list-bb.jpg)
 
 ![add Opsgenie API key](https://assets.postman.com/postman-docs/opsgenie-alerts-details.jpg)
-
-## Next steps
-
-We are always listening to the community for any issues or newer workflows. You can reach us at [Github](https://github.com/postmanlabs/postman-app-support/issues) and by [email](https://www.postman.com/company/contact-us/).
