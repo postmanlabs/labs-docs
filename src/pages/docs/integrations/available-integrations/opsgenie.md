@@ -77,7 +77,7 @@ On the integration configuration page, enter the following information for your 
 
 * Alert Priority
 
-![add Opsgenie API key](https://assets.postman.com/postman-docs/opsgenie-save-configuration-b.jpg)
+<img src="https://assets.postman.com/postman-docs/opsgenie-save-configuration-b.jpg" alt="Save opsgenie configuration" width="500px"/>
 
 After you create the integration, you can see all of the integrations created by your team. Select the integration to see the run logs for it.
 
