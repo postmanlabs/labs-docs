@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
-    url: "/docs/postman/collections/intro-to-collections"
+    url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Next Steps"
   - type: link
