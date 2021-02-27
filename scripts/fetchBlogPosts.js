@@ -38,7 +38,7 @@ function fetchBlogPosts() {
                 fs.writeFile(path.join(
                   'bff-data',
                   'blog.json',
-                ), JSON.stringify({}), (err) => {
+                ), JSON.stringify({development: true}), (err) => {
                   if (err) {
                     /* eslint-disable no-console */
                     console.error(err);
@@ -60,7 +60,7 @@ function fetchBlogPosts() {
       fs.writeFile(path.join(
         'bff-data',
         'blog.json',
-      ), JSON.stringify({}), (err) => {
+      ), JSON.stringify({development: true}), (err) => {
         if (err) {
           /* eslint-disable no-console */
           console.error(err);
