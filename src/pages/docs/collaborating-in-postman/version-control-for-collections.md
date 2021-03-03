@@ -28,6 +28,7 @@ You can use version control with your Postman Collections by forking and merging
 * [Forking a collection](#forking-a-collection)
     * [Forking information](#forking-information)
     * [Forking to send requests](#forking-to-send-requests)
+* [Forking an environment](#forking-an-environment)
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-PRs)
@@ -79,6 +80,15 @@ Being a signed-in non-member, to send requests in a public workspace, fork the c
 
 > Make sure your public profile is enabled before you fork a collection from a public workspace.
 
+## Forking an environment
+
+To fork an environment in Postman, select the environment in the __Environments__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by clicking __Fork__ button on environment overview.
+
+<img src="https://assets.postman.com/postman-docs/create-a-fork-environment-v8.jpg" alt="Create an Environment Fork"/>
+
+Enter a label for your fork, and select a workspace to save it to. Click __Fork Environment__.
+
+<img src="https://assets.postman.com/postman-docs/fork-environment-v8.jpg" alt="Fork Label Environment"/>
 ## Creating pull requests
 
 You can merge changes from a collection fork (the _source_) into the parent (the _destination_) using a pull request process, by tagging reviewers who can comment on your changes and decide to merge them. In Postman, open the menu for a collection and select __Create Pull Request__.
