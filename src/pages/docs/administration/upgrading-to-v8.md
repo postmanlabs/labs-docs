@@ -51,24 +51,22 @@ You can start using Postman v8 and access the new UI and features once the updat
 
 ### Upgrading to v8 as a team
 
-It is recommended you upgrade your team to v8 at your earliest convenience, however you must upgrade your team as a whole.
+It is recommended you upgrade your team to v8 at your earliest convenience, however you must upgrade your team as a whole. Click **Migrate my team** to notify team members to upgrade their Postman app immediately, or opt to migrate your team later on.
 
-If you are on a team and download Postman v8 while the rest of your team is using an older version of Postman (v7 or below), you will not be able to use Postman v8 until your team migrates as a whole to v8. If you need to downgrade to Postman v7 to continue working with your team in the interim, you can [download the latest v7 app](#downloading-postman-v7-app).
+<img alt="migrate to v8" src ="https://assets.postman.com/postman-docs/admin-migrate-v8.jpg"/>
 
-Postman displays a message saying you cannot access features on this version of Postman until the team migrates to Postman v8. Syncing and collaboration will not be affected for users who are on v7 or above.
-
-If you are in a team on Postman v8 and would like to downgrade to Postman v7 to continue working with a team that has not upgraded yet, you can [download the latest v7 app](#downloading-postman-v7-app).
+> If you are on a team and download Postman v8 while the rest of your team is using an older version of Postman (v7 or below), you will not be able to use Postman v8 until your team migrates to v8. [Download Postman v7](#downloading-postman-v7-app) or [download Postman v6](#downloading-postman-v6-app) to continue working with your team in the interim.
 
 ## Upgrading your team from v6 or earlier
 
-Migration is only required if users are on v6 or below. This section describes the following topics:
+Migration is required if team members are using Postman v6 or below. This section describes the following topics:
 
 * [Why migrate?](#why-migrate)
 * [How to migrate](#how-to-migrate)
 
 ### Why migrate?
 
-If you are a team user on v6 or below, you must migrate to Postman v8 to leverage access to public workspace and [Postman’s v8 features](https://blog.postman.com/introducing-postman-desktop-app/). If you are a team user on v7, there is no migration required while you are moving to v8. If you stay back on the older version of Postman, you will not be able to:
+If you are a team user on v6 or below, you must migrate to Postman v8 to leverage access to [public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) and [v8 features](https://blog.postman.com/introducing-postman-desktop-app/). If you remain on an older version of Postman, you will not be able to:
 
 * Use role-based permissions which come with a fine-grained access management of some of Postman’s prominent features.
 
