@@ -33,6 +33,9 @@ contextual_links:
   - type: link
     name: "Visualizer D3 examples"
     url: "https://explore.postman.com/templates/4424/"
+  - type: dynamic_blog
+    name: "Related Blog Posts"
+    blog_tag: "visualizer"
 
 ---
 
