@@ -81,4 +81,5 @@ auth.json
 
 # Ignore temporary bff data used for build
 bff-data/
+bff-data/*
 bff-data/blog.json
