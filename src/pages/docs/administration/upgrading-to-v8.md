@@ -20,9 +20,11 @@ This section describes the steps to migrate your team to Postman v8.
 * [Upgrading from v7 to v8](#upgrading-from-v7-to-v8)
     * [Upgrading to v8 as an individual](#upgrading-to-v8-as-an-individual)
     * [Upgrading to v8 as a team](#upgrading-to-v8-as-a-team)
+
 <!-- * [Upgrading from v6 or earlier](#upgrading-from-v6-or-earlier)
     * [Upgrading from v6 as an individual](#upgrading-from-v6-as-an-individual)
     * [Upgrading from v6 as a team](#upgrading-from-v6-as-a-team) -->
+
 * [Installing earlier versions of Postman](#installing-earlier-versions-of-Postman)
     * [Downloading Postman v7](#downloading-postman-v7)
     * [Downloading Postman v6](#downloading-postman-v6)
@@ -101,6 +103,7 @@ Click **Migrate my team to v7** and Postman takes care of the next steps for you
 
 Once your team has migrated to Postman v7, all users in the team would be notified, via email and banners within the app, that they need to update their app to Postman v7.
 --->
+
 ## Installing earlier versions of Postman
 
 If you happen to be on Postman v8 or below and would like to downgrade to Postman v7 or below to continue working with a team that has not migrated yet, please download the earlier versions of Postman app from the links below.
