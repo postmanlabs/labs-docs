@@ -33,7 +33,7 @@ const IndexPage = () => (
           <br />
           Check out the docs and support resources!
         </p>
-        <a href="/docs/" className="btn btn__primary mb-5">Explore the docs</a>
+        <a href="/docs/getting-started/introduction/" className="btn btn__primary mb-5">Explore the docs</a>
       </div>
       <div className="col-sm-12 col-md-7 col-lg-6 align-self-center">
         <img src={HeroImage} className="hero-image" alt="Postmanaut sitting at computer. Illustration." />
