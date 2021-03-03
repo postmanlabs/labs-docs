@@ -11,11 +11,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Spotinst"
-    url: "https://www.postman.com/customers/spotinst.pdf"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman Cloud"
