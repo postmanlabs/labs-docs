@@ -13,6 +13,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Bootcamp | Postman Level Up"
+    url: "https://youtu.be/cCruwkHi9o4"
+  - type: link
     name: "History | Postman Level Up"
     url: "https://www.youtube.com/watch?v=9VBTKwUCsGw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=4"
   - type: section
