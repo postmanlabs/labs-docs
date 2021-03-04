@@ -122,7 +122,6 @@ const IndexPage = () => {
       <section className="row section">
         <div className="col-md-4">
           <h2>Upcoming Postman Livestreams</h2>
-          <p>{`Check out the lineup for ${months[new Date().getUTCMonth()]} ${new Date().getUTCFullYear()}.`}</p>
           <p>
             <a href="https://www.twitch.tv/getpostman">Follow us</a>
             {' '}
