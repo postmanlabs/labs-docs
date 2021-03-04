@@ -64,9 +64,94 @@ https://assets.postman.com/postman-docs/<filename>.png
 
 Please note that Algolia search will not work when running the app locally. If you wish to search when running the app locally, you are welcome to use your own Algolia API keys and index the app in your own Algolia account. You can find an env.example file in the repo that shows you what keys you require to run Algolia search.
 
+## Right Sidebar - Recent Blog Posts
+
+The right sidebar has a feature flag for pulling in up to 3 contextual, recent blog posts based on a tag. This functionality and flag can be found in the frontmatter of the doc .md files. It utilizes our webhook and backend-for-frontend (BFF) service to source the latest 100 blog posts from blog.postman.com.
+
+Two example docs using `dynamic_blog`:
+
+* /docs/running-collections/intro-to-collection-runs.md
+* /docs/running-collections/scheduling-collection-runs.md
+
+### To Use the Dynamic Blog Posts Feature
+
+#### For internal Postman contributors
+
+You need to get the `.env.development` file from Marketing Engineering, and place in root of local Learning Center (.gitignore will keep it from getting checked in).
+
+* If you do not have this file or are an external contributor, the app will still build, but the Recent Blogs section in right sidebar will be hidden / blank (this is expected behavior).
+* `.env.development` file is for internal use only.
+
+#### When updating from hardcoded blog links to dynamic:
+
+Open doc file .md that you want to edit right sidebar, and look for `contextual_links` in frontmatter. Look for presence of existing recent Blogs posts like:
+
+~~~~
+- type: subtitle
+    name: "Related Blog Posts"
+- type: link
+    name: "Check for broken links on your website using a Postman Collection"
+    url: "https://blog.postman.com/check-for-broken-links-on-your-website-using-a-postman-collection/"
+~~~~
+
+Replace with:
+
+~~~~
+- type: dynamic_blog
+name: "Related Blog Posts"
+blog_tag: "PUT_TAG_NAME_HERE"
+~~~~
+
+NOTE: `type: link` and `type: url` are being replaced with `blog_tag: “PUT_TAG_NAME_HERE”`
+
+#### When adding dynamic links (no blog links currently):
+
+Open doc file .md that you want edit right sidebar, and add:
+
+~~~~
+- type: dynamic_blog
+    name: "Related Blog Posts"
+    blog_tag: "PUT_TAG_NAME_HERE"
+~~~~
+
+### blog_tag is an enum
+
+The list of acceptable values for `blog_tag` are the slugs for tags in the blog. The `blog_tag` value is a string and only accepts one tag. To yield contextual posts for your doc page, use one of the following machiine-readbale blog tags in use today:
+
+* api-development
+* api-network
+* automation
+* aws
+* case-study
+* collections
+* continuous-delivery
+* data
+* developers
+* documentation
+* enterprise-plan
+* graphql
+* integrations
+* monitors
+* newman
+* news
+* openapi
+* postman
+* postman-community
+* public-workspaces
+* rest-api
+* security
+* state-of-the-api
+* testing
+* tutorials
+* visualizer
+* workflow
+* workspaces
+
+NOTE: these tags pull from the latest 100 blog posts. We display **up to 3** blog posts for that tag. A return of zero or malformed tag enum will collapse / hide section.
+
 ## Run checks locally
 
-Before creating a PR we recommend to running the following test locally to check that all changes will pass our linters:
+Before creating a PR we STRONGLY recommend to running the following test locally to check that all changes will pass our linters:
 
 * npm run test  -> runs the Unit testing
 * npm run test:mdlint -> runs the Markdownlinter

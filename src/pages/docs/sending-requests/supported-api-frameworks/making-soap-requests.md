@@ -17,7 +17,7 @@ contextual_links:
     url: "https://blog.postman.com/making-http-soap-requests-with-postman/"
   - type: link
     name: "SOAP: fahrenheit to celsius conversion"
-    url: "https://explore.postman.com/templates/7315/soap-fahrenheit-to-celsius-conversion"
+    url: "https://www.postman.com/explore/template/7315/soap-fahrenheit-to-celsius-conversion"
 
 warning: false
 

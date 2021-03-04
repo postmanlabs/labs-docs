@@ -282,9 +282,9 @@ In both cases above, the reporter options are optional.
 
 For the complete list of details, see the [Newman README][6].
 
-[0]: https://www.npmjs.org/package/newman
+[0]: https://www.npmjs.com/package/newman
 [1]: https://github.com/postmanlabs/newman
-[2]: http://nodejs.org/download/
+[2]: https://nodejs.org/en/download/current/
 [3]: http://www.postman.com/docs/collections
 [4]: http://www.postman.com/docs/environments
 [5]: http://www.postman.com/docs/jetpacks_sandbox

@@ -9,7 +9,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Healthwise"
-    url: "https://www.postman.com/case-studies/healthwise.pdf"
+    url: "https://www.postman.com/customers/healthwise.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -95,7 +95,7 @@ sudo npm install -g postman-collection-transformer
 * You can retrieve a list of convert options by running it with the ``-h`` flag.
 
 ```bash
-postman-collection-transform convert -h
+postman-collection-transformer convert -h
 ```
 
  Option | Details |

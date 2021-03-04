@@ -7,11 +7,14 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Videos"
+  - type: link
+    name: "Bootcamp | Postman Level Up"
+    url: "https://youtu.be/cCruwkHi9o4"
   - type: link
     name: "History | Postman Level Up"
     url: "https://www.youtube.com/watch?v=9VBTKwUCsGw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=4"
@@ -36,7 +39,7 @@ You can toggle Postman between two main modes: __Build__ and __Browse__ using th
 * The left sidebar provides access to your request [history](#history), collections, and APIs.
 * The header allows you to create and import requests and collections, to access the Collection Runner, to move and invite collaborators to workspaces, to access the Interceptor, view sync status / notifications, open your Settings, account, and Postman plan.
 * The center area is where you build and work with requests.
-* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode (in the app—use the top left if you're on the web), toggle pane view, open keyboard shortcuts, and access help resources.
+* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode (in the app—use the top left if you're on the web), toggle pane view, open keyboard shortcuts, and access helpful resources.
 
 ![Resizing panes](https://assets.postman.com/postman-docs/resizing-panes-app.gif)
 

@@ -14,10 +14,10 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "SynapseFi"
-    url: "https://www.postman.com/case-studies/SynapseFI.pdf"
+    url: "https://www.postman.com/customers/SynapseFI.pdf"
   - type: link
     name: "Clarifai"
-    url: "https://www.postman.com/case-studies/Clarifai.pdf"
+    url: "https://www.postman.com/customers/Clarifai.pdf"
   - type: section
     name: "Associated Topics"
   - type: link

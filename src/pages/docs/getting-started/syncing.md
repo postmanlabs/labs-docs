@@ -7,14 +7,14 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "HotelBeds"
-    url: "https://www.postman.com/case-studies/Hotelbeds.pdf"
+    url: "https://www.postman.com/customers/Hotelbeds.pdf"
   - type: subtitle
     name: "Videos"
   - type: link

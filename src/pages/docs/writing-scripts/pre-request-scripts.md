@@ -20,7 +20,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Raygun"
-    url: "https://www.postman.com/case-studies/raygun.pdf"
+    url: "https://www.postman.com/customers/raygun.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -15,6 +15,14 @@ contextual_links:
   - type: link
     name: "Speeding up workflows with keyboard shortcuts"
     url: "https://blog.postman.com/speeding-up-workflows-with-keyboard-shortcuts/"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Keyboard Shortcuts | Postman Level Up"
+    url: "https://youtu.be/J3kuTxNItD0"
+  - type: link
+    name: "Dark Mode | Postman Level Up"
+    url: "https://youtu.be/rZySZm9XaLM"
   - type: section
     name: "Next Steps"
   - type: link
