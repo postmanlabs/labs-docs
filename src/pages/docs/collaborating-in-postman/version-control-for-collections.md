@@ -89,6 +89,7 @@ To fork an environment in Postman, select the environment in the __Environments_
 Enter a label for your fork, and select a workspace to save it to. Click __Fork Environment__.
 
 <img src="https://assets.postman.com/postman-docs/fork-environment-v8.jpg" alt="Fork Label Environment"/>
+
 ## Creating pull requests
 
 You can merge changes from a collection fork (the _source_) into the parent (the _destination_) using a pull request process, by tagging reviewers who can comment on your changes and decide to merge them. In Postman, open the menu for a collection and select __Create Pull Request__.
