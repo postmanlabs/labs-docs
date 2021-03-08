@@ -1790,5 +1790,9 @@
 	{
 		"from": "/docs/integrations/available-integrations/hipchat/",
 		"to": "/docs/integrations/intro-integrations/"
+	},
+	{
+		"from": "/docs/administration/migrating-to-v7/",
+		"to": "/docs/administration/upgrading-to-v8/"
 	}
 ]
