@@ -3,6 +3,7 @@ import ResponsiveEmbed from 'react-responsive-embed';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import uuidv4 from 'uuid/v4';
 
 import upcomingEvents from '../../bff-data/events.json'
 
@@ -141,33 +142,36 @@ const IndexPage = () => {
             // Map over, get the appropriate sup text value, and render event.
             .map(event => {
               const dateObject = new Date(event.date)
-              let supVal = '';
-              if (dateObject.getDate() >=4 && dateObject.getDate() <= 20) {
-                supVal = "th"
-              } else if (dateObject.getDate() >= 24 && dateObject.getDate() <= 30) {
-                supVal = "th"
-              }  else if (dateObject.getDate() === 1 || dateObject.getDate() === 21 || dateObject.getDate() === 31) {
-                supVal = 'st'
-              } else if (dateObject.getDate() === 2 || dateObject.getDate() === 22) {
-                supVal = 'nd'
-              } else if (dateObject.getDate() === 3 || dateObject.getDate() === 23) {
-                supVal = 'rd'
-              }            
-              return (
-                <p>
-                  <strong>
-                    {`${months[dateObject.getUTCMonth()]} ${dateObject.getDate()}`}
-                    <sup>{supVal}</sup>
+              // Double check to make sure the event time is AFTER current time, make sure we don't render old events.             
+              if (dateObject.getTime() > new Date().getTime())  {
+                let supVal = '';
+                if (dateObject.getDate() >=4 && dateObject.getDate() <= 20) {
+                  supVal = "th"
+                } else if (dateObject.getDate() >= 24 && dateObject.getDate() <= 30) {
+                  supVal = "th"
+                }  else if (dateObject.getDate() === 1 || dateObject.getDate() === 21 || dateObject.getDate() === 31) {
+                  supVal = 'st'
+                } else if (dateObject.getDate() === 2 || dateObject.getDate() === 22) {
+                  supVal = 'nd'
+                } else if (dateObject.getDate() === 3 || dateObject.getDate() === 23) {
+                  supVal = 'rd'
+                }            
+                return (
+                  <p key={uuidv4()}>
+                    <strong>
+                      {`${months[dateObject.getUTCMonth()]} ${dateObject.getDate()}`}
+                      <sup>{supVal}</sup>
+                      {' '}
+                      -
+                    </strong>
                     {' '}
-                    -
-                  </strong>
-                  {' '}
-                  <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
-                    {event.title}
-                  </OutboundLink>
-                  {`: ${event.description}`}
-                </p>
-              )
+                    <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
+                      {event.title}
+                    </OutboundLink>
+                    {`: ${event.description}`}
+                  </p>
+                )
+              }
             })
           ) : (
             <>
