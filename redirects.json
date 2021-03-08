@@ -13,7 +13,7 @@
 	},
 	{
 		"from": "/docs/administration/migrating_to_v7/",
-		"to": "/docs/administration/migrating-to-v7/"
+		"to": "/docs/administration/upgrading-to-v8/"
 	},
 	{
 		"from": "/docs/administration/sso/",
@@ -373,7 +373,7 @@
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/migrating-to-v7/",
-		"to": "/docs/administration/migrating-to-v7/"
+		"to": "/docs/administration/upgrading-to-v8/"
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/purchasing-pro/",
@@ -1629,7 +1629,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/",
-		"to": "/docs/administration/migrating-to-v7/"
+		"to": "/docs/administration/upgrading-to-v8/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
@@ -1665,7 +1665,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/migrating_to_v7/",
-		"to": "/docs/administration/migrating-to-v7/"
+		"to": "/docs/administration/upgrading-to-v8/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/purchasing_pro/",
