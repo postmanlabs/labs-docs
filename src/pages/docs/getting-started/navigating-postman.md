@@ -28,14 +28,14 @@ warning: false
 
 ---
 
-Postman provides a variety of views and controls for managing your API projects.
+Postman provides a variety of views and controls for managing your API projects. The Postman UI is made up of the following components:
 
 [![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
 
 * The left sidebar provides access to your collections, APIs, environments, mock servers, monitors and request [history](#history).
-* The header allows you to create workspaces, to access reports, explore public API network, search within Postman, view sync status / notifications, to move and invite collaborators to workspaces, to capture requests and cookies, open your Settings, account, and Postman plan.
+* The header allows you to create workspaces, access reports, explore the public API network, search within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, access your settings, account, and Postman plan.
 * The center area is where you build and work with requests.
-* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view and access help resources.
+* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view, and access help resources.
 
 [![Resizing panes](https://assets.postman.com/postman-docs/resizing-panes-v8.gif)](https://assets.postman.com/postman-docs/resizing-panes-v8.gif)
 
@@ -43,9 +43,13 @@ You can also drag to resize the panes in the Postman UI.
 
 [![Resizing panes](https://assets.postman.com/postman-docs/panes-resized-v8.gif)](https://assets.postman.com/postman-docs/panes-resized-v8.gif)
 
-On the right panel, you will see icons to view the documentation, comments, code and request info. To open the documentation tab, select the request under your collection and click Documentation icon on the right panel.
+On the right panel, you will see icons to view the documentation, comments, code and request info.
 
-[![](https://assets.postman.com/postman-docs/overview-documentations-v8.jpg)](https://assets.postman.com/postman-docs/overview-documentations-v8.jpg)
+<img alt="Right panel icons" src="https://assets.postman.com/postman-docs/right-panel-view-v8.jpg" height="300px"/>
+
+To open the documentation tab, select the request under your collection and click the Documentation icon<img alt="Mini docs icon" src="https://assets.postman.com/postman-docs/mini-docs-icon-v8.jpg" width="50px"/> on the right panel.
+
+<img alt="Documentation icon" src="https://assets.postman.com/postman-docs/overview-documentations-v8.jpg"/>
 
 Click __View complete collection documentation__ to open the documentation in a new tab.
 
@@ -53,13 +57,13 @@ Click __View complete collection documentation__ to open the documentation in a 
 
 To publish a documentation for a collection, see [Publishing your documentation](docs/publishing-your-api/publishing-your-docs/).
 
-To open the comments tab, select the request under your collection and click Comments icon on the right panel. You can switch to comment mode to leave comments on a specific part of the request, including parameters, headers, body and tests.
+To open the comments tab, select the request under your collection and click the Comments icon <img alt="Mini comments icon" src="https://assets.postman.com/postman-docs/mini-comments-icon-v8.jpg" width="30px"/> on the right panel. You can switch to comment mode to leave comments on a specific part of the request, including parameters, headers, body and tests.
 
 [![Overview Comments](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)
 
 To learn more about comments, see [Commenting on collections](docs/collaborating-in-postman/commenting-on-collections/).
 
-To open the code snippets tab, select the request under your collection and click Code icon on the right panel. See more on [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
+To open the code snippets tab, select the request under your collection and click the Code icon on the right panel. See more on [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
 
 <img alt="Code snippets Pane" src="https://assets.postman.com/postman-docs/code-snippet-pane-v8.jpg" height="350px"/>
 
@@ -79,7 +83,7 @@ Postman will search tabs, collections, and variables. You can click directly fro
 
 ## History
 
-You can access a history of the requests you've made in Postman using __History__ tab on the left of Postman. If you're signed into a Postman account, your history will sync across devices.
+You can access a history of the requests you've made in Postman via the __History__ tab on the left of Postman. If you're signed into a Postman account, your history will sync across devices.
 
 <img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v8.jpg" height="400px"/>
 
@@ -111,7 +115,7 @@ The best way to get to know Postman is by firing up the __Bootcamp__ on the bott
 
 ![Bootcamp](https://assets.postman.com/postman-docs/bootcamp-lesson-v8.gif)
 
-You can also access Bootcamp together with other resources for getting started and staying up to date by opening Home tab from the header.
+You can also access Bootcamp together with other resources for getting started and staying up to date by opening **Home** in the upper-left corner.
 
 ![Bootcamp Home](https://assets.postman.com/postman-docs/bootcamp-home-v8.jpg)
 
