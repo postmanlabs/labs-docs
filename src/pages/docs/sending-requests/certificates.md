@@ -30,7 +30,7 @@ To manage your client certificates, click the wrench icon on the right side of t
 
 To add a new client certificate, click the **Add Certificate** link.
 
-In the **Host** field, enter the domain (without protocol) of the request URL for which you want to use the certificate, for example, [echo.getpostman.com](http://echo.getpostman.com).
+In the **Host** field, enter the domain (without protocol) of the request URL for which you want to use the certificate, for example, `https://postman-echo.com` ([view Collection for Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65)).
 
 You can also specify a custom port to associate with this domain in the **Port** field. This is optional. If left empty, the default HTTPS port (443) will be used.
 
@@ -54,7 +54,7 @@ You do not have to perform any extra steps to use a client certificate if it has
 
 You can verify this. To do so, open up your Postman console (**CMD/CTRL + ALT + C**). You can read more about the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/). A new window will open up.
 
-Now, send a request to [`https://echo.getpostman.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722). Keep the Postman Console open if Postman version is lower than `v7.10`. Notice we’re using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman console to see your request. If you expand your request, you will be able to see which certificate was sent along with the request.
+Now, send a request to `https://postman-echo.com/get`. Keep the Postman Console open if Postman version is lower than `v7.10`. Notice we’re using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman console to see your request. If you expand your request, you will be able to see which certificate was sent along with the request.
 
 [![Postman console view](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)
 
