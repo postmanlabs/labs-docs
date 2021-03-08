@@ -118,7 +118,6 @@ const IndexPage = () => {
           />
         </div>
       </section>
-  
       <section className="row section">
         <div className="col-md-4">
           <h2>Upcoming Postman Livestreams</h2>
@@ -135,9 +134,11 @@ const IndexPage = () => {
         <div className="col-md-8">
           {/* If there are events in the events.json array */}
           {upcomingEvents.length > 0 ? (
+            // Sort the events array by date
             upcomingEvents.sort((a, b) => {
               return (new Date(a.date).getDate() - new Date(b.date).getDate())
             })
+            // Map over, get the appropriate sup text value, and render event.
             .map(event => {
               const dateObject = new Date(event.date)
               let supVal = '';
@@ -161,7 +162,7 @@ const IndexPage = () => {
                     -
                   </strong>
                   {' '}
-                  <OutboundLink href={event.link}>
+                  <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
                     {event.title}
                   </OutboundLink>
                   {`: ${event.description}`}
