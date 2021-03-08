@@ -11,6 +11,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Generating Code Snippets | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=yYwkvtSvpHI"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Intuit"
