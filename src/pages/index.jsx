@@ -123,11 +123,11 @@ const IndexPage = () => {
         <div className="col-md-4">
           <h2>Upcoming Postman Livestreams</h2>
           <p>
-            <a href="https://www.twitch.tv/getpostman">Follow us</a>
+            <a href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">Follow us</a>
             {' '}
             on Twitch or
             {' '}
-            <a href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw">subscribe</a>
+            <a href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw" target="_blank" rel="noopener noreferrer">subscribe</a>
             {' '}
             to our YouTube channel so you don’t miss when we go live.
           </p>
