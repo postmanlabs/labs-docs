@@ -26,6 +26,11 @@ const videoBackground = {
 
 const IndexPage = () => {
   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  // Sort the events array by date
+  const sortedUpcomingEvents = upcomingEvents.sort((a, b) => {
+    return (new Date(a.date).getDate() - new Date(b.date).getDate())
+  })
+  
   return (
     <Layout>
       <SEO title="Home" slug="/" />
@@ -134,13 +139,9 @@ const IndexPage = () => {
         </div>
         <div className="col-md-8">
           {/* If there are events in the events.json array */}
-          {upcomingEvents.length > 0 ? (
-            // Sort the events array by date
-            upcomingEvents.sort((a, b) => {
-              return (new Date(a.date).getDate() - new Date(b.date).getDate())
-            })
+          {sortedUpcomingEvents.length > 0 ? (
             // Map over, get the appropriate sup text value, and render event.
-            .map(event => {
+            sortedUpcomingEvents.map(event => {
               const dateObject = new Date(event.date)
               // Double check to make sure the event time is AFTER current time, make sure we don't render old events.             
               if (dateObject.getTime() > new Date().getTime())  {
