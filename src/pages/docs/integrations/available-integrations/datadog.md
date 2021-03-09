@@ -25,7 +25,7 @@ An `API Key` is created for you automatically under the "APIs" tab. If you want,
 
 Save the API Key to use later.
 
-[![get datadog integrations API key](https://assets.postman.com/postman-doc/datadog-get-api-key.jpg)](https://assets.postman.com/postman-doc/datadog-get-api-key.jpg)
+![get datadog integrations API key](https://assets.postman.com/postman-doc/datadog-get-api-key-bb.jpg)
 
 ## Configuring Postman Monitors
 
@@ -55,7 +55,7 @@ Save the API Key to use later.
 
 As soon as your monitor runs, the data will start flowing into Datadog.
 
-[![view in datadog](https://assets.postman.com/postman-docs/58831748.png)](https://assets.postman.com/postman-docs/58831748.png)
+[![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
 
 Once the data is present in Datadog, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and even environment name/uid (if present). You can also combine different metrics to create a dashboard.
 
