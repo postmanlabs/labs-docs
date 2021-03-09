@@ -13,6 +13,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Bootcamp | Postman Level Up"
+    url: "https://youtu.be/cCruwkHi9o4"
+  - type: link
     name: "History | Postman Level Up"
     url: "https://www.youtube.com/watch?v=9VBTKwUCsGw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=4"
   - type: section
@@ -25,36 +28,48 @@ warning: false
 
 ---
 
-Postman provides a variety of views and controls for managing your API projects.
+Postman provides a variety of views and controls for managing your API projects. The Postman UI is made up of the following components:
 
-[![Postman app](https://assets.postman.com/postman-docs/app-overview-console-open.jpg)](https://assets.postman.com/postman-docs/app-overview-console-open.jpg)
+[![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
 
-You can toggle Postman between two main modes: __Build__ and __Browse__ using the control at the bottom-right of the app, or the top-left on the web. The __Build__ mode is the primary interface for working with API requests.
-
-[![general layout](https://assets.postman.com/postman-docs/59046674.jpg)](https://assets.postman.com/postman-docs/59046674.jpg)
-
-* The left sidebar provides access to your request [history](#history), collections, and APIs.
-* The header allows you to create and import requests and collections, to access the Collection Runner, to move and invite collaborators to workspaces, to access the Interceptor, view sync status / notifications, open your Settings, account, and Postman plan.
+* The left sidebar provides access to your collections, APIs, environments, mock servers, monitors and request [history](#history).
+* The header allows you to create workspaces, access reports, explore the public API network, search within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, access your settings, account, and Postman plan.
 * The center area is where you build and work with requests.
-* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, toggle between __Build__ and __Browse__ mode (in the app—use the top left if you're on the web), toggle pane view, open keyboard shortcuts, and access helpful resources.
+* The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view, and access help resources.
 
-![Resizing panes](https://assets.postman.com/postman-docs/resizing-panes-app.gif)
+[![Resizing panes](https://assets.postman.com/postman-docs/resizing-panes-v8.gif)](https://assets.postman.com/postman-docs/resizing-panes-v8.gif)
 
-You can drag to resize the panes in the Postman UI.
+You can also drag to resize the panes in the Postman UI.
 
-[![Resizing panes](https://assets.postman.com/postman-docs/panes-resized.jpg)](https://assets.postman.com/postman-docs/panes-resized.jpg)
+[![Resizing panes](https://assets.postman.com/postman-docs/panes-resized-v8.gif)](https://assets.postman.com/postman-docs/panes-resized-v8.gif)
 
-You can declutter your workspace by collapsing panes using the arrow button—click the collapsed section to reopen it.
+On the right panel, you will see icons to view the documentation, comments, code and request info.
 
-[![general layout](https://assets.postman.com/postman-docs/sidebar-collapsed.jpg)](https://assets.postman.com/postman-docs/sidebar-collapsed.jpg)
+<img alt="Right panel icons" src="https://assets.postman.com/postman-docs/right-panel-view-v8.jpg" height="300px"/>
 
-Use the buttons at the bottom-right to hide the sidebar and toggle between single and two pane view.
+To open the documentation tab, select the request under your collection and click the Documentation icon<img alt="Mini docs icon" src="https://assets.postman.com/postman-docs/mini-docs-icon-v8.jpg" width="50px"/> on the right panel.
 
-[![general layout](https://assets.postman.com/postman-docs/split-pane-view.jpg)](https://assets.postman.com/postman-docs/split-pane-view.jpg)
+<img alt="Documentation icon" src="https://assets.postman.com/postman-docs/overview-documentations-v8.jpg"/>
 
-Use browse mode to access entities across your workspace and connect to the Postman Dashboard via the desktop app (use the links at the top-left if you're using Postman on the web).
+Click __View complete collection documentation__ to open the documentation in a new tab.
 
-[![Browse mode](https://assets.postman.com/postman-docs/browse-mode-in-app.jpg)](https://assets.postman.com/postman-docs/browse-mode-in-app.jpg)
+<img alt="Overview Documentation" src="https://assets.postman.com/postman-docs/documentation-pane-v8.jpg" height="400px"/>
+
+To publish a documentation for a collection, see [Publishing your documentation](docs/publishing-your-api/publishing-your-docs/).
+
+To open the comments tab, select the request under your collection and click the Comments icon <img alt="Mini comments icon" src="https://assets.postman.com/postman-docs/mini-comments-icon-v8.jpg" width="30px"/> on the right panel. You can switch to comment mode to leave comments on a specific part of the request, including parameters, headers, body and tests.
+
+[![Overview Comments](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)
+
+To learn more about comments, see [Commenting on collections](docs/collaborating-in-postman/commenting-on-collections/).
+
+To open the code snippets tab, select the request under your collection and click the Code icon on the right panel. See more on [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
+
+<img alt="Code snippets Pane" src="https://assets.postman.com/postman-docs/code-snippet-pane-v8.jpg" height="350px"/>
+
+You can declutter your workspace by collapsing panes. Use the buttons at the bottom-left to hide the sidebar and at the bottom-right to toggle between single and two pane view.
+
+[![general layout](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)
 
 ## Find and replace
 
@@ -62,15 +77,15 @@ You can search your Postman workspace by clicking __Find and Replace__ at the bo
 
 Enter your search string and optionally choose which entities to return, entering replacement text if necessary.
 
-![Find and replace](https://assets.postman.com/postman-docs/find-and-replace-tab.jpg)
+![Find and replace](https://assets.postman.com/postman-docs/find-and-replace-tab-v8.jpg)
 
 Postman will search tabs, collections, and variables. You can click directly from the search results to open an entity.
 
 ## History
 
-You can access a history of the requests you've made in Postman in __History__ on the left of Postman. If you're signed into a Postman account, your history will sync across devices.
+You can access a history of the requests you've made in Postman via the __History__ tab on the left of Postman. If you're signed into a Postman account, your history will sync across devices.
 
-![History](https://assets.postman.com/postman-docs/history-in-app.jpg)
+<img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v8.jpg" height="400px"/>
 
 Click a request to open it again. Click __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
 
@@ -80,7 +95,7 @@ The __View more actions__ menu allows you to save, monitor, document, or mock a 
 
 You can send requests in Postman by opening tabs—click __+__ in the center of the screen, or press `Command/Control + T`.
 
-![Tabs](https://assets.postman.com/postman-docs/open-unsaved-tab-options.jpg)
+![Tabs](https://assets.postman.com/postman-docs/open-unsaved-tab-options-v8.jpg)
 
 > If you open a request and do not edit or send it, then open another, the first tab will be replaced by the second. While the tab is in _Preview_ mode it will display in italics.
 
@@ -98,10 +113,10 @@ A tab may indicate a conflict if you or a collaborator changes it in another tab
 
 The best way to get to know Postman is by firing up the __Bootcamp__ on the bottom-right and working through the lessons.
 
-![Bootcamp](https://assets.postman.com/postman-docs/bootcamp-overview-app.jpg)
+![Bootcamp](https://assets.postman.com/postman-docs/bootcamp-lesson-v8.gif)
 
-You can also access Bootcamp together with other resources for getting started and staying up to date by opening Launchpad—you'll see a button when you have no open tabs.
+You can also access Bootcamp together with other resources for getting started and staying up to date by opening **Home** in the upper-left corner.
 
-![Launchpad](https://assets.postman.com/postman-docs/launchpad-open-app.jpg)
+![Bootcamp Home](https://assets.postman.com/postman-docs/bootcamp-home-v8.jpg)
 
 __Next try [sending your first request](/docs/getting-started/sending-the-first-request/)!__

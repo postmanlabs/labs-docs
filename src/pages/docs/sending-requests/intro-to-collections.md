@@ -20,11 +20,9 @@ contextual_links:
   - type: link
     name: "Intro to Postman & Postman Collections"
     url: "https://www.youtube.com/watch?v=ptvV_Fc3hd8"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Related Blog Posts"
-  - type: link
-    name: "The Good Collection"
-    url: "https://blog.postman.com/the-good-collection/"
+    blog_tag: "collections"
   - type: section
     name: "Next Steps"
   - type: link
