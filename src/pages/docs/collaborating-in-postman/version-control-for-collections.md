@@ -90,13 +90,15 @@ Enter a label for your fork, and select a workspace to save it to. Click __Fork 
 
 <img src="https://assets.postman.com/postman-docs/fork-environment-v8.jpg" alt="Fork Label Environment" height="400px"/>
 
-Your forked environment will be created in the selected workspace.
+Your forked environment will be created in the selected workspace. You will be able to view the forked environments under the environment dropdown on the right side of Postman.
+
+<img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v8.jpg" height="200px"/>
 
 Forks icon <img alt="Fork icon on right panel for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the right panel provides details about the forks created.
 
 <img alt="Fork icon overview for v8" src="https://assets.postman.com/postman-docs/fork-panel-overview-v8.jpg" height="300px"/>
 
-Click **View all forks** to reveal the list of users who have active forks.
+Click **View all forks** to reveal the list of fork labels and users who have active forks.
 
 <img alt="Fork overview details v8" src="https://assets.postman.com/postman-docs/fork-overview-details-v8.jpg"/>
 
