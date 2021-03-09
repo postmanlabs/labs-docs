@@ -72,11 +72,11 @@ If you are a visitor who does not belong to any public workspace, to send reques
 
 Postman will prompt a login screen, you can either create a free account or sign in to get started.
 
-[![Visitor Sign in](https://assets.postman.com/postman-docs/sign-in-v2.jpg)](https://assets.postman.com/postman-docs/sign-in-v2.jpg)
+<img src="https://assets.postman.com/postman-docs/sign-in-v2.jpg" alt="Visitor Sign in" height="400px"/>
 
 Being a signed-in non-member, to send requests in a public workspace, fork the collection into a workspace that you belong to (either team or personal whichever you choose during fork creation) and then make changes.
 
-[![Visitor creating a fork](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)
+<img src="https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg" alt="Visitor creating a fork" height="400px"/>
 
 > Make sure your public profile is enabled before you fork a collection from a public workspace.
 
@@ -92,7 +92,7 @@ Enter a label for your fork, and select a workspace to save it to. Click __Fork 
 
 Your forked environment will be created in the selected workspace.
 
-Forks icon <img alt="Fork icon on right panel for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the right panel provide details about the forks created.
+Forks icon <img alt="Fork icon on right panel for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the right panel provides details about the forks created.
 
 <img alt="Fork icon overview for v8" src="https://assets.postman.com/postman-docs/fork-panel-overview-v8.jpg" height="300px"/>
 
