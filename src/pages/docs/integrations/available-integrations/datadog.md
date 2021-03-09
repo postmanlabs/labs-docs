@@ -25,29 +25,27 @@ An `API Key` is created for you automatically under the "APIs" tab. If you want,
 
 Save the API Key to use later.
 
-[![datadog integrations page](https://assets.postman.com/postman-docs/58830948.png)](https://assets.postman.com/postman-docs/58830948.png)
+[![get datadog integrations API key](https://assets.postman.com/postman-doc/datadog-get-api-key.jpg)](https://assets.postman.com/postman-doc/datadog-get-api-key.jpg)
 
 ## Configuring Postman Monitors
 
-1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select Datadog from the list of third party integrations.
+1. From the Integrations [search page](https://postman.postman.co/integrations/browse?category=all), search and select Datadog from the results.
 
-   [![datadog integrations page](https://assets.postman.com/postman-docs/integrations_datadog2.png)](https://assets.postman.com/postman-docs/integrations_datadog2.png)
+   [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-all-search.jpg)](https://assets.postman.com/postman-docs/datadog-all-search.jpg)
 
-1. Click the **View Details** button to see information about Datadog and how it can provide real-time alerting based on the results of your Postman monitors.
+1. You can select **View All** to see all integrations already created by your team.
 
-   You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for Datadog, or view all integrations.
+   [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
 
-   [![datadog integrations page](https://assets.postman.com/postman-docs/WS-datadog-config.png)](https://assets.postman.com/postman-docs/WS-datadog-config.png)
+1. Select **Add Integration** to start the configuration process.
 
-1. Click the **Add Integration** button to display the **Send Monitor Run Results** options.
-
-   <img alt="Add integration datadog" src="https://assets.postman.com/postman-docs/add-integration-datadog.jpg" width="300px"/>
+   <img alt="Add integration datadog" src="https://assets.postman.com/postman-docs/datadog-save-add-integration.jpg" width="300px"/>
 
 1. To send your monitor metrics and events to Datadog:
 
    * Name your new integration.
-   * Select the monitor whose data you would like to send to Datadog.
-   * Enter a Datadog provided API key or generate an API key.
+   * Select the workspace and monitor whose data you would like to send to Datadog.
+   * Enter your [Datadog API key](https://docs.datadoghq.com/account_management/api-app-keys/).
    * Select the Datadog region you would like to use.
    * Optionally indicate if you want to send events for completed runs or send metrics for each run.
 
