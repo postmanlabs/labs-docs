@@ -25,7 +25,7 @@ An `API Key` is created for you automatically under the "APIs" tab. If you want,
 
 Save the API Key to use later.
 
-![get datadog integrations API key](https://assets.postman.com/postman-doc/datadog-get-api-key-bb.jpg)
+![get datadog integrations API key](https://assets.postman.com/postman-docs/datadog-get-api-key-bb.jpg)
 
 ## Configuring Postman Monitors
 
