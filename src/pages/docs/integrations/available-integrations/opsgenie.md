@@ -28,11 +28,11 @@ contextual_links:
 
 This integration with Opsgenie triggers an alert in Opsgenie whenever there is an alert in Postman Monitor. The alert will then automatically close after the first successful run.
 
-This integration allows you to configure [Postman Monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to trigger alerts on Opsgenie whenever it fails.
+This integration allows you to configure [Postman Monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to trigger alerts on Opsgenie whenever your monitor fails.
 
 ## Get the Opsgenie API Key
 
-Log in to your Opsgenie account and go to the `Teams` tab and select the team you will add an integration to.
+Log in to your Opsgenie account and go to the **Teams** tab and select the team you will add an integration to.
 
 ![log in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-select-bb.jpg)
 
@@ -40,11 +40,11 @@ From the left nav, select `Integrations` > `Add integration`.
 
 ![Add Opsgenie integration](https://assets.postman.com/postman-docs/opsgenie-teams-add-integration-bb.jpg)
 
-From the list of integrations, select the [`API` integration](https://docs.opsgenie.com/docs/api-integration) option.
+From the list of integrations, select the [**API integration**](https://docs.opsgenie.com/docs/api-integration) option.
 
 ![select API integration option](https://assets.postman.com/postman-docs/opsgenie-search-select-api.jpg)
 
-On configuration page, fill in the your information and select `Save Integration`.
+On the configuration page, fill in your information and select **Save Integration**.
 
 Copy your API Key and save it for later.
 
@@ -54,15 +54,15 @@ Copy your API Key and save it for later.
 
 From the Integrations [search page](https://postman.postman.co/integrations/browse?category=all), search and select Opsgenie from the results.
 
-On the Integration details page, select `Add Integration`.
+On the Integration details page, select **Add Integration**.
 
 ![add Opsgenie integration](https://assets.postman.com/postman-docs/opsgenie-add-integration-b.jpg)
 
-On the integration authentication page, enter the Opsgenie API key you saved from your Opsgenie console. Select the [`Opsgenie site` region for your Opsgenie account](https://docs.opsgenie.com/docs/opsgenie-data-residency).
+On the integration authentication page, enter the Opsgenie API key you saved from your Opsgenie console. Select the [**Opsgenie site region** for your Opsgenie account](https://docs.opsgenie.com/docs/opsgenie-data-residency).
 
 ![Add Opsgenie API key into Postman](https://assets.postman.com/postman-docs/opsgenie-with-api-key.jpg)
 
-On the integration configuration page, enter the nickname for your integration, your workspace, alert tags, and alert priorities.
+On the integration configuration page, enter a nickname for your integration, your workspace, alert tags, and alert priorities.
 
 <img src="https://assets.postman.com/postman-docs/opsgenie-save-configuration-b.jpg" alt="Save opsgenie configuration" width="500px"/>
 
@@ -74,14 +74,14 @@ After you create the integration, you can see all of the integrations created by
 
 An alert on Opsgenie consists of the following information below:
 
+* Description of failing tests (failures in your test scripts you have written in Postman)
+* Number of errors (errors occur when Postman is unable to fetch a response from your API)
+
 * Description of failing tests
 * Number of failed tests
 * Number of passed tests
 * Number of errors
 * Response time
-
->Description of failing tests - Exact failures in the test script written in Postman
->Number of errors ( errors occur when we are not able to fetch response from your API )
 
 It will also provide a direct link to the failing monitor.
 
