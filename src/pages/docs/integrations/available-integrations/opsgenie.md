@@ -36,7 +36,7 @@ Log in to your Opsgenie account and go to the **Teams** tab and select the team 
 
 ![log in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-select-bb.jpg)
 
-From the left nav, select `Integrations` > `Add integration`.
+From the left nav, select **Integrations** > **Add integration**.
 
 ![Add Opsgenie integration](https://assets.postman.com/postman-docs/opsgenie-teams-add-integration-bb.jpg)
 
