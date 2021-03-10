@@ -2,10 +2,29 @@
 title: "OpenAPI"
 order: 173.1
 page_id: "working_with_openAPI"
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related blog posts"
+  - type: link
+    name: "Postman Joins the OpenAPI Initiative"
+    url: "https://blog.postman.com/postman-joins-openapi-initiative/"
+  - type: link
+    name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
+    url: "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
+  - type: link
+    name: "Postman Supports OpenAPI 3.0"
+    url: "https://blog.postman.com/postman-supports-openapi-3-0/"
 warning: false
 ---
 
-You can import your existing OAS 3.0 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats. You can choose to upload a file, enter a URL, or directly copy your JSON/YAML. In the Postman app, click 'Import' to bring up the following screen:
+You can import your existing OAS 3.0 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats. You can choose to upload a file, enter a URL, or directly copy your JSON/YAML. In Postman, click 'Import' to bring up the following screen:
 
 [![import sample](https://assets.postman.com/postman-docs/open-api-import-b.jpg)](https://assets.postman.com/postman-docs/open-api-import-b.jpg)
 
