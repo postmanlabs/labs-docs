@@ -25,7 +25,7 @@ You can use this integration to trigger incidents in PagerDuty based on your Pos
 ## Retrieving your PagerDuty Integration Key
 
 Create an account or use a preexisting one to log in to [PagerDuty](https://app.pagerduty.com/).  
-In the header toolbar, select `Services`. If you are creating a new service for this integration, select `Services` and then `+ New Service`.
+In the header toolbar, select **Services**. If you are creating a new service for this integration, select **Services** and then **+ New Service**.
 
 ![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-new-service.jpg)
 
@@ -45,19 +45,17 @@ From the [Integrations search page](https://go.postman.co/integrations/browse?ca
 
 ![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-search-all.jpg)
 
-You can select `View All` to see all PagerDuty integrations created by your team.
+You can select **View All** to see all PagerDuty integrations created by your team.
+
+![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-all-integrations.jpg)
+
+To create your own integration, select **Add Integration**.
 
 ![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-view-all.jpg)
 
-Select `Add Integration` to create your own integration
-
-![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-add-integration.jpg)
-
-Enter the name of the integration, workspace, monitor, and your PagerDuty Integration Key. Then, select `Add Integration`.
+Enter the name of the integration, workspace, monitor, and your PagerDuty Integration Key. Select **Add Integration** to start configuring the integration.
 
 ![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-add-integration-configuration.jpg)
-
-![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-all-integrations.jpg)
 
 ## Viewing PagerDuty results
 
