@@ -24,12 +24,30 @@ const videoBackground = {
   backgroundColor: 'rgb(245, 248, 251)',
 };
 
+const getSupString = (dateOfMonth) => {
+  if (dateOfMonth >=4 && dateOfMonth <= 20) {
+    return "th"
+  } else if (dateOfMonth >= 24 && dateOfMonth <= 30) {
+    return "th"
+  }  else if (dateOfMonth === 1 || dateOfMonth === 21 || dateOfMonth === 31) {
+    return 'st'
+  } else if (dateOfMonth === 2 || dateOfMonth === 22) {
+    return 'nd'
+  } else if (dateOfMonth === 3 || dateOfMonth === 23) {
+    return 'rd'
+  } 
+}
+
 const IndexPage = () => {
   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  // Sort the events array by date
-  const sortedUpcomingEvents = upcomingEvents.sort((a, b) => {
-    return (new Date(a.date).getDate() - new Date(b.date).getDate())
-  })
+  // If, upcomingEvents is an array, sort the events array by date, and filter out past events.
+  // Else, leave as is.. which is an object with upcomingEvents.development = true
+  const sortedUpcomingEvents = Array.isArray(upcomingEvents)
+    ? upcomingEvents.sort((a, b) => {
+      return (new Date(a.date).getDate() - new Date(b.date).getDate())
+    })
+    .filter(event => new Date(event.date).getTime() > new Date().getTime())
+    : upcomingEvents
   
   return (
     <Layout>
@@ -142,43 +160,29 @@ const IndexPage = () => {
           {sortedUpcomingEvents.length > 0 ? (
             // Map over, get the appropriate sup text value, and render event.
             sortedUpcomingEvents.map(event => {
-              const dateObject = new Date(event.date)
-              // Double check to make sure the event time is AFTER current time, make sure we don't render old events.             
-              if (dateObject.getTime() > new Date().getTime())  {
-                let supVal = '';
-                if (dateObject.getDate() >=4 && dateObject.getDate() <= 20) {
-                  supVal = "th"
-                } else if (dateObject.getDate() >= 24 && dateObject.getDate() <= 30) {
-                  supVal = "th"
-                }  else if (dateObject.getDate() === 1 || dateObject.getDate() === 21 || dateObject.getDate() === 31) {
-                  supVal = 'st'
-                } else if (dateObject.getDate() === 2 || dateObject.getDate() === 22) {
-                  supVal = 'nd'
-                } else if (dateObject.getDate() === 3 || dateObject.getDate() === 23) {
-                  supVal = 'rd'
-                }            
-                return (
-                  <p key={uuidv4()}>
-                    <strong>
-                      {`${months[dateObject.getUTCMonth()]} ${dateObject.getDate()}`}
-                      <sup>{supVal}</sup>
-                      {' '}
-                      -
-                    </strong>
+              const dateObject = new Date(event.date);
+              return (
+                <p key={uuidv4()}>
+                  <strong>
+                    {`${months[dateObject.getUTCMonth()]} ${dateObject.getDate()}`}
+                    <sup>{getSupString(dateObject.getDate())}</sup>
                     {' '}
-                    <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
-                      {event.title}
-                    </OutboundLink>
-                    {`: ${event.description}`}
-                  </p>
-                )
-              }
+                    -
+                  </strong>
+                  {' '}
+                  <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
+                    {event.title}
+                  </OutboundLink>
+                  {`: ${event.description}`}
+                </p>
+              )
+              
             })
           ) : (
             <>
-            {/* If there are no events, and events.json is an object where development === true */}
+              {/* If there are no events, and events.json is an object where development === true */}
               {(!Array.isArray(upcomingEvents) && upcomingEvents.development) ? (
-                <div class="events__alert" role="alert">
+                <div className="events__alert" role="alert">
                   <p>You are currently in develop mode. Dynamic events will not be displayed locally. <a style={{"fontSize": "inherit"}}href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">See Contributing doc for details</a>.</p>
                 </div>
               ) : (
