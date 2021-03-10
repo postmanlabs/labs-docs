@@ -82,7 +82,7 @@ Being a signed-in non-member, to send requests in a public workspace, fork the c
 
 ## Forking an environment
 
-To fork an environment in Postman, select the environment in the __Environments__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by clicking __Fork__ button on environment overview.
+To fork an environment in Postman, select the environment in the __Environments__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by clicking __Fork__ button in environment overview tab.
 
 <img src="https://assets.postman.com/postman-docs/create-an-environment-fork-v8.jpg" alt="Create an Environment Fork"/>
 
@@ -90,15 +90,15 @@ Enter a label for your fork, and select a workspace to save it to. Click __Fork 
 
 <img src="https://assets.postman.com/postman-docs/fork-environment-v8.jpg" alt="Fork Label Environment" height="400px"/>
 
-Your forked environment will be created in the selected workspace. You will be able to view the forked environments under the environment dropdown on the right side of Postman.
+Your forked environment will be created in the selected workspace. You will be able to view the forked environments in the sidebar on the left as well as under the environment dropdown on the right side of Postman.
 
 <img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v8.jpg" height="200px"/>
 
-Forks icon <img alt="Fork icon on right panel for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the right panel provides details about the forks created.
+Forks icon <img alt="Fork icon on context bar for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the context bar provides details about the forks created.
 
 <img alt="Fork icon overview for v8" src="https://assets.postman.com/postman-docs/fork-panel-overview-v8.jpg" height="300px"/>
 
-Click **View all forks** to reveal the list of fork labels and users who have active forks.
+Click **View all forks** to reveal the detailed list of forks along with information about users who created them.
 
 <img alt="Fork overview details v8" src="https://assets.postman.com/postman-docs/fork-overview-details-v8.jpg"/>
 
