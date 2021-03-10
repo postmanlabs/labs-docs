@@ -44,9 +44,9 @@ const IndexPage = () => {
   // Else, leave as is.. which is an object with upcomingEvents.development = true
   const sortedUpcomingEvents = Array.isArray(upcomingEvents)
     ? upcomingEvents.sort((a, b) => {
-      return (new Date(a.date).getDate() - new Date(b.date).getDate())
+      return (new Date(a.date) - new Date(b.date))
     })
-    .filter(event => new Date(event.date).getTime() > new Date().getTime())
+    .filter((event) => new Date(event.expiration) > new Date())
     : upcomingEvents
   
   return (
