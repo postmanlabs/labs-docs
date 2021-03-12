@@ -55,13 +55,13 @@ Click __View complete collection documentation__ to open the documentation in a 
 
 <img alt="Overview Documentation" src="https://assets.postman.com/postman-docs/documentation-pane-v8.jpg" height="400px"/>
 
-To publish a documentation for a collection, see [Publishing your documentation](docs/publishing-your-api/publishing-your-docs/).
+To publish a documentation for a collection, see [Publishing your documentation](/docs/publishing-your-api/publishing-your-docs/).
 
 To open the comments tab, select the request under your collection and click the Comments icon <img alt="Mini comments icon" src="https://assets.postman.com/postman-docs/mini-comments-icon-v8.jpg" width="30px"/> on the right panel. You can switch to comment mode to leave comments on a specific part of the request, including parameters, headers, body and tests.
 
 [![Overview Comments](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)
 
-To learn more about comments, see [Commenting on collections](docs/collaborating-in-postman/commenting-on-collections/).
+To learn more about comments, see [Commenting on collections](/docs/collaborating-in-postman/commenting-on-collections/).
 
 To open the code snippets tab, select the request under your collection and click the Code icon on the right panel. See more on [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
 

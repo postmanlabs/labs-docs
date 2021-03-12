@@ -23,6 +23,7 @@ jobs:
         DIST_ID: ${{secrets.PROD_DIST_ID}}
         MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
         BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
+        BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
         BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
       run: |
         npm install
