@@ -7,7 +7,7 @@ import uuidv4 from 'uuid/v4';
 
 import upcomingEvents from '../../bff-data/events.json'
 
-import HeroImage from '../assets/workspaces-personal-postmanaut.png';
+import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
 import AdminImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
@@ -64,7 +64,7 @@ const IndexPage = () => {
           <a href="/docs/getting-started/introduction/" className="btn btn__primary mb-5">Explore the docs</a>
         </div>
         <div className="col-sm-12 col-md-7 col-lg-6 align-self-center">
-          <img src={HeroImage} className="hero-image" alt="Postmanaut sitting at computer. Illustration." />
+          <img src={HeroImage} width="637" height="411" className="hero-image img-fluid" alt="Postmanaut sitting at computer. Illustration." />
         </div>
       </section>
   
