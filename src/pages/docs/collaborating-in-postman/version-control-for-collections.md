@@ -28,9 +28,11 @@ You can use version control with your Postman Collections by forking and merging
 * [Forking a collection](#forking-a-collection)
     * [Forking information](#forking-information)
     * [Forking to send requests](#forking-to-send-requests)
+    * [Watching a collection](#watching-a-collection)
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-PRs)
+    * [Watching a pull request](#watching-a-pull-request)
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
 * [Pulling updates](#pulling-updates)
@@ -78,6 +80,26 @@ Being a signed-in non-member, to send requests in a public workspace, fork the c
 [![Visitor creating a fork](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)
 
 > Make sure your public profile is enabled before you fork a collection from a public workspace.
+
+### Watching a collection
+
+The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the collection for example adding a new request, renaming the collection, modifying the existing requests, adding/updating variables, pre-request script, tests, adding/deleting a folder, and description and so on.
+
+Once you've created the collection, click the __Watch__ option to start watching the collection.
+
+![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v8.jpg)
+
+Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the collection.
+
+<img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v8.jpg" width="500px"/>
+
+In addition to this, you will receive an email with the information regarding who has made the change, what the change was, and when it was made.
+
+![Watch Collection Email Notification](https://assets.postman.com/postman-docs/collection-watch-email-v8.jpg)
+
+Click __View changelog__ to access the full changelog in Postman.
+
+> If you created the collection and modified it from the same account, you will not receive email or in-app notifications for changes made.
 
 ## Creating pull requests
 
@@ -151,6 +173,24 @@ You can create a pull request on a fork (the _source_) into the parent (the _des
 Once you create the pull request, you will get a notification that it has been __Shared to public workspace__.
 
 <img src="https://assets.postman.com/postman-docs/source-collection-shared-v2.jpg" alt="Source Collection Shared"/>
+
+### Watching a pull request
+
+The watch option allows you to receive an in-app notification when your team member belonging to the same workspace modifies the pull request for example adding a new comment, approving / unapproving / merging / editing / declining a pull request, and updating the source collection.
+
+Once you've created the pull request, click the __Watch__ option to start watching the pull request.
+
+![Pull request watching](https://assets.postman.com/postman-docs/watching-a-pull-request-v8.jpg)
+
+Once you have enabled watch option, you will be able to view and modify the conditions for which the watch notifications will be triggered.
+
+<img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v8.jpg" height="350px"/>
+
+Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the pull request.
+
+<img alt="Notification Pull Request Watching" src="https://assets.postman.com/postman-docs/pull-request-watch-notification-v8.jpg" width="500px"/>
+
+> If you created the pull request and modified it from the same account, you will not receive email or in-app notifications for changes made.
 
 ## Approving changes
 
