@@ -174,24 +174,6 @@ Once you create the pull request, you will get a notification that it has been _
 
 <img src="https://assets.postman.com/postman-docs/source-collection-shared-v2.jpg" alt="Source Collection Shared"/>
 
-### Watching a pull request
-
-The watch option allows you to receive an in-app notification when your team member belonging to the same workspace modifies the pull request for example adding a new comment, approving / unapproving / merging / editing / declining a pull request, and updating the source collection.
-
-Once you've created the pull request, click the __Watch__ option to start watching the pull request.
-
-![Pull request watching](https://assets.postman.com/postman-docs/watching-a-pull-request-v8.jpg)
-
-Once you have enabled watch option, you will be able to view and modify the conditions for which the watch notifications will be triggered.
-
-<img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v8.jpg" height="350px"/>
-
-Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the pull request.
-
-<img alt="Notification Pull Request Watching" src="https://assets.postman.com/postman-docs/pull-request-watch-notification-v8.jpg" width="500px"/>
-
-> If you created the pull request and modified it from the same account, you will not receive email or in-app notifications for changes made.
-
 ## Approving changes
 
 You can approve changes on a fork (the _source_) into the parent (the _destination_). Once the pull request is created, navigate to the collection in Postman and click on the **Pull Requests** icon on the right panel.
