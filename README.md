@@ -2,7 +2,7 @@
 
 # Postman Learning Center
 
-Postman is the collaboration platform for API development. And the [Postman Learning Center](https://learning.postman.com/) has the resources you need to ramp up quickly and extend your skills with Postman. Postman allows you to write API test cases in any format of your choice (JSON/XML/many more) and run them to verify and validate your API. Moreover, Postman provides collections which can improve a developer's workflow. Postman is available for several platforms including windows and Mac OS X. For more information visit [the Postman website](https://www.postman.com/).
+Postman is the collaboration platform for API development. And the [Postman Learning Center](https://learning.postman.com/) has the resources you need to ramp up quickly and extend your skills with Postman. Postman allows you to write API test cases in any format of your choice (JSON/XML/many more) and run them to verify and validate your API. Moreover, Postman provides Collections which can improve a developer's workflow. Postman is available for several platforms including Windows and Mac OS X. For more information visit [the Postman website](https://www.postman.com/).
 
 ## Contribution guidelines
 
@@ -28,7 +28,7 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 ```
 
-**NOTE:** this site was build with node v12.11.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.11.0.
+**NOTE:** this site was built with node v12.11.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.11.0.
 
 ### Build using Docker
 
@@ -38,7 +38,7 @@ You can build the Learning Center and run it in a Docker container using the fol
 
    `git clone https://github.com/postmanlabs/postman-docs.git`
 
-2. Create a file and name it "dockerfile" with the following contents
+2. Create a file and name it "dockerfile" with the following contents:
 
     ```
 
@@ -79,7 +79,7 @@ You can build the Learning Center and run it in a Docker container using the fol
 
 #### Docker Compose
 
-You can also build with docker-compose using the dockerfile above and this docker-compose.yaml
+You can also build with the `docker-compose` command using the dockerfile above and this docker-compose.yaml
 
 ```
 
@@ -111,13 +111,13 @@ Start run the container with this command
 
 ## Project Structure
 
-The built site will only host the most up-to-date docs. All legacy documentation is stored in github and excluded from build.
+The built site will only host the most up-to-date docs. All legacy documentation is stored in GitHub and excluded from build.
 
 ### To update the docs
 
 * Posts are maintained under the `/src/pages/docs` folder.
 
-* The folder structure of /docs is the URL structure for posts. For example, `/docs/postman/variables-and-environments/variables.md` is mapped to URL `https://learning.postman.com/docs/postman/variables-and-environments/variables/`.
+* The folder structure of /docs is the URL structure for posts. For example, `/docs/postman/variables-and-environments/variables.md` is mapped to the URL `https://learning.postman.com/docs/postman/variables-and-environments/variables/`.
 
 * Links in the docs should be relative. Example:
 
