@@ -28,6 +28,7 @@ You can use version control with your Postman Collections by forking and merging
 * [Forking a collection](#forking-a-collection)
     * [Forking information](#forking-information)
     * [Forking to send requests](#forking-to-send-requests)
+    * [Watching a collection](#watching-a-collection)
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-PRs)
@@ -78,6 +79,26 @@ Being a signed-in non-member, to send requests in a public workspace, fork the c
 [![Visitor creating a fork](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)
 
 > Make sure your public profile is enabled before you fork a collection from a public workspace.
+
+### Watching a collection
+
+The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the collection. If you watch a collection, you will be notified of actions such as adding a new request, modifying the existing requests, adding or updating variables, editing pre-request scripts or tests, adding or deleting a folder and so on.
+
+Once you've created the collection, click __Watch__ to start watching the collection.
+
+![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v8.jpg)
+
+Click the bell icon in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the collection.
+
+<img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v8.jpg" width="500px"/>
+
+In addition to a notification, you will receive an email with the information regarding who has made the change, what the change was, and when it was made.
+
+![Watch Collection Email Notification](https://assets.postman.com/postman-docs/collection-watch-email-v8.jpg)
+
+Click __View changelog__ to access the full changelog in Postman.
+
+> If you created the collection and modified it from the same account, you will not receive email or in-app notifications for changes made.
 
 ## Creating pull requests
 
