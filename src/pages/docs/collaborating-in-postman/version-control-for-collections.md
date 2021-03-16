@@ -32,7 +32,6 @@ You can use version control with your Postman Collections by forking and merging
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-PRs)
-    * [Watching a pull request](#watching-a-pull-request)
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
 * [Pulling updates](#pulling-updates)
@@ -83,17 +82,17 @@ Being a signed-in non-member, to send requests in a public workspace, fork the c
 
 ### Watching a collection
 
-The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the collection for example adding a new request, renaming the collection, modifying the existing requests, adding/updating variables, pre-request script, tests, adding/deleting a folder, and description and so on.
+The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the collection. If you watch a collection, you will be notified of actions such as adding a new request, modifying the existing requests, adding or updating variables, editing pre-request scripts or tests, adding or deleting a folder and so on.
 
-Once you've created the collection, click the __Watch__ option to start watching the collection.
+Once you've created the collection, click __Watch__ to start watching the collection.
 
 ![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v8.jpg)
 
-Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the collection.
+Click the bell icon in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the collection.
 
 <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v8.jpg" width="500px"/>
 
-In addition to this, you will receive an email with the information regarding who has made the change, what the change was, and when it was made.
+In addition to a notification, you will receive an email with the information regarding who has made the change, what the change was, and when it was made.
 
 ![Watch Collection Email Notification](https://assets.postman.com/postman-docs/collection-watch-email-v8.jpg)
 
