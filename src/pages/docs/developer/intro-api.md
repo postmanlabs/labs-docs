@@ -29,6 +29,8 @@ You will need an [API key](#generating-a-postman-api-key) to access the Postman 
 
 > The Postman API is [rate limited](#rate-limits).
 
+<img alt="Fork Postman API" src="https://assets.postman.com/postman-docs/fork-postman-api-v8.jpg" height="500px"/>
+
 ## Generating a Postman API key
 
 You need a valid API Key to send requests to the Postman API endpoints.
