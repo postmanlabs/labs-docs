@@ -32,6 +32,7 @@ You can use version control with your Postman Collections by forking and merging
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-PRs)
+    * [Watching a pull request](#watching-a-pull-request)
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
 * [Pulling updates](#pulling-updates)
@@ -175,13 +176,13 @@ Once you create the pull request, you will get a notification that it has been _
 
 ### Watching a pull request
 
-The watch option allows you to receive an in-app notification when your team member belonging to the same workspace modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving / unapproving / merging / editing / declining a pull request, and updating the source collection.
+The watch option allows you to receive an in-app notification when your team member belonging to the same workspace modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, editing or declining a pull request, and so on.
 
 Once you've created the pull request, click __Watch__ to start watching the pull request.
 
 ![Pull request watching](https://assets.postman.com/postman-docs/watching-a-pull-request-v8.jpg)
 
-Once you have enabled the watch option, you will be able to view and modify the conditions for which the watch notifications will be triggered.
+Once you have enabled watch, you will be able to view and modify the conditions for which the watch notifications will be triggered.
 
 <img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v8.jpg" height="350px"/>
 
@@ -189,7 +190,7 @@ Click the bell icon in the top right corner of Postman to view the notification.
 
 <img alt="Notification Pull Request Watching" src="https://assets.postman.com/postman-docs/pull-request-watch-notification-v8.jpg" width="500px"/>
 
-> If you created the pull request and modified it from the same account, you will not receive email or in-app notifications for changes made.
+> If you created the pull request and modified it from the same account, you will not receive any notifications for changes made.
 
 ## Approving changes
 
