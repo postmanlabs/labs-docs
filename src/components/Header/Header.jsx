@@ -5,7 +5,9 @@ import algoliasearch from 'algoliasearch/lite';
 import {
   InstantSearch, SearchBox, Hits, Configure, Pagination,
 } from 'react-instantsearch-dom';
+import uuidv4 from 'uuid/v4';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
+
 import DynamicLink from '../Shared/DynamicLink';
 import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
 
@@ -212,7 +214,7 @@ class HeaderComponent extends React.Component {
             </ClickOutHandler>
           </div>
           {data.links.map((link) => (
-            <div className="nav-item" key={link.name}>
+            <div className="nav-item" key={uuidv4()}>
               {link.cta ? <LoginCheck cookie={this.getCookie('getpostmanlogin')} /> : <DynamicLink className="nav-link" url={link.url} name={link.name} />}
             </div>
           ))}

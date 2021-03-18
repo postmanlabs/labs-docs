@@ -28,6 +28,7 @@ You can use version control with your Postman Collections by forking and merging
 * [Forking a collection](#forking-a-collection)
     * [Forking information](#forking-information)
     * [Forking to send requests](#forking-to-send-requests)
+    * [Watching a collection](#watching-a-collection)
 * [Forking an environment](#forking-an-environment)
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
@@ -80,9 +81,29 @@ Being a signed-in non-member, to send requests in a public workspace, fork the c
 
 > Make sure your public profile is enabled before you fork a collection from a public workspace.
 
+### Watching a collection
+
+The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the collection. If you watch a collection, you will be notified of actions such as adding a new request, modifying the existing requests, adding or updating variables, editing pre-request scripts or tests, adding or deleting a folder and so on.
+
+Once you've created the collection, click __Watch__ to start watching the collection.
+
+![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v8.jpg)
+
+Click the bell icon in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the collection.
+
+<img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v8.jpg" width="500px"/>
+
+In addition to a notification, you will receive an email with the information regarding who has made the change, what the change was, and when it was made.
+
+![Watch Collection Email Notification](https://assets.postman.com/postman-docs/collection-watch-email-v8.jpg)
+
+Click __View changelog__ to access the full changelog in Postman.
+
+> If you created the collection and modified it from the same account, you will not receive email or in-app notifications for changes made.
+
 ## Forking an environment
 
-To fork an environment in Postman, select the environment in the __Environments__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by clicking __Fork__ button in environment overview tab.
+To fork an environment in Postman, select the environment in the __Environments__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by clicking __Fork__ in environment overview tab.
 
 <img src="https://assets.postman.com/postman-docs/create-an-environment-fork-v8.jpg" alt="Create an Environment Fork"/>
 
@@ -94,7 +115,7 @@ Your forked environment will be created in the selected workspace. You will be a
 
 <img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v8.jpg" height="200px"/>
 
-Forks icon <img alt="Fork icon on context bar for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the context bar provides details about the forks created.
+The forks icon <img alt="Fork icon on context bar for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the context bar provides details about the forks created.
 
 <img alt="Fork icon overview for v8" src="https://assets.postman.com/postman-docs/fork-panel-overview-v8.jpg" height="300px"/>
 
