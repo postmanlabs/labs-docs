@@ -29,6 +29,7 @@ You can use version control with your Postman Collections by forking and merging
     * [Forking information](#forking-information)
     * [Forking to send requests](#forking-to-send-requests)
     * [Watching a collection](#watching-a-collection)
+* [Forking an environment](#forking-an-environment)
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-PRs)
@@ -72,11 +73,11 @@ If you are a visitor who does not belong to any public workspace, to send reques
 
 Postman will prompt a login screen, you can either create a free account or sign in to get started.
 
-[![Visitor Sign in](https://assets.postman.com/postman-docs/sign-in-v2.jpg)](https://assets.postman.com/postman-docs/sign-in-v2.jpg)
+<img src="https://assets.postman.com/postman-docs/sign-in-v2.jpg" alt="Visitor Sign in" height="400px"/>
 
 Being a signed-in non-member, to send requests in a public workspace, fork the collection into a workspace that you belong to (either team or personal whichever you choose during fork creation) and then make changes.
 
-[![Visitor creating a fork](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)
+<img src="https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg" alt="Visitor creating a fork" height="400px"/>
 
 > Make sure your public profile is enabled before you fork a collection from a public workspace.
 
@@ -99,6 +100,28 @@ In addition to a notification, you will receive an email with the information re
 Click __View changelog__ to access the full changelog in Postman.
 
 > If you created the collection and modified it from the same account, you will not receive email or in-app notifications for changes made.
+
+## Forking an environment
+
+To fork an environment in Postman, select the environment in the __Environments__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by clicking __Fork__ in environment overview tab.
+
+<img src="https://assets.postman.com/postman-docs/create-an-environment-fork-v8.jpg" alt="Create an Environment Fork"/>
+
+Enter a label for your fork, and select a workspace to save it to. Click __Fork Environment__.
+
+<img src="https://assets.postman.com/postman-docs/fork-environment-v8.jpg" alt="Fork Label Environment" height="400px"/>
+
+Your forked environment will be created in the selected workspace. You will be able to view the forked environments in the sidebar on the left as well as under the environment dropdown on the right side of Postman.
+
+<img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v8.jpg" height="200px"/>
+
+The forks icon <img alt="Fork icon on context bar for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the context bar provides details about the forks created.
+
+<img alt="Fork icon overview for v8" src="https://assets.postman.com/postman-docs/fork-panel-overview-v8.jpg" height="300px"/>
+
+Click **View all forks** to reveal the detailed list of forks along with information about users who created them.
+
+<img alt="Fork overview details v8" src="https://assets.postman.com/postman-docs/fork-overview-details-v8.jpg"/>
 
 ## Creating pull requests
 
