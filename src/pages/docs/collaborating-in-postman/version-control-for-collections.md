@@ -83,7 +83,7 @@ Being a signed-in non-member, to send requests in a public workspace, fork the c
 
 ### Watching a collection
 
-The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the collection. If you watch a collection, you will be notified of actions such as adding a new request, modifying the existing requests, adding or updating variables, editing pre-request scripts or tests, adding or deleting a folder and so on.
+The watch option allows you to receive an email/in-app notification when one of your team members belonging to the same workspace modifies the collection. If you watch a collection, you will be notified of actions such as adding a new request, modifying the existing requests, adding or updating variables, editing pre-request scripts or tests, adding or deleting a folder and so on.
 
 Once you've created the collection, click __Watch__ to start watching the collection.
 
@@ -176,13 +176,13 @@ Once you create the pull request, you will get a notification that it has been _
 
 ### Watching a pull request
 
-The watch option allows you to receive an in-app notification when your team member belonging to the same workspace modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, editing or declining a pull request, and so on.
+The watch option allows you to receive an in-app notification when one of your team members belonging to the same workspace modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, editing or declining a pull request, and so on.
 
 Once you've created the pull request, click __Watch__ to start watching the pull request.
 
 ![Pull request watching](https://assets.postman.com/postman-docs/watching-a-pull-request-v8.jpg)
 
-Once you have enabled watch, you will be able to view and modify the conditions for which the watch notifications will be triggered.
+Once you have enabled watch, you will be able to view and modify the conditions for which notifications will be triggered.
 
 <img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v8.jpg" height="350px"/>
 
