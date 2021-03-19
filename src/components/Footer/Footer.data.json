@@ -37,7 +37,7 @@
     {"name": "Pricing",
       "children": [
         { "url": "https://www.postman.com/pricing/", "name": "Plans & Pricing Overview", "id": "plans-and-pricing-overview", "category": "global-footer", "label": "plans-and-pricing-overview"},
-        { "url": "https://www.postman.com/postman-enterprise/", "name": "Postman Enterprise", "id": "postman-enterprise", "category": "global-footer", "label": "postman-enterprise"}
+        { "url": "https://www.postman.com/postman-enterprise/", "name": "Postman for Enterprises", "id": "postman-enterprise", "category": "global-footer", "label": "postman-enterprise"}
       ]
     },
 
