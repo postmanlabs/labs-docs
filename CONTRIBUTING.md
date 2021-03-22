@@ -8,9 +8,9 @@ Please note we have a [code of conduct](https://www.postman.com/code-of-conduct)
 
 We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes to this repository.
 
-_GitHub desktop is much easier if you're unfamiliar with using git / GitHub on the command line._
+_GitHub Desktop is much easier if you're unfamiliar with using git / GitHub on the command line._
 
-* Fork this repo to create a copy hosted on your github account. The Fork button is in the top right of the page.
+* Fork this repo to create a copy hosted on your GitHub account. The Fork button is in the top right of the page.
     * If you're a collaborator on the repo you can instead just create a branch.
 * Clone down your copy of this repo onto your local machine: `git clone <YOUR GITHUB REPO URL>`
 * Navigate to the new directory git created. `cd postman-docs`
@@ -77,14 +77,14 @@ Two example docs using `dynamic_blog`:
 
 #### For internal Postman contributors
 
-You need to get the `.env.development` file from Marketing Engineering, and place in root of local Learning Center (.gitignore will keep it from getting checked in).
+You need to get the `.env.development` file from Marketing Engineering, and place in root of local Learning Center (`.gitignore` will keep it from getting checked in).
 
 * If you do not have this file or are an external contributor, the app will still build, but the Recent Blogs section in right sidebar will be hidden / blank (this is expected behavior).
-* `.env.development` file is for internal use only.
+* The `.env.development` file is for internal use only.
 
 #### When updating from hardcoded blog links to dynamic:
 
-Open doc file .md that you want to edit right sidebar, and look for `contextual_links` in frontmatter. Look for presence of existing recent Blogs posts like:
+Open the doc file .md that you want to edit right sidebar, and look for `contextual_links` in frontmatter. Look for the presence of existing recent Blogs posts like:
 
 ~~~~
 - type: subtitle
