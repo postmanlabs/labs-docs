@@ -95,6 +95,8 @@ Select the team member you would like to send your request to and the **Editor**
 
 <img src="https://assets.postman.com/postman-docs/request-access-monitor-send-request.jpg" alt="Request access to monitor" width="500px"/>
 
+When your request for access is approved, you will receive a notification in Postman.
+
 ### Approving requests for access
 
 Your team members can request access from you in the following cases:
