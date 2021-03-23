@@ -16,12 +16,14 @@ warning: false
 
 ---
 
-You can request edit access to a team member's personal or private collection / API. You will need a link to the API or collection, or access to it in Postman. When you submit a request, the owner will receive a notification prompting them to choose whether to grant you the role.
+You can request edit access to a team member's personal or private collection, API, or monitor. You will need a link to the API or collection, or have access to it in Postman. When you submit a request, the owner will receive a notification prompting them to choose whether to grant you the role.
 
 - [Requesting access to collections](#requesting-access-to-collections)
     - [Requesting editor role on a collection](#requesting-editor-role-on-a-collection)
 - [Requesting access to APIs](#requesting-access-to-apis)
     - [Requesting editor role on an API](#requesting-editor-role-on-an-api)
+- [Requesting access to Monitors](#requesting-access-to-monitors)
+    - [Requesting editor role on a monitor](#requesting-editor-role-on-a-monitor)
 - [Approving requests for access](#approving-requests-for-access)
 
 ## Requesting access to collections
@@ -72,6 +74,26 @@ You can request the Editor role on this API:
 <img alt="Request Access to API" src="https://assets.postman.com/postman-docs/request-editor-role-on-api-v8.jpg"/>
 
 This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
+
+## Requesting access to Monitors
+
+Editing a monitor requires you to have edit access for that specific monitor.
+
+### Requesting editor role on a monitor
+
+In order to get edit access for a monitor, you will need to first be a member of the team the monitor is owned by and a member of the workspace that contains the monitor.
+
+Once you have joined the team and [joined the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#joining-workspaces), navigate to the monitor in question in Postman. In the upper right, hover over the monitor and select **...** > **Edit**.
+
+<img src="https://assets.postman.com/postman-docs/manage-roles-request-access-monitor.jpg" alt="Manage roles request access"/>
+
+Click **Request Access**.
+
+<img src="https://assets.postman.com/postman-docs/manage-roles-request-access-monitor-21.jpg" alt="You need additional access modal"/>
+
+Select the team member you would like to send your request to and the **Editor** role, then **Request Access**.
+
+<img src="https://assets.postman.com/postman-docs/request-access-monitor-send-request.jpg" alt="Request access to monitor" width="500px"/>
 
 ### Approving requests for access
 
