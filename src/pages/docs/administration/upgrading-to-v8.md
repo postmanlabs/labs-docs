@@ -63,7 +63,7 @@ Migration is required if team members are using Postman v6 or below. If you are 
 
 * Access new features and updates because new feature development will be based on [Postman v8](https://www.postman.com/downloads/release-notes/).
 
-> Once your team migrates to Postman v7 or above, the native apps 5.x and 6.x versions and Chrome app 5.x versions will stop syncing and all [collaboration features](/docs/collaborating-in-postman/collaboration-intro/) will stop working and all members of the team need to update their apps to Postman v7 or above to continue collaborating.
+> Once your team migrates to Postman v7 or above, the native apps 5.x and 6.x versions and Chrome app 5.x versions will stop syncing. All [collaboration features](/docs/collaborating-in-postman/collaboration-intro/) will stop working and all members of the team need to update their apps to Postman v7 or above to continue collaborating.
 
 **Note:** The migration decision is restricted to the team admin. If you are a Postman team member(non-admin) and are not on Postman v8, please contact your admin to migrate to Postman v8.
 
