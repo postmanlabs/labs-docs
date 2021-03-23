@@ -47,25 +47,25 @@ Upon approval your PR will be merged into develop for further verification and t
 
 ## Adding/Editing Links
 
-If you would like to add, edit or replace links you are welcome to do so. There are two types of links in the docs, and formatting them correctly is important to help reduce 3xx redirects, and broken links:
+If you would like to add, edit, or replace links you are welcome to do so. There are two types of links in the docs, and formatting them correctly is important to help reduce 3xx redirects and broken links:
 
 ### Internal links to docs
 
 When creating or editing an internal link (a link that points to a Learning Center doc), be sure to:
 
-* use a relative URL. Example: `/docs/collaborating-in-postman/collaboration-intro/`
-* use a trailing slash to keep our app from creating uneccesary 302 redirects. (See example of trailing slash above.)
-* use a leading slash to keep the doc page from 404'ing. (See example of leading slash above.) 
-* `npm run dev` the app and check links you have added / edited to ensure they work correctly.
+* Use a relative URL. Example: `/docs/collaborating-in-postman/collaboration-intro/`
+* Use a trailing slash to keep our app from creating unnecessary 302 redirects. (See example of trailing slash above.)
+* Use a leading slash to keep the doc page from 404'ing. (See example of leading slash above.)
+* `npm run dev` the app and check links you have added or edited to ensure they work correctly.
 
 ### External links
 
 When creating or editing an external link (a link that points to sources outside of Learning Center), be sure to:
 
-* use an absolute URL. Example: `https://www.postman.com`
-* use the resolved URL. Do not use abbreviated URLs (postman.com) or URLs that redirect (`http://www.postman.com`). TIP: Enter the URL into the browser and let it resolve, and copy the entire URL and use that.
-* strip off any UTM parameters or uneccessary querystrings or tracking at the end of URLs. Example: `?utm_source=blog&utm_medium=internal&utm_campaign=exampleCampaign`
-* as a best practice for a11y, add titles to external links to help the visitor understand the purpose of the link and why they will be taken away from the Learning Center. Example: `[Postman API Platform](https://www.postman.com/api-platform/  "Visit the Postman website to learn more about the Postman API Platform")`
+* Use an absolute URL. Example: `https://www.postman.com`
+* Use the resolved URL. Do not use abbreviated URLs (postman.com) or URLs that redirect (`http://www.postman.com`). **Tip:** Enter the URL into the browser and let it resolve, and copy the entire URL and use that.
+* Strip off any UTM parameters or unnecessary query strings or tracking at the end of URLs. Example: `?utm_source=blog&utm_medium=internal&utm_campaign=exampleCampaign`
+* As a best practice for accessibility, add titles to external links to help the visitor understand the purpose of the link and why they will be taken away from the Learning Center. Example: `[Postman API Platform](https://www.postman.com/api-platform/  "Visit the Postman website to learn more about the Postman API Platform")`
 
 ## Adding/Editing Images
 
