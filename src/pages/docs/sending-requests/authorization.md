@@ -129,7 +129,7 @@ With API key auth, you send a key-value pair to the API either in the request he
 [![API Key Auth](https://assets.postman.com/postman-docs/api-key-auth-selection.jpg)](https://assets.postman.com/postman-docs/api-key-auth-selection.jpg)
 
 Postman will append the relevant information to your request __Headers__ or the URL query string.
-  
+
 ## Bearer token
 
 Bearer tokens allow requests to authenticate using an access key, such as a JSON Web Token (JWT). The token is a text string, included in the request header. In the request __Authorization__ tab, select __Bearer Token__ from the __Type__ dropdown list. In the __Token__ field, enter your API key value—or for added security, store it in a variable and reference the variable by name.
@@ -307,8 +307,8 @@ Enter the provider's __Access Token URL__, together with the __Client ID__ and _
 The full list of parameters to request a new access token is as follows, depending on your grant type:
 
 * __Token Name:__ The name you want to use for the token.
-* __Grant Type:__ A dropdown list of options—this will depend on the API service provider requirements.
-* __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it—if this does not work for your API, you can use the following URL: `https://oauth.pstmn.io/v1/browser-callback`
+* __Grant Type:__ A dropdown list of options. This will depend on the API service provider requirements.
+* __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it. If this does not work for your API, you can use the following URL: `https://oauth.pstmn.io/v1/browser-callback`
     * __Authorize using browser:__ You can choose to enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use __Authorization code__ or __Implicit__ grant type. Checking this box will set the __Callback URL__ to return to Postman.
 * __Auth URL:__ The endpoint for the API provider authorization server, to retrieve the auth code.
 * __Access Token URL:__ The provider's authentication server, to exchange an authorization code for an access token.
