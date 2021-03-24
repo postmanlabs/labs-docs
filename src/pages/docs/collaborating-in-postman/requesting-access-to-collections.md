@@ -16,7 +16,7 @@ warning: false
 
 ---
 
-You can request edit access to a team member's personal or private collection, API, or monitor. You will need a link to the API or collection, or have access to it in Postman. When you submit a request, the owner will receive a notification prompting them to choose whether to grant you the role.
+You can request edit access to a team member's personal or private collection, API, or monitor. You will need a link to the collection, API, or monitor, or have access to it in Postman. When you submit a request, the owner will receive a notification prompting them to choose whether to grant you the role.
 
 - [Requesting access to collections](#requesting-access-to-collections)
     - [Requesting editor role on a collection](#requesting-editor-role-on-a-collection)
@@ -81,7 +81,7 @@ Editing a monitor requires you to have edit access for that specific monitor.
 
 ### Requesting editor role on a monitor
 
-In order to get edit access for a monitor, you will need to first be a member of the team the monitor is owned by and a member of the workspace that contains the monitor.
+To get edit access for a monitor, you will first need to be a member of the team that owns the monitor, and then a member of the workspace that contains the monitor.
 
 Once you have joined the team and [joined the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#joining-workspaces), navigate to the monitor in question in Postman. In the upper right, hover over the monitor and select **...** > **Edit**.
 
