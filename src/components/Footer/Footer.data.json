@@ -20,7 +20,7 @@
     {"name": "Get Postman",
       "children": [
         { "url": "https://www.postman.com/downloads/", "name": "Download App", "id": "download-app", "category": "global-footer", "label": "download-app"},
-        { "url": "https://www.postman.com/company/contact-us/", "name": "Contact Sales", "id": "contact-sales", "category": "global-footer", "label": "contact-sales"}
+        { "url": "https://www.postman.com/pricing/get-started-postman-plans/", "name": "Contact Sales", "id": "contact-sales", "category": "global-footer", "label": "contact-sales"}
       ]
     },
 
