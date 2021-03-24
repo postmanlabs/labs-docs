@@ -32,7 +32,7 @@ Postman provides a variety of views and controls for managing your API projects.
 
 [![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
 
-* The left sidebar provides access to your collections, APIs, environments, mock servers, monitors and request [history](#history).
+* The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/the-api-workflow/#creating-an-api), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/) and request [history](#history).
 * The header allows you to create workspaces, access reports, explore the public API network, search within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, access your settings, account, and Postman plan.
 * The center area is where you build and work with requests.
 * The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view, and access help resources.
@@ -47,7 +47,7 @@ On the right panel, you will see icons to view the documentation, comments, code
 
 <img alt="Right panel icons" src="https://assets.postman.com/postman-docs/right-panel-view-v8.jpg" height="300px"/>
 
-To open the documentation tab, select the request under your collection and click the Documentation icon<img alt="Mini docs icon" src="https://assets.postman.com/postman-docs/mini-docs-icon-v8.jpg" width="50px"/> on the right panel.
+To open the documentation tab, select the request under your collection and click the Documentation icon<img alt="Mini docs icon" src="https://assets.postman.com/postman-docs/mini-docs-icon-v8.jpg" width="25px"/> on the right panel.
 
 <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/overview-documentations-v8.jpg"/>
 
@@ -70,6 +70,20 @@ To open the code snippets tab, select the request under your collection and clic
 You can declutter your workspace by collapsing panes. Use the buttons at the bottom-left to hide the sidebar and at the bottom-right to toggle between single and two pane view.
 
 [![general layout](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)
+
+## Universal search
+
+You can access universal search by clicking __Search Postman__ at the top of Postman — or using the keyboard shortcut `Command + K`.
+
+Enter your search string and change the scope of search to narrow down your search results — All of Postman, Team Postman or Public API Network.
+
+<img alt="Changing scope for universal search" src="https://assets.postman.com/postman-docs/change-scope-for-universal-search-v8.gif"/>
+
+For signed in users, the default search scope on workspaces is Team and on [explore](explore.postman.com) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
+
+You can additionally filter for entities such as workspaces, collections, APIs and teams by selecting the required option near **Search For**. Within each of the entities, you can filter based on the categories.
+
+<img alt="Universal search with filter" src="https://assets.postman.com/postman-docs/universal-search-filter-by-entity-v8.jpg"/>
 
 ## Find and replace
 
