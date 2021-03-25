@@ -21,7 +21,7 @@ class EditDoc extends Component {
     const classes = className ? `${className}` : '';
     const { pathRoute } = this.state;
     return (
-      <a id="GTM-LC-id" className={classes} href={`https://github.com/postmanlabs/postman-docs/blob/develop/src/pages${pathRoute}.md`} target="_blank" rel="noopener noreferrer nofollow" >
+      <a id="GTM-LC-id" className={classes} href={`https://github.com/postmanlabs/postman-docs/blob/develop/src/pages${pathRoute}.md`} target="_blank" rel="noopener noreferrer nofollow">
         <i>
           <svg
             height="20"
