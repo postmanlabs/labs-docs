@@ -90,16 +90,22 @@ function SEO({
 
       <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1cef3369-6d07-4928-b977-2d877eb670c4" />
       {/* fonts */}
+      <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+      <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+      <link crossorigin rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
       {/* Bootstrap */}
+      <link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com" />
+      <link crossorigin rel="preconnect" href="https://stackpath.bootstrapcdn.com" />
       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
       <link rel="canonical" href={`https://learning.postman.com${slug}`} />
       {/* Algolia Instantsearch IE11 support v3 */}
       {/* <script src="https://polyfill.io/v3/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes" /> */}
       {/*  */}
       {/* Algolia Instantsearch IE11 support v4 */}
+      <link rel="dns-prefetch" href="https://polyfill.io" />
+      <link crossorigin rel="preconnect" href="https://polyfill.io" />
       <script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries" />
       {/* Algolia API v4 IE11 support  */}
       <script src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CObject.entries%2CObject.assign" />
