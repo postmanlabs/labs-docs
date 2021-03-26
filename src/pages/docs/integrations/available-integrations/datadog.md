@@ -63,4 +63,4 @@ Once the data is present in Datadog, you can filter it based on the monitor name
 
 ## Create a dashboard with Datadog
 
-With this Datadog integration with Postman you can create dashboards to quickly monitor and view your APIs metrics.
+With this Datadog integration with Postman you can create dashboards to quickly monitor and view your APIs metrics. 
