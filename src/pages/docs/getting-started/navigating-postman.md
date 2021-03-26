@@ -18,6 +18,9 @@ contextual_links:
   - type: link
     name: "History | Postman Level Up"
     url: "https://www.youtube.com/watch?v=9VBTKwUCsGw&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=4"
+  - type: link
+    name: "Universal Search | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
   - type: section
     name: "Next Steps"
   - type: link
@@ -79,11 +82,29 @@ Enter your search string and change the scope of search to narrow down your sear
 
 <img alt="Changing scope for universal search" src="https://assets.postman.com/postman-docs/change-scope-for-universal-search-v8.gif"/>
 
-For signed in users, the default search scope on workspaces is Team and on [explore](explore.postman.com) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
+For signed in users, the default search scope on workspaces is Team and on [explore](https://explore.postman.com) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
 
-You can additionally filter for entities such as workspaces, collections, APIs and teams by selecting the required option near **Search For**. Within each of the entities, you can filter based on the categories.
+You can additionally change the entity type at the bottom by selecting the required option near **Search for** — Workspaces, Collections, APIs or Teams.
 
 <img alt="Universal search with filter" src="https://assets.postman.com/postman-docs/universal-search-filter-by-entity-v8.jpg"/>
+
+If you still did not find what you are looking for, click __Search all workspaces, collections, APIs and teams__ and you will find all the results in one page.
+
+<img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams.jpg"/>
+
+The left navigation on the search results page lists the scope and entity type. You can go ahead and change them to filter your results.
+
+<img alt="Universal search results page" src ="https://assets.postman.com/postman-docs/universal-search-results-page-v8.jpg"/>
+
+You can further filter the results using the Sort by option on the right - Most relevant, Most views or Most recent.
+
+<img alt="Search results sort" src ="https://assets.postman.com/postman-docs/search-result-sort-by-v8.jpg"/>
+
+Each individual search result specifies the workspace type, who published it and when was it published.
+
+<img alt="Individual search results" src ="https://assets.postman.com/postman-docs/individual-search-result-v8.jpg"/>
+
+To explore more about search, see [Universal Search in Postman](https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/).
 
 ## Find and replace
 
