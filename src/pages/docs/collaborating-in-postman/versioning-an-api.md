@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: link
     name: "Managing and sharing APIs"
-    url: "/docs/postman/design-and-develop-apis/managing-apis/"
+    url: "/docs/designing-and-developing-your-api/managing-apis/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
