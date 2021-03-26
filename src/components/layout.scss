@@ -115,3 +115,8 @@ div.col-sm-7.doc-page {
     padding: 80px;
   }
 }
+
+/* Padding below embed videos */
+.gatsby-resp-iframe-wrapper {
+  margin-bottom: 24px;
+}
