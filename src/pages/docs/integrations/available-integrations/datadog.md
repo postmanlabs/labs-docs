@@ -61,6 +61,36 @@ Once the data is present in Datadog, you can filter it based on the monitor name
 
 [![datadog filters](https://assets.postman.com/postman-docs/58831776.png)](https://assets.postman.com/postman-docs/58831776.png)
 
+## Metrics and Tags forwarded to Datadog from Postman
+
+Postman is able to forward a wide array of metrics and tags for the specified monitors. The metrics and tags allow you to clearly see the statuses and what may have caused the issues.
+
+| **Metrics**          | **Type**         | **Description**         | **Level**         |
+| ------------- | ------------- | ------------- | ------------- |
+| PostmanMonitors_errors | GAUGE   |
+| PostmanMonitors_failedTests | GAUGE  |
+| PostmanMonitors_passedTests  | GAUGE  |
+| PostmanMonitors_requestCount  | GAUGE  |
+| PostmanMonitors_totalLatencys  | GAUGE  |
+| PostmanMonitors_warnings  | GAUGE  |
+| PostmanMonitor\_run\_httpStatus2XX  | GAUGE  | No of requests which return 200 series response HTTP status in a monitor run  | Run  |
+| PostmanMonitor\_run\_httpStatus3XX  | GAUGE  | No of requests which return 300 series response HTTP status in a monitor run  | Run  |
+| PostmanMonitor\_run\_httpStatus4XX  | GAUGE  | No of requests which return 400 series response HTTP status in a monitor run  | Run  |
+
+<br />
+
+| **Tag**          | **Description**         | **Level-Event/Metric**         |
+| ------------- | ------------- | ------------- |
+| Region | PostmanMonitors_failedTests | The region from where the monitor is run  | Metric (run level), Metric (request level)  |
+| Triggers | What triggered the monitor run - Manual vs Webhook vs Scheduled  | Event and Metric (run level)  |
+| Run results | Successful vs Failure vs Error vs Abort  | Metric (run level)<br />This is already captured for the events (job level)  |
+| Level | What level is the metric captured for - Run vs Request  | What level is the metric captured for - Run vs Request  |
+| Status Code | HTTP response code for the request run  | Metric (request level)  |
+| Job ID | Monitor's Job ID  | Metric (run level) and Metric (request level)  |
+| Request ID | The request identifier  | Metric (run level)  |
+
 ## Create a dashboard with Datadog
 
-With this Datadog integration with Postman you can create dashboards to quickly monitor and view your APIs metrics.
+With this Datadog integration with Postman you can create dashboards to quickly monitor and view your APIs metrics. You can create a separate dashboard that corresponds to each monitor, containing all the metrics associated with that monitor and a few other systems/ network resource metrics. The dashboard provides you with an end-to-end view of the performance, resilience, resource utilization, and availability of your APIs.
+
+[![datadog dashboards](https://assets.postman.com/postman-docs/datadog-postman-api-dashboard.jpg)](https://assets.postman.com/postman-docs/datadog-postman-api-dashboard.jpg)
