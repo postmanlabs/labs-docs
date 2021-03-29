@@ -32,13 +32,13 @@ contextual_links:
 warning: false
 ---
 
-You can group your Postman requests into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation / test suites, and to automate request runs.
+You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation / test suites, and to automate request runs.
 
 Postman lists your collections in the left sidebar &gt; select __Collections__.
 
 [![Collections](https://assets.postman.com/postman-docs/collections-v8.jpg)](https://assets.postman.com/postman-docs/collections-v8.jpg)
 
-Click a collection to open its overview in a tab. You can open and close collection content by clicking the arrow to the left, and favorite (&#9733;) to move a collection to the top of the list. You can add sub-folders to create an extra level of nesting with your requests. Use the search text-field to filter through your collections.
+Click a collection to open its overview in a tab. You can open and close collection content by clicking the arrow to the left, and favorite (&#9733;) to move a collection to the top of the list. You can add sub-folders to create an extra level of nesting with your requests and examples. Use the search text-field to filter through your collections.
 
 ## Contents
 
@@ -53,7 +53,7 @@ You can create a new collection by clicking __+__ in the left sidebar, the __New
 
 <img alt="New collection" src="https://assets.postman.com/postman-docs/new-collection-v8.jpg" width="400px"/>
 
-Give your new collection a name—you can start adding requests straight away if you don't want to specify collection details until later.
+Give your new collection a name. You can start adding requests if you don't want to specify collection details until later.
 
 [![Collection opened](https://assets.postman.com/postman-docs/collection-created-v8.jpg)](https://assets.postman.com/postman-docs/collection-created-v8.jpg)
 
@@ -95,11 +95,11 @@ To save a request from your history, select its __...__ menu in __History__ on t
 
 ## Managing collections
 
-To add a folder to your collection, open its __...__ menu in __Collections__ on the left of Postman, and choose __Add Folder__. You can then add requests to the folder either by dragging them over it from inside the collection, or choosing __Add a request__ when empty / __Add Request__ from the __...__ menu.
+To add a folder to your collection, open its __...__ menu in __Collections__ on the left of Postman, and choose __Add Folder__. You can then add requests and examples to the folder either by dragging them over it from inside the collection, or choosing __Add a request__ when empty / __Add Request__ from the __...__ menu.
 
 <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/folders-v8.jpg" width="350px"/>
 
-You can reorder the requests and folders inside a collection by clicking and dragging them.
+You can reorder the requests, folders, and examples inside a collection by clicking and dragging them.
 
 To delete a collection, in __Collections__ click __...__ and select __Delete__.
 
