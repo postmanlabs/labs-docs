@@ -25,7 +25,7 @@ contextual_links:
 
 You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of Postman, your specification can act as the single source of truth for your API project. The API Builder supports API-first development by allowing you to generate collections from your schema and build your development and testing from there.
 
-[![API Builder](https://assets.postman.com/postman-docs/v8-api-builder-overview2.jpg)](https://assets.postman.com/postman-docs/v8-api-builder-overview2.jpg)
+[![API Builder](https://assets.postman.com/postman-docs/v8-api-builder-overview2-v2.jpg)](https://assets.postman.com/postman-docs/v8-api-builder-overview2-v2.jpg)
 
 You can connect various components of your API development and testing process to your schema, such as collections, documentation, tests, mocks, and monitors. You can also version your APIs in Postman and connect elements to specific versions.
 
@@ -80,9 +80,16 @@ The __Define__ tab in your API will include a specification (either one you impo
 
 The default schema format is Open API 3.0, with YAML as the default language. To use a different schema type or language, choose it from the drop-down list.
 
-The schema editor provides options to beautify the content, wrap text, copy, and search. When you finish editing your schema, click **Save**.
+The left pane of the schema editor displays an outline of your schema. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Click nodes to expand or collapse them. Click an element in the outline to jump to it in the editor. You can also click the outline button to hide or show the outline.
 
-![Save Schema](https://assets.postman.com/postman-docs/v8-wrap-text2.jpg)
+In the schema editor, when you hover over a '#ref' component and press the Command key, a popover displays the first 200 characters of the reference component. When you Command-click the reference component, it will jump to the reference location.
+
+![Schema refs](https://assets.postman.com/postman-docs/v8-api-builder-ref-jump.jpg)
+
+
+In the upper right of the schema editor are options to beautify the content, wrap text, copy, and search. When you finish editing your schema, click **Save**.
+
+![Save Schema](https://assets.postman.com/postman-docs/v8-wrap-text2-v2.jpg)
 
 > Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your schema.
 
@@ -90,7 +97,7 @@ The schema editor provides options to beautify the content, wrap text, copy, and
 
 The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see a **Generate Collection** option on the right-hand side of the tabs:
 
-![Schema Editor Options](https://assets.postman.com/postman-docs/v8-generate-collection-button2.jpg)
+![Schema Editor Options](https://assets.postman.com/postman-docs/v8-generate-collection-button2-v2.jpg)
 
 To create a collection based on your schema, click **Generate Collection**. You can add the collection as documentation, a test suite, an integration test, a monitor, a mock server, or a contract test. The collection will appear in __Collections__ in the left sidebar.
 
