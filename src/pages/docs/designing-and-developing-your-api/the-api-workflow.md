@@ -86,7 +86,6 @@ In the schema editor, when you hover over a '#ref' component and press the Comma
 
 ![Schema refs](https://assets.postman.com/postman-docs/v8-api-builder-ref-jump.jpg)
 
-
 In the upper right of the schema editor are options to beautify the content, wrap text, copy, and search. When you finish editing your schema, click **Save**.
 
 ![Save Schema](https://assets.postman.com/postman-docs/v8-wrap-text2-v2.jpg)
