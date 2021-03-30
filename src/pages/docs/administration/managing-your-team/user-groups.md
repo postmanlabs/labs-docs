@@ -52,6 +52,8 @@ Give your user group a name and description, add your team members, and select t
 
 > Team members will receive an email and in-app notification when added to a user group.
 
+> If a team member with a support-only account (admin and/or billing) is given the **Developer** role via a user group they are in, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
+
 ## Editing a user group
 
 You can edit a user group at any time by managing a group's team members and access to Postman entities.
