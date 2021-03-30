@@ -21,6 +21,11 @@ contextual_links:
   - type: link
     name: "Universal Search | Postman Level Up"
     url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "How Postman Designers Built the New Universal Search Feature"
+    url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"  
   - type: section
     name: "Next Steps"
   - type: link
@@ -84,7 +89,7 @@ Enter your search string and change the scope of search to narrow down your sear
 
 For signed in users, the default search scope on workspaces is Team and on [explore](https://explore.postman.com) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
 
-You can additionally change the entity type at the bottom by selecting the required option near **Search for** — Workspaces, Collections, APIs or Teams.
+You can additionally change the entity type at the bottom by selecting the required option near **Search for** — Workspaces, Collections, APIs or Teams. Within each of these entities, you can further filter the results based on the categories.
 
 <img alt="Universal search with filter" src="https://assets.postman.com/postman-docs/universal-search-filter-by-entity-v8.jpg"/>
 
@@ -100,11 +105,19 @@ You can further filter the results using the Sort by option on the right - Most 
 
 <img alt="Search results sort" src ="https://assets.postman.com/postman-docs/search-result-sort-by-v8.jpg"/>
 
-Each individual search result specifies the workspace type, who published it and when was it published.
+The search result for workspace entity result specifies the workspace type, summary, who published it and when was it published.
 
-<img alt="Individual search results" src ="https://assets.postman.com/postman-docs/individual-search-result-v8.jpg"/>
+<img alt="Individual workspace search results" src ="https://assets.postman.com/postman-docs/individual-workspace-search-results-v8.jpg"/>
 
-To explore more about search, see [Universal Search in Postman](https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/).
+The search result for API entity specifies the name and summary of the API, owner (user/team) and the type of workspace.
+
+<img alt="Individual API search results" src ="https://assets.postman.com/postman-docs/individual-api-search-results-v8.jpg"/>
+
+The search result for team entity specifies the name and summary of the team. Click the team name and you will be redirected to the team profile.
+
+The search result for collection entity specifies the workspace type, if the collection is a fork or not, who published it and when was it published.
+
+<img alt="Individual collection search results" src ="https://assets.postman.com/postman-docs/individual-collection-search-results-v8.jpg"/>
 
 ## Find and replace
 
