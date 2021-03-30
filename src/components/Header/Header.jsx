@@ -130,12 +130,19 @@ class HeaderComponent extends React.Component {
   }
 
   // click out search results box
-  onClickOut = () => {
-    document.getElementsByClassName('ais-SearchBox-input')[0].value = '';
-    this.setState(() => ({
-      hasInput: false,
-    }));
-  }
+  onClickOut = (e) => {
+    const searchInput = document.getElementsByClassName('ais-SearchBox-input')[0].value;
+    if (searchInput !== '') {
+      this.setState(() => ({
+        hasInput: true,
+      }));
+    } else {
+      this.setState(() => ({
+        hasInput: false,
+      }));
+    }
+  };
+
 
 
   render() {
