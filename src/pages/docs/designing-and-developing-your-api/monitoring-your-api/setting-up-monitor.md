@@ -153,7 +153,7 @@ You have the option to **Retry if run fails**. If this is enabled and a failure 
 
 You can configure a **Request timeout** if you'd like to make sure all of your requests run within a certain amount of time. By default, requests do not have a timeout value, however each monitor run has a timeout of five minutes. It is not possible to configure this at the request level.
 
-> Request timeout may not exceed five minutes (300000ms).
+> Request timeout may not exceed five minutes (300000 ms).
 
 ### Adding delays between requests
 
