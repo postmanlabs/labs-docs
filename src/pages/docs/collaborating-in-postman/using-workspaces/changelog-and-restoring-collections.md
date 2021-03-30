@@ -115,7 +115,6 @@ Postman will prompt you to resolve any conflicts that may cause you to lose unsa
 With a Postman Team, Business, or Enterprise account, you can pipe team activity feeds to external communication channels:
 
 * [Slack integration](/docs/integrations/available-integrations/slack/)
-* [HipChat integration](/docs/integrations/available-integrations/hipchat/)
 * [Microsoft Teams integration](/docs/integrations/available-integrations/microsoft-teams/)  
 
 ## Next steps
