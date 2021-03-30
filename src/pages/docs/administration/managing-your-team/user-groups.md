@@ -44,11 +44,11 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 
 As a team admin, you can create a user group by navigating to Postman, selecting **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups** > **Create Group**.
 
-SCREENSHOT CREATE GROUP BUTTON
+<img alt="Create user group button" src="https://assets.postman.com/postman-docs/manage-team-create-group-button.jpg"/>
 
 Give your user group a name and description, add your team members, and select the team roles you would like to assign to the group, then **Create Group**.
 
-SCREENSHOT CREATE GROUP FORM
+<img alt="Create user group form" src="https://assets.postman.com/postman-docs/manage-team-create-group-form.jpg" width="500px"/>
 
 ## Editing a user group
 
@@ -60,7 +60,7 @@ In Postman, select **Home** in the upper-left corner, then **Manage Team** on th
 
 Click **+ Add** to add a team member to the user group. Click **X** next to a member to remove them from the user group.
 
-SCREENSHOT ADD OR REMOVE TEAM MEMBERS
+<img alt="Manage team members" src="https://assets.postman.com/postman-docs/manage-team-edit-group-form.jpg" width="500px"/>
 
 ### Managing access control for a user group
 
@@ -70,7 +70,7 @@ You can control a user group's access at a team level, workspace level, and on i
 
 In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-SCREENSHOT EDIT ROLES
+<img alt="Edit user group team roles" src="https://assets.postman.com/postman-docs/manage-team-edit-group-form-roles.jpg" width="500px"/>
 
 Select the team roles you would like to assign to the user group, or deselect team roles you would like to remove from the user group, then **Save Changes**.
 
@@ -80,7 +80,7 @@ You can control a user group's access to individual workspaces, collections, API
 
 For collections, APIs, environments, mock servers, and monitors, navigate to the entity in Postman and in the left sidebar, select **...** > **Manage roles**.
 
-SCREENSHOT MANAGE ROLES ON COLLECTION
+SCREENSHOT MANAGE ROLES ON COLLECTION WITH USER GROUP SELECTED
 
 Use the search bar to add the user group, then give the group **Editor** or **Viewer** permissions with the dropdown. You can also remove a user group by selecting the **X** to the right of it in the list. Click **Save** to confirm changes.
 
@@ -90,7 +90,7 @@ Use the search bar to add the user group, then give the group **Editor** or **Vi
 
 In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-SCREENSHOT EDIT NAME
+<img alt="Edit user group description" src="https://assets.postman.com/postman-docs/manage-team-edit-group-description.jpg" width="500px"/>
 
 Click on the user group's name at the top of the page to modify it. To add a description, select **Click To Edit** under the group's name. To update an existing description, select it to modify. **Save Changes** to confirm your updates.
 
