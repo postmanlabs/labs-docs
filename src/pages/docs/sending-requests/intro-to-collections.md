@@ -101,6 +101,8 @@ To add a folder to your collection, open its __...__ menu in __Collections__ on 
 
 You can reorder the requests, folders, and examples inside a collection by clicking and dragging them.
 
+<img alt="Reorder collections" src="https://assets.postman.com/postman-docs/reorder-collection.jpg"/>
+
 To delete a collection, in __Collections__ click __...__ and select __Delete__.
 
 > You can recover deleted collections in Postman using __Trash__. Click `...` next to the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the bottom right corner in Postman.
