@@ -11,7 +11,7 @@ contextual_links:
     url: "https://www.postman.com/downloads/"
   - type: link
     name: "Installation and updates"
-    url: "/docs/postman/launching-postman/installation-and-updates/"
+    url: "/docs/getting-started/installation-and-updates/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
