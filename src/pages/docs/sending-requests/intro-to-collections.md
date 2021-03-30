@@ -101,7 +101,7 @@ To add a folder to your collection, open its __...__ menu in __Collections__ on 
 
 You can reorder the requests, folders, and examples inside a collection by clicking and dragging them.
 
-<img alt="Reorder collections" src="https://assets.postman.com/postman-docs/reorder-collection.jpg"/>
+<img alt="Reorder collections" src="https://assets.postman.com/postman-docs/reordering-examples.gif"/>
 
 To delete a collection, in __Collections__ click __...__ and select __Delete__.
 
