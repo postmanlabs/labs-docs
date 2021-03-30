@@ -50,6 +50,8 @@ Give your user group a name and description, add your team members, and select t
 
 <img alt="Create user group form" src="https://assets.postman.com/postman-docs/manage-team-create-group-form.jpg" width="500px"/>
 
+> Team members will receive an email and in-app notification when added to a user group.
+
 ## Editing a user group
 
 You can edit a user group at any time by managing a group's team members and access to Postman entities.
@@ -58,13 +60,17 @@ You can edit a user group at any time by managing a group's team members and acc
 
 In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-Click **+ Add** to add a team member to the user group. Click **X** next to a member to remove them from the user group.
+Click **+ Add** to add a team member to the user group. Click **X** next to a team member to remove them from the user group.
 
 <img alt="Manage team members" src="https://assets.postman.com/postman-docs/manage-team-edit-group-form.jpg" width="500px"/>
 
+> Group members will receive an email and in-app notification when added to or removed from a user group.
+
 ### Managing access control for a user group
 
-You can control a user group's access at a team level, workspace level, and on individual collections, APIs, environments, mock servers, and monitors.
+You can control a user group's access at the team level, workspace level, and on individual collections, APIs, environments, mock servers, and monitors.
+
+> Group members will receive an in-app notificiation when roles are modified.
 
 #### Editing team roles for a user group
 
@@ -96,11 +102,11 @@ Click on the user group's name at the top of the page to modify it. To add a des
 
 ## Deleting a user group
 
-In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to delect and select it.
+In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to delete and select it.
 
 SCREENSHOT DELETE GROUP
 
-**Delete Group** to delete the user group.
+Click **Delete Group** to delete the user group.
 
 ## Next steps
 
