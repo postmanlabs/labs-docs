@@ -82,6 +82,8 @@ The default schema format is Open API 3.0, with YAML as the default language. To
 
 The left pane of the schema editor displays an outline of your schema. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Click nodes to expand or collapse them. Click an element in the outline to jump to it in the editor. You can also click the outline button to hide or show the outline.
 
+![Schema navigation](https://assets.postman.com/postman-docs/v8-api-builder-schema-outline.gif)
+
 In the schema editor, when you hover over a '#ref' component and press the Command key, a popover displays the first 200 characters of the reference component. When you Command-click the reference component, it will jump to the reference location.
 
 ![Schema refs](https://assets.postman.com/postman-docs/v8-api-builder-ref-jump.jpg)
