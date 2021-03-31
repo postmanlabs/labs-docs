@@ -41,7 +41,7 @@ Postman provides a variety of views and controls for managing your API projects.
 [![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
 
 * The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/the-api-workflow/#creating-an-api), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/) and request [history](#history).
-* The header allows you to create workspaces, access reports, explore the public API network, search within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, access your settings, account, and Postman plan.
+* The header allows you to create workspaces, access reports, explore the public API network, [search](#universal-search) within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, access your settings, account, and [Postman plan](/docs/administration/buying/).
 * The center area is where you build and work with requests.
 * The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view, and access help resources.
 
@@ -87,9 +87,9 @@ Enter your search string and change the scope of search to narrow down your sear
 
 <img alt="Changing scope for universal search" src="https://assets.postman.com/postman-docs/change-scope-for-universal-search-v8.gif"/>
 
-For signed in users, the default search scope on workspaces is Team and on [explore](https://explore.postman.com) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
+> For signed in users, the default search scope on workspaces is Team and on [explore](https://explore.postman.com) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
 
-You can additionally change the entity type at the bottom by selecting the required option near **Search for** — Workspaces, Collections, APIs or Teams. Within each of these entities, you can further filter the results based on the categories.
+You can additionally change the entity type at the bottom by selecting the required option near **Search for** — Workspaces, Collections, APIs or Teams.
 
 <img alt="Universal search with filter" src="https://assets.postman.com/postman-docs/universal-search-filter-by-entity-v8.jpg"/>
 
@@ -101,13 +101,17 @@ The left navigation on the search results page lists the scope and entity type.
 
 <img alt="Universal search results page" src ="https://assets.postman.com/postman-docs/universal-search-results-page-v8.jpg"/>
 
-You can further filter the results using the Sort by option on the right - Most relevant, Most views or Most recent.
+You can further filter the results using Sort by on the right - Most relevant, Most views or Most recent.
 
 <img alt="Search results sort" src ="https://assets.postman.com/postman-docs/search-result-sort-by-v8.jpg"/>
 
-The search result for workspace entity result specifies the workspace type, summary, who published it and when was it published.
+The search result for workspace entity specifies the workspace type, summary, who published it and when was it published.
 
 <img alt="Individual workspace search results" src ="https://assets.postman.com/postman-docs/individual-workspace-search-results-v8.jpg"/>
+
+The search result for collection entity specifies the workspace type, if the collection is a fork or not, who published it and when was it published.
+
+<img alt="Individual collection search results" src ="https://assets.postman.com/postman-docs/individual-collection-search-results-v8.jpg"/>
 
 The search result for API entity specifies the name and summary of the API, owner (user/team) and the type of workspace.
 
@@ -115,9 +119,9 @@ The search result for API entity specifies the name and summary of the API, owne
 
 The search result for team entity specifies the name and summary of the team. Click the team name and you will be redirected to the team profile.
 
-The search result for collection entity specifies the workspace type, if the collection is a fork or not, who published it and when was it published.
+For Public API network, you can change the entity type to narrow down your search results. Within each of these entities, you can further filter the results based on categories.
 
-<img alt="Individual collection search results" src ="https://assets.postman.com/postman-docs/individual-collection-search-results-v8.jpg"/>
+<img alt="Public API Network Categories filter" src="https://assets.postman.com/postman-docs/public-api-network-filter-categories.jpg"/>
 
 ## Find and replace
 
