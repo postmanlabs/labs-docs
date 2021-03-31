@@ -216,9 +216,9 @@ In the case of a service outage, you will get a 502/503/504 response. Please sub
 
 ## Moving mock servers
 
-After you've created a mock server, you can move it to another workspace. This enables you to collaborate seamlessly with other team members working on the APIs and will also improve the workflow of API development.
+After you've created a mock server, you can move it to another workspace. This enables you to collaborate seamlessly with other team members working on the APIs to improve the workflow of API development.
 
-To move a mock server, click the **View more actions** menu on the Mock server, and click **Move**. You will be asked to select a workspace. Click **Move and Contine** to move the mock server.
+To move a mock server, click **View more actions (...)** on the Mock server, and select **Move**. You will be asked to select a workspace. Click **Move and Continue** to move the mock server.
 
 [![Move mock server](https://assets.postman.com/postman-docs/mock-move-1.jpg)](https://assets.postman.com/postman-docs/mock-move-1.jpg)
 
