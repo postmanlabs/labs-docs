@@ -16,7 +16,7 @@ contextual_links:
     url: "/docs/integrations/webhooks/"
   - type: link
     name: "Slack Integration"
-    url: "/docs/integrations/slack/"
+    url: "/docs/integrations/available-integrations/slack/"
 ---
 
 > __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
@@ -71,4 +71,4 @@ This integration will be triggered whenever the configured Postman schema is upd
 
 ## Next steps
 
-Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/slack/).
+Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/available-integrations/slack/).

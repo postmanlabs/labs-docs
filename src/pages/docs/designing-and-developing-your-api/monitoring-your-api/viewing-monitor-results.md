@@ -69,7 +69,7 @@ The upper section charts your monitor's average response time for each run, whil
 
 ![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-with-hover.jpg)
 
-> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/postman/monitors/viewing-monitor-results/#console-log).
+> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/#console-log).
 
 ### Individual requests
 
