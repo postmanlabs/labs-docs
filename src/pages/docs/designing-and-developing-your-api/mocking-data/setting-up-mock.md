@@ -49,6 +49,17 @@ When you send a request to a mock server, Postman will match the request configu
 
 [![Mock server](https://assets.postman.com/postman-docs/mocks-v8.jpg)](https://assets.postman.com/postman-docs/mocks-v8.jpg)
 
+## Contents
+
+* [Mocks quick start](#mocks-quick-start)
+* [Creating mock servers](#creating-mock-servers)
+    * [Configuring mock details](#configuring-mock-details)
+* [Making requests to mocks](#making-requests-to-mocks)
+    * [Using HTTP access control](#using-http-access-control-for-a-mock)
+* [Viewing mock calls](#viewing-mock-calls)
+    * [Troubleshooting mock calls](#troubleshooting-mock-calls)
+* [Moving mock servers](#moving-mock-servers)
+
 ## Mocks quick start
 
 To try out a mock server, carry out the following steps:
@@ -60,15 +71,6 @@ To try out a mock server, carry out the following steps:
 * Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path e.g. up to `/customers`).
 * Click **Send**—Postman should return the example response you saved for the request, this time from the mock server.
 * Open the example again and alter the mock response JSON, then save it and send the request again—you will see your edited mock response.
-
-## Contents
-
-* [Creating mock servers](#creating-mock-servers)
-    * [Configuring mock details](#configuring-mock-details)
-* [Making requests to mocks](#making-requests-to-mocks)
-    * [Using HTTP access control](#using-http-access-control-for-a-mock)
-* [Viewing mock calls](#viewing-mock-calls)
-    * [Troubleshooting mock calls](#troubleshooting-mock-calls)
 
 ## Creating mock servers
 
@@ -211,6 +213,14 @@ You can use the mock call log to troubleshoot your requests to mock servers.
 If you see `No matching requests` listed in the __Response__ column, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you have the mock connected to.
 
 In the case of a service outage, you will get a 502/503/504 response. Please subscribe and check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
+
+## Moving mock servers
+
+After you've created a mock server, you can move it to another workspace. This enables you to collaborate seamlessly with other team members working on the APIs to improve the workflow of API development.
+
+To move a mock server, click **View more actions (...)** on the Mock server, and select **Move**. You will be asked to select a workspace. Click **Move and Continue** to move the mock server.
+
+[![Move mock server](https://assets.postman.com/postman-docs/mock-move-1.jpg)](https://assets.postman.com/postman-docs/mock-move-1.jpg)
 
 ## Next steps
 
