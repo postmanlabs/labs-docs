@@ -37,9 +37,9 @@ Let's review how to [send a basic request](/docs/getting-started/sending-the-fir
 
 ## Creating your first collection
 
-To create a new request from the Overview tab, use the Get Started section at the right of Postman and click **Create a request**.
+You can create a new request from the Postman launch screen, using __New__ &gt; __Request__.
 
-<img alt="Create new request" src="https://assets.postman.com/postman-docs/create-new-request-v8.jpg" width="300px"/>
+<img alt="Create new request" src="https://assets.postman.com/postman-docs/new-request-v8.jpg"/>
 
 Enter a request in the request builder and click the **Save** button to open the **SAVE REQUEST** modal.
 
