@@ -15,7 +15,7 @@ This section describes the steps to migrate your team to Postman v8.
 
 ## Migrating to Postman v8
 
-[Postman v8](https://blog.postman.com/introducing-postman-desktop-app/) provides a consistent, improved API development experience. It offers universal search across all of Postman, including Public and Private API Networks, plus you can work on public workspaces directly through the desktop app. With v8, the Postman desktop app and [Postman on the web](https://community.postman.com/t/whats-new-in-postman-for-the-web/18203) are equally empowering—which one you use is a matter of preference for your workflows.
+[Postman v8](https://blog.postman.com/introducing-postman-desktop-app/) provides a consistent, improved API development experience. It offers [universal search](/docs/getting-started/navigating-postman/#universal-search) across all of Postman, including Public and Private API Networks, plus you can work on public workspaces directly through the desktop app. With v8, the Postman desktop app and [Postman on the web](https://community.postman.com/t/whats-new-in-postman-for-the-web/18203) are equally empowering—which one you use is a matter of preference for your workflows.
 
 * [Upgrading to Postman v8](#upgrading-to-postman-v8)
     * [Upgrading to v8 as an individual](#upgrading-to-v8-as-an-individual)
