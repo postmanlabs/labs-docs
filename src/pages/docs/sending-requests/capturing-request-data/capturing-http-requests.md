@@ -128,14 +128,14 @@ After these steps, you should be able to capture HTTPS Requests with the Postman
 
 ### Linux
 
-**CentOS and RHEL distros**
+### CentOS and RHEL distros
 
 1. Copy the **rootCA.crt** certificate file from **~/.config/Postman/proxy** to the **/etc/pki/ca-trust/source/anchors/** directory.
 1. Run the command below in terminal to complete the installation:
 
     `update-ca-trust extract`
 
-**Ubuntu distros**
+### Ubuntu distros
 
 Please follow the steps in this discussion thread [here](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate).
 
