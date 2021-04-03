@@ -197,22 +197,3 @@ Openssl is generally already installed for MacOs and Linux (there can be cases w
 1. Open **Command Prompt** and run **openssl version** to confirm the installation was successful.
 
     ![download openssl installer](https://assets.postman.com/postman-docs/windows-check-openssl-version.jpg)
-
-
-### Install the OpenSSL module on    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1
