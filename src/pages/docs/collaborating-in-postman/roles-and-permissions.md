@@ -45,7 +45,11 @@ In Postman you can assign roles and permissions to provide access control.
 
 ## Roles in Postman
 
-As a team admin, you have the power to define Postman access at the team, workspace, collection, and API level. You can utilize Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel. You can manage access by individual, or, if you are on a [Postman Enterprise plan](https://www.postman.com/pricing), with [user groups](/docs/administration/managing-your-team/user-groups/).
+As a team admin, you have the power to define Postman access at the team level. You can utilize Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative personnel. Team members with the billing role can modify who else has billing roles at the team level.
+
+Workspace admins can modify the admin and collaborator roles for the workspace. Editors of particular elements (APIs, collections, environments, monitors, and mock servers) can modify the editor and viewer role on the element.
+
+With these roles, you and your teammates can manage access for each individual, or, if you are on a [Postman Enterprise plan](https://www.postman.com/pricing), with [user groups](/docs/administration/managing-your-team/user-groups/).
 
 ### Team roles
 

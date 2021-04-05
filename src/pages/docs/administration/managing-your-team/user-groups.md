@@ -42,7 +42,9 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 
 ## Creating a user group
 
-As a team admin, you can create a user group by navigating to Postman, selecting **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups** > **Create Group**.
+As a team admin, you can create a user group by navigating to Postman, selecting **Home** in the upper-left corner, then **Manage Team** on the left side. Alternatively, select **Team** in the upper-right corner > **Manage Team**.
+
+Above your list of team members, select **Groups** > **Create Group**.
 
 <img alt="Create user group button" src="https://assets.postman.com/postman-docs/manage-team-create-group-button.jpg"/>
 
@@ -65,7 +67,9 @@ In Postman, select **Home** in the upper-left corner, then **Manage Team** on th
 
 Click **+ Add** to add a team member to the user group. Click **X** next to a team member to remove them from the user group.
 
-<img alt="Manage team members" src="https://assets.postman.com/postman-docs/user-group-remove-member.jpg	" width="500px"/>
+<img alt="Manage team members" src="https://assets.postman.com/postman-docs/user-group-remove-member.jpg" width="500px"/>
+
+Once you have made the changes to the members of the user group, click **Save Changes**.
 
 > Group members will receive an email and in-app notification when added to or removed from a user group.
 
