@@ -19,6 +19,11 @@ contextual_links:
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Versioning APIs with Tags | Postman Level Up"
+    url: "https://youtu.be/Kq8Ra0ugqoY"
   - type: section
     name: "Next Steps"
   - type: link
