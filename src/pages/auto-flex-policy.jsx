@@ -14,11 +14,11 @@ class AutoFlexPolicyPage extends React.Component {
       <Layout>
         <SEO
           title="Auto-Flex Policy | Postman Learning Center"
-          description="Effective April 1, 2021, Postman offers a more flexible model that simplifies how you
-                        can add Users to your Postman team. With the auto-flex model, you can authorize
-                        additional Users at any time through the administrative dashboard of your Postman
-                        Service, instead of having to purchase each additional User license with Postman prior
-                        to enablement."
+          description="Effective April 8, 2021, Postman offers a more flexible model that simplifies how you
+                       can add Users to your Postman team. With the “auto-flex” model, you can authorize
+                       additional Users at any time through the administrative dashboard of your Postman
+                       Service, instead of having to purchase each additional User license with Postman prior
+                       to enablement."
           slug="/auto-flex-policy/"
         />
         <div className="container">
