@@ -13,7 +13,7 @@ class AutoFlexPolicyPage extends React.Component {
     return (
       <Layout>
         <SEO
-          title="Auto-Flex Policy | Postman Learning Center"
+          title="Auto-Flex Team Policy | Postman Learning Center"
           description="Effective April 8, 2021, Postman offers a more flexible model that simplifies how you
                        can add Users to your Postman team. With the &quot;auto-flex&quot; model, you can authorize
                        additional Users at any time through the administrative dashboard of your Postman
@@ -24,7 +24,7 @@ class AutoFlexPolicyPage extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-10 offset-lg-1 col-sm-12">
-              <h1 className="mt-5 mb-3">Auto-Flex Policy</h1>
+              <h1 className="mt-5 mb-3">Auto-Flex Team Policy</h1>
               <p>
                 Effective April 8, 2021, Postman offers a more flexible model that simplifies how you
                 can add Users to your Postman team. With the &quot;auto-flex&quot; model, you can
@@ -93,13 +93,13 @@ class AutoFlexPolicyPage extends React.Component {
               <ul>
                 <li>
                   On the monthly renewal date if your team is on a monthly payment plan. This will
-                  include any charges for adding new Users as described in the Auto-Flex Policy
+                  include any charges for adding new Users as described in the Auto-Flex team policy
                   sections above.
                 </li>
                 <li>On the annual renewal date if you are on an annual payment plan.</li>
                 <li>
                   On the last day of the quarter, if you are on an annual payment plan and there are
-                  any charges due for adding new Users as described in the Auto-Flex Policy sections
+                  any charges due for adding new Users as described in the Auto-Flex team policy sections
                   above.
                 </li>
               </ul>
