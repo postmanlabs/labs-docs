@@ -13,7 +13,7 @@ class AutoFlexPolicyPage extends React.Component {
     return (
       <Layout>
         <SEO
-          title="Auto-Flex Team Policy | Postman Learning Center"
+          title="Auto-Flex Team Policy"
           description="Effective April 8, 2021, Postman offers a more flexible model that simplifies how you
                        can add Users to your Postman team. With the &quot;auto-flex&quot; model, you can authorize
                        additional Users at any time through the administrative dashboard of your Postman
