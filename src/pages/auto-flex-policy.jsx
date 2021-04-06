@@ -26,11 +26,11 @@ class AutoFlexPolicyPage extends React.Component {
             <div className="col-lg-10 offset-lg-1 col-sm-12">
               <h1 className="mt-5 mb-3">Auto-Flex Policy</h1>
               <p>
-                Effective April 1, 2021, Postman offers a more flexible model that simplifies how
-                you can add Users to your Postman team. With the &quot;auto-flex&quot; model, you
-                can authorize additional Users at any time through the administrative dashboard of
-                your Postman Service, instead of having to purchase each additional User license
-                with Postman prior to enablement.
+                Effective April 8, 2021, Postman offers a more flexible model that simplifiy how you
+                can add Users to your Postman team. With the &quot;auto-flex&quot; model, you can
+                authorize additional Users at any time through the administrative dashboard of your
+                Postman Service, instead of having to purchase each additional User license with
+                Postman prior to enablement.
               </p>
               <p>
                 We will bill you for any additional Users on a monthly basis for monthly plans, and
@@ -39,10 +39,10 @@ class AutoFlexPolicyPage extends React.Component {
                 will receive a notification that reflects the number of added Users during that
                 monthly or quarterly cycle. Your Admin User can make adjustments to the number of
                 Users on your plan through the administrative dashboard at any time prior to the
-                billing date, provided however, you may not reduce the number of Users you
-                originally purchased until the end of your then-current Subscription Term. Then, on
-                the billing date, you will be billed for the number of additional Users on your plan
-                as of the billing date.
+                billing date, provided however, once you have been billed you may not reduce the
+                number of Users until the end of your then-current Subscription Term. Then, on the
+                billing date, you will be billed for the number of additional Users on your plan as
+                of the billing date.
               </p>
               <h2 id="summary">Summary</h2>
               <ul>
@@ -106,8 +106,8 @@ class AutoFlexPolicyPage extends React.Component {
               <p className="alert alert-info mb-5">
                 <span className="font-weight-bold text-dark">Tip:</span>
                 {' '}
-                To learn more about the different
-                types of roles and permissions you can assign in Postman, visit
+                To learn more about the
+                different types of roles and permissions you can assign in Postman, visit
                 {' '}
                 <a href="https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/">
                   Defining Roles
