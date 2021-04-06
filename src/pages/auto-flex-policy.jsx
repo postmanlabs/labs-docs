@@ -15,7 +15,7 @@ class AutoFlexPolicyPage extends React.Component {
         <SEO
           title="Auto-Flex Policy | Postman Learning Center"
           description="Effective April 8, 2021, Postman offers a more flexible model that simplifies how you
-                       can add Users to your Postman team. With the “auto-flex” model, you can authorize
+                       can add Users to your Postman team. With the &quot;auto-flex&quot; model, you can authorize
                        additional Users at any time through the administrative dashboard of your Postman
                        Service, instead of having to purchase each additional User license with Postman prior
                        to enablement."
@@ -26,7 +26,7 @@ class AutoFlexPolicyPage extends React.Component {
             <div className="col-lg-10 offset-lg-1 col-sm-12">
               <h1 className="mt-5 mb-3">Auto-Flex Policy</h1>
               <p>
-                Effective April 8, 2021, Postman offers a more flexible model that simplifiy how you
+                Effective April 8, 2021, Postman offers a more flexible model that simplifies how you
                 can add Users to your Postman team. With the &quot;auto-flex&quot; model, you can
                 authorize additional Users at any time through the administrative dashboard of your
                 Postman Service, instead of having to purchase each additional User license with
