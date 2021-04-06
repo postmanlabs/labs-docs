@@ -1,11 +1,11 @@
 import React from 'react';
 import ResponsiveEmbed from 'react-responsive-embed';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
+import uuidv4 from 'uuid/v4';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import uuidv4 from 'uuid/v4';
 
-import upcomingEvents from '../../bff-data/events.json'
+import upcomingEvents from '../../bff-data/events.json';
 
 import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
 import AdminImage from '../assets/team-collaboration-postmanaut-pic.png';
@@ -25,30 +25,29 @@ const videoBackground = {
 };
 
 const getSupString = (dateOfMonth) => {
-  if (dateOfMonth >=4 && dateOfMonth <= 20) {
-    return "th"
-  } else if (dateOfMonth >= 24 && dateOfMonth <= 30) {
-    return "th"
-  }  else if (dateOfMonth === 1 || dateOfMonth === 21 || dateOfMonth === 31) {
-    return 'st'
-  } else if (dateOfMonth === 2 || dateOfMonth === 22) {
-    return 'nd'
-  } else if (dateOfMonth === 3 || dateOfMonth === 23) {
-    return 'rd'
-  } 
-}
+  if (dateOfMonth >= 4 && dateOfMonth <= 20) {
+    return 'th';
+  } if (dateOfMonth >= 24 && dateOfMonth <= 30) {
+    return 'th';
+  } if (dateOfMonth === 1 || dateOfMonth === 21 || dateOfMonth === 31) {
+    return 'st';
+  } if (dateOfMonth === 2 || dateOfMonth === 22) {
+    return 'nd';
+  } if (dateOfMonth === 3 || dateOfMonth === 23) {
+    return 'rd';
+  }
+  return null;
+};
 
 const IndexPage = () => {
-  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   // If, upcomingEvents is an array, sort the events array by date, and filter out past events.
   // Else, leave as is.. which is an object with upcomingEvents.development = true
   const sortedUpcomingEvents = Array.isArray(upcomingEvents)
-    ? upcomingEvents.sort((a, b) => {
-      return (new Date(a.date) - new Date(b.date))
-    })
-    .filter((event) => new Date(event.expiration) > new Date())
-    : upcomingEvents
-  
+    ? upcomingEvents.sort((a, b) => (new Date(a.date) - new Date(b.date)))
+      .filter((event) => new Date(event.expiration) > new Date())
+    : upcomingEvents;
+
   return (
     <Layout>
       <SEO title="Home" slug="/" />
@@ -67,7 +66,7 @@ const IndexPage = () => {
           <img src={HeroImage} width="637" height="411" className="hero-image img-fluid" alt="Postmanaut sitting at computer. Illustration." />
         </div>
       </section>
-  
+
       <section className="row section">
         <div className="col-sm-12 text-center">
           <h2 className="mb-5">Design, develop, and collaborate on your API projects</h2>
@@ -128,7 +127,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-  
+
       <section className="row section" style={videoBackground}>
         <div className="col-lg-4 order-lg-1">
           <h2>Intro to Postman</h2>
@@ -159,7 +158,7 @@ const IndexPage = () => {
           {/* If there are events in the events.json array */}
           {sortedUpcomingEvents.length > 0 ? (
             // Map over, get the appropriate sup text value, and render event.
-            sortedUpcomingEvents.map(event => {
+            sortedUpcomingEvents.map((event) => {
               const dateObject = new Date(event.date);
               return (
                 <p key={uuidv4()}>
@@ -175,27 +174,30 @@ const IndexPage = () => {
                   </OutboundLink>
                   {`: ${event.description}`}
                 </p>
-              )
-              
+              );
             })
           ) : (
             <>
-              {/* If there are no events, and events.json is an object where development === true */}
+              {/* If there are no events, and events.json is an object where development eq true */}
               {(!Array.isArray(upcomingEvents) && upcomingEvents.development) ? (
                 <div className="events__alert" role="alert">
-                  <p>You are currently in develop mode. Dynamic events will not be displayed locally. <a style={{"fontSize": "inherit"}}href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">See Contributing doc for details</a>.</p>
+                  <p>
+                    You are currently in develop mode. Dynamic events will not be displayed locally.
+                    <a style={{ fontSize: 'inherit' }} href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">See Contributing doc for details</a>
+                    .
+                  </p>
                 </div>
               ) : (
                 <>
-                {/* else we know we have 0 upcoming events, and we are not in development mode */}
-                <p>We currently have no upcoming events...check back later.</p>
+                  {/* else we know we have 0 upcoming events, and we are not in development mode */}
+                  <p>We currently have no upcoming events...check back later.</p>
                 </>
               )}
             </>
           )}
         </div>
       </section>
-  
+
       <section className="row section justify-content-center">
         <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
           <SecondaryCard
@@ -223,7 +225,7 @@ const IndexPage = () => {
         </div>
       </section>
     </Layout>
-  ) 
+  );
 };
 
 export default IndexPage;
