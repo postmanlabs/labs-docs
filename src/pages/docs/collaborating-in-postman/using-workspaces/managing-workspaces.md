@@ -55,7 +55,7 @@ You can access public workspaces via the [**Workspaces** category in the API Net
 
 ## Sharing workspaces
 
-You can share workspaces with collaborators by inviting them individually or via a [user group](/docs/administration/managing-your-team/user-groups/). If you invite a collaborator to a personal workspace, Postman will convert it to a team workspace.
+You can share workspaces with collaborators by inviting them individually or via a [group](/docs/administration/managing-your-team/user-groups/). If you invite a collaborator to a personal workspace, Postman will convert it to a team workspace.
 
 In Postman, you can convert your default __My Workspace__ to a team, private or public workspace. If you convert all your personal workspaces, we will create one new workspace where you can keep your collections, APIs, and environments and use it as your personal workspace. This means you will always have one personal workspace in Postman.
 
@@ -63,7 +63,7 @@ In Postman, you can convert your default __My Workspace__ to a team, private or 
 
 Open your workspace in Postman by selecting it from the workspace dropdown in the left. To add collaborators, click __Invite__ at the top right.
 
-Add individuals you would like to invite to the workspace by email or by [user group](/docs/administration/managing-your-team/user-groups/). Select access levels for the workspace and click __Send Invitations__.
+Add individuals you would like to invite to the workspace by email or by [group](/docs/administration/managing-your-team/user-groups/). Select access levels for the workspace and click __Send Invitations__.
 
 <img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-users-workspace.jpg"/>
 
