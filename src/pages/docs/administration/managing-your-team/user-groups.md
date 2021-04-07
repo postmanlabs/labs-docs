@@ -46,9 +46,11 @@ As a team admin, you can create a group by navigating to Postman, selecting **Ho
 
 Above your list of team members, select **Groups** > **Create Group**.
 
-<img alt="Create group button" src="https://assets.postman.com/postman-docs/overall-group-view.jpg"/>
+<img alt="Create group button" src="https://assets.postman.com/postman-docs/overall-group-view-2.jpg"/>
 
 Give your group a name and description, add your team members, and select the team roles you would like to assign to the group, then **Create Group**.
+
+>Note that you must have the billing role yourself to assign the billing role to others.
 
 <img alt="Create group form" src="https://assets.postman.com/postman-docs/create-group-action.jpg" width="500px"/>
 
@@ -105,7 +107,7 @@ In Postman, select **Home** in the upper-left corner, then **Manage Team** on th
 
 <img alt="Edit group description" src="https://assets.postman.com/postman-docs/edit-group-description-action.jpg" width="500px"/>
 
-Click on the group's name at the top of the page to modify it. To add a description, select **Click To Edit** under the group's name. To update an existing description, select it to modify. **Save Changes** to confirm your updates.
+Click on the group's name at the top of the page to modify it. To add a description, select **Add a description** under the group's name. To update an existing description, select it to modify. **Save Changes** to confirm your updates.
 
 ## Deleting a group
 
