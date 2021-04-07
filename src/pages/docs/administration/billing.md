@@ -51,6 +51,14 @@ Postman provides a self-serve billing process. Refer to the following sections f
 
     * [Purchasing add-ons](#purchasing-add-ons)
 
+    * [Utilizing auto-flex](#utilizing-auto-flex)
+
+        * [Enabling auto-flex](#enabling-auto-flex)
+
+        * [Disabling auto-flex](#disabling-auto-flex)
+
+        * [Billing for auto-flex](#billing-for-auto-flex)
+
 * [Next steps](#next-steps)
 
 ## Billing dashboard
@@ -162,6 +170,50 @@ The number of monitoring requests, custom domains, and mock server calls include
 You can purchase additional blocks of monitoring requests, custom domains, and mock server calls by navigating to your [billing dashboard](http://go.postman.co/billing) and selecting **Add-ons** > **Modify Add-ons**.
 
 [![Add-ons purchase form](https://assets.postman.com/postman-docs/billing-select-add-ons.jpg)](https://assets.postman.com/postman-docs/billing-select-add-ons.jpg)
+
+### Utilizing auto-flex
+
+[Auto-flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing solution available to Postman Team and Business plans. With auto-flex enabled, your team admins can add users without having to pay in advance for additional seats. Instead, you can utilize auto-flex to determine the value of adding users to your Postman team, and opt to retain or remove them prior to being [billed](#billing-for-auto-flex).
+
+> Auto-flex is automatically enabled for all Postman Team and Business plans purchased after April 8, 2021. Teams created before this date can opt in immediately by enabling auto-flex via their [billing dashboard](http://go.postman.co/billing). All teams will have auto-flex automatically enabled when their plan first renews after July 1, 2021.
+
+#### Enabling auto-flex
+
+You can enable auto-flex for your team by navigating to your [billing dashboard](http://go.postman.co/billing).
+
+INSERT SCREENSHOT of billing dashboard with notification "get early access"
+
+Select **Get Early Access**.
+
+INSERT SCREENSHOT of confirmation modal
+
+Click to **Agree to Auto-Flex's terms and conditions**, then select **Get Early Access**.
+
+> View [Postman's auto-flex team policy](https://learning.postman.com/auto-flex-policy/).
+
+#### Disabling auto-flex
+
+[Contact Postman support](https://www.postman.com/support/) for assistance in disabling auto-flex for your team.
+
+#### Billing for auto-flex
+
+Your auto-flex billing cycle is dependent on your team's plan:
+
+* Monthly plans are charged for additional users on a monthly basis.
+
+* Annual plans are charged for additional users on a quarterly basis.
+
+At any time during your auto-flex billing cycle, team admins can add users to your team regardless of available seats.
+
+Two weeks prior to your auto-flex billing cycle renewing, all billing and admin team members will be notified of any additional users you have added during that time period. You can use this reminder to make any necessary changes to your team prior to the end of your current auto-flex cycle, which is when you will be billed for any additional users.
+
+INSERT SCREENSHOT of example email to billing members
+
+You can view your current number of additional team members, how much you will be billed at the end of your cycle (unless you add or remove team members in the interim), and additional information about your auto-flex and regular billing cycles at any time in your [billing dashboard](http://go.postman.co/billing).
+
+INSERT SCREENSHOT of billing dashboard with example calculation of additional users and overages, dates
+
+> [Contact Postman support](https://www.postman.com/support/) with any questions regarding auto-flex.
 
 ## Next steps
 
