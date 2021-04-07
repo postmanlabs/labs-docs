@@ -169,7 +169,6 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 1. The certificate is installed. To verify if the certificate is installed, the **Postman Proxy CA** will be listed under the **Authorities** tab of Certificate Manager.
     [![Select System keychains](https://assets.postman.com/postman-docs/firefox-verify-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-verify-crt.jpeg)
 
-
 ### iOS
 
 1. Download the certificate to the iOS device.
