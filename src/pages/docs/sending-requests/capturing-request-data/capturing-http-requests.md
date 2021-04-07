@@ -31,9 +31,7 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) for the Postman app.
-
-**Note:** For the Postman native apps, request captures over HTTPS will not work if the website has HSTS enabled. Most websites have this check in place.
+If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP and HTTPS request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) for the Postman app.
 
 You can capture the HTTP requests using the following two ways:
 
@@ -60,7 +58,7 @@ In this tutorial, you will use Postman's proxy feature to inspect HTTP communica
 
 ### Step 1: Set up the proxy in Postman
 
-Open the **PROXY SETTINGS** modal in the Postman app (MacOS) by clicking the icon in the header toolbar.
+Open the **PROXY SETTINGS** modal in the Postman app (macOS) by clicking the icon in the header toolbar.
 
 [![proxy icon in header](https://assets.postman.com/postman-docs/WS-postman-proxy-settings-button.jpg)](https://assets.postman.com/postman-docs/WS-postman-proxy-settings-button.jpg)
 
@@ -95,6 +93,137 @@ The broader development community has published some useful tutorials for settin
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
 
-## Interceptor
+## Use Interceptor to capture requests
 
-See [Capturing requests with Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
+See [Capturing requests with Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) for full instructions to set up and use this method.
+
+## Capture HTTPS traffic with Postman's built-in proxy
+
+You can use the Postman's proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices. After you enable the proxy feature, follow the instructions below to install the security certificate on the target devices.
+
+### macOS
+
+1. Go to the following location: **~/Library/Application Support/Postman/proxy**
+1. Double click on **postman-proxy-ca.crt**
+1. Choose **System** from the keychain option and then select **OK**.
+  [![Select System keychains](https://assets.postman.com/postman-docs/mac-install-crt.jpeg)](https://assets.postman.com/postman-docs/mac-install-crt.jpeg)
+1. Select and open the imported Postman certificate. Then select **Always Trust**. You can change this setting after you have completed the testing for your application.
+  [![Select always trust for Postman keychain](https://assets.postman.com/postman-docs/mac-install-crt-always-trust.jpeg)](https://assets.postman.com/postman-docs/mac-install-crt-always-trust.jpeg)
+1. Select **Always Trust** only for **Secure Sockets Layer(SSL)**.
+  [![Select always trust only for SSL option](https://assets.postman.com/postman-docs/mac-install-crt-custom-settings.jpeg)](https://assets.postman.com/postman-docs/mac-install-crt-custom-settings.jpeg)
+
+After these steps, you will be able to capture HTTPS Requests with the Postman proxy.
+
+### Windows
+
+1. From Windows File Explorer, navigate to **%APPDATA%\Postman\proxy**. Typically, it will be located at: **C:\Users\<user>\AppData\Roaming\Postman\proxy**
+    [![Navigate to crt file](https://assets.postman.com/postman-docs/windows-crt-file.jpeg)](https://assets.postman.com/postman-docs/windows-crt-file.jpeg)
+1. Right-click on the **postman-proxy-ca.crt** file and select **Install Certificate**.
+    [![Select crt file](https://assets.postman.com/postman-docs/windows-install-crt.jpeg)](https://assets.postman.com/postman-docs/windows-install-crt.jpeg)
+1. Select the Local Machine and proceed. This will need Administrator permissions.
+    [![Select local machine](https://assets.postman.com/postman-docs/windows-install-crt-local.jpeg)](https://assets.postman.com/postman-docs/windows-install-crt-local.jpeg)
+1. Select **Place all certificates in the following store**.
+    [![Select crt store location](https://assets.postman.com/postman-docs/windows-crt-location.jpeg)](https://assets.postman.com/postman-docs/windows-crt-location.jpeg)
+1. Select **Browse** and then select **Trusted Root Certification Authorities**.
+    [![Select trust root crt authorities](https://assets.postman.com/postman-docs/windows-crt-install-store.jpeg)](https://assets.postman.com/postman-docs/windows-crt-install-store.jpeg)
+1. Select **OK** and **Next** to confirm the options.
+1. Select **Finish** to save all configurations and import the certificate.  
+    [![Save configurations and import crt](https://assets.postman.com/postman-docs/windows-crt-install-complete.jpeg)](https://assets.postman.com/postman-docs/windows-crt-install-complete.jpeg)
+    [![Select System keychains](https://assets.postman.com/postman-docs/windows-crt-import-complete.jpeg)](https://assets.postman.com/postman-docs/windows-crt-import-complete.jpeg)
+
+### Linux
+
+### CentOS and Red Hat Enterprise Linux distros
+
+1. Copy the **postman-proxy-ca.crt** certificate file from **~/.config/Postman/proxy** to the **/etc/pki/ca-trust/source/anchors/** directory.
+1. Run the command below in terminal to complete the installation:
+
+    `update-ca-trust extract`
+
+### Ubuntu distros
+
+1. Create the directory for the CA certificate with the command below.
+
+    `sudo mkdir /usr/share/ca-certificates/extra`
+1. Copy postman-proxy-ca.crt to the new folder with the command below.
+
+    `sudo cp ~/config/Postman/postman-proxy-ca.crt /usr/share/ca-certificates/extra/postman-proxy-ca.crt`
+1. Add the certificate to the system with the two commands below.
+
+    `sudo dpkg-reconfigure ca-certificates`
+
+    `sudo update-ca-certificates`
+
+### Install the certificate for use with Mozilla Firefox Browsers
+
+1. Open Firefox and click on the **burger** menu and select **Preferences**.
+    [![Select Firefox Preferences](https://assets.postman.com/postman-docs/firefox-crt-preference.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-preference.jpeg)
+1. Select **Privacy & Security**, scroll down to **Certificates** and select **View Certificates**. This opens Firefox’s Certificate Manager.
+    [![Select Firefox privacy settings](https://assets.postman.com/postman-docs/firefox-privacy-settings.jpeg)](https://assets.postman.com/postman-docs/firefox-privacy-settings.jpeg)
+1. Once the Certificate Manager is open, select **Authorities** tab and select on **Import**.
+    [![Select crt manager](https://assets.postman.com/postman-docs/firefox-crt-manager.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-manager.jpeg)
+1. Select the **postman-proxy-ca.crt** and click on **Open**.
+    [![Select postman crt](https://assets.postman.com/postman-docs/firefox-open-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-open-crt.jpeg)
+    Only mark **Trust this CA to identify websites** and click on **Ok**.
+    [![Select trust CA crt](https://assets.postman.com/postman-docs/firefox-trust-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-trust-crt.jpeg)
+1. The certificate is installed. To verify if the certificate is installed, the **Postman Proxy CA** will be listed under the **Authorities** tab of Certificate Manager.
+    [![Verify vrt install](https://assets.postman.com/postman-docs/firefox-verify-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-verify-crt.jpeg)
+
+### iOS
+
+1. Download the certificate to the iOS device.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-transfer-cert.jpeg)
+1. Go to **Settings > Profile Downloaded**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-install-cert.jpeg)
+1. Select **Install** for both of the following prompts. Installing a certificate requires the user to enter the device passcode to proceed.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-install-cert2.jpeg)
+
+    When the certificate is installed, your device will show an installation confirmation screen like the one below.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-install-done.jpeg)
+
+    Select **Done** to review all existing certificates.
+1. Go to **Settings App > General > About > Certificate Trust Settings**. Enable full trust for Postman’s root certificate.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-cert-trust-settings.jpeg)
+
+1. Select **Continue** to complete the installation.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-root-cert-settings.jpeg)
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-enable-full-trust.jpeg)
+
+## Requirements to use the OpenSSL module
+
+The **OpenSSL** module is internally being used to generate certificate-key pairs. This module has to be installed and accessible through the command line.
+
+OpenSSL is generally already installed for macOS and Linux (there can be cases where it is not installed). For windows systems, **OpenSSL** is to be installed if not installed previously.
+
+### Install the OpenSSL module on Windows
+
+1. Download and install the OpenSSL module applicable for your computer from [here](https://slproweb.com/products/Win32OpenSSL.html).
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-download-openssl.jpg)
+1. Open the Windows Start menu and search for "Environment Variables."
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-search.jpg)
+1. From the results, select "Environment Variables."
+1. From the **System Properties** window, select "Environment Variables."
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-advanced.jpg)
+1. Select **Path** from **User variables** and then select **Edit**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-edit-browse-bb.jpg)
+1. Select **Browse**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-openssl-edit-environment-variables-bb.jpg)
+1. Go to: **This PC > Windows (C:) > Program Files > OpenSSL - Win64 > bin**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
+1. Select **OK** to add the folder directory. Then, select **OK** to confirm changes and close the remaining windows.
+1. Open **Command Prompt** and run **openssl version** to confirm the installation was successful.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-check-openssl-version.jpg)
