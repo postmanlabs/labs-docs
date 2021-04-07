@@ -14,7 +14,6 @@
     "eslint-plugin-jest": "^22.17.0",
     "gatsby": "^2.32.8",
     "gatsby-cli": "^2.19.2",
-    "gatsby-image": "^2.2.20",
     "gatsby-plugin-algolia": "^0.3.4",
     "gatsby-plugin-env-variables": "^1.0.2",
     "gatsby-plugin-gdpr-cookies": "^1.0.14",
