@@ -49,7 +49,7 @@ As a team admin, you have the power to define Postman access at the team level. 
 
 Workspace admins can modify the admin and collaborator roles for the workspace. Editors of particular elements (APIs, collections, environments, monitors, and mock servers) can modify the editor and viewer role on the element.
 
-With these roles, you and your teammates can manage access for each individual, or, if you are on a [Postman Enterprise plan](https://www.postman.com/pricing), with [user groups](/docs/administration/managing-your-team/user-groups/).
+With these roles, you and your teammates can manage access for each individual, or, if you are on a [Postman Enterprise plan](https://www.postman.com/pricing), for [groups](/docs/administration/managing-your-team/user-groups/).
 
 ### Team roles
 
