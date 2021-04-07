@@ -157,17 +157,17 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 ### Install the certificate for use with Mozilla Firefox Browsers
 
 1. Open Firefox and click on the **burger** menu and select **Preferences**.
-    [![Select System keychains](https://assets.postman.com/postman-docs/firefox-crt-preference.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-preference.jpeg)
+    [![Select Firefox Preferences](https://assets.postman.com/postman-docs/firefox-crt-preference.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-preference.jpeg)
 1. Select **Privacy & Security**, scroll down to **Certificates** and select **View Certificates**. This opens Firefox’s Certificate Manager.
-    [![Select System keychains](https://assets.postman.com/postman-docs/firefox-privacy-settings.jpeg)](https://assets.postman.com/postman-docs/firefox-privacy-settings.jpeg)
+    [![Select Firefox privacy settings](https://assets.postman.com/postman-docs/firefox-privacy-settings.jpeg)](https://assets.postman.com/postman-docs/firefox-privacy-settings.jpeg)
 1. Once the Certificate Manager is open, select **Authorities** tab and select on **Import**.
-    [![Select System keychains](https://assets.postman.com/postman-docs/firefox-crt-manager.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-manager.jpeg)
+    [![Select crt manager](https://assets.postman.com/postman-docs/firefox-crt-manager.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-manager.jpeg)
 1. Select the **postman-proxy-ca.crt** and click on **Open**.
-    [![Select System keychains](https://assets.postman.com/postman-docs/firefox-open-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-open-crt.jpeg)
+    [![Select postman crt](https://assets.postman.com/postman-docs/firefox-open-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-open-crt.jpeg)
     Only mark **Trust this CA to identify websites** and click on **Ok**.
-    [![Select System keychains](https://assets.postman.com/postman-docs/firefox-trust-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-trust-crt.jpeg)
+    [![Select trust CA crt](https://assets.postman.com/postman-docs/firefox-trust-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-trust-crt.jpeg)
 1. The certificate is installed. To verify if the certificate is installed, the **Postman Proxy CA** will be listed under the **Authorities** tab of Certificate Manager.
-    [![Select System keychains](https://assets.postman.com/postman-docs/firefox-verify-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-verify-crt.jpeg)
+    [![Verify vrt install](https://assets.postman.com/postman-docs/firefox-verify-crt.jpeg)](https://assets.postman.com/postman-docs/firefox-verify-crt.jpeg)
 
 ### iOS
 
