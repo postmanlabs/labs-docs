@@ -121,7 +121,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 1. Right-click on the **postman-proxy-ca.crt** file and select **Install Certificate**.
     [![Select crt file](https://assets.postman.com/postman-docs/windows-install-crt.jpeg)](https://assets.postman.com/postman-docs/windows-install-crt.jpeg)
 1. Select the Local Machine and proceed. This will need Administrator permissions.
-    [![Select local machine ](https://assets.postman.com/postman-docs/windows-install-crt-local.jpeg)](https://assets.postman.com/postman-docs/windows-install-crt-local.jpeg)
+    [![Select local machine](https://assets.postman.com/postman-docs/windows-install-crt-local.jpeg)](https://assets.postman.com/postman-docs/windows-install-crt-local.jpeg)
 1. Select **Place all certificates in the following store**.
     [![Select crt store location](https://assets.postman.com/postman-docs/windows-crt-location.jpeg)](https://assets.postman.com/postman-docs/windows-crt-location.jpeg)
 1. Select **Browse** and then select **Trusted Root Certification Authorities**.
