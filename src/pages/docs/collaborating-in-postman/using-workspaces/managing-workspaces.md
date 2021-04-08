@@ -65,7 +65,7 @@ Open your workspace in Postman by selecting it from the workspace dropdown in th
 
 Add individuals you would like to invite to the workspace by email or by [group](/docs/administration/managing-your-team/user-groups/). Select access levels for the workspace and click __Send Invitations__.
 
-<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-users-workspace.jpg"/>
+<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace.jpg"/>
 
 When your collaborators accept the invite from the notification they receive, they will be able to access the workspace.
 
@@ -141,7 +141,7 @@ Confirm that you wish to delete the workspace—it will no longer be available f
 
 If you're a team administrator you can manage the members of your workspace, from the Dashboard Overview via the **Members** tab.
 
-For a team workspace, you can add or remove any team member from the __Members__ section, selecting access permissions depending on your account level, and save your changes.
+For a team workspace, you can add or remove any team member or [group](/docs/administration/managing-your-team/user-groups/) from the __Members__ section, selecting access permissions depending on your account level, and save your changes.
 
 <img alt="Edit team workspace" src="https://assets.postman.com/postman-docs/edit-members-team-workspace-v8.jpg" width="350px">
 
