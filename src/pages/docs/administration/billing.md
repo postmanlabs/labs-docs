@@ -219,7 +219,7 @@ Prior to your auto-flex billing cycle renewing, all billing and admin team membe
 
 You can use this reminder to make any necessary changes to your team prior to the end of your current auto-flex cycle, which is when you will be billed for any additional users.
 
-> If you have added users in a previous cycle, you cannot remove those seats until your plan renews.
+> If you have already been billed for the users you added and retained in a previous auto-flex cycle, you cannot remove those slots until your plan renews.
 
 You will not be billed if the number of users has remained unchanged during your auto-flex cycle, or if you remove any additional users prior to auto-flex billing.
 
