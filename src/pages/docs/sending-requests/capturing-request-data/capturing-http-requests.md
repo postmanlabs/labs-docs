@@ -189,6 +189,8 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
     <img src="https://assets.postman.com/postman-docs/ios-root-cert-settings-aa.jpeg" alt="iOS crt settings" width="350">
 
+    Confirm the certificate settings.
+    
     <img src="https://assets.postman.com/postman-docs/ios-enable-full-trust-aa.jpeg" alt="iOS crt full trust settings" width="350">
 
 ## Requirements to use the OpenSSL module
