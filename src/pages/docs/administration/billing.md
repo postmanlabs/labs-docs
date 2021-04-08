@@ -55,7 +55,7 @@ Postman provides a self-serve billing process. Refer to the following sections f
 
     * [Utilizing auto-flex](#utilizing-auto-flex)
 
-        * [Enabling auto-flex](#enabling-auto-flex)
+        * [Opting in to auto-flex](#opting-in-to-auto-flex)
 
         * [Billing for auto-flex](#billing-for-auto-flex)
 
@@ -189,7 +189,7 @@ Select the add-ons you would like to purchase and set the number of blocks, then
 
 > Auto-flex is automatically enabled for all Postman Team and Business plans purchased after April 8, 2021. Teams created before this date can opt in immediately by enabling auto-flex via their [billing dashboard](http://go.postman.co/billing). All teams will have auto-flex automatically enabled when their plan first renews after July 1, 2021.
 
-#### Enabling auto-flex
+#### Opting in to auto-flex
 
 You can enable auto-flex for your team by navigating to your [billing dashboard](http://go.postman.co/billing).
 
@@ -213,11 +213,15 @@ Your auto-flex billing cycle is dependent on your team's plan:
 
 At any time during your auto-flex billing cycle, team admins can add users to your team regardless of available seats.
 
-Two weeks prior to your auto-flex billing cycle renewing, all billing and admin team members will be notified of any additional users you have added during that time period. You can use this reminder to make any necessary changes to your team prior to the end of your current auto-flex cycle, which is when you will be billed for any additional users.
+Prior to your auto-flex billing cycle renewing, all billing and admin team members will be notified of any additional users you have added during that time period.
+
+> Annual plans will be notified two weeks prior to their quarterly cycle renewing, and monthly plans will be notified one week prior to their monthly cycle renewing.
+
+You can use this reminder to make any necessary changes to your team prior to the end of your current auto-flex cycle, which is when you will be billed for any additional users.
 
 > If you have added users in a previous cycle, you cannot remove those seats until your plan renews.
 
-You will not be billed if the number of users has remained unchanged during your auto-flex cycle, or if you remove any additional users prior to auto-flex renewing.
+You will not be billed if the number of users has remained unchanged during your auto-flex cycle, or if you remove any additional users prior to auto-flex billing.
 
 > If your team has incurred any overages and you have an auto-flex bill for that cycle, your overage charges will be combined with your auto-flex charges in your invoice.
 
