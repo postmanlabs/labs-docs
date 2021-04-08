@@ -199,7 +199,6 @@ Select **Get Early Access**.
 
 <img alt="Auto-flex opt in confirmation" src="https://assets.postman.com/postman-docs/opt-in-to-auto-flex-modal.jpg" width="400px"/>
 
-
 Click to **Agree to Auto-Flex's terms and conditions**, then select **Get Early Access**.
 
 > View [Postman's auto-flex team policy](https://learning.postman.com/auto-flex-policy/).
