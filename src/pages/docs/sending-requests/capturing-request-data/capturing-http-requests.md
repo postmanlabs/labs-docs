@@ -76,7 +76,7 @@ On OS X, the computer's IP address can be found in _System Preferences > Networ
 
 Open the wireless settings of your mobile device and update the configuration of the wireless connection to use HTTP Proxy. Set the IP address with the IP you retrieved from your computer in the second step. Set the port with the port you established in Postman in **Step 1**.
 
-[![wireless settings on mobile device](https://assets.postman.com/postman-docs/ios-http-proxy-settings-aa.jpeg)](https://assets.postman.com/postman-docs/ios-http-proxy-settings-aa.jpeg)
+<img src="https://assets.postman.com/postman-docs/ios-http-proxy-settings-aa.jpeg" alt="wireless settings on mobile device" width="350">
 
 Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
 
@@ -190,7 +190,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
     <img src="https://assets.postman.com/postman-docs/ios-root-cert-settings-aa.jpeg" alt="iOS crt settings" width="350">
 
     Confirm the certificate settings.
-    
+
     <img src="https://assets.postman.com/postman-docs/ios-enable-full-trust-aa.jpeg" alt="iOS crt full trust settings" width="350">
 
 ## Requirements to use the OpenSSL module
