@@ -169,29 +169,27 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 1. Download the certificate to the iOS device.
 
-    <img src="https://assets.postman.com/postman-docs/ios-transfer-cert-aa.jpeg" alt="download OpenSSL installer" width="350">
-
+    <img src="https://assets.postman.com/postman-docs/ios-transfer-cert-aa.jpeg" alt="transfer crt to iOS device" width="350">
 1. Go to **Settings > Profile Downloaded**.
 
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-install-cert-aa.jpeg)
+    <img src="https://assets.postman.com/postman-docs/ios-install-cert-aa.jpeg" alt="iOS install cert" width="350">
 1. Select **Install** for both of the following prompts. Installing a certificate requires the user to enter the device passcode to proceed.
 
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-install-cert2-aa.jpeg)
+    <img src="https://assets.postman.com/postman-docs/ios-install-cert2-aa.jpeg" alt="iOS install cert2" width="350">
 
     When the certificate is installed, your device will show an installation confirmation screen like the one below.
 
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-install-done-aa.jpeg)
+    <img src="https://assets.postman.com/postman-docs/ios-install-done-aa.jpeg" alt="iOS install cert done" width="350">
 
     Select **Done** to review all existing certificates.
 1. Go to **Settings App > General > About > Certificate Trust Settings**. Enable full trust for Postman’s root certificate.
 
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-cert-trust-settings-aa.jpeg)
-
+    <img src="https://assets.postman.com/postman-docs/ios-cert-trust-settings-aa.jpeg" alt="iOS enable trust settings" width="350">
 1. Select **Continue** to complete the installation.
 
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-root-cert-settings-aa.jpeg)
+    <img src="https://assets.postman.com/postman-docs/ios-root-cert-settings-aa.jpeg" alt="iOS crt settings" width="350">
 
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-enable-full-trust-aa.jpeg)
+    <img src="https://assets.postman.com/postman-docs/ios-enable-full-trust-aa.jpeg" alt="iOS crt full trust settings" width="350">
 
 ## Requirements to use the OpenSSL module
 
