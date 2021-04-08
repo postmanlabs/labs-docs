@@ -169,7 +169,8 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 1. Download the certificate to the iOS device.
 
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-transfer-cert-aa.jpeg)
+    <img src="https://assets.postman.com/postman-docs/ios-transfer-cert-aa.jpeg" alt="download OpenSSL installer" width="350">
+
 1. Go to **Settings > Profile Downloaded**.
 
     ![download OpenSSL installer](https://assets.postman.com/postman-docs/ios-install-cert-aa.jpeg)
