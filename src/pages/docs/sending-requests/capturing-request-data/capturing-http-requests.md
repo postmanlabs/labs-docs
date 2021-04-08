@@ -82,7 +82,7 @@ Set the proxy IP address of your device (an iPhone in this example) to the IP ad
 
 You are all set! Head over to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
 
-[![requests under History tab](https://assets.postman.com/postman-docs/WS-postman-proxy-history-sidebar-aa.jpeg)](https://assets.postman.com/postman-docs/WS-postman-proxy-history-sidebar-aa.jpeg)
+[![requests under History tab](https://assets.postman.com/postman-docs/WS-postman-proxy-history-sidebar-aa.jpg)](https://assets.postman.com/postman-docs/WS-postman-proxy-history-sidebar-aa.jpg)
 
 ## Connect to proxy for target devices
 
@@ -123,7 +123,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 1. Select **Browse** and then select **Trusted Root Certification Authorities**.
     [![Select trust root crt authorities](https://assets.postman.com/postman-docs/windows-crt-install-store-aa.jpeg)](https://assets.postman.com/postman-docs/windows-crt-install-store-aa.jpeg)
 1. Select **OK** and **Next** to confirm the options.
-1. Select **Finish** to save all configurations and import the certificate.  
+1. Select **Finish** to save all configurations and import the certificate.
     [![Save configurations and import crt](https://assets.postman.com/postman-docs/windows-crt-install-complete-aa.jpeg)](https://assets.postman.com/postman-docs/windows-crt-install-complete-aa.jpeg)
     [![Select System keychains](https://assets.postman.com/postman-docs/windows-crt-import-complete-aa.jpeg)](https://assets.postman.com/postman-docs/windows-crt-import-complete-aa.jpeg)
 
