@@ -93,10 +93,6 @@ The broader development community has published some useful tutorials for settin
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
 
-## Use Interceptor to capture requests
-
-See [Capturing requests with Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) for full instructions to set up and use this method.
-
 ## Capture HTTPS traffic with Postman's built-in proxy
 
 You can use the Postman's proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices. After you enable the proxy feature, follow the instructions below to install the security certificate on the target devices.
@@ -227,3 +223,7 @@ OpenSSL is generally already installed for macOS and Linux (there can be cases w
 1. Open **Command Prompt** and run **openssl version** to confirm the installation was successful.
 
     ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-check-openssl-version.jpg)
+
+## Use Interceptor to capture requests
+
+See [Capturing requests with Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) for full instructions to set up and use this method.
