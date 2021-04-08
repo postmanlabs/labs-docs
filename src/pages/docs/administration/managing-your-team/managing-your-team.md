@@ -73,7 +73,6 @@ In a workspace, select **Invite** in the upper-right corner. Enter the name of t
 
 <img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace.jpg"/>
 
-
 > You can also invite individuals to a workspace by navigating to the workspace **Overview** tab, then **Sharing** in the lower-right corner.
 
 ### Canceling invitations
