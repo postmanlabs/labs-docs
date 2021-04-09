@@ -276,7 +276,8 @@ Authorization code grant type requires the user to authenticate with the provide
 
 To use authorization code grant type, enter a __Callback URL__ for your client application (which should be registered with the API provider), together with various details provided by the API service including __Auth URL__, __Access Token URL__, __Client ID__, and __Client Secret__.
 
-> You can enter your auth details in the web browser, instead of in Postman, if you prefer, by selecting __Authorize using browser__. 
+> You can enter your auth details in the web browser, instead of in Postman, if you prefer, by selecting __Authorize using browser__.
+
 #### Authorization code (With PKCE)
 
 You can use PKCE (Proof Key for Code Exchange) with OAuth 2.0. When you select __Authorization Code (With PKCE)__ two additional fields will become available for __Code Challenge Method__ and __Code Verifier__. You can opt to use `SHA-256` or `Plain` algorithms to generate the code challenge. The verifier is an optional 43-128 character string to connect the authorization request to the token request.
@@ -310,7 +311,7 @@ The full list of parameters to request a new access token is as follows, dependi
 * __Token Name:__ The name you want to use for the token.
 * __Grant Type:__ A dropdown list of options. This will depend on the API service provider requirements.
 * __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it. If this does not work for your API, you can use the following URL: `https://oauth.pstmn.io/v1/browser-callback`
-    * __Authorize using browser:__ You can choose to enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use __Authorization code__ or __Implicit__ grant type. Checking this box will set the __Callback URL__ to return to Postman. If you opt to authorize using the browser, make sure pop-ups are disabled for the callback URL, otherwise it will not work.
+    * __Authorize using browser:__ You can enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use the __Authorization code__ or __Implicit__ grant type. Checking this box will set the __Callback URL__ to return to Postman. If you opt to authorize using the browser, make sure pop-ups are disabled for the callback URL, otherwise it will not work.
 * __Auth URL:__ The endpoint for the API provider authorization server, to retrieve the auth code.
 * __Access Token URL:__ The provider's authentication server, to exchange an authorization code for an access token.
 * __Client ID:__ The ID for your client application registered with the API provider.
