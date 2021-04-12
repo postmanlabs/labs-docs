@@ -132,18 +132,20 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 ### CentOS and Red Hat Enterprise Linux distros
 
 1. Copy the **postman-proxy-ca.crt** certificate file from **~/.config/Postman/proxy** to the **/etc/pki/ca-trust/source/anchors/** directory.
+
+    `sudo cp ~/.config/Postman/proxy/postman-proxy-ca.crt /etc/pki/ca-trust/source/anchors/`
 1. Run the command below in terminal to complete the installation:
 
-    `update-ca-trust extract`
+    `sudo update-ca-trust extract`
 
 ### Ubuntu distros
 
 1. Create the directory for the CA certificate with the command below.
 
-    `sudo mkdir /usr/share/ca-certificates/extra`
+    `sudo mkdir -p /usr/share/ca-certificates/extra`
 1. Copy postman-proxy-ca.crt to the new folder with the command below.
 
-    `sudo cp ~/config/Postman/postman-proxy-ca.crt /usr/share/ca-certificates/extra/postman-proxy-ca.crt`
+    `sudo cp ~/.config/Postman/proxy/postman-proxy-ca.crt /usr/share/ca-certificates/extra/postman-proxy-ca.crt`
 1. Add the certificate to the system with the two commands below.
 
     `sudo dpkg-reconfigure ca-certificates`
