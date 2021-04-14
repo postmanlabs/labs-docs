@@ -315,7 +315,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-column__link"
-                  href="https://pages.getpostman.com/Resellers-Support.html"
+                  href="https://www.postman.com/support/resellers-support/"
                   onClick={[Function]}
                 >
                   Resellers Support
