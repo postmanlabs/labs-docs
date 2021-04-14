@@ -146,7 +146,7 @@ class IndexPage extends React.Component {
           </div>
           <div className="col-lg-8 order-lg-13">
             <ResponsiveEmbed
-              src="https://www.youtube.com/embed/7E60ZttwIpY/"
+              src={`https://www.youtube.com/embed/7E60ZttwIpY/?=${uuidv4()}`}
               allowFullScreen
             />
           </div>
