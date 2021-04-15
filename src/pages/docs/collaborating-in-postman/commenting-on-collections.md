@@ -122,7 +122,7 @@ You can resolve comments made on request parameters when you no longer want them
 ## Deleting comments
 
 1. In Postman, open the collection with the comment you want to delete.
-2. Find the comment and click **Comments** > **Delete**.
+2. Find the comment and click the trash can icon.
 
 <img src="https://assets.postman.com/postman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="50%">
 
