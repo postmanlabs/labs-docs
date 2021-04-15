@@ -145,7 +145,7 @@ class IndexPage extends React.Component {
           </div>
           <div className="col-lg-8 order-lg-13">
             <div className='embed-responsive embed-responsive-16by9'>
-              <iframe className='embed-responsive-item' src="https://www.youtube.com/embed/7E60ZttwIpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
             </div>
           </div>
         </section>
