@@ -68,11 +68,11 @@ In Postman, select **Invite**.
 
 [![Invite button](https://assets.postman.com/postman-docs/invite-button-v8.jpg)](https://assets.postman.com/postman-docs/invite-button-v8.jpg)
 
-Enter the email address of the individual you’d like to invite to your team workspace, click **Add** > **Send Invitations**.
+Enter the email address of the individual you would like to invite to your team workspace or the [group](/docs/administration/managing-your-team/user-groups/) name, then click **Add** > **Send Invitations**.
 
-[![Invite team workspace](https://assets.postman.com/postman-docs/invite-team-members-v8.jpg)](https://assets.postman.com/postman-docs/invite-team-members-v8.jpg)
+<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace.jpg"/>
 
-The individual will be added to the team once they accept their invitation.
+The individual or group will be added to the team once they accept their invitation.
 
 You can also use the **Copy Invite Link** and send it to people you would like to join your workspace.
 
