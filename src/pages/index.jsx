@@ -1,5 +1,4 @@
 import React from 'react';
-import ResponsiveEmbed from 'react-responsive-embed';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import uuidv4 from 'uuid/v4';
 import Layout from '../components/layout';
@@ -145,10 +144,9 @@ class IndexPage extends React.Component {
             <p className="mb-4">Send and authorize a request, write test scripts, and chain requests together.</p>
           </div>
           <div className="col-lg-8 order-lg-13">
-            <ResponsiveEmbed
-              src="https://www.youtube.com/embed/videoseries?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
-              allowFullScreen
-            />
+            <div className='embed-responsive embed-responsive-16by9'>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7E60ZttwIpY?rel=0" allowfullscreen></iframe>
+            </div>
           </div>
         </section>
         <section className="row section">
