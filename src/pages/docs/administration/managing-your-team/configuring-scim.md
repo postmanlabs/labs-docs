@@ -1,7 +1,7 @@
 ---
-title: "Managing user groups"
-order: 124
-page_id: "managing_user_groups"
+title: "Configuring SCIM"
+order: 142
+page_id: "configuring_scim"
 warning: false
 contextual_links:
   - type: section
