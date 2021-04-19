@@ -67,10 +67,13 @@ You can pass auth details along with any request you send in Postman. Auth data 
     * [OAuth 1.0](#oauth-10)
     * [OAuth 2.0](#oauth-20)
         * [Authorization code](#authorization-code)
+          - [Authorization code (With PKCE)](#authorization-code)
         * [Implicit](#implicit)
         * [Password credentials](#password-credentials)
         * [Client credentials](#client-credentials)
-        * [Requesting a token](#requesting-an-oauth-20-token)
+        * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
+          - [Configuration Options tab](#configuration-options-tab)
+          - [Advanced Options tab](#advanced-options-tab)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
@@ -306,7 +309,7 @@ Enter the provider's __Access Token URL__, together with the __Client ID__ and _
 
 ### Requesting an OAuth 2.0 token
 
-The full list of parameters to request a new access token is as follows, depending on your grant type
+The full list of parameters to request a new access token is as follows, depending on your grant type.
 
 #### Configuration Options tab
 
@@ -325,7 +328,7 @@ The full list of parameters to request a new access token is as follows, dependi
 #### Advanced Options tab
 
 * __Resource:__ A URI that indicates the resource or target service where the token is intended to be used.
-* __Audience:__ A URI that target audience or service where the token is intended to be used.
+* __Audience:__ A URI that indicates the target audience or service where the token is intended to be used.
 
 When your config is complete, click __Get New Access Token__.
 
