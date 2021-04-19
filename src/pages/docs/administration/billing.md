@@ -235,6 +235,6 @@ You can view your current number of additional team members, how much you will b
 
 ## Next steps
 
-For information on team management, see [Managing your team](/docs/administration/managing-your-team/).
+For information on team management, see [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
 
 To learn more about the billing team role, see [Roles and Permissions](/docs/collaborating-in-postman/roles-and-permissions/).

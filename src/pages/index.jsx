@@ -102,7 +102,7 @@ class IndexPage extends React.Component {
                 <LandingCard
                   title="Admin"
                   description="Administer your account and set up your team for success."
-                  link="/docs/administration/managing-your-team/"
+                  link="/docs/administration/managing-your-team/managing-your-team/"
                   cta="Manage Postman"
                   icon={AdminImage}
                 />
