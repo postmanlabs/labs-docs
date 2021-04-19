@@ -327,7 +327,7 @@ The full list of parameters to request a new access token is as follows, dependi
 * __Resource:__ A URI that indicates the resource or target service where the token is intended to be used.
 * __Audience:__ A URI that target audience or service where the token is intended to be used.
 
-When your config is complete, click __Request Token__.
+When your config is complete, click __Get New Access Token__.
 
 > When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in subsequent requests. By default Postman will display a pop-up browser when you click __Request Token__. You can alternatively choose to authenticate using your system's default web browser. Select __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
 
