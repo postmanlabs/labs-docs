@@ -1,5 +1,5 @@
 ---
-title: "Configuring SCIM"
+title: "Configuring SCIM provisioning"
 order: 142
 page_id: "configuring_scim"
 warning: false
@@ -14,108 +14,97 @@ contextual_links:
 
 ---
 
-> __[Groups are only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
+> __[Provisioning with SCIM is only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
 
-With Postman groups, you can organize your team members into functional groups that mimic your organizational structure. These groups allow you to efficiently manage access control across your team and seamlessly onboard new team members.
+Postman supports SCIM (System for Cross-domain Identity Management), allowing you to automate provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it via your identity provider.
 
-You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to create, manage, and delete groups.
+You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team.
 
 ## Contents
 
-* [Creating a group](#creating-a-group)
+* [Enabling SCIM provisioning](#enabling-scim-provisioning)
 
-* [Editing a group](#editing-a-group)
+    * [Enabling SCIM in Postman](#enabling-scim-in-postman)
 
-    * [Managing members of a group](#managing-members-of-a-group)
+    * [Generating SCIM API key](#generating-scim-api-key)
 
-    * [Managing access control for a group](#managing-access-control-for-a-group)
+* [Enabling SCIM in Okta](#enabling-scim-in-okta)
 
-        * [Editing team roles for a group](#editing-team-roles-for-a-group)
+    * [Pushing new users](#pushing-new-users)
 
-        * [Managing roles on workspaces and Postman entities](#managing-roles-on-workspaces-and-postman-entities)
+    * [Pushing profile updates](#pushing-profile-updates)
 
-    * [Editing details for a group](#editing-details-for-a-group)
+    * [Pushing user deletion](#pushing-user-deletion)
 
-* [Deleting a group](#deleting-a-group)
+    * [Importing new users](#importing-new-users)
+
+* [Enabling SCIM with the SCIM API](#enabling-scim-with-the-scim-api)
 
 * [Next steps](#next-steps)
 
-## Creating a group
+## Enabling SCIM provisioning
 
-As a team admin, you can create a group by navigating to Postman, selecting **Home** in the upper-left corner, then **Manage Team** on the left side. Alternatively, select **Team** in the upper-right corner > **Manage Team**.
+You must have SSO configured prior to enabling SCIM for your Postman team.
 
-Above your list of team members, select **Groups** > **Create Group**.
+> Learn [how to configure SSO in Postman](/docs/administration/sso/admin-sso/).
 
-<img alt="Create group button" src="https://assets.postman.com/postman-docs/overall-group-view-2.jpg"/>
+### Enabling SCIM in Postman
 
-Give your group a name and description, add your team members, and select the team roles you would like to assign to the group, then **Create Group**.
+To enable SCIM, navigate to [Postman](https://go.postman.co/home) and select **Team** in the upper-right > **Team Settings**. Select **Authentication** in the left sidebar. 
 
->Note that you must have the billing role yourself to assign the billing role to others.
+<img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/dashboard-auth-enable-scim.jpg"/>
 
-<img alt="Create group form" src="https://assets.postman.com/postman-docs/create-group-action.jpg" width="500px"/>
+Next to **SCIM provisioning**, select the **OFF** toggle.
 
-> Team members will receive an email and in-app notification when added to a group.
+<img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/turn-on-scim-confirmation.jpg" width="400px"/>
 
-<!-- -->
-> If a team member with a support-only account (admin and/or billing) is given the **Developer** role via a group they are in, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
+Click **Turn On** to enable SCIM provisioning.
 
-## Editing a group
+### Generating SCIM API key
 
-You can edit a group at any time by managing a group's team members and access to Postman entities.
+Under **SCIM provisioning**, select **Generate SCIM API Key**.
 
-### Managing members of a group
+<img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/generate-scim-api-key.jpg"/>
 
-In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to modify and select it to edit.
+Name your key and click **Generate**. Copy your new API key for later use and click **Done**.
 
-Click **+ Add** to add a team member to the group. Click **X** next to a team member to remove them from the group.
+If you are using Okta, continue by [enabling SCIM in Okta](#enabling-scim-in-okta). If you are using another identity provider, continue by [enabling SCIM with the SCIM API](#enabling-scim-with-the-scim-api).
 
-<img alt="Manage team members" src="https://assets.postman.com/postman-docs/remove-group-member-action.jpg" width="500px"/>
+## Enabling SCIM in Okta
 
-Once you have made the changes to the members of the group, click **Save Changes**.
+Postman is available in the Okta Integration Network as an app, allowing you to enable user provisioning directly through Okta.
 
-> Group members will receive an email and in-app notification when added to or removed from a group.
+**(add instructions for adding app)**
+<!--- If they already have the postman app in okta for SSO, do they still need to add it as a new application or just enable provisioning in their existing app? Re: step 5-9 here - https://docs.databricks.com/administration-guide/users-groups/scim/okta.html#configure-databricks-provisioning-using-okta -->
+<!--- Need base URL --->
 
-### Managing access control for a group
+### Pushing new users
 
-You can control a group's access at the team level, workspace level, and on individual collections, APIs, environments, mock servers, and monitors.
+**(add instructions)**
 
-> Group members will receive an in-app notificiation when roles are modified.
+<!-- The flow here https://docs.databricks.com/administration-guide/users-groups/scim/okta.html is unclear - can you get access to an okta account that has scim enabled for an app and provide a brief clip of how to navigate to where this would be? I am unsure on starting point (okta dashboard? postman app settings in okta dashboard? and which screens users will go through)  -->
 
-#### Editing team roles for a group
+### Pushing profile updates
 
-In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to modify and select it to edit.
+**(add instructions)**
 
-<img alt="Edit group team roles" src="https://assets.postman.com/postman-docs/edit-group-action.jpg" width="500px"/>
+<!-- same as above, is the first screenshot on this page - https://docs.databricks.com/administration-guide/users-groups/scim/okta.html#configure-databricks-provisioning-using-okta - the starting point for users and do they select those tabs? how do you get to that starting point?
+-->
 
-Select the team roles you would like to assign to the group, or deselect team roles you would like to remove from the group, then **Save Changes**.
+### Pushing user deletion
 
-#### Managing roles on workspaces and Postman entities
+**(add instructions)**
 
-You can control a group's access to individual workspaces, collections, APIs, environments, mock servers, and monitors. For more information on managing workspaces, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
+<!-- same as above -->
 
-For collections, APIs, environments, mock servers, and monitors, navigate to the entity in Postman and in the left sidebar, select **...** > **Manage roles**.
+### Importing new users
 
-<img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-add-user-group.jpg"/>
+**(add instructions)**
+<!-- is this a feature? was mentioned in call as part of list. can users in postman be imported into okta? see: https://docs.databricks.com/administration-guide/users-groups/scim/okta.html#import-users-from-databricks-to-okta -->
 
-Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. You can also remove a group by selecting the **X** to the right of it in the list. Click **Save** to confirm changes.
-
-> See [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on access control at a team, workspace, API, and collection level.
-
-### Editing details for a group
-
-In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to modify and select it to edit.
-
-<img alt="Edit group description" src="https://assets.postman.com/postman-docs/edit-group-description-action.jpg" width="500px"/>
-
-Click on the group's name at the top of the page to modify it. To add a description, select **Add a description** under the group's name. To update an existing description, select it to modify. **Save Changes** to confirm your updates.
-
-## Deleting a group
-
-In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to delete and select it.
-
-Click **Delete** to delete the group, then **Delete Group** to confirm.
-
-<img alt="Delete group" src="https://assets.postman.com/postman-docs/user-groups-delete-group.jpg" width="400px"/>
+## Enabling SCIM with the SCIM API
+ 
+Visit Postman's [SCIM API docs]() for information on setting up SCIM for other identity providers.
 
 ## Next steps
 
