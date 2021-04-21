@@ -165,7 +165,7 @@ You will then be able to select **Download** to retrieve your archived data.
 
 [![Download Data](https://assets.postman.com/postman-docs/Download_Data1.png)](https://assets.postman.com/postman-docs/Download_Data1.png)
 
-> The `archive.json` inside the downloaded ZIP archive is not a Postman collection that can be imported; it's simply an index of files present in the archive. A collections folder contains all the files that can be imported.
+> The `archive.json` inside the downloaded ZIP archive is not a Postman collection that can be imported; it is simply an index of files present in the archive. A collections folder contains all the files that can be imported.
 
 Alternatively, you can download your archived data directly within Postman. To learn how, refer to [Settings](/docs/getting-started/settings/).
 
