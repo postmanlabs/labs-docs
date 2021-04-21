@@ -76,11 +76,11 @@ Run this collection inside Newman, using the command below. If everything is set
 
 ## Set up Jenkins
 
-After you have started Jenkins, it exposes an interface at `http://localhost:8080`.
+After you have started Jenkins, it exposes an interface at `http://localhost:8080`. Click the **New Item** link on the left sidebar to create a new job.
 
 [![jenkins interface](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.jpg)
 
-Click **New Item** link on the left sidebar to create a new job. Select a “Freestyle Project” from the options. Name your project, and click **OK**.
+Select a “Freestyle Project” from the options. Name your project, and click **OK**.
 
 [![new Jenkins job](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)
 
