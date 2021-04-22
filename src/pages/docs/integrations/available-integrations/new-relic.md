@@ -14,19 +14,16 @@ contextual_links:
 
 > **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
-You can use Postman's APIMatic integration to back up your Postman collections in Swagger, RAML, API Blueprint, and other API description formats.
+You can use Postman's New Relic integration to view all your operational data in one place. This integration allows you to configure your Postman monitors to send metrics to New Relic.
 
-This integration allows APIMatic to convert your Postman collections into any major API description format, and save the resulting file into your designated GitHub repository.
+If you don't already have a [New Relic account](https://newrelic.com/), you'll need to create one.
 
-If you don't already have a [GitHub account](https://github.com/), you'll need to create one.
+## Configuring New Relic Integration
 
-## Configuring APIMatic Integration
-
-In the [web dashboard](https://go.postman.co/workspaces), navigate to your workspace, choose **Integrations** &gt; **Browse Integrations**, and select **APIMatic** from the list of third party integrations.
+From the [Integrations page](https://postman.postman.co/integrations/browse?category=all), search and select the New Relic integration.
 
 <img alt="select apimatic" src="https://assets.postman.com/postman-docs/integrations_APImatic.png" width="200px"/>
 
-Click **View Details** for more information on how the Postman to APIMatic integration converts, formats, and saves your collections to GitHub.
 
 [![APIMatic Integration](https://assets.postman.com/postman-docs/apimatic-integration-overview.jpg)](https://assets.postman.com/postman-docs/apimatic-integration-overview.jpg)
 
