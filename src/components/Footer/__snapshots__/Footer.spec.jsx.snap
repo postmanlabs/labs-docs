@@ -266,7 +266,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-column__link"
-                  href="https://www.postman.com/pricing"
+                  href="https://www.postman.com/pricing/"
                   onClick={[Function]}
                 >
                   Overview
