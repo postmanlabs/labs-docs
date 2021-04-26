@@ -72,7 +72,7 @@ You can import your data via files, folders, links, raw text, or GitHub reposito
 
 ### Importing Postman data
 
-You can import Postman data you previously exported, including collections, environments, data dumps, and globals.  
+You can import Postman data you previously exported, including collections, environments, data dumps, and globals.
 
 To import Postman data, click **Import**. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
 
@@ -130,6 +130,8 @@ Postman supports the following API specification formats:
 * [cURL](https://github.com/postmanlabs/curl-to-postman)
 
 * WADL
+
+There are also tools on GitHub to convert the following into a Postman collection for import:
 
 * Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman), [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
 
