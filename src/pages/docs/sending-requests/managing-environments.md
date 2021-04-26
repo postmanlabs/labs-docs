@@ -220,6 +220,10 @@ Select roles, check the __remove__ option if you wish to remove the environment 
 
 You can also remove a shared environment from a workspace by clicking __...__ next to the environment name and choosing __Remove from workspace__.
 
+To export an Environment, click __...__ next to the __Share__ button in the Environment overview. Select __Export__ and confirm that you would like to export the environment from the current workspace.
+
+<img alt="Export environment" src="https://assets.postman.com/postman-docs/export-environment-overview.jpg"/>
+
 ### Managing environment roles
 
 If you use personal credentials in your requests and the requests are pulling these from a shared environment (for example a variable storing an API secret value), you can restrict visibility of your credentials by only storing them in the current value of the variable. If you are managing an environment that's shared across a team, you can restrict edit access so that most of your team only has viewer role on the environment, which prevents them from accidentally updating the shared value and leaking credentials. Similarly, you can prevent accidental changes to values by restricting the number of team members who have edit access to your environment.
