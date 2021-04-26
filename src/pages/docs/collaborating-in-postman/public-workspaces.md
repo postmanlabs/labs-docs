@@ -168,4 +168,4 @@ Click X next to the team member you want to remove from the public workspace, an
 
 ## Next steps
 
-Learn more about [collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/).
+To add an API to the network, see [Adding your API](/docs/publishing-your-api/add-api-network/#adding-your-api). For more details on how to add categories to a public workspace, visit [Providing API detail](/docs/publishing-your-api/add-api-network/#providing-api-detail).
