@@ -17,7 +17,7 @@ contextual_links:
 
 ---
 
-[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to [team profile settings](https://postman.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the Public API Network.
+[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to your [team profile settings](https://postman.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the [Public API Network](/docs/publishing-your-api/add-api-network/).
 
 <img alt="Enable team profile" src="https://assets.postman.com/postman-docs/enable-public-profile-url.jpg"/>
 
@@ -110,11 +110,11 @@ To leave a public workspace, select the **...** on the right corner of the works
 
 You can add existing collections and environments to another public workspace by sharing them.
 
-To share a collection to a public workspace, open it via Collections on the left-hand side, click ... and choose **Share collection**.
+To share a collection to a public workspace, open it via Collections on the left-hand side, click **...** > **Share collection**.
 
 <img alt="Adding an collection to public workspace" src="https://assets.postman.com/postman-docs/share-collection-public-workspace.jpg" height="500px"/>
 
-To share an environment, open it via Environments on the left-hand side, click **...** and choose **Share environment**.
+To share an environment, open it via Environments on the left-hand side, click **...** > **Share environment**.
 
 <img alt="Adding an environment to public workspace" src="https://assets.postman.com/postman-docs/share-environment-public-workspace.jpg" height="400px"/>
 
@@ -162,7 +162,7 @@ To remove any team member, click the trash icon next to the individual you want 
 
 <img alt="Remove team members for a public workspace" src="https://assets.postman.com/postman-docs/remove-member-public-workspace.jpg"/>
 
-Click X next to the team member you want to remove from the public workspace, and click **Save**.
+Click **X** next to the team member you want to remove from the public workspace, and click **Save**.
 
 <img alt="Remove members for a public workspace from overview" src="https://assets.postman.com/postman-docs/remove-team-member-workspace-overview.jpg" width="400px"/>
 
