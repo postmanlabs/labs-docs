@@ -207,10 +207,15 @@ class IndexPage extends React.Component {
             {sortedUpcomingEvents.length > 0 ? (
               // Map over, get the appropriate sup text value, and render event.
               sortedUpcomingEvents.map((event) => {
+                // Used for Left side of events
                 const dateObject = new Date(event.date);
-                const location = `${event.location} - ${event.time}`;
+                // Used for Right Side of events
+                const today = new Date(event.date);
+                const date = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
+                // Combine platform, date and time of the event
+                const eventInformation = `${event.location} - ${date} ${event.time}`;
                 return (
-                  <div className="col-12 col-xl-10 offset-xl-1 mb-5">
+                  <div className="col-12 col-xl-10 offset-xl-1 mb-4" key={uuidv4()}>
                     <OutboundLink
                       className="event-link-wrapper"
                       href={event.link}
@@ -228,10 +233,8 @@ class IndexPage extends React.Component {
                           </span>
                         </div>
                         <div className="col-8">
-                          <p className="mb-1 event-location">{`${location}`}</p>
-                          <p key={uuidv4()} className="event-title">
-                            {event.title}
-                          </p>
+                          <p className="mb-1 event-location">{`${eventInformation}`}</p>
+                          <p className="event-title">{event.title}</p>
                           <p>{event.description}</p>
                         </div>
                         <div className="col-1 icon">
