@@ -22,26 +22,6 @@ const heroBackground = {
 const videoBackground = {
   backgroundColor: 'rgb(245, 248, 251)',
 };
-// Currently not in use. Use if we need to add a "th" to the end off the month
-// const getSupString = (dateOfMonth) => {
-//   if (dateOfMonth >= 4 && dateOfMonth <= 20) {
-//     return 'th';
-//   }
-//   if (dateOfMonth >= 24 && dateOfMonth <= 30) {
-//     return 'th';
-//   }
-//   if (dateOfMonth === 1 || dateOfMonth === 21 || dateOfMonth === 31) {
-//     return 'st';
-//   }
-//   if (dateOfMonth === 2 || dateOfMonth === 22) {
-//     return 'nd';
-//   }
-//   if (dateOfMonth === 3 || dateOfMonth === 23) {
-//     return 'rd';
-//   }
-//   return null;
-// };
-
 class IndexPage extends React.Component {
   componentDidMount() {
     const pix = document.createElement('script');
@@ -161,7 +141,7 @@ class IndexPage extends React.Component {
             </div>
           </div>
         </section>
-
+        {/* Youtube Video Section */}
         <section className="row section" style={videoBackground}>
           <div className="col-lg-4 order-lg-1">
             <h2>Intro to Postman</h2>
@@ -181,6 +161,7 @@ class IndexPage extends React.Component {
             </div>
           </div>
         </section>
+        {/* Livestream Section */}
         <section className="row section">
           <div className="col-md-12 text-center mb-3">
             <h2>Upcoming Postman Livestreams</h2>
@@ -205,14 +186,14 @@ class IndexPage extends React.Component {
           <div className="row justify-content-center d-flex align-items-stretch event-wrapper">
             {/* If there are events in the events.json array */}
             {sortedUpcomingEvents.length > 0 ? (
-              // Map over, get the appropriate sup text value, and render event.
+              // Map over, get the appropriate values and render event.
               sortedUpcomingEvents.map((event) => {
-                // Used for Left side of events
+                // Used for Left side of events (Example: JAN 1)
                 const dateObject = new Date(event.date);
                 // Used for Right Side of events
                 const today = new Date(event.date);
                 const date = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
-                // Combine platform, date and time of the event
+                // Combine platform, date and time of the event Example: Livestream - 01/01/2000 4PM PST
                 const eventInformation = `${event.location} - ${date} ${event.time}`;
                 return (
                   <div className="col-12 col-xl-10 offset-xl-1 mb-4" key={uuidv4()}>
@@ -274,7 +255,6 @@ class IndexPage extends React.Component {
             )}
           </div>
         </section>
-
         <section className="row section justify-content-center">
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
             <SecondaryCard
