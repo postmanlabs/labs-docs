@@ -182,7 +182,7 @@ class IndexPage extends React.Component {
           </div>
         </section>
         <section className="row section">
-          <div className="col-md-12 text-center mb-5">
+          <div className="col-md-12 text-center mb-3">
             <h2>Upcoming Postman Livestreams</h2>
             <p>
               <a href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
@@ -218,8 +218,8 @@ class IndexPage extends React.Component {
                       rel="noopener noreferrer"
                     >
                       <div className="row">
-                        <div className="col-4 col-lg-2 offset-lg-1 card-date">
-                          <span>
+                        <div className="col-3 col-xl-2 event-date">
+                          <span className="event-month">
                             {' '}
                             <strong>{`${months[dateObject.getUTCMonth()]}`}</strong>
                           </span>
@@ -227,8 +227,8 @@ class IndexPage extends React.Component {
                             <strong>{`${dateObject.getDate()}`}</strong>
                           </span>
                         </div>
-                        <div className="col-7 col-lg-5">
-                          <p className="mb-1 location">{`${location}`}</p>
+                        <div className="col-8">
+                          <p className="mb-1 event-location">{`${location}`}</p>
                           <p key={uuidv4()} className="event-title">
                             {/* <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
                             {event.title}
@@ -237,7 +237,7 @@ class IndexPage extends React.Component {
                           </p>
                           <p>{event.description}</p>
                         </div>
-                        <div className="col-1  col-lg-1 offset-lg-1 icon">
+                        <div className="col-1 icon">
                           <i className="pm-icon-chevron-right" />
                         </div>
                       </div>
