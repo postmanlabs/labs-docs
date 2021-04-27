@@ -210,7 +210,7 @@ class IndexPage extends React.Component {
                 const dateObject = new Date(event.date);
                 const location = `${event.location} - ${event.time}`;
                 return (
-                  <div className="col-12 col-xl-10 offset-xl-1 mb-4">
+                  <div className="col-12 col-xl-10 offset-xl-1 mb-5">
                     <OutboundLink
                       className="event-link-wrapper"
                       href={event.link}
@@ -230,9 +230,6 @@ class IndexPage extends React.Component {
                         <div className="col-8">
                           <p className="mb-1 event-location">{`${location}`}</p>
                           <p key={uuidv4()} className="event-title">
-                            {/* <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
-                            {event.title}
-                          </OutboundLink> */}
                             {event.title}
                           </p>
                           <p>{event.description}</p>
