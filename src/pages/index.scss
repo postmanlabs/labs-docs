@@ -8,3 +8,65 @@
     padding: .75rem 1.25rem;
     color: #0C5460;
   }
+
+  .event-wrapper {
+    padding: 24px;
+  }
+  .location {
+      
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .event-title {
+      font-size: 24px;
+      margin-bottom: 4px;
+      font-weight: bold;
+  }
+
+  .event-link-wrapper {
+        color: #282828;
+    :hover {
+        color: #282828;
+        cursor: pointer;
+    }
+  }
+
+.card-date {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    @media (max-width: 992px) {
+      justify-content:initial;
+    }
+}
+
+.icon {
+    display: flex;
+    background-color: #fff;
+    i {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: initial;
+      font-size: 32px;
+      color: #F4815B;
+      :hover {
+        color: rgba(40,40,40,0.8)
+    }
+
+    @media (max-width: 992px) {
+        justify-content:initial;
+      }
+  
+      @media (max-width: 575px) {
+        display: none;
+      }
+    }
+}

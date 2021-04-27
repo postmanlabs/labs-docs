@@ -3,7 +3,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import uuidv4 from 'uuid/v4';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-
+import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 
 import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
@@ -22,25 +22,25 @@ const heroBackground = {
 const videoBackground = {
   backgroundColor: 'rgb(245, 248, 251)',
 };
-
-const getSupString = (dateOfMonth) => {
-  if (dateOfMonth >= 4 && dateOfMonth <= 20) {
-    return 'th';
-  }
-  if (dateOfMonth >= 24 && dateOfMonth <= 30) {
-    return 'th';
-  }
-  if (dateOfMonth === 1 || dateOfMonth === 21 || dateOfMonth === 31) {
-    return 'st';
-  }
-  if (dateOfMonth === 2 || dateOfMonth === 22) {
-    return 'nd';
-  }
-  if (dateOfMonth === 3 || dateOfMonth === 23) {
-    return 'rd';
-  }
-  return null;
-};
+// Currently not in use. Use if we need to add a "th" to the end off the month
+// const getSupString = (dateOfMonth) => {
+//   if (dateOfMonth >= 4 && dateOfMonth <= 20) {
+//     return 'th';
+//   }
+//   if (dateOfMonth >= 24 && dateOfMonth <= 30) {
+//     return 'th';
+//   }
+//   if (dateOfMonth === 1 || dateOfMonth === 21 || dateOfMonth === 31) {
+//     return 'st';
+//   }
+//   if (dateOfMonth === 2 || dateOfMonth === 22) {
+//     return 'nd';
+//   }
+//   if (dateOfMonth === 3 || dateOfMonth === 23) {
+//     return 'rd';
+//   }
+//   return null;
+// };
 
 class IndexPage extends React.Component {
   componentDidMount() {
@@ -53,18 +53,18 @@ class IndexPage extends React.Component {
 
   render() {
     const months = [
-      'January',
-      'February',
-      'March',
-      'April',
+      'Jan',
+      'Feb',
+      'Mar',
+      'Apr',
       'May',
-      'June',
-      'July',
-      'August',
-      'September',
-      'October',
-      'November',
-      'December',
+      'Jun',
+      'Jul',
+      'Aug',
+      'Sep',
+      'Oct',
+      'Nov',
+      'Dec',
     ];
     // If, upcomingEvents is an array, sort the events array by date, and filter out past events.
     // Else, leave as is.. which is an object with upcomingEvents.development = true
@@ -182,7 +182,7 @@ class IndexPage extends React.Component {
           </div>
         </section>
         <section className="row section">
-          <div className="col-md-12 text-center">
+          <div className="col-md-12 text-center mb-5">
             <h2>Upcoming Postman Livestreams</h2>
             <p>
               <a href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
@@ -202,26 +202,47 @@ class IndexPage extends React.Component {
               to our YouTube channel so you don’t miss when we go live.
             </p>
           </div>
-          <div className="col-md-12">
+          <div className="row justify-content-center d-flex align-items-stretch event-wrapper">
             {/* If there are events in the events.json array */}
             {sortedUpcomingEvents.length > 0 ? (
               // Map over, get the appropriate sup text value, and render event.
               sortedUpcomingEvents.map((event) => {
                 const dateObject = new Date(event.date);
+                const location = `${event.location} - ${event.time}`;
                 return (
-                  <p key={uuidv4()}>
-                    <strong>
-                      {`${months[dateObject.getUTCMonth()]} ${dateObject.getDate()}`}
-                      <sup>{getSupString(dateObject.getDate())}</sup>
-                      {' '}
-                      -
-                    </strong>
-                    {' '}
-                    <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
-                      {event.title}
+                  <div className="col-12 col-xl-10 offset-xl-1 mb-4">
+                    <OutboundLink
+                      className="event-link-wrapper"
+                      href={event.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div className="row">
+                        <div className="col-4 col-lg-2 offset-lg-1 card-date">
+                          <span>
+                            {' '}
+                            <strong>{`${months[dateObject.getUTCMonth()]}`}</strong>
+                          </span>
+                          <span>
+                            <strong>{`${dateObject.getDate()}`}</strong>
+                          </span>
+                        </div>
+                        <div className="col-7 col-lg-5">
+                          <p className="mb-1 location">{`${location}`}</p>
+                          <p key={uuidv4()} className="event-title">
+                            {/* <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
+                            {event.title}
+                          </OutboundLink> */}
+                            {event.title}
+                          </p>
+                          <p>{event.description}</p>
+                        </div>
+                        <div className="col-1  col-lg-1 offset-lg-1 icon">
+                          <i className="pm-icon-chevron-right" />
+                        </div>
+                      </div>
                     </OutboundLink>
-                    {`: ${event.description}`}
-                  </p>
+                  </div>
                 );
               })
             ) : (
