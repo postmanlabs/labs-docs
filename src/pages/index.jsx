@@ -213,7 +213,7 @@ class IndexPage extends React.Component {
                             <strong>{`${dateObject.getDate()}`}</strong>
                           </span>
                         </div>
-                        <div className="col-8">
+                        <div className="col-7">
                           <p className="mb-1 event-location">{`${eventInformation}`}</p>
                           <p className="event-title">{event.title}</p>
                           <p>{event.description}</p>
