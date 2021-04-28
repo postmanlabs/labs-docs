@@ -8,6 +8,13 @@ contextual_links:
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Loop Through a Data File | Postman Level Up"
+    url: "https://youtu.be/RH8b3gbujPY"
 
 warning: false
 

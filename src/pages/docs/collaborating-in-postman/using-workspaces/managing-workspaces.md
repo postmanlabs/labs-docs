@@ -1,6 +1,6 @@
 ---
 title: "Using and managing workspaces"
-order: 77
+order: 78
 page_id: "managing_workspaces"
 contextual_links:
   - type: section
@@ -45,31 +45,25 @@ You can [create workspaces](/docs/collaborating-in-postman/using-workspaces/crea
 
 You can access personal, team, and private workspaces using the workspace selector at the top of Postman.
 
-To view and edit your workspace details (e.g. name, description), navigate to the workspace selector and hover over a workspace. Then, click ***...*** and select **View Details**.
+To view and edit your workspace details (e.g. name, description), navigate to the workspace selector and hover over a workspace. Then, click ***...*** and select **View**.
 
 <img alt="Default Workspace" src="https://assets.postman.com/postman-docs/create-workspace-dropdown.jpg" width="300px"/>
 
-You can access public workspaces via the [**Workspaces** category in the API Network](https://www.postman.com/explore/workspaces).
-
-[![Access Public Workspaces](https://assets.postman.com/postman-docs/access_public_workspaces.gif)](https://assets.postman.com/postman-docs/access_public_workspaces.gif)
-
 ## Sharing workspaces
 
-You can share workspaces with collaborators by inviting them. If you invite a collaborator to a personal workspace, Postman will convert it to a team workspace.
+You can share workspaces with collaborators by inviting them individually or via a [group](/docs/administration/managing-your-team/user-groups/). If you invite a collaborator to a personal workspace, Postman will convert it to a team workspace.
 
-> You cannot convert the default __My Workspace__ to a team workspace.
+In Postman, you can convert your default __My Workspace__ to a team, private or public workspace. If you convert all your personal workspaces, we will create one new workspace where you can keep your collections, APIs, and environments and use it as your personal workspace. This means you will always have one personal workspace in Postman.
+
+<img alt="Bootstrap workspace" src="https://assets.postman.com/postman-docs/bootstrap-workspace-v8.gif">
 
 Open your workspace in Postman by selecting it from the workspace dropdown in the left. To add collaborators, click __Invite__ at the top right.
 
-Add email addresses for the collaborators you want to invite to the workspace. Select access levels for the workspace and click __Send Invitations__.
+Add individuals you would like to invite to the workspace by email or by [group](/docs/administration/managing-your-team/user-groups/). Select access levels for the workspace and click __Send Invitations__.
 
-<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-users-workspace.jpg"/>
+<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace.jpg"/>
 
 When your collaborators accept the invite from the notification they receive, they will be able to access the workspace.
-
-You can share a Public workspace by sharing its URL directly. To access the public profile URL, navigate to __Your Team__, then click __View Team Settings__.
-
-[![Enable team profile](https://assets.postman.com/postman-docs/enable-team-profile.jpg)](https://assets.postman.com/postman-docs/enable-team-profile.jpg)
 
 ## Joining workspaces
 
@@ -81,11 +75,7 @@ Select the workspace, then click __Join Workspace__ at the top right.
 
 <img alt="Join Workspace" src="https://assets.postman.com/postman-docs/join-workspace-v8.jpg"/>
 
-Once you join the workspace, you can start creating collections, sending requests, visualizing your responses and even much more.
-
-> To leave a public workspace, select the **...** on the right corner of the workspace overview and __Leave workspace__. Click __Leave__ to finalize leaving the workspace.
-
-[![Leave workspace](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)
+Once you join the workspace, you can start creating collections, sending requests, visualizing your responses, and more.
 
 ## Adding elements to workspaces
 
@@ -133,19 +123,17 @@ Click the **...** on the right corner of the workspace overview, then select __D
 
 Confirm that you wish to delete the workspace—it will no longer be available following this action.
 
-> Public workspaces must have their visibility reverted in order to be deleted. If you try to delete a public workspace by clicking **...** on the right corner of the workspace overview, the option to delete will be greyed out.
+> [Public workspaces](/docs/collaborating-in-postman/public-workspaces/) must have their visibility reverted in order to be deleted.
 
 ## Managing workspace members
 
 If you're a team administrator you can manage the members of your workspace, from the Dashboard Overview via the **Members** tab.
 
-For a team workspace, you can add or remove any team member from the __Members__ section, selecting access permissions depending on your account level, and save your changes.
+For a team workspace, you can add or remove any team member or [group](/docs/administration/managing-your-team/user-groups/) from the __Members__ section, selecting access permissions depending on your account level, and save your changes.
 
 <img alt="Edit team workspace" src="https://assets.postman.com/postman-docs/edit-members-team-workspace-v8.jpg" width="350px">
 
-Being an admin, you have the permission to add and remove any member from a public workspace. To add members to a public workspace, navigate to the __Members__ section, enter an email address, click __Add__ to the team, then __Save__.
-
-<img alt="Add member" src="https://assets.postman.com/postman-docs/add-team-member.jpg" width="300px"/>
+Being an admin, you have the permission to add and remove any member from a public workspace. To add members to a public workspace, see [Adding members to a public workspace](/docs/collaborating-in-postman/public-workspaces/#adding-elements-to-a-public-workspace).
 
 Another way to add workspace members is to click __Manage Team__ and select __Invite Users__.
 

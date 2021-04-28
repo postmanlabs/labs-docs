@@ -11,7 +11,7 @@ contextual_links:
     url: "https://www.postman.com/downloads/"
   - type: link
     name: "Installation and updates"
-    url: "/docs/postman/launching-postman/installation-and-updates/"
+    url: "/docs/getting-started/installation-and-updates/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -96,7 +96,7 @@ If you're using Postman in your company or team, check out these guides to maxim
 
 * [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
 * [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
-* [Managing Postman for an organization](/docs/administration/managing-your-team/)
+* [Managing Postman for an organization](/docs/administration/managing-your-team/managing-your-team/)
 * [Onboarding your team](/docs/administration/onboarding-checklist/)
 
 ### Developing with Postman
