@@ -1,6 +1,6 @@
 ---
 title: "Resolving team conflicts"
-order: 79
+order: 80
 page_id: "conflicts"
 contextual_links:
   - type: section
