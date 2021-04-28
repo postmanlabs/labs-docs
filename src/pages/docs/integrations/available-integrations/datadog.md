@@ -61,36 +61,62 @@ Once the data is present in Datadog, you can filter it based on the monitor name
 
 [![datadog filters](https://assets.postman.com/postman-docs/58831776.png)](https://assets.postman.com/postman-docs/58831776.png)
 
-## Metrics and Tags forwarded to Datadog from Postman
+## Metrics Renaming
 
-Postman is able to forward a wide array of metrics and tags for the specified monitors. The metrics and tags allow you to clearly see the statuses and what may have caused the issues.
+Postman is able to forward a wide array of metrics for the specified monitors. With the latest release - release name, Postman has adopted a new nomenclature for the metrics that are sent to Datadog.
+This adheres to the standard naming convention that is followed across many Application Performance Monitoring (APM) tools.
 
-| **Metrics**          | **Type**         | **Description**         | **Level**         |
-| ------------- | ------------- | ------------- | ------------- |
-| PostmanMonitors_errors | GAUGE   |
-| PostmanMonitors_failedTests | GAUGE  |
-| PostmanMonitors_passedTests  | GAUGE  |
-| PostmanMonitors_requestCount  | GAUGE  |
-| PostmanMonitors_totalLatencys  | GAUGE  |
-| PostmanMonitors_warnings  | GAUGE  |
-| PostmanMonitor\_run\_httpStatus2XX  | GAUGE  | No of requests which return 200 series response HTTP status in a monitor run  | Run  |
-| PostmanMonitor\_run\_httpStatus3XX  | GAUGE  | No of requests which return 300 series response HTTP status in a monitor run  | Run  |
-| PostmanMonitor\_run\_httpStatus4XX  | GAUGE  | No of requests which return 400 series response HTTP status in a monitor run  | Run  |
+
+| **Metrics (Old Names)**          | **Metrics (New Names)**    |       **Type**         | **Description**         | **Level**         |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| PostmanMonitors_errors | postman.monitor.run.errors |GAUGE   | The total number of errors across all requests in a monitoring run | Run
+| PostmanMonitors_failedTests | postman.monitor.run.failed_tests | GAUGE  | The total number of failed tests across all requests in a monitoring run | Run
+| PostmanMonitors_passedTests  | postman.monitor.run.passed_tests | GAUGE  | Total number of passed tests across all requests in a monitoring run | Run
+| PostmanMonitors_requestCount  | postman.monitor.run.request_count | GAUGE  | Total number of requests in a monitoring run | Run
+| PostmanMonitors_totalLatencys  | postman.monitor.run.total_latency | GAUGE  | The total latency time for all requests in a monitoring run | Run
+| PostmanMonitor\_run\_httpStatus2XX  | postman.monitor.run.http_status_2xx | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 200 range  | Run  |
+| PostmanMonitor\_run\_httpStatus4XX  | postman.monitor.run.http_status_4xx | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 400 range  | Run  |
+| PostmanMonitor\_run\_httpStatus5XX  | postman.monitor.run.http_status_5xx | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 500 range  | Run  |
+| PostmanMonitor_request_latency  | postman.monitor.request.latency | GAUGE  | The latency for each request in a monitoring run  | Request  |
+| PostmanMonitor_request_failedTests  | postman.monitor.request.failed_tests | GAUGE  | Number of failed tests for each request in a monitoring run  | Request  |
+| PostmanMonitor_request_passedTests  | postman.monitor.request.passed_tests | GAUGE  | Number of passed tests for each request in a monitoring run  | Request  |
+| PostmanMonitor_request_bytes  | postman.monitor.request.bytes | GAUGE  | Total bytes sent and received for each request in a monitoring run  | Request |
+
 
 <br />
 
-| **Tag**          | **Description**         | **Level-Event/Metric**         |
-| ------------- | ------------- | ------------- |
-| Region | PostmanMonitors_failedTests | The region from where the monitor is run  | Metric (run level), Metric (request level)  |
-| Triggers | What triggered the monitor run - Manual vs Webhook vs Scheduled  | Event and Metric (run level)  |
-| Run results | Successful vs Failure vs Error vs Abort  | Metric (run level)<br />This is already captured for the events (job level)  |
-| Level | What level is the metric captured for - Run vs Request  | What level is the metric captured for - Run vs Request  |
-| Status Code | HTTP response code for the request run  | Metric (request level)  |
-| Job ID | Monitor's Job ID  | Metric (run level) and Metric (request level)  |
-| Request ID | The request identifier  | Metric (run level)  |
+## Metrics Tags
 
-## Create a dashboard with Datadog
+Postman sends tags along with each metric and events to the Datadog. Tags allow you filter the metric based on various parameters such as monitor name, collection name, etc. Following are the Tags the Postman sends to the Datadog 
 
-With this Datadog integration with Postman you can create dashboards to quickly monitor and view your APIs metrics. You can create a separate dashboard that corresponds to each monitor, containing all the metrics associated with that monitor and a few other systems/ network resource metrics. The dashboard provides you with an end-to-end view of the performance, resilience, resource utilization, and availability of your APIs.
+| **Tag**          | **Description**         
+| ------------- | ------------- 
+| Region | The region from where the monitor is run
+| Triggers | What triggered the monitor run - Manual vs Webhook vs Scheduled
+| Run results | Successful vs Failure vs Error vs Abort
+| Level | What level is the metric captured for - Run vs Request
+| Status Code | HTTP response code for the request run
+| Job ID | Monitor's Job ID
+| Request ID | The request identifier
 
-[![datadog dashboards](https://assets.postman.com/postman-docs/datadog-postman-api-dashboard.jpg)](https://assets.postman.com/postman-docs/datadog-postman-api-dashboard.jpg)
+## Updating the old Integrations
+
+Postman is now a Datadog’s Technology Partner. The Postman’s Integration is listed on Datadog’s Integrations page. To enable the partnership, the metrics being emitted by Postman have been renamed as described above. 
+
+The old Integrations needs to be updated to take the advantage of the Integration listing on Datadog. To update the old Integrations to the new format, follow the steps below: -
+
+- Go to https://go.postman.co/integrations/service/datadog/monitor_run_datadog
+
+- Click on the Integration you want to upgrade
+
+- Click on “Update Now“ followed by "Update Integration" on confirmation box to upgrade the Integration [need to replace exact CTA]
+
+[Screenshot]
+
+- Click on “Confirm“ to upgrade
+
+The updated Integration has the following benefits: -
+
+- The Postman metrics for the new Integration are non treated as [Custom Metric](https://docs.datadoghq.com/developers/metrics/) in Datadog and hence are free. The custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).
+- A default Dashboard is provided on Datadog that can be used to observe the Monitor. Just change the monitor_name variable to the Monitor for which you want to observe the Dashboard
+[Screenshot]
