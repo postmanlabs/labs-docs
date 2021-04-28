@@ -21,7 +21,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 
 Log in to [Datadog](https://app.datadoghq.com/account/settings#api) and select **Integrations** in the header toolbar.
 
-An `API Key` is created for you automatically under the "APIs" tab. If you want, you can also create a key by specifying a name for it.
+An `API Key` is created for you automatically under the **APIs** tab. If you want, you can also create a key by specifying a name for it.
 
 Save the API Key to use later.
 
@@ -57,17 +57,16 @@ As soon as your monitor runs, the data will start flowing into Datadog.
 
 [![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
 
-Once the data is present in Datadog, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and even environment name/uid (if present). You can also combine different metrics to create a dashboard.
+Once the data is present in Datadog, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and environment name/uid (if present). You can also combine different metrics to create a dashboard.
 
 [![datadog filters](https://assets.postman.com/postman-docs/58831776.png)](https://assets.postman.com/postman-docs/58831776.png)
 
-## Metrics Renaming
+## Metrics renaming
 
-Postman is able to forward a wide array of metrics for the specified monitors. With the latest release - release name, Postman has adopted a new nomenclature for the metrics that are sent to Datadog.
+Postman is able to forward a wide array of metrics for the specified monitors. With the latest release, Postman has adopted a new nomenclature for the metrics that are sent to Datadog.
 This adheres to the standard naming convention that is followed across many Application Performance Monitoring (APM) tools.
 
-
-| **Metrics (Old Names)**          | **Metrics (New Names)**    |       **Type**         | **Description**         | **Level**         |
+| **Metrics (Old Name)**          | **Metrics (New Name)**    |       **Type**         | **Description**         | **Level**         |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | PostmanMonitors_errors | postman.monitor.run.errors |GAUGE   | The total number of errors across all requests in a monitoring run | Run
 | PostmanMonitors_failedTests | postman.monitor.run.failed_tests | GAUGE  | The total number of failed tests across all requests in a monitoring run | Run
@@ -82,41 +81,38 @@ This adheres to the standard naming convention that is followed across many Appl
 | PostmanMonitor_request_passedTests  | postman.monitor.request.passed_tests | GAUGE  | Number of passed tests for each request in a monitoring run  | Request  |
 | PostmanMonitor_request_bytes  | postman.monitor.request.bytes | GAUGE  | Total bytes sent and received for each request in a monitoring run  | Request |
 
-
 <br />
 
-## Metrics Tags
+## Metrics tags
 
-Postman sends tags along with each metric and events to the Datadog. Tags allow you filter the metric based on various parameters such as monitor name, collection name, etc. Following are the Tags the Postman sends to the Datadog 
+Postman sends tags to Datadog along with each metric and event. Tags enable you to filter the metric based on various parameters such as monitor name or collection name. The following tags are sent by Postman to Datadog:
 
-| **Tag**          | **Description**         
-| ------------- | ------------- 
+| **Tag**          | **Description**
+| ------------- | -------------
 | Region | The region from where the monitor is run
-| Triggers | What triggered the monitor run - Manual vs Webhook vs Scheduled
-| Run results | Successful vs Failure vs Error vs Abort
-| Level | What level is the metric captured for - Run vs Request
+| Triggers | What triggered the monitor run: Manual, Webhook, or Scheduled
+| Run results | Successful, Failure, Error, or Abort
+| Level | The level the metric is captured for: Run or Request
 | Status Code | HTTP response code for the request run
 | Job ID | Monitor's Job ID
 | Request ID | The request identifier
 
-## Updating the old Integrations
+## Updating old integrations
 
-Postman is now a Datadog’s Technology Partner. The Postman’s Integration is listed on Datadog’s Integrations page. To enable the partnership, the metrics being emitted by Postman have been renamed as described above. 
+Postman is now a Datadog Technology Partner. Postman’s Integration is listed on Datadog’s Integrations page. To enable the partnership, the metrics being emitted by Postman have been renamed as described above.
 
-The old Integrations needs to be updated to take the advantage of the Integration listing on Datadog. To update the old Integrations to the new format, follow the steps below: -
+If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog. To update the old integrations to the new format:
 
-- Go to https://go.postman.co/integrations/service/datadog/monitor_run_datadog
+1. Go to the [Post monitoring results](https://go.postman.co/integrations/service/datadog/monitor_run_datadog) page.
 
-- Click on the Integration you want to upgrade
+1. Click the integration you want to upgrade.
 
-- Click on “Update Now“ followed by "Update Integration" on confirmation box to upgrade the Integration [need to replace exact CTA]
+1. Click **Update Now**, then click **Update Integration** on the confirmation box to upgrade the Integration.
+  [![Datadog upgrade integration](https://assets.postman.com/postman-docs/datadog-integration-upgrade.jpg)](https://assets.postman.com/postman-docs/datadog-integration-upgrade.jpg)
+1. Click **Confirm**.
 
-[Screenshot]
+The updated Integration has the following benefits:
 
-- Click on “Confirm“ to upgrade
-
-The updated Integration has the following benefits: -
-
-- The Postman metrics for the new Integration are non treated as [Custom Metric](https://docs.datadoghq.com/developers/metrics/) in Datadog and hence are free. The custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).
-- A default Dashboard is provided on Datadog that can be used to observe the Monitor. Just change the monitor_name variable to the Monitor for which you want to observe the Dashboard
-[Screenshot]
+* The Postman metrics for the new Integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/developers/metrics/) in Datadog and hence are free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
+* A default Dashboard is provided on Datadog that can be used to observe the Monitor. Change the `monitor_name` variable to the Monitor for which you want to observe the Dashboard.
+  [![Datadog dashboard](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)
