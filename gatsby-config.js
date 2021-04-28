@@ -77,17 +77,6 @@ module.exports = {
       options: {
         plugins: [
           'gatsby-remark-autolink-headers',
-          // {
-          //   resolve: 'gatsby-remark-embed-video',
-          //   options: {
-          //     width: 700,
-          //     ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-          //     height: 400, // Optional: Overrides optional.ratio
-          //     // Optional: Will remove related videos from the end of an embedded YouTube video.
-          //     related: false,
-          //     noIframeBorder: true, // Optional: Disable insertion of <style> border: 0
-          //   },
-          // },
           'gatsby-remark-responsive-iframe',
           {
             resolve: 'gatsby-remark-prismjs',
