@@ -30,14 +30,13 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
   ![New Relic API keys](https://assets.postman.com/postman-docs/new-relic-key-1.jpg)
 1. Click **Show** to the right of an existing key and copy it, or click **+** to create a new key.
   ![New Relic API keys](https://assets.postman.com/postman-docs/new-relic-key-2.jpg)
-
 > There are multiple API key types in New Relic. The account level API Keys cannot be used for inserting  data into New Relic. Insights Insert Keys must be used.
 
 For more information on API Keys in New Relic, see [the New Relic documentation](https://docs.newrelic.com/docs/apis/get-started/intro-apis/new-relic-api-keys/).
 
 ## Configuring New Relic Integration
 
-1. On your Home page, navigate to [Integrations](https://postman.postman.co/integrations/browse?category=all), click **Browse All Integrations**, and click **New Relic** in the list of third-party integrations.
+1. On your Postman Home page, navigate to **Integrations**, click **Browse All Integrations**, and click **New Relic** in the list of third-party integrations.
   ![new relic search](https://assets.postman.com/postman-docs/new-relic-search-all.jpg)
 1. Click **Add Integration** to create your New Relic integration.
   ![new relic add integration](https://assets.postman.com/postman-docs/new-relic-add-integration.jpg)
@@ -56,6 +55,8 @@ There is also a Query builder for more sophisticated searches, and you can also 
 
 [![New Relic filters](https://assets.postman.com/postman-docs/new-relic-data-explorer.jpg)](/new-relic-data-explorer.jpg)
 
+You can also add one or more charts to a dashboard, tracking key metrics over time. For more information see [the dashboard documentation](https://docs.newrelic.com/docs/query-your-data/explore-query-data/dashboards/introduction-dashboards/) in New Relic.
+
 ## Common attributes
 
 The following common attributes are sent along with metrics. These can be used as dimensions when viewing metrics in New Relic:
@@ -72,7 +73,7 @@ The following common attributes are sent along with metrics. These can be used a
 
 ## Metrics pushed to New Relic
 
-The following metrics and their values are pushed from Postman to New Relic:
+The following metrics and their values are pushed from Postman to New Relic.
 
 | Metric | Level | Individual Attributes |
 |--------|--------|--------|
