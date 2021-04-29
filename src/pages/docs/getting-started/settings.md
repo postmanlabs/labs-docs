@@ -55,7 +55,6 @@ Postman tries to minimize the number of settings you have to change, so some def
 * **Request Timeout in ms (0 for infinity):**  Set how long the Postman should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
 * **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded, Postman will inform you that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact Postman's performance.
 * **Disable Request Validation:** Switch off request validation if you do not want Postman to attempt to validate your requests.
-* **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For more detail, refer to [Using variables](/docs/sending-requests/variables/).
 
 ### Working Directory
 
