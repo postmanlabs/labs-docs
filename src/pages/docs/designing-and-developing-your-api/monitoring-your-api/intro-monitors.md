@@ -130,7 +130,7 @@ There are a few differences between running collections in a Postman monitor and
 ### Variables
 
 * You cannot import existing global variables to a monitor, but you can create new ones during a run.
-* Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values, unlike in the collection runner when [persist variables](/docs/running-collections/intro-to-collection-runs/) is enabled.
+* Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values.
     * If you require persistent variables, you can add a call to update your environment using the [Postman API](/docs/developer/intro-api/).
 
 ### Console output
