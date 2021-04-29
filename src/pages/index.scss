@@ -25,6 +25,7 @@
 
     @media (max-width: 992px) {
       justify-content:initial;
+      margin-top: 8px;
     }
 }
 
@@ -49,11 +50,12 @@
 .event-link-wrapper {
     color: #282828;
 
-    :hover {
+    &:hover {
         color: #282828;
         cursor: pointer;
     }
 }
+
 // Arrow icon in events section
 .icon {
     display: flex;
@@ -65,20 +67,17 @@
       align-items: center;
       justify-content: initial;
       font-size: 32px;
-      color: #F4815B;
+      color: #7F7F7F;
 
-      :hover {
-        color: rgba(40,40,40,0.8)
+      &:hover {
+        color: #FF6C37;
     }
 
       @media (max-width: 992px) {
         align-items: baseline;
-        margin-top: 34px;
+        margin-top: 32px;
 
       }
-  
-    //   @media (max-width: 575px) {
-    //     display: none;
-    //   }
+
     }
 }
