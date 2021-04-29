@@ -207,12 +207,6 @@ $ newman run PostmanCollection.json -e environment.json --bail newman
                     Failing Tests"
 ```
 
-The results of all tests and requests can be exported into a file and later imported into Postman for further analysis. Use the JSON reporter and a file name to save the runner output into a file.
-
-```bash
-$ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
-```
-
 **Note:** Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
 
 ## Using Newman with CI/CD
