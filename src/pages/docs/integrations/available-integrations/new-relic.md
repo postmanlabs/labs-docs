@@ -30,6 +30,7 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
   ![New Relic API keys](https://assets.postman.com/postman-docs/new-relic-key-1.jpg)
 1. Click **Show** to the right of an existing key and copy it, or click **+** to create a new key.
   ![New Relic API keys](https://assets.postman.com/postman-docs/new-relic-key-2.jpg)
+
 > There are multiple API key types in New Relic. The account level API Keys cannot be used for inserting  data into New Relic. Insights Insert Keys must be used.
 
 For more information on API Keys in New Relic, see [the New Relic documentation](https://docs.newrelic.com/docs/apis/get-started/intro-apis/new-relic-api-keys/).
