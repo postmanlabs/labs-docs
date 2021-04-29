@@ -97,7 +97,7 @@ module.exports = {
       options: {
         name: 'Postman Learning Center',
         short_name: 'Postman Learning Center',
-        start_url: '/',
+        start_url: 'https://learning.postman.com/',
         background_color: '#FF6C37',
         theme_color: '#FF6C37',
         display: 'minimal-ui',
