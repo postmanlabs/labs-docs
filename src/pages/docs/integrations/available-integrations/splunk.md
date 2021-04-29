@@ -1,0 +1,61 @@
+---
+title: "Splunk"
+order: 177
+page_id: "splunk"
+warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
+---
+
+> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
+
+Splunk is a monitoring service for cloud-scale applications. It combines data from servers, databases, tools, and services to present a unified view of an entire stack. This integration allows you to configure your Postman Monitors to send metrics to Splunk where you can visualize and compare them with other metrics.
+
+Setting up a Splunk integration requires you to get an HTTP Event Collector (HEC) Token from Splunk and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
+
+## Retrieving your Splunk HEC token
+
+Log in to [Splunk](https://login.splunk.com) and select **Integrations** in the header toolbar.
+
+https://docs.splunk.com/Documentation/Splunk/8.1.0/Metrics/GetMetricsInOther#Get_metrics_in_from_clients_over_HTTP_or_HTTPS
+
+Save the API Key to use later.
+
+![get datadog integrations API key](https://assets.postman.com/postman-docs/datadog-get-api-key-bb.jpg)
+
+## Configuring Postman Monitors
+
+1. On your Postman Home page, navigate to **Integrations**, click **Browse All Integrations**, and click **Splunk** in the list of third-party integrations.
+
+   [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-all-search.jpg)](https://assets.postman.com/postman-docs/datadog-all-search.jpg)
+
+1. You can select **View All** to see all integrations already created by your team.
+
+   [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
+
+1. Select **Add Integration** to start the configuration process.
+
+   <img alt="Add integration datadog" src="https://assets.postman.com/postman-docs/datadog-save-add-integration.jpg" width="300px"/>
+
+1. To send your monitor metrics and events to Splunk:
+
+   * Name your new integration.
+   * Select the workspace and monitor whose data you would like to send to Splunk.
+   * Enter your Splunk HEC token, as described above.
+   * Enter your Splunk host URL and port.
+
+1. Select the **Add Integration** button.
+
+## Viewing data in Splunk
+
+As soon as your monitor runs, the data will start flowing into Splunk.
+
+[![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
+
+Once the data is present in Splunk, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and environment name/uid (if present). You can also combine different metrics to create a dashboard.
+
+[![datadog filters](https://assets.postman.com/postman-docs/58831776.png)](https://assets.postman.com/postman-docs/58831776.png)
