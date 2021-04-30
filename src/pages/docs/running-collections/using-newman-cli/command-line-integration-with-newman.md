@@ -16,11 +16,6 @@ contextual_links:
   - type: link
     name: "Clarifai"
     url: "https://www.postman.com/customers/Clarifai.pdf"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Newman v3"
-    url: "https://blog.postman.com/newman-v3/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -205,6 +200,12 @@ $ newman run PostmanCollection.json -e environment.json --bail newman
                     at assertion:1 in test-script
                     inside "Status Code Test" of "Example Collection with
                     Failing Tests"
+```
+
+The results of all tests and requests can be exported into a file. Use the JSON reporter and a file name to save the output into a file.
+
+```
+$ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
 **Note:** Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
