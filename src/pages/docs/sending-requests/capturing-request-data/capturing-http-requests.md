@@ -97,7 +97,7 @@ The broader development community has published some useful tutorials for settin
 
 You can use the Postman's proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices. After you enable the proxy feature, follow the instructions below to install the security certificate on the target devices.
 
-> Note: You need to [Install the OpenSSL module](/docs/sending-requests/capturing-request-data/capturing-http-requests/#requirements-to-use-the-openSSL-module/) to generate the certificate.
+> Note: While using Windows, [Install the OpenSSL module](/docs/sending-requests/capturing-request-data/capturing-http-requests/#requirements-to-use-the-openSSL-module/) in order to generate the certificate.
 
 ### macOS
 
@@ -113,6 +113,8 @@ You can use the Postman's proxy to inspect HTTPS communication from your Android
 After these steps, you will be able to capture HTTPS Requests with the Postman proxy.
 
 ### Windows
+
+> You need to [Install the OpenSSL module](/docs/sending-requests/capturing-request-data/capturing-http-requests/#requirements-to-use-the-openSSL-module/) to generate the certificate.
 
 1. From Windows File Explorer, navigate to **%APPDATA%\Postman\proxy**. Typically, it will be located at: **C:\Users\<user>\AppData\Roaming\Postman\proxy**
     [![Navigate to crt file](https://assets.postman.com/postman-docs/windows-crt-file-aa.jpeg)](https://assets.postman.com/postman-docs/windows-crt-file-aa.jpeg)
