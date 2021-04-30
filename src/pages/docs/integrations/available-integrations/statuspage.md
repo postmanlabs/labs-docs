@@ -56,6 +56,10 @@ If you select the **Link a monitor to a component** action, enter the following:
 1. Select a component failure status from the list. This status will be displayed in Statuspage when the linked monitor fails a test run.
   ![Statuspage link monitor to component](https://assets.postman.com/postman-docs/statuspage-monitor-to-component.jpg)
 
+When the monitor fails, the linked component's status will change on your status page:
+
+[![Statuspage component failure](https://assets.postman.com/postman-docs/statuspage-component-fail.jpg)](https://assets.postman.com/postman-docs/statuspage-component-fail.jpg)
+
 When a component's status is changed due to a failed test run, it will remain in that state until there is a successful test run in the monitor. After a successful run, the component status will return to the successful state.
 
 ### Create incident when monitoring run fails
@@ -64,9 +68,13 @@ When this action is configured, if the specified monitor fails a test run, a Sta
 
 If you select the **Create incident when monitoring run fails** action, enter the following:
 
-1. Enter a name for the incident name. This is the text shown to  customers when they see the incident.
+1. Enter a name for the incident name. This is the text shown to customers when they see the incident.
 1. Select an Incident status from the list.
 1. Select an Incident impact from the list. You can set this according to the importance of the service you are monitoring. For example, the failure of an optional, seldom-used API could trigger a minor incident, but the failure of your main authentication API would have critical impact.
   ![Statuspage create incident](https://assets.postman.com/postman-docs/statuspage-create-incident.jpg)
+
+When the monitor fails, an incident will be created on your status page:
+
+[![Statuspage incident](https://assets.postman.com/postman-docs/statuspage-incident.jpg)](https://assets.postman.com/postman-docs/statuspage-incident.jpg)
 
 When an incident is created by a failed test run, if a successive test run finishes successfully, the incident will be closed.
