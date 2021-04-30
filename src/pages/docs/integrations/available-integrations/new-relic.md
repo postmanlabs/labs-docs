@@ -50,11 +50,13 @@ For more information on API Keys in New Relic, see [the New Relic documentation]
 
 ## Viewing data in New Relic
 
-As soon as your monitor runs, Postman will start sending metrics data to New Relic. Once the data is present in New Relic, you can query it and display metrics. In New Relic, click **Query your data** and click **Metrics**. You can then search for metrics that begin with `postman.monitor.*` and form simple queries for the graph displayed.
+As soon as your monitor runs, Postman will start sending metrics data to New Relic. Once the data is present in New Relic, you can query it and display metrics. In New Relic, click **Query your data** and click **Metrics**. You can then search for metrics that begin with `postman` and form simple queries for the graph displayed.
 
-There is also a Query builder for more sophisticated searches, and you can also specify additional dimensions with common attributes. For example, you could add `monitor.name` or `user.name` to show separate lines for the monitor or user shown in the graph.
+![New Relic metrics](https://assets.postman.com/postman-docs/new-relic-metrics.jpg)
 
-[![New Relic filters](https://assets.postman.com/postman-docs/new-relic-data-explorer.jpg)](/new-relic-data-explorer.jpg)
+There is also a Query builder for more sophisticated searches, and you can also specify additional dimensions with common attributes. For example, you could add `monitor.name` or `user.name` to show separate lines for the monitor or user shown in the graph. The following example pivots latency data with regions:
+
+[![New Relic filters](https://assets.postman.com/postman-docs/new-relic-query.jpg)](/new-relic-query.jpg)
 
 You can also add one or more charts to a dashboard, tracking key metrics over time. For more information see [the dashboard documentation](https://docs.newrelic.com/docs/query-your-data/explore-query-data/dashboards/introduction-dashboards/) in New Relic.
 
@@ -74,7 +76,7 @@ The following common attributes are sent along with metrics. These can be used a
 
 ## Metrics pushed to New Relic
 
-The following metrics and their values are pushed from Postman to New Relic.
+The following metrics and their values are pushed from Postman to New Relic. Run-level metrics comprise metrics valid for the entire run - the number of errors, for example. Request-level metrics send data for each request within the collection.
 
 | Metric | Level | Individual Attributes |
 |--------|--------|--------|
