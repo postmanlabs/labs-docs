@@ -112,6 +112,8 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 ### Windows
 
+> You need to [Install the OpenSSL module](/docs/sending-requests/capturing-request-data/capturing-http-requests/#requirements-to-use-the-openSSL-module/) to generate the certificate.
+
 1. From Windows File Explorer, navigate to **%APPDATA%\Postman\proxy**. Typically, it will be located at: **C:\Users\<user>\AppData\Roaming\Postman\proxy**
     [![Navigate to crt file](https://assets.postman.com/postman-docs/windows-crt-file-aa.jpeg)](https://assets.postman.com/postman-docs/windows-crt-file-aa.jpeg)
 1. Right-click on the **postman-proxy-ca.crt** file and select **Install Certificate**.

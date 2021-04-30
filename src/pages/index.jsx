@@ -3,7 +3,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import uuidv4 from 'uuid/v4';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-
+import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 
 import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
@@ -22,38 +22,35 @@ const heroBackground = {
 const videoBackground = {
   backgroundColor: 'rgb(245, 248, 251)',
 };
-
-const getSupString = (dateOfMonth) => {
-  if (dateOfMonth >= 4 && dateOfMonth <= 20) {
-    return 'th';
-  } if (dateOfMonth >= 24 && dateOfMonth <= 30) {
-    return 'th';
-  } if (dateOfMonth === 1 || dateOfMonth === 21 || dateOfMonth === 31) {
-    return 'st';
-  } if (dateOfMonth === 2 || dateOfMonth === 22) {
-    return 'nd';
-  } if (dateOfMonth === 3 || dateOfMonth === 23) {
-    return 'rd';
-  }
-  return null;
-};
-
 class IndexPage extends React.Component {
-
-  componentDidMount(){
+  componentDidMount() {
     const pix = document.createElement('script');
-    pix.language='JavaScript1.1'
+    pix.language = 'JavaScript1.1';
     pix.src = '//pixel.mathtag.com/event/js?mt_id=1538259&mt_adid=244742&mt_exem=&mt_excl=&v1=&v2=&v3=&s1=&s2=&s3=';
     pix.async = true;
     document.body.appendChild(pix);
   }
 
   render() {
-    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const months = [
+      'Jan',
+      'Feb',
+      'Mar',
+      'Apr',
+      'May',
+      'Jun',
+      'Jul',
+      'Aug',
+      'Sep',
+      'Oct',
+      'Nov',
+      'Dec',
+    ];
     // If, upcomingEvents is an array, sort the events array by date, and filter out past events.
     // Else, leave as is.. which is an object with upcomingEvents.development = true
     const sortedUpcomingEvents = Array.isArray(upcomingEvents)
-      ? upcomingEvents.sort((a, b) => (new Date(a.date) - new Date(b.date)))
+      ? upcomingEvents
+        .sort((a, b) => new Date(a.date) - new Date(b.date))
         .filter((event) => new Date(event.expiration) > new Date())
       : upcomingEvents;
 
@@ -69,13 +66,21 @@ class IndexPage extends React.Component {
               <br />
               Check out the docs and support resources!
             </p>
-            <a href="/docs/getting-started/introduction/" className="btn btn__primary mb-5">Explore the docs</a>
+            <a href="/docs/getting-started/introduction/" className="btn btn__primary mb-5">
+              Explore the docs
+            </a>
           </div>
           <div className="col-sm-12 col-md-7 col-lg-6 align-self-center">
-            <img src={HeroImage} width="637" height="411" className="hero-image img-fluid" alt="Postmanaut sitting at computer. Illustration." />
+            <img
+              src={HeroImage}
+              width="637"
+              height="411"
+              className="hero-image img-fluid"
+              alt="Postmanaut sitting at computer. Illustration."
+            />
           </div>
         </section>
-  
+
         <section className="row section">
           <div className="col-sm-12 text-center">
             <h2 className="mb-5">Design, develop, and collaborate on your API projects</h2>
@@ -136,62 +141,107 @@ class IndexPage extends React.Component {
             </div>
           </div>
         </section>
-  
+        {/* Youtube Video Section */}
         <section className="row section" style={videoBackground}>
           <div className="col-lg-4 order-lg-1">
             <h2>Intro to Postman</h2>
             <p>Learn the Postman fundamentals in this video course for beginners.</p>
-            <p className="mb-4">Send and authorize a request, write test scripts, and chain requests together.</p>
+            <p className="mb-4">
+              Send and authorize a request, write test scripts, and chain requests together.
+            </p>
           </div>
           <div className="col-lg-8 order-lg-13">
-            <div className='embed-responsive embed-responsive-16by9'>
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7E60ZttwIpY?rel=0" allowfullscreen></iframe>
+            <div className="embed-responsive embed-responsive-16by9">
+              <iframe
+                className="embed-responsive-item"
+                src="https://www.youtube.com/embed/7E60ZttwIpY?rel=0"
+                title="Intro to Postman"
+                allowFullScreen
+              />
             </div>
           </div>
         </section>
+        {/* Livestream Section */}
         <section className="row section">
-          <div className="col-md-4">
+          <div className="col-md-12 text-center mb-3">
             <h2>Upcoming Postman Livestreams</h2>
             <p>
-              <a href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">Follow us</a>
+              <a href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
+                Follow us
+              </a>
               {' '}
               on Twitch or
               {' '}
-              <a href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw" target="_blank" rel="noopener noreferrer">subscribe</a>
+              <a
+                href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                subscribe
+              </a>
               {' '}
               to our YouTube channel so you don’t miss when we go live.
             </p>
           </div>
-          <div className="col-md-8">
+          <div className="row justify-content-center d-flex align-items-stretch event-wrapper">
             {/* If there are events in the events.json array */}
             {sortedUpcomingEvents.length > 0 ? (
-              // Map over, get the appropriate sup text value, and render event.
+              // Map over, get the appropriate values and render event.
               sortedUpcomingEvents.map((event) => {
+                // Used for Left side of events (Example: JAN 1)
                 const dateObject = new Date(event.date);
+                // Used for Right Side of events
+                const today = new Date(event.date);
+                const date = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
+                // Combine platform, date and time of the event Example: Livestream - 01/01/2000 4PM PST
+                const eventInformation = `${event.location} - ${date} ${event.time}`;
                 return (
-                  <p key={uuidv4()}>
-                    <strong>
-                      {`${months[dateObject.getUTCMonth()]} ${dateObject.getDate()}`}
-                      <sup>{getSupString(dateObject.getDate())}</sup>
-                      {' '}
-                      -
-                    </strong>
-                    {' '}
-                    <OutboundLink href={event.link} target="_blank" rel="noopener noreferrer">
-                      {event.title}
+                  <div className="col-12 col-xl-10 offset-xl-1 mb-4" key={uuidv4()}>
+                    <OutboundLink
+                      className="event-link-wrapper"
+                      href={event.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div className="row">
+                        <div className="col-3 col-xl-2 event-date">
+                          <span className="event-month">
+                            {' '}
+                            <strong>{`${months[dateObject.getUTCMonth()]}`}</strong>
+                          </span>
+                          <span>
+                            <strong>{`${dateObject.getDate()}`}</strong>
+                          </span>
+                        </div>
+                        <div className="col-7">
+                          <p className="mb-1 event-location">{`${eventInformation}`}</p>
+                          <p className="event-title">{event.title}</p>
+                          <p>{event.description}</p>
+                        </div>
+                        <div className="col-1 icon">
+                          <i className="pm-icon-chevron-right" />
+                        </div>
+                      </div>
                     </OutboundLink>
-                    {`: ${event.description}`}
-                  </p>
+                  </div>
                 );
               })
             ) : (
               <>
                 {/* If there are no events, and events.json is an object where development eq true */}
-                {(!Array.isArray(upcomingEvents) && upcomingEvents.development) ? (
+                {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
                   <div className="events__alert" role="alert">
                     <p>
-                      You are currently in develop mode. Dynamic events will not be displayed locally.
-                      <a style={{ fontSize: 'inherit' }} href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">See Contributing doc for details</a>
+                      You are currently in develop mode. Dynamic events will not be displayed
+                      locally.
+                      <a
+                        style={{ fontSize: 'inherit' }}
+                        href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        See Contributing doc for details
+                      </a>
                       .
                     </p>
                   </div>
@@ -205,7 +255,6 @@ class IndexPage extends React.Component {
             )}
           </div>
         </section>
-  
         <section className="row section justify-content-center">
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
             <SecondaryCard
@@ -226,7 +275,7 @@ class IndexPage extends React.Component {
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
             <SecondaryCard
               title="Product roadmap"
-              description="Find out what we&apos;re working on."
+              description="Find out what we're working on."
               cta="See the roadmap"
               ctaLink="https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers"
             />
@@ -234,7 +283,7 @@ class IndexPage extends React.Component {
         </section>
       </Layout>
     );
-  }  
-};
+  }
+}
 
 export default IndexPage;

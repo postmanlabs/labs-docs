@@ -16,11 +16,6 @@ contextual_links:
   - type: link
     name: "Clarifai"
     url: "https://www.postman.com/customers/Clarifai.pdf"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Newman v3"
-    url: "https://blog.postman.com/newman-v3/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -207,9 +202,9 @@ $ newman run PostmanCollection.json -e environment.json --bail newman
                     Failing Tests"
 ```
 
-The results of all tests and requests can be exported into a file and later imported into Postman for further analysis. Use the JSON reporter and a file name to save the runner output into a file.
+The results of all tests and requests can be exported into a file. Use the JSON reporter and a file name to save the output into a file.
 
-```bash
+```
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
