@@ -193,7 +193,8 @@ class IndexPage extends React.Component {
                 // Used for Right Side of events
                 const today = new Date(event.date);
                 const date = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
-                // Combine platform, date and time of the event Example: Livestream - 01/01/2000 4PM PST
+                // Combine platform, date and time of the event
+                // Example: Livestream - 01/01/2000 4PM PST
                 const eventInformation = `${event.location} - ${date} ${event.time}`;
                 return (
                   <div className="col-12 col-xl-10 offset-xl-1 mb-4" key={uuidv4()}>
@@ -228,7 +229,8 @@ class IndexPage extends React.Component {
               })
             ) : (
               <>
-                {/* If there are no events, and events.json is an object where development eq true */}
+                {/* If there are no events, and events.json is an object
+                  where development eq true */}
                 {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
                   <div className="events__alert" role="alert">
                     <p>
@@ -247,7 +249,8 @@ class IndexPage extends React.Component {
                   </div>
                 ) : (
                   <>
-                    {/* else we know we have 0 upcoming events, and we are not in development mode */}
+                    {/* else we know we have 0 upcoming events, and we are not
+                      in development mode */}
                     <p>We currently have no upcoming events...check back later.</p>
                   </>
                 )}
