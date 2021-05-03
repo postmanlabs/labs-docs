@@ -2,7 +2,7 @@
 title: "Billing"
 order: 123
 page_id: "billing"
-tags: 
+tags:
   - "pro"
 warning: false
 contextual_links:
@@ -89,7 +89,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Plan and pay
 
 <img alt="Account history view" src="https://assets.postman.com/postman-docs/plan-and-payments-history.jpg" />
 
-Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order.  
+Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order.
 
 ### Viewing past invoices
 
