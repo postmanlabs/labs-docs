@@ -50,29 +50,32 @@ For more information on API Keys in New Relic, see [the New Relic documentation]
 
 ## Viewing data in New Relic
 
-As soon as your monitor runs, Postman will start sending metrics data to New Relic. Once the data is present in New Relic, you can query it and display metrics. In New Relic, click **Query your data** and click **Metrics**. You can then search for metrics that begin with `postman` and form simple queries for the graph displayed.
+As soon as your monitor runs, Postman will start sending metrics data to New Relic. Once the data is present in New Relic, you can query it and display metrics. In New Relic, click **Query your data** and click **Metrics**. You can then search for metrics that begin with `postman` and form simple queries for the graph displayed. There is also a Query builder for more sophisticated searches.
 
 ![New Relic metrics](https://assets.postman.com/postman-docs/new-relic-metrics.jpg)
-
-There is also a Query builder for more sophisticated searches, and you can also specify additional dimensions with attributes. For example, you could add `monitor.name` or `user.name` to show separate lines for the monitor or user shown in the graph. The following example pivots latency data with regions:
-
-[![New Relic filters](https://assets.postman.com/postman-docs/new-relic-query.jpg)](/new-relic-query.jpg)
 
 You can also add one or more charts to a dashboard, tracking key metrics over time. For more information see [the dashboard documentation](https://docs.newrelic.com/docs/query-your-data/explore-query-data/dashboards/introduction-dashboards/) in New Relic.
 
 ## Dimension attributes
 
-The following attributes are sent along with metrics. These can be used as dimensions when viewing metrics in New Relic:
+There are several attributes can be used as dimensions when viewing metrics in New Relic. For example, you could add `monitor.name` or `user.name` to show separate lines for the monitor or user shown in the graph. The following example pivots latency data with regions:
 
-- run.id
-- collection.id
-- collection.name
-- monitor.id
-- monitor.name
-- environment.id
-- environment.name
-- user.id
-- user.name
+[![New Relic filters](https://assets.postman.com/postman-docs/new-relic-query.jpg)](/new-relic-query.jpg)
+
+The following attributes can be used as dimensions:
+
+- `region`
+- `run.id`
+- `collection.id`
+- `collection.name`
+- `monitor.id`
+- `monitor.name`
+- `environment.id`
+- `environment.name`
+- `request.id`
+- `request.name`
+- `user.id`
+- `user.name`
 
 ## Metrics pushed to New Relic
 
