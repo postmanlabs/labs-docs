@@ -117,9 +117,9 @@ To set a card as your primary, hover over the card and **Set as Primary**.
 
 ### Paying by invoice
 
-Invoicing is available to Postman Enterprise teams. New customers can [email the Postman Sales team](mailto:sales@postman.com) to get started. Existing customers can [submit a request](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
+Invoicing is available to Postman Enterprise teams. New customers can [contact the Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started and will receive a response within 3 business days. Existing customers can [submit a request](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
 
-You can pay invoices online, via check, or via wire-transfer. Invoices will be sent to your team's billing email address found in your [billing details](http://go.postman.co/settings/team/billing-details), and will include offline payment instructions. Pending payments can be found in your [billing dashboard](http://go.postman.co/billing).
+You can pay invoices online, via ACH, or via wire-transfer. Invoices will be sent to your team's billing email address found in your [billing details](http://go.postman.co/settings/team/billing-details), and will include offline payment instructions. Pending payments can be found in your [billing dashboard](http://go.postman.co/billing).
 
 ### Adding custom information to invoices
 
