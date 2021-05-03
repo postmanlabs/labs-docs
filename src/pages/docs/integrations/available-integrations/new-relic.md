@@ -56,6 +56,25 @@ As soon as your monitor runs, Postman will start sending metrics data to New Rel
 
 You can also add one or more charts to a dashboard, tracking key metrics over time. For more information see [the dashboard documentation](https://docs.newrelic.com/docs/query-your-data/explore-query-data/dashboards/introduction-dashboards/) in New Relic.
 
+## Metrics pushed to New Relic
+
+The following metrics and their values are pushed from Postman to New Relic. Run-level metrics comprise metrics valid for the entire run - the number of errors, for example. Request-level metrics send data for each request within the collection. You can filter to each specific request using the dimensions passed along with the metric.
+
+| Metric | Description |
+|--------|--------|
+| postman.monitor.request.failedtests | The number of failed tests written in the Postman test script for a request.
+| postman.monitor.request.passedtests | The number of passed tests written in the Postman test script for a request.
+| postman.monitor.request.requestbytes | The total number of bytes exchanged in a request.
+| postman.monitor.request.totallatency | The total latency of a request.
+| postman.monitor.run.errors   | The total number of errors (such as DNS resolution errors) that occurred while executing the requests.
+| postman.monitor.run.failedtests   | The number of failed tests written in the Postman test script, across all requests in a collection.
+| postman.monitor.run.httpstatus2xx, postman.monitor.run.httpstatus4xx, postman.monitor.run.httpstatus5xx | The total count of these returned status codes for your APIs within a collection.
+| postman.monitor.run.passedtests| The number of failed tests written in the Postman test script, across all requests in a collection.
+| postman.monitor.run.requestcount | The number of requests in the collection.
+| postman.monitor.run.totalbytes |  The total number of bytes exchanged while running the monitor.
+| postman.monitor.run.totallatency |  The total latency after executing all the requests in the collection.
+| postman.monitor.run.warnings | The total number of warnings after executing all the requests in the collection.
+
 ## Dimension attributes
 
 There are several attributes can be used as dimensions when viewing metrics in New Relic. For example, you could add `monitor.name` or `user.name` to show separate lines for the monitor or user shown in the graph. The following example pivots latency data with regions:
@@ -76,22 +95,3 @@ The following attributes can be used as dimensions:
 - `request.name`
 - `user.id`
 - `user.name`
-
-## Metrics pushed to New Relic
-
-The following metrics and their values are pushed from Postman to New Relic. Run-level metrics comprise metrics valid for the entire run - the number of errors, for example. Request-level metrics send data for each request within the collection. You can filter to each specific request using the dimensions passed along with the metric.
-
-| Metric | Description |
-|--------|--------|
-| postman.monitor.request.failedtests | The number of failed tests written in the Postman test script for a request.
-| postman.monitor.request.passedtests | The number of passed tests written in the Postman test script for a request.
-| postman.monitor.request.requestbytes | The total number of bytes exchanged in a request.
-| postman.monitor.request.totallatency | The total latency of a request.
-| postman.monitor.run.errors   | The total number of errors (such as DNS resolution errors) that occurred while executing the requests.
-| postman.monitor.run.failedtests   | The number of failed tests written in the Postman test script, across all requests in a collection.
-| postman.monitor.run.httpstatus2xx, postman.monitor.run.httpstatus4xx, postman.monitor.run.httpstatus5xx | The total count of these returned status codes for your APIs within a collection.
-| postman.monitor.run.passedtests| The number of failed tests written in the Postman test script, across all requests in a collection.
-| postman.monitor.run.requestcount | The number of requests in the collection.
-| postman.monitor.run.totalbytes |  The total number of bytes exchanged while running the monitor.
-| postman.monitor.run.totallatency |  The total latency after executing all the requests in the collection.
-| postman.monitor.run.warnings | The total number of warnings after executing all the requests in the collection.
