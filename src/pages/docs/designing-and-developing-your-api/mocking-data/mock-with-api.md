@@ -55,7 +55,7 @@ Let's retrieve the `collectionId` of `testAPI` using the [Postman API](http
 You can also use Postman to retrieve the `collectionId`. Find the Collection and hit `View Docs`. The `collectionId` is visible in the documentation url:
 
 ```text
-https://documenter.getpostman.com/collection/view/{{collectionId}}
+https://documenter.postman.com/collection/view/{{collectionId}}
 ```
 
 As an optional step, you can include an environment as a part of your simulation by retrieving the `environmentId` of `testAPIEnv` using the [Postman API](https://api.getpostman.com/). Get a list of all your environments using the [GET All Environments endpoint](https://docs.api.getpostman.com/#d26bd079-e3e1-aa08-7e21-66f55df99351). Search for the name of your environment and retrieve the `uid` from the results, which will be used as the `environmentId` in the next step.
