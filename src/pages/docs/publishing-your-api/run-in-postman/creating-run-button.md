@@ -27,8 +27,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Square simplifies API docs with the Run in Postman button"
-    url: "https://blog.postman.com/square-simplifies-api-docs-with-the-run-in-postman-button/"
+    name: "Introducing the All-New Run in Postman Button"
+    url: "https://blog.postman.com/new-run-in-postman//"
   - type: section
     name: "Next Steps"
   - type: link
