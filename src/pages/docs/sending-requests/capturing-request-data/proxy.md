@@ -131,7 +131,8 @@ If you are unable to send any requests through Postman and your network does not
 
         * **Windows** –  create a postman.bat file with the following contents:
 
-        ```set HTTP_PROXY=''
+        ```shell
+        set HTTP_PROXY=''
         set HTTPS_PROXY=''
         set http_proxy=''
         set https_proxy=''
@@ -147,7 +148,8 @@ If your proxy has basic auth, take the following steps:
 * Start Postman with the appropriate environment variables:
     * **Windows** — create a postman.bat file with the following contents:
 
-      ```set HTTP_PROXY=http://USER:PASS@host:port
+      ```shell
+      set HTTP_PROXY=http://USER:PASS@host:port
       set HTTPS_PROXY=https://USER:PASS@host:port
       start C:\path\to\Postman.exe
       ```
@@ -155,7 +157,9 @@ If your proxy has basic auth, take the following steps:
       Double-clicking this bat file should open Postman without any of the proxy environment variables set.
 
     * **Mac/Linux** - create the .sh file with the following contents:
+    ```shell
     `HTTP_PROXY`=`http://USER:PASS@host:port`
     `HTTPS_PROXY`=`https://USER:PASS@host:port` /path/to/postman
+    ```
 
     * Create this file and save it in a convenient location. When you open this file, the set environment variables will only apply to the Postman process.
