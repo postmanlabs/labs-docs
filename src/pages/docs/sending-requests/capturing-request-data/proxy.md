@@ -157,6 +157,7 @@ If your proxy has basic auth, take the following steps:
       Double-clicking this bat file should open Postman without any of the proxy environment variables set.
 
     * **Mac/Linux** - create the .sh file with the following contents:
+    
     ```shell
     `HTTP_PROXY`=`http://USER:PASS@host:port`
     `HTTPS_PROXY`=`https://USER:PASS@host:port` /path/to/postman
