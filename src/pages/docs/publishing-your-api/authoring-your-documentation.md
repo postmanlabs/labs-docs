@@ -166,7 +166,7 @@ You can include any image you have hosted online in your documentation. Use the 
 
 ## Markdown demo collection
 
-You can use the Postman [Markdown collection](https://documenter.getpostman.com/view/4630964/S1LsXVJy) to see how Markdown is rendered in documentation and the Postman app.
+You can use the Postman [Markdown collection](https://documenter.postman.com/view/4630964/S1LsXVJy) to see how Markdown is rendered in documentation and the Postman app.
 
 ![markdown reference](https://assets.postman.com/postman-docs/Updated+Markdown+image+for+Authoring+your+docs.jpg)
 
