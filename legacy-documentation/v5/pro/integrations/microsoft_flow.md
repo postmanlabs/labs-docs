@@ -90,7 +90,7 @@ For different types of integrations, the JSON schema varies. The following shows
 
 ##### **Monitor Run Results**
 
-```
+```json
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {},
@@ -165,7 +165,7 @@ For different types of integrations, the JSON schema varies. The following shows
 
 ##### **Collection and Team Activity Feed**
 
-```
+```json
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {},
@@ -214,7 +214,7 @@ For different types of integrations, the JSON schema varies. The following shows
 
 ##### **Backup Collections**
 
-```
+```json
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {},

@@ -63,7 +63,7 @@ To see an overview of a collection, open it from the sidebar. You can edit your 
 
 [![Collection description](https://assets.postman.com/postman-docs/collection-description-v8.jpg)](https://assets.postman.com/postman-docs/collection-description-v8.jpg)
 
-> You can use [markdown in your collection descriptions](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
+> You can use [markdown in your collection descriptions](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
 
 You can edit details for your collections at any time by clicking the collection to open it in a tab.
 
