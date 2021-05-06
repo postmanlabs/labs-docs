@@ -64,13 +64,9 @@ Make sure you're signed in to your Postman account, and that you have a collecti
     * **Static button**: This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
 
 * You can optionally include an environment to embed with your collection. On the left, click the **Environment** drop-down and choose the environment.
-* Click **Copy code**.
+* Click **Copy Code**.
 
 ![How to create a run in postman](https://assets.postman.com/postman-docs/how-to-create-run-in-postman-button.jpg)
-
-* Embed the code where you would like the button to be displayed.
-
-![Run in postman](https://assets.postman.com/postman-docs/new-run-in-postman-button.gif)
 
 Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
 
@@ -98,9 +94,17 @@ data-postman-collection-url=":collection_url"></div>
 </script>
 ```
 
+* Embed the code where you would like the button to be displayed.
+
+![Run in postman](https://assets.postman.com/postman-docs/new-run-in-postman-button.gif)
+
 > You can include an environment along with a collection in your Run in Postman button. The dynamic button gives you access to the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to create and modify environments.
 
-Note: When you make changes to a collection that's shared with a live Run in Postman button, you don't need to manually update the button's collection link.
+Clicking **Run in postman** button navigates to the page where you can fork the collection to your workspace. [Forking the collection](/docs/collaborating-in-postman/version-control-for-collections/) into your workspace will enable you to contribute to the source collection using pull requests. You can also view the collection in a public workspace if you like and even import a copy of the collection using the links present on the screen. All collections shared with the new Run in postman buttons come with [Fork counts](/docs/collaborating-in-postman/version-control-for-collections/#forking-information), that help you and your consumers understand how the API is being used.
+
+<img alt="Fork collection for run in postman" src="https://assets.postman.com/postman-docs/fork-collection-for-run-in-postman.jpg" height="400px"/>
+
+> Note: The live Run in Postman buttons automatically stay updated with changes in the original collection, so your consumers always get the most recent version of your collection without publishers having to manually update the collection's link.
 
 ## Next steps
 
