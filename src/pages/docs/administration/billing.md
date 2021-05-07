@@ -2,7 +2,7 @@
 title: "Billing"
 order: 123
 page_id: "billing"
-tags: 
+tags:
   - "pro"
 warning: false
 contextual_links:
@@ -89,7 +89,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Plan and pay
 
 <img alt="Account history view" src="https://assets.postman.com/postman-docs/plan-and-payments-history.jpg" />
 
-Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order.  
+Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order.
 
 ### Viewing past invoices
 
@@ -171,7 +171,7 @@ Monthly teams can switch to an annual plan at any time by navigating to your [bi
 
 <img alt="Change plan page" src="https://assets.postman.com/postman-docs/change-plan-option.jpg"/>
 
-> Annual teams can switch to a monthly plan at the end of the current billing cycle. You can find the end date of your current billing cycle under **Overview**.
+> Annual teams can switch to a monthly plan at the end of the current billing cycle. You can find the end date of your current billing cycle under **Overview**.
 
 ### Purchasing add-ons
 

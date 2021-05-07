@@ -151,11 +151,11 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 
 See more visualizer code working by importing any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection > open a request from __Collections__ on the left sidebar in Postman > click __Send__ to run it—you'll see the rendered data in __Visualize__.
 
-* [DIY collection that renders a bar chart using ChartJS](https://documenter.getpostman.com/view/4946945/SVzz4KxB?version=latest)
+* [DIY collection that renders a bar chart using ChartJS](https://documenter.postman.com/view/4946945/SVzz4KxB?version=latest)
 ![Bar Chart](https://assets.postman.com/postman-docs/visualizer-example-v8.jpg)
-* [Heat map visualization](https://documenter.getpostman.com/view/4946945/SVzw6MYM?version=latest)
+* [Heat map visualization](https://documenter.postman.com/view/4946945/SVzw6MYM?version=latest)
 ![Heat Map](https://assets.postman.com/postman-docs/visualizer-temp-v8.jpg)
-* [Various chart and graph examples](https://documenter.getpostman.com/view/2897506/SW7Z2Tkd?version=latest)
+* [Various chart and graph examples](https://documenter.postman.com/view/2897506/SW7Z2Tkd?version=latest)
 ![Map Visualizer](https://assets.postman.com/postman-docs/visualizer-map-v8.jpg)
 
 ## Visualizer API
