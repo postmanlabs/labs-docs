@@ -74,6 +74,33 @@ If you would like to add, edit or replace images you are welcome to do so. There
 * You can upload the image to your GitHub Pull-Request and link the image
 * You can host the image and link to your own hosted image
 
+## Adding/Editing Codeblocks
+
+If you would like to add, edit or replace Markdown code blocks you are welcome to do so. There are two things in which you need to know:
+
+* We use Prism.js via a Gatsby plugin [gatsby-remark-prismjs](https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/#usage-in-markdown "See usage in markdown documentation")
+* Imediately following the opening 3 backticks ` ``` ` should be the language declaration. See Markdown example:
+
+```markdown
+    ```json
+    {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "collection": {
+        "id": "/properties/collection",
+        "properties": {},
+        "type": "object"
+        }
+    },
+    "type": "object"
+    }
+    ```
+```
+
+For a list of supported languages by Prism syntax highlighter, [read more](https://lucidar.me/en/web-dev/list-of-supported-languages-by-prism/). When in doubt, use `text`, `bash` or `shell` to keep the code block from interfering.
+
 **Note**:
 
 Images hosted by Postman should always be referenced as follows:

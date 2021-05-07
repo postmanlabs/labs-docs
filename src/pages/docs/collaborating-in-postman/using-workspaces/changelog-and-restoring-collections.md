@@ -1,6 +1,6 @@
 ---
 title: "Viewing workspace activity"
-order: 78
+order: 79
 page_id: "changelog_and_restoring_collections"
 contextual_links:
   - type: section

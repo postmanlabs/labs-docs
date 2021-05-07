@@ -67,10 +67,13 @@ You can pass auth details along with any request you send in Postman. Auth data 
     * [OAuth 1.0](#oauth-10)
     * [OAuth 2.0](#oauth-20)
         * [Authorization code](#authorization-code)
+            * [Authorization code (With PKCE)](#authorization-code)
         * [Implicit](#implicit)
         * [Password credentials](#password-credentials)
         * [Client credentials](#client-credentials)
-        * [Requesting a token](#requesting-an-oauth-20-token)
+        * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
+            * [Configuration Options tab](#configuration-options-tab)
+            * [Advanced Options tab](#advanced-options-tab)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
@@ -260,7 +263,7 @@ In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type
 
 To request an access token, fill out the fields in the __Configure New Token__ section, and click __Get New Access Token__. You can save both the token and the details to generate a token with your request or collection.
 
-[![OAuth 2.0](https://assets.postman.com/postman-docs/oauth2.v8.jpg)](https://assets.postman.com/postman-docs/oauth2.v8.jpg)
+[![OAuth 2.0](https://assets.postman.com/postman-docs/oauth2.v8-2.jpg)](https://assets.postman.com/postman-docs/oauth2.v8-2.jpg)
 
 > Once you have a token value generated and added, it will appear in the request __Headers__.
 
@@ -306,7 +309,9 @@ Enter the provider's __Access Token URL__, together with the __Client ID__ and _
 
 ### Requesting an OAuth 2.0 token
 
-The full list of parameters to request a new access token is as follows, depending on your grant type:
+The full list of parameters to request a new access token is as follows, depending on your grant type.
+
+#### Configuration Options tab
 
 * __Token Name:__ The name you want to use for the token.
 * __Grant Type:__ A dropdown list of options. This will depend on the API service provider requirements.
@@ -320,7 +325,12 @@ The full list of parameters to request a new access token is as follows, dependi
 * __State:__ An opaque value to prevent cross-site request forgery.
 * __Client Authentication:__ A dropdown—send a Basic Auth request in the header, or client credentials in the request body. _After upgrading to a new version, change the value in this dropdown menu to avoid problems with client authentication._
 
-When your config is complete, click __Request Token__.
+#### Advanced Options tab
+
+* __Resource:__ A URI that indicates the resource or target service where the token is intended to be used.
+* __Audience:__ A URI that indicates the target audience or service where the token is intended to be used.
+
+When your config is complete, click __Get New Access Token__.
 
 > When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in subsequent requests. By default Postman will display a pop-up browser when you click __Request Token__. You can alternatively choose to authenticate using your system's default web browser. Select __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
 

@@ -145,4 +145,4 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 ## Next steps
 
-Postman comments support Markdown. For more information on formatting using Markdown refer to [Markdown in API Documentation](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
+Postman comments support Markdown. For more information on formatting using Markdown refer to [Markdown in API Documentation](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
