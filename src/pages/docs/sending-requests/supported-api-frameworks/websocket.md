@@ -24,14 +24,14 @@ In Postman you can create a WebSocket request with a server, and use it to send 
 
 ## Creating WebSocket requests
 
-You can create a WebSocket request from the Postman launch screen.
+You can create a WebSocket request from the left sidebar in Postman.
 
 1. Click  __New__ &gt; __WebSocket Request__ to open a new tab.
   [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket.jpg)](https://assets.postman.com/postman-docs/new-request-websocket.jpg)
-1. Once your new tab is open, enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.<br/>
+1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.<br/>
 [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url.jpg)](https://assets.postman.com/postman-docs/websocket-server-url.jpg)
 1. Click **Connect**.
-1. Click **Disconnect** to disconnect your WebSocket request's connection.
+1. To disconnect your WebSocket request's connection, click **Disconnect**.
 
 <!-- TODO: an explanation that this starts as a regular HTTP connection, but indicates that it wants to change protocols via the Upgrade header. The protocol switch from HTTP to WebSocket is referred to as WebSocket handshake. -->
 
@@ -41,7 +41,7 @@ After making a WebSocket connection, you can use the editor pane to compose and 
 
 [![WebSocket message editor](https://assets.postman.com/postman-docs/websocket-message-editor.jpg)](https://assets.postman.com/postman-docs/websocket-message-editor.jpg)
 
-In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, or **Array Buffer**. The editor has syntax highlighting according to the selected format. You can also click **{{}}** to beautify the message.
+In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, or **Array Buffer**. The editor has syntax highlighting according to the selected format. You can also click **{}** to beautify the message.
 
 When you have finished composing your message, click **Send**. The sent message will remain in the window, in case you want to change it and re-send.
 
@@ -49,15 +49,15 @@ When you have finished composing your message, click **Send**. The sent message 
 
 The **Messages** pane displays a list of messages for the WebSocket connection, including incoming, outgoing, and network messages.
 
+At the top of the message pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Click the **^** next to the badge to hide messages. If the messages are hidden, click the **v** to show them.
+
 [![WebSocket messages](https://assets.postman.com/postman-docs/websocket-messages.jpg)](https://assets.postman.com/postman-docs/websocket-messages.jpg)
 
-At the top of the message pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Next to this is a **^** which you can click to hide messages. Click the **v** to show  messages if hidden.
+Above the message display are the following controls:
 
-The following controls are above the message display:
-
-* A search control. Enter a search term to display only messages containing the term. Click **X** to end the search.
-* The message type list. Select if you want to view all messages, or only incoming or outgoing messages.
-* A trash can icon. Click this to clear all messages.
+* Search control - Enter a search term to display only messages containing the term. Click **X** to end the search.
+* Message type list - Select if you want to view all messages, or only incoming or outgoing messages.
+* Trash - Click the trash can icon to clear all messages.
 
 The following are displayed for each message:
 
@@ -70,7 +70,7 @@ The following are displayed for each message:
 In an expanded message:
 
 * Select **Text**, **HTML**, **JSON**, or **XML** to change the formatting of the message.
-* Click Wrap Line to add or remove line wraps
+* Click Wrap Line to add or remove line wraps.
 * Click **Show Hexdump** or **Show Message** to toggle if the message is shown in hex or text.
 * Click the copy icon to copy the message body to the clipboard.
 * Use the search control to search the body of the message.
@@ -86,19 +86,17 @@ See [Using variables](/docs/sending-requests/variables/) for more information on
 
 You can add details to your request, for example to send additional parameters and headers. You can also configure the connection.
 
-Click the settings button next to **Connect** to make changes to the parameters, headers, or configuration.
+Click the settings button <img alt="WebSocket configure button" src="https://assets.postman.com/postman-docs/websocket-setting-mini-button.jpg" width="27px"/> next to **Connect** to make changes to the parameters, headers, or configuration.
 
-![WebSocket configure button](https://assets.postman.com/postman-docs/websocket-configure-button.jpg)
-
-> You can't change settings while you are connected. You must make changes before you connect, or click **Disconnect** to stop the current connection.
+> You can't change request details while you are connected. You must make any changes before you connect, or click **Disconnect** to stop the current connection.
 
 ### Sending parameters
 
-On the **Params** tab, add any parameters you want to append to the WebSocket URL. This works similarly to [sending parameters](/docs/sending-requests/requests#sending-parameters) in a REST request.
+On the **Params** tab, add any parameters you would like to append to the WebSocket URL. This works similarly to [sending parameters](/docs/sending-requests/requests#sending-parameters) in a REST request.
 
 ## Configuring headers
 
-On the **Headers** tab, enter any headers you want to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/requests#configuring-request-headers) in a REST request.
+On the **Headers** tab, enter any headers you would like to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/requests#configuring-request-headers) in a REST request.
 
 ### Configuring Request Settings
 
@@ -108,13 +106,13 @@ The following settings can be configured for your WebSocket request:
 |-----|-----|
 | Reconnection attempts | The maximum number of reconnection attempts before disconnecting. |
 | Reconnection interval | The period in milliseconds between subsequent reconnection attempts. |
-| Automatically follow redirects | If HTTP 3xx responses should be followed as redirects. |
+| Automatically follow redirects | If HTTP 3xx responses will be followed as redirects. |
 | Maximum number of redirects | The maximum number of redirects to follow. |
-| Handshake request timeout in ms | The length the handshake request should wait before timing out, in milliseconds. This is reset after every redirection. |
+| Handshake request timeout in ms | How long the handshake request will wait before timing out, in milliseconds. This is reset after every redirection. |
 | Maximum message size in bytes | The maximum allowed message size in bytes. |
 
 ## Troubleshooting WebSocket Requests
 
-You can use the console to debug issues with a WebSocket connection. Click **Console** in the bottom status bar to open the console and view log messages.
+You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, click **Console** in the status bar at the bottom left of Postman.
 
 For more information on using the console, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
