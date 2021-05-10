@@ -164,7 +164,7 @@ You can use `-x` or `--suppress-exit-code` to override the default exit code for
 You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1, which can then be picked up by a CI tool or build system.
 
 ```bash
-$ newman run PostmanCollection.json -e environment.json --bail newman
+$ newman run PostmanCollection.json -e environment.json --bail
 ```
 
 ## Example collection with failing tests
@@ -279,7 +279,7 @@ $ newman run file-upload.postman_collection.json
 Newman has been built as a library from the ground up. It can be extended and used in various ways. You can use it as follows in your Node.js code:
 
 ```javascript
-var newman = require('newman'); // require newman in your project
+var newman = require('newman'); // require Newman in your project
 
 // call newman.run to pass `options` object and wait for callback
 newman.run({
@@ -294,7 +294,7 @@ newman.run({
 ## Custom reporters
 
 Custom reporters come in handy when one would want to generate collection run reports that cater to very specific use cases.
-For instance, logging out the response body when a request (or it's tests) fail, and so on.
+For instance, logging out the response body when a request (or its tests) fail, and so on.
 
 ## Building custom reporters
 
@@ -313,15 +313,13 @@ function (emitter, reporterOptions, collectionRunOptions) {
 };
 ```
 
-1. Publish your reporter using `npm publish`, or use your reporter locally [see usage instructions][7].
+1. Publish your reporter using `npm publish`, or use your reporter locally. See the usage instructions for more information.
 
-Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. You can find working reporter examples  in [working reporter examples][8].
+Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported.
 
 ## Using custom reporters
 
-In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]:
-
-Install the reporter package.
+In order to use the custom reporter, it will have to be installed first. For instance, to use the Newman TeamCity reporter, install the reporter package:
 
 ```bash
 npm install newman-reporter-teamcity
