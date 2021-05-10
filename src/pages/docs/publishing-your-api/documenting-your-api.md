@@ -86,7 +86,7 @@ You can carry out additional edits directly on the documentation page—you'll s
 
 <img src="https://assets.postman.com/postman-docs/inline-edit-heading.jpg" alt="Edit Header" width="400px"/>
 
-You can also view documentation from the [web dashboard](https://web.postman.co/)—select __View all collections__, then select a collection to view its docs in the browser.
+You can also view documentation from the [web dashboard](https://go.postman.co/)—select __View all collections__, then select a collection to view its docs in the browser.
 
 ![Collections in Web](https://assets.postman.com/postman-docs/collections-profile-page.jpg)
 

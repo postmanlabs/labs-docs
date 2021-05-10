@@ -14,7 +14,7 @@ exports[`ContextualLinks renders correctly 1`] = `
   >
     <a
       className="dynamic-link__external"
-      href="https://getpostman.com/apps"
+      href="https://www.postman.com/downloads/"
     >
       Download and Install
     </a>

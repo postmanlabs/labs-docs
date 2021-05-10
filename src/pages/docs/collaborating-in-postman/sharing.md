@@ -50,39 +50,39 @@ When you work in a Postman workspace, any entities you save to the workspace wil
 
 You can share various Postman entities to workspaces, or move them from one workspace to another, including collections, environments, and APIs.
 
-<img alt="Share collection" src="https://assets.postman.com/postman-docs/share-collection-from-sidebar.jpg" width="600px"/>
-
 To share an entity from Postman, find the entity based on what type it is:
 
-* To share a collection, open it in __Collections__ on the left of Postman and click __Share__, or __Share collection__ in the __...__ menu.
-* To share an API, in __APIs__ on the left of Postman, open the __...__ menu and click __Share API__.
-* To share an environment, click __Manage environments__ gear icon at the top right of Postman and click __Share__ next to the environment.
+* To share a collection, open __Collections__ on the left of Postman and click __Share collection__ in the __...__ menu.
 
-![Share environment in browse](https://assets.postman.com/postman-docs/share-environment-in-browse-mode.jpg)
+<img alt="Share collection" src="https://assets.postman.com/postman-docs/share-collection-from-sidebar-v8.jpg" width="600px"/>
 
-Alternatively find the collection, API, or environment in __Browse__ mode or via your workspace in the [Dashboard](https://app.getpostman.com) and click __Share__ next to it.
+* To share an API, open __APIs__ on the left of Postman and click __Share API__ in the __...__ menu.
+
+<img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-from-sidebar-v8.jpg" width="600px"/>
+
+* To share an environment, open __Environments__ on the left of Postman and click __Share environment__ in the __...__ menu.
+
+<img alt="Share environment" src="https://assets.postman.com/postman-docs/share-environment-from-sidebar-v8.jpg" width="600px"/>
 
 You can share collections, APIs, and environments to specific workspaces. _You can additionally share collections via embed and [link](#sharing-by-link) options._
 
 In the share modal, select the workspace you want to share the entity to. Team members in the target workspace will be able to access the entity when you share it there.
 
-[![Share workspace selection](https://assets.postman.com/postman-docs/share-modal-workspace-selection-team.jpg)](https://assets.postman.com/postman-docs/share-modal-workspace-selection-team.jpg)
+[![Share workspace selection](https://assets.postman.com/postman-docs/share-modal-workspace-selection-team-v8.jpg)](https://assets.postman.com/postman-docs/share-modal-workspace-selection-team-v8.jpg)
 
-Toggle the radio button if you also want to remove the entity from its current workspace. If you want to share the collection but keep it in the current workspace as well, click **Share collection**. If you want the collection to be removed from the current workspace after you share it, click **Share collection and remove from this workspace**. The default selection is **Share collection**.
+Toggle the radio button if you also want to remove the entity from its current workspace. If you want to share the collection but keep it in the current workspace as well, click **Share collection**. If you want the collection to be removed from the current workspace after you share it, click **Share collection and remove from current workspace**.
 
 > When you remove a collection from a workspace, all mocks, monitors, and integrations associated with it will also be removed.
 
 Click __Share and Continue__.
 
-[![Share role selection](https://assets.postman.com/postman-docs/share-entity-role-selection.jpg)](https://assets.postman.com/postman-docs/share-entity-role-selection.jpg)
+[![Share role selection](https://assets.postman.com/postman-docs/share-role-selection-v8.jpg)](https://assets.postman.com/postman-docs/share-role-selection-v8.jpg)
 
 Select view or edit access levels for each collaborator or the workspace as a whole. Click __Save Roles__.
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for more information on role-based user permissions.
 
-![Adjust roles](https://assets.postman.com/postman-docs/sharing-setting-roles-list.jpg)
-
-> If you want to restore a collection to a workspace it's been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/sending-requests/intro-to-collections/#managing-collections) first.
+If you want to restore a collection to a workspace it's been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/sending-requests/intro-to-collections/#managing-collections) first.
 
 ## Sharing by link
 

@@ -22,7 +22,7 @@ There is no limit to the number of monitors you can create. You can have any num
 
 ### What timezone is my monitor set to?
 
-Your monitor's timezone is automatically set to the timezone of your computer at the time of the monitor's creation, unless you [define the regions](/docs/postman/monitors/setting-up-monitor/#adding-regions). You can find the auto-selected region by [viewing your monitor in the Dashboard](/docs/postman/monitors/viewing-monitor-results/#viewing-individual-monitors).
+Your monitor's timezone is automatically set to the timezone of your computer at the time of the monitor's creation.
 
 ### How long can a monitor run?
 
@@ -56,7 +56,7 @@ Monitors are visible to all members of the workspace they were created in. If a 
 
 ### Who can edit my Monitors?
 
-Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/collaborating-in-postman/roles-and-permissions/) on the associated collection.
+Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/collaborating-in-postman/roles-and-permissions/) on the monitor. To review or manage which team members have Editor or Viewer permissions on a specific monitor, navigate to your workspace and select **Monitors** from the left sidebar. Hover over the monitor in question and select **...** > **Manage Roles**.
 
 ### Can I delete a Monitor?
 

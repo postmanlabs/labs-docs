@@ -23,7 +23,7 @@ but similar steps should be possible in other versions.
 
 After you meet these basic requirements, install AD FS on your server.
 
-To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.microsoft.com/en-us/library/gg188612.aspx) in the Microsoft Knowledge Base.
+To configure and install AD FS, see [Deploy and configure AD FS](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/deployment-administrators-guide/gg188612(v=crm.8)) in the Microsoft Knowledge Base.
 
 ## Configuration
 

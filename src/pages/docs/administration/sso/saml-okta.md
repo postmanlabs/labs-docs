@@ -11,15 +11,14 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-_Note: Only an admin of your Okta organization can create the application._
+> You must be an admin of your Okta organization in order to create this custom SAML application.
 
-You can easily set up your custom SAML application in Okta. Postman provides you two ways to accomplish this. One of the ways you can easily configure is by using the readily-available Postman app in Okta to set up your custom SAML application instantly. Other way is to set up your custom SAML application without the Postman app in Okta.
+You can set up your custom SAML application by using the available Postman app in Okta or by configuring it directly in Okta.
 
-This section describes the following two topics:
+## Contents
 
-- [Setting up a custom SAML application in Okta](#setting-up-a-custom-saml-application-in-okta)
-
-- [Setting up a custom SAML application in Okta using Postman app](#setting-up-a-custom-saml-application-in-okta-using-postman-app)
+* [Setting up a custom SAML application in Okta](#setting-up-a-custom-saml-application-in-okta)
+* [Setting up a custom SAML application in Okta by using the Postman app](#setting-up-a-custom-saml-application-in-okta-using-the-postman-app)
 
 ## Setting up a custom SAML application in Okta
 
@@ -55,7 +54,7 @@ Under the first step "General Settings", enter an application name and then clic
 ### Okta - Step 6
 
 Under the second step “Configure SAML”, section A “SAML Settings”, enter the Postman service provider details which can be found on the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, navigate to _Authentication -> <My_Okta_Integration_Name>_ and click **Edit**. Next, click **Proceed**. Ensure, you are in the following screen after the completion of this step:
-[![details](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)
+[![details](https://assets.postman.com/postman-docs/server-provider-details.jpg)](https://assets.postman.com/postman-docs/server-provider-details.jpg)
 
 Now, download the encryption certificate by clicking **Download as file** link (shown in red circle). You will upload this later in the **Okta SAML** configuration section, which is explained below. In the following screen, click **Show Advanced Settings** link to configure advanced SAML assertion settings.
 [![!okta service provider](https://assets.postman.com/postman-docs/okta_service_provider.png)](https://assets.postman.com/postman-docs/okta_service_provider.png)
@@ -102,7 +101,7 @@ To paste, click **Edit** button and paste the value in **Default Relay State** f
 
 Click **Save Authentication**.
 
-## Setting up a custom SAML application in Okta using Postman app
+## Setting up a custom SAML application in Okta by using the Postman app
 
 To set up custom SAML application using the Postman app, follow the procedure outlined below:
 

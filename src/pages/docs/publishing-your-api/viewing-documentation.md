@@ -88,7 +88,7 @@ You can add a comment to join in the discussion. Comments on documentation refle
 
 ## Viewing public documentation
 
-You can access [public documentation](/docs/publishing-your-api/publishing-your-docs/) through a URL in your web browser. Postman generates the URL when the documentation is published—the URL is also accessible from the [web dashboard](https://web.postman.co/).
+You can access [public documentation](/docs/publishing-your-api/publishing-your-docs/) through a URL in your web browser. Postman generates the URL when the documentation is published—the URL is also accessible from the [web dashboard](https://go.postman.co/).
 
 ![Public Doc Link](https://assets.postman.com/postman-docs/public-doc-link.jpg)
 

@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "Intro to APIs"
     url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+  - type: link
+    name: "Agent for the Postman Web Client | Postman Level Up"
+    url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -147,7 +150,7 @@ You can configure your preferences to enable automatic download for major update
 
 The Postman Chrome app is deprecated—if you're using the Chrome app, you can [retain your data when you switch to the native app](#migrating-to-the-native-app) ___either by syncing with a Postman account you're signed into, or by exporting from Chrome and importing into the native app___.
 
-The native app is built on [Electron](https://electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
+The native app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
 * Unlike the Chrome app, no separate extension for the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) is needed.
@@ -204,7 +207,7 @@ Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Curren
 
 ### Update button not available
 
-If you are using Postman for Linux, and installed the app via the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence. It you are on Postman version 6, you will have to migrate to Postman 7 and change the Snap channel to get the latest updates. For more information see [Migrating to Postman 7](/docs/administration/migrating-to-v7/).
+If you are using Postman for Linux, and installed the app via the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence. If you are on Postman version 6, you will have to migrate to Postman 8 and change the Snap channel to get the latest updates. For more information see [Migrating to Postman 8](/docs/administration/upgrading-to-v8/).
 
 ## Next steps
 

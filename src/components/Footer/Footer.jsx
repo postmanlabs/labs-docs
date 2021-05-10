@@ -108,7 +108,7 @@ class FooterComponent extends React.Component {
 
 
     return (
-      <section className="footer">
+      <footer className="footer">
 
         <div className="container-fluid">
           <div className="row footer-top">
@@ -131,7 +131,7 @@ class FooterComponent extends React.Component {
             <div className="col-sm-12 d-sm-flex mb-4 justify-content-center text-center">
               <div className="mr-2 pr-sm-3 pl-sm-2 items_line">
                 <a
-                  href="https://www.postman.com/postman-galaxy"
+                  href="https://www.postman.com/postman-galaxy/"
                   target="_blank"
                   rel="noopener noreferrer"
                   id="postman-galaxy"
@@ -168,7 +168,7 @@ class FooterComponent extends React.Component {
               </div>
               <div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
                 <a
-                  href="https://www.postman.com/legal/eula/"
+                  href="https://www.postman.com/legal/terms/"
                   target="_blank"
                   rel="noopener noreferrer"
                   id="terms"
@@ -219,7 +219,7 @@ class FooterComponent extends React.Component {
               </div>
               <div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
                 <a
-                  href="https://www.postman.com/security"
+                  href="https://www.postman.com/security/"
                   target="_blank"
                   rel="noopener noreferrer"
                   id="security"
@@ -442,7 +442,7 @@ class FooterComponent extends React.Component {
               <li className="copyright-notice list-inline-item">
                 ©
                 <span id="current-year" />
-                2020 Postman, Inc. All rights reserved
+                2021 Postman, Inc. All rights reserved
               </li>
             </div>
           </div>
@@ -450,7 +450,7 @@ class FooterComponent extends React.Component {
         </div>
         {' '}
         {/* close container */}
-      </section>
+      </footer>
     );
   }
 }

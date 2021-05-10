@@ -31,28 +31,21 @@ Navigate to "Send your logs" tab and copy the private key for later use, as illu
 
 ## Configuring Coralogix Integration
 
-1. In the **[Browse Integrations](https://go.postman.co/integrations/browse?category=all)** page, select Coralogix from the list of third party integrations.
+1. From the [Integrations](https://go.postman.co/integrations/browse?category=all) page, search and select Coralogix from the list of integrations.
 
-   [![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix_viewdetails.png)](https://assets.postman.com/postman-docs/coralogix_viewdetails.png)
+   ![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-search-all-b.jpg)
 
-1. Click **Add Integration** to display the **Add Integration** page.
+1. Select **Add Integration** to start configuring the integration for your workspace.
 
-   [![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix_viewdetails3.png)](https://assets.postman.com/postman-docs/coralogix_viewdetails3.png)
+    ![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-add-integration.jpg)
 
 1. To send your monitor metrics and events to Coralogix:
-   * Give a nickname to your integration.
-   * Select the workspace to which your monitor belongs to.
-   * Select the monitor whose data you would like to send to Coralogix.
-   * Enter a Coralogix private key.
-   * In **Advanced Options**, optionally indicate if you want to send collection or environment details for each run.
 
-1. Click **Add Integration**.
+    * Select the monitor whose data you would like to send to Coralogix.
+    * Enter a Coralogix private key.
+    * Optionally indicate if you want to send collection or environment details for each run.
 
-   Once you click _Add Integration_, the following screen appears to indicate the integration is configured:
-
-   [![coralogix add integrations](https://assets.postman.com/postman-docs/coralogix_addintegration1.png)](https://assets.postman.com/postman-docs/coralogix_addintegration1.png)
-
-   Now you can run the monitor and wait for a few seconds to analyse the metrics. The next section describes the procedure to view and analyze metrics.
+    Select **Add Integration** to save the configuration.
 
 ## Analyzing metrics in Coralogix
 

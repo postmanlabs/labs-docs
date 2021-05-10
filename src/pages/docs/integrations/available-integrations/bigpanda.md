@@ -21,7 +21,7 @@ After you set up the integration, you can view real-time alerts based on the res
 
 ## Retrieving the BigPanda API key
 
-1. Log in to your [BigPanda](https://bigpanda.io/) account and select "Integrations" in the header toolbar, then click the **New Integration** button.
+1. Log in to your [BigPanda](https://www.bigpanda.io/) account and select "Integrations" in the header toolbar, then click the **New Integration** button.
 
 [![bigpanda integrations](https://assets.postman.com/postman-docs/WS-integrations_bigPanda_details2.png)](https://assets.postman.com/postman-docs/WS-integrations_bigPanda_details2.png)
 

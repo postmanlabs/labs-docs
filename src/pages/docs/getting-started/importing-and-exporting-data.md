@@ -9,7 +9,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Healthwise"
-    url: "https://www.postman.com/case-studies/healthwise.pdf"
+    url: "https://www.postman.com/customers/healthwise.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -44,6 +44,8 @@ Postman can import and export Postman data, including collections, environments,
 
     * [Importing Postman data](#importing-postman-data)
 
+        * [Converting Postman collections from v1 to v2](#converting-postman-collections-from-v1-to-v2)
+
     * [Importing API specifications](#importing-api-specifications)
 
     * [Importing via GitHub repositories](#importing-via-github-repositories)
@@ -75,6 +77,45 @@ You can import Postman data you previously exported, including collections, envi
 To import Postman data, click **Import**. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
 
 ![Import collection and environment](https://assets.postman.com/postman-docs/import-coll-env-2.jpg)
+
+#### Converting Postman collections from v1 to v2
+
+Postman no longer supports the collection v1 format and will return an error if you attempt to import a collection in this format. You can convert your collection's format from v1 to v2 to import it into Postman.
+
+![Collection v1 format](https://assets.postman.com/postman-docs/collection-v1-import.jpg)
+
+You can take the following steps to convert the Postman collection format from v1 to v2.
+
+* In the terminal of your choice, enter the following command to install the Postman collection transformer.
+
+```bash
+sudo npm install -g postman-collection-transformer
+```
+
+* You can retrieve a list of convert options by running it with the ``-h`` flag.
+
+```bash
+postman-collection-transformer convert -h
+```
+
+ Option | Details |
+|:--|:--|
+| `-h`, `--help` | Outputs usage information |
+| `-i`, `--input <path>` | Returns a path to the input postman collection file |
+| `-j`, `--input-version [version]` | Returns the version of the input collection format standard (v1 or v2) |
+| `-o`, `--output <path>` | Returns a path to the output postman collection file |
+| `-p`, `--output-version [version]` | Returns the version of the output collection format standard (v1 or v2) |
+| `-P`, `--pretty` | Prints the output in pretty format |
+| `--retain-ids` | Retains the request and folder IDs during conversion (collection ID is always retained) |
+| `-w`, `--overwrite` | Overwrites the output file if it exists |
+
+* You can convert an individual Postman collection from v1 to v2 by entering the command below.
+
+```
+postman-collection-transformer convert -i <path to input Postman collection file> -o <path where the output Postman file will be downloaded> -j 1.0.0 -p 2.0.0 -P
+```
+
+The resulting collection will be in v2 format and downloaded to your target file path. Check out the [Postman Collection Transformer](https://github.com/postmanlabs/postman-collection-transformer) to take a closer look at the collection conversion.
 
 ### Importing API specifications
 
@@ -148,9 +189,11 @@ You can export your collections from Postman by selecting the **...** next to th
 
 You can then select the format you'd like your collection to export as. Click **Export** to download your newly generated JSON file.
 
-![Export collection format](https://assets.postman.com/postman-docs/export-collection-format-2.jpg)
+> The export to Collection v1 format is no longer supported in Postman.
 
-> Learn more about Postman's [v1 and v2 formats](https://blog.postman.com/travelogue-of-postman-collection-format-v2/).
+![Export collection format](https://assets.postman.com/postman-docs/export-collection-format-v8.jpg)
+
+> Learn more about Postman's [collection formats](https://blog.postman.com/travelogue-of-postman-collection-format-v2/).
 
 ### Exporting environments
 

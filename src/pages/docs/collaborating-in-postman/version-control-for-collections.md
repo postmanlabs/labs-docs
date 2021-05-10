@@ -10,6 +10,13 @@ contextual_links:
     name: "Grouping requests in Collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Version Control for Collections | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=QKxukXJWRPI&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=7"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Versioning APIs"
@@ -21,9 +28,12 @@ You can use version control with your Postman Collections by forking and merging
 * [Forking a collection](#forking-a-collection)
     * [Forking information](#forking-information)
     * [Forking to send requests](#forking-to-send-requests)
+    * [Watching a collection](#watching-a-collection)
+* [Forking an environment](#forking-an-environment)
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-PRs)
+    * [Watching a pull request](#watching-a-pull-request)
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)
 * [Pulling updates](#pulling-updates)
@@ -64,13 +74,55 @@ If you are a visitor who does not belong to any public workspace, to send reques
 
 Postman will prompt a login screen, you can either create a free account or sign in to get started.
 
-[![Visitor Sign in](https://assets.postman.com/postman-docs/sign-in-v2.jpg)](https://assets.postman.com/postman-docs/sign-in-v2.jpg)
+<img src="https://assets.postman.com/postman-docs/sign-in-v2.jpg" alt="Visitor Sign in" height="400px"/>
 
 Being a signed-in non-member, to send requests in a public workspace, fork the collection into a workspace that you belong to (either team or personal whichever you choose during fork creation) and then make changes.
 
-[![Visitor creating a fork](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)](https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg)
+<img src="https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg" alt="Visitor creating a fork" height="400px"/>
 
 > Make sure your public profile is enabled before you fork a collection from a public workspace.
+
+### Watching a collection
+
+The watch option allows you to receive an email/in-app notification when one of your team member belonging to the same workspace modifies the collection. If you watch a collection, you will be notified of actions such as adding a new request, modifying the existing requests, adding or updating variables, editing pre-request scripts or tests, adding or deleting a folder and so on.
+
+Once you've created the collection, click __Watch__ to start watching the collection.
+
+![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v8.jpg)
+
+Click the bell icon in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the collection.
+
+<img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v8.jpg" width="500px"/>
+
+In addition to a notification, you will receive an email with the information regarding who has made the change, what the change was, and when it was made.
+
+![Watch Collection Email Notification](https://assets.postman.com/postman-docs/collection-watch-email-v8.jpg)
+
+Click __View changelog__ to access the full changelog in Postman.
+
+> If you created the collection and modified it from the same account, you will not receive email or in-app notifications for changes made.
+
+## Forking an environment
+
+To fork an environment in Postman, select the environment in the __Environments__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by clicking __Fork__ in environment overview tab.
+
+<img src="https://assets.postman.com/postman-docs/create-an-environment-fork-v8.jpg" alt="Create an Environment Fork"/>
+
+Enter a label for your fork, and select a workspace to save it to. Click __Fork Environment__.
+
+<img src="https://assets.postman.com/postman-docs/fork-environment-v8.jpg" alt="Fork Label Environment" height="400px"/>
+
+Your forked environment will be created in the selected workspace. You will be able to view the forked environments in the sidebar on the left as well as under the environment dropdown on the right side of Postman.
+
+<img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v8.jpg" height="200px"/>
+
+The forks icon <img alt="Fork icon on context bar for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the context bar provides details about the forks created.
+
+<img alt="Fork icon overview for v8" src="https://assets.postman.com/postman-docs/fork-panel-overview-v8.jpg" height="300px"/>
+
+Click **View all forks** to reveal the detailed list of forks along with information about users who created them.
+
+<img alt="Fork overview details v8" src="https://assets.postman.com/postman-docs/fork-overview-details-v8.jpg"/>
 
 ## Creating pull requests
 
@@ -144,6 +196,24 @@ You can create a pull request on a fork (the _source_) into the parent (the _des
 Once you create the pull request, you will get a notification that it has been __Shared to public workspace__.
 
 <img src="https://assets.postman.com/postman-docs/source-collection-shared-v2.jpg" alt="Source Collection Shared"/>
+
+### Watching a pull request
+
+The watch option allows you to receive an in-app notification when one of your team member belonging to the same workspace modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, editing or declining a pull request, and so on.
+
+Once you've created the pull request, click __Watch__ to start watching the pull request.
+
+![Pull request watching](https://assets.postman.com/postman-docs/watching-a-pull-request-v8.jpg)
+
+Once you have enabled watch, you will be able to view and modify the conditions for which notifications will be triggered.
+
+<img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v8.jpg" height="350px"/>
+
+Click the bell icon in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the pull request.
+
+<img alt="Notification Pull Request Watching" src="https://assets.postman.com/postman-docs/pull-request-watch-notification-v8.jpg" width="500px"/>
+
+> If you created the pull request and modified it from the same account, you will not receive any notifications for changes made.
 
 ## Approving changes
 

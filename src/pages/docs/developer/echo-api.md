@@ -18,7 +18,7 @@ warning: false
 
 ---
 
-You can use the Postman Echo API to try out requests in Postman. The API echoes back what you sent it, including each of the data items you included in the request as part of the response. Check out the [Echo API documentation](https://docs.postman-echo.com/?version=latest) to see the available endpoints.
+You can use the Postman Echo API to try out requests in Postman. The API echoes back what you sent it, including each of the data items you included in the request as part of the response. Check out the [Echo API documentation](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) to see the available endpoints.
 
 Lots of Postman learning resources (including templates and docs here in the Learning Center) use the Postman Echo API, because it provides a quick way to send a request without worrying about authentication or request configuration. If you just want to learn how to do something in Postman without connecting to a "real" API, feel free to use the Postman Echo API at any time.
 
@@ -40,4 +40,4 @@ The Echo API includes endpoints to try different request methods, parameters, au
 
 ## Next steps
 
-You can import the [Echo template](https://explore.postman.com/templates/1358/postman-echo) to use some pre-built requests to the API—when you import the collection into your own Postman app you can also edit the requests to suit your needs. You will find many other useful collections for learning about Postman and APIs in the [templates](/docs/getting-started/importing-templates/).
+You can import the [Echo template](https://docs.postman-echo.com/) to use some pre-built requests to the API—when you import the collection into your own Postman app you can also edit the requests to suit your needs. You will find many other useful collections for learning about Postman and APIs in the [templates](/docs/getting-started/importing-templates/).

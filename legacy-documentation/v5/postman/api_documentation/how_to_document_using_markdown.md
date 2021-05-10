@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Postman has created a collection to test [Markdown styling](https://documenter.getpostman.com/view/4630964/S1LsXVJy) inside Postman or in other services that render Markdown. The descriptions in the collection contain Markdown syntax and some of them have links to HTML pages of their rendered version.
+Postman has created a collection to test [Markdown styling](https://documenter.postman.com/view/4630964/S1LsXVJy) inside Postman or in other services that render Markdown. The descriptions in the collection contain Markdown syntax and some of them have links to HTML pages of their rendered version.
 
 [![markdown reference](https://assets.postman.com/postman-docs/59188697.png)](https://assets.postman.com/postman-docs/59188697.png)
 
