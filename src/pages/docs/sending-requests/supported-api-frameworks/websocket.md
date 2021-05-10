@@ -62,6 +62,7 @@ Above the message display are the following controls:
 The following are displayed for each message:
 
 * If you hover over a message, a check box is displayed, select the check boxes for two messages, and the time difference between the messages will be displayed. Click **deselect** to remove the time display.
+  [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Click **>** to expand a message, or **v** to collapse it.
 * The time is displayed, as your local time.
 * If you hover over the time, an information icon is displayed. Hover over it to see the time, MIME type, and size of the message.
