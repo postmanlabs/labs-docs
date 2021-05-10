@@ -41,40 +41,22 @@ After you set up the integration, you can view real-time alerts based on the res
 
 ## Configuring Postman monitors
 
-1. In the **[Integrations](https://go.postman.co/workspaces)** tab for your workspace, select BigPanda from the list of third party integrations.
+1. In the **[Browse Integrations](https://go.postman.co/integrations/browse?category=all)** page, select BigPanda from the list of third party integrations.
 
-1. Click the **View Details** button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors.
+1. Check out the information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors.
 
-   You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
+1. Click the **Add Integration** button to display the **Add Integration** page.
 
-1. Click the **Add Integration** button to display the **Send Monitor Run Results** modal.
-
-1. In the **Send Monitor Run Results** page:
-
-* Select a monitor to send to BigPanda.
-* Enter the BigPanda app key.
-* Enter the API token for the app.
-
-You can send the results of multiple monitors to the same BigPanda collection.
-
-## Viewing alerts in BigPanda
-
-1. Click the **View Details** button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors.
-
-   You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for BigPanda, or view all integrations.
-
-1. Click the **Add Integration** button to display the **Send Monitor Run Results** box.
-
-1. In the **Send Monitor Run Results** page:
-
-   * Select a monitor to send to BigPanda.
+1. In the **Add Integration** page:
+   * Give a nickname to your integration.
+   * Select the workspace to which your monitor belongs to.
+   * Select a monitor.
    * Enter the BigPanda app key.
    * Enter the API token for the app.
 
 1. Click the **Add Integration** button.
 
 You can send the results of multiple monitors to the same BigPanda collection.
-
 BigPanda gives you real-time alerts based on the results of your Postman Monitors. If there was a failed test or if an error occurred during the run, an alert is created on BigPanda, which would then alert the user.
 
 [![view in bigpanda](https://assets.postman.com/postman-docs/58835364.png)](https://assets.postman.com/postman-docs/58835364.png)
