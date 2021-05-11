@@ -20,7 +20,7 @@
     {"name": "Get Postman",
       "children": [
         { "url": "https://www.postman.com/downloads/", "name": "Download App", "id": "download-app", "category": "global-footer", "label": "download-app"},
-        { "url": "https://www.postman.com/company/contact-us/", "name": "Contact Sales", "id": "contact-sales", "category": "global-footer", "label": "contact-sales"}
+        { "url": "https://www.postman.com/pricing/get-started-postman-plans/", "name": "Contact Sales", "id": "contact-sales", "category": "global-footer", "label": "contact-sales"}
       ]
     },
 
@@ -37,14 +37,14 @@
     {"name": "Pricing",
       "children": [
         { "url": "https://www.postman.com/pricing/", "name": "Plans & Pricing Overview", "id": "plans-and-pricing-overview", "category": "global-footer", "label": "plans-and-pricing-overview"},
-        { "url": "https://www.postman.com/postman-enterprise/", "name": "Postman Enterprise", "id": "postman-enterprise", "category": "global-footer", "label": "postman-enterprise"}
+        { "url": "https://www.postman.com/postman-enterprise/", "name": "Postman for Enterprises", "id": "postman-enterprise", "category": "global-footer", "label": "postman-enterprise"}
       ]
     },
 
     {"name": "Support",
       "children": [
         { "url": "https://www.postman.com/support/", "name": "Support Center", "id": "support-center", "category": "global-footer", "label": "support-center"},
-        { "url": "https://pages.getpostman.com/Resellers-Support.html", "name": "Resellers Support", "id": "resellers-support", "category": "global-footer", "label": "resellers-support"}
+        { "url": "https://www.postman.com/support/resellers-support/", "name": "Resellers Support", "id": "resellers-support", "category": "global-footer", "label": "resellers-support"}
       ]
     },
 
@@ -79,7 +79,7 @@
     },
     {
       "type": "link",
-      "url": "https://www.postman.com/legal/eula/",
+      "url": "https://www.postman.com/legal/terms/",
       "name": "Terms"
     },
     {

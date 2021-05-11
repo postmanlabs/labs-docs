@@ -16,7 +16,7 @@ contextual_links:
     url: "/docs/integrations/webhooks/"
   - type: link
     name: "Slack Integration"
-    url: "/docs/integrations/slack/"
+    url: "/docs/integrations/available-integrations/slack/"
 ---
 
 > __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
@@ -39,7 +39,7 @@ You can directly upload your API schemas from Postman to AWS API Gateway. Once t
 
 ### Configuring an AWS API Gateway integration
 
-To add an AWS API Gateway integration, navigate to your [Postman Dashboard](https://go.postman.co/). Select your desired workspace > **Integrations**. Click **Browse Integrations**, locate **AWS API Gateway**, and select **View Details**. Click **+ Add integration**.
+To add an AWS API Gateway integration, navigate to your [Postman Dashboard](https://go.postman.co/), select **Integrations**, and click **Browse All Integrations** (or open [Browse Integrations](https://go.postman.co/integrations/browse?category=all) page). Select **AWS API Gateway**, and click **Add integration**.
 
 ![AWS API Gateway page](https://assets.postman.com/postman-docs/aws-api-gateway-integration-page.jpg)
 
@@ -71,4 +71,4 @@ This integration will be triggered whenever the configured Postman schema is upd
 
 ## Next steps
 
-Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/slack/).
+Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/available-integrations/slack/).

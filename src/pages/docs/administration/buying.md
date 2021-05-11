@@ -8,7 +8,7 @@ contextual_links:
     name: "Additional Resources"
   - type: link
     name: "Postman Pricing"
-    url: "https://www.postman.com/pricing"
+    url: "https://www.postman.com/pricing/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
