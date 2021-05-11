@@ -50,9 +50,9 @@ By default, tokens issued by the following service providers are scanned:
 
 ### Custom alerts
 
-Custom alerts can be used to scan your team's proprietary third-party app tokens that are not scanned by default.
+Custom alerts can be used to scan your team's proprietary and third-party app tokens that are not scanned by default.
 
-> Your team can add a total of 5 alerts.
+> Your team can add a total of five alerts.
 
 To add custom alerts:
 
