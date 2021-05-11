@@ -23,7 +23,9 @@ A scan is triggered whenever your team members do any of the following actions:
 * Share a collection or environment to a public workspace.
 * Make changes to a collection or environment that is present in a public workspace.
 * Author new documentation for a Postman Collection and make it public.
-* Make any changes to a publicly available Postman documentation.
+* Make any changes to publicly available Postman documentation.
+
+Scan results are displayed in [Security audit reports](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/#security-audit-reports) on the **Reports** section of the web dashboard.
 
 ## Supported tokens
 
