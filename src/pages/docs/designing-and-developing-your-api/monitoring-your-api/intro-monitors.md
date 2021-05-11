@@ -156,9 +156,11 @@ There are a few differences between running collections in a Postman monitor and
 
 ### Multi-region monitoring
 
-* When setting up or editing a monitor, you can select multiple geographic regions you'd like your monitor to run from, or opt to auto-select a region.
+* When setting up or editing a monitor, you can select multiple geographic regions you'd like your monitor to run from, or opt to auto-select a region. If you are on a Free plan, [Upgrade your Postman plan](https://www.postman.com/pricing) to manually select specific monitoring regions.
 
-> If you’re interested in a region that’s not listed in the Postman interface, contact the [Postman support team](https://support.getpostman.com/).
+<img alt="Multi monitoring region upgrade" src="https://assets.postman.com/postman-docs/multi-monitoring-region-upgrade.jpg"/>
+
+> If you’re interested in a region that’s not listed in the Postman interface, contact the [Postman support team](https://www.postman.com/support/).
 
 ### Accessible APIs
 
