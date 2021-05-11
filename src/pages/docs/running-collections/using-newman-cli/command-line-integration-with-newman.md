@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Run Collections with Newman | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=SQlwGZj97Y4"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Clarifai"
