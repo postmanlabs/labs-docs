@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Syncing Cookies for Authentication | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=jfgFNw5SoUg"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Using the Interceptor to read and write cookies"

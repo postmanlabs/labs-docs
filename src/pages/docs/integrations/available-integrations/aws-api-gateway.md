@@ -39,7 +39,7 @@ You can directly upload your API schemas from Postman to AWS API Gateway. Once t
 
 ### Configuring an AWS API Gateway integration
 
-To add an AWS API Gateway integration, navigate to your [Postman Dashboard](https://go.postman.co/). Select your desired workspace > **Integrations**. Click **Browse Integrations**, locate **AWS API Gateway**, and select **View Details**. Click **+ Add integration**.
+To add an AWS API Gateway integration, navigate to your [Postman Dashboard](https://go.postman.co/), select **Integrations**, and click **Browse All Integrations** (or open [Browse Integrations](https://go.postman.co/integrations/browse?category=all) page). Select **AWS API Gateway**, and click **Add integration**.
 
 ![AWS API Gateway page](https://assets.postman.com/postman-docs/aws-api-gateway-integration-page.jpg)
 

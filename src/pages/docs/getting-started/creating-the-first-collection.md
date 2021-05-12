@@ -50,7 +50,7 @@ Enter a request in the request builder and click **Save** to open the **SAVE REQ
 <img alt="Save request modal" src="https://assets.postman.com/postman-docs/save-request-modal-v8.jpg"/>
 
 * As an optional step, enter a new request name. Otherwise, the default name will be the request URL.
-* As an optional step, enter a request description in plain text or using [Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
+* As an optional step, enter a request description in plain text or using [Markdown](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
 
 Save this request to an existing collection, or create a new collection by entering a collection name, and then click the **Save** button.
 

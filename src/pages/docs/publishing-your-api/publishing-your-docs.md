@@ -35,7 +35,7 @@ You can publish your API documentation to make it available for public viewing b
 
 Your public documentation will always display up-to-date content representing the current state of your collection. You don’t need to repeat the publication flow each time you want to update your documentation.
 
-Your documentation will include the **Run in Postman** button so users can interact with your API directly in Postman. For example, check out the [Postman API documentation](https://documenter.getpostman.com/view/631643/JsLs/)—generated from a Postman Collection. You can publish your documentation to the API Network or as a template to make your collections publicly available in Postman, aiding developer onboarding and adoption.
+Your documentation will include the **Run in Postman** button so users can interact with your API directly in Postman. For example, check out the [Postman API documentation](https://documenter.postman.com/view/631643/JsLs/)—generated from a Postman Collection. You can publish your documentation to the API Network or as a template to make your collections publicly available in Postman, aiding developer onboarding and adoption.
 
 > You can publish documentation for collections that you created or have permission to edit.
 

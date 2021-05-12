@@ -23,7 +23,7 @@ When signed in to Postman, you can select a [corresponding environment](https://
 
 The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select a “production” environment, so your documentation is immediately usable for new visitors.
 
-Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2) of a collection we've published.
+<!-- Here's an [example](https://documenter.postman.com/view/583/coopers-meal-plan/4u2) of a collection we've published. -->
 
 > **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 
