@@ -17,7 +17,7 @@ contextual_links:
     url: "https://blog.postman.com/making-http-soap-requests-with-postman/"
   - type: link
     name: "SOAP: fahrenheit to celsius conversion"
-    url: "https://explore.postman.com/templates/7315/soap-fahrenheit-to-celsius-conversion"
+    url: "https://www.postman.com/explore/template/7315/soap-fahrenheit-to-celsius-conversion"
 
 warning: false
 
@@ -35,7 +35,7 @@ Open a new request tab in Postman and enter your SOAP endpoint URL in the addres
 https://www.dataaccess.com/webservicesserver/NumberConversion.wso
 ```
 
-> Check out the [Public SOAP APIs](https://documenter.getpostman.com/view/8854915/Szf26WHn?version=latest) collection for more SOAP requests you can try.
+> Check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection for more SOAP requests you can try.
 
 Select __POST__ from the request method drop-down.
 
@@ -80,4 +80,4 @@ Click __Send__ to make your call to the SOAP service. If your call is successful
 
 ## Next steps
 
-Check out the [SOAP template](https://explore.postman.com/templates/7275/public-soap-apis) for lots of sample requests you can try out in Postman.
+Check out the [SOAP template](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) for lots of sample requests you can try out in Postman.

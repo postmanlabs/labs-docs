@@ -14,4 +14,4 @@ warning: false
 *   [Collection SDK (API Reference)](http://www.postmanlabs.com/postman-collection/)
 *   [Postman settings](/docs/postman/launching_postman/settings/)
 *   [Keyboard shortcuts](/docs/postman/launching_postman/settings/)
-*   [Markdown reference](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc)
+*   [Markdown reference](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc)

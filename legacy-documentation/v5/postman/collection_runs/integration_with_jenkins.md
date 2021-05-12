@@ -15,7 +15,7 @@ Newman and Jenkins are a perfect match. Let's start setting this up. We are usin
 
 1. [Install Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu).
 
-2. Install NodeJS and npm. Newman is written in NodeJS and we distribute the official copy through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/getting-started/installing-node).
+2. Install NodeJS and npm. Newman is written in NodeJS and we distribute the official copy through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 3. Install Newman globally, to set up Newman as a command line tool in Ubuntu.
 

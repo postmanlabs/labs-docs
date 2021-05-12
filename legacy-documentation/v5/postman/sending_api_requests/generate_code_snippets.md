@@ -22,13 +22,13 @@ Postman currently supports the following options:
 | **Language**  | **Framework** |
 | --- | --- |
 | HTTP | None (Raw HTTP request) |
-| C | [LibCurl](https://curl.haxx.se/libcurl/c/) |
+| C | [LibCurl](https://curl.se/libcurl/c/) |
 | cURL | None (Raw [cURL](https://curl.haxx.se/) command) |
 | C# | [RestSharp](http://restsharp.org/) |
 | Go | Built-in [http package](https://golang.org/pkg/net/http/) |
 | Java | [OkHttp](https://github.com/square/okhttp) |
 | Java | [Unirest](http://unirest.io/java.html) |
-| JavaScript | [jQuery AJAX](http://api.jquery.com/jquery.ajax/) |
+| JavaScript | [jQuery AJAX](https://api.jquery.com/jquery.ajax/) |
 | JavaScript | Built-in [XHR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) |
 | NodeJS | Built-in [http](https://nodejs.org/api/http.html) module |
 | NodeJS | [Request](https://github.com/request/request) |
@@ -37,11 +37,11 @@ Postman currently supports the following options:
 | OCaml | [Cohttp](https://github.com/mirage/ocaml-cohttp) |
 | PHP | [HttpRequest](http://php.net/manual/it/httprequest.send.php) |
 | PHP | [pecl_http](https://mdref.m6w6.name/http) |
-| PHP | Built-in [curl](http://php.net/manual/en/ref.curl.php) |
+| PHP | Built-in [curl](https://www.php.net/manual/en/ref.curl.php) |
 | Python | Built-in [http.client](https://docs.python.org/3/library/http.client.html) (Python 3) |
 | Python | [Requests](http://docs.python-requests.org/en/master/) |
-| Ruby | Built-in [NET::Http](http://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html) |
+| Ruby | Built-in [NET::Http](https://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html) |
 | Shell | [wget](https://www.gnu.org/software/wget/) |
-| Shell | [HTTPie](https://github.com/jkbrzt/httpie) |
-| Shell | [cURL](https://curl.haxx.se/) |
+| Shell | [HTTPie](https://github.com/httpie/httpie) |
+| Shell | [cURL](https://curl.se/) |
 | Swift | Built-in [NSURLSession](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSURLSession_class/) |

@@ -41,17 +41,17 @@ Each API request uses an HTTP method. The most common methods are `GET`, `POST`,
 
 In Postman you can make API requests and examine the responses without using a terminal or writing any code. When you create a request and click **Send**, the API response appears inside the Postman user interface.
 
-[![request and response illustration](https://assets.postman.com/postman-docs/anatomy-of-a-request.png)](https://assets.postman.com/postman-docs/anatomy-of-a-request.png)
+[![Request and response illustration](https://assets.postman.com/postman-docs/anatomy-of-a-request-v8.jpg)](https://assets.postman.com/postman-docs/anatomy-of-a-request-v8.jpg)
 
 ## Sending a request
 
-To send your first API request, open Postman. Make sure __Build__ is selected at the bottom right. Click the __+__ plus button to open a new tab.
+To send your first API request, open Postman. Click the __+__ plus button to open a new tab.
 
 Enter `postman-echo.com/get` in the URL field.
 
 Click **Send**. You will see the JSON data response from the server in the lower pane.
 
-[![request response](https://assets.postman.com/postman-docs/first-request-sent.png)](https://assets.postman.com/postman-docs/first-request-sent.png)
+[![Request response](https://assets.postman.com/postman-docs/first-request-sent-v8.jpg)](https://assets.postman.com/postman-docs/first-request-sent-v8.jpg)
 
 ## Next steps
 

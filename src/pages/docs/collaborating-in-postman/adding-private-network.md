@@ -66,7 +66,7 @@ The API will immediately be visible in your team's [Private API Network](https:/
 
 ![Listed APIs](https://assets.postman.com/postman-docs/privNetworkEditListing.png)
 
-You can also add an API to your team's Private API Network from the Postman app. Go to the [API Builder](/docs/postman/design-and-develop-apis/the-api-workflow/) via **APIs** in the left sidebar. Select an API, and see a high-level description on the first tab **Overview**. You can add and edit your network listing next to the version details on the right.
+You can also add an API to your team's Private API Network from the Postman app. Go to the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) via **APIs** in the left sidebar. Select an API, and see a high-level description on the first tab **Overview**. You can add and edit your network listing next to the version details on the right.
 
 ![Add from app](https://assets.postman.com/postman-docs/privNetworkInAppAdd.png)
 
@@ -108,7 +108,7 @@ You can use the search box to search across folders, subfolders, and APIs in you
 
 ## Discovering and consuming private APIs
 
-The Private API Network is a good place to learn about APIs shared within your team. You can browse private APIs in [the Private API Network](https://go.postman.co/network/private) under your team name, or explore public APIs in [the public API network](https://explore.postman.com/).
+The Private API Network is a good place to learn about APIs shared within your team. You can browse private APIs in [the Private API Network](https://go.postman.co/network/private) under your team name, or explore public APIs in [the public API network](https://www.postman.com/explore).
 
 > Private APIs are only visible to logged in users who are a part of your Postman team.
 

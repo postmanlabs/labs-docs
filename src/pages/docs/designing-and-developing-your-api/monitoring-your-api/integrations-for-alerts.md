@@ -38,4 +38,4 @@ Note: only JSON data is currently supported as the request body in the webhook.
 
 ### Sending output to another API
 
-The data that is sent to the webhook can be used to trigger another API and define a logic based on the incoming data. For example, you could set up a monitoring webhook on your Github repository, so that based on the updates happening in your repository, you can trigger custom build pipelines and perform CI tests.
+The data that is sent to the webhook can be used to trigger another API and define a logic based on the incoming data. For example, you could set up a monitoring webhook on your GitHub repository, so that based on the updates happening in your repository, you can trigger custom build pipelines and perform CI tests.

@@ -20,7 +20,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Raygun"
-    url: "https://www.postman.com/case-studies/raygun.pdf"
+    url: "https://www.postman.com/customers/raygun.pdf"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -54,13 +54,9 @@ An example usage of pre-request scripting could be as follows:
 
 ## Scripting before your request runs
 
-To include code you want to execute before Postman sends a request, open the request and select the __Pre-request Script__ tab.
+To include code you want to execute before Postman sends a request, open the request and select the __Pre-request Script__ tab. Enter the JavaScript you need to process before the request runs.
 
-![Pre Request Tab](https://assets.postman.com/postman-docs/pre-request-tab-empty.jpg)
-
-Enter the JavaScript you need to process before the request runs.
-
-![Pre Request Code](https://assets.postman.com/postman-docs/pre-request-script.jpg)
+![Pre Request Code](https://assets.postman.com/postman-docs/pre-request-script-v8.jpg)
 
 When you click __Send__, the code will execute before Postman sends the request to the API.
 
@@ -70,11 +66,11 @@ You can add pre-request scripts to entire collections as well as to folders with
 
 To add pre-processing to a group of requests, locate the collection or folder in __Collections__ on the left of Postman. Click __...__ to __View more actions__ and select __Edit__.
 
-<img src="https://assets.postman.com/postman-docs/edit-collection-action.jpg" alt="Collection Actions" width="300px"/>
+<img src="https://assets.postman.com/postman-docs/edit-collection-action-v8.jpg" alt="Collection Actions" width="300px"/>
 
 Open __Pre-request Scripts__ to enter code that will run before every request in the collection or folder.
 
-![Collection Pre Request Script](https://assets.postman.com/postman-docs/edit-collection-pre-request.jpg)
+![Collection pre request script](https://assets.postman.com/postman-docs/edit-collection-pre-request-v8.jpg)
 
 > You can define a pre-request script when you first create a collection or folder, or at any time after that.
 
