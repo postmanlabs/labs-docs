@@ -25,43 +25,37 @@ You can use this integration to trigger incidents in PagerDuty based on your Pos
 ## Retrieving your PagerDuty Integration Key
 
 Create an account or use a preexisting one to log in to [PagerDuty](https://app.pagerduty.com/).  
-In the header toolbar, click **Configuration** and select **Services**. If you are creating a new service for this integration, click **Add New Service**.
+In the header toolbar, select **Services**. If you are creating a new service for this integration, select **Services** and then **+ New Service**.
 
-[![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty_menu.png)](https://assets.postman.com/postman-docs/pagerduty_menu.png)
+![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-new-service.jpg)
 
 Enter your Service Name and choose Postman as the Integration Type.
 
 Click the **Add Service** link at the bottom of the page to create a new service.
 
-[![pagerduty service](https://assets.postman.com/postman-docs/pagerduty_service.png)](https://assets.postman.com/postman-docs/pagerduty_service.png)
+![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-config-service.jpg)
 
 Save the PagerDuty Integration Key to use later.
 
-[![pagerduty key](https://assets.postman.com/postman-docs/pagerduty_key.png)](https://assets.postman.com/postman-docs/pagerduty_key.png)
+![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-integrations-key.jpg)
 
 ## Configuring Postman with PagerDuty
 
-1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select PagerDuty from the list of third party integrations.
+From the [Integrations search page](https://go.postman.co/integrations/browse?category=all), search and select PagerDuty.
 
-[![select pagerduty integration](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)
+![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-search-all.jpg)
 
-1. Click the **View Details** button to see information about PagerDuty.
+You can select **View All** to see all PagerDuty integrations created by your team.
 
-   [![select pagerduty integration](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-details.png)](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-details.png)
+![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-all-integrations.jpg)
 
-   You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for PagerDuty, or view all integrations.
+To create your own integration, select **Add Integration**.
 
-## Add a team activity feed to PagerDuty
+![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-view-all.jpg)
 
-The Team Activity Feed is where you can track changes being made by your team members to shared Collections. With this integration you can stay updated about work being done in Postman while you’re away from the desktop app, either through your PagerDuty dashboard or through an alternative alert service you choose to set up.
+Enter the name of the integration, workspace, monitor, and your PagerDuty Integration Key. Select **Add Integration** to start configuring the integration.
 
-To add a team activity feed to PagerDuty:
-
-1. In the PagerDuty integration page, click the **Add Integration** button.
-1. In the **Team Activity Feed** page, choose the Monitor you want to send to PagerDuty.
-1. Enter your Pagerduty Integration Key and click the **Add Integration** button.
-
-[![pagerduty monrun](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-monrun.png)](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-monrun.png)
+![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-add-integration-configuration.jpg)
 
 ## Viewing PagerDuty results
 
