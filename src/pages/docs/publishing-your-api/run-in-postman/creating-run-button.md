@@ -42,7 +42,7 @@ contextual_links:
 
 One way to [share your Postman Collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone Run in Postman button.  The new **Run in Postman** button allows you to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
 
-> Being a user, you can still create **Run in Postman** button from API specification formats like OpenAPI and RAML. To create a button for the standard you use, first convert the file to a collection by [importing it into Postman](/docs/getting-started/importing-and-exporting-data/) or by [authoring your specification in Postman](/docs/designing-and-developing-your-api/the-api-workflow/) to generate a collection.
+> Being a user, you can still create the **Run in Postman** button from API specification formats like OpenAPI and RAML. To create a button for the standard you use, first convert the file to a collection by [importing it into Postman](/docs/getting-started/importing-and-exporting-data/) or by [authoring your specification in Postman](/docs/designing-and-developing-your-api/the-api-workflow/) to generate a collection.
 
 ## Contents
 
@@ -101,7 +101,7 @@ data-postman-collection-url=":collection_url"></div>
 
 > You can include an environment along with a collection in your Run in Postman button. The dynamic button gives you access to the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to create and modify environments.
 
-Clicking **Run in postman** button navigates to the page where you can fork the collection to your workspace. [Forking the collection](/docs/collaborating-in-postman/version-control-for-collections/) into your workspace will enable you to contribute to the source collection using pull requests. You can also view the collection in a public workspace if you like and even import a copy of the collection using the links present on the screen. All collections shared with the new Run in postman buttons come with [Fork counts](/docs/collaborating-in-postman/version-control-for-collections/#forking-information), that help you and your consumers understand how the API is being used.
+Clicking **Run in Postman** button navigates to the page where you can fork the collection to your workspace. [Forking the collection](/docs/collaborating-in-postman/version-control-for-collections/) into your workspace will enable you to contribute to the source collection using pull requests. You can also view the collection in a public workspace if you like and even import a copy of the collection using the links present on the screen. All collections shared with the new Run in postman buttons come with [Fork counts](/docs/collaborating-in-postman/version-control-for-collections/#forking-information), that help you and your consumers understand how the API is being used.
 
 <img alt="Fork collection for run in postman" src="https://assets.postman.com/postman-docs/fork-collection-for-run-in-postman.jpg" height="400px"/>
 
