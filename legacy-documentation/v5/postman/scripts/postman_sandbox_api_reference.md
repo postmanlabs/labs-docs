@@ -42,7 +42,7 @@ A number of NodeJS modules are also available:
 
 In order to use a library, simply call the `require` function and pass the module name as a parameter and assign the return of the function to a variable.
 
-```
+```js
 var atob = require('atob'),
     _ = require('lodash'), 
   
@@ -92,7 +92,7 @@ Some things to know about `pm.sendRequest()`:
 * The method accepts a collection SDK compliant request and a callback. The callback receives 2 arguments, an error (if any) and SDK compliant response.
 * It can be used in the pre-request or the test script.
 
-```
+```js
 // example with a plain string URL
 pm.sendRequest('https://postman-echo.com/get', function (err, res) {
     if (err) {
@@ -219,7 +219,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
    In the following sample test, we are checking that everything about a response is valid for us to proceed.
 
-    ```
+    ```js
     pm.test("response should be okay to process", function () {
         pm.response.to.not.be.error;
         pm.response.to.have.jsonBody('');
@@ -233,7 +233,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
   
   This function is useful to deal with assertions of data from a response or variables.
       
-  ```
+  ```js
     pm.test('environment to be production', function () {
         pm.expect(pm.environment.get('env')).to.equal('production');
     });

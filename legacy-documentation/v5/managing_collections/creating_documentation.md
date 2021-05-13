@@ -40,7 +40,7 @@ Note: Any confidential info (passwords/access tokens) in your environment might 
 * To unpublish, open the Docs link from your Postman app. Click the Published button near the top of the screen. For a collection that's already been published, you'll be able to view the public link or unpublish the collection.
 [![](https://www.postman.com/img/v1/docs/publishing_docs/Docs5.png)][4]
 
-* We've published documentation for this collection at [https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2][5].
+<!-- * We've published documentation for this collection at [https://documenter.postman.com/view/583/coopers-meal-plan/4u2][5]. -->
 
 Oh, and in case you're wondering who Cooper is, why we're trying to feed him, or what his collection is all about, check out our blog post [here][6].
 
@@ -49,6 +49,6 @@ Oh, and in case you're wondering who Cooper is, why we're trying to feed him, or
 [2]: https://www.postman.com/img/v1/docs/publishing_docs/Docs3.png
 [3]: https://www.postman.com/img/v1/docs/publishing_docs/Docs4.png
 [4]: https://www.postman.com/img/v1/docs/publishing_docs/Docs5.png
-[5]: https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2
+<!-- [5]: https://documenter.postman.com/view/583/coopers-meal-plan/4u2 -->
 [6]: https://blog.postman.com/conditional-workflows-in-postman/
 [7]: https://static.getpostman.com/postman-docs/40ce4cda-5788-4e18-9141-4391de078244.png

@@ -756,7 +756,7 @@ The `require` method allows you to use the sandbox built-in library modules. The
 * [cheerio](https://cheerio.js.org/)
 * [crypto-js](https://www.npmjs.com/package/crypto-js)
 * [csv-parse/lib/sync](https://csv.js.org/parse/)
-* [lodash](https://lodash.com/)
+* [lodash](https://lodash.com/) (The built-in `_` object v3.10.1 exists in the sandbox by default. Use `require` to load the latest version.)
 * [moment](https://momentjs.com/docs/)
 * [postman-collection](http://www.postmanlabs.com/postman-collection/)
 * [tv4](https://github.com/geraintluff/tv4)

@@ -27,7 +27,7 @@ You can also use the Postman app to retrieve the `collectionId`. Find the Colle
 
 {% raw %} 
 ```
-https://documenter.getpostman.com/collection/view/{{collectionId}}
+https://documenter.postman.com/collection/view/{{collectionId}}
 ``` 
 {% endraw %}
 

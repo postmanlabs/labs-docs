@@ -29,9 +29,9 @@ The Postman to Slack integration enables you to receive notifications for the Te
 
 ## Configuring Postman with Slack
 
-From the [Integrations search page](https://go.postman.co/integrations/browse?category=all) search and select Slack from the results.
+From the [Integrations search page](https://go.postman.co/integrations/browse?category=all) search for Slack and select it from the results.
 
-[select slack integration](https://assets.postman.com/postman-docs/slack-search-all.jpg)
+![search for slack integration](https://assets.postman.com/postman-docs/slack-search-all.jpg)
 
 From the integration details page you can choose to:
 
@@ -75,7 +75,7 @@ The team activity appears in the **Configured Integrations** page.
 
 From the [Slack integration details](https://postman.postman.co/integrations/service/slack) page select **Add Integration** for **Post monitoring results** option.
 
-On the **Permission request** page, select the Slack channel your want to post to and select **ALlow**.
+On the **Permission request** page, select the Slack channel your want to post to and select **Allow**.
 
 ![configured_slack](https://assets.postman.com/postman-docs/slack-post-monitoring-results-permission.jpg)
 
@@ -102,7 +102,7 @@ Return to the browser tab for Postman and enter the following:
 * Slack Channel
   This option is pre-filled with the information from the authorization process.
 
-* Advance Options:
+* Advanced Options:
 
     * Notify for completed monitor runs
     * Notify for 3 failures and the first success
@@ -111,6 +111,6 @@ Return to the browser tab for Postman and enter the following:
 
 ![configured_slack](https://assets.postman.com/postman-docs/slack-post-monitoring-results-save-config.jpg)
 
-Example of how the monitor results could look when sent to Slack.
+The following is an example of a set of monitor results when sent to Slack:
 
 ![configured_slack_example](https://assets.postman.com/postman-docs/slack-post-monitoring-results-example.jpg)
