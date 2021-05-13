@@ -29,9 +29,11 @@ contextual_links:
 
 Share the APIs that your team uses internally to the Private API Network. Your team can learn about and access these APIs and start using them right away.
 
-![Team APIs](https://assets.postman.com/postman-docs/privNetworkAPIlist.png)
+<img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v8.jpg"/>
 
-If you're logged in, go directly to your team's [Private API Network](https://go.postman.co/network/private). You can always find it by clicking __API Network__ at the top from anywhere in the [Dashboard](https://go.postman.co).
+If you're logged in, go to **Home** in the upper-left of Postman > click **Private API Network** in the left navigation bar. This will take you directly to your team's [Private API Network](https://www.postman.com/network/private).
+
+<img alt="Private API Network GIF" src="https://assets.postman.com/postman-docs/private-api-network-home-v8.gif"/>
 
 > In order to add your API to the network, it must be in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/). You can only add APIs, not collections, to the Private API Network.
 
@@ -48,17 +50,17 @@ If you're logged in, go directly to your team's [Private API Network](https://go
 
 > You can only add an API to the network if you have edit access to the API, and your team members have permission to view or edit the API. Learn more about [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
-To add an API to your team's Private API Network from your [Dashboard](https://go.postman.co), sign in and click **API Network** at the top.
+To add an API to your team's Private API Network from [Postman](https://go.postman.co), sign in and click **Private API Network** in the left navigation bar.
 
-![Nav bar](https://assets.postman.com/postman-docs/Network+in+nav+bar.jpg)
+<img alt="Private API Network Left Navbar" src="https://assets.postman.com/postman-docs/private-api-network-left-navbar-v8.jpg" height="350px"/>
 
-The default view is your team's [Private API Network](https://go.postman.co/network/private). Click **+ Add new**.
+The default view is your team's [Private API Network](https://go.postman.co/network/private). To add an API to your team's Private API Network, click **+ Add New**.
 
-![Team name](https://assets.postman.com/postman-docs/privNetworkAddNew.png)
+<img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v8.jpg"/>
 
-In the modal, choose the workspace containing the API you want to add to the network. You can select as many APIs to add to the network at one time. For each API selected, specify the version(s) to add. Then click **Add to Network**.
+In the modal, choose the workspace containing the API you want to add to the network. You can select as many APIs to add to the network at one time. For each API selected, specify the version(s) to add. Click **Next** and select the folder to add the APIs to. Click **Add to Network**.
 
-![Modal](https://assets.postman.com/postman-docs/privNetwork2AddNetwork.png)
+<img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-new-api-to-network-v8.jpg" width="500px"/>
 
 > The APIs that you add to the Private API Network reflect the latest state of the API in your team workspace. In other words, changes made to the API in the workspace will be reflected in the network in real time.
 
@@ -114,11 +116,11 @@ The Private API Network is a good place to learn about APIs shared within your t
 
 Under your team name, you can browse a directory of APIs shared within your team.
 
-![API list](https://assets.postman.com/postman-docs/privNetworkAPIlist.png)
+<img alt="Private API List" src="https://assets.postman.com/postman-docs/private-api-network-list-v8.jpg"/>
 
 Select an API to see a high-level description.
 
-![Published to network](https://assets.postman.com/postman-docs/privNetworkHighOverview.png)
+<img alt="Published to network" src="https://assets.postman.com/postman-docs/private-api-high-level-overview-v8.jpg"/>
 
 Click through **Open in Builder** to see a more detailed overview of the API in the web version of [the API builder](/docs/designing-and-developing-your-api/the-api-workflow/). Under the **Overview** tab of the API builder, you can review information about the API and update the description. You can see team collaborators and activities like recently added collections associated with this API.
 
