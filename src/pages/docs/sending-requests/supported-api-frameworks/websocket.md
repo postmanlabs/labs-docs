@@ -26,14 +26,12 @@ In Postman you can create a WebSocket request with a server, and use it to send 
 
 You can create a WebSocket request from the left sidebar in Postman.
 
-1. Click  __New__ &gt; __WebSocket Request__ to open a new tab.
+1. Click  __New__ &gt; __WebSocket Request__ to open a new tab. (You can also select ⌘+N or Ctrl+N.)
   [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket.jpg)](https://assets.postman.com/postman-docs/new-request-websocket.jpg)
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.<br/>
 [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url.jpg)](https://assets.postman.com/postman-docs/websocket-server-url.jpg)
 1. Click **Connect**.
 1. To disconnect your WebSocket request's connection, click **Disconnect**.
-
-<!-- TODO: an explanation that this starts as a regular HTTP connection, but indicates that it wants to change protocols via the Upgrade header. The protocol switch from HTTP to WebSocket is referred to as WebSocket handshake. -->
 
 ## Sending messages
 
@@ -61,7 +59,7 @@ Above the message display are the following controls:
 
 The following are displayed for each message:
 
-* If you hover over a message, a check box is displayed, select the check boxes for two messages, and the time difference between the messages will be displayed. Click **deselect** to remove the time display.
+* If you hover over a message, a check box is displayed. Select the check boxes for two messages, and the time difference between the messages will be displayed. Click **deselect** to remove the time display.
   [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Click **>** to expand a message, or **v** to collapse it.
 * The time is displayed, as your local time.
@@ -73,8 +71,8 @@ In an expanded message:
 * Select **Text**, **HTML**, **JSON**, or **XML** to change the formatting of the message.
 * Click Wrap Line to add or remove line wraps.
 * Click **Show Hexdump** or **Show Message** to toggle if the message is shown in hex or text.
-* Click the copy icon to copy the message body to the clipboard.
 * Use the search control to search the body of the message.
+* When you hover over line numbers, caret controls (**v**) are displayed. Click them to expand or collapse blocks of the message.
 [![WebSocket message body](https://assets.postman.com/postman-docs/websocket-message-body.jpg)](https://assets.postman.com/postman-docs/websocket-message-body.jpg)
 
 ## Using variables in requests and messages
@@ -85,9 +83,7 @@ See [Using variables](/docs/sending-requests/variables/) for more information on
 
 ## Adding request details
 
-You can add details to your request, for example to send additional parameters and headers. You can also configure the connection.
-
-Click the settings button <img alt="WebSocket configure button" src="https://assets.postman.com/postman-docs/websocket-setting-mini-button.jpg" width="27px"/> next to **Connect** to make changes to the parameters, headers, or configuration.
+You can add details to your request, for example to send additional parameters and headers. You can also configure the connection. Click the **Params**, **Headers**, or **Settings** tab above the editor pane to make changes.
 
 > You can't change request details while you are connected. You must make any changes before you connect, or click **Disconnect** to stop the current connection.
 
@@ -105,12 +101,10 @@ The following settings can be configured for your WebSocket request:
 
 | Setting | Description |
 |-----|-----|
+| Handshake request timeout | How long the handshake request will wait before timing out, in milliseconds. This is reset after every redirection. |
 | Reconnection attempts | The maximum number of reconnection attempts before disconnecting. |
-| Reconnection interval | The period in milliseconds between subsequent reconnection attempts. |
-| Automatically follow redirects | If HTTP 3xx responses will be followed as redirects. |
-| Maximum number of redirects | The maximum number of redirects to follow. |
-| Handshake request timeout in ms | How long the handshake request will wait before timing out, in milliseconds. This is reset after every redirection. |
-| Maximum message size in bytes | The maximum allowed message size in bytes. |
+| Reconnection intervals | The period in milliseconds between subsequent reconnection attempts. |
+| Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. |
 
 ## Troubleshooting WebSocket Requests
 
