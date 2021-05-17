@@ -18,7 +18,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Intuit"
-    url: "https://www.postman.com/resources/case-studies/intuit/"
+    url: "https://www.postman.com/customers/intuit/"
   - type: subtitle
     name: "Videos"
   - type: link
