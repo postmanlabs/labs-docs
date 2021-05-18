@@ -2,6 +2,7 @@
 title: "Using WebSocket Requests"
 order: 38
 page_id: "websocket"
+search_keyword: "WebSocket, websockets, WebSocket requests"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -47,7 +48,7 @@ When you have finished composing your message, click **Send**. The sent message 
 
 The **Messages** pane displays a list of messages for the WebSocket connection, including incoming, outgoing, and network messages.
 
-At the top of the message pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Click the **^** next to the badge to hide messages. If the messages are hidden, click the **v** to show them.
+At the top of the message pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Click **^** next to the badge to hide messages. If the messages are hidden, click **v** to show them.
 
 [![WebSocket messages](https://assets.postman.com/postman-docs/websocket-messages.jpg)](https://assets.postman.com/postman-docs/websocket-messages.jpg)
 
@@ -59,7 +60,7 @@ Above the message display are the following controls:
 
 The following are displayed for each message:
 
-* If you hover over a message, a check box is displayed. Select the check boxes for two messages, and the time difference between the messages will be displayed. Click **deselect** to remove the time display.
+* If you hover over a message, a check box is displayed. Select the check boxes for two messages, and the time difference between the messages will be displayed. Click **Deselect** to remove the time display.
   [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Click **>** to expand a message, or **v** to collapse it.
 * The time is displayed, as your local time.
