@@ -24,7 +24,31 @@ Also, for every security issue, you can deep-dive into the implications and cons
 
 <img alt="API Schema workflow" src="https://assets.postman.com/postman-docs/api-schema-workflow.jpg/">
 
-## Next steps
+## Security Rulesets
 
-* [Writing API documentation](/docs/publishing-your-api/authoring-your-documentation/)
-* [Generating collections from the API](/docs/designing-and-developing-your-api/the-api-workflow/)
+### Rule 1: Global security field is not defined
+
+Security property should be defined in the schema.
+
+|  Rule violation example |
+    openapi: 3.0.0
+    info:
+    paths:
+
+Correct example
+
+openapi: 3.0.0
+info:
+paths:
+security:
+    - testAuth : []
+
+### Rule 2: Security field does not contains array
+
+### Rule 3: Security field contains an empty array
+
+### Rule 4: Security field contains an empty security requirement
+
+### Rule 5: Security field of the operation contains an empty array
+
+## Next steps
