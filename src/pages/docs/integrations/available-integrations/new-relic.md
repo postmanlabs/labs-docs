@@ -79,7 +79,7 @@ The following metrics and their values are pushed from Postman to New Relic. Run
 
 There are several attributes can be used as dimensions when viewing metrics in New Relic. For example, you could add `monitor.name` or `user.name` to show separate lines for the monitor or user shown in the graph. The following example pivots latency data with regions:
 
-[![New Relic filters](https://assets.postman.com/postman-docs/new-relic-query.jpg)](/new-relic-query.jpg)
+[![New Relic filters](https://assets.postman.com/postman-docs/new-relic-query.jpg)](https://assets.postman.com/postman-docs/new-relic-query.jpg)
 
 The following attributes can be used as dimensions:
 
