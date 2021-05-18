@@ -1,6 +1,6 @@
 import React from 'react';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
-import uuidv4 from 'uuid/v4';
+import { v4 as uuidv4 } from 'uuid';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import '../../styles/config/_pm-icons.css';
