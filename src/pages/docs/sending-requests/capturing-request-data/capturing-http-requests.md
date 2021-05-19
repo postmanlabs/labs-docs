@@ -36,7 +36,7 @@ If you are using APIs to build client-side applications - mobile apps, websites 
 You can capture the HTTP requests using the following two ways:
 
 * [Built-in proxy](#built-in-proxy)
-* [Interceptor](#interceptor)
+* [Interceptor](#use-interceptor-to-capture-requests)
 
 ## Built-in proxy
 
