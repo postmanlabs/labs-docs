@@ -9,7 +9,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Imgur"
-    url: "https://www.postman.com/resources/case-studies/imgur/"
+    url: "https://www.postman.com/customers/imgur/"
   - type: section
     name: "Next Steps"
   - type: link

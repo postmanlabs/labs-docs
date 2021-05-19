@@ -74,6 +74,14 @@ If you would like to add, edit or replace images you are welcome to do so. There
 * You can upload the image to your GitHub Pull-Request and link the image
 * You can host the image and link to your own hosted image
 
+**Note**:
+
+Images hosted by Postman should always be referenced as follows:
+
+``` bash
+https://assets.postman.com/postman-docs/<filename>.png
+```
+
 ## Adding/Editing Codeblocks
 
 If you would like to add, edit or replace Markdown code blocks you are welcome to do so. There are two things in which you need to know:
@@ -100,14 +108,6 @@ If you would like to add, edit or replace Markdown code blocks you are welcome t
 ```
 
 For a list of supported languages by Prism syntax highlighter, [read more](https://lucidar.me/en/web-dev/list-of-supported-languages-by-prism/). When in doubt, use `text`, `bash` or `shell` to keep the code block from interfering.
-
-**Note**:
-
-Images hosted by Postman should always be referenced as follows:
-
-``` bash
-https://assets.postman.com/postman-docs/<filename>.png
-```
 
 ## Algolia
 

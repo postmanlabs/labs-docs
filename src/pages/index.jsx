@@ -1,6 +1,6 @@
 import React from 'react';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
-import uuidv4 from 'uuid/v4';
+import { v4 as uuidv4 } from 'uuid';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import '../../styles/config/_pm-icons.css';
@@ -164,7 +164,7 @@ class IndexPage extends React.Component {
         {/* Livestream Section */}
         <section className="row section">
           <div className="col-md-12 text-center mb-3">
-            <h2>Upcoming Postman Livestreams</h2>
+            <h2 id="upcoming-livestreams">Upcoming Postman Livestreams</h2>
             <p>
               <a href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
                 Follow us
