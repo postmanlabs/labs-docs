@@ -5,7 +5,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import React from 'react';
 import './LeftNav.scss';
 
-const uuidv4 = require('uuid/v4');
+const { v4: uuidv4 } = require('uuid');
 const replacements = require('./replacements.json');
 
 let slugs;

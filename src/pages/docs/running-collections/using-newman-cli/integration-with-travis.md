@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Sikka"
-    url: "https://www.postman.com/resources/case-studies/sikka/"
+    url: "https://www.postman.com/customers/sikka/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
