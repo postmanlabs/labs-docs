@@ -1,6 +1,6 @@
 ---
 title: "Making SOAP requests"
-order: 39
+order: 38
 page_id: "making_soap_requests"
 contextual_links:
   - type: section
