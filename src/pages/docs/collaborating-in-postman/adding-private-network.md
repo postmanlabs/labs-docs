@@ -124,7 +124,7 @@ You can also review version-level details on the right. All available versions a
 
 <img alt="Published to network" src="https://assets.postman.com/postman-docs/private-api-high-level-overview-v8.jpg"/>
 
-**Add to Private API Network** will display if you haven't yet added the API to the private network.
+**Add to Private API Network** will display if you haven't added the API to the private network.
 
 <img alt="Add to Private API Network" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v8.jpg"/>
 
