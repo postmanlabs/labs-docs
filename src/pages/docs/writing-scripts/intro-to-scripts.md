@@ -18,7 +18,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Giant Machines"
-    url: "https://www.postman.com/resources/case-studies/giant-machines/"
+    url: "https://www.postman.com/customers/giant-machines/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

@@ -5,7 +5,7 @@ import algoliasearch from 'algoliasearch/lite';
 import {
   InstantSearch, SearchBox, Hits, Configure, Pagination,
 } from 'react-instantsearch-dom';
-import uuidv4 from 'uuid/v4';
+import { v4 as uuidv4 } from 'uuid';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 
 import DynamicLink from '../Shared/DynamicLink';
