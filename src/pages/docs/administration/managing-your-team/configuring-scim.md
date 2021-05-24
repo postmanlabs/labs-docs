@@ -18,7 +18,7 @@ contextual_links:
 
 Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), allowing you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it via your identity provider.
 
-You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users will not have the option to leave your team on their own, and will not be able to change their account email or password . Only team admins will have the right to remove team members.
+You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users will not have the option to leave your team on their own, and will not be able to change their account email or password. Only team admins will have the right to remove team members.
 
 ## Contents
 
@@ -38,7 +38,7 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 
 Postman supports the following provisioning features:
 
-* Create user: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user, provided an account with the same email ID does not already exist in Postman. If an account with the same email ID does exist, an [email invite](https://learning.postman.com/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
+* Create user: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user. If an account with the same email ID exists, an [email invite](https://learning.postman.com/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
 
 > The newly added user will have the developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
 
@@ -50,7 +50,7 @@ Postman supports the following provisioning features:
 
 > The user account and the data corresponding to it will not be deleted. To permanently delete the user account and their data, [contact Postman support](https://www.postman.com/support/).
 
-* Reactivate user: Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back on to your Postman team.
+* Reactivate user: Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back to your Postman team.
 
 ## Enabling SCIM provisioning
 
@@ -63,7 +63,7 @@ You must have SSO configured prior to enabling SCIM for your Postman team.
 
 ### Enabling SCIM in Postman
 
-To enable SCIM, navigate to [Postman](https://go.postman.co/home) and select **Team** in the upper-right > **Team Settings**. Select **Authentication** in the left sidebar.
+To enable SCIM, navigate to [Postman](https://go.postman.co/home) and select **Team** > **Team Settings** in the upper-right. Select **Authentication** in the left sidebar.
 
 <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/auth-enable-scim-1.jpg"/>
 
