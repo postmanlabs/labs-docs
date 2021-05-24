@@ -77,7 +77,7 @@ Click **Turn On** to enable SCIM provisioning.
 
 Under **SCIM provisioning**, select **Generate SCIM API Key**.
 
-<img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/generate-scim-api-key.jpg"/>
+<img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/auth-generate-scim-api-key-1.jpg"/>
 
 Name your key and click **Generate**. Copy your new API key for later use and click **Done**.
 
