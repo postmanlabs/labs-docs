@@ -38,7 +38,7 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 
 Postman supports the following provisioning features:
 
-* Create user: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user, provided an account with the same email ID does not already exist in Postman.
+* Create user: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user, provided an account with the same email ID does not already exist in Postman. If an account with the same email ID does exist, an [email invite](https://learning.postman.com/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
 
 > The newly added user will have the developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
 
