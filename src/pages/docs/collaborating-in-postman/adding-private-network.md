@@ -33,7 +33,7 @@ Share the APIs that your team uses internally to the Private API Network. Your t
 
 If you're logged in, go to **Home** in the upper-left of Postman > click **Private API Network** in the left navigation bar. This will take you directly to your team's [Private API Network](https://www.postman.com/network/private).
 
-<img alt="Private API Network GIF" src="https://assets.postman.com/postman-docs/private-api-network-home-v8.gif"/>
+<img alt="Private API Network GIF" src="https://assets.postman.com/postman-docs/private-api-network-home-page-v8.gif"/>
 
 > In order to add your API to the network, it must be in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/). You can only add APIs, not collections, to the Private API Network.
 
@@ -68,7 +68,7 @@ The API will immediately be visible in your team's [Private API Network](https:/
 
 ![Listing APIs in Private API Network](https://assets.postman.com/postman-docs/private-api-network-listing-v8.gif)
 
-You can also add an API to your team's Private API Network from the Postman app. Go to the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) via **APIs** in the left sidebar. Select an API, and see a high-level description on the first tab **Overview**. You can add and edit your network listing next to the version details on the right.
+You can also add an API to your team's Private API Network from Postman. Go to the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) via **APIs** in the left sidebar. Select an API, and see a high-level description on the **Overview** tab. You can **Edit Private API Network listing** next to the version details on the right.
 
 ![Edit private api network listing](https://assets.postman.com/postman-docs/edit-private-api-network-listing-v8.jpg)
 
@@ -90,23 +90,23 @@ Once you've created the folder, click __Add New__ and select __APIs__ to add API
 
 <img alt="Add APIs Workspace" src="https://assets.postman.com/postman-docs/add-apis-workspace.jpg" width="400px"/>
 
-To edit the API setting, click __Edit Network Listing__.
+To edit the API setting, click __Edit Network Listing__ icon.
 
-<img alt="Edit Network Listing" src="https://assets.postman.com/postman-docs/edit-network-listing-v8.jpg" width="500px"/>
+<img alt="Edit Network Listing" src="https://assets.postman.com/postman-docs/edit-network-listing-v8.jpg"/>
 
 You can change the versions, update the API summary and even modify the folder to which the API should be added.
 
 <img alt="Edit Summary 2" src="https://assets.postman.com/postman-docs/edit-api-summary-2.jpg" width="400px"/>
 
-You can also remove the added APIs from Postman's API Network. Click `...` next to the API you would like to remove, then select __Remove from network__. Once you click __Remove API__, your team members will also lose access to the API via the network.
+You can also remove the added APIs from Postman's API Network. Click the trash icon next to the API you would like to remove from network. Once you click __Remove API__, your team members will also lose access to the API via the network.
 
 <img alt="Remove API fom Network" src="https://assets.postman.com/postman-docs/remove-from-private-network-v8.jpg"/>
 
 The sidebar navigation displays the folder structure for your Private API Network. You can also drag and drop the APIs and subfolders to different folders.
 
-<img alt="Sidebar Navigation" src="https://assets.postman.com/postman-docs/sidenav-api-v8.jpg" width="400px"/>
+<img alt="Sidebar Navigation" src="https://assets.postman.com/postman-docs/sidebar-navigation-v8.jpg" width="400px"/>
 
-You can use the search box to search across folders, subfolders, and APIs in your Private API Network. You can also filter the folders, subfolders, and APIs based on name, recently added, and popularity.
+> You can use the search box to search across folders, subfolders, and APIs in your Private API Network. You can also filter the folders, subfolders, and APIs based on name and recently added.
 
 ## Discovering and consuming private APIs
 
@@ -120,7 +120,7 @@ Under your team name, you can browse a directory of APIs shared within your team
 
 You can review information about the API and the description. Click **Open Schema** to edit the schema or make changes to the API directly. You can see team collaborators and activities like recently added collections associated with this API.
 
-You can also review version-level details on the right. Next to Versions, you can **Edit network listing**. All available versions are listed below, with an indicator of the active version as well as the version(s) listed to the network.
+You can also review version-level details on the right. All available versions are listed below, with an indicator of the active version as well as the version(s) listed to the network.
 
 <img alt="Published to network" src="https://assets.postman.com/postman-docs/private-api-high-level-overview-v8.jpg"/>
 
