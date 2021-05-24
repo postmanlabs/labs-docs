@@ -29,86 +29,157 @@ Also, for every security issue, you can deep-dive into the implications and cons
 
 #### 1. Global security field is not defined
 
-You will get an error message stating "Security property should be defined in the schema."
+Global security field specifies if your API requires the API consumer to authenticate to use the API. You should define the security property in the schema. If you do not define the global security field, then you will get an error message stating "**Security property is not defined.**"
+
+| Severity | Possible fix |
+| ----------- | ----------- |
+| High | Security property should be defined in the schema |
 
 #### 2. Security field does not contains array
 
-You will get an error message stating "Security property value should be of type array."
+If the security field does not contain an array, you will get an error message stating "**Security property is not an array.**"
+
+| Severity | Possible fix |
+| ----------- | ----------- |
+| High | Security property value should be of type array |
 
 #### 3. Security field contains an empty array
 
-You will get an error message stating "Security property should contain at least 1 item."
+| Severity | Possible fix |
+| ----------- | ----------- |
+| High | Security property should contain at least 1 item in the array |
+
+**Description:**
+The security field of your API contract does not list any security schemes to be applied. Instead, it just contains an empty array.
+If the security property contains an empty array, you will get an error message stating "**Security property should contain at least 1 item.**"
 
 #### 4. Security field contains an empty security requirement
+
+| Severity | Possible fix |
+| ----------- | ----------- |
+| High | Security array items should not contain empty object |
 
 You will get an error message stating "Security items should not contain an empty object."
 
 #### 5. Security field of the operation contains an empty array
 
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | Security property in any operation  should not contain an empty array |
+
 You will get an error message stating "Security property should contain at least 1 item."
 
-### 6. Security' field of the operation contains an empty security requirement
+### 6. Security field of the operation contains an empty security requirement
 
-You will get an error message stating "Security items should not contain an empty object."
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | Items of security property in any operation  should not contain an empty object |
+
+**Description:**
+When one or more of the objects defined in the security field of the operation contain an empty security requirement, you will get an error message stating **"Security items should not contain an empty object."** The security field specifies what kind of authentication your API operation requires. An empty requirement in the security field disables the authentication completely.
 
 #### 7. Security field of the operation is not defined
 
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | Security property in any operation  should be defined |
+
 You will get an error message stating "Security property should be defined in the schema."
 
+<img alt="security field of operation not defined" src="https://assets.postman.com/postman-docs/api-schema-workflow.jpg/">
+
 #### 8. Access tokens transported as cleartext
+
+| Severity | Possible fix |
+| ----------- | ----------- |
+| High | Security property should be defined in the schema |
 
 You will get an error message stating "Server url should not contain http: because access token should not be transported over an unencrypted network."
 
 #### 9. Credentials sent as cleartext
 
+| Severity | Possible fix |
+| ----------- | ----------- |
+| High | Security property should be defined in the schema |
+
 You will get an error message stating "Server url should not contain http: because credentials should not be transported over an unencrypted network."
 
 #### 10: Operation accepts access tokens transported as cleartext
 
-You will get an error message stating ""
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | -- |
 
 #### 11: Operation accepts credentials sent as cleartext
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | -- |
 
 #### 12: Reusable security scheme is not defined
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| High | Security schemes should be defined in the components schema |
+
+<img alt="global security field not defined" src="https://assets.postman.com/postman-docs/api-schema-workflow.jpg/">
 
 #### 13: Sending credentials as cleartext allowed
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| High | -- |
 
 #### 14: Transporting access tokens as cleartext allowed
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | -- |
 
 #### 15: Transporting credentials over the network allowed
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Low | Security property should be defined in the schema |
 
 #### 16: Authorization URL of the OAuth2 security scheme is not a proper URL
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | Authorization URL should be a valid URL |
+
+<img alt="global security field not defined" src="https://assets.postman.com/postman-docs/api-schema-workflow.jpg/">
 
 #### 17: OAuth2 security requirement of the operation requires a scope not declared in the referenced security scheme
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Low | -- |
+
+<img alt="global security field not defined" src="https://assets.postman.com/postman-docs/api-schema-workflow.jpg/">
 
 #### 18: OAuth2 security requirement requires a scope not declared in the referenced security scheme
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Low | -- |
 
 #### 19: Token URL of the OAuth2 security scheme is not a proper URL
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | -- |
 
 #### 20: API accepts HTTP requests in the clear
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | -- |
 
 #### 21: Operation accepts HTTP requests in the clear
 
-You will get an error message stating
+| Severity | Possible fix |
+| ----------- | ----------- |
+| Medium | -- |
 
 ## Next steps
