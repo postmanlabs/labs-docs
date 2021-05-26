@@ -15,7 +15,7 @@ contextual_links:
 
 With API Schemas, you will be able to catch security blindspots and misses at the API definition stage of API development. In Postman, you can [validate your API schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/) for syntax, Postman will highlight these security misses and help you understand its implications and possible ways to patch these misses.
 
-We highly recommend you to follow "Security Rulesets" during the API definition stage. This rule set contains rules which can be used to govern the security posture of any API definition in the format OpenAPI 3.0 that is stored in Postman.
+We highly recommend you to follow "Security Rulesets" at the API definition stage. These set of rules can be used to govern the security posture of any API definition in the OpenAPI 3.0 format that is stored in Postman.
 
 You will be able to use Postman to identify any potential security misses when your API is defined.
 
@@ -27,40 +27,40 @@ Also, for every security issue, you can deep-dive into the implications and cons
 
 ### Security Rulesets
 
-We will breakdown the security rulesets into four categories:
+We will breakdown the security rulesets into six categories:
 
-* [Security](#security-rulesets)
-* [Path](#path-rulesets)
-* [Servers](#servers-rulesets)
-* [Components](#component)
-    * [Security Schemas](#security-schemes)
-    * [OAuth2 security](#security-schemes)
+* [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
+* [Reusable security schemes are not defined within components](#reusable-security-schemes-are-not-defined-within-components)
+* [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
+* [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
+* [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
+* [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
 
-#### Rule 1. Global security field should properly enforce security
+#### Global security field should properly enforce security
 
-##### 1.1 Global security field is not defined
+##### Global security field is not defined
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | Security property should be defined in the schema |
+| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | Security property should be defined in the schema. |
 
-##### 1.2 Security field does not contain an array
+##### Security field does not contain an array
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | An empty object in the security field disables the authentication completely. Anyone can access the operations that do not have a security field defined, without any authentication. | Security property value should be of type array |
+| High | An empty object in the security field disables the authentication completely. Anyone can access the operations that do not have a security field defined, without any authentication. | Security property value should be of type array. |
 
-##### 1.3 Security field contains an empty array
+##### Security field contains an empty array
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | This means that no security scheme is applied to all the API operations by default. | Security property should contain at least 1 item in the array |
+| High | This means that no security scheme is applied to all the API operations by default. | Security property should contain at least 1 item in the array. |
 
-##### 1.4 Security' field contains an empty security requirement
+##### Security' field contains an empty security requirement
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | An empty object in the security field disables the authentication completely. Anyone can access the API operation without any authentication. | Security array items should not contain empty object |
+| High | An empty object in the security field disables the authentication completely. Anyone can access the API operation without any authentication. | Security array items should not contain an empty object. |
 
 #### Resolution
 
@@ -74,11 +74,11 @@ security:
     - testAuth : []
 ```
 
-#### Rule 2. Reusable Security Schemes are not defined within components
+#### Reusable Security Schemes are not defined within components
 
-##### 2.1 Reusable security scheme is not defined.
+##### Reusable security scheme is not defined.
 
-| Severity | Description | Possible fix |
+| Severity | description | Possible fix |
 | ----------- | ----------- | ----------- |
 | High | Without any reusable security schemes, your API does not globally specify any authentication method for consuming the API operations. This means that anyone can use API operations as long as they know the URLs of the operations and how to invoke them. | **securitySchemes** should be defined in the schema of the component. |
 
@@ -92,25 +92,25 @@ components:
   securitySchemes: {}
 ```
 
-#### Rule 3. Security field for an individual operation should properly enforce security
+#### Security field for an individual operation should properly enforce security
 
-##### 3.1 Operations security' field contains an empty array of security schemes
+##### Operations security' field contains an empty array of security schemes
 
-| Severity | Description | Possible fix |
+| Severity | description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | This means that no security scheme is applied to the API operation by default. | Security property in any operation should contain an empty array |
+| Medium | This means that no security scheme is applied to the API operation by default. | Security property in any operation should contain an empty array. |
 
 You will get an error message stating "Security property should contain at least 1 item."
 
-##### 3.2 Operations security' field contains an empty object of security schemes
+##### Operations security' field contains an empty object of security schemes
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | An empty object in the security field disables the authentication completely for the operation. Anyone can access the API operation without any authentication. | Items of security property in any operation  should not contain an empty object |
+| Medium | An empty object in the security field disables the authentication completely for the operation. Anyone can access the API operation without any authentication. | Items of security property in any operation should not contain an empty object. |
 
-##### 3.3 Operations security' field not defined
+##### Operations security' field not defined
 
-| Severity | Issue Description |
+| Severity | Issue description |
 | ----------- | ----------- |
 | Medium |  If both the global security field and operation’s security field are not defined then anyone can access the API without any authentication. |
 
@@ -127,25 +127,23 @@ Within the global security field, ensure to define the schema in the following m
           - testAuth : []
 ```
 
-#### Rule 4. Global server configuration allows insecure enforcement of security schemes
+#### Global server configuration allows insecure enforcement of security schemes
 
-##### 8. Access tokens transported as cleartext
+##### Access tokens transported as cleartext
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public WiFi network. | If **securitySchema** in the components has a schema that has type **OAuth2** or **openIdConnect**, then the server URL should be HTTPS |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public WiFi network. | If `securitySchema` in the components has a schema that has type `OAuth2` or `openIdConnect`, then the server URL should be HTTPS |
 
-You will get an error message stating "Server url should not contain http: because access token should not be transported over an unencrypted network."
+##### Credentials sent as cleartext
 
-##### 9. Credentials sent as cleartext
-
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public WiFi network. | When **securitySchema** in the components has a schema that has type **HTTP** or **apikey**, then the server URL should be `HTTPS`. |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public WiFi network. | When `securitySchema` in the components has a schema that has type `HTTP` or `apikey`, then the server URL should be `HTTPS`. |
 
-##### 20: API accepts HTTP requests in the clear
+##### API accepts HTTP requests in the clear
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
 | Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | -- |
 
@@ -169,23 +167,23 @@ security:
       - read
 ```
 
-#### Rule 5: Operations' server configuration allows insecure enforcement of security schemes
+#### Operations server configuration allows insecure enforcement of security schemes
 
-##### 5.1: Operation accepts access tokens transported as cleartext
+##### Operation accepts access tokens transported as cleartext
 
-| Severity | Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | When **securitySchema** in components has a schema that has type `oauth2` or `openIdConnect`, then the server URL in the operation should be `HTTPS`. |
+| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | When `securitySchema` in components has a schema that has type `oauth2` or `openIdConnect`, then the server URL in the operation should be `HTTPS`. |
 
-##### 5.2: Operation accepts credentials sent as cleartext
+##### Operation accepts credentials sent as cleartext
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | When **securitySchema** in components has a schema that has type `HTTP` or `apikey`, then the server URL in the operation should be `HTTPS`. |
+| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | When `securitySchema` in components has a schema that has type `HTTP` or `apikey`, then the server URL in the operation should be `HTTPS`. |
 
-##### 5.3: Operation accepts HTTP requests in the clear (extended check)
+##### Operation accepts HTTP requests in the clear
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
 | Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | -- |
 
@@ -207,31 +205,31 @@ paths:
         description: API server
 ```
 
-#### Rule 6: Security scheme configuration allows loopholes for credential leaks
+#### Security scheme configuration allows loopholes for credential leaks
 
-#### 6.1: The authorization URL of the OAuth2 security scheme is not proper
+##### The authorization URL of the OAuth2 security scheme is not proper
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
 | Medium | The server accepts the credentials over an unencrypted network. Anyone listening to the network traffic while the calls are being made can intercept them. | Authorization URL should be a valid URL |
 
-#### 6.2: OAuth2 security requirement of the operation requires a scope not declared in the referenced security scheme // Scope of security Scheme declared but not used
+##### OAuth2 security requirement of the operation requires a scope not declared in the referenced security scheme (or) Scope of security Scheme declared but not used
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | The Oauth scopes defined in the securitySchemes field should be defined in the  security field of the operation. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. |
+| Low | The Oauth scopes defined in the securitySchemes field should be defined in the  security field of the operation. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | -- |
 
-#### 6.3: OAuth2 security requirement requires a scope not declared in the referenced security scheme // Scope of security Scheme not declared but used
+##### OAuth2 security requirement requires a scope not declared in the referenced security scheme (or) Scope of security Scheme not declared but used
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | The `Oauth` scopes defined in the `securitySchemes` field should be defined in the global `security` field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. |
+| Low | The `Oauth` scopes defined in the `securitySchemes` field should be defined in the global `security` field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | -- |
 
-#### 6.4: Token URL of the OAuth2 security scheme is not a proper URL // Token url of security scheme is not proper
+##### Token URL of the OAuth2 security scheme is not a proper URL // Token url of security scheme is not proper
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. |
+| Medium | Tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | -- |
 
 #### Resolution
 
@@ -263,20 +261,20 @@ components:
 
 ##### 13: Sending credentials as cleartext allowed
 
-| Severity | Issue Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | If we use the server that supports HTTP connection with the security schemes having a type such as http or apikey will send the credentials over an unencrypted network. Anyone can intercept these credentials and use them to exploit the server. |
+| High | If we use the server that supports HTTP connection with the security schemes having a type such as http or apikey will send the credentials over an unencrypted network. Anyone can intercept these credentials and use them to exploit the server. | -- |
 
 #### 14: Transporting access tokens as cleartext allowed
 
-| Severity | Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | If we use the server that supports HTTP connection with the security schemes having a type such as OAuth or openIdConnect will send the access token over an unencrypted network. Anyone can intercept the access token and use it to exploit the server. |
+| Medium | If we use the server that supports HTTP connection with the security schemes having a type such as OAuth or openIdConnect will send the access token over an unencrypted network. Anyone can intercept the access token and use it to exploit the server. | -- |
 
 #### 15: Transporting credentials over the network allowed
 
-| Severity | Description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | Security property should be defined in the schema |
+| Low | -- | When `securitySchemes` has an HTTP scheme then the server URL should be `HTTPS:` only. |
 
 ## Next steps
