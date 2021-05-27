@@ -111,7 +111,7 @@ security:
 
 #### Reusable security field is not defined
 
-| Severity | description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
 | High | Without any reusable security schemes, your API does not globally specify any authentication method for consuming the API operations. This means that anyone can use API operations as long as they know the URLs of the operations and how to invoke them. | Security schemes should be defined in the schema of the component. |
 
@@ -124,7 +124,7 @@ components:
 
 #### Security field for the operation does not contain any item
 
-| Severity | description | Possible fix |
+| Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
 | Medium | This means that no security scheme is applied to the API operation by default. | Security property in any operation should contain at least one item in the array. |
 
