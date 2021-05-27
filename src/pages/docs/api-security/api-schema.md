@@ -23,7 +23,7 @@ You will be able to use Postman to identify any potential security misses when y
 
 Also, for every security issue, you can deep-dive into the implications and consequences of leaving the security issue unpatched and the steps that needs to be taken in order to patch this issue.
 
-<img alt="API Schema workflow" src="https://assets.postman.com/postman-docs/api-schema-security-implication-workflow.jpg" width="500px"/>
+<img alt="API Schema workflow" src="https://assets.postman.com/postman-docs/api-schema-security-implication-workflow.jpg">
 
 ### Security Rulesets
 
