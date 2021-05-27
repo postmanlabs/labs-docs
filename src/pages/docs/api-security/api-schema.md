@@ -27,7 +27,7 @@ Also, for every security issue, you can deep-dive into the implications and cons
 
 ### Security Rulesets
 
-We will breakdown the security rulesets into six categories:
+We will breakdown the security rule sets into six categories:
 
 * [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
 * [Reusable security schemes are not defined within components](#reusable-security-schemes-are-not-defined-within-components)
@@ -124,23 +124,22 @@ Within the global security field, ensure to define the schema in the following m
 
 #### Global server configuration allows insecure enforcement of security schemes
 
-##### Access tokens transported as cleartext
+##### Server URL uses http protocol. Access tokens will be  transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public WiFi network. | If `securitySchema` in the components has a schema that has type `OAuth2` or `openIdConnect`, then the server URL should be HTTPS |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public WiFi network. | Make sure the URL uses HTTPS protocol. |
 
-##### Credentials sent as cleartext
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public WiFi network. | When `securitySchema` in the components has a schema that has type `HTTP` or `apikey`, then the server URL should be `HTTPS`. |
-
-##### API accepts HTTP requests in the clear
+##### Server URL is using http protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | -- |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public WiFi network. | Make sure the URL uses HTTPS protocol. |
+##### URL uses HTTP protocol
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure the URL uses HTTPS protocol. |
 
 #### Resolution:
 
@@ -164,23 +163,23 @@ security:
 
 #### Operations server configuration allows insecure enforcement of security schemes
 
-##### Operation accepts access tokens transported as cleartext
+##### Server URL is using http protocol. Access tokens will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | When `securitySchema` in components has a schema that has type `oauth2` or `openIdConnect`, then the server URL in the operation should be `HTTPS`. |
+| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL is a valid URL and follows HTTPS protocol. |
 
-##### Operation accepts credentials sent as cleartext
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | When `securitySchema` in components has a schema that has type `HTTP` or `apikey`, then the server URL in the operation should be `HTTPS`. |
-
-##### Operation accepts HTTP requests in the clear
+##### Server URL is using http protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | -- |
+| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL is a valid URL and follows HTTPS protocol. |
+
+##### URL uses http protocol
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the URL uses HTTPS protocol. |
 
 #### Resolution
 
@@ -253,22 +252,22 @@ components:
             write: write objects to your account
 ```
 
-##### 13: Sending credentials as cleartext allowed
+##### Server URL is using http protocol. Credentials will be transferred as plain text.
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | If we use the server that supports HTTP connection with the security schemes having a type such as http or apikey will send the credentials over an unencrypted network. Anyone can intercept these credentials and use them to exploit the server. | -- |
+| High | If we use the server that supports HTTP connection with the security schemes having a type such as http or apikey will send the credentials over an unencrypted network. Anyone can intercept these credentials and use them to exploit the server. | Make sure the URL uses HTTPS protocol. |
 
-#### 14: Transporting access tokens as cleartext allowed
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | If we use the server that supports HTTP connection with the security schemes having a type such as OAuth or openIdConnect will send the access token over an unencrypted network. Anyone can intercept the access token and use it to exploit the server. | -- |
-
-#### 15: Transporting credentials over the network allowed
+#### Server URL is using http protocol. Access tokens will be transferred as plain text.
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | -- | When `securitySchemes` has an HTTP scheme then the server URL should be `HTTPS:` only. |
+| Medium | If we use the server that supports HTTP connection with the security schemes having a type such as OAuth or openIdConnect will send the access token over an unencrypted network. Anyone can intercept the access token and use it to exploit the server. | Make sure the URL uses HTTPS protocol. |
+
+#### Server URL uses http protocol. Credentials will be transferred as plain text.
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | -- | When `securitySchemes` has an HTTP scheme then the server URL should be `HTTPS:` only. | Make sure the URL uses HTTPS protocol. |
 
 ## Next steps
