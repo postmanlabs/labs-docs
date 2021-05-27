@@ -13,7 +13,7 @@ contextual_links:
 
 ---
 
-With API Schemas, you will be able to catch security blindspots and misses at the API definition stage of API development. In Postman, you can [validate your API schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/) for syntax, Postman will highlight these security misses and help you understand its implications and possible ways to patch these misses.
+With API Schemas, you will be able to catch security blindspots and misses at the API definition stage of API development. In Postman, you can [validate your API schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/) for syntax, Postman will highlight these security misses and help you understand its implications and possible ways to patch these misses..
 
 We highly recommend you to follow "Security Rulesets" at the API definition stage. These set of rules can be used to govern the security posture of any API definition in the OpenAPI 3.0 format that is stored in Postman.
 
@@ -38,25 +38,25 @@ We will breakdown the security rulesets into six categories:
 
 #### Global security field should properly enforce security
 
-##### Global security field is not defined
+##### Security field is not defined
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
 | High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | Security property should be defined in the schema. |
 
-##### Security field does not contain an array
+##### Security field is not an array
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
 | High | An empty object in the security field disables the authentication completely. Anyone can access the operations that do not have a security field defined, without any authentication. | Security property value should be of type array. |
 
-##### Security field contains an empty array
+##### Security field does not contain any item
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | This means that no security scheme is applied to all the API operations by default. | Security property should contain at least 1 item in the array. |
+| High | This means that no security scheme is applied to all the API operations by default. | Security property should contain at least one item in the array. |
 
-##### Security' field contains an empty security requirement
+##### Security field does not contain any scheme
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
@@ -76,11 +76,11 @@ security:
 
 #### Reusable Security Schemes are not defined within components
 
-##### Reusable security scheme is not defined.
+##### Security field is not defined
 
 | Severity | description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | Without any reusable security schemes, your API does not globally specify any authentication method for consuming the API operations. This means that anyone can use API operations as long as they know the URLs of the operations and how to invoke them. | **securitySchemes** should be defined in the schema of the component. |
+| High | Without any reusable security schemes, your API does not globally specify any authentication method for consuming the API operations. This means that anyone can use API operations as long as they know the URLs of the operations and how to invoke them. | Security schemes should be defined in the schema of the component. |
 
 #### Resolution:
 
@@ -94,26 +94,21 @@ components:
 
 #### Security field for an individual operation should properly enforce security
 
-##### Operations security' field contains an empty array of security schemes
+##### Security field for the operation does not contain any item
 
 | Severity | description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | This means that no security scheme is applied to the API operation by default. | Security property in any operation should contain an empty array. |
-
-You will get an error message stating "Security property should contain at least 1 item."
-
-##### Operations security' field contains an empty object of security schemes
+| Medium | This means that no security scheme is applied to the API operation by default. | Security property in any operation should contain at least one item in the array. |
+##### Security field for the operation does not contain any scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | An empty object in the security field disables the authentication completely for the operation. Anyone can access the API operation without any authentication. | Items of security property in any operation should not contain an empty object. |
+| Medium | An empty object in the security field disables the authentication completely for the operation. Anyone can access the API operation without any authentication. | Specify at least one security requirement in the operation. |
+##### Security field is missing for the operation schema
 
-##### Operations security' field not defined
-
-| Severity | Issue description |
-| ----------- | ----------- |
-| Medium |  If both the global security field and operation’s security field are not defined then anyone can access the API without any authentication. |
-
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium |  If both the global security field and operation’s security field are not defined then anyone can access the API without any authentication. | Define security property in the operation. |
 ##### Resolution:
 
 Within the global security field, ensure to define the schema in the following manner:
@@ -206,30 +201,29 @@ paths:
 ```
 
 #### Security scheme configuration allows loopholes for credential leaks
-
-##### The authorization URL of the OAuth2 security scheme is not proper
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The server accepts the credentials over an unencrypted network. Anyone listening to the network traffic while the calls are being made can intercept them. | Authorization URL should be a valid URL |
-
-##### OAuth2 security requirement of the operation requires a scope not declared in the referenced security scheme (or) Scope of security Scheme declared but not used
+##### Authorization URL uses http protocol and not a valid uri-reference
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | The Oauth scopes defined in the securitySchemes field should be defined in the  security field of the operation. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | -- |
+| Medium | The server accepts the credentials over an unencrypted network. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the authorization URL is a valid URL and follows HTTPS protocol. |
 
-##### OAuth2 security requirement requires a scope not declared in the referenced security scheme (or) Scope of security Scheme not declared but used
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | The `Oauth` scopes defined in the `securitySchemes` field should be defined in the global `security` field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | -- |
-
-##### Token URL of the OAuth2 security scheme is not a proper URL // Token url of security scheme is not proper
+##### In OAuth2 scheme the scope is missing from the operations's security scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | -- |
+| Low | The OAuth2 scopes defined in the security schemes field should be defined in the security field of the operation. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
+
+##### In OAuth2 scheme the scope is missing from the security field
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | The OAuth2 scopes defined in the security schemes field should be defined in the global `security` field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
+
+##### Token URL uses http protocol and not a valid uri-reference
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | Tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the token URL is a valid URL and follows HTTPS protocol. |
 
 #### Resolution
 
