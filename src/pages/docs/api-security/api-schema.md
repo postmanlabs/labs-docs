@@ -205,13 +205,13 @@ security:
 servers:
   - url: https://my.api.server.com/
     description: API server
-# ...  
+# ...
 components:
   securitySchemes:
     hobaAuth:
       type: http
       scheme: hoba
-# ...   
+# ...  
 security:
   - hobaAuth: []
 ```
@@ -228,7 +228,7 @@ security:
 servers:
   - url: https://my.api.server.com/
     description: API server
-# ...  
+# ...
 components:
   securitySchemes:
     OAuth2:
@@ -310,7 +310,7 @@ get:
 
 ```yaml
 type: oauth2
-flows: 
+flows:
   implicit:
     authorizationUrl: https://test.com
 ```
@@ -378,7 +378,7 @@ components:
 
 ```yaml
 type: oauth2
-flows: 
+flows:
   implicit:
     tokenUrl: https://test.com
 ```
@@ -402,7 +402,7 @@ components:
     hobaAuth:
       type: http
       scheme: hoba
-# ...   
+# ...
 security:
   - hobaAuth: []
 ```
