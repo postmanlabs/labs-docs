@@ -27,15 +27,15 @@ contextual_links:
 
 ---
 
-Share the APIs that your team uses internally to the Private API Network. Your team can learn about and access these APIs and start using them right away.
+You can share the APIs that your team uses internally to the Private API Network. Your team can learn about and access these APIs and start using them right away.
 
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v8.jpg"/>
 
-If you're logged in, go to **Home** in the upper-left of Postman > click **Private API Network** in the left navigation bar. This will take you directly to your team's [Private API Network](https://www.postman.com/network/private).
+If you log in and go to **Home** in the upper-left of Postman > click **Private API Network** in the left navigation bar. This will take you directly to your team's [Private API Network](https://www.postman.com/network/private).
 
 <img alt="Private API Network GIF" src="https://assets.postman.com/postman-docs/private-api-network-home-page-v8.gif"/>
 
-> In order to add your API to the network, it must be in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/). You can only add APIs, not collections, to the Private API Network.
+> To add your API to the network, it must be in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/). You can only add APIs, not collections, to the Private API Network.
 
 ## Contents
 
@@ -58,7 +58,7 @@ The default view is your team's [Private API Network](https://go.postman.co/netw
 
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v8.jpg"/>
 
-In the modal, choose the workspace containing the API you want to add to the network. You can select as many APIs to add to the network at one time. For each API selected, specify the version(s) to add. Click **Next** and select the folder to add the APIs to. Click **Add to Network**.
+In the modal, choose the workspace containing the API you want to add to the network. You can select as many APIs to add to the network at one time. For each API selected, specify the versions to add. Click **Next** and select the folder to add the APIs to. Click **Add to Network**.
 
 <img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-new-api-to-network-v8.jpg" width="500px"/>
 
@@ -86,7 +86,7 @@ You can create new folders from the Private API Network view. Click __Add New__,
 
 ![New folder in Private Network](https://assets.postman.com/postman-docs/add-new-folder-api-network-v8.jpg)
 
-Once you've created the folder, click __Add New__ and select __APIs__ to add APIs to your Team's API Network. You can choose the workspace and then select as many APIs you want to add to the network at one time. For each API selected, specify the version(s) to add. Click __Add__.
+Once you've created the folder, click __Add New__ and select __APIs__ to add APIs to your Team's API Network. You can choose the workspace and then select as many APIs you want to add to the network at one time. For each API selected, specify the versions to add. Click __Add__.
 
 <img alt="Add APIs Workspace" src="https://assets.postman.com/postman-docs/add-apis-workspace.jpg" width="400px"/>
 
@@ -94,7 +94,7 @@ To edit the API setting, click __Edit Network Listing__ icon.
 
 <img alt="Edit Network Listing" src="https://assets.postman.com/postman-docs/edit-network-listing-v8.jpg"/>
 
-You can change the versions, update the API summary and even modify the folder to which the API should be added.
+You can change the versions, update the API summary, and modify the folder to which the API should be added.
 
 <img alt="Edit Summary 2" src="https://assets.postman.com/postman-docs/edit-api-summary-2.jpg" width="400px"/>
 
@@ -120,7 +120,7 @@ Under your team name, you can browse a directory of APIs shared within your team
 
 You can review information about the API and the description. Click **Open Schema** to edit the schema or make changes to the API directly. You can see team collaborators and activities like recently added collections associated with this API.
 
-You can also review version-level details on the right. All available versions are listed below, with an indicator of the active version as well as the version(s) listed to the network.
+You can also review version-level details on the right. All available versions are listed below, with an indicator of the active version as well as the versions listed to the network.
 
 <img alt="Published to network" src="https://assets.postman.com/postman-docs/private-api-high-level-overview-v8.jpg"/>
 
