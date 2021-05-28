@@ -9,7 +9,7 @@ contextual_links:
   - type: link
     name: "Token scanner"
     url: "/docs/api-security/token-scanner/"
-    search_keyword: "api schema, schema validation, security ruleset, security validation"
+    search_keyword: "api schema, schema validation, api security, security validation"
 
 ---
 
@@ -21,32 +21,40 @@ You will be able to use Postman to identify any potential security misses when y
 
 <img alt="API Schema Potential Security " src="https://assets.postman.com/postman-docs/api-schema-validation.gif"/>
 
-Also, for every security issue, you can deep-dive into the implications and consequences of leaving the security issue unpatched and the steps that needs to be taken in order to patch this issue.
+Also, for every security warning that Postman supports, you can deep-dive into each warning, understand its implication and find out ways to apply patches in order to solve the grass root issue highlighted by the warning.
 
 <img alt="API Schema workflow" src="https://assets.postman.com/postman-docs/api-schema-security-implication-workflow.jpg" width="700px"/>
 
 ### Security Rulesets
 
-* [Security field is not defined](#security-field-is-not-defined)
-* [Security field is not an array](#security-field-is-not-an-array)
-* [Security field does not contain any item](#security-field-does-not-contain-any-item)
-* [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-* [Reusable security field is not defined](#reusable-security-field-is-not-defined)
-* [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
-* [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
-* [Security field is missing for the operation schema](#security-field-is-missing-for-the-operation-schema)
-* [Server URL uses HTTP protocol. Access tokens will be transferred as plain text](#server-url-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
-* [Server URL uses HTTP protocol. Credentials will be transferred as plain text](#server-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
-* [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
-* [Operation URL uses HTTP protocol. Access tokens will be transferred as plain text](#operation-url-is-using-http-protocol-access-tokens-will-be-transferred-as-plain-text)
-* [Operation URL uses HTTP protocol. Credentials will be transferred as plain text](#operation-url-is-using-http-protocol-credentials-will-be-transferred-as-plain-text)
-* [Operation URL uses HTTP protocol](#operation-url-uses-http-protocol)
-* [Authorization URL uses HTTP protocol and not a valid uri-reference](#authorization-url-uses-http-protocol-and-not-a-valid-uri-reference)
-* [In OAuth2 scheme the scope is missing from the operations's security scheme](#in-oauth2-scheme-the-scope-is-missing-from-the-operations's-security-scheme)
-* [In OAuth2 scheme the scope is missing from the security field](#in-oauth2-scheme-the-scope-is-missing-from-the-security-field)
-* [Token URL uses HTTP protocol and not a valid uri-reference](#token-url-uses-http-protocol-and-not-a-valid-uri-reference)
+* [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
+    * [Security field is not defined](#security-field-is-not-defined)
+    * [Security field is not an array](#security-field-is-not-an-array)
+    * [Security field does not contain any item](#security-field-does-not-contain-any-item)
+    * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
+* [Reusable security schemes are not defined within components](#reusable-security-schemes-are-not-defined-within-components)
+    * [Reusable security field is not defined](#reusable-security-field-is-not-defined)
+* [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
+    * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
+    * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
+    * [Security field is missing for the operation schema](#security-field-is-missing-for-the-operation-schema)
+* [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
+    * [Server URL uses HTTP protocol. Access tokens will be transferred as plain text](#server-url-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
+    * [Server URL uses HTTP protocol. Credentials will be transferred as plain text](#server-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
+    * [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
+* [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
+    * [Operation URL uses HTTP protocol. Access tokens will be transferred as plain text](#operation-url-is-using-http-protocol-access-tokens-will-be-transferred-as-plain-text)
+    * [Operation URL uses HTTP protocol. Credentials will be transferred as plain text](#operation-url-is-using-http-protocol-credentials-will-be-transferred-as-plain-text)
+    * [Operation URL uses HTTP protocol](#operation-url-uses-http-protocol)
+* [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
+    * [Authorization URL uses HTTP protocol and not a valid uri-reference](#authorization-url-uses-http-protocol-and-not-a-valid-uri-reference)
+    * [In OAuth2 scheme the scope is missing from the operations's security scheme](#in-oauth2-scheme-the-scope-is-missing-from-the-operations's-security-scheme)
+    * [In OAuth2 scheme the scope is missing from the security field](#in-oauth2-scheme-the-scope-is-missing-from-the-security-field)
+    * [Token URL uses HTTP protocol and not a valid uri-reference](#token-url-uses-http-protocol-and-not-a-valid-uri-reference)
 
-#### Security field is not defined
+## Global security field should properly enforce security
+
+### Security field is not defined
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
@@ -62,7 +70,7 @@ security:
     - testAuth : []
 ```
 
-#### Security field is not an array
+### Security field is not an array
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
@@ -77,7 +85,7 @@ paths:
 security: []
 ```
 
-#### Security field does not contain any item
+### Security field does not contain any item
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
@@ -93,7 +101,7 @@ security:
     - testAuth : []
 ```
 
-#### Security field does not contain any scheme
+### Security field does not contain any scheme
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
@@ -109,7 +117,9 @@ security:
     - testAuth : []
 ```
 
-#### Reusable security field is not defined
+## Reusable security schemes are not defined within components
+
+### Reusable security field is not defined
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -122,7 +132,9 @@ components:
   securitySchemes: {}
 ```
 
-#### Security field for the operation does not contain any item
+## Security scheme configuration allows loopholes for credential leaks
+
+### Security field for the operation does not contain any item
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -137,7 +149,7 @@ components:
           - testAuth : []
 ```
 
-#### Security field for the operation does not contain any scheme
+### Security field for the operation does not contain any scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -152,7 +164,7 @@ components:
           - testAuth : []
 ```
 
-#### Security field is missing for the operation schema
+### Security field is missing for the operation schema
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -169,7 +181,9 @@ components:
           - testAuth : []
 ```
 
-#### Server URL uses HTTP protocol. Access tokens will be transferred as plain text
+## Security field for an individual operation should properly enforce security
+
+### Server URL uses HTTP protocol. Access tokens will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -193,7 +207,7 @@ security:
       - read
 ```
 
-#### Server URL uses HTTP protocol. Credentials will be transferred as plain text
+### Server URL uses HTTP protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -216,7 +230,7 @@ security:
   - hobaAuth: []
 ```
 
-#### Server URL uses HTTP protocol
+### Server URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -240,7 +254,9 @@ security:
       - read
 ```
 
-#### Operation URL uses HTTP protocol. Access tokens will be transferred as plain text
+## Operations server configuration allows insecure enforcement of security schemes
+
+### Operation URL uses HTTP protocol. Access tokens will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -263,7 +279,7 @@ paths:
 
 ```
 
-#### Operation URL uses HTTP protocol. Credentials will be transferred as plain text
+### Operation URL uses HTTP protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -285,7 +301,7 @@ paths:
         description: API server
 ```
 
-#### Operation URL uses HTTP protocol
+### Operation URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -300,7 +316,9 @@ get:
     - url: https://test.api.com
 ```
 
-#### Authorization URL uses HTTP protocol and not a valid uri-reference
+## Global server configuration allows insecure enforcement of security schemes
+
+### Authorization URL uses HTTP protocol and not a valid uri-reference
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -315,7 +333,7 @@ flows:
     authorizationUrl: https://test.com
 ```
 
-#### In OAuth2 scheme the scope is missing from the operations's security scheme
+### In OAuth2 scheme the scope is missing from the operations's security scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -344,7 +362,7 @@ components:
             write: write objects to your account
 ```
 
-#### In OAuth2 scheme the scope is missing from the security field
+### In OAuth2 scheme the scope is missing from the security field
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -368,7 +386,7 @@ components:
             write: write objects to your account
 ```
 
-#### Token URL uses HTTP protocol and not a valid uri-reference
+### Token URL uses HTTP protocol and not a valid uri-reference
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
