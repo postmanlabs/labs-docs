@@ -31,7 +31,7 @@ You can share the APIs that your team uses internally to the Private API Network
 
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v8.jpg"/>
 
-If you log in and go to **Home** in the upper-left of Postman > click **Private API Network** in the left navigation bar. This will take you directly to your team's [Private API Network](https://www.postman.com/network/private).
+If you're logged in, go to **Home** in the upper-left of Postman, and click **Private API Network** in the left navigation bar. This will take you directly to your team's [Private API Network](https://www.postman.com/network/private).
 
 <img alt="Private API Network GIF" src="https://assets.postman.com/postman-docs/private-api-network-home-page-v8.gif"/>
 
