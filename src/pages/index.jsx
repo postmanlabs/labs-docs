@@ -153,9 +153,11 @@ class IndexPage extends React.Component {
           <div className="col-lg-8 order-lg-13">
             <div className="embed-responsive embed-responsive-16by9">
               <iframe
+                loading="lazy"
                 className="embed-responsive-item"
-                src="https://www.youtube.com/embed/7E60ZttwIpY?rel=0"
+                src="https://www.youtube-nocookie.com/embed/7E60ZttwIpY?rel=0"
                 title="Intro to Postman"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
             </div>

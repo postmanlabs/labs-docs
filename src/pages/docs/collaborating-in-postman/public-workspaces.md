@@ -17,6 +17,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Public Workspaces | The Exploratory"
+    url: "https://youtu.be/DjGbMdqnY64"	  
+  - type: link
     name: "Add Summaries and Categories on the Public API Network | Postman Level Up"
     url: "https://youtu.be/4ulU2FZMPjQ"	  
 ---

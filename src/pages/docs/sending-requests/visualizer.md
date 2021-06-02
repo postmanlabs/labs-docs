@@ -61,7 +61,7 @@ Visualizers let you present your response data in ways that help to make sense o
 
 ## Visualizing response data
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i1jU-kivApg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/i1jU-kivApg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/>
 

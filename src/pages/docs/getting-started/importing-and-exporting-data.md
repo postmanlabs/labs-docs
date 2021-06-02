@@ -72,7 +72,7 @@ You can import your data via files, folders, links, raw text, or GitHub reposito
 
 ### Importing Postman data
 
-You can import Postman data you previously exported, including collections, environments, data dumps, and globals.  
+You can import Postman data you previously exported, including collections, environments, data dumps, and globals.
 
 To import Postman data, click **Import**. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
 
@@ -203,7 +203,7 @@ You can export your environments from Postman by selecting the gear icon in the 
 
 ### Exporting data dumps
 
-You can export a data dump of all of your collections, environments, globals, and header presets in Postman. Select the wrench icon in the upper-right corner to open **Settings**. Click to open the **Data** tab, then **Download** to save the newly generated JSON file of your Postman data.
+You can export a data dump of all of your collections, environments, globals, and header presets in Postman. Select the gear icon in the upper-right corner to open **Settings**. Click to open the **Data** tab, then **Download** to save the newly generated JSON file of your Postman data.
 
 ![Export data dump](https://assets.postman.com/postman-docs/data-dump-menu-2.jpg)
 
