@@ -35,7 +35,7 @@ warning: false
 
 ## Getting to the Settings
 
-In the header of Postman, click the wrench icon and select "Settings" to open the **SETTINGS** modal. You can also use the keyboard shortcut (**CMD/CTRL + ,**) to open the modal.
+In the header of Postman, click the gear icon and select "Settings" to open the **SETTINGS** modal. You can also use the keyboard shortcut (**CMD/CTRL + ,**) to open the modal.
 
 [![Settings dropdown](https://assets.postman.com/postman-docs/overview-settings-v8.jpg)](https://assets.postman.com/postman-docs/overview-settings-v8.jpg)
 
