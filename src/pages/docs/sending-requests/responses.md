@@ -94,7 +94,7 @@ If you have __SSL verification__ enabled in the global settings and verification
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
 
-> Note that if you click __Disable SSL Verification__ you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, open __Settings__ (wrench button at the top left of Postman) and use the switch in the __General__ section. To enable it just for the current request, use the request __Settings__ tab.
+> Note that if you click __Disable SSL Verification__ you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, open __Settings__ (click the gear icon at the top right of Postman) and use the switch in the __General__ section. To enable it just for the current request, use the request __Settings__ tab.
 
 If you have __SSL verification__ turned off and your request returns a certificate verification error, you will see the detail in the __Network__ information pop-up.
 
