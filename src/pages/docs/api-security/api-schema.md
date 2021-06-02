@@ -17,6 +17,8 @@ In Postman, we highly recommend you to follow "**Security warnings**" at the API
 
 For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 
+> Security warnings are available only for OpenAPI 3.0 schemas.
+
 You will be able to use Postman to identify any potential security misses when your API is defined.
 
 <img alt="API Schema Potential Security " src="https://assets.postman.com/postman-docs/api-schema-validation.gif"/>
