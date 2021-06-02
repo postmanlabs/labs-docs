@@ -13,9 +13,9 @@ contextual_links:
 
 ---
 
-With API Schemas, you will be able to catch security blindspots and misses at the API definition stage of API development. In Postman, you can [validate your API schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/) for syntax, Postman will highlight these security misses and help you understand its implications and possible ways to patch them.
+In Postman, we highly recommend you to follow "**Security warnings**" at the API definition stage of API development. These set of warnings can be used to govern the security posture of any API definition in the OpenAPI 3.0 format. A security warning does not mean that your API schema is broken, it indicates that there are potential security risks that your APIs might be vulnerable to. Postman will highlight these security misses and help you understand its implications and possible ways to patch them.
 
-We highly recommend you to follow "Security Rulesets" at the API definition stage. These set of rules can be used to govern the security posture of any API definition in the OpenAPI 3.0 format that is stored in Postman.
+For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 
 You will be able to use Postman to identify any potential security misses when your API is defined.
 
@@ -23,33 +23,37 @@ You will be able to use Postman to identify any potential security misses when y
 
 Also, for every security warning that Postman supports, you can deep-dive into each warning, understand its implication and find out ways to apply patches in order to solve the grass root issue highlighted by the warning.
 
-<img alt="API Schema workflow" src="https://assets.postman.com/postman-docs/api-schema-security-implication-workflow.jpg" width="700px"/>
+//Add gif here
 
-### Security Rulesets
+### Security warnings
+
+The following list mentions the warning messages that you may see in the product and potential ways to resolve them.
 
 * [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
     * [Security field is not defined](#security-field-is-not-defined)
     * [Security field is not an array](#security-field-is-not-an-array)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
+    * [In OAuth2 scheme the scope is missing from the security field](#in-oauth2-scheme-the-scope-is-missing-from-the-security-field)
 * [Reusable security schemes are not defined within components](#reusable-security-schemes-are-not-defined-within-components)
     * [Reusable security field is not defined](#reusable-security-field-is-not-defined)
 * [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Security field is missing for the operation schema](#security-field-is-missing-for-the-operation-schema)
+    * [In OAuth2 scheme the scope is missing from the operations's security scheme](#in-oauth2-scheme-the-scope-is-missing-from-the-operations's-security-scheme)
 * [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Server URL uses HTTP protocol. Access tokens will be transferred as plain text](#server-url-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
     * [Server URL uses HTTP protocol. Credentials will be transferred as plain text](#server-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
+    * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
 * [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [Operation URL uses HTTP protocol. Access tokens will be transferred as plain text](#operation-url-is-using-http-protocol-access-tokens-will-be-transferred-as-plain-text)
     * [Operation URL uses HTTP protocol. Credentials will be transferred as plain text](#operation-url-is-using-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Operation URL uses HTTP protocol](#operation-url-uses-http-protocol)
+    * [Operation accepts credentials from OpenIdConnect authentication in cleartext](#operation-accepts-credentials-from-OpenIdConnect-authentication-in-cleartext)
 * [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [Authorization URL uses HTTP protocol and not a valid uri-reference](#authorization-url-uses-http-protocol-and-not-a-valid-uri-reference)
-    * [In OAuth2 scheme the scope is missing from the operations's security scheme](#in-oauth2-scheme-the-scope-is-missing-from-the-operations's-security-scheme)
-    * [In OAuth2 scheme the scope is missing from the security field](#in-oauth2-scheme-the-scope-is-missing-from-the-security-field)
     * [Token URL uses HTTP protocol and not a valid uri-reference](#token-url-uses-http-protocol-and-not-a-valid-uri-reference)
 
 ## Global security field should properly enforce security
@@ -89,7 +93,7 @@ security: []
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | This means that no security scheme is applied to all the API operations by default. | Security property should contain at least one item in the array. |
+| High | If the security field contains an empty array then it means that no security scheme is applied to the operations by default. | Security property should contain at least one item in the array. |
 
 **Resolution:**
 
@@ -101,7 +105,7 @@ security:
     - testAuth : []
 ```
 
-### Security field does not contain any scheme
+### Security field should not contain an empty scheme
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
@@ -115,6 +119,30 @@ info:
 paths:
 security:
     - testAuth : []
+```
+
+### In OAuth2 scheme the scope is missing from the security field
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | The OAuth2 scopes defined in the security schemes field should be defined in the global security field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
+
+**Resolution:**
+
+```yaml
+security:
+  - OAuth2:
+    - read
+    - write
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          scopes:
+            read: read objects in your account
+            write: write objects to your account
 ```
 
 ## Reusable security schemes are not defined within components
@@ -179,6 +207,35 @@ components:
       response:
       security:
           - testAuth : []
+```
+
+### In OAuth2 scheme the scope is missing from the operations's security scheme
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | The OAuth2 scopes defined in the security schemes field should be defined in the security field of the operation. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
+
+**Resolution:**
+
+```yaml
+paths:
+  "/user":
+    get:
+      summary: 'Sample endpoint: Returns details about a particular user'
+      operationId: listUser
+      security:
+      - OAuth2:
+        - read
+        - write
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          scopes:
+            read: read objects in your account
+            write: write objects to your account
 ```
 
 ## Security field for an individual operation should properly enforce security
@@ -254,6 +311,30 @@ security:
       - read
 ```
 
+### API accepts credentials from OpenID Connect authentication in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public WiFi network. | Make sure the server URL follows HTTPS protocol. |
+
+**Resolution**:
+
+```yaml
+servers:
+  - url: https://my.api.server.com/
+    description: API server
+# ...  
+components:
+  securitySchemes:
+    OpenIdScheme:
+      type: openIdConnect
+# ...
+security:
+  - OAuth2:
+      - write
+      - read
+```
+
 ## Operations server configuration allows insecure enforcement of security schemes
 
 ### Operation URL uses HTTP protocol. Access tokens will be transferred as plain text
@@ -316,6 +397,29 @@ get:
     - url: https://test.api.com
 ```
 
+### Operation accepts credentials from OpenID Connect authentication in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public WiFi network. | Make sure server field of the operation follows HTTPS protocol. |
+
+**Resolution**:
+
+```yaml
+components:
+  securitySchemes:
+    OpenIdScheme:
+      type: openIdConnect
+      openIdConnectUrl: https://my.api.server.com/
+paths:
+  "/pets":
+    post:
+      operationId: addPet
+      servers:
+      - url: https://my.api.server.com/
+        description: API server
+```
+
 ## Global server configuration allows insecure enforcement of security schemes
 
 ### Authorization URL uses HTTP protocol and not a valid uri-reference
@@ -333,59 +437,6 @@ flows:
     authorizationUrl: https://test.com
 ```
 
-### In OAuth2 scheme the scope is missing from the operations's security scheme
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes defined in the security schemes field should be defined in the security field of the operation. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
-
-**Resolution:**
-
-```yaml
-paths:
-  "/user":
-    get:
-      summary: 'Sample endpoint: Returns details about a particular user'
-      operationId: listUser
-      security:
-      - OAuth2:
-        - read
-        - write
-components:
-  securitySchemes:
-    OAuth2:
-      type: oauth2
-      flows:
-        authorizationCode:
-          scopes:
-            read: read objects in your account
-            write: write objects to your account
-```
-
-### In OAuth2 scheme the scope is missing from the security field
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes defined in the security schemes field should be defined in the global security field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
-
-**Resolution:**
-
-```yaml
-security:
-  - OAuth2:
-    - read
-    - write
-components:
-  securitySchemes:
-    OAuth2:
-      type: oauth2
-      flows:
-        authorizationCode:
-          scopes:
-            read: read objects in your account
-            write: write objects to your account
-```
-
 ### Token URL uses HTTP protocol and not a valid uri-reference
 
 | Severity | Issue description | Possible fix |
@@ -400,68 +451,3 @@ flows:
   implicit:
     tokenUrl: https://test.com
 ```
-
-<!---
-#### 13. Sending credentials as cleartext allowed
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | If we use the server that supports HTTP connection with the security schemes having a type such as http or apikey will send the credentials over an unencrypted network. Anyone can intercept these credentials and use them to exploit the server. | Make sure the URL uses HTTPS protocol. |
-
-**Resolution:**
-
-```yaml
-servers:
-  - url: https://my.api.server.com/
-    description: API server
-# ...  
-components:
-  securitySchemes:
-    hobaAuth:
-      type: http
-      scheme: hoba
-# ...
-security:
-  - hobaAuth: []
-```
-
-#### 14: Transporting access tokens as cleartext allowed
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | If we use the server that supports HTTP connection with the security schemes having a type such as OAuth or openIdConnect will send the access token over an unencrypted network. Anyone can intercept the access token and use it to exploit the server. | Make sure the URL uses HTTPS protocol. |
-
-**Resolution:**
-
-```yaml
-servers:
-  - url: https://my.api.server.com/
-    description: API server
-# ...  
-components:
-  securitySchemes:
-    OAuth1:
-      type: http
-      scheme: oauth
-```
-
-#### 15: Transporting credentials over the network allowed
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | When `securitySchemes` has an HTTP scheme then the server URL should be `HTTPS:` only. | Make sure the URL uses HTTPS protocol. |
-
-**Resolution:**
-
-```yaml
-servers:
-  - url: https://my.api.server.com/
-    description: API server
-# ...  
-components:
-  securitySchemes:
-    regularSecurity:
-      type: http
-      scheme: basic
-```
---->
