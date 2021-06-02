@@ -48,13 +48,13 @@ The following list mentions the warning messages that you may see in the product
     * [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
 * [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Operation URL uses HTTP protocol. Access tokens will be transferred as plain text](#operation-url-is-using-http-protocol-access-tokens-will-be-transferred-as-plain-text)
-    * [Operation URL uses HTTP protocol. Credentials will be transferred as plain text](#operation-url-is-using-http-protocol-credentials-will-be-transferred-as-plain-text)
-    * [Operation URL uses HTTP protocol](#operation-url-uses-http-protocol)
+    * [Operation uses HTTP protocol. Access tokens will be transferred as plain text](#operation-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
+    * [Operation uses HTTP protocol. Credentials will be transferred as plain text](#operation-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
+    * [Server URL uses HTTP protocol](#server-url-uses-http-protocol-1)
     * [Operation accepts credentials from OpenIdConnect authentication in cleartext](#operation-accepts-credentials-from-OpenIdConnect-authentication-in-cleartext)
 * [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Authorization URL uses HTTP protocol and not a valid uri-reference](#authorization-url-uses-http-protocol-and-not-a-valid-uri-reference)
-    * [Token URL uses HTTP protocol and not a valid uri-reference](#token-url-uses-http-protocol-and-not-a-valid-uri-reference)
+    * [Authorization URL uses HTTP protocol](#authorization-url-uses-http-protocol)
+    * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
 
 ## Global security field should properly enforce security
 
@@ -337,7 +337,7 @@ security:
 
 ## Operations server configuration allows insecure enforcement of security schemes
 
-### Operation URL uses HTTP protocol. Access tokens will be transferred as plain text
+### Operation uses HTTP protocol. Access tokens will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -360,7 +360,7 @@ paths:
 
 ```
 
-### Operation URL uses HTTP protocol. Credentials will be transferred as plain text
+### Operation uses HTTP protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -382,7 +382,7 @@ paths:
         description: API server
 ```
 
-### Operation URL uses HTTP protocol
+### Server URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -422,7 +422,7 @@ paths:
 
 ## Global server configuration allows insecure enforcement of security schemes
 
-### Authorization URL uses HTTP protocol and not a valid uri-reference
+### Authorization URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -437,7 +437,7 @@ flows:
     authorizationUrl: https://test.com
 ```
 
-### Token URL uses HTTP protocol and not a valid uri-reference
+### Token URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
