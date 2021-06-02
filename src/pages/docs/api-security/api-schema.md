@@ -41,7 +41,7 @@ The following list mentions the warning messages that you may see in the product
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Security field is missing for the operation schema](#security-field-is-missing-for-the-operation-schema)
-    * [In OAuth2 scheme the scope is missing from the operations's security scheme](#in-oauth2-scheme-the-scope-is-missing-from-the-operations's-security-scheme)
+    * [In OAuth2 scheme the scope is missing from the operations' security scheme](#in-oauth2-scheme-the-scope-is-missing-from-the-operations-security-scheme)
 * [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Server URL uses HTTP protocol. Access tokens will be transferred as plain text](#server-url-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
     * [Server URL uses HTTP protocol. Credentials will be transferred as plain text](#server-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
@@ -209,7 +209,7 @@ components:
           - testAuth : []
 ```
 
-### In OAuth2 scheme the scope is missing from the operations's security scheme
+### In OAuth2 scheme the scope is missing from the operations' security scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
