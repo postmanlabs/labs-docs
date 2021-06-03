@@ -50,10 +50,10 @@ The following list mentions the warning messages that you may see in the product
     * [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
 * [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Operation uses HTTP protocol. Access tokens will be transferred as plain text](#operation-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
-    * [Operation uses HTTP protocol. Credentials will be transferred as plain text](#operation-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
-    * [Server URL uses HTTP protocol](#server-url-uses-http-protocol-1)
-    * [Operation accepts credentials from OpenID Connect authentication in plain text](#operation-accepts-credentials-from-openid-connect-authentication-in-plain-text)
+    * [operation-accepts-credentials-from-openid-connect-authentication-in-plain-text](#operation-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
+    * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
+    * [Server URL is using HTTP protocol](#server-url-is-using-http-protocol)
+    * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-in-plain-text)
 * [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [Authorization URL uses HTTP protocol](#authorization-url-uses-http-protocol)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
@@ -242,7 +242,7 @@ components:
 
 ## Security field for an individual operation should properly enforce security
 
-### Server URL uses HTTP protocol. Access tokens will be transferred as plain text
+### API accepts credentials from OAuth authentication in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -266,7 +266,7 @@ security:
       - read
 ```
 
-### Server URL uses HTTP protocol. Credentials will be transferred as plain text
+### API accepts auth credentials in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -289,7 +289,7 @@ security:
   - hobaAuth: []
 ```
 
-### Server URL uses HTTP protocol
+### Server uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -339,7 +339,7 @@ security:
 
 ## Operations server configuration allows insecure enforcement of security schemes
 
-### Operation uses HTTP protocol. Access tokens will be transferred as plain text
+### Operation accepts credentials from OpenID Connect authentication in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -362,7 +362,7 @@ paths:
 
 ```
 
-### Operation uses HTTP protocol. Credentials will be transferred as plain text
+### Operation accepts authentication credentials in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -384,7 +384,7 @@ paths:
         description: API server
 ```
 
-### Server URL uses HTTP protocol
+### Server URL is using HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -399,7 +399,7 @@ get:
     - url: https://test.api.com
 ```
 
-### Operation accepts credentials from OpenID Connect authentication in plain text
+### Operation accepts credentials from OpenID Connect authentication as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
