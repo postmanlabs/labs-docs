@@ -97,13 +97,13 @@ Select the team member you would like to send your request to and the **Editor**
 
 When your request for access is approved, you will receive a notification in Postman.
 
-### Approving requests for access
+## Approving requests for access
 
 Your team members can request access from you in the following cases:
 
-1. If your team members have the link to a personal collection or API, they won't be able to view it, but they will be able to see the name and request access to it.
+1. If your team members have the link to a personal collection, API, or monitor, they won't be able to view it, but they will be able to see the name and request access to it.
 
-2. If you have the Editor role on a collection or API that is shared, a team member who has the Viewer role will be able to request an additional role from you.
+2. If you have the Editor role on a collection, API, or monitor that is shared, a team member who has the Viewer role will be able to request an additional role from you.
 
 > The Viewer role is available depending on your [Postman plan](https://www.postman.com/pricing).
 
@@ -111,6 +111,6 @@ You will receive an email detailing the request for access.
 
 ![Request Detail Email](https://assets.postman.com/postman-docs/request-detail-email-v8.jpg)
 
-Click **Approve Request** if you want to grant access to the collection or API. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
+Click **Approve Request** if you want to grant access to the collection, API, or monitor. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
 
 To learn more about how you can collaborate with your team in Postman, see [Working with your team](/docs/collaborating-in-postman/collaboration-intro/).
