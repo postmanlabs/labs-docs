@@ -289,7 +289,7 @@ security:
   - hobaAuth: []
 ```
 
-### Server uses HTTP protocol
+### Server URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
