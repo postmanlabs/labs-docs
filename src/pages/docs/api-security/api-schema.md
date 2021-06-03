@@ -36,26 +36,26 @@ The following list mentions the warning messages that you may see in the product
     * [Security field is not an array](#security-field-is-not-an-array)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-    * [In OAuth2 scheme the scope is missing from the security field](#in-oauth2-scheme-the-scope-is-missing-from-the-security-field)
+    * [Security field is missing a scope for OAuth scheme defined in securityScheme object](#security-field-is-missing-a-scope-for-oauth-scheme-defined-in-securityscheme-object)
 * [Reusable security schemes are not defined within components](#reusable-security-schemes-are-not-defined-within-components)
-    * [Reusable security field is not defined](#reusable-security-field-is-not-defined)
+    * [Security scheme object not defined](#security-scheme-object-not-defined)
 * [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
-    * [Security field is missing for the operation schema](#security-field-is-missing-for-the-operation-schema)
-    * [In OAuth2 scheme the scope is missing from the operations' security scheme](#in-oauth2-scheme-the-scope-is-missing-from-the-operations-security-scheme)
+    * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
+    * [Scope for OAuth scheme used not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-not-defined-in-the-securityscheme-declaration)
 * [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
-    * [Server URL uses HTTP protocol. Access tokens will be transferred as plain text](#server-url-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
-    * [Server URL uses HTTP protocol. Credentials will be transferred as plain text](#server-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
+    * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
+    * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
     * [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
 * [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Operation uses HTTP protocol. Access tokens will be transferred as plain text](#operation-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
-    * [Operation uses HTTP protocol. Credentials will be transferred as plain text](#operation-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
-    * [Server URL uses HTTP protocol](#server-url-uses-http-protocol-1)
     * [Operation accepts credentials from OpenID Connect authentication in plain text](#operation-accepts-credentials-from-openid-connect-authentication-in-plain-text)
+    * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
+    * [Server URL is using HTTP protocol](#server-url-is-using-http-protocol)
+    * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-as-plain-text)
 * [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Authorization URL uses HTTP protocol](#authorization-url-uses-http-protocol)
+    * [Authorization URL uses http protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
 
 ## Global security field should properly enforce security
@@ -107,7 +107,7 @@ security:
     - testAuth : []
 ```
 
-### Security field should not contain an empty scheme
+### Security field does not contain any scheme
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
@@ -123,7 +123,7 @@ security:
     - testAuth : []
 ```
 
-### In OAuth2 scheme the scope is missing from the security field
+### Security field is missing a scope for OAuth scheme defined in securityScheme object
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -149,7 +149,7 @@ components:
 
 ## Reusable security schemes are not defined within components
 
-### Reusable security field is not defined
+### Security scheme object not defined
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -194,7 +194,7 @@ components:
           - testAuth : []
 ```
 
-### Security field is missing for the operation schema
+### Operation does not enforce any security scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -211,7 +211,7 @@ components:
           - testAuth : []
 ```
 
-### In OAuth2 scheme the scope is missing from the operations' security scheme
+### Scope for OAuth scheme used not defined in the securityScheme declaration
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -242,7 +242,7 @@ components:
 
 ## Security field for an individual operation should properly enforce security
 
-### Server URL uses HTTP protocol. Access tokens will be transferred as plain text
+### API accepts credentials from OAuth authentication in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -266,7 +266,7 @@ security:
       - read
 ```
 
-### Server URL uses HTTP protocol. Credentials will be transferred as plain text
+### API accepts auth credentials in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -339,7 +339,7 @@ security:
 
 ## Operations server configuration allows insecure enforcement of security schemes
 
-### Operation uses HTTP protocol. Access tokens will be transferred as plain text
+### Operation accepts credentials from OpenID Connect authentication in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -362,7 +362,7 @@ paths:
 
 ```
 
-### Operation uses HTTP protocol. Credentials will be transferred as plain text
+### Operation accepts authentication credentials in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -384,7 +384,7 @@ paths:
         description: API server
 ```
 
-### Server URL uses HTTP protocol
+### Server URL is using HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -399,7 +399,7 @@ get:
     - url: https://test.api.com
 ```
 
-### Operation accepts credentials from OpenID Connect authentication in plain text
+### Operation accepts credentials from OpenID Connect authentication as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -424,7 +424,7 @@ paths:
 
 ## Global server configuration allows insecure enforcement of security schemes
 
-### Authorization URL uses HTTP protocol
+### Authorization URL uses http protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
