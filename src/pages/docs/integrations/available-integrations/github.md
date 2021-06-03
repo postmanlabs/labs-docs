@@ -20,7 +20,7 @@ contextual_links:
 
 > __[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
 
-Postman allows you to back up your collections (for paid plans only) or synchronize your APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
+Postman enables you to back up your collections (for paid plans only) or synchronize your API schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
 
 > If you are looking to import data into Postman from a GitHub repository, see [Importing via GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories).
 
@@ -36,17 +36,17 @@ Postman allows you to back up your collections (for paid plans only) or synchron
 
 In order to set up an integration, you will need a GitHub Personal Access Token.
 
-Log in to [GitHub](https://github.com/).
+1. Log in to [GitHub](https://github.com/).
 
-If you don’t already have a Personal Access Token from GitHub, [generate a new one](https://github.com/settings/tokens).
+1. If you don’t already have a Personal Access Token from GitHub, [generate a new one](https://github.com/settings/tokens).
 
-For backing up your collections, select the `repo` and the `user` scope. For syncing your API schema, select only the `repo` scope.
+1. For backing up your collections, select the `repo` and the `user` scope. For syncing your API schema, select only the `repo` scope.
 
-[![repo scope](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)
-[![user scope](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)
+   [![repo scope](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)
+   [![user scope](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)
 
-Once that token is generated, copy it and save it somewhere for future use.
-[![generated token](https://assets.postman.com/postman-docs/WS-integrations-github-generated-token.png)](https://assets.postman.com/postman-docs/WS-integrations-github-generated-token.png)
+1. Once that token is generated, copy it and save it somewhere for future use.
+   [![generated token](https://assets.postman.com/postman-docs/WS-integrations-github-generated-token.png)](https://assets.postman.com/postman-docs/WS-integrations-github-generated-token.png)
 
 ## Backing up collections on GitHub
 
@@ -147,7 +147,7 @@ Enter your personal access token in the text field, select **I consent to Postma
 
 > The list of your GitHub repositories may take some time to load.
 
-On the next page you need to setup your webhook. To do so, go to the settings page of your GitHub repository, click **Webhooks**, then **Add webhook**. Copy over the `Payload URL` and `Secret` from Postman, then click **Add webhook** to confirm. Refer to the [GitHub documentation](https://developer.github.com/webhooks/creating/#setting-up-a-webhook) for more detail.
+On the next page you need to set up your webhook. Go to the settings page of your GitHub repository, click **Webhooks**, then **Add webhook**. Copy over the `Payload URL` and `Secret` from Postman, then click **Add webhook** to confirm. Refer to the [GitHub documentation](https://developer.github.com/webhooks/creating/#setting-up-a-webhook) for more detail.
 
 [![add webhook](https://assets.postman.com/postman-docs/addwebhook.gif)](https://assets.postman.com/postman-docs/addwebhook.gif)
 
@@ -190,4 +190,4 @@ If you're having issues with your GitHub integration and find your data isn't sy
 * You have permissions to push to the branch.
 * If all else fails, try reinstalling the integration.
 
-> If your enterprise version of GitHub is on-prem / self-hosted, this may be a firewall issue.
+> If your enterprise version of GitHub is on-premises / self-hosted, this may be a firewall issue.
