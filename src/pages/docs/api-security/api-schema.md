@@ -55,7 +55,7 @@ The following list mentions the warning messages that you may see in the product
     * [Server URL is using HTTP protocol](#server-url-is-using-http-protocol)
     * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-in-plain-text)
 * [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Authorization URL uses HTTP protocol](#authorization-url-uses-http-protocol)
+    * [Authorization URL uses http protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
 
 ## Global security field should properly enforce security
@@ -424,7 +424,7 @@ paths:
 
 ## Global server configuration allows insecure enforcement of security schemes
 
-### Authorization URL uses HTTP protocol
+### Authorization URL uses http protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
