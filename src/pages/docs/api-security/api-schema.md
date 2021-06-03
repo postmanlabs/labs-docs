@@ -50,7 +50,7 @@ The following list mentions the warning messages that you may see in the product
     * [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
 * [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Operation accepts credentials from OpenID Connect authentication in plain text](#operation-accepts-credentials-from-openid-connect-authentication-in-plain-text)
+    * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
     * [Server URL is using HTTP protocol](#server-url-is-using-http-protocol)
     * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-as-plain-text)
@@ -339,7 +339,7 @@ security:
 
 ## Operations server configuration allows insecure enforcement of security schemes
 
-### Operation accepts credentials from OpenID Connect authentication in plain text
+### Operation accepts credentials from OAuth authentication in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
