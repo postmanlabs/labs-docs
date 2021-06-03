@@ -17,6 +17,8 @@ In Postman, we highly recommend you to follow "**Security warnings**" at the API
 
 For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 
+> Security warnings are available only for OpenAPI 3.0 schemas.
+
 You will be able to use Postman to identify any potential security misses when your API is defined.
 
 <img alt="API Schema Potential Security " src="https://assets.postman.com/postman-docs/api-schema-validation.gif"/>
@@ -41,20 +43,20 @@ The following list mentions the warning messages that you may see in the product
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Security field is missing for the operation schema](#security-field-is-missing-for-the-operation-schema)
-    * [In OAuth2 scheme the scope is missing from the operations's security scheme](#in-oauth2-scheme-the-scope-is-missing-from-the-operations's-security-scheme)
+    * [In OAuth2 scheme the scope is missing from the operations' security scheme](#in-oauth2-scheme-the-scope-is-missing-from-the-operations-security-scheme)
 * [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Server URL uses HTTP protocol. Access tokens will be transferred as plain text](#server-url-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
     * [Server URL uses HTTP protocol. Credentials will be transferred as plain text](#server-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
 * [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Operation URL uses HTTP protocol. Access tokens will be transferred as plain text](#operation-url-is-using-http-protocol-access-tokens-will-be-transferred-as-plain-text)
-    * [Operation URL uses HTTP protocol. Credentials will be transferred as plain text](#operation-url-is-using-http-protocol-credentials-will-be-transferred-as-plain-text)
-    * [Operation URL uses HTTP protocol](#operation-url-uses-http-protocol)
-    * [Operation accepts credentials from OpenIdConnect authentication in cleartext](#operation-accepts-credentials-from-OpenIdConnect-authentication-in-cleartext)
+    * [Operation uses HTTP protocol. Access tokens will be transferred as plain text](#operation-uses-http-protocol-access-tokens-will-be-transferred-as-plain-text)
+    * [Operation uses HTTP protocol. Credentials will be transferred as plain text](#operation-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
+    * [Server URL uses HTTP protocol](#server-url-uses-http-protocol-1)
+    * [Operation accepts credentials from OpenID Connect authentication in plain text](#operation-accepts-credentials-from-openid-connect-authentication-in-plain-text)
 * [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Authorization URL uses HTTP protocol and not a valid uri-reference](#authorization-url-uses-http-protocol-and-not-a-valid-uri-reference)
-    * [Token URL uses HTTP protocol and not a valid uri-reference](#token-url-uses-http-protocol-and-not-a-valid-uri-reference)
+    * [Authorization URL uses HTTP protocol](#authorization-url-uses-http-protocol)
+    * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
 
 ## Global security field should properly enforce security
 
@@ -209,7 +211,7 @@ components:
           - testAuth : []
 ```
 
-### In OAuth2 scheme the scope is missing from the operations's security scheme
+### In OAuth2 scheme the scope is missing from the operations' security scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -337,7 +339,7 @@ security:
 
 ## Operations server configuration allows insecure enforcement of security schemes
 
-### Operation URL uses HTTP protocol. Access tokens will be transferred as plain text
+### Operation uses HTTP protocol. Access tokens will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -360,7 +362,7 @@ paths:
 
 ```
 
-### Operation URL uses HTTP protocol. Credentials will be transferred as plain text
+### Operation uses HTTP protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -382,7 +384,7 @@ paths:
         description: API server
 ```
 
-### Operation URL uses HTTP protocol
+### Server URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -422,7 +424,7 @@ paths:
 
 ## Global server configuration allows insecure enforcement of security schemes
 
-### Authorization URL uses HTTP protocol and not a valid uri-reference
+### Authorization URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -437,7 +439,7 @@ flows:
     authorizationUrl: https://test.com
 ```
 
-### Token URL uses HTTP protocol and not a valid uri-reference
+### Token URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
