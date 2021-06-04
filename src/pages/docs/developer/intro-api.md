@@ -10,11 +10,21 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to the Postman API | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=iEtsp6o4AJg"
+  - type: link
+    name: "User Info from the Postman API | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=k2bvdqxDcsU"
+  - type: subtitle
     name: "Next Steps"
   - type: link
     name: "Continuous Integration"
     url: "/docs/running-collections/using-newman-cli/continuous-integration/"
-
+    
 warning: false
 
 ---
