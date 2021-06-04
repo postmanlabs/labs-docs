@@ -20,36 +20,35 @@ You can use Postman to identify any potential security misses when your API is d
 Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
 
 //Add gif here
-
 ### Security warnings
 
 The following list describes possible warning messages and potential ways to resolve them.
 
 * [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
+
     * [Security field is not defined](#security-field-is-not-defined)
-    * [Security field is not an array](#security-field-is-not-an-array)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-    * [Security field is missing a scope for OAuth scheme defined in securityScheme object](#security-field-is-missing-a-scope-for-oauth-scheme-defined-in-securityscheme-object)
+    * [Scope for OAuth scheme used in security field not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-not-defined-in-the-securityscheme-declaration)
 * [Reusable security schemes are not defined within components](#reusable-security-schemes-are-not-defined-within-components)
     * [Security scheme object not defined](#security-scheme-object-not-defined)
-* [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
+* [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
     * [Scope for OAuth scheme used not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-not-defined-in-the-securityscheme-declaration)
-* [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
+* [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
-    * [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
+    * [Global server URL uses HTTP protocol](#global-server-url-uses-http-protocol)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
-* [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
+* [Server configuration of the operation allows insecure enforcement of security schemes](#server-configuration-of-the-operation-allows-insecure-enforcement-of-security-schemes)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
-    * [Server URL is using HTTP protocol](#server-url-is-using-http-protocol)
+    * [Server URL of the operation is using HTTP protocol](#server-url-of-the-operation-is-using-http-protocol)
     * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-as-plain-text)
-* [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Authorization URL uses http protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
+* [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
+    * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
 
 ## Global security field should properly enforce security
@@ -58,7 +57,7 @@ The following list describes possible warning messages and potential ways to res
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security property should be defined in the schema. |
+| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
 
 **Resolution:**
 
@@ -69,27 +68,11 @@ paths:
 security:
     - testAuth : []
 ```
-
-### Security field is not an array
-
-| Severity | Issue description | Possible fix |
-| -------- | ----------------- | ------------ |
-| High | An empty object in the security field disables the authentication completely. Anyone can access the operations that do not have a security field defined, without any authentication. | The security property value should be of type `array`. |
-
-**Resolution:**
-
-```yaml
-openapi: 3.0.0
-info:
-paths:
-security: []
-```
-
 ### Security field does not contain any item
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the security field contains an empty array then it means that no security scheme is applied to the operations by default. | The security property should contain at least one item in the array. |
+| High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field should contain at least one item in the array. |
 
 **Resolution:**
 
@@ -105,7 +88,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | An empty object in the security field disables the authentication completely. Anyone can access the API operation without any authentication. | Security array items should not contain an empty object. |
+| High | An empty object in the security field disables the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items should not contain an empty object. |
 
 **Resolution:**
 
@@ -117,11 +100,11 @@ security:
     - testAuth : []
 ```
 
-### Security field is missing a scope for OAuth scheme defined in securityScheme object
+### Scope for OAuth scheme used in security field not defined in the securityScheme declaration
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes defined in the security schemes field should be defined in the global security field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
+| Low | The OAuth2 scopes used in the global security field should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
 
 **Resolution:**
 
@@ -147,30 +130,33 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | Without any reusable security schemes, your API does not globally specify any authentication method for consuming the API operations. This means that anyone can use API operations as long as they know the URLs of the operations and how to invoke them. | Security schemes should be defined in the schema of the component. |
+| High | The components object of the API does not declare any security schemes which can be used in the security field of the API or individual operations. | Security schemes should be defined in the schema of the component. |
 
 **Resolution:**
 
 ```yaml
 components:
-  securitySchemes: {}
+  securitySchemes:
+    testAuth:
+      type: http
+      scheme: basic
 ```
 
-## Security scheme configuration allows loopholes for credential leaks
-
+## Security field for an individual operation should properly enforce security
 ### Security field for the operation does not contain any item
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | This means that no security scheme is applied to the API operation by default. | The security property in any operation should contain at least one item in the array. |
+| Medium | No security scheme is applied to the API operation by default. | The security field in any operation should contain at least one item in the array. |
 
 **Resolution:**
 
 ```yaml
+paths:
   /user:
     get:
       security:
-          - testAuth : []
+      - testAuth : []
 ```
 
 ### Security field for the operation does not contain any scheme
@@ -182,17 +168,18 @@ components:
 **Resolution:**
 
 ```yaml
+paths:
   /user:
     get:
       security:
-          - testAuth : []
+      - testAuth : []
 ```
 
 ### Operation does not enforce any security scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security property in the operation. |
+| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security field in the operation. |
 
 **Resolution:**
 
@@ -209,7 +196,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes defined in the security schemes field should be defined in the security field of the operation. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
+| Low | The OAuth2 scopes used in the  security field of the operation should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
 
 **Resolution:**
 
@@ -234,19 +221,19 @@ components:
             write: write objects to your account
 ```
 
-## Security field for an individual operation should properly enforce security
+## Global server configuration allows insecure enforcement of security schemes
 
 ### API accepts credentials from OAuth authentication in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure the URL uses HTTPS protocol. |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 # ...  
 components:
@@ -264,36 +251,36 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. |Make sure the URL uses HTTPS protocol. |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 # ...
 components:
   securitySchemes:
-    hobaAuth:
+    apiAuth:
       type: http
-      scheme: hoba
+      scheme: api
 # ...  
 security:
-  - hobaAuth: []
+  - apiAuth: []
 ```
 
-### Server URL uses HTTP protocol
+### Global server URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure the URL uses HTTPS protocol. |
+| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 # ...
 components:
@@ -311,13 +298,13 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure the server URL follows HTTPS protocol. |
+| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
 ```yaml
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 # ...  
 components:
@@ -331,13 +318,13 @@ security:
       - read
 ```
 
-## Operations server configuration allows insecure enforcement of security schemes
+## Server configuration of the operation allows insecure enforcement of security schemes
 
 ### Operation accepts credentials from OAuth authentication in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL is a valid URL and follows HTTPS protocol. |
+| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -351,7 +338,7 @@ paths:
     post:
       operationId: addPet
       servers:
-      - url: https://my.api.server.com/
+      - url: https://my.api.example.com/
         description: API server
 ```
 
@@ -359,7 +346,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL is a valid URL and follows HTTPS protocol. |
+| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -373,15 +360,15 @@ paths:
     post:
       operationId: addPet
       servers:
-      - url: https://my.api.server.com/
+      - url: https://my.api.example.com/
         description: API server
 ```
 
-### Server URL is using HTTP protocol
+### Server URL of the operation is using HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the URL uses HTTPS protocol. |
+| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -389,14 +376,14 @@ paths:
 get:
   operationId: getPetsById
   servers:
-    - url: https://test.api.com
+    - url: https://my.api.example.com/
 ```
 
 ### Operation accepts credentials from OpenID Connect authentication as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure server field of the operation follows HTTPS protocol. |
+| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -405,44 +392,49 @@ components:
   securitySchemes:
     OpenIdScheme:
       type: openIdConnect
-      openIdConnectUrl: https://my.api.server.com/
+      openIdConnectUrl: https://my.api.openidconnect.example.com/
 paths:
   "/pets":
     post:
       operationId: addPet
       servers:
-      - url: https://my.api.server.com/
+      - url: https://my.api.example.com/
         description: API server
 ```
 
-## Global server configuration allows insecure enforcement of security schemes
-
-### Authorization URL uses http protocol. Credentials will be transferred as plain text
+## Security scheme configuration allows loopholes for credential leaks
+### Authorization URL uses HTTP protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The server accepts the credentials over an unencrypted network. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the authorization URL is a valid URL and follows HTTPS protocol. |
+| Medium | OAuth authorization credentials are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the authorization URL is a valid URL and follows HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
-type: oauth2
-flows:
-  implicit:
-    authorizationUrl: https://test.com
+components:
+  securitySchemes:
+     OauthScheme:
+        type: oauth2
+        flows: 
+          authorizationCode:
+            authorizationUrl: https://my.auth.example.com/
 ```
 
 ### Token URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the token URL is a valid URL and follows HTTPS protocol. |
+| Medium | OAuth authentication tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the token URL is a valid URL and follows HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
-type: oauth2
-flows:
-  implicit:
-    tokenUrl: https://test.com
+components:
+  securitySchemes:
+     OauthScheme:
+        type: oauth2
+        flows: 
+          authorizationCode:
+            tokenUrl: https://my.token.example.com/
 ```
