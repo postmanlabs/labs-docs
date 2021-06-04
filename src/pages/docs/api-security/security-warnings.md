@@ -112,24 +112,27 @@ components:
 
 ```yaml
 components:
-  securitySchemes: {}
+  securitySchemes:
+    testAuth:
+      type: http
+      scheme: basic
 ```
 
-## Security scheme configuration allows loopholes for credential leaks
-
+## Security field for an individual operation should properly enforce security
 ### Security field for the operation does not contain any item
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | This means that no security scheme is applied to the API operation by default. | The security property in any operation should contain at least one item in the array. |
+| Medium | No security scheme is applied to the API operation by default. | The security field in any operation should contain at least one item in the array. |
 
 **Resolution:**
 
 ```yaml
+paths:
   /user:
     get:
       security:
-          - testAuth : []
+      - testAuth : []
 ```
 
 ### Security field for the operation does not contain any scheme
@@ -141,17 +144,18 @@ components:
 **Resolution:**
 
 ```yaml
+paths:
   /user:
     get:
       security:
-          - testAuth : []
+      - testAuth : []
 ```
 
 ### Operation does not enforce any security scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security property in the operation. |
+| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security field in the operation. |
 
 **Resolution:**
 
@@ -168,7 +172,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes defined in the security schemes field should be defined in the security field of the operation. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
+| Low | The OAuth2 scopes used in the  security field of the operation should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
 
 **Resolution:**
 
@@ -193,19 +197,19 @@ components:
             write: write objects to your account
 ```
 
-## Security field for an individual operation should properly enforce security
+## Global server configuration allows insecure enforcement of security schemes
 
 ### API accepts credentials from OAuth authentication in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure the URL uses HTTPS protocol. |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 # ...  
 components:
@@ -223,23 +227,23 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. |Make sure the URL uses HTTPS protocol. |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 # ...
 components:
   securitySchemes:
-    hobaAuth:
+    apiAuth:
       type: http
-      scheme: hoba
+      scheme: api
 # ...  
 security:
-  - hobaAuth: []
+  - apiAuth: []
 ```
 
 ### Server URL uses HTTP protocol
