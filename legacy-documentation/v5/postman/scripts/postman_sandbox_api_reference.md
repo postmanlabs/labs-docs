@@ -16,12 +16,12 @@ _Note: The functionality described here is exclusive to Postman's native apps fo
 The `require` function allows you to use the sandbox built-in library modules. The list of available libraries are listed below. The list links to their corresponding documentation.
 1. [atob](https://www.npmjs.com/package/atob) → v2.0.3
 1. [btoa](https://www.npmjs.com/package/btoa) → v1.1.2
-1. [chai](http://chaijs.com/) → v3.5.0
+1. [chai](https://www.chaijs.com/) → v3.5.0
 1. [cheerio](https://cheerio.js.org/) → v0.22.0
 1. [crypto-js](https://www.npmjs.com/package/crypto-js) → v3.1.9-1
 1. [csv-parse/lib/sync](http://csv.adaltas.com/parse) → 1.2.1
 1. [lodash](https://lodash.com/) → v4.17.4 (when used with require, the inbuilt `_` object is for v3.10.1)
-1. [moment](http://momentjs.com/docs/) → v2.18.1 (sans locales)
+1. [moment](https://momentjs.com/docs/) → v2.18.1 (sans locales)
 1. [postman-collection](http://www.postmanlabs.com/postman-collection/) → v1.2.0
 1. [tv4](https://github.com/geraintluff/tv4) → v1.2.7
 1. [uuid](https://www.npmjs.com/package/uuid) → (the module loaded is a shim for original module)
@@ -42,7 +42,7 @@ A number of NodeJS modules are also available:
 
 In order to use a library, simply call the `require` function and pass the module name as a parameter and assign the return of the function to a variable.
 
-```
+```js
 var atob = require('atob'),
     _ = require('lodash'), 
   
@@ -92,7 +92,7 @@ Some things to know about `pm.sendRequest()`:
 * The method accepts a collection SDK compliant request and a callback. The callback receives 2 arguments, an error (if any) and SDK compliant response.
 * It can be used in the pre-request or the test script.
 
-```
+```js
 // example with a plain string URL
 pm.sendRequest('https://postman-echo.com/get', function (err, res) {
     if (err) {
@@ -219,7 +219,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
    In the following sample test, we are checking that everything about a response is valid for us to proceed.
 
-    ```
+    ```js
     pm.test("response should be okay to process", function () {
         pm.response.to.not.be.error;
         pm.response.to.have.jsonBody('');
@@ -229,11 +229,11 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 * `pm.expect(assertion:*):Function → Assertion`
 
-  `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
+  `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](https://www.chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
   
   This function is useful to deal with assertions of data from a response or variables.
       
-  ```
+  ```js
     pm.test('environment to be production', function () {
         pm.expect(pm.environment.get('env')).to.equal('production');
     });

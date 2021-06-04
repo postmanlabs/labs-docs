@@ -5,7 +5,9 @@ import algoliasearch from 'algoliasearch/lite';
 import {
   InstantSearch, SearchBox, Hits, Configure, Pagination,
 } from 'react-instantsearch-dom';
+import { v4 as uuidv4 } from 'uuid';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
+
 import DynamicLink from '../Shared/DynamicLink';
 import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
 
@@ -97,7 +99,6 @@ class HeaderComponent extends React.Component {
     };
   }
 
-
   componentDidMount() {
     const helloBarCountValue = Number(localStorage.getItem('hellobarcount'));
     this.setState({
@@ -111,30 +112,31 @@ class HeaderComponent extends React.Component {
       return b ? b.pop() : '';
     }
     return false;
-  };
+  }
 
   // toggles the hamburger menu
   toggleMenu = () => {
     this.setState((state) => {
       if (state.isToggledOn === 'unset') {
-        return ({
+        return {
           isToggledOn: true,
-        });
+        };
       }
-      return ({
+      return {
         isToggledOn: !state.isToggledOn,
-      });
+      };
     });
   }
 
   // click out search results box
   onClickOut = () => {
-    document.getElementsByClassName('ais-SearchBox-input')[0].value = '';
-    this.setState(() => ({
-      hasInput: false,
-    }));
+    const searchInput = document.getElementsByClassName('ais-SearchBox-input')[0].value;
+    if (searchInput !== '') {
+      this.setState(() => ({
+        hasInput: false,
+      }));
+    }
   }
-
 
   render() {
     const {
@@ -143,10 +145,7 @@ class HeaderComponent extends React.Component {
     return (
       <header className="header text-center navbar navbar-expand-xl navbar-light">
         <div className="navbar-brand header__brand">
-          <Link
-            className="header__homelink"
-            to="/"
-          >
+          <Link className="header__homelink" to="/">
             <img className="header__logo" src={postmanLogo} alt="postman logo" />
             <span className="header__title">{data.title}</span>
           </Link>
@@ -159,8 +158,8 @@ class HeaderComponent extends React.Component {
 
         <div
           className={`header__right-links justify-content-end navbar-nav mr-auto navbar-collapse collapse show
-            ${(isToggledOn === true) ? 'animate-open' : ''}
-            ${(isToggledOn === false) ? 'animate-close' : ''}
+            ${isToggledOn === true ? 'animate-open' : ''}
+            ${isToggledOn === false ? 'animate-close' : ''}
             ${isToggledOn === 'unset' ? 'closed' : ''}
             overlay${!visibleHelloBar ? ' noBar' : ''}
             `}
@@ -169,11 +168,7 @@ class HeaderComponent extends React.Component {
           {/* Aloglia Widgets */}
           <div className="form-inline header__search">
             <ClickOutHandler onClickOut={this.onClickOut}>
-              <InstantSearch
-                searchClient={searchClient}
-                indexName="docs"
-                refresh={refresh}
-              >
+              <InstantSearch searchClient={searchClient} indexName="docs" refresh={refresh}>
                 <Configure hitsPerPage={5} />
 
                 {/* forcefeed className because component does not accept natively as prop */}
@@ -192,7 +187,6 @@ class HeaderComponent extends React.Component {
                   }}
                 />
 
-
                 <div className={!hasInput ? 'input-empty' : 'input-value'}>
                   <div className="container">
                     <div className="row">
@@ -208,12 +202,15 @@ class HeaderComponent extends React.Component {
                   </div>
                 </div>
               </InstantSearch>
-
             </ClickOutHandler>
           </div>
           {data.links.map((link) => (
-            <div className="nav-item" key={link.name}>
-              {link.cta ? <LoginCheck cookie={this.getCookie('getpostmanlogin')} /> : <DynamicLink className="nav-link" url={link.url} name={link.name} />}
+            <div className="nav-item" key={uuidv4()}>
+              {link.cta ? (
+                <LoginCheck cookie={this.getCookie('getpostmanlogin')} />
+              ) : (
+                <DynamicLink className="nav-link" url={link.url} name={link.name} />
+              )}
             </div>
           ))}
         </div>
@@ -228,10 +225,9 @@ const Header = () => {
       headerLinks {
         value
       }
-    }`);
-  return (
-    <HeaderComponent data={data.headerLinks.value} />
-  );
+    }
+  `);
+  return <HeaderComponent data={data.headerLinks.value} />;
 };
 
 export default Header;

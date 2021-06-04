@@ -18,7 +18,7 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
 
 Postman provides an API development toolchain aimed at integrating with your workflow.
 
@@ -56,6 +56,8 @@ Contact your IT team to whitelist the following static IP in your firewall to en
 * US East: `3.212.102.200`
 
 Once you whitelist this IP address, calls for the integrations and webhooks will be able to connect to your network and allow the integrations and webhooks to work as expected.
+
+> DNS records should use the public IP address for instances which are behind a firewall or not accessible via the internet.
 
 Postman supports implementing static IP addresses for the following integrations and webhooks:
 

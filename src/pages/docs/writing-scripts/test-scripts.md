@@ -18,12 +18,15 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Ping Identity"
-    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+    url: "https://www.postman.com/customers/pingidentity/"
   - type: link
     name: "iQmetrix"
-    url: "https://www.postman.com/resources/case-studies/iqmetrix/"
+    url: "https://www.postman.com/customers/iqmetrix/"
   - type: subtitle
     name: "Videos"
+  - type: link
+    name: "Testing with Snippets | Postman Level Up"
+    url: "https://youtu.be/QGNJ0wh5Ry0"
   - type: link
     name: "Intro to Postman: Writing API tests"
     url: "https://www.youtube.com/watch?v=vuVhF257uGw"
@@ -107,7 +110,7 @@ Using the `pm.expect` syntax gives your test result messages a different formatâ
 
 <img src="https://assets.postman.com/postman-docs/expect-test-syntax-v8.jpg" alt="Failed Test Results" width="500px"/>
 
-> Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.getpostman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
+> Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.postman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
 
 Your code can test the request [environment](/docs/sending-requests/managing-environments/), as in the following example:
 

@@ -11,7 +11,7 @@ contextual_links:
     url: "https://www.postman.com/security/shared-responsibility/"
   - type: link
     name: "Managing your team"
-    url: "/docs/administration/managing-your-team/"
+    url: "/docs/administration/managing-your-team/managing-your-team/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -51,7 +51,7 @@ Postman is available as a stand-alone app for Windows, Mac, and Linux, and can a
 
 Depending on the size of your team you can send invites to your team now or [Check Your Setup](#check-your-setup) with a few volunteers before you rollout Postman to your entre organization.
 
-You can add your teammates from your [team dashboard](https://go.postman.co/team) by generating a shareable link or by inviting them through a direct email. See [Managing Your Team](/docs/administration/managing-your-team/) for more detail.
+You can add your teammates from your [team dashboard](https://go.postman.co/team) by generating a shareable link or by inviting them through a direct email. See [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) for more detail.
 
 <img src="https://assets.postman.com/postman-docs/invite-users-modal.jpg" alt="Invite users" width="400px"/>
 
@@ -65,7 +65,7 @@ Ensure you are connected to your organization's network and test the following:
 * Can you execute a request to one of your internal/private APIs?
 * Save a request inside a [​Collection​](/docs/sending-requests/intro-to-collections/). Visit `​go.postman.co`​, has your collection and request synced with Postman’s cloud?
 
-Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! Else, if you experienced a hiccup, [​contact Postman support](https://postman.com/support) and please read on.
+Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! Else, if you experienced a hiccup, [​contact Postman support](https://www.postman.com/support/) and please read on.
 
 ### Enable Team Discovery
 
@@ -81,4 +81,4 @@ Check out [Security and Compliance: A Shared Responsibility Model](https://www.p
 
 Make sure to [configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to the Business or Enterprise plan.
 
-Finally, head over to [Managing Your Team](/docs/administration/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust your team size.
+Finally, head over to [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust your team size.

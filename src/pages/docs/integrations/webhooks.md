@@ -5,13 +5,13 @@ page_id: "custom_webhooks"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Prerequisite"
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
 
 Postman provides a custom webhook integration which enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers many services with predefined flows available for easy implementation.
 

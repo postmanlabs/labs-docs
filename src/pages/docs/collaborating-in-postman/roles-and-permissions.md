@@ -15,13 +15,13 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Streamline access control with extended roles & permissions"
-    url: "https://blog.getpostman.com/2019/03/11/streamline-access-control-with-extended-roles-permissions/"
+    url: "https://blog.postman.com/streamline-access-control-with-extended-roles-permissions/"
   - type: link
     name: "Manage large teams in Postman with workspaces, permissions & more"
-    url: "https://blog.getpostman.com/2019/07/23/postman-team-workspaces-and-permissions/"
+    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
 ---
 
-> Certain team options are only available on **[Postman Team, Business, and Enterprise plans](https://www.postman.com/pricing)**. To see which roles are available on your plan, go to your **[web dashboard](https://app.postman.co/settings/team/roles)**.
+> Certain team options are only available on **[Postman Team, Business, and Enterprise plans](https://www.postman.com/pricing)**. To see which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
 
 In Postman you can assign roles and permissions to provide access control.
 
@@ -45,11 +45,15 @@ In Postman you can assign roles and permissions to provide access control.
 
 ## Roles in Postman
 
-As a team admin, you have the power to define Postman access at the team, workspace, collection, and API level. You can utilize Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel.
+As a team admin, you have the power to define Postman access at the team level. You can utilize Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative personnel. Team members with the billing role can modify who else has billing roles at the team level.
+
+Workspace admins can modify the admin and collaborator roles for the workspace. Editors of particular elements (APIs, collections, environments, monitors, and mock servers) can modify the editor and viewer role on the element.
+
+With these roles, you and your teammates can manage access for each individual, or, if you are on a [Postman Enterprise plan](https://www.postman.com/pricing), for [groups](/docs/administration/managing-your-team/user-groups/).
 
 ### Team roles
 
-You can [assign](/docs/administration/managing-your-team/) one or more role types to team members: **Admin**, **Billing**, and **Developer**. If you are on a [Postman Business or Enterprise plan](https://www.postman.com/pricing), you will also have the option of assigning a **Community Manager**.
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members: **Admin**, **Billing**, and **Developer**. If you are on a [Postman Business or Enterprise plan](https://www.postman.com/pricing), you will also have the option of assigning a **Community Manager**.
 
 * **Admin**: manage team members and team settings
 * **Billing**: manage team plan and payments
@@ -84,7 +88,7 @@ Team roles provide high-level access control:
 
 ### Workspace roles
 
-You can [assign](/docs/administration/managing-your-team/) two role types in Postman workspaces: **Admin** and **Collaborator**.
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman workspaces: **Admin** and **Collaborator**.
 
 * **Admin**: manage workspace details and members
 * **Collaborator**: work on team resources in a workspace
@@ -107,7 +111,7 @@ The following roles control access at a workspace level:
 
 ### API roles
 
-You can [assign](/docs/administration/managing-your-team/) two role types in Postman APIs: **Editor** and **Viewer**.
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman APIs: **Editor** and **Viewer**.
 
 * **Editor**: edit APIs directly
 * **Viewer**: view, fork, and export APIs
@@ -132,7 +136,7 @@ The following roles control access at an API level:
 
 ### Collection roles
 
-You can [assign](/docs/administration/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
 
 * **Editor**: edit collections directly
 * **Viewer**: view, fork, and export collections
@@ -154,7 +158,7 @@ The following roles control access at a collection level:
 
 ## Managing roles and permissions
 
-To manage team roles, see [Managing roles](/docs/administration/managing-your-team/#managing-roles).
+To manage team roles, see [Managing roles](/docs/administration/managing-your-team/managing-your-team/).
 
 ## Roles FAQ
 
@@ -168,7 +172,7 @@ Billing roles can only be granted by a fellow team member with a billing role. I
 A "Super Admin" role is being considered for development. You can track progress and upvote [this issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues/6102) to show your support.
 
 * **Our colleague left the organization, how can we access their collections?**  
-You can remove a former colleague from your Postman team via your [dashboard](https://app.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
+You can remove a former colleague from your Postman team via your [dashboard](https://go.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
 
 * **What are "support" roles?**  
 A support-only account is one that holds an admin and/or billing role, but is not a developer.

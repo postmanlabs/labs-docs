@@ -97,7 +97,7 @@ You can use a wide variety of other configurations to make your collection more 
 
 
 [0]: https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu
-[1]: https://docs.npmjs.com/getting-started/installing-node
+[1]: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 [2]: https://www.postman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png
 [3]: https://www.postman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png
 [4]: https://www.postman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png

@@ -179,7 +179,7 @@ You can also [define collection variables in scripts](#defining-variables-in-scr
 
 You can add and edit variables at any time. All you need to include for a new variable is a name—you can choose to supply an initial value but can alternatively set it later, including from scripts. Use the checkbox to enable or disable a variable.
 
-![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)
+[![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)
 
 Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Sharing and persisting data](#sharing-and-persisting-data) for more on local vs synced variables.
 
@@ -307,8 +307,6 @@ When you create or edit a variable, you can enter both an initial and a current 
 > You can only edit the initial value of an environment variable if you have edit access to the environment itself. Without edit access to the environment, you can only edit the current value and your edit will not be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
-
-> You can set Postman to [automatically persist](/docs/getting-started/settings/) your variable values.
 
 You can edit a current value inline from the environment quick look:
 

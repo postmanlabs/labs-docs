@@ -1,6 +1,6 @@
 ---
 title: "Making SOAP requests"
-order: 38
+order: 39
 page_id: "making_soap_requests"
 contextual_links:
   - type: section
@@ -17,7 +17,7 @@ contextual_links:
     url: "https://blog.postman.com/making-http-soap-requests-with-postman/"
   - type: link
     name: "SOAP: fahrenheit to celsius conversion"
-    url: "https://explore.postman.com/templates/7315/soap-fahrenheit-to-celsius-conversion"
+    url: "https://www.postman.com/explore/template/7315/soap-fahrenheit-to-celsius-conversion"
 
 warning: false
 
@@ -35,7 +35,7 @@ Open a new request tab in Postman and enter your SOAP endpoint URL in the addres
 https://www.dataaccess.com/webservicesserver/NumberConversion.wso
 ```
 
-> Check out the [Public SOAP APIs](https://documenter.getpostman.com/view/8854915/Szf26WHn?version=latest) collection for more SOAP requests you can try.
+> Check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection for more SOAP requests you can try.
 
 Select __POST__ from the request method drop-down.
 
@@ -68,7 +68,7 @@ Your request body should include the SOAP `Envelope`, `Header`, and `Body` tags 
 
 When you select an XML body type, Postman will automatically add a content type header of `application/xml`, but depending on your service provider, for SOAP requests you may need `text/xml`. Open the request __Headers__ and click to show the hidden headers.
 
-Check with your SOAP service whether you need the `application/xml` or `text/xml` header. If you need the `text/xml` header, you will need to override the default setting added by Postman. Deselect the `Content-Type` header Postman added automatically and add a new row with `Content-Type` __Key__ and `text/xml` __Value__.
+Check with your SOAP service whether you need the `application/xml` or `text/xml` header. If you need the `text/xml` header, you will need to override the default setting added by Postman. Deselect the `Content-Type` header Postman added automatically and add a new row with `Content-Type` __Key__ and `text/xml` __Value__.  Additionally, you will need to set a `SOAPAction` header with a value of (and the quotes are required) `"#MethodName"`.  Without this, the service will return 500.
 
 ![SOAP Content Type](https://assets.postman.com/postman-docs/soap-content-type.jpg)
 
@@ -80,4 +80,4 @@ Click __Send__ to make your call to the SOAP service. If your call is successful
 
 ## Next steps
 
-Check out the [SOAP template](https://explore.postman.com/templates/7275/public-soap-apis) for lots of sample requests you can try out in Postman.
+Check out the [SOAP template](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) for lots of sample requests you can try out in Postman.
