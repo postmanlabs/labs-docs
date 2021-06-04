@@ -1,39 +1,14 @@
----
-title: "Security Warnings"
-order: 116
-page_id: "security_warnings"
-warning: false
-search_keyword: "api schema, security warnings, schema validation, api security, security validation"
-
----
-
-In Postman, we highly recommend you to follow Security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 3.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security misses and help you understand their implications and possible ways to patch the warnings.
-
-For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
-
-> Security warnings are available only for OpenAPI 3.0 schemas.
-
-You can use Postman to identify any potential security misses when your API is defined.
-
-<img alt="API Schema Potential Security " src="https://assets.postman.com/postman-docs/api-schema-validation.gif"/>
-
-Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
-
-//Add gif here
-
-### Security warnings
-
 The following list describes possible warning messages and potential ways to resolve them.
 
 * [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
+
     * [Security field is not defined](#security-field-is-not-defined)
-    * [Security field is not an array](#security-field-is-not-an-array)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-    * [Security field is missing a scope for OAuth scheme defined in securityScheme object](#security-field-is-missing-a-scope-for-oauth-scheme-defined-in-securityscheme-object)
+    * [Scope for OAuth scheme used in security field not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-not-defined-in-the-securityscheme-declaration)
 * [Reusable security schemes are not defined within components](#reusable-security-schemes-are-not-defined-within-components)
     * [Security scheme object not defined](#security-scheme-object-not-defined)
-* [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
+* [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
@@ -41,15 +16,15 @@ The following list describes possible warning messages and potential ways to res
 * [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
-    * [Server URL uses HTTP protocol](#server-url-uses-http-protocol)
+    * [Global server URL uses HTTP protocol](#global-server-url-uses-http-protocol)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
-* [Operations server configuration allows insecure enforcement of security schemes](#operations-server-configuration-allows-insecure-enforcement-of-security-schemes)
+* [Server configuration of the operation allows insecure enforcement of security schemes](#server-configuration-of-the-operation-allows-insecure-enforcement-of-security-schemes)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
-    * [Server URL is using HTTP protocol](#server-url-is-using-http-protocol)
+    * [Server URL of the operation is using HTTP protocol](#server-url-of-the-operation-is-using-http-protocol)
     * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-as-plain-text)
-* [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
-    * [Authorization URL uses http protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
+* [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
+    * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
 
 ## Global security field should properly enforce security
@@ -58,7 +33,7 @@ The following list describes possible warning messages and potential ways to res
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security property should be defined in the schema. |
+| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
 
 **Resolution:**
 
@@ -69,27 +44,11 @@ paths:
 security:
     - testAuth : []
 ```
-
-### Security field is not an array
-
-| Severity | Issue description | Possible fix |
-| -------- | ----------------- | ------------ |
-| High | An empty object in the security field disables the authentication completely. Anyone can access the operations that do not have a security field defined, without any authentication. | The security property value should be of type `array`. |
-
-**Resolution:**
-
-```yaml
-openapi: 3.0.0
-info:
-paths:
-security: []
-```
-
 ### Security field does not contain any item
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the security field contains an empty array then it means that no security scheme is applied to the operations by default. | The security property should contain at least one item in the array. |
+| High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field should contain at least one item in the array. |
 
 **Resolution:**
 
@@ -105,7 +64,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | An empty object in the security field disables the authentication completely. Anyone can access the API operation without any authentication. | Security array items should not contain an empty object. |
+| High | An empty object in the security field disables the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items should not contain an empty object. |
 
 **Resolution:**
 
@@ -117,11 +76,11 @@ security:
     - testAuth : []
 ```
 
-### Security field is missing a scope for OAuth scheme defined in securityScheme object
+### Scope for OAuth scheme used in security field not defined in the securityScheme declaration
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes defined in the security schemes field should be defined in the global security field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
+| Low | The OAuth2 scopes used in the global security field should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the the OAuth2 security scheme. |
 
 **Resolution:**
 
@@ -147,7 +106,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | Without any reusable security schemes, your API does not globally specify any authentication method for consuming the API operations. This means that anyone can use API operations as long as they know the URLs of the operations and how to invoke them. | Security schemes should be defined in the schema of the component. |
+| High | The components object of the API does not declare any security schemes which can be used in the security field of the API or individual operations. | Security schemes should be defined in the schema of the component. |
 
 **Resolution:**
 
