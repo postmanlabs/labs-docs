@@ -19,7 +19,6 @@ You can use Postman to identify any potential security misses when your API is d
 
 Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
 
-//Add gif here
 ### Security warnings
 
 The following list describes possible warning messages and potential ways to resolve them.
@@ -68,6 +67,7 @@ paths:
 security:
     - testAuth : []
 ```
+
 ### Security field does not contain any item
 
 | Severity | Issue description | Possible fix |
@@ -143,6 +143,7 @@ components:
 ```
 
 ## Security field for an individual operation should properly enforce security
+
 ### Security field for the operation does not contain any item
 
 | Severity | Issue description | Possible fix |
@@ -235,7 +236,7 @@ components:
 servers:
   - url: https://my.api.example.com/
     description: API server
-# ...  
+# ...
 components:
   securitySchemes:
     OAuth2:
@@ -265,7 +266,7 @@ components:
     apiAuth:
       type: http
       scheme: api
-# ...  
+# ...
 security:
   - apiAuth: []
 ```
@@ -306,7 +307,7 @@ security:
 servers:
   - url: https://my.api.example.com/
     description: API server
-# ...  
+# ...
 components:
   securitySchemes:
     OpenIdScheme:
@@ -403,6 +404,7 @@ paths:
 ```
 
 ## Security scheme configuration allows loopholes for credential leaks
+
 ### Authorization URL uses HTTP protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
@@ -416,7 +418,7 @@ components:
   securitySchemes:
      OauthScheme:
         type: oauth2
-        flows: 
+        flows:
           authorizationCode:
             authorizationUrl: https://my.auth.example.com/
 ```
@@ -434,7 +436,7 @@ components:
   securitySchemes:
      OauthScheme:
         type: oauth2
-        flows: 
+        flows:
           authorizationCode:
             tokenUrl: https://my.token.example.com/
 ```
