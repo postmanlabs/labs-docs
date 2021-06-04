@@ -15,9 +15,11 @@ For more information on API Schemas, see [Validating your API Schemas](/docs/des
 
 You can use Postman to identify any potential security misses when your API is defined.
 
-<img alt="API Schema Potential Security " src="https://assets.postman.com/postman-docs/api-schema-validation.gif"/>
+<img alt="API Schema Security " src="https://assets.postman.com/postman-docs/discover-security-warnings.gif"/>
 
 Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
+
+<img alt="API Schema Security " src="https://assets.postman.com/postman-docs/find-fix-for-warnings-learning-center-link.gif"/>
 
 ### Security warnings
 
