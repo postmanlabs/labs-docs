@@ -43,7 +43,7 @@ This will generate a webhook URL which can then be used to post messages to this
 
 ## Configuring Microsoft Teams
 
-1. From the [Integrations](go.postman.co/integrations/browse?category=all) search page, search and select Microsoft Teams from the results.
+From the [Integrations](go.postman.co/integrations/browse?category=all) search page, search and select Microsoft Teams from the results.
 
 [![select ms_teams integration](https://assets.postman.com/postman-docs/msteams-search-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-search-all-q.jpg)
 
@@ -69,9 +69,9 @@ Select **Add Integration**.
 
 In the **Monitor Run Results** page, select the monitor whose results you want to send to Microsoft Teams, and enter the notification URL.
 
-   [![ms_teams monRun](https://assets.postman.com/postman-docs/WS-integration-msTeams-monRun.png)](https://assets.postman.com/postman-docs/WS-integration-msTeams-monRun.png)
+   [![ms_teams monRun](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)
 
-Select the **Add Integration** button to see your monitors in the "Configured Integrations" view. You can also click the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
+Select **Add Integration** to see your monitors in the "Configured Integrations" view. You can also click the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
 
    [![ms_teams monRun](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)
 
