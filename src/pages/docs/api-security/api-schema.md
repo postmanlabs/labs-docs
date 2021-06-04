@@ -1,5 +1,5 @@
 ---
-title: "API Schema"
+title: "Security warnings"
 order: 116
 page_id: "api_schema"
 warning: false
