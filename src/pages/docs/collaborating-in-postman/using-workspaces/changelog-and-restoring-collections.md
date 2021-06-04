@@ -10,14 +10,6 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "SynapseFi"
-    url: "https://www.postman.com/customers/SynapseFI.pdf"
-  - type: link
-    name: "Clarifai"
-    url: "https://www.postman.com/customers/Clarifai.pdf"
   - type: section
     name: "Associated Topics"
   - type: link

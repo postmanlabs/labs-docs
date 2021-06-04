@@ -19,10 +19,10 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Intuit"
-    url: "https://www.postman.com/customers/intuit/"
+    url: "https://www.postman.com/case-studies/intuit/"
   - type: link
     name: "BigCommerce"
-    url: "https://www.postman.com/customers/bigcommerce/"
+    url: "https://www.postman.com/case-studies/bigcommerce/"
   - type: subtitle
     name: "Blog Posts"
   - type: link
