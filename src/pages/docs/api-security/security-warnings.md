@@ -1,3 +1,27 @@
+---
+title: "Security Warnings"
+order: 116
+page_id: "security_warnings"
+warning: false
+search_keyword: "api schema, security warnings, schema validation, api security, security validation"
+
+---
+
+In Postman, we highly recommend you to follow Security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 3.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security misses and help you understand their implications and possible ways to patch the warnings.
+
+For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
+
+> Security warnings are available only for OpenAPI 3.0 schemas.
+
+You can use Postman to identify any potential security misses when your API is defined.
+
+<img alt="API Schema Potential Security " src="https://assets.postman.com/postman-docs/api-schema-validation.gif"/>
+
+Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
+
+//Add gif here
+### Security warnings
+
 The following list describes possible warning messages and potential ways to resolve them.
 
 * [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
@@ -13,7 +37,7 @@ The following list describes possible warning messages and potential ways to res
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
     * [Scope for OAuth scheme used not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-not-defined-in-the-securityscheme-declaration)
-* [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
+* [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
     * [Global server URL uses HTTP protocol](#global-server-url-uses-http-protocol)
@@ -246,17 +270,17 @@ security:
   - apiAuth: []
 ```
 
-### Server URL uses HTTP protocol
+### Global server URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure the URL uses HTTPS protocol. |
+| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 # ...
 components:
@@ -274,13 +298,13 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure the server URL follows HTTPS protocol. |
+| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
 ```yaml
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 # ...  
 components:
@@ -294,13 +318,13 @@ security:
       - read
 ```
 
-## Operations server configuration allows insecure enforcement of security schemes
+## Server configuration of the operation allows insecure enforcement of security schemes
 
 ### Operation accepts credentials from OAuth authentication in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL is a valid URL and follows HTTPS protocol. |
+| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -314,7 +338,7 @@ paths:
     post:
       operationId: addPet
       servers:
-      - url: https://my.api.server.com/
+      - url: https://my.api.example.com/
         description: API server
 ```
 
@@ -322,7 +346,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL is a valid URL and follows HTTPS protocol. |
+| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -336,15 +360,15 @@ paths:
     post:
       operationId: addPet
       servers:
-      - url: https://my.api.server.com/
+      - url: https://my.api.example.com/
         description: API server
 ```
 
-### Server URL is using HTTP protocol
+### Server URL of the operation is using HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the URL uses HTTPS protocol. |
+| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -352,14 +376,14 @@ paths:
 get:
   operationId: getPetsById
   servers:
-    - url: https://test.api.com
+    - url: https://my.api.example.com/
 ```
 
 ### Operation accepts credentials from OpenID Connect authentication as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure server field of the operation follows HTTPS protocol. |
+| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -368,44 +392,49 @@ components:
   securitySchemes:
     OpenIdScheme:
       type: openIdConnect
-      openIdConnectUrl: https://my.api.server.com/
+      openIdConnectUrl: https://my.api.openidconnect.example.com/
 paths:
   "/pets":
     post:
       operationId: addPet
       servers:
-      - url: https://my.api.server.com/
+      - url: https://my.api.example.com/
         description: API server
 ```
 
-## Global server configuration allows insecure enforcement of security schemes
-
-### Authorization URL uses http protocol. Credentials will be transferred as plain text
+## Security scheme configuration allows loopholes for credential leaks
+### Authorization URL uses HTTP protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The server accepts the credentials over an unencrypted network. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the authorization URL is a valid URL and follows HTTPS protocol. |
+| Medium | OAuth authorization credentials are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the authorization URL is a valid URL and follows HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
-type: oauth2
-flows:
-  implicit:
-    authorizationUrl: https://test.com
+components:
+  securitySchemes:
+     OauthScheme:
+        type: oauth2
+        flows: 
+          authorizationCode:
+            authorizationUrl: https://my.auth.example.com/
 ```
 
 ### Token URL uses HTTP protocol
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the token URL is a valid URL and follows HTTPS protocol. |
+| Medium | OAuth authentication tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the token URL is a valid URL and follows HTTPS protocol. |
 
 **Resolution:**
 
 ```yaml
-type: oauth2
-flows:
-  implicit:
-    tokenUrl: https://test.com
+components:
+  securitySchemes:
+     OauthScheme:
+        type: oauth2
+        flows: 
+          authorizationCode:
+            tokenUrl: https://my.token.example.com/
 ```
