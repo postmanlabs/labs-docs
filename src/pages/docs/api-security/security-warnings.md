@@ -1,35 +1,29 @@
 ---
-title: "Security warnings"
+title: "Security Warnings"
 order: 116
-page_id: "api_schema"
+page_id: "security_warnings"
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Token scanner"
-    url: "/docs/api-security/token-scanner/"
-    search_keyword: "api schema, schema validation, api security, security validation"
+search_keyword: "api schema, schema validation, api security, security validation"
 
 ---
 
-In Postman, we highly recommend you to follow "**Security warnings**" at the API definition stage of API development. These set of warnings can be used to govern the security posture of any API definition in the OpenAPI 3.0 format. A security warning does not mean that your API schema is broken, it indicates that there are potential security risks that your APIs might be vulnerable to. Postman will highlight these security misses and help you understand its implications and possible ways to patch them.
+In Postman, we highly recommend you to follow "**Security warnings**" at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 3.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security misses and help you understand their implications and possible ways to patch them.
 
 For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 
 > Security warnings are available only for OpenAPI 3.0 schemas.
 
-You will be able to use Postman to identify any potential security misses when your API is defined.
+You can use Postman to identify any potential security misses when your API is defined.
 
 <img alt="API Schema Potential Security " src="https://assets.postman.com/postman-docs/api-schema-validation.gif"/>
 
-Also, for every security warning that Postman supports, you can deep-dive into each warning, understand its implication and find out ways to apply patches in order to solve the grass root issue highlighted by the warning.
+Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
 
 //Add gif here
 
 ### Security warnings
 
-The following list mentions the warning messages that you may see in the product and potential ways to resolve them.
+The following list describes possible warning messages and potential ways to resolve them.
 
 * [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
     * [Security field is not defined](#security-field-is-not-defined)
@@ -64,7 +58,7 @@ The following list mentions the warning messages that you may see in the product
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | Security property should be defined in the schema. |
+| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security property should be defined in the schema. |
 
 **Resolution:**
 
@@ -80,7 +74,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | An empty object in the security field disables the authentication completely. Anyone can access the operations that do not have a security field defined, without any authentication. | Security property value should be of type array. |
+| High | An empty object in the security field disables the authentication completely. Anyone can access the operations that do not have a security field defined, without any authentication. | The security property value should be of type `array`. |
 
 **Resolution:**
 
@@ -95,7 +89,7 @@ security: []
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the security field contains an empty array then it means that no security scheme is applied to the operations by default. | Security property should contain at least one item in the array. |
+| High | If the security field contains an empty array then it means that no security scheme is applied to the operations by default. | The security property should contain at least one item in the array. |
 
 **Resolution:**
 
@@ -168,7 +162,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | This means that no security scheme is applied to the API operation by default. | Security property in any operation should contain at least one item in the array. |
+| Medium | This means that no security scheme is applied to the API operation by default. | The security property in any operation should contain at least one item in the array. |
 
 **Resolution:**
 
@@ -198,7 +192,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium |  If both the global security field and operation’s security field are not defined then anyone can access the API without any authentication. | Define security property in the operation. |
+| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security property in the operation. |
 
 **Resolution:**
 
@@ -246,7 +240,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public WiFi network. | Make sure the URL uses HTTPS protocol. |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure the URL uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -270,7 +264,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public WiFi network. |Make sure the URL uses HTTPS protocol. |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. |Make sure the URL uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -317,7 +311,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public WiFi network. | Make sure the server URL follows HTTPS protocol. |
+| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure the server URL follows HTTPS protocol. |
 
 **Resolution**:
 
@@ -359,7 +353,6 @@ paths:
       servers:
       - url: https://my.api.server.com/
         description: API server
-
 ```
 
 ### Operation accepts authentication credentials in plain text
@@ -403,7 +396,7 @@ get:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public WiFi network. | Make sure server field of the operation follows HTTPS protocol. |
+| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure server field of the operation follows HTTPS protocol. |
 
 **Resolution**:
 
