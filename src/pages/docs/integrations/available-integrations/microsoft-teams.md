@@ -53,7 +53,7 @@ To add a team activity feed to Microsoft Teams:
 
 Select **Add Integration**.
 
-Give your integration a nickname and provide your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) to receive team updates in Microsoft Teams.
+Give your integration a nickname and provide your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) as the Notification URL to receive team updates in Microsoft Teams.
 
 [![select ms_teams integration](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)
 
