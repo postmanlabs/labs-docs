@@ -30,14 +30,14 @@ The following list describes possible warning messages and potential ways to res
     * [Security field is not defined](#security-field-is-not-defined)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-    * [Scope for OAuth scheme used in security field not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-not-defined-in-the-securityscheme-declaration)
+    * [Scope for OAuth scheme used in security field is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securityscheme-declaration)
 * [Reusable security schemes are not defined within components](#reusable-security-schemes-are-not-defined-within-components)
     * [Security scheme object not defined](#security-scheme-object-not-defined)
 * [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
-    * [Scope for OAuth scheme used not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-not-defined-in-the-securityscheme-declaration)
+    * [Scope for OAuth scheme used is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securityscheme-declaration)
 * [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
@@ -102,7 +102,7 @@ security:
     - testAuth : []
 ```
 
-### Scope for OAuth scheme used in security field not defined in the securityScheme declaration
+### Scope for OAuth scheme used in security field is not defined in the securityScheme declaration
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -195,7 +195,7 @@ paths:
           - testAuth : []
 ```
 
-### Scope for OAuth scheme used not defined in the securityScheme declaration
+### Scope for OAuth scheme used is not defined in the securityScheme declaration
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
