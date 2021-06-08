@@ -6,11 +6,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Healthwise"
-    url: "https://www.postman.com/customers/healthwise.pdf"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Sync your specs"

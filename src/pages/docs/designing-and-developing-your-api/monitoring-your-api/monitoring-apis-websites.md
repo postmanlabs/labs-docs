@@ -12,11 +12,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "HarperDB"
-    url: "https://www.postman.com/customers/harperDB.pdf"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "API monitoring with Postman"
