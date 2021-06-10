@@ -18,10 +18,10 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Ping Identity"
-    url: "https://www.postman.com/customers/pingidentity/"
+    url: "https://www.postman.com/case-studies/pingidentity/"
   - type: link
     name: "iQmetrix"
-    url: "https://www.postman.com/customers/iqmetrix/"
+    url: "https://www.postman.com/case-studies/iqmetrix/"
   - type: subtitle
     name: "Videos"
   - type: link

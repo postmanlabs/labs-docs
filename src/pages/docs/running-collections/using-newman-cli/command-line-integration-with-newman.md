@@ -16,11 +16,6 @@ contextual_links:
   - type: link
     name: "Run Collections with Newman | Postman Level Up"
     url: "https://www.youtube.com/watch?v=SQlwGZj97Y4"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Clarifai"
-    url: "https://www.postman.com/customers/Clarifai.pdf"
   - type: section
     name: "Next Steps"
   - type: link
