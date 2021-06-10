@@ -5,7 +5,7 @@ page_id: "troubleshooting_in_app"
 warning: false
 ---
 
-Postman captures log messages automatically to help you debug unresolved issues, in case something goes wrong in the app. These logs provide you basic information about your activities in the app flow. You can send these log messages to Postman Customer Support to troubleshoot issues when encountered.
+Postman captures log messages automatically to help you debug unresolved issues, in case something goes wrong in the app. These logs provide you basic information about your activities in the Postman app. You can send these log messages to Postman Customer Support to troubleshoot issues when encountered.
 
 ## Viewing logs in macOS
 
@@ -23,4 +23,4 @@ To access logs in Linux OS, go to **View**, select **Developer**, then select **
 
 ## Viewing logs in Microsoft Windows
 
-To access logs in Windows, go to **View**, select **Developer**,  then select **View Logs in File Explorer**.
+To access logs in Windows, go to **View**, select **Developer**, then select **View Logs in File Explorer**.
