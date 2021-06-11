@@ -134,10 +134,16 @@ You can find the current status of your Interceptor integration by selecting the
 
  If you encounter errors during installation or download, check out the following steps to resolve them:
 
-* **`CHROME_NOT_INSTALLED`**: Check whether Chrome is installed and a `NativeMessagingHosts` folder exists at the following location:
+* **`CHROME_NOT_INSTALLED`**: Check if Chrome is installed and a `NativeMessagingHosts` folder exists at the following location:
     * **MacOS**: `~/Library/Application Support/Google/Chrome/NativeMessagingHosts`
     * **Linux**:  `~/.config/google-chrome/NativeMessagingHosts`
     * **Windows** : `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
+
+  If you are using a different flavor of Chromium, such as Chromium, Brave or Edge:
+    1. Create the `NativeMessagingHosts` directory in the location above.
+    1. Install the Interceptor Bridge (refer to [Installing interceptor](#installing-interceptor)).
+    1. Copy `InterceptorBridge` into the above `NativeMessagingHosts` directory.
+
 * **`INTERNET_CONNECTIVITY`**:
     * Check your internet connection.
     * If you are sitting behind a firewall check your inbound and outbound policies.
@@ -163,11 +169,11 @@ If you are unable to use the integration after completing the guided installatio
         * **MacOS / Linux**: `$HOME/.postman`
         * **Windows**: `%USERPROFILE%\.postman\`
 
-For MacOS, the NodeJS downloader should be saved to your ~/Downloads directory.
+For MacOS, the NodeJS downloader should be saved to your `~/Downloads` directory.
 
 For Windows, if you see an installation error in Postman, close Chrome and retry before repeating the installation process.
 
-If the aforementioned troubleshooting steps do not fix the problem, you may need to remove all of Interceptor's dependencies (i.e the manifest file, Interceptor Bridge, and for Windows users, the registry key). To do so, open Postman and navigate to **View** > **Developer** > **Show DevTools (Current View)**. Enter `pm.interceptorInstaller.reset()` to remove all present Interceptor dependencies. You can then [continue installation from step 3](#installing-interceptor).
+If the aforementioned troubleshooting steps do not fix the problem, you may need to remove all of Interceptor's dependencies (such as the manifest file, Interceptor Bridge, and for Windows users, the registry key). To do so, open Postman and navigate to **View** > **Developer** > **Show DevTools (Current View)**. Enter `pm.interceptorInstaller.reset()` to remove all present Interceptor dependencies. You can then [continue installation from step 3](#installing-interceptor).
 
 > If any dependencies cannot be removed due to permission issues, you’ll be prompted to delete them manually.
 
