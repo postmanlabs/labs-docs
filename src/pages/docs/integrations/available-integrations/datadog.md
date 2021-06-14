@@ -68,18 +68,18 @@ This adheres to the standard naming convention that is followed across many Appl
 
 | **Metrics (Old Name)**          | **Metrics (New Name)**    |       **Type**         | **Description**         | **Level**         |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| PostmanMonitors_errors | postman.monitor.run.errors |GAUGE   | The total number of errors across all requests in a monitoring run | Run
-| PostmanMonitors_failedTests | postman.monitor.run.failed_tests | GAUGE  | The total number of failed tests across all requests in a monitoring run | Run
-| PostmanMonitors_passedTests  | postman.monitor.run.passed_tests | GAUGE  | Total number of passed tests across all requests in a monitoring run | Run
-| PostmanMonitors_requestCount  | postman.monitor.run.request_count | GAUGE  | Total number of requests in a monitoring run | Run
-| PostmanMonitors_totalLatencys  | postman.monitor.run.total_latency | GAUGE  | The total latency time for all requests in a monitoring run | Run
-| PostmanMonitor\_run\_httpStatus2XX  | postman.monitor.run.http_status_2xx | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 200 range  | Run  |
-| PostmanMonitor\_run\_httpStatus4XX  | postman.monitor.run.http_status_4xx | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 400 range  | Run  |
-| PostmanMonitor\_run\_httpStatus5XX  | postman.monitor.run.http_status_5xx | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 500 range  | Run  |
-| PostmanMonitor_request_latency  | postman.monitor.request.latency | GAUGE  | The latency for each request in a monitoring run  | Request  |
-| PostmanMonitor_request_failedTests  | postman.monitor.request.failed_tests | GAUGE  | Number of failed tests for each request in a monitoring run  | Request  |
-| PostmanMonitor_request_passedTests  | postman.monitor.request.passed_tests | GAUGE  | Number of passed tests for each request in a monitoring run  | Request  |
-| PostmanMonitor_request_bytes  | postman.monitor.request.bytes | GAUGE  | Total bytes sent and received for each request in a monitoring run  | Request |
+| PostmanMonitors\_errors | postman.monitor.run.errors |GAUGE   | The total number of errors across all requests in a monitoring run | Run
+| PostmanMonitors\_failedTests | postman.monitor.run.failed\_tests | GAUGE  | The total number of failed tests across all requests in a monitoring run | Run
+| PostmanMonitors\_passedTests  | postman.monitor.run.passed\_tests | GAUGE  | Total number of passed tests across all requests in a monitoring run | Run
+| PostmanMonitors\_requestCount  | postman.monitor.run.request\_count | GAUGE  | Total number of requests in a monitoring run | Run
+| PostmanMonitors\_totalLatencys  | postman.monitor.run.total\_latency | GAUGE  | The total latency time for all requests in a monitoring run | Run
+| PostmanMonitor\_run\_httpStatus2XX  | postman.monitor.run.http\_status\_2xx | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 200 range  | Run  |
+| PostmanMonitor\_run\_httpStatus4XX  | postman.monitor.run.http\_status\_4xx | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 400 range  | Run  |
+| PostmanMonitor\_run\_httpStatus5XX  | postman.monitor.run.http\_status\_5xx | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 500 range  | Run  |
+| PostmanMonitor\_request\_latency  | postman.monitor.request.latency | GAUGE  | The latency for each request in a monitoring run  | Request  |
+| PostmanMonitor\_request\_failedTests  | postman.monitor.request.failed\_tests | GAUGE  | Number of failed tests for each request in a monitoring run  | Request  |
+| PostmanMonitor\_request\_passedTests  | postman.monitor.request.passed\_tests | GAUGE  | Number of passed tests for each request in a monitoring run  | Request  |
+| PostmanMonitor\_request\_bytes  | postman.monitor.request.bytes | GAUGE  | Total bytes sent and received for each request in a monitoring run  | Request |
 
 <br />
 
