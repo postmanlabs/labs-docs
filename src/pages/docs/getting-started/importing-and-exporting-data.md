@@ -6,11 +6,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Healthwise"
-    url: "https://www.postman.com/customers/healthwise.pdf"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Sync your specs"
@@ -62,13 +57,13 @@ Postman can import and export Postman data, including collections, environments,
 
 ## Importing data into Postman
 
-You can import (e.g. collections) as well as your API specifications directly into Postman.
+You can import collections or your API specifications directly into Postman.
 
 To import your data into Postman, click **Import** in the upper-left corner.
 
 ![Import modal](https://assets.postman.com/postman-docs/import-modal-new.jpg)
 
-You can import your data via files, folders, links, raw text, or GitHub repositories.
+You can import your data from files, folders, links, raw text, or GitHub repositories.
 
 ### Importing Postman data
 
@@ -86,13 +81,13 @@ Postman no longer supports the collection v1 format and will return an error if 
 
 You can take the following steps to convert the Postman collection format from v1 to v2.
 
-* In the terminal of your choice, enter the following command to install the Postman collection transformer.
+In the terminal of your choice, enter the following command to install the Postman collection transformer.
 
 ```bash
 sudo npm install -g postman-collection-transformer
 ```
 
-* You can retrieve a list of convert options by running it with the ``-h`` flag.
+You can retrieve a list of convert options by running the command with the ``-h`` flag.
 
 ```bash
 postman-collection-transformer convert -h
@@ -109,29 +104,31 @@ postman-collection-transformer convert -h
 | `--retain-ids` | Retains the request and folder IDs during conversion (collection ID is always retained) |
 | `-w`, `--overwrite` | Overwrites the output file if it exists |
 
-* You can convert an individual Postman collection from v1 to v2 by entering the command below.
+You can convert an individual Postman collection from v1 to v2 by entering the command below.
 
-```
+```bash
 postman-collection-transformer convert -i <path to input Postman collection file> -o <path where the output Postman file will be downloaded> -j 1.0.0 -p 2.0.0 -P
 ```
 
-The resulting collection will be in v2 format and downloaded to your target file path. Check out the [Postman Collection Transformer](https://github.com/postmanlabs/postman-collection-transformer) to take a closer look at the collection conversion.
+The resulting collection will be in v2 format and downloaded to your target file path. See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-collection-transformer) for more information on the collection conversion.
 
 ### Importing API specifications
 
-Postman supports the following API specification formats:
+Postman directly supports importing the following formats:
 
 * [OpenAPI 3.0](https://github.com/postmanlabs/openapi-to-postman)
 
-* RAML [0.8](https://github.com/postmanlabs/raml-to-postman), [1.0](https://github.com/postmanlabs/raml1-to-postman)
+* Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman) and [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
+
+* RAML [0.8](https://github.com/postmanlabs/raml-to-postman) and [1.0](https://github.com/postmanlabs/raml1-to-postman)
 
 * [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
 
-* [cURL](https://github.com/postmanlabs/curl-to-postman)
-
 * WADL
 
-* Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman), [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
+* [cURL](https://github.com/postmanlabs/curl-to-postman)
+
+There are also tools on GitHub to convert the following into a Postman collection for import:
 
 * [Runscope](https://github.com/postmanlabs/runscope-to-postman)
 

@@ -14,11 +14,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Sikka"
-    url: "https://www.postman.com/customers/sikka/"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Continuous Testing of APIs"

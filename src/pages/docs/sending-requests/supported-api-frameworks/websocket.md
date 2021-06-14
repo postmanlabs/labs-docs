@@ -90,11 +90,11 @@ You can add details to your request, for example to send additional parameters a
 
 ### Sending parameters
 
-On the **Params** tab, add any parameters you would like to append to the WebSocket URL. This works similarly to [sending parameters](/docs/sending-requests/requests#sending-parameters) in a REST request.
+On the **Params** tab, add any parameters you would like to append to the WebSocket URL. This works similarly to [sending parameters](/docs/sending-requests/requests/#sending-parameters) in a REST request.
 
 ## Configuring headers
 
-On the **Headers** tab, enter any headers you would like to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/requests#configuring-request-headers) in a REST request.
+On the **Headers** tab, enter any headers you would like to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/requests/#configuring-request-headers) in a REST request.
 
 ### Configuring Request Settings
 

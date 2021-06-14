@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Ping Identity"
-    url: "https://www.postman.com/customers/pingidentity/"
+    url: "https://www.postman.com/case-studies/pingidentity/"
   - type: subtitle
     name: "Videos"
   - type: link

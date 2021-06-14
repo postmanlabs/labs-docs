@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Monetary"
-    url: "https://www.postman.com/customers/monetary/"
+    url: "https://www.postman.com/case-studies/monetary/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -73,9 +73,11 @@ Postman Monitoring helps you to stay up to date on the health and performance of
 
 Monitoring is a way to stay up to date on the health and performance of your APIs. Postman's built-in monitoring service helps you consolidate an additional step in your API development lifecycle.
 
-Postman monitors are based on [collections](/docs/sending-requests/intro-to-collections/). Monitors can be scheduled as frequently as every hour for free plans or even every five minutes for paid plans and will run through each request in your collection, similar to the [collection runner](/docs/running-collections/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/sending-requests/managing-environments/) with variables you'd like to utilize during the collection run.
+Postman monitors are based on [collections](/docs/sending-requests/intro-to-collections/). Monitors will run through each request in your collection, similar to the [collection runner](/docs/running-collections/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/sending-requests/managing-environments/) with variables you'd like to utilize during each collection run.
 
 The value of monitors lies in your [test scripts](/docs/writing-scripts/test-scripts/). When running your collection, a monitor will use your tests to validate the responses it's receiving. When one of these tests fail, you can automatically receive an email [notification](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) or configure the available [integrations](/docs/integrations/intro-integrations/) to receive alerts in tools like Slack, PagerDuty, or HipChat.
+
+You can configure your monitors to run as frequently as you would like. For paid plans, monitors can be scheduled to run as often as every five minutes. For free plans, monitors can be scheduled to run as often as every hour.
 
 ## Pricing
 
@@ -156,9 +158,9 @@ There are a few differences between running collections in a Postman monitor and
 
 ### Multi-region monitoring
 
-* When setting up or editing a monitor, you can select multiple geographic regions you'd like your monitor to run from, or opt to auto-select a region. If you are on a Free plan, [Upgrade your Postman plan](https://www.postman.com/pricing) to manually select specific monitoring regions.
+* When setting up or editing a monitor, you can select multiple geographic regions you'd like your monitor to run from if you are on a paid plan, or opt for Postman to auto-select a region for you. If you are on a Free plan, you can [upgrade your Postman plan](https://www.postman.com/pricing) to manually select specific monitoring regions.
 
-<img alt="Multi monitoring region upgrade" src="https://assets.postman.com/postman-docs/multi-monitoring-region-upgrade.jpg"/>
+<img alt="Upgrade for multi-region monitoring" src="https://assets.postman.com/postman-docs/multi-region-monitoring-not-available-free-plan.jpg" width="500px" />
 
 > If you’re interested in a region that’s not listed in the Postman interface, contact the [Postman support team](https://www.postman.com/support/).
 
