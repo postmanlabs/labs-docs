@@ -7,14 +7,9 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Spotinst"
-    url: "https://www.postman.com/case-studies/spotinst.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -42,16 +37,20 @@ Let's review how to [send a basic request](/docs/getting-started/sending-the-fir
 
 ## Creating your first collection
 
-To create a new request from the Overview tab, use the Get Started section at the right of Postman and click **Create a request**.
+You can create a new request from the left sidebar in Postman. Click __New__ &gt; __Request__.
 
-<img alt="Create new request" src="https://assets.postman.com/postman-docs/create-new-request-v8.jpg" width="300px"/>
+<img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v8.jpg"/>
 
-Enter a request in the request builder and click the **Save** button to open the **SAVE REQUEST** modal.
+To create a new request from the Overview tab, use the Get started section at the right of Postman and click Create a request.
+
+<img alt="Create new request overview" src="https://assets.postman.com/postman-docs/create-new-request-v8.jpg" width="300px"/>
+
+Enter a request in the request builder and click **Save** to open the **SAVE REQUEST** modal.
 
 <img alt="Save request modal" src="https://assets.postman.com/postman-docs/save-request-modal-v8.jpg"/>
 
 * As an optional step, enter a new request name. Otherwise, the default name will be the request URL.
-* As an optional step, enter a request description in plain text or using [Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
+* As an optional step, enter a request description in plain text or using [Markdown](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
 
 Save this request to an existing collection, or create a new collection by entering a collection name, and then click the **Save** button.
 

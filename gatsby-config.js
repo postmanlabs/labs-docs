@@ -8,7 +8,6 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-
 module.exports = {
   siteMetadata: {
     title: 'Postman Learning Center',
@@ -78,17 +77,6 @@ module.exports = {
       options: {
         plugins: [
           'gatsby-remark-autolink-headers',
-          // {
-          //   resolve: 'gatsby-remark-embed-video',
-          //   options: {
-          //     width: 700,
-          //     ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-          //     height: 400, // Optional: Overrides optional.ratio
-          //     // Optional: Will remove related videos from the end of an embedded YouTube video.
-          //     related: false,
-          //     noIframeBorder: true, // Optional: Disable insertion of <style> border: 0
-          //   },
-          // },
           'gatsby-remark-responsive-iframe',
           {
             resolve: 'gatsby-remark-prismjs',
@@ -159,6 +147,22 @@ module.exports = {
         environments: ['production', 'development'],
       },
     },
+    {
+      resolve: 'gatsby-plugin-newrelic',
+      options: {
+        configs: {
+          production: {
+            instrumentationType: 'proAndSPA',
+            accountId: process.env.RELIC_ACCOUNT_ID,
+            trustKey: process.env.RELIC_TRUST_KEY,
+            agentID: process.env.RELIC_PRODUCTION_AGENT_ID,
+            licenseKey: process.env.RELIC_LICENSE_KEY,
+            applicationID: process.env.RELIC_PRODUCTION_APPLICATION_ID,
+            beacon: 'bam.nr-data.net',
+            errorBeacon: 'bam.nr-data.net',
+          },
+        },
+      },
+    },
   ],
 };
-

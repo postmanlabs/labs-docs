@@ -17,11 +17,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Raygun"
-    url: "https://www.postman.com/case-studies/raygun.pdf"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Germaphobia collection (see pre-request scripts in action)"

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<section
+<footer
   className="footer"
 >
   <div
@@ -155,7 +155,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-column__link"
-                  href="https://docs.api.getpostman.com/"
+                  href="https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a"
                   onClick={[Function]}
                 >
                   Postman API
@@ -266,7 +266,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-column__link"
-                  href="https://www.postman.com/pricing"
+                  href="https://www.postman.com/pricing/"
                   onClick={[Function]}
                 >
                   Overview
@@ -315,7 +315,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   className="footer-column__link"
-                  href="https://pages.getpostman.com/Resellers-Support.html"
+                  href="https://www.postman.com/support/resellers-support/"
                   onClick={[Function]}
                 >
                   Resellers Support
@@ -516,7 +516,7 @@ exports[`renders correctly 1`] = `
           className="mr-2 pr-sm-3 pl-sm-2 items_noline"
         >
           <a
-            href="https://www.postman.com/legal/eula/"
+            href="https://www.postman.com/legal/terms/"
             id="terms"
             onClick={[Function]}
             rel="noopener noreferrer"
@@ -807,5 +807,5 @@ exports[`renders correctly 1`] = `
     </div>
   </div>
    
-</section>
+</footer>
 `;

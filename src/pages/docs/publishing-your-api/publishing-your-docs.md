@@ -35,7 +35,7 @@ You can publish your API documentation to make it available for public viewing b
 
 Your public documentation will always display up-to-date content representing the current state of your collection. You don’t need to repeat the publication flow each time you want to update your documentation.
 
-Your documentation will include the **Run in Postman** button so users can interact with your API directly in Postman. For example, check out the [Postman API documentation](https://documenter.getpostman.com/view/631643/JsLs/)—generated from a Postman Collection. You can publish your documentation to the API Network or as a template to make your collections publicly available in Postman, aiding developer onboarding and adoption.
+Your documentation will include the **Run in Postman** button so users can interact with your API directly in Postman. For example, check out the [Postman API documentation](https://documenter.postman.com/view/631643/JsLs/)—generated from a Postman Collection. You can publish your documentation to the API Network or as a template to make your collections publicly available in Postman, aiding developer onboarding and adoption.
 
 > You can publish documentation for collections that you created or have permission to edit.
 
@@ -93,7 +93,7 @@ You can customize the style of your public docs by adding a team name and logo v
 
 ## Sharing your public docs
 
-To share your API documentation with your users and the wider Postman community, enable __Collection discovery__ by toggling the switch. This will make your docs and the associated collections available via the Postman [API Network and templates](https://explore.postman.com/).
+To share your API documentation with your users and the wider Postman community, enable __Collection discovery__ by toggling the switch. This will make your docs and the associated collections available via the Postman [API Network and templates](https://www.postman.com/explore).
 
 ![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
@@ -118,6 +118,8 @@ Add listing details for your public documentation, including name, summary, desc
 > If you edit your published docs, the changes will not automatically be reflected in your API network or template listing, so you will need to update the details displayed at [explore.postman.com](https://explore.postman.com) manually.
 
 If you do not want to make your docs discoverable at this time, you can go ahead and publish then add them to the API Network or Postman Templates later.
+
+<iframe loading="lazy" class="mb-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/w-EgqQ8Anvw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Publishing and unpublishing
 

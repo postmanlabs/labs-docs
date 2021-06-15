@@ -10,34 +10,44 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to the Postman API | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=iEtsp6o4AJg"
+  - type: link
+    name: "User Info from the Postman API | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=k2bvdqxDcsU"
+  - type: subtitle
     name: "Next Steps"
   - type: link
     name: "Continuous Integration"
     url: "/docs/running-collections/using-newman-cli/continuous-integration/"
-
+    
 warning: false
 
 ---
 
-The [Postman API](https://docs.api.getpostman.com/) endpoints to help you integrate Postman within your development toolchain.
+The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) endpoints help you to integrate Postman within your development toolchain.
 
 You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account.
 
-You can get started with the API via the **Run in Postman** button at the top of the [Postman API documentation](https://docs.api.getpostman.com/) and use the Postman app to send requests.
+You can get started by forking the collection. For more details regarding the __Forking__ navigate to the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 
 You will need an [API key](#generating-a-postman-api-key) to access the Postman API.
 
 > The Postman API is [rate limited](#rate-limits).
 
+<img alt="Fork Postman API" src="https://assets.postman.com/postman-docs/fork-postman-api-v8.jpg" height="500px"/>
+
 ## Generating a Postman API key
 
 You need a valid API Key to send requests to the Postman API endpoints.
 
-You can generate an API Key directly from your [Postman API Keys page](https://go.postman.co/settings/me/api-keys) or by navigating to the [web dashboard](https://app.getpostman.com/).
+You can generate an API Key directly from your [Postman API Keys page](https://go.postman.co/settings/me/api-keys).
 
-Navigate to the [web dashboard](https://app.getpostman.com/). Select a workspace and open __Integrations__. Locate the Postman API and click __View Details__.
-
-![Workspace Integrations](https://assets.postman.com/postman-docs/workspace-integrations-api.jpg)
+Navigate to the [Postman API Keys page](https://go.postman.co/settings/me/api-keys).
 
 If you do not have any keys yet you will be prompted to create one. Click __Generate API Key__.
 

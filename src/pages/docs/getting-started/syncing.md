@@ -7,14 +7,9 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "HotelBeds"
-    url: "https://www.postman.com/case-studies/Hotelbeds.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -105,7 +100,7 @@ When you reload, Postman automatically retrieves the most recent and up-to-date 
 
 ## Disabling sync
 
-If you or your organization have a requirement to prevent your data from being synced to the Postman cloud, you can use Postman without an account and [manually back up your data locally](/docs/postman/collections/importing-and-exporting-data/#exporting-postman-data).
+If you or your organization have a requirement to prevent your data from being synced to the Postman cloud, you can use Postman without an account and [manually back up your data locally](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
 You can delete already synced data by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](https://go.postman.co/settings/me/team) in order to delete your account.
 

@@ -17,13 +17,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Log Response Data in Collection Runs | Postman Level Up"
+    url: "https://youtu.be/UreV_7fHKiU"
+  - type: link
     name: "Running a collection"
     url: "https://www.youtube.com/watch?v=la0LqQwwKAA"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Related Blog Posts"
-  - type: link
-    name: "Keep track of GitHub issues using a Postman collection"
-    url: "https://blog.postman.com/keep-track-of-github-issues-using-a-postman-collection/"
+    blog_tag: "collections"
 warning: false
 
 ---
@@ -68,7 +69,7 @@ You can optionally choose config parameters for your collection run:
 * An interval delay (milliseconds) between each request.
 * A [data file](/docs/running-collections/working-with-data-files/) for the collection run.
 * Saving responses to the log will allow you to review them but can affect performance.
-* Persisting variables will mean that any variables updated by the run will remain changed after it. If you do not persist variables, changes will not be saved after the run completes. _Note that persisting variables in the collection run will update the current value only. If you have variables set to automatically persist in your Postman settings, each variable initial value will update to the current value after a run._
+* Persisting variables will mean that any variables updated by the run will remain changed after it. If you do not persist variables, changes will not be saved after the run completes. _Note that persisting variables in the collection run will update the current value only._
 * If your requests use cookies, you can optionally disable them for a collection run.
 * Saving cookies means that any values affected by requests during the run will remain after it completes.
 

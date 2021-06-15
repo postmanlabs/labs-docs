@@ -27,21 +27,17 @@ contextual_links:
 
 ---
 
-The Run in Postman button is one way to share a Postman collection (and optional environment) with your users. This button is found in the [Postman API Network](/docs/publishing-your-api/add-api-network/), at the top of [published documentation](/docs/publishing-your-api/publishing-your-docs/) in the web, and also where publishers embed the stand-alone button (like in a README or developer portal).
+The all-new <img alt="Run in Postman button icon" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> button is a way to share a Postman collection (and optional environment) with your users. The live Run in Postman buttons automatically stay updated with changes in the original collection, so you will always get the most recent version of your collection without publishers having to manually update the collection's link. You can also attach a linked environment with this new button, to help consumers make faster API calls.
 
-![Cisco button in network](https://assets.postman.com/postman-docs/ciscoRIPnetwork.png)
-
-![Travefy button](https://assets.postman.com/postman-docs/Travefy+API+RIP+button.jpg)
-
-![button in readme](https://assets.postman.com/postman-docs/foursquareRIPreadme.png)
+![Twitter API button](https://assets.postman.com/postman-docs/twitter-api-RIP-button.jpg)
 
 ## User interaction with your button
 
-When a user comes across your button, they can choose to view the collection in their web browser or import the collection into their Postman app. Then, they can begin interacting with your API.
+When a user comes across <img alt="Run in Postman button icon" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> button, they can choose to fork the collection to their workspace, view the collection in the public workspace, or import the collection into Postman. Then, they can begin interacting with your API. The Run in Postman button allows the consumers to fork your collection, which creates a copy of the collection while maintaining a link to the parent.
 
-![Modal display](https://assets.postman.com/postman-docs/imgurModalRIP.png)
+<img alt="Fork collection for run in postman" src="https://assets.postman.com/postman-docs/fork-collection-for-run-in-postman.jpg" height="350px"/>
 
-This collection imported by users is a copy of the original, so updates made to the original are not updated in these copies. Users must import the latest collection to see updates made to the original collection.
+Run in postman buttons are only available for documentation and embed flows.
 
 > **Security check**: Do not leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
 

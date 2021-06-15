@@ -115,6 +115,10 @@ You can utilize a number of custom configuration options provided by Postman mon
 
 You can configure your monitor to run as often as you would like, automatically. This could be up to every five minutes for a status page or a basic check once a week on your endpoints.
 
+> Scheduling options are limited by plan type. If you are on a paid plan, you can schedule monitors to run as often as every five minutes. If you are on a free plan, you can schedule monitors to run as often as every hour.
+
+<!-- -->
+
 > Frequency affects how quickly your monitoring usage compounds. To learn more about usage limits and overages, see [Pricing](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#pricing).
 
 ### Adding regions
@@ -131,9 +135,9 @@ Static IPs are available on Postman Business and Enterprise plans. This option a
 
 You will receive daily and weekly summaries of your active monitors in Postman and via email.
 
-[![monitor summary](https://assets.postman.com/postman-docs/your-postman-daily-summary-2.jpg)](https://assets.postman.com/postman-docs/your-postman-daily-summary-2.jpg)
+[![monitor summary](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)
 
-You can opt out of daily and/or weekly summaries by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
+You can opt out of daily or weekly summaries by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
 
 When creating or editing a monitor, you can choose to receive email notifications for run failures and errors under **Show Additional Preferences**. You can define up to five recipients and configure when you would like to stop failure notifications for consecutive run failures.
 
@@ -153,7 +157,7 @@ You have the option to **Retry if run fails**. If this is enabled and a failure 
 
 You can configure a **Request timeout** if you'd like to make sure all of your requests run within a certain amount of time. By default, requests do not have a timeout value, however each monitor run has a timeout of five minutes. It is not possible to configure this at the request level.
 
-> Request timeout may not exceed five minutes (300000ms).
+> Request timeout may not exceed five minutes (300000 ms).
 
 ### Adding delays between requests
 

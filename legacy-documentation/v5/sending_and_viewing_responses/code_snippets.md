@@ -50,13 +50,13 @@ For now, Postman supports the following options:
 | Swift | Built-in [NSURLSession][11] |
 
 
-[0]: https://curl.haxx.se/libcurl/c/
-[1]: https://curl.haxx.se/
+[0]: https://curl.se/libcurl/c/
+[1]: https://curl.se/
 [2]: http://restsharp.org/
 [3]: https://golang.org/pkg/net/http/
 [4]: https://github.com/square/okhttp
 [5]: http://unirest.io/java.html
-[6]: http://api.jquery.com/jquery.ajax/
+[6]: https://api.jquery.com/jquery.ajax/
 [7]: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 [8]: https://nodejs.org/api/http.html
 [9]: https://github.com/request/request
@@ -65,9 +65,9 @@ For now, Postman supports the following options:
 [12]: https://github.com/mirage/ocaml-cohttp
 [13]: http://php.net/manual/it/httprequest.send.php
 [14]: https://mdref.m6w6.name/http
-[15]: http://php.net/manual/en/ref.curl.php
+[15]: https://www.php.net/manual/en/ref.curl.php
 [16]: https://docs.python.org/3/library/http.client.html
 [17]: http://docs.python-requests.org/en/master/
-[18]: http://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html
+[18]: https://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html
 [19]: https://www.gnu.org/software/wget/
-[20]: https://github.com/jkbrzt/httpie
+[20]: https://github.com/httpie/httpie

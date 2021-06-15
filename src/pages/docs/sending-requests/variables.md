@@ -2,7 +2,7 @@
 title: "Using variables"
 order: 24
 page_id: "variables"
-search_keyword: "collectionVariables, iterationData, collectionVariables.set, collectionVariables.get, JSON.stringify, JSON.parse, base_url, pm.globals.set, globals.set, pm.collectionVariables.set, collectionVariables.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.collectionVariables.get, collectionVariables.get, pm.environment.get, environment.get, pm.iterationData.get, iterationData.get" 
+search_keyword: "collectionVariables, iterationData, collectionVariables.set, collectionVariables.get, JSON.stringify, JSON.parse, base_url, pm.globals.set, globals.set, pm.collectionVariables.set, collectionVariables.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.collectionVariables.get, collectionVariables.get, pm.environment.get, environment.get, pm.iterationData.get, iterationData.get"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -179,7 +179,7 @@ You can also [define collection variables in scripts](#defining-variables-in-scr
 
 You can add and edit variables at any time. All you need to include for a new variable is a name—you can choose to supply an initial value but can alternatively set it later, including from scripts. Use the checkbox to enable or disable a variable.
 
-![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)
+[![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)](https://assets.postman.com/postman-docs/collection-variables-v8.jpg)
 
 Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Sharing and persisting data](#sharing-and-persisting-data) for more on local vs synced variables.
 
@@ -302,13 +302,11 @@ Your local session in Postman can use values that are transient and only visible
 
 > For example, your team could have a shared API key and individual API keys—you could do more experimental development work locally using your personal key, but use the shared key for team collaboration. Similarly, you could have a variable that represents exploratory work you're doing locally but are not ready to share with the team—you can later choose to persist the local data so that others on your team can also access it.
 
-When you create or edit a variable, you can enter both an initial and a current value. You can choose to leave the current value empty, in which case it will default to the initial value. If you specify a current value, it will be local only to your instance—the __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
+When you create or edit a variable, you can enter both an initial and a current value. When you create a new variable in the UI, if you leave the current value empty, it will auto-fill with the initial value. If you specify a current value, it will be local only to your instance—the __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
 
 > You can only edit the initial value of an environment variable if you have edit access to the environment itself. Without edit access to the environment, you can only edit the current value and your edit will not be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
-
-> You can set Postman to [automatically persist](/docs/getting-started/settings/) your variable values.
 
 You can edit a current value inline from the environment quick look:
 

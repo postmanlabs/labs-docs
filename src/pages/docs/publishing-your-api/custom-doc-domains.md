@@ -9,7 +9,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Imgur"
-    url: "https://www.postman.com/resources/case-studies/imgur/"
+    url: "https://www.postman.com/case-studies/imgur/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -56,7 +56,7 @@ To verify the domain, check the __I've added the TXT and CNAME records__ checkbo
 
 [![verify_domain](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)
 
-> Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain has CAA records set, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt issue this certificate, refer to the [LetsEncrypt Documentation](https://letsencrypt.org/docs/caa).
+> Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain has CAA records set, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt issue this certificate, refer to the [LetsEncrypt Documentation](https://letsencrypt.org/docs/caa/).
 
 If you don't want to verify the domain now, click __Verify Later__.
 

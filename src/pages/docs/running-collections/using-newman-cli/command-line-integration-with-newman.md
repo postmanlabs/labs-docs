@@ -12,15 +12,10 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
+    name: "Videos"
   - type: link
-    name: "Clarifai"
-    url: "https://www.postman.com/case-studies/Clarifai.pdf"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Newman v3"
-    url: "https://blog.postman.com/newman-v3/"
+    name: "Run Collections with Newman | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=SQlwGZj97Y4"
   - type: section
     name: "Next Steps"
   - type: link
@@ -37,7 +32,7 @@ Newman is a command line Collection Runner for Postman. It allows you to run and
 
 Newman maintains feature parity with Postman and allows you to run collections the way they are executed inside the collection runner in Postman.
 
-Newman resides in the [NPM registry](https://www.npmjs.org/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
+Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
 [![newman gif](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
 
@@ -55,7 +50,7 @@ We'll cover these topics to learn command line integration with Newman:
 
 Newman is built on Node.js. To run Newman, make sure you have Node.js installed.
 
-You can [download and install](http://nodejs.org/download/) Node.js on Linux, Windows, and Mac OSX.
+You can [download and install](https://nodejs.org/en/download/current/) Node.js on Linux, Windows, and Mac OSX.
 
 After you install Node.js, Newman is just a command away. Install Newman from npm globally on your system, which allows you to run it from anywhere.
 
@@ -169,7 +164,7 @@ You can use `-x` or `--suppress-exit-code` to override the default exit code for
 You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1, which can then be picked up by a CI tool or build system.
 
 ```bash
-$ newman run PostmanCollection.json -e environment.json --bail newman
+$ newman run PostmanCollection.json -e environment.json --bail
 ```
 
 ## Example collection with failing tests
@@ -207,9 +202,9 @@ $ newman run PostmanCollection.json -e environment.json --bail newman
                     Failing Tests"
 ```
 
-The results of all tests and requests can be exported into a file and later imported into Postman for further analysis. Use the JSON reporter and a file name to save the runner output into a file.
+The results of all tests and requests can be exported into a file. Use the JSON reporter and a file name to save the output into a file.
 
-```bash
+```
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
@@ -284,7 +279,7 @@ $ newman run file-upload.postman_collection.json
 Newman has been built as a library from the ground up. It can be extended and used in various ways. You can use it as follows in your Node.js code:
 
 ```javascript
-var newman = require('newman'); // require newman in your project
+var newman = require('newman'); // require Newman in your project
 
 // call newman.run to pass `options` object and wait for callback
 newman.run({
@@ -299,7 +294,7 @@ newman.run({
 ## Custom reporters
 
 Custom reporters come in handy when one would want to generate collection run reports that cater to very specific use cases.
-For instance, logging out the response body when a request (or it's tests) fail, and so on.
+For instance, logging out the response body when a request (or its tests) fail, and so on.
 
 ## Building custom reporters
 
@@ -318,15 +313,13 @@ function (emitter, reporterOptions, collectionRunOptions) {
 };
 ```
 
-1. Publish your reporter using `npm publish`, or use your reporter locally [see usage instructions][7].
+1. Publish your reporter using `npm publish`, or use your reporter locally. See the usage instructions for more information.
 
-Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. You can find working reporter examples  in [working reporter examples][8].
+Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported.
 
 ## Using custom reporters
 
-In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]:
-
-Install the reporter package.
+In order to use the custom reporter, it will have to be installed first. For instance, to use the Newman TeamCity reporter, install the reporter package:
 
 ```bash
 npm install newman-reporter-teamcity

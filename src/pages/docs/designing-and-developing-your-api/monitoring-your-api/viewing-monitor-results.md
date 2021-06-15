@@ -9,7 +9,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Monetary"
-    url: "https://www.postman.com/resources/case-studies/monetary/"
+    url: "https://www.postman.com/case-studies/monetary/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -69,7 +69,7 @@ The upper section charts your monitor's average response time for each run, whil
 
 ![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-with-hover.jpg)
 
-> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/postman/monitors/viewing-monitor-results/#console-log).
+> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/#console-log).
 
 ### Individual requests
 
@@ -93,7 +93,7 @@ You can filter by request to compare an individual request's response time in di
 
 You can filter by run type to compare how the response time changes between manual runs, scheduled runs, and webhook runs. Click to open the drop-down menu **Type: All**, then select the type of run you'd like to analyze further.
 
-> Manual runs are initiated in Postman or are triggered by the [Postman API](https://documenter.getpostman.com/view/631643/JsLs/?version=latest#5b277ca0-7114-e04e-f1f5-246fbbd6d973). Scheduled runs are initiated by the schedule you set when creating or editing your monitor. Webhook runs are initiated by integrations you've created.
+> Manual runs are initiated in Postman or are triggered by the [Postman API](https://documenter.postman.com/view/631643/JsLs/?version=latest#5b277ca0-7114-e04e-f1f5-246fbbd6d973). Scheduled runs are initiated by the schedule you set when creating or editing your monitor. Webhook runs are initiated by integrations you've created.
 
 #### Filtering by run result
 
