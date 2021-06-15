@@ -19,27 +19,24 @@ Setting up a Splunk integration requires you to get an HTTP Event Collector (HEC
 
 ## Retrieving your Splunk HEC token
 
-Log in to [Splunk](https://login.splunk.com) and select **Integrations** in the header toolbar.
+Log in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk](https://docs.splunk.com/Documentation/Splunk/8.1.0/Metrics/GetMetricsInOther#Get_metrics_in_from_clients_over_HTTP_or_HTTPS
+) to create and save your HTTP Event Collector token (HEC token). Save the API Key to configure the Postman Splunk integration.
 
-https://docs.splunk.com/Documentation/Splunk/8.1.0/Metrics/GetMetricsInOther#Get_metrics_in_from_clients_over_HTTP_or_HTTPS
+![save splunk HEC token](https://assets.postman.com/postman-docs/datadog-get-api-key-bb.jpg)
 
-Save the API Key to use later.
+## Configuring Postman Splunk integration
 
-![get datadog integrations API key](https://assets.postman.com/postman-docs/datadog-get-api-key-bb.jpg)
+1. On your Postman Home page, navigate to **Integrations**, select **Browse All Integrations**, and select **Splunk** in the list of third-party integrations.
 
-## Configuring Postman Monitors
-
-1. On your Postman Home page, navigate to **Integrations**, click **Browse All Integrations**, and click **Splunk** in the list of third-party integrations.
-
-   [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-all-search.jpg)](https://assets.postman.com/postman-docs/datadog-all-search.jpg)
+   [![splunk integrations search all](https://assets.postman.com/postman-docs/datadog-all-search.jpg)](https://assets.postman.com/postman-docs/datadog-all-search.jpg)
 
 1. You can select **View All** to see all integrations already created by your team.
 
-   [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
+   [![splunk integrations view all](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
 
-1. Select **Add Integration** to start the configuration process.
+1. Select **Splunk** to start the configuration process.
 
-   <img alt="Add integration datadog" src="https://assets.postman.com/postman-docs/datadog-save-add-integration.jpg" width="300px"/>
+   [![splunk integrations view all](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
 
 1. To send your monitor metrics and events to Splunk:
 
@@ -48,11 +45,29 @@ Save the API Key to use later.
    * Enter your Splunk HEC token, as described above.
    * Enter your Splunk host URL and port.
 
-1. Select the **Add Integration** button.
+   [![splunk integrations view all](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
+
+1. Select **Add Integration** to save the configuration.
 
 ## Viewing data in Splunk
 
 As soon as your monitor runs, the data will start flowing into Splunk.
+
+### Viewing data in a list
+
+1. Navigate to the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
+
+1. Enter a **metric** to search for and select it from the results to view details regarding it.
+
+### Viewing data as a Pivot table
+
+1. Navigate to the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
+
+1. Select **Visualization** and enter a **metric** to search for.
+
+1. Select **Pivot**.
+
+1. 
 
 [![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
 
