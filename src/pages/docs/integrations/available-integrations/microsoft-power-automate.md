@@ -22,7 +22,7 @@ contextual_links:
 
 Microsoft Power Automate enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
 
-You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a Microsoft Flow Webhook URL.
+You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a Microsoft Power Automate Webhook URL.
 
 ## Configuring Microsoft Power Automate Integration
 
@@ -37,9 +37,9 @@ You can configure Microsoft Power Automate with Postman to monitor run results, 
 
 ## Add a team activity feed to Microsoft Power Automate
 
-The activity feed is where you can track changes made to your collections and within your team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
+The activity feed is where you can track changes made to your collections and within your team. Integrating with Microsoft Power Automate gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
-To add a team activity feed to Microsoft Flow:
+To add a team activity feed to Microsoft Power Automate:
 
 1. Select the **Add Integration** button.
 1. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
@@ -47,11 +47,11 @@ To add a team activity feed to Microsoft Flow:
 
 [![microsoft_team_activity](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
 
-## Back up your Postman Collections in Microsoft Flow
+## Back up your Postman Collections in Microsoft Power Automate
 
-It’s important to back up your Postman Collections for safekeeping. Microsoft Flow helps you do this with services like Box (a cloud-based storage solution), but you can also use it to backup to your custom DB2 instance.
+It’s important to back up your Postman Collections for safekeeping. Microsoft Power Automate helps you do this with services like Box (a cloud-based storage solution), but you can also use it to backup to your custom DB2 instance.
 
-To back up your Postman Collections in Microsoft Flow:
+To back up your Postman Collections in :
 
 1. Click the **Add Integration** button.
 1. In the **Backup your Postman Collections** page:
@@ -62,37 +62,37 @@ To back up your Postman Collections in Microsoft Flow:
 
 [![microsoft_flow_backup](https://assets.postman.com/postman-docs/WS-integration-msFlow-backupcollections.png)](https://assets.postman.com/postman-docs/WS-integration-msFlow-backupcollections.png)
 
-## See collection activity feed in Microsoft Flow
+## See collection activity feed in Microsoft Power Automate
 
-The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
+The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Microsoft Power Automate gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
-To see collection activity feed in Microsoft Flow:
+To see collection activity feed in Microsoft Power Automate:
 
 1. Click the **Add Integration** button.
 2. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
 3. Click the **Add Integration** button.
 
-## Send Monitor run results in Microsoft Flow
+## Send Monitor run results in Microsoft Power Automate
 
-Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Flow integration, you can use those results by connecting to other available services.
+Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Power Automate integration, you can use those results by connecting to other available services.
 
-To send monitor run results to Microsoft Flow:
+To send monitor run results to Microsoft Power Automate:
 
 1. Click the **Add Integration** button.
-1. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Flow.
+1. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Power Automate.
 1. Click the **Add Integration** button.
 
 [![microsoft_mon_runs](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
-Your integration has been set up successfully. Now, whenever a monitor runs, you should get a notification on your Flow mobile app.
+Your integration has been set up successfully. Now, whenever a monitor runs, you should get a notification on your Microsoft Power Automate mobile app.
 
 [![see notifications](https://assets.postman.com/postman-docs/58858362.png)](https://assets.postman.com/postman-docs/58858362.png)
 
-## Get the Microsoft Flows webhook URL
+## Get the Microsoft Power Automate webhook URL
 
-Log in to [Microsoft Flow](https://flow.microsoft.com/), and go to `My Flows`. Select `Create from Blank` in the top-right corner.
+Log in to [Microsoft Power Automate](https://flow.microsoft.com/), and go to `My Flows`. Select `Create from Blank` in the top-right corner.
 
 [![create connector](https://assets.postman.com/postman-docs/58858272.png)](https://assets.postman.com/postman-docs/58858272.png)
 
@@ -246,7 +246,7 @@ For different types of integrations, the JSON schema varies. The following shows
 
 [![request](https://assets.postman.com/postman-docs/58858289.png)](https://assets.postman.com/postman-docs/58858289.png)
 
-Once that is done, click on `New Step → Add an Action` and configure your specific service. For this demo, let's connect your Postman Monitor to the Microsoft Flow mobile app. So, on every Monitor run, you will receive an in-app notification in the Microsoft Flow mobile app. Select `Notifications` from the list of services and choose the `Send me a mobile notification` action.
+Once that is done, click on `New Step → Add an Action` and configure your specific service. For this demo, let's connect your Postman Monitor to the Microsoft Power Automate mobile app. So, on every Monitor run, you will receive an in-app notification in the Microsoft Power Automate mobile app. Select `Notifications` from the list of services and choose the `Send me a mobile notification` action.
 
 [![add action](https://assets.postman.com/postman-docs/58858298.png)](https://assets.postman.com/postman-docs/58858298.png)
 
@@ -256,6 +256,6 @@ You can customize the text notifications by choosing your wording and adding con
 
 [![enter text](https://assets.postman.com/postman-docs/58858318.png)](https://assets.postman.com/postman-docs/58858318.png)
 
-Once this is done, click on `Create Flow` on the top-right corner. Once your flow has been created, you will be needing the webhook URL generated by Flow. To obtain that, click on the `Request` trigger and you will find your generated webhook URL.
+Once this is done, click on `Create Flow` on the top-right corner. Once your flow has been created, you will be needing the webhook URL generated by Microsoft Power Automate. To obtain that, click on the `Request` trigger and you will find your generated webhook URL.
 
 [![generated webhook URL](https://assets.postman.com/postman-docs/58858329.png)](https://assets.postman.com/postman-docs/58858329.png)
