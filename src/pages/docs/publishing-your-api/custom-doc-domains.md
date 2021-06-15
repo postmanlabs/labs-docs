@@ -84,4 +84,4 @@ When your domain is verified, you can use it to [publish your API documentation]
 
 ## Next steps
 
-You can make your documentation more discoverable by adding it to the [API Network](/docs/publishing-your-api/add-api-network/) or [Postman Templates](/docs/publishing-your-api/add-templates/).
+You can make your documentation more discoverable by adding it to your [Postman public workspaces](/docs/publishing-your-api/publish-public-api).
