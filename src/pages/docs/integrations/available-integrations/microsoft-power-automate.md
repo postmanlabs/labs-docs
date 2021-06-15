@@ -45,7 +45,7 @@ To add a team activity feed to Microsoft Power Automate:
 1. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
 1. Select **Add Integration**.
 
-[![microsoft_team_activity](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
+![microsoft_team_activity](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.jpg)
 
 ## Back up your Postman Collections in Microsoft Power Automate
 
@@ -60,7 +60,7 @@ To back up your Postman Collections in Microsoft Power Automate:
    * Enter an identifier for this integration.
 1. Select **Add Integration**.
 
-[![microsoft_flow_backup](https://assets.postman.com/postman-docs/WS-integration-msFlow-backupcollections.png)](https://assets.postman.com/postman-docs/WS-integration-msFlow-backupcollections.png)
+![microsoft_flow_backup](https://assets.postman.com/postman-docs/msflows-backup-col-save-config.jpg)
 
 ## See collection activity feed in Microsoft Power Automate
 
@@ -72,6 +72,8 @@ To see collection activity feed in Microsoft Power Automate:
 2. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
 3. Select **Add Integration**.
 
+![send collection activity feed configuration](https://assets.postman.com/postman-docs/msflows-post-col-acti.jpg)
+
 ## Send Monitor run results in Microsoft Power Automate
 
 Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Power Automate integration, you can use those results by connecting to other available services.
@@ -82,23 +84,23 @@ To send monitor run results to Microsoft Power Automate:
 1. On the **Monitor Run Results** page, select the monitor you want to send to Microsoft Power Automate.
 1. Select **Add Integration**.
 
-[![microsoft_mon_runs](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)
+![microsoft_mon_runs](https://assets.postman.com/postman-docs/msflows-post-monitoring-res.jpg)
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
 Your integration has been set up successfully. Now, whenever a monitor runs, you should get a notification on your Microsoft Power Automate mobile app.
 
-[![see notifications](https://assets.postman.com/postman-docs/58858362.png)](https://assets.postman.com/postman-docs/58858362.png)
+![see notifications](https://assets.postman.com/postman-docs/58858362.jpg)
 
 ## Get the Microsoft Power Automate webhook URL
 
 Log in to [Microsoft Power Automate](https://flow.microsoft.com/), and go to `My Flows`. Select `Create from Blank` in the top-right corner.
 
-[![create connector](https://assets.postman.com/postman-docs/58858272.png)](https://assets.postman.com/postman-docs/58858272.png)
+![create connector](https://assets.postman.com/postman-docs/58858272.jpg)
 
 To add the first step, enter `request` in the search bar, and select `Request / Response - Request` from the `Triggers` list.
 
-[![select trigger](https://assets.postman.com/postman-docs/58858278.png)](https://assets.postman.com/postman-docs/58858278.png)
+![select trigger](https://assets.postman.com/postman-docs/58858278.jpg)
 
 For different types of integrations, the JSON schema varies. The following shows which schema to use for each one.
 
@@ -244,18 +246,18 @@ For different types of integrations, the JSON schema varies. The following shows
 }
 ```
 
-[![request](https://assets.postman.com/postman-docs/58858289.png)](https://assets.postman.com/postman-docs/58858289.png)
+![request](https://assets.postman.com/postman-docs/58858289.jpg)
 
 Once that is done, select `New Step → Add an Action` and configure your specific service. For this demo, let's connect your Postman Monitor to the Microsoft Power Automate mobile app. So, on every Monitor run, you will receive an in-app notification in the Microsoft Power Automate mobile app. Select `Notifications` from the list of services and choose the `Send me a mobile notification` action.
 
-[![add action](https://assets.postman.com/postman-docs/58858298.png)](https://assets.postman.com/postman-docs/58858298.png)
+![add action](https://assets.postman.com/postman-docs/58858298.jpg)
 
-[![notifications](https://assets.postman.com/postman-docs/58858309.png)](https://assets.postman.com/postman-docs/58858309.png)
+![notifications](https://assets.postman.com/postman-docs/58858309.jpg)
 
 You can customize the text notifications by choosing your wording and adding content derived from your Postman Monitor run results.
 
-[![enter text](https://assets.postman.com/postman-docs/58858318.png)](https://assets.postman.com/postman-docs/58858318.png)
+![enter text](https://assets.postman.com/postman-docs/58858318.jpg)
 
 Once this is done, select `Create Flow` on the top-right corner. Once your flow has been created, you will need the webhook URL generated by Microsoft Power Automate. To obtain that, select `Request` and you will see the generated webhook URL.
 
-[![generated webhook URL](https://assets.postman.com/postman-docs/58858329.png)](https://assets.postman.com/postman-docs/58858329.png)
+![generated webhook URL](https://assets.postman.com/postman-docs/58858329.jpg)
