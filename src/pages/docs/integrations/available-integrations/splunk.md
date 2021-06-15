@@ -22,21 +22,21 @@ Setting up a Splunk integration requires you to get an HTTP Event Collector (HEC
 Log in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk](https://docs.splunk.com/Documentation/Splunk/8.1.0/Metrics/GetMetricsInOther#Get_metrics_in_from_clients_over_HTTP_or_HTTPS
 ) to create and save your HTTP Event Collector token (HEC token). Save the HEC token to configure the Postman Splunk integration.
 
-![save splunk HEC token](https://assets.postman.com/postman-docs/datadog-get-api-key-bb.jpg)
+![save splunk HEC token](https://assets.postman.com/postman-docs/splunk-http-event-collection-token-created.jpg)
 
 ## Configuring Postman Splunk integration
 
 1. On your Postman Home page, navigate to **Integrations**, select **Browse All Integrations**, and select **Splunk** in the list of third-party integrations.
 
-   [![splunk integrations search all](https://assets.postman.com/postman-docs/datadog-all-search.jpg)](https://assets.postman.com/postman-docs/datadog-all-search.jpg)
+   [![splunk integrations search all](https://assets.postman.com/postman-docs/splunk-all-search.jpg)](https://assets.postman.com/postman-docs/splunk-all-search.jpg)
 
 1. You can select **View All** to see all integrations already created by your team.
 
-   [![splunk integrations view all](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
+   [![splunk integrations view all](https://assets.postman.com/postman-docs/splunk-view-all.jpg)](https://assets.postman.com/postman-docs/splunk-view-all.jpg)
 
 1. Select **Splunk** to start the configuration process.
 
-   [![splunk integrations view all](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
+   [![splunk integrations view all](https://assets.postman.com/postman-docs/splunk-all-search.jpg)](https://assets.postman.com/postman-docs/splunk-all-search.jpg)
 
 1. To send your monitor metrics and events to Splunk:
 
@@ -45,7 +45,7 @@ Log in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk](
    * Enter your Splunk HEC token, as described above.
    * Enter your Splunk host URL and port.
 
-   [![splunk integrations view all](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
+   [![splunk integration configuration](https://assets.postman.com/postman-docs/splunk-add-integration.jpg)](https://assets.postman.com/postman-docs/splunk-add-integration.jpg)
 
 1. Select **Add Integration** to save the configuration.
 
@@ -59,6 +59,11 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 1. Enter a **metric** to search for and select it from the results to view details regarding it.
 
+[![splunk metrics search](https://assets.postman.com/postman-docs/splunk-search-events-metric-example.jpg)](https://assets.postman.com/postman-docs/splunk-search-events-metric-example.jpg)
+
+[![splunk metric details](https://assets.postman.com/postman-docs/splunk-search-events-metric-example2.jpg)](https://assets.postman.com/postman-docs/splunk-search-events-metric-example2.jpg)
+
+
 ### Viewing data as a Pivot table
 
 1. Navigate to the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
@@ -69,8 +74,6 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 1. Select the metrics and filters you need to visualize on the table.
 
-[![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
+[![splunk pivot table](https://assets.postman.com/postman-docs/splunk-search-event-pivot-example.jpg)](https://assets.postman.com/postman-docs/splunk-search-event-pivot-example.jpg)
 
 Once the data is present in Splunk, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and environment name/uid (if present).
-
-[![datadog filters](https://assets.postman.com/postman-docs/58831776.png)](https://assets.postman.com/postman-docs/58831776.png)
