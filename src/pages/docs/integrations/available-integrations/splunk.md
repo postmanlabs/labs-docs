@@ -59,7 +59,7 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 1. Enter a **metric** to search for and select it from the results to view details regarding it.
 
-[![splunk metrics search](https://assets.postman.com/postman-docs/splunk-search-events-metric-example.jpg)](https://assets.postman.com/postman-docs/splunk-search-events-metric-example.jpg)
+[![splunk metrics search](https://assets.postman.com/postman-docs/splunk-search-events-metric-example3.jpg)](https://assets.postman.com/postman-docs/splunk-search-events-metric-example3.jpg)
 
 [![splunk metric details](https://assets.postman.com/postman-docs/splunk-search-events-metric-example2.jpg)](https://assets.postman.com/postman-docs/splunk-search-events-metric-example2.jpg)
 
