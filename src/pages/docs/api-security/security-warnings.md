@@ -19,7 +19,7 @@ You can use Postman to identify any potential security misses when your API is d
 
 Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
 
-<img alt="API Schema Security " src="https://assets.postman.com/postman-docs/find-fix-for-warnings-learning-center-link.gif"/>
+<img alt="Possible fix security warnings" src="https://assets.postman.com/postman-docs/possible-fix-for-security-warnings.gif"/>
 
 ### Security warnings
 
