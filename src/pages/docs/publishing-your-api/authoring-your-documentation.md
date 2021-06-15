@@ -70,13 +70,13 @@ When you create a new request using the __New__ button, you will be prompted to 
 
 To add a description to an existing request, open the request in Postman and edit the request detail.
 
-<img alt= "Edit Request" src="https://assets.postman.com/postman-docs/edit-request.jpg" width="350px"/>
+![Request Description](https://assets.postman.com/postman-docs/edit-your-request-description-v8.jpg)
 
-![Request Description](https://assets.postman.com/postman-docs/edit-request-description.jpg)
+![Request Description](https://assets.postman.com/postman-docs/edit-your-request-description-v8-2.jpg)
 
 Descriptions will appear in the request section in your documentation.
 
-<img alt="Request Description in Docs" src="https://assets.postman.com/postman-docs/request-in-docs.jpg" width="350px"/>
+![Request Description](https://assets.postman.com/postman-docs/request-description-v8-2.jpg)
 
 You can also edit the request detail including the description directly from your docs in the browser—editable text will highlight on hover.
 
