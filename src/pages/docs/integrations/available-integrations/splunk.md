@@ -67,6 +67,8 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 1. Select **Pivot**.
 
+1. Select the metrics and filters you need to visualize on the table.
+
 [![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
 
 Once the data is present in Splunk, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and environment name/uid (if present). You can also combine different metrics to create a dashboard.
