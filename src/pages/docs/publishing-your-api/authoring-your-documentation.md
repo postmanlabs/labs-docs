@@ -100,7 +100,7 @@ You can include the type of authorization required to access your APIs in your d
 
 If one of your endpoints requires an authorization type that varies from the collection, you can add that authorization type to the request in the request tab, and it will be rendered in the documentation.
 
-![Auth display](https://assets.postman.com/postman-docs/Auth+for+a+specific+request.jpg)
+![Auth display](https://assets.postman.com/postman-docs/request-auth-v8.jpg)
 
 ## Using examples in your docs
 
@@ -108,15 +108,15 @@ You can include [example](/docs/sending-requests/examples/) request and response
 
 Any body data included in your request will appear in the endpoint section of your documentation.
 
-![Body Data](https://assets.postman.com/postman-docs/body-json.jpg)
+![Body Data](https://assets.postman.com/postman-docs/request-response-body-v8.jpg)
 
-You can also create an example to use for a request. Click **Examples** > **Add Example**.
+You can also create an example to use for a request. Select **...** > **Add example**.
 
-![Add Example](https://assets.postman.com/postman-docs/add-example.jpg)
+![Add Example](https://assets.postman.com/postman-docs/request-more-add-example-v8.jpg)
 
-Create the example you want to add and click **Save Example**.
+Create the example you want to add and select **Save**.
 
-![Body Example](https://assets.postman.com/postman-docs/Create+an+example.jpg)
+![Body Example](https://assets.postman.com/postman-docs/request-save-response-v8.jpg)
 
 Any data you include in the example will appear on the right, in the docs example code sidebar, as the response body and headers.
 
