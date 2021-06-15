@@ -21,42 +21,48 @@ After you set up the integration, you can view real-time alerts based on the res
 
 ## Retrieving the BigPanda API key
 
-1. Log in to your [BigPanda](https://www.bigpanda.io/) account and select "Integrations" in the header toolbar, then click the **New Integration** button.
+1. Log in to your [BigPanda](https://www.bigpanda.io/) account and select "Integrations" in the header toolbar, then select the **New Integration**.
 
-[![bigpanda integrations](https://assets.postman.com/postman-docs/WS-integrations_bigPanda_details2.png)](https://assets.postman.com/postman-docs/WS-integrations_bigPanda_details2.png)
+1. Select "Alerts REST API" and then select the **Integrate**.
 
-1. Click "Alerts REST API" and then click the **Integrate** button.
+   ![alerts REST API](https://assets.postman.com/postman-docs/58834897.jpg)
 
-   [![alerts REST API](https://assets.postman.com/postman-docs/58834897.png)](https://assets.postman.com/postman-docs/58834897.png)
+1. To generate the App key, enter a name for the integration and select the **Generate App Key**.
 
-1. To generate the App key, enter a name for the integration and click the **Generate App Key** button.
-
-   [![generate app key](https://assets.postman.com/postman-docs/bigPanda_generateAppkey.png)](https://assets.postman.com/postman-docs/bigPanda_generateAppkey.png)
+   ![generate app key](https://assets.postman.com/postman-docs/bigPanda_generateAppkey.jpg)
 
    The generated App Key displays.
 
-   [![results app key](https://assets.postman.com/postman-docs/bigPanda-appKey.png)](https://assets.postman.com/postman-docs/bigPanda-appKey.png)
+   ![results app key](https://assets.postman.com/postman-docs/bigPanda-appKey.jpg)
 
 1. Save the generated App key and the API key for use later.
 
 ## Configuring Postman monitors
 
-1. In the **[Browse Integrations](https://go.postman.co/integrations/browse?category=all)** page, select BigPanda from the list of third party integrations.
+1. Select **[Home](https://go.postman.co/home)**.
 
-1. Check out the information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors.
+    ![postman home page](https://assets.postman.com/postman-docs/bigpanda-home.jpg)
+1. Select **[Integrations](https://go.postman.co/integrations)**.
 
-1. Click the **Add Integration** button to display the **Add Integration** page.
+    ![select integrations](https://assets.postman.com/postman-docs/bigpanda-integrations.jpg)
+1. Select **[Browse All Integrations](https://go.postman.co/integrations/browse?category=all)**.
+1. Search and select **BigPanda**.
 
-1. In the **Add Integration** page:
-   * Give a nickname to your integration.
-   * Select the workspace to which your monitor belongs to.
-   * Select a monitor.
-   * Enter the BigPanda app key.
-   * Enter the API token for the app.
+    ![bigpanda search all](https://assets.postman.com/postman-docs/bigpanda-search-all.jpg)
+1. Select Add Integration.
 
-1. Click the **Add Integration** button.
+    ![add bigpanda configuration](https://assets.postman.com/postman-docs/bigpanda-add-integration.jpg)
+1. Enter your BigPanda configuration.
+    * Give a nickname to your integration.
+    * Select the workspace to which your monitor belongs to.
+    * Select a monitor.
+    * Enter the BigPanda app key.
+    * Enter the API token for the app.
+
+    ![save bigpanda config](https://assets.postman.com/postman-docs/bigpanda-save-config.jpg)
+1. Select **Add Integration**.
 
 You can send the results of multiple monitors to the same BigPanda collection.
 BigPanda gives you real-time alerts based on the results of your Postman Monitors. If there was a failed test or if an error occurred during the run, an alert is created on BigPanda, which would then alert the user.
 
-[![view in bigpanda](https://assets.postman.com/postman-docs/58835364.png)](https://assets.postman.com/postman-docs/58835364.png)
+![view in bigpanda](https://assets.postman.com/postman-docs/58835364.jpg)
