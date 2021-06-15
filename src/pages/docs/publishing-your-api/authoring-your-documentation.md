@@ -82,7 +82,7 @@ Descriptions will appear in the request section in your documentation.
 
 You can add a description to the parameters and headers in your requests—for people viewing the request inside Postman (for example if you're working on a shared collection), or for anyone viewing your documentation.
 
-![Parameter Description](https://assets.postman.com/postman-docs/param-desc.jpg)
+![Parameter Description](https://assets.postman.com/postman-docs/request-param-headers-v8.jpg)
 
 > All key-value pairs will be displayed in your documentation regardless of whether or not they're checked. You can indicate which pairs are required and which are optional in the description. Consumers of your documentation can choose which key-value pairs they want to use when they send requests to your endpoints. Users will be able to [generate code snippets](/docs/sending-requests/generate-code-snippets/) in the Postman app based on the key-value pairs they select, and a URL with those pairs will be displayed in the app.
 
