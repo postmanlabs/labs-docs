@@ -20,7 +20,7 @@ Setting up a Splunk integration requires you to get an HTTP Event Collector (HEC
 ## Retrieving your Splunk HEC token
 
 Log in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk](https://docs.splunk.com/Documentation/Splunk/8.1.0/Metrics/GetMetricsInOther#Get_metrics_in_from_clients_over_HTTP_or_HTTPS
-) to create and save your HTTP Event Collector token (HEC token). Save the API Key to configure the Postman Splunk integration.
+) to create and save your HTTP Event Collector token (HEC token). Save the HEC token to configure the Postman Splunk integration.
 
 ![save splunk HEC token](https://assets.postman.com/postman-docs/datadog-get-api-key-bb.jpg)
 
@@ -67,7 +67,7 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 1. Select **Pivot**.
 
-1. 
+1.
 
 [![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
 
