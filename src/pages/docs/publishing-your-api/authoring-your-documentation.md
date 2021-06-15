@@ -70,9 +70,9 @@ When you create a new request using the __New__ button, you will be prompted to 
 
 To add a description to an existing request, open the request in Postman and edit the request detail.
 
-![Request Description](https://assets.postman.com/postman-docs/edit-your-request-description-v8.jpg)
+![Edit Request Description 1](https://assets.postman.com/postman-docs/edit-your-request-description-v8.jpg)
 
-![Request Description](https://assets.postman.com/postman-docs/edit-your-request-description-v8-2.jpg)
+![Edit Request Description 2](https://assets.postman.com/postman-docs/edit-your-request-description-v8-2.jpg)
 
 Descriptions will appear in the request section in your documentation.
 
@@ -88,7 +88,9 @@ You can add a description to the parameters and headers in your requests—for p
 
 The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
 
-<img alt="Header Description in Docs" src="https://assets.postman.com/postman-docs/header-desc-docs.jpg" width="500px">
+![Header Description in Docs](https://assets.postman.com/postman-docs/request-para-headers-v8-2.jpg)
+
+![Header Description in Docs](https://assets.postman.com/postman-docs/request-param-desc-v8.jpg)
 
 ### Authorization details
 
