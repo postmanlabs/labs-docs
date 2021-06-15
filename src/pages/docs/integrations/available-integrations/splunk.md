@@ -63,7 +63,6 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 [![splunk metric details](https://assets.postman.com/postman-docs/splunk-search-events-metric-example2.jpg)](https://assets.postman.com/postman-docs/splunk-search-events-metric-example2.jpg)
 
-
 ### Viewing data as a Pivot table
 
 1. Navigate to the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
