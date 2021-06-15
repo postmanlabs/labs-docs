@@ -31,7 +31,11 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 ## Configuring Postman monitors
 
-To configure Keen IO to Postman monitors, visit [Integrations Page](https://postman.postman.co/integrations/browse?category=all) and search for Keen IO.
+In the **[Integrations](https://go.postman.co/workspaces)** tab for your workspace, select Keen IO from the list of third party integrations.
+
+[![keen dashboard](https://assets.postman.com/postman-docs/integrations_keen1.png)](https://assets.postman.com/postman-docs/integrations_keen1.png)
+
+Click the **View Details** button to see information about Keen IO.
 
 From the **[Integrations search page](https://postman.postman.co/integrations/browse?category=all)** search and select Keen IO.
 

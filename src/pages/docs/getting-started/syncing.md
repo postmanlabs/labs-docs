@@ -7,14 +7,9 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "HotelBeds"
-    url: "https://www.postman.com/case-studies/Hotelbeds.pdf"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -39,7 +34,7 @@ warning: false
 
 Syncing makes all your Postman data available when you're signed in to your Postman account.
 
-Changes, such as edits, additions, or deletions, sync across all devices that are linked to your account.
+Changes, such as edits, updates, additions, or deletions, sync across all devices that are linked to your account.
 
 These entities can sync with the server and be saved to the cloud:
 
@@ -57,7 +52,7 @@ These entities can sync with the server and be saved to the cloud:
 
 ## How do I Sync between computers?
 
-Install the [Postman app](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
+Install [Postman](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
 
 Alternatively, access Postman on the web by visiting [go.postman.co/build](https://go.postman.co/build) in your browser and signing into your account.
 
@@ -69,29 +64,43 @@ When you're logged into Postman, your data is synced across devices.
 
 ### States
 
-If your app is in sync with the server, the icon to the left of your name in the top navigation appears orange, and displays **IN SYNC**.
+Postman indicates the sync state of your workspace. The flow diagram for sync states is shown below:
 
-If a sync operation is underway, it displays **SYNCING**.
+[![Sync States](https://assets.postman.com/postman-docs/sync-states-flow.jpg)](https://assets.postman.com/postman-docs/sync-states-flow.jpg)
 
-If you are not signed in to the app, you see **OFFLINE**.
+If you are not signed in to Postman, you see the state as **Offline**. Click **Connect Now** to connect to Postman.
 
-When you open the app or if your connection drops, it displays **CONNECTING** before it starts to sync.
+[![Offline state](https://assets.postman.com/postman-docs/offline-state.jpg)](https://assets.postman.com/postman-docs/offline-state.jpg)
 
-[![sync icon in header](https://assets.postman.com/postman-docs/Sync-Screen.png)](https://assets.postman.com/postman-docs/Sync-Screen.png)
+When you open Postman or if your connection drops, it displays **Connecting** before it starts to sync.
 
-> You may occasionally experience sync conflicts between your app and the Postman servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/collaborating-in-postman/using-workspaces/conflicts/)
+[![Connecting state](https://assets.postman.com/postman-docs/connecting-state.jpg)](https://assets.postman.com/postman-docs/connecting-state.jpg)
+
+When you click the icon, you will see **Syncing** in **Online** state. The popup will indicate further information about the current sync state.
+
+[![Online state syncing](https://assets.postman.com/postman-docs/online-state-syncing.jpg)](https://assets.postman.com/postman-docs/online-state-syncing.jpg)
+
+If Postman is in sync with the server, the icon to the left of your name at the top right indicates **Online**, and displays a popup showing **In sync** on hover.
+
+[![Online state in sync](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)
+
+While connecting to Postman, if you encounter a syncing error, it will indicate **Error** state. Hover to see the detailed information on the error.
+
+[![Error state](https://assets.postman.com/postman-docs/error-state-v2.jpg)](https://assets.postman.com/postman-docs/error-state-v2.jpg)
+
+> You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/collaborating-in-postman/using-workspaces/conflicts/)
 
 ## Sign Out
 
 If you choose to sign out, Postman deletes your data from the local instance of the app.
 
-Don’t worry, Postman restores all your data from the cloud when you sign in, and enables other users to use the app without your data clashing.
+Don’t worry, Postman restores all your data from the cloud when you sign in, and enables other users to use it without your data clashing.
 
-When you reload the app, Postman automatically retrieves the most recent and up-to-date version of your collections.
+When you reload, Postman automatically retrieves the most recent and up-to-date version of your collections.
 
 ## Disabling sync
 
-If you or your organization have a requirement to prevent your data from being synced to the Postman cloud, you can use Postman without an account and [manually back up your data locally](/docs/postman/collections/importing-and-exporting-data/#exporting-postman-data).
+If you or your organization have a requirement to prevent your data from being synced to the Postman cloud, you can use Postman without an account and [manually back up your data locally](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
 You can delete already synced data by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](https://go.postman.co/settings/me/team) in order to delete your account.
 

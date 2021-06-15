@@ -21,21 +21,21 @@ export default ({ data }) => {
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
       <div className="container-fluid">
         <div className="row row-eq-height">
-          <div className="col-sm-12 col-md-4 col-lg-3 left-nav">
+          <nav className="col-sm-12 col-md-4 col-lg-3 left-nav">
             <LeftNav />
-          </div>
+          </nav>
           <div className="col">
             <div className="row row-eq-height">
-              <div className="col-sm-12 col-md-12 col-lg-8 doc-page">
+              <main className="col-sm-12 col-md-12 col-lg-8 doc-page">
                 <h1>{post.frontmatter.title}</h1>
                 <span dangerouslySetInnerHTML={{ __html: post.html }} />
-              </div>
-              <div className="col-sm-12 col-md-12 col-lg-4 right-column">
+              </main>
+              <aside className="col-sm-12 col-md-12 col-lg-4 right-column">
                 <div className="edit-button">
                   <EditDoc className="btn btn__small btn__secondary-light" />
                 </div>
                 {contextualLinks}
-              </div>
+              </aside>
             </div>
           </div>
         </div>
@@ -54,6 +54,7 @@ export const query = graphql`
           type
           name
           url
+          blog_tag
         }
       }
       fields {

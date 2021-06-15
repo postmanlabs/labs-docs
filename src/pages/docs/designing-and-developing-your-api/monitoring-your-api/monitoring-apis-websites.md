@@ -12,15 +12,15 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "HarperDB"
-    url: "https://www.postman.com/case-studies/harperDB.pdf"
-  - type: subtitle
     name: "Videos"
   - type: link
-    name: "API mentoring with Postman"
+    name: "API monitoring with Postman"
     url: "https://www.youtube.com/watch?v=3nOP_TYTuA8"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "6 Steps to Enhance Your Audio with a Dolby API and Postman Monitors"
+    url:  "https://blog.postman.com/6-steps-enhance-audio-dolby-api/"   
   - type: section
     name: "Next Steps"
   - type: link

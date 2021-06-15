@@ -18,7 +18,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Giant Machines"
-    url: "https://www.postman.com/resources/case-studies/giant-machines/"
+    url: "https://www.postman.com/case-studies/giant-machines/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -45,7 +45,7 @@ Postman contains a powerful runtime based on Node.js that allows you to add dyna
 
 Postman will prompt you with suggestions as you type—select one to autocomplete your code.
 
-[![Script autocomplete](https://assets.postman.com/postman-docs/11-autocomplete.gif)](https://assets.postman.com/postman-docs/11-autocomplete.gif)
+[![Script autocomplete](https://assets.postman.com/postman-docs/autocomplete-v8.gif)](https://assets.postman.com/postman-docs/autocomplete-v8.gif)
 
 You can add pre-request and test scripts to a collection, a folder, a request within a collection, or a request not saved to a collection.
 
@@ -56,7 +56,7 @@ In Postman, the script execution order for a single request looks like this:
 * A pre-request script associated with a request will execute before the request is sent
 * A test script associated with a request will execute after the request is sent
 
-[![workflow for single request](https://assets.postman.com/postman-docs/req-resp.png)](https://assets.postman.com/postman-docs/req-resp.png)
+[![workflow for single request](https://assets.postman.com/postman-docs/req-resp.jpg)](https://assets.postman.com/postman-docs/req-resp.jpg)
 
 For every request in a collection, scripts will execute in the following order:
 
@@ -65,17 +65,17 @@ For every request in a collection, scripts will execute in the following order:
 * A test script associated with a collection will run after every request in the collection.
 * A test script associated with a folder will run after request in the folder.
 
-[![workflow for request in collection](https://assets.postman.com/postman-docs/execOrder.png)](https://assets.postman.com/postman-docs/execOrder.png)
+[![workflow for request in collection](https://assets.postman.com/postman-docs/execOrder.jpg)](https://assets.postman.com/postman-docs/execOrder.jpg)
 
 For every request in a collection, the scripts will always run according to the following hierarchy: collection-level script (if any), folder-level script (if any), request-level script (if any). Note that this order of execution applies to both pre-request and test scripts.
 
 For example, imagine you had the following collection structured with a single folder and two requests within the folder.
 
-[![console log statement](https://assets.postman.com/postman-docs/Test_script2.png)](https://assets.postman.com/postman-docs/WS-console-log-statement.png)
+[![Console log statement](https://assets.postman.com/postman-docs/console-log-statement-v8.jpg)](https://assets.postman.com/postman-docs/console-log-statement-v8.jpg)
 
 If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you would clearly see the execution order in the [Postman console](/docs/sending-requests/troubleshooting-api-requests/).
 
-[![logs in console](https://assets.postman.com/postman-docs/logs-in-console.png)](https://assets.postman.com/postman-docs/logs-in-console.png)
+[![Logs in console](https://assets.postman.com/postman-docs/logs-in-console-v8.jpg)](https://assets.postman.com/postman-docs/logs-in-console-v8.jpg)
 
 ### How does this work?
 

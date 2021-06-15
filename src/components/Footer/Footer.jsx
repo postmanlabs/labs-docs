@@ -108,7 +108,7 @@ class FooterComponent extends React.Component {
 
 
     return (
-      <section className="footer">
+      <footer className="footer">
 
         <div className="container-fluid">
           <div className="row footer-top">
@@ -168,7 +168,7 @@ class FooterComponent extends React.Component {
               </div>
               <div className="mr-2 pr-sm-3 pl-sm-2 items_noline">
                 <a
-                  href="https://www.postman.com/legal/eula/"
+                  href="https://www.postman.com/legal/terms/"
                   target="_blank"
                   rel="noopener noreferrer"
                   id="terms"
@@ -450,7 +450,7 @@ class FooterComponent extends React.Component {
         </div>
         {' '}
         {/* close container */}
-      </section>
+      </footer>
     );
   }
 }

@@ -35,7 +35,7 @@ You can publish your API documentation to make it available for public viewing b
 
 Your public documentation will always display up-to-date content representing the current state of your collection. You don’t need to repeat the publication flow each time you want to update your documentation.
 
-Your documentation will include the **Run in Postman** button so users can interact with your API directly in Postman. For example, check out the [Postman API documentation](https://documenter.getpostman.com/view/631643/JsLs/)—generated from a Postman Collection. You can publish your documentation to the API Network or as a template to make your collections publicly available in Postman, aiding developer onboarding and adoption.
+Your documentation will include the **Run in Postman** button so users can interact with your API directly in Postman. For example, check out the [Postman API documentation](https://documenter.postman.com/view/631643/JsLs/)—generated from a Postman Collection. You can publish your documentation to the API Network or as a template to make your collections publicly available in Postman, aiding developer onboarding and adoption.
 
 > You can publish documentation for collections that you created or have permission to edit.
 
@@ -93,14 +93,13 @@ You can customize the style of your public docs by adding a team name and logo v
 
 ## Sharing your public docs
 
-To share your API documentation with your users and the wider Postman community, enable __Collection discovery__ by toggling the switch. This will make your docs and the associated collections available via the Postman [API Network and templates](https://explore.postman.com/).
+To share your API documentation with your users and the wider Postman community, enable __Collection discovery__ by toggling the switch. This will make your docs and the associated collections available via the Postman [API Network and templates](https://www.postman.com/explore).
 
 ![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
 > When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://explore.postman.com).
 
 * Choose __Add to API Network__ to [feature your team docs in the Postman publisher network](/docs/publishing-your-api/add-api-network/).
-* Choose __Add to Postman Templates__ to [share your collection with the Postman community as an individual](/docs/publishing-your-api/add-templates/) and make it discoverable via Postman.
 
 You can only add to API Network when publishing from a team. You can configure your team profile by clicking __Public Profile Settings__, enabling your profile, and filling out your team details for display.
 
@@ -120,6 +119,8 @@ Add listing details for your public documentation, including name, summary, desc
 
 If you do not want to make your docs discoverable at this time, you can go ahead and publish then add them to the API Network or Postman Templates later.
 
+<iframe loading="lazy" class="mb-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/w-EgqQ8Anvw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Publishing and unpublishing
 
 Once you have your publish settings complete, click __Publish Collection__ to make your docs public.
@@ -138,4 +139,4 @@ You can unpublish your docs at any time by clicking __Unpublish__.
 
 [![Imgur API docs](https://i.imgur.com/oXgXznt.png)](https://i.imgur.com/oXgXznt.png)
 
-Find out more about sharing your docs via the [API Network](/docs/publishing-your-api/add-api-network/) and [Templates](/docs/publishing-your-api/add-templates/).
+Find out more about sharing your docs via your [public workspaces](/docs/publishing-your-api/publish-public-api/).

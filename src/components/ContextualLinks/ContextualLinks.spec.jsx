@@ -12,7 +12,7 @@ describe('ContextualLinks', () => {
       {
         type: 'link',
         name: 'Download and Install',
-        url: 'https://getpostman.com/apps',
+        url: 'https://www.postman.com/downloads/',
       },
       {
         type: 'subtitle',

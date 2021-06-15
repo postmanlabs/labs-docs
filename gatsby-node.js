@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const { createFilePath } = require('gatsby-source-filesystem');
 const glob = require('glob');
-const uuidv4 = require('uuid/v4');
+const { v4: uuidv4 } = require('uuid');
 // const axios = require('axios');
 const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects');
@@ -69,6 +69,7 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
+
 };
 
 

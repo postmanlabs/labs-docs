@@ -8,10 +8,10 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: link
     name: "Installation and updates"
-    url: "/docs/postman/launching-postman/installation-and-updates/"
+    url: "/docs/getting-started/installation-and-updates/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -38,7 +38,10 @@ If you're just starting to learn about APIs and Postman, you can use a variety o
 
 * [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
 * Use the __Bootcamp__ to work through lessons inside Postman—open it at the bottom right of the app.
-* Explore [templates](https://explore.postman.com/) to try out, like [Learn by API](https://explore.postman.com/templates/7499/learn-by-api), which walks you through API concepts.
+* Explore [workspaces, collections, and more](https://www.postman.com/explore) that you can try out inside Postman, like the following:
+    * [**Learn by API**](https://www.postman.com/postman/workspace/published-postman-templates/collection/9065401-ff29b3be-af69-4442-91e0-c1158b620fc2?ctx=documentation)–walk through beginner API concepts.
+    * [**Postman Training**](https://www.postman.com/postman/workspace/postman-galaxy-training/overview)–Learn APIs 101, Testing and Automation, API Adoption, and API First, earning [Postman badges](https://badgr.com/public/issuers/BC0x4AQaQPC7lFilsBP_tQ/badges).
+    * [**Student Program**](https://www.postman.com/postman/workspace/postman-student-program/overview)–Take the Student Expert training, covering request configurations and test scripting.
 
 ## What are you here to learn about?
 
@@ -84,16 +87,16 @@ If you're developing a back-end, working API-first, or need to monitor API perfo
 If you're exposing an API for public use, Postman can support developer onboarding:
 
 * [Publishing documentation](/docs/publishing-your-api/documenting-your-api/)
-* [Building adoption](/docs/publishing-your-api/add-api-network/)
+* [Publishing public APIs](/docs/publishing-your-api/publish-public-api)
 * [Using Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/)
 
 ### Collaborating with your team
 
-If you're using Postman in your company or team, check out these guides to maximize on your collaboration:
+If you're using Postman in your company or team, check out these guides to maximize your collaboration:
 
 * [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
 * [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
-* [Managing Postman for an organization](/docs/administration/managing-your-team/)
+* [Managing Postman for an organization](/docs/administration/managing-your-team/managing-your-team/)
 * [Onboarding your team](/docs/administration/onboarding-checklist/)
 
 ### Developing with Postman

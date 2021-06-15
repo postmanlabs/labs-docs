@@ -7,7 +7,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Download and Install"
-    url: "https://getpostman.com/apps"
+    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -30,7 +30,7 @@ warning: false
 
 A free Postman account allows you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. You can also [collaborate](/docs/collaborating-in-postman/collaboration-intro/) with others on your API projects.
 
-Signing up for an account is optional—you can continue to use the Postman app without an account if you prefer. Check out the [EULA](https://www.postman.com/licenses/postman_base_app), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
+Signing up for an account is optional—you can use the desktop Postman app without an account if you prefer. Check out the [EULA](https://www.postman.com/legal/eula/), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
 
 ## Contents
 
@@ -79,7 +79,7 @@ Enter your profile details and click **Save changes**.
 
 ![Edit profile](https://assets.postman.com/postman-docs/Edit+profile.jpg)
 
->You can make your profile public. A public profile allows you to add your collections to Postman's [API Network](/docs/publishing-your-api/add-api-network/) and [Postman Templates](/docs/publishing-your-api/add-templates/).
+>You can make your profile public. A public profile allows you to add your collections to your [Postman Public Workspaces](/docs/publishing-your-api/publish-public-api).
 
 You can optionally create or join a team. If you're signing up with your organization email and your company has a Postman account, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
 
@@ -105,11 +105,17 @@ You can set a variety of profile details, including uploading a photo for your a
 
 To sign into Postman, enter your email / username and password and click __Sign In__ if you signed up by email, or __Sign in with Google__ if you used Google auth when signing up.
 
-Check the __Keep me signed in__ box if you want to remain signed in after your current session. If you do not want Postman to retain your details or to remain signed in on the computer you are working on, uncheck the box.
+> You must complete the process of signing in within five minutes once you initiate login from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
-![Stay signed in](https://assets.postman.com/postman-docs/stay-signed-in.jpg)
+Log into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Business or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
 
-If you check the __Keep me signed in__ box, you will remain signed in for 30 days, and will need to re-authenticate after that period. If you uncheck the box, you will need to sign in again after 30 minutes.
+> Check **Keep me signed in** if you would like to remain signed in after your current session for 30 days before re-authenticating. If you do not want to remain signed in on the computer you are working on, uncheck this option. Note that you will be prompted to sign in again after 30 minutes.
+
+<img src="https://assets.postman.com/postman-docs/sign-in-full-page-20.jpg" alt="Sign in"/>
+
+Upon signing in, you will see a confirmation in your browser and you will be redirected back to Postman.
+
+<img src="https://assets.postman.com/postman-docs/youre-signed-in-confirmation.jpg" width="350px" alt="Signed in confirmation"/>
 
 ## Syncing your work
 
@@ -127,13 +133,13 @@ Postman will inform you if the sync is interrupted and will automatically try to
 
 If a conflict arises from a sync issue within your workspace, [Postman will present options for resolving the conflict](/docs/collaborating-in-postman/using-workspaces/conflicts/).
 
-> Postman uses WebSockets for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.getpostman.com/hc/en-us).
+> Postman uses WebSockets for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.postman.com/hc/en-us).
 
 ## Upgrading your account
 
 If you have a free account, you can upgrade it by navigating to your [Postman Dashboard](https://go.postman.co/) and clicking **Upgrade** in the top-right corner.
 
-If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://app.postman.co/billing/overview) and clicking **...** > **Change Plan**.
+If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and clicking **...** > **Change Plan**.
 
 [![change plan menu](https://assets.postman.com/postman-docs/change-plan-menu.jpg)](https://assets.postman.com/postman-docs/change-plan-menu.jpg)
 

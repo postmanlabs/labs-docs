@@ -109,13 +109,13 @@ Once the **Interceptor connected** status is green, you can add URL or HTTP meth
 
 Interceptor works by leveraging a Google Chrome feature and the installation process differs according to your operating system.
 
-Postman's native app requires Chrome's [Native Messaging](https://developer.chrome.com/extensions/nativeMessaging) feature. This requires an independent executable and will be installed on your machine.
+Postman's native app requires Chrome's [Native Messaging](https://developer.chrome.com/docs/apps/nativeMessaging/) feature. This requires an independent executable and will be installed on your machine.
 
 Your installation may include the following options:
 
   1. **[MacOS only] Install NodeJS**: If Postman detects that you don't have the NodeJS binary available, you'll be prompted to install it. Postman will then download the [latest stable version of Node](https://nodejs.org/).
   2. **[Windows only] Add a registry key**: A `com.postman.postmanapp` key is added to `HKCU\Software\Google\Chrome\NativeMessagingHosts\`. The key points to the location of a JSON file (the manifest).
-  3. **Add a manifest file**: This is a JSON file (whose structure is defined by [Native Messaging](https://developer.chrome.com/extensions/nativeMessaging)) that gives Chrome the absolute path of the executable that the Interceptor extension can talk to. This file will be installed in a location dependent on your operating system:
+  3. **Add a manifest file**: This is a JSON file (whose structure is defined by [Native Messaging](https://developer.chrome.com/docs/apps/nativeMessaging/)) that gives Chrome the absolute path of the executable that the Interceptor extension can talk to. This file will be installed in a location dependent on your operating system:
     * **MacOS**:  `/Users/<username>/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.postman.postmanapp.json`
     * **Windows**: `%USERPROFILE%\.postman\InterceptorBridge\com.postman.postmanapp.json`
     * **Linux**: `~/.config/google-chrome/NativeMessagingHosts/com.postman.postmanapp.json`
@@ -241,7 +241,7 @@ You can use Interceptor to create a Postman collection for a web app or to debug
 To use Interceptor with Postman Chrome, you can take the following steps:
 
 1. [Install Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?) from the Chrome Web Store.
-2. Install [Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/support?hl=en) from the Chrome Web Store.
+2. Install [Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/) from the Chrome Web Store.
 3. Open Postman, click on the Interceptor icon in the toolbar, and toggle to **On**.
 
 You can then browse your app or website and monitor requests as they stream in to your Postman history.

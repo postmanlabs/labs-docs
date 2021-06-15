@@ -11,7 +11,7 @@ contextual_links:
     url: "https://www.postman.com/security/shared-responsibility/"
   - type: link
     name: "Managing your team"
-    url: "/docs/administration/managing-your-team/"
+    url: "/docs/administration/managing-your-team/managing-your-team/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -31,7 +31,7 @@ If you're just getting started using Postman within your organization, you can c
 
 ## Setting up Postman
 
-Make sure everyone who uses Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/). You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
+Postman is available as a stand-alone app for Windows, Mac, and Linux, and can also be accessed [via the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) with a desktop agent. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/). You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
 * If your organization's network connection is facilitated via a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​setup within Postman](/docs/sending-requests/capturing-request-data/proxy/)​.
@@ -51,13 +51,13 @@ Make sure everyone who uses Postman has the latest version by downloading it fro
 
 Depending on the size of your team you can send invites to your team now or [Check Your Setup](#check-your-setup) with a few volunteers before you rollout Postman to your entre organization.
 
-You can add your teammates from your [team dashboard](https://go.postman.co/team), by generating a shareable link, or inviting them through a direct email. See [Managing Your Team](/docs/administration/managing-your-team/) for more detail.
+You can add your teammates from your [team dashboard](https://go.postman.co/team) by generating a shareable link or by inviting them through a direct email. See [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) for more detail.
 
-![Invite Users](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-12%20at%201.18.07%20PM.png)
+<img src="https://assets.postman.com/postman-docs/invite-users-modal.jpg" alt="Invite users" width="400px"/>
 
 ### Check Your Setup
 
-Before you kick-off in full, it’s best to check-in on the workings of the Postman app within your organization and ensure everything works as expected. If you do not have the Postman app and Postman account find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
+Before you kick-off in full, it’s best to check in on the workings of Postman within your organization and ensure everything works as expected. If you do not have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
 
 Ensure you are connected to your organization's network and test the following:
 
@@ -65,7 +65,7 @@ Ensure you are connected to your organization's network and test the following:
 * Can you execute a request to one of your internal/private APIs?
 * Save a request inside a [​Collection​](/docs/sending-requests/intro-to-collections/). Visit `​go.postman.co`​, has your collection and request synced with Postman’s cloud?
 
-Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! Else, if you experienced a hiccup, [​contact Postman support](https://postman.com/support) and please read on.
+Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! Else, if you experienced a hiccup, [​contact Postman support](https://www.postman.com/support/) and please read on.
 
 ### Enable Team Discovery
 
@@ -81,4 +81,4 @@ Check out [Security and Compliance: A Shared Responsibility Model](https://www.p
 
 Make sure to [configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to the Business or Enterprise plan.
 
-Finally, head over to [Managing Your Team](/docs/administration/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust your team size.
+Finally, head over to [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust your team size.

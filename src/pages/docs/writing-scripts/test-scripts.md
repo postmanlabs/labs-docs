@@ -18,12 +18,15 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Ping Identity"
-    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+    url: "https://www.postman.com/case-studies/pingidentity/"
   - type: link
     name: "iQmetrix"
-    url: "https://www.postman.com/resources/case-studies/iqmetrix/"
+    url: "https://www.postman.com/case-studies/iqmetrix/"
   - type: subtitle
     name: "Videos"
+  - type: link
+    name: "Testing with Snippets | Postman Level Up"
+    url: "https://youtu.be/QGNJ0wh5Ry0"
   - type: link
     name: "Intro to Postman: Writing API tests"
     url: "https://www.youtube.com/watch?v=vuVhF257uGw"
@@ -71,7 +74,7 @@ You can add tests to individual [requests](/docs/sending-requests/requests/), fo
 
 To add tests to a request, open the request and enter your code in the Tests tab. Tests will execute after the request runs. You will be able to see the output in the __Test Results__ tab alongside the response data.
 
-![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab.jpg)
+![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v8.jpg)
 
 ## Writing test scripts
 
@@ -93,21 +96,21 @@ pm.test("Status test", function () {
 });
 ```
 
-![Example Test Status](https://assets.postman.com/postman-docs/example-test-status.jpg)
+![Example Test Status](https://assets.postman.com/postman-docs/example-test-status-v8.jpg)
 
 Click __Send__ to run your request and open __Test Results__ in the response section. The tab header displays how many tests passed and how many ran in total. You can also toggle between passed, skipped, and failed test results.
 
-<img src="https://assets.postman.com/postman-docs/test-result-status.jpg" alt="Test Results" width="500px"/>
+<img src="https://assets.postman.com/postman-docs/test-result-status-v8.jpg" alt="Test Results" width="500px"/>
 
 If the request returned a `200` status code, the test will pass—otherwise it will fail. Try changing the expected status code in your test script and running the request again.
 
-<img src="https://assets.postman.com/postman-docs/failed-test-status.jpg" alt="Failed Test Results" width="500px"/>
+<img src="https://assets.postman.com/postman-docs/failed-test-status-v8.jpg" alt="Failed Test Results" width="500px"/>
 
 Using the `pm.expect` syntax gives your test result messages a different format—experiment with the alternatives to achieve the output you find most useful.
 
-<img src="https://assets.postman.com/postman-docs/expect-test-syntax.jpg" alt="Failed Test Results" width="500px"/>
+<img src="https://assets.postman.com/postman-docs/expect-test-syntax-v8.jpg" alt="Failed Test Results" width="500px"/>
 
-> Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.getpostman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
+> Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.postman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
 
 Your code can test the request [environment](/docs/sending-requests/managing-environments/), as in the following example:
 
@@ -143,7 +146,7 @@ Your scripts can include however many tests you need and will save along with th
 
 You will see a selection of commonly used test code excerpts in __Snippets__ to the right of the tests editor. Click to add one and it will appear in your editor. Snippets can speed up the process of getting started with your scripts—you can edit snippets after adding them to meet your own testing requirements.
 
-<img src="https://assets.postman.com/postman-docs/added-test-snippet.jpg" alt="Added Code Snippet" width="600px"/>
+<img src="https://assets.postman.com/postman-docs/added-test-snippet-v8.jpg" alt="Added Code Snippet" width="600px"/>
 
 ## Testing collections and folders
 
@@ -153,11 +156,11 @@ You can add test scripts to a collection, a folder, or a single request within a
 
 You can update collection and folder scripts by clicking __View more actions__ (...) next to the collection or folder name, and selecting __Edit__. Choose the __Tests__ tab to add or update your script. You can also add collection scripts when you first create a collection.
 
-<img src="https://assets.postman.com/postman-docs/collection-test-script.jpg" alt="Collection Tests" width="500px"/>
+<img src="https://assets.postman.com/postman-docs/collection-test-script-v8.jpg" alt="Collection Tests" width="500px"/>
 
 When you [run a collection](/docs/running-collections/intro-to-collection-runs/) you will see the test results output by the collection runner.
 
-![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run.jpg)
+![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run-v8.jpg)
 
 You can write scripts to control the order in which your requests run using [branching and looping](/docs/running-collections/building-workflows/).
 

@@ -16,7 +16,7 @@ contextual_links:
     url: "/docs/integrations/webhooks/"
   - type: link
     name: "Slack Integration"
-    url: "/docs/integrations/slack/"
+    url: "/docs/integrations/available-integrations/slack/"
 ---
 
 > __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
@@ -37,27 +37,31 @@ You can back up your Postman Collections to your Bitbucket repository. Once the 
 
 ### Configuring a Bitbucket integration
 
-To add a Bitbucket integration, navigate to your [Postman Dashboard](https://go.postman.co/). Select your desired workspace > **Integrations**. Click **Browse Integrations**, locate **Bitbucket**, and select **View Details**. Click **+ Add integration**.
+To add a Bitbucket integration, navigate to the [Postman Integrations page](https://go.postman.co/integrations/browse?category=all). Search for Bitbucket and select it from the results.
 
-![Bitbucket page](https://assets.postman.com/postman-docs/bitbucket-postman-page.jpg)
+![Bitbucket search page](https://assets.postman.com/postman-docs/bitbucket-search-bb.jpg)
 
-Enter your Bitbucket username and app password.
+Select **Add Integration**.
 
-> App passwords are different from account passwords. Learn [how to create an app password in Bitbucket](https://confluence.atlassian.com/bitbucket/app-passwords-828781300.html).
+![Bitbucket details page](https://assets.postman.com/postman-docs/bitbucket-add-integration-bb.jpg)
 
-<img src="https://assets.postman.com/postman-docs/enter-username-and-password.jpg" width="350px" alt="User Menu"/>
+Enter your Bitbucket authentication and select **Authenticate and Proceed**.
+
+> App passwords are different from account passwords. Learn [how to create an app password in Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/).
+
+![Bitbucket creation](https://assets.postman.com/postman-docs/bitbucket-create-bb.jpg)
 
 Select your collection to back up, the repository you'd like to back it up to, and designate the directory, filename, and branch. Click **Add Integration**.
 
-<img src="https://assets.postman.com/postman-docs/bitbucket-configuration.jpg" width="350px" alt="User Menu"/>
+![Bitbucket configuration](https://assets.postman.com/postman-docs/bitbucket-configure-bb.jpg)
 
-Your newly created integration will now appear under **Configured Integrations**.
+Your new integration will now appear in a list along with previously created integrations.
 
-![Configured integrations](https://assets.postman.com/postman-docs/configured-integrations.jpg)
+![Configured integrations](https://assets.postman.com/postman-docs/bitbucket-add-integration-bb.jpg)
 
 To confirm this integration, navigate to your [Bitbucket dashboard](https://bitbucket.org/dashboard/overview) > **Repositories**. Select your repository > **Commits**.
 
-![Configured integrations](https://assets.postman.com/postman-docs/bitbucket-commits.jpg)
+![Bitbucket commits list](https://assets.postman.com/postman-docs/bitbucket-commits.jpg)
 
 You can select a commit to view your stored collection in JSON format.
 
@@ -65,4 +69,4 @@ You can select a commit to view your stored collection in JSON format.
 
 ## Next steps
 
-Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/slack/).
+Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/available-integrations/slack/).
