@@ -33,7 +33,7 @@ You can configure Microsoft Power Automate with Postman to monitor run results, 
 1. Select **[Integrations](https://go.postman.co/integrations)**.
 
     ![postman home page](https://assets.postman.com/postman-docs/msflow-integrations.jpg)
-1. Search and select **Microsoft Power Automate
+1. Search and select **Microsoft Power Automate**.
 
 ## Add a team activity feed to Microsoft Power Automate
 
@@ -41,9 +41,9 @@ The activity feed is where you can track changes made to your collections and wi
 
 To add a team activity feed to Microsoft Power Automate:
 
-1. Select the **Add Integration** button.
+1. Select **Add Integration**.
 1. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
-1. Select the **Add Integration** button.
+1. Select **Add Integration**.
 
 [![microsoft_team_activity](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
 
@@ -51,14 +51,14 @@ To add a team activity feed to Microsoft Power Automate:
 
 It’s important to back up your Postman Collections for safekeeping. Microsoft Power Automate helps you do this with services like Box (a cloud-based storage solution), but you can also use it to backup to your custom DB2 instance.
 
-To back up your Postman Collections in :
+To back up your Postman Collections in Microsoft Power Automate:
 
-1. Click the **Add Integration** button.
-1. In the **Backup your Postman Collections** page:
+1. Select **Add Integration**.
+1. On the **Backup your Postman Collections** page:
    * Select the collection.
    * Enter the notification URL.
    * Enter an identifier for this integration.
-1. Click the **Add Integration** button.
+1. Select **Add Integration**.
 
 [![microsoft_flow_backup](https://assets.postman.com/postman-docs/WS-integration-msFlow-backupcollections.png)](https://assets.postman.com/postman-docs/WS-integration-msFlow-backupcollections.png)
 
@@ -68,9 +68,9 @@ The activity feed is where you can view all of the changes being made to your Po
 
 To see collection activity feed in Microsoft Power Automate:
 
-1. Click the **Add Integration** button.
-2. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
-3. Click the **Add Integration** button.
+1. Select **Add Integration**.
+2. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
+3. Select **Add Integration**.
 
 ## Send Monitor run results in Microsoft Power Automate
 
@@ -78,9 +78,9 @@ Postman Monitors allows you to run your collections on a schedule without any ma
 
 To send monitor run results to Microsoft Power Automate:
 
-1. Click the **Add Integration** button.
-1. In the **Monitor Run Results** page, select the monitor you want to send to Microsoft Power Automate.
-1. Click the **Add Integration** button.
+1. Select **Add Integration**.
+1. On the **Monitor Run Results** page, select the monitor you want to send to Microsoft Power Automate.
+1. Select **Add Integration**.
 
 [![microsoft_mon_runs](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-monitorrunresults1.png)
 
@@ -96,7 +96,7 @@ Log in to [Microsoft Power Automate](https://flow.microsoft.com/), and go to `M
 
 [![create connector](https://assets.postman.com/postman-docs/58858272.png)](https://assets.postman.com/postman-docs/58858272.png)
 
-To add the first step, type `request` in the search bar, and select `Request / Response - Request` from the `Triggers` list.
+To add the first step, enter `request` in the search bar, and select `Request / Response - Request` from the `Triggers` list.
 
 [![select trigger](https://assets.postman.com/postman-docs/58858278.png)](https://assets.postman.com/postman-docs/58858278.png)
 
