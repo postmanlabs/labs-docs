@@ -154,15 +154,18 @@ You can use the Postman [Markdown collection](https://documenter.postman.com/vie
 
 ![markdown reference](https://assets.postman.com/postman-docs/Updated+Markdown+image+for+Authoring+your+docs.jpg)
 
-You can also see examples of documentation published using Postman collections by browsing the templates. Click __New__, select the __Templates__ tab, choose a template, and click __View Documentation__.
+You can see examples of documentation published using Postman by browsing [Teams](https://www.postman.com/explore/teams),[Workspaces](https://www.postman.com/explore/workspaces), [APIs](https://www.postman.com/explore/apis), and [Collections](https://www.postman.com/explore/collections).
 
-![Template Docs](https://assets.postman.com/postman-docs/template-docs.jpg)
+1. Navigate to the [Public API Network](https://www.postman.com/explore) page or select **Explore** from the desktop or web application.
+1. Select **Teams**, **Workspaces**, **APIs**, or **Collections**.
+![Public API Network page](https://assets.postman.com/postman-docs/explore-docs-examples-v8.jpg)
+1. Select a team, workspace, API, or collection to see documentation authored by others in the Public API Network.
 
-> The [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) is authored using Postman.
+![Template Docs](https://assets.postman.com/postman-docs/public-documentation-example-v8.jpg)
 
-If you edit your docs on the web, (following the links from your collection in the Postman app, or the dashboard when logged into your account in the browser), you will see helpers for common formatting options and be able to preview your changes.
+You can use both Postman desktop and web applications to author [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 
-<img src="https://assets.postman.com/postman-docs/inline-edit-options.jpg" alt="Inline Edit Options" width="500px"/>
+![Author doc in app or web app](https://assets.postman.com/postman-docs/author-docs-in-app-web-v8.jpg)
 
 ## Next steps
 
