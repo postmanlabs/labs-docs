@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Flow"
+title: "Microsoft Power Automate"
 order: 172
-page_id: "microsoft_flow"
+page_id: "microsoft_power_automate"
 warning: false
 contextual_links:
   - type: section
@@ -20,31 +20,30 @@ contextual_links:
 
 > **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
-Microsoft Flow enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
+Microsoft Power Automate enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
 
-You can configure Microsoft Flow with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a Microsoft Flow Webhook URL.
+You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a Microsoft Flow Webhook URL.
 
-## Configuring Microsoft Flow
+## Configuring Microsoft Power Automate Integration
 
-1. In the [Integrations](https://go.postman.co/workspaces) tab for your workspace, select Microsoft Flow from the list of third party integrations.
+1. Select **[Home](https://go.postman.co/home)**.
 
-[![microsoft_flow](https://assets.postman.com/postman-docs/integrations-microsoftFlow.png)](https://assets.postman.com/postman-docs/integrations-microsoftFlow.png)
+    ![postman home page](https://assets.postman.com/postman-docs/msflow-home.jpg)
 
-Click the **View Details** button to see information about HipChat.
+1. Select **[Integrations](https://go.postman.co/integrations)**.
 
-You can also click the **Configured Integrations** tab to set up other integrations, view available integrations for Microsoft Flow, or view all integrations.
+    ![postman home page](https://assets.postman.com/postman-docs/msflow-integrations.jpg)
+1. Search and select **Microsoft Power Automate
 
-[![microsoft_conf](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)](https://assets.postman.com/postman-docs/WS-integrations-microsoftFlow-confIntegr.png)
-
-## Add a team activity feed to Microsoft Flow
+## Add a team activity feed to Microsoft Power Automate
 
 The activity feed is where you can track changes made to your collections and within your team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
 To add a team activity feed to Microsoft Flow:
 
-1. Click the **Add Integration** button.
-1. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
-1. Click the **Add Integration** button.
+1. Select the **Add Integration** button.
+1. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
+1. Select the **Add Integration** button.
 
 [![microsoft_team_activity](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
 
