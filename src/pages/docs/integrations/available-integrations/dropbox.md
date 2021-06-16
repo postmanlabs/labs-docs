@@ -65,4 +65,4 @@ You can find your backups on Dropbox > Apps > Postman.
 
   ![view in dropbox](https://assets.postman.com/postman-docs/dropbox_view.jpg)
 
-From now on, every change saved to your Postman Collection will automatically upload changes to Dropbox in real time. Complement your team's existing workflows and backup your Postman Collections to Dropbox.
+From now on, every change saved to your Postman Collection will automatically upload changes to Dropbox in real time. Complement your team's existing workflows and back up your Postman Collections to Dropbox.
