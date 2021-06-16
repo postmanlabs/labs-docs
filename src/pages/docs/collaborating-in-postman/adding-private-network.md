@@ -55,11 +55,11 @@ To add an API to your team's Private API Network from [Postman](https://go.postm
 
 <img alt="Private API Network Left Navbar" src="https://assets.postman.com/postman-docs/private-api-network-left-navbar-v8.jpg" height="350px"/>
 
-The default view is your team's [Private API Network](https://go.postman.co/network/private). To add an API to your team's Private API Network, in left navigation bar, select **+ Add New**.
+The default view is your team's [Private API Network](https://go.postman.co/network/private). To add an API to your team's Private API Network, in the left navigation bar, select **+ Add New**.
 
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v8.jpg"/>
 
-In the modal, choose the workspace containing the API you want to add to the network. You can select as many APIs to add to the network at one time. For each API selected, specify the versions to add. Select **Next** and then the folder to add the APIs to. Select **Add to Network**.
+In the modal, choose the workspace containing the API you want to add to the network. You can select one or more APIs to add to the network at one time. For each API selected, specify the versions to add. Select **Next** and then the folder to add the APIs to. Select **Add to Network**.
 
 <img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-new-api-to-network-v8.jpg" width="500px"/>
 
