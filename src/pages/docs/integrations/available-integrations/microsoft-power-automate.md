@@ -22,7 +22,7 @@ contextual_links:
 
 Microsoft Power Automate enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
 
-You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a Microsoft Power Automate Webhook URL.
+You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, back up your Postman Collections, and use a Microsoft Power Automate Webhook URL.
 
 ## Configuring Microsoft Power Automate Integration
 
@@ -76,7 +76,7 @@ To see collection activity feed in Microsoft Power Automate:
 
 ## Send Monitor run results in Microsoft Power Automate
 
-Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Power Automate integration, you can use those results by connecting to other available services.
+Postman Monitors enable you to run your collections on a schedule without any manual intervention. With the Microsoft Power Automate integration, you can use those results by connecting to other available services.
 
 To send monitor run results to Microsoft Power Automate:
 

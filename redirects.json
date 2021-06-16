@@ -1803,7 +1803,7 @@
 		"to": "/docs/publishing-your-api/publish-public-api/"
 },
 {
-		"from": "docs/integrations/available-integrations/microsoft-flow",
-		"to": "docs/integrations/available-integrations/microsoft-power-automate"
+		"from": "/docs/integrations/available-integrations/microsoft-flow/",
+		"to": "/docs/integrations/available-integrations/microsoft-power-automate/"
 }
 ]
