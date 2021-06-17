@@ -6,7 +6,7 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Command line integration with Newman"
+    name: "Command-line integration with Newman"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
@@ -65,7 +65,7 @@ The URL is a shareable public link to your collection. You can get this by click
 
 At this stage, you should see the [Collection](/docs/sending-requests/intro-to-collections/) running in Newman and the output displayed in the terminal.
 
-The entry point to the Docker image is Newman. So you can use all Newman command line parameters. You can also run locally stored collection files. The README of the image outlines how to mount shared data volumes.
+The entry point to the Docker image is Newman. So you can use all Newman command-line parameters. You can also run locally stored collection files. The README of the image outlines how to mount shared data volumes.
 
 ## Windows
 
