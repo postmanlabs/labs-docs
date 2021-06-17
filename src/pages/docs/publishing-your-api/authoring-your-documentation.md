@@ -70,43 +70,27 @@ When you create a new request using the __New__ button, you will be prompted to 
 
 To add a description to an existing request, open the request in Postman and edit the request detail.
 
-<img alt= "Edit Request" src="https://assets.postman.com/postman-docs/edit-request.jpg" width="350px"/>
+![Edit Request Description 1](https://assets.postman.com/postman-docs/edit-your-request-description-v8.jpg)
 
-![Request Description](https://assets.postman.com/postman-docs/edit-request-description.jpg)
+![Edit Request Description 2](https://assets.postman.com/postman-docs/edit-your-request-description-v8-2.jpg)
 
 Descriptions will appear in the request section in your documentation.
 
-<img alt="Request Description in Docs" src="https://assets.postman.com/postman-docs/request-in-docs.jpg" width="350px"/>
-
-You can also edit the request detail including the description directly from your docs in the browser—editable text will highlight on hover.
-
-<img src="https://assets.postman.com/postman-docs/inline-edit-hover.jpg" alt="Edit Docs" width="500px"/>
-
-Click to edit a section of text.
-
-<img src="https://assets.postman.com/postman-docs/edit-request-name-inline.jpg" alt="Edit Request Name" width="250px"/>
-
-<img src="https://assets.postman.com/postman-docs/inline-edit-heading.jpg" alt="Edit Heading" width="400px"/>
-
-Make your changes, and save them.
-
-<img src="https://assets.postman.com/postman-docs/editing-inline-request.jpg" alt="Edit Request" width="300px"/>
-
-You will see a warning if your documentation contains any unsaved changes.
-
-<img src="https://assets.postman.com/postman-docs/unsaved-inline-edits.jpg" alt="Unsaved Edit" width="500px"/>
+![Request Description](https://assets.postman.com/postman-docs/request-description-v8-2.jpg)
 
 ### Parameters and Headers
 
 You can add a description to the parameters and headers in your requests—for people viewing the request inside Postman (for example if you're working on a shared collection), or for anyone viewing your documentation.
 
-![Parameter Description](https://assets.postman.com/postman-docs/param-desc.jpg)
+![Parameter Description](https://assets.postman.com/postman-docs/request-param-headers-v8.jpg)
 
 > All key-value pairs will be displayed in your documentation regardless of whether or not they're checked. You can indicate which pairs are required and which are optional in the description. Consumers of your documentation can choose which key-value pairs they want to use when they send requests to your endpoints. Users will be able to [generate code snippets](/docs/sending-requests/generate-code-snippets/) in the Postman app based on the key-value pairs they select, and a URL with those pairs will be displayed in the app.
 
 The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
 
-<img alt="Header Description in Docs" src="https://assets.postman.com/postman-docs/header-desc-docs.jpg" width="500px">
+![Header Description in Docs](https://assets.postman.com/postman-docs/request-para-headers-v8-2.jpg)
+
+![Header Description in Docs](https://assets.postman.com/postman-docs/request-param-desc-v8.jpg)
 
 ### Authorization details
 
@@ -116,7 +100,7 @@ You can include the type of authorization required to access your APIs in your d
 
 If one of your endpoints requires an authorization type that varies from the collection, you can add that authorization type to the request in the request tab, and it will be rendered in the documentation.
 
-![Auth display](https://assets.postman.com/postman-docs/Auth+for+a+specific+request.jpg)
+![Auth display](https://assets.postman.com/postman-docs/request-auth-v8.jpg)
 
 ## Using examples in your docs
 
@@ -124,15 +108,15 @@ You can include [example](/docs/sending-requests/examples/) request and response
 
 Any body data included in your request will appear in the endpoint section of your documentation.
 
-![Body Data](https://assets.postman.com/postman-docs/body-json.jpg)
+![Body Data](https://assets.postman.com/postman-docs/request-response-body-v8.jpg)
 
-You can also create an example to use for a request. Click **Examples** > **Add Example**.
+You can also create an example to use for a request. Select **...** > **Add example**.
 
-![Add Example](https://assets.postman.com/postman-docs/add-example.jpg)
+![Add Example](https://assets.postman.com/postman-docs/request-more-add-example-v8.jpg)
 
-Create the example you want to add and click **Save Example**.
+Create the example you want to add and select **Save**.
 
-![Body Example](https://assets.postman.com/postman-docs/Create+an+example.jpg)
+![Body Example](https://assets.postman.com/postman-docs/request-save-response-v8.jpg)
 
 Any data you include in the example will appear on the right, in the docs example code sidebar, as the response body and headers.
 
@@ -170,15 +154,18 @@ You can use the Postman [Markdown collection](https://documenter.postman.com/vie
 
 ![markdown reference](https://assets.postman.com/postman-docs/Updated+Markdown+image+for+Authoring+your+docs.jpg)
 
-You can also see examples of documentation published using Postman collections by browsing the templates. Click __New__, select the __Templates__ tab, choose a template, and click __View Documentation__.
+You can see examples of documentation published using Postman by browsing [Teams](https://www.postman.com/explore/teams),[Workspaces](https://www.postman.com/explore/workspaces), [APIs](https://www.postman.com/explore/apis), and [Collections](https://www.postman.com/explore/collections).
 
-![Template Docs](https://assets.postman.com/postman-docs/template-docs.jpg)
+1. Navigate to the [Public API Network](https://www.postman.com/explore) page or select **Explore** from the desktop or web application.
+1. Select **Teams**, **Workspaces**, **APIs**, or **Collections**.
+![Public API Network page](https://assets.postman.com/postman-docs/explore-docs-examples-v8.jpg)
+1. Select a team, workspace, API, or collection to see documentation authored by others in the Public API Network.
 
-> The [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) is authored using Postman.
+![Template Docs](https://assets.postman.com/postman-docs/public-documentation-example-v8.jpg)
 
-If you edit your docs on the web, (following the links from your collection in the Postman app, or the dashboard when logged into your account in the browser), you will see helpers for common formatting options and be able to preview your changes.
+You can use both Postman desktop and web applications to author [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 
-<img src="https://assets.postman.com/postman-docs/inline-edit-options.jpg" alt="Inline Edit Options" width="500px"/>
+![Author doc in app or web app](https://assets.postman.com/postman-docs/author-docs-in-app-web-v8.jpg)
 
 ## Next steps
 

@@ -101,7 +101,7 @@ You can create a monitor with a POST request to the Postman API. Visit the [API 
 
 You will need to give your new monitor a name and designate the collection you would like it to run, as well as the version. You can also add an environment here if you would like your monitor to use one.
 
-![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor.jpg)
+![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1.jpg)
 
 > Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#usage-limits).
 
@@ -167,7 +167,7 @@ You can add a **Delay between requests** to your monitor. This will insert a del
 
 ### Managing redirect behavior
 
-You can use **Don't follow redirects** to reject URL redirection for requests run via a monitor.
+You can use **Follow redirects** to allow URL redirection for requests run via a monitor.
 
 ### Disabling SSL validation
 

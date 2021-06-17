@@ -1797,6 +1797,9 @@
 	},
 	{
 		"from": "/docs/administration/managing-your-team/",
-		"to": "/docs/administration/managing-your-team/managing-your-team/"
-	}
+		"to": "/docs/administration/managing-your-team/managing-your-team/"},
+{
+		"from": "/docs/publishing-your-api/add-api-network/",
+		"to": "/docs/publishing-your-api/publish-public-api/"
+}
 ]
