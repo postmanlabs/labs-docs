@@ -62,7 +62,7 @@ const LoginCheck = (props) => {
   }
   return (
     <a
-      href="https://go.postman.co/build"
+      href="https://go.postman.co/home"
       className="btn btn__primary"
       onClick={() => {
         // To stop the page reloading

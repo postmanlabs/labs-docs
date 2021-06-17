@@ -49,7 +49,7 @@ Signing up for an account is optional—you can use the desktop Postman app with
 
 To use Postman on the desktop, [download](https://www.postman.com/downloads/) the app and launch it.
 
-Alternatively, navigate to Postman on the web at [go.postman.co/build](https://go.postman.co/build).
+Alternatively, navigate to Postman on the web at [go.postman.co/home](https://go.postman.co/home).
 
 You will see a prompt to log in or sign up.
 

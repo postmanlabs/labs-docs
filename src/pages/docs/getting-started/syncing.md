@@ -54,7 +54,7 @@ These entities can sync with the server and be saved to the cloud:
 
 Install [Postman](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
 
-Alternatively, access Postman on the web by visiting [go.postman.co/build](https://go.postman.co/build) in your browser and signing into your account.
+Alternatively, access Postman on the web by visiting [go.postman.co/home](https://go.postman.co/home) in your browser and signing into your account.
 
 If you forget your username or password, you can recover them using the links in the sign-in prompt.
 
