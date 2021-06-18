@@ -87,7 +87,6 @@ If you're developing a back-end, working API-first, or need to monitor API perfo
 If you're exposing an API for public use, Postman can support developer onboarding:
 
 * [Publishing documentation](/docs/publishing-your-api/documenting-your-api/)
-* [Publishing public APIs](/docs/publishing-your-api/publish-public-api/)
 * [Using Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/)
 
 ### Collaborating with your team
