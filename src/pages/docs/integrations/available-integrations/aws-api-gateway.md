@@ -39,31 +39,36 @@ You can directly upload your API schemas from Postman to AWS API Gateway. Once t
 
 ### Configuring an AWS API Gateway integration
 
-To add an AWS API Gateway integration, navigate to your [Postman Dashboard](https://go.postman.co/), select **Integrations**, and click **Browse All Integrations** (or open [Browse Integrations](https://go.postman.co/integrations/browse?category=all) page). Select **AWS API Gateway**, and click **Add integration**.
+1. Select [**Home**](https://go.postman.co/home).
 
-![AWS API Gateway page](https://assets.postman.com/postman-docs/aws-api-gateway-integration-page.jpg)
+    ![postman home](https://assets.postman.com/postman-docs/awsgateway-home.jpg)
 
-Enter your AWS access key ID, secret access key, and region, then click **Continue**.
+1. Select [**Integrations**](https://postman.postman.co/integrations/browse?category=all).
 
-> Learn [how to get your AWS credentials](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html).
+    ![postman integrations](https://assets.postman.com/postman-docs/awsgateway-integrations.jpg)
 
-<img src="https://assets.postman.com/postman-docs/enter-aws-credentials.jpg" width="350px" alt="Enter access credentials"/>
+1. Search and select **AWS API Gateway**.
+1. Select **Add Integration**.
 
-Select your API, API version, and the API Gateway you'd like to deploy to from the dropdown menus. You can use an existing API Gateway, or create a new one by selecting **Create New API Gateway** from the dropdown.
+    ![aws gateway add integration](https://assets.postman.com/postman-docs/aws-gateway-add-integration.jpg)
 
-> If you are creating a new API Gateway, auto-deployment will automatically be set to false in AWS.
+1. Enter your AWS access key ID, secret access key, and region, select **Continue**.
 
-<img src="https://assets.postman.com/postman-docs/select-api-version-gateway.jpg" width="350px" alt="Enter API info and Gateway"/>
+    > Learn [how to get your AWS credentials](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html).
 
-Your newly created integration will now appear under **Configured Integrations**.
+    ![aws gateway auth and proceed](https://assets.postman.com/postman-docs/aws-gateway-auth-proceed.jpg)
 
-> You can have one AWS API Gateway integration configured for each API version.
+1. Select your API, API version, and the API Gateway you'd like to deploy to from the dropdown menus. You can use an existing API Gateway, or create a new one by selecting **Create New API Gateway** from the dropdown.
 
-![Configured integrations](https://assets.postman.com/postman-docs/config-integrations-aws.jpg)
+    > If you are creating a new API Gateway, auto-deployment will automatically be set to false in AWS.
+
+    ![aws gateway create](https://assets.postman.com/postman-docs/select-api-version-gateway-7.jpg)
+
+    > You can have one AWS API Gateway integration configured for each API version.
 
 To confirm this integration, navigate to your AWS Gateway dashboard, select your API Gateway, then select **Integrations** to view your newly uploaded endpoints.
 
-<img src="https://assets.postman.com/postman-docs/configured-in-aws-2.jpg" width="500px" alt="Configured integration in AWS"/>
+![Configured integration in AWS](https://assets.postman.com/postman-docs/configured-in-aws-2.jpg)
 
 This integration will be triggered whenever the configured Postman schema is updated. Any configured AWS integrations will be preserved.
 

@@ -35,7 +35,7 @@ contextual_links:
 
 ---
 
-Postman is available as a native desktop app for Mac, Windows (32-bit / 64-bit), and Linux (32-bit / 64-bit) operating systems, and on the web at **[go.postman.co/build](https://go.postman.co/build)**.
+Postman is available as a native desktop app for Mac, Windows (32-bit / 64-bit), and Linux (32-bit / 64-bit) operating systems, and on the web at **[go.postman.co/home](https://go.postman.co/home)**.
 
 To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and click **Download** for your platform.
 
@@ -115,7 +115,7 @@ Categories=Development;
 
 ## Using Postman on the web
 
-You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/build](https://go.postman.co/build) in your browser. If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [this Downloads page](https://www.postman.com/downloads/).
+You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/home](https://go.postman.co/home) in your browser. If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [this Downloads page](https://www.postman.com/downloads/).
 
 <img alt="Postman Agent" src="https://assets.postman.com/postman-docs/download-agent.jpg" width="500px"/>
 

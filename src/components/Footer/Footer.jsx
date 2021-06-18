@@ -14,6 +14,8 @@ const FooterColumn1 = (data) => (
           className="footer-column__link"
           href={link.url}
           id={link.id}
+          target="_blank"
+          rel="noopener"
           onClick={() => {
             trackCustomEvent({
               category: `${link.category}`,
@@ -133,7 +135,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/postman-galaxy/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   id="postman-galaxy"
                   onClick={() => {
                     trackCustomEvent({
@@ -151,7 +153,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/legal/privacy-policy/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   id="privacy-policy"
                   onClick={() => {
                     trackCustomEvent({
@@ -170,7 +172,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/legal/terms/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   id="terms"
                   onClick={() => {
                     trackCustomEvent({
@@ -187,7 +189,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/company/careers/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   id="Careers"
                   onClick={() => {
                     trackCustomEvent({
@@ -204,7 +206,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/support/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   id="support"
                   onClick={() => {
                     trackCustomEvent({
@@ -221,7 +223,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/security/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   id="security"
                   onClick={() => {
                     trackCustomEvent({
@@ -236,50 +238,6 @@ class FooterComponent extends React.Component {
               </div>
             </div>
           </div>
-
-          {/* <div className="row justify-content-center mt-2">
-        <div className="col-sm-12 d-md-flex justify-content-center">
-            <ul className="column__links list-inline"
-                aria-labelledby="company-list"
-            >
-              <li className="list-inline-item footer__items">
-                <a
-                  href="https://www.postman.com/postman-galaxy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Postman Galaxy</a>
-              </li>
-              <li className="list-inline-item footer__items">
-                <a
-                  href="https://www.postman.com/legal/privacy-policy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Privacy</a>
-              </li>
-              <li className="list-inline-item footer__items">
-                <a
-                  href="https://www.postman.com/legal/eula/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >Terms</a>
-              </li>
-              <li className="list-inline-item footer__items">
-                <a
-                  href="https://www.postman.com/company/careers/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >Careers</a>
-              </li>
-              <li className="list-inline-item footer__items">
-                <a
-                href="https://www.postman.com/support/"
-                target="_blank"
-                rel="noopener noreferrer"
-                  >Support</a>
-              </li>
-            </ul>
-        </div>
-      </div> */}
 
           {/* line */}
           <div className="row footer__line-wrapper">
