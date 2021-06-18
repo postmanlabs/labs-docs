@@ -139,4 +139,4 @@ You can unpublish your docs at any time by clicking __Unpublish__.
 
 [![Imgur API docs](https://i.imgur.com/oXgXznt.png)](https://i.imgur.com/oXgXznt.png)
 
-Find out more about sharing your docs via your [public workspaces](/docs/publishing-your-api/publish-public-api/).
+Find out more about [sharing your docs](/docs/publishing-your-api/publishing-your-docs/).
