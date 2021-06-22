@@ -103,7 +103,6 @@ You can sign into Postman by clicking **Sign In** in the upper-right corner of P
   <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
 > You can opt out of the login process at any time by navigating back to Postman and clicking **Skip and take me to Postman Desktop App**.
-
 > You must complete the process of signing in within five minutes once you initiate login from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
 Log into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Business or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
