@@ -11,7 +11,9 @@ contextual_links:
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
-
+  - type: link
+    name: "Introducing User Management in Postman with SCIM"
+    url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"
 ---
 
 > __[Provisioning with SCIM is only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
@@ -119,7 +121,7 @@ To set up provisioning with the Postman Okta app, take the following steps:
 
 4. Click **Test API Credentials**. If successful, a verification message will appear.
 
-    > If verification is unsuccessful, confirm that you have [SCIM enabled for your team in Postman](#enabling-scim-in-postman), are using the correct [SCIM API key](generating-scim-api-key), and that your API key's status is **ACTIVE** in your [team authentication settings](https://go.postman.co/settings/team/auth). If you continue to face issues, [contact Postman support](https://www.postman.com/support/) for assistance.
+    > If verification is unsuccessful, confirm that you have [SCIM enabled for your team in Postman](#enabling-scim-in-postman), are using the correct [SCIM API key](#generating-scim-api-key), and that your API key's status is **ACTIVE** in your [team authentication settings](https://go.postman.co/settings/team/auth). If you continue to face issues, [contact Postman support](https://www.postman.com/support/) for assistance.
 
 5. Click **Save**.
 

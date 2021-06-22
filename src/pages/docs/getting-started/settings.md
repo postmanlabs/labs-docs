@@ -63,7 +63,7 @@ If you want Postman to persist your file paths, then you must save your files in
 Postman flags a warning for files that are not stored in this directory.
 
 However, delimiting the working directory can have some unintended security issues as follows:
-  
+
   1. It is against the general principle of security to give system-wide access to a program as it exposes a user's system to all types of threats.
   2. Restricting the working directory would prevent safety issues arising when files obtained from external/anonymous sources are used. For example, a collection that the user has obtained from the internet. The user may or may not have proper information about the collection and as such may not understand if the collection serves some other hidden function.
   3. Absolute file path can also be given to postman, but when sharing it may not work for the user it is shared to as absolute paths can vary between systems.
@@ -117,7 +117,7 @@ Import and export data in bulk inside Postman.  This will overwrite your existi
 
 ## Add-ons
 
-Download Newman, Postman's command line companion, to integrate Postman collections with your build system, or run automated tests for your API through a cron job. Learn more about [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+Download Newman, Postman's command-line companion, to integrate Postman collections with your build system or run automated tests for your API through a cron job. Learn more about [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
 ## Sync
 
