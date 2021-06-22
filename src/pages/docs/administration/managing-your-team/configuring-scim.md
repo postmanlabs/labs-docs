@@ -11,7 +11,9 @@ contextual_links:
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
-
+  - type: link
+    name: "Introducing User Management in Postman with SCIM"
+    url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"
 ---
 
 > __[Provisioning with SCIM is only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
