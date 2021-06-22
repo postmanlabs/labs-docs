@@ -3,14 +3,13 @@ title: "Security Warnings"
 order: 116
 page_id: "security_warnings"
 warning: false
-search_keyword: "api security, api schema, security warnings, schema validation, security validation"
 contextual_links:
- - type: subtitle
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Introducing Security Warnings During API Validation"
     url: "https://blog.postman.com/security-warnings-during-api-validation/"
-
+search_keyword: "api security, api schema, security warnings, schema validation, security validation"
 ---
 
 In Postman, we highly recommend you to follow Security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 3.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security misses and help you understand their implications and possible ways to patch the warnings.
