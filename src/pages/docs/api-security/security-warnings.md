@@ -4,6 +4,8 @@ order: 116
 page_id: "security_warnings"
 warning: false
 contextual_links:
+  - type: section
+    name: "Additional Resources"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
