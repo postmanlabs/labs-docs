@@ -94,19 +94,19 @@ The **Proxy Bypass** setting is below the **Proxy Server** option. A number of c
 
 The **Use the system proxy** option allows Postman to use the system's default proxy configuration. It contains an option to use `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables.
 
-If all of your applications need to use the same proxy, you might have a default proxy configured at the Operating System level. Use the **system proxy settings** to forward your HTTP or HTTPS requests in Postman through your OS’s default configuration. In other words, you are telling the Postman and all requests sent using Postman to follow your OS's default configuration.
+If all of your applications need to use the same proxy, you might need to use a default proxy configured at the Operating System level. Use the **system proxy settings** to forward your HTTP or HTTPS requests in Postman through your OS’s default configuration. In other words, you are telling the Postman and all requests sent using Postman to follow your OS's default configuration.
 
 1. Postman is the client that sends a request through your Operating System’s default configuration, which forwards the request to the proxy server.
 1. The system proxy server sends the request to the server.
 1. The server returns a response back through the proxy server.
 
-[![system proxy](https://assets.postman.com/postman-docs/system-proxy2.png)](https://assets.postman.com/postman-docs/system-proxy2.png)
+[![System proxy](https://assets.postman.com/postman-docs/system-proxy-flow.jpg)](https://assets.postman.com/postman-docs/system-proxy-flow.jpg)
 
 System proxy settings are enabled by default. Any request made through Postman will go through the system proxy.
 
-You can turn this setting on and off using the toggle switch. When turned off, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
+You can select or unselect the option "**Use the system proxy**" to enable or disable the system proxy. When it is unchecked, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
 
-[![system proxy](https://assets.postman.com/postman-docs/proxy_system.png)](https://assets.postman.com/postman-docs/proxy_system.png)
+[![Use system proxy](https://assets.postman.com/postman-docs/use-system-proxy.jpg)](https://assets.postman.com/postman-docs/use-system-proxy.jpg)
 
 **Note:** If the **Use System Proxy** and the **Custom Proxy Configuration** are both turned on, then the **Custom Proxy Configuration** will take precedence.
 
@@ -123,12 +123,12 @@ If you are unable to send any requests through Postman and your network requires
 
 If you are unable to send any requests through Postman and your network does not require a proxy, take the following steps:
 
-* Ensure you have both proxies (Global/System) disabled. If it still does not work, it may be because there are some environment variables setup in your system. There are two solutions:
+* Ensure you have both proxies (Custom/System) disabled. If it still does not work, it may be because there are some environment variables setup in your system. There are two solutions:
 
     * Remove the environment variables http&#95;proxy, https&#95;proxy, HTTP&#95;PROXY, and HTTPS&#95;PROXY.
     * Start Postman with these "variables" turned off:
 
-        * **Windows** –  create a postman.bat file with the following contents:
+        * **Windows** –  create a `postman.bat` file with the following contents:
 
         ```shell
         set HTTP_PROXY=''
@@ -145,7 +145,7 @@ If you are unable to send any requests through Postman and your network does not
 If your proxy has basic auth, take the following steps:
 
 * Start Postman with the appropriate environment variables:
-    * **Windows** — create a postman.bat file with the following contents:
+    * **Windows** — create a `postman.bat` file with the following contents:
 
     ```shell
     set HTTP_PROXY=http://USER:PASS@host:port
@@ -153,9 +153,9 @@ If your proxy has basic auth, take the following steps:
     start C:\path\to\Postman.exe
     ```
 
-  Double-clicking this bat file should open Postman without any of the proxy environment variables set.
+  Double-clicking this `.bat` file should open Postman without any of the proxy environment variables set.
 
-    * **Mac/Linux** - create the .sh file with the following contents:
+    * **Mac/Linux** - create the `.sh` file with the following contents:
 
     ```shell
     `HTTP_PROXY`=`http://USER:PASS@host:port`
@@ -163,3 +163,5 @@ If your proxy has basic auth, take the following steps:
     ```
 
     * Create this file and save it in a convenient location. When you open this file, the set environment variables will only apply to the Postman process.
+
+For troubleshooting configuration or request issues, see [Troubleshooting using console](/docs/sending-requests/troubleshooting-api-requests).
