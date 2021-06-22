@@ -6,7 +6,7 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Command line integration with Newman"
+    name: "Command-line integration with Newman"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
@@ -30,7 +30,7 @@ tags:
 
 ---
 
-Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), the command line collection runner for Postman.
+Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), the command-line collection runner for Postman.
 
 Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation.
 
@@ -49,7 +49,7 @@ Newman allows you to run and test a Postman Collection. Newman and Jenkins are a
 
 1. Install NodeJS and npm. Newman is written in NodeJS and the official copy is available through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-1. Install Newman globally, to set up Newman as a command line tool in Ubuntu.
+1. Install Newman globally, to set up Newman as a command-line tool in Ubuntu.
 
     ```bash
     $ npm install -g newman
