@@ -34,7 +34,7 @@ warning: false
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation / test suites, and to automate request runs.
 
-Postman lists your collections in the left sidebar &gt; select __Collections__.
+Select __Collections__ in the left sidebar of Postman to see the list or collections in a workspace.
 
 [![Collections](https://assets.postman.com/postman-docs/collections-v8.jpg)](https://assets.postman.com/postman-docs/collections-v8.jpg)
 
@@ -105,7 +105,15 @@ You can reorder the requests, folders, and examples inside a collection by click
 
 To delete a collection, in __Collections__ click __...__ and select __Delete__.
 
-> You can recover deleted collections in Postman using __Trash__. Click `...` next to the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the bottom right corner in Postman.
+If you'd like to revert your collection to a previous state, you can open the changelog from the right of the collection overview.
+
+[![Changelog](https://assets.postman.com/postman-docs/changelog-v8.jpg)](https://assets.postman.com/postman-docs/changelog-v8.jpg)
+
+You can [share](/docs/collaborating-in-postman/sharing/) your collections to a workspace, by publishing a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button on a web page, or by sharing a public link.
+
+### Recovering deleted collections
+
+You can recover deleted collections in Postman using __Trash__. Click `...` next to the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the statisbar in the bottom right corner in Postman.
 
 <img alt="Trash" src="https://assets.postman.com/postman-docs/trash-v8.jpg"/>
 
@@ -115,13 +123,7 @@ Recovery options depend on your Postman plan:
 * Team accounts can recover collections up to 30 days.
 * With Postman Business and Enterprise you can recover collections up to 90 days.
 
-If you are not able to recover a deleted collection, it may have been removed from a workspace rather than deleted. If it appears in another workspace, you can move it by clicking __Share__.
-
-If you'd like to revert your collection to a previous state, you can open the changelog from the right of the collection overview.
-
-[![Changelog](https://assets.postman.com/postman-docs/changelog-v8.jpg)](https://assets.postman.com/postman-docs/changelog-v8.jpg)
-
-You can [share](/docs/collaborating-in-postman/sharing/) your collections to a workspace, by publishing a Run in Postman button on a web page, or by sharing a public link.
+If you aren't able to recover a deleted collection, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by clicking __Share__.
 
 ## Using collections
 
