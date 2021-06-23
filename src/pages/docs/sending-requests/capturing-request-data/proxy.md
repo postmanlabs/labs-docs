@@ -64,7 +64,7 @@ requests to not use the proxy server.
 
 To configure the proxy settings, click the gear icon on the right side of the header toolbar, choose **Settings**, and select the **Proxy** tab.
 
-[![Proxy settings](https://assets.postman.com/postman-docs/proxy-settings-overview.jpg)](https://assets.postman.com/postman-docs/proxy-settings-overview.jpg)
+[![Proxy settings modal](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)
 
 ### Using a custom proxy
 
@@ -123,7 +123,7 @@ If you are unable to send any requests through Postman and your network requires
 
 If you are unable to send any requests through Postman and your network does not require a proxy, take the following steps:
 
-* Ensure you have both proxies (Custom/System) disabled. If it still does not work, it may be because there are some environment variables setup in your system. There are two solutions:
+* Ensure you have both proxies (Custom/System) disabled. If you are still not able to send the request, it might be due to the environment variables setup in your system. There are two solutions to solve this:
 
     * Remove the environment variables http&#95;proxy, https&#95;proxy, HTTP&#95;PROXY, and HTTPS&#95;PROXY.
     * Start Postman with these "variables" turned off:
