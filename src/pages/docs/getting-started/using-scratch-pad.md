@@ -31,7 +31,9 @@ While you are in the Scratch Pad, you can:
 * Edit documentation for a collection or request.
 
 ## Leaving the Scratch Pad
+
 To leave the Scratch Pad:
+
 1. Ensure you have a network connection to Postman, and log in.
 1. Switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/)
 
