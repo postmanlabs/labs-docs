@@ -30,7 +30,8 @@
         { "url": "https://blog.postman.com", "name": "Blog", "id": "blog", "category": "global-footer", "label": "blog"},
         { "url": "https://www.postman.com/community", "name": "Community", "id": "community", "category": "global-footer", "label": "community"},
         { "url": "https://www.postman.com/webinars/", "name": "Webinars", "id": "webinars", "category": "global-footer", "label": "webinars"},
-        { "url": "https://www.postman.com/case-studies/", "name": "Case Studies", "id": "case-studies", "category": "global-footer", "label": "case-studies"}
+        { "url": "https://www.postman.com/case-studies/", "name": "Case Studies", "id": "case-studies", "category": "global-footer", "label": "case-studies"},
+        { "url": "https://www.postman.com/events/breaking-changes/", "name": "Breaking Changes Show", "id": "breaking-changes-show", "category": "global-footer", "label": "breaking-changes-show"}
       ]
     },
 
