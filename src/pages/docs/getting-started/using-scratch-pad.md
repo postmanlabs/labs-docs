@@ -7,7 +7,7 @@ warning: false
 
 The _Scratch Pad_ is a space where you can work while not being connected to Postman Servers. When you aren't logged in or don't have a network connection, you can still access some Postman features offline, such as creating collections and requests, or sending requests.
 
-All work in the Scratch Pad will be stored locally and will not be synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace after you log in.
+All your work in the Scratch Pad will be stored locally and will not be synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you log in.
 
 ## Entering the Scratch Pad
 
@@ -15,17 +15,17 @@ If you're logged out or your connection to Postman is broken, you'll see a notic
 
 <img alt="Scratch Pad notice" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
 
-If you are logged in and want to go to the Scratch Pad, click the gear icon and select **Scratch Pad**.
+If you are logged in and want to go to the Scratch Pad, click the gear icon to the right side of the header toolbar and select **Scratch Pad**.
 
 <img alt="Enter Scratch Pad" src="https://assets.postman.com/postman-docs/scratch-pad-enter.jpg" width="200px" />
 
-## What you can do in the Scratch Pad
+## Scratch Pad features
 
 While you are in the Scratch Pad, you can:
 
 * Create, edit, rename, or delete a collection, folder, environment, HTTP request, or WebSocket request.
 * Send a request.
-* View your history of sent requests.
+* View your history of your sent requests.
 * Write and execute test scripts and visualizers.
 * Export collections and environments.
 * Edit documentation for a collection or request.
@@ -35,7 +35,7 @@ While you are in the Scratch Pad, you can:
 To leave the Scratch Pad:
 
 1. Ensure you have a network connection to Postman, and log in.
-1. Switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/)
+1. Switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
 > You can also select **Switch to a Workspace** from the Scratch Menu notice at the top of the screen.
 
@@ -45,14 +45,14 @@ When you leave the Scratch Pad, your data remains there; you won't see it in you
 
 To export all Scratch Pad data:
 
-1. Go to the Scratch Pad, as described [above](#entering-the-scratch-pad).
-1. Select the gear icon in the upper-right corner to open **Settings**, then select the **Data** tab.
-1. Select **Export Data**.
+1. Go to the Scratch Pad.
+1. Select the gear icon in the upper-right corner to open **Settings**, and select the **Data** tab.
+1. Click **Export Data**.
 1. This opens the **Export data** page in your web browser. Click **Export Data**.
-1. Select **Collections**, **Environments**, or both, then select **Request Data Export**.
-1. You'll get an email with a link to download the a data dump, which is a single JSON file containing your data.
+1. Select **Collections**, **Environments**, or both, and select **Request Data Export**.
+1. You'll get an email with a link to download the data dump, which is a single JSON file containing your data.
 
-You can also export a single collection or environment. For more information, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data/)
+You can also export a single collection or an environment. For more information, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data/)
 
 To import Scratch Pad data:
 
