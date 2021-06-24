@@ -11,9 +11,9 @@ All your work in the Scratch Pad will be stored locally and will not be synced o
 
 ## Entering the Scratch Pad
 
-If you're logged out or your connection to Postman is broken, you'll see a notice at the top of the screen indicating that you're already in the Scratch Pad.
+If you're logged out or your connection to Postman is broken, you'll see a global banner at the top of the screen indicating that you're already in the Scratch Pad.
 
-<img alt="Scratch Pad notice" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
+<img alt="Scratch Pad global banner" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
 
 If you are logged in and want to go to the Scratch Pad, click the gear icon to the right side of the header toolbar and select **Scratch Pad**.
 
@@ -37,7 +37,7 @@ To leave the Scratch Pad:
 1. Ensure you have a network connection to Postman, and log in.
 1. Switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
-> You can also select **Switch to a Workspace** from the Scratch Menu notice at the top of the screen.
+> You can also select **Switch to a Workspace** from the Scratch Menu global banner at the top of the screen.
 
 ## Exporting data from the Scratch Pad
 
