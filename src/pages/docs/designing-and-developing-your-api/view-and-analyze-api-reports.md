@@ -52,10 +52,10 @@ Your API reports will include different information if you're on an [Enterprise]
 You can access the following reports from the left navigation bar of your dashboard:
 
 * [Team Activity](#team-activity-reports)
-* [All APIs](#all-apis-reports)
-* [Private Network APIs](#private-network-apis-reports)
-* [Security Audit](#security-audit-reports)
-* [Individual API View](#individual-api-view-reports)
+* [All API reports](#all-api-reports)
+* [Private Network API reports](#private-network-api-reports)
+* [Security Audit reports](#security-audit-reports)
+* [Individual API view reports](#individual-api-view-reports)
 
 ## Team activity reports
 

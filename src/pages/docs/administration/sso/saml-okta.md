@@ -18,7 +18,7 @@ You can set up your custom SAML application by using the available Postman app i
 ## Contents
 
 * [Setting up a custom SAML application in Okta](#setting-up-a-custom-saml-application-in-okta)
-* [Setting up a custom SAML application in Okta by using the Postman app](#setting-up-a-custom-saml-application-in-okta-using-the-postman-app)
+* [Setting up a custom SAML application in Okta by using the Postman app](#setting-up-a-custom-saml-application-in-okta-by-using-the-postman-app)
 
 ## Setting up a custom SAML application in Okta
 

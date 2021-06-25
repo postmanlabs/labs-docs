@@ -52,7 +52,7 @@ To export all Scratch Pad data:
 1. Select **Collections**, **Environments**, or both, and select **Request Data Export**.
 1. You'll get an email with a link to download the data dump, which is a single JSON file containing your data.
 
-You can also export a single collection or an environment. For more information, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data/)
+You can also export a single collection or an environment. For more information, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data)
 
 To import Scratch Pad data:
 
@@ -60,4 +60,4 @@ To import Scratch Pad data:
 1. Click **Import** in the upper-left corner.
 1. Drag and drop your exported data dump, collection, or environment and click **Import**.
 
-For more information on importing, see [Importing data into Postman](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman/).
+For more information on importing, see [Importing data into Postman](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
