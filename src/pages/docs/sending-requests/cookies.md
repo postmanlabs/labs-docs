@@ -30,6 +30,22 @@ Postman provides a **MANAGE COOKIES** modal that lets you edit cookies that ar
 
 > You can disable the cookie jar in the __Settings__ tab for a request at any time to toggle off sending cookies.
 
+## What are cookies?
+
+A computer “cookie” is more formally known as an HTTP cookie, a web cookie, an Internet cookie or a browser cookie. The name is a shorter version of “magic cookie,” which is a term for a packet of data that a computer receives and then sends back without changing or altering it.
+
+## What information are stored along with a cookie?
+
+A cookie typically contains two bits of data: a unique ID for each user, and a site name. Cookies enable websites to retrieve this information when you revisit them, so that they can remember you and your preferences and tailor page content for you based on this information.
+
+## Why someone would want to use cookies?
+
+As a necessary part of web browsing, HTTP cookies help web developers give you more personal, convenient website visits. Cookies let websites remember you, your website logins, shopping carts and more.
+
+## How is it useful?
+
+Websites use HTTP cookies to streamline your web experiences. Without cookies, you’d have to login again after you leave a site or rebuild your shopping cart if you accidentally close the page. Making cookies an important a part of the internet experience.
+
 ## Getting to the cookie manager
 
 To open the **MANAGE COOKIES** modal, click the **Cookies** link under the **Send** button.
