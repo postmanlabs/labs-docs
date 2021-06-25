@@ -48,7 +48,7 @@ Before you get into the details of mocking, let’s start with setting up some b
 
 ### Step 1: Sending a request (R1)
 
-From Postman, send a `GET` request to the URL `https://postman-echo.com/get?test=123`. This request hits the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test out your REST clients and make sample API calls.
+From Postman, send a `GET` request to the URL `https://postman-echo.com/get?test=123`. This request hits the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test out your REST/SOAP clients and make sample API calls.
 
 The resulting response can be seen on the right, and a record of this request will now be visible in your [history](/docs/getting-started/navigating-postman/#history) on the left.
 
