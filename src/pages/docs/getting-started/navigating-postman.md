@@ -79,6 +79,16 @@ You can declutter your workspace by collapsing panes. Use the buttons at the bot
 
 [![general layout](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)
 
+## Related Collections
+
+When a request is selected in Postman, you'll see a Related Collections (light bulb) icon <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg" width="25px"/> on the right panel.
+
+You can select the icon to view public collections from the [API Network](https://www.postman.com/explore/) that share the same base URL as your request and include API documentation to help you get started.
+
+<img alt="Related Collections suggestions" src="https://assets.postman.com/postman-docs/collection-rec-sidebar-opened.jpg"/>
+
+You can select any recommended collection to view its contents and documentation. You can also directly fork a recommended collection and utilize it to quick start your development.
+
 ## Universal search
 
 You can access universal search by clicking __Search Postman__ at the top of Postman — or using the keyboard shortcut `Command + K`.
