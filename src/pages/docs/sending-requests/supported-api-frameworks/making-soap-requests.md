@@ -31,7 +31,7 @@ The following steps outline how to make a SOAP request in Postman.
 
 Open a new request tab in Postman and enter your SOAP endpoint URL in the address field. Try out the following example if you do not have a specific service you want to call:
 
-```
+```xml
 https://www.dataaccess.com/webservicesserver/NumberConversion.wso
 ```
 

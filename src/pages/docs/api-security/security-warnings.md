@@ -69,7 +69,7 @@ The following list describes possible warning messages and potential ways to res
 
 **Resolution:**
 
-```
+```json
 openapi: 3.0.0
 info:
 paths:
@@ -87,7 +87,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 openapi: 3.0.0
 info:
 paths:
@@ -105,7 +105,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 openapi: 3.0.0
 info:
 paths:
@@ -123,7 +123,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 security:
   - OAuth2:
     - read
@@ -151,7 +151,7 @@ components:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
     testAuth:
@@ -171,7 +171,7 @@ components:
 
 **Resolution:**
 
-```
+```json
 paths:
   /user:
     get:
@@ -189,7 +189,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 paths:
   /user:
     get:
@@ -207,7 +207,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
   /user:
     get:
       tags:
@@ -226,7 +226,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 paths:
   "/user":
     get:
@@ -259,7 +259,7 @@ components:
 
 **Resolution:**
 
-```
+```json
 servers:
   - url: https://my.api.example.com/
     description: API server
@@ -285,7 +285,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 servers:
   - url: https://my.api.example.com/
     description: API server
@@ -310,7 +310,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 servers:
   - url: https://my.api.example.com/
     description: API server
@@ -336,7 +336,7 @@ security:
 
 **Resolution**:
 
-```
+```json
 servers:
   - url: https://my.api.example.com/
     description: API server
@@ -364,7 +364,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
     OAuth2:
@@ -388,7 +388,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
     ApikeyAuth:
@@ -412,7 +412,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 get:
   operationId: getPetsById
   servers:
@@ -429,7 +429,7 @@ get:
 
 **Resolution**:
 
-```
+```json
 components:
   securitySchemes:
     OpenIdScheme:
@@ -456,7 +456,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
      OauthScheme:
@@ -476,7 +476,7 @@ components:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
      OauthScheme:
