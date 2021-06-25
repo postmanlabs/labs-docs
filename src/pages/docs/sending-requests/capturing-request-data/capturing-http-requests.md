@@ -124,7 +124,7 @@ OpenSSL is already installed for macOS and typically installed for Linux. For Wi
 1. Open **Command Prompt** and run **openssl version** to confirm the installation was successful.
 
     ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-check-openssl-version.jpg)
-    
+
 ## Capture HTTPS traffic with Postman's built-in proxy
 
 You can use the Postman's proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices. After you enable the proxy feature, follow the instructions below to install the security certificate on the target devices.
