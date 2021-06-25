@@ -104,7 +104,7 @@ Please use the following links to download the latest Postman v7 version for you
 
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v7.
 
-```
+```shell
 sudo snap switch --channel=v7/stable postman
 sudo snap refresh postman
 ```
@@ -121,7 +121,7 @@ Please use the following links to download the latest Postman v6 version for you
 
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v6.
 
-```
+```shell
 sudo snap switch --channel=v6/stable postman
 sudo snap refresh postman
 ```

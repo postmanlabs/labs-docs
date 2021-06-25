@@ -243,19 +243,19 @@ When you run a request, Postman will resolve the variable and replace it with it
 
 For example, you could have a request URL referencing a variable as follows:
 
-```
+```js
 http://pricey-trilby.glitch.me/customer?id={{cust_id}}
 ```
 
 Postman will send whatever value you currently have stored for the `cust_id` variable when the request runs. If `cust_id` is currently `3`, the request will be sent to the following URL including query parameter:
 
-```
+```js
 http://pricey-trilby.glitch.me/customer?id=3
 ```
 
 Alternatively, you could have a request body that accesses a variable by wrapping its reference in double-quotes:
 
-```
+```js
 { "customer_id" : "{{cust_id}}" }
 ```
 
