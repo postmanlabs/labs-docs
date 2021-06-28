@@ -18,10 +18,10 @@ contextual_links:
     name: "Videos"
   - type: link
     name: "Public Workspaces | The Exploratory"
-    url: "https://youtu.be/DjGbMdqnY64"	  
+    url: "https://youtu.be/DjGbMdqnY64"
   - type: link
     name: "Add Summaries and Categories on the Public API Network | Postman Level Up"
-    url: "https://youtu.be/4ulU2FZMPjQ"	  
+    url: "https://youtu.be/4ulU2FZMPjQ"
 ---
 
 [Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to your [team profile settings](https://postman.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the [Public API Network](/docs/collaborating-in-postman/public-workspaces/).
@@ -175,4 +175,4 @@ Click **X** next to the team member you want to remove from the public workspace
 
 ## Next steps
 
-To add an API to the network, see [Adding your API](docs/collaborating-in-postman/adding-private-network/#adding-your-apis). For more details on how to add categories to a public workspace, visit [Providing API detail](/docs/publishing-your-api/authoring-your-documentation/#documenting-request-detail).
+To add an API to the network, see [Adding your API](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis). For more details on how to add categories to a public workspace, visit [Providing API detail](/docs/publishing-your-api/authoring-your-documentation/#documenting-request-detail).
