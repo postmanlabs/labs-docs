@@ -164,4 +164,4 @@ If your proxy has basic auth, take the following steps:
 
     * Create this file and save it in a convenient location. When you open this file, the set environment variables will only apply to the Postman process.
 
-For troubleshooting configuration or request issues, see [Troubleshooting using console](/docs/sending-requests/troubleshooting-api-requests).
+For troubleshooting configuration or request issues, see [Troubleshooting using console](/docs/sending-requests/troubleshooting-api-requests/).
