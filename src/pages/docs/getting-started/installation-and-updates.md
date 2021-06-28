@@ -121,7 +121,7 @@ You can use Postman in your web browser to carry out your API development and te
 
 The Postman agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers, and facilitates API request sending from your browser version of Postman. Once you have the agent installed you will be able to use it with web requests.
 
-You can either enable **Auto-select** option or manually select the agent you would like to use for your requests.
+You can either enable **Auto-select** option or manually select the agent (Cloud, Desktop, or Browser) you would like to use for your requests.
 
 <img alt="Select agent" src="https://assets.postman.com/postman-docs/select-agent-for-requests.gif">
 
