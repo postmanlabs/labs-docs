@@ -40,7 +40,7 @@ When you select **Team Settings**, you will be automatically directed to **Edit 
 
 <img alt="Edit team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-settings.jpg"/>
 
-You can also opt to enable your team's public profile. If you enable this feature, your team's profile will show up on Postman's [API Network](/docs/publishing-your-api/add-api-network/), along with any [APIs](/docs/publishing-your-api/add-api-network/#adding-your-api), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-a-public-workspace) your team has published. You can also add an **About your team** section, a link to your website, and links to social media accounts to your team's public profile.
+You can also opt to enable your team's public profile. If you enable this feature, your team's profile will show up on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/public-workspaces/) your team has published. You can also add an **About your team** section, a link to your website, and links to social media accounts to your team's public profile.
 
 ## Making your team discoverable
 

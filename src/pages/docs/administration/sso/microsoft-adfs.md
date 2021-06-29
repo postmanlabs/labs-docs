@@ -147,19 +147,19 @@ Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and 
 
 * For ADFS 2.0, open the following file in a text editor:
 
-```
+```shell
 %systemroot%\inetpub\adfs\ls\web.config
 ```
 
 * For ADFS 3.0, open the following file in a text editor:
 
-```
+```shell
 %systemroot%\ADFS\Microsoft.IdentityServer.Servicehost.exe.config
 ```
 
 In the `<microsoft.identityServer.web>` section, add a line for __useRelyStateForIdpInitiatedSignOn__ as follows, and save the change:
 
-```
+```shell
 <microsoft.identityServer.web>    ... <useRelayStateForIdpInitiatedSignOn enabled="true" />    ...</microsoft.identityServer.web>
 ```
 

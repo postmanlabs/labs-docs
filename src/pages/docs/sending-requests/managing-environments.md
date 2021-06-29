@@ -2,7 +2,7 @@
 title: "Managing environments"
 order: 25
 page_id: "managing-environments"
-search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get" 
+search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -139,7 +139,7 @@ When you have an environment selected in the drop-down, Postman will treat it as
 
 To use an environment variable value in a request, reference it by name, surrounded with [double curly braces](/docs/sending-requests/variables/):
 
-```
+```js
 {{base_url}}
 ```
 
@@ -154,7 +154,7 @@ Hover over a variable reference to see its current value.
 
 You can access current environment variable values in your __Pre-request__ and __Tests__ code.
 
-```
+```js
 pm.environment.get("variable_key");
 ```
 

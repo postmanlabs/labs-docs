@@ -177,7 +177,7 @@ You can edit existing mock servers from an **API** by opening the **Develop** ta
 
 <img alt="Edit Mock from Schema" src="https://assets.postman.com/postman-docs/edit-mock-schema.jpg" width="200px"/>
 
-Your [mock will open for editing](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#editing-and-deleting-mock-servers) in Postman.
+Your [mock will open for editing](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) in Postman.
 
 [![api edit mock web](https://assets.postman.com/postman-docs/editmockserver.png)](https://assets.postman.com/postman-docs/editmockserver.png)
 

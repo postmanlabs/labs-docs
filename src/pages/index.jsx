@@ -7,7 +7,7 @@ import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 
 import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
-import AdminImage from '../assets/team-collaboration-postmanaut-pic.png';
+import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
 
@@ -46,13 +46,7 @@ class IndexPage extends React.Component {
       'Nov',
       'Dec',
     ];
-    // If, upcomingEvents is an array, sort the events array by date, and filter out past events.
-    // Else, leave as is.. which is an object with upcomingEvents.development = true
-    const sortedUpcomingEvents = Array.isArray(upcomingEvents)
-      ? upcomingEvents
-        .sort((a, b) => new Date(a.date) - new Date(b.date))
-        .filter((event) => new Date(event.expiration) > new Date())
-      : upcomingEvents;
+    const sortedUpcomingEvents = upcomingEvents;
 
     return (
       <Layout>
@@ -105,11 +99,11 @@ class IndexPage extends React.Component {
               </div>
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
-                  title="Admin"
-                  description="Administer your account and set up your team for success."
-                  link="/docs/administration/managing-your-team/managing-your-team/"
-                  cta="Manage Postman"
-                  icon={AdminImage}
+                  title="30 Days of Postman"
+                  description="Tackle a new challenge each day with these developer tutorials."
+                  link="https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
+                  cta="Start Challenge"
+                  icon={TeamCollaborationImage}
                 />
               </div>
             </div>
@@ -125,8 +119,8 @@ class IndexPage extends React.Component {
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
                 <SecondaryCard
                   title="Postman Network"
-                  description="Find templates, workspaces, and APIs you can interact with inside Postman."
-                  cta="Browse Postman"
+                  description="Browse APIs, workspaces, and collections inside Postman."
+                  cta="Explore Postman"
                   ctaLink="https://www.postman.com/explore"
                 />
               </div>
@@ -198,8 +192,9 @@ class IndexPage extends React.Component {
                 // Combine platform, date and time of the event
                 // Example: Livestream - 01/01/2000 4PM PST
                 const eventInformation = `${event.location} - ${date} ${event.time}`;
+                const isStale = new Date(event.expirationDate) < (new Date()) && ' d-none' || '';
                 return (
-                  <div className="col-12 col-xl-10 offset-xl-1 mb-4" key={uuidv4()}>
+                  <div className={`col-12 col-xl-10 offset-xl-1 mb-4${isStale}`} key={uuidv4()}>
                     <OutboundLink
                       className="event-link-wrapper"
                       href={event.link}

@@ -117,17 +117,17 @@ Upon signing in, you will see a confirmation in your browser and you will be red
 
 ## Syncing your work
 
-When you are logged into Postman, you will see the sync indicator in the header bar.
+When you are logged into Postman, the sync indicator in the header bar is green; you are connected to the servers and your work is being continuously backed up. Postman will inform you if the sync is interrupted and will automatically try to re-establish the connection.
 
 ![Sync icon](https://assets.postman.com/postman-docs/syncing.jpg)
 
-When the icon is green, you are connected to the servers and your work is being continuously backed up. Postman will inform you if the sync is interrupted and will automatically try to re-establish the connection.
+If Postman can't connect, you can switch to the Scratch Pad and work locally. For more information see, [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
 
-![Sync connection](https://assets.postman.com/postman-docs/offline.jpg)
+![Sync connection](https://assets.postman.com/postman-docs/scratchpad-offline.jpg)
 
 If a conflict arises from a sync issue within your workspace, [Postman will present options for resolving the conflict](/docs/collaborating-in-postman/using-workspaces/conflicts/).
 
-> Postman uses WebSockets for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.postman.com/hc/en-us).
+> Postman uses a WebSocket connection for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.postman.com/hc/en-us).
 
 ## Upgrading your account
 

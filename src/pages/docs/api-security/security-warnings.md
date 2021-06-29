@@ -3,8 +3,15 @@ title: "Security Warnings"
 order: 116
 page_id: "security_warnings"
 warning: false
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Introducing Security Warnings During API Validation"
+    url: "https://blog.postman.com/security-warnings-during-api-validation/"
 search_keyword: "api security, api schema, security warnings, schema validation, security validation"
-
 ---
 
 In Postman, we highly recommend you to follow Security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 3.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security misses and help you understand their implications and possible ways to patch the warnings.
@@ -62,7 +69,7 @@ The following list describes possible warning messages and potential ways to res
 
 **Resolution:**
 
-```
+```json
 openapi: 3.0.0
 info:
 paths:
@@ -80,7 +87,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 openapi: 3.0.0
 info:
 paths:
@@ -98,7 +105,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 openapi: 3.0.0
 info:
 paths:
@@ -116,7 +123,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 security:
   - OAuth2:
     - read
@@ -144,7 +151,7 @@ components:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
     testAuth:
@@ -164,7 +171,7 @@ components:
 
 **Resolution:**
 
-```
+```json
 paths:
   /user:
     get:
@@ -182,7 +189,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 paths:
   /user:
     get:
@@ -200,7 +207,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
   /user:
     get:
       tags:
@@ -219,7 +226,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 paths:
   "/user":
     get:
@@ -252,7 +259,7 @@ components:
 
 **Resolution:**
 
-```
+```json
 servers:
   - url: https://my.api.example.com/
     description: API server
@@ -278,7 +285,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 servers:
   - url: https://my.api.example.com/
     description: API server
@@ -303,7 +310,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 servers:
   - url: https://my.api.example.com/
     description: API server
@@ -329,7 +336,7 @@ security:
 
 **Resolution**:
 
-```
+```json
 servers:
   - url: https://my.api.example.com/
     description: API server
@@ -357,7 +364,7 @@ security:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
     OAuth2:
@@ -381,7 +388,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
     ApikeyAuth:
@@ -405,7 +412,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 get:
   operationId: getPetsById
   servers:
@@ -422,7 +429,7 @@ get:
 
 **Resolution**:
 
-```
+```json
 components:
   securitySchemes:
     OpenIdScheme:
@@ -449,7 +456,7 @@ paths:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
      OauthScheme:
@@ -469,7 +476,7 @@ components:
 
 **Resolution:**
 
-```
+```json
 components:
   securitySchemes:
      OauthScheme:
