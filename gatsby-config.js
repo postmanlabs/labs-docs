@@ -91,6 +91,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-catch-links',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
