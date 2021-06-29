@@ -41,7 +41,7 @@ Make sure to create your Statuspage account and create a page and components bef
 1. Select a workspace from the list which contains the monitor you would like to use.
 1. Select the monitor you wish to use from the list.
 1. Select a Statuspage page where the monitor updates will be sent. This list will be populated with the pages you have created in Statuspage.
-1. Select one or both Statuspage actions. See [Link monitor to component](/docs/integrations/available-integrations/statuspage/#link-monitor-to-component/) and [Create incident when monitoring run fails](/docs/integrations/available-integrations/statuspage/#create-incident-when-monitoring-run-fails) for information on how to fill in these sections.
+1. Select one or both Statuspage actions. See [Link monitor to component](#link-monitor-to-component) and [Create incident when monitoring run fails](#create-incident-when-monitoring-run-fails) for information on how to fill in these sections.
 ![Configure Statuspage](https://assets.postman.com/postman-docs/configure-statuspage.jpg)
 1. Click the **Add Integration** button.
 

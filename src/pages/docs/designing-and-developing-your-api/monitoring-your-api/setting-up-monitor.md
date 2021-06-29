@@ -39,7 +39,7 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
     * [Creating a monitor via a collection](#creating-a-monitor-via-a-collection)
 
-    * [Creating a monitor with the + New button](#creating-a-monitor-with-the--new-button)
+    * [Creating a monitor with the + New button](#creating-a-monitor-with-the-new-button)
 
     * [Creating a monitor from history](#creating-a-monitor-from-history)
 
