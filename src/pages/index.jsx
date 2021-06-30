@@ -46,13 +46,7 @@ class IndexPage extends React.Component {
       'Nov',
       'Dec',
     ];
-    // If, upcomingEvents is an array, sort the events array by date, and filter out past events.
-    // Else, leave as is.. which is an object with upcomingEvents.development = true
-    const sortedUpcomingEvents = Array.isArray(upcomingEvents)
-      ? upcomingEvents
-        .sort((a, b) => new Date(a.date) - new Date(b.date))
-        .filter((event) => new Date(event.expiration) > new Date())
-      : upcomingEvents;
+    const sortedUpcomingEvents = upcomingEvents;
 
     return (
       <Layout>
@@ -198,8 +192,9 @@ class IndexPage extends React.Component {
                 // Combine platform, date and time of the event
                 // Example: Livestream - 01/01/2000 4PM PST
                 const eventInformation = `${event.location} - ${date} ${event.time}`;
+                const isStale = new Date(event.expirationDate) < (new Date()) && ' d-none' || '';
                 return (
-                  <div className="col-12 col-xl-10 offset-xl-1 mb-4" key={uuidv4()}>
+                  <div className={`col-12 col-xl-10 offset-xl-1 mb-4${isStale}`} key={uuidv4()}>
                     <OutboundLink
                       className="event-link-wrapper"
                       href={event.link}
