@@ -75,7 +75,9 @@ When navigating to your [billing dashboard](http://go.postman.co/billing), you w
 
 In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's additional features and their usage during your monthly billing period. These features include mock servers, monitoring, public documentation, the Postman API, custom domains, and integrations.
 
-<img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-page.jpg" />
+<img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-page-v87.jpg" />
+
+> Click **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
 
 You can opt to allow or disable overages for mock server and monitor usage by selecting the icon to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
 
