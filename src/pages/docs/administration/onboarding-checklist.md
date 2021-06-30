@@ -31,7 +31,15 @@ If you're just getting started using Postman within your organization, you can c
 
 ## Setting up Postman
 
-Postman is available as a stand-alone app for Windows, Mac, and Linux, and can also be accessed [via the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) with a desktop agent. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/). You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
+Postman can be accessed [via the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) with a desktop agent. Postman is available as a stand-alone app for Windows, Mac, and Linux.  Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
+
+For the Postman web version, you can also manually select the agent for your requests — **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. To learn more about the agent used for your request, select the agent option near Bootcamp from the bottom right of the status bar. You can use the toggle option in **Auto-select** to turn on/off the auto-select agent. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests.
+
+<img alt="Auto-select agent" src="https://assets.postman.com/postman-docs/auto-select-agent.jpg" width="350px">
+
+You can either enable **Auto-select** option or manually select the agent (**Cloud**, **Desktop**, or **Browser**) you would like to use for your requests.
+
+You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
 * If your organization's network connection is facilitated via a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​setup within Postman](/docs/sending-requests/capturing-request-data/proxy/)​.
