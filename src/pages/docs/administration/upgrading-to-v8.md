@@ -21,9 +21,9 @@ This section describes the steps to migrate your team to Postman v8.
     * [Upgrading to v8 as an individual](#upgrading-to-v8-as-an-individual)
     * [Upgrading to v8 as a team](#upgrading-to-v8-as-a-team)
 * [Migrating from v6 to Postman v8](#migrating-from-v6-to-postman-v8)
-    * [Migrating from v6 as an individual](#Migrating-from-v6-as-an-individual)
-    * [Migrating from v6 as a team](#Migrating-from-v6-as-a-team)
-* [Installing earlier versions of Postman](#installing-earlier-versions-of-Postman)
+    * [Migrating from v6 as an individual](#migrating-from-v6-as-an-individual)
+    * [Migrating from v6 as a team](#migrating-from-v6-as-a-team)
+* [Installing earlier versions of Postman](#installing-earlier-versions-of-postman)
     * [Downloading Postman v7](#downloading-postman-v7)
     * [Downloading Postman v6](#downloading-postman-v6)
 
@@ -77,7 +77,7 @@ First, you need to update your Postman app from v6 to v7.36.5.
 
 <img alt="Migrate v6 to v7.35.6" src="https://assets.postman.com/postman-docs/migrate-v6-to-v7.36.5.jpg"/>
 
-Once the update is complete, you will be on Postman v7.36.5. This is the gateway version to update to v8. See [upgrading to v8](#upgrading-from-v7-to-v8) to update your app to Postman v8.
+Once the update is complete, you will be on Postman v7.36.5. This is the gateway version to update to v8. See [upgrading to v8](#upgrading-to-postman-v8) to update your app to Postman v8.
 
 ### Migrating from v6 as a team
 
@@ -87,7 +87,7 @@ If you are an admin, it is recommended you upgrade your team to v8 at your earli
 
 Once your team has migrated to Postman v8, all users in the team would be notified, via email and banners within the app, that they need to update their app to Postman v8.
 
-> If you are on a team and download Postman v7 or above while the rest of your team is using an older version of Postman v6 or below, you will not be able to use Postman v7 or above. [Download Postman v7](#downloading-postman-v7-app) or [download Postman v6](#downloading-postman-v6-app) to continue working with your team in the interim.
+> If you are on a team and download Postman v7 or above while the rest of your team is using an older version of Postman v6 or below, you will not be able to use Postman v7 or above. [Download Postman v7](#downloading-postman-v7) or [download Postman v6](#downloading-postman-v6) to continue working with your team in the interim.
 
 ## Installing earlier versions of Postman
 
@@ -104,7 +104,7 @@ Please use the following links to download the latest Postman v7 version for you
 
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v7.
 
-```
+```shell
 sudo snap switch --channel=v7/stable postman
 sudo snap refresh postman
 ```
@@ -121,7 +121,7 @@ Please use the following links to download the latest Postman v6 version for you
 
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v6.
 
-```
+```shell
 sudo snap switch --channel=v6/stable postman
 sudo snap refresh postman
 ```

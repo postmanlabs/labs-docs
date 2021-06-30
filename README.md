@@ -18,7 +18,7 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 ## Build the Learning Center locally
 
-```
+```shell
 
    $ git clone https://github.com/postmanlabs/postman-docs.git
    $ cd postman-docs
@@ -40,7 +40,7 @@ You can build the Learning Center and run it in a Docker container using the fol
 
 2. Create a file and name it "dockerfile" with the following contents:
 
-    ```
+    ```shell
 
     FROM node:12
 
@@ -60,7 +60,7 @@ You can build the Learning Center and run it in a Docker container using the fol
 
     The dockerfile should be in the same directory as the postman-docs directory
 
-    ```
+    ```shell
 
     # example directory structure
     |--[current folder]
@@ -81,7 +81,7 @@ You can build the Learning Center and run it in a Docker container using the fol
 
 You can also build with the `docker-compose` command using the dockerfile above and this docker-compose.yaml
 
-```
+```yaml
 
 version: '3'
 services:
@@ -95,7 +95,7 @@ services:
 
 The docker-compose.yaml should be in the same directory as the postman-docs directory and dockerfile.
 
-```
+```shell
 
 # example directory structure
 |--[current folder]
@@ -121,7 +121,7 @@ The built site will only host the most up-to-date docs. All legacy documentation
 
 * Links in the docs should be relative. Example:
 
-```
+```shell
 
    [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
 

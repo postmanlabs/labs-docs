@@ -93,6 +93,38 @@ The broader development community has published some useful tutorials for settin
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
 
+## Requirements to use the OpenSSL module
+
+The **OpenSSL** module is internally being used to generate certificate-key pairs. This module has to be installed and accessible through the command line.
+
+OpenSSL is already installed for macOS and typically installed for Linux. For Windows systems, **OpenSSL** must be installed.
+
+### Install the OpenSSL module on Windows
+
+1. Download and install the OpenSSL module applicable for your computer from [here](https://slproweb.com/products/Win32OpenSSL.html).
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-download-openssl.jpg)
+1. Open the Windows Start menu and search for "Environment Variables."
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-search.jpg)
+1. From the results, select "Environment Variables."
+1. From the **System Properties** window, select "Environment Variables."
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-advanced.jpg)
+1. Select **Path** from **User variables** and then select **Edit**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-edit-browse-bb.jpg)
+1. Select **Browse**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-openssl-edit-environment-variables-bb.jpg)
+1. Go to: **This PC > Windows (C:) > Program Files > OpenSSL - Win64 > bin**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
+1. Select **OK** to add the folder directory. Then, select **OK** to confirm changes and close the remaining windows.
+1. Open **Command Prompt** and run **openssl version** to confirm the installation was successful.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-check-openssl-version.jpg)
+
 ## Capture HTTPS traffic with Postman's built-in proxy
 
 You can use the Postman's proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices. After you enable the proxy feature, follow the instructions below to install the security certificate on the target devices.
@@ -197,38 +229,6 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
     Confirm the certificate settings.
 
     <img src="https://assets.postman.com/postman-docs/ios-enable-full-trust-aa.jpeg" alt="iOS crt full trust settings" width="350">
-
-## Requirements to use the OpenSSL module
-
-The **OpenSSL** module is internally being used to generate certificate-key pairs. This module has to be installed and accessible through the command line.
-
-OpenSSL is already installed for macOS and typically installed for Linux. For Windows systems, **OpenSSL** must be installed.
-
-### Install the OpenSSL module on Windows
-
-1. Download and install the OpenSSL module applicable for your computer from [here](https://slproweb.com/products/Win32OpenSSL.html).
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-download-openssl.jpg)
-1. Open the Windows Start menu and search for "Environment Variables."
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-search.jpg)
-1. From the results, select "Environment Variables."
-1. From the **System Properties** window, select "Environment Variables."
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-advanced.jpg)
-1. Select **Path** from **User variables** and then select **Edit**.
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-edit-browse-bb.jpg)
-1. Select **Browse**.
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-openssl-edit-environment-variables-bb.jpg)
-1. Go to: **This PC > Windows (C:) > Program Files > OpenSSL - Win64 > bin**.
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
-1. Select **OK** to add the folder directory. Then, select **OK** to confirm changes and close the remaining windows.
-1. Open **Command Prompt** and run **openssl version** to confirm the installation was successful.
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-check-openssl-version.jpg)
 
 ## Use Interceptor to capture requests
 

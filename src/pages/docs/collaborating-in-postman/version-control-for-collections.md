@@ -32,7 +32,7 @@ You can use version control with your Postman Collections by forking and merging
 * [Forking an environment](#forking-an-environment)
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
-    * [Creating public PRs](#creating-public-PRs)
+    * [Creating public PRs](#creating-public-prs)
     * [Watching a pull request](#watching-a-pull-request)
 * [Approving changes](#approving-changes)
 * [Merging changes](#merging-changes)

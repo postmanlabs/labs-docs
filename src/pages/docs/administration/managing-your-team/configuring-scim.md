@@ -95,7 +95,7 @@ Under **SCIM provisioning**, select **Generate SCIM API Key**.
 
 Name your key and click **Generate**. Copy your new API key for later use and click **Done**.
 
-> You can revisit this page to generate a new API key later on if needed. Your previous API key will stay active briefly while you switch over.
+> You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the previous key active briefly while you switch over.
 
 <!-- -->
 
