@@ -59,9 +59,9 @@ Postman can import and export Postman data, including collections, environments,
 
 You can import collections or your API specifications directly into Postman.
 
-To import your data into Postman, click **Import** in the upper-left corner.
+To import your data into Postman, select **Import** in the left navigation menu.
 
-![Import modal](https://assets.postman.com/postman-docs/import-modal-new.jpg)
+![Import modal](https://assets.postman.com/postman-docs/import-export-import-ui-next.jpg)
 
 You can import your data from files, folders, links, raw text, or GitHub repositories.
 
@@ -69,9 +69,9 @@ You can import your data from files, folders, links, raw text, or GitHub reposit
 
 You can import Postman data you previously exported, including collections, environments, data dumps, and globals.
 
-To import Postman data, click **Import**. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Click **Import** to bring your data into Postman.
+To import Postman data, select **Import**. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Select **Import** to bring your data into Postman.
 
-![Import collection and environment](https://assets.postman.com/postman-docs/import-coll-env-2.jpg)
+![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
 #### Converting Postman collections from v1 to v2
 
@@ -134,17 +134,17 @@ There are also tools on GitHub to convert the following into a Postman collectio
 
 * [DHC](https://github.com/postmanlabs/dhc-to-postman)
 
-To import your API specifications into Postman, click **Import**. Select your file or folder, input your link, or paste your raw text. Confirm the name, format, and what you would like your data to import as, then click **Import** to bring your data into Postman.
+To import your API specifications into Postman, select **Import**. Select your file or folder, input your link, or paste your raw text. Confirm the name, format, and what you would like your data to import as, then select **Import** to bring your data into Postman.
 
-![Import file](https://assets.postman.com/postman-docs/import-file-2.jpg)
+![Import file](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
 > You can configure your **Import Settings**, which will differ depending on your API specification.
 
-You can import several API specification files at once. Select the workspace you'd like to import the APIs into, choose whether you want to generate collections from the APIs, configure the details, and click **Import**.
+You can import several API specification files at once. Select the workspace you'd like to import the APIs into, choose whether you want to generate collections from the APIs, configure the details, and select **Import**.
 
 When importing into a team workspace, you can also choose to add the APIs to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 
-[![Import several APIs](https://assets.postman.com/postman-docs/import-multiple-apis.gif)](https://assets.postman.com/postman-docs/import-multiple-apis.gif)
+[![Import several APIs](https://assets.postman.com/postman-docs/import-multiple-apis.gif)](https://assets.postman.com/postman-docs/import-export-publish-to-private-api-network-22.jpg)
 
 ### Importing via GitHub repositories
 
