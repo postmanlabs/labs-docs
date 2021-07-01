@@ -76,7 +76,8 @@ For Postman app, you can modify the working directory. While uploading a file to
 
 <img alt="Working directory on web" src="https://assets.postman.com/postman-docs/working-directory-web.jpg" width="350px">
 
-For Postman web, the working directory cannot be modified. When you upload a file on the web, it creates a folder with a random alphanumeric name (e.g. 6OPkYiXVr) in the `~/Postman/files` directory whether or not the file is selected within the working directory or outside the working directory. Since the file’s relative path to the working directory remains unchanged, the new folder created would prevent you from sharing the requests with other members seamlessly. You can view all the files within the newly created folders in the working directory.
+For Postman web, the working directory cannot be modified. When you upload a file on the web, it creates a folder with a random alphanumeric name (e.g. 6OPkYiXVr) in the `~/Postman/files` directory whether or not the file is selected within the working directory or outside the working directory. Since the file’s relative path to the working directory remains unchanged,
+the new folder created would enable you to continue testing with files selected anywhere from your Desktop. To ensure a seamless experience for your team members, it is recommended that the files are located in `~/Postman/files` directory. You can view all the files within the newly created folders in the working directory.
 
 * **Allow reading files outside working directory:** Set this option to ON if you want Postman to read files from outside the Postman working directory. Postman persists your file paths for binary file and form-data request bodies. To learn more about this feature, refer to [Sending body data](/docs/sending-requests/requests/#sending-body-data).
 
