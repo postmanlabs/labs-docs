@@ -371,7 +371,7 @@ class FooterComponent extends React.Component {
                 <li className="list-inline-item mr-3">
                   <a
                     id="youtube_icon"
-                    href="https://www.youtube.com/postmanapidevelopment"
+                    href="https://www.youtube.com/c/Postman"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-icon"
