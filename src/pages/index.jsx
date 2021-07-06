@@ -129,7 +129,7 @@ class IndexPage extends React.Component {
                   title="Videos"
                   description="Learn Postman skills from our video playlists."
                   cta="Watch Videos"
-                  ctaLink="https://www.youtube.com/postmanapidevelopment"
+                  ctaLink="https://www.youtube.com/c/Postman"
                 />
               </div>
             </div>
