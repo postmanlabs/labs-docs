@@ -14,16 +14,16 @@ _GitHub Desktop is much easier if you're unfamiliar with using git / GitHub on t
     * If you're a collaborator on the repo you can instead just create a branch.
 * Clone down your copy of this repo onto your local machine: `git clone <YOUR GITHUB REPO URL>`
 * Navigate to the new directory git created. `cd postman-docs`
-* Checkout the `develop` branch. `git checkout develop`
+* Check out the `develop` branch. `git checkout develop`
 * Run `npm install` to add all dependencies
 * Create a new branch for your work based on develop `git checkout -b <YOUR BRANCH NAME>` Your branch name should be something descriptive of the changes you wish to make, and can include the issue number this change is associated with. Example: `feature/1234-update-mock-api-docs`
-* Make your changes. The Learning Center's documentation is built from the `.md` files in the `/src/pages/docs` folder of the repo
+* Make your changes. The Learning Center's documentation is built from the `.md` files in the `/src/pages/docs` folder of the repo.
 * Check your files against our markdown guidelines by running `npm run test:mdlint` and resolve any errors
-* When you're ready to apply your changes, push your changed files to your forked repo
+* When you're ready to apply your changes, push your changed files to your forked repo:
     * `git add <FILENAMES OF CHANGED FILES>`
-    * `git commit -m "<YOUR COMMIT MESSAGE>"` Your commit message should be descriptive of the changes you made
-    * `git push -u origin HEAD` This will push your changes to the branch you created on your forked repo
-* Open a Pull Request to the postman-docs repo
+    * `git commit -m "<YOUR COMMIT MESSAGE>"` Your commit message should be descriptive of the changes you made.
+    * `git push -u origin HEAD` This will push your changes to the branch you created on your forked repo.
+* Open a Pull Request to the `postman-docs` repo
     * Navigate to the [postman-docs](https://github.com/postmanlabs/postman-docs) repo
     * Click `New pull request`
     * Click `Compare across forks`
@@ -69,7 +69,7 @@ When creating or editing an external link (a link that points to sources outside
 
 ## Adding/Editing Images
 
-If you would like to add, edit or replace images you are welcome to do so. There are two ways in which you can achieve this:
+If you would like to add, edit, or replace images you are welcome to do so. There are two ways in which you can achieve this:
 
 * You can upload the image to your GitHub Pull-Request and link the image
 * You can host the image and link to your own hosted image
@@ -82,12 +82,12 @@ Images hosted by Postman should always be referenced as follows:
 https://assets.postman.com/postman-docs/<filename>.png
 ```
 
-## Adding/Editing Codeblocks
+## Adding/Editing Code Blocks
 
 If you would like to add, edit or replace Markdown code blocks you are welcome to do so. There are two things in which you need to know:
 
 * We use Prism.js via a Gatsby plugin [gatsby-remark-prismjs](https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/#usage-in-markdown "See usage in markdown documentation")
-* Imediately following the opening 3 backticks ` ``` ` should be the language declaration. See Markdown example:
+* Immediately following the opening 3 backticks ` ``` ` should be the language declaration. See the following example:
 
 ```markdown
     ```json
@@ -107,15 +107,15 @@ If you would like to add, edit or replace Markdown code blocks you are welcome t
     ```
 ```
 
-For a list of supported languages by Prism syntax highlighter, [read more](https://lucidar.me/en/web-dev/list-of-supported-languages-by-prism/). When in doubt, use `text`, `bash` or `shell` to keep the code block from interfering.
+For a list of supported languages by the Prism syntax highlighter, [read more](https://lucidar.me/en/web-dev/list-of-supported-languages-by-prism/). When in doubt, use `text`, `bash` or `shell` to keep the code block from interfering.
 
 ## Algolia
 
-Please note that Algolia search will not work when running the app locally. If you wish to search when running the app locally, you are welcome to use your own Algolia API keys and index the app in your own Algolia account. You can find an env.example file in the repo that shows you what keys you require to run Algolia search.
+Please note that Algolia search will not work when running the app locally. If you wish to search when running the app locally, you are welcome to use your own Algolia API keys and index the app in your own Algolia account. You can find an `env.example` file in the repo that shows you what keys you require to run Algolia search.
 
 ## Right Sidebar - Recent Blog Posts
 
-The right sidebar has a feature flag for pulling in up to 3 contextual, recent blog posts based on a tag. This functionality and flag can be found in the frontmatter of the doc .md files. It utilizes our webhook and backend-for-frontend (BFF) service to source the latest 100 blog posts from blog.postman.com.
+The right sidebar has a feature flag for pulling in up to three contextual, recent blog posts based on a tag. This functionality and flag can be found in the frontmatter of the doc .md files. It utilizes our webhook and backend-for-frontend (BFF) service to source the latest 100 blog posts from blog.postman.com.
 
 Two example docs using `dynamic_blog`:
 
@@ -202,8 +202,9 @@ NOTE: these tags pull from the latest 100 blog posts. We display **up to 3** blo
 
 Before creating a PR we STRONGLY recommend to running the following test locally to check that all changes will pass our linters:
 
-* npm run test  -> runs the Unit testing
-* npm run test:mdlint -> runs the Markdownlinter
-* npm run test:lint -> runs the ESlinter
-* npm run test:url -> checks if acceptable image URL has been added
-* npm run test:update -> updates the test snapshots
+* `npm run test`  -> runs the Unit testing
+* `npm run test:mdlint` -> runs the Markdownlinter
+* `npm run test:lint` -> runs the ESlinter
+* `npm run test:url` -> checks if acceptable image URL has been added
+* `npm run test:update` -> updates the test snapshots
+* `npm run dev` -> runs a server on http://localhost:8000/ so you can view changes locally
