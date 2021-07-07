@@ -174,6 +174,34 @@ You can now view your newly imported files and generated collections in Postman.
 
 ![Confirm complete import from github](https://assets.postman.com/postman-docs/import-export-github-complete.jpg)
 
+### Importing via Bitbucket repositories
+
+> You must be signed in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+
+You can import data in bulk from a Bitbucket repository by selecting **Import** > **Code repository** > **Bitbucket**.
+
+![Import from bitbucket](https://assets.postman.com/postman-docs/import-export-import-github.jpg)
+
+Confirm your Bitbucket account and **Authorize Postman** to access your repositories.
+
+![Import from bitbucket auth](https://assets.postman.com/postman-docs/import-export-bitbucket-confirm-access.jpg)
+
+In Postman, select your Bitbucket workspace, repository, and branch, then **Continue**.
+
+![Import from bitbucket auth](https://assets.postman.com/postman-docs/import-export-bitbucket-select-repo.jpg)
+
+You will see a preview of the files that will be imported to your workspace. Select **Import** to confirm and complete the import.
+
+![Confirm import from bitbucket](https://assets.postman.com/postman-docs/import-export-bitbucket-import-confirm-files.jpg)
+
+You will receive a confirmation once the import has completed.
+
+![Confirm complete import from bitbucket](https://assets.postman.com/postman-docs/import-export-bitbucket-import-complete.jpg)
+
+You can now view your newly imported files and generated collections in Postman.
+
+![Confirm complete import from bitbucket](https://assets.postman.com/postman-docs/require-option-to-select-multiple-for-delete-edit-2.jpg)
+
 ## Exporting Postman data
 
 You can export your Postman data, including collections, environments, data dumps, and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
