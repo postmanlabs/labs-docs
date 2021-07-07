@@ -158,7 +158,6 @@ Confirm your GitHub account and **Authorize postmanlabs** to access your reposit
 
 ![Import from github auth](https://assets.postman.com/postman-docs/import-export-github-auth.jpg)
 
-
 In Postman, select your GitHub organization, repository, and branch, then **Continue**.
 
 ![Import from github auth](https://assets.postman.com/postman-docs/import-export-github-import-directory.jpg)
