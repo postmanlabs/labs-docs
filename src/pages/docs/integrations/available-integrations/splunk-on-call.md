@@ -2,6 +2,7 @@
 title: "Splunk On-Call"
 order: 177.1
 page_id: "splunk-on-call"
+search_keyword: "VictorOps, victorops, splunk oncall"
 warning: false
 contextual_links:
   - type: section
@@ -27,7 +28,7 @@ This integration allows you to configure [Postman Monitors](/docs/designing-and-
    [![log in to Splunk On-Call](https://assets.postman.com/postman-docs/58842896.png)](https://assets.postman.com/postman-docs/58842896.png)
 1. From the list of integrations, select the **REST Generic** Integration.
    [![select REST Generic](https://assets.postman.com/postman-docs/58843113.png)](https://assets.postman.com/postman-docs/58843113.png)
-1. If the integration is not already enabled, click the *Enable Integration* button.
+1. If the integration is not already enabled, click the **Enable Integration** button.
    [![enable integration](https://assets.postman.com/postman-docs/58843154.png)](https://assets.postman.com/postman-docs/58843154.png)
    If the integration is enabled, you will see a URL which contains the API Key.
    [![view API key](https://assets.postman.com/postman-docs/58843264.png)](https://assets.postman.com/postman-docs/58843264.png)
@@ -35,7 +36,7 @@ This integration allows you to configure [Postman Monitors](/docs/designing-and-
 
 You can also provide routing keys if you are using teams within Splunk On-Call. Routing keys allow the creation of incidents to be directed towards a specific team, so that they get notified about a particular failure. To get the routing key:
 
-1. Click on the **Alert Behavior** menu and select *Route Keys*.
+1. Click on the **Alert Behavior** menu and select **Route Keys**.
    [![make a note of keys](https://assets.postman.com/postman-docs/58842580.png)](https://assets.postman.com/postman-docs/58842580.png)
 1. Enter your own key and select a team for which the key is applicable.
    [![enter key](https://assets.postman.com/postman-docs/58842547.png)](https://assets.postman.com/postman-docs/58842547.png)
@@ -60,6 +61,6 @@ You can also provide routing keys if you are using teams within Splunk On-Call. 
 
 ## Incidents on Splunk On-Call
 
-An incident on Splunk On-Call consists of the basic information of which monitor failed, with the number of errors and failed tests. It also provides a direct link to the failing monitor. This integration automatically acknowledges a triggered incident if the subsequent run succeeds.
+An incident on Splunk On-Call consists of basic information from a monitor that has failed, including the number of errors and failed tests. It also provides a direct link to the failing monitor. This integration automatically acknowledges a triggered incident if the subsequent run succeeds.
 
 [![victorops view](https://assets.postman.com/postman-docs/58843343.png)](https://assets.postman.com/postman-docs/58843343.png)
