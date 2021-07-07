@@ -25,7 +25,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
-    url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"  
+    url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -87,7 +87,7 @@ You can select the icon to view public collections from the [API Network](https:
 
 <img alt="Related Collections suggestions" src="https://assets.postman.com/postman-docs/collection-rec-v8.8.0.jpg"/>
 
-You can select any recommended collection to view its contents and documentation. You can also directly fork a recommended collection and utilize it to quick start your development.
+You can select any recommended collection to view its contents and documentation. You can also directly fork a recommended collection and utilize it to quick-start your development.
 
 ## Universal search
 
