@@ -85,7 +85,7 @@ When a request is selected in Postman, you'll see a Related Collections (light b
 
 You can select the icon to view public collections from the [API Network](https://www.postman.com/explore/) that share the same base URL as your request and include API documentation to help you get started.
 
-<img alt="Related Collections suggestions" src="https://assets.postman.com/postman-docs/collection-rec-sidebar-opened.jpg"/>
+<img alt="Related Collections suggestions" src="https://assets.postman.com/postman-docs/collection-rec-v8.8.0.jpg"/>
 
 You can select any recommended collection to view its contents and documentation. You can also directly fork a recommended collection and utilize it to quick start your development.
 
