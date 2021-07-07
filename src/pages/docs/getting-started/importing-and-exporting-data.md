@@ -212,7 +212,7 @@ You can export your collections from Postman by selecting the **...** next to th
 
 ![Export collection menu](https://assets.postman.com/postman-docs/export-collection-menu2.jpg)
 
-You can then select the format you'd like your collection to export as. Click **Export** to download your newly generated JSON file.
+You can then select the format you'd like your collection to export as. Select **Export** to download your newly generated JSON file.
 
 > The export to Collection v1 format is no longer supported in Postman.
 
@@ -222,15 +222,37 @@ You can then select the format you'd like your collection to export as. Click **
 
 ### Exporting environments
 
-You can export your environments from Postman by selecting the gear icon in the upper-right corner to open **Manage Environments**. Click the download symbol next to your environment to download your newly generated JSON file.
+You can export your environments from Postman by selecting the **Environments** tab from the left navigation menu. Select the environment you need to export.
 
-![Export environment menu](https://assets.postman.com/postman-docs/export-environment-menu-3.jpg)
+![Export environment](https://assets.postman.com/postman-docs/import-export-env.jpg)
+
+In the top right corner, select the **...**. Select **Export** to download your newly generated JSON file.
+
+![Export environment menu](https://assets.postman.com/postman-docs/import-export-env-create-json.jpg)
 
 ### Exporting data dumps
 
-You can export a data dump of all of your collections, environments, globals, and header presets in Postman. Select the gear icon in the upper-right corner to open **Settings**. Click to open the **Data** tab, then **Download** to save the newly generated JSON file of your Postman data.
+You can export a data dump of all of your collections, environments, globals, and header presets in Postman.
 
-![Export data dump](https://assets.postman.com/postman-docs/data-dump-menu-2.jpg)
+Select the gear icon in the upper-right corner to open **Settings**.
+
+![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-menu.jpg)
+
+Select the **Data** tab, then **Export Data** to start your request for the dat dump.
+
+![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump.jpg)
+
+Select **Export Data** to confirm the data types you need to export.
+
+![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request.jpg)
+
+Select **Request Data Export** to submit the request.
+
+![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request-confirm.jpg)
+
+When the export is ready, you will receive an email with link to download a zipped file with the data dump.
+
+![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request-scheduled.jpg)
 
 ## Next steps
 
