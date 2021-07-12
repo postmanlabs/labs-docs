@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Is your request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+A clear and concise description of what the problem is. For example: "After reviewing the docs, I'm still not sure how to [...]"
 
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.
