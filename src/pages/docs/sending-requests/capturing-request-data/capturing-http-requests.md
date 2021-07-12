@@ -31,16 +31,16 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites, or desktop applications - you might want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. Postman gives you tools to see and capture this network traffic. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) for the Postman app.
+If you are using APIs to build client-side applications - mobile apps, websites, or desktop applications - you might want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. Postman gives you tools to see and capture this network traffic.
 
-You can capture the HTTP requests using the following two ways:
+When using the Postman app, you can capture the HTTP traffic in one of two ways:
 
 * [Built-in proxy](#built-in-proxy)
 * [Interceptor](#use-interceptor-to-capture-requests)
 
 ## Built-in proxy
 
-The Postman app has a built-in proxy that can capture HTTP requests and responses:
+The Postman app has a built-in proxy that can capture HTTP traffic:
 
 1. The Postman app listens for any calls made by the client app or device.
 1. The Postman proxy captures the request and forwards it to the server.
@@ -49,7 +49,7 @@ The Postman app has a built-in proxy that can capture HTTP requests and response
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests and responses. You can log all network requests under the History tab of the sidebar, or in a collection.
+Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests and responses. You can log all network requests under the History tab in the sidebar, or in a collection.
 
 ## Using Postman's proxy example
 
@@ -64,7 +64,7 @@ In this tutorial, you will use Postman's proxy feature to inspect HTTP communica
 1. Set **Save requests to** to **History** to store requests in the History sidebar panel. You can also select a collection from the list and save the requests there.<br/><br/>
     [![proxy settings modal](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)
 1. Select **Save responses** to also save each request's responses. They will be saved alongside the requests in the same collection or history.
-1. By default, requests and responses will be saved chronologically. You can also store them grouped by domain name, endpoints, or both. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both.
+1. By default, requests and responses will be saved chronologically. If you save them to a collection, you can also store them grouped by domain name, endpoints, or both. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both.
 1. There are additional filters you can use to limit the requests and responses captured. You can do the following:
     * Exclude requests with image, JS, or CSS responses.
     * Only capture URLs containing a string or a regular expression.
@@ -194,7 +194,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 ### Install the certificate for use with Mozilla Firefox Browsers
 
-1. Open Firefox and click on the **burger** menu and select **Preferences**.
+1. In Firefox and click the application menu and select **Preferences**.
     [![Select Firefox Preferences](https://assets.postman.com/postman-docs/firefox-crt-preference-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-preference-aa.jpeg)
 1. Select **Privacy & Security**, scroll down to **Certificates** and select **View Certificates**. This opens Firefox’s Certificate Manager.
     [![Select Firefox privacy settings](https://assets.postman.com/postman-docs/firefox-privacy-settings-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-privacy-settings-aa.jpeg)
