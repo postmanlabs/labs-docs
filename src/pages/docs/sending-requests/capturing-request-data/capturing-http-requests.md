@@ -64,12 +64,17 @@ In this tutorial, you will use Postman's proxy feature to inspect HTTP communica
 1. Set **Save requests to** to **History** to store requests in the History sidebar panel. You can also select a collection from the list and save the requests there.<br/><br/>
     [![proxy settings modal](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)
 1. Select **Save responses** to also save each request's responses. They will be saved alongside the requests in the same collection or history.
-1. By default, requests and responses will be saved chronologically. If you save them to a collection, you can also store them grouped by domain name, endpoints, or both. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both.
 1. There are additional filters you can use to limit the requests and responses captured. You can do the following:
     * Exclude requests with image, JS, or CSS responses.
     * Only capture URLs containing a string or a regular expression.
     * Not capture URLs containing a string or a regular expression.
     * Only capture the methods specified in a comma-separated list.
+
+#### Grouping requests and responses
+
+By default, requests and responses will be saved chronologically. If you save them to a collection, you can also store them grouped by domain name, endpoints, or both.
+
+Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses will be organized in folders in the selected collection.
 
 ### Step 2: Find your computer's IP address
 
