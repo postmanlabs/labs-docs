@@ -49,7 +49,7 @@ The Postman app has a built-in proxy that can capture HTTP traffic:
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests and responses. You can log all network requests under the History tab in the sidebar, or in a collection.
+Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests. Additionally, it can capture responses. You can log all network requests and responses under the History tab in the sidebar, or in a collection.
 
 ## Using Postman's proxy example
 
