@@ -29,9 +29,13 @@ Save the API Key to use later.
 
 ## Configuring Postman Monitors
 
-1. From the Integrations [search page](https://postman.postman.co/integrations/browse?category=all), search and select Datadog from the results.
+1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-   [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-all-search.jpg)](https://assets.postman.com/postman-docs/datadog-all-search.jpg)
+    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+    Search and select **Datadog**.
+
+    [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-all-search.jpg)](https://assets.postman.com/postman-docs/datadog-all-search.jpg)
 
 1. You can select **View All** to see all integrations already created by your team.
 
