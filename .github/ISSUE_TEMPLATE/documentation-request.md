@@ -2,8 +2,8 @@
 name: Documentation request
 about: Suggest ideas for new documentation
 title: ''
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: jkonrath-postman
 
 ---
 
