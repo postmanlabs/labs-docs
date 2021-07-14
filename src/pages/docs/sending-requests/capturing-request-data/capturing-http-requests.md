@@ -64,6 +64,7 @@ In this tutorial, you will use Postman's proxy feature to inspect HTTP communica
 1. Set **Save requests to** to **History** to store requests in the History sidebar panel. You can also select a collection from the list and save the requests there.<br/><br/>
     [![proxy settings modal](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)
 1. Select **Save responses** to also save each request's responses. They will be saved alongside the requests in the same collection or history.
+    > In responses with a `content-type` containing images, audio, or video, content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
 1. There are additional filters you can use to limit the requests and responses captured. You can do the following:
     * Exclude requests with image, JS, or CSS responses.
     * Only capture URLs containing a string or a regular expression.
