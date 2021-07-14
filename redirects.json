@@ -1817,5 +1817,9 @@
 {
 		"from": "/docs/publishing-your-api/api-submission-guidelines/",
 		"to": "/docs/publishing-your-api/authoring-your-documentation/"
+},
+{
+		"from": "/docs/integrations/available-integrations/victorops/",
+		"to": "/docs/integrations/available-integrations/splunk-on-call/"
 }
 ]
