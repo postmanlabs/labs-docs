@@ -50,9 +50,13 @@ In order to set up an integration, you will need a GitHub Personal Access Token.
 
  > Backing up collections on GitHub is available for Team, Business and Enterprise plans only.
 
-1. From the [Integrations search page](https://go.postman.co/integrations/browse?category=all), search for GitHub and select it from the results.
+1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-   [![github integration](https://assets.postman.com/postman-docs/integrations-github1.jpg)](https://assets.postman.com/postman-docs/integrations-github1.jpg)
+    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+    Search and select **Github**.
+
+    [![github integration](https://assets.postman.com/postman-docs/integrations-github1.jpg)](https://assets.postman.com/postman-docs/integrations-github1.jpg)
 
 1. Next to **Backup a collection**, click **Add Integration** to authorize a backup of your Postman collections.
 
