@@ -43,7 +43,11 @@ You can also provide routing keys if you are using teams within Splunk On-Call. 
 
 ## Configuring Postman Monitors
 
-1. From the [Integrations search page](https://go.postman.co/integrations/browse?category=all) search and select Splunk On-Call from the results.
+1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+
+    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+    Search and select **Splunk On-Call**.
 1. Select **Add Integration** to start configuring this integration for your workspace.
 1. Select a monitor to send to Splunk On-Call.
 1. Enter the Splunk On-Call API key.
