@@ -37,6 +37,7 @@ You can [create workspaces](/docs/collaborating-in-postman/using-workspaces/crea
 * [Adding elements to workspaces](#adding-elements-to-workspaces)
 * [Removing elements from a workspace](#removing-elements-from-a-workspace)
 * [Deleting a workspace](#deleting-a-workspace)
+* [Adding categories and summaries](#adding-categories-and-summaries)
 * [Managing workspace members](#managing-workspace-members)
 * [Seeing who is in your workspace](#seeing-who-is-in-your-workspace)
 * [Next steps](#next-steps)
@@ -108,6 +109,18 @@ Also, you can remove an environment from the sidebar. Click **...** next to the 
 <img alt="Remove environment from workspace" src="https://assets.postman.com/postman-docs/remove-env-from-workspace-v8.jpg" width="600px"/>
 
 > Note that deleting an element is different to removing it. When you delete an element it is no longer available in any workspace. When you remove an element from a specific workspace, it will still be available in any other workspaces it was in.
+
+## Adding categories and summaries
+
+When you create a new collection or workspace you can add categories and summaries to help improve their visibility in searches. You can edit both by navigating to your team page under either the **Collections** or **Workspaces** tab.
+
+Hover on the collection or workspace you need to edit and select **Edit listing** to see options to add categories and summaries. You will see similar category options for both collections and workspaces. The steps are the same for both collections and workspaces.
+
+![Adding categories and summaries](https://assets.postman.com/postman-docs/workspace-edit-listing.jpg)
+
+Select **Save** to save the edits.
+
+![Saving categories and summaries](https://assets.postman.com/postman-docs/workspace-add-summary-category-save.jpg)
 
 ## Deleting a workspace
 
