@@ -52,7 +52,11 @@ Copy your API Key and save it for later.
 
 ## Configuring Postman integration
 
-From the Integrations [search page](https://postman.postman.co/integrations/browse?category=all), search and select Opsgenie from the results.
+From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+
+![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+Search and select **Opsgenie**.
 
 On the Integration details page, select **Add Integration**.
 

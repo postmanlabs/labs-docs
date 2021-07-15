@@ -43,7 +43,11 @@ This will generate a webhook URL which can then be used to post messages to this
 
 ## Configuring Microsoft Teams
 
-From the [Integrations](https://go.postman.co/integrations/browse?category=all) search page, search and select Microsoft Teams from the results.
+From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+
+![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+Search and select **Microsoft Teams**.
 
 [![select ms_teams integration](https://assets.postman.com/postman-docs/msteams-search-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-search-all-q.jpg)
 
