@@ -25,7 +25,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
-    url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"  
+    url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -78,6 +78,16 @@ To open the code snippets tab, select the request under your collection and clic
 You can declutter your workspace by collapsing panes. Use the buttons at the bottom-left to hide the sidebar and at the bottom-right to toggle between single and two pane view.
 
 [![general layout](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)
+
+## Related Collections
+
+When a request is selected in Postman, you'll see a Related Collections (light bulb) icon <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg" width="25px"/> on the right panel.
+
+You can select the icon to view public collections from the [API Network](https://www.postman.com/explore/) that share the same base URL as your request and include API documentation to help you get started.
+
+<img alt="Related Collections suggestions" src="https://assets.postman.com/postman-docs/collection-rec-v8.8.0.jpg"/>
+
+You can select any recommended collection to view its contents and documentation. You can also directly fork a recommended collection and utilize it to quick-start your development.
 
 ## Universal search
 

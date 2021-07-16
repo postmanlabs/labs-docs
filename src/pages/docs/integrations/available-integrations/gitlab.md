@@ -31,7 +31,11 @@ Save the generated token to use later.
 
 ## Configuring a backup for Postman Collections in GitLab
 
-From the [Browse Integrations page](https://go.postman.co/integrations/browse?category=all) search and select Gitlab.
+From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+
+![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+Search and select **GitLab**.
 
 ![gitlab search all](https://assets.postman.com/postman-docs/gitlab-search-all-bb.jpg)
 

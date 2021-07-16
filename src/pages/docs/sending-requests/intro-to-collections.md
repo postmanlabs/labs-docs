@@ -105,6 +105,8 @@ You can reorder the requests, folders, and examples inside a collection by click
 
 To delete a collection, in __Collections__ click __...__ and select __Delete__.
 
+> If a collection is larger than 30 MB, it can't be recovered if you delete it. To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
+
 If you'd like to revert your collection to a previous state, you can open the changelog from the right of the collection overview.
 
 [![Changelog](https://assets.postman.com/postman-docs/changelog-v8.jpg)](https://assets.postman.com/postman-docs/changelog-v8.jpg)
@@ -122,6 +124,8 @@ Recovery options depend on your Postman plan:
 * With a free account you can recover collections up to one day old.
 * Team accounts can recover collections up to 30 days.
 * With Postman Business and Enterprise you can recover collections up to 90 days.
+
+> You cannot recover a deleted collection that is larger than 30 MB.
 
 If you aren't able to recover a deleted collection, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by clicking __Share__.
 

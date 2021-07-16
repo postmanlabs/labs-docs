@@ -41,7 +41,11 @@ Save the PagerDuty Integration Key to use later.
 
 ## Configuring Postman with PagerDuty
 
-From the [Integrations search page](https://go.postman.co/integrations/browse?category=all), search and select PagerDuty.
+From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+
+![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+Search and select **PagerDuty**.
 
 ![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-search-all.jpg)
 
