@@ -172,8 +172,6 @@ You will receive a confirmation once the import has completed.
 
 You can now view your newly imported files and generated collections in Postman.
 
-![Confirm complete import from github](https://assets.postman.com/postman-docs/import-export-github-complete.jpg)
-
 ### Importing via Bitbucket repositories
 
 > You must be signed in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
