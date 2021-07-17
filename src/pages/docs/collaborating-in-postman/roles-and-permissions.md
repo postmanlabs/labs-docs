@@ -114,7 +114,7 @@ The following roles control access at a workspace level:
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman APIs: **Editor** and **Viewer**.
 
 * **Editor**: edit APIs directly
-* **Viewer**: view, fork, and export APIs
+* **Viewer**: view and export APIs
 
 The following roles control access at an API level:
 
