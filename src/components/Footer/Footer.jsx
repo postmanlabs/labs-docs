@@ -15,7 +15,7 @@ const FooterColumn1 = (data) => (
           href={link.url}
           id={link.id}
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           onClick={() => {
             trackCustomEvent({
               category: `${link.category}`,
@@ -135,7 +135,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/postman-galaxy/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   id="postman-galaxy"
                   onClick={() => {
                     trackCustomEvent({
@@ -153,7 +153,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/legal/privacy-policy/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   id="privacy-policy"
                   onClick={() => {
                     trackCustomEvent({
@@ -172,7 +172,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/legal/terms/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   id="terms"
                   onClick={() => {
                     trackCustomEvent({
@@ -189,7 +189,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/company/careers/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   id="Careers"
                   onClick={() => {
                     trackCustomEvent({
@@ -206,7 +206,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/support/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   id="support"
                   onClick={() => {
                     trackCustomEvent({
@@ -223,7 +223,7 @@ class FooterComponent extends React.Component {
                 <a
                   href="https://www.postman.com/security/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   id="security"
                   onClick={() => {
                     trackCustomEvent({
