@@ -29,7 +29,11 @@ The Postman to Slack integration enables you to receive notifications for the Te
 
 ## Configuring Postman with Slack
 
-From the [Integrations search page](https://go.postman.co/integrations/browse?category=all) search for Slack and select it from the results.
+From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+
+![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+Search and select **Slack**.
 
 ![search for slack integration](https://assets.postman.com/postman-docs/slack-search-all.jpg)
 

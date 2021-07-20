@@ -18,6 +18,7 @@ const pageQuery = `{
         headings(depth: h3) {
           value
         }
+        id
         frontmatter {
           title
           search_keyword
@@ -38,17 +39,21 @@ const pageQuery = `{
   }
 }`;
 
-const flatten = (arr) => arr.map(({ node: { frontmatter, ...rest } }) => ({
-  ...frontmatter,
-  ...rest,
-}));
+
+function pageToAlgoliaRecord({ node: { id, frontmatter, ...rest } }) {
+  return {
+    objectID: id,
+    ...frontmatter,
+    ...rest,
+  };
+}
 
 const settings = { attributesToSnippet: ['excerpt:20'] };
 
 const queries = [
   {
     query: pageQuery,
-    transformer: ({ data }) => flatten(data.docs.edges),
+    transformer: ({ data }) => data.docs.edges.map(pageToAlgoliaRecord),
     indexName: 'docs',
     settings,
   },
