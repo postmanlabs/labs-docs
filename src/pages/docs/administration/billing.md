@@ -75,7 +75,9 @@ When navigating to your [billing dashboard](http://go.postman.co/billing), you w
 
 In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's additional features and their usage during your monthly billing period. These features include mock servers, monitoring, public documentation, the Postman API, custom domains, and integrations.
 
-<img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-page.jpg" />
+<img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-page-v87.jpg" />
+
+> Click **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
 
 You can opt to allow or disable overages for mock server and monitor usage by selecting the icon to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
 
@@ -117,9 +119,9 @@ To set a card as your primary, hover over the card and **Set as Primary**.
 
 ### Paying by invoice
 
-Invoicing is available to Postman Enterprise teams. New customers can [email the Postman Sales team](mailto:sales@postman.com) to get started. Existing customers can [submit a request](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
+Invoicing is available for Postman Enterprise teams only. New customers can [contact the Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started and will receive a response within 3 business days. Existing Enterprise customers can [submit a request](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
 
-You can pay invoices online, via check, or via wire-transfer. Invoices will be sent to your team's billing email address found in your [billing details](http://go.postman.co/settings/team/billing-details), and will include offline payment instructions. Pending payments can be found in your [billing dashboard](http://go.postman.co/billing).
+You can pay invoices online, via ACH, or via wire-transfer. Invoices will be sent to your team's billing email address found in your [billing details](http://go.postman.co/settings/team/billing-details), and will include offline payment instructions. Pending payments can be found in your [billing dashboard](http://go.postman.co/billing).
 
 ### Adding custom information to invoices
 

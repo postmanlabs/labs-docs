@@ -5,7 +5,7 @@ page_id: "custom_webhooks"
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
+    name: "Prerequisite"
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"

@@ -31,7 +31,7 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP and HTTPS request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) for the Postman app.
+If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. Postman gives you tools to see and capture this network traffic. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) for the Postman app.
 
 You can capture the HTTP requests using the following two ways:
 
@@ -40,21 +40,21 @@ You can capture the HTTP requests using the following two ways:
 
 ## Built-in proxy
 
-Postman has a built-in proxy in the Postman app that captures the HTTP request.
+The Postman app has a built-in proxy that can capture HTTP requests:
 
 1. The Postman app listens for any calls made by the client app or device.
-1. The Postman proxy captures the request and forwards the request onward to the server.
+1. The Postman proxy captures the request and forwards it to the server.
 1. The server returns a response through the Postman proxy back to the client.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
+Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
 
 [![proxy logs](https://assets.postman.com/postman-docs/WS-proxy.logs-aa.jpeg)](https://assets.postman.com/postman-docs/WS-proxy.logs-aa.jpeg)
 
 ## Using Postman's proxy example
 
-In this tutorial, you will use Postman's proxy feature to inspect HTTP communication going out from your phone. To get started, make sure your computer and mobile are connected to the same local wireless network.
+In this tutorial, you will use Postman's proxy feature to inspect HTTP communication going out from your phone. To get started, make sure your computer and phone are connected to the same local wireless network.
 
 ### Step 1: Set up the proxy in Postman
 
@@ -62,13 +62,13 @@ Open the **PROXY SETTINGS** modal in the Postman app (macOS) by clicking the ico
 
 [![proxy icon in header](https://assets.postman.com/postman-docs/WS-postman-proxy-settings-button.jpg)](https://assets.postman.com/postman-docs/WS-postman-proxy-settings-button.jpg)
 
-Keep a note of the port mentioned in the proxy settings. In this case, let's keep it at the default port ``5555``. Set the target to "History". This will cause all your requests to be captured and stored in the History sidebar panel.
+Keep a note of the port mentioned in the proxy settings. In this example, it's set for the default port ``5555``. Set the target to **History**. This will cause all your requests to be captured and stored in the History sidebar panel.
 
 [![proxy settings modal](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)
 
 ### Step 2: Note your computer's IP address
 
-On OS X, the computer's IP address can be found in _System Preferences > Network_. The IP address of your system will be something like the example here `192.168.0.101`.
+On macOS, the computer's IP address can be found in _System Preferences > Network_. The IP address of your system will be something like the example here `192.168.0.101`.
 
 [![system preferences](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)
 
@@ -92,6 +92,38 @@ The broader development community has published some useful tutorials for settin
 * [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
+
+## Requirements to use the OpenSSL module
+
+The **OpenSSL** module is internally being used to generate certificate-key pairs. This module has to be installed and accessible through the command line.
+
+OpenSSL is already installed for macOS and typically installed for Linux. For Windows systems, **OpenSSL** must be installed.
+
+### Install the OpenSSL module on Windows
+
+1. Download and install the OpenSSL module applicable for your computer from [here](https://slproweb.com/products/Win32OpenSSL.html).
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-download-openssl.jpg)
+1. Open the Windows Start menu and search for "Environment Variables."
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-search.jpg)
+1. From the results, select "Environment Variables."
+1. From the **System Properties** window, select "Environment Variables."
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-advanced.jpg)
+1. Select **Path** from **User variables** and then select **Edit**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-edit-browse-bb.jpg)
+1. Select **Browse**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-openssl-edit-environment-variables-bb.jpg)
+1. Go to: **This PC > Windows (C:) > Program Files > OpenSSL - Win64 > bin**.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
+1. Select **OK** to add the folder directory. Then, select **OK** to confirm changes and close the remaining windows.
+1. Open **Command Prompt** and run **openssl version** to confirm the installation was successful.
+
+    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-check-openssl-version.jpg)
 
 ## Capture HTTPS traffic with Postman's built-in proxy
 
@@ -128,6 +160,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 1. Select **Finish** to save all configurations and import the certificate.
     [![Save configurations and import crt](https://assets.postman.com/postman-docs/windows-crt-install-complete-aa.jpeg)](https://assets.postman.com/postman-docs/windows-crt-install-complete-aa.jpeg)
     [![Select System keychains](https://assets.postman.com/postman-docs/windows-crt-import-complete-aa.jpeg)](https://assets.postman.com/postman-docs/windows-crt-import-complete-aa.jpeg)
+1. After import is complete, restart the Postman app.
 
 ### Linux
 
@@ -196,38 +229,6 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
     Confirm the certificate settings.
 
     <img src="https://assets.postman.com/postman-docs/ios-enable-full-trust-aa.jpeg" alt="iOS crt full trust settings" width="350">
-
-## Requirements to use the OpenSSL module
-
-The **OpenSSL** module is internally being used to generate certificate-key pairs. This module has to be installed and accessible through the command line.
-
-OpenSSL is generally already installed for macOS and Linux (there can be cases where it is not installed). For windows systems, **OpenSSL** is to be installed if not installed previously.
-
-### Install the OpenSSL module on Windows
-
-1. Download and install the OpenSSL module applicable for your computer from [here](https://slproweb.com/products/Win32OpenSSL.html).
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-download-openssl.jpg)
-1. Open the Windows Start menu and search for "Environment Variables."
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-search.jpg)
-1. From the results, select "Environment Variables."
-1. From the **System Properties** window, select "Environment Variables."
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-advanced.jpg)
-1. Select **Path** from **User variables** and then select **Edit**.
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-edit-browse-bb.jpg)
-1. Select **Browse**.
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-openssl-edit-environment-variables-bb.jpg)
-1. Go to: **This PC > Windows (C:) > Program Files > OpenSSL - Win64 > bin**.
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
-1. Select **OK** to add the folder directory. Then, select **OK** to confirm changes and close the remaining windows.
-1. Open **Command Prompt** and run **openssl version** to confirm the installation was successful.
-
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-check-openssl-version.jpg)
 
 ## Use Interceptor to capture requests
 

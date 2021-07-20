@@ -9,7 +9,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Imgur"
-    url: "https://www.postman.com/customers/imgur/"
+    url: "https://www.postman.com/case-studies/imgur/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -81,7 +81,3 @@ If you receive the same message when adding your second domain, note that since 
 When your domain is verified, you can use it to [publish your API documentation](/docs/publishing-your-api/publishing-your-docs/). If you have a collection already published, you can edit it to use the new domain.
 
 [![publish collection](https://assets.postman.com/postman-docs/publish-collection-edit-1.jpg)](https://assets.postman.com/postman-docs/publish-collection-edit-1.jpg)
-
-## Next steps
-
-You can make your documentation more discoverable by adding it to the [API Network](/docs/publishing-your-api/add-api-network/) or [Postman Templates](/docs/publishing-your-api/add-templates/).

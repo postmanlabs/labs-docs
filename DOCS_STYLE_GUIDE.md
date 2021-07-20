@@ -15,17 +15,17 @@ Check out the [contributing](CONTRIBUTING.md) guide for a step-by-step overview 
 * [Links](#links)
 * [Publish!](#publish)
 
-_This style guide is a work in progress, and we'll be continuing to iterate on it—create an [issue](https://github.com/postmanlabs/postman-docs/issues) if you'd like to provide feedback! Please also note that the Postman team will be working to apply these guidelines across the learning center—initially focusing on the core documentation, then later on additional material such as tutorials._
+_This style guide is a work in progress, and we'll be continuing to iterate on it. Create an [issue](https://github.com/postmanlabs/postman-docs/issues) if you'd like to provide feedback! Please also note that the Postman team will be working to apply these guidelines across the learning center, initially focusing on the core documentation, then later on additional material such as tutorials._
 
 ## Audience
 
-The Postman community is very varied, and we aim to create an empathetic, inclusive learning experience for all. Remember that __not everyone reading this documentation is a developer__, so try to make the information as accessible as possible to anyone who happens to visit, regardless of their technical background or skill level.
+The Postman community is very diverse, and we aim to create an empathetic, inclusive learning experience for all. Remember that __not everyone reading this documentation is a developer__, so try to make the information as accessible as possible to anyone who happens to visit, regardless of their technical background or skill level.
 
 For more advanced topics, if someone doesn't have the required skills to carry out a particular task yet, we want to help them get there. Provide context by indicating prerequisites and setting clear expectations, ideally linking to support information so that people can equip themselves with the necessary understanding to carry on learning. Be aware of what you're assuming people already know, but if possible link to background info rather than including it to help keep each doc focused on its core topic.
 
-Avoid unnecessary tech jargon, but don't simplify either—try to strike a balance between supporting people regardless of skill level and using accurate industry terms (since readers will need to know these in order to apply what they learn).
+Avoid unnecessary tech jargon, but don't simplify either. Try to strike a balance between supporting people regardless of skill level and using accurate industry terms (since readers will need to know these in order to apply what they learn).
 
-Postman learners speak lots of different languages—but right now our docs are only available in English. Try to use clear, concise sentences so that people reading in a second language can follow along. :earth_africa::earth_americas::earth_asia:
+Postman learners speak lots of different languages, but right now our docs are only available in English. Try to use clear, concise sentences so that people reading in a second language can follow along. :earth_africa::earth_americas::earth_asia:
 
 ## Language style
 
@@ -65,7 +65,7 @@ Try to phrase content positively where possible:
 
 Use US English by default.
 
-Preserve subject-verb agreement—if a verb is modifying a singular noun, the verb should also be singular (and if the noun being modified is plural, the verb should be plural too):
+Preserve subject-verb agreement. If a verb is modifying a singular noun, the verb should also be singular (and if the noun being modified is plural, the verb should be plural too):
 
 ---
 
@@ -83,7 +83,7 @@ Use "for example" instead of "e.g."
 
 For menu interaction, use "select" instead of "click."
 
-Be extra careful with words that have a specific meaning in the context of Postman but that may refer to something else, including additional pointers to remove ambiguity. Consider the following terms in particular:
+Be careful with words that have a specific meaning in the context of Postman but that may refer to something else, including additional pointers to remove ambiguity. Consider the following terms in particular:
 
 * Collection
 * Request
@@ -140,9 +140,9 @@ In general, use active voice and try not to use passive structures:
 
 ---
 
-Try to keep your sentences as short as possible. Use commas to break the content of a sentence into smaller, more digestible chunks—use serial commas in sentences containing three or more clauses. If a sentence has multiple clauses and you're having to use lots of commas and semicolons, it may benefit from being broken into more than one sentence, or perhaps presented in a different format such as a list. Be as concise as you can, while still being specific and conveying the relevant info. :eyeglasses:
+Try to keep your sentences as short as possible. Use commas to break the content of a sentence into smaller, more digestible chunks. Use serial commas in sentences containing three or more clauses. If a sentence has multiple clauses and you're having to use lots of commas and semicolons, it may benefit from being broken into more than one sentence, or perhaps presented in a different format such as a list. Be as concise as you can, while still being specific and conveying the relevant info. :eyeglasses:
 
-Help users to scan content, by indicating the purpose of a page, section, or sentence at the beginning. Introducing a sentence or section with a conditional clause lets learners know straight away whether it's relevant to them or not:
+Help users to scan content by indicating the purpose of a page, section, or sentence at the beginning. Introducing a sentence or section with a conditional clause lets learners know if it's relevant to them:
 
 ---
 
@@ -152,13 +152,13 @@ Help users to scan content, by indicating the purpose of a page, section, or sen
 
 ---
 
-Minimize repetition, and read your edits over after drafting them—reading a doc aloud can help to identify issues with it.
+Minimize repetition, and read your edits over after drafting them. Reading a doc aloud can help to identify issues with it.
 
 Use example code and images such as screenshots to aid comprehension of what you're writing.
 
 ## Formatting and structure
 
-Use lists and other structures to break your content up and present it in a more readable format. The [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides an overview of the options.
+Use lists and other structures to break up your content and present it in a more readable format. The [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides an overview of the options.
 
 When using a list, everything that appears before it (before the colon) should be a complete sentence:
 

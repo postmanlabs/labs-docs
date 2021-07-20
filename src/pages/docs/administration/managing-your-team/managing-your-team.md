@@ -49,7 +49,7 @@ Each team member must have a minimum of one role assigned to them. Note that onl
 
 Teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin and/or billing roles.
 
-> Roles can also be assigned via [groups](/docs/administration/managing-your-team/user-groups/#editing-team-roles-for-a-user-group).
+> Roles can also be assigned via [groups](/docs/administration/managing-your-team/user-groups/).
 
 ## Invites
 

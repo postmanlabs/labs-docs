@@ -85,7 +85,7 @@ You can configure the style of your public docs by selecting colors for the head
 
 ![Style Docs](https://assets.postman.com/postman-docs/Customizing+public+docs+layout.jpg)
 
-You can customize the style of your public docs by adding a team name and logo via your [team settings](https://go.postman.co/settings/team/general) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
+Team admins can customize the style of your public docs by [editing your team profile](/docs/administration/team-settings/#editing-your-team-profile), including your team name and logo, in your [team settings](https://go.postman.co/settings/team/general). Your team logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
 
 > You can make changes to styling after publishing your docs by heading to the [Postman Dashboard](https://go.postman.co/workspaces) and navigating to your published collection. Select **Published** in the upper-right corner > **Edit Published Documentation** > **Edit settings**. Make your changes and click **Save and republish collection** to update.
 
@@ -99,8 +99,7 @@ To share your API documentation with your users and the wider Postman community,
 
 > When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://explore.postman.com).
 
-* Choose __Add to API Network__ to [feature your team docs in the Postman publisher network](/docs/publishing-your-api/add-api-network/).
-* Choose __Add to Postman Templates__ to [share your collection with the Postman community as an individual](/docs/publishing-your-api/add-templates/) and make it discoverable via Postman.
+* Choose __Add to API Network__ to [feature your team docs in the Postman publisher network](/docs/publishing-your-api/publishing-your-docs/).
 
 You can only add to API Network when publishing from a team. You can configure your team profile by clicking __Public Profile Settings__, enabling your profile, and filling out your team details for display.
 
@@ -120,7 +119,7 @@ Add listing details for your public documentation, including name, summary, desc
 
 If you do not want to make your docs discoverable at this time, you can go ahead and publish then add them to the API Network or Postman Templates later.
 
-<iframe class="mb-4" width="560" height="315" src="https://www.youtube.com/embed/w-EgqQ8Anvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe loading="lazy" class="mb-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/w-EgqQ8Anvw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Publishing and unpublishing
 
@@ -140,4 +139,4 @@ You can unpublish your docs at any time by clicking __Unpublish__.
 
 [![Imgur API docs](https://i.imgur.com/oXgXznt.png)](https://i.imgur.com/oXgXznt.png)
 
-Find out more about sharing your docs via the [API Network](/docs/publishing-your-api/add-api-network/) and [Templates](/docs/publishing-your-api/add-templates/).
+Find out more about [sharing your docs](/docs/publishing-your-api/publishing-your-docs/).

@@ -6,15 +6,10 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Command line integration with Newman"
+    name: "Command-line integration with Newman"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Sikka"
-    url: "https://www.postman.com/customers/sikka/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -77,7 +72,7 @@ Let's learn more about integration with Travis:
     Remember to add and commit these two files to your repo.
 
     [![tree view tests directory](https://assets.postman.com/postman-docs/travis_tree.png)](https://assets.postman.com/postman-docs/travis_tree.png)
-  
+
 1. Create a new file called `.travis.yml` and move it to the root of your project repository.
 
     Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to  build it.
@@ -87,7 +82,7 @@ Let's learn more about integration with Travis:
     [![tree view yml](https://assets.postman.com/postman-docs/travis_tree_yml.png)](https://assets.postman.com/postman-docs/travis_tree_yml.png)
 
 1. In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory).
-  
+
     Since Travis CI doesn’t know where Newman is located, let's update the `PATH`. In this node.js example, the `newman` tool is located in my `.bin` directory which is located in my `node_modules` directory.
 
     Now, the `.travis.yml` file looks like this for this `node.js` example:
@@ -112,7 +107,7 @@ Let's learn more about integration with Travis:
 Travis CI is now set up to run your Postman tests every time you trigger a build, for example, by pushing a commit to your repo.
 
 Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) will show if the build passes or fails:
-  
+
 [![travis fail](https://assets.postman.com/postman-docs/travis_fail.png)](https://assets.postman.com/postman-docs/travis_fail.png)
 
    Travis CI is running the Newman command, but you see a failed exit code (1). Boo.
@@ -125,7 +120,7 @@ Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) 
 
 [![PM test script](https://assets.postman.com/postman-docs/WS-get-information95.png)](https://assets.postman.com/postman-docs/WS-get-information95.png)
 
-   Once you fix the mistake in the test, let’s save the changes, update the repo with the latest collection file, and then trigger a Travis CI build once again by committing and pushing the change.  
+   Once you fix the mistake in the test, let’s save the changes, update the repo with the latest collection file, and then trigger a Travis CI build once again by committing and pushing the change.
 
 [![travis log success](https://assets.postman.com/postman-docs/travis_log_success.png)](https://assets.postman.com/postman-docs/travis_log_success.png)
 

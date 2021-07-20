@@ -9,7 +9,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Monetary"
-    url: "https://www.postman.com/customers/monetary/"
+    url: "https://www.postman.com/case-studies/monetary/"
   - type: subtitle
     name: "Videos"
   - type: link

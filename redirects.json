@@ -217,7 +217,7 @@
 	},
 	{
 		"from": "/docs/postman-for-publishers/api-network/add-api-network/",
-		"to": "/docs/publishing-your-api/add-api-network/"
+		"to": "/docs/publishing-your-api/authoring-your-documentation/"
 	},
 	{
 		"from": "/docs/postman-for-publishers/api-network/api-submission-guidelines/",
@@ -1489,7 +1489,7 @@
 	},
 	{
 		"from": "/docs/postman_for_publishers/api_network/add_api_network/",
-		"to": "/docs/publishing-your-api/add-api-network/"
+		"to": "/docs/publishing-your-api/authoring-your-documentation/"
 	},
 	{
 		"from": "/docs/postman_for_publishers/api_network/api_submission_guidelines/",
@@ -1797,6 +1797,29 @@
 	},
 	{
 		"from": "/docs/administration/managing-your-team/",
-		"to": "/docs/administration/managing-your-team/managing-your-team/"
-	}
+		"to": "/docs/administration/managing-your-team/managing-your-team/"},
+{
+		"from": "/docs/publishing-your-api/add-api-network/",
+		"to": "/docs/publishing-your-api/authoring-your-documentation/"
+},
+{
+		"from": "/docs/integrations/available-integrations/microsoft-flow/",
+		"to": "/docs/integrations/available-integrations/microsoft-power-automate/"
+},
+{
+		"from": "/docs/publishing-your-api/add-templates/",
+		"to": "/docs/publishing-your-api/authoring-your-documentation/"
+},
+{
+		"from": "/docs/publishing-your-api/publish-public-api/",
+		"to": "/docs/publishing-your-api/authoring-your-documentation/"
+},
+{
+		"from": "/docs/publishing-your-api/api-submission-guidelines/",
+		"to": "/docs/publishing-your-api/authoring-your-documentation/"
+},
+{
+		"from": "/docs/integrations/available-integrations/victorops/",
+		"to": "/docs/integrations/available-integrations/splunk-on-call/"
+}
 ]

@@ -14,10 +14,10 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Cisco DevNet"
-    url: "https://www.postman.com/customers/cisco-devnet/"
+    url: "https://www.postman.com/case-studies/cisco-devnet/"
   - type: link
     name: "Imgur"
-    url: "https://www.postman.com/customers/imgur/"
+    url: "https://www.postman.com/case-studies/imgur/"
   - type: subtitle
     name: "Videos"
   - type: link

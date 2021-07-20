@@ -766,7 +766,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               className="social-icon"
-              href="https://www.youtube.com/postmanapidevelopment"
+              href="https://www.youtube.com/c/Postman"
               id="youtube_icon"
               rel="noopener noreferrer"
               target="_blank"

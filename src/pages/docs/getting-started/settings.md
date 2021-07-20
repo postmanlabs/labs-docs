@@ -35,7 +35,7 @@ warning: false
 
 ## Getting to the Settings
 
-In the header of Postman, click the wrench icon and select "Settings" to open the **SETTINGS** modal. You can also use the keyboard shortcut (**CMD/CTRL + ,**) to open the modal.
+In the header of Postman, click the gear icon and select "Settings" to open the **SETTINGS** modal. You can also use the keyboard shortcut (**CMD/CTRL + ,**) to open the modal.
 
 [![Settings dropdown](https://assets.postman.com/postman-docs/overview-settings-v8.jpg)](https://assets.postman.com/postman-docs/overview-settings-v8.jpg)
 
@@ -63,14 +63,21 @@ If you want Postman to persist your file paths, then you must save your files in
 Postman flags a warning for files that are not stored in this directory.
 
 However, delimiting the working directory can have some unintended security issues as follows:
-  
+
   1. It is against the general principle of security to give system-wide access to a program as it exposes a user's system to all types of threats.
   2. Restricting the working directory would prevent safety issues arising when files obtained from external/anonymous sources are used. For example, a collection that the user has obtained from the internet. The user may or may not have proper information about the collection and as such may not understand if the collection serves some other hidden function.
   3. Absolute file path can also be given to postman, but when sharing it may not work for the user it is shared to as absolute paths can vary between systems.
 
 To learn more about this feature, refer to [Sending body data](/docs/sending-requests/requests/#sending-body-data).
 
-* **Location:** Path to local directory containing postman files. The default path populated as a placeholder is `~/Postman/files`.
+* **Location:** Path in your local filesystem which Postman considers as the working directory. You can put any files in the location and Postman will persist the path relative to the working directory. The default path populated as a placeholder is `~/Postman/files`.
+
+For the Postman desktop app, you can modify the working directory. While uploading a file to the app during a POST request, you will be able to view all the files in the working directory since the file path will be persisted in the collection. To ensure a seamless experience for your team members, it is recommended that you keep files in the `~/Postman/files` directory. The only limitation is that the team members also maintain the same working directory structure.
+
+<img alt="Working directory on web" src="https://assets.postman.com/postman-docs/working-directory-web.jpg" width="350px">
+
+For Postman web, the working directory cannot be modified. When you upload a file on the web, it creates a folder with a random alphanumeric name (such as `6OPkYiXVr`) in the `~/Postman/files` directory even when the file is selected within the working directory or outside the working directory. Since the file’s relative path to the working directory remains unchanged, the new folder created enables you to continue testing with files selected anywhere from your Desktop. You can view all the files within the newly created folders in the working directory.
+
 * **Allow reading files outside working directory:** Set this option to ON if you want Postman to read files from outside the Postman working directory. Postman persists your file paths for binary file and form-data request bodies. To learn more about this feature, refer to [Sending body data](/docs/sending-requests/requests/#sending-body-data).
 
 You may encounter errors for file reference:
@@ -117,7 +124,7 @@ Import and export data in bulk inside Postman.  This will overwrite your existi
 
 ## Add-ons
 
-Download Newman, Postman's command line companion, to integrate Postman collections with your build system, or run automated tests for your API through a cron job. Learn more about [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+Download Newman, Postman's command-line companion, to integrate Postman collections with your build system or run automated tests for your API through a cron job. Learn more about [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
 ## Sync
 

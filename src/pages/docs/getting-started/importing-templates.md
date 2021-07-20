@@ -66,7 +66,3 @@ Check out some useful templates for getting started learning about APIs, request
 * [Intro to writing tests](https://explore.postman.com/templates/198/intro-to-writing-tests---with-examples)
 * [How to use the Postman console](https://explore.postman.com/templates/4573/how-to-use-the-postman-console)
 * [Postman Echo](https://docs.postman-echo.com/)
-
-## Next steps
-
-You can [publish your own templates](/docs/publishing-your-api/add-templates/) and [add your team listing](/docs/publishing-your-api/add-api-network/) to the API Network to help people onboard with your services.

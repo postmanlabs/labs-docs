@@ -50,7 +50,7 @@ Signing up for an account is optional—you can use the desktop Postman app with
 
 To use Postman on the desktop, [download](https://www.postman.com/downloads/) the app and launch it.
 
-Alternatively, navigate to Postman on the web at [go.postman.co/build](https://go.postman.co/build).
+Alternatively, navigate to Postman on the web at [go.postman.co/home](https://go.postman.co/home).
 
 You will see a prompt to log in or sign up.
 
@@ -86,13 +86,7 @@ To create a team and optionally invite collaborators, click __Create new team__.
 
 [![Create Team](https://assets.postman.com/postman-docs/create-team.jpg)](https://assets.postman.com/postman-docs/create-team.jpg)
 
-You can invite collaborators to join your team now or [later on](/docs/administration/managing-your-team/#inviting-to-a-team).
-
-[![Invite to Team](https://assets.postman.com/postman-docs/create-team-and-invite.jpg)](https://assets.postman.com/postman-docs/create-team-and-invite.jpg)
-
-You can update your settings at any time by clicking your avatar in the top left of Postman, then **Profile**.
-
-<img src="https://assets.postman.com/postman-docs/user-settings-menu.jpg" width="350px" alt="User Menu"/>
+You can update your settings at any time by clicking your avatar in the top left of Postman, then **View Profile**.
 
 Your profile will be visible to collaborators and anyone viewing resources you share or publish.
 
@@ -100,17 +94,15 @@ Your profile will be visible to collaborators and anyone viewing resources you s
 
 You can sign into Postman by clicking **Sign In** in the upper-right corner of Postman, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and clicking **Sign In** in the upper-right corner.
 
-<img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
+ <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 
-When you opt to sign into the desktop version of Postman, you will see the following screen and your default browser will automatically open a webpage asking you to sign into Postman.
+ When you opt to sign into the desktop version of Postman, you will see the following screen and your default browser will automatically open a webpage asking you to sign into Postman.
 
-> Your browser should open within a few seconds. If it does not, you can click **open your browser** in Postman.
+ > Your browser should open within a few seconds. If it does not, you can click **open your browser** in Postman.
 
-<img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
+  <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
 > You can opt out of the login process at any time by navigating back to Postman and clicking **Skip and take me to Postman Desktop App**.
-
-<!-- -->
 > You must complete the process of signing in within five minutes once you initiate login from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
 Log into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Business or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
@@ -125,17 +117,17 @@ Upon signing in, you will see a confirmation in your browser and you will be red
 
 ## Syncing your work
 
-When you are logged into Postman, you will see the sync indicator in the header bar.
+When you are logged into Postman, the sync indicator in the header bar is green; you are connected to the servers and your work is being continuously backed up. Postman will inform you if the sync is interrupted and will automatically try to re-establish the connection.
 
 ![Sync icon](https://assets.postman.com/postman-docs/syncing.jpg)
 
-When the icon is green, you are connected to the servers and your work is being continuously backed up. Postman will inform you if the sync is interrupted and will automatically try to re-establish the connection.
+If Postman can't connect, you can switch to the Scratch Pad and work locally. For more information see, [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
 
-![Sync connection](https://assets.postman.com/postman-docs/offline.jpg)
+![Sync connection](https://assets.postman.com/postman-docs/scratchpad-offline.jpg)
 
 If a conflict arises from a sync issue within your workspace, [Postman will present options for resolving the conflict](/docs/collaborating-in-postman/using-workspaces/conflicts/).
 
-> Postman uses WebSockets for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.postman.com/hc/en-us).
+> Postman uses a WebSocket connection for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.postman.com/hc/en-us).
 
 ## Upgrading your account
 

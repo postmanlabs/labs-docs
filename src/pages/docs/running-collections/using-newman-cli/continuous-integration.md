@@ -9,15 +9,10 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: link
-    name: "Command line integration with Newman"
+    name: "Command-line integration with Newman"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Sikka"
-    url: "https://www.postman.com/customers/sikka/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

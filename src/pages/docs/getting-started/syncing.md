@@ -11,11 +11,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "HotelBeds"
-    url: "https://www.postman.com/customers/Hotelbeds.pdf"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman Cloud"
@@ -59,7 +54,7 @@ These entities can sync with the server and be saved to the cloud:
 
 Install [Postman](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
 
-Alternatively, access Postman on the web by visiting [go.postman.co/build](https://go.postman.co/build) in your browser and signing into your account.
+Alternatively, access Postman on the web by visiting [go.postman.co/home](https://go.postman.co/home) in your browser and signing into your account.
 
 If you forget your username or password, you can recover them using the links in the sign-in prompt.
 
@@ -73,9 +68,11 @@ Postman indicates the sync state of your workspace. The flow diagram for sync st
 
 [![Sync States](https://assets.postman.com/postman-docs/sync-states-flow.jpg)](https://assets.postman.com/postman-docs/sync-states-flow.jpg)
 
-If you are not signed in to Postman, you see the state as **Offline**. Click **Connect Now** to connect to Postman.
+If you are not signed in to Postman, you see the state as **Offline**. Click **Sign In** to connect to Postman.
 
-[![Offline state](https://assets.postman.com/postman-docs/offline-state.jpg)](https://assets.postman.com/postman-docs/offline-state.jpg)
+If you are offline, you will be in the _Scratch Pad_, which is a space where you can work locally without a connection or login to Postman. The work that you do in the Scratch Pad will not be synced to Postman, but you can export it and import it to a workspace later. For more information see, [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+
+<img alt="Offline state" src="https://assets.postman.com/postman-docs/scratch-pad-logged-out.jpg" width="300px" />
 
 When you open Postman or if your connection drops, it displays **Connecting** before it starts to sync.
 

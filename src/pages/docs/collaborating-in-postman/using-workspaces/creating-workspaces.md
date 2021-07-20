@@ -22,7 +22,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Movember Foundation"
-    url: "https://www.postman.com/customers/movember-foundation/"
+    url: "https://www.postman.com/case-studies/movember-foundation/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -42,7 +42,7 @@ Workspaces allow you to organize your Postman work and collaborate with teammate
 
 [![Create workspace homepage](https://assets.postman.com/postman-docs/create-workspace-homepage.jpg)](https://assets.postman.com/postman-docs/create-workspace-homepage.jpg)
 
-Personal workspaces are visible only to you—with a [Postman account](/docs/getting-started/postman-account/) you can create unlimited workspaces. With team workspaces, you can share and manage access to project components with collaborators.
+Personal workspaces are visible only to you—with a [Postman account](/docs/getting-started/postman-account/) you can create unlimited workspaces. With team workspaces, you can share and manage access to project components with collaborators. [Public workspaces](/docs/collaborating-in-postman/public-workspaces/) enable you to collaborate on entities with anyone across the world.
 
 By sharing a component such as a collection to a workspace, collaborators with access to the workspace can also access it—by default with readonly permissions. You can [configure access settings](/docs/collaborating-in-postman/roles-and-permissions/) for the workspace on an individual basis to provide permissions depending on your account.
 
@@ -56,7 +56,7 @@ To create a new workspace, select the workspace dropdown menu at the left of Pos
 
 <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace.jpg" width="300px"/>
 
-Use the visibility dropdown to choose a __Team__, __Private__ or __Personal__ workspace. Note that you can share elements to a different workspace at a later date if you are not sure which type to create.
+Use the visibility dropdown to choose a __Personal__, __Team__, __Private__, or __Public__ workspace. Note that you can share elements to a different workspace at a later date if you are not sure which type to create.
 
 To create a personal workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Personal__.
 

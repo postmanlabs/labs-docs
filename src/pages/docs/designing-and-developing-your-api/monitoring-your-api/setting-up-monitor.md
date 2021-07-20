@@ -39,7 +39,7 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
     * [Creating a monitor via a collection](#creating-a-monitor-via-a-collection)
 
-    * [Creating a monitor with the + New button](#creating-a-monitor-with-the--new-button)
+    * [Creating a monitor with the + New button](#creating-a-monitor-with-the-new-button)
 
     * [Creating a monitor from history](#creating-a-monitor-from-history)
 
@@ -101,7 +101,7 @@ You can create a monitor with a POST request to the Postman API. Visit the [API 
 
 You will need to give your new monitor a name and designate the collection you would like it to run, as well as the version. You can also add an environment here if you would like your monitor to use one.
 
-![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor.jpg)
+![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1.jpg)
 
 > Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#usage-limits).
 
@@ -114,6 +114,10 @@ You can utilize a number of custom configuration options provided by Postman mon
 ### Scheduling monitors
 
 You can configure your monitor to run as often as you would like, automatically. This could be up to every five minutes for a status page or a basic check once a week on your endpoints.
+
+> Scheduling options are limited by plan type. If you are on a paid plan, you can schedule monitors to run as often as every five minutes. If you are on a free plan, you can schedule monitors to run as often as every hour.
+
+<!-- -->
 
 > Frequency affects how quickly your monitoring usage compounds. To learn more about usage limits and overages, see [Pricing](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#pricing).
 
@@ -163,7 +167,7 @@ You can add a **Delay between requests** to your monitor. This will insert a del
 
 ### Managing redirect behavior
 
-You can use **Don't follow redirects** to reject URL redirection for requests run via a monitor.
+You can use **Follow redirects** to allow URL redirection for requests run via a monitor.
 
 ### Disabling SSL validation
 

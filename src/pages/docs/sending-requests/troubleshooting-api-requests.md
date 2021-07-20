@@ -31,11 +31,11 @@ warning: false
 
 There are many possible reasons for your API requests not behaving as expected. You will see a message if Postman is not able to send your request, or if it does not receive a response from the API you sent the request to. The message will include an overview of the issue and a link to the Console, where you can access detailed info about the request.
 
-![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link.jpg)
+![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
 
 Click __View in Console__ to see the request detail in the Console and find out more about what went wrong.
 
-![Error in Console](https://assets.postman.com/postman-docs/console-pane-opened-from-response.jpg)
+![Error in Console](https://assets.postman.com/postman-docs/console-pane-opened-from-response-v8.jpg)
 
 ## Contents
 
@@ -76,7 +76,7 @@ The Postman console helps debug your requests when an API is not behaving as you
 
 ## Using the console
 
-Every request sent via Postman is logged in the console, so you can view the detail of what happened when you sent a request.
+Every request sent by Postman is logged in the console, so you can view the detail of what happened when you sent a request.
 
 The Postman console logs the following information:
 
@@ -94,13 +94,13 @@ You can open the console from the button on the bottom left of Postman, by click
 
 The console pane will open. You will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
 
-[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane.jpg)
+[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 
-You can filter by log message type, and toggle timestamps / network info.
+You can filter by log message type under **All Logs**, or toggle timestamps / network info.
 
-[![Console options](https://assets.postman.com/postman-docs/console-pane-log-options.jpg)](https://assets.postman.com/postman-docs/console-pane-log-options.jpg)
+<img alt="Console options" src="https://assets.postman.com/postman-docs/console-pane-log-options-v8.jpg" width="350px"/>
 
-Keeping the console open will increase the visibility of your network calls and log messages while debugging. The console will log the last 5K messages and 24 hours by default—you can also __Clear__ the list.
+Keeping the console open will increase the visibility of your network calls and log messages while debugging. The console will log the last 5000 messages and 24 hours by default. Select __Clear__ to empty the list.
 
 ### Accessing console logs
 

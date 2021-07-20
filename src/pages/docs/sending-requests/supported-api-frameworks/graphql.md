@@ -48,7 +48,7 @@ Try it out in Postman with this [example template](https://explore.postman.com/t
 
 ## Sending a GraphQL query
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7pUbezVADQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/7pUbezVADQs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/>
 

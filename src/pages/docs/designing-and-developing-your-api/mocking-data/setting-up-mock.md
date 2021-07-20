@@ -158,13 +158,13 @@ With your mock URL, you can start making requests right away. Make sure the requ
 
 Open a tab (or edit the address in an existing tab) and add the mock URL:
 
-```
+```shell
 https://<mock-id>.mock.pstmn.io/<request-path>
 ```
 
 For example:
 
-```
+```shell
 https://3589dfde-f398-45cd-88eb-b0fa0192fc3f.mock.pstmn.io/matches
 ```
 

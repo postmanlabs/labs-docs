@@ -16,11 +16,6 @@ contextual_links:
   - type: link
     name: "Run Collections with Newman | Postman Level Up"
     url: "https://www.youtube.com/watch?v=SQlwGZj97Y4"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Clarifai"
-    url: "https://www.postman.com/customers/Clarifai.pdf"
   - type: section
     name: "Next Steps"
   - type: link
@@ -33,15 +28,13 @@ tags:
 
 ---
 
-Newman is a command line Collection Runner for Postman. It allows you to run and test a Postman Collection directly from the command line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
+Newman is a command-line Collection Runner for Postman. It enables you to run and test a Postman Collection directly from the command line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
 
 Newman maintains feature parity with Postman and allows you to run collections the way they are executed inside the collection runner in Postman.
 
 Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
 [![newman gif](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
-
-We'll cover these topics to learn command line integration with Newman:
 
 * [Getting Started](#getting-started)
 * [Options](#options)
@@ -55,7 +48,7 @@ We'll cover these topics to learn command line integration with Newman:
 
 Newman is built on Node.js. To run Newman, make sure you have Node.js installed.
 
-You can [download and install](https://nodejs.org/en/download/current/) Node.js on Linux, Windows, and Mac OSX.
+You can [download and install](https://nodejs.org/en/download/current/) Node.js on Linux, Windows, and macOS.
 
 After you install Node.js, Newman is just a command away. Install Newman from npm globally on your system, which allows you to run it from anywhere.
 
