@@ -146,4 +146,4 @@ This is where you can verify your current version of Postman. There are also som
 
 The Postman app utilizes hardware acceleration, meaning it will use your computer's GPU to render screen graphics. In some specific cases, your computer's GPU, drivers, hardware, or operating system may cause issues with hardware acceleration. For example, you may see issues with screen artifacts or glitching. If this occurs, you can disable hardware acceleration.
 
-You can disable Postman's use of GPU acceleration by clearing the **Hardware Acceleration** option on the **Postman** menu. Changing this option will restart the Postman app. Note that disabling hardware acceleration may cause degraded performance or increased CPU usage.
+You can disable Postman's use of GPU acceleration by clearing the **Hardware Acceleration** option on the **Postman** menu in MacOS, or the **Help** menu in Windows or Linux. Changing this option will restart the Postman app. Note that disabling hardware acceleration may cause degraded performance or increased CPU usage.
