@@ -18,7 +18,7 @@
     "gatsby-plugin-algolia": "^0.22.0",
     "gatsby-plugin-catch-links": "^3.8.0",
     "gatsby-plugin-env-variables": "^1.0.2",
-    "gatsby-plugin-gdpr-cookies": "^1.0.14",
+    "gatsby-plugin-gdpr-cookies": "1.0.7",
     "gatsby-plugin-google-analytics": "^2.3.4",
     "gatsby-plugin-google-tagmanager": "^2.1.15",
     "gatsby-plugin-manifest": "^2.4.17",
@@ -100,7 +100,7 @@
     "url": "https://github.com/postmanlabs/postman-docs/issues"
   },
   "engines": {
-    "node": "12.13.0"
+    "node": "12.11.0"
   },
   "homepage": "https://github.com/postmanlabs/postman-docs#readme",
   "main": ".eslintrc.js",
