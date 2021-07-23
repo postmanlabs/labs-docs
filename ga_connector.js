@@ -2,7 +2,8 @@
 
 const algoliasearch = require('algoliasearch');
 const { google } = require('googleapis');
-const { hostname } = require('os');
+// const { hostname } = require('os');
+
 const analytics = google.analyticsreporting('v4');
 
 require('dotenv').config({
@@ -54,7 +55,7 @@ class MetricsFetcher {
     startDate = '7daysAgo',
     endDate = 'today',
   }) {
-    this.auth = new google.auth.GoogleAuth({ scopes: ['https://www.googleapis.com/auth/analytics.readonly'] })
+    this.auth = new google.auth.GoogleAuth({ scopes: ['https://www.googleapis.com/auth/analytics.readonly'] });
     // console.log('...............process..............', process.env.NODE_ENV)
     // const scopes = 'https://www.googleapis.com/auth/analytics.readonly';
 
@@ -86,29 +87,29 @@ class MetricsFetcher {
       auth: this.auth,
       requestBody: {
         reportRequests: [
-        {
-          viewId: this.viewId,
-          dateRanges: [
-            {
-              startDate: this.startDate,
-              endDate: this.endDate,
-            },
-          ],
-          // reference doc: https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/#ga:pagePath
-          dimensions: [{ name: 'ga:hostname' }, { name: 'ga:pagePath' }],
-          metrics: this.metrics.map(metric => ({ expression: metric })),
-          orderBys: [
           {
-            fieldName: METRICS.uniquePageViews,
-            sortOrder: 'DESCENDING',
-          },
-          ],
-          pageSize:
+            viewId: this.viewId,
+            dateRanges: [
+              {
+                startDate: this.startDate,
+                endDate: this.endDate,
+              },
+            ],
+            // reference doc: https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/#ga:pagePath
+            dimensions: [{ name: 'ga:hostname' }, { name: 'ga:pagePath' }],
+            metrics: this.metrics.map((metric) => ({ expression: metric })),
+            orderBys: [
+              {
+                fieldName: METRICS.uniquePageViews,
+                sortOrder: 'DESCENDING',
+              },
+            ],
+            pageSize:
             this.remaining !== null && this.remaining < MAX_PAGE_SIZE
               ? this.remaining
               : MAX_PAGE_SIZE,
-          pageToken: this.pageToken,
-        },
+            pageToken: this.pageToken,
+          },
         ],
       },
     });
@@ -127,7 +128,7 @@ class MetricsFetcher {
 
     const rowsClean = !rows
       ? []
-      : rows.map(row => {
+      : rows.map((row) => {
         return {
           hostname: row.dimensions[0],
           pagePath: row.dimensions[1],
@@ -137,7 +138,7 @@ class MetricsFetcher {
               ...keyVals,
               [metric]: parseInt(row.metrics[0].values[idx], 10),
             }),
-            {}
+            {},
           ),
         };
       });
@@ -197,45 +198,44 @@ function getPageUrl(hostname, pagePath) {
 
 // Main
 (async () => {
-  console.log(`Fetching Google Analytics data...`);
+  console.log('Fetching Google Analytics data...');
   const metricsFetcher = new MetricsFetcher(GA_PARAMETERS);
   const allGADataUgly = await metricsFetcher.fetchAll();
 
   const allGAData = {};
-  // turn GAData object into array 
+  // turn GAData object into array
   Object.keys(allGADataUgly).forEach((item) => {
     if (allGADataUgly[item]['ga:uniquePageViews'] > 100) {
       const newKey = item.replace('https://learning.postman.com', '').replace(/\?.*/g, ''); // remove url and everything after a ? to match the path that is being indexed in Algolia
       allGAData[newKey] = allGADataUgly[item];
     }
-  }) 
+  });
 
   console.log('Browsing Algolia index and creating partial records...');
   const client = algoliasearch(APP_ID, API_KEY);
   const index = client.initIndex(INDEX_NAME);
   const recordsToUpdate = [];
 
-try {
-  await index.browseObjects({
-    query: '', // Empty query will match all records
-    attributesToRetrieve: [URL_ATTRIBUTE],
-    batch: batch => {
-      batch.forEach(record => {
-
-        if (allGAData[record[URL_ATTRIBUTE].slug]) {  
-          // Create a partial record with a new `pageviews` attribute
-          recordsToUpdate.push({
-            objectID: record.objectID,
-            pageviews:
-              allGAData[record[URL_ATTRIBUTE].slug][METRICS.uniquePageViews],
-          });
-        }
-      });
-    },
-  });
-} catch(err) {
-  console.log(err);
-}
+  try {
+    await index.browseObjects({
+      query: '', // Empty query will match all records
+      attributesToRetrieve: [URL_ATTRIBUTE],
+      batch: (batch) => {
+        batch.forEach((record) => {
+          if (allGAData[record[URL_ATTRIBUTE].slug]) {
+            // Create a partial record with a new `pageviews` attribute
+            recordsToUpdate.push({
+              objectID: record.objectID,
+              pageviews:
+                allGAData[record[URL_ATTRIBUTE].slug][METRICS.uniquePageViews],
+            });
+          }
+        });
+      },
+    });
+  } catch (err) {
+    console.log(err);
+  }
 
 
   console.log(`Updating ${recordsToUpdate.length} records...`);
