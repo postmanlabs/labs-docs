@@ -229,13 +229,13 @@ paths:
 servers:
   - url: https://my.server.example.com/
     description: API server
-# ...  
+#...
 components:
   securitySchemes:
     myAuth:
       type: http
       scheme: basic
-# ...   
+#...
 security:
   - myAuth: []
 ```
@@ -255,7 +255,7 @@ components:
   securitySchemes:
     OauthFlow:
       type: oauth2
-      flows: 
+      flows:
         authorizationCode:
           authorizationUrl: https://my.auth.example.com/
           tokenUrl: https://my.token.example.com/
@@ -471,13 +471,13 @@ security:
 servers:
   - url: https://my.api.server.com/
     description: API server
-# ...  
+#...
 components:
   securitySchemes:
     OAuth1:
       type: http
       scheme: oauth
-# ...   
+#...
 security:
   - OAuth1: []
 ```
@@ -496,14 +496,14 @@ security:
 servers:
   - url: https://my.api.server.com/
     description: API server
-# ...  
+#...
 components:
   securitySchemes:
     AuthKeyAuth:
       type: apiKey
       name: api-key
       in: cookie/header/query
-# ...   
+#...
 security:
   - AuthKeyAuth: []
 ```
@@ -617,13 +617,13 @@ paths:
       servers:
       - url: https://example.com/
         description: Example server
-# ...  
+#...
 components:
   securitySchemes:
     OAuth1:
       type: http
       scheme: oauth
-# ...   
+#...
 security:
   - OAuth1: []
 ```
@@ -645,13 +645,13 @@ paths:
       servers:
       - url: https://example.com/
         description: Example server
-# ...  
+#...
 components:
   securitySchemes:
     OAuth1:
       type: http
       scheme: oauth
-# ...   
+#...
 security:
   - OAuth1: []
 ```
@@ -713,7 +713,7 @@ components:
   securitySchemes:
     OauthFlow:
       type: oauth2
-      flows: 
+      flows:
         authorizationCode:
           authorizationUrl: https://my.auth.example.com/
           tokenUrl: https://my.token.example.com/
@@ -737,7 +737,7 @@ components:
   securitySchemes:
     OauthFlow:
       type: oauth2
-      flows: 
+      flows:
         authorizationCode:
           authorizationUrl: https://my.auth.example.com/
           tokenUrl: https://my.token.example.com/
@@ -762,7 +762,7 @@ components:
   securitySchemes:
     OauthFlow:
       type: oauth2
-      flows: 
+      flows:
         authorizationCode/clientCredentials/password/implicit:
           authorizationUrl: https://my.auth.example.com/
           tokenUrl: https://my.token.example.com/
