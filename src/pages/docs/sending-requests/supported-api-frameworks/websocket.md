@@ -5,7 +5,7 @@ page_id: "websocket"
 search_keyword: "WebSocket, websockets, WebSocket requests"
 contextual_links:
   - type: section
-    name: "Prerequisite"
+    name: "Prerequisites"
   - type: link
     name: "Installing and updating"
     url: "/docs/getting-started/installation-and-updates/"
