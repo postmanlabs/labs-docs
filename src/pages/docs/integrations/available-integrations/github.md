@@ -16,13 +16,16 @@ contextual_links:
   - type: link
     name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
     url:  "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
+  - type: link
+    name: "How to Auto-Sync Postman Collections with AWS CodeCommit Repositories"
+    url:  "https://blog.postman.com/how-to-auto-sync-postman-collections-with-aws-codecommit-repositories/"
 ---
 
 > __[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
 
 Postman enables you to back up your collections (for paid plans only) or synchronize your API schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
 
-> If you are looking to import data into Postman from a GitHub repository, see [Importing via GitHub repositories](/docz/getting-started/importing-and-exporting-data/#importing-via-github-repositories).
+> If you are looking to import data into Postman from a GitHub repository, see [Importing via GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories).
 
 * [Backing up collections on GitHub](#backing-up-collections-on-github)
 * [Syncing API schemas on GitHub](#syncing-your-api-schemas-on-github)
