@@ -44,7 +44,7 @@ The following list describes possible warning messages and potential ways to res
     * [Security scheme object does not contain any scheme](#security-scheme-object-does-not-contain-any-scheme)
     * [Scheme used in security field is not defined in the security scheme object](#scheme-used-in-security-field-is-not-defined-in-the-security-scheme-object)
     * [HTTP authentication scheme is using an unknown scheme](#http-authentication-scheme-is-using-an-unknown-scheme)
-    * [Deprecated OAuth 1.0 scheme is used](#deprecated-oauth-1.0-scheme-is-used)
+    * [Deprecated OAuth 1.0 scheme is used](#deprecated-oauth-10-scheme-is-used)
 * [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
@@ -55,14 +55,14 @@ The following list describes possible warning messages and potential ways to res
     * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
     * [Global server URL uses HTTP protocol](#global-server-url-uses-http-protocol)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
-    * [API accepts credentials from OAuth 1.0 authentication in plain text](#api-accepts-credentials-from-oauth-1.0-authentication-in-plain-text)
+    * [API accepts credentials from OAuth 1.0 authentication in plain text](#api-accepts-credentials-from-oauth-10-authentication-in-plain-text)
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
 * [Server configuration of the operation allows insecure enforcement of security schemes](#server-configuration-of-the-operation-allows-insecure-enforcement-of-security-schemes)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
     * [Server URL of the operation is using HTTP protocol](#server-url-of-the-operation-is-using-http-protocol)
     * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-as-plain-text)
-    * [Operation accepts credentials from OAuth 1.0 authentication in plain text](#operation-accepts-credentials-from-oauth-1.0-authentication-in-plain-text)
+    * [Operation accepts credentials from OAuth 1.0 authentication in plain text](#operation-accepts-credentials-from-oauth-10-authentication-in-plain-text)
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
 * [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
     * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
@@ -178,7 +178,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | An empty object in the reusable security schemes means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | -- |
+| High | An empty object in the reusable security schemes means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security schemes should contain at least one item in the object. |
 
 **Resolution:**
 
@@ -196,7 +196,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The authentication scheme used in the global or operation security field is not defined in the reusable security schemes. | -- |
+| Medium | The authentication scheme used in the global or operation security field is not defined in the reusable security schemes. | Scheme used in the security field should be defined in the security scheme object. |
 
 **Resolution:**
 
@@ -221,7 +221,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The name of the HTTP authentication scheme should be registered in the IANA Authentication Scheme registry. | -- |
+| Medium | The name of the HTTP authentication scheme should be registered in the [IANA Authentication Scheme registry](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml). | Make sure that the HTTP authentication scheme registered in the IANA Authentication Scheme registry is used. |
 
 **Resolution:**
 
@@ -246,7 +246,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | Security scheme uses OAuth 1.0 authentication which has been deprecated and replaced by OAuth 2.0. | -- |
+| Low | Security scheme uses OAuth 1.0 authentication which has been deprecated and replaced by OAuth 2.0. | Make sure that the security scheme is not using the deprecated OAuth 1.0 authentication. |
 
 **Resolution:**
 
@@ -463,7 +463,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The authentication tokens are sent as plain text over an unencrypted channel. Attackers can easily intercept the  token by listening to the network traffic in a public Wi-Fi network. | -- |
+| High | The authentication tokens are sent as plain text over an unencrypted channel. Attackers can easily intercept the token by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -488,7 +488,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | API keys are sent as plain text over an unencrypted channel. Attackers can easily intercept API key by listening to the network traffic in a public Wi-Fi network. | -- |
+| High | API keys are sent as plain text over an unencrypted channel. Attackers can easily intercept API key by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -606,7 +606,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The API operation accepts the  authorization tokens that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | -- |
+| High | The API operation accepts the authorization tokens that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -634,7 +634,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the API key. They can then use the API key to make other API calls. | -- |
+| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the API key. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -704,7 +704,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens. They can then use it to make other API calls. | -- |
+| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens. They can then use it to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
 
 **Resolution:**
 
@@ -728,7 +728,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Oauth password grant flow uses  the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens. They can then use it to make other API calls. | -- |
+| Medium | Oauth password grant flow uses  the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens. They can then use it to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the password grant flow. |
 
 **Resolution:**
 
@@ -753,7 +753,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | OAuth authentication refresh tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | -- |
+| Medium | OAuth authentication refresh tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the refresh URL is a valid URL and follows HTTPS protocol. |
 
 **Resolution:**
 
@@ -778,7 +778,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | OpenID Connect access tokens & open Ids are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | -- |
+| Medium | OpenID Connect access tokens & open Ids are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the openID connect URL is a valid URL and follows HTTPS protocol. |
 
 **Resolution:**
 
