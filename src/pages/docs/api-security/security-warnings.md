@@ -34,7 +34,6 @@ Also, for every security warning that Postman supports, you can inspect each war
 The following list describes possible warning messages and potential ways to resolve them.
 
 * [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
-
     * [Security field is not defined](#security-field-is-not-defined)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
@@ -277,11 +276,23 @@ components:
 **Resolution:**
 
 ```json
+openapi: 3.0.0
+info:
+  title: Example API
+  version: '1.0'
 paths:
-  /user:
-    get:
-      security:
-      - testAuth : []
+ /user:
+  get:
+   security:
+   - BasicAuth : []
+   responses:
+    default:
+     description: Example
+components:
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
 ```
 
 &nbsp;
@@ -295,11 +306,23 @@ paths:
 **Resolution:**
 
 ```json
+openapi: 3.0.0
+info:
+  title: Example API
+  version: '1.0'
 paths:
-  /user:
-    get:
-      security:
-      - testAuth : []
+ /user:
+  get:
+   security:
+   - BasicAuth : []
+   responses:
+    default:
+     description: Example
+components:
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
 ```
 
 &nbsp;
@@ -313,12 +336,23 @@ paths:
 **Resolution:**
 
 ```json
-  /user:
-    get:
-      tags:
-      response:
-      security:
-          - testAuth : []
+ openapi: 3.0.0
+info:
+  title: Example API
+  version: '1.0'
+paths:
+ /user:
+  get:
+   security:
+   - BasicAuth : []
+   responses:
+    default:
+     description: Example
+components:
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
 ```
 
 &nbsp;
@@ -392,17 +426,15 @@ security:
 
 ```json
 servers:
-  - url: https://my.api.example.com/
-    description: API server
-# ...
+- url: https://example.com/
+  description: Example server
 components:
-  securitySchemes:
-    apiAuth:
-      type: http
-      scheme: api
-# ...
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
 security:
-  - apiAuth: []
+- BasicAuth: []
 ```
 
 &nbsp;
@@ -442,19 +474,20 @@ security:
 **Resolution**:
 
 ```json
-servers:
-  - url: https://my.api.example.com/
-    description: API server
-# ...
 components:
-  securitySchemes:
-    OpenIdScheme:
-      type: openIdConnect
-# ...
-security:
-  - OAuth2:
-      - write
-      - read
+ securitySchemes:
+  OpenIdScheme:
+   type: openIdConnect
+   openIdConnectUrl: https://example.com/connect
+paths:
+ "/pets":
+  post:
+   operationId: addPet
+   servers:
+   - url: https://example.com/
+     description: API server
+   security:
+   - OpenIdScheme: []
 ```
 
 &nbsp;
@@ -546,16 +579,19 @@ paths:
 
 ```json
 components:
-  securitySchemes:
-    ApikeyAuth:
-      type: apiKey
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
 paths:
-  "/pets":
-    post:
-      operationId: addPet
-      servers:
-      - url: https://my.api.example.com/
-        description: API server
+ "/pets":
+  post:
+   operationId: addPet
+   servers:
+   - url: https://example.com/
+     description: Example server
+   security:
+   - BasicAuth: []
 ```
 
 &nbsp;
