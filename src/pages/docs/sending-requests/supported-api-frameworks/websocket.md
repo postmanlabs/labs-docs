@@ -52,7 +52,6 @@ For a Socket.IO connection, you can enter an event name to publish next to the *
 
 ![Socket.IO event name](https://via.placeholder.com/320x200.png?text=under+construction)
 
-
 You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, click **+ Arg**. A sidebar will open to the left of the editor pane where you can add arguments to a message. Hover over an existing argument and click **x** to delete it.
 
 ![Socket.IO arguments](https://via.placeholder.com/320x200.png?text=under+construction)
