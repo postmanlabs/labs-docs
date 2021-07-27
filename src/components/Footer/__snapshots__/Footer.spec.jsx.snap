@@ -34,6 +34,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/product/api-client"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   API Client
                 </a>
@@ -45,6 +47,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/automated-testing"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Automated Testing
                 </a>
@@ -56,6 +60,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/features/mock-api"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Design & Mock
                 </a>
@@ -67,6 +73,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/api-documentation-generator"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Documentation
                 </a>
@@ -78,6 +86,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/api-monitor"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Monitors
                 </a>
@@ -89,6 +99,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/product/api-versioning"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Version Control
                 </a>
@@ -100,6 +112,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/product/workspaces"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Workspaces
                 </a>
@@ -124,6 +138,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/downloads/"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Download the App
                 </a>
@@ -135,6 +151,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/downloads/release-notes"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Release Notes
                 </a>
@@ -146,6 +164,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/integrations/"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Integrations
                 </a>
@@ -157,6 +177,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Postman API
                 </a>
@@ -168,6 +190,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://github.com/postmanlabs"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Open-Source
                 </a>
@@ -179,6 +203,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://status.getpostman.com/"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   System Status
                 </a>
@@ -203,6 +229,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://getpostman.com/use-cases/"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Overview
                 </a>
@@ -214,6 +242,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://getpostman.com/use-cases/api-development"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Development
                 </a>
@@ -225,6 +255,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/use-cases/api-testing"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Testing
                 </a>
@@ -236,6 +268,8 @@ exports[`renders correctly 1`] = `
                   className="footer-column__link"
                   href="https://www.postman.com/use-cases/product-management"
                   onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Product Management
                 </a>

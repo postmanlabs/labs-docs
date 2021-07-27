@@ -77,6 +77,7 @@ module.exports = {
       options: {
         plugins: [
           'gatsby-remark-autolink-headers',
+          'gatsby-remark-check-links',
           'gatsby-remark-responsive-iframe',
           {
             resolve: 'gatsby-remark-prismjs',
