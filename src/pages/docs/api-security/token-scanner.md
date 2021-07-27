@@ -35,8 +35,10 @@ The Token Scanner will scan a variety of tokens by default. You can also add you
 
 By default, tokens issued by the following service providers are scanned:
 
+* Airtable API Key
 * Basic Auth
 * Bearer Token
+* GitHub Personal Access Token
 * Google API Key
 * Google OAuth Token
 * PGP Private Key
@@ -49,6 +51,8 @@ By default, tokens issued by the following service providers are scanned:
 * SSH (OpenSSH) Private Key
 * Stripe Restricted Key
 * Stripe Secret Key
+* Telegram Bot Token
+* Twilio API Key
 
 ### Custom alerts
 

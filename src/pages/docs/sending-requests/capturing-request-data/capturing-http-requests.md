@@ -31,7 +31,7 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites, or desktop applications - you might want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. Postman gives you tools to see and capture this network traffic.
+If you are using APIs to build client-side applications - mobile apps, websites, or desktop applications - you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. Postman gives you tools to see and capture this network traffic.
 
 When using the Postman app, you can capture the HTTP traffic in one of two ways:
 
