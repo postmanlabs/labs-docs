@@ -20,7 +20,7 @@ In Postman you can create a WebSocket request with a server, and use it to send 
 
 ### About Socket.IO
 
-Socket.IO is one of the most popular libraries that enables real-time, bidirectional, and event-based communication between web clients and servers, using WebSockets under the hood. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
+In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-drive, bidirectional, real-time  communication between clients and servers. It uses WebSockets as an underlying library. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
 
 ## Creating WebSocket requests
 
@@ -40,9 +40,22 @@ After making a WebSocket connection, you can use the editor pane to compose and 
 
 [![WebSocket message editor](https://assets.postman.com/postman-docs/websocket-message-editor.jpg)](https://assets.postman.com/postman-docs/websocket-message-editor.jpg)
 
-In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, or **Array Buffer**. The editor has syntax highlighting according to the selected format. You can also click **{}** to beautify the message.
+In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, **Array Buffer**, or **Binary**. The editor has syntax highlighting according to the selected format. You can also click **{}** to beautify the message.
 
 When you have finished composing your message, click **Send**. The sent message will remain in the window, in case you want to change it and re-send.
+
+### Adding Socket.IO event names and arguments
+
+Sending events with a Socket.IO connection includes the ability to add event names and arguments. This makes it easy to listen to only specific events.
+
+For a Socket.IO connection, you can enter an event name to publish next to the **Send** button. If you click **Send** without entering a name, the default name `message` will be used.
+
+![Socket.IO event name](https://via.placeholder.com/320x200.png?text=under+construction)
+
+
+You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, click **+ Arg**. A sidebar will open to the left of the editor pane where you can add arguments to a message. Hover over an existing argument and click **x** to delete it.
+
+![Socket.IO arguments](https://via.placeholder.com/320x200.png?text=under+construction)
 
 ## Viewing messages
 
@@ -76,6 +89,14 @@ In an expanded message:
 * When you hover over line numbers, caret controls (**v**) are displayed. Click them to expand or collapse blocks of the message.
 [![WebSocket message body](https://assets.postman.com/postman-docs/websocket-message-body.jpg)](https://assets.postman.com/postman-docs/websocket-message-body.jpg)
 
+### Event listening in Socket.IO
+
+In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the events for which you've added listeners. Events will be color-coded according to event, to make them easier to find.
+
+To the left of the **Messages** pane in a Socket.IO request is a panel of listener events. To listen to a new event, enter the name of an event and click **+** to add it. Click the toggle next to an event to disable and re-enable listening to that event. If you hover over the toggle, you can delete the event listener.
+
+![messages pane](https://via.placeholder.com/320x200.png?text=under+construction)
+
 ## Using variables in requests and messages
 
 You can use Postman variables in the URL of a WebSocket connection or the body of a message. For example, you could create a variable named `my_host`, set the value to `example.com` and then use a URL of `ws://{{my_host}}/api/example`. If you type `{{` in either the URL field or message editor, you can autocomplete your variables.
@@ -102,10 +123,16 @@ The following settings can be configured for your WebSocket request:
 
 | Setting | Description |
 |-----|-----|
+| Client version  | The Socket.IO client version to be used to connect with the server. (Socket.IO only)|
+| Handshake path | The server-side path that will be captured. (Socket.IO only)  |
 | Handshake request timeout | How long the handshake request will wait before timing out, in milliseconds. This is reset after every redirection. |
 | Reconnection attempts | The maximum number of reconnection attempts before disconnecting. |
 | Reconnection intervals | The period in milliseconds between subsequent reconnection attempts. |
 | Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. |
+
+### Other Socket.IO Notes
+
+Socket.IO normally uses WebSockets as its transport layer, but sometimes uses HTTP "long-polling" as a fallback when WebSockets can't be used. Postman does not support long-polling mode in Socket.IO.
 
 ## Troubleshooting WebSocket Requests
 
