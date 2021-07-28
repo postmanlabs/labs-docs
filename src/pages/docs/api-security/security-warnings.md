@@ -676,14 +676,14 @@ paths:
       servers:
       - url: https://example.com/
         description: Example server
-# ...  
+# ...
 components:
   securitySchemes:
     AuthKeyAuth:
       type: apiKey
       name: api-key
       in: header
-# ...   
+# ...
 security:
   - AuthKeyAuth: []
 ```
