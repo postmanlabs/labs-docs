@@ -11,8 +11,7 @@ contextual_links:
   - type: link
     name: "Introducing Security Warnings During API Validation"
     url: "https://blog.postman.com/security-warnings-during-api-validation/"
-search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan,
-api schema vulnerabilities"
+search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
 ---
 
 In Postman, we highly recommend you to follow Security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 3.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security misses and help you understand their implications and possible ways to patch the warnings.
@@ -195,7 +194,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The authentication scheme used in the global or operation security field is not defined in the reusable security schemes. | Scheme used in the security field should be defined in the security scheme object. |
+| Medium | The authentication scheme used in global or operation security field is not defined in the reusable security schemes. | Scheme used in the security field should be defined in the security scheme object. |
 
 **Resolution:**
 
@@ -642,7 +641,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The API operation accepts the authorization tokens that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+| High | The API operation accepts the authorization tokens that are transported as plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -670,7 +669,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the API key. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the API key to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -740,7 +739,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens. They can then use it to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
+| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
 
 **Resolution:**
 
@@ -764,7 +763,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Oauth password grant flow uses  the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens. They can then use it to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the password grant flow. |
+| Medium | Oauth password grant flow uses  the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the password grant flow. |
 
 **Resolution:**
 
@@ -828,5 +827,3 @@ components:
 security:
 - OpenIdScheme: []
 ```
-
-&nbsp;
