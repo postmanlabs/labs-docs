@@ -20,17 +20,17 @@ In Postman you can create a WebSocket request with a server, and use it to send 
 
 ### About Socket.IO
 
-In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-drive, bidirectional, real-time  communication between clients and servers. It uses WebSockets as an underlying library. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
+In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-drive, bidirectional, real-time communication between clients and servers. It uses WebSocket as its transport layer. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
 
 ## Creating WebSocket requests
 
-You can create a WebSocket request from the left sidebar in Postman.
+You can create a WebSocket request from the left sidebar in the Postman Desktop App.
 
 1. Click  __New__ &gt; __WebSocket Request__ to open a new tab. (You can also select ⌘+N or Ctrl+N.)
   [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket.jpg)](https://assets.postman.com/postman-docs/new-request-websocket.jpg)
 1. In the tab header, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.<br/>
-[![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url.jpg)](https://assets.postman.com/postman-docs/websocket-server-url.jpg)
+[![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
 1. Click **Connect**.
 1. To disconnect your WebSocket request's connection, click **Disconnect**.
 
@@ -40,7 +40,7 @@ After making a WebSocket connection, you can use the editor pane to compose and 
 
 [![WebSocket message editor](https://assets.postman.com/postman-docs/websocket-message-editor.jpg)](https://assets.postman.com/postman-docs/websocket-message-editor.jpg)
 
-In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, **Array Buffer**, or **Binary**. The editor has syntax highlighting according to the selected format. You can also click **{}** to beautify the message.
+In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, or **Binary**. If you select **Binary**, you can then select **Base64** or **Hexadecimal**. The editor has syntax highlighting according to the selected format. You can also click **{}** to beautify JSON, XML, or HTML messages.
 
 When you have finished composing your message, click **Send**. The sent message will remain in the window, in case you want to change it and re-send.
 
@@ -50,11 +50,13 @@ Sending events with a Socket.IO connection includes the ability to add event nam
 
 For a Socket.IO connection, you can enter an event name to publish next to the **Send** button. If you click **Send** without entering a name, the default name `message` will be used.
 
-![Socket.IO event name](https://via.placeholder.com/320x200.png?text=under+construction)
+There is also an **Acknowlegement** option; when selected, the server will acknowledge that it has received the message.
 
-You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, click **+ Arg**. A sidebar will open to the left of the editor pane where you can add arguments to a message. Hover over an existing argument and click **x** to delete it.
+<img src="https://assets.postman.com/postman-docs/socketio-event-name.jpg" alt="Socket.IO event name" width="500px">
 
-![Socket.IO arguments](https://via.placeholder.com/320x200.png?text=under+construction)
+You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, click **+ Arg**. A sidebar will open to the left of the editor pane adding an argument and a new editor pane for the argument's message. Hover over an existing argument and click **x** to delete it.
+
+<img src="https://assets.postman.com/postman-docs/socketio-second-arg.jpg" alt="Socket.IO arguments" width="400px">
 
 ## Viewing messages
 
@@ -76,7 +78,7 @@ The following are displayed for each message:
   [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Click **>** to expand a message, or **v** to collapse it.
 * The time is displayed, as your local time.
-* If you hover over the time, an information icon is displayed. Hover over it to see the time, MIME type, and size of the message.
+* If you hover over the time of a raw SocketIO message, an information icon is displayed. Hover over it to see the time, MIME type, and size of the message.
 * If you hover over the time, a copy icon is also shown. Click this to copy the message to your clipboard.
 
 In an expanded message:
@@ -92,9 +94,9 @@ In an expanded message:
 
 In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the events for which you've added listeners. Events will be color-coded according to event, to make them easier to find.
 
-To the left of the **Messages** pane in a Socket.IO request is a panel of listener events. To listen to a new event, enter the name of an event and click **+** to add it. Click the toggle next to an event to disable and re-enable listening to that event. If you hover over the toggle, you can delete the event listener.
+To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and click **+** to add it. Click the toggle next to an event to disable and re-enable listening to that event. If you hover over the toggle, you can delete the event listener.
 
-![messages pane](https://via.placeholder.com/320x200.png?text=under+construction)
+[![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/)
 
 ## Using variables in requests and messages
 
@@ -127,7 +129,7 @@ The following settings can be configured for your WebSocket request:
 | Handshake request timeout | How long the handshake request will wait before timing out, in milliseconds. This is reset after every redirection. |
 | Reconnection attempts | The maximum number of reconnection attempts before disconnecting. |
 | Reconnection intervals | The period in milliseconds between subsequent reconnection attempts. |
-| Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. |
+| Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. (Raw WebSocket only)|
 
 ### Other Socket.IO Notes
 
