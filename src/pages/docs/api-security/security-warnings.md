@@ -55,7 +55,7 @@ The following list describes possible warning messages and potential ways to res
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
     * [API accepts credentials from OAuth 1.0 authentication in plain text](#api-accepts-credentials-from-oauth-10-authentication-in-plain-text)
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
-* [Server configuration of the operation allows insecure enforcement of security schemes](#server-configuration-of-the-operation-allows-insecure-enforcement-of-security-schemes)
+* [Operation server configuration allows insecure enforcement of security schemes](#operation-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
     * [Server URL of the operation is using HTTP protocol](#server-url-of-the-operation-is-using-http-protocol)
@@ -183,9 +183,9 @@ components:
 ```json
 components:
   securitySchemes:
-    basicAuth:
-      type: basic
-      scheme: http
+    BasicAuth:
+      type: http
+      scheme: basic
 ```
 
 &nbsp;
@@ -194,23 +194,19 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The authentication scheme used in global or operation security field is not defined in the reusable security schemes. | Scheme used in the security field should be defined in the security scheme object. |
+| Medium | The authentication scheme used in global or operation security field is not defined in the security scheme object. | Scheme used in the security field should be defined in the security scheme object. |
 
 **Resolution:**
 
 ```json
 components:
   securitySchemes:
-    basicAuth:
-      type: basic
-      scheme: http
+    BasicAuth:
+      type: http
+      scheme: basic
 #...
-paths:
-  /users:
-    get:
-      #...
-      security:
-        basicAuth: []
+security:
+- BasicAuth: []
 ```
 
 &nbsp;
@@ -258,8 +254,8 @@ components:
           authorizationUrl: https://my.auth.example.com/
           tokenUrl: https://my.token.example.com/
           scopes:
-            write: pets: modify data
-            read: pets: read data
+            write: modify data
+            read: read data
 ```
 
 &nbsp;
@@ -534,7 +530,7 @@ components:
     AuthKeyAuth:
       type: apiKey
       name: api-key
-      in: cookie/header/query
+      in: header
 #...
 security:
   - AuthKeyAuth: []
@@ -680,15 +676,16 @@ paths:
       servers:
       - url: https://example.com/
         description: Example server
-#...
+# ...  
 components:
   securitySchemes:
-    OAuth1:
-      type: http
-      scheme: oauth
-#...
+    AuthKeyAuth:
+      type: apiKey
+      name: api-key
+      in: header
+# ...   
 security:
-  - OAuth1: []
+  - AuthKeyAuth: []
 ```
 
 &nbsp;
@@ -753,8 +750,8 @@ components:
           authorizationUrl: https://my.auth.example.com/
           tokenUrl: https://my.token.example.com/
           scopes:
-            write: pets: modify data
-            read: pets: read data
+            write: modify data
+            read: read data
 ```
 
 &nbsp;
@@ -777,8 +774,8 @@ components:
           authorizationUrl: https://my.auth.example.com/
           tokenUrl: https://my.token.example.com/
           scopes:
-            write: pets: modify data
-            read: pets: read data
+            write: modify data
+            read: read data
 
 ```
 
@@ -798,13 +795,13 @@ components:
     OauthFlow:
       type: oauth2
       flows:
-        authorizationCode/clientCredentials/password/implicit:
+        authorizationCode
           authorizationUrl: https://my.auth.example.com/
           tokenUrl: https://my.token.example.com/
           refreshUrl: https://my.refresh.example.com/
           scopes:
-            write: pets: modify data
-            read: pets: read data
+            write: modify data
+            read: read data
 ```
 
 &nbsp;
