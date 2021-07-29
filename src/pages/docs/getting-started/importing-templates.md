@@ -22,7 +22,7 @@ warning: false
 
 Templates help you to learn about APIs inside Postman. You can import templates into Postman to try out various request types and configurations. In addition to the templates, the Postman API Network includes collections you can use to make requests to popular third party APIs.
 
-To access templates, visit [explore.postman.com](https://explore.postman.com) or click **Explore** at the top left of Postman.
+To access templates, visit [explore.postman.com](https://www.postman.com/explore) or click **Explore** at the top left of Postman.
 
 [![Templates in Postman](https://assets.postman.com/postman-docs/template-listings-v8.jpg)](https://assets.postman.com/postman-docs/template-listings-v8.jpg)
 

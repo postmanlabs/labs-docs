@@ -97,7 +97,7 @@ Enter your search string and change the scope of search to narrow down your sear
 
 <img alt="Changing scope for universal search" src="https://assets.postman.com/postman-docs/change-scope-for-universal-search-v8.gif"/>
 
-> For signed in users, the default search scope on workspaces is Team and on [explore](https://explore.postman.com) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
+> For signed in users, the default search scope on workspaces is Team and on [explore](https://www.postman.com/explore) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
 
 You can additionally change the entity type at the bottom by selecting the required option near **Search for** — Workspaces, Collections, APIs or Teams.
 
