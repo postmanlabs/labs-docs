@@ -113,7 +113,7 @@ Postman's native app requires Chrome's [Native Messaging](https://developer.chro
 
 Your installation may include the following options:
 
-  1. **[MacOS only] Install NodeJS**: If Postman detects that you don't have the NodeJS binary available, you'll be prompted to install it. Postman will then download the [latest stable version of Node](https://nodejs.org/).
+  1. **[MacOS only] Install NodeJS**: If Postman detects that you don't have the NodeJS binary available, you'll be prompted to install it. Postman will then download the [latest stable version of Node](https://nodejs.org/en/).
   2. **[Windows only] Add a registry key**: A `com.postman.postmanapp` key is added to `HKCU\Software\Google\Chrome\NativeMessagingHosts\`. The key points to the location of a JSON file (the manifest).
   3. **Add a manifest file**: This is a JSON file (whose structure is defined by [Native Messaging](https://developer.chrome.com/docs/apps/nativeMessaging/)) that gives Chrome the absolute path of the executable that the Interceptor extension can talk to. This file will be installed in a location dependent on your operating system:
     * **MacOS**:  `/Users/<username>/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.postman.postmanapp.json`
