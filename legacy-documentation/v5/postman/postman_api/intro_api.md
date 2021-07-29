@@ -5,11 +5,11 @@ warning: false
 
 ---
 
-The [Postman API](https://docs.api.getpostman.com/) has several endpoints to help you integrate Postman  with your development toolchain.
+The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) has several endpoints to help you integrate Postman  with your development toolchain.
 
 You can add new collections, update existing collections, update environments, or add and run monitors directly through the API. This API enables you to programmatically access your data stored in your Postman account with ease.
 
-The easiest way to start with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://docs.api.getpostman.com/) and use the Postman app to send requests.
+The easiest way to start with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) and use the Postman app to send requests.
 
 ### Postman API overview
 
@@ -21,7 +21,7 @@ You need to know three important points about the Postman API:
 
 3.  Using the API, you can add and update collections, environments, and users. You can also run monitors, create a mock server, and so much more.
 
-For more information, see the [Postman API documentation](https://docs.api.getpostman.com/).
+For more information, see the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 
 
 ### Authentication
