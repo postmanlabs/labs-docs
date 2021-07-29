@@ -86,7 +86,7 @@ Postman currently supports the following options:
 | NodeJS | [Native](https://nodejs.org/api/http.html) |
 | NodeJS | [Request](https://github.com/request/request) |
 | NodeJS | [Unirest](https://github.com/Kong/unirest-nodejs) |
-| Objective-C | [NSURLSession](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSURLSession_class/) |
+| Objective-C | [NSURLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 | OCaml | [Cohttp](https://github.com/mirage/ocaml-cohttp) |
 | PHP | [cURL](https://www.php.net/manual/en/ref.curl.php) |
 | PHP | [Http_Request2](https://www.php.net/manual/en/reserved.variables.request.php)|
