@@ -60,9 +60,9 @@ You can edit any of the request details in your copy of a collection and __Save_
 
 Check out some useful templates for getting started learning about APIs, requests, and Postman:
 
-* [Learn by API](https://explore.postman.com/templates/7499/learn-by-api)
-* [API Learner](https://explore.postman.com/templates/7006/api-learner)
-* [Public REST APIs](https://explore.postman.com/templates/7912/public-rest-apis)
+* [Learn by API](https://www.postman.com/apilearningresources/workspace/api-learning-resources/collection/1841124-59f1a202-b933-4276-b99a-88acdefba9f0?ctx=documentation)
+* [API Learner](https://www.postman.com/apilearningresources/workspace/api-learning-resources/collection/1841124-369362dc-c11e-44f1-a7a9-ffe591cc2156?ctx=documentation)
+* [Public REST APIs](https://www.postman.com/cs-demo/workspace/public-rest-apis/collection/8854915-454a2dc7-dcbe-41cf-9bfa-da544fcd93a2?ctx=documentation)
 * [Intro to writing tests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-13bd44c4-94ec-420a-8390-8ff44b60f14d?ctx=documentation)
 * [How to use the Postman console](hhttps://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-9349429e-3744-467b-a127-e3881f0dffc8?ctx=documentation)
 * [Postman Echo](https://docs.postman-echo.com/)
