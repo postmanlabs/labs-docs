@@ -168,7 +168,7 @@ The native app is built on [Electron](https://www.electronjs.org/), and [overco
 
 ### Migrating to the native app
 
-To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://app.getpostman.com/). Start the native app, and your history and collections will be automatically synced.
+To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://postman.postman.co/workspaces). Start the native app, and your history and collections will be automatically synced.
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app at __Settings__ &gt; __Data__.
 
