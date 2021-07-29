@@ -93,7 +93,7 @@ Postman currently supports the following options:
 | PHP | [pecl_http](https://mdref.m6w6.name/http) |
 | PowerShell | [RestMethod](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7) |
 | Python | [http.client](https://docs.python.org/3/library/http.client.html) (Python 3) |
-| Python | [Requests](https://requests.readthedocs.io/en/master/)|
+| Python | [Requests](https://docs.python-requests.org/en/master/)|
 | Ruby | [NET::Http](https://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html) |
 | Shell | [Httpie](https://github.com/httpie/httpie) |
 | Shell | [wget](https://www.gnu.org/software/wget/) |
