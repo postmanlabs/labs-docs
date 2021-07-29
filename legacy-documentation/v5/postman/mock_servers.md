@@ -75,4 +75,4 @@ In the previous example, we used a saved response to mock our collection. You ca
 
 ### Free mock server calls with your Postman account
 
-Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
+Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) or the [account usage page](https://go.pstmn.io/postman-account-limits).
