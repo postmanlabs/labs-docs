@@ -36,7 +36,7 @@ You can also use the DevTools window to inspect the request and response payload
 ![](https://www.postman.com/img/v1/docs/errors_network.png)
 
 [0]: https://github.com/postmanlabs/postman-app-support/issues
-[1]: https://support.getpostman.com/hc
+[1]: https://support.postman.com/hc/en-us
 
 #### For the Native app
 
