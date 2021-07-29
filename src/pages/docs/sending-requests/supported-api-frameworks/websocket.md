@@ -24,7 +24,7 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 
 ## Creating WebSocket requests
 
-You can create a WebSocket request from the left sidebar in the Postman Desktop App.
+You can create a WebSocket request from the left sidebar in Postman.
 
 1. Click  __New__ &gt; __WebSocket Request__ to open a new tab. (You can also select ⌘+N or Ctrl+N.)
   [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket.jpg)](https://assets.postman.com/postman-docs/new-request-websocket.jpg)
@@ -33,6 +33,8 @@ You can create a WebSocket request from the left sidebar in the Postman Desktop 
 [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
 1. Click **Connect**.
 1. To disconnect your WebSocket request's connection, click **Disconnect**.
+
+> If you are using Postman for Web, you must use the Postman Desktop Agent. See [Using Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web/) for more information.
 
 ## Sending messages
 
