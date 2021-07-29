@@ -74,7 +74,7 @@ In the event you receive a `503` response from our servers, it implies that we h
 
 ### API Reference
 
-A full reference of the API is available at [https://api.getpostman.com][7].
+A full reference of the API is available at [https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a][7].
 
 ### Terms of Use
 
