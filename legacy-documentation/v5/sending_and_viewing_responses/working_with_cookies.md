@@ -20,7 +20,7 @@ This will open up the Cookie Manager window. This presents you with a list of do
 
 ### Create a cookie
 
-To add a new cookie, click on the 'Add Cookie' button for the domain. A pre-generated cookie string (according to https://tools.ietf.org/html/rfc6265#section-4.1) will be created, but you can edit it using the text input that appears below it.
+To add a new cookie, click on the 'Add Cookie' button for the domain. A pre-generated cookie string (according to https://datatracker.ietf.org/doc/html/rfc6265#section-4.1) will be created, but you can edit it using the text input that appears below it.
 
 ![](https://cloud.githubusercontent.com/assets/7689783/17617656/eaa55200-6098-11e6-9f4f-7e3f82a53d28.png)
 
