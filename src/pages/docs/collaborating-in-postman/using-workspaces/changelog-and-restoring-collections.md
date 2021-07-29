@@ -82,11 +82,11 @@ To filter by entity, click **Entity** at the top of the activity feed and select
 
 ## Viewing team activity
 
-You can review the activity for a team with a Postman Team, Business, or Enterprise account. In [Postman](https://app.getpostman.com), use the __Workspaces__ dropdown to select your team, then navigate to the __Activity__ feed to view the events.
+You can review the activity for a team with a Postman Team, Business, or Enterprise account. In [Postman](https://postman.postman.co/workspaces), use the __Workspaces__ dropdown to select your team, then navigate to the __Activity__ feed to view the events.
 
 ## Viewing user activity
 
-You can review the activity for your own account in [Postman](https://app.getpostman.com). Click your avatar in the top right, and select __Profile__ — the __Activity__ tab will list your events.
+You can review the activity for your own account in [Postman](https://postman.postman.co/workspaces). Click your avatar in the top right, and select __Profile__ — the __Activity__ tab will list your events.
 
 ## Restoring collections and folders
 
