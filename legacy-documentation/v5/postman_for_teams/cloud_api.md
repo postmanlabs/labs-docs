@@ -88,5 +88,5 @@ For information on API terms of use and privacy, refer to our [policy document][
 [4]: https://support.getpostman.com/hc
 [5]: http://postmancommunity.slack.com/
 [6]: https://www.postman.com/slack-invite
-[7]: https://api.getpostman.com/
+[7]: https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a
 [8]: https://www.postman.com/licenses/privacy
