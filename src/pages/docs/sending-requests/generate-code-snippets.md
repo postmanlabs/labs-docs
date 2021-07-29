@@ -75,7 +75,7 @@ Postman currently supports the following options:
 | C# | [RestSharp](http://restsharp.org/) |
 | cURL |[cURL](https://curl.se/) |
 | Dart | [Dart](https://dart.dev/) |
-| Go   | [http package](https://golang.org/pkg/net/http/) |
+| Go   | [http package](https://pkg.go.dev/net/http) |
 | HTTP | (Raw HTTP request) |
 | Java | [OkHttp](https://github.com/square/okhttp) |
 | Java | [Unirest](https://github.com/Kong/unirest-java) |

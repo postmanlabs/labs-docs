@@ -25,7 +25,7 @@ Postman currently supports the following options:
 | C | [LibCurl](https://curl.se/libcurl/c/) |
 | cURL | None (Raw [cURL](https://curl.haxx.se/) command) |
 | C# | [RestSharp](http://restsharp.org/) |
-| Go | Built-in [http package](https://golang.org/pkg/net/http/) |
+| Go | Built-in [http package](https://pkg.go.dev/net/http) |
 | Java | [OkHttp](https://github.com/square/okhttp) |
 | Java | [Unirest](http://unirest.io/java.html) |
 | JavaScript | [jQuery AJAX](https://api.jquery.com/jquery.ajax/) |

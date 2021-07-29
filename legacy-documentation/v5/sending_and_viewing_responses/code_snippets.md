@@ -53,7 +53,7 @@ For now, Postman supports the following options:
 [0]: https://curl.se/libcurl/c/
 [1]: https://curl.se/
 [2]: http://restsharp.org/
-[3]: https://golang.org/pkg/net/http/
+[3]: https://pkg.go.dev/net/http
 [4]: https://github.com/square/okhttp
 [5]: http://unirest.io/java.html
 [6]: https://api.jquery.com/jquery.ajax/
