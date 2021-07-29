@@ -64,5 +64,5 @@ Check out some useful templates for getting started learning about APIs, request
 * [API Learner](https://explore.postman.com/templates/7006/api-learner)
 * [Public REST APIs](https://explore.postman.com/templates/7912/public-rest-apis)
 * [Intro to writing tests](https://explore.postman.com/templates/198/intro-to-writing-tests---with-examples)
-* [How to use the Postman console](https://explore.postman.com/templates/4573/how-to-use-the-postman-console)
+* [How to use the Postman console](hhttps://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-9349429e-3744-467b-a127-e3881f0dffc8?ctx=documentation)
 * [Postman Echo](https://docs.postman-echo.com/)
