@@ -56,7 +56,7 @@ There is also an **Acknowlegement** option; when selected, the server will ackno
 
 <img src="https://assets.postman.com/postman-docs/socketio-event-name.jpg" alt="Socket.IO event name" width="500px">
 
-You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, click **+ Arg**. A sidebar will open to the left of the editor pane adding an argument and a new editor pane for the argument's message. Hover over an existing argument and click **x** to delete it.
+You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, click **+ Arg**. A sidebar will open to the left of the editor pane adding an argument and a new editor pane for the argument's message. Hover over an existing argument and click **x** to delete it. A similar UI will be used when viewing messages to show each argument's message.
 
 <img src="https://assets.postman.com/postman-docs/socketio-second-arg.jpg" alt="Socket.IO arguments" width="400px">
 
@@ -98,7 +98,11 @@ In Socket.IO, you have the ability to listen to specific events. The **Messages*
 
 To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and click **+** to add it. Click the toggle next to an event to disable and re-enable listening to that event. If you hover over the toggle, you can delete the event listener.
 
-[![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/)
+[![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
+
+Messages will indicate if they have multiple arguments. When you expand the message, it will have tabs to see each argument.
+
+[![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)
 
 ## Using variables in requests and messages
 
