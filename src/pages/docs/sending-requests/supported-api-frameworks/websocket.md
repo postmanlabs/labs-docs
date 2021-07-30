@@ -28,7 +28,7 @@ You can create a WebSocket request from the left sidebar in Postman.
 
 1. Click  __New__ &gt; __WebSocket Request__ to open a new tab. (You can also select ⌘+N or Ctrl+N.)
   [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket.jpg)](https://assets.postman.com/postman-docs/new-request-websocket.jpg)
-1. In the tab header, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
+1. In the upper left of the tab, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.<br/>
 [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
 1. Click **Connect**.
@@ -80,7 +80,7 @@ The following are displayed for each message:
   [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Click **>** to expand a message, or **v** to collapse it.
 * The time is displayed, as your local time.
-* If you hover over the time of a raw SocketIO message, an information icon is displayed. Hover over it to see the time, MIME type, and size of the message.
+* If you hover over the time of a raw Socket.IO message, an information icon is displayed. Hover over it to see the time, MIME type, and size of the message.
 * If you hover over the time, a copy icon is also shown. Click this to copy the message to your clipboard.
 
 In an expanded message:
@@ -94,7 +94,7 @@ In an expanded message:
 
 ### Event listening in Socket.IO
 
-In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the events for which you've added listeners. Events will be color-coded according to event, to make them easier to find.
+In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the events for which you've added listeners. Events will be color-coded by event, to make them easier to find.
 
 To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and click **+** to add it. Click the toggle next to an event to disable and re-enable listening to that event. If you hover over the toggle, you can delete the event listener.
 
