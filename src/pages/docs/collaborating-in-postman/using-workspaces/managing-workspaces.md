@@ -90,7 +90,7 @@ To share an environment, open it via __Environments__ on the left-hand side, cli
 
 <img alt="Share environment" src="https://assets.postman.com/postman-docs/share-env-manage-v8.jpg" width="600px"/>
 
-Select the workspace you want to share to, and choose whether you also want to remove the element from its current workspace. Click __Share__.
+Select the workspace you want to share to, and choose if you also want to remove the element from its current workspace. Click __Share__.
 
 <img alt="Share environment to workspace" src="https://assets.postman.com/postman-docs/share-environment-to-selected-workspace-v8.jpg" width="600px"/>
 
