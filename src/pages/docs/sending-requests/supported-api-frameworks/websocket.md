@@ -34,7 +34,7 @@ You can create a WebSocket request from the left sidebar in Postman.
 1. Click **Connect**.
 1. To disconnect your WebSocket request's connection, click **Disconnect**.
 
-> If you are using Postman for Web, you must use the Postman Desktop Agent. See [Using Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web/) for more information.
+> If you are using Postman for Web, you must use the Postman Desktop Agent. See [Using Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) for more information.
 
 ## Sending messages
 
