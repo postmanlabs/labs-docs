@@ -96,7 +96,7 @@ Select the workspace you want to share to, and choose if you also want to remove
 
 ## Removing elements from a workspace
 
-When you remove an element from a workspace, it is no longer visible in that particular workspace. The element is still available in anify other workspace where it has been added.
+When you remove an element from a workspace, it is no longer visible in that particular workspace. The element is still available in any other workspace where it has been added.
 
 > If you remove a collection from a workspace and are unable to locate it, you can recover it navigating to your [team collections](https://go.postman.co/team/elements?type=collection), or, if the collection was never shared, by navigating to your [personal collections](https://go.postman.co/me/collections). From there, you'll be able to re-share the item to the correct workspace.
 
