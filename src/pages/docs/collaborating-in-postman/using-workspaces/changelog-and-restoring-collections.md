@@ -86,7 +86,7 @@ You can review the activity for a team with a Postman Team, Business, or Enterpr
 
 ## Viewing user activity
 
-You can review the activity for your own account in [Postman](https://postman.postman.co/workspaces). Click your avatar in the top right, and select __Profile__ — the __Activity__ tab will list your events.
+You can review the activity for your own account in [Postman](https://go.postman.co/). Click your avatar in the top right, and select __Profile__ — the __Activity__ tab will list your events.
 
 ## Restoring collections and folders
 
