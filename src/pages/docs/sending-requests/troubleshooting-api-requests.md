@@ -43,6 +43,7 @@ Select __View in Console__ to see the request detail in the Console and find out
 * [Debugging and logs](#debugging-and-logs)
     * [Using the console](#using-the-console)
     * [Accessing console logs](#accessing-console-logs)
+    * [Using the monitor console log](#using-the-monitor-console-log)
 * [Getting help](#getting-help)
 
 ## Common issues
@@ -74,7 +75,7 @@ Select __View in Console__ to see the request detail in the Console and find out
 
 The Postman console helps debug your requests when an API isn't behaving as you expect. If you think the issue may be with Postman itself, the DevTools console provides internal debugging information you can also check out.
 
-## Using the console
+### Using the console
 
 Every request sent by Postman is logged in the console, so you can view the detail of what happened when you sent a request.
 
@@ -107,6 +108,10 @@ Keeping the console open will increase the visibility of your network calls and 
 The DevTools console provides additional internal debugging entries for the Postman app.
 
 To access the DevTools console logs, open the __View__ menu and select __Show DevTools__. In the DevTools window, click __Console__ to see the app debug logs.
+
+### Using the monitor console log
+
+You can also view logs in the **Console Log** tab on a monitor run. This will display monitor run details, along with the `console.log` from pre-request and test scripts. See [Viewing monitor results - console log](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/#console-log) for more information.
 
 ## Getting help
 
