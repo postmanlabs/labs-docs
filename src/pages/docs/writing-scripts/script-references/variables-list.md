@@ -43,7 +43,7 @@ The following is a list of dynamic variables whose values are randomly generated
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
 | **`$randomAlphaNumeric`** | A random alpha-numeric character              | `6`, `"y"`, `"z"`                          |
 | **`$randomBoolean`**      | A random boolean value (true/false)           | `true`, `false`, `false`, `true`           |
-| **`$randomInt`**          | A random integer between 1 and 1000           | `802`, `494`, `200`                        |
+| **`$randomInt`**          | A random integer between 0 and 1000           | `802`, `494`, `200`                        |
 | **`$randomColor`**        | A random color                                | `"red"`, `"fuchsia"`, `"grey"`             |
 | **`$randomHexColor`**     | A random hex value                            | `"#47594a"`, `"#431e48"`, `"#106f21"`      |
 | **`$randomAbbreviation`** | A random abbreviation                         | `SQL`, `PCI`, `JSON`                       |
@@ -228,7 +228,7 @@ The following is a list of dynamic variables whose values are randomly generated
 
 | **Variable Name**             | **Description**                           | **Examples**                                   |
 |:------------------------------|:-----------------------------------------|:-----------------------------------------------|
-| **`$randomPrice`**            | A random price between 100.00 and 999.00 | `531.55`, `488.76`, `511.56`                   |
+| **`$randomPrice`**            | A random price between 0.00 and 1000.00  | `531.55`, `488.76`, `511.56`                   |
 | **`$randomProduct`**          | A random product                         | `Towels`, `Pizza`, `Pants`                     |
 | **`$randomProductAdjective`** | A random product adjective               | `Unbranded`, `Incredible`, `Tasty`             |
 | **`$randomProductMaterial`**  | A random product material                | `Steel`, `Plastic`, `Frozen`                   |
