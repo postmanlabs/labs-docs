@@ -17,7 +17,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-v7-2-supports-graphql/"
   - type: link
     name: "Working with GraphQL template"
-    url: "https://explore.postman.com/templates/1692/working-with-graphql"
+    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation"
   - type: subtitle
     name: "Video"
   - type: link
@@ -42,7 +42,7 @@ Learn how Postman supports working with GraphQL.
 * Creating APIs in Postman with GraphQL schema type
 * Query autocompletion integrated with user defined GraphQL schemas
 
-Try it out in Postman with this [example template](https://explore.postman.com/templates/1692/working-with-graphql).
+Try it out in Postman with this [example template](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation).
 
 [![graphql template](https://i.imgur.com/Ic70c1G.png)](https://i.imgur.com/Ic70c1G.png)
 

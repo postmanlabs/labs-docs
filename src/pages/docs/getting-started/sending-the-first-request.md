@@ -55,6 +55,6 @@ Click **Send**. You will see the JSON data response from the server in the lower
 
 ## Next steps
 
-You can use the [Postman Echo API](https://docs.postman-echo.com/) to try out test requests.
+You can use the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) to try out test requests.
 
 Next learn more about [sending requests in Postman](/docs/sending-requests/requests/).
