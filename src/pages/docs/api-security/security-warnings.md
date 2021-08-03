@@ -50,18 +50,18 @@ The following list describes possible warning messages and potential ways to res
     * [Scope for OAuth scheme used is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securityscheme-declaration)
 * [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
-    * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
-    * [Global server URL uses HTTP protocol](#global-server-url-uses-http-protocol)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
     * [API accepts credentials from OAuth 1.0 authentication in plain text](#api-accepts-credentials-from-oauth-10-authentication-in-plain-text)
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
+    * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
+    * [Global server URL uses HTTP protocol](#global-server-url-uses-http-protocol)
 * [Operation server configuration allows insecure enforcement of security schemes](#operation-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
-    * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
-    * [Server URL of the operation is using HTTP protocol](#server-url-of-the-operation-is-using-http-protocol)
     * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-as-plain-text)
     * [Operation accepts credentials from OAuth 1.0 authentication in plain text](#operation-accepts-credentials-from-oauth-10-authentication-in-plain-text)
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
+    * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
+    * [Server URL of the operation is using HTTP protocol](#server-url-of-the-operation-is-using-http-protocol)
 * [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
     * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
@@ -411,55 +411,6 @@ security:
 
 &nbsp;
 
-### API accepts auth credentials in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
-
-**Resolution:**
-
-```json
-servers:
-- url: https://example.com/
-  description: Example server
-components:
- securitySchemes:
-  BasicAuth:
-   type: http
-   scheme: basic
-security:
-- BasicAuth: []
-```
-
-&nbsp;
-
-### Global server URL uses HTTP protocol
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
-
-**Resolution:**
-
-```json
-servers:
-  - url: https://my.api.example.com/
-    description: API server
-# ...
-components:
-  securitySchemes:
-    OAuth2:
-      type: oauth2
-# ...
-security:
-  - OAuth2:
-      - write
-      - read
-```
-
-&nbsp;
-
 ### API accepts credentials from OpenID Connect authentication in plain text
 
 | Severity | Issue description | Possible fix |
@@ -538,6 +489,55 @@ security:
 
 &nbsp;
 
+### API accepts auth credentials in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+
+**Resolution:**
+
+```json
+servers:
+- url: https://example.com/
+  description: Example server
+components:
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
+security:
+- BasicAuth: []
+```
+
+&nbsp;
+
+### Global server URL uses HTTP protocol
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+
+**Resolution:**
+
+```json
+servers:
+  - url: https://my.api.example.com/
+    description: API server
+# ...
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+# ...
+security:
+  - OAuth2:
+      - write
+      - read
+```
+
+&nbsp;
+
 ## Operation server configuration allows insecure enforcement of security schemes
 
 ### Operation accepts credentials from OAuth authentication in plain text
@@ -560,50 +560,6 @@ paths:
       servers:
       - url: https://my.api.example.com/
         description: API server
-```
-
-&nbsp;
-
-### Operation accepts authentication credentials in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
-
-**Resolution:**
-
-```json
-components:
- securitySchemes:
-  BasicAuth:
-   type: http
-   scheme: basic
-paths:
- "/pets":
-  post:
-   operationId: addPet
-   servers:
-   - url: https://example.com/
-     description: Example server
-   security:
-   - BasicAuth: []
-```
-
-&nbsp;
-
-### Server URL of the operation is using HTTP protocol
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
-
-**Resolution:**
-
-```json
-get:
-  operationId: getPetsById
-  servers:
-    - url: https://my.api.example.com/
 ```
 
 &nbsp;
@@ -686,6 +642,50 @@ components:
 # ...
 security:
   - AuthKeyAuth: []
+```
+
+&nbsp;
+
+### Operation accepts authentication credentials in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+
+**Resolution:**
+
+```json
+components:
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
+paths:
+ "/pets":
+  post:
+   operationId: addPet
+   servers:
+   - url: https://example.com/
+     description: Example server
+   security:
+   - BasicAuth: []
+```
+
+&nbsp;
+
+### Server URL of the operation is using HTTP protocol
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+
+**Resolution:**
+
+```json
+get:
+  operationId: getPetsById
+  servers:
+    - url: https://my.api.example.com/
 ```
 
 &nbsp;
