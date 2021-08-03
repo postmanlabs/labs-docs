@@ -53,6 +53,7 @@ Some salient points about `postman.setNextRequest()`:
 * It can be used in the pre-request or the test script. If there's more than one assignment, the last set value takes precedence.
 * If `postman.setNextRequest()` is absent in a request, the collection runner defaults to linear execution and moves to the next request.
 * Note that the ID shown in the **Request details** pane of the Postman UI is the user ID, then the request ID. Omit the first eight digits and dash to use this for the request ID in `postman.setNextRequest()`.
+
   <img src="https://assets.postman.com/postman-docs/setnextrequest-request-id.jpg" alt="request ID" width="350px">
 
 Remember these two facts as you use this workflow:
