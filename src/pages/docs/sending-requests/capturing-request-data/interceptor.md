@@ -97,13 +97,13 @@ You can learn more about managing cookies in Postman in [Cookies](/docs/sending-
 
 ### Capturing requests
 
-You can capture requests by navigating to **Requests**, setting **Source** to **Interceptor**, and turning **Capture Requests** to **ON**.
+You can capture requests by navigating to **Requests**, setting **Source** to **Interceptor**, and selecting **Capture Requests**.
 
-You can choose where captured requests come in by updating selecting the **Save Requests to** drop-down. You'll immediately start to see requests from your browser streaming into Postman.
+By default, requests will be saved in the **History** tab. You can also save requests to a collection by selecting a collection from the **Save Requests to** drop-down list.
 
-Once the **Interceptor connected** status is green, you can add URL or HTTP method filters by clicking **Show additional filters**.
+Once the **Connected** status is green, you can add URL or HTTP method filters by selecting **Show additional filters**.
 
-[![capturing requests](https://assets.postman.com/postman-docs/interceptor-ex2.jpg)](https://assets.postman.com/postman-docs/interceptor-ex2.jpg)
+<img src="https://assets.postman.com/postman-docs/interceptor-ex2-v89.jpg" alt="capturing requests" width="350px" />
 
 ## How it works
 
