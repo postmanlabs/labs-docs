@@ -46,7 +46,7 @@ Select **Add Integration** to authorize a periodic backup of your collection to 
 
 To back up a collection periodically to a GitHub repository:
 
-* Enter your [API key from APIMatic](https://docs.apimatic.io/getting-started/manage-apis/#view-api-integration-keys).
+* Enter your [API key from APIMatic](https://docs.apimatic.io/manage-apis/create-or-import-api#view-api-integration-keys).
 * Select a collection.
 * Select a repository.
 * Specify a directory in the repository where you want to add the collection.

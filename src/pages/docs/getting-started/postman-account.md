@@ -178,7 +178,7 @@ Enter your account email, check the __I'm not a robot__ box, and click __Submit_
 
 Postman will send you an email with instructions for recovering access to your account.
 
-> If you still have trouble logging into your Postman account please [contact support](https://support.getpostman.com/).
+> If you still have trouble logging into your Postman account please [contact support](https://support.postman.com/hc/en-us).
 
 ## Next steps
 
