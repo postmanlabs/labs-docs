@@ -95,7 +95,7 @@ In Postman, select **History**, hover over your request, click **...** > **Monit
 
 ### Creating a monitor with the Postman API
 
-You can create a monitor with a POST request to the Postman API. Visit the [API docs](https://docs.api.getpostman.com/) > **Monitors** > **Create Monitor** to learn how to do so.
+You can create a monitor with a POST request to the Postman API. Visit the [API docs](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) > **Monitors** > **Create Monitor** to learn how to do so.
 
 ### The basics when creating a monitor
 

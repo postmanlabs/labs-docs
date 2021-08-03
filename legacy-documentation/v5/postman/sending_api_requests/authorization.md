@@ -221,7 +221,7 @@ Read more about the AWS Signature on AWS documentation:
 
 * <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/RESTAuthentication.html" target="_blank">Signing and Authenticating REST Requests</a>
 
-* <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html" target="_blank">Use Postman to Call an API</a>
+* <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-call-api.html" target="_blank">Use Postman to Call an API</a>
 
 To use AWS authentication:
 1. In the **Authorization** tab, select "AWS Signature" from the **TYPE** drop down menu. 
@@ -256,11 +256,3 @@ This table describes the advanced parameters for NTLM Authentication. Advanced c
 | Workstation| The hostname of the PC.|
 
 [![ntlm_auth](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)
-
-
-
-
-
-
-
-
