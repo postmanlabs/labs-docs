@@ -163,10 +163,10 @@ To manage team roles, see [Managing roles](/docs/administration/managing-your-te
 ## Roles FAQ
 
 * **Our only team member with billing/admin permissions left - what can I do?**  
-Contact us via our [Support Center](https://support.getpostman.com/) for assistance.
+Contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
 
 * **I'm an admin, why can't I assign the billing role?**  
-Billing roles can only be granted by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.getpostman.com/) for assistance.
+Billing roles can only be granted by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
 
 * **Is there a "Super Admin" role?**  
 A "Super Admin" role is being considered for development. You can track progress and upvote [this issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues/6102) to show your support.

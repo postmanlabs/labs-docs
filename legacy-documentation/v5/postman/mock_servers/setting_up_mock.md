@@ -91,4 +91,4 @@ CORS is enabled for Postman mock servers. As a result, you can stub your web app
 
 Your Postman account gives you a limited number of free mock server calls per month. 
 
-You can check your usage limits in the [Postman API](https://docs.api.getpostman.com) or in the [account usage page](https://go.pstmn.io/postman-account-limits).
+You can check your usage limits in the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) or in the [account usage page](https://go.pstmn.io/postman-account-limits).

@@ -2,6 +2,7 @@
 title: "Setting up Postman"
 order: 8.1
 page_id: "settings"
+search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
   - type: section
     name: "Prerequisites"

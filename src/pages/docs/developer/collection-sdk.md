@@ -39,7 +39,7 @@ myCollection = new Collection(JSON.parse
 console.log(myCollection.toJSON());
 ```
 
-The Collection SDK provides an interface for working with the data structures defined by the [Postman Collection Schema](https://schema.getpostman.com/). You can use the SDK methods to create and manipulate collection elements, define request detail, variables, authentication, and so on.
+The Collection SDK provides an interface for working with the data structures defined by the [Postman Collection Schema](https://schema.postman.com/). You can use the SDK methods to create and manipulate collection elements, define request detail, variables, authentication, and so on.
 
 ## Next steps
 

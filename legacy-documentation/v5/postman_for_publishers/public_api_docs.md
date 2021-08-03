@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-API publishers require public API documentation and require easy-to-read examples and specifications. Postman publishes [our own API documentation](http://docs.api.getpostman.com) using Postman Pro's documentation. Developers rely on this documentation for learning about the service, implementing their integrations, and debugging. Learn [how to publish your own public docs](https://learning.postman.com/docs/postman/api_documentation/publishing_public_docs/).
+API publishers require public API documentation and require easy-to-read examples and specifications. Postman publishes [our own API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) using Postman Pro's documentation. Developers rely on this documentation for learning about the service, implementing their integrations, and debugging. Learn [how to publish your own public docs](https://learning.postman.com/docs/postman/api_documentation/publishing_public_docs/).
 
 [![postman API docs](https://assets.postman.com/postman-docs/59189909.png)](https://assets.postman.com/postman-docs/59189909.png)  
 
