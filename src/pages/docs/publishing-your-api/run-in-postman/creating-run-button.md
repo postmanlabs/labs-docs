@@ -28,7 +28,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Introducing the All-New Run in Postman Button"
-    url: "https://blog.postman.com/new-run-in-postman//"
+    url: "https://blog.postman.com/new-run-in-postman/"
   - type: section
     name: "Next Steps"
   - type: link

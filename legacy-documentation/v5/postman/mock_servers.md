@@ -25,7 +25,7 @@ Navigate to every request in the Collection `testAPI` that you would like to i
 
 ### Retrieve information needed for mock creation
 
-Let's retrieve the `collectionId` of `testAPI` using the [Postman API](https://api.getpostman.com/). Get a list of all your Collections using the [GET All Collections endpoint](https://docs.api.getpostman.com/#3190c896-4216-a0a3-aa38-a041d0c2eb72). Search for the name of your Collection and retrieve the `uid` from the results, which will be used as the `collectionId` in the next step.
+Let's retrieve the `collectionId` of `testAPI` using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). Get a list of all your Collections using the [GET All Collections endpoint](https://docs.api.getpostman.com/#3190c896-4216-a0a3-aa38-a041d0c2eb72). Search for the name of your Collection and retrieve the `uid` from the results, which will be used as the `collectionId` in the next step.
 
 [![get collection id](https://blog.postman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.56.19-PM-1024x426.png)](https://blog.postman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.56.19-PM.png) 
 
@@ -37,7 +37,7 @@ https://documenter.postman.com/collection/view/{{collectionId}}
 ``` 
 {% endraw %}
 
-As an optional step, you can include an environment template as a part of your simulation by retrieving the `environmentId` of `testAPIEnv` using the [Postman API](https://api.getpostman.com/). Get a list of all your environments using the [GET All Environments endpoint](https://docs.api.getpostman.com/#d26bd079-e3e1-aa08-7e21-66f55df99351). Search for the name of your environment and retrieve the `uid` from the results, which will be used as the `environmentId` in the next step.
+As an optional step, you can include an environment template as a part of your simulation by retrieving the `environmentId` of `testAPIEnv` using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). Get a list of all your environments using the [GET All Environments endpoint](https://docs.api.getpostman.com/#d26bd079-e3e1-aa08-7e21-66f55df99351). Search for the name of your environment and retrieve the `uid` from the results, which will be used as the `environmentId` in the next step.
 
 [![get environment id](https://blog.postman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.59.04-PM-1024x431.png)](https://blog.postman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-15-at-3.59.04-PM.png)
 
@@ -75,4 +75,4 @@ In the previous example, we used a saved response to mock our collection. You ca
 
 ### Free mock server calls with your Postman account
 
-Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
+Your Postman account gives you a limited number of free mock server calls per month. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) or the [account usage page](https://go.pstmn.io/postman-account-limits).

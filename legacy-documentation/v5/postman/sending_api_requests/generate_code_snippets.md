@@ -25,7 +25,7 @@ Postman currently supports the following options:
 | C | [LibCurl](https://curl.se/libcurl/c/) |
 | cURL | None (Raw [cURL](https://curl.haxx.se/) command) |
 | C# | [RestSharp](http://restsharp.org/) |
-| Go | Built-in [http package](https://golang.org/pkg/net/http/) |
+| Go | Built-in [http package](https://pkg.go.dev/net/http) |
 | Java | [OkHttp](https://github.com/square/okhttp) |
 | Java | [Unirest](http://unirest.io/java.html) |
 | JavaScript | [jQuery AJAX](https://api.jquery.com/jquery.ajax/) |
@@ -33,7 +33,7 @@ Postman currently supports the following options:
 | NodeJS | Built-in [http](https://nodejs.org/api/http.html) module |
 | NodeJS | [Request](https://github.com/request/request) |
 | NodeJS | [Unirest](http://unirest.io/nodejs.html) |
-| Objective-C | Built-in [NSURLSession](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSURLSession_class/) |
+| Objective-C | Built-in [NSURLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 | OCaml | [Cohttp](https://github.com/mirage/ocaml-cohttp) |
 | PHP | [HttpRequest](http://php.net/manual/it/httprequest.send.php) |
 | PHP | [pecl_http](https://mdref.m6w6.name/http) |
@@ -44,4 +44,4 @@ Postman currently supports the following options:
 | Shell | [wget](https://www.gnu.org/software/wget/) |
 | Shell | [HTTPie](https://github.com/httpie/httpie) |
 | Shell | [cURL](https://curl.se/) |
-| Swift | Built-in [NSURLSession](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSURLSession_class/) |
+| Swift | Built-in [NSURLSession](https://developer.apple.com/documentation/foundation/urlsession) |
