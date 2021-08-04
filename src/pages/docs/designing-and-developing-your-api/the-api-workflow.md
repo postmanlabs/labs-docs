@@ -33,12 +33,12 @@ You can connect various components of your API development and testing process t
 
 The following are the high-level steps involved when creating and using APIs:
 
-* [Creating an API](/docs/designing-and-developing-your-api/creating-an-api/)
-* [Defining an API](/docs/designing-and-developing-your-api/defining-an-api/)
-* [Watching an API](/docs/designing-and-developing-your-api/watching-an-api/)
-* [Developing an API](/docs/designing-and-developing-your-api/developing-an-api/)
-* [Testing an API](/docs/designing-and-developing-your-api/testing-an-api/)
-* [Observing an API](/docs/designing-and-developing-your-api/observing--an-api/)
+* [Creating an API](/docs/designing-and-developing-your-api/creating-an-api/) - Start a new API in Postman.
+* [Defining an API](/docs/designing-and-developing-your-api/defining-an-api/) - Define your API by [editing your schema](/docs/designing-and-developing-your-api/defining-an-api/#editing-your-schema") and [generating a collection](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection).
+* [Watching an API](/docs/designing-and-developing-your-api/watching-an-api/) - Get notifications when an API changes.
+* [Developing an API](/docs/designing-and-developing-your-api/developing-an-api/) - Add [a mock server](/docs/designing-and-developing-your-api/developing-an-api/#adding-a-mock-server) and [documentation](/docs/designing-and-developing-your-api/developing-an-api/#adding-documentation) to your API.
+* [Testing an API](/docs/designing-and-developing-your-api/testing-an-api/) - Add [a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-a-test-suite), [integration tests](/docs/designing-and-developing-your-api/testing-an-api/#adding-integration-tests), and [contract tests](/docs/designing-and-developing-your-api/testing-an-api/#adding-contract-tests) to your API.
+* [Observing an API](/docs/designing-and-developing-your-api/observing-an-api/) - Add monitors to observe your API.
 
 ## Next steps
 
