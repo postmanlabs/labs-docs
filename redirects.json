@@ -1797,29 +1797,126 @@
 	},
 	{
 		"from": "/docs/administration/managing-your-team/",
-		"to": "/docs/administration/managing-your-team/managing-your-team/"},
-{
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
+	},
+	{
 		"from": "/docs/publishing-your-api/add-api-network/",
 		"to": "/docs/publishing-your-api/authoring-your-documentation/"
-},
-{
+	},
+	{
 		"from": "/docs/integrations/available-integrations/microsoft-flow/",
 		"to": "/docs/integrations/available-integrations/microsoft-power-automate/"
-},
-{
+	},
+	{
 		"from": "/docs/publishing-your-api/add-templates/",
 		"to": "/docs/publishing-your-api/authoring-your-documentation/"
-},
-{
+	},
+	{
 		"from": "/docs/publishing-your-api/publish-public-api/",
 		"to": "/docs/publishing-your-api/authoring-your-documentation/"
-},
-{
+	},
+	{
 		"from": "/docs/publishing-your-api/api-submission-guidelines/",
 		"to": "/docs/publishing-your-api/authoring-your-documentation/"
-},
-{
+	},
+	{
 		"from": "/docs/integrations/available-integrations/victorops/",
 		"to": "/docs/integrations/available-integrations/splunk-on-call/"
-}
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#creating-an-api",
+		"to": "/docs/designing-and-developing-your-api/creating-an-api/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#defining-an-api",
+		"to": "/docs/designing-and-developing-your-api/defining-an-api/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#editing-your-schema",
+		"to": "/docs/designing-and-developing-your-api/defining-an-api/#editing-your-schema"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#generating-a-collection",
+		"to": "/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#watching-an-api",
+		"to": "/docs/designing-and-developing-your-api/watching-an-api/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#developing-an-api",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#adding-a-mock-server",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/#adding-a-mock-server"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#creating-a-new-mock-server",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/#creating-a-new-mock-server"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#adding-an-existing-mock-server",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/#adding-an-existing-mock-server"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#editing-a-mock-server",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/#editing-a-mock-server"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/#adding-documentation"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#creating-new-documentation",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/#creating-new-documentation"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#adding-existing-documentation",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/#adding-existing-documentation"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#adding-an-environment",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/#adding-an-environment"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#testing-an-api",
+		"to": "/docs/designing-and-developing-your-api/testing-an-api/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#adding-a-test-suite",
+		"to": "/docs/designing-and-developing-your-api/testing-an-api/#adding-a-test-suite"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#adding-integration-tests",
+		"to": "/docs/designing-and-developing-your-api/testing-an-api/#adding-integration-tests"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#adding-contract-tests",
+		"to": "/docs/designing-and-developing-your-api/testing-an-api/#adding-contract-tests"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#observing-an-api",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#creating-a-new-monitor",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/#creating-a-new-monitor"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#generating-a-collection-from-a-schema",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/#generate-a-collection-from-a-schema"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#using-an-existing-collection",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/#use-an-existing-collection"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#creating-a-new-collection",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/#create-a-new-collection"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/the-api-workflow/#adding-an-existing-monitor",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/#adding-an-existing-monitor"
+	}
 ]
