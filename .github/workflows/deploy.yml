@@ -36,7 +36,7 @@ jobs:
         npm run clean
         npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket postman-learning-center-beta --deleteRemoved --distId $DIST_ID --invalidate '/*'
 
-      - name: update Algolia with GA Pageviews
+    - name: update Algolia with GA Pageviews
       env: 
         ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
         GOOGLE_ALGOLIA_CREDENTIALS: ${{secrets.GOOGLE_ALGOLIA_CREDENTIALS}}
