@@ -67,7 +67,7 @@ This section outlines the prerequisites for validating your elements against an 
 For validations to execute, you need the following elements in place:
 
 * An API schema - see [Defining an API](/docs/designing-and-developing-your-api/defining-an-api/)
-* API elements - this can be a [mock server](/docs/designing-and-developing-your-api/developing-an-api/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/developing-an-api/#adding-documentation), [tests](/docs/designing-and-developing-your-api/testing-an-api), or a [monitor](/docs/designing-and-developing-your-api/observing-an-api/)
+* API elements - this can be a [mock server](/docs/designing-and-developing-your-api/developing-an-api/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/developing-an-api/#adding-documentation), [tests](/docs/designing-and-developing-your-api/testing-an-api/), or a [monitor](/docs/designing-and-developing-your-api/observing-an-api/)
 
 > Once the validation is complete, a status will appear next to the element indicating a checkmark if no issues have been found, or a warning message stating `Issues found`.
 
