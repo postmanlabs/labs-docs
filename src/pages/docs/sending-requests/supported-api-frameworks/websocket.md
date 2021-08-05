@@ -104,6 +104,8 @@ Messages will indicate if they have multiple arguments. When you expand the mess
 
 [![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)
 
+Prior to making a connection, you can also add events in the **Events** tab above the editor pane. This enables you to add a description for each event and select if the event will listen when the connection is made.
+
 ## Using variables in requests and messages
 
 You can use Postman variables in the URL of a WebSocket connection or the body of a message. For example, you could create a variable named `my_host`, set the value to `example.com` and then use a URL of `ws://{{my_host}}/api/example`. If you type `{{` in either the URL field or message editor, you can autocomplete your variables.
