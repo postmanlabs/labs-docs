@@ -33,7 +33,7 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
 
 > There are multiple API key types in New Relic. The account level API Keys cannot be used for inserting  data into New Relic. Insights Insert Keys must be used.
 
-For more information on API Keys in New Relic, see [the New Relic documentation](https://docs.newrelic.com/docs/apis/get-started/intro-apis/new-relic-api-keys/).
+For more information on API Keys in New Relic, see [the New Relic documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
 ## Configuring New Relic Integration
 
