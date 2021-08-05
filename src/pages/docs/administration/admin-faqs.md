@@ -16,7 +16,15 @@ contextual_links:
 
 ---
 
-For administrative and team management FAQs, checkout [Postman's Help Center](https://support.postman.com/hc/en-us) for [Postman account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
+For administrative and team management FAQs, check out [Postman's Help Center](https://support.postman.com/hc/en-us).
+
+Postman's Help Center provides FAQs that you may encounter as a Postman team admin, including:
+
+* [Account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account)
+* [Collaboration FAQs](https://support.postman.com/hc/en-us/categories/115000609165-Collaboration)
+* [Postman Enterprise FAQs](https://support.postman.com/hc/en-us/categories/115000604709-Postman-Enterprise)
+* [Billing FAQs](https://support.postman.com/hc/en-us/categories/115000609205-Billing-and-Payment)
+
 
 
 
