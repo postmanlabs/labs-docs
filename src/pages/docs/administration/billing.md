@@ -19,7 +19,7 @@ contextual_links:
 
 ---
 
-Postman provides a self-serve billing process. Refer to the following sections for guidance on managing your account, plan, and payment. 
+Postman provides a self-serve billing process. Refer to the following sections for guidance on managing your account, plan, and payment.
 
 You can contact Postman's support team for assistance if you encounter any account or billing issues. To do so, navigate to Postman's [Support Center](https://www.postman.com/support/) and click **Submit a Request**.
 

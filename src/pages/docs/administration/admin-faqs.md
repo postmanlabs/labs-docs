@@ -24,8 +24,3 @@ Postman's Help Center provides FAQs that you may encounter as a Postman team adm
 * [Collaboration FAQs](https://support.postman.com/hc/en-us/categories/115000609165-Collaboration)
 * [Postman Enterprise FAQs](https://support.postman.com/hc/en-us/categories/115000604709-Postman-Enterprise)
 * [Billing FAQs](https://support.postman.com/hc/en-us/categories/115000609205-Billing-and-Payment)
-
-
-
-
-
