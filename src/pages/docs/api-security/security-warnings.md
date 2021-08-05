@@ -448,7 +448,7 @@ paths:
 
 ```json
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 #...
 components:
@@ -473,7 +473,7 @@ security:
 
 ```json
 servers:
-  - url: https://my.api.server.com/
+  - url: https://my.api.example.com/
     description: API server
 #...
 components:
