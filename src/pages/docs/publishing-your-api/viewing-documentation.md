@@ -54,13 +54,10 @@ You can [view documentation for any collection that has been shared with you](/d
 
 > Postman Team, Business, and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
-To view documentation for a collection you have access to in Postman, select the collection, click the three dots (...), and choose __View Documentation__. The collection documentation will open within a new tab in the application (both in the browser and desktop application).
+1. Select the collection
+1. In the bottom right, select **View complete collection documentation**
 
-![View Docs](https://assets.postman.com/postman-docs/view-docs-b.jpg)
-
-At the top, you can select an environment, layout, and sample language.
-
-![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
+![View Docs](https://assets.postman.com/postman-docs/view-complete-documentation.jpg)
 
 You will also see detail on each request, including sample code in various client languages, required authorization type, an indicator of the method, the URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
 
@@ -80,7 +77,7 @@ If the documentation you are viewing has multiple versions published, you can se
 
 You can view and post comments on your API documentation to collaborate with teammates. When you view the documentation for a collection, you will see any existing comments on it.
 
-![Documentation Comment](https://assets.postman.com/postman-docs/docs-comments.jpg)
+![Documentation Comment](https://assets.postman.com/postman-docs/comment-on-documentation.jpg)
 
 You can add a comment to join in the discussion. Comments on documentation reflect [comments on the corresponding collection](/docs/collaborating-in-postman/commenting-on-collections/).
 
