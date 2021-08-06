@@ -11,7 +11,7 @@ Postman captures log messages automatically to help you debug unresolved issues,
 
 ## Contacting Postman support
 
-You can contact Postman's support team for assistance if you encounter any issues when using Postman. To do so, navigate to Postman's [Support Center](https://www.postman.com/support/) and click **Submit a Request**.
+You can contact Postman's support team for assistance if you encounter any issues when using Postman. Navigate to Postman's [Support Center](https://www.postman.com/support/) and select **Submit a Request**.
 
 <img alt="Submit request in support center" src="https://assets.postman.com/postman-docs/support-center-submit-request.jpg">
 
