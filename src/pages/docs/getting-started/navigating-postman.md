@@ -151,6 +151,8 @@ You can access a history of the requests you've made in Postman via the __Histor
 
 Click a request to open it again. Click __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
 
+The history also includes the collection runs executed. These remain as the summarized version of the run and aren't logged as single requests. The **Save Responses** option can't be used with requests from collection runner.
+
 The __View more actions__ menu allows you to save, monitor, document, or mock a request. Use the delete (trash icon) or __Clear all__ options to remove requests from your history. You can multi-select requests by pressing `Command` or `Control` and clicking the requests.
 
 ## Tabs
