@@ -67,12 +67,12 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **You cannot change the working directory in Postman for Web.** When you upload a file, Postman for Web creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to Postman for Web with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/installation-and-updates/#using-postman-on-the-web).
 
-**Be careful using files located outside your working directory.** To use files located outside your working directory when sending requests, turn on the **Allow reading files outside working directory** toggle. This option allows third-party collections to potentially read any file on your system. Use  caution, and make sure you trust all third-party collections you are using before enabling this option.
+**Be careful using files located outside your working directory.** To use files located outside your working directory when sending requests, turn on the **Allow reading files outside working directory** toggle. This option allows third-party collections to potentially read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
 
 ### Headers
 
 * **Send no-cache header:** (Recommended) Turn on this toggle to send a `Cache-Control: no-cache` header with each request. The `no-cache` directive forces the server to revalidate each request and ensures you get an up-to-date (not stale) response.
-* **Send Postman Token header:** (Recommended) Turn on this toggle to send a random Postman token in the request header. Sending a random token ensures the receiving server handles each request separately, even when the requests are sent with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
+* **Send Postman Token header:** (Recommended) Turn on this toggle to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles each request separately, even when the requests are sent with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
 * **Retain headers when clicking on links:** When you select a link in a response, Postman creates a new `GET` request with the link URL. Turn on this toggle to retain the headers from the previous request in the new request. Retaining headers is useful if you mainly access protected resources.
 * **Automatically follow redirects:** Turn off this toggle to prevent requests that return a 3xx series response from being automatically redirected.
 * **Send anonymous usage data to Postman:** Postman gathers basic, anonymous usage data to help with product improvement. Turn off this toggle to disable sending anonymous usage data to Postman.
@@ -108,9 +108,9 @@ Some shortcuts are not available in Postman for Web. Also, shortcut modifier key
 
 ## Data
 
-Use the **Data** tab to perform a bulk export or import of Postman data.
+Use the **Data** tab to request a bulk export of Postman data or to import data. To begin the export process, select **Export Data**. You can choose to export your collections, environments, or both. You'll receive an email when your dump file is ready to download.
 
-Exporting saves all of your collections and environments in a single dump file. Importing a dump file may overwrite your existing collections and environments, so use caution. It's always a good idea to make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
+Importing a dump file may overwrite your existing collections and environments, so use caution. It's always a good idea to make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
 
 ## Add-ons
 
