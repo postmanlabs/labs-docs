@@ -59,6 +59,7 @@
     "s3-deploy": "^1.4.0",
     "sendmail": "^1.6.1",
     "shelljs": "^0.8.4",
+    "typescript": "2.8.1",
     "typography": "^0.16.19",
     "uuid": "^3.3.3"
   },
