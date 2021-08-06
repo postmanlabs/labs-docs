@@ -78,7 +78,7 @@ Enter your details and click __Continue__.
 
 You can optionally create or join a team. If you are signing up with your organization email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
 
-> Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are [on Postman's roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
+> Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are [on Postman's roadmap](https://github.com/postmanlabs/postman-app-support/projects/45?fullscreen=true).
 
 [![Join a team](https://assets.postman.com/postman-docs/collaborate-with-teams.jpg)](https://assets.postman.com/postman-docs/collaborate-with-teams.jpg)
 
