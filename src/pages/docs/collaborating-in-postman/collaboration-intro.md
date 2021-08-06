@@ -30,7 +30,7 @@ Postman allows all users to collaborate with their teams through Team Workspaces
 
 Postman will alert you with notifications when activities occur within your team and workspace. You can view and opt in or out notifications by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
 
-> Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are [on Postman's roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
+> Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are [on Postman's roadmap](https://github.com/postmanlabs/postman-app-support/projects/45?fullscreen=true).
 
 ## Contents
 
