@@ -54,10 +54,12 @@ You can [view documentation for any collection that has been shared with you](/d
 
 > Postman Team, Business, and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
-1. Select the collection
-1. In the bottom right, select **View complete collection documentation**
+To view the documentation:
 
-![View Docs](https://assets.postman.com/postman-docs/view-complete-documentation.jpg)
+1. Select the collection
+1. In the bottom right, select **View complete collection documentation**.
+
+![View Docs](https://assets.postman.com/postman-docs/view-complete-documentation-2.jpg)
 
 You will also see detail on each request, including sample code in various client languages, required authorization type, an indicator of the method, the URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
 
