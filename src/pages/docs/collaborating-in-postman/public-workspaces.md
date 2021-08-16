@@ -24,7 +24,7 @@ contextual_links:
     url: "https://youtu.be/4ulU2FZMPjQ"
 ---
 
-[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to your [team profile settings](https://postman.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the [Public API Network](https://www.postman.com/explore).
+[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to your [team profile settings](https://go.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the [Public API Network](https://www.postman.com/explore).
 
 <img alt="Enable team profile" src="https://assets.postman.com/postman-docs/enable-public-profile-url.jpg"/>
 
