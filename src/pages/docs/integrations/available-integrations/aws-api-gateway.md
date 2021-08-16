@@ -43,7 +43,7 @@ You can directly upload your API schemas from Postman to AWS API Gateway. Once t
 
     ![postman home](https://assets.postman.com/postman-docs/awsgateway-home.jpg)
 
-1. Select [**Integrations**](https://postman.postman.co/integrations/browse?category=all).
+1. Select [**Integrations**](https://go.postman.co/integrations/browse?category=all).
 
     ![postman integrations](https://assets.postman.com/postman-docs/awsgateway-integrations.jpg)
 
