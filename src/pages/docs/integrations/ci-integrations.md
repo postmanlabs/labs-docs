@@ -1,7 +1,7 @@
 ---
-title: "CI Integration"
+title: "CI Integrations"
 order: 164.2
-page_id: "ci-integration"
+page_id: "ci-integrations"
 warning: false
 ---
 
@@ -9,7 +9,7 @@ warning: false
 
 You can now easily configure your tests (i.e. tests inside collections) inside CI
 
-providing you with the actual configuration that can be copied directly in the CI config file for most of the leading CI tools.
+This provides you with the actual configuration that can be copied directly in the CI config file for most of the leading CI tools.
 
 To configure CI/CD:
 
