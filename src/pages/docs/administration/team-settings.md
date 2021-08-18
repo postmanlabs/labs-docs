@@ -40,7 +40,7 @@ When you select **Team Settings**, you will be automatically directed to **Edit 
 
 <img alt="Edit team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-settings.jpg"/>
 
-**Customize your team's look.** Keep in mind the following when uploading a logo, cover photo, or favicon.
+**Customize your team's look.** Keep in mind the following when uploading a logo, cover photo, or favicon:
 
 * Logos and cover photos must be 500 KB or less in size and must be in **.jpg**, **.jpeg**, or **.png** format.
 * Logos must have a 1:1 aspect ratio (height:width), and cover photos must have a 1:7.5 aspect ratio. If your image has a different aspect ratio, Postman prompts you to select a portion of your image to display.
