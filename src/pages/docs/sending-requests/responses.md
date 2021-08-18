@@ -52,7 +52,9 @@ The Postman **Body** tab gives you several tools to help you understand the resp
 
 The pretty mode formats JSON or XML responses so they are easier to view. Nobody wants to scroll through a minified single line JSON response looking for that elusive string! Links inside the pretty mode are highlighted and clicking on them can load a GET request in Postman with the link URL. For navigating large responses, click on the down-pointing triangles (▼) on the left to collapse large sections of the response.
 
-For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If not, you can force formatting through JSON or XML. You can force JSON formatting under the **General** tab in the **SETTINGS** modal. To do so. select "JSON" from the "Language detection" dropdown.
+For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If not, you can force formatting through JSON. You can force JSON formatting under the **General** tab in the **SETTINGS** modal. To do so, select **JSON** from the **Language detection** dropdown list.
+
+<img alt="Language detection" src="https://assets.postman.com/postman-docs/language-detection-json.jpg"/>
 
 **Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results.
 
