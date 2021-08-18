@@ -40,7 +40,7 @@ From the left nav, select **Integrations** > **Add integration**.
 
 ![Add Opsgenie integration](https://assets.postman.com/postman-docs/opsgenie-teams-add-integration-bb.jpg)
 
-From the list of integrations, select the [**API integration**](https://docs.opsgenie.com/docs/api-integration) option.
+From the list of integrations, select the [**API integration**](https://support.atlassian.com/opsgenie/docs/what-is-a-default-api-integration/) option.
 
 ![select API integration option](https://assets.postman.com/postman-docs/opsgenie-search-select-api.jpg)
 
@@ -52,13 +52,17 @@ Copy your API Key and save it for later.
 
 ## Configuring Postman integration
 
-From the Integrations [search page](https://postman.postman.co/integrations/browse?category=all), search and select Opsgenie from the results.
+From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+
+![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+Search and select **Opsgenie**.
 
 On the Integration details page, select **Add Integration**.
 
 ![add Opsgenie integration](https://assets.postman.com/postman-docs/opsgenie-add-integration-b.jpg)
 
-On the integration authentication page, enter the Opsgenie API key you saved from your Opsgenie console. Select the [**Opsgenie site region** for your Opsgenie account](https://docs.opsgenie.com/docs/opsgenie-data-residency).
+On the integration authentication page, enter the Opsgenie API key you saved from your Opsgenie console. Select the [**Opsgenie site region** for your Opsgenie account](https://support.atlassian.com/opsgenie/docs/opsgenie-data-residency/).
 
 ![Add Opsgenie API key into Postman](https://assets.postman.com/postman-docs/opsgenie-with-api-key.jpg)
 

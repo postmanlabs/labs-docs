@@ -111,6 +111,7 @@ In addition to using the Collection Runner in Postman, you can use collection ru
 
 * The Postman command-line interface [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) enables you to run collections and build them into your development pipeline, responding to test outcomes to maintain your API performance.
 * Adding a [monitor](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to your collection lets you schedule collection runs and stay informed of any issues.
+* You can also set up a [monitoring webhook](/docs/designing-and-developing-your-api/monitoring-your-api/integrations-for-alerts/) to trigger a collection at a specific time with your own custom payload.
 
 ## Next steps
 

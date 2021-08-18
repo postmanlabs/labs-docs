@@ -24,29 +24,35 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
 ## Retrieving your New Relic API Key
 
 1. Log in to [New Relic](https://login.newrelic.com).
-1. Click your avatar icon in the upper right of the page.
+1. Select your avatar icon in the upper right of the page.
 1. On the user menu, select **API keys**.
 1. On the **API keys** page, go to the **Not seeing your keys?** heading and click **Insights Insert Keys**.
   ![New Relic API keys](https://assets.postman.com/postman-docs/new-relic-key-1.jpg)
-1. Click **Show** to the right of an existing key and copy it, or click **+** to create a new key.
+1. Select **Show** to the right of an existing key and copy it, or select **+** to create a new key.
   ![New Relic API keys](https://assets.postman.com/postman-docs/new-relic-key-2.jpg)
 
 > There are multiple API key types in New Relic. The account level API Keys cannot be used for inserting  data into New Relic. Insights Insert Keys must be used.
 
-For more information on API Keys in New Relic, see [the New Relic documentation](https://docs.newrelic.com/docs/apis/get-started/intro-apis/new-relic-api-keys/).
+For more information on API Keys in New Relic, see [the New Relic documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
 ## Configuring New Relic Integration
 
-1. On your Postman Home page, navigate to **Integrations**, click **Browse All Integrations**, and click **New Relic** in the list of third-party integrations.
-  ![new relic search](https://assets.postman.com/postman-docs/new-relic-search-all.jpg)
-1. Click **Add Integration** to create your New Relic integration.
+1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+
+    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+    Search and select **New Relic**.
+
+    ![home page and integrations](https://assets.postman.com/postman-docs/new-relic-search-all.jpg)
+
+1. Select **Add Integration** to create your New Relic integration.
   ![new relic add integration](https://assets.postman.com/postman-docs/new-relic-add-integration.jpg)
 1. Enter a nickname for the integration.
 1. Select a workspace from the list which contains the monitor you want to use.
 1. Select the monitor you wish to use from the list.
 1. In **New Relic API key**, enter the API key you copied above.
 1. Select a New Relic region. New Relic offers US and EU region instances. See the [New Relic documentation](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/our-eu-us-region-data-centers) for more information.
-1. Click the **Add Integration** button.
+1. Select the **Add Integration** button.
 
 ## Viewing data in New Relic
 

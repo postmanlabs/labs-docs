@@ -85,7 +85,7 @@ You can configure the style of your public docs by selecting colors for the head
 
 ![Style Docs](https://assets.postman.com/postman-docs/Customizing+public+docs+layout.jpg)
 
-You can customize the style of your public docs by adding a team name and logo via your [team settings](https://go.postman.co/settings/team/general) if you have admin access. Your logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
+Team admins can customize the style of your public docs by [editing your team profile](/docs/administration/team-settings/#editing-your-team-profile), including your team name and logo, in your [team settings](https://go.postman.co/settings/team/general). Your team logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
 
 > You can make changes to styling after publishing your docs by heading to the [Postman Dashboard](https://go.postman.co/workspaces) and navigating to your published collection. Select **Published** in the upper-right corner > **Edit Published Documentation** > **Edit settings**. Make your changes and click **Save and republish collection** to update.
 
@@ -97,7 +97,7 @@ To share your API documentation with your users and the wider Postman community,
 
 ![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
-> When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://explore.postman.com).
+> When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://www.postman.com/explore).
 
 * Choose __Add to API Network__ to [feature your team docs in the Postman publisher network](/docs/publishing-your-api/publishing-your-docs/).
 
@@ -115,7 +115,7 @@ Add listing details for your public documentation, including name, summary, desc
 
 ![Listing Detail](https://assets.postman.com/postman-docs/listing-detail.jpg)
 
-> If you edit your published docs, the changes will not automatically be reflected in your API network or template listing, so you will need to update the details displayed at [explore.postman.com](https://explore.postman.com) manually.
+> If you edit your published docs, the changes will not automatically be reflected in your API network or template listing, so you will need to update the details displayed at [explore.postman.com](https://www.postman.com/explore) manually.
 
 If you do not want to make your docs discoverable at this time, you can go ahead and publish then add them to the API Network or Postman Templates later.
 

@@ -24,6 +24,6 @@ Let's map the process with a simple illustration below:
 
 ### Postman Echo
 
-[`postman-echo.com`](https://docs.postman-echo.com/) is a sample API that Postman hosts for you to experiment with various types of requests. It returns the data that you send in the request as part of its response.
+[`postman-echo.com`](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) is a sample API that Postman hosts for you to experiment with various types of requests. It returns the data that you send in the request as part of its response.
 
-Import this sample collection and refer to [documentation for this sample API](https://docs.postman-echo.com/).
+Import this sample collection and refer to [documentation for this sample API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation).

@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
     url:  "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
+  - type: link
+    name: "How to Auto-Sync Postman Collections with AWS CodeCommit Repositories"
+    url:  "https://blog.postman.com/how-to-auto-sync-postman-collections-with-aws-codecommit-repositories/"
 ---
 
 > __[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
@@ -50,9 +53,13 @@ In order to set up an integration, you will need a GitHub Personal Access Token.
 
  > Backing up collections on GitHub is available for Team, Business and Enterprise plans only.
 
-1. From the [Integrations search page](https://go.postman.co/integrations/browse?category=all), search for GitHub and select it from the results.
+1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-   [![github integration](https://assets.postman.com/postman-docs/integrations-github1.jpg)](https://assets.postman.com/postman-docs/integrations-github1.jpg)
+    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+    Search and select **Github**.
+
+    [![github integration](https://assets.postman.com/postman-docs/integrations-github1.jpg)](https://assets.postman.com/postman-docs/integrations-github1.jpg)
 
 1. Next to **Backup a collection**, click **Add Integration** to authorize a backup of your Postman collections.
 

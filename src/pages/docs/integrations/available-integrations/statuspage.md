@@ -32,11 +32,11 @@ Make sure to create your Statuspage account and create a page and components bef
 
 ## Integration Setup
 
-1. On your Home page, navigate to **Integrations**, click **Browse All Integrations**, and click **Statuspage** in the list of third-party integrations.
-1. Click **Add Integration**.
+1. On your Home page, navigate to **Integrations**, select **Browse All Integrations**, and select **Statuspage** in the list of third-party integrations.
+1. Select **Add Integration**.
 1. In the **Authenticate** tab, enter the Statuspage API key you copied above.
 ![Statuspage add integration](https://assets.postman.com/postman-docs/add-integration-statuspage.jpg)
-1. Click **Authenticate and Proceed**. The **Configure** tab is shown.
+1. Select **Authenticate and Proceed**. The **Configure** tab is shown.
 1. Enter a nickname for the integration.
 1. Select a workspace from the list which contains the monitor you would like to use.
 1. Select the monitor you wish to use from the list.

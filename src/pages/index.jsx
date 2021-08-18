@@ -110,10 +110,10 @@ class IndexPage extends React.Component {
             <div className="row justify-content-center">
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
                 <SecondaryCard
-                  title="Community"
-                  description="Connect to the Postman community on our forum."
-                  cta="Visit Forum"
-                  ctaLink="https://community.postman.com/"
+                  title="Postman Space Camp"
+                  description="See previous and upcoming educational webinars."
+                  cta="See Webinars"
+                  ctaLink="https://www.postman.com/events/postman-space-camp/"
                 />
               </div>
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
@@ -129,7 +129,7 @@ class IndexPage extends React.Component {
                   title="Videos"
                   description="Learn Postman skills from our video playlists."
                   cta="Watch Videos"
-                  ctaLink="https://www.youtube.com/postmanapidevelopment"
+                  ctaLink="https://www.youtube.com/c/Postman"
                 />
               </div>
             </div>
@@ -274,10 +274,10 @@ class IndexPage extends React.Component {
           </div>
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
             <SecondaryCard
-              title="Product roadmap"
-              description="Find out what we're working on."
-              cta="See the roadmap"
-              ctaLink="https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers"
+              title="Community"
+              description="Join the Postman community."
+              cta="Visit Forum"
+              ctaLink="https://community.postman.com/"
             />
           </div>
         </section>

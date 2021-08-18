@@ -25,7 +25,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
-    url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"  
+    url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -40,7 +40,7 @@ Postman provides a variety of views and controls for managing your API projects.
 
 [![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
 
-* The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/the-api-workflow/#creating-an-api), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/) and request [history](#history).
+* The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/) and request [history](#history).
 * The header allows you to create workspaces, access reports, explore the public API network, [search](#universal-search) within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, access your settings, account, and [Postman plan](/docs/administration/buying/).
 * The center area is where you build and work with requests.
 * The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view, and access help resources.
@@ -79,6 +79,16 @@ You can declutter your workspace by collapsing panes. Use the buttons at the bot
 
 [![general layout](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)
 
+## Related Collections
+
+When a request is selected in Postman, you'll see a Related Collections (light bulb) icon <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg" width="25px"/> on the right panel.
+
+You can select the icon to view public collections from the [API Network](https://www.postman.com/explore/) that share the same base URL as your request and include API documentation to help you get started.
+
+<img alt="Related Collections suggestions" src="https://assets.postman.com/postman-docs/collection-rec-v8.8.0.jpg"/>
+
+You can select any recommended collection to view its contents and documentation. You can also directly fork a recommended collection and utilize it to quick-start your development.
+
 ## Universal search
 
 You can access universal search by clicking __Search Postman__ at the top of Postman — or using the keyboard shortcut `Command + K`.
@@ -87,7 +97,7 @@ Enter your search string and change the scope of search to narrow down your sear
 
 <img alt="Changing scope for universal search" src="https://assets.postman.com/postman-docs/change-scope-for-universal-search-v8.gif"/>
 
-> For signed in users, the default search scope on workspaces is Team and on [explore](https://explore.postman.com) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
+> For signed in users, the default search scope on workspaces is Team and on [explore](https://www.postman.com/explore) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
 
 You can additionally change the entity type at the bottom by selecting the required option near **Search for** — Workspaces, Collections, APIs or Teams.
 
@@ -140,6 +150,8 @@ You can access a history of the requests you've made in Postman via the __Histor
 <img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v8.jpg" height="400px"/>
 
 Click a request to open it again. Click __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
+
+The history also includes the collection runs executed. These remain as the summarized version of the run and aren't logged as single requests. The **Save Responses** option can't be used with requests from collection runner.
 
 The __View more actions__ menu allows you to save, monitor, document, or mock a request. Use the delete (trash icon) or __Clear all__ options to remove requests from your history. You can multi-select requests by pressing `Command` or `Control` and clicking the requests.
 

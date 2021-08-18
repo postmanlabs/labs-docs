@@ -28,23 +28,25 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
 
 ## Configuring APIMatic Integration
 
-In the [web dashboard](https://go.postman.co), choose **Integrations** &gt; **Browse All Integrations** (or open [Browse Integrations](https://go.postman.co/integrations/browse?category=all) page), and select **APIMatic** from the list of third party integrations.
+From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-<img alt="select apimatic" src="https://assets.postman.com/postman-docs/integrations_APImatic.png" width="200px"/>
+![home page and integrations](https://assets.postman.com/postman-docs/apimatic-home.jpg)
 
-Click the **Add Integration** button to authorize a periodic backup of your collection to your GitHub repository.
+Search and select **APIMatic**.
 
-[![Authorize APIMatic](https://assets.postman.com/postman-docs/authorize-apimatic-integration.jpg)](https://assets.postman.com/postman-docs/authorize-apimatic-integration.jpg)
+![browse and select APIMatic](https://assets.postman.com/postman-docs/apimatic-browse-all.jpg)
 
-Click **Authorize** to allow the backup to GitHub.
+Select **Add Integration** to authorize a periodic backup of your collection to your GitHub repository.
+
+![auth APIMatic](https://assets.postman.com/postman-docs/apimatic-github-auth.jpg)
 
 > If you are not signed in to GitHub, you will be prompted to log in.
 
-[![github apimatic](https://assets.postman.com/postman-docs/apimatic-integration-config.jpg)](https://assets.postman.com/postman-docs/WS-integrations-github-authorized1-a.png)
+[![github apimatic](https://assets.postman.com/postman-docs/apimatic-save-config.jpg)](https://assets.postman.com/postman-docs/apimatic-save-config.jpg)
 
 To back up a collection periodically to a GitHub repository:
 
-* Enter your [API key from APIMatic](https://docs.apimatic.io/getting-started/manage-apis/#view-api-integration-keys).
+* Enter your [API key from APIMatic](https://docs.apimatic.io/manage-apis/create-or-import-api#view-api-integration-keys).
 * Select a collection.
 * Select a repository.
 * Specify a directory in the repository where you want to add the collection.

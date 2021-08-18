@@ -19,7 +19,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 ## Retrieving your Keen IO project ID and API Key
 
-1. Log in to [Keen IO](https://keen.io/home/).
+1. Log in to [Keen IO](https://keen.io/users/login?next=https%3A%2F%2Fkeen.io%2Fhome%2F).
 1. Select **Projects**.
 
     ![keen dashboard](https://assets.postman.com/postman-docs/keen-projects.jpg)
@@ -31,13 +31,11 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 ## Configuring Postman monitors
 
-In the **[Integrations](https://go.postman.co/workspaces)** tab for your workspace, select Keen IO from the list of third party integrations.
+From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-[![keen dashboard](https://assets.postman.com/postman-docs/integrations_keen1.png)](https://assets.postman.com/postman-docs/integrations_keen1.png)
+![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
-Click the **View Details** button to see information about Keen IO.
-
-From the **[Integrations search page](https://postman.postman.co/integrations/browse?category=all)** search and select Keen IO.
+Search and select **Keen**.
 
 ![keen dashboard](https://assets.postman.com/postman-docs/keen-search-all.jpg)
 
@@ -57,4 +55,4 @@ Within a few minutes, you should start to see data flowing into Keen IO if your 
 
 Here’s a preview of analyses from the Postman Monitors integration. You can build visualizations into dashboards that your team or customers can view with [Keen dashboard templates](https://keen.io/docs/visualize/how-to-create-a-dashboard/).
 
-[![keen analytics](https://assets.postman.com/postman-docs/keen_dashboard2.png)](https://assets.postman.com/postman-docs/keen_dashboard2.png)
+![keen analytics](https://assets.postman.com/postman-docs/keen_dashboard2.jpg)

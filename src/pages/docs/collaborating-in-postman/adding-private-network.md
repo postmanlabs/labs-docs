@@ -61,7 +61,7 @@ The default view is your team's [Private API Network](https://go.postman.co/netw
 
 In the modal, choose the workspace containing the API you want to add to the network. You can select one or more APIs to add to the network at one time. For each API selected, specify the versions to add. Select **Next** and then the folder to add the APIs to. Select **Add to Network**.
 
-<img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-new-api-to-network-v8.jpg" width="500px"/>
+<img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-to-team-private-api-network-2.jpg" width="500px"/>
 
 > The APIs that you add to the Private API Network reflect the latest state of the API in your team workspace. In other words, changes made to the API in the workspace will be reflected in the network in real time.
 
@@ -89,7 +89,7 @@ You can create new folders from the Private API Network view. Click __Add New__,
 
 Once you've created the folder, click __Add New__ and select __APIs__ to add APIs to your Team's API Network. You can choose the workspace and then select as many APIs you want to add to the network at one time. For each API selected, specify the versions to add. Click __Add__.
 
-<img alt="Add APIs Workspace" src="https://assets.postman.com/postman-docs/add-apis-workspace.jpg" width="400px"/>
+<img alt="Add APIs Workspace" src="https://assets.postman.com/postman-docs/add-to-team-private-api-network-2.jpg" width="400px"/>
 
 To edit the API setting, click __Edit Network Listing__ icon.
 

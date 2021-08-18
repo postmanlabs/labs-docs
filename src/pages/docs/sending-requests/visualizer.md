@@ -26,13 +26,13 @@ contextual_links:
     name: "Templates"
   - type: link
     name: "Visualizer D3 heatmap demo"
-    url: "https://explore.postman.com/templates/4166"
+    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-db597015-0800-45ce-9824-02114848f47f?ctx=documentation"
   - type: link
     name: "Visualizer table"
-    url: "https://explore.postman.com/templates/4220"
+    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-0a9bcc54-e796-4de0-abbf-8a7880101cfe?ctx=documentation"
   - type: link
     name: "Visualizer D3 examples"
-    url: "https://explore.postman.com/templates/4424/"
+    url: "https://www.postman.com/DTHb3DSmtDah2RD/workspace/codebase-visualizer-templates/collection/2897506-d2486b17-0fc6-4ff3-8045-800623e5c02b?ctx=documentation"
   - type: dynamic_blog
     name: "Related Blog Posts"
     blog_tag: "visualizer"

@@ -33,7 +33,7 @@ You can access reports on your APIs in your [Postman dashboard](https://go.postm
 To generate reports in Postman, first ensure you have carried out the following steps:
 
 * [Share your API](/docs/designing-and-developing-your-api/managing-apis/)
-* [Add a collection to the API](/docs/designing-and-developing-your-api/the-api-workflow/#generating-a-collection)
+* [Add a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection)
 * Turn on __Save Responses__ in __History__ on the left of Postman
 * Send a request from the collection
 

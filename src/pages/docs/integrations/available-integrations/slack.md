@@ -29,7 +29,11 @@ The Postman to Slack integration enables you to receive notifications for the Te
 
 ## Configuring Postman with Slack
 
-From the [Integrations search page](https://go.postman.co/integrations/browse?category=all) search for Slack and select it from the results.
+From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+
+![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+
+Search and select **Slack**.
 
 ![search for slack integration](https://assets.postman.com/postman-docs/slack-search-all.jpg)
 
@@ -73,7 +77,7 @@ The team activity appears in the **Configured Integrations** page.
 
 ## Send your Monitor Run Results to Slack
 
-From the [Slack integration details](https://postman.postman.co/integrations/service/slack) page select **Add Integration** for **Post monitoring results** option.
+From the [Slack integration details](https://go.postman.co/integrations/service/slack) page select **Add Integration** for **Post monitoring results** option.
 
 On the **Permission request** page, select the Slack channel your want to post to and select **Allow**.
 
