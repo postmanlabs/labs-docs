@@ -41,8 +41,6 @@ The following list describes possible warning messages and potential ways to res
     * [Security definition object not defined](#security-definition-object-not-defined)
     * [Security definition object does not contain any scheme](#security-definition-object-does-not-contain-any-scheme)
     * [Scheme used in security field is not defined in the security definition object](#scheme-used-in-security-field-is-not-defined-in-the-security-definition-object)
-   <!--> * [HTTP authentication scheme is using an unknown scheme](#http-authentication-scheme-is-using-an-unknown-scheme)
-    * [Deprecated OAuth 1.0 scheme is used](#deprecated-oauth-10-scheme-is-used)
 * [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
@@ -50,15 +48,11 @@ The following list describes possible warning messages and potential ways to res
     * [Scope for OAuth scheme used is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securitydefinition-declaration)
 * [Global schemes configuration allows insecure enforcement of security schemes](#global-schemes-configuration-allows-insecure-enforcement-of-security-schemes)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
-   <!--> * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
-    * [API accepts credentials from OAuth 1.0 authentication in plain text](#api-accepts-credentials-from-oauth-10-authentication-in-plain-text) -->
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
     * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
     * [Global schemes have http scheme defined](#global-schemes-have-http-scheme-defined)
 * [Operation server configuration allows insecure enforcement of security schemes](#operation-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
-  <!-->  * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-as-plain-text)
-    * [Operation accepts credentials from OAuth 1.0 authentication in plain text](#operation-accepts-credentials-from-oauth-10-authentication-in-plain-text)-->
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
     * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
     * [Schemes of the operation have http scheme defined](#schemes-of-the-operation-have-http-scheme-defined)
@@ -67,8 +61,6 @@ The following list describes possible warning messages and potential ways to res
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
-   <!--> * [Refresh URL uses HTTP protocol](#refresh-url-uses-http-protocol)
-    * [OpenID Connect URL uses HTTP protocol](#openid-connect-url-uses-http-protocol)-->
 
 ## Global security field should properly enforce security
 
@@ -83,8 +75,8 @@ The following list describes possible warning messages and potential ways to res
 ```json
 swagger: '2.0'
 #...
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 security:
     - basicAuth: []
@@ -103,8 +95,8 @@ security:
 ```json
 swagger: '2.0'
 #...
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 security:
     - basicAuth: []
@@ -123,8 +115,8 @@ security:
 ```json
 swagger: '2.0'
 #...
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 security:
     - basicAuth: []
@@ -173,8 +165,8 @@ securityDefinitions:
 ```json
 swagger: '2.0'
 #...
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 ```
 
@@ -191,8 +183,8 @@ securityDefinitions:
 ```json
 swagger: '2.0'
 #...
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 ```
 
@@ -209,63 +201,14 @@ securityDefinitions:
 ```json
 swagger: '2.0'
 #...
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 security:
     - basicAuth: []
 ```
 
 &nbsp;
-
-<!--### HTTP authentication scheme is using an unknown scheme
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The name of the HTTP authentication scheme should be registered in the [IANA Authentication Scheme registry](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml). | Make sure that the HTTP authentication scheme registered in the IANA Authentication Scheme registry is used. |
-
-**Resolution:**
-
-```json
-servers:
-  - url: https://my.server.example.com/
-    description: API server
-#...
-components:
-  securitySchemes:
-    myAuth:
-      type: http
-      scheme: basic
-#...
-security:
-  - myAuth: []
-```
-
-&nbsp;
-
-### Deprecated OAuth 1.0 scheme is used
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | Security scheme uses OAuth 1.0 authentication which has been deprecated and replaced by OAuth 2.0. | Make sure that the security scheme is not using the deprecated OAuth 1.0 authentication. |
-
-**Resolution:**
-
-```json
-components:
-  securitySchemes:
-    OauthFlow:
-      type: oauth2
-      flows:
-        authorizationCode:
-          authorizationUrl: https://my.auth.example.com/
-          tokenUrl: https://my.token.example.com/
-          scopes:
-            write: modify data
-            read: read data
-```
-
-&nbsp; -->
 
 ## Security field for an individual operation should properly enforce security
 
@@ -287,8 +230,8 @@ paths:
       security:
           - basicAuth: []
       #...
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 ```
 
@@ -312,8 +255,8 @@ paths:
       security:
           - basicAuth: []
       #...
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 ```
 
@@ -337,8 +280,8 @@ paths:
       security:
           - basicAuth: []
       #...
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 ```
 
@@ -405,58 +348,6 @@ security:
 
 &nbsp;
 
-<!--### API accepts credentials from OpenID Connect authentication in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
-
-**Resolution**:
-
-```json
-components:
- securitySchemes:
-  OpenIdScheme:
-   type: openIdConnect
-   openIdConnectUrl: https://example.com/connect
-paths:
- "/pets":
-  post:
-   operationId: addPet
-   servers:
-   - url: https://example.com/
-     description: API server
-   security:
-   - OpenIdScheme: []
-```
-
-&nbsp;
-
-### API accepts credentials from OAuth 1.0 authentication in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | The authentication tokens are sent as plain text over an unencrypted channel. Attackers can easily intercept the token by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
-
-**Resolution**:
-
-```json
-servers:
-  - url: https://my.api.example.com/
-    description: API server
-#...
-components:
-  securitySchemes:
-    OAuth1:
-      type: http
-      scheme: oauth
-#...
-security:
-  - OAuth1: []
-```
-
-&nbsp;-->
-
 ### API accepts API key in plain text
 
 | Severity | Issue description | Possible fix |
@@ -494,8 +385,8 @@ swagger: '2.0'
 host: 'example.com'
 schemes:
   - https
-securityDefinitions: 
-  basicAuth: 
+securityDefinitions:
+  basicAuth:
     type: basic
 security:
  - basicAuth: []
@@ -554,59 +445,6 @@ securityDefinitions:
 ```
 
 &nbsp;
-
-<!--### Operation accepts credentials from OpenID Connect authentication as plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
-
-**Resolution**:
-
-```json
-components:
-  securitySchemes:
-    OpenIdScheme:
-      type: openIdConnect
-      openIdConnectUrl: https://my.api.openidconnect.example.com/
-paths:
-  "/pets":
-    post:
-      operationId: addPet
-      servers:
-      - url: https://my.api.example.com/
-        description: API server
-```
-
-&nbsp;
-
-### Operation accepts credentials from OAuth 1.0 authentication in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | The API operation accepts the authorization tokens that are transported as plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
-
-**Resolution**:
-
-```json
-paths:
-  "/pets":
-    post:
-      servers:
-      - url: https://example.com/
-        description: Example server
-#...
-components:
-  securitySchemes:
-    OAuth1:
-      type: http
-      scheme: oauth
-#...
-security:
-  - OAuth1: []
-```
-
-&nbsp;-->
 
 ### Operation accepts API key in plain text
 
@@ -781,47 +619,3 @@ securityDefinitions:
 ```
 
 &nbsp;
-
-<!--### Refresh URL uses HTTP protocol
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | OAuth authentication refresh tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the refresh URL is a valid URL and follows HTTPS protocol. |
-
-**Resolution:**
-
-```json
-components:
-  securitySchemes:
-    OauthFlow:
-      type: oauth2
-      flows:
-        authorizationCode
-          authorizationUrl: https://my.auth.example.com/
-          tokenUrl: https://my.token.example.com/
-          refreshUrl: https://my.refresh.example.com/
-          scopes:
-            write: modify data
-            read: read data
-```
-
-&nbsp;
-
-### OpenID Connect URL uses HTTP protocol
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | OpenID Connect access tokens & open Ids are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the openID connect URL is a valid URL and follows HTTPS protocol. |
-
-**Resolution:**
-
-```json
-components:
-  securitySchemes:
-    OpenIdScheme:
-      type: openIdConnect
-      openIdConnectUrl: https://example.com/connect
-#...
-security:
-- OpenIdScheme: []
-```-->
