@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: link
+    name: "Negative Testing for More Resilient APIs"
+    url: "https://blog.postman.com/negative-testing-for-more-resilient-apis/"
   - type: section
     name: "Next Steps"
   - type: link

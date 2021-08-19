@@ -26,6 +26,9 @@ contextual_links:
   - type: link
     name: "Using Postman Proxy to Capture and Inspect API Calls from iOS or Android Devices"
     url: "https://blog.postman.com/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
+  - type: link
+    name: "Capture Responses Using the Postman Proxy"
+    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"   
 
 warning: false
 

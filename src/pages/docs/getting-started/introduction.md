@@ -27,6 +27,9 @@ contextual_links:
   - type: link
     name: "First 5 things to try if you're new to Postman"
     url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"
+  - type: link
+    name: "10 Postman Features Everyone Should Know"
+    url: "https://blog.postman.com/10-postman-features-everyone-should-know/"
 
 ---
 
