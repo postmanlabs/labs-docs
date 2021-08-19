@@ -1,6 +1,6 @@
 ---
 title: 'Versioning APIs'
-order: 74
+order: 81.2
 page_id: 'versioning_an_api'
 warning: false
 contextual_links:

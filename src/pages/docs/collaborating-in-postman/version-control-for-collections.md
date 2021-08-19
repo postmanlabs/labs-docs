@@ -25,7 +25,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Versioning APIs"
-    url: "/docs/collaborating-in-postman/versioning-an-api/"
+    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
 ---
 
 You can use version control with your Postman Collections by forking and merging and utilizing a standard pull request process. Version control allows you to collaborate with teammates by working on different forks of the same collection, updating forks from the parent collection, and merging changes when you're ready. You can tag collaborators to review pull requests and resolve conflicts to manage collection versions.
@@ -300,4 +300,4 @@ The __Source__ will indicate the changes on your fork, with the __Destination__ 
 
 ## Next steps
 
-You can also use [version control on APIs](/docs/collaborating-in-postman/versioning-an-api/) you design and build in Postman.
+You can also use [version control on APIs](/docs/designing-and-developing-your-api/versioning-an-api/) you design and build in Postman.
