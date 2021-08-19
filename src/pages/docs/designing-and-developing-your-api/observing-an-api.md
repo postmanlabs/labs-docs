@@ -1,6 +1,6 @@
 ---
 title: 'Observing an API'
-order: 81.6
+order: 81.7
 page_id: 'observing_an_api'
 warning: false
 contextual_links:

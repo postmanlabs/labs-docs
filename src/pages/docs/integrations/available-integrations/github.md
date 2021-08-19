@@ -151,7 +151,7 @@ Once the integration is complete, return to the Postman app and navigate to your
 
 The sync of API schemas is two-way; after your first schema sync, each change to the schema in Postman will appear in the repository as a new commit. Similarly, if you or someone else updates the file on the GitHub repository, the API schema on Postman will be updated.
 
-To ensure that changes made in GitHub work properly in your  collection, use the Validate option as described [here](https://learning.postman.com/docs/collaborating-in-postman/versioning-an-api/#validating-apis).
+To ensure that changes made in GitHub work properly in your  collection, use the Validate option as described [here](/docs/designing-and-developing-your-api/versioning-an-api/#validating-apis).
 
 > If changes take place on the repository while you are editing the file on Postman, a **Conflict** state will be displayed. Saving the changes on Postman will override the file on GitHub.
 

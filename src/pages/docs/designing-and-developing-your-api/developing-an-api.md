@@ -1,6 +1,6 @@
 ---
 title: 'Developing an API'
-order: 81.4
+order: 81.5
 page_id: 'developing_an_api'
 warning: false
 contextual_links:
@@ -64,7 +64,7 @@ Select a mock server from your workspace and click **Add Mock Server**. You will
 
 ![Mock Added](https://assets.postman.com/postman-docs/mock-added-schema.jpg)
 
-You can add mocks to specific [versions of your API](/docs/collaborating-in-postman/versioning-an-api/) or [collection](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
+You can add mocks to specific [versions of your API](/docs/designing-and-developing-your-api/versioning-an-api/) or [collection](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
 
 ### Editing a mock server
 
@@ -100,7 +100,7 @@ In the **API** &gt; **Develop** tab, click **Add Documentation** &gt; **Add Exis
 
 Select the collection with the documentation you want to link and click **Add Documentation**. You will only see available collections in the list.
 
-You can add documentation to specific [versions of your API](/docs/collaborating-in-postman/versioning-an-api/). To learn more about versioning and documentation, check out [versioning your docs](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
+You can add documentation to specific [versions of your API](/docs/designing-and-developing-your-api/versioning-an-api/). To learn more about versioning and documentation, check out [versioning your docs](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
 
 ## Adding an environment
 
