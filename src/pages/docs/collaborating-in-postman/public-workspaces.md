@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Public Workspaces: Why We Created Them and What You Can Do with Them"
     url: "https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/"
+  - type: link
+    name: "LGBTQ+ Pride Public Workspace: An Invitation for the API Community to Celebrate Pride"
+    url: "https://blog.postman.com/lgbtq-pride-public-workspace-api-community/"
   - type: subtitle
     name: "Videos"
   - type: link
