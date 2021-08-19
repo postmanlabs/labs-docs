@@ -16,6 +16,11 @@ contextual_links:
   - type: link
     name: "Version Control for Collections | Postman Level Up"
     url: "https://www.youtube.com/watch?v=QKxukXJWRPI&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=7"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Streamline the API Development Lifecycle with Postman Version Control"
+    url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
   - type: section
     name: "Next Steps"
   - type: link

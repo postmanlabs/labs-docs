@@ -22,11 +22,17 @@ contextual_links:
   - type: link
     name: "Intro to APIs"
     url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+  - type: link
+    name: "Postman Community Forum | Postman Level Up"
+    url:  "https://youtu.be/Ks_4H58eCQc"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
     url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"
+  - type: link
+    name: "10 Postman Features Everyone Should Know"
+    url: "https://blog.postman.com/10-postman-features-everyone-should-know/"
 
 ---
 
