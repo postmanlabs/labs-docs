@@ -19,6 +19,9 @@ contextual_links:
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: link
+    name: "Streamline the API Development Lifecycle with Postman Version Control"
+    url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
   - type: subtitle
     name: "Videos"
   - type: link
