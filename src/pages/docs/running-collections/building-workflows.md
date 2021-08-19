@@ -16,6 +16,11 @@ contextual_links:
   - type: link
     name: "Check for broken links on your website using a Postman Collection"
     url: "https://blog.postman.com/check-for-broken-links-on-your-website-using-a-postman-collection/"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Control Workflows with postman.setNextRequest() | Postman Level Up"
+    url: "https://youtu.be/Oxsdv1VFRsE"
 
 warning: false
 

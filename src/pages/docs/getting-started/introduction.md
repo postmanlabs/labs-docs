@@ -22,6 +22,9 @@ contextual_links:
   - type: link
     name: "Intro to APIs"
     url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+  - type: link
+    name: "Postman Community Forum | Postman Level Up"
+    url:  "https://youtu.be/Ks_4H58eCQc"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
