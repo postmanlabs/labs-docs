@@ -55,7 +55,7 @@ The following list describes possible warning messages and potential ways to res
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
     * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
-    * [Schemes of the operation have http scheme defined](#schemes-of-the-operation-have-http-scheme-defined)
+    * [Schemes of the operation have HTTP scheme defined](#schemes-of-the-operation-have-http-scheme-defined)
 * [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
     * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
@@ -504,7 +504,7 @@ securityDefinitions:
 
 &nbsp;
 
-### Schemes of the operation have HTTPS scheme defined.
+### Schemes of the operation have HTTP scheme defined
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
