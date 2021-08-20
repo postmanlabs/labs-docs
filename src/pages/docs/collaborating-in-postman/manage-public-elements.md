@@ -15,16 +15,25 @@ contextual_links:
 
 ## Contents
 
-* [Managing workspaces](#managing-workspaces)
-* [Public documentation](#public-documentation)
-* [Collection JSON links](#collection-json-links)
+* [Managing public elements](#managing-public-elements)
+    * [Workspaces](#workspaces)
+    * [Public documentation](#public-documentation)
+    * [Collection JSON links](#collection-json-links)
 * [Next steps](#next-steps)
 
-### Managing workspaces
+### Managing public elements
 
-### Public documentation
+To have access to manage public elements, you need to have a Community Manager role in a Postman **Enterprise** plan. Being the Community Manager, this will make it easier for you to manage what collections your team has exposed for public consumption and which team member created a specific link. You have the ability to delete links to collections you feel should not be public.
 
-### Collection JSON links
+#### Workspaces
+
+<img alt="Manage workspaces" src="https://assets.postman.com/postman-docs/manage-workspaces.jpg"/>
+
+#### Public documentation
+
+<img alt="Public documentation" src="https://assets.postman.com/postman-docs/public-documentation.jpg"/>
+
+#### Collection JSON links
 
 You can use the toggle option to enable sharing collection JSON via public links.
 Being the Community Manager, you will be able to view, access, or delete the collections with JSON links. In addition to the collection name, the dashboard displays more information about the date the link was updated on, who updated the link, and the JSON link itself.
