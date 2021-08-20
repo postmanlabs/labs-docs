@@ -38,16 +38,16 @@ By default, tokens issued by the following service providers are scanned:
 * Airtable API Key
 * Basic Auth
 * Bearer Token
+* DSA Private Key
+* EC2 SSH Private Key
 * GitHub Personal Access Token
 * Google API Key
 * Google OAuth Token
+* OpenSSH Private Key
 * PGP Private Key
 * Postman API Key
 * RSA Private Key
 * Slack Webhook URL
-* DSA Private Key
-* EC2 SSH Private Key
-* OpenSSH Private Key
 * Stripe Restricted Key
 * Stripe Secret Key
 * Telegram Bot Access Token
