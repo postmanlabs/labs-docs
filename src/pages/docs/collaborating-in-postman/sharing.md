@@ -23,7 +23,6 @@ contextual_links:
   - type: link
     name: "Creating Workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
-    search_keyword: "sharing, collection JSON links, public elements"
 
 warning: false
 
@@ -41,7 +40,6 @@ You can share Postman entities you are working on with collaborators, including 
 
 * [Sharing to workspaces](#sharing-to-workspaces)
 * [Sharing by link](#sharing-by-link)
-* [Managing public elements](#managing-public-elements)
 * [Next steps](#next-steps)
 
 > To share your work via workspaces you will need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
