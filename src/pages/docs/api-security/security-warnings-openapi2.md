@@ -1,5 +1,5 @@
 ---
-title: "Security Warnings for OpenAPI 2.0"
+title: "Security Warnings - OpenAPI 2.0"
 order: 117
 page_id: "security_warnings_openapi_2"
 warning: false
@@ -18,15 +18,15 @@ In Postman, we highly recommend you to follow Security warnings at the API defin
 
 For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 
-> Security warnings are available for OpenAPI 2.0 and OpenAPI 3.0 schemas.
+> Security warnings are available for OpenAPI 2.0 and [OpenAPI 3.0](/docs/api-security/security-warnings/) schemas.
 
 You can use Postman to identify any potential security misses when your API is defined.
 
-<img alt="Security warnings" src="https://assets.postman.com/postman-docs/explore-security-warnings.jpg"/>
+<img alt="Security warnings for OpenAPI 2.0" src=""/>
 
 Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
 
-<img alt="Possible fix security warnings" src="https://assets.postman.com/postman-docs/possible-fix-for-security-warnings.gif"/>
+<img alt="Possible fix security warnings OpenAPI 2.0" src=""/>
 
 ### Security warnings
 

@@ -1,5 +1,5 @@
 ---
-title: "Security Warnings"
+title: "Security Warnings — OpenAPI 3.0"
 order: 116
 page_id: "security_warnings"
 warning: false
@@ -18,7 +18,7 @@ In Postman, we highly recommend you to follow Security warnings at the API defin
 
 For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 
-> Security warnings are available only for OpenAPI 3.0 schemas.
+> Security warnings are available for OpenAPI 3.0 and [OpenAPI 2.0](/docs/api-security/security-warnings-openapi2/) schemas.
 
 You can use Postman to identify any potential security misses when your API is defined.
 
