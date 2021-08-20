@@ -96,21 +96,6 @@ The link is a snapshot of your collection, so click __Update Link__ and copy it 
 
 > You can manage a complete list of your active collection links from your [Postman profile](https://go.postman.co/me/collections?view=links).
 
-### Managing public elements
-
-> Manage public elements is available only on Postman Enterprise plan.
-
-[Manage public elements](https://blog.postman.com/govern-your-public-api-collections-more-effectively/) enable you to keep a centralised way to  govern what collections are being shared outside of your team for public consumption. You need to have a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles/) role in enterprise organizations to view and manage everything that’s made public by your team — including public collections links, public documentation, and public workspaces created by members of your team — all in one place.
-
-<img alt="Manage public elements" src="https://assets.postman.com/postman-docs/manage-public-elements.jpg"/>
-
-You can use the toggle option to enable/disable sharing collection JSON via public links.
-Being the Community Manager, you will be able to view, access, or delete the collections with JSON links. In addition to the collection name, the dashboard displays more information about the date the link was updated on, who updated the link, and the JSON link itself.
-
-Hover over the JSON link and click **Copy link to JSON**. Paste the link in a browser of your choice and you will have access to the collection JSON.
-
-<img alt="Collection JSON links" src="https://assets.postman.com/postman-docs/collection-json-links.jpg"/>
-
 ## Next steps
 
 Team members can [request access](/docs/collaborating-in-postman/requesting-access-to-collections/) to collections, environments, and APIs.
