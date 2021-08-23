@@ -4,6 +4,21 @@ order: 76.1
 page_id: "manage_public_elements"
 warning: false
 contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Govern Your Public API Collections More Effectively"
+    url: "https://blog.postman.com/govern-your-public-api-collections-more-effectively/"
+  - type: link
+    name: "How to Set Up Your First Public Workspace"
+    url: " https://blog.postman.com/how-to-set-up-public-workspaces/" 
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Creating workspaces"
+    url: "docs/collaborating-in-postman/using-workspaces/creating-workspaces"
 search_keyword: "collection links, collection JSON links, manage public elements, public documentation, public workspaces"
 ---
 
@@ -25,19 +40,23 @@ To manage public elements, you need to have a Community Manager role in a Postma
 
 <img alt="Manage public elements" src="https://assets.postman.com/postman-docs/manage-public-elements.jpg"/>
 
+You can access manage public elements by navigating to the **Team** dropdown menu in the upper right corner and selecting **Manage Public Elements**.
+
+<img alt="Manage public elements from team dropdown" src="https://assets.postman.com/postman-docs/manage-public-elements-option-from-team-dropdown.jpg" height="400px"/>
+
 #### Workspaces
 
-In the **Workspaces** tab, you will have access to all the public workspaces created by your team. You will also be able to view and respond to requests to make workspaces public. Along with workspace name, the request date and the requester details will be displayed.
+In the **Workspaces** tab, you have access to all the public workspaces created by your team. You can also view and respond to requests to make workspaces public. Along with workspace name, the request date and the requester details are displayed.
 
 <img alt="Manage workspaces" src="https://assets.postman.com/postman-docs/manage-workspaces.jpg"/>
 
-To respond to the request, click **Respond** towards the right end of the workspace. A dialog box will open up in the workspace overview tab. Upon approving, the workspace gets converted to a [public workspace](/docs/collaborating-in-postman/public-workspaces/).
+To respond to the request, select **Respond** to the right of the workspace. Approve the request to convert the workspace into a [public workspace](/docs/collaborating-in-postman/public-workspaces/).
 
 <img alt="Convert to public workspaces" src="https://assets.postman.com/postman-docs/request-visibility-public-workspace.jpg"/>
 
 #### Public Documentation
 
-The **Documentation** tab displays all the collections with published documentation. The search box below the header enables you to filter by the publisher. Along with the collection name and environment name, you will be able to view date the documentation was published on, who published it, and the documentation URL. Copy the **Documentation URL** and paste it in a browser of your choice, and you will have access to the documentation.
+The **Documentation** tab displays all the collections with published documentation. Use the search box to filter by the publisher. Along with the collection name and environment name, you can view the date the documentation was published on, who published it, and the documentation URL. Copy the **Documentation URL** and paste it in a browser of your choice, and you will have access to the documentation.
 
 <img alt="Public documentation" src="https://assets.postman.com/postman-docs/public-documentation.jpg"/>
 
@@ -55,4 +74,4 @@ Hover over the **JSON link** corresponding to the collection and click **Copy li
 
 ## Next steps
 
-For more details on how to create a public workspace, visit [Public workspaces](/docs/collaborating-in-postman/public-workspaces/).
+To learn more about workspaces, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) and [Managing workspaces](docs/collaborating-in-postman/using-workspaces/managing-workspaces/). For more details on how to create a public workspace, visit [Public workspaces](/docs/collaborating-in-postman/public-workspaces/).
