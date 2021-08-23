@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "Run Collections with Newman | Postman Level Up"
     url: "https://www.youtube.com/watch?v=SQlwGZj97Y4"
+  - type: link
+    name: "Using Custom Reporters with Newman"
+    url: "https://youtu.be/Nxdxx-VaYno"
   - type: section
     name: "Next Steps"
   - type: link

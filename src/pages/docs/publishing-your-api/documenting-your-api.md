@@ -130,7 +130,7 @@ By default your documentation is private, and viewable only to people you have [
 
 For more on accessing private and public docs, see [Viewing documentation](/docs/publishing-your-api/viewing-documentation/).
 
-> Your documentation receives a number of free views per month and is dependent on your [Postman plan](https://www.postman.com/pricing) beyond that. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
+> Your documentation receives a number of free views per month and is dependent on your [Postman plan](https://www.postman.com/pricing) beyond that. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) or the [account usage page](https://go.pstmn.io/postman-account-limits).
 
 ## Documentation environments
 
@@ -166,7 +166,7 @@ If someone imports the collection using the __Run in Postman__ button from your 
 
 ## Versioning your docs
 
-Any version tags you add to your collections will be published along with your docs. You can add versions to an [API](/docs/collaborating-in-postman/versioning-an-api/) or collection.
+Any version tags you add to your collections will be published along with your docs. You can add versions to an [API](/docs/designing-and-developing-your-api/versioning-an-api/) or collection.
 
 ![Add Version](https://assets.postman.com/postman-docs/docs-version-options.jpg)
 

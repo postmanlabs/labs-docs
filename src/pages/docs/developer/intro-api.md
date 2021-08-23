@@ -20,6 +20,11 @@ contextual_links:
     name: "User Info from the Postman API | Postman Level Up"
     url: "https://www.youtube.com/watch?v=k2bvdqxDcsU"
   - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Filtering and Sorting APIs Using the Postman API"
+    url: "https://blog.postman.com/filtering-and-sorting-apis-using-the-postman-api/"
+  - type: subtitle
     name: "Next Steps"
   - type: link
     name: "Continuous Integration"
@@ -91,7 +96,7 @@ Access to the API using a key is limited to **60 requests per minute**. Every AP
 
 ### Free API calls with your Postman account
 
-Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).
+Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).
 
 ## Next steps
 

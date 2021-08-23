@@ -765,7 +765,7 @@
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/versioning-an-api/",
-		"to": "/docs/collaborating-in-postman/versioning-an-api/"
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/"
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/",
@@ -797,7 +797,11 @@
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/versioning_an_api/",
-		"to": "/docs/collaborating-in-postman/versioning-an-api/"
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/versioning-an-api/",
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/"
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/view_and_analyze_api_reports/",
@@ -1797,29 +1801,30 @@
 	},
 	{
 		"from": "/docs/administration/managing-your-team/",
-		"to": "/docs/administration/managing-your-team/managing-your-team/"},
-{
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
+	},
+	{
 		"from": "/docs/publishing-your-api/add-api-network/",
 		"to": "/docs/publishing-your-api/authoring-your-documentation/"
-},
-{
+	},
+	{
 		"from": "/docs/integrations/available-integrations/microsoft-flow/",
 		"to": "/docs/integrations/available-integrations/microsoft-power-automate/"
-},
-{
+	},
+	{
 		"from": "/docs/publishing-your-api/add-templates/",
 		"to": "/docs/publishing-your-api/authoring-your-documentation/"
-},
-{
+	},
+	{
 		"from": "/docs/publishing-your-api/publish-public-api/",
 		"to": "/docs/publishing-your-api/authoring-your-documentation/"
-},
-{
+	},
+	{
 		"from": "/docs/publishing-your-api/api-submission-guidelines/",
 		"to": "/docs/publishing-your-api/authoring-your-documentation/"
-},
-{
+	},
+	{
 		"from": "/docs/integrations/available-integrations/victorops/",
 		"to": "/docs/integrations/available-integrations/splunk-on-call/"
-}
+	}
 ]

@@ -26,14 +26,14 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> [__API reporting is available on Postman Enterprise and Business plans.__](https://www.postman.com/pricing)
+> [__API reporting is available on all Postman Enterprise and select Postman Business&#42; plans.__](https://www.postman.com/pricing)
 
 You can access reports on your APIs in your [Postman dashboard](https://go.postman.co/reports/team). API reports visualize data on API activities including creation, collection execution, test runs, and more, providing insights on performance, troubleshooting, and SLA adherence, as well as team and organization metrics.
 
 To generate reports in Postman, first ensure you have carried out the following steps:
 
 * [Share your API](/docs/designing-and-developing-your-api/managing-apis/)
-* [Add a collection to the API](/docs/designing-and-developing-your-api/the-api-workflow/#generating-a-collection)
+* [Add a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection)
 * Turn on __Save Responses__ in __History__ on the left of Postman
 * Send a request from the collection
 
@@ -43,7 +43,9 @@ To view reports, in __APIs__ on the left of Postman, select the API and click __
 
 The __Reports__ section of the web dashboard will open in your browser. Postman generates reports on [teams](#team-reports) and [APIs](#api-reports).
 
-Your API reports will include different information if you're on an [Enterprise](#enterprise-reports) or [Business](#business-reports) plan.
+[Postman Enterprise](#enterprise-reports) teams have access to detailed API reports. Older [Postman Business](#business-reports)&#42; teams have access to a limited version of API reports.
+
+> &#42; Postman Business teams created in January 2020 and thereafter do not benefit from API reporting. To gain access to API reporting, [upgrade to Postman Enterprise](https://www.postman.com/pricing/get-started-postman-plans/). [Contact Postman support](https://www.postman.com/support/) for information and assistance regarding your team's plan and feature set.
 
 ## Enterprise reports
 

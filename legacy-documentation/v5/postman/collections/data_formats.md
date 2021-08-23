@@ -139,7 +139,7 @@ Taken from [http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-ja
 
 ### Validating Collection JSON files
 
-To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/).
+To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.postman.com/).
 
 * The schema file is located at [http://schema.getpostman.com/json/collection/v1.0.0/collection.json](http://schema.getpostman.com/json/collection/v1.0.0/collection.json).
 * The associated documentation can be found at [http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html).

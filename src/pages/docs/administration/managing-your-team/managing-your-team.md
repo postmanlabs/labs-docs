@@ -11,6 +11,9 @@ contextual_links:
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
+  - type: link
+    name: "Govern Your Public API Collections More Effectively"
+    url: "https://blog.postman.com/govern-your-public-api-collections-more-effectively/"
 
 ---
 

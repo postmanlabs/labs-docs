@@ -374,7 +374,7 @@ AWS is the authorization workflow for Amazon Web Services requests. AWS uses a c
 The official AWS Signature documentation provides more detail:
 
 * [Signing and Authenticating REST Requests](https://docs.aws.amazon.com/AmazonS3/latest/userguide/RESTAuthentication.html)
-* [Use Postman to Call an API](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-use-postman-to-call-api.html)
+* [Use Postman to Call an API](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-call-api.html)
 
 In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 

@@ -58,7 +58,7 @@ This opens the **MANAGE COOKIES** modal, and displays a list of domains and the 
 
 ## Create a cookie
 
-To add a new cookie for the domain, click **Add Cookie**. A pre-generated cookie string compliant with [HTTP State Management standards](https://tools.ietf.org/html/rfc6265#section-4.1) will be created.
+To add a new cookie for the domain, click **Add Cookie**. A pre-generated cookie string compliant with [HTTP State Management standards](https://datatracker.ietf.org/doc/html/rfc6265#section-4.1) will be created.
 
 ```js
 <cookieName>=<cookieValue>; path=/; domain=.domain.com; HttpOnly; Secure; Expires=Tue, 19 Jan 2038 03:14:07 GMT;

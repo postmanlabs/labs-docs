@@ -66,8 +66,8 @@ This section outlines the prerequisites for validating your elements against an 
 
 For validations to execute, you need the following elements in place:
 
-* An API schema - see [Defining an API](/docs/designing-and-developing-your-api/the-api-workflow/#defining-an-api)
-* API elements - this can be a [mock server](/docs/designing-and-developing-your-api/the-api-workflow/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation), [tests](/docs/designing-and-developing-your-api/the-api-workflow/#testing-an-api), or a [monitor](/docs/designing-and-developing-your-api/the-api-workflow/#observing-an-api)
+* An API schema - see [Defining an API](/docs/designing-and-developing-your-api/defining-an-api/)
+* API elements - this can be a [mock server](/docs/designing-and-developing-your-api/developing-an-api/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/developing-an-api/#adding-documentation), [tests](/docs/designing-and-developing-your-api/testing-an-api/), or a [monitor](/docs/designing-and-developing-your-api/observing-an-api/)
 
 > Once the validation is complete, a status will appear next to the element indicating a checkmark if no issues have been found, or a warning message stating `Issues found`.
 
@@ -90,7 +90,7 @@ You can also trigger a validation from the issues list by clicking **Validate ag
 
 If you want your requests to be validated, your collection must be linked to an API.
 
-A collection is linked to an API if you [generate it from a schema](/docs/designing-and-developing-your-api/the-api-workflow/#generating-a-collection) or [add it as a relation to an existing API](/docs/designing-and-developing-your-api/the-api-workflow/#developing-an-api).
+A collection is linked to an API if you [generate it from a schema](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection) or [add it as a relation to an existing API](/docs/designing-and-developing-your-api/developing-an-api/).
 
 Postman will validate a request when it is sent. If issues are found, you will see a warning message showing the number of issues next to the name of the request.
 

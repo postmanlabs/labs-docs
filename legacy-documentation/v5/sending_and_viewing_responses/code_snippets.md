@@ -53,7 +53,7 @@ For now, Postman supports the following options:
 [0]: https://curl.se/libcurl/c/
 [1]: https://curl.se/
 [2]: http://restsharp.org/
-[3]: https://golang.org/pkg/net/http/
+[3]: https://pkg.go.dev/net/http
 [4]: https://github.com/square/okhttp
 [5]: http://unirest.io/java.html
 [6]: https://api.jquery.com/jquery.ajax/
@@ -61,7 +61,7 @@ For now, Postman supports the following options:
 [8]: https://nodejs.org/api/http.html
 [9]: https://github.com/request/request
 [10]: http://unirest.io/nodejs.html
-[11]: https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSURLSession_class/
+[11]: https://developer.apple.com/documentation/foundation/urlsession
 [12]: https://github.com/mirage/ocaml-cohttp
 [13]: http://php.net/manual/it/httprequest.send.php
 [14]: https://mdref.m6w6.name/http

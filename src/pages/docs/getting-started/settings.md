@@ -2,6 +2,7 @@
 title: "Setting up Postman"
 order: 8.1
 page_id: "settings"
+search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -33,117 +34,111 @@ warning: false
 
 ---
 
-## Getting to the Settings
+Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.
 
-In the header of Postman, click the gear icon and select "Settings" to open the **SETTINGS** modal. You can also use the keyboard shortcut (**CMD/CTRL + ,**) to open the modal.
+To change settings in Postman, select the **Settings** button <img alt="Settings icon" src="https://assets.postman.com/postman-docs/settings-icon-v8.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the header and then select **Settings**. In the Postman app, you can also select **Command+Comma (,)** or **Ctrl+Comma (,)**.
 
-[![Settings dropdown](https://assets.postman.com/postman-docs/overview-settings-v8.jpg)](https://assets.postman.com/postman-docs/overview-settings-v8.jpg)
+## General
 
-## General Settings
+Use the settings on the **General** tab to configure how Postman sends requests or to customize the Postman user interface.
 
-Postman tries to minimize the number of settings you have to change, so some defaults are automatically set. You can customize your settings based on your use case.
-
-[![Settings details](https://assets.postman.com/postman-docs/settings-detail-v8.jpg)](https://assets.postman.com/postman-docs/settings-detail-v8.jpg)
+[![General settings](https://assets.postman.com/postman-docs/settings-detail-v8-9.jpg)](https://assets.postman.com/postman-docs/settings-detail-v8-9.jpg)
 
 ### Request
 
-* **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
-* **SSL certificate verification** (native apps only): Prevents Postman from checking validity of SSL certificates while making a request.
-* **Always open requests in new tab:** Set this option to ON to open requests in a new tab. This option is, by default, set to OFF. Which means each time you click a request in the side bar, Postman opens the request in the preview tab.
-* **Always ask when closing unsaved tabs:** If you set this option to OFF, Postman does not prompt you to save changes in your unsaved tabs. By default, this option is set to "ON".
-* **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
-* **Request Timeout in ms (0 for infinity):**  Set how long the Postman should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
-* **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded, Postman will inform you that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact Postman's performance.
-* **Disable Request Validation:** Switch off request validation if you do not want Postman to attempt to validate your requests.
+* **Trim keys and values in request body:** Turn on this toggle to trim parameters when sending requests with form data or url-encoded data.
+* **SSL certificate verification:** Turn off this toggle to prevent Postman from checking the validity of SSL certificates when making requests.
+* **Always open requests in new tab:** By default, when you select a request in a collection, Postman opens the request in the preview tab. Turn on this toggle to always open requests in a new tab.
+* **Always ask when closing unsaved tabs:** By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn off this toggle to always discard unsaved changes when closing a tab.
+* **Language detection:** By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
+* **Request Timeout in ms:** Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
+* **Max response size in MB:** Enter the maximum response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
+* **Request Validation:** Turn off this toggle to prevent Postman from attempting to validate requests in collections that are linked to an API schema.
 
-### Working Directory
+### Working directory
 
-If you want Postman to persist your file paths, then you must save your files in Postman's default working directory. When you work with files in form-data request bodies and binary file bodies, save them to this directory to let Postman persist your file's path relative to the working directory. This means your files loaded from within the working directory run smoothly across devices if other users use the same files on their devices. It also allows you to run collections that require file uploads with [Newman](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+When you send a form-data or binary file with a request body, Postman saves a path to the file as part of the collection. The file path is relative to your working directory. Postman uses `~/Postman/files` as the default working directory. To use a different working directory, select **Choose** and then select the directory you want to use.
 
-Postman flags a warning for files that are not stored in this directory.
+<img alt="Working directory settings" src="https://assets.postman.com/postman-docs/working-directory-web-v8-9.jpg" width="352px">
 
-However, delimiting the working directory can have some unintended security issues as follows:
+**To make collaboration easier, store files in your working directory.** Storing files in your working directory ensures that requests in shared collections always work correctly. As long as you and your teammates use the same files and working directory location, shared requests will run smoothly across everyone's systems. Learn more about [sending body data](/docs/sending-requests/requests/#sending-body-data).
 
-  1. It is against the general principle of security to give system-wide access to a program as it exposes a user's system to all types of threats.
-  2. Restricting the working directory would prevent safety issues arising when files obtained from external/anonymous sources are used. For example, a collection that the user has obtained from the internet. The user may or may not have proper information about the collection and as such may not understand if the collection serves some other hidden function.
-  3. Absolute file path can also be given to postman, but when sharing it may not work for the user it is shared to as absolute paths can vary between systems.
+**The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path that's saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/#file-uploads).
 
-To learn more about this feature, refer to [Sending body data](/docs/sending-requests/requests/#sending-body-data).
+**You cannot change the working directory in Postman for Web.** When you upload a file, Postman for Web creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to Postman for Web with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/installation-and-updates/#using-postman-on-the-web).
 
-* **Location:** Path in your local filesystem which Postman considers as the working directory. You can put any files in the location and Postman will persist the path relative to the working directory. The default path populated as a placeholder is `~/Postman/files`.
-
-For the Postman desktop app, you can modify the working directory. While uploading a file to the app during a POST request, you will be able to view all the files in the working directory since the file path will be persisted in the collection. To ensure a seamless experience for your team members, it is recommended that you keep files in the `~/Postman/files` directory. The only limitation is that the team members also maintain the same working directory structure.
-
-<img alt="Working directory on web" src="https://assets.postman.com/postman-docs/working-directory-web.jpg" width="350px">
-
-For Postman web, the working directory cannot be modified. When you upload a file on the web, it creates a folder with a random alphanumeric name (such as `6OPkYiXVr`) in the `~/Postman/files` directory even when the file is selected within the working directory or outside the working directory. Since the file’s relative path to the working directory remains unchanged, the new folder created enables you to continue testing with files selected anywhere from your Desktop. You can view all the files within the newly created folders in the working directory.
-
-* **Allow reading files outside working directory:** Set this option to ON if you want Postman to read files from outside the Postman working directory. Postman persists your file paths for binary file and form-data request bodies. To learn more about this feature, refer to [Sending body data](/docs/sending-requests/requests/#sending-body-data).
-
-You may encounter errors for file reference:
-
-1. Mini warning ⚠️ icons will be appear when the specified file reference does not exist or the setting to read it from outside PWD is disabled.
-
-2. The [Postman console](/docs/sending-requests/troubleshooting-api-requests/#using-the-console) will display a warning for file reading errors. It will also display errors if a  collection wants to read a file outside the working directory and the setting for it is disabled.
-
-3. For Newman, it will read from the default working directory and can be modified using CLI options. File reading errors are displayed as console errors. You can utilize Newman [verbose mode](https://github.com/postmanlabs/newman#command-line-options) to find more information about these errors.
+**Be careful using files located outside your working directory.** To use files located outside your working directory when sending requests, turn on the **Allow reading files outside working directory** toggle. This option allows third-party collections to potentially read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
 
 ### Headers
 
-* **Send no-cache header** (recommended): Sending a no-cache header makes sure you get the up-to-date response from your server.
-* **Send Postman Token header:** If an XmlHttpRequest is pending and another request is sent with the same parameters then some browsers returning the same response for both of them. Sending a random token avoids this. This can also help you distinguish between requests on the server side.
-* **Retain headers when clicking on links:** If you click on a link in a response, Postman creates a new GET request with that URL. If you want to retain the headers that you set in the previous request set **ON** here. This is useful if you are accessing mainly protected resources.
-* **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected.
-* **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. Postman feeds usage data into product improvements.
+* **Send no-cache header:** (Recommended) Turn on this toggle to send a `Cache-Control: no-cache` header with each request. The `no-cache` directive forces the server to revalidate each request and ensures you get an up-to-date (not stale) response.
+* **Send Postman Token header:** (Recommended) Turn on this toggle to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles each request separately, even when the requests are sent with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
+* **Retain headers when clicking on links:** When you select a link in a response, Postman creates a new `GET` request with the link URL. Turn on this toggle to retain the headers from the previous request in the new request. Retaining headers is useful if you mainly access protected resources.
+* **Automatically follow redirects:** Turn off this toggle to prevent requests that return a 3xx series response from being automatically redirected.
+* **Send anonymous usage data to Postman:** Postman gathers basic, anonymous usage data to help with product improvement. Turn off this toggle to disable sending anonymous usage data to Postman.
 
-### User Interface
+### User interface
 
-* **Two-pane view:** Toggle between showing the response below, or beside, the request.
-* **Variable autocomplete:** Enable this to turn on autocomplete feature for your variables.
+* **Two-pane view:** By default, Postman displays responses below requests. Turn on this toggle to display the response and request panes side by side.
+* **Show icons with tab names:** Turn off this toggle to hide the icons that appear next to tab names.
+* **Variable autocomplete:** Turn on this toggle to enable autocomplete when typing variable names.
 
-[![General settings](https://assets.postman.com/postman-docs/editor-settings-v8.jpg)](https://assets.postman.com/postman-docs/editor-settings-v8.jpg)
+### Editor settings
 
-### Editor Settings
+**Editor** settings only affect code-related text such as request and response bodies, pre-request scripts, and tests. To revert back to default text settings, select **Reset**.
 
-* **Font Family:** Select the font family for the text that appears in Postman. You can revert the changes at any point by clicking **Reset**.
-* **Font Size:** Adjust the font size in pixels for the text that appears in Postman. Note that this setting impacts only the Test Scripts, Pre-request Scripts, and Response Pretty View.
+* **Font Family:** Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
+* **Font Size (px):** Enter the font size (in pixels) to use for code text.
+* **Indentation count:** Enter the number of indentation characters to use for each code level.
+* **Indentation type:** Select the type of indentation character to use (**Space** or **Tab**).
+* **Auto close brackets:** Turn on this toggle to automatically add a closing bracket when you type an opening bracket.
+* **Auto close quotes:** Turn on this toggle to automatically add a closing quotation mark when you type an opening quotation mark.
 
 ## Themes
 
-Pick your pleasure: choose a light or dark theme for Postman.
+Pick your pleasure: select a light or dark theme for Postman.
 
-[![Themes in settings](https://assets.postman.com/postman-docs/themes-settings-v8.jpg)](https://assets.postman.com/postman-docs/themes-settings-v8.jpg)
+[![Themes settings](https://assets.postman.com/postman-docs/themes-settings-v8-9.jpg)](https://assets.postman.com/postman-docs/themes-settings-v8-9.jpg)
 
-## Keyboard Shortcuts
+## Shortcuts
 
-This is where you can view keyboard shortcuts available for your operating system here.
+The **Shortcuts** tab displays all of the keyboard shortcuts available in Postman. To disable keyboard shortcuts, turn off the **Shortcuts** toggle.
 
-## Data Import / Export
+Some shortcuts are not available in Postman for Web. Also, shortcut modifier keys may differ depending on your operating system. For example, to open a new tab on macOS, select **Command+T**. To open a new tab on Windows or Linux, select **Ctrl+T**.
 
-Import and export data in bulk inside Postman.  This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/) in Postman.
+## Data
+
+Use the **Data** tab to request a bulk export of Postman data or to import data. To begin the export process, select **Export Data**. You can choose to export your collections, environments, or both. You'll receive an email when your dump file is ready to download.
+
+Importing a dump file may overwrite your existing collections and environments, so use caution. It's always a good idea to make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
 
 ## Add-ons
 
-Download Newman, Postman's command-line companion, to integrate Postman collections with your build system or run automated tests for your API through a cron job. Learn more about [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
-
-## Sync
-
-If you are signed in to Postman, your data is synced with the server, making sure you have it all next time you use Postman (and not just locally). You can also manually perform sync using the Sync icon in the header toolbar of Postman. Learn more about [syncing](/docs/getting-started/syncing/).
+Select the link to download Newman, Postman's command line companion. Newman integrates your Postman collections with your build system and runs automated API tests using cron jobs. Learn more about [command line integration with Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
 ## Certificates
 
-Add and view client certificates on a per domain basis. Learn more about [setting certificates](/docs/sending-requests/certificates/).
+Use the **Certificates** tab to add and manage CA certificates and client certificates in Postman. Learn more about [managing certificates](/docs/sending-requests/certificates/).
 
 ## Proxy
 
-Configure your proxy settings in Postman using this tab. For more information on Proxy, see [How to configure proxy in Postman](/docs/sending-requests/capturing-request-data/proxy/).
+Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/sending-requests/capturing-request-data/proxy/).
+
+## Update
+
+Use the **Update** tab to check for updates to the Postman app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
 
 ## About
 
-This is where you can verify your current version of Postman. There are also some helpful support links to reference.
+The **About** tab displays the current version of Postman, along with links to helpful information and support.
 
-## GPU Hardware Acceleration
+## Hardware Acceleration
 
-The Postman app utilizes hardware acceleration, meaning it will use your computer's GPU to render screen graphics. In some specific cases, your computer's GPU, drivers, hardware, or operating system may cause issues with hardware acceleration. For example, you may see issues with screen artifacts or glitching. If this occurs, you can disable hardware acceleration.
+The Postman app takes advantage of your computer's built-in graphics hardware to accelerate the rendering of onscreen graphics. In some cases, your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, try disabling hardware acceleration.
 
-You can disable Postman's use of GPU acceleration by clearing the **Hardware Acceleration** option in the **Postman** menu in MacOS, or the **Help** menu in Windows or Linux. Changing this option will restart the Postman app. Note that disabling hardware acceleration may cause degraded performance or increased CPU usage.
+To enable or disable hardware acceleration in the Postman app:
+
+* On macOS, select **Postman > Hardware Acceleration**.
+* On Windows or Linux, select **Help > Hardware Acceleration**.
+
+Restart the Postman app to apply the new setting. Disabling hardware acceleration may affect performance or CPU usage.
