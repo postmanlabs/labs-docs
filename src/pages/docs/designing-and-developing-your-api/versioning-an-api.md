@@ -54,24 +54,20 @@ You can access versions in the API Builder by opening **APIs**, selecting the AP
 
 ## Connecting a Repository
 
-<!--TODO lede:
-what?
-You can connect an API to your remote git-based repository.
-why?
-This enables you to
-how?-->
+You can connect an API to your remote git-based repository, at the API level. This enables you to continuously synchronize changes between the repository and Postman. Versions and release tags are then synchronized between Postman and your git repo.
 
-<!--TODO
-The Authentication information shall be stored and used to carry out operations on the linked repo
--->
+To connect a repository:
 
-<!--TODO procedure
-**Connect Repository**
-GitHub
-GitHub Enterprise
-Bitbucket
--->
-<!--TODO choosing directories -->
+1. On the API, select **Connect Repository** and choose a repo type: **GitHub**, **GitHub Enterprise**, or **Bitbucket**.
+1. An authentication pop-up window appears. Enter the information to log in to your repo and select **Grant access**.
+   > This pop-up window may be hidden by your browser. Make sure to enable pop-ups from this site.
+1. On the **Connect your repository page**, enter the information for your repo.
+1. Enter the git **Organization** and **Repository** where the API will be stored.
+   > Note that you can only connect one Postman API per repo. Multiple APIs require multiple repos.
+1. Enter the **Main branch** for the API. This is used to determine what tags are used; code is not pushed to this branch.
+1. Enter the **Development branch** for the API. This is where code updates are pushed.
+1. Enter an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo.
+1. Select **Connect Repository**.
 
 <!--TODO limitations/notes-->
 
