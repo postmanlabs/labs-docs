@@ -9,6 +9,14 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Postman Is Now a Datadog Technology Partner: More Integration Features"
+    url: "https://blog.postman.com/postman-datadog-technology-partner-more-integration-features/"
+
 ---
 
 > **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**

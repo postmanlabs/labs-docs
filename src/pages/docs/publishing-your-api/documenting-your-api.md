@@ -166,7 +166,7 @@ If someone imports the collection using the __Run in Postman__ button from your 
 
 ## Versioning your docs
 
-Any version tags you add to your collections will be published along with your docs. You can add versions to an [API](/docs/collaborating-in-postman/versioning-an-api/) or collection.
+Any version tags you add to your collections will be published along with your docs. You can add versions to an [API](/docs/designing-and-developing-your-api/versioning-an-api/) or collection.
 
 ![Add Version](https://assets.postman.com/postman-docs/docs-version-options.jpg)
 

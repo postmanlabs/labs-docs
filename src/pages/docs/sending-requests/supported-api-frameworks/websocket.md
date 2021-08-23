@@ -9,6 +9,12 @@ contextual_links:
   - type: link
     name: "Installing and updating"
     url: "/docs/getting-started/installation-and-updates/"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Postman Supports Socket.IO"
+    url: "https://blog.postman.com/postman-now-supports-socket-io/"
+
 
 warning: false
 
