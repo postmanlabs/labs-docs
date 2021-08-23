@@ -47,11 +47,33 @@ To use versioning with your APIs, you need to carry out the following steps:
 
 You can access versions in the API Builder by opening **APIs**, selecting the API you want to work with, and clicking **Show All Versions** to the upper-right of the menu.
 
-<img alt ="Show all version" src ="https://assets.postman.com/postman-docs/api-show-all-versions-v8.jpg" width="700px"/>
-
+* [Connecting a Repository](#connecting-a-repository)
 * [Creating API versions](#creating-api-versions)
 * [Updating versions](#updating-versions)
 * [Connecting linked elements to versions](#connecting-linked-elements-to-versions)
+
+## Connecting a Repository
+
+<!--TODO lede:
+what?
+You can connect an API to your remote git-based repository.
+why?
+This enables you to
+how?-->
+
+<!--TODO
+The Authentication information shall be stored and used to carry out operations on the linked repo
+-->
+
+<!--TODO procedure
+**Connect Repository**
+GitHub
+GitHub Enterprise
+Bitbucket
+-->
+<!--TODO choosing directories -->
+
+<!--TODO limitations/notes-->
 
 ## Creating API versions
 
