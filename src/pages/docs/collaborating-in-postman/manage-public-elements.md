@@ -13,12 +13,12 @@ contextual_links:
     url: "https://blog.postman.com/govern-your-public-api-collections-more-effectively/"
   - type: link
     name: "How to Set Up Your First Public Workspace"
-    url: " https://blog.postman.com/how-to-set-up-public-workspaces/" 
+    url: "https://blog.postman.com/how-to-set-up-public-workspaces/" 
   - type: section
     name: "Next Steps"
   - type: link
     name: "Creating workspaces"
-    url: "docs/collaborating-in-postman/using-workspaces/creating-workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces"
 search_keyword: "collection links, collection JSON links, manage public elements, public documentation, public workspaces"
 ---
 
@@ -74,4 +74,4 @@ Hover over the **JSON link** corresponding to the collection and click **Copy li
 
 ## Next steps
 
-To learn more about workspaces, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) and [Managing workspaces](docs/collaborating-in-postman/using-workspaces/managing-workspaces/). For more details on how to create a public workspace, visit [Public workspaces](/docs/collaborating-in-postman/public-workspaces/).
+To learn more about workspaces, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) and [Managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/). For more details on how to create a public workspace, visit [Public workspaces](/docs/collaborating-in-postman/public-workspaces/).
