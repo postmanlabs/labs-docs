@@ -24,7 +24,7 @@ search_keyword: "collection links, collection JSON links, manage public elements
 
 > **[Manage public elements is available only on Postman Enterprise plan.](https://www.postman.com/pricing/)**
 
-[Manage public elements](https://blog.postman.com/govern-your-public-api-collections-more-effectively/) enable you to keep a centralised way to  govern what collections are being shared outside of your team for public consumption. You need to have a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles/) role in enterprise organizations to view and manage everything that’s made public by your team — including public collections links, public documentation, and public workspaces created by members of your team — all in one place.
+The [Manage public elements](https://blog.postman.com/govern-your-public-api-collections-more-effectively/) dashboard gives you a central place to control what collections are shared outside of your team for public consumption. You need to have a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles/) role in enterprise organizations to view and manage everything that’s made public by your team — including public collections links, public documentation, and public workspaces created by members of your team — all in one place.
 
 ## Contents
 
@@ -36,7 +36,7 @@ search_keyword: "collection links, collection JSON links, manage public elements
 
 ### Managing public elements
 
-To have access to manage public elements, you need to have a Community Manager role in a Postman **Enterprise** plan. Being the Community Manager, this will make it easier for you to manage what collections your team has exposed for public consumption and which team member created a specific link. You have the ability to delete links to collections you feel should not be public. Click **Manage** to navigate to the dashboard view.
+To manage public elements, you need to have a Community Manager role in a Postman **Enterprise** plan. Use the dashboard to manage what collections your team has exposed for public consumption and to see which team member created a specific link. You have the ability to delete links to collections you feel should not be public. From the **Home** page, go to the **Manage public elements** section and select **Manage** to navigate to the dashboard view.
 
 <img alt="Manage public elements" src="https://assets.postman.com/postman-docs/manage-public-elements.jpg"/>
 
