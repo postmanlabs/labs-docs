@@ -1,5 +1,5 @@
 ---
-title: "Security Warnings - OpenAPI 2.0"
+title: "OpenAPI 2.0"
 order: 117
 page_id: "security_warnings_openapi_2"
 warning: false
@@ -11,24 +11,22 @@ contextual_links:
   - type: link
     name: "Introducing Security Warnings During API Validation"
     url: "https://blog.postman.com/security-warnings-during-api-validation/"
-search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
+search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit, openapi 2.0"
 ---
 
-In Postman, we highly recommend you to follow Security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 2.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security misses and help you understand their implications and possible ways to patch the warnings.
+In Postman, we highly recommend you to follow Security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 2.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security warnings and help you understand their implications and possible ways to patch the warnings.
 
 For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 
-> Security warnings are available for OpenAPI 2.0 and [OpenAPI 3.0](/docs/api-security/security-warnings/) schemas.
+> Security warnings are available for OpenAPI 2.0 and [OpenAPI 3.0](/docs/api-security/security-warnings/openapi3/) schemas.
 
 You can use Postman to identify any potential security misses when your API is defined.
 
-<img alt="Security warnings for OpenAPI 2.0" src=""/>
+<img alt="Security warnings for OpenAPI 2.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-2.jpg"/>
 
 Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
 
-<img alt="Possible fix security warnings OpenAPI 2.0" src=""/>
-
-### Security warnings
+### Security warnings for OpenAPI 2.0
 
 The following list describes possible warning messages and potential ways to resolve them.
 
@@ -49,12 +47,12 @@ The following list describes possible warning messages and potential ways to res
 * [Global schemes configuration allows insecure enforcement of security schemes](#global-schemes-configuration-allows-insecure-enforcement-of-security-schemes)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
-    * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
+    * [API accepts basic authentication credentials in plain text](#api-accepts-basic-authentication-credentials-in-plain-text)
     * [Global schemes have http scheme defined](#global-schemes-have-http-scheme-defined)
 * [Operation server configuration allows insecure enforcement of security schemes](#operation-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
-    * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
+    * [Operation accepts basic authentication credentials in plain text](#operation-accepts-basic-authentication-credentials-in-plain-text)
     * [Schemes of the operation have HTTP scheme defined](#schemes-of-the-operation-have-http-scheme-defined)
 * [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
     * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
@@ -371,7 +369,7 @@ securityDefinitions:
 
 &nbsp;
 
-### API accepts auth credentials in plain text
+### API accepts basic authentication credentials in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -476,7 +474,7 @@ securityDefinitions:
 
 &nbsp;
 
-### Operation accepts authentication credentials in plain text
+### Operation accepts basic authentication credentials in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
