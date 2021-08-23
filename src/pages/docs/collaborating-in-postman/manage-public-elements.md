@@ -18,13 +18,13 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Creating workspaces"
-    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 search_keyword: "collection links, collection JSON links, manage public elements, public documentation, public workspaces"
 ---
 
 > **[Manage public elements is available only on Postman Enterprise plan.](https://www.postman.com/pricing/)**
 
-The [Manage public elements](https://blog.postman.com/govern-your-public-api-collections-more-effectively/) dashboard gives you a central place to control what collections are shared outside of your team for public consumption. You need to have a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles/) role in enterprise organizations to view and manage everything that’s made public by your team — including public collections links, public documentation, and public workspaces created by members of your team — all in one place.
+The [Manage public elements](https://blog.postman.com/govern-your-public-api-collections-more-effectively/) dashboard gives you a central place to control what collections are shared outside of your team for public consumption. You need to have a [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role in enterprise organizations to view and manage everything that’s made public by your team — including public collections links, public documentation, and public workspaces created by members of your team — all in one place.
 
 ## Contents
 
