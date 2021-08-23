@@ -16,11 +16,16 @@ contextual_links:
   - type: link
     name: "Version Control for Collections | Postman Level Up"
     url: "https://www.youtube.com/watch?v=QKxukXJWRPI&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=7"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Streamline the API Development Lifecycle with Postman Version Control"
+    url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Versioning APIs"
-    url: "/docs/collaborating-in-postman/versioning-an-api/"
+    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
 ---
 
 You can use version control with your Postman Collections by forking and merging and utilizing a standard pull request process. Version control allows you to collaborate with teammates by working on different forks of the same collection, updating forks from the parent collection, and merging changes when you're ready. You can tag collaborators to review pull requests and resolve conflicts to manage collection versions.
@@ -295,4 +300,4 @@ The __Source__ will indicate the changes on your fork, with the __Destination__ 
 
 ## Next steps
 
-You can also use [version control on APIs](/docs/collaborating-in-postman/versioning-an-api/) you design and build in Postman.
+You can also use [version control on APIs](/docs/designing-and-developing-your-api/versioning-an-api/) you design and build in Postman.

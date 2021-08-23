@@ -14,6 +14,11 @@ contextual_links:
   - type: link
     name: "Scaling Team Collaboration at Atlassian"
     url : https://www.youtube.com/watch?v=wYBZrdukack
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Get More Out of Postman by Collaborating with Your Team"
+    url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
   - type: section
     name: "Next Steps"
   - type: link

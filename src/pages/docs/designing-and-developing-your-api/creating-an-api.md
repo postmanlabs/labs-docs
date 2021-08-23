@@ -42,5 +42,3 @@ You can rename, delete, or remove the API from the workspace using the __View mo
 > When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted / removed.
 
 <img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions2.jpg"/>
-
-You can also [version your APIs](/docs/collaborating-in-postman/versioning-an-api/).

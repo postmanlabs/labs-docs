@@ -20,6 +20,11 @@ contextual_links:
     name: "User Info from the Postman API | Postman Level Up"
     url: "https://www.youtube.com/watch?v=k2bvdqxDcsU"
   - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Filtering and Sorting APIs Using the Postman API"
+    url: "https://blog.postman.com/filtering-and-sorting-apis-using-the-postman-api/"
+  - type: subtitle
     name: "Next Steps"
   - type: link
     name: "Continuous Integration"
