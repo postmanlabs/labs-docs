@@ -20,7 +20,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Versioning APIs"
-    url: "/docs/collaborating-in-postman/versioning-an-api/"
+    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
   - type: link
     name: "Viewing and analyzing APIs"
     url: "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
@@ -92,5 +92,5 @@ You can use the __Restore__ link to revert the schema to a previous state.
 
 For more info on working with the API Builder in Postman, check out the following resources:
 
-- [Versioning APIs](/docs/collaborating-in-postman/versioning-an-api/)
+- [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/)
 - [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)

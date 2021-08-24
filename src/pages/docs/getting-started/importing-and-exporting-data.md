@@ -22,6 +22,9 @@ contextual_links:
   - type: link
     name: "Travelogue of Postman Collections Format v2"
     url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
+  - type: link
+    name: "Postman Supports WSDL"
+    url: "https://blog.postman.com/postman-now-supports-wsdl/"
   - type: subtitle
     name: "Next Steps"
   - type: link
