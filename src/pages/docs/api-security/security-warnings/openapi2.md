@@ -1,7 +1,7 @@
 ---
-title: "OpenAPI 2.0"
-order: 117
-page_id: "security_warnings_openapi_2"
+title: "OpenAPI 2.0 warnings"
+order: 118
+page_id: "security_warnings_openapi2.0"
 warning: false
 contextual_links:
   - type: section
@@ -13,12 +13,6 @@ contextual_links:
     url: "https://blog.postman.com/security-warnings-during-api-validation/"
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit, openapi 2.0"
 ---
-
-In Postman, we highly recommend you to follow Security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 2.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security warnings and help you understand their implications and possible ways to patch the warnings.
-
-For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
-
-> Security warnings are available for OpenAPI 2.0 and [OpenAPI 3.0](/docs/api-security/security-warnings/openapi3/) schemas.
 
 You can use Postman to identify any potential security misses when your API is defined.
 
@@ -34,7 +28,7 @@ The following list describes possible warning messages and potential ways to res
     * [Security field is not defined](#security-field-is-not-defined)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-    * [Scope for OAuth scheme used in security field is not defined in the securityDefinitions declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securitydefinitions-declaration)
+    * [Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securitydefinition-declaration)
 * [Reusable security definitions are not defined properly within components](#reusable-security-definitions-are-not-defined-properly-within-components)
     * [Security definition object not defined](#security-definition-object-not-defined)
     * [Security definition object does not contain any scheme](#security-definition-object-does-not-contain-any-scheme)
@@ -122,7 +116,7 @@ security:
 
 &nbsp;
 
-### Scope for OAuth scheme used in security field is not defined in the securityDefinitions declaration
+### Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -365,6 +359,8 @@ securityDefinitions:
     type: apiKey
     name: api_key
     in: header
+security:
+  - apiKeyAuth: []
 ```
 
 &nbsp;
