@@ -45,6 +45,7 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Changing your email address](#changing-your-email-address)
 * [Making your profile public](#making-your-profile-public)
 * [Resetting your password](#resetting-your-password)
+* [Contacting Postman support](#contacting-postman-support)
 
 ## Signing up for a Postman account
 
@@ -179,6 +180,14 @@ Enter your account email, check the __I'm not a robot__ box, and click __Submit_
 Postman will send you an email with instructions for recovering access to your account.
 
 > If you still have trouble logging into your Postman account please [contact support](https://support.postman.com/hc/en-us).
+
+## Contacting Postman support
+
+You can contact Postman's support team for assistance if you encounter any issues with your Postman account. Navigate to Postman's [Support Center](https://www.postman.com/support/) and select **Submit a Request**.
+
+<img alt="Submit request in support center" src="https://assets.postman.com/postman-docs/support-center-submit-request.jpg">
+
+> Check out [Postman's Help Center](https://support.postman.com/hc/en-us) for [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
 
 ## Next steps
 
