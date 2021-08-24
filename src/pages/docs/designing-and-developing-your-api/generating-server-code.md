@@ -1,5 +1,5 @@
 ---
-title: 'Server code generation'
+title: 'Generating server code'
 order: 81.55
 page_id: 'server_codegen'
 warning: false
