@@ -1826,5 +1826,9 @@
 	{
 		"from": "/docs/integrations/available-integrations/victorops/",
 		"to": "/docs/integrations/available-integrations/splunk-on-call/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/",
+		"to": "/docs/api-security/security-warnings/security-warnings-overview/"
 	}
 ]
