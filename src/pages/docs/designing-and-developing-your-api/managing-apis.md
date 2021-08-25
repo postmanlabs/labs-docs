@@ -29,6 +29,7 @@ contextual_links:
 When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
 
 - [Sharing APIs](#sharing-apis)
+- [Watching APIs](#watching-apis)
 - [Commenting on APIs](#commenting-on-apis)
 - [Viewing API events](#viewing-api-events)
 
@@ -53,6 +54,22 @@ Configure access levels for collaborators in your workspace and click __Save Rol
 ![API Workspace Roles](https://assets.postman.com/postman-docs/v8-managing-workspace-roles2.jpg)
 
 In addition to sharing an API via its workspace, you can also share it to the private API network. Doing this allows your team to learn about and access these APIs and start using them right away. Learn more about [adding your API to the private network](/docs/collaborating-in-postman/adding-private-network/).
+
+## Watching APIs
+
+The watch option enables you to receive an email or in-app notification when a team member belonging to the same workspace modifies the API, for example updating the schema, attaching an element to the API, adding a comment to the API and so on.
+
+Click the __watch__ option to start watching the API.
+
+![Watch Option](https://assets.postman.com/postman-docs/v8-watch-button2.jpg)
+
+Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the API.
+
+![Notification Watch API](https://assets.postman.com/postman-docs/v8-watch-notification2.jpg)
+
+You will also receive an email with the information regarding who has made the change, what the change was, and when it was made.
+
+> You will not receive notifications for changes made by yourself.
 
 ## Commenting on APIs
 
