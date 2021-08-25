@@ -1,6 +1,6 @@
 ---
 title: "CircleCI"
-order: 163
+order: 164.3
 page_id: "circleci"
 warning: false
 contextual_links:
@@ -41,12 +41,12 @@ To set up CircleCI integration for your API, you’ll need to create an API toke
     * Select the workspace your API is in.
     * Select the API to use.
     * Select the API version to use. *Each API version can be linked to only one CI project*.
-    * Select the CircleCI project used for your API.
+    * Select the CI project used for your API.
 1. Select **Add Integration**.
 
 > You can also set up a CI integration from within your API. Open your API and select the **Test** tab. Under **Connect to CI/CD Builds**, select the integration you want to add.
 
-<img alt="Add CI integration" src="https://assets.postman.com/postman-docs/ci-add-integration-v9.jpg" width="527px">
+<img alt="Add CI integration" src="https://assets.postman.com/postman-docs/circleci-add-integration-v9.jpg" width="527px">
 
 ## Viewing build status
 
@@ -54,14 +54,14 @@ After you set up CI integration, status information for CI build jobs is availab
 
 To view build jobs, open your API and select the **Test** tab. The most recent jobs are listed under **Recent Runs**. To view the build in your CI tool, hold the cursor over a build and select **View build details**.
 
-To view all build jobs, select **View All Builds**. From here you can:
+To view the full list of build jobs, select **View All Builds**. From here you can:
 
 * Filter the list of builds by branch or view builds for **All Branches**.
 * Select **Run Build** to kick off a new build. Select or type a branch name, and then select **Run Build**.
 * Select **Refresh** to get the latest build status information.
 * Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to edit or delete the integration.
 
-<img alt="View CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9.jpg" width="783">
+<img alt="View CI builds" src="https://assets.postman.com/postman-docs/circleci-view-builds-v9.jpg" width="788">
 
 ## Configuring Newman for CI
 
@@ -80,7 +80,7 @@ To generate a Newman configuration file:
 1. (Optional) Select **+ Add more** to select additional collections to run.
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
-<img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
+<img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/circleci-generate-newman-config-v9.jpg" width="543">
 
 To add the Newman configuration file to CircleCI:
 
@@ -89,7 +89,7 @@ To add the Newman configuration file to CircleCI:
     * Replace both instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
     * Make sure to add the `newman-collection-run` job to a new or existing workflow.
 1. Select **Save and Run** to run the pipeline using the new configuration.
-1. To view the test results, open your API and select the **Tests** tab.
+1. To view the test results in Postman, open your API and select the **Tests** tab.
 
 ### Example CircleCI config.yml
 
