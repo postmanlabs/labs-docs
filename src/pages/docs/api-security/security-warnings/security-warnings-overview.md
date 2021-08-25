@@ -38,4 +38,4 @@ Also, for every security warning that Postman supports, you can inspect each war
 
 ## Next steps
 
-For more information on the list of all warnings supported, see [Security warnings for OpenAPI 3.0](/docs/api-security/security-warnings/openapi3) and [Security warnings for OpenAPI 2.0](/docs/api-security/security-warnings/openapi2/).
+For more information on the list of all warnings supported, see [Security warnings for OpenAPI 3.0](/docs/api-security/security-warnings/openapi3/) and [Security warnings for OpenAPI 2.0](/docs/api-security/security-warnings/openapi2/).
