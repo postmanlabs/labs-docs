@@ -23,11 +23,9 @@ You can use Postman to identify any potential security misses when your API is d
 
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3.jpg"/>
 
-Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
-
 ### Security warnings for OpenAPI 3.0
 
-If the API is defined in OpenAPI 3.0, the following list describes possible warning messages and potential ways to resolve them.
+For all APIs defined in OpenAPI 3.0, the following list describes possible warning messages and potential ways to resolve them.
 
 * [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
     * [Security field is not defined](#security-field-is-not-defined)
