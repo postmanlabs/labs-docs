@@ -7,53 +7,110 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
+    name: "CI Integrations"
+    url: "/docs/integrations/ci-integrations/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Why we became big believers in APIMatic's API transformer"
-    url: "https://blog.postman.com/new-postman-pro-integration-apimatics-api-transformer/"
+    name: "Enhanced workflows with CI and Postman"
+    url: "https://blog.postmanlabs.com/enhanced-workflows-with-ci-and-postman/"
 ---
 
 > **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
 
-You can use Postman's APIMatic integration to back up your Postman collections in Swagger, RAML, API Blueprint, and other API description formats.
+CircleCI is a cloud-based continuous integration and continuous delivery (CI/CD) platform. Software development teams use CircleCI to run build jobs, automate tests, and orchestrate complex workflows.
 
-This integration allows APIMatic to convert your Postman collections into any major API description format, and save the resulting file into your designated GitHub repository.
+To set up CircleCI integration for your API, you’ll need to create an API token in CircleCI and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
 
-If you don't already have a [GitHub account](https://github.com/), you'll need to create one.
+## Creating a CircleCI API Token
 
-## Configuring APIMatic Integration
+1. Log into [CircleCI](https://app.circleci.com/settings/user/tokens) and navigate to **User Settings > Personal API Tokens**.
+1. Select **Create New Token**.
+1. Enter a Token Name and select **Add API Token**.
+1. Select **Copy** to copy the new token. (You might want to save the token somewhere safe.)
 
-From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+## Configuring CircleCI integration
 
-![home page and integrations](https://assets.postman.com/postman-docs/apimatic-home.jpg)
+1. From the Postman **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+1. Search for and select **CircleCI**. Then select **Add integration**.
+1. Enter your CircleCI token and select the check box to agree to let Postman store your token. Then select **Authenticate and Proceed**.
+1. Configure the integration:
+    * Enter a **Nickname** to help you recognize the integration later.
+    * Select the workspace your API is in.
+    * Select the API to use.
+    * Select the API version to use. *Each API version can be linked to only one CI project*.
+    * Select the CircleCI project used for your API.
+1. Select **Add Integration**.
 
-Search and select **APIMatic**.
+> You can also set up a CI integration from within your API. Open your API and select the **Test** tab. Under **Connect to CI/CD Builds**, select the integration you want to add.
 
-![browse and select APIMatic](https://assets.postman.com/postman-docs/apimatic-browse-all.jpg)
+<img alt="Add CI integration" src="https://assets.postman.com/postman-docs/ci-add-integration-v9.jpg" width="527px">
 
-Select **Add Integration** to authorize a periodic backup of your collection to your GitHub repository.
+## Viewing build status
 
-![auth APIMatic](https://assets.postman.com/postman-docs/apimatic-github-auth.jpg)
+After you set up CI integration, status information for CI build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the build status (success or failed), and the time the build ran.
 
-> If you are not signed in to GitHub, you will be prompted to log in.
+To view build jobs, open your API and select the **Test** tab. The most recent jobs are listed under **Recent Runs**. To view the build in your CI tool, hold the cursor over a build and select **View build details**.
 
-[![github apimatic](https://assets.postman.com/postman-docs/apimatic-save-config.jpg)](https://assets.postman.com/postman-docs/apimatic-save-config.jpg)
+To view all build jobs, select **View All Builds**. From here you can:
 
-To back up a collection periodically to a GitHub repository:
+* Filter the list of builds by branch or view builds for **All Branches**.
+* Select **Run Build** to kick off a new build. Select or type a branch name, and then select **Run Build**.
+* Select **Refresh** to get the latest build status information.
+* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to edit or delete the integration.
 
-* Enter your [API key from APIMatic](https://docs.apimatic.io/manage-apis/create-or-import-api#view-api-integration-keys).
-* Select a collection.
-* Select a repository.
-* Specify a directory in the repository where you want to add the collection.
-* Enter a filename for the directory in the repository.
-* Select the format in which you want to save the collection, such as Postman 2.0 or APIMatic format.
-* Specify the branch where you want to add the collection. _Note that the branch you want to back up your collection to must already exist._
+<img alt="View CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9.jpg" width="783">
 
-Click **Add Integration**.
+## Configuring Newman for CI
 
-APIMatic converts your collection to the format of your choice and pushes it to your GitHub repository. This integration runs once a day at 1200UTC. Any changes you make to your collection will be picked up by the converter in its subsequent run. If no updates have been made to your collection, no updates will be pushed to GitHub.
+Running API tests as part of your CI pipeline helps to ensure that expectations between your API producers and consumers stay in sync.
+
+To run your API tests along with each build, first generate a Newman configuration file. Then add the configuration file to your CI tool. After configuration, each time a CI build runs, Newman uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
+
+>Before you begin, make sure you’ve already set up an integration between your API and CI tool.
+
+To generate a Newman configuration file:
+
+1. Open your API and select the **Test** tab
+1. Under **Recent Runs**, select **View All Builds**.
+1. Select **Configure Newman**.
+1. Select a **Collection** and **Environment** to run during CI builds.
+1. (Optional) Select **+ Add more** to select additional collections to run.
+1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
+
+<img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
+
+To add the Newman configuration file to CircleCI:
+
+1. Open the project in CircleCI, select a branch, and then select **Edit Config**.
+1. Paste the Newman configuration you copied from Postman:
+    * Replace both instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Make sure to add the `newman-collection-run` job to a new or existing workflow.
+1. Select **Save and Run** to run the pipeline using the new configuration.
+1. To view the test results, open your API and select the **Tests** tab.
+
+### Example CircleCI config.yml
+
+```yaml
+version: 2.1
+
+orbs:
+  newman: postman/newman@0.0.2
+
+jobs:
+  newman-collection-run:
+    executor: newman/postman-newman-docker
+    steps:
+      - checkout
+
+      - newman/newman-run:
+        collection: https://api.getpostman.com/collections/789883-28b680e3-eb56-4135-8f4c-de01a6e494e9?apikey=$POSTMAN_API_KEY
+        environment: https://api.getpostman.com/environments/5d1b4d44-ac1e-4eb6-9062-b28cd96333a4?apikey=$POSTMAN_API_KEY
+
+workflows:
+  example-workflow:
+    jobs:
+      - newman-collection-run
+```
