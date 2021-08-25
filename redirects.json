@@ -1830,5 +1830,9 @@
 	{
 		"from": "/docs/api-security/security-warnings/",
 		"to": "/docs/api-security/security-warnings/security-warnings-overview/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/watching-an-api/",
+		"to": "/docs/designing-and-developing-your-api/managing-apis/"
 	}
 ]
