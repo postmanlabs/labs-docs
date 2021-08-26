@@ -42,10 +42,15 @@ The following are the high-level steps involved when creating and using APIs:
 * [Developing an API](/docs/designing-and-developing-your-api/developing-an-api/) - Add [a mock server](/docs/designing-and-developing-your-api/developing-an-api/#adding-a-mock-server) and [documentation](/docs/designing-and-developing-your-api/developing-an-api/#adding-documentation) to your API.
 * [Testing an API](/docs/designing-and-developing-your-api/testing-an-api/) - Add [a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-a-test-suite), [integration tests](/docs/designing-and-developing-your-api/testing-an-api/#adding-integration-tests), and [contract tests](/docs/designing-and-developing-your-api/testing-an-api/#adding-contract-tests) to your API.
 * [Observing an API](/docs/designing-and-developing-your-api/observing-an-api/) - Add monitors to observe your API.
-
-## Next steps
-
-For more information on building your APIs in Postman, check out the following resources:
-
 * [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/)
 * [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
+
+# Navigating the API Builder
+
+When you open an API in Postman, you start at the **API Overview** page. This page displays high-level information about all versions of your API, and a list of each version of the API. In the left sidebar, below the API, you will also see a sub-entry for each version of the API. The **API Overview** page includes actions to create a new version of the API.
+
+![](https://via.placeholder.com/500x300.png?text=under+construction)
+
+Select an API version to open an **API version** page. The version page contains an **Overview** tab, which shows information on releases for that version of the API. The **API version** page has has tabs where you define the API, attach documentation and test, view deployments, and monitor the API. This page also has controls to connect an external git repo, commit and push or pull changes, and switch branches.
+
+![](https://via.placeholder.com/500x300.png?text=under+construction)

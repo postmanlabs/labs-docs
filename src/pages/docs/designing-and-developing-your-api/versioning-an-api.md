@@ -52,7 +52,31 @@ You can access versions in the API Builder by opening **APIs**, selecting the AP
 * [Updating versions](#updating-versions)
 * [Connecting linked elements to versions](#connecting-linked-elements-to-versions)
 
-## Connecting a Repository
+## Versioning concepts
+
+There are three different possible approaches to API versioning:
+
+* **A remote git repository** - You can connect a GitHub or Bitbucket repo to your API version, and sync API specs and collections. You can continuously make changes in develop branches, then merge to a main branch that hosts the released version of the API. This provides an API-first developer workflow, and also enables you make changes to your API files outside of Postman, and the changes will be synchronized.
+* **The Postman versioning system**
+* **GitHub two-way sync** - integration for two-way sync of an API schema
+
+Each API has a version, a release, and a status:
+
+* A _version_ defines a discrete set of resources shipped to customers defining a feature set.
+* A _release_ is a periodic incremental change to a version of an API. Releases are mapped to git tags.
+* A _status_ is an arbitrary text tag which you can change to indicate the current stage of the API within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production."
+
+You can create any number of versions in parallel. For example, you can create a new 2.0 version of an API that introduces breaking changes, but keep adding changes to the 1.0 version.
+
+A typical workflow for API-first development:
+
+1. Create an initial version of an API. Set the version's status to indicate it is in progress, such as "Planning" or "In Development."
+1. Select a feature branch in your repo. Make changes to the schema and collection, then commit and push changes to the git repo.
+1. Periodically pull from the feature branch to get changes others have made to the feature, and resolve conflicts if there are any issues.
+1. Review changes on your feature branches using your repo's tools, and merge them to the main branch in git. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
+1. After you've accrued enough changes, go to the changelog and select **Release changes**. Name the release, add a release note, and map the release to a git release tag.
+
+## Connecting a repository
 
 You can connect an API to your remote git-based repository, at the API level. This enables you to continuously synchronize changes between the repository and Postman. Versions and release tags are then synchronized between Postman and your git repo.
 
