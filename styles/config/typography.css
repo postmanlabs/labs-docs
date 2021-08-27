@@ -1,7 +1,12 @@
 @font-face {
-  font-family: 'degular_displaysemibold';
+  font-family: 'Degular Display Demo';
   src: url('/styles/degulardisplay-semibold-webfont.woff2') format('woff2'),
        url('/styles/degulardisplay-semibold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Degular Display Demo';
+  src: url('../DegularDisplayDemo-Semibold.ttf');
 }
