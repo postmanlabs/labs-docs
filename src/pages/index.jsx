@@ -19,9 +19,7 @@ import './index.scss';
 const heroBackground = {
   backgroundColor: '#eaf2f8',
 };
-const videoBackground = {
-  backgroundColor: 'rgb(245, 248, 251)',
-};
+
 class IndexPage extends React.Component {
   componentDidMount() {
     const pix = document.createElement('script');
@@ -136,19 +134,19 @@ class IndexPage extends React.Component {
           </div>
         </section>
         {/* Youtube Video Section */}
-        <section className="row section" style={videoBackground}>
-          <div className="col-lg-4 order-lg-1">
+        <section className="row section align-items-center">
+          <div className="col-lg-4">
             <h2>Intro to Postman</h2>
             <p>Learn the Postman fundamentals in this video course for beginners.</p>
             <p className="mb-4">
               Send and authorize a request, write test scripts, and chain requests together.
             </p>
           </div>
-          <div className="col-lg-8 order-lg-13">
-            <div className="embed-responsive embed-responsive-16by9">
+          <div className="col-lg-8">
+            <div className="embed-responsive embed-responsive-16by9 img-frame">
               <iframe
                 loading="lazy"
-                className="embed-responsive-item"
+                className="embed-responsive-item "
                 src="https://www.youtube-nocookie.com/embed/7E60ZttwIpY?rel=0"
                 title="Intro to Postman"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
