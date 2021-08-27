@@ -113,7 +113,7 @@ $ newman run -h
 |:--|:--|
 | `--bail` | Stops the runner when a test case fails |
 | `--silent` | Disable terminal output |
-| `--color off` | Disable colored output (auto|on|off) (default: "auto")|
+| `--color off` | Disable colored output (auto\|on\|off) (default: "auto")|
 | `-k`, `--insecure` | Disable strict ssl |
 | `-x`, `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0` |
 | `--ignore-redirects` | Disable automatic following of `3XX` responses |
