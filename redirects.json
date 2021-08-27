@@ -157,7 +157,7 @@
 	},
 	{
 		"from": "/docs/integrations/victorops/",
-		"to": "/docs/integrations/available-integrations/victorops/"
+		"to": "/docs/integrations/available-integrations/splunk-on-call/"
 	},
 	{
 		"from": "/docs/postman-enterprise/audit-logs/",
