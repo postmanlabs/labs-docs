@@ -6,7 +6,9 @@
   font-style: normal;
 }
 
+/*  Currently only Semibold is imported for Headers */
 @font-face {
   font-family: 'Degular Display Demo';
   src: url('../DegularDisplayDemo-Semibold.ttf');
 }
+
