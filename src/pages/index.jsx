@@ -7,7 +7,7 @@ import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 
 import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
-import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.png';
+// import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
 
@@ -76,7 +76,7 @@ class IndexPage extends React.Component {
         </section>
 
         <section className="row section">
-          <div className="col-sm-12 text-center">
+          <div className="col-sm-12">
             <h2 className="mb-5">Design, develop, and collaborate on your API projects</h2>
             <div className="row justify-content-center">
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
@@ -103,33 +103,36 @@ class IndexPage extends React.Component {
                   description="Tackle a new challenge each day with these developer tutorials."
                   link="https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
                   cta="Start Challenge"
-                  icon={TeamCollaborationImage}
+                  icon={ResourceImage}
                 />
               </div>
             </div>
             <div className="row justify-content-center">
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-                <SecondaryCard
+                <LandingCard
                   title="Postman Space Camp"
                   description="See previous and upcoming educational webinars."
                   cta="See Webinars"
-                  ctaLink="https://www.postman.com/events/postman-space-camp/"
+                  link="https://www.postman.com/events/postman-space-camp/"
+                  icon={LearnImage}
                 />
               </div>
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-                <SecondaryCard
+                <LandingCard
                   title="Postman Network"
                   description="Browse APIs, workspaces, and collections inside Postman."
+                  link="https://www.postman.com/explore"
                   cta="Explore Postman"
-                  ctaLink="https://www.postman.com/explore"
+                  icon={ResourceImage}
                 />
               </div>
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-                <SecondaryCard
+                <LandingCard
                   title="Videos"
                   description="Learn Postman skills from our video playlists."
+                  link="https://www.youtube.com/c/Postman"
                   cta="Watch Videos"
-                  ctaLink="https://www.youtube.com/c/Postman"
+                  icon={ResourceImage}
                 />
               </div>
             </div>
@@ -192,7 +195,8 @@ class IndexPage extends React.Component {
                 // Combine platform, date and time of the event
                 // Example: Livestream - 01/01/2000 4PM PST
                 const eventInformation = `${event.location} - ${date} ${event.time}`;
-                const isStale = new Date(event.expirationDate) < (new Date()) && ' d-none' || '';
+                // added parathensis to remove linter error
+                const isStale = new Date(event.expirationDate) < ((new Date()) && ' d-none') || '';
                 return (
                   <div className={`col-12 col-xl-10 offset-xl-1 mb-4${isStale}`} key={uuidv4()}>
                     <OutboundLink
