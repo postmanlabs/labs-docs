@@ -255,28 +255,31 @@ class IndexPage extends React.Component {
             )}
           </div>
         </section>
-        <section className="row section justify-content-center">
+        <section className="row section justify-content-center cards-outline">
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-            <SecondaryCard
+            <LandingCard
               title="Postman support"
               description="Reach out to our support team."
               cta="Open a ticket"
+              icon={LearnImage}
               ctaLink="https://support.postman.com/hc/en-us/requests/new/"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-            <SecondaryCard
+            <LandingCard
               title="Bugs and feature requests"
               description="Check out the app support repo."
               cta="Make a request"
+              icon={LearnImage}
               ctaLink="https://github.com/postmanlabs/postman-app-support/"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-            <SecondaryCard
+            <LandingCard
               title="Community"
               description="Join the Postman community."
               cta="Visit Forum"
+              icon={LearnImage}
               ctaLink="https://community.postman.com/"
             />
           </div>
