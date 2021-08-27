@@ -16,8 +16,10 @@ import '../components/MarketingPages/Buttons.scss';
 
 import './index.scss';
 
+
 const heroBackground = {
-  backgroundColor: '#eaf2f8',
+  // grey_10
+  backgroundColor: '#F2F2F2',
 };
 const videoBackground = {
   backgroundColor: 'rgb(245, 248, 251)',
