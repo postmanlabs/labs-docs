@@ -19,7 +19,7 @@ import './index.scss';
 
 const heroBackground = {
   // grey_10
-  backgroundColor: '#F2F2F2',
+  backgroundColor: '#f9f9f9',
   padding: '48px 80px',
 };
 const videoBackground = {
