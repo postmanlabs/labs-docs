@@ -1,4 +1,5 @@
 @import './Shared/_variables.scss';
+@import "../../styles/config/typography.css";
 
 // Footer has font Open Sans
 * {
@@ -16,6 +17,7 @@ code {
 
 h1,
 .h1 {
+  font-family: 'degular_displaysemibold';
   font-size: 48px !important;
   line-height: 1.2083333333 !important;
 }

@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 
-import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
+import HeroImage from '../assets/refresh-hero-image.svg';
 import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
@@ -20,6 +20,7 @@ import './index.scss';
 const heroBackground = {
   // grey_10
   backgroundColor: '#F2F2F2',
+  padding: '48px 80px',
 };
 const videoBackground = {
   backgroundColor: 'rgb(245, 248, 251)',
@@ -53,29 +54,31 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home" slug="/" />
-        <section className="row section" style={heroBackground}>
-          <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
-            <h1>Postman Learning Center</h1>
-            <p>
-              Learn how to use Postman.
-              {' '}
-              <br />
-              Check out the docs and support resources!
-            </p>
-            <a href="/docs/getting-started/introduction/" className="btn btn__primary mb-5">
-              Explore the docs
-            </a>
-          </div>
-          <div className="col-sm-12 col-md-7 col-lg-6 align-self-center">
-            <img
-              src={HeroImage}
-              width="637"
-              height="411"
-              className="hero-image img-fluid"
-              alt="Postmanaut sitting at computer. Illustration."
-            />
-          </div>
-        </section>
+        <div className="container-fluid">
+          <section className="row section align-items-center" style={heroBackground}>
+            <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
+              <h1>Postman Learning Center</h1>
+              <p>
+                Learn how to use Postman.
+                {' '}
+                <br />
+                Check out the docs and support resources!
+              </p>
+              <a href="/docs/getting-started/introduction/" className="btn btn__primary-hollow mb-5">
+                Explore the docs
+              </a>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
+              <img
+                src={HeroImage}
+                width="637"
+                height="411"
+                className="hero-image img-fluid"
+                alt="Postmanaut sitting at computer. Illustration."
+              />
+            </div>
+          </section>
+        </div>
 
         <section className="row section">
           <div className="col-sm-12 text-center">
