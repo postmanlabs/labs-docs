@@ -79,7 +79,7 @@ class IndexPage extends React.Component {
           <div className="col-sm-12">
             <h2 className="mb-5">Design, develop, and collaborate on your API projects</h2>
             <div className="row justify-content-center">
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="Get Started"
                   description="Send your first API request in Postman in just a few clicks!"
@@ -88,7 +88,7 @@ class IndexPage extends React.Component {
                   icon={LearnImage}
                 />
               </div>
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="Test"
                   description="Write test scripts and build automation into your workflow."
@@ -97,7 +97,7 @@ class IndexPage extends React.Component {
                   icon={ResourceImage}
                 />
               </div>
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="30 Days of Postman"
                   description="Tackle a new challenge each day with these developer tutorials."
@@ -106,7 +106,7 @@ class IndexPage extends React.Component {
                   icon={ResourceImage}
                 />
               </div>
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="Postman Space Camp"
                   description="See previous and upcoming educational webinars."
@@ -115,7 +115,7 @@ class IndexPage extends React.Component {
                   icon={LearnImage}
                 />
               </div>
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="Postman Network"
                   description="Browse APIs, workspaces, and collections inside Postman."
@@ -124,7 +124,7 @@ class IndexPage extends React.Component {
                   icon={ResourceImage}
                 />
               </div>
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="Videos"
                   description="Learn Postman skills from our video playlists."
