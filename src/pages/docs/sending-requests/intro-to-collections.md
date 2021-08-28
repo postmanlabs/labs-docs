@@ -115,7 +115,7 @@ You can [share](/docs/collaborating-in-postman/sharing/) your collections to a w
 
 ### Recovering deleted collections
 
-You can recover deleted collections in Postman using __Trash__. Click `...` next to the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the statisbar in the bottom right corner in Postman.
+You can recover deleted collections in Postman using __Trash__. Click `...` next to the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the status bar in the bottom right corner in Postman.
 
 <img alt="Trash" src="https://assets.postman.com/postman-docs/trash-v8.jpg"/>
 
