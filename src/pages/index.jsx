@@ -106,8 +106,6 @@ class IndexPage extends React.Component {
                   icon={ResourceImage}
                 />
               </div>
-            </div>
-            <div className="row justify-content-center">
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="Postman Space Camp"
