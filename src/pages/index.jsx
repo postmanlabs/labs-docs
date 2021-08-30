@@ -260,7 +260,7 @@ class IndexPage extends React.Component {
             )}
           </div>
         </section>
-        <section className="row section justify-content-center cards-outline">
+        <section className="row section cards-outline">
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
             <LandingCard
               title="Postman support"
