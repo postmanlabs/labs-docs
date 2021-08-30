@@ -6,22 +6,23 @@ import SEO from '../components/seo';
 import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 
-import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
-import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.png';
+import HeroImage from '../assets/refresh-hero-image.svg';
+// import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
 
-import { SecondaryCard, LandingCard } from '../components/MarketingPages/Cards';
+import { LandingCard } from '../components/MarketingPages/Cards';
 import '../components/MarketingPages/Buttons.scss';
 
 import './index.scss';
 
+
 const heroBackground = {
-  backgroundColor: '#eaf2f8',
+  // grey_10
+  backgroundColor: '#f9f9f9',
+  padding: '48px 80px',
 };
-const videoBackground = {
-  backgroundColor: 'rgb(245, 248, 251)',
-};
+
 class IndexPage extends React.Component {
   componentDidMount() {
     const pix = document.createElement('script');
@@ -51,35 +52,37 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home" slug="/" />
-        <section className="row section" style={heroBackground}>
-          <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
-            <h1>Postman Learning Center</h1>
-            <p>
-              Learn how to use Postman.
-              {' '}
-              <br />
-              Check out the docs and support resources!
-            </p>
-            <a href="/docs/getting-started/introduction/" className="btn btn__primary mb-5">
-              Explore the docs
-            </a>
-          </div>
-          <div className="col-sm-12 col-md-7 col-lg-6 align-self-center">
-            <img
-              src={HeroImage}
-              width="637"
-              height="411"
-              className="hero-image img-fluid"
-              alt="Postmanaut sitting at computer. Illustration."
-            />
-          </div>
-        </section>
+        <div className="container-fluid">
+          <section className="row section align-items-center" style={heroBackground}>
+            <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
+              <h1>Postman Learning Center</h1>
+              <p>
+                Learn how to use Postman.
+                {' '}
+                <br />
+                Check out the docs and support resources!
+              </p>
+              <a href="/docs/getting-started/introduction/" className="btn btn__primary-hollow mb-5">
+                Explore the docs
+              </a>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
+              <img
+                src={HeroImage}
+                width="637"
+                height="411"
+                className="hero-image img-fluid"
+                alt="Postmanaut sitting at computer. Illustration."
+              />
+            </div>
+          </section>
+        </div>
 
         <section className="row section">
-          <div className="col-sm-12 text-center">
+          <div className="col-sm-12">
             <h2 className="mb-5">Design, develop, and collaborate on your API projects</h2>
             <div className="row justify-content-center">
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="Get Started"
                   description="Send your first API request in Postman in just a few clicks!"
@@ -88,7 +91,7 @@ class IndexPage extends React.Component {
                   icon={LearnImage}
                 />
               </div>
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="Test"
                   description="Write test scripts and build automation into your workflow."
@@ -97,58 +100,59 @@ class IndexPage extends React.Component {
                   icon={ResourceImage}
                 />
               </div>
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
                   title="30 Days of Postman"
                   description="Tackle a new challenge each day with these developer tutorials."
                   link="https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
                   cta="Start Challenge"
-                  icon={TeamCollaborationImage}
+                  icon={ResourceImage}
                 />
               </div>
-            </div>
-            <div className="row justify-content-center">
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-                <SecondaryCard
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
+                <LandingCard
                   title="Postman Space Camp"
                   description="See previous and upcoming educational webinars."
                   cta="See Webinars"
-                  ctaLink="https://www.postman.com/events/postman-space-camp/"
+                  link="https://www.postman.com/events/postman-space-camp/"
+                  icon={LearnImage}
                 />
               </div>
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-                <SecondaryCard
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
+                <LandingCard
                   title="Postman Network"
                   description="Browse APIs, workspaces, and collections inside Postman."
+                  link="https://www.postman.com/explore"
                   cta="Explore Postman"
-                  ctaLink="https://www.postman.com/explore"
+                  icon={ResourceImage}
                 />
               </div>
-              <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-                <SecondaryCard
+              <div className="col-sm-6 col-lg-4 mb-3 mb-md-4">
+                <LandingCard
                   title="Videos"
                   description="Learn Postman skills from our video playlists."
+                  link="https://www.youtube.com/c/Postman"
                   cta="Watch Videos"
-                  ctaLink="https://www.youtube.com/c/Postman"
+                  icon={ResourceImage}
                 />
               </div>
             </div>
           </div>
         </section>
         {/* Youtube Video Section */}
-        <section className="row section" style={videoBackground}>
-          <div className="col-lg-4 order-lg-1">
+        <section className="row section align-items-center">
+          <div className="col-lg-4">
             <h2>Intro to Postman</h2>
             <p>Learn the Postman fundamentals in this video course for beginners.</p>
             <p className="mb-4">
               Send and authorize a request, write test scripts, and chain requests together.
             </p>
           </div>
-          <div className="col-lg-8 order-lg-13">
-            <div className="embed-responsive embed-responsive-16by9">
+          <div className="col-lg-8">
+            <div className="embed-responsive embed-responsive-16by9 img-frame">
               <iframe
                 loading="lazy"
-                className="embed-responsive-item"
+                className="embed-responsive-item "
                 src="https://www.youtube-nocookie.com/embed/7E60ZttwIpY?rel=0"
                 title="Intro to Postman"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -192,7 +196,8 @@ class IndexPage extends React.Component {
                 // Combine platform, date and time of the event
                 // Example: Livestream - 01/01/2000 4PM PST
                 const eventInformation = `${event.location} - ${date} ${event.time}`;
-                const isStale = new Date(event.expirationDate) < (new Date()) && ' d-none' || '';
+                // added parathensis to remove linter error
+                const isStale = new Date(event.expirationDate) < ((new Date()) && ' d-none') || '';
                 return (
                   <div className={`col-12 col-xl-10 offset-xl-1 mb-4${isStale}`} key={uuidv4()}>
                     <OutboundLink
@@ -262,7 +267,7 @@ class IndexPage extends React.Component {
               description="Reach out to our support team."
               cta="Open a ticket"
               icon={LearnImage}
-              ctaLink="https://support.postman.com/hc/en-us/requests/new/"
+              link="https://support.postman.com/hc/en-us/requests/new/"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
@@ -271,7 +276,7 @@ class IndexPage extends React.Component {
               description="Check out the app support repo."
               cta="Make a request"
               icon={LearnImage}
-              ctaLink="https://github.com/postmanlabs/postman-app-support/"
+              link="https://github.com/postmanlabs/postman-app-support/"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
@@ -280,7 +285,7 @@ class IndexPage extends React.Component {
               description="Join the Postman community."
               cta="Visit Forum"
               icon={LearnImage}
-              ctaLink="https://community.postman.com/"
+              link="https://community.postman.com/"
             />
           </div>
         </section>
