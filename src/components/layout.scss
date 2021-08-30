@@ -1,8 +1,13 @@
 @import './Shared/_variables.scss';
+@import "../../styles/config/typography.css";
 
 // Footer has font Open Sans
 * {
-  font-family: 'Roboto';
+  font-family: 'Inter';
+}
+
+code {
+  font-family: 'IBM Plex Mono';
 }
 
 .layout-wrapper {
@@ -12,18 +17,21 @@
 
 h1,
 .h1 {
+  font-family: 'Degular Display Demo' !important;
   font-size: 48px !important;
   line-height: 1.2083333333 !important;
 }
 
 h2,
 .h2 {
+  font-family: 'Degular Display Demo' !important;
   font-size: 38px !important;
   line-height: 1.2631578947 !important;
 }
 
 h3,
 .h3 {
+  font-family: 'Degular Display Demo' !important;
   font-size: 30px !important;
   line-height: 1.2666666667 !important;
 }
