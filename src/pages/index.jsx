@@ -11,7 +11,7 @@ import HeroImage from '../assets/refresh-hero-image.svg';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
 
-import { SecondaryCard, LandingCard } from '../components/MarketingPages/Cards';
+import { LandingCard } from '../components/MarketingPages/Cards';
 import '../components/MarketingPages/Buttons.scss';
 
 import './index.scss';
@@ -260,29 +260,32 @@ class IndexPage extends React.Component {
             </div>
           </div>
         </section>
-        <section className="row section justify-content-center">
+        <section className="row section cards-outline">
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-            <SecondaryCard
+            <LandingCard
               title="Postman support"
               description="Reach out to our support team."
               cta="Open a ticket"
-              ctaLink="https://support.postman.com/hc/en-us/requests/new/"
+              icon={LearnImage}
+              link="https://support.postman.com/hc/en-us/requests/new/"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-            <SecondaryCard
+            <LandingCard
               title="Bugs and feature requests"
               description="Check out the app support repo."
               cta="Make a request"
-              ctaLink="https://github.com/postmanlabs/postman-app-support/"
+              icon={LearnImage}
+              link="https://github.com/postmanlabs/postman-app-support/"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-            <SecondaryCard
+            <LandingCard
               title="Community"
               description="Join the Postman community."
               cta="Visit Forum"
-              ctaLink="https://community.postman.com/"
+              icon={LearnImage}
+              link="https://community.postman.com/"
             />
           </div>
         </section>
