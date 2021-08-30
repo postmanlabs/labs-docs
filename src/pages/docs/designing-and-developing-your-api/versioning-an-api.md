@@ -37,19 +37,20 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-<!-- TODO: change this section -->
+<!-- TODO: change the "link collections..." part -->
 You can manage multiple versions of any APIs you create in Postman. You can link collections, mocks, monitors, and documentation to specific versions of APIs using version tagging.
 
 To use versioning with your APIs, you need to carry out the following steps:
 
 * Link your API to a collection
-* Add version tags to your collection
-* Update version tags on API changes
+* Add versions to your API
+* Make releases for minor API changes, and new versions for major changes
 
 You can access versions in the API Builder by opening **APIs**, selecting the API you want to work with, and clicking **Show All Versions** to the upper-right of the menu.
 
 <!--TODO: note that collection version control is something different, xref -->
 
+* [Versioning concepts](#versioning-concepts)
 * [Connecting a Repository](#connecting-a-repository)
 * [Creating API versions](#creating-api-versions)
 * [Updating versions](#updating-versions)
@@ -57,17 +58,11 @@ You can access versions in the API Builder by opening **APIs**, selecting the AP
 
 ## Versioning concepts
 
-There are three different possible approaches to API versioning:
-
-* **A remote git repository** - You can connect a GitHub or Bitbucket repo to your API version, and sync API specs and collections. You can continuously make changes in develop branches, then merge to a main branch that hosts the released version of the API. This provides an API-first developer workflow, and also enables you make changes to your API files outside of Postman, and the changes will be synchronized.
-* **The Postman versioning system**
-* **GitHub two-way sync** - integration for two-way sync of an API schema
-
-Each API has a version, a release, and a status:
+Each API in Postman has a version, a release, and a status:
 
 * A _version_ defines a discrete set of resources shipped to customers defining a feature set.
 * A _release_ is a periodic incremental change to a version of an API. Releases are mapped to git tags.
-* A _status_ is an arbitrary text tag which you can change to indicate the current stage of the API within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production."
+* A _status_ is an arbitrary text tag which you can change to indicate the current stage of the API.
 
 You can create any number of versions in parallel. For example, you can create a new 2.0 version of an API that introduces breaking changes, but keep adding changes to the 1.0 version.
 
@@ -77,7 +72,16 @@ A typical workflow for API-first development:
 1. Select a feature branch in your repo. Make changes to the schema and collection, then commit and push changes to the git repo.
 1. Periodically pull from the feature branch to get changes others have made to the feature, and resolve conflicts if there are any issues.
 1. Review changes on your feature branches using your repo's tools, and merge them to the main branch in git. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
-1. After you've accrued enough changes, go to the changelog and select **Release changes**. Name the release, add a release note, and map the release to a git release tag.
+1. After you've accrued enough changes, go to the changelog and select **Release changes**. Name the release, add a release note, and map the release to a git release tag. Then change the status to "In Production."
+
+### External repositories
+
+You can connect a GitHub or Bitbucket repo to your API, and sync your API specifications and collections with the repo. You can continuously make changes in develop branches, then merge to a main branch that hosts the released version of the API. This provides an API-first developer workflow, and also enables you make changes to your API files outside of Postman, and the changes will be synchronized.
+
+<!--TODO: Uniqueness of Branches/Repos w.r.t. Versions/APIs -->
+
+<!-- TODO: GitHub two-way sync deprecated. Existing integrations still work, but you can't add a new one, and you need to disconnect the old one to use the new system.
+-->
 
 ## Connecting a repository
 
@@ -96,38 +100,78 @@ To connect a repository:
 1. Enter an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo.
 1. Select **Connect Repository**.
 
-<!--TODO limitations/notes-->
+After you connect the repository, you will have a source control dropdown list, which contains the status of your sync, along with commands to commit,
+
+<!--TODO note: usage counts against total number of integrations -->
+
+## Pushing and pulling changes
+
+When you are connected to an external git repo, you will see an indication in the source control button that shows your current develop branch, and if your changes in Postman are ahead of or behind the files in your external repo.
+
+<!-- TODO: screenshot -->
+
+To get changes from the remote repo, select **Pull** from the dropdown list. This syncs any changes from the remote repo to Postman. If you have a local change that conflicts with the remote copy, you will be shown the latest commit number, and the conflicting files. To resolve the conflict, next to each file, select either **Keep remote file** or **Keep local file**, then click **Pull Changes**.
+
+To add your changes to the external repo, select **Commit and push** from the dropdown list. If there have been changes on the remote repo, you will be asked to pull changes first. You will be shown a list of files modified. Enter a commit message, and select **Commit and Push Changes**.
+
+<!-- TODO:
+## Changing branches
+**Switch branch**
+
+You only have one develop branch you defined when you connected the repo. Externally, people can work on whatever feature branches, then merge to develop, but that review/merge happens in your git tool.
+
+-->
 
 ## Creating API versions
 
-When you create a new API in Postman, it will indicate the version you entered during the API creation. You can create new versions from scratch or from an existing version. Click __Show All Versions__.
+When you create a new API in Postman, it will indicate the version you entered during the API creation. You can create new versions from scratch or based on an existing version.
 
-<img alt="API Version" src="https://assets.postman.com/postman-docs/api-current-version-v8.jpg" width="400px"/>
+To create a new version:
 
-From here you can rename and delete versions—_deleting a version will also delete its version tag_. To create a new version, click __Create another version__.
+1. Click __Show All Versions__.
 
-<img alt="API Version List" src="https://assets.postman.com/postman-docs/api-version-list-v8.jpg" width="400px"/>
+   <img alt="API Version" src="https://assets.postman.com/postman-docs/api-current-version-v8.jpg" width="400px"/>
 
-Enter a version name. If you want want to base this version on an existing version select it from the dropdown list, otherwise choose __Don't carry over any elements__. If you are basing your new version on an existing version, check any elements you want to connect to the new version. Click __Create Version__.
+1. From here you can rename and delete versions—_deleting a version will also delete its version tag_. To create a new version, click __+ Create new__.
 
-<img alt="API Version List" src="https://assets.postman.com/postman-docs/add-new-api-version-v8.jpg" width="400px"/>
+   <img alt="API Version List" src="https://assets.postman.com/postman-docs/api-version-list-v8.jpg" width="400px"/>
 
-Your new version will open in the API Builder.
+1. Enter a version name. If you want want to base this version on an existing version select it from the dropdown list, otherwise choose __Don't carry over any elements__. If you are basing your new version on an existing version, check any elements you want to connect to the new version.
 
-<!-- TODO: Make this version available for consumers -->
+   <img alt="API Version List" src="https://assets.postman.com/postman-docs/add-new-api-version-v8.jpg" width="400px"/>
+
+1. Click __Create Version__. Your new version will open in the API Builder.
+
+<!-- TODO: **Make this version available for consumers** option -->
 
 <!-- TODO:
-## Branching
+## Creating API releases
 
-## Push/Pull
+Release names can be semantic versions (`3.2.0-beta`) or dynamic (`2021-12-25`).
 
-## Creating a releases
+1. Create tags in repo first.
+1. Go to Changelog in sidebar.
+1. Shows unreleased changes. Select **+ Release changes**
+1. Enter **Release name**, **Description**, select a tag in **Git release**. Select or clear **Show this release to consumers in changelog**.
+   > You can only map releases to tags if you use an external git repo.
+1. Select **Create Release**.
 
-Can be named semantic or date/dynamic
 You can't commit changes to a released API.
+
+TODO: Tagging API for changelog V2
 -->
 
+## Setting an API status
+
+An API status is an arbitrary text tag which you can change to indicate the current stage of the API within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." There are nine possible statuses. You can set different statuses for each version of an API.
+
+A status doesn't affect visibility, permissions, or availability of an API. It's simply a way to tell others on your team the current state of the API. Statuses are not automatically changed by any actions or state change in your files. You can change the status at any time.
+
+Statuses are displayed in the upper left of the API tab. To set a new status, choose one from the dropdown list.
+
 ## Updating versions
+
+<!-- TODO: update -->
 
 Postman automatically updates the version tags for linked collections whenever you update the API version. If you add a new version to the API, Postman will also add that version tag to the collection.
 
@@ -188,11 +232,4 @@ Monitors, mocks, and documentation are always associated with specific versions 
 * The version tags of monitors and mocks linked to versioned collections do not update automatically. If you update the version of an API you're monitoring, you need to create a new monitor linked to the new version as your original linked monitor will run on the original collection.
 * Documentation version tags automatically update along with your API.
 
-You can [publish specific versions of collection documentation](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
-
-## Next steps
-
-For more on working with the API Builder, check out the following topics:
-
-* [Validating elements against schema](/docs/designing-and-developing-your-api/validating-elements-against-schema/)
-* [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
+You can then [publish specific versions of collection documentation](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
