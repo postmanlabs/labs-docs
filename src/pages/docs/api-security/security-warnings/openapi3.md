@@ -1,9 +1,14 @@
 ---
-title: "Security Warnings"
-order: 116
-page_id: "security_warnings"
+title: "OpenAPI 3.0 warnings"
+order: 117
+page_id: "security_warnings_openapi3.0"
 warning: false
 contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Introduction to security warnings"
+    url: "/docs/api-security/security-warnings/security-warnings-overview/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -11,26 +16,16 @@ contextual_links:
   - type: link
     name: "Introducing Security Warnings During API Validation"
     url: "https://blog.postman.com/security-warnings-during-api-validation/"
-search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
+search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit,openapi 3.0"
 ---
-
-In Postman, we highly recommend you to follow Security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in the OpenAPI 3.0 format. A security warning does not mean that your API schema is broken; it indicates that there are potential security risks to which your API is vulnerable. Postman will highlight these security misses and help you understand their implications and possible ways to patch the warnings.
-
-For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
-
-> Security warnings are available only for OpenAPI 3.0 schemas.
 
 You can use Postman to identify any potential security misses when your API is defined.
 
-<img alt="Security warnings" src="https://assets.postman.com/postman-docs/explore-security-warnings.jpg"/>
+<img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3.jpg"/>
 
-Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning.
+### Security warnings for OpenAPI 3.0
 
-<img alt="Possible fix security warnings" src="https://assets.postman.com/postman-docs/possible-fix-for-security-warnings.gif"/>
-
-### Security warnings
-
-The following list describes possible warning messages and potential ways to resolve them.
+For all APIs defined in OpenAPI 3.0, the following list describes possible warning messages and potential ways to resolve them.
 
 * [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
     * [Security field is not defined](#security-field-is-not-defined)
@@ -760,7 +755,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Oauth password grant flow uses  the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the password grant flow. |
+| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the password grant flow. |
 
 **Resolution:**
 
