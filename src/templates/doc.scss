@@ -165,11 +165,11 @@ thead:first-child:hover tr{
 * add syntax highlighting
 */
 :not(pre) > code[class*="language-"] {
-  font-family: monospace !important;
+  font-family: 'IBM Plex Mono' !important;
   background-color: lightgray !important;
   color: $gray-3;
   padding: 3px !important;
-  font-size: 1.2em !important;
+  font-size: 16px !important;
 }
 
 code[class*="language-"] {
@@ -206,7 +206,7 @@ code[class*="language-"] {
   .token.attr-value,
   .token.tag,
   .token.punctuation {
-    font-family: monospace !important;
+    font-family: 'IBM Plex Mono' !important;
     white-space: pre-wrap;
     word-break: break-word;
     line-height: 1.666rem;
@@ -220,7 +220,7 @@ code[class*="language-"] {
   * 3. Adjust the position of the line numbers
   */
   pre[class*="language-"] {
-    font-family: monospace !important;
+    font-family: 'IBM Plex Mono' !important;
     background-color: transparent;
     margin: 0;
     padding: 0;
