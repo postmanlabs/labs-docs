@@ -55,6 +55,43 @@ p {
   // }
 }
 
+// refresh 2021 layout changes
+.container {
+  padding-right: 24px;
+    padding-left: 24px;
+  @media screen and (max-width: 1199px) {
+    max-width: 1199px !important; /* v5 was 1440px; v6 is 1199px */
+    width: 100%;
+    // padding-right: 24px;
+    // padding-left: 24px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1224px !important; /* v5 was 1440px; v6 is 1224px */
+    width: 100%;
+    // padding-right: 24px;
+    // padding-left: 24px;
+  }
+  @media screen and (max-width: 576px) {
+    // padding-right: 24px !important;
+    // padding-left: 24px !important;
+  }
+}
+
+.row {
+  margin-right: -12px;
+  margin-left: -12px;
+
+  &.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.container-fluid {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+
 div.col-sm-7.doc-page {
   padding: 64px 72px;
 }

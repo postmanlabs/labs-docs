@@ -23,9 +23,6 @@
       width: 28px !important;
       } 
     
-  }
-
-  li {
     li {
       padding: 10px !important;
       margin-bottom: 8px;
@@ -49,6 +46,16 @@
 
     li::marker {
       color: $orange_30 !important;
+    }
+  }
+
+  ol {
+    li {
+      padding-left: 10px !important;
+      margin-bottom: 8px;
+    }
+    li::marker {
+      color: $grey_70;
     }
   }
 /////////////////////////////////////////////////////////////////////////
