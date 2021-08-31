@@ -69,14 +69,14 @@ You can create any number of versions in parallel. For example, you can create a
 A typical workflow for API-first development:
 
 1. Create an initial version of an API. Set the version's status to indicate it is in progress, such as "Planning" or "In Development."
-1. Select a feature branch in your repo. Make changes to the schema and collection, then commit and push changes to the git repo.
+1. Select a feature branch in your repo. Make changes to the schema and associated collections, then commit and push changes to the git repo.
 1. Periodically pull from the feature branch to get changes others have made to the feature, and resolve conflicts if there are any issues.
 1. Review changes on your feature branches using your repo's tools, and merge them to the main branch in git. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
-1. After you've accrued enough changes, go to the changelog and select **Release changes**. Name the release, add a release note, and map the release to a git release tag. Then change the status to "In Production."
+1. After you've accrued changes, go to the changelog and select **Release changes**. Name the release, add a release note, and map the release to a git release tag. Then change the status to "In Production."
 
 ### External repositories
 
-You can connect a GitHub or Bitbucket repo to your API, and sync your API specifications and collections with the repo. You can continuously make changes in develop branches, then merge to a main branch that hosts the released version of the API. This provides an API-first developer workflow, and also enables you make changes to your API files outside of Postman, and the changes will be synchronized.
+You can connect a GitHub or Bitbucket repo to your API, and sync your API specifications and associated collections with the repo. You can continuously make changes in develop branches, then merge to a main branch that hosts the released version of the API. This provides an API-first developer workflow, and also enables you make changes to your API files outside of Postman, and the changes will be synchronized.
 
 <!--TODO: Uniqueness of Branches/Repos w.r.t. Versions/APIs -->
 
@@ -100,19 +100,25 @@ To connect a repository:
 1. Enter an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo.
 1. Select **Connect Repository**.
 
-After you connect the repository, you will have a source control dropdown list, which contains the status of your sync, along with commands to commit,
+After you connect the repository, your API will have a repo dropdown list at the top of the API overview, which contains the status of your sync, along with commands to commit,
 
 <!--TODO note: usage counts against total number of integrations -->
 
 ## Pushing and pulling changes
 
-When you are connected to an external git repo, you will see an indication in the source control button that shows your current develop branch, and if your changes in Postman are ahead of or behind the files in your external repo.
+When you are connected to an external git repo, the repo dropdown list displays your current develop branch and if your API changes in Postman are ahead of or behind the files in your external repo.
 
-<!-- TODO: screenshot -->
+<!-- TODO: screenshot of the dropdown with changes, not selected -->
+
+<!-- TODO: this also shows links to the repo and branch -->
+
+### Pulling Changes
 
 To get changes from the remote repo, select **Pull** from the dropdown list. This syncs any changes from the remote repo to Postman. If you have a local change that conflicts with the remote copy, you will be shown the latest commit number, and the conflicting files. To resolve the conflict, next to each file, select either **Keep remote file** or **Keep local file**, then click **Pull Changes**.
 
-To add your changes to the external repo, select **Commit and push** from the dropdown list. If there have been changes on the remote repo, you will be asked to pull changes first. You will be shown a list of files modified. Enter a commit message, and select **Commit and Push Changes**.
+### Committing and pushing changes
+
+To add your local changes to the external repo, select **Commit and push** from the dropdown list. If there have been changes on the remote repo, you will be asked to pull changes first. You will be shown a list of files modified. Enter a commit message, and select **Commit and Push Changes**.
 
 <!-- TODO:
 ## Changing branches
@@ -132,7 +138,7 @@ To create a new version:
 
    <img alt="API Version" src="https://assets.postman.com/postman-docs/api-current-version-v8.jpg" width="400px"/>
 
-1. From here you can rename and delete versions—_deleting a version will also delete its version tag_. To create a new version, click __+ Create new__.
+1. From here you can rename and delete versions. (_Deleting a version will also delete its version tag_.) To create a new version, click __+ Create new__.
 
    <img alt="API Version List" src="https://assets.postman.com/postman-docs/api-version-list-v8.jpg" width="400px"/>
 
@@ -171,7 +177,7 @@ Statuses are displayed in the upper left of the API tab. To set a new status, ch
 
 ## Updating versions
 
-<!-- TODO: update -->
+<!-- TODO: update content -->
 
 Postman automatically updates the version tags for linked collections whenever you update the API version. If you add a new version to the API, Postman will also add that version tag to the collection.
 
