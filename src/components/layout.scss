@@ -1,5 +1,5 @@
 @import './Shared/_variables.scss';
-@import "../../styles/config/typography.css";
+@import '../../styles/config/typography.css';
 
 // Footer has font Open Sans
 * {
@@ -35,15 +35,25 @@ h3,
   font-size: 30px !important;
   line-height: 1.2666666667 !important;
 }
+h4,
+.h4 {
+  font-family: 'Inter' !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.32px!important;
+  margin-bottom: 8px !important;
+}
 
-// p {
-//   a {
-//     color: $postman-orange;
-//     &:hover {
-//       color: $gray-3;
-//     }
-//   }
-// }
+p {
+  font-size: 16px;
+  // a {
+  //   color: $postman-orange;
+  //   &:hover {
+  //     color: $gray-3;
+  //   }
+  // }
+}
 
 div.col-sm-7.doc-page {
   padding: 64px 72px;

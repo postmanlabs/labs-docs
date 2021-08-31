@@ -163,16 +163,17 @@ class IndexPage extends React.Component {
         </section>
         {/* Livestream Section */}
         <section className="row section">
-          <div className="col-md-12 text-center mb-3">
+          <div className="col-xs-12 col col-md-4 text-left">
             <h2 id="upcoming-livestreams">Upcoming Postman Livestreams</h2>
             <p>
-              <a href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
+              <a className="link-style" href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
                 Follow us
               </a>
               {' '}
               on Twitch or
               {' '}
               <a
+                className="link-style"
                 href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -183,81 +184,80 @@ class IndexPage extends React.Component {
               to our YouTube channel so you don’t miss when we go live.
             </p>
           </div>
-          <div className="row justify-content-center d-flex align-items-stretch event-wrapper">
-            {/* If there are events in the events.json array */}
-            {sortedUpcomingEvents.length > 0 ? (
-              // Map over, get the appropriate values and render event.
-              sortedUpcomingEvents.map((event) => {
-                // Used for Left side of events (Example: JAN 1)
-                const dateObject = new Date(event.date);
-                // Used for Right Side of events
-                const today = new Date(event.date);
-                const date = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
-                // Combine platform, date and time of the event
-                // Example: Livestream - 01/01/2000 4PM PST
-                const eventInformation = `${event.location} - ${date} ${event.time}`;
-                // added parathensis to remove linter error
-                const isStale = new Date(event.expirationDate) < ((new Date()) && ' d-none') || '';
-                return (
-                  <div className={`col-12 col-xl-10 offset-xl-1 mb-4${isStale}`} key={uuidv4()}>
-                    <OutboundLink
-                      className="event-link-wrapper"
-                      href={event.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+          <div className="col-xs-12 col-md-8 justify-content-center d-flex align-items-stretch event-wrapper">
+            <div className="row">
+              {/* If there are events in the events.json array */}
+              {sortedUpcomingEvents.length > 0 ? (
+                // Map over, get the appropriate values and render event.
+                sortedUpcomingEvents.map((event) => {
+                  // Used for Left side of events (Example: JAN 1)
+                  const dateObject = new Date(event.date);
+                  // Used for Right Side of events
+                  const today = new Date(event.date);
+                  const date = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
+                  // Combine platform, date and time of the event
+                  // Example: Livestream - 01/01/2000 4PM PST
+                  const eventInformation = `${event.location} - ${date} ${event.time}`;
+                  // added parathensis to remove linter error
+                  const isStale = new Date(event.expirationDate) < ((new Date()) && ' d-none') || '';
+                  return (
+                    <div className={`col-12 col-xl-10 offset-xl-1 ${isStale} event-single-wrapper`} key={uuidv4()}>
                       <div className="row">
-                        <div className="col-3 col-xl-2 event-date">
-                          <span className="event-month">
-                            {' '}
-                            <strong>{`${months[dateObject.getUTCMonth()]}`}</strong>
-                          </span>
-                          <span>
-                            <strong>{`${dateObject.getDate()}`}</strong>
-                          </span>
+                        <div className="col-2 event-date event-month">
+                          {/* <span className="event-month"> */}
+                          {`${months[dateObject.getUTCMonth()]}`}
+                          {/* </span> */}
+                          {' '}
+                          {`${dateObject.getDate()}`}
                         </div>
-                        <div className="col-7">
+                        <div className="col-8 event-description-wrapper">
                           <p className="mb-1 event-location">{`${eventInformation}`}</p>
-                          <p className="event-title">{event.title}</p>
+                          <h4 className="event-title">{event.title}</h4>
                           <p>{event.description}</p>
-                        </div>
-                        <div className="col-1 icon">
-                          <i className="pm-icon-chevron-right" />
+                          <OutboundLink
+                            className="event-link-wrapper link-style"
+                            href={event.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span>See Details →</span>
+                          </OutboundLink>
                         </div>
                       </div>
-                    </OutboundLink>
-                  </div>
-                );
-              })
-            ) : (
-              <>
-                {/* If there are no events, and events.json is an object
-                  where development eq true */}
-                {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
-                  <div className="events__alert" role="alert">
-                    <p>
-                      You are currently in develop mode. Dynamic events will not be displayed
-                      locally.
-                      <a
-                        style={{ fontSize: 'inherit' }}
-                        href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        See Contributing doc for details
-                      </a>
-                      .
-                    </p>
-                  </div>
-                ) : (
-                  <>
-                    {/* else we know we have 0 upcoming events, and we are not
-                      in development mode */}
-                    <p>We currently have no upcoming events...check back later.</p>
-                  </>
-                )}
-              </>
-            )}
+                    </div>
+                  );
+                })
+              ) : (
+                <>
+                  {/* If there are no events, and events.json is an object
+                    where development eq true */}
+                  {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
+                    <div className="events__alert" role="alert">
+                      <p>
+                        You are currently in develop mode. Dynamic events will not be displayed
+                        locally.
+                        <a
+                          className="link-style"
+                          style={{ fontSize: 'inherit' }}
+                          href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          See Contributing doc for details
+                        </a>
+                        .
+                      </p>
+                    </div>
+                  ) : (
+                    <>
+                      {/* else we know we have 0 upcoming events, and we are not
+                        in development mode */}
+                      <p>We currently have no upcoming events...check back later.</p>
+                    </>
+                  )}
+                </>
+              )}
+            </div>
           </div>
         </section>
         <section className="row section cards-outline">
