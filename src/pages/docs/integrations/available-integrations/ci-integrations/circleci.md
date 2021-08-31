@@ -28,7 +28,7 @@ To set up CircleCI integration for your API, you’ll need to create an API toke
 
 1. Log into [CircleCI](https://app.circleci.com/settings/user/tokens) and navigate to **User Settings > Personal API Tokens**.
 1. Select **Create New Token**.
-1. Enter a Token Name and select **Add API Token**.
+1. Enter a **Token Name** and select **Add API Token**.
 1. Select **Copy** to copy the new token. (You might want to save the token somewhere safe.)
 
 ## Configuring CircleCI integration
@@ -36,6 +36,9 @@ To set up CircleCI integration for your API, you’ll need to create an API toke
 1. From the Postman **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 1. Search for and select **CircleCI**. Then select **Add integration**.
 1. Enter your CircleCI token and select the check box to agree to let Postman store your token. Then select **Authenticate and Proceed**.
+
+    <img alt="Add API key" src="https://assets.postman.com/postman-docs/circleci-api-key-v9.jpg" width="527px">
+
 1. Configure the integration:
     * Enter a **Nickname** to help you recognize the integration later.
     * Select the workspace your API is in.
@@ -44,47 +47,15 @@ To set up CircleCI integration for your API, you’ll need to create an API toke
     * Select the CI project used for your API.
 1. Select **Add Integration**.
 
+    <img alt="Add CI integration" src="https://assets.postman.com/postman-docs/circleci-add-integration-v9.jpg" width="527px">
+
 > You can also set up a CI integration from within your API. Open your API and select the **Test** tab. Under **Connect to CI/CD Builds**, select the integration you want to add.
 
-<img alt="Add CI integration" src="https://assets.postman.com/postman-docs/circleci-add-integration-v9.jpg" width="527px">
+## Configuring Newman for CircleCI
 
-## Viewing build status
+With the help of Newman and the Postman API, you can run API tests created in Postman as part of your CI pipeline. First [generate the Newman configuration code](/docs/integrations/ci-integrations/#configuring-newman-for-ci) in Postman. Then add the configuration code to CircleCI:
 
-After you set up CI integration, status information for CI build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the build status (success or failed), and the time the build ran.
-
-To view build jobs, open your API and select the **Test** tab. The most recent jobs are listed under **Recent Runs**. To view the build in your CI tool, hold the cursor over a build and select **View build details**.
-
-To view the full list of build jobs, select **View All Builds**. From here you can:
-
-* Filter the list of builds by branch or view builds for **All Branches**.
-* Select **Run Build** to kick off a new build. Select or type a branch name, and then select **Run Build**.
-* Select **Refresh** to get the latest build status information.
-* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to edit or delete the integration.
-
-<img alt="View CI builds" src="https://assets.postman.com/postman-docs/circleci-view-builds-v9.jpg" width="788">
-
-## Configuring Newman for CI
-
-Running API tests as part of your CI pipeline helps to ensure that expectations between your API producers and consumers stay in sync.
-
-To run your API tests along with each build, first generate a Newman configuration file. Then add the configuration file to your CI tool. After configuration, each time a CI build runs, Newman uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
-
->Before you begin, make sure you’ve already set up an integration between your API and CI tool.
-
-To generate a Newman configuration file:
-
-1. Open your API and select the **Test** tab
-1. Under **Recent Runs**, select **View All Builds**.
-1. Select **Configure Newman**.
-1. Select a **Collection** and **Environment** to run during CI builds.
-1. (Optional) Select **+ Add more** to select additional collections to run.
-1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
-
-<img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/circleci-generate-newman-config-v9.jpg" width="543">
-
-To add the Newman configuration file to CircleCI:
-
-1. Open the project in CircleCI, select a branch, and then select **Edit Config**.
+1. Open your project in CircleCI, select a branch, and then select **Edit Config**.
 1. Paste the Newman configuration you copied from Postman:
     * Replace both instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
     * Make sure to add the `newman-collection-run` job to a new or existing workflow.
