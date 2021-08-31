@@ -2,22 +2,21 @@
 
 .contextual-links {
   margin: 12px 16px;
-  border-top: 5px solid $postman-orange;
   
   .contextual-links__section {
     margin-top: 24px;
     margin-bottom: 8px;
     font-size: 16px;
     font-weight: 600;
-    color: $gray-3;
+    color: $grey_80;
   }
   .contextual-links__link {
     margin-bottom: 12px;
   }
 
   .contextual-links__subtitle {
-    color: $gray-2;
-    font-size: 12px;
+    color: $grey-60;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 1rem;
@@ -31,11 +30,12 @@
   }
 
   a {
-    color: $postman-orange;
+    color: $grey_50;
     font-size: 14px;
     text-decoration: none;
     &:hover {
-      color: $gray-3;
+      color: $blue_60;
+      border-bottom: 1px solid $blue_60;
     }
   }
 

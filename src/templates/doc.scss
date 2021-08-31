@@ -98,6 +98,11 @@ blockquote {
 .edit-button {
   margin-top: 32px;
   margin-left: 12px;
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 4px;
+  }
 
   @media (min-width:767px) and (max-width: 990px) {
     padding-left: 16px;
@@ -114,12 +119,26 @@ blockquote {
   }
 }
 
-@media (max-width: 990px) {
-  .right-colum {
-  padding-bottom: 80px;
-  padding-left: 16px;
-  }
+.right-column {
+  margin-top: 64px;
+  padding-left: 0px !important;
 }
+
+.sticky {
+  margin-top: 64px;
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 160px;
+  // top: 0;
+
+}
+
+// @media (max-width: 990px) {
+//   .right-column {
+//     padding-bottom: 80px;
+//     padding-left: 16px;
+//   }
+// }
 
 tr:hover {
   background-color: #FAE1D4;
