@@ -3,8 +3,8 @@
 .leftNav {
   background-color: $grey_10;
   height: 100%;
-  font-size: 16px;
-  line-height: 1.5em;
+  font-size: 14px;
+  font-family: 'Inter';
   padding: 32px 8px 8px 20px;
   .active.root > .parent.currentUrl {
     background-color: inherit;
@@ -12,7 +12,7 @@
     padding-left: 70px;
     & button {
       &:hover{
-        color: $postman-orange;
+        color: $grey_60;
       }
     }
   }
@@ -56,12 +56,12 @@
       outline: inherit;
       text-transform: capitalize;
       &:hover{
-        color: $postman-orange;
+        color: $grey_60;
       }
     }
 
     &.currentUrl {
-      background-color: $postman-orange;
+      background-color: $grey_60;
       color: $white;
       margin: 0 -8px 16px -80px;
       padding: 8px 0 8px 70px;
@@ -89,7 +89,7 @@
         min-width: 5px;
         height: 1.5em;
         display: inline-block;
-        background-color: $postman-orange;
+        background-color: $grey_60;
         position: relative;
         left: -10px;
         top: 5px;
@@ -106,13 +106,18 @@
       text-decoration: none;
       color: inherit;
       &:hover {
-        color: $postman-orange;
+        color: $grey_70;
       }
     }
   }
 
   ul.active > .child, ul.active > .parent, ul.active > ul.inactive, ul.inactive.root {
     display: block;
+  }
+
+  ul.active > .child {
+    color: $grey_50;
+
   }
 
   ul.inactive > .child, ul.inactive > ul {

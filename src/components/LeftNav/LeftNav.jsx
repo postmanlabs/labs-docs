@@ -5,6 +5,9 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import React from 'react';
 import './LeftNav.scss';
 
+import { caret } from './caret.svg';
+
+
 const { v4: uuidv4 } = require('uuid');
 const replacements = require('./replacements.json');
 
@@ -88,6 +91,7 @@ class ListItem extends React.Component {
         `}
       >
         <li className={`parent${this.inUrl(`/${name}/`) ? ' currentUrl' : ''}`}>
+          <img src={caret} alt="---------------------------" />
           <img onClick={this.toggleActive} className={`caret${this.isActive(name) ? ' active-caret' : ''}`} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg==" alt="" />
           <button type="button" onClick={this.toggleActive} identifier={name}>
             {replacements[name] ? replacements[name] : name.replace(/-/g, ' ')}
