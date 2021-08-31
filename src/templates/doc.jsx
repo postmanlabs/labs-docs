@@ -32,7 +32,7 @@ export default ({ data }) => {
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-4 right-column">
                 <div className="edit-button">
-                  <EditDoc className="btn btn__small btn__secondary-light" />
+                  <EditDoc className="btn btn__small btn__secondary-light edit-button-styles" />
                 </div>
                 {contextualLinks}
               </aside>

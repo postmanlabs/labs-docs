@@ -98,8 +98,19 @@ blockquote {
 .edit-button {
   margin-top: 32px;
   margin-left: 12px;
+
   @media (min-width:767px) and (max-width: 990px) {
     padding-left: 16px;
+  }
+}
+
+.edit-button-styles {
+  border: 1px solid $grey_40 !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  &:hover {
+    border: 1px solid $grey_70 !important;
+    background-color: transparent !important;
   }
 }
 
