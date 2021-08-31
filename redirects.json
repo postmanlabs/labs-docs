@@ -321,7 +321,7 @@
 	},
 	{
 		"from": "/docs/postman-pro/integrations/microsoft-flow/",
-		"to": "/docs/integrations/available-integrations/microsoft-flow/"
+		"to": "/docs/integrations/available-integrations/microsoft-power-automate/"
 	},
 	{
 		"from": "/docs/postman-pro/integrations/microsoft-teams/",
@@ -337,7 +337,7 @@
 	},
 	{
 		"from": "/docs/postman-pro/integrations/victorops/",
-		"to": "/docs/integrations/available-integrations/victorops/"
+		"to": "/docs/integrations/available-integrations/splunk-on-call/"
 	},
 	{
 		"from": "/docs/postman-pro/integrations/webhooks/",
