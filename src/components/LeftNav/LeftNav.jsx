@@ -91,8 +91,9 @@ class ListItem extends React.Component {
         `}
       >
         <li className={`parent${this.inUrl(`/${name}/`) ? ' currentUrl' : ''}`}>
-          <img src={caret} alt="---------------------------" />
-          <img onClick={this.toggleActive} className={`caret${this.isActive(name) ? ' active-caret' : ''}`} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg==" alt="" />
+          {/* <img src={caret} alt="---------------------------" /> */}
+          {/* <img onClick={this.toggleActive} className={`caret${this.isActive(name) ? ' active-caret' : ''}`} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg==" alt="" /> */}
+          <svg onClick={this.toggleActive} className={`caret${this.isActive(name) ? ' active-caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24" viewBox="0 0 24 24" width="24"><path clip-rule="evenodd" d="m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z" fill="#000" fill-rule="evenodd"/></svg>
           <button type="button" onClick={this.toggleActive} identifier={name}>
             {replacements[name] ? replacements[name] : name.replace(/-/g, ' ')}
           </button>
