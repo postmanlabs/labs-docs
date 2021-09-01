@@ -38,7 +38,7 @@ You can validate your API schema in Postman, and validate your elements (documen
 
 ## Validating schema
 
-Postman will indicate validation errors on your API schema as you edit it in the **Define** tab.
+Postman will indicate validation errors on your API schema as you edit it in the **Definition** tab.
 
 [![Schema error](https://assets.postman.com/postman-docs/schema-validation-error-open.jpg)](https://assets.postman.com/postman-docs/schema-validation-error-open.jpg)
 

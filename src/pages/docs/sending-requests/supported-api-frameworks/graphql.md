@@ -70,7 +70,7 @@ You can also [use Postman variables](/docs/sending-requests/variables/) as data 
 
 To [create or import a GraphQL schemas](/docs/designing-and-developing-your-api/the-api-workflow/) into Postman, complete the following steps.
 
-1. Under the **APIs** tab, click **+ New API**, navigate to the **Define** tab, and then select **Create new** or **Import file**.
+1. Under the **APIs** tab, click **+ New API**, open an API version page, navigate to the **Definition** tab, and then select **Create new** or **Import file**.
 [![upload schema](https://i.imgur.com/dCM4jyE.png)](https://i.imgur.com/dCM4jyE.png)
 1. Choose **GraphQL** from the dropdown, and click **Save**.
 [![save schema](https://i.imgur.com/GCrGiVp.png)](https://i.imgur.com/GCrGiVp.png)

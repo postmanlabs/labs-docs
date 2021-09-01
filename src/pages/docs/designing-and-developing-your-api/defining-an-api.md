@@ -32,9 +32,9 @@ You can define the structure of your API using its specification. You can also g
 
 ## Editing your schema
 
-The __Define__ tab in your API will include a specification (either one you imported or a sample Postman added when you created the API).
+The __Definition__ tab in each API version page contains an editor for your API specification (either one you imported or a sample Postman added when you created the API).
 
-The default schema format is Open API 3.0, with YAML as the default language. To use a different schema type or language, choose it from the drop-down list.
+The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the drop-down list.
 
 The left pane of the schema editor displays an outline of your schema. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Click nodes to expand or collapse them. Click an element in the outline to jump to it in the editor. You can also click the outline button to hide or show the outline.
 

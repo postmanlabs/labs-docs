@@ -43,15 +43,14 @@ You can manage multiple versions of any APIs you create in Postman. You can link
 To use versioning with your APIs, you need to carry out the following steps:
 
 * Link your API to a collection
-* Add versions to your API
-* Make releases for minor API changes, and new versions for major changes
-
-You can access versions in the API Builder by opening **APIs**, selecting the API you want to work with, and clicking **Show All Versions** to the upper-right of the menu.
+* Add versions for your API
+* Create releases for minor API changes, and new versions for major changes
 
 <!--TODO: note that collection version control is something different, xref -->
 
 * [Versioning concepts](#versioning-concepts)
-* [Connecting a Repository](#connecting-a-repository)
+* [Using an external git repository](#using-an-external-git-repository)
+  - [Connecting a Repository](#connecting-a-repository)
 * [Creating API versions](#creating-api-versions)
 * [Updating versions](#updating-versions)
 * [Connecting linked elements to versions](#connecting-linked-elements-to-versions)
@@ -74,7 +73,7 @@ A typical workflow for API-first development:
 1. Review changes on your feature branches using your repo's tools, and merge them to the main branch in git. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
 1. After you've accrued changes, go to the changelog and select **Release changes**. Name the release, add a release note, and map the release to a git release tag. Then change the status to "In Production."
 
-### External repositories
+## Using an external git repository
 
 You can connect a GitHub or Bitbucket repo to your API, and sync your API specifications and associated collections with the repo. You can continuously make changes in develop branches, then merge to a main branch that hosts the released version of the API. This provides an API-first developer workflow, and also enables you make changes to your API files outside of Postman, and the changes will be synchronized.
 
@@ -83,7 +82,7 @@ You can connect a GitHub or Bitbucket repo to your API, and sync your API specif
 <!-- TODO: GitHub two-way sync deprecated. Existing integrations still work, but you can't add a new one, and you need to disconnect the old one to use the new system.
 -->
 
-## Connecting a repository
+### Connecting a repository
 
 You can connect an API to your remote git-based repository, at the API level. This enables you to continuously synchronize changes between the repository and Postman. Versions and release tags are then synchronized between Postman and your git repo.
 
@@ -104,7 +103,7 @@ After you connect the repository, your API will have a repo dropdown list at the
 
 <!--TODO note: usage counts against total number of integrations -->
 
-## Pushing and pulling changes
+### Pushing and pulling changes
 
 When you are connected to an external git repo, the repo dropdown list displays your current develop branch and if your API changes in Postman are ahead of or behind the files in your external repo.
 
@@ -112,11 +111,11 @@ When you are connected to an external git repo, the repo dropdown list displays 
 
 <!-- TODO: this also shows links to the repo and branch -->
 
-### Pulling Changes
+#### Pulling changes
 
 To get changes from the remote repo, select **Pull** from the dropdown list. This syncs any changes from the remote repo to Postman. If you have a local change that conflicts with the remote copy, you will be shown the latest commit number, and the conflicting files. To resolve the conflict, next to each file, select either **Keep remote file** or **Keep local file**, then click **Pull Changes**.
 
-### Committing and pushing changes
+#### Committing and pushing changes
 
 To add your local changes to the external repo, select **Commit and push** from the dropdown list. If there have been changes on the remote repo, you will be asked to pull changes first. You will be shown a list of files modified. Enter a commit message, and select **Commit and Push Changes**.
 
@@ -126,41 +125,37 @@ To add your local changes to the external repo, select **Commit and push** from 
 
 You only have one develop branch you defined when you connected the repo. Externally, people can work on whatever feature branches, then merge to develop, but that review/merge happens in your git tool.
 
+removing integration
+
 -->
 
-## Creating API versions
+## Working with API versions
 
-<!-- TODO: all different.
-From API summary page_id
-... - > **Create version**
+When you create a new API in Postman, it also creates one version you entered during the API creation. You can create new versions from scratch or based on an existing version.
 
-rename/edit/delete is now on version overview page ... menu
+<!-- TODO:
+Each API version has its own API version page.
 -->
 
-When you create a new API in Postman, it will indicate the version you entered during the API creation. You can create new versions from scratch or based on an existing version.
+### Creating versions
 
-To create a new version:
+To create a new version of an API:
 
-1. Click __Show All Versions__.
+1. Go to the API **Overview** page. From the action menu (...) select **Create version**.
 
-   <img alt="API Version" src="https://assets.postman.com/postman-docs/api-current-version-v8.jpg" width="400px"/>
+   ![](https://via.placeholder.com/200x100.png?text=under+construction)
 
-1. From here you can rename and delete versions. (_Deleting a version will also delete its version tag_.) To create a new version, click __+ Create new__.
+1. Enter a version name.
 
-   <img alt="API Version List" src="https://assets.postman.com/postman-docs/api-version-list-v8.jpg" width="400px"/>
+1. Select **Make this version available for consumers** if you want the new version to be visible.
 
-1. Enter a version name. If you want want to base this version on an existing version select it from the dropdown list, otherwise choose __Don't carry over any elements__. If you are basing your new version on an existing version, check any elements you want to connect to the new version.
+1. If you want want to base this version on existing elements, click **Show more options** to expand the dialog. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
 
-   <img alt="API Version List" src="https://assets.postman.com/postman-docs/add-new-api-version-v8.jpg" width="400px"/>
+   ![](https://via.placeholder.com/200x100.png?text=under+construction)
 
 1. Click __Create Version__. Your new version will open in the API Builder.
 
-<!-- TODO:
-**Show more options**
-**Copy elements from a previous version** option
-**Make this version available for consumers** option -->
-
-## Updating versions
+### Updating versions
 
 <!-- TODO: update content - also consolidate with the creating versions above -->
 
@@ -182,9 +177,14 @@ To resolve this, add a corresponding version tag to the collection.
 
 When you update an API version number and choose to carry over elements from a previous version, Postman provides you a list of elements that you need to update in order to match the new API version. This makes the API Builder your central dashboard to manage changes across all of your API elements.
 
+### Renaming and deleting versions
 <!-- TODO:
+rename/edit/delete is now on version overview page ... menu
+-->
+
 ## Creating API releases
 
+<!--TODO:
 Release names can be semantic versions (`3.2.0-beta`) or dynamic (`2021-12-25`).
 
 1. Create tags in repo first.
@@ -207,7 +207,9 @@ A status doesn't affect visibility, permissions, or availability of an API. It's
 
 Statuses are displayed in the upper left of the API tab. To set a new status, choose one from the dropdown list.
 
-### Validating APIs
+## Validating APIs
+
+<!-- TODO: this all changes. -->
 
 For APIs using OpenAPI 3.0, you can validate the schema against the documentation and select __Click to validate__ to start the validation.
 
@@ -226,7 +228,7 @@ Your collection will be in sync with schema.
 <img alt="Collection updated" src="https://assets.postman.com/postman-docs/collection-updated-v8.jpg" width="500px"/>
 
 ## Connecting linked elements to versions
-
+<!-- TODO: edits -->
 You can link elements such as collections to a version of an API, [by adding either documentation or a test suite](/docs/designing-and-developing-your-api/the-api-workflow/) in the API Builder.
 
 [![Api link collections](https://assets.postman.com/postman-docs/api-link-collections-v8.gif)](https://assets.postman.com/postman-docs/api-link-collections-v8.gif)
