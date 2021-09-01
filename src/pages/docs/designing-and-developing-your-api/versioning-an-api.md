@@ -46,7 +46,7 @@ To use versioning with your APIs, you need to carry out the following steps:
 * Add versions for your API
 * Create releases for minor API changes, and new versions for major changes
 
-<!--TODO: note that collection version control is something different, xref -->
+> API versioning is different than using version control for collections. For information on how to use version control for collections, see [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
 
 * [Versioning concepts](#versioning-concepts)
 * [Using an external git repository](#using-an-external-git-repository)
@@ -182,9 +182,11 @@ When you update an API version number and choose to carry over elements from a p
 rename/edit/delete is now on version overview page ... menu
 -->
 
-## Creating API releases
+## Working with API releases
 
 <!--TODO:
+
+### Creating a release
 Release names can be semantic versions (`3.2.0-beta`) or dynamic (`2021-12-25`).
 
 1. Create tags in repo first.
@@ -193,6 +195,8 @@ Release names can be semantic versions (`3.2.0-beta`) or dynamic (`2021-12-25`).
 1. Enter **Release name**, **Description**, select a tag in **Git release**. Select or clear **Show this release to consumers in changelog**.
    > You can only map releases to tags if you use an external git repo.
 1. Select **Create Release**.
+
+### Viewing releases
 
 You can't commit changes to a released API.
 
