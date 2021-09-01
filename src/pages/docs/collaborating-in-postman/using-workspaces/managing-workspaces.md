@@ -33,7 +33,8 @@ You can [create workspaces](/docs/collaborating-in-postman/using-workspaces/crea
 
 * [Accessing workspaces](#accessing-workspaces)
 * [Sharing workspaces](#sharing-workspaces)
-* [Joining workspaces](#joining-workspaces)
+* [Moving workspaces](#moving-workspaces)
+<!--* [Joining workspaces](#joining-workspaces)-->
 * [Adding elements to workspaces](#adding-elements-to-workspaces)
 * [Removing elements from a workspace](#removing-elements-from-a-workspace)
 * [Deleting a workspace](#deleting-a-workspace)
@@ -66,7 +67,7 @@ Add individuals you would like to invite to the workspace by email or by [group]
 
 When your collaborators accept the invite from the notification they receive, they will be able to access the workspace.
 
-## Joining workspaces
+<!--## Joining workspaces
 
 In some cases you will join a workspace by following the link in an email / notification when a member of the workspace invites you. If you are part of a team in Postman, you can find workspaces to join. Open the workspaces drop-down from the control at the top of Postman in the left. Search for a workspace and select the workspace you want to join.
 
@@ -76,7 +77,7 @@ Select the workspace, then click __Join Workspace__ at the top right.
 
 <img alt="Join Workspace" src="https://assets.postman.com/postman-docs/join-workspace-v8.jpg"/>
 
-Once you join the workspace, you can start creating collections, sending requests, visualizing your responses, and more.
+Once you join the workspace, you can start creating collections, sending requests, visualizing your responses, and more.-->
 
 ## Adding elements to workspaces
 
