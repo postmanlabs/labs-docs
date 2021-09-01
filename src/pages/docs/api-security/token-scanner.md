@@ -6,7 +6,7 @@ search_keyword: "password security, secret scanning, secret, API key security"
 ---
 The Postman Token Scanner scans your public workspaces, collections, environments, and documentation to find accidentally exposed tokens. This protects your organization and prevents malicious users from exploiting the tokens.
 
-> Token Scanner is available on all Postman plans and is enabled by default. The custom alert is available only on [Enterprise plan](https://www.postman.com/pricing/).
+> Token Scanner is available on all Postman plans and is enabled by default.
 
 ## Contents
 
@@ -57,7 +57,9 @@ By default, tokens issued by the following service providers are scanned:
 
 Custom alerts can be used to scan your team's proprietary and third-party app tokens that are not scanned by default.
 
-> Your team can add a total of five alerts. You should be a **Community Manager** or member with both **Developer** and **Admin** roles to add custom alerts.
+> **[Custom alert is available only on Postman Enterprise plan](https://www.postman.com/pricing/)**.
+
+Your team can add a total of five alerts. You should be a **Community Manager** or member with both **Developer** and **Admin** roles to add custom alerts.
 
 To add custom alerts:
 
