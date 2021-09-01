@@ -75,6 +75,6 @@ You can add a new or existing contract test:
 
 Postman integrates with some of the most widely-used Continuous Integration and Continuous Delivery (CI/CD) tools. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
 
-To set up CI integration, go to **API > Connect to CI/CD Builds** and select the integration you want to add. To learn more about how CI integrations work, and for detailed configuration steps, see [CI integrations](/docs/integrations/ci-integrations/).
+To set up CI integration, go to **API > Test > Connect to CI/CD Builds** and select the integration you want to add. To learn more about how CI integrations work, and for detailed configuration steps, see [CI integrations](/docs/integrations/ci-integrations/).
 
 ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9.jpg)
