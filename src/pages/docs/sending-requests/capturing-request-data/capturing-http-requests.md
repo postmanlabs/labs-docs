@@ -202,6 +202,24 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
     `sudo update-ca-certificates`
 
+### Install the certificate for use with Chrome on Ubuntu
+
+1. Open the Chrome settings, in the search bar, look for "Certificates."
+
+1. Select "Manage certificates" from the list.
+
+1. Select the "Trusted Root Certification Authorities" tab and then "Import."
+
+1. Select "Browse" and select the **cacert.der** file created earlier.
+
+1. Select **Next** to save the configuration.
+
+1. Select "Place all certificates in the following store."
+
+1. Select "Trusted Root Certification Authorities."
+
+1. Select **Next** and **Finish**.
+
 ### Install the certificate for use with Mozilla Firefox Browsers
 
 1. In Firefox and click the application menu and select **Preferences**.
