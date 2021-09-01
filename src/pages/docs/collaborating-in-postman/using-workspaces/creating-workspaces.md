@@ -33,6 +33,7 @@ contextual_links:
   - type: link
     name: "Using and managing workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/managing-workspaces/"
+search_keyword: "workspace as container, user workflow, creating workspaces, personal workspace, team workspace, private workspace, new workspace"
 
 warning: false
 
@@ -48,6 +49,8 @@ By sharing a component such as a collection to a workspace, collaborators with a
 
 Workspaces can also create visibility for the projects within a team, since collections in the workspace are visible to all members sharing it. Request history is also saved to a workspace, which can aid collaborative debugging efforts.
 
+Workspace as an entity represents a whole container where being an admin gives full access to the workspace. This concept works like the inheritance property where you will have editor access to all the elements within that particular workspace.
+
 > For Postman Business and Enterprise teams, a private workspace is a team workspace that is only visible to the user who created it, plus team members who have been invited to join it. Private workspaces allow teams to restrict access to collections, environments, mocks, and monitors that are relevant only to a particular group.
 
 ## Creating a new workspace
@@ -56,7 +59,9 @@ To create a new workspace, select the workspace dropdown menu at the left of Pos
 
 <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace.jpg" width="300px"/>
 
-Use the visibility dropdown to choose a __Personal__, __Team__, __Private__, or __Public__ workspace. Note that you can share elements to a different workspace at a later date if you are not sure which type to create.
+Use the visibility dropdown to choose a __Personal__, __Team__, __Private__, or __Public__ workspace.
+
+> Note that you can only move elements from one workspace to another.
 
 To create a personal workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Personal__.
 
