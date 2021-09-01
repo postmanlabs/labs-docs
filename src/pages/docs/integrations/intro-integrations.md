@@ -30,8 +30,9 @@ Integrations allow you to automate sharing data and functionality between Postma
 
 ## Contents
 
-* [Accessing Integrations](#accessing-integrations)
-* [Static IP Support](#static-ip-support)
+* [Accessing integrations](#accessing-integrations)
+* [Static IP support](#static-ip-support)
+* [CI integrations](#ci-integrations)
 
 ## Accessing integrations
 
@@ -47,7 +48,7 @@ Select __Add Integration__ to configure your integration. Enter the required inf
 
 ![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
 
-## Static IP Support
+## Static IP support
 
 You can use static IP addresses to enable integrations and custom webhooks for Postman Collection backups that need to access hosted (private) networks behind firewalls that require whitelisted IP addresses.
 
@@ -64,3 +65,9 @@ Postman supports implementing static IP addresses for the following integrations
 * [Custom Webhooks](https://learning.postman.com/docs/integrations/webhooks/)
 * [GitHub Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/github/#backup-collections-to-github-on-custom-domain)
 * [GitLab Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/gitlab/#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
+
+## CI integrations
+
+Postman integrates with some of the most widely-used Continuous Integration and Continuous Delivery (CI/CD) tools. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
+
+To learn more about how CI integrations work, and for detailed configuration steps, see [CI integrations](/docs/integrations/ci-integrations/).
