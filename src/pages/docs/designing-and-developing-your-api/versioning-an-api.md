@@ -130,6 +130,13 @@ You only have one develop branch you defined when you connected the repo. Extern
 
 ## Creating API versions
 
+<!-- TODO: all different.
+From API summary page_id
+... - > **Create version**
+
+rename/edit/delete is now on version overview page ... menu
+-->
+
 When you create a new API in Postman, it will indicate the version you entered during the API creation. You can create new versions from scratch or based on an existing version.
 
 To create a new version:
@@ -148,7 +155,32 @@ To create a new version:
 
 1. Click __Create Version__. Your new version will open in the API Builder.
 
-<!-- TODO: **Make this version available for consumers** option -->
+<!-- TODO:
+**Show more options**
+**Copy elements from a previous version** option
+**Make this version available for consumers** option -->
+
+## Updating versions
+
+<!-- TODO: update content - also consolidate with the creating versions above -->
+
+Postman automatically updates the version tags for linked collections whenever you update the API version. If you add a new version to the API, Postman will also add that version tag to the collection.
+
+[![API link collection to API version](https://assets.postman.com/postman-docs/API-updating-version-tags-v8.gif)](https://assets.postman.com/postman-docs/API-updating-version-tags-v8.gif)
+
+You can tag your collection revisions to match changes in your API. For example, if you update the API, which results in a revision of the collection, you can then link the updated collection (or documentation) to the new version of the API.
+
+[![API link collection revisions](https://assets.postman.com/postman-docs/api-version-tags-updated-v8.gif)](https://assets.postman.com/postman-docs/api-version-tags-updated-v8.gif)
+
+> If you have collections with specific version tags, Postman will associate them with the appropriate API versions by default. Due to this automatic behavior, Postman does not allow you to manipulate the version tags of a collection linked with an API manually.
+
+If an API version is incremented, for example from 2.0 to 3.0, and you choose to *Carry over elements from a previous version*, but the collection is not tagged to API version 3.0 yet, Postman will display a warning, since there is no equivalent version tag on the collection corresponding to API version 3.0.
+
+[![API version mismatch](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)
+
+To resolve this, add a corresponding version tag to the collection.
+
+When you update an API version number and choose to carry over elements from a previous version, Postman provides you a list of elements that you need to update in order to match the new API version. This makes the API Builder your central dashboard to manage changes across all of your API elements.
 
 <!-- TODO:
 ## Creating API releases
@@ -174,28 +206,6 @@ An API status is an arbitrary text tag which you can change to indicate the curr
 A status doesn't affect visibility, permissions, or availability of an API. It's simply a way to tell others on your team the current state of the API. Statuses are not automatically changed by any actions or state change in your files. You can change the status at any time.
 
 Statuses are displayed in the upper left of the API tab. To set a new status, choose one from the dropdown list.
-
-## Updating versions
-
-<!-- TODO: update content -->
-
-Postman automatically updates the version tags for linked collections whenever you update the API version. If you add a new version to the API, Postman will also add that version tag to the collection.
-
-[![API link collection to API version](https://assets.postman.com/postman-docs/API-updating-version-tags-v8.gif)](https://assets.postman.com/postman-docs/API-updating-version-tags-v8.gif)
-
-You can tag your collection revisions to match changes in your API. For example, if you update the API, which results in a revision of the collection, you can then link the updated collection (or documentation) to the new version of the API.
-
-[![API link collection revisions](https://assets.postman.com/postman-docs/api-version-tags-updated-v8.gif)](https://assets.postman.com/postman-docs/api-version-tags-updated-v8.gif)
-
-> If you have collections with specific version tags, Postman will associate them with the appropriate API versions by default. Due to this automatic behavior, Postman does not allow you to manipulate the version tags of a collection linked with an API manually.
-
-If an API version is incremented, for example from 2.0 to 3.0, and you choose to *Carry over elements from a previous version*, but the collection is not tagged to API version 3.0 yet, Postman will display a warning, since there is no equivalent version tag on the collection corresponding to API version 3.0.
-
-[![API version mismatch](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)
-
-To resolve this, add a corresponding version tag to the collection.
-
-When you update an API version number and choose to carry over elements from a previous version, Postman provides you a list of elements that you need to update in order to match the new API version. This makes the API Builder your central dashboard to manage changes across all of your API elements.
 
 ### Validating APIs
 
