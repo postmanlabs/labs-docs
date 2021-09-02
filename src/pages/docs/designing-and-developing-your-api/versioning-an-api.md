@@ -37,6 +37,9 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
+> **[Syncing APIs with a remote git repo is available with a free Postman account, but counts against your total number of integrations.](https://www.postman.com/pricing/)**
+<!--TODO exact wording of above -->
+
 <!-- TODO: change the "link collections..." part -->
 You can manage multiple versions of any APIs you create in Postman. You can link collections, mocks, monitors, and documentation to specific versions of APIs using version tagging.
 
@@ -79,9 +82,6 @@ You can connect a GitHub or Bitbucket repo to your API, and sync your API specif
 
 <!--TODO: Uniqueness of Branches/Repos w.r.t. Versions/APIs -->
 
-<!-- TODO: GitHub two-way sync deprecated. Existing integrations still work, but you can't add a new one, and you need to disconnect the old one to use the new system.
--->
-
 ### Connecting a repository
 
 You can connect an API to your remote git-based repository, at the API level. This enables you to continuously synchronize changes between the repository and Postman. Versions and release tags are then synchronized between Postman and your git repo.
@@ -99,9 +99,9 @@ To connect a repository:
 1. Enter an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo.
 1. Select **Connect Repository**.
 
-After you connect the repository, your API will have a repo dropdown list at the top of the API overview, which contains the status of your sync, along with commands to commit,
+After you connect the repository, your API will have a repo dropdown list at the top of the API overview, which contains the status of your sync, along with commands to commit, push, and pull changes.
 
-<!--TODO note: usage counts against total number of integrations -->
+> If you previously used the GitHub integration for two-way sync of an API schema, you must delete the old integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
 
 ### Pushing and pulling changes
 

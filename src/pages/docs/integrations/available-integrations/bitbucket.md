@@ -29,6 +29,7 @@ You can back up your team's Postman Collections with Postman's Bitbucket integra
 
     * [Configuring a Bitbucket integration](#configuring-a-bitbucket-integration)
 
+* [API sync with Bitbucket](#api_sync_with_bitbucket)
 * [Next steps](#next-steps)
 
 ## Backing up collections on Bitbucket
@@ -70,6 +71,10 @@ To confirm this integration, navigate to your [Bitbucket dashboard](https://bitb
 You can select a commit to view your stored collection in JSON format.
 
 ![Bitbucket collection](https://assets.postman.com/postman-docs/bitbucket-collection.jpg)
+
+## API sync with Bitbucket
+
+Postman 9.0 introduced the ability to connect a git repository to an API. Instead of using an integration, you can directly connect a Bitbucket repo to an API in the API Builder. This provides two-way sync of schemas and associated collections, plus adds powerful new features for syncing branches and release tags between Postman and your repo. For more information on the new repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 ## Next steps
 
