@@ -31,7 +31,7 @@ You can define the structure of your API using its specification. You can also g
 > You can also [sync an API spec from a GitHub repository](/docs/integrations/available-integrations/github/#syncing-your-api-schemas-on-github).
 
 ## Editing your schema
-
+<!--TODO: navigation to version tab-->
 The __Definition__ tab in each API version page contains an editor for your API specification (either one you imported or a sample Postman added when you created the API).
 
 The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the drop-down list.
@@ -46,15 +46,13 @@ In the schema editor, when you hover over a '#ref' component and press the Comma
 
 In the upper right of the schema editor are options to beautify the content, wrap text, copy, and search. When you finish editing your schema, click **Save**.
 
-![Save Schema](https://assets.postman.com/postman-docs/v8-wrap-text2-v2.jpg)
+<img src="https://assets.postman.com/postman-docs/api-builder-definition-options.jpg" alt="API Builder definition options" width="350px">
 
 > Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your schema.
 
 ## Generating a collection
 
-The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see a **Generate Collection** option on the right-hand side of the tabs:
-
-![Schema Editor Options](https://assets.postman.com/postman-docs/v8-generate-collection-button2-v2.jpg)
+The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see a **Generate Collection** option in the upper right of the schema editor.
 
 To create a collection based on your schema, click **Generate Collection**. You can add the collection as documentation, a test suite, an integration test, a monitor, a mock server, or a contract test. The collection will appear in __Collections__ in the left sidebar.
 
