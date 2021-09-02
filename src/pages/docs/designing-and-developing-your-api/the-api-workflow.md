@@ -47,13 +47,18 @@ The following are the high-level steps involved when creating and using APIs:
 
 # Navigating the API Builder
 
-When you open an API in Postman, you start at the API **Overview** page. This page displays high-level information about all versions of your API, and a list of each version of the API. In the left sidebar, below the API, you will also see a sub-entry for each version of the API. The API **Overview** page includes actions to create a new version of the API. This page also has controls to connect to and use an external git repo.
+Open __APIs__ from the left sidebar in Postman. You can open and edit any existing APIs from here, or create or import new APIs. Select a parent entry to open the API's **Overview** page, or select a child entry underneath to open an **API version** page.
 
-![](https://via.placeholder.com/500x300.png?text=under+construction)
+<img src="https://assets.postman.com/postman-docs/api-builder-left-sidebar.jpg" alt="API Builder left sidebar" width="350px" />
 
-Select **View** next to an API version to open its **API version** page. The version page contains an **Overview** tab, which shows a description of the API version, a list of each release of that version, and the associated documentation, environments, and mock servers. The **API version** page also has has tabs where you define the API schema, view documentation, add tests, view deployments, and monitor the API.
+The API **Overview** page displays high-level information about all versions of your API, and a list of each version of the API. The **Overview** page includes actions to create a new version of the API. This page also has controls to connect to and use an external git repo.
 
-![](https://via.placeholder.com/500x300.png?text=under+construction)
+<img src="https://assets.postman.com/postman-docs/api-builder-overview-page.jpg" alt="API Builder overview page" width="550px" />
 
-<!-- TODO:
-right sidebar -->
+Select an API version to open its **API version** page. The version page contains an **Overview** tab, which shows a description of the API version, a list of each release of that version, and the associated documentation, environments, and mock servers. The **API version** page also has has tabs where you define the API schema, view documentation, add tests, view deployments, and monitor the API.
+
+<img src="https://assets.postman.com/postman-docs/api-builder-version-page.jpg" alt="API Builder version page" width="550px" />
+
+There's a also right sidebar with several icons, depending on the current page open. For example, on the **API version** page, there are icons to view comments, generate boilerplate server code from your schema, and view the API's changelog. From the changelog, you can also view and create new releases.
+
+<img src="https://assets.postman.com/postman-docs/api-builder-right-sidebar.jpg" alt="API Builder version page" width="300px" />
