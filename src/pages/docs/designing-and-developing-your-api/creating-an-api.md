@@ -23,22 +23,30 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-To access the API Builder and create a new API, open __APIs__ from the left sidebar in Postman. You can open and edit any existing APIs from here. Postman will automatically open the most recent version of an API by default.
+## Creating an API
 
-<img alt="Create API" src="https://assets.postman.com/postman-docs/v8-create-new-api2.jpg"/>
+To access the API Builder and create a new API:
 
-Click __New__, then select __API__ or click __+__.
+1. Open __APIs__ from the left sidebar in Postman. You can open and edit any existing APIs from here.
 
-> You must be signed in to your Postman account to take this action.
+   <img alt="Create API" src="https://assets.postman.com/postman-docs/v8-create-new-api2.jpg"/>
 
-![New API](https://assets.postman.com/postman-docs/v8-create-api-modal2.jpg)
+1. Click __New__, then select __API__ or click __+__.
 
-Enter a name and a version, then select a schema type and format for your API. You can optionally import an API specification directly at this stage. If you don't, Postman will populate your API with a sample specification you can edit at any time.
+   > You must be signed in to your Postman account to take this action.
 
-> Postman currently supports OpenAPI (versions 1.0, 2.0, and 3.0), RAML (0.8 and 1.0), GraphQL, or WSDL (1.1 and 2.0). OpenAPI schemas can be defined in JSON or YAML. RAML schemas must be YAML. GraphQL schemas can be JSON or GraphQL SDL. WSDL schemas must be XML. Multi-file variants of schemas are currently not supported.
+   ![New API](https://assets.postman.com/postman-docs/create-api-v9.jpg)
+
+1. Enter a name and a version, then select a schema type and format for your API. You can optionally select the **Import** tab to import an API specification directly from either a local file or a GitHub or Bitbucket repo. If you don't import a schema, Postman will populate your API with a sample specification you can edit at any time.
+
+   > Postman currently supports OpenAPI (versions 1.0, 2.0, and 3.0), RAML (0.8 and 1.0), GraphQL, or WSDL (1.1 and 2.0) schemas. OpenAPI schemas can be defined in JSON or YAML. RAML schemas must be YAML. GraphQL schemas can be JSON or GraphQL SDL. WSDL schemas must be XML. Multi-file variants of schemas are currently not supported.
+
+1. Select **Create API**.
+
+## Renaming and deleting APIs
 
 You can rename, delete, or remove the API from the workspace using the __View more actions__ (__...__) menu in the left sidebar.
 
-> When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted / removed.
+   > When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted / removed.
 
-<img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions2.jpg"/>
+   <img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions2.jpg"/>
