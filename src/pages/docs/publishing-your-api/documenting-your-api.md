@@ -118,11 +118,9 @@ Your docs will automatically include detail on your requests, with sample code i
 
 Private docs include a link to share the associated collection, and public docs include a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/), allowing viewers to import the collection directly into Postman to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
 
-You can add detail to your descriptions using [Markdown](/docs/publishing-your-api/authoring-your-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
+To help others get the most out of your documentation, add descriptions to your collections and requests. Use [Markdown](/docs/publishing-your-api/authoring-your-documentation/#authoring-descriptions-in-markdown) to author detailed descriptions, or use the [new editor (Beta)](/docs/publishing-your-api/authoring-your-documentation/#authoring-descriptions-in-the-new-editor) to author content visually without having to write any Markdown code. Either method supports various types of content such as lists, tables, images, and links. To learn more, see [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
 
-![Docs Folders](https://assets.postman.com/postman-docs/docs-folders.jpg)
-
-For more on adding detail to your docs, see [Authoring your documentation](/docs/publishing-your-api/authoring-your-documentation/).
+<img alt="Authoring descriptions" src="https://assets.postman.com/postman-docs/documentation-switch-editors-v8-10.gif" width="570px" style="border: 1px solid #4a4a4a">
 
 ## Accessing doc views
 
