@@ -37,9 +37,6 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> **[Syncing APIs with a remote git repo is available with a free Postman account, but counts against your total number of integrations.](https://www.postman.com/pricing/)**
-<!--TODO exact wording of above -->
-
 <!-- TODO: change the "link collections..." part -->
 You can manage multiple versions of any APIs you create in Postman. You can link collections, mocks, monitors, and documentation to specific versions of APIs using version tagging.
 

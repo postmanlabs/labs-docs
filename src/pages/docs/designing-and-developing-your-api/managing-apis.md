@@ -31,7 +31,7 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 - [Sharing APIs](#sharing-apis)
 - [Watching APIs](#watching-apis)
 - [Commenting on APIs](#commenting-on-apis)
-- [Viewing API events](#viewing-api-events)
+- [Using the Changelog](#using-the-changelog)
 
 ## Sharing APIs
 
@@ -95,7 +95,8 @@ To edit, delete, or link to one of your comments, navigate to the comment sectio
 
 > With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
 
-## Viewing API events
+## Using the Changelog
+<!-- TODO: rewrite wrt versions/releases-->
 
 You can view a changelog of your API schemas in the context bar. Open an API, then click the changelog icon.
 
