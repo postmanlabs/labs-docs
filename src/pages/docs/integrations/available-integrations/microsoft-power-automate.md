@@ -18,8 +18,6 @@ contextual_links:
     url: "https://blog.postman.com/turn-your-postman-collection-into-a-microsoft-integration/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 Microsoft Power Automate enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
 
 You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, back up your Postman Collections, and use a Microsoft Power Automate Webhook URL.

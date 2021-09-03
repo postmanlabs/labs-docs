@@ -18,8 +18,6 @@ contextual_links:
     url: "https://blog.postmanlabs.com/enhanced-workflows-with-ci-and-postman/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 Travis CI is continuous integration (CI) platform that software development teams use to automatically build and test code changes. With Travis CI, developers can get immediate feedback on the success of a change.
 
 To set up Travis CI integration for your API, you’ll need to create an API token in Travis CI and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.

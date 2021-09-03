@@ -11,8 +11,6 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 Coralogix is a machine learning powered log analytics platform which drastically improves the delivery and maintenance process for software providers. This integration allows you to configure your Postman Monitors to send metrics to Coralogix where you can visualize and compare metrics.
 
 Setting up a Coralogix integration requires you to get an API key from Coralogix and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.

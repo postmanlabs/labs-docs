@@ -18,8 +18,6 @@ contextual_links:
     url: "https://blog.postmanlabs.com/enhanced-workflows-with-ci-and-postman/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 CircleCI is a cloud-based continuous integration and continuous delivery (CI/CD) platform. Software development teams use CircleCI to run build jobs, automate tests, and orchestrate complex workflows.
 
 To set up CircleCI integration for your API, you’ll need to create an API token in CircleCI and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.

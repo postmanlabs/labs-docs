@@ -18,15 +18,11 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
+Postman provides an API development toolchain aimed at integrating with your workflow. The Postman team develops an open ecosystem in conjunction with industry partners to build integrations that facilitate your API projects. Integrations allow you to automate sharing data and functionality between Postman and other tools you might use for your API development.
 
-Postman provides an API development toolchain aimed at integrating with your workflow.
+For example, if you use GitHub or GitLab for your repository management and use Postman to develop and test your APIs, you can save your Postman collections to your repositories with the [Postman to GitHub integration](/docs/integrations/available-integrations/github/) or [Postman to GitLab integration](https://learning.postman.com/docs/integrations/available-integrations/gitlab/).
 
-The Postman team develops an open ecosystem in conjunction with industry partners to build integrations that facilitate your API projects.
-
-Integrations allow you to automate sharing data and functionality between Postman and other tools you might be using for your API development.
-
-> If you use GitHub or GitLab for your repository management and use Postman to develop and test your APIs, you can save your Postman Collections to your repositories with the [Postman to GitHub integration](/docs/integrations/available-integrations/github/) and [Postman to GitLab integration](https://learning.postman.com/docs/integrations/available-integrations/gitlab/).
+> **The maximum number of integrations you can use is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
 
 ## Contents
 
