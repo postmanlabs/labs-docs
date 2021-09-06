@@ -103,35 +103,35 @@ Once you've created the folder, add APIs or create more folders within the new f
 
 <img alt="Add APIs Workspace" src="https://assets.postman.com/postman-docs/add-to-team-private-api-network-2.jpg" width="400px"/>
 
-To edit the API setting, click __Edit Network Listing__ icon.
-
-<img alt="Edit Network Listing" src="https://assets.postman.com/postman-docs/edit-network-listing-v8.jpg"/>
-
-You can change the versions, update the API summary, and modify the folder to which the API should be added.
+To edit the API setting, click __Edit API listing__ icon. You can change the versions, update the API summary, and modify the folder to which the API should be added.
 
 <img alt="Edit Summary 2" src="https://assets.postman.com/postman-docs/edit-api-summary-2.jpg" width="400px"/>
 
-You can also remove the added APIs from Postman's API Network. Click the trash icon next to the API you would like to remove from network. Once you click __Remove API__, your team members will also lose access to the API via the network.
+You can also remove the added APIs from Postman's API Network. Click **...** next to the API you would like to remove from network. Once you click __Remove__, your team members will also lose access to the API via the network.
 
-<img alt="Remove API fom Network" src="https://assets.postman.com/postman-docs/remove-from-private-network-v8.jpg"/>
+<img alt="Remove API fom Network" src="https://assets.postman.com/postman-docs/edit-remove-from-private-network-v9.gif"/>
 
 The sidebar navigation displays the folder structure for your Private API Network. You can also drag and drop the APIs and subfolders to different folders. Furthermore, you can add markdown-supported descriptions to folders to explain about the APIs within the folders, if required.
 
 <img alt="Sidebar Navigation" src="https://assets.postman.com/postman-docs/sidebar-navigation-v8.jpg" width="400px"/>
 
-> You can use the search box to search across folders, subfolders, and APIs in your Private API Network. You can also filter the folders, subfolders, and APIs based on name and recently added.
+> You can use the search box to search across folders, subfolders, and APIs in your Private API Network.
 
 #### API Overview
 
-The API overview page provides all the relevant information about an API to enable users to make a choice about using the API. This also provides information on who published this API, along with other editors of the API, to whom you can reach out using the [comments in Postman](/docs/).
+The API overview page provides all the relevant information about an API to enable users to make a choice about using the API. This also provides information on who published this API, along with other editors of the API, to whom you can reach out using the [comments in Postman](/docs/collaborating-in-postman/commenting-on-collections/#commenting-on-a-collection/).
+
+Clicking on an API takes you to the API details where you will find more information about the API — API description, markdown summary, API versions, the workspace where the API currently exists, API editors, and API reports. You can watch or unwatch an API at any time.
 
 <img alt="API Overview" src="https://assets.postman.com/postman-docs/api-overview-v9.jpg"/>
 
 #### Filtering
 
-You can filter the APIs in your Private API Network based on name, summary, and schema type.
+You can filter the APIs in your Private API Network based on name using the search box. Use the **Added by** menu to filter based on the person who added the API. Use **Sort by** option to sort the APIs based on name and recently added.
 
 <img alt="Filtering" src="https://assets.postman.com/postman-docs/api-network-filtering-v9.jpg"/>
+
+> You can also filter the folders, subfolders, and APIs based on name and recently added.
 
 #### API Landscape Governance
 
@@ -168,15 +168,21 @@ apis by schema type
 
 #### Publish specific API versions
 
-You can publish specific versions of your APIs to the private API network which helps API consumers understand which versions are ready for consumption vs which versions are still being worked upon. When you publish the versions of yout APIs to your Private API Network, only the versions visible to the consumers will get published and you can get resume back to your work-in-progress API versions anytime.
+You can publish specific versions of your APIs to the Private API Network which helps API consumers understand which versions are ready for consumption and which versions are still being worked upon.
+
+You can always decide the visibility of API versions visible to the consumers. To edit your API versions, click **...** and select **Edit**. You can select the checkbox to make the particular version available to the consumers.
+
+<img alt="Visibility API versions" src="https://assets.postman.com/postman-docs/visibility-api-versions-v9.jpg" width="350px"/>
+
+When you publish the versions of yout APIs to your Private API Network, only the versions visible to the consumers will get published and you can get resume back to your work-in-progress API versions anytime.
 
 <img alt="Publish specific API versions" src="https://assets.postman.com/postman-docs/publish-specific-api-versions-v9.jpg"/>
 
 #### GitHub import
 
-You can make all your existing APIs discoverable on the Private API network when you import from GitHub.
+You can make all your existing APIs discoverable on the Private API network when you import from GitHub. When you create an API, switch over to **Import** tab to view the options to import from a code repository.
 
-<img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg"/>
+<img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg" height="300px"/>
 
 To import from Github, see [Importing via GitHub repositories.](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories)
 
