@@ -135,13 +135,13 @@ For Public API network, you can change the entity type to narrow down your searc
 
 ## Find and replace
 
-You can search your Postman workspace by clicking __Find and Replace__ at the bottom-left of Postman—or using the keyboard shortcuts `Command + SHIFT + F` / `Control + SHIFT + F`.
+You can search your Postman workspace by clicking __Find and Replace__ at the bottom-left of Postman application—or using the keyboard shortcuts `Command + SHIFT + F` / `Control + SHIFT + F`.
 
 Enter your search string and optionally choose which entities to return, entering replacement text if necessary.
 
 ![Find and replace](https://assets.postman.com/postman-docs/find-and-replace-tab-v8.jpg)
 
-Postman will search tabs, collections, and variables. You can click directly from the search results to open an entity.
+Postman will search tabs, collections, and variables. You can click directly from the search results to open an entity. Please note: This option is currently present only on Postman application. 
 
 ## History
 
