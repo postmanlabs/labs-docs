@@ -11,6 +11,8 @@
     "babel-eslint": "^10.0.3",
     "babel-jest": "^25.1.0",
     "babel-preset-gatsby": "^0.2.14",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "bootstrap": "^4.5.0",
     "dotenv": "^8.1.0",
     "eslint-plugin-jest": "^22.17.0",
     "gatsby": "^2.32.8",
@@ -41,8 +43,10 @@
     "glob": "^7.1.4",
     "googleapis": "^55.0.0",
     "identity-obj-proxy": "^3.0.0",
+    "jquery": "^3.6.0",
     "markdownlint-cli": "^0.19.0",
     "node-sass": "^4.13.1",
+    "popper.js": "^1.16.1",
     "prettier": "^1.18.2",
     "prismjs": "^1.24.1",
     "prop-types": "^15.7.2",
@@ -61,7 +65,8 @@
     "shelljs": "^0.8.4",
     "typescript": "2.8.1",
     "typography": "^0.16.19",
-    "uuid": "^3.3.3"
+    "uuid": "^3.3.3",
+    "webpack": "^5.52.0"
   },
   "devDependencies": {
     "eslint": "^6.4.0",

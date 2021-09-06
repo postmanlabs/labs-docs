@@ -1,75 +1,230 @@
 @import '../Shared/_variables.scss';
 
-.header {
-  box-shadow: 0 5px 16px 0 rgba(0,0,0,.11);
-  z-index: 1;
-  .header__logo {
-    margin: auto;
-    height: 50px;
-    @media (max-width: 414px) {
-      height: auto;
+.navbar-v6 {
+  background-color: rgba(255, 255, 255, 0.84) !important;
+  backdrop-filter: blur(4px);
+  padding: 8px 16px;
+  border-bottom: 1px solid #eee;
+
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      padding: 16px 0;
     }
   }
 
-  .header__title {
-    vertical-align: middle;
-    margin-left: 20px;
-    color: $gray-3;
-    text-decoration: none;
-    @media (max-width: 414px) {
-      margin-left: 8px;
-    }
+  & .contextual-home-link {
+    color: $grey_90;
+    font-family: 'Inter';
+    // font-size: 1.6rem;
+    letter-spacing: -0.24px;
+    line-height: 1.4;
+    font-weight: 600;
+    padding-left: 0 !important;
   }
 
-  .header__right-links {
-    .nav-item {
-      .nav-link {
-        text-decoration: none;
-        color: $gray-3;
-        font-size: 13px;
-        font-weight: 600;
-        text-transform: uppercase;
-        white-space: nowrap;
+  & .navbar-nav {
+    @media (max-width: 991px) {
+      margin-bottom: 24px;
+    }
+
+    & .nav-link:link,
+    .nav-link:active {
+      font-weight: 600;
+      // font-size: 1.4rem;
+      padding: 6px 16px;
+
+      &.uber-nav {
+        padding: 4px 16px !important;
+      }
+    }
+
+    & .dropdown-menu {
+      // font-size: 1.4rem;
+      line-height: 20px;
+      padding: 8px 16px;
+      @media screen and (min-width: 992px) {
         padding: 16px;
       }
-      .nav-link:hover {
-        color: $postman-orange;
+    }
+
+    & .dropdown-item {
+      padding: 8px 16px;
+      & small {
+        display: block;
+        color: $grey_70;
       }
-      .btn {
-        margin-bottom: 0;
+      &.app-cta {
+        color: $blue_60;
+        font-weight: 600;
+      }
+    }
+
+    &.property-context-menu {
+      & .nav-link:link,
+      .nav-link:active {
+        font-weight: 400 !important;
       }
     }
   }
-  @media (max-width: 1200px) {
-    .animate-close {
-      animation-fill-mode: forwards;
-      overflow: hidden;
-      animation-name: closeMenu;
-      animation-duration: 0.5s;  
-    }
-    .closed {
-      overflow: hidden;
-      max-height: 0px;
+
+  & .dropdown-menu {
+    background-color: $white;
+    border: none;
+    padding: 0 0 16px 24px;
+    @media screen and (min-width: 992px) {
+      box-shadow: 0 16PX 24px -8PX rgba(0, 0, 0 , 0.24);
+      background-color: $white;
+      border-radius: 3px;
+      border: 1px solid $grey_20;
+      padding: 16px;
     }
   }
-  .animate-open {
-    overflow: hidden;
-    animation-name: openMenu;
-    animation-duration: 0.5s;  
-  } 
+
+  & .navbar-brand {
+    margin-right: 2rem;
+  }
+
+  & .dropdown-col-menu {
+    width: 100%;
+    @media screen and (min-width: 992px) {
+      width: 60rem;
+    }
+  }
+
+  & .dropdown-col {
+    @media screen and (max-width: 991px) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  & .dropdown-header {
+    color: #5b5b5b;
+    // font-size: 1.6rem;
+    letter-spacing: -0.24px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  & input[type='search'] {
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    // font-size: 13px;
+    padding: 4px 24px 4px 28px;
+    height: 32px;
+    margin: 0;
+    width: 240px;
+
+    &::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: $grey_40;
+    }
+    &::-moz-placeholder {
+      /* Firefox 19+ */
+      color: $grey_40;
+    }
+    &:-ms-input-placeholder {
+      /* IE 10+ */
+      color: $grey_40;
+    }
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      color: $grey_40;
+    }
+  }
+  & label {
+    position: absolute;
+    margin-left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+  };
+} // end NavbarV6 styling
+
+// www this is DownloadButton
+.button__sign-up {
+    align-items: center; 
+    appearance: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-flex;
+    // font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.75;
+    padding: 4px 12px;
+    user-select: none;
+    color: $white;
+    background-color: $orange_50;
+    text-align: center;
+    margin: '0 16px 0 0';
+    transition: background-color 50ms ease-in-out, border-color 50ms ease-in-out;
+
+    &:hover,
+    &:active {
+      background-color: $orange_60 !important;
+      text-decoration: none;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+    @media (max-width: 480px) {
+      display: block;
+    }
+};
+
+// www this is DashboardButton
+a.button__sign-in {
+  align-items: center;
+  appearance: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  // font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.75;
+  padding: 4px 12px;
+  user-select: none;
+  color: $grey_90 !important;
+  background-color: $white;
+  background-image: none;
+  border: none;
+  box-shadow: 0 0 1px rgba(0, 0, 0 , 0.24) inset ;
+  border-radius: 3px !important;
+
+  outline: 0;
+  text-align: center;
+  margin: 0 8px 0 0;
+
+  &:hover,
+  &:active {
+    background-color: $white;
+    border-color: red;
+    box-shadow: inset 0 0 1px rgba(0, 0, 0 , 0.64);
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  // MobileSignInButton = styled(DashboardButton)
+  // @media screen and (max-width: 1200px) {
+  //   display: none;
+
+  //   &.show {
+  //     display: block;
+  //   }
+
+  //   &.hide {
+  //     display: none;
+  //   }
+  // }
 }
 
-@keyframes openMenu {
-  0%   {max-height: 0px;}
-  100% {max-height: 300px;}
-}
-
-@keyframes closeMenu {
-  0%   {max-height: 300px;}
-  100% {max-height: 0px;}
-}
-
-
+// Algolia Search Styling
 .searchbox {
   input {
     background-color:#f5f5f5;
