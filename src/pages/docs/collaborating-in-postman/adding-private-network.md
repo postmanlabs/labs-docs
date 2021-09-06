@@ -39,7 +39,6 @@ You can share the APIs that your team uses internally to the Private API Network
     * [Security](#security)
     * [Guidelines](#guidelines)
 * [Features of Private API Network](#features-of-private-api-network)
-    * [API Recommendations](#api-recommendations)
     * [Folders in Private API Network](#folders-in-private-api-network)
     * [API Overview](#api-overview)
     * [Filtering](#filtering)
@@ -63,8 +62,6 @@ The default view is your team's [Private API Network](https://go.postman.co/netw
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v9.jpg"/>
 
 In the modal, you can select one or more APIs you want to add to the network at one time. Create a folder to add the APIs to, if required. Select **Add API**.
-<!--For each API selected, specify the versions to add. -->
-<!--Select **Next** and then the folder to add the APIs to. Select **Add to Network**.-->
 
 <img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v9.jpg" height="500px"/>
 
@@ -90,13 +87,7 @@ To submit an API to the network, you must have edit access to the API. You canno
 
 The Private API Network provides a central directory of all internal APIs in your organization, that teams can check before engineering their own solutions.
 
-The following lists the seven key features of the Private API network that helps discovering Private APIs easier:
-
-#### API Recommendations
-
-Within the Private API Network, you can get recommendations based on your, and your team’s activity to help you discover relevant APIs.
-
-<img alt="API recommendations" src="https://assets.postman.com/postman-docs/api-recommendation-v9.jpg">
+The following lists the six key features of the Private API network that helps discovering Private APIs easier:
 
 #### Folders in Private API Network
 
@@ -152,15 +143,24 @@ Navigate to your API and click **Reports** to the right of the API.
 
 <img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-governance-reports-v9.jpg"/>
 
-The Private API Network reporting provides the following information:
+The API report provides the following information:
 
-* **Total published APIs** is the total number of APIs published within your Private API Network.
+* **API name** is the name of the API published to the Private API Network
+* **API created by**
+* **API created on**
+* **Number of API requests**
+* **Failed test runs**
+* **Average response size**
+* **Average response time**
+* **API response codes**
+
+<!--* **Total published APIs** is the total number of APIs published within your Private API Network
 * **API Versions by Schema Type** indicates APIs by the type of schema used to define them (OpenAPI, GraphQL, Swagger, etc) visualized as a horizontal bar chart
 apis by schema type
 * **API Versions with Mocks** is the number of APIs your team has added mocks to
 * **API Versions with Monitors** is the number of APIs your team has added monitors to
 * **API Versions with Tests** is the number of APIs your team has added test suites, integration tests and contract tests to
-* **API Versions with Documentation** is the number of APIs your team has added documentation to
+* **API Versions with Documentation** is the number of APIs your team has added documentation to-->
 
 <img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-landscape-governance-v9.jpg"/>
 
@@ -168,25 +168,27 @@ apis by schema type
 
 #### Publish specific API versions
 
-You can publish specific versions of your APIs to the private API network which helps API consumers understand which versions are ready for consumption vs what versions are still being worked upon.
+You can publish specific versions of your APIs to the private API network which helps API consumers understand which versions are ready for consumption vs which versions are still being worked upon. When you publish the versions of yout APIs to your Private API Network, only the versions visible to the consumers will get published and you can get resume back to your work-in-progress API versions anytime.
 
 <img alt="Publish specific API versions" src="https://assets.postman.com/postman-docs/publish-specific-api-versions-v9.jpg"/>
 
 #### GitHub import
 
-You make all your existing APIs that are lost in GitHub discoverable on the Private API network in one click when you import from GitHub.
+You can make all your existing APIs discoverable on the Private API network when you import from GitHub.
 
 <img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg"/>
 
+To import from Github, see [Importing via GitHub repositories.](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories)
+
 #### Built in Access Control
 
-Private API Network allows you to share APIs securely within your team using Postman RBAC, users will only see the APIs they have a Viewer role on in the Private API Network.
+Private API Network allows you to share APIs securely within your team using [Postman RBAC](/docs/collaborating-in-postman/roles-and-permissions/#api-roles), users will only see the APIs they have a Viewer role on in the Private API Network. This ensures an added layer of security for the Private API Network owners to not worry about exposing sensitive information.
 
 <img alt="Built in access control" src="https://assets.postman.com/postman-docs/built-in-access-control-v9.jpg"/>
 
 ## Discovering and consuming private APIs
 
-The Private API Network is a good place to learn about APIs shared within your team. You can browse private APIs in [the Private API Network](https://go.postman.co/network/private) under your team name, or explore public APIs in [the public API network](https://www.postman.com/explore).
+The Private API Network is a good place to learn about APIs shared within your team. You can browse private APIs in [the Private API Network](https://go.postman.co/network/private) under your team name, or explore public APIs in [the public API network](https://www.postman.com/explore).ß
 
 > Private APIs are only visible to logged in users who are a part of your Postman team.
 
