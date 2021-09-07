@@ -51,6 +51,8 @@ To use versioning with your APIs, you need to carry out the following steps:
 * [Versioning concepts](#versioning-concepts)
 * [Using an external git repository](#using-an-external-git-repository)
   - [Connecting a Repository](#connecting-a-repository)
+  - [Pushing and pulling changes](#pushing-and-pulling-changes)
+  - [Removing the repository connection](#removing-the-repository-connection)
 * [Creating API versions](#creating-api-versions)
 * [Updating versions](#updating-versions)
 * [Connecting linked elements to versions](#connecting-linked-elements-to-versions)
@@ -78,8 +80,6 @@ You can connect a GitHub or Bitbucket repo to your API, and sync your API specif
 
 When it's time to release, you can merge the develop branch to the main branch in git, which holds the released version of the API. You can then create a git release, and map this release tag to your release in Postman.
 
-<!--TODO: Uniqueness of Branches/Repos w.r.t. Versions/APIs -->
-
 A typical workflow for API-first development with an external git repo:
 
 1. Connect a repo and set up a develop branch.
@@ -94,7 +94,10 @@ A typical workflow for API-first development with an external git repo:
 
 You can connect an API to your remote git-based repository, at the API level. This enables you to continuously synchronize changes between the repository and Postman. Versions and release tags are then synchronized between Postman and your git repo.
 
-<!--TODO: Documentation to including suggestions about creating 'service' account for API repo Integration' IS-2010 -->
+> The GitHub user account used for authentication requires full access to repositories. You may want to create a service account with limited permissions specifically for this integration.
+
+<!--TODO: Uniqueness of Branches/Repos w.r.t. Versions/APIs -->
+
 
 To connect a repository:
 
@@ -133,7 +136,7 @@ To add your local changes to the external repo, select **Commit and push** from 
 
 If there have been changes on the remote repo, you will be asked to pull changes first.
 
-#### Removing the repository connection
+### Removing the repository connection
 
 You can remove a connection to a git repo at any time. You may want to do this if you are changing accounts or providers, or need to use a different development branch.
 
