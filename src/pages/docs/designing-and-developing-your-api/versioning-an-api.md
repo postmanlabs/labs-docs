@@ -176,13 +176,14 @@ You can tag your collection revisions to match changes in your API. For example,
 
 > If you have collections with specific version tags, Postman will associate them with the appropriate API versions by default. Due to this automatic behavior, Postman does not allow you to manipulate the version tags of a collection linked with an API manually.
 
+<!--TODO: I can't get this next thing to happen anymore -->
 If an API version is incremented, for example from 2.0 to 3.0, and you choose to *Copy elements from a previous version*, but the collection is not tagged to API version 3.0 yet, Postman will display a warning, since there is no equivalent version tag on the collection corresponding to API version 3.0.
 
 [![API version mismatch](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)
 
 To resolve this, add a corresponding version tag to the collection.
 
-When you update an API version number and choose to carry over elements from a previous version, Postman provides you a list of elements that you need to update in order to match the new API version. This makes the API Builder your central dashboard to manage changes across all of your API elements.
+When you update an API version number and choose to copy elements from a previous version, Postman provides you a list of elements that you need to update in order to match the new API version. This makes the API Builder your central dashboard to manage changes across all of your API elements.
 
 ### Renaming and deleting versions
 
@@ -215,8 +216,6 @@ To create a release:
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it is only visible to editors.
 1. Select **Create Release**. You will be taken to a new page for the release.
 
-<!-- TODO: Tagging API for changelog V2 -->
-
 ## Setting an API status
 
 An API status is an arbitrary text tag which you can change to indicate the current stage of the API within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." There are nine possible statuses. You can set different statuses for each version of an API.
@@ -248,7 +247,7 @@ Your collection will be in sync with schema.
 <img alt="Collection updated" src="https://assets.postman.com/postman-docs/collection-updated-v8.jpg" width="500px"/>
 
 ## Connecting linked elements to versions
-<!-- TODO: edits -->
+<!-- TODO: this all changes -->
 You can link elements such as collections to a version of an API, [by adding either documentation or a test suite](/docs/designing-and-developing-your-api/the-api-workflow/) in the API Builder.
 
 [![Api link collections](https://assets.postman.com/postman-docs/api-link-collections-v8.gif)](https://assets.postman.com/postman-docs/api-link-collections-v8.gif)
