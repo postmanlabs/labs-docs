@@ -50,11 +50,11 @@ Open __APIs__ from the left sidebar in Postman. You can open and edit any existi
 
 <img src="https://assets.postman.com/postman-docs/api-builder-left-sidebar.jpg" alt="API Builder left sidebar" width="350px" />
 
-The API **Overview** page displays high-level information about all versions of your API, and a list of each version of the API. The **Overview** page includes actions to create a new version of the API. This page also has controls to connect to and use an external git repo.
+The API **Overview** page displays high-level information about all versions of your API, and a list of each version of the API. The **Overview** page includes actions to create a new version of the API.
 
 <img src="https://assets.postman.com/postman-docs/api-builder-overview-page.jpg" alt="API Builder overview page" width="550px" />
 
-Select an API version to open its **API version** page. The version page contains an **Overview** tab, which shows a description of the API version, a list of each release of that version, and the associated documentation, environments, and mock servers. The **API version** page also has has tabs where you define the API schema, view documentation, add tests, view deployments, and monitor the API.
+Select an API version to open its **API version** page. The version page contains an **Overview** tab, which shows a description of the API version, a list of each release of that version, and the associated documentation, environments, and mock servers. The **API version** page also has has tabs where you define the API schema, view documentation, add tests, view deployments, and monitor the API. This page also has controls to connect to and use an external git repo.
 
 <img src="https://assets.postman.com/postman-docs/api-builder-version-page.jpg" alt="API Builder version page" width="550px" />
 

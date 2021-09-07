@@ -94,14 +94,20 @@ A typical workflow for API-first development with an external git repo:
 
 You can connect an API to your remote git-based repository, at the API level. This enables you to continuously synchronize changes between the repository and Postman. Versions and release tags are then synchronized between Postman and your git repo.
 
-> The GitHub user account used for authentication requires full access to repositories. You may want to create a service account with limited permissions specifically for this integration.
+> The user account used for authentication requires full access to repositories. You may want to create a service account with limited permissions specifically for this integration.
 
-<!--TODO: Uniqueness of Branches/Repos w.r.t. Versions/APIs -->
+You can only connect one Postman API to one remote repo. Multiple APIs require multiple repos. This means:
 
+* One team can't have two active versions of an API linked to the same branch.
+* One team can't have versions from two different APIs linked to the same branch.
+* Two different teams can't have links to the same repo.
+* One API can't have multiple versions synced to multiple repos.
+
+Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link repo/branch to a new version, then all older integrations on that branch become locked. For inactive integrations, no pulls/pushes or new tag-links can happen, but the linked tags stay.
 
 To connect a repository:
 
-1. On the API, select **Connect Repository** and choose a repo type: **GitHub**, **GitHub Enterprise**, or **Bitbucket**.
+1. On an API Version page, select **Connect Repository** and choose a repo type: **GitHub**, **GitHub Enterprise**, or **Bitbucket**.
 1. An authentication pop-up window appears. Enter the information to log in to your repo and select **Grant access**.
    > This pop-up window may be hidden by your browser. Make sure to enable pop-ups from this site.
 1. On the **Connect your repository page**, enter the information for your repo.
@@ -144,11 +150,7 @@ On the repo dropdown list, select **Delete Integration**. Note that this only re
 
 ## Working with API versions
 
-When you create a new API in Postman, it also creates the initial version you entered during the API creation. You can create new versions from scratch or based on an existing version.
-
-<!-- TODO:
-Each API version has its own API version page.
--->
+When you create a new API in Postman, it also creates the initial version you entered during the API creation. You can create new versions from scratch or based on an existing version. Each API version has its own **API version** page, which you can find on the API Overview page or in the left sidebar.
 
 ### Creating versions
 
@@ -174,7 +176,7 @@ You can tag your collection revisions to match changes in your API. For example,
 
 > If you have collections with specific version tags, Postman will associate them with the appropriate API versions by default. Due to this automatic behavior, Postman does not allow you to manipulate the version tags of a collection linked with an API manually.
 
-If an API version is incremented, for example from 2.0 to 3.0, and you choose to *Carry over elements from a previous version*, but the collection is not tagged to API version 3.0 yet, Postman will display a warning, since there is no equivalent version tag on the collection corresponding to API version 3.0.
+If an API version is incremented, for example from 2.0 to 3.0, and you choose to *Copy elements from a previous version*, but the collection is not tagged to API version 3.0 yet, Postman will display a warning, since there is no equivalent version tag on the collection corresponding to API version 3.0.
 
 [![API version mismatch](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)
 
@@ -183,10 +185,10 @@ To resolve this, add a corresponding version tag to the collection.
 When you update an API version number and choose to carry over elements from a previous version, Postman provides you a list of elements that you need to update in order to match the new API version. This makes the API Builder your central dashboard to manage changes across all of your API elements.
 
 ### Renaming and deleting versions
-<!-- TODO:
-rename/edit/delete is now on version overview page ... menu
-RUD is mentioned at API level in creating-an-api; this is similar.
--->
+
+You can rename, edit, or delete an API version using the __View more actions__ (__...__) menu in the left sidebar. Editing an API enables you to change the name, status, and visibility at once.
+
+   > When you delete an API version, the collections, monitors, mocks, and environments linked to it will not be deleted or removed.
 
 ## Working with API releases
 
