@@ -42,7 +42,6 @@ You can manage multiple versions of any APIs you create in Postman. You can link
 
 To use versioning with your APIs, you need to carry out the following steps:
 
-* Link your API to a collection
 * Add versions for your API
 * Create releases for minor API changes, and new versions for major changes
 

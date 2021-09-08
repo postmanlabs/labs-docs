@@ -38,27 +38,19 @@ You can validate your API schema in Postman, and validate your elements (documen
 
 ## Validating schema
 
-Postman will indicate validation errors on your API schema as you edit it in the **Definition** tab.
-
-[![Schema error](https://assets.postman.com/postman-docs/schema-validation-error-open.jpg)](https://assets.postman.com/postman-docs/schema-validation-error-open.jpg)
+Postman will indicate validation errors on your API schema as you edit it in the **Definition** tab on the API version page.
 
 The pane below the schema editing area will indicate issues—you can hide and show the error view as you work.
 
-[![Schema errors hidden](https://assets.postman.com/postman-docs/schema-errors-hidden.jpg)](https://assets.postman.com/postman-docs/schema-errors-hidden.jpg)
-
 Each error will indicate the type, the line it occurs on, and details of the issue. You can also hover over the error inline in the editor to see information as you type.
 
-[![Schema error list](https://assets.postman.com/postman-docs/schema-validation-list.jpg)](https://assets.postman.com/postman-docs/schema-validation-list.jpg)
+[![Schema error](https://assets.postman.com/postman-docs/schema-validation-error-open-v9.jpg)](https://assets.postman.com/postman-docs/schema-validation-error-open-v9.jpg)
 
 > Note that sometimes a single error in your schema will cause more than one issue to appear in the list. As you fix your errors you will see the validation issues disappear.
 
 If there is an issue with your schema JSON or YAML syntax, you will see a warning—look for errors indicated in the editor and hover for more detail. Postman will only be able to validate your schema elements if the JSON or YAML is itself well-formed.
 
-[![Invalid JSON](https://assets.postman.com/postman-docs/invalid-json-hover.jpg)](https://assets.postman.com/postman-docs/invalid-json-hover.jpg)
-
-If there are no errors, Postman will indicate that your schema is valid.
-
-[![Valid schema](https://assets.postman.com/postman-docs/schema-valid-indicator.jpg)](https://assets.postman.com/postman-docs/schema-valid-indicator.jpg)
+If there are no errors, Postman will indicate in the lower pane that your schema is valid.
 
 ## Validating elements
 
@@ -77,7 +69,7 @@ When you add a new element to an API, you need to trigger a validation to check 
 
 You can also trigger a new validation of your element manually in the following cases:
 
-* Re-validating after editing your schema and/or your linked element
+* Re-validating after editing your schema or linked element
 * Adding a new schema to an API that already has elements linked to it
 
 You can do so by navigating to your element (such as **Test Suite**), clicking the validation status, then **Validate Again**.
@@ -113,7 +105,7 @@ If an issue arises when you run a request, click the warning message next to the
 
 [![viewing issues](https://assets.postman.com/postman-docs/viewingissues2.gif)](https://assets.postman.com/postman-docs/viewingissues2.gif)
 
-If your issue relates to another element, navigate to your API by clicking **APIs** in the app sidebar, then select your API from the list. Open the tab containing the element you want to see issues for (either **Develop**, **Test** or **Observe**).
+If your issue relates to another element, navigate to your API by clicking **APIs** in the app sidebar, then select an API version from the list. Open the tab containing the element you want to see issues for (either **Overview**, **Test** or **Monitoring**).
 
 You will see a status indicating whether issues have been found during validation next to the element. If there are issues, view them by clicking **Issues found** > **View issues**. This will take you to a page on the [web dashboard](https://app.getpostman.com/dashboard) summarizing validation issues.
 
@@ -121,7 +113,7 @@ You will see a status indicating whether issues have been found during validatio
 
 ### Accessing the issue summary from the web dashboard
 
-You can access the summary of validation issues from the [web dashboard](https://app.getpostman.com/dashboard) by navigating to your API, then selecting the tab containing the element you want to see issues for (either **Develop**, **Test** or **Observe**).
+You can access the summary of validation issues from the [web dashboard](https://app.getpostman.com/dashboard) by navigating to your API, then selecting the tab containing the element you want to see issues for (either **Overview**, **Test** or **Monitoring**).
 
 You will see a status indicating whether any issues have been found during validation next to the element. If there are issues, you can display them by hovering over **Issues found**, then clicking **View issues**. This will redirect you to a page summarizing the issues.
 
