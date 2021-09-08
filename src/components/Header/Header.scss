@@ -1,87 +1,278 @@
 @import '../Shared/_variables.scss';
 
-.header {
-  box-shadow: 0 5px 16px 0 rgba(0,0,0,.11);
-  z-index: 1;
-  .header__logo {
-    margin: auto;
-    height: 50px;
-    @media (max-width: 414px) {
-      height: auto;
+.navbar-v6 {
+  background-color: rgba(255, 255, 255, 0.84) !important;
+  backdrop-filter: blur(4px);
+  padding: 8px 16px;
+  border-bottom: 1px solid #eee;
+
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      padding: 16px 0;
     }
   }
-
-  .header__title {
-    vertical-align: middle;
-    margin-left: 20px;
-    color: $gray-3;
-    text-decoration: none;
-    @media (max-width: 414px) {
-      margin-left: 8px;
-    }
+  & .navbar-toggler{
+    padding: 2.5px 7.5px;
+    font-size: 12.5px;
+    border-radius: 2.5px;
+    
   }
 
-  .header__right-links {
-    .nav-item {
-      .nav-link {
-        text-decoration: none;
-        color: $gray-3;
-        font-size: 13px;
-        font-weight: 600;
-        text-transform: uppercase;
-        white-space: nowrap;
+  & .contextual-home-link {
+    color: $grey_90;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    
+    letter-spacing: -0.24px;
+    line-height: 1.4;
+    font-weight: 600;
+    padding-left: 0;
+  }
+
+  & .navbar-nav {
+    margin-left: 0;
+    @media (max-width: 991px) {
+      margin-bottom: 24px;
+    }
+
+    & .nav-item {
+        margin-bottom: 0px;
+    }
+
+    & .nav-link:link,
+    .nav-link:active {
+      font-weight: 600;
+      // font-size: 1.4rem;
+      font-size: 14px;
+      padding: 6px 16px;
+
+      &.uber-nav {
+        padding: 4px 16px !important;
+        font-size: 14px;
+      }
+    }
+
+    & .dropdown-menu {
+      // font-size: 1.4rem;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 8px 16px;
+      border-radius: 3px;
+      @media screen and (min-width: 992px) {
         padding: 16px;
       }
-      .nav-link:hover {
-        color: $postman-orange;
+    }
+
+    & .dropdown-item {
+      padding: 8px 16px;
+      & small {
+        display: block;
+        color: $grey_70;
       }
-      .btn {
-        margin-bottom: 0;
+      &.app-cta {
+        color: $blue_60;
+        font-weight: 600;
+      }
+    }
+
+    &.property-context-menu {
+      & .nav-link:link,
+      .nav-link:active {
+        font-weight: 400;
       }
     }
   }
-  @media (max-width: 1200px) {
-    .animate-close {
-      animation-fill-mode: forwards;
-      overflow: hidden;
-      animation-name: closeMenu;
-      animation-duration: 0.5s;  
-    }
-    .closed {
-      overflow: hidden;
-      max-height: 0px;
+
+  & .dropdown-menu {
+    background-color: $white;
+    border: none;
+    padding: 0 0 16px 24px;
+    @media screen and (min-width: 992px) {
+      box-shadow: 0 16PX 24px -8PX rgba(0, 0, 0 , 0.24);
+      background-color: $white;
+      border-radius: 3px;
+      border: 1px solid $grey_20;
+      padding: 16px;
     }
   }
-  .animate-open {
-    overflow: hidden;
-    animation-name: openMenu;
-    animation-duration: 0.5s;  
-  } 
-}
 
-@keyframes openMenu {
-  0%   {max-height: 0px;}
-  100% {max-height: 300px;}
-}
+  & .navbar-brand {
+    margin-right: 20px;
+    padding-top: 3.125px;
+    padding-bottom: 3.125px;
+    font-size: 12.5px;
 
-@keyframes closeMenu {
-  0%   {max-height: 300px;}
-  100% {max-height: 0px;}
-}
+    img {
+      margin-bottom: 0px;
+    }
+  }
 
-
-.searchbox {
-  input {
-    background-color:#f5f5f5;
-    border: 0;
-    padding: 13px 24px;
-    border-radius: 3px;
+  & .dropdown-col-menu {
     width: 100%;
+    @media screen and (min-width: 992px) {
+      width: 600px;
+    }
   }
-  ::placeholder {
-    color: #1c272b;
+
+  & .dropdown-col {
+    @media screen and (max-width: 991px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  & .dropdown-header {
+    color: #5b5b5b;
+    // font-size: 1.6rem;
+    font-size: 16px;
+    padding: 8px 16px;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', Helvetica, Arial, sans-serif;
+    letter-spacing: -0.24px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  & input[type='search'] {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 4px 24px 4px 28px;
+    height: 32px;
+    margin: 0px;
+    width: 240px;
+
+    &::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: $grey_40;
+    }
+    &::-moz-placeholder {
+      /* Firefox 19+ */
+      color: $grey_40;
+    }
+    &:-ms-input-placeholder {
+      /* IE 10+ */
+      color: $grey_40;
+    }
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      color: $grey_40;
+    }
+  }
+  & label {
+    position: absolute;
+    margin-left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @media screen and (max-width: 991px) {
+      position: absolute;
+      margin-left: 8px;
+      top: auto;
+      transform: translate(0%);
+    }
+  };
+} // end NavbarV6 styling
+
+// www this is DownloadButton
+.button__sign-up {
+    align-items: center; 
+    appearance: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-flex;
+    // font-size: 1.4rem;
     font-size: 14px;
     font-weight: 600;
+    line-height: 1.75;
+    padding: 4px 12px;
+    user-select: none;
+    color: $white;
+    background-color: $orange_50;
+    text-align: center;
+    // margin: '0 16px 0 0';
+    transition: background-color 50ms ease-in-out, border-color 50ms ease-in-out;
+
+    &:hover,
+    &:active {
+      background-color: $orange_60;
+      text-decoration: none;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+    @media (max-width: 480px) {
+      display: block;
+    }
+};
+
+// www this is DashboardButton
+a.button__sign-in {
+  align-items: center;
+  appearance: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  // font-size: 1.4rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.75;
+  padding: 4px 12px;
+  user-select: none;
+  color: $grey_90;
+  background-color: $white;
+  background-image: none;
+  border: none;
+  // border: 1px solid #A6A6A6 !important;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 1.0) inset !important;
+
+  outline: 0;
+  text-align: center;
+  margin: 0 8px 0 0;
+
+  &:hover,
+  &:active {
+    background-color: $white;
+    box-shadow: inset 0 0 1px rgba(0, 0, 0 , 0.64);
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  // MobileSignInButton = styled(DashboardButton)
+  @media screen and (max-width: 1200px) {
+    display: none;
+
+    &.show {
+      display: block;
+    }
+
+    &.hide {
+      display: none;
+    }
+  }
+}
+
+// Algolia Search Styling
+// the result styling is in _search.scss
+.searchbox {
+  // styled above in input[type=search]
+  // input {
+    // background-color:#f5f5f5;
+    // border: 0;
+    // padding: 13px 24px;
+    // border-radius: 3px;
+    // width: 100%;
+  // }
+  ::placeholder {
+    color: #1c272b;
+    // font-size: 14px;
+    // font-weight: 600;
   }
   .ais-SearchBox-submit, .ais-SearchBox-reset {
     display: none;
@@ -98,10 +289,7 @@
       color: $postman-orange;
     }
   }
-
-  li {
-    padding: 5px;
-  }
+  
   .ais-Pagination-link--selected {
     color: $postman-orange;
   }

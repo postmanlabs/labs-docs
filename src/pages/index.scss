@@ -1,5 +1,12 @@
 @import '../components/MarketingPages/Buttons.scss';
 
+.hero {
+    @media (max-width: 991px) {
+        padding: 0px !important;
+
+      }
+}
+
 .hero-image {
     margin: 0px;
 }
