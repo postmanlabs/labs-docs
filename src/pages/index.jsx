@@ -11,7 +11,7 @@ import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
 
-import { SecondaryCard, LandingCard } from '../components/MarketingPages/Cards';
+import { SecondaryCard, LandingCard, LandingCardWithOutboundLink } from '../components/MarketingPages/Cards';
 import '../components/MarketingPages/Buttons.scss';
 
 import './index.scss';
@@ -98,7 +98,7 @@ class IndexPage extends React.Component {
                 />
               </div>
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
-                <LandingCard
+                <LandingCardWithOutboundLink
                   title="30 Days of Postman"
                   description="Tackle a new challenge each day with these developer tutorials."
                   link="https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
@@ -157,10 +157,10 @@ class IndexPage extends React.Component {
             </div>
           </div>
         </section>
-        {/* Livestream Section */}
+        {/* Events Section */}
         <section className="row section">
           <div className="col-md-12 text-center mb-3">
-            <h2 id="upcoming-livestreams">Upcoming Postman Livestreams</h2>
+            <h2 id="upcoming-livestreams">Upcoming Postman Events</h2>
             <p>
               <a href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
                 Follow us
