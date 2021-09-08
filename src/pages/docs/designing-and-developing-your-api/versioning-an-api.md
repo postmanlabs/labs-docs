@@ -37,12 +37,11 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-<!-- TODO: change the "link collections..." part -->
-You can manage multiple versions of any APIs you create in Postman. You can link collections, mocks, monitors, and documentation to specific versions of APIs using version tagging.
+You can manage multiple versions of any APIs you create in Postman. You can then associate mocks, monitors, and documentation to specific versions of APIs.
 
 To use versioning with your APIs, you need to carry out the following steps:
 
-* Add versions for your API
+* Create versions for your API
 * Create releases for minor API changes, and new versions for major changes
 
 > API versioning is different than using version control for collections. For information on how to use version control for collections, see [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
