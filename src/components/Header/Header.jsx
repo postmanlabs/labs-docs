@@ -16,10 +16,7 @@ import {
 } from 'react-instantsearch-dom';
 import { CustomHits } from '../Search/searchPreview';
 
-
-
-// old logo
-import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
+import postmanLogo from '../../images/postman-logo-icon.svg';
 
 window.$ = $;
 
@@ -128,7 +125,7 @@ class Header extends React.Component {
 
     this.state = {
       beta: '',
-      isToggledOn: 'unset',
+      // isToggledOn: 'unset',
       hasInput: false,
       refresh: false,
     };
@@ -222,13 +219,10 @@ class Header extends React.Component {
     }
   } // end hideTargetElement
 
-  
-
 
   render() {
-    const { isToggledOn, refresh, hasInput, beta } = this.state;
-    // const { beta } = this.state;
-
+    const { refresh, hasInput, beta } = this.state;
+    // isToggledOn,
     return (
       <>
         <nav
@@ -454,6 +448,22 @@ class Header extends React.Component {
             </ul>
             {/* Aloglia Widgets */}
             <div className="form-inline header__search">
+              <label htmlFor="search-lc">
+                <svg
+                  className="nav-search__icon"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="#6b6b6b"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M9.87147 9.16437C10.5768 8.30243 11 7.20063 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11C7.20063 11 8.30243 10.5768 9.16437 9.87147L9.89648 10.6036L9.64648 10.8536L13.5758 14.7829C13.8101 15.0172 14.19 15.0172 14.4243 14.7829L14.7829 14.4243C15.0172 14.19 15.0172 13.8101 14.7829 13.5758L10.8536 9.64648L10.6036 9.89648L9.87147 9.16437ZM6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
+                  />
+                </svg>
+              </label>
               <ClickOutHandler onClickOut={this.onClickOut}>
                 <InstantSearch searchClient={searchClient} indexName="docs" refresh={refresh}>
                   <Configure hitsPerPage={5} />
@@ -491,7 +501,7 @@ class Header extends React.Component {
                 </InstantSearch>
               </ClickOutHandler>
             </div>
-            <form className="form-inline my-2 my-lg-0">
+            {/* <form className="form-inline my-2 my-lg-0">
               <label htmlFor="search-lc">
                 <svg
                   className="nav-search__icon"
@@ -515,7 +525,7 @@ class Header extends React.Component {
                 placeholder="Search Learning Center"
                 aria-label="Search"
               />
-            </form>
+            </form> */}
           </div>
         </nav>
       </>

@@ -12,6 +12,7 @@ code {
 
 .layout-wrapper {
   padding: 0px;
+  // do not use overflow hidden - it will mess up the docs Postmanaut icon with sticky property
   // overflow-x: hidden;
 }
 
@@ -47,33 +48,19 @@ h4,
 
 p {
   font-size: 16px;
-  // a {
-  //   color: $postman-orange;
-  //   &:hover {
-  //     color: $gray-3;
-  //   }
-  // }
 }
 
 // refresh 2021 layout changes
 .container {
-  padding-right: 24px;
+    padding-right: 24px;
     padding-left: 24px;
   @media screen and (max-width: 1199px) {
     max-width: 1199px !important; /* v5 was 1440px; v6 is 1199px */
     width: 100%;
-    // padding-right: 24px;
-    // padding-left: 24px;
   }
   @media screen and (min-width: 1200px) {
     max-width: 1224px !important; /* v5 was 1440px; v6 is 1224px */
     width: 100%;
-    // padding-right: 24px;
-    // padding-left: 24px;
-  }
-  @media screen and (max-width: 576px) {
-    // padding-right: 24px !important;
-    // padding-left: 24px !important;
   }
 }
 
@@ -88,7 +75,6 @@ p {
 }
 .container-fluid {
   padding-right: 24px;
-  padding-left: 24px;
 }
 
 

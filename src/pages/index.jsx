@@ -53,7 +53,7 @@ class IndexPage extends React.Component {
       <Layout>
         <SEO title="Home" slug="/" />
         <div className="container-fluid">
-          <section className="row section align-items-center" style={heroBackground}>
+          <section className="row section align-items-center hero" style={heroBackground}>
             <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
               <h1>Postman Learning Center</h1>
               <p>
