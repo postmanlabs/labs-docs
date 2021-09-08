@@ -209,12 +209,14 @@ Each release page shows a read-only view of the schema, documentation, and tests
 
 To create a release:
 
-1. If you are using an external git repo, create a release there first by merging changes from your develop branch to the main branch, and creating a release tag.
-1. Select the Changelog icon in the sidebar. The Changelog will show changes to the API version's schema and associated elements. 1. Select **+ Release changes**.
+1. If you are using an external git repo, create a release in git first by merging changes from your develop branch to the main branch, and creating a release tag.
+1. Select the Changelog icon in the sidebar. <!-- TODO: icon --> The Changelog will show changes to the API version's schema and associated elements. 1. Select **+ Release changes**.
 1. Enter the release name and description.
 1. If you are using an external git repo, select a tag in **Git release**.
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it is only visible to editors.
 1. Select **Create Release**. You will be taken to a new page for the release.
+
+<!--TODO: editing release names - in changelog, **... > Edit** -->
 
 ## Setting an API status
 

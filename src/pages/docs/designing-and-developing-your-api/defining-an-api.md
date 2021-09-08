@@ -28,10 +28,8 @@ You can define the structure of your API using its specification. You can also g
 * [Editing your schema](#editing-your-schema)
 * [Generating a collection](#generating-a-collection)
 
-> You can also [sync an API spec from a GitHub repository](/docs/integrations/available-integrations/github/#syncing-your-api-schemas-on-github).
-
 ## Editing your schema
-<!--TODO: navigation to version tab-->
+
 The __Definition__ tab in each API version page contains an editor for your API specification (either one you imported or a sample Postman added when you created the API).
 
 The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the drop-down list.

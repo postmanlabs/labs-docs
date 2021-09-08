@@ -38,6 +38,11 @@ Once you have a schema in the Postman API Builder, you can develop your API usin
 
 ## Adding a mock server
 
+<!-- TODO:
+- Cut down this section
+- Link to src/pages/docs/designing-and-developing-your-api/mocking-data/setting-up-mock.md instead
+- Screenshots
+-->
 You can link mock servers for a collection to an API, by creating a new mock server, or adding / editing an existing one. From the API Builder **Develop** tab, click **Add Mock Server**.
 
 ![Add Mock to Schema](https://assets.postman.com/postman-docs/schema-add-mock.jpg)

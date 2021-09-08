@@ -26,10 +26,9 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-<!--TODO: better intro -->
-You can design your API directly in Postman using the API Builder. By defining your schema in __APIs__ on the left of Postman, your specification can act as the single source of truth for your API project. The API Builder supports API-first development by enabling you to generate collections from your schema and build your development and testing from there.
+Postman supports API-first development with the API Builder. You can design your API directly in Postman using the API Builder. Your specification can then act as the single source of truth for your API project.
 
-You can connect various components of your API development and testing process to your schema, such as collections, documentation, tests, mocks, and monitors. You can also version your APIs in Postman and connect elements to specific versions and releases.
+You can connect various components of your API development and testing process to your schema, such as collections, documentation, tests, mocks, and monitors. You can version your APIs in Postman and connect elements to specific versions and releases. You can also sync your API in Postman with a remote git repo.
 
 ## High-level steps
 

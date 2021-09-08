@@ -39,19 +39,26 @@ You can share an API via its workspace in Postman. By sharing your workspace wit
 
 > The Viewer role is only available on certain [Postman plans](https://www.postman.com/pricing).
 
-If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared within the workspace. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
+If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, and monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared within the workspace. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
 
-In Postman, select an __API__ in the sidebar and click (__...__) to open the menu, then choose **Share API**.
+<!-- TODO: second screenshot changes.
+This option now does two things:
+- provides a link to the API
+- or select **Move API** to move it.
+There's also a Move API choice on the menu, and **Remove from workspace** is gone.
+-->
 
-<img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions-2.jpg" width="250px"/>
+1. In Postman, select an __API__ in the sidebar and click (__...__) to open the menu, then choose **Share API**.
 
-Select a workspace, choose if you want to remove the API from the current workspace after sharing, then click __Share and Continue__.
+   <img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions-2.jpg" width="250px"/> <!--TODO: this changes -->
 
-![Share API to Workspace](https://assets.postman.com/postman-docs/v8-managing-share-api2.jpg)
+1. Select a workspace, choose if you want to remove the API from the current workspace after sharing, then click __Share and Continue__.
 
-Configure access levels for collaborators in your workspace and click __Save Roles__.
+   ![Share API to Workspace](https://assets.postman.com/postman-docs/v8-managing-share-api2.jpg)
 
-![API Workspace Roles](https://assets.postman.com/postman-docs/v8-managing-workspace-roles2.jpg)
+1. Configure access levels for collaborators in your workspace and click __Save Roles__.
+
+   ![API Workspace Roles](https://assets.postman.com/postman-docs/v8-managing-workspace-roles2.jpg)
 
 In addition to sharing an API via its workspace, you can also share it to the private API network. Doing this allows your team to learn about and access these APIs and start using them right away. Learn more about [adding your API to the private network](/docs/collaborating-in-postman/adding-private-network/).
 
@@ -61,7 +68,7 @@ The watch option enables you to receive an email or in-app notification when a t
 
 Click the __watch__ option to start watching the API.
 
-![Watch Option](https://assets.postman.com/postman-docs/v8-watch-button2.jpg)
+![Watch Option](https://assets.postman.com/postman-docs/v8-watch-button2.jpg) <!-- TODO: screenshot changes -->
 
 Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the API.
 
@@ -75,9 +82,9 @@ You will also receive an email with the information regarding who has made the c
 
 You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment.
 
-To leave a comment on an API, open __APIs__ in the left sidebar and select the API you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
+To leave a comment on an API, open __APIs__ in the left sidebar and select the API version you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
 
-[![api comment app](https://assets.postman.com/postman-docs/v8-managing-add-comment.gif)](https://assets.postman.com/postman-docs/v8-managing-add-comment.gif)
+[![api comment app](https://assets.postman.com/postman-docs/v8-managing-add-comment.gif)](https://assets.postman.com/postman-docs/v8-managing-add-comment.gif) <!--TODO: remove this and replace with a very tightly cropped view of just the comment mode toggle and a comment -->
 
 > You can leave inline comments on the API schema by highlighting what you want to comment on.
 
@@ -96,15 +103,16 @@ To edit, delete, or link to one of your comments, navigate to the comment sectio
 > With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
 
 ## Using the Changelog
-<!-- TODO: rewrite wrt versions/releases-->
 
-You can view a changelog of your API schemas in the context bar. Open an API, then click the changelog icon.
+You can view a changelog of your API schemas in the context bar. You can also create releases of an API from the changelog.
 
-![Schema Changelog Button](https://assets.postman.com/postman-docs/v8-managing-changelog2.jpg)
+To see the changelog, open an API version, then click the changelog icon. <!--TODO: icon -->
 
-You will see a list of events on the schema and can click to expand each entry for more detail.
+![Schema Changelog Button](https://assets.postman.com/postman-docs/v8-managing-changelog2.jpg) <!--TODO: change with a -->
 
-You can use the __Restore__ link to revert the schema to a previous state.
+You will see a list of events on the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Click to expand each entry for more details.
+
+**+ Release changes** is used to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/#working-with-api-releases).
 
 ## Next steps
 
