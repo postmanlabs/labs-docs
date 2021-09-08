@@ -43,7 +43,7 @@ The following are the high-level steps involved when creating and using APIs:
 * [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/) - Share your API with other team members, add comments, view the changelog, and watch for changes.
 * [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/) - Use reports to view statistics on how APIs are being used, developed, and improved by your team.
 
-# Navigating the API Builder
+## Navigating the API Builder
 
 Open __APIs__ from the left sidebar in Postman. You can open and edit any existing APIs from here, or create or import new APIs. Select a parent entry to open the API's **Overview** page, or select a child entry underneath to open an **API version** page.
 

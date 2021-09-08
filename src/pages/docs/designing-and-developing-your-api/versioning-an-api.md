@@ -50,9 +50,9 @@ To use versioning with your APIs, you need to carry out the following steps:
 
 * [Versioning concepts](#versioning-concepts)
 * [Using an external git repository](#using-an-external-git-repository)
-  - [Connecting a Repository](#connecting-a-repository)
-  - [Pushing and pulling changes](#pushing-and-pulling-changes)
-  - [Removing the repository connection](#removing-the-repository-connection)
+    * [Connecting a Repository](#connecting-a-repository)
+    * [Pushing and pulling changes](#pushing-and-pulling-changes)
+    * [Removing the repository connection](#removing-the-repository-connection)
 * [Creating API versions](#creating-api-versions)
 * [Updating versions](#updating-versions)
 * [Connecting linked elements to versions](#connecting-linked-elements-to-versions)
