@@ -34,6 +34,7 @@ In the Postman API Builder, you can develop your API version by linking it to do
 * [Adding a mock server](#adding-a-mock-server)
     * [Creating a new mock server](#creating-a-new-mock-server)
     * [Adding an existing mock server](#adding-an-existing-mock-server)
+* [Removing elements from an API](#removing-elements-from-an-api)
 
 ## Adding documentation
 
@@ -58,16 +59,15 @@ To create a new collection and generate an API's documentation from your schema:
 <!--TODO: fix this -->
 You can add documentation to specific [versions of your API](/docs/designing-and-developing-your-api/versioning-an-api/). To learn more about versioning and documentation, check out [versioning your docs](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
 
-<!--TODO
 ### Viewing documentation
 
-Click the documentation listed under the **Documentation** heading to open it.
+You can view the documentation for your API from within API Builder.
+Click any of the documentation listed under the **Documentation** heading to open it in a new window.
 
-Or go to the **Documentation** tab. This has a chooser to show which collection you are viewing, or add/generate another.
+You can also view the documentation in the **Documentation** tab. In the upper left of the tab is a dropdown list where you can choose which collection is shown, and add or generate another documentation collection.
 
-Select **View Collection** there to see the underlying collection.
+Select **View Collection** from the **Documentation** tab to see the documentation's collection.
 
--->
 ## Adding an environment
 
 You can link specific environments in your workspaces to specific versions of an API.
@@ -78,10 +78,7 @@ You can link specific environments in your workspaces to specific versions of an
 
 ## Adding a mock server
 
-<!-- TODO:
-- Link to src/pages/docs/designing-and-developing-your-api/mocking-data/setting-up-mock.md instead
--->
-You can link mock servers for a collection to an API, by creating a new mock server, or adding or editing an existing one.
+You can link mock servers for a collection to an API, by creating a new mock server, or adding an existing one.
 
 ### Creating a new mock server
 
@@ -97,3 +94,11 @@ You can link mock servers for a collection to an API, by creating a new mock ser
 
 <!--TODO: edit this, same comments as documentation above -->
 You can add mocks to specific [versions of your API](/docs/designing-and-developing-your-api/versioning-an-api/) or [collection](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
+
+## Removing elements from an API
+
+You can remove an associated documentation collection, environment, or mock server collection from an API.
+
+In the API version **Overview** tab, hover over the element and click **X** to the right of it.
+
+This will only remove the association between the element and the API version. It will not delete the element or remove it from your workspace.
