@@ -195,13 +195,15 @@ The Private API Network is a good place to learn about APIs shared within your t
 
 Under your team name, you can browse a directory of APIs shared within your team. Select an API to see a high-level description.
 
-<img alt="Private API List" src="https://assets.postman.com/postman-docs/private-api-network-list-v8.jpg"/>
+<img alt="Private API List" src="https://assets.postman.com/postman-docs/private-api-network-list-v9.jpg"/>
 
-You can review information about the API and the description. Click **Open Schema** to edit the schema or make changes to the API directly. You can see team collaborators and activities like recently added collections associated with this API.
+You can review information about the API and the description. You can edit the schema or make changes to the API directly. You can see team editors and the workspace associated with this API.
 
-You can also review version-level details on the right. All available versions are listed below, with an indicator of the active version as well as the versions listed to the network.
+Click **Watch** to start watching the API. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/watching-an-api).
 
-<img alt="Published to network" src="https://assets.postman.com/postman-docs/private-api-high-level-overview-v8.jpg"/>
+To review version-level details, click **>** on the right of the API version. You can review information about the API and the description. Click **View Schema** to edit the schema or make changes to the API directly.
+
+<img alt="Published to network" src="https://assets.postman.com/postman-docs/api-overview-v9.jpg"/>
 
 **Add to Private API Network** will display if you haven't added the API to the private network.
 
