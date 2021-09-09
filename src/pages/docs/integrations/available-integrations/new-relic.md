@@ -38,13 +38,7 @@ For more information on API Keys in New Relic, see [the New Relic documentation]
 ## Configuring New Relic Integration
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
-
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
-
-    Search and select **New Relic**.
-
-    ![home page and integrations](https://assets.postman.com/postman-docs/new-relic-search-all.jpg)
-
+1. Search and select **New Relic**.
 1. Select **Add Integration** to create your New Relic integration.
   ![new relic add integration](https://assets.postman.com/postman-docs/new-relic-add-integration.jpg)
 1. Enter a nickname for the integration.
@@ -61,6 +55,11 @@ As soon as your monitor runs, Postman will start sending metrics data to New Rel
 ![New Relic metrics](https://assets.postman.com/postman-docs/new-relic-metrics.jpg)
 
 You can also add one or more charts to a dashboard, tracking key metrics over time. For more information see [the dashboard documentation](https://docs.newrelic.com/docs/query-your-data/explore-query-data/dashboards/introduction-dashboards/) in New Relic.
+
+## Viewing data in the Postman API builder
+
+<!--TODO: intro -->
+[Viewing New Relic metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing_new_relic_metrics)
 
 ## Metrics pushed to New Relic
 
