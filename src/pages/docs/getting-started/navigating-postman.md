@@ -135,7 +135,7 @@ For Public API network, you can change the entity type to narrow down your searc
 
 ## Find and replace
 
-You can search your Postman workspace by clicking __Find and Replace__ at the bottom-left of Postman—or using the keyboard shortcuts `Command + SHIFT + F` / `Control + SHIFT + F`.
+You can search your Postman workspace by clicking __Find and Replace__ at the bottom-left of the Postman application, or using the keyboard shortcuts `Command+Shift+F` / `Control+Shift+F`.
 
 Enter your search string and optionally choose which entities to return, entering replacement text if necessary.
 
@@ -143,9 +143,11 @@ Enter your search string and optionally choose which entities to return, enterin
 
 Postman will search tabs, collections, and variables. You can click directly from the search results to open an entity.
 
+> Find and Replace is not available in Postman for Web.
+
 ## History
 
-You can access a history of the requests you've made in Postman via the __History__ tab on the left of Postman. If you're signed into a Postman account, your history will sync across devices.
+You can access a history of the requests you've made in Postman in the __History__ tab on the left of Postman. If you're signed into a Postman account, your history will sync across devices.
 
 <img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v8.jpg" height="400px"/>
 
