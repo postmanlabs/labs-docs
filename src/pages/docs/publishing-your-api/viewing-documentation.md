@@ -98,7 +98,7 @@ When you view public documentation, you will see any shared environments, the la
 
 For each request, you will see a description of the request, the method and URL, the required authorization type, and any headers or parameters. On the right, you will see example client code snippets for the request, together with example response bodies and headers in the language selected.
 
-Postman currently supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) to customize your code snippets. Don't see your language of choice, or is there a setting missing that you'd find useful? Click Contribute on GitHub under the settings icon to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
+Postman currently supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) to customize your code snippets. Don't see your language of choice, or is there a setting missing that you'd find useful? Select **Contribute on GitHub** under the settings icon to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
 
 ![Public Documentation](https://assets.postman.com/postman-docs/Everything+displayed+in+docs.jpg)
 

@@ -29,7 +29,7 @@ warning: false
 
 Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and sample code.
 
-To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use standard [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to structure and format your descriptions. Or use the new editor (Beta) to see exactly how your content will look as you author it, without having to write any Markdown code. All of your descriptions are automatically included in the documentation for your collection.
+To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use standard [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to structure and format your descriptions. Or use the new editor (Beta) to see exactly how your content will look as you author it, without having to write any Markdown code. All of your descriptions are included in the documentation for your collection.
 
 > You can also add a description when [creating a new request](/docs/sending-requests/requests/#creating-requests).
 
@@ -55,7 +55,7 @@ To add or edit the description for an existing collection, folder, or request:
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
 1. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
-1. Author your description using [Markdown](#authoring-descriptions-in-markdown) or the [new editor (Beta)](#authoring-descriptions-in-the-new-editor). Both are compatible, so feel free to switch between the two editors as you work.
+1. Author your description using the [new editor (Beta)](#authoring-descriptions-in-the-new-editor) or [Markdown](#authoring-descriptions-in-markdown). Both are compatible, so feel free to switch between the two editors as you work.
 1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
 
 > To give users even more details about requests in your collection, add descriptions to the request [parameters and headers](#adding-descriptions-to-parameters-and-headers).
