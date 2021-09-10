@@ -72,9 +72,9 @@ You can alternatively access documentation by visiting your [user profile](https
 
 ![Browse Collection](https://assets.postman.com/postman-docs/user-profile.jpg)
 
-If the documentation you are viewing has multiple versions published, you can select a specific version to view.
+If the documentation you are viewing has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) published, you can select a specific release to view.
 
-<img alt="Docs Versions" src="https://assets.postman.com/postman-docs/docs-versions.jpg" width="400px"/>
+<img alt="Docs Versions" src="https://assets.postman.com/postman-docs/documentation-view-release-public-v9.jpg" width="728px"/>
 
 ### Commenting on documentation
 
