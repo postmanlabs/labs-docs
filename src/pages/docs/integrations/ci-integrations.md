@@ -41,16 +41,15 @@ To set up CI integration for your API, you’ll need to create an API token in y
 
 After you set up CI integration, status information for CI build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the build status (success or failed), and the time the build ran.
 
-To view build jobs, open your API and select the **Test** tab. The most recent jobs are listed under **Recent Runs**. To view the build in your CI tool, hold the cursor over a build and select **View build details**.
+To view build jobs, open your API and select the **Test** tab. The most recent jobs are listed under **Recent Runs**.
+
+* To view a build in your CI tool, hold the cursor over a build and select **View build details**.
+* To kick off a new build, select **Run Build**. Select or type a branch name, and then select **Run Build**.
+* To edit or delete the integration, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
 
 <img alt="View CI recent runs" src="https://assets.postman.com/postman-docs/ci-recent-runs-v9.jpg" width="788">
 
-To view the full list of build jobs, select **View All Builds**. From here you can:
-
-* Filter the list of builds by branch or view builds for **All Branches**.
-* Select **Run Build** to kick off a new build. Select or type a branch name, and then select **Run Build**.
-* Select **Refresh** to get the latest build status information.
-* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to edit or delete the integration.
+To view the full list of build jobs, select **View All Builds**. Use the dropdown list to filter the list of builds by branch or view builds for **All Branches**. To get the latest build status information, select **Refresh**.
 
 <img alt="View all CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9.jpg" width="788">
 
