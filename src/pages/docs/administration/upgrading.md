@@ -31,8 +31,7 @@ Postman v9 provides a consistent, improved API development experience. The Postm
 
 Non-team users can move from Postman v8 to v9 by updating the app via **Settings** > **Update** > **Download update**.
 
-<!--TODO: new screenshot-->
-<img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v7-to-v8.jpg"/>
+<img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v8-to-v9.jpg"/>
 
 You will need to restart Postman to install the update. Click __Restart and Install Update__.
 
@@ -40,7 +39,7 @@ You will need to restart Postman to install the update. Click __Restart and Inst
 
 You can start using Postman v9 and access the new UI and features once the update is completed.
 
-### Upgrading to v8 as a team
+### Upgrading to v9 as a team
 
 Team members on v8 can upgrade to v9 by updating the app via **Settings** > **Update** > **Download update**. You do not need an approval from an admin to upgrade from v8 to v9.
 
@@ -49,8 +48,6 @@ Team members on v8 can upgrade to v9 by updating the app via **Settings** > **Up
 ### Upgrading to v8 as an individual
 
 Non-team users can move from Postman v7 to v8 by updating the app via **Settings** > **Update** > **Download update**.
-
-<img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v7-to-v8.jpg"/>
 
 It is important to verify your work is synced to make sure no data is lost during the update. Click __Verify Sync__.
 
