@@ -56,11 +56,6 @@ As soon as your monitor runs, Postman will start sending metrics data to New Rel
 
 You can also add one or more charts to a dashboard, tracking key metrics over time. For more information see [the dashboard documentation](https://docs.newrelic.com/docs/query-your-data/explore-query-data/dashboards/introduction-dashboards/) in New Relic.
 
-## Viewing data in the Postman API builder
-
-<!--TODO: intro -->
-[Viewing New Relic metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing_new_relic_metrics)
-
 ## Metrics pushed to New Relic
 
 The following metrics and their values are pushed from Postman to New Relic. Run-level metrics comprise metrics valid for the entire run - the number of errors, for example. Request-level metrics send data for each request within the collection. You can filter to each specific request using the dimensions passed along with the metric.
@@ -100,3 +95,7 @@ The following attributes can be used as dimensions:
 - `request.name`
 - `user.id`
 - `user.name`
+
+## Viewing New Relic APM metrics in the Postman API builder
+
+Postman also has another integration that enables you to continuously import New Relic application performance management (APM) metrics into the Postman API Builder. For more information, see [Viewing New Relic metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing_new_relic_metrics).
