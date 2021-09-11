@@ -97,19 +97,6 @@ const LoginCheck = (props) => {
     <a
       href="https://go.postman.co/home"
       className="button__sign-up"
-      onClick={() => {
-        // To stop the page reloading
-        // e.preventDefault()
-        // Lets track that custom click
-        trackCustomEvent({
-          // string - required - The object that was interacted with (e.g.video)
-          category: 'lc-top-nav',
-          // string - required - Type of interaction (e.g. 'play')
-          action: 'Click',
-          // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
-          label: 'launch-postman-button-clicked',
-        });
-      }}
     >
       Launch Postman
     </a>
