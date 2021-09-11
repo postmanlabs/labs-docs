@@ -2,13 +2,18 @@
 
 .hero {
     @media (max-width: 991px) {
-        padding: 0px !important;
-
+        padding: 40px !important;
       }
 }
 
 .hero-image {
     margin: 0px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #e6e6e6;
 }
 
 .cards-outline {
@@ -28,7 +33,9 @@
 }
 // Upcoming Event Section styles
 .event-wrapper {
-    padding-left: 48px;
+    @media (min-width: 992px) {
+        padding-left: 48px;
+    }
 }
 
 .event-single-wrapper {
@@ -61,7 +68,9 @@
 }
 
 .event-description-wrapper {
-    padding-left: 48px !important;
+    @media (min-width: 992px) {
+        padding-left: 48px !important;
+    }
 }
 
 .event-title {
