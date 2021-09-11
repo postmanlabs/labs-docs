@@ -10,70 +10,70 @@
       "items": [
         {
           "title": "What is Postman?",
-          "url": "/what-is-postman/",
+          "url": "https://www.postman.com/what-is-postman/",
           "category": "global-footer",
           "label": "what-is-postman",
           "id": "what-is-postman"
         },
         {
           "title": "Tools",
-          "url": "/tools/",
+          "url": "https://www.postman.com/tools/",
           "category": "global-footer",
           "label": "tools",
           "id": "tools"
         },
         {
           "title": "API repository",
-          "url": "/api-repository/",
+          "url": "https://www.postman.com/api-repository/",
           "category": "global-footer",
           "label": "api-repository",
           "id": "api-repository"
         },
         {
           "title": "Workspaces",
-          "url": "/workspaces/",
+          "url": "https://www.postman.com/workspaces/",
           "category": "global-footer",
           "label": "workspaces",
           "id": "workspaces"
         },
         {
           "title": "Intelligence",
-          "url": "/intelligence/",
+          "url": "https://www.postman.com/intelligence/",
           "category": "global-footer",
           "label": "intelligence",
           "id": "intelligence"
         },
         {
           "title": "Integrations",
-          "url": "/integrations/",
+          "url": "https://www.postman.com/integrations/",
           "category": "global-footer",
           "label": "integrations",
           "id": "integrations"
         },
         {
           "title": "Enterprise",
-          "url": "/postman-enterprise/",
+          "url": "https://www.postman.com/postman-enterprise/",
           "category": "global-footer",
           "label": "enterprise",
           "id": "enterprise"
         },
         {
           "title": "Plans and pricing",
-          "url": "/pricing/",
+          "url": "https://www.postman.com/pricing/",
           "category": "global-footer",
           "label": "plans-and-pricing",
           "id": "plans-and-pricing"
         },
         {
           "title": "Download the app",
-          "url": "/downloads/",
+          "url": "https://www.postman.com/downloads/",
           "category": "global-footer",
           "label": "download-the-app",
           "id": "download-the-app"
         },
         {
           "title": "Support Center",
-          "url": "/support/",
+          "url": "https://www.postman.com/support/",
           "category": "global-footer",
           "label": "support-center",
           "id": "support-center"
@@ -89,28 +89,28 @@
       "items": [
         {
           "title": "About",
-          "url": "/company/about-postman/",
+          "url": "https://www.postman.com/company/about-postman/",
           "category": "global-footer",
           "label": "about",
           "id": "about"
         },
         {
           "title": "Careers and culture",
-          "url": "/company/careers/",
+          "url": "https://www.postman.com/company/careers/",
           "category": "global-footer",
           "label": "careers-and-culture",
           "id": "careers-and-culture"
         },
         {
           "title": "Contact us",
-          "url": "/company/contact-us/",
+          "url": "https://www.postman.com/company/contact-us/",
           "category": "global-footer",
           "label": "contact-us",
           "id": "contact-us"
         },
         {
           "title": "Press and media",
-          "url": "/company/press-media/",
+          "url": "https://www.postman.com/company/press-media/",
           "category": "global-footer",
           "label": "press-and-media",
           "id": "press-and-media"
@@ -126,7 +126,7 @@
       "items": [
         {
           "title": "Security",
-          "url": "/security/",
+          "url": "https://www.postman.com/security/",
           "hrefType": "internal",
           "category": "global-footer",
           "label": "security",
@@ -134,7 +134,7 @@
         },
         {
           "title": "Privacy policy",
-          "url": "/legal/privacy-policy/",
+          "url": "https://www.postman.com/legal/privacy-policy/",
           "hrefType": "internal",
           "category": "global-footer",
           "label": "privacy-policy",
@@ -142,7 +142,7 @@
         },
         {
           "title": "Terms",
-          "url": "/legal/terms/",
+          "url": "https://www.postman.com/legal/terms/",
           "category": "global-footer",
           "label": "terms",
           "id": "terms"
@@ -243,42 +243,42 @@
       "items": [
         {
           "title": "Postman Galaxy",
-          "url": "/postman-galaxy/",
+          "url": "https://www.postman.com/postman-galaxy/",
           "category": "global-footer",
           "label": "postman-galaxy",
           "id": "postman-galaxy"
         },
         {
           "title": "Privacy",
-          "url": "/legal/privacy-policy/",
+          "url": "https://www.postman.com/legal/privacy-policy/",
           "category": "global-footer",
           "label": "privacy",
           "id": "privacy"
         },
         {
           "title": "Terms",
-          "url": "/legal/terms/",
+          "url": "https://www.postman.com/legal/terms/",
           "category": "global-footer",
           "label": "terms",
           "id": "terms"
         },
         {
           "title": "Careers",
-          "url": "/company/careers/",
+          "url": "https://www.postman.com/company/careers/",
           "category": "global-footer",
           "label": "careers",
           "id": "careers"
         },
         {
           "title": "Support",
-          "url": "/support/",
+          "url": "https://www.postman.com/support/",
           "category": "global-footer",
           "label": "support",
           "id": "support"
         },
         {
           "title": "Security",
-          "url": "/security/",
+          "url": "https://www.postman.com/security/",
           "category": "global-footer",
           "label": "security",
           "id": "security"

@@ -257,31 +257,31 @@ class Header extends React.Component {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a className="dropdown-item" href="/what-is-postman/">
+                  <a className="dropdown-item" href="https://www.postman.com/what-is-postman/">
                     What is Postman?
                   </a>
-                  <a className="dropdown-item" href="/repository/">
+                  <a className="dropdown-item" href="https://www.postman.com/api-repository/">
                     API Repository
                   </a>
-                  <a className="dropdown-item" href="/tools/">
+                  <a className="dropdown-item" href="https://www.postman.com/tools/">
                     Tools
                   </a>
-                  <a className="dropdown-item" href="/workspaces/">
+                  <a className="dropdown-item" href="https://www.postman.com/workspaces/">
                     Workspaces
                   </a>
-                  <a className="dropdown-item" href="/intelligence/">
+                  <a className="dropdown-item" href="https://www.postman.com/intelligence/">
                     Intelligence
                   </a>
-                  <a className="dropdown-item" href="/integrations/">
+                  <a className="dropdown-item" href="https://www.postman.com/integrations/">
                     Integrations
                   </a>
-                  <a className="dropdown-item app-cta" href="/downloads/">
+                  <a className="dropdown-item app-cta" href="https://www.postman.com/downloads/">
                     Get Started Free →
                   </a>
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/pricing/">
+                <a className="nav-link" href="https://www.postman.com/pricing/">
                   Pricing
                 </a>
               </li>
@@ -299,13 +299,13 @@ class Header extends React.Component {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a className="dropdown-item" href="/postman-enterprise/">
+                  <a className="dropdown-item" href="https://www.postman.com/postman-enterprise/">
                     Postman Enterprise
                   </a>
-                  <a className="dropdown-item" href="/case-studies/">
+                  <a className="dropdown-item" href="https://www.postman.com/case-studies/">
                     Enterprise Case Studies
                   </a>
-                  <a className="dropdown-item" href="/company/contact-us/">
+                  <a className="dropdown-item" href="https://www.postman.com/company/contact-us/">
                     Contact Us
                   </a>
                 </div>
@@ -327,13 +327,13 @@ class Header extends React.Component {
                   <div className="row dropdown-col-menu">
                     <div className="col-sm-6 col-md-4 dropdown-col">
                       <h6 className="dropdown-header">Learning</h6>
-                      <a className="dropdown-item" href="/postman-enterprise/">
+                      <a className="dropdown-item" href="https://www.postman.com/postman-enterprise/">
                         Postman Enterprise
                       </a>
-                      <a className="dropdown-item" href="/case-studies/">
+                      <a className="dropdown-item" href="https://www.postman.com/case-studies/">
                         Enterprise Case Studies
                       </a>
-                      <a className="dropdown-item" href="/company/contact-us/">
+                      <a className="dropdown-item" href="https://www.postman.com/company/contact-us/">
                         Contact Us
                       </a>
                     </div>
@@ -341,33 +341,33 @@ class Header extends React.Component {
                       <h6 className="dropdown-header">
                         Community &amp; Events
                       </h6>
-                      <a className="dropdown-item" href="/webinars/">
+                      <a className="dropdown-item" href="https://www.postman.com/webinars/">
                         Webinars
                       </a>
                       <a
                         className="dropdown-item"
-                        href="/events/breaking-changes/"
+                        href="https://www.postman.com/events/breaking-changes/"
                       >
                         Breaking Changes Show
                       </a>
                       <a
                         className="dropdown-item"
-                        href="/events/postman-space-camp/"
+                        href="https://www.postman.com/events/postman-space-camp/"
                       >
                         Postman Space Camp
                       </a>
-                      <a className="dropdown-item" href="/case-studies/">
+                      <a className="dropdown-item" href="https://www.postman.com/case-studies/">
                         Case Studies
                       </a>
                     </div>
                     <div className="col-sm-6 col-md-4 dropdown-col">
                       <h6 className="dropdown-header">Support</h6>
-                      <a className="dropdown-item" href="/support/">
+                      <a className="dropdown-item" href="https://www.postman.com/support/">
                         Support Center
                       </a>
                       <a
                         className="dropdown-item"
-                        href="/support/resellers-support/"
+                        href="https://www.postman.com/support/resellers-support/"
                       >
                         Reseller Support
                       </a>
@@ -376,7 +376,7 @@ class Header extends React.Component {
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/explore/">
+                <a className="nav-link" href="https://www.postman.com/explore/">
                   API Network
                 </a>
               </li>
@@ -418,17 +418,17 @@ class Header extends React.Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContentBottom">
             <ul className="property-context-menu navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link uber-nav" href="/">
+                <a className="nav-link uber-nav" href="/docs/getting-started/introduction/">
                   Docs
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link uber-nav" href="/">
+                <a className="nav-link uber-nav" href="/docs/administration/managing-your-team/managing-your-team/">
                   Admin
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link uber-nav mr-3" href="/">
+                <a className="nav-link uber-nav mr-3" href="/docs/developer/resources-intro/">
                   Developer
                 </a>
               </li>
