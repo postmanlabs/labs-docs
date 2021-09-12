@@ -45,6 +45,7 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Changing your email address](#changing-your-email-address)
 * [Updating your profile](#updating-your-profile)
 * [Making your profile public](#making-your-profile-public)
+* [Updating your notification preferences](#updating-your-notification-preferences)
 * [Resetting your password](#resetting-your-password)
 * [Contacting Postman support](#contacting-postman-support)
 
@@ -175,6 +176,14 @@ You can update your Postman profile by [navigating to your profile settings](htt
 You can enable or disable your public profile at any time by [navigating to your profile settings](https://go.postman.co/settings/me), selecting the toggle next to **Make profile public**, then **Update Profile**.
 
 <img alt="Make profile public" src="https://assets.postman.com/postman-docs/make-profile-public-v9.jpg">
+
+## Updating your notification preferences
+
+You can update your notification preferences by selecting your avatar in the upper-right corner of Postman > **Notification Preferences**.
+
+You can opt in to or out of email or in app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
+
+<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9.jpg">
 
 ## Resetting your password
 
