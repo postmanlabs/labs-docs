@@ -46,6 +46,7 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Updating your profile](#updating-your-profile)
 * [Making your profile public](#making-your-profile-public)
 * [Updating your notification preferences](#updating-your-notification-preferences)
+* [Managing your active sessions](#managing-your-active-sessions)
 * [Resetting your password](#resetting-your-password)
 * [Contacting Postman support](#contacting-postman-support)
 
@@ -184,6 +185,12 @@ You can update your notification preferences by selecting your avatar in the upp
 You can opt in to or out of email or in app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
 
 <img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9.jpg">
+
+## Managing your active sessions
+
+You can manage your [active Postman sessions](https://go.postman.co/settings/me/sessions) by selecting your avatar in the upper-right corner of Postman > **Active Sessions**. You can view all of the devices you're logged in to Postman on and revoke any sessions you no longer use or recognize. You can also choose to **Revoke all sessions**.
+
+<img alt="Active sessions" src="https://assets.postman.com/postman-docs/active-sessions-v9.jpg">
 
 ## Resetting your password
 
