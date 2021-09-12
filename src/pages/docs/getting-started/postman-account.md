@@ -155,7 +155,7 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 ## Updating your username
 
-You can update your username at any time by [navigating to your profile settings](https://go.postman.co/settings/me), editing your username, and clicking **Save Changes**.
+You can update your username at any time by [navigating to your profile settings](https://go.postman.co/settings/me), editing your username, and selecting **Update Profile**.
 
 ## Changing your email address
 
@@ -163,7 +163,9 @@ You can change the email address associated with your Postman account by [naviga
 
 ## Making your profile public
 
-You can enable or disable your public profile at any time by [navigating to your profile settings](https://go.postman.co/settings/me), selecting the toggle, and clicking **Save Changes**.
+You can enable or disable your public profile at any time by [navigating to your profile settings](https://go.postman.co/settings/me), selecting the toggle next to **Make profile public**, then **Update Profile**.
+
+<img alt="Edit profile" src="https://assets.postman.com/postman-docs/edit-profile-v9.0.jpg">
 
 ## Resetting your password
 
