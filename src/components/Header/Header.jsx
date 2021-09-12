@@ -257,9 +257,6 @@ class Header extends React.Component {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a className="dropdown-item" href="https://www.postman.com/what-is-postman/">
-                    What is Postman?
-                  </a>
                   <a className="dropdown-item" href="https://www.postman.com/api-repository/">
                     API Repository
                   </a>
@@ -269,11 +266,14 @@ class Header extends React.Component {
                   <a className="dropdown-item" href="https://www.postman.com/workspaces/">
                     Workspaces
                   </a>
-                  <a className="dropdown-item" href="https://www.postman.com/intelligence/">
-                    Intelligence
-                  </a>
                   <a className="dropdown-item" href="https://www.postman.com/integrations/">
                     Integrations
+                  </a>
+                  <a className="dropdown-item" href="https://www.postman.com/what-is-postman/">
+                    What is Postman?
+                  </a>
+                  <a className="dropdown-item" href="https://www.postman.com/intelligence/">
+                    Intelligence
                   </a>
                   <a className="dropdown-item app-cta" href="https://www.postman.com/downloads/">
                     Get Started Free →

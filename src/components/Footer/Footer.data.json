@@ -9,11 +9,11 @@
       "arialabelledby": "product",
       "items": [
         {
-          "title": "What is Postman?",
-          "url": "https://www.postman.com/what-is-postman/",
+          "title": "API repository",
+          "url": "https://www.postman.com/api-repository/",
           "category": "global-footer",
-          "label": "what-is-postman",
-          "id": "what-is-postman"
+          "label": "api-repository",
+          "id": "api-repository"
         },
         {
           "title": "Tools",
@@ -23,11 +23,11 @@
           "id": "tools"
         },
         {
-          "title": "API repository",
-          "url": "https://www.postman.com/api-repository/",
+          "title": "Intelligence",
+          "url": "https://www.postman.com/intelligence/",
           "category": "global-footer",
-          "label": "api-repository",
-          "id": "api-repository"
+          "label": "intelligence",
+          "id": "intelligence"
         },
         {
           "title": "Workspaces",
@@ -37,18 +37,18 @@
           "id": "workspaces"
         },
         {
-          "title": "Intelligence",
-          "url": "https://www.postman.com/intelligence/",
-          "category": "global-footer",
-          "label": "intelligence",
-          "id": "intelligence"
-        },
-        {
           "title": "Integrations",
           "url": "https://www.postman.com/integrations/",
           "category": "global-footer",
           "label": "integrations",
           "id": "integrations"
+        },
+        {
+          "title": "What is Postman?",
+          "url": "https://www.postman.com/what-is-postman/",
+          "category": "global-footer",
+          "label": "what-is-postman",
+          "id": "what-is-postman"
         },
         {
           "title": "Enterprise",
