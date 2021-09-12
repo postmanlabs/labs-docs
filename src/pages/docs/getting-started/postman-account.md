@@ -43,6 +43,7 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Security policies and standards](#security-policies-and-standards)
 * [Updating your username](#updating-your-username)
 * [Changing your email address](#changing-your-email-address)
+* [Updating your profile](#updating-your-profile)
 * [Making your profile public](#making-your-profile-public)
 * [Resetting your password](#resetting-your-password)
 * [Contacting Postman support](#contacting-postman-support)
@@ -161,11 +162,19 @@ You can update your username at any time by [navigating to your profile settings
 
 You can change the email address associated with your Postman account by [navigating to your account settings](https://go.postman.co/settings/me/account), editing your email address, and clicking **Save Changes**.
 
+## Updating your profile
+
+You can update your Postman profile by [navigating to your profile settings](https://go.postman.co/settings/me). You can update your name and username, add details about you, and add links to your website and social media pages. Select **Update Profile** to save changes.
+
+<img alt="Edit profile" src="https://assets.postman.com/postman-docs/edit-profile-v9.0.jpg">
+
+> Your Postman profile is visible to your Postman team, and you can opt to [make your profile public](#making-your-profile-public) to the Postman community.
+
 ## Making your profile public
 
 You can enable or disable your public profile at any time by [navigating to your profile settings](https://go.postman.co/settings/me), selecting the toggle next to **Make profile public**, then **Update Profile**.
 
-<img alt="Edit profile" src="https://assets.postman.com/postman-docs/edit-profile-v9.0.jpg">
+<img alt="Make profile public" src="https://assets.postman.com/postman-docs/make-profile-public-v9.jpg">
 
 ## Resetting your password
 
