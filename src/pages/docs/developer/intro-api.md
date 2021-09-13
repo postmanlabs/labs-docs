@@ -70,7 +70,7 @@ Once you have API keys generated you can manage them within your workspace. Sele
 
 Use __API Key Settings__ to specify expiration periods for your keys.
 
-<img src="https://assets.postman.com/postman-docs/postman-api-key-settings.jpg" width="400px" alt="API ley settings"/>
+<img src="https://assets.postman.com/postman-docs/postman-api-key-settings.jpg" width="400px" alt="API key settings"/>
 
 ### Authentication
 
