@@ -10,13 +10,6 @@ contextual_links:
     name: "API Development Overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Enhanced workflows with CI and Postman"
-    url: "https://blog.postmanlabs.com/enhanced-workflows-with-ci-and-postman/"
-  - type: section
     name: "Next Steps"
   - type: link
     name: "CircleCI"
