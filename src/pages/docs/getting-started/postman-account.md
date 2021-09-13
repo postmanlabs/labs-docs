@@ -158,15 +158,15 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 ## Updating your username
 
-You can update your username at any time by [navigating to your profile settings](https://go.postman.co/settings/me), editing your username, and selecting **Update Profile**.
+You can update your username at any time by navigating to your [account settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Edit your username and select **Update Profile** to save changes.
 
 ## Changing your email address
 
-You can change the email address associated with your Postman account by [navigating to your account settings](https://go.postman.co/settings/me/account), editing your email address, and clicking **Save Changes**.
+You can change the email address associated with your Postman account by navigating to your [account settings](https://go.postman.co/settings/me/account). Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
 ## Updating your profile
 
-You can update your Postman profile by [navigating to your profile settings](https://go.postman.co/settings/me). You can update your name and username, add details about you, and add links to your website and social media pages. Select **Update Profile** to save changes.
+You can update your Postman profile by navigating to your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. You can update your name and username, add details about you, and add links to your website and social media pages. Select **Update Profile** to save changes.
 
 <img alt="Edit profile" src="https://assets.postman.com/postman-docs/edit-profile-v9.0.jpg">
 
@@ -174,7 +174,7 @@ You can update your Postman profile by [navigating to your profile settings](htt
 
 ## Making your profile public
 
-You can enable or disable your public profile at any time by [navigating to your profile settings](https://go.postman.co/settings/me), selecting the toggle next to **Make profile public**, then **Update Profile**.
+You can enable or disable your public profile at any time in your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
 
 <img alt="Make profile public" src="https://assets.postman.com/postman-docs/make-profile-public-v9.jpg">
 
