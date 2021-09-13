@@ -105,6 +105,8 @@ You can only add to API Network when publishing from a team. You can configure y
 
 <img alt="Publish as Team" src="https://assets.postman.com/postman-docs/publish-team.jpg" width="500px"/>
 
+![Enable Profile](https://assets.postman.com/postman-docs/enable-profile.jpg)
+
 Your team profile can include a name, description, custom URL, and logo.
 
 ![Profile Detail](https://assets.postman.com/postman-docs/profile-detail.jpg)
