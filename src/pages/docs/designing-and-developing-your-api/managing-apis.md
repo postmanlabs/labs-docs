@@ -41,13 +41,6 @@ You can share an API via its workspace in Postman. By sharing your workspace wit
 
 If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, and monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared within the workspace. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
 
-<!-- TODO: second screenshot changes.
-This option now does two things:
-- provides a link to the API
-- or select **Move API** to move it.
-There's also a Move API choice on the menu, and **Remove from workspace** is gone.
--->
-
 1. In Postman, select an __API__ in the sidebar and click (__<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">__) to open the menu, then choose **Share API**.
 
    <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-more-actions-v9.jpg" width="250px"/>
@@ -84,7 +77,7 @@ You can discuss your APIs with collaborators in Postman, keeping the conversatio
 
 To leave a comment on an API, open __APIs__ in the left sidebar and select the API version you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
 
-[![api comment app](https://assets.postman.com/postman-docs/v8-managing-add-comment.gif)](https://assets.postman.com/postman-docs/v8-managing-add-comment.gif) <!--TODO: remove this and replace with a very tightly cropped view of just the comment mode toggle and a comment -->
+[![api comment app](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)
 
 > You can leave inline comments on the API schema by highlighting what you want to comment on.
 
@@ -106,13 +99,13 @@ To edit, delete, or link to one of your comments, navigate to the comment sectio
 
 You can view a changelog of your API schemas and all linked collections in the context bar. You can also create releases of an API from the changelog.
 
-To see the changelog, open an API version, then click the changelog icon. <!--TODO: icon -->
+To see the changelog, open an API version, then click the changelog icon. (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">)
 
-![Schema Changelog Button](https://assets.postman.com/postman-docs/v8-managing-changelog2.jpg) <!--TODO: change  -->
+You will see a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Click to expand each entry for more details.
 
-You will see a list of events on the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Click to expand each entry for more details.
+Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/#working-with-api-releases).
 
-**+ Release changes** is used to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/#working-with-api-releases).
+<img src="https://assets.postman.com/postman-docs/api-builder-changelog-v9.jpg" alt="Changelog" width="350px" />
 
 ## Next steps
 

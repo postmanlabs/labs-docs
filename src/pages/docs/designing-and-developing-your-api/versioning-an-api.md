@@ -210,7 +210,7 @@ To create a release:
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it is only visible to editors.
 1. Select **Create Release**. You will be taken to a new page for the release.
 
-<!--TODO: editing release names - in changelog, **... > Edit** -->
+You can also edit a release name in the Changelog. Next to the release, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">, then select **Edit**.
 
 ## Setting an API status
 
@@ -222,13 +222,9 @@ Statuses are displayed in the upper left of the API tab. To set a new status, ch
 
 ## Validating APIs
 
-<!-- TODO: this all changes.
-Also, there's redundancy between this and validating-events-against-schema
- -->
-
 For APIs using OpenAPI 3.0, you can validate the schema against the documentation and select __Click to validate__ to start the validation.
 
-<img alt="Schema validation" src="https://assets.postman.com/postman-docs/click-validation-v8.jpg"/>
+<img alt="Schema validation" src="https://assets.postman.com/postman-docs/click-validation-v8.jpg"/> <!--TODO: docs? Change this. -->
 
 If there are any issues, you will see a warning sign. Hover on it to see the details and click __Review Issues__.
 
@@ -243,24 +239,20 @@ Your collection will be in sync with schema.
 <img alt="Collection updated" src="https://assets.postman.com/postman-docs/collection-updated-v8.jpg" width="500px"/>
 
 ## Connecting linked elements to versions
-<!-- TODO: this all changes -->
-You can link elements such as collections to a version of an API, [by adding either documentation or a test suite](/docs/designing-and-developing-your-api/the-api-workflow/) in the API Builder.
+<!--TODO: docs validation issue is QUAL-2653 -->
+You can link elements such as collections to a version of an API, [by adding either documentation or a test suite](/docs/designing-and-developing-your-api/developing-an-api/) in the API Builder.
 
-[![Api link collections](https://assets.postman.com/postman-docs/api-link-collections-v8.gif)](https://assets.postman.com/postman-docs/api-link-collections-v8.gif)
+<!--TODO:
 
-> When you add a mock or a monitor to an API, the underlying collection also gets linked to the API.
+fix links: docs/mock/env are on the linked page; test is on another
 
-To link a collection to an API version, go to the **Collections** tab in the sidebar, then navigate to the right side of Postman to open the **Changelog** > **Add Version Tag**.
+You don't add version tags. You just add the element on the version's overview or test tab and it's now associated with that version.
 
-<img alt="Collection changelog" src="https://assets.postman.com/postman-docs/collection-api-version-v8.jpg" width="500px"/>
+-->
 
-Choose the version of the API you want to connect to and how you want the collection to be linked.
+[![Api link collections](https://assets.postman.com/postman-docs/api-link-collections-v8.gif)](https://assets.postman.com/postman-docs/api-link-collections-v8.gif) <!--TODO: replace image -->
 
-<img alt="Collection Version 2" src="https://assets.postman.com/postman-docs/add-version-tag-collection-v8.jpg" width="300px"/>
-
-You can create and run mocks and monitors on tagged revisions of your collections. You can also create and publish documentation from the tagged revisions of collections.
-
-Monitors, mocks, and documentation are always associated with specific versions of a collection.
+> When you add a mock or a monitor to an API version, the underlying collection also gets linked to the API.
 
 * The version tags of monitors and mocks linked to versioned collections do not update automatically. If you update the version of an API you're monitoring, you need to create a new monitor linked to the new version as your original linked monitor will run on the original collection.
 * Documentation version tags automatically update along with your API.
