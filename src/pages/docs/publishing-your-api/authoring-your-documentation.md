@@ -37,7 +37,6 @@ To help your teammates ([or the world](/docs/publishing-your-api/publishing-your
 
 * [Adding descriptions to your documentation](#adding-descriptions-to-your-documentation)
     * [Authoring descriptions in Markdown](#authoring-descriptions-in-markdown)
-    * [Authoring descriptions in the new editor](#authoring-descriptions-in-the-new-editor)
     * [Adding descriptions to parameters and headers](#adding-descriptions-to-parameters-and-headers)
 * [Including authorization details](#including-authorization-details)
 * [Including examples](#including-examples)
