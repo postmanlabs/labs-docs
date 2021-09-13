@@ -23,7 +23,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-In the Postman API Builder, you can develop your API version by linking it to documentation, environments, and mock servers.
+In the Postman API Builder, you can develop your API by linking it to documentation, environments, and mock servers.
 
 > When you add documentation, test suites, mocks, monitors, and environments, only the elements in the current workspace will be listed in the selection dropdown list. If an element is already linked to an API, it will not be listed.
 
@@ -54,7 +54,7 @@ To create a new collection and generate an API's documentation from your schema:
 
 1. In the API version **Overview** tab, next to **Documentation**, select **+** and choose **Add existing documentation**.
 
-1. Select the collection with the documentation you want to link and click **Add Documentation**. You will only see available collections in the list.
+1. Select the collection with the documentation you want to link and click **Add Documentation**. You will only see the available collections in the list.
 
 <!--TODO: fix this -->
 You can add documentation to specific [versions of your API](/docs/designing-and-developing-your-api/versioning-an-api/). To learn more about versioning and documentation, check out [versioning your docs](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
@@ -74,7 +74,7 @@ You can link specific environments in your workspaces to specific versions of an
 
 1. In the API version **Overview** tab, next to **Environments**, select **+**.
 
-1. Select an environment from the list and click **Add environment**. You will only see available environments in the list.
+1. Select an environment from the list and click **Add environment**. You will only see the available environments in the list.
 
 ## Adding a mock server
 
@@ -99,6 +99,6 @@ You can add mocks to specific [versions of your API](/docs/designing-and-develop
 
 You can remove an associated documentation collection, environment, or mock server collection from an API.
 
-In the API version **Overview** tab, hover over the element and click **X** to the right of it.
+In the API version **Overview** tab, hover over the element and click <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of it.
 
 This will only remove the association between the element and the API version. It will not delete the element or remove it from your workspace.

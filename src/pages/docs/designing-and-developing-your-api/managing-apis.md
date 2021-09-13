@@ -48,9 +48,9 @@ This option now does two things:
 There's also a Move API choice on the menu, and **Remove from workspace** is gone.
 -->
 
-1. In Postman, select an __API__ in the sidebar and click (__...__) to open the menu, then choose **Share API**.
+1. In Postman, select an __API__ in the sidebar and click (__<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">__) to open the menu, then choose **Share API**.
 
-   <img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions-2.jpg" width="250px"/> <!--TODO: this changes -->
+   <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-more-actions-v9.jpg" width="250px"/>
 
 1. Select a workspace, choose if you want to remove the API from the current workspace after sharing, then click __Share and Continue__.
 
@@ -66,9 +66,9 @@ In addition to sharing an API via its workspace, you can also share it to the pr
 
 The watch option enables you to receive an email or in-app notification when a team member belonging to the same workspace modifies the API, for example updating the schema, attaching an element to the API, adding a comment to the API and so on.
 
-Click the __watch__ option to start watching the API.
+Select __Watch__ to start watching the API.
 
-![Watch Option](https://assets.postman.com/postman-docs/v8-watch-button2.jpg) <!-- TODO: screenshot changes -->
+<img src="https://assets.postman.com/postman-docs/watch-button-v9.jpg" alt="Watch Option" width="350px"/>
 
 Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the API.
 
@@ -104,11 +104,11 @@ To edit, delete, or link to one of your comments, navigate to the comment sectio
 
 ## Using the Changelog
 
-You can view a changelog of your API schemas in the context bar. You can also create releases of an API from the changelog.
+You can view a changelog of your API schemas and all linked collections in the context bar. You can also create releases of an API from the changelog.
 
 To see the changelog, open an API version, then click the changelog icon. <!--TODO: icon -->
 
-![Schema Changelog Button](https://assets.postman.com/postman-docs/v8-managing-changelog2.jpg) <!--TODO: change with a -->
+![Schema Changelog Button](https://assets.postman.com/postman-docs/v8-managing-changelog2.jpg) <!--TODO: change  -->
 
 You will see a list of events on the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Click to expand each entry for more details.
 
