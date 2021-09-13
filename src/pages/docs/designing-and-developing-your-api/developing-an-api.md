@@ -40,8 +40,6 @@ In the Postman API Builder, you can develop your API by linking it to documentat
 
 You can link the documentation generated from your collections to specific versions of an API.
 
-<!--TODO: version tagging. Creating docs here associates them with the API - you can see the add in the API changelog. But if you go to the doc collection, there's no version tag in its changelog, and there's an option to add one. (This is with no repo, test it with one...) -->
-
 ### Creating new documentation
 
 To create a new collection and generate an API's documentation from your schema:
@@ -56,13 +54,9 @@ To create a new collection and generate an API's documentation from your schema:
 
 1. Select the collection with the documentation you want to link and click **Add Documentation**. You will only see the available collections in the list.
 
-<!--TODO: fix this -->
-You can add documentation to specific [versions of your API](/docs/designing-and-developing-your-api/versioning-an-api/). To learn more about versioning and documentation, check out [versioning your docs](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
-
 ### Viewing documentation
 
-You can view the documentation for your API from within API Builder.
-Click any of the documentation listed under the **Documentation** heading to open it in a new window.
+You can view the documentation for your API from within API Builder. Click any of the documentation listed under the **Documentation** heading to open it in a new window.
 
 You can also view the documentation in the **Documentation** tab. In the upper left of the tab is a dropdown list where you can choose which collection is shown, and add or generate another documentation collection.
 
@@ -91,9 +85,6 @@ You can link mock servers for a collection to an API, by creating a new mock ser
 1. In the API version **Overview** tab, next to **Mock Servers**, select **+** and choose **Add existing mock server**.
 
 1. Choose a mock server from your workspace and select **Add Mock Server**. You will only see available mocks in the list. Your mock server will be added to the API.
-
-<!--TODO: edit this, same comments as documentation above -->
-You can add mocks to specific [versions of your API](/docs/designing-and-developing-your-api/versioning-an-api/) or [collection](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
 
 ## Removing elements from an API
 
