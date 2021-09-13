@@ -56,7 +56,7 @@ If you do not have any keys yet you will be prompted to create one. Select __Gen
 
 <img alt="Generate API Key" src="https://assets.postman.com/postman-docs/no-api-keys-generate-v9.0.jpg" width="400px"/>
 
-Enter a name for your key and click __Generate API Key__.
+Enter a name for your key and select __Generate API Key__.
 
 <img src="https://assets.postman.com/postman-docs/generate-api-key-v9.jpg" alt="Name your API key" width="600px"/>
 
