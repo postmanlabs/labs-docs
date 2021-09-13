@@ -39,19 +39,14 @@ contextual_links:
 
 You can manage multiple versions of any APIs you create in Postman. You can then associate mocks, monitors, and documentation to specific versions of APIs.
 
-To use versioning with your APIs, you need to carry out the following steps:
-
-* Create versions for your API
-* Create releases for minor API changes, and new versions for major changes
-
 > API versioning is different than using version control for collections. For information on how to use version control for collections, see [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
 
 * [Versioning concepts](#versioning-concepts)
-* [Using an external git repository](#using-an-external-git-repository)
+* [Using an external Git repository](#using-an-external-git-repository)
     * [Connecting a Repository](#connecting-a-repository)
     * [Pushing and pulling changes](#pushing-and-pulling-changes)
     * [Removing the repository connection](#removing-the-repository-connection)
-* [Creating API versions](#creating-api-versions)
+* [Working with API versions](#working-with-api-versions)
 * [Updating versions](#updating-versions)
 * [Connecting linked elements to versions](#connecting-linked-elements-to-versions)
 
@@ -59,8 +54,8 @@ To use versioning with your APIs, you need to carry out the following steps:
 
 Each API in Postman has one or more versions, and versions have multiple releases. Each version also has a status.
 
-* A _version_ defines a discrete set of resources shipped to customers defining a feature set.
-* A _release_ is a periodic incremental change to a version of an API. Releases can be mapped to git release tags when you are connected to an external git repo.
+* A _version_ defines a major variant of an API its associated elements, such as documentation, tests, mock servers, and monitors.
+* A _release_ is a periodic incremental change to a version of an API. You can see released and unreleased changes in the Changelog, and create new releases there. Changes include edits to the API schema or any related elements. Releases can be mapped to Git release tags when you are connected to an external Git repo.
 * A _status_ is an arbitrary text tag which you can change to indicate the current development stage of the API.
 
 You can create any number of versions in parallel. For example, you can create a new 2.0 version of an API that introduces new breaking changes and work on it internally, but keep adding changes to the 1.0 version that is currently public.
@@ -72,25 +67,25 @@ A typical workflow for API-first development:
 1. Review changes in the changelog. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
 1. Go to the changelog and select **Release changes**. Name the release, add a release note, and create the release. Then change the status to "In Production."
 
-## Using an external git repository
+## Using an external Git repository
 
-You can connect a GitHub or Bitbucket repo to your API, and sync your API specifications and associated collections with the repo. You can continuously make changes synced between Postman and a develop branch in git.
+You can connect a GitHub or Bitbucket repo to your API, and sync your API specifications and associated collections with the repo. You can continuously make changes synced between Postman and a develop branch in Git.
 
-When it's time to release, you can merge the develop branch to the main branch in git, which holds the released version of the API. You can then create a git release, and map this release tag to your release in Postman.
+When it's time to release, you can merge the develop branch to the main branch in Git, which holds the released version of the API. You can then create a Git release, and map this release tag to your release in Postman.
 
-A typical workflow for API-first development with an external git repo:
+A typical workflow for API-first development with an external Git repo:
 
 1. Connect a repo and set up a develop branch.
 1. Create an initial version of an API in Postman. Set the version's status to indicate it is in progress, such as "Planning" or "In Development."
-1. Make changes to the schema and associated collections in Postman, then commit and push changes to the develop branch in the git repo.
-1. You can also make changes to schemas and collections directly in git using other tools or editors. And developers can follow a git workflow like working on feature branches, then creating PRs to merge them into the develop branch.
+1. Make changes to the schema and associated collections in Postman, then commit and push changes to the develop branch in the Git repo.
+1. You can also make changes to schemas and collections directly in Git using other tools or editors. And developers can follow a Git workflow like working on feature branches, then creating PRs to merge them into the develop branch.
 1. Periodically pull from the develop branch to get changes others have made into Postman, and resolve conflicts if there are any issues.
-1. Review changes on your develop branches, then merge them to the main branch in git and create a git release. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
-1. In Postman, go to the changelog and select **Release changes**. Name the release, add a release note, and map the release to a git release tag. Then change the status to "In Production."
+1. Review changes on your develop branches, then merge them to the main branch in Git and create a Git release. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
+1. In Postman, go to the changelog and select **Release changes**. Name the release, add a release note, and map the release to a Git release tag. Then change the status to "In Production."
 
 ### Connecting a repository
 
-You can connect an API to your remote git-based repository, at the API level. This enables you to continuously synchronize changes between the repository and Postman. Versions and release tags are then synchronized between Postman and your git repo.
+You can connect an API to your remote Git-based repository, at the API level. This enables you to continuously synchronize changes between the repository and Postman. Versions and release tags are then synchronized between Postman and your Git repo.
 
 > The user account used for authentication requires full access to repositories. You may want to create a service account with limited permissions specifically for this integration.
 
@@ -101,7 +96,7 @@ You can only connect one Postman API to one remote repo. Multiple APIs require m
 * Two different teams can't have links to the same repo.
 * One API can't have multiple versions synced to multiple repos.
 
-Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link repo/branch to a new version, then all older integrations on that branch become locked. For inactive integrations, no pulls/pushes or new tag-links can happen, but the linked tags stay.
+Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo/branch to a new version, then all older integrations on that branch become locked. For inactive integrations, no pulls/pushes or new tag-links can happen, but the linked tags stay.
 
 To connect a repository:
 
@@ -109,7 +104,7 @@ To connect a repository:
 1. An authentication pop-up window appears. Enter the information to log in to your repo and select **Grant access**.
    > This pop-up window may be hidden by your browser. Make sure to enable pop-ups from this site.
 1. On the **Connect your repository page**, enter the information for your repo.
-1. Enter the git **Organization** and **Repository** where the API will be stored.
+1. Enter the Git **Organization** and **Repository** where the API will be stored.
    > Note that you can only connect one Postman API per repo. Multiple APIs require multiple repos.
 1. Enter the **Main branch** for the API. This is used to fetch  release tags; code is not pushed to this branch.
 1. Enter the **Development branch** for the API. This is where code updates are pushed.
@@ -120,7 +115,7 @@ To connect a repository:
 
 ### Pushing and pulling changes
 
-When you are connected to an external git repo, the repo dropdown list displays your current develop branch and indicates if your API changes in Postman are ahead of or behind the files in your external repo. It also shows links to the connected branch and repo, and a date when changes were last pulled to Postman or pushed to the git repo.
+When you are connected to an external Git repo, the repo dropdown list displays your current develop branch and indicates if your API changes in Postman are ahead of or behind the files in your external repo. It also shows links to the connected branch and repo, and a date when changes were last pulled to Postman or pushed to the Git repo.
 
 <img src="https://assets.postman.com/postman-docs/api-builder-git-integration-dropdown.jpg" alt="API Builder source control" width="250px" />
 
@@ -128,7 +123,7 @@ When you are connected to an external git repo, the repo dropdown list displays 
 
 To get changes from the remote repo, select **Pull** from the repo dropdown list. This syncs any changes from the develop branch of the remote repo to Postman.
 
-If you have a local change that conflicts with the remote copy, you will be shown a link to the latest git commit, and the conflicting files.
+If you have a local change that conflicts with the remote copy, you will be shown a link to the latest Git commit, and the conflicting files.
 
 ![](https://assets.postman.com/postman-docs/api-builder-pull-changes-conflict.jpg)
 
@@ -142,9 +137,9 @@ If there have been changes on the remote repo, you will be asked to pull changes
 
 ### Removing the repository connection
 
-You can remove a connection to a git repo at any time. You may want to do this if you are changing accounts or providers, or need to use a different development branch.
+You can remove a connection to a Git repo at any time. You may want to do this if you are changing accounts or providers, or need to use a different development branch.
 
-On the repo dropdown list, select **Delete Integration**. Note that this only removes the connection to git; it does not change any files or branches.
+On the repo dropdown list, select **Delete Integration**. Note that this only removes the connection to Git; it does not change any files or branches.
 
 ## Working with API versions
 
@@ -154,7 +149,7 @@ When you create a new API in Postman, it also creates the initial version you en
 
 To create a new version of an API:
 
-1. Go to the API **Overview** page. Select **...** in the upper right corner and select **Create version**.
+1. Go to the API **Overview** page. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the upper right corner and select **Create version**.
 1. Enter a version name.
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it is only visible to editors.
 1. If you want want to base this version on existing elements, click **Show more options** to expand the dialog. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
@@ -185,7 +180,7 @@ When you update an API version number and choose to copy elements from a previou
 
 ### Renaming and deleting versions
 
-You can rename, edit, or delete an API version using the __View more actions__ (__...__) menu in the left sidebar. Editing an API enables you to change the name, status, and visibility at once.
+You can rename, edit, or delete an API version using the __View more actions__ (<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">) menu in the left sidebar. Editing an API enables you to change the name, status, and visibility at once.
 
    > When you delete an API version, the collections, monitors, mocks, and environments linked to it will not be deleted or removed.
 
@@ -193,7 +188,7 @@ You can rename, edit, or delete an API version using the __View more actions__ (
 
 A _release_ is a periodic incremental change to a version of an API. You regularly create a release to put out changes that have been made to the API. Releases can have semantic version names (`3.2.0-beta`) or can be named dynamically (`2021-12-25`, `Q4 Security Update`).
 
-When you are connected to an external git repo, releases can be mapped to the git release tags.
+When you are connected to an external Git repo, releases can be mapped to the Git release tags.
 
 ### Viewing releases
 
@@ -207,10 +202,11 @@ Each release page shows a read-only view of the schema, documentation, and tests
 
 To create a release:
 
-1. If you are using an external git repo, create a release in git first by merging changes from your develop branch to the main branch, and creating a release tag.
-1. Select the Changelog icon in the sidebar. <!-- TODO: icon --> The Changelog will show changes to the API version's schema and associated elements. 1. Select **+ Release changes**.
+1. If you are using an external Git repo, create a release in Git first by merging changes from your develop branch to the main branch, and creating a release tag.
+1. Select the Changelog icon (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">) in the sidebar. The Changelog will show changes to the API version's schema and associated elements.
+1. Select **+ Release changes**.
 1. Enter the release name and description.
-1. If you are using an external git repo, select a tag in **Git release**.
+1. If you are using an external Git repo, select a tag in **Git release**.
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it is only visible to editors.
 1. Select **Create Release**. You will be taken to a new page for the release.
 
