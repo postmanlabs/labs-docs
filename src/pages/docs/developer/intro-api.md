@@ -48,31 +48,29 @@ You will need an [API key](#generating-a-postman-api-key) to access the Postman 
 
 ## Generating a Postman API key
 
-You need a valid API Key to send requests to the Postman API endpoints.
+You need a valid API Key to send requests to the Postman API.
 
-You can generate an API Key directly from your [Postman API Keys page](https://go.postman.co/settings/me/api-keys).
+You can generate an API key by navigating to your [Postman API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the upper-right corner > **Account Settings**. Then select **Postman API keys**.
 
-Navigate to the [Postman API Keys page](https://go.postman.co/settings/me/api-keys).
+If you do not have any keys yet you will be prompted to create one. Select __Generate API Key__.
 
-If you do not have any keys yet you will be prompted to create one. Click __Generate API Key__.
-
-<img alt="Generate API Key" src="https://assets.postman.com/postman-docs/generate-api-key.jpg" width="500px"/>
+<img alt="Generate API Key" src="https://assets.postman.com/postman-docs/no-api-keys-generate-v9.0.jpg" width="400px"/>
 
 Enter a name for your key and click __Generate API Key__.
 
-<img src="https://assets.postman.com/postman-docs/api-key-name.jpg" width="300px" alt="API Key Name"/>
+<img src="https://assets.postman.com/postman-docs/generate-api-key-v9.jpg" alt="Name your API key" width="600px"/>
 
-Copy your key and click __Close__.
+Copy your key, then __Close__.
 
-<img src="https://assets.postman.com/postman-docs/copy-api-key.jpg" width="300px" alt="API Key Name"/>
+<img src="https://assets.postman.com/postman-docs/copy-your-api-key-v9.jpg" alt="Copy your API key" width="600px"/>
 
-Once you have keys generated you can manage them within your workspace.
+Once you have API keys generated you can manage them within your workspace. Select **...** next to a key to regenerate or delete it.
 
-![Workspace Keys](https://assets.postman.com/postman-docs/api-keys-overview.jpg)
+<img src="https://assets.postman.com/postman-docs/api-keys-regenerate-delete-v9.jpg" alt="View your API keys"/>
 
 Use __API Key Settings__ to specify expiration periods for your keys.
 
-<img src="https://assets.postman.com/postman-docs/api-key-expire.jpg" width="300px" alt="API Key Expires"/>
+<img src="https://assets.postman.com/postman-docs/postman-api-key-settings.jpg" width="400px" alt="API ley settings"/>
 
 ### Authentication
 

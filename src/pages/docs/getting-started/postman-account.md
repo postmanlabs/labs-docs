@@ -180,7 +180,7 @@ You can enable or disable your public profile at any time by [navigating to your
 
 ## Updating your notification preferences
 
-You can update your notification preferences by selecting your avatar in the upper-right corner of Postman > **Notification Preferences**.
+You can update your [notification preferences](https://go.postman.co/settings/me/notifications) by selecting your avatar in the upper-right corner of Postman > **Notification Preferences**.
 
 You can opt in to or out of email or in app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
 
