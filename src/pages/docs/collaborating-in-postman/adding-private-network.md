@@ -40,7 +40,7 @@ You can share the APIs that your team uses internally to the Private API Network
     * [Security](#security)
     * [Guidelines](#guidelines)
 * [Features of Private API Network](#features-of-private-api-network)
-    * [Folders in Private API Network](#folders-in-private-api-network)
+    * [Folders](#folders)
     * [API Overview](#api-overview)
     * [Filtering](#filtering)
     * [API Landscape Governance](#api-landscape-governance)
@@ -90,7 +90,7 @@ The Private API Network provides a central directory of all internal APIs in you
 
 The following lists the six key features of the Private API Network that help make discovering Private APIs easier:
 
-#### Folders in Private API Network
+#### Folders
 
 You can create new folders from the Private API Network view. Click __Create Folder__ from the left navigation bar to create a new folder. Give it a name and summary (supports Markdown). Your new folder will now be created in the Private API Network.
 
@@ -102,9 +102,9 @@ From the overview page, click **Create Folder** on the right to create a new fol
 
 Once you've created the folder, add APIs or create more folders within the new folder to get started. Click __Add New__ and select __APIs__ to add APIs to your Team's API Network. You can select as many APIs you want to add to the network at one time. Click __Add API__.
 
-> For each API selected, you can specify the versions. Read more about [API versioning](/)
-
 <img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v9.jpg" height="450px"/>
+
+> For each API selected, you can specify the versions. Read more about [API versioning](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 Click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the API you would like to edit from the network and select __Edit API listing__. You can update the API summary, and modify the folder to which the API should be added. Click **Update** when the changes are done.
 
@@ -197,17 +197,15 @@ Under your team name, you can browse a directory of APIs shared within your team
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/private-api-network-list-v9.jpg"/>
 
-You can review information about the API and the description. You can edit the schema or make changes to the API directly. You can see team editors and the workspace associated with this API.
-
-Click **Watch** to start watching the API. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/watching-an-api).
-
-To review version-level details, click **>** on the right of the API version. You can review information about the API and the description. Click **View Schema** to edit the schema or make changes to the API directly.
+To review version-level details, click **>** on the right of the API version. You can review information about the API and the description. You can edit the schema or make changes to the API directly. You can see team editors and the workspace associated with this API.
 
 <img alt="Published to network" src="https://assets.postman.com/postman-docs/api-overview-v9.jpg"/>
 
 **Add to Private API Network** will display if you haven't added the API to the private network.
 
 <img alt="Add to Private API Network" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v8.jpg"/>
+
+> Click **Watch** to start watching the API. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/watching-an-api).
 
 ## Next steps
 
