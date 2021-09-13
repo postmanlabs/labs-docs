@@ -96,7 +96,7 @@ Your profile will be visible to collaborators and anyone viewing resources you s
 
 ## Signing into Postman
 
-You can sign into Postman by clicking **Sign In** in the upper-right corner of Postman, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and clicking **Sign In** in the upper-right corner.
+You can sign into Postman by clicking **Sign In** in the upper-right corner, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and clicking **Sign In** in the upper-right corner.
 
  <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 
@@ -180,7 +180,7 @@ You can enable or disable your public profile at any time in your [profile setti
 
 ## Updating your notification preferences
 
-You can update your [notification preferences](https://go.postman.co/settings/me/notifications) by selecting your avatar in the upper-right corner of Postman > **Notification Preferences**.
+You can update your [notification preferences](https://go.postman.co/settings/me/notifications) by selecting your avatar in the upper-right corner > **Notification Preferences**.
 
 You can opt in to or out of email or in app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
 
@@ -188,7 +188,7 @@ You can opt in to or out of email or in app notifications about security, usage,
 
 ## Managing your active sessions
 
-You can manage your [active Postman sessions](https://go.postman.co/settings/me/sessions) by selecting your avatar in the upper-right corner of Postman > **Active Sessions**. You can view all of the devices you're logged in to Postman on and revoke any sessions you no longer use or recognize. You can also choose to **Revoke all sessions**.
+You can manage your [active Postman sessions](https://go.postman.co/settings/me/sessions) by selecting your avatar in the upper-right corner > **Active Sessions**. You can view all of the devices you're logged in to Postman on and revoke any sessions you no longer use or recognize. You can also choose to **Revoke all sessions**.
 
 <img alt="Active sessions" src="https://assets.postman.com/postman-docs/active-sessions-v9.jpg">
 
