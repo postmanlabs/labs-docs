@@ -48,6 +48,8 @@ To get the latest version of the Postman desktop app, visit the [download page]
     * [Windows](#installing-postman-on-windows)
     * [Linux](#installing-postman-on-linux)
 * [Using Postman on the web](#using-postman-on-the-web)
+    * [Browser requirements](#browser-requirements)
+    * [Installing the Postman desktop agent](#installing-the-postman-desktop-agent)
     * [Web limitations](#web-limitations)
 * [Updating Postman](#updating-postman)
 * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
@@ -62,7 +64,7 @@ To get the latest version of the Postman desktop app, visit the [download page]
 
 [Download](https://www.postman.com/downloads/) and unzip the app _using the built-in Archive Utility app_. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
 
-> The minimum OS version supported is macOS 10.10 (Yosemite).
+> The minimum OS version supported is macOS 10.11 (El Capitan).
 >
 > You may encounter a "Library not loaded" error if you attempt to unzip and install Postman using a third-party app—using the default Archive Utility for Mac should resolve this.
 
@@ -99,8 +101,8 @@ Categories=Development;
 
 > Postman supports the following distributions:
 >
-> * Ubuntu 12.04 and newer
-> * Fedora 21
+> * Ubuntu 14.04 and newer
+> * Fedora 24
 > * Debian 8 and newer
 >
 > The support of certain Linux distributions depends on if they are supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
@@ -115,7 +117,20 @@ Categories=Development;
 
 ## Using Postman on the web
 
-You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/home](https://go.postman.co/home). If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [the Downloads page](https://www.postman.com/downloads/).
+You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/home](https://go.postman.co/home).
+
+### Browser requirements
+
+Postman’s web application is optimized for the following browsers:
+
+* Chrome (78 and higher)
+* Firefox (76 and higher)
+* Edge (79 and higher)
+* Safari (13.1.1 and higher)
+
+### Installing the Postman desktop agent
+
+If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [the Downloads page](https://www.postman.com/downloads/).
 
 <img alt="Postman Agent" src="https://assets.postman.com/postman-docs/download-agent-v86.jpg" width="500px"/>
 
