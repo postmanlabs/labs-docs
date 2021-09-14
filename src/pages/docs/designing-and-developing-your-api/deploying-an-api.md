@@ -46,6 +46,7 @@ Next, create an IAM role for Postman in AWS by taking the following actions:
 2. Under **Select type of trusted entity**, select **Another AWS account**.
 3. Enter Postman's Account ID: `258201882842`.
 4. Under options, check the box to **Require external ID** and enter the external ID Postman has provided.
+    > Refer to the [AWS IAM guide on using external IDs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html) for more information.
 5. Select **Next: Permissions**.
 6. Choose the existing IAM policy or **Create policy**. If creating, submit the following JSON:
 
