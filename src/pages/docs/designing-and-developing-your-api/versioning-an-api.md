@@ -98,6 +98,8 @@ You can only connect one Postman API to one remote repo. Multiple APIs require m
 
 Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo/branch to a new version, then all older integrations on that branch become locked. For inactive integrations, no pulls/pushes or new tag-links can happen, but the linked tags stay.
 
+> For GitHub connections, there's currently a limit of ten auth tokens per user per application. If you create more than ten connections with the same user, your oldest tokens will be revoked.
+
 To connect a repository:
 
 1. On an API Version page, select **Connect Repository** and choose a repo type: **GitHub**, **GitHub Enterprise**, or **Bitbucket**.
@@ -161,18 +163,11 @@ To create a new version of an API:
 
 Postman automatically updates the version tags for linked collections whenever you update the API version. If you add a new version to the API, Postman will also add that version tag to the collection.
 
-[![API link collection to API version](https://assets.postman.com/postman-docs/API-updating-version-tags-v8.gif)](https://assets.postman.com/postman-docs/API-updating-version-tags-v8.gif)
-
 You can tag your collection revisions to match changes in your API. For example, if you update the API, which results in a revision of the collection, you can then link the updated collection (or documentation) to the new version of the API.
-
-[![API link collection revisions](https://assets.postman.com/postman-docs/api-version-tags-updated-v8.gif)](https://assets.postman.com/postman-docs/api-version-tags-updated-v8.gif)
 
 > If you have collections with specific version tags, Postman will associate them with the appropriate API versions by default. Due to this automatic behavior, Postman does not allow you to manipulate the version tags of a collection linked with an API manually.
 
-<!--TODO: I can't get this next thing to happen anymore -->
 If an API version is incremented, for example from 2.0 to 3.0, and you choose to *Copy elements from a previous version*, but the collection is not tagged to API version 3.0 yet, Postman will display a warning, since there is no equivalent version tag on the collection corresponding to API version 3.0.
-
-[![API version mismatch](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)](https://assets.postman.com/postman-docs/api-version-mismatch-v8.gif)
 
 To resolve this, add a corresponding version tag to the collection.
 
@@ -222,6 +217,8 @@ Statuses are displayed in the upper left of the API tab. To set a new status, ch
 
 ## Validating APIs
 
+<!--TODO: docs validation issue is QUAL-2653 -->
+
 For APIs using OpenAPI 3.0, you can validate the schema against the documentation and select __Click to validate__ to start the validation.
 
 <img alt="Schema validation" src="https://assets.postman.com/postman-docs/click-validation-v8.jpg"/> <!--TODO: docs? Change this. -->
@@ -239,7 +236,7 @@ Your collection will be in sync with schema.
 <img alt="Collection updated" src="https://assets.postman.com/postman-docs/collection-updated-v8.jpg" width="500px"/>
 
 ## Connecting linked elements to versions
-<!--TODO: docs validation issue is QUAL-2653 -->
+
 You can link elements such as collections to a version of an API, [by adding either documentation or a test suite](/docs/designing-and-developing-your-api/developing-an-api/) in the API Builder.
 
 <!--TODO:
