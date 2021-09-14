@@ -8,7 +8,7 @@
   &.nav-primary {
     backdrop-filter: blur(32px);
     z-index: 2147483647;
-    padding: 8px 16px;
+    padding: 6px 16px;
     border-bottom: 1px solid #e6e6e6;
     &.activeMenu {
       background-color: #ffffff !important;
@@ -147,7 +147,6 @@
     &:active {
       font-weight: 600;
       padding: 6px 16px;
-      color: red;
       /* Learning Center Nav Positioning */
       &.uber-nav {
         padding: 4px 16px;
@@ -396,7 +395,7 @@
   & .dropdown-col-menu {
     width: 100%;
     @media screen and (min-width: 992px) {
-      width: 64rem;
+      width: 38rem;
     }
   }
   & .dropdown-col {
@@ -500,7 +499,7 @@ a.button__sign-up {
   white-space: nowrap;
   outline: 0;
   text-align: center;
-  margin: 0 8px 0 0;
+  margin: 0;
   transition: background-color 50ms ease-in-out, border-color 50ms ease-in-out;
 
   &:hover,
@@ -538,11 +537,10 @@ box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.24) inset !important;
 outline: 0;
 text-align: center;
 margin: 0 8px 0 0;
-
 &:hover,
 &:active {
   background-color: $white;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.64) inset ;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, .64)  inset  !important;;
   text-decoration: none;
 }
 

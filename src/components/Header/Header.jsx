@@ -57,7 +57,7 @@ const LoginCheck = (props) => {
         <a
           href={`https://go.postman${beta}.co/build`}
           // className="btn btn__primary-hollow mr-2"
-          className="button__sign-in pingdom-transactional-check__sign-in-button nav-link"
+          className="button__sign-in pingdom-transactional-check__sign-in-button"
           target="_blank"
           rel="noreferrer"
           onClick={() => {
@@ -264,7 +264,12 @@ class Header extends React.Component {
     return (
       <>
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-primary">
-          <a className="navbar-brand" href="/">
+          <a
+            className="navbar-brand"
+            href="https://www.postman.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <div className="navbar-logo-container">
               <div className="flip-icons">
                 <div className="flip-front">
@@ -636,7 +641,7 @@ class Header extends React.Component {
               <LoginCheck
                 cookie={cookie}
                 beta={beta}
-                className="pingdom-transactional-check__sign-in-button nav-link"
+                className="pingdom-transactional-check__sign-in-button"
               />
             </div>
           </div>
