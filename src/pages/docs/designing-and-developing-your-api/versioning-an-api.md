@@ -98,7 +98,7 @@ You can only connect one Postman API to one remote repo. Multiple APIs require m
 
 Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo/branch to a new version, then all older integrations on that branch become locked. For inactive integrations, no pulls/pushes or new tag-links can happen, but the linked tags stay.
 
-> For GitHub connections, there's currently a limit of ten auth tokens per user per application. If you create more than ten connections with the same user, your oldest tokens will be revoked.
+> For GitHub connections, there's currently a limit of ten auth tokens per user per application imposed by GitHub. If you create more than ten connections with the same user, your oldest tokens will be revoked. Teams can use other Postman accounts to create more than ten integrations.
 
 To connect a repository:
 
