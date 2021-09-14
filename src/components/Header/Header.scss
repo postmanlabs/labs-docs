@@ -2,13 +2,13 @@
 
 .navbar-v6 {
   background-color: rgba(255, 255, 255, 0.32) !important;
-  padding: 8px 16px;
   margin: 0;
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', Helvetica, Arial, sans-serif;
 
   &.nav-primary {
     backdrop-filter: blur(32px);
     z-index: 2147483647;
+    padding: 8px 16px;
     border-bottom: 1px solid #e6e6e6;
     &.activeMenu {
       background-color: #ffffff !important;
@@ -19,6 +19,7 @@
   &.nav-secondary {
     backdrop-filter: blur(64px);
     position: sticky;
+    padding: 4px 16px;
     top: 0;
     z-index: 1020;
 
@@ -320,6 +321,10 @@
       font-weight: 400 !important;
     }
   }
+  li.nav-item{
+    padding: 0;
+    margin-bottom: 4px !important;
+  }
   @media screen and (max-width: 991px) {
     /* Global Nav */
     #navbarSupportedContent.navbar-collapse {
@@ -414,20 +419,25 @@
   & form {
     @media screen and (max-width: 992px) {
       display: inline-block;
-      margin-top: -15px;
+      margin-top: 16px;
+      margin-left: -8px;
     }
   }
 
-  & input[type='search'] {
+  & input[type="search"] {
     background-color: transparent;
-    border-color: 1px solid rgba(0, 0, 0, 0.24);
-    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.24);
     font-size: 13px;
     padding: 4px 24px 4px 28px;
     height: 32px;
     margin: 0;
-    width: 240px;
-
+    width: 280px;
+    border-radius: 3px;
+    &:focus {
+      border: 1px solid #74aef6;
+      box-shadow: 0 0 0 2px #74aef6;
+      outline: none;
+    }
     &::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: $grey_40;
@@ -456,9 +466,9 @@
     margin-left: 8px;
     @media screen and (max-width: 992px) {
       position: relative;
-      bottom: 0px;
-      margin-left: -16px;
-      left: 25px;
+      bottom: -9px;
+      margin-left: -9px;
+      left: 16px;
     }
   }
   :-webkit-direct-focus {
@@ -547,6 +557,7 @@ margin: 0 8px 0 0;
 
 
 }
+
 
 
 

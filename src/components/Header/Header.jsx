@@ -344,30 +344,40 @@ class Header extends React.Component {
                 >
                   <a
                     className="dropdown-item"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://www.postman.com/what-is-postman/"
                   >
                     What is Postman?
                   </a>
                   <a
                     className="dropdown-item"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://www.postman.com/api-repository/"
                   >
                     API repository
                   </a>
                   <a
                     className="dropdown-item"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://www.postman.com/tools/"
                   >
                     Tools
                   </a>
                   <a
                     className="dropdown-item"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://www.postman.com/intelligence/"
                   >
                     Intelligence
                   </a>
                   <a
                     className="dropdown-item"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://www.postman.com/workspaces/"
                   >
                     Workspaces
@@ -380,6 +390,8 @@ class Header extends React.Component {
                   </a>
                   <a
                     className="dropdown-item app-cta"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://www.postman.com/downloads/"
                   >
                     Get started free →
@@ -387,7 +399,12 @@ class Header extends React.Component {
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://www.postman.com/pricing/">
+                <a
+                  className="nav-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.postman.com/pricing/"
+                >
                   Pricing
                 </a>
               </li>
@@ -419,18 +436,24 @@ class Header extends React.Component {
                 >
                   <a
                     className="dropdown-item"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://www.postman.com/postman-enterprise/"
                   >
                     Postman Enterprise
                   </a>
                   <a
                     className="dropdown-item"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://www.postman.com/case-studies/"
                   >
                     Enterprise case studies
                   </a>
                   <a
                     className="dropdown-item"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://www.postman.com/company/contact-us/"
                   >
                     Contact us
@@ -468,31 +491,38 @@ class Header extends React.Component {
                       <h6 className="dropdown-header">Learning</h6>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://learning.postman.com/docs/getting-started/introduction/"
+                        href="/docs/getting-started/introduction/"
                       >
                         Docs
                       </a>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/webinars/"
                       >
                         Webinars
                       </a>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/events/breaking-changes/"
                       >
                         Breaking Changes show
                       </a>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/events/postman-space-camp/"
                       >
                         Postman Space Camp
                       </a>
-                      <a className="dropdown-item" href="/case-studies/">
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/case-studies/"
+                      >
                         Case studies
                       </a>
                     </div>
@@ -508,12 +538,16 @@ class Header extends React.Component {
                       </a>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/community/"
                       >
                         Community
                       </a>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/company/student-program/"
                       >
                         Student program
@@ -526,12 +560,16 @@ class Header extends React.Component {
                       </a>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/postman-galaxy/"
                       >
                         Postman Galaxy
                       </a>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/company/nonprofit/"
                       >
                         Postman for Nonprofits
@@ -549,12 +587,16 @@ class Header extends React.Component {
                       <h6 className="dropdown-header">Support</h6>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/support/"
                       >
                         Support Center
                       </a>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/support/resellers-support/"
                       >
                         Reseller support
@@ -569,6 +611,8 @@ class Header extends React.Component {
                       </a>
                       <a
                         className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
                         href="https://www.postman.com/downloads/release-notes/"
                       >
                         Release notes

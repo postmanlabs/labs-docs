@@ -32,6 +32,11 @@ ais-highlight-0000000000 {
   display: flex;
   text-align: left;
   max-width: 600px;
+
+  @media screen and (max-width: 992px){
+    left: 10px;
+    right: 10px;
+  }
 }
 
 .arrow-up {
