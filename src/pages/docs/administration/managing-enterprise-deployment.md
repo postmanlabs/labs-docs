@@ -46,7 +46,7 @@ Once you've downloaded the Postman Enterprise MSI package, you can move forward 
 
 ### INSTALLDIR
 
-The `INSTALLDIR` public property is used to select a custom installation directory. If this public property is not manually overwritten, it defaults to `%PROGRAMFILES%\Postman\[name]` for system-wide installations and `%USERPROFILE%\AppData\Local\Programs\Postman\[name]` for per-user installations.
+The `INSTALLDIR` public property is used to select a custom installation directory. If this public property is not manually overwritten, it defaults to `%PROGRAMFILES%\Postman\"Postman Enterprise"` for system-wide installations and `%USERPROFILE%\AppData\Local\Programs\Postman\"Postman Enterprise"` for per-user installations.
 
 For example, you can run the following command to perform a system-wide installation to a custom directory:
 
