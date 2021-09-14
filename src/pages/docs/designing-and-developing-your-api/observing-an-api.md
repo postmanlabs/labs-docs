@@ -25,12 +25,12 @@ contextual_links:
 
 Postman Monitors can be used to track functionality and end-to-end performance of your APIs and response time. You can also view New Relic metrics for your API, and see relevant New Relic dashboards and deployments within Postman.
 
-* [Using monitors](#using_monitors)
-* [Viewing New Relic APM metrics](#viewing_new_relic_apm_metrics)
+* [Using monitors](#using-monitors)
+* [Viewing New Relic APM metrics](#viewing-new-relic-apm-metrics)
 
 ## Using monitors
 
-You can link monitors in your current workspace to an API version. This enables you to check an API's performance and response times at scheduled intervals. From an API version's **Monitoring** tab, you can [create a new monitor](#creating-a-new-monitor), or [add an existing monitor](#adding-an-existing-monitor).
+You can link monitors in your current workspace to an API version. This enables you to check an API's performance and response times at scheduled intervals. From an API version's **Monitoring** tab, you can [create a new monitor](#creating-a-new-monitor) or [add an existing monitor](#adding-an-existing-monitor).
 
 ![Schema Monitors](https://assets.postman.com/postman-docs/api-builder-api-monitor.jpg)
 
@@ -55,11 +55,11 @@ You can choose between generating a collection from your API schema, using an ex
 
 You can add an existing monitor to your API:
 
-1. In the API version **Monitoring** tab, next to **Monitors**, select __Add Monitor__ choose **Add existing monitor**.
+1. In the API version **Monitoring** tab, next to **Monitors**, select __Add Monitor__ and choose **Add existing monitor**.
 
 1. Select a monitor from the list and click **Add Monitor**. You will only see available monitors in your workspace in the list.
 
-To add a monitor to a specific version of your collection, see how to [set up monitors](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).
+To add a monitor to a specific version of your collection, see [Setting up a monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).
 
 ## Viewing New Relic APM metrics
 
@@ -108,4 +108,4 @@ At the top of the dashboard tab, you can:
 
     <img src="https://assets.postman.com/postman-docs/api-builder-apm-page.jpg" alt="New Relic APM" width="350px"/>
 
-To reconfigure the connection to New Relic, select **...** and choose **Edit integration**. You can then change the nickname, API key, services, dashboads or region. You can also choose **Delete integration** to remove the connection.
+To reconfigure the connection to New Relic, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> and choose **Edit integration**. You can then change the nickname, API key, services, dashboads or region. You can also choose **Delete integration** to remove the connection.

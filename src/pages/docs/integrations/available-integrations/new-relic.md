@@ -98,4 +98,4 @@ The following attributes can be used as dimensions:
 
 ## Viewing New Relic APM metrics in the Postman API builder
 
-Postman also has another integration that enables you to continuously import New Relic application performance management (APM) metrics into the Postman API Builder. For more information, see [Viewing New Relic metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing_new_relic_metrics).
+Postman also has another integration that enables you to continuously import New Relic application performance management (APM) metrics into the Postman API Builder. For more information, see [Viewing New Relic metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing-new-relic-metrics).
