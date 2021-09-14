@@ -54,6 +54,9 @@ If there are no errors, Postman will indicate in the lower pane that your schema
 
 ## Validating elements
 
+<!--TODO: docs validation issue is QUAL-2653
+review the rest of this.
+-->
 This section outlines the prerequisites for validating your elements against an API schema, when validations are triggered, and how to trigger one manually.
 
 For validations to execute, you need the following elements in place:
@@ -72,11 +75,9 @@ You can also trigger a new validation of your element manually in the following 
 * Re-validating after editing your schema or linked element
 * Adding a new schema to an API that already has elements linked to it
 
-You can do so by navigating to your element (such as **Test Suite**), clicking the validation status, then **Validate Again**.
+You can do so by navigating to your element (such as **Test**), clicking the validation status, then **Validate Again**.
 
 [![re validating element](https://assets.postman.com/postman-docs/apidev15-revalidate-element.gif)](https://assets.postman.com/postman-docs/apidev15-revalidate-element.gif)
-
-You can also trigger a validation from the issues list by clicking **Validate again** at the top-right of the page.
 
 ### Validating requests
 

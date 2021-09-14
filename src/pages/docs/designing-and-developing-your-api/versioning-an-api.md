@@ -159,7 +159,7 @@ To create a new version of an API:
 
 ### Updating versions
 
-<!-- TODO: update content - also consolidate with the creating versions above -->
+<!-- TODO: rewrite this section. Also maybe new title? -->
 
 Postman automatically updates the version tags for linked collections whenever you update the API version. If you add a new version to the API, Postman will also add that version tag to the collection.
 
@@ -209,7 +209,7 @@ You can also edit a release name in the Changelog. Next to the release, select <
 
 ## Setting an API status
 
-An API status is an arbitrary text tag which you can change to indicate the current stage of the API within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." There are nine possible statuses. You can set different statuses for each version of an API.
+An API status is an arbitrary text tag which you can change to indicate the current stage of the API within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." You can set different statuses for each version of an API.
 
 A status doesn't affect visibility, permissions, or availability of an API. It's simply a way to tell others on your team the current state of the API. Statuses are not automatically changed by any actions or state change in your files. You can change the status at any time.
 
@@ -217,23 +217,7 @@ Statuses are displayed in the upper left of the API tab. To set a new status, ch
 
 ## Validating APIs
 
-<!--TODO: docs validation issue is QUAL-2653 -->
-
-For APIs using OpenAPI 3.0, you can validate the schema against the documentation and select __Click to validate__ to start the validation.
-
-<img alt="Schema validation" src="https://assets.postman.com/postman-docs/click-validation-v8.jpg"/> <!--TODO: docs? Change this. -->
-
-If there are any issues, you will see a warning sign. Hover on it to see the details and click __Review Issues__.
-
-<img alt="Review validation issues" src="https://assets.postman.com/postman-docs/review-validation-issues-v8.jpg" width="300px"/>
-
-To keep your collection in sync with the schema, select the changes you require and click __Confirm Changes to Collection__.
-
-<img alt="Schema documentation sync" src="https://assets.postman.com/postman-docs/documentation-collection-sync-v8.jpg"/>
-
-Your collection will be in sync with schema.
-
-<img alt="Collection updated" src="https://assets.postman.com/postman-docs/collection-updated-v8.jpg" width="500px"/>
+After making changes to a schema, you can validate associated elements to determine what changes might be needed in them to stay in sync with your API. For more information, see [Validating elements](/docs/designing-and-developing-your-api/validating-elements-against-schema/#validating-elements).
 
 ## Connecting linked elements to versions
 

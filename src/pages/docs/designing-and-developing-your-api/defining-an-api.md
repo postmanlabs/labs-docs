@@ -7,8 +7,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Grouping requests in Collections"
-    url: "/docs/sending-requests/intro-to-collections/"
+    name: "Creating an API"
+    url: "/docs/designing-and-developing-your-api/creating-an-api/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -38,7 +38,7 @@ The left pane of the schema editor displays an outline of your schema. When you 
 
 ![Schema navigation](https://assets.postman.com/postman-docs/v8-api-builder-schema-outline.gif)
 
-In the schema editor, when you hover over a '#ref' component and press the Command key, a popover displays the first 200 characters of the reference component. When you Command-click the reference component, it will jump to the reference location.
+In the schema editor, when you hover over a `#ref` component and press the Command key, a popover displays the first 200 characters of the reference component. When you Command-click the reference component, it will jump to the reference location.
 
 ![Schema refs](https://assets.postman.com/postman-docs/v8-api-builder-ref-jump.jpg)
 
@@ -52,7 +52,7 @@ In the upper right of the schema editor are options to beautify the content, wra
 
 The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see a **Generate Collection** option in the upper right of the schema editor.
 
-To create a collection based on your schema, click **Generate Collection**. You can add the collection as documentation, a test suite, an integration test, a monitor, a mock server, or a contract test. The collection will appear in __Collections__ in the left sidebar.
+To create a collection based on your schema, click **Generate Collection**. You can add the collection as documentation, a test, a monitor, or a mock server. The collection will appear in __Collections__ in the left sidebar. It will be linked to the same version of the API as the schema.
 
 ![Generate Collection](https://assets.postman.com/postman-docs/v8-generate-collection-modal2.jpg)
 
