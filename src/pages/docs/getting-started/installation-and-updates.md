@@ -39,8 +39,6 @@ Postman is available on the web at **[go.postman.co/home](https://go.postman.co/
 
 To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and click **Download** for your platform.
 
-![Postman download page](https://assets.postman.com/postman-docs/download-postman-v86.jpg)
-
 ## Contents
 
 * Installing Postman on the desktop
