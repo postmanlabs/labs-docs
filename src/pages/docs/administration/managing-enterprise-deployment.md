@@ -28,15 +28,17 @@ To get started, reach out to your Postman Account Manager or [contact Postman su
 
     * [Enabling verbose logging for installation](#enabling-verbose-logging-for-installation)
 
+* [Updating the Postman Enterprise app](#updating-the-postman-enterprise-app)
+
 * [Uninstalling the Postman Enterprise app](#uninstalling-the-postman-enterprise-app)
 
 ## Downloading the Postman Enterprise app
 
 You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to access the Postman Enterprise app package.
 
-To download, navigate to Postman and select **Team** in the upper right > **Team Settings**
+To download, navigate to Postman and select **Team** in the upper right, then **Team Settings** > **Enterprise Application**.
 
-<!-- need screenshot -->
+<img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/postman-enterprise-app-download-v9.jpg" />
 
 ## Installing the Postman Enterprise app
 
@@ -44,7 +46,7 @@ Once you've downloaded the Postman Enterprise MSI package, you can move forward 
 
 ### INSTALLDIR
 
-The `INSTALLDIR` public property is used to select a custom installation. If this public property is not manually overwritten, it defaults to `%PROGRAMFILES%\[company]\[name]` for system-wide installations and `%USERPROFILE%\AppData\Local\Programs\[company]\[name]` for per-user installations.
+The `INSTALLDIR` public property is used to select a custom installation directory. If this public property is not manually overwritten, it defaults to `%PROGRAMFILES%\Postman\[name]` for system-wide installations and `%USERPROFILE%\AppData\Local\Programs\Postman\[name]` for per-user installations.
 
 For example, you can run the following command to perform a system-wide installation to a custom directory:
 
@@ -87,6 +89,20 @@ The `msiexec` tool can be configured to output debug log information about the i
 ```
 msiexec /i path\to\package.msi /l*v C:\log.txt
 ```
+
+## Updating the Postman Enterprise app
+
+To upgrade the Postman Enterprise app, you can install the new version of the MSI package. Windows Installer will recognize this updated installation as an upgrade.
+
+You must pass the exact same public properties that were used when you originally installed Postman Enterprise.
+
+For example, if you first installed Postman Enterprise with the following you must install the new MSI package in the same way:
+
+```
+INSTALLDIR=C:\custom and MSIINSTALLPERUSER=1
+```
+
+> Downgrading the Postman Enterprise app is not supported and attempts to do so will result in an error message. You can force a downgrade by manually removing the current version and then installing an older version of Postman Enterprise.
 
 ## Uninstalling the Postman Enterprise app
 
