@@ -16,8 +16,8 @@ This section describes the steps to migrate your team to the latest version of P
 Postman v9 provides a consistent, improved API development experience. The Postman desktop app and [Postman on the web](https://community.postman.com/t/whats-new-in-postman-for-the-web/18203) are equally empowering—which one you use is a matter of preference for your workflows.
 
 * [Upgrading to Postman v9](#upgrading-to-postman-v9)
-    * [Upgrading to v9 as an individual](#upgrading-to-v8-as-an-individual)
-    * [Upgrading to v9 as a team](#upgrading-to-v8-as-a-team)
+    * [Upgrading to v9 as an individual](#upgrading-to-v9-as-an-individual)
+    * [Upgrading to v9 as a team](#upgrading-to-v9-as-a-team)
 * [Upgrading to Postman v8](#upgrading-to-postman-v8)
     * [Upgrading to v8 as an individual](#upgrading-to-v8-as-an-individual)
     * [Upgrading to v8 as a team](#upgrading-to-v8-as-a-team)
@@ -27,9 +27,7 @@ Postman v9 provides a consistent, improved API development experience. The Postm
 
 ## Upgrading to Postman v9
 
-### Upgrading to v9 as an individual
-
-Non-team users can move from Postman v8 to v9 by updating the app via **Settings** > **Update** > **Download update**.
+You can move from Postman v7 or v8 to Postman v9 by updating the app via **Settings** > **Update** > **Download update**.
 
 <img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v8-to-v9.jpg"/>
 
@@ -38,10 +36,6 @@ You will need to restart Postman to install the update. Click __Restart and Inst
 <img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
 You can start using Postman v9 and access the new UI and features once the update is completed.
-
-### Upgrading to v9 as a team
-
-Team members on v8 can upgrade to v9 by updating the app via **Settings** > **Update** > **Download update**. You do not need an approval from an admin to upgrade from v8 to v9.
 
 ## Upgrading to Postman v8
 
