@@ -44,11 +44,11 @@ You can manage multiple versions of any APIs you create in Postman. You can then
 * [Versioning concepts](#versioning-concepts)
 * [Using an external Git repository](#using-an-external-git-repository)
     * [Connecting a Repository](#connecting-a-repository)
-    * [Pushing and pulling changes](#pushing-and-pulling-changes)
+    * [Pulling and pushing changes](#pulling-and-pushing-changes)
     * [Removing the repository connection](#removing-the-repository-connection)
 * [Working with API versions](#working-with-api-versions)
-* [Updating versions](#updating-versions)
-* [Connecting linked elements to versions](#connecting-linked-elements-to-versions)
+* [Working with API releases](#working-with-api-releases)
+* [Setting an API status](#setting-an-api-status)
 
 ## Versioning concepts
 
@@ -115,7 +115,7 @@ To connect a repository:
 
 > If you previously used the GitHub integration for two-way sync of an API schema, you must delete the old integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
 
-### Pushing and pulling changes
+### Pulling and pushing changes
 
 When you are connected to an external Git repo, the repo dropdown list displays your current develop branch and indicates if your API changes in Postman are ahead of or behind the files in your external repo. It also shows links to the connected branch and repo, and a date when changes were last pulled to Postman or pushed to the Git repo.
 
@@ -155,24 +155,8 @@ To create a new version of an API:
 1. Enter a version name.
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it is only visible to editors.
 1. If you want want to base this version on existing elements, click **Show more options** to expand the dialog. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
-    > Copying an element creates a new copy in your workspace. The new element will have the new version number appended to its name, such as `my-docs-2.0.0`.
+    > Copying an element creates a new copy in your workspace. The new element will have the new version number appended to its name, such as `my-docs-2.0.0`. The new elements will be linked to the new version of the API.
 1. Click __Create Version__. Your new version will open in the API Builder.
-
-### Updating versions
-
-<!-- TODO: rewrite this section. Also maybe new title? -->
-
-Postman automatically updates the version tags for linked collections whenever you update the API version. If you add a new version to the API, Postman will also add that version tag to the collection.
-
-You can tag your collection revisions to match changes in your API. For example, if you update the API, which results in a revision of the collection, you can then link the updated collection (or documentation) to the new version of the API.
-
-> If you have collections with specific version tags, Postman will associate them with the appropriate API versions by default. Due to this automatic behavior, Postman does not allow you to manipulate the version tags of a collection linked with an API manually.
-
-If an API version is incremented, for example from 2.0 to 3.0, and you choose to *Copy elements from a previous version*, but the collection is not tagged to API version 3.0 yet, Postman will display a warning, since there is no equivalent version tag on the collection corresponding to API version 3.0.
-
-To resolve this, add a corresponding version tag to the collection.
-
-When you update an API version number and choose to copy elements from a previous version, Postman provides you a list of elements that you need to update in order to match the new API version. This makes the API Builder your central dashboard to manage changes across all of your API elements.
 
 ### Renaming and deleting versions
 
@@ -215,28 +199,3 @@ An API status is an arbitrary text tag which you can change to indicate the curr
 A status doesn't affect visibility, permissions, or availability of an API. It's simply a way to tell others on your team the current state of the API. Statuses are not automatically changed by any actions or state change in your files. You can change the status at any time.
 
 Statuses are displayed in the upper left of the API tab. To set a new status, choose one from the dropdown list.
-
-## Validating APIs
-
-After making changes to a schema, you can validate associated elements to determine what changes might be needed in them to stay in sync with your API. For more information, see [Validating elements](/docs/designing-and-developing-your-api/validating-elements-against-schema/#validating-elements).
-
-## Connecting linked elements to versions
-
-You can link elements such as collections to a version of an API, [by adding either documentation or a test suite](/docs/designing-and-developing-your-api/developing-an-api/) in the API Builder.
-
-<!--TODO:
-
-fix links: docs/mock/env are on the linked page; test is on another
-
-You don't add version tags. You just add the element on the version's overview or test tab and it's now associated with that version.
-
--->
-
-[![Api link collections](https://assets.postman.com/postman-docs/api-link-collections-v8.gif)](https://assets.postman.com/postman-docs/api-link-collections-v8.gif) <!--TODO: replace image -->
-
-> When you add a mock or a monitor to an API version, the underlying collection also gets linked to the API.
-
-* The version tags of monitors and mocks linked to versioned collections do not update automatically. If you update the version of an API you're monitoring, you need to create a new monitor linked to the new version as your original linked monitor will run on the original collection.
-* Documentation version tags automatically update along with your API.
-
-You can then [publish specific versions of collection documentation](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs).
