@@ -3,26 +3,27 @@ import './Header.scss';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import $ from 'jquery';
 
-// is this needed? the scroll functions belong to home and postman marketing home
-import {
-  disableBodyScroll,
-  enableBodyScroll,
-  clearAllBodyScrollLocks,
-} from 'body-scroll-lock';
-
 import algoliasearch from 'algoliasearch/lite';
 import {
-  InstantSearch, SearchBox, Hits, Configure, Pagination,
+  InstantSearch,
+  SearchBox,
+  Hits,
+  Configure,
+  Pagination,
 } from 'react-instantsearch-dom';
 import { CustomHits } from '../Search/searchPreview';
 
 import postmanLogo from '../../images/postman-logo-icon.svg';
+import postmanHomeLogo from '../../images/logo-flip-home.svg';
 
 window.$ = $;
 
 const ClickOutHandler = require('react-onclickout');
 
-const algoliaClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04b0');
+const algoliaClient = algoliasearch(
+  '4A5N71XYH0',
+  'bf5cf4783437b12c2dca33724c9c04b0',
+);
 
 // removes empty query searches from analytics
 const searchClient = {
@@ -38,6 +39,13 @@ const searchClient = {
   },
 };
 
+const getCookie = (a) => {
+  if (typeof document !== 'undefined') {
+    const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`);
+    return b ? b.pop() : '';
+  }
+  return false;
+}; // end getCookie
 
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
@@ -97,38 +105,48 @@ const LoginCheck = (props) => {
     <a
       href="https://go.postman.co/home"
       className="button__sign-up"
+      target="_blank"
+      rel="noreferrer"
     >
       Launch Postman
     </a>
   );
 };
-
-
 class Header extends React.Component {
   constructor(props) {
     super(props);
-
-    this.getCookie = this.getCookie.bind(this);
 
     this.state = {
       beta: '',
       // isToggledOn: 'unset',
       hasInput: false,
       refresh: false,
+      visibleHelloBar: 0,
+      cookie: '',
     };
-    this.targetElement = null;
   }
 
-
   componentDidMount() {
+    const cookie = getCookie('getpostmanlogin');
     const beta = window.location.host.includes('postman-beta') ? '-beta' : '';
 
+    // this.targetElement = document.querySelector('#navbarSupportedContent');
+
+    if (window.localStorage) {
+      this.setState({
+        visibleHelloBar: Number(window.localStorage.getItem('hellobarcount')),
+      });
+    }
     this.setState({
+      cookie,
       beta,
     });
-
-
-    this.targetElement = document.querySelector('#navbarSupportedContent');
+    /* eslint-disable func-names */
+    $('#secondaryNav').on('click', () => {
+      $('body').toggleClass('menu-open');
+      $('.nav-primary').toggleClass('activeMenu');
+      $('.nav-secondary').toggleClass('activeMenu');
+    });
 
     function showBsDropdown() {
       $(this)
@@ -136,35 +154,28 @@ class Header extends React.Component {
         .first()
         .stop(true, true)
         .slideDown(225);
+      $(this)
+        .find('.arrow-icon')
+        .addClass('show');
     }
-
     $('.dropdown').on('show.bs.dropdown', showBsDropdown);
-
     function hideBsDropdown() {
       $(this)
         .find('.dropdown-menu')
         .stop(true, true)
         .slideUp(225);
+      $(this)
+        .find('.arrow-icon')
+        .removeClass('show');
     }
-
     $('.dropdown').on('hide.bs.dropdown', hideBsDropdown);
-  } // end componentDidMount
-
-  componentWillUnmount() {
-    clearAllBodyScrollLocks();
   }
-
-  getCookie = (a) => {
-    if (typeof document !== 'undefined') {
-      const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`);
-      return b ? b.pop() : '';
-    }
-    return false;
-  } // end getCookie
 
   // click out search results box
   onClickOut = () => {
-    const searchInput = document.getElementsByClassName('ais-SearchBox-input')[0].value;
+    const searchInput = document.getElementsByClassName(
+      'ais-SearchBox-input',
+    )[0].value;
     if (searchInput !== '') {
       this.setState(() => ({
         hasInput: false,
@@ -172,64 +183,110 @@ class Header extends React.Component {
     }
   } // end onClickOut
 
-  showTargetElement() {
-    const toggler = document.querySelector('.navbar-toggler').getAttribute('aria-expanded');
-    // const signInButton = document.querySelector('.mobile-sign-in');
-    // const cookie = getCookie('getpostmanlogin');
+  showTargetElement = () => {
+    // Sign In Button
+    const cookie = getCookie('getpostmanlogin');
+    const signInButton = document.querySelector('.mobile-sign-in');
+    if (cookie !== 'yes') {
+      signInButton.classList.toggle('show');
+    }
+    // Global Mobile Icon Transition
+    const toggler = document
+      .querySelector('#globalNav.navbar-toggler')
+      .getAttribute('aria-expanded');
+    const body = document.querySelector('body');
+    const icon1 = document.querySelector('#icon-wrap-one');
+    if (toggler === 'true') {
+      body.classList.add('lock');
+      icon1.classList.add('open');
+    }
+    // Hellobar
     const messageBarAlertTop = document.getElementById(
       'message-bar-alert-top',
     ) || { style: { display: '' } };
-    // if (cookie !== 'yes') {
-    //   signInButton.classList.toggle('show');
-    // }
-    if (toggler === 'true') {
-      disableBodyScroll(this.targetElement);
-    }
     if (!messageBarAlertTop.style.display) {
       messageBarAlertTop.style.display = 'none';
     } else {
       messageBarAlertTop.style.display = '';
     }
-  } // end showTargetElement
+  }
 
-  hideTargetElement() {
-    const toggler = document
-      .querySelector('.navbar-toggler')
+  showTargetElementLC = () => {
+    // LC Mobile Icon Transition
+    const togglerSecondary = document
+      .querySelector('#secondaryNav.navbar-toggler')
       .getAttribute('aria-expanded');
-    // const signInButton = document.querySelector('.mobile-sign-in');
-    // const cookie = getCookie('getpostmanlogin');
-    // if (cookie !== 'yes') {
-    //   signInButton.classList.toggle('hide');
-    // }
-    if (toggler === 'false') {
-      enableBodyScroll(this.targetElement);
+    const icon2 = document.querySelector('#icon-wrap-two');
+    if (togglerSecondary === 'true') {
+      icon2.classList.add('open');
     }
-  } // end hideTargetElement
+  }
 
+  hideTargetElementLC = () => {
+    const icon2 = document.querySelector('#icon-wrap-two');
+    const togglerSecondary = document
+      .querySelector('#secondaryNav.navbar-toggler')
+      .getAttribute('aria-expanded');
+    if (togglerSecondary === 'false') {
+      icon2.classList.remove('open');
+    }
+  }
+  /* eslint-enabe class-methods-use-this */
+
+  hideTargetElement = () => {
+    const signInButton = document.querySelector('.mobile-sign-in');
+    const cookie = getCookie('getpostmanlogin');
+    if (cookie !== 'yes') {
+      signInButton.classList.toggle('hide');
+    }
+    const toggler = document
+      .querySelector('#globalNav.navbar-toggler')
+      .getAttribute('aria-expanded');
+    const body = document.querySelector('body');
+    const icon1 = document.querySelector('#icon-wrap-one');
+    if (toggler === 'false') {
+      icon1.classList.remove('open');
+      body.classList.remove('lock');
+    }
+    const icon2 = document.querySelector('#icon-wrap-two');
+    const togglerSecondary = document
+      .querySelector('#secondaryNav.navbar-toggler')
+      .getAttribute('aria-expanded');
+    if (togglerSecondary === 'false') {
+      icon2.classList.remove('open');
+    }
+  }
 
   render() {
-    const { refresh, hasInput, beta } = this.state;
-    // isToggledOn,
+    const {
+      refresh, hasInput, beta, visibleHelloBar, cookie,
+    } = this.state;
     return (
       <>
-        <nav
-          style={{ zIndex: '9999' }}
-          className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light"
-        >
+        <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-primary">
           <a className="navbar-brand" href="/">
-            <img
-              className="img-fluid"
-              src={postmanLogo}
-              alt="Postman"
-              width="32"
-              height="32"
-            />
+            <div className="navbar-logo-container">
+              <div className="flip-icons">
+                <div className="flip-front">
+                  <img src={postmanLogo} alt="Postman" width="32" height="32" />
+                </div>
+                <div className="flip-back">
+                  <img
+                    src={postmanHomeLogo}
+                    alt="Postman"
+                    width="32"
+                    height="32"
+                  />
+                </div>
+              </div>
+            </div>
           </a>
           <button
             onClick={() => {
               this.showTargetElement();
               this.hideTargetElement();
             }}
+            id="globalNav"
             className="mobile-sign-in navbar-toggler"
             data-test="mobileNavToggler"
             type="button"
@@ -239,9 +296,25 @@ class Header extends React.Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon" />
+            <span className="navbar-toggler-icon">
+              <div
+                id="icon-wrap-one"
+                className="icon-bar"
+                aria-expanded="false"
+              >
+                <span />
+                <span />
+                <span />
+                <span />
+              </div>
+            </span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            id="navbarSupportedContent"
+            className={`collapse navbar-collapse${
+              !visibleHelloBar ? ' noBar' : ''
+            }`}
+          >
             <ul className="navbar-nav mr-auto">
               <li className="nav-item dropdown">
                 <a
@@ -252,31 +325,64 @@ class Header extends React.Component {
                   aria-expanded="false"
                 >
                   Product
+                  <svg
+                    className="arrow-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="#6b6b6b"
+                  >
+                    <g>
+                      <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
+                    </g>
+                  </svg>
                 </a>
                 <div
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a className="dropdown-item" href="https://www.postman.com/what-is-postman/">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/what-is-postman/"
+                  >
                     What is Postman?
                   </a>
-                  <a className="dropdown-item" href="https://www.postman.com/api-repository/">
-                    API Repository
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/api-repository/"
+                  >
+                    API repository
                   </a>
-                  <a className="dropdown-item" href="https://www.postman.com/tools/">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/tools/"
+                  >
                     Tools
                   </a>
-                  <a className="dropdown-item" href="https://www.postman.com/workspaces/">
-                    Workspaces
-                  </a>
-                  <a className="dropdown-item" href="https://www.postman.com/intelligence/">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/intelligence/"
+                  >
                     Intelligence
                   </a>
-                  <a className="dropdown-item" href="https://www.postman.com/integrations/">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/workspaces/"
+                  >
+                    Workspaces
+                  </a>
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/integrations/"
+                  >
                     Integrations
                   </a>
-                  <a className="dropdown-item app-cta" href="https://www.postman.com/downloads/">
-                    Get Started Free →
+                  <a
+                    className="dropdown-item app-cta"
+                    href="https://www.postman.com/downloads/"
+                  >
+                    Get started free →
                   </a>
                 </div>
               </li>
@@ -294,19 +400,40 @@ class Header extends React.Component {
                   aria-expanded="false"
                 >
                   Enterprise
+                  <svg
+                    className="arrow-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="#6b6b6b"
+                  >
+                    <g>
+                      <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
+                    </g>
+                  </svg>
                 </a>
                 <div
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a className="dropdown-item" href="https://www.postman.com/postman-enterprise/">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/postman-enterprise/"
+                  >
                     Postman Enterprise
                   </a>
-                  <a className="dropdown-item" href="https://www.postman.com/case-studies/">
-                    Enterprise Case Studies
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/case-studies/"
+                  >
+                    Enterprise case studies
                   </a>
-                  <a className="dropdown-item" href="https://www.postman.com/company/contact-us/">
-                    Contact Us
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/company/contact-us/"
+                  >
+                    Contact us
                   </a>
                 </div>
               </li>
@@ -318,7 +445,19 @@ class Header extends React.Component {
                   data-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Resources &amp; Support
+                  Resources and support
+                  <svg
+                    className="arrow-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="#6b6b6b"
+                  >
+                    <g>
+                      <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
+                    </g>
+                  </svg>
                 </a>
                 <div
                   className="dropdown-menu"
@@ -327,28 +466,25 @@ class Header extends React.Component {
                   <div className="row dropdown-col-menu">
                     <div className="col-sm-6 col-md-4 dropdown-col">
                       <h6 className="dropdown-header">Learning</h6>
-                      <a className="dropdown-item" href="https://www.postman.com/postman-enterprise/">
-                        Postman Enterprise
+                      <a
+                        className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://learning.postman.com/docs/getting-started/introduction/"
+                      >
+                        Docs
                       </a>
-                      <a className="dropdown-item" href="https://www.postman.com/case-studies/">
-                        Enterprise Case Studies
-                      </a>
-                      <a className="dropdown-item" href="https://www.postman.com/company/contact-us/">
-                        Contact Us
-                      </a>
-                    </div>
-                    <div className="col-sm-6 col-md-4 dropdown-col">
-                      <h6 className="dropdown-header">
-                        Community &amp; Events
-                      </h6>
-                      <a className="dropdown-item" href="https://www.postman.com/webinars/">
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/webinars/"
+                      >
                         Webinars
                       </a>
                       <a
                         className="dropdown-item"
                         href="https://www.postman.com/events/breaking-changes/"
                       >
-                        Breaking Changes Show
+                        Breaking Changes show
                       </a>
                       <a
                         className="dropdown-item"
@@ -356,45 +492,114 @@ class Header extends React.Component {
                       >
                         Postman Space Camp
                       </a>
-                      <a className="dropdown-item" href="https://www.postman.com/case-studies/">
-                        Case Studies
+                      <a className="dropdown-item" href="/case-studies/">
+                        Case studies
+                      </a>
+                    </div>
+                    <div className="col-sm-6 col-md-4 dropdown-col">
+                      <h6 className="dropdown-header">Community and events</h6>
+                      <a
+                        className="dropdown-item"
+                        href="https://blog.postman.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Blog
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/community/"
+                      >
+                        Community
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/company/student-program/"
+                      >
+                        Student program
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/company/student-program/student-summit/"
+                      >
+                        Student Summit
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/postman-galaxy/"
+                      >
+                        Postman Galaxy
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/company/nonprofit/"
+                      >
+                        Postman for Nonprofits
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="https://store.getpostman.com/?_ga=2.81312663.1499710862.1631566802-1987217384.1631320816"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Postman swag
                       </a>
                     </div>
                     <div className="col-sm-6 col-md-4 dropdown-col">
                       <h6 className="dropdown-header">Support</h6>
-                      <a className="dropdown-item" href="https://www.postman.com/support/">
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/support/"
+                      >
                         Support Center
                       </a>
                       <a
                         className="dropdown-item"
                         href="https://www.postman.com/support/resellers-support/"
                       >
-                        Reseller Support
+                        Reseller support
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="https://status.postman.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Postman status
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/downloads/release-notes/"
+                      >
+                        Release notes
                       </a>
                     </div>
                   </div>
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://www.postman.com/explore/">
+                <a
+                  className="nav-link"
+                  href="https://www.postman.com/explore"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   API Network
                 </a>
               </li>
             </ul>
             <div className="form-inline my-2 my-lg-0">
-              <LoginCheck cookie={this.getCookie('getpostmanlogin')} beta={beta} />
-              {/* <LoginButton
-                data={{ cookie, beta }}
+              <LoginCheck
+                cookie={cookie}
+                beta={beta}
                 className="pingdom-transactional-check__sign-in-button nav-link"
-              /> */}
-
-              {/* <SignUpDownloadButton data={{ cookie, beta }} /> */}
+              />
             </div>
           </div>
         </nav>
-        <nav className="navbar-v6 navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary">
           <a className="navbar-brand" href="/">
-            <span className="contextual-home-link nav-link uber-nav">
+            <span id="learning-center-home-link" className="nav-link uber-nav">
               Learning Center
               <span className="sr-only">(current)</span>
             </span>
@@ -404,6 +609,7 @@ class Header extends React.Component {
               this.showTargetElement();
               this.hideTargetElement();
             }}
+            id="secondaryNav"
             className="mobile-sign-in navbar-toggler"
             data-test="mobileNavTogglerBottom"
             type="button"
@@ -413,50 +619,77 @@ class Header extends React.Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon" />
+            <span className="navbar-toggler-icon">
+              <div
+                id="icon-wrap-two"
+                className="icon-bar"
+                aria-expanded="false"
+              >
+                <span />
+                <span />
+                <span />
+                <span />
+              </div>
+            </span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContentBottom">
+          <div
+            className="collapse navbar-collapse"
+            id="navbarSupportedContentBottom"
+          >
             <ul className="property-context-menu navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link uber-nav" href="/docs/getting-started/introduction/">
+                <a
+                  className="nav-link uber-nav"
+                  href="/docs/getting-started/introduction/"
+                >
                   Docs
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link uber-nav" href="/docs/administration/managing-your-team/managing-your-team/">
+                <a
+                  className="nav-link uber-nav"
+                  href="/docs/administration/managing-your-team/managing-your-team/"
+                >
                   Admin
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link uber-nav mr-3" href="/docs/developer/resources-intro/">
+                <a
+                  className="nav-link uber-nav mr-3"
+                  href="/docs/developer/resources-intro/"
+                >
                   Developer
                 </a>
               </li>
             </ul>
             {/* Aloglia Widgets */}
             <div className="form-inline header__search">
-              <label htmlFor="search-lc">
-                <svg
-                  className="nav-search__icon"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="#6b6b6b"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M9.87147 9.16437C10.5768 8.30243 11 7.20063 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11C7.20063 11 8.30243 10.5768 9.16437 9.87147L9.89648 10.6036L9.64648 10.8536L13.5758 14.7829C13.8101 15.0172 14.19 15.0172 14.4243 14.7829L14.7829 14.4243C15.0172 14.19 15.0172 13.8101 14.7829 13.5758L10.8536 9.64648L10.6036 9.89648L9.87147 9.16437ZM6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
-                  />
-                </svg>
-              </label>
+              <label htmlFor="search-lc" />
+              <svg
+                className="nav-search__icon"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="#6b6b6b"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M9.87147 9.16437C10.5768 8.30243 11 7.20063 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11C7.20063 11 8.30243 10.5768 9.16437 9.87147L9.89648 10.6036L9.64648 10.8536L13.5758 14.7829C13.8101 15.0172 14.19 15.0172 14.4243 14.7829L14.7829 14.4243C15.0172 14.19 15.0172 13.8101 14.7829 13.5758L10.8536 9.64648L10.6036 9.89648L9.87147 9.16437ZM6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
+                />
+              </svg>
               <ClickOutHandler onClickOut={this.onClickOut}>
-                <InstantSearch searchClient={searchClient} indexName="docs" refresh={refresh}>
+                <InstantSearch
+                  searchClient={searchClient}
+                  indexName="docs"
+                  refresh={refresh}
+                >
                   <Configure hitsPerPage={5} />
 
                   {/* forcefeed className because component does not accept natively as prop */}
                   <SearchBox
+                    id="search-lc"
                     className="searchbox"
                     class="ais-SearchBox-input"
                     submit={<></>}
@@ -488,59 +721,11 @@ class Header extends React.Component {
                 </InstantSearch>
               </ClickOutHandler>
             </div>
-            {/* <form className="form-inline my-2 my-lg-0">
-              <label htmlFor="search-lc">
-                <svg
-                  className="nav-search__icon"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="#6b6b6b"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M9.87147 9.16437C10.5768 8.30243 11 7.20063 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11C7.20063 11 8.30243 10.5768 9.16437 9.87147L9.89648 10.6036L9.64648 10.8536L13.5758 14.7829C13.8101 15.0172 14.19 15.0172 14.4243 14.7829L14.7829 14.4243C15.0172 14.19 15.0172 13.8101 14.7829 13.5758L10.8536 9.64648L10.6036 9.89648L9.87147 9.16437ZM6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
-                  />
-                </svg>
-              </label>
-              <input
-                className="form-control"
-                id="search-lc"
-                type="search"
-                placeholder="Search Learning Center"
-                aria-label="Search"
-              />
-            </form> */}
           </div>
         </nav>
       </>
     );
   }
 }
-
-
-// SignUpDownloadButton.propTypes = {
-//   data: PropTypes.shape({
-//     cookie: PropTypes.string.isRequired,
-//     beta: PropTypes.string.isRequired
-//   }).isRequired
-// };
-
-// LoginButton.propTypes = {
-//   data: PropTypes.shape({
-//     cookie: PropTypes.string.isRequired,
-//     beta: PropTypes.string.isRequired
-//   }).isRequired
-// };
-
-// LoginButtonMobile.propTypes = {
-//   data: PropTypes.shape({
-//     cookie: PropTypes.string.isRequired,
-//     beta: PropTypes.string.isRequired
-//   }).isRequired
-// };
-
 
 export default Header;
