@@ -36,7 +36,7 @@ To connect to AWS API Gateway, you can either [authenticate by creating an AWS I
 
 To set up a connection to AWS API Gateway with an AWS IAM role, select **IAM** from the dropdown under **AWS Authentication Mechanism**.
 
-<img alt="Deployments AWS API Gateway" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-iam-role-v9.jpg" width="400px"/>
+<img alt="Connecting with AWS IAM role" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-iam-role-v9.jpg" width="400px"/>
 
 Provide a **Name** for your integration and select the **AWS API Type**.
 
@@ -78,7 +78,7 @@ Copy the **Role ARN** from AWS and paste it in Postman under **Step 2: Enter rol
 
 To set up a connection to AWS API Gateway with an AWS access key, select **Access Key** from the dropdown under **AWS Authentication Mechanism**.
 
-<img alt="Deployments AWS API Gateway" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-access-key.jpg" width="400px"/>
+<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-access-key.jpg" width="400px"/>
 
 Provide the following information to connect to AWS API Gateway:
 
@@ -94,7 +94,7 @@ Select **Connect** to connect Postman to AWS API Gateway.
 
 To view your API deployments in Postman, navigate to your API version and select the **Deployments** tab.
 
-<img alt="Deployments AWS API Gateway" src="https://assets.postman.com/postman-docs/.jpg" width=""/>
+<img alt="Deployed APIs" src="https://assets.postman.com/postman-docs/.jpg" width=""/>
 
 You can view details about your various API deployments, including their IDs, descriptions, creation dates, and current statuses. You can also view your invoke URL, access logs, and execution logs by selecting a deployment.
 
