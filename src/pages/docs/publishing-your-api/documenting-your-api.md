@@ -152,11 +152,11 @@ To use an environment variable in your documentation:
 
 ## Versioning your docs
 
-A [version](/docs/designing-and-developing-your-api/versioning-an-api#versioning-concepts) is a set of features and functionality that your API delivers to consumers. A collection that contains API documentation can be linked to only one version of an API. That means, when you create a new version of your API, you'll also need to create a new documentation collection. You can then use the new collection to author documentation for the new API version.
+A version is a set of features and functionality that your API delivers to consumers. A collection that contains API documentation can be linked to only one version of an API. That means, when you create a new version of your API, you'll also need to create a new documentation collection. You can then use the new collection to author documentation for the new API version.
 
 There are several ways to create a documentation collection for a new version of your API:
 
-* **Carry over documentation when creating an API version.** When you [create a new API version](/docs/designing-and-developing-your-api/versioning-an-api#creating-versions), you have the option to copy elements from a previous API version into the new version. Select the **Documentation** element, and then select **Create Version**. This will create a new documentation collection based on the previous collection, with the new version name appended to the collection name.
+* **Carry over documentation when creating an API version.** When you create a new API version, you have the option to copy elements from a previous API version into the new version. Select the **Documentation** element, and then select **Create Version**. This will create a new documentation collection based on the previous collection, with the new version name appended to the collection name.
 
     <img alt="Creating a new version" src="https://assets.postman.com/postman-docs/documentation-new-version-v9.jpg" width="482px">
 
@@ -166,12 +166,12 @@ There are several ways to create a documentation collection for a new version of
 
 ### Documenting releases
 
-[Releases](/docs/designing-and-developing-your-api/versioning-an-api#versioning-concepts) are smaller, incremental units of change within an API version. You can include documentation changes as part of an API release. Anyone you share your collection with can use the **Release tag** dropdown list to view complete documentation for a specific release. For public documentation, you can choose which releases to include during the publishing process.
+Releases are smaller, incremental units of change within an API version. You can include documentation changes as part of an API release. Anyone you share your collection with can use the **Release tag** dropdown list to view complete documentation for a specific release. For public documentation, you can choose which releases to include during the publishing process.
 
 To document a new release of an API version:
 
 1. Before creating the release, [edit the API documentation](#editing-api-documentation) as needed.
-2. [Create a new release](/docs/designing-and-developing-your-api/versioning-an-api#creating-a-release) of the API version.
+2. Create a new release of the API version.
 3. If the documentation is public, [edit the publishing settings](/docs/publishing-your-api/publishing-your-docs/#customizing-your-docs) to include the new release.
 
 [![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)
