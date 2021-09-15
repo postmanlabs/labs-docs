@@ -41,7 +41,9 @@ The following are the high-level steps involved when creating and using APIs:
 * [Defining an API](/docs/designing-and-developing-your-api/defining-an-api/) - Define your API by [editing your schema](/docs/designing-and-developing-your-api/defining-an-api/#editing-your-schema), [validating the schema and elements](/docs/designing-and-developing-your-api/validating-elements-against-schema/), and [generating a collection](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection).
 * [Watching an API](/docs/designing-and-developing-your-api/watching-an-api/) - Get notifications when an API changes.
 * [Developing an API](/docs/designing-and-developing-your-api/developing-an-api/) - Add [a mock server](/docs/designing-and-developing-your-api/developing-an-api/#adding-a-mock-server) and [documentation](/docs/designing-and-developing-your-api/developing-an-api/#adding-documentation) to your API.
+* [Generating server code](/docs/designing-and-developing-your-api/generating-server-code/) - Generate server-side boilerplate code from your OpenAPI 3 specification, which you can run and extend to include your business logic.
 * [Testing an API](/docs/designing-and-developing-your-api/testing-an-api/) - Add [a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-a-test-suite), [integration tests](/docs/designing-and-developing-your-api/testing-an-api/#adding-integration-tests), and [contract tests](/docs/designing-and-developing-your-api/testing-an-api/#adding-contract-tests) to your API.
+* [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/) - Connect your API deployment service to have greater visibility within Postman.
 * [Observing an API](/docs/designing-and-developing-your-api/observing-an-api/) - Add monitors to observe your API.
 
 ## Next steps
