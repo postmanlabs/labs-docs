@@ -14,8 +14,6 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 ## Contents
 
 * [Get the Opsgenie API Key](#get-the-opsgenie-api-key)

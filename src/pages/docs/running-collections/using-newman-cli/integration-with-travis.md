@@ -23,6 +23,9 @@ contextual_links:
   - type: link
     name: "Intro to the Postman API"
     url: "/docs/developer/intro-api/"
+  - type: link
+    name: "CI Integrations"
+    url: "/docs/integrations/ci-integrations/"
 
 warning: false
 tags:
@@ -43,6 +46,8 @@ You will set up your CI configuration to run a shell command upon starting your 
 In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/), a continuous integration service that builds and tests projects on GitHub.
 
 Travis CI runs your tests every time you commit to your GitHub repo. Then it submits a pull request, or some other specified configuration.
+
+> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools, including Travis CI. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
 
 [![travis workflow](https://assets.postman.com/postman-docs/travis_workflow.png)](https://assets.postman.com/postman-docs/travis_workflow.png)
 

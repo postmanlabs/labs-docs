@@ -11,8 +11,6 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 You can use Keen IO for API-based computation, Amazon S3 backups, and building visualizations and dashboards for your APIs. Connect your Postman Monitor results to Keen Streams with the Postman to Keen Integration.
 
 Setting up a Keen integration requires you to get a project ID and API key before configuring Postman Monitors to push to Keen steams. After you set up the integration, you can view all monitoring data in Keen IO.

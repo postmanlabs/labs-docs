@@ -6,5 +6,6 @@
   "developer": "Developer resources",
   "supported-api-frameworks": "Supported API frameworks",
   "using-newman-cli": "Using Newman CLI",
-  "api-security": "API Security"
+  "api-security": "API Security",
+  "ci-integrations": "CI Integrations"
 }

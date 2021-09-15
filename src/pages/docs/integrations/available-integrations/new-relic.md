@@ -12,8 +12,6 @@ contextual_links:
   - type: section
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps.
 You can use Postman's New Relic integration and configure your Postman monitors to send metrics to New Relic.
 

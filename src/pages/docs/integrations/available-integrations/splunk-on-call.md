@@ -15,8 +15,6 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 Splunk On-Call (formerly VictorOps) is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one.
 
 This integration allows you to configure [Postman Monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to trigger incidents on Splunk On-Call whenever it fails.
