@@ -25,15 +25,13 @@ You can upload your API schemas directly to AWS API Gateway from Postman with th
 
 > This integration uses version 2 of the AWS API and only supports HTTP APIs with OpenAPI 3.0 schemas.
 
-<!-- -->
-
-> You can also track your AWS API Gateway deployments in Postman. See [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/) for details.
-
 ## Contents
 
 * [Uploading API schemas to AWS API Gateway](#uploading-api-schemas-to-aws-api-gateway)
 
     * [Configuring an AWS API Gateway integration](#configuring-an-aws-api-gateway-integration)
+
+* [Tracking API deployments with AWS API Gateway](#tracking-api-deployments-with-aws-api-gateway)
 
 * [Next steps](#next-steps)
 
@@ -77,6 +75,10 @@ To confirm this integration, navigate to your AWS Gateway dashboard, select your
 This integration will be triggered whenever the configured Postman schema is updated. Any configured AWS integrations will be preserved.
 
 > Note that if the API or specific API version is deleted, its configured integration will also be deleted.
+
+## Tracking API deployments with AWS API Gateway
+
+You can also track your AWS API Gateway deployments in Postman via the **Deployments** tab. See [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/) for details.
 
 ## Next steps
 
