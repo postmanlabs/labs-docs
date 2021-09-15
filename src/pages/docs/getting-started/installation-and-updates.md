@@ -37,7 +37,7 @@ contextual_links:
 
 Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac, Windows (32-bit / 64-bit), and Linux (32-bit / 64-bit) operating systems.
 
-To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and click **Download** for your platform.
+To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
 
 ## Contents
 
@@ -142,7 +142,7 @@ Once you enable the option for **Auto-select**, Postman will automatically selec
 
 You can select the **Cloud Agent** if you want to send HTTP requests via Postman's secure cloud servers. While using the locally running Postman, it is recommended you use the **Desktop Agent**. Using the **Browser Agent** for your web requests has some [limitations](/docs/getting-started/installation-and-updates/#web-limitations).
 
-> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area which you can click to switch to the agent and try your request again. Read [more about the agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/).
+> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area which you can select to switch to the agent and try your request again. Read [more about the agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/).
 
 ### Web limitations
 
@@ -226,7 +226,7 @@ Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Curren
 
 ### Update button not available
 
-If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence. If you are on Postman version 6, you will have to migrate to Postman 8 and change the Snap channel to get the latest updates. For more information see [Migrating to Postman 8](/docs/administration/upgrading-to-v8/).
+If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence.
 
 ## Next steps
 
