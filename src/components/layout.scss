@@ -73,10 +73,11 @@ p {
     margin-left: 0;
   }
 }
-// .container-fluid {
-//   padding-right: 24px;
-// }
 
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-right: 12px;
+  padding-left: 12px;
+}
 
 div.col-sm-7.doc-page {
   padding: 64px 72px;
