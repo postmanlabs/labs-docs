@@ -19,8 +19,6 @@ contextual_links:
     url: "/docs/integrations/available-integrations/slack/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
-
 You can back up your team's Postman Collections with Postman's Bitbucket integration.
 
 ## Contents

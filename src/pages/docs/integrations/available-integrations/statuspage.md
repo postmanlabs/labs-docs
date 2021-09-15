@@ -11,8 +11,6 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 Atlassian Statuspage an uptime and incident communication tools. You can use Statuspage to create a home page for your customers so they can monitor if subsystems or services within your site are operational, and find out more information on system outages or failures. A great example of a Statuspage home page is Postman's status page, located at [status.postman.com](https://status.postman.com).
 
 The Statuspage integration enables you to send metrics like response times to Statuspage and create and communicate incidents in case of a failure. When a Postman monitor test run fails, this integration can then send updates to Statuspage.
