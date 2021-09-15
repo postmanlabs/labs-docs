@@ -48,6 +48,7 @@ You can manage multiple versions of any APIs you create in Postman. You can then
 * [Using an external Git repository](#using-an-external-git-repository)
     * [Connecting a Repository](#connecting-a-repository)
     * [Pulling and pushing changes](#pulling-and-pushing-changes)
+    * [Switching branches](#switching-branches)
     * [Removing the repository connection](#removing-the-repository-connection)
 * [Working with API versions](#working-with-api-versions)
 * [Working with API releases](#working-with-api-releases)
@@ -113,7 +114,7 @@ To connect a repository:
 
 ### Pulling and pushing changes
 
-When you are connected to an external Git repo, the repo dropdown list displays your current develop branch and indicates if your API changes in Postman are ahead of or behind the files in your external repo. It also shows links to the connected branch and repo, and a date when changes were last pulled to Postman or pushed to the Git repo.
+When you are connected to an external Git repo, the repo dropdown list displays your current develop branch and indicates if your API changes in Postman are ahead of or behind the files in your external repo. It shows links to the connected branch and repo, and a date when changes were last pulled to Postman or pushed to the Git repo. It also contains commands to pull, commit and push, switch branches, and delete the integration.
 
 <img src="https://assets.postman.com/postman-docs/api-builder-git-integration-dropdown.jpg" alt="API Builder source control" width="250px" />
 
@@ -132,6 +133,14 @@ To resolve the conflict, next to each file, select either **Keep remote file** o
 To add your local changes to the external repo, select **Commit and push** from the repo dropdown list. You will be shown a list of files modified. Enter a commit message, and select **Commit and Push Changes**.
 
 If there have been changes on the remote repo, you will be asked to pull changes first.
+
+### Switching branches
+
+If your Git repo has multiple feature branches, you can switch branches in Postman from the development branch to a different feature branch. This enables you to view and make changes when you use a Git workflow where developers work in different feature branches.
+
+To switch to a different branch, select **Switch Branch** the repo dropdown list, then choose a branch from the list. Note that the **Switch Branch** list is only available if your repo has more than one branch, in addition to the main branch.
+
+When you are not in the configured develop branch, you can only edit the API schema and collections. Commit and push your changes to the feature branch, then in your Git repo, you can make a pull request, review changes, and merge back to your develop branch.
 
 ### Removing the repository connection
 
