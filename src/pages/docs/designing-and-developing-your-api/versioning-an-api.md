@@ -17,6 +17,9 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
+    name: "The new Postman API Platform: Redefining API Management for the API-First World"
+    url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world"
+  - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
   - type: link
@@ -54,9 +57,9 @@ You can manage multiple versions of any APIs you create in Postman. You can then
 
 Each API in Postman has one or more versions, and versions have multiple releases. Each version also has a status.
 
-* A _version_ defines a major variant of an API its associated elements, such as documentation, tests, mock servers, and monitors.
+* A _version_ defines a major variant of an API and its associated elements, such as documentation, tests, mock servers, and monitors.
 * A _release_ is a periodic incremental change to a version of an API. You can see released and unreleased changes in the Changelog, and create new releases there. Changes include edits to the API schema or any related elements. Releases can be mapped to Git release tags when you are connected to an external Git repo.
-* A _status_ is an arbitrary text tag which you can change to indicate the current development stage of the API.
+* A _status_ is a text tag which you can change to indicate the current development stage of the API version.
 
 You can create any number of versions in parallel. For example, you can create a new 2.0 version of an API that introduces new breaking changes and work on it internally, but keep adding changes to the 1.0 version that is currently public.
 
@@ -89,14 +92,7 @@ You can connect an API to your remote Git-based repository, at the API level. Th
 
 > The user account used for authentication requires full access to repositories. You may want to create a service account with limited permissions specifically for this integration.
 
-You can only connect one Postman API to one remote repo. Multiple APIs require multiple repos. This means:
-
-* One team can't have two active versions of an API linked to the same branch.
-* One team can't have versions from two different APIs linked to the same branch.
-* Two different teams can't have links to the same repo.
-* One API can't have multiple versions synced to multiple repos.
-
-Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo/branch to a new version, then all older integrations on that branch become locked. For inactive integrations, no pulls/pushes or new tag-links can happen, but the linked tags stay.
+You can only connect one Postman API to one remote repo. Multiple APIs require multiple repos. Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo/branch to a new version, then all older integrations on that branch become locked. For inactive integrations, no pulls/pushes or new tag-links can happen, but the linked tags will remain.
 
 > For GitHub connections, there's currently a limit of ten auth tokens per user per application imposed by GitHub. If you create more than ten connections with the same user, your oldest tokens will be revoked. Teams can use other Postman accounts to create more than ten integrations.
 
@@ -194,7 +190,7 @@ You can also edit a release name in the Changelog. Next to the release, select <
 
 ## Setting an API status
 
-An API status is an arbitrary text tag which you can change to indicate the current stage of the API within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." You can set different statuses for each version of an API.
+An API status is a text tag which you can change to indicate the current stage of the API version within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." You can set different statuses for each version of an API.
 
 A status doesn't affect visibility, permissions, or availability of an API. It's simply a way to tell others on your team the current state of the API. Statuses are not automatically changed by any actions or state change in your files. You can change the status at any time.
 
