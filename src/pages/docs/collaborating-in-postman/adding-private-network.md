@@ -73,7 +73,7 @@ The API will immediately be visible in your team's [Private API Network](https:/
 
 You can also add an API to your team's Private API Network from the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) via **APIs** in the left navigation bar. Select an API to see a high-level description on the **Overview** tab. Select **Add API to Private API Network** in the upper right corner of the overview page.
 
-Learn more about [editing and versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/#updating-versions).
+Learn more about [editing and versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 #### Security
 
