@@ -9,4 +9,12 @@ import 'bootstrap/dist/js/bootstrap.min';
 //     function OptanonWrapper() {} // eslint-disable-line no-unused-vars
 //   })();
 // };
+/* eslint-disable import/prefer-default-export */
+export const onInitialClientRender = () => {
+  if (!window.location.hash) {
+    window.scrollTo(0, 0);
+  } else {
+    window.location = window.location.hash;
+  }
+};
 
