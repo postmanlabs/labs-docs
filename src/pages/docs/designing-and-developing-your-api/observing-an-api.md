@@ -53,7 +53,6 @@ You can choose between generating a collection from your API schema, using an ex
 
 Next, configure the new monitor. For details, see [Setting up a monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).
 
-
 ### Adding an existing monitor
 
 You can add an existing monitor to your API:
