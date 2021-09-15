@@ -198,7 +198,7 @@ To review version-level details, select **>** on the right of the API version. Y
 
 <img alt="Add to Private API Network" src="https://assets.postman.com/postman-docs/add-to-private-api-network-button-v9.jpg">
 
-> Select **Watch** to start watching the API. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/managing-apis/).
+> Select **Watch** to start watching the API. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
 
 ## Next steps
 
