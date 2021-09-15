@@ -24,7 +24,7 @@ contextual_links:
   - type: link
     name: "Generating collections from the API"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-    search_keyword: "Private API Network, API sharing, folders, network listing, filtering apis, publish versions, github import, built in access control, private apis, adding apis"
+    search_keyword: "Private API Network, API sharing, folders, network listing, filtering apis, publish versions, github import, private apis, adding apis"
 
 ---
 
