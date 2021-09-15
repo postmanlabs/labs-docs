@@ -1,9 +1,23 @@
 @import '../components/Shared/variables';
 
 .doc-page {
-  padding-left: 49px !important;
-  padding-top: 64px;
+  padding-left: 40px !important;
+  padding-top: 40px;
   padding-bottom: 40px;
+  padding-right: 40px;
+
+  @media (min-width:992px) and (max-width: 1199px) {
+    padding-right: 32px;
+  }
+
+  @media (min-width:992px) {
+    padding-top: 64px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
   // WIP - need to get ul li markers to move away from text
   ///////////////////////////////////////////////////////////////////
@@ -42,7 +56,6 @@
     }
 
     list-style-type: '✦';
-    // list-style-type: '/2726';
 
     li::marker {
       color: $orange_30 !important;
@@ -103,16 +116,15 @@ blockquote {
 }
 
 .edit-button {
-  margin-top: 64px;
-  margin-left: 12px;
+  padding-top: 40px;
+
+  @media (min-width:992px) {
+    padding-top: 0;
+  }
   svg {
     overflow: hidden;
     vertical-align: middle;
     margin-bottom: 4px;
-  }
-
-  @media (min-width:767px) and (max-width: 990px) {
-    padding-left: 16px;
   }
 }
 
@@ -127,8 +139,14 @@ blockquote {
 }
 
 .right-column {
-  margin-top: 64px;
-  padding-left: 0px !important;
+  margin-top: 0px;
+  padding-left: 40px !important;
+
+  @media (min-width:992px) {
+    margin-top: 136px;
+    padding-right: 24px;
+    padding-left: 0px !important;
+  }
 }
 
 .sticky {
@@ -139,13 +157,6 @@ blockquote {
   // top: 0;
 
 }
-
-// @media (max-width: 990px) {
-//   .right-column {
-//     padding-bottom: 80px;
-//     padding-left: 16px;
-//   }
-// }
 
 tr:hover {
   background-color: #FAE1D4;

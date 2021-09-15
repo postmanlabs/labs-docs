@@ -27,17 +27,18 @@ export default ({ data }) => {
           </nav>
           <div className="col">
             <div className="row row-eq-height">
-              <main className="col-sm-12 col-md-12 col-lg-7 offset-lg-1 doc-page">
+              <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 offset-xl-1 doc-page">
                 <h1>{post.frontmatter.title}</h1>
                 <span dangerouslySetInnerHTML={{ __html: post.html }} />
               </main>
-              <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-1 right-column">
+              <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
+                <hr className="d-block d-lg-none"/>
                 <div className="edit-button">
                   <EditDoc className="btn btn__small btn__secondary-light edit-button-styles" />
                 </div>
                 {contextualLinks}
                 <figure className="sticky w-75">
-                  <img src={pose} alt="pose" />
+                  <img src={pose} alt="pose" className="img-fluid"/>
                 </figure>
               </aside>
             </div>
