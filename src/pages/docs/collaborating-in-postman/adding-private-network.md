@@ -180,10 +180,6 @@ You can make all your existing APIs discoverable on the Private API Network when
 
 To import from Github, see [Importing via GitHub repositories.](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories)
 
-<!--#### Built-in Access Control
-
-Private API Network allows you to share APIs securely within your team using [Postman RBAC](/docs/collaborating-in-postman/roles-and-permissions/#api-roles). Users will only see the APIs they have a Viewer role on in the Private API Network. This ensures an added layer of security for the Private API Network owners to not worry about exposing sensitive information. -->
-
 ## Discovering and consuming private APIs
 
 The Private API Network is a good place to learn about APIs shared within your team. You can browse private APIs in [the Private API Network](https://go.postman.co/network/private) under your team name, or explore public APIs in [the public API network](https://www.postman.com/explore).
