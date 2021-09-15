@@ -12,3 +12,6 @@
   src: url('../DegularDisplayDemo-Semibold.ttf');
 }
 
+body {
+  font-feature-settings: "ss01", "onum", "zero";
+}

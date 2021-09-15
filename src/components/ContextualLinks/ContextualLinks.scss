@@ -2,6 +2,8 @@
 
 .contextual-links {
   margin: 12px 16px;
+
+  
   
   .contextual-links__section {
     margin-top: 24px;
@@ -12,14 +14,33 @@
   }
   .contextual-links__link {
     margin-bottom: 0;
+    padding: 4px 0;
+    display: block;
+    
+
+    a {
+      color: $grey_50;
+      font-size: 14px;
+      text-decoration: none;
+      border-bottom: 1px solid #FFFFFF;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    &:hover {
+      a {
+        color: $blue_60;
+        border-bottom: 1px solid $blue_60;
+        transition: all 0.2s ease-in-out;
+      }
+    }
   }
 
   .contextual-links__subtitle {
     color: $grey-60;
     font-size: 15px;
-    text-transform: uppercase;
     font-weight: 700;
     margin-top: 1rem;
+    margin-bottom: .7rem;
   }
 
   .contextual-links__alert {
@@ -27,16 +48,6 @@
     border-radius: 4px 4px 4px 4px;
     padding: .75rem 1.25rem;
     color: #0C5460;
-  }
-
-  a {
-    color: $grey_50;
-    font-size: 14px;
-    text-decoration: none;
-    &:hover {
-      color: $blue_60;
-      border-bottom: 1px solid $blue_60;
-    }
   }
 
   // tablet view
