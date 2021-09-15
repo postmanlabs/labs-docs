@@ -18,6 +18,7 @@ import postmanHomeLogo from '../../images/logo-flip-home.svg';
 
 window.$ = $;
 
+/* Algolia Search Bar */
 const ClickOutHandler = require('react-onclickout');
 
 const algoliaClient = algoliasearch(
@@ -39,13 +40,14 @@ const searchClient = {
   },
 };
 
+// Get Cookie for Sign In toggler
 const getCookie = (a) => {
   if (typeof document !== 'undefined') {
     const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`);
     return b ? b.pop() : '';
   }
   return false;
-}; // end getCookie
+};
 
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
@@ -56,14 +58,10 @@ const LoginCheck = (props) => {
       <>
         <a
           href={`https://go.postman${beta}.co/build`}
-          // className="btn btn__primary-hollow mr-2"
           className="button__sign-in pingdom-transactional-check__sign-in-button"
           target="_blank"
           rel="noreferrer"
           onClick={() => {
-            // To stop the page reloading
-            // e.preventDefault()
-            // Lets track that custom click
             trackCustomEvent({
               // string - required - The object that was interacted with (e.g.video)
               category: 'lc-top-nav',
@@ -78,14 +76,10 @@ const LoginCheck = (props) => {
         </a>
         <a
           href={`https://identity.getpostman${beta}.com/signup?continue=https%3A%2F%2Fgo.postman.co%2Fbuild`}
-          // className="btn btn__primary"
           className="button__sign-up"
           target="_blank"
           rel="noreferrer"
           onClick={() => {
-            // To stop the page reloading
-            // e.preventDefault()
-            // Lets track that custom click
             trackCustomEvent({
               // string - required - The object that was interacted with (e.g.video)
               category: 'lc-top-nav',
@@ -104,7 +98,7 @@ const LoginCheck = (props) => {
   return (
     <a
       href="https://go.postman.co/home"
-      className="button__sign-up"
+      className="button__sign-up ml-3"
       target="_blank"
       rel="noreferrer"
     >
@@ -118,11 +112,9 @@ class Header extends React.Component {
 
     this.state = {
       beta: '',
-      // isToggledOn: 'unset',
+      cookie: '',
       hasInput: false,
       refresh: false,
-      visibleHelloBar: 0,
-      cookie: '',
     };
   }
 
@@ -130,24 +122,18 @@ class Header extends React.Component {
     const cookie = getCookie('getpostmanlogin');
     const beta = window.location.host.includes('postman-beta') ? '-beta' : '';
 
-    // this.targetElement = document.querySelector('#navbarSupportedContent');
-
-    if (window.localStorage) {
-      this.setState({
-        visibleHelloBar: Number(window.localStorage.getItem('hellobarcount')),
-      });
-    }
     this.setState({
       cookie,
       beta,
     });
     /* eslint-disable func-names */
+    /* Applies styling for sticky nav */
     $('#secondaryNav').on('click', () => {
       $('body').toggleClass('menu-open');
       $('.nav-primary').toggleClass('activeMenu');
       $('.nav-secondary').toggleClass('activeMenu');
     });
-
+    // Dropdown Slideup Animation
     function showBsDropdown() {
       $(this)
         .find('.dropdown-menu')
@@ -159,6 +145,7 @@ class Header extends React.Component {
         .addClass('show');
     }
     $('.dropdown').on('show.bs.dropdown', showBsDropdown);
+    // Dropdown Slidedown Animation
     function hideBsDropdown() {
       $(this)
         .find('.dropdown-menu')
@@ -171,7 +158,7 @@ class Header extends React.Component {
     $('.dropdown').on('hide.bs.dropdown', hideBsDropdown);
   }
 
-  // click out search results box
+  // Algolia - clicking out exits searchbox
   onClickOut = () => {
     const searchInput = document.getElementsByClassName(
       'ais-SearchBox-input',
@@ -184,7 +171,7 @@ class Header extends React.Component {
   } // end onClickOut
 
   showTargetElement = () => {
-    // Sign In Button
+    // Show Sign In Button if user is not logged in (mobile)
     const cookie = getCookie('getpostmanlogin');
     const signInButton = document.querySelector('.mobile-sign-in');
     if (cookie !== 'yes') {
@@ -192,12 +179,15 @@ class Header extends React.Component {
     }
     // Global Mobile Icon Transition
     const toggler = document
-      .querySelector('#globalNav.navbar-toggler')
+      .getElementById('globalNav')
       .getAttribute('aria-expanded');
     const body = document.querySelector('body');
-    const icon1 = document.querySelector('#icon-wrap-one');
+    const icon1 = document.getElementById('icon-wrap-one');
+    // Mobile Menu is active ?
     if (toggler === 'true') {
+      // Add lock CSS to body to disable scroll
       body.classList.add('lock');
+      // Flip up dropdown icon
       icon1.classList.add('open');
     }
     // Hellobar
@@ -211,51 +201,55 @@ class Header extends React.Component {
     }
   }
 
-  showTargetElementLC = () => {
-    // LC Mobile Icon Transition
-    const togglerSecondary = document
-      .querySelector('#secondaryNav.navbar-toggler')
-      .getAttribute('aria-expanded');
-    const icon2 = document.querySelector('#icon-wrap-two');
-    if (togglerSecondary === 'true') {
-      icon2.classList.add('open');
-    }
-  }
-
-  hideTargetElementLC = () => {
-    const icon2 = document.querySelector('#icon-wrap-two');
-    const togglerSecondary = document
-      .querySelector('#secondaryNav.navbar-toggler')
-      .getAttribute('aria-expanded');
-    if (togglerSecondary === 'false') {
-      icon2.classList.remove('open');
-    }
-  }
-  /* eslint-enabe class-methods-use-this */
-
   hideTargetElement = () => {
+    // Hide Sign In Button if user is not logged in (mobile)
     const signInButton = document.querySelector('.mobile-sign-in');
     const cookie = getCookie('getpostmanlogin');
     if (cookie !== 'yes') {
       signInButton.classList.toggle('hide');
     }
     const toggler = document
-      .querySelector('#globalNav.navbar-toggler')
+      .getElementById('globalNav')
       .getAttribute('aria-expanded');
     const body = document.querySelector('body');
-    const icon1 = document.querySelector('#icon-wrap-one');
+    const icon1 = document.getElementById('icon-wrap-one');
+    // Mobile Menu is not active ?
     if (toggler === 'false') {
-      icon1.classList.remove('open');
+      // Remove lock CSS to body to disable scroll
       body.classList.remove('lock');
+      // Flip down dropdown icon
+      icon1.classList.remove('open');
     }
-    const icon2 = document.querySelector('#icon-wrap-two');
+    const icon2 = document.getElementById('icon-wrap-two');
     const togglerSecondary = document
-      .querySelector('#secondaryNav.navbar-toggler')
+      .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
     if (togglerSecondary === 'false') {
       icon2.classList.remove('open');
     }
   }
+
+  showTargetElementLC = () => {
+    // LC Mobile Icon Transition
+    const togglerSecondary = document
+      .getElementById('secondaryNav')
+      .getAttribute('aria-expanded');
+    const icon2 = document.getElementById('icon-wrap-two');
+    if (togglerSecondary === 'true') {
+      icon2.classList.add('open');
+    }
+  }
+
+  hideTargetElementLC = () => {
+    const icon2 = document.getElementById('icon-wrap-two');
+    const togglerSecondary = document
+      .getElementById('secondaryNav')
+      .getAttribute('aria-expanded');
+    if (togglerSecondary === 'false') {
+      icon2.classList.remove('open');
+    }
+  }
+  /* eslint-enabe class-methods-use-this */
 
   render() {
     const {
@@ -351,7 +345,7 @@ class Header extends React.Component {
                     className="dropdown-item"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.postman.com/what-is-postman/"
+                    href="https://www.postman.com/product/what-is-postman/"
                   >
                     What is Postman?
                   </a>
@@ -359,7 +353,7 @@ class Header extends React.Component {
                     className="dropdown-item"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.postman.com/api-repository/"
+                    href="https://www.postman.com/product/api-repository/"
                   >
                     API repository
                   </a>
@@ -367,7 +361,7 @@ class Header extends React.Component {
                     className="dropdown-item"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.postman.com/tools/"
+                    href="https://www.postman.com/product/tools/"
                   >
                     Tools
                   </a>
@@ -375,7 +369,7 @@ class Header extends React.Component {
                     className="dropdown-item"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.postman.com/intelligence/"
+                    href="https://www.postman.com/product/intelligence/"
                   >
                     Intelligence
                   </a>
@@ -383,13 +377,13 @@ class Header extends React.Component {
                     className="dropdown-item"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.postman.com/workspaces/"
+                    href="https://www.postman.com/product/workspaces/"
                   >
                     Workspaces
                   </a>
                   <a
                     className="dropdown-item"
-                    href="https://www.postman.com/integrations/"
+                    href="https://www.postman.com/product/integrations/"
                   >
                     Integrations
                   </a>
@@ -633,7 +627,7 @@ class Header extends React.Component {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  API Network
+                  Explore
                 </a>
               </li>
             </ul>
@@ -655,8 +649,8 @@ class Header extends React.Component {
           </a>
           <button
             onClick={() => {
-              this.showTargetElement();
-              this.hideTargetElement();
+              this.showTargetElementLC();
+              this.hideTargetElementLC();
             }}
             id="secondaryNav"
             className="mobile-sign-in navbar-toggler"

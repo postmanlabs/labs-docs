@@ -596,13 +596,15 @@ margin: 0 8px 0 0;
   }
 }
 
-/* Used for Global Nav */
+/* Used for Nav Bars (Do not remove) */
 @media screen and (max-width: 992px) {
+  /* Used for Global Nav */
   body {
     &.lock {
       position:fixed;
     }
   }
+   /* Used for Learning Center Nav */
   body.menu-open:after {
     content: '';
     display: block;
