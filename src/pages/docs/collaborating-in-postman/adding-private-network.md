@@ -119,7 +119,7 @@ The sidebar navigation displays the folder structure for your Private API Networ
 
 #### API overview page
 
-The API overview page provides all the relevant information about an API to enable users to make a choice about using the API. This also provides information on who published this API, along with other editors of the API, to whom you can reach out using the [comments in Postman](/docs/collaborating-in-postman/commenting-on-collections/#commenting-on-a-collection/).
+The API overview page provides all the relevant information about an API to enable users to make a choice about using the API. This also provides information on who published this API, along with other editors of the API, to whom you can reach out using the [comments in Postman](/docs/collaborating-in-postman/commenting-on-collections/#commenting-on-a-collection).
 
 Clicking on an API takes you to the API details where you will find more information about the API — API description, Markdown summary, API versions, the workspace where the API currently exists, API editors, and API reports. You can watch or unwatch an API at any time.
 
@@ -139,7 +139,7 @@ You can always decide the visibility of API versions visible to the consumers. F
 
 When you publish the versions of your APIs to your Private API Network, only the versions visible to the consumers will get published, and you can resume your work-in-progress API versions anytime.
 
-To know more about visibility of API versions, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api).
+To know more about visibility of API versions, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 #### Easy filtering
 
@@ -198,7 +198,7 @@ To review version-level details, select **>** on the right of the API version. Y
 
 <img alt="Add to Private API Network" src="https://assets.postman.com/postman-docs/add-to-private-api-network-button-v9.jpg">
 
-> Select **Watch** to start watching the API. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
+> Select **Watch** to start watching the API. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/managing-apis/).
 
 ## Next steps
 
