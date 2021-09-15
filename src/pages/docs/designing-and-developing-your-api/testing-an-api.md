@@ -31,9 +31,7 @@ contextual_links:
 
 You can create collections to use as test suites, integration tests, or contract tests for your API. These collections can be linked to a specific version of your API. You can also integrate your API with supported Continuous Integration (CI) tools.
 
-* [Adding a test suite](#adding-a-test-suite)
-* [Adding integration tests](#adding-integration-tests)
-* [Adding contract tests](#adding-contract-tests)
+* [Adding tests](#adding-tests)
 * [Adding CI integration](#adding-ci-integration)
 
 ## Adding tests

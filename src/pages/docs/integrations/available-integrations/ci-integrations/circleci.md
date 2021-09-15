@@ -70,4 +70,5 @@ workflows:
   example-workflow:
     jobs:
       - newman-collection-run
+
 ```

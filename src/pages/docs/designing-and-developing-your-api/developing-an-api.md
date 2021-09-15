@@ -78,7 +78,7 @@ You can link mock servers for a collection to an API, by creating a new mock ser
 
 1. In the API version **Overview** tab, next to **Mock Servers**, select **+** and choose **Create new mock server**.
 1. Select a collection and configure the mock server as outlined in
-[Creating a mock from an API](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#creating_a_mock_from_an_api).
+[Creating a mock from an API](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#creating-a-mock-from-an-api).
 
 ### Adding an existing mock server
 

@@ -23,7 +23,7 @@ You can back up your team's Postman Collections with Postman's Bitbucket integra
 
 ## Contents
 
-* [API sync with Bitbucket](#api_sync_with_bitbucket)
+* [API sync with Bitbucket](#api-sync-with-bitbucket)
 * [Backing up collections on Bitbucket](#backing-up-collections-on-bitbucket)
 
     * [Configuring a Bitbucket integration](#configuring-a-bitbucket-integration)
