@@ -16,7 +16,7 @@ import { CustomHits } from '../Search/searchPreview';
 import postmanLogo from '../../images/postman-logo-icon.svg';
 import postmanHomeLogo from '../../images/logo-flip-home.svg';
 
-window.$ = $;
+// window.$ = $;
 
 /* Algolia Search Bar */
 const ClickOutHandler = require('react-onclickout');
