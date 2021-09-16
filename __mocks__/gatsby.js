@@ -26,32 +26,32 @@ module.exports = {
   useStaticQuery: jest.fn().mockImplementation(() => ({
     allMarkdownRemark: {
       nodes: [{
-          fields: {
-            slug: '/docs/foo/slug/'
-          },
-          frontmatter: {
-            title: 'slug'
-          },
-          id: 'jfkdlsajfkldsa',
+        fields: {
+          slug: '/docs/foo/slug/',
         },
-        {
-          fields: {
-            slug: '/docs/foo/nested/nestedslug/'
-          },
-          frontmatter: {
-            title: 'nested slug'
-          },
-          id: 'jfkdlsajfkldsfa',
+        frontmatter: {
+          title: 'slug',
         },
-        {
-          fields: {
-            slug: '/docs/bar/otherslug/'
-          },
-          frontmatter: {
-            title: 'otherslug'
-          },
-          id: 'jfkdlsajfkldsfa',
+        id: 'jfkdlsajfkldsa',
+      },
+      {
+        fields: {
+          slug: '/docs/foo/nested/nestedslug/',
         },
+        frontmatter: {
+          title: 'nested slug',
+        },
+        id: 'jfkdlsajfkldsfa',
+      },
+      {
+        fields: {
+          slug: '/docs/bar/otherslug/',
+        },
+        frontmatter: {
+          title: 'otherslug',
+        },
+        id: 'jfkdlsajfkldsfa',
+      },
       ],
     },
     leftNavLinks: {
