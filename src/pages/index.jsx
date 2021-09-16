@@ -149,7 +149,9 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <hr className="container" />
+          <div className="container-fluid" >
+            <hr/>
+          </div>
           {/* Youtube Video Section */}
           <section className="row section align-items-center">
             <div className="col-lg-4">
@@ -172,7 +174,9 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <hr className="container" />
+          <div className="container-fluid" >
+            <hr/>
+          </div>
           {/* Livestream Section */}
           <section className="row section">
             <div className="col-12 col col-lg-4 text-left mb-5">
@@ -274,7 +278,9 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <hr className="container" />
+          <div className="container-fluid" >
+            <hr/>
+          </div>
           <section className="row section">
             <div className="col-md-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
               <LandingCard
