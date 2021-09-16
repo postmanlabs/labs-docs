@@ -640,7 +640,7 @@ class Header extends React.Component {
             </div>
           </div>
         </nav>
-        <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary">
+        <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
           <a className="navbar-brand" href="/">
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Learning Center
