@@ -19,17 +19,20 @@ contextual_links:
     url: "/docs/integrations/available-integrations/slack/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
-
 You can back up your team's Postman Collections with Postman's Bitbucket integration.
 
 ## Contents
 
+* [API sync with Bitbucket](#api-sync-with-bitbucket)
 * [Backing up collections on Bitbucket](#backing-up-collections-on-bitbucket)
 
     * [Configuring a Bitbucket integration](#configuring-a-bitbucket-integration)
 
 * [Next steps](#next-steps)
+
+## API sync with Bitbucket
+
+Postman 9.0 introduced the ability to connect a git repository to an API. Instead of using an integration, you can directly connect a Bitbucket repo to an API in the API Builder. This provides two-way sync of schemas and associated collections, plus adds powerful new features for syncing branches and release tags between Postman and your repo. For more information on the new repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 ## Backing up collections on Bitbucket
 

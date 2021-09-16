@@ -1,0 +1,18 @@
+/*  Currently only Semibold is imported for Headers */
+@font-face {
+  font-family: 'Degular Display Demo';
+  src: url('../DegularDisplayDemo-Semibold.ttf');
+}
+
+@font-face {
+  font-family: 'Degular Display Demo';
+  src: url('../degulardisplay-semibold-webfont.woff2') format('woff2'),
+       url('../degulardisplay-semibold-webfont.woff') format('woff');
+       
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-feature-settings: "ss01", "onum", "zero";
+}

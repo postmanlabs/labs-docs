@@ -13,7 +13,11 @@
 	},
 	{
 		"from": "/docs/administration/migrating_to_v7/",
-		"to": "/docs/administration/upgrading-to-v8/"
+		"to": "/docs/administration/upgrading/"
+	},
+	{
+		"from": "/docs/administration/upgrading-to-v8/",
+		"to": "/docs/administration/upgrading/"
 	},
 	{
 		"from": "/docs/administration/sso/",
@@ -373,7 +377,7 @@
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/migrating-to-v7/",
-		"to": "/docs/administration/upgrading-to-v8/"
+		"to": "/docs/administration/upgrading/"
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/purchasing-pro/",
@@ -1633,7 +1637,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/",
-		"to": "/docs/administration/upgrading-to-v8/"
+		"to": "/docs/administration/upgrading/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
@@ -1669,7 +1673,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/migrating_to_v7/",
-		"to": "/docs/administration/upgrading-to-v8/"
+		"to": "/docs/administration/upgrading/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/purchasing_pro/",
@@ -1797,7 +1801,7 @@
 	},
 	{
 		"from": "/docs/administration/migrating-to-v7/",
-		"to": "/docs/administration/upgrading-to-v8/"
+		"to": "/docs/administration/upgrading/"
 	},
 	{
 		"from": "/docs/administration/managing-your-team/",
@@ -1830,5 +1834,9 @@
 	{
 		"from": "/docs/api-security/security-warnings/",
 		"to": "/docs/api-security/security-warnings/security-warnings-overview/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/watching-an-api/",
+		"to": "/docs/designing-and-developing-your-api/managing-apis/"
 	}
 ]

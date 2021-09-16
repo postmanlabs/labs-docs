@@ -14,8 +14,6 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling, and automatic escalation of critical incidents.
 
 You can configure this service to deliver alerts by text, email, call, or through iOS and Android apps.

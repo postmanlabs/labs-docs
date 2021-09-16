@@ -29,8 +29,9 @@ contextual_links:
 When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
 
 - [Sharing APIs](#sharing-apis)
+- [Watching APIs](#watching-apis)
 - [Commenting on APIs](#commenting-on-apis)
-- [Viewing API events](#viewing-api-events)
+- [Using the Changelog](#using-the-changelog)
 
 ## Sharing APIs
 
@@ -38,29 +39,45 @@ You can share an API via its workspace in Postman. By sharing your workspace wit
 
 > The Viewer role is only available on certain [Postman plans](https://www.postman.com/pricing).
 
-If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared within the workspace. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
+If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, and monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared within the workspace. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
 
-In Postman, select an __API__ in the sidebar and click (__...__) to open the menu, then choose **Share API**.
+1. In Postman, select an __API__ in the sidebar and click (__<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">__) to open the menu, then choose **Share API**.
 
-<img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions-2.jpg" width="250px"/>
+   <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-more-actions-v9.jpg" width="250px"/>
 
-Select a workspace, choose if you want to remove the API from the current workspace after sharing, then click __Share and Continue__.
+1. Select a workspace, choose if you want to remove the API from the current workspace after sharing, then click __Share and Continue__.
 
-![Share API to Workspace](https://assets.postman.com/postman-docs/v8-managing-share-api2.jpg)
+   ![Share API to Workspace](https://assets.postman.com/postman-docs/v8-managing-share-api2.jpg)
 
-Configure access levels for collaborators in your workspace and click __Save Roles__.
+1. Configure access levels for collaborators in your workspace and click __Save Roles__.
 
-![API Workspace Roles](https://assets.postman.com/postman-docs/v8-managing-workspace-roles2.jpg)
+   ![API Workspace Roles](https://assets.postman.com/postman-docs/v8-managing-workspace-roles2.jpg)
 
 In addition to sharing an API via its workspace, you can also share it to the private API network. Doing this allows your team to learn about and access these APIs and start using them right away. Learn more about [adding your API to the private network](/docs/collaborating-in-postman/adding-private-network/).
+
+## Watching APIs
+
+The watch option enables you to receive an email or in-app notification when a team member belonging to the same workspace modifies the API, for example updating the schema, attaching an element to the API, adding a comment to the API and so on.
+
+Select __Watch__ to start watching the API.
+
+<img src="https://assets.postman.com/postman-docs/watch-button-v9.jpg" alt="Watch Option" width="350px"/>
+
+Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the API.
+
+![Notification Watch API](https://assets.postman.com/postman-docs/v8-watch-notification2.jpg)
+
+You will also receive an email with the information regarding who has made the change, what the change was, and when it was made.
+
+> You will not receive notifications for changes made by yourself.
 
 ## Commenting on APIs
 
 You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment.
 
-To leave a comment on an API, open __APIs__ in the left sidebar and select the API you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
+To leave a comment on an API, open __APIs__ in the left sidebar and select the API version you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
 
-[![api comment app](https://assets.postman.com/postman-docs/v8-managing-add-comment.gif)](https://assets.postman.com/postman-docs/v8-managing-add-comment.gif)
+[![api comment app](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)
 
 > You can leave inline comments on the API schema by highlighting what you want to comment on.
 
@@ -78,15 +95,17 @@ To edit, delete, or link to one of your comments, navigate to the comment sectio
 
 > With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
 
-## Viewing API events
+## Using the Changelog
 
-You can view a changelog of your API schemas in the context bar. Open an API, then click the changelog icon.
+You can view a changelog of your API schemas and all linked collections in the context bar. You can also create releases of an API from the changelog.
 
-![Schema Changelog Button](https://assets.postman.com/postman-docs/v8-managing-changelog2.jpg)
+To see the changelog, open an API version, then click the changelog icon. (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">)
 
-You will see a list of events on the schema and can click to expand each entry for more detail.
+You will see a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Click to expand each entry for more details.
 
-You can use the __Restore__ link to revert the schema to a previous state.
+Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/#working-with-api-releases).
+
+<img src="https://assets.postman.com/postman-docs/api-builder-changelog-v9.jpg" alt="Changelog" width="350px" />
 
 ## Next steps
 

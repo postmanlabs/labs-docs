@@ -11,8 +11,6 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
-
 Back up your Postman Collections to GitLab, an open source Git repository manager, with the Postman to GitLab integration.
 
 Setting up a GitLab integration requires you to get a GitLab Personal Access Token and configure how you would like to back up your collections.
@@ -21,7 +19,7 @@ Setting up a GitLab integration requires you to get a GitLab Personal Access Tok
 
 Log in to [GitLab](https://about.gitlab.com/).
 
-If you don’t already have a Personal Access Token from GitLab, [generate a new one](https://gitlab.com/-/profile/personal_access_tokens).  
+If you don’t already have a Personal Access Token from GitLab, [generate a new one](https://gitlab.com/-/profile/personal_access_tokens).
 
 Save the generated token to use later.
 
