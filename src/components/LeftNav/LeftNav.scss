@@ -26,7 +26,6 @@
     margin-left: -10px;
     .caret {
       position: relative;
-      // top: 14px; // needed for old caret
       left: -8px;
       transition: transform .2s ease;
       -webkit-transform: rotate(-90deg);
@@ -34,6 +33,10 @@
       -o-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
       transform: rotate(-90deg);
+      @media screen and (min-width: 768px) {
+        width: 10%;
+        height: 24px;
+      }
       
       &.active-caret {
         transition: transform .2s ease;
@@ -55,16 +58,21 @@
       cursor: pointer;
       outline: inherit;
       text-transform: capitalize;
+
+      @media screen and (min-width: 768px) {
+        width: 90%;
+      text-align: left;
+      }
       &:hover{
         color: $grey_60;
       }
     }
 
     &.currentUrl {
-      background-color: $grey_60;
-      color: $white;
-      margin: 0 -8px 16px -80px;
-      padding: 8px 0 8px 70px;
+      // background-color: $grey_60;
+      // color: $white;
+      margin: 0 -8px 0 -80px;
+      padding: 0 0 8px 70px;
       & button {
         &:hover {
           color: $white;
