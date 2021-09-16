@@ -34,6 +34,21 @@
       top: 0;
       z-index: 1020;
     }
+
+    @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+      &.blurred-container {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+      }
+    }
+    
+    /* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+    @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+      &.blurred-container {
+        background-color: rgba(255, 255, 255, .9) !important;
+      }
+    }
+ 
   }
 
   .navbar-nav .nav-link,
