@@ -39,8 +39,6 @@ To generate reports in Postman, first ensure you have carried out the following 
 
 To view reports, in __APIs__ on the left of Postman, select the API and click __Reports__.
 
-![API Reports](https://assets.postman.com/postman-docs/api-reports-button-v8.jpg)
-
 The __Reports__ section of the web dashboard will open in your browser. Postman generates reports on [teams](#team-reports) and [APIs](#api-reports).
 
 [Postman Enterprise](#enterprise-reports) teams have access to detailed API reports. Older [Postman Business](#business-reports)&#42; teams have access to a limited version of API reports.

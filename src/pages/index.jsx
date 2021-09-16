@@ -64,7 +64,7 @@ class IndexPage extends React.Component {
               <div className="row">
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
                   <h1>Postman Learning Center</h1>
-                  <p style={{fontSize: '1.375rem'}}>
+                  <p style={{ fontSize: '1.375rem' }}>
                     Learn how to use Postman.
                     {' '}
                     <br />
@@ -176,7 +176,7 @@ class IndexPage extends React.Component {
           {/* Livestream Section */}
           <section className="row section">
             <div className="col-12 col col-lg-4 text-left mb-5">
-              <div class="sticky-top" style={{top: '75px', zIndex: '0'}}>
+              <div className="sticky-top" style={{ top: '75px', zIndex: '0' }}>
                 <h2 id="upcoming-livestreams">Upcoming Postman Livestreams</h2>
                 <p>
                   <a className="link-style" href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">

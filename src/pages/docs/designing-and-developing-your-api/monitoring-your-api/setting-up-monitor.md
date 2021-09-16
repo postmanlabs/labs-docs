@@ -39,6 +39,8 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
     * [Creating a monitor via a collection](#creating-a-monitor-via-a-collection)
 
+    * [Creating a monitor from an API](#creating-a-monitor-from-an-api)
+
     * [Creating a monitor with the + New button](#creating-a-monitor-with-the-new-button)
 
     * [Creating a monitor from history](#creating-a-monitor-from-history)
@@ -85,6 +87,10 @@ In Postman, select **Monitors** in the left sidebar. Click the **+** icon in the
 
 In Postman, hover over your collection and select **...** > **Monitor Collection**.
 
+### Creating a monitor from an API
+
+Open an API version from __APIs__ on the left of Postman, and then select the **Monitoring** tab. Select **Add Monitor**, and then select **Create new monitor** or **Add existing monitor**. For more details, see [Observing an API](/docs/designing-and-developing-your-api/observing-an-api/).
+
 ### Creating a monitor with the New button
 
 In Postman, click **New** in the upper-left corner, then **Monitor**.
@@ -99,9 +105,9 @@ You can create a monitor with a POST request to the Postman API. Visit the [API 
 
 ### The basics when creating a monitor
 
-You will need to give your new monitor a name and designate the collection you would like it to run, as well as the version. You can also add an environment here if you would like your monitor to use one.
+You will need to give your new monitor a name and designate the collection you would like it to run. If you added the monitor from an API using an existing collection, you can select a release tag for the monitor. You can also add an environment here if you would like your monitor to use one.
 
-![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1.jpg)
+![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1-v9.jpg)
 
 > Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#usage-limits).
 

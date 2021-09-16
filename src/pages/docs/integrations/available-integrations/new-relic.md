@@ -12,8 +12,6 @@ contextual_links:
   - type: section
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps.
 You can use Postman's New Relic integration and configure your Postman monitors to send metrics to New Relic.
 
@@ -38,13 +36,7 @@ For more information on API Keys in New Relic, see [the New Relic documentation]
 ## Configuring New Relic Integration
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
-
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
-
-    Search and select **New Relic**.
-
-    ![home page and integrations](https://assets.postman.com/postman-docs/new-relic-search-all.jpg)
-
+1. Search and select **New Relic**.
 1. Select **Add Integration** to create your New Relic integration.
   ![new relic add integration](https://assets.postman.com/postman-docs/new-relic-add-integration.jpg)
 1. Enter a nickname for the integration.
@@ -101,3 +93,7 @@ The following attributes can be used as dimensions:
 - `request.name`
 - `user.id`
 - `user.name`
+
+## Viewing New Relic APM metrics in the Postman API builder
+
+Postman also has another integration that enables you to continuously import New Relic application performance management (APM) metrics into the Postman API Builder. For more information, see [Viewing New Relic metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing-new-relic-apm-metrics).
