@@ -449,14 +449,6 @@ class Header extends React.Component {
                   >
                     Enterprise case studies
                   </a>
-                  <a
-                    className="dropdown-item"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.postman.com/company/contact-us/"
-                  >
-                    Contact us
-                  </a>
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -616,6 +608,14 @@ class Header extends React.Component {
                       >
                         Release notes
                       </a>
+                      <a
+                        className="dropdown-item"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.postman.com/company/contact-us/"
+                      >
+                        Contact us
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -640,7 +640,7 @@ class Header extends React.Component {
             </div>
           </div>
         </nav>
-        <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary">
+        <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
           <a className="navbar-brand" href="/">
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Learning Center
