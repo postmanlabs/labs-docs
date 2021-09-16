@@ -177,11 +177,11 @@ class IndexPage extends React.Component {
           <div className="container-fluid" >
             <hr/>
           </div>
-          {/* Livestream Section */}
+          {/* Events Section */}
           <section className="row section">
             <div className="col-12 col col-lg-4 text-left mb-5">
               <div className="sticky-top" style={{ top: '75px', zIndex: '0' }}>
-                <h2 id="upcoming-livestreams">Upcoming Postman Livestreams</h2>
+                <h2 id="upcoming-events">Upcoming Postman Events</h2>
                 <p>
                   <a className="link-style" href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
                     Follow us
