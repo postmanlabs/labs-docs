@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require('uuid');
 // const axios = require('axios');
 const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects.json');
-const HeaderJson = require('./src/components/Header/Header.data.json');
+// const HeaderJson = require('./src/components/Header/Header.data.json');
 const FooterJson = require('./src/components/Footer/Footer.data.json');
 
 const ignorePaths = [];
@@ -136,7 +136,7 @@ exports.sourceNodes = async ({
   });
 
   createNode(prepareNode(output.docs, 'leftNavLinks'));
-  createNode(prepareNode(HeaderJson, 'headerLinks'));
+  // createNode(prepareNode(HeaderJson, 'headerLinks'));
   createNode(prepareNode(FooterJson, 'FooterLinks'));
 };
 

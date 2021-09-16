@@ -1,31 +1,97 @@
 @import '../components/Shared/variables';
 
 .doc-page {
-  padding-left: 49px !important;
-  padding-top: 32px;
+  padding-left: 40px !important;
+  padding-top: 40px;
   padding-bottom: 40px;
-  // pre {
-  //   background-color: rgba(109, 127, 145, 0.2);
-  //   border-radius: 2px;
-  //   padding: 16px;
-  //   white-space: pre-wrap; 
-  //   code {
-  //     background: none;
-  //   }
-  // }
-  // code {
-  //   font-size: 87.5%;
-  //   color: #282828;
-  //   word-break: break-word;
-  //   background-color: rgba(109, 127, 145, 0.2);
-  //   border-radius: 2px;
-  //   padding: 4px;
-  // }
+  padding-right: 40px;
+
+  @media (min-width:992px) and (max-width: 1199px) {
+    padding-right: 32px;
+  }
+
+  @media (min-width:992px) {
+    padding-top: 64px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  // WIP - need to get ul li markers to move away from text
+  ///////////////////////////////////////////////////////////////////
+  ul {
+
+    li::marker {
+      padding-inline-start: 39px;
+      color: $orange_30 !important;
+    }
+
+    &::after,
+      &::before {
+      display: inline-block;
+      direction: rtl !important;
+      margin-left: -28px !important;
+      padding-right: 16px !important;
+      width: 28px !important;
+      } 
+    
+    li {
+      padding: 10px !important;
+      margin-bottom: 8px;
+
+      li::before {
+        direction: rtl !important;
+        margin-left: -28px !important;
+        padding-right: 16px !important;
+        width: 28px !important;
+      }
+    }
+    li::before {
+      direction: rtl !important;
+      margin-left: -28px !important;
+      padding-right: 16px !important;
+      width: 28px !important;
+    }
+
+    list-style-type: '✦';
+
+    li::marker {
+      color: $orange_30 !important;
+    }
+  }
+
+  ol {
+    li {
+      padding-left: 10px !important;
+      margin-bottom: 8px;
+    }
+    li::marker {
+      color: $grey_70;
+    }
+  }
+/////////////////////////////////////////////////////////////////////////
   a {
-    color: $postman-orange;
+    height: 24px;
+    color: $blue_60;
     text-decoration: none;
+
     &:hover {
-      color: $gray-3;
+      text-decoration: none;
+      border-bottom: 1px solid $blue_60;
+    }
+
+    &.alternative {
+      color: #fff;
+    }
+
+    &.alternative:hover {
+      color: #fff;
+      background-position: top 22px right -4px;
+      padding-right: 4px;
+      padding-bottom: 2px;
+      text-decoration: none;
     }
   }
 
@@ -50,18 +116,46 @@ blockquote {
 }
 
 .edit-button {
-  margin-top: 32px;
-  margin-left: 12px;
-  @media (min-width:767px) and (max-width: 990px) {
-    padding-left: 16px;
+  padding-top: 40px;
+
+  @media (min-width:992px) {
+    padding-top: 0;
+  }
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 4px;
   }
 }
 
-@media (max-width: 990px) {
-  .right-colum {
-  padding-bottom: 80px;
-  padding-left: 16px;
+.edit-button-styles {
+  border: 1px solid $grey_40 !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  &:hover {
+    border: 1px solid $grey_70 !important;
+    background-color: transparent !important;
   }
+}
+
+.right-column {
+  margin-top: 0px;
+  padding-left: 40px !important;
+
+  @media (min-width:992px) {
+    margin-top: 136px;
+    padding-right: 24px;
+    padding-left: 0px !important;
+  }
+}
+
+.sticky {
+  margin-top: 64px;
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 160px;
+  // top: 0;
+
 }
 
 tr:hover {
@@ -82,11 +176,11 @@ thead:first-child:hover tr{
 * add syntax highlighting
 */
 :not(pre) > code[class*="language-"] {
-  font-family: monospace !important;
-  background-color: lightgray !important;
-  color: $gray-3;
+  font-family: $ibm;
+  background-color: $grey_30 !important;
+  color: $grey_90;
   padding: 3px !important;
-  font-size: 1.2em !important;
+  font-size: 16px !important;
 }
 
 code[class*="language-"] {
@@ -123,7 +217,7 @@ code[class*="language-"] {
   .token.attr-value,
   .token.tag,
   .token.punctuation {
-    font-family: monospace !important;
+    font-family: $ibm;
     white-space: pre-wrap;
     word-break: break-word;
     line-height: 1.666rem;
@@ -137,7 +231,7 @@ code[class*="language-"] {
   * 3. Adjust the position of the line numbers
   */
   pre[class*="language-"] {
-    font-family: monospace !important;
+    font-family: $ibm;
     background-color: transparent;
     margin: 0;
     padding: 0;
