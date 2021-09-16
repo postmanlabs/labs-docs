@@ -93,12 +93,14 @@ function SEO({
       <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
       <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
       <link crossOrigin rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet" />
+      {/* <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet" /> */}
+      {/* <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" /> */}
       {/* Bootstrap */}
-      <link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com" />
-      <link crossOrigin rel="preconnect" href="https://stackpath.bootstrapcdn.com" />
-      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
+      {/* <link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com" /> */}
+      {/* <link crossOrigin rel="preconnect" href="https://stackpath.bootstrapcdn.com" /> */}
+      {/* <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" /> */}
       <link rel="canonical" href={`https://learning.postman.com${slug}`} />
       {/* Algolia Instantsearch IE11 support v3 */}
       {/* <script src="https://polyfill.io/v3/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes" /> */}

@@ -36,148 +36,146 @@ contextual_links:
   - type: link
     name: "Publishing your docs"
     url: "/docs/publishing-your-api/publishing-your-docs/"
+  - type: link
+    name: "Viewing documentation"
+    url: "/docs/publishing-your-api/viewing-documentation/"
 
 warning: false
 
 ---
 
-You can automatically generate documentation for your Postman APIs. You can share your documentation privately or publish it on the web. Postman generates and hosts documentation based on collections, synced in realtime and accessible via the browser. You can use documentation to collaborate with team members and partners, or to support developer adoption for your public APIs.
+Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to successfully interact with them.
 
-![Public Documentation](https://assets.postman.com/postman-docs/API+docs+SK.jpg)
+Postman automatically generates basic documentation for any collection you create. Simply [view the documentation](/docs/publishing-your-api/viewing-documentation/) to see details for all of the requests in your collection. To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection.
+
+If you're designing an API in Postman, you can create a new collection to hold and organize your API documentation. Or you can link an existing collection to your API. By default your documentation is private, so only people you share the collection with will be able to see it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
 
 ## Contents
 
-* [Generating your documentation](#generating-your-documentation)
-    * [Documenting an existing collection](#documenting-an-existing-collection)
-    * [Creating documentation for a new collection](#creating-documentation-for-a-new-collection)
-    * [Including detail in your docs](#including-detail-in-your-docs)
-* [Accessing doc views](#accessing-doc-views)
-* [Documentation environments](#documentation-environments)
+* [Documenting a collection](#documenting-a-collection)
+* [Generating API documentation](#generating-api-documentation)
+    * [Creating new documentation for an API](#creating-new-documentation-for-an-api)
+    * [Adding existing documentation to an API](#adding-existing-documentation-to-an-api)
+    * [Editing API documentation](#editing-api-documentation)
+    * [Removing API documentation](#removing-api-documentation)
+* [Associating environments with documentation](#associating-environments-with-documentation)
 * [Versioning your docs](#versioning-your-docs)
 * [Next steps](#next-steps)
 
-## Generating your documentation
+## Documenting a collection
 
-Documentation is based on a Postman collection, so you can [generate it from an existing collection](#documenting-an-existing-collection) or [create it in conjunction with a new collection](#creating-documentation-for-a-new-collection).
+Documentation in Postman is always part of a collection. The documentation automatically includes details for each request in the collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
 
-### Documenting an existing collection
+To help others better understand what you're building, add detailed descriptions to your collection. The descriptions are included in the documentation for your collection.
 
-To generate and view documentation for an existing collection from Postman, use the __Collections__ tab on the left to select the collection. Select the collection you need to document and open the collection detail. On the right, from the documentation tab you can create the documentation.
+1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
+1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
+1. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
+1. Compose your new content, and then click **Save**. To learn more about using Postman's built-in editing tools, see [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
 
-![View Docs](https://assets.postman.com/postman-docs/collections-view-complete-doc.jpg)
+<img alt="Documentation pane" src="https://assets.postman.com/postman-docs/documentation-pane-v9.jpg" width="566px">
 
-Or, you can select __View complete collection documentation__, to create and edit your documentation in an expanded view.
+> You can also edit descriptions when viewing the complete documentation for a collection. Select **View complete collection documentation** at the bottom of the **Documentation** pane, and then edit the descriptions as usual.
 
-![Full Docs View](https://assets.postman.com/postman-docs/collection-docs-full.jpg)
+## Generating API documentation
 
-Alternatively, use the __New__ button, and select __API Documentation__. Choose __Select an existing collection__ and click the collection you want to view docs for.
+Like all documentation in Postman, documentation for an API must be part of a collection. To document your API, generate a new collection based on your API schema, or link an existing collection to your API.
 
-![Document Collection](https://assets.postman.com/postman-docs/document-collection.jpg)
+> A collection can be linked to only one version of an API. If you [create a new version](/docs/designing-and-developing-your-api/versioning-an-api/) of your API, you'll also need to generate a new collection to hold that version's documentation. To learn more, see [Versioning your docs](#versioning-your-docs).
 
-Enter or edit the markdown description of your collection and click __Save__.
+### Creating new documentation for an API
 
-![Collection Description](https://assets.postman.com/postman-docs/collection-description.jpg)
+To generate a new collection for API documentation:
 
-You will see a confirmation that your documentation is published, and a link you can visit to view it in the browser.
+1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
+1. Select the **Documentation** tab.
+1. Select **Create new documentation**.
+1. Enter a name for the new collection. (Make it something you'll easily associate with this version of your API.)
+1. (Optional) Select **Show advanced settings** and change any settings as needed. See the description for each setting to learn more.
+1. Select **Create Documentation**. The new API documentation is displayed on the **Documentation** tab.
 
-![Docs Link](https://assets.postman.com/postman-docs/docs-link.jpg)
+<img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/documentation-generate-api-docs-v9.jpg" width="702px">
 
-You can carry out additional edits directly on the documentation page—you'll see editable areas highlighted on hover. Click to edit, make your changes, and save them to update the text.
+> You can generate additional documentation collections from the **Documentation** tab. Select the **Collection** dropdown list, and then select **Create new documentation**.
 
-<img src="https://assets.postman.com/postman-docs/inline-edit-heading.jpg" alt="Edit Header" width="400px"/>
+### Adding existing documentation to an API
 
-You can also view documentation from the [web dashboard](https://go.postman.co/)—select __View all collections__, then select a collection to view its docs in the browser.
+To use an existing collection for API documentation:
 
-![Collections in Web](https://assets.postman.com/postman-docs/collections-profile-page.jpg)
+1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
+1. Select the **Documentation** tab.
+1. Select **Add existing documentation**.
+1. Select the collection you want to use for API documentation.
+1. Select **Add Documentation**. The API documentation is displayed on the **Documentation** tab.
 
-> By default your documentation is private, so only people you share the collection with will be able to see it. You can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) for public viewing.
+<img alt="Adding existing API documentation" src="https://assets.postman.com/postman-docs/documentation-add-api-docs-v9.jpg" width="402px">
 
-Some detail [is included in your documentation by default](#including-detail-in-your-docs), and you can optionally add further detail.
+> You can add additional documentation collections from the **Documentation** tab. Select the **Collection** dropdown list, and then select **Add existing documentation**.
 
-### Creating documentation for a new collection
+### Editing API documentation
 
-You can create documentation from the Postman launch screen or using the __New__ button and choosing __API Documentation__. __Create a new collection__ will be selected by default. Add any initial requests you want to document within your new collection and click __Next__.
+You can add to your API documentation right from the **Documentation** tab. Just select the edit button <img alt="Remove icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
 
-![Document Request](https://assets.postman.com/postman-docs/document-new-request.jpg)
+Another way to work on your API documentation is to open the linked collection. On the **Documentation** tab, select **View Collection**, and then [edit the documentation](#documenting-a-collection) in the linked collection.
 
-Name the collection, enter a markdown description to display in your docs, and click __Save__.
+> You can also create or edit a documentation collection by selecting **New > API Documentation** and following the onscreen instructions. When you're done, [link the documentation to your API](#adding-existing-documentation-to-an-api).
 
-![Collection Description](https://assets.postman.com/postman-docs/collection-description.jpg)
+[![Editing API documentation](https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9.jpg)
 
-You will see a confirmation that your documentation is published, and a link you can visit to view it in the browser.
+### Removing API documentation
 
-![Docs Link](https://assets.postman.com/postman-docs/docs-link.jpg)
+To remove documentation from an API:
 
-> By default your documentation is private, so only people you share the collection with will be able to see it. You can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) for public viewing.
+1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
+1. Select the **Documentation** tab.
+1. In the **Collection** dropdown list, select the remove button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection you want to remove from this API version.
+1. Select **Remove Documentation**.
 
-### Including detail in your docs
+> Removing documentation only removes the link between the collection and the API version. The collection itself is not deleted.
 
-Your docs will automatically include detail on your requests, with sample code in various client languages. Each collection / request listing indicates the method, required authorization type, URL, description, headers, request and response structures, and examples. In both private and public documentation, all key-value pairs in headers, parameters, and request bodies will be displayed for each request.
+## Associating environments with documentation
 
-![Request details](https://assets.postman.com/postman-docs/Request+details.jpg)
+An [environment](/docs/sending-requests/managing-environments/) is a set of related [variables](/docs/sending-requests/variables/) you can use in Postman requests. You can also refer to variables when [authoring descriptions](/docs/publishing-your-api/authoring-your-documentation/) in a collection. In each case, the initial value of the variable is automatically populated in the documentation.
 
-Private docs include a link to share the associated collection, and public docs include a [Run in Postman button](/docs/publishing-your-api/run-in-postman/introduction-run-button/), allowing viewers to import the collection directly into Postman to try your requests out. Your documentation page will be structured to reflect the folders and requests in your collection.
+Anyone using your collection will only be able to view the variables in the documentation if the associated environment is shared with them. For published documentation, you can select an environment to share during the [publication process](/docs/publishing-your-api/publishing-your-docs/). Sharing an environment makes it available to anyone [viewing the published documentation](/docs/publishing-your-api/viewing-documentation/).
 
-You can add detail to your descriptions using [Markdown](/docs/publishing-your-api/authoring-your-documentation/). Postman supports [GitHub-flavored Markdown](https://github.github.com/gfm/), so you can include various types of content, such as lists, tables, images, and links.
+To use an environment variable in your documentation:
 
-![Docs Folders](https://assets.postman.com/postman-docs/docs-folders.jpg)
+1. [Create a new environment](/docs/sending-requests/managing-environments/#creating-environments) if one doesn't already exist.
+1. Make the environment active by selecting it in the [environment dropdown list](/docs/sending-requests/managing-environments/#selecting-an-active-environment).
+1. If needed, [add a new variable](/docs/sending-requests/managing-environments/#adding-environment-variables) to the environment.
+1. Add a [reference to the variable](/docs/sending-requests/variables/#accessing-variables) to requests or descriptions in your collection.
 
-For more on adding detail to your docs, see [Authoring your documentation](/docs/publishing-your-api/authoring-your-documentation/).
+<img alt="Referencing a variable" src="https://assets.postman.com/postman-docs/documentation-add-variable-v9.jpg" width="566px">
 
-## Accessing doc views
-
-By default your documentation is private, and viewable only to people you have [shared a collection](/docs/collaborating-in-postman/sharing/) with. If you [publish your documentation](/docs/publishing-your-api/publishing-your-docs/), anyone with the link can view it in a browser.
-
-For more on accessing private and public docs, see [Viewing documentation](/docs/publishing-your-api/viewing-documentation/).
-
-> Your documentation receives a number of free views per month and is dependent on your [Postman plan](https://www.postman.com/pricing) beyond that. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) or the [account usage page](https://go.pstmn.io/postman-account-limits).
-
-## Documentation environments
-
-You can use environments to set variables that will be available in your documentation. Anyone viewing private documentation will be able to access environments shared with them. For public documentation, you can select an environment to share during the publication process—this will make the environment available to anyone viewing the published documentation link.
-
-![Doc Environment](https://assets.postman.com/postman-docs/Environments+in+docs.jpg)
-
-Associating an environment with your documentation means that the values of any environment variables your requests reference will automatically populate in the doc content. Anyone using the __Run in Postman__ button from your docs will also be able to access the shared environment when they import the collection into Postman.
-
-To use a variable value in your documentation, [create](/docs/sending-requests/managing-environments/) or select an environment.
-
-![Environment Quick Look](https://assets.postman.com/postman-docs/env-quick.jpg)
-
-[Add the new variable](/docs/sending-requests/managing-environments/#adding-environment-variables) if you haven't already done so.
-
-![Environment Variable](https://assets.postman.com/postman-docs/edit-env-variables-b.jpg)
-
-When you [reference a variable](/docs/sending-requests/managing-environments/#accessing-environments) in your requests, the value from the selected environment will automatically be published along with your documentation.
-
-![Reference Variable](https://assets.postman.com/postman-docs/reference-var.jpg)
-
-This means that anyone viewing your documentation will see the variable value along with the relevant environment.
-
-![Variable Value in Docs](https://assets.postman.com/postman-docs/documented-var.jpg)
-
-You can reference variables in your description text to show the values in your documentation.
-
-<img alt="Inline Documentation Edit with Variable" src="https://assets.postman.com/postman-docs/inline-doc-variable.jpg" width="500px"/>
-
-If someone imports the collection using the __Run in Postman__ button from your docs, they will also import the environment and variable.
-
-> Variable values will be published explicitly in your docs, so make sure they don't contain any sensitive data.
+> If someone imports a collection using the **Run in Postman** button from your documentation, they will also import the environment and any associated variables. The initial values for variables are published in your documentation, so make sure they don't contain any sensitive data.
 
 ## Versioning your docs
 
-Any version tags you add to your collections will be published along with your docs. You can add versions to an [API](/docs/designing-and-developing-your-api/versioning-an-api/) or collection.
+A [version](/docs/designing-and-developing-your-api/versioning-an-api/#versioning-concepts) is a set of features and functionality that your API delivers to consumers. A collection that contains API documentation can be linked to only one version of an API. That means, when you create a new version of your API, you'll also need to create a new documentation collection. You can then use the new collection to author documentation for the new API version.
 
-![Add Version](https://assets.postman.com/postman-docs/docs-version-options.jpg)
+There are several ways to create a documentation collection for a new version of your API:
 
-If you share a collection privately, viewers will be able to select versions from a drop-down list in your docs.
+* **Carry over documentation when creating an API version.** When you [create a new API version](/docs/designing-and-developing-your-api/versioning-an-api/#creating-versions), you have the option to copy elements from a previous API version into the new version. Select the **Documentation** element, and then select **Create Version**. This will create a new documentation collection based on the previous collection, with the new version name appended to the collection name.
 
-![Docs Versions](https://assets.postman.com/postman-docs/docs-versions.jpg)
+    <img alt="Creating a new version" src="https://assets.postman.com/postman-docs/documentation-new-version-v9.jpg" width="482px">
 
-When you publish docs to share publicly, you can select a version all viewers will see.
+* **Generate a collection from the new API version.** Open the new API version and select the **Documentation** tab. In the **Collection** dropdown list, select **Create new documentation**.
 
-![Publish Version](https://assets.postman.com/postman-docs/publish-version.jpg)
+* **Add an existing to collection to the new API version.** Open the new API version and select the **Documentation** tab. In the **Collection** dropdown list, select **Add existing documentation**.
+
+### Documenting releases
+
+[Releases](/docs/designing-and-developing-your-api/versioning-an-api/#versioning-concepts) are smaller, incremental units of change within an API version. You can include documentation changes as part of an API release. Anyone you share your collection with can use the **Release tag** dropdown list to view complete documentation for a specific release. For public documentation, you can choose which releases to include during the publishing process.
+
+To document a new release of an API version:
+
+1. Before creating the release, [edit the API documentation](#editing-api-documentation) as needed.
+2. [Create a new release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release) of the API version.
+3. If the documentation is public, [edit the publishing settings](/docs/publishing-your-api/publishing-your-docs/#customizing-your-docs) to include the new release.
+
+[![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)
 
 ## Next steps
 
-Learn more about [authoring your docs](/docs/publishing-your-api/authoring-your-documentation/) and [publishing them](/docs/publishing-your-api/publishing-your-docs/).
+Learn more about [authoring your docs](/docs/publishing-your-api/authoring-your-documentation/) with Postman's built-in editing tools, [publishing your docs](/docs/publishing-your-api/publishing-your-docs/) to make them publicly available, and the various ways to [view documentation](/docs/publishing-your-api/viewing-documentation/).

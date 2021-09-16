@@ -1,6 +1,6 @@
 
 
-const algoliasearch = require('algoliasearch');
+// const algoliasearch = require('algoliasearch');
 const { google } = require('googleapis');
 // const { hostname } = require('os');
 

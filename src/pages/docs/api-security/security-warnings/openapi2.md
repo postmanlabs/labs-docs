@@ -21,7 +21,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 You can use Postman to identify any potential security misses when your API is defined.
 
-<img alt="Security warnings for OpenAPI 2.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-2.jpg"/>
+<img alt="Security warnings for OpenAPI 2.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-2-v9.jpg"/>
 
 ### Security warnings for OpenAPI 2.0
 

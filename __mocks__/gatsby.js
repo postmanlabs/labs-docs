@@ -26,42 +26,39 @@ module.exports = {
   useStaticQuery: jest.fn().mockImplementation(() => ({
     allMarkdownRemark: {
       nodes: [{
-          fields: {
-            slug: '/docs/foo/slug/'
-          },
-          frontmatter: {
-            title: 'slug'
-          },
-          id: 'jfkdlsajfkldsa',
+        fields: {
+          slug: '/docs/foo/slug/',
         },
-        {
-          fields: {
-            slug: '/docs/foo/nested/nestedslug/'
-          },
-          frontmatter: {
-            title: 'nested slug'
-          },
-          id: 'jfkdlsajfkldsfa',
+        frontmatter: {
+          title: 'slug',
         },
-        {
-          fields: {
-            slug: '/docs/bar/otherslug/'
-          },
-          frontmatter: {
-            title: 'otherslug'
-          },
-          id: 'jfkdlsajfkldsfa',
+        id: 'jfkdlsajfkldsa',
+      },
+      {
+        fields: {
+          slug: '/docs/foo/nested/nestedslug/',
         },
+        frontmatter: {
+          title: 'nested slug',
+        },
+        id: 'jfkdlsajfkldsfa',
+      },
+      {
+        fields: {
+          slug: '/docs/bar/otherslug/',
+        },
+        frontmatter: {
+          title: 'otherslug',
+        },
+        id: 'jfkdlsajfkldsfa',
+      },
       ],
     },
     leftNavLinks: {
       value: '{"docs":{"foo":{"slug":{"url":"/docs/foo/slug/"},"nested":{"nestedslug":{"url":"/docs/foo/nested/nestedslug/"}}},"bar":{"otherslug":{"url":"/docs/bar/otherslug/"}}}}',
     },
-    headerLinks: {
-      value: '{"links":[{"name":"Docs","url":"/docs/getting-started/introduction/"},{"name":"Admin","url":"/docs/administration/managing-your-team/managing-your-team/"},{"name":"Developer","url":"/docs/developer/resources-intro/"},{"name":"Docs","url":"/docs/"},{"name":"Dashboard","url":"https://go.postman.co/","cta":true}],"title":"Learning Center"}',
-    },
     footerLinks: {
-      value: '{"columns":[{"name":"Product","children":[{"url":"https://www.postman.com/product/api-client","name":"API Client"},{"url":"https://www.postman.com/automated-testing","name":"Automated Testing"},{"url":"https://www.postman.com/features/mock-api","name":"Design & Mock"},{"url":"https://www.postman.com/api-documentation-generator","name":"Documentation"},{"url":"https://www.postman.com/api-monitor","name":"Monitors"},{"url":"https://www.postman.com/product/api-versioning","name":"Version Control"},{"url":"https://www.postman.com/product/workspaces","name":"Workspaces"}]},{"name":"Resources","children":[{"url":"https://www.postman.com/downloads/","name":"Download the App"},{"url":"https://www.postman.com/downloads/release-notes","name":"Release Notes"},{"url":"https://www.postman.com/integrations/","name":"Integrations"},{"url":"https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a","name":"Postman API"},{"url":"https://github.com/postmanlabs","name":"Open-Source"},{"url":"https://status.getpostman.com/","name":"System Status"}]},{"name":"Use Cases","children":[{"url":"https://getpostman.com/use-cases/","name":"Overview"},{"url":"https://getpostman.com/use-cases/api-development","name":"Development"},{"url":"https://www.postman.com/use-cases/api-testing","name":"Testing"},{"url":"https://www.postman.com/use-cases/product-management","name":"Product Management"}]},{"name":"Pricing","children":[{"url":"https://www.postman.com/pricing/","name":"Overview"},{"url":"https://www.postman.com/postman-enterprise","name":"Postman Enterprise"}]},{"name":"Support","children":[{"url":"https://www.postman.com/support","name":"Support"},{"url":"https://www.postman.com/support/resellers-support/","name":"Resellers Support"},{"url":"/","name":"Learning Center"},{"url":"https://www.postman.com/resources/videos-tutorials/","name":"Videos & Tutorials"},{"url":"https://www.postman.com/community","name":"Community Content"},{"url":"https://community.postman.com/","name":"Postman Community"}]},{"name":"Company","children":[{"url":"https://www.postman.com/about-postman","name":"About"},{"url":"https://www.postman.com/jobs/","name":"Jobs"},{"url":"https://www.postman.com/contact","name":"Contact"},{"url":"https://blog.postman.com/","name":"Blog"},{"url":"https://www.postman.com/resources/press-releases/","name":"Resources"},{"url":"https://store.getpostman.com/","name":"Swag Shop"},{"url":"https://www.postman.com/post-con-2019","name":"POST/CON 2019"}]}],"copyright":[{"type":"notice","text":"© Postman, Inc. All rights reserved"},{"type":"link","url":"https://getpostman.com/security","name":"Security"},{"type":"link","url":"https://www.postman.com/licenses/privacy","name":"Privacy"},{"type":"link","url":"https://www.postman.com/licenses/postman_eula","name":"EULA"}]}',
+      value: '{"src":"/assets/postman-footer-v6-2.svg","alt":"api-platform","copyright":"© 2021 Postman, Inc.","items":[{"title":"Product","arialabelledby":"product","items":[{"title":"What is Postman?","url":"https://www.postman.com/product/what-is-postman/","category":"global-footer","label":"what-is-postman","id":"what-is-postman"},{"title":"API repository","url":"https://www.postman.com/product/api-repository/","category":"global-footer","label":"api-repository","id":"api-repository"},{"title":"Tools","url":"https://www.postman.com/product/tools/","category":"global-footer","label":"tools","id":"tools"},{"title":"Intelligence","url":"https://www.postman.com/product/intelligence/","category":"global-footer","label":"intelligence","id":"intelligence"},{"title":"Workspaces","url":"https://www.postman.com/product/workspaces/","category":"global-footer","label":"workspaces","id":"workspaces"},{"title":"Integrations","url":"https://www.postman.com/product/integrations/","category":"global-footer","label":"integrations","id":"integrations"},{"title":"Enterprise","url":"https://www.postman.com/postman-enterprise/","category":"global-footer","label":"enterprise","id":"enterprise"},{"title":"Plans and pricing","url":"https://www.postman.com/pricing/","category":"global-footer","label":"plans-and-pricing","id":"plans-and-pricing"},{"title":"Download the app","url":"https://www.postman.com/downloads/","category":"global-footer","label":"download-the-app","id":"download-the-app"},{"title":"Support Center","url":"https://www.postman.com/support/","category":"global-footer","label":"support-center","id":"support-center"}]},{"title":"Company","arialabelledby":"company","category":"global-footer","label":"company","id":"company","items":[{"title":"About","url":"https://www.postman.com/company/about-postman/","category":"global-footer","label":"about","id":"about"},{"title":"Careers and culture","url":"https://www.postman.com/company/careers/","category":"global-footer","label":"careers-and-culture","id":"careers-and-culture"},{"title":"Contact us","url":"https://www.postman.com/company/contact-us/","category":"global-footer","label":"contact-us","id":"contact-us"},{"title":"Press and media","url":"https://www.postman.com/company/press-media/","category":"global-footer","label":"press-and-media","id":"press-and-media"}]},{"title":"Security and terms","arialabelledby":"security-and-terms","category":"global-footer","label":"security-and-terms","id":"security-and-terms","items":[{"title":"Security","url":"https://www.postman.com/security/","hrefType":"internal","category":"global-footer","label":"security","id":"security"},{"title":"Privacy policy","url":"https://www.postman.com/legal/privacy-policy/","hrefType":"internal","category":"global-footer","label":"privacy-policy","id":"privacy-policy"},{"title":"Terms","url":"https://www.postman.com/legal/terms/","category":"global-footer","label":"terms","id":"terms"}]},{"items":[{"title":"Twitter","url":"https://twitter.com/getpostman","hrefType":"external-other","category":"global-footer","label":"twitter","id":"twitter"},{"icon":"https://st-ar.cdn.postman-beta.com/images/linkedin-b6fdef2dc0dae8854a8f80921629a462.svg","title":"LinkedIn","url":"https://www.linkedin.com/company/postman-platform","hrefType":"external-other","category":"global-footer","label":"linkedin","id":"linkedin"},{"title":"GitHub","url":"https://github.com/postmanlabs","hrefType":"external-other","category":"global-footer","label":"github","id":"github"},{"title":"YouTube","url":"https://www.youtube.com/c/Postman","hrefType":"external-other","category":"global-footer","label":"youtube","id":"youtube"},{"icon":"https://st-ar.cdn.postman-beta.com/images/twitch-b58ae59bf57ffcd3ad7d59caa20c3cb2.svg","title":"Twitch","url":"https://www.twitch.tv/getpostman","hrefType":"external-other","category":"global-footer","label":"twitch","id":"twitch"}],"title":"Social","arialabelledby":"social"},{"url":"https://www.facebook.com/getpostman/","arialabel":"Visit our Facebook page"},{"url":"https://twitter.com/getpostman","arialabel":"Visit our Twitter page"},{"url":"https://www.linkedin.com/company/postman-platform","arialabel":"Visit our Linked in page"},{"url":"https://github.com/postmanlabs","arialabel":"Visit our Git Hub page"},{"url":"https://www.twitch.tv/getpostman","arialabel":"Visit our Twitch page"},{"url":"https://www.youtube.com/c/Postman","arialabel":"Visit our YouTube Channel"}],"items":[{"title":"Postman Galaxy","url":"https://www.postman.com/postman-galaxy/","category":"global-footer","label":"postman-galaxy","id":"postman-galaxy"},{"title":"Privacy","url":"https://www.postman.com/legal/privacy-policy/","category":"global-footer","label":"privacy","id":"privacy"},{"title":"Terms","url":"https://www.postman.com/legal/terms/","category":"global-footer","label":"terms","id":"terms"},{"title":"Careers","url":"https://www.postman.com/company/careers/","category":"global-footer","label":"careers","id":"careers"},{"title":"Support","url":"https://www.postman.com/support/","category":"global-footer","label":"support","id":"support"},{"title":"Security","url":"https://www.postman.com/security/","category":"global-footer","label":"security","id":"security"}],"title":"© 2021 Postman, Inc. All rights reserved."}',
     },
   })),
 };
