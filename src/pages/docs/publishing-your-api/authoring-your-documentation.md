@@ -66,7 +66,7 @@ To author a description using the new visual editor, select the **New editor** o
 
 <img alt="New editor" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-editor-v9.jpg" width="560px">
 
-**View the tooltips to get help as you work.** Hold your cursor over an item on the toolbar to see a description of the tool and the associated keyboard shortcut. If all of the tools are not visible on the toolbar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/documentation-three-dots-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
+**View the tooltips to get help as you work.** Hold your cursor over an item on the toolbar to see a description of the tool and the associated keyboard shortcut. If all of the tools are not visible on the toolbar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
 
 <img alt="New editor toolbar" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-toolbar-v9.jpg" width="560px">
 
