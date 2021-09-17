@@ -19,6 +19,21 @@
     height: auto;
   }
 
+  h2::before, 
+  h3::before, 
+  h4::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -56px; 
+    height: 56px; 
+    visibility: hidden; 
+    pointer-events: none; 
+  }
+
+  h2 a, h2 a, h3 a {
+    margin-top: 56px;
+  }
+
   // WIP - need to get ul li markers to move away from text
   ///////////////////////////////////////////////////////////////////
   ul {
