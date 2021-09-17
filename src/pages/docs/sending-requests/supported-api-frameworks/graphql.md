@@ -70,16 +70,22 @@ You can also [use Postman variables](/docs/sending-requests/variables/) as data 
 
 To [create or import a GraphQL schemas](/docs/designing-and-developing-your-api/the-api-workflow/) into Postman, complete the following steps.
 
-1. Under the **APIs** tab, click **+ New API**, navigate to the **Define** tab, and then select **Create new** or **Import file**.
-[![upload schema](https://i.imgur.com/dCM4jyE.png)](https://i.imgur.com/dCM4jyE.png)
-1. Choose **GraphQL** from the dropdown, and click **Save**.
-[![save schema](https://i.imgur.com/GCrGiVp.png)](https://i.imgur.com/GCrGiVp.png)
+1. Under the **APIs** tab, click **+ New API**.
+
+    <img src="https://assets.postman.com/postman-docs/create-api-v9.jpg" alt="New API" width="350px" />
+
+1. Enter a name and version for your API.
+1. Choose **GraphQL** from the **Schema type** dropdown list.
+1. Choose either **JSON** or **GraphQL SDL** from the **Schema Format** dropdown list.
+1. You can optionally select the **Import** tab to import an API specification directly from either a local file or a GitHub or Bitbucket repo. If you don't import a schema, Postman will populate your API with a sample specification you can edit at any time.
+1. Click **Create API**.
+1. Open the new API's version page, and navigate to the **Definition** tab to edit your schema.
 
 ## Autocomplete for GraphQL
 
 Once you create or import a GraphQL schema as described above, you can enable autocompletion within the **GraphQL** query editor.
 
-1. Under the **Collections** tab, return to your **GraphQL** body. Select your schema from the dropdown. You may need to refresh by clicking on the adjacent icon.
+1. Under the **Collections** tab, return to your **GraphQL** body. Select your schema from the dropdown list. You may need to refresh by clicking on the adjacent icon.
 [![schema selection](https://i.imgur.com/bhesWgs.png)](https://i.imgur.com/bhesWgs.png)
 1. Begin editing your query, and now Postman will suggest autocomplete options from the data within your GraphQL schema.
 [![autocomplete](https://i.imgur.com/Ai5cW4q.png)](https://i.imgur.com/Ai5cW4q.png)

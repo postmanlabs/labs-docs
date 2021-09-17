@@ -18,20 +18,15 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
+Postman provides an API development toolchain aimed at integrating with your workflow. The Postman team develops an open ecosystem in conjunction with industry partners to build integrations that facilitate your API projects. Integrations allow you to automate sharing data and functionality between Postman and other tools you might use for your API development.
 
-Postman provides an API development toolchain aimed at integrating with your workflow.
-
-The Postman team develops an open ecosystem in conjunction with industry partners to build integrations that facilitate your API projects.
-
-Integrations allow you to automate sharing data and functionality between Postman and other tools you might be using for your API development.
-
-> If you use GitHub or GitLab for your repository management and use Postman to develop and test your APIs, you can save your Postman Collections to your repositories with the [Postman to GitHub integration](/docs/integrations/available-integrations/github/) and [Postman to GitLab integration](https://learning.postman.com/docs/integrations/available-integrations/gitlab/).
+> **The maximum number of integrations you can use is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
 
 ## Contents
 
-* [Accessing Integrations](#accessing-integrations)
-* [Static IP Support](#static-ip-support)
+* [Accessing integrations](#accessing-integrations)
+* [Static IP support](#static-ip-support)
+* [CI integrations](#ci-integrations)
 
 ## Accessing integrations
 
@@ -47,7 +42,7 @@ Select __Add Integration__ to configure your integration. Enter the required inf
 
 ![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
 
-## Static IP Support
+## Static IP support
 
 You can use static IP addresses to enable integrations and custom webhooks for Postman Collection backups that need to access hosted (private) networks behind firewalls that require whitelisted IP addresses.
 
@@ -64,3 +59,9 @@ Postman supports implementing static IP addresses for the following integrations
 * [Custom Webhooks](https://learning.postman.com/docs/integrations/webhooks/)
 * [GitHub Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/github/#backup-collections-to-github-on-custom-domain)
 * [GitLab Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/gitlab/#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
+
+## CI integrations
+
+Postman integrates with some of the most widely-used Continuous Integration and Continuous Delivery (CI/CD) tools. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
+
+To learn more about how CI integrations work, and for detailed configuration steps, see [CI integrations](/docs/integrations/ci-integrations/).

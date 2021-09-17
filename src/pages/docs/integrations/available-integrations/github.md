@@ -21,8 +21,6 @@ contextual_links:
     url:  "https://blog.postman.com/how-to-auto-sync-postman-collections-with-aws-codecommit-repositories/"
 ---
 
-> __[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
-
 Postman enables you to back up your collections (for paid plans only) or synchronize your API schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
 
 > If you are looking to import data into Postman from a GitHub repository, see [Importing via GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories).
@@ -113,49 +111,9 @@ Once you whitelist this IP address, calls for this integration will be able to c
 
 Syncing your API schemas will enable a two-way sync between the schema stored in the GitHub repository and the schema on Postman.
 
-1. From the [Integrations search page](https://go.postman.co/integrations/browse?category=all), search for GitHub and select it from the results.
+Postman 9.0 introduced the ability to connect a git repository to an API. Previously, a GitHub integration would only sync API schemas. Now, you can connect your repo to an API directly in the API Builder. Not only does this add two-way sync of schemas, but also syncs associated collections, and adds powerful new features for syncing branches and release tags between Postman and your repo. For more information on the repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
-1. Next to **Sync API schema**, click **Add Integration** to authorize a backup of your Postman collections.
-
-1. Enter your Personal Access Token, select **I consent to Postman collecting and storing my GitHub Access Token**, then click **Proceed**.
-
-1. On the next page, give the integration a nickname, select the workspace and API you want to sync with GitHub, and the GitHub repository where the schema should sync from the dropdowns, then click **Add Integration**.
-
-   > The list of your GitHub repositories may take some time to load.
-
-   [![github integrations screen](https://assets.postman.com/postman-docs/integrations-github-schema.jpg)](https://assets.postman.com/postman-docs/integrations-github-schema.jpg)
-
-1. On the next page you need to set up your webhook. Go to the settings page of your GitHub repository, click **Webhooks**, then **Add webhook**. Copy over the **Payload URL** and **Secret** from Postman, set **Content type** to `application/json`, and click **Add webhook**. Refer to the [GitHub documentation](https://developer.github.com/webhooks/creating/#setting-up-a-webhook) for more detail.
-
-   [![add webhook](https://assets.postman.com/postman-docs/addwebhook.gif)](https://assets.postman.com/postman-docs/addwebhook.gif)
-
-1. Back to the Postman dashboard, click **Add API Version**, and select the following details:
-
-   * The API Version you want to sync, such as `1.0`.
-   * The repository directory where you want the schema file to be saved, such as `api`.
-      * Leave this field blank to save the schema at the root of your repository. If the folder specified doesn't exist on the repository it will be created.
-   * The name and extension of the schema file, such as `petstore.yaml`.
-      * If the file doesn't exist on the repository it will be created.
-
-   [![github integrations screen](https://assets.postman.com/postman-docs/integrations-github-schema-version.jpg)](https://assets.postman.com/postman-docs/integrations-github-schema-version.jpg)
-
-1. To finish, click **Add API Version**.
-
-You can sync multiple API versions by clicking **Add API Version** again. To delete an existing API version, hover over the entry, click the grey **X** to the right, then click **Remove API Version**.
-
-> If you are linking an existing API schema on Postman to an existing schema file on GitHub, a pop-up message will appear asking which schema you want to keep. The other schema will be overwritten.
-
-Once the integration is complete, return to the Postman app and navigate to your API. A badge will show the sync status, file, and repository.
-
-[![github integrations screen](https://assets.postman.com/postman-docs/integrations-github-schema-done.jpg)](https://assets.postman.com/postman-docs/integrations-github-schema-done.jpg)
-
-The sync of API schemas is two-way; after your first schema sync, each change to the schema in Postman will appear in the repository as a new commit. Similarly, if you or someone else updates the file on the GitHub repository, the API schema on Postman will be updated.
-
-To ensure that changes made in GitHub work properly in your collection, use the Validate option as described in [validating APIs](/docs/designing-and-developing-your-api/versioning-an-api/#validating-apis).
-
-> If changes take place on the repository while you are editing the file on Postman, a **Conflict** state will be displayed. Saving the changes on Postman will override the file on GitHub.
-
-[![commit example github](https://assets.postman.com/postman-docs/commitexamplegithub.png)](https://assets.postman.com/postman-docs/commitexamplegithub.png)
+> If you previously added two-way sync for an API schema, it will continue to function in the future. But you can't add a new sync, and if you want to use the new API-level sync, you must delete the old one first.
 
 ## Troubleshooting GitHub Sync
 

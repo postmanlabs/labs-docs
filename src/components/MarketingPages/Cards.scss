@@ -3,14 +3,8 @@
 ////////////////////////////////////////////
 
 .landing-card {
-  background: #ffffff;
-  background: linear-gradient(180deg, rgba(28,39,43,1) 0%, rgba(28,39,43,1) 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 100%);
-  box-shadow: 0 8px 15px 0 rgba(40,40,40,.18);
-  border: 0;
-  &:hover {
-    background: #fe6c37;
-    background: linear-gradient(180deg, rgba(254, 108, 55,1) 0%, rgba(254, 108, 55,1) 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 100%);
-  }
+  margin-bottom: 32px;
+  text-align: left !important;
 
   .landing-card__top {
     background: transparent;
@@ -18,37 +12,20 @@
   }
 
   .landing-card__image {
-    display: inline-block;
-    max-width: 150px;
-    min-width: 150px;
-    max-height: 150px;
-    min-height: 150px;
-    overflow: hidden;
-    background: #fff;
-    margin: 0 auto;
-    border-radius: 100px;
-    box-shadow: 0 1px 1px 1px rgba(40,40,40,.05), 0 1px 1px 0 rgba(40,40,40,.1);
-    position: relative;
-    top: 50px;
-    padding: 24px;
-    img {
-      margin: auto;
+    margin-bottom: 16px;
+    width: 50px;
+
+    & img {
       max-width: 100%;
-      height: auto;
-      border-style: none;
-      vertical-align: middle;
     }
   }
   .landing-card__content {
-    border: 1px solid transparent;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 30px;
     &-title {
-      font-size: 20px;
-      margin-top: 40px;
-      font-size: 20px;
+      font-size: 20px !important;
+      line-height: 28px;
       font-weight: 600;
+      letter-spacing: -0.32px;
+      margin-bottom: 8px;
     }
     &-description {
       margin-bottom: 25px;

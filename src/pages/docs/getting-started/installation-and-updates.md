@@ -37,9 +37,7 @@ contextual_links:
 
 Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac, Windows (32-bit / 64-bit), and Linux (32-bit / 64-bit) operating systems.
 
-To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and click **Download** for your platform.
-
-![Postman download page](https://assets.postman.com/postman-docs/download-postman-v86.jpg)
+To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
 
 ## Contents
 
@@ -48,6 +46,8 @@ To get the latest version of the Postman desktop app, visit the [download page]
     * [Windows](#installing-postman-on-windows)
     * [Linux](#installing-postman-on-linux)
 * [Using Postman on the web](#using-postman-on-the-web)
+    * [Browser requirements](#browser-requirements)
+    * [Installing the Postman desktop agent](#installing-the-postman-desktop-agent)
     * [Web limitations](#web-limitations)
 * [Updating Postman](#updating-postman)
 * [Chrome app (deprecated)](#postman-chrome-app-deprecated)
@@ -62,7 +62,7 @@ To get the latest version of the Postman desktop app, visit the [download page]
 
 [Download](https://www.postman.com/downloads/) and unzip the app _using the built-in Archive Utility app_. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
 
-> The minimum OS version supported is macOS 10.10 (Yosemite).
+> The minimum OS version supported is macOS 10.11 (El Capitan).
 >
 > You may encounter a "Library not loaded" error if you attempt to unzip and install Postman using a third-party app—using the default Archive Utility for Mac should resolve this.
 
@@ -99,8 +99,8 @@ Categories=Development;
 
 > Postman supports the following distributions:
 >
-> * Ubuntu 12.04 and newer
-> * Fedora 21
+> * Ubuntu 14.04 and newer
+> * Fedora 24
 > * Debian 8 and newer
 >
 > The support of certain Linux distributions depends on if they are supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
@@ -115,7 +115,20 @@ Categories=Development;
 
 ## Using Postman on the web
 
-You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/home](https://go.postman.co/home). If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [the Downloads page](https://www.postman.com/downloads/).
+You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/home](https://go.postman.co/home).
+
+### Browser requirements
+
+Postman’s web application is optimized for the following browsers:
+
+* Chrome (78 and higher)
+* Firefox (76 and higher)
+* Edge (79 and higher)
+* Safari (13.1.1 and higher)
+
+### Installing the Postman desktop agent
+
+If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [the Downloads page](https://www.postman.com/downloads/).
 
 <img alt="Postman Agent" src="https://assets.postman.com/postman-docs/download-agent-v86.jpg" width="500px"/>
 
@@ -129,7 +142,7 @@ Once you enable the option for **Auto-select**, Postman will automatically selec
 
 You can select the **Cloud Agent** if you want to send HTTP requests via Postman's secure cloud servers. While using the locally running Postman, it is recommended you use the **Desktop Agent**. Using the **Browser Agent** for your web requests has some [limitations](/docs/getting-started/installation-and-updates/#web-limitations).
 
-> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area which you can click to switch to the agent and try your request again. Read [more about the agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/).
+> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area which you can select to switch to the agent and try your request again. Read [more about the agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/).
 
 ### Web limitations
 
@@ -166,7 +179,7 @@ The native app is built on [Electron](https://www.electronjs.org/), and [overco
 * The "don't follow redirects" option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected—doing this in the Chrome app requires the Interceptor extension.
 * The native app has a built-in [console](/docs/sending-requests/troubleshooting-api-requests/), which allows you to view the network request details for API calls.
 
-### Migrating to the native app
+### Migrating to the native app
 
 To switch from the Chrome app to native, [download](https://www.postman.com/downloads/) Postman and [sign in to your account](https://go.postman.co/). Start the native app, and your history and collections will be automatically synced.
 
@@ -213,7 +226,7 @@ Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Curren
 
 ### Update button not available
 
-If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence. If you are on Postman version 6, you will have to migrate to Postman 8 and change the Snap channel to get the latest updates. For more information see [Migrating to Postman 8](/docs/administration/upgrading-to-v8/).
+If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence.
 
 ## Next steps
 

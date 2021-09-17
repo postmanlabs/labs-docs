@@ -19,21 +19,19 @@ contextual_links:
 
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 Datadog is a monitoring service for cloud-scale applications. It combines data from servers, databases, tools, and services to present a unified view of an entire stack. This integration allows you to configure your Postman Monitors to send metrics to Datadog where you can visualize and compare them with other metrics.
 
 Setting up a Datadog integration requires you to get an API key from Datadog and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
 ## Retrieving your Datadog API Key
 
-Log in to [Datadog](https://app.datadoghq.com/account/settings#api) and select **Integrations** in the header toolbar.
+1. Log in to [Datadog](https://app.datadoghq.com/) and select **Integrations** in the header toolbar.
 
-An `API Key` is created for you automatically under the **APIs** tab. If you want, you can also create a key by specifying a name for it.
+1. An `API Key` is created for you automatically under the **APIs** tab. If you want, you can also create a key by specifying a name for it.
 
-Save the API Key to use later.
+1. Save the API Key to use later.
 
-![get datadog integrations API key](https://assets.postman.com/postman-docs/datadog-get-api-key-bb.jpg)
+    ![get datadog integrations API key](https://assets.postman.com/postman-docs/datadog-get-api-key-bb.jpg)
 
 ## Configuring Postman Monitors
 
@@ -41,7 +39,7 @@ Save the API Key to use later.
 
     ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
-    Search and select **Datadog**.
+1. Search and select **Datadog**.
 
     [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-all-search.jpg)](https://assets.postman.com/postman-docs/datadog-all-search.jpg)
 
@@ -125,6 +123,6 @@ If you have previously created any integrations, you must update them to take th
 
 The updated Integration has the following benefits:
 
-* The Postman metrics for the new Integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/developers/metrics/) in Datadog and hence are free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
+* The Postman metrics for the new Integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/metrics/) in Datadog and hence are free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
 * A default Dashboard is provided on Datadog that can be used to observe the Monitor. Change the `monitor_name` variable to the Monitor for which you want to observe the Dashboard.
   [![Datadog dashboard](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)

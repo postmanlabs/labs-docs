@@ -1,11 +1,10 @@
 @import '../Shared/_variables.scss';
 
 .leftNav {
-  background-color: $lighter-blue;
-  border-right: 1px solid $light-blue;
+  background-color: $grey_05;
   height: 100%;
-  font-size: 16px;
-  line-height: 1.5em;
+  font-size: 14px;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
   padding: 32px 8px 8px 20px;
   .active.root > .parent.currentUrl {
     background-color: inherit;
@@ -13,13 +12,13 @@
     padding-left: 70px;
     & button {
       &:hover{
-        color: $postman-orange;
+        color: $grey_60;
       }
     }
   }
   .root > .parent{
     button {
-      font-weight: 700;
+      font-weight: 400;
     }
   }
   .parent {
@@ -27,7 +26,6 @@
     margin-left: -10px;
     .caret {
       position: relative;
-      top: 14px;
       left: -8px;
       transition: transform .2s ease;
       -webkit-transform: rotate(-90deg);
@@ -35,6 +33,10 @@
       -o-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
       transform: rotate(-90deg);
+      @media screen and (min-width: 768px) {
+        width: 10%;
+        height: 24px;
+      }
       
       &.active-caret {
         transition: transform .2s ease;
@@ -56,16 +58,21 @@
       cursor: pointer;
       outline: inherit;
       text-transform: capitalize;
+
+      @media screen and (min-width: 768px) {
+        width: 90%;
+      text-align: left;
+      }
       &:hover{
-        color: $postman-orange;
+        color: $grey_60;
       }
     }
 
     &.currentUrl {
-      background-color: $postman-orange;
-      color: $white;
-      margin: 0 -8px 16px -80px;
-      padding: 8px 0 8px 70px;
+      // background-color: $grey_60;
+      // color: $white;
+      margin: 0 -8px 0 -80px;
+      padding: 0 0 8px 70px;
       & button {
         &:hover {
           color: $white;
@@ -86,34 +93,44 @@
         vertical-align: middle;
       }
 
-      .activeIndicator {
-        min-width: 5px;
-        height: 1.5em;
-        display: inline-block;
-        background-color: $postman-orange;
-        position: relative;
-        left: -10px;
-        top: 5px;
-      }
+      // .activeIndicator {
+      //   min-width: 5px;
+      //   height: 1.5em;
+      //   display: inline-block;
+      //   background-color: $grey_60;
+      //   position: relative;
+      //   left: -10px;
+      //   top: 5px;
+      // }
 
-      a {
-        margin-top: -18px;
+      a:link, a:visited {
         margin-left: 5px;
+        background-color: rgb(242, 242, 242);
+        color: $grey_90;
+        border-radius: 3px;
       }
     }
     
-    a {
+    a:link, a:visited {
       display: block;
       text-decoration: none;
       color: inherit;
+      padding: 9px;
       &:hover {
-        color: $postman-orange;
+        color: $grey_90;
+        background-color: rgb(242, 242, 242);
+        border-radius: 3px;
       }
     }
   }
 
   ul.active > .child, ul.active > .parent, ul.active > ul.inactive, ul.inactive.root {
     display: block;
+  }
+
+  ul.active > .child {
+    color: $grey_50;
+    margin-bottom: 0;
   }
 
   ul.inactive > .child, ul.inactive > ul {
