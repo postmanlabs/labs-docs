@@ -51,6 +51,10 @@ To view and edit your workspace details (e.g. name, description), navigate to th
 
 <img alt="Default Workspace" src="https://assets.postman.com/postman-docs/create-workspace-dropdown.jpg" width="300px"/>
 
+To find out your workspace ID, navigate to the **Workspace Overview** tab and select **Workspace Settings**. You can directly copy the Workspace ID and use it in your collection requests or environments.
+
+<img alt="Workspace ID" src="https://assets.postman.com/postman-docs/find-workspace-id-v9.jpg" width="300px"/>
+
 ## Sharing workspaces
 
 You can share workspaces with collaborators by inviting them individually or via a [group](/docs/administration/managing-your-team/user-groups/). If you invite a collaborator to a personal workspace, Postman will convert it to a team workspace.

@@ -37,13 +37,9 @@ Let's review how to [send a basic request](/docs/getting-started/sending-the-fir
 
 ## Creating your first collection
 
-You can create a new request from the left sidebar in Postman. Click __New__ &gt; __Request__.
+You can create a new request from the left sidebar in Postman. Click __New__ &gt; __HTTP Request__.
 
-<img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v8.jpg"/>
-
-To create a new request from the Overview tab, use the Get started section at the right of Postman and click Create a request.
-
-<img alt="Create new request overview" src="https://assets.postman.com/postman-docs/create-new-request-v8.jpg" width="300px"/>
+<img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v9.jpg"/>
 
 Enter a request in the request builder and click **Save** to open the **SAVE REQUEST** modal.
 
@@ -59,3 +55,7 @@ Save this request to an existing collection, or create a new collection by enter
 Congratulations! You can see all of your collections under the **Collections** tab of the sidebar on the left, as illustrated in the screen below:
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v8.jpg" width="400px"/>
+
+**Note:** You can also create a new collection directly from the Overview tab, use **In this workspace** section at the right of Postman and select **+** icon near the collections.
+
+<img alt="Create new request overview" src="https://assets.postman.com/postman-docs/create-new-collection-v9.jpg" width="300px"/>

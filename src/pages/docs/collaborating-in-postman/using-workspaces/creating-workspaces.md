@@ -41,7 +41,7 @@ warning: false
 
 Workspaces allow you to organize your Postman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked entities. By collaborating in a workspace, your edits are synced with your team in realtime.
 
-[![Create workspace homepage](https://assets.postman.com/postman-docs/create-workspace-homepage.jpg)](https://assets.postman.com/postman-docs/create-workspace-homepage.jpg)
+<img alt="Create workspace homepage" src="https://assets.postman.com/postman-docs/create-workspace-homepage-v9.jpg"/>
 
 Personal workspaces are visible only to you—with a [Postman account](/docs/getting-started/postman-account/) you can create unlimited workspaces. With team workspaces, you can share and manage access to project components with collaborators. [Public workspaces](/docs/collaborating-in-postman/public-workspaces/) enable you to collaborate on entities with anyone across the world.
 
@@ -81,9 +81,9 @@ To create a new workspace, you can click the __New__ button above the navigation
 
 [![Create workspace new button](https://assets.postman.com/postman-docs/create-workspace-new-button-v9.jpg)](https://assets.postman.com/postman-docs/create-workspace-new-button-v9.jpg)
 
-You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Click **Create New** and follow the same steps.
+You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Select **New workspace** and follow the same steps.
 
-[![Create new workspace dashboard](https://assets.postman.com/postman-docs/create-new-workspace-dashboard.jpg)](https://assets.postman.com/postman-docs/create-new-workspace-dashboard.jpg)
+[![Create new workspace dashboard](https://assets.postman.com/postman-docs/create-new-workspace-dashboard-v9.jpg)](https://assets.postman.com/postman-docs/create-new-workspace-dashboard-v9.jpg)
 
 ## Next steps
 
