@@ -11,12 +11,11 @@ import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
 
-import 'jquery.scrollto';
-import $ from 'jquery';
 
+import $ from 'jquery';
+import 'jquery.scrollto';
 
 function comparePagesAndScrollToAnchor(eventObject) {
-  console.log("Inside compare function", $)
   const navOffset = parseInt(-56, 10);
   const currentPage = `${location.origin}${location.pathname}`;
   const desiredPage = `${eventObject.target.href.split('#')[0]}`
@@ -25,9 +24,9 @@ function comparePagesAndScrollToAnchor(eventObject) {
     eventObject.preventDefault();
     const targetHash = eventObject.target.hash;
     // If the desiredPage the same page, scroll to the hash ID on the page
-    // $(window).scrollTo($(targetHash), {
-    //   offset: {top: navOffset}
-    // })
+    $(window).scrollTo($(targetHash), {
+      offset: {top: navOffset}
+    })
   }
 }
 

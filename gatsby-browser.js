@@ -13,9 +13,9 @@ export const onClientEntry = () => {
   if (!window.location.hash) {
     window.scrollTo(0, 0);
   } else {
-    // $(window).scrollTo($(window.location.hash), {
-    //   offset: {top: -56}
-    // });
+    $(window).scrollTo($(window.location.hash), {
+      offset: {top: -56}
+    });
   }
 }
 
