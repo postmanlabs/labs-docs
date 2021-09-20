@@ -90,7 +90,7 @@ const LoginCheck = (props) => {
             });
           }}
         >
-          Sign Up
+          Sign Up for Free
         </a>
       </>
     );
