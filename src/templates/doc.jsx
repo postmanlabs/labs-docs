@@ -12,20 +12,23 @@ import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
 
 import $ from 'jquery';
-import 'jquery.scrollto';
 
 function comparePagesAndScrollToAnchor(eventObject) {
+  eventObject.preventDefault();
   const navOffset = parseInt(-56, 10);
   const currentPage = `${location.origin}${location.pathname}`;
   const desiredPage = `${eventObject.target.href.split('#')[0]}`
   // Compare our current page to links href
   if (currentPage === desiredPage) {
-    eventObject.preventDefault();
     const targetHash = eventObject.target.hash;
     // If the desiredPage the same page, scroll to the hash ID on the page
-    $(window).scrollTo($(targetHash), {
+    $.scrollTo($(targetHash), {
       offset: {top: navOffset}
     })
+    // Add hash to locationh bar without triggering refresh
+    history.pushState(null, null, targetHash)
+  } else {
+    window.location = eventObject.target.href;
   }
 }
 
