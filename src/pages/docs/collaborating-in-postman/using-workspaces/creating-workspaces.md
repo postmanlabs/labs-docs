@@ -69,7 +69,7 @@ To create a personal workspace, enter the workspace name and summary. Select the
 
 To create a team workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Team__. Add collaborators by entering their email addresses, then define their [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
-[![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace.jpg)](https://assets.postman.com/postman-docs/create-team-workspace.jpg)
+[![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace-v9.jpg)](https://assets.postman.com/postman-docs/create-team-workspace-v9.jpg)
 
 If you are an Admin user and add any email addresses not associated with current team members, they will be invited to join the team.
 
@@ -79,7 +79,7 @@ Click **Create Workspace** and Postman will open your new workspace. You can add
 
 To create a new workspace, you can click the __New__ button above the navigation bar, select __Workspace__ and follow the same steps.
 
-[![Create workspace new button](https://assets.postman.com/postman-docs/create-workspace-new-button-v8.jpg)](https://assets.postman.com/postman-docs/create-workspace-new-button-v8.jpg)
+[![Create workspace new button](https://assets.postman.com/postman-docs/create-workspace-new-button-v9.jpg)](https://assets.postman.com/postman-docs/create-workspace-new-button-v9.jpg)
 
 You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Click **Create New** and follow the same steps.
 
