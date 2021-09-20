@@ -11,7 +11,6 @@ import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
 
-
 import $ from 'jquery';
 import 'jquery.scrollto';
 
@@ -39,18 +38,9 @@ export default ({ data }) => {
 
   useEffect(() => {
     // On load, check URL.  If it includes a hash, go to it and offset window by navOffset
-      // if (location.hash) {
-      //   setTimeout(() => {
-      //     $.scrollTo($(location.hash), {
-      //       offset: navOffset
-      //     });
-      //   }, 500)
-      // }
-
-      $('#content-container a').on('click', (e) => {   
-        console.log('inside click listener')
-        comparePagesAndScrollToAnchor(e);
-      });  
+    $('#content-container a').on('click', (e) => {
+      comparePagesAndScrollToAnchor(e);
+    });  
   });
   
   return (
