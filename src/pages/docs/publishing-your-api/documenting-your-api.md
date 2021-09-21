@@ -137,7 +137,7 @@ To remove documentation from an API:
 
 An [environment](/docs/sending-requests/managing-environments/) is a set of related [variables](/docs/sending-requests/variables/) you can use in Postman requests. You can also refer to variables when [authoring descriptions](/docs/publishing-your-api/authoring-your-documentation/) in a collection. In each case, the initial value of the variable is automatically populated in the documentation.
 
-Anyone using your collection will only be able to view the variables in the documentation if the associated environment is shared with them. For published documentation, you can select an environment to share during the [publication process](/docs/publishing-your-api/publishing-your-docs/). Sharing an environment makes it available to anyone [viewing the published documentation](/docs/publishing-your-api/viewing-documentation/).
+Anyone using your collection will only be able to view the variables in the documentation if the associated environment is also shared with them. For public documentation, you can select an environment during the [publishing process](/docs/publishing-your-api/publishing-your-docs/). Publishing an environment makes it available to anyone [viewing public documentation](/docs/publishing-your-api/viewing-documentation/).
 
 To use an environment variable in your documentation:
 
