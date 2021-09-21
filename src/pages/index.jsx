@@ -19,6 +19,7 @@ import BugImage from '../assets/icons/bug.svg';
 import CommunityImage from '../assets/icons/community.svg';
 
 import { LandingCard } from '../components/MarketingPages/Cards';
+import '../../styles/config/normalize.css';
 import '../components/MarketingPages/Buttons.scss';
 import './index.scss';
 
@@ -64,7 +65,7 @@ class IndexPage extends React.Component {
               <div className="row">
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
                   <h1>Postman Learning Center</h1>
-                  <p style={{ fontSize: '1.375rem' }}>
+                  <p className="subtitle">
                     Learn how to use Postman.
                     {' '}
                     <br />
