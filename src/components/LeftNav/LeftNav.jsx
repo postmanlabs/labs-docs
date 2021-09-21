@@ -1,248 +1,116 @@
-/* eslint-disable
-  jsx-a11y/click-events-have-key-events,
-  jsx-a11y/no-noninteractive-element-interactions */
-import { useStaticQuery, graphql, Link } from 'gatsby';
-import React from 'react';
+// import { useStaticQuery, graphql, Link } from 'gatsby';
+import React, { useState, useEffect } from 'react';
 import './LeftNav.scss';
-
-const { useState, useEffect } = React;
-
+import { leftNavItems } from './LeftNavItems';
 
 const { v4: uuidv4 } = require('uuid');
-const replacements = require('./replacements.json');
 
-let slugs;
 
-const ListItem = ({ leftNavLinks, isRoot }) => {
-  // determine if url is current
-  const [active, setActiveState] = useState([]);
-  const [currentUrl, setCurrentUrl] = useState('');
+const LeftNav = (props) => {
+  const {
+    LeftNavItems = [],
+  } = props;
 
-  // change state on click
-  useEffect(() => {
-    setCurrentUrl(window.location.pathname);
-  }, [currentUrl]);
+  // state and action is called setSelectedMenuItem. create state for each variable, not as a total state that creates copies everytime and replaces the new state object
+  const [selected, setSelectedMenuItem] = useState(LeftNavItems[0].name);
+  // state holds condition if submenus are selected or parent is selected
+  const [subMenuItemsState, setSubMenuItems] = useState({});
 
-  const setActive = (name) => {
-    console.log('name from setACtive', name);
-    if (active.indexOf(name) === -1) {
-      setActiveState((prev) => {
-        return [...prev, name];
-      });
+
+
+  // onclick event
+  const handleMenuItemClick = (name, index) => {
+    // update selected menu item
+    setSelectedMenuItem(name);
+    // does item have subitem? and has it been clicked?
+
+    // create deep copy of object to break reference to initial object
+    const subMenuItems1Copy = JSON.parse(JSON.stringify(subMenuItemsState));
+
+    if (Object.prototype.hasOwnProperty.call(subMenuItemsState, index)) {
+      // take cpoy at index clicked, check if isopen and change state
+      subMenuItems1Copy[index].isOpen = !subMenuItemsState[index].isOpen;
+      setSubMenuItems(subMenuItems1Copy);
     }
-  }; // sets a given list item as active
-
-  const toggleActive = (e) => {
-    let title;
-    if (e.target.attributes.identifier) {
-      title = e.target.attributes.identifier.value;
-    } else {
-      title = e.target.nextSibling.attributes.identifier.value;
-    }
-    const titleIndex = active.indexOf(title);
-    if (titleIndex !== -1) {
-      active.splice(titleIndex, 1);
-      setActiveState(active);
-    } else {
-      setActive(title);
-    }
-  }; // toggles list item as active or inactive based on previous state. Triggered on click
-
-  // const isActive = (name) => active.includes(name);
-
-
-  const inUrl = (url) => currentUrl.includes(url);
-  // bool to return whether current list item appears in the url
-
-  const child = (url) => {
-    const name = slugs.filter((val) => url === val.fields.slug);
-    const { title } = name[0].frontmatter;
-    return (
-      <li key={`${title}-${uuidv4()}`} className={`child${inUrl(url) ? ' currentUrl' : ''}`}>
-        <div className="activeIndicator" />
-        <Link to={url}>{title}</Link>
-      </li>
-    );
-  }; // Renders child element. Gets name from slugs array
-
-  const parent = (data, name) => {
-    // const { active, isRoot } = this.state;
-    if (inUrl(`/${name}/`)) {
-      setActive(name);
-    }
-
-    return (
-      <ul
-        key={`${name}-${uuidv4()}`}
-        className={`
-        ${(active.indexOf(name) !== -1) ? 'active' : 'inactive'}
-        ${isRoot ? ' root' : ''}
-        `}
-      >
-        <li className={`parent${inUrl(`/${name}/`) ? ' currentUrl' : ''}`}>
-          {/* <svg onClick={toggleActive} className={`caret${isActive(name) ? ' active-caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24" viewBox="0 0 24 24" width="24"><path clipRule="evenodd" d="m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z" fill="#707070" fillRule="evenodd" /></svg> */}
-          <button type="button" onClick={toggleActive} identifier={name}>
-            {replacements[name] ? replacements[name] : name.replace(/-/g, ' ')}
-          </button>
-        </li>
-        <ListItem leftNavLinks={JSON.stringify(data)} />
-      </ul>
-    );
   };
 
-  const parsedData = JSON.parse(leftNavLinks);
-  const keys = Object.keys(parsedData).map((val) => val);
+  console.log(subMenuItemsState);
 
-  return (
-    <>
-      {keys.map((val) => {
-        if (parsedData[val].url) {
-          return child(parsedData[val].url);
-        }
-        return parent(parsedData[val], val);
-      })}
-    </>
-  );
-};
+  // Effect, first arg is what you want to happen, if second property is empty, use effect will only fire once on new render, if properties are added then the effect fires every time the state changes
+  // first arg is the effect for the logic and the second arg is the dependency
+  useEffect(() => {
+    // populate empty object with dropdown items
+    const newSubMenu = {};
+    // const newSubMenu2 = {};
 
-// -------------------------------------------------------------
-// class ListItem extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     const { data, isRoot } = this.props;
-//     this.state = {
-//       data,
-//       isRoot,
-//       active: [],
-//       currentUrl: '',
-//     };
-//     this.toggleActive = this.toggleActive.bind(this);
-//   }
-
-//   componentDidMount() {
-//     this.setState({ currentUrl: window.location.pathname });
-//   }
-
-// setActive = (name) => {
-//   const { active } = this.state;
-//   if (active.indexOf(name) === -1) {
-//     this.setState((prev) => ({ active: [...prev.active, name] }));
-//   }
-// } // sets a given list item as active
-
-// toggleActive = (e) => {
-//   let title;
-//   if (e.target.attributes.identifier) {
-//     title = e.target.attributes.identifier.value;
-//   } else {
-//     title = e.target.nextSibling.attributes.identifier.value;
-//   }
-//   const { active } = this.state;
-//   const titleIndex = active.indexOf(title);
-//   if (titleIndex !== -1) {
-//     active.splice(titleIndex, 1);
-//     this.setState({ active });
-//   } else {
-//     this.setActive(title);
-//   }
-// } // toggles list item as active or inactive based on previous state. Triggered on click
-
-// isActive = (name) => {
-//   const { active } = this.state;
-//   return active.includes(name);
-// }
-
-// inUrl = (url) => {
-//   const { currentUrl } = this.state;
-//   return currentUrl.includes(url);
-// }
-// // bool to return whether current list item appears in the url
-
-// child = (url) => {
-//   const name = slugs.filter((val) => url === val.fields.slug);
-//   const { title } = name[0].frontmatter;
-//   return (
-//     <li key={`${title}-${uuidv4()}`} className={`child${this.inUrl(url) ? ' currentUrl' : ''}`}>
-//       <div className="activeIndicator" />
-//       <Link to={url}>{title}</Link>
-//     </li>
-//   );
-// } // Renders child element. Gets name from slugs array
-
-// parent = (data, name) => {
-//   const { active, isRoot } = this.state;
-//   if (this.inUrl(`/${name}/`)) {
-//     this.setActive(name);
-//   }
-
-//   return (
-//     <ul
-//       key={`${name}-${uuidv4()}`}
-//       className={`
-//       ${(active.indexOf(name) !== -1) ? 'active' : 'inactive'}
-//       ${isRoot ? ' root' : ''}
-//       `}
-//     >
-//       <li className={`parent${this.inUrl(`/${name}/`) ? ' currentUrl' : ''}`}>
-//         {/* Caret send by Design is wrong way up */}
-//         {/* <svg nClick={this.toggleActive} className={`caret${this.isActive(name) ? ' active-caret' : ''}`} xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-//           <title>arrow-sm-right</title>
-//           <g strokeWidth="1" fill="none" stroke="#212121" strokeLinecap="round" strokeLinejoin="round"><polyline points="6.5,3.5 11,8 6.5,12.5 " /></g>
-//         </svg> */}
-//         <svg onClick={this.toggleActive} className={`caret${this.isActive(name) ? ' active-caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24" viewBox="0 0 24 24" width="24"><path clipRule="evenodd" d="m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z" fill="#707070" fillRule="evenodd" /></svg>
-//         <button type="button" onClick={this.toggleActive} identifier={name}>
-//           {replacements[name] ? replacements[name] : name.replace(/-/g, ' ')}
-//         </button>
-//       </li>
-//       <ListItem data={JSON.stringify(data)} />
-//     </ul>
-//   );
-//   } // renders parent element that has children
-
-//   render() {
-//     const { data } = this.state;
-//     const parsedData = JSON.parse(data);
-//     const keys = Object.keys(JSON.parse(data)).map((val) => val);
-
-//     return (
-//       <>
-//         {keys.map((val) => {
-//           if (parsedData[val].url) {
-//             return this.child(parsedData[val].url);
-//           }
-//           return this.parent(parsedData[val], val);
-//         })}
-//       </>
-//     );
-//   }
-// }
-
-const LeftNav = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark(sort: {fields: id, order: ASC}) {
-        nodes {
-          fields {
-            slug 
-          }
-          frontmatter {
-            title
-          }
-          id
-        }
-      },
-      leftNavLinks {
-        value
+    leftNavItems.forEach((item, index) => {
+      // 0 is falsy and other number is truthu so this equals true
+      const hasSubItems1 = item.subMenuItems1 && item.subMenuItems1.length !== 0;
+      // if parent has dropdown we add state to those index
+      if (hasSubItems1) {
+        newSubMenu[index] = {};
+        newSubMenu[index].isOpen = false;
+        newSubMenu[index].selected = null;
       }
-    }`);
-  slugs = data.allMarkdownRemark.nodes;
+    });
+    setSubMenuItems(newSubMenu);
+  }, [LeftNavItems]);
+
+  // useEffect(() => {
+  //   const NewSubMenu = {};
+  //   leftNavItems.subMenuItems1
+  // })
+
+
+  // returns each nav item starting with map on parent and then maps on subitems
+  const LeftNavItemsJSX = LeftNavItems.map((item, index) => {
+    // grab individual parent item
+    const isItemSelected = selected === item.name;
+    // confirms if individual item has a subitems
+    const itemHasChildren = item.subMenuItems1 && item.subMenuItems1.length;
+    // ES6 ternary statement, if first is true then add isOpen, else null
+    const isOpen = subMenuItemsState[index]?.isOpen;
+
+    // map through sub items and print in own component
+    // console.log('ITEM', item.subMenuItems1.map((subItem1) => subItem1.name));
+    const itemHasChildrenJSX = item.subMenuItems1 && item.subMenuItems1.map((subItem1) => {
+      return (
+        <p className="sub-menu-item-1" key={uuidv4()}>{subItem1.name}</p>
+      );
+    });
+
+    return (
+      <div className="menu-items-container" key={uuidv4()}>
+        {/* displays the parent menu item */}
+        <div
+          className="menu-items-parent"
+          role="button"
+          tabIndex={0}
+          aria-hidden="true"
+          isItemSelected={isItemSelected}
+          onClick={() => handleMenuItemClick(item.name, index)}
+        >
+          {/* if isOpen is true -> turn caret */}
+          {itemHasChildren ? (<svg onClick={handleMenuItemClick} className={`caret${isItemSelected && isOpen ? ' active-caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24" viewBox="0 0 24 24" width="24"><path clipRule="evenodd" d="m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z" fill="#707070" fillRule="evenodd" /></svg>) : ''}
+          {item.name}
+        </div>
+        {/* display sub menu item 1 */}
+        { itemHasChildren && isOpen && (<div className="sub-menu-item-container">{itemHasChildrenJSX}</div>)}
+      </div>
+    );
+  });
+
+
 
   return (
-    <div className="leftNav">
-      <ListItem leftNavLinks={data.leftNavLinks.value} isRoot />
+    <div>
+      {LeftNavItemsJSX}
     </div>
   );
 };
+
+
+
 
 export default LeftNav;
 /* eslint-enable */

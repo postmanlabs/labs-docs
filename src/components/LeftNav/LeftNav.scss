@@ -1,5 +1,29 @@
 @import '../Shared/_variables.scss';
 
+.caret {
+  position: relative;
+  left: -8px;
+  transition: transform .2s ease;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  @media screen and (min-width: 768px) {
+    width: 10%;
+    height: 24px;
+  }
+  
+  &.active-caret {
+    transition: transform .2s ease;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
 .leftNav {
   background-color: $grey_05;
   height: 100%;

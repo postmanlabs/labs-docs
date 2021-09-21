@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';
 import EditDoc from '../components/Shared/EditDoc';
+import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
 import './doc.scss';
@@ -23,7 +24,7 @@ export default ({ data }) => {
       <div className="container-fluid">
         <div className="row row-eq-height">
           <nav className="col-sm-12 col-md-4 col-lg-3 left-nav">
-            <LeftNav />
+            <LeftNav LeftNavItems={leftNavItems} />
           </nav>
           <div className="col">
             <div className="row row-eq-height">
