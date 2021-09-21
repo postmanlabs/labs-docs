@@ -34,10 +34,10 @@ You can [create workspaces](/docs/collaborating-in-postman/using-workspaces/crea
 * [Accessing workspaces](#accessing-workspaces)
 * [Sharing workspaces](#sharing-workspaces)
 * [Watching a workspace](#watching-a-workspace)
-* [Moving workspaces](#moving-workspaces)
+* [Moving elements to workspaces](#moving-elements-to-workspaces)
 <!--* [Joining workspaces](#joining-workspaces)-->
 * [Adding elements to workspaces](#adding-elements-to-workspaces)
-* [Removing elements from a workspace](#removing-elements-from-a-workspace)
+<!--* [Removing elements from a workspace](#removing-elements-from-a-workspace)-->
 * [Deleting a workspace](#deleting-a-workspace)
 * [Adding categories and summaries](#adding-categories-and-summaries)
 * [Managing workspace members](#managing-workspace-members)
@@ -52,7 +52,7 @@ To view and edit your workspace details (e.g. name, description), navigate to th
 
 <img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/edit-workspace-summary-v9.gif"/>
 
-To find out your workspace ID, select **Workspace Settings**. You can directly copy the Workspace ID and use it in your collection requests or environments.
+To find out your workspace ID, select **Workspace details** icon. You can directly copy the Workspace ID and use it in your collection requests or environments.
 
 <img alt="Workspace ID" src="https://assets.postman.com/postman-docs/find-workspace-id-v9.jpg" width="300px"/>
 
@@ -78,19 +78,19 @@ When your collaborators accept the invite from the notification they receive, th
 
 ## Watching a workspace
 
-The watch option enables you to receive an email or in-app notification when a team member belonging to the same workspace modifies anything within the workspace, for example updating the API schema, adding a collection or an API, updating an environment and so on.
+The watch option enables you to receive an email or in-app notification when a team member belonging to the same workspace modifies anything within the workspace, for example changing the workspace visibility to public, updating the workspace directly and so on.
 
 Select **Watch** on the right corner near the Workspace Settings to start watching the workspace.
 
 <img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
 
-Click the watch count to reveal the list of users who is watching the workspace. Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the workspace.
+Click the watch count to reveal the watchers list. Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the workspace.
 
 You will also receive an email with the information regarding who has made the change, what the change was, and when it was made.
 
 <img alt="Watching a workspace email notification" src="https://assets.postman.com/postman-docs/watching-workspaces-email-notifications-v9.jpg"/>
 
-> You will not receive any notifications for changes made by yourself.
+> If you have created the workspace, then you will be the default watcher for the newly created workspace. You will not receive any notifications for changes made by yourself.
 
 <!--## Joining workspaces
 
@@ -103,6 +103,26 @@ Select the workspace, then click __Join Workspace__ at the top right.
 <img alt="Join Workspace" src="https://assets.postman.com/postman-docs/join-workspace-v8.jpg"/>
 
 Once you join the workspace, you can start creating collections, sending requests, visualizing your responses, and more.-->
+
+## Moving elements to workspaces
+
+You can move existing collections and environments to another workspace by moving them.
+
+To move a collection, open it via __Collections__ on the left-hand side, click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> and choose __Move collection__.
+
+<img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
+
+To move an environment, open it via __Environments__ on the left-hand side, click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> and choose __Move environment__.
+
+<img alt="Move environment 1" src="https://assets.postman.com/postman-docs/move-environment-sidebar-v9.jpg" width="300px" height="400px"/>
+
+You can also select **Share** on the right side and choose __Move Environment__. You can copy and share the link to the environment using the **Copy Link** option. Paste it in a browser of your choice to access the environment.
+
+<img alt="Move environment 2" src="https://assets.postman.com/postman-docs/move-environment-v9.jpg"/>
+
+Select the workspace you want to move to and select __Move Collection__. This will remove the element from its current workspace.
+
+<img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
 
 ## Adding elements to workspaces
 
@@ -124,7 +144,7 @@ Select the workspace you want to move to and select __Move Collection__. This wi
 
 <img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
 
-## Removing elements from a workspace
+<!--## Removing elements from a workspace
 
 When you remove an element from a workspace, it is no longer visible in that particular workspace. The element is still available in any other workspace where it has been added.
 
@@ -138,7 +158,7 @@ Also, you can remove an environment from the sidebar. Click <img alt="Three dots
 
 <img alt="Remove environment from workspace" src="https://assets.postman.com/postman-docs/remove-env-from-workspace-v8.jpg" width="600px"/>
 
-> Note that deleting an element is different to removing it. When you delete an element it is no longer available in any workspace. When you remove an element from a specific workspace, it will still be available in any other workspaces it was in.
+> Note that deleting an element is different to removing it. When you delete an element it is no longer available in any workspace. When you remove an element from a specific workspace, it will still be available in any other workspaces it was in.-->
 
 ## Adding categories and summaries
 
@@ -160,11 +180,11 @@ When you delete a workspace, you erase its existence in Postman. Only the origin
 
 To delete a workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard) and select a workspace.
 
-Click the <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> on the right corner of the workspace overview, then select __Delete workspace__.
+Select the **Workspace Settings** on the right corner of the workspace overview, then click __Delete Workspace__.
 
-[![Delete workspace](https://assets.postman.com/postman-docs/delete-a-workspace.jpg)](https://assets.postman.com/postman-docs/delete-a-workspace.jpg)
+<img alt="Delete workspace" src="https://assets.postman.com/postman-docs/delete-a-workspace-v9.jpg"/>
 
-Confirm that you wish to delete the workspace—it will no longer be available following this action.
+Confirm that you wish to delete the workspace — it will no longer be available following this action.
 
 > [Public workspaces](/docs/collaborating-in-postman/public-workspaces/) must have their visibility reverted in order to be deleted.
 
@@ -174,7 +194,7 @@ If you're a team administrator you can manage the members of your workspace, fro
 
 For a team workspace, you can add or remove any team member or [group](/docs/administration/managing-your-team/user-groups/) from the __Members__ section, selecting access permissions depending on your account level, and save your changes.
 
-<img alt="Edit team workspace" src="https://assets.postman.com/postman-docs/edit-members-team-workspace-v8.jpg" width="350px">
+<img alt="Edit team workspace" src="https://assets.postman.com/postman-docs/edit-members-team-workspace-v8.jpg" width="350px"/>
 
 Being an admin, you have the permission to add and remove any member from a public workspace. To add members to a public workspace, see [Adding members to a public workspace](/docs/collaborating-in-postman/public-workspaces/#adding-elements-to-a-public-workspace).
 
