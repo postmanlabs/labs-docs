@@ -16,11 +16,12 @@ import $ from 'jquery';
 function comparePagesAndScrollToAnchor(eventObject) {
   eventObject.preventDefault();
   const navOffset = parseInt(-56, 10);
+  console.log(eventObject)
   const currentPage = `${location.origin}${location.pathname}`;
-  const desiredPage = `${eventObject.target.href.split('#')[0]}`
+  const desiredPage = `${eventObject.currentTarget.href.split('#')[0]}`
   // Compare our current page to links href
   if (currentPage === desiredPage) {
-    const targetHash = eventObject.target.hash;
+    const targetHash = eventObject.currentTarget.hash;
     // If the desiredPage the same page, scroll to the hash ID on the page
     $.scrollTo($(targetHash), {
       offset: {top: navOffset}
@@ -28,7 +29,7 @@ function comparePagesAndScrollToAnchor(eventObject) {
     // Add hash to locationh bar without triggering refresh
     history.pushState(null, null, targetHash)
   } else {
-    window.location = eventObject.target.href;
+    window.location = eventObject.currentTarget.href;
   }
 }
 
