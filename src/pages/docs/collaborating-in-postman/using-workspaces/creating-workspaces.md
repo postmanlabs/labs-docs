@@ -55,9 +55,9 @@ Workspace as an entity represents a whole container where being an admin gives y
 
 ## Creating a new workspace
 
-To create a new workspace, select the workspace dropdown menu at the left of Postman, and click **New Workspace**.
+To create a new workspace, select the workspace dropdown menu at the left of Postman, and click **Create Workspace**.
 
-<img alt="Create new workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace.jpg" width="300px"/>
+<img alt="Create new workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace-v9.jpg" width="300px"/>
 
 Use the visibility dropdown to choose a __Personal__, __Team__, __Private__, or __Public__ workspace.
 
