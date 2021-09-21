@@ -22,6 +22,8 @@
   // WIP - need to get ul li markers to move away from text
   ///////////////////////////////////////////////////////////////////
   ul {
+    margin-left: 32px;
+    margin-bottom: 24px;
 
     li::marker {
       padding-inline-start: 39px;
@@ -38,8 +40,9 @@
       } 
     
     li {
-      padding: 10px !important;
+      // padding: 10px !important;
       margin-bottom: 8px;
+      line-height: 1.625;
 
       li::before {
         direction: rtl !important;
@@ -49,17 +52,15 @@
       }
     }
     li::before {
+      content: "✦";
+      color: $orange_30 !important;
       direction: rtl !important;
       margin-left: -28px !important;
       padding-right: 16px !important;
       width: 28px !important;
     }
 
-    list-style-type: '✦';
-
-    li::marker {
-      color: $orange_30 !important;
-    }
+    list-style-type: none;
   }
 
   ol {
