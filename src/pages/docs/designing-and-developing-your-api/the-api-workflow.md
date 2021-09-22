@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Problem: Spreadsheets. Solution: Specifications"
     url: "https://blog.postman.com/problem-spreadsheets-solution-specifications/"
+  - type: link
+    name: "The New Postman API Platform: Redefining API Management for the API-First World"
+    url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world/"
   - type: section
     name: "Next Steps"
   - type: link
