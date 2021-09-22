@@ -35,9 +35,6 @@ You can [create workspaces](/docs/collaborating-in-postman/using-workspaces/crea
 * [Sharing workspaces](#sharing-workspaces)
 * [Watching a workspace](#watching-a-workspace)
 * [Moving elements to workspaces](#moving-elements-to-workspaces)
-<!--* [Joining workspaces](#joining-workspaces)-->
-* [Adding elements to workspaces](#adding-elements-to-workspaces)
-<!--* [Removing elements from a workspace](#removing-elements-from-a-workspace)-->
 * [Deleting a workspace](#deleting-a-workspace)
 * [Adding categories and summaries](#adding-categories-and-summaries)
 * [Managing workspace members](#managing-workspace-members)
@@ -62,6 +59,10 @@ To find out your workspace ID, select **Workspace details** icon. You can direct
 
 ## Sharing workspaces
 
+<!--Within this section - brief about workspace settings - elaborate about the different roles (viewer, editor, admin) - visibility-->
+
+<!-- only workspace admins will be able to invite and manage roles - for this release-->
+
 You can share workspaces with collaborators by inviting them individually or via a [group](/docs/administration/managing-your-team/user-groups/). If you invite a collaborator to a personal workspace, Postman will convert it to a team workspace.
 
 In Postman, you can convert your default __My Workspace__ to a team, private or public workspace. If you convert all your personal workspaces, we will create one new workspace where you can keep your collections, APIs, and environments and use it as your personal workspace. This means you will always have one personal workspace in Postman.
@@ -70,11 +71,11 @@ In Postman, you can convert your default __My Workspace__ to a team, private or 
 
 Open your workspace in Postman by selecting it from the workspace dropdown in the left. To add collaborators, click __Invite__ at the top right.
 
-Add individuals you would like to invite to the workspace by email or by [group](/docs/administration/managing-your-team/user-groups/). Select access levels for the workspace and click __Send Invites__.
+Only workspace admins will be able to send invites to users. Add individuals you would like to invite to the workspace by email or by [group](/docs/administration/managing-your-team/user-groups/). Select access levels for the workspace and click __Send Invites__.
 
 <img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace-v9.gif"/>
 
-When your collaborators accept the invite from the notification they receive, they will be able to access the workspace.
+Your collaborators can start contributing via the workspace invite notification and will be able to access the workspace.
 
 ## Watching a workspace
 
@@ -106,7 +107,7 @@ Once you join the workspace, you can start creating collections, sending request
 
 ## Moving elements to workspaces
 
-You can move existing collections and environments to another workspace by moving them.
+You can move existing collections and environments to another workspace.
 
 To move a collection, open it via __Collections__ on the left-hand side, click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> and choose __Move collection__.
 
@@ -123,42 +124,6 @@ You can also select **Share** on the right side and choose __Move Environment__.
 Select the workspace you want to move to and select __Move Collection__. This will remove the element from its current workspace.
 
 <img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
-
-## Adding elements to workspaces
-
-You can add existing collections and environments to another workspace by sharing them.
-
-To move a collection, open it via __Collections__ on the left-hand side, click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> and choose __Move collection__.
-
-<img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
-
-To move an environment, open it via __Environments__ on the left-hand side, click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> and choose __Move environment__.
-
-<img alt="Move environment 1" src="https://assets.postman.com/postman-docs/move-environment-sidebar-v9.jpg" width="300px" height="400px"/>
-
-You can also select **Share** on the right side and choose __Move Environment__. You can copy and share the link to the environment using the **Copy Link** option. Paste it in a browser of your choice to access the environment.
-
-<img alt="Move environment 2" src="https://assets.postman.com/postman-docs/move-environment-v9.jpg"/>
-
-Select the workspace you want to move to and select __Move Collection__. This will remove the element from its current workspace.
-
-<img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
-
-<!--## Removing elements from a workspace
-
-When you remove an element from a workspace, it is no longer visible in that particular workspace. The element is still available in any other workspace where it has been added.
-
-> If you remove a collection from a workspace and are unable to locate it, you can recover it navigating to your [team collections](https://go.postman.co/team/elements?type=collection), or, if the collection was never shared, by navigating to your [personal collections](https://go.postman.co/me/collections). From there, you'll be able to re-share the item to the correct workspace.
-
-From Postman, you can remove a collection from the sidebar. Click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open the collection menu. Select __Remove from Workspace__ and confirm that you would like to remove the collection from the current workspace. The collection will no longer be visible in the workspace.
-
-[![Remove collection from workspace](https://assets.postman.com/postman-docs/remove-collection-from-team-workspace.jpg)](https://assets.postman.com/postman-docs/remove-collection-from-team-workspace.jpg)
-
-Also, you can remove an environment from the sidebar. Click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the environment menu. You can also click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the Share button in the Environment tab. Select __Remove from workspace__ and confirm that you would like to remove the environment from the current workspace. The environment will no longer be visible in the workspace.
-
-<img alt="Remove environment from workspace" src="https://assets.postman.com/postman-docs/remove-env-from-workspace-v8.jpg" width="600px"/>
-
-> Note that deleting an element is different to removing it. When you delete an element it is no longer available in any workspace. When you remove an element from a specific workspace, it will still be available in any other workspaces it was in.-->
 
 ## Adding categories and summaries
 
@@ -190,6 +155,7 @@ Confirm that you wish to delete the workspace — it will no longer be available
 
 ## Managing workspace members
 
+<!-- mention about recent contributors-->
 If you're a team administrator you can manage the members of your workspace, from the Dashboard Overview via the **Members** tab.
 
 For a team workspace, you can add or remove any team member or [group](/docs/administration/managing-your-team/user-groups/) from the __Members__ section, selecting access permissions depending on your account level, and save your changes.
@@ -212,7 +178,7 @@ To remove any team member, click the trash icon near the person you want to remo
 
 ## Seeing who is in your workspace
 
-You can see all of the members of your workspace and keep track of who's working on your APIs at any given time. You can also make sure that all teammates who should be included in your workspace are there. The avatars of workspace members at the top of the screen in Postman are bright when a member is active, and muted when someone hasn't been active for fifteen to twenty seconds.
+You can see all of the members of your workspace and keep track of who's working on the workspace elements at any given time. You can also make sure that all teammates who should be included in your workspace are there. The avatars of workspace members at the top of the screen in Postman are bright when a member is active, and muted when someone hasn't been active for fifteen to twenty seconds.
 
 Hover over the avatars to see your teammates names.
 
@@ -227,6 +193,9 @@ If more than three people belong to a workspace, the fourth avatar will be a num
 The active and inactive user lists are collapsible.
 
 <img alt="Active user list" src="https://assets.postman.com/postman-docs/collapse-member-list-v8.jpg" width="250px"/>
+
+Any team member who has visited the workspace even once will be listed under the users list.
+<!--check on the time stamp-- collab -->
 
 ## Next steps
 
