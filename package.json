@@ -9,7 +9,7 @@
     "autocomplete.js": "^0.37.0",
     "axios": "^0.21.1",
     "babel-eslint": "^10.0.3",
-    "babel-jest": "^25.1.0",
+    "babel-jest": "^26.0.0",
     "babel-preset-gatsby": "^0.2.14",
     "bootstrap": "4.5.0",
     "dotenv": "^8.1.0",
@@ -74,7 +74,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "jest": "^25.1.0"
+    "jest": "^26.0.0"
   },
   "keywords": [
     "gatsby"
@@ -91,8 +91,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "NODE_ENV=production node bff.js && jest",
-    "test:update": "NODE_ENV=production node bff.js && jest -u",
+    "test": "npm run bff && GATSBY_ACTIVE_ENV=development && jest",
+    "test:update": "npm run bff && GATSBY_ACTIVE_ENV=development && jest -u",
     "test:lint": "node_modules/eslint/bin/eslint.js -c .eslintrc.js --ext .jsx --ext .js src/",
     "test:lint-fix": "node_modules/eslint/bin/eslint.js -c .eslintrc.js --ext .jsx --ext .js src/ --fix",
     "test:url": "if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./v6 ; then echo invalid s3 references found. Please use format; exit 1; else echo no s3 references found; fi",
