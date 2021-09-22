@@ -38,7 +38,7 @@ The [Postman API](https://www.postman.com/postman/workspace/postman-public-works
 
 You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account.
 
-You can get started with the API by forking its collection. For more details regarding the __Forking__ navigate to the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
+You can get started with the API by forking its collection. For more details, see the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 
 You will need an [API key](#generating-a-postman-api-key) to access the Postman API.
 
