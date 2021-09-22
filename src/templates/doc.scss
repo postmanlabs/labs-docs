@@ -111,10 +111,12 @@
 
 /* Blockquotes */
 blockquote {
-  padding: 0 24px;
-  color: #6a737d;
-  display: block;
   box-sizing: border-box;
+  width: 100%;
+  border: solid $grey_20 1px;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: $grey_10;
 }
 
 .edit-button {
