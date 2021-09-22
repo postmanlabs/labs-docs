@@ -1,4 +1,5 @@
 import React from 'react';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import './Cards.scss';
 import './Buttons';
 
@@ -11,10 +12,32 @@ export const LandingCard = ({
         <img src={icon} alt="landing-card icon" />
       </div>
     </div>
-    <div className="landing-card__content">
-      <h3 className="landing-card__content-title">{title}</h3>
+    <div className="landing-card__content text-left">
+      <h3 className="landing-card__content-title h4">{title}</h3>
       <p className="landing-card__content-description">{description}</p>
-      <a href={link} className="btn btn__primary">{cta}</a>
+      <a href={link} className="link-style">
+        {cta}
+        {' '}
+        →
+      </a>
+    </div>
+  </div>
+);
+
+// Landing Card with containing an outbound link
+export const LandingCardWithOutboundLink = ({
+  title, description, link, icon, cta,
+}) => (
+  <div className="landing-card h-100">
+    <div className="landing-card__top">
+      <div className="landing-card__image">
+        <img src={icon} alt="landing-card icon" />
+      </div>
+    </div>
+    <div className="landing-card__content">
+      <h3 className="landing-card__content-title h4">{title}</h3>
+      <p className="landing-card__content-description">{description}</p>
+      <OutboundLink href={link} className="btn btn__primary">{cta}</OutboundLink>
     </div>
   </div>
 );

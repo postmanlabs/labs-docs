@@ -46,6 +46,7 @@ You can view and comment on private documentation shared with you. Documentation
 * [Viewing private documentation](#viewing-private-documentation)
     * [Commenting on documentation](#commenting-on-documentation)
 * [Viewing public documentation](#viewing-public-documentation)
+    * [Linking to documentation](#linking-to-documentation)
 * [Next steps](#next-steps)
 
 ## Viewing private documentation
@@ -54,13 +55,12 @@ You can [view documentation for any collection that has been shared with you](/d
 
 > Postman Team, Business, and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
-To view documentation for a collection you have access to in Postman, select the collection, click the three dots (...), and choose __View Documentation__. The collection documentation will open within a new tab in the application (both in the browser and desktop application).
+To view the documentation:
 
-![View Docs](https://assets.postman.com/postman-docs/view-docs-b.jpg)
+1. Select the collection
+1. In the bottom right, select **View complete collection documentation**.
 
-At the top, you can select an environment, layout, and sample language.
-
-![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
+![View Docs](https://assets.postman.com/postman-docs/view-complete-documentation-2.jpg)
 
 You will also see detail on each request, including sample code in various client languages, required authorization type, an indicator of the method, the URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
 
@@ -72,15 +72,15 @@ You can alternatively access documentation by visiting your [user profile](https
 
 ![Browse Collection](https://assets.postman.com/postman-docs/user-profile.jpg)
 
-If the documentation you are viewing has multiple versions published, you can select a specific version to view.
+If the documentation you are viewing has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) published, you can select a specific release to view.
 
-<img alt="Docs Versions" src="https://assets.postman.com/postman-docs/docs-versions.jpg" width="400px"/>
+<img alt="Docs Versions" src="https://assets.postman.com/postman-docs/documentation-view-release-public-v9.jpg" width="728px"/>
 
 ### Commenting on documentation
 
 You can view and post comments on your API documentation to collaborate with teammates. When you view the documentation for a collection, you will see any existing comments on it.
 
-![Documentation Comment](https://assets.postman.com/postman-docs/docs-comments.jpg)
+![Documentation Comment](https://assets.postman.com/postman-docs/comment-on-documentation.jpg)
 
 You can add a comment to join in the discussion. Comments on documentation reflect [comments on the corresponding collection](/docs/collaborating-in-postman/commenting-on-collections/).
 
@@ -98,7 +98,17 @@ When you view public documentation, you will see any shared environments, the la
 
 For each request, you will see a description of the request, the method and URL, the required authorization type, and any headers or parameters. On the right, you will see example client code snippets for the request, together with example response bodies and headers in the language selected.
 
+Postman currently supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) to customize your code snippets. Don't see your language of choice, or is there a setting missing that you'd find useful? Select **Contribute on GitHub** under the settings icon to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
+
 ![Public Documentation](https://assets.postman.com/postman-docs/Everything+displayed+in+docs.jpg)
+
+### Linking to documentation
+
+You can link to headings within your generated documentation, including the introduction, requests, folders, and responses.
+
+The links are generated from your documentation using IDs. To find a link, click the relevant section in the left sidebar and you'll see it in your browser address bar (or right-click and copy the link). You can then link directly to doc page sections using this link.
+
+<img alt="Documentation Links" src="https://assets.postman.com/postman-docs/doc-links.jpg" width="400px"/>
 
 ## Next steps
 

@@ -1,18 +1,18 @@
 @import '../Shared/_variables.scss';
 
-.search-input {
-  border: 0;
-  padding: 13px 24px;
-  border-radius: 3px;
-  background-color: rgba(28, 39, 43, 0.05);
-  font-size: 14px;
-  font-weight: 600;
-  width: 500px;
-}
+// .search-input {
+//   border: 0;
+//   padding: 13px 24px;
+//   border-radius: 3px;
+//   background-color: rgba(28, 39, 43, 0.05);
+//   font-size: 14px;
+//   font-weight: 600;
+//   width: 500px;
+// }
 
 ais-highlight-0000000000 {
-  color: #02739D;
-  background-color: $light-blue;
+  color: $grey_90;
+  background-color: $yellow_20;
 }
 
 .input-empty {
@@ -22,15 +22,21 @@ ais-highlight-0000000000 {
 .input-value {
   position: absolute;
   z-index: 3;
+  right: 10px;
   background-color: white;
   border: 1px solid #d9d9d9;
   background: #fff;
   border-radius: 4px;
   padding-right: 24px;
-  margin-top: -10px;
+  margin-top: 5px;
   display: flex;
   text-align: left;
   max-width: 600px;
+
+  @media screen and (max-width: 992px){
+    left: 10px;
+    right: 10px;
+  }
 }
 
 .arrow-up {
@@ -74,31 +80,31 @@ ais-highlight-0000000000 {
   font-size: 0.001px;
 }
 
-.navbar-brand {
-  @media (max-width: 414px) {
-    margin-right: 0px;
-    font-size: 1rem !important;
-  }
-  @media (max-width: 384px) {
-    margin-right: 0px;
-    font-size: 0.85rem !important;
-  }
-  @media (max-width: 320px) {
-    margin-right: 0px;
-    font-size: 0.75rem !important;
-  }
-}
-.header__brand {
-  min-width: 330px;
-  @media (max-width: 414px) {
-    min-width: 0px;
-  }
-}
+// .navbar-brand {
+//   @media (max-width: 414px) {
+//     margin-right: 0px;
+//     font-size: 1rem !important;
+//   }
+//   @media (max-width: 384px) {
+//     margin-right: 0px;
+//     font-size: 0.85rem !important;
+//   }
+//   @media (max-width: 320px) {
+//     margin-right: 0px;
+//     font-size: 0.75rem !important;
+//   }
+// }
+// .header__brand {
+//   min-width: 330px;
+//   @media (max-width: 414px) {
+//     min-width: 0px;
+//   }
+// }
 
-.header__search {
-  width: 100%;
-  padding: 0 16px;
-  .ais-InstantSearch__root {
-    width: 100%;
-  }
-}
+// .header__search {
+//   width: 100%;
+//   padding: 0 16px;
+//   .ais-InstantSearch__root {
+//     width: 100%;
+//   }
+// }

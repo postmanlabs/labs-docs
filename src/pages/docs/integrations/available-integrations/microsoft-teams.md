@@ -11,8 +11,6 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 Microsoft Teams is a chat-based workspace that is available for all Microsoft Office 365 users. This integration allows you to get updates about what is happening in your team directly in Microsoft Teams.
 
 To configure a Microsoft Teams integration, you will need to first create a Microsoft Teams webhook URL.

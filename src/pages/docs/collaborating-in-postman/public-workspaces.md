@@ -14,6 +14,12 @@ contextual_links:
   - type: link
     name: "Public Workspaces: Why We Created Them and What You Can Do with Them"
     url: "https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/"
+  - type: link
+    name: "Increasing Adoption of an API with a Public Workspace"
+    url: "https://blog.postman.com/increasing-adoption-of-an-api-with-a-public-workspace/"
+  - type: link
+    name: "LGBTQ+ Pride Public Workspace: An Invitation for the API Community to Celebrate Pride"
+    url: "https://blog.postman.com/lgbtq-pride-public-workspace-api-community/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,7 +30,7 @@ contextual_links:
     url: "https://youtu.be/4ulU2FZMPjQ"
 ---
 
-[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to your [team profile settings](https://postman.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the [Public API Network](https://www.postman.com/explore).
+[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to your [team profile settings](https://go.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the [Public API Network](https://www.postman.com/explore).
 
 <img alt="Enable team profile" src="https://assets.postman.com/postman-docs/enable-public-profile-url.jpg"/>
 
@@ -175,4 +181,4 @@ Click **X** next to the team member you want to remove from the public workspace
 
 ## Next steps
 
-To add an API to the network, see [Adding your API](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis). For more details on how to add categories to a public workspace, visit [Providing API detail](/docs/publishing-your-api/authoring-your-documentation/#documenting-request-detail).
+To add an API to the network, see [Adding your API](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis). For more details on how to add categories to a public workspace, visit [Adding categories and summaries](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#adding-categories-and-summaries).

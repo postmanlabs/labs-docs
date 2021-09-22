@@ -74,7 +74,7 @@ In the event you receive a `503` response from our servers, it implies that we h
 
 ### API Reference
 
-A full reference of the API is available at [https://api.getpostman.com][7].
+A full reference of the API is available at [https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a][7].
 
 ### Terms of Use
 
@@ -85,8 +85,8 @@ For information on API terms of use and privacy, refer to our [policy document][
 [1]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 [2]: https://www.postman.com/dashboard/integrations
 [3]: https://www.postman.com/docs/environments
-[4]: https://support.getpostman.com/hc
+[4]: https://support.postman.com/hc/en-us
 [5]: http://postmancommunity.slack.com/
 [6]: https://www.postman.com/slack-invite
-[7]: https://api.getpostman.com/
+[7]: https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a
 [8]: https://www.postman.com/licenses/privacy

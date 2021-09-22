@@ -18,8 +18,6 @@ contextual_links:
     url: "https://blog.postman.com/turn-your-postman-collection-into-a-microsoft-integration/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 Microsoft Power Automate enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
 
 You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, back up your Postman Collections, and use a Microsoft Power Automate Webhook URL.
@@ -94,7 +92,7 @@ Your integration has been set up successfully. Now, whenever a monitor runs, you
 
 ## Get the Microsoft Power Automate webhook URL
 
-Log in to [Microsoft Power Automate](https://flow.microsoft.com/), and go to `My Flows`. Select `Create from Blank` in the top-right corner.
+Log in to [Microsoft Power Automate](https://flow.microsoft.com/en-us/), and go to `My Flows`. Select `Create from Blank` in the top-right corner.
 
 ![create connector](https://assets.postman.com/postman-docs/58858272.jpg)
 

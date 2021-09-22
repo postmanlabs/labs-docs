@@ -1,13 +1,13 @@
 import Typography from 'typography';
 
 const typography = new Typography({
-  baseFontSize: '18px',
-  baseLineHeight: 1.666,
+  // baseFontSize: '18px',
+  // baseLineHeight: 1.666,
   headerFontFamily: [
-    'Roboto',
+    'ibm_plex_monoregular',
   ],
   bodyFontFamily: [
-    'Roboto',
+    'Inter',
   ],
 });
 

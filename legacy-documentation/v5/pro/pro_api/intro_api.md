@@ -7,9 +7,9 @@ warning: false
 
 ---
 
-The [Postman API](https://docs.api.getpostman.com/) has several endpoints to help you integrate Postman even more deeply with your development toolchain. You can add new collections, update existing collections, update environments, add and run monitors directly through the API. This API allows you to programmatically access data stored in your Postman Pro account with ease.
+The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) has several endpoints to help you integrate Postman even more deeply with your development toolchain. You can add new collections, update existing collections, update environments, add and run monitors directly through the API. This API allows you to programmatically access data stored in your Postman Pro account with ease.
 
-The easiest way to get started with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://docs.api.getpostman.com/) and use the Postman app to send requests.
+The easiest way to get started with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) and use the Postman app to send requests.
 
 ### Postman API overview
 
@@ -19,7 +19,7 @@ The easiest way to get started with the API is to click the **Run in Postman**�
 
 3.  Using the API, you can add and update collections, environments, and users. Run monitors, create a mock server, and so much more.
 
-4.  Review more [documentation for the Postman API](https://docs.api.getpostman.com/).
+4.  Review more [documentation for the Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 
 ### Authentication
 
@@ -45,4 +45,4 @@ API access rate limits are applied at a per-key basis in unit time. Access to th
 
 ### Free API calls with your Postman account
 
-Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).
+Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).

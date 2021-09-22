@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "Run Collections with Newman | Postman Level Up"
     url: "https://www.youtube.com/watch?v=SQlwGZj97Y4"
+  - type: link
+    name: "Using Custom Reporters with Newman"
+    url: "https://youtu.be/Nxdxx-VaYno"
   - type: section
     name: "Next Steps"
   - type: link
@@ -110,7 +113,7 @@ $ newman run -h
 |:--|:--|
 | `--bail` | Stops the runner when a test case fails |
 | `--silent` | Disable terminal output |
-| `--color off` | Disable colored output (auto|on|off) (default: "auto")|
+| `--color off` | Disable colored output (auto\|on\|off) (default: "auto")|
 | `-k`, `--insecure` | Disable strict ssl |
 | `-x`, `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0` |
 | `--ignore-redirects` | Disable automatic following of `3XX` responses |
@@ -169,7 +172,7 @@ $ newman run PostmanCollection.json -e environment.json --bail
 
 ```bash
 → Status Code Test
-  GET https://echo.getpostman.com/status/404 [404 Not Found, 534B, 1551ms]
+  GET https://postman-echo.com/status/404 [404 Not Found, 534B, 1551ms]
   1\. response code is 200
 
 ┌─────────────────────────┬──────────┬──────────┐
@@ -244,7 +247,7 @@ Newman also supports file uploads. For this to work correctly, upload the file i
                 }
             ],
             "request": {
-                "url": "https://echo.getpostman.com/post",
+                "url": "https://postman-echo.com/post",
                 "method": "POST",
                 "header": [],
                 "body": {
@@ -258,7 +261,7 @@ Newman also supports file uploads. For this to work correctly, upload the file i
                         }
                     ]
                 },
-                "description": "Uploads a file as a form data field to `https://echo.getpostman.com/post` via a `POST` request."
+                "description": "Uploads a file as a form data field to `https://postman-echo.com/post` via a `POST` request."
             },
             "response": []
         }

@@ -18,8 +18,6 @@ contextual_links:
     url: "https://blog.postman.com/new-postman-pro-integration-apimatics-api-transformer/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 You can use Postman's APIMatic integration to back up your Postman collections in Swagger, RAML, API Blueprint, and other API description formats.
 
 This integration allows APIMatic to convert your Postman collections into any major API description format, and save the resulting file into your designated GitHub repository.
@@ -46,7 +44,7 @@ Select **Add Integration** to authorize a periodic backup of your collection to 
 
 To back up a collection periodically to a GitHub repository:
 
-* Enter your [API key from APIMatic](https://docs.apimatic.io/getting-started/manage-apis/#view-api-integration-keys).
+* Enter your [API key from APIMatic](https://docs.apimatic.io/manage-apis/create-or-import-api#view-api-integration-keys).
 * Select a collection.
 * Select a repository.
 * Specify a directory in the repository where you want to add the collection.

@@ -27,146 +27,117 @@ contextual_links:
 warning: false
 ---
 
-You can include information in your API documentation using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Postman will [populate various parts of your documentation](/docs/publishing-your-api/documenting-your-api/#including-detail-in-your-docs) from the information associated with the relevant collection. Your Markdown content can include standard structures and formatting such as headings, lists, images, links, bold / emphasis, code samples, blockquotes, and tables. You can author documentation either from the collection in Postman, or directly in the docs when viewing them in the web browser.
+Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and sample code.
+
+To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use standard [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to structure and format your descriptions. All of your descriptions are included in the documentation for your collection.
+
+> You can also add a description when [creating a new request](/docs/sending-requests/requests/#creating-requests).
 
 ## Contents
 
-* [Documenting with descriptions](#documenting-with-descriptions)
-* [Describing collections](#describing-collections)
-* [Documenting request detail](#documenting-request-detail)
-    * [Parameters and headers](#parameters-and-headers)
-    * [Authorization details](#authorization-details)
-* [Using examples in your docs](#using-examples-in-your-docs)
-* [Documentation links](#documentation-links)
-* [Using images in docs](#using-images-in-docs)
-* [Markdown demo collection](#markdown-demo-collection)
+* [Adding descriptions to your documentation](#adding-descriptions-to-your-documentation)
+    * [Authoring descriptions in Markdown](#authoring-descriptions-in-markdown)
+    * [Adding descriptions to parameters and headers](#adding-descriptions-to-parameters-and-headers)
+* [Including authorization details](#including-authorization-details)
+* [Including examples](#including-examples)
+* [Adding links](#adding-links)
+* [Adding images](#adding-images)
+* [Finding help and inspiration](#finding-help-and-inspiration)
 * [Next steps](#next-steps)
 
-## Documenting with descriptions
+## Adding descriptions to your documentation
 
-You can add descriptions to various places within your collections and requests, and they will appear in your documentation. You can include descriptions for [collections](#describing-collections), [requests, parameters, and headers](#documenting-request-detail). You can also edit directly on the web for any documentation on a collection you have edit access to.
+Use descriptions to tell people who use your collection more about what your collection does and the purpose of each of request. Structure your descriptions with headings and add content such as text, tables, images, and links.
 
-## Describing collections
+To add or edit the description for an existing collection, folder, or request:
 
-You can include Markdown descriptions in your documentation, for collections and the requests within them.
+1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
+1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
+1. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
+1. Author your description using [Markdown](#authoring-descriptions-in-markdown).
+1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
 
-You can add a description when you create a collection, or by selecting the collection and using the arrow button (&#9654;).
+> To give users even more details about requests in your collection, add descriptions to the request [parameters and headers](#adding-descriptions-to-parameters-and-headers).
 
-![Add Description](https://assets.postman.com/postman-docs/add-collection-description.jpg)
+### Authoring descriptions in Markdown
 
-> When you include block elements, leave an empty line before and after to avoid any rendering issues.
+To author a description using the Markdown editor, select the **Markdown** option. Use standard [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to create your content:
 
-You can also edit descriptions in the web browser when you view documentation for collections where you have edit permissions.
+* Structure content with headings, lists, and tables
+* Format text with bold, emphasis, and blockquotes
+* Add images, links, and code blocks
 
-<img src="https://assets.postman.com/postman-docs/inline-edit-description.jpg" alt="Edit Description" width="500px"/>
+As you work, select the **Preview** tab to see how your documentation will appear and to make sure it's formatted correctly. To continue editing, select the **Markdown** tab.
 
-## Documenting request detail
+> Leave a blank line before and after [block elements](https://daringfireball.net/projects/markdown/syntax#block) (such as headings, paragraphs, and lists) to avoid any formatting issues.
 
-You can provide a description when you create a new request or for an existing request at any time.
+<img alt="Markdown editor" src="https://assets.postman.com/postman-docs/documentation-markdown-editor-no-wysiwyg.jpg" width="567px">
 
-When you create a new request using the __New__ button, you will be prompted to provide a name and description (which can include Markdown), both of which will appear in your documentation.
+### Adding descriptions to parameters and headers
 
-<img alt="Request Description" src="https://assets.postman.com/postman-docs/new-request-detail.jpg" width="500px"/>
+Add descriptions to parameters and headers to help others understand and use the requests in your collection. Open a request and type the description in the box next to the key-value pair.
 
-To add a description to an existing request, open the request in Postman and edit the request detail.
+![Parameter descriptions](https://assets.postman.com/postman-docs/documentation-parameter-descriptions.jpg)
 
-![Edit Request Description 1](https://assets.postman.com/postman-docs/edit-your-request-description-v8.jpg)
+The parameter and header descriptions are visible to people who have access to your collection or anyone viewing your [published documentation](/docs/publishing-your-api/publishing-your-docs/). The descriptions appear in the documentation along with the request, next to the parameter or header name.
 
-![Edit Request Description 2](https://assets.postman.com/postman-docs/edit-your-request-description-v8-2.jpg)
+> All key-value pairs are included in your documentation even if their check boxes are not selected. Use the description to note which parameters and headers are required and which are optional. Anyone using your collection can choose which key-value pairs to include when sending requests or [generating code snippets](/docs/sending-requests/generate-code-snippets/).
 
-Descriptions will appear in the request section in your documentation.
+## Including authorization details
 
-![Request Description](https://assets.postman.com/postman-docs/request-description-v8-2.jpg)
+Your documentation automatically includes the type of authorization required to access your endpoints. The authorization details appear below the collection description and also below each request in your documentation.
 
-### Parameters and Headers
+If you [specify authorization details](/docs/sending-requests/authorization/#specifying-authorization-details) for the collection, those authorization requirements are inherited by every request in the collection. If one of your endpoints requires a different authorization type, open the request and [change the authorization details](/docs/sending-requests/authorization/#inheriting-auth). The changes are reflected in your documentation.
 
-You can add a description to the parameters and headers in your requests—for people viewing the request inside Postman (for example if you're working on a shared collection), or for anyone viewing your documentation.
+<img alt="Authorization type in documentation" src="https://assets.postman.com/postman-docs/documentation-authorization-v8-10.jpg" width="569px">
 
-![Parameter Description](https://assets.postman.com/postman-docs/request-param-headers-v8.jpg)
+## Including examples
 
-> All key-value pairs will be displayed in your documentation regardless of whether or not they're checked. You can indicate which pairs are required and which are optional in the description. Consumers of your documentation can choose which key-value pairs they want to use when they send requests to your endpoints. Users will be able to [generate code snippets](/docs/sending-requests/generate-code-snippets/) in the Postman app based on the key-value pairs they select, and a URL with those pairs will be displayed in the app.
+Examples are paired requests and responses that demonstrate your endpoints in action. Any [examples you add to a collection](/docs/sending-requests/examples/#adding-an-example) are automatically included in the documentation. For each request, your documentation shows the example code snippets as well the example response body and headers.
 
-The description will appear in your docs, in the request __Params__ and __Headers__ sections, next to the parameter or header name.
+> Examples are displayed only when you [view the complete documentation](/docs/publishing-your-api/viewing-documentation/#viewing-private-documentation) for a collection or when you [view published documentation](/docs/publishing-your-api/viewing-documentation/#viewing-public-documentation).
 
-![Header Description in Docs](https://assets.postman.com/postman-docs/request-para-headers-v8-2.jpg)
+<img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/documentation-including-examples-v8-10.jpg" width="663px">
 
-![Header Description in Docs](https://assets.postman.com/postman-docs/request-param-desc-v8.jpg)
+## Adding links
 
-### Authorization details
+Use links to direct users to your repository, web site, or other online resources.
 
-You can include the type of authorization required to access your APIs in your documentation. You can add your authorization details at the collection level or at the request level. Authorization requirements added at the collection level apply to each request and will be displayed for each one in your documentation.
-
-![Docs Link](https://assets.postman.com/postman-docs/Persistive+auth.jpg)
-
-If one of your endpoints requires an authorization type that varies from the collection, you can add that authorization type to the request in the request tab, and it will be rendered in the documentation.
-
-![Auth display](https://assets.postman.com/postman-docs/request-auth-v8.jpg)
-
-## Using examples in your docs
-
-You can include [example](/docs/sending-requests/examples/) request and response data in your collections, and they will appear in your documentation.
-
-Any body data included in your request will appear in the endpoint section of your documentation.
-
-![Body Data](https://assets.postman.com/postman-docs/request-response-body-v8.jpg)
-
-You can also create an example to use for a request. Select **...** > **Add example**.
-
-![Add Example](https://assets.postman.com/postman-docs/request-more-add-example-v8.jpg)
-
-Create the example you want to add and select **Save**.
-
-![Body Example](https://assets.postman.com/postman-docs/request-save-response-v8.jpg)
-
-Any data you include in the example will appear on the right, in the docs example code sidebar, as the response body and headers.
-
-> Learn more about [viewing documentation](/docs/publishing-your-api/viewing-documentation/).
-
-![Examples in Docs](https://assets.postman.com/postman-docs/Response+headers+dispalyed+.jpg)
-
-Postman currently supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) to customize your code snippets.
-
-Don't see your language of choice, or is there a setting missing that you'd find useful? Click **Contribute on GitHub** under the settings icon to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
-
-![[code snippets settings](https://i.imgur.com/tEfZ2ry.png)](https://i.imgur.com/tEfZ2ry.png)
-
-## Documentation links
-
-You can link to headings within your generated documentation, including the introduction, requests, folders, and responses.
-
-The links are generated from your documentation using IDs. To find a link, click the relevant section in the left sidebar and you'll see it in your browser address bar (or right-click and copy the link). You can then link directly to doc page sections using this link.
-
-<img alt="Documentation Links" src="https://assets.postman.com/postman-docs/doc-links.jpg" width="400px"/><br/>
-
-> You cannot link to another part of the documentation by manually creating an ID.
-
-## Using images in docs
-
-You can include any image you have hosted online in your documentation. Use the Markdown image syntax as follows:
+To add a link using Markdown, use the the following syntax:
 
 ```md
-![Image Alt Text](https://your-image-location.com)
+
+[link text to display](https://your-link-url.com)
+
 ```
 
-## Markdown demo collection
+## Adding images
 
-You can use the Postman [Markdown collection](https://documenter.postman.com/view/4630964/S1LsXVJy) to see how Markdown is rendered in documentation and the Postman app.
+Images liven up your documentation and help your ideas come across more clearly. Your image must be hosted online before you can add it to your documentation.
 
-![markdown reference](https://assets.postman.com/postman-docs/Updated+Markdown+image+for+Authoring+your+docs.jpg)
+To add an image using Markdown, use the following syntax:
 
-You can see examples of documentation published using Postman by browsing [Teams](https://www.postman.com/explore/teams),[Workspaces](https://www.postman.com/explore/workspaces), [APIs](https://www.postman.com/explore/apis), and [Collections](https://www.postman.com/explore/collections).
+```md
+![image alt text](https://your-image-location.com)
+```
 
-1. Navigate to the [Public API Network](https://www.postman.com/explore) page or select **Explore** from the desktop or web application.
-1. Select **Teams**, **Workspaces**, **APIs**, or **Collections**.
-![Public API Network page](https://assets.postman.com/postman-docs/explore-docs-examples-v8.jpg)
-1. Select a team, workspace, API, or collection to see documentation authored by others in the Public API Network.
+## Finding help and inspiration
 
-![Template Docs](https://assets.postman.com/postman-docs/public-documentation-example-v8.jpg)
+**Need some help using Markdown?** Check out the Postman [Markdown demo collection](https://documenter.postman.com/view/4630964/S1LsXVJy) to see how Markdown is formatted in published documentation. Select the **Run in Postman** button to add the demo collection to your workspace and view the Markdown code.
 
-You can use both Postman desktop and web applications to author [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
+![Markdown demo collection](https://assets.postman.com/postman-docs/documentation-markdown-demo-v8-10.jpg)
 
-![Author doc in app or web app](https://assets.postman.com/postman-docs/author-docs-in-app-web-v8.jpg)
+**Looking for some documentation inspiration?** Browse through the Public API Network to find examples of great documentation created in Postman.
+
+1. Navigate to the [Public API Network](https://www.postman.com/explore) page or select **Explore** in the Postman header.
+1. Select **Teams**, **Workspaces**, **APIs**, or **Collections** in the left pane.
+
+    ![Public API Network page](https://assets.postman.com/postman-docs/documentation-explore-docs-v8-10.jpg)
+
+1. Select a team, workspace, API, or collection to see documentation authored by others who are part of the Public API Network.
+
+    ![Documentation example](https://assets.postman.com/postman-docs/documentation-docs-example-v8-10.jpg)
 
 ## Next steps
 
-To make your documentation publicly available, check out [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).
+To make your documentation publicly available, see [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).

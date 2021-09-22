@@ -97,7 +97,7 @@ You can find your account type's monthly usage limits by referring to your [usag
 >
 > Postman will notify team admins via email if your team encounters these limits, as well as notify team members in the app.
 >
-> For assistance regarding these limits and to request changes, contact the [Postman support team](https://support.getpostman.com/).
+> For assistance regarding these limits and to request changes, contact the [Postman support team](https://support.postman.com/hc/en-us).
 
 ### Overages
 

@@ -1,0 +1,30 @@
+/*  Currently only Semibold is imported for Headers */
+@font-face {
+  font-family: 'degular_displaysemibold';
+  src: url('degulardisplay-semibold-webfont.woff2') format('woff2'),
+       url('degulardisplay-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-Regular.ttf') format('ttf');
+  src: url('Inter-Regular.woff') format('woff');
+  src: url('Inter-Regular.woff2') format('woff2');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'InterSemiBold';
+  src: url('Inter-SemiBold.ttf') format('ttf');
+  src: url('Inter-SemiBold.woff') format('woff');
+  src: url('Inter-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ibm_plex_monoregular';
+  src: url('ibmplexmono-regular-webfont.woff2') format('woff2'),
+       url('ibmplexmono-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

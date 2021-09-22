@@ -40,7 +40,7 @@ Here’s a preview of analyses from the Postman Monitors integration. You can bu
 
 [![Keen IO Dashboard View](https://assets.postman.com/postman-docs/keen_dashboard.png)][7]
 
-[0]: https://keen.io/home/
+[0]: https://keen.io/users/login?next=https%3A%2F%2Fkeen.io%2Fhome%2F
 [1]: https://assets.postman.com/postman-docs/keenKey.png
 [2]: https://app.getpostman.com/dashboard/integrations
 [3]: https://assets.postman.com/postman-docs/keenINT.png

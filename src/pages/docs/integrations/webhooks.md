@@ -11,8 +11,6 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
-
 Postman provides a custom webhook integration which enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers many services with predefined flows available for easy implementation.
 
 You can configure a custom webhook with Postman to send events such as monitor results, team and collection-specific activity feeds, and to back up your Postman Collections.
@@ -41,16 +39,16 @@ Once you whitelist this IP address, calls for the custom webhook will be able to
 
 ## Configuring custom webhook URL
 
-1. On the [Integrations](https://postman.postman.co/integrations/browse) page, search and select Webhooks from the list of integrations.
+1. On the [Integrations](https://go.postman.co/integrations/browse) page, search and select Webhooks from the list of integrations.
 
-[![custom_webhook](https://assets.postman.com/postman-docs/custom-webhooks.jpg)](https://assets.postman.com/postman-docs/custom-webhooks.jpg)  
+[![custom_webhook](https://assets.postman.com/postman-docs/custom-webhooks.jpg)](https://assets.postman.com/postman-docs/custom-webhooks.jpg)
 
 Each integration's page explains how to use the integration and what it can do. If available, you can view previously configured integrations for the selected integration.
 
 ![Workspace Integrations](https://assets.postman.com/postman-docs/webhooks-teammates.jpg)
 2. Select __Add Integration__ to configure your integration. Enter the required information for account and access authorization. Select the workspace you need to add the integration to and proceed with the integration setup.
 
-[![webhooks_view2](https://assets.postman.com/postman-docs/custom-webhooks-setup.jpg)](https://assets.postman.com/postman-docs/custom-webhooks-setup.jpg)  
+[![webhooks_view2](https://assets.postman.com/postman-docs/custom-webhooks-setup.jpg)](https://assets.postman.com/postman-docs/custom-webhooks-setup.jpg)
 
 ## Back up your Postman Collections
 

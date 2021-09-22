@@ -50,13 +50,13 @@ Your documentation will include the **Run in Postman** button so users can inter
 
 ## Making your documentation public
 
-You can publish docs from an existing private documentation page or from the collection in Postman.
+You can publish docs from an existing private documentation page or from the collection.
 
-To publish from your collection's [private documentation](/docs/publishing-your-api/documenting-your-api/) in the web browser, select a version and click __Publish__.
+To publish from your collection's [private documentation](/docs/publishing-your-api/documenting-your-api/) page, view the complete collection documentation, and then click __Publish__.
 
 ![Publish Docs](https://assets.postman.com/postman-docs/publish-docs-r.jpg)
 
-To publish from the collection in Postman, select the collection in __Collections__, open the actions menu (__...__), and choose __View Documentation__. From here, select __Publish__ to publish your collection.
+To publish from the collection, select the collection in __Collections__, open the actions menu (__...__), and choose __View Documentation__. From here, select __Publish__ to publish your collection.
 
 ![Publish Docs](https://assets.postman.com/postman-docs/view-docs-b.jpg)
 
@@ -66,10 +66,10 @@ To publish from the collection in Postman, select the collection in __Collection
 
 In the __Publish Collection__ page, you can configure how you want your public docs to appear.
 
-* Select a collection [version](/docs/publishing-your-api/documenting-your-api/#versioning-your-docs) to publish.
-* Select an [environment](/docs/publishing-your-api/documenting-your-api/#documentation-environments) to populate variables in your published documentation.
+* Select one or more [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) to publish.
+* Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to populate variables in your published documentation.
 
-![Publish Config](https://assets.postman.com/postman-docs/pub-collection-b.jpg)
+![Publish Config](https://assets.postman.com/postman-docs/documentation-publish-settings-v9.jpg)
 
 You can preview your documentation before publishing it. This opens a live preview of the documentation in another window which reloads on any change.
 
@@ -97,7 +97,7 @@ To share your API documentation with your users and the wider Postman community,
 
 ![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
 
-> When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://explore.postman.com).
+> When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://www.postman.com/explore).
 
 * Choose __Add to API Network__ to [feature your team docs in the Postman publisher network](/docs/publishing-your-api/publishing-your-docs/).
 
@@ -115,7 +115,7 @@ Add listing details for your public documentation, including name, summary, desc
 
 ![Listing Detail](https://assets.postman.com/postman-docs/listing-detail.jpg)
 
-> If you edit your published docs, the changes will not automatically be reflected in your API network or template listing, so you will need to update the details displayed at [explore.postman.com](https://explore.postman.com) manually.
+> If you edit your published docs, the changes will not automatically be reflected in your API network or template listing, so you will need to update the details displayed at [explore.postman.com](https://www.postman.com/explore) manually.
 
 If you do not want to make your docs discoverable at this time, you can go ahead and publish then add them to the API Network or Postman Templates later.
 

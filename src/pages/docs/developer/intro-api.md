@@ -20,54 +20,45 @@ contextual_links:
     name: "User Info from the Postman API | Postman Level Up"
     url: "https://www.youtube.com/watch?v=k2bvdqxDcsU"
   - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Filtering and Sorting APIs Using the Postman API"
+    url: "https://blog.postman.com/filtering-and-sorting-apis-using-the-postman-api/"
+  - type: subtitle
     name: "Next Steps"
   - type: link
     name: "Continuous Integration"
     url: "/docs/running-collections/using-newman-cli/continuous-integration/"
-    
+
 warning: false
 
 ---
 
-The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) endpoints help you to integrate Postman within your development toolchain.
+The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) endpoints enable you to integrate Postman within your development toolchain.
 
 You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account.
 
-You can get started by forking the collection. For more details regarding the __Forking__ navigate to the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
+You can get started with the API by forking its collection. For more details, see the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 
 You will need an [API key](#generating-a-postman-api-key) to access the Postman API.
 
 > The Postman API is [rate limited](#rate-limits).
 
-<img alt="Fork Postman API" src="https://assets.postman.com/postman-docs/fork-postman-api-v8.jpg" height="500px"/>
-
 ## Generating a Postman API key
 
-You need a valid API Key to send requests to the Postman API endpoints.
+1. Navigate to the [**Postman API Keys** page](https://go.postman.co/settings/me/api-keys).
 
-You can generate an API Key directly from your [Postman API Keys page](https://go.postman.co/settings/me/api-keys).
+1. Select __Generate API Key__.
 
-Navigate to the [Postman API Keys page](https://go.postman.co/settings/me/api-keys).
+1. Enter a name for your key and select __Generate API Key__.
 
-If you do not have any keys yet you will be prompted to create one. Click __Generate API Key__.
+1. Copy your key and select __Close__.
 
-<img alt="Generate API Key" src="https://assets.postman.com/postman-docs/generate-api-key.jpg" width="500px"/>
+1. Once you generate keys, you can deactivate, regenerate, or delete them from the **Postman API Keys** page.
 
-Enter a name for your key and click __Generate API Key__.
+    ![Workspace Keys](https://assets.postman.com/postman-docs/api-keys-overview.jpg)
 
-<img src="https://assets.postman.com/postman-docs/api-key-name.jpg" width="300px" alt="API Key Name"/>
-
-Copy your key and click __Close__.
-
-<img src="https://assets.postman.com/postman-docs/copy-api-key.jpg" width="300px" alt="API Key Name"/>
-
-Once you have keys generated you can manage them within your workspace.
-
-![Workspace Keys](https://assets.postman.com/postman-docs/api-keys-overview.jpg)
-
-Use __API Key Settings__ to specify expiration periods for your keys.
-
-<img src="https://assets.postman.com/postman-docs/api-key-expire.jpg" width="300px" alt="API Key Expires"/>
+1. Select __API Key Settings__ to specify expiration periods for your keys.
 
 ### Authentication
 
@@ -91,7 +82,7 @@ Access to the API using a key is limited to **60 requests per minute**. Every AP
 
 ### Free API calls with your Postman account
 
-Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).
+Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).
 
 ## Next steps
 

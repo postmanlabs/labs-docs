@@ -23,8 +23,6 @@ contextual_links:
     url: "https://blog.postman.com/librarian-building-a-serverless-slack-app-using-postman-and-airtable/"
 ---
 
-> **[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
-
 The Postman to Slack integration enables you to receive notifications for the Team Activity Feed, Postman Search, and Monitor Run Results.
 
 ## Configuring Postman with Slack
@@ -77,7 +75,7 @@ The team activity appears in the **Configured Integrations** page.
 
 ## Send your Monitor Run Results to Slack
 
-From the [Slack integration details](https://postman.postman.co/integrations/service/slack) page select **Add Integration** for **Post monitoring results** option.
+From the [Slack integration details](https://go.postman.co/integrations/service/slack) page select **Add Integration** for **Post monitoring results** option.
 
 On the **Permission request** page, select the Slack channel your want to post to and select **Allow**.
 
