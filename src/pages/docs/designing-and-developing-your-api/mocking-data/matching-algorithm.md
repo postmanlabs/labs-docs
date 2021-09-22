@@ -50,7 +50,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
 
    Any responses that are not the same HTTP method type are removed from the matching process. For example: if the mock request you sent was `POST` to `https://M1.mock.pstmn.io/test`, all saved examples whose method type is not `POST` will be disregarded.
 
-3. **Filter by URL**
+3.**Filter by URL**
 
    The matching process will now examine each saved example, and iterate over every possibility. Compare the `mockPath` of the input URL with that of the saved example. If the input URL was `https://M1.mock.pstmn.io/test` and the example currently being examined had a URL of `https://google.com/help`, the mock service would compare `/test` with `/help`. While comparing URLs, a step-by-step matching is conducted. Each consecutive step that the matching algorithm traverses reduces the matching threshold of the current example response.
 
@@ -61,6 +61,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
    * Try to additionally lowercase the input path and the example path The threshold is reduced by a greater value, `n + m`.
    * Try to additionally strip out alphanumeric ids from the input path and the example path. The threshold is reduced further, `n + 2m`.
    * If all steps fail, this saved example is not an eligible response.
+   * Parameters (i.e. {{ur}}/path?status=pass)are also considered when matching the URLs and can be used to determine which example to surface.  
 
 4. **Wildcards**
 
@@ -91,6 +92,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
     This will pass the value captured from the wildcard segment with the same variable name into the response.
 
     > Wildcards in response bodies are not part of the matching algorithm.
+    > 
 
 5. **Response code**
 
