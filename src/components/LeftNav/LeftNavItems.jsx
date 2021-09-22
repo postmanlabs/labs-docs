@@ -15,11 +15,42 @@ export const leftNavItems = [
         name: 'Installing and Updating',
         url: '/docs/getting-started/installation-and-updates/',
       },
+      {
+        name: 'Navigating Postman',
+        url: '/docs/getting-started/installation-and-updates/',
+      },
     ],
   },
   {
     name: 'Sending Requests',
     url: '/docs/getting-started/introduction/',
+    subMenuItems1: [
+      {
+        name: 'Building requests',
+        url: '/docs/sending-requests/requests/',
+      },
+      {
+        name: 'Authorising requests',
+        url: '/docs/sending-requests/authorization/',
+      },
+      {
+        title: 'Capturing Request Data',
+        subMenuItems2: [
+          {
+            name: 'Capturing HTTP requests',
+            url: '/docs/sending-requests/capturing-request-data/capturing-http-requests/',
+          },
+          {
+            name: 'Using a proxy',
+            url: '/docs/sending-requests/capturing-request-data/proxy/',
+          },
+          {
+            name: 'Using Postman Interceptor',
+            url: '/docs/sending-requests/capturing-request-data/interceptor/',
+          },
+        ],
+      },
+    ],
   },
   {
     name: 'Writing Scripts',
@@ -34,7 +65,7 @@ export const leftNavItems = [
         url: '/docs/getting-started/installation-and-updates/',
       },
       {
-        name: 'Script references',
+        title: 'Script references',
         subMenuItems2: [
           {
             name: 'Test script examples',
