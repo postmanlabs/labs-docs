@@ -3,7 +3,17 @@ title: "Token Scanner"
 order: 115
 page_id: "token-scanner"
 search_keyword: "password security, secret scanning, secret, API key security"
+warning: false
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "2 Big Improvements to the Postman Token Scanner"
+    url: "https://blog.postman.com/2-big-improvements-to-the-postman-token-scanner/"
 ---
+
 The Postman Token Scanner scans your public workspaces, collections, environments, and documentation to find accidentally exposed tokens. This protects your organization and prevents malicious users from exploiting the tokens.
 
 > Token Scanner is available on all Postman plans and is enabled by default.
