@@ -106,6 +106,7 @@
     -webkit-transition: color 0.2s ease-in-out;
     -o-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
+    padding: 6px 16px;
     &:hover {
       border-bottom: none;
       color: $grey_90;
@@ -121,9 +122,9 @@
       padding: 6px 16px;
       /* Learning Center Nav Positioning */
       &.uber-nav {
-        padding: 4px 16px;
+        padding: 6px 16px;
         @media screen and (max-width: 992px) {
-          padding: 4px 0px;
+          padding: 6px 0px;
         }
       }
     }
