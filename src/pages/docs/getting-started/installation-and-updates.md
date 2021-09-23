@@ -35,7 +35,7 @@ contextual_links:
 
 ---
 
-Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac, Windows (32-bit / 64-bit), and Linux (32-bit / 64-bit) operating systems.
+Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac, Windows (32-bit / 64-bit), and Linux (64-bit) operating systems.
 
 To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
 
