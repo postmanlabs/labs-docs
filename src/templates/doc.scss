@@ -115,9 +115,12 @@
 
 /* Blockquotes */
 blockquote {
-  padding: 0 24px;
-  color: #6a737d;
-  border-left: 5px solid #dfe2e5;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid $grey_20 1px;
+  border-radius: 8px;
+  padding: 16px 24px;
+  background-color: $grey_05;
 }
 
 .edit-button {
