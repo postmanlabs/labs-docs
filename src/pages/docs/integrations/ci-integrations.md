@@ -14,7 +14,7 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "The New Postman API Platform: Introducing Powerful Integrations"
+    name: "Introducing Powerful Integrations"
     url: "https://blog.postman.com/the-new-postman-api-platform/"
   - type: section
     name: "Next Steps"
