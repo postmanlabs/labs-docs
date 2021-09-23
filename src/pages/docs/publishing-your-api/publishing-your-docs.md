@@ -46,7 +46,7 @@ Public documentation automatically includes details for each request or endpoint
 
 ## Making your documentation public
 
-In Postman, [documentation](/docs/publishing-your-api/documenting-your-api/) is always part of a collection. You can publish documentation for any collections that you created or have permission to edit.
+To publish [documentation](/docs/publishing-your-api/documenting-your-api/), it must be part of a collection. You can publish documentation for any collections that you created or have permission to edit.
 
 To publish the documentation for a collection:
 
@@ -65,7 +65,7 @@ To publish the documentation for a collection:
     * **Header background color:** Specify a color (hex format) for the header at the top of the documentation window.
     * **Code background color:** Specify a color (hex format) for sample code blocks.
     * **Highlight color:** Specify a color (hex format) for hyperlinks.
-    * **Share to public workspace:** Select an available [public workspace](/docs/collaborating-in-postman/public-workspaces/) to share the collection to. This will make the collection discoverable on the Public API Network, along with its documentation.
+    * **Share to public workspace:** Select an available [public workspace](/docs/collaborating-in-postman/public-workspaces/) to share the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
 
 1. To see what your documentation will look like using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
