@@ -42,7 +42,7 @@ contextual_links:
 
 One way to [share your Postman Collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone Run in Postman button.  The new **Run in Postman** button allows you to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
 
-> Being a user, you can still create the **Run in Postman** button from API specification formats like OpenAPI and RAML. To create a button for the standard you use, first convert the file to a collection by [importing it into Postman](/docs/getting-started/importing-and-exporting-data/) or by [authoring your specification in Postman](/docs/designing-and-developing-your-api/the-api-workflow/) to generate a collection.
+> Being a user, you can still create the **Run in Postman** button from API specification formats like OpenAPI and RAML. To create a button for the standard you use, first convert the file to a collection by [importing it into Postman](/docs/getting-started/importing-and-exporting-data/) or by [authoring your specification in Postman](/docs/designing-and-developing-your-api/the-api-workflow/) to generate a collection.
 
 ## Contents
 
@@ -69,7 +69,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 
 ![How to create a run in postman](https://assets.postman.com/postman-docs/how-to-create-run-in-postman-button.jpg)
 
-Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
+Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
 
 **Sample markdown snippet:**
 

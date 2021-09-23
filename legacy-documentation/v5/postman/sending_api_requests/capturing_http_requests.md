@@ -39,17 +39,17 @@ Keep a note of the port mentioned in the proxy settings. In this case, let's kee
 
 ##### **Step 2: Note your computer's IP address**
 
-On OS X, the computer's IP address can be found in _System Preferences > Network_. The IP address of your system will be something like the example here `192.168.0.101`.
+On OS X, the computer's IP address can be found in _System Preferences > Network_. The IP address of your system will be something like the example here `192.168.0.101`.
 
 [![system preferences](https://blog.postman.com/wp-content/uploads/2016/06/840x710xosx-network-settings-1024x865.png,qx38712.pagespeed.ic.gnTM2O4wH5.jpg)](https://blog.postman.com/wp-content/uploads/2016/06/osx-network-settings.png?x38712)
 
 ##### **Step 3: Configure HTTP proxy on your mobile device**
 
-Open the wireless settings of your mobile device and update the configuration of the wireless connection to use HTTP Proxy. Set the IP address with the IP you retrieved from your computer in the second step. Set the port with the port you established in Postman in **Step 1**. 
+Open the wireless settings of your mobile device and update the configuration of the wireless connection to use HTTP Proxy. Set the IP address with the IP you retrieved from your computer in the second step. Set the port with the port you established in Postman in **Step 1**. 
 
 [![wireless settings on mobile device](https://blog.postman.com/wp-content/uploads/2016/06/405x720xios-http-proxy-settings-576x1024.png,qx38712.pagespeed.ic._l8Fxy2LqV.jpg)](https://blog.postman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png?x38712)
 
-Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
+Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
 
 You are all set! Head over to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
 

@@ -57,7 +57,7 @@ Newman allows you to run and test a Postman Collection. Newman and Jenkins are a
 
 ## Run a collection in Postman
 
-These instructions assume you already have a Postman Collection with some tests. Run the collection in Postman. Here's an example of the output in Postman’s collection runner.
+These instructions assume you already have a Postman Collection with some tests. Run the collection in Postman. Here's an example of the output in Postman’s collection runner.
 
 [![collection runner](https://assets.postman.com/postman-docs/integrating_with_jenkins_1.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_1.png)
 

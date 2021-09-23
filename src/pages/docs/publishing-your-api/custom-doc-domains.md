@@ -25,11 +25,11 @@ You can use a custom domain for your API documentation.
 
 ## Adding a custom domain
 
-In the Postman web dashboard, select [Team Settings](https://go.postman.co/settings/team/general) from the Team tab.
+In the Postman web dashboard, select [Team Settings](https://go.postman.co/settings/team/general) from the Team tab.
 
 [![edit view for team](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)
 
-In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Click __+ Add a new domain__.
+In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Click __+ Add a new domain__.
 
 [![custom domain](https://assets.postman.com/postman-docs/add-custom-domain.jpg)](https://assets.postman.com/postman-docs/add-custom-domain.jpg)
 
@@ -47,7 +47,7 @@ When you add a custom domain, you will see a modal displaying the DNS records re
 
 ## Adding DNS records
 
-For DNS records, verify the ownership with a DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add the following two new records.
+For DNS records, verify the ownership with a DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add the following two new records.
 
 1. A TXT record for `postman-echo.com` verifies the ownership of the domain. The value should be the same as the token shown in the modal. Add the TXT record to the __root domain__. For example if you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
 2. A CNAME record for `docs.postman-echo.com`, as shown in the modal—this should be `phs.getpostman.com`. Add the CNAME record to the URL that's associated with your public documentation.

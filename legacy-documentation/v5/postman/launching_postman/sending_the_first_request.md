@@ -5,10 +5,10 @@ warning: false
 
 ---
 
-Let's send our first API request! 
+Let's send our first API request! 
 
-*   Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) into the URL field. 
-*   Hit the **Send** button to send your request, and you will see the server response at the bottom with some JSON data. Notice that Postman has added [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) under the **History** tab of the sidebar. 
+*   Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) into the URL field. 
+*   Hit the **Send** button to send your request, and you will see the server response at the bottom with some JSON data. Notice that Postman has added [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) under the **History** tab of the sidebar. 
 
 [![postman echo example](https://assets.postman.com/postman-docs/WS-first-request.png)](https://assets.postman.com/postman-docs/WS-first-request.png)
 

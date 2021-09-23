@@ -16,7 +16,7 @@ Your Team Library should be the single source of truth about your APIs. It will 
 
 [![team library](https://assets.postman.com/postman-docs/59167045.png)](https://assets.postman.com/postman-docs/59167045.png)
 
-The Team Library allows team members to subscribe to shared collections. When someone subscribes to a collection, they get a synced copy of this collection in their Postman app. If they have edit permissions for the collection, they can make changes which will be reflected in everyone else's collection copy too. Changes made to shared collections are visible under the [Activity Feed](https://learning.postman.com/docs/postman/workspaces/activity_feed_and_restoring_collections/).
+The Team Library allows team members to subscribe to shared collections. When someone subscribes to a collection, they get a synced copy of this collection in their Postman app. If they have edit permissions for the collection, they can make changes which will be reflected in everyone else's collection copy too. Changes made to shared collections are visible under the [Activity Feed](https://learning.postman.com/docs/postman/workspaces/activity_feed_and_restoring_collections/).
 
 Environment templates work slightly differently. Through an environment template, you can create and share a snapshot of a local environment. Users may have different environment variable values, so updates to these values are not synced between shared environments.
 
@@ -34,15 +34,15 @@ In addition to the [standard ways to share a collection](https://learning.postma
     [![edit team permissions](https://assets.postman.com/postman-docs/58787441.png)](https://assets.postman.com/postman-docs/58787441.png)
 3.  Postman also lets you manage access to a collection at an individual level. To do this, click the **Add Individual Permissions** link. Select a team member from the dropdown, or enter the username or email of the person you want to share with. Specify the individual's permissions by selecting "Can View" or "Can Edit" in the dropdown. You can give permissions to multiple people.  
     [![edit individual permissions](https://assets.postman.com/postman-docs/58787572.png)](https://assets.postman.com/postman-docs/58787572.png)
-4.  Click the **Share** button to complete the process.
+4.  Click the **Share** button to complete the process.
 5.  Go to the Team Library to view the full list of team collections.
 
 ### Sharing environments
 
 In addition to the [standard way to share an environment](https://learning.postman.com/docs/postman/environments_and_globals/manage_environments/share-an-environment), Postman Pro and Enterprise users can also share an environment template with their team.
 
-1.  From the gear icon in the upper right corner of the Postman app, select "Manage Environments", and click the orange **Share** button next to the environment you want to share. 
-2.  You will have one last opportunity to hide any sensitive values like passwords and access tokens before sharing the environment template.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.  
+1.  From the gear icon in the upper right corner of the Postman app, select "Manage Environments", and click the orange **Share** button next to the environment you want to share. 
+2.  You will have one last opportunity to hide any sensitive values like passwords and access tokens before sharing the environment template.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.  
     [![environment template](https://assets.postman.com/postman-docs/58787793.png)](https://assets.postman.com/postman-docs/58787793.png)
 3.  Click the **Share** button to complete the process.
 4.  Go to the Team Library to view the full list of team environment templates.

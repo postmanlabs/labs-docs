@@ -51,7 +51,7 @@ Tests are saved as part of collection requests. This is perfect for both back-en
 
 ### Sandbox
 
-Postman tests run in a sandboxed environment, which is separate from the execution environment of the app. To check what is available in the test script sandbox, take a look at the [Sandbox documentation](https://learning.postman.com/docs/postman/scripts/postman_sandbox/).
+Postman tests run in a sandboxed environment, which is separate from the execution environment of the app. To check what is available in the test script sandbox, take a look at the [Sandbox documentation](https://learning.postman.com/docs/postman/scripts/postman_sandbox/).
 
 ### Snippets
 
@@ -65,7 +65,7 @@ While there are very few things to remember while writing tests, Postman tries t
 
 Postman runs tests every time you run a request. Of course, you can choose to not look at the test results!
 
-Results are displayed in a **Tests** tab under the response viewer. The tab header shows how many tests passed, and the test results are listed here. If the test evaluates to true, the test passed.
+Results are displayed in a **Tests** tab under the response viewer. The tab header shows how many tests passed, and the test results are listed here. If the test evaluates to true, the test passed.
 
 ### Adding a test script to a collection or folder
 
