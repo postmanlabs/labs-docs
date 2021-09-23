@@ -61,6 +61,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
    * Try to additionally lowercase the input path and the example path The threshold is reduced by a greater value, `n + m`.
    * Try to additionally strip out alphanumeric ids from the input path and the example path. The threshold is reduced further, `n + 2m`.
    * If all steps fail, this saved example is not an eligible response.
+   * Parameters (such as `{{url}}/path?status=pass`) are also considered when matching the URLs and can be used to determine which example to surface.
 
 4. **Wildcards**
 
