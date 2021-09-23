@@ -16,7 +16,7 @@ Postman Pro teams can choose between 2 billing cycles:
 
 ### Changing Billing Cycles / Team Size
 
-1.  Annual teams can only switch to the monthly plan and reduce their team size at the end of their current billing cycle. The number of days left for the current cycle are shown on the [billing page](https://go.postman.co/billing/overview). Click the "Configure next cycle" link on the billing page to switch to the monthly plan / change team size for the next cycle. If you switch to the monthly plan, you'll be charged at $8/user/month after your billing cycle ends.
+1.  Annual teams can only switch to the monthly plan and reduce their team size at the end of their current billing cycle. The number of days left for the current cycle are shown on the [billing page](https://go.postman.co/billing/overview). Click the "Configure next cycle" link on the billing page to switch to the monthly plan / change team size for the next cycle. If you switch to the monthly plan, you'll be charged at $8/user/month after your billing cycle ends.
 2.  Monthly teams can switch to the annual plan at any time. Head to the [billing page](https://go.postman.co/billing/overview), and click 'Change Plan' in the settings dropdown. Here, you can increase or decrease your team size, and change to the annual plan. Changes to the team size will take effect instantly, and your next invoice will be pro-rated. Changes to the billing cycle will take place after the current month ends, and you'll be charged $75/user, valid for the next one year.
 
 ### Adding Users to Annual teams
@@ -33,8 +33,8 @@ When you purchase a Pro team online, the credit card info you enter is saved to 
 
 ### Refund Policy
 
-We refund any payments made within 30 days, no questions asked. We greatly appreciate any feedback you have as to why you are canceling your Postman Pro plan.
+We refund any payments made within 30 days, no questions asked. We greatly appreciate any feedback you have as to why you are canceling your Postman Pro plan.
 
 ### Pricing for Monitors
 
-Review details about [pricing for monitors](https://learning.postman.com/docs/postman/monitors/pricing_monitors). 
+Review details about [pricing for monitors](https://learning.postman.com/docs/postman/monitors/pricing_monitors). 

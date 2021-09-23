@@ -30,7 +30,7 @@ warning: false
 
 A free Postman account allows you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. You can also [collaborate](/docs/collaborating-in-postman/collaboration-intro/) with others on your API projects.
 
-Signing up for an account is optional—you can use the desktop Postman app without an account if you prefer. Check out the [EULA](https://www.postman.com/legal/eula/), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
+Signing up for an account is optional—you can use the desktop Postman app without an account if you prefer. Check out the [EULA](https://www.postman.com/legal/eula/), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
 
 ## Contents
 
@@ -118,7 +118,7 @@ Upon signing in, you will see a confirmation in your browser and you will be red
 
 ## Syncing your work
 
-When you are logged into Postman, the sync indicator in the header bar is green; you are connected to the servers and your work is being continuously backed up. Postman will inform you if the sync is interrupted and will automatically try to re-establish the connection.
+When you are logged into Postman, the sync indicator in the header bar is green; you are connected to the servers and your work is being continuously backed up. Postman will inform you if the sync is interrupted and will automatically try to re-establish the connection.
 
 ![Sync icon](https://assets.postman.com/postman-docs/syncing.jpg)
 

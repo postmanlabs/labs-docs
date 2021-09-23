@@ -83,7 +83,7 @@ By default, requests and responses will be saved chronologically. If you save th
 
 ### Step 2: Find your computer's IP address
 
-On macOS, the computer's IP address can be found in **System Preferences > Network**. The IP address of your system will be something like the example here `192.168.0.101`.
+On macOS, the computer's IP address can be found in **System Preferences > Network**. The IP address of your system will be something like the example here `192.168.0.101`.
 
 [![system preferences](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)
 
@@ -93,7 +93,7 @@ On macOS, the computer's IP address can be found in **System Preferences > Netw
 
     <img src="https://assets.postman.com/postman-docs/ios-http-proxy-settings-aa.jpeg" alt="wireless settings on mobile device" width="350">
 
-1. Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
+1. Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
 
 You are all set! Head over to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar, or the collection you specified. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
 

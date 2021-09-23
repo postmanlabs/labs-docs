@@ -46,7 +46,7 @@ With the stringified nested value in place, it can be passed to subsequent reque
 
 ##### **Monitoring HTTP response codes**
 
-Response code tests can be done by checking the value of `responseCode.code` within test scripts. 
+Response code tests can be done by checking the value of `responseCode.code` within test scripts. 
 
 ```js
 tests['Request resulted in 200 OK'] = responseCode.code === 200;
