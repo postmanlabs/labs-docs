@@ -24,6 +24,9 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
+    name: "Postman Now Recommends Related Collections in Requests"
+    url: "https://blog.postman.com/postman-now-recommends-collections-in-requests/"    
+  - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
     url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
   - type: section
