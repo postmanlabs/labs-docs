@@ -10,6 +10,13 @@ contextual_links:
   - type: link
     name: "Developing an API"
     url: "/docs/designing-and-developing-your-api/developing-an-api/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "The New Postman API Platform: Introducing Powerful Integrations"
+    url: "https://blog.postman.com/the-new-postman-api-platform/"
 
 ---
 

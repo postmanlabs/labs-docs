@@ -9,14 +9,17 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
+    name: "The New Postman API Platform: Redefining API Management for the API-First World"
+    url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world/"
+  - type: link
+    name: "The New Postman API Platform: Introducing Powerful Integrations"
+    url: "https://blog.postman.com/the-new-postman-api-platform/"
+  - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
   - type: link
     name: "Problem: Spreadsheets. Solution: Specifications"
     url: "https://blog.postman.com/problem-spreadsheets-solution-specifications/"
-  - type: link
-    name: "The New Postman API Platform: Redefining API Management for the API-First World"
-    url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world/"
   - type: section
     name: "Next Steps"
   - type: link
