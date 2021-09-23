@@ -52,7 +52,7 @@
       }
     }
     li::before {
-      // content: "✦";
+      // content: "\2726";
       // color: $orange_30 !important;
       direction: rtl !important;
       margin-left: -28px !important;
@@ -60,7 +60,7 @@
       width: 28px !important;
     }
 
-    list-style-type: '✦';
+    list-style-type: '\2726';
 
     li::marker {
       color: $orange_30 !important;
