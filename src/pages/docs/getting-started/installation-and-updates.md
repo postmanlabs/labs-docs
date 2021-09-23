@@ -163,7 +163,7 @@ Select the update option to download or install the latest update. You will see 
 
 You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
 
-![Update Ready](https://assets.postman.com/postman-docs/settings-updates-v86.jpg)
+<img alt="Check for updates" src="https://assets.postman.com/postman-docs/settings-updates-v9.jpg"/>
 
 ## Postman Chrome app (deprecated)
 
