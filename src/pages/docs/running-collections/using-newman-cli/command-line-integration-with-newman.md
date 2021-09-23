@@ -172,7 +172,7 @@ $ newman run PostmanCollection.json -e environment.json --bail
 
 ```bash
 → Status Code Test
-  GET https://echo.getpostman.com/status/404 [404 Not Found, 534B, 1551ms]
+  GET https://postman-echo.com/status/404 [404 Not Found, 534B, 1551ms]
   1\. response code is 200
 
 ┌─────────────────────────┬──────────┬──────────┐
@@ -247,7 +247,7 @@ Newman also supports file uploads. For this to work correctly, upload the file i
                 }
             ],
             "request": {
-                "url": "https://echo.getpostman.com/post",
+                "url": "https://postman-echo.com/post",
                 "method": "POST",
                 "header": [],
                 "body": {
@@ -261,7 +261,7 @@ Newman also supports file uploads. For this to work correctly, upload the file i
                         }
                     ]
                 },
-                "description": "Uploads a file as a form data field to `https://echo.getpostman.com/post` via a `POST` request."
+                "description": "Uploads a file as a form data field to `https://postman-echo.com/post` via a `POST` request."
             },
             "response": []
         }

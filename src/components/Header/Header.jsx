@@ -14,7 +14,6 @@ import {
 import { CustomHits } from '../Search/searchPreview';
 
 import postmanLogo from '../../images/postman-logo-icon.svg';
-import postmanHomeLogo from '../../images/logo-flip-home.svg';
 
 // window.$ = $;
 
@@ -92,10 +91,7 @@ const LoginCheck = (props) => {
     );
   }
   return (
-    <a
-      href="https://go.postman.co/home"
-      className="button__sign-up ml-3"
-    >
+    <a href="https://go.postman.co/home" className="button__sign-up ml-3">
       Launch Postman
     </a>
   );
@@ -252,24 +248,9 @@ class Header extends React.Component {
     return (
       <>
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-primary">
-          <a
-            className="navbar-brand"
-            href="https://www.postman.com"
-          >
+          <a className="navbar-brand" href="https://www.postman.com">
             <div className="navbar-logo-container">
-              <div className="flip-icons">
-                <div className="flip-front">
-                  <img src={postmanLogo} alt="Postman" width="32" height="32" />
-                </div>
-                <div className="flip-back">
-                  <img
-                    src={postmanHomeLogo}
-                    alt="Postman"
-                    width="32"
-                    height="32"
-                  />
-                </div>
-              </div>
+              <img src={postmanLogo} alt="Postman" width="32" height="32" />
             </div>
           </a>
           <button
@@ -378,10 +359,7 @@ class Header extends React.Component {
                 </div>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://www.postman.com/pricing/"
-                >
+                <a className="nav-link" href="https://www.postman.com/pricing/">
                   Pricing
                 </a>
               </li>
@@ -571,10 +549,7 @@ class Header extends React.Component {
                 </div>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://www.postman.com/explore"
-                >
+                <a className="nav-link" href="https://www.postman.com/explore">
                   Explore
                 </a>
               </li>
