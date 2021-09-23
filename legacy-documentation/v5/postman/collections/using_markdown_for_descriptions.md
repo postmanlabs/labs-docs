@@ -5,11 +5,11 @@ warning: false
 
 ---
 
-Postman supports [Markdown](https://learning.postman.com/docs/postman/api_documentation/how_to_document_using_markdown/) as a way to style text descriptions for [requests](https://learning.postman.com/docs/postman/sending_api_requests/requests/), [collections](https://learning.postman.com/docs/postman/collections/creating_collections/), and [folders](https://learning.postman.com/docs/postman/collections/managing_collections/) in collections. You can also embed screenshots and other images for more descriptive flair.
+Postman supports [Markdown](https://learning.postman.com/docs/postman/api_documentation/how_to_document_using_markdown/) as a way to style text descriptions for [requests](https://learning.postman.com/docs/postman/sending_api_requests/requests/), [collections](https://learning.postman.com/docs/postman/collections/creating_collections/), and [folders](https://learning.postman.com/docs/postman/collections/managing_collections/) in collections. You can also embed screenshots and other images for more descriptive flair.
 
 For more information about Markdown, review the [reference for using Markdown](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc) for API documentation.
 
-Postman renders Markdown in your Workspace, and in public or internal API documentation.
+Postman renders Markdown in your Workspace, and in public or internal API documentation.
 
 **Workspaces**
 

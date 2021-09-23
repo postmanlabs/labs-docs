@@ -37,7 +37,7 @@ This topic describes how to use [Newman](https://github.com/postmanlabs/newman) 
 
 ## macOS and Ubuntu
 
-Follow these steps to use Newman with Docker:
+Follow these steps to use Newman with Docker:
 
 1\. In the [Docker Hub](https://hub.docker.com/r/postman/newman/), download your copy.
 
@@ -69,7 +69,7 @@ The entry point to the Docker image is Newman. So you can use all Newman command
 
 ## Windows
 
-Check out [how to run Newman in Docker for Windows](https://blog.postman.com/using-the-newman-docker-image-in-windows/).
+Check out [how to run Newman in Docker for Windows](https://blog.postman.com/using-the-newman-docker-image-in-windows/).
 
 ---
 For more information on collection runs, see:

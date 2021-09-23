@@ -104,4 +104,4 @@ It's a best practice to create a duplicate, remove any sensitive values (such as
 
 When others import the environment, or access the shared template, they can input their own personal information in their own version of the template.
 
-For Postman Pro and Enterprise users, learn how to [share environment templates](https://learning.postman.com/docs/postman/team_library/sharing/) with team members.
+For Postman Pro and Enterprise users, learn how to [share environment templates](https://learning.postman.com/docs/postman/team_library/sharing/) with team members.

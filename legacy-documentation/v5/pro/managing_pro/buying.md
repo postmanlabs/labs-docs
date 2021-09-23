@@ -9,7 +9,7 @@ warning: false
 
 ### Buying for someone else
 
-*   Head to the [pricing page](https://www.postman.com/pricing) on the Postman website, and click "Buy Postman Pro".
+*   Head to the [pricing page](https://www.postman.com/pricing) on the Postman website, and click "Buy Postman Pro".
 
     [![buy pro](https://assets.postman.com/postman-docs/pricing.png)](https://assets.postman.com/postman-docs/pricing.png)  
 
@@ -39,13 +39,13 @@ warning: false
     [![confirm plan details](https://assets.postman.com/postman-docs/59191782.png)](https://assets.postman.com/postman-docs/59191782.png)  
 
 *   You'll be prompted to enter your name, address, email, and credit card details. For security reasons, Postman does not store any credit card data. This data is stored only by Stripe, our payment provider, who has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1, the most stringent level of certification available in the payments industry.
-*   **Remember** - your card will automatically be charged monthly/annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.
+*   **Remember** - your card will automatically be charged monthly/annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.
 *   After payment, you'll see a confirmation with the transaction ID. Use this ID for any communication with us.
 *   You will receive an email with an activation link. Clicking on the link will take you to the sign up page. Here, you can create a new account, or sign in with your existing account, and start inviting users.
 
 ##### **Upgrading from a trial team**
 
-*   Head to the [team plans page](https://app.getpostman.com/dashboard/team-plans), and click "Upgrade to Pro".
+*   Head to the [team plans page](https://app.getpostman.com/dashboard/team-plans), and click "Upgrade to Pro".
     
     [![upgrade to pro](https://assets.postman.com/postman-docs/59191884.png)](https://assets.postman.com/postman-docs/59191884.png)
 
@@ -56,7 +56,7 @@ warning: false
 
 *   You'll be prompted to enter your name, address, email, and credit card details. For security reasons, Postman does not store any credit card data. This data is stored only by Stripe, our payment provider, who has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1, the most stringent level of certification available in the payments industry.
 
-    *   **Remember** - your card will automatically be charged monthly/annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.
+    *   **Remember** - your card will automatically be charged monthly/annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.
 
     *   After payment, you'll see a confirmation with the transaction ID. Use this ID for any communication with us.
 

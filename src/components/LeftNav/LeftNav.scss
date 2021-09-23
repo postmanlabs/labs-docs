@@ -10,12 +10,14 @@
     background-color: inherit;
     color: inherit;
     padding-left: 70px;
-    & button {
-      &:hover{
+    button:hover{
         color: $grey_60;
       }
     }
-  }
+  .parent.currentUrl button:hover {
+    color: $grey_90 !important;
+    background-color: $grey_05;
+}
   .root > .parent{
     button {
       font-weight: 400;

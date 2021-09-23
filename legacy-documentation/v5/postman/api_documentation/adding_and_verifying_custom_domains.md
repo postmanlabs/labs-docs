@@ -9,11 +9,11 @@ Postman users with public documentation can publish documentation on their own c
 
 ### Add a custom domain
 
-In the Postman dashboard, select [Team Settings](https://go.postman.co/settings/team/general) in the Team tab.
+In the Postman dashboard, select [Team Settings](https://go.postman.co/settings/team/general) in the Team tab.
 
 [![edit view for team](https://assets.postman.com/postman-docs/docs-team-settings2.png)](https://assets.postman.com/postman-docs/docs-team-settings2.png)
 
-Scroll down to the "Custom Domains" section and click the **+ Add a new domain** button.
+Scroll down to the "Custom Domains" section and click the **+ Add a new domain** button.
 
 Note that the "Custom Domains" section lists each domain and its verification status. You can also see additional details of each custom domain.
 
@@ -45,14 +45,14 @@ Adding a custom domain opens a modal that displays the DNS records required to v
 
 ### Add DNS records
 
-For DNS records, verify ownership with the DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add two new records.
+For DNS records, verify ownership with the DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add two new records.
 
 1. A TXT record for `postman-echo.com` verifies the ownership of the domain. The value should be the same as the token shown in the modal. You should add the TXT record to the **root domain**. Regardless of whether you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
 1.A CNAME record for `docs.postman-echo.com`, as shown in the modal, should be the `phs.getpostman.com` value. You should add the CNAME record to the URL that's associated with your public documentation.
 
 ### Publish a collection on the new custom domain
 
-After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo collection to publish, go to the Postman web view and publish your collection. You'll see a new option to select a custom domain.
+After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo collection to publish, go to the Postman web view and publish your collection. You'll see a new option to select a custom domain.
 
 [![publish collection](https://assets.postman.com/postman-docs/docs-publish-domain.png)](https://assets.postman.com/postman-docs/docs-publish-domain.png)
 

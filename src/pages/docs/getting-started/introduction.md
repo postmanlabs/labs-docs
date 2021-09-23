@@ -38,7 +38,7 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-[![Postman](https://assets.postman.com/postman-docs/postman-app-default-v8.jpg)](https://assets.postman.com/postman-docs/postman-app-default-v8.jpg)
+<img alt="Postman Introduction" src="https://assets.postman.com/postman-docs/postman-app-default-v8.jpg"/>
 
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 

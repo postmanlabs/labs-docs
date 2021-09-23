@@ -328,7 +328,7 @@ console.log(pm.variables.get("variable_key"));
 
 ## Using data variables
 
-The Collection Runner lets you import a CSV or a JSON file, and use the values from the data file inside requests and scripts. You cannot set a data variable inside Postman because it is pulled from the data file, but you can access data variables inside scripts, for example using `pm.iterationData.get("variable_name")`.
+The Collection Runner lets you import a CSV or a JSON file, and use the values from the data file inside requests and scripts. You cannot set a data variable inside Postman because it is pulled from the data file, but you can access data variables inside scripts, for example using `pm.iterationData.get("variable_name")`.
 
 See [working with data files](/docs/running-collections/working-with-data-files/) and the [Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more.
 
@@ -338,7 +338,7 @@ Postman provides dynamic variables that you can use in your requests.
 
 Examples of dynamic variables are as follows:
 
-* `{{$guid}}` : A v4 style guid
+* `{{$guid}}` : A v4 style guid
 * `{{$timestamp}}`: The current timestamp (Unix timestamp in seconds)
 * `{{$randomInt}}`: A random integer between 0 and 1000
 

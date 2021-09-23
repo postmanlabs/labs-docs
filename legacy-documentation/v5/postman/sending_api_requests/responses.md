@@ -29,7 +29,7 @@ The pretty mode formats JSON or XML responses so that they are easier to look at
 
 For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If the API does not do this, then you can force formatting through JSON or XML. You can force JSON formatting under the **General** tab within the **SETTINGS** modal by selecting "JSON" from the "Language detection" dropdown.
 
-**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results. See complete set of [keyboard shortcuts](https://learning.postman.com/docs/postman/launching_postman/navigating_postman/).
+**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results. See complete set of [keyboard shortcuts](https://learning.postman.com/docs/postman/launching_postman/navigating_postman/).
 
 ##### **Raw**
 

@@ -9,7 +9,7 @@ tags:
 
 ### For Mac and Ubuntu
 
-To run [Newman](https://github.com/postmanlabs/newman) in [Docker](https://www.docker.com/),
+To run [Newman](https://github.com/postmanlabs/newman) in [Docker](https://www.docker.com/),
 
 1\. Go to Docker Hub and pull your copy [here](http://registry.hub.docker.com/u/postman/newman_ubuntu1404).
 
@@ -35,4 +35,4 @@ At this stage, you should see Newman running the collection and the output being
 
 ### For Windows
 
-Check out our [blog post](https://blog.postman.com/using-the-newman-docker-image-in-windows/) on how to run Newman in Docker for Windows.
+Check out our [blog post](https://blog.postman.com/using-the-newman-docker-image-in-windows/) on how to run Newman in Docker for Windows.

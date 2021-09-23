@@ -7,7 +7,7 @@ warning: false
 
 ## What is Syncing?
 
-Syncing makes all your Postman data available when you're signed in to your Postman account.
+Syncing makes all your Postman data available when you're signed in to your Postman account.
 
 Changes, such as edits, additions, or deletions, sync across all devices that are linked to your account.
 
@@ -37,11 +37,11 @@ Postman automatically makes sure your data is the same no matter where you acces
 
 ## States
 
-If your app is in sync with our server, the icon to the left of your name in the top navigation appears orange, and displays **IN SYNC**.
+If your app is in sync with our server, the icon to the left of your name in the top navigation appears orange, and displays **IN SYNC**.
 
-If a sync operation is underway, it displays **SYNCING**.
+If a sync operation is underway, it displays **SYNCING**.
 
-If you are not signed in to the app, you see **OFFLINE**.
+If you are not signed in to the app, you see **OFFLINE**.
 
 When you open the app or if your connection drops, it displays **CONNECTING** before it starts to sync.
 

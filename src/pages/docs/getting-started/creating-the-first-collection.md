@@ -31,7 +31,7 @@ warning: false
 
 Postman Collections are a group of saved requests you can organize into folders.
 
-Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. However, as your Postman usage scales, it can be time consuming to find a particular request in your history. Instead of combing through your history section, you can save all your requests as a group for easier access.
+Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. However, as your Postman usage scales, it can be time consuming to find a particular request in your history. Instead of combing through your history section, you can save all your requests as a group for easier access.
 
 Let's review how to [send a basic request](/docs/getting-started/sending-the-first-request/) and create a new collection.
 
