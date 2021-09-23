@@ -9,7 +9,7 @@ warning: false
 
 You can use the Postman Pro to APIMATIC Integration to back up your Postman Collections in Swagger, RAML, API Blueprint, and other API description formats. <br>
 
-This integration allows APIMATIC to convert your Postman Collections into any major API description format, and save the resulting file into your designated GitHub repository. <br> 
+This integration allows APIMATIC to convert your Postman Collections into any major API description format, and save the resulting file into your designated GitHub repository. <br> 
 
 If you don't already have a [GitHub account](https://github.com/), you'll need to create one.
 

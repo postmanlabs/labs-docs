@@ -78,15 +78,15 @@ Let's learn more about integration with Travis:
 
     [![tree view tests directory](https://assets.postman.com/postman-docs/travis_tree.png)](https://assets.postman.com/postman-docs/travis_tree.png)
 
-1. Create a new file called `.travis.yml` and move it to the root of your project repository.
+1. Create a new file called `.travis.yml` and move it to the root of your project repository.
 
-    Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to  build it.
+    Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to  build it.
 
-    Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build). These scripts will execute the next time you commit and push a change to your repo.
+    Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build). These scripts will execute the next time you commit and push a change to your repo.
 
     [![tree view yml](https://assets.postman.com/postman-docs/travis_tree_yml.png)](https://assets.postman.com/postman-docs/travis_tree_yml.png)
 
-1. In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory).
+1. In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory).
 
     Since Travis CI doesn’t know where Newman is located, let's update the `PATH`. In this node.js example, the `newman` tool is located in my `.bin` directory which is located in my `node_modules` directory.
 
@@ -111,7 +111,7 @@ Let's learn more about integration with Travis:
 
 Travis CI is now set up to run your Postman tests every time you trigger a build, for example, by pushing a commit to your repo.
 
-Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) will show if the build passes or fails:
+Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) will show if the build passes or fails:
 
 [![travis fail](https://assets.postman.com/postman-docs/travis_fail.png)](https://assets.postman.com/postman-docs/travis_fail.png)
 

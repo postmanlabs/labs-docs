@@ -11,13 +11,13 @@ For example, to include a timestamp in the request headers, you can set an envir
 
 [![set environment variable](https://assets.postman.com/postman-docs/WS-randomTimestamp.png)](https://assets.postman.com/postman-docs/WS-randomTimestamp.png)
 
-You can then access the **timestampHeader** variable in the header data editor by typing `{{timestampHeader}}`. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of `{{timestampHeader}}`.
+You can then access the **timestampHeader** variable in the header data editor by typing `{{timestampHeader}}`. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of `{{timestampHeader}}`.
 
 [![timestampHeader variable](https://assets.postman.com/postman-docs/WS-timeStampHeader3+copy.png)](https://assets.postman.com/postman-docs/WS-timeStampHeader3+copy.png)
 
-**Note:** An environment will have to be active for environment variables to be set.
+**Note:** An environment will have to be active for environment variables to be set.
 
-Pre-request scripts are written in JavaScript, and the syntax is exactly like that of [test scripts](https://learning.postman.com/docs/postman/scripts/test_scripts/) except that the response object is not present.
+Pre-request scripts are written in JavaScript, and the syntax is exactly like that of [test scripts](https://learning.postman.com/docs/postman/scripts/test_scripts/) except that the response object is not present.
 
 ### Adding a pre-request script to a collection or folder
 

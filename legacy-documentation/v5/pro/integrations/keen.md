@@ -13,8 +13,8 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 ### Retrieving your Keen IO project ID and API Key
 
 1. Log in to [Keen IO](https://keen.io/users/login?next=https%3A%2F%2Fkeen.io%2Fhome%2F). 
-2. Find the organization and project for which you’d like to stream Postman Monitor data.   
-3. Go to your project’s settings and select API Keys.  
+2. Find the organization and project for which you’d like to stream Postman Monitor data.   
+3. Go to your project’s settings and select API Keys.  
 4. Make a note of your project ID and API key to use later.
 
 [![keen dashboard](https://assets.postman.com/postman-docs/59119661.jpg)](https://assets.postman.com/postman-docs/59119661.jpg)

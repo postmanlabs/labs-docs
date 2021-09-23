@@ -10,7 +10,7 @@ warning: false
 
 ### What can I test with Monitors?
 
-You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](/docs/writing-scripts/test-scripts/) to check monitors for proper behavior, business logic, error handling, and so on.
+You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](/docs/writing-scripts/test-scripts/) to check monitors for proper behavior, business logic, error handling, and so on.
 
 ### What restrictions apply?
 
@@ -26,7 +26,7 @@ Your monitor's timezone is automatically set to the timezone of your computer at
 
 ### How long can a monitor run?
 
-Monitors are currently limited to 5 minutes for each run. This limit applies to all HTTP requests, responses, and test scripts.
+Monitors are currently limited to 5 minutes for each run. This limit applies to all HTTP requests, responses, and test scripts.
 
 ### How do I persist variables between monitor runs?
 
@@ -46,7 +46,7 @@ The provided static IP addresses are fixed to their specified region and shared 
 
 ### How do I troubleshoot problems?
 
-You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/).
+You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/).
 
 ## Security
 

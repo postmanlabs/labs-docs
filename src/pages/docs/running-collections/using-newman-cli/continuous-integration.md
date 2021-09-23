@@ -37,7 +37,7 @@ Let's access collections using the Postman API to run inside your Continuous Int
 Before you get started:
 
 * Ensure you have a CI system setup which can run shell commands and that you have access to modify the same.
-* Get a [Postman API key](https://docs.api.getpostman.com/#authentication). If you don't have one, you can [generate an API key](/docs/developer/intro-api/#generating-a-postman-api-key).
+* Get a [Postman API key](https://docs.api.getpostman.com/#authentication). If you don't have one, you can [generate an API key](/docs/developer/intro-api/#generating-a-postman-api-key).
 * Make sure you have a Postman Collection that tests your localhost server, and note the UID of the collection.
 
 > **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
@@ -46,7 +46,7 @@ Before you get started:
 
 You may skip this step if your CI already has Node installed.
 
-Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) which is specific to your CI's platform. Otherwise, some CI has configuration which simply pre-installs Node. Ensure you are using NodeJS v4 or above.
+Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) which is specific to your CI's platform. Otherwise, some CI has configuration which simply pre-installs Node. Ensure you are using NodeJS v4 or above.
 
 ## Step 2: Install Newman
 

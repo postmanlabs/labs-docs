@@ -13,7 +13,7 @@ Newman and Jenkins are a perfect match. Let's start setting this up. We are usin
 
 ### Installation
 
-1. [Install Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu).
+1. [Install Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu).
 
 2. Install NodeJS and npm. Newman is written in NodeJS and we distribute the official copy through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
@@ -25,7 +25,7 @@ $ npm install -g newman
 
 ### Run a collection in Postman
 
-We are assuming that you already have a Postman Collection with some tests. Run the collection in the Postman app. This is what the output looks like in Postman’s collection runner.
+We are assuming that you already have a Postman Collection with some tests. Run the collection in the Postman app. This is what the output looks like in Postman’s collection runner.
 
 [![collection runner](https://www.postman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)](https://www.postman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)
 

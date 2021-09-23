@@ -56,7 +56,7 @@ For Postman to automatically format the body, make sure the appropriate Content-
 
 <img alt="Language detection" src="https://assets.postman.com/postman-docs/language-detection-json.jpg"/>
 
-**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results.
+**Finding items in responses:** You can use **CMD/CTRL + F** to open the search bar, and **CMD/CTRL + G** to scroll through results.
 
 ### Raw
 
