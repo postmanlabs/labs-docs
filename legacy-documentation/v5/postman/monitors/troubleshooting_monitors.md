@@ -37,7 +37,7 @@ For example, if the monitor failed because Postman was unable to contact the ser
 
 #### Debugging variable issues
 
-*   Ensure that the same environment is used across local runs and monitor runs. To confirm, add ``console.log(environment);`` to your request scripts and compare the results across monitoring and local runs.
+*   Ensure that the same environment is used across local runs and monitor runs. To confirm, add ``console.log(environment);`` to your request scripts and compare the results across monitoring and local runs.
 
 *   If your collection run depends on a saved global variable, change it to an environment variable. Saved global variables are not supported in monitors at this time.
 
@@ -53,4 +53,4 @@ console.log(JSON.stringify(responseHeaders, null, 2));
 
 #### Uncaught errors
 
-*   Wrapping suspicious code in a ``try - catch`` block will also let the test and pre-request scripts in your collection run to completion, allowing you to see the entire picture.
+*   Wrapping suspicious code in a ``try - catch`` block will also let the test and pre-request scripts in your collection run to completion, allowing you to see the entire picture.

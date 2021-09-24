@@ -90,7 +90,7 @@ In the terminal of your choice, enter the following command to install the Postm
 sudo npm install -g postman-collection-transformer
 ```
 
-You can retrieve a list of convert options by running the command with the ``-h`` flag.
+You can retrieve a list of convert options by running the command with the ``-h`` flag.
 
 ```bash
 postman-collection-transformer convert -h

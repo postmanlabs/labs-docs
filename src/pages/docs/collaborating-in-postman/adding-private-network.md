@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Introducing the New Private API Network for Easier Discovery"
+    url: "https://blog.postman.com/new-private-api-network-for-easier-discovery/"
+  - type: subtitle
     name: "Videos"
   - type: link
     name: "Team collaboration with Postman"
