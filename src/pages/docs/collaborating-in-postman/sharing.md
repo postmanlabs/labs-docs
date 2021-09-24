@@ -92,6 +92,3 @@ Note that items related to what's being moved will not move with the entity auto
 * Environments: Monitors, mock servers, and integrations using the environment may no longer work.
 
 These items must be moved separately or re-configured in the new workspace.
-
-
-
