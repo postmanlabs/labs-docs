@@ -568,6 +568,9 @@ a.button__sign-in {
   .ais-Pagination-link--selected {
     color: $grey_90;
   }
+  .ais-Pagination-item--previousPage > .ais-Pagination-link {
+    color: $gray-2;
+  }
 
 }
 
