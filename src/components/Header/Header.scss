@@ -554,15 +554,21 @@ a.button__sign-in {
   display: flex;
   flex-direction: row; 
   a {
+    padding: 8px 16px;
     color: $gray-2;
     &:hover {
-      color: $postman-orange;
+      color: $blue_70;
+      background-color: $grey_10;
+      border: none;
     }
   }
-  
-  .ais-Pagination-link--selected {
-    color: $postman-orange;
+  .ais-Pagination-item--firstPage {
+    display: none;
   }
+  .ais-Pagination-link--selected {
+    color: $grey_90;
+  }
+
 }
 
 /* Used for Nav Bars (Do not remove) */

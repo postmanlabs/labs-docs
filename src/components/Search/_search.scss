@@ -1,14 +1,5 @@
 @import '../Shared/_variables.scss';
 
-// .search-input {
-//   border: 0;
-//   padding: 13px 24px;
-//   border-radius: 3px;
-//   background-color: rgba(28, 39, 43, 0.05);
-//   font-size: 14px;
-//   font-weight: 600;
-//   width: 500px;
-// }
 
 ais-highlight-0000000000 {
   color: $grey_90;
@@ -54,7 +45,7 @@ ais-highlight-0000000000 {
     color: #757575;
   }
   a:hover {
-    color: #fe6c37;
+    color: $blue_70;
     text-decoration: none;
   }
 }
