@@ -9,7 +9,7 @@ warning: false
 
 ##### **What can I test with Monitors?**
 
-You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](https://learning.postman.com/docs/postman/scripts/test_scripts/) to check monitors for proper behavior, business logic, error handling, and so on.
+You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](https://learning.postman.com/docs/postman/scripts/test_scripts/) to check monitors for proper behavior, business logic, error handling, and so on.
 
 ##### **What restrictions apply?**
 
@@ -21,7 +21,7 @@ There is no limit to the number of monitors you can create. You can have any num
 
 ##### **How long can a monitor run?**
 
-Monitors are currently limited to 5 minutes for each run. This limit applies to all HTTP requests, responses, and test scripts.
+Monitors are currently limited to 5 minutes for each run. This limit applies to all HTTP requests, responses, and test scripts.
 
 ##### **How many HTTP requests can a monitor send?**
 
@@ -33,13 +33,13 @@ There is nearly no limit to the amount of data that can be sent or received per 
 
 ##### **How do I troubleshoot problems?**
 
-You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](https://learning.postman.com/docs/postman/monitors/troubleshooting_monitors).
+You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](https://learning.postman.com/docs/postman/monitors/troubleshooting_monitors).
 
 ### Security
 
 ##### **Who can see my Monitors?**
 
-Monitors have the same permissions as Postman Collections. By default, your collections are private, so only you can see the collection and its monitors. If you share a collection, then other members of your Postman Pro or Enterprise team can see the collection and its monitors. If you grant ``View & Edit`` permissions, then your team members can add monitors to your collection.
+Monitors have the same permissions as Postman Collections. By default, your collections are private, so only you can see the collection and its monitors. If you share a collection, then other members of your Postman Pro or Enterprise team can see the collection and its monitors. If you grant ``View & Edit`` permissions, then your team members can add monitors to your collection.
 
 Each collection can have different permissions. As a result, you can choose to have some private monitors, some shared monitors that are view-only, and some monitors that are shared and editable.
 
@@ -49,7 +49,7 @@ You can delete a monitor at any time. Once deleted, all run history for the moni
 
 ##### **Where do Monitors run?**
 
-Monitors run on our cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about our cloud infrastructure is available at our [Security page](https://www.postman.com/security).
+Monitors run on our cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about our cloud infrastructure is available at our [Security page](https://www.postman.com/security).
 
 ##### **Can Monitors access private networks?**
 

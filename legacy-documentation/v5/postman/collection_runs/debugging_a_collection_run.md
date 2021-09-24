@@ -37,4 +37,4 @@ The Postman Console will record all requests and display them in a list.
 
 Let's find the request that's causing problems here and expand its response headers. Here too, we see that the Postman Echo endpoint did not return a cookie. This must be why our test is failing. We can then infer that the endpoint is misbehaving and needs to be looked at.
 
-Any `console.log`s that you have in your test scripts will also appear here, so you can log things in the console if you're debugging a complex test script. 
+Any `console.log`s that you have in your test scripts will also appear here, so you can log things in the console if you're debugging a complex test script. 

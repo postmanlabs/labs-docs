@@ -158,7 +158,7 @@ To send a query parameter, add it directly to the URL or open __Params__ and ent
 
 [![Query Parameters](https://assets.postman.com/postman-docs/request-params-v8.jpg)](https://assets.postman.com/postman-docs/request-params-v8.jpg)
 
-> Parameters will not automatically be URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
+> Parameters will not automatically be URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
 >
 > <img alt="Encode Parameter" src="https://assets.postman.com/postman-docs/encode-param.jpg" width="400px"/>
 
@@ -306,7 +306,7 @@ Once your headers and other request details are set up, you can click __Send__ t
 
 ### Using cookies
 
-You can manage Cookies for your domains from Postman. Click __Cookies__ under the __Send__ button. For more information, see [Managing cookies](/docs/sending-requests/cookies/).
+You can manage Cookies for your domains from Postman. Click __Cookies__ under the __Send__ button. For more information, see [Managing cookies](/docs/sending-requests/cookies/).
 
 [![manage cookies modal](https://assets.postman.com/postman-docs/cookies-v8.jpg)](https://assets.postman.com/postman-docs/cookies-v8.jpg)
 

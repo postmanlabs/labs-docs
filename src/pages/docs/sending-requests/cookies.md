@@ -26,7 +26,7 @@ warning: false
 
 ---
 
-Postman provides a **Manage Cookies** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to [Syncing cookies](/docs/sending-requests/capturing-request-data/interceptor/#syncing-cookies).
+Postman provides a **Manage Cookies** modal that lets you edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to [Syncing cookies](/docs/sending-requests/capturing-request-data/interceptor/#syncing-cookies).
 
 > You can disable the cookie jar in the __Settings__ tab for a request at any time to toggle off sending cookies.
 
@@ -58,7 +58,7 @@ This opens the **MANAGE COOKIES** modal, and displays a list of domains and the 
 
 ## Create a cookie
 
-To add a new cookie for the domain, click **Add Cookie**. A pre-generated cookie string compliant with [HTTP State Management standards](https://datatracker.ietf.org/doc/html/rfc6265#section-4.1) will be created.
+To add a new cookie for the domain, click **Add Cookie**. A pre-generated cookie string compliant with [HTTP State Management standards](https://datatracker.ietf.org/doc/html/rfc6265#section-4.1) will be created.
 
 ```js
 <cookieName>=<cookieValue>; path=/; domain=.domain.com; HttpOnly; Secure; Expires=Tue, 19 Jan 2038 03:14:07 GMT;

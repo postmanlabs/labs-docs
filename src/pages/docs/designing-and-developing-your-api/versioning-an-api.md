@@ -17,7 +17,7 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "The new Postman API Platform: Redefining API Management for the API-First World"
+    name: "Redefining API Management for the API-First World"
     url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world"
   - type: link
     name: "Create APIs directly within the Postman app"

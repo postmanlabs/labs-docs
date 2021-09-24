@@ -35,7 +35,7 @@ Newman is a command-line Collection Runner for Postman. It enables you to run an
 
 Newman maintains feature parity with Postman and allows you to run collections the way they are executed inside the collection runner in Postman.
 
-Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
+Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
 [![newman gif](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
 
@@ -51,7 +51,7 @@ Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and
 
 Newman is built on Node.js. To run Newman, make sure you have Node.js installed.
 
-You can [download and install](https://nodejs.org/en/download/current/) Node.js on Linux, Windows, and macOS.
+You can [download and install](https://nodejs.org/en/download/current/) Node.js on Linux, Windows, and macOS.
 
 After you install Node.js, Newman is just a command away. Install Newman from npm globally on your system, which allows you to run it from anywhere.
 
@@ -69,7 +69,7 @@ $ newman run mycollection.json
 
 You can also pass a collection as a URL by [sharing](/docs/collaborating-in-postman/sharing/#sharing-by-link) it.
 
-Your collection probably uses environment variables. To provide an accompanying set of [environment variables](/docs/sending-requests/managing-environments/), export the template from Postman and run them with the `-e` flag.
+Your collection probably uses environment variables. To provide an accompanying set of [environment variables](/docs/sending-requests/managing-environments/), export the template from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -77,7 +77,7 @@ $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_env
 
 ## Options
 
-Newman provides a rich set of options to customize a run. You can retrieve a list of options by running it with the ``-h`` flag.
+Newman provides a rich set of options to customize a run. You can retrieve a list of options by running it with the ``-h`` flag.
 
 ```bash
 $ newman run -h
@@ -119,15 +119,15 @@ $ newman run -h
 | `--ignore-redirects` | Disable automatic following of `3XX` responses |
 | `--verbose` | Show detailed information of collection run and each request sent |
 
-Use the ``-n`` option to set the number of iterations to run the collection.
+Use the ``-n`` option to set the number of iterations to run the collection.
 
 ```bash
 $ newman run mycollection.json -n 10  # runs the collection 10 times
 ```
 
-To provide a different set of data, such as variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file.
+To provide a different set of data, such as variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file.
 
-For example, a data file such as the one shown below runs _2_ iterations, with each iteration using a set of variables.
+For example, a data file such as the one shown below runs _2_ iterations, with each iteration using a set of variables.
 
 ```json
 [{
@@ -172,7 +172,7 @@ $ newman run PostmanCollection.json -e environment.json --bail
 
 ```bash
 → Status Code Test
-  GET https://echo.getpostman.com/status/404 [404 Not Found, 534B, 1551ms]
+  GET https://postman-echo.com/status/404 [404 Not Found, 534B, 1551ms]
   1\. response code is 200
 
 ┌─────────────────────────┬──────────┬──────────┐
@@ -209,7 +209,7 @@ The results of all tests and requests can be exported into a file. Use the JSON 
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
 
 ## Using Newman with CI/CD
 
@@ -247,7 +247,7 @@ Newman also supports file uploads. For this to work correctly, upload the file i
                 }
             ],
             "request": {
-                "url": "https://echo.getpostman.com/post",
+                "url": "https://postman-echo.com/post",
                 "method": "POST",
                 "header": [],
                 "body": {
@@ -261,7 +261,7 @@ Newman also supports file uploads. For this to work correctly, upload the file i
                         }
                     ]
                 },
-                "description": "Uploads a file as a form data field to `https://echo.getpostman.com/post` via a `POST` request."
+                "description": "Uploads a file as a form data field to `https://postman-echo.com/post` via a `POST` request."
             },
             "response": []
         }
@@ -269,7 +269,7 @@ Newman also supports file uploads. For this to work correctly, upload the file i
 }
 ```
 
-The file ``sample-file.txt`` must be present in the current working directory as the collection. Run this collection as usual.
+The file ``sample-file.txt`` must be present in the current working directory as the collection. Run this collection as usual.
 
 ```bash
 $ newman run file-upload.postman_collection.json
@@ -361,7 +361,7 @@ newman.run({
 
 In both cases above, the reporter options are optional.
 
-For the complete documentation, see the [Newman README](https://github.com/postmanlabs/newman).
+For the complete documentation, see the [Newman README](https://github.com/postmanlabs/newman).
 
 For more information about collection runs, see:
 

@@ -19,13 +19,13 @@ The **Edit Published Collection** page appears.
 
 [![public documentation link](https://assets.postman.com/postman-docs/docs-public-view.png)](https://assets.postman.com/postman-docs/docs-public-view.png)
 
-When signed in to Postman, you can select a [corresponding environment](https://learning.postman.com/docs/postman/api_documentation/environments_and_environment_templates/) to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment.
+When signed in to Postman, you can select a [corresponding environment](https://learning.postman.com/docs/postman/api_documentation/environments_and_environment_templates/) to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment.
 
 The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select a “production” environment, so your documentation is immediately usable for new visitors.
 
 <!-- Here's an [example](https://documenter.postman.com/view/583/coopers-meal-plan/4u2) of a collection we've published. -->
 
-> **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
+> **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 
 The public documentation link always has the most up-to-date content. You don’t need to repeat the publication flow each time you want to update your documentation.
 
@@ -37,7 +37,7 @@ In the **Edit Published Collection** page, click the **Unpublish Collection** bu
 
 ### Custom domains
 
-Optionally, you can pick from a list of verified [custom domains](https://learning.postman.com/docs/postman/api_documentation/adding_and_verifying_custom_domains/) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page. 
+Optionally, you can pick from a list of verified [custom domains](https://learning.postman.com/docs/postman/api_documentation/adding_and_verifying_custom_domains/) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page. 
 
 [![custom domain](https://assets.postman.com/postman-docs/docs-custom-domains.png)](https://assets.postman.com/postman-docs/docs-custom-domains.png)
 

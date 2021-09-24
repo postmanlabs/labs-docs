@@ -80,6 +80,6 @@ Monitor run messages summarize the basic details of the run, if the run was succ
 
 [![microsoft teams view](https://assets.postman.com/postman-docs/59034537.png)](https://assets.postman.com/postman-docs/59034537.png)
 
-Similarly, the Team Activity message displays updates, who made the change and what it was.  
+Similarly, the Team Activity message displays updates, who made the change and what it was.  
 
 [![activity feed](https://assets.postman.com/postman-docs/59034618.png)](https://assets.postman.com/postman-docs/59034618.png)
