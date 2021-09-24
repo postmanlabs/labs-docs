@@ -65,11 +65,19 @@ Sharing options depend on the type of entity:
 
 You can move collections, APIs, and environments to shared workspaces to collaborate with your team.
 
+> You must be an admin or editor on a collection to move it.
+
 Navigate to the entity you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Move**.
 
-Use the search bar to find the workspace you'd like to move the entity to, or filter by workspace visibility by selecting the icon to the right of the search bar. You can share entities to personal, private, team, and public workspaces.
+Use the search bar to find the workspace you'd like to move the entity to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
-> Shared private, team, and public workspaces allow you to collaborate with others. Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
+You can share entities to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
+
+> You cannot move collections from team, private, or public workspaces to a personal workspace.
+
+<!-- -->
+
+> Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
 Select the workspace, then **Move**(**Collection**, **API**, or **Environment**).
 
@@ -84,3 +92,6 @@ Note that items related to what's being moved will not move with the entity auto
 * Environments: Monitors, mock servers, and integrations using the environment may no longer work.
 
 These items must be moved separately or re-configured in the new workspace.
+
+
+
