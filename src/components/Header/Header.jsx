@@ -679,7 +679,18 @@ class Header extends React.Component {
                       </div>
                       <div className="row">
                         <div className="col-12">
-                          <Pagination />
+                          <Pagination
+                            translations={{
+                              previous: '← Previous',
+                              next: 'Next →',
+                              first: '«',
+                              last: '»',
+                              ariaPrevious: 'Previous page',
+                              ariaNext: 'Next page',
+                              ariaFirst: 'First page',
+                              ariaLast: 'Last page',
+                            }}
+                          />
                         </div>
                       </div>
                     </div>
