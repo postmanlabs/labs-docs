@@ -29,31 +29,43 @@ contextual_links:
 When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
 
 - [Sharing APIs](#sharing-apis)
+- [Collaborating on APIs](#collaborating-on-apis)
 - [Watching APIs](#watching-apis)
 - [Commenting on APIs](#commenting-on-apis)
 - [Using the Changelog](#using-the-changelog)
 
 ## Sharing APIs
 
-You can share an API via its workspace in Postman. By sharing your workspace with collaborators, you can provide access to the API via [designated roles with specific permissions](/docs/collaborating-in-postman/roles-and-permissions/), including Viewer and Editor.
+You can share your APIs with collaborators by navigating to the API you'd like to share in the left sidebar. Select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share**.
 
-> The Viewer role is only available on certain [Postman plans](https://www.postman.com/pricing).
+APIs can be shared via link to teammates with access to the API.
+<img alt="Share collection via workspace" src="https://assets.postman.com/postman-docs/share-api-via-link-v9.1.jpg"/>
 
-If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, and monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared within the workspace. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
+## Collaborating on APIs
 
-1. In Postman, select an __API__ in the sidebar and click (__<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">__) to open the menu, then choose **Share API**.
+You can move APIs to shared workspaces to collaborate with your team.
 
-   <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-more-actions-v9.jpg" width="250px"/>
+> You must be an editor on an API or the workspace admin to move the API to another workspace.
 
-1. Select a workspace, choose if you want to remove the API from the current workspace after sharing, then click __Share and Continue__.
+Navigate to the API you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Move**.
 
-   ![Share API to Workspace](https://assets.postman.com/postman-docs/v8-managing-share-api2.jpg)
+Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
-1. Configure access levels for collaborators in your workspace and click __Save Roles__.
+You can share APIs to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
-   ![API Workspace Roles](https://assets.postman.com/postman-docs/v8-managing-workspace-roles2.jpg)
+> You cannot move APIs from team, private, or public workspaces to a personal workspace.
 
-In addition to sharing an API via its workspace, you can also share it to the private API network. Doing this allows your team to learn about and access these APIs and start using them right away. Learn more about [adding your API to the private network](/docs/collaborating-in-postman/adding-private-network/).
+<!-- -->
+
+> Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
+
+Select the workspace, then **Move** **API**.
+
+<img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
+
+Note that collections, documentation, monitors, mock servers, and environments of the API will not move with the API to the new workspace automatically.
+
+Collections and environments must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces). Documentation, monitors, and mock servers must be re-configured in the new workspace.
 
 ## Watching APIs
 
