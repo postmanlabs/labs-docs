@@ -65,7 +65,7 @@ Sharing options depend on the type of entity:
 
 You can move collections, APIs, and environments to shared workspaces to collaborate with your team.
 
-> You must be an admin or editor on a collection to move it.
+> You must be an editor on a collection, API, or environment, or the workspace admin, to move an entity to another workspace.
 
 Navigate to the entity you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Move**.
 
@@ -73,7 +73,7 @@ Use the search bar to find the workspace you'd like to move the entity to, or fi
 
 You can share entities to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
-> You cannot move collections from team, private, or public workspaces to a personal workspace.
+> You cannot move entities from team, private, or public workspaces to a personal workspace.
 
 <!-- -->
 
