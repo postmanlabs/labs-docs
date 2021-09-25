@@ -56,7 +56,7 @@ Open the workspace menu, then click **Create Workspace**.
 
 <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="400px"/>
 
-Specify a workspace name and summary. Under **Visibility**, select **Public**. 
+Specify a workspace name and summary. Under **Visibility**, select **Public**.
 
 <img alt="Create public workspace" src="https://assets.postman.com/postman-docs/create-public-wkspc-v9.1.jpg" width="400px"/>
 
