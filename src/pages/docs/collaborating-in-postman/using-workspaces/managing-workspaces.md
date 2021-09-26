@@ -23,111 +23,153 @@ contextual_links:
 warning: false
 ---
 
-You can share your Postman components with collaborators and organize your work using workspaces. To select a workspace, click the Workspaces dropdown at the top left of Postman.
+Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).
 
-<img alt="New Workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace-v9.jpg" width="400px"/>
-
-You can [create workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in addition to the default personal and team workspaces.
+> You can [create new workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in addition to the default personal and team workspaces.
 
 ## Contents
 
 * [Accessing workspaces](#accessing-workspaces)
+    * [Getting the workspace ID](#getting-the-workspace-id)
+* [Modifying a workspace](#modifying-a-workspace)
+    * [Editing workspace details](#editing-workspace-details)
+    * [Changing workspace visibility](#changing-workspace-visibility)
 * [Sharing workspaces](#sharing-workspaces)
+* [Managing workspace roles](#managing-workspace-roles)
 * [Watching a workspace](#watching-a-workspace)
 * [Moving elements to workspaces](#moving-elements-to-workspaces)
-* [Deleting a workspace](#deleting-a-workspace)
 * [Adding categories and summaries](#adding-categories-and-summaries)
-* [Managing workspace members](#managing-workspace-members)
 * [Seeing who is in your workspace](#seeing-who-is-in-your-workspace)
+* [Deleting a workspace](#deleting-a-workspace)
 * [Next steps](#next-steps)
 
 ## Accessing workspaces
 
-You can access personal, team, and private workspaces using the workspace selector at the top of Postman.
+To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** to see a list of all available workspaces. You will only see workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
 
-To view and edit your workspace details (e.g. name, description), navigate to the **Workspace Overview** tab using the selector. Select the summary to edit it. You can now add markdown descriptions to your workspace. Click **Save** when done.
+<img alt="New Workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace-v9.jpg" width="400px"/>
 
-<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/edit-workspace-summary-v9.gif"/>
+The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, you'll also the number of various elements within the workspace, such as collections and APIs, along with a list of recent contributors.
 
-To find out your workspace ID, select **Workspace details** icon. You can directly copy the Workspace ID and use it in your collection requests or environments.
+<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v9.jpg" width="962px"/>
+
+### Getting the workspace ID
+
+To view the workspace ID, select the **Workspace details** icon. Copy the workspace ID to use it in collection requests or environments. You can also view the creator of the workspace and when was the workspace was last updated.
 
 <img alt="Workspace ID" src="https://assets.postman.com/postman-docs/find-workspace-id-v9.jpg" width="300px"/>
 
-> You can also view the creator of the workspace and when was it last updated.
+## Modifying a workspace
 
-**Copy link to workspace** present near the workspace title enables you to seamlessly share workspace links with anyone. Paste this link in a browser of your choice to access the workspace.
+Workspace admins can edit workspace details or change the visibility of a workspace.
+
+### Editing workspace details
+
+A summary and description help others understand what your workspace is for. You must be a [workspace Admin](#managing-workspace-roles) to edit workplace details.
+
+On the workspace's **Overview** tab, select the workspace name, summary, or description to edit it. You can add Markdown to the description—select **Save** when you're done.
+
+<img alt="Edit Workspace Summary & Description" src="https://assets.postman.com/postman-docs/edit-workspace-summary-v9.gif"/>
+
+### Changing workspace visibility
+
+The visibility setting for a workspace determines who can access it. You must be a [workspace Admin](#managing-workspace-roles) to change the visibility for a workspace.
+
+To change workspace visibility:
+
+1. Select **Workspaces** in the Postman header, and then select a workspace.
+1. On the workspace's **Overview** tab, select **Workspace Settings**.
+1. Select a **Visibility** for the workspace:
+    * **Personal:** Only you can access.
+    * **Private:** Only invited team members can access.
+    * **Team:** All team members can access.
+    * **Public:** Everyone can view.
+1. Select **Update**.
+
+<img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/workspace-visibility-v9.jpg" width="521px"/>
+
+> You always have one personal workspace in Postman. If you change the visibility of all of your personal workspaces to private, team, or public, Postman creates a new personal workspace for you.
 
 ## Sharing workspaces
 
-<!--Within this section - brief about workspace settings - elaborate about the different roles (viewer, editor, admin) - visibility-->
+Invite others to a workspace so you can collaborate. You must be a [workspace Admin](#managing-workspace-roles) to invite others to a workspace.
 
-<!-- only workspace admins will be able to invite and manage roles - for this release-->
+> You can also give people access to a team workspace by [inviting them to your team](/docs/collaborating-in-postman/collaboration-intro/#working-with-team-workspaces).
 
-You can share workspaces with collaborators by inviting them individually or via a [group](/docs/administration/managing-your-team/user-groups/). If you invite a collaborator to a personal workspace, Postman will convert it to a team workspace.
+To invite team members to a workspace:
 
-In Postman, you can convert your default __My Workspace__ to a team, private or public workspace. If you convert all your personal workspaces, we will create one new workspace where you can keep your collections, APIs, and environments and use it as your personal workspace. This means you will always have one personal workspace in Postman.
+1. Select **Workspaces** in the Postman header, and then select a workspace.
+1. On the workspace's **Overview** tab, select **Workspace Settings**.
+1. Select **Invite**.
 
-<img alt="Bootstrap workspace" src="https://assets.postman.com/postman-docs/bootstrap-workspace-v8.gif">
+    > If this is a personal workspace, you must [change the visibility](#changing-workspace-visibility) to private, team, or public before you can invite others.
 
-Open your workspace in Postman by selecting it from the workspace dropdown in the left. To add collaborators, click __Invite__ at the top right.
+1. Enter a user name or email, or enter a [group name](/docs/administration/managing-your-team/user-groups/). You can add multiple users or groups.
+1. Select a workspace **Role** for the person or group:
 
-Only workspace admins will be able to send invites to users. Add individuals you would like to invite to the workspace by email or by [group](/docs/administration/managing-your-team/user-groups/). Select access levels for the workspace and click __Send Invites__.
+    * **Admin:** Can manage workspace resources and settings.
+    * **Editor:** Can create and edit workspace resources.
+    * **Viewer:** Can view, fork, and export workspace resources.
+
+1. Select **Send Invites** to send an invitation link to the people and groups you entered. Or select **Copy Invite Link** to generate a link you can directly share with others.
 
 <img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace-v9.gif"/>
 
-Your collaborators can start contributing via the workspace invite notification and will be able to access the workspace.
+> You can also get a link to the workspace on the **Overview** tab. Hover over the workspace name, and then select **Copy link to workspace** <img alt="Workspace link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the name.
+
+## Managing workspace roles
+
+Access to elements within a workspace is controlled using [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). Roles can be assigned to an individual user or to a [user group](/docs/administration/managing-your-team/user-groups/).
+
+To change the role of people in a workspace, or to remove someone from a workspace:
+
+1. Select **Workspaces** in the Postman header, and then select a workspace.
+1. On the workspace's **Overview** tab, select **Workspace Settings**.
+1. Select a different workspace **Role** for a person or group:
+
+    * **Admin:** Can manage workspace resources and settings.
+    * **Editor:** Can create and edit workspace resources.
+    * **Viewer:** Can view, fork, and export workspace resources.
+    * **Remove:** Removes the person from the workspace. (You can [invite the user](#sharing-workspaces) again in the future.)
+
+<img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/workspace-change-role-v9.jpg" width="720px"/>
 
 ## Watching a workspace
 
-The watch option enables you to receive an email or in-app notification when a team member belonging to the same workspace modifies anything within the workspace, for example changing the workspace visibility to public, updating the workspace directly and so on.
+Watch a workspace to receive an email or in-app notification when a team member modifies anything in the workspace, such as changing the workspace visibility or updating an element in the workspace.
 
-Select **Watch** on the right corner near the Workspace Settings to start watching the workspace.
+To start watching a workspace, select **Watch** on the upper right of the workspace's **Overview** tab. Select the count next to **Watch** to show how many people are watching the workspace.
 
 <img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
 
-Click the watch count to reveal the watchers list. Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the workspace.
+To see notifications, select the bell <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
-You will also receive an email with the information regarding who has made the change, what the change was, and when it was made.
+ To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
 
-<img alt="Watching a workspace email notification" src="https://assets.postman.com/postman-docs/watching-workspaces-email-notifications-v9.jpg"/>
-
-> If you have created the workspace, then you will be the default watcher for the newly created workspace. You will not receive any notifications for changes made by yourself.
-
-<!--## Joining workspaces
-
-In some cases you will join a workspace by following the link in an email / notification when a member of the workspace invites you. If you are part of a team in Postman, you can find workspaces to join. Open the workspaces drop-down from the control at the top of Postman in the left. Search for a workspace and select the workspace you want to join.
-
-<img alt="Join Workspace Dropdown" src="https://assets.postman.com/postman-docs/join-workspace-dropdown-v8.jpg" width="350px">
-
-Select the workspace, then click __Join Workspace__ at the top right.
-
-<img alt="Join Workspace" src="https://assets.postman.com/postman-docs/join-workspace-v8.jpg"/>
-
-Once you join the workspace, you can start creating collections, sending requests, visualizing your responses, and more.-->
+> By default, you are a watcher for any workspace you create. You will not receive notifications for changes you make to a workspace you're watching.
 
 ## Moving elements to workspaces
 
-You can move existing collections and environments to another workspace.
+Workspaces can contain elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. If needed, you can move elements to a different workspace.
 
-To move a collection, open it via __Collections__ on the left-hand side, click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> and choose __Move collection__.
+> Monitors cannot be moved. If you move a collection that is being monitored, the associated monitor is paused and stays in the original workspace.
 
-<img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
+To move an element to a different workspace:
 
-To move an environment, open it via __Environments__ on the left-hand side, click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> and choose __Move environment__.
+1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the left sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to an element and then select **Move**.
 
-<img alt="Move environment 1" src="https://assets.postman.com/postman-docs/move-environment-sidebar-v9.jpg" width="300px" height="400px"/>
+    <img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
 
-You can also select **Share** on the right side and choose __Move Environment__. You can copy and share the link to the environment using the **Copy Link** option. Paste it in a browser of your choice to access the environment.
+1. Select the workspace where you want to move the element, and then select the **Move** button.
 
-<img alt="Move environment 2" src="https://assets.postman.com/postman-docs/move-environment-v9.jpg"/>
-
-Select the workspace you want to move to and select __Move Collection__. This will remove the element from its current workspace.
-
-<img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
+    <img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
 
 ## Adding categories and summaries
 
-When you create a new collection or workspace you can add categories and summaries to help improve their visibility in searches. You can edit both by navigating to your team page under either the **Collections** or **Workspaces** tab.
+<!--Remove this section? Cannot find this functionality in the 9.1 beta UI-->
+
+When you create a new collection or workspace, you can add categories and summaries to help improve their visibility in searches. You can edit both by navigating to your team page under either the **Collections** or **Workspaces** tab.
 
 Hover on the collection or workspace you need to edit and select **Edit listing** to see options to add categories and summaries. You will see similar category options for both collections and workspaces. The steps are the same for both collections and workspaces.
 
@@ -137,66 +179,34 @@ Select **Save** to save the edits.
 
 ![Saving categories and summaries](https://assets.postman.com/postman-docs/workspace-add-summary-category-save.jpg)
 
-## Deleting a workspace
-
-When you delete a workspace, you erase its existence in Postman. Only the original creator of a workspace or a team admin can delete a workspace.
-
-> "My Workspace" and "Team Workspace" are default workspaces created by Postman. They cannot be deleted, however they can be renamed.
-
-To delete a workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard) and select a workspace.
-
-Select the **Workspace Settings** on the right corner of the workspace overview, then click __Delete Workspace__.
-
-<img alt="Delete workspace" src="https://assets.postman.com/postman-docs/delete-a-workspace-v9.jpg"/>
-
-Confirm that you wish to delete the workspace — it will no longer be available following this action.
-
-> [Public workspaces](/docs/collaborating-in-postman/public-workspaces/) must have their visibility reverted in order to be deleted.
-
-## Managing workspace members
-
-<!-- mention about recent contributors-->
-If you're a team administrator you can manage the members of your workspace, from the Dashboard Overview via the **Members** tab.
-
-For a team workspace, you can add or remove any team member or [group](/docs/administration/managing-your-team/user-groups/) from the __Members__ section, selecting access permissions depending on your account level, and save your changes.
-
-<img alt="Edit team workspace" src="https://assets.postman.com/postman-docs/edit-members-team-workspace-v8.jpg" width="350px"/>
-
-Being an admin, you have the permission to add and remove any member from a public workspace. To add members to a public workspace, see [Adding members to a public workspace](/docs/collaborating-in-postman/public-workspaces/#adding-elements-to-a-public-workspace).
-
-Another way to add workspace members is to click __Manage Team__ and select __Invite Users__.
-
-<img alt="Manage team" src="https://assets.postman.com/postman-docs/manage-team-v8.jpg">
-
-Enter an email address, click __Add__ to the team, then select __Send Invitations__. You can also generate a link and invite people to your team by sharing the link with them.
-
-<img alt="Edit workspace" src="https://assets.postman.com/postman-docs/edit-members-v8.jpg" width="350px">
-
-To remove any team member, click the trash icon near the person you want to remove, and select __Remove User From Team__.
-
-<img alt="Remove member" src="https://assets.postman.com/postman-docs/remove-member-team-v8.jpg" width="350px">
-
 ## Seeing who is in your workspace
 
-You can see all of the members of your workspace and keep track of who's working on the workspace elements at any given time. You can also make sure that all teammates who should be included in your workspace are there. The avatars of workspace members at the top of the screen in Postman are bright when a member is active, and muted when someone hasn't been active for fifteen to twenty seconds.
+See all of the people in your workspace and keep track of who's working on workspace elements at any given time. You can also make sure that all teammates who should be included in your workspace are there.
 
-Hover over the avatars to see your teammates names.
+The avatars at the top of Postman window are bright when a user is active and dimmed when the user hasn't been active for fifteen to twenty seconds. Hover over the avatars to see the names of your teammates.
 
 <img alt="Active user" src="https://assets.postman.com/postman-docs/active-member-v8.jpg" width="250px"/>
 
-> You can only see workspace members if you are also a member. To see member avatars, and to make your avatar visible to the team, [join the relevant workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#joining-workspaces).
-
-If more than three people belong to a workspace, the fourth avatar will be a number representing the remaining members. Click the number to see a list of all active and inactive users.
+If more than three people are in a workspace, the fourth avatar will be a number representing the remaining users. Select the number to see a list of all active and inactive users. Any team member who has visited the workspace even once will be listed under the users list. You can collapse the list of active or inactive users.
 
 <img alt="Active user list" src="https://assets.postman.com/postman-docs/active-inactive-members-v8.jpg" width="300px"/>
 
-The active and inactive user lists are collapsible.
+## Deleting a workspace
 
-<img alt="Active user list" src="https://assets.postman.com/postman-docs/collapse-member-list-v8.jpg" width="250px"/>
+Deleting a workspace removes the workspace and all data in it from Postman. Use caution, as once you delete a workspace it's gone forever. You must be a [workspace Admin](#managing-workspace-roles) to delete a workspace.
 
-Any team member who has visited the workspace even once will be listed under the users list.
-<!--check on the time stamp-- collab -->
+> **My Workspace** and **Team Workspace** are default workspaces created by Postman. You cannot delete these workspace, but you can [rename them](#editing-workspace-details).
+
+To delete a workspace:
+
+1. Select **Workspaces** in the Postman header, and then select a workspace.
+1. On the workspace's **Overview** tab, select **Workspace Settings**.
+1. Select **Delete Workspace**.
+
+<img alt="Delete workspace" src="https://assets.postman.com/postman-docs/delete-a-workspace-v9.jpg"/>
+
+> To delete a [public workspaces](/docs/collaborating-in-postman/public-workspaces/), you must first change the [workspace visibility](#changing-workspace-visibility) to team or private.
 
 ## Next steps
 
-You can view recent [activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/) within a workspace to keep track with developments on your projects.
+View recent [activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/) within a workspace to stay up to date with developments on your projects.
