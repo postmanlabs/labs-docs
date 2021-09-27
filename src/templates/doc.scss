@@ -89,7 +89,13 @@
         border: none !important;
         display: block;
       }
+
     }
+
+    &.anchor:hover {
+        border: none !important;
+        display: block;
+    }  
 
     &.alternative {
       color: #fff;
