@@ -16,15 +16,12 @@ const triggerGA = (category, label) => (
 
 
 // Helper function for rel attribute in link or button
-function relStringGenerator(hrefType) {
-  if (hrefType === 'internal') {
+function relStringGenerator(target) {
+  if (target === '') {
     return null;
   }
-  if (hrefType === 'external-other') {
+  if (target === 'blank') {
     return 'noopener noreferrer';
-  }
-  if (hrefType === 'external-postman') {
-    return 'noopener';
   }
   return null;
 }

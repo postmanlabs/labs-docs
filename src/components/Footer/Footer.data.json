@@ -14,7 +14,7 @@
           "category": "global-footer",
           "label": "what-is-postman",
           "id": "what-is-postman",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "API repository",
@@ -22,7 +22,7 @@
           "category": "global-footer",
           "label": "api-repository",
           "id": "api-repository",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Tools",
@@ -30,7 +30,7 @@
           "category": "global-footer",
           "label": "tools",
           "id": "tools",
-          "hrefType":"external-postman"        
+          "target":""        
         },
         {
           "title": "Intelligence",
@@ -38,7 +38,7 @@
           "category": "global-footer",
           "label": "intelligence",
           "id": "intelligence",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Workspaces",
@@ -46,7 +46,7 @@
           "category": "global-footer",
           "label": "workspaces",
           "id": "workspaces",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Integrations",
@@ -61,7 +61,7 @@
           "category": "global-footer",
           "label": "enterprise",
           "id": "enterprise",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Plans and pricing",
@@ -69,7 +69,7 @@
           "category": "global-footer",
           "label": "plans-and-pricing",
           "id": "plans-and-pricing",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Download the app",
@@ -77,7 +77,7 @@
           "category": "global-footer",
           "label": "download-the-app",
           "id": "download-the-app",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Support Center",
@@ -85,7 +85,7 @@
           "category": "global-footer",
           "label": "support-center",
           "id": "support-center",
-          "hrefType":"external-postman" 
+          "target":"" 
         }
       ]
     },
@@ -102,7 +102,7 @@
           "category": "global-footer",
           "label": "about",
           "id": "about",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Careers and culture",
@@ -110,7 +110,7 @@
           "category": "global-footer",
           "label": "careers-and-culture",
           "id": "careers-and-culture",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Contact us",
@@ -118,7 +118,7 @@
           "category": "global-footer",
           "label": "contact-us",
           "id": "contact-us",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Press and media",
@@ -126,7 +126,7 @@
           "category": "global-footer",
           "label": "press-and-media",
           "id": "press-and-media",
-          "hrefType":"external-postman" 
+          "target":"" 
         }
       ]
     },
@@ -143,7 +143,7 @@
           "category": "global-footer",
           "label": "security",
           "id": "security",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Privacy policy",
@@ -151,12 +151,12 @@
           "category": "global-footer",
           "label": "privacy-policy",
           "id": "privacy-policy",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Terms",
           "url": "https://www.postman.com/legal/terms/",
-          "hrefType":"external-postman",
+          "target":"",
           "category": "global-footer",
           "label": "terms",
           "id": "terms"
@@ -170,7 +170,7 @@
           "icon": "https://st-ar.cdn.postman-beta.com/images/twitter-0a329e47c804eaf077b769f71cdc4750.svg",
           "title": "Twitter",
           "url": "https://twitter.com/getpostman",
-          "hrefType": "external-other",
+          "target": "blank",
           "category": "global-footer",
           "label": "twitter",
           "id": "twitter"
@@ -180,7 +180,7 @@
           "icon": "https://st-ar.cdn.postman-beta.com/images/linkedin-b6fdef2dc0dae8854a8f80921629a462.svg",
           "title": "LinkedIn",
           "url": "https://www.linkedin.com/company/postman-platform",
-          "hrefType": "external-other",
+          "target": "blank",
           "category": "global-footer",
           "label": "linkedin",
           "id": "linkedin"
@@ -190,7 +190,7 @@
           "icon": "https://st-ar.cdn.postman-beta.com/images/github-1a489e56e4f318f915a3456af6530a2d.svg",
           "title": "GitHub",
           "url": "https://github.com/postmanlabs",
-          "hrefType": "external-other",
+          "target": "blank",
           "category": "global-footer",
           "label": "github",
           "id": "github"
@@ -200,7 +200,7 @@
           "icon": "https://st-ar.cdn.postman-beta.com/images/youtube-2a03d6d6046971d17cfa7b0a04d2e8a9.svg",
           "title": "YouTube",
           "url": "https://www.youtube.com/c/Postman",
-          "hrefType": "external-other",
+          "target": "blank",
           "category": "global-footer",
           "label": "youtube",
           "id": "youtube"
@@ -210,7 +210,7 @@
           "icon": "https://st-ar.cdn.postman-beta.com/images/twitch-b58ae59bf57ffcd3ad7d59caa20c3cb2.svg",
           "title": "Twitch",
           "url": "https://www.twitch.tv/getpostman",
-          "hrefType": "external-other",
+          "target": "blank",
           "category": "global-footer",
           "label": "twitch",
           "id": "twitch"
@@ -261,7 +261,7 @@
           "category": "global-footer",
           "label": "postman-galaxy",
           "id": "postman-galaxy",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Privacy",
@@ -269,7 +269,7 @@
           "category": "global-footer",
           "label": "privacy",
           "id": "privacy",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Terms",
@@ -277,7 +277,7 @@
           "category": "global-footer",
           "label": "terms",
           "id": "terms",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Careers",
@@ -285,7 +285,7 @@
           "category": "global-footer",
           "label": "careers",
           "id": "careers",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Support",
@@ -293,7 +293,7 @@
           "category": "global-footer",
           "label": "support",
           "id": "support",
-          "hrefType":"external-postman" 
+          "target":"" 
         },
         {
           "title": "Security",
@@ -301,7 +301,7 @@
           "category": "global-footer",
           "label": "security",
           "id": "security",
-          "hrefType":"external-postman" 
+          "target":"" 
         }
       ],
       "title": "© 2021 Postman, Inc. All rights reserved."
