@@ -53,7 +53,7 @@ One way to [share your Postman Collections](/docs/collaborating-in-postman/shari
 
 Make sure you're signed in to your Postman account, and that you have a collection in a public workspace to share.
 
-> Note: If the collection is present in a public workpspace, you can directly embed the copied code where you would like the button to be displayed. If the collection is present in a team or a personal workspace, [share the collection to a public workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#adding-elements-to-workspaces) to create the **Run in Postman** button.
+> Note: If the collection is present in a public workspace, you can directly embed the copied code where you would like the button to be displayed. If the collection is present in a team or a personal workspace, [share the collection to a public workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to create the **Run in Postman** button.
 
 * In Postman, open the collection you want to share.
 * Next to the collection name, click **...** to expand the collection details and select **Share collection** to open a modal.

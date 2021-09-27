@@ -44,6 +44,7 @@ contextual_links:
 * [Deleting a public workspace](#deleting-a-public-workspace)
 * [Managing public workspace members](#managing-public-workspace-members)
 * [Collaborating in a public workspace](#collaborating-in-a-public-workspace)
+* [Adding categories and summaries](#adding-categories-and-summaries)
 * [Next steps](#next-steps)
 
 ## Creating a public workspace
@@ -166,6 +167,19 @@ For collections and environments, [create a fork](/docs/collaborating-in-postman
 
 For APIs, navigate to the API and version. Select **Definition** > **Request Access** to request an editor role.
 
+## Adding categories and summaries
+
+Add categories and summaries to improve the visibility of your collections, APIs, and workspaces on the Public API Network.
+
+1. Select **Team > Team Settings**, and then open your team's Public profile URL.
+1. Select the **Collections**, **APIs**, or **Workspaces** tab.
+1. Hover over an item and select **Edit listing**.
+1. Enter a brief **Summary** that describes your collection, API, or workspace.
+1. Select up to three categories.
+1. Select **Save**.
+
+![Adding categories and summaries](https://assets.postman.com/postman-docs/workspace-add-categories-v9.jpg)
+
 ## Next steps
 
-To add an API to the network, see [Adding your API](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis). For more details on how to add categories to a public workspace, visit [Adding categories and summaries](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#adding-categories-and-summaries).
+To add an API to the network, see [Adding your API](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis).

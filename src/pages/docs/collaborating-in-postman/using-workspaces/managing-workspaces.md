@@ -38,7 +38,6 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 * [Managing workspace roles](#managing-workspace-roles)
 * [Watching a workspace](#watching-a-workspace)
 * [Moving elements to workspaces](#moving-elements-to-workspaces)
-* [Adding categories and summaries](#adding-categories-and-summaries)
 * [Seeing who is in your workspace](#seeing-who-is-in-your-workspace)
 * [Deleting a workspace](#deleting-a-workspace)
 * [Next steps](#next-steps)
@@ -166,20 +165,6 @@ To move an element to a different workspace:
     > You cannot move elements from a private, team, or public workspace to a personal workspace.
 
     <img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
-
-## Adding categories and summaries
-
-<!--Remove this section? Cannot find this functionality in the 9.1 beta UI-->
-
-When you create a new collection or workspace, you can add categories and summaries to help improve their visibility in searches. You can edit both by navigating to your team page under either the **Collections** or **Workspaces** tab.
-
-Hover on the collection or workspace you need to edit and select **Edit listing** to see options to add categories and summaries. You will see similar category options for both collections and workspaces. The steps are the same for both collections and workspaces.
-
-![Adding categories and summaries](https://assets.postman.com/postman-docs/workspace-edit-listing.jpg)
-
-Select **Save** to save the edits.
-
-![Saving categories and summaries](https://assets.postman.com/postman-docs/workspace-add-summary-category-save.jpg)
 
 ## Seeing who is in your workspace
 
