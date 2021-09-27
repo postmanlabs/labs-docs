@@ -28,7 +28,7 @@ contextual_links:
     url: "https://blog.postman.com/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
   - type: link
     name: "Capture Responses Using the Postman Proxy"
-    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"   
+    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
 
 warning: false
 
@@ -204,19 +204,19 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 ### Install the certificate for use with Chrome on Ubuntu
 
-1. Open the Chrome settings, in the search bar, look for "Certificates."
+1. Open the Chrome settings, in the search bar, and find **Certificates**.
 
-1. Select "Manage certificates" from the list.
+1. Select **Manage certificates** from the list.
 
-1. Select the "Trusted Root Certification Authorities" tab and then "Import."
+1. Select the **Trusted Root Certification Authorities** tab and then **Import**.
 
-1. Select "Browse" and select the **cacert.der** file created earlier.
+1. Select **Browse** and select the `postman-proxy-ca.crt` file.
 
 1. Select **Next** to save the configuration.
 
-1. Select "Place all certificates in the following store."
+1. Select **Place all certificates in the following store**.
 
-1. Select "Trusted Root Certification Authorities."
+1. Select T**rusted Root Certification Authorities**.
 
 1. Select **Next** and **Finish**.
 
@@ -230,7 +230,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
     [![Select crt manager](https://assets.postman.com/postman-docs/firefox-crt-manager-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-manager-aa.jpeg)
 1. Select the **postman-proxy-ca.crt** and click on **Open**.
     [![Select postman crt](https://assets.postman.com/postman-docs/firefox-open-crt-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-open-crt-aa.jpeg)
-    Only mark **Trust this CA to identify websites** and click on **Ok**.
+    Only mark **Trust this CA to identify websites** and click on **OK**.
     [![Select trust CA crt](https://assets.postman.com/postman-docs/firefox-trust-crt-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-trust-crt-aa.jpeg)
 1. The certificate is installed. To verify if the certificate is installed, the **Postman Proxy CA** will be listed under the **Authorities** tab of Certificate Manager.
     [![Verify vrt install](https://assets.postman.com/postman-docs/firefox-verify-crt-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-verify-crt-aa.jpeg)
