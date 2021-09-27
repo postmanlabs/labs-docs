@@ -163,6 +163,8 @@ To move an element to a different workspace:
 
 1. Select the workspace where you want to move the element, and then select the **Move** button.
 
+    > You cannot move elements from a private, team, or public workspace to a personal workspace.
+
     <img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
 
 ## Adding categories and summaries
@@ -203,7 +205,7 @@ To delete a workspace:
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select **Delete Workspace**.
 
-<img alt="Delete workspace" src="https://assets.postman.com/postman-docs/delete-a-workspace-v9.jpg"/>
+<img alt="Delete workspace" src="https://assets.postman.com/postman-docs/delete-a-workspace-v9.jpg" width="506px"/>
 
 > To delete a [public workspaces](/docs/collaborating-in-postman/public-workspaces/), you must first change the [workspace visibility](#changing-workspace-visibility) to team or private.
 
