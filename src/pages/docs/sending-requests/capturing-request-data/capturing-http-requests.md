@@ -212,6 +212,8 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 1. Select **Browse** and select the `~/.config/Postman/proxy/postman-proxy-ca.crt` file.
 
+1. Under **Trust Settings**, select **Trust this certificate for identifying websites**.
+
 1. Select **OK**.
 
 ### Install the certificate for use with Mozilla Firefox Browsers
