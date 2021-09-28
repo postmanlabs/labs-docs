@@ -93,7 +93,7 @@ The watch option allows you to receive an email/in-app notification when one of 
 
 Once you've created the collection, click __Watch__ to start watching the collection.
 
-![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v8.jpg)
+![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v9.jpg)
 
 Click the bell icon in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the collection.
 
@@ -208,11 +208,11 @@ The watch option allows you to receive an in-app notification when one of your t
 
 Once you've created the pull request, click __Watch__ to start watching the pull request.
 
-![Pull request watching](https://assets.postman.com/postman-docs/watching-a-pull-request-v8.jpg)
+![Pull request watching](https://assets.postman.com/postman-docs/watching-a-pull-request-v9.jpg)
 
 Once you have enabled watch, you will be able to view and modify the conditions for which notifications will be triggered.
 
-<img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v8.jpg" height="350px"/>
+<img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v9.jpg" height="424px"/>
 
 Click the bell icon in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the pull request.
 
