@@ -112,7 +112,7 @@ Once you've created the folder, you can add APIs to get started. Make your API s
 
 Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the API you would like to edit from the network and select __Edit API listing__. You can update the API summary, and modify the folder to which the API should be added. Select **Update** when the changes are done.
 
-<img alt="Edit Summary 2" src="https://assets.postman.com/postman-docs/edit-api-summary-v9.jpg" width="400px"/>
+<img alt="Edit API summary" src="https://assets.postman.com/postman-docs/edit-api-summary-v9.jpg" width="400px"/>
 
 You can also remove the added APIs from your Private API Network. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the API you would like to remove from network. Once you select __Remove__, your team members will also lose access to the API via the network.
 
