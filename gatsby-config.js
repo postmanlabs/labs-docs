@@ -34,7 +34,6 @@ module.exports = {
         defer: true,
       },
     },
-    'gatsby-plugin-polyfill-io',
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {

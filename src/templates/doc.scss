@@ -89,7 +89,24 @@
         border: none !important;
         display: block;
       }
+
     }
+
+    &.anchor.before {
+      top: .2em;
+      padding-right: 8px;
+      
+      & svg {
+        width: auto;
+        height: .9em;
+        display: block;
+      }
+    }
+
+    &.anchor:hover {
+        border: none !important;
+        display: block;
+    }  
 
     &.alternative {
       color: #fff;
@@ -115,6 +132,15 @@
   // z-index: -1;
   padding-left: 0px !important;
   padding-right: 0px !important;
+  @media screen and (min-width: 768px) {
+    max-width: 350px;
+  }
+
+  & li {
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
 
 /* Blockquotes */
