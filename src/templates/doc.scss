@@ -132,6 +132,15 @@
   // z-index: -1;
   padding-left: 0px !important;
   padding-right: 0px !important;
+  @media screen and (min-width: 768px) {
+    max-width: 350px;
+  }
+
+  & li {
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
 
 /* Blockquotes */
