@@ -1,5 +1,8 @@
 @import '../Shared/_variables.scss';
 
+li {
+  text-decoration: none;
+}
 .caret {
   position: relative;
   left: -8px;

@@ -17,13 +17,16 @@ export const leftNavItems = [
       },
       {
         name: 'Navigating Postman',
-        url: '/docs/getting-started/installation-and-updates/',
+        url: '/docs/getting-started/navigating-postman/',
+      },
+      {
+        name: 'Sending your first request',
+        url: '/docs/getting-started/sending-the-first-request/',
       },
     ],
   },
   {
     name: 'Sending Requests',
-    url: '/docs/getting-started/introduction/',
     subMenuItems1: [
       {
         name: 'Building requests',
@@ -50,30 +53,50 @@ export const leftNavItems = [
           },
         ],
       },
+      {
+        title: 'Supported API Frameworks',
+        subMenuItems2: [
+          {
+            name: 'Querying with GraphQL',
+            url: '/docs/sending-requests/supported-api-frameworks/graphql/',
+          },
+          {
+            name: 'Using WebsSocket Requests',
+            url: '/docs/sending-requests/supported-api-frameworks/websocket/',
+          },
+          {
+            name: 'Making SOAP Requests',
+            url: '//docs/sending-requests/supported-api-frameworks/making-soap-requests/',
+          },
+        ],
+      },
     ],
   },
   {
     name: 'Writing Scripts',
-    url: '/docs/getting-started/introduction/',
     subMenuItems1: [
       {
         name: 'Scripting in Postman',
-        url: '/docs/getting-started/introduction/',
+        url: '/docs/writing-scripts/intro-to-scripts/',
       },
       {
         name: 'Writing pre-requests scripts',
-        url: '/docs/getting-started/installation-and-updates/',
+        url: '/docs/writing-scripts/pre-request-scripts/',
       },
       {
         title: 'Script references',
         subMenuItems2: [
           {
             name: 'Test script examples',
-            url: '/',
+            url: '/docs/writing-scripts/script-references/test-examples/',
           },
           {
             name: 'Dynamic variables',
-            url: '/',
+            url: '/docs/writing-scripts/script-references/variables-list/',
+          },
+          {
+            name: 'Postman JavaScript reference',
+            url: '/docs/writing-scripts/script-references/postman-sandbox-api-reference/',
           },
         ],
       },

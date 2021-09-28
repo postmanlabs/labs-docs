@@ -34,6 +34,7 @@ const ListItem = ({ leftNavLinks, isRoot }) => {
 
   const toggleActive = (e) => {
     let title;
+    console.log('toggle active', title);
     if (e.target.attributes.identifier) {
       title = e.target.attributes.identifier.value;
     } else {
@@ -48,7 +49,7 @@ const ListItem = ({ leftNavLinks, isRoot }) => {
     }
   }; // toggles list item as active or inactive based on previous state. Triggered on click
 
-  // const isActive = (name) => active.includes(name);
+  const isActive = (name) => active.includes(name);
 
 
   const inUrl = (url) => currentUrl.includes(url);
