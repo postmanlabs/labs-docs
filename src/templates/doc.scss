@@ -89,7 +89,24 @@
         border: none !important;
         display: block;
       }
+
     }
+
+    &.anchor.before {
+      top: .2em;
+      padding-right: 8px;
+      
+      & svg {
+        width: auto;
+        height: .9em;
+        display: block;
+      }
+    }
+
+    &.anchor:hover {
+        border: none !important;
+        display: block;
+    }  
 
     &.alternative {
       color: #fff;
