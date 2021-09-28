@@ -57,7 +57,7 @@ export default ({ data }) => {
           </nav>
           <div className="col">
             <div className="row row-eq-height">
-              <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 offset-xl-1 doc-page">
+              <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <h1>{post.frontmatter.title}</h1>
                 <span id="content-container" dangerouslySetInnerHTML={{ __html: post.html }} />
               </main>
