@@ -95,9 +95,9 @@ You can control a group's access to individual workspaces, collections, APIs, en
 
 For collections, APIs, environments, mock servers, and monitors, navigate to the entity in Postman and in the left sidebar, select **...** > **Manage roles**.
 
-<img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-add-user-group.jpg"/>
+<img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-with-user-group-v9.1.jpg"/>
 
-Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. You can also remove a group by selecting the **X** to the right of it in the list. Click **Save** to confirm changes.
+Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. You can also remove a group by selecting the **X** to the right of it in the list. Click **Update Roles** to confirm changes.
 
 > See [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on access control at a team, workspace, API, and collection level.
 
