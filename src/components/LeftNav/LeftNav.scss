@@ -41,6 +41,9 @@
 
     & .caret-wrapper {
       width: 24px;
+      &:hover {
+        cursor: default;
+      }
     }
 
     .caret {
