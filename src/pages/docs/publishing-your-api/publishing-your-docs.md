@@ -56,7 +56,7 @@ To publish the documentation for a collection:
 
     <img alt="Publish documentation" src="https://assets.postman.com/postman-docs/documentation-publish-button-v9.jpg" width="753px">
 
-1. (Optional) Change any publication settings as needed:
+1. Change any publication settings as needed:
 
     * **Release tag:** Select one or more [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) to publish. Users can view documentation for each selected release.
     * **Environment:** Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
@@ -65,7 +65,7 @@ To publish the documentation for a collection:
     * **Header background color:** Specify a color (hex format) for the header at the top of the documentation window.
     * **Code background color:** Specify a color (hex format) for sample code blocks.
     * **Highlight color:** Specify a color (hex format) for hyperlinks.
-    * **Share to public workspace:** Select an available [public workspace](/docs/collaborating-in-postman/public-workspaces/) to share the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
+    * **Move to public workspace:** (Optional) Select an available [public workspace](/docs/collaborating-in-postman/public-workspaces/) to move the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
 
 1. To see what your documentation will look like using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
@@ -89,7 +89,7 @@ To share your public documentation, simply share the published URL with your tea
 
 <img alt="Copy published link" src="https://assets.postman.com/postman-docs/documentation-published-link-v9.jpg" width="753px">
 
-If your collection is in a public workspace, others can search for and find your collection on the [Public API Network](https://www.postman.com/explore), along with its documentation. If you haven't already shared your collection to a public workspace, you can do so at any time by [changing the publication settings](#changing-publication-settings).
+If your collection is in a public workspace, others can search for and find your collection on the [Public API Network](https://www.postman.com/explore), along with its documentation. If you haven't already moved your collection to a public workspace, you can do so at any time by [changing the publication settings](#changing-publication-settings).
 
 > By sharing your documentation with the Public API Network, you increase the visibility of your API to a wider range of consumers in the Postman community. Learn more about [public workspaces](/docs/collaborating-in-postman/public-workspaces/).
 
