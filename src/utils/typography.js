@@ -4,7 +4,7 @@ const typography = new Typography({
   // baseFontSize: '18px',
   // baseLineHeight: 1.666,
   headerFontFamily: [
-    'ibm_plex_monoregular',
+    'IBM Plex Mono',
   ],
   bodyFontFamily: [
     'Inter',

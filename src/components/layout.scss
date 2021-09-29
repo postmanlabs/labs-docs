@@ -2,13 +2,25 @@
 @import '../../styles/config/normalize.css';
 @import '../../styles/config/typography.css';
 
-// Footer has font Open Sans
-html {
-  text-rendering: optimizeLegibility;
+@-moz-document url-prefix() {
+  html {
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', Helvetica, Arial, sans-serif;
+  font-family: $inter;
+  color: $grey_90;
+  font-feature-settings: "ss01", "onum", "zero";
+  font-weight: 400;
+  text-rendering: geometricPrecision;
+  letter-spacing: -0.16px;
+}
+/** * Firefox specific rule */
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
 }
 
 code {
@@ -27,9 +39,20 @@ h2,
 .h2,
 h3,
 .h3 {
-  font-family: 'degular_displaysemibold', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
+  font-family: $degular;
   font-weight: 600;
   font-feature-settings: 'kern' 1, 'ss01' 1, 'salt' 1;
+}
+/** * Firefox specific rule */
+@-moz-document url-prefix() {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    font-weight: lighter !important;
+  }
 }
 
 h4,
@@ -38,7 +61,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
+  font-family: $inter;
   font-weight: 600;
 }
 

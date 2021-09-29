@@ -31,15 +31,6 @@ const Hits = ({ hits }) => (
           <p dangerouslySetInnerHTML={{ __html: hit._snippetResult.excerpt.value }} />
         </a>
       </li>
-
-      //  Work on highlighting
-      // /////////////////////////////////////////////////
-      // <li key={hit.title}>
-      //   <a href={hit}>
-      //     <Highlight attribute="title" hit={hit} />
-      //   </a>
-      // </li>
-      // ////////////////////////////////////////////////
     ))}
   </ul>
 );
