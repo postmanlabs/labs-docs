@@ -51,7 +51,7 @@ contextual_links:
 
 > You must be a [__workspace admin__](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace to public.
 
-There are four types of workspaces - personal, team, private, and public workspaces. When you open a workspace, Postman will provide an overview of its contents, activity, and members in a new tab.
+There are four types of workspaces: personal, team, private, and public workspaces. When you open a workspace, Postman will provide an overview of its contents, activity, and members in a new tab.
 
 Open the workspace menu, then click **Create Workspace**.
 
