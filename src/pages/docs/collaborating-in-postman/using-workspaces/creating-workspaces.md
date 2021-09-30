@@ -41,7 +41,7 @@ warning: false
 
 Workspaces allow you to organize your Postman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked entities. By collaborating in a workspace, your edits are synced with your team in realtime.
 
-<img alt="Create workspace homepage" src="https://assets.postman.com/postman-docs/create-workspace-homepage-v9.jpg"/>
+<img alt="Workspaces selected" src="https://assets.postman.com/postman-docs/workspace-overview-switcher-selected-v9.1.jpg"/>
 
 Personal workspaces are visible only to you—with a [Postman account](/docs/getting-started/postman-account/) you can create unlimited workspaces. With team workspaces, you can share and manage access to project components with collaborators. [Public workspaces](/docs/collaborating-in-postman/public-workspaces/) enable you to collaborate on entities with anyone across the world.
 
@@ -57,25 +57,21 @@ Workspace as an entity represents a whole container where being an admin gives y
 
 To create a new workspace, select the workspace dropdown menu at the left of Postman, and click **Create Workspace**.
 
-<img alt="Create new workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace-v9.jpg" width="300px"/>
+<img alt="Create new workspace" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
 
 Use the visibility dropdown to choose a __Personal__, __Team__, __Private__, or __Public__ workspace.
 
 > Note that you can only move elements from one workspace to another.
 
-To create a personal workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Personal__.
+To create a personal workspace, enter the workspace name and summary, then select __Personal__ under **Visibility**.
 
-<img alt="Personal Workspace" src="https://assets.postman.com/postman-docs/create-personal-workspace.jpg" width="500px"/>
+<img alt="Create personal workspace" src="https://assets.postman.com/postman-docs/create-personal-workspace-v9.1.jpg"/>
 
-To create a team workspace, enter the workspace name and summary. Select the visibility dropdown menu and choose __Team__. Add collaborators by entering their email addresses, then define their [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+To create a team workspace, enter the workspace name and summary, then select __Team__ under **Visibility**.
 
-[![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace-v9.jpg)](https://assets.postman.com/postman-docs/create-team-workspace-v9.jpg)
+[![Team workspace](https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg)](https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg)
 
-If you are an Admin user and add any email addresses not associated with current team members, they will be invited to join the team.
-
-> Postman Business and Enterprise users can check the box to limit visibility of this workspace to invited members, making a [private workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
-
-Click **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button at the top at any time.
+Click **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button in the upper right of Postman.
 
 To create a new workspace, you can click the __New__ button above the navigation bar, select __Workspace__ and follow the same steps.
 
