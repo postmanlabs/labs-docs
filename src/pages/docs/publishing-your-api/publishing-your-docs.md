@@ -101,7 +101,7 @@ Change the publication settings for your documentation to add a release, update 
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a collection with published docs, and then select **View Documentation**.
 1. Select **Published** at the upper right, and then select **Edit published documentation**.
 
-<img alt="Edit published documentation" src="https://assets.postman.com/postman-docs/documentation-edit-published-docs-v9.jpg" width="753px">
+    <img alt="Edit published documentation" src="https://assets.postman.com/postman-docs/documentation-edit-published-docs-v9.jpg" width="753px">
 
 1. Select **Edit settings**, and then change the [publication settings](#making-your-documentation-public) as needed.
 1. Select **Save and republish**.
