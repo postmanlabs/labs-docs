@@ -48,7 +48,7 @@ To open a workspace, select **Workspaces** in the Postman header. Select a works
 
 <img alt="New Workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace-v9.jpg" width="400px"/>
 
-The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, you'll also the number of various elements within the workspace, such as collections and APIs, along with a list of recent contributors.
+The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, you'll also see the number of various elements within the workspace, such as collections and APIs, along with a list of recent contributors.
 
 <img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v9.jpg" width="962px"/>
 
