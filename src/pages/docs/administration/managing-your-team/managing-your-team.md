@@ -80,7 +80,7 @@ On the workspace's **Overview** tab, select **Workspace Settings**, and then sel
 
 Select **Send Invites**, or select **Copy Invite Link** to generate a link you can directly share with others.
 
-<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace-v9.gif"/>
+<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-to-workspace-gif-v9.1.gif"/>
 
 > Inviting users to a workspace will add them to your Postman team if they are not already members.
 
