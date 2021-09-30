@@ -37,7 +37,7 @@ export const leftNavItems = [
         url: '/docs/sending-requests/authorization/',
       },
       {
-        title: 'Capturing Request Data',
+        name: 'Capturing Request Data',
         subMenuItems2: [
           {
             name: 'Capturing HTTP requests',
@@ -54,7 +54,7 @@ export const leftNavItems = [
         ],
       },
       {
-        title: 'Supported API Frameworks',
+        name: 'Supported API Frameworks',
         subMenuItems2: [
           {
             name: 'Querying with GraphQL',
@@ -66,7 +66,7 @@ export const leftNavItems = [
           },
           {
             name: 'Making SOAP Requests',
-            url: '//docs/sending-requests/supported-api-frameworks/making-soap-requests/',
+            url: '/docs/sending-requests/supported-api-frameworks/making-soap-requests/',
           },
         ],
       },
@@ -84,7 +84,7 @@ export const leftNavItems = [
         url: '/docs/writing-scripts/pre-request-scripts/',
       },
       {
-        title: 'Script references',
+        name: 'Script references',
         subMenuItems2: [
           {
             name: 'Test script examples',
