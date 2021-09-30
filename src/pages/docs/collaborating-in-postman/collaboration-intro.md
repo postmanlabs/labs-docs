@@ -145,7 +145,7 @@ You can check your usage limits within Postman. Free users can select the drop-d
 
 The usage menu allows you to review limits for APIs, shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
 
-[![usage info](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11 at%205.38.16%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)
+[![usage info](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)
 
 ### How archiving works
 
