@@ -40,14 +40,13 @@ warning: false
 
 Documentation helps you get more out of the collections and APIs that you work with in Postman. View documentation to learn more about the requests in a collection or how to interact with an API's endpoints.
 
-By default, [documentation for a collection](/docs/publishing-your-api/documenting-your-api/) is private. You can view the documentation and add comments for any collections that have been shared with you directly or through a team workspace.
+By default, [documentation for a collection](/docs/publishing-your-api/documenting-your-api/) is private. You can view the documentation for any collections that have been shared with you directly or through a team workspace.
 
-Documentation authors can also choose to [publish their documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available. Anyone in the world can view the public documentation using a web browser. If the associated collection is in a public workspace, people can also view the collection in Postman and add comments.
+Documentation authors can also choose to [publish their documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available. Anyone in the world can view the public documentation using a web browser. If the associated collection is in a public workspace, people can also view the collection in Postman.
 
 ## Contents
 
 * [Viewing documentation for a collection](#viewing-documentation-for-a-collection)
-* [Commenting on documentation](#commenting-on-documentation)
 * [Viewing API documentation](#viewing-api-documentation)
 * [Viewing public documentation](#viewing-public-documentation)
 * [Linking to public documentation](#linking-to-public-documentation)
@@ -57,7 +56,7 @@ Documentation authors can also choose to [publish their documentation](/docs/pub
 
 In Postman, documentation is always associated with a collection. You can view the documentation for any collection that you created or for collections that have been [shared with you](/docs/collaborating-in-postman/sharing/).
 
-> Postman teammates with the Viewer role can view documentation and add comments, while teammates with the Editor role can also create and update documentation. Learn more about [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+> Postman teammates with the Viewer role can view documentation, while teammates with the Editor role can also create and update documentation. Learn more about [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
 To view documentation for a collection:
 
@@ -84,7 +83,7 @@ Use the following options to customize the appearance of the documentation:
 
 ## Viewing API documentation
 
-API developers can [generate API documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) to help consumers understand and interact with their API's endpoints. The API documentation is contained in a collection linked to a specific API version.
+API developers can [generate API documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) to help consumers understand and interact with their API's endpoints. To make documentation available on the API's **Documentation** tab, you must either [create a new collection](/docs/publishing-your-api/documenting-your-api/#creating-new-documentation-for-an-api) for the API documentation or [add an existing collection](/docs/publishing-your-api/documenting-your-api/#adding-existing-documentation-to-an-api).
 
 To view documentation for an API:
 
@@ -97,10 +96,6 @@ To view documentation for an API:
 Use the navigation menu on the right to jump to a particular endpoint. To see sample code in a different language, select it in the **Language** menu.
 
 [![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-api-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-api-docs-v9.jpg)
-
-## Commenting on documentation
-
-Use comments to collaborate with your teammates and provide feedback on a collection and its documentation. To [read existing comments](/docs/collaborating-in-postman/commenting-on-collections/#reading-comments), select a collection, folder, or request, and then select **Comments** <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar. To join the discussion, [add your own comments](/docs/collaborating-in-postman/commenting-on-collections/) to a collection, folder, or request.
 
 ## Viewing public documentation
 
