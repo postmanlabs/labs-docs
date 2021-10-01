@@ -1838,5 +1838,9 @@
 	{
 		"from": "/docs/designing-and-developing-your-api/watching-an-api/",
 		"to": "/docs/designing-and-developing-your-api/managing-apis/"
+	},
+	{
+		"from": "/docs/getting-started/importing-templates/",
+		"to": "/docs/getting-started/exploring-public-api-network/"
 	}
 ]
