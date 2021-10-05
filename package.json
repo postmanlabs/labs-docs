@@ -68,6 +68,7 @@
     "webpack": "4.22.0"
   },
   "devDependencies": {
+    "@postman/pm-tech": "1.1.9",
     "eslint": "^6.4.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
