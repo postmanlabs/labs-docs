@@ -28,7 +28,7 @@ contextual_links:
     url: "https://blog.postman.com/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
   - type: link
     name: "Capture Responses Using the Postman Proxy"
-    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"   
+    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
 
 warning: false
 
@@ -83,7 +83,7 @@ By default, requests and responses will be saved chronologically. If you save th
 
 ### Step 2: Find your computer's IP address
 
-On macOS, the computer's IP address can be found in **System Preferences > Network**. The IP address of your system will be something like the example here `192.168.0.101`.
+On macOS, the computer's IP address can be found in **System Preferences > Network**. The IP address of your system will be something like the example here `192.168.0.101`.
 
 [![system preferences](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)
 
@@ -93,7 +93,7 @@ On macOS, the computer's IP address can be found in **System Preferences > Netw
 
     <img src="https://assets.postman.com/postman-docs/ios-http-proxy-settings-aa.jpeg" alt="wireless settings on mobile device" width="350">
 
-1. Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
+1. Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
 
 You are all set! Head over to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar, or the collection you specified. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
 
@@ -204,21 +204,17 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 ### Install the certificate for use with Chrome on Ubuntu
 
-1. Open the Chrome settings, in the search bar, look for "Certificates."
+1. Open Google Chrome and go to the URL `chrome://settings/certificates`.
 
-1. Select "Manage certificates" from the list.
+1. Select **Manage certificates** from the list.
 
-1. Select the "Trusted Root Certification Authorities" tab and then "Import."
+1. Select the **Authorities** tab and then **Import**.
 
-1. Select "Browse" and select the **cacert.der** file created earlier.
+1. Select **Browse** and select the `~/.config/Postman/proxy/postman-proxy-ca.crt` file.
 
-1. Select **Next** to save the configuration.
+1. Under **Trust Settings**, select **Trust this certificate for identifying websites**.
 
-1. Select "Place all certificates in the following store."
-
-1. Select "Trusted Root Certification Authorities."
-
-1. Select **Next** and **Finish**.
+1. Select **OK**.
 
 ### Install the certificate for use with Mozilla Firefox Browsers
 
@@ -230,7 +226,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
     [![Select crt manager](https://assets.postman.com/postman-docs/firefox-crt-manager-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-manager-aa.jpeg)
 1. Select the **postman-proxy-ca.crt** and click on **Open**.
     [![Select postman crt](https://assets.postman.com/postman-docs/firefox-open-crt-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-open-crt-aa.jpeg)
-    Only mark **Trust this CA to identify websites** and click on **Ok**.
+    Only mark **Trust this CA to identify websites** and click on **OK**.
     [![Select trust CA crt](https://assets.postman.com/postman-docs/firefox-trust-crt-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-trust-crt-aa.jpeg)
 1. The certificate is installed. To verify if the certificate is installed, the **Postman Proxy CA** will be listed under the **Authorities** tab of Certificate Manager.
     [![Verify vrt install](https://assets.postman.com/postman-docs/firefox-verify-crt-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-verify-crt-aa.jpeg)

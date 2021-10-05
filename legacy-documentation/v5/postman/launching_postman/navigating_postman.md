@@ -13,7 +13,7 @@ This interface design gives you as much space as possible for your APIs.
 
 ### Sidebar
 
-The Postman sidebar lets you find and manage requests and collections. The sidebar has two main tabs: **[History](https://learning.postman.com/docs/postman/sending_api_requests/history)** and **[Collections](https://learning.postman.com/docs/postman/collections/creating_collections/)**.
+The Postman sidebar lets you find and manage requests and collections. The sidebar has two main tabs: **[History](https://learning.postman.com/docs/postman/sending_api_requests/history)** and **[Collections](https://learning.postman.com/docs/postman/collections/creating_collections/)**.
 
 You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens, and show or hide the sidebar in the Status bar.
 
@@ -72,11 +72,11 @@ When you click the **Help & Feedback** icon, you can summon a menu that provides
 
 ### Tabs and Windows
 
-Postman lets you use multi-tab and multi-window configurations to work on multiple requests or even multiple collections together and simultaneously.
+Postman lets you use multi-tab and multi-window configurations to work on multiple requests or even multiple collections together and simultaneously.
 
-To open a new tab in Postman, press the **+** icon in the builder or use the **CMD/CTRL + T** shortcut. From the menu bar, you can also select "New Tab" from the **File** menu to create a new tab.
+To open a new tab in Postman, press the **+** icon in the builder or use the **CMD/CTRL + T** shortcut. From the menu bar, you can also select "New Tab" from the **File** menu to create a new tab.
 
-When you right click a tab name, the menu allows you to duplicate or close tabs.  If any tab has unsaved changes as you  attempt to close the tab, Postman prompts you to save your changes.
+When you right click a tab name, the menu allows you to duplicate or close tabs.  If any tab has unsaved changes as you  attempt to close the tab, Postman prompts you to save your changes.
 
 **Busy tabs**
 
@@ -86,7 +86,7 @@ What makes a tab busy? When you work in a tab it becomes busy. For example, when
 
 **Tab and sidebar behavior**
 
-By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab when an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab from the sidebar under the **Collections** tab. Right click a request and select "Open in New Tab".
+By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab when an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab from the sidebar under the **Collections** tab. Right click a request and select "Open in New Tab".
 
 **Tab menu**
 
@@ -111,11 +111,11 @@ When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", 
 
 **Moving requests**
 
-In the request builder, you can drag and drop tabs to reorder them, open a new request in a new tab, or in a new Postman window. You also can open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
+In the request builder, you can drag and drop tabs to reorder them, open a new request in a new tab, or in a new Postman window. You also can open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
 
 ### Keyboard Shortcuts
 
-Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort as compared to navigating with a cursor. For repetitive or frequent tasks, keyboard shortcuts improve speed over the long run.
+Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort as compared to navigating with a cursor. For repetitive or frequent tasks, keyboard shortcuts improve speed over the long run.
 
 Postman categorizes keyboard shortcuts as navigation, manipulation, and global.
 * Navigational shortcuts let you move around the interface.
@@ -126,7 +126,7 @@ Postman categorizes keyboard shortcuts as navigation, manipulation, and global.
 
 Postman designs navigational shortcuts to help you navigate quickly between elements. For example, suppose you want to open and send a series of saved requests without a keyboard shortcut. You would have to select a request in the sidebar with a pointer each time to open it in the tab.
 
-With a keyboard shortcut, such as **CMD/CTRL + ALT + 1**, you can focus the sidebar from wherever you are in interface. You can then navigate to the request you want with the arrow keys. And if you combine the **CMD/CTRL + ALT + 1** shortcut with the **CMD/CTRL + Enter** shortcut, you can send a number of requests quickly.
+With a keyboard shortcut, such as **CMD/CTRL + ALT + 1**, you can focus the sidebar from wherever you are in interface. You can then navigate to the request you want with the arrow keys. And if you combine the **CMD/CTRL + ALT + 1** shortcut with the **CMD/CTRL + Enter** shortcut, you can send a number of requests quickly.
 
 **Manipulation Shortcuts**
 
@@ -134,16 +134,16 @@ Manipulation shortcuts allow you to quickly work on your current selection and p
 
 **Global Shortcuts**
 
-You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include "Save" (**CMD/CTRL + S**), "Save As" (**CMD/CTRL + Shift + S**), and "Send Request" (**CMD/CTRL + Enter**).
+You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include "Save" (**CMD/CTRL + S**), "Save As" (**CMD/CTRL + Shift + S**), and "Send Request" (**CMD/CTRL + Enter**).
 
-You can also use global shortcuts to perform user interface actions such as "Toggle to Sidebar" (**CMD/CTRL +** ),
-"Jump to URL" (**CMD/CTRL + L**), and "Open Console" (**CMD/CTRL + ALT + C**).
+You can also use global shortcuts to perform user interface actions such as "Toggle to Sidebar" (**CMD/CTRL +** ),
+"Jump to URL" (**CMD/CTRL + L**), and "Open Console" (**CMD/CTRL + ALT + C**).
 
 **View keyboard shortcuts for your OS**
 
-Different operating systems have different shortcuts.  
+Different operating systems have different shortcuts.  
 
-You can always view a complete list of your operating system's shortcuts when you click the **Keyboard Shortcuts** icon in the **Status bar**.
+You can always view a complete list of your operating system's shortcuts when you click the **Keyboard Shortcuts** icon in the **Status bar**.
 
 [![help icon](https://assets.postman.com/postman-docs/Keyboard_shortcuts.png)](https://assets.postman.com/postman-docs/Keyboard_shortcuts.png)
 
@@ -158,47 +158,47 @@ You can always view a complete list of your operating system's shortcuts when yo
 | Switch To Previous Tab   |   ⇧ ⌘ [     | Ctrl + Shift + [   |
 | Switch To Tab at Position   |   ⌘ 1 through ⌘ 8     | Ctrl + 1 through Ctrl + 8   |
 | Switch To Last Tab   |   ⌘ 9     | Ctrl + 9   |
-| Open Request from Sidebar in New Tab   |   ⌥ ⌘ (click)     | Ctrl + Shift + (click)   |
+| Open Request from Sidebar in New Tab   |   ⌥ ⌘ (click)     | Ctrl + Shift + (click)   |
 | **REQUEST**   |        |    |
 | Request URL   |   ⌘ L     | Ctrl + L   |
 | Save Request   |   ⌘ S     | Ctrl + S   |
 | Save Request As   |   ⇧ ⌘ S     | Ctrl + Shift + S   |
-| Send Request   |   ⌘ ↵     | Ctrl + Enter   |
-| Send And Download Request   |   ⌥ ⌘ ↵     | Ctrl + Alt + Enter   |
-| Scroll To Request   |   ⌥ ⌘ ↑     | Ctrl + Alt + ↑   |
-| Scroll To Response   |   ⌥ ⌘ ↓     | Ctrl + Alt + ↓   |
+| Send Request   |   ⌘ ↵     | Ctrl + Enter   |
+| Send And Download Request   |   ⌥ ⌘ ↵     | Ctrl + Alt + Enter   |
+| Scroll To Request   |   ⌥ ⌘ ↑     | Ctrl + Alt + ↑   |
+| Scroll To Response   |   ⌥ ⌘ ↓     | Ctrl + Alt + ↓   |
 | Beautify raw Request body   |   ⌘ B     | Ctrl + B   |
 | **SIDEBAR**   |        |    |
-| Search Sidebar   |   ⌘ F     | Ctrl + F   |
-| Toggle Sidebar   |   ⌘ \     | Ctrl + \   |
+| Search Sidebar   |   ⌘ F     | Ctrl + F   |
+| Toggle Sidebar   |   ⌘ \     | Ctrl + \   |
 | Next Item   |   ↓     | ↓   |
 | Previous Item   |   ↑     | ↑   |
 | Expand Item   |   →     | →   |
 | Collapse Item   |   ←     | ←   |
 | Select Item   |   ↵     | Enter   |
-| Rename Item   |   ⌘ E     | Ctrl + E   |
-| Group Items   |   ⌘ G     | Ctrl + G   |
-| Cut Item   |   ⌘ X     | Ctrl + X   |
-| Copy Item   |   ⌘ C     | Ctrl + C   |
-| Paste Item   |   ⌘ V     | Ctrl + V   |
-| Duplicate Item   |   ⌘ D     | Ctrl + D   |
+| Rename Item   |   ⌘ E     | Ctrl + E   |
+| Group Items   |   ⌘ G     | Ctrl + G   |
+| Cut Item   |   ⌘ X     | Ctrl + X   |
+| Copy Item   |   ⌘ C     | Ctrl + C   |
+| Paste Item   |   ⌘ V     | Ctrl + V   |
+| Duplicate Item   |   ⌘ D     | Ctrl + D   |
 | Delete Item   |   ⌫     | Del   |
 | **INTERFACE**   |        |    |
-| Zoom In   |   ⌘ +     | Ctrl + +   |
-| Zoom Out   |   ⌘ -     | Ctrl + -   |
-| Reset Zoom   |   ⌘ 0     | Ctrl + 0   |
-| Toggle Two-Pane View   |   ⌥ ⌘ V     | Ctrl + Alt + V   |
-| Switch To Sidebar   |   ⌥ ⌘ 1     | Ctrl + Alt + 1   |
-| Switch To Builder   |   ⌥ ⌘ 2     | Ctrl + Alt + 2   |
+| Zoom In   |   ⌘ +     | Ctrl + +   |
+| Zoom Out   |   ⌘ -     | Ctrl + -   |
+| Reset Zoom   |   ⌘ 0     | Ctrl + 0   |
+| Toggle Two-Pane View   |   ⌥ ⌘ V     | Ctrl + Alt + V   |
+| Switch To Sidebar   |   ⌥ ⌘ 1     | Ctrl + Alt + 1   |
+| Switch To Builder   |   ⌥ ⌘ 2     | Ctrl + Alt + 2   |
 | **WINDOWS AND MODALS**   |        |    |
-| New Requester Window   |   ⌘ N     | Ctrl + N   |
-| New Runner Window   |   ⇧ ⌘ N     | Ctrl + Shift + N   |
-| New Console Window   |   ⌥ ⌘ C     | Ctrl + Alt + C   |
-| Import   |   ⌘ O     | Ctrl + O   |
-| Manage Environments   |   ⌥ ⌘ E     | Ctrl + Alt + E   |
-| Settings   |   ⌘ ,     | Ctrl + ,   |
-| Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
-| Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
+| New Requester Window   |   ⌘ N     | Ctrl + N   |
+| New Runner Window   |   ⇧ ⌘ N     | Ctrl + Shift + N   |
+| New Console Window   |   ⌥ ⌘ C     | Ctrl + Alt + C   |
+| Import   |   ⌘ O     | Ctrl + O   |
+| Manage Environments   |   ⌥ ⌘ E     | Ctrl + Alt + E   |
+| Settings   |   ⌘ ,     | Ctrl + ,   |
+| Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
+| Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
 
 
 **Mouse actions**
@@ -210,7 +210,7 @@ To force close a tab, press **ALT** and click the **X** icon on the right side o
 
 ### Data editor
 
-Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience. 
+Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience. 
 
 **Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](https://learning.postman.com/docs/postman/launching_postman/newbutton/)
 
@@ -218,7 +218,7 @@ Working with large amounts of data can be cumbersome and time consuming. Postma
 
 We've configured the available horizontal and vertical space more effectively to optimize the data you can display up front.
 
-On hover, relevant features display for a specific row to reduce clutter in the interface and help you focus on the most relevant data.
+On hover, relevant features display for a specific row to reduce clutter in the interface and help you focus on the most relevant data.
 
 [![data editor layout](https://assets.postman.com/postman-docs/WS-visual-layout.png)](https://assets.postman.com/postman-docs/WS-visual-layout.png)
 
@@ -239,11 +239,11 @@ Drag your mouse to select multiple rows.
 | Select next rows   |   ⇧ ↓   | Shift + ↓  |
 | Select current row  |   ⇧ →     | Shift + →   |
 | Select current row  |   ⇧ ←     | Shift + ←   |
-| Move row(s) up   |   ⌘ ⇧ ↑     | Ctrl + Shift + ↑   |
-| Move row(s) down   |   ⌘ ⇧ ↓     | Ctrl + Shift + ↓   |
-| Copy - can multiselect and copy rows   |   ⌘ C    | Ctrl + C   |
-| Cut - can multiselect and cut rows   |   ⌘ X    | Ctrl + X   |
-| Paste  |   ⌘ V     | Ctrl + V  |
+| Move row(s) up   |   ⌘ ⇧ ↑     | Ctrl + Shift + ↑   |
+| Move row(s) down   |   ⌘ ⇧ ↓     | Ctrl + Shift + ↓   |
+| Copy - can multiselect and copy rows   |   ⌘ C    | Ctrl + C   |
+| Cut - can multiselect and cut rows   |   ⌘ X    | Ctrl + X   |
+| Paste  |   ⌘ V     | Ctrl + V  |
 | Delete - can multiselect and delete rows   |   ⌫     | Del  |
 | Deselect rows  |   ⎋    | Esc  |
 
@@ -257,7 +257,7 @@ You can select and copy multiple rows and then paste them in a different places 
 
 **Front view of information**
 
-You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.  
+You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.  
 
 [![expand to show info](https://assets.postman.com/postman-docs/WS-front-view.gif)](https://assets.postman.com/postman-docs/WS-front-view.gif)
 

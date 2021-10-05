@@ -23,6 +23,9 @@ contextual_links:
   - type: link
     name: "Intro to the Postman API"
     url: "/docs/developer/intro-api/"
+  - type: link
+    name: "CI Integrations"
+    url: "/docs/integrations/ci-integrations/"
 
 warning: false
 tags:
@@ -43,6 +46,8 @@ You will set up your CI configuration to run a shell command upon starting your 
 In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/), a continuous integration service that builds and tests projects on GitHub.
 
 Travis CI runs your tests every time you commit to your GitHub repo. Then it submits a pull request, or some other specified configuration.
+
+> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools, including Travis CI. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
 
 [![travis workflow](https://assets.postman.com/postman-docs/travis_workflow.png)](https://assets.postman.com/postman-docs/travis_workflow.png)
 
@@ -73,15 +78,15 @@ Let's learn more about integration with Travis:
 
     [![tree view tests directory](https://assets.postman.com/postman-docs/travis_tree.png)](https://assets.postman.com/postman-docs/travis_tree.png)
 
-1. Create a new file called `.travis.yml` and move it to the root of your project repository.
+1. Create a new file called `.travis.yml` and move it to the root of your project repository.
 
-    Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to  build it.
+    Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to  build it.
 
-    Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build). These scripts will execute the next time you commit and push a change to your repo.
+    Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build). These scripts will execute the next time you commit and push a change to your repo.
 
     [![tree view yml](https://assets.postman.com/postman-docs/travis_tree_yml.png)](https://assets.postman.com/postman-docs/travis_tree_yml.png)
 
-1. In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory).
+1. In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory).
 
     Since Travis CI doesn’t know where Newman is located, let's update the `PATH`. In this node.js example, the `newman` tool is located in my `.bin` directory which is located in my `node_modules` directory.
 
@@ -106,7 +111,7 @@ Let's learn more about integration with Travis:
 
 Travis CI is now set up to run your Postman tests every time you trigger a build, for example, by pushing a commit to your repo.
 
-Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) will show if the build passes or fails:
+Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) will show if the build passes or fails:
 
 [![travis fail](https://assets.postman.com/postman-docs/travis_fail.png)](https://assets.postman.com/postman-docs/travis_fail.png)
 

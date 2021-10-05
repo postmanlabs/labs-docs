@@ -32,7 +32,7 @@ warning: false
 
 ## What is Syncing?
 
-Syncing makes all your Postman data available when you're signed in to your Postman account.
+Syncing makes all your Postman data available when you're signed in to your Postman account.
 
 Changes, such as edits, updates, additions, or deletions, sync across all devices that are linked to your account.
 
@@ -68,7 +68,7 @@ Postman indicates the sync state of your workspace. The flow diagram for sync st
 
 [![Sync States](https://assets.postman.com/postman-docs/sync-states-flow.jpg)](https://assets.postman.com/postman-docs/sync-states-flow.jpg)
 
-If you are not signed in to Postman, you see the state as **Offline**. Click **Sign In** to connect to Postman.
+If you are not signed in to Postman, you see the state as **Offline**. Click **Sign In** to connect to Postman.
 
 If you are offline, you will be in the _Scratch Pad_, which is a space where you can work locally without a connection or login to Postman. The work that you do in the Scratch Pad will not be synced to Postman, but you can export it and import it to a workspace later. For more information see, [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
 
@@ -82,7 +82,7 @@ When you click the icon, you will see **Syncing** in **Online** state. The popup
 
 [![Online state syncing](https://assets.postman.com/postman-docs/online-state-syncing.jpg)](https://assets.postman.com/postman-docs/online-state-syncing.jpg)
 
-If Postman is in sync with the server, the icon to the left of your name at the top right indicates **Online**, and displays a popup showing **In sync** on hover.
+If Postman is in sync with the server, the icon to the left of your name at the top right indicates **Online**, and displays a popup showing **In sync** on hover.
 
 [![Online state in sync](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)
 

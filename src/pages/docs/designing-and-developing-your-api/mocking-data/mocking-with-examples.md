@@ -90,7 +90,7 @@ In the previous steps, you prepared the collection, request, and example respons
 
 There are two ways to create a mock for a collection: 1) using the Postman app and 2) [using the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/). In this example, you will mock a collection using Postman.
 
-Click on the arrow (&#9656;) next to the collection you wish to mock to expand the collection details view.
+Click on the arrow (&#9656;) next to the collection you wish to mock to expand the collection details view.
 
 [![mock in collection details view](https://assets.postman.com/postman-docs/WS-anuhyaMock10.png)](https://assets.postman.com/postman-docs/WS-anuhyaMock10.png)
 

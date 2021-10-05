@@ -43,13 +43,13 @@ _pm('env.create', 'Spotify', {
 
 ## Creating a new environment
 
-Use the `env.create` method to create a new environment:
+Use the `env.create` method to create a new environment:
 
 ```javascript
 _pm('env.create', 'environment_name', {key: value}, runButtonIndex);
 ```
 
-> `env.create` cannot be used to create duplicate environments. Calls made with existing environment names will fail.  
+> `env.create` cannot be used to create duplicate environments. Calls made with existing environment names will fail.  
 
 Create a new environment using API keys entered by your user:
 
@@ -67,7 +67,7 @@ function () {
 }
 ```
 
-The `env.create` action will return true on success, false on failure.
+The `env.create` action will return true on success, false on failure.
 
 ## Editing an existing environment
 
@@ -77,8 +77,8 @@ Use the `env.assign` method to modify an environment:
 _pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventDefault, runButtonIndex)
 ```
 
-> The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added using the `env.create` method.
-> `env.assign` cannot be used to create new environments. Calls made using `env.assign` will fail if an environment does not already exist.
+> The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added using the `env.create` method.
+> `env.assign` cannot be used to create new environments. Calls made using `env.assign` will fail if an environment does not already exist.
 
 Update an environment's API keys:
 
@@ -97,17 +97,17 @@ function () {
 }
 ```
 
-The `env.assign` action will return true on success, false on failure.
+The `env.assign` action will return true on success, false on failure.
 
 ## Replacing an existing environment
 
-Use the `env.replace` method to replace an entire environment:
+Use the `env.replace` method to replace an entire environment:
 
 ```javascript
 _pm('env.replace', 'environment_name', {key: value}, runButtonIndex)
 ```
 
-> `env.replace` cannot be used to replace an environment which does not exist.
+> `env.replace` cannot be used to replace an environment which does not exist.
 
 Replace an environment:
 
@@ -123,7 +123,7 @@ Replace an environment:
 _pm('env.replace', 'user_data', {});
 ```
 
-The `env.replace` method will return true on success, false on failure.
+The `env.replace` method will return true on success, false on failure.
 
 ## Using multiple buttons with separate environments
 

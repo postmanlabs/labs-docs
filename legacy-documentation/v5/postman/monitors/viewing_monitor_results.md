@@ -7,19 +7,19 @@ warning: false
 
 You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](https://learning.postman.com/docs/postman/monitors/setting_up_monitor/) in the settings. 
 
-In addition, you can receive important notifications (both [in-app](https://learning.postman.com/docs/postman/notifications) and email) if a monitor fails.
+In addition, you can receive important notifications (both [in-app](https://learning.postman.com/docs/postman/notifications) and email) if a monitor fails.
 
 [![email summary of monitors](https://assets.postman.com/postman-docs/monitoring-email-results1.png)](https://assets.postman.com/postman-docs/monitoring-email-results1.png)
 
 ### Monitors page
 
-The [Monitors](https://monitor.getpostman.com/) page lists all your monitors (both team and private). 
+The [Monitors](https://monitor.getpostman.com/) page lists all your monitors (both team and private). 
 
 [![monitors page](https://assets.postman.com/postman-docs/monitoring-results-page.png)](https://assets.postman.com/postman-docs/monitoring-results-page.png)
 
 You can click a monitor to view more details about its performance and troubleshooting, such as:
 
-| **Status** | The number of failed runs in the selected timeframe. A ‘Healthy’ status indicates there were no failures in any of the runs. |
+| **Status** | The number of failed runs in the selected timeframe. A ‘Healthy’ status indicates there were no failures in any of the runs. |
 | **Average success rate** | The percent of successful runs out of the total runs in the timeframe. A run is successful only when all the tests pass during that run. You can also see a change in this value compared to the previous time period. |
 | **Average response time** | The average response time of all the requests over all the runs in milliseconds. You can also see the percentage change from the previous time period. |
 
@@ -29,7 +29,7 @@ You can click a monitor to view more details about its performance and troublesh
 
 When you click a monitor, the Monitor Performance page appears. The main timeline shows all past runs of the monitor. Each bar signifies one run of the monitor. 
 
-Red indicates failing tests. Blue indicates the total response time of all the requests over time. 
+Red indicates failing tests. Blue indicates the total response time of all the requests over time. 
 
 These visuals are a great way to measure performance improvements when you’ve made changes to your infrastructure.
 
