@@ -67,7 +67,7 @@ As soon as your monitor runs, the data will start flowing into Datadog.
 
 [![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
 
-Once the data is present in Datadog, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and environment name/uid (if present). You can also combine different metrics to create a dashboard.
+Once the data is present in Datadog, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and environment name/uid (if present). You can also combine different metrics to create a dashboard.
 
 [![datadog filters](https://assets.postman.com/postman-docs/58831776.png)](https://assets.postman.com/postman-docs/58831776.png)
 

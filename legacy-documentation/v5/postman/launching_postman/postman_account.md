@@ -13,7 +13,7 @@ When you sign up for a free Postman account, you can:
    *   Easily work on multiple Postman instances from different machines.
    *   Create [collection links](https://learning.postman.com/docs/postman/collections/sharing_collections/) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.postman.com/legal/eula/), [security page](https://www.postman.com/security), and [privacy page](https://www.postman.com/licenses/privacy) to know more.
+Signing up is completely optional. Read our [EULA](https://www.postman.com/legal/eula/), [security page](https://www.postman.com/security), and [privacy page](https://www.postman.com/licenses/privacy) to know more.
 
 
 ### Signing up for a Postman account
@@ -25,7 +25,7 @@ Signing up is completely optional. Read our [EULA](https://www.postman.com/legal
     [![sign up with email or google](https://assets.postman.com/postman-docs/signUp.png)](https://assets.postman.com/postman-docs/signUp.png)  
 4. Confirm your email.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](https://learning.postman.com/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.postman.com/hc/en-us).
+Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](https://learning.postman.com/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.postman.com/hc/en-us).
 
 [![header bar](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)
 

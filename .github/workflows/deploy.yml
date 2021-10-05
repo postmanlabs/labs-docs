@@ -1,6 +1,6 @@
 name: Deploy
 
-on: 
+on:
   push:
     branches:
     - develop
@@ -9,7 +9,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
@@ -32,12 +32,13 @@ jobs:
         RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
 
       run: |
+        npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
         npm run clean
         npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket postman-learning-center-beta --deleteRemoved --distId $DIST_ID --invalidate '/*'
 
     - name: update Algolia with GA Pageviews
-      env: 
+      env:
         ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
         GOOGLE_ALGOLIA_CREDENTIALS: ${{secrets.GOOGLE_ALGOLIA_CREDENTIALS}}
         GOOGLE_PROJECT_ID: ${{secrets.GOOGLE_PROJECT_ID}}
@@ -48,6 +49,7 @@ jobs:
         GOOGLE_AUTH_CERT: ${{secrets.GOOGLE_AUTH_CERT}}
         GOOGLE_CLIENT_CERT: ${{secrets.GOOGLE_CLIENT_CERT}}
       run: |
+        npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install;
         type=service_account project_id=$GOOGLE_PROJECT_ID private_key_id=$GOOGLE_PRIVATE_KEY private_key=$GOOGLE_PRIVATE_KEY_2 client_email=$GOOGLE_CLIENT_EMAIL client_id=$GOOGLE_CLIENT_ID auth_uri=https://accounts.google.com/o/oauth2/auth token_uri=https://oauth2.googleapis.com/token auth_provider_x509_cert_url=$GOOGLE_AUTH_CERT client_x509_cert_url=$GOOGLE_CLIENT_CERT node -p -e 'const {type,private_key_id,private_key,project_id,client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url} = process.env; require("fs").writeFile("auth.json", JSON.stringify({type,project_id,private_key_id,private_key:private_key.replace(/\\n/g,"\n"),client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url},null,2), err=>{})'
         GOOGLE_APPLICATION_CREDENTIALS=auth.json ALGOLIA_ADMIN_KEY=$ALGOLIA_ADMIN_KEY node ga_connector.js;
@@ -57,4 +59,4 @@ jobs:
 
 
 
-    
+

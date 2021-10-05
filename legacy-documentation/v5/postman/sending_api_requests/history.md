@@ -8,7 +8,7 @@ warning: false
 
 All requests you send using Postman are stored in the history which you can access using the left sidebar. The history lets you experiment with variations of requests quickly without wasting time building a request from scratch. You can load a previous request by clicking on the request name.
 
-If you create an account and sign in to Postman, your history will be synced with our server, backed up in realtime, and retrievable across your devices. If you sign out of your Postman account, and then log back in, the last 10 requests will remain in your history. Postman Pro and Enterprise users will have access to the last 100 requests.  The same policy holds for collection runs. Remember that you can always save as many requests in [collections](https://learning.postman.com/docs/postman/collections/creating_collections/) as you want.
+If you create an account and sign in to Postman, your history will be synced with our server, backed up in realtime, and retrievable across your devices. If you sign out of your Postman account, and then log back in, the last 10 requests will remain in your history. Postman Pro and Enterprise users will have access to the last 100 requests.  The same policy holds for collection runs. Remember that you can always save as many requests in [collections](https://learning.postman.com/docs/postman/collections/creating_collections/) as you want.
 
 [![history sidebar](https://assets.postman.com/postman-docs/WS-history.png)](https://assets.postman.com/postman-docs/WS-history.png)
 
@@ -16,7 +16,7 @@ From the **History** tab within the sidebar:
 
 ##### **Navigate through requests**
 
-Click on a request in this tab to load the exact request configuration in the builder. You can use the up and down arrow keys on your keyboard to navigate through the requests. Postman will load the request in a preview state. Pressing **Enter** will ensure that the request is not replaced by another one.
+Click on a request in this tab to load the exact request configuration in the builder. You can use the up and down arrow keys on your keyboard to navigate through the requests. Postman will load the request in a preview state. Pressing **Enter** will ensure that the request is not replaced by another one.
 
 ##### **Find requests**
 
@@ -28,7 +28,7 @@ Hold down the **CMD** key (or **CTRL** on Windows), and click on each request th
 
 ##### **Save requests to a collection**
 
-To organize commonly used requests, you can save them from your history to a collection. To save a single request to a collection, hover over it and click the plus icon (**+**) that displays next to it. When selecting multiple requests, the plus icon (**+**) will display at the top of the sidebar. Click on the plus icon (**+**). Select an existing collection, or create a new collection, to save the requests to a collection.
+To organize commonly used requests, you can save them from your history to a collection. To save a single request to a collection, hover over it and click the plus icon (**+**) that displays next to it. When selecting multiple requests, the plus icon (**+**) will display at the top of the sidebar. Click on the plus icon (**+**). Select an existing collection, or create a new collection, to save the requests to a collection.
 
 [![save multiple requests](https://assets.postman.com/postman-docs/saveMultipleRequests.png)](https://assets.postman.com/postman-docs/saveMultipleRequests.png)
 

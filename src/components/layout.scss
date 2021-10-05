@@ -1,9 +1,26 @@
 @import './Shared/_variables.scss';
+@import '../../styles/config/normalize.css';
 @import '../../styles/config/typography.css';
 
-// Footer has font Open Sans
-* {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', Helvetica, Arial, sans-serif;
+@-moz-document url-prefix() {
+  html {
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+body {
+  font-family: $inter;
+  color: $grey_90;
+  font-feature-settings: "ss01", "onum", "zero";
+  font-weight: 400;
+  text-rendering: geometricPrecision;
+  letter-spacing: -0.16px;
+}
+/** * Firefox specific rule */
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
 }
 
 code {
@@ -17,37 +34,104 @@ code {
 }
 
 h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  font-family: $degular;
+  font-weight: 600;
+  font-feature-settings: 'kern' 1, 'ss01' 1, 'salt' 1;
+}
+/** * Firefox specific rule */
+@-moz-document url-prefix() {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    font-weight: lighter !important;
+  }
+}
+
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: $inter;
+  font-weight: 600;
+}
+
+h1,
 .h1 {
-  font-family: 'Degular Display Demo' !important;
-  font-size: 48px !important;
-  line-height: 1.2083333333 !important;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: 0.64px;
+  margin: 0 0 24px 0;
+
+  @media (max-width: 576px) {
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 16px 0;
+  }
 }
 
 h2,
 .h2 {
-  font-family: 'Degular Display Demo' !important;
-  font-size: 38px !important;
-  line-height: 1.2631578947 !important;
+  font-size: 36px;
+  letter-spacing: 0.48px;
+  line-height: 1.1666666667;
+  margin: 0 0 16px 0;
+
+  @media (max-width: 576px) {
+    font-size: 28px;
+    line-height: 1.1428571429;
+  }
 }
 
 h3,
 .h3 {
-  font-family: 'Inter' !important;
-  font-size: 30px !important;
-  line-height: 1.2666666667 !important;
+  font-size: 28px;
+  letter-spacing: 0.64px;
+  line-height: 1.1428571429;
+  margin: 0 0 16px 0;
+
+  @media (max-width: 576px) {
+    font-size: 24px;
+    letter-spacing: -0.64px;
+    line-height: 1.5;
+  }
 }
 h4,
 .h4 {
-  font-family: 'Inter' !important;
-  font-size: 20px !important;
-  line-height: 28px !important;
-  font-weight: 600 !important;
-  letter-spacing: -0.32px!important;
-  margin-bottom: 8px !important;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.32px;
+  margin: 0 0 8px 0;
 }
 
 p {
   font-size: 16px;
+  margin: 0 0 24px 0;
+  line-height: 1.625;
+}
+
+.subtitle {
+  font-size: 22px;
+  letter-spacing: -0.36px;
+  line-height: 32px;
+  margin: 0 0 32px 0 !important;
+
+  @media (max-width: 576px) {
+    margin: 0 0 16px 0;
+  }
+}
+
+strong, .bold {
+  font-weight: 600;
 }
 
 // refresh 2021 layout changes
@@ -110,11 +194,11 @@ div.col-sm-7.doc-page {
 
 .hellobar__text { 
   min-height: 100%;
-  margin-bottom: 0px;
+  margin: 0px;
   text-align: center;
   padding: 10px;
   color: #282828;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .hellobar__close-button {
@@ -129,7 +213,7 @@ div.col-sm-7.doc-page {
 
 .hellobar__postman-link {
   height: 24px;
-  font-weight: 700;
+  font-weight: 600;
   color: #282828;
   background-image: linear-gradient(180deg, transparent 50%, rgba(249,157,120,.5) 0);
   padding-right: 4px;

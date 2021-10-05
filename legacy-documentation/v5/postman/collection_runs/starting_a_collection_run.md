@@ -5,9 +5,9 @@ warning: false
 
 ---
 
-Collections are groups of requests that can be run together as a series of requests, against a corresponding environment. Using scripts, you can build integration test suites, pass data between API requests, and build workflows that mirror your actual use case of APIs.
+Collections are groups of requests that can be run together as a series of requests, against a corresponding environment. Using scripts, you can build integration test suites, pass data between API requests, and build workflows that mirror your actual use case of APIs.
 
-Collections can be run within the Postman app using the collection runner, from the command line using Postman's [Newman](https://learning.postman.com/docs/postman/collection_runs/command_line_integration_with_newman/) tool, or on scheduled intervals using [Postman Monitors](https://learning.postman.com/docs/postman/monitors/intro_monitors/).
+Collections can be run within the Postman app using the collection runner, from the command line using Postman's [Newman](https://learning.postman.com/docs/postman/collection_runs/command_line_integration_with_newman/) tool, or on scheduled intervals using [Postman Monitors](https://learning.postman.com/docs/postman/monitors/intro_monitors/).
 
 Running a collection is useful when you want to automate API testing. When you run a collection, you're essentially sending all requests in your collection one after another. Let's go over several parameters that you can configure for a collection run.
 

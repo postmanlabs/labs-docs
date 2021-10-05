@@ -60,7 +60,7 @@ To publish from the collection, select the collection in __Collections__, open t
 
 ![Publish Docs](https://assets.postman.com/postman-docs/view-docs-b.jpg)
 
-> Any confidential information in your environment, such as __passwords and access tokens__ may become publicly visible when you publish your docs. Remove all sensitive information from the environment before you publish.
+> Any confidential information in your environment, such as __passwords and access tokens__ may become publicly visible when you publish your docs. Remove all sensitive information from the environment before you publish.
 
 ### Configuring your public docs
 

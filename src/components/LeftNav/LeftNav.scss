@@ -31,17 +31,31 @@ li {
   background-color: $grey_05;
   height: 100%;
   font-size: 14px;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
-  padding: 32px 8px 8px 20px;
+  font-family: $inter;
+  padding: 32px 0px 8px 00px;
+  
+  & ul {
+    margin-left: 0;
+    & ul {
+      margin-left: 32px;
+      margin-top: 8px;
+      & ul {
+        margin-left: 32px;
+        margin-top: 12px;
+      }
+    }
+  }
   .active.root > .parent.currentUrl {
     background-color: inherit;
     color: inherit;
-    padding-left: 70px;
-    & button {
-      &:hover{
+    // padding-left: 70px;
+    button:hover{
         color: $grey_60;
       }
     }
+  .parent.currentUrl button:hover {
+    color: $grey_90 !important;
+    background-color: $grey_05;
   }
   .root > .parent{
     button {
@@ -50,20 +64,22 @@ li {
   }
   .parent {
     list-style-type: none;
-    margin-left: -10px;
+    margin-bottom: 4px;
+
+    & .caret-wrapper {
+      width: 24px;
+      &:hover {
+        cursor: default;
+      }
+    }
+
     .caret {
-      position: relative;
-      left: -8px;
       transition: transform .2s ease;
       -webkit-transform: rotate(-90deg);
       -moz-transform: rotate(-90deg);
       -o-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
       transform: rotate(-90deg);
-      @media screen and (min-width: 768px) {
-        width: 10%;
-        height: 24px;
-      }
       
       &.active-caret {
         transition: transform .2s ease;
@@ -73,6 +89,10 @@ li {
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
       }
+    }
+
+    .caret-sibling {
+      padding-left: 0;
     }
 
     & button {
@@ -87,7 +107,6 @@ li {
       text-transform: capitalize;
 
       @media screen and (min-width: 768px) {
-        width: 90%;
       text-align: left;
       }
       &:hover{
@@ -96,10 +115,9 @@ li {
     }
 
     &.currentUrl {
-      // background-color: $grey_60;
-      // color: $white;
-      margin: 0 -8px 0 -80px;
-      padding: 0 0 8px 70px;
+      // margin: 0 -8px 0 -80px;
+      // padding: 0 0 8px 70px;
+      margin-bottom: 8px;
       & button {
         &:hover {
           color: $white;
@@ -111,10 +129,11 @@ li {
   .child {
     margin-left: 28px;
     margin-bottom: 24px;
+    
 
     &.currentUrl{
-      font-weight: 700;
-      margin-left: 23px;
+      font-weight: 600;
+      // margin-left: 23px;
 
       > * {
         vertical-align: middle;
@@ -131,7 +150,7 @@ li {
       // }
 
       a:link, a:visited {
-        margin-left: 5px;
+        // margin-left: 5px;
         background-color: rgb(242, 242, 242);
         color: $grey_90;
         border-radius: 3px;
@@ -158,6 +177,10 @@ li {
   ul.active > .child {
     color: $grey_50;
     margin-bottom: 0;
+    & a {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
   }
 
   ul.inactive > .child, ul.inactive > ul {

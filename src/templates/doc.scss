@@ -22,6 +22,8 @@
   // WIP - need to get ul li markers to move away from text
   ///////////////////////////////////////////////////////////////////
   ul {
+    margin-left: 16px;
+    margin-bottom: 24px;
 
     li::marker {
       padding-inline-start: 39px;
@@ -38,8 +40,9 @@
       } 
     
     li {
-      padding: 10px !important;
       margin-bottom: 8px;
+      line-height: 1.625;
+      padding: 0 0 0 16px;
 
       li::before {
         direction: rtl !important;
@@ -49,13 +52,15 @@
       }
     }
     li::before {
+      // content: "\2726";
+      // color: $orange_30 !important;
       direction: rtl !important;
       margin-left: -28px !important;
       padding-right: 16px !important;
       width: 28px !important;
     }
 
-    list-style-type: '✦';
+    list-style-type: '\2726';
 
     li::marker {
       color: $orange_30 !important;
@@ -80,7 +85,28 @@
     &:hover {
       text-decoration: none;
       border-bottom: 1px solid $blue_60;
+      & img {
+        border: none !important;
+        display: block;
+      }
+
     }
+
+    &.anchor.before {
+      top: .2em;
+      padding-right: 8px;
+      
+      & svg {
+        width: auto;
+        height: .9em;
+        display: block;
+      }
+    }
+
+    &.anchor:hover {
+        border: none !important;
+        display: block;
+    }  
 
     &.alternative {
       color: #fff;
@@ -106,13 +132,25 @@
   // z-index: -1;
   padding-left: 0px !important;
   padding-right: 0px !important;
+  @media screen and (min-width: 768px) {
+    max-width: 350px;
+  }
+
+  & li {
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
 
 /* Blockquotes */
 blockquote {
-  padding: 0 24px;
-  color: #6a737d;
-  border-left: 5px solid #dfe2e5;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid $grey_20 1px;
+  border-radius: 8px;
+  padding: 16px 24px;
+  background-color: $grey_05;
 }
 
 .edit-button {
@@ -177,10 +215,12 @@ thead:first-child:hover tr{
 */
 :not(pre) > code[class*="language-"] {
   font-family: $ibm;
-  background-color: $grey_30 !important;
+  background-color: #f9f9f9 !important;
   color: $grey_90;
-  padding: 3px !important;
-  font-size: 16px !important;
+  padding: 1px 4px 2px !important;
+  font-size: 15px !important;
+  box-shadow: inset 0 0 0 1px $grey_30;
+  border-radius: 3px !important;
 }
 
 code[class*="language-"] {

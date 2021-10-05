@@ -9,6 +9,7 @@ import React from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import marketo from '../../scripts/marketo.munchkin';
+import '../../styles/config/normalize.css';
 import './layout.scss';
 // import HelloBar from './Hellobar';
 

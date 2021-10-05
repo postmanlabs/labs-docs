@@ -73,9 +73,9 @@ This section describes the following topics:
 
 You can create an account for a user in the Identity Provider (IdP).
 
-The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was enabled during SSO configuration.
+The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was enabled during SSO configuration.
 
-The user will be automatically associated to the team with a **developer** role and have access to team resources.
+The user will be automatically associated to the team with a **developer** role and have access to team resources.
 
 ### Adding existing user accounts
 
@@ -96,4 +96,4 @@ By default, Postman only supports Service Provider initiated logins for Postman 
 
 ### Removing team access
 
-An admin must remove users from their Postman team to prevent access to shared resources.
+An admin must remove users from their Postman team to prevent access to shared resources.

@@ -13,10 +13,10 @@ A Postman Collection lets you group individual requests together. You can organi
 
 ### Why create collections?
 
-*   **Organization** - Group together requests into folders and collections, so that you don't have to search through your history repeatedly.
-*   **Documentation** - Add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
-*   **Test suites** - Attach test scripts to requests and build integration test suites.
-*   **Conditional workflows** - Use scripts to pass data between API requests and build workflows that mirror your actual API use case.
+*   **Organization** - Group together requests into folders and collections, so that you don't have to search through your history repeatedly.
+*   **Documentation** - Add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
+*   **Test suites** - Attach test scripts to requests and build integration test suites.
+*   **Conditional workflows** - Use scripts to pass data between API requests and build workflows that mirror your actual API use case.
 
 ### Creating a new collection
 
@@ -154,7 +154,7 @@ The  **Create New** tab appears by default when you launch Postman.
 
 **Multiple requests**
 
- 1. To save multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
+ 1. To save multiple requests, click the plus (**+**) icon  that displays at the top of the sidebar.
  2. In the <b>SAVE MULTIPLE REQUESTS</b> modal, select a collection or folders to save the requests.
  3. Click the **Save** button.
  
@@ -166,7 +166,7 @@ The  **Create New** tab appears by default when you launch Postman.
 ### Duplicating an existing collection
 
 1.  In the sidebar, select "Collections".
-2. Click the ellipsis (...) to expand the control dropdown.   
+2. Click the ellipsis (...) to expand the control dropdown.   
    
 [![collection ellipsis](https://assets.postman.com/postman-docs/duplicate_collection1.png)](https://assets.postman.com/postman-docs/duplicate_collection1.png)
 

@@ -7,11 +7,11 @@ warning: false
 
 ---
 
-Postman's web [dashboard](https://go.postman.co/team) provides a number of ways to manage your team.
+Postman's web [dashboard](https://go.postman.co/team) provides a number of ways to manage your team.
 
 ### Member roles
 
-Everyone in your team is a **member**. Each member has certain **roles**, which let them perform sets of actions.
+Everyone in your team is a **member**. Each member has certain **roles**, which let them perform sets of actions.
 
 Postman supports 3 member roles:
 
@@ -66,6 +66,6 @@ These invites will be visible at the bottom of the member listing. If you don't 
 
 ### Changing team size
 
-**For billing members**: If you're out of paid slots and need to invite more users, you'll need to click "Add Users" on the [teams page](https://go.postman.co/team). You'll need to have a saved card to add users. Annual teams will be billed a pro-rated amount for the number of days left in the billing cycle.
+**For billing members**: If you're out of paid slots and need to invite more users, you'll need to click "Add Users" on the [teams page](https://go.postman.co/team). You'll need to have a saved card to add users. Annual teams will be billed a pro-rated amount for the number of days left in the billing cycle.
 
   [![add users](https://assets.postman.com/postman-docs/addUsers.jpg)](https://assets.postman.com/postman-docs/addUsers.jpg)
