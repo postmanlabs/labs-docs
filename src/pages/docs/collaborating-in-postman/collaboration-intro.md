@@ -103,15 +103,17 @@ Enabling team discovery encourages collaboration and eases the onboarding proces
 
 ### Making your team discoverable
 
-You can enable team discovery in the dashboard by selecting **Team** > **Settings**, or in the app by selecting **Team** > **Team Settings** > **Team Discovery**. You will receive an email notification once you enable team discovery option.
+You can enable team discovery in the dashboard by selecting **Team** > **Team Settings** > [**Team Discovery**](https://go.postman.co/settings/team/discovery).
 
-[![Team Discovery Setup](https://assets.postman.com/postman-docs/team-discovery-question.jpg)](https://assets.postman.com/postman-docs/team-discovery-question.jpg)
+[![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)
 
-You can optionally add a question for pending team members to provide information when they request to join the team, for any details that will help when approving requests. Enter your question and click __Save Question__—anyone requesting to join the team will be prompted with the question.
+> Team admins will receive an email notification when team discovery is enabled.
+
+You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and click __Update Question__—anyone requesting to join the team will be prompted with the question.
 
 > If you do not specify a question, team members can still add a note when they ask to join.
 
-You will receive a notification when anyone makes a request to join the team, including their answer to any question you set, or an optional note.
+You will receive a notification when anyone makes a request to join your team, including their answer to any question you set, or an optional note.
 
 [![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)
 
