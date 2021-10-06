@@ -43,7 +43,10 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Security policies and standards](#security-policies-and-standards)
 * [Updating your username](#updating-your-username)
 * [Changing your email address](#changing-your-email-address)
+* [Updating your profile](#updating-your-profile)
 * [Making your profile public](#making-your-profile-public)
+* [Updating your notification preferences](#updating-your-notification-preferences)
+* [Managing your active sessions](#managing-your-active-sessions)
 * [Resetting your password](#resetting-your-password)
 * [Contacting Postman support](#contacting-postman-support)
 
@@ -93,7 +96,7 @@ Your profile will be visible to collaborators and anyone viewing resources you s
 
 ## Signing into Postman
 
-You can sign into Postman by clicking **Sign In** in the upper-right corner of Postman, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and clicking **Sign In** in the upper-right corner.
+You can sign into Postman by clicking **Sign In** in the upper-right corner, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and clicking **Sign In** in the upper-right corner.
 
  <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 
@@ -155,15 +158,39 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 
 ## Updating your username
 
-You can update your username at any time by [navigating to your profile settings](https://go.postman.co/settings/me), editing your username, and clicking **Save Changes**.
+You can update your username at any time by navigating to your [account settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Edit your username and select **Update Profile** to save changes.
 
 ## Changing your email address
 
-You can change the email address associated with your Postman account by [navigating to your account settings](https://go.postman.co/settings/me/account), editing your email address, and clicking **Save Changes**.
+You can change the email address associated with your Postman account by navigating to your [account settings](https://go.postman.co/settings/me/account). Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
+
+## Updating your profile
+
+You can update your Postman profile by navigating to your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. You can update your name and username, add details about you, and add links to your website and social media pages. Select **Update Profile** to save changes.
+
+<img alt="Edit profile" src="https://assets.postman.com/postman-docs/edit-profile-v9.0.jpg">
+
+> Your Postman profile is visible to your Postman team, and you can opt to [make your profile public](#making-your-profile-public) to the Postman community.
 
 ## Making your profile public
 
-You can enable or disable your public profile at any time by [navigating to your profile settings](https://go.postman.co/settings/me), selecting the toggle, and clicking **Save Changes**.
+You can enable or disable your public profile at any time in your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
+
+<img alt="Make profile public" src="https://assets.postman.com/postman-docs/make-profile-public-v9.jpg">
+
+## Updating your notification preferences
+
+You can update your [notification preferences](https://go.postman.co/settings/me/notifications) by selecting your avatar in the upper-right corner > **Notification Preferences**.
+
+You can opt in to or out of email or in app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
+
+<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9.jpg">
+
+## Managing your active sessions
+
+You can manage your [active Postman sessions](https://go.postman.co/settings/me/sessions) by selecting your avatar in the upper-right corner > **Active Sessions**. You can view all of the devices you're logged in to Postman on and revoke any sessions you no longer use or recognize. You can also choose to **Revoke all sessions**.
+
+<img alt="Active sessions" src="https://assets.postman.com/postman-docs/active-sessions-v9.jpg">
 
 ## Resetting your password
 
