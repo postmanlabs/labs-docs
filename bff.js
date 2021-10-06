@@ -5,29 +5,31 @@ const pingWebHook = require('./scripts/pingWebHook');
 const fetchBlogPosts = require('./scripts/fetchBlogPosts');
 const fetchEvents = require('./scripts/fetchEvents');
 
-const runtime = {
-  pm: ['node_modules/@postman/pm-tech/index.js'],
-};
+if (process.env.NPM_TOKEN) {
+  const runtime = {
+    pm: ['node_modules/@postman/pm-tech/index.js'],
+  };
 
-sh.exec('mkdir -p public');
+  sh.exec('mkdir -p public');
 
-Object.keys(runtime).forEach((key) => {
-  const fileBuffer = fs.readFileSync(runtime[key][0]);
-  const hashSum = crypto.createHash('sha1');
-  const ext = runtime[key][0]
-    .split('/')
-    .pop()
-    .split('.')
-    .pop();
+  Object.keys(runtime).forEach((key) => {
+    const fileBuffer = fs.readFileSync(runtime[key][0]);
+    const hashSum = crypto.createHash('sha1');
+    const ext = runtime[key][0]
+      .split('/')
+      .pop()
+      .split('.')
+      .pop();
 
-  hashSum.update(fileBuffer);
+    hashSum.update(fileBuffer);
 
-  const hex = hashSum.digest('hex');
+    const hex = hashSum.digest('hex');
 
-  runtime[key].push(`_${hex}.${ext}`);
+    runtime[key].push(`_${hex}.${ext}`);
 
-  sh.exec(`cp ${runtime[key][0]} public/${runtime[key][1]}`);
-});
+    sh.exec(`cp ${runtime[key][0]} public/${runtime[key][1]}`);
+  });
+}
 
 const prefetch = async (dir, response) => {
   sh.exec('mkdir -p bff-data');
@@ -35,13 +37,15 @@ const prefetch = async (dir, response) => {
   fetchBlogPosts();
   fetchEvents();
 
-  const script = `
+  const script = process.env.NPM_TOKEN && `
     if (window) {
       if (!window.pm) {
         window.pm = {};
       }
       window.pm.tech = '${runtime.pm[1]}';
     }
+  ` || `
+    console.info('Postman OSS');
   `;
 
   fs.writeFile('bff.json', JSON.stringify({ script }), (err) => {
