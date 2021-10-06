@@ -4,9 +4,10 @@
 .left-nav-re {
   padding: 32px 0px 8px 0px;
   background-color: $grey_05;
-  height: 100%;
+  // height: 100%;
   font-size: 14px;
   font-family: $inter;
+  // max-width: 350px;
 
   & ul {
     margin-left: 0;

@@ -2,6 +2,7 @@
 export const leftNavItems = [
   {
     name: 'Getting started',
+    parentSlug: 'getting-started',
     url: '/docs/getting-started/introduction/',
     subMenuItems1: [
       {
@@ -60,6 +61,7 @@ export const leftNavItems = [
   },
   {
     name: 'Sending Requests',
+    parentSlug: 'sending-requests',
     url: '/docs/sending-requests/requests/',
     subMenuItems1: [
       {
@@ -150,6 +152,7 @@ export const leftNavItems = [
   },
   {
     name: 'Writing Scripts',
+    parentSlug: 'writing-scripts',
     url: '/docs/writing-scripts/intro-to-scripts/',
     subMenuItems1: [
       {
@@ -186,6 +189,7 @@ export const leftNavItems = [
   },
   {
     name: 'Running Collections',
+    parentSlug: 'running-collections',
     url: '/docs/running-collections/intro-to-collection-runs/',
     subMenuItems1: [
       {
@@ -234,6 +238,7 @@ export const leftNavItems = [
   },
   {
     name: 'Collaborating in Postman',
+    parentSlug: 'collaborating-in-postman',
     url: '/docs/collaborating-in-postman/collaboration-intro/',
     subMenuItems1: [
       {
@@ -298,6 +303,7 @@ export const leftNavItems = [
   },
   {
     name: 'Designing and Developing your API',
+    parentSlug: 'designing-and-developing-your-api',
     url: '/docs/designing-and-developing-your-api/the-api-workflow/',
     subMenuItems1: [
       {
@@ -412,6 +418,7 @@ export const leftNavItems = [
   },
   {
     name: 'Publishing Your API',
+    parentSlug: 'publishing-your-api',
     url: '/docs/publishing-your-api/documenting-your-api/',
     subMenuItems1: [
       {
@@ -456,11 +463,12 @@ export const leftNavItems = [
   },
   {
     name: 'API Security',
-    url: '/docs/publishing-your-api/documenting-your-api/',
+    parentSlug: 'api-security',
+    url: '/docs/api-security/token-scanner/',
     subMenuItems1: [
       {
         name: 'Token Scanner',
-        url: '/docs/publishing-your-api/documenting-your-api/',
+        url: '/docs/api-security/token-scanner/',
       },
       {
         name: 'Security Warnings',
@@ -484,10 +492,12 @@ export const leftNavItems = [
   },
   {
     name: 'Administration',
+    parentSlug: 'administration',
     url: '/docs/administration/managing-your-team/managing-your-team/',
     subMenuItems1: [
       {
-        sluge: 'Managing Your Team',
+        name: 'Managing Your Team',
+        slug: '/docs/administration/managing-your-team/managing-your-team/',
         subMenuItems2: [
           {
             name: 'Managing your team',
@@ -589,7 +599,8 @@ export const leftNavItems = [
   },
   {
     name: 'Developer Resources',
-    url: '/docs/developer/resources-intro/',
+    parentSlug: 'developer',
+    url: '/docs/developer/echo-api/',
     subMenuItems1: [
       {
         name: 'Developing with Postman utilities',
@@ -603,26 +614,11 @@ export const leftNavItems = [
         name: 'Echo API',
         url: '/docs/developer/echo-api/',
       },
-      {
-        name: 'Collection SDK',
-        url: '/docs/developer/collection-sdk/',
-      },
-      {
-        name: 'Postman Runtime library',
-        url: '/docs/developer/runtime-library/',
-      },
-      {
-        name: 'Code generator library',
-        url: '/docs/developer/code-generators/',
-      },
-      {
-        name: 'Postman Collection conversion',
-        url: '/docs/developer/collection-conversion/',
-      },
     ],
   },
   {
     name: 'Integrations',
+    parentSlug: 'integrations',
     url: '/docs/integrations/intro-integrations/',
     subMenuItems1: [
       {
@@ -652,6 +648,10 @@ export const leftNavItems = [
           {
             name: 'Bitbucket',
             url: '/docs/integrations/available-integrations/bitbucket/',
+          },
+          {
+            name: 'Circle CI',
+            url: '/docs/integrations/available-integrations/ci-integrations/circleci/',
           },
           {
             name: 'Coralogix',
@@ -713,6 +713,10 @@ export const leftNavItems = [
             name: 'Statuspage',
             url: '/docs/integrations/available-integrations/statuspage/',
           },
+          {
+            name: 'Travis CI',
+            url: '/docs/integrations/available-integrations/ci-integrations/travis-ci/',
+          },
         ],
       },
       {
@@ -723,4 +727,4 @@ export const leftNavItems = [
   },
 ];
 
-// export default parentItems;
+// export default parentSlugItems;

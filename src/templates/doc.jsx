@@ -11,11 +11,13 @@ import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
 
+const { v4: uuidv4 } = require('uuid');
+
 export default ({ data }) => {
   const post = data.markdownRemark;
   let contextualLinks;
   if (post.frontmatter.contextual_links) {
-    contextualLinks = <ContextualLinks links={post.frontmatter.contextual_links} />;
+    contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;
   }
 
   return (
