@@ -5,11 +5,11 @@ const pingWebHook = require('./scripts/pingWebHook');
 const fetchBlogPosts = require('./scripts/fetchBlogPosts');
 const fetchEvents = require('./scripts/fetchEvents');
 
-if (process.env.NPM_TOKEN) {
-  const runtime = {
-    pm: ['node_modules/@postman/pm-tech/index.js'],
-  };
+const runtime = {
+  pm: ['node_modules/@postman/pm-tech/index.js'],
+};
 
+if (process.env.NPM_TOKEN) {
   sh.exec('mkdir -p public');
 
   Object.keys(runtime).forEach((key) => {
