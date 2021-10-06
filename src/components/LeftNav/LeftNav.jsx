@@ -16,7 +16,6 @@ const LeftNav = (props) => {
     return (
       <ul key={uuidv4()}>
         <li className="parent">
-          {/* <p data-section={`/docs/${slug}/`} onClick={sectionHandler}> */}
           <div className="container">
             <div className="row">
               <div className="caret-wrapper">

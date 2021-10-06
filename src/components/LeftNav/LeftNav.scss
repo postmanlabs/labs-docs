@@ -4,10 +4,8 @@
 .left-nav-re {
   padding: 32px 0px 8px 0px;
   background-color: $grey_05;
-  // height: 100%;
   font-size: 14px;
   font-family: $inter;
-  // max-width: 350px;
 
   & ul {
     margin-left: 0;
@@ -26,13 +24,12 @@
     font-weight: 400;
     list-style-type: none;
     margin-bottom: 4px;
-    // display: block;
   }
 
   .currentUrl {
     background-color: inherit;
     color: inherit;
-    // display: block;
+
     button:hover{
         color: $grey_60;
       }
@@ -105,13 +102,11 @@
 
     &.currentUrl{
       font-weight: 600;
-      // margin-left: 23px;
 
       > * {
         vertical-align: middle;
       }
       a:link, a:visited {
-        // margin-left: 5px;
         background-color: rgb(242, 242, 242);
         color: $grey_90;
         border-radius: 3px;
@@ -130,178 +125,4 @@
       }
     }
   }
-
-  // ul.active > .child, ul.active > .parent, ul.active > ul.inactive, ul.inactive.root {
-  //   display: block;
-  // }
 }
-
-
-// .leftNav {
-//   background-color: $grey_05;
-//   height: 100%;
-//   font-size: 14px;
-//   font-family: $inter;
-//   padding: 32px 0px 8px 0px;
-
-//   li {
-//     text-decoration: none;
-//   }
-//   .caret {
-//     position: relative;
-//     left: -8px;
-//     transition: transform .2s ease;
-//     -webkit-transform: rotate(-90deg);
-//     -moz-transform: rotate(-90deg);
-//     -o-transform: rotate(-90deg);
-//     -ms-transform: rotate(-90deg);
-//     transform: rotate(-90deg);
-//     @media screen and (min-width: 768px) {
-//       width: 10%;
-//       height: 24px;
-//     }
-    
-//     &.active-caret {
-//       transition: transform .2s ease;
-//       -webkit-transform: rotate(0deg);
-//       -moz-transform: rotate(0deg);
-//       -o-transform: rotate(0deg);
-//       -ms-transform: rotate(0deg);
-//       transform: rotate(0deg);
-//     }
-//   }
-
-  
-//   .active.root > .parent.currentUrl {
-//     background-color: inherit;
-//     color: inherit;
-//     padding-left: 70px;
-//     & button {
-//       &:hover{
-//         color: $grey_60;
-//       }
-//     }
-//   }
-//   .root > .parent{
-//     button {
-//       font-weight: 400;
-//     }
-//   }
-//   .parent {
-//     list-style-type: none;
-//     margin-left: -10px;
-//     .caret {
-//       position: relative;
-//       left: -8px;
-//       transition: transform .2s ease;
-//       -webkit-transform: rotate(-90deg);
-//       -moz-transform: rotate(-90deg);
-//       -o-transform: rotate(-90deg);
-//       -ms-transform: rotate(-90deg);
-//       transform: rotate(-90deg);
-//       @media screen and (min-width: 768px) {
-//         width: 10%;
-//         height: 24px;
-//       }
-      
-//       &.active-caret {
-//         transition: transform .2s ease;
-//         -webkit-transform: rotate(0deg);
-//         -moz-transform: rotate(0deg);
-//         -o-transform: rotate(0deg);
-//         -ms-transform: rotate(0deg);
-//         transform: rotate(0deg);
-//       }
-//     }
-
-//     & button {
-//       background: none;
-//       color: inherit;
-//       display: inline-block;
-//       border: none;
-//       padding: 0;
-//       font: inherit;
-//       cursor: pointer;
-//       outline: inherit;
-//       text-transform: capitalize;
-
-//       @media screen and (min-width: 768px) {
-//         width: 90%;
-//       text-align: left;
-//       }
-//       &:hover{
-//         color: $grey_60;
-//       }
-//     }
-
-//     &.currentUrl {
-//       // background-color: $grey_60;
-//       // color: $white;
-//       margin: 0 -8px 0 -80px;
-//       padding: 0 0 8px 70px;
-//       & button {
-//         &:hover {
-//           color: $white;
-//         }
-//       }
-//     }
-//   }
-//   .currentUrl{
-//     font-weight: 700;
-//     // margin-left: 23px;
-//     background-color: #f2f2f2;
-
-//     > * {
-//       vertical-align: middle;
-//     }
-//   }
-
-
-//   .child {
-//     margin-left: 16px;
-//     margin-right: 16px;
-//     // margin-bottom: 24px;
-//     // text-decoration: none;
-//     list-style-type: none;
-//     &.currentUrl{
-//       font-weight: 700;
-//       margin-left: 23px;
-
-//       > * {
-//         vertical-align: middle;
-//       }
-
-//       a:link, a:visited {
-//         margin-left: 5px;
-//         background-color: rgb(242, 242, 242);
-//         color: $grey_90;
-//         border-radius: 3px;
-//       }
-//     }
-    
-//     a:link, a:visited {
-//       display: block;
-//       text-decoration: none;
-//       color: inherit;
-//       padding: 9px;
-//       &:hover {
-//         color: $grey_90;
-//         background-color: rgb(242, 242, 242);
-//         border-radius: 3px;
-//       }
-//     }
-//   }
-
-//   ul.active > .child, ul.active > .parent, ul.active > ul.inactive, ul.inactive.root {
-//     display: block;
-//   }
-
-//   ul.active > .child {
-//     color: $grey_50;
-//     margin-bottom: 0;
-//   }
-
-//   ul.inactive > .child, ul.inactive > ul {
-//     display: none;
-//   }
-// }
