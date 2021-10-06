@@ -34,7 +34,7 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications—mobile apps, websites, or desktop applications—you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture this HTTP network traffic using the poxy that's built into the Postman app.
+If you are using APIs to build client-side applications—mobile apps, websites, or desktop applications—you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture this HTTP network traffic using the proxy that's built into the Postman app.
 
 > You can also capture HTTP requests in Chrome using [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
 
@@ -121,7 +121,7 @@ The broader development community has published some useful tutorials for settin
 
 ## Capturing HTTPS traffic
 
-In addition to capturing HTTP traffic, you can use the Postman's built-in proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices
+In addition to capturing HTTP traffic, you can use the Postman's built-in proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices.
 
 You must install the `postman-proxy-ca.crt` certificate on your device to be able to capture secure HTTP traffic. First, [set up the proxy in Postman](#example---using-the-postman-proxy) as described above. Then follow the instructions below to install the required security certificate on the target devices.
 
@@ -167,7 +167,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
     [![Select crt file](https://assets.postman.com/postman-docs/windows-install-crt-aa.jpeg)](https://assets.postman.com/postman-docs/windows-install-crt-aa.jpeg)
 
-1. Select **Local Machine** and select **Next**. This action requires Administrator permissions.
+1. Select **Local Machine** and select **Next**. This action requires Administrator permissions—select **Yes** to proceed.
 1. Select **Place all certificates in the following store**.
 1. Select **Browse** and then select **Trusted Root Certification Authorities**.
 
