@@ -172,7 +172,7 @@ Edit the environment name, or the names and values of your variables, bearing in
 
 [![Viewer role on environment](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)
 
-If you have viewer access to an environment, you will see a padlock icon next to the name to indicate that it is readonly, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will to **Request Access**.
+If you have viewer access to an environment, you will see a padlock icon next to the name to indicate that it is readonly, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
 
 > You can edit current values for variables in an active (currently selected) environment directly via the environment quick look. Click the pencil icon to edit your chosen value.
 

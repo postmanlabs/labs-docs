@@ -73,7 +73,7 @@ In Postman, select **Invite**.
 
 [![Invite button](https://assets.postman.com/postman-docs/invite-button-wksp-v9.1.jpg)](https://assets.postman.com/postman-docs/invite-button-wksp-v9.1.jpg)
 
-Enter the name, email, or [group](docs/administration/managing-your-team/user-groups/) of individuals you'd like to invite to your workspace, then **Send Invites**.
+Enter the name, email, or [group](/docs/administration/managing-your-team/user-groups/) of individuals you'd like to invite to your workspace, then **Send Invites**.
 
 <img alt="Invite users to workspace" src="https://assets.postman.com/postman-docs/invite-to-workspace-gif-v9.1.gif"/>
 

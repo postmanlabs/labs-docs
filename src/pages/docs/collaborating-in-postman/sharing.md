@@ -79,7 +79,7 @@ You can share entities to personal, private, team, and public workspaces that yo
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-Select the workspace, then **Move**(**Collection**, **API**, or **Environment**).
+Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
 
