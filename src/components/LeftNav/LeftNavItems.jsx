@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/prefer-default-export
 export const leftNavItems = [
   {
-    name: 'Getting started',
+    name: 'Getting Started',
     parentSlug: 'getting-started',
     url: '/docs/getting-started/introduction/',
     subMenuItems1: [
