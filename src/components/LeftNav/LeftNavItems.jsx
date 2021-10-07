@@ -114,6 +114,7 @@ export const leftNavItems = [
       },
       {
         name: 'Capturing Request Data',
+        subParentSlug: 'capturing-request-data',
         slug: '/docs/sending-requests/capturing-request-data/capturing-http-requests/',
         subMenuItems2: [
           {
@@ -132,6 +133,7 @@ export const leftNavItems = [
       },
       {
         name: 'Supported API Frameworks',
+        subParentSlug: 'supported-api-frameworks',
         slug: '/docs/sending-requests/supported-api-frameworks/graphql/',
         subMenuItems2: [
           {
@@ -169,6 +171,7 @@ export const leftNavItems = [
       },
       {
         name: 'Script references',
+        subParentSlug: 'script-references',
         slug: '/docs/writing-scripts/script-references/test-examples/',
         subMenuItems2: [
           {
@@ -210,6 +213,7 @@ export const leftNavItems = [
       },
       {
         name: 'Using Newman CLI',
+        subParentSlug: 'using-newman-cli',
         slug: '/docs/running-collections/using-newman-cli/command-line-integration-with-newman/',
         subMenuItems2: [
           {
@@ -279,6 +283,7 @@ export const leftNavItems = [
       },
       {
         name: 'Using Workspaces',
+        subParentSlug: 'using-workspaces',
         slug: '/docs/collaborating-in-postman/using-workspaces/creating-workspaces/',
         subMenuItems2: [
           {
@@ -352,6 +357,7 @@ export const leftNavItems = [
       },
       {
         name: 'Mocking Data',
+        subParentSlug: 'mocking-data',
         slug: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
         subMenuItems2: [
           {
@@ -374,6 +380,7 @@ export const leftNavItems = [
       },
       {
         name: 'Monitoring Your API',
+        subParentSlug: 'monitoring-your-api',
         slug: '/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/',
         subMenuItems2: [
           {
@@ -443,6 +450,7 @@ export const leftNavItems = [
       },
       {
         name: 'Run in Postman',
+        subParentSlug: 'run-in-postman',
         slug: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
         subMenuItems2: [
           {
@@ -472,6 +480,7 @@ export const leftNavItems = [
       },
       {
         name: 'Security Warnings',
+        subParentSlug: 'security-warnings',
         slug: '/docs/api-security/security-warnings/security-warnings-overview/',
         subMenuItems2: [
           {
@@ -539,6 +548,7 @@ export const leftNavItems = [
       },
       {
         name: 'Single Sign-On (SSO)',
+        subParentSlug: 'sso',
         slug: '/docs/administration/sso/intro-sso/',
         subMenuItems2: [
           {
@@ -631,6 +641,7 @@ export const leftNavItems = [
       },
       {
         name: 'Available Integrations',
+        subParentSlug: 'available-integrations',
         slug: '/docs/integrations/available-integrations/apimatic/',
         subMenuItems2: [
           {
