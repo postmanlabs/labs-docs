@@ -5,7 +5,7 @@
 
   {
     name: 'Title of Parent drawer: Getting started',
-    parentSlug: 'parent path: getting-started',
+    parentSlug: 'Parent path: getting-started',
     url: 'This is the page that the user should land on when clicking on the parent drawer. Can be any url: /docs/getting-started/introduction/',
     subMenuItems1: [
       {
