@@ -2,7 +2,7 @@
 
 # Postman Learning Center
 
-Postman is the collaboration platform for API development. And the [Postman Learning Center](https://learning.postman.com/) has the resources you need to ramp up quickly and extend your skills with Postman. Postman allows you to write API test cases in any format of your choice (JSON/XML/many more) and run them to verify and validate your API. Moreover, Postman provides [collections](https://learning.postman.com/docs/getting-started/creating-the-first-collection/) which can improve a developer's workflow. Postman is available for several platforms including Windows and macOS. For more information visit [the Postman website](https://www.postman.com/).
+Postman is the collaboration platform for API development. The [Postman Learning Center](https://learning.postman.com/) has the resources you need to ramp up quickly and extend your skills with Postman. Postman enables you to write API test cases in any format of your choice (JSON/XML/many more) and run them to verify and validate your API. Moreover, Postman provides [collections](https://learning.postman.com/docs/getting-started/creating-the-first-collection/) which can improve a developer's workflow. There are also powerful tools for API-first development, including writing API schemas and generating server code. Postman is available for several platforms including Windows, macOS, and Linux. For more information visit [the Postman website](https://www.postman.com/).
 
 ## Contribution guidelines
 
@@ -28,17 +28,17 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 ```
 
-**NOTE:** this site was built with node v12.11.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.11.0.
+**NOTE:** this site was built with node v12.13.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.13.0.
 
 ### Build using Docker
 
-You can build the Learning Center and run it in a Docker container using the following dockerfile.
+You can build the Learning Center and run it in a Docker container by creating a `dockerfile`.
 
 1. Start by cloning the the repository
 
    `git clone https://github.com/postmanlabs/postman-docs.git`
 
-2. Create a file and name it "dockerfile" with the following contents:
+2. Create a file and name it `dockerfile` with the following contents:
 
     ```shell
 
@@ -58,7 +58,7 @@ You can build the Learning Center and run it in a Docker container using the fol
 
     ```
 
-    The dockerfile should be in the same directory as the postman-docs directory
+    The `dockerfile` should be in the same directory as the `postman-docs` directory
 
     ```shell
 
@@ -124,7 +124,6 @@ The built site will only host the most up-to-date docs. All legacy documentation
 ```shell
 
    [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
-
 ```
 
 ## Resources
