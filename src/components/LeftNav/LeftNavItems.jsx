@@ -610,7 +610,7 @@ export const leftNavItems = [
   {
     name: 'Developer Resources',
     parentSlug: 'developer',
-    url: '/docs/developer/echo-api/',
+    url: '/docs/developer/resources-intro/',
     subMenuItems1: [
       {
         name: 'Developing with Postman utilities',
@@ -638,6 +638,10 @@ export const leftNavItems = [
       {
         name: 'Custom Webhooks',
         url: '/docs/integrations/webhooks/',
+      },
+      {
+        name: 'CI Integrations',
+        url: '/docs/integrations/ci-integrations/',
       },
       {
         name: 'Available Integrations',
@@ -729,10 +733,6 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/ci-integrations/travis-ci/',
           },
         ],
-      },
-      {
-        name: 'CI Integrations',
-        url: '/docs/integrations/ci-integrations/',
       },
     ],
   },
