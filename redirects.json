@@ -1842,5 +1842,13 @@
 	{
 		"from": "/docs/getting-started/importing-templates/",
 		"to": "/docs/getting-started/exploring-public-api-network/"
+	},
+	{
+		"from": "/docs/integrations/available-integrations/ci-integrations/circleci/",
+		"to": "/docs/integrations/available-integrations/circleci/"
+	},
+	{
+		"from": "/docs/integrations/available-integrations/ci-integrations/travis-ci/",
+		"to": "/docs/integrations/available-integrations/travis-ci/"
 	}
 ]
