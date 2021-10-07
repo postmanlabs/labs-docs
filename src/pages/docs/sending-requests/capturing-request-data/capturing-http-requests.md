@@ -43,6 +43,7 @@ If you are using APIs to build client-side applications—mobile apps, websites,
 * [How the built-in proxy works](#how-the-built-in-proxy-works)
 * [Example - Using the Postman proxy](#example---using-the-postman-proxy)
 * [Capturing HTTPS traffic](#capturing-https-traffic)
+* [Troubleshooting certificate issues](#troubleshooting-certificate-issues)
 
 ## How the built-in proxy works
 
@@ -131,13 +132,13 @@ You must install the `postman-proxy-ca.crt` certificate on your device to be abl
 
 Before you install the `postman-proxy-ca.crt` certificate, you must install the OpenSSL module.
 
-#### Installing the OpenSSL module on Windows
+#### Installing OpenSSL on Windows
 
-Postman uses the **OpenSSL** module to generate certificate-key pairs. For Postman to be able to generate the `postman-proxy-ca.crt` certificate, the OpenSSL module must be installed on your computer and accessible through the command line.
+Postman uses **OpenSSL** to generate certificate-key pairs. For Postman to be able to generate the `postman-proxy-ca.crt` certificate, the OpenSSL module must be installed on your computer and accessible through the command line.
 
 OpenSSL is already installed for macOS and is typically installed for Linux. For Windows systems, you must install OpenSSL manually:
 
-1. Download and install the [OpenSSL module installer](https://slproweb.com/products/Win32OpenSSL.html) for your operating system version.
+1. Download and install the [OpenSSL v1.1.1 installer](https://slproweb.com/products/Win32OpenSSL.html) for your operating system version. **Important:** OpenSSL v1.x is required to generate certificates. Later versions of OpenSSL are not supported at this time.
 
     > During installation, make sure to select the option to copy the OpenSSL DLLs to the **OpenSSL binaries (/bin) directory**.
 
@@ -155,11 +156,11 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 1. Select **OK** to add the folder directory. Then select **OK** to confirm changes and close the remaining windows.
 1. Open a command prompt. To do this, open the Windows **Start** menu, search for **cmd**, and select **Open**. Enter the command `openssl version` to confirm that installation was successful. You should see output similar to the following:
 
-    ``OpenSSL 3.0.0 7 sep 2021 (Library: OpenSSL 3.0.0 7 sep 2021)``
+    ``OpenSSL 1.1.1l  24 Aug 2021``
 
 #### Installing the security certificate on Windows
 
-> Before you begin, make sure to [install the OpenSSL module](#installing-the-openssl-module-on-windows) so Postman can generate the certificate.
+> Before you begin, make sure to [install the OpenSSL module](#installing-openssl-on-windows) so Postman can generate the certificate.
 
 1. In Windows File Explorer, navigate to the `%APPDATA%\Postman\proxy` folder. Typically, the folder will be located at `C:\Users\<user>\AppData\Roaming\Postman\proxy`.
 
@@ -184,10 +185,10 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 1. Select **System** in the **Keychain** list, and then select **Add**. Enter your system password to confirm the action.
 1. In Keychain Access, double-click the imported Postman certificate to open it.
 
-    [![Select System keychains](https://assets.postman.com/postman-docs/mac-install-crt-aa.jpeg)](https://assets.postman.com/postman-docs/mac-install-crt-aa.jpeg)
+    [![Select System keychains](https://assets.postman.com/postman-docs/mac-install-new-crt-v9-1.jpg)](https://assets.postman.com/postman-docs/mac-install-new-crt-v9-1.jpg)
 
 1. Expand the **Trust** section. Select the option to **Always Trust** when using this certificate, and make sure **Always Trust** is selected for **Secure Sockets Layer(SSL)**.
-    [![Select always trust for Postman keychain](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-aa.jpeg)](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-aa.jpeg)
+    [![Select always trust for Postman keychain](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-v9-1.jpg)](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-v9-1.jpg)
 
 1. Close the certificate window. Enter your system password to update the settings.
 
@@ -275,7 +276,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 <img src="https://assets.postman.com/postman-docs/proxy-android-certificate-v9-1.jpg" alt="Android certificate installed" width="350">
 
-### Troubleshooting certificate issues
+## Troubleshooting certificate issues
 
 If you are unable to correctly install the `postman-proxy-ca.crt` certificate, or if the certificate is not allowing you to capture traffic, try regenerating and reinstalling the certificate.
 
