@@ -1,3 +1,33 @@
+/*
+  use this file to create the left nav information architecture.
+
+  Example code for parent, child, second level parent, second level child:
+
+  {
+    name: 'Title of Parent drawer: Getting started',
+    parentSlug: 'parent path: getting-started',
+    url: 'This is the page that the user should land on when clicking on the parent drawer. Can be any url: /docs/getting-started/introduction/',
+    subMenuItems1: [
+      {
+        name: 'first level child: Introduction',
+        url: 'path to the first level child: /docs/getting-started/introduction/',
+      },
+      {
+        name: 'This is a first level child that is also the second level parent drawer title: Capturing Request Data',
+        subParentSlug: 'second parent path: capturing-request-data',
+        slug: 'Page that user should land on when clicking on second level parent. Can be any url: /docs/sending-requests/capturing-request-data/capturing-http-requests/',
+        subMenuItems2: [
+          {
+            name: 'second level child: Capturing HTTP requests',
+            url: 'path to second level child: /docs/sending-requests/capturing-request-data/capturing-http-requests/',
+          },
+        ],
+      },
+    ],
+  }
+*/
+
+
 // eslint-disable-next-line import/prefer-default-export
 export const leftNavItems = [
   {
