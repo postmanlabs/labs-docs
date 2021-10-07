@@ -30,8 +30,8 @@ export const leftNavItems = [
         url: '/docs/getting-started/syncing/',
       },
       {
-        name: 'Discovering templates',
-        url: '/docs/getting-started/importing-templates/',
+        name: 'Exploring the Public API Network',
+        url: '/docs/getting-started/exploring-public-api-network/',
       },
       {
         name: 'Creating your first collection',
@@ -141,7 +141,7 @@ export const leftNavItems = [
             url: '/docs/sending-requests/supported-api-frameworks/graphql/',
           },
           {
-            name: 'Using WebsSocket Requests',
+            name: 'Using WebSocket Requests',
             url: '/docs/sending-requests/supported-api-frameworks/websocket/',
           },
           {
@@ -259,7 +259,7 @@ export const leftNavItems = [
       },
       {
         name: 'Sharing your work',
-        url: '/docs/running-colldocs/collaborating-in-postman/sharing/ections/working-with-data-files/',
+        url: '/docs/running-colldocs/collaborating-in-postman/sharing/sections/working-with-data-files/',
       },
       {
         name: 'Your Private API Network',
@@ -624,6 +624,22 @@ export const leftNavItems = [
         name: 'Echo API',
         url: '/docs/developer/echo-api/',
       },
+      {
+        name: 'Collection SDK',
+        url: '/docs/developer/collection-sdk/',
+      },
+      {
+        name: 'Postman Runtime library',
+        url: '/docs/developer/runtime-library/',
+      },
+      {
+        name: 'Code generator library',
+        url: '/docs/developer/code-generators/',
+      },
+      {
+        name: 'Postman Collection conversion',
+        url: '/docs/developer/collection-conversion/',
+      },
     ],
   },
   {
@@ -675,6 +691,10 @@ export const leftNavItems = [
           {
             name: 'Datadog',
             url: '/docs/integrations/available-integrations/datadog/',
+          },
+          {
+            name: 'Dropbox',
+            url: '/docs/integrations/available-integrations/dropbox/',
           },
           {
             name: 'GitHub',
