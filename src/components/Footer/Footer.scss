@@ -33,7 +33,7 @@ footer {
   font-weight: 600;
   line-height: 1.4;
   margin-bottom: 8px;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', Helvetica, Arial, sans-serif !important;
+  font-family: $inter !important;
   color: #707070;
 }
 .column {
@@ -48,7 +48,7 @@ footer {
 .column-link {
   color: #707070;
   text-transform: none;
-  font-family: 'Inter';
+  font-family: $inter;
   font-weight: 400;
   display: block;
   line-height: 1.7;

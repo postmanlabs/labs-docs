@@ -16,27 +16,21 @@ const triggerGA = (category, label) => (
 
 
 // Helper function for rel attribute in link or button
-function relStringGenerator(hrefType) {
-  if (hrefType === 'internal') {
+function relStringGenerator(target) {
+  if (target === '') {
     return null;
   }
-  if (hrefType === 'external-other') {
+  if (target === 'blank') {
     return 'noopener noreferrer';
-  }
-  if (hrefType === 'external-postman') {
-    return 'noopener';
   }
   return null;
 }
 // // Helper function for target attribute in link or button
-function targetStringGenerator(hrefType) {
-  if (hrefType === 'internal') {
+function targetStringGenerator(target) {
+  if (target === '') {
     return null;
   }
-  if (hrefType === 'external-other') {
-    return '_blank';
-  }
-  if (hrefType === 'external-postman') {
+  if (target === 'blank') {
     return '_blank';
   }
   return null;
@@ -91,8 +85,8 @@ class FooterComponent extends React.Component {
                                   className="column-link"
                                   id={link.id}
                                   href={link.url}
-                                  rel={relStringGenerator(link.hrefType)}
-                                  target={targetStringGenerator(link.hrefType)}
+                                  rel={relStringGenerator(link.target)}
+                                  target={targetStringGenerator(link.target)}
                                   onClick={() => {
                                     triggerGA(link.category, link.label);
                                   }}
@@ -132,8 +126,8 @@ class FooterComponent extends React.Component {
                                     className="column-link"
                                     id={link.id}
                                     href={link.url}
-                                    rel={relStringGenerator(link.hrefType)}
-                                    target={targetStringGenerator(link.hrefType)}
+                                    rel={relStringGenerator(link.target)}
+                                    target={targetStringGenerator(link.target)}
                                     onClick={() => {
                                       triggerGA(link.category, link.label);
                                     }}
@@ -172,8 +166,8 @@ class FooterComponent extends React.Component {
                                     className="column-link"
                                     id={link.id}
                                     href={link.url}
-                                    rel={relStringGenerator(link.hrefType)}
-                                    target={targetStringGenerator(link.hrefType)}
+                                    rel={relStringGenerator(link.target)}
+                                    target={targetStringGenerator(link.target)}
                                     onClick={() => {
                                       triggerGA(link.category, link.label);
                                     }}
@@ -215,9 +209,9 @@ class FooterComponent extends React.Component {
                                       className="column-link"
                                       id={link.id}
                                       href={link.url}
-                                      rel={relStringGenerator(link.hrefType)}
+                                      rel={relStringGenerator(link.target)}
                                       target={targetStringGenerator(
-                                        link.hrefType,
+                                        link.target,
                                       )}
                                       onClick={() => {
                                         triggerGA(link.category, link.label);
