@@ -74,8 +74,6 @@ exports.createPages = async ({ graphql, actions }) => {
 
 /* Create Header and Footer
 /************************************************************************ */
-
-
 exports.sourceNodes = async ({
   actions,
   createNodeId,
