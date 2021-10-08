@@ -536,6 +536,7 @@ export const leftNavItems = [
     subMenuItems1: [
       {
         name: 'Managing Your Team',
+        subParentSlug: 'managing-your-team',
         slug: '/docs/administration/managing-your-team/managing-your-team/',
         subMenuItems2: [
           {
