@@ -170,21 +170,27 @@ To save a request:
 
 You can see your collection and saved request under the **Collections** tab of the left sidebar on the left:
 
-<img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v8.jpg" width="400px"/><!--TODO: replace -->
+<img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/websocket-collection-v2.jpg" width="400px"/>
 
 Because WebSocket requests have different features than HTTP requests, when they are added to a collection, it causes the collection to be in a “beta” state with certain limitations.
 
 When in this state, a collection can only contain WebSocket requests. It can't contain folders or HTTP requests, and you can't move requests into or out of such a collection.
-<!--TODO: can you move from one beta collection to another? -->
 
-Collections containing WebSocket requests can be shared, and support the use of documentation and variables. Other features related to collections are not currently supported, such as collaboration, version control, or scripting.
+Collections containing WebSocket requests support the use of documentation and variables. Other features related to collections are not currently supported, such as collaboration, version control, or scripting.
 
-## Documenting collections
+## Documenting collections and requests
 
-You can add documentation to your collection to give it a summary, and add any notes or details you want to share with others.
-<!--TODO:
-On the **Overview tab**
--->
+You can add documentation to your collection or requests to give it a summary, and add any notes or details you want to share with others.
+
+To document a WebSocket request:
+
+1. Open the request.
+1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
+1. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
+1. Author your description using [Markdown](/docs/publishing-your-api/authoring-your-documentation/#authoring-descriptions-in-markdown).
+1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
+
+Documenting a collection is similar, but the description is on the **Overview** tab of the collection. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description, write a summary, and select **Save**.
 
 ## Other Socket.IO Notes
 
