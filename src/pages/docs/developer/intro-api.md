@@ -46,19 +46,29 @@ You will need an [API key](#generating-a-postman-api-key) to access the Postman 
 
 ## Generating a Postman API key
 
-1. Navigate to the [**Postman API Keys** page](https://go.postman.co/settings/me/api-keys).
+You need a valid API Key to send requests to the Postman API.
 
-1. Select __Generate API Key__.
+You can generate an API key by navigating to your [Postman API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the upper-right corner > **Account Settings**. Then select **Postman API keys**.
 
-1. Enter a name for your key and select __Generate API Key__.
+If you do not have any keys yet you will be prompted to create one. Select __Generate API Key__.
 
-1. Copy your key and select __Close__.
+<img alt="Generate API Key" src="https://assets.postman.com/postman-docs/no-api-keys-generate-v9.0.jpg" width="400px"/>
 
-1. Once you generate keys, you can deactivate, regenerate, or delete them from the **Postman API Keys** page.
+Enter a name for your key and select __Generate API Key__.
 
-    ![Workspace Keys](https://assets.postman.com/postman-docs/api-keys-overview.jpg)
+<img src="https://assets.postman.com/postman-docs/generate-api-key-v9.jpg" alt="Name your API key" width="600px"/>
 
-1. Select __API Key Settings__ to specify expiration periods for your keys.
+Copy your key, then __Close__.
+
+<img src="https://assets.postman.com/postman-docs/copy-your-api-key-v9.jpg" alt="Copy your API key" width="600px"/>
+
+Once you have API keys generated you can manage them within your workspace. Select **...** next to a key to regenerate or delete it.
+
+<img src="https://assets.postman.com/postman-docs/api-keys-regenerate-delete-v9.jpg" alt="View your API keys"/>
+
+Use __API Key Settings__ to specify expiration periods for your keys.
+
+<img src="https://assets.postman.com/postman-docs/postman-api-key-settings.jpg" width="400px" alt="API key settings"/>
 
 ### Authentication
 

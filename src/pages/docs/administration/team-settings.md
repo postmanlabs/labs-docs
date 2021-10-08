@@ -54,7 +54,7 @@ You can select **Team Discovery** from the left-hand menu to view your options f
 
 See [Team Discovery](/docs/collaborating-in-postman/collaboration-intro/#team-discovery) for more information on this feature and the admin and user experience it provides.
 
-<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/ts-team-discovery.jpg"/>
+<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg"/>
 
 ## Adding custom domains
 
@@ -92,8 +92,8 @@ View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for
 
 ## Managing invite links
 
-You can select **Manage Invite Links** from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
+You can select [**Manage Invite Links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
 
-<img alt="Managing invite links" src="https://assets.postman.com/postman-docs/ts-manage-invites.jpg"/>
+<img alt="Managing invite links" src="https://assets.postman.com/postman-docs/team-manage-invite-links-v9.1.0.jpg"/>
 
-You can select any column header to sort the list in ascending or descending order. You can also hover over a row and select the icon that appears on the right-hand side to copy the corresponding invite URL.
+You can hover over a row and select the **Copy Link** icon on the right-hand side to copy the corresponding invite URL. To delete a link, hover over the row and select the **Delete Link** trash can icon on the right-hand side.
